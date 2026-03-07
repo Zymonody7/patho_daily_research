@@ -312,6 +312,51 @@ def get_ncbi_api_settings() -> Dict[str, str]:
     return out
 
 
+def request_pubmed_with_fallback(
+    session: requests.Session,
+    url: str,
+    *,
+    params: Dict[str, Any],
+    timeout: int,
+    label: str,
+) -> requests.Response:
+    variants: List[Dict[str, Any]] = [dict(params)]
+    if "email" in params or "tool" in params:
+        trimmed = dict(params)
+        trimmed.pop("email", None)
+        trimmed.pop("tool", None)
+        variants.append(trimmed)
+    if "api_key" in params:
+        anonymous = dict(variants[-1])
+        anonymous.pop("api_key", None)
+        variants.append(anonymous)
+
+    last_error: Exception | None = None
+    for idx, variant in enumerate(variants, start=1):
+        try:
+            if idx > 1:
+                removed = sorted(set(params.keys()) - set(variant.keys()))
+                log(f"[WARN] {label} fallback {idx}/{len(variants)} remove={','.join(removed) or 'none'}")
+            return get_with_retry(
+                session,
+                url,
+                params=variant,
+                timeout=timeout,
+                label=label,
+            )
+        except requests.HTTPError as exc:
+            last_error = exc
+            status_code = getattr(getattr(exc, "response", None), "status_code", None)
+            if status_code != 400 or idx >= len(variants):
+                break
+            continue
+        except requests.RequestException as exc:
+            last_error = exc
+            break
+    assert last_error is not None
+    raise last_error
+
+
 def _to_iso_day(value: Any) -> str:
     text = str(value or "").strip()
     if not text:
@@ -437,7 +482,7 @@ def fetch_pubmed_papers(queries: List[str], per_query_limit: int = 40, days: int
             "datetype": "pdat",
         }
         params.update(ncbi_params)
-        resp = get_with_retry(
+        resp = request_pubmed_with_fallback(
             session,
             "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
             params=params,
@@ -451,7 +496,7 @@ def fetch_pubmed_papers(queries: List[str], per_query_limit: int = 40, days: int
         if not ids:
             continue
         id_seen.update(ids)
-        fetch_resp = get_with_retry(
+        fetch_resp = request_pubmed_with_fallback(
             session,
             "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
             params={"db": "pubmed", "id": ",".join(ids), "retmode": "xml", **ncbi_params},
