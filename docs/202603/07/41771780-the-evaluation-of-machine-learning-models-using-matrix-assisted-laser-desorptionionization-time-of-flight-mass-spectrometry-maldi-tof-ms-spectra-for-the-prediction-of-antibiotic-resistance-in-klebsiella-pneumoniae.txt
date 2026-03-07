@@ -1,0 +1,113 @@
+Title: The Evaluation of Machine Learning Models Using Matrix-Assisted Laser Desorption/Ionization Time-of-Flight Mass Spectrometry (MALDI-TOF-MS) Spectra for the Prediction of Antibiotic Resistance in Klebsiella pneumoniae - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41771780/
+
+Markdown Content:
+Review
+
+The Evaluation of Machine Learning Models Using Matrix-Assisted Laser Desorption/Ionization Time-of-Flight Mass Spectrometry (MALDI-TOF-MS) Spectra for the Prediction of Antibiotic Resistance in Klebsiella pneumoniae
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Stephen Mark Edward Fordham. Microbiologyopen.2026 Apr.
+
+Abstract
+--------
+
+Antimicrobial resistance in Klebsiella pneumoniae poses a major clinical challenge, driving development in rapid, diagnostic strategies that extend beyond conventional susceptibility testing. Twenty-three studies demonstrate that using matrix-assisted laser desorption/ionization time-of-flight mass spectrometry (MALDI-TOF-MS) spectra to create machine learning (ML) models yields rapid and accurate predictions of antibiotic resistance in K. pneumoniae. Across these studies, most models focused on carbapenem resistance and achieved Area Under the Receiver Operating Characteristic Curve (AUROC) values consistently above 0.90, with ensemble algorithms, particularly Random Forest, XGBoost, and Light Gradient Boosting Machine, and deep learning models such as Convolutional Neural Networks attaining accuracies as high as 97% and even AUROCs reaching 0.99 or higher. Sample sizes ranged from 35 to over 15,000 isolates, reinforcing the robustness of these findings across diverse clinical settings. In addition to high discrimination performance, this evaluation reports that ML models developed using MALDI-TOF-MS spectra shorten diagnostic turnaround from days (48-96 h with conventional methods) to minutes or hours, using existing MALDI-TOF-MS equipment for economical implementation. However, ML diagnostic tools remain constrained by limited external validation, spectra preprocessing protocols, and variability between different MALDI-TOF-MS platforms. These limitations may restrict model generalizability and clinical translation, highlighting the need for standardized workflows and larger multicenter evaluations.
+
+**Keywords:** Klebsiella pneumoniae; MALDI–TOF–MS; machine learning; rapid diagnostics.
+
+© 2026 The Author(s). MicrobiologyOpen published by John Wiley & Sons Ltd.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+None declared.
+
+Figures
+-------
+
+[![Image 1: Figure 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e6dd/12953053/c0a50258bf49/MBO3-15-e70257-g003.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e6dd/12953053/be492fb7b810/MBO3-15-e70257-g003.jpg)
+
+**Figure 1**
+A quantitative summary of the characteristics of ML classifiers for the prediction of antibiotic resistance in _Klebsiella pneumoniae_. The most common ML classifiers include the RF model (13 studies), alongside SVC/LR (10 studies each). These ML classifiers have been developed to determine carbapenem resistance and/or their subtypes, and four other antibiotic resistance classes. A range of bacterial isolates is used to build these models; 35–15,782 isolates were included. Red colored horizontal bars refer to the highest counts obtained. LR, logistic regression; ML, machine learning; RF, Random Forest; RFC, RF classifier; SVC, support vector classifier.
+
+[![Image 2: Figure 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e6dd/12953053/24357f54dbf5/MBO3-15-e70257-g001.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e6dd/12953053/aed2eecef93e/MBO3-15-e70257-g001.jpg)
+
+**Figure 2**
+Agar medium used prior to spectral acquisition in _Klebsiella pneumoniae_ for ML models. (Left) The predominant culture medium across studies was blood agar. Eight studies did not report the culture media used, representing a significant gap in methodological reporting. (Right) When classification relies on pattern‐matching across thousands of spectral features, even subtle changes in protein expression due to media composition may accumulate to affect prediction accuracy; small m/z peak shifts and unique peak and/or suppression may occur. The De Waele et al. (2025) study developed a MALDI–TOF–MS‐based antimicrobial recommender system and used the same DRIAMS core data set for the development of ML predictive models as Weis et al. (2022). This study was therefore not included in the “Not reported” category to eliminate duplication. BP, Baird–Parker; CNA, circulating nucleic acids; DRIAMS, Database of Resistance in Antimicrobials using MALDI‐TOF MS Spectrometry; EMB, eosin methylene blue; MALDI, matrix‐assisted laser desorption/ionization; ML, machine learning; MS, mass spectrometry; PEA, presumptive enteric agar; TOF, time‐of‐flight.
+
+[![Image 3: Figure 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e6dd/12953053/f2ec589ff582/MBO3-15-e70257-g002.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e6dd/12953053/b27e56eb2f34/MBO3-15-e70257-g002.jpg)
+
+**Figure 3**
+Platform, source, and external validation of isolates used to develop ML models for antibiotic prediction in _Klebsiella pneumoniae_. (A) External validation was performed for three studies. De Waele et al. (2025) used data from multiple hospitals (DRIAMS‐B, DRIAMS‐C, and DRIAMS‐D) for transfer learning experiments and external validation. The main training data came from DRIAMS‐A (University Hospital Basel), with external validation using 1000 randomly drawn spectra from each of the other hospitals. Weis et al. (2022) and López‐Cortés et al. (2024) validated models using the DRIAMS database, which includes external data sets from DRIAMS‐B, DRIAMS‐C, and DRIAMS‐D, collected from different clinical laboratories using the same mass spectrometry system. The external data sets were from different laboratories than the training data (DRIAMS‐A). (B) Most models are developed using data from a single hospital. (C) Bruker and VITEK bioMérieux MALDI–TOF–MS platforms are primarily used to acquire spectra for model development. DRIAMS, Database of Resistance in Antimicrobials using MALDI‐TOF MS Spectrometry; MALDI, matrix‐assisted laser desorption/ionization; ML, machine learning; MS, mass spectrometry; TOF, time‐of‐flight.
+
+[![Image 4: Figure 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e6dd/12953053/387b0cb2fa01/MBO3-15-e70257-g004.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e6dd/12953053/c15b1f0abe33/MBO3-15-e70257-g004.jpg)
+
+**Figure 4**
+Artificial clinical decision support system workflow for _Klebsiella pneumoniae_ resistance reporting. (1) A small amount of a bacterial colony is mixed with a matrix (commonly α‐cyano‐4‐hydroxycinnamic acid—CHCA), obtained from a patient. A pulsed UV laser hits the matrix‐bacteria crystals. The matrix absorbs the laser pulse, desorbing the analytes into the gas phase, ionizing them, usually forming singly charged ions, +1. The ions are accelerated toward the detector by an electric field. (2) This results in a signal intensity versus ion flight time and is converted into an _m/z_ spectrum. (3) ML models such as support vector machines, logistic regression, and Random Forest use features derived from the spectra to make AMR predictions in _K. pneumoniae_ (4). ML–MALDI–TOF–MS models can lead to faster resistance reporting, leading to earlier interventions, but are currently limited by insufficient external data sets to test the performance of models on unseen data, and inter‐laboratory workflows such as the use of different MALDI–TOF–MS instruments to obtain MALDI–TOF–MS spectra. Figure created using Adobe Illustrator version 30.0. AI, artificial intelligence; AMR, antimicrobial resistance; MALDI, matrix‐assisted laser desorption/ionization; ML, machine learning; MS, mass spectrometry; TOF, time‐of‐flight; UV, ultraviolet.
+
+Similar articles
+----------------
+
+*   [Prediction of methicillin-resistant Staphylococcus aureus and carbapenem-resistant Klebsiella pneumoniae from flagged blood cultures by combining rapid Sepsityper MALDI-TOF mass spectrometry with machine learning.](https://pubmed.ncbi.nlm.nih.gov/37802231/)
+
+Yu J, Lin HH, Tseng KH, Lin YT, Chen WC, Tien N, Cho CF, Liang SJ, Ho LC, Hsieh YW, Hsu KC, Ho MW, Hsueh PR, Cho DY.Yu J, et al.Int J Antimicrob Agents. 2023 Dec;62(6):106994. doi: 10.1016/j.ijantimicag.2023.106994. Epub 2023 Oct 4.Int J Antimicrob Agents. 2023.PMID: 37802231 
+
+*   [Machine learning powered profiling: Rapid identification of Klebsiella Pneumoniae drug resistance from MALDI-TOF MS.](https://pubmed.ncbi.nlm.nih.gov/41077195/)
+
+Xu X, Gao Y.Xu X, et al.J Microbiol Methods. 2025 Nov;238:107291. doi: 10.1016/j.mimet.2025.107291. Epub 2025 Oct 10.J Microbiol Methods. 2025.PMID: 41077195 
+*   [Machine learning and matrix-assisted laser desorption/ionization time-of-flight mass spectra for antimicrobial resistance prediction: A systematic review of recent advancements and future development.](https://pubmed.ncbi.nlm.nih.gov/39197363/)
+
+López-Cortés XA, Manríquez-Troncoso JM, Kandalaft-Letelier J, Cuadros-Orellana S.López-Cortés XA, et al.J Chromatogr A. 2024 Oct 11;1734:465262. doi: 10.1016/j.chroma.2024.465262. Epub 2024 Aug 23.J Chromatogr A. 2024.PMID: 39197363 
+*   [MALDI-TOF MS in conjunction with machine learning: toward a new era for antimicrobial susceptibility testing.](https://pubmed.ncbi.nlm.nih.gov/41659813/)
+
+Wang M, Xia W, Du J, Ma H, Sun B, Jiang H, Xu J.Wang M, et al.Front Cell Infect Microbiol. 2026 Jan 23;15:1731083. doi: 10.3389/fcimb.2025.1731083. eCollection 2025.Front Cell Infect Microbiol. 2026.PMID: 41659813 Free PMC article.Review. 
+
+References
+----------
+
+1.       1.    Centers for Disease Control and Prevention . 2025. “CDC Partners Estimate Healthcare Cost of Antimicrobial‐Resistant Infections.” In Antimicrobial Resistance Stories. [https://www.cdc.gov/antimicrobial-resistance/stories/partner-estimates.html](https://www.cdc.gov/antimicrobial-resistance/stories/partner-estimates.html "External link: https://www.cdc.gov/antimicrobial-resistance/stories/partner-estimates.html"). 
+
+2.       1.    Clark, A. E. , Kaleta E. J., Arora A., and Wolk D. M.. 2013. “Matrix‐Assisted Laser Desorption Ionization‐Time of Flight Mass Spectrometry: A Fundamental Shift in the Routine Practice of Clinical Microbiology.” Clinical Microbiology Reviews 26, no. 3: 547–603. 10.1128/cmr.00072-12. - [DOI](https://doi.org/10.1128/cmr.00072-12) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3719498/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/23824373/)
+
+3.       1.    Committee of Public Accounts . 2025. “Antimicrobial Resistance: Addressing the Risks.” In Thirtieth Report of Session 2024–25 HC 646. 
+
+4.       1.    Cordovana, M. , Kostrzewa M., Glandorf J., Bienia M., Ambretti S., and Pranada A. B.. 2018. “A Full MALDI‐Based Approach to Detect Plasmid‐Encoded KPC‐Producing _Klebsiella pneumoniae_ .” Frontiers in Microbiology 9: 2854. 10.3389/fmicb.2018.02854. - [DOI](https://doi.org/10.3389/fmicb.2018.02854) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6277887/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/30542332/)
+
+5.       1.    De Carolis, E. , Paoletti S., Nagel D., et al. 2017. “A Rapid Diagnostic Workflow for Cefotaxime‐Resistant _Escherichia coli_ and _Klebsiella pneumoniae_ Detection From Blood Cultures by MALDI‐TOF Mass Spectrometry.” PLoS ONE 12, no. 10: e0185935. 10.1371/journal.pone.0185935. - [DOI](https://doi.org/10.1371/journal.pone.0185935) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC5628900/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/28982134/)
+
+Publication types
+-----------------
+
+*   Actions 
+*   Actions 
+
+MeSH terms
+----------
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+Substances
+----------
+
+*   Actions 
+
+LinkOut - more resources
+------------------------
+
+*   ### Full Text Sources
+
+    *   [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/pmid/41771780/)
+    *   [Wiley](https://onlinelibrary.wiley.com/doi/10.1002/mbo3.70257)
