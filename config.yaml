@@ -1,0 +1,307 @@
+github:
+  owner: ''
+  repo: daily-paper-reader
+arxiv_paper_setting:
+  mode: standard
+  days_window: 1
+  docs_dir: docs
+  prefer_supabase_read: true
+  categories:
+    - cs.AI
+    - cs.LG
+    - cs.CL
+    - stat.ML
+    - q-bio.GN
+    - q-bio.QM
+    - eess.AS
+paper_sources:
+  query_limit: 10
+  per_query_limit: 40
+  biorxiv_days: 2
+  medrxiv_days: 2
+  enabled_sources:
+    - arxiv
+    - europe_pmc
+    - pubmed
+    - biorxiv
+    - medrxiv
+supabase:
+  enabled: true
+  url: https://lyucdwgefyfbmaiopjbk.supabase.co
+  anon_key: sb_publishable_lX-oi64Uxyd7SIVv3_w2Uw_MTOojeKq
+  papers_table: arxiv_papers
+  use_vector_rpc: true
+  vector_rpc: match_arxiv_papers
+  vector_rpc_ann: match_arxiv_papers
+  vector_rpc_exact: match_arxiv_papers_exact
+  use_bm25_rpc: true
+  bm25_rpc: match_arxiv_papers_bm25
+  sync_table: arxiv_sync_status
+  sync_success_value: success
+  schema: public
+subscriptions:
+  schema_migration:
+    stage: A
+    diff_threshold_pct: 15
+  keyword_recall_mode: or
+  intent_profiles:
+    - tag: PathoAI
+      description: 病原组学中的 AI 方法
+      enabled: true
+      keywords:
+        - keyword: pathogen foundation model
+          keyword_cn: 病原基础模型
+          query: foundation models for pathogen genomes and pathogen biology
+        - keyword: metagenomic classification
+          keyword_cn: 宏基因组分类
+          query: machine learning for metagenomic pathogen classification
+        - keyword: pathogen detection model
+          keyword_cn: 病原检测模型
+          query: deep learning models for pathogen detection from sequencing data
+        - keyword: genomic surveillance ai
+          keyword_cn: 基因组监测AI
+          query: AI methods for genomic surveillance and outbreak monitoring
+        - keyword: amr prediction
+          keyword_cn: 耐药预测
+          query: machine learning for antimicrobial resistance prediction from genomes
+        - keyword: phylogenetic learning
+          keyword_cn: 系统发育学习
+          query: machine learning for phylogenetic and transmission inference
+        - keyword: multimodal pathogen model
+          keyword_cn: 病原多模态模型
+          query: multimodal models combining pathogen sequence phenotype and metadata
+        - keyword: microbiome host interaction
+          keyword_cn: 微生物组宿主互作
+          query: machine learning for microbiome host interaction pathogen ecology and infection modeling
+        - keyword: pathogen drug discovery
+          keyword_cn: 病原靶向药物发现
+          query: AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design
+      intent_queries:
+        - query: foundation models for pathogen genome understanding and surveillance
+          query_cn: 用于病原基因组理解与监测的基础模型
+          enabled: true
+          source: manual
+          note: ''
+        - query: machine learning for metagenomic pathogen detection and classification
+          query_cn: 面向宏基因组病原检测与分类的机器学习
+          enabled: true
+          source: manual
+          note: ''
+        - query: AI driven outbreak surveillance genomic epidemiology and transmission modeling
+          query_cn: AI 驱动的暴发监测 基因组流行病学与传播建模
+          enabled: true
+          source: manual
+          note: ''
+        - query: antimicrobial resistance prediction with pathogen genome foundation models
+          query_cn: 基于病原基因组基础模型的耐药性预测
+          enabled: true
+          source: manual
+          note: ''
+        - query: machine learning for microbiome host pathogen interaction and infection outcome prediction
+          query_cn: 微生物组 宿主 病原互作与感染结局预测的机器学习
+          enabled: true
+          source: manual
+          note: ''
+      updated_at: '2026-03-07T12:00:00.000Z'
+    - tag: BioInfo
+      description: AI for Bioinformatics 核心方法
+      enabled: true
+      keywords:
+        - keyword: biological foundation model
+          keyword_cn: 生物基础模型
+          query: foundation models for DNA RNA protein and cell biology
+        - keyword: protein language model
+          keyword_cn: 蛋白语言模型
+          query: protein language models for structure function prediction and design
+        - keyword: protein structure model
+          keyword_cn: 蛋白结构模型
+          query: geometric deep learning and foundation models for protein structure modeling
+        - keyword: protein design ai
+          keyword_cn: 蛋白设计AI
+          query: generative models and reinforcement learning for protein design and optimization
+        - keyword: molecular generation
+          keyword_cn: 分子生成
+          query: generative models for molecules proteins and therapeutic design
+        - keyword: drug discovery model
+          keyword_cn: 药物发现模型
+          query: foundation models and generative AI for drug discovery molecular property prediction and lead optimization
+        - keyword: crispr design model
+          keyword_cn: CRISPR设计模型
+          query: machine learning for CRISPR guide design genome editing outcome prediction and off target modeling
+        - keyword: gene regulatory network
+          keyword_cn: 基因调控网络
+          query: graph learning and foundation models for gene regulatory network inference and perturbation biology
+        - keyword: bioinformatics llm
+          keyword_cn: 生信大模型
+          query: large language models for bioinformatics analysis and reasoning
+        - keyword: multimodal biology model
+          keyword_cn: 生物多模态模型
+          query: multimodal models combining sequence structure phenotype and text
+        - keyword: omics integration
+          keyword_cn: 多组学整合
+          query: machine learning for multi omics integration
+        - keyword: representation learning
+          keyword_cn: 表征学习
+          query: representation learning for biological sequences and molecules
+        - keyword: retrieval augmented biology
+          keyword_cn: 生物检索增强
+          query: retrieval augmented generation for biology and bioinformatics
+        - keyword: scientific reasoning model
+          keyword_cn: 科研推理模型
+          query: scientific reasoning models for biology and biomedical tasks
+        - keyword: benchmark biology llm
+          keyword_cn: 生物模型评测
+          query: benchmark and evaluation for bioinformatics language models
+      intent_queries:
+        - query: large language models and foundation models for bioinformatics
+          query_cn: 面向生信的大语言模型与基础模型
+          enabled: true
+          source: manual
+          note: ''
+        - query: protein language models for structure prediction function prediction and design
+          query_cn: 用于结构预测 功能预测与设计的蛋白语言模型
+          enabled: true
+          source: manual
+          note: ''
+        - query: generative AI for protein molecular and therapeutic design
+          query_cn: 面向蛋白 分子与治疗设计的生成式 AI
+          enabled: true
+          source: manual
+          note: ''
+        - query: AI for CRISPR design gene editing outcome prediction and perturbation modeling
+          query_cn: 用于 CRISPR 设计 基因编辑结局预测与扰动建模的 AI
+          enabled: true
+          source: manual
+          note: ''
+        - query: graph learning and foundation models for gene regulatory networks and cell state transitions
+          query_cn: 面向基因调控网络与细胞状态转换的图学习和基础模型
+          enabled: true
+          source: manual
+          note: ''
+        - query: AI methods for multi omics integration and interpretation
+          query_cn: 多组学整合与解释的 AI 方法
+          enabled: true
+          source: manual
+          note: ''
+        - query: representation learning for DNA RNA and protein sequences
+          query_cn: DNA RNA 蛋白序列的表征学习
+          enabled: true
+          source: manual
+          note: ''
+        - query: trustworthy and interpretable AI systems for bioinformatics workflows
+          query_cn: 生信工作流中的可信与可解释 AI 系统
+          enabled: true
+          source: manual
+          note: ''
+      updated_at: '2026-03-07T12:00:00.000Z'
+    - tag: SeqAI
+      description: 测序分析中的 AI 模型
+      enabled: true
+      keywords:
+        - keyword: sequencing foundation model
+          keyword_cn: 测序基础模型
+          query: foundation models for genomic sequencing signal read and variant analysis
+        - keyword: nanopore sequencing
+          keyword_cn: 纳米孔测序
+          query: AI for nanopore sequencing basecalling genomic alignment and variant analysis
+        - keyword: single cell sequencing
+          keyword_cn: 单细胞测序
+          query: single cell sequencing and spatial transcriptomics analysis with machine learning
+        - keyword: variant calling
+          keyword_cn: 变异检测
+          query: deep learning for genomic variant calling filtering and somatic mutation analysis
+        - keyword: read classification
+          keyword_cn: 读段分类
+          query: read classification and taxonomic assignment for sequencing reads
+        - keyword: assembly polishing model
+          keyword_cn: 组装抛光模型
+          query: neural models for microbial genome assembly polishing and evaluation
+        - keyword: transcriptomics foundation model
+          keyword_cn: 转录组基础模型
+          query: foundation models for transcriptomics RNA sequencing and gene expression modeling
+        - keyword: proteogenomics
+          keyword_cn: 蛋白基因组学
+          query: machine learning for proteogenomics mass spectrometry and sequence analysis
+        - keyword: spatial omics model
+          keyword_cn: 空间组学模型
+          query: deep learning and foundation models for spatial transcriptomics proteomics and tissue mapping
+        - keyword: metagenome assembly binning
+          keyword_cn: 宏基因组组装分箱
+          query: machine learning for metagenome assembly binning strain resolution and taxonomic profiling
+        - keyword: denoising sequencing
+          keyword_cn: 测序降噪
+          query: denoising error correction and quality calibration for genomic sequencing reads
+      intent_queries:
+        - query: foundation models for nanopore sequencing signal and genomic read level analysis
+          query_cn: 面向纳米孔测序信号与基因组读段分析的基础模型
+          enabled: true
+          source: manual
+          note: ''
+        - query: deep learning for genomic basecalling variant calling and microbial genome assembly
+          query_cn: 用于基因组 basecalling 变异检测与微生物组装的深度学习
+          enabled: true
+          source: manual
+          note: ''
+        - query: machine learning for single cell sequencing and spatial omics pipelines
+          query_cn: 单细胞测序与空间组学流程中的机器学习
+          enabled: true
+          source: manual
+          note: ''
+        - query: machine learning for proteogenomics and mass spectrometry based sequence analysis
+          query_cn: 蛋白基因组学与质谱序列分析中的机器学习
+          enabled: true
+          source: manual
+          note: ''
+        - query: foundation models for spatial omics tissue representation and cell neighborhood analysis
+          query_cn: 面向空间组学组织表征与细胞邻域分析的基础模型
+          enabled: true
+          source: manual
+          note: ''
+        - query: machine learning for metagenome assembly binning and strain level microbiome analysis
+          query_cn: 宏基因组组装分箱与菌株级微生物组分析的机器学习
+          enabled: true
+          source: manual
+          note: ''
+      updated_at: '2026-03-07T12:00:00.000Z'
+    - tag: Agent
+      description: 生信科研 Agent 与知识助手
+      enabled: true
+      keywords:
+        - keyword: biomedical agent
+          keyword_cn: 生物医学智能体
+          query: autonomous agents for biomedical literature reasoning genomic data analysis and evidence synthesis
+        - keyword: scientific agent
+          keyword_cn: 科研智能体
+          query: scientific discovery agents for bioinformatics genomics and computational biology tasks
+        - keyword: literature mining
+          keyword_cn: 文献挖掘
+          query: literature mining and question answering for bioinformatics genomics and life science papers
+        - keyword: lab automation
+          keyword_cn: 实验自动化
+          query: AI agents for wet lab automation sequencing experiments and bioinformatics experimental planning
+        - keyword: retrieval augmented biology
+          keyword_cn: 生物检索增强
+          query: retrieval augmented generation for bioinformatics genomics and biomedicine
+        - keyword: benchmark biology llm
+          keyword_cn: 生物模型评测
+          query: benchmark and evaluation of bioinformatics genomics oriented language models
+        - keyword: workflow copilot
+          keyword_cn: 工作流副驾
+          query: copilots for bioinformatics pipelines genomic literature triage and experiment planning
+      intent_queries:
+        - query: LLM agents for bioinformatics genomics workflows and scientific reasoning
+          query_cn: 用于生信流程与科研推理的 LLM Agent
+          enabled: true
+          source: manual
+          note: ''
+        - query: retrieval augmented assistants for biomedical and genomics literature synthesis
+          query_cn: 生物医学与基因组学文献综述型检索增强助手
+          enabled: true
+          source: manual
+          note: ''
+        - query: evaluation protocols for biomedical bioinformatics and scientific agents
+          query_cn: 生物医学 生信与科研 Agent 的评测协议
+          enabled: true
+          source: manual
+          note: ''
+      updated_at: '2026-03-07T12:00:00.000Z'
