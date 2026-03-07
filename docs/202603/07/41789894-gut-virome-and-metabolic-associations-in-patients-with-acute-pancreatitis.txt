@@ -1,0 +1,58 @@
+Title: Gut virome and metabolic associations in patients with acute pancreatitis - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41789894/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 6:e0140025.
+
+doi: 10.1128/msystems.01400-25.  Online ahead of print.
+
+[Lvyue Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+L&cauthor_id=41789894)[#](https://pubmed.ncbi.nlm.nih.gov/41789894/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41789894/#full-view-affiliation-1 "Department of Critical Care Medicine, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, Nanjing, China."),[Jianjun Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+J&cauthor_id=41789894)[#](https://pubmed.ncbi.nlm.nih.gov/41789894/#full-view-equal-contrib-explanation "Contributed equally")[2](https://pubmed.ncbi.nlm.nih.gov/41789894/#full-view-affiliation-2 "Clinical Laboratory of Integrative Medicine, The First Affiliated Hospital of Dalian Medical University, Dalian, China."),[Qi Yuan](https://pubmed.ncbi.nlm.nih.gov/?term=Yuan+Q&cauthor_id=41789894)[#](https://pubmed.ncbi.nlm.nih.gov/41789894/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41789894/#full-view-affiliation-1 "Department of Critical Care Medicine, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, Nanjing, China."),[Yuetong Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+Y&cauthor_id=41789894)[#](https://pubmed.ncbi.nlm.nih.gov/41789894/#full-view-equal-contrib-explanation "Contributed equally")[3](https://pubmed.ncbi.nlm.nih.gov/41789894/#full-view-affiliation-3 "Puensum Genetech Institute, Wuhan, China."),[Siyu Wu](https://pubmed.ncbi.nlm.nih.gov/?term=Wu+S&cauthor_id=41789894)[4](https://pubmed.ncbi.nlm.nih.gov/41789894/#full-view-affiliation-4 "Agro-biological Gene Research Center of Guangdong Academy of Agricultural Sciences, State Key Laboratory of Swine and Poultry Breeding Industry, Guangzhou, China."),[Yue Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+Y&cauthor_id=41789894)[3](https://pubmed.ncbi.nlm.nih.gov/41789894/#full-view-affiliation-3 "Puensum Genetech Institute, Wuhan, China."),[Ruochun Guo](https://pubmed.ncbi.nlm.nih.gov/?term=Guo+R&cauthor_id=41789894)[5](https://pubmed.ncbi.nlm.nih.gov/41789894/#full-view-affiliation-5 "Center for Microbiome Medicine, The Fifth Affiliated Hospital of Southern Medical University, Guangzhou, China."),[Yidi Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+Y&cauthor_id=41789894)[3](https://pubmed.ncbi.nlm.nih.gov/41789894/#full-view-affiliation-3 "Puensum Genetech Institute, Wuhan, China."),[Tong Lu](https://pubmed.ncbi.nlm.nih.gov/?term=Lu+T&cauthor_id=41789894)[5](https://pubmed.ncbi.nlm.nih.gov/41789894/#full-view-affiliation-5 "Center for Microbiome Medicine, The Fifth Affiliated Hospital of Southern Medical University, Guangzhou, China."),[Qiulong Yan](https://pubmed.ncbi.nlm.nih.gov/?term=Yan+Q&cauthor_id=41789894)[5](https://pubmed.ncbi.nlm.nih.gov/41789894/#full-view-affiliation-5 "Center for Microbiome Medicine, The Fifth Affiliated Hospital of Southern Medical University, Guangzhou, China."),[Shenghui Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+S&cauthor_id=41789894)[3](https://pubmed.ncbi.nlm.nih.gov/41789894/#full-view-affiliation-3 "Puensum Genetech Institute, Wuhan, China."),[Guorui Xing](https://pubmed.ncbi.nlm.nih.gov/?term=Xing+G&cauthor_id=41789894)[3](https://pubmed.ncbi.nlm.nih.gov/41789894/#full-view-affiliation-3 "Puensum Genetech Institute, Wuhan, China."),[Bo Dong](https://pubmed.ncbi.nlm.nih.gov/?term=Dong+B&cauthor_id=41789894)[4](https://pubmed.ncbi.nlm.nih.gov/41789894/#full-view-affiliation-4 "Agro-biological Gene Research Center of Guangdong Academy of Agricultural Sciences, State Key Laboratory of Swine and Poultry Breeding Industry, Guangzhou, China."),[Ning Zheng](https://pubmed.ncbi.nlm.nih.gov/?term=Zheng+N&cauthor_id=41789894)[1](https://pubmed.ncbi.nlm.nih.gov/41789894/#full-view-affiliation-1 "Department of Critical Care Medicine, The Second Hospital of Nanjing, Affiliated to Nanjing University of Chinese Medicine, Nanjing, China.")
+
+Affiliations
+
+*    PMID: **41789894**
+*    DOI: [10.1128/msystems.01400-25](https://doi.org/10.1128/msystems.01400-25)
+
+Gut virome and metabolic associations in patients with acute pancreatitis
+-------------------------------------------------------------------------
+
+Min Liu et al. mSystems.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+Abstract
+--------
+
+Acute pancreatitis (AP) is a frequent inflammatory disorder with outcomes ranging from mild disease to severe forms marked by infection and organ failure. Gut microenvironment disruption and barrier dysfunction are increasingly recognized as key drivers of AP progression, yet most microbiome studies have focused on bacteria. The gut virome modulates bacterial ecology and host immune responses and remains poorly characterized in AP. We aimed to comprehensively profile virome alterations in AP and evaluate their associations with disease severity, etiology, and clinical parameters. Metagenomic sequencing data from AP patients and healthy controls (HCs) were analyzed using the viromic tools. Viral diversity, taxonomy, functional composition, and predicted viral-host linkages were profiled. Microbial-viral-metabolite networks were constructed, and classification performance was evaluated using random forest models. AP viromes exhibited significantly reduced Shannon and Simpson diversity and distinct β-diversity separation from HCs. AP-enriched phages predominantly targeted Parabacteroides, Escherichia, and Bacteroides, while HC-enriched phages were linked to SCFA-producing commensals. Functional analysis revealed enrichment of replication- and lysis-related auxiliary metabolic genes (AMGs) in AP-enriched viral operational taxonomic units (vOTUs), whereas HC-associated vOTUs carried stability-related functions. Severity- and etiology-stratified analyses indicated consistent enrichment of _Peduoviridae_ infecting Enterobacteriaceae and higher prevalence of eukaryotic viruses in advanced stages. Network analyses revealed denser microbial-viral-metabolite interactions in AP, correlated with hepatobiliary and lipid metabolic markers. A minimal seven-virus panel achieved an AUC of 97.5% for AP classification. AP is characterized by profound gut virome remodeling reflecting disease severity and etiology, with diagnostic and mechanistic relevance for future therapeutic strategies.IMPORTANCEThis study highlights the gut virome as a previously underappreciated component of acute pancreatitis (AP)-associated dysbiosis and suggests that viral communities may influence disease severity and metabolic disturbances beyond bacterial effects alone. By demonstrating the diagnostic potential of virome-based signatures, our findings support expanding microbiome research in AP to include viral components, with implications for improved disease stratification and future therapeutic development.
+
+**Keywords:** acute pancreatitis; bacterial-viral-metabolite networks; biomarker; gut virome; metabolomics.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Similar articles
+----------------
+
+*   [Characterizations of the Gut Bacteriome, Mycobiome, and Virome in Patients with Osteoarthritis.](https://pubmed.ncbi.nlm.nih.gov/36515546/)
+
+Chen C, Zhang Y, Yao X, Li S, Wang G, Huang Y, Yang Y, Zhang A, Liu C, Zhu D, Li H, Yan Q, Ma W.Chen C, et al.Microbiol Spectr. 2023 Feb 14;11(1):e0171122. doi: 10.1128/spectrum.01711-22. Epub 2022 Dec 14.Microbiol Spectr. 2023.PMID: 36515546 Free PMC article. 
+*   [Metagenomic analysis reveals altered gut virome and diagnostic potential in pancreatic cancer.](https://pubmed.ncbi.nlm.nih.gov/39016466/)
+
+Zhang P, Shi H, Guo R, Li L, Guo X, Yang H, Chang D, Cheng Y, Zhao G, Li S, Zhong Q, Zhang H, Zhao P, Fu C, Song Y, Yang L, Wang Y, Zhang Y, Jiang J, Wang T, Zhao J, Li Y, Wang B, Chen F, Zhao H, Wang Y, Wang J, Ma S.Zhang P, et al.J Med Virol. 2024 Jul;96(7):e29809. doi: 10.1002/jmv.29809.J Med Virol. 2024.PMID: 39016466 
+*   [Metagenomic-based characterization of the gut virome in patients with polycystic ovary syndrome.](https://pubmed.ncbi.nlm.nih.gov/36051758/)
+
+Huang L, Wu X, Guo S, Lv Y, Zhou P, Huang G, Duan Z, Sun W.Huang L, et al.Front Microbiol. 2022 Aug 16;13:951782. doi: 10.3389/fmicb.2022.951782. eCollection 2022.Front Microbiol. 2022.PMID: 36051758 Free PMC article. 
+*   [Meta-analysis of fecal viromes demonstrates high diagnostic potential of the gut viral signatures for colorectal cancer and adenoma risk assessment.](https://pubmed.ncbi.nlm.nih.gov/36198381/)
+
+Chen F, Li S, Guo R, Song F, Zhang Y, Wang X, Huo X, Lv Q, Ullah H, Wang G, Ma Y, Yan Q, Ma X.Chen F, et al.J Adv Res. 2023 Jul;49:103-114. doi: 10.1016/j.jare.2022.09.012. Epub 2022 Oct 2.J Adv Res. 2023.PMID: 36198381 Free PMC article. 
+*   [Evaluation of bacteriophages as a signature of microbiome health: a systematic review and meta-analysis.](https://pubmed.ncbi.nlm.nih.gov/41077053/)
+
+Wheatley RM, Holtappels D, Koskella B.Wheatley RM, et al.Lancet Microbe. 2025 Dec;6(12):101196. doi: 10.1016/j.lanmic.2025.101196. Epub 2025 Oct 9.Lancet Microbe. 2025.PMID: 41077053

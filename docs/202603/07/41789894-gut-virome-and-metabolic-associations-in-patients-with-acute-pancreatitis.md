@@ -1,0 +1,22 @@
+---
+title: Gut virome and metabolic associations in patients with acute pancreatitis.
+title_zh: 急性胰腺炎患者的肠道病毒组与代谢关联
+authors: "Min Liu, Lvyue Wang, Jianjun Liu, Qi Yuan, Yuetong Zhang, Siyu Wu, Yue Zhang, Ruochun Guo, Yidi Zhang, Tong Lu, Qiulong Yan, Shenghui Li, Guorui Xing, Bo Dong, Ning Zheng"
+date: 2026-03-06
+pdf: "https://pubmed.ncbi.nlm.nih.gov/41789894/"
+tags: ["query:pathoai"]
+score: 7.0
+evidence: 肠道病毒组的宏基因组分析及其在感染和宿主反应中的作用
+tldr: 急性胰腺炎（AP）的肠道微环境失衡是病情恶化的关键，但既往研究多关注细菌而忽视了病毒组的作用。本研究通过对AP患者和健康对照组进行宏基因组测序，揭示了AP患者肠道病毒组多样性显著下降，且特定噬菌体与致病菌及代谢紊乱密切相关。研究发现由7种病毒组成的标志物能高效识别AP，为理解AP发病机制及开发基于病毒组的诊断和治疗策略提供了新视角。
+selection_source: fresh_fetch
+motivation: 旨在填补急性胰腺炎研究中肠道病毒组特征及其与疾病严重程度、代谢关联研究的空白。
+method: 利用宏基因组测序技术对AP患者与健康人群的肠道病毒多样性、分类、功能及病毒-宿主相互作用进行系统分析。
+result: 发现AP患者肠道病毒多样性降低，且富集的噬菌体主要针对致病菌，而健康组噬菌体则与产生短链脂肪酸的益生菌相关。
+conclusion: 肠道病毒组的重塑反映了AP的严重程度和病因，具有作为疾病诊断标志物及未来治疗靶点的潜力。
+---
+
+## 摘要
+急性胰腺炎 (AP) 是一种常见的炎症性疾病，其预后从轻症到以感染和器官衰竭为特征的重症不等。肠道微环境紊乱和屏障功能障碍被日益公认为 AP 进展的关键驱动因素，但大多数微生物组研究都集中在细菌上。肠道病毒组调节细菌生态和宿主免疫反应，但在 AP 中的特征仍不清楚。本研究旨在全面分析 AP 中的病毒组变化，并评估其与疾病严重程度、病因及临床参数的关联。利用病毒组学工具对 AP 患者和健康对照者 (HCs) 的宏基因组测序数据进行了分析。对病毒多样性、分类学、功能组成以及预测的病毒-宿主联系进行了分析。构建了微生物-病毒-代谢物网络，并使用随机森林模型评估了分类性能。AP 病毒组表现出 Shannon 和 Simpson 多样性显著降低，且与 HCs 存在明显的 β-多样性分离。AP 富集的噬菌体主要针对副拟杆菌属 (Parabacteroides)、埃希氏菌属 (Escherichia) 和拟杆菌属 (Bacteroides)，而 HC 富集的噬菌体则与产生短链脂肪酸 (SCFA) 的共生菌相关。功能分析显示，AP 富集的病毒操作分类单元 (vOTUs) 中富集了与复制和裂解相关的辅助代谢基因 (AMGs)，而 HC 相关的 vOTUs 则携带与稳定性相关的基因。严重程度和病因分层分析表明，感染肠杆菌科的 Peduoviridae 持续富集，且在晚期阶段真核病毒的流行率更高。网络分析显示 AP 中存在更密集的微生物-病毒-代谢物相互作用，且与肝胆和脂质代谢标志物相关。一个包含七种病毒的最小组合在 AP 分类中达到了 97.5% 的 AUC。AP 的特征是深刻的肠道病毒组重塑，反映了疾病严重程度和病因，对未来的治疗策略具有诊断和机制意义。重要性：本研究强调了肠道病毒组是急性胰腺炎 (AP) 相关菌群失调中此前被低估的组成部分，并表明病毒群落可能在细菌影响之外进一步影响疾病严重程度和代谢紊乱。通过证明基于病毒组特征的诊断潜力，我们的研究结果支持将 AP 微生物组研究扩展到病毒成分，这对改善疾病分层和未来的治疗开发具有重要意义。
+
+## Abstract
+Acute pancreatitis (AP) is a frequent inflammatory disorder with outcomes ranging from mild disease to severe forms marked by infection and organ failure. Gut microenvironment disruption and barrier dysfunction are increasingly recognized as key drivers of AP progression, yet most microbiome studies have focused on bacteria. The gut virome modulates bacterial ecology and host immune responses and remains poorly characterized in AP. We aimed to comprehensively profile virome alterations in AP and evaluate their associations with disease severity, etiology, and clinical parameters. Metagenomic sequencing data from AP patients and healthy controls (HCs) were analyzed using the viromic tools. Viral diversity, taxonomy, functional composition, and predicted viral-host linkages were profiled. Microbial-viral-metabolite networks were constructed, and classification performance was evaluated using random forest models. AP viromes exhibited significantly reduced Shannon and Simpson diversity and distinct β-diversity separation from HCs. AP-enriched phages predominantly targeted Parabacteroides, Escherichia, and Bacteroides, while HC-enriched phages were linked to SCFA-producing commensals. Functional analysis revealed enrichment of replication- and lysis-related auxiliary metabolic genes (AMGs) in AP-enriched viral operational taxonomic units (vOTUs), whereas HC-associated vOTUs carried stability-related functions. Severity- and etiology-stratified analyses indicated consistent enrichment of Peduoviridae infecting Enterobacteriaceae and higher prevalence of eukaryotic viruses in advanced stages. Network analyses revealed denser microbial-viral-metabolite interactions in AP, correlated with hepatobiliary and lipid metabolic markers. A minimal seven-virus panel achieved an AUC of 97.5% for AP classification. AP is characterized by profound gut virome remodeling reflecting disease severity and etiology, with diagnostic and mechanistic relevance for future therapeutic strategies.IMPORTANCEThis study highlights the gut virome as a previously underappreciated component of acute pancreatitis (AP)-associated dysbiosis and suggests that viral communities may influence disease severity and metabolic disturbances beyond bacterial effects alone. By demonstrating the diagnostic potential of virome-based signatures, our findings support expanding microbiome research in AP to include viral components, with implications for improved disease stratification and future therapeutic development.

@@ -1,0 +1,544 @@
+Title: Graph Attention Based Prioritization of Disease Responsible Genes from Multimodal Alzheimer's Network
+
+URL Source: https://arxiv.org/pdf/2603.02273v1
+
+Published Time: Wed, 04 Mar 2026 01:07:31 GMT
+
+Number of Pages: 15
+
+Markdown Content:
+JOURNAL OF L ATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015 1
+
+# Graph Attention Based Prioritization of Disease Responsible Genes from Multimodal Alzheimer’s Network 
+
+Binon Teji , Subhajit Bandyopadhyay , Swarup Roy *
+
+Abstract—Prioritizing disease-associated genes is central to understanding the molecular mechanisms of complex disorders such as Alzheimer’s disease (AD). Traditional network-based approaches rely on static centrality measures and often fail to capture cross-modal biological heterogeneity. We propose NETRA (Node Evaluation through Transformer-based Representation and Attention), a multimodal graph transformer framework that replaces heuristic centrality metrics with attention-driven relevance scoring. Using AD as a case study, gene regulatory networks are independently constructed from microarray, single-cell RNA-seq, and single-nucleus RNA-seq data. Random-walk sequences derived from these networks are used to train a BERT-based model for learning global gene embeddings, while modality-specific gene expression profiles are compressed using variational autoencoders. These representations are integrated with auxiliary biological networks, including protein-protein interactions, Gene Ontology semantic similarity, and diffusion-based gene similarity, into a unified multimodal graph. A graph transformer assigns NETRA scores that quantify gene relevance in a disease-specific and context-aware manner. Gene set enrichment analysis shows that NETRA achieves a normalized enrichment score of about 3.9 for the Alzheimer’s disease pathway, substantially outperforming classical centrality measures and diffusion models. Top-ranked genes enrich multiple neurodegenerative pathways, recover a known late-onset AD susceptibility locus at chr12q13, and reveal conserved cross-disease gene modules. The framework preserves biologically realistic heavy-tailed network topology and is readily extensible to other complex disorders. Index Terms—Alzhimer’s disease, Gene prioritization, Graph Transformer, Variational Autoencoders, Multi-modal data, BERT embeddings, Homo Sapiens, Microarray, scRNA-seq, snRNA-seq, gene expression 
+
+F
+
+1 Introduction 
+
+# Alzheimer’s disease (AD) is a progressive neurodegenera-tive disorder and the most common form of dementia, affecting millions of people around the world [1]. Its etiology is very complex and includes a genetic susceptibility intertwined with environmental exposures and lifestyle factors. The pre-cise molecular circuits driving neuronal degeneration remain elusive [2]. Although high-throughput studies have discovered numerous candidate genes, translating these findings into actionable targets remains a significant challenge. From a systems biology perspective, identifying genes associated with AD requires unraveling the intricate molec-ular interaction networks that drive its progression. This demands accurate reconstruction of gene regulatory networks (GRNs) that closely mirror real biological processes that play an important role in post-inference applications [3]. 
+
+• *Corresponding Author 
+
+• Binon Teji is with Network Reconstruction & Anal-ysis Lab and Department of Computer Applications, Sikkim University, Sikkim, India, 737102. E-mail: bteji.20pdca01@sikkimuniversity.ac.in 
+
+• Subhajit Bandyopadhyay is with Network Reconstruction & Analysis Lab, Department of Computer Applications, Sikkim University, Sikkim, India, 737102. E-mail: subha-jitbn.maths@gmail.com 
+
+• Swarup Roy is the corresponding author and with Department of Computer Science & Engineering, Tezpur University, Assam, India, 784028. E-mail: swarup@tezu.ernet.in 
+
+Prioritization of AD genes is a vital task that play crucial roles in disease mechanisms and can aid in small-molecule design for therapeutic interventions. This success is heavily dependent on the precision and completeness of the inferred gene network [4]. Conventional gene prioritization approaches are both resource-intensive and time-consuming, motivating the devel-opment of computational alternatives [1]. Traditional com-putational methods largely rely on network-centric measures derived from biological interaction networks, such as de-gree, betweenness, and eigenvector centrality [5]. While these metrics effectively capture topological prominence, they are based on the implicit assumption that highly connected genes are more likely to be disease-relevant. However, in complex diseases such as AD, high network connectivity does not necessarily correspond to functional causality. As a result, centrality-based approaches often fail to capture context-specific gene regulation, modality-dependent expression pat-terns, and subtle yet biologically meaningful signals that are prevalent in sparse and noisy biological data [6]. In prior studies on AD gene prioritization, including the work of Wang et al., [7] introduces a machine learning framework that leverages spatial–temporal gene expression patterns to classify and predict Alzheimer’s disease risk genes. Stephens et al., [8] propose an integrative GWAS– TWAS framework that prioritizes and functionally validates Alzheimer’s disease risk genes across human and fly cell models. Sebastian et al. [6] propose an AD gene prioriti-zation framework that analyzes gene positions, AD-specific  
+
+> arXiv:2603.02273v1 [cs.LG] 1 Mar 2026 JOURNAL OF L ATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015 2
+
+connectivity patterns, and interaction enrichment within a graph-diffused multimodal regulatory network constructed from transcriptomic, protein–protein interaction (PPI), and Gene Ontology (GO) data, moving beyond reliance on degree centrality alone. Lee et al. [9] highlight that existing gene prioritization methods often rely on single data sources of heterogeneous evidence, and propose a flexible integrative framework that jointly incorporates gene expression, protein– protein interactions, Gene Ontology annotations, and GWAS data to improve Alzheimer’s disease gene prioritization. Cao et al., [10] prioritizes rare, likely deleterious variants from whole-genome sequencing in a Chinese Alzheimer’s disease cohort, identifying novel AD risk genes and functionally linking key variants to cognitive decline, brain atrophy, and amyloid-related cellular dysfunction. Previous efforts to prioritize genes associated with Alzheimer’s Disease (AD) have largely relied on single-modality data or shallow integration of heterogeneous bio-logical evidence, often exhibiting a bias toward well-studied genes and thereby limiting the discovery of novel candidates. Many approaches fail to capture dynamic gene behavior across tissues, cell types, and experimental conditions. Network-based methods have sought to address these limitations by analyzing topological properties such as node centrality and connectivity; however, such approaches frequently rein-force the assumption that disease-relevant genes are network hubs—an assumption that does not always hold in complex diseases and requires careful validation [11], [12]. Moreover, existing integrative frameworks typically rely on aggregat-ing independent predictions rather than jointly modeling complementary biological signals, while GWAS–TWAS and experimental validation pipelines face challenges related to scalability, cost, and generalizability. Importantly, the rich and complementary resolution offered by microarray, single-cell RNA sequencing (scRNA-seq), and single-nucleus RNA sequencing (snRNA-seq) data remains underutilized, and many learning-based methods provide limited interpretability of gene relevance. Motivated by these limitations, we propose a scal-able and interpretable gene prioritization framework that jointly integrates heterogeneous transcriptomic, functional, and interaction-based data, rather than combining inde-pendent predictions. Our approach moves beyond static network centrality and diffusion-based scores by employing graph attention–based mechanisms that dynamically learn the relative importance of genes in relation to their net-work neighborhoods. Unlike conventional network analyses that infer disease relevance from fixed topological properties (e.g., degree centrality), graph attention enables a context-aware characterization of gene influence, capturing disease-specific regulatory relationships that may remain obscured under static analysis. By leveraging cross-modal transcrip-tomic resolution from microarray, scRNA-seq, and snRNA-seq datasets, the proposed framework captures complemen-tary and context-specific disease signals while producing interpretable relevance scores aligned with known AD biology and facilitating the discovery of novel candidate genes— without reliance on extensive experimental validation. Building on this, we design a unified framework that integrates multi-modal transcriptomic data with regulatory network insights using an attention-guided architecture. Specifically, we infer gene regulatory networks independently from each transcriptomic modality using a suite of algorithms, then embed these networks into rich, contextual graph rep-resentations via a BERT-inspired transformer. In parallel, we compress gene expression profiles from each modality into latent vectors using variational autoencoders (VAEs), which are subsequently fused into a consolidated feature space. A Graph Transformer (GT) module then integrates these network and expression embeddings. The GT leverages posi-tional encodings based on a confidence-weighted ensemble of graph diffusion metrics, Gene Ontology (GO) similarity, and protein-protein interaction (PPI) augmentation. The result is a learned attention score named as NETRA for each gene that reflects its biological relevance in the integrated space. This facilitates the prioritization of novel, high-confidence AD candidate genes while offering interpretable attention maps that reveal key regulatory interactions. By ranking genes ac-cording to these attention scores, our method highlights high-confidence AD-associated genes and provides interpretable attention maps that illuminate critical regulatory pathways involved in disease progression. We validate the biological relevance of NETRA-based gene rankings through comprehensive enrichment analyses. Gene Set Enrichment Analysis on KEGG pathways demon-strates that NETRA achieves a normalized enrichment score (NES ≈ 3.9) for the Alzheimer’s disease pathway, substan-tially outperforming conventional network centrality mea-sures and the SIR diffusion model, which fails to recover Alzheimer’s disease among its enriched pathways entirely. Beyond Alzheimer’s disease, the top-ranked genes show signif-icant enrichment across multiple neurodegenerative pathways, and analysis of core enrichment genes reveals conserved molecular machinery—particularly cytoskeletal and axonal transport components—shared across Alzheimer’s, Parkin-son’s, Huntington’s, Amyotrophic lateral sclerosis, and Prion disease, with pairwise Jaccard similarities reaching up to 0.54. Furthermore, chromosome region enrichment of the top 40 attention-ranked genes identifies a cluster of four genes mapping to the 12q13 cytoband, a locus previously implicated in late-onset Alzheimer’s disease through genome-wide association studies, providing independent genomic-level support for the learned gene rankings. Our contributions are listed as follows:  
+
+> •
+
+We propose a unified and scalable framework that jointly integrates microarray, scRNA-seq, and snRNA-seq data with regulatory and interaction networks for Alzheimer’s disease gene prioritization.  
+
+> •
+
+Our method replaces static network centrality and diffusion scores with graph attention mechanisms re-ferred to as NETRA that dynamically learn disease-specific gene importance within local and global net-work contexts.  
+
+> •
+
+We introduce a BERT-inspired transformer to embed inferred gene regulatory networks, alongside varia-tional autoencoder–based compression of multi-modal gene expression profiles into a shared latent space.  
+
+> •
+
+The framework produces interpretable attention-based gene rankings and regulatory interaction maps, en-abling the identification of high-confidence and poten-tially novel Alzheimer’s disease candidate genes. JOURNAL OF L ATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015 3 
+
+> •
+
+We provide multi-level biological validation showing that attention-prioritized genes recover a known AD-associated GWAS locus (chr12q13) and exhibit con-served cross-pathway enrichment across five major neurodegenerative diseases, supporting the biological coherence of the learned rankings. 
+
+2 Materials and Methodology 
+
+This section presents the methodology used to prioritize AD genes from multi-modal data, followed by a detailed descrip-tion of the dataset used. Our framework comprises five core modules: (1) encoding gene expression profiles from multiple modalities; (2) extracting global gene representations through integrated multimodal, multi-network learning; (3) deriving gene positional encodings based on input network structure; (4) fusing these representations to perform gene regulatory network (GRN) inference using a graph transformer; and (5) leveraging attention scores from the model to prioritize AD-relevant genes. Figure 1 illustrates the entire framework. Next, we discuss each module in detail. 2.1 Variational Autoencoder–Based Multi-Platform Gene Expression Representation Learning To capture heterogeneous gene expression patterns across diverse transcriptomic platforms, we employ modality-specific Variational Autoencoders (VAEs) for microarray (ma), single-cell RNA sequencing (scRNA-seq), and single-nucleus RNA sequencing (snRNA-seq) data. Each platform exhibits distinct noise characteristics, sparsity patterns, and dynamic ranges, motivating separate encoders while enabling downstream integration through latent feature fusion. Let 
+
+Xma ∈ Rnma ×g , Xsc ∈ Rnsc ×g , Xsn ∈ Rnsn ×g
+
+denote the gene expression matrices for microarray, scRNA-seq, and snRNA-seq, respectively, where n is the number of genes and ne represents the number of samples (cells or nuclei) for modality e ∈ { ma, sc, sn }. Each modality is modeled using an independent VAE composed of an encoder Ee and a decoder De. The encoder learns a probabilistic mapping from high-dimensional gene expression space to a compact latent representation: 
+
+(μe, σe) = Ee(Xe),
+
+which defines the approximate posterior distribution 
+
+q(ze|X e) = N (μe, diag( σ2
+
+> e
+
+)) .
+
+This formulation enables the model to capture gene-specific variability, cell-to-cell heterogeneity, and platform-dependent technical noise while enforcing smooth latent representations. Latent variables are sampled using the repa-rameterization trick: 
+
+ze = μe + σe ⊙ ϵ, ϵ ∼ N (0 , I ),
+
+resulting in modality-specific latent embeddings 
+
+Zma , Zsc , Zsn .
+
+These embeddings capture diverse single-gene expression signals, including continuous expression variation (microar-ray) and sparse, zero-inflated patterns characteristic of single-cell and single-nucleus transcriptomic data. The decoder reconstructs the input expression profiles from the latent space: ˆXe = De(ze),
+
+encouraging the latent representations to preserve biologically meaningful gene expression structure. Each VAE is trained by minimizing the standard evidence lower bound (ELBO): 
+
+L(e)VAE = Eq(ze|X e)
+
+[
+
+∥X e − ˆXe∥2]
+
++ KL (q(ze|X e) ∥ N (0 , I )),
+
+which balances accurate reconstruction with regularization of the latent space. The learned latent embeddings from all modalities are concatenated to form a unified gene expression representation: 
+
+ZF = Zma ⊕ Z sc ⊕ Z sn ,
+
+By learning modality-aware yet compact latent represen-tations in a fully unsupervised manner, the proposed VAE framework effectively captures diverse single-gene expression patterns across microarray, scRNA-seq, and snRNA-seq data, enabling robust multi-platform integration for downstream network-based analysis. 2.2 Global Gene Embedding via Multi-Network Integration of Multi-Modal GRNs Although gene expression embeddings capture the intrinsic activity of individual genes, they often lack the contextual or regulatory dependencies that shape biological function. Inferred GRNs provide a complementary view by explicitly modeling both direct and indirect gene–gene interactions. We extend this idea by producing a global embedding for each gene that integrates information from distinct modalities spanning over multiple inferred networks from each modality. 2.2.1 Multi-modal Inferred Network Integration via Random Walks and Transformers We infer GRNs independently from three expression modalities—microarray, scRNA-seq and snRNA-seq—using a diverse inference algorithms. Each inferred network Gc =(V, Ec) (for c = 1 , . . . , C ) shares the same node set V (genes) but has a modality-specific edge set Ec. The corresponding adjacency matrix A(c) ∈ { 0, 1}|V|×|V| encodes these connec-tions, with 
+
+A(c) 
+
+> ij
+
+=
+
+{
+
+1, if (vi, v j ) ∈ E c,
+
+0, otherwise .
+
+To capture global gene information, we convert each Gc
+
+into text-like sequences via random walks (as in node2vec [13]). Each walk of length ln yields a sequence of node tokens 
+
+[vw1 , v w2 , . . . , v wln ], which we prepend with a special [CLS ]
+
+token. We embed these tokens through a shared embedding matrix ξ ∈ R|V|× dn , where dn is the network-embedding dimension. To retain positional information, we add sinusoidal position encodings P E seq (pos , i ) as done in [14]. The sum of token embeddings and positional encodings for all walks across all C networks forms the input to a transformer model, whose parameters are learned jointly—in particular, using Xavier initialization for the transformer weights [15]. During training, nodes are randomly masked in each sequence, and the model learns to predict these masked tokens, encouraging it to capture higher-order network context. The final hidden JOURNAL OF L ATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015 4
+
+Fig. 1. Overview of the proposed multimodal graph–transformer framework for gene prioritization. (A) Multi-omics gene expression data from microarray, single-cell RNA-seq (scRNA-seq), and single-nucleus RNA-seq (snRNA-seq). (B) Each modality is encoded using a variational autoencoder (VAE) to obtain latent representations Zma , Zsc , and Zsn , which are fused into a unified gene embedding ZF . (C) Multiple inferred networks are pooled and transformed into node sequences using random-walk sampling, which are then tokenized, positionally encoded, and encoded using a BERT-based Transformer to learn rich contextual representations. (D) The fused embeddings are integrated with the ensemble graph A and graph positional encodings to produce node features h. (E) A multi-layer graph transformer applies neighborhood attention using graph-specific query, key, and value projections for link prediction and attention aggregation. The aggregated gene-attention scores are used for gene ranking, enrichment analysis (e.g., GSEA, pathway and disease databases), and final reporting and visualization. JOURNAL OF L ATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015 5
+
+state of the [CLS ] token for each sequence serves as the global embedding for the corresponding gene, now informed by multi-modal network structure as well as its original expression context. 2.2.2 Masked Language Modeling via BERT for Multi-Modal GRN Corpus We treat each inferred gene regulatory networ constructed independently from microarray, scRNA-seq, and snRNA-seq expression data—as a source of contextual gene relationships and jointly organize them into a unified multi-modal corpus. To learn contextualized gene embeddings from this corpus, we adopt the Masked Language Modeling (MLM) objective from BERT [15] and employ a transformer encoder with M
+
+stacked self-attention layers [14]. Random walks sampled from each modality-specific GRN are represented as sequences of gene tokens, 
+
+F = [ f1, f 2, . . . , f n],
+
+where each token corresponds to a gene and is mapped to a 
+
+p-dimensional embedding. These sequences are processed by the transformer encoder, which models long-range and higher-order regulatory dependencies among genes through self-attention. Since the transformer architecture and attention mechanism are standard, we omit their full formulation for brevity. To enable self-supervised learning, we randomly mask 
+
+20% of gene tokens in each sequence—across all modalities— and train the model to predict the masked genes using the remaining contextual information. The training objective is the standard cross-entropy loss applied only to masked positions: 
+
+LM LM = −
+
+> B
+
+∑
+
+> b=1
+> Ln
+
+∑
+
+> ln =1
+> M c
+
+∑
+
+> cl =1
+
+1{b,ln ∈mask } · yb,ln,cl log pb,ln,cl ,
+
+(1) where M denotes the set of masked token positions, |V| is the gene vocabulary size, yb,ln,cl is the ground-truth indicator, and pb,ln,cl is the predicted probability for gene cl .After training, the learned gene representations are ob-tained from the shared embedding matrix, 
+
+ξ ∈ R|V|× p,
+
+where each row of ξ corresponds to a global gene embedding. These embeddings integrate regulatory information from mul-tiple inferred GRNs and transcriptomic modalities, capturing both shared and modality-specific gene interaction patterns within a single unified space. The resulting embeddings ξ serve as the global gene rep-resentations used in subsequent attention-based integration and disease-specific gene prioritization tasks. 2.3 GRN Inference via Graph Transformer Subsequent to extracting quantitative embeddings from multi-modal expression data and capturing structural in-sights from multiple inferred GRNs, it becomes crucial to integrate these complementary sources into a coherent model to understand gene regulation. To achieve this, we employ a Graph Transformer (GT) [16] architecture, which is specifi-cally designed to handle graph-structured input via learnable attention mechanisms. By supplying the GT with both multi-modal expression embeddings and inferred network struc-tures, the model can jointly attend to key regulatory signals and interaction patterns, enabling robust GRN reconstruc-tion. This integration produces concise, context-aware gene embeddings that capture both the underlying network topol-ogy and functional heterogeneity across modalities. Next, we discuss about the inner workings of the GT method. 2.3.1 Graph Positional Encodings Similar to the role of positional encodings in sequence-based Transformers [14]. At the core of GT architecture, GT relies on graph positional encodings ( P E graph ) to incorporate node-wise structural context. We take advantage of the spec-tral characteristics of the input network. We compute the eigenvectors of the graph Laplacian, which act as position-aware features for nodes. These encodings allow the model to account for graph topology, enabling it to distinguish between local and global relationships between nodes in a structure-informed manner. Given an input adjacency matrix A ∈ Rn×n, we compute the graph Laplacian matrix: 
+
+∆ = Igraph − D− 12 A D− 12 = U ΛU T (2) where Igraph is the identity matrix, D is the degree matrix, Λ contains the eigenvalues, and U comprises the corresponding eigenvectors. The p smallest non-trivial eigen-vectors from U are selected as P E graph for each node, denoted by λi.These encodings are particularly useful for modeling distance-aware relationships. Nodes that are close in the network tend to have similar positional embeddings, while distant nodes are represented more distinctly. By integrating 
+
+P E graph into the GT pipeline, the model can effectively encode both topological context and functional diversity, enabling richer and more structure-informed representation for a better GRN reconstruction. 2.3.2 Confident Gene Network Construction To build a robust, integrative representation of Alzheimer’s disease (AD) gene regulation, we employ the high-confidence consensus network developed by Sebastian et al. [6]. This consensus graph forms the structural backbone of the Graph Transformer (GT) model, which is further enriched with pre-trained multi-modal expression embeddings and global gene features derived from BERT for robust GRN inference and further aid in gene prioritization. Primarily, authors curate and preprocess three complementary transcriptomic datasets from bulk microarray, single-cell RNA-seq, and single-nucleus RNA-seq to generate noise-reduced, normalized expression matrices. These are enriched with human protein– protein interaction scores from STRING and Gene Ontology similarity priors, each scaled to [0, 1]. For each modality, eight diverse network-inference algorithms (CLR, MutRank, MINE, MRNETB, WGCNA, PCOR, SPCOR, LEAP) pro-duce six microarray, four scRNA-seq, and three snRNA-seq GRNs, alongside PPI and GO–based graphs. Rather than simply averaging these fifteen undirected, weighted networks, they apply a graph-diffusion ensemble to repeatedly propagate and reinforce edge weights to amplify consistently JOURNAL OF L ATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015 6
+
+supported interactions and suppress noise. This yields asingle, robust consensus network of 11229x11229 dimension. This unified network then supports GT-based GRN modeling and attention-driven prioritization of AD-related genes. 2.3.3 Input to the Graph Transformer The Graph Transformer (GT) receives as input the consensus graph structure G = ( V, E) and a feature matrix h(0) ∈ Rn×d,where n = |V| and d is the length of the each gene vector. Each row h(0)  
+
+> i
+
+is the sum of three projected embeddings for gene i:
+
+h(0)  
+
+> i
+
+= S0Zi + s0
+
+︸ ︷︷ ︸
+
+> expression
+
++ T 0 ξi + t0
+
+︸ ︷︷ ︸
+
+> global
+
++ U 0 λi + u0
+
+︸ ︷︷ ︸
+
+> positional
+
+, (3) where, Zi ∈ Rdn is the multi-modal expression em-bedding, projected by S0 ∈ Rd×dn and bias s0 ∈ Rd.
+
+ξi ∈ Rdn is the global BERT-derived embedding, projected by T 0 ∈ Rd×dn and bias t0 ∈ Rd. λi ∈ Rdn is the graph positional encoding from Laplacian eigenvectors, projected by U 0 ∈ Rd×dn and bias u0 ∈ Rd.The initial feature vector for each gene i, denoted h(0)  
+
+> i
+
+,is constructed by fusing three complementary embeddings, i.e., multi-modal gene expression embddings, global gene embeddings, and gene positional encodings derived from input concensus network. By summing these three projected vectors, h(0)  
+
+> i
+
+jointly represents each gene’s expression dynam-ics, global context, and network topology. This rich, unified embedding is then passed along with the adjacency matrix A
+
+into the Graph Transformer layer. 2.3.4 Graph Transformer Layer At layer ℓ, each node i attends over its local neighborhood 
+
+N (i) using a multi-head graph attention mechanism. Let 
+
+h(ℓ) 
+
+> i
+
+∈ Rd denote the node representation at layer ℓ. The attention-based aggregation is defined as 
+
+ˆhℓ+1  
+
+> i
+
+= Oℓh
+
+∥∥∥∥
+
+> Hk=1
+
+∑ 
+
+> j∈N (i)
+
+αk,ℓ ij V k,ℓ graph hℓj , (4) where ∥ denotes concatenation over H attention heads and 
+
+Oℓh ∈ Rd×d is the output projection matrix. The attention coefficients αk,ℓ ij are computed using scaled dot-product at-tention, 
+
+αk,ℓ ij = softmax j
+
+( Qk,ℓ graph hℓi · Kk,ℓ graph hℓj
+
+√dk
+
+)
+
+, (5) where Qk,ℓ graph , Kk,ℓ graph , and V k,ℓ graph ∈ Rdk ×d are learnable projection matrices, dk = d/H , and H denotes the number of attention heads. The aggregated representation ˆhℓ+1  
+
+> i
+
+is then passed through a position-wise feed-forward network (FFN) with residual connections and normalization, yielding the final node representation: 
+
+hℓ+1  
+
+> i
+
+= Norm 
+
+(ˆhℓ+1  
+
+> i
+
++ W ℓgraph 2 ReLU 
+
+(
+
+W ℓgraph 1
+
+· Norm (hℓi + ˆhℓ+1 
+
+> i
+
+))) (6) Here, W ℓgraph 1 ∈ R2d×d and W ℓgraph 2 ∈ Rd×2d are the FFN weight matrices. The normalization operator Norm( ·)
+
+corresponds to either Layer Normalization [17] or Batch Nor-malization [18]. This formulation enables effective aggregation of neighborhood information while preserving stability and expressive power through residual connections and normal-ization. 2.3.5 Network Reconstruction via Link Prediction This component predicts the presence of edges using the node/gene embeddings h(ℓ+1) ∈ Rn×d produced by the GT. Given the matrix h(ℓ+1) ∈ Rn×d and a list of candidate node pairs, we extract each pair’s embeddings h(ℓ+1)  
+
+> i
+
+and h(ℓ+1)  
+
+> j
+
+,concatenate them into a single feature vector, and feed this into a decoder multi-layer perceptron (MLP). The decoder consists of one hidden layer with ReLU activation followed by an output layer that maps the combined features to a single scalar score. This score yields the predicted probability of an edge between nodes i and j. By leveraging the structure and context-rich embeddings from the GT layers, this module effectively reconstructs the input graph into a matrix of predicted edge probabilities, enabling accurate recovery of the underlying regulatory interactions. 2.3.6 NETRA for Attention-Based Gene Prioritization Once the Graph Transformer (GT) has been trained using the consensus gene-gene interaction network, which is enriched with fused gene representations comprising multi-modal ex-pression embeddings, global BERT-derived gene embeddings, and positional gene encodings extracted from the concensus network. It reconstructs the consensus network, facilitating potential GRN inference. Beyond GRN inference, the learned attention mechanisms and influence scores derived from GT can be ultimately leveraged towards prioritizing AD-related genes with potential biological significance. GT achieves this by applying multi-head self-attention over the network structure, effectively capturing complex dependencies among genes. For each GT layer ℓ = 1 , 2, . . . , L , let α(k,ℓ ) 
+
+> i→j
+
+denote the attention weight from the source node i to the target node j
+
+for head k = 1 , . . . , H . We first aggregate across heads: 
+
+α(ℓ) 
+
+> i→j
+
+=
+
+> H
+
+∑
+
+> k=1
+
+α(k,ℓ ) 
+
+> i→j
+
+(7) Next, we compute the total incoming attention for node j
+
+in layer ℓ:
+
+A(ℓ) 
+
+> j
+
+=
+
+> n
+
+∑
+
+> i=1
+
+α(ℓ) 
+
+> i→j
+
+(8) Finally, we compute the overall influence score Aj by summing over all layers and heads: 
+
+Aj =
+
+> L
+
+∑
+
+> ℓ=1
+> n
+
+∑
+
+> i=1
+> H
+
+∑
+
+> k=1
+
+α(k,ℓ ) 
+
+> i→j
+
+(9) where, Aj represents the overall influence score for node j
+
+(i.e., a gene). This score reflects the importance or centrality of gene j in the concensus graph, as determined by the model’s learned attention weights. Similarly, we obtain a ranked list of genes based on their aggregated attention scores. This ranking JOURNAL OF L ATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015 7
+
+highlights genes that play influential roles in the regulatory landscape, enabling systematic gene prioritization. Next, we discuss the experimental setup used to demon-strate the overall framework. 2.4 Experimental Setup The performance of our framework is evaluated on an NVIDIA RTX A3000 GPU. The deep-learning libraries used are Py-Torch 1, DGL 2, scikit-learn 3, and PyTorch Geometric 4
+
+2.5 Multi-Modal Data Collection We retrieved the microarray data with GEO Accession #GSE1297 [19] along with the scRNA-seq dataset with GEO accession #GDS1979 [20] from the GEO database 5. Further, the snRNA-seq dataset with scREAD Data ID: AD00204 is procured from scREAD: a single-cell RNA-Seq database for Alzheimer’s disease [21] 
+
+3 Results 
+
+In this section, we first evaluate the quality of the learned gene representations and the structural validity of the generated network. We then analyze interaction patterns and topolog-ical properties of attention-prioritized genes, followed by an assessment of their biological relevance through functional enrichment analysis. 3.1 Embedding and Network-Level Validation of Attention-Based Prioritized Genes We first examine the training dynamics of the proposed framework during the network reconstruction phase. Fig. 2 illustrates the evolution of training loss and validation AU-ROC across epochs. The consistent decrease in loss accom-panied by a steady increase in AUROC indicates stable convergence and effective learning of discriminative gene representations. Moreover, the saturation of AUROC in later epochs suggests that the model achieves good generalization performance without overfitting. Then we evaluate the quality of the learned gene representations produced by the proposed attention-based framework. To assess whether the model captures meaningful structural organization, we projected the generated gene embeddings into a two-dimensional space using UMAP and applied Leiden community detection. As shown in Fig. 3, the embedding space exhibits well-defined clusters, indicating that the model learns structured and coherent representations rather than a diffuse or random embedding. These clusters correspond to distinct embedding communities, suggesting the presence of modular organiza-tion among genes in the generated network. Importantly, attention-prioritized genes are not confined to a single clus-ter, but are distributed across multiple Leiden communities. This dispersion indicates that the prioritization mechanism does not merely select genes from one dense region of the embedding space or favor high-degree hubs, but instead iden-tifies genes spanning diverse functional modules. Arrow-based                              
+
+> 1. https://pytorch.org/ 2. https://www.dgl.ai/ 3. https://scikit-learn.org/stable/ 4. https://pytorch-geometric.readthedocs.io/ 5. https://www.ncbi.nlm.nih.gov/geo/ 00 00 0 000 0 00 0 000
+> 
+>  0
+>  
+>  
+>  
+>  
+> 
+> 00 00 0 000 0 00 0 000
+> 
+> 0 0
+> 0 
+> 0 0
+> 0 
+> 0 0
+> 0 
+> 0  0
+> 0  
+> 
+> Fig. 2. Training dynamics of our learning model. (left) training loss convergence and (right) AUROC progression across epochs, demonstrating stable optimization and robust generalization.
+
+annotations highlight representative prioritized genes within and across clusters, further illustrating the ability of the model to capture heterogeneous but biologically meaningful gene groups. To examine the interaction patterns among highly ranked genes, we extracted the induced subgraph of the top-50 attention-prioritized genes from the generated network (Fig. 4). In this attention-weighted subnetwork, nodes represent genes and edges denote inferred interactions learned by the model. Node sizes are scaled according to log 2 transformed attention scores, emphasizing genes that contribute most strongly to the model’s prioritization decision. The result-ing subgraph reveals dense connectivity and tightly coupled modules among top-ranked genes, suggesting coordinated functional relationships rather than isolated gene selection. Such modular structure is consistent with the expectation that disease-relevant genes participate in interconnected bi-ological pathways, particularly in complex disorders such as Alzheimer’s disease.Beyond local connectivity patterns, we assessed whether the generated network preserves global topological properties of the input ensemble network. Figure 5 compares key graph characteristics between the two networks, including maximum degree, triangle count, global clustering coefficient, and global efficiency, all evalu-ated on a logarithmic scale. The generated network closely matches the input ensemble across these metrics, indicating that the generative process maintains both local clustering tendencies and global communication efficiency. This struc-tural consistency suggests that the learned network is not an artifact of overfitting to a small subset of nodes, but rather reflects realistic network organization. To further support for this observation we plot the degree distribution of the input and the generated network. Both the input ensemble network and the generated network exhibit heavy-tailed degree distri-butions on a log–log scale, a hallmark of biological interaction networks. The preservation of this property demonstrates that the generated network retains scale-free characteristics, rein-forcing the validity of the learned topology. Taken together, these results demonstrate that the proposed framework learns structured gene embeddings, prioritizes genes across diverse embedding communities, and generates a network that faith-fully preserves essential topological properties of the original ensemble. Having established the embedding-level coherence, network-level realism, and non-trivial distribution of prior-JOURNAL OF L ATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015 8
+
+> TABLE 1 Summary of the characteristics of the multiomics datasets.
+
+Dataset Type Source Accession # Organism No. of Genes Tissue/ Cell Type No. of Samples Microarray GEO GSE1297 Homo sapiens 23000 hippocampal gene expression 31 Microarray GEO GDS1979 Homo sapiens 23000 neural cells 6scRNA GEO GSE129308 Homo sapiens 23000 neural cells 27 snRNA scREAD AD00204 Homo sapiens 22000 neurons 201 U  U       
+
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+>   
+> EE                
+> Fig. 3. UMAP visualization of gene embeddings with Leiden cluster-ing and attention-prioritized (top-15) genes. Each point represents a gene embedding projected into two dimensions. Colors indicate Leiden clusters (labels 0–13). Attention-prioritized genes are high-lighted in red and annotated with gene symbols using arrowed labels. The spatial distribution demonstrates clear cluster separation while showing the dispersion of prioritized genes across multiple functional communities.
+
+itized genes, we next investigate the biological relevance of the attention-ranked gene set through functional enrichment analysis. 3.2 Biological Validation of Results To validate the biological relevance of attention-based gene prioritization, we performed comprehensive enrichment anal-yses at two levels: (1) pathway-level Gene Set Enrichment Analysis (GSEA) comparing attention scores against network centrality measures, and (2) targeted enrichment of top-ranked genes across pathways, diseases, and chromosomal regions. 3.2.1 Gene Set Enrichment Analysis: Attention Scores vs. Network Centrality We evaluated whether attention-derived rankings (NETRA) better capture Alzheimer’s disease biology compared to tra-ditional network centrality measures (degree, betweenness, eigenvector, and PageRank) using Gene Set Enrichment Analysis on KEGG pathways. Comparative Performance Across Centrality Measures. Fig. 6 presents GSEA enrichment profiles for the Alzheimer’s disease pathway (KEGG: hsa05010) across all ranking meth-ods. Attention-based ranking NETRA achieved the highest normalized enrichment score (NES ≈ 3.9), substantially out-performing all network topology measures: PageRank (NES 
+
+≈ 2.36), degree (NES ≈ 2.08), eigenvector (NES ≈ 1.95), and betweenness (NES ≈ 1.4) (see Fig. 6 a-e). Only pagerank achieves a slightly more significant FDR than NETRA. Comparison of GSEA on SIR Result with the Proposed Method. GSEA performed on SIR model results yields Ribosome (KEGG: hsa03010) as the top-ranked pathway with a NES of 1.318 (FDR = 1 .25 × 10 −4), followed by Coron-avirus disease–COVID-19 (KEGG: hsa05171; NES = 1.220, FDR = 2 .00 × 10 −3) and Neuroactive ligand-receptor inter-action (KEGG: hsa04080; NES = 1.211, FDR = 3 .83 ×10 −3). Among the neurodegenerative disease pathways, SIR re-covers Parkinson disease (KEGG: hsa05012; NES = 1.184, FDR = 1 .41 ×10 −2), Prion disease (KEGG: hsa05020; NES = 1.168, FDR = 5 .03 × 10 −2), and Huntington disease (KEGG: hsa05016; NES = 1.152, FDR = 5.36 × 10 −2). Notably, Alzheimer’s disease (KEGG: hsa05010) is entirely absent from the SIR-derived enrichment results, whereas it emerges as a prominently enriched pathway under our proposed NETRA score. Furthermore, each of the neurodegenerative pathways recovered by SIR exhibits a lower NES compared to Alzheimer’s disease in the NETRA-based analysis, and both Prion disease and Huntington disease fail to reach statistical significance after multiple-testing correction (FDR > 0.05 ). These findings suggest that the NETRA scoring scheme captures disease-relevant biological signal—particularly for neurodegeneration-associated pathways—that the conven-tional SIR model fails to prioritize. Broad Pathway Enrichment Landscape. Beyond Alzheimer’s disease, attention-based ranking enriched multiple neu-rodegenerative pathways with high significance. Figure 7presents the top 20 enriched KEGG pathways, dominated by neurodegeneration-related processes: Pathways of neurode-generation - multiple diseases (FDR = 1.43×10 −30 ), Parkin-son’s disease (FDR = 4.94×10 −27 ), Huntington’s disease (FDR = 6.07×10 −24 ), Amyotrophic lateral sclerosis (FDR = 2.85×10 −28 ), and Prion disease (FDR = 1.65×10 −28 ). The enrichment of protein synthesis machinery (Ribosome, FDR = 1.55×10 −31 ) and proteostasis-related pathways indicates the model captures cellular stress mechanisms common to neurodegenerative diseases. The ridge plot (Figure 7) visual-izes the distribution of gene rankings within each pathway, showing consistent enrichment patterns across neurodegener-ative processes. Notably, cancer-related pathways (Pathways in cancer, Proteoglycans in cancer, Viral carcinogenesis) and infectious disease responses (Coronavirus disease - COVID-19, Hepatitis B, Salmonella infection) also achieved significant enrich-JOURNAL OF L ATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015 9R            !   R!   R     R   %&$ R  R  R " R R R  R R       R  R R R     R      R R R    R          R R     R ! !R R R   R  R       ! R     R      R R   #    R    # #  R !   !R R R R    "       R R !    !    R R    R R    R R  R R  R R   R    !R   R!  R  R R       !      R  R R R   R  "  RR     R      R R       R R  R R  R R R R      "  R R R 
+
+Fig. 4. Visualization of an attention-weighted subgraph induced by the top-10 prioritized genes. Prioritized genes are shown in gold, neighboring context genes in gray, with node sizes proportional to NETRA attention scores. Blue edges represent gene-gene interactions. 
+
+ment. This reflects shared molecular mechanisms between neurodegeneration and cancer, particularly, dysregulated cell cycle control, apoptosis, and proteostasis, as well as immune and inflammatory responses central to both infectious and neurodegenerative pathologies. 3.2.2 Enrichment Analyses of Top-Ranked Genes We performed targeted enrichment of the top 40 attention-ranked genes to validate specific biological mechanisms (Fig. 8). Chromosome Region Enrichment. Chromosome region en-richment identified chr12q13, supported by four genes (Fig. 8-d)) . This locus has been implicated in late-onset Alzheimer’s disease [22], [23], validating that attention weights capture genetically relevant disease architecture. Pathway Enrichment. KEGG and WikiPathways enrichment (Fig. 8- a,b) revealed convergent mechanisms. KEGG path-ways emphasized neurodegeneration (Pathways of neurode-generation - multiple diseases, Alzheimer disease, Parkin-son disease, Amyotrophic lateral sclerosis), infection re-JOURNAL OF L ATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015 10 
+
+> Fig. 5. Structural comparison between the input ensemble network and the generated network. (a) Comparison of global graph characteristics between the input ensemble network and the generated network on a logarithmic scale, including maximum degree, triangle count, global clustering coefficient, and global efficiency. (b) Log–log degree distribution of the input ensemble network and the generated network, demonstrating the preservation of heavy-tailed degree behavior in the generated network.
+
+sponse (Coronavirus disease - COVID-19, Salmonella infec-tion, Pathogenic Escherichia coli infection), and cellular pro-cesses (Phagosome, Motor proteins, Gap junction). WikiPath-ways highlighted AD-specific signatures (Alzheimer’s disease, Alzheimer’s disease and miRNA effects), protein degradation (Parkin ubiquitin proteasomal system pathway), angiogenesis (VEGFA-VEGFR2 signaling), and protein synthesis (Cyto-plasmic ribosomal proteins). Both databases converge on neurodegeneration and infection response pathways, vali-dating attention-based prioritization across complementary annotation systems. Disease Enrichment. DISGENET enrichment (Fig. 8-c) revealed neurological conditions including Lewy Body Disease, Neurologic Symptoms, and developmental disor-ders (Lissencephaly, Trigonocephaly, Congenital anomaly of brain). Additional enriched terms include Anemia Diamond-Blackfan, Cerebrofrontofacial Syndrome, and Post-Traumatic Osteoporosis, reflecting diverse biological processes captured by attention-prioritized genes. 3.2.3 Cross-Pathway Gene Conservation in Neurodegenera-tion To investigate why multiple neurodegenerative pathways show concurrent enrichment, we examined the overlap of core enrichment genes across Alzheimer’s disease, Parkinson’s disease, Huntington’s disease, Amyotrophic lateral sclerosis, and Prion disease pathways. Our attention-ranked gene list shows co-enrichment of these neurodegenerative pathways driven by shared core genes, particularly tubulin family members (TUBA1B, TUBA1A, TUBA1C, TUBB2A, TUBB) central to axonal transport and cytoskeletal integrity. Figure 9 presents the intersection patterns across path-ways, revealing [X] genes shared across all five conditions. The Jaccard similarity heatmap (Figure 10) quantifies pairwise pathway overlap, with highest similarity observed between Alzheimer’s disease and Prion disease (Jaccard = 0.54). These findings suggest that attention-based prioritization captures conserved neurodegeneration machinery rather than pathway-specific noise, validating the biological coherence of the learned gene rankings. 
+
+4 Conclusion 
+
+In this study, we presented an attention-based multimodal framework for prioritizing Alzheimer’s disease–associated genes by integrating heterogeneous biological evidence across multiple data modalities. By combining gene regulatory net-works derived from various transcriptomic data and auxil-iary biological networks. By combining gene representations learned through VAEs with inferred graph-based embeddings extracted via a BERT model and Graph Transformer, the pro-posed approach named as NETRA moves beyond traditional network-centric gene prioritization strategies. Our results demonstrate that the learned gene embed-dings exhibit clear structural organization, with well-defined communities in the embedding space. Attention-prioritized genes are distributed across multiple embedding clusters and form densely connected interaction modules, indicating that the model captures diverse but functionally coherent biolog-ical processes rather than trivially selecting network hubs. Importantly, the generated network preserves key topological properties of the input ensemble, including clustering behav-ior, global efficiency, and heavy-tailed degree distributions, supporting the structural validity of the learned graph. Functional validation further highlights the strength of attention-based prioritization. Compared to classical central-ity measures, attention-derived rankings consistently achieved stronger enrichment of Alzheimer’s disease pathways and related neurodegenerative processes. Enrichment analyses revealed convergence on conserved neurodegeneration mech-anisms, including cytoskeletal organization, proteostasis, and axonal transport, while also capturing shared molecular signa-tures across multiple neurological disorders. Targeted enrich-ment of top-ranked genes further identified disease-relevant pathways, chromosomal loci, and known AD-associated re-gions, reinforcing the biological relevance of the attention scores. Overall, these findings provide compelling evidence that graph attention mechanisms offer a principled and multimodal-aware strategy for disease gene prioritization. By jointly modeling network structure, gene expression dy-namics, and auxiliary biological knowledge, the proposed framework improves interpretability and biological coherence JOURNAL OF L ATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015 11 0.0 0.1 0.2 0.3 0.4 
+
+> Running ES
+
+NETRA NES = 3.925, FDR = 1.54e−28    
+
+> 0.0 2.5 5.0 7.5 10.0 12.5
+> 2500 5000 7500 10000
+
+Rank in Ordered Dataset 
+
+> Ranked List Metric 0.0 0.2 0.4 0.6
+
+DEGREE NES = 2.084, FDR = 1.05e−26    
+
+> 0.000 0.025 0.050 0.075 0.100
+> 2500 5000 7500 10000 0.0 0.2 0.4 0.6
+
+BETWEENNESS NES = 1.402, FDR = 2.83e−09    
+
+> 0.000 0.005 0.010 0.015
+> 2500 5000 7500 10000 0.0 0.2 0.4 0.6
+
+EIGENVECTOR NES = 1.945, FDR = 2.07e−26    
+
+> 0.00 0.02 0.04 0.06 0.08
+> 2500 5000 7500 10000 0.0 0.2 0.4
+
+PAGERANK NES = 2.36, FDR = 1.1e−29    
+
+> 0.00000 0.00025 0.00050 0.00075
+> 2500 5000 7500 10000
+
+Fig. 6. GSEA enrichment profiles and NES comparison for the Alzheimer’s disease pathway (KEGG: hsa05010). Panels (a)–(e) show the running enrichment score (green curve), gene rank positions (black bars), and score distribution (gray area) for ranking methods: (a) attention-based score NETRA, (b) degree, (c) betweenness, (d) eigenvector, and (e) PageRank centrality. Panel (f) compares the corresponding normalized enrichment scores (NES) across all five methods. The attention-based log2 score NETRA achieves the highest enrichment (NES 
+
+≈ 3.9, FDR ≈ 1.54 × 10 −28 ), demonstrating superior biological signal integration compared to topology-only centrality measures. 
+
+relative to traditional network-based methods. While the present study focuses on Alzheimer’s disease as a case study, the framework itself is not disease-specific and is readily generalizable to other complex disorders. In this sense, the proposed approach can serve as a flexible alternative to classical centrality-based prioritization strategies, offering a more expressive and context-aware paradigm for disease gene discovery across diverse biological settings. JOURNAL OF L ATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015 12 Salmonella infection Proteoglycans in cancer Hepatitis B Viral carcinogenesis Cellular senescence Parkinson disease Coronavirus disease − COVID−19 Amyotrophic lateral sclerosis Huntington disease FoxO signaling pathway Chemical carcinogenesis − reactive oxygen species Pathways of neurodegeneration − multiple diseases Pathways in cancer Ribosome Diabetic cardiomyopathy Shigellosis Non−alcoholic fatty liver disease Alzheimer disease Prion disease Human T−cell leukemia virus 1 infection    
+
+> 0.55 0.60 0.65 0.70
+
+GeneRatio 
+
+> p.adjust
+> 1e−32 1e−27 1e−22 1e−17
+> Count
+> 100
+> 150
+> 200
+> 250
+
+Pathways in cancer Shigellosis Viral carcinogenesis Cellular senescence FoxO signaling pathway Pathways of neurodegeneration − multiple diseases Salmonella infection Human T−cell leukemia virus 1 infection Hepatitis B Huntington disease Proteoglycans in cancer Alzheimer disease Amyotrophic lateral sclerosis Chemical carcinogenesis − reactive oxygen species Diabetic cardiomyopathy Non−alcoholic fatty liver disease Parkinson disease Prion disease Ribosome Coronavirus disease − COVID−19     
+
+> 46810 12
+> p.adjust
+> 1e−32 1e−27 1e−22 1e−17
+
+Fig. 7. KEGG pathway enrichment analysis based on attention-derived gene ranking. (a) Dot plot summarizing Gene Set Enrichment Analysis (GSEA) results, where dot size represents the gene ratio and color intensity indicates the adjusted p-value. Significant enrichment is observed across multiple neurodegenerative pathways, along with metabolic and synaptic signaling processes, supporting the biological relevance of the proposed attention-based gene prioritization. (b) Ridge plot illustrating the distribution of attention-ranked genes across enriched KEGG pathways. Each ridge represents the density of gene rankings within a pathway, with peak positions indicating the concentration of pathway genes along the ranked list. Consistent early enrichment of neurodegenerative pathways highlights robust prioritization of disease-relevant genes. JOURNAL OF L ATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015 13 Gap junction Motor proteins Phagosome Alzheimer disease Amyotrophic lateral sclerosis Parkinson disease Pathways of neurodegeneration - multiple diseases Pathogenic Escherichia coli infection Salmonella infection Coronavirus disease - COVID-19 0.2 0.3 0.4 
+
+GeneRatio 
+
+p.adjust 
+
+> 1e-10 1e-07 1e-04
+
+Count 6810 12 14 
+
+KEGG Parkin ubiquitin proteasomal system pathway 22q11 2 distal CNV Pathogenic Escherichia coli infection VEGFA VEGFR2 signaling Alzheimer 39 s disease and miRNA e ff ects Alzheimer 39 s disease Cytoplasmic ribosomal proteins 0.2 0.3 0.4 
+
+GeneRatio 
+
+p.adjust 
+
+> 1e-15 1e-11 1e-07 1e-03
+
+Count 6810 12 14 
+
+WikiPathways Cerebrofrontofacial Syndrome Post−Traumatic Osteoporosis Trigonocephaly Abnormality of the genital system Congenital anomaly of brain Anemia, Diamond−Blackfan Lissencephaly Lewy Body Disease Neurologic Symptoms Mycoplasma Infections 
+
+> 0.050 0.075 0.100 0.125 0.150
+
+GeneRatio 
+
+p.adjust 
+
+> 5e−04 7e−04 1e−03
+
+Count 
+
+> 2
+> 3
+> 4
+> 5
+> 6
+
+DISGENET chr12 1 20 40 60 80 100 120 
+
+> TUBA1B TUBA1A TUBA1C RPL41
+> q13.11 q13.12 q13.13 q13.2 q13.3
+
+Fig. 8. Multi-level functional and genomic validation of attention-prioritized genes. (a)KEGG pathway enrichment analysis of the top 40 attention-ranked genes, showing significant overrepresentation of neurodegeneration-related pathways alongside apoptotic and iron metabolism processes. (b)WikiPathways enrichment analysis of the top 40 genes, highlighting Alzheimer’s disease–associated signaling pathways and shared molecular mechanisms relevant to neurodegeneration. (c)DISGENET disease enrichment analysis for the top 40 genes, revealing convergence across multiple neurodegenerative and neurological disorders, indicating shared disease mechanisms. (d) Genomic localization of attention-prioritized genes on chromosome 12, highlighting a cluster of four genes mapping to the 12q13 cytoband, a locus previously implicated in Alzheimer’s disease through genome-wide association studies [22], [23] JOURNAL OF L ATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015 14 10 76 5546 16 810 12 8 6913 21 27 923 
+
+> 020 40 60
+> Intersection size
+> 050 100 150 200
+
+Set size 
+
+> Parkinson Prion Huntington Amyotrophic lateral sclerosis Alzheimer Pathways of neurodegeneration − multiples
+
+Pathway 
+
+Fig. 9. UpSet plot showing shared genes across neurodegenerative pathways. Bar heights indicate the number of genes in each intersection. The largest intersections reveal core neurodegeneration genes prioritized by attention scores. 1.00 0.67 0.45 0.43 0.53 0.44 0.67 1.00 0.50 0.41 0.40 0.43 0.45 0.50 1.00 0.54 0.48 0.52 0.43 0.41 0.54 1.00 0.42 0.48 0.53 0.40 0.48 0.42 1.00 0.52 0.44 0.43 0.52 0.48 0.52 1.00 Pathways of neurodegeneration  − multiple Alzheimer Prion Parkinson Amyotrophic lateral sclerosis Huntington Pathways of neurodegeneration − multiple Alzheimer Prion Parkinson Amyotrophic lateral sclerosis Huntington 0.5 0.6 0.7 0.8 0.9 1
+
+Fig. 10. Jaccard similarity between neurodegenerative pathway gene sets. Higher values indicate greater overlap in core enrichment genes. JOURNAL OF L ATEX CLASS FILES, VOL. 14, NO. 8, AUGUST 2015 15 
+
+Funding 
+
+The research work is supported by the Depart-ment of Biotechnology (DBT), GoI, under the project BT/PR51150/NER/95/1996/2023. The work is also partially supported by IDEAS-TIH, ISI-Kolkata. 
+
+References 
+
+[1] Zeinab Breijyeh and Rafik Karaman. Comprehensive review on alzheimer’s disease: causes and treatment. Molecules, 25(24):5789, 2020. [2] Olivia Sheppard and Michael Coleman. Alzheimer’s disease: etiology, neuropathology and pathogenesis. Exon Publications, pages 1–21, 2020. [3] Binon Teji, Swarup Roy, Dinabandhu Bhandari, and Jugal Kalita. Gt-grn: a graph transformer framework for enhanced gene regulatory network inference via multimodal embedding of expression data and existing network knowledge. Briefings in Bioinformatics, 26(6):bbaf584, 2025. [4] Softya Sebastian, Swarup Roy, and Jugal Kalita. A generic parallel framework for inferring large-scale gene regulatory net-works from expression profiles: application to alzheimer’s disease network. Briefings in Bioinformatics, 24(1):bbac482, 2023. [5] Erten Sinen and Mehmet Koyutürk. Role of centrality in network-based prioritization of disease genes [m]. Evolutionary Computation, Machine Learning and Data Mining in Bioinfor-matics Lecture Notes in Computer Science. Evolutionary Com-putation, Machine Learning and Data Mining in Bioinformatics. Lecture Notes in Computer Science, 6023:13–25, 2010. [6] Softya Sebastian, Swarup Roy, and Jugal Kalita. Network-based analysis of alzheimer’s disease genes using multi-omics network integration with graph diffusion. Journal of Biomedical Informatics, 164:104797, 2025. [7] Shiyu Wang, Xixian Fang, Xiang Wen, Congying Yang, Ying Yang, and Tianxiao Zhang. Prioritization of risk genes for alzheimer’s disease: an analysis framework using spatial and temporal gene expression data in the human brain based on support vector machine. Frontiers in Genetics, 14:1190863, 2023. [8] Morgan C Stephens, Jiayang Li, Megan Mair, Justin Moore, Katy Zhu, Akash Tarkunde, Bismark Amoh, Alma M Perez, Arya Bhakare, Fangfei Guo, et al. Computational and functional prioritization identifies genes that rescue behavior and reduce tau protein in fly and human cell models of alzheimer disease. The American Journal of Human Genetics, 112(5):1081–1096, 2025. [9] Jang H Lee and Graciela H Gonzalez. Towards integrative gene prioritization in alzheimer’s disease. In Biocomputing 2011, pages 4–13. World Scientific, 2011. [10] Jixin Cao, Cheng Zhang, Chun-Yi Zac Lo, Qihao Guo, Jing Ding, Xiaohui Luo, Zi-Chao Zhang, Feng Chen, ZIB Consortium, Tian-Lin Cheng, et al. Integrating rare pathogenic variant pri-oritization with gene-based association analysis to identify novel genes and relevant multimodal traits for alzheimer’s disease. Alzheimer’s & Dementia, 21(2):e14444, 2025. [11] Hazel Nicolette Manners, Swarup Roy, and Jugal K Kalita. Intrinsic-overlapping co-expression module detection with ap-plication to alzheimer’s disease. Computational biology and chemistry, 77:373–389, 2018. [12] Monica Jha, Swarup Roy, and Jugal K Kalita. Prioritizing dis-ease biomarkers using functional module based network analysis: a multilayer consensus driven scheme. Computers in Biology and Medicine, 126:104023, 2020. [13] Aditya Grover and Jure Leskovec. node2vec: Scalable feature learning for networks. In Proceedings of the 22nd ACM SIGKDD international conference on Knowledge discovery and data min-ing, pages 855–864, 2016. [14] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polo-sukhin. Attention is all you need. Advances in neural information processing systems, 30, 2017. [15] Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. Bert: Pre-training of deep bidirectional transformers for language understanding. In Proceedings of the 2019 con-ference of the North American chapter of the association for computational linguistics: human language technologies, volume 1 (long and short papers), pages 4171–4186, 2019. [16] Vijay Prakash Dwivedi and Xavier Bresson. A general-ization of transformer networks to graphs. arXiv preprint arXiv:2012.09699, 2020. [17] Jimmy Lei Ba. Layer normalization. arXiv preprint arXiv:1607.06450, 2016. [18] Sergey Ioffe. Batch normalization: Accelerating deep network training by reducing internal covariate shift. arXiv preprint arXiv:1502.03167, 2015. [19] Eric M Blalock, James W Geddes, Kuey Chu Chen, Nada M Porter, William R Markesbery, and Philip W Landfield. Incip-ient alzheimer’s disease: microarray correlation analyses reveal major transcriptional and tumor suppressor responses. Proceed-ings of the National Academy of Sciences, 101(7):2173–2178, 2004. [20] Thorsten Müller, Caoimhin G Concannon, Manus W Ward, Ciara M Walsh, Anca L Tirniceriu, Florian Tribl, Donat Kögel, Jochen HM Prehn, and Rupert Egensperger. Modulation of gene expression and cytoskeletal dynamics by the amyloid precursor protein intracellular domain (aicd). Molecular biology of the cell, 18(1):201–210, 2007. [21] Jing Jiang, Cankun Wang, Ren Qi, Hongjun Fu, and Qin Ma. scread: a single-cell rna-seq database for alzheimer’s disease. Iscience, 23(11), 2020. [22] Gary W. Beecham, Eden R. Martin, Yi-Ju Li, Michael A. Slifer, John R. Gilbert, Jonathan L. Haines, and Margaret A. Pericak-Vance. Genome-wide association study implicates a chromosome 12 risk locus for late-onset alzheimer disease. The American Journal of Human Genetics, 84(1):35–43, 2009. [23] Jin-Tai Yu, Cai-Xia Mao, Hao-Wen Zhang, Qun Zhang, Zhong-Chen Wu, Nan-Nan Yu, Na Zhang, Yang Li, and Lan Tan. Genetic association of rs11610206 snp on chromosome 12q13 with late-onset alzheimer’s disease in a han chinese population. Clinica Chimica Acta, 412(1):148–151, 2011. 
+
+Binon Teji is a Senior Research Fellow at Network Reconstruction and Analysis Lab and Ph.D. scholar at Sikkim (Central) University, Gangtok, India. He received his Master of Computer Application degree from the Uni-versity of Jammu, Jammu and Kashmir, India. His research areas includes Graph Representa-tion Learning, Computational Biology. 
+
+Subhajit Bandyopadhyay is a Project Fellow at Network Reconstruction and Analysis Lab at Sikkim (Central) University, Gangtok, India. He received his Ph.D. (Mathematics) degree from Tezpur University, Assam, India. His research areas includes high-dimensional data, topological data analysis, computational biol-ogy, and combinatorics. 
+
+Swarup Roy is a Professor in the Department of Computer Science & Engineering at Tezpur University. His research interests include graph machine learning in computational biology and health informatics. He has published in re-puted international journals and conferences, written books, and serves as associate editor and on technical committees of several inter-national journals and conferences.

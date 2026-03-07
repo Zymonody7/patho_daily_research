@@ -1,12 +1,72 @@
 # 知识库
 
-- 最近沉淀条目数：41
+- 最近沉淀条目数：61
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [AMR-GNN: a multi-representation graph neural network framework to enable genomic antimicrobial resistance prediction.](#/202603/07/202603/07/41792137-amr-gnn-a-multi-representation-graph-neural-network-framework-to-enable-genomic-antimicrobial-resistance-prediction)
+  - TLDR：针对全基因组测序数据维度高且缺乏标准化表示导致抗生素耐药性（AMR）预测困难的问题，本文提出了 AMR-GNN 框架。该框架利用图神经网络整合多种基因组表示，在铜绿假单胞菌及多种临床病原体数据集上验证了其有效性。研究不仅显著提升了预测精度，还通过识别关键生物标志物增强了模型的可解释性，并有效缓解了克隆关系对预测结果的干扰，为精准医疗提供了有力支持。
+  - Tags：`query:pathoai`
+- [A novel hypothetical protein (SAUSA300_1684) confers excellent protection against multi-drug-resistant Staphylococcus aureus infection in the murine model.](#/202603/07/202603/07/41548530-a-novel-hypothetical-protein-sausa3001684-confers-excellent-protection-against-multi-drug-resistant-staphylococcus-aureus-infection-in-the-murine-model)
+  - TLDR：针对金黄色葡萄球菌多重耐药性导致缺乏有效疫苗的挑战，本研究利用机器学习引导的反向疫苗学方法，从蛋白质组中筛选出新型抗原蛋白 IMTS8。实验证明该蛋白在临床菌株中高度保守且暴露于细菌表面，通过小鼠模型验证，接种 IMTS8 能诱导强烈的免疫反应并提供近乎完全的感染保护，为开发耐药菌疫苗提供了重要候选靶点。
+  - Tags：`query:pathoai`
 - [The Evaluation of Machine Learning Models Using Matrix-Assisted Laser Desorption/Ionization Time-of-Flight Mass Spectrometry (MALDI-TOF-MS) Spectra for the Prediction of Antibiotic Resistance in Klebsiella pneumoniae.](#/202603/07/202603/07/41771780-the-evaluation-of-machine-learning-models-using-matrix-assisted-laser-desorptionionization-time-of-flight-mass-spectrometry-maldi-tof-ms-spectra-for-the-prediction-of-antibiotic-resistance-in-klebsiella-pneumoniae)
   - TLDR：针对肺炎克雷伯菌抗药性检测耗时长（48-96小时）的临床痛点，本研究评估了利用基质辅助激光解析电离飞行时间质谱（MALDI-TOF-MS）数据结合机器学习模型的预测效能。通过分析23项研究发现，集成学习（如Random Forest、XGBoost）和深度学习（CNN）模型在预测碳青霉烯类耐药性方面表现优异，AUROC普遍超过0.90，最高准确率达97%。该方法能将诊断时间缩短至分钟级，且无需额外硬件投入，具有极高的临床应用潜力。
+  - Tags：`query:pathoai`
+- [Spatial transcriptomics maps host-gut microbiome biogeography at high resolution.](#/202603/07/202603/07/41792309-spatial-transcriptomics-maps-host-gut-microbiome-biogeography-at-high-resolution)
+  - TLDR：肠道微生物与宿主的相互作用对健康至关重要，但缺乏高分辨率的原位测量工具。本研究开发了一种结合酶促原位多聚腺苷酸化与空间转录组测序的新方法，实现了1微米分辨率的宿主-微生物空间图谱绘制。该方法显著提升了低丰度微生物的检测灵敏度，并在小鼠肠道肿瘤模型中揭示了微生物分布的地理特征及肿瘤导致的界面结构变化，为研究微环境下的宿主-菌群互动提供了通用工具。
+  - Tags：`query:seqai`
+- [Multimodal Alignment Improves Generalizability of Genomic Biomarker Prediction in Computational Pathology](#/202603/07/202603/07/2603.00193v1-multimodal-alignment-improves-generalizability-of-genomic-biomarker-prediction-in-computational-pathology)
+  - TLDR：针对计算病理学中预测基因生物标志物需大量标注数据且泛化性差的问题，本文提出 MARBLE 预训练策略。该方法通过对比学习将病理图像特征与大语言模型（LLM）及蛋白质语言模型（PLM）生成的生物标志物知识进行对齐。实验证明，这种生物学信息对齐显著提升了模型在少量数据下对新标志物的预测能力，为精准医疗提供了更高效的工具。
+  - Tags：`query:bioinfo`
+- [Contextual Invertible World Models: A Neuro-Symbolic Agentic Framework for Colorectal Cancer Drug Response](#/202603/07/202603/07/2603.02274v1-contextual-invertible-world-models-a-neuro-symbolic-agentic-framework-for-colorectal-cancer-drug-response)
+  - TLDR：针对结直肠癌药物反应预测中样本稀疏且模型黑盒的问题，该研究提出一种神经符号智能体框架。该框架结合了定量机器学习世界模型与大语言模型推理层，通过显式建模临床背景（如MSI状态）并引入逆向推理技术，实现了对基因编辑后药物敏感性变化的预测。实验在GDSC数据集上达到0.504的相关性，并经临床数据验证，为可解释的精准医疗提供了生物学依据。
+  - Tags：`query:agent`
+- [Learning graph topology from metapopulation epidemic encoder-decoder](#/202603/07/202603/07/2603.02349v1-learning-graph-topology-from-metapopulation-epidemic-encoder-decoder)
+  - TLDR：针对流行病传播中难以同时推断传播参数和流动网络的问题，本研究提出两种编码器-解码器架构，直接从疫情时间序列中学习图拓扑。该方法在未知参数时仍能有效推断，实验显示其性能优于现有技术，且多病原体数据可显著提升精度，为疾病传播建模提供了鲁棒的联合推断框架。
+  - Tags：`query:pathoai`
+- [Count Bridges enable Modeling and Deconvolving Transcriptomic Data](#/202603/07/202603/07/2603.04730v1-count-bridges-enable-modeling-and-deconvolving-transcriptomic-data)
+  - TLDR：针对生物转录组数据中常见的整数计数特性以及多细胞聚合导致的低分辨率问题，本文提出 Count Bridges 框架。该方法在整数空间构建随机桥过程，实现了类似扩散模型的生成建模，并结合 EM 算法处理聚合观测。实验证明该方法在整数分布匹配上达到 SOTA，并能有效完成 Bulk RNA-seq 反卷积和空间转录组单细胞分辨率还原任务，为生物计数数据建模提供了新工具。
+  - Tags：`query:seqai`
+- [DARE: Aligning LLM Agents with the R Statistical Ecosystem via Distribution-Aware Retrieval](#/202603/07/202603/07/2603.04743v1-dare-aligning-llm-agents-with-the-r-statistical-ecosystem-via-distribution-aware-retrieval)
+  - TLDR：针对 LLM 智能体在处理 R 语言统计任务时因缺乏专业知识和工具检索不准导致的效果不佳问题，本文提出了 DARE 检索模型。该模型通过融合数据分布特征与函数元数据，显著提升了 R 包检索的准确性。配合构建的 RPKB 知识库和 RCodingAgent 智能体，在统计分析任务中取得了优于现有开源模型的效果，有效弥合了 LLM 与成熟 R 统计生态之间的鸿沟。
+  - Tags：`query:agent`
+- [Designing the Haystack: Programmable Chemical Space for Generative Molecular Discovery](#/202603/07/202603/07/2603.00614v1-designing-the-haystack-programmable-chemical-space-for-generative-molecular-discovery)
+  - TLDR：针对现有分子生成模型将化学空间视为固定分布、缺乏主动设计能力的局限，本研究提出 SpaceGFN 框架，将化学空间转化为可编程的计算对象。该方法通过解耦空间定义与搜索过程，允许用户自定义构建块和反应规则，并利用 GFlowNet 进行高效采样。在发现模式下，它通过模拟天然产物和进化代谢路径生成具有优异代谢特性的分子；在编辑模式下，实现了符合合成逻辑的先导化合物优化。实验证明，该方法在 96 个药物靶点上均能兼顾合成可行性与药理活性，为药物研发提供了可控的探索范式。
+  - Tags：`query:bioinfo`
+- [Graph Attention Based Prioritization of Disease Responsible Genes from Multimodal Alzheimer's Network](#/202603/07/202603/07/2603.02273v1-graph-attention-based-prioritization-of-disease-responsible-genes-from-multimodal-alzheimers-network)
+  - TLDR：针对阿尔茨海默病（AD）致病基因识别中传统方法难以整合多模态异构数据的问题，本文提出NETRA框架。该框架通过BERT学习基因全局嵌入，并利用变分自编码器处理多模态表达谱，最后结合图Transformer的注意力机制对基因进行优先级排序。实验显示NETRA在AD通路富集分析中显著优于传统中心性指标，成功识别出关键易感位点，为复杂疾病的分子机制研究提供了高精度的计算工具。
+  - Tags：`query:bioinfo`
+- [Tracing Pharmacological Knowledge In Large Language Models](#/202603/07/202603/07/2603.03407v1-tracing-pharmacological-knowledge-in-large-language-models)
+  - TLDR：针对大语言模型在药理学任务中内部机制不明的问题，本研究利用激活修补和线性探测技术，对基于 Llama 的生物医学模型进行了可解释性分析。研究发现药理语义并非存储在单一 Token 中，而是分布在药物名称的多个 Token 及其早期层中。这一发现揭示了生物医学知识在模型内部的分布式表征逻辑，为优化药物发现模型提供了理论基础。
+  - Tags：`query:bioinfo`
+- [Dominance and natural suppression of bacterial plant pathogens across global soils.](#/202603/07/202603/07/41786734-dominance-and-natural-suppression-of-bacterial-plant-pathogens-across-global-soils)
+  - TLDR：土壤是植物病原菌的主要来源，但其全球分布及自然抑制机制尚不明确。本研究整合了全球59个国家的1602份土壤宏基因组数据并结合温室实验，识别出32种主导病原菌，发现微生物多样性、有机碳含量及特定次生代谢产物基因簇是抑制病原菌的关键因素。该研究揭示了气候变暖将加剧病原菌扩散风险，为全球作物病害监测与管理提供了科学依据。
+  - Tags：`query:pathoai`
+- [Gut virome and metabolic associations in patients with acute pancreatitis.](#/202603/07/202603/07/41789894-gut-virome-and-metabolic-associations-in-patients-with-acute-pancreatitis)
+  - TLDR：急性胰腺炎（AP）的肠道微环境失衡是病情恶化的关键，但既往研究多关注细菌而忽视了病毒组的作用。本研究通过对AP患者和健康对照组进行宏基因组测序，揭示了AP患者肠道病毒组多样性显著下降，且特定噬菌体与致病菌及代谢紊乱密切相关。研究发现由7种病毒组成的标志物能高效识别AP，为理解AP发病机制及开发基于病毒组的诊断和治疗策略提供了新视角。
+  - Tags：`query:pathoai`
+- [Revealing the Antagonistic Interactions of Faecalibacterium prausnitzii and Bacteroides fragilis in Colorectal Cancer.](#/202603/07/202603/07/41790075-revealing-the-antagonistic-interactions-of-faecalibacterium-prausnitzii-and-bacteroides-fragilis-in-colorectal-cancer)
+  - TLDR：结直肠癌（CRC）的发生与肠道菌群代谢失调密切相关。本研究通过对440例临床样本进行宏基因组与代谢组联合分析，发现CRC患者体内普拉梭菌减少而脆弱拟杆菌增加。研究揭示了普拉梭菌能将色氨酸转化为吡啶甲酸（PIA），通过下调促癌基因TCERG1和CKAP2来诱导肿瘤细胞凋亡，从而拮抗脆弱拟杆菌的促癌作用。这一发现为通过色氨酸饮食干预或菌群调节防治CRC提供了科学依据。
+  - Tags：`query:pathoai`
+- [Integrated disease model considering mutation-induced infection waves with COVID-19 cases.](#/202603/07/202603/07/41790946-integrated-disease-model-considering-mutation-induced-infection-waves-with-covid-19-cases)
+  - TLDR：针对传统SIR模型难以捕捉新冠病毒多变异株引发的多波疫情动态的问题，该研究提出一种集成建模方法，通过叠加代表不同主导变异株的S型逻辑回归曲线来模拟累计感染人数。利用PELT算法确定变异株更替的数学切分点，并在14个国家的数据上验证了该模型。结果表明，这种多变异株集成框架比单毒株模型预测精度显著提高，为应对病毒变异提供了动态更新的流行病学预测方案。
+  - Tags：`query:pathoai`
+- [Integration of radiomics, deep learning, transcriptomics, and metabolomics reveals prognostic risk stratification and underlying biological mechanisms in colorectal cancer.](#/202603/07/202603/07/41792227-integration-of-radiomics-deep-learning-transcriptomics-and-metabolomics-reveals-prognostic-risk-stratification-and-underlying-biological-mechanisms-in-colorectal-cancer)
+  - TLDR：针对结直肠癌预后评估受肿瘤异质性干扰的问题，本研究通过分析1183名患者的CT影像，开发并优化了深度学习影像组学模型（DLRM）以实现风险分层。结合转录组学与代谢组学分析，研究揭示了高风险组与细胞外基质通路相关，而低风险组表现出更强的免疫浸润及丁酸代谢等保护性特征。该框架不仅提升了生存预测精度，还为理解结直肠癌的生物学机制提供了多组学证据。
+  - Tags：`query:bioinfo`
+- [Advances in Staphylococcus aureus extracellular vesicles: navigating challenges, embracing prospects.](#/202603/07/202603/07/41728926-advances-in-staphylococcus-aureus-extracellular-vesicles-navigating-challenges-embracing-prospects)
+  - TLDR：金黄色葡萄球菌（S. aureus）的细胞外囊泡（EVs）在致病和耐药中起关键作用。本文综述了 EVs 促进毒力和耐药的机制，总结了能干扰 EVs 的天然化合物，并探讨了通过生物工程将其转化为疫苗载体或药物递送系统的潜力。该研究为应对抗生素耐药性提供了新视角，并指出了区分囊泡与非囊泡纳米颗粒的未来研究方向。
+  - Tags：`query:pathoai`
+- [Friend and Foe: Microbes in Orchestrating Immunity and Shaping Infection Dynamics.](#/202603/07/202603/07/41789806-friend-and-foe-microbes-in-orchestrating-immunity-and-shaping-infection-dynamics)
+  - TLDR：针对传染病及抗生素耐药性带来的全球挑战，本文综述了微生物群在调节宿主免疫和抵御感染中的核心作用。文章系统分析了肠道、皮肤等部位微生物与病原体的相互作用，并探讨了益生菌、粪菌移植及工程化菌群等干预手段。研究指出，通过调节微生物群可增强宿主定殖抗性，为开发替代传统抗生素的可持续、机制驱动型感染防治策略提供了重要参考。
+  - Tags：`query:pathoai`
+- [Heuristically Adaptive Diffusion-Model Evolutionary Strategy.](#/202603/07/202603/07/41793196-heuristically-adaptive-diffusion-model-evolutionary-strategy)
+  - TLDR：针对传统进化算法在复杂优化任务中缺乏对历史经验深度利用的问题，该研究提出了一种启发式自适应扩散模型进化策略。该方法将扩散模型集成到进化框架中，利用其强大的分布建模能力替代传统变异算子，通过在启发式筛选的数据库上迭代训练来生成高质量后代。实验表明，该策略能有效利用历史数据中的潜在关联，在保持种群多样性的同时显著提升收敛效率，为高维参数优化提供了更具灵活性和精确性的生成式搜索方案。
+  - Tags：`query:bioinfo`
+- [Swift quantitative risk assessment and multi-criteria decision analysis on main food-borne pathogens in market food in Zhejiang Province, China](#/202603/07/202603/07/IND609405755-swift-quantitative-risk-assessment-and-multi-criteria-decision-analysis-on-main-food-borne-pathogens-in-market-food-in-zhejiang-province-china)
+  - TLDR：针对食源性疾病带来的公共卫生挑战，本研究利用2019-2023年浙江省监测数据，结合1万余人的消费习惯，采用快速定量风险评估（sQMRA）与多准则决策分析（MCDA）模型，估算出该地区年发病约150万例。研究识别出副溶血性弧菌与海鱼、金黄色葡萄球菌与熟肉制品等高风险组合，证明了MCDA在风险排序中的优越性，为制定精准的食品安全政策提供了科学依据。
   - Tags：`query:pathoai`
 - [Forecasting Antimicrobial Resistance Trends Using Machine Learning on WHO GLASS Surveillance Data: A Retrieval-Augmented Generation Approach for Policy Decision Support](#/20260226-20260307/2602.22673v1-forecasting-antimicrobial-resistance-trends-using-machine-learning-on-who-glass-surveillance-data-a-retrieval-augmented-generation-approach-for-policy-decision-support)
   - TLDR：针对全球抗生素耐药性（AMR）预测难题，该研究利用WHO GLASS监测数据，对比了XGBoost、LSTM等多种机器学习模型对耐药趋势的预测效果，并结合RAG技术（ChromaDB与Phi-3 Mini）构建了政策决策支持系统。结果显示XGBoost表现最优，且RAG能提供有据可查的政策建议，为公共卫生决策提供了数据驱动的工具。

@@ -1,0 +1,643 @@
+Title: Learning graph topology from metapopulation epidemic encoder-decoder
+
+URL Source: https://arxiv.org/pdf/2603.02349v1
+
+Published Time: Wed, 04 Mar 2026 01:11:41 GMT
+
+Number of Pages: 30
+
+Markdown Content:
+# Learning graph topology from metapopulation epidemic encoder-decoder 
+
+Xin Li 1, Jonathan Cohen 1, Shai Pilosof 2,3 , Rami Puzis* 1
+
+1 Faculty of Computer and Information Science, Ben-Gurion University of the Negev, Be’er Sheva, South District, Israel 
+
+2 Department of Life Sciences, Ben-Gurion University of the Negev, Be’er Sheva, South District, Israel 
+
+3 The Goldman Sonnenfeldt School of Sustainability and Climate Change, Ben-Gurion University of the Negev, Be’er Sheva, South District, Israel * puzis@bgu.ac.il 
+
+# Abstract 
+
+Metapopulation epidemic models are a valuable tool for studying large-scale outbreaks. With the limited availability of epidemic tracing data, it is challenging to infer the essential constituents of these models, namely, the epidemic parameters and the relevant mobility network between subpopulations. Either one of these constituents can be estimated while assuming the other; however, the problem of their joint inference has not yet been solved. Here, we propose two encoder-decoder deep learning architectures that infer metapopulation mobility graphs from time-series data, with and without the assumption of epidemic model parameters. Evaluation across diverse random and empirical mobility networks shows that the proposed approach outperforms the state-of-the-art topology inference. Further, we show that topology inference improves dramatically with data on additional pathogens. Our study establishes a robust framework for simultaneously inferring epidemic parameters and topology, addressing a persistent gap in modeling disease propagation. 
+
+# Author summary 
+
+Understanding how diseases spread in metapopulations is crucial for managing epidemics. In this study, we developed a deep learning approach that can uncover the hidden connections between subpopulations based solely on epidemic time-series data. Instead of assuming how people move between locations, our model learns these patterns directly from the infection records of multiple pathogens. We built an encoder-decoder framework that simultaneously learns both the structure of the mobility network and the parameters of the epidemic model. By testing our model on various simulated and real-world networks, such as transportation and regional mobility graphs, we found that it can accurately reconstruct the underlying connections and outperform existing inference methods. Our findings show that analyzing data from multiple disease pathogens greatly improves inference accuracy. This work presents a novel approach to elucidating population movement and disease transmission patterns, which may aid researchers and public health officials in better understanding and controlling future epidemics. March 4, 2026 1/30 
+
+> arXiv:2603.02349v1 [cs.LG] 2 Mar 2026
+
+# Introduction 
+
+The outbreaks of infectious diseases such as SARS [ 1 ], influenza A (H1N1) [ 2 ], Ebola [ 3 ], MERS [ 4 ], and COVID-19 [ 5] pose significant public health and the economic challenges [6 ]. The growth of cities and well-connected transportation networks contributes to the rapid spread of pathogens 1 [7]. Therefore, it is crucial to understand how the mobility of the population influences the transmission of diseases at large scales in order to devise effective containment and intervention policies. The theory of complex networks offers a useful framework for studying this problem [8, 9]. Specifically, metapopulation networks define subpopulations (e.g., cities, countries) as nodes and the mobility between them as links [10, 11]. While networks provide the backbone structure on which a pathogen spreads, epidemic models describe the underlying transmission mechanisms. Hybrid metapopulation epidemic models [10, 12] provide a good trade-off between the scalability of the compartmental models [13 , 14 ], which assume fully mixed populations, and the flexibility of agent-based models [ 15 – 18 ], which focus on individuals and their contacts. Hybrid models provide valuable insights into the propagation of infectious diseases between subpopulations at large scales [19]. For example, Brockmann et al. [20] and Hufnagel et al. [21] used a global aviation graph to analyze the propagation of SARS and H1N1, respectively, in the global city metapopulation, Wesolowski et al. [ 22 ] used a cellphone user mobility graph to analyze malaria propagation in an inter-settlement metapopulation of Kenya, demonstrating successful applicability and a high degree of predictability. Here, we focus on metapopulation networks composed of spatially separated fully mixed populations, within the epidemic susceptible-infectious-recovered (SIR) model. Predicting the spread of epidemics in real-world metapopulations poses significant challenges, primarily due to unknown disease transmission networks and epidemic model parameters. The topology inference problem [23–25] focuses on uncovering the disease transmission network, assuming known epidemic model parameters. The epidemic model estimation problem [26–28] aims to determine the unknown parameters of the epidemic model, assuming that the disease transmission network aligns with a known mobility graph. Solving both problems is essential for accurately modeling real-world epidemic spread. 
+
+Uncovering the disease transmission network. One approach to account for the unknown structure of a metapopulation network is to use proxies. For instance, cell phone data provides the time and location of people in the same region, providing a proxy for human proximity. Indeed, cell phone user mobility networks can explain the spread of malaria [22]. However, using proxy networks is challenging because the network used should match the transmission mode of the pathogen. For example, the airline travel network was used to estimate how travel restrictions would affect the spread of H1N1 influenza [ 29 , 30 ], but it cannot be used to study the dynamics of HIV [18, 31, 32]. Rather than relying on proxy networks, it is possible to infer the metapopulation network directly from epidemic data. However, the inference process is challenging due to the large number of unobserved variables (unknown links). To improve the accuracy of network topology inference, researchers often introduce assumptions based on partial knowledge of the network structure. For example, Wang et al.[ 23 ] assumed a power-law distribution in the mobility graph, while others assumed a gravity model to assign link weights [33]. Geographic bordering relationships were also employed to infer the transmission probability [34]. However, these assumptions can oversimplify the 
+
+> 1Throughout this paper, the term pathogen refers to a parasitic microorganism (e.g., bacteria, viruses, fungi) that causes disease in its host.
+
+March 4, 2026 2/30 complexities associated with modern transportation systems, diverse travel methods, and dynamic population flows. 
+
+Estimating the epidemic model parameters. In the literature, researchers have utilized both probabilistic and deterministic frameworks to infer disease dynamics from aggregate data. O’Neill et al. [ 26 ], and Taghizadeh et al.[ 27 ] employ Bayesian inference and nonlinear least-squares methods, respectively, to estimate epidemic parameters. These methodologies treat the subpopulation of interest as a fully mixed unit, assuming that individuals interact homogeneously or function independently, without requiring detailed contact network data. Extending this to networked systems, Calciano et al. [28 ] use Markov Chain Monte Carlo methods to fit epidemic models to metapopulation networks and evaluate how specific topologies affect the accuracy of epidemic parameter estimates. To the best of our knowledge, this is the first attempt to infer metapopulation topolo-gies without making assumptions about their structure and epidemic parameters. In this paper, we advance the topology inference state of the art by introducing a topology inference encoder-decoder deep learning framework that: (1) requires no prior assumptions about network structure, (2) jointly infers both topology and SIR epidemic parameters, and (3) leverages multi-pathogen data to improve identifiability. Our deep learning topology inference and epidemic fast-forward-backward (DTEF) architecture combines a deep learning topology inference (DTI) encoder with a novel parameter-estimation approach via the epidemic fast-forward-backward ( EFB ) decoder. We evaluate our method on both synthetic and real-world graphs. The main contributions of this paper are summarized as follows: 1. We propose (DTEF), the first framework capable of jointly inferring both the network topology and the epidemic parameters from metapopulation epidemic time-series data. 2. We demonstrate that topology inference accuracy improves with the number of independent pathogens. 3. Provided the epidemic parameters, DTEF exhibits state-of-the-art performance in topology inference. The paper is organized as follows: in Section II we introduce the SIR model, and in Section III we discuss the relevant learning tasks within the multi-pathogen metapopulation SIR model. We describe our DTEF model for epidemic topology inference in Section IV. In Section V we perform numerical simulations and present the experimental results. Finally, in Section VI we summarize our findings and present our plans for future work. In Appendix Theoretical proofs we provide theoretical proofs, in Appendix Real-world graph attributions we provide details on the real-world graphs used in the paper, and in Appendix Supplementary experimental results we provide supplementary experimental results. 
+
+# Preliminaries and Problem Formulation 
+
+# Metapopulation SIR model 
+
+The metapopulation SIR model [10, 12] considers n populations that are connected by the migration of individuals between them. Each subpopulation has its own set of SIR compartments Xi = ( Si, I i, R i)|i ∈ [1 , n ] denoting the proportion of susceptible, March 4, 2026 3/30 Fig 1. Representative graph topologies used in this study. Top row: synthetic random graphs - Erdos-Renyi random graph (ER), Barabasi-Albert scale-free random graph (BA), Watts-Strogatz small-world random graph (WS), random geometric graph (RGG). infectious, and recovered individuals in subpopulation i, and the following sum holds: 
+
+Si + Ii + Ri = 1. These subpopulations are interconnected through the migration of individuals, resulting in the metapopulation flow graph G = ( V, E ), where V and E are the sets of nodes (subpopulations) and links that connect them, with sizes |E| = m and 
+
+|V | = n. Representative examples of these graphs are illustrated in fig. 1, while full details are provided in the Experimental Setup. Within each population, individuals are assumed to mix homogeneously. In Figure 2 (left), red infected individuals can infect others in their population and migrate between subpopulations, introducing the potential for the pathogen spread across the metapopulation. The rate of migration M obilityRate between any two subpopulations is represented with a mobility adjacency matrix A whose element Aij denote the fraction of individuals from subpopulation Vj traveling to subpopulation Vi. For node 
+
+Vi, the population size Pi is assumed to remain constant. We assume that individuals arriving at a new subpopulation have an equal chance of interacting with any individual in the destination subpopulation. Let Ω ij = Pj × Aij denote the number of people traveling from node vj to node vi. In Figure 2 (left), all individuals in subpopulation 1 can commute to subpopulation 2 with the same chance and vice versa. The state can only evolve from S to I to R. There are two constant parameters which are used to describe an SIR epidemic pathogen: transmission rate β and recovery rate γ. Using the mobility adjacency matrix A, the vector of population sizes P , and SIR epidemic parameters β, γ , we can define an SIR metapopulation-level model. These parameters are also assumed constant during the time span T for one pathogen. Given the assumptions described above, S,I,R have the following dynamics 2:
+
+
+
+S(t + 1) 
+
+I(t + 1) 
+
+R(t + 1) 
+
+ =
+
+
+
+S(t) − S(t) ⊙ ˜α(t)
+
+I(t) − I(t)γ + S(t) ⊙ ˜α(t)
+
+R(t) + I(t)γ
+
+ (1) where t ∈ [0 , T − 1] is the time in days and T is the entire time span of epidemic in our 
+
+> 2In what follows, all vectors are assumed to be row vectors unless specified otherwise.
+
+March 4, 2026 4/30 Fig 2. Left: A metapopulation epidemic process showing the infection both within and among the populations. The blue blocks indicate the state evolution of subpopulation 1. Right: An example of one pathogen metapopulation epidemic time-series data ∆ ¯S in typical BA and RGG graphs with 100 nodes, as well as empirical contiguous US [35], where the nodes are geometric states (two nodes establish a link if they share a border), and global air transportation graphs, which represent the commute between two airports. The x-axis represents the number of days since the start of the epidemic. The nodes are ordered along the y-axis according to the distance from the seed node. The color indicates the fraction of daily new cases ∆ ¯S.study.˜ α(t) is the cumulative infection rate, given by ˜α(t) = α(I(t), P ) · (I + dT · Ω(P 
+
+> dim =1
+
+Ω) T ) (2) where I is an identity matrix and d = P 
+
+> dim =1
+
+A is the in-degree of adjacency A. The function α(I(t), P ) in Eq. (2) corresponds to the infection rate per day, at which an individual is infected by a visitor from a neighboring subpopulation with I(t) ⊙ P
+
+infected people in it, and is equal to: 
+
+α(I(t), P ) = 1 −
+
+
+
+1 − βP
+
+I(t)⊙P
+
+(3) Assuming that population P is numerically much larger than β and I, we obtain the following computationally-convenient approximate form (see Appendix Proof 1: α
+
+approximation): 
+
+α(I(t), P ) ≈ 1 − e−βI (t) (4) Finally, it is worth noting that the term α(I(t), P ) · I in Eq. (2) is the infection rate within a subpopulation, whereas α(I(t), P ) · dT ⊙Ω(P  
+
+> dim =1 Ω) T
+
+is the infection rate among subpopulations. 
+
+# Multi-pathogen metapopulation SIR model 
+
+The multi-pathogen metapopulation SIR model in this paper extends the metapopulation model in Eq. (1) as a superposition of k pathogens with the same transmission model, whose dynamics can be described using SIR dynamics. We assume that these pathogens are spread across the same metapopulation G, whose mobility adjacency matrix is A, but differ in their SIR parameters and seed node 3 [36, 37]. 
+
+> 3For clarity, the term ’seed node’ indicates the node where the first documented patient appears during an epidemic.
+
+March 4, 2026 5/30 Because our main objective is inferring the metapopulation structure, we disregard cross-immunity effects between pathogens (see, e.g., [ 38 , 39 ]). Hence, their dynamics are independent. Therefore, each pathogen has its set of SIR compartments in each population Xi(l) = ( Si(l), I i(l), R i(l)). 
+
+Xi(l) denotes the SIR compartments of subpopulation i for pathogen l. At the metapopulation level, Eqs. (1), (2), and (4) can be directly applied. In the multi-pathogen metapopulation SIR model, β and γ are k × 1 vectors ˆβ, ˆγ
+
+denoting the epidemic parameters of different pathogens, where ˆβ(l) is the β parameter of the l-th pathogen; the same notation applies for ˆ γ.
+
+# Infection matrix 
+
+In accordance with Eq. (2), we define the infection matrix Z as: 
+
+Z = I + dT ⊙Ω(P 
+
+> dim =1 Ω) T
+
+= I + (P   
+
+> dim =1 A)T⊙A⊙P
+> (P
+> dim =1 (A⊙P)) T
+
+(5) where Zij represents the extent to which the infection rate of node i affects node j in an epidemic, hence the name infection matrix. Since the mobility matrix A and population sizes P are fixed, Z is also fixed during the epidemic. In addition, similar to the mobility adjacency matrix A, the infection matrix Z is also sparse (see Appendix Proof 2: Sparsity of infection matrix). Eq. (5) is reversible (see Appendix Proof 3: Reversibility of infection matrix): 
+
+A = (Z − I) ⊙ (P
+
+> dim =1
+
+(Z − I)) T
+
+P ⊙ (P  
+
+> dim =1 Z−I
+> P
+
+)T (6) That is, given infection matrix Z and population sizes P , we can compute matrix A
+
+using Eq. (6). 
+
+# Formal problem definition 
+
+Learning graph topology from multi-pathogen metapopulation epidemics requires fitting the metapopulation graph topology, using the epidemic time-series data collected from the epidemic during a specified time period. Typically, epidemic data includes the number of daily new cases of infectious individuals in each subpopulation. In our work, we use Eq. (1) to simulate and collect the daily new infectious cases denoted as ∆ ¯Sn×k×T . We use ∆ ¯Si(l, t ) to refer to the fraction of the population of node i infected by pathogen l at time t. Figure 2 (right) presents sample metapopulation time-series data of one pathogen of daily new cases in BA and RGG graphs. We also use two empirical networks (the contiguous US and global plane). In those plots, the node index (y-axis) is ordered according to the shortest path distance from the seed node, the x-axis represents the number of days since the seed node occurred, and the color indicates the epidemic behavior (daily new cases). In particular, we see that in the vicinity of the seed node, the BA graph contains ∼3-4 distinctive subpopulations based on the number of neighbors of initial nodes, forming clusters that have different distances from the seed node and whose nodes exhibit similar epidemic behavior. In contrast, the epidemic dynamics applied to an RGG graph provide a richer structure for topology reconstruction (see, e.g., the real graphs contiguous US and Global Plane for comparison). In the rest of the paper, we will show that given the SIR dynamics (whose epidemic parameters are learned from the epidemic diffusion data), it is possible to reconstruct the structure of the underlying disease-propagation network. March 4, 2026 6/30 Fig 3. Architecture of the self-supervised DTEF model. The input is the daily new infection data ∆ ¯S. The encoder extracts node–pathogen embeddings and infers the infection matrix ˆZ, and the decoder uses ˆZ to reconstruct the predicted daily new infections ∆ ˆS. Green ovals and rectangles denote modules with learnable parameters, blue ovals denote parameter-free operations, the black box in σ is the scalar output of F
+
+transform operation, σ is the sigmoid activation enforcing ˆZij ∈ [0 , 1](red cell), arrows indicate input sequences, and the highlighted red cell shows a specific reconstructed entry of ∆ ˆS.The number of daily new cases, as deduced from Eq. (1), are: 
+
+−∆ ¯S(t) = S(t) − S(t + 1) 
+
+≈ S(t) ⊙ (1 − e− ˆβ·I(t)) · Z (7) In Eq. (7) , given the daily new case data ∆ ¯S, the task of our proposed method is to infer the infection matrix Z as well as the corresponding epidemic parameters. If 
+
+−∆ ¯S(t) were known and S(t) ⊙ (1 − e− ˆβ·I(t)) were treated as a fixed transformation, this is a typical linear regression problem, which has a numerical solution. However, 
+
+S(t) ⊙ (1 − e− ˆβ·I(t)) contains unknown parameters, giving rise to nonlinear effects which we will address using deep learning (DL) techniques. Once the infection matrix Z is inferred, we can calculate the mobility matrix A via Eq. (6). Two of our method’s sub-tasks are infection matrix Z learning and epidemic parameters learning. We propose DTI and EFB to perform these two tasks, evaluating the performance of our refined models in section Results. 
+
+# Methods 
+
+Figure 3 presents the architecture of the DTEF model, where the green blocks contain learnable parameters. The input of this DL model is the ground-truth daily new cases ∆ ¯S, and the output is the predicted daily new cases ∆ ˆSn×k×T . Our DL model comprises two sub-models: DTI and EFB. The DTI model infers the infection matrix by learning the potential connections between two populations, while the EFB model provides an efficient means of back-propagating in the diffusion process, leveraging the computed infection matrix to predict the daily new cases ∆ ˆS.
+
+# DTI model 
+
+In this subsection, we describe our DTI model for inferring the topology matrix, which is a more effective alternative to the straightforward fast topology inference (FTI) technique. In the latter method, one considers P (∆ ˆS| ˆZ) as the probability of observing March 4, 2026 7/30 ∆ ˆS given ˆZ, such that topology inference involves maximizing the expectation to observe ∆ ˆS given ˆZ: i.e., max E ˆZ [logP (∆ ¯S = ∆ ˆS| ˆZ)]. This can be achieved by computing the prior observation ∆ ˆS and back-propagating the gradient to update the posterior topology ˆZ. Thus, the FTI model is shown in Eq. (8) , where infection matrix 
+
+Wz is an n × n learnable weight, and infection matrix ˆZ can be directly learned through the gradient back-propagation: 
+
+input : N one 
+
+ˆZ = σ(Wz ) (8) 
+
+output : ˆZ
+
+The FTI model directly parameterizes the infection matrix ˆZ ∈ [0 , 1] n×n and learns its entries independently through back propagation. However, this parameterization provides no mechanism to capture shared patterns among nodes, and the search space [0 , 1] n×n can be high-dimensional for large n. Motivated by these observations, we introduce the DTI model, which maps the temporal infection sequences into latent embeddings and computes pairwise similarities to infer ˆZ. This shared embedding couples the entries of ˆZ and reduces the effective search space. Neural networks, particularly DL models, are powerful tools for learning complex and hierarchical embeddings from data. In what follows, we design a DL model in the spirit of variational inference to infer the infection matrix. 4
+
+Epidemic diffusion progress in a graph is traceable, meaning that any newly infected node must have at least one infected neighbor from which the contagion originated. Hence, the epidemic dynamics of connected nodes are correlated. For example, assume that A1,0 is larger than A2,0 and that the seed node initially occurs on node 0. In that case, at the early stage of the epidemic, the number of infected individuals in v1 will be more similar to that of v0 than the number of v2.Based on this observation, we design an DL model to infer Z. The DTI model reads: 
+
+input : ∆ ¯S|i, j ∈ [1 , n ], l ∈ [1 , k ] (9a) ˆUi(l) = Wu · (∆ ¯Si(l)) + bu (9b) ˆVj (l) = Wv · (∆ ¯Sj (l)) + bv (9c) 
+
+Sim ij (l) = 
+
+P ˆUi(l) ⊙ ˆVj (l)
+
+| ˆUi(l)| × | ˆVj (l)| (9d) 
+
+E{Sim ij } =
+
+P
+
+> l
+
+(Sim ij (l)) 
+
+k (9e) ˆZij =
+
+(
+
+σ(WF · E{Sim ij } + ˆZbij ) i̸ = j
+
+1 i = j (9f) ˆZ = σ(ζ) ˆZ + (1 − σ(ζ)) ˆZ.T (9g) 
+
+output : ˆZ (9h) In Eq. (9b) , the learnable weight W (z×c)×Tu transforms the a−th pathogen epidemic data of the i-th node ∆ ¯S(a, i )T ×1 into an embedding Ui(l)(z×c)×k, where z is a                      
+
+> 4In the variational method, one seeks an easy-to-solve variational distribution qϕ(ˆZ|∆ˆS) to approxi-mate ˆZgiven ∆ ˆS, where ϕare the parameters of this distribution, such that the objective function is given by max Eqϕ( ˆZ|∆ ˆS)[logP (∆ ¯S= ∆ ˆS|ˆZ)]. In our proposed deep learning topology inference ( DTI ), a technique which is also called learning to optimize, we use neural networks as parameters ϕaccordingly, computing the prior observation ∆ ˆSand back-propagating the gradient to update the parameters of the variational distribution qϕ.
+
+March 4, 2026 8/30 hyperparameter denoting the dimension of embedding features (embedding), which we set to 30 5. In addition, c is the hyperparameter of feature channels which we set to 5. Similarly, in Eq. (9c), the learnable weight W z×c×Tv transforms the a−th pathogen epidemic data of the j-th node ∆ ¯Sj (l)T ×1 into an embedding Vj (l)z×c×k. bu, b v are scalar learnable biases. Eq. (9d) calculates the cosine similarity embedding Sim ij (l)c×k between ˆU (a, i ) and ˆV (a, i ) on their embedding dimension. Eq. (9e) averages the cosine similarity embedding across all pathogens into E{Sim ij }c. Using a learnable weight W 1×cF ,Eq. (9f) fuses the averaged similarity embedding into a scalar value. Eq. (9g) leverages the information that the incoming and outcome mobility rate are similar. σ is the sigmoid function. Because the similarity cannot cover all potential features of epidemic diffusion in a graph, we add a learnable infection bias ˆZbk×k
+
+to improve its state space. In the above formulation, Wu, b u, W v , W F , b F , ˆZb, ζ are learnable parameters. Thus, we are now in a position to generate the whole infection matrix ˆZk×k by computing all 
+
+i, j pairs. In section Results we present our experimental results which demonstrate the effectiveness of this method. To conclude, our approach essentially transforms the original ill-defined regression problem into a feature extraction and pairwise embedding problem. The variable space for the regression is n2, whereas for the feature extraction, it is T × z × c. In fact, 
+
+T × z × c is typically much smaller than n2, especially when n > 100. Thus, solving the feature extraction and pairwise embedding tasks is easier than solving the original regression problem. Meanwhile, because our method has a relatively small variable space, it is less prone to overfitting and local optima [40]. 
+
+# EFB model 
+
+In this subsection, we describe our epidemic fast-forward-backward (EFB) model for inferring the epidemic SIR parameters, which is a fast (i.e., computationally efficient) alternative to the traditional epidemic sequential computation (ESC) technique. In Eq. (7), S0, I 0 are pre-specified values, and ˆβ, ˆγ are learnable parameters. ESC sequentially computes the daily new infectious cases ∆ ˆS(t)|t ∈ [1 , T ]. Similar to RNN training, by comparing the ground truth ∆ S to the predicted ∆ ˆS, it back-propagates the gradients to update the epidemic parameters ˆβ, ˆγ. Most epidemic prediction methods predict the epidemic using similar principles [23, 33, 41]. Therefore, the ESC model reads: 
+
+input : ∆ ¯S(1) ˆS(t) = ˆS(t − 1) − ∆ ˆS(t)ˆI(t) = ˆI(t − 1) + ∆ ˆS(t) − I(t)ˆ γ (10) ∆ ˆS(t) = ˆS(t − 1) ⊙ (1 − e− ˆβ· ˆI(t)) · ˆZ
+
+Output : ∆ ˆS(t)|t ∈ [1 , T ]Unfortunately, the ESC model depends heavily on the accuracy of the initial values 
+
+S0, I 0. Furthermore, intermediate values ˆS(t), ˆI(t) will tend to exacerbate the error which is computed based on the preceding uncertain time value ˆS(t − 1) , ˆI(t − 1), resulting in an undesirable gradient. Additionally, this method suffers from a similar flaw as the gradient vanishing problem, hindering its convergence. In practice, we found that the sequential computation is slow and does not provide accurate inference results. 
+
+> 5The embedding size was carefully chosen based on preliminary experiments.
+
+March 4, 2026 9/30 We, therefore, propose a more efficient computation method. By using Eq. (7) , given the S, I vector pairs, we can easily compute the decoder output. Ground truth ¯S can also be accurately calculated by accumulating the daily new cases: ¯S(t) = 1 − Pti=0 ∆ ¯S(i). Rewriting this in matrix form, we have: ¯S = 1 − L · ∆ ¯ST
+
+where LT ×T is a lower triangular one matrix: 
+
+L =
+
+
+
+1 0 0 0 ... 
+
+1 1 0 0 ... 
+
+1 1 1 0 ... 
+
+1 1 1 1 ... ... 
+
+ (11) To calculate the vector ˆI, we observe that ˆI(t) + ˆR(t) = 1 − ¯S(t). If we set ˆ γ to be learnable, from Eq. (1) we can obtain the predicted ˆIt:ˆI(t) = 
+
+> t
+
+X
+
+> ti=1
+
+(1 − ˆγ)t−ti ∆ ¯S(ti) (12) which can be written in a matrix form as: ˆI = eB·ln (1 −ˆγ) · ∆ ¯S (13) where BT ×T is a matrix similar to a triangular number sequence (here ’ /’ means disregard value): 
+
+B =
+
+
+
+0 / / / ... 
+
+1 0 / / ... 
+
+2 1 0 / ... 
+
+3 2 1 0 ... ... 
+
+ (14) In summary, we propose the following computationally efficient EFB model: 
+
+input : ∆ ¯S(t)|t ∈ [1 , T ] (15a) ¯S = 1 − L · ∆ ¯ST (15b) ˆI = eB·ln (1 −ˆγ) · ∆ ¯ST (15c) ∆ ˆS(t) = ¯S(t − 1) ⊙ (1 − e− ˆβ· ˆI(t)) · ˆZ (15d) 
+
+output : ∆ ˆS(t) (15e) where Eq. (15b) calculates ground-truth daily susceptible data ¯S, Eq. (15c) computes the predicted daily infectious data ˆI, and Eq. (15d) computes the predicted daily new cases ∆ ˆS. Note that the infection matrix ˆZ in Eq. (15d) emanates from the infection matrix inference module. In fact, the EFB model can perform fast parallel training. Also, our model does not depend on the initial value ∆ ¯S(1), which in turn further contributes to its robustness. This method of EFB can be applied to other population-level models composed of one diffusion process and multiple temporal transmission rates, e.g., susceptible-exposed-infectious-recovered (SEIR) and susceptible-infectious-recovered-deceased ( SIRD ). By introducing temporal transmission rates as learnable parameters in addition to the constant population constraint, all states can be readily solved. Then we can insert all solved states into the diffusion process to compute the decoder output. Finally, we update the diffusion parameters and temporal transmission rates through gradient descent. March 4, 2026 10/30 Loss function 
+
+By combining the infection matrix and an efficient computation module, given a ground truth ∆ ¯S, we can efficiently compute the predicted ∆ ˆS. In this subsection, we describe the loss function associated with the back-propagation. The loss function is composed of two parts: prediction loss and minimal variance loss. The prediction loss ensures an accurate prediction: 
+
+∥∆ ˆS − ∆ ¯S∥2 (16) where ∥ · ∥ 2 is the L2 norm. In training, to improve the search space, we extend the size of the epidemic parameters with the subpopulation dimension, such that ˆβ, ˆγ have dimension k × n. We randomly initialize SIR parameter vectors ˆβ, ˆγ. Since these SIR parameter vectors should be the same, we subsequently minimize the vectors’ variance: 
+
+var (ˆ γ) + var ( ˆβ) (17) where var () is the mathematical variance. Finally, the overall loss can be computed as follows: 
+
+L = ∥∆ ˆS − ∆ ¯S∥2 + var (ˆ γ) + var ( ˆβ)
+
+T (18) where the loss is normalized by the time span T .
+
+# Experimental setup 
+
+Graph topologies 
+
+We use two types of graphs for our experiments: synthetic random graphs and real-world graphs. The synthetic random graphs are generated using four common models: the ER [42 ], BA [24], WS [43] and RGG [44]. We generate instances of ER, BA, WS, and RGG graphs using different random seeds, and for each graph model, we average over the graph evaluations to obtain our final results. For the real-world graphs, we use contiguous region graphs, cell phone mobility graphs, plane graphs, and other transportation graphs. For the contiguous region graphs, the nodes are geometric administrative units such as countries, states, or cities, where two nodes establish a link if they share a border. We examine contiguous region graphs for the US, EU, China, and Africa [34, 35, 45, 46]. The cell phone mobility graphs are built by collecting cell phone mobility data representing the proportion of people commuting between two nodes. We examine weighted cell phone mobility graphs from Germany and the US [ 47 , 48 ]. For plane graphs representing the commute between two airports, we create a connected graph using the top b busy airlines. By adjusting b,we can obtain graphs of varying sizes. We consider plane graphs both globally and within the US [ 49 , 50 ]. For other transportation graphs, we include the bus, car, plane, and train graphs from the Spanish transport network[51]. To generate the mobility matrix, we assign a M obilityRate value corresponding to the fraction of the population flow to each link. For simplicity, we assign the same value to each link in the synthetic random graphs and unweighted real graphs, which represent the mobility rate. Finally, note that cell phone mobility graphs are weighted graphs, and therefore, there is no need to assign weights to them. In Appendix Real-world graph attributions we provide further details on the real graphs used in this paper, including their graph attributions. All experiments were conducted using our open-source implementation, available at GitHub Repository. March 4, 2026 11/30 Evaluation metrics 
+
+The following metrics were used to evaluate our topology inference performance: 1. Spectral Similarity [52]: 
+
+λ(A) · λ( ˆA)
+
+∥λ(A)∥2∥λ( ˆA)∥2
+
+where λ(A) are the eigenvalues of matrix A, and ˆA is the learned mobility matrix. The spectral similarity takes the eigenvalues into account as a graph embedding, highlighting the similarity of overall structure and connectivity [53]. 2. Pearson Correlation: 
+
+cov (A, ˆA)
+
+std (A) · std ( ˆA)where cov (A, ˆA) represents the covariance of two matrices, and std (A) is the standard deviation of matrix A. The Pearson correlation directly computes the specific link-to-link correlation. 3. Jaccard Similarity: P min (A, ˆA)
+
+P max (A, ˆA)The Jaccard similarity measures the intersection divided by the union of the edge sets. 4. PR-AUC: The area under the precision-recall curve. The PR-AUC represents the precision-recall trade-off, and it is especially useful when dealing with sparse graphs. Finally, to evaluate the accuracy of our epidemic parameter estimations, we use the root mean square error (RMSE) of ˆβ, ˆγ.
+
+Parameter settings 
+
+Name Possible values 
+
+Graph ER, BA, WS, RGG, or real graphs 
+
+RandomSeed Integer 
+
+n Positive integer 
+
+N umber of P athogen Positive integer 
+
+DLM odel DTEF, FTEF, Infer2018 
+
+Dense Positive integer 
+
+M obilityRate Float in the range 0-1 
+
+Table 1. Configurable parameter settings for training. Table 1 lists the configurable settings for training: the Graph parameter is the synthetic random graph model or real graph used to perform simulations and make predictions; RandomSeed is used to set random seeds for generating different graphs; n
+
+is the number of nodes; P athogen is the number of simulated pathogens; Dense 
+
+controls the average degree of the synthetic random graphs; and M obilityRate is the percentage of the population traveling from one subpopulation to another in a unit of time. By default, we simulate 20 synthetic random graphs (five graphs for each random graph model: ER, BA, WS, RGG), with n=100 nodes per graph; then for each graph, March 4, 2026 12/30 we collect data from four pathogens, where the seed nodes are selected with probability proportional to node degree, reflecting the realistic scenario where initial infections are more likely to occur in highly connected regions. The average degree and mobility rate are set to Dense =4 and M obilityRate =0.01, respectively, unless otherwise specified. The DLM odel parameter is the chosen DL model. By combining different topology inference and epidemic learning configurations, we obtain the following two DL models 6:1. Deep learning topology inference and epidemic fast-forward-backward (DTEF) (Eqs. (9) and (15)). 2. Fast topology inference and epidemic fast-forward-backward (FTEF) (Eqs. (8) and (15)). We also include one competitive DL model, Infer2018 [23] for comparison. For the WS graphs, we set the probability of rewiring each edge to be 0 .1 for small-world phenomenon. The RGG graphs are generated by scattering nodes on the 2-D plane with uniform distribution. We run epidemics on the graphs using up to four infectious pathogens in each simulation and set the mean values of the epidemic parameters to β=1.1 and γ = 17.5 [12]; their variance is set to 0 .1. 
+
+# Results 
+
+# Model convergence 
+
+Fig 4. The loss (Eq. (18)) as a function of the number of optimization epochs (left); four evaluation metrics as a function of the number of optimization epochs (right). Our DL model’s training process involved optimizing its parameters, using infectious data to learn the graph topology. As seen in the graph on the left side of Figure 4, the training loss consistently decreased as the number of optimization steps increased, demonstrating successful prediction of the node’s infectious data. In the graph on the right side of Figure 4, four evaluation metrics comparing the real and inferred adjacency also consistently improved, suggesting the highest extraction of topological information from the node’s infectious data. Thus, our proposed model converges effectively to infer the right links. An adjacency matrix comparison of the ground-truth and inferred RGG graphs is provided in Appendix Adjacency matrix comparison for RGG graphs. The fluctuations of the loss and spectral similarity (see Figure 4) are predominantly due to the sparsity of the inferred mobility matrix. Specifically, as the model converges, the 
+
+> 6For brevity, we omit the ESC model, as it did not yield meaningful results.
+
+March 4, 2026 13/30 inferred mobility matrix becomes more sparse, resulting in the observed fluctuations. In Appendix Sparsity index we validate this by computing the sparsity index [54] of the inferred mobility matrix as a function of the optimization epochs. 
+
+# Benchmark results 
+
+Table 2. Topology reconstruction benchmarks on representative random and real graphs. This experiment is performed using four pathogens. We show the performance of the five fitting models and a random Baseline (RND), based on four evaluation metrics as described in the text. The absence of PR-AUC values for Mobility US is due to them being weighted graphs. The bottom-line win rate represents the percentage of tasks where the model achieves a higher accuracy score than the other models. Spectral similarity Pearson correlation DTEF FTEF Infer2018 RND DTEF FTEF Infer2018 RND ER 0.17 0.26 0.11 0.03 0.62 0.02 0.03 0BA 0.22 0.31 0.14 0.05 0.72 0.03 0.03 0WS 0.74 0.55 0.1 0.1 0.88 0.14 0.12 0RGG 0.82 0.62 0.44 0.09 0.95 0.18 0.22 0Contiguous US 0.8 0.55 0.4 0.01 0.98 0.14 0.17 0.01 Contiguous China 0.98 0.77 0.8 0.41 1.0 0.09 0.09 0.02 Contiguous EU 0.58 0.59 0.25 0.02 1.0 0.98 0.2 0.13 Contiguous Africa 0.85 0.67 0.35 0.09 0.99 0.18 0.17 0.02 Mobility Germany 0.04 0.14 0.14 0.01 0.54 0.04 0.02 0Mobility US 0.83 0.38 0.44 0.04 0.96 0.02 0.06 0Global plane 0.05 0.1 0.01 0.05 0.82 0.08 0.1 0US plane 0.53 0.64 0.65 0.34 0.71 0.09 0.04 0Spanish bus 0.64 0.49 0.43 0.49 0.92 0.08 0.11 0.02 Spanish car 0.49 0.61 0.44 0.06 0.91 0.14 0.09 0.01 Spanish plane 0.72 0.21 0.36 0.49 0.92 0.01 0.04 0.03 Spanish train 0.7 0.8 0.63 0.24 0.84 0.07 0.06 0
+
+Win rate 0.5 0.5 0.13 0 1 0 0 0Jaccard similarity PR-AUC DTEF FTEF Infer2018 RND DTEF FTEF Infer2018 RND ER 0.25 0 0.01 0 0.57 0.09 0.1 0.12 BA 0.34 0 0.02 0 0.69 0.09 0.09 0.11 WS 0.58 0 0.02 0 0.86 0.13 0.12 0.12 RGG 0.75 0 0.03 0 0.89 0.15 0.17 0.12 Contiguous US 0.83 0 0.02 0 0.83 0.14 0.15 0.02 Contiguous China 0.96 0.01 0.01 0 0.83 0.19 0.19 0.22 Contiguous EU 0.96 0.89 0.04 0 0.8 0.79 0.31 0.31 Contiguous Africa 0.89 0 0 0 0.83 0.18 0.16 0.16 Mobility Germany 0.22 0 0 0 \ \ \ \
+
+Mobility US 0.48 0 0 0 \ \ \ \
+
+Global plane 0.46 0 0.01 0 0.79 0.08 0.07 0.02 US plane 0.35 0 0 0 0.68 0.08 0.06 0.06 Spanish bus 0.69 0.01 0.01 0 0.82 0.14 0.16 0.17 Spanish car 0.64 0 0.02 0 0.81 0.13 0.11 0.04 Spanish plane 0.73 0.02 0.03 0 0.85 0.21 0.28 0.22 Spanish train 0.52 0.01 0.02 0 0.76 0.12 0.1 0.03 
+
+Win rate 1 0 0 0 1 0 0 0March 4, 2026 14/30 Table 3. Topology reconstruction benchmarks on representative random and real graphs with epidemic parameters set to their ground truth values. Other settings are the same as table 2. Spectral similarity Pearson correlation DTEF FTEF Infer2018 RND DTEF FTEF Infer2018 RND ER 0.16 0.28 0.09 0.03 0.61 0.65 0.57 0BA 0.14 0.06 0.41 0.05 0.75 0.77 0.66 0WS 0.8 0.71 0.75 0.1 0.92 0.94 0.91 0RGG 0.8 0.83 0.76 0.09 0.97 0.93 0.85 0Contiguous US 0.97 0.9 0.83 0.01 0.99 1.0 0.98 0.01 Contiguous China 0.68 0.82 0.78 0.41 1.0 1.0 0.99 0.02 Contiguous EU 0.49 0.6 0.43 0.02 1.0 1.0 0.96 0.13 Contiguous Africa 0.84 0.86 0.68 0.09 0.98 0.98 0.92 0.02 Mobility Germany 0.13 0.01 0.05 0.01 0.37 0.36 0.06 0Mobility US 0.16 0.11 0.25 0.04 0.29 0.74 0.0 0Global Plane 0.07 0.05 0.04 0.05 0.79 0.78 0.61 0US plane 0.61 0.57 0.63 0.34 0.72 0.55 0.54 0Spanish bus 0.72 0.79 0.66 0.49 0.74 0.77 0.44 0.02 Spanish car 0.37 0.63 0.34 0.06 0.92 0.47 0.78 0.01 Spanish plane 0.76 0.86 0.69 0.49 0.91 0.89 0.74 0.03 Spanish train 0.71 0.59 0.67 0.24 0.87 0.85 0.54 0
+
+Win rate 0.31 0.56 0.19 0 0.63 0.56 0 0Jaccard similarity PR-AUC DTEF FTEF Infer2018 RND DTEF FTEF Infer2018 RND ER 0.26 0.34 0.32 0 0.56 0.61 0.52 0.12 BA 0.39 0.48 0.44 0 0.73 0.75 0.67 0.11 WS 0.68 0.78 0.75 0 0.88 0.88 0.87 0.12 RGG 0.81 0.76 0.68 0 0.9 0.89 0.89 0.12 Contiguous US 0.92 0.96 0.93 0 0.83 0.83 0.82 0.02 Contiguous China 0.93 0.96 0.96 0 0.83 0.83 0.83 0.22 Contiguous EU 0.94 0.95 0.89 0 0.8 0.8 0.78 0.31 Contiguous Africa 0.86 0.87 0.83 0 0.83 0.83 0.8 0.16 Mobility Germany 0.15 0.14 0.02 0 \ \ \ \
+
+Mobility US 0.33 0.32 0.0 0 \ \ \ \
+
+Global Plane 0.43 0.48 0.43 0 0.75 0.75 0.7 0.02 US plane 0.38 0.36 0.36 0 0.72 0.66 0.65 0.06 Spanish bus 0.42 0.48 0.33 0 0.68 0.7 0.54 0.17 Spanish car 0.68 0.42 0.65 0 0.81 0.65 0.74 0.04 Spanish plane 0.7 0.71 0.58 0 0.85 0.84 0.8 0.22 Spanish train 0.6 0.61 0.46 0 0.78 0.78 0.69 0.03 
+
+Win rate 0.31 0.69 0.06 0 0.79 0.71 0.07 0March 4, 2026 15/30 To evaluate the performance of our two proposed topology inference models: DTEF and FTEF, we conduct a comprehensive benchmark experiment on representative synthetic random graphs and real graphs. We compare the performance of our models to a state-of-the-art model, Infer2018 [ 23 ]. In this experiment, we also include a random baseline (called RND) for comparison, to confirm that the rest of the models are capturing meaningful information from the data rather than merely making random guesses. The results of this experiment are presented in Table 2. As can be seen, in the vast majority of cases, the DTEF model outperformed the other models. For completeness, in Table 3 we also perform an ablation study to evaluate the topology inference performance of our models given known epidemic parameters, by setting these parameters to their ground truth values. We find that both FTEF and DTEF produce reasonable results, with FTEF occasionally outperforming DTEF while infer2018 gives suboptimal results. Overall, these results prove the effectiveness of DTI model, with our proposed DTEF model consistently capturing the underlying structure, particularly for the WS and RGG graph topologies. Notably, DTEF clearly outperforms other models in more intricate real-world graph scenarios. Further DTEF inference results on real graphs are presented in Appendix Topology inference results on real graphs. 
+
+Table 4. Epidemic parameter estimations of ˆβ (upper Table) and ˆ γ (lower Table) on both synthetic random and real-world graphs. The performance of our different model configurations is evaluated based on the RMSE metric. In addition, the results of Infer2018, Bayes and NLS are shown for comparison (see text). RMSE( β) RMSE(1/ γ)— DTEF FTEF Infer2018 Bayes NLS DTEF FTEF Infer2018 Bayes NLS ER 0 1.05 0.69 0.02 0.01 0.01 1.79 3.01 1.49 0
+
+BA 0 1.04 0.55 0.02 0.01 0.02 1.84 2.76 1.30 0
+
+WS 0 1.01 0.62 0.02 0.03 0.01 0.4 2.57 1.79 0
+
+RGG 0 0.97 0.57 0.02 0.01 0.02 0.5 6.84 1.30 0
+
+Contiguous US 0 0.16 0.21 0 0.01 0 0.12 6.93 0.47 0
+
+Contiguous China 0 0.17 0.17 0 0.01 0 0.15 0.3 0.52 0
+
+Contiguous EU 0 0 0.03 0.01 0.01 0 0 0.23 1.04 0
+
+Contiguous Africa 0 0.16 0.18 0.01 0 0 0.26 0.63 1.08 0
+
+Mobility Germany 0 0.22 0.22 0 0.26 0 0.67 0.77 0.12 0.12 Mobility US 0 0.18 0.2 0 0.74 0 0.61 6.74 0.08 0.22 Global plane 0 0.21 0.22 0 0 0.01 0.3 4.1 0.45 0
+
+US plane 0 0.22 0.22 0 0 0.03 0.55 0.53 0.55 0
+
+Spanish bus 0 0.22 0.22 0 0.01 0 0.37 0.24 0.45 0
+
+Spanish car 0 0.18 0.2 0.01 0 0 0.16 7.71 1.08 0
+
+Spanish plane 0 0.12 0.09 0.01 0 0 0.38 0.38 0.34 0
+
+Spanish train 0 0.15 0.19 0.01 0.01 0 3.56 7.25 0.34 0Win rate 1 0.06 0 0.44 0.31 0.63 0.06 0 0 0.88 
+
+We also compare the accuracy of the epidemic parameter inference across the five DL models, using the RMSE of ˆβ, 1/ˆγ as our evaluation metric. We generated five random graphs for the ER, BA, WS, and RGG random graph models, using four pathogens. For comparative analysis, we included traditional Bayesian inference [26] and the nonlinear least squares (NLS) [27] as baselines. As detailed in table 4, the epidemic parameter estimation results show that the DTEF achieves performance comparable to the NLS method. Furthermore, the parameter convergence to zero RMSE in the experiments confirms the identifiability of β and γ under eq. (15). March 4, 2026 16/30 Effect of multiple pathogens 
+
+Fig 5. DTEF model performance PR curves for various random graph models, with 1-4 pathogens and a random baseline. To further investigate the impact of incorporating data from multiple pathogens on topology inference accuracy, we conduct an experiment, in which data from 1-4 pathogens appears in each graph and DTEF serves as the DL model. The rest of the parameters are set to their default settings (see subsection Parameter settings). Figure 5 presents the PR (precision recall) plot for different pathogens. All of the PR curves are consistently above the baseline, indicating that the inferences surpass random chance in terms of discriminative power. As the number of pathogens increases, the PR curves trend toward the top-right corner, indicating enhanced inference accuracy. With one pathogen, the PR curve lies only slightly above random, because a single pathogen explores only a small subset of network paths. Adding a second pathogen introduces a new seed node location and independent diffusion trajectory, making previously unobserved links identifiable. After three or four pathogens, most mobility links are exposed, explaining the rapid improvement in PR-AUC and Jaccard similarity. Figure 6 offers a visual complement to our previous findings, depicting the spring layout and degree distribution of the evolving topology where the number of pathogens ranges from 1-4. For completeness, we also include the performance of the model over representative real graphs. The predicted spring layouts progressively converge toward the ground-truth topology as the number of pathogens increases. This can also be observed in the degree distributions, where the degree distribution histogram of ˆA aligns closely with A starting from three pathogens, demonstrating that the model recovers both local connectivity and global graph statistics. We find that the topology of real contiguous region graphs is almost entirely inferred, in agreement with our benchmark simulated results. Therefore, multiple pathogens incorporate valuable information for topology inference, in that links connecting prior and later infected regions have a significant effect on the epidemic spread. 
+
+# Effect of mobility rate 
+
+To understand the impact of the mobility rate on the DTEF model’s topology inference accuracy, we generate each graph with n=100 nodes with an average degree of log( n)and systematically vary the mobility rate across a range of values (2e-4, 5e-4, 1e-3, 2e-3, 5e-3, 1e-2, 2e-2, 5e-2, and 1e-1). The rest of the parameters are set to their default settings. As can be seen in Figure 7, which presents the results, there is a notable peak in inference accuracy near a mobility rate of 1e-2 (the corresponding numerical values are listed in Table S4). This suggests that an optimal mobility rate exists for effective topology inference, i.e., for capturing meaningful infection patterns within the data. March 4, 2026 17/30 Fig 6. Evolution of the DTEF model’s topology inference with different numbers of pathogens. Each row contains four pairs of graphs: the spring layout of the graph titled with the Jaccard similarity where the blue color represents the ground-truth graph, while the orange color is the inferred graph (left); the degree distribution histogram comparison with the x-label degree and y-label probability (right). The results of a systematic study of the impact of other parameters on the DTEF model’s inference accuracy are presented in Appendices Effect of the average degree and are summarized as follows: Dense graphs diffusing faster cause information saturation with decreased accuracy(e.g., ER , avg degree 4 → 8: Pearson correlation drops 20%). A higher node count makes the graph topology more difficult to infer. March 4, 2026 18/30 Fig 7. Effect of different mobility rates on the topology inference accuracy of the DTEF model. 
+
+# Discussion 
+
+The current understanding of mobility graphs in epidemic modeling often assumes a static topology within a certain time frame. We leverage this assumption to exploit the rich information offered by multiple pathogen epidemic data gathered during the epidemic time span, thereby increasing the accuracy of model fitting. DTEF consistently reconstructs complex graph topologies using only epidemic time-series data, outperforming existing baselines across synthetic and real-world graphs. Convergence is stable and rapid due to the fast-forward-backward mechanism, which circumvents the obfuscated gradient problem typically encountered in traditional learning methods. Furthermore, incorporating multiple pathogens substantially improves structural identifiability. The model recovers not only the degree distributions and epidemic parameters but also the individual links with low error. These results confirm that epidemic diffusion information is key to infer large-scale mobility networks, offering new prospects for epidemic modeling beyond topology learning. We also systematically investigated the impact of various factors on inference accuracy. Of the four random graph models examined (ER, BA, WS, and RGG), DTEF achieved the highest inference accuracy on RGG , followed by WS . Notably, this pattern extends to real-world networks: the model achieved the highest reconstruction accuracy on contiguous-region graphs, which have spatial locality constraints, like RGG .As previously stated, incorporating data from more pathogens consistently improved the results. This can be explained by the fact that different pathogens explore the same mobility graph with different seed nodes and epidemic parameters, which provides more non-correlated structural information on the topology. In addition, an ablation study revealed that running the model with known epidemic parameters facilitates topology inference, confirming the previous results in the literature. The ability to jointly infer parameters and topology serves as a significant methodological proof of concept. It demonstrates that, under ideal conditions, information embedded in infection time series is sufficient to recover hidden mobility structures. Despite these promising results, several limitations remain. First, our model assumes a static mobility topology within the observation window. While this holds for short term analyses, real world mobility is dynamic, often fluctuating due to seasonal and behavioral factors, as well as non-pharmaceutical interventions (e.g., lockdown). Second, as with many DL approaches, inference quality depends on the granularity and quality of the input data; extremely sparse or noisy surveillance data may hinder convergence of the encoder-decoder architecture. Finally, our current framework assumes a specific March 4, 2026 19/30 epidemic diffusion mechanism. Topology inference might suffer from bias in cases where the assumed compartmental model misrepresents the underlying disease dynamics. Future extensions with increased robustness to noise may serve as surrogate epidemic models in the absence of mobility data. Further research directions include: exploring cross-immunity effects between pathogens, taking into account data-collection latency/noise, and diversifying input graphs by sampling subgraphs. We plan to focus on leveraging real epidemic data to further validate and refine the proposed approach, potentially improving inference accuracy and applicability in future outbreaks. 
+
+# Supporting information 
+
+# Theoretical proofs 
+
+Proof 1: α approximation 
+
+Here, we prove that the approximate form for α (see Eq. (4)) holds, i.e., 1 −
+
+
+
+1 − βP
+
+I⊙P
+
+≈ 1 − e−βI (19) 
+
+proof: 
+
+Since P is usually much larger than β and I, we can therefore utilize the definition of the exponential function: 
+
+ex = lim  
+
+> n→∞
+
+(1 + xn )n (20) where we let x = −βI, n = Ii · Pi. Thus, we obtain: 
+
+e−βI = lim   
+
+> I⊙P→∞
+
+(1 − βP )I⊙P (21) 
+
+Proof 2: Sparsity of infection matrix 
+
+Here, we prove the sparsity of matrix Z in Eq. (5). Given: 
+
+Z = I + (P 
+
+> dim =1
+
+A)T ⊙ A ⊙ P
+
+(P
+
+> dim =1
+
+(A ⊙ P )) T (22) we need to prove that Z is sparse. 
+
+proof: 
+
+If i̸ = j:
+
+Z(i, j ) = (P A(i, :)) · A(i, j ) · P (j)
+
+A(i, :) T · P (23) Since A(i, :) T · P , P (j) and P A(i, :) are positive, then Z acquires the sparsity attribution from A.
+
+Proof 3: Reversibility of infection matrix 
+
+Here, we prove that reversing Eq. (5) yields Eq. (6). Given: 
+
+Z = I + (P 
+
+> dim =1
+
+A)T ⊙ A ⊙ P
+
+(P
+
+> dim =1
+
+(A ⊙ P )) T (24) we need to prove: 
+
+A = (Z − I) ⊙ (P
+
+> dim =1
+
+(Z − I)) T
+
+P ⊙ (P  
+
+> dim =1 Z−I
+> P
+
+)T (25) March 4, 2026 20/30 proof: 
+
+Let Z2 = Z − I.By definition (see Eq. (5)) we have: 
+
+Z2(i, j ) = (P A(i, :)) · A(i, j ) · P (j)
+
+A(i, :) T · P (26) which upon summation yields 
+
+X Z2(i, :) = X A(i, :) (27) Taking into account that 
+
+Z2(i, :) 
+
+P =
+
+P A(i, :) · A(i, :) 
+
+A(i, :) T · P (28) as well as X Z2(i, :) 
+
+P = (P A(i, :)) 2
+
+A(i, :) T · P (29) we take the ratio of Eqs. (28)–(29) such that 
+
+> Z2(i, :)
+> P
+
+P Z2(i, :) 
+
+> P
+
+= A(i, :) 
+
+P A(i, :) (30) Thus, we conclude: 
+
+A(i, :) = Z2(i, :) · P Z2(i, :) 
+
+P · P Z2(i, :) 
+
+> P
+
+(31) 
+
+# Real-world graph attributions 
+
+Table S1 lists the attributions of all real graphs used in the paper. Nodes Links Weighted Contiguous US 49 107 no Contiguous China 33 69 no Contiguous EU 24 38 no Contiguous Africa 47 103 no Mobility German 52 - yes Mobility US 401 - yes Global plane 174 635 no US plane 313 2323 no Spanish bus 32 202 no Spanish car 46 205 no Spanish plane 47 205 no Spanish train 46 205 no 
+
+Table S1. Real graphs’ attributions, including the node number, link number, and whether the graph is weighted or not. 
+
+# Supplementary experimental results 
+
+Adjacency matrix comparison for RGG graphs 
+
+To further illustrate the proposed model’s robustness, Figure S1 presents a comparison between the ground-truth RGG graph and the inferred RGG graphs for scenarios with March 4, 2026 21/30 four distinct pathogens of data. The left plot is the real binary graph, and the right plot is the inferred adjacency topology according to the DTEF model. This comparison visually highlights the model’s ability to learn and represent the structural relationships in the RGG. 
+
+Fig S1. Adjacency matrix comparison between ground-truth and inferred RGG graphs containing 100 nodes with four pathogens: the real binary graph (left); the inferred adjacency topology according to the DTEF model with four pathogens of data (right). 
+
+Sparsity index 
+
+The sparsity index of the mobility matrix as a function of the number of optimization epochs is presented in Figure S2. 
+
+Fig S2. Sparsity index of the mobility matrix as a function of the number of optimization epochs. 
+
+Effect of the average degree 
+
+To explore the relationship between the average degree, Dense , and the topology inference accuracy of the DTEF model, we simulate 100 synthetic random graphs at five different average degree values: 4, 5, 6, 7, and 8. The rest of the parameters are set at their default settings (see subsection Parameter settings). Figure S3 presents the topology inference accuracy of the DTEF model for different average degree values (the corresponding numerical values appear in Table S2). As can be seen, increasing the average degree appears to negatively impact the model’s ability to infer the graph topology. This suggests that denser graphs pose a greater challenge March 4, 2026 22/30 Spectral similarity Pearson correlation Jaccard similarity Avg degree 4 5 6 7 8 4 5 6 7 8 4 5 6 7 8ER 0.2 0.22 0.32 0.19 0.33 0.61 0.56 0.52 0.51 0.49 0.25 0.23 0.21 0.22 0.22 BA 0.21 0.38 0.43 0.36 0.48 0.72 0.63 0.64 0.6 0.59 0.34 0.28 0.29 0.28 0.27 WS 0.78 0.75 0.83 0.83 0.83 0.88 0.87 0.84 0.82 0.79 0.59 0.57 0.54 0.52 0.5 RGG 0.83 0.83 0.84 0.88 0.9 0.95 0.96 0.95 0.95 0.94 0.75 0.76 0.76 0.75 0.73 PR-AUC Avg degree 4 5 6 7 8ER 0.56 0.53 0.51 0.52 0.52 BA 0.69 0.62 0.65 0.62 0.62 WS 0.86 0.88 0.87 0.87 0.85 RGG 0.89 0.92 0.93 0.94 0.95 Table S2. Effect of different average degrees on the topology inference accuracy of the DTEF model. to the DTEF model, potentially due to the larger number of potential connections masking the underlying structural relationships. 
+
+Effect of the node number 
+
+Spectral similarity Pearson correlation Jaccard similarity PR-AUC Nodes 50 100 200 400 50 100 200 400 50 100 200 400 50 100 200 400 ER 0.18 0.2 0.12 0.21 0.85 0.61 0.46 0.35 0.52 0.25 0.14 0.07 0.82 0.56 0.37 0.22 BA 0.45 0.21 0.12 0.22 0.87 0.72 0.55 0.49 0.56 0.34 0.19 0.13 0.82 0.69 0.48 0.38 WS 0.76 0.78 0.76 0.68 0.97 0.88 0.78 0.73 0.81 0.59 0.41 0.34 0.87 0.86 0.78 0.71 RGG 0.9 0.83 0.77 0.78 0.98 0.95 0.94 0.92 0.85 0.75 0.7 0.65 0.88 0.89 0.9 0.89 
+
+Table S3. Effect of different numbers of nodes on the topology inference accuracy of the DTEF model. To investigate the influence of the node count on the DTEF model’s topology inference accuracy, we conduct an experiment involving 80 synthetic random graphs at four node count levels, n: 50, 100, 200, and 400. Correspondingly, the average node degree is set to log (n), while the rest of the parameters are set to their default settings (see subsection Parameter settings). Figure S4 presents the topology inference accuracy results for the varying node 
+
+Fig S3. Effect of different average degrees on the topology inference accuracy of the DTEF model. March 4, 2026 23/30 Fig S4. Effect of different numbers of nodes on the topology inference accuracy of the DTEF model. counts (the corresponding numerical values appear in Table S3). Notably, the accuracy exhibits a consistent decline as the number of nodes increases. This finding suggests that larger graphs present a greater challenge for accurate topology inference, potentially due to the amplified complexity of interactions and structural relationships within larger systems. 
+
+Effect of the mobility rate 
+
+Spectral similarity Pearson correlation 
+
+MR 2e-4 5e-4 1e-3 2e-3 5e-3 1e-2 2e-2 5e-2 1e-1 2e-4 5e-4 1e-3 2e-3 5e-3 1e-2 2e-2 5e-2 1e-1 ER 0.22 0.25 0.17 0.2 0.19 0.2 0.24 0.19 0.24 0.53 0.57 0.62 0.63 0.63 0.61 0.6 0.57 0.23 BA 0.34 0.3 0.3 0.2 0.3 0.21 0.3 0.21 0.25 0.58 0.67 0.68 0.71 0.71 0.72 0.71 0.52 0.24 WS 0.72 0.76 0.76 0.79 0.75 0.78 0.76 0.76 0.77 0.8 0.86 0.9 0.9 0.89 0.88 0.87 0.86 0.73 RGG 0.78 0.82 0.8 0.82 0.84 0.83 0.84 0.85 0.59 0.87 0.93 0.93 0.95 0.94 0.95 0.95 0.94 0.36 Jaccard similarity PR-AUC 
+
+MR 2e-4 5e-4 1e-3 2e-3 5e-3 1e-2 2e-2 5e-2 1e-1 2e-4 5e-4 1e-3 2e-3 5e-3 1e-2 2e-2 5e-2 1e-1 ER 0.2 0.23 0.25 0.26 0.26 0.25 0.24 0.22 0.13 0.47 0.52 0.57 0.59 0.58 0.56 0.55 0.52 0.23 BA 0.24 0.3 0.32 0.34 0.33 0.34 0.33 0.28 0.14 0.54 0.65 0.66 0.69 0.69 0.69 0.68 0.58 0.24 WS 0.48 0.56 0.61 0.62 0.6 0.59 0.57 0.56 0.45 0.79 0.85 0.87 0.88 0.87 0.86 0.86 0.85 0.75 RGG 0.63 0.7 0.72 0.75 0.73 0.75 0.74 0.71 0.27 0.84 0.88 0.88 0.89 0.89 0.89 0.89 0.89 0.49 
+
+Table S4. Effect of different mobility rates MR on the topology inference accuracy of the DTEF model. 
+
+Topology inference results on real graphs 
+
+In this appendix we present further experiments of all real graphs and their fitting results (i.e., as in Figure 6), as inferred by the DTEF model. Table S5 contains the numerical values of the real graph experimental results, and in Figures S5-S7 we present additional experimental results on real graphs. 
+
+# References 
+
+1. McLean AR, May RM, Pattison J, Weiss RA, et al. SARS: a case study in emerging infections. Oxford University Press; 2005. 2. Fraser C, Donnelly CA, Cauchemez S, Hanage WP, Van Kerkhove MD, Hollingsworth TD, et al. Pandemic potential of a strain of influenza A (H1N1): early findings. science. 2009;324(5934):1557-61. March 4, 2026 24/30 Spectral similarity Pearson correlation Jaccard similarity PR-AUC 
+
+P athogen 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4contiguous US 0.46 0.78 0.82 0.84 0.58 0.93 0.98 0.98 0.26 0.69 0.86 0.83 0.53 0.82 0.83 0.83 
+
+contiguous China 0.55 0.81 0.71 0.98 0.64 0.93 0.99 1 0.3 0.69 0.9 0.96 0.57 0.82 0.83 0.83 
+
+contiguous EU 0.17 0.35 0.63 0.58 0.7 0.96 0.99 1 0.38 0.78 0.92 0.96 0.66 0.8 0.8 0.8 
+
+contiguous Africa 0.36 0.73 0.81 0.85 0.53 0.9 0.96 0.99 0.22 0.63 0.77 0.89 0.44 0.81 0.83 0.83 
+
+mobility german 0.21 0.13 0.08 0.04 0.05 0.32 0.4 0.54 0 0.12 0.17 0.22 0.31 0.44 0.51 0.52 
+
+mobility US 0.26 0.08 0.56 0.77 0.33 0.93 0.95 0.96 0.18 0.36 0.41 0.48 0.88 0.92 0.93 0.95 
+
+Air global 0.02 0.11 0.06 0.06 0.45 0.74 0.79 0.82 0.18 0.35 0.4 0.46 0.43 0.69 0.76 0.79 
+
+US plane top 100 0.68 0.72 0.5 0.35 0.54 0.69 0.74 0.81 0.28 0.35 0.4 0.49 0.6 0.69 0.75 0.82 
+
+US plane top 200 0.68 0.73 0.76 0.68 0.28 0.69 0.73 0.78 0.17 0.33 0.37 0.42 0.37 0.69 0.73 0.79 
+
+US plane top 300 0.24 0.59 0.69 0.7 0.08 0.69 0.72 0.75 0.03 0.32 0.34 0.38 0.09 0.67 0.71 0.76 
+
+US plane top 400 0.35 0.7 0.69 0.53 0.3 0.65 0.69 0.71 0.01 0.3 0.33 0.35 0.21 0.62 0.67 0.68 
+
+Spanish bus 0.76 0.71 0.57 0.64 0.75 0.84 0.9 0.92 0.41 0.52 0.62 0.69 0.69 0.77 0.81 0.82 
+
+Spanish car 0.26 0.5 0.34 0.44 0.51 0.71 0.85 0.91 0.22 0.36 0.54 0.64 0.46 0.63 0.78 0.81 
+
+Spanish plane 0.94 0.75 0.75 0.72 0.73 0.86 0.89 0.92 0.46 0.62 0.67 0.73 0.75 0.8 0.83 0.85 
+
+Spanish train 0.56 0.55 0.77 0.83 0.7 0.71 0.8 0.84 0.35 0.35 0.46 0.52 0.67 0.67 0.73 0.76 Table S5. Real-world graph evaluation results for pathogens one to four, as inferred by the DTEF model. 
+
+Fig S5. The inference accuracy of the DTEF model on real contiguous region graphs: spring layout topology (left) and degree distribution (right). March 4, 2026 25/30 Fig S6. The inference accuracy of the DTEF model on real global plane graphs: spring layout topology (left) and degree distribution (right). 
+
+Fig S7. The inference accuracy of the DTEF model on real Spanish graphs: spring layout topology (upper Figures) and degree distribution (lower Figures). March 4, 2026 26/30 3. Chowell G, Nishiura H. Transmission dynamics and control of Ebola virus disease (EVD): a review. BMC medicine. 2014;12:1-17. 4. Cowling BJ, Park M, Fang VJ, Wu P, Leung GM, Wu JT. Preliminary epidemiological assessment of MERS-CoV outbreak in South Korea, May to June 2015. Eurosurveillance. 2015;20(25):21163. 5. W¨ olfel R, Corman VM, Guggemos W, Seilmaier M, Zange S, M¨ uller MA, et al. Virological assessment of hospitalized patients with COVID-2019. Nature. 2020;581(7809):465-9. 6. Kaye AD, Okeagu CN, Pham AD, Silva RA, Hurley JJ, Arron BL, et al. Economic impact of COVID-19 pandemic on healthcare facilities and systems: International perspectives. Best Practice & Research Clinical Anaesthesiology. 2021;35(3):293-306. 7. Brockmann D, Hufnagel L, Geisel T. The scaling laws of human travel. Nature. 2006;439(7075):462-5. 8. Estrada E. The structure of complex networks: theory and applications. Oxford University Press, USA; 2012. 9. Wang XF, Chen G. Complex networks: small-world, scale-free and beyond. IEEE circuits and systems magazine. 2003;3(1):6-20. 10. Wang L, Li X. Spatial epidemiology of networked metapopulation: An overview. Chinese Science Bulletin. 2014;59:3511-22. 11. Meyers LA, Pourbohloul B, Newman ME, Skowronski DM, Brunham RC. Network theory and SARS: predicting outbreak diversity. Journal of theoretical biology. 2005;232(1):71-81. 12. Murphy C, Laurence E, Allard A. Deep learning of contagion dynamics on complex networks. Nature Communications. 2021;12(1):4720. 13. Brauer F. Compartmental models in epidemiology. Mathematical epidemiology. 2008:19-79. 14. ¨Ozmen ¨O, Nutaro JJ, Pullum LL, Ramanathan A. Analyzing the impact of modeling choices and assumptions in compartmental epidemiological models. Simulation. 2016;92(5):459-72. 15. Bisset KR, Chen J, Feng X, Kumar VA, Marathe MV. EpiFast: a fast algorithm for large scale realistic epidemic simulations on distributed memory systems. In: Proceedings of the 23rd international conference on Supercomputing; 2009. p. 430-9. 16. Venkatramanan S, Lewis B, Chen J, Higdon D, Vullikanti A, Marathe M. Using data-driven agent-based models for forecasting emerging infectious diseases. Epidemics. 2018;22:43-9. 17. Zhao L, Chen J, Chen F, Wang W, Lu CT, Ramakrishnan N. Simnest: Social media nested epidemic simulation via online semi-supervised deep learning. In: 2015 IEEE international conference on data mining. IEEE; 2015. p. 639-48. 18. Keeling MJ, Rohani P. Modeling infectious diseases in humans and animals. Princeton university press; 2008. March 4, 2026 27/30 19. Colizza V, Pastor-Satorras R, Vespignani A. Reaction–diffusion processes and metapopulation models in heterogeneous networks. Nature Physics. 2007;3(4):276-82. 20. Brockmann D, Helbing D. The hidden geometry of complex, network-driven contagion phenomena. science. 2013;342(6164):1337-42. 21. Hufnagel L, Brockmann D, Geisel T. Forecast and control of epidemics in a globalized world. Proceedings of the national academy of sciences. 2004;101(42):15124-9. 22. Wesolowski A, Eagle N, Tatem AJ, Smith DL, Noor AM, Snow RW, et al. Quantifying the impact of human mobility on malaria. Science. 2012;338(6104):267-70. 23. Wang J, Wang X, Wu J. Inferring metapopulation propagation network for intra-city epidemic control and prevention. In: Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery & data mining; 2018. p. 830-8. 24. Barab´ asi AL, Albert R. Emergence of scaling in random networks. science. 1999;286(5439):509-12. 25. Matsuki A, Kori H, Kobayashi R. Network inference applicable to both synchronous and desynchronous systems from oscillatory signals. PLOS Complex Systems. 2025;2(9):e0000063. 26. O’Neill PD, Roberts GO. Bayesian inference for partially observed stochastic epidemics. Journal of the Royal Statistical Society Series A: Statistics in Society. 1999;162(1):121-9. 27. Taghizadeh E, Mohammad-Djafari A. SEIR modeling, simulation, parameter estimation, and their application for COVID-19 epidemic prediction. In: Physical Sciences Forum. vol. 5. MDPI; 2022. p. 18. 28. Calciano A. Epidemic Inference in Metapopulation Models: optimization algorithm through forward-backward propagation. WebThesis. 2025. 29. Salath´ e M, Kazandjieva M, Lee JW, Levis P, Feldman MW, Jones JH. A high-resolution human contact network for infectious disease transmission. Proceedings of the national academy of sciences. 2010;107(51):22020-5. 30. Bajardi P, Poletto C, Ramasco JJ, Tizzoni M, Colizza V, Vespignani A. Human mobility networks, travel restrictions, and the global spread of 2009 H1N1 pandemic. PloS one. 2011;6(1):e16591. 31. Silk MJ, Weber NL, Steward LC, Hodgson DJ, Boots M, Croft DP, et al. Contact networks structured by sex underpin sex-specific epidemiology of infection. Ecology letters. 2018;21(2):309-18. 32. Magiorkinis G, Angelis K, Mamais I, Katzourakis A, Hatzakis A, Albert J, et al. The global spread of HIV-1 subtype B epidemic. Infection, genetics and evolution. 2016;46:169-79. 33. Deng S, Wang S, Rangwala H, Wang L, Ning Y. Cola-GNN: Cross-location attention based graph neural networks for long-term ILI prediction. In: Proceedings of the 29th ACM international conference on information & knowledge management; 2020. p. 245-54. March 4, 2026 28/30 34. Yu S, Xia F, Li S, Hou M, Sheng QZ. Spatio-temporal graph learning for epidemic prediction. ACM Transactions on Intelligent Systems and Technology. 2023;14(2):1-25. 35. Rossi RA, Ahmed NK. The Network Data Repository with Interactive Graph Analytics and Visualization. In: AAAI; 2015. [Accessed 22-07-2024]. 36. Kretzschmar M, Morris M. Measures of concurrency in networks and the spread of infectious disease. Mathematical biosciences. 1996;133(2):165-95. 37. Li J, Xiang T, He L. Modeling epidemic spread in transportation networks: A review. Journal of Traffic and Transportation Engineering (English Edition). 2021;8(2):139-52. 38. Kamo M, Sasaki A. The effect of cross-immunity and seasonal forcing in a multi-strain epidemic model. Physica D: Nonlinear Phenomena. 2002;165(3-4):228-41. 39. Adams B, Boots M. The influence of immune cross-reaction on phase structure in resonant solutions of a multi-strain seasonal SIR model. Journal of theoretical biology. 2007;248(1):202-11. 40. Hastie T, Tibshirani R, Friedman JH, Friedman JH. The elements of statistical learning: data mining, inference, and prediction. vol. 2. Springer; 2009. 41. Mao J, Han Y, Wang B. MPSTAN: Metapopulation-based Spatio-Temporal Attention Network for Epidemic Forecasting. arXiv preprint arXiv:230612436. 2023. 42. Erd˝ os P, R´ enyi A, et al. On the evolution of random graphs. Publ Math Inst Hung Acad Sci. 1960;5(1):17-60. 43. Watts DJ, Strogatz SH. Collective dynamics of ‘small-world’networks. nature. 1998;393(6684):440-2. 44. Penrose M. Random geometric graphs. vol. 5. OUP Oxford; 2003. 45. GitHub - Country adjacency datasets; 2013. [Accessed 22-07-2024]. 
+
+https://github.com/P1sec/country_adjacency?tab=readme-ov-file .46. GitHub - uiwjs/province-city-china; 2024. [Accessed 22-07-2024]. 
+
+https://github.com/uiwjs/province-city-china .47. Kang Y, Gao S, Liang Y, Li M, Rao J, Kruse J. Multiscale dynamic human mobility flow dataset in the US during the COVID-19 epidemic. Scientific data. 2020;7(1):390. 48. Covid-19 Mobility Germany — osf.io; 2020. [Accessed 22-07-2024]. 
+
+https://osf.io/n53cz/ .49. GitHub -Complex network analysis of Airport-network data; 2019. [Accessed 22-07-2024]. https://github.com/gsmanu007/ Complex-network-analysis-of-Airport-network-data?tab= readme-ov-file .50. OST R — BTS — Transtats Homepage — transtats.bts.gov; 2019. [Accessed 22-07-2024]. https://www.transtats.bts.gov/Homepage.asp .March 4, 2026 29/30 51. Observatorio del Transporte y la Log´ ıstica en Espa˜ na;. [Accessed 22-07-2024]. 
+
+https://observatoriotransporte.mitma.gob.es/estudio-experimental .52. Gera R, Alonso L, Crawford B, House J, Mendez-Bermudez J, Knuth T, et al. Identifying network structure similarity using spectral graph theory. Applied network science. 2018;3:1-15. 53. Abdi M, Ghorbani E, Imrich W. Regular graphs with minimum spectral gap. European journal of combinatorics. 2021;95:103328. 54. Goswami S, Das AK, Nandy SC. Sparsity of weighted networks: Measures and applications. Information Sciences. 2021;577:557-78. 
+
+DL deep learning 
+
+DTI deep learning topology inference 
+
+EFB epidemic fast-forward-backward 
+
+SEIR susceptible-exposed-infectious-recovered 
+
+SIR susceptible-infectious-recovered 
+
+SIRD susceptible-infectious-recovered-deceased 
+
+ESC epidemic sequential computation 
+
+FTI fast topology inference 
+
+DTEF deep learning topology inference and epidemic fast-forward-backward 
+
+FTEF fast topology inference and epidemic fast-forward-backward 
+
+ER Erdos-Renyi random graph 
+
+BA Barabasi-Albert scale-free random graph 
+
+WS Watts-Strogatz small-world random graph 
+
+RGG random geometric graph 
+
+RMSE root mean square error March 4, 2026 30/30

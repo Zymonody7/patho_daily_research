@@ -1,0 +1,415 @@
+Title: Integration of radiomics, deep learning, transcriptomics, and metabolomics reveals prognostic risk stratification and underlying biological mechanisms in colorectal cancer - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41792227/
+
+Markdown Content:
+Integration of radiomics, deep learning, transcriptomics, and metabolomics reveals prognostic risk stratification and underlying biological mechanisms in colorectal cancer - PubMed
+===============
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/41792227/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41792227%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/41792227/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/41792227/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/41792227/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/41792227/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/0bb0c1f5-41a2-40a7-80f8-ce97836f5693/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/41792227/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/41792227/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41792227/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41792227%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41792227%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/41792227/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+Save citation to file
+---------------------
+
+ Format:  
+
+ Create file  Cancel 
+
+Email citation
+--------------
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41792227/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41792227/#)
+
+ Add  Cancel 
+
+Your saved search
+-----------------
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/41792227/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+Create a file for external citation management software
+-------------------------------------------------------
+
+ Create file  Cancel 
+
+Your RSS Feed
+-------------
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41792227/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/41792227/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/41792227/#abstract)
+*   [Conflict of interest statement](https://pubmed.ncbi.nlm.nih.gov/41792227/#conflict-of-interest)
+*   [Similar articles](https://pubmed.ncbi.nlm.nih.gov/41792227/#similar)
+*   [References](https://pubmed.ncbi.nlm.nih.gov/41792227/#references)
+*   [Related information](https://pubmed.ncbi.nlm.nih.gov/41792227/#related-links)
+*   [Grants and funding](https://pubmed.ncbi.nlm.nih.gov/41792227/#grants)
+
+ NPJ Precis Oncol 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22NPJ+Precis+Oncol%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22NPJ+Precis+Oncol%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41792227/#)
+
+. 2026 Mar 6.
+
+ doi: 10.1038/s41698-026-01331-2.  Online ahead of print. 
+
+Integration of radiomics, deep learning, transcriptomics, and metabolomics reveals prognostic risk stratification and underlying biological mechanisms in colorectal cancer
+===========================================================================================================================================================================
+
+[Zhiheng Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+Z&cauthor_id=41792227)[#](https://pubmed.ncbi.nlm.nih.gov/41792227/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41792227/#full-view-affiliation-1 "Department of Radiology, The Second Affiliated Hospital of Shantou University Medical College, Shantou, Guangdong, China."),[Rongzhi Cai](https://pubmed.ncbi.nlm.nih.gov/?term=Cai+R&cauthor_id=41792227)[#](https://pubmed.ncbi.nlm.nih.gov/41792227/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41792227/#full-view-affiliation-1 "Department of Radiology, The Second Affiliated Hospital of Shantou University Medical College, Shantou, Guangdong, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41792227/#full-view-affiliation-2 "Department of Radiology, Cancer hospital of Shantou University Medical College, Shantou, Guangdong, China."),[Yangyang Qin](https://pubmed.ncbi.nlm.nih.gov/?term=Qin+Y&cauthor_id=41792227)[#](https://pubmed.ncbi.nlm.nih.gov/41792227/#full-view-equal-contrib-explanation "Contributed equally")[3](https://pubmed.ncbi.nlm.nih.gov/41792227/#full-view-affiliation-3 "Department of Radiology, The First Affiliated Hospital of Ningbo University, Ningbo, Zhejiang, China."),[Xiaoqing Liao](https://pubmed.ncbi.nlm.nih.gov/?term=Liao+X&cauthor_id=41792227)[1](https://pubmed.ncbi.nlm.nih.gov/41792227/#full-view-affiliation-1 "Department of Radiology, The Second Affiliated Hospital of Shantou University Medical College, Shantou, Guangdong, China."),[Enqi Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+E&cauthor_id=41792227)[1](https://pubmed.ncbi.nlm.nih.gov/41792227/#full-view-affiliation-1 "Department of Radiology, The Second Affiliated Hospital of Shantou University Medical College, Shantou, Guangdong, China."),[Xuanyu Wu](https://pubmed.ncbi.nlm.nih.gov/?term=Wu+X&cauthor_id=41792227)[1](https://pubmed.ncbi.nlm.nih.gov/41792227/#full-view-affiliation-1 "Department of Radiology, The Second Affiliated Hospital of Shantou University Medical College, Shantou, Guangdong, China."),[Yan Zhao](https://pubmed.ncbi.nlm.nih.gov/?term=Zhao+Y&cauthor_id=41792227)[1](https://pubmed.ncbi.nlm.nih.gov/41792227/#full-view-affiliation-1 "Department of Radiology, The Second Affiliated Hospital of Shantou University Medical College, Shantou, Guangdong, China.")[4](https://pubmed.ncbi.nlm.nih.gov/41792227/#full-view-affiliation-4 "Central Laboratory, Clinical Research Center, Shantou Central Hospital, Shantou, Guangdong, China."),[Zengxin Lu](https://pubmed.ncbi.nlm.nih.gov/?term=Lu+Z&cauthor_id=41792227)[5](https://pubmed.ncbi.nlm.nih.gov/41792227/#full-view-affiliation-5 "Department of Radiology, The Shaoxing People's Hospital, Shaoxing, Zhejiang, China."),[Yan Lin](https://pubmed.ncbi.nlm.nih.gov/?term=Lin+Y&cauthor_id=41792227)[6](https://pubmed.ncbi.nlm.nih.gov/41792227/#full-view-affiliation-6 "Department of Radiology, The Second Affiliated Hospital of Shantou University Medical College, Shantou, Guangdong, China. ylin1@stu.edu.cn.")
+
+ Affiliations  Expand 
+
+### Affiliations
+
+*   1 Department of Radiology, The Second Affiliated Hospital of Shantou University Medical College, Shantou, Guangdong, China.
+*   2 Department of Radiology, Cancer hospital of Shantou University Medical College, Shantou, Guangdong, China.
+*   3 Department of Radiology, The First Affiliated Hospital of Ningbo University, Ningbo, Zhejiang, China.
+*   4 Central Laboratory, Clinical Research Center, Shantou Central Hospital, Shantou, Guangdong, China.
+*   5 Department of Radiology, The Shaoxing People's Hospital, Shaoxing, Zhejiang, China.
+*   6 Department of Radiology, The Second Affiliated Hospital of Shantou University Medical College, Shantou, Guangdong, China. ylin1@stu.edu.cn.
+
+# Contributed equally.
+
+*    PMID: **41792227**
+*    DOI: [10.1038/s41698-026-01331-2](https://doi.org/10.1038/s41698-026-01331-2)
+
+ Item in Clipboard 
+
+Integration of radiomics, deep learning, transcriptomics, and metabolomics reveals prognostic risk stratification and underlying biological mechanisms in colorectal cancer
+===========================================================================================================================================================================
+
+Zhiheng Li et al. NPJ Precis Oncol.2026.
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ NPJ Precis Oncol 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22NPJ+Precis+Oncol%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22NPJ+Precis+Oncol%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41792227/#)
+
+. 2026 Mar 6.
+
+ doi: 10.1038/s41698-026-01331-2.  Online ahead of print. 
+
+### Authors
+
+[Zhiheng Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+Z&cauthor_id=41792227)[#](https://pubmed.ncbi.nlm.nih.gov/41792227/#short-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41792227/#short-view-affiliation-1 "Department of Radiology, The Second Affiliated Hospital of Shantou University Medical College, Shantou, Guangdong, China."),[Rongzhi Cai](https://pubmed.ncbi.nlm.nih.gov/?term=Cai+R&cauthor_id=41792227)[#](https://pubmed.ncbi.nlm.nih.gov/41792227/#short-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41792227/#short-view-affiliation-1 "Department of Radiology, The Second Affiliated Hospital of Shantou University Medical College, Shantou, Guangdong, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41792227/#short-view-affiliation-2 "Department of Radiology, Cancer hospital of Shantou University Medical College, Shantou, Guangdong, China."),[Yangyang Qin](https://pubmed.ncbi.nlm.nih.gov/?term=Qin+Y&cauthor_id=41792227)[#](https://pubmed.ncbi.nlm.nih.gov/41792227/#short-view-equal-contrib-explanation "Contributed equally")[3](https://pubmed.ncbi.nlm.nih.gov/41792227/#short-view-affiliation-3 "Department of Radiology, The First Affiliated Hospital of Ningbo University, Ningbo, Zhejiang, China."),[Xiaoqing Liao](https://pubmed.ncbi.nlm.nih.gov/?term=Liao+X&cauthor_id=41792227)[1](https://pubmed.ncbi.nlm.nih.gov/41792227/#short-view-affiliation-1 "Department of Radiology, The Second Affiliated Hospital of Shantou University Medical College, Shantou, Guangdong, China."),[Enqi Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+E&cauthor_id=41792227)[1](https://pubmed.ncbi.nlm.nih.gov/41792227/#short-view-affiliation-1 "Department of Radiology, The Second Affiliated Hospital of Shantou University Medical College, Shantou, Guangdong, China."),[Xuanyu Wu](https://pubmed.ncbi.nlm.nih.gov/?term=Wu+X&cauthor_id=41792227)[1](https://pubmed.ncbi.nlm.nih.gov/41792227/#short-view-affiliation-1 "Department of Radiology, The Second Affiliated Hospital of Shantou University Medical College, Shantou, Guangdong, China."),[Yan Zhao](https://pubmed.ncbi.nlm.nih.gov/?term=Zhao+Y&cauthor_id=41792227)[1](https://pubmed.ncbi.nlm.nih.gov/41792227/#short-view-affiliation-1 "Department of Radiology, The Second Affiliated Hospital of Shantou University Medical College, Shantou, Guangdong, China.")[4](https://pubmed.ncbi.nlm.nih.gov/41792227/#short-view-affiliation-4 "Central Laboratory, Clinical Research Center, Shantou Central Hospital, Shantou, Guangdong, China."),[Zengxin Lu](https://pubmed.ncbi.nlm.nih.gov/?term=Lu+Z&cauthor_id=41792227)[5](https://pubmed.ncbi.nlm.nih.gov/41792227/#short-view-affiliation-5 "Department of Radiology, The Shaoxing People's Hospital, Shaoxing, Zhejiang, China."),[Yan Lin](https://pubmed.ncbi.nlm.nih.gov/?term=Lin+Y&cauthor_id=41792227)[6](https://pubmed.ncbi.nlm.nih.gov/41792227/#short-view-affiliation-6 "Department of Radiology, The Second Affiliated Hospital of Shantou University Medical College, Shantou, Guangdong, China. ylin1@stu.edu.cn.")
+
+### Affiliations
+
+*   1 Department of Radiology, The Second Affiliated Hospital of Shantou University Medical College, Shantou, Guangdong, China.
+*   2 Department of Radiology, Cancer hospital of Shantou University Medical College, Shantou, Guangdong, China.
+*   3 Department of Radiology, The First Affiliated Hospital of Ningbo University, Ningbo, Zhejiang, China.
+*   4 Central Laboratory, Clinical Research Center, Shantou Central Hospital, Shantou, Guangdong, China.
+*   5 Department of Radiology, The Shaoxing People's Hospital, Shaoxing, Zhejiang, China.
+*   6 Department of Radiology, The Second Affiliated Hospital of Shantou University Medical College, Shantou, Guangdong, China. ylin1@stu.edu.cn.
+
+# Contributed equally.
+
+*    PMID: **41792227**
+*    DOI: [10.1038/s41698-026-01331-2](https://doi.org/10.1038/s41698-026-01331-2)
+
+ Item in Clipboard 
+
+Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+Abstract
+--------
+
+Colorectal cancer (CRC) is the third most common malignancy and the second leading cause of cancer-related death worldwide, yet current prognostic stratification is hindered by tumor heterogeneity. Here, we developed a deep learning radiomics model (DLRM), optimized through systematic evaluation of ten machine learning algorithms across 117 combinations, using venous-phase computed tomography (CT) images of 1183 patients from four centers. The resulting risk stratification stratified patients into high- and low-risk groups with distinct survival outcomes, and integration with clinical factors further improved prediction. Integrative transcriptomic and metabolomic analyses revealed that high-risk tumors were enriched for extracellular matrix (ECM)-related pathways associated with tumor progression, whereas low-risk tumors exhibited immune-related signatures, including higher CD8⁺ T-cell infiltration. Both omics consistently identified butanoate metabolism and nitrogen metabolism as protective pathways, validated in an independent public cohort (n = 417). This integrative analytic framework provides robust risk stratification and uncovers biological processes with potential therapeutic relevance.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+Competing interests: The authors declare no competing interests.
+
+Similar articles
+----------------
+
+*   [End-to-end integrative segmentation and radiomics prognostic models for risk stratification of high-grade serous ovarian cancer: a retrospective multicohort study.](https://pubmed.ncbi.nlm.nih.gov/41735102/)Linton-Reid K, Lu H, Wengert G, Fotopoulou C, Lee P, Petta F, Russo L, Avensani G, Arshad M, Harter P, Chen M, Boubnovski MM, Hindocha S, Hunter B, Posma JM, Rockall A, Aboagye EO.Linton-Reid K, et al.Lancet Digit Health. 2026 Feb 23:100955. doi: 10.1016/j.landig.2025.100955. Online ahead of print.Lancet Digit Health. 2026.PMID: 41735102  
+*   [Radiomics reveals the biological basis for non-small cell lung cancer prognostic stratification by reflecting tumor immune microenvironment heterogeneity.](https://pubmed.ncbi.nlm.nih.gov/41293176/)Huang Q, Xu N, Yin J, Diao P, Xie T, Xu K.Huang Q, et al.Front Immunol. 2025 Nov 10;16:1708692. doi: 10.3389/fimmu.2025.1708692. eCollection 2025.Front Immunol. 2025.PMID: 41293176 Free PMC article.  
+*   [Integrative multi-omics and radiogenomic profiling decodes NNK-related tumor remodeling and prognostic stratification in pancreatic cancer.](https://pubmed.ncbi.nlm.nih.gov/41504500/)Xie Z, Fang Y, Huang J, Shen J, Li J, Li H, Zeng M, Tang Q, Zhu Q, Zhou J, Hong M, Xu Y, Sun H.Xie Z, et al.Int J Surg. 2026 Jan 7. doi: 10.1097/JS9.0000000000004732. Online ahead of print.Int J Surg. 2026.PMID: 41504500  
+*   [Artificial Intelligence for Risk Stratification in Diffuse Large B-Cell Lymphoma: A Systematic Review of Classification Models and Predictive Performances.](https://pubmed.ncbi.nlm.nih.gov/41440512/)Popescu DC, Găman MA.Popescu DC, et al.Med Sci (Basel). 2025 Nov 24;13(4):280. doi: 10.3390/medsci13040280.Med Sci (Basel). 2025.PMID: 41440512 Free PMC article.  
+*   [Machine Learning-Driven Insights in Cancer Metabolomics: From Subtyping to Biomarker Discovery and Prognostic Modeling.](https://pubmed.ncbi.nlm.nih.gov/40863133/)Elguoshy A, Zedan H, Saito S.Elguoshy A, et al.Metabolites. 2025 Aug 1;15(8):514. doi: 10.3390/metabo15080514.Metabolites. 2025.PMID: 40863133 Free PMC article.Review.  
+
+[See all similar articles](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed&from_uid=41792227)
+
+References
+----------
+
+1.       1.    Bray, F. et al. Global cancer statistics 2022: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. CA Cancer J. Clin. 74, 229–263 (2024). 
+
+2.       1.    Benson, A. B. et al. Colon Cancer, Version 2.2021, NCCN Clinical Practice Guidelines in Oncology. J. Natl. Compr. Cancer Netw. 19, 329–359 (2021). 
+
+3.       1.    Benson, A. B. et al. Rectal Cancer, Version 2.2022, NCCN Clinical Practice Guidelines in Oncology. J. Natl. Compr. Cancer Netw. 20, 1139–1167 (2022). 
+
+4.       1.    Mazurowski, M. A. Radiogenomics: what it is and why it is important. J. Am. Coll. Radio. 12, 862–866 (2015). 
+
+5.       1.    Li, Z. et al. Comparison of clinical, radiomics, deep learning, and fusion models for predicting early recurrence in locally advanced rectal cancer based on multiparametric MRI: a multicenter study. Eur. J. Radio. 189, 112173 (2025). 
+
+ Show all 54 references 
+
+Related information
+-------------------
+
+*   [GEO Profiles](https://www.ncbi.nlm.nih.gov/geoprofiles?linkname=pubmed_geoprofiles&from_uid=41792227 "GEO records associated with pubmed record")
+
+Grants and funding
+------------------
+
+*   [82503566/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82503566%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82503566/National Natural Science Foundation of China")
+*   [82071973/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82071973%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82071973/National Natural Science Foundation of China")
+*   [2024A1515110018/Basic and Applied Basic Research Foundation of Guangdong Province](https://pubmed.ncbi.nlm.nih.gov/?term=2024A1515110018%2FBasic+and+Applied+Basic+Research+Foundation+of+Guangdong+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2024A1515110018/Basic and Applied Basic Research Foundation of Guangdong Province")
+*   [2020A1515011022/Basic and Applied Basic Research Foundation of Guangdong Province](https://pubmed.ncbi.nlm.nih.gov/?term=2020A1515011022%2FBasic+and+Applied+Basic+Research+Foundation+of+Guangdong+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2020A1515011022/Basic and Applied Basic Research Foundation of Guangdong Province")
+*   [A2025008/Guangdong Medical Scientific Research Foundation Program](https://pubmed.ncbi.nlm.nih.gov/?term=A2025008%2FGuangdong+Medical+Scientific+Research+Foundation+Program%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant A2025008/Guangdong Medical Scientific Research Foundation Program")
+
+*   [2022ZDZX2020/Key Research Platform and Project of Guangdong University](https://pubmed.ncbi.nlm.nih.gov/?term=2022ZDZX2020%2FKey+Research+Platform+and+Project+of+Guangdong+University%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2022ZDZX2020/Key Research Platform and Project of Guangdong University")
+
+ Show all 6 grants 
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41792227/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41792227%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/41792227/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41792227%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41792227%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/41792227/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/?pagename=pubmed%3Apubmed%3Aabstract%3ANONE)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)
