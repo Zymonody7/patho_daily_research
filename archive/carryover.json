@@ -1,6 +1,350 @@
 {
-  "generated_at": "2026-03-07T09:29:24.935589+00:00",
-  "updated_date": "20260307",
+  "generated_at": "2026-03-07T11:03:54.694955+00:00",
+  "updated_date": "20260226-20260307",
   "carryover_days": 1,
-  "items": []
+  "items": [
+    {
+      "id": "2603.03407v1",
+      "title": "Tracing Pharmacological Knowledge In Large Language Models",
+      "abstract": "Large language models (LLMs) have shown strong empirical performance across pharmacology and drug discovery tasks, yet the internal mechanisms by which they encode pharmacological knowledge remain poorly understood. In this work, we investigate how drug-group semantics are represented and retrieved within Llama-based biomedical language models using causal and probing-based interpretability methods. We apply activation patching to localize where drug-group information is stored across model layers and token positions, and complement this analysis with linear probes trained on token-level and sum-pooled activations. Our results demonstrate that early layers play a key role in encoding drug-group knowledge, with the strongest causal effects arising from intermediate tokens within the drug-group span rather than the final drug-group token. Linear probing further reveals that pharmacological semantics are distributed across tokens and are already present in the embedding space, with token-level probes performing near chance while sum-pooled representations achieve maximal accuracy. Together, these findings suggest that drug-group semantics in LLMs are not localized to single tokens but instead arise from distributed representations. This study provides the first systematic mechanistic analysis of pharmacological knowledge in LLMs, offering insights into how biomedical semantics are encoded in large language models.",
+      "authors": [
+        "Basil Hasan Khwaja",
+        "Dylan Chen",
+        "Guntas Toor",
+        "Anastasiya Kuznetsova"
+      ],
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL"
+      ],
+      "published": "2026-03-03T17:04:08+00:00",
+      "link": "https://arxiv.org/pdf/2603.03407v1",
+      "tags": [
+        "keyword:BioInfo",
+        "query:BioInfo"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "interpreting pharmacological knowledge representation in biomedical LLMs",
+      "llm_evidence_cn": "解释生物医学大模型中的药理学知识表示",
+      "llm_evidence": "解释生物医学大模型中的药理学知识表示",
+      "canonical_evidence": "解释生物医学大模型中的药理学知识表示",
+      "llm_tldr_en": "Investigates how pharmacological knowledge is encoded and retrieved within biomedical large language models.",
+      "llm_tldr_cn": "研究药理学知识在生物医学大语言模型中是如何编码和检索的。",
+      "llm_tldr": "研究药理学知识在生物医学大语言模型中是如何编码和检索的。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models and generative AI for drug discovery molecular property prediction and lead optimization",
+      "matched_requirement_id": "req-20",
+      "selection_source": "carryover_cache",
+      "paper_id": "2603.03407v1",
+      "carry_days": 1
+    },
+    {
+      "id": "2603.04743v1",
+      "title": "DARE: Aligning LLM Agents with the R Statistical Ecosystem via Distribution-Aware Retrieval",
+      "abstract": "Large Language Model (LLM) agents can automate data-science workflows, but many rigorous statistical methods implemented in R remain underused because LLMs struggle with statistical knowledge and tool retrieval. Existing retrieval-augmented approaches focus on function-level semantics and ignore data distribution, producing suboptimal matches. We propose DARE (Distribution-Aware Retrieval Embedding), a lightweight, plug-and-play retrieval model that incorporates data distribution information into function representations for R package retrieval. Our main contributions are: (i) RPKB, a curated R Package Knowledge Base derived from 8,191 high-quality CRAN packages; (ii) DARE, an embedding model that fuses distributional features with function metadata to improve retrieval relevance; and (iii) RCodingAgent, an R-oriented LLM agent for reliable R code generation and a suite of statistical analysis tasks for systematically evaluating LLM agents in realistic analytical scenarios. Empirically, DARE achieves an NDCG at 10 of 93.47%, outperforming state-of-the-art open-source embedding models by up to 17% on package retrieval while using substantially fewer parameters. Integrating DARE into RCodingAgent yields significant gains on downstream analysis tasks. This work helps narrow the gap between LLM automation and the mature R statistical ecosystem.",
+      "authors": [
+        "Maojun Sun",
+        "Yue Wu",
+        "Yifei Xie",
+        "Ruijian Han",
+        "Binyan Jiang",
+        "Defeng Sun",
+        "Yancheng Yuan",
+        "Jian Huang"
+      ],
+      "primary_category": "cs.IR",
+      "categories": [
+        "cs.IR",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "published": "2026-03-05T02:29:54+00:00",
+      "link": "https://arxiv.org/pdf/2603.04743v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "LLM agents for R statistical ecosystem and package retrieval",
+      "llm_evidence_cn": "用于R统计生态系统和包检索的LLM智能体",
+      "llm_evidence": "用于R统计生态系统和包检索的LLM智能体",
+      "canonical_evidence": "用于R统计生态系统和包检索的LLM智能体",
+      "llm_tldr_en": "Proposes DARE to improve LLM agent performance in R package retrieval for automated data-science workflows.",
+      "llm_tldr_cn": "提出DARE模型，通过分布感知检索增强LLM智能体在R语言统计包调用和自动化工作流中的表现。",
+      "llm_tldr": "提出DARE模型，通过分布感知检索增强LLM智能体在R语言统计包调用和自动化工作流中的表现。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "copilots for bioinformatics pipelines genomic literature triage and experiment planning",
+      "matched_requirement_id": "req-61",
+      "selection_source": "carryover_cache",
+      "paper_id": "2603.04743v1",
+      "carry_days": 1
+    },
+    {
+      "id": "2603.00614v1",
+      "title": "Designing the Haystack: Programmable Chemical Space for Generative Molecular Discovery",
+      "abstract": "Chemical space exploration underlies drug discovery, yet most generative models treat chemical space as a fixed, implicitly learned distribution, focusing on sampling molecules rather than deliberately designing the space itself. We introduce SpaceGFN, a generative framework that elevates chemical space to a programmable computational object: a controllable degree of freedom enabling explicit construction and adaptive traversal of structured molecular universes. SpaceGFN decouples space definition from exploration. Users specify building blocks and reaction rules to construct chemically and synthetically coherent spaces, while a GFlowNet performs efficient, property-biased sampling within them. In Discovery mode, we demonstrate programmable space design through two strategies. A pseudo-natural product space assembles natural product-like architectures. An evolution-inspired (Evo) space recombines endogenous metabolite fragments via enzyme-consistent transformations, introducing an evolutionary prior into chemical generation. This bias yields favorable shifts in predicted metabolic and toxicological profiles while preserving pharmacological diversity, supported by broad docking enrichment across therapeutic targets. In Editing mode, SpaceGFN enables reaction-consistent lead optimization through a curated toolkit of executable synthetic transformations, allowing local, synthesis-aware modification of existing compounds instead of unrestricted graph mutation. Across 96 drug targets, SpaceGFN achieves strong optimization performance while maintaining structural diversity under synthetic constraints. By integrating programmable chemical universe construction with flow-based exploration and reaction-level editing, SpaceGFN establishes a general paradigm for deliberate navigation of therapeutic chemical space.",
+      "authors": [
+        "Yuchen Zhu",
+        "Donghai Zhao",
+        "Yangyang Zhang",
+        "Yitong Li",
+        "Xiaorui Wang",
+        "Shuwang Li",
+        "Yue Kong",
+        "Beichen Zhang",
+        "Ricki Chen",
+        "Chang Liu",
+        "Xingcai Zhang",
+        "Tingjun Hou",
+        "Chang-Yu Hsieh"
+      ],
+      "primary_category": "physics.chem-ph",
+      "categories": [
+        "physics.chem-ph",
+        "q-bio.BM",
+        "q-bio.QM"
+      ],
+      "published": "2026-02-28T12:16:01+00:00",
+      "link": "https://arxiv.org/pdf/2603.00614v1",
+      "tags": [
+        "keyword:BioInfo",
+        "query:BioInfo"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Generative framework for programmable chemical space and molecular discovery",
+      "llm_evidence_cn": "用于可编程化学空间和分子发现的生成式框架",
+      "llm_evidence": "用于可编程化学空间和分子发现的生成式框架",
+      "canonical_evidence": "用于可编程化学空间和分子发现的生成式框架",
+      "llm_tldr_en": "Introduces SpaceGFN, a framework for designing and exploring structured molecular universes for drug discovery.",
+      "llm_tldr_cn": "引入SpaceGFN框架，通过可编程化学空间提升生成式分子发现的效率。",
+      "llm_tldr": "引入SpaceGFN框架，通过可编程化学空间提升生成式分子发现的效率。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "generative models for molecules proteins and therapeutic design",
+      "matched_requirement_id": "req-19",
+      "selection_source": "carryover_cache",
+      "paper_id": "2603.00614v1",
+      "carry_days": 1
+    },
+    {
+      "id": "2603.02349v1",
+      "title": "Learning graph topology from metapopulation epidemic encoder-decoder",
+      "abstract": "Metapopulation epidemic models are a valuable tool for studying large-scale outbreaks. With the limited availability of epidemic tracing data, it is challenging to infer the essential constituents of these models, namely, the epidemic parameters and the relevant mobility network between subpopulations. Either one of these constituents can be estimated while assuming the other; however, the problem of their joint inference has not yet been solved. Here, we propose two encoder-decoder deep learning architectures that infer metapopulation mobility graphs from time-series data, with and without the assumption of epidemic model parameters. Evaluation across diverse random and empirical mobility networks shows that the proposed approach outperforms the state-of-the-art topology inference. Further, we show that topology inference improves dramatically with data on additional pathogens. Our study establishes a robust framework for simultaneously inferring epidemic parameters and topology, addressing a persistent gap in modeling disease propagation.",
+      "authors": [
+        "Xin Li",
+        "Jonathan Cohen",
+        "Shai Pilosof",
+        "Rami Puzis"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "published": "2026-03-02T19:46:19+00:00",
+      "link": "https://arxiv.org/pdf/2603.02349v1",
+      "tags": [
+        "keyword:PathoAI",
+        "query:PathoAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Deep learning for inferring metapopulation mobility graphs from epidemic time-series data",
+      "llm_evidence_cn": "利用深度学习从流行病时间序列数据中推断种群流动图",
+      "llm_evidence": "利用深度学习从流行病时间序列数据中推断种群流动图",
+      "canonical_evidence": "利用深度学习从流行病时间序列数据中推断种群流动图",
+      "llm_tldr_en": "Proposes encoder-decoder architectures to jointly infer epidemic parameters and mobility networks for outbreaks.",
+      "llm_tldr_cn": "提出编码器-解码器架构，从时间序列中推断流行病参数和种群流动网络。",
+      "llm_tldr": "提出编码器-解码器架构，从时间序列中推断流行病参数和种群流动网络。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI driven outbreak surveillance genomic epidemiology and transmission modeling",
+      "matched_requirement_id": "req-12",
+      "selection_source": "carryover_cache",
+      "paper_id": "2603.02349v1",
+      "carry_days": 1
+    },
+    {
+      "id": "2603.02273v1",
+      "title": "Graph Attention Based Prioritization of Disease Responsible Genes from Multimodal Alzheimer's Network",
+      "abstract": "Prioritizing disease-associated genes is central to understanding the molecular mechanisms of complex disorders such as Alzheimer's disease (AD). Traditional network-based approaches rely on static centrality measures and often fail to capture cross-modal biological heterogeneity. We propose NETRA (Node Evaluation through Transformer-based Representation and Attention), a multimodal graph transformer framework that replaces heuristic centrality metrics with attention-driven relevance scoring. Using AD as a case study, gene regulatory networks are independently constructed from microarray, single-cell RNA-seq, and single-nucleus RNA-seq data. Random-walk sequences derived from these networks are used to train a BERT-based model for learning global gene embeddings, while modality-specific gene expression profiles are compressed using variational autoencoders. These representations are integrated with auxiliary biological networks, including protein-protein interactions, Gene Ontology semantic similarity, and diffusion-based gene similarity, into a unified multimodal graph. A graph transformer assigns NETRA scores that quantify gene relevance in a disease-specific and context-aware manner. Gene set enrichment analysis shows that NETRA achieves a normalized enrichment score of about 3.9 for the Alzheimer's disease pathway, substantially outperforming classical centrality measures and diffusion models. Top-ranked genes enrich multiple neurodegenerative pathways, recover a known late-onset AD susceptibility locus at chr12q13, and reveal conserved cross-disease gene modules. The framework preserves biologically realistic heavy-tailed network topology and is readily extensible to other complex disorders.",
+      "authors": [
+        "Binon Teji",
+        "Subhajit Bandyopadhyay",
+        "Swarup Roy"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "published": "2026-03-01T06:46:18+00:00",
+      "link": "https://arxiv.org/pdf/2603.02273v1",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:SeqAI",
+        "query:BioInfo"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "multimodal graph transformer for gene regulatory networks",
+      "llm_evidence_cn": "用于基因调控网络的多模态图变换器",
+      "llm_evidence": "用于基因调控网络的多模态图变换器",
+      "canonical_evidence": "用于基因调控网络的多模态图变换器",
+      "llm_tldr_en": "Proposes a multimodal graph transformer framework for prioritizing disease-associated genes in regulatory networks.",
+      "llm_tldr_cn": "提出了一种多模态图变换器框架，用于在调控网络中优先排序疾病相关基因。",
+      "llm_tldr": "提出了一种多模态图变换器框架，用于在调控网络中优先排序疾病相关基因。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "graph learning and foundation models for gene regulatory network inference and perturbation biology",
+      "matched_requirement_id": "req-22",
+      "selection_source": "carryover_cache",
+      "paper_id": "2603.02273v1",
+      "carry_days": 1
+    },
+    {
+      "id": "2603.04730v1",
+      "title": "Count Bridges enable Modeling and Deconvolving Transcriptomic Data",
+      "abstract": "Many modern biological assays, including RNA sequencing, yield integer-valued counts that reflect the number of molecules detected. These measurements are often not at the desired resolution: while the unit of interest is typically a single cell, many measurement technologies produce counts aggregated over sets of cells. Although recent generative frameworks such as diffusion and flow matching have been extended to non-Euclidean and discrete settings, it remains unclear how best to model integer-valued data or how to systematically deconvolve aggregated observations. We introduce Count Bridges, a stochastic bridge process on the integers that provides an exact, tractable analogue of diffusion-style models for count data, with closed-form conditionals for efficient training and sampling. We extend this framework to enable direct training from aggregated measurements via an Expectation-Maximization-style approach that treats unit-level counts as latent variables. We demonstrate state-of-the-art performance on integer distribution matching benchmarks, comparing against flow matching and discrete flow matching baselines across various metrics. We then apply Count Bridges to two large-scale problems in biology: modeling single-cell gene expression data at the nucleotide resolution, with applications to deconvolving bulk RNA-seq, and resolving multicellular spatial transcriptomic spots into single-cell count profiles. Our methods offer a principled foundation for generative modeling and deconvolution of biological count data across scales and modalities.",
+      "authors": [
+        "Nic Fishman",
+        "Gokul Gowri",
+        "Tanush Kumar",
+        "Jiaqi Lu",
+        "Valentin de Bortoli",
+        "Jonathan S. Gootenberg",
+        "Omar Abudayyeh"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "published": "2026-03-05T02:09:00+00:00",
+      "link": "https://arxiv.org/pdf/2603.04730v1",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Stochastic bridge process for modeling transcriptomic count data",
+      "llm_evidence_cn": "用于转录组计数数据建模的随机桥过程",
+      "llm_evidence": "用于转录组计数数据建模的随机桥过程",
+      "canonical_evidence": "用于转录组计数数据建模的随机桥过程",
+      "llm_tldr_en": "Introduces Count Bridges to model and deconvolve integer-valued transcriptomic data from RNA sequencing.",
+      "llm_tldr_cn": "引入Count Bridges随机过程，用于对RNA测序产生的整数值转录组数据进行建模和反褶积。",
+      "llm_tldr": "引入Count Bridges随机过程，用于对RNA测序产生的整数值转录组数据进行建模和反褶积。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "foundation models for transcriptomics RNA sequencing and gene expression modeling",
+      "matched_requirement_id": "req-44",
+      "selection_source": "carryover_cache",
+      "paper_id": "2603.04730v1",
+      "carry_days": 1
+    },
+    {
+      "id": "2603.00193v1",
+      "title": "Multimodal Alignment Improves Generalizability of Genomic Biomarker Prediction in Computational Pathology",
+      "abstract": "Computational pathology models that use digitized histopathology whole-slide images have the potential to become a cost-effective and scalable alternative to molecular assays for the prediction of genomic biomarkers, a key task in precision oncology. However, as new genomic biomarkers are discovered or quantified, large, labeled datasets must be prospectively collected to train new models. To address this challenge, we developed MARBLE, a multimodal contrastive pretraining strategy that integrates structured biomarker knowledge into representation learning of histopathology images. MARBLE aligns histopathology-derived representations with representations of genomic biomarkers generated by a large language model (LLM) and a protein language model (PLM). This biologically informed alignment enables data-efficient generalization to novel, out-of-distribution biomarkers. Using the MSK-IMPACT cohort of over 40,000 patients across multiple biomarker panel versions, we design experiments grounded in real-world data to demonstrate the value of our proposed approach.",
+      "authors": [
+        "Ekaterina Redekop",
+        "Eric Zimmermann",
+        "Ava P Amini",
+        "Alex X Lu",
+        "Neil Tenenholtz",
+        "James Brian Hall",
+        "Lorin Crawford",
+        "Kristen A Severson"
+      ],
+      "primary_category": "q-bio.QM",
+      "categories": [
+        "q-bio.QM"
+      ],
+      "published": "2026-02-27T03:55:18+00:00",
+      "link": "https://arxiv.org/pdf/2603.00193v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "multimodal alignment of histopathology images and genomic biomarkers using LLMs",
+      "llm_evidence_cn": "利用大语言模型进行组织病理学图像与基因生物标志物的多模态对齐",
+      "llm_evidence": "利用大语言模型进行组织病理学图像与基因生物标志物的多模态对齐",
+      "canonical_evidence": "利用大语言模型进行组织病理学图像与基因生物标志物的多模态对齐",
+      "llm_tldr_en": "Aligns pathology images with LLM-generated genomic representations for better biomarker prediction.",
+      "llm_tldr_cn": "将病理图像与LLM生成的基因组表示对齐，以提高基因生物标志物的预测能力。",
+      "llm_tldr": "将病理图像与LLM生成的基因组表示对齐，以提高基因生物标志物的预测能力。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "multimodal models combining sequence structure phenotype and text",
+      "matched_requirement_id": "req-24",
+      "selection_source": "carryover_cache",
+      "paper_id": "2603.00193v1",
+      "carry_days": 1
+    },
+    {
+      "id": "2603.02274v1",
+      "title": "Contextual Invertible World Models: A Neuro-Symbolic Agentic Framework for Colorectal Cancer Drug Response",
+      "abstract": "Precision oncology is currently limited by the small-N, large-P paradox, where high-dimensional genomic data is abundant, but high-quality drug response samples are often sparse. While deep learning models achieve high predictive accuracy, they remain black boxes that fail to provide the causal mechanisms required for clinical decision-making. We present a Neuro-Symbolic Agentic Framework that bridges this gap by integrating a quantitative machine learning World Model with an LLM-based agentic reasoning layer. Our system utilises a forensic data pipeline built on the Sanger GDSC dataset (N=83), achieving a robust predictive correlation (r=0.504) and a significant performance gain through the explicit modelling of clinical context, specifically Microsatellite Instability (MSI) status. We introduce the concept of Inverse Reasoning, where the agentic layer performs in silico CRISPR perturbations to predict how specific genomic edits, such as APC or TP53 repair, alter drug sensitivity. By distinguishing between therapeutic opportunity and contextual resistance, and validating these findings against human clinical data (p=0.023), our framework provides a transparent, biologically grounded path towards explainable AI in cancer research.",
+      "authors": [
+        "Christopher Baker",
+        "Karen Rafferty",
+        "Hui Wang"
+      ],
+      "primary_category": "q-bio.QM",
+      "categories": [
+        "q-bio.QM",
+        "cs.AI"
+      ],
+      "published": "2026-03-01T16:15:58+00:00",
+      "link": "https://arxiv.org/pdf/2603.02274v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "query:BioInfo"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Neuro-Symbolic Agentic Framework for cancer drug response reasoning",
+      "llm_evidence_cn": "用于癌症药物反应推理的神经符号智能体框架",
+      "llm_evidence": "用于癌症药物反应推理的神经符号智能体框架",
+      "canonical_evidence": "用于癌症药物反应推理的神经符号智能体框架",
+      "llm_tldr_en": "Integrates machine learning world models with LLM agents for causal reasoning in precision oncology.",
+      "llm_tldr_cn": "将机器学习世界模型与LLM智能体结合，用于精准肿瘤学中的因果推理。",
+      "llm_tldr": "将机器学习世界模型与LLM智能体结合，用于精准肿瘤学中的因果推理。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "LLM agents for bioinformatics genomics workflows and scientific reasoning",
+      "matched_requirement_id": "req-62",
+      "selection_source": "carryover_cache",
+      "paper_id": "2603.02274v1",
+      "carry_days": 1
+    }
+  ]
 }

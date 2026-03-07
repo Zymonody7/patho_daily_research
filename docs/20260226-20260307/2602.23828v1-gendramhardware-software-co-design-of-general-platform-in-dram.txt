@@ -1,0 +1,717 @@
+Title: GenDRAM:Hardware-Software Co-Design of General Platform in DRAM
+
+URL Source: https://arxiv.org/pdf/2602.23828v1
+
+Published Time: Mon, 02 Mar 2026 01:49:11 GMT
+
+Number of Pages: 16
+
+Markdown Content:
+> 1
+
+# GenDRAM:Hardware-Software Co-Design of General Platform in DRAM 
+
+Tsung-Han Lu,Weihong Xu, Member, IEEE ,and Tajana Rosing, Fellow, IEEE 
+
+Abstract —Dynamic programming (DP) algorithms, such as All-Pairs Shortest Path (APSP) and genomic sequence alignment, are fundamental to many scientific domains but are severely bottlenecked by data movement on conventional architectures. While Processing-in-Memory (PIM) offers a promising solution, existing accelerators often address only a fraction of the work-flow, creating new system-level bottlenecks in host-accelerator communication and off-chip data streaming. In this work, we propose GenDRAM, a massively parallel PIM accelerator that overcomes these limitations. GenDRAM leverages the immense capacity and internal bandwidth of monolithic 3D DRAM(M3D DRAM) to integrate entire data-intensive pipelines, such as the full genomics workflow from seeding to alignment, onto a single heterogeneous chip. At its core is a novel architecture featuring specialized Search PUs for memory-intensive tasks and universal, multiplier-less Compute PUs for diverse DP calculations. This is enabled by a 3D-aware data mapping strategy that exploits the tiered latency of M3D DRAM for performance optimiza-tion. Through comprehensive simulation, we demonstrate that GenDRAM achieves a transformative performance leap, outper-forming state-of-the-art GPU systems by over 68 × on APSP and over 22 × on the end-to-end genomics pipeline. 
+
+Index Terms —Processing-in-Memory (PIM), All-Pairs Shortest Paths (APSP), Floyd Warshall Algorithm, 3DDRAM, General Platform, Genomic, Seeding, Alignment 
+
+I. I NTRODUCTION 
+
+All-Pairs Shortest Path (APSP) stands as a fundamental algorithm in domains such as network routing, logistics, sequence alignment and social network analysis [1], [2], [3]. The canonical Floyd-Warshall (FW) algorithm [4], however, presents a significant computational challenge with its O(N 3)
+
+time complexity and the massive data movement required to repeatedly update its dense distance matrix. While GPU-based implementations have offered performance improve-ments over CPUs [5], [6], [7], they remain fundamentally limited by the data-movement bottleneck between processing cores and off-chip memory, which dominates both execution time and energy consumption. The tiled structure and inherent parallelism of the blocked FW algorithm make it an ideal candidate for Processing-in-Memory (PIM) architectures [8], [9], [10], which aim to resolve the memory wall by embedding computation directly within the memory hierarchy. Concurrently, the advancement of high-throughput sequenc-ing (HTS) technologies has revolutionized fields ranging from precision medicine to epidemiology [11]. Modern sequencers can now generate terabytes of genomic data in mere hours, creating a data deluge that dramatically outpaces the scaling           
+
+> T.H Lu, and T. Rosing are with the Department of Computer Science and Engineering, University of California San Diego, La Jolla, CA, 92093 USA (email: {tsl012, tajana }@ucsd.edu). W. Xu with the Department of Electrical and Computer Engineer-ing, Swiss Federal Institute of Technology in Lausanne (EPFL) (email:
+> {weihong.xu }@epfl.ch).
+
+predicted by Moore’s Law [11]. Within this complex bioin-formatics pipeline, a critical and often dominant bottleneck is sequence alignment, a computationally demanding task that can consume 60-80% of the total runtime [12]. This escalating computational challenge, much like that in graph analytics, necessitates a fundamental paradigm shift in hard-ware accelerator design. Crucially, both APSP and alignment are foundationally rooted in Dynamic Programming (DP), sharing a computational core that relies heavily on iterative neighbor updates and minimal arithmetic units (adders and comparators). This shared DP nature serves as the primary motivation for developing a single, unified platform capable of accelerating both graph and genomic analysis, maximizing hardware utilization. To address these diverse, memory-intensive workloads, nu-merous hardware accelerators have been proposed on ASIC, GPU, and FPGA platforms [5], [13]. More recently, PIM has emerged as a compelling solution to mitigate the profound data movement costs [14], [15], [16]. State-of-the-art PIM accel-erators like RAPIDx have demonstrated significant through-put improvements for sequence alignment by co-designing novel algorithms with ReRAM-based hardware [12]. Simi-larly, FPGA-based designs like SALIENT have achieved high performance by creating specialized, pipelined hardware for different stages of the alignment workflow [11]. However, these advanced solutions still face fundamental limitations rooted in system-level bottlenecks. Due to on-chip memory capacity constraints, many designs cannot store the entire multi-gigabyte reference genome, forcing them to frequently stream reference data from a host system and re-introducing a significant data movement bottleneck. Furthermore, to sim-plify the accelerator design, critical pre-processing steps like seeding are often offloaded to the host CPU. This division of labor breaks the analysis pipeline and creates a new, often overlooked, system-level bottleneck in the communication between the host and the accelerator [17]. The limitations of prior PIM designs underscore the ne-cessity for a truly monolithic, end-to-end solution. Exist-ing approaches often fail due to three key systemic flaws: (1) Incomplete pipelining: offloading memory-intensive pre-processing stages, such as the seeding phase in genomics, to the host CPU re-introduces a critical, system-level communi-cation bottleneck. (2) Capacity constraints: many accelerators lack the on-chip memory capacity to store massive structures like the entire multi-gigabyte reference genome, necessitating inefficient off-chip data streaming. (3) Lack of universality: prior PIM solutions are often highly specialized [12], [14], [15], addressing only a single DP variant, thus failing to maximize hardware utilization across the increasingly diverse landscape of data-intensive workloads. In this work, we propose GenDRAM, a massively paral-
+
+> arXiv:2602.23828v1 [cs.AR] 27 Feb 2026 2
+
+lel 3D Processing-in-Memory (PIM) accelerator designed to overcome system-level limitations across multiple domains. It unifies structurally disparate yet mathematically isomorphic tile-based dynamic programming workloads, ranging from the global systolic broadcasting of APSP to the local wavefront propagation of genomic alignment. To achieve this, Gen-DRAM has a heterogeneous architecture capable of accelerat-ing a broad spectrum of memory-bound scientific computing bottlenecks rooted in the generalized grid update problem. The architecture’s key contribution is a novel heterogeneous on-chip pipeline featuring two distinct types of Processing Elements (PEs) to enable true pipeline parallelism, supported by a sophisticated 3D-aware data mapping strategy that ex-ploits the tiered latency of M3D DRAM. Furthermore, we design a multiplier-less PE capable of efficiently executing the diverse operations required for both banded DP align-ment and the FW APSP algorithm. Thus, leveraging the immense capacity and internal bandwidth of M3D DRAM, GenDRAM integrates the entire bioinformatics pipeline—from memory-intensive seeding to compute-intensive alignment— onto a single heterogeneous chip, thereby eliminating critical host-accelerator communication bottlenecks by co-locating specialized compute engines with large-scale data structures. Our comprehensive evaluation demonstrates that GenDRAM outperforms state-of-the-art GPU systems, achieving a 67 ×
+
+speedup on APSP and a 22 × speedup on the end-to-end genomics pipeline compared to the NVIDIA A100, validating the efficacy of our proposed unified PIM architecture. II. B ACKGROUND 
+
+A. APSP and Genomic Sequence Alignment 1) APSP and FW algorithm : The APSP problem is a foun-dational algorithm in graph theory [18], critical for diverse applications ranging from network routing to bioinformatics [1], [2], [3]. The canonical solution for dense graphs is the FW algorithm [4], which operates with a time complexity of O(N 3). Its core mechanism involves iteratively relaxing edges through intermediate vertices k, updating distances via the equation d(i, j ) = min( d(i, j ), d (i, k ) + d(k, j )) . While conceptually simple, the standard FW algorithm exhibits poor cache locality and inefficient data reuse on large matrices, creating significant performance bottlenecks in conventional CPU architectures. 
+
+Fig. 1: Example of a weighted directed graph (right) and its corresponding adjacency matrix (left), serving as the input for the APSP problem To mitigate these inefficiencies, the blocked FW algorithm [19], [20] partitions the N × N distance matrix into B × B
+
+tiles sized to fit within on-chip memory. As illustrated in Fig. 2, execution proceeds in N/B super-steps, each consisting of three distinct phases: (1) Self-update , where the pivot block 
+
+Akk is updated sequentially; (2) Row/column update , where blocks in the pivot row Akj and column Aik are updated using 
+
+Akk ; and (3) Internal update , where all remaining blocks 
+
+Aij are updated in parallel using the respective pivot row and column blocks. This tiled approach optimizes data access patterns by maxi-mizing locality within each block processing step, as outlined in Algorithm 1. By completing updates on local tiles before advancing, the blocked FW algorithm significantly reduces off-chip data movement [19]. This characteristic renders it particularly suitable for PIM architectures, where Compute PEs can efficiently process data blocks streamed directly from underlying DRAM layers, thereby overcoming the memory wall. 
+
+Algorithm 1 Blocked Floyd-Warshall Algorithm                                                                                                   
+
+> 1: Input: Weighted graph matrix Dof size N×N, block size B.2: Output: APSP distance matrix D.3: num blocks ←N/B
+> 4: for k←0to num blocks −1do ▷Phase 1: Self-Update of the pivot block 5: F W on block (D[k][ k])
+> ▷Phase 2: Update pivot row and column 6: for i←0to num blocks −1do
+> 7: if i̸=kthen
+> 8: Block U pdate (D[i][ k], D [i][ k], D [k][ k])
+> 9: end if
+> 10: end for
+> 11: for j←0to num blocks −1do
+> 12: if j̸=kthen
+> 13: Block U pdate (D[k][ j], D [k][ k], D [k][ j])
+> 14: end if
+> 15: end for
+> ▷Phase 3: Update internal blocks 16: for i←0to num blocks −1do
+> 17: for j←0to num blocks −1do
+> 18: if i̸=kand j̸=kthen
+> 19: Block U pdate (D[i][ j], D [i][ k], D [k][ j])
+> 20: end if
+> 21: end for
+> 22: end for
+> 23: end for
+> 24: return D
+
+Fig. 2: Three phases of the Blocked FW algorithm for updating a distance matrix. Orange arrows indicate data dependencies or computation within a block or between blocks and pivot elements 
+
+2) Genomic Alignment: Genomic sequence alignment is a computationally intensive cornerstone of bioinformatics, 3
+
+requiring the mapping of millions of short DNA reads to a reference genome. This process is often bottlenecked by memory and compute limitations. Modern aligners mitigate this complexity through a multi-stage pipeline, as depicted in Fig. 3. The pipeline typically begins with indexing to build rapid lookup structures and seeding, a memory-intensive phase that identifies potential alignment locations by match-ing subsequences against the index. Following a filtering step to prune candidates, the most compute-intensive phase, alignment, employs DP algorithms like Smith-Waterman to compute optimal alignment scores [12]. 
+
+Fig. 3: Overview of the genomic sequence alignment pipeline (left) and illustration of basic operations in sequence align-ment (right): match, deletion, insertion, and mismatch. These operations are associated with different scores or penalties in dynamic programming algorithms Throughout this work, we define the end-to-end genomics workflow as the online processing stages: seeding and align-ment (including filtering and traceback). The indexing stage, which builds the hash tables (PTR/CAL), is a one-time offline pre-processing step performed on the host and is therefore excluded from runtime measurements. Similarly, final I/O formatting is excluded as it is not on the critical path of the accelerator. This definition aligns with standard benchmarking practices where the read mapping throughput is the primary metric of interest [11], [12]. A critical optimization for DP-based alignment is banded dynamic programming , which reduces the computational complexity from quadratic O(Lread × Lreference ) to linear 
+
+O(Lread × BandWidth ) by restricting computation to a nar-row diagonal band [12]. As illustrated in Fig. 4, advanced accelerators like RAPIDx [12] further refine this approach using difference-based and adaptive techniques. Unlike the prohibitively large original full DP, the banded difference-based DP restricts computation to a fixed bandwidth (e.g., 
+
+B = 6 ), computing score differences rather than absolute values to simplify hardware. The adaptive banded parallelized DP further optimizes this by dynamically adjusting a re-duced bandwidth (e.g., B = 3 ), minimizing memory access and computation for highly similar sequences. This approach is fundamental for high-throughput hardware acceleration. However, while RAPIDx provides an efficient algorithmic framework, its hardware implementation relies on ReRAM, which has much slower writes, low reliability and challenges with scaling. In contrast, GenDRAM uniquely adapts this adaptive banded algorithm to M3D DRAM. By coupling this algorithmic efficiency with the massive capacity with fast latency and internal bandwidth of M3D DRAM, GenDRAM enables a truly monolithic, end-to-end accelerator design. This optimization strategy aligns with the Blocking or Tiling 
+
+strategy used in APSP. Although sequence alignment (local 
+
+Fig. 4: Illustration of three variants of DP alignment algo-rithms. (a) Original full DP. (b) Banded difference-based DP. (c) Adaptive banded parallelized DP [12] wavefront) and Floyd-Warshall (global broadcast) exhibit dif-ferent dataflow patterns, both are canonical DP applications relying on a shared, tile-based recursive update model ( max 
+
+vs. min-plus ). This shared paradigm is the key enabler for our unified PIM accelerator. The selection of M3D DRAM as the foundational tech-nology for GenDRAM is driven by the unique requirements of these workloads. While alternative PIM technologies like ReRAM offer computation density, they lack the capacity for genomic workloads [12]. Conversely, conventional M3D DRAMs like HBM suffer from internal bandwidth bottlenecks due to TSV interconnects [17]. M3D DRAM uniquely bridges this gap, providing DRAM-scale capacity and massive internal bandwidth via hybrid bonding [17], essential for sustaining the massive parallelism in our GenDRAM design. 
+
+B. Unified View of Dynamic Programming Workloads 
+
+While APSP and genomic sequence alignment originate from distinct scientific domains, they share a fundamental algorithmic structure rooted in DP on dense matrices. We abstract both problems as a generalized grid update problem, characterized by two key isomorphisms: 
+
+1) Computational isomorphism: Both algorithms involve iteratively updating a target cell D[i, j ] based on data from neighbor cells or pivot blocks. This operation can be general-ized as a semi-ring operation over a matrix: 
+
+D[i, j ] ← D[i, j ] ⊕ (D[i, k ] ⊗ D[k, j ]) (1) where ⊕ represents the accumulation operator and ⊗ repre-sents the combination operator as shown in Fig. 5.  
+
+> •
+
+For APSP (Floyd-Warshall): The problem is defined over the (min , +) semi-ring. The system minimizes the path cost ( ⊕ → min ) by summing edge weights ( ⊗ → 
+
++).  
+
+> •
+
+For Sequence alignment (Smith-Waterman): The prob-lem is defined over the (max , +) semi-ring. The system maximizes the alignment score ( ⊕ → max ) by adding match/gap penalties ( ⊗ → +). 
+
+The Data movement bottleneck: Despite the algorithmic sim-plicity, these workloads are severely throttled by the memory wall on conventional architectures. For genomic alignment, the Operational Intensity (OI) is inherently low due to frequent backtracking and table lookups, with profiling data showing that memory stalls account for 60%–80% of the total runtime 4
+
+Fig. 5: The GenDRAM Unified Computing Abstraction. De-spite differing data access patterns (Global Broadcast in APSP vs. Local Wavefront in Genomics), both workloads map to a unified Generalized Grid Update problem based on semi-ring algebra in standard software aligners [12]. Similarly for APSP, while the complexity is cubic, the energy cost is dominated by data movement. Fetching operands from off-chip DRAM consumes approximately 200 × more energy (approx. 640 pJ per 64-bit access) compared to the simple integer arithmetic operations (approx. 3 pJ per add) required for the update [17]. This quan-titative disparity—where data movement cost dwarfs compu-tation cost—motivates the need for a PIM architecture that minimizes distance-to-data. This quantitative disparity—where data movement cost dwarfs computation cost—motivates the need for a PIM architecture that minimizes distance-to-data. 
+
+2) Structural commonality: To mitigate the memory wall, both algorithms utilize blocked (tiled) execution . Whether it is the wavefront propagation in alignment or the pivot-row-column update in blocked FW, both workloads require fetching a B × B tile, performing arithmetic on local registers, and broadcasting dependencies to adjacent tiles. This structural and computational isomorphism implies that a single hardware substrate—equipped with reconfigurable 
+
+(⊕, ⊗) Arithmetic units and a mesh/ring interconnect for tile broadcasting—can universally accelerate both workloads without the need for dedicated, disjoint ASIC logic, which is the motivation for this work. 
+
+C. Monolithic 3D-Stackable DRAM 
+
+Our architecture is founded on M3D DRAM [21], which offers fundamental advantages over conventional High-Bandwidth Memory (HBM) for PIM systems. While HBM relies on coarse-pitch (˜ 10 μm ) Through-Silicon Vias (TSVs) that create a critical bottleneck by limiting internal bandwidth and density (Fig. 6), M3D DRAM utilizes order of magni-tude finer pitch (˜ 1 μm ) Cu-Cu hybrid bonding interface. This architectural distinction enables an order-of-magnitude denser vertical connectivity, unlocking tens of TB/s of internal bandwidth—achieved via massive parallelism across numerous banks and channels —and supporting a higher power budget for co-located logic due to improved thermal performance. We selected M3D DRAM as its massive internal bandwidth, superior integration density, higher capacity, and exploitable characteristics are the key enablers for our high-throughput PIM pipeline. 
+
+Fig. 6: Architectural comparison between conventional HBM (left) [22] using TSVs and M3D DRAM (right) [21] using Cu-Cu Hybrid Bonding for vertical interconnection A key physical characteristic of aggressively scaled M3D DRAM is the emergence of heterogeneous access latencies across its vertical layers. As illustrated in Fig. 7, wordlines (WLs) are routed along a staircase structure, resulting in a linearly increasing RC delay for layers farther from the logic die . This creates a tiered latency profile where bottom layers exhibit the fastest access times. GenDRAM is designed to exploit this: rather than a limitation, this inherent hetero-geneity presents a unique optimization opportunity. We em-ploy a 3D-aware data mapping strategy to strategically place performance-critical hot data into the fast, low-latency tiers, thereby maximizing average memory access performance. PU …………          
+
+> Bank Channel Total 32 Channel BK x16
+> …BK BK x16
+> …BK BK x16
+> …BK BK x16
+> …BK BK x16
+> …BK BK x16
+> …BK BK x16
+> …BK BK x16
+> …BK Word line Bit line
+
+Fig. 7: Illustration of the M3D DRAM architecture. The left side shows multiple Processing Units (PUs) on the Logic Die and the hierarchical organization of DRAM into Banks and Channels. The magnified view on the right details the Wordline (WL) routing, demonstrating its staircase structure across multiple DRAM layers 
+
+D. Challenges on M3D DRAM for Dynamic Programming 
+
+While M3D DRAM offers unprecedented capacity and internal bandwidth, its unique physical characteristics present significant challenges for accelerating dynamic programming algorithms like APSP and sequence alignment. 1) Different algorithmic access patterns: The first chal-lenge originates from the DP algorithms themselves, which feature complex, data-dependent access patterns. This is far removed from simple linear data scans. Instead, the hardware must support two fundamentally different and dynamically shifting dataflow modes: the wavefront propa-gation required by genomic alignment, and the pivot block access with broadcasting essential to blocked FW. This fundamental algorithmic irregularity makes it exceptionally 5
+
+difficult to design a single, optimal static data layout for both, thereby placing high demands on the hardware’s real-time dataflow control. 2) 3D mapping and tiered latency: The physical struc-ture of M3D DRAM presents a second major challenge, combining the complexities of tiered latency and data mapping [17]. First, due to the wordline staircase struc-ture, DRAM layers farther from the logic die exhibit significantly longer access latencies. This forces a vertical optimization, where critical data (like a pivot block or active wavefront) must be strategically placed in low-latency fast tiers.The physical structure of M3D DRAM presents a second major challenge: balancing the trade-off between tiered access latency and memory parallelism [17]. Due to the staircase wordline structure, DRAM layers positioned farther from the logic die exhibit significantly longer access latencies. This characteristic necessitates a vertical optimization, where latency-critical data must be strategically mapped to the faster, bottom-most tiers. However, this vertical constraint stands in tension with the goal of horizontal optimization, which seeks to maximize bandwidth by interleaving data blocks across disparate channels and banks. Simultaneously satisfying both objec-tives is non-trivial; aggressively concentrating hot data into a few fast tiers can restrict the available bank-level paral-lelism, potentially creating access congestion within those specific channels. We must simultaneously maximize data locality (the vertical optimization) and maximize memory parallelism (a horizontal optimization, by interleaving data blocks across different channels or banks). Achieving both goals simultaneously in 3D space is non-trivial, as con-centrating all hot data in fast tiers might create horizontal access congestion, and vice versa. 3) Compute PU design challenge: Finally, designing a single PU to efficiently accelerate both algorithms presents a critical conflict in functional structure and data precision. The PU must be reconfigurable to support two distinct data-path structures: APSP’s min-plus (min(A, B+C) ) and genomic alignment’s max-logic (max(A, B, C+D) ). The more severe challenge lies in the starkly divergent data precision: APSP’s path accumulation requires a wide datapath (e.g., 32-bit) to prevent overflow, whereas the adaptive banded DP algorithm for sequence alignment is optimized for an ultra-low 5-bit precision [12]. This creates a critical design trade-off: a PU optimized for 5-bit is functionally incorrect for 32-bit tasks. Conversely, a 32-bit PU, while capable of handling both, is massively inefficient for the 5-bit workload, wasting over 84% of its resources. The architectural challenge, therefore, is to select a unified PU design that correctly balances these conflicting demands of functional correctness, universality, and computational efficiency. III. G EN DRAM H ARDWARE ARCHITECTURE 
+
+A. GenDRAM Overview 
+
+GenDRAM is a novel 3D PIM accelerator designed to address the memory-bound challenges of both genomic anal-ysis and APSP graph processing workloads. Leveraging the advanced capabilities of M3D DRAM, GenDRAM tightly integrates a high-performance Near-Memory Processor (NMP) on a dedicated logic die with a multi-layered DRAM stack. This architecture, broadly depicted in Fig. 8, aims to eliminate the traditional memory wall bottleneck by bringing computa-tion directly to the data, facilitating massive internal bandwidth and reducing data movement. Inter PU                                     
+
+> interconnect
+> PE0
+> PU7
+> PU0 PU1 PU2 PU3
+> PU4 PU5 PU6 PU7
+> PU8 PU9 PU10 PU11
+> PU12 PU13 PU14 PU15
+> PU16 PU17 PU18 PU19
+> PU20 PU21 PU22 PU23
+> PU24 PU25 PU26 PU27
+> PU28 PU29 PU30 PU31
+> PE1 PE2 PE3 PE4 PE15 …
+> Combiner Shared
+> Memory
+> Max/Min
+> Engine
+> Seq -additional Unit
+> A+B
+> APSP -Subtract Unit
+> D_old –D_new
+> Data Fusion
+> Unit
+> Switch
+> BK0 BK1 BK2 BK3 BK4 BK15 …
+> …
+> Channel X 16
+> Bank
+> Channel
+
+Fig. 8: Overview of the GenDRAM System Architecture. The left panel shows the Logic Die connected to the 3D DRAM stack, with an array of PU. The right panel details the internal structure of a Near Bank PE Cluster, highlighting its PEs and specialized computational units for APSP and Sequence Alignment As shown on the left side of Fig. 8, the GenDRAM system comprises a multi-layered M3D DRAM stack directly bonded to an advanced-node logic die. The logic die houses an array of numerous PUs, organized into clusters, along with a central controller. These PUs are strategically placed near the DRAM banks, connected via dedicated bank channels. This proximity and high-bandwidth connection are crucial for enabling efficient PIM operations. Data access is initiated when a PU’s local memory controller issues an ACTIVATE 
+
+command to a bank. This action latches an entire DRAM row into the bank’s Row Buffer. The PU’s internal computational units then read their necessary data directly from this wide row buffer over the high-bandwidth hybrid bonding interface, performing in-situ computation before the row is precharged. The overall architecture emphasizes a modular and scalable design, where each PU is capable of operating independently or collaboratively with others, coordinated by the central Controller. The entire system is then connected to a host CPU. 
+
+B. M3D DRAM-Logic Co-Optimization 
+
+The microarchitecture of the Logic Die is co-designed to saturate the massive internal bandwidth of the M3D DRAM. We specifically optimize the PU count to match the 32 independent DRAM bank-groups and configure the I/O width to leverage the dense hybrid bonding interface, balancing maximum throughput against silicon area limitations. 
+
+1) Bandwidth-Matched PU Scaling: The M3D DRAM is organized into 32 independent Bank-Groups (derived from 16 Channels × 2 Groups/Channel) to maximize vertical paral-lelism. To fully saturate the massive internal bandwidth ( ∼34 6
+
+TB/s) enabled by hybrid bonding, we establish a 1:1 coupling ratio between DRAM Bank-Groups and compute/search PUs. Consequently, the logic die implements exactly 32 PUs. In-creasing PUs beyond this count would result in memory con-tention, while fewer PUs would leave the internal bandwidth underutilized. More details can be found in Section V-E4 
+
+2) Hybrid Bonding Interface: Unlike conventional HBM, which is limited by 1024-bit TSV interfaces per stack, the Cu-Cu hybrid bonding enables a dense vertical interconnect pitch ( ∼ 1μm ). We configure each PU with a dedicated 1024-bit wide I/O interface directly connected to its vertically aligned DRAM Bank-Group. This allows a single ACTIVATE 
+
+command to fetch an entire vector (e.g., 32 integers × 32-bit) into the PU’s shared memory in a single cycle, perfectly matching the SIMD width required by our compute PEs for tile processing. 
+
+C. Process Units 
+
+The right panel of Fig. 8 provides a detailed view of the PU, also referred to as the near bank PE cluster, which serves as the fundamental computational block within the GenDRAM architecture. Each PU is strategically positioned on the logic die to be directly associated with a specific set of underlying DRAM banks (illustrated as BANK 0 through BANK 15), granting it high-bandwidth, low-latency access to its designated local data partition within the M3D DRAM stack. Internally, the PU comprises several key components orchestrated around a central shared memory. This includes a cluster of 16 lightweight PEs (PE 0 through PE 15), which act as the primary engines for parallel computation. Data flows from the associated DRAM banks into the shared memory, which then serves as a high-speed scratchpad and data distri-bution hub for the PEs and other specialized execution units within the PU. Integral to the PU’s versatility is a dedicated Max/Min Engine, specifically designed to accelerate the core arithmetic patterns common to both APSP and sequence alignment. This engine is not a monolithic block but rather a collection of specialized sub-units accessible via the shared memory. It includes an APSP-subtract unit tailored for the difference calculations ( Dold − Dnew ) often used in graph algorithms, a Seq-additional Unit optimized for the simple additions (A + B) prevalent in sequence alignment scoring, and a generic max/min Unit for performing the fundamental max( A)
+
+or min( A) selections required by DP relaxation steps. This flexible hardware allows GenDRAM to efficiently execute diverse DP tasks without the overhead of general-purpose multipliers. Furthermore, each PU incorporates an inter-PU interconnect interface, featuring a data fusion unit and switch. This enables efficient communication and data aggregation between different PUs across the logic die, facilitating the complex data exchanges required by blocked algorithms like FW and the pipelined stages of the genomics workflow. 
+
+D. Process Elements 
+
+To efficiently handle the diverse computational requirements of genomic analysis and graph processing, GenDRAM em-ploys a heterogeneous PU design. In this research, the 32 PUs on the logic die are specialized into two types: search and compute PUs. Specifically, 8 PUs are dedicated as search PUs, while the remaining 24 PUs function as compute PUs. Each type of PU contains multiple specialized PEs tailored for their respective tasks. Compute PE ZSearch PE Control Logic Extractor PTR Access unit Bu �er Bu �er CAL unit Sorter Local Memory Control Logic Bu �er Bu �er Adder Sorter Local Memory Min/ Max unit 
+
+Fig. 9: Internal Architecture of Search PE (left) and Compute PE (right). Search PEs are optimized for rapid pattern match-ing and data extraction for the Seeding phase, while Compute PEs are designed for arithmetic and comparison operations crucial for dynamic programming and graph algorithms 
+
+Search PE - for seeding: Illustrated on the left side of Fig. 9, search PEs are specifically designed to accelerate the memory-intensive seeding phase of genomic alignment. The 
+
+seeding phase is characterized by irregular, latency-critical memory accesses and a high demand for data filtering. This memory-bound property makes it an ideal candidate for near-bank acceleration to filter massive datasets at the source. Consequently, the Search PE is designed with specialized logic to handle these properties: a pointer table(PTR) qccess unit and candidate alignment location(CAL) unit to accelerate the non-sequential table lookups [11], and an extractor and sorter to perform filtering. This design transforms the massive raw bandwidth of M3D DRAM into a stream of high-quality candi-date seeds, mitigating the bottleneck of transferring redundant data. 
+
+Compute PE - for alignment & APSP: Shown on the right side of Fig. 9, the alignment and APSP phases are compute-bound with high data locality. Both workloads rely on iterative updates (wavefront or pivot-based) where operands are reused extensively among neighboring cells. To exploit this regularity, the Compute PE functions as a lightweight arithmetic engine. It features a local memory to capture temporal data locality and minimize DRAM activation overhead, coupled with a reconfigurable adder/comparator to execute the core semi-ring operations ( min /+ or max /+) efficiently. This architecture leverages the massive parallelism of the PU array to handle the cubic complexity of DP workloads. IV. M3D DRAM M APPING AND EXECUTION 
+
+The performance of GenDRAM relies on a co-designed strategy that exploits the physical geometry of M3D DRAM. We decompose this into two orthogonal optimizations: Spatial optimization , which maps data structures to specific DRAM tiers and channels based on latency and bandwidth require-ments, and temporal optimization , which dynamically recon-figures the dataflow between Processing Units (PUs) to match the algorithmic structure of the workload. 7
+
+A. Spatial optimization: 3D-Aware Data Mapping 
+
+GenDRAM exploits the unique physical characteristics of M3D DRAM—specifically, the vertical latency variation and the massive horizontal parallelism—to optimize conflicting memory requirements. 
+
+1) Latency-critical mapping (tiering): As established in prior work on M3D DRAM [17], vertical layers exhibit linear latency variation due to the staircase wordline structure. Layers closer to the logic die have significantly lower tRCD compared to top layers. For the seeding phase of the genomics pipeline, memory access latency is the primary bottleneck, often accounting for 60%–80% of the total execution time in standard software aligners due to excessive pipeline stalls [12]. The seeding mechanism involves a dependent two-stage lookup: first ac-cessing the Pointer (PTR) table to find the bucket index, and subsequently retrieving coordinates from the Candidate Location (CAL) table [11]. This dependency chain creates a simplified random-access pattern that stalls execution if memory latency is high. To mitigate this, we map these latency-sensitive PTR and CAL tables (totaling ∼17GB) to the bottom-most Tier (Tier 0), which comprises the physical layers closest to the logic die. In our 1024-layer stack organized into 8 latency tiers, Tier 0 offers the lowest tRCD (2.29 ns). 
+
+2) Bandwidth-critical mapping (interleaving): For compute-bound tasks like APSP and genomic alignment, aggregate memory bandwidth is paramount. In this research, we employ a channel-interleaved mapping strategy to maximize parallelism across all the Compute PUs. As illustrated in Fig. 10, the mapping mechanism translates the logical coordinates of a matrix tile (i, j ) directly to a physical Compute PU ID. The mapping policy is defined by: Target PU = ( i × M + j) (mod C × G) (2) where M is the number of tiles per row, C is total number for the channel and G is number of bank-group per channel. This modulo-based distribution ensures that logically adjacent tiles—such as A00 (pink) and A01 (orange) in the figure—are mapped to distinct physical PUs (PU0 and PU4, respectively). Consequently, during wavefront propagation where neighbor tiles are accessed simultaneously, requests are naturally dis-tributed across groups of banks and PUs. This eliminates bank conflicts and allows the system to fully saturate the M3D DRAM’s internal bandwidth. 
+
+B. Temporal optimization: reconfigurable execution flow 
+
+The logic die controller dynamically reconfigures the inter-actions between PUs to match the distinct dataflow patterns of the target applications. 
+
+1) Mode 1: Homogeneous systolic broadcast (APSP): For APSP, the workload is uniform and compute-bound. Gen-DRAM configures the PU array into a homogeneous parallel mode , utilizing the set of Ncomp specialized Compute PUs. The inter-PU interconnect functions as a broadcast network to support the Blocked FW algorithm. The execution of each super-step proceeds in three synchronized phases (Fig. 11): 1) Pivot update: A single PU updates the pivot block Akk .A10  A11  A12  A13                     
+
+> A00 A01 A02 A03
+> A20 A21 A22 A23
+> A30 A31 A32 A33
+> Logical Distance Matrix
+> (NxN divide to BxB Tiles)
+> Mapping Policy:
+> Dij = ( i×M+ j) (mod CxG)
+> M
+> i:row index / j:column index
+> M:Number of tiles per row
+> C:Total number of channels
+> G:Number of bank -groups per channel
+
+Fig. 10: Illustration of the Logical-to-Physical Mapping Mech-anism for APSP. The distance matrix is logically partitioned into tiles and distributed across the Compute PUs using a modulo-based policy shown in the equation. This mechanism ensures that logically adjacent tiles are mapped to distinct PU, enabling conflict-free parallel access 2) Row/Column broadcast: The updated pivot block is broadcast via the Ring Router (128 GB/s) to all other PUs. This allows Ncomp PUs to update their respective pivot row/column blocks in parallel. 3) Systolic update: Updated row/column blocks are prop-agated to all PUs. The array operates as a distributed systolic system, performing the O(N 3) internal updates (Aij ) in parallel without stalling for memory access. PUc  PUc  PUc  PUc                                          
+
+> PUc PUc PUc PUc
+> Akk
+> Akk update itself
+> PUc PUc PUc PUc
+> PUc PUc PUc PUc
+> Broadcast Akk to other 23 PUf then update
+> to compute Akj , Aik
+> PUc PUc PUc PUc
+> PUc PUc PUc PUc
+> Broadcast Akj , Aik to other 23 PUf then update to compute Aij
+> PUc PUc PUc PUc
+> PUc PUc PUc PUc
+> PUc PUc PUc PUc
+> PUc PUc PUc PUc
+> PUc PUc PUc PUc
+> PUc PUc PUc PUc
+> (2)
+> (3)
+> (1)
+> PUc :Compute PU
+
+Fig. 11: Homogeneous scheduling for APSP. The interconnect facilitates broadcasting of pivot data to synchronize parallel updates across Ncomp Compute PUs 
+
+2) Mode 2: Heterogeneous Pipelining (Genomics): For ge-nomics, the workload is composed of distinct memory-bound (Seeding) and compute-bound (Alignment) stages. GenDRAM reconfigures the array into a Heterogeneous pipeline mode 
+
+(Fig. 12), partitioning the resources into Nsearch Search PUs and Ncomp Compute PUs:  
+
+> •
+
+Producer stage (Search PUs): The Nsearch Search PUs operate as a high-throughput front-end. They continu-ously fetch reads and perform latency-sensitive index lookups in the fast DRAM tiers to generate candidate locations. 8 
+
+> •
+
+Consumer stage (Compute PUs): The Ncomp Compute PUs act as the back-end. They receive candidate metadata via the interconnect and perform the compute-heavy banded alignment. This pipelined handoff effectively decouples the two stages. By balancing the throughput of Nsearch Search PUs with 
+
+Ncomp Compute PUs, the latency of the memory-bound seed-ing phase is entirely hidden behind the alignment computation, ensuring high utilization of the compute resources. PUc  PUc                                     
+
+> PU sPU sPU sPU s
+> PU sPU sPU sPU s
+> PUc PUc
+> PU sprioritized
+> candidate
+> locations
+> PUc
+> PU sPU sPU sPU s
+> PU sPU sPU sPU s
+> Host
+> Search PU : Find CAL/ PTR table
+> (1) (2)
+> (3)
+> Compute PU : Parallel Alignment
+> PUc PUc PUc PUc
+> PUc PUc PUc PUc
+> PUc PUc PUc PUc
+> PUc PUc PUc PUc
+> PUc PUc PUc PUc
+> PUc PUc PUc PUc
+> PUc PUc PUc PUc
+> PU s: Search PU
+> PUc : Compute PU
+
+Fig. 12: Heterogeneous pipeline Scheduling for genomics. Search PUs (producer) stream candidate locations to Compute PUs (consumer), overlapping memory-bound seeding with compute-bound alignment V. E VALUATION 
+
+Our comprehensive evaluation,detailed in this section, demonstrates that GenDRAM delivers large benefits in per-formance and efficiency while adhering to strict physical constraints. Specifically, it achieves up to 67 × and 22 ×
+
+speedup for APSP and genomic alignment, respectively, com-pared to the NVIDIA A100 GPU. This high throughput is achieved within a sustainable thermal envelope. Simulation results indicate an average power consumption of only 31.2 W for the complex bioinformatics pipeline and 10.2 W for APSP. These values are well within the thermal budget of passively cooled 3D stacks, validating the physical feasibility of our monolithic design. GenDRAM also has superior energy efficiency, outperforming the A100 baseline by 152 × and the domain-specific RapidGraph [23] accelerator by 20 ×. The following subsections detail our methodology, followed by an in-depth analysis of performance, energy efficiency and area constraints, sensitivity & scalability analysis, followed by the discussion on overhead. 
+
+A. Experimental setup 1) Datasets : We evaluate the architecture using two dis-tinct sets of workloads. For the APSP evaluation, three real-world graph datasets were selected from the SNAP collec-tion [24] and OpenStreetMap [25] to ensure robustness across diverse topologies and scales. These include the ca-GrQc 
+
+collaboration network ( N =5,242) and the p2p-Gnutella08 
+
+peer-to-peer network (p2p)( N =6,301) [24], alongside a sig-nificantly larger road network graph, Open Street Map (OSM)( N =65,536) [25]. This selection facilitates a compre-hensive scalability analysis of GenDRAM against conventional accelerators on graphs with fundamentally different structures. For genomic sequence alignment, all synthetic reads are aligned against the GRCh38 human reference genome [26]. Short-read datasets are generated using the Mason simula-tor [27] to mimic Illumina reads with a 5% error rate. Long-read datasets are generated using the PBSIM simulator [28] to model high-error-rate technologies, specifically PacBio reads with a 15% error rate and ONT reads with a 30% error rate. 
+
+2) Measured Baselines : We compare our simulated results to physical measurements of both APSP workloads, while we ran Minimap2 [29], [30] and GASAL2 [31] aligners by measuring on an Intel Xeon CPU and an NVIDIA A100 GPU [32]. Furthermore, we include projected performance for the NVIDIA H100, where estimates are analytically ex-trapolated based on the architectural bandwidth and compute throughput scaling factors reported in detailed benchmark-ing studies [33], [34], representing state-of-the-art GPU with 2.0 TB/s HBM2e bandwidth running GASAL2 graph algo-rithms [31] and minimap2 sequence aligner [29], [35]. 
+
+3) Simulated Accelerator Baselines : Here you list all the accelerators you compared to for APSP, short and long reads. 4) GenDRAM Configuration & Evaluation : GenDRAM features a 32 GB, 1024-layer M3D DRAM stack integrated with a 7nm logic die [17]. As detailed in Table I, the memory system utilizes a 35 nm feature size and is organized into 16 channels per chip with a high-bandwidth interface mirroring HBM3. Crucially, the stack is partitioned into 8 tiers, each providing 4 GB of storage with varying row-to-column delays (tRCD ). This tiered structure is fundamental to the latency optimization strategy discussed in Section IV-A1, allowing latency-critical seeding data to be mapped to faster physical layers. The GenDRAM logic processor, comprising 32 PUs (8 Search and 24 Compute) operating at 1 GHz, is modeled in Verilog and synthesized using Synopsys design compiler on a 45nm process node [12], with metrics subsequently scaled to a 7nm technology node similar to [17]. The computing fabric utilizes a 32-bit fixed-point format for APSP while retaining compatibility with 5-bit operations for difference-based align-ment [12], supported by on-chip SRAMs characterized using FinCACTI [36]. 
+
+GenDRAM evaluation is done using a cycle-accurate sim-ulator. The functional behavior of the core PEs is implemented in Verilog. To derive realistic physical parameters, the on-chip SRAM components, such as the shared memory within each PU, are modeled using FinCACTI [36], calibrated with publicly available 7nm SRAM data. The area and energy metrics for the specialized, multiplier-less Compute PEs and the pipeline-based Search PEs are estimated based on synthesis reports scaled to 7nm [17], [12]. To evaluate the performance, power, and area (PPA) of our proposed GenDRAM accelerator, we developed a detailed, cycle-accurate simulator derived based on previous work [17]. The simulator models our heterogeneous NMP architecture, including the multi-level scheduling and data mapping strate-gies discussed previously. PPA metrics are rigorously eval-9
+
+TABLE I: GenDRAM M3D DRAM Device and System Pa-rameters (Final Stable Structure) 
+
+M3D DRAM Device Parameter 
+
+Layers 1024 Feature Size 35 nm BL/WL Pitch 70 nm/1 um Staircase Pitch 500 nm MAT Size 1k × 1k #MATs/Bank 32 × 32 
+
+Bank Storage 1 Gb Bank Area 0.44 mm 2
+
+Row Buffer 32 Kb Energy/bit 0.429 pJ Chip Area 121 mm 2 Chip Storage 32 Gb 
+
+M3D DRAM System Parameters 
+
+Tier Design 8 tiers; 4Gb storage per tier Organization 16 Channels per chip (64b data I/O per channel); 16 banks per channel. DRAM Timing 
+
+tRCD = [2.29, 3.92, 5.99, 8.50, 11.44, 14.82, 18.63, 22.88] ns; 
+
+tRP = 4.77 ns; tRAS = tRCD + 27.5 ns; 
+
+tRC = tRP + tRAS 
+
+CPU-DRAM I/F 1024b data I/Os; 6.4 Gbps per pin (same as HBM3) 
+
+uated through a multi-stage methodology: area is extracted from synthesis reports, energy is quantified via post-synthesis simulations with annotated switching activity, and end-to-end execution cycles are determined by an in-house cycle-accurate Python simulator that models detailed data mapping and scheduling policies. Energy consumption is determined through the simulations, which track the activity of each hardware component. The energy metrics for fundamental operations (e.g., a 16-bit addition) and memory accesses are derived from literature and synthesis reports, and the total energy is accumulated based on the switching activity for a given workload. Execution cycles, on-chip communication cycles, and associated latency metrics are derived directly from the in-house simulator. The simulator is designed to be highly configurable, taking as input the graph size and structure for APSP, or the batch of query reads and their lengths for genomic alignment. It also models the detailed data mapping and the heterogeneous pipeline scheduling policies discussed in Section IV. As output, the simulator provides the overall end-to-end execution time, as well as detailed PPA breakdowns at the component level for each application, enabling a comprehensive analysis of the GenDRAM architecture. 
+
+B. GenDRAM APSP performance and energy efficiency 1) GenDRAM APSP performance: We conducted a series of simulations using the blocked FW algorithm to evaluate the performance of the GenDRAM accelerator for APSP problems. Fig. 13 shows comparison of GenDRAM, with measurements on NVIDIA A100 GPU and estimates on H100 and the ReRAM-based PIM accelerator RapidGraph [23]. The results demonstrate a transformative performance im-provement for GenDRAM. As shown in the left panel of Fig. 13, on the large-scale OpenStreetMap (OSM) dataset, GenDRAM achieves a staggering ˜68 × speedup over the A100 and a ˜11.3 × speedup over the H100. This massive gain is a direct consequence of the PIM architecture resolving the memory wall bottleneck, preventing the stall cycles that keep GPU cores idle for over 60% of execution time [5]. Moreover, GenDRAM outperforms RapidGraph ,which achieves ∼49 ×,ca-GrQc p2p OSM                  
+
+> APSP Time (Dataset)
+> 10 0
+> 10 1
+> 10 2
+> 10 3
+> Speedup (relative to A100)
+> 1.0x 1.0x 1.0x
+> 6.1x 6.0x 5.9x
+> 28x 36x 49x
+> 69x 66x 68x
+> 1000 10000 65536
+> Node Scaling (Nodes)
+> 10 0
+> 10 1
+> 10 2
+> 10 3
+> 1.0x 1.0x 1.0x
+> 5.7x 5.5x 5.4x
+> 4.1x
+> 62x
+> 311x
+> 5.0x
+> 63x
+> 324x
+> A100 H100 RapidGraph GenDRAM
+
+Fig. 13: GenDRAM performance comparison for APSP by approximately 1.4 ×. This advantage stems from the un-derlying memory technology: while ReRAM-based solutions like RapidGraph suffer from high write latency during the frequent Dij updates inherent to APSP, GenDRAM’s DRAM-based substrate handles these write-intensive operations with significantly lower latency. The right panel of Figure 13 illustrates how this perfor-mance gap scales with problem size. As the number of nodes increases from 1,000 to 65,536, the advantage of GenDRAM widens dramatically, reaching a peak speedup of ˜324 × over the A100 at N=65,536. Notably, while RapidGraph also scales well ( ∼311 ×), GenDRAM maintains a consistent lead. This validates that GenDRAM is not only exceptionally fast but also highly scalable, leveraging the massive internal bandwidth of M3D DRAM to efficiently handle the O(N 3) computational load without the write-penalty bottlenecks of non-volatile memories. ca-GrQc                    
+
+> (N=5242)
+> p2p
+> (N=6301)
+> OSM
+> (N=8192)
+> 10 0
+> 10 1
+> 10 2
+> 10 3
+> 10 4
+> Energy Efficiency (relative to A100)
+> 1x 1x 1x
+> 4.8x 4.6x 4.3x
+> 138x 153x 177x
+> 2837x 2793x 3442x
+> APSP Energy Efficiency
+> Node=1000 Node=10000 Node=65536
+> 10 0
+> 10 1
+> 10 2
+> 10 3
+> 10 4
+> Energy Efficiency (relative to A100)
+> 1x 1x 1x
+> 4.9x 4.4x 3.7x
+> 53x
+> 198x
+> 575x
+> 2646x 3442x 3688x
+> Node Energy Efficiency
+> A100 H100 RapidGraph GenDRAM
+
+Fig. 14: Energy efficiency for APSP under different node dataset 
+
+2) GenDRAM APSP energy efficiency: We evaluated Gen-DRAM’s energy efficiency on the O(N 3) APSP algorithm, with results shown in Fig. 14. Normalized to the A100 GPU baseline, GenDRAM achieves transformative efficiency im-provements ranging from 2,837 × for ca-GrQc to 3,442 × for 
+
+OpenStreetMap , maintaining this advantage as the problem size scales to 3,688 × at N=65536. This performance stands in stark contrast to the estimated H100 baseline, which only provides 3.7 × to 4.9 × improvement. Furthermore, compared to the ReRAM-based PIM accelerator RapidGraph [23], which achieves notable gains of 138 × to 575 × over the A100, GenDRAM still delivers an approximately 20 × higher efficiency. This divergence stems from fundamental architec-10 
+
+tural characteristics: while GPUs are bottlenecked by the high energy cost of off-chip data movement, RapidGraph is con-strained by the significant energy penalty of writing to ReRAM devices and the overhead of analog-to-digital conversion re-quired for write-intensive APSP updates. GenDRAM achieves the highest efficiency by combining low-power digital logic PEs with 3D DRAM, effectively eliminating off-chip traffic entirely while avoiding the write-energy penalties inherent to ReRAM technologies. 
+
+C. GenDRAM alignment performance and energy efficiency 
+
+GenDRAM sequence alignment performance: To pro-vide a comprehensive evaluation, we benchmark GenDRAM against a diverse set of baselines. All performance results are normalized to Minimap2 [29], a widely-used software aligner running on an Intel Xeon CPU MAX 9460 (8 cores), which serves as the 1.0 × baseline. For hardware accelera-tion comparisons, we utilize the NVIDIA A100 and H100 GPUs running state-of-the-art libraries: GASAL2 [31] for short reads and minimap2 [35] for long reads. Additionally, we include domain-specific accelerators, including the ASIC-based ABSW [37] and the ReRAM-based RAPIDx [12], to show GenDRAM’s performance against specialized hardware. The end-to-end performance of GenDRAM was evaluated using the GRCh38 human reference genome, separating exe-cution into memory-intensive seeding and compute-intensive alignment phases. While the NVIDIA A100 baseline is con-strained by RAM latency during seeding, accounting for two-thirds of execution time, GenDRAM successfully removes this bottleneck. By leveraging dedicated Search PUs and 3D-aware tiered memory, GenDRAM accelerates seeding by approximately 138 ×, shifting the critical path to alignment, where specialized Compute PEs still deliver an 8.5 × speedup. Consequently, GenDRAM achieves an aggregate performance improvement of over 22 × relative to the A100 and 11 × vs the H100. Performance on short reads, illustrated in Fig. 15, shows that relative to the CPU baseline, GenDRAM achieves orders-of-magnitude improvement. When compared to the highly optimized GPU baselines, it achieves average throughputs approximately 45 × and 23 × higher than the A100 (running GASAL2) and H100, respectively. This significant lead results from the inefficiency of general-purpose GPU architectures in handling latency-sensitive, high-overhead short-read work-loads. GenDRAM resolves these limitations through its fully integrated pipeline, where dedicated Search PUs eliminate the seeding memory bottleneck and streamlined Compute PEs efficiently handle alignment. For long reads (Fig. 16), the performance gap narrows as the workload becomes increasingly compute intensive, allowing GPUs to amortize overhead more effectively. Nevertheless, GenDRAM maintains a commanding lead with an average speedup of approximately 20 × over the A100, ranging from 29 × for 2kbp reads to 14 × for 10kbp reads. These results vali-date the efficacy of GenDRAM’s architecture, which leverages massive internal bandwidth and near-memory computation to effectively overcome the distinct bottlenecks inherent to both 100bp 150bp 250bp average      
+
+> Sequence Length
+> 10 4
+> 10 5
+> 10 6
+> 10 7
+> 10 8
+> 10 9
+> Throughput (reads/s)
+> 1.0x
+> 1.0x
+> 1.0x
+> 1.0x
+> 90.9x
+> 64.9x
+> 65.8x
+> 73.9x
+> 113x
+> 79.8x
+> 81.6x
+> 91.4x
+> 129x
+> 129x
+> 135x
+> 131x
+> 35.6x
+> 35.6x
+> 35.6x
+> 35.6x
+> 2,087x
+> 2,085x
+> 2,084x
+> 2,085x
+> minimap2+CPU GASAL2+A100 GASAL2+H100 RapidX AlignerD GenDRAM
+
+Fig. 15: Alignment throughput comparison of GenDRAM, RAPIDx [12], GASAL2 [31], AlignerD [38] and Minimap2 acceleration [35] for short reads 2kbp 4kbp 6kbp 8kbp 10kbp average     
+
+> Sequence Length
+> 10 4
+> 10 5
+> 10 6
+> 10 7
+> Throughput (reads/s)
+> 1.0x
+> 1.0x
+> 1.0x
+> 1.0x
+> 1.0x
+> 1.0x
+> 33.7x
+> 38.8x
+> 41.6x
+> 55.2x
+> 72.0x
+> 44.5x
+> 41.8x
+> 48.2x
+> 51.6x
+> 68.5x
+> 89.3x
+> 55.2x
+> 5.3x
+> 3.6x
+> 2.5x
+> 1.9x
+> 1.4x
+> 3.3x
+> 374x
+> 443x
+> 491x
+> 685x
+> 927x
+> 529x
+> ABSW minimap acce+A100 minimap acce+H100 RapidX GenDRAM
+
+Fig. 16: Alignment throughput comparison of GenDRAM, RAPIDx [12], GASAL2 [31], and Minimap2 acceleration [35] for long reads short-read (latency-bound) and long-read (compute-bound) workloads. Beyond GPU comparisons, GenDRAM demonstrates dis-tinct advantages over state-of-the-art domain-specific acceler-ators across both workload regimes. For short reads, we com-pare GenDRAM against RAPIDx [12] (ReRAM-based PIM) and Aligner-D [38] (DIMM-based PIM). As shown in Fig. 15, GenDRAM achieves approximately 15 × higher throughput than RAPIDx and over 50 × higher than Aligner-D. The per-formance gap with RAPIDx stems primarily from system-level integration: while RAPIDx optimizes the alignment kernel, its ReRAM capacity constraints force the memory-intensive seed-ing stage to be offloaded to the host, creating a communication bottleneck. GenDRAM’s high-capacity 3D DRAM enables the entire pipeline to execute on-chip, eliminating this overhead. Similarly, Aligner-D is constrained by the standard DIMM interface bandwidth, whereas GenDRAM exploits the massive internal bandwidth of hybrid bonding. For long reads, we benchmark against the ASIC-based ABSW [37] and GenASM [39]. GenDRAM outperforms ABSW by approximately 45 × (Fig. 16). This advantage is driven by memory capacity. ABSW relies on limited on-chip SRAM, necessitating complex tiling and frequent off-chip data spills when processing long sequences. In contrast, Gen-DRAM’s 3D DRAM stack provides ample capacity to store large wavefronts and traceback tables locally, maintaining high throughput even as sequence length increases. 
+
+GenDRAM sequence alignment energy efficiency: Fig. 17 11 minimap2+CPU       
+
+> GASAL2+A100
+> GASAL2+H100
+> RapidX
+> AlignD
+> GenDRAM
+> 10 2
+> 10 1
+> 10 0
+> 10 1
+> 10 2
+> 10 3
+> 10 4
+> 10 5
+> Energy Efficiency
+> 1.0x
+> 64.6x 45.7x
+> 4,450x 1,888x
+> 23,386x
+> Short Reads Energy Efficiency
+> ABSW
+> minimap acce+A100
+> minimap acce+H100
+> RapidX
+> GenDRAM
+> 10 1
+> 10 0
+> 10 1
+> 10 2
+> 10 3
+> Energy Efficiency
+> 7.5x
+> 1.0x 0.71x
+> 2.9x
+> 152x
+> Long Reads Energy Efficiency
+> minimap2+CPU
+> GASAL2+A100
+> GASAL2+H100
+> RapidX
+> AlignD
+> GenDRAM
+> ABSW
+> minimap acce+A100
+> minimap acce+H100
+
+Fig. 17: Energy efficiency of short and long reads presents the energy efficiency of our GenDRAM architecture compared to various CPU, GPU, and PIM-based baselines for both short-read and long-read genomic alignment. For short-read alignment (left), results are normalized to the 
+
+minimap + CPU baseline (1.0 ×). Our proposed GenDRAM architecture demonstrates superior energy efficiency, achiev-ing 23386 × that of the CPU baseline. This performance significantly outperforms other PIM-based accelerators like 
+
+RapidX (68.9 ×) and AlignerD (29.2 ×). In contrast, the 
+
+GASAL2+H100 configuration (0.71 ×) and the CPU-based 
+
+minimap2 (0.02x) show substantially lower energy effi-ciency. A similar trend is observed for long-read alignment (right), where results are normalized to the minimap acce+A100 
+
+baseline (1.0 ×). GenDRAM achieves a 152 × improvement in energy efficiency. This result surpasses other specialized hard-ware accelerators, including ABSW (7.5 ×) [37] and RapidX 
+
+(2.9 ×), as well as the minimap acce+H100 (0.71 ×). This superior efficiency is primarily driven by the minimization of system-level data movement. Unlike the GPU baseline, which incurs substantial energy overhead transferring data between HBM and compute units, GenDRAM leverages in-situ computation to eliminate off-chip memory traffic. Further-more, compared to domain-specific accelerators like RAPIDx and ABSW, GenDRAM avoids the energy-intensive host-device communication bottlenecks caused by on-chip capacity constraints. By integrating the massive capacity of Monolithic 3D DRAM, GenDRAM retains the entire execution context on-chip, thereby removing the costly I/O overhead that limits prior designs. 
+
+D. GenDRAM Power, area and thermal Considerations 
+
+The GenDRAM logic die, implemented on the 7nm process, integrates a heterogeneous array of 32 PUs (8 search and 24 compute PUs) operating at 1 GHz, with detailed specifications listed in Table II. The physical implementation results are detailed in Fig. 18, providing a comprehensive breakdown of both area and power consumption. 
+
+Area brakedown is shown in Fig. 18(1). The silicon footprint is dominated by the light orange region repre-senting the Compute PUs, which occupy 92.7% of the total processor area. This massive allocation is driven by the need for substantial on-chip SRAM (visible as the grey blocks 
+
+labeled shared mem. within the PU breakdown) to cache data blocks during compute-bound tasks. In contrast, the Search PUs, shown in dark orange , utilize minimal buffering (8 KB) and occupy a negligible fraction of the area. The remaining logic die area comprises standard interfaces, dominated by the green Physical Layer (PHY) block. The PHY, occupying 36.2% of the die, contains the essential transceiver circuitry required to drive the high-density hybrid bonding interconnects that link the logic die to the memory stack. Together with the light blue peripheral blocks, these interfaces consume approximately 58% of the total die, reflecting the high silicon cost of sustaining massive vertical bandwidth. 
+
+Power breakdown is shown in Fig. 18(2). For the bioin-formatics workload (left bar), the vast light blue region 
+
+reveals that 72.0% of power is consumed by DRAM access, highlighting the cost of streaming massive genomic databases. Conversely, the APSP workload (right bar) is dominated by the light green region (91.0% ), which represents on-chip memory power. This distinct shift confirms that APSP effectively utilizes the local SRAM to minimize expensive DRAM access. Notably, in both workloads, the pink regions 
+
+representing active computation account for less than 1% of total power, reinforcing that data movement—whether off-chip (sequence alignment) or on-chip (APSP)—is the primary energy bottleneck. 
+
+Fig. 18: (1) Area breakdown of logic die processor; (2) Power breakdown of GenDRAM logic die at peak performance TABLE II: GenDRAM Logic Die Processor Specification 
+
+Processing Element (PE) 
+
+Core Logic Adder Comparator Tiering Table 8 x 32bit Registers Compute PE Buffer 32KB SRAM Search PE Buffer 8 KB SRAM 
+
+Processing Unit (PU) 
+
+#PEs 16 Ring Router Link 128 GB/s Shared Memory 256 KB SRAM 
+
+GenDRAM Processor 
+
+Basic 7 nm process; 0.7 V supply; 105 mm 2 die area; Int32/Int5 format SRAM Capacity 19.5 MB Peak Power 31.22W Aggregated On-chip Ring Bandwidth 4.096 TB/s Aggregated M3D DRAM Bandwidth 19.01-34.34 TB/s 
+
+In terms of power and performance, GenDRAM demon-12 
+
+strates high efficiency, with average power consumption of 31.2 W for the bioinformatics pipeline and 10.15 W for APSP, remaining well within the thermal budget of a PIM system [40], [41]. Power dissipation is workload-dependent: the bioinformatics workload is dominated by massive parallel DRAM accesses during seeding, whereas APSP is governed by energy-efficient SRAM accesses (0.007 nJ/access for local memory). Efficiency is further enhanced by multiplier-less PEs and a programmable tiering table that dynamically manages access latencies across DRAM layers. A high-speed on-chip ring network providing 128 GB/s per link facilitates the deep pipelining for bioinformatics and broadcasting for APSP, validating the architecture’s significant performance-per-watt advantage [17], [12]. 
+
+E. Sensitivity and scalability analysis 
+
+In this section, we expand beyond baseline performance metrics to conduct a comprehensive design space exploration, validating the robustness of GenDRAM’s architectural deci-sions against physical constraints. We focus on quantifying the impact of three critical hardware trade-offs: the non-uniform latency of the 3D stack, the partitioning of heterogeneous processing resources, and the sizing of on-chip local memory. Our analysis first highlights the efficacy of the proposed 3D-aware mapping strategy, demonstrating that prioritizing latency-critical data for bottom tiers is imperative to hide the access penalty of upper DRAM layers, thereby recovering performance levels comparable to idealized uniform-latency memory. Furthermore, regarding resource partitioning, our sweep of Processing Unit (PU) configurations validates that the selected ratio of 8 Search PUs to 24 Compute PUs represents the sweet point. This specific configuration perfectly balances the throughput of the memory-bound Seeding phase and the compute-bound Alignment phase, minimizing pipeline stalls to maximize end-to-end utilization. 
+
+1) Tiering and latency heterogeneity in M3D DRAM :
+
+A fundamental physical characteristic of the aggressively scaled, 1024-layer M3D DRAM is the significant variation in access latency across its vertical layers. As detailed in the Stratum paper and illustrated in our background section, this latency heterogeneity stems from the wordline (WL) staircase structure required for routing [17]. WLs routed to layers farther from the logic die must traverse a longer path with a greater number of metal segments, leading to a linear increase in resistance and capacitance (RC) delay [17]. Our simulation model, configured with the parameters from Table I, faithfully captures this effect. The row-to-column delay (tRCD ) ranges from just 2.29 ns for the fastest tier to 22.88 ns for the slowest tier. When considering the full row access latency (tRC = tRP + tRAS )), this translates to a significant performance differential. The fastest tier can complete a full row access in approximately 34.56 ns, while the slowest tier requires 55.15 ns [17]. This confirms that the fastest tier provides nearly 1.6x faster memory access than the slowest tier, a key characteristic that our data mapping strategy is designed to exploit [17]. Rather than being a limitation, we leverage this predictable latency variation by mapping latency-sensitive data structures, such as the PTR and CAL tables for Seeding, to the faster, lower tiers, thereby optimizing the end-to-end pipeline performance. To quantify the impact of this 3D-aware mapping strategy, we performed a sensitivity analysis comparing GenDRAM against two extreme baselines, as shown in Fig. 19. The 
+
+Uniform Worst-Case (All Tier 7) baseline assumes a naive mapping where all memory accesses incur the maximum latency of the top-most layer (55.15 ns), representing a stan-dard architecture unaware of vertical variation. Conversely, the Uniform Best-Case (All Tier 0) represents a theoretical upper bound where the entire memory stack operates at the speed of the bottom-most layer (34.56 ns). Results demonstrate that the naive ”All Tier 7” mapping degrades performance significantly, serving as the 1.0 × baseline. GenDRAM’s tier-aware approach achieves speedups of approximately 1.58 ×,recovering nearly 98% of the performance of the idealistic ”All Tier 0” case (1.60 ×). This confirms that our software-hardware co-design effectively hides the latency penalties of the upper layers. By pinning the latency-critical Pointer (PTR) and Candidate Location (CAL) tables to Tier 0, GenDRAM ensures that the frequent random accesses in the Seeding phase are serviced with minimal delay, while the bandwidth-bound streaming data (which is less sensitive to latency) utilizes the upper capacity. ca-GrQc p2p OSM         
+
+> 0.00
+> 0.25
+> 0.50
+> 0.75
+> 1.00
+> 1.25
+> 1.50
+> 1.75
+> 2.00
+> Normalized Performance
+> 1.00x 1.00x 1.00x
+> 1.58x 1.57x 1.55x
+> 1.60x 1.60x 1.60x
+> All Tier7 GenDRAM (Tier-Aware) All Tier0
+
+Fig. 19: Different mapping strategy speedup 
+
+2) Resource Partitioning: Search vs. Compute PUs : Given the fixed silicon area of 105 mm 2, a critical architectural trade-off involves partitioning resources between the heterogeneous Search PUs (for memory-bound Seeding) and Compute PUs (for compute-bound Alignment/APSP). We explored the de-sign space by sweeping the ratio of a fixed 32-PU cluster. A search and heavy configuration (e.g., 16 Search / 16 Compute) accelerates the seeding phase but creates a severe bottleneck in the subsequent alignment phase, leaving search PUs idle once the buffer fills and degrading end-to-end throughput. Conversely, a compute and heavy configuration (e.g., 4 Search / 28 Compute) maximizes theoretical peak performance for APSP but starves the pipeline during genomic workloads, as the few Search PUs cannot produce candidate seeds fast enough to keep the massive compute array busy. Our analysis, shown on Fig. 20, identifies the 8 Search PUs to 24 Compute PUs ratio as the sweet point. This 1:3 ratio aligns with the workload characteristics where Seeding accounts for roughly 13 
+
+25-30% of the pipeline latency in our accelerated model, ensuring a balanced producer-consumer flow that maximizes overall system utilization without wasting silicon area on idle units. 4S/28C 8S/24C 12S/20C 16S/16C 20S/12C 24S/8C 28S/4C  
+
+> PU Configuration (Specialized / Cores)
+> 0
+> 2
+> 4
+> 6
+> 8
+> End-to-End Genomics Throughput
+> (Speedup)
+> Genomics (End-to-End) APSP (General Compute)
+> 0
+> 20
+> 40
+> 60
+> 80
+> 100
+> APSP Throughput
+> (Ops/sec Normalized)
+
+Fig. 20: Different configuration strategy speedup 
+
+3) System-level pipeline configurations analysis : To quan-tify the system-level bottlenecks inherent in traditional and hybrid computing models, we evaluated three distinct pipeline configurations for the genomics workflow. The end-to-end performance results, shown in Fig. 21, compare a Minimap2-CPU [29], a hybrid model where seeding is performed on the host CPU and alignment is offloaded to GenDRAM, and the fully integrated GenDRAM design. The Minimap2-CPU baseline establishes the reference per-formance (1.00 ×). Profiling of this workload reveals that execution time is split between the memory-intensive Seeding stage (∼30%) and the compute-intensive alignment stage (∼70%) [29], [31]. In the GenDRAM Hybrid model, we offload only the alignment stage to the accelerator while retaining seeding on the host CPU. Despite GenDRAM’s massive compute capability, this configuration achieves only a 3.40 × speedup. The unaccelerated seeding stage on the host becomes the dominant bottleneck. Specifically, while GenDRAM processes the alignment rapidly, it remains idle for approximately 90% of the total execution cycles, waiting for the slower CPU to produce seeds. This highlights the inefficiency of moving data across the PCIe bus and splitting the pipeline. The fully integrated GenDRAM approach (green bar) over-comes this bottleneck by executing the entire pipeline on-chip. By accelerating both seeding (via Search PUs) and alignment (via Compute PUs) within the PIM architecture, we eliminate the host serialization point. This results in a 100 × speedup over the CPU baseline and a 29 × improvement over the Hybrid model. This quantitative gap validates our core the-sis: true acceleration for complex genomic pipelines requires eliminating host-accelerator communication and processing all stages near memory. 
+
+4) GenDRAM PU and PE performance tradeoffs : To contextualize the scaling analysis, we briefly recapitulate the GenDRAM logic die architecture. The processor is organized as a cluster of PUs, serving as the top-level building blocks. Each PU couples a dedicated local SRAM (512 KB) with GenDRAM GenDRAM Hybrid Minimap2-CPU 
+
+> Configuration
+> 10 0
+> 10 1
+> 10 2
+> Speedup (relative to CPU-only)  100.00 x
+> 3.40 x
+> 1.00 x
+
+Fig. 21: Sequence alignment configurations performance a systolic array of PEs, the fundamental arithmetic units responsible for executing the massive parallel operations. Building on the resource partitioning analysis in Sec-tion V-E2, which established the 1:3 ratio (8 Search PUs to 24 Compute PUs) as the best configuration for balancing the seeding and alignment pipeline stages, we now evaluate the scalability of the total system size while maintaining this optimal ratio. We performed a design space exploration simulating con-figurations with 16, 24, 32, and 64 PUs across genomics and APSP workloads. As illustrated in Fig. 22, the results reveal a clear trade-off between computational parallelism and memory system limitations. For the compute-bound genomics pipeline, performance scales well, with relative performance nearly doubling from 16 to 32 PUs (0.51 × to 1.00 ×) and reaching 1.36 × with 64 PUs. Similarly, the APSP workload demonstrates significant performance improvement, more than doubling from 0.48 × with 16 PUs to 1.00 × with 32 PUs, identifying 32 PUs as the optimal design point. The selection of 32 PUs is architecturally driven to match the parallelism of the underlying M3D DRAM, which is organized into 32 independently accessible bank-groups. A 16-PU configuration would underutilize the memory system, leaving half of the available memory bandwidth idle. Con-versely, scaling to 64 PUs leads to diminishing returns due to memory contention; with 64 PUs competing for only 32 parallel memory pathways, memory access becomes the system bottleneck, causing processor stalls. Therefore, 32 PUs represents the architectural sweet spot at the chip level. In addition to the chip-level PU count, the number of PEs within each PU is a critical microarchitectural design choice. We selected 16 PEs per PU to co-design the internal compute fabric with the data access granularity of the DRAM system. A single DRAM row activation provides a wide data block of 8192 bits, which corresponds directly to the vector size of our key algorithms, such as a 256-element row in an APSP tile (256 elements × 32 bits). A cluster of 16 PEs is perfectly sized to process this 8192-bit data vector in parallel, with each PE handling a 512-bit slice. While hypothetically increasing the PE count to 32 or 64 might enhance raw computational throughput, such a design encounters severe bottlenecks in physical area and intra-PU bandwidth. Scaling the PE count causes unsustainable growth in PU area, driven by the tightly coupled 32KB local SRAMs; doubling PEs to 32 would nearly double the total PU area, making it impossible to integrate the required 24 Compute 14 8 16 32 64     
+
+> Number of PEs
+> 0.00
+> 0.25
+> 0.50
+> 0.75
+> 1.00
+> 1.25
+> 1.50
+> 1.75
+> 2.00
+> Speedup Performance
+> 0.50x
+> 1.00x
+> 1.35x
+> 1.48x
+> 0.40x
+> 1.00x
+> 1.14x
+> 1.26x
+> 16 24 32 64
+> Number of PUs
+> 0.51x
+> 0.76x
+> 1.00x
+> 1.36x
+> 0.48x
+> 0.63x
+> 1.00x
+> 1.30x
+> Genomics APSP
+
+Fig. 22: Impact of different PU and PE configurations on execution time PUs within the logic die’s area budget. Furthermore, an intra-PU memory bandwidth bottleneck would emerge, as the single 256KB shared memory cannot service twice the number of compute units without saturation, leading to widespread stalls that negate computational benefits. Finally, a significant increase in PE density creates a larger power and thermal load. Doubling the active PEs and their associated SRAMs within the confined area of a PU leads to a projected ∼2× spike in local power density. Given that the logic die is situated directly beneath the heat-sensitive M3D DRAM stack, such thermal hotspots pose a significant risk to the reliability and data integrity of the memory above. Thus, 16 PEs per PU is the optimal choice, representing a carefully balanced co-design of compute parallelism, memory access, area, and power for an efficient and feasible microarchitecture. We further analyzed the impact of internal parallelism by sweeping the number of PEs per Compute PU, as illustrated in the left panel of Fig. 22. The results reveal a distinct saturation point in performance scaling. Increasing the density from 8 to 16 PEs yields a near-linear speedup, boosting relative performance from 0.50 × to 1.00 ×. However, scaling beyond 16 PEs results in severe diminishing returns due to local SRAM bandwidth contention and data dependency limits. As shown in the figure, doubling the resources to 32 PEs provides only a marginal performance gain—improving Genomics throughput by just 35% and APSP by merely 14%, despite incurring a 100% increase in logic area and power consumption. This trade-off is critical for thermal feasibility. Moving from 16 to 32 PEs would lead to a projected ∼2× spike in local power density within the confined PU footprint. Given that the logic die is vertically stacked directly beneath the heat-sensitive 3D DRAM, creating such concentrated ther-mal hotspots poses a significant risk to memory reliability. Consequently, 16 PEs per PU represents the Pareto-optimal design point, capturing the knee of the performance curve while maintaining a power density compatible with the thermal constraints of monolithic 3D integration. 
+
+F. GenDRAM overhead analysis 
+
+While GenDRAM delivers transformative performance and efficiency, these gains come with specific architectural and physical costs. We analyze these overheads in terms of silicon area, thermal management, and manufacturing complexity. 
+
+1) Silicon area overhead : The integration of the logic die at the base of the memory stack introduces an additional silicon footprint of 105 mm 2. As detailed in Fig. 18, asignificant portion of this area is dedicated to infrastructure rather than computation. Specifically, the PHY and peripheral interfaces occupy ∼58% of the die area. This is required to drive the high-density hybrid bonds and sustain the massive vertical bandwidth of the M3D stack. However, when viewed at the system level, this overhead is minimal. Compared to the massive 826 mm 2 die size of the NVIDIA A100 GPU, GenDRAM’s logic layer requires only ∼12.7% of the silicon area while delivering superior performance for targeted workloads, representing a highly area-efficient design trade-off. 
+
+2) Thermal constraints : The primary operational cost of the monolithic 3D architecture is the increased thermal density. Placing active logic directly beneath DRAM layers creates a thermal coupling effect not present in standard 2D DRAM. Our simulations indicate that the logic layer generates a power density peak of roughly 0.3 W/mm 2 (at 31.21 W total power). While this necessitates careful thermal management to prevent data retention errors in the DRAM refresh rows, our analysis in Section ?? confirms that limiting the design to 16 PEs per PU keeps this overhead well within the safe operating limits of standard passive cooling solutions ( <15 W/stack thermal budget for typical use cases, extensible with active cooling). 
+
+3) Manufacturing complexity : Finally, GenDRAM relies on advanced monolithic 3D fabrication processes utilizing sequential tier integration and hybrid bonding. This incurs a higher manufacturing cost and yield risk compared to traditional TSV based HBM or standard DDR4 DIMMs. However, this manufacturing overhead is justified by the key benefits: M3D provides orders-of-magnitude higher vertical interconnect density (∼100 million connections/mm 2) and lower access energy. Furthermore, these costs are expected to fall as the manufacturing process matures. VI. C ONCLUSION 
+
+In this work, we presented GenDRAM, a PIM accelerator designed to address the system-level bottlenecks inherent in data-intensive dynamic programming applications. By co-designing a heterogeneous architecture of specialized Search and Compute processing units with the unique properties of M3D DRAM, we demonstrated the feasibility of integrating entire complex workflows, such as genomic sequence align-ment and graph-based APSP onto a single chip. This ap-proach eliminates the critical host-accelerator communication overhead and fully exploits the massive internal bandwidth and tiered-latency characteristics of 3D-stacked memory. Com-pared to the state-of-the-art NVIDIA A100 GPU, GenDRAM delivers speedups of 68 × for APSP and 22 × for end-to-end genomic alignment, while improving energy efficiency by 152 ×. Crucially, GenDRAM also significantly outperforms specialized domain-specific accelerators. By overcoming the write-latency and capacity limitations of ReRAM-based de-signs, GenDRAM achieves 20 × higher energy efficiency than RapidGraph for graph analytics and provides a 15 × to 45 ×15 
+
+throughput advantage over RAPIDx and ABSW for genomic workloads. Ultimately, GenDRAM shows that a deeply co-designed M3D PIM architecture is a powerful and practical solution for the escalating challenges of real-time, large-scale data analytics. REFERENCES [1] A. Pradhan and G. Mahinthakumar, “Finding all-pairs shortest path for a large-scale transportation network using parallel floyd-warshall and parallel dijkstra algorithms,” Journal of computing in civil engineering ,vol. 27, no. 3, pp. 263–273, 2013. [2] T. Rout, A. Mohapatra, and M. Kar, “A systematic review of graph-based explorations of ppi networks: methods, resources, and best practices,” 
+
+Network Modeling Analysis in Health Informatics and Bioinformatics ,vol. 13, no. 1, p. 29, 2024. [3] R. Gutman, “Reach-based routing: A new approach to shortest path algorithms optimized for road networks,” in Proceedings of the Sixth Workshop on Algorithm Engineering and Experiments and the First Workshop on Analytic Algorithms and Combinatorics , pp. 100–111, 2004. [4] R. W. Floyd, “Algorithm 97: shortest path,” Communications of the ACM , vol. 5, no. 6, pp. 345–345, 1962. [5] P. Sao, H. Lu, R. Kannan, V. Thakkar, R. Vuduc, and T. Potok, “Scalable all-pairs shortest paths for huge graphs on multi-gpu clusters,” in 
+
+Proceedings of the 30th International Symposium on High-Performance Parallel and Distributed Computing , pp. 121–131, 2021. [6] M. Garland, S. Le Grand, J. Nickolls, J. Anderson, J. Hardwick, S. Morton, E. Phillips, Y. Zhang, and V. Volkov, “Parallel computing experiences with cuda,” IEEE micro , vol. 28, no. 4, pp. 13–27, 2008. [7] H. Djidjev, S. Thulasidasan, G. Chapuis, R. Andonov, and D. Lavenier, “Efficient multi-gpu computation of all-pairs shortest paths,” in 2014 IEEE 28th International Parallel and Distributed Processing Sympo-sium , pp. 360–369, IEEE, 2014. [8] M. Zhou, W. Xu, J. Kang, and T. Rosing, “Transpim: A memory-based acceleration via software-hardware co-design for transformer,” in 
+
+2022 IEEE International Symposium on High-Performance Computer Architecture (HPCA) , pp. 1071–1085, IEEE, 2022. [9] J. Ahn, S. Hong, S. Yoo, O. Mutlu, and K. Choi, “A scalable processing-in-memory accelerator for parallel graph processing,” in Proceedings of the 42nd annual international symposium on computer architecture ,pp. 105–117, 2015. [10] P. Chi, S. Li, C. Xu, T. Zhang, J. Zhao, Y. Liu, Y. Wang, and Y. Xie, “Prime: A novel processing-in-memory architecture for neural network computation in reram-based main memory,” ACM SIGARCH Computer Architecture News , vol. 44, no. 3, pp. 27–39, 2016. [11] B. Khaleghi, T. Zhang, C. Martino, G. Armstrong, A. Akel, K. Curewitz, J. Eno, S. Eilert, R. Knight, N. Moshiri, et al. , “Salient: Ultra-fast fpga-based short read alignment,” in 2022 International Conference on Field-Programmable Technology (ICFPT) , pp. 1–10, IEEE, 2022. [12] W. Xu, S. Gupta, N. Moshiri, and T. ˇS. Rosing, “Rapidx: High-performance reram processing in-memory accelerator for sequence alignment,” IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems , vol. 42, no. 10, pp. 3275–3288, 2023. [13] M. Chirila, P. D’Alberto, H.-Y. Ting, A. Veidenbaum, and A. Nicolau, “A heterogeneous solution to the all-pairs shortest path problem using fpgas,” in 2022 23rd International Symposium on Quality Electronic Design (ISQED) , pp. 108–113, IEEE, 2022. [14] G. Dai, T. Huang, Y. Chi, J. Zhao, G. Sun, Y. Liu, Y. Wang, Y. Xie, and H. Yang, “Graphh: A processing-in-memory architecture for large-scale graph processing,” IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems , vol. 38, no. 4, pp. 640–653, 2018. [15] L. Song, Y. Zhuo, X. Qian, H. Li, and Y. Chen, “Graphr: Accelerating graph processing using reram,” in 2018 IEEE International Symposium on High Performance Computer Architecture (HPCA) , pp. 531–543, IEEE, 2018. [16] J. H. Kim, Y. Ro, J. So, S. Lee, S.-h. Kang, Y. Cho, H. Kim, B. Kim, K. Kim, S. Park, et al. , “Samsung pim/pnm for transfmer based ai: Energy efficiency on pim/pnm cluster,” in 2023 IEEE Hot Chips 35 Symposium (HCS) , pp. 1–31, IEEE Computer Societypan, 2023. [17] Y. Pan, Z. Xia, P.-K. Hsu, L. Hu, H. Kim, J. Sharda, M. Zhou, N. S. Kim, S. Yu, T. Rosing, et al. , “Stratum: System-hardware co-design with tiered monolithic 3d-stackable dram for efficient moe serving,” in Proceedings of the 58th IEEE/ACM International Symposium on Microarchitecture® ,pp. 1–17, 2025. [18] S. Yang, X. Liu, Y. Wang, X. He, and G. Tan, “Fast all-pairs shortest paths algorithm in large sparse graph,” in Proceedings of the 37th International Conference on Supercomputing , pp. 277–288, 2023. [19] A. Prihozhy, “Speedup of blocks calculation in blocked floyd-warshall algorithm,” 2023. [20] N. A. Likhoded and D. S. Sipeyko, “Generalized blocked floyd–warshall algorithm,” Journal of the Belarusian State University. Mathematics and Informatics , vol. 3, pp. 84–92, 2019. [21] P.-K. Hsu, J. Sharda, X. Wu, H.-S. P. Wong, and S. Yu, “Monolithic 3d stackable dram,” IEEE Nanotechnology Magazine , 2025. [22] H. Jun, J. Cho, K. Lee, H.-Y. Son, K. Kim, H. Jin, and K. Kim, “Hbm (high bandwidth memory) dram technology and architecture,” in 2017 IEEE International Memory Workshop (IMW) , pp. 1–4, IEEE, 2017. [23] Y. Chen, Z. Li, K. Fan, R. Tian, J. Hsu, W. Xu, M. Zhou, and T. Rosing, “Rapid-graph: Recursive all-pairs shortest paths using processing-in-memory for dynamic programming on graphs,” arXiv preprint arXiv:2601.19907 , 2025. [24] J. Leskovec and A. Krevl, “Jun. 2014. snap datasets: Stanford large network dataset collection,” SNAP Datasets: Stanford Large Net-work Dataset Collection”.[Online]. Available: http://snap. stanford. edu/data5 .[25] P. Mooney, M. Minghini, et al. , “A review of openstreetmap data,” 
+
+Mapping and the citizen sensor , pp. 37–59, 2017. [26] National Center for Biotechnology Information, “Genome reference consortium human build 38.” https://www.ncbi.nlm.nih.gov/assembly/ GCF 000001405.26, 2013. [Online]. Accessed: November 16, 2025. [27] M. Holtgrewe, “Mason–a read simulator for second generation sequenc-ing data,” Technical Report FU Berlin , 2010. [28] Y. Ono, K. Asai, and M. Hamada, “Pbsim: Pacbio reads simula-tor—toward accurate genome assembly,” Bioinformatics , vol. 29, no. 1, pp. 119–121, 2013. [29] H. Li, “Minimap2: pairwise alignment for nucleotide sequences,” Bioin-formatics , vol. 34, no. 18, pp. 3094–3100, 2018. [30] S. J. Pennycook, C. J. Hughes, M. Smelyanskiy, and S. A. Jarvis, “Exploring simd for molecular dynamics, using intel® xeon® processors and intel® xeon phi coprocessors,” in 2013 IEEE 27th International symposium on parallel and distributed processing , pp. 1085–1097, IEEE, 2013. [31] N. Ahmed, J. L´ evy, S. Ren, H. Mushtaq, K. Bertels, and Z. Al-Ars, “Gasal2: a gpu accelerated sequence alignment library for high-throughput ngs data,” BMC bioinformatics , vol. 20, no. 1, p. 520, 2019. [32] J. Choquette, W. Gandhi, O. Giroux, N. Stam, and R. Krashinsky, “Nvidia a100 tensor core gpu: Performance and innovation,” IEEE Micro , vol. 41, no. 2, pp. 29–35, 2021. [33] W. Luo, R. Fan, Z. Li, D. Du, Q. Wang, and X. Chu, “Benchmarking and dissecting the nvidia hopper gpu architecture (2024),” URL https://arxiv. org/abs/2402.13499 .[34] P. S. Samarakoon, G. Fournous, L. T. Hansen, A. Wijesiri, S. Zhao, R. Alex A, T. N. Nandi, R. Madduri, A. D. Rowe, G. Thomassen, 
+
+et al. , “Benchmarking accelerated next-generation sequencing analysis pipelines,” Bioinformatics Advances , vol. 5, no. 1, p. vbaf085, 2025. [35] L. Guo, J. Lau, Z. Ruan, P. Wei, and J. Cong, “Hardware acceleration of long read pairwise overlapping in genome sequencing: A race between fpga and gpu,” in 2019 IEEE 27th Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM) , pp. 127– 135, IEEE, 2019. [36] A. Shafaei, Y. Wang, X. Lin, and M. Pedram, “Fincacti: Architectural analysis and modeling of caches with deeply-scaled finfet devices,” in 
+
+2014 IEEE Computer Society Annual Symposium on VLSI , pp. 290–295, IEEE, 2014. [37] Y.-L. Liao, Y.-C. Li, N.-C. Chen, and Y.-C. Lu, “Adaptively banded smith-waterman algorithm for long reads and its hardware accelerator,” in 2018 IEEE 29th International Conference on Application-specific Systems, Architectures and Processors (ASAP) , pp. 1–9, IEEE, 2018. [38] F. Zhang, S. Angizi, J. Sun, W. Zhang, and D. Fan, “Aligner-d: Leveraging in-dram computing to accelerate dna short read alignment,” 
+
+IEEE Journal on Emerging and Selected Topics in Circuits and Systems ,vol. 13, no. 1, pp. 332–343, 2023. [39] D. S. Cali, G. S. Kalsi, Z. Bing¨ ol, C. Firtina, L. Subramanian, J. S. Kim, R. Ausavarungnirun, M. Alser, J. Gomez-Luna, A. Boroumand, et al. ,“Genasm: A high-performance, low-power approximate string matching acceleration framework for genome sequence analysis,” in 2020 53rd Annual IEEE/ACM International Symposium on Microarchitecture (MI-CRO) , pp. 951–966, IEEE, 2020. [40] W.-Y. Woon, A. Kasperovich, J.-R. Wen, K. Hu, M. Malakoutian, J.-H. Jhang, S. Vaziri, I. Datye, C. Shih, J. Hsu, et al. , “Thermal management 16 
+
+materials for 3d-stacked integrated circuits,” Nature Reviews Electrical Engineering , vol. 2, no. 9, pp. 598–613, 2025. [41] D. Kim, J. Kung, S. Chai, S. Yalamanchili, and S. Mukhopadhyay, “Neurocube: A programmable digital neuromorphic architecture with high-density 3d memory,” ACM SIGARCH Computer Architecture News ,vol. 44, no. 3, pp. 380–392, 2016. 
+
+Tsung-Han Lu received M.s in Power Mechanical Engineering from National Tsing Hua University, HsinChu, Taiwan, in 2021. He is currently a Second-year Ph.D. student in Electrical and Computer En-gineering at the University of California San Diego, La Jolla, CA, USA. His research interests include in-memory and in-storage architecture for deep learn-ing, bioinformatics. 
+
+Weihong Xu received the B.E. degree in informa-tion engineering and M.E. in information and com-munication engineering from Southeast University, Nanjing, China, in 2017 and 2020. Received PhD degree in Computer Engineering at the University of California San Diego, La Jolla, CA, USA. He is cur-rently a Postdoc in ´ Ecole polytechnique f´ ed´ erale de Lausanne. His research interests include in-memory and in-storage architecture for deep learning, bioin-formatics, and hyperdimensional computing. 
+
+Tajana Rosing received her Ph.D. degree from Stan-ford University, Stanford, CA, USA, in 2001. She is a Professor, a Holder of the Fratamico Endowed Chair, and the Director of System Energy Efficiency Laboratory, University of California at San Diego, La Jolla, CA, USA. From 1998 to 2005, she was a full-time Research Scientist with HP Labs, Palo Alto, CA, USA, while also leading research efforts with Stanford University, Stanford, CA, USA. She was a Senior Design Engineer with Altera Corpora-tion, San Jose, CA, USA. She is leading a number of projects, including efforts funded by DARPA/SRC JUMP 2.0 PRISM program with focus on design of accelerators for analysis of big data, DARPA and NSF funded projects on hyperdimensional computing, and SRC funded project on IoT system reliability and maintainability. Her current research interests include energy-efficient computing, cyber–physical, and distributed systems.

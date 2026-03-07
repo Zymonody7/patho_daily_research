@@ -1,0 +1,1648 @@
+Title: Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics
+
+URL Source: https://arxiv.org/pdf/2602.24201v1
+
+Published Time: Mon, 02 Mar 2026 02:20:03 GMT
+
+Number of Pages: 28
+
+Markdown Content:
+# Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics 
+
+Egor Antipov * 1 2 Alessandro Palma * 1 2 Lorenzo Consoli * 1 Stephan G ¨ unnemann 2 3 
+
+Andrea Dittadi 1 2 Fabian J. Theis 1 2 3 4 
+
+## Abstract 
+
+Estimating density ratios between pairs of in-tractable data distributions is a core problem in probabilistic modeling, enabling principled com-parisons of sample likelihoods under different data-generating processes across conditions and covariates. While exact-likelihood models such as normalizing flows offer a promising approach to density ratio estimation, naive flow-based eval-uations are computationally expensive, as they require simulating costly likelihood integrals for each distribution separately. In this work, we leverage condition-aware flow matching to de-rive a single dynamical formulation for tracking density ratios along generative trajectories. We demonstrate competitive performance on simu-lated benchmarks for closed-form ratio estima-tion, and show that our method supports versatile tasks in single-cell genomics data analysis, where likelihood-based comparisons of cellular states across experimental conditions enable treatment effect estimation and batch correction evaluation. 
+
+## 1. Introduction 
+
+Estimating the density of high-dimensional data has been a central research objective in both theoretical (Silverman, 2018; Chen et al., 2018a) and applied (Cranmer et al., 2020; Lopez et al., 2018; No ´e et al., 2019) settings. The ability to identify modes and evaluate likelihoods in complex feature spaces enables a deeper understanding of the underlying data-generating process, laying the foundation for questions 
+
+> *
+
+Equal contribution 1Institute of Computational Biology, Helmholtz Munich, Munich, Germany 2School of Computation Information and Technology, Technical University of Munich, Ger-many 3Munich Data Science Institute, Technical University of Munich, Germany 4TUM School of Life Sciences Weihenstephan, Technical University of Munich, Germany. Correspondence to: Fabian J. Theis <fabian.theis@helmholtz-munich.de >, Andrea Dittadi <andrea.dittadi@gmail.com >.
+
+Preprint. March 2, 2026. 
+
+surrounding uncertainty quantification (Kuleshov & Desh-pande, 2022; Charpentier et al., 2020) and the principled comparison of probabilistic models (Gutmann & Hyv ¨arinen, 2012; Rhodes et al., 2020). In this context, generative mod-els have emerged as a prominent data-driven approach to density estimation, with methods such as Continuous Nor-malizing Flows (CNFs) (Chen et al., 2018b) learning expres-sive approximations of data distributions and enabling the exact evaluation of likelihoods for individual observations. A notable application of density estimation pertains to the study of likelihood ratios , where the likelihoods of a data point under two alternative probabilistic models are com-pared in terms of their ratio (Sugiyama et al., 2010). While this strategy is both simple and effective, the separate eval-uation of sample likelihoods under different models poses computational challenges, particularly when likelihood ap-proximation involves expensive integral expressions, as is the case for exact likelihood models such as CNFs. In this work, we introduce a novel method to efficiently evaluate the likelihood ratios of data points under different conditional models based on CNFs trained with flow match-ing (Liu et al., 2022b; Albergo & Vanden-Eijnden, 2023; Lipman et al., 2023). Rather than independently estimat-ing likelihoods and forming their ratio, we derive a single dynamical formulation to track the ratio along trajectories from data to noise. Our method only requires standard CNF models and estimates likelihood ratios at inference time via the compositional combination of vector fields and density scores. We show improved performance on data-driven syn-thetic likelihood ratio estimation, while use cases can be extended to other fields requiring density comparisons, such as hypothesis testing and anomaly detection. Moreover, we explore real-world applications of our likeli-hood ratio estimation method to high-dimensional cellular data, where the gene expression of individual cells is mea-sured with single-cell RNA sequencing (scRNA-seq) across heterogeneous conditions (Jovic et al., 2022). Our model allows for the principled likelihood-based comparison of biological states arising from distinct experimental designs. Motivated by applications to cellular biology, we call the tool grounded in our framework single-cell Ratio (scRatio). 1
+
+> arXiv:2602.24201v1 [cs.LG] 27 Feb 2026 Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics
+
+We summarize our main contributions as follows: • We derive a dynamical formulation for estimating density ratios between CNF models with a single simulation. • We introduce an inference procedure combining vector fields and score functions learned via flow matching to estimate likelihood ratios at individual data points. • We demonstrate competitive performance on synthetic closed-form ratio benchmarks across multiple dimensions. • We showcase the practical utility of our model, scRatio, on genomics data, supporting multiple conditional compari-son tasks such as the analysis of perturbation data and the evaluation of batch correction algorithms. 
+
+## 2. Related Works 
+
+Likelihood estimation with generative models. Our ap-proach is related to likelihood approximation frameworks based on CNFs (Chen et al., 2018b; Tong et al., 2024a; Jing et al., 2022) and diffusion models (Song et al., 2021; Karczewski et al., 2025b). We further build on ideas from steering the dynamics of generative models, as commonly done in guidance methods (Ho & Salimans, 2021; Zheng et al., 2023; Bansal et al., 2023) and in compositional gener-ation (Liu et al., 2022a; Skreta et al., 2025a). In this context, recent work on compositional diffusion (Skreta et al., 2025a) introduces strategies for computing the density of a model along trajectories simulated by another one, while a related formulation for density guidance is presented in Karczewski et al. (2025a). We draw inspiration from these approaches to formalize our simulation-based likelihood ratio estimation. 
+
+Density ratio estimation. Traditional methods for den-sity ratio estimation include moment matching, probabilis-tic classification, and direct ratio matching, as reviewed in Sugiyama et al. (2010), while recent work has revis-ited this problem. Rhodes et al. (2020) propose a strat-egy that combines probability paths between distributions with classification-based objectives to estimate density ra-tios. Another method exploits Time Score Matching (TSM) (Choi et al., 2022), which expresses the log density ratio as the integral of the time-derivative of intermediate den-sities along an interpolation path. In this setting, authors in Yu et al. (2025) introduce a diffusion-based extension of TSM with a closed-form objective on data-conditioned probability paths. In contrast, our model avoids interpo-lating between numerator and denominator densities and leverages the exact-likelihood properties of CNFs to track density ratios dynamically. 
+
+Likelihood comparisons for scRNA-seq. Density esti-mation with Gaussian processes and mixture models has been used to identify prioritized cellular states during dif-ferentiation processes (Otto et al., 2024) and compare sam-ples of cells as distributions (Wang et al., 2024). Other methods focus on differential abundance analysis, assessing whether a cell state is enriched according to different condi-tional distributions approximated with k-Nearest-Neighbors (kNN) algorithms (Dann et al., 2022; Burkhardt et al., 2021) or Variational Autoencoders (VAE) (Boyeau et al., 2025). However, none of the mentioned studies relies on flexible, parameterized exact-likelihood estimation as in scRatio. 
+
+## 3. Background 
+
+3.1. Continuous Normalizing Flows Unconditional CNFs. We consider a generative model over 
+
+Rd as a time-resolved probability density pt : Rd → R>0,with t ∈ [0 , 1] and R pt(x) d x = 1 , such that p0 is a stan-dard normal distribution and p1 approximates a complex data distribution q from which we wish to sample. We use 
+
+xt ∈ Rd to denote a sample from the time-marginal distribu-tion with density pt. CNFs learn a time-dependent velocity field ut : Rd → Rd generating the family {pt}t∈[0 ,1] with partial time-derivative governed by the continuity equation: 
+
+∂∂t pt(x) = −∇ x ·  pt(x) ut(x) . (1) Specifically, ut defines the velocity of the following Ordi-nary Differential Equation (ODE): 
+
+ddt xt = ut(xt), x0 ∼ N (0d, Id) , (2) where 0d and Id are the d-dimensional zero-vector and iden-tity matrix. The solution to Eq. (2) transports samples from the prior p0 to the approximate data distribution p1.CNFs enable exact likelihood computation on data samples 
+
+x1 and can be learned via maximum likelihood optimiza-tion. Using Eq. (1) and expanding the total time derivative  
+
+> ddt
+
+log pt(xt), Chen et al. (2018b) derived an exact expres-sion for the log -density of the data under the model at t = 1 :
+
+log p1(x1) = log p0(x0) −
+
+Z 10
+
+∇xt · ut(xt) d t , (3) where x0 and xt are defined as in Eq. (2), and p0 is a tractable standard normal density. As a result, a CNF can be trained by learning a parameterized vector field uθt that generates the probability path pθt maximizing the likelihood of the data. During inference, the likelihood of a data point 
+
+x1 ∼ q(x1) under the learned model can be computed by integrating Eq. (3) with samples obtained by solving the ODE in Eq. (2) backwards in time. 
+
+Condition-Aware CNFs. Given a conditioning random variable Y ∈ Rk, one can extend CNFs to model condi-tional likelihoods by learning a parameterized family of distributions pθt (xt | y), generated by a conditional vector field uθt (xt | y), for each realization y of Y . This enables comparing how likely a data point is under different condi-tions by evaluating Eq. (3) with distinct conditional fields. 2Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics Naive approach                
+
+> Our method
+> Figure 1. Naively approximating the likelihood ratio of a data point x1under conditions yand y′requires estimating the likelihood of x1
+> under two conditional models pθt(· | y)and pθt(· | y′), which implies the evaluation of two integrals. With scRatio, we directly estimate the likelihood ratio as the solution of a dedicated ODE while simulating time-marginals of a sample over time.
+
+3.2. Flow Matching 
+
+Flow matching (Lipman et al., 2023; Liu et al., 2022b; Al-bergo & Vanden-Eijnden, 2023) is a simulation-free ap-proach to optimize CNFs, avoiding computationally ex-pensive operations like Eq. (3). Given real data samples 
+
+x1 ∼ q(x1), the model expresses the time-marginal gener-ating field ut(xt) presented in Eq. (1) in terms of a data-conditioned field ut(xt | x1) as follows: 
+
+ut(xt) := 
+
+Z
+
+ut(xt | x1) pt(xt | x1)q(x1)
+
+pt(xt) dx1 .
+
+Crucially, regressing uθt (xt) against ut(xt | x1) is equiva-lent, up to a constant term, to learning ut(xt), which is used for generation from noise according to Eq. (2). The conditional field ut(xt | x1) generates a conditional probability path pt(· | x1) interpolating between the noise distribution at t = 0 , p0(· | x1) = N (0d, Id), and a dis-tribution at t = 1 concentrated around the data point x1,which can be approximated in practice by a tractable distri-bution ˜q(· | x1) such as a narrow Gaussian or a point mass. Given a closed-form path from noise to data, the target field 
+
+ut(xt | x1) is tractable. Here, we consider Gaussian paths: 
+
+pt(· | x1) := N (αtx1, σ 2 
+
+> t
+
+Id) (4) where αt and σt define a scheduler for the transition between noise and data. Throughout this work, we fix α = t and explore three choices of variance used in the literature: (I) 
+
+σt = 1 − t, (II) σt = 1 − (1 − σmin )t (Lipman et al., 2023), and (III) σt = (1 − λ)t2 + ( λ − 2) t + 1  12 (Albergo & Vanden-Eijnden, 2023; Tong et al., 2024b), where σmin 
+
+and λ are hyperparameters controlling the magnitude of noise around the data and the shape of the probability path, respectively (see Sec. B.3 and Sec. B.4 for more details). From Eq. (4), one can derive a closed-form expression for the conditional field ut(· | x1) used as a regression target during training (see Sec. B.1 for a full derivation and Tab. 3 for its explicit form under different schedulers). 
+
+3.3. Application: scRNA-seq Data 
+
+Density estimation via generative models is naturally ap-plicable to single-cell biology, where each observation 
+
+x1 ∈ Rd is a d-dimensional representation of the cellu-lar state, measured under specific experimental conditions. Given a treatment label or biological covariate y associ-ated with each sample, conditional flows {pθt (· | y)}t∈[0 ,1] 
+
+can be used to approximate cellular distributions across dif-ferent biological contexts (Klein et al., 2025). Modeling such context-specific densities provides a principled way to assess distributional shifts across experimental conditions, thereby supporting the analysis of perturbation assays. 
+
+## 4. Flow-based Likelihood Ratio Estimation 
+
+4.1. Problem Statement 
+
+Let x1 ∈ Rd be a real data sample and y, y′ ∈ Rk realiza-tions of a conditioning random variable Y such that y̸ = y′.Furthermore, consider {pθt (· | Y )}t∈[0 ,1] as a conditional CNF model, such that pθ
+
+> 1
+
+(· | Y ) ≈ q(· | Y ), where q(· | Y )
+
+is the true conditional data density, and with parameterized vector fields {uθt (· | Y )}t∈[0 ,1] . Our goal is to estimate the ratio between conditional likelihoods: 
+
+rθ (x1 | y, y′) := pθ
+
+> 1
+
+(x1 | y)
+
+pθ
+
+> 1
+
+(x1 | y′) . (5) In other words, we seek to score each data point based on whether it is more likely under the parameterized distribu-tion conditioned on y or y′. While we focus on conditional 3Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics 
+
+distributions, the same formulation can be applied to a cou-ple of unconditional generative models on Rd.A straightforward approach to address this goal is to com-pute both the numerator and denominator in Eq. (5) by solving the ODE in Eq. (3) using different conditional fields and deriving the ratio between the outcomes. We refer to this practice as the naive estimation of rθ (x1 | y, y′). How-ever, each evaluation of the integral in Eq. (3) is costly, which undermines the efficiency of the naive approach as the number of data points and features increases. 
+
+4.2. Simulation-Based Likelihood Ratio Estimation 
+
+To address the computational cost of the naive estimation, we propose estimating the likelihood ratio in Eq. (5) via the simulation of a single ODE . By eliminating the additional expensive integral evaluations required by the naive method, our approach efficiently scores individual data points while maintaining stable performance. Specifically, we derive a dynamical formulation of the ratio rθt for t ∈ [0 , 1] , such that rθ 
+
+> 1
+
+= rθ , with rθ as defined in Eq. (5). For CNFs, the vector fields uθt (· | y) and uθt (· | y′) generate the corresponding conditional densities under the continuity equations in Eq. (1), sharing the same tractable prior: 
+
+pθ
+
+> 0
+
+(· | y) = pθ
+
+> 0
+
+(· | y′) = N (0d, Id) . (6) We then establish the following dynamical formulation of the log -ratio of densities in Eq. (5): 
+
+log rθt (xt | y, y′) := log pθt (xt | y)
+
+pθt (xt | y′) , (7) 
+
+with log rθ 
+
+> 0
+
+(x0 | y, y′) = 0 . (8) We seek to derive an integral equation to estimate 
+
+log rθ 
+
+> 1
+
+(x1 | y, y′) akin to the change of variable formula in Eq. (3). However, while each conditional density satisfies a continuity equation, their ratio does not form a proper density function over Rd, and thus cannot be sampled. Inspired by work on composing diffusion models (Skreta et al., 2025b), we propose tracking the log -ratio between densities in Eq. (7) along interpolation trajectories between the noise and the data under an arbitrary velocity model. We formalize our solution in the following proposition. 
+
+Proposition 4.1. Let xt be the integral solution of the ODE with velocity dxt/dt = bt(xt) and t ∈ [0 , 1] . Moreover, let {pt}t∈[0 ,1] and {p′
+
+> t
+
+}t∈[0 ,1] be two time-marginal prob-ability paths, respectively generated by the vector fields 
+
+{ut}t∈[0 ,1] and {u′
+
+> t
+
+}t∈[0 ,1] satisfying the continuity equa-tions ∂∂t pt(x) = −∇ x ·  pt(x) ut(x) and ∂∂t p′
+
+> t
+
+(x) = 
+
+−∇ x ·  p′
+
+> t
+
+(x) u′
+
+> t
+
+(x), with p0 = p′
+
+> 0
+
+. Define the time-dependent density ratio rt(x) := pt(x)/p ′
+
+> t
+
+(x). Then the logarithm of the ratio evaluated along the trajectory xt
+
+satisfies the following ODE: 
+
+ddt log rt(xt) = ∇xt ·  u′
+
+> t
+
+(xt) − ut(xt)+ (9) 
+
++  bt(xt) − ut(xt)⊤ ∇xt log pt(xt)+ +  u′
+
+> t
+
+(xt) − bt(xt)⊤ ∇xt log p′
+
+> t
+
+(xt),
+
+with log r0(x0) = 0 .
+
+Remark 4.2. While in Theorem 4.1 we write bt(xt) as a general vector field, in the simplest case one can choose 
+
+bt(xt) := ut(xt) or bt(xt) := u′
+
+> t
+
+(xt), which sets one of the last two terms in Eq. (9) to zero and simplifies evaluation. 
+
+The proof is in Sec. B.5. In other words, one could estimate the ratio between two likelihoods at a data point x1 by track-ing Eq. (9) evaluated at samples xt = x1 + R t 
+
+> 1
+
+bs(xs)d s,where bt(xt) is a time-conditional marginal field. In our ex-periments with conditional densities in Eq. (7), we explore two natural settings of the simulating field bt:• S1 . bt as the numerator field: With bt(·) := ut(·) := 
+
+uθt (· | y) and u′
+
+> t
+
+(·) := uθt (· | y′).• S2 . bt as the unconditional field: With bt(·) := ut(xt),
+
+ut(·) := uθt (· | y) and u′
+
+> t
+
+(·) := uθt (· | y′).In Fig. 1, we use S1 to visualize how our method compares with its naive counterpart. In this scenario, following Theo-rem 4.1 leads to the following explicit log -ratio estimation: 
+
+log rθ 
+
+> 1
+
+(x1 | y, y′) = −
+
+Z 01
+
+[∇xt ·(uθt (xt | y′) − uθt (xt | y)) + ( uθt (xt | y′) − uθt (xt | y)) ⊤∇xt log pθt (xt | y′)]d t , 
+
+with xt = x1 +
+
+Z t
+
+> 1
+
+uθs (xs | y)d s . (10) A similar integral equation can be derived for S2 as well, counting an additional term as none of the fields in the ratio corresponds to the simulation velocity (see Eq. (46) and Sec. B.7 for details on the choice of S1 and S2). We further detail the log -density ratio estimation procedure in Alg. 1. 
+
+4.3. Score Estimation in Eq. (9) 
+
+From the Gaussian probability path formulation in Eq. (4), the density score ∇xt log pt(xt) in Eq. (9) can be directly reparametrized from the generating vector fields ut(xt) ac-cording to the following equation (Zheng et al., 2023): 
+
+∇xt log pt(xt) = αtut(xt) − ˙αtxt
+
+σt( ˙ αtσt − αt ˙σt) . (11) Thus, learning either the score or the vector field is equiva-lent up to a reparameterization depending on the schedule. In our conditional setting shown in Eq. (10), Eq. (11) al-lows us to recover ∇xt log pθt (xt | y′) from uθt (xt | y′),enabling direct evaluation of the density-ratio ODE. 4Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics 
+
+However, for many choices of αt and σt, the denominator in Eq. (11) implies a division by a low number at t = 1 (see Tab. 4), causing numerical instability close to the data. Thus, we choose to parameterize the score with a neural network sψt (xt | y′) ≈ ∇ xt log pt(xt | y′) trained to regress the conditional score, which is tractably available for Gaussian probability paths (see Tab. 3 for the closed form conditional score objectives and Sec. B.3 for theoretical details). This provides a smooth estimator of the score close to the data, enabling a stable approximation of the 
+
+log -density ratio in Theorem 4.1. 
+
+4.4. Use Cases in Single-Cell Data Analysis 
+
+Many tasks in computational biology require comparing the likelihood of cellular profiles under alternative probabilistic models. In what follows, we formalize some examples of the usage of scRatio in cellular data analysis. 
+
+Differential Abundance (DA) analysis. Consider a dataset 
+
+X = {(x(i)1 , y (i))}Ni=1 of N single cells, where x(i)1 ∈ Rd
+
+denotes a representation of the gene expression profile of cell i, and y(i) ∈ { 0, 1} is a perturbation label, with 0 and 
+
+1 indicating control and treatment conditions, respectively. Moreover, let {pθt (· | Y )}t∈[0 ,1] be a generative model ap-proximating the distribution of cells under each realization of conditioning random variable Y , and {uθt (· | Y )}t∈[0 ,1] 
+
+its generating velocity field. With scRatio, we tackle a core challenge in single-cell analysis: 
+
+Are cells from a given perturbation more likely under their conditional distribution than under the control distribution? 
+
+Given a perturbed cell x(j)1 , with j ∈ I 1 = {i | y(i) = 1 },we conduct this analysis by estimating the following ratio: 
+
+log rθ 
+
+> 1
+
+(x(j)1 | 0, 1) = log pθ
+
+> 1
+
+(x(j)1 | Y = 1) 
+
+pθ
+
+> 1
+
+(x(j)1 | Y = 0) .
+
+In line with Eq. (9) and using the parameterization setting S1 in Sec. 4.2, we obtain: 
+
+∆uθt (x(j) 
+
+> t
+
+| 0, 1) := uθt (x(j) 
+
+> t
+
+| Y = 0) − uθt (x(j) 
+
+> t
+
+| Y = 1) ,
+
+ddt log rθt (x(j) 
+
+> t
+
+| 0, 1) = ∇xt · ∆uθt (x(j) 
+
+> t
+
+| 0, 1) +∆ uθt (x(j) 
+
+> t
+
+| 0, 1) ⊤∇xt log pt(x(j) 
+
+> t
+
+| 0) ,
+
+where x(j) 
+
+> t
+
+= x(j)1 + R t 
+
+> 1
+
+uθs (x(j) 
+
+> s
+
+| 1) d s, and with initial condition log rθ 
+
+> 0
+
+(· | 0, 1) = 0 . Intuitively, when the log ratio is higher than 0, the cell is more likely under the perturbed distribution than the untreated one. 
+
+Combining conditions. Let X = {(x(i)1 , y (i), z (i))}Ni=1 
+
+now be a dataset with two conditions: y(i) ∈ { 1, ..., k y }
+
+and z(i) ∈ { 1, ..., k z }. In an applied setting, the two condi-tions can represent combinations of treatments or batch and biological labels. With scRatio, we ask the following: 
+
+Does conditioning on both y and z increase the likelihood of x1 compared to conditioning on y only? 
+
+For cells from a certain combination of conditions y and z,we can evaluate the following likelihood ratio: 
+
+log rθ 
+
+> 1
+
+(x(i)1 | (y, z ), y ) = log pθ
+
+> 1
+
+(x(i)1 | y, z )
+
+pθ
+
+> 1
+
+(x(i)1 | y)
+
+Crucially, it is not necessary to train different numerator and denominator fields, as flow matching enables optimizing simultaneously single- and double-conditional models by alternating z with an empty token ∅ during training (Ho & Salimans, 2021). Thus, the derivative of the log -ratio is: 
+
+∆uθt (x(i) 
+
+> t
+
+| (y, z ), z ) := uθt (x(i) 
+
+> t
+
+| y, z ) − uθt (x(i) 
+
+> t
+
+| y, ∅) ,
+
+ddt log rθt (x(i) 
+
+> t
+
+| (y, z ), y ) = ∇xt · ∆uθt (x(i) 
+
+> t
+
+| (y, z ), z )+ ∆ uθt (x(i) 
+
+> t
+
+| (y, z ), z )⊤∇xt log pt(x(i) 
+
+> t
+
+| y, ∅) ,
+
+where x(i) 
+
+> t
+
+= x(i)1 + R t 
+
+> 1
+
+uθs (x(i) 
+
+> s
+
+| y, z ) d s, and with initial condition log rθ 
+
+> 0
+
+(· | (y, z ), y ) = 0 . For example, in treat-ment combination studies, we can assess whether multiple perturbations cause additional state shifts ( log rθ 
+
+> 1
+
+> 0) due to the presence of interaction effects compared to single treatments. If y is a biological annotation and z is a batch label, the ratio indicates the extent to which technical effects drive the variation in the data ( log rθt ≈ 0 for mixed data and log rθt̸ = 0 with batch effect). 
+
+## 5. Experiments 
+
+5.1. Simulated High-Dimensional Gaussians Task and Dataset. First, we follow Yu et al. (2025) and evaluate scRatio on estimating closed-form log -likelihood ratios on multivariate Gaussian distributions. Consider the following tractable distributions: 
+
+q := N (s1d, Id) , q′ := N (0d, Id) ,
+
+where 1d is the one-vector of d-dimensions and s ∈ { 1, 2}
+
+a scalar. The aim is to estimate the true ratio r := log qq′
+
+using samples from the two distributions. For each value of s, we consider the performance across dimensions d ∈{2, 5, 10 , 20 , 30 }.
+
+Baselines. For this experiment, we compare scRatio with three baselines (see Sec. C.2 for a detailed discussion). • Naive approach: Instead of approximating r according to Theorem 4.1, we estimate the numerator and denominator likelihoods in the log -ratio using Eq. (3). • Time Score Matching (TSM): Given an interpolant pt,for t ∈ [0 , 1] , between two densities p0 and p1, TSM expresses the ratio between p1 and p0 as the time integral 5Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics a
+
+b
+
+a
+
+b
+
+Figure 2. a. The average MSE across 5 training runs between true and estimated likelihood ratios across models and simulation pa-rameters. SB paths stand for Schr ¨odinger Bridge probability paths. 
+
+b. Runtime in seconds for likelihood ratio estimation comparing scRatio with the naive approach across simulation parameters. 
+
+of the score ∂∂t log pt(x). We follow Choi et al. (2022)’s parameterization, which bypasses regressing an intractable time score via integration by parts. • Conditional TSM (CTSM): Using elements of flow match-ing to define pt (see Sec. 3.2), Yu et al. (2025) derive a tractable and more efficient formulation of the time score conditioned on samples from p0 and p1.To compare with our method in modeling ratios between arbitrary data distributions, we consider variants of TSM and CSTM based on Schr ¨odinger Bridge (SB) interpolants between p0 and p1. This formulation relies solely on sam-ples from the two distributions without any distributional assumptions (see Sec. C.2 for further elaboration). 
+
+Metrics and Results. In Fig. 2, we report the Mean Squared Error (MSE) between the true and the estimated log -ratios. For scRatio, we display the three best models for each of the three schedules described in Sec. 3.2 and Sec. B.4. Notably, scRatio outperforms the baselines for the considered values of s and d, while no significant performance difference is apparent across schedules. Moreover, Fig. 2b shows that our approach achieves a significantly lower runtime for estimating the log -ratio compared to the counterpart naive solution. Hence, results suggest a simultaneous gain in both performance and efficiency. Additional analyses and discussions are available in Sec. E.2. 
+
+5.2. Mutual Information Estimation Task and Dataset. We replicate the synthetic experiments in Yu et al. (2025) for estimating the Mutual Information (MI) 
+
+Table 1. MAE ( ↓) between true and predicted MI across data dimensions. Results are averaged over three training runs and reported as mean ± standard error. The best and second-best results per dimension are highlighted in bold and underlined, respectively.                                                              
+
+> Model d
+> 20 40 80 160 320 TSM with SB paths 0.04 ± 0.02 0.43 ± 0.02 1.29 ± 0.04 5.42 ± 0.05 28.85 ± 1.20
+> CTSM with SB paths 0.25 ± 0.00 0.43 ± 0.01 0.66 ± 0.02 0.74 ± 0.15 3.39 ± 0.05
+> scRatio
+> σmin = 0 , λ = 0 0.23 ± 0.01 0.35 ± 0.02 0.58 ± 0.06 0.90 ± 0.07 22.75 ± 0.18
+> scRatio
+> σmin = 0 .1, λ = 0 0.17 ± 0.02 0.28 ± 0.03 0.49 ± 0.05 0.88 ± 0.08 22.93 ± 0.11
+> scRatio
+> σmin = 0 , λ = 0 .25 0.17 ± 0.01 0.29 ± 0.05 0.49 ± 0.08 1.03 ± 0.18 0.46 ± 0.15
+
+between structured Gaussians. Consider the distributions 
+
+q = N (0d, Id) , q′ = N (0d, Σ) ,
+
+with d being an even number, and where Σ is a block-diagonal matrix consisting of 2 × 2 blocks with 1 on the diagonal and 0.8 off-diagonal. Let x ∼ q0 and split it into 
+
+xodd = ( x1, x 3, ..., x d−1) and xeven = ( x2, x 4, ..., x d),one can show that the MI between xodd and xeven is avail-able in closed form as the following expectation: 
+
+I(xeven , xodd ) = Eq(x)
+
+
+
+log q(x)
+
+q′(x)
+
+
+
+(12) (see Sec. C.3 for more details). Following prior work, we consider how MI estimation scales across dimensions for 
+
+d ∈ { 20 , 40 , 80 , 160 , 320 }.
+
+Baselines. We train scRatio under different scheduling strategies to approximate Eq. (12) as a likelihood ratio, using 100,000 samples from each of the two distributions. The MI is estimated by averaging the learned ratios evaluated on samples from q. As baselines, we consider the CTSM and TSM models with SB paths as described in Sec. 5.1. Similar to the previous setting, we adopt CTSM and TSM with SB paths to enable a fair comparison with scRatio in a purely sample-based setting without distributional assumptions. 
+
+Metrics and Results. As the MI is available for different di-mensions (see Sec. C.3), we report the Mean Absolute Error (MAE) between the predicted and true value. Tab. 1 shows that different variants of scRatio overcome the baselines on three out of five dimensions and achieve the second-best performance on the remaining two. Crucially, adding noise to the flow matching probability path ( λ = 0 .25 ) yields sig-nificantly more precise performance in higher dimensions. 
+
+5.3. Single-Cell Differential Abundance Estimation Task. The most common application of likelihood ratio estimation on cellular data is DA analysis, as described in Sec. 4.4. Here, positive and negative likelihood ratios at individual observations indicate that treatment or control cells, respectively, are overrepresented in the region of gene-expression space corresponding to that cellular state. 6Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics 
+
+Table 2. Comparison of scRatio with three distinct scheduling settings and baseline methods across increasing levels of DA controlled by the parameter a (Eq. 13). We report (I) the Spearman correlation ρ(·, a ) between each metric and the ground-truth DA level a, and (II) the average metric value over high-DA regimes ( a ≥ 0.3). We describe the metrics in Sec. E.1. Results are averaged over three independent training runs and reported as mean ± standard error. In bold and underlined are the best and second-best results per metric, respectively.                                                                                    
+
+> Model ρ(AUC , a )(↑)AUC ( a≥0.3) ( ↑)ρ(NAR , a )(↑)NAR ( a≥0.3) ( ↑)ρ(CSP , a )(↑)CSP ( a≥0.3) ( ↑)MrVI 0.71 ± 0.09 0.89 ± 0.00 0.83 ± 0.01 7.33 ± 0.27 0.67 ± 0.06 0.97 ± 0.00
+> MELD 0.48 ± 0.00 0.93 ± 0.00 0.17 ± 0.00 6.45 ± 0.00 0.27 ± 0.00 0.99 ± 0.00
+> scRatio (σmin = 0 , λ = 0 )1.00 ± 0.00 0.95 ± 0.00 1.00 ± 0.00 9.64 ± 0.45 0.95 ± 0.01 0.98 ± 0.00
+> scRatio (σmin = 0 .1, λ = 0 )0.99 ± 0.01 0.96 ± 0.00 1.00 ± 0.00 11.39 ± 0.30 0.95 ± 0.03 0.98 ± 0.00
+> scRatio (σmin = 0 , λ = 0 .01 )0.99 ± 0.01 0.95 ± 0.00 0.98 ± 0.02 9.39 ± 0.19 0.98 ± 0.01 0.98 ± 0.00
+
+Dataset. To compare scRatio with existing methods, we design a semi-synthetic dataset with distinct ground truth levels of treatment and control overrepresentation, simi-lar to Boyeau et al. (2025). We use a dataset of 68k Pe-ripheral Blood Mononuclear Cells (PBMC) from Zheng et al. (2017), which we divide into four clusters, with labels 
+
+ci ∈ { 1, 2, 3, 4} for each cell i (see Fig. 6a). Then, we as-sign to each cell a control ( yi = 0 ) or treatment ( yi = 1 ) bi-nary label with a cluster-specific probability Π = {πk}4
+
+> k=1
+
+,such that yi ∼ Ber( π = πci ). To test the model at different levels of DA, we create 8 datasets with cluster proportions 
+
+Πa = {0.5, 0.5 + a, 0.5 − a, 0.5}, (13) for a ∈ { 0, 0.05 , 0.1, 0.2, 0.3, 0.4, 0.45 , 0.5}. Thus, in clus-ters 1 and 4, cases and controls are always equally repre-sented (ratio equals zero), while clusters 2 and 3 have a higher proportion of either treated or untreated cells based on a, introducing different levels of DA (see Fig. 6b-c). 
+
+Baselines. We consider the following baselines: • MrVI (Boyeau et al., 2025): A disentangled Variational Autoencoder (VAE) model relying on variational posterior approximation for the DA estimation. • MELD (Burkhardt et al., 2021): A kNN approach based on label smoothing over local neighborhoods. We do not compare scRatio with Milo (Dann et al., 2022), despite their relatedness, because, unlike methods that score single cells, it only predicts DA at the level of cellular neigh-borhoods. Similar to scRatio, all models produce an estimate of the likelihood ratio log rθ (x | 1, 0) = log pθ (x|1)   
+
+> pθ(x|0)
+
+applied to a cell x with positive and negative values indicating higher treatment and control likelihoods, respectively. 
+
+Metrics. As we do not have a ground-truth ratio per cell, we develop metrics that assess whether the distinct models predict likelihood ratios that match the DA in the dataset. • AUC: The Area Under the precision-recall Curve (AUC) between the absolute values of the estimated ratios and the vector of DA binary labels, which we set to 1 for clusters 2 and 3 and 0 for clusters 1 and 4. • Normalized Abundance Ratio (NAR): How much larger the absolute ratios are in DA clusters (2 and 3) versus non-DA clusters (1 and 4). • Correct Sign Proportion (CSP): Proportion of ratios that agree in sign with the real log -odds of DA clusters (positive for cluster 2 and negative for cluster 3). All of the above metrics are expected to increase with the amount of DA in clusters 2 and 3. Thus, we report their Spearman correlation with a (see Eq. (13)), together with their average values for a ≥ 0.3 (high DA). For scRatio, we choose the best results for different schedulers optimized over the mean AUC( a ≥ 0.3) metric. 
+
+Results. In Tab. 2, our model, especially with deterministic paths and σmin = 0 .1, achieves the best performance across all the metrics, except for CSP( a ≥ 0.3) , where MELD marginally overcomes it. We expand on the advantages of using scRatio against competing methods in Sec. C.4. 
+
+5.4. Batch Correction Evaluation Task. As a case study, we use scRatio to qualitatively as-sess the effectiveness of batch correction, a process that removes unwanted sources of variation from the data (tech-nical effects) while preserving meaningful signals (bio-logical effects). Let X := {(x(i)1 , y (i), b (i))}Ni=1 denote the set of N collected measurements, where y(i) and b(i)
+
+are, respectively, cell type and batch labels, and ˆx1 := 
+
+f (x(i)1 , y (i), b (i)) the batch-corrected representation of sam-ple x(i)1 , where f (x(i)1 , y (i), b (i)) is a correction function. We train our model to approximate the true ratio q(·| y(i),b (i))
+
+> q(·| y(i))
+
+first on samples x(i)1 and then on their corrected counterparts 
+
+ˆx(i)1 . We use the change in the estimated ratios as a proxy for correction quality. Specifically, we expect a substantial de-crease in the absolute value of the log -likelihood ratio upon successful correction, as conditioning on b(i) does not carry additional information about the samples (see Sec. C.5). 
+
+Datasets and Results. We consider the following datasets: (I) The NeurIPS 2021 dataset (Luecken et al., 2021), con-sisting of 90,261 bone marrow cells from 12 healthy hu-man donors. (II) The C. Elegans dataset (Packer et al., 2019), comprising 89,701 cells across 7 distinct experi-mental sources. For both datasets, we regressed out the 7Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics UMAP1    
+
+> UMAP2
+> Uncorrected Corrected Uncorrected Corrected
+
+NeurIPS Dataset  C. Elegans Dataset 
+
+> UMAP1
+> UMAP2
+
+a b
+
+Figure 3. Ratio-based batch correction evaluation on the NeurIPS 2021 (panel a) and C. Elegans (panel b) datasets. Left: Distribution of the absolute estimated log -ratio before and after batch correction for each of the measured batch and cell type combinations in the two datasets. Right: UMAP plots calculated before and after batch correction with scVI. To compute the UMAP, we use 50-dimensional representations obtained by PCA and scVI for uncorrected and corrected data, respectively. Batch names are annotated below each plot. UMAP1 
+
+> UMAP2  UMAP1
+> UMAP2
+> Mean absolute log-ratio (log-scale)
+> Mean absolute log-odds
+
+Figure 4. On the x-axis, the mean absolute log -likelihood ratio 
+
+log rθ 
+
+> 1
+
+(x1 | (d1, d 2), d 1) evaluated on cells perturbed with both 
+
+(d1, d 2) and only d1. On the y-axis, the mean log-odds of a clas-sifier trained to discriminate cells treated with (d1, d 2) from cells treated with d1 only. Each point is a combination. UMAP plots show extreme cases of the combinatorial effect and lack thereof. 
+
+distributional shift induced by the batch label using scVI (Lopez et al., 2018). In Fig. 3a-b, we confirm our hypoth-esis by observing a decrease in log -ratio magnitude upon batch correction, suggesting that scRatio could complement existing batch correction evaluations (Luecken et al., 2022) with a principled likelihood-based approach (see Fig. 10). 
+
+5.5. Drug Combination Effect Estimation Task and Dataset. Assessing treatment combinations is a key challenge in computational biology. In this experi-ment, we use likelihood ratios to detect interaction effects from combinatorial perturbations. For this, we analyze the ComboSciPlex dataset (Srivatsan et al., 2020), which con-tains 63,378 cells treated with either a single drug d1 or a combination (d1, d 2). We quantify the difference between cells treated with (d1, d 2) versus d1 alone by computing 
+
+log pθ   
+
+> 1(x|d1,d 2)
+> pθ
+> 1(x|d1)
+
+using scRatio. Significant interactions corre-spond to larger absolute values of the log -ratio, suggesting that single and double treatment populations do not mix. 
+
+Metrics. In the absence of ground truth, we evaluate the plausibility of the estimated likelihood ratios through their correlation with classifier performance. For each pair of single d1 and combined (d1, d 2) treatments, we train a bi-nary classifier inputting cell states to distinguish between the two conditions, and use the resulting absolute log -odds as a measure of distributional separation. We also estimate absolute log -ratios between the corresponding conditional likelihoods evaluated on cells treated with (d1, d 2) and d1
+
+only (see Sec. C.6). Good calibration between the quantities indicates that our model pinpoints combinatorial effects. 
+
+Results. In Fig. 4, mean absolute log -odds and log -likelihood ratios show positive correlation. Low values of both correspond to cases where adding d2 does not induce a state shift relative to a single treatment, whereas high values indicate a differential response between single perturbations and their combinations (UMAP plots in Fig. 4). Additional qualitative validation is available in Sec. E.5. 
+
+5.6. Patient-specific Treatment Response Estimation Task and Dataset. Next, we assess whether the log -likelihood ratios estimated by our model can be used to analyze the differential response of patients to treatment. We use a dataset of approximately 10 million PBMC cells from 12 donors (Oesinghaus et al., 2025). For each sample, cells are measured in their control state and perturbed by 90 different cytokines. Let X := {(x(i)1 , s (i), d (i))}Ni=1 be a set of N cells, where s(i) and d(i) are sample and cytokine treatment labels. Here, d ∈ { dc} ∪ { dk}, where dc is a control label and k ∈ { 1, ..., 90 } indicates the cytokine. For a cell x1 from donor s and a treatment dk, we use scRatio to compute log rθ 
+
+> 1
+
+(x1 | (s, d k), (s, d c)) = log pθ    
+
+> 1(x1|s,d k)
+> pθ
+> 1(x1|s,d c)
+
+.8Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics a b     
+
+> Group 1
+> Group 2
+> Strong response
+> IFN-omega
+> APRIL
+> IL-10
+> IFN-omega
+> APRIL
+> IL-10
+> Donors
+> Figure 5. Patient-specific differential response to perturbation. ( a) Depiction of the experimental setup. Following Oesinghaus et al. (2025), we divide donors into two groups responding differently to distinct cytokine treatments. (b) Absolute log -likelihood ratios between treated and control distributions evaluated on perturbed cells from different donor groups. A higher ratio indicates evidence of a strong response to a cytokine by a donor group, while log -ratios around 0 refer to a lower shift from controls.
+
+Positive average scores correspond to donor-treatment pairs showing a statistical difference between cases and controls. 
+
+Evaluation. In Oesinghaus et al. (2025), the authors identify cytokine treatments inducing a differential response between two groups of donors. In Fig. 5a, we illustrate our setup. We select two treatments that induce a strong shift from controls in one of the two groups (IL-10 for group 1 and IFN-omega for group 2), and one that exhibits a similar weak response in both groups (APRIL). For perturbed cells from different donors, we evaluate the log -likelihood ratio between treated cells and controls. In this setting, we qualitatively evaluate our results, inspecting whether the distribution of scores reflects the reported biological differences between donors. 
+
+Results. Fig. 5b shows that likelihood ratios estimated by our models reflect biological trends reported in the dataset. Higher statistical differences between treated and controls for IFN-omega and IL-10 lead to higher scores in patient groups 2 and 1, respectively, when compared to the coun-terpart group. Moreover, the distributions of log -ratios simi-larly center around zero for both groups for cytokine APRIL, confirming expectations. In line with our results, scRatio provides a tool for patient stratification and donor-based analysis in large perturbation cohorts. 
+
+## 6. Discussion 
+
+Summary. We introduce scRatio, a method for estimating likelihood ratios between pairs of intractable distributions by explicitly modeling the dynamics of the log-density ratio along sampling trajectories. We derive an ODE that governs the evolution of the log -ratio under arbitrary vector fields and approximate it using conditional flow-based generative models. By composing learned velocity fields and scores from multiple conditionings, scRatio tracks likelihood ratios directly along a single simulation path, avoiding redundant ODE solves. We demonstrate that this formulation cap-tures complex statistical dependencies across both synthetic benchmarks and real-world single-cell applications. 
+
+Limitations. When comparing distributions with limited or no overlap in support, the log -likelihood ratios are evaluated along vector fields that are non-generative for at least one of the densities in the ratio. This can lead to numerical instabilities and lower simulation quality, particularly in high-dimensional settings. In addition, the method incurs the overhead of training two separate neural networks for the score and the velocity field. 
+
+## Impact Statement 
+
+The presented work addresses a fundamental problem in probabilistic modeling for single-cell data by enabling effi-cient likelihood-based comparisons between complex condi-tional data distributions. By providing a principled approach to density ratio estimation, scRatio supports key biological analyses such as treatment effect estimation and evalua-tion of batch effects. We envision releasing scRatio as a user-friendly, open-source tool to facilitate its adoption in single-cell research. As scRatio operates on biological data, it may be applied in sensitive settings involving clinical information and patient-derived datasets. 
+
+## Acknowledgments 
+
+A.P. is supported by the Helmholtz Association under the joint research school Munich School for Data Science (MUDS). A.P. and F.J.T. acknowledge support from the European Union (ERC PoC CellCourier, grant number 101248740 and ERC DeepCell, grant number 101054957). Additionally, this work was supported by the Helmholtz Association within the framework of the Helmholtz Foun-dation Model Initiative (VirtualCell) and Networking Fund (CausalCellDynamics, grant # Interlabs-0029). 
+
+## References 
+
+Albergo, M. S. and Vanden-Eijnden, E. Building normaliz-ing flows with stochastic interpolants. In The Eleventh International Conference on Learning Representations ,2023. Bansal, A., Chu, H.-M., Schwarzschild, A., Sengupta, S., Goldblum, M., Geiping, J., and Goldstein, T. Universal 9Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics 
+
+guidance for diffusion models. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition , pp. 843–852, 2023. Boyeau, P., Hong, J., Gayoso, A., Kim, M., McFaline-Figueroa, J. L., Jordan, M. I., Azizi, E., Ergen, C., and Yosef, N. Deep generative modeling of sample-level het-erogeneity in single-cell genomics. Nature Methods , pp. 1–11, 2025. Burkhardt, D. B., Stanley III, J. S., Tong, A., Perdigoto, A. L., Gigante, S. A., Herold, K. C., Wolf, G., Giraldez, A. J., van Dijk, D., and Krishnaswamy, S. Quantify-ing the effect of experimental perturbations at single-cell resolution. Nature biotechnology , 39(5):619–629, 2021. Charpentier, B., Z ¨ugner, D., and G ¨unnemann, S. Posterior network: Uncertainty estimation without ood samples via density-based pseudo-counts. Advances in neural information processing systems , 33:1356–1367, 2020. Chen, C., Li, C., Chen, L., Wang, W., Pu, Y., and Duke, L. C. Continuous-time flows for efficient inference and density estimation. In Dy, J. and Krause, A. (eds.), Proceedings of the 35th International Conference on Machine Learning ,volume 80 of Proceedings of Machine Learning Research ,pp. 824–833. PMLR, 10–15 Jul 2018a. Chen, R. T. Q., Rubanova, Y., Bettencourt, J., and Duve-naud, D. K. Neural ordinary differential equations. In Bengio, S., Wallach, H., Larochelle, H., Grauman, K., Cesa-Bianchi, N., and Garnett, R. (eds.), Advances in Neural Information Processing Systems , volume 31. Cur-ran Associates, Inc., 2018b. Choi, K., Meng, C., Song, Y., and Ermon, S. Density ratio estimation via infinitesimal classification. In Interna-tional Conference on Artificial Intelligence and Statistics ,pp. 2552–2573. PMLR, 2022. Cranmer, K., Brehmer, J., and Louppe, G. The frontier of simulation-based inference. Proceedings of the National Academy of Sciences , 117(48):30055–30062, 2020. Dann, E., Henderson, N. C., Teichmann, S. A., Morgan, M. D., and Marioni, J. C. Differential abundance test-ing on single-cell data using k-nearest neighbor graphs. 
+
+Nature biotechnology , 40(2):245–253, 2022. Gutmann, M. U. and Hyv ¨arinen, A. Noise-contrastive esti-mation of unnormalized statistical models, with applica-tions to natural image statistics. The journal of machine learning research , 13(1):307–361, 2012. Heumos, L., Schaar, A. C., Lance, C., Litinetskaya, A., Drost, F., Zappia, L., L ¨ucken, M. D., Strobl, D. C., Henao, J., Curion, F., et al. Best practices for single-cell analysis across modalities. Nature Reviews Genetics , 24(8):550– 572, 2023. Ho, J. and Salimans, T. Classifier-free diffusion guidance. In NeurIPS 2021 Workshop on Deep Generative Models and Downstream Applications , 2021. Jing, B., Corso, G., Chang, J., Barzilay, R., and Jaakkola, T. Torsional diffusion for molecular conformer generation. 
+
+Advances in neural information processing systems , 35: 24240–24253, 2022. Jovic, D., Liang, X., Zeng, H., Lin, L., Xu, F., and Luo, Y. Single-cell rna sequencing technologies and applications: A brief overview. Clinical and translational medicine , 12 (3):e694, 2022. Karczewski, R., Heinonen, M., and Garg, V. Devil is in the details: Density guidance for detail-aware genera-tion with flow models. arXiv preprint arXiv:2502.05807 ,2025a. Karczewski, R., Heinonen, M., and Garg, V. Diffusion models as cartoonists: The curious case of high density regions. In The Thirteenth International Conference on Learning Representations , 2025b. Klein, D., Fleck, J. S., Bobrovskiy, D., Zimmermann, L., Becker, S., Palma, A., Dony, L., Tejada-Lapuerta, A., Huguet, G., Lin, H.-C., et al. Cellflow enables genera-tive single-cell phenotype modeling with flow matching. 
+
+bioRxiv , pp. 2025–04, 2025. Kuleshov, V. and Deshpande, S. Calibrated and sharp un-certainties in deep learning via density estimation. In In-ternational Conference on Machine Learning , pp. 11683– 11693. PMLR, 2022. Lipman, Y., Chen, R. T. Q., Ben-Hamu, H., Nickel, M., and Le, M. Flow matching for generative modeling. In The Eleventh International Conference on Learning Repre-sentations , 2023. Liu, N., Li, S., Du, Y., Torralba, A., and Tenenbaum, J. B. Compositional visual generation with composable diffu-sion models. In European conference on computer vision ,pp. 423–439. Springer, 2022a. Liu, X., Gong, C., and Liu, Q. Flow straight and fast: Learning to generate and transfer data with rectified flow. 
+
+arXiv preprint arXiv:2209.03003 , 2022b. Lopez, R., Regier, J., Cole, M. B., Jordan, M. I., and Yosef, N. Deep generative modeling for single-cell transcrip-tomics. Nature methods , 15(12):1053–1058, 2018. Luecken, M. D., Burkhardt, D. B., Cannoodt, R., Lance, C., Agrawal, A., Aliee, H., Chen, A. T., Deconinck, L., Detweiler, A. M., Granados, A. A., et al. A sandbox for prediction and integration of dna, rna, and proteins in 10 Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics 
+
+single cells. In Thirty-fifth conference on neural informa-tion processing systems datasets and benchmarks track (Round 2) , 2021. Luecken, M. D., B ¨uttner, M., Chaichoompu, K., Danese, A., Interlandi, M., M ¨uller, M. F., Strobl, D. C., Zappia, L., Dugas, M., Colom ´e-Tatch ´e, M., et al. Benchmark-ing atlas-level data integration in single-cell genomics. 
+
+Nature methods , 19(1):41–50, 2022. No ´e, F., Olsson, S., K ¨ohler, J., and Wu, H. Boltzmann gener-ators: Sampling equilibrium states of many-body systems with deep learning. Science , 365(6457):eaaw1147, 2019. Oesinghaus, L., Becker, S., Vornholz, L., Papalexi, E., Pan-gallo, J., Moinfar, A. A., Liu, J., Fleur, A. L., Shulman, M., Marrujo, S., et al. A single-cell cytokine dictionary of human peripheral blood. bioRxiv , pp. 2025–12, 2025. Otto, D. J., Jordan, C., Dury, B., Dien, C., and Setty, M. Quantifying cell-state densities in single-cell phenotypic landscapes using mellon. Nature Methods , 21(7):1185– 1195, 2024. Packer, J. S., Zhu, Q., Huynh, C., Sivaramakrishnan, P., Preston, E., Dueck, H., Stefanik, D., Tan, K., Trapnell, C., Kim, J., et al. A lineage-resolved molecular atlas of c. elegans embryogenesis at single-cell resolution. Science ,365(6459):eaax1971, 2019. Rhodes, B., Xu, K., and Gutmann, M. U. Telescoping density-ratio estimation. Advances in neural information processing systems , 33:4905–4916, 2020. Silverman, B. W. Density estimation for statistics and data analysis . Routledge, 2018. Skreta, M., Akhound-Sadegh, T., Ohanesian, V., Bondesan, R., Aspuru-Guzik, A., Doucet, A., Brekelmans, R., Tong, A., and Neklyudov, K. Feynman-kac correctors in diffu-sion: Annealing, guidance, and product of experts. arXiv preprint arXiv:2503.02819 , 2025a. Skreta, M., Atanackovic, L., Bose, J., Tong, A., and Nek-lyudov, K. The superposition of diffusion models using the it ˆo density estimator. In The Thirteenth International Conference on Learning Representations , 2025b. Song, Y., Sohl-Dickstein, J., Kingma, D. P., Kumar, A., Er-mon, S., and Poole, B. Score-based generative modeling through stochastic differential equations. In International Conference on Learning Representations , 2021. Srivatsan, S. R., McFaline-Figueroa, J. L., Ramani, V., Saun-ders, L., Cao, J., Packer, J., Pliner, H. A., Jackson, D. L., Daza, R. M., Christiansen, L., et al. Massively multi-plex chemical transcriptomics at single-cell resolution. 
+
+Science , 367(6473):45–51, 2020. Sugiyama, M., Suzuki, T., and Kanamori, T. Density ratio estimation: A comprehensive review. 2010. Tong, A., Fatras, K., Malkin, N., Huguet, G., Zhang, Y., Rector-Brooks, J., Wolf, G., and Bengio, Y. Improv-ing and generalizing flow-based generative models with minibatch optimal transport. Transactions on Machine Learning Research , 2024a. ISSN 2835-8856. Expert Certification. Tong, A. Y., Malkin, N., Fatras, K., Atanackovic, L., Zhang, Y., Huguet, G., Wolf, G., and Bengio, Y. Simulation-free Schr ¨odinger bridges via score and flow matching. In Das-gupta, S., Mandt, S., and Li, Y. (eds.), Proceedings of The 27th International Conference on Artificial Intelligence and Statistics , volume 238 of Proceedings of Machine Learning Research , pp. 1279–1287. PMLR, 02–04 May 2024b. Traag, V. A., Waltman, L., and van Eck, N. J. From louvain to leiden: guaranteeing well-connected communities. Sci-entific Reports , 9(1), March 2019. ISSN 2045-2322. doi: 10.1038/s41598-019-41695-z. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., and Polosukhin, I. At-tention is all you need. Advances in neural information processing systems , 30, 2017. Wang, H., Torous, W., Gong, B., and Purdom, E. Visualizing scrna-seq data at population scale with gloscope. Genome Biology , 25(1):259, 2024. Yu, H., Klami, A., Hyvarinen, A., Korba, A., and Chehab, O. Density ratio estimation with conditional probabil-ity paths. In Forty-second International Conference on Machine Learning , 2025. Zheng, G. X. Y., Terry, J. M., Belgrader, P., Ryvkin, P., Bent, Z. W., Wilson, R., Ziraldo, S. B., Wheeler, T. D., McDermott, G. P., Zhu, J., Gregory, M. T., Shuga, J., Montesclaros, L., Underwood, J. G., Masquelier, D. A., Nishimura, S. Y., Schnall-Levin, M., Wyatt, P. W., Hind-son, C. M., Bharadwaj, R., Wong, A., Ness, K. D., Beppu, L. W., Deeg, H. J., McFarland, C., Loeb, K. R., Va-lente, W. J., Ericson, N. G., Stevens, E. A., Radich, J. P., Mikkelsen, T. S., Hindson, B. J., and Bielas, J. H. Mas-sively parallel digital transcriptional profiling of single cells. Nature Communications , 8(1), January 2017. ISSN 2041-1723. doi: 10.1038/ncomms14049. Zheng, Q., Le, M., Shaul, N., Lipman, Y., Grover, A., and Chen, R. T. Guided flows for generative modeling and decision making. arXiv preprint arXiv:2311.13443 , 2023. 11 Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics 
+
+## A. Code Availability 
+
+We made our code available at scRatio repo. All datasets are public and extracted from the cited publications. 
+
+## B. Theoretical Supplement 
+
+B.1. Derivation of the Conditional Vector Field 
+
+Consider the following conditional Gaussian probability path from Lipman et al. (2023): 
+
+xt ∼ pt(xt | x1) := N (αtx1, σ 2 
+
+> t
+
+Id) , (14) where x1 ∼ q(x1) is a data point from the data distribution q, t ∈ [0 , 1] and (αt, σ t) is a time-dependent scheduler. In the simplest setting, α0 = σ1 = 0 and α1 = σ0 = 1 . Nevertheless, we also consider the option of adding noise around the data by setting σ1 = σmin , where σmin is a small constant (see Sec. B.4). In the conditional setting, one can draw a sample from pt(· | x1) in closed form: 
+
+xt = αtx1 + σtϵ, ϵ ∼ N (0d, Id) .
+
+As the path from the realization of a noise variable ϵ and data is tractable, its time derivative can be written as: 
+
+ut(xt | x1) = ˙ αtx1 + ˙ σtϵ
+
+= ˙ αtx1 + ˙σt
+
+σt
+
+(xt − αtx1) , (15) where we used ϵ = xt−αtx1 
+
+> σt
+
+.
+
+B.2. Relationship Between Score and Vector Field 
+
+The score of the logarithm of the conditional Gaussian paths in Eq. (14) is: 
+
+∇xt log pt(xt | x1) = − xt − αtx1
+
+σ2
+
+> t
+
+. (16) Following Zheng et al. (2023), we isolate x1 and plug the result into Eq. (15). Thus, we get the following relationship: 
+
+ut(xt | x1) = ˙αt
+
+αt
+
+xt + σt
+
+αt
+
+( ˙ αtσt − αt ˙σt)∇xt log pt(xt | x1) . (17) The relationship between the conditional score and vector field holds for the marginals as well. Setting at := ˙αt 
+
+> αt
+
+and 
+
+bt := σt 
+
+> αt
+
+( ˙ αtσt − αt ˙σt), and using the following results from Zheng et al. (2023) 
+
+∇xt log pt(xt) = 
+
+Z
+
+∇xt log pt(xt | x1) pt(xt | x1)q(x1)
+
+pt(xt) dx1
+
+=
+
+Z
+
+∇xt log pt(xt | x1)pt(x1 | xt)d x1 ,
+
+(18) one can show that 
+
+ut(xt) = 
+
+Z
+
+ut(xt | x1)pt(x1 | xt)d x1 (19) 
+
+=
+
+Z
+
+[atxtpt(x1 | xt) + bt∇xt log pt(xt | x1)pt(x1 | xt)] d x1 (20) 
+
+= atxt
+
+Z
+
+pt(x1 | xt)d x1 + bt
+
+Z
+
+∇xt log pt(xt | x1)pt(x1 | xt)d x1 (21) 
+
+= atxt + bt∇xt log pt(xt) . (22) 12 Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics 
+
+Table 3. Closed-form conditional vector field ut(xt | x1) and score ∇xt log pt(xt | x1) for different conditional probability path schemes. The tuple (αt, σ t) represents the schedule of the path between noise and data. A more detailed description of the schedules is in Sec. B.4.                                                                           
+
+> αtσtut(xt|x1)∇xtlog pt(xt|x1)
+> t1−t(x1−xt)/(1 −t)(tx1−xt)/(1 −t)2
+> t1−(1 −σmin )t(x1−(1 −σmin )xt)/(1 −(1 −σmin )t)(tx1−xt)/(1 −t+tσ min )2
+> tC=(1 −λ)t2+ ( λ−2) t+ 1 12((( λ−2) t+ 2) x1+ ( λ+ 2(1 −λ)t−2) xt)/(2 C2)(tx1−xt)/((1 −λ)t2+ ( λ−2) t+ 1)
+
+Table 4. Closed-form relation between score and vector field for different noise schedules. The tuple (αt, σ t) represents the schedule of the path between noise and data, while ( ˙ αt, ˙σt) is the respective time derivative. The relationship between score and vector field is obtained from Eq. (11).                                                                                       
+
+> αtσt˙αt˙σt∇xtlog pθt(xt)uθt(xt)
+> t1−t1−1(tu θt(xt)−xt)/(1 −t)(xt+ (1 −t)∇xtlog pθt(xt)) /t t1−(1 −σmin )t1σmin −1(tu θt(xt)−xt)/(1 −(1 −σmin )t)(xt+ (1 −(1 −σmin )t)∇xtlog pθt(xt)) /t tC=(1 −λ)t2+ ( λ−2) t+ 1 121(λ−2( λ−1) t−2) /2C(2( tu θt(xt)−xt)) /(( λ−2) t+ 2) (2 xt+ (( λ−2) t+ 2) ∇xtlog pθt(xt)) /2t
+
+B.3. Reparameterization Challenges 
+
+We provide a list of the closed-form objectives for the conditional score and vector field across scheduling approaches in Tab. 3, as both can be evaluated analytically following Eq. (15) and Eq. (16). Moreover, we expand on the different schedules presented in Tab. 3 in Sec. B.4. Based on Sec. B.2, one can learn the relationship between the score and the generating vector field, retrieving the counterpart through reparameterization in Eq. (11). In Tab. 4 we list the explicit equations tying the score and the generating vector field together in the marginal setting. One of the main challenges of this approach is the stability of the reparameterization method, where most of the tractable results from evaluating Eq. (11) explode at certain values of t.
+
+Score explosion. At t = 1 , the score takes high values as the probability path concentrates most of the mass around the data. This results in the division by a low number in the conditional case, and in most of the reparameterization settings in Tab. 4. 
+
+Vector field explosion. Given an approximation for the marginal score, deriving the vector field implies a division by 
+
+0 at t = 0 (see Tab. 4). However, if we learn the exact marginal score in Eq. (18), the proportionality with 1/t would cancel out. In fact, by the linearity of the conditional formulation, one can write the marginal score in Eq. (18) as 
+
+∇xt log pt(xt) = ( Ept(x1|xt)[x1] − xt)/σ 2 
+
+> t
+
+and plug it into Eq. (17), yielding: 
+
+ut(xt) = ˙αt
+
+αt
+
+xt + σt
+
+αt
+
+( ˙ αtσt − αt ˙σt) αtEpt(x1|xt)[x1] − xt
+
+σ2
+
+> t
+
+= ˙αt
+
+αt
+
+xt + ˙αt
+
+αt
+
+αtEpt(x1|xt)[x1] − xt
+
+ − ˙σt
+
+σt
+
+αtEpt(x1|xt)[x1] − xt
+
+
+
+= ˙σt
+
+σt
+
+xt + ˙ αtEpt(x1|xt)[x1] − ˙σt
+
+σt
+
+αtEpt(x1|xt)[x1]= ˙σtxt + ( ˙ αtσt − αt ˙σt)Ept(x1|xt)[x1]
+
+σt
+
+. (23) Note that Eq. (23) does not have αt in the denominator. However, given a parameterization sψ of the score, we have 
+
+sψ ≈ ∇ xt log pt(xt). Thus, computing the vector field as a function of a parameterized score still involves a division by a low number, causing numerical instability. 
+
+B.4. Explanation of the Schedules 
+
+In the above Tab. 3 and Tab. 4, we introduce three different scheduling options. We differentiate between schedules using the following taxonomy: • Deterministic path between noise samples and data. Point mass around the data. • Deterministic path between noise samples and data. Gaussian distribution around the data. • Gaussian distribution around the path between the noise samples and the data. Point mass around the data. Note that, while the probability paths are always stochastic in flow matching, the standard formulation form Lipman et al. 13 Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics 
+
+(2023) involves deterministic interpolations between the data and the prior distribution, once the prior samples are fixed. In the following, we use Eq. (4) as a reference for the probability path. 
+
+Deterministic path between noise samples and data. Point mass around the data. The schedule consisting of αt = t
+
+and σt = 1 − t defines a deterministic interpolation between a noise sample ϵ ∼ N (0d, Id) and a data point x1. This can be easily seen after rewriting the formula for xt:
+
+xt = tx1 + (1 − t)ϵ . (24) In other words, the interpolation exactly retrieves x1 and ϵ at times t = 1 and t = 0 , respectively. 
+
+Deterministic path between noise samples and data. Gaussian distribution around the data. A common approach is to set a small variance σmin at t = 1 (Lipman et al., 2023), preventing probability paths from degenerating at the data. This leads to αt = t and σt = 1 − (1 − σmin )t.
+
+Gaussian distribution around the path between the noise samples and the data. Point mass around the data. The last schedule we explore sets αt = t and σt = (1 − λ)t2 + ( λ − 2) t + 1  12 . This is equivalent to drawing noise samples from ϵ ∼ N (0d, Id) and adding Gaussian noise to the path in Eq. (24) with variance λ t (1 − t), as in Tong et al. (2024b). Specifically, we can rewrite this setting as follows: 
+
+xt ∼ N (μt, λ t (1 − t)Id) ,
+
+μt ∼ N (αtx1, (1 − t)2Id) . (25) The above hierarchical model can be collapsed into a single Gaussian path with, as variance, the sum of the variances of the two nested models. One can draw a sample thereof as: 
+
+xt = μt + pλ t (1 − t)ϵ
+
+= ( αtx1 + (1 − t)ϵ′) + pλ t (1 − t)ϵ
+
+= αtx1 + ((1 − t)ϵ′ + pλ t (1 − t)ϵ) ,
+
+(26) with ϵ, ϵ ′ ∼ N (0d, Id). By the property of the sum of Gaussian distributions, Eq. (26) implies: 
+
+xt ∼ N (αtx1, [λ t (1 − t) + (1 − t)2]Id)= N (αtx1, [(1 − λ)t2 + ( λ − 2) t + 1] Id) , (27) which is the schedule reported in Tab. 3 and Tab. 4. In the simplest case where λ = 1 , σt = √1 − t.
+
+B.5. Proof of Theorem 4.1 
+
+Let xt ∈ Rd be an integral trajectory as the solution of the following ODE: 
+
+ddt xt = bt(xt) , (28) with t ∈ [0 , 1] . Moreover, let {pt(xt)}t∈[0 ,1] and {p′
+
+> t
+
+(xt)}t∈[0 ,1] be two probability paths generated, respectively, by the vector fields {ut(xt)}t∈[0 ,1] and {u′
+
+> t
+
+(xt)}t∈[0 ,1] according to the continuity equation: 
+
+∂∂t pt(x) = −∇ ·  pt(x) ut(x), (29) 
+
+∂∂t p′
+
+> t
+
+(x) = −∇ ·  p′
+
+> t
+
+(x) u′
+
+> t
+
+(x) , (30) such that p0 = p′ 
+
+> 0
+
+= N (0d, Id). Note that these paths correspond to two distinct generative models sampling the data distribution starting from standard Gaussian noise. We define the logarithm of the time-marginal density ratio as the solution of the following ODE: 
+
+ddt log rt(xt) := ddt log pt(xt)
+
+p′
+
+> t
+
+(xt) (31) 
+
+:= ddt log pt(xt) − ddt log p′
+
+> t
+
+(xt) , (32) 14 Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics 
+
+with log r0(x0) = 0 .We express the total derivative of the individual densities as follows: 
+
+ddt log pt(xt) = 1
+
+pt(xt)ddt pt(xt) (33) 
+
+= 1
+
+pt(xt)
+
+ ∂∂t pt(xt) + ( ∇xt pt(xt)) ⊤ ddt xt
+
+
+
+(34) 
+
+= 1
+
+pt(xt)
+
+−∇ xt ·  pt(xt)ut(xt) + ( ∇xt pt(xt)) ⊤bt(xt) (35) 
+
+= 1
+
+pt(xt)
+
+−(∇xt pt(xt)) ⊤ut(xt) − pt(xt) ∇xt · ut(xt) + ( ∇xt pt(xt)) ⊤bt(xt) (36) 
+
+= −∇ xt · ut(xt) +  bt(xt) − ut(xt)⊤ ∇xt pt(xt)
+
+pt(xt) (37) 
+
+= −∇ xt · ut(xt) +  bt(xt) − ut(xt)⊤∇xt log pt(xt). (38) and 
+
+ddt log p′
+
+> t
+
+(xt) = 1
+
+p′
+
+> t
+
+(xt)ddt p′
+
+> t
+
+(xt) (39) 
+
+= 1
+
+p′
+
+> t
+
+(xt)
+
+ ∂∂t p′
+
+> t
+
+(xt) + ( ∇xt p′
+
+> t
+
+(xt)) ⊤ ddt xt
+
+
+
+(40) 
+
+= 1
+
+p′
+
+> t
+
+(xt)
+
+−∇ xt ·  p′
+
+> t
+
+(xt)u′
+
+> t
+
+(xt) + ( ∇xt p′
+
+> t
+
+(xt)) ⊤bt(xt) (41) 
+
+= 1
+
+p′
+
+> t
+
+(xt)
+
+−(∇xt p′
+
+> t
+
+(xt)) ⊤u′
+
+> t
+
+(xt) − p′
+
+> t
+
+(xt) ∇xt · u′
+
+> t
+
+(xt) + ( ∇xt p′
+
+> t
+
+(xt)) ⊤bt(xt) (42) 
+
+= −∇ xt · u′
+
+> t
+
+(xt) −  u′
+
+> t
+
+(xt) − bt(xt)⊤ ∇xt p′
+
+> t
+
+(xt)
+
+p′
+
+> t
+
+(xt) (43) 
+
+= −∇ xt · u′
+
+> t
+
+(xt) −  u′
+
+> t
+
+(xt) − bt(xt)⊤∇xt log p′
+
+> t
+
+(xt). (44) Then we plug the results from Eq. (38) and Eq. (44) into Eq. (32) to get: 
+
+ddt log rt(xt) = ∇xt ·  u′
+
+> t
+
+(xt) − ut(xt)
+
++  bt(xt) − ut(xt)⊤ ∇xt log pt(xt) +  u′
+
+> t
+
+(xt) − bt(xt)⊤ ∇xt log p′
+
+> t
+
+(xt).
+
+(45) 
+
+B.6. Remarks on Theorem 4.1 
+
+We provide an interpretation of the effect of the individual terms in Eq. (45) on the density ratio as follows: (I) rt(xt) increases when the field ut concentrates probability mass more strongly around xt than u′
+
+> t
+
+, as quantified by 
+
+∇xt · (u′
+
+> t
+
+(xt) − ut(xt)) . This suggests that the mass aggregates more at the numerator than at the denominator of the ratio. (II)  bt(xt) − ut(xt)⊤ ∇xt log pt(xt) and  u′
+
+> t
+
+(xt) − bt(xt)⊤ ∇xt log p′
+
+> t
+
+(xt) suggest that: • rt(xt) decreases when p′ 
+
+> t
+
+grows faster along its generated field u′ 
+
+> t
+
+than the simulating field bt.• rt(xt) increases when pt grows faster along its generated field ut than the simulating field bt.In other words, these terms can be interpreted as correction terms that account for the fact that the densities in the ratio are tracked along trajectories that do not correspond to their own generating vector fields. Either term vanishes when the simulation field bt coincides with ut or u′
+
+> t
+
+.
+
+B.7. Integral Ratio Formulation with bt(xt) := ut(xt)
+
+In Eq. (10) we write the explicit formulation of the log -likelihood ratios between conditional densities when the simulating field is also the generating field of the numerator (S1 setting). Here, we provide the same formulation for S2 when the 15 Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics 
+
+simulating vector field bt(xt) is the velocity uθt (xt) generating the unconditional density pθt (xt):
+
+log rθ 
+
+> 1
+
+(x1 | y, y′) = −
+
+Z 01
+
+[∇xt ·(uθt (xt | y′) − uθt (xt | y)) + ( uθt (xt | y′) − uθt (xt)) ⊤∇xt log pθt (xt | y′) (46) 
+
++ ( uθt (xt) − uθt (xt | y)) ⊤∇xt log pθt (xt | y)]d t
+
+with xt = x1 +
+
+Z t
+
+> 1
+
+uθs (xs)d s . 
+
+Note that, different from Eq. (10), none of the terms disappear, similar to the general setting described in Theorem 4.1. As explained in Sec. 4.4, uθt (xt) follows the same parameterization as the conditional counterpart and can be achieved during training by replacing the conditioner with an empty token ∅ with a certain probability β.
+
+S1 vs. S2 choice (Sec. 4.2). We use S1 across the whole paper, except for the MI experiment in Sec. 5.2, where S2 worked significantly better in a high-dimensional setting (especially for d = 320 ). Empirically, we recommend working with S2 in the presence of a lower overlap between the conditional densities in the ratio and a higher dimensionality, while prioritizing S1 in all other cases for efficiency. 
+
+## C. Experimental Setup 
+
+C.1. Parameterizations 
+
+As explained in Sec. B.3, we parameterize the score and the vector field with neural networks. Our model consists of the following units: 1. Encoder: A fully connected neural network that encodes observations into a latent space. The number of latent dimensions is a hyperparameter. 2. Condition representation network: A neural network that takes one-hot-encoded conditions as input and returns a dense representation. 3. Time encoder: A standard sinusoidal time encoder (Vaswani et al., 2017) followed by a fully-connected representation module. 4. Separate score and vector field head: Two fully connected neural networks inputting a concatenation between latent state, time, and condition encodings and outputting predictions for the marginal score and vector fields (see Tab. 4 for the conditional objectives used for the optimization). For all modules, we use the SELU activation function. Moreover, we fix the architecture of both the score and vector field heads to 1024 neurons for three layers. 
+
+C.2. Gaussian Simulation Experiment Task. In the first synthetic experiment, we follow Yu et al. (2025) and evaluate the model on estimating closed-form 
+
+log -likelihood ratios on multivariate Gaussian distributions. We consider the following tractable ratio: 
+
+log r(x) = log q(x)
+
+q′(x) ,q = N (s1d, Id) q′ = N (0d, Id) ,
+
+where 1d is the d-dimensional all-ones vector, s ∈ { 1, 2} a scalar defining different datasets, and x ∈ Rd. For each value of 
+
+s, we consider the model’s performance across d ∈ { 2, 5, 10 , 20 , 30 }.
+
+Choices for scRatio. We use a condition-aware flow matching model {pθt (xt | y)}t∈[0 ,1] , with parameterized vector field 
+
+{uθt (xt | y)}t∈[0 ,1] , to implement scRatio. Here, pθt (· | y = 0) and pθt (· | y = 1) approximate, respectively, q′ and q. After training the flow model, we simulate the ratio using Theorem 4.1 as a simulation field while tracking the ratio. As a dataset, we sample 100,000 points from the two distributions and split them into 90% training and 10% test sets. Models are trained with a learning rate of 1e-4 across 100,000 steps. The results are averaged across 5 repetitions. 16 Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics 
+
+scRatio Parameter Sweep. As presented in Sec. 5.1, we evaluate our approach across different schedulers. The results shown in Fig. 2 are based on, for each scheduler, the configuration that yielded the best test-set performance. Alongside the scheduling hyperparameters, we also consider model size and encoding mechanisms, and provide the grid of tested hyperparameters in Tab. 5.  
+
+> Table 5. The hyperparameter grid explored for the Gaussian simulation dataset. Each model with a different configuration of hyperparam-eters is compared based on the test-set ratio estimation performance measured as MSE.
+
+Hyperparameters Values Latent space size 32, 64, 128, 256, 512 
+
+λ 0, 0.1, 0.25, 0.5, 0.75, 1 
+
+σmin 0, 1e-4, 1e-3, 0.01, 0.1 Use sinusoidal time embedding True, False Sinusoidal time embedding size 32, 64, 128 Condition embedding size 32, 64, 128 
+
+Baselines. For this experiment, we compare scRatio with three baselines. • Naive approach: In the naive approach, instead of estimating the ratio according to Theorem 4.1, we separately evaluate the numerator and denominator likelihoods. Notably, the difference between scRatio and the naive approach is only at inference time. Therefore, in our results, we use the same trained conditional model to evaluate both scRatio and the naive solution to exclude any performance differences grounded in neural network optimization. • Time Score Matching (TSM) (Choi et al., 2022): TSM relies on probability paths between pairs of densities. For convenience, given a point x ∈ Rd, we restate the task as the estimation of the following ratio between pairs of probability distributions: 
+
+log r(x) = log p1(x)
+
+p0(x) ,
+
+where p0(x) and p1(x) are two densities over Rd. Let {pt(xt)}t∈[0 ,1] be a time-resolved interpolant between p0(x)
+
+and p1(x). One can express the ratio between densities as follows: 
+
+log r(x) = log p1(x)
+
+p0(x) =
+
+Z 10
+
+∂∂t log pt(x)d t . 
+
+Hence, the goal of TSM is to parameterize the time-score ∂∂t log pt(x)d t with a neural network sψt (x) and integrate it through time. More specifically, Choi et al. (2022) uses the following simulation-free objective relying on integration by parts: 
+
+LTSM (ψ) = 2 Ep0(x)
+
+h
+
+sψ 
+
+> 0
+
+(x)
+
+i
+
+− 2 Ep1(x)
+
+h
+
+sψ 
+
+> 1
+
+(x)
+
+i
+
++ Ept(x)
+
+
+
+2 ∂∂t sψt (x) + 2 ˙λ(t) sψt (x) + λ(t) sψt (x)2
+
+
+
+,
+
+with λ(t) representing a time-dependent weighting function. • Conditional Time Score Matching (CTSM) (Yu et al., 2025): CTSM borrows concepts from flow matching (Albergo & Vanden-Eijnden, 2023; Lipman et al., 2023; Tong et al., 2024a) to define a TSM objective conditioned on the data points. By defining a tractable interpolation between samples from p0 and p1, the time-score of the conditional pt
+
+is available in closed form and can be regressed against. In analogy with flow matching, regressing the conditional version of the CTSM objective corresponds to learning the marginal TSM in expectation. Moreover, the authors offer a vectorized variant (CTSMv), where they split the optimization problem across the d dimensions. 
+
+Choice of Sample-based Ratio Estimation Variants for TSM and CTSM. In the simulation experiments described in Sec. 5.1 and Sec. 5.2, one of the two densities in the ratio is a closed-form standard normal. This opens the door to assuming tractability of p0 and using closed-form probabilistic interpolants relying exclusively on samples from p1.For a fair comparison with scRatio, which does not assume any distributional form for either the numerator or denominator of the density ratio, we focus on the CTSM and TSM model variants with Schr ¨odinger Bridge (SB) probability paths. In essence, instead of relying on schedules interpolating between the data and a standard normal distribution, we define paths 17 Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics 
+
+between samples from both distributions as stochastic interpolants. Let x0 ∼ p0(x0) and x1 ∼ p1(x1) be samples from the two distributions whose ratio we seek to estimate. The SB path is: 
+
+xt = tx1 + (1 − t)x0 + σpt(1 − t)ϵ , 
+
+where, in our experiments, we fix σ = 1 following the original CTSM publication (Yu et al., 2025) and ϵ ∼ N (0d, Id). Note that, with this formulation, p0 can be any distribution for which samples are available, allowing for data-driven likelihood ratio estimation similar to scRatio. 
+
+Note on the difference between scRatio, TSM, and CTSM. scRatio has the same goal as CTSM and TSM, but it is methodologically very different. TSM-based methods use interpolations between densities to derive their ratio, while scRatio achieves the ratio-modeling objective by combining vector fields and density scores of different models along trajectories from data to noise. Our model is flexible; it enables custom conditioning of the generative fields to compare and enables versatile modeling questions. 
+
+C.3. Mutual Information Estimation Experiment Task. In this experiment, we use density ratios as a proxy for Mutual Information (MI) estimation. More specifically, we consider the following two Gaussian distributions: 
+
+q = N (0d, Σ) , q ′ = N (0d, Id) ,
+
+where d is an even number of dimensions and Σ is a block-diagonal matrix of 2 × 2 blocks with 1’s on the diagonals and 0.8 in the off-diagonal entries. In other words, each odd dimension k is correlated with the even dimension k + 1 and uncorrelated with the others. Given this structured setup and an observation x ∼ q(x), one can show that the expectation of the log density ratio between 
+
+q and q′ corresponds to the MI between the vectors xodd = ( x1, x 3, ..., x d−1) and xeven = ( x2, x 4, ..., x d).
+
+Relationship between MI and density ratio. Consider the two multivariate random variables Xeven and Xodd representing the even and odd dimensions of X, respectively. Individually, Xeven and Xodd are multivariate standard normal as: • Odd dimensions are correlated only with even dimensions (and vice versa) and uncorrelated with each other. • The individual dimensions of a multivariate Gaussian random variable are also normally distributed. In other words, the following is true: 
+
+q(Xeven ) = q(Xodd ) = N (0 d
+
+> 2
+
+, I d
+
+> 2
+
+), q(Xeven , X odd ) = N (0d, Σ) . (47) Now, we write the MI as a Kullback-Leibler (KL) divergence: 
+
+I(Xeven , X odd ) = Eq(Xeven ,X odd )
+
+
+
+log q(Xeven , X odd )
+
+q(Xeven )q(Xodd )
+
+
+
+= Eq(Xeven ,X odd )
+
+
+
+log q(X)
+
+q′(X)
+
+
+
+,
+
+(48) where the last step follows from the fact that Xeven and Xodd are independent multivariate standard normal random variables and their concatenation X = ( Xeven , X odd ) follows a standard multivariate normal distribution, i.e., q′(X) = N (0d, Id).In other words, considering a Monte Carlo approximation of the MI in Eq. (48), we can estimate the MI by averaging an estimate of the log -likelihood ratio between distributions over samples from q.
+
+Ground truth MI. By the properties of the multivariate normal distribution, the ground truth MI of Eq. (48) is available in closed form as follows: 
+
+I(Xeven , X odd ) = 12 log 
+
+ 1
+
+|Σ|
+
+
+
+,
+
+where we indicate with |Σ| the determinant of the covariance matrix of q. Since Σ is a block diagonal, we have: 
+
+|Σ| = |Σ(b)| d 
+
+> 2
+
+,
+
+18 Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics 
+
+where Σ(b) is a single block. Hence, the actual MI depends on the dimensionality of the data (see Tab. 6 for the ground truth values). Here, we use the real MI as a ground truth for our experiments.  
+
+> Table 6. The real MI values for different data dimensions.
+
+d MI 20 5.11 40 10.22 80 20.43 160 40.86 320 81.73 
+
+Dataset and Evaluation. We consider a dataset of 100,000 data points drawn independently from both distributions. Out of these, we leave out 10,000 samples from q as a test set. The models are evaluated based on the Mean Absolute Error (MAE) between the average log -likelihood ratio estimated on the samples from q and the ground truth MI. 
+
+Choices for scRatio. We train scRatio as in Sec. C.2, considering a smaller grid for hyperparameter tuning that focuses on scheduling (see Tab. 7). Additionally, in this experiment, we leverage S2 from Sec. 4.2 and set bt(x) from Theorem 4.1 to 
+
+bt(x) := uθt (xt), namely the field generating the unconditional distribution pθt (xt), as we empirically find that it improves the results. As mentioned in Sec. B.7, this practice does not require training the unconditional field separately from the rest. In our experiments, we replace the condition y with the empty condition token ∅ with a 50 % frequency.  
+
+> Table 7. The hyperparameter grid explored for the MI estimation experiment.
+
+Hyperparameters Values 
+
+λ 0, 0.1, 0.25, 0.5 
+
+σmin 0, 0.01, 0.1 
+
+Baselines. We choose TSM and CTSM with SB paths as in Sec. C.2. 
+
+C.4. Differential Abundance Experiment Task. In this experiment, we show how to use scRatio for the Differential Abundance (DA) estimation task. DA is a standard analysis in single-cell perturbation studies that estimates whether a cellular state is significantly enriched in a condition (e.g., a donor or a perturbation) compared to another. 
+
+Dataset. We provide a description of the data in Sec. 5.3. In essence, we create a synthetic version of the popular PBMC68k dataset (Zheng et al., 2023) by assigning different proportions of synthetic treatment labels to four different clusters, derived with the Leiden algorithm (Traag et al., 2019) with a resolution parameter of 0.4. By varying the parameter a in Eq. (13), we create more or less differentially abundant clusters for treatments 2 and 3, while we introduce no DA for clusters 1 and 4 (see Fig. 6). 
+
+Metrics. Since we do not have a ground truth, our metrics assess the ability of detecting differential abundance and the absence thereof at different levels of the parameter a. All the metrics quantify the extent of DA continuously, meaning that their value should vary for different choices of a. We describe the metrics in Sec. 5.3. For each of such metrics, we present: • Mean value for a ≥ 0.3: This suggests whether the metrics are promising in the presence of high DA. • The Spearman correlation between the metric and the value of a. Metrics are expected to calibrate with the level of differential abundance introduced. Hence, we expect a high correlation between their values and a.In these experiments, we evaluate the ratio predictions directly on the dataset used for model training, as a baseline like MELD does not enable generalization. 
+
+Experimental setup for scRatio. We train scRatio for 100,000 steps with a learning rate of 1e-4. As a representation for gene expression, we use the top-k Principal Components (PCs) for different values of k. We explore the hyperparameters on a grid presented in Tab. 8 and evaluate model optimality based on the Mean AUC metric (see Tab. 2). 19 Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics  
+
+> Table 8. The hyperparameter grid explored for the DA estimation experiment on the PBMC68k dataset.
+
+Hyperparameters Grid 
+
+λ 0, 0.01, 0.1, 0.25, 0.5 
+
+σmin 0, 0.01, 0.1 Batch size 256, 512,1024 Top-k PCs 10, 20, 30, 40, 50 
+
+Baselines. We consider the following baseline models developed specifically for the task. Although following different approaches, all the methods produce a score that can be interpreted as a log -likelihood ratio between the densities conditioned on different treatment labels. • MrVI (Boyeau et al., 2025): MrVI is a disentangled Variational Autoencoder (VAE) compatible with DA analysis in single-cell data. It learns a low-dimensional latent representation in which biological and technical sources of variation are separated, while conditioning on experimental covariates. DA is assessed through variational posterior approximations of cell-type or neighborhood-specific abundances across conditions. We train the model across 200 epochs with default parameters. • MELD (Burkhardt et al., 2021): MELD estimates differential abundance by smoothing condition labels over a kNN graph built from single-cell embeddings. It computes a continuous, cell-level density estimate for each condition via local averaging and derives DA scores by comparing these smoothed densities. We ran the model with default parameters. 
+
+Notes on advantages of scRatio over competing models. We present some advantages of modeling likelihood ratios with scRatio compared to baseline models. • Exact likelihood estimation: Using generative CNFs, our model enables numerically tractable likelihood-ratio estimation via ODE integration, while all other methods rely on heuristic approaches (MrVI) or neighborhood-based approximations (MELD). • Flexibility: Because it relies on conditional vector fields, scRatio can model flexible likelihood ratios based on the conditioning variables used during training. This allows tailoring the estimated likelihood ratio to a flexible research question, such as combining different hierarchies of variables or estimating batch-specific effects. • Generalization. Our deep generative model is a proxy for future generalization studies, while models like MELD produce graph-smoothed density ratio scores evaluated on the observed dataset, rather than likelihood-based generative estimates. 
+
+C.5. Batch Correction Experiment Task. In Sec. 5.4 we show that likelihood ratios reveal the presence of batch effect. Let y and b be cell type and batch labels and X = {x(i)1 , y (i), b (i)}Ni=1 a single-cell dataset of N observations. Furthermore, let {pθt (· | y, b )}t∈[0 ,1] 
+
+and {pθt (· | y)}t∈[0 ,1] be doubly- and singly-conditional time-resolved densities generated by the neural vector fields 
+
+{uθt (· | y, b )}t∈[0 ,1] and {uθt (· | y, ∅)}t∈[0 ,1] (Ho & Salimans, 2021). We use Theorem 4.1 to estimate the following ratio: 
+
+log rθ
+
+> 1
+
+
+
+x(i)1 | (y(i), b (i)), y (i)
+
+= log pθ
+
+> 1
+
+(x(i)1 | y(i), b (i))
+
+pθ
+
+> 1
+
+(x(i)1 | y(i)) . (49) We distinguish two settings: • Presence of batch effect: The ratio in Eq. (49) is nonzero, as adding the batch variable affects the conditional density around x(i)1 .• Absence of batch effect: The ratio in Eq. (49) is approximately 0, as adding information on the batch does not increase the likelihood of the data. In other words, the batch covariate does not add information beyond the annotated cell type. 20 Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics 
+
+In Sec. 5.4 we propose using this notion to evaluate the effectiveness of batch correction. Given an arbitrary batch correction function f (x1, y, b ), we evaluate the following ratios: 
+
+log rθ
+
+> 1
+
+
+
+x(i)1 | (y(i), b (i)), y (i)
+
+, log rθ
+
+> 1
+
+
+
+f (x(i)1 , y (i), b (i)) | (y(i), b (i)), y (i)
+
+.
+
+If log rθ
+
+> 1
+
+
+
+f (x(i)1 , y (i), b (i)) | (y(i), b (i)), y (i)
+
+
+
+drops considerably towards 0 compared to log rθ
+
+> 1
+
+
+
+x(i)1 | (y(i), b (i)), y (i)
+
+
+
+, a substantial extent of batch information has been removed. 
+
+Datasets. For this analysis, we choose two datasets holding both technical and biological annotations: • NeurIPS (Luecken et al., 2021): 90,261 bone marrow cells from 12 healthy donors. • C. Elegans (Packer et al., 2019): 89,701 cells across 7 sources. As a preprocessing step, we normalize the counts to sum to 10 ,000 , log -transform them, and perform dimensionality reduction by taking the first 50 PCs of the data (Heumos et al., 2023). 
+
+Batch correction tool. As a batch correction tool we use scVI (Lopez et al., 2018) with default hyperparameters. 
+
+Evaluation. Since this is a qualitative experiment, we limit ourselves to the empirical evaluation of how the likelihood ratios change when training scRatio on cellular representations before and after batch correction. In the former case, we use the top-50 PCs as a representation. For the latter, we consider a batch-corrected 50-dimensional latent space predicted by scVI. 
+
+Hyperparameters. We focus on the flow-matching formulation with deterministic paths between noise and data samples and σmin = 0 .01 . Moreover, we train a doubly-conditional model, a singly-conditional model, and an unconditional counterpart by randomly replacing conditioning variables y and b with probability 0.2. We train the model for 100,000 steps and take the absolute value of the predicted ratios, as their distance from zero semantically reflects the presence of a batch effect (see Fig. 3 and Fig. 10). 
+
+C.6. Drug Combination Experiment 
+
+In this experiment, we demonstrate how scRatio can be used to score combinations of drugs. More specifically, we assess whether treating cells with two perturbations induces a state shift compared to treatment with a single perturbation. 
+
+Task. We propose a formulation analogous to the batch correction task (see Sec. 5.4 and Sec. C.5), but instead of considering batch and cell type labels, we consider combinations of drug labels. In analogy with Eq. (49), we define two drug conditions, denoted by d1 and d2, and estimate the following ratio: 
+
+log rθ
+
+> 1
+
+
+
+x(i)1 | (d(i)1 , d (i)2 ), d (i)1
+
+
+
+= log 
+
+pθt
+
+
+
+x(i)1 | d(i)1 , d (i)2
+
+
+
+pθt
+
+
+
+x(i)1 | d(i)1
+
+ . (50) In other words, we assess whether a cell is more likely under a distribution conditioned on both drugs than under a distribution conditioned only on the first. From an application perspective, this corresponds to evaluating the distributional shift induced by a drug combination and enables hypothesis generation regarding synergistic effects and chemical interactions. Astrong combinatorial effect corresponds to a large absolute log -likelihood ratio, whereas its absence corresponds to ratios concentrated around zero. 
+
+Dataset. For this experiment, we use the ComboSciPlex dataset (Srivatsan et al., 2020), which contains 63, 378 cells treated with combinations of drugs. We investigate whether combining Alvespimycin, Dacinostat, Dasatinib, Givinostat, Panobinostat, or SRT2104 with > 20 additional drugs induces a significant state shift compared to treatment with each drug alone. 
+
+Experimental setup. We estimate Eq. (50) using scRatio. To approximate the denominator, we use a doubly conditional model combining a drug label with a control label, which conceptually corresponds to the absence of a second perturbation. We train scRatio for 200,000 steps in its deterministic variant, using a Gaussian distribution around the data ( λ = 0 and 
+
+σmin = 0 .001 ), with a batch size of 512. As a data representation, we use 5-dimensional autoencoder embeddings. 
+
+Evaluation. As is common for real-world datasets, no ground-truth likelihood ratios are available. Since we use this experiment as a qualitative case study, we provide two complementary analyses: 21 Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics 
+
+• Qualitative analysis: For reported active perturbation combinations, we show that the estimated ratios attain large absolute values, whereas for inactive double perturbations, the ratios remain close to zero. This qualitative validation is available in Sec. E.5. • Correlation with classification probability: We show that the estimated absolute log ratios are well calibrated with the binary classification absolute log -odds of a deep classifier trained to discriminate between singly and doubly perturbed cells. 
+
+C.7. Patient-specific Treatment Response Experiment Task. In this experiment, we demonstrate how scRatio can be used to quantify patient-specific responses to perturba-tions. More specifically, we assess whether cytokine stimulation induces a donor-dependent state shift compared to the corresponding control condition. In analogy to the drug combination experiment (see Sec. C.6), we formulate a conditional likelihood ratio comparing treated and control cells within the same donor. Let s denote a donor (sample) label and dk a cytokine treatment, with dc
+
+representing the control condition. For a cell x(i)1 from donor s(i) treated with cytokine dk(i), we estimate 
+
+log rθ
+
+> 1
+
+
+
+x(i)1 | (s(i), d k(i)), (s(i), d c)
+
+
+
+= log 
+
+pθ
+
+> 1
+
+
+
+x(i)1 | s(i), d k(i)
+
+
+
+pθ
+
+> 1
+
+
+
+x(i)1 | s(i), d c
+
+ . (51) In other words, we evaluate whether a treated cell is more likely under the donor-specific treatment distribution than under the donor-specific control distribution. A strong donor-specific treatment effect corresponds to large absolute log -likelihood ratios, whereas the absence of a differential response results in ratios concentrated around zero. 
+
+Dataset. We use a large-scale PBMC perturbation dataset comprising approximately 10 million cells from 12 donors (Oesinghaus et al., 2025). For each donor, cells are profiled in a control condition and under stimulation with 90 different cytokines. The dataset includes previously reported donor groupings with cytokine-specific differential responses, enabling qualitative validation of patient-specific effects. 
+
+Experimental setup. We train scRatio to model conditional distributions over cell states given donor and treatment labels. As in previous experiments, we use the deterministic variant of scRatio with a Gaussian distribution around the data (λ = 0 and σmin = 0 .001 ). Training is performed for 100,000 steps with a batch size of 512. Cells are represented using low-dimensional autoencoder embeddings to capture their transcriptional state. To estimate Eq. (51), we condition the numerator on both donor and cytokine labels, and the denominator on the same donor paired with the control label. This design ensures that estimated likelihood ratios capture treatment-induced shifts while controlling for inter-donor variability. 
+
+Evaluation. As no ground-truth likelihood ratios are available, we conduct a qualitative evaluation guided by biological findings reported in Oesinghaus et al. (2025). Specifically, we analyze cytokines that were shown to induce group-specific responses (e.g., IL-10 and IFN-omega), as well as cytokines with weak or similar effects across donor groups (e.g., APRIL). For each donor-treatment pair, we examine the distribution of estimated log -likelihood ratios for treated cells relative to controls. Consistency between reported biological differences and the magnitude and separation of likelihood ratio distributions serves as validation that scRatio captures meaningful patient-specific treatment effects. 22 Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics 
+
+## D. Algorithms 
+
+We provide an algorithmic description of the scRatio inference procedure here. Note that, when evaluating functions on collections of objects, we override the notation to emphasise the vectorizability of the operation and assume the returned object is the same collection mapped with the used function. 
+
+Algorithm 1 Inference with scRatio. 
+
+1: Input: Trained Neural Velocity Field uθt (· | Y ) and Score sψt (· | Y ). Two realizations y and y′ with y̸ = y′ of conditioning random variable Y . Set of data-points X1 := {(x(i)1 , y)}Ni=1 , with x(i)1 ∼ q(· | Y = y).
+
+2: Output: Estimated log -likelihood ratio log pθ (·| Y =y)  
+
+> pθ(·| Y=y′)
+
+3: ddt rθt (x(i) 
+
+> t
+
+| y, y′) ← ∇ x(i)
+
+> t
+
+·  uθt (x(i) 
+
+> t
+
+| Y = y′) − uθt (x(i) 
+
+> t
+
+| Y = y)++ uθt (x(i) 
+
+> t
+
+| Y = y′) − uθt (x(i) 
+
+> t
+
+| Y = y)⊤ sψt (x(i) 
+
+> t
+
+| Y = y′) // Define ratio dynamics to estimate Eq. (9). 
+
+4: ˆbt(x(i) 
+
+> t
+
+| y, y′) ← [uθt (x(i) 
+
+> t
+
+| Y = y), ddt rθt (x(i) 
+
+> t
+
+| y, y′)] // Define augmented dynamics. 
+
+5: [ ˆX0, r0] ← OdeSolve( [X1, 0], ˆbt(· | y, y′), t 0 = 1 , t 1 = 0 ) // Solve ODE backwards in time. 
+
+6: return −r0 // Return log ratio. 23 Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics 
+
+## E. Additional Results 
+
+E.1. Differential Abundance Experiments 
+
+A general depiction of the semi-synthetic PBMC68k datasets can be found in Fig. 6. a b
+
+c 
+
+> Proportion of treated cells per cluster
+> UMAP1
+> UMAP2
+> Treatment label
+> PBMC68k Cluster labels
+> UMAP1
+> UMAP2
+
+Figure 6. a. UMAP plot of the PBMC68K dataset colored by cluster labels. The clusters are assigned to each cell through the Leiden algorithm (Traag et al., 2019). b. The proportion of treated cells per cluster for different values of a (see Eq. (13) for a description of a). c. 
+
+UMAP colored by the treatment label sampled for each cluster using different values of a.
+
+24 Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics 
+
+E.2. Additional Results Gaussian Simulation Experiments 
+
+We report the Mean Squared Error (MSE) between the true and estimated log -ratios across different dimensions, averaged over 5 runs. Results in Fig. 7 show that scRatio outperforms all baselines for both locations 1 and 2 across all dimensions, except for location 1 at 2 dimensions, where TSM and the naive approach achieve comparable performance. Different scRatio schedules yield similar performance across dimensions. For location 4, however, we observe a markedly different behavior, with some baselines outperforming scRatio. This can be attributed to the limited overlap between the distributions for which the ratio is estimated. Specifically, baselines such as TSM, CTSM, and CTSMv learn probability paths directly between these distributions, whereas scRatio learns probability paths separately from the source to each target distribution. The effect of distribution overlap as a function of the distance between Gaussian means is illustrated in Fig. 8.     
+
+> Figure 7. Mean Squared Error (MSE) of different methods across varying data dimensionalities and values of s(mean shifts from the origin). TSM and CTSM denote baseline models, and SB paths indicate Schr¨ odinger Bridge probability paths.
+> Figure 8. Overlap between Gaussian distributions as a function of the distance between their means. One of the distributions is fixed as a standard Gaussian.
+
+25 Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics 
+
+E.3. MSE vs Ratios’ Absolute Value 
+
+Figure 9. Mean Squared Error (MSE) as a function of the absolute value of the log-ratio, shown for different locations and dimensionalities. 
+
+26 Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics 
+
+E.4. Additional Results on Batch Correction Evaluation. 
+
+Figure 10. UMAP projections for the two datasets across different dimensionalities ( 10 , 50 , 100 , and 200 ). Each cell is colored by the estimated log -likelihood ratio, computed as described in Sec. C.5. Beside each UMAP, the corresponding box plot shows the distribution of the mean absolute log-ratio per condition combination. 
+
+27 Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics 
+
+E.5. Additional Results on Combinatorial Drug Estimation. 
+
+We present additional plots in Fig. 11 to illustrate how the estimated log -ratio changes as the combinatorial effect increases. Starting with the first UMAP, which has no combinatorial effect, and progressing to those with increasingly pronounced effects, the box plots clearly show the corresponding rise in the estimated log -ratio.  
+
+> Figure 11. Right: Four UMAPs showing the gradual increase of combinatorial effects across several single perturbations and their combinations. Left: Corresponding box plots for each UMAP, displaying the absolute values of the estimated log-likelihood ratios.
+
+28

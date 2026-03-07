@@ -1,0 +1,2986 @@
+Title: CoPeP: Benchmarking Continual Pretraining for Protein Language Models
+
+URL Source: https://arxiv.org/pdf/2603.00253v2
+
+Published Time: Wed, 04 Mar 2026 02:31:50 GMT
+
+Number of Pages: 29
+
+Markdown Content:
+# CoPeP: Benchmarking Continual Pretraining for Protein Language Models 
+
+Darshan Patil 1,2,4 , Pranshu Malviya 1,3,4 , Mathieu Reymond 1,2,4 , Quentin Fournier 1,2 , and Sarath Chandar 1,3,4,5 
+
+> 1
+
+Mila - Quebec AI Institute, 2University of Montréal, 2Polytechnique Montréal, 4Chandar Research Lab, 5Canada CIFAR AI Chair 
+
+Protein language models (pLMs) have recently gained significant attention for their ability to uncover relation-ships between sequence, structure, and function from evolutionary statistics, thereby accelerating therapeutic drug discovery. These models learn from large protein databases that are continuously updated by the biology community and whose dynamic nature motivates the application of continual learning, not only to keep up with the ever-growing data, but also as an opportunity to take advantage of the temporal meta-information that is created during this process. As a result, we introduce the Continual Pretraining of Protein Language Models (CoPeP) benchmark, a novel benchmark for evaluating continual learning approaches on pLMs. Specifically, we curate a sequence of protein datasets derived from the UniProt Knowledgebase spanning a decade and define metrics to assess pLM performance across 31 protein understanding tasks. We evaluate several methods from the continual learning literature, including replay, unlearning, and plasticity-based methods, some of which have never been applied to models and data of this scale. Our findings reveal that incorporating temporal meta-information improves perplexity by up to 7% even when compared to training on data from all tasks jointly. Moreover, even at scale, several continual learning methods outperform naive continual pretraining. The CoPeP benchmark offers an exciting opportunity to study these methods at scale in an impactful real-world application. 
+
+1. Introduction 
+
+Proteins are the fundamental building blocks of life, acting as the primary machinery in all living organisms. Their biological functions are largely determined by their three-dimensional structure, which is primarily encoded within their linear sequence of amino acids, and by cellular context. Accurately mapping protein sequences to their biophysical properties remains one of the core challenges of computational biology. Recently, protein language models (pLMs) have emerged as an effective and scalable solution (Rives et al., 2021; Lin et al., 2023; Madani et al., 2023; Nijkamp et al., 2023; Fournier et al., 2024). By treating amino acids as “letters”, functional regions as “words”, and whole proteins as “sentences”, pLMs leverage evolutionary statistics from large databases to uncover relationships between sequence, structure, and function (Rives et al., 2021; Notin et al., 2023). Notably, pLMs have demonstrated remarkable accuracy in predicting protein properties and even designing novel proteins (Hayes et al., 2025), underscoring their potential to significantly accelerate drug discovery. Despite their effectiveness, pLMs face a significant challenge in the dynamic nature of their training data (Fournier et al., 2024). These models learn from enormous, ever-expanding public databases such as the UniProt Knowl-edgebase (Consortium, 2025) (UniProtKB), where millions of new proteins are deposited each year by the community, while millions of others are curated out, either via automated pipelines or by UniProt curators. Retraining models from scratch on each new data release is inefficient and computationally prohibitive. This challenge, however, also presents a unique opportunity: the temporal evolution of these databases provides valuable metadata. Sequences that persist over time serve as strong examples of valid protein-coding sequences, whereas those that are later curated out can be treated as implicit examples of likely non-protein sequences. By leveraging this history, a model can more effectively learn the language of proteins. Although continual learning is a well-established field (Wang et al., 2024) with numerous artificial bench-marks (Kirkpatrick et al., 2017; Zenke et al., 2017; Lopez-Paz & Ranzato, 2017), there is a growing demand 
+
+> Corresponding author(s): Darshan Patil darshan.patil@mila.quebec and Quentin Fournier quentin.fournier@mila.quebec
+> arXiv:2603.00253v2 [cs.LG] 3 Mar 2026
+
+CoPeP: Benchmarking Continual Pretraining for Protein Language Models 2015 2016 2023 2024 
+
+Model Updates 
+
+Continual Learning Approaches Naive       
+
+> Sequential Fine-tuning)
+> Replay Model Editing + Unlearning
+> Plasticity
+> Evaluation Suite
+> Perplexity
+> High-Quality Validation Set)
+> Natural Distribution
+> Fitness Prediction
+> 0.2 0.0 0.2 0.4 0.6 0.8
+> ProteinGym
+> Spearman Correlation)
+> Multitask Assessment
+> 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024
+> PEER & DGEB Benchmarks
+> Function, Localization, and Structure Prediction)
+
+# ... 
+
+> Curated Out Added In
+
+UniProtKB 
+
+Figure 1: Overview of the CoPeP benchmark. The UniProt Knowledgebase is continuously updated by biologists, which reflects the continuous discovery and curation of proteins. For every year’s task, we pull the latest UniRef100 release derived from that year’s UniProtKB release and use it to update the model. We evaluate several continual learning approaches on this sequence of datasets and assess their performance on a variety of protein understanding tasks. for realistic, large-scale alternatives. Indeed, while these controlled environments effectively measure loss of plasticity and catastrophic forgetting, they fail to reflect the scale and complexity of real-world data. With the rise of Large Language Models (LLMs), there has been considerable interest in the community in exploring ways to continually update these models with new information. Prior works have explored targeted unlearning and editing of memorized facts (Bourtoule et al., 2021; Yao et al., 2023) or investigated continual pre-training for domain and language expansion (Gururangan et al., 2020; Chalkidis et al., 2020; Ke et al., 2022; Abbes et al., 2025). However, there remains a lack of datasets and benchmarks designed to study the temporal evolution of the pre-training distributions themselves. To bridge this gap, we introduce CoPeP (Continual Pretraining for Protein Language Models), a realistic, large-scale benchmark designed to evaluate continual learning approaches for biological sequence modeling. We leverage the temporal evolution of UniRef100, a non-redundant clustering of UniProtKB and the most common source of data for pLMs, by curating a sequence of datasets spanning 10 yearly releases. We evaluate several popular state-of-the-art methods from the continual learning literature, including Gradient Ascent (Golatkar et al., 2020), Random Label Learning (Golatkar et al., 2020), Hare and Tortoise (Lee et al., 2024), Shrink and Perturb (Ash & Adams, 2020), and Replay (Rolnick et al., 2019; Chaudhry et al., 2019), applying some of them for the first time at a scale comparable to real-world applications. We evaluate our models on three types of tasks: (1) a high-quality validation set of experimentally verified proteins to assess performance on natural protein distributions (Fournier et al., 2024); (2) ProteinGym (Notin et al., 2023), which measures the ability to predict the effects of protein mutations; (3) PEER (Xu et al., 2022) and DGEB (West-Roberts et al., 2024), which focus on predicting various aspects of protein function, localization and structure. Our findings reveal that temporal metadata yields a measurable improvement over models trained on individual years, and that several of these methods outperform naive continual pretraining. Our contributions are threefold. First, we introduce CoPeP, a novel benchmark for continual learning on real-world protein databases. Second, we evaluate 7 state-of-the-art continual learning methods on CoPeP, many of which have never been applied to models and data of this scale. Third, we demonstrate that temporal metadata contained in the history of proteins added to or removed from the database can be leveraged to improve the performance of pLMs beyond that of standard i.i.d. training on individual years. 
+
+2CoPeP: Benchmarking Continual Pretraining for Protein Language Models 
+
+2. Related Work 
+
+Continual Learning and Model Updating Continual learning is a machine learning paradigm in which models are trained incrementally on a sequence of data or tasks, aiming to accumulate and refine knowledge over time. Research in this area primarily focuses on two key challenges: catastrophic forgetting, i.e., the degradation of previously acquired knowledge (McCloskey & Cohen, 1989; Kirkpatrick et al., 2017), and loss of plasticity, i.e., the diminishing ability to adapt to new data (Dohare et al., 2024). While some studies investigate continual learning under natural data shifts (Koh et al., 2021; Lin et al., 2021; Cai et al., 2021; Bornschein et al., 2023), the datasets involved are typically several orders of magnitude smaller than modern pretraining corpora: most research relies on academic benchmarks such as CIFAR-10 and MNIST (Goodfellow et al., 2013; Zenke et al., 2017; Krizhevsky et al., 2009; Rebuffi et al., 2017). While these allow for controlled experimental setups and the study of severe distribution shifts such as random re-labeling, these synthetic shifts are often unrealistic, and their small size raises questions about the generalization of existing methods to larger, more complex scenarios. Recently, the field has shifted toward updating large pretrained models through model editing, which updates specific facts (Meng et al., 2022; Mitchell et al., 2022), and model unlearning, which removes the influence of specific data points (Bourtoule et al., 2021; Jang et al., 2023). A few studies have explored continual fine-tuning, in which a model is iteratively updated across a sequence of downstream tasks (Jin et al., 2021), and continual pretraining, in which the pretraining process itself is extended to incorporate new data. However, while this has been explored through domain-adaptive pretraining on distinct, specialized domains (Gururangan et al., 2020; Chalkidis et al., 2020), they are typically narrow in scope and their datasets are small relative to the general pretraining corpora. A notable exception is Gupta et al. (2023), who studied the dynamics of pretraining a large language model on two datasets in sequence. Nevertheless, practical applications require methods that scale to longer sequences of datasets, and to our knowledge, no prior study has considered the temporal evolution of a single large-scale pretraining dataset. 
+
+Protein Language Models Research in natural language processing (NLP) has recently been adapted to biology by treating the amino-acid sequence of proteins as a language. This perspective has led to the development of protein language models (pLMs), biology-inspired analogues of NLP models. For example, the autoregressive ProGen2 (Nijkamp et al., 2023; Bhatnagar et al., 2025) is based on GPT-2 (Radford et al.), while the bidirectional ESM (Rives et al., 2021; Lin et al., 2023) and AMPLIFY (Fournier et al., 2024) draw inspiration from BERT (Devlin et al., 2019). Trained on large, diverse, and ever-growing protein sequence databases (Suzek et al., 2015; Jumper et al., 2021; Richardson et al., 2023), these models aim to discover the underlying principles that govern protein structure and function by capturing evolutionary relationships from sequence alone. This approach has made pLMs an essential tool in computational biology for a wide range of applications, including mutational effect prediction, protein structure modeling, and de novo protein design (Hayes et al., 2025). Contrary to the holistic benchmarks used in NLP, protein language models are evaluated on specialized benchmarks that target distinct biological properties. For example, protein folding is traditionally measured on the biannual CASP challenge (J et al., 2018), in which tertiary structures are inferred from primary sequences. On the other hand, functional fitness is primarily evaluated on the ProteinGym benchmark (Notin et al., 2023), in which the effects of mutations are predicted in a zero-shot setting. Several multi-task benchmarks have been proposed to evaluate a broader range of concepts such as function, subcellular localization, and protein-protein interactions. These include TAPE (Rao et al., 2019), PEER (Xu et al., 2022), and DGEB (West-Roberts et al., 2024). In this work, we focus on the last two categories due to their significant role in the drug discovery pipeline and because protein folding from sequence-only pLMs still lags behind specialized, geometry-aware architectures like AlphaFold3 (Abramson et al., 2024). 
+
+3. CoPeP Benchmark 
+
+To bridge the gap between continual learning research and its practical application, we introduce CoPeP, the Continual Pretraining for Protein Language Models benchmark. CoPeP reflects the challenge of keeping protein 
+
+> 3CoPeP: Benchmarking Continual Pretraining for Protein Language Models
+
+language models updated with rapidly evolving biological data. It serves as a large-scale, complex testbed for evaluating continual learning methods, with significant implications for protein modeling and drug discovery. 
+
+3.1. Dataset 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024   
+
+> -50M
+> 0M
+> 100M
+> 200M
+> 300M
+> 400M
+> Number of Samples
+> Maintained Added Removed
+
+Figure 2: Temporal evolution of UniRef100 from 2015 to 2024. The database shows a steady up-ward trend in total sequences despite millions of sequences being culled annually. The UniProt Knowledgebase (Consortium, 2025) (UniPro-tKB) is the central hub for protein sequence and functional information. UniProtKB continuously evolves as new se-quences are deposited by the community and existing entries are curated out, either by automated pipelines (e.g., redundant sequences) or by UniProt curators (e.g., pseudogenes). In order to track the dynamic nature of the database, UniProt regularly releases Reference Clusters (Suzek et al., 2015) (UniRef), which are non-redundant snapshots generated by clustering UniProtKB sequences using the MMseqs2 algorithm (Steinegger & Söding, 2017; Kallenborn et al., 2025). Depending on the sequence identity threshold, i.e., the minimum overlap required for grouping sequences, the resulting datasets are named as UniRef100, UniRef90, or UniRef50, and only the longest sequence from each cluster is selected as the representative. UniRef is the primary training data for most state-of-the-art protein language models (Rives et al., 2021; Lin et al., 2022; Fournier et al., 2024; Nijkamp et al., 2023). The CoPeP benchmark is composed of 10 consecutive UniRef100 yearly releases from 2015 to 2024, each representing a unique task. Since a single identifier can correspond to multiple distinct sequences and a single sequence can be assigned to multiple identifiers, duplicate entries are removed when both the identifier and sequence are exactly the same. Combined, the CoPeP datasets cover 580M unique entries, reflecting the substantial, nonlinear growth of protein sequence data and shifts in curation practices (Figure 2). The exact releases and size of these snapshots are provided in Table 3. As an initial experiment, for each dataset in the benchmark, we compute the maximum sequence identity for each sequence in the dataset relative to the sequences in the validation set from Section 3.3 (i.e. we find the closest sequence in the validation set and compute the sequence identity). Figure 1 (middle and right) shows the evolution of these sequence identity distributions over years. We observe a systematic shift toward lower identity values, indicating that newer sequences are increasingly divergent from the validation set. Furthermore, the year-over-year density shifts reveal that the initial divergence is driven by substantial shifts in early years, whereas later transitions shift the distributions back somewhat closer to the validation set. Appendix A more thoroughly explores the evolution of the data over years. 
+
+3.2. Streaming Protocol 
+
+In traditional continual learning setups, training proceeds over a sequence D1, . . . , D𝑛 of 𝑛 tasks, where each dataset D𝑖 = {𝑥 𝑗 }𝑚 𝑖  
+
+> 𝑗 =1
+
+is drawn from a task-specific data distribution 𝑥 ∼ P 𝑖 . The challenge typically arises from distribution shifts between tasks, i.e., P𝑖 ≠ P𝑖 +1, which force the model to balance retaining knowledge of earlier tasks (stability) with adapting to new tasks (plasticity). Given the list of 10 UniRef100 releases 𝑈 = [2015 , . . . , 2024 ], CoPeP considers each yearly 𝑈 𝑖 release as a separate task D𝑖 . Compared to traditional continual learning setups, these different yearly snapshots are all sampled from a shared but inaccessible underlying distribution of natural proteins P∗. However, the individual 
+
+P𝑖 distributions exhibit a systematic drift, as the evolution of protein datasets reflects data growth and shifts in curation practices and research interests. Thus, distribution shifts between P𝑖 and P𝑖 +1 still occur. Additionally, it is unknown how representative D𝑖 is of P∗, with the added challenge that yearly increments of the dataset do not correlate with improvements of P𝑖 w.r.t. P∗ (Fournier et al., 2024; Spinner et al., 2025). Moreover, CoPeP distinguishes itself from traditional continual learning setups by allowing access to data of past 
+
+> 4
+
+CoPeP: Benchmarking Continual Pretraining for Protein Language Models 0.0 0.2 0.4 0.6 0.8 1.0           
+
+> Sequence Identity
+> 0.15
+> 0.10
+> 0.05
+> 0.00
+> 0.05
+> 0.10
+> 0.15
+> 0.20
+> 0.25
+> Density
+> (Change vs. Baseline)
+> Baseline Reference (Year 2015) 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024 0.1
+> 0.2
+> 0.3
+> 0.4
+> 0.5
+> 0.6
+> 0.7
+> 0.8
+> 0.9
+> Sequence Identity
+> 2015 2016
+> 2016 2017
+> 2017 2018
+> 2018 2019
+> 2019 2020
+> 2020 2021
+> 2021 2022
+> 2022 2023
+> 2023 2024
+> Consecutive Year Transition
+> Year-over-Year Distribution Shifts
+> 0.10
+> 0.05
+> 0.00
+> 0.05
+> 0.10
+> Density
+
+Figure 3: Left: Evolution of sequence identity distributions relative to the validation set. We track the sequence identity of the UniRef100 entries in each year compared to their nearest neighbor in the validation set. The plot shows the change in sequence identity density relative to the 2015 baseline. A systematic shift toward lower identity values (peak at ∼0.25) indicates that newer sequences are increasingly divergent from the validation set. Right: Year-over-year density shifts. The initial divergence is driven by substantial shifts in early years, whereas later transitions (2020–2024) show smaller, stabilizing fluctuations. tasks, i.e., the learner may leverage the union of all observed datasets U⟩ = Ð𝑖 𝑗 =1 D𝑗 . With this, a learner may exploit temporal meta-information about the samples. For example, we can count the number of consecutive years a protein has persisted in UniRef, i.e., the multiplicity 𝑐 (𝑥 ) of a sample, with 𝑐 (𝑥 ) = Í𝑘 𝑖 =1 𝕀 D𝑖 (𝑥 ). Such information provides a signal of sequence reliability, distinguishing consistently preserved proteins from those that appear only transiently. By structuring the problem this way, CoPeP reflects the practical challenges of maintaining large-scale models under real-world data evolution, while retaining the core challenges of continual learning paradigms. 
+
+3.3. Evaluation 
+
+Unlike traditional continual learning setups, because the underlying distribution remains constant across tasks, we are not concerned with metrics such as forgetting or transfer. Instead, at each evaluation timestep, we measure the performance of the model on our suite of evaluation tasks at that specific timestep. 
+
+Validation Set The validation set curated by Fournier et al. (2024) comprises 10,000 high-quality proteins with experimental evidence from reference proteomes across all three domains of cellular life (Bacteria, Archaea, and Eukarya). The distribution of taxonomy groups is shown in Figure 13. We perform pairwise deduplication between the validation set and each yearly release in CoPeP using MMSeqs2 at a sequence identity of 90%. While this threshold is more permissive than the 50% used by ESM2 (Lin et al., 2022), we argue that they serve fundamentally different purposes. Stricter deduplication thresholds such as 50% are standard for assessing how well a model generalizes to strictly unseen proteins without overfitting. In contrast, a 90% threshold measures how well the model fits the natural distribution of proteins. Capturing this distribution is essential for tasks like therapeutic design, where matching the evolutionary landscape often correlates with stability and fitness (Fournier et al., 2024). We track both perplexity and sequence recovery 1 on the validation set, relying on the downstream benchmarks to evaluate the model’s utility and generalization. 
+
+ProteinGym ProteinGym (Notin et al., 2023) is a comprehensive fitness prediction benchmark that evaluates the utility of a model for protein design. It comprises millions of mutated sequences from 217 deep mutational scanning (DMS) assays spanning diverse taxa, including humans, other eukaryotes, prokaryotes, and viruses. For each wild-type sequence 2, the model ranks mutations based on their predicted fitness. This ranking is evaluated against experimental ground truth and clinical annotations using Spearman’s rank correlation ( 𝜌 ). 
+
+> 1
+
+Sequence recovery is defined as the top-1 accuracy of masked token predictions, where a prediction is correct if the highest probability token matches the ground truth. 
+
+> 2
+
+A wild-type sequence is the most common or standard amino acid sequence for a specific protein found in a natural population, representing the “normal” or unmutated version of that protein. 5CoPeP: Benchmarking Continual Pretraining for Protein Language Models 
+
+We report the aggregated performance across all 217 assays. 
+
+PEER The benchmark for Protein Sequence Understanding (Xu et al., 2022) (PEER) is a multi-task benchmark designed to evaluate diverse aspects of protein understanding. Specifically, PEER comprises 17 tasks covering function, subcellular localization, structural properties, as well as protein-protein and protein-ligand interactions. We omit the tasks requiring ligand information as well as the ProteinNet-based contact prediction task due to its prohibitive computational costs, resulting in a suite of 14 tasks. 
+
+DGEB The Diverse Genomic Embedding Benchmark (West-Roberts et al., 2024) (DGEB) is another multi-task benchmark comprising 18 expert-curated datasets spanning sequences from all domains of life. DGEB covers a complementary set of biological capabilities, including BiGene mining, evolutionary distance similarity, clustering, and retrieval. As our models operate exclusively on amino acid sequences, we restrict our evaluation to the 16 tasks utilizing this modality. 
+
+3.4. Base Experimental Setup 
+
+We adopt the bi-directional AMPLIFY 120M (Fournier et al., 2024) as our base pLM for its computational efficiency. Following the experimental setup of Fournier et al. (2024), we train for 100k steps per task using AdamW (Loshchilov & Hutter, 2018) with a weight decay of 10 −2, an effective batch size of 4, 096 , and a maximum sequence length of 512 . In order to mitigate the difficulty associated with re-warming the learning rate in continual learning (Gupta et al., 2023), we replace the cosine decay with Warmup-Stable-Decay (Hu et al., 2024; Li et al., 2025) (WSD). As shown in Figure 24, this modification does not increase the validation perplexity compared to the cosine baseline (5.44 for cosine vs 5.43 for WSD). Specifically, we linearly warm up the learning rate from 0 to 5 × 10 −4 over the first 10k steps, keep it constant until 90k steps, after which it is decayed linearly from 5 × 10 −4 to 0. When transitioning tasks, we discard the previous decay phase and reset the model to the pre-decay checkpoint. Consequently, the cumulative effective training steps at the start of the 
+
+> 𝑛
+
+-th task is (𝑛 − 1) × 90 𝑘 . For instance, training on the sixth task begins from a checkpoint with 450k effective gradient steps. 
+
+3.5. Motivation for Temporal Meta-Information 
+
+To highlight the value of temporal metadata and motivate our continual learning benchmark, we investigate the hypothesis that temporal persistence is a proxy for the likelihood of entries being functional proteins. Specifically, we posit that sequences retained in UniProtKB over releases provide a less noisy, more robust learning signal. For each pair of years within our dataset, we train models on only the sequences present in both releases. All models are trained for 100k steps following the protocol outlined in Section 3.4. Figure 4 reports the validation perplexity for each model, with the diagonal representing baselines trained on unfiltered annual releases. The effect of filtering is not always better than the full year baseline, likely due to the competing effects of reduced dataset size and improved data quality. Despite this, for 7/9 columns and 8/9 rows, we observe that at least one intersection outperforms the corresponding full year baseline. The best performance is achieved by the intersection of 2022 and 2024 data. In fact, the model achieves a 2.5% improvement in perplexity over the full 2024 release, despite only having access to 64% of the data, supporting the utility of temporal persistence as a signal for curating pretraining corpora. The heatmap gives us two perspectives on using temporal information for data curation. Looking up columns tells us the optimal way of filtering our current dataset using a past year, while looking across rows gives us a signal that there is potential value in continual learning and looking at the temporal evolution of the data. 
+
+4. Methods 
+
+We now perform a large-scale study of 6 different methods to continually pretrain the AMPLIFY-120M model. We focus on a set of representative methods spanning across 3 groups: standard continual learning, plasticity-preserving, and unlearning. We compare these approaches to a Joint model trained on the cumulative data from 2015 to 2024 and to two types of single year baselines (i.e. models trained only on one year’s data): 
+
+Incremental models are trained for 100k steps each year, and Matched models are trained for the number of 
+
+> 6
+
+CoPeP: Benchmarking Continual Pretraining for Protein Language Models 2015 
+
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 2 
+
+2015 
+
+2016 
+
+2017 
+
+2018 
+
+2019 
+
+2020 
+
+2021 
+
+2022 
+
+2023 
+
+2024                                              
+
+> Year 1
+> 7.54 7.35 7.35 7.49 7.49 7.66 7.69 7.86 7.84 7.78
+> 7.59 7.80 7.60 7.62 7.84 7.86 7.91 7.95 7.99
+> 7.90 7.90 8.09 8.17 8.20 8.20 8.32 8.22
+> 8.06 8.03 8.17 8.08 8.24 8.21 8.28
+> 8.06 8.16 8.07 8.18 8.19 8.03
+> 8.06 7.82 7.90 7.88 7.81
+> 7.68 7.60 7.51 7.44
+> 7.52 7.43 7.29
+> 7.51 7.42
+> 7.48
+
+7.4 
+
+7.6 
+
+7.8 
+
+8.0 
+
+8.2 
+
+> Uniprot Val Pseudoperplexity 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 2 
+
+2015 
+
+2016 
+
+2017 
+
+2018 
+
+2019 
+
+2020 
+
+2021 
+
+2022 
+
+2023 
+
+2024                                              
+
+> Year 1
+> 69 61 56 54 51 49 47 46 45 42
+> 90 80 75 71 68 66 64 63 59
+> 126 116 108 103 99 94 92 86
+> 165 148 140 134 127 124 116
+> 209 192 182 172 168 155
+> 257 224 209 202 188
+> 275 251 241 224
+> 318 299 275
+> 371 337
+> 430
+
+100 
+
+200 
+
+300 
+
+400 
+
+> Intersection Data Size (in Millions)
+
+Figure 4: Impact of temporal data filtering. Models are trained exclusively on the intersection of sequences retained between two UniRef100 releases. Left shows the validation perplexity for each model and right shows the corresponding dataset sizes. The best performance in each row is boxed in red, and the best performance in each column is boxed in green. Most years show improved validation perplexity on at least one intersection dataset despite a substantial reduction in dataset size. The best performance by any model is achieved by a model trained on the intersection of 2022 and 2024, despite only having 64% of the data of the larger 2024 release. steps equal to the cumulative steps of the continual learning methods up to that year (e.g. 370k steps for the fourth year in the benchmark). 
+
+4.1. Continual Learning Sequential Training This approach serves as the naive baseline, in which the pLM is trained sequentially on each yearly release for 100k steps without any additional interventions or regularization. Consequently, this method introduces no additional hyperparameters beyond the base experimental setup. 
+
+Temporal Replay Standard Experience Replay (Rolnick et al., 2019; Abbes et al., 2025) mitigates catastrophic forgetting by rehearsing a small, fixed-size subset of data from prior tasks alongside the current one. Given the availability of historical releases and based on our findings in Section 3.5, we modify this approach to use an unbounded replay buffer with a temporal importance sampling strategy. Formally, let 𝑆 = {D 1, D2, . . . , D𝑡 −1 }
+
+be the sequence of datasets up until the current task, and let 𝑈 = Ð𝑡 −1
+
+> 𝑖
+
+=1 D𝑖 be their union. For any example 
+
+𝑥 ∈ 𝑈 , let its multiplicity be 𝑐 (𝑥 ) = Í𝑘 𝑖 =1 𝟙 D𝑖 (𝑥 ), where 𝟙 D𝑖 (𝑥 ) is the indicator function. During training, we sample replay examples from 𝑈 with probability proportional to their multiplicity: 
+
+𝑃 (𝑥 ) = 𝑐 (𝑥 )
+
+Í𝑦 ∈𝑈 𝑐 ( 𝑦 ) =
+
+Í𝑘 𝑖 =1 𝟙 𝐷 𝑖 (𝑥 )
+
+Í𝑘 𝑖 =1 |𝐷 𝑖 | . (1) The optimization objective is a weighted combination of the loss on the new data and the historical replay: 
+
+L = (1 − 𝜆 𝑟𝑒𝑝𝑙𝑎𝑦 )L 𝑐𝑒 (𝑏 𝑖 ) + 𝜆 𝑟𝑒𝑝𝑙𝑎𝑦 L𝑐𝑒 (𝑏 𝑟𝑒𝑝𝑙𝑎𝑦 ) (2) where 𝑏 𝑖 is a batch of sequences introduced in the current task 𝑖 , 𝑏 𝑟𝑒𝑝𝑙𝑎𝑦 is a batch sampled from previous tasks according to 𝑃 (𝑥 ), and 𝜆 𝑟𝑒𝑝𝑙𝑎𝑦 is a hyperparameter controlling the importance of replay. 
+
+4.2. Plasticity 
+
+Loss of plasticity refers to the phenomenon in continual learning in which a model’s ability to adapt to changes in data distributions degrades as training progresses. The plasticity-preserving methods considered in our experiments are agnostic to prior data distributions and do not rely on any additional data. 
+
+7CoPeP: Benchmarking Continual Pretraining for Protein Language Models Continual Replay Random Labels Gradient Ascent Hare Tortoise Shrink Perturb Single Year Matched Single Year Incremental 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024          
+
+> Year
+> 6.25
+> 6.50
+> 6.75
+> 7.00
+> 7.25
+> 7.50
+> 7.75
+> 8.00
+> UniProt Validation Perplexity
+> Joint
+> Training 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024
+> Year
+> 0.42
+> 0.44
+> 0.46
+> 0.48
+> 0.50
+> UniProt Validation Sequence Recovery
+> Joint
+> Training
+
+Figure 5: Perplexity (left) and Sequence Recovery (right) on the UniProt validation set with shading representing standard error. Continual learning baselines generally improve over time, and outperform jointly training on all data. Temporal Replay achieves the best performance outperforming other continual methods and single year matched training for all years. Every continual baseline outperforms the naive continual learning baseline, validating many of them for the first time at scale. 
+
+Shrink and Perturb Shrink and Perturb (Ash & Adams, 2020) mitigates the loss of plasticity by periodically scaling down network weights and injecting noise. We apply this intervention at the start of each task by updating the weights as 𝜃 𝑡 = 𝜆 𝑠ℎ𝑟𝑖𝑛𝑘 𝜃 𝑡 −1 + 𝜆 𝑛𝑜𝑖𝑠𝑒 𝑝 , where 𝑝 represents random noise sampled from the network’s original initialization distribution. 
+
+Hare and Tortoise Hare and Tortoise (Lee et al., 2024) maintains two parallel sets of network weights: fast and slow. The slow weights are an exponential moving average of the fast weights, updated at every step as 
+
+𝜃 𝑠𝑙𝑜𝑤 = 𝜆 ℎ𝑡 _𝑚𝑜𝑚 𝜃 𝑠𝑙𝑜𝑤 + ( 1 − 𝜆 ℎ𝑡 _𝑚𝑜𝑚 )𝜃 𝑓 𝑎𝑠𝑡 . Periodically, the fast weights are reset to the slow weights according to 
+
+𝜆 𝑟𝑒𝑠𝑒𝑡 _ 𝑓 𝑟𝑒𝑞 .
+
+4.3. Unlearning 
+
+Unlearning aims to actively erase knowledge about specific samples from the network. In our experiments, the forget set for task 𝑡 is denoted as F𝑡 and defined as the set of sequences present in task 𝑡 − 1 but not in task 𝑡 .At each step, we sample one batch from the current task 𝑏 𝑖 ∼ D 𝑡 and one from the forget set 𝑏 𝑓 𝑜𝑟𝑔𝑒𝑡 ∼ F 𝑡 .
+
+Gradient Ascent Gradient Ascent (Golatkar et al., 2020) takes a dual-objective approach to unlearning: concurrently maximizing the loss on the forget set to erase knowledge while minimizing the loss on the current task to acquire new information and prevent divergence. This strategy is implemented by minimizing the objective L𝑐𝑒 (𝑏 𝑖 ) − 𝜆 𝑎𝑠𝑐 L𝑐𝑒 (𝑏 𝑓 𝑜𝑟𝑔𝑒𝑡 ), where L𝑐𝑒 is the cross-entropy loss and 𝜆 𝑎𝑠𝑐 controls the strength of the unlearning. 
+
+Random Labels Random Labeling (Golatkar et al., 2020) achieves unlearning by corrupting the model’s knowledge of the forget set. Specifically, it overwrites learned correlations by replacing ground-truth targets with random tokens sampled uniformly from the vocabulary, thereby training the model to predict noise. The cross-entropy loss is minimized against these noisy targets, and this unlearning objective is added to the standard task loss, weighted by 𝜆 𝑟𝑎𝑛𝑑 .
+
+5. Results 
+
+5.1. UniProt Validation Set 
+
+The perplexity and sequence recovery on the UniProt validation set shown in Figure 5 show that the performance of the continual learning baselines generally improves over time. While this might appear minor, it validates taking a continual approach to the problem and shows that continual training does not saturate the network or prime the network so heavily that it cannot learn from future data. Every continual method outperforms 
+
+8CoPeP: Benchmarking Continual Pretraining for Protein Language Models 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 
+
+> Year
+> 0.345
+> 0.350
+> 0.355
+> 0.360
+> 0.365
+> 0.370
+> Mean Spearman Correlation
+> Joint
+> Training
+> Continual
+> Replay
+> Random Labels
+> Gradient Ascent
+> Hare Tortoise
+> Shrink Perturb
+> Single Year Matched
+> Single Year Incremental
+
+Figure 6: Spearman correlation on ProteinGym. 5 of the 6 continual learning methods outperform joint training, with Gradient Ascent and Hare Tortoise achieving the best scores. The best single year performance (2021 matched) is also outperformed by Gradient Ascent. the Single Year Incremental baselines, the joint training baseline, and, in many cases, even the Single Year Matched baselines. The improvement over incremental baselines establishes that in a compute constrained setting, restarting from a continual checkpoint is more effective than starting from scratch. The fact that several methods outperform the Single Year Matched baselines shows that even in a compute rich setting, continual learning can provide benefits over standard training practices. The improvement over the joint training baseline, normally a very strong baseline in continual learning settings, points to something unique about the sequential protein data setup. Because the joint model learns from sequences that were subsequently removed from the database, often due to being redundant or pseudogenes, it might in fact be suboptimal for learning a good protein distribution. Since the validation set is curated to contain strictly high-quality, experimentally verified sequences, the continual models, which filter out these removed entries, learn a distribution that is better aligned with valid protein data. Finally, comparing the methods amongst each other, we see that every method offers better performance compared to the naive continual baseline and (other than the temporal replay baseline) relatively similar performance to each other. This is highly encouraging, as none of these methods were developed for this specific setup. Hare and Tortoise and Shrink and Perturb are both plasticity preserving methods, but to our knowledge have never been applied to a model or training scale of this size. Gradient Ascent and Random Labels have been used with LLMs, but generally on more limited forget sets and not as a part of continual pretraining. The relative success of these diverse strategies suggests that the core paradigms of continual learning (forgetting, plasticity, and unlearning) offer valuable contributions to protein modeling. 
+
+5.2. ProteinGym 
+
+In contrast to the trends observed on the UniProt validation set, the results on ProteinGym shown in Figure 6 reveal a more nuanced picture. First, nearly every continual method outperforms Joint Training, with Gradient Ascent and Hare Tortoise consistently emerging as the top-performing methods. Moreover, four continual strategies outperform the naive sequential training baseline, reaffirming the benefit of specialized continual learning methods. Temporal Replay, however, significantly lags behind on ProteinGym despite achieving the best performance on the UniProt validation set. We explore potential reasons for this discrepancy in Section 6. Specifically, the UniProt validation set is skewed towards highly studied proteomes, sequences that persist over time and are therefore prioritized by our replay mechanism. In contrast, ProteinGym evaluates the model’s ability to predict fitness effects for specific, often heterogeneous mutations. Therefore, methods that emphasize historical sequences may not perform well on downstream tasks such as ProteinGym whose distribution does not closely align. 
+
+> 9CoPeP: Benchmarking Continual Pretraining for Protein Language Models Continual
+> Replay
+> Random Labels
+> Gradient Ascent
+> Hare Tortoise
+> Shrink Perturb
+> Match
+> Single Year
+> Joint 0.00
+> 0.25
+> 0.50
+> 0.75
+> PEER Overall Win Rate Continual
+> Replay
+> Random Labels
+> Gradient Ascent
+> Hare Tortoise
+> Shrink Perturb
+> Match
+> Single Year
+> Joint 0.00
+> 0.25
+> 0.50
+> 0.75
+> DGEB Overall Win Rate
+
+Figure 7: Win rates on multi-task protein understanding benchmarks for the best checkpoint for each method. 
+
+Left : On PEER, Shrink and Perturb achieves the highest win rate, with Replay and Single Year Match in second place. Right : On DGEB, Random Labels achieves the highest win rate. Across both benchmarks, specialized continual learning methods consistently match or outperform the naive continual and single year baselines. 
+
+5.3. Multi-Task Protein Understanding Benchmarks 
+
+For the multi-task protein understanding benchmarks PEER and DGEB, each task in the benchmark has a different metric, making it challenging to aggregate results across tasks. Thus, we instead compute a win rate, defined as the proportion of times a model outperforms the other models across all tasks and years. This win rate is computed against every other checkpoint across all methods, years, and tasks, making it a relatively stable metric. In Figure 7, we present the checkpoint with the highest win rate for each method. Fine-grained results are provided in Section D and E. Across both benchmarks, specialized continual learning strategies clearly outperform the naive continual baseline, especially on DGEB where the naive approach performs poorly. Shrink and Perturb achieves the highest win rate on PEER, while Random Labels leads on DGEB. Notably, Temporal Replay demonstrates a strong and consistent performance on both benchmarks. Regarding the Single Year baselines, performance for the Match baseline is high across both benchmarks, only slightly trailing the best continual method. Performance for the Incremental baseline is approximately on par with the majority of the continual methods, suggesting that simply training for longer may not be sufficient to achieve strong performance on these tasks. Finally, while the results on DGEB and PEER generally align with one another, they diverge significantly from the trends observed in ProteinGym. This disconnect suggests that the optimal data characteristics required for general protein understanding differ distinctively from those required for zero-shot fitness prediction. 
+
+6. Discussion 
+
+Drug discovery is a complex, multi-stage process that requires a diverse set of capabilities from the pLM, and designing a single continual learning method that performs well across all tasks is challenging. Interestingly, we observe that different methods excel on different benchmarks, highlighting the diverse requirements of these tasks. Replay did well on the UniProt validation set, while Gradient Ascent and Hare and Tortoise performed best on ProteinGym. Shrink and Perturb and Random Labels achieved the highest win rates on PEER and DGEB, respectively. In this section, we discuss the specific trade-offs of the benchmarks used in our study. The UniProt validation set is designed to reflect the natural distribution of protein sequences, assuming that evolutionary fitness provides a valuable signal. Because this set comprises high-quality sequences with experimental evidence, it is skewed toward well-studied proteomes that were sequenced early and have persisted in the UniProt Knowledgebase. This bias likely explains the strong performance of Temporal Replay, which prioritizes such persistent sequences. 
+
+> 10 CoPeP: Benchmarking Continual Pretraining for Protein Language Models
+
+In contrast, ProteinGym evaluates the sensitivity of pLMs to local changes in the fitness landscape by ranking specific mutations. Unlike the UniProt validation set, we did not perform strict deduplication between the training corpora and the wild-type sequences found in ProteinGym, as is common. Consequently, methods that allow memorizing specific sequences or overfitting the neighborhood of wild-type proteins present in UniRef100 may have an advantage. Finally, PEER and DGEB measure the transferability of learned representations by fine-tuning them on a broad set of downstream tasks. These benchmarks require that pLMs encode high-level biological features into their embeddings, rather than sequence likelihoods or local fitness landscapes. PEER is designed for more general protein understanding tasks, while DGEB focuses on diverse and less well-studied genomic proteins. Thus, methods that encourage broader generalization, such as Shrink and Perturb do well on PEER, and methods that perhaps push the model away from overfitting to well-studied sequences, such as Random Labels, excel on DGEB. 
+
+7. Conclusion 
+
+We introduce CoPeP, a large-scale benchmark that leverages the temporal evolution of the UniProt Knowledge-base to evaluate continual pretraining strategies on a complex, real-world problem. Our extensive evaluation reveals that specialized continual learning methods consistently outperform naive sequential baselines. Tem-poral Replay, in particular, outperforms all continual and non-continual baselines, by leveraging sequence persistence. However, we observed a critical trade-off depending on the downstream application: while replay-based strategies excel at modeling natural protein distributions, plasticity-preserving and unlearning approaches like Hare and Tortoise and Gradient Ascent performed better for zero-shot fitness prediction on ProteinGym, while Shrink and Perturb and Random Labels offered better transfer learning on PEER and DGEB. Future work could explore how to combine these orthogonal methods to develop more effective approaches. Ultimately, CoPeP demonstrates that temporal metadata can be leveraged to maintain state-of-the-art performance without expensive retraining, paving the way for more sustainable and accessible drug discovery research. We hope this benchmark will accelerate progress in protein language models. 
+
+8. Reproducibility Statement 
+
+The details of our model training and hyperparameter selection are provided in Sections 3.4, F.1 and G. The details of our dataset curation are provided in Sections 3.1, 3.3 and H. We have also released the code 3 as well as the checkpoints and datasets 4 used to conduct all of our experiments. 
+
+9. Acknowledgements 
+
+This research was enabled in part by compute resources provided by Calcul Québec (calculquebec.ca), the Digital Research Alliance of Canada (alliancecan.ca), and Mila (mila.quebec). SC is supported by the Canada CIFAR AI Chair, the Canada Research Chair in Lifelong Machine Learning, and the NSERC Discovery Grant. We would also like to thank Genentech for their funding and support for this project. Finally, we would like to thank David Heurtel-Depeiges and Lola Le Breton for their help with the initial data curation and experimental setup. 
+
+References 
+
+Istabrak Abbes, Gopeshh Subbaraj, Matthew Riemer, Nizar Islah, Benjamin Therien, Tsuguchika Tabaru, Hiroaki Kingetsu, Sarath Chandar, and Irina Rish. Revisiting replay and gradient alignment for continual pre-training of large language models, August 2025. 
+
+> 3https://github.com/chandar-lab/CoPeP
+> 4https://huggingface.co/collections/chandar-lab/CoPeP
+> 11 CoPeP: Benchmarking Continual Pretraining for Protein Language Models
+
+Josh Abramson, Jonas Adler, Jack Dunger, Richard Evans, Tim Green, Alexander Pritzel, Olaf Ronneberger, Lindsay Willmore, Andrew J. Ballard, Joshua Bambrick, Sebastian W. Bodenstein, David A. Evans, Chia-Chun Hung, Michael O’Neill, David Reiman, Kathryn Tunyasuvunakool, Zachary Wu, Akvil ˙e Žemgulyt ˙e, Eirini Arvaniti, Charles Beattie, Ottavia Bertolli, Alex Bridgland, Alexey Cherepanov, Miles Congreve, Alexander I. Cowen-Rivers, Andrew Cowie, Michael Figurnov, Fabian B. Fuchs, Hannah Gladman, Rishub Jain, Yousuf A. Khan, Caroline M. R. Low, Kuba Perlin, Anna Potapenko, Pascal Savy, Sukhdeep Singh, Adrian Stecula, Ashok Thillaisundaram, Catherine Tong, Sergei Yakneen, Ellen D. Zhong, Michal Zielinski, Augustin Žídek, Victor Bapst, Pushmeet Kohli, Max Jaderberg, Demis Hassabis, and John M. Jumper. Accurate structure prediction of biomolecular interactions with alphafold 3. Nature , 630(8016):493—-500, 2024. doi: 10.1038/s41586-024-07487-w. Jordan Ash and Ryan P Adams. On warm-starting neural network training. In Advances in Neural Information Processing Systems , volume 33, pp. 3884–3894. Curran Associates, Inc., 2020. Aadyot Bhatnagar, Sarthak Jain, Joel Beazer, Samuel C. Curran, Alexander M. Hoffnagle, Kyle Ching, Michael Martyn, Stephen Nayfach, Jeffrey A. Ruffolo, and Ali Madani. Scaling unlocks broader generation and deeper functional understanding of proteins. bioRxiv , 2025. doi: 10.1101/2025.04.15.649055. URL 
+
+https://www.biorxiv.org/content/early/2025/04/16/2025.04.15.649055 .Jorg Bornschein, Alexandre Galashov, Ross Hemsley, Amal Rannen-Triki, Yutian Chen, Arslan Chaudhry, Xu Owen He, Arthur Douillard, Massimo Caccia, Qixuan Feng, et al. Nevis’ 22: A stream of 100 tasks sampled from 30 years of computer vision research. Journal of Machine Learning Research , 24(308):1–77, 2023. Lucas Bourtoule, Varun Chandrasekaran, Christopher A. Choquette-Choo, Hengrui Jia, Adelin Travers, Baiwu Zhang, David Lie, and Nicolas Papernot. Machine unlearning. In 2021 IEEE Symposium on Security and Privacy (SP) , pp. 141–159, May 2021. doi: 10.1109/SP40001.2021.00019. Zhipeng Cai, Ozan Sener, and Vladlen Koltun. Online continual learning with natural distribution shifts: An empirical study with visual data. In Proceedings of the IEEE/CVF international conference on computer vision ,pp. 8281–8290, 2021. Ilias Chalkidis, Manos Fergadiotis, Prodromos Malakasiotis, Nikolaos Aletras, and Ion Androutsopoulos. Legal-bert: The muppets straight out of law school. In Trevor Cohn, Yulan He, and Yang Liu (eds.), Findings of the Association for Computational Linguistics: EMNLP 2020 , pp. 2898–2904, Online, November 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.findings-emnlp.261. Arslan Chaudhry, Marcus Rohrbach, Mohamed Elhoseiny, Thalaiyasingam Ajanthan, Puneet K. Dokania, Philip H. S. Torr, and Marc’Aurelio Ranzato. On tiny episodic memories in continual learning, June 2019. Peter J. A. Cock, Tiago Antao, Jeffrey T. Chang, Brad A. Chapman, Cymon J. Cox, Andrew Dalke, Iddo Friedberg, Thomas Hamelryck, Frank Kauff, Bartek Wilczynski, and Michiel J. L. de Hoon. Biopython: Freely available python tools for computational molecular biology and bioinformatics. Bioinformatics , 25(11):1422–1423, June 2009. ISSN 1367-4803. doi: 10.1093/bioinformatics/btp163. The UniProt Consortium. Uniprot: The universal protein knowledgebase in 2025. Nucleic Acids Res , 53(D1): D609–D617, January 2025. ISSN 1362-4962. doi: 10.1093/nar/gkae1010. Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. Bert: Pre-training of deep bidirectional transformers for language understanding. In Jill Burstein, Christy Doran, and Thamar Solorio (eds.), 
+
+Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers) , pp. 4171–4186, Minneapolis, Minnesota, June 2019. Association for Computational Linguistics. doi: 10.18653/v1/N19-1423. Shibhansh Dohare, J Fernando Hernandez-Garcia, Qingfeng Lan, Parash Rahman, A Rupam Mahmood, and Richard S Sutton. Loss of plasticity in deep continual learning. Nature , 632(8026):768–774, 2024. Quentin Fournier, Robert M. Vernon, Almer van der Sloot, Benjamin Schulz, Sarath Chandar, and Christo-pher James Langmead. Protein language models: Is scaling necessary?, September 2024. 
+
+> 12 CoPeP: Benchmarking Continual Pretraining for Protein Language Models
+
+Aditya Golatkar, Alessandro Achille, and Stefano Soatto. Eternal sunshine of the spotless net: Selective forgetting in deep networks. In 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) , pp. 9301– 9309, Seattle, WA, USA, June 2020. IEEE. ISBN 978-1-7281-7168-5. doi: 10.1109/CVPR42600.2020.00932. Ian J Goodfellow, Mehdi Mirza, Da Xiao, Aaron Courville, and Yoshua Bengio. An empirical investigation of catastrophic forgetting in gradient-based neural networks. arXiv preprint arXiv:1312.6211 , 2013. Kshitij Gupta, Benjamin Thérien, Adam Ibrahim, Mats L. Richter, Quentin Anthony, Eugene Belilovsky, Irina Rish, and Timothée Lesort. Continual pre-training of large language models: How to (re)warm your model?, September 2023. Suchin Gururangan, Ana Marasović, Swabha Swayamdipta, Kyle Lo, Iz Beltagy, Doug Downey, and Noah A. Smith. Don’t stop pretraining: Adapt language models to domains and tasks. In Dan Jurafsky, Joyce Chai, Natalie Schluter, and Joel Tetreault (eds.), Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics , pp. 8342–8360, Online, July 2020. Association for Computational Linguistics. doi: 10.18653/v1/2020.acl-main.740. Thomas Hayes, Roshan Rao, Halil Akin, Nicholas J Sofroniew, Deniz Oktay, Zeming Lin, Robert Verkuil, Vincent Q Tran, Jonathan Deaton, Marius Wiggert, et al. Simulating 500 million years of evolution with a language model. Science , 387(6736):850–858, 2025. Shengding Hu, Yuge Tu, Xu Han, Ganqu Cui, Chaoqun He, Weilin Zhao, Xiang Long, Zhi Zheng, Yewei Fang, Yuxiang Huang, Xinrong Zhang, Zhen Leng Thai, Chongyi Wang, Yuan Yao, Chenyang Zhao, Jie Zhou, Jie Cai, Zhongwu Zhai, Ning Ding, Chao Jia, Guoyang Zeng, Dahai Li, Zhiyuan Liu, and Maosong Sun. Minicpm: Unveiling the potential of small language models with scalable training strategies. In First Conference on Language Modeling , August 2024. Moult J, Fidelis K, Kryshtafovych A, Schwede T, and Tramontano A. Critical assessment of methods of protein structure prediction (casp)-round xii. Proteins , 2018. doi: 10.1002/prot.25415. Joel Jang, Dongkeun Yoon, Sohee Yang, Sungmin Cha, Moontae Lee, Lajanugen Logeswaran, and Minjoon Seo. Knowledge unlearning for mitigating privacy risks in language models. In Anna Rogers, Jordan Boyd-Graber, and Naoaki Okazaki (eds.), Proceedings of the 61st Annual Meeting of the Association for Computational Linguis-tics (Volume 1: Long Papers) , pp. 14389–14408, Toronto, Canada, July 2023. Association for Computational Linguistics. doi: 10.18653/v1/2023.acl-long.805. Xisen Jin, Bill Yuchen Lin, Mohammad Rostami, and Xiang Ren. Learn continually, generalize rapidly: Lifelong knowledge accumulation for few-shot learning. In Marie-Francine Moens, Xuanjing Huang, Lucia Specia, and Scott Wen-tau Yih (eds.), Findings of the Association for Computational Linguistics: EMNLP 2021 , pp. 714–729, Punta Cana, Dominican Republic, November 2021. Association for Computational Linguistics. doi: 10.18653/v1/2021.findings-emnlp.62. John Jumper, Richard Evans, Alexander Pritzel, Tim Green, Michael Figurnov, Olaf Ronneberger, Kathryn Tunyasuvunakool, Russ Bates, Augustin Žídek, Anna Potapenko, Alex Bridgland, Clemens Meyer, Simon A. A. Kohl, Andrew J. Ballard, Andrew Cowie, Bernardino Romera-Paredes, Stanislav Nikolov, Rishub Jain, Jonas Adler, Trevor Back, Stig Petersen, David Reiman, Ellen Clancy, Michal Zielinski, Martin Steinegger, Michalina Pacholska, Tamas Berghammer, Sebastian Bodenstein, David Silver, Oriol Vinyals, Andrew W. Senior, Koray Kavukcuoglu, Pushmeet Kohli, and Demis Hassabis. Highly accurate protein structure prediction with alphafold. Nature , 596(7873):583–589, August 2021. ISSN 1476-4687. doi: 10.1038/s41586-021-03819-2. Felix Kallenborn, Alejandro Chacon, Christian Hundt, Hassan Sirelkhatim, Kieran Didi, Sooyoung Cha, Christian Dallago, Milot Mirdita, Bertil Schmidt, and Martin Steinegger. Gpu-accelerated homology search with mmseqs2. Nat Methods , pp. 1–4, September 2025. ISSN 1548-7105. doi: 10.1038/s41592-025-02819-8. Zixuan Ke, Yijia Shao, Haowei Lin, Tatsuya Konishi, Gyuhak Kim, and Bing Liu. Continual pre-training of language models. In The Eleventh International Conference on Learning Representations , September 2022. James Kirkpatrick, Razvan Pascanu, Neil Rabinowitz, Joel Veness, Guillaume Desjardins, Andrei A Rusu, Kieran Milan, John Quan, Tiago Ramalho, Agnieszka Grabska-Barwinska, et al. Overcoming catastrophic forgetting in neural networks. Proceedings of the national academy of sciences , 114(13):3521–3526, 2017. 
+
+> 13 CoPeP: Benchmarking Continual Pretraining for Protein Language Models
+
+Pang Wei Koh, Shiori Sagawa, Henrik Marklund, Sang Michael Xie, Marvin Zhang, Akshay Balsubramani, Weihua Hu, Michihiro Yasunaga, Richard Lanas Phillips, Irena Gao, et al. Wilds: A benchmark of in-the-wild distribution shifts. In International conference on machine learning , pp. 5637–5664. PMLR, 2021. Alex Krizhevsky, Geoffrey Hinton, et al. Learning multiple layers of features from tiny images. 2009. Hojoon Lee, Hyeonseo Cho, Hyunseung Kim, Donghu Kim, Dugki Min, Jaegul Choo, and Clare Lyle. Slow and steady wins the race: Maintaining plasticity with hare and tortoise networks, June 2024. Yunshui Li, Yiyuan Ma, Shen Yan, Chaoyi Zhang, Jing Liu, Jianqiao Lu, Ziwen Xu, Mengzhao Chen, Minrui Wang, Shiyi Zhan, Jin Ma, Xunhao Lai, Yao Luo, Xingyan Bin, Hongbin Ren, Mingji Han, Wenhao Hao, Bairen Yi, LingJun Liu, Bole Ma, Xiaoying Jia, Zhou Xun, Liang Xiang, and Yonghui Wu. Model merging in pre-training of large language models, May 2025. Zeming Lin, Halil Akin, Roshan Rao, Brian Hie, Zhongkai Zhu, Wenting Lu, Allan dos Santos Costa, Maryam Fazel-Zarandi, Tom Sercu, Sal Candido, and Alexander Rives. Language models of protein sequences at the scale of evolution enable accurate structure prediction, July 2022. Zeming Lin, Halil Akin, Roshan Rao, Brian Hie, Zhongkai Zhu, Wenting Lu, Nikita Smetanin, Robert Verkuil, Ori Kabeli, Yaniv Shmueli, Allan dos Santos Costa, Maryam Fazel-Zarandi, Tom Sercu, Salvatore Candido, and Alexander Rives. Evolutionary-scale prediction of atomic-level protein structure with a language model. 
+
+Science , 379(6637):1123–1130, March 2023. doi: 10.1126/science.ade2574. Zhiqiu Lin, Jia Shi, Deepak Pathak, and Deva Ramanan. The clear benchmark: Continual learning on real-world imagery. In Thirty-fifth conference on neural information processing systems datasets and benchmarks track (round 2) , 2021. David Lopez-Paz and Marc ' Aurelio Ranzato. Gradient episodic memory for continual learn-ing. In I. Guyon, U. Von Luxburg, S. Bengio, H. Wallach, R. Fergus, S. Vishwanathan, and R. Garnett (eds.), Advances in Neural Information Processing Systems , volume 30. Curran Asso-ciates, Inc., 2017. URL https://proceedings.neurips.cc/paper_files/paper/2017/file/ f87522788a2be2d171666752f97ddebb-Paper.pdf .Ilya Loshchilov and Frank Hutter. Decoupled weight decay regularization. In International Conference on Learning Representations , September 2018. Ali Madani, Ben Krause, Eric R Greene, Subu Subramanian, Benjamin P Mohr, James M Holton, Jose Luis Olmos Jr, Caiming Xiong, Zachary Z Sun, Richard Socher, et al. Large language models generate functional protein sequences across diverse families. Nature biotechnology , 41(8):1099–1106, 2023. Michael McCloskey and Neal J Cohen. Catastrophic interference in connectionist networks: The sequential learning problem. In Psychology of learning and motivation , volume 24, pp. 109–165. Elsevier, 1989. Leland McInnes, John Healy, Nathaniel Saul, and Lukas Grossberger. Umap: Uniform manifold approximation and projection. The Journal of Open Source Software , 3(29):861, 2018. Kevin Meng, David Bau, Alex Andonian, and Yonatan Belinkov. Locating and editing factual associations in gpt. In Proceedings of the 36th International Conference on Neural Information Processing Systems , NIPS ’22, pp. 17359–17372, Red Hook, NY, USA, November 2022. Curran Associates Inc. ISBN 978-1-7138-7108-8. Eric Mitchell, Charles Lin, Antoine Bosselut, Christopher D. Manning, and Chelsea Finn. Memory-based model editing at scale. In Proceedings of the 39th International Conference on Machine Learning , pp. 15817–15831. PMLR, June 2022. Erik Nijkamp, Jeffrey A. Ruffolo, Eli N. Weinstein, Nikhil Naik, and Ali Madani. Progen2: Exploring the boundaries of protein language models. Cell Systems , 14(11):968–978.e3, November 2023. ISSN 2405-4712. doi: 10.1016/j.cels.2023.10.002. Pascal Notin, Aaron Kollasch, Daniel Ritter, Lood Van Niekerk, Steffanie Paul, Han Spinner, Nathan Rollins, Ada Shaw, Rose Orenbuch, Ruben Weitzman, et al. Proteingym: Large-scale benchmarks for protein fitness prediction and design. Advances in Neural Information Processing Systems , 36:64331–64379, 2023. 
+
+> 14 CoPeP: Benchmarking Continual Pretraining for Protein Language Models
+
+Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and Ilya Sutskever. Language models are unsupervised multitask learners. Roshan Rao, Nicholas Bhattacharya, Neil Thomas, Yan Duan, Xi Chen, John Canny, Pieter Abbeel, and Yun S. Song. Evaluating protein transfer learning with tape. In Proceedings of the 33rd International Conference on Neural Information Processing Systems , number 869, pp. 9689–9701. Curran Associates Inc., Red Hook, NY, USA, December 2019. Sylvestre-Alvise Rebuffi, Alexander Kolesnikov, Georg Sperl, and Christoph H Lampert. icarl: Incremental classifier and representation learning. In Proceedings of the IEEE conference on Computer Vision and Pattern Recognition , pp. 2001–2010, 2017. Lorna Richardson, Ben Allen, Germana Baldi, Martin Beracochea, Maxwell L Bileschi, Tony Burdett, Josephine Burgin, Juan Caballero-Pérez, Guy Cochrane, Lucy J Colwell, Tom Curtis, Alejandra Escobar-Zepeda, Tatiana A Gurbich, Varsha Kale, Anton Korobeynikov, Shriya Raj, Alexander B Rogers, Ekaterina Sakharova, Santiago Sanchez, Darren J Wilkinson, and Robert D Finn. Mgnify: The microbiome sequence data analysis resource in 2023. Nucleic Acids Res , 51(D1):D753–D759, January 2023. ISSN 0305-1048. doi: 10.1093/nar/gkac1080. Alexander Rives, Joshua Meier, Tom Sercu, Siddharth Goyal, Zeming Lin, Jason Liu, Demi Guo, Myle Ott, C. Lawrence Zitnick, Jerry Ma, and Rob Fergus. Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences. Proceedings of the National Academy of Sciences , 118 (15):e2016239118, April 2021. doi: 10.1073/pnas.2016239118. David Rolnick, Arun Ahuja, Jonathan Schwarz, Timothy Lillicrap, and Gregory Wayne. Experience replay for continual learning. In Advances in Neural Information Processing Systems , volume 32. Curran Associates, Inc., 2019. Aviv Spinner, Erika DeBenedictis, and Corey M. Hudson. Scaling and data saturation in protein language models, July 2025. Martin Steinegger and Johannes Söding. Mmseqs2 enables sensitive protein sequence searching for the analysis of massive data sets. Nat Biotechnol , 35(11):1026–1028, November 2017. ISSN 1546-1696. doi: 10.1038/nbt.3988. Baris E. Suzek, Yuqi Wang, Hongzhan Huang, Peter B. McGarvey, Cathy H. Wu, and the UniProt Consortium. Uniref clusters: A comprehensive and scalable alternative for improving sequence similarity searches. 
+
+Bioinformatics , 31(6):926–932, March 2015. ISSN 1367-4803. doi: 10.1093/bioinformatics/btu739. Liyuan Wang, Xingxing Zhang, Hang Su, and Jun Zhu. A comprehensive survey of continual learning: Theory, method and application. IEEE Trans. Pattern Anal. Mach. Intell. , 46(8):5362–5383, August 2024. ISSN 0162-8828. doi: 10.1109/TPAMI.2024.3367329. Jacob West-Roberts, Joshua Kravitz, Nishant Jha, Andre Cornman, and Yunha Hwang. Diverse genomic embedding benchmark for functional evaluation across the tree of life, July 2024. Minghao Xu, Zuobai Zhang, Jiarui Lu, Zhaocheng Zhu, Yangtian Zhang, Chang Ma, Runcheng Liu, and Jian Tang. Peer: A comprehensive and multi-task benchmark for protein sequence understanding. In Thirty-Sixth Conference on Neural Information Processing Systems Datasets and Benchmarks Track , June 2022. Yunzhi Yao, Peng Wang, Bozhong Tian, Siyuan Cheng, Zhoubo Li, Shumin Deng, Huajun Chen, and Ningyu Zhang. Editing large language models: Problems, methods, and opportunities. In Houda Bouamor, Juan Pino, and Kalika Bali (eds.), Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing , pp. 10222–10240, Singapore, December 2023. Association for Computational Linguistics. doi: 10.18653/v1/2023.emnlp-main.632. Friedemann Zenke, Ben Poole, and Surya Ganguli. Continual learning through synaptic intelligence. In 
+
+International conference on machine learning , pp. 3987–3995. PMLR, 2017. 
+
+> 15
+
+CoPeP: Benchmarking Continual Pretraining for Protein Language Models 
+
+A. Evolution of Data 
+
+A.1. Embedding Visualization 
+
+In this experiment, we analyze how protein sequence datasets evolve over years by visualizing their structure in embedding space. We extract the embeddings from the last layer of AMPLIFY 350M (trained with 1 million steps) (Fournier et al., 2024) and apply UMAP (McInnes et al., 2018) to project high-dimensional protein embeddings into two dimensions. This enables us to observe broad patterns in the data and how they change across consecutive UniRef100 releases. Added in 2022 Added in 2023 Added in 2024 
+
+Removed from 2022 Removed from 2023 Removed from 2024 
+
+Figure 8: UMAP projection of protein embeddings from all UniRef100 releases (AMPLIFY-350M representations). The plot shows a stable global structure with a dense core and branches, indicating natural groupings of proteins. Figure 8 shows the embedding of the full dataset, i.e., sequences from all years. The plot reveals a global structure with a dense central region and branches, suggesting natural groupings of proteins. Differences in density highlight areas where certain types of sequences are more common. Each UniRef100 release both adds and removes sequences, reflecting the expansion of available protein sequences and ongoing curation. To illustrate these dynamics, Figure 9 compares additions (blue, top row) with removals (red, bottom row) per year. Overall, while the global structure of protein embeddings is stable, Figure 9 indicates local shifts such as density increases and cluster expansion. This underscores why continual learning is critical for protein language models. Instead of treating each release as an isolated dataset, continual methods can exploit temporal information to adapt to new proteins while retaining prior knowledge. Added in 2011 Added in 2012 Added in 2013 Added in 2014 Added in 2015 Added in 2016 Added in 2017 Added in 2018 Added in 2019 Added in 2020 Added in 2021 Added in 2022 Added in 2023 Added in 2024              
+
+> Removed from 2011 Removed from 2012 Removed from 2013 Removed from 2014 Removed from 2015 Removed from 2016 Removed from 2017 Removed from 2018 Removed from 2019 Removed from 2020 Removed from 2021 Removed from 2022 Removed from 2023 Removed from 2024
+
+Figure 9: Yearly dynamics of UniRef100 embeddings. Top row (blue): proteins added in each year; bottom row (red): proteins removed. While the global organization of protein embeddings is stable, the local shifts such as density increases and cluster expansion indicate yearly shifts in the underlying distribution. 
+
+A.2. Model Embedding Shifts 
+
+In Figure 10, we visualize how different continual learning methods structure their protein embeddings. For each method, we select the final checkpoint and extract embeddings for a representative subset of proteins that were added and removed across all years. We then apply UMAP to project these embeddings into two 
+
+16 CoPeP: Benchmarking Continual Pretraining for Protein Language Models Single Year 
+
+Year 2015 
+
+> PPL: 5.55
+> PG: 0.365
+
+Year 2016 
+
+> PPL: 5.58
+> PG: 0.373
+
+Year 2017 
+
+> PPL: 5.88
+> PG: 0.365
+
+Year 2018 
+
+> PPL: 6.00
+> PG: 0.376
+
+Year 2019 
+
+> PPL: 5.98
+> PG: 0.376
+
+Year 2020 
+
+> PPL: 5.94
+> PG: 0.366
+
+Year 2021 
+
+> PPL: 5.57
+> PG: 0.374
+
+Year 2022 
+
+> PPL: 5.44
+> PG: 0.373
+> Continual
+> PPL: 5.55
+> PG: 0.365
+> PPL: 5.20
+> PG: 0.370
+> PPL: 5.15
+> PG: 0.376
+> PPL: 5.13
+> PG: 0.377
+> PPL: 5.04
+> PG: 0.377
+> PPL: 4.93
+> PG: 0.379
+> PPL: 4.78
+> PG: 0.378
+> PPL: 4.67
+> PG: 0.381
+> Replay
+> PPL: 5.55
+> PG: 0.365
+> PPL: 4.87
+> PG: 0.370
+> PPL: 4.76
+> PG: 0.380
+> PPL: 4.67
+> PG: 0.377
+> PPL: 4.61
+> PG: 0.377
+> PPL: 4.59
+> PG: 0.380
+> PPL: 4.47
+> PG: 0.382
+> PPL: 4.37
+> PG: 0.377
+> Gradient Ascent
+> PPL: 5.55
+> PG: 0.365
+> PPL: 5.17
+> PG: 0.379
+> PPL: 5.10
+> PG: 0.379
+> PPL: 4.97
+> PG: 0.381
+> PPL: 4.88
+> PG: 0.383
+> PPL: 4.83
+> PG: 0.378
+> PPL: 4.68
+> PG: 0.383
+> PPL: 4.60
+> PG: 0.359
+> Random Labels
+> PPL: 5.55
+> PG: 0.365
+> PPL: 5.72
+> PG: 0.366
+> PPL: 5.13
+> PG: 0.373
+> PPL: 4.97
+> PG: 0.368
+> PPL: 4.88
+> PG: 0.370
+> PPL: 4.83
+> PG: 0.375
+> PPL: 4.66
+> PG: 0.377
+> PPL: 4.52
+> PG: 0.374
+> Shrink Perturb
+> PPL: 5.55
+> PG: 0.365
+> PPL: 5.31
+> PG: 0.371
+> PPL: 5.03
+> PG: 0.385
+> PPL: 4.93
+> PG: 0.382
+> PPL: 4.88
+> PG: 0.382
+> PPL: 4.84
+> PG: 0.377
+> PPL: 4.68
+> PG: 0.382
+> PPL: 4.53
+> PG: 0.383
+> Hare Tortoise
+> PPL: 5.38
+> PG: 0.369
+> PPL: 5.02
+> PG: 0.381
+> PPL: 4.97
+> PG: 0.388
+> PPL: 5.00
+> PG: 0.380
+> PPL: 4.91
+> PG: 0.384
+> PPL: 4.88
+> PG: 0.385
+> PPL: 4.72
+> PG: 0.391
+> PPL: 4.55
+> PG: 0.382
+> Preserved
+> Removed
+
+Figure 10: UMAP visualization of protein embeddings across continual learning methods (2015˘2022 ) with performance metrics (PPL: validation perplexity; PG: ProteinGym mean Spearman correlation). Color shades are based on Single Year clusters. Darker shades indicate denser regions. The same color shades are used in other rows/methods to indicate those centroid/representative protein locations. dimensions. The color shading indicates protein density within the Single Year clusters, with darker shades indicating denser regions. Interestingly, most methods maintain a similar global structure except for Gradient Ascent, which shows a more rope-like structure. 
+
+A.3. Data Statistics 
+
+In this section, we analyze how various protein sequence simple biochemical properties evolve over years. We compute several statistics for each protein sequence in the UniRef100 releases from 2015 to 2024 using the Biopython library (Cock et al., 2009). Specifically, we create two-sample QQ-plots comparing the distribution of each statistic between the reference year 2015 and each yearly release. The statistics we analyze include: 
+
+• Aromaticity 
+
+• Charge at pH 7 
+
+• Instability Index 
+
+• Isoelectric Point 
+
+• Molar Extinction Coefficient (oxidized and reduced) 
+
+• Protein Length 
+
+• Longest Repeat Ratio 
+
+17 CoPeP: Benchmarking Continual Pretraining for Protein Language Models 0.0 0.2 0.4 0.6 0.8 1.0 
+
+Reference Quantiles (2015) 
+
+> 0.0
+> 0.2
+> 0.4
+> 0.6
+> 0.8
+> 1.0
+> Quantiles of other years
+
+aromaticity 
+
+> Comparison Samples
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+> Y=X Reference
+
+(a) Aromaticity 5000 0 5000 10000 15000 
+
+Reference Quantiles (2015) 
+
+> 5000
+> 0
+> 5000
+> 10000
+> 15000
+> Quantiles of other years
+
+charge_at_pH7  
+
+> Comparison Samples
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+> Y=X Reference
+
+(b) Charge at pH 7 100 0 100 200 300 400 500 600 
+
+Reference Quantiles (2015) 
+
+> 100
+> 0
+> 100
+> 200
+> 300
+> 400
+> 500
+> 600
+> Quantiles of other years
+
+instability_index  
+
+> Comparison Samples
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+> Y=X Reference
+
+(c) Instability Index 4 5 6 7 8 9 10 11 12 
+
+Reference Quantiles (2015) 
+
+> 4
+> 5
+> 6
+> 7
+> 8
+> 9
+> 10
+> 11
+> 12
+> Quantiles of other years
+
+isoelectric_point 
+
+> Comparison Samples
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+> Y=X Reference
+
+(d) Isoelectric Point 0.0 0.2 0.4 0.6 0.8 1.0 
+
+Reference Quantiles (2015) 1e7  
+
+> 0.0
+> 0.2
+> 0.4
+> 0.6
+> 0.8
+> 1.0
+> Quantiles of other years
+> 1e7
+
+mol_ext_oxidized  
+
+> Comparison Samples
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+> Y=X Reference
+
+(e) Molar Extinction Coefficient (oxi-dized) 0.0 0.2 0.4 0.6 0.8 1.0 
+
+Reference Quantiles (2015) 1e7  
+
+> 0.0
+> 0.2
+> 0.4
+> 0.6
+> 0.8
+> 1.0
+> Quantiles of other years
+> 1e7
+
+mol_ext_reduced 
+
+> Comparison Samples
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+> Y=X Reference
+
+(f) Molar Extinction Coefficient (re-duced) 0 10000 20000 30000 40000 50000 
+
+Reference Quantiles (2015) 
+
+> 0
+> 10000
+> 20000
+> 30000
+> 40000
+> 50000
+> Quantiles of other years
+
+length 
+
+> Comparison Samples
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+> Y=X Reference
+
+(g) Protein Length 0.0 0.2 0.4 0.6 0.8 1.0 
+
+Reference Quantiles (2015) 
+
+> 0.0
+> 0.2
+> 0.4
+> 0.6
+> 0.8
+> 1.0
+> Quantiles of other years
+
+sa_repeat_ratio  
+
+> Comparison Samples
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+> Y=X Reference
+
+(h) Longest Repeat Ratio 
+
+Figure 11: Two sample QQ-plots of various protein sequence statistics across different years. Each line represents a comparison between a year and the reference year 2015. Overall, we see that most statistics show relatively stable distributions across years, for at least some of the statistics (molar extinction coefficient, protein length, charge at pH 7) there are outliers at the extremes of the distributions for several years. Furthermore, there is a noticeable shift in the distribution of the isoelectric point over the years, with later years showing a higher density of proteins with isoelectric points around 7-8. Despite these biophysical properties of the sequences (calculated using fairly simple, surface level statistics) remaining relatively stable, we can see from the embedding visualizations in Section A.1 and the sequence identity analysis in Figure 3 that the distribution of sequences is shifting significantly over years. 
+
+18 CoPeP: Benchmarking Continual Pretraining for Protein Language Models 2015 
+
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 2 
+
+2015 
+
+2016 
+
+2017 
+
+2018 
+
+2019 
+
+2020 
+
+2021 
+
+2022 
+
+2023 
+
+2024                                               
+
+> Year 1
+> 43.5 44.5 44.5 43.6 43.7 42.8 42.6 41.8 41.8 42.2
+> 43.3 42.2 43.1 43.0 41.9 41.8 41.5 41.3 41.1
+> 41.7 41.6 40.7 40.3 40.1 40.1 39.6 40.0
+> 40.9 41.0 40.3 40.7 39.9 40.1 39.7
+> 40.9 40.4 40.8 40.2 40.2 41.0
+> 41.0 42.1 41.7 41.7 42.1
+> 42.9 43.2 43.6 44.1
+> 43.7 44.2 44.9
+> 43.7 44.2
+> 43.9
+
+0.40 
+
+0.41 
+
+0.42 
+
+0.43 
+
+0.44 
+
+> Uniprot Val Sequence Recovery
+
+Figure 12: Accuracy on the UniProt validation set when training on different filtered datasets. The best performance in each row is boxed in red, and the best performance in each column is boxed in green. Note, the best performance overall ( 2022 ∩ 2024 ) corresponds to training on an intersection that is 64% the size of the largest dataset (2024 no filter). 
+
+B. UniProt Validation Results 
+
+B.1. Additional Filter Experiment Results 
+
+In Figure 12, we present additional results from the dataset filtering experiments described in Section 3.5. Specifically, we show sequence recovery on the UniProt validation set when training on different filtered datasets. 
+
+B.2. UniProt Dataset Composition 
+
+In this section, we provide additional information on the makeup of the training and validation set used in throughout the paper. Figure 13 illustrate the taxonomic lineage of the validation set, revealing a composition dominated by Eukaryota with sparse coverage of Bacteria and Archaea. The prevalence of Homo sapiens (human) and Mus musculus (house mouse), reflects the anthropocentric sampling bias inherent in biological data collection. In Figure 14 (left), we look at the pairwise sequence similarity between the different proteins in the validation set, and see that it is quite diverse, with the majority of sequence pairs being around 20-40% similar i.e. in the “protein twilight zone”. The “protein twilight zone” refers to the range of low sequence identity (typically 20–35%) where homology inference based on sequence alignment becomes unreliable. In Figure 14 (right), we plot a histogram of the closest sequence similarity for each protein in the training set to any protein in the validation set. This shows that most proteins in the validation set have less than 40% similarity to any protein in the training set, indicating that the training set distribution is quite different from the validation set distribution (even if it might contain many proteins similar to the validation set proteins). The sequence similarities here stratified by year are what are used in Figure 1 to measure the distribution shifts over time. 
+
+B.3. Stratification by Lineage 
+
+In this section, we present the results on the UniProt validation set for each method stratified by the different lineages present in the dataset. We can see the results in Figure 15. Notably, the mean perplexity tends to follow the perplexity on Eukaryota and Archaea quite well, but Bacteria tends to have a much lower perplexity. Furthermore, as we go down the taxonomic tree, it does not seem to be the case that the model performs 
+
+> 19
+
+CoPeP: Benchmarking Continual Pretraining for Protein Language Models Eukaryota 
+
+> 96.5%
+> Bacteria
+> 3.3%
+> Archaea
+> 0.2%
+
+Metazoa 
+
+71.1% 
+
+> Viridiplantae
+> 21.8%
+> Fungi
+> 3.1%
+> Unknown
+> 0.5%
+> Bacillati
+> 1.9%
+> Thermotogati
+> 0.3%
+> Pseudomonadati
+> 1.1%
+> Methanobacteriati
+> 0.2%
+
+Chordata 
+
+61.4% 
+
+Arthropoda 
+
+5.2% 
+
+Nematoda 
+
+4.5% 
+
+> Streptophyta
+> 21.8%
+
+Ascomycota 
+
+3.1% 
+
+> Evosea
+> 0.4%
+> Apicomplexa
+> 0.1%
+> Actinomycetota
+> 1.1%
+> Bacillota
+> 0.8%
+> Deinococcota
+> 0.2%
+
+Thermotogota 
+
+0.2% 
+
+Pseudomonadota 
+
+1.1% 
+
+> Methanobacteriota
+> 0.2%
+
+Sarcopterygii (superclass) 
+
+55.1% 
+
+> Actinopterygii (superclass)
+> 6.3%
+
+Insecta 
+
+5.2% 
+
+> Chromadorea
+> 4.5%
+> Magnoliopsida
+> 21.8%
+> Saccharomycetes
+> 2.0%
+> Schizosaccharomycetes
+> 1.0%
+> Eurotiomycetes
+> 0.1%
+> Eumycetozoa
+> 0.4%
+> Aconoidasida
+> 0.1%
+> Actinomycetes
+> 1.1%
+> Bacilli
+> 0.8%
+> Deinococci
+> 0.2%
+
+Thermotogae 
+
+0.2% 
+
+> Gammaproteobacteria
+> 1.1%
+
+Methanococci 
+
+0.1% 
+
+Thermococci 
+
+0.1% 
+
+> Halobacteria
+> 0.0%
+> Euarchontoglires (superorder)
+> 39.4%
+
+Laurasiatheria (superorder) 
+
+9.5% 
+
+> Batrachia (superorder)
+> 6.2%
+> Cypriniphysae (superorder)
+> 6.3%
+> Diptera
+> 5.2%
+> Rhabditida
+> 4.5%
+> Poales
+> 10.8%
+
+Brassicales 
+
+11.0% 
+
+Saccharomycetales 
+
+2.0% 
+
+> Schizosaccharomycetales
+> 1.0%
+> Eurotiales
+> 0.1%
+> Dictyosteliales
+> 0.4%
+> Haemosporida
+> 0.1%
+
+Mycobacteriales 
+
+1.1% 
+
+> Bacillales
+> 0.8%
+> Thermales
+> 0.2%
+
+Thermotogales 
+
+0.2% 
+
+> Enterobacterales
+> 1.1%
+
+Methanococcales 
+
+0.1% 
+
+Thermococcales 
+
+0.1% 
+
+Halobacteriales 
+
+0.0% 
+
+> Muridae
+> 18.7%
+> Hominoidea (superfamily)
+> 17.9%
+
+Cebidae 
+
+2.8% 
+
+Suidae 
+
+6.3% 
+
+Bovidae 
+
+3.2% 
+
+> Pipoidea (superfamily)
+> 6.2%
+> Danionidae
+> 6.3%
+> Ephydroidea (superfamily)
+> 5.2%
+> Rhabditoidea (superfamily)
+> 4.5%
+> Poaceae
+> 10.8%
+
+Brassicaceae 
+
+11.0% 
+
+Saccharomycetaceae 
+
+2.0% 
+
+> Schizosaccharomycetaceae
+> 1.0%
+> Aspergillaceae
+> 0.1%
+> Dictyosteliaceae
+> 0.4%
+> Plasmodiidae
+> 0.1%
+
+Mycobacteriaceae 
+
+1.1% 
+
+> Bacillaceae
+> 0.8%
+> Thermaceae
+> 0.2%
+
+Thermotogaceae 
+
+0.2% 
+
+> Enterobacteriaceae
+> 1.1%
+> Methanocaldococcaceae
+> 0.1%
+> Thermococcaceae
+> 0.1%
+
+Halobacteriaceae 
+
+0.0% 
+
+> Mus
+> 11.1%
+> Rattus
+> 7.6%
+> Homo
+> 14.5%
+
+Pan 
+
+3.4% 
+
+Callithrix 
+
+2.8% 
+
+Sus 
+
+6.3% 
+
+Bos 
+
+3.2% 
+
+> Xenopus
+> 6.2%
+> Danio
+> 6.3%
+> Drosophila
+> 5.2%
+> Caenorhabditis
+> 4.5%
+> Oryza
+> 6.7%
+> Zea
+> 4.2%
+
+Arabidopsis 
+
+11.0% 
+
+Saccharomyces 
+
+2.0% 
+
+Schizosaccharomyces 
+
+1.0% 
+
+> Aspergillus
+> 0.1%
+
+Dictyostelium 
+
+0.4% 
+
+> Plasmodium
+> 0.1%
+
+Mycobacterium 
+
+1.1% 
+
+> Bacillus
+> 0.8%
+> Thermus
+> 0.2%
+
+Thermotoga 
+
+0.2% 
+
+> Escherichia
+> 1.1%
+> Methanocaldococcus
+> 0.1%
+
+Thermococcus 
+
+0.1% 
+
+Halobacterium 
+
+0.0% 
+
+> M. musculus
+> 11.1%
+> R. norvegicus
+> 7.6%
+> H. sapiens
+> 14.5%
+
+P. troglodytes 
+
+3.4% 
+
+C. jacchus 
+
+2.8% 
+
+S. scrofa 
+
+6.3% 
+
+B. taurus 
+
+3.2% 
+
+X. laevis 
+
+3.7% 
+
+> X. tropicalis
+> 2.5%
+> D. rerio
+> 6.3%
+> D. melanogaster
+> 5.2%
+> C. elegans
+> 4.5%
+> O. sativa
+> 6.7%
+> Z. mays
+> 4.2%
+
+A. thaliana 
+
+11.0% 
+
+S. cerevisiae 
+
+2.0% 
+
+S. pombe 
+
+1.0% 
+
+> A. fumigatus
+> 0.1%
+
+D. discoideum 
+
+0.4% 
+
+> P. falciparum
+> 0.1%
+
+M. tuberculosis 
+
+1.1% 
+
+> B. subtilis
+> 0.8%
+> T. thermophilus
+> 0.2%
+
+T. maritima 
+
+0.2% 
+
+> E. coli
+> 1.1%
+
+M. jannaschii 
+
+0.1% 
+
+T. kodakarensis 
+
+0.1% 
+
+H. salinarum 
+
+0.0% 
+
+Figure 13: Proportion of different taxonomic groups in the UniProt validation set. Note that in order to make Archaea properly visible, the area for each sector is according to the log of the number of sequences in that lineage. 
+
+20 CoPeP: Benchmarking Continual Pretraining for Protein Language Models 0.2 0.4 0.6 0.8 1.0 
+
+Sequence Similarity 
+
+0.0M 
+
+2.0M 
+
+4.0M 
+
+6.0M 
+
+> Count
+
+Figure 14: Left: Sequence similarity between different proteins in the validation set. Right: Histogram of closest sequence similarity for each protein in the training set to any protein in the validation set. significantly better on the more common groups. There is a decent amount of spread in perplexity amongst the common groups, indicating that the models are not just memorizing the most common sequences. 
+
+C. Fine Grained Results on ProteinGym 
+
+We provide the boxplots of Spearman correlations across methods in Figure 16. The boxplots illustrate the distribution of Spearman correlations for each method from 2015–2024 on ProteinGym benchmarks. Overall, the shapes of the distributions do not vary much across years, indicating similar performance characteristics across time. We also provide the results on ProteinGym stratified by taxon Figure 17, by assay function Figure 18, and by Multiple Sequence Alignment Number of Effective Sequences length category (a measure of how well studied a protein is) Figure 19. 
+
+D. Fine Grained Results on PEER 
+
+In Figure 20, we show the win rates per year for each method on the PEER benchmark. While most of the trends are difficult to discern, we see that Gradient Ascent interestingly suffers a significant performance drop after the 2022 release, similar to what was observed on the DGEB benchmark in Section E. This might be because 2022 was one of the larger cullings of the UniProt database, as seen in Figure 2, which could have disrupted the learning dynamics of Gradient Ascent more than other methods. In Figure 21, we show the full results for each task on the PEER benchmark. 
+
+E. Fine Grained Results on DGEB 
+
+In Figure 22, we show the win rates per year for each method on the DGEB benchmark. Similar to PEER in Section D, we see that Gradient Ascent suffers a significant performance drop after the 2022 release. This might be because 2022 was one of the larger cullings of the UniProt database, as seen in Figure 2, which could have disrupted the learning dynamics of Gradient Ascent more than other methods. In Figure 23, we show the full results for each task on the DGEB benchmark. 
+
+F. Further Ablations 
+
+> 21
+
+CoPeP: Benchmarking Continual Pretraining for Protein Language Models 1 2 3 4 5 6 7 8 9
+
+2.00 
+
+4.00 
+
+6.00 
+
+8.00 
+
+> Domain
+
+Continual 
+
+1 2 3 4 5 6 7 8 9
+
+Replay 
+
+1 2 3 4 5 6 7 8 9
+
+Hare & Tortoise 
+
+1 2 3 4 5 6 7 8 9
+
+Gradient Ascent 
+
+1 2 3 4 5 6 7 8 9
+
+Random Labels 
+
+1 2 3 4 5 6 7 8 9
+
+Shrink & Perturb 
+
+1 2 3 4 5 6 7 8 9
+
+Single Year 
+
+1 2 3 4 5 6 7 8 9
+
+2.00 
+
+4.00 
+
+6.00 
+
+8.00 
+
+> Kingdom
+
+1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9
+
+1 2 3 4 5 6 7 8 9
+
+2.00 
+
+4.00 
+
+6.00 
+
+8.00 
+
+> Phylum
+
+1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9
+
+1 2 3 4 5 6 7 8 9
+
+2.00 
+
+4.00 
+
+6.00 
+
+8.00 
+
+> Class
+
+1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9
+
+1 2 3 4 5 6 7 8 9
+
+2.00 
+
+4.00 
+
+6.00 
+
+8.00 
+
+> Order
+
+1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9
+
+1 2 3 4 5 6 7 8 9
+
+2.00 
+
+4.00 
+
+6.00 
+
+8.00 
+
+> Family
+
+1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9
+
+1 2 3 4 5 6 7 8 9
+
+2.00 
+
+4.00 
+
+6.00 
+
+8.00 
+
+> Genus
+
+1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9
+
+1 2 3 4 5 6 7 8 9
+
+Task 
+
+2.00 
+
+4.00 
+
+6.00 
+
+8.00 
+
+> Species
+
+1 2 3 4 5 6 7 8 9
+
+Task 
+
+1 2 3 4 5 6 7 8 9
+
+Task 
+
+1 2 3 4 5 6 7 8 9
+
+Task 
+
+1 2 3 4 5 6 7 8 9
+
+Task 
+
+1 2 3 4 5 6 7 8 9
+
+Task 
+
+1 2 3 4 5 6 7 8 9
+
+Task 
+
+Figure 15: Perplexity on the UniProt validation set broken down by taxonomic lineage for each method. In each subplot, the mean perplexity is shown in orange, and the lines for the more common groups are shaded to be darker and thicker. 
+
+22 CoPeP: Benchmarking Continual Pretraining for Protein Language Models 0.0 0.2 0.4 0.6 0.8 
+
+Spearman Correlation 
+
+Single Year 
+
+Match 
+
+Shrink Perturb 
+
+Hare Tortoise 
+
+Gradient Ascent 
+
+Random Labels 
+
+Replay 
+
+Continual 
+
+2015 0.2 0.0 0.2 0.4 0.6 0.8 
+
+Spearman Correlation 
+
+Single Year 
+
+Match 
+
+Shrink Perturb 
+
+Hare Tortoise 
+
+Gradient Ascent 
+
+Random Labels 
+
+Replay 
+
+Continual 
+
+2016 0.2 0.0 0.2 0.4 0.6 0.8 
+
+Spearman Correlation 
+
+Single Year 
+
+Match 
+
+Shrink Perturb 
+
+Hare Tortoise 
+
+Gradient Ascent 
+
+Random Labels 
+
+Replay 
+
+Continual 
+
+2017 0.2 0.0 0.2 0.4 0.6 0.8 
+
+Spearman Correlation 
+
+Single Year 
+
+Match 
+
+Shrink Perturb 
+
+Hare Tortoise 
+
+Gradient Ascent 
+
+Random Labels 
+
+Replay 
+
+Continual 
+
+2018 0.25 0.00 0.25 0.50 0.75 
+
+Spearman Correlation 
+
+Single Year 
+
+Match 
+
+Shrink Perturb 
+
+Hare Tortoise 
+
+Gradient Ascent 
+
+Random Labels 
+
+Replay 
+
+Continual 
+
+2019 0.25 0.00 0.25 0.50 0.75 
+
+Spearman Correlation 
+
+Single Year 
+
+Match 
+
+Shrink Perturb 
+
+Hare Tortoise 
+
+Gradient Ascent 
+
+Random Labels 
+
+Replay 
+
+Continual 
+
+2020 0.2 0.0 0.2 0.4 0.6 0.8 
+
+Spearman Correlation 
+
+Single Year 
+
+Match 
+
+Shrink Perturb 
+
+Hare Tortoise 
+
+Gradient Ascent 
+
+Random Labels 
+
+Replay 
+
+Continual 
+
+2021 0.25 0.00 0.25 0.50 0.75 
+
+Spearman Correlation 
+
+Single Year 
+
+Match 
+
+Shrink Perturb 
+
+Hare Tortoise 
+
+Gradient Ascent 
+
+Random Labels 
+
+Replay 
+
+Continual 
+
+2022 0.25 0.00 0.25 0.50 0.75 
+
+Spearman Correlation 
+
+Single Year 
+
+Match 
+
+Shrink Perturb 
+
+Hare Tortoise 
+
+Gradient Ascent 
+
+Random Labels 
+
+Replay 
+
+Continual 
+
+2023 0.25 0.00 0.25 0.50 0.75 
+
+Spearman Correlation 
+
+Single Year 
+
+Match 
+
+Shrink Perturb 
+
+Hare Tortoise 
+
+Gradient Ascent 
+
+Random Labels 
+
+Replay 
+
+Continual 
+
+2024 
+
+Figure 16: Distribution of Spearman correlations for each method from 2015–2024 on ProteinGym benchmarks. 
+
+F.1. WSD vs Cosine Learning Rate 
+
+In this section, we clarify the learning rate schedule used by our models. Our model is based on AM-PLIFY (Fournier et al., 2024), which used a cosine learning rate schedule. Unfortunately, because the cosine learning rate schedule has a fixed span, it is unsuitable for continual training. Instead, we use the warmup-stable-decay (WSD) schedule, which has been used for continual pretraining (Li et al., 2025). In Figure 24, we 
+
+23 CoPeP: Benchmarking Continual Pretraining for Protein Language Models 2015 
+
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.38 
+
+0.40 
+
+0.42 
+
+> Spearman Correlation
+
+Eukaryote 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.39 
+
+0.40 
+
+0.41 
+
+> Spearman Correlation
+
+Human 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.325 
+
+0.350 
+
+> Spearman Correlation
+
+Prokaryote 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.350 
+
+0.375 
+
+> Spearman Correlation
+
+Virus 
+
+Gradient Ascent 
+
+Single Year 
+
+Random Labels 
+
+Replay 
+
+Hare Tortoise 
+
+Shrink Perturb 
+
+Joint 
+
+Continual 
+
+Match 
+
+Figure 17: Spearman correlation on ProteinGym stratified by taxon. 2015 
+
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.36 
+
+0.38 
+
+0.40 
+
+> Spearman Correlation
+
+Activity 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.225 
+
+0.250 
+
+0.275 
+
+> Spearman Correlation
+
+Binding 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.38 
+
+0.40 
+
+> Spearman Correlation
+
+Expression 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.36 
+
+0.37 
+
+0.38 
+
+> Spearman Correlation
+
+Organismalfitness 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.40 
+
+0.42 
+
+> Spearman Correlation
+
+Stability 
+
+Gradient Ascent 
+
+Single Year 
+
+Random Labels 
+
+Replay 
+
+Hare Tortoise 
+
+Shrink Perturb 
+
+Joint 
+
+Continual 
+
+Match 
+
+Figure 18: Spearman correlation on ProteinGym stratified by function. 2015 
+
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.28 
+
+0.30 
+
+> Spearman Correlation
+
+Low 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.37 
+
+0.38 
+
+> Spearman Correlation
+
+Medium 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.425 
+
+0.450 
+
+> Spearman Correlation
+
+High 
+
+Gradient Ascent 
+
+Single Year 
+
+Random Labels 
+
+Replay 
+
+Hare Tortoise 
+
+Shrink Perturb 
+
+Joint 
+
+Continual 
+
+Match 
+
+Figure 19: Spearman correlation on ProteinGym stratified by MSA Number of Effective Sequences. can see that after decay, the two schedules perform about equally. In our experiments, after each decay period, we reset to the checkpoint right before the decay before moving to the next task. Thus, only 90k out of the 100k gradient steps on a task contribute to continual training, providing a good balance between the need to decay the learning rate and the ability to restart the run. 
+
+F.2. Longer Training of a Single Year 
+
+In Table 1, we compare training for a longer period on a Single Year (2015) to continual training across all years. We find that training longer on a Single Year matches the performance of continual training. This might be because the 2015 data is particularly representative of the overall UniProt distribution, as seen in Figure 4. Regardless, several of the continual learning methods outperform the longer Single Year training, indicating that continual learning is beneficial beyond just training for longer. 
+
+24 CoPeP: Benchmarking Continual Pretraining for Protein Language Models 2015 
+
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+> 0.2
+> 0.3
+> 0.4
+> 0.5
+> 0.6
+> 0.7
+> PEER Overall Win Rate
+> Joint
+> Training
+> Continual
+> Replay
+> Random Labels
+> Gradient Ascent
+> Hare Tortoise
+> Shrink Perturb
+> Single Year Matched
+> Single Year Incremental
+
+Figure 20: Win rates per year on the PEER benchmark. 
+
+Method Performance Continual 6.468 ± 0.043 
+
+Replay 6.157 ± 0.043 
+
+Shrink Perturb 6.331 ± 0.043 
+
+Gradient Ascent 6.357 ± 0.043 
+
+Hare Tortoise 6.381 ± 0.043 
+
+Random Labels 6.344 ± 0.043 
+
+Single Year (Full Run) (2015) 6.337 ± 0.043 
+
+Single Year Incremental (2024) 7.478 ± 0.045 
+
+Single Year Match (2024) 6.393 ± 0.043 
+
+Joint 6.571 ± 0.044 
+
+Table 1: Results of training for an equivalent number of on a Single Year (2015) compared to continual training across all years. 
+
+25 CoPeP: Benchmarking Continual Pretraining for Protein Language Models 2015 
+
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Checkpoint 
+
+0.55 
+
+0.60 
+
+> Spearman
+
+Aav 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Checkpoint 
+
+0.75 
+
+0.80 
+
+> Spearman
+
+Betalactamase 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Checkpoint 
+
+0.6 
+
+0.8 
+
+> Accuracy
+
+Binarylocalization 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Checkpoint 
+
+1.75 
+
+2.00 
+
+> Rmse
+
+Bindingdb 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Checkpoint 
+
+0.600 
+
+0.625 
+
+> Spearman
+
+Fluorescence 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Checkpoint 
+
+0.0 
+
+0.5 
+
+> Accuracy
+
+Fold 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Checkpoint 
+
+0.4 
+
+0.6 
+
+> Spearman
+
+Gb1 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Checkpoint 
+
+0.60 
+
+0.65 
+
+> Accuracy
+
+Humanppi 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Checkpoint 
+
+1.6 
+
+1.7 
+
+> Rmse
+
+Pdbbind 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Checkpoint 
+
+3
+
+4
+
+> Rmse
+
+Ppiaffinity 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Checkpoint 
+
+0.5 
+
+0.6 
+
+0.7 
+
+> Accuracy
+
+Secondarystructure 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Checkpoint 
+
+0.5 
+
+0.6 
+
+> Accuracy
+
+Solubility 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Checkpoint 
+
+0.4 
+
+0.6 
+
+> Spearman
+
+Stability 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Checkpoint 
+
+0.4 
+
+0.6 
+
+> Accuracy
+
+Subcellularlocalization 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Checkpoint 
+
+0.600 
+
+0.625 
+
+> Spearman
+
+Thermostability 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Checkpoint 
+
+0.5 
+
+0.6 
+
+> Accuracy
+
+Yeastppi 
+
+Gradient Ascent 
+
+Single Year 
+
+Random Labels 
+
+Replay 
+
+Hare Tortoise 
+
+Shrink Perturb 
+
+Joint 
+
+Continual 
+
+Match 
+
+Figure 21: Full results on the PEER benchmark. 
+
+26 CoPeP: Benchmarking Continual Pretraining for Protein Language Models 2015 
+
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.3 
+
+0.4 
+
+0.5 
+
+0.6 
+
+> DGEB Overall Win Rate
+
+Joint 
+
+Training 
+
+Continual 
+
+Replay 
+
+Random Labels 
+
+Gradient Ascent 
+
+Hare Tortoise 
+
+Shrink Perturb 
+
+Single Year Matched 
+
+Single Year Incremental 
+
+Figure 22: Win rates per year on the DGEB benchmark. 2015 
+
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.700 
+
+0.725 
+
+> F1
+
+Mibig Protein Classification 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.295 
+
+0.300 
+
+0.305 
+
+> Map At 5
+
+Arch Retrieval 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.750 
+
+0.775 
+
+> F1
+
+Bacarch Bigene 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.15 
+
+0.20 
+
+> F1
+
+Convergent Enzymes Classification 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.35 
+
+0.40 
+
+> Top Ap
+
+Cyano Operonic Pair 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.55 
+
+0.60 
+
+0.65 
+
+> F1
+
+Ec Classification 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.550 
+
+0.575 
+
+> Top Ap
+
+Ecoli Operonic Pair 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.34 
+
+0.36 
+
+> Map At 5
+
+Euk Retrieval 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.7 
+
+0.8 
+
+> Top Corr
+
+Fefe Phylogeny 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.20 
+
+0.25 
+
+> Recall At 50
+
+Modac Paralogy Bigene 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.85 
+
+0.90 
+
+> V Measure
+
+Mopb Clustering 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.2 
+
+0.3 
+
+> Top Corr
+
+Rpob Arch Phylogeny 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.25 
+
+0.30 
+
+0.35 
+
+> Top Corr
+
+Rpob Bac Phylogeny 
+
+> 2015
+> 2016
+> 2017
+> 2018
+> 2019
+> 2020
+> 2021
+> 2022
+> 2023
+> 2024
+
+Year 
+
+0.475 
+
+0.500 
+
+> Top Ap
+
+Vibrio Operonic Pair 
+
+Gradient Ascent 
+
+Single Year 
+
+Random Labels 
+
+Replay 
+
+Hare Tortoise 
+
+Shrink Perturb 
+
+Joint 
+
+Continual 
+
+Match 
+
+Figure 23: Full results on the DGEB benchmark. 
+
+27 CoPeP: Benchmarking Continual Pretraining for Protein Language Models 0 20k 40k 60k 80k 100k      
+
+> Steps
+> .15
+> .25
+> .35
+> .45
+> .55
+> Uniprot Val Accuracy (%)
+> Cosine
+> WSD 020k 40k 60k 80k 100k
+> Steps
+> 5
+> 7
+> 9
+> 11
+> 13
+> Uniprot Val Perplexity
+> Cosine
+> WSD
+
+Figure 24: Both the cosine learning rate schedule and the warmup stable decay achieve approximately the same performance. 2014 2016 2014 & 2016 
+
+Dataset 
+
+55 
+
+56 
+
+57 
+
+58 
+
+59 
+
+60 
+
+61 
+
+62  
+
+> Uniprot Val Accuracy (%)
+> 59.2
+> 58.4 58.4
+
+Figure 25: Data filtering experiments with a larger model (350M parameters). 
+
+F.3. Data Filtering Experiments with Larger Models 
+
+In Figure 25, we conduct a similar data filtering experiment as in Figure 4, but with a larger model (350M parameters) in order to verify if the results hold at a larger scale or if they were an artifact of the smaller model potentially saturating performance. We select the intersection with the best performance in the smaller-model experiments (2014 intersected with 2016) and compare it with training on only 2014 data and only 2016 data. With the small model, we saw that training on the intersection outperformed training on either year alone. In Figure 25, we observe the same trend, indicating that this is not an artifact of model size but rather likely reflects the data quality itself. 
+
+G. Description of Hyperparameter search and other experimental details 
+
+To ensure a fair comparison, the base experimental setup is shared across all methods, including the batch size, learning rate, and weight decay, as detailed in Section 3.4, and only the method-specific hyperparameters are optimized. Since most of these algorithms have never been applied at scale, the existing literature offers little guidance on suitable parameter ranges. We therefore adopt an iterative, pruning-based search strategy designed to explore a broad parameter space while rapidly discarding suboptimal settings. For each method, we first evaluate 8 random configurations for 50k steps. These results are used to seed a Bayesian sampler to generate 8 additional candidates that are also evaluated at 50k steps. From this combined pool of 16 trials, the 
+
+> 28 CoPeP: Benchmarking Continual Pretraining for Protein Language Models
+
+Method Hyperparameter Distribution Selected Value Continual None Replay 𝜆 𝑟𝑒𝑝𝑙𝑎𝑦 Uniform(0, 1.0) 0.357495045651384 Hare and Tortoise 𝜆 ℎ𝑡 _𝑚𝑜𝑚 Uniform(.5, 1.0) .931247906596137   
+
+> 𝜆 𝑟𝑒𝑠𝑒𝑡 _𝑓 𝑟𝑒𝑞
+
+LogInt(10, 10000) 559 Gradient Ascent 𝜆 𝑎𝑠𝑐 Uniform(0, 1.0) 0.0150798214665966 
+
+Random Labels 𝜆 𝑟𝑎𝑛𝑑 Uniform(0, 1.0) 0.00176366392582128 
+
+Shrink and Perturb 𝜆 𝑠ℎ𝑟𝑖𝑛𝑘 Uniform(0, 0.9) 0.310430229773085  
+
+> 𝜆 𝑛𝑜𝑖𝑠𝑒
+
+Uniform(0, 1.0) 0.713412708958246 
+
+Table 2: The hyperparameter ranges and the selected hyperparameters for each method in our study. Table 3: The selected UniRef100 releases in our benchmark. The number of proteins listed are taken from the UniRef website, before we do any processing and deduplicating. 
+
+Year Release Date # of Proteins # of Proteins after Deduplication 2015 2015_12 Dec. 9 70,511,308 68,944,139 2016 2016_11 Nov. 30 92,558,090 90,433,115 2017 2017_12 Dec. 20 128,263,573 125,565,575 2018 2018_11 Dec. 5 168,593,206 164,710,596 2019 2019_11 Dec. 11 213,522,593 209,351,328 2020 2020_06 Dec. 2 261,174,669 256,625,754 2021 2021_04 Nov. 17 280,483,851 275,414,005 2022 2022_05 Dec. 14 323,519,324 318,043,509 2023 2023_05 Nov. 8 376,564,447 370,850,591 2024 2024_06 Nov. 27 435,574,000 429,718,325 
+
+top 4 configurations ranked by validation loss are kept and trained for an additional 150k steps. Finally, the optimal configuration at 200k steps is selected. In Table 2, we describe the hyperparameter ranges and the selected value for each hyperparameter that was searched over in our study. Each hyperparameter was sampled independently, and we evaluated 16 trials for each method. 
+
+H. UniRef Statistics 
+
+In Table 3, we list the specific releases we used to construct our benchmark.

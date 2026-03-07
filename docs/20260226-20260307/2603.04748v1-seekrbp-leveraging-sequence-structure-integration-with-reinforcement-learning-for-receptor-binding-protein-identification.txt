@@ -1,0 +1,425 @@
+Title: SeekRBP: Leveraging Sequence-Structure Integration with Reinforcement Learning for Receptor-Binding Protein Identification
+
+URL Source: https://arxiv.org/pdf/2603.04748v1
+
+Published Time: Fri, 06 Mar 2026 01:24:02 GMT
+
+Number of Pages: 7
+
+Markdown Content:
+## ii
+
+“main” — 2026/3/6 — 1:23 — page 1 — #1 iiiiii
+
+Bioinformatics 
+
+doi.10.1093/bioinformatics/xxxxxx Advance Access Publication Date: Day Month Year Manuscript Category 
+
+# Subject Section 
+
+# SeekRBP: Leveraging Sequence-Structure Integration with Reinforcement Learning for Receptor-Binding Protein Identification 
+
+# Xiling Luo 123 , Le Ou-Yang 4, Yang Shen 2, Jiaojiao Guan 2, Dehan Cai 2, Jun Zhang 1, Rui Zhang 5, Yanni Sun 2∗, and Jiayu Shang 6∗
+
+> 1
+
+Guangdong Provincial Key Laboratory of Wastewater Information Analysis and Early Warning, Beijing Normal University, Zhuhai, China; 
+
+> 2
+
+Department of Electrical Engineering, City University of Hong Kong, Hong Kong (SAR), China; 
+
+> 3
+
+MoE Key Lab of Artificial Intelligence, AI Institute, School of Computer Science, Shanghai Jiao Tong University, Shanghai, China; 
+
+> 4
+
+SMBU-MSU-BIT Joint Laboratory on Bioinformatics and Engineering Biology, Shenzhen MSU-BIT University, Shenzhen, China; 
+
+> 5
+
+Archaeal Biology Center, Synthetic Biology Research Center, Shenzhen Key Laboratory of Marine Microbiome Engineering, Key Laboratory of Marine Microbiome Engineering of Guangdong Higher Education Institutes, Institute for Advanced Study, Shenzhen University, Shenzhen, China; 
+
+> 6
+
+Department of Information Engineering, Chinese University of Hong Kong, Hong Kong (SAR), China 
+
+> ∗
+
+To whom correspondence should be addressed. 
+
+## Abstract 
+
+Motivation: Receptor-binding proteins (RBPs) initiate viral infection and determine host specificity, serving as key targets for phage engineering and therapy. However, the identification of RBPs is complicated by their extreme sequence divergence, which often renders traditional homology-based alignment methods ineffective. While machine learning offers a promising alternative, such approaches struggle with severe class imbalance and the difficulty of selecting informative negative samples from heterogeneous tail proteins. Existing methods often fail to balance learning from these “hard negatives” while maintaining generalization. 
+
+Results: We present SeekRBP, a sequence–structure framework that models negative sampling as a sequential decision-making problem. By employing a multi-armed bandit strategy, SeekRBP dynamically prioritizes informative non-RBP sequences based on real-time training feedback, complemented by a multimodal fusion of protein language and structural embeddings. Benchmarking demonstrates that SeekRBP consistently outperforms static sampling strategies. Furthermore, a case study on Vibrio 
+
+phages validates that SeekRBP effectively identifies RBPs to improve host prediction, highlighting its potential for large-scale annotation and synthetic biology applications. 
+
+Availability: The source code of SeekRBP is available via: https://github.com/Saillxl/SeekRBP. 
+
+Contact: yannisun@cityu.edu.hk, jiayushang@cuhk.edu.hk 
+
+## 1 Introduction 
+
+Bacteriophages (or phages) represent the most abundant and genetically diverse biological entities on Earth (Suttle, 2007; Mushegian, 2020). By infecting and regulating bacterial populations, they play a pivotal role in shaping microbial community structures and driving microbial evolution across diverse ecosystems (Sutton and Hill, 2019). Many ecological and applied functions of phages, including phage therapy, biocontrol, and microbiome modulation, are mediated primarily through specific interactions with their bacterial hosts. These interactions are encoded within phage genomes, which harbor a vast repertoire of proteins with antimicrobial and biotechnological potential. However, the majority of phage-encoded proteins remain functionally uncharacterized due to limited and uneven annotation resources (Lu et al. , 2021; Nayfach et al. ,2021). This persistent annotation gap constitutes a significant bottleneck for the effective utilization of phages in therapeutic, industrial, and  
+
+> © The Author 2015. Published by Oxford University Press. All rights reserved. For permissions, please e-mail: journals.permissions@oup.com 1
+> arXiv:2603.04748v1 [q-bio.GN] 5 Mar 2026
+
+## ii
+
+“main” — 2026/3/6 — 1:23 — page 2 — #2 iiiiii
+
+2 X. Luo and J. Shang et al. M T ... K R SLV
+
+Sequence Structure 
+
+11 2 1 3 3 1 ... 
+
+Sequence Embedding 
+
+> ...
+
+Structure Embedding 
+
+RBP 
+
+Training Subset Non-RBP Value Un UCB1 Selectio Adaptive Expert Fusion Module 
+
+> Classifier
+
+# Multi-Armed Bandit Framework 
+
+( ) iQ l C 
+
+Hard Cases Reward Definition 2EL2N: lS p y  y
+
+> Label
+
+UCB1 Selection Strategy Update Q Value 1( ( ) 1) ( ) ( ) ( )   
+
+> l
+> iii
+> ii
+
+n l Q l SQ l n l 
+
+> 
+
+         
+
+> ( ) inl:Count :Value ( ) iQl( ) inl:Count :Value ( ) iQl
+> High Score ( ) iV l
+> Selection Funnel
+
+Negative Sample Pool 
+
+Random Sampling Additive 
+
++
+
+Multiplied 
+
+×Mixing Gate 
+
+Mixing Gate 
+
+pPrediction 
+
+# Model Training 
+
+ln ( ) ( ) ( )  
+
+> i
+> iii
+
+NV l Q l C n l 
+
+  
+
+> 1dU
+> 3dU
+
+Positive Sample Exploitation Exploration  
+
+> Fig. 1. Overview of the Multi-Armed Bandit (MAB)-driven dynamic negative sampling pipeline. A UCB1-based multi-armed bandit strategy iteratively selects informative hard negatives from a large pool and updates their utility using EL2N rewards after each training round. Sequence and structure representations are adaptively fused and fed into a classifier to predict RBP versus non-RBP.
+
+biocontrol applications, particularly given the escalating global burden of antimicrobial resistance (Gordillo Altamirano and Barr, 2019; Murray 
+
+et al. , 2022). Among phage-encoded proteins, receptor-binding proteins (RBPs) are key determinants of infection specificity and host range (Dowah and Clokie, 2018). Typically localized at the distal tips of tail fibers or tail spikes, RBPs mediate the initial adsorption step by recognizing and binding to bacterial surface receptors (Nobrega et al. , 2018). Although several RBP families are curated in databases such as pVOGs (Grazziotin et al. ,2016) and PHROGs (Terzian et al. , 2021), existing annotations remain sparse and disproportionately biased toward well-studied model phage systems. This limitation is exacerbated by the structural heterogeneity of RBPs, which vary significantly in length, domain composition, and sequence architecture; many also contain repetitive or low-complexity regions that complicate computational discovery (Topka-Bielecka et al. ,2021; Boeckaerts et al. , 2021). A primary challenge is the high sequence diversity and rapid evolutionary turnover of RBPs, driven by phage–host co-evolutionary dynamics (Hampton et al. , 2020; Scanlan et al. , 2015). Even RBPs targeting the same bacterial species often exhibit negligible sequence similarity, limiting the efficacy of sequence similarity- or profile-based annotation methods in identifying remote or novel RBPs (Pearson, 2013). 
+
+1.1 Existing work 
+
+Several attempts have been made to identify RBPs within phage genomes. Traditional annotation relies on homology-based alignment tools, such as BLASTp (Altschul et al. , 1990), and HMM profiles (e.g., Pharokka (Bouras et al. , 2023)), which search against reference databases. While effective for conserved sequences, these methods are limited by the rapid evolutionary turnover and high divergence characteristic of phage RBPs, often failing to detect remote homologs. Deep learning approaches, including PhANNs (Cantu et al. , 2020) and PhageRBPdetection (Boeckaerts et al. , 2022), have been developed to extract latent patterns from raw sequences, offering improved generalization over profile-based methods. Furthermore, DeepFRI (Gligorijevi´ c et al. , 2021) has successfully employed Graph Convolutional Networks (GCNs) to leverage structural information for function prediction. More recently, Transformer-based architectures such as DePP (Magill and Skvortsov, 2023) have utilized self-attention mechanisms to capture long-range dependencies in viral proteomes. However, the performance of these models is often constrained by significant class imbalance. In typical phage genomes, RBPs constitute only a small fraction of coding sequences. Consequently, predictive models tend to be biased toward the majority class, resulting in poor recall for true RBPs in practical applications (Johnson and Khoshgoftaar, 2019; Chicco and Jurman, 2020). 
+
+1.2 Overview 
+
+In this work, we present SeekRBP, a deep learning framework designed to identify phage RBPs under conditions of extreme class imbalance. Specifically, SeekRBP reformulates the identification task as a sequential decision-making process rather than a static classification problem. To address the issues where current models are biased by majority-class signals or limited by high sequence divergence, we made two major contributions. First, we introduce an adaptive sampling strategy inspired by Reinforcement Learning (RL) to dynamically select informative negative samples. To effectively handle the overwhelming number of non-RBP proteins (negative samples), SeekRBP treats training as an ii
+
+“main” — 2026/3/6 — 1:23 — page 3 — #3 iiiiii
+
+SeekRBP 3
+
+adaptive process; the framework dynamically identifies and prioritizes “informative/hard” negative samples, specifically, non-RBPs that share sequence or structural similarity with true RBPs. By continuously exposing the model to these challenging examples, we prevent bias toward the majority class and compel the network to learn robust, more discriminative decision boundaries. Second, we developed a dual-branch architecture that integrates both sequence- and structure-derived representations to capture complementary functional signals. Because phage-host co-evolution drives rapid sequence mutation, RBPs often exhibit highly divergent amino acid sequences despite performing identical functions. However, 3D structural features can provide supplementary information that enhances RBP identification. To leverage this, SeekRBP utilizes a specialized module that fuses 1D sequence data with 3D structural features. This integration enables the framework to recognize the physical determinants of receptor binding, such as the structural conformation of the tail tip, even in remote homologs where the primary sequence has diverged substantially. We validated SeekRBP through comprehensive experiments on rigorous designed benchmark datasets. The results demonstrate that our framework consistently yields higher sensitivity and accuracy compared to state-of-the-art baselines. Notably, by combining adaptive learning with structural insights, SeekRBP successfully identifies novel RBPs that are typically overlooked by existing methods and enhance the performance of host prediction. 
+
+## 2 Materials and methods 
+
+We formulate the identification of RBPs as a RL task to address the fundamental challenge of learning under extreme class imbalance. This paradigm treats the selection of negative samples not as a static step, but as a dynamic process where the utility of training data evolves during optimization. Unlike standard supervised learning, which typically assumes a fixed dataset with uniform informativeness, our approach focuses on selecting “hard” negative samples relative to the current model state. This strategy is particularly well-suited to RBP identification, where the vast majority of genomic sequences are non-RBPs that provide little gradient signal. Thus, by adaptively prioritizing “informative” negatives based on real-time feedback, the model can effectively filter out background noise and focus on the challenging instances that define the true decision boundary. In the following sections, we first describe the overall SeekRBP framework (Fig. 1), detailing the adaptive negative sampling module modeled as a multi-armed bandit problem. Next, we introduce the dual-branch representation architecture, explaining how complementary features are extracted from both protein sequences and predicted 3D structures. Finally, we outline the fusion and classification module designed to integrate these multimodal signals for accurate RBP identification. 
+
+2.1 Bandit-based adaptive negative sampling framework 
+
+To facilitate efficient adaptation during training, we formulate the selection of negative samples as a multi-armed bandit (MAB) problem. In this setting, each candidate negative sample is treated as a distinct “arm” (or option). The utility of each candidate is estimated based on feedback received during training and is updated iteratively. This process balances the exploitation of known informative negatives (often examples sharing sequence or structure similarity with RBPs) with the exploration of under-sampled (unseen) candidates. In our framework (Fig. 1), negative sample selection is modeled as a sequential interaction between a sampling agent and the training process. At each iteration, the agent selects a subset of negative samples for model updates, and the utility of these samples is assessed based on feedback from the model. Negatives that prove informative are prioritized in subsequent iterations, while redundant or easy samples are progressively down-weighted. This design allows the sampling policy to co-evolve with the model, adapting dynamically rather than remaining fixed throughout training. 
+
+2.1.1 Dataset construction 
+
+We constructed the phage protein dataset using sequences from the INPHARED phage genome database (Cook et al. , 2021). The initial corpus contained 2,484,471 phage protein sequences annotated with PHROGS (Terzian et al. , 2021). To ensure high annotation quality, we removed sequences labeled as hypothetical, putative, unknown, or unannotated. We then de-duplicated the remaining sequences using CD-HIT (Fu et al. , 2012) with a 98% sequence identity threshold, yielding 266,311 non-redundant protein sequences. Then, we follow the definition of the RBP and label the sequences based on structural annotations. Proteins annotated as tail fiber or tail spike were designated as positive samples. To construct a conservative negative set and minimize label noise, we excluded sequences broadly annotated as tail that lacked specific fiber or spike descriptors. All remaining non-RBP sequences were treated as negative samples. The final dataset comprises 11,096 positive and 212,642 negative samples, resulting in a class imbalance of approximately 5% positives. To ensure a rigorous evaluation and prevent data leakage arising from sequence homology, we clustered sequences separately within the positive and negative classes using CD-HIT at a 40% sequence identity threshold. These clusters, rather than individual sequences, were partitioned into training, validation, and test sets (80%-10%-10% split), ensuring that homologous sequences appear in only one data split. 
+
+2.1.2 Bandit-based negative sample selection and utility estimation 
+
+Our adaptive negative sampling strategy employs the Upper Confidence Bound (UCB1) algorithm (Auer, 2000). This approach provides aprincipled mechanism to balance the exploitation of known informative samples against the exploration of under-sampled ones. In this framework, each candidate negative sample l is treated as a distinct “arm”, with its utility estimated and updated throughout the training process. Positive samples are excluded from this bandit selection; they are always included in the training batch to ensure stable supervision given their scarcity. At each iteration i, we compute a selection score Vi(l) for each candidate negative sample as listed in Eqn. 1. 
+
+Vi(l) = Qi(l) + C ·
+
+√
+
+ln Ni
+
+ni(l) (1) where Qi(l) represents the estimated utility of negative sample l, ni(l) is the number of times sample l has been selected up to iteration i, and Ni is the total number of selections made across all samples. The hyperparameter 
+
+C controls the trade-off between exploitation and exploration. The score Vi(l) integrates two complementary objectives. The first term, Qi(l), quantifies the historical utility of sample l. In practice, negatives that are frequently misclassified or yield high error gradients receive larger Qi(l) values; these act as “hard negatives” that are critical for refining the decision boundary. The second term, derived from the count ni(l), accounts for uncertainty. It promotes exploration by inflating the scores of rarely selected samples, thereby preventing the model from overfitting to a narrow subset of hard cases and ensuring broad coverage of the negative space. To estimate Qi(l), we maintain a running average of the utility based on feedback from the training dynamics. Following each training update, we calculate an immediate reward using the EL2N (Error L2 Norm) metric (Eqn. 2). ii
+
+“main” — 2026/3/6 — 1:23 — page 4 — #4 iiiiii
+
+4 X. Luo and J. Shang et al. Path A:Gated Additive Feature Path Path B:Low-Rank Bilinear Path .
+
+> Channel-wise Gating
+
+# .
+
+×+
+
+> 3d
+
+Z
+
+> ColabFold
+> Transformer Encoder
+> ...
+
+Structure Branch 
+
+> Mean Pooling
+
+Adaptive Expert Fusion Module （AEFM ）    
+
+> Low-Rank Maps (U 1,U 3)
+> Concat
+> Linear
+> Softmax
+> Weighted Sum
+> Linear
+> Linear
+> Low-Rank Maps (U 1,U 3)
+
+# .
+
+> LayerNorm
+> Linear
+> Sigmoid
+> Classifier
+> RBP Non-RBP
+
+
+
+> 1
+
+
+
+# . Multiplication Summation +
+
+## A
+
+## M
+
+1 d Z
+
+> 1d
+
+Z
+
+> Mean Pooling (Pre-trained Model) Saprot fused Z
+
+Sequence Branch 
+
+> ...
+> Transformer Encoder
+> Mean Pooling (Pre-trained Model) ESM2
+> Diff Node
+> Concat
+
+Input Sequence  
+
+> Fig. 2. Pipeline of the proposed model for phage RBP identification. The input protein is encoded by a sequence branch and a structure branch, whose features are integrated by an Adaptive Expert Fusion Module combining gated additive and low-rank bilinear interactions. The fused representation is fed into a classifier to predict RBP versus non-RBP.
+
+Sl = E ∥p(wt, l ) − y∥2 (2) where p(wt, l ) denotes the model’s prediction for sample l given parameters wt, and y denotes the ground-truth label. A larger Sl indicates a significant discrepancy between the prediction and the label, suggesting that the sample is currently informative for the model. Then, the utility estimate Qi(l) is updated iteratively (Eqn. 3). This rule provides a stable, long-term estimate of sample utility, allowing the bandit policy to adapt dynamically to the model’s evolving needs. In each round, a batch of high-scoring negative samples is selected based on Vi(l),ensuring that the model continuously focuses on the most instructive data points. 
+
+Qi(l) ← (ni(l) − 1) Qi−1(l) + Sli
+
+ni(l) (3) 
+
+2.2 Model architecture 
+
+We propose a dual-branch model for the binary classification of RBPs in phages. As shown in Fig. 2, the model comprises two parallel feature-encoding branches, a feature fusion module, and a classification module. The sequence branch encodes sequence-derived features, whereas the structure branch encodes structural and spatial features. Each branch produces a fixed-length, protein-level representation, which is then integrated by the fusion module to learn cross-modal information. The fused representation is finally fed into a multilayer perceptron (MLP) classifier to generate predictions. 
+
+2.2.1 Dual-branch protein encoding 
+
+The 1D sequence branch The sequence branch uses ESM2 (Lin et al. ,2023), a pre-trained protein language model, to extract representations from input protein sequences. Given an input sequence, ESM2 produces a high-dimensional embedding for each residue position. The embeddings are then processed by a Transformer encoder to obtain 1D sequence hidden representations Z1d (see Supplementary 1.1). 
+
+The 3D structure branch The structure branch encodes structure-derived features obtained by first predicting three-dimensional structures with ColabFold (Mirdita et al. , 2022) and then extracting structure-aware representations using Saprot (Su et al. , 2023). Specifically, ColabFold generates a predicted 3D structure for each input sequence, which is then processed by Saprot to produce residue-level structural features. These features are fed into a Transformer encoder to obtain 3D structure representations Z3d (see Supplementary 1.2). 
+
+2.2.2 Adaptive expert fusion module (AEFM) 
+
+The proposed module provides an adaptive trade-off between the stability of additive feature fusion (He et al. , 2016) and the stronger expressive capacity of multiplicative interaction modeling (Jayakumar et al. , 2020; Perez et al. , 2018), thereby enabling effective integration of sequence-derived and structure-derived representations. Inspired by the Mixture-of-Experts (MoE) paradigm (Shazeer et al. , 2017), additive and multiplicative interaction forms are treated as parallel experts, and lightweight gating mechanisms dynamically control their contributions. This design improves cross-modal representation learning while preserving a compact and efficient model structure. The fusion stage jointly considers two complementary interaction paradigms, namely additive interaction and multiplicative interaction .An adaptive gating mechanism dynamically balances these two forms to combine stability with expressive capacity. 
+
+Additive Interaction Path: The representations from the sequence branch and the structure branch are concatenated as x ∈ RB×2d, where d denotes the feature dimension. A gating network predicts the relative importance of the two feature streams, followed by softmax normalization: 
+
+[α1d, α 3d] = softmax( φ1(x)) ∈ RB×2, (4) where φ1(·) denotes a linear layer. The two feature representations are combined through a weighted sum and projected into the fusion space: 
+
+A = φ2(α1d ⊙ Z1d + α3d ⊙ Z3d) ∈ RB×d, (5) where ⊙ denotes element-wise multiplication, and φ2(·) denotes a projection pathway composed of Layer Normalization, Dropout, and a Linear layer. 
+
+Multiplicative Interaction Path: To capture higher-order dependencies between sequence-derived and structure-derived features, we introduce a low-rank multiplicative interaction mechanism. The two feature streams ii
+
+“main” — 2026/3/6 — 1:23 — page 5 — #5 iiiiii
+
+SeekRBP 5
+
+are first projected into a low-rank space: 
+
+M = φ3(( U1dZ1d) ⊙ (U3dZ3d)) ∈ RB×d, (6) where U1d, U3d ∈ Rd×r are learned weight matrices and r denotes the rank dimension. The output M ∈ RB×d is then obtained via a linear layer 
+
+φ3(·).
+
+Channel-wise Adaptive Mixing: Because different samples—and different feature channels within a sample—can benefit from different fusion strategies, a channel-wise adaptive mixing gate is introduced. The gate takes as input the concatenation of additive features, multiplicative features, and their absolute difference: 
+
+u = [ A; M; |A − M|] ∈ RB×3d. (7) A gating function produces channel-wise mixing coefficients: 
+
+β = σ(φ4(u)) ∈ RB×d, (8) where σ(·) denotes the sigmoid function and φ4(·) denotes a linear projection with Layer Normalization. The gating coefficients β are learned during training and are computed in a sample-specific manner based on the input features. The final fused representation is obtained via channel-wise interpolation: 
+
+Zfused = β ⊙ A + (1 − β) ⊙ M ∈ RB×d. (9) This mechanism allows the model to adaptively emphasize additive fusion (larger β) or multiplicative interaction (smaller β) depending on the input features. The fused representation Zfused is then fed into a lightweight classifier for final prediction. The classifier consists of Layer Normalization, Dropout, and a two-layer MLP with GELU activation. It outputs logits corresponding to the RBP and non-RBP classes. The classifier is intentionally kept lightweight. 
+
+2.3 Training strategy and evaluation metrics 
+
+During the training process, the selected negative samples and all positive samples constitute a training batch used to update the model parameters. Following this update, the model’s predictions are refreshed, and the reward signal, specifically the prediction discrepancy Sl (Eqn. 2), is recomputed to reflect the current state of the model. The model is trained using the Adam optimizer with a learning rate of 10 −3 for a maximum of 30 epochs. This iterative loop continues until the performance gain plateaus or a maximum number of epochs is reached. At the end of each cycle, the utility estimates Qi(l) and selection counts ni(l) are updated, informing the sampling policy for the subsequent round. More details are presented in the Supplementary 1.3. 
+
+Metrics To evaluate the performance of the model in the RBPs binary classification task, we adopt Precision, Recall, and F1-score as the primary evaluation metrics (see Supplementary1.4). Given that RBP is the primary objective of the test, all metrics are calculated and reported with RBP defined as positive. We also plot the receiver operating characteristic (ROC) curve to illustrate the diagnostic ability of the classifiers by mapping its true positive rate (models ability to correctly identify RBPs) against the false positive rate (frequency of errors in which non-RBPs are misclassified as RBPs). 
+
+## 3 Results 
+
+In this section, we evaluated the performance of SeekRBP through a series of computational experiments. We first conducted ablation studies to quantify the contributions of key components, including the bandit-based negative sampling strategy, the integration of sequence and structural features, and the proposed fusion mechanism. Subsequently, we benchmarked SeekRBP against several established tools for phage protein annotation and RBP identification: PhANNs, PhageRBPdetection, Pharokka, and BLASTp. To ensure a fair comparison, all baselines were retrained or customized on the same dataset and assessed using identical data splits and evaluation protocols. Finally, we presented case studies using independent experimental datasets of Vibrio phages to demonstrate the practical utility of SeekRBP in downstream applications. 
+
+3.1 Ablation study 
+
+3.1.1 Effect of sampling strategies 
+
+First, we investigated the impact of different sampling strategies on model performance. Fig. 3 A indicates that our bandit-based sampling strategy achieves the highest AUC, particularly in regions with low false positive rates. The w/o Exploration variant represents a degenerate form of the bandit-based strategy where the exploration term in Eq. 1 is removed. While this exploitation-only strategy improves upon uniform sampling, it is consistently outperformed by the full UCB-based approach, highlighting the importance of explicitly encouraging the exploration of under-sampled negatives. Furthermore, we observe that the disparity between sampling strategies is sensitive to the input modality (Fig. S1 in supplementary). Notably, when the model relies only on 1-D sequence features, bandit-based sampling yields an AUC improvement of over 5%, suggesting that robust negative sampling is particularly critical when structural information is absent. 
+
+3.1.2 Contribution of sequence and structure features 
+
+Next, we evaluated the relative contributions of sequence and structure features. As illustrated in Fig. 3 B, the model utilizing only sequence features achieves an AUC of 0.921, whereas the structure-only model yields a slightly lower AUC of 0.913. This suggests that while tructural features are commonly regarded as informative, sequence data may offer greater discriminative power in our identification task. Notably, the integration of both modalities results in the highest performance (AUC 0.9418), consistently outperforming single-modality approaches. One plausible reason is that the model can utilize the complementary nature of the two features: sequence data provides broad discriminative signals, while structural features help resolve ambiguous cases that are difficult to distinguish via sequence alone. Thus, multimodal integration is essential for maximizing the robustness and accuracy of RBP classification. 
+
+3.1.3 Effectiveness of feature fusion strategies 
+
+Finally, we evaluated the effectiveness of different strategies for fusing sequence and structure representations. As shown in Fig. 3 C, simple feature concatenation (Concat) yields the lowest performance (AUC = 0.914), indicating that simply stacking features offers limited gains. While additive fusion (Sum) provides a slight improvement (AUC = 0.921), these naive aggregation methods remain insufficient for fully capturing cross-modal complementarity. In contrast, more advanced strategies consistently enhance performance: gated additive fusion increases the AUC to 0.931 by adaptively reweighting features, while low-rank multiplicative fusion achieves an AUC of 0.926, highlighting the benefits of modeling nonlinear cross-modal interactions. Ultimately, our proposed AEFM method achieves the highest AUC of 0.941. By dynamically combining additive and multiplicative interactions, AEFM integrates sequence and structural information more effectively than any single fusion strategy. ii
+
+“main” — 2026/3/6 — 1:23 — page 6 — #6 iiiiii
+
+6 X. Luo and J. Shang et al.         
+
+> Fig. 3. ROC curve comparison of ablation study. A) sampling strategies. The w/o Exploration variant represents a degenerate form of the bandit-based strategy. B) different feature modalities. Sequence only uses sequence-derived features, structure only uses structure-derived features, and sequence combined with structure integrates both modalities. C) feature fusion strategies. Sum : additive fusion; Concat : concatenation; AEFM : adaptive expert fusion module.
+
+3.2 Comparison with benchmark methods 
+
+We benchmarked SeekRBP against state-of-the-art approaches, including learning-based tools (PhANNs, PhageRBPdetection) and homology-based methods (BLASTp, Pharokka). As illustrated in Fig. 4, homology-based methods achieve high precision ( > 0.95 ); however, most existing tools are constrained by low recall, highlighting the challenge of identifying divergent RBP families. In contrast, SeekRBP achieves the highest recall of 0.629 while maintaining competitive precision, resulting in the highest F1-score (0.742). This performance suggests that our bandit-based sampling strategy effectively identifies informative negative examples, enabling the model to learn discriminative features without sacrificing generalization. Furthermore, to accommodate diverse application scenarios, we offer an alternative configuration of SeekRBP that prioritizes high precision (~0.95), as detailed in Supplementary Table S2. Thus, SeekRBP provides a robust balance between precision and recall, making it well-suited for the real-world applications. PhANNs PhageRBPdetection Blastp Pharokka Ours              
+
+> Methods
+> 0.4
+> 0.5
+> 0.6
+> 0.7
+> 0.8
+> 0.9
+> 1.0
+> Score
+> 0.917 0.908
+> 0.952
+> 0.981
+> 0.902
+> 0.531
+> 0.473
+> 0.563 0.545
+> 0.629
+> 0.687
+> 0.621
+> 0.705 0.701
+> 0.742
+> Precision Recall F1-Score
+> Fig. 4. Comparison with benchmark methods on phage RBP identification. Precision, Recall, and F1-score are reported for PhANNs, PhageRBPdetection, Blastp, Pharokka, and our method, showing overall improved performance of the proposed approach.
+
+3.3 Case study: application on vibrio phages 
+
+We evaluated the biological relevance and generalizability of the proposed framework using an independent experimental dataset of Vibrio phages. This dataset was generated through wet-lab experimental work by our collaborators, Zhang et al., involving purification, culturing, and induced lytic procedures (Zhang et al. , 2025), where RBPs were identified via manual inspection of 3D structural domains. Although an absolute ground truth remains elusive, we utilized these manually curated RBPs as the reference standard. In this analysis, we first identified RBPs using SeekRBP and subsequently compared host prediction performance using the predicted RBPs versus the manually curated set. As shown in Supplementary Fig. S2, the model predicts a larger number of RBPs than the observed set while recovering a substantial fraction of manually selected RBPs across different phage genomes. In addition to count-based comparisons, we performed a structure-based analysis using TM-scores to assess the structural plausibility of predicted RBPs not identified manually. We computed the average TM-score and variance for manually selected RBPs that were not identified by our framework (the Observed set) and RBPs identified by SeekRBP that were not present in manual annotations (the Predicted set). A TM-score greater than 0.5 indicates significant structural similarity. As shown in Fig. 5, the predicted RBPs exhibit a wider range of TM-scores than the manually selected ones; notably, most predicted RBPs have a TM-score exceeding 0.5. This suggests that the SeekRBP detects divergent RBP candidates with valid structural folds or functional interactions that may have been overlooked under specific experimental conditions. Observed (n=25)    
+
+> 0.64 ± 0.13
+> Predicted (n=70)
+> 0.63 ± 0.15
+> 0.4
+> 0.5
+> 0.6
+> 0.7
+> 0.8
+> 0.9
+> 1.0
+> Best TM-score (per protein)
+> Fig. 5. TM-score comparison between predicted RBPs ( Predicted ) and manually selected RBPs ( Observed ) in the Vibrio dataset. The predicted RBPs show larger TM-scores range, possibly reflecting discovered divergent RBP families.
+
+Furthermore, we investigated whether the additionally predicted RBPs could enhance downstream host recognition. To this end, we compared the performance of the Observed RBP set against the Predicted set using two complementary validation approaches. First, we evaluated their utility in a machine learning-based phage-host interaction prediction task. Using ESM-2 embeddings and a standard MLP classifier within a 10-fold stratified cross-validation framework (Supplementary S1.6), the Predicted 
+
+set achieved a higher mean AUC (0.737) than the Observed set (0.713). The standard deviation also decreased from 0.099 to 0.073, indicating improved model stability (Supplementary Fig. S3). Second, to ensure these predictive gains reflect true biological interactions, we employed AlphaFold3 to estimate the docking quality (interface pLDDT) between the RBPs and host outer membrane proteins (Supplementary S1.7). Consistent with the classification results, the Predicted set exhibited higher interface pLDDT scores, pointing to more stable binding interfaces. Together, these findings demonstrate that the additional RBPs identified by SeekRBP provide robust biological signals rather than introducing noise, effectively bridging gaps in sparse experimental annotations. ii
+
+“main” — 2026/3/6 — 1:23 — page 7 — #7 iiiiii
+
+SeekRBP 7
+
+## 4 Discussion 
+
+In this study, we proposed SeekRBP, an integrative framework for phage RBP identification that combines sequence- and structure-derived representations with a reinforcement learning-inspired adaptive negative sampling strategy. By formulating negative sample selection as a sequential decision process guided by training feedback, SeekRBP effectively addresses the extreme class imbalance inherent in RBP datasets. Our bandit-based approach offers a computationally efficient approximation to full reinforcement learning; it enables a dynamic emphasis on hard, informative negatives without requiring explicit state modeling, and pairs effectively with the multimodal sequencestructure fusion module. Comprehensive evaluations demonstrate that SeekRBP improves recall and overall predictive performance compared to existing methods. Notably, the framework successfully identified unannotated RBPs in Vibrio 
+
+phages, providing valuable biological context that enhances downstream host prediction. While SeekRBP provides a robust computational tool for phage RBP identification, several avenues remain for future optimization. First, we plan to extend the framework to support receptor-specific and multi-class prediction tasks. This expansion will involve incorporating richer structural contexts, particularly proteinreceptor interaction dynamics, to better capture binding specificity. Second, we aim to explore more expressive reinforcement learning formulations that leverage contextual information, which could further refine the precision of the current negative sampling strategy. Finally, as additional experimental annotations become available, iterative retraining will be essential to strengthen model generalization, ultimately supporting practical applications in phage therapy and antimicrobial discovery. 
+
+Data availability 
+
+All data and codes used for this study are available online via: https://github.com/Saillxl/SeekRBP. 
+
+Funding 
+
+This work was supported by the RGC GRF CityU 11209823, City University of Hong Kong projects 9667256, 9678241, 7020092, Institute of Digital Medicine, and Guangdong Provincial Key Laboratory of Wastewater Information Analysis and Early Warning 217310019. 
+
+## References 
+
+Altschul, S. F., Gish, W., Miller, W., Myers, E. W., and Lipman, D. J. (1990). Basic local alignment search tool. Journal of molecular biology , 215 (3), 403–410. Auer, P. (2000). Using upper confidence bounds for online learning. In Proceedings 41st annual symposium on foundations of computer science , pages 270–279. IEEE. Boeckaerts, D., Stock, M., Criel, B., Gerstmans, H., De Baets, B., and Briers, Y. (2021). Predicting bacteriophage hosts based on sequences of annotated receptor-binding proteins. Scientific reports , 11 (1), 1467. Boeckaerts, D., Stock, M., De Baets, B., and Briers, Y. (2022). Identification of phage receptor-binding protein sequences with hidden markov models and an extreme gradient boosting classifier. viruses , 14 (6), 1329. Bouras, G., Nepal, R., Houtak, G., Psaltis, A. J., Wormald, P.-J., and Vreugde, S. (2023). Pharokka: a fast scalable bacteriophage annotation tool. Bioinformatics ,
+
+39 (1), btac776. Cantu, V. A., Salamon, P., Seguritan, V., Redfield, J., Salamon, D., Edwards, R. A., and Segall, A. M. (2020). Phanns, a fast and accurate tool and web server to classify phage structural proteins. PLoS computational biology , 16 (11), e1007845. Chicco, D. and Jurman, G. (2020). The advantages of the matthews correlation coefficient (mcc) over f1 score and accuracy in binary classification evaluation. 
+
+BMC genomics , 21 (1), 6. Cook, R., Brown, N., Redgwell, T., Rihtman, B., Barnes, M., Clokie, M., Stekel, D. J., Hobman, J., Jones, M. A., and Millard, A. (2021). Infrastructure for a phage reference database: identification of large-scale biases in the current collection of cultured phage genomes. Phage , 2(4), 214–223. Dowah, A. S. and Clokie, M. R. (2018). Review of the nature, diversity and structure of bacteriophage receptor binding proteins that target gram-positive bacteria. 
+
+Biophysical reviews , 10 (2), 535–542. Fu, L., Niu, B., Zhu, Z., Wu, S., and Li, W. (2012). Cd-hit: accelerated for clustering the next-generation sequencing data. Bioinformatics , 28 (23), 3150–3152. Gligorijevi´ c, V., Renfrew, P. D., Kosciolek, T., Leman, J. K., Berenberg, D., Vatanen, T., Chandler, C., Taylor, B. C., Fisk, I. M., Vlamakis, H., et al. (2021). Structure-based protein function prediction using graph convolutional networks. Nature communications , 12 (1), 3168. Gordillo Altamirano, F. L. and Barr, J. J. (2019). Phage therapy in the postantibiotic era. Clinical microbiology reviews , 32 (2), 10–1128. Grazziotin, A. L., Koonin, E. V., and Kristensen, D. M. (2016). Prokaryotic virus orthologous groups (pvogs): a resource for comparative genomics and protein family annotation. Nucleic acids research , page gkw975. Hampton, H. G., Watson, B. N., and Fineran, P. C. (2020). The arms race between bacteria and their phage foes. Nature , 577 (7790), 327–336. He, K., Zhang, X., Ren, S., and Sun, J. (2016). Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition , pages 770–778. Jayakumar, S., Pascanu, R., Godolphin, J., Eszter, B., et al. (2020). Multiplicative interactions and where to find them. In International Conference on Learning Representations .Johnson, J. M. and Khoshgoftaar, T. M. (2019). Survey on deep learning with class imbalance. Journal of big data , 6(1), 1–54. Lin, Z., Akin, H., Rao, R., Hie, B., Zhu, Z., Lu, W., Smetanin, N., Verkuil, R., Kabeli, O., Shmueli, Y., et al. (2023). Evolutionary-scale prediction of atomic-level protein structure with a language model. Science , 379 (6637), 1123–1130. Lu, C., Zhang, Z., Cai, Z., Zhu, Z., Qiu, Y., Wu, A., Jiang, T., Zheng, H., and Peng, Y. (2021). Prokaryotic virus host predictor: a gaussian model for host prediction of prokaryotic viruses in metagenomics. BMC biology , 19 (1), 5. Magill, D. J. and Skvortsov, T. A. (2023). Depolymerase predictor (depp): a machine learning tool for the targeted identification of phage depolymerases. BMC bioinformatics , 24 (1), 208. Mirdita, M., Schütze, K., Moriwaki, Y., Heo, L., Ovchinnikov, S., and Steinegger, M. (2022). Colabfold: making protein folding accessible to all. Nature methods ,
+
+19 (6), 679–682. Murray, C. J., Ikuta, K. S., Sharara, F., Swetschinski, L., Aguilar, G. R., Gray, A., Han, C., Bisignano, C., Rao, P., Wool, E., et al. (2022). Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis. The lancet , 399 (10325), 629–655. Mushegian, A. (2020). Are there 1031 virus particles on earth, or more, or fewer? 
+
+Journal of bacteriology , 202 (9), 10–1128. Nayfach, S., Camargo, A. P., Schulz, F., Eloe-Fadrosh, E., Roux, S., and Kyrpides, N. C. (2021). Checkv assesses the quality and completeness of metagenome-assembled viral genomes. Nature biotechnology , 39 (5), 578–585. Nobrega, F. L., Vlot, M., de Jonge, P. A., Dreesens, L. L., Beaumont, H. J., Lavigne, R., Dutilh, B. E., and Brouns, S. J. (2018). Targeting mechanisms of tailed bacteriophages. Nature Reviews Microbiology , 16 (12), 760–773. Pearson, W. (2013). An introduction to sequence similaritysearching. Curr Protoc Bioinformatics. NIH Public Access .Perez, E., Strub, F., De Vries, H., Dumoulin, V., and Courville, A. (2018). Film: Visual reasoning with a general conditioning layer. In Thirty-Second AAAI Conference on Artificial Intelligence .Scanlan, P. D., Hall, A. R., Blackshields, G., Friman, V.-P., Davis Jr, M. R., Goldberg, J. B., and Buckling, A. (2015). Coevolution with bacteriophages drives genome-wide host evolution and constrains the acquisition of abiotic-beneficial mutations. 
+
+Molecular biology and evolution , 32 (6), 1425–1435. Shazeer, N., Mirhoseini, A., Maziarz, K., Davis, A., Le, Q., Hinton, G., and Dean, J. (2017). Outrageously large neural networks: The sparsely-gated mixture-of-experts layer. In International Conference on Learning Representations .Su, J., Han, C., Zhou, Y., Shan, J., Zhou, X., and Yuan, F. (2023). Saprot: Protein language modeling with structure-aware vocabulary. BioRxiv , pages 2023–10. Suttle, C. A. (2007). Marine virusesmajor players in the global ecosystem. Nature reviews microbiology , 5(10), 801–812. Sutton, T. D. and Hill, C. (2019). Gut bacteriophage: current understanding and challenges. Frontiers in endocrinology , 10 , 784. Terzian, P., Olo Ndela, E., Galiez, C., Lossouarn, J., Pérez Bucio, R. E., Mom, R., Toussaint, A., Petit, M.-A., and Enault, F. (2021). Phrog: families of prokaryotic virus proteins clustered using remote homology. NAR genomics and bioinformatics ,
+
+3(3), lqab067. Topka-Bielecka, G., Dydecka, A., Necel, A., Bloch, S., Nejman-Fale´ nczyk, B., We ˛grzyn, G., and We ˛grzyn, A. (2021). Bacteriophage-derived depolymerases against bacterial biofilm. Antibiotics , 10 (2), 175. Zhang, M., Feng, X., Wang, J., Qu, W., and Jin, M. (2025). Isolation, characterization, and evaluation of a lytic jumbo phage z90 against aeromonas hydrophila in american eels (anguilla rostrata). Antibiotics , 15 (1), 27.

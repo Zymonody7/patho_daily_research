@@ -1,0 +1,730 @@
+Title: A Novel Aggregated SIR Model for Spatial Epidemic Propagation
+
+URL Source: https://arxiv.org/pdf/2602.23449v1
+
+Published Time: Mon, 02 Mar 2026 01:06:00 GMT
+
+Number of Pages: 16
+
+Markdown Content:
+# An Aggregated SIR Model for Spatial Epidemic Propagation 
+
+# M. Soledad Aronna 1, Mariana Bergonzi 2,3 , and Ernesto Kofman 2,3 1School of Applied Mathematics, FGV EMAp, Brazil 
+
+2French-Argentine International Center for Information and System Sciences (CIFASIS),CONICET, Argentina 
+
+3FCEIA, Universidad Nacional de Rosario, Argentina 
+
+Abstract 
+
+We propose an extension of the classical susceptible–infectious–recovered (SIR) model that incorporates the effects of spatial propagation of an epi-demic through a small number of additional compartments. The model is designed to capture the dynamics of disease spread across multiple interconnected cities or populated regions, while avoiding the high dimen-sionality and large parameter sets typical of network-based or agent-based approaches. Instead of explicitly modeling individual locations or mobil-ity networks, we introduce aggregate variables that describe whether the epidemic has not yet reached, is currently active in, or has already passed through different regions of the spatial domain. This formulation allows the model to reproduce key qualitative features observed in aggregated incidence data, such as prolonged plateaus and multiple infection waves arising from asynchronous local outbreaks. The resulting system consists of ordinary differential equations with a relatively small number of inter-pretable parameters, providing a tractable framework for analytical inves-tigation and numerical simulation. Our approach offers a parsimonious alternative for studying spatially structured epidemic dynamics when only aggregated data are available or when model simplicity is essential. 
+
+Keywords SIR Model, Spatial Disease Spread, Aggregated SIR Model, Basic Reproduction Number, Epidemics on Networks 
+
+# 1 Introduction 
+
+The aim of this work is to extend the classical SIR (susceptible-infectious-recovered) model by including new compartments that represent the level of spatial propagation of the epidemic. The main objective is to find a system that can imitate the dynamics observed when a disease spreads in different interconnected cities or populated regions but, differently to what 
+
+1
+
+> arXiv:2602.23449v1 [math.NA] 26 Feb 2026
+
+is done in network-based models (see references below), we aim at finding a set of equations involving a relatively small quantity of parameters. Models for spatial propagation of diseases have existed for a quite long time already. Early work by [13] from the 80s considered the impact of spatial heterogeneity on the vaccination requirement for the eradication of a canonical infectious disease. The latter was based on previous studies, by [7] and [17], that noted the importance of hetereogenity in epidemiological modeling. More references and historical context of foundational articles can be found in [18] and [3]. [19] and [1] explored how regional mobility and migration can be in-corporated into epidemic models. In particular, [1] emphasized the use of space-discrete models and derived inequalities for the basic reproduction number, R0. Considering the structure of urban connectivity networks, [5] and [6] developed a framework to calculate global thresholds for epi-demic invasion. Complementary to these works, [15] and [16] made semi-nal contributions to the study of epidemic dynamics on complex networks of individuals. Recently, [2] conducted a study addressing how intercity commuting patterns within metropolitan regions influence the spread of infectious diseases. Another widely used method to take into account spatial spread is modeling through partial differential equations (PDE) with a diffusion term. Some of the initial works involving this type of model were em-ployed for rabies [14, 11], and were derived as simple extensions of the ordinary differential equations (ODE) models by adding a diffusion op-erator representing the random movement of the infectious species. An extensive review of PDE modeling for infectious diseases can be found in 
+
+e.g. [8]. Agent-based simulation models provide an alternative to equation-based systems and, in some cases, can represent richer scenarios than the latter [10]. In an agent-based framework, each individual agent can be assigned distinct attributes and decision rules, enabling the model to cap-ture interactions and behaviours at the individual level [12, 9]. In contrast, the approach taken in this article differs substantially from agent-based modelling: the defining feature of our model is aggregation rather than individual-level representation. In this article, we propose an ODE model that extends the classical SIR framework by adding variables that represent spatial propagation. Loosely speaking, the total population is assumed to live in several interconnected districts and is partitioned according to whether the epidemic is active in each location, has not yet arrived, or has already passed. Rigorous definitions are provided in the next section. The idea is to capture the essential features of spatial diffusion in a network of cities or regions, where the epidemic begins in one location and subsequently spreads to others, generating multiple infectious waves. When examining aggregated incidence data, one often observes a curve that does not exhibit a single peak but instead displays a kind of plateau, sustained as long as different nodes reach their peaks at different times. The article is organized as follows. In Section 2 , we introduce the model, explain the meaning and interpretation of the variables and pa-rameters, and discuss the value of the basic reproduction number R0
+
+2for the proposed framework. Section 3 presents numerical simulations that validate our findings. Detailed derivations of the basic reproduction number for both the novel aggregated model and the network model are provided in the Appendix. 
+
+# 2 Model Formulation 
+
+In this section, we introduce the proposed epidemic model and describe its fundamental dynamical properties. We first present the system of or-dinary differential equations governing the evolution of the state variables and discuss the role and epidemiological interpretation of the model pa-rameters. Particular attention is given to the mechanisms through which spatial propagation is incorporated into the framework. We then comment on the derivation of the basic reproduction number, R0, which serves as a key threshold parameter characterizing the potential for epidemic out-break and persistence, and which corresponds to the one for a classical 
+
+SIR model, as established in Theorem 1 below. 
+
+# 2.1 Model Dynamics 
+
+We consider an epidemic taking place in a population of size N that is divided in certain number of districts. The individuals remain most of the time in their own district, but they sometimes move towards other districts where they can get infected or, in case they are already infected, they can infect other individuals. We shall first divide the population into three main groups pS, p I and 
+
+pR, according to the following description: 
+
+• pS(t) is the population living in districts that were not yet reached by the epidemic at time t;
+
+• pI(t) is the population living in districts where the epidemic is active at time t;
+
+• pR(t) is the population living in districts where the epidemic has already finished. That way, 
+
+pS(t) + pI(t) + pR(t) = N (1) Notice that 
+
+• the population pS(t) is composed of susceptible individuals; 
+
+• the population pR(t) is composed of recovered individuals, but also of susceptible individuals (not every individual is reached by the epidemic); 
+
+• the population pI(t) is composed of susceptible, infected, and re-covered individuals, denoted by S(t), I(t), and R(t), respectively. Thus, 
+
+S(t) + I(t) + R(t) = pI(t); (2) 
+
+• the population pI(t) receives susceptible individuals that leave pS(t)at a certain rate ˙ pS(t) as the corresponding districts are reached by the epidemic; 
+
+3• the population pR(t) receives susceptible and recovered individuals that leave pI(t) at a certain rate ˙ pR(t) as the corresponding districts recover, this is, as the wave leaves those districts; 
+
+• we let S∞ denote the fraction of individuals that remain susceptible after the epidemic finishes in a district and R∞ := 1 −S∞ the fraction of individuals that is reached by the epidemic. Then, the rate at which susceptible and recovered individuals move towards pR(t) can be computed as S∞ ˙pR(t) and R∞ ˙pR(t), respectively. We shall assume that, within the population pI(t), the dynamics is governed by a modified SIR model, which takes into account that the ar-rival of susceptible population from pS occurs at rate ˙pS and the departure of susceptible and recovered individuals toward pR. Thus, the model for the population pI(t) can be written as ˙S(t) = − ˙pS(t) − β S(t)I(t)
+
+pI(t) − S∞ ˙pR(t)˙I(t) = β S(t)I(t)
+
+pI(t) − γI (t)˙R(t) = γI (t) − R∞ ˙pR(t)(3) Figure 1 shows the scheme for the different compartments. 
+
+Figure 1: Aggregated model scheme. 
+
+In order to complete the model, we need to establish the expressions for ˙pS(t) and ˙ pR(t) that represent the advance of the epidemics through the different districts and their subsequent recovery. Regarding these terms, we make the following observations and assumptions. 
+
+• The rate ˙pS(t) at which the epidemic reaches new districts is pro-portional to the number I(t) of infected individuals. 
+
+• That rate also depends on the population pS(t) living in districts that have not yet been reached by the epidemic . However, when 
+
+pS(t) is sufficiently large, the rate of spatial advance may fail to 
+
+4grow proportionally to pS(t), since it is ultimately driven by the fraction of this population that is in contact with districts where the epidemic is already active. Consequently, a reasonable expression for the dynamics of pS(t) is ˙pS(t) = −ρ I (t) sat 
+
+(
+
+α pS(t)
+
+N
+
+)
+
+, (4) where sat( ·) is a saturation function taking values in the interval [0 , 1]. We expect that a condition of the following type holds: sat( x) ≈
+
+{
+
+1 if x > 1,x otherwise .
+
+A smooth approximation of that function is given by sat( x) = 2
+
+π arctan 
+
+( π
+
+2 x
+
+)
+
+(5) which is more adequate for its use in numerical algorithms. 
+
+• Susceptible individuals in pI are driven either to I or to pR, where herd immunity has been achieved. Thus, we can think that recovered individuals in pI move susceptible individuals towards pR so that ˙S(t) = − ˙pS(t) − β S(t)I(t)
+
+pI(t) − βR
+
+S(t)R(t)
+
+pI(t) (6) for certain parameter βR.
+
+• Comparing this expression with that of Eq.(3), results in ˙pR(t) = βR
+
+S∞
+
+S(t)R(t)
+
+pI(t) (7) Then, combining Eqs.(2) and (7) with Eq.(3), the complete model equa-tions result as follows ˙pS(t) = −ρI (t)sat( α pS(t)
+
+N )˙S(t) = ρI (t)sat( α pS(t)
+
+N ) − β S(t)I(t)
+
+pI(t) − βR
+
+S(t)R(t)
+
+pI(t)˙I(t) = β S(t)I(t)
+
+pI(t) − γI (t)˙R(t) = γI (t) − βRR∞
+
+S∞
+
+S(t)R(t)
+
+pI(t)˙pR(t) = βR
+
+S∞
+
+S(t)R(t)
+
+pI(t)(8) with pI(t) = S(t) + I(t) + R(t). 
+
+52.2 About the basic reproduction number R0
+
+Before discussing the model parameters, we compute the basic reproduc-tion number R0 associated with our model, following the classical ap-proach of [20]. Under a set of hypotheses, which are rigorously verified in Appendix A, the procedure developed in [20] applies to our setting. The full derivation of R0 is provided in Appendix A. The result is stated below. 
+
+Theorem 1. The basic reproduction number for model (8) is given by 
+
+R0 = β
+
+γ , (9) 
+
+which coincides with the basic reproduction number of the standard SIR model (see, for example, [4]). 
+
+# 2.3 About the model parameters 
+
+The model given by equation (8) involves seven parameters, namely β, γ, ρ, α, β R, R ∞, S ∞.As usual, β denotes the transmission rate and γ the recovery rate. The parameters R∞ and S∞ = 1 − R∞ represent the fractions of individuals who are recovered or remain susceptible, respectively, after the epidemic has completely passed through a district. In the standard SIR model, these quantities are defined as the limits, as time tends to infinity, of the recovered and susceptible populations. Accordingly, R∞
+
+can be computed as in the classical SIR framework as the solution of the transcendental equation 
+
+R∞ = 1 − e−R 0R∞ , with R0 = β
+
+γ . (10) In conclusion, there are only 3 additional parameters to those of a standard SIR model: 
+
+• ρ and α are related to the mobility of the population and the degree of connectivity between districts; 
+
+• βR defines the rate at which the population moves towards the re-covered compartment pR. Thus, it is related to the duration of the outbreak in the districts, which depends in turn on β, γ and the population size of each district. 
+
+# 3 Numerical Examples 
+
+In this section we present two numerical examples. In the first one, the aggregated model is used to reproduce the simulation results of a synthetic metapopulation model. In the second one, the model is utilized to fit the real data corresponding to the daily cases of Covid-19 reported in Argentina. The reported simulation results can be reproduced using the Python routines available here: https://fceia.unr.edu.ar/~kofman/files/pSIR_Agg.zip .
+
+63.1 Synthetic metapopulation model 
+
+We consider a population divided into D districts with equal population size Ni = N/D , for each i = 1 , . . . , N . The dynamics in each region is governed by the following set of equations ˙Si(t) = −β Si(t) ˆ Ii(t)
+
+Ni
+
+˙Ii(t) = β Si(t) ˆIi(t)
+
+Ni
+
+− γI i(t)˙Ri(t) = γI i(t)(11) for i = 1 , . . . , D , with ˆIi(t) = 
+
+
+
+(1 − p)I1(t) + pI 2(t) if i = 1 (1 − p)ID(t) + pI D−1(t) if i = D
+
+(1 − 2p)Ii(t) + pI i−1(t) + pI i+1 (t) otherwise (12) From latter equation, we see that in the network model (11), each district has two neighboring districts, except at the boundaries (i.e., for i = 1 and 
+
+i = D). This model, which can be regarded as a simplification of the one intro-duced in [2], represents the situation in which individuals spend a fraction of time p in each neighboring district and the remainder of the time in their own district. The model is also a particular case of the one presented in Appendix B, where it is proven that the basic reproduction number for the network model is ˆR0 = β/γ , independently of the mobility matrix. For the numerical simulations, we set the parameters to D = 10, p =0.005, β = 1, and γ = 0 .5. The population consists of 10 6 individuals, but we normalize to have N = 1 for a better understanding of the proportions. The initial condition corresponds to an epidemic originating from a single infected individual in the first district, that is, I1(t = 0) = 10 −6 .Figure 2 shows the simulated system trajectories for the different dis-tricts and the resulting sum of infected individuals. Notice that this sum exhibits a wide plateau rather than a peak, a behavior that is not cap-tured by standard compartmental models, as already mentioned above. Actually, we chose this particular network structure in order to produce this type of evolution, where the peaks of the different districts occur at different times inducing an aggregated trajectory that behaves radically different from the trajectories of standard compartmental models. The aggregated model of Eq.(8) was then simulated with parameters 
+
+N = 1, β = 1, γ = 0 .5, ρ = 0 .657, βR = 0 .152, and α = 32 .81 us-ing the saturation function of Eq.(5). The initial conditions were cho-sen as follows. We set I(0) = 10 −6 to represent a single initial in-fection, and R(0) = pR(0) = 0. The value pI(0) = 0.105 was used and then we set S(0) = pI(0) − I(0) and pS(0) = N − pI(0). The re-ported values for the initial state pI(0) and the model parameters ρ, βR
+
+and α were obtained by a simple optimization procedure (using Python 
+
+scipy.optimize.curve_fit ) to fit the data of the total amount of infected individuals. 
+
+7Figure 2: Infected population trajectories in the Multi-Population model. 
+
+It can be observed that the aggregated model of Eq.(8) can accurately reproduce the result of the metapopulation model of Eq.(11). Moreover, the initial value pI(0) = 0 .105 ≈ 1/D is consistent with the fact that the outbreak started at a single district that contains the 10% of the total population. 
+
+# 3.2 Fitting real data 
+
+The second example corresponds to the first wave of COVID-19 in Ar-gentina that occurred in the period March–November 2020. The orange curve in Figure 4 shows the daily number of reported cases (processed with a moving average filter of length W = 7). The raw data can be down-loaded from https://covidstats.com.ar , and the number of daily cases is available at https://fceia.unr.edu.ar/~kofman/files/nacion.csv .In this case, the curve exhibits an approximately linear growth for a long period of time (consistent with the fact that the epidemics was reaching new districts) after which it experiences an abrupt fall. Like in the previous example, this type of behavior is not captured by standard compartmental models. In order to normalize the data for a population of N = 1, the number of daily cases was divided by the total population of Argentina at that date P = 45 · 10 6 and multiplied by d = 10 to take into account the under-detection factor. This factor can be roughly inferred by comparing the case fatality rate observed in Argentina Figure 4 also shows the simulation results obtained using the aggre-gated model with parameters ρ = 0 .8026, βR = 0 .01911, α = 242 .4 , β =0.2118 and γ = 0 .1667. The initial values were set to I(0) = 1 .43 ·10 −4 (in 
+
+8Figure 3: Infected population trajectories in the Aggregated and Multi-Population model. 
+
+order to coincide with the initial data), pI(0) = 0 .1796, pR(0) = R(0) = 0, 
+
+pS(0) = N − pI(0), R(0) = pR(0) = 0. The reported values of ρ, βR,
+
+α, β, and pI (0) were obtained by a simple optimization procedure (using Python scipy.optimize.curve_fit ), as in the first example. As before, the aggregated model was able to accurately fit the data and the optimization procedure led to reasonable values for all the parameters. 
+
+# 4 Conclusions 
+
+We introduced a new SIR model with two additional compartments, pS
+
+and pR. The first one contains the population living in districts where the epidemics has not yet arrived and the latter one contains the population where the epidemics has already finished. That way, this new model attempts to capture the aggregated behavior of metapopulation dynamics in a simple and direct manner by adding only two state variables to those of the standard SIR model. The aggregated model contains only 7 parameters, where 4 of them correspond to those of the classic SIR model ( β, γ, R∞, and S∞) while the remaining 3 are related to the network connectivity ( α), the popu-lation mobility ( ρ) and the duration of the outbreak in a district ( βR). We showed that, like in the standard SIR model, the basic reproduction number is given by R0 = β/γ .Two numerical examples were analyzed. The first case corresponds to a synthetic metapopulation model that exhibits a plateau in the sum of the infected individuals of the different districts. The second exam-
+
+9Figure 4: Daily cases of COVID-19 in Argentina (with 7-day moving average) and simulation results with the aggregated model. 
+
+ple deals with the reported cases of Covid-19 in Argentina, where it is observed that the linear growth of the daily cases follows an abrupt fall. Both types of dynamics can be explained by the fact that the epidemics reaches different districts at different times. While standard compart-mental models are unable to show these types of evolutions, the proposed model could successfully reproduce both situations. The work opens several future lines of research. First, it would be desirable, if possible, to establish a quantitative relation between the pa-rameters α and ρ of the aggregated model with those of the network structure and mobility. That relationship would not only simplify the model parametrization but it may also allow to infer some network fea-tures based on the aggregated behavior. Similarly, a quantitative relation between the value of βr in the aggregated model with those of γ, β and the size of the different districts would further simplify the parametrization. The idea used here for the SIR model could be extended to other com-partmental models like SEIR and SIR-SI (as for vector-borne diseases), for instance. While in an SEIR case the extension seems to be straightfor-ward, in the SIR-SI case the problem appears to be more involved since both populations must evolve in a spatially coordinated fashion. A potential use of the proposed model is that of studying the effect of control actions that affect mobility between districts. Here, the use of a low order model like the one proposed in this work would simplify the de-sign of controllers and optimization procedures with respect to the use of metapopulation models. In any case, the use of the aggregated model for control purposes would require to establish first the aforementioned rela-
+
+10 tionship between the parameters of this model with those of the network dynamics. 
+
+# Appendix A Computing R0 for the aggregated model 
+
+We follow the calculations proposed in [20], to compute the basic reproduc-tion number, denoted by R0 for model (13). With that aim, we consider the full model, in which we re-order the variables and put first the infec-tious compartment I :˙I(t) = β S(t)I(t)
+
+S(t) + I(t) + R(t) − γI (t)˙S(t) = ρI (t)sat( α pS(t)
+
+N ) − β S(t)I(t)
+
+S(t) + I(t) + R(t) − βR
+
+S(t)R(t)
+
+S(t) + I(t) + R(t)˙R(t) = γI (t) − βR
+
+1 − S∞
+
+S∞
+
+S(t)R(t)
+
+S(t) + I(t) + R(t)˙pS(t) = −ρI (t)sat( α pS(t)
+
+N )˙pR(t) = βR
+
+S∞
+
+S(t)R(t)
+
+pI(t)(13) For system (13), we use x to denote the state ( I, S, R, p S, p R), and then the disease-free equilibria (DFE) take the form 
+
+x0 = (0 , S 0, 0, 0, p R0 ), (14) with S0 + pR0 = N. 
+
+For system (13), we use x to denote the state ( I, S, R, p S, p R), and then the disease-free equilibria (DFE) take the form 
+
+x0 = (0 , S 0, 0, 0, p R0 ), (15) with S0 + pR0 = N. Following the notation employed in [20], let x =(x1, . . . , x n)T , with each xi ≥ 0, be the number of individuals in each compartment, for i = 1 , . . . , 5. For clarity, we sort the compartments so that the first m compartments correspond to infected individuals. In our case, m = 1 . And we define Xs to be the set of all disease free states: 
+
+Xs := {x ≥ 0 : xi = 0 , i = 1 , . . . , m }. (16) We write the dynamics of each compartment in the form ˙xi = fi(x) = Fi(x) − V i(x),
+
+where Fi(x) is the rate of appearance of new infections in compartment 
+
+i, and each Vi can be written in the form Vi = V− 
+
+> i
+
+− V + 
+
+> i
+
+, with V− 
+
+> i
+
+being the rate of transfer of individuals out of compartment i and V+ 
+
+> i
+
+the rate of transfer of individuals into of compartment i. Writing f, F, V−, V+
+
+11 for the vector functions with components fi, Fi, V− 
+
+> i
+
+, V+ 
+
+> i
+
+for i = 1 , . . . , 5,
+
+respectively, we have 
+
+F(x) = 
+
+
+
+β SI 
+
+> S+I+R
+
+0000
+
+ , V−(x) = 
+
+
+
+γI β SI  
+
+> S+I+R
+
++ βR SR 
+
+> S+I+R
+
+βR 1−S∞
+
+> S∞
+> SR
+> S+I+R
+
+ρI sat( α pS 
+
+> N
+
+)0
+
+ , V+(x) = 
+
+
+
+0
+
+ρI sat( α pS 
+
+> N
+
+)
+
+γI 
+
+0
+
+> βR
+> S∞
+> SR
+> S+I+R
+
+ ,
+
+(17) 
+
+V = V− − V + and f = F − V . We proceed now to check that with theses functions, the system verifies the requires hypotheses, namely (following the notation in [20]): (A1) If x ≥ 0, then Fi, V+ 
+
+> i
+
+, V− 
+
+> i
+
+≥ 0, for i = 1 , . . . , 5.
+
+(A2) For each i = 1 , . . . , n : if xi = 0 , then V− 
+
+> i
+
+= 0 . In particular, if 
+
+x ∈ Xs, then V− 
+
+> i
+
+= 0 , for i = 1 .
+
+(A3) Fi = 0 , if i > m. 
+
+(A4) If x ∈ Xs, then Fi(x) = 0 and V+ 
+
+> i
+
+(x) = 0 , for i = 1 .
+
+(A5) If F(x) is set to zero, then all eigenvalues of Df (x0) have negative real parts. Hypotheses (A1)-(A4) can be verified immediately. Let us check (A5). We have 
+
+DF(x0) = 
+
+
+
+β S(S+R) 
+
+> (S+I+R)2
+
+β I(I+R) 
+
+> (S+I+R)2
+
+−β SI  
+
+> (S+I+R)2
+
+0 00 0 0 0 00 0 0 0 00 0 0 0 00 0 0 0 0
+
+∣∣∣∣∣∣∣∣∣∣x=x0
+
+=
+
+
+
+β 0 0 0 00 0 0 0 00 0 0 0 00 0 0 0 00 0 0 0 0
+
+
+
+, (18) 
+
+12 and 
+
+DV(x0) = 
+
+
+
+γ 0 
+
+> βS (S+R)−βRSR
+> (S+I+R)2
+
+− ρsat (α pS
+
+> N
+
+) β (βI +βRR)( I+R)
+
+> (S+I+R)2
+
+−βR 1−S∞ 
+
+> S∞
+> SR
+> (S+I+R)2
+
+− γ βR 1−S∞
+
+> S∞
+> R(I+R)
+> (S+I+R)2
+
+ρsat (α pS
+
+> N
+
+) 0 
+
+> βRSR
+> S∞(S+I+R)2
+
+− βR R(I+R) 
+
+> S∞(S+I+R)2
+
+0 0 0 
+
+> −βSI +βRS(S+I)
+> (S+I+R)2
+
+−ρ α 
+
+> N
+
+sat ′(α pS
+
+> N
+
+) 0
+
+βR 1−S∞ 
+
+> S∞
+> S(I+S)
+> (S+I+R)2
+
+0 00 ρ α 
+
+> N
+
+Isat ′(α pS
+
+> N
+
+) 0
+
+− βR S(S+I) 
+
+> S∞(S+I+R)2
+
+0 0
+
+∣∣∣∣∣∣∣∣∣∣∣x=x0
+
+=
+
+
+
+γ 0 0 0 00 0 βR −ρ α 
+
+> N
+
+sat ′(0) 0
+
+−γ 0 βR 1−S∞ 
+
+> S∞
+
+0 00 0 0 0 00 0 − βR 
+
+> S∞
+
+0 0
+
+
+
+.
+
+(19) Now, setting 
+
+F := 
+
+[ ∂Fi
+
+∂x j
+
+(x0)
+
+]
+
+, V := 
+
+[ ∂Vi
+
+∂x j
+
+(x0)
+
+]
+
+, with 1 ≤ i, j ≤ m, (20) in view of [20, Lemma 1], we get that F = β is non-negative and V = γ is non-singular. The basic reproduction number for system (13) is then given by 
+
+R0 := ρ(F V −1), (21) where ρ(A) denotes the spectral radius of a matrix A. We have 
+
+F := ∂F1
+
+∂I (x0) = β, V := ∂Vi
+
+∂I (x0) = γ, (22) which leads to 
+
+R0 = β
+
+γ , (23) which coincides with the basic reproduction number of the standard SIR model (see e.g. [4]). 
+
+# B Computing R0 for the network model 
+
+We consider a generalization of model (11)-(12) for an arbitrary mobility matrix P = [ pij ]1≤i,j ≤D , where pij represents the daily time proportion that a resident of region i spends in region j. The system is given by (11), where ˆIi has the general structure ˆIi := 
+
+> D
+
+∑
+
+> j=1
+
+pji Ij . (24) 
+
+13 Proposition B.1. The basic reproduction number ˆR0 for the network model (11) -(24) is ˆR0 = β 
+
+> γ
+
+.
+
+Proof. Following the calculations for R0 of previous subsection, we have 
+
+F(x) = 
+
+
+
+β S1
+
+> N1
+
+∑Dj=1 pj1Ij
+
+β S2
+
+> N2
+
+∑Dj=1 pj2Ij
+
+...
+
+β SD
+
+> ND
+
+∑Dj=1 pjD Ij
+
+0...00...0
+
+
+
+, V− (x) = 
+
+
+
+γI 1
+
+γI 2
+
+...
+
+γI D
+
+β S1
+
+> N1
+
+∑Dj=1 pj1Ij
+
+...
+
+β SD
+
+> ND
+
+∑Dj=1 pjD Ij
+
+0...0
+
+
+
+, V+(x) = 
+
+
+
+0...00...0
+
+γI 1
+
+γI 2
+
+...
+
+γI D
+
+
+
+,
+
+(25) We get 
+
+F =
+
+
+
+β S1,0 
+
+> N1
+
+p11 β S1,0 
+
+> N1
+
+p21 . . . β S1,0 
+
+> N1
+
+pD1
+
+... ... . . . ...
+
+β SD, 0 
+
+> ND
+
+p1D β SD, 0 
+
+> ND
+
+p2D . . . β SD, 0 
+
+> ND
+
+pDD 
+
+ , V =
+
+
+
+γ . . . 0... . . . ...0 . . . γ
+
+ .
+
+(26) On a DFE, we necessarily have Ii, 0 = 0 and Ri, 0 = 0 , thus Si, 0 = Ni, for all i = 1 , . . . , D. So we get 
+
+F = βP. (27) Consequently, ˆR0 = ρ(F V −1) = β
+
+γ ρ(P ) = β
+
+γ , (28) for any mobility matrix, as long as it is row-stochastic (non-negative en-tries and, for each row, the entries sum 1). 
+
+# References 
+
+[1] J. Arino and P. Van den Driessche. A multi-city epidemic model. 
+
+Math. Population Stud. , 10(3):175–193, 2003. [2] M. S. Aronna and L. M. Moschen. Optimal vaccination strategies on networks and in metropolitan areas. Infectious Disease Modeling ,9(4):1198–1222, 2024. [3] B. Bolker and B.T. Grenfell. Space, persistence and dynamics of measles epidemics. Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences , 348(1325):309–320, 1995. [4] F. Brauer and C. Castillo-Chavez. Mathematical models in population biology and epidemiology , volume 2. Springer, 2012. 
+
+14 [5] V. Colizza, R. Pastor-Satorras, and A. Vespignani. Reaction– diffusion processes and metapopulation models in heterogeneous net-works. Nat. Phys. , 3(4):276–282, 2007. [6] V. Colizza and A. Vespignani. Epidemic modeling in metapopulation systems with heterogeneous coupling pattern: Theory and simula-tions. J. Theor. Biol. , 251(3):450–467, 2008. [7] H.W. Hethcote. An immunization model for a heterogeneous popu-lation. Theoretical population biology , 14(3):338–349, 1978. [8] M.T. Hoang and M. Ehrhardt. Differential equation models for in-fectious diseases: Mathematical modeling, qualitative analysis, nu-merical methods and applications: Mt hoang, m. ehrhardt. SeMA Journal , pages 1–36, 2025. [9] E. Hunter, B. Mac Namee, and J.D. Kelleher. A taxonomy for agent-based models in human infectious disease epidemiology. Journal of Artificial Societies and Social Simulation , 20(3), 2017. [10] E. Hunter, B. Mac Namee, and J.D. Kelleher. A comparison of agent-based models and equation based models for infectious disease epi-demiology. 2018. [11] A. K¨ all´ en, P. Arcuri, and J.D. Murray. A simple model for the spa-tial spread and control of rabies. Journal of Theoretical Biology ,116(3):377–393, 1985. [12] B.D.L. Marshall and S. Galea. Formalizing the role of agent-based modeling in causal inference and epidemiology. American journal of epidemiology , 181(2):92–99, 2015. [13] R.M. May and R.M. Anderson. Spatial heterogeneity and the design of immunization programs. Mathematical Biosciences , 72(1):83–111, 1984. [14] J.D. Murray, E.A. Stanley, and D.L. Brown. On the spatial spread of rabies among foxes. Proceedings of the Royal society of London. Series B. Biological sciences , 229(1255):111–150, 1986. [15] R. Pastor-Satorras and A. Vespignani. Epidemic dynamics and en-demic states in complex networks. Physical Review E , 63(6):066117, 2001. [16] R. Pastor-Satorras and A. Vespignani. Epidemic dynamics in finite size scale-free networks. Physical Review E , 65(3):035108, 2002. [17] W.M. Post, D.L. DeAngelis, and C.C. Travis. Endemic disease in environments with spatially heterogeneous host populations. Mathe-matical Biosciences , 63(2):289–302, 1983. [18] C.J. Rhodes and R.M. Anderson. Persistence and dynamics in lattice models of epidemic spread. Journal of theoretical biology , 180(2):125– 133, 1996. 
+
+15 [19] L. Sattenspiel and K. Dietz. A structured epidemic model incorporat-ing geographic mobility among regions. Math. Biosci. , 128(1-2):71– 91, 1995. [20] P. Van den Driessche and J. Watmough. Reproduction numbers and sub-threshold endemic equilibria for compartmental models of disease transmission. Mathematical biosciences , 180(1-2):29–48, 2002. 
+
+16

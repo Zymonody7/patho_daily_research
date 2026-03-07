@@ -1,0 +1,451 @@
+Title: Random-Forest-Induced Graph Neural Networks for Tabular Learning
+
+URL Source: https://arxiv.org/pdf/2602.24224v1
+
+Published Time: Mon, 02 Mar 2026 02:13:45 GMT
+
+Number of Pages: 24
+
+Markdown Content:
+# Random-Forest-Induced Graph Neural Networks for Tabular Learning 
+
+Haozhe Chen ∗
+
+Utah State University 
+
+haozhe.chen@usu.edu 
+
+Soheila Farokhi ∗
+
+Utah State University 
+
+soheila.farokhi@usu.edu 
+
+Kelvyn Bladen Utah State University 
+
+kelvyn.bladen@usu.edu 
+
+Hamid Karimi Utah State University 
+
+hamid.karimi@usu.edu 
+
+Kevin R. Moon Utah State University 
+
+kevin.moon@usu.edu 
+
+Abstract 
+
+Keywords: Graph Neural Networks, Tabular Data, Random Forests, Graph Construction, Rep-resentation Learning 
+
+## 1 Introduction 
+
+Graphs are essential for modeling complex relationships, analyzing networks, and offering versatile representations that capture diverse data structures [Cheng et al., 2024, Chen et al., 2025, Aumon et al., 2025, Kheiri et al., 2023, Kerby et al., 2024, Karimi et al., 2023, Correa et al., 2023, Moore et al., 2022, Javadi et al., 2024, Rhodes et al., 2023a, Moon et al., 2021, Boomari and Farokhi, 2020, Duque et al., 2023, Maaten and Hinton, 2008, Moon et al., 2019]. Graph Neural Networks (GNNs) [Zhou et al., 2020] directly process graph-structured data using the relational information encoded in a graph topology. GNNs excel in tasks such as node classification, link prediction, and graph classification across various domains such as social networks [Karimi et al., 2019, Farokhi et al., 2024], biology [Li et al., 2021], and education [Farokhi et al., 2023, Yaramala et al., 2024, Karimi et al., 2020]. Their scalability, efficiency, and versatility make them invaluable for learning from large-scale graph datasets and solving a wide range of real-world problems efficiently and effectively. However, not all types of data possess an explicit graph structure, particularly tabular data which is ubiquitous in the real world. Unlike graph-structured data, which explicitly encodes relationships between entities using nodes and edges, tabular data often lacks such explicit relational information. Instead, tabular datasets are commonly assumed to be independent and identically distributed (i.i.d.), meaning that each observation is drawn from the same underlying distribution and is independent of other observations. Nevertheless, studies have shown that breaking this assumption and creating explicit links (edges) between records – i.e., representing the tabular data in graph form – can be beneficial, enabling the use of GNNs to improve downstream task performance such as credit loan classification [Li et al., 2023]. 
+
+> ∗Co-first authors and equal contributions.
+
+1   
+
+> arXiv:2602.24224v1 [cs.GR] 27 Feb 2026 Dataset Random Forest Adjacency Matrix Graph
+
+Figure 1: An overview of the proposed method (RF-GNN). A random forest is first trained on the tabular data. Pairwise proximities are extracted from the random forest and then converted to an adjacency matrix, which is used as input to a GNN. In this paper, we introduce RF-GNN, a method aimed at improving the performance of tradi-tional machine learning methods by transforming tabular data into graph-structured data, which is used as input to a GNN. Figure 1 shows an overview of our approach. Specifically, we propose using Random Forest (RF) proximities to construct a graph. Random forest proximities offer advantages over other similarity measures like Jaccard and cosine similarity, as well as kernel methods like RBF. RF proximities can handle heterogeneous data (e.g. a mixture of categorical and continuous data), capture nonlinear relationships, and perform automatic feature selection, enhancing model robustness and interpretability. Their ensemble nature provides robustness to noise and outliers, making them suitable for real-world datasets. In addition, RF proximities incorporate informa-tion about the supervised task into the graph, which is not as straightforward for other common approaches. Following the calculation of RF proximity values, we apply a threshold to these values to con-struct an adjacency matrix , effectively capturing the relationships between samples and facilitating the generation of pseudo-graphs based on the specified threshold. This adjacency matrix is then used as input to a GNN. We present extensive experimental results on 36 different datasets that showcase promising outcomes. These results suggest that converting tabular data into a graph has the potential to augment the efficacy of conventional machine learning algorithms, particularly when an optimal threshold is carefully selected. In summary, our contributions are as follows: 
+
+• We introduce a novel, general method based on RF proximities that transforms tabular data into a graph structure for use in a GNN for supervised learning tasks. 
+
+• We conduct extensive experiments on 36 benchmark classification datasets encompassing a wide range of problems, dataset sizes, and features. 
+
+• Our method, RF-GNN, achieves up to a 0.51 improvement in the F1-score over traditional machine learning algorithms, including the original RF that was used to construct the prox-imities. RF-GNN consistently performs on par with or surpasses the current state of the art, including an alternative approach to applying a GNN to tabular data. This indicates that combination of an RF with a GNN results in a machine learning algorithm that is more powerful than either an RF or GNN on their own. The remainder of this paper is organized as follows: in Section 2, we review related research in this area. Section 3 presents the background, followed by the formal problem statements and notations in Section 4. In Section 5, we describe the proposed method in detail. Section 6 is dedicated to experiments and discussions. Finally, we conclude the paper in Section 7 and suggest future directions. 22 Related Work 
+
+With graph representation learning gaining significant popularity in recent years, there have been numerous efforts to represent tabular data in graph form and apply graph embedding techniques for downstream classification or regression tasks. A non-exhaustive collection of such methods, with varying degrees of code availability, is documented in the community-curated awesome-GNN4TDL 
+
+repository 1. Supervised graph structure learning methods, often referred to as Deep Graph Learn-ing (DGL), have been explored in several studies [Chen et al., 2020, Franceschi et al., 2019, Li et al., 2020, Zhu et al., 2021]. These approaches use GNNs to construct and refine the graph topology. They parameterize the adjacency matrix using various models, such as probabilistic models [Franceschi et al., 2019, Veliˇ ckovi´ c et al., 2018], full parameterization models [Wang et al., 2021], or metric learning models [Chen et al., 2020, Fatemi et al., 2021]. Further, they optimize both the adjacency matrix and GNN parameters through downstream task optimization. Subse-quently, unsupervised DGL methods have emerged, such as the one proposed by Liu et al. [2022], which operates without relying on label information, thereby mitigating potential biases in learned edge distributions. However, these approaches prioritize learning improved graphical structures over directly converting tabular data into graphs. IDGL (Iterative Deep Graph Learning) [Chen et al., 2020] employs a weighted cosine similarity to refine graph learning iteratively, enhancing both the graph structure and node embeddings. While they improve GNN learning by refining noisy graphs and introducing graph structures to non-graphical data, direct conversion of tabular data into graph form is not their focus. On the other hand, some methods focus on constructing graphs by labels. Rocheteau et al. [2021] proposed linking patients with similar diagnoses in a graph to predict outcomes using an LSTM and GNN. However, its reliance on diagnosis outcomes for graph construction limits its generality. Additionally, Li et al. [2024] listed numerous methodologies tailored to tabular datasets, some involving direct or indirect graph construction techniques like k-nearest neighbors (NN) and similarity measurement. Yet, model effectiveness crucially hinges on selecting suitable k values and similarity measures. The same issue persists in Kang [2021], which used kNN to construct graphs. Moreover, most of these methods rely on unsupervised graph construction, which may be less informative than supervised alternatives [Rhodes et al., 2023b]. In summary, existing studies still lack a general and straightforward approach with nonre-strictive assumptions that can directly convert tabular data into a graph and apply GNNs for downstream tasks. 
+
+## 3 Background 
+
+In this section, we review the foundational methodologies that underpin our study, including RFs and RF proximities. 
+
+Random Forests [Breiman, 2001, Breiman et al.] are ensemble learning methods that con-struct a collection of decision trees using bootstrap sampling. For each tree, a bootstrap sample is drawn with replacement from the training data. Samples that are selected in the bootstrap sample to train a given tree are referred to as in-bag samples, while the remaining samples, which are not selected for training, are referred to as out-of-bag (OOB) samples. On average, approxi-mately 63 .2% of the training samples are in-bag for any given tree, with the remainder serving as out-of-bag observations. RFs are widely recognized as robust predictors [Ho, 1995]. They typically perform well “out of the box” as they tend to require little to no tuning, especially for classification.  
+
+> 1See https://github.com/Roytsai27/awesome-GNN4TDL
+
+3They are adapted for both classification and regression tasks, offer straightforward parallelization, accommodate mixed variable types (continuous and categorical), remain unaffected by monotonic transformations, demonstrate resilience to outliers, scale adeptly to datasets of varying sizes, handle missing values effectively, capture non-linear interactions, and exhibit robustness to noise variables. 
+
+Random Forest Proximity : Random forests naturally generate pair-wise proximity measures based on the partitioning space of their constituent decision trees. Several RF proximity measures exist. The original proximity measure was defined by Leo Breiman as the proportion of trees in which observations share the same terminal node [Breiman and Cutler, 2001]. This encodes a supervised similarity measure, leveraging the optimized splitting variable values for the task at hand. Used in various applications such as data visualization [Pang et al., 2006, Finehout et al., 2007, Rhodes et al., 2021, 2023a], outlier detection [Pang et al., 2006, Nesa et al., 2018], and data imputation [Pantanowitz and Marwala, 2009, Kokla et al., 2019, Shah et al., 2014], RF proximities extend many unsupervised problems to a supervised context effectively. A more robust proximity metric called Random Forest-Geometry- and Accuracy-Preserving proximities (RF-GAP) was introduced in Rhodes et al. [2023b]. The proximity-weighted sum (re-gression) or majority vote (classification) using RF-GAP precisely replicates the out-of-bag random forest prediction, thus capturing the data geometry learned by the model. It outperforms the origi-nal random forest proximities in tasks such as data imputation, outlier detection, and visualization. 
+
+## 4 Problem Statement 
+
+Let D = {(x1, y 1), (x2, y 2), . . . , (xN , y N )} be the given tabular dataset, where xi ∈ Rd are the data points and yi ∈ N0 are the labels. For each dataset, we use c ≥ 2 to indicate the number of classes. We use X to represent all data points, i.e. X = {x1, x2, . . . , xN } and Y to represent labels, i.e. 
+
+Y = {y1, y 2, . . . , y N }. Our objective is to first develop a model f (·) that, given a tabular dataset D,constructs a graph where data points serve as nodes and edges between these nodes indicate that the data points exhibit high similarity. We can write this as: 
+
+A = f (X , Ytrain ), (1) where X is defined above, Ytrain is a subset of labels Y chosen for training model f (·), and A is the adjacency matrix for the resulting graph. Then we employ a Graph Neural Network (GNN) that, given the above adjacency matrix, node features X , and target labels Ytrain learns to predict labels of test data points Ytest . The model’s predictive function can be mathematically represented as follows: ˆyi = ϕ(A, X , Ytrain ), (2) where ˆ yi ∈ Rc is the vector that represents the estimated probability of data point xi belonging to each possible class, and ϕ represents any GNN model that is designed for node classification. 
+
+## 5 The Proposed Method (RF-GNN) 
+
+In this section, we detail RF-GNN, a novel approach that combines the robust feature extraction capabilities of random forests with the dynamic relational modeling strength of GNNs. Figure 2 illustrates our proposed method. RF-GNN first transforms tabular data into a structured graph format, described in Section 5.1. In Section 5.2, we elaborate on how the graph-structured data are processed using Graph Convolutional Networks (GCNs). 4𝒳    
+
+> Random
+> Forest
+> Train
+> Apply x!x"
+> x"x!
+> x"x!
+> Tree 1
+> Tree 2
+> Tree 3
+
+P =
+
+⋯
+
+⋮ 𝑝 (𝑖 , 𝑗 ) ⋮
+
+⋯                          
+
+> 𝑝 𝑖 ,𝑗 =1
+> 30+1+1=2
+> 3
+> 𝑝 𝑖 ,𝑗 =1
+> 𝑇 -
+> #$%
+> &
+> 𝕀 (𝑗 ∈𝑙 "𝑡 )
+> Thresholding
+> 𝐴 =𝑃 ≥𝛼
+> Graph G
+> Adjacency Matrix
+> GNN Predict
+
+Figure 2: The workflow of our proposed method (RF-GNN), which uses a random forest to learn a graph from tabular data. The graph structure is then used as input to a GNN for final prediction. 
+
+5.1 Graph Construction 
+
+To leverage graph embedding techniques, we construct a graph that captures the similarity between instances in a tabular dataset using RF proximities. The original proximity measure proposed by Breiman Breiman and Cutler [2001] quantifies the similarity between pairs of data points based on their co-occurrence in the same terminal node (leaf) across multiple decision trees within a random forest model. High proximity indicates that data points are “close” or “similar” within the forest’s decision-making context, providing insights into relationships in the feature space. This method is useful for tasks such as cluster identification and outlier detection [Rhodes et al., 2023b] and as a foundation for other machine-learning models. We begin by performing a 5-fold cross-validation grid search on the training set to identify an optimal Random Forest (RF) model. Specifically, we tune the number of trees ( n estimators 
+
+∈ { 50 , 100 , 200 , 500 , 700 , 1000 }), the minimum number of samples required to split an internal node (min samples split ∈ { 2, 5, 10 }), and the minimum number of samples required at a leaf node (min samples leaf ∈ { 1, 20 , 50 , 80 , 100 , 150 , 200 , 300 , 500 }). After selecting the best model, we fit it to the training data. Then, we apply the model to the whole dataset, which applies the trees in the forest to all data samples and returns leaf indices. In other words, for each data point x ∈ X and for each tree in the forest, this method returns the index of the leaf that x ends up in each tree without fitting the model to the whole data. The original RF proximity between observations i and j is computed as follows: 
+
+pOr (i, j ) = 1
+
+T
+
+> T
+
+X
+
+> t=1
+
+1(j ∈ li(t)) , (3) where T represents the number of trees, li(t) are the indices of observations in the same leaf as 
+
+xi in tree t, and 1(·) is the indicator function. This equation determines the proportion of trees 5where observations i and j share the same terminal node. For instance, in Figure 2, p(i, j ) = 23 ,indicating xi and xj appear in the same leaf nodes in two trees out of the three decision trees (Tree 2 and Tree 3). We also provide two alternative RF proximity measures. One is called the OOB Proximity [Liaw et al., 2002, Hastie, 2001], which is defined as 
+
+pOOB (i, j ) = 
+
+P 
+
+> t∈Si
+
+1(j ∈ O(t) ∩ vi(t)) 
+
+P 
+
+> t∈Si
+
+1(j ∈ O(t)) , (4) where O(t) denotes the set of indices of the observations that are out-of-bag in tree t, Si is the set of trees for which observation i is out-of-bag, and vi(t) denotes the terminal node of i in tree t. In other words, this proximity measures the proportion of trees in which observations i and j reside in the same terminal node, both being out-of-bag. While random forest proximities have been used as a measure of similarity between observations, both the original and the OOB definitions exhibit drawbacks. The original definition computes proximities using all observations without considering whether they were in-bag or OOB. Since trees are grown to purity, in-bag points from different classes are necessarily separated into different terminal nodes, which artificially inflates class separation. As an example, suppose there are two Blue points ( x1, x 2) and two Red points ( x3, x 4). Blue–Red pairs always receive proximity zero from the trees in which they are both in-bag, exaggerating the distinction between classes even if the points are close in the feature space. The OOB definition attempts to correct this by using only observations that were OOB for a given tree. But this approach has two key limitations. First, it excludes in-bag data entirely, despite the fact that random forest predictions are built from in-bag votes or averages. Second, it does not account for the number of in-bag samples per leaf, unlike the weighted majority voting used in prediction. In the toy example, x1 and x2 (both Blue) never co-occur as OOB samples and therefore appear less similar than they should, while leaves with very different training sample sizes are treated equivalently. As a result, neither proximity definition faithfully captures the geometry or predictive behavior learned by the forest. The second alternative proximity measure that we adopt in this work is the RF-GAP proposed by Rhodes et al. [2023b]. Let B(t) denote the multiset of bootstrap (in-bag) indices for tree t,which may contain repeated entries. We define Ji(t) as the set of in-bag observations that share the same terminal node with observation i in tree t, i.e., Ji(t) = B(t) ∩ vi(t). The corresponding multiset of in-bag observations, including repetitions, is denoted by Mi(t). For each j ∈ Ji(t), let 
+
+cj (t) be the multiplicity of j in B(t). Then, for two observations i and j, their RF-GAP proximity is defined as 
+
+pGAP (i, j ) = 1
+
+|Si|
+
+X
+
+> t∈Si
+
+cj (t) · 1(j ∈ Ji(t)) 
+
+|Mi(t)| , (5) where Si is the collection of trees in which i is out-of-bag. In words, the proximity between observations i and j is computed as a weighted average across trees, where the contribution of j
+
+depends both on its multiplicity in the bootstrap sample and the reciprocal of the number of in-bag observations that share a terminal node with i. Intuitively, RF-GAP adjusts proximities so that they better reflect the geometry learned by the forest while also preserving the predictive behavior, by weighting co-occurrences according to how strongly j was represented during training. However, as RF-GAP proximities are computed using weighted sums of training points, their test-test proximity is inherently zero. To address this limitation, we adopted a Markov-diffusion–based approach. Specifically, let Ptest,train and Ptrain,test denote the ntest × ntrain and ntrain × ntest cross-6proximities, respectively. We construct the missing ntest × ntest proximity matrix as: 
+
+Ptest,test = Ptest,train Ptrain,test .
+
+This formulation can be interpreted as a diffusion process in which similarities between test samples are inferred indirectly via their shared relationships with the training set. Intuitively, two test points are considered close if they are both strongly connected to similar training points. This construction preserves the geometry encoded by the training proximities while extending the proximity notion to unseen test data, ensuring that the resulting graph structure remains coherent and expressive for downstream GNN tasks. Using one of Equations 3 - 5, we calculate the proximity between all pairs of points, resulting in a proximity matrix P ∈ RN ×N where Pi,j = p(i, j ). Using P directly as the adjacency matrix results in a highly dense (or fully connected) graph, which would negatively impact the performance of GNNs and increase both storage and computational complexity. Thus we select a threshold α
+
+to transform the matrix P into a binary adjacency matrix A ∈ R{0,1}:
+
+A = P ≥ α. (6) Thus, A can serve as the adjacency matrix for an unweighted graph with nodes as data points xi
+
+and edges representing that the random forest proximity exceeds the threshold α. In Section 6.5, we analyze the effect and distribution of this threshold. In our experiments, none of the three proximity measures exhibited a universal advantage over the others in terms of performance. Thus the choice of which proximity measure to use to construct the graph is left as a hyperparameter. 
+
+5.2 Graph Neural Network 
+
+By transforming tabular data into a graph format, we redefine our initial classification problem as a node classification task. GNNs have proven highly effective in this domain by exploiting both node features and their interconnections within the graph [Kipf and Welling, 2016, Velickovic et al., 2017, Hamilton et al., 2017]. In particular, GCNs harness the graph’s topology to aggregate and refine features from adjacent nodes [Kipf and Welling, 2016]. This approach allows nodes to integrate information from their immediate and extended neighborhood, adapting the principles of convolutional neural networks to graph data [O’shea and Nash, 2015]. As a result, GCNs are proficient at handling various graph-related tasks, including node classification, graph classification, and link prediction. In the GCN framework, multiple graph convolutional layers are used for neighborhood aggre-gation. Initially, at the 0-th layer, a node’s embedding vector, or latent representation, is set to its feature vector. For instance, for node i corresponding to data point xi, we define h(0)  
+
+> i
+
+= xi, where 
+
+h(0)  
+
+> i
+
+represents the embedding of node i at the 0-th layer. In subsequent layers l, within a GCN consisting of L layers, the embeddings of nodes are updated through a weighted average of the embeddings of their neighbors, combined with the node’s own previous layer’s embedding, followed by the application of a non-linear activation function. This process is mathematically expressed as: 
+
+h(l+1)  
+
+> i
+
+= σ
+
+Wl
+
+X 
+
+> j∈N(i)
+
+h(l)
+
+> j
+
+|N (i)| + Blh(l)
+
+> i
+
+ , ∀l ∈ { 0, . . . , L − 1}, (7) where σ denotes a non-linear function such as the Rectified Linear Unit (ReLU), and Wl and Bl are learnable parameters. Wl is the weight matrix at layer l applied to the neighbors’ embeddings, Bl is 7the weight matrix applied to the node’s own embedding from the previous layer, the neighborhood 
+
+N (i) of node i is defined by the adjacency matrix P constructed from Random-Forest-induced proximities, and |N (i)| indicates the count of these neighbors. After processing through L layers, the final embedding of node i is a k-dimensional vector given by h(L) 
+
+> i
+
+.After applying the GCN, the final embedding of each node or data point is used to predict its label. For this purpose, we use a two-layer Multilayer Perceptron (MLP), also known as a fully connected network. This MLP takes the final node embedding as input and predicts the probabilities of the node belonging to each class. The mathematical formulation of the MLP operations is given by: 
+
+a = ReLU( Win · h(L) 
+
+> i
+
++ ba), (8) ˆyi = Wout · a + bo. (9) In Equation 8, Win and ba are learnable parameters. Win is the weight matrix for the input layer to the hidden layer, ba is the bias for the hidden layer, and a is the output of the hidden layer. In Equation 9, Wout and bo are learned by the model. Wout is the weight matrix connecting the hidden layer to the output layer, bo is the bias for the output layer, and ˆ yi is a c-dimensional vector representing the probability of data point xi belonging to each class. Finally, a softmax function is applied to ˆ yi to determine the final label. We used a cross-entropy loss function to train the model for classification. 
+
+## 6 Experiments 
+
+6.1 Datasets 
+
+We use datasets available through the OpenML 2 API in our experiments. Most of our datasets belong to OpenML-CC18 benchmark [Bischl et al., 2017], which comprises real-world classification datasets specifically curated for benchmarking machine learning algorithms. It is widely recognized and commonly used for tabular data classification. For our analysis, we selected 36 datasets, each featuring a mix of numerical and categorical attributes. These datasets are diverse in terms of the number of instances, number of features, number of classes, and their data sources. Table 1 details the statistics of these datasets. We partitioned the datasets into training and test sets following an 80:20 split ratio. 
+
+6.2 Baselines 
+
+We compare our model with the following baseline models: 
+
+6.2.1 Random Forest (RF) 
+
+For our experiments, we employed the Random Forest implementation provided by scikit-learn 3.
+
+6.2.2 XGBoost (XGB) 
+
+XGBoost is a highly efficient and flexible gradient boosting library that enhances the speed and performance of gradient-boosted trees. It is designed for scalability and handles large-scale data effectively. We employed the XGBoost Python package 4 in our experiments. 
+
+> 2https://www.openml.org/
+> 3https://scikit-learn.org/stable/
+> 4https://xgboost.readthedocs.io/en/stable/python/
+
+8Table 1: Dataset Statistics: N (# of instances), d (# of features), dcat (# of categorical features), 
+
+c (# of classes). 
+
+ID Name N d dcat c
+
+902 Sleuth Case 2002 147 6 4 21006 Lymphography 148 18 15 2955 Teaching Assistant Evaluation 151 5 2 2941 Low Birth Weight 189 9 7 21012 Nations’ Flags 194 28 26 2446 Cushing’s Syndrome 200 7 1 240710 Heart Disease 303 13 8 2915 Plasma Retinol 315 13 3 21167 “pc1 req” 320 8 1 240663 calendarDOW 399 32 20 5475 German Political System 400 5 4 41498 South Africa Heart Disease 462 9 1 2853 Boston Housing Data 506 13 1 2825 Corrected Boston Housing Data 506 20 3 243757 Wisconsin Breast Cancer 569 30 0 240981 Australian Credit Approval 690 14 8 243942 Annealing 898 38 32 240705 Tokyo SGI Server Performance 959 44 2 231 German Credit 1 1000 20 13 244098 German Credit 2 1000 20 13 243255 Student Performance 1000 7 4 2983 Contraceptive Method Choice 1473 9 7 223 Contraceptive Method Choice (Multi) 1473 9 7 3720 Abalone Age Prediction 4177 8 1 21557 Abalone Age Prediction (Multi) 4177 8 1 340701 Churn 5000 20 4 2182 Landsat Satellite 6430 36 0 6300 Isolated Letter Speech Recognition 7797 617 0 26 1478 Human Activity Recognition 10299 561 0 61053 Software Defect Prediction 10885 21 0 232 Pen-Based Recog of Handwritten Digits 10992 16 0 10 4534 Phishing Websites 11055 30 30 26 Letter Image Recognition 20000 16 0 26 1486 Nomao (Search engine of places) 34465 118 29 21461 Portuguese Bank Marketing 45211 16 9 21590 Adult (Census Income) 48842 14 8 2
+
+6.2.3 LightGBM (LGBM) 
+
+LightGBM is a fast, distributed gradient boosting framework that uses tree-based learning algo-rithms. It is optimized for speed and memory efficiency, using advanced techniques like histogram-based splits. In our experiments, we used the LightGBM python package 5.
+
+> 5https://lightgbm.readthedocs.io/en/latest/Python-Intro.html
+
+96.2.4 Gradient Boosting (GB) 
+
+Gradient Boosting constructs a predictive model through a sequential ensemble of weak models, typically decision trees. It optimizes arbitrary differentiable loss functions, making it versatile for various regression and classification problems. For our experiments, we used the Gradient Boosting implementation available in scikit-learn 6.
+
+6.2.5 Multi-layer Perceptron (MLP) 
+
+MLP is a type of feedforward artificial neural network with multiple layers, using backpropagation for training. It excels in complex pattern recognition by modeling non-linear relationships between inputs and outputs. For our experiments, we implement an MLP with two hidden layers using PyTorch 7. The hidden layer dimensions are set to [64 , 128] and [128 , 256] for different model configurations. 
+
+6.2.6 Interaction Network Contextual Embedding (INCE) 
+
+In addition to the above ML algorithms, we compare RF-GNN with the latest relevant method from the literature. In INCE [Villaiz´ an-Vallelado et al., 2024], both categorical and continuous features are projected individually into a common dense latent space. The resulting feature em-beddings are then structured into a fully connected graph, augmented with an additional virtual node. Subsequently, a GNN is employed to model the relationships among all nodes, including the original features and the virtual node, thereby enhancing their representations. The enhanced representation of the virtual node is then input into the final classifier or regressor. For this model, we used the authors’ implementation available on GitHub 8.
+
+6.3 Experimental Results 
+
+For each model, we employed grid search to find the best hyper-parameters. We repeated each experiment 5 times with different random seeds and recorded the mean and standard deviation of weighted F1-scores. The experiments were conducted on a system with an AMD EPYC 7513 CPU, 4 NVIDIA RTX A4000 GPUs, and 1 TB of RAM. In RF-GNN, we used PyTorch to implement the GCN component and scikit-learn for the random forest. Since RF-GNN requires a proximity threshold, for each dataset, we experimented with 51 evenly spaced proximity thresholds α ranging from 0 to 1 (inclusive). We then picked the best proximity threshold and model hyper-parameters using 5-fold cross-validation on the training set and applied the best model on the test set. Table 2 and Table 3 shows the results of our experiments. Based on these results, we make the following observations: 
+
+• RF-GNN Our method demonstrates strong empirical performance, achieving the top rank on 18 out of 36 datasets and the second rank on an additional 10, leading to the best overall average rank. This highlights the effectiveness of integrating Random Forest proximities with GNNs, which successfully capture structural relationships within tabular data and thereby enhance predictive accuracy. 
+
+> 6https://scikit-learn.org/stable/
+> 7https://pytorch.org/
+> 8https://github.com/MatteoSalvatori/INCE
+
+10 Table 2: Comparison of baseline models and proposed methods using weighted F1-score across datasets. Proposed methods are shown in blue; best and second-best results are highlighted in red and orange. RF-Prox, RF-GAP, and OOB denote RF-GNN variants constructed with different proximity matrices, and RF-GNN reports the best-performing variant per dataset. Standard devi-ations over multiple seeds are reported in Appendix A. 
+
+Dataset RF XGB GB LGBM MLP INCE RF Prox RFGAP OOB RF GNN 
+
+902 0.827 0.782 0.745 0.812 0.800 0.833 0.845 0.813 0.816 0.845 1006 0.904 0.871 0.875 0.876 0.873 0.893 0.947 0.920 0.901 0.947 955 0.787 0.777 0.732 0.606 0.590 0.822 0.857 0.869 0.856 0.869 941 0.764 0.693 0.756 0.709 0.501 0.812 0.784 0.783 0.785 0.785 1012 0.421 0.407 0.412 0.426 0.430 0.686 0.642 0.732 0.738 0.738 446 0.879 0.895 0.905 0.901 0.715 1 1 0.975 0.975 140710 0.796 0.741 0.765 0.755 0.645 0.872 0.832 0.823 0.822 0.832 915 0.556 0.586 0.589 0.579 0.447 0.572 0.729 0.621 0.619 0.729 1167 0.339 0.323 0.346 0.280 0.635 0.629 0.482 0.695 0.685 0.695 40663 0.675 0.590 0.673 0.612 0.498 0.633 0.653 0.623 0.619 0.653 475 0.354 0.403 0.437 0.371 0.321 0.414 0.440 0.453 0.450 0.453 1498 0.531 0.573 0.559 0.573 0.651 0.752 0.638 0.781 0.787 0.787 825 0.859 0.831 0.841 0.841 0.737 0.868 0.901 0.807 0.809 0.901 853 0.909 0.899 0.905 0.905 0.750 0.877 0.915 0.829 0.820 0.915 43757 0.972 0.974 0.963 0.968 0.937 0.979 0.977 0.977 0.978 0.978 40981 0.916 0.911 0.902 0.910 0.800 0.930 0.932 0.933 0.932 0.933 43942 1 1 0.997 1 1 1 0.999 0.996 140705 0.945 0.941 0.945 0.946 0.769 0.940 0.955 0.933 0.935 0.955 31 0.832 0.831 0.826 0.828 0.577 0.756 0.827 0.577 0.580 0.827 43255 0.894 0.874 0.885 0.883 0.863 0.791 0.886 0.888 0.891 0.891 44098 0.832 0.831 0.826 0.828 0.578 0.719 0.829 0.577 0.573 0.829 983 0.641 0.624 0.641 0.631 0.674 0.729 0.664 0.726 0.725 0.726 23 0.526 0.530 0.521 0.517 0.484 0.484 0.546 0.530 0.531 0.546 720 0.773 0.773 0.772 0.769 0.728 0.788 0.796 0.790 0.792 0.796 1557 0.658 0.656 0.652 0.653 0.561 0.672 0.668 0.658 0.657 0.668 40701 0.870 0.871 0.866 0.883 0.798 0.885 0.885 0.874 0.874 0.885 182 0.918 0.919 0.924 0.917 0.829 0.873 0.917 0.912 0.910 0.917 300 0.938 0.952 0.948 0.962 0.939 0.698 0.964 0.941 0.939 0.964 1478 0.976 0.991 0.990 0.992 0.944 0.924 0.982 0.976 0.977 0.982 1053 0.329 0.292 0.262 0.242 0.738 0.770 0.758 0.734 0.735 0.758 32 0.990 0.989 0.992 0.990 0.950 0.980 0.993 0.994 0.994 0.994 4534 0.976 0.969 0.970 0.969 0.914 0.969 0.971 0.974 0.975 0.975 6 0.966 0.964 0.966 0.965 0.690 0.775 0.939 0.863 0.864 0.939 1486 0.979 0.980 0.978 0.977 0.933 0.954 0.966 0.595 0.595 0.966 1461 0.510 0.559 0.544 0.544 0.847 0.910 0.892 0.897 0.897 0.897 1590 0.683 0.714 0.719 0.713 0.731 0.818 0.764 0.657 0.658 0.764 # 1st rank 6 2 1 2 1 10 11 5 3 18 # 2nd rank 2 4 3 1 0 4 8 5 10 10 Model rank 3 4 5 6 7 2 111 • INCE is the second-best model with an average rank of 2, leading in performance on 10 datasets and achieving second place on 4 datasets. Its robust performance highlights the benefits of graph embedding techniques for tabular data classification. 
+
+• The standard Random Forest emerges as a strong contender, holding a close third position with an average rank of 3. It consistently performs well, emphasizing its reliability as a robust method for diverse datasets. 
+
+• The superior performance of RF-GNN and INCE across the majority of the datasets (28 out of 36) illustrates their particular effectiveness in leveraging graph-based approaches to improve predictions in tabular datasets. 
+
+• While RF-GNN generally outperforms INCE , it shows notably higher scores on datasets such as 43255 and 6, indicating significant improvements. Conversely, INCE demonstrates better results than RF-GNN on datasets such as 1498 and 983, suggesting that the choice between these models may depend on specific dataset characteristics or the nature of the data relationships captured by each model. 
+
+• Within the RF-GNN framework, three proximity definitions are available as selectable param-eters: the original proximity (RF Prox), RF-GAP (RFGAP), and the out-of-bag proximity (OOB). Overall, the original proximity achieves the highest average predictive performance across datasets (Table 3), and there are several datasets where RF Prox substantially outper-forms RFGAP or OOB (e.g., datasets 915, 825, 853, and 31). At the same time, there are also multiple datasets in which RFGAP or OOB clearly outperform the original proximity (e.g., datasets 1012, 1167, 1498, and 983), indicating that no single proximity uniformly dominates across all settings. 
+
+• On average, RFGAP and OOB exhibit nearly identical predictive performance, with only a negligible mean difference between the two (Table 3). While both alternatives achieve slightly lower mean performance than RF Prox, their variance across datasets is comparable, and their relative behavior is highly consistent. Consequently, average performance alone does not meaningfully distinguish between RFGAP and OOB. 
+
+• In practice, when selecting proximities, we recommend always including the original RF proximity, as it achieves the highest average predictive performance across datasets. To limit computational cost while still allowing flexibility, one may optionally include either RFGAP or OOB as an alternative proximity. Since RFGAP and OOB exhibit nearly identical predictive accuracy, we slightly favor RFGAP due to its principled geometric construction and its consistent empirical behavior. 
+
+6.4 Comparison with other Proximity Measures 
+
+In this section, we compare the usage of the RF-based proximities with other similarity measures in a GNN. To evaluate the efficacy of the RF proximities compared to such measures, we opted to use cosine, Jaccard, and RFB kernel measures where for each pair of samples xi and xj , they will yield a similarity scalar between 0 and 1 based on the features of these two samples. The following are mathematical formulations of these similarity measures: 
+
+Cosine (xi, x j ) = xi · xj
+
+|| xi|| × || xj || , (10) 12 Table 3: Summary statistics of predictive performance across proximity constructions. Top rows report mean performance differences; bottom rows report absolute performance (mean ± standard deviation) across datasets. Mean Std. 
+
+Average performance differences 
+
+RFGAP – RF Prox -0.029 0.102 OOB – RF Prox -0.030 0.102 RFGAP – OOB 0.001 0.005 
+
+Absolute performance 
+
+RF Prox 0.827 0.151 RFGAP 0.798 0.149 OOB 0.797 0.149 where · is the inner product operation, and || · || is the Euclidean norm operation. 
+
+Jaccard (xi, x j ) = 
+
+Pdk=1 min( xi,k , x j,k )
+
+Pdk=1 max( xi,k , x j,k ) , (11) where xi,k is the k-th element in the d-dimensional vector xi.
+
+RBF (xi, x j ) = exp  −γ∥xi − xj ∥2 , (12) where || · || is the Euclidean norm operation and γ is a hyper-parameter that determines the bandwidth of the kernel. We set the value of γ to 0 .01 in our experiments. We also standardized the RBF value to be in the range [0 , 1]. We compare the weighted F1-score of RF-GNN with GNNs trained on graphs constructed using the aforementioned similarity measures across 5 different datasets 9. We employ the same training scheme, constructing proximity matrices for the dataset via all these similarity measures and then applying a threshold to construct graphs for GNNs. The results are shown in Figure 3. Each experiment was executed 5 times with different random seeds, and the mean and standard deviation of weighted F1-scores are reported. We make the following observations. 
+
+• Our experimental results in Figure 3 show that RF-GNN consistently outperforms GNNs trained on graphs constructed from other proximity measures. 
+
+• Unlike traditional proximity measures that solely focus on the feature space, RF proximities consider both features and labels, providing a more comprehensive understanding of sam-ple similarity and enhancing performance in tasks where label information is informative or critical. 
+
+• RF proximities, trained within the context of a random forest model, inherently prioritize the most informative features with respect to the supervised task during the learning process. 
+
+• RF proximities tends to be less sensitive to outliers compared to other similarity measurements due to the ensemble nature of the Random Forest algorithm and the way proximities are calculated within it. 
+
+> 9We obtained similar results for other datasets.
+
+13 902 941 23 6 182 Dataset      
+
+> 0.2
+> 0.4
+> 0.6
+> 0.8
+> 1.0 Weighted  F1-score
+> Similarity metric
+> RF -GNN Cosine Jaccard RBF Kernel
+
+Figure 3: Effect of using different proximity measures on model performance on 5 different datasets in terms of weighted F1-score. The RF proximity gives the best performance. 
+
+6.5 Threshold Sensitivity Analysis 
+
+We conducted a sensitivity analysis to determine the impact of various proximity thresholds α on the performance of RF-GNN. This analysis was performed across five of the datasets in Table 1, using 51 evenly spaced thresholds ranging from 0 to 1. For each threshold, experiments were repeated five times, and both the mean and standard deviation of the weighted F1-scores were recorded. The results are illustrated in Figure 4. The analysis indicates that, apart from some minor variations between seeds, the performance for datasets generally stabilizes for α values between 0.4 and 0.6. However, dataset 941 shows fluc-tuating performance at certain thresholds, suggesting variable sensitivity to the proximity threshold setting. Additionally, we examined the distribution of the optimal proximity thresholds across all 36 datasets by averaging the best-performing thresholds from each of our 5 experiments. The resulting histogram and Kernel Density Estimate (KDE) plot, shown in Figure 5, demonstrate that optimal 
+
+α values typically range from 0.1 to 0.5 with a peak around 0.3. This pattern indicates that moderately dense graph structures, which strike a balance between connectivity and noise, tend to yield the best performance in GNNs. 
+
+6.6 Dataset Attribute Analysis 
+
+While RF-GNN outperforms all other methods on average, there are a few instances where another method outperforms RF-GNN by at least a few percentage points (e.g. datasets 40710 and 1590). Here we investigate whether coarse dataset-level attributes help explain variations in predictive performance across methods. Specifically, we consider weighted F1-score as the dependent variable and the number of instances, number of features, number of classes, and number of categorical fea-tures as independent variables. Full regression results for all methods are reported in Appendix B. 14 Dataset ID: 902 Dataset ID: 941             
+
+> 0.65 0.70 0.75 0.80 0.85
+> Dataset ID: 6 Dataset ID: 182
+> 0.0 0.2 0.4 0.6 0.8 1.0 0.0 0.2 0.4 0.6 0.8 1.0
+> 0.86 0.88 0.90 0.92 0.94
+> Weighted F1−score  Dataset ID: 23
+> 0.0 0.2 0.4 0.6 0.8 1.0
+> 0.40 0.45 0.50 0.55
+
+Proximity Threshold ( α)Figure 4: Sensitivity analysis of RF-GNN performance across varying proximity thresholds α for five datasets (902, 941, 6, 182, and 23). The weighted F1-score is reported with error bars over repeated runs. Across most datasets, performance remains stable for threshold values in the range 
+
+α ∈ [0 .2, 0.4]. Dataset 941 exhibits relatively higher variability, indicating greater sensitivity to threshold selection. Overall, the results demonstrate that RF-GNN is robust to the edge-threshold hyperparameter within a moderate range. Here, we focus on the most informative and statistically significant findings, which are only present when considering the difference between RF-GNN models based on the original proximities and alternative RF proximities. 
+
+Difference-based proximity analysis. To better understand when alternative proximity con-structions are beneficial, we introduce difference-based regressions that model performance gaps between RF-GNN variants. In particular, we define: 
+
+• Diff RFGAP (+) and Diff RFGAP (−) as the positive and negative performance differences between RF-GNN constructed using RF-GAP proximity and the original RF proximity. 
+
+• Diff OOB (+) and Diff OOB (−) analogously capture the performance differences between RF-GNN using out-of-bag (OOB) proximity and the original RF proximity. The (+) models capture scenarios where the alternative proximity outperforms the original RF proximity, while the ( −) models capture cases where it underperforms. 
+
+Key findings. The most notable and statistically significant relationships emerge in the difference-based regressions and are summarized in Table 4. First, the number of instances exhibits a positive 15 0.0 0.2 0.4 0.6 0.8 1.0 
+
+> α
+> 0
+> 1
+> 2
+> 3
+> 4
+> 5
+> 6
+> 7
+> Frequency
+
+Figure 5: Distribution of optimal proximity thresholds α across 36 datasets, highlighting a concen-tration between 0.1 and 0.5. This range suggests that moderate graph density is optimal for GNN performance. Table 4: Summary of statistically significant relationships in difference-based proximity regressions. Positive coefficients indicate that the corresponding dataset attribute increases the magnitude of the performance difference. 
+
+Model Attribute Sign p-value Diff RFGAP( −) #Instances + 0.0106 Diff OOB( −) #Instances + 0.0094 Diff RFGAP(+) #Classes − 0.0346 Diff RFGAP(+) #Categorical Features − 0.0466 
+
+16 and significant effect in both Diff RFGAP( −) and Diff OOB( −). This indicates that as dataset size increases, deviations from the original RF proximity become increasingly detrimental, suggesting that the original RF proximity is particularly robust for larger datasets while alternative proximity definitions may introduce unnecessary noise. Second, Diff RFGAP(+) reveals significant negative effects for both the number of classes and the number of categorical features. This suggests that RF-GAP is more likely to outperform the original RF proximity in datasets with fewer classes and simpler categorical structure. As class complexity and categorical diversity increase, the advantage of RF-GAP diminishes. 
+
+Summary. Overall, while coarse dataset attributes have limited explanatory power for abso-lute model performance, the difference-based analysis reveals systematic patterns governing when alternative proximity constructions help or hinder RF-GNN. The original RF proximity demon-strates strong robustness across dataset scales, whereas RF-GAP and OOB proximities may be advantageous in more structured, lower-complexity settings. 
+
+## 7 Conclusion and Future Work 
+
+This work introduced RF-GNN, a general framework for enhancing tabular learning by convert-ing feature-based data into graph representations using Random Forest–derived proximities and applying Graph Neural Networks. By leveraging both RF-GAP and out-of-bag (OOB) proximity constructions, RF-GNN effectively captures higher-order relational structure that is typically in-accessible to conventional tabular models. Extensive empirical evaluation across 36 heterogeneous datasets demonstrated that RF-GNN consistently outperforms or matches strong baselines, includ-ing Random Forests, gradient boosting methods, multi-layer perceptrons, and recent representation-learning approaches. These results highlight the robustness and broad applicability of Random Forest–based graph construction as a bridge between tabular learning and graph-based inference. Our analysis further showed that RF-derived proximities provide a particularly effective in-ductive bias for graph construction, and that performance is sensitive to the choice of proximity threshold. While RF-GAP and OOB proximities mitigate several known issues of standard RF prox-imity measures—such as label leakage and biased co-occurrence counts—the experimental results suggest that the choice of RF proximity measure remains a critical design dimension in RF-GNN. Several promising directions for future work arise from this observation. One immediate exten-sion is the development of more principled and adaptive thresholding criteria. Rather than relying on fixed or heuristically chosen thresholds, future work could explore data-driven or optimization-based threshold selection, potentially guided by graph sparsity constraints, spectral properties, or downstream validation performance. Dynamic thresholding strategies that evolve during training may further improve stability and generalization. Another important avenue is refining how proximities are weighted within the constructed graph. While RF-derived similarities are powerful, they may over-amplify confident but biased tree predictions, particularly in regions of class imbalance or limited feature diversity. Alternative weighting schemes—such as uncertainty-aware reweighting, normalization based on node degree or local density, or attenuation functions that dampen extreme proximity values—could help mitigate over-exaggeration effects while preserving meaningful relational structure. Beyond proximity refinement, future work could investigate tighter theoretical connections be-tween Random Forest geometry and graph learning, as well as scalability improvements for very large datasets through approximate graph construction and parallelization. Exploring alternative GNN architectures, including attention-based or inductive models, may further enhance perfor-17 mance when combined with RF-based graphs. Finally, extending RF-GNN to settings involving temporal, sequential, or partially observed tabular data represents a natural and impactful direc-tion. Overall, RF-GNN establishes a flexible and interpretable pathway for integrating tree-based learning with graph neural networks, and opens multiple avenues for both theoretical development and practical deployment in complex tabular domains. 
+
+## Acknowledgements 
+
+This work was supported in part by the NSF under Grant 2212325. 
+
+## References 
+
+Xueqi Cheng, Catherine Yang, Yuying Zhao, Yu Wang, Hamid Karimi, and Tyler Derr. A com-prehensive analysis of social tie strength: Definitions, prediction methods, and future directions. 
+
+arXiv preprint arXiv:2410.19214 , 2024. Haozhe Chen, Andres Duque Correa, Guy Wolf, and Kevin R Moon. Data visualization using functional data analysis. In 2025 International Conference on Sampling Theory and Applications (SampTA) , pages 1–5. IEEE, 2025. Adrien Aumon, Shuang Ni, Myriam Lizotte, Guy Wolf, Kevin R Moon, and Jake Slater Rhodes. Random forest autoencoders for guided representation learning. In The Thirty-ninth Annual Conference on Neural Information Processing Systems , 2025. Kiana Kheiri, Muhammad Fawad Akbar Khan, Tyler Derr, and Hamid Karimi. An analysis of the dynamics of ties on twitter. In 2023 IEEE International Conference on Big Data (BigData) ,pages 5809–5817. IEEE, 2023. Thomas Kerby, Teresa White, and Kevin R Moon. Learning local higher-order interactions with total correlation. In 2024 IEEE 34th International Workshop on Machine Learning for Signal Processing (MLSP) , pages 1–6. IEEE, 2024. Hamid Karimi, Kaitlin Torphy Knake, and Kenneth A Frank. An analysis of diffusion of teacher-curated resources on pinterest. International Educational Data Mining Society , 2023. Andres F Duque Correa, Myriam Lizotte, Guy Wolf, and Kevin R Moon. Manifold alignment with label information. In 2023 International Conference on Sampling Theory and Applications (SampTA) , pages 1–6. IEEE, 2023. Delaney Moore, John Edwards, Hamid Karimi, Rajiv Khadka, and Paul Bodily. Temporal ab-stract syntax trees for understanding student coding thought process. In 2022 Intermountain Engineering, Technology and Computing (IETC) , pages 1–6. IEEE, 2022. Saeedeh Javadi, Atefeh Moradan, Mohammad Sorkhpar, Klim Zaporojets, Davide Mottin, and Ira Assent. Wiki entity summarization benchmark. arXiv preprint arXiv:2406.08435 , 2024. Jake S Rhodes, Adrien Aumon, Sacha Morin, Marc Girard, Catherine Larochelle, Elsa Brunet-Ratnasingham, Am´ elie Pagliuzza, Lorie Marchitto, Wei Zhang, Adele Cutler, et al. Gaining biological insights through supervised data visualization. bioRxiv , pages 2023–11, 2023a. 18 Kevin R Moon, Kumar Sricharan, and Alfred O Hero. Ensemble estimation of generalized mutual information with applications to genomics. IEEE Transactions on Information Theory , 67(9): 5963–5996, 2021. Hossein Boomari and Soheila Farokhi. Computing boundary cycle of a pseudo-triangle polygon from its visibility graph. In Topics in Theoretical Computer Science: Third IFIP WG 1.8 International Conference, TTCS 2020, Tehran, Iran, July 1–2, 2020, Proceedings 3 , pages 61–71. Springer, 2020. Andr´ es F Duque, Guy Wolf, and Kevin R Moon. Diffusion transport alignment. In International Symposium on Intelligent Data Analysis , pages 116–129. Springer, 2023. Laurens van der Maaten and Geoffrey Hinton. Visualizing data using t-sne. Journal of machine learning research , 9(Nov):2579–2605, 2008. Kevin R Moon, David Van Dijk, Zheng Wang, Scott Gigante, Daniel B Burkhardt, William S Chen, Kristina Yim, Antonia van den Elzen, Matthew J Hirn, Ronald R Coifman, et al. Visualizing structure and transitions in high-dimensional biological data. Nature biotechnology , 37(12):1482– 1492, 2019. Jie Zhou, Ganqu Cui, Shengding Hu, Zhengyan Zhang, Cheng Yang, Zhiyuan Liu, Lifeng Wang, Changcheng Li, and Maosong Sun. Graph neural networks: A review of methods and applications. 
+
+AI open , 1:57–81, 2020. Hamid Karimi, Tyler Derr, Aaron Brookhouse, and Jiliang Tang. Multi-factor congressional vote prediction. In Proceedings of the 2019 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining , pages 266–273, 2019. Soheila Farokhi, Arash Azizian Foumani, Xiaojun Qi, and Hamid Karimi. EDGE-UP: Enhanced Dynamic GNN Ensemble for Unfollow Prediction in Online Social Networks , volume 1 of Lecture Notes in Computer Science . Springer Cham, 2024. Rui Li, Xin Yuan, Mohsen Radfar, Peter Marendy, Wei Ni, Terrence J O’Brien, and Pablo M Casillas-Espinosa. Graph signal processing, graph neural network and graph learning on biological data: a systematic review. IEEE Reviews in Biomedical Engineering , 16:109–135, 2021. Soheila Farokhi, Aswani Yaramal, Jiangtao Huang, Muhammad Fawad Akbar Khan, Xiaojun Qi, and Hamid Karimi. Enhancing the performance of automated grade prediction in mooc using graph representation learning. In 2023 IEEE 10th International Conference on Data Science and Advanced Analytics (DSAA) , pages 1–10. IEEE, 2023. Aswani Yaramala, Soheila Farokhi, and Hamid Karimi. Navigating the data-rich landscape of online learning: Insights and predictions from assistments. In Proceedings of the 17th International Conference on Educational Data Mining , pages 321–331, 2024. Hamid Karimi, Tyler Derr, Jiangtao Huang, and Jiliang Tang. Online academic course performance prediction using relational graph convolutional neural network. International Educational Data Mining Society , 2020. Cheng-Te Li, Yu-Che Tsai, and Jay Chiehen Liao. Graph neural networks for tabular data learning. In 2023 IEEE 39th International Conference on Data Engineering (ICDE) , pages 3589–3592. IEEE, 2023. 19 Yu Chen, Lingfei Wu, and Mohammed Zaki. Iterative deep graph learning for graph neural net-works: Better and robust node embeddings. Advances in Neural Information Processing Systems ,33, 2020. Luca Franceschi, Mathias Niepert, Massimiliano Pontil, and Xiao He. Learning discrete structures for graph neural networks. 2019. Yaxin Li, Wei Jin, Han Xu, and Jiliang Tang. Deeprobust: A pytorch library for adversarial attacks and defenses. arXiv preprint arXiv:2005.06149 , 2020. Yanqiao Zhu, Weizhi Xu, Jinghao Zhang, Qiang Liu, Shu Wu, , and Liang Wang. Deep graph structure learning for robust representations: A survey. arXiv preprint arXiv:2103.03036 , 2021. Petar Veliˇ ckovi´ c, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Li` o, and Yoshua Bengio. Graph attention networks. International Conference on Learning Representations , 2018. Ruijia Wang, Shuai Mou, Xiao Wang, Wanpeng Xiao, Qi Ju, Chuan Shi, and Xing Xie. Graph structure estimation neural networks. pages 342–353, 2021. Bahare Fatemi, Layla El Asri, , and Seyed Mehran Kazemi. Slaps: Self supervision improves structure learning for graph neural networks. 2021. Yixin Liu, Yu Zheng, Daokun Zhang, Hongxu Chen, Hao Peng, and Shirui Pan. Towards unsuper-vised deep graph structure learning. pages 1392–1403, 2022. Emma Rocheteau, Catherine Tong, Petar Veliˇ ckovi´ c, Nicholas Lane, and Pietro Li` o. Predicting patient outcomes with graph representation learning. 2021. Cheng-Te Li, Yu-Che Tsai, Chih-Yao Chen, and Jay Chiehen Liao. Graph neural networks for tabular data learning: A survey with taxonomy and directions. 2024. S Kang. k-nearest neighbor learning with graph neural networks. Mathematics 2021, 9(8), 830 ,2021. Jake S. Rhodes, Adele Cutler, and Kevin R. Moon. Geometry- and accuracy-preserving random forest proximities. IEEE Transactions on Pattern Analysis and Machine Intelligence , pages 1–13, 2023b. doi: 10.1109/TPAMI.2023.3263774. Leo Breiman. Random forests, 2001. Leo Breiman, Adele Cutler, and J. R. Stevens. Random forests. Tin Kam Ho. Random decision forests. In Proceedings of 3rd international conference on document analysis and recognition , volume 1, pages 278–282. IEEE, 1995. Leo Breiman and Adele Cutler. Random forests. https://www.stat.berkeley.edu/breiman/ RandomForests/cchome.htm#prox , 2001. Herbert Pang, Aiping Lin, Matthew Holford, Bradley E Enerson, Bin Lu, Michael P Lawton, Eugenia Floyd, and Hongyu Zhao. Pathway analysis using random forests classification and regression. Bioinformatics , 22(16):2028–2036, 2006. Erin J Finehout, Zsofia Franck, Leila H Choe, Norman Relkin, and Kelvin H Lee. Cerebrospinal fluid proteomic biomarkers for alzheimer’s disease. Annals of Neurology: Official Journal of the American Neurological Association and the Child Neurology Society , 61(2):120–129, 2007. 20 Jake S Rhodes, Adele Cutler, Guy Wolf, and Kevin R Moon. Random forest-based diffusion information geometry for supervised visualization and data exploration. In 2021 IEEE Statistical Signal Processing Workshop (SSP) , pages 331–335. IEEE, 2021. Nashreen Nesa, Tania Ghosh, and Indrajit Banerjee. Outlier detection in sensed data using statisti-cal learning models for iot. In 2018 IEEE Wireless Communications and Networking Conference (WCNC) , pages 1–6. IEEE, 2018. Adam Pantanowitz and Tshilidzi Marwala. Missing data imputation through the use of the random forest algorithm. In Advances in computational intelligence , pages 53–62. Springer, 2009. Marietta Kokla, Jyrki Virtanen, Marjukka Kolehmainen, Jussi Paananen, and Kati Hanhineva. Random forest-based imputation outperforms other methods for imputing lc-ms metabolomics data: a comparative study. BMC bioinformatics , 20:1–11, 2019. Anoop D Shah, Jonathan W Bartlett, James Carpenter, Owen Nicholas, and Harry Hemingway. Comparison of random forest and parametric imputation models for imputing missing data using mice: a caliber study. American journal of epidemiology , 179(6):764–774, 2014. Andy Liaw, Matthew Wiener, et al. Classification and regression by randomforest. R news , 2(3): 18–22, 2002. T Hastie. Tibshirani, and j. friedman. The Elements of Statistical Learning, Data mining, Inference and Prediction , 2001. Thomas N Kipf and Max Welling. Semi-supervised classification with graph convolutional networks. 
+
+arXiv preprint arXiv:1609.02907 , 2016. Petar Velickovic, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Lio, Yoshua Ben-gio, et al. Graph attention networks. stat , 1050(20):10–48550, 2017. Will Hamilton, Zhitao Ying, and Jure Leskovec. Inductive representation learning on large graphs. 
+
+Advances in neural information processing systems , 30, 2017. Keiron O’shea and Ryan Nash. An introduction to convolutional neural networks. arXiv preprint arXiv:1511.08458 , 2015. Bernd Bischl, Giuseppe Casalicchio, Matthias Feurer, Pieter Gijsbers, Frank Hutter, Michel Lang, Rafael G Mantovani, Jan N van Rijn, and Joaquin Vanschoren. Openml benchmarking suites. 
+
+arXiv preprint arXiv:1708.03731 , 2017. Mario Villaiz´ an-Vallelado, Matteo Salvatori, Bel´ en Carro Martinez, and Antonio Javier Sanchez Es-guevillas. Graph Neural Network contextual embedding for Deep Learning on Tabular Data. 
+
+Neural Networks , 2024. URL https://arxiv.org/pdf/2303.06455.pdf .21 A Training Variability and Randomness 
+
+Table 5: Mean ± standard deviation of weighted F1-score across multiple seeds (corresponding to Table 2). 
+
+Dataset RF XGB GB LGBM MLP INCE RF Prox RFGAP OOB 902 0.827 ± 0.018 0.782 ± 0.015 0.745 ± 0.032 0.812 ± 0.000 0.800 ± 0.021 0.833 ± 0.024 0.845 ± 0.005 0.813 ± 0.006 0.816 ± 0.005 1006 0.904 ± 0.024 0.871 ± 0.025 0.875 ± 0.053 0.876 ± 0.036 0.873 ± 0.013 0.893 ± 0.015 0.947 ± 0.021 0.920 ± 0.023 0.901 ± 0.022 955 0.787 ± 0.025 0.777 ± 0.025 0.732 ± 0.041 0.606 ± 0.021 0.590 ± 0.061 0.822 ± 0.057 0.857 ± 0.000 0.869 ± 0.002 0.856 ± 0.001 941 0.764 ± 0.031 0.693 ± 0.021 0.756 ± 0.020 0.709 ± 0.026 0.501 ± 0.075 0.812 ± 0.030 0.784 ± 0.012 0.783 ± 0.012 0.785 ± 0.012 1012 0.421 ± 0.000 0.407 ± 0.025 0.412 ± 0.035 0.426 ± 0.071 0.430 ± 0.024 0.686 ± 0.019 0.642 ± 0.012 0.732 ± 0.012 0.738 ± 0.011 446 0.879 ± 0.012 0.895 ± 0.012 0.905 ± 0.013 0.901 ± 0.015 0.715 ± 0.162 1.000 ± 0.000 1.000 ± 0.000 0.975 ± 0.000 0.975 ± 0.000 40710 0.796 ± 0.009 0.741 ± 0.023 0.765 ± 0.016 0.755 ± 0.010 0.645 ± 0.036 0.872 ± 0.027 0.832 ± 0.013 0.823 ± 0.014 0.822 ± 0.014 915 0.556 ± 0.030 0.586 ± 0.022 0.589 ± 0.014 0.579 ± 0.037 0.447 ± 0.027 0.572 ± 0.018 0.729 ± 0.003 0.621 ± 0.003 0.619 ± 0.003 1167 0.339 ± 0.067 0.323 ± 0.000 0.346 ± 0.057 0.280 ± 0.027 0.635 ± 0.024 0.629 ± 0.082 0.482 ± 0.013 0.695 ± 0.014 0.685 ± 0.013 40663 0.675 ± 0.007 0.590 ± 0.012 0.673 ± 0.007 0.612 ± 0.006 0.498 ± 0.015 0.633 ± 0.032 0.653 ± 0.010 0.623 ± 0.011 0.619 ± 0.011 475 0.354 ± 0.017 0.403 ± 0.016 0.437 ± 0.025 0.371 ± 0.027 0.321 ± 0.028 0.414 ± 0.178 0.440 ± 0.018 0.453 ± 0.019 0.450 ± 0.019 1498 0.531 ± 0.030 0.573 ± 0.019 0.559 ± 0.030 0.573 ± 0.025 0.651 ± 0.033 0.752 ± 0.015 0.638 ± 0.028 0.781 ± 0.029 0.787 ± 0.029 825 0.859 ± 0.006 0.831 ± 0.005 0.841 ± 0.013 0.841 ± 0.008 0.737 ± 0.025 0.868 ± 0.018 0.901 ± 0.008 0.807 ± 0.009 0.809 ± 0.009 853 0.909 ± 0.012 0.899 ± 0.004 0.905 ± 0.015 0.905 ± 0.004 0.750 ± 0.015 0.877 ± 0.018 0.915 ± 0.010 0.829 ± 0.010 0.820 ± 0.010 43757 0.972 ± 0.000 0.974 ± 0.005 0.963 ± 0.006 0.968 ± 0.006 0.937 ± 0.003 0.979 ± 0.010 0.977 ± 0.003 0.977 ± 0.004 0.978 ± 0.004 40981 0.916 ± 0.006 0.911 ± 0.010 0.902 ± 0.007 0.910 ± 0.005 0.800 ± 0.023 0.930 ± 0.007 0.932 ± 0.009 0.933 ± 0.010 0.932 ± 0.009 43942 1.000 ± 0.000 1.000 ± 0.000 0.997 ± 0.004 1.000 ± 0.000 1.000 ± 0.000 1.000 ± 0.000 0.999 ± 0.000 0.996 ± 0.001 1.000 ± 0.000 40705 0.945 ± 0.003 0.941 ± 0.004 0.945 ± 0.007 0.946 ± 0.004 0.769 ± 0.011 0.940 ± 0.005 0.955 ± 0.002 0.933 ± 0.002 0.935 ± 0.002 31 0.832 ± 0.013 0.831 ± 0.008 0.826 ± 0.010 0.828 ± 0.010 0.577 ± 0.000 0.756 ± 0.022 0.827 ± 0.003 0.577 ± 0.004 0.580 ± 0.003 43255 0.894 ± 0.004 0.874 ± 0.005 0.885 ± 0.008 0.883 ± 0.004 0.863 ± 0.009 0.791 ± 0.244 0.886 ± 0.007 0.888 ± 0.007 0.891 ± 0.007 44098 0.832 ± 0.013 0.831 ± 0.008 0.826 ± 0.010 0.828 ± 0.010 0.578 ± 0.003 0.719 ± 0.080 0.829 ± 0.003 0.577 ± 0.004 0.573 ± 0.004 983 0.641 ± 0.011 0.624 ± 0.004 0.641 ± 0.018 0.631 ± 0.010 0.674 ± 0.021 0.729 ± 0.008 0.664 ± 0.009 0.726 ± 0.009 0.725 ± 0.009 23 0.526 ± 0.011 0.530 ± 0.013 0.521 ± 0.010 0.517 ± 0.007 0.484 ± 0.012 0.484 ± 0.128 0.546 ± 0.004 0.530 ± 0.004 0.531 ± 0.004 720 0.773 ± 0.002 0.773 ± 0.002 0.772 ± 0.004 0.769 ± 0.004 0.728 ± 0.002 0.788 ± 0.006 0.796 ± 0.002 0.790 ± 0.002 0.792 ± 0.002 1557 0.658 ± 0.004 0.656 ± 0.004 0.652 ± 0.010 0.653 ± 0.009 0.561 ± 0.013 0.672 ± 0.004 0.668 ± 0.002 0.658 ± 0.003 0.657 ± 0.003 40701 0.870 ± 0.006 0.871 ± 0.004 0.866 ± 0.006 0.883 ± 0.005 0.798 ± 0.004 0.885 ± 0.053 0.885 ± 0.002 0.874 ± 0.002 0.874 ± 0.002 182 0.918 ± 0.002 0.919 ± 0.003 0.924 ± 0.003 0.917 ± 0.000 0.829 ± 0.003 0.873 ± 0.008 0.917 ± 0.003 0.912 ± 0.003 0.910 ± 0.003 300 0.938 ± 0.001 0.952 ± 0.002 0.948 ± 0.000 0.962 ± 0.000 0.939 ± 0.002 0.698 ± 0.046 0.964 ± 0.002 0.941 ± 0.002 0.939 ± 0.002 1478 0.976 ± 0.003 0.991 ± 0.000 0.990 ± 0.000 0.992 ± 0.001 0.944 ± 0.001 0.924 ± 0.074 0.982 ± 0.001 0.976 ± 0.001 0.977 ± 0.001 1053 0.329 ± 0.009 0.292 ± 0.000 0.262 ± 0.003 0.242 ± 0.002 0.738 ± 0.007 0.770 ± 0.002 0.758 ± 0.003 0.734 ± 0.004 0.735 ± 0.003 32 0.990 ± 0.001 0.989 ± 0.000 0.992 ± 0.000 0.990 ± 0.000 0.950 ± 0.008 0.980 ± 0.006 0.993 ± 0.000 0.994 ± 0.000 0.994 ± 0.000 4534 0.976 ± 0.001 0.969 ± 0.000 0.970 ± 0.001 0.969 ± 0.001 0.914 ± 0.003 0.969 ± 0.000 0.971 ± 0.001 0.974 ± 0.001 0.975 ± 0.001 6 0.966 ± 0.000 0.964 ± 0.000 0.966 ± 0.000 0.965 ± 0.002 0.690 ± 0.006 0.775 ± 0.041 0.939 ± 0.004 0.863 ± 0.004 0.864 ± 0.004 1486 0.979 ± 0.000 0.980 ± 0.000 0.978 ± 0.000 0.977 ± 0.001 0.933 ± 0.001 0.954 ± 0.004 0.966 ± 0.001 0.595 ± 0.001 0.595 ± 0.001 1461 0.510 ± 0.003 0.559 ± 0.000 0.544 ± 0.000 0.544 ± 0.006 0.847 ± 0.010 0.910 ± 0.001 0.892 ± 0.002 0.897 ± 0.002 0.897 ± 0.002 1590 0.683 ± 0.002 0.714 ± 0.000 0.719 ± 0.000 0.713 ± 0.002 0.731 ± 0.008 0.818 ± 0.090 0.764 ± 0.012 0.657 ± 0.012 0.658 ± 0.012 
+
+22 B Dataset Attribute Regression Analysis Table 
+
+Here we provide the full results of the regression analysis of model performance. We have several observations: 
+
+• Overall Model Fit: Several models exhibit non-negligible R2 values, indicating that dataset-level attributes explain a meaningful portion of the variability in predictive performance. In particular, proximity-based graph constructions show stronger explanatory power than standard baselines. 
+
+• Baseline Models: For conventional machine learning models, the R2 values remain relatively low, suggesting that coarse dataset attributes such as dataset size, feature dimensionality, and class count provide limited explanatory power for performance variation. 
+
+• RF-GNN Models: RF-GNN and its variants exhibit positive R2 values, indicating that per-formance variations are more systematically related to dataset characteristics when proximity-based graph structure is incorporated. 
+
+• Difference-Based Proximity Variants: The difference-based proximity constructions (Diff RF-GAP and Diff OOB) achieve the highest R2 values among all models. This sug-gests that contrastive proximity information captures dataset-dependent structure that is relevant to downstream performance. 
+
+• #Instances Variable: The number of instances shows statistically significant coefficients in several difference-based models, indicating that larger datasets tend to benefit more from proximity-difference graph constructions. 
+
+• #Features and #Classes Variables: The number of features and the number of classes exhibit mixed effects across models. While their influence is limited for baseline methods, these variables become significant in certain proximity-based settings, reflecting interactions between dataset complexity and graph construction. 
+
+• #Categorical Features Variable: The number of categorical features remains weakly significant or insignificant across most models, suggesting that categorical composition alone is not a dominant factor in determining performance. 
+
+• Intercept Terms: The intercepts are consistently significant across models, reflecting base-line performance levels that are not fully explained by the included dataset attributes. 
+
+• Implications: Taken together, these results indicate that proximity-based graph methods, particularly difference-based constructions, exhibit more interpretable and systematic rela-tionships with dataset characteristics than non-graph baselines. Overall, the regression analysis indicates that coarse dataset-level attributes explain only a limited portion of the variability in classification performance for standard machine learning models. In contrast, RF-GNN exhibits more stable performance across datasets with varying characteristics, suggesting that its effectiveness is not strongly driven by simple factors such as dataset size, feature dimensionality, class count, or the proportion of categorical features. These results indicate that RF-GNN leverages task-adaptive structure beyond coarse dataset statistics, supporting its robustness across diverse tabular datasets. 23 Table 6: Full regression results relating dataset attributes to weighted F1-score across all methods. 
+
+Method Dataset Attribute Coefficient Std. Error z-value P > |z| 95% Confidence Interval const 0.7673 0.2318 3.3100 0.00093 [0.3130, 1.2216] #Instances -0.000008531 0.00001263 -0.6750 0.49944 [-0.0000332, 0.0000162] RF #Features 0.001563 0.001428 1.0950 0.27369 [-0.00124, 0.00436] #Classes 0.04961 0.03456 1.4360 0.15111 [-0.0181, 0.1173] #Categorical Features 0.02790 0.01654 1.6870 0.09161 [-0.0045, 0.0603] Mean Squared Error (MSE): 0.0325 R-squared (R 2): 0.145 const 0.7321 0.2306 3.174 0.0015 [0.281, 1.183] #Instances -0.000004584 0.00001276 -0.359 0.7195 [-0.0000296, 0.0000204] XGB #Features 0.001942 0.001443 1.346 0.1784 [-0.000887, 0.004771] #Classes 0.04671 0.03463 1.349 0.177 [-0.0212, 0.1146] #Categorical Features 0.02459 0.01625 1.514 0.1301 [-0.0073, 0.0564] Mean Squared Error (MSE): 0.0357 R-squared (R 2): 0.144 const 0.7346 0.2291 3.206 0.00134 [0.2856, 1.1836] #Instances -0.000005715 0.00001252 -0.456 0.64815 [-0.0000303, 0.0000188] GB #Features 0.001909 0.001438 1.327 0.18440 [-0.000908, 0.004726] #Classes 0.05078 0.03505 1.449 0.14738 [-0.0179, 0.1195] #Categorical Features 0.02561 0.01623 1.579 0.11444 [-0.00621, 0.05743] Mean Squared Error (MSE): 0.0334 R-squared (R 2): 0.16 const 0.6813 0.2352 2.8970 0.00377 [0.2213, 1.1413] #Instances -0.000005339 0.00001291 -0.4140 0.67915 [-0.0000306, 0.0000200] LGBM #Features 0.001981 0.001454 1.3620 0.17304 [-0.000868, 0.004830] #Classes 0.04884 0.03515 1.3890 0.16473 [-0.0201, 0.1177] #Categorical Features 0.02631 0.01665 1.5800 0.11412 [-0.0063, 0.0589] Mean Squared Error (MSE): 0.0334 R-squared (R 2): 0.158 const 0.6088 0.1887 3.2270 0.00125 [0.2389, 0.9787] #Instances 0.00001286 0.00001183 1.0870 0.27717 [-0.0000103, 0.0000361] MLP #Features 0.002433 0.001290 1.8850 0.05938 [-0.000095, 0.004961] #Classes -0.0008393 0.02801 -0.0300 0.97609 [-0.0557, 0.0540] #Categorical Features 0.01814 0.01312 1.3830 0.16679 [-0.0076, 0.0438] Mean Squared Error (MSE): 0.0565 R-squared (R 2): 0.188 const 1.2930 0.2073 6.2380 0.0000 [0.8867, 1.6993] #Instances 0.000009709 0.00001296 0.7490 0.45400 [-0.0000157, 0.0000351] INCE #Features 0.0005253 0.001108 0.4740 0.63500 [-0.00164, 0.00270] #Classes -0.02171 0.02681 -0.8100 0.41800 [-0.0743, 0.0309] #Categorical Features 0.01196 0.01403 0.8520 0.39400 [-0.0156, 0.0395] Mean Squared Error (MSE): 0.0283 R-squared (R 2): 0.072 const 1.3540 0.2067 6.5520 0.0000 [0.9490, 1.7590] #Instances 0.000001545 0.00001196 0.1290 0.89700 [-0.0000219, 0.0000250] RF-GNN #Features 0.001563 0.001317 1.1860 0.23500 [-0.00102, 0.00414] #Classes 0.02059 0.03007 0.6850 0.49300 [-0.0384, 0.0795] #Categorical Features 0.01414 0.01408 1.0050 0.31500 [-0.0135, 0.0417] Mean Squared Error (MSE): 0.0269 R-squared (R 2): 0.109 const -2.7400 0.2669 -10.2660 0.0000 [-3.2630, -2.2170] #Instances 0.00002498 0.000009776 2.5560 0.0106 [0.0000059, 0.0000441] Diff RFGAP (-) #Features -0.0004165 0.001076 -0.3870 0.6988 [-0.00252, 0.00170] #Classes 0.002557 0.02676 0.0960 0.9239 [-0.0499, 0.0550] #Categorical Features 0.02231 0.01423 1.5680 0.1169 [-0.0056, 0.0502] Mean Squared Error (MSE): tbd R-squared (R 2): 0.316 const -2.2640 0.3768 -6.0090 0.0000 [-3.0030, -1.5250] #Instances -0.00002341 0.00001457 -1.6070 0.1080 [-0.0000520, 0.0000052] Diff RFGAP (+) #Features 0.1267 0.06872 1.8440 0.0652 [-0.0080, 0.2614] #Classes -0.2272 0.1075 -2.1130 0.0346 [-0.4380, -0.0165] #Categorical Features -0.1179 0.05922 -1.9900 0.0466 [-0.2340, -0.0018] Mean Squared Error (MSE): tbd R-squared (R 2): 0.495 const -2.7990 0.2588 -10.8150 0.0000 [-3.3060, -2.2920] #Instances 0.00002506 0.000009647 2.5970 0.00939 [0.0000062, 0.0000440] Diff OOB (-) #Features -0.0004195 0.001071 -0.3920 0.69514 [-0.00256, 0.00172] #Classes 0.004917 0.02638 0.1860 0.85213 [-0.0468, 0.0566] #Categorical Features 0.02561 0.01388 1.8450 0.06507 [-0.0016, 0.0528] Mean Squared Error (MSE): tbd R-squared (R 2): 0.334 const -1.8640 0.4179 -4.4600 0.0000 [-2.6820, -1.0460] #Instances -0.00001199 0.00001548 -0.7740 0.43900 [-0.0000423, 0.0000183] Diff OOB (+) #Features -0.01096 0.02047 -0.5350 0.59200 [-0.0510, 0.0301] #Classes -0.07728 0.09567 -0.8080 0.41900 [-0.2650, 0.1100] #Categorical Features -0.0003383 0.02233 -0.0150 0.98800 [-0.0441, 0.0434] Mean Squared Error (MSE): tbd R-squared (R 2): 0.213 
+
+24

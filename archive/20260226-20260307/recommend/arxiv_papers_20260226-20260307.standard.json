@@ -1,0 +1,1619 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-03-07T11:03:54.692727+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 39,
+    "deep_cap": 9,
+    "deep_selected": 26,
+    "quick_candidates": 32,
+    "quick_skim_target": 14,
+    "quick_selected": 14
+  },
+  "deep_dive": [
+    {
+      "id": "2602.22673v1",
+      "title": "Forecasting Antimicrobial Resistance Trends Using Machine Learning on WHO GLASS Surveillance Data: A Retrieval-Augmented Generation Approach for Policy Decision Support",
+      "abstract": "Antimicrobial resistance (AMR) is a growing global crisis projected to cause 10 million deaths per year by 2050. While the WHO Global Antimicrobial Resistance and Use Surveillance System (GLASS) provides standardized surveillance data across 44 countries, few studies have applied machine learning to forecast population-level resistance trends from this data. This paper presents a two-component framework for AMR trend forecasting and evidence-grounded policy decision support. We benchmark six models -- Naive, Linear Regression, Ridge Regression, XGBoost, LightGBM, and LSTM -- on 5,909 WHO GLASS observations across six WHO regions (2021-2023). XGBoost achieved the best performance with a test MAE of 7.07% and R-squared of 0.854, outperforming the naive baseline by 83.1%. Feature importance analysis identified the prior-year resistance rate as the dominant predictor (50.5% importance), while regional MAE ranged from 4.16% (European Region) to 10.14% (South-East Asia Region). We additionally implemented a Retrieval-Augmented Generation (RAG) pipeline combining a ChromaDB vector store of WHO policy documents with a locally deployed Phi-3 Mini language model, producing source-attributed, hallucination-constrained policy answers. Code and data are available at https://github.com/TanvirTurja",
+      "authors": [
+        "Md Tanvir Hasan Turja"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "q-bio.QM"
+      ],
+      "published": "2026-02-26T06:45:08+00:00",
+      "link": "https://arxiv.org/pdf/2602.22673v1",
+      "tags": [
+        "query:PathoAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "forecasting antimicrobial resistance trends using ML and RAG",
+      "llm_evidence_cn": "利用机器学习和RAG预测抗生素耐药性趋势",
+      "llm_evidence": "利用机器学习和RAG预测抗生素耐药性趋势",
+      "canonical_evidence": "利用机器学习和RAG预测抗生素耐药性趋势",
+      "llm_tldr_en": "Combines ML models and RAG to forecast AMR trends and provide policy support using WHO surveillance data.",
+      "llm_tldr_cn": "结合机器学习和检索增强生成技术，利用世卫组织监测数据预测耐药性趋势并支持政策决策。",
+      "llm_tldr": "结合机器学习和检索增强生成技术，利用世卫组织监测数据预测耐药性趋势并支持政策决策。",
+      "llm_tags": [
+        "query:pathoai:composite"
+      ],
+      "matched_query_tag": "query:pathoai:composite",
+      "matched_query_text": "Papers central to 病原组学中的 AI 方法, especially work that connects or combines: foundation models for pathogen genomes and pathogen biology; machine learning for metagenomic pathogen classification; deep learning models for pathogen detection from sequencing data; AI methods for genomic surveillance and outbreak monitoring; machine learning for antimicrobial resistance prediction from genomes; machine learning for phylogenetic and transmission inference; multimodal models combining pathogen sequence phenotype and metadata; machine learning for microbiome host interaction pathogen ecology and infection modeling; AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design; foundation models for pathogen genome understanding and surveillance.",
+      "matched_requirement_id": "req-composite-pathoai",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2602.23199v1",
+      "title": "SC-Arena: A Natural Language Benchmark for Single-Cell Reasoning with Knowledge-Augmented Evaluation",
+      "abstract": "Large language models (LLMs) are increasingly applied in scientific research, offering new capabilities for knowledge discovery and reasoning. In single-cell biology, however, evaluation practices for both general and specialized LLMs remain inadequate: existing benchmarks are fragmented across tasks, adopt formats such as multiple-choice classification that diverge from real-world usage, and rely on metrics lacking interpretability and biological grounding. We present SC-ARENA, a natural language evaluation framework tailored to single-cell foundation models. SC-ARENA formalizes a virtual cell abstraction that unifies evaluation targets by representing both intrinsic attributes and gene-level interactions. Within this paradigm, we define five natural language tasks (cell type annotation, captioning, generation, perturbation prediction, and scientific QA) that probe core reasoning capabilities in cellular biology. To overcome the limitations of brittle string-matching metrics, we introduce knowledge-augmented evaluation, which incorporates external ontologies, marker databases, and scientific literature to support biologically faithful and interpretable judgments. Experiments and analysis across both general-purpose and domain-specialized LLMs demonstrate that (i) under the Virtual Cell unified evaluation paradigm, current models achieve uneven performance on biologically complex tasks, particularly those demanding mechanistic or causal understanding; and (ii) our knowledge-augmented evaluation framework ensures biological correctness, provides interpretable, evidence-grounded rationales, and achieves high discriminative capacity, overcoming the brittleness and opacity of conventional metrics. SC-Arena thus provides a unified and interpretable framework for assessing LLMs in single-cell biology, pointing toward the development of biology-aligned, generalizable foundation models.",
+      "authors": [
+        "Jiahao Zhao",
+        "Feng Jiang",
+        "Shaowei Qin",
+        "Zhonghui Zhang",
+        "Junhao Liu",
+        "Guibing Guo",
+        "Hamid Alinejad-Rokny",
+        "Min Yang"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-02-26T16:50:28+00:00",
+      "link": "https://arxiv.org/pdf/2602.23199v1",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "Natural language benchmark for single-cell reasoning and foundation models",
+      "llm_evidence_cn": "单细胞推理与基础模型的自然语言基准",
+      "llm_evidence": "单细胞推理与基础模型的自然语言基准",
+      "canonical_evidence": "单细胞推理与基础模型的自然语言基准",
+      "llm_tldr_en": "Presents SC-ARENA, a benchmark for evaluating LLMs on single-cell biology tasks using a virtual cell abstraction.",
+      "llm_tldr_cn": "提出SC-ARENA，一个利用虚拟细胞抽象评估LLM在单细胞生物学任务中表现的基准。",
+      "llm_tldr": "提出SC-ARENA，一个利用虚拟细胞抽象评估LLM在单细胞生物学任务中表现的基准。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "benchmark and evaluation for bioinformatics language models",
+      "matched_requirement_id": "req-29",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.01421v1",
+      "title": "SciDER: Scientific Data-centric End-to-end Researcher",
+      "abstract": "Automated scientific discovery with large language models is transforming the research lifecycle from ideation to experimentation, yet existing agents struggle to autonomously process raw data collected from scientific experiments. We introduce SciDER, a data-centric end-to-end system that automates the research lifecycle. Unlike traditional frameworks, our specialized agents collaboratively parse and analyze raw scientific data, generate hypotheses and experimental designs grounded in specific data characteristics, and write and execute corresponding code. Evaluation on three benchmarks shows SciDER excels in specialized data-driven scientific discovery and outperforms general-purpose agents and state-of-the-art models through its self-evolving memory and critic-led feedback loop. Distributed as a modular Python package, we also provide easy-to-use PyPI packages with a lightweight web interface to accelerate autonomous, data-driven research and aim to be accessible to all researchers and developers.",
+      "authors": [
+        "Ke Lin",
+        "Yilin Lu",
+        "Shreyas Bhat",
+        "Xuehang Guo",
+        "Junier Oliva",
+        "Qingyun Wang"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "published": "2026-03-02T03:53:20+00:00",
+      "link": "https://arxiv.org/pdf/2603.01421v1",
+      "tags": [
+        "keyword:Agent",
+        "query:Agent"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "automated scientific discovery system with specialized agents for raw data analysis",
+      "llm_evidence_cn": "具有专门用于原始数据分析的智能体的自动化科学发现系统",
+      "llm_evidence": "具有专门用于原始数据分析的智能体的自动化科学发现系统",
+      "canonical_evidence": "具有专门用于原始数据分析的智能体的自动化科学发现系统",
+      "llm_tldr_en": "SciDER is an end-to-end agent system that automates the research lifecycle from data to hypothesis.",
+      "llm_tldr_cn": "SciDER是一个端到端的智能体系统，实现了从原始数据到假设生成的自动化科研全生命周期。",
+      "llm_tldr": "SciDER是一个端到端的智能体系统，实现了从原始数据到假设生成的自动化科研全生命周期。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "scientific discovery agents for bioinformatics genomics and computational biology tasks",
+      "matched_requirement_id": "req-56",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.01780v1",
+      "title": "D3LM: A Discrete DNA Diffusion Language Model for Bidirectional DNA Understanding and Generation",
+      "abstract": "Early DNA foundation models adopted BERT-style training, achieving good performance on DNA understanding tasks but lacking generative capabilities. Recent autoregressive models enable DNA generation, but employ left-to-right causal modeling that is suboptimal for DNA where regulatory relationships are inherently bidirectional. We present D3LM (\\textbf{D}iscrete \\textbf{D}NA \\textbf{D}iffusion \\textbf{L}anguage \\textbf{M}odel), which unifies bidirectional representation learning and DNA generation through masked diffusion. D3LM directly adopts the Nucleotide Transformer (NT) v2 architecture but reformulates the training objective as masked diffusion in discrete DNA space, enabling both bidirectional understanding and generation capabilities within a single model. Compared to NT v2 of the same size, D3LM achieves improved performance on understanding tasks. Notably, on regulatory element generation, D3LM achieves an SFID of 10.92, closely approaching real DNA sequences (7.85) and substantially outperforming the previous best result of 29.16 from autoregressive models. Our work suggests diffusion language models as a promising paradigm for unified DNA foundation models. We further present the first systematic study of masked diffusion models in the DNA domain, investigating practical design choices such as tokenization schemes and sampling strategies, thereby providing empirical insights and a solid foundation for future research. D3LM has been released at https://huggingface.co/collections/Hengchang-Liu/d3lm.",
+      "authors": [
+        "Zhao Yang",
+        "Hengchang Liu",
+        "Chuan Cao",
+        "Bing Su"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "q-bio.GN"
+      ],
+      "published": "2026-03-02T12:05:21+00:00",
+      "link": "https://arxiv.org/pdf/2603.01780v1",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:SeqAI",
+        "query:BioInfo"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "DNA foundation model for bidirectional understanding and generation",
+      "llm_evidence_cn": "用于双向理解和生成的DNA基础模型",
+      "llm_evidence": "用于双向理解和生成的DNA基础模型",
+      "canonical_evidence": "用于双向理解和生成的DNA基础模型",
+      "llm_tldr_en": "D3LM unifies DNA representation learning and generation using a discrete diffusion language model approach.",
+      "llm_tldr_cn": "D3LM通过离散扩散语言模型方法，统一了DNA的表示学习与序列生成。",
+      "llm_tldr": "D3LM通过离散扩散语言模型方法，统一了DNA的表示学习与序列生成。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models for DNA RNA protein and cell biology",
+      "matched_requirement_id": "req-15",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.02753v1",
+      "title": "Deep learning-guided evolutionary optimization for protein design",
+      "abstract": "Designing novel proteins with desired characteristics remains a significant challenge due to the large sequence space and the complexity of sequence-function relationships. Efficient exploration of this space to identify sequences that meet specific design criteria is crucial for advancing therapeutics and biotechnology. Here, we present BoGA (Bayesian Optimization Genetic Algorithm), a framework that combines evolutionary search with Bayesian optimization to efficiently navigate the sequence space. By integrating a genetic algorithm as a stochastic proposal generator within a surrogate modeling loop, BoGA prioritizes candidates based on prior evaluations and surrogate model predictions, enabling data-efficient optimization. We demonstrate the utility of BoGA through benchmarking on sequence and structure design tasks, followed by its application in designing peptide binders against pneumolysin, a key virulence factor of \\textit{Streptococcus pneumoniae}. BoGA accelerates the discovery of high-confidence binders, demonstrating the potential for efficient protein design across diverse objectives. The algorithm is implemented within the BoPep suite and is available under an MIT license at \\href{https://github.com/ErikHartman/bopep}{GitHub}.",
+      "authors": [
+        "Erik Hartman",
+        "Di Tang",
+        "Johan Malmström"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "q-bio.QM",
+        "stat.ML"
+      ],
+      "published": "2026-03-03T08:53:12+00:00",
+      "link": "https://arxiv.org/pdf/2603.02753v1",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:PathoAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "Deep learning-guided evolutionary optimization for protein design",
+      "llm_evidence_cn": "深度学习引导的蛋白质设计进化优化",
+      "llm_evidence": "深度学习引导的蛋白质设计进化优化",
+      "canonical_evidence": "深度学习引导的蛋白质设计进化优化",
+      "llm_tldr_en": "Combines evolutionary search with Bayesian optimization for data-efficient protein sequence design.",
+      "llm_tldr_cn": "结合进化搜索与贝叶斯优化，实现数据高效的蛋白质序列设计。",
+      "llm_tldr": "结合进化搜索与贝叶斯优化，实现数据高效的蛋白质序列设计。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "generative models and reinforcement learning for protein design and optimization",
+      "matched_requirement_id": "req-18",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.04748v1",
+      "title": "SeekRBP: Leveraging Sequence-Structure Integration with Reinforcement Learning for Receptor-Binding Protein Identification",
+      "abstract": "Motivation: Receptor-binding proteins (RBPs) initiate viral infection and determine host specificity, serving as key targets for phage engineering and therapy. However, the identification of RBPs is complicated by their extreme sequence divergence, which often renders traditional homology-based alignment methods ineffective. While machine learning offers a promising alternative, such approaches struggle with severe class imbalance and the difficulty of selecting informative negative samples from heterogeneous tail proteins. Existing methods often fail to balance learning from these ``hard negatives'' while maintaining generalization. Results: We present SeekRBP, a sequence--structure framework that models negative sampling as a sequential decision-making problem. By employing a multi-armed bandit strategy, SeekRBP dynamically prioritizes informative non-RBP sequences based on real-time training feedback, complemented by a multimodal fusion of protein language and structural embeddings. Benchmarking demonstrates that SeekRBP consistently outperforms static sampling strategies. Furthermore, a case study on Vibrio phages validates that SeekRBP effectively identifies RBPs to improve host prediction, highlighting its potential for large-scale annotation and synthetic biology applications.",
+      "authors": [
+        "Xiling Luo",
+        "Le Ou-Yang",
+        "Yang Shen",
+        "Jiaojiao Guan",
+        "Dehan Cai",
+        "Jun Zhang",
+        "Rui Zhang",
+        "Yanni Sun",
+        "Jiayu Shang"
+      ],
+      "primary_category": "q-bio.GN",
+      "categories": [
+        "q-bio.GN"
+      ],
+      "published": "2026-03-05T02:53:42+00:00",
+      "link": "https://arxiv.org/pdf/2603.04748v1",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "Sequence-structure integration for receptor-binding protein identification",
+      "llm_evidence_cn": "用于受体结合蛋白识别的序列-结构集成",
+      "llm_evidence": "用于受体结合蛋白识别的序列-结构集成",
+      "canonical_evidence": "用于受体结合蛋白识别的序列-结构集成",
+      "llm_tldr_en": "Develops SeekRBP, a framework using RL and sequence-structure integration to identify viral infection proteins.",
+      "llm_tldr_cn": "开发了SeekRBP框架，利用强化学习和序列结构集成来识别介导病毒感染的受体结合蛋白。",
+      "llm_tldr": "开发了SeekRBP框架，利用强化学习和序列结构集成来识别介导病毒感染的受体结合蛋白。",
+      "llm_tags": [
+        "query:pathoai:composite"
+      ],
+      "matched_query_tag": "query:pathoai:composite",
+      "matched_query_text": "Papers central to 病原组学中的 AI 方法, especially work that connects or combines: foundation models for pathogen genomes and pathogen biology; machine learning for metagenomic pathogen classification; deep learning models for pathogen detection from sequencing data; AI methods for genomic surveillance and outbreak monitoring; machine learning for antimicrobial resistance prediction from genomes; machine learning for phylogenetic and transmission inference; multimodal models combining pathogen sequence phenotype and metadata; machine learning for microbiome host interaction pathogen ecology and infection modeling; AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design; foundation models for pathogen genome understanding and surveillance.",
+      "matched_requirement_id": "req-composite-pathoai",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2602.23179v1",
+      "title": "Induction Meets Biology: Mechanisms of Repeat Detection in Protein Language Models",
+      "abstract": "Protein sequences are abundant in repeating segments, both as exact copies and as approximate segments with mutations. These repeats are important for protein structure and function, motivating decades of algorithmic work on repeat identification. Recent work has shown that protein language models (PLMs) identify repeats, by examining their behavior in masked-token prediction. To elucidate their internal mechanisms, we investigate how PLMs detect both exact and approximate repeats. We find that the mechanism for approximate repeats functionally subsumes that of exact repeats. We then characterize this mechanism, revealing two main stages: PLMs first build feature representations using both general positional attention heads and biologically specialized components, such as neurons that encode amino-acid similarity. Then, induction heads attend to aligned tokens across repeated segments, promoting the correct answer. Our results reveal how PLMs solve this biological task by combining language-based pattern matching with specialized biological knowledge, thereby establishing a basis for studying more complex evolutionary processes in PLMs.",
+      "authors": [
+        "Gal Kesten-Pomeranz",
+        "Yaniv Nikankin",
+        "Anja Reusch",
+        "Tomer Tsaban",
+        "Ora Schueler-Furman",
+        "Yonatan Belinkov"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "q-bio.BM"
+      ],
+      "published": "2026-02-26T16:39:04+00:00",
+      "link": "https://arxiv.org/pdf/2602.23179v1",
+      "tags": [
+        "keyword:BioInfo",
+        "query:BioInfo",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "mechanisms of repeat detection in protein language models",
+      "llm_evidence_cn": "蛋白质语言模型中的重复序列检测机制",
+      "llm_evidence": "蛋白质语言模型中的重复序列检测机制",
+      "canonical_evidence": "蛋白质语言模型中的重复序列检测机制",
+      "llm_tldr_en": "Investigates how protein language models identify repeating segments crucial for protein structure and function.",
+      "llm_tldr_cn": "研究了蛋白质语言模型如何识别对蛋白质结构和功能至关重要的重复片段。",
+      "llm_tldr": "研究了蛋白质语言模型如何识别对蛋白质结构和功能至关重要的重复片段。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "protein language models for structure prediction function prediction and design",
+      "matched_requirement_id": "req-31",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2602.23828v1",
+      "title": "GenDRAM:Hardware-Software Co-Design of General Platform in DRAM",
+      "abstract": "Dynamic programming (DP) algorithms, such as All-Pairs Shortest Path (APSP) and genomic sequence alignment, are fundamental to many scientific domains but are severely bottlenecked by data movement on conventional architectures. While Processing-in-Memory (PIM) offers a promising solution, existing accelerators often address only a fraction of the work-flow, creating new system-level bottlenecks in host-accelerator communication and off-chip data streaming. In this work, we propose GenDRAM, a massively parallel PIM accelerator that overcomes these limitations. GenDRAM leverages the immense capacity and internal bandwidth of monolithic 3D DRAM(M3D DRAM) to integrate entire data-intensive pipelines, such as the full genomics workflow from seeding to alignment, onto a single heterogeneous chip. At its core is a novel architecture featuring specialized Search PUs for memory-intensive tasks and universal, multiplier-less Compute PUs for diverse DP calculations. This is enabled by a 3D-aware data mapping strategy that exploits the tiered latency of M3D DRAM for performance optimization. Through comprehensive simulation, we demonstrate that GenDRAM achieves a transformative performance leap, outperforming state-of-the-art GPU systems by over 68x on APSP and over 22x on the end-to-end genomics pipeline.",
+      "authors": [
+        "Tsung-Han Lu",
+        "Weihong Xu",
+        "Tajana Rosing"
+      ],
+      "primary_category": "cs.AR",
+      "categories": [
+        "cs.AR"
+      ],
+      "published": "2026-02-27T09:09:15+00:00",
+      "link": "https://arxiv.org/pdf/2602.23828v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:SeqAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "PIM accelerator for genomic sequence alignment and workflows",
+      "llm_evidence_cn": "用于基因组序列比对和工作流的PIM加速器",
+      "llm_evidence": "用于基因组序列比对和工作流的PIM加速器",
+      "canonical_evidence": "用于基因组序列比对和工作流的PIM加速器",
+      "llm_tldr_en": "Proposes GenDRAM, a hardware accelerator that integrates full genomics workflows from seeding to alignment.",
+      "llm_tldr_cn": "提出GenDRAM硬件加速器，集成了从种子搜索到比对的完整基因组学工作流。",
+      "llm_tldr": "提出GenDRAM硬件加速器，集成了从种子搜索到比对的完整基因组学工作流。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "AI for nanopore sequencing basecalling genomic alignment and variant analysis",
+      "matched_requirement_id": "req-39",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.00212v1",
+      "title": "Graph-Based Multi-Omics Integration Improves Subtype Recovery and Survival Prediction Over Classical Integration Strategies in TCGA-BRCA",
+      "abstract": "Background. Breast cancer comprises at least five molecular subtypes with distinct prognoses, yet PAM50 classification relies on transcriptomics alone. Whether integrating DNA methylation and copy number data improves subtype recovery and survival prediction over single-omic baselines remains an open question.   Methods. We applied Similarity Network Fusion (SNF) to n = 644 TCGA-BRCA patients with matched RNA-seq, 450k DNA methylation, and GISTIC2 copy number profiles. Per-modality patient similarity networks were iteratively fused (K = 20, T = 20, u = 0.5) and partitioned by spectral clustering; k = 2 was pre-specified on eigengap and silhouette criteria. SNF was benchmarked against RNA-only, CNV-only, methylation-only, and early concatenation baselines using PAM50 NMI for subtype recovery and out-of-fold concordance index (OOF C-index) from a Ridge Cox model with N = 1,000 bootstrap CIs for pairwise comparisons.   Results. SNF produced a stable two-cluster partition (stability ARI = 1.00, silhouette = 0.228), with NMI = 0.495 versus PAM50, exceeding RNA-only (0.428) and early concatenation (0.175). IHC receptor data confirmed cluster biology independently (ER+: 92.8% vs 15.6%; triple-negative: 1.0% vs 45.4%; both p < 10^-100). SNF achieved an OOF C-index of 0.681 (95% CI 0.610-0.760), significantly outperforming CNV-only (Delta = +0.122, CI 0.020-0.211); the advantage over RNA-only (Delta = +0.049, CI -0.036-0.144) did not exclude zero.   Conclusion. Graph-based multi-omics fusion recovers breast cancer subtype biology more faithfully than feature concatenation and outperforms the weakest unimodal baselines in survival prediction. The improvement over RNA-seq alone is positive in direction but not yet statistically conclusive at this cohort size, pointing to the trade-off between integration complexity and the sample sizes needed to quantify its marginal benefit.",
+      "authors": [
+        "Taha Ahmad"
+      ],
+      "primary_category": "q-bio.GN",
+      "categories": [
+        "q-bio.GN"
+      ],
+      "published": "2026-02-27T13:56:30+00:00",
+      "link": "https://arxiv.org/pdf/2603.00212v1",
+      "tags": [
+        "keyword:BioInfo",
+        "query:BioInfo",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "graph-based multi-omics integration for cancer subtypes",
+      "llm_evidence_cn": "基于图的多组学整合用于癌症亚型分析",
+      "llm_evidence": "基于图的多组学整合用于癌症亚型分析",
+      "canonical_evidence": "基于图的多组学整合用于癌症亚型分析",
+      "llm_tldr_en": "Demonstrates that graph-based multi-omics integration improves cancer subtype recovery and survival prediction.",
+      "llm_tldr_cn": "证明了基于图的多组学整合能有效提高癌症亚型识别和生存预测的准确性。",
+      "llm_tldr": "证明了基于图的多组学整合能有效提高癌症亚型识别和生存预测的准确性。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.00253v2",
+      "title": "CoPeP: Benchmarking Continual Pretraining for Protein Language Models",
+      "abstract": "Protein language models (pLMs) have recently gained significant attention for their ability to uncover relationships between sequence, structure, and function from evolutionary statistics, thereby accelerating therapeutic drug discovery. These models learn from large protein databases that are continuously updated by the biology community and whose dynamic nature motivates the application of continual learning, not only to keep up with the ever-growing data, but also as an opportunity to take advantage of the temporal meta-information that is created during this process. As a result, we introduce the Continual Pretraining of Protein Language Models (CoPeP) benchmark, a novel benchmark for evaluating continual learning approaches on pLMs. Specifically, we curate a sequence of protein datasets derived from the UniProt Knowledgebase spanning a decade and define metrics to assess pLM performance across 31 protein understanding tasks. We evaluate several methods from the continual learning literature, including replay, unlearning, and plasticity-based methods, some of which have never been applied to models and data of this scale. Our findings reveal that incorporating temporal meta-information improves perplexity by up to 7% even when compared to training on data from all tasks jointly. Moreover, even at scale, several continual learning methods outperform naive continual pretraining. The CoPeP benchmark offers an exciting opportunity to study these methods at scale in an impactful real-world application.",
+      "authors": [
+        "Darshan Patil",
+        "Pranshu Malviya",
+        "Mathieu Reymond",
+        "Quentin Fournier",
+        "Sarath Chandar"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "published": "2026-02-27T19:04:32+00:00",
+      "link": "https://arxiv.org/pdf/2603.00253v2",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "benchmark for evaluating continual learning approaches on protein language models",
+      "llm_evidence_cn": "评估蛋白质语言模型持续学习方法的基准测试",
+      "llm_evidence": "评估蛋白质语言模型持续学习方法的基准测试",
+      "canonical_evidence": "评估蛋白质语言模型持续学习方法的基准测试",
+      "llm_tldr_en": "Introduces CoPeP, a benchmark for evaluating how protein language models adapt to continuously updated databases.",
+      "llm_tldr_cn": "引入CoPeP基准，用于评估蛋白质语言模型在不断更新的数据库中的持续学习能力。",
+      "llm_tldr": "引入CoPeP基准，用于评估蛋白质语言模型在不断更新的数据库中的持续学习能力。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "benchmark and evaluation for bioinformatics language models",
+      "matched_requirement_id": "req-29",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.00612v1",
+      "title": "From Literature to Hypotheses: An AI Co-Scientist System for Biomarker-Guided Drug Combination Hypothesis Generation",
+      "abstract": "The rapid growth of biomedical literature and curated databases has made it increasingly difficult for researchers to systematically connect biomarker mechanisms to actionable drug combination hypotheses. We present AI Co-Scientist (CoDHy), an interactive, human-in-the-loop system for biomarker-guided drug combination hypothesis generation in cancer research. CoDHy integrates structured biomedical databases and unstructured literature evidence into a task-specific knowledge graph, which serves as the basis for graph-based reasoning and hypothesis construction. The system combines knowledge graph embeddings with agent-based reasoning to generate, validate, and rank candidate drug combinations, while explicitly grounding each hypothesis in retrievable evidence. Through a web-based interface, users can configure the scientific context, inspect intermediate results, and iteratively refine hypotheses, enabling transparent and researcher-steerable exploration rather than automated decision-making. We demonstrate CoDHy as a system for exploratory hypothesis generation and decision support in translational oncology, highlighting its design, interaction workflow, and practical use cases.",
+      "authors": [
+        "Raneen Younis",
+        "Suvinava Basak",
+        "Lukas Chavez",
+        "Zahra Ahmadi"
+      ],
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL"
+      ],
+      "published": "2026-02-28T12:14:37+00:00",
+      "link": "https://arxiv.org/pdf/2603.00612v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "AI Co-Scientist system for biomarker-guided drug combination hypothesis generation using agent-based reasoning",
+      "llm_evidence_cn": "基于智能体推理的生物标志物引导药物组合假设生成的AI协同科学家系统",
+      "llm_evidence": "基于智能体推理的生物标志物引导药物组合假设生成的AI协同科学家系统",
+      "canonical_evidence": "基于智能体推理的生物标志物引导药物组合假设生成的AI协同科学家系统",
+      "llm_tldr_en": "Presents CoDHy, an agent-based system that integrates literature and databases to generate drug combination hypotheses.",
+      "llm_tldr_cn": "提出CoDHy系统，利用智能体结合文献与数据库生成癌症药物组合假设。",
+      "llm_tldr": "提出CoDHy系统，利用智能体结合文献与数据库生成癌症药物组合假设。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "autonomous agents for biomedical literature reasoning genomic data analysis and evidence synthesis",
+      "matched_requirement_id": "req-55",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.01396v1",
+      "title": "HarmonyCell: Automating Single-Cell Perturbation Modeling under Semantic and Distribution Shifts",
+      "abstract": "Single-cell perturbation studies face dual heterogeneity bottlenecks: (i) semantic heterogeneity--identical biological concepts encoded under incompatible metadata schemas across datasets; and (ii) statistical heterogeneity--distribution shifts from biological variation demanding dataset-specific inductive biases. We propose HarmonyCell, an end-to-end agent framework resolving each challenge through a dedicated mechanism: an LLM-driven Semantic Unifier autonomously maps disparate metadata into a canonical interface without manual intervention; and an adaptive Monte Carlo Tree Search engine operates over a hierarchical action space to synthesize architectures with optimal statistical inductive biases for distribution shifts. Evaluated across diverse perturbation tasks under both semantic and distribution shifts, HarmonyCell achieves a 95% valid execution rate on heterogeneous input datasets (versus 0% for general agents) while matching or even exceeding expert-designed baselines in rigorous out-of-distribution evaluations. This dual-track orchestration enables scalable automatic virtual cell modeling without dataset-specific engineering.",
+      "authors": [
+        "Wenxuan Huang",
+        "Mingyu Tsoi",
+        "Yanhao Huang",
+        "Xinjie Mao",
+        "Xue Xia",
+        "Hao Wu",
+        "Jiaqi Wei",
+        "Yuejin Yang",
+        "Lang Yu",
+        "Cheng Tan",
+        "Xiang Zhang",
+        "Zhangyang Gao",
+        "Siqi Sun"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.CE",
+        "q-bio.QM"
+      ],
+      "published": "2026-03-02T02:48:40+00:00",
+      "link": "https://arxiv.org/pdf/2603.01396v1",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "LLM-driven agent for single-cell perturbation modeling",
+      "llm_evidence_cn": "用于单细胞扰动建模的LLM驱动Agent",
+      "llm_evidence": "用于单细胞扰动建模的LLM驱动Agent",
+      "canonical_evidence": "用于单细胞扰动建模的LLM驱动Agent",
+      "llm_tldr_en": "Proposes an agent framework to automate single-cell perturbation modeling across heterogeneous datasets.",
+      "llm_tldr_cn": "提出一种Agent框架，自动解决跨数据集单细胞扰动建模中的语义和统计异质性问题。",
+      "llm_tldr": "提出一种Agent框架，自动解决跨数据集单细胞扰动建模中的语义和统计异质性问题。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "LLM agents for bioinformatics genomics workflows and scientific reasoning",
+      "matched_requirement_id": "req-62",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.01464v1",
+      "title": "ProtRLSearch: A Multi-Round Multimodal Protein Search Agent with Large Language Models Trained via Reinforcement Learning",
+      "abstract": "Protein analysis tasks arising in healthcare settings often require accurate reasoning under protein sequence constraints, involving tasks such as functional interpretation of disease-related variants, protein-level analysis for clinical research, and similar scenarios. To address such tasks, search agents are introduced to search protein-related information, providing support for disease-related variant analysis and protein function reasoning in protein-centric inference. However, such search agents are mostly limited to single-round, text-only modality search, which prevents the protein sequence modality from being incorporated as a multimodal input into the search decision-making process. Meanwhile, their reliance on reinforcement learning (RL) supervision that focuses solely on the final answer results in a lack of search process constraints, making deviations in keyword selection and reasoning directions difficult to identify and correct in a timely manner. To address these limitations, we propose ProtRLSearch, a multi-round protein search agent trained with multi-dimensional reward based RL, which jointly leverages protein sequence and text as multimodal inputs during real-time search to produce high quality reports. To evaluate the ability of models to integrate protein sequence information and text-based multimodal inputs in realistic protein query settings, we construct ProtMCQs, a benchmark of 3,000 multiple choice questions (MCQs) organized into three difficulty levels. The benchmark evaluates protein query tasks that range from sequence constrained reasoning about protein function and phenotype changes to comprehensive protein reasoning that integrates multi-dimensional sequence features with signal pathways and regulatory networks.",
+      "authors": [
+        "Congying Liu",
+        "Taihao Li",
+        "Ming Huang",
+        "Xingyuan Wei",
+        "Peipei Liu",
+        "Yiqing Shen",
+        "Yanxu Mao",
+        "Tiehan Cui"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "published": "2026-03-02T05:25:41+00:00",
+      "link": "https://arxiv.org/pdf/2603.01464v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Multimodal protein search agent with LLMs for variant analysis and function reasoning",
+      "llm_evidence_cn": "结合LLM的多轮多模态蛋白质搜索智能体，用于变异分析和功能推理",
+      "llm_evidence": "结合LLM的多轮多模态蛋白质搜索智能体，用于变异分析和功能推理",
+      "canonical_evidence": "结合LLM的多轮多模态蛋白质搜索智能体，用于变异分析和功能推理",
+      "llm_tldr_en": "Develops ProtRLSearch, a multimodal agent for protein-centric information retrieval and functional reasoning.",
+      "llm_tldr_cn": "开发ProtRLSearch智能体，通过强化学习实现蛋白质序列与文本的多模态搜索。",
+      "llm_tldr": "开发ProtRLSearch智能体，通过强化学习实现蛋白质序列与文本的多模态搜索。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "retrieval augmented assistants for biomedical and genomics literature synthesis",
+      "matched_requirement_id": "req-63",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.01511v1",
+      "title": "Multimodal Mixture-of-Experts with Retrieval Augmentation for Protein Active Site Identification",
+      "abstract": "Accurate identification of protein active sites at the residue level is crucial for understanding protein function and advancing drug discovery. However, current methods face two critical challenges: vulnerability in single-instance prediction due to sparse training data, and inadequate modality reliability estimation that leads to performance degradation when unreliable modalities dominate fusion processes. To address these challenges, we introduce Multimodal Mixture-of-Experts with Retrieval Augmentation (MERA), the first retrieval-augmented framework for protein active site identification. MERA employs hierarchical multi-expert retrieval that dynamically aggregates contextual information from chain, sequence, and active-site perspectives through residue-level mixture-of-experts gating. To prevent modality degradation, we propose a reliability-aware fusion strategy based on Dempster-Shafer evidence theory that quantifies modality trustworthiness through belief mass functions and learnable discounting coefficients, enabling principled multimodal integration. Extensive experiments on ProTAD-Gen and TS125 datasets demonstrate that MERA achieves state-of-the-art performance, with 90% AUPRC on active site prediction and significant gains on peptide-binding site identification, validating the effectiveness of retrieval-augmented multi-expert modeling and reliability-guided fusion.",
+      "authors": [
+        "Jiayang Wu",
+        "Jiale Zhou",
+        "Xingyi Zhang",
+        "Xun Lin",
+        "Tianxu Lv",
+        "Leong Hou U",
+        "Rubo Wang",
+        "Yefeng Zheng"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-03-02T06:40:04+00:00",
+      "link": "https://arxiv.org/pdf/2603.01511v1",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "retrieval-augmented framework for protein active site identification",
+      "llm_evidence_cn": "用于蛋白质活性位点识别的检索增强框架",
+      "llm_evidence": "用于蛋白质活性位点识别的检索增强框架",
+      "canonical_evidence": "用于蛋白质活性位点识别的检索增强框架",
+      "llm_tldr_en": "MERA uses retrieval augmentation and mixture-of-experts for precise protein active site identification.",
+      "llm_tldr_cn": "MERA利用检索增强和混合专家模型实现精确的蛋白质活性位点识别。",
+      "llm_tldr": "MERA利用检索增强和混合专家模型实现精确的蛋白质活性位点识别。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "retrieval augmented generation for biology and bioinformatics",
+      "matched_requirement_id": "req-27",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.01752v1",
+      "title": "Causal Circuit Tracing Reveals Distinct Computational Architectures in Single-Cell Foundation Models: Inhibitory Dominance, Biological Coherence, and Cross-Model Convergence",
+      "abstract": "Motivation: Sparse autoencoders (SAEs) decompose foundation model activations into interpretable features, but causal feature-to-feature interactions across network depth remain unknown for biological foundation models.   Results: We introduce causal circuit tracing by ablating SAE features and measuring downstream responses, and apply it to Geneformer V2-316M and scGPT whole-human across four conditions (96,892 edges, 80,191 forward passes). Both models show approximately 53 percent biological coherence and 65 to 89 percent inhibitory dominance, invariant to architecture and cell type. scGPT produces stronger effects (mean absolute d = 1.40 vs. 1.05) with more balanced dynamics. Cross-model consensus yields 1,142 conserved domain pairs (10.6x enrichment, p < 0.001). Disease-associated domains are 3.59x more likely to be consensus. Gene-level CRISPRi validation shows 56.4 percent directional accuracy, confirming co-expression rather than causal encoding.",
+      "authors": [
+        "Ihor Kendiukhov"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "q-bio.CB",
+        "q-bio.GN"
+      ],
+      "published": "2026-03-02T11:21:44+00:00",
+      "link": "https://arxiv.org/pdf/2603.01752v1",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:SeqAI",
+        "query:BioInfo"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "interpretable features in single-cell foundation models like Geneformer and scGPT",
+      "llm_evidence_cn": "Geneformer和scGPT等单细胞基础模型中的可解释特征",
+      "llm_evidence": "Geneformer和scGPT等单细胞基础模型中的可解释特征",
+      "canonical_evidence": "Geneformer和scGPT等单细胞基础模型中的可解释特征",
+      "llm_tldr_en": "Introduces causal circuit tracing to analyze feature interactions in single-cell foundation models.",
+      "llm_tldr_cn": "引入因果电路追踪技术，分析单细胞基础模型（如Geneformer和scGPT）中的特征交互。",
+      "llm_tldr": "引入因果电路追踪技术，分析单细胞基础模型（如Geneformer和scGPT）中的特征交互。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models for DNA RNA protein and cell biology",
+      "matched_requirement_id": "req-15",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.01752v2",
+      "title": "Causal Circuit Tracing Reveals Distinct Computational Architectures in Single-Cell Foundation Models: Inhibitory Dominance, Biological Coherence, and Cross-Model Convergence",
+      "abstract": "Motivation: Sparse autoencoders (SAEs) decompose foundation model activations into interpretable features, but causal feature-to-feature interactions across network depth remain unknown for biological foundation models.   Results: We introduce causal circuit tracing by ablating SAE features and measuring downstream responses, and apply it to Geneformer V2-316M and scGPT whole-human across four conditions (96,892 edges, 80,191 forward passes). Both models show approximately 53 percent biological coherence and 65 to 89 percent inhibitory dominance, invariant to architecture and cell type. scGPT produces stronger effects (mean absolute d = 1.40 vs. 1.05) with more balanced dynamics. Cross-model consensus yields 1,142 conserved domain pairs (10.6x enrichment, p < 0.001). Disease-associated domains are 3.59x more likely to be consensus. Gene-level CRISPRi validation shows 56.4 percent directional accuracy, confirming co-expression rather than causal encoding.",
+      "authors": [
+        "Ihor Kendiukhov"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "q-bio.CB",
+        "q-bio.GN"
+      ],
+      "published": "2026-03-02T11:21:44+00:00",
+      "link": "https://arxiv.org/pdf/2603.01752v2",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:SeqAI",
+        "query:BioInfo"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "causal circuit tracing in single-cell foundation models",
+      "llm_evidence_cn": "单细胞基础模型中的因果电路追踪",
+      "llm_evidence": "单细胞基础模型中的因果电路追踪",
+      "canonical_evidence": "单细胞基础模型中的因果电路追踪",
+      "llm_tldr_en": "Applies causal circuit tracing to reveal computational architectures and biological coherence in Geneformer and scGPT.",
+      "llm_tldr_cn": "通过因果电路追踪揭示了Geneformer和scGPT等单细胞基础模型的计算架构与生物学一致性。",
+      "llm_tldr": "通过因果电路追踪揭示了Geneformer和scGPT等单细胞基础模型的计算架构与生物学一致性。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "large language models and foundation models for bioinformatics",
+      "matched_requirement_id": "req-30",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.01873v1",
+      "title": "Bi-TEAM: A Unified Cross-Scale Representation Learning Framework for Chemically Modified Biomolecules",
+      "abstract": "Representation learning for protein biochemical space faces a difficult trade-off: protein language models excel at capturing long-range biological semantics but often miss fine-grained chemical details. Conversely, chemical language models encode atomic information but lack broader sequence context. To address this, we introduce Bi-TEAM (Bi-gated Residual Space Modification), a general framework that injects localized chemical variation into global protein contexts. By ensuring robustness against perturbations such as non-canonical amino acids, post-translational modifications (PTMs), and topological constraints, Bi-TEAM uncovers functional chemical dependencies often missed by evolutionary baselines. Mechanistically, Bi-TEAM maps non-canonical residues to their natural counterparts and injects atomic-level data via a bi-gated residual fusion mechanism. Crucially, this process uses modification-aware prompts to ensure that local structural changes influence global functional representations without requiring alphabet expansion. We evaluated Bi-TEAM on ten datasets spanning chemically modified peptides, PTMs, and natural proteins. The model consistently outperformed state-of-the-art baselines, achieving up to a 66 percent improvement in Matthews correlation coefficient (MCC) on scaffold-similarity splits and a 350 percent increase in hemolysis prediction accuracy. Furthermore, when deployed as an oracle for generative modeling, Bi-TEAM nearly quadrupled the success rate for designing cell-penetrating cyclic peptides. By unifying biological semantics with chemical precision, Bi-TEAM provides a versatile foundation for machine learning driven exploration of peptide and protein biochemical space.",
+      "authors": [
+        "Chunbin Gu",
+        "Zijun Gao",
+        "Mutian He",
+        "Jingjie Zhang",
+        "Haipeng Wen",
+        "Zihao Luo",
+        "Xiaorui Wang",
+        "Hanqun Cao",
+        "Jiajun Bu",
+        "Chang-Yu Hsieh",
+        "Pheng Ann Heng"
+      ],
+      "primary_category": "q-bio.BM",
+      "categories": [
+        "q-bio.BM"
+      ],
+      "published": "2026-03-02T13:51:28+00:00",
+      "link": "https://arxiv.org/pdf/2603.01873v1",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "representation learning for chemically modified biomolecules and proteins",
+      "llm_evidence_cn": "化学修饰生物分子和蛋白质的表示学习",
+      "llm_evidence": "化学修饰生物分子和蛋白质的表示学习",
+      "canonical_evidence": "化学修饰生物分子和蛋白质的表示学习",
+      "llm_tldr_en": "Introduces Bi-TEAM to capture both global protein context and fine-grained chemical details like modifications.",
+      "llm_tldr_cn": "引入Bi-TEAM框架，同时捕捉蛋白质全局上下文和翻译后修饰等细微化学细节。",
+      "llm_tldr": "引入Bi-TEAM框架，同时捕捉蛋白质全局上下文和翻译后修饰等细微化学细节。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "representation learning for biological sequences and molecules",
+      "matched_requirement_id": "req-26",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.02402v1",
+      "title": "GPU-accelerated single-cell analysis at scale with rapids-singlecell",
+      "abstract": "Single-cell sequencing technologies reveal cellular heterogeneity at high resolution, advancing our understanding of biological complexity. As datasets start to scale to tens of millions of cells, computational workflows face substantial bottlenecks, with CPU-based analytical pipelines requiring hours or days for routine processing steps like filtering, normalization, and clustering. These scalability limitations fundamentally restrict common interactive data exploration and iterative hypothesis testing. Here we introduce rapids-singlecell, a GPU-accelerated framework that integrates natively with the scverse ecosystem and operates directly on the AnnData data structure, which delivers orders-of-magnitude speedups for single-cell workflows. Built on CuPy arrays and the NVIDIA CUDA-X Data Science (RAPIDS) ecosystem, rapids-singlecell provides near drop-in GPU replacements for core scanpy-based analysis steps. Across standard single-cell workflows such as preprocessing, dimensionality reduction, neighborhood graph construction, clustering, and batch correction, rapids-singlecell achieves speedups of up to several hundred-fold compared to optimized CPU baselines. This reduces analysis time from hours to minutes on standard hardware, while maintaining consistent biological interpretations. These performance improvements make it possible to analyze large data sets in close to real time, without the need for data splitting. Together with real-time parameter tuning and iterative workflows, rapids-singlecell makes interactive large-scale single-cell analysis possible.",
+      "authors": [
+        "Severin Dicks",
+        "Lukas Heumos",
+        "Lilly May",
+        "Sara Jimenez",
+        "Philipp Angerer",
+        "Ilan Gold",
+        "Isaac Virshup",
+        "Felix Fischer",
+        "Michelle Gill",
+        "Melanie Boerries",
+        "Corey J Nolet",
+        "Tiffany J. Chen",
+        "Fabian J. Theis"
+      ],
+      "primary_category": "q-bio.GN",
+      "categories": [
+        "q-bio.GN"
+      ],
+      "published": "2026-03-02T21:23:25+00:00",
+      "link": "https://arxiv.org/pdf/2603.02402v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:SeqAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "GPU-accelerated framework for large-scale single-cell analysis",
+      "llm_evidence_cn": "用于大规模单细胞分析的GPU加速框架",
+      "llm_evidence": "用于大规模单细胞分析的GPU加速框架",
+      "canonical_evidence": "用于大规模单细胞分析的GPU加速框架",
+      "llm_tldr_en": "Presents rapids-singlecell, a GPU-accelerated library for scaling single-cell sequencing data analysis.",
+      "llm_tldr_cn": "介绍rapids-singlecell，一个用于大规模单细胞测序数据分析的GPU加速库。",
+      "llm_tldr": "介绍rapids-singlecell，一个用于大规模单细胞测序数据分析的GPU加速库。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "single cell sequencing and spatial transcriptomics analysis with machine learning",
+      "matched_requirement_id": "req-40",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.02406v1",
+      "title": "Rigidity-Aware Geometric Pretraining for Protein Design and Conformational Ensembles",
+      "abstract": "Generative models have recently advanced $\\textit{de novo}$ protein design by learning the statistical regularities of natural structures. However, current approaches face three key limitations: (1) Existing methods cannot jointly learn protein geometry and design tasks, where pretraining can be a solution; (2) Current pretraining methods mostly rely on local, non-rigid atomic representations for property prediction downstream tasks, limiting global geometric understanding for protein generation tasks; and (3) Existing approaches have yet to effectively model the rich dynamic and conformational information of protein structures. To overcome these issues, we introduce $\\textbf{RigidSSL}$ ($\\textit{Rigidity-Aware Self-Supervised Learning}$), a geometric pretraining framework that front-loads geometry learning prior to generative finetuning. Phase I (RigidSSL-Perturb) learns geometric priors from 432K structures from the AlphaFold Protein Structure Database with simulated perturbations. Phase II (RigidSSL-MD) refines these representations on 1.3K molecular dynamics trajectories to capture physically realistic transitions. Underpinning both phases is a bi-directional, rigidity-aware flow matching objective that jointly optimizes translational and rotational dynamics to maximize mutual information between conformations. Empirically, RigidSSL variants improve designability by up to 43\\% while enhancing novelty and diversity in unconditional generation. Furthermore, RigidSSL-Perturb improves the success rate by 5.8\\% in zero-shot motif scaffolding and RigidSSL-MD captures more biophysically realistic conformational ensembles in G protein-coupled receptor modeling. The code is available at: https://github.com/ZhanghanNi/RigidSSL.git.",
+      "authors": [
+        "Zhanghan Ni",
+        "Yanjing Li",
+        "Zeju Qiu",
+        "Bernhard Schölkopf",
+        "Hongyu Guo",
+        "Weiyang Liu",
+        "Shengchao Liu"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "published": "2026-03-02T21:32:30+00:00",
+      "link": "https://arxiv.org/pdf/2603.02406v1",
+      "tags": [
+        "keyword:BioInfo",
+        "query:BioInfo"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "geometric pretraining for protein design and conformational ensembles",
+      "llm_evidence_cn": "用于蛋白质设计和构象系综的几何预训练",
+      "llm_evidence": "用于蛋白质设计和构象系综的几何预训练",
+      "canonical_evidence": "用于蛋白质设计和构象系综的几何预训练",
+      "llm_tldr_en": "Proposes RigidSSL, a rigidity-aware self-supervised learning method for protein geometry and de novo design.",
+      "llm_tldr_cn": "提出RigidSSL，一种感知刚性的自监督学习方法，用于蛋白质几何建模和从头设计。",
+      "llm_tldr": "提出RigidSSL，一种感知刚性的自监督学习方法，用于蛋白质几何建模和从头设计。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "geometric deep learning and foundation models for protein structure modeling",
+      "matched_requirement_id": "req-17",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.02952v1",
+      "title": "Sparse autoencoders reveal organized biological knowledge but minimal regulatory logic in single-cell foundation models: a comparative atlas of Geneformer and scGPT",
+      "abstract": "Background: Single-cell foundation models such as Geneformer and scGPT encode rich biological information, but whether this includes causal regulatory logic rather than statistical co-expression remains unclear. Sparse autoencoders (SAEs) can resolve superposition in neural networks by decomposing dense activations into interpretable features, yet they have not been systematically applied to biological foundation models.   Results: We trained TopK SAEs on residual stream activations from all layers of Geneformer V2-316M (18 layers, d=1152) and scGPT whole-human (12 layers, d=512), producing atlases of 82525 and 24527 features, respectively. Both atlases confirm massive superposition, with 99.8 percent of features invisible to SVD. Systematic characterization reveals rich biological organization: 29 to 59 percent of features annotate to Gene Ontology, KEGG, Reactome, STRING, or TRRUST, with U-shaped layer profiles reflecting hierarchical abstraction. Features organize into co-activation modules (141 in Geneformer, 76 in scGPT), exhibit causal specificity (median 2.36x), and form cross-layer information highways (63 to 99.8 percent). When tested against genome-scale CRISPRi perturbation data, only 3 of 48 transcription factors (6.2 percent) show regulatory-target-specific feature responses. A multi-tissue control yields marginal improvement (10.4 percent, 5 of 48 TFs), establishing model representations as the bottleneck.   Conclusions: These models have internalized organized biological knowledge, including pathway membership, protein interactions, functional modules, and hierarchical abstraction, yet they encode minimal causal regulatory logic. We release both feature atlases as interactive web platforms enabling exploration of more than 107000 features across 30 layers of two leading single-cell foundation models.",
+      "authors": [
+        "Ihor Kendiukhov"
+      ],
+      "primary_category": "q-bio.GN",
+      "categories": [
+        "q-bio.GN",
+        "cs.LG",
+        "q-bio.CB"
+      ],
+      "published": "2026-03-03T13:05:11+00:00",
+      "link": "https://arxiv.org/pdf/2603.02952v1",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "interpretable features in single-cell foundation models",
+      "llm_evidence_cn": "单细胞基础模型中的可解释特征",
+      "llm_evidence": "单细胞基础模型中的可解释特征",
+      "canonical_evidence": "单细胞基础模型中的可解释特征",
+      "llm_tldr_en": "Uses sparse autoencoders to decompose activations of Geneformer and scGPT into interpretable biological features.",
+      "llm_tldr_cn": "利用稀疏自编码器将Geneformer和scGPT的激活分解为可解释的生物学特征。",
+      "llm_tldr": "利用稀疏自编码器将Geneformer和scGPT的激活分解为可解释的生物学特征。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "large language models and foundation models for bioinformatics",
+      "matched_requirement_id": "req-30",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.03005v1",
+      "title": "OrchMAS: Orchestrated Reasoning with Multi Collaborative Heterogeneous Scientific Expert Structured Agents",
+      "abstract": "Multi-agent large language model frameworks are promising for complex multi step reasoning, yet existing systems remain weak for scientific and knowledge intensive domains due to static prompts and agent roles, rigid workflows, and homogeneous model reliance, leading to poor domain adaptation, limited reasoning flexibility, and high latency on heterogeneous or long-horizon scientific tasks. They also struggle to revise earlier decisions when intermediate reasoning diverges, reducing reliability in structured and calculation heavy settings. To address these limitations, we propose a scientific domain oriented interactive two tier multi model orchestration framework. A dedicated orchestration model analyzes each task, dynamically constructs a domain aware reasoning pipeline, and instantiates specialized expert agents with tailored prompts, while an execution model performs each step under generated role and instruction specifications. The orchestrator iteratively updates the pipeline based on intermediate feedback, enabling dynamic replanning, role reallocation, and prompt refinement across multi turn interactions, strengthening robustness and specialization for scientific reasoning through structured heterogeneous model collaboration. The framework is model agnostic and supports heterogeneous LLM integration with different capacities or costs, enabling flexible performance efficiency trade offs in practical scientific deployments. Experiments show consistent improvements over existing multi agent systems and strong baselines across diverse reasoning and scientific style benchmarks.",
+      "authors": [
+        "Yichao Feng",
+        "Haoran Luo",
+        "Zhenghong Lin",
+        "Yiqun Sun",
+        "Pengfei Wei",
+        "Lawrence B. Hsieh",
+        "Anh Tuan Luu"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-03-03T13:57:43+00:00",
+      "link": "https://arxiv.org/pdf/2603.03005v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "query:Agent"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "multi-agent LLM framework for scientific reasoning",
+      "llm_evidence_cn": "用于科学推理的多智能体大语言模型框架",
+      "llm_evidence": "用于科学推理的多智能体大语言模型框架",
+      "canonical_evidence": "用于科学推理的多智能体大语言模型框架",
+      "llm_tldr_en": "Introduces OrchMAS, a multi-agent framework designed for complex reasoning in scientific and knowledge-intensive domains.",
+      "llm_tldr_cn": "介绍了 OrchMAS，一个专为科学和知识密集型领域复杂推理设计的多智能体框架。",
+      "llm_tldr": "介绍了 OrchMAS，一个专为科学和知识密集型领域复杂推理设计的多智能体框架。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "LLM agents for bioinformatics genomics workflows and scientific reasoning",
+      "matched_requirement_id": "req-62",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.03493v1",
+      "title": "Quantifying Ranking Instability Across Evaluation Protocol Axes in Gene Regulatory Network Benchmarking",
+      "abstract": "Benchmark rankings are routinely used to justify scientific claims about method quality in gene regulatory network (GRN) inference, yet the stability of these rankings under plausible evaluation protocol choices is rarely examined. We present a systematic diagnostic framework for measuring ranking instability under protocol shift, including decomposition tools that separate base rate effects from discrimination effects. Using existing single cell GRN benchmark outputs across three human tissues and six inference methods, we quantify pairwise reversal rates across four protocol axes: candidate set restriction (16.3 percent, 95 percent CI 11.0 to 23.4 percent), tissue context (19.3 percent), reference network choice (32.1 percent), and symbol mapping policy (0.0 percent). A permutation null confirms that observed reversal rates are far below random order expectations (0.163 versus null mean 0.500), indicating partially stable but non invariant ranking structure. Our decomposition reveals that reversals are driven by changes in the relative discrimination ability of methods rather than by base rate inflation, a finding that challenges a common implicit assumption in GRN benchmarking. We propose concrete reporting practices for stability aware evaluation and provide a diagnostic toolkit for identifying method pairs at risk of reversal.",
+      "authors": [
+        "Ihor Kendiukhov"
+      ],
+      "primary_category": "q-bio.MN",
+      "categories": [
+        "q-bio.MN",
+        "cs.LG"
+      ],
+      "published": "2026-03-03T20:09:59+00:00",
+      "link": "https://arxiv.org/pdf/2603.03493v1",
+      "tags": [
+        "keyword:BioInfo",
+        "query:BioInfo"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "gene regulatory network (GRN) inference benchmarking",
+      "llm_evidence_cn": "基因调控网络（GRN）推断基准测试",
+      "llm_evidence": "基因调控网络（GRN）推断基准测试",
+      "canonical_evidence": "基因调控网络（GRN）推断基准测试",
+      "llm_tldr_en": "Presents a framework to quantify ranking instability in gene regulatory network inference across evaluation protocols.",
+      "llm_tldr_cn": "提出了一个量化基因调控网络推断在不同评估协议下排名不稳定性的诊断框架。",
+      "llm_tldr": "提出了一个量化基因调控网络推断在不同评估协议下排名不稳定性的诊断框架。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "graph learning and foundation models for gene regulatory network inference and perturbation biology",
+      "matched_requirement_id": "req-22",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.03547v1",
+      "title": "Learning functional groups in complex microbiomes",
+      "abstract": "From soil to the gut, communities composed of thousands of microbes perform functions such as carbon sequestration and immune system regulation. Here, we introduce a data-driven approach that explains how community function can be traced to just a few groups of microbes or genes. In gut communities, our neural-network based clustering algorithm correctly recovers known functional groups. In the ocean metagenome, it distills ~500 gene modules down to three sparse groups highlighting survival strategies at different depths. In soils, it distills ~4400 bacterial species into two groups that enter a mathematical model of nitrate metabolism. By combining interpretable ML with strain isolation and sequencing experiments, we connect the metabolic specialization of each group to community-wide responses to perturbations. This integrated approach yields simple structure-function maps of microbiomes, allowing the discovery of molecular mechanisms underlying human and environmental health. More broadly, we illustrate how to do function-informed dimensionality reduction in biology.",
+      "authors": [
+        "Matthew S Schmitt",
+        "Kiseok Lee",
+        "Freddy Bunbury",
+        "Joseph A Landsittel",
+        "Vincenzo Vitelli",
+        "Seppe Kuehn"
+      ],
+      "primary_category": "physics.bio-ph",
+      "categories": [
+        "physics.bio-ph",
+        "q-bio.GN"
+      ],
+      "published": "2026-03-03T22:03:59+00:00",
+      "link": "https://arxiv.org/pdf/2603.03547v1",
+      "tags": [
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Data-driven approach for learning functional groups in complex microbiomes and metagenomes",
+      "llm_evidence_cn": "在复杂微生物组和宏基因组中学习功能群的数据驱动方法",
+      "llm_evidence": "在复杂微生物组和宏基因组中学习功能群的数据驱动方法",
+      "canonical_evidence": "在复杂微生物组和宏基因组中学习功能群的数据驱动方法",
+      "llm_tldr_en": "Uses neural-network clustering to identify functional groups of microbes or genes in gut and ocean metagenomes.",
+      "llm_tldr_cn": "利用神经网络聚类识别微生物组中的功能群，揭示肠道和海洋宏基因组的代谢特征。",
+      "llm_tldr": "利用神经网络聚类识别微生物组中的功能群，揭示肠道和海洋宏基因组的代谢特征。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.03573v1",
+      "title": "STRIDE: Post-Training LLMs to Reason and Refine Bio-Sequences via Edit Trajectories",
+      "abstract": "Discrete biological sequence optimization requires iterative refinement under strict syntactic constraints. Diffusion models offer progressive refinement but do not naturally expose controllable discrete edit operations, while autoregressive LLMs often lack explicit long-horizon planning for constrained edits. We propose STRIDE (Sequence Trajectory Refinement via Internalized Denoising Emulation), a post-training framework that trains an LLM to emit executable trajectories of atomic edits (INSERT/DELETE/REPLACE) as a verifiable reasoning trace for variable-length refinement. STRIDE combines supervised fine-tuning on Levenshtein-aligned shortest edit demonstrations with group-based policy optimization to align edit trajectories with task rewards while preserving coherent editing behavior. Across protein fluorescence and instruction-conditioned molecular optimization, STRIDE improves variable-length protein editing success from 42% to 89% while increasing novelty from 47% to 97%, and yields stronger validity and controllability compared to diverse baselines. The code is published at https://github.com/daiheng-zhang/STRIDE.",
+      "authors": [
+        "Daiheng Zhang",
+        "Shiyang Zhang",
+        "Sizhuang He",
+        "Yangtian Zhang",
+        "Syed Asad Rizvi",
+        "David van Dijk"
+      ],
+      "primary_category": "cs.CE",
+      "categories": [
+        "cs.CE"
+      ],
+      "published": "2026-03-03T23:05:41+00:00",
+      "link": "https://arxiv.org/pdf/2603.03573v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:SeqAI",
+        "query:BioInfo"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "post-training LLMs to refine biological sequences via edit trajectories",
+      "llm_evidence_cn": "通过编辑轨迹对LLM进行后训练以优化生物序列",
+      "llm_evidence": "通过编辑轨迹对LLM进行后训练以优化生物序列",
+      "canonical_evidence": "通过编辑轨迹对LLM进行后训练以优化生物序列",
+      "llm_tldr_en": "STRIDE enables LLMs to perform verifiable, step-by-step refinement of biological sequences.",
+      "llm_tldr_cn": "STRIDE使LLM能够通过可验证的原子编辑轨迹对生物序列进行逐步优化。",
+      "llm_tldr": "STRIDE使LLM能够通过可验证的原子编辑轨迹对生物序列进行逐步优化。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "generative models and reinforcement learning for protein design and optimization",
+      "matched_requirement_id": "req-18",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.03655v1",
+      "title": "Mozi: Governed Autonomy for Drug Discovery LLM Agents",
+      "abstract": "Tool-augmented large language model (LLM) agents promise to unify scientific reasoning with computation, yet their deployment in high-stakes domains like drug discovery is bottlenecked by two critical barriers: unconstrained tool-use governance and poor long-horizon reliability. In dependency-heavy pharmaceutical pipelines, autonomous agents often drift into irreproducible trajectories, where early-stage hallucinations multiplicatively compound into downstream failures. To overcome this, we present Mozi, a dual-layer architecture that bridges the flexibility of generative AI with the deterministic rigor of computational biology. Layer A (Control Plane) establishes a governed supervisor--worker hierarchy that enforces role-based tool isolation, limits execution to constrained action spaces, and drives reflection-based replanning. Layer B (Workflow Plane) operationalizes canonical drug discovery stages -- from Target Identification to Lead Optimization -- as stateful, composable skill graphs. This layer integrates strict data contracts and strategic human-in-the-loop (HITL) checkpoints to safeguard scientific validity at high-uncertainty decision boundaries.   Operating on the design principle of ``free-form reasoning for safe tasks, structured execution for long-horizon pipelines,'' Mozi provides built-in robustness mechanisms and trace-level audibility to completely mitigate error accumulation. We evaluate Mozi on PharmaBench, a curated benchmark for biomedical agents, demonstrating superior orchestration accuracy over existing baselines. Furthermore, through end-to-end therapeutic case studies, we demonstrate Mozi's ability to navigate massive chemical spaces, enforce stringent toxicity filters, and generate highly competitive in silico candidates, effectively transforming the LLM from a fragile conversationalist into a reliable, governed co-scientist.",
+      "authors": [
+        "He Cao",
+        "Siyu Liu",
+        "Fan Zhang",
+        "Zijing Liu",
+        "Hao Li",
+        "Bin Feng",
+        "Shengyuan Bai",
+        "Leqing Chen",
+        "Kai Xie",
+        "Yu Li"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-03-04T02:22:21+00:00",
+      "link": "https://arxiv.org/pdf/2603.03655v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "query:Agent",
+        "query:BioInfo"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "governed LLM agents for drug discovery and computational biology",
+      "llm_evidence_cn": "用于药物研发和计算生物学的受控大模型智能体",
+      "llm_evidence": "用于药物研发和计算生物学的受控大模型智能体",
+      "canonical_evidence": "用于药物研发和计算生物学的受控大模型智能体",
+      "llm_tldr_en": "Introduces Mozi, a dual-layer architecture for governed and reliable LLM agents in drug discovery pipelines.",
+      "llm_tldr_cn": "推出Mozi，一种双层架构，旨在为药物研发流程提供受控且可靠的LLM智能体。",
+      "llm_tldr": "推出Mozi，一种双层架构，旨在为药物研发流程提供受控且可靠的LLM智能体。",
+      "llm_tags": [
+        "query:agent:composite"
+      ],
+      "matched_query_tag": "query:agent:composite",
+      "matched_query_text": "Papers central to 生信科研 Agent 与知识助手, especially work that connects or combines: autonomous agents for biomedical literature reasoning genomic data analysis and evidence synthesis; scientific discovery agents for bioinformatics genomics and computational biology tasks; literature mining and question answering for bioinformatics genomics and life science papers; AI agents for wet lab automation sequencing experiments and bioinformatics experimental planning; retrieval augmented generation for bioinformatics genomics and biomedicine; benchmark and evaluation of bioinformatics genomics oriented language models; copilots for bioinformatics pipelines genomic literature triage and experiment planning; LLM agents for bioinformatics genomics workflows and scientific reasoning; retrieval augmented assistants for biomedical and genomics literature synthesis; evaluation protocols for biomedical bioinformatics and scientific agents.",
+      "matched_requirement_id": "req-composite-agent",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.04045v1",
+      "title": "Inference-Time Toxicity Mitigation in Protein Language Models",
+      "abstract": "Protein language models (PLMs) are becoming practical tools for de novo protein design, yet their dual-use potential raises safety concerns. We show that domain adaptation to specific taxonomic groups can elicit toxic protein generation, even when toxicity is not the training objective. To address this, we adapt Logit Diff Amplification (LDA) as an inference-time control mechanism for PLMs. LDA modifies token probabilities by amplifying the logit difference between a baseline model and a toxicity-finetuned model, requiring no retraining. Across four taxonomic groups, LDA consistently reduces predicted toxicity rate (measured via ToxDL2) below the taxon-finetuned baseline while preserving biological plausibility. We evaluate quality using Fréchet ESM Distance and predicted foldability (pLDDT), finding that LDA maintains distributional similarity to natural proteins and structural viability (unlike activation-based steering methods that tend to degrade sequence properties). Our results demonstrate that LDA provides a practical safety knob for protein generators that mitigates elicited toxicity while retaining generative quality.",
+      "authors": [
+        "Manuel Fernández Burda",
+        "Santiago Aranguri",
+        "Iván Arcuschin Moreno",
+        "Enzo Ferrante"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "published": "2026-03-04T13:28:51+00:00",
+      "link": "https://arxiv.org/pdf/2603.04045v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Inference-time toxicity mitigation in protein language models",
+      "llm_evidence_cn": "蛋白质语言模型推理阶段的毒性缓解",
+      "llm_evidence": "蛋白质语言模型推理阶段的毒性缓解",
+      "canonical_evidence": "蛋白质语言模型推理阶段的毒性缓解",
+      "llm_tldr_en": "Introduces a control mechanism to reduce toxic protein generation in PLMs while preserving biological plausibility.",
+      "llm_tldr_cn": "引入一种控制机制，在保持生物学合理性的同时减少蛋白质语言模型生成的毒性序列。",
+      "llm_tldr": "引入一种控制机制，在保持生物学合理性的同时减少蛋白质语言模型生成的毒性序列。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "protein language models for structure prediction function prediction and design",
+      "matched_requirement_id": "req-31",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "2602.23269v1",
+      "title": "An Active Learning Framework for Data-Efficient, Human-in-the-Loop Enzyme Function Prediction",
+      "abstract": "Generalizable protein function prediction is increasingly constrained by the growing mismatch between exponentially expanding sequences of environmental proteins and the comparatively slow accumulation of experimentally verified functional data. Active learning offers a promising path forward for accelerating biological function prediction, by selecting the most informative proteins to experimentally annotate for data-efficient training, yet its potential remains largely unexplored. We introduce HATTER (Human-in-the-loop Adaptive Toolkit for Transferable Enzyme Representations), a modular framework that integrates multiple active learning strategies with human-in-the-loop experimental annotation to efficiently fine tune function prediction models. We compare active learning training to standard supervised training for biological enzyme function prediction, demonstrating that active learning achieves performance comparable to standard training across diverse protein sequence evaluation datasets while requiring fewer model updates, processing less data, and substantially reducing computational cost. Interestingly, point-based uncertainty sampling methods like entropy or margin sampling perform as well or better than more complex acquisition functions such as bayesian sampling or BALD, highlighting the relative importance of sequence diversity in training datasets and model architecture design. These results demonstrate that human-in-the-loop active learning can efficiently accelerate enzyme discovery, providing a flexible platform for adaptive, scalable, and expert-guided protein function prediction.",
+      "authors": [
+        "Ashley Babjac",
+        "Adrienne Hoarfrost"
+      ],
+      "primary_category": "q-bio.QM",
+      "categories": [
+        "q-bio.QM"
+      ],
+      "published": "2026-02-26T17:42:06+00:00",
+      "link": "https://arxiv.org/pdf/2602.23269v1",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "active learning framework for enzyme function prediction",
+      "llm_evidence_cn": "用于酶功能预测的主动学习框架",
+      "llm_evidence": "用于酶功能预测的主动学习框架",
+      "canonical_evidence": "用于酶功能预测的主动学习框架",
+      "llm_tldr_en": "HATTER integrates active learning and human-in-the-loop for efficient protein function annotation.",
+      "llm_tldr_cn": "HATTER集成了主动学习和人机协同，用于高效的蛋白质功能标注和预测。",
+      "llm_tldr": "HATTER集成了主动学习和人机协同，用于高效的蛋白质功能标注和预测。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "protein language models for structure prediction function prediction and design",
+      "matched_requirement_id": "req-31",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2602.23088v1",
+      "title": "Cytoarchitecture in Words: Weakly Supervised Vision-Language Modeling for Human Brain Microscopy",
+      "abstract": "Foundation models increasingly offer potential to support interactive, agentic workflows that assist researchers during analysis and interpretation of image data. Such workflows often require coupling vision to language to provide a natural-language interface. However, paired image-text data needed to learn this coupling are scarce and difficult to obtain in many research and clinical settings. One such setting is microscopic analysis of cell-body-stained histological human brain sections, which enables the study of cytoarchitecture: cell density and morphology and their laminar and areal organization. Here, we propose a label-mediated method that generates meaningful captions from images by linking images and text only through a label, without requiring curated paired image-text data. Given the label, we automatically mine area descriptions from related literature and use them as synthetic captions reflecting canonical cytoarchitectonic attributes. An existing cytoarchitectonic vision foundation model (CytoNet) is then coupled to a large language model via an image-to-text training objective, enabling microscopy regions to be described in natural language. Across 57 brain areas, the resulting method produces plausible area-level descriptions and supports open-set use through explicit rejection of unseen areas. It matches the cytoarchitectonic reference label for in-scope patches with 90.6% accuracy and, with the area label masked, its descriptions remain discriminative enough to recover the area in an 8-way test with 68.6% accuracy. These results suggest that weak, label-mediated pairing can suffice to connect existing biomedical vision foundation models to language, providing a practical recipe for integrating natural-language in domains where fine-grained paired annotations are scarce.",
+      "authors": [
+        "Matthew Sutton",
+        "Katrin Amunts",
+        "Timo Dickscheid",
+        "Christian Schiffer"
+      ],
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-02-26T15:10:39+00:00",
+      "link": "https://arxiv.org/pdf/2602.23088v1",
+      "tags": [
+        "keyword:Agent",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "vision-language modeling for brain microscopy and tissue organization",
+      "llm_evidence_cn": "用于脑显微镜检查和组织结构的视觉语言建模",
+      "llm_evidence": "用于脑显微镜检查和组织结构的视觉语言建模",
+      "canonical_evidence": "用于脑显微镜检查和组织结构的视觉语言建模",
+      "llm_tldr_en": "A weakly supervised vision-language model for analyzing cytoarchitecture in human brain microscopy images.",
+      "llm_tldr_cn": "一种弱监督视觉语言模型，用于分析人脑显微图像中的细胞架构。",
+      "llm_tldr": "一种弱监督视觉语言模型，用于分析人脑显微图像中的细胞架构。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "deep learning and foundation models for spatial transcriptomics proteomics and tissue mapping",
+      "matched_requirement_id": "req-46",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2602.22568v1",
+      "title": "Quality-Aware Robust Multi-View Clustering for Heterogeneous Observation Noise",
+      "abstract": "Deep multi-view clustering has achieved remarkable progress but remains vulnerable to complex noise in real-world applications. Existing noisy robust methods predominantly rely on a simplified binary assumption, treating data as either perfectly clean or completely corrupted. This overlooks the prevalent existence of heterogeneous observation noise, where contamination intensity varies continuously across data. To bridge this gap, we propose a novel framework termed Quality-Aware Robust Multi-View Clustering (QARMVC). Specifically, QARMVC employs an information bottleneck mechanism to extract intrinsic semantics for view reconstruction. Leveraging the insight that noise disrupts semantic integrity and impedes reconstruction, we utilize the resulting reconstruction discrepancy to precisely quantify fine-grained contamination intensity and derive instance-level quality scores. These scores are integrated into a hierarchical learning strategy: at the feature level, a quality-weighted contrastive objective is designed to adaptively suppress the propagation of noise; at the fusion level, a high-quality global consensus is constructed via quality-weighted aggregation, which is subsequently utilized to align and rectify local views via mutual information maximization. Extensive experiments on five benchmark datasets demonstrate that QARMVC consistently outperforms state-of-the-art baselines, particularly in scenarios with heterogeneous noise intensities.",
+      "authors": [
+        "Peihan Wu",
+        "Guanjie Cheng",
+        "Yufei Tong",
+        "Meng Xi",
+        "Shuiguang Deng"
+      ],
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "published": "2026-02-26T03:16:44+00:00",
+      "link": "https://arxiv.org/pdf/2602.22568v1",
+      "tags": [
+        "keyword:SeqAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Robust multi-view clustering for heterogeneous noise in real-world applications",
+      "llm_evidence_cn": "针对现实应用中异构噪声的鲁棒多视图聚类",
+      "llm_evidence": "针对现实应用中异构噪声的鲁棒多视图聚类",
+      "canonical_evidence": "针对现实应用中异构噪声的鲁棒多视图聚类",
+      "llm_tldr_en": "A framework for multi-view clustering that handles complex noise, applicable to multi-omics data integration.",
+      "llm_tldr_cn": "提出QARMVC框架，通过信息瓶颈机制提升多视图聚类在噪声数据下的鲁棒性。",
+      "llm_tldr": "提出QARMVC框架，通过信息瓶颈机制提升多视图聚类在噪声数据下的鲁棒性。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "machine learning for multi omics integration",
+      "matched_requirement_id": "req-25",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2602.23271v1",
+      "title": "Evaluating Stochasticity in Deep Research Agents",
+      "abstract": "Deep Research Agents (DRAs) are promising agentic systems that gather and synthesize information to support research across domains such as financial decision-making, medical analysis, and scientific discovery. Despite recent improvements in research quality (e.g., outcome accuracy when ground truth is available), DRA system design often overlooks a critical barrier to real-world deployment: stochasticity. Under identical queries, repeated executions of DRAs can exhibit substantial variability in terms of research outcome, findings, and citations. In this paper, we formalize the study of stochasticity in DRAs by modeling them as information acquisition Markov Decision Processes. We introduce an evaluation framework that quantifies variance in the system and identify three sources of it: information acquisition, information compression, and inference. Through controlled experiments, we investigate how stochasticity from these modules across different decision steps influences the variance of DRA outputs. Our results show that reducing stochasticity can improve research output quality, with inference and early-stage stochasticity contributing the most to DRA output variance. Based on these findings, we propose strategies for mitigating stochasticity while maintaining output quality via structured output and ensemble-based query generation. Our experiments on DeepSearchQA show that our proposed mitigation methods reduce average stochasticity by 22% while maintaining high research quality.",
+      "authors": [
+        "Haotian Zhai",
+        "Elias Stengel-Eskin",
+        "Pratik Patil",
+        "Liu Leqi"
+      ],
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "published": "2026-02-26T17:46:42+00:00",
+      "link": "https://arxiv.org/pdf/2602.23271v1",
+      "tags": [
+        "keyword:Agent",
+        "query:Agent"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "evaluating stochasticity in deep research agents",
+      "llm_evidence_cn": "评估深度研究智能体的随机性",
+      "llm_evidence": "评估深度研究智能体的随机性",
+      "canonical_evidence": "评估深度研究智能体的随机性",
+      "llm_tldr_en": "Formalizes the study of outcome variability in AI agents used for scientific discovery and medical analysis.",
+      "llm_tldr_cn": "正式研究了用于科学发现和医学分析的 AI 智能体在输出结果上的变异性。",
+      "llm_tldr": "正式研究了用于科学发现和医学分析的 AI 智能体在输出结果上的变异性。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "evaluation protocols for biomedical bioinformatics and scientific agents",
+      "matched_requirement_id": "req-64",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2602.23449v1",
+      "title": "A Novel Aggregated SIR Model for Spatial Epidemic Propagation",
+      "abstract": "We propose an extension of the classical susceptible infectious recovered (SIR) model that incorporates the effects of spatial propagation of an epidemic through a small number of additional compartments. The model is designed to capture the dynamics of disease spread across multiple interconnected cities or populated regions, while avoiding the high dimensionality and large parameter sets typical of network based or agent-based approaches. Instead of explicitly modeling individual locations or mobility networks, we introduce aggregate variables that describe whether the epidemic has not yet reached, is currently active in, or has already passed through different regions of the spatial domain. This formulation allows the model to reproduce key qualitative features observed in aggregated incidence data, such as prolonged plateaus and multiple infection waves arising from asynchronous local outbreaks. The resulting system consists of ordinary differential equations with a relatively small number of interpretable parameters, providing a tractable framework for analytical investigation and numerical simulation. Our approach offers a parsimonious alternative for studying spatially structured epidemic dynamics when only aggregated data are available or when model simplicity is essential.",
+      "authors": [
+        "M. Soledad Aronna",
+        "Mariana Bergonzi",
+        "Ernesto Kofman"
+      ],
+      "primary_category": "math.NA",
+      "categories": [
+        "math.NA"
+      ],
+      "published": "2026-02-26T19:13:44+00:00",
+      "link": "https://arxiv.org/pdf/2602.23449v1",
+      "tags": [
+        "query:PathoAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Aggregated SIR model for spatial epidemic propagation",
+      "llm_evidence_cn": "用于空间流行病传播的聚合SIR模型",
+      "llm_evidence": "用于空间流行病传播的聚合SIR模型",
+      "canonical_evidence": "用于空间流行病传播的聚合SIR模型",
+      "llm_tldr_en": "Extends the SIR model to capture spatial disease spread across regions without high-dimensional network complexity.",
+      "llm_tldr_cn": "扩展了SIR模型，在不增加高维网络复杂性的情况下捕捉跨区域的空间疾病传播动态。",
+      "llm_tldr": "扩展了SIR模型，在不增加高维网络复杂性的情况下捕捉跨区域的空间疾病传播动态。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI driven outbreak surveillance genomic epidemiology and transmission modeling",
+      "matched_requirement_id": "req-12",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2602.24224v1",
+      "title": "Random-Forest-Induced Graph Neural Networks for Tabular Learning",
+      "abstract": "Graphs are essential for modeling complex relationships and capturing structured interactions in data. Graph Neural Networks (GNNs) are particularly effective when such relational structure is explicitly available, but many real-world datasets, most notably tabular data, lack an inherent graph representation. To address this limitation, we propose RF-GNN, a framework that constructs instance-level graphs from tabular data using proximity measures induced by random forests. These proximities capture nonlinear feature interactions and data-adaptive similarity without imposing restrictive assumptions on feature geometry. The resulting graphs enable the direct application of GNNs to tabular learning problems. Extensive experiments on 36 benchmark datasets demonstrate that RF-GNN consistently outperforms strong classical baselines and recent graph-construction methods in terms of weighted F1-score. Additional ablation studies highlight the impact of proximity design choices and graph construction settings.",
+      "authors": [
+        "Haozhe Chen",
+        "Soheila Farokhi",
+        "Kelvyn Bladen",
+        "Hamid Karimi",
+        "Kevin R. Moon"
+      ],
+      "primary_category": "cs.GR",
+      "categories": [
+        "cs.GR"
+      ],
+      "published": "2026-02-27T17:51:18+00:00",
+      "link": "https://arxiv.org/pdf/2602.24224v1",
+      "tags": [
+        "keyword:BioInfo",
+        "query:BioInfo"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "graph neural networks for tabular data learning",
+      "llm_evidence_cn": "用于表格数据学习的图神经网络",
+      "llm_evidence": "用于表格数据学习的图神经网络",
+      "canonical_evidence": "用于表格数据学习的图神经网络",
+      "llm_tldr_en": "Proposes RF-GNN to construct instance-level graphs from tabular data, enabling GNN application to non-graph data.",
+      "llm_tldr_cn": "提出RF-GNN框架，通过随机森林构建实例图，使图神经网络能应用于表格数据学习。",
+      "llm_tldr": "提出RF-GNN框架，通过随机森林构建实例图，使图神经网络能应用于表格数据学习。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "graph learning and foundation models for gene regulatory network inference and perturbation biology",
+      "matched_requirement_id": "req-22",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2602.24007v1",
+      "title": "Inference-time optimization for experiment-grounded protein ensemble generation",
+      "abstract": "Protein function relies on dynamic conformational ensembles, yet current generative models like AlphaFold3 often fail to produce ensembles that match experimental data. Recent experiment-guided generators attempt to address this by steering the reverse diffusion process. However, these methods are limited by fixed sampling horizons and sensitivity to initialization, often yielding thermodynamically implausible results. We introduce a general inference-time optimization framework to solve these challenges. First, we optimize over latent representations to maximize ensemble log-likelihood, rather than perturbing structures post hoc. This approach eliminates dependence on diffusion length, removes initialization bias, and easily incorporates external constraints. Second, we present novel sampling schemes for drawing Boltzmann-weighted ensembles. By combining structural priors from AlphaFold3 with force-field-based priors, we sample from their product distribution while balancing experimental likelihoods. Our results show that this framework consistently outperforms state-of-the-art guidance, improving diversity, physical energy, and agreement with data in X-ray crystallography and NMR, often fitting the experimental data better than deposited PDB structures. Finally, inference-time optimization experiments maximizing ipTM scores reveal that perturbing AlphaFold3 embeddings can artificially inflate model confidence. This exposes a vulnerability in current design metrics, whose mitigation could offer a pathway to reduce false discovery rates in binder engineering.",
+      "authors": [
+        "Advaith Maddipatla",
+        "Anar Rzayev",
+        "Marco Pegoraro",
+        "Martin Pacesa",
+        "Paul Schanda",
+        "Ailie Marx",
+        "Sanketh Vedula",
+        "Alex M. Bronstein"
+      ],
+      "primary_category": "q-bio.BM",
+      "categories": [
+        "q-bio.BM",
+        "cs.LG"
+      ],
+      "published": "2026-02-27T13:31:07+00:00",
+      "link": "https://arxiv.org/pdf/2602.24007v1",
+      "tags": [
+        "keyword:BioInfo",
+        "query:BioInfo"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "inference-time optimization for protein ensemble generation",
+      "llm_evidence_cn": "蛋白质构象集生成的推理时优化",
+      "llm_evidence": "蛋白质构象集生成的推理时优化",
+      "canonical_evidence": "蛋白质构象集生成的推理时优化",
+      "llm_tldr_en": "Introduces an optimization framework to improve the generation of thermodynamically plausible protein ensembles.",
+      "llm_tldr_cn": "引入了一个优化框架，以改进符合热力学原理的蛋白质构象集的生成。",
+      "llm_tldr": "引入了一个优化框架，以改进符合热力学原理的蛋白质构象集的生成。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "generative models and reinforcement learning for protein design and optimization",
+      "matched_requirement_id": "req-18",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2602.23729v1",
+      "title": "From Static Benchmarks to Dynamic Protocol: Agent-Centric Text Anomaly Detection for Evaluating LLM Reasoning",
+      "abstract": "The evaluation of large language models (LLMs) has predominantly relied on static datasets, which offer limited scalability and fail to capture the evolving reasoning capabilities of recent models. To overcome these limitations, we propose an agent-centric benchmarking paradigm that moves beyond static datasets by introducing a dynamic protocol in which autonomous agents iteratively generate, validate, and solve problems. Within this protocol, a teacher agent generates candidate problems, an orchestrator agent rigorously verifies their validity and guards against adversarial attacks, and a student agent attempts to solve the validated problems. An invalid problem is revised by the teacher agent until it passes validation. If the student correctly solves the problem, the orchestrator prompts the teacher to generate more challenging variants. Consequently, the benchmark scales in difficulty automatically as more capable agents are substituted into any role, enabling progressive evaluation of large language models without manually curated datasets. Adopting text anomaly detection as our primary evaluation format, which demands cross-sentence logical inference and resists pattern-matching shortcuts, we demonstrate that this protocol systematically exposes corner-case reasoning errors that conventional benchmarks fail to reveal. We further advocate evaluating systems along several complementary axes including cross-model pairwise performance and progress between the initial and orchestrator-finalized problems. By shifting the focus from fixed datasets to dynamic protocols, our approach offers a sustainable direction for evaluating ever-evolving language models and introduces a research agenda centered on the co-evolution of agent-centric benchmarks.",
+      "authors": [
+        "Seungdong Yoa",
+        "Sanghyu Yoon",
+        "Suhee Yoon",
+        "Dongmin Kim",
+        "Ye Seul Sim",
+        "Junhyun Lee",
+        "Woohyung Lim"
+      ],
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "published": "2026-02-27T06:54:32+00:00",
+      "link": "https://arxiv.org/pdf/2602.23729v1",
+      "tags": [
+        "query:Agent"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Agent-centric benchmarking paradigm for evaluating LLM reasoning capabilities",
+      "llm_evidence_cn": "用于评估LLM推理能力的以智能体为中心的基准测试范式",
+      "llm_evidence": "用于评估LLM推理能力的以智能体为中心的基准测试范式",
+      "canonical_evidence": "用于评估LLM推理能力的以智能体为中心的基准测试范式",
+      "llm_tldr_en": "Introduces a dynamic protocol where agents generate and solve problems to evaluate LLM reasoning.",
+      "llm_tldr_cn": "提出一种动态协议，通过智能体交互生成并解决问题，以评估LLM的推理能力。",
+      "llm_tldr": "提出一种动态协议，通过智能体交互生成并解决问题，以评估LLM的推理能力。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "evaluation protocols for biomedical bioinformatics and scientific agents",
+      "matched_requirement_id": "req-64",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2603.01131v1",
+      "title": "MedCollab: Causal-Driven Multi-Agent Collaboration for Full-Cycle Clinical Diagnosis via IBIS-Structured Argumentation",
+      "abstract": "Large language models (LLMs) have shown promise in healthcare applications, however, their use in clinical practice is still limited by diagnostic hallucinations and insufficiently interpretable reasoning. We present MedCollab, a novel multi-agent framework that emulates the hierarchical consultation workflow of modern hospitals to autonomously navigate the full-cycle diagnostic process. The framework incorporates a dynamic specialist recruitment mechanism that adaptively assembles clinical and examination agents according to patient-specific symptoms and examination results. To ensure the rigor of clinical work, we adopt a structured Issue-Based Information System (IBIS) argumentation protocol that requires agents to provide ``Positions'' backed by traceable evidence from medical knowledge and clinical data. Furthermore, the framework constructs a Hierarchical Disease Causal Chain that transforms flattened diagnostic predictions into a structured model of pathological progression through explicit logical operators. A multi-round Consensus Mechanism iteratively filters low-quality reasoning through logic auditing and weighted voting. Evaluated on real-world clinical datasets, MedCollab significantly outperforms pure LLMs and medical multi-agent systems in Accuracy and RaTEScore, demonstrating a marked reduction in medical hallucinations. These findings indicate that MedCollab provides an extensible, transparent, and clinically compliant approach to medical decision-making.",
+      "authors": [
+        "Yuqi Zhan",
+        "Xinyue Wu",
+        "Tianyu Lin",
+        "Yutong Bao",
+        "Xiaoyu Wang",
+        "Weihao Cheng",
+        "Huangwei Chen",
+        "Feiwei Qin",
+        "Zhu Zhu"
+      ],
+      "primary_category": "cs.MA",
+      "categories": [
+        "cs.MA",
+        "cs.AI"
+      ],
+      "published": "2026-03-01T14:25:58+00:00",
+      "link": "https://arxiv.org/pdf/2603.01131v1",
+      "tags": [
+        "keyword:Agent",
+        "query:Agent"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "multi-agent framework for autonomous clinical diagnosis",
+      "llm_evidence_cn": "用于自主临床诊断的多智能体框架",
+      "llm_evidence": "用于自主临床诊断的多智能体框架",
+      "canonical_evidence": "用于自主临床诊断的多智能体框架",
+      "llm_tldr_en": "MedCollab uses multi-agent collaboration and structured argumentation to navigate clinical diagnostic processes.",
+      "llm_tldr_cn": "MedCollab利用多智能体协作和结构化论证来引导临床诊断过程。",
+      "llm_tldr": "MedCollab利用多智能体协作和结构化论证来引导临床诊断过程。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "autonomous agents for biomedical literature reasoning genomic data analysis and evidence synthesis",
+      "matched_requirement_id": "req-55",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2602.24007v2",
+      "title": "Inference-time optimization for experiment-grounded protein ensemble generation",
+      "abstract": "Protein function relies on dynamic conformational ensembles, yet current generative models like AlphaFold3 often fail to produce ensembles that match experimental data. Recent experiment-guided generators attempt to address this by steering the reverse diffusion process. However, these methods are limited by fixed sampling horizons and sensitivity to initialization, often yielding thermodynamically implausible results. We introduce a general inference-time optimization framework to solve these challenges. First, we optimize over latent representations to maximize ensemble log-likelihood, rather than perturbing structures post hoc. This approach eliminates dependence on diffusion length, removes initialization bias, and easily incorporates external constraints. Second, we present novel sampling schemes for drawing Boltzmann-weighted ensembles. By combining structural priors from AlphaFold3 with force-field-based priors, we sample from their product distribution while balancing experimental likelihoods. Our results show that this framework consistently outperforms state-of-the-art guidance, improving diversity, physical energy, and agreement with data in X-ray crystallography and NMR, often fitting the experimental data better than deposited PDB structures. Finally, inference-time optimization experiments maximizing ipTM scores reveal that perturbing AlphaFold3 embeddings can artificially inflate model confidence. This exposes a vulnerability in current design metrics, whose mitigation could offer a pathway to reduce false discovery rates in binder engineering.",
+      "authors": [
+        "Advaith Maddipatla",
+        "Anar Rzayev",
+        "Marco Pegoraro",
+        "Martin Pacesa",
+        "Paul Schanda",
+        "Ailie Marx",
+        "Sanketh Vedula",
+        "Alex M. Bronstein"
+      ],
+      "primary_category": "q-bio.BM",
+      "categories": [
+        "q-bio.BM",
+        "cs.LG"
+      ],
+      "published": "2026-02-27T13:31:07+00:00",
+      "link": "https://arxiv.org/pdf/2602.24007v2",
+      "tags": [
+        "keyword:BioInfo",
+        "query:BioInfo"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "inference-time optimization for protein ensemble generation",
+      "llm_evidence_cn": "蛋白质构象集生成的推理时优化",
+      "llm_evidence": "蛋白质构象集生成的推理时优化",
+      "canonical_evidence": "蛋白质构象集生成的推理时优化",
+      "llm_tldr_en": "Introduces an optimization framework to improve the generation of thermodynamically plausible protein ensembles.",
+      "llm_tldr_cn": "引入了一个优化框架，以改进符合热力学原理的蛋白质构象集的生成。",
+      "llm_tldr": "引入了一个优化框架，以改进符合热力学原理的蛋白质构象集的生成。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "generative models and reinforcement learning for protein design and optimization",
+      "matched_requirement_id": "req-18",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2602.23766v1",
+      "title": "UniFAR: A Unified Facet-Aware Retrieval Framework for Scientific Documents",
+      "abstract": "Existing scientific document retrieval (SDR) methods primarily rely on document-centric representations learned from inter-document relationships for document-document (doc-doc) retrieval. However, the rise of LLMs and RAG has shifted SDR toward question-driven retrieval, where documents are retrieved in response to natural-language questions (q-doc). This change has led to systematic mismatches between document-centric models and question-driven retrieval, including (1) input granularity (long documents vs. short questions), (2) semantic focus (scientific discourse structure vs. specific question intent), and (3) training signals (citation-based similarity vs. question-oriented relevance). To this end, we propose UniFAR, a Unified Facet-Aware Retrieval framework to jointly support doc-doc and q-doc SDR within a single architecture. UniFAR reconciles granularity differences through adaptive multi-granularity aggregation, aligns document structure with question intent via learnable facet anchors, and unifies doc-doc and q-doc supervision through joint training. Experimental results show that UniFAR consistently outperforms prior methods across multiple retrieval tasks and base models, confirming its effectiveness and generality.",
+      "authors": [
+        "Zheng Dou",
+        "Zhao Zhang",
+        "Deqing Wang",
+        "Yikun Ban",
+        "Fuzhen Zhuang"
+      ],
+      "primary_category": "cs.IR",
+      "categories": [
+        "cs.IR"
+      ],
+      "published": "2026-02-27T07:44:02+00:00",
+      "link": "https://arxiv.org/pdf/2602.23766v1",
+      "tags": [
+        "keyword:Agent",
+        "query:Agent"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Unified facet-aware retrieval framework for scientific documents and RAG",
+      "llm_evidence_cn": "用于科学文献检索和RAG的统一面相感知检索框架",
+      "llm_evidence": "用于科学文献检索和RAG的统一面相感知检索框架",
+      "canonical_evidence": "用于科学文献检索和RAG的统一面相感知检索框架",
+      "llm_tldr_en": "Proposes UniFAR to improve question-driven scientific document retrieval for LLMs and RAG systems.",
+      "llm_tldr_cn": "提出UniFAR框架，优化了面向LLM和RAG的科学文献问答驱动检索。",
+      "llm_tldr": "提出UniFAR框架，优化了面向LLM和RAG的科学文献问答驱动检索。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "retrieval augmented generation for bioinformatics genomics and biomedicine",
+      "matched_requirement_id": "req-59",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2603.01690v2",
+      "title": "QIME: Constructing Interpretable Medical Text Embeddings via Ontology-Grounded Questions",
+      "abstract": "While dense biomedical embeddings achieve strong performance, their black-box nature limits their utility in clinical decision-making. Recent question-based interpretable embeddings represent text as binary answers to natural-language questions, but these approaches often rely on heuristic or surface-level contrastive signals and overlook specialized domain knowledge. We propose QIME, an ontology-grounded framework for constructing interpretable medical text embeddings in which each dimension corresponds to a clinically meaningful yes/no question. By conditioning on cluster-specific medical concept signatures, QIME generates semantically atomic questions that capture fine-grained distinctions in biomedical text. Furthermore, QIME supports a training-free embedding construction strategy that eliminates per-question classifier training while further improving performance. Experiments across biomedical semantic similarity, clustering, and retrieval benchmarks show that QIME consistently outperforms prior interpretable embedding methods and substantially narrows the gap to strong black-box biomedical encoders, while providing concise and clinically informative explanations.",
+      "authors": [
+        "Yixuan Tang",
+        "Zhenghong Lin",
+        "Yandong Sun",
+        "Wynne Hsu",
+        "Mong Li Lee",
+        "Anthony K. H. Tung"
+      ],
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "published": "2026-03-02T10:18:06+00:00",
+      "link": "https://arxiv.org/pdf/2603.01690v2",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "query:Agent"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "interpretable medical text embeddings via ontology-grounded questions",
+      "llm_evidence_cn": "通过基于本体的问题构建可解释的医学文本嵌入",
+      "llm_evidence": "通过基于本体的问题构建可解释的医学文本嵌入",
+      "canonical_evidence": "通过基于本体的问题构建可解释的医学文本嵌入",
+      "llm_tldr_en": "Constructs interpretable medical embeddings using questions grounded in domain knowledge.",
+      "llm_tldr_cn": "利用基于领域知识的问题构建可解释的医学文本嵌入，提升临床决策支持。",
+      "llm_tldr": "利用基于领域知识的问题构建可解释的医学文本嵌入，提升临床决策支持。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "literature mining and question answering for bioinformatics genomics and life science papers",
+      "matched_requirement_id": "req-57",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2602.24222v1",
+      "title": "MuViT: Multi-Resolution Vision Transformers for Learning Across Scales in Microscopy",
+      "abstract": "Modern microscopy routinely produces gigapixel images that contain structures across multiple spatial scales, from fine cellular morphology to broader tissue organization. Many analysis tasks require combining these scales, yet most vision models operate at a single resolution or derive multi-scale features from one view, limiting their ability to exploit the inherently multi-resolution nature of microscopy data. We introduce MuViT, a transformer architecture built to fuse true multi-resolution observations from the same underlying image. MuViT embeds all patches into a shared world-coordinate system and extends rotary positional embeddings to these coordinates, enabling attention to integrate wide-field context with high-resolution detail within a single encoder. Across synthetic benchmarks, kidney histopathology, and high-resolution mouse-brain microscopy, MuViT delivers consistent improvements over strong ViT and CNN baselines. Multi-resolution MAE pretraining further produces scale-consistent representations that enhance downstream tasks. These results demonstrate that explicit world-coordinate modelling provides a simple yet powerful mechanism for leveraging multi-resolution information in large-scale microscopy analysis.",
+      "authors": [
+        "Albert Dominguez Mantes",
+        "Gioele La Manno",
+        "Martin Weigert"
+      ],
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "published": "2026-02-27T17:48:54+00:00",
+      "link": "https://arxiv.org/pdf/2602.24222v1",
+      "tags": [
+        "keyword:SeqAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Multi-resolution vision transformers for microscopy scales",
+      "llm_evidence_cn": "用于显微镜多尺度学习的多分辨率视觉Transformer",
+      "llm_evidence": "用于显微镜多尺度学习的多分辨率视觉Transformer",
+      "canonical_evidence": "用于显微镜多尺度学习的多分辨率视觉Transformer",
+      "llm_tldr_en": "Introduces MuViT to fuse multi-resolution observations in microscopy for cross-scale structural analysis.",
+      "llm_tldr_cn": "引入MuViT架构，融合显微成像中的多分辨率观测，用于跨尺度的组织结构分析。",
+      "llm_tldr": "引入MuViT架构，融合显微成像中的多分辨率观测，用于跨尺度的组织结构分析。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "deep learning and foundation models for spatial transcriptomics proteomics and tissue mapping",
+      "matched_requirement_id": "req-46",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2602.24201v1",
+      "title": "Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics",
+      "abstract": "Estimating density ratios between pairs of intractable data distributions is a core problem in probabilistic modeling, enabling principled comparisons of sample likelihoods under different data-generating processes across conditions and covariates. While exact-likelihood models such as normalizing flows offer a promising approach to density ratio estimation, naive flow-based evaluations are computationally expensive, as they require simulating costly likelihood integrals for each distribution separately. In this work, we leverage condition-aware flow matching to derive a single dynamical formulation for tracking density ratios along generative trajectories. We demonstrate competitive performance on simulated benchmarks for closed-form ratio estimation, and show that our method supports versatile tasks in single-cell genomics data analysis, where likelihood-based comparisons of cellular states across experimental conditions enable treatment effect estimation and batch correction evaluation.",
+      "authors": [
+        "Egor Antipov",
+        "Alessandro Palma",
+        "Lorenzo Consoli",
+        "Stephan Günnemann",
+        "Andrea Dittadi",
+        "Fabian J. Theis"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "published": "2026-02-27T17:27:55+00:00",
+      "link": "https://arxiv.org/pdf/2602.24201v1",
+      "tags": [
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Flow-based density ratio estimation with applications in genomics",
+      "llm_evidence_cn": "基于流的密度比估计及其在基因组学中的应用",
+      "llm_evidence": "基于流的密度比估计及其在基因组学中的应用",
+      "canonical_evidence": "基于流的密度比估计及其在基因组学中的应用",
+      "llm_tldr_en": "Develops a flow-matching method for density ratio estimation to compare genomic data distributions efficiently.",
+      "llm_tldr_cn": "开发了一种用于密度比估计的流匹配方法，以高效比较基因组数据分布。",
+      "llm_tldr": "开发了一种用于密度比估计的流匹配方法，以高效比较基因组数据分布。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "foundation models for genomic sequencing signal read and variant analysis",
+      "matched_requirement_id": "req-38",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

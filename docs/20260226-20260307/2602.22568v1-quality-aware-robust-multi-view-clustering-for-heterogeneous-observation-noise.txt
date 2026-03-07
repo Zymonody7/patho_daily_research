@@ -1,0 +1,579 @@
+Title: Quality-Aware Robust Multi-View Clustering for Heterogeneous Observation Noise
+
+URL Source: https://arxiv.org/pdf/2602.22568v1
+
+Published Time: Fri, 27 Feb 2026 01:33:26 GMT
+
+Number of Pages: 10
+
+Markdown Content:
+# Quality-Aware Robust Multi-View Clustering for Heterogeneous Observation Noise 
+
+Peihan Wu 1 Guanjie Cheng 2 Yufei Tong 1 Meng Xi 2 Shuiguang Deng 1
+
+# Abstract 
+
+Deep multi-view clustering has achieved remark-able progress but remains vulnerable to complex noise in real-world applications. Existing noisy robust methods predominantly rely on a simpli-fied binary assumption, treating data as either perfectly clean or completely corrupted. This overlooks the prevalent existence of heteroge-neous observation noise, where contamination intensity varies continuously across data. To bridge this gap, we propose a novel framework termed Quality-Aware Robust Multi-View Clus-tering (QARMVC). Specifically, QARMVC em-ploys an information bottleneck mechanism to extract intrinsic semantics for view reconstruc-tion. Leveraging the insight that noise disrupts semantic integrity and impedes reconstruction, we utilize the resulting reconstruction discrep-ancy to precisely quantify fine-grained contami-nation intensity and derive instance-level quality scores. These scores are integrated into a hier-archical learning strategy: at the feature level, a quality-weighted contrastive objective is designed to adaptively suppress the propagation of noise; at the fusion level, a high-quality global consensus is constructed via quality-weighted aggregation, which is subsequently utilized to align and rectify local views via mutual information maximization. Extensive experiments on five benchmark datasets demonstrate that QARMVC consistently outper-forms state-of-the-art baselines, particularly in scenarios with heterogeneous noise intensities. 
+
+> 1
+
+School of Software Technology, Zhejiang University. 2School of Computer Science and Technology, Zhejiang University.. Cor-respondence to: Guanjie Cheng <chengguanjie@zju.edu.cn >.
+
+Proceedings of the 43 rd International Conference on Machine Learning , Seoul, South Korea. PMLR 306, 2026. Copyright 2026 by the author(s). 
+
+# 1. Introduction 
+
+In recent years, the rapid evolution of sensing technologies has made multi-view data ubiquitous in real-world appli-cations, ranging from industrial inspection (Wang et al., 2023) and social network analysis (Chen et al., 2024) to medical diagnosis (Li & Zhou, 2025). By integrating com-plementary information from heterogeneous sources (e.g., images, text, and audio), multi-view data provides a signif-icantly more comprehensive description than single-view counterparts. Consequently, Multi-View Clustering (MVC) has emerged as a pivotal unsupervised learning task, aimed at mining latent cluster structures by leveraging the con-sistency and complementarity across diverse perspectives. While early methods rooted in traditional machine learn-ing, such as multi-view subspace learning (Kang et al., 2020) (Gao et al., 2015), Non-negative Matrix Factorization (NMF) (Huang et al., 2020) (Liu et al., 2013) (Huang et al., 2020), and graph-based methods (Liu et al., 2022) (Tang et al., 2020) (Wang et al., 2019) facilitated information fusion through consistency constraints or shared represen-tations, they often struggle with complex data distributions. With the advent of deep learning, Deep Multi-View Cluster-ing (DMVC) (Li et al., 2019) (Xu et al., 2022b) (Wen et al., 2024) has become a dominant paradigm. By virtue of pow-erful non-linear feature extraction and end-to-end learning capabilities, DMVC demonstrates significant advantages over traditional counterparts. Despite the significant progress of existing DMVC methods, their robustness faces severe challenges when confronted with noisy environments in the real world. Current research on observation noise typically operates under a simplified binary assumption (Yang et al., 2025) (Dong et al., 2025), treating data instances as either perfectly clean or completely corrupted. However, this binary assumption rarely holds in practical applications, where data often suffers from hetero-geneous observation noise (Yang et al., 2024). As illustrated in Figure 1, the quality of sensory data does not fall strictly into two discrete states but rather manifests as a continuous spectrum of contamination intensities. For instance, in au-tonomous driving scenarios involving camera, LiDAR, and audio modalities, signal quality can vary progressively from high-fidelity to slight distortion (e.g., motion blur or weather 1
+
+> arXiv:2602.22568v1 [cs.CV] 26 Feb 2026 Quality-Aware Robust Multi-View Clustering for Heterogeneous Observation Noise View1:
+> Camera
+> View2:
+> LiDAR
+> View3:
+> Audio
+
+…
+
+…
+
+…       
+
+> No Noise (Clean) Moderate Noise Severe Noise
+> Figure 1. An illustrative diagram of heterogeneous noise intensity in a multi-view scenario. The diagram displays Camera, LiDAR, and Audio views under varying environmental conditions. From left to right, the data quality exhibits a continuous degradation process from clean to severe noise, rather than a simple binary state.
+
+interference), and finally to severe corruption, depending on environmental conditions. Existing methods fail to perceive such fine-grained contamination intensity. Simply discard-ing non-ideal views as outliers leads to the loss of intrinsic semantic information, while indiscriminately integrating them contaminates the common semantic space. Therefore, accurately estimating the contamination intensity of each instance views and achieving effective semantic learning under varying noise levels remains an urgent gap in MVC research. To bridge this gap, we propose a Quality-Aware Robust 
+
+Multi-View Clustering framework, termed QARMVC .Specifically, we employ the information bottleneck mech-anism to capture intrinsic semantics by compressing each view into a compact latent space. Based on the insight that noise disrupts semantic integrity and impedes recov-ery, the resulting reconstruction discrepancy is utilized to precisely quantify heterogeneous contamination intensity, yielding fine-grained, instance-level quality scores. On this basis, we implement a hierarchical learning strategy. At the feature level, we utilize autoencoder-based embedding combined with a quality-weighted contrastive objective to ensure the semantic stability of the latent space. At the fusion level, view-specific embeddings are aggregated via quality-weighted fusion to construct a robust global con-sensus. We then maximize mutual information between this global target and local representations, effectively guid-ing noisy views to recover consistent semantics. Finally, a deep divergence clustering loss is imposed on the global representation to optimize the cluster structure, facilitat-ing end-to-end differentiable cluster assignment. The key contributions of our paper are summarized as follows: • We propose a novel Quality-Aware Robust Multi-View Clustering framework (QARMVC) to function robustly in heterogeneous noisy environments. To the best of our knowledge, this work is the first to systematically identify and address the challenge of heterogeneous observation noise. • To perceive the heterogeneous contamination inten-sities, we introduce an information bottleneck mech-anism to precisely quantify the quality of data. We further design a quality-weighted contrastive loss to ensure feature stability and construct a high-quality global representation to guide the rectification of con-taminated views via mutual information maximization, thereby effectively alleviating noise interference. • Extensive experiments on five benchmark datasets demonstrate that QARMVC consistently outperforms state-of-the-art baselines in both clustering accuracy and robustness under varying noise intensities. 
+
+# 2. Related work 
+
+Despite the success of DMVC in handling multi-modal data, its performance often degrades in real-world applications due to complex noise. Generally, existing robust MVC research categorizes these challenges into three distinct sce-narios: correspondence noise, missing noise, and absolute observation noise. Specifically, regarding correspondence noise, characterized by mismatches between samples, repre-sentative works (Sun et al., 2024) (Sun et al., 2025) tackle this misalignment by designing noise-tolerant contrastive losses or leveraging inter-view similarity contexts to rec-tify erroneous alignments. Missing noise deals with par-tial data loss, where imputation-based methods (Tang & Liu, 2022) (Yang et al., 2022) (Jin et al., 2023) utilize observable neighboring samples to recover information, while non-imputation methods (Xu et al., 2022a) (Lu et al., 2024) (Zhang et al., 2025) rely on cross-view prediction in semantic space. Finally, absolute observation noise typically operates under a binary assumption, treating views as either entirely clean or completely corrupted (Xu et al., 2024). Proactive methods address this by identifying and handling outliers. Specifically, AIRMVC (Yang et al., 2025) formu-lates this as an anomaly detection problem to distinguish clean samples from noisy outliers. RAC-DMVC (Dong et al., 2025) employs a cross-view cross-reconstruction mechanism, leveraging the information from reliable views to rectify the corrupted ones. While the aforementioned studies have made significant strides, they overlook a more prevalent and realistic sce-nario: heterogeneous observation noise (Wang et al., 2023). Existing methods for absolute noise have limited efficacy here, as they typically rely on at least one clean view per instance to identify and rectify noisy counterparts. However, in heterogeneous scenarios where data represents a mixture of valid semantics and noise, this binary treatment is inef-2Quality-Aware Robust Multi-View Clustering for Heterogeneous Observation Noise 
+
+fective: simply regarding such data as outliers overlooks the intrinsic semantic information, while indiscriminately fusing them leads to the distortion of the common semantic space. Therefore, bridging this gap requires a quality-aware framework capable of perceiving fine-grained noise intensi-ties to balance semantic retention and noise suppression. 
+
+# 3. Methodology 
+
+3.1. Preliminary 
+
+Given a multi-view dataset X = {X1, X 2, . . . , X V } con-sisting of N instances across V views, the data matrix for the 
+
+v-th view is denoted as Xv = [ xv 
+
+> 1
+
+, xv 
+
+> 2
+
+, . . . , xvN ] ∈ Rdv ×N ,where xvi ∈ Rdv represents the feature vector of the i-th in-stance in the v-th view. In real-world scenarios, the observed data typically suffers from heterogeneous observation noise, meaning that the dataset X consists of samples with non-uniform quality and varying levels of degradation. The primary objective is to partition the unlabeled dataset X into 
+
+K disjoint clusters. 
+
+3.2. Quality Score Estimation 
+
+High-dimensional observations usually exhibit a low-dimensional intrinsic structure, enabling the extraction of core semantics by compressing the raw input into a compact latent variable. To derive a semantically rich representation, we construct an information bottleneck mechanism (Alemi et al., 2017). Our objective is to maximize the mutual infor-mation between the input view and its latent representation while constraining the capacity of the latent space: 
+
+max I(Xv ; ˜Z) s.t. dim( ˜Z) ≪ dim( Xv ). (1) Here, maximizing I(Xv ; ˜Z) ensures the preservation of intrinsic information from the original view Xv , while the dimensionality constraint prevents the latent variable from learning a trivial identity mapping. From an information-theoretic perspective, we first expand the mutual information term: 
+
+I(Xv ; ˜Z) = 
+
+Z Z 
+
+p(xv , ˜z) log p(xv |˜z)
+
+p(xv ) dxv d˜z
+
+=
+
+Z Z 
+
+p(xv )p(˜ z|xv ) log p(xv |˜z) dxv d˜z + H(Xv )
+
+≥
+
+Z Z 
+
+p(xv )p(˜ z|xv ) log p(xv |˜z) dxv d˜z,
+
+(2) where xv and ˜z are instances of Xv and ˜Z, respectively. Since the true conditional distribution p(xv |˜z) is unknown, we approximate it using a stochastic decoder qv (xv |˜z),which generates the reconstructed data ˜xv . We further de-compose the integral in Eq. (2) to derive a tractable varia-tional lower bound: 
+
+I(Xv ; ˜Z) ≥
+
+Z Z 
+
+p(xv )p(˜ z|xv ) log qv (xv |˜z) dxv d˜z
+
++
+
+Z Z 
+
+p(xv )p(˜ z|xv ) log p(xv |˜z)
+
+qv (xv |˜z) dxv d˜z
+
+≥ Exv ∼p(xv )
+
+h Z
+
+p(˜ z|xv ) log qv (xv |˜z) d˜z
+
+i
+
+.
+
+(3) By approximating the latent distribution p(˜ z|xv ) via a stochastic encoder, maximizing this lower bound is equiva-lent to minimizing the negative log-likelihood loss: 
+
+LvIB = −Exv ∼p(xv )
+
+h
+
+E˜z∼p(˜ z|xv )
+
+ log qv (xv |˜z)i
+
+. (4) After training, clean samples adhering to the intrinsic mani-fold can be accurately reconstructed. Conversely, contam-inated samples, disrupted by stochastic noise, fail to yield valid latent representations through the compression bot-tleneck, leading to significant reconstruction discrepancies. We quantify this contamination using the instance-level re-construction error Rvi = ∥xvi − ˜xvi ∥1. To facilitate view-adaptive weighting, we define a normalized contamination score: 
+
+Cvi = Rvi − min( Rv )max( Rv ) − min( Rv ) , (5) where max( Rv ) and min( Rv ) denote the extreme recon-struction errors computed across all samples in view v. The final quality score is obtained as Qvi = (1 − Cvi )2. This score acts as a dynamic weighting factor in the subsequent joint training phase, adaptively suppressing the influence of low-quality data. 
+
+3.3. Multi-view Representation Learning 
+
+With the estimated quality scores, we employ independent deep autoencoders to extract clustering-friendly features for each view. For the v-th view, the encoder Ev maps the input xvi into a latent representation zvi = Ev (xvi ), while the decoder Dv generates the reconstruction ˆxvi = Dv (zvi ). To ensure effective feature extraction, the model minimizes the aggregate reconstruction loss: 
+
+LREC =
+
+> V
+
+X
+
+> v=1
+> N
+
+X
+
+> i=1
+
+∥xvi − ˆxvi ∥22. (6) Building upon these latent representations, we introduce a contrastive learning mechanism to mitigate cross-view het-erogeneity and capture consistent semantics. The semantic similarity between representations is quantified using cosine similarity: 
+
+S(zui , zvj ) = (zui )⊤zvj
+
+∥zui ∥2∥zvj ∥2
+
+. (7) 3Quality-Aware Robust Multi-View Clustering for Heterogeneous Observation Noise X!
+
+X"
+
+> 0.1
+> 0.9
+> 0.5
+> 0.9
+> …
+> 0.8
+> 0.9
+> 0.5
+> 0.1
+> …
+
+"Z!
+
+…
+
+…
+
+X!
+
+X"
+
+$X!
+
+$X"
+
+𝑄 !
+
+𝑄 "
+
+… 
+
+> Information bottleneck
+> Decoder
+> Decoder
+> Encoder
+> Encoder
+
+Z!
+
+Z"
+
+H   
+
+> Quality -weighted fusion
+> Quality -aware
+> contrastive learning pull
+> push
+
+𝐿 #$ 
+
+> !
+
+𝐿 #$ 
+
+> "
+
+𝐿 %&' 
+
+> !
+
+𝐿 %&' 
+
+> "
+
+𝐿 () 
+
+> !
+
+𝐿 ()                
+
+> "
+> (a) quality score estimation (b) quality -aware representation learning (c) global alignment (d) Cluster assignment
+> Quality score calculation
+> Data with varying noise
+> Instance -specific embeddings
+
+𝐿 *+   
+
+> Quality -weighted contrastive learning
+
+𝐺 
+
+L,,-
+
+> CalHead
+
+"Z"
+
+*X!
+
+*X"
+
+… Global representation 
+
+Figure 2. The framework consists of four modules: (a) quality score estimation, where an information bottleneck mechanism quantifies heterogeneous noise intensity to derive instance-view specific quality scores; (b) quality-aware representation learning, which utilizes these scores to re-weight contrastive learning, thereby suppressing noisy anchors; (c) global alignment, where local views are aligned with a robust high-quality global consensus via mutual information maximization; (d) cluster assignment, which imposes deep divergence clustering loss on the global representation to optimize the cluster structure and classifier head. 
+
+To align information across perspectives, we formulate an instance-level contrastive objective. Specifically, taking zui
+
+from view u as the anchor and view v (u̸ = v) as the target, the contrastive loss for the i-th instance is defined as: 
+
+ℓ(u→v) 
+
+> i
+
+= − log exp( S(zui , zvi )/τ )
+
+PNk=1 exp( S(zui , zvk)/τ ) , (8) where τ denotes the temperature hyperparameter. Mini-mizing Eq. (8) effectively pulls the positive counterpart zvi
+
+toward the anchor zui in the latent space, while simultane-ously pushing the negative samples {zvk}k̸ =i away. Standard contrastive frameworks typically treat all anchors equally by minimizing the average of ℓ(u→v) 
+
+> i
+
+. However, such an indiscriminate strategy is suboptimal in the pres-ence of heterogeneous observation noise; aligning corrupted anchors with other views inevitably propagates noise and distorts the common semantic space. To address this, we propose a quality-aware robust contrastive loss by incorpo-rating the instance-view quality score Qui . By adaptively re-weighting the contribution of each anchor based on its reliability, the final objective is formulated as: 
+
+LRCL =
+
+> N
+
+X
+
+> i=1
+> V
+
+X
+
+> u=1
+
+X 
+
+> v̸=u
+
+Qui · ℓ(u→v) 
+
+> i
+
+. (9) This formulation ensures that high-quality instances dom-inate the semantic alignment process, while the negative impact of contaminated data is suppressed, facilitating the learning of robust, view-consistent representations. 
+
+3.4. Quality-Guided Global Fusion and Alignment 
+
+To leverage cross-view complementarity while maintaining robustness, we introduce a global-local alignment module consisting of quality-guided fusion and mutual informa-tion (MI) maximization (Lin et al., 2022). Standard fusion strategies (Ding et al., 2025), such as simple concatenation or averaging, treat all views indiscriminately, which often leads to the contamination of the common semantic space by noisy observations. To address this, we utilize the estimated quality scores to construct a robust global representation. Specifically, we first normalize the instance-view quality scores to obtain the fusion weights wvi = Qvi / PVk=1 Qki .Subsequently, the global consensus representation hi for the i-th instance is generated via a weighted aggregation of view-specific embeddings: 
+
+hi =
+
+> V
+
+X
+
+> v=1
+
+wvi zvi , (10) where zvi denotes the embedding of the i-th instance in the v-th view. By prioritizing high-quality views via Eq. (10) , the global representation H successfully extracts representative semantics while adaptively suppressing noise interference. 4Quality-Aware Robust Multi-View Clustering for Heterogeneous Observation Noise 
+
+To further utilize this robust global consensus to guide and rectify view-specific learning, we maximize the consistency between H and each local representation Zv . This objective is formulated as minimizing the negative mutual information loss: 
+
+LM I = −
+
+> V
+
+X
+
+> v=1
+
+I(H; Zv )= −
+
+> V
+
+X
+
+> v=1
+
+X
+
+> i,j
+
+p(hi, zvj ) log p(hi, zvj )
+
+p(hi)p(zvj ) ,
+
+(11) where p(hi, zvj ) denotes the joint probability distribution, and p(hi), p (zvj ) are the corresponding marginals. Minimizing LM I aligns view-specific features with the global consensus. This high-quality target provides reli-able semantic guidance to rectify local inconsistencies and distortions in contaminated views, thereby fostering a uni-fied and robust latent space. 
+
+3.5. Global Structure Regularization 
+
+To facilitate end-to-end differentiable cluster assignments while ensuring a compact and separable latent struc-ture, we introduce a deep divergence clustering mod-ule (Kampffmeyer et al., 2019). We first project the robust global representation hi into a soft cluster assignment ma-trix G ∈ RN ×K , where the a-th row ga ∈ RK represents the cluster membership of instance i. To capture the underly-ing manifold structure, we define a similarity kernel matrix 
+
+E ∈ RN ×N with entries Eij = exp( −∥ hi − hj ∥22/2σ2).The training objective incorporates three complementary criteria: (1) Maximizing divergence between clusters (Sepa-rability), (2) Penalizing inter-cluster correlations (Orthog-onality), and (3) Enforcing assignments toward simplex corners (Simplex Geometry). The overall structural loss is formulated as: 
+
+LDDC = 1
+
+K(K − 1) 
+
+> K−1
+
+X
+
+> i=1
+
+X
+
+> j>i
+
+δ⊤ 
+
+> i
+
+Eδj
+
+q
+
+δ⊤ 
+
+> i
+
+Eδi · δ⊤ 
+
+> j
+
+Eδj
+
++ triu( G⊤G)+ 1
+
+K(K − 1) 
+
+> K−1
+
+X
+
+> i=1
+
+X
+
+> j>i
+
+ζ⊤ 
+
+> i
+
+Eζj
+
+q
+
+ζ⊤ 
+
+> i
+
+Eζi · ζ⊤ 
+
+> j
+
+Eζj
+
+,
+
+(12) where δi denotes the i-th column vector of G, and triu( ·)
+
+denotes the sum of the upper triangular elements. ζi is the i-th column of the auxiliary matrix B with entries 
+
+Bab = exp( −∥ ga −eb∥22), where eb is the b-th vertex of the simplex. By minimizing Eq. (12) , the model optimizes the cluster structure on H, implicitly guiding the view-specific encoders via back-propagation to form a globally consistent semantic space. 
+
+Algorithm 1 Training Procedure of QARMVC 
+
+Input: Dataset X , cluster number K, max epochs E, warm-up epochs E1.
+
+Output: Clustering results y. 
+
+> 1:
+
+Initialize network parameters and train information bot-tleneck module to obtain quality scores Q via Eq. (5);  
+
+> 2:
+
+for epoch = 1 to E do  
+
+> 3:
+
+Compute latent representations {Zv }Vv=1 , global con-sensus H, and soft assignments G; 
+
+> 4:
+
+Calculate LREC , LRCL , and LM I via Eqs. (6) , (9) ,and (11);  
+
+> 5:
+
+if epoch < E 1 then  
+
+> 6:
+
+Update parameters by minimizing LREC +
+
+λ1LRCL + λ2LM I ; 
+
+> 7:
+
+else  
+
+> 8:
+
+Calculate structural loss LDDC via Eq. (12);  
+
+> 9:
+
+Update parameters by minimizing Eq. (13);  
+
+> 10:
+
+end if  
+
+> 11:
+
+end for  
+
+> 12:
+
+Obtain final labels y from G; 
+
+> 13:
+
+return y
+
+3.6. Overall Algorithm 
+
+The comprehensive objective function of QARMVC inte-grates quality-weighted reconstruction, robust contrastive learning, mutual information alignment, and structural regu-larization. The total loss is formulated as: 
+
+L = LREC + λ1LRCL + λ2LM I + λ3LDDC , (13) where λ1, λ 2, and λ3 are trade-off hyperparameters. The optimization process, detailed in Algorithm 1, follows a two-stage paradigm: a warm-up phase to stabilize feature learning and quality estimation, followed by a formal phase incorporating LDDC to optimize the global cluster structure and classifier head. 
+
+# 4. Experiments 
+
+In this section, we conduct extensive experiments on five benchmark datasets to systematically evaluate the effective-ness and robustness of our proposed QARMVC. Specifi-cally, we aim to address the following five Research Ques-tions ( RQs ). RQ1: How does QARMVC compare with current leading deep multi-view clustering methods in terms of overall clustering performance? RQ2: Can the proposed information bottleneck based quality estimation module accurately quantify the noise intensity of samples across different views? RQ3: What are the specific contributions of each core component to the final performance of QAR-MVC? RQ4: What kind of clustering structures and fea-ture distributions does QARMVC learn in the latent space? 
+
+RQ5: How sensitive is the performance of QARMVC to 5Quality-Aware Robust Multi-View Clustering for Heterogeneous Observation Noise                                                                                                                                                                                                                                                                                                                                                                                              
+
+> Table 1. Clustering performance comparison on five benchmark datasets under varying heterogeneous observation noise ratios. Ratio Methods Scene15 MNIST-USPS LandUse21 ALOI MNIST-4 ACC NMI ARI ACC NMI ARI ACC NMI ARI ACC NMI ARI ACC NMI ARI 10% SURE 38.57 38.99 23.00 90.98 87.05 82.21 24.19 25.86 9.54 59.26 78.70 43.28 66.15 42.12 34.18 CANDY 38.10 36.96 21.87 75.86 74.76 66.15 25.62 30.03 12.28 17.24 56.72 17.59 64.00 48.82 40.92 DIVIDE 38.95 36.30 20.53 78.86 80.11 70.72 25.14 29.14 11.34 19.32 63.28 21.98 61.40 55.92 45.13 MVCAN 26.91 27.24 14.09 56.30 51.87 38.75 20.33 23.77 7.46 40.83 64.77 31.09 79.63 57.10 56.06 RAC-MVC 40.32 40.11 24.60 78.38 68.30 73.17 24.90 29.44 12.31 20.54 64.24 22.19 59.17 31.74 37.99 MSDIB 34.22 34.48 19.32 61.08 65.72 51.13 23.85 28.84 10.66 45.46 69.99 33.18 55.17 37.81 29.01 STCMC UR 30.16 37.72 20.58 84.72 85.87 77.88 18.85 26.64 6.67 27.18 50.44 4.28 72.27 56.49 50.72
+> QARMVC 43.97 40.44 24.34 96.34 90.7 92.09 25.76 31.71 12.13 49.05 78.75 49.65 87.62 67.52 70.21
+> 30% SURE 35.67 38.58 21.19 80.64 71.45 65.20 22.03 21.34 8.03 41.56 70.38 34.46 77.18 54.98 51.34 CANDY 32.40 28.20 15.96 66.50 72.24 61.86 24.43 23.66 8.93 17.63 57.24 18.20 64.08 35.89 26.92 DIVIDE 38.19 35.51 19.54 78.76 67.85 58.58 24.29 29.33 10.79 17.89 58.59 18.80 59.72 54.99 44.20 MVCAN 26.73 24.30 13.02 49.86 46.87 32.64 15.14 16.19 4.21 12.75 30.59 6.45 73.80 49.46 47.57 RAC-MVC 30.26 28.08 13.94 70.62 53.29 59.86 22.38 22.68 8.30 17.23 58.12 18.70 54.85 33.14 41.99 MSDIB 28.33 27.25 12.70 52.20 51.58 35.12 18.42 21.72 6.99 20.09 43.00 10.50 59.50 37.39 32.05 STCMC UR 27.67 34.33 15.09 79.26 83.38 74.60 17.95 25.51 6.03 18.50 42.78 3.02 63.30 40.02 33.83
+> QARMVC 43.23 40.57 24.07 95.10 88.83 89.51 25.02 29.67 11.25 42.6 71.86 41.15 85.10 65.12 66.65
+> 50% SURE 30.42 30.71 15.81 64.92 58.82 49.80 15.57 14.15 3.73 20.5 44.74 7.99 70.05 41.59 41.73 CANDY 25.33 20.92 10.38 68.04 54.70 48.00 15.62 13.26 3.53 10.42 39.65 7.02 51.28 32.86 28.00 DIVIDE 29.14 27.10 13.17 73.28 60.61 48.59 19.10 21.02 6.5 11.06 41.86 7.93 74.05 49.38 47.64 MVCAN 19.60 14.92 7.64 47.02 44.27 26.83 12.13 12.03 3.98 5.99 16.17 1.35 63.35 36.85 34.09 RAC-MVC 30.26 28.08 13.94 50.96 31.20 42.03 16.71 15.26 4.36 11.32 41.24 8.02 57.50 49.35 37.41 MSDIB 22.67 23.91 9.91 33.56 32.47 17.14 16.76 17.12 4.79 5.83 20.03 1.72 66.52 41.32 37.06 STCMC UR 25.68 25.19 9.53 56.42 64.38 44.58 14.80 18.65 3.16 12.37 31.10 1.13 75.80 47.46 46.55
+> QARMVC 36.62 34.32 19.69 94.02 86.2 87.19 23.11 25.12 9.42 23.12 50.02 16.75 85.02 65.57 66.57
+
+the variations of key hyper-parameters? 
+
+4.1. Experimental Settings Datasets: We conduct experiments on five widely used multi-view benchmark datasets. Scene-15 (Dai & Van Gool, 2013) comprises 4,485 images belonging to 15 classes, en-compassing both indoor and outdoor environments. For each image, we extract GIST and PHOG features. MNIST-USPS (LeCun et al., 1998) consists of 5,000 handwritten digit images distributed across 10 digit categories. We utilize feature vectors from MNIST and USPS sources. LandUse-21 (Yang & Newsam, 2010) contains 2,100 satel-lite imagery samples categorized into 21 classes. We employ PHOG and LBP features to represent the visual information. ALOI (Geusebroek et al., 2005) is a collection of 10,800 object images belonging to 100 categories. We adopt Color Similarity and HSV histograms. Finally, MNIST-4 (Li et al., 2022) comprises 4,000 handwritten digit images evenly dis-tributed across 4 classes. We extract ISO and NPE features for analysis. To simulate the heterogeneous observation noise prevalent in real-world scenarios, we employ a random noise injec-tion strategy consistent with existing noise-resilient meth-ods (Dong et al., 2025; Xu et al., 2024), while further re-fining the distribution of noise intensities. Specifically, we randomly select samples for contamination based on a ra-tio η ∈ { 10% , 30% , 50% }. These selected samples are further distributed across a range of intensity coefficients 
+
+α ∈ { 0.2, 0.4, . . . , 1.0} to simulate heterogeneous noise intensities. The contaminated view ¯x is then generated by mixing the original feature x with random noise δ via 
+
+¯x = α · δ + (1 − α) · x.
+
+Comparison Algorithms: To showcase the broad applica-bility and superior performance of QARMVC, we compare it against several state-of-the-art deep multi-view cluster-ing methods, including noise-resilient methods designed to handle corrupted data (CANDY (Guo et al., 2024), DI-VIDE (Lu et al., 2024), RAC-MVC (Dong et al., 2025), and MVCAN (Xu et al., 2024)) and classical methods (MS-DIB (Hu et al., 2025a), STCMC UR (Hu et al., 2025b) and SURE (Yang et al., 2022)). For fair comparison, all base-lines are reproduced using their official implementations. 
+
+Implementation Details. In this study, all experiments are 6Quality-Aware Robust Multi-View Clustering for Heterogeneous Observation Noise     
+
+> (a) Color Similarity (b) HSV Histogram
+> Figure 3. Noise score analysis on the ALOI dataset.
+
+implemented using the PyTorch framework (Imambi et al., 2021) on a workstation equipped with a single NVIDIA RTX 4090 GPU. The proposed QARMVC is trained in an end-to-end manner using the Adam optimizer (Kingma & Ba, 2014), with the learning rate fixed at 1 × 10 −3. The total training process spans 400 epochs with a batch size of 
+
+128 . To ensure the stability of quality estimation and feature learning, we employ a warm-up phase prior to incorporating the deep divergence clustering loss LDDC . The duration of this warm-up phase is dataset-dependent: it is set to 20 epochs for MNIST-USPS, 5 epochs for MNIST-4, and 200 epochs for the remaining datasets. As for the hyperparame-ters in the overall objective function Eq. (13) , the trade-off weights are consistently set as λ1 = 0 .1, λ2 = 0 .1, and 
+
+λ3 = 1 .0.
+
+4.2. Comparison Experiments (RQ1) 
+
+In this subsection, we conduct comprehensive experiments to evaluate the effectiveness of the proposed QARMVC by comparing it with state-of-the-art baselines under vary-ing noise ratios. The quantitative results are reported in Table 1, where the optimal and sub-optimal results are high-lighted in bold and underlined, respectively. As evidenced by the data, QARMVC consistently achieves superior per-formance across the majority of datasets and metrics. A key strength of QARMVC is its robustness to increasing noise intensities. While baseline performance degrades sig-nificantly as contamination escalates, our method maintains high stability with only minor fluctuations. For example, on the MNIST-USPS dataset under the challenging 50% noise setting, QARMVC outperforms the nearest competitor by a substantial margin of approximately 20.7% in accuracy. This significant performance margin demonstrates the su-perior robustness of QARMVC in scenarios with heteroge-neous observation noise. 
+
+4.3. Quality Score Analysis (RQ2) 
+
+To validate the capability of QARMVC in accurately per-ceiving contamination intensity, we conduct a quantitative analysis under the 50% noise ratio setting. Specifically, we visualize the distribution of estimated noise scores( Cv )against noise intensities( α) on the ALOI dataset in Fig-                                                                                               
+
+> Table 2. Analysis between noise scores( Cv) and intensities( α).
+> Dataset Feature BottleneckDim Pearson Spearman
+> Scene15 GIST 70.933 0.904 PHOG 20 0.979 0.925 MNIST-USPS MNIST 520 0.921 0.779 USPS 100 0.927 0.824 LandUse-21 PHOG 70.844 0.834 LBP 20 0.977 0.920 ALOI CS 20 0.991 0.932 HSV 20 0.979 0.921 MNIST4 ISO 14 0.828 0.729 NPE 20 0.889 0.832
+> Table 3. Ablation study under 50% noise ratio.
+> Settings MNIST-USPS MNIST-4 ACC NMI ARI ACC NMI ARI
+> w/o LDDC 14.94 9.04 0.65 25.57 0.11 0.01 w/o LN M I 81.62 76.52 71.98 81.93 60.87 61.33 w/o LRCL 30.50 27.03 14.21 76.72 49.41 50.48 w/o LRECON 79.86 73.90 69.95 81.33 60.56 60.52 w/o Warmup 42.06 42.62 27.04 44.17 27.67 20.01 Standard CL 88.00 81.57 78.96 68.83 53.64 49.22
+> Ours (Full) 94.02 86.15 87.19 85.02 65.57 66.57
+
+ure 3. The box plots reveal a clear monotonic increase in the estimated scores as the actual noise intensity rises across the full spectrum from 0 to 1, indicating a distinct positive correlation. This relationship is further verified by the quantitative metrics in Table 2, where the consistently high Pearson and Spearman correlation coefficients across datasets demonstrate that our estimator is highly sensitive to signal corruption. These empirical results confirm that the estimated noise score serves as a precise proxy for the actual contamination level, thereby justifying the validity of our derived quality score ( Qv = (1 − Cv )2) in effectively measuring the data quality. 
+
+4.4. Ablation Study (RQ3) 
+
+To systematically evaluate the contribution of each module, we conduct detailed ablation studies on the MNIST-USPS and MNIST-4 datasets under the 50% noise scenario, with quantitative results summarized in Table 3. The superior performance of the full QARMVC framework validates the necessity of our two-stage training strategy: we ini-tially exclude LDDC to prioritize stable feature learning, and subsequently introduce it to impose constraints on the global cluster structure and optimize the classification head outputs. The omission of this warm-up phase results in a drastic accuracy drop to 42.06% on MNIST-USPS, confirm-ing that a stable initialization is prerequisite for effective structure learning. Regarding specific loss components, the absence of either LDDC or the contrastive objective 
+
+LRCL results in catastrophic performance degradation, un-7Quality-Aware Robust Multi-View Clustering for Heterogeneous Observation Noise                 
+
+> ACC vs. λ1and λ2MMI vs. λ1and λ2ACC vs. λ2and λ3NMI vs. λ2and λ3
+> Figure 4. Sensitivity analysis on MNIST-USPS dataset with 10% Noise.
+
+(a) Ours (b) DIVIDE (c) RAC-MVC (d) MVCAN  
+
+> Figure 5. Visualization on MNIST-USPS dataset with 10% Noise.
+
+derscoring their foundational roles in the framework. Our quality-weighted strategy significantly outperforms stan-dard contrastive learning (Standard CL), boosting accuracy from 88.00% to 94.02%. This performance gap confirms that while indiscriminate noise treatment contaminates the common semantic space, our quality-aware mechanism ef-fectively suppresses unreliable anchors to facilitate robust representation learning. Furthermore, the mutual informa-tion alignment ( LM I ) proves critical for cross-view rectifi-cation, as its removal leads to a substantial accuracy drop to 81.62%. 
+
+4.5. Visualization Analysis (RQ4) 
+
+To intuitively evaluate the learned representations, we vi-sualize the latent embedding spaces of QARMVC and rep-resentative baselines on the MNIST-USPS dataset (10% noise) via t-SNE (Van der Maaten & Hinton, 2008) in Fig-ure 5. While baseline methods exhibit blurred boundaries and considerable overlap indicating vulnerability to noise, QARMVC generates a highly discriminative latent space characterized by high intra-cluster compactness and clear inter-cluster separability. This distinct structure confirms that our quality-aware framework effectively filters out noise interference to yield robust and consistent semantics, signif-icantly surpassing competing methods. 
+
+4.6. Parameter Analysis (RQ5) 
+
+In this section, we analyze the sensitivity of the three hyperparameters λ1, λ 2, and λ3 in the total loss func-tion of our proposed method. Experiments are con-ducted on the MNIST-USPS dataset with a noise rate of 10%, and each hyperparameter is evaluated over the range 
+
+{10 −4, 10 −3, 10 −2, 10 −1, 1}. As shown in Figure 4, we ob-serve that relatively higher values for λ1 generally contribute to superior clustering performance by providing sufficient discriminative guidance. In contrast, the model exhibits remarkable robustness to variations in λ2 and λ3, main-taining consistent performance across the evaluated range. Although varying these hyperparameters has some effect on model performance, the overall fluctuations are minor, indicating that our proposed method is relatively robust to hyperparameter changes. 
+
+# 5. Conclusion 
+
+In this paper, we identify and address the challenge of het-erogeneous observation noise in multi-view clustering. To tackle this, we propose Quality-Aware Robust Multi-View Clustering (QARMVC), a novel framework that leverages an information bottleneck mechanism to precisely quan-tify instance-level data quality. These quality scores guide a weighted contrastive objective and a global-local align-ment module, enabling the model to adaptively suppress noisy anchors and align distorted views via a robust global consensus. Extensive experiments on multiple benchmarks demonstrate that QARMVC significantly outperforms state-of-the-art methods, particularly in scenarios with varying noise intensities, confirming its effectiveness in learning discriminative and robust representations. 8Quality-Aware Robust Multi-View Clustering for Heterogeneous Observation Noise 
+
+# Impact Statement 
+
+This paper presents a robust multi-view clustering frame-work aimed at handling heterogeneous observation noise. Our work contributes to the reliability of machine learning systems in real-world environments, such as autonomous driving and medical diagnostics, where data quality is often compromised. While clustering algorithms can generally be applied for data profiling, we do not foresee specific negative societal consequences directly stemming from this methodological research. 
+
+# References 
+
+Alemi, A. A., Fischer, I., Dillon, J. V., and Murphy, K. Deep variational information bottleneck. In In-ternational Conference on Learning Representations ,2017. URL https://openreview.net/forum? id=HyxQzBceg .Chen, R., Chen, J., and Gan, X. Multi-view graph con-trastive learning for social recommendation. Scientific reports , 14(1):22643, 2024. Dai, D. and Van Gool, L. Ensemble projection for semi-supervised image classification. In Proceedings of the IEEE international conference on computer vision , pp. 2072–2079, 2013. Ding, X., Zhao, L., Li, X., and Zhu, X. Incomplete multi-view clustering via hierarchical semantic alignment and cooperative completion. In The Thirty-ninth Annual Conference on Neural Information Processing Systems ,2025. URL https://openreview.net/forum? id=GplW3hkvnr .Dong, S., Liu, Y., Zhou, X., Zheng, Y., Xu, H., and Zhu, X. Rac-dmvc: Reliability-aware contrastive deep multi-view clustering under multi-source noise. arXiv preprint arXiv:2511.13561 , 2025. Gao, H., Nie, F., Li, X., and Huang, H. Multi-view subspace clustering. In Proceedings of the IEEE international conference on computer vision , pp. 4238–4246, 2015. Geusebroek, J.-M., Burghouts, G. J., and Smeulders, A. W. The amsterdam library of object images. International Journal of Computer Vision , 61(1):103–112, 2005. Guo, R., Yang, M., Lin, Y., Peng, X., and Hu, P. Robust contrastive multi-view clustering against dual noisy corre-spondence. Advances in Neural Information Processing Systems , 37:121401–121421, 2024. Hu, S., Fan, J., Zou, G., and Ye, Y. Multi-aspect self-guided deep information bottleneck for multi-modal clustering. In Proceedings of the AAAI Conference on Artificial In-telligence , volume 39, pp. 17314–17322, 2025a. Hu, S., Tian, B., Liu, W., and Ye, Y. Self-supervised trusted contrastive multi-view clustering with uncertainty refined. In Proceedings of the AAAI Conference on Artificial In-telligence , volume 39, pp. 17305–17313, 2025b. Huang, S., Kang, Z., and Xu, Z. Auto-weighted multi-view clustering via deep matrix decomposition. Pattern Recognition , 97:107015, 2020. Imambi, S., Prakash, K. B., and Kanagachidambaresan, G. Pytorch. Programming with TensorFlow: solution for edge computing applications , pp. 87–104, 2021. Jin, J., Wang, S., Dong, Z., Liu, X., and Zhu, E. Deep incomplete multi-view clustering with cross-view partial sample and prototype alignment. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition , pp. 11600–11609, 2023. Kampffmeyer, M., Løkse, S., Bianchi, F. M., Livi, L., Sal-berg, A.-B., and Jenssen, R. Deep divergence-based approach to clustering. Neural Networks , 113:91–101, 2019. Kang, Z., Zhou, W., Zhao, Z., Shao, J., Han, M., and Xu, Z. Large-scale multi-view subspace clustering in linear time. In Proceedings of the AAAI Conference on Artificial Intelligence (AAAI) , pp. 4412–4419, 2020. doi: 10.1609/ AAAI.V34I04.5867. Kingma, D. P. and Ba, J. Adam: A method for stochastic optimization. arXiv preprint arXiv:1412.6980 , 2014. LeCun, Y., Bottou, L., Bengio, Y., and Haffner, P. Gradient-based learning applied to document recognition. Proceed-ings of the IEEE , 86(11):2278–2324, 1998. Li, J. and Zhou, X. Curegraph: Contrastive multi-modal graph representation learning for urban living circle health profiling and prediction. Artificial Intelligence ,340:104278, 2025. Li, X., Zhang, H., Wang, R., and Nie, F. Multiview clus-tering: A scalable and parameter-free bipartite graph fu-sion method. IEEE Transactions on Pattern Analysis and Machine Intelligence , 44(1):330–344, 2022. doi: 10.1109/TPAMI.2020.3011148. Li, Z., Wang, Q., Tao, Z., Gao, Q., and Yang, Z. Deep ad-versarial multi-view clustering network. In Proceedings of the 28th International Joint Conference on Artificial Intelligence (IJCAI) , pp. 2952–2958. AAAI Press, 2019. Lin, Y., Gou, Y., Liu, X., Bai, J., Lv, J., and Peng, X. Dual contrastive prediction for incomplete multi-view represen-tation learning. IEEE Transactions on Pattern Analysis and Machine Intelligence , 45(4):4447–4461, 2022. 9Quality-Aware Robust Multi-View Clustering for Heterogeneous Observation Noise 
+
+Liu, J., Wang, C., Gao, J., and Han, J. Multi-view clustering via joint nonnegative matrix factorization. In Proceed-ings of the 2013 SIAM international conference on data mining , pp. 252–260. SIAM, 2013. Liu, S., Wang, S., Zhang, P., Xu, K., Liu, X., Zhang, C., and Gao, F. Efficient one-pass multi-view subspace clus-tering with consensus anchors. In Proceedings of the AAAI Conference on Artificial Intelligence , volume 36, pp. 7576–7584, 2022. Lu, Y., Lin, Y., Yang, M., Peng, D., Hu, P., and Peng, X. De-coupled contrastive multi-view clustering with high-order random walks. In Proceedings of the AAAI Conference on Artificial Intelligence , volume 38, pp. 14193–14201, 2024. Sun, Y., Qin, Y., Li, Y., Peng, D., Peng, X., and Hu, P. Robust multi-view clustering with noisy correspondence. 
+
+IEEE Transactions on Knowledge and Data Engineering ,2024. Sun, Y., Li, Y., Ren, Z., Duan, G., Peng, D., and Hu, P. Roll: Robust noisy pseudo-label learning for multi-view clustering with noisy correspondence. In Proceedings of the Computer Vision and Pattern Recognition Conference ,pp. 30732–30741, 2025. Tang, C., Liu, X., Zhu, X., Zhu, E., Luo, Z., Wang, L., and Gao, W. Cgd: Multi-view clustering via cross-view graph diffusion. In Proceedings of the AAAI conference on artificial intelligence , volume 34, pp. 5924–5931, 2020. Tang, H. and Liu, Y. Deep safe incomplete multi-view clustering: Theorem and algorithm. In International con-ference on machine learning , pp. 21090–21110. PMLR, 2022. Van der Maaten, L. and Hinton, G. Visualizing data using t-sne. Journal of machine learning research , 9(11), 2008. Wang, H., Yang, Y., and Liu, B. Gmc: Graph-based multi-view clustering. IEEE Transactions on Knowledge and Data Engineering , 32(6):1116–1129, 2019. Wang, Y., Peng, J., Zhang, J., Yi, R., Wang, Y., and Wang, C. Multimodal industrial anomaly detection via hybrid fusion. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition , pp. 8032–8041, 2023. Wen, J., Deng, S., Wong, W., Chao, G., Huang, C., Fei, L., and Xu, Y. Diffusion-based missing-view generation with the application on incomplete multi-view cluster-ing. In Forty-First International Conference on Machine Learning , 2024. Xu, J., Li, C., Ren, Y., Peng, L., Mo, Y., Shi, X., and Zhu, X. Deep incomplete multi-view clustering via mining cluster complementarity. In Proceedings of the AAAI conference on artificial intelligence , volume 36, pp. 8761– 8769, 2022a. Xu, J., Tang, H., Ren, Y., Peng, L., Zhu, X., and He, L. Multi-level feature learning for contrastive multi-view clustering. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition , pp. 16051– 16060, 2022b. Xu, J., Ren, Y., Wang, X., Feng, L., Zhang, Z., Niu, G., and Zhu, X. Investigating and mitigating the side effects of noisy views for self-supervised clustering algorithms in practical multi-view scenarios. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition , pp. 22957–22966, 2024. Yang, M., Li, Y., Hu, P., Bai, J., Lv, J., and Peng, X. Robust multi-view clustering with incomplete information. IEEE Transactions on Pattern Analysis and Machine Intelli-gence , 45(1):1055–1069, 2022. Yang, M., Li, Y., Zhang, C., Hu, P., and Peng, X. Test-time adaptation against multi-modal reliability bias. In The Twelfth International Conference on Learning Represen-tations , 2024. URL https://openreview.net/ forum?id=TPZRq4FALB .Yang, X., Wang, S., Wang, F., Jin, J., Liu, S., Liu, Y., Zhu, E., Liu, X., and Jin, Y. Automatically identify and rectify: Robust deep contrastive multi-view cluster-ing in noisy scenarios. In Forty-second International Conference on Machine Learning , 2025. URL https: //openreview.net/forum?id=iFOXz5H2gB .Yang, Y. and Newsam, S. Bag-of-visual-words and spatial extensions for land-use classification. In Proceedings of the 18th SIGSPATIAL international conference on ad-vances in geographic information systems , pp. 270–279, 2010. Zhang, Y., Lin, Y., Yan, W., Yao, L., Wan, X., Li, G., Zhang, C., Ke, G., and Xu, J. Incomplete multi-view clustering via diffusion contrastive generation. In Proceedings of the AAAI Conference on Artificial Intelligence , volume 39, pp. 22650–22658, 2025. 10

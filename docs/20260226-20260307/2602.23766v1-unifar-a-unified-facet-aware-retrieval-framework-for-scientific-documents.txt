@@ -1,0 +1,524 @@
+Title: UniFAR: A Unified Facet-Aware Retrieval Framework for Scientific Documents
+
+URL Source: https://arxiv.org/pdf/2602.23766v1
+
+Published Time: Mon, 02 Mar 2026 01:34:56 GMT
+
+Number of Pages: 15
+
+Markdown Content:
+# UniFAR: A Unified Facet-Aware Retrieval Framework for Scientific Documents 
+
+Zheng Dou 1, Zhao Zhang 1, Deqing Wang 1*, Yikun Ban 1, Fuzhen Zhuang 2
+
+> 1
+
+School of Computer Science and Engineering, Beihang University, Beijing, China 
+
+> 2
+
+School of Artificial Intelligence, Beihang University, Beijing, China 
+
+{miracle_dz,zhao_zhang,dqwang,yikunb,zhuangfuzhen}@buaa.edu.cn 
+
+Abstract 
+
+Existing scientific document retrieval (SDR) methods primarily rely on document-centric representations learned from inter-document relationships for document-document (doc-doc) retrieval. However, the rise of LLMs and RAG has shifted SDR toward question-driven retrieval, where documents are retrieved in response to natural-language questions (q-doc). This change has led to systematic mis-matches between document-centric models and question-driven retrieval, including (1) input granularity (long documents vs. short ques-tions), (2) semantic focus (scientific discourse structure vs. specific question intent), and 
+
+(3) training signals (citation-based similarity vs. question-oriented relevance). To this end, we propose UniFAR, a Unified Facet-Aware Retrieval framework to jointly support doc-doc and q-doc SDR within a single architec-ture. UniFAR reconciles granularity differ-ences through adaptive multi-granularity aggre-gation, aligns document structure with question intent via learnable facet anchors, and unifies doc–doc and q–doc supervision through joint training. Experimental results show that Uni-FAR consistently outperforms prior methods across multiple retrieval tasks and base models, confirming its effectiveness and generality. 
+
+1 Introduction 
+
+With the rapid growth of scientific publications worldwide, scientific document retrieval (SDR) has become essential for effective knowledge dis-covery and scientific innovation. Dense retrieval (Karpukhin et al., 2020) has emerged as the dom-inant paradigm in information retrieval, shifting the focus from lexical to semantic matching by representing queries and documents in a shared embedding space. Models like Contriever (Izacard et al., 2022) and E5 (Wang et al., 2024) demonstrate 
+
+> *Corresponding Author.
+
+strong performance on general-domain bench-marks (Muennighoff et al., 2023). However, their lack of explicit adaptation to the scientific domain limits their ability in SDR tasks. To address this, a line of work has extended dense retrieval to scientific literature by exploiting inter-document relationships to capture scholarly context and structural semantics beyond isolated texts. Representative methods learn document em-beddings under citation-informed supervision to reflect scientific relatedness (Cohan et al., 2020; Os-tendorff et al., 2022), while others incorporate finer-grained signals from co-citation contexts (Mysore et al., 2022) or structured discourse components (Dou et al., 2025) to enable more nuanced seman-tic alignment. By relying on inter-document rela-tionships, these methods fundamentally follow a 
+
+document-centric paradigm, where representations are optimized to retrieve documents given a query document (doc-doc retrieval). The development of large language models (LLMs) and retrieval-augmented generation (RAG) has introduced new retrieval settings centered on natural-language queries (Lewis et al., 2020; Fan et al., 2024). Recent studies have explored the use of LLMs and RAG for scientific literature, where SDR serves as a key interface between users, lan-guage models, and large-scale scientific corpora (Asai et al., 2024; Ding et al., 2025). Beyond tra-ditional doc-doc retrieval, SDR is increasingly re-quired to support question-driven retrieval where scientific documents are retrieved in response to a natural-language question (q-doc retrieval). This leads to systematic mismatches between document-centric retrievers and question-driven retrieval along three dimensions. (1) Input gran-ularity : scientific documents are typically long and structured, whereas user questions are short and compressed, making document-level repre-sentations insufficient for fine-grained question matching (Cai et al., 2024). (2) Semantic focus :1
+
+> arXiv:2602.23766v1 [cs.IR] 27 Feb 2026
+
+document-centric modeling emphasizes discourse structure and scientific roles (e.g., background, method, result) shared across papers (Dou et al., 2025), whereas question-driven retrieval is guided by user intent and specific information needs, caus-ing representations optimized for document similar-ity to overlook intent-relevant contents (Do et al., 2025). (3) Training signals : scientific retrievers are typically trained with citation-based supervi-sion (Cohan et al., 2020; Ostendorff et al., 2022) rather than explicitly optimizing question-oriented relevance, leading to a mismatch between training objectives and question-driven retrieval needs. Overall, document-centric approaches are effec-tive at modeling scientific relationships and struc-ture, but exhibit systematic mismatches in question-driven retrieval. This motivates the central goal of our work: Can we unify both doc-doc and q-doc retrieval for scientific literature, retaining document-level relational structure while resolving mismatches in question-driven retrieval? 
+
+In this paper, we propose UniFAR, a Uni fied F acet-Aware Retrieval framework for scientific lit-erature that bridges document-centric modeling and question-driven retrieval within a single architec-ture. UniFAR combines adaptive multi-granularity aggregation, facet-anchored semantic alignment, and joint doc-doc and q-doc contrastive training to address mismatches in input granularity, semantic focus, and training signals. Our main contributions are threefold: 
+
+· Unified Framework for SDR. We unify doc-doc and q-doc retrieval for scientific literature within a single framework (UniFAR) that incorporates multi-granularity representation and aggregation as well as learnable facet-level semantic anchors. 
+
+· Facet-Aware Joint Training. We propose a facet-aware joint training strategy that integrates doc-doc and q-doc supervision within a shared semantic space, enabling unified learning for both retrieval settings. 
+
+· Empirical Evaluation. Extensive experiments across multiple tasks and base models show that UniFAR consistently outperforms prior methods, confirming its effectiveness and generality. 
+
+2 Related Work 
+
+Document-Centric. A dominant paradigm in sci-entific document retrieval focuses on modeling relevance through inter-document relationships to capture scholarly context and structural seman-tics. Representative work such as SPECTER (Co-han et al., 2020) learns document embeddings via citation-informed contrastive learning to supervise doc-doc similarity. Building on this paradigm, SciNCL (Ostendorff et al., 2022) replaces binary citation supervision with neighborhood contrastive learning over citation graph embeddings, enabling graded similarity signals and more informative pos-itive and negative sampling. Multi-vector mod-els (Mysore et al., 2022) with textual guidance exploit co-citation sentences to supervise aspect-level embeddings, allowing document similarity to be computed through fine-grained semantic align-ment. FLeW (Dou et al., 2025) constructs facet-specific document training triplets based on citation intent and frequency, explicitly modeling scien-tific discourse structure via facet-level representa-tions aligned with background, method, and result. While these methods effectively enrich document representations using citation-derived signals, they remain confined to a document-centric paradigm with limited optimization for user questions. 
+
+Question-Driven. With the growing adoption of LLM-based systems and RAG, scientific document retrieval (SDR) has become increasingly question-driven. SciRepEval (Singh et al., 2023) categorizes downstream scientific tasks to explicitly include query-based retrieval, and introduces task-aware learning to train task-specific modules. MixGR (Cai et al., 2024) integrates complementary simi-larity signals computed at different granularities, enabling more robust matching between complex scientific queries and long-form documents. FaBle (Do et al., 2025) targets faceted query-by-example retrieval by constructing facet-conditioned training data through decomposition and recomposition, al-lowing retrieval to be guided by specific semantic aspects. To improve question supervision, CCQ-Gen (Kang et al., 2025) generates concept-covering query sets for better approximation on user informa-tion needs over scientific documents. Despite these advances, question-driven approaches in SDR typ-ically remain separately modeled and supervised, rather than jointly optimizing doc-doc and q-doc retrieval within a unified framework. 
+
+3 UniFAR Framework 
+
+In this section, we introduce the proposed UniFAR framework in detail. As illustrated in Figure 1, UniFAR consists of two components: a replace-able base model for unified contextual embeddings, 2Figure 1: The architecture of the UniFAR framework. Scientific documents and questions are formatted as a unified sequence of segmented sentences and encoded by the Replaceable Base Model (gray) into token-level and sentence-level embeddings. Facet Aggregation Module (blue) builds on learnable facet anchors to pro-duce input-specific facet queries, which guide the aggre-gation through multi-granularity attention to generate facet-level embeddings. Facet embeddings are used to compute a similarity matrix between query and candi-date for each facet, supporting facet-aware retrieval. 
+
+and a facet-level aggregation module with multi-granularity attention and learnable facet-level se-mantic anchors for addressing mismatches in input granularity and semantic focus. 
+
+3.1 Input Encoding and Representation 
+
+To achieve unified modeling for both scientific doc-uments and scientific questions, UniFAR adopts a consistent input structure and a replaceable base encoder for multi-granularity representation. 
+
+Input Format. All inputs are organized into a unified structure of Sentence Sequence , where each sentence is explicitly separated by the special token [SEP] . As shown in Figure 1, an input can take either of the following forms: a scientific doc-ument with Title and d sentences, represented as: 
+
+Input d = Title [SEP] S1 [SEP] S2 · · · [SEP] Sd,
+
+or a scientific question (or a scientific document without Title ) with q sentences, represented as: 
+
+Input q = [CLS] S1 [SEP] S2 · · · [SEP] Sq. This unified format preserves sentence-level structure and enables consistent encoding across input types. 
+
+Multi-Granularity Representation. As shown in Figure 1(gray), UniFAR employs a replaceable 
+
+base model: given an input sequence Input d/q with 
+
+L tokens, it produces contextualized token embed-dings: T1, T2, . . . , TL = BASE (Input ). Each 
+
+Ti ∈ Rh corresponds to a token embedding, in-cluding special tokens such as [CLS] and [SEP] .To further obtain sentence-level representations, mean pooling is applied over token embeddings within each sentence: 
+
+S = {S1, S2, . . . , Ss}, Si = MeanPool (TSi )
+
+where TSi denotes the set of token embeddings belonging to the i-th sentence separated by [SEP] .For scientific documents, the title is treated as an ad-ditional sentence whose representation Stitle ∈ Rh
+
+is also included in S. Thus, the base model encodes each input into token-level and sentence-level em-beddings, providing multi-granularity representa-tions for subsequent facet-level aggregation. 
+
+3.2 Facet-Level Aggregation 
+
+This module introduces learnable facet anchors to derive input-specific facet queries, guiding multi-granularity attention over sentence-level and token-level representations. A dynamic selector further determines the appropriate aggregation level ac-cording to input granularity, yielding final facet-specific embeddings. 
+
+Facet Anchors and Input-Specific Queries. 
+
+We introduce a set of learnable facet anchors 
+
+Af acet = {a1, a2, . . . , aNf acet }, where each ai ∈
+
+Rh represents a latent semantic prototype for one facet. By serving as shared semantic reference points, these anchors induce a facet-aware shared representation space where scientific documents and questions are jointly represented. As shown in Figure 1 (blue, left), UniFAR projects either the title embedding Stitle from scientific documents or the [CLS] token embedding T[CLS ] from scientific questions into a contextual vector Einput ∈ Rh
+
+that captures input semantics. The input-specific facet queries Qf acet ∈ RNf acet ×h are then gener-ated by concatenating Einput with each facet an-chor ai ∈ Af acet and transforming them through a lightweight MLP followed by residual connection 3and layer normalization: 
+
+Qf acet = Add&Norm (MLP ([ Af acet ; Einput ])) .
+
+By conditioning learnable facet anchors on contex-tual input embeddings, UniFAR generates input-specific facet queries which guides the subsequent multi-granularity attention aggregation to produce facet-level representations. 
+
+Multi-Granularity Attention Aggregation. 
+
+Given the input-specific facet queries Qf acet , Uni-FAR aggregates token-level and sentence-level embeddings through a multi-granularity attention mechanism, as shown in Figure 1 (blue, right). Specifically, the sentence embeddings S ∈ R|S|× h
+
+from mean pooling and the token embeddings 
+
+T ∈ RL×h from the base model serve as key–value pairs for two multi-head attention branches: 
+
+Ef acet =
+
+(
+
+MHA sent (Qf acet , S, S), |S| ≥ Nf acet 
+
+MHA tok (Qf acet , T, T), |S| < N f acet 
+
+where |S| denotes the number of sentences in the input sequence. Sentence-level attention is reliable only when the input contains a sufficient number of sentences to support facet discrimination (i.e., 
+
+|S| ≥ Nf acet ). Short inputs, such as scientific questions or brief document segments, lack enough sentence units to ensure stable facet-specific align-ment, making token-level attention a more appro-priate and fine-grained alternative. Thus, the se-lector dynamically chooses between sentence-level and token-level outputs depending on |S| , ensuring effective facet representation across varying input lengths of scientific documents and questions. 
+
+3.3 Facet-Aware Retrieval 
+
+UniFAR supports unified retrieval by treating the input query as either a query document or a sci-entific question, while the candidate refers to a scientific document in the corpus. As shown at the top of Figure 1, the facet aggregation mod-ule produces facet-level embeddings for the input query q and the candidate document c, denoted as {e(f ) 
+
+> q
+
+}Nfacet   
+
+> f=1
+
+and {e(f ) 
+
+> c
+
+}Nfacet   
+
+> f=1
+
+, respectively. Their relevance is modeled as a facet similarity matrix 
+
+Mq,c ∈ RNfacet ×Nfacet , where each entry is com-puted as M(i,j ) 
+
+> q,c
+
+= sim 
+
+
+
+e(i) 
+
+> q
+
+, e(j)
+
+> c
+
+
+
+.This formulation decomposes retrieval relevance into fine-grained facet interactions, enabling facet-aware retrieval. Different calculation strategies over the facet similarity matrix can be applied to support diverse retrieval demands. 
+
+4 Facet-Aware Joint Training 
+
+We propose a facet-aware joint training strategy for UniFAR framework to address the mismatch in training signals between citation-based document similarity and question-oriented relevance. Fig-ure 2 shows the overall workflow. 
+
+4.1 Training Data Construction 
+
+Unlike prior methods (Cohan et al., 2020; Osten-dorff et al., 2022; Do et al., 2025) that mainly rely on document–document data, we construct train-ing data that jointly incorporate labeled scientific documents and facet-specific scientific questions, as illustrated on the left of Figure 2. We begin by constructing the Documents set from the facet-specific triplets in FLeW (Dou et al., 2025), which follow a three-facet structure for sci-entific documents: background ( bg ), method ( mt )
+
+and result ( rs ). In FLeW, each query document 
+
+dq appears in multiple independent triplets of the form (dq, d (f )+ , d (f ) 
+
+> −
+
+), where f ∈ { bg, mt, rs } and each triplet contains exactly one positive–negative document pair for facet f . To avoid redundancy and expose richer facet-level relations, we merge all triplets sharing the same query document dq into a single query-centered group, resulting in facet-specific sets D(f ) 
+
+> pos
+
+= {d(f )+ } and D(f ) 
+
+> neg
+
+= {d(f ) 
+
+> −
+
+} for each facet f . Unlike FLeW, which generates coarse text spans for facet segmentation, we obtain fine-grained sentence-level facet labels by prompting an LLM to classify each sentence into one of the three facets f ∈ { bg, mt, rs }, producing fully labeled scientific documents. To construct the Questions 
+
+set, we prompt the LLM with the query document 
+
+dq and its facet-positive documents D(f ) 
+
+> pos
+
+, instruct-ing it to generate one scientific question q(f ) for each facet. The labeled documents and generated questions are then grouped by their shared query document to construct unified instances. Each instance forms a Facet-Aware Training Unit (FTU), consisting of the query document dq, facet-specific positive and negative document sets D(f ) 
+
+> pos
+
+and D(f ) 
+
+> neg
+
+, and three facet-aware questions q(f ):FTU = {dq, D(f ) 
+
+> pos
+
+, D(f ) 
+
+> neg
+
+, q (f ) | f ∈ { bg, mt, rs }} .
+
+We release the constructed FTUs publicly to fa-cilitate future research. The prompting templates used for sentence labeling and question generation are provided in Appendix C, and detail statistics of the constructed data are provided in Appendix B. 4Figure 2: The facet-aware joint training strategy of UniFAR. Facet-Aware Training Unit (FTU, left) is constructed via LLM-based facet labeling and question generation, containing a query document, its facet-specific positives and negatives, and facet-aware scientific questions. FTUs are then forwarded through UniFAR (middle) as described in Section 3 to produce attention maps and facet-level document/question embeddings for Joint Optimization (right) .Three objectives: (1) LDD for doc–doc alignment, (2) LQD for q–doc retrieval, and (3) LKL for facet-sentence attention consistency, are jointly optimized through backpropagation to update all trainable components of UniFAR. 
+
+4.2 Forward and Optimization 
+
+Each FTU is fed into UniFAR for forward compu-tation, where all inputs are encoded by the replace-able base encode (Section 3.1) and then passed through the facet aggregation module (Section 3.2). As illustrated on the right of Figure 2, this forward process produces facet-level embeddings for doc-uments and questions, along with facet–sentence attention maps generated by multi-head attention. Instead of the triplet margin loss (Schroff et al., 2015) used in existing methods (Cohan et al., 2020; Ostendorff et al., 2022; Dou et al., 2025; Do et al., 2025), we adopt the widely used InfoNCE loss (Oord et al., 2019) as the contrastive learning ob-jective. Given an anchor a, a set of positive embed-dings P = {pi} and a set of negative embeddings 
+
+N = {nm}, the loss function is defined as: 
+
+LCL = − 1
+
+> |P|
+
+P
+
+> pi∈P
+
+log esim( a,pi)/τ     
+
+> P
+> pj∈P
+> esim( a,pj)/τ +P
+> nm ∈N
+> esim( a,nm)/τ
+
+where sim( ·) denotes a similarity function and τ is the temperature hyperparameter. This contrastive objective is jointly applied to doc-doc and q-doc retrieval under each facet, en-couraging documents and questions to share a uni-fied semantic space. For each facet f , the two losses are defined as:                
+
+> L(f)
+> DD =LCL
+>  a=dq,P={d(f)
+> +},N={d(f)
+> −}
+
+,                
+
+> L(f)
+> QD =LCL
+>  a=q(f),P={dq} ∪ { d(f)
+> +},N={d(f)
+> −}
+
+where dq is the query document embedding, d(f )
+
+> +
+
+and d(f ) 
+
+> −
+
+are the facet-specific positive and negative document embeddings, and q(f ) is the facet-aware question embedding. To explicitly supervise facet-aware aggregation, we further introduce a KL-divergence loss that aligns the predicted facet attention with annotated facet labels by sentence. For each document d, Uni-FAR produces a facet–sentence attention matrix A
+
+(Figure 2, right). Given the gold facet–sentence alignment matrix G derived from facet labeling (Section 4.1), we normalize both matrices row-wise to obtain probability distributions ˜A, ˜G ∈
+
+R|F (d)|×|S (d)|. The loss function is then defined as: 
+
+L(d) 
+
+> KL
+
+= 1
+
+> |F (d)|
+
+P 
+
+> f∈F (d)
+> 1
+> |S (d)|
+
+P
+
+> si∈S (d)
+
+˜Gf,s i log ˜Gf,s i
+
+> ˜Af,s i
+
+.
+
+5The total training objective integrates the facet-level contrastive losses and the doc-level KL-loss: 
+
+Ltotal = 1
+
+> |F|
+
+P 
+
+> f∈F
+
+
+
+L(f ) 
+
+> DD
+
++ L(f )
+
+> QD
+
+
+
++ λ 1
+
+> |D|
+
+P
+
+> d∈D
+
+L(d)KL 
+
+where F = {background , method , result } and λ is a weighting coefficient. Details in Figure 2 show that LKL is detached from the base model, and gradients from LQD are restricted to the question branch to preserve document representations. 
+
+5 Experiments 
+
+5.1 Experimental Setup Base Models. To evaluate the adaptability of Uni-FAR with different base models, we adopt three representative models. SciBERT (Beltagy et al., 2019) is a domain-specific encoder pretrained on scientific corpora, serving as a standard baseline for scientific document understanding. Contriever 
+
+(Izacard et al., 2022) is an unsupervised dense retriever trained via large-scale contrastive learn-ing on general-domain text, representing domain-agnostic models. MPNet (Song et al., 2020) com-bines masked and permuted language modeling, providing strong general-purpose representations. 
+
+Baseline Methods. To ensure fair comparison across different backbone encoders, we group all baselines by their underlying base models. Most prior methods are built on SciBERT for its domain specificity, including the citation-driven models SPECTER (Cohan et al., 2020) and SciNCL (Os-tendorff et al., 2022), the co-citation-based models CoSentBERT and Aspire (Mysore et al., 2022), as well as the facet-aware approaches FaBle (Do et al., 2025) and FLeW (Dou et al., 2025). For the Con-triever group, we include OpenScholar Retriever (OSRetriever) (Asai et al., 2024), which adapts con-trastive training to scientific document chunks for domain alignment. 
+
+Benchmarks and Metrics. We evaluate Uni-FAR on both question–document (q-doc) and document–document (doc-doc) retrieval settings. For the q–doc retrieval, we evaluate on DORIS-MAE (Wang et al., 2023), a multi-level bench-mark featuring diverse queries at different semantic granularities. For doc-doc retrieval, we use CS-FCube (Mysore et al., 2021), a facet-level bench-mark where each query paper is annotated with three facets consistent with UniFAR’s facet schema. For evaluation, we use Recall@5, R-Precision, and MAP from DORIS-MAE ; and report nDCG %20 and MAP for CSFCube following prior works (Mysore et al., 2022; Do et al., 2025). Detailed descrip-tions of benchmarks and implementation settings are further provided in Appendix D and A. 
+
+Facet-Aware Retrieval Strategies. Based on the facet similarity matrix (Section 3.3), UniFAR uses different strategies across retrieval tasks. For 
+
+DORIS-MAE (q-doc), we compute the final similar-ity by averaging the diagonal entries of the matrix, providing an overall relevance across facets for multi-level queries. For CSFCube (doc-doc), we compute relevance using the facet-wise diagonal similarities, evaluating each facet independently under the benchmark’s fixed facet schema. 
+
+5.2 Experimental Results Question–Document Retrieval. As shown in Ta-ble 1, UniFAR yields consistent improvements on the DORIS-MAE benchmark across the granularity levels at Query , Aspect , and Subquery_2 .Within the SciBERT group, UniFAR -SciBERT con-sistently outperforms SciBERT-based baselines across nearly all metrics and query levels. On the 
+
+Query level, UniFAR achieves gains of +0.31 MAP 
+
+and +0.54 Recall@5 over the strongest baselines. On the Aspect level, UniFAR also delivers the high-est Recall@5 surpassing OTAspire, while also im-proving MAP over FLeW. The only exception is  
+
+> Recall@5
+
+(11.25) on the Subquery_2 level, likely due to semantic discontinuity of two concatenated aspects that weakens facet alignment. Compared with SciBERT -ID , UniFAR improves MAP by +7.53 on the Query level and +5.82 on Subquery_2 , high-lighting the effectiveness of facet-aware joint train-ing beyond domain-specific adaptation. For the other two groups, UniFAR -Contriever con-sistently improves over both OSRetriever and Con-triever across all levels, with particularly notable gains on the Query level (+3.04 Recall@5 , +3.10 
+
+> R-Precision
+
+). Similarly, UniFAR -MPNet consistently outperforms MPNet, achieving improvements of +1.13 MAP on the Query level and +1.20 MAP on 
+
+Subquery_2 . These results indicate that UniFAR delivers robust gains even with domain-agnostic encoders, demonstrating strong plug-and-play gen-erality beyond the SciBERT setting. 
+
+Document–Document Retrieval. On the facet-level doc-doc benchmark CSFCube (Table 2), Uni-FAR also achieves improvements across three facets and their aggregated scores. Within the SciBERT group, UniFAR -SciBERT 
+
+achieves the best results on both the Background 
+
+6Level Query Aspect Subquery_2 Model / Metric Recall@5 MAP R-Precision Recall@5 MAP R-Precision Recall@5 MAP R-Precision SciBERT 5.13 20.34 17.13 5.41 21.66 18.50 2.43 21.23 17.56 SciBERT -ID 12.86 31.50 27.54 8.88 26.53 22.56 9.41 42.19 39.28 SPECTER 13.34 35.75 32.66 11.56 31.39 28.43 10.51 38.27 35.40 SciNCL 13.21 36.10 31.38 12.69 35.43 30.75 10.75 47.48 43.71 SPECTER-2 14.50 37.12 33.41 12.97 35.77 31.30 11.14 47.26 43.73 TSAspire 14.26 37.00 33.81 14.30 37.31 33.63 13.15 45.85 41.46 OTAspire 13.34 36.70 33.63 14.45 36.09 32.53 12.56 45.53 40.60 FLeW 14.42 38.72 32.71 14.24 37.56 33.28 11.43 47.66 44.01 UniFAR -SciBERT (Ours) 15.04 39.03 34.01 14.58 37.82 33.86 11.25 48.01 44.25 
+
+Contriever 11.90 33.44 28.70 11.15 29.91 26.57 9.49 43.07 40.15 OSRetriever 13.02 36.96 30.88 12.29 32.54 29.09 11.22 47.13 43.37 UniFAR -Contriever (Ours) 16.06 37.52 33.98 13.75 35.41 31.39 11.35 47.38 44.10 
+
+MPNet 14.95 40.94 35.06 13.87 37.13 33.77 12.19 48.35 44.31 UniFAR -MPNet (Ours) 16.08 41.47 37.13 15.68 37.77 34.05 12.42 49.55 45.85 
+
+Table 1: Results on the DORIS-MAE benchmark (q-doc) across three levels. Bold numbers indicate the best performance within each base model group. -ID denotes models further trained in the benchmark domain. 
+
+Facet Background Method Result Aggregated Model / Metric MAP nDCG %20 MAP nDCG %20 MAP nDCG %20 MAP nDCG %20 
+
+SciBERT 25.89 44.99 19.23 34.41 23.06 42.06 22.63 40.33 CoSentBERT 35.78 61.27 19.27 38.77 32.15 50.68 28.95 50.68 SPECTER 43.95 66.70 22.44 37.41 36.79 56.67 34.23 53.28 SciNCL 49.64 70.02 27.14 46.61 41.83 61.70 39.37 59.24 SPECTER-2 50.79 70.92 27.19 47.28 39.65 63.73 39.86 60.42 TS+OTAspire -SPECTER 51.79 70.99 26.68 47.60 43.06 64.82 40.26 60.86 FaBle -SPECTER 42.66 67.38 25.98 44.97 38.60 58.10 35.60 56.60 FLeW -bg/mt/rs 50.93 71.09 23.76 44.37 39.03 62.37 38.01 59.98 UniFAR -SciBERT (Ours) 51.91 72.55 25.76 47.72 43.19 64.88 39.97 61.27 
+
+Contriever 43.17 65.64 23.11 41.35 38.45 62.41 34.74 56.25 OSRetriever 47.18 69.64 23.86 44.35 35.77 61.55 36.08 58.39 UniFAR -Contriever (Ours) 47.29 69.90 24.71 45.06 38.96 63.44 36.83 58.81 
+
+MPNet 50.68 72.30 27.58 47.32 42.81 65.42 40.03 61.46 UniFAR -MPNet (Ours) 50.88 72.36 27.65 47.42 47.48 66.97 41.90 62.08 
+
+Table 2: Results on the CSFCube benchmark (doc-doc) across three facets and their aggregated scores. Bold 
+
+numbers indicate the best performance within each base model group. -SPECTER denotes models trained with SPECTER initialization. -bg/mt/rs indicates three facet encoders of FLeW, trained separately for background, method, and result. 
+
+and Result facets. Compared with other facet-aware baselines, including FaBle and FLeW, UniFAR -SciBERT shows consistent improvements across Background (+1.46 nDCG %20 ), Method 
+
+(+2.75 nDCG %20 ), and Result (+4.16 MAP ). This confirms the effectiveness of the proposed facet aggregation module and facet-aware joint training. For the other two groups, UniFAR -Contriever im-proves Aggregated MAP +0.75 over OSRetriever, while UniFAR -MPNet achieves a notable gain of +4.67 MAP on Result over MPNet. These results mirror the trends observed in q-doc retrieval, con-firming the robustness and generality of UniFAR across retrieval settings. 
+
+6 Analysis 
+
+As shown in Table 3, we conduct ablation analy-ses to examine how multi-granularity aggregation, learnable facet anchors, and joint training objec-tives in UniFAR address mismatches in input gran-ularity, semantic focus, and training signals. 
+
+Multi-Granularity Aggregation. Removing sentence-level attention (w/o MHA sent ) causes a larger drop on CSFCube (doc-doc), where long scientific documents benefit from sentence-level se-mantic structure for facet aggregation. Conversely, removing token-level attention (w/o MHA tok )leads to greater degradation on DORIS-MAE (q-doc), where short queries depend more heavily on fine-grained attention over individual tokens for facet-relevant evidence. These degradation patterns indicate that combining sentence-level and token-level attention with adaptive granularity selection is essential for maintaining robust facet embeddings across different retrieval tasks. 
+
+Learnable Facet Anchors. Freezing the anchors (Freeze Af acet ) yields mild degradation across both benchmarks, indicating that static anchors ini-7Benchmark DORIS-MAE (q-doc) CSFCube (doc-doc) Model / Level Query Aspect Subquery_2 Background Method Result Aggregated UniFAR (full) 39.03 37.82 48.01 51.91 25.76 43.19 39.97                                                       
+
+> w/o MHA sent 38.90 37.79 47.69 50.65 25.23 41.63 38.76 w/o MHA tok 37.96 37.11 46.95 51.11 24.76 42.59 38.94 Freeze Af acet 38.06 37.75 47.88 51.79 25.37 40.96 39.13 w/o Af acet 36.93 34.66 47.13 51.42 24.85 41.66 38.78 w/o Einput 37.74 37.37 47.78 50.83 25.59 41.12 38.81 w/o LKL 36.86 35.18 45.08 49.41 23.75 42.26 38.07 w/o LQD 38.57 37.66 47.01 51.59 25.27 43.08 39.62
+
+Table 3: Ablation study on UniFAR-SciBERT evaluated by MAP on DORIS-MAE (q-doc) and CSFCube (doc-doc), analyzing the contributions of multi-granularity aggregation, learnable facet anchors, and joint training objectives. 
+
+Figure 3: Facet-level similarity matrices between ques-tion facets (rows: Q-bg, Q-mt, Q-rs) and document facets (columns: Doc-bg, Doc-mt, Doc-rs). 
+
+tialized by facet words are still useful for structur-ing facet queries. As the only structural source of facet-specific differentiation, fully removing the anchors (w/o Af acet ) causes all facet queries to collapse into the same vector, yielding identical facet embeddings. This collapse severely weakens facet disentanglement and leads to notable perfor-mance degradation on both benchmarks. Removing the input-specific refinement (w/o Einput ) also re-duces performance, suggesting that anchors alone are insufficient and adapting them to each input is essential for capturing facet-specific nuances. Figure 3 further visualizes the average similarity among facet embeddings of questions and docu-ments from DORIS-Query under different ablation settings. The full UniFAR yields strong diagonal patterns, reflecting clear facet alignment. Freez-ing the anchors (Freeze Af acet ) reduces similarity strength and weakens q-doc alignment, but still fol-lows the diagonal pattern. Removing the anchors (w/o Af acet ) collapses all facets into identical vec-tors, while removing the input embeddings (w/o 
+
+Einput ) blurs facet separation and lowers overall similarity. These results highlight the necessity of learnable facet anchors and input embeddings for maintaining discriminative facet semantics and a shared facet-aware space for unified retrieval. 
+
+Joint Training Objectives. Removing the KL-loss (w/o LKL ) leads to significant performance drops on both benchmarks, indicating that facet–sentence attention alignment is crucial for effective facet-aware learning. This supervisory signal provides consistent guidance for shaping facet-specific at-tention patterns and enhances the interpretability of generated representations. Omitting the ques-tion–document loss (w/o LQD ) results in modest yet consistent declines across retrieval levels. This suggests that q-doc supervision serves as an aux-iliary alignment signal that bridges citation-based similarity and question-oriented relevance. 
+
+Case Study. A case study is provided in Ap-pendix F as a visual interpretation of UniFAR. 
+
+7 Conclusion 
+
+In this paper, we present UniFAR, a unified facet-aware retrieval framework for scientific litera-ture that jointly supports document-document and question-document retrieval. By integrating adap-tive multi-granularity aggregation, learnable facet anchors, and facet-aware joint training, UniFAR reconciles systematic mismatches between doc-doc and q-doc retrieval, including input granularity, se-mantic focus, and training signals. Extensive ex-periments across multiple benchmarks and base models demonstrate that UniFAR consistently out-performs prior approaches in both retrieval settings. Further ablation analyses confirm the contributions of key components and training objectives. We wish UniFAR can provide a fundamental and flexi-ble framework for future scientific knowledge dis-covery based on LLMs and RAG. 8Limitations 
+
+In this work, the number of facets in UniFAR is fixed during training and shared across retrieval tasks for simplicity and stability. Nevertheless, the proposed framework itself is not restricted to a specific facet cardinality, and can naturally support different choices of Nf acet by adjusting the number of learnable facet anchors. Dynamically adapting the number or granularity of facets to different re-trieval scenarios, query complexities, or domain characteristics may further improve flexibility and retrieval effectiveness. Future work will explore leveraging facet-level representations for adaptive retrieval augmentation and knowledge grounding in scientific domain, extending the framework to-ward more interpretable and generalizable retrieval systems. 
+
+References 
+
+Anirudh Ajith, Mengzhou Xia, Alexis Chevalier, Tanya Goyal, Danqi Chen, and Tianyu Gao. 2024. Lit-Search: A retrieval benchmark for scientific literature search. In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing ,pages 15068–15083, Miami, Florida, USA. Associa-tion for Computational Linguistics. Akari Asai, Jacqueline He, Rulin Shao, Weijia Shi, Amanpreet Singh, Joseph Chee Chang, Kyle Lo, Luca Soldaini, Sergey Feldman, Mike D’arcy, David Wadden, Matt Latzke, Minyang Tian, Pan Ji, Shengyan Liu, Hao Tong, Bohao Wu, Yanyu Xiong, Luke Zettlemoyer, and 6 others. 2024. Openscholar: Synthesizing scientific literature with retrieval-augmented lms. Preprint , arXiv:2411.14199. Iz Beltagy, Kyle Lo, and Arman Cohan. 2019. SciB-ERT: A pretrained language model for scientific text. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Lan-guage Processing (EMNLP-IJCNLP) , pages 3615– 3620, Hong Kong, China. Association for Computa-tional Linguistics. Fengyu Cai, Xinran Zhao, Tong Chen, Sihao Chen, Hongming Zhang, Iryna Gurevych, and Heinz Koeppl. 2024. MixGR: Enhancing retriever general-ization for scientific domain through complementary granularity. In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Process-ing , pages 10369–10391, Miami, Florida, USA. As-sociation for Computational Linguistics. Arman Cohan, Sergey Feldman, Iz Beltagy, Doug Downey, and Daniel Weld. 2020. SPECTER: Document-level representation learning using citation-informed transformers. In Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics , pages 2270–2282, Online. Association for Computational Linguistics. Hang Ding, Yilun Zhao, Tiansheng Hu, Manasi Pat-wardhan, and Arman Cohan. 2025. Scirag: Adap-tive, citation-aware, and outline-guided retrieval and synthesis for scientific literature. Preprint ,arXiv:2511.14362. Heejin Do, Sangwon Ryu, Jonghwi Kim, and Gary Lee. 2025. Multi-facet blending for faceted query-by-example retrieval. In Proceedings of the 63rd An-nual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) , pages 28577– 28590, Vienna, Austria. Association for Computa-tional Linguistics. Zheng Dou, Deqing Wang, Fuzhen Zhuang, Jian Ren, and Yanlin Hu. 2025. Flew: Facet-level and adaptive weighted representation learning of scientific docu-ments. Preprint , arXiv:2509.07531. Wenqi Fan, Yujuan Ding, Liangbo Ning, Shijie Wang, Hengyun Li, Dawei Yin, Tat-Seng Chua, and Qing Li. 2024. A survey on rag meeting llms: Towards retrieval-augmented large language models. In Pro-ceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining , KDD ’24, page 6491–6501, New York, NY, USA. Association for Computing Machinery. Gautier Izacard, Mathilde Caron, Lucas Hosseini, Sebas-tian Riedel, Piotr Bojanowski, Armand Joulin, and Edouard Grave. 2022. Unsupervised dense informa-tion retrieval with contrastive learning. Transactions on Machine Learning Research .SeongKu Kang, Bowen Jin, Wonbin Kweon, Yu Zhang, Dongha Lee, Jiawei Han, and Hwanjo Yu. 2025. Im-proving scientific document retrieval with concept coverage-based query set generation. In Proceed-ings of the Eighteenth ACM International Confer-ence on Web Search and Data Mining , WSDM ’25, page 895–904, New York, NY, USA. Association for Computing Machinery. Vladimir Karpukhin, Barlas Oguz, Sewon Min, Patrick Lewis, Ledell Wu, Sergey Edunov, Danqi Chen, and Wen-tau Yih. 2020. Dense passage retrieval for open-domain question answering. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP) , pages 6769–6781, Online. Association for Computational Linguistics. Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Hein-rich Küttler, Mike Lewis, Wen-tau Yih, Tim Rock-täschel, and 1 others. 2020. Retrieval-augmented gen-eration for knowledge-intensive nlp tasks. Advances in neural information processing systems , 33:9459– 9474. Niklas Muennighoff, Nouamane Tazi, Loic Magne, and Nils Reimers. 2023. MTEB: Massive text embedding benchmark. In Proceedings of the 17th Conference 
+
+9of the European Chapter of the Association for Com-putational Linguistics , pages 2014–2037, Dubrovnik, Croatia. Association for Computational Linguistics. Sheshera Mysore, Arman Cohan, and Tom Hope. 2022. Multi-vector models with textual guidance for fine-grained scientific document similarity. In Proceed-ings of the 2022 Conference of the North Ameri-can Chapter of the Association for Computational Linguistics: Human Language Technologies , pages 4453–4470, Seattle, United States. Association for Computational Linguistics. Sheshera Mysore, Tim O’Gorman, Andrew McCallum, and Hamed Zamani. 2021. CSFCube - a test collec-tion of computer science research articles for faceted query by example. In Thirty-fifth Conference on Neu-ral Information Processing Systems Datasets and Benchmarks Track (Round 2) .Aaron van den Oord, Yazhe Li, and Oriol Vinyals. 2019. Representation learning with contrastive predictive coding. Preprint , arXiv:1807.03748. Malte Ostendorff, Nils Rethmeier, Isabelle Augenstein, Bela Gipp, and Georg Rehm. 2022. Neighborhood contrastive learning for scientific document represen-tations with citation embeddings. In Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing , pages 11670–11688, Abu Dhabi, United Arab Emirates. Association for Computational Linguistics. Florian Schroff, Dmitry Kalenichenko, and James Philbin. 2015. Facenet: A unified embedding for face recognition and clustering. In 2015 IEEE Con-ference on Computer Vision and Pattern Recognition (CVPR) , pages 815–823. Amanpreet Singh, Mike D’Arcy, Arman Cohan, Doug Downey, and Sergey Feldman. 2023. SciRepEval: A multi-format benchmark for scientific document rep-resentations. In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Process-ing , pages 5548–5566, Singapore. Association for Computational Linguistics. Kaitao Song, Xu Tan, Tao Qin, Jianfeng Lu, and Tie-Yan Liu. 2020. Mpnet: Masked and permuted pre-training for language understanding. Advances in neural information processing systems , 33:16857– 16867. Jianyou Andre Wang, Kaicheng Wang, Xiaoyue Wang, Prudhviraj Naidu, Leon Bergen, and Ramamohan Paturi. 2023. Scientific document retrieval using multi-level aspect-based queries. Advances in Neural Information Processing Systems , 36:38404–38419. Liang Wang, Nan Yang, Xiaolong Huang, Binx-ing Jiao, Linjun Yang, Daxin Jiang, Rangan Ma-jumder, and Furu Wei. 2024. Text embeddings by weakly-supervised contrastive pre-training. Preprint ,arXiv:2212.03533. 
+
+10 A Implementation Details 
+
+We train three UniFAR variants with different base models ( SciBERT, Contriever, and MPNet ). The training corpus is constructed as described in Sec-tion 4.1, with detailed statistics and field distribu-tions provided in Appendix B. All three UniFAR variants are trained for 2 epochs using AdamW with a 5% linear warm-up, a batch size of 4, and gradient accumulation of 4 on four NVIDIA 3090 GPUs (24GB each). The contrastive temperature τ
+
+is set to 0.08, and the KL-loss weight λ is linearly annealed from 0.3 to 0.5 during training. For SciB-ERT and Contriever , learning rates are set to 2e-5 for the base model and shared facet anchors, and 5e-5 for other aggregation modules; for MPNet , a smaller learning rate of 3e-6 is used to preserve semantic consistency of stronger base model. 
+
+B Training Data Statistics 
+
+We construct a total of 217,806 Facet-Aware Train-ing Units (FTUs), each consisting of the query doc-ument, facet-specific positive and negative docu-ment sets, and three facet-aware questions. Aggre-gating all query, positive, and negative documents across FTUs results in 7,428,874 facet-labeled doc-uments. Table 4 presents the distribution of scien-tific fields in our training corpus, including both scientific documents and generated questions (3 facets for each query document). The corpus spans a broad range of fields, with Medicine, Computer Science, and Biology as the three largest. 
+
+Scientific Fields # Documents # Questions ( ×3)Medicine 3,002,908 101,065 Computer Science 1,538,273 77,079 Biology 1,158,449 38,820 Psychology 494,617 14,017 Chemistry 400,837 10,400 Physics 384,276 9,904 Mathematics 371,410 16,852 Engineering 310,521 10,280 Materials Science 251,316 7,624 Economics 201,989 8,253 Business 168,263 4,328 Environmental Science 107,915 2,570 Geology 100,061 2,003 Geography 93,067 1,514 Sociology 91,846 1,604 Political Science 74,960 2,470 Art 12,470 59 Philosophy 11,572 24 History 9,271 109 
+
+Table 4: Distribution of scientific fields in our training corpus (FTUs), including both scientific documents and generated questions. 
+
+C Prompts for LLM-based Data Construction 
+
+Table 5 and Table 6 provide the LLM prompt tem-plates used in our data construction pipeline (Sec-tion 4.1) for question generation and document labeling, respectively. 
+
+System Message 
+
+You are an expert in scientific literature retrieval, special-izing in generating professional academic search queries. 
+
+User Prompt 
+
+Generate an English query for the {facet_type} facet based on the following sentences from the seed paper and positive papers. {facet_type} sentences from seed paper: { query_text }{facet_type} sentences from positive papers: { pos_text }Requirements: 1. Generate a natural, fluent, concise, and professional query that highlights {requirement}. 2. The query should be between 25–50 words. 3. Output only the query itself, without any explanation or additional content. Generated {facet_type} query: {facet_type} {requirement} background research questions, research motivation, and limitations of existing studies method technical methods, experimental design, and innovations result key findings, data support, and conclu-sions 
+
+Table 5: Prompt used for generating facet-specific sci-entific questions from the query document and its facet-positive documents. 
+
+System Message 
+
+You are an expert in classifying sentences from scientific paper abstracts into rhetorical roles. 
+
+User Prompt 
+
+The following sentences come from the same scientific abstract:{ sentences_list }Task Description: 1. Based on the content and contextual meaning, clas-sify each sentence into one of the following categories: {background, method, result}. 2. Return the output in a structured JSON format, ensur-ing each sentence is paired with the correct category. 3. The expected output format is: [{ "sentence": "Sentence1", "category": "background" }, { "sentence": "Sentence2", "category": "method" }, { "sentence": "Sentence3", "category": "result" }] Please output only the structured JSON result without any explanation. 
+
+Table 6: Prompt used for facet-level sentence labeling in scientific abstracts. 
+
+11 D Benchmark Details 
+
+DORIS-MAE (Wang et al., 2023) is designed to evaluate scientific document retrieval under com-plex, multi-intent information needs. Each query is a human-authored, long-form scientific ques-tion that is hierarchically decomposed into seman-tically distinct aspects and sub-aspects, enabling fine-grained relevance assessment beyond single-sentence queries. This multi-level structure sub-stantially increases query diversity and difficulty, and exposes the limitations of retrievers trained on simple or single-aspect queries. By explicitly mod-eling aspect-level relevance and supporting both full queries and sub-queries, DORIS-MAE pro-vides a challenging and realistic benchmark for question–document retrieval in scientific literature, making it well suited for evaluating UniFAR’s abil-ity to handle question-driven retrieval with complex semantic structure. 
+
+CSFCube (Mysore et al., 2021) is designed for faceted query-by-example retrieval in scientific lit-erature, where each query consists of a scientific paper paired with a specific facet of interest. The dataset is constructed through expert annotation following TREC-style pooling and adjudication, producing graded relevance judgments with high inter-annotator agreement. By explicitly associ-ating relevance with rhetorical facets of scientific discourse, CSFCube enables evaluation of docu-ment–document similarity at the facet level rather than treating documents as monolithic units. This design makes CSFCube a principled benchmark for assessing whether retrieval models can capture fine-grained, facet-specific semantic alignment be-tween scientific documents, directly matching the doc-doc setting targeted by UniFAR. 
+
+LitSearch (Ajith et al., 2024) constructs retrieval questions from in-line citation contexts and then refines them through expert validation, produc-ing information needs that closely mirror how re-searchers formulate queries during literature explo-ration. It contains both human-written and rigor-ously validated LLM-generated questions, and eval-uates retrieval over full papers rather than abstracts. These characteristics make LitSearch a demanding and practically oriented benchmark, providing a complementary setting for evaluating the general-ity of UniFAR. We report statistics of all the three benchmarks at the level granularity in Table 7, as retrieval per-formance is evaluated separately for each level.     
+
+> Benchmarks # Queries # Candidates
+> DORIS-MAE
+> 100 (Query) 100 (Aspect) 1,003 (Subquery_2) 363,133
+> CSFCube
+> 16 (Background) 17 (Method) 17 (Result) 4,207
+> LitSearch 597 64,183
+> Table 7: Benchmark statistics.
+
+E Additional Experimental Results 
+
+To further evaluate the robustness of our frame-work in realistic scientific document retrieval sce-narios, we conduct additional experiments on the LitSearch benchmark (Ajith et al., 2024). Based on facet similarity matrix (Section 3.3), we use the av-erage of diagonal similarities for overall relevance. As shown in Table 8, UniFAR -SciBERT achieves con-sistent improvements over all competitive base-lines across four standard retrieval metrics (Recall, MRR, MAP, and nDCG) evaluated at cutoff levels of 5, 10, and 20. These results further validate the effectiveness of our UniFAR framework in more challenging and realistic scenarios. Notably, the performance margins widen at larger cutoff thresh-olds (e.g., Recall@20 +3.03 and nDCG@20 +1.51 when the threshold is 20), aligning with real-world scientific retrieval scenarios where users typically expect multiple relevant results. This trend also indicates that UniFAR’s multi-positive InfoNCE objective offers a richer and more stable training signal than the single-positive triplet loss used in prior work, enabling stronger ranking robustness at deeper retrieval depths. 
+
+F Case Study 
+
+To illustrate the interpretability of facet-level ag-gregation in UniFAR, we present a case study on a randomly selected sample from LitSearch (Ajith et al., 2024). We visualize the facet-level atten-tion distributions for one scientific question and its three retrieved documents in this sample. Table 9 provides detailed information for the question and its retrieved documents, and Figure 4 shows the corresponding facet-level attention heatmaps. In Figure 4 (a), the scientific question is parti-tioned into semantically coherent zones by three facets. The Background facet dominates the first third of the question, assigning substantial weight to the segment that establishes the informational 12 Metric Recall MRR MAP nDCG Model @5 @10 @20 @5 @10 @20 @5 @10 @20 @5 @10 @20 SPECTER 22.78 30.15 36.85 15.88 16.85 17.33 15.48 16.40 16.87 17.27 19.55 21.24 SciNCL 28.81 37.02 44.05 20.56 21.69 22.20 19.78 20.86 21.36 21.99 24.59 26.36 SPECTER-2 34.67 44.22 52.09 23.60 24.93 25.46 22.62 23.97 24.50 25.53 28.70 30.68 FLeW 34.17 44.70 52.58 23.67 24.16 24.72 22.61 23.53 24.09 25.36 28.53 30.53 UniFAR -SciBERT 35.14 44.89 55.61 23.94 25.17 25.93 23.49 24.71 25.47 25.99 29.29 32.04 
+
+Table 8: Results on the LitSearch benchmark (q–doc) across four metrics, reported at cutoff levels of 5, 10, and 20. 
+
+Bold numbers indicate the best performance at each cutoff. 
+
+scope, asking “which papers?” and specifying the topical focus on “the application”. This pattern indicates that UniFAR identifies these early tokens as defining the conceptual frame of the question. The Method facet exhibits localized and moderate activations in the middle portion of the question, primarily around mentions of model or technical procedures such as “transformer language models” and “generation”. The Result facet concentrates sharply on the evaluative tail of the question, with pronounced activation around “novelty” and “valid-ity.” This suggests that the model interprets these terms as direct signals of result-level properties, consistent with their inherent role as evaluative cri-teria when formulating information needs. In Figures 4 (b)–(d), the three facet queries pro-duce similarly coherent patterns across sentences of the retrieved documents. For each document, the Background facet primarily attends to the open-ing sentences, where the abstracts introduce the research problem or conceptual motivation (Doc 1: S0–S4; Doc 2: S0–S1; Doc 3: S0–S3). The 
+
+Method facet shifts its focus to the middle por-tions of the abstracts, highlighting sentences that describe technical procedures or modeling choices (Doc 1: S5–S8; Doc 2: S2–S5,S7; Doc 3: S4–S5). The Result facet consistently peaks near the end of each document, aligning with sentences that report empirical findings or performance outcomes (Doc 1: S9; Doc 2: S5-S6; Doc 3: S6–S7). These attention patterns show that UniFAR ef-fectively disentangles background, method, and result information in both the question and the retrieved documents, yielding facet embeddings that correspond to distinct components of scien-tific discourse. The facet-specific signals track in-troductory context, procedural detail, and empir-ical findings aligned with the common structure of scientific writing. This alignment indicates that UniFAR’s multi-granularity aggregation does not diffuse attention uniformly but selectively focuses on segments that carry facet-relevant evidence. By grounding attention with facet anchors, UniFAR produces interpretable and stable facet embeddings that reflect semantic structure and question intent in realistic scientific document retrieval scenarios. 13 Scientific Question 
+
+Which papers should I refer to for learning about the application of transformer language models to the generation of argumentative text conclusions, including the assessment of their novelty and validity? 
+
+Scientific Document 1 Title: 
+
+Generating Informative Conclusions for Argumentative Texts 
+
+Abstract: 
+
+The purpose of an argumentative text is to support a certain conclusion. (S0) Yet, they are often omitted, expecting readers to infer them rather. (S1) While appropriate when reading an individual text, this rhetorical device limits accessibility when browsing many texts (e.g., on a search engine or on social media). (S2) In these scenarios, an explicit conclusion makes for a good candidate summary of an argumentative text. (S3) This is especially true if the conclusion is informative, emphasizing specific concepts from the text. (S4) With this paper we introduce the task of generating informative conclusions: First, Webis-ConcluGen-21 is compiled, a large-scale corpus of 136,996 samples of argumentative texts and their conclusions. (S5) Second, two paradigms for conclusion generation are investigated; one extractive, the other abstractive in nature. (S6) The latter exploits argumentative knowledge that augment the data via control codes and finetuning the BART model on several subsets of the corpus. (S7) Third, insights are provided into the suitability of our corpus for the task, the differences between the two generation paradigms, the trade-off between informativeness and conciseness, and the impact of encoding argumentative knowledge. (S8) The corpus, code, and the trained models are publicly available. (S9) 
+
+Scientific Document 2 Title: 
+
+Explainable Unsupervised Argument Similarity Rating with Abstract Meaning Representation and Conclusion Generation 
+
+Abstract: 
+
+When assessing the similarity of arguments, researchers typically use approaches that do not provide interpretable evidence or justifications for their ratings. (S0) Hence, the features that determine argument similarity remain elusive. (S1) We address this issue by introducing novel argument similarity metrics that aim at high performance and explainability. (S2) We show that Abstract Meaning Representation (AMR) graphs can be useful for representing arguments, and that novel AMR graph metrics can offer explanations for argument similarity ratings. (S3) We start from the hypothesis that similar premises often lead to similar conclusions and extend an approach for AMR-based argument similarity rating by estimating, in addition, the similarity of conclusions that we automatically infer from the arguments used as premises. (S4) We show that AMR similarity metrics make argument similarity judgements more interpretable and may even support argument quality judgements. (S5) Our approach provides significant performance improvements over strong baselines in a fully unsupervised setting. (S6) Finally, we make first steps to address the problem of reference-less evaluation of argumentative conclusion generations. (S7) 
+
+Scientific Document 3 Title: 
+
+Assessing the Sufficiency of Arguments through Conclusion Generation 
+
+Abstract: 
+
+The premises of an argument give evidence or other reasons to support a conclusion. (S0) However, the amount of support required depends on the generality of a conclusion, the nature of the individual premises, and similar. (S1) An argument whose premises make its conclusion rationally worthy to be drawn is called sufficient in argument quality research. (S2) Previous work tackled sufficiency assessment as a standard text classification problem, not modeling the inherent relation of premises and conclusion. (S3) In this paper, we hypothesize that the conclusion of a sufficient argument can be generated from its premises. (S4) To study this hypothesis, we explore the potential of assessing sufficiency based on the output of large-scale pre-trained language models. (S5) Our best model variant achieves an F1-score of 0.885, outperforming the previous state-of-the-art and being on par with human experts. (S6) While manual evaluation reveals the quality of the generated conclusions, their impact remains low ultimately. (S7) 
+
+Table 9: A LitSearch sample consisting of one scientific question and three retrieved scientific documents. All abstract sentences are indexed (S0, S1, ...) for reference in the attention visualizations in Figure 4. 
+
+14 Figure 4: Facet-level attention visualizations for the scientific question and three retrieved documents in Table 9. Each heatmap shows the attention weights from the three facet queries Qf acet to question tokens or document sentences during multi-granularity aggregation. Higher weights (darker colors) indicate greater contribution of a sentence or token to the final facet embeddings. 
+
+15

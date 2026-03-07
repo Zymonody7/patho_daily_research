@@ -1,0 +1,139 @@
+Title: Cytoarchitecture in Words: Weakly Supervised Vision-Language Modeling for Human Brain Microscopy
+
+URL Source: https://arxiv.org/pdf/2602.23088v1
+
+Published Time: Fri, 27 Feb 2026 02:02:15 GMT
+
+Number of Pages: 8
+
+Markdown Content:
+# Cytoarchitecture in Words: Weakly Supervised Vision–Language Modeling for Human Brain Microscopy 
+
+Matthew Sutton 1,2 , Katrin Amunts 1,3 , Timo Dickscheid 1,4 , and Christian Schiffer 1,2 1Institute of Neuroscience and Medicine (INM-1), Research Centre Jülich, Jülich, Germany 
+
+> 2
+
+Helmholtz AI, Research Centre Jülich, Jülich, Germany 
+
+> 3
+
+Cécile & Oskar Vogt Institute for Brain Research, University Hospital Düsseldorf, Düsseldorf, Germany 
+
+> 4
+
+Computer Vision, Institute for Computational Visualistics, University of Koblenz, Koblenz, Germany 
+
+Abstract 
+
+Foundation models increasingly offer potential to support interactive, agentic workflows that assist researchers during analysis and interpretation of image data. Such workflows often require coupling vision to language to provide a natural-language interface. However, paired image–text data needed to learn this coupling are scarce and difficult to obtain in many research and clinical settings. One such setting is microscopic analysis of cell-body–stained histological human brain sections, which enables the study of cytoarchitecture: cell density and morphology and their laminar and areal organization. Here, we propose a label-mediated method that generates meaningful captions from images by linking images and text only through a label, without requiring curated paired image–text data. Given the label, we automatically mine area descriptions from related literature and use them as synthetic cap-tions reflecting canonical cytoarchitectonic attributes. An existing cytoarchitectonic vision foundation model (CytoNet) is then coupled to a large language model via an image-to-text training objective, enabling microscopy regions to be described in natural language. Across 57 brain areas, the resulting method produces plausible area-level descriptions and supports open-set use through explicit rejection of unseen areas. It matches the cytoarchitectonic reference label for in-scope patches with 90.6% accuracy and, with the area label masked, its descriptions remain discriminative enough to recover the area in an 8-way test with 68.6% accuracy. These results suggest that weak, label-mediated pairing can suffice to connect existing biomedical vision foundation models to language, providing a practical recipe for integrating natural-language in domains where fine-grained paired annotations are scarce. 
+
+# 1 Introduction 
+
+We propose a methodology for coupling a vision foundation model to language by learning an image-to-text interface through weak, label-mediated supervision using image-caption pairs created through shared labels. The human cerebral cortex is subdivided into cytoarchitectonic areas with distinct cellular density, morphology, and laminar organization [5]. Cell-body–stained histological sections ac-quired at microscopic resolution provide direct access to these microarchitectural signatures and underpin cortical atlases [4]. High-throughput histology and whole-brain reconstruction now produce terabyte-scale datasets, creating demand for scalable computational analysis [3, 6, 11]. CytoNet [11], a foundation model for human cytoarchitecture, addresses this by embedding local histological patterns into a representation space that supports downstream analysis tasks. How-ever, as is typical for such models, its outputs are exposed as high-dimensional embeddings, which 1
+
+> arXiv:2602.23088v1 [cs.CV] 26 Feb 2026 CytoNet
+> Embedded features
+> Frozen Linear layers
+> Image tokens
+> Flamingo
+> "Produce a caption describing..."
+> "This is a microscopy image showing..."
+> LLM
+> Trained
+> Histology Image
+> Embedding
+> Encoder block
+> Encoder block
+> Encoder block
+> Encoder block
+> Gated Cross Attention
+> Gated Cross Attention
+> Decoding
+
+Figure 1: Architecture overview. Image-conditioned text generation is based on Flamingo [2]. Condition images are embedded by the frozen vision model, CytoNet [11]. Embeddings are linearly projected into image tokens. A gated cross-attention block [7] after every 4th encoder block of the Llama-3-8b model [7] conditions text generation. are difficult to integrate into day-to-day scientific workflows, which benefit from human-readable outputs. Motivated by vision–language models that condition large language models (LLMs) on vi-sual inputs [2], we generate captions for microscopy patches that summarize cytoarchitectonic properties by coupling a cytoarchitectonic vision foundation model to language through weak, label-mediated supervision. Because curated image–text pairs are unavailable, we link patches and text through a shared anatomical area label from the Julich-Brain atlas [4]. For each area, we automatically mine the neuroanatomical literature to derive descriptions and compose syn-thetic captions reflecting canonical cytoarchitectonic attributes. We then condition an LLM on CytoNet embeddings using a Flamingo-style cross-modal mechanism [7], enabling caption generation from the visual features. We evaluate caption generation on 57 Julich-Brain areas selected to cover diverse cortical regions while balancing compute and annotation effort, and we use a structured LLM-based questionnaire to select the best-performing language backbone. Overall, the results show that weak, label-mediated pairing can couple cytoarchitectonic vision foundation models to language, providing a practical route to natural-language integration in biomedical domains lacking cu-rated image–text pairs. We contribute: 1) A weakly supervised, label-mediated vision–language model that couples CytoNet embeddings to natural-language cytoarchitectonic captions across 57 Julich-Brain areas. 2) An area-linked literature distillation pipeline that extracts canonical statement pools and synthesizes captions for training without curated patch-level image–text pairs. 
+
+# 2 Method 
+
+We aim to couple CytoNet [11] to LLMs to generate descriptions of microscopic cortical his-tology patches. We start from cell-body–stained histological human brain sections and extract image patches following the CytoNet pipeline. To obtain dense supervision at scale, we apply CytoNet to assign each patch a label to corresponding to the Julich-Brain areas [4]. In paral-lel, we construct area-specific textual supervision by mining neuroanatomical literature linked to these areas and extracting canonical statements about cytoarchitecture, which are combined into 2Dataset for brain area map    
+
+> DOI
+> DOI
+> DOI
+> DOI
+> DOI
+> Related via EBRAINS
+> Cited by...
+> DOI
+> DOI
+> DOI
+> DOI
+> Full text
+> Full text
+> Full text
+> Unavailable
+> Statements about brain area
+> Sampler chooses 3 randomly
+> Brain area "hOc1", primary visual cortex PROMPT:
+> Consider the following extract from a scientific paper on the architecture of the human brain:
+> [PAPER EXTRACT]
+> For the brain area described as [BRAIN AREA] , provide up to 10 bullet points discussing the cytoarchitectonic features of the brain area. Use full sentences without titles. Each bullet point should be independent. All bullet points must be at the same indentation and must not include formatting. Include only information about the specific brain area and do not reference the paper itself. Do not include a brain area if the paper does not discuss it and do not include bullets about what is not in the paper.
+> DOI
+> DOI
+> DOI
+> Filter abstracts by keyword
+> PROMPT:
+> Use the following information to write an image caption using a professional tone. Improve the structure, reducing repetition while keeping all of the key information: A microscopy image of the human brain showing area
+> [BRAIN AREA] . Functionality: [FUNCTIONALITY] .
+> [STATEMENT 1] [STATEMENT 2] [STATEMENT3]
+> CAPTION:
+> A microscopy image of the human brain reveals the primary visual cortex, specifically area hOc1, which is responsible for primary visual processing. Characterized by a prominent stripe of myelinated fibers in layer IV, the stria of Gennari, this region exhibits a distinctive striped appearance in stained tissue sections. The boundary with adjacent visual areas is marked by a sharp transition in cell density and morphology, particularly at the calcarine sulcus. Notably, layer V in hOc1 displays uniform thickness and cellular composition, reflecting its role in primary sensory processing rather than complex integration.
+> LLM
+> LLM
+
+Figure 2: Synthetic caption generation pipeline. Starting from probabilistic cytoarchitec-tonic maps for each Julich-Brain area [4], we traverse links in the EBRAINS Knowledge Graph to identify seed publications. We then expand the corpus via citation search (Scopus), filter candidates using area-specific keywords in abstracts, and download full texts via PubMed or ScienceDirect. These are then processed by LLM to extract factual statements about each area, which in turn are processed by LLM into synthetic captions. synthetic captions. We then train a Flamingo-style [2] vision–language adapter that conditions a frozen Llama-3-8B language model [7] on frozen CytoNet embeddings, using the labeled areas to weakly pair patches with synthetic captions. 
+
+Patch extraction from histology data. We use microscopic scans of cell-body–stained histological sections from BigBrain, comprising modified silver-stained sections from one post-mortem human brain [3]. Images are processed in a patch-based fashion, with patches centered along the midline of the cortical sheet. Following [11], we generate ∼539k image patches of size 2048 × 2048 pixels at 2 μm/pixel ( 4 × 4 mm field of view). These were filtered to the 57 Julich-Brain areas, and supplemented with patches drawn from unknown areas in a ratio of 10:1. This gave 192,000 patches for training, 960 validation, and 3,000 for testing. 
+
+Dense cytoarchitectonic area labels with CytoNet. To obtain area labels for weak supervision, we apply a CytoNet-based area classifier [11] to each extracted patch and use its prediction as a label. The classifier is trained to predict 159 Julich-Brain areas [4], enabling dense labeling across the cortical sheet without manual patch-level annotation. We restrict captioning to 57 target areas, and treat patches predicted as any other area as “unknown”. 
+
+Literature retrieval by cytoarchitectonic brain area. To obtain textual supervision 3for each cytoarchitectonic area, we construct an area-linked literature corpus (fig. 2). We use the EBRAINS Knowledge Graph ( https://search.kg.ebrains.eu ) to automatically identify seed publications associated with Julich-Brain areas via links to probabilistic cytoarchitectonic maps of the Julich-Brain Atlas and related reference works. We then expand this set using cita-tion search (Scopus) and filter candidate papers using area-specific keywords in titles/abstracts, excluding non-human and non-cytoarchitectonic studies. Full texts available via PubMed or Sci-enceDirect are downloaded and converted to plain text for downstream processing, yielding 575 papers spanning the 57 areas. 
+
+Area-specific statement extraction from literature. To derive area-specific textual supervision, we transform full-text papers into collections of short, stand-alone cytoarchitectonic statements that can serve as building blocks for image captions. We convert the retrieved papers into plain text and split them into chunks to fit within available memory. For each chunk, we use Qwen3-Next [16] to extract statements about the cytoarchitecture of the target area, explicitly avoiding paper-specific experimental details and requiring that each statement is interpretable without additional context. The extracted statements are post-processed to strip formatting and present in a convenient, machine-readable format to be used for synthetic caption generation. 
+
+Synthetic caption generation for weak supervision. To create image–text pairs without curated region-level annotations, we synthesize captions from the area-indexed statement pools. For each patch, a CytoNet-predicted Julich-Brain area label is used and statements associated with that area are randomly sampled. We provide the statements together with the area name to Llama-3-8B-Instruct [7] to a concise caption describing cytoarchitectonic properties of the depicted region. This yields weak, area-conditional image–caption pairs used to train the vision– language model. For patches sampled as an unknown label, a standard caption is used stating the patch is from an unknown area. 
+
+Vision–language architecture. We adopt a Flamingo-style [2] design that conditions a frozen language model on visual features via a lightweight trainable interface. We use CytoNet-ViT-1M [11] as a frozen vision encoder to embed each microscopy patch into a cytoarchitecture-sensitive feature vector. A small projection module (2 linear layers separated by GELU activa-tion) maps this vector into 4 vision tokens, which we found to be sufficient and computationally more efficient than the original implementation [2]. We then use Llama-3-8B-Instruct [7] as a frozen generator and insert gated cross-attention blocks after every fourth transformer block, using the language hidden states as queries and the visual tokens as keys/values. Only the projection module and gated cross-attention parameters are trained. 
+
+Training objective and protocol. We train the vision–language method on weakly paired image–caption data, using CytoNet embeddings as visual inputs and synthetic captions as tar-gets. Given a fixed instruction prompt (e.g., “Provide a caption for this microscopy image of the human brain, describing its cytoarchitecture.”), the model is optimized to predict the target caption tokens. We use cross-entropy loss over caption tokens, excluding prompt tokens, and keep both CytoNet and the language model frozen during training. Training is run for 6 epochs with learning rate 10 −3 and batch size 320 on 32 Nvidia A100 GPUs (8 compute nodes) using fully-sharded data-parallel (FSDP) training. Training was performed on JURECA-DC [8] at Jülich Supercomputing Centre. 
+
+Cytoarchitectonic question/answer benchmark generation. A practical question for cytoarchitectonic captioning is which publicly available, open-weight LLMs are suitable back-bones for vision–language adaptation, and we address this systematically: To this end, we gen-erate a multiple-choice question/answer (QA) benchmark from the retrieved neuroanatomical literature corpus to probe cytoarchitectonic knowledge and reasoning. We extract text from PDFs, split documents into context-sized chunks, and prompt an instruction-tuned LLM to pro-duce questions targeting cytoarchitectonic attributes (e.g., density, lamination) while avoiding paper-specific experimental details. Llama-3-8B-Instruct was the chosen for this task over a larger model for reasons of the required compute. We post-process outputs by randomizing an-4Table 1: Performance of LLMs on the created QA dataset for cytoarchiteture. Scores are the share of correctly answered multiple choice questions, out of a set of 10,955. For com-parison, the first author answered a random subset of 50 questions. Model # Parameters Medical fine-tuning? Score First author performance n.a. n.a. 34.0% BioGPT [10] 0.35b ✓ 22.7% BioGPT-Large [10] 1.5b ✓ 24.5% PMC Llama 7b [15] 7b ✓ 28.1% Llama-3-8b [7] 8b ✗ 58.1% Ministral 8b [9] 8b ✗ 50.2% Llama-3-8b Ultramedical [17] 8b ✓ 47.5% Phi-4 [1] 14b ✗ 57.2% Llama-3-70b [7] 70b ✗ 59.1% Llama-3-70b Ultramedical [17] 70b ✓ 53.8% Qwen3-Next [16] 80b ✗ 61.4% swer option order and filtering position-dependent artifacts, yielding 10,955 questions used to compare candidate LLM backbones and guide model selection. 
+
+# 3 Results 
+
+3.1 LLM backbone selection via cytoarchitectonic QA 
+
+We first asked which publicly available, open-weight LLMs provide a suitable backbone for cytoar-chitectonic captioning. Using the cytoarchitectonic QA benchmark (10,955 multiple-choice ques-tions), we evaluated a range of general-purpose and biomedical/medical-tuned models (Tab. 1). General-purpose instruction-tuned models performed best on this domain-specific benchmark, with larger models performing better. Biomedical/medical fine-tuned variants did not con-sistently improve performance over their base models. Based on this screening, we selected Llama-3-8B-Instruct as the language backbone for subsequent experiments, balancing between performance and computational requirements. 
+
+3.2 Quality of generated captions 
+
+Quantitatively assessing cytoarchitectonic caption quality is challenging, as standard captioning metrics do not test neuroanatomical validity, and no established patch-level caption benchmarks exist for this domain. We therefore designed two complementary tests: The label consistency tests quantifies whether the area mentioned in the generated caption matches the expected area. The label-masked description discriminability test quantifies whether generated captions match the described area. Confidence intervals were estimated by 10k bootstrap iterations. 
+
+Label consistency. Captions follow a standardized format in which the first sentence spec-ifies a Julich-Brain area (or “unknown”). We automatically extract this label and compare it to the reference label predicted by CytoNet. On patches from target areas, extracted labels match the reference label in 90.6% of cases (95% confidence interval (ci): 88.9%–91.2%); for out-of-scope patches, “unknown” is produced with 91.41% accuracy (95% ci: 88.1%–94.4%); the overall F1=0.82. 
+
+Description discriminability with label masking. For each generated caption, we au-tomatically mask out all mentions of brain areas, leaving only descriptions of cytoarchitectonic properties. This redacted text is presented to Qwen3-Next in an 8-way multiple-choice setting. The eight options consist of the area label extracted in the label consistency test and seven 5Figure 3: Examples for generated captions of given microscopic image patches. Cap-tions indicate the respective brain areas, as well as descriptions of area-specific characteristics. distractor areas sampled uniformly at random from the 57 target areas (excluding unknown). To reduce reliance on the judge model’s prior cytoarchitectonic knowledge, each candidate area is accompanied by five literature-derived statements for that area from our statement pool. Qwen3-Next is asked which of the eight areas the redacted description refers to. We define the correct answer as the area predicted in the first test (rather than the underlying reference label) to decouple label correctness from description quality. Under this protocol, Qwen3-Next selects the corresponding area in 68.6% of cases (95% ci: 66.8%–70.4%), indicating that the generated descriptions are identifiable in a majority of patches, and significantly above chance (12.5%). 
+
+# 4 Discussion & conclusion 
+
+This work targets domains where expert annotation is scarce but textual knowledge is abun-dant, and applies a label-mediated weak supervision scheme to connect cytoarchitectonic vision foundation models to language. The presented method learns a vision–language coupling that recovers area-level information and generates plausible cytoarchitectonic descriptions despite the absence of curated region-level image–text pairs. A central practical result is that selecting a suitable language backbone for cytoarchitectonic tasks benefits from systematic screening: our automatically constructed cytoarchitectonic QA benchmark reveals substantial variation in do-main competence across open-weight models and provides actionable guidance for backbone selection. Methodologically, the workflow is scalable but makes end-to-end validation difficult, so we evaluate in two steps: (i) label consistency in the generated caption and (ii) label-masked descrip-tion discriminability. This scalable design has three limitations. First, supervision is area-level: captions summarize canonical areal properties and are not guaranteed to capture patch-specific variation, particularly near areal borders. Second, area labels are derived from CytoNet predic-tions rather than manual patch annotations, providing dense whole-cortex coverage but intro-ducing label noise. Third, experiments are conducted on BigBrain [3]; extending to additional brains is necessary to assess cross-subject transfer and robustness to inter-individual variability. Future work can improve patch-level grounding by incorporating additional labels and mea-surable microarchitectural descriptors when synthesizing captions. For example, automated cor-6tical profiling and layer segmentation can provide quantitative features such as layer thickness and cell-density profiles that translate into localized descriptions (e.g., [14, 12]). Additionally, extending annotations to all Julich-Brain areas would broaden coverage. In parallel, incorpo-rating literature resources (e.g., historical atlases [13]) and targeted expert annotation of small patch subsets could provide high-quality anchors. Finally, because the extracted statements are attributable to source documents, citation-aware caption generation would enable provenance tracking. Overall, our results suggest a practical recipe for biomedical imaging domains where im-ages and text exist at scale but curated image–text pairs are unavailable: combine dense label-mediated alignment with literature distillation and lightweight cross-modal adaptation. For example, a labeled image dataset of CT scans depicting a range of liver conditions could be com-bined with literature on each ailment to provide similar captioning. Using open-weight models improves reproducibility and version control while still enabling strong performance in this spe-cialized setting. We expect these ideas to generalize beyond cytoarchitecture to other microscopy and histopathology domains where expert concepts are well documented but difficult to attach to individual images at scale. 
+
+Acknowledgements 
+
+This project received funding from the European Union’s Horizon 2020 Research and Innovation Programme, grant agreement 101147319 (EBRAINS 2.0 Project), the Helmholtz Association port-folio theme “Supercomputing and Modeling for the Human Brain”, the Helmholtz Asso-ciation’s Initiative and Networking Fund through the Helmholtz International BigBrain Ana-lytics and Learning Laboratory (HIBALL) under the Helmholtz International Lab grant agree-ment InterLabs-0015, from HELMHOLTZ IMAGING, a platform of the Helmholtz Information & Data Science Incubator [X-BRAIN, grant number: ZT-I-PF-4-061], and from the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under the National Research Data Infrastructure – NFDI 46/1 – 501864659. Computing time was granted through JARA on the supercomputer JURECA-DC at Jülich Supercomputing Centre (JSC). 
+
+# References 
+
+[1] Abdin, M., Aneja, J., Behl, H., Bubeck, S., Eldan, R., Gunasekar, S., Harrison, M., Hewett, R.J., Javaheripi, M., Kauffmann, P., et al.: Phi-4 technical report. arXiv preprint arXiv:2412.08905 (2024) [2] Alayrac, J.B., Donahue, J., Luc, P., Miech, A., Barr, I., Hasson, Y., Lenc, K., Mensch, A., Millican, K., Reynolds, M., et al.: Flamingo: a visual language model for few-shot learning. Advances in neural information processing systems 35 , 23716–23736 (2022) [3] Amunts, K., Lepage, C., Borgeat, L., Mohlberg, H., Dickscheid, T., Rousseau, M.É., Blu-dau, S., Bazin, P.L., Lewis, L.B., Oros-Peusquens, A.M., Shah, N.J., Lippert, T., Zilles, K., Evans, A.C.: BigBrain: An Ultrahigh-Resolution 3D Human Brain Model. Science 
+
+340 (6139), 1472–1475 (2013). https://doi.org/10.1126/science.1235381 [4] Amunts, K., Mohlberg, H., Bludau, S., Zilles, K.: Julich-Brain: A 3D proba-bilistic atlas of the human brain’s cytoarchitecture. Science 369 (6506), 988 (2020). https://doi.org/10.1126/science.abb4588 [5] Amunts, K., Zilles, K.: Architectonic mapping of the human brain beyond brodmann. Neuron 88 (6), 1086–1107 (2015). https://doi.org/10.1016/j.neuron.2015.12.001 7[6] Amunts, K., et al.: The coming decade of digital brain research: A vision for neuroscience at the intersection of technology and computing. Imaging Neuroscience 2, imag–2–00137 (2024). https://doi.org/10.1162/imag_a_00137 [7] Grattafiori, A., et al.: The llama 3 herd of models. arXiv preprint arXiv:2407.21783 (2024) [8] Krause, D., Thörnig, P.: JURECA: Modular supercomputer at Jülich Supercom-puting Centre. Journal of large-scale research facilities JLSRF 4, A132 (2018). https://doi.org/10.17815/jlsrf-4-121-1 [9] Liu, A.H., Khandelwal, K., Subramanian, S., Jouault, V., Rastogi, A., Sadé, A., Jeffares, A., Jiang, A., Cahill, A., Gavaudan, A., et al.: Ministral 3. arXiv preprint arXiv:2601.08584 (2026) [10] Luo, R., Sun, L., Xia, Y., Qin, T., Zhang, S., Poon, H., Liu, T.Y.: BioGPT: generative pre-trained transformer for biomedical text generation and mining. Briefings in Bioinformatics 
+
+23 (6) (09 2022). https://doi.org/10.1093/bib/bbac409, bbac409 [11] Schiffer, C., Boztoprak, Z., Kropp, J.O., Thönnißen, J., Berr, K., Spitzer, H., Amunts, K., Dickscheid, T.: Cytonet: A foundation model for the human cerebral cortex. arXiv preprint arXiv:2511.01870 (2025) [12] Upschulte, E., Harmeling, S., Amunts, K., Dickscheid, T.: Contour Proposal Networks for Biomedical Instance Segmentation. Medical Image Analysis (2022). https://doi.org/10.1016/j.media.2022.102371 [13] Von Economo, C.: Die Cytoarchitektonik der Hirnrinde des erwachsenen Menschen. Springer, Wien (1925) [14] Wagstyl, K., Larocque, S., Cucurull, G., Lepage, C., Cohen, J.P., Bludau, S., Palomero-Gallagher, N., Lewis, L.B., Funck, T., Spitzer, H.: BigBrain 3D atlas of cortical layers: Cortical and laminar thickness gradients diverge in sensory and motor cortices. PLOS Biol-ogy 18 (4), e3000678 (2020) [15] Wu, C., Lin, W., Zhang, X., Zhang, Y., Xie, W., Wang, Y.: Pmc-llama: toward building open-source language models for medicine. Journal of the American Medical Informatics Association 31 (9), 1833–1843 (2024) [16] Yang, A., Li, A., Yang, B., Zhang, B., Hui, B., Zheng, B., Yu, B., Gao, C., Huang, C., Lv, C., et al.: Qwen3 technical report. arXiv preprint arXiv:2505.09388 (2025) [17] Zhang, K., Zeng, S., Hua, E., Ding, N., Chen, Z.R., Ma, Z., Li, H., Cui, G., Qi, B., Zhu, X., Lv, X., Hu, J.F., Liu, Z., Zhou, B.: Ultramedical: building specialized generalists in biomedicine. In: Proceedings of the 38th International Conference on Neural Information Processing Systems. NIPS ’24 (2024) 8

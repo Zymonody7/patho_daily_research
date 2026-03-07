@@ -1,0 +1,567 @@
+Title: STRIDE: Post-Training LLMs to Reason and Refine Bio-Sequences via Edit Trajectories
+
+URL Source: https://arxiv.org/pdf/2603.03573v1
+
+Published Time: Thu, 05 Mar 2026 01:18:14 GMT
+
+Number of Pages: 14
+
+Markdown Content:
+# STRIDE: Post-Training LLMs to Reason and Refine Bio-Sequences via Edit Trajectories 
+
+Daiheng Zhang 1 Shiyang Zhang 2 Sizhuang He 2 Yangtian Zhang 2 Syed Asad Rizvi 2 David van Dijk 2
+
+## Abstract 
+
+Discrete biological sequence optimization re-quires iterative refinement under strict syntactic constraints. Diffusion models offer progressive refinement but do not naturally expose control-lable discrete edit operations, while autoregres-sive LLMs often lack explicit long-horizon plan-ning for constrained edits. We propose STRIDE (Sequence Trajectory Refinement via Internalized Denoising Emulation), a post-training framework that trains an LLM to emit executable trajectories of atomic edits (INSERT/DELETE/REPLACE) as a verifiable reasoning trace for variable-length refinement. STRIDE combines super-vised fine-tuning on Levenshtein-aligned short-est edit demonstrations with group-based policy optimization to align edit trajectories with task rewards while preserving coherent editing behav-ior. Across protein fluorescence and instruction-conditioned molecular optimization, STRIDE im-proves variable-length protein editing success from 42% to 89% while increasing novelty from 47% to 97%, and yields stronger validity and con-trollability compared to diverse baselines. The code is published at https://github.com/ daiheng-zhang/STRIDE .
+
+## 1. Introduction 
+
+Designing and optimizing biological sequences—including proteins and small molecules—is central to computational biology, with applications spanning therapeutics, enzyme engineering, and materials discovery (Yang et al., 2019). In many realistic settings, the goal is not de novo generation but goal-directed refinement (Arnold & Volkov, 1999; Zhou et al., 2019): starting from a viable precursor and apply-ing a small number of edits that improve a target property 
+
+> 1
+
+Department of Electrical and Computer Engineering, Rut-gers University 2Department of Computer Science, Yale Univer-sity. Correspondence to: Daiheng Zhang <dz367@rutgers.edu >,David van Dijk <david.vandijk@yale.edu >.
+
+Preprint. March 5, 2026. 
+
+while preserving strict syntactic and structural validity (e.g., amino-acid constraints or SMILES grammar (Weininger, 1988)). This yields a challenging search problem in an enormous discrete space with hard constraints (Romero & Arnold, 2009) and often variable-length transformations. Recent generative paradigms offer complementary strengths for this refinement setting. Diffusion models provide a pow-erful template for iterative improvement through progressive denoising (Ho et al., 2020; Song et al., 2020), and have been extended to categorical token spaces via discrete diffusion processes (Austin et al., 2021; Hoogeboom et al., 2021). In biology, diffusion-style models have shown strong genera-tive ability in protein sequence space (Alamdari et al., 2023; Wang et al., 2024). However, when the desired control inter-face is an explicit edit policy—especially under insertions and deletions—diffusion-style approaches typically rely on specialized transition parameterizations and sampling pro-cedures, making it difficult to (i) enforce domain-specific validity at every intermediate step and (ii) keep edits inter-pretable and directly controllable (Gu et al., 2019). Autoregressive large language models (LLMs) (Brown et al., 2020), by contrast, natively operate over discrete tokens and can reliably produce syntactically valid sequences. Yet, when repurposed for optimization, standard decoding can be myopic (Yao et al., 2023): locally plausible edits do not necessarily realize the long-horizon plans needed to navigate rugged fitness landscapes under tight edit budgets. This tension motivates a method that retains the iterative, multi-step character of refinement while leveraging the structural reliability of token-level generation. We introduce STRIDE ( Sequence Trajectory Refinement via Internalized Denoising Emulation), a post-training framework that reformulates discrete sequence optimiza-tion as trajectory planning in edit space. Rather than sampling intermediate noisy states, STRIDE trains an LLM to emit an explicit trajectory of atomic edits (INSERT/DELETE/REPLACE) that progressively trans-forms a source sequence into an optimized candidate. These trajectories provide a transparent control interface for variable-length editing while keeping each step inter-pretable. 1
+
+> arXiv:2603.03573v1 [cs.CE] 3 Mar 2026 STRIDE: Post-Training LLMs to Reason and Refine Bio-Sequences via Edit Trajectories
+
+STRIDE follows a two-stage training recipe. Stage I per-forms supervised fine-tuning on shortest edit-path demon-strations derived from Levenshtein alignment (Lcvenshtcin, 1966), initializing a validity-preserving editor. Stage II aligns edit trajectories with task rewards using group-based policy optimization (e.g., GRPO and variants), with KL regularization to preserve coherent editing behavior. We evaluate STRIDE on protein fluorescence optimiza-tion (TAPE) (Rao et al., 2019) and instruction-conditioned molecular editing benchmarks (Fernandez et al., 2025; Ye et al., 2025), demonstrating improved optimization suc-cess and substantially stronger diversity/novelty, with gains most pronounced in variable-length, index-consistent edit-ing regimes. Our contributions are shown below. • Executable, variable-length edit-trajectory opti-mization. We formulate discrete bio-sequence refine-ment as planning over executable atomic edit trajecto-ries (INSERT/DELETE/REPLACE), enabling index-consistent variable-length editing . • Trajectory supervision via Levenshtein backtracing. 
+
+We propose a deterministic DP backtracing pipeline that converts aligned pairs into index-grounded edit scripts for SFT, inducing a minimal-edit and validity-preserving editing prior . • Reward-aligned post-training for edit scripts. We align trajectory generation with task rewards using group-based policy optimization with KL regulariza-tion, and enforce parse-and-execute consistency be-tween scripts and outputs. • Empirical gains under strict controllability con-straints. On protein and instruction-conditioned molecule optimization, STRIDE improves suc-cess while increasing diversity/novelty, especially in variable-length, index-sensitive regimes. 
+
+## 2. Related Work 
+
+2.1. Discrete Diffusion for Sequence Modeling 
+
+Discrete diffusion extends diffusion modeling to categori-cal token spaces, enabling direct corruption and denoising of sequences. In natural language processing, representa-tive approaches include fully discrete token diffusion (e.g., D3PM (Austin et al., 2021)) and continuous-latent text dif-fusion (e.g., Diffusion-LM (Li et al., 2022)). In biology, discrete diffusion models have been applied to protein sequence generation, including EvoDiff (Alam-dari et al., 2023) and DPLM (Wang et al., 2024). How-ever, these approaches predominantly target fixed-length generation and do not naturally expose an explicit, step-by-step executable edit policy under variable-length operations. In contrast, edit-based sequence modeling explores inser-tion/deletion dynamics via explicit edit processes, such as CTMC-based insertion/deletion/replacement in Edit Flows (Havasi et al., 2025) and mask-insertion paradigms such as FlexMDMs (Kim et al., 2025). Our work connects these lines by training an autoregressive LLM to emit verifiable trajectories of atomic edits for controllable optimization. 
+
+2.2. Reasoning-Oriented Post-Training 
+
+Modern post-training typically couples supervised fine-tuning (SFT) on high-quality demonstrations with prefer-ence optimization to align models with human judgments. For complex tasks, reasoning-oriented supervision (Wei et al., 2022; Chung et al., 2024) can improve multi-step deduction by training models to produce intermediate rea-soning traces. InstructGPT (Ouyang et al., 2022) established that SFT followed by reinforcement learning from human feedback (RLHF) can substantially improve human-rated quality, and subsequent work simplified preference optimiza-tion via Direct Preference Optimization (DPO) (Rafailov et al., 2023). For reasoning-centric tasks, Group Rela-tive Policy Optimization (GRPO) (Shao et al., 2024) has emerged as an efficient alternative to PPO-style RLHF with-out a learned critic. Recent variants further improve stability and efficiency, including Group Sequence Policy Optimiza-tion (GSPO) (Zheng et al., 2025) and Clipped Importance Sampling Policy Optimization (CISPO) (Chen et al., 2025), which highlight different stability–plasticity trade-offs when optimizing long sequences. 
+
+2.3. Reasoning Traces for Bio-Sequence and Molecular Design 
+
+Recent work in scientific generation increasingly moves beyond outcome-only supervision by eliciting or supervis-ing explicit reasoning traces, improving interpretability and enabling structured alignment. In peptide and molecular design, PepThink-R1 (Wang et al., 2025) combines chain-of-thought (CoT) supervised fine-tuning with reinforcement learning to produce interpretable rationales over monomer-level modifications for cyclic peptide optimization, while Mol-R1 (Li et al., 2025) targets text-based molecule discov-ery and improves explicit long-CoT reasoning via distilla-tion and iterative SFT/RL. In genomics, BioReason (Fallah-pour et al., 2025) couples a DNA foundation model with an LLM and trains multi-step biological deduction traces using a curriculum of supervised and reinforcement learn-ing. Complementary to purely verbal traces, tool-augmented chemistry agents such as ChemCrow (M. Bran et al., 2024) ground intermediate reasoning by interleaving thoughts with executable tool calls, and general paradigms like ReAct (Yao et al., 2022) similarly emphasize action-anchored or exe-cutable reasoning traces. Collectively, these efforts motivate explicit process traces for scientific controllability. 2STRIDE: Post-Training LLMs to Reason and Refine Bio-Sequences via Edit Trajectories for molecules & proteins. 
+
+STRIDE: Trajectory-Based Atomic Editing for Molecular and Protein Optimization via LLMs 
+
+1.Data Construction via Backtracing Levenshtein DP Matrix & Backtracing Structured Training Sample: Deterministic algonrithm generates generates optimal reasoning trajectory Source Molecule/ Protein Sequence Target Molecule/ Protein Sequence (Source, <think> Sequence, Target) 2.Two-Stage Training Pipeline Stage 1: SFT Qwen Qwen Stage 2: GRPO (Group Relative Policy Optimization) (Supervised Fine-Tuning) (Learn Logic/Efficiency) Objective: Maximize Reward (Learn Goal/Alignment) Reward Model Property Predictor 
+
+/
+
+> e.g., QED, Docking Score, Stability
+
+3.Inference: Atomic Action Anatomy Instruction: Make molecule/protein more drug-like/stable Input Sequence (SMILES or Protein FASTA) with Indices M(0)A(1)K(2)E(3)R(4)S(5)T(6)... <think> (STRIDE CoT) Output Action 1: INSERT C at pos 6 Action 2: DELETE N at pos 3 Action 3: REPLACE O at pos 12 with N Action 4: REPLACE K at pos 2 with R (Molecule) (Molecule) (Molecule) (Protein) Final Modified Sequence (SMILES or Protein FASTA) 
+
+Figure 1. Overview of the STRIDE architecture. STRIDE casts discrete biological sequence optimization as trajectory planning in edit space, generating explicit sequences of atomic edits ( INSERT , DELETE , REPLACE ) to refine an input toward a higher-reward target. Training follows a two-stage pipeline: supervised fine-tuning on shortest edit trajectories from Levenshtein backtracking, followed by GRPO-style post-training to align edit trajectories with task-specific rewards. 
+
+## 3. Method 
+
+This section presents STRIDE , which formulates discrete bi-ological sequence optimization as trajectory planning in edit space. STRIDE generates an explicit sequence of atomic edits INSERT/DELETE/REPLACE that progres-sively refines an initial sequence, using a Shortest Edit Path 
+
+(SEP) derived from Levenshtein alignment with dynamic-programming backtracking as supervision. Training follows a two-stage recipe: (i) supervised fine-tuning to model both edit trajectories and final sequences, encouraging validity and a minimal-edit bias; and (ii) GRPO-style post-training to align trajectories with task rewards, with KL regulariza-tion to preserve coherent edit behavior. This design yields interpretable and controllable refinement trajectories while improving downstream optimization performance. 
+
+3.1. Constructing Optimal Edit Trajectories via Dynamic Programming 
+
+Given a source token sequence xsrc = (xsrc 1 , . . . , x src  
+
+> m
+
+)
+
+(e.g., a wild-type protein or an initial molecule) and a target token sequence xtgt = (xtgt 1 , . . . , x tgt  
+
+> n
+
+) (e.g., a higher-fitness variant), we seek a minimum-cost edit script 
+
+T ⋆ = ( a1, . . . , a N ) that transforms xsrc into xtgt under unit-cost insert/delete/replace operations. We define the atomic action set A = {INSERT , DELETE , REPLACE }.
+
+Tokenization and structural prior. We operate on token sequences: amino-acid tokens for proteins and a Regex SMILES tokenizer for molecules. We use the shortest edit path implied by Levenshtein alignment as a conservative structural prior, biasing the model toward local, minimal modifications rather than global rewrites. 
+
+Executable trajectory and indexing. We interpret an edit trajectory as an executable program applied to the evolving sequence. At step t, an action at = ( op t, p t, v t) is applied to the current sequence xt−1 of length Lt−1, where positions are 0-based and always interpreted with respect to xt−1 (not the initial xsrc ). Concretely: INSERT (p, v ) inserts token 
+
+v before position p for 0 ≤ p ≤ Lt−1 (with p = Lt−1
+
+appending at the end); DELETE (p) removes xt−1[p] for 
+
+0 ≤ p < L t−1; and REPLACE (p, v ) sets xt−1[p] ← v
+
+for 0 ≤ p < L t−1. Because indices are re-evaluated after each operation, the script is unambiguous when executed sequentially. 
+
+Levenshtein DP and backtracing. We compute the Lev-enshtein dynamic-programming table D ∈ Z(m+1) ×(n+1) 
+
+> ≥0
+
+with base cases D[i, 0] = i and D[0 , j ] = j, and recurrence 
+
+D[i, j ] = min 
+
+n
+
+D[i − 1, j ] + 1 , D [i, j − 1] + 1 ,D[i − 1, j − 1] + Ixsrc 
+
+> i
+
+̸ = xtgt 
+
+> j
+
+ o
+
+.
+
+3STRIDE: Post-Training LLMs to Reason and Refine Bio-Sequences via Edit Trajectories                               
+
+> Table 1. Sample inference on a molecular optimization task.
+> User prompt
+> Can you make molecule CC(=O)Nc1cc(NC(=O)N[C@@H ](CCO)c2cccs2)ccc1C more like a drug? The output molecule should be similar to the input molecule. Please return: -edit traj (using only INSERT /DELETE /REPLACE )-output smiles
+> Thinking
+> <think >
+> DELETE Cat position 21 REPLACE )with 2at position 31 INSERT =at position 7DELETE cat position 11 INSERT Cat position 8...
+> </think >
+> Answer
+> CC(=O)N=Cc1ccc(C=NC(=O)N[C@@H](CCO)c2cccs 2)cc1
+
+Starting from (i, j ) = ( m, n ), we backtrace to obtain a minimum-cost alignment path. To convert this alignment into an executable script with dynamic positions, we replay the alignment steps forward on a mutable copy of xsrc while maintaining a cursor in the current sequence; insert/delete operations update both the sequence and cursor so that emit-ted positions always refer to the current state. When multiple predecessors tie during backtracing, we break ties determin-istically (fixed priority order) for reproducibility. 
+
+Serialization for training. We serialize the resulting edit script T ⋆ as a structured reasoning trace followed by the target output: (xsrc , I ) → ⟨ think ⟩T ⋆⟨/think ⟩ → xtgt .Note that while endpoints are valid sequences, interme-diate strings along the shortest edit path are not guaran-teed to satisfy domain-specific validity (e.g., SMILES well-formedness); we use the script as process supervision and evaluate validity on the final output. 
+
+3.2. Stage I: Internalizing Valid and Minimal Editing via SFT Training format. For each training pair (xsrc , x tgt ) and instruction I, we compute a shortest edit script T ⋆ using the DP backtracing procedure in Section 3.1. We then form a prompt q = ( xsrc , I ) and a completion 
+
+y = ⟨think ⟩ T ⋆ ⟨/think ⟩ ; xtgt 
+
+,
+
+i.e., the model is trained to first emit an explicit edit trajec-tory and then the final target sequence. 
+
+Objective. We perform standard teacher-forced super-vised fine-tuning by maximizing the likelihood of the com-pletion tokens. Concretely, we minimize the negative log-likelihood 
+
+LSFT (θ) = −E(q,y )∼D |y|
+
+X
+
+> t=1
+
+log πθ (yt | q, y <t ) ,
+
+where πθ is a causal language model and the loss is com-puted over y (trajectory + final output). We denote the resulting SFT policy as πref and use it as the KL reference in Stage II. 
+
+What SFT internalizes. Supervising T ⋆ (process) to-gether with xtgt (outcome) provides two inductive biases: (i) validity-preserving prior —training targets are valid end-points (proteins/SMILES), so the model learns an implicit prior for producing valid sequences without constrained decoding; validity is evaluated post hoc (e.g., RDKit for SMILES); (ii) minimal-edit bias —because T ⋆ is the unit-cost shortest script, the model is encouraged to produce concise, non-redundant edit trajectories instead of convo-luted mutation chains. 
+
+3.3. Stage II: Functional Alignment via Group Relative Policy Optimization (GRPO) From capability to objective. Stage I trains a conserva-tive, validity-preserving editor by imitating shortest edit paths. Stage II further aligns the editor with task objectives by optimizing task rewards while regularizing to the Stage I reference policy πref .
+
+Rollouts and rewards. Given a prompt q =(xsrc , I ), the policy πθ generates a completion 
+
+o = [⟨think ⟩T ⟨/think ⟩; xout ] containing an edit trajectory T and a final sequence xout . We compute a scalar reward r = R(xout ; xsrc , I ) using task oracles. To ensure we truly align trajectories, if T is not parsable/executable or executing T on xsrc does not reproduce xout , we assign a low reward (e.g., r = 0 ) to the sample. 
+
+Group Sampling and Relative Advantage. GRPO op-timizes πθ without a learned critic. For each prompt q,we sample a group of G outputs {oi}Gi=1 ∼ πθold (· | q)
+
+and compute rewards {ri}Gi=1 . We then form a group-normalized advantage 
+
+Ai = ri − μr
+
+σr + ϵ , μr = 1
+
+G
+
+> G
+
+X
+
+> j=1
+
+rj ,σr =
+
+vuut 1
+
+G
+
+> G
+
+X
+
+> j=1
+
+(rj − μr )2.
+
+Since our reward is outcome-level (defined on the final sequence), we assign the same Ai to all tokens in oi.4STRIDE: Post-Training LLMs to Reason and Refine Bio-Sequences via Edit Trajectories 
+
+GRPO objective. We optimize πθ using a PPO-style clipped surrogate with KL regularization to πref :
+
+JGRPO (θ) = E
+
+"
+
+1
+
+G
+
+> G
+
+X
+
+> i=1
+
+1
+
+|oi|
+
+> |oi|
+
+X
+
+> t=1
+
+min 
+
+
+
+ρi,t Ai, clip( ρi,t , 1 − ε, 1 + ε)Ai
+
+
+
+− β D KL 
+
+ πθ (· | q) ∥ πref (· | q)#
+
+.
+
+where ρi,t = πθ (oi,t |q,o i,<t )  
+
+> πθold (oi,t |q,o i,<t )
+
+. In practice we minimize 
+
+LGRPO (θ) = −JGRPO (θ). Intuitively, the advantage term reinforces trajectories that yield higher task scores, while the KL term anchors the policy to the valid editing logic learned in Stage I, mitigating reward hacking and degeneration. 
+
+Reward design. Protein (fluorescence) optimization. 
+
+We use a fixed fluorescence oracle ffl (·) to score sequences. Let d(xsrc , x out ) denote the number of atomic edits (e.g., the length of the executed script). We define an edit-budget indicator and an improvement indicator: 
+
+Iedit = I[1 ≤ d(xsrc , x out ) ≤ 3] ,
+
+Ifl = I[ffl (xout ) > f fl (xsrc )] .
+
+The reward is Rprotein = Iedit + Ifl .
+
+Molecular optimization. We use RDKit to check validity. Let Ivalid indicate successful parsing/sanitization. For target-property satisfaction, we assign a discrete score Rprop ∈{0, 0.5, 1} based on whether the generated molecule meets loose/strict thresholds under instruction I. To preserve struc-ture, we compute Tanimoto similarity S between input and output using Morgan fingerprints and set Rsim ∈ { 0, 0.5, 1}
+
+according to similarity thresholds. To control off-target drift, we apply a penalty Rstable ≤ 0 if any non-target property change exceeds preset margins. The final reward is 
+
+Rmol =  Ivalid · Rprop · Rsim 
+
+ + Rstable .
+
+## 4. Experiments and Results 
+
+4.1. Datasets 
+
+We evaluate on (i) protein fluorescence optimization and (ii) instruction-conditioned molecular optimization. In both domains, we train with the official train/validation splits provided by the underlying datasets unless stated otherwise. 4.1.1. P ROTEIN FLUORESCENCE OPTIMIZATION .We use the Fluorescence Landscape Prediction task from TAPE (Rao et al., 2019), which is derived from large-scale mutagenesis of Aequorea victoria GFP (avGFP) with experi-mentally measured log-fluorescence labels (Sarkisyan et al., 2016). Following TAPE, the split is defined by amino-acid Hamming distance to the wild-type: the train set contains variants within distance ≤ 3, while the test set contains variants with ≥ 4 substitutions. 
+
+SFT subset construction. We cast optimization as goal-directed editing from a fixed wild-type anchor xsrc with label ysrc . From the TAPE train/validation split, we keep only beneficial variants xi with ∆yi = yi − ysrc > 0 and construct paired supervision (xsrc , x i). Each pair is con-verted into an edit-trajectory supervision signal using the shortest-edit backtracing procedure described in Section 3.1. After filtering, we obtain 3,280 training and 785 validation examples for SFT. 
+
+Synthetic indel augmentation. The TAPE fluorescence dataset only consists of substitution-only variants and pro-vides limited coverage for insertions/deletions. To expose the editor to variable-length operations, we sample 1–3 ran-dom atomic edits A (INSERT/DELETE/REPLACE) applied to xsrc and assign pseudo labels using a fixed fluorescence predictor (SaProtHub/Model-Fluorescence-650M) (Su et al., 2024). We retain only pseudo-improved samples with 
+
+∆yi > 0, resulting in 7,153 training and 1,789 validation examples. 4.1.2. M OLECULAR OPTIMIZATION .For molecules, we use the MEGA-MolEdit-522K dataset (Fernandez et al., 2025), which provides instruction-conditioned SMILES editing examples annotated with full atomic operation types (replace/insert/delete) across 14 op-timization conditions (single- and dual-objective). We use the positive splits for SFT and reporting (train/validation). 
+
+Trajectory conversion. Although MEGA includes edit annotations, our model operates on index-grounded token-level trajectories. We therefore convert each pair (xsrc , x tgt )
+
+into an executable index-level edit trajectory via Levenshtein alignment and backtracing. 
+
+GRPO training subset and evaluation set. For GRPO, we sample 10,000 training examples from the MEGA-MolEdit train split with balanced coverage over the 14 con-ditions. We evaluate on 500 molecules from the DrugAssist (MolOpt-Instructions) test set (Ye et al., 2025), and perform cross-evaluation by optimizing each test molecule under all 14 conditions. We canonicalize SMILES and remove any overlaps between the evaluation set and MEGA-MolEdit training molecules to avoid data leakage. 
+
+4.2. Baselines 
+
+To evaluate trajectory-based atomic editing under a con-trolled budget, we benchmark STRIDE against baselines 5STRIDE: Post-Training LLMs to Reason and Refine Bio-Sequences via Edit Trajectories 
+
+Table 2. Per-task property shift rates on DrugAssist. Shift-related metrics are lower-is-better; we bold the lower value between SFT and GSPO for each property. “–” marks target properties (excluded from non-target shift). Task Valid ↑ Success (Strict) ↑ Success (Loose) ↑ Shift Rate ↓ Shift Avg ↓                                                                                                                                                               
+
+> SFT GSPO SFT GSPO SFT GSPO SFT GSPO SFT GSPO Higher permeability 0.582 0.788 0.492 0.496 0.512 0.548 0.979 0.764 2.460 1.520
+> Less like a drug 0.816 0.944 0.598 0.438 0.792 0.892 0.990 0.443 2.488 1.422
+> Less soluble in water 0.802 0.940 0.574 0.902 0.722 0.934 0.898 0.262 1.880 0.289
+> Less soluble in water + more HBA 0.714 0.966 0.500 0.452 0.642 0.814 0.986 0.505 1.840 0.636
+> Less soluble in water + more HBD 0.780 0.880 0.700 0.794 0.728 0.826 0.995 1.000 2.841 2.893 Lower permeability 0.820 0.934 0.800 0.846 0.810 0.924 0.995 1.000 2.917 3.156 More like a drug 0.500 0.928 0.114 0.006 0.216 0.088 0.972 0.241 2.596 0.353
+> More soluble in water 0.788 0.920 0.588 0.842 0.752 0.912 1.000 0.996 3.530 3.491
+> More soluble in water + higher permeability 0.676 0.642 0.406 0.246 0.540 0.340 0.959 0.888 1.846 1.657
+> More soluble in water + lower permeability 0.800 0.946 0.602 0.826 0.752 0.936 0.998 1.000 2.558 2.575 More soluble in water + more HBA 0.772 0.930 0.560 0.864 0.724 0.918 0.987 0.981 2.591 2.701
+> More soluble in water + more HBD 0.836 0.964 0.584 0.890 0.786 0.952 0.995 1.000 2.711 2.720 With more HBA 0.806 0.976 0.792 0.900 0.792 0.900 0.995 0.553 2.921 0.805
+> With more HBD 0.812 0.968 0.802 0.958 0.802 0.958 1.000 1.000 3.367 3.700
+> Overall 0.750 0.909 0.579 0.676 0.684 0.782 0.983 0.755 2.629 2.001
+
+that isolate: (i) non-informed perturbations, (ii) direct se-quence generation without explicit edit trajectories, and (iii) domain-specific generative models. Unless otherwise stated, all LLM-based baselines use the same Qwen3 backbone. 4.2.1. G ENERAL BASELINES 
+
+Random Perturbation. A stochastic lower-bound that ap-plies 1–3 random edit operations sampled uniformly from the action space A to xsrc . For molecules, random edits may yield invalid SMILES; we keep such outputs as invalid (counted in validity) and do not repair them. 
+
+Zero-Shot LLM. The base Qwen3 model is prompted to directly generate the optimized sequence conditioned on 
+
+(xsrc , I ), without any parameter updates. This baseline mea-sures the base model’s prior capability for domain-valid generation and instruction following. 
+
+Vanilla SFT (Direct, No-Traj). An ablation where the model is supervised to directly predict the target sequence from the source (i.e., (xsrc , I ) → xtgt ), without emitting an explicit executable edit trajectory. This isolates the benefit of explicit trajectory supervision from standard outcome-only imitation. 
+
+Vanilla GSPO (Direct RL, No-Traj). Starting from the Vanilla SFT checkpoint, we apply sequence-level policy optimization to directly maximize the same task rewards, still without explicit edit trajectories. This baseline iso-lates the gains from RL post-training alone, decoupled from trajectory generation. 4.2.2. T ASK -S PECIFIC GENERATIVE BASELINES 
+
+For protein optimization, we compare against discrete gen-erative sequence models that are not based on explicit edit scripts. Discrete Diffusion (EvoDiff). We fine-tune the EvoDiff-38M checkpoint on the same protein training set. Because EvoDiff is substitution-centric, we evaluate it in a 
+
+replace-only setting for a fair comparison. Edit Flow. Edit Flow inherently supports variable-length operations. We therefore evaluate it under two regimes: (i) replace-only for a direct comparison with EvoDiff, and (ii) the full action space A to assess variable-length editing. Implementation details are provided in Appendix A. 
+
+4.3. Evaluation Metrics Protein Evaluation Metrics. We evaluate protein opti-mization using a fixed fluorescence oracle ffl (·). For each method, we sample N = 100 candidates {x(k)out }Nk=1 from the same source sequence xsrc (and the same action-space setting, e.g., replace-only vs. full A). We define the im-proved set S+ = {x(k)out | ffl (x(k)out ) > f fl (xsrc )}. We re-port: (i) Success : |S +|/N (shown as a/N in tables); (ii) 
+
+Uniqueness : the fraction of distinct sequences among im-proved samples, i.e., |Unique( S+)|/|S +| (shown as b/a ); (iii) Novelty : the fraction of unique improved sequences not appearing in the positive SFT training set D+, i.e., 
+
+|{ x ∈ Unique( S+) : x / ∈ D +}| /|Unique( S+)| (shown as c/b ). All set membership tests are exact string matches on amino-acid sequences. 
+
+Molecule Evaluation Metrics. We evaluate instruction-conditioned molecular editing across 14 conditions on 
+
+500 source molecules (i.e., 7,000 instances in total). Each instance specifies a target subset of proxy prop-erties PI ⊆ P and desired directions, where P =
+
+{LogP , QED , TPSA , HBA , HBD }.(i) Validity. Given an output SMILES xout , we first com-pute Validity as the fraction of outputs that can be parsed and sanitized by RDKit; invalid generations are treated as 6STRIDE: Post-Training LLMs to Reason and Refine Bio-Sequences via Edit Trajectories 
+
+failures for success metrics. (ii) Optimization Success. For a property p ∈ P , let 
+
+∆p = p(xout )−p(xsrc ) and let sI,p ∈ { +1 , −1} denote the desired direction under instruction I (increase or decrease). We report: (i) Success (Loose) : sI,p ∆p > 0 for all p ∈ P I ;(ii) Success (Strict) (primary): sI,p ∆p ≥ τp for all p ∈ P I ,with thresholds τLogP =0 .5, τQED =0 .1, τTPSA =10 .0 ˚A2,and τHBA =τHBD =1 . For multi-objective conditions, all objectives must satisfy the criterion simultaneously. (iii) Property Stability (Off-target Drift). Let P¬I =
+
+P \ P I be the non-target properties. We flag a shift violation 
+
+on p ∈ P ¬I if |∆p| ≥ τp (using the same τp as above). We report: (i) Shift Rate : the fraction of valid outputs with at least one shift violation; (ii) Shift Avg : the mean number of violated non-target properties per valid output. 
+
+4.4. Results 
+
+4.4.1. RESULTS ON PROTEIN SEQUENCE OPTIMIZATION 
+
+Efficacy of Trajectory-Based Editing. We evaluate pro-tein optimization under two edit regimes: replace-only edits and the full atomic action space A (insert/delete/replace). Following Section 4.3, we sample N =100 candidates per method from the same source sequence and report Success ,
+
+Uniqueness , and Novelty .
+
+Improved diversity and novelty under replace-only ed-its. In the replace-only setting (Table 4), multiple meth-ods achieve moderate success, but differ substantially in diversity. While the Zero-Shot baseline attains 53 /100 suc-cess, it collapses to only 9 unique improved sequences ( 3
+
+novel), suggesting highly repetitive generations. Vanilla SFT improves diversity ( 39 unique improved) but still pro-duces a large fraction of training-set mutations (Novelty 
+
+28 /39 ). In contrast, STRIDE achieves slightly higher suc-cess ( 61 /100 ) while producing substantially more unique and novel improvements ( 59 unique; 53 novel). Overall, explicitly modeling edit trajectories strengthens exploration without sacrificing optimization success. 
+
+Benefits amplify for variable-length edits. The full ac-tion space A (Table 3) is substantially more challenging due to variable-length transformations. Here, Vanilla SFT degrades sharply ( 42 /100 success; 30 unique; 14 novel), in-dicating difficulty in consistently producing beneficial edits beyond simple substitutions. By contrast, STRIDE remains robust and achieves the strongest overall results ( 89 /100 
+
+success; 78 unique; 76 novel), highlighting that explicit trajectories are particularly valuable when the edit space becomes more combinatorial.                                          
+
+> Table 3. Results on the Fluorescence Landscape Prediction dataset under add/delete/replace edit operations. Method Success Unique Novelty Random Perturbation 5/100 5/5 3/5 Zero-Shot 54/100 8/54 4/8 Edit Flow 79/100 51/79 13/51 Vanilla SFT 42/100 30/42 14/30
+> STRIDE 89/100 78/79 76/78
+> Table 4. Results on the Fluorescence Landscape Prediction dataset under replace-only edit operations. Method Success Unique Novelty Random Perturbation 13/100 13/13 12/13 Zero-Shot 53/100 9/53 3/9 EvoDiff-38M FT 47/100 38/47 24/38 Edit Flow 53/100 44/53 37/44 Vanilla SFT 55/100 39/55 28/39
+> STRIDE 61/100 59/61 53/59
+
+Semantic trajectories vs. diffusion-style denoising. We further compare against discrete diffusion/flow baselines (EvoDiff and Edit Flow). In the replace-only regime (Ta-ble 4), STRIDE outperforms both EvoDiff ( 47 /100 ) and Edit Flow ( 53 /100 ) in Success. In the full action space (Table 3), Edit Flow attains competitive Success ( 79 /100 )but yields limited novelty ( 13 /51 ), whereas STRIDE main-tains both high Success and high Novelty ( 76 /78 ). These results suggest that trajectory-conditioned LLM editing pro-vides a favorable balance between optimization strength and exploration compared to stochastic denoising baselines.                          
+
+> Table 5. Overall comparison of Qwen3-SFT and STRIDE variants on DrugAssist. Success reports strict / loose success rates, while shift reports violation rate / average count. Method Success (S / L) ↑Shift (R / A) ↓
+> Random Perturbation 0.000 / 0.000 1.000 / 2.444 Zero-Shot 0.147 / 0.190 0.833 / 2.267 Vanilla SFT 0.629 / 0.745 0.948 / 2.379 Vanilla GSPO 0.653 / 0.785 0.865 / 2.382
+> STRIDE-SFT 0.579 / 0.684 0.983 / 2.629
+> STRIDE-GRPO 0.782 / 0.876 0.956 / 2.588
+> STRIDE-GSPO 0.676 / 0.782 0.755 /2.001
+> STRIDE-CISPO 0.784 /0.878 0.954 / 2.581
+
+4.4.2. R ESULTS ON MOLECULAR OPTIMIZATION 
+
+Trajectory-conditioned editing improves controllability under instruction. We evaluate instruction-conditioned molecular optimization on 500 source molecules across 14 objectives (7,000 instances total), reporting validity, strict/loose success, and non-target property shifts (Sec-tion 4.3). Table 2 reports per-task shift statistics, while Table 5 summarizes overall performance across methods. 7STRIDE: Post-Training LLMs to Reason and Refine Bio-Sequences via Edit Trajectories 
+
+Direct generation is strong but incurs large off-target shifts. Vanilla SFT (directly predicting the optimized SMILES without explicit trajectories) already achieves strong goal attainment (Strict/Loose: 0.629/0.745; Table 5), indicating that the Qwen3 backbone carries substantial chemical priors for plausible edits. However, it also exhibits considerable unintended property drift (Shift: 0.948/2.379), showing that high success does not necessarily imply con-trolled optimization. 
+
+Explicit trajectories are a useful interface but require alignment. Imposing an explicit, executable edit trajec-tory (STRIDE-SFT) introduces a stricter generation require-ment and does not by itself improve stability (Strict/Loose: 0.579/0.684; Shift: 0.983/2.629). This suggests that tra-jectory supervision primarily provides a structured con-trol interface—which is especially important under index-grounded, variable-length editing—but additional post-training is needed to align trajectories with the desired ob-jective–stability trade-off. 
+
+RL post-training. Post-training STRIDE with policy optimization substantially improves objective satisfaction. STRIDE-GRPO and STRIDE-CISPO achieve the highest strict success (0.782 and 0.784), but their shift metrics re-main high (Shift Rate ≈0.95). In contrast, STRIDE-GSPO attains the best overall controllability (Shift: 0.755/2.001) while improving strict success over STRIDE-SFT (0.579 
+
+→ 0.676) and substantially increasing validity (0.750 →
+
+0.909). Compared to direct RL without trajectories (Vanilla GSPO), trajectory-conditioned RL yields a markedly better stability profile (Shift Rate 0.865 → 0.755) at comparable success, indicating that explicit edit scripts provide a more effective substrate for alignment. 
+
+## 5. Discussion 
+
+Impact of Model Scale and Optimization Objectives. 
+
+We find that model capacity is a key factor for index-grounded, long-horizon editing. By inspecting generated edit trajectories, the Qwen3-14B backbone follows the spec-ified indices in ∼80% of actions, whereas the Qwen3-4B-Thinking-2507 model drops below 60% and often drifts after several steps, leading to misplaced mutations under tight positional constraints. This gap is especially pronounced in the full-action setting, where insertions/deletions shift sub-sequent indices and require consistent bookkeeping over the entire trajectory. We also observed that some hand-crafted physicochemical objectives admit trivial shortcut solutions— for example, maximizing ProtParam aromaticity by simply appending aromatic residues—and are therefore not diag-nostic of multi-step reasoning. We thus emphasize the GFP fluorescence task, which induces a more rugged, non-linear landscape and better stresses higher-order sequence reason-  
+
+> Figure 2. Reward curves during RL post-training. Top: total reward; bottom: similarity reward. Curves are shown for EMA smoothing with decay 0.99.
+
+ing beyond simple compositional bias. 
+
+Limitations of Oracle Predictors. Our protein evaluation relies on a fluorescence oracle trained in a replace-only regime. The replace-only benchmark (Table 4) is therefore in-distribution and serves as our primary comparison. We additionally report full action space A results (Table 3) to probe variable-length edits relevant to protein engineering; however, indel-containing candidates may be scored less reliably by the oracle. Accordingly, we interpret full-action results mainly as a controlled stress test—using the same oracle, edit budget, and protocol across methods—rather than as an absolute measure of real fluorescence. Improving reliability will likely require indel-aware predictors and, ultimately, experimental validation. 
+
+## 6. Conclusion 
+
+We presented STRIDE , a post-training framework that casts discrete biological sequence optimization as trajectory-level reasoning over atomic edits (INSERT/DELETE/REPLACE). 
+
+STRIDE learns concise, executable edit scripts via shortest-path supervision and then aligns them with task rewards using KL-regularized policy optimization (e.g., GRPO). Across protein engineering and molecular design bench-marks, STRIDE improves optimization success while maintaining validity and substantially increasing diver-sity/novelty, with gains most pronounced in long-horizon, index-consistent editing settings. These results suggest that explicit reasoning over edit trajectories provides a practi-8STRIDE: Post-Training LLMs to Reason and Refine Bio-Sequences via Edit Trajectories 
+
+cal interface for discrete biological sequence optimization; future work will extend to longer genomic contexts and stronger, edit-aware oracles with experimental validation. 
+
+## Impact Statement 
+
+This work introduces STRIDE , a post-training framework that empowers large language models to perform goal-directed optimization of discrete biological sequences by ex-plicitly reasoning over trajectories of atomic edits ( INSERT ,
+
+DELETE , REPLACE ). By recasting optimization as an in-terpretable, step-by-step planning process in edit space, 
+
+STRIDE enables precise control in protein engineering and small molecule design while strictly adhering to complex syntactic and structural constraints (such as SMILES gram-mar or protein stability). This methodology not only im-proves the structural validity and functional novelty of gen-erated candidates but also enhances the transparency of the design process. Consequently, STRIDE has the potential to accelerate discovery pipelines in therapeutics and synthetic biology, reducing experimental validation costs and fos-tering the development of more reliable, reasoning-driven scientific AI systems. 
+
+## References 
+
+Alamdari, S., Thakkar, N., Van Den Berg, R., Tenenholtz, N., Strome, B., Moses, A., Lu, A. X., Fusi, N., Amini, A. P., and Yang, K. K. Protein generation with evolu-tionary diffusion: sequence is all you need. BioRxiv , pp. 2023–09, 2023. Arnold, F. H. and Volkov, A. A. Directed evolution of biocatalysts. Current opinion in chemical biology , 3(1): 54–59, 1999. Austin, J., Johnson, D. D., Ho, J., Tarlow, D., and Van Den Berg, R. Structured denoising diffusion models in discrete state-spaces. Advances in neural information processing systems , 34:17981–17993, 2021. Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J. D., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., et al. Language models are few-shot learners. 
+
+Advances in neural information processing systems , 33: 1877–1901, 2020. Chen, A., Li, A., Gong, B., Jiang, B., Fei, B., Yang, B., Shan, B., Yu, C., Wang, C., Zhu, C., et al. Minimax-m1: Scaling test-time compute efficiently with lightning attention. arXiv preprint arXiv:2506.13585 , 2025. Chung, H. W., Hou, L., Longpre, S., Zoph, B., Tay, Y., Fe-dus, W., Li, Y., Wang, X., Dehghani, M., Brahma, S., et al. Scaling instruction-finetuned language models. Journal of Machine Learning Research , 25(70):1–53, 2024. Fallahpour, A., Magnuson, A., Gupta, P., Ma, S., Naimer, J., Shah, A., Duan, H., Ibrahim, O., Goodarzi, H., Maddison, C. J., et al. Bioreason: Incentivizing multimodal biolog-ical reasoning within a dna-llm model. arXiv preprint arXiv:2505.23579 , 2025. Fernandez, N., Illouz, M., Pinto, L., Yang, E., and Boubacar, H. A. Mega: A large-scale molecular edit-ing dataset for guided-action optimization. Under re-view at International Conference on Learning Represen-tations , 2025. URL https://openreview.net/ pdf?id=MaS7e2EVFm .Gu, J., Wang, C., and Zhao, J. Levenshtein transformer. 
+
+Advances in neural information processing systems , 32, 2019. Havasi, M., Karrer, B., Gat, I., and Chen, R. T. Edit flows: Flow matching with edit operations. arXiv preprint arXiv:2506.09018 , 2025. Ho, J., Jain, A., and Abbeel, P. Denoising diffusion proba-bilistic models. Advances in neural information process-ing systems , 33:6840–6851, 2020. Hoogeboom, E., Gritsenko, A. A., Bastings, J., Poole, B., Berg, R. v. d., and Salimans, T. Autoregressive diffusion models. arXiv preprint arXiv:2110.02037 , 2021. Kim, J., Cheuk-Kit, L., Domingo-Enrich, C., Du, Y., Kakade, S., Ngotiaoco, T., Chen, S., and Albergo, M. Any-order flexible length masked diffusion. arXiv preprint arXiv:2509.01025 , 2025. Langley, P. Crafting papers on machine learning. In Langley, P. (ed.), Proceedings of the 17th International Conference on Machine Learning (ICML 2000) , pp. 1207–1216, Stan-ford, CA, 2000. Morgan Kaufmann. Lcvenshtcin, V. Binary coors capable or ‘correcting dele-tions, insertions, and reversals. In Soviet physics-doklady ,volume 10, 1966. Li, J., Wang, W., Zhang, Q., Li, J., Zhang, D., Zheng, C., Zhang, S., Wei, X., and Li, Q. Mol-r1: Towards explicit long-cot reasoning in molecule discovery. arXiv preprint arXiv:2508.08401 , 2025. Li, X., Thickstun, J., Gulrajani, I., Liang, P. S., and Hashimoto, T. B. Diffusion-lm improves controllable text generation. Advances in neural information process-ing systems , 35:4328–4343, 2022. M. Bran, A., Cox, S., Schilter, O., Baldassari, C., White, A. D., and Schwaller, P. Augmenting large language models with chemistry tools. Nature machine intelligence ,6(5):525–535, 2024. 9STRIDE: Post-Training LLMs to Reason and Refine Bio-Sequences via Edit Trajectories 
+
+Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C., Mishkin, P., Zhang, C., Agarwal, S., Slama, K., Ray, A., et al. Training language models to follow instructions with human feedback. Advances in neural information processing systems , 35:27730–27744, 2022. Rafailov, R., Sharma, A., Mitchell, E., Manning, C. D., Ermon, S., and Finn, C. Direct preference optimiza-tion: Your language model is secretly a reward model. 
+
+Advances in neural information processing systems , 36: 53728–53741, 2023. Rao, R., Liu, J., Verkuil, R., Meier, J., Canny, J., Abbeel, P., Sercu, T., and Rives, A. Evaluating protein trans-fer learning with tape. Advances in Neural Information Processing Systems , 32, 2019. Romero, P. A. and Arnold, F. H. Exploring protein fitness landscapes by directed evolution. Nature reviews Molec-ular cell biology , 10(12):866–876, 2009. Sarkisyan, K. S., Bolotin, D. A., Meer, M. V., Usmanova, D. R., Mishin, A. S., Sharonov, G. V., Ivankov, D. N., Bozhanova, N. G., Baranov, M. S., Soylemez, O., et al. Local fitness landscape of the green fluorescent protein. 
+
+Nature , 533(7603):397–401, 2016. Shao, Z., Wang, P., Zhu, Q., Xu, R., Song, J., Bi, X., Zhang, H., Zhang, M., Li, Y., Wu, Y., et al. Deepseekmath: Push-ing the limits of mathematical reasoning in open language models. arXiv preprint arXiv:2402.03300 , 2024. Song, Y., Sohl-Dickstein, J., Kingma, D. P., Kumar, A., Er-mon, S., and Poole, B. Score-based generative modeling through stochastic differential equations. arXiv preprint arXiv:2011.13456 , 2020. Su, J., Li, Z., Han, C., Zhou, Y., He, Y., Shan, J., Zhou, X., Chang, X., Jiang, S., Ma, D., et al. Saprothub: Making protein modeling accessible to all biologists. BioRxiv , pp. 2024–05, 2024. Wang, R., Zhang, H., Nguyen, T., Feng, S., Pang, H.-W., Yu, X., Xiao, L., and Zhang, P. Z. Pepthink-r1: Llm for interpretable cyclic peptide optimization with cot sft and reinforcement learning. arXiv preprint arXiv:2508.14765 ,2025. Wang, X., Zheng, Z., Ye, F., Xue, D., Huang, S., and Gu, Q. Diffusion language models are versatile protein learners. 
+
+arXiv preprint arXiv:2402.18567 , 2024. Wei, J., Wang, X., Schuurmans, D., Bosma, M., Xia, F., Chi, E., Le, Q. V., Zhou, D., et al. Chain-of-thought prompting elicits reasoning in large language models. Advances in neural information processing systems , 35:24824–24837, 2022. Weininger, D. Smiles, a chemical language and information system. 1. introduction to methodology and encoding rules. Journal of chemical information and computer sciences , 28(1):31–36, 1988. Yang, K. K., Wu, Z., and Arnold, F. H. Machine-learning-guided directed evolution for protein engineering. Nature methods , 16(8):687–694, 2019. Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I., Narasimhan, K. R., and Cao, Y. React: Synergizing reasoning and acting in language models. In The eleventh international conference on learning representations , 2022. Yao, S., Yu, D., Zhao, J., Shafran, I., Griffiths, T., Cao, Y., and Narasimhan, K. Tree of thoughts: Deliberate problem solving with large language models. Advances in neural information processing systems , 36:11809–11822, 2023. Ye, G., Cai, X., Lai, H., Wang, X., Huang, J., Wang, L., Liu, W., and Zeng, X. Drugassist: A large language model for molecule optimization. Briefings in Bioinformatics , 26 (1):bbae693, 2025. Zheng, C., Liu, S., Li, M., Chen, X.-H., Yu, B., Gao, C., Dang, K., Liu, Y., Men, R., Yang, A., et al. Group sequence policy optimization. arXiv preprint arXiv:2507.18071 , 2025. Zhou, Z., Kearnes, S., Li, L., Zare, R. N., and Riley, P. Op-timization of molecules via deep reinforcement learning. 
+
+Scientific reports , 9(1):10752, 2019. 10 STRIDE: Post-Training LLMs to Reason and Refine Bio-Sequences via Edit Trajectories 
+
+## A. Edit Flows baseline 
+
+We implement Edit Flows (Havasi et al., 2025) as a non-autoregressive discrete-flow baseline for variable-length protein sequence generation and editing. Unlike fixed-length masked discrete diffusion, Edit Flows defines a Continuous-Time Markov Chain (CTMC) directly over the space of sequences and parameterizes its generator via edit operations (IN-SERT/DELETE/REPLACE), naturally supporting length-changing transformations. We follow the training loss and first-order CTMC simulation procedure in (Havasi et al., 2025), with task-specific choices (protein vocabulary, edit budget, and length cap) described below. 
+
+A.1. State space and edit parameterization 
+
+Let V be the amino-acid vocabulary (plus special tokens such as BOS /EOS /PAD ), and let X = SLmax  
+
+> n=0
+
+Vn be the space of sequences up to a maximum length Lmax . Given a current sequence xt ∈ X and a normalized time t ∈ [0 , 1] , the model outputs five heads: • Rate heads λ: three non-negative per-position intensities λins (xt, t )i, λdel (xt, t )i, λsub (xt, t )i for insertion, deletion, and substitution. • Distribution heads Q: two categorical distributions Qins (· | xt, t )i and Qsub (· | xt, t )i over V for sampling in-serted/substituted tokens. We apply a Softplus activation to ensure λ ≥ 0.
+
+Masking constraints. To preserve structural validity, we force λins = λdel = λsub = 0 on PAD positions. At the BOS 
+
+position, we set λdel = λsub = 0 to preserve the sequence anchor, while allowing insertion. 
+
+A.2. Model architecture 
+
+We use a Transformer Encoder to parameterize the time-dependent CTMC generator. The input is the current sequence xt
+
+(tokenized) and the scalar time t. We add a time embedding for t to the token representations at each layer, together with learned positional embeddings. 
+
+A.3. Training via alignment-conditioned discrete flow matching 
+
+Training requires a supervision signal describing which edits would transform a partially noised sequence into the target. Given a paired example (x0, x 1), we compute a Levenshtein alignment and obtain aligned sequences (z0, z 1) in an augmented space that includes a special blank token ϵ (used only for defining the auxiliary alignment process, not part of V). 
+
+Stochastic interpolation. We sample a time t ∼ Uniform(0 , 1) and define a token-wise mixture schedule κ(t) = tκpow 
+
+(we use κpow = 3 ). We sample an intermediate aligned sequence zt by taking each aligned position from z1 with probability 
+
+κ(t) and from z0 otherwise, and then strip blanks to obtain xt.
+
+Loss. The alignment (zt, z 1) specifies the set of remaining edit operations needed to transform xt into x1: INSERT where zt = ϵ and z1̸ = ϵ, DELETE where zt̸ = ϵ and z1 = ϵ, and SUBSTITUTE where both are non-blank but disagree. Following (Havasi et al., 2025), we use a Monte-Carlo estimate of the Edit Flows loss, which contains (i) a sum of all predicted rates and (ii) a weighted log-intensity term for the remaining edits: 
+
+L(θ; xt, t ) = X
+
+> i
+
+
+
+λins ,i + λdel ,i + λsub ,i 
+
+
+
+− ˙κ(t)1 − κ(t)
+
+X
+
+> (i, op) ∈E (zt,z 1)
+
+log rθ (op i | xt, t ), (1) where ˙κ(t) = dκ (t) 
+
+> dt
+
+and rθ is the model-assigned intensity of the ground-truth edit: rθ (INS i=v) = λins ,i Qins (v)i,
+
+rθ (DEL i) = λdel ,i , rθ (SUB i=v) = λsub ,i Qsub (v)i.
+
+A.4. Sampling under an edit budget 
+
+We generate candidates by simulating the learned CTMC with the standard first-order approximation (Havasi et al., 2025). With step size ∆t, for each position i we sample: 11 STRIDE: Post-Training LLMs to Reason and Refine Bio-Sequences via Edit Trajectories 
+
+• INSERT with probability pins ,i = clamp( λins ,i ∆t, 0, 0.9) ;• DELETE-or-SUBSTITUTE with probability pds ,i = clamp(( λdel ,i + λsub ,i )∆ t, 0, 0.9) . If triggered, we choose DELETE with probability λdel ,i /(λdel ,i + λsub ,i ), otherwise SUBSTITUTE. If INSERT or SUBSTITUTE happens at i, the new token is sampled from Qins (·)i or Qsub (·)i, respectively. All sampled edits are applied simultaneously. To match our evaluation protocol, we enforce an atomic edit budget B ∈ { 1, 2, 3} by stopping the simulation once the number of executed atomic edits reaches B. To prevent runaway length growth, we additionally impose a hard cap Lmax ; if the sequence exceeds this length, it is truncated and subsequent insertions are disabled. 
+
+## B. R-group vs. index-level SFT 
+
+Table 6 shows a trade-off between two editing interfaces for SFT on DrugAssist tasks: (i) R-group-level actions that modify molecules at the functional-group/substituent level, and (ii) index-level (IDX) actions that operate on token/atom-level positions. Overall, R-group editing achieves higher validity (0.827 vs. 0.750), while IDX achieves higher strict success (0.579 vs. 0.546) and slightly higher loose success (0.684 vs. 0.648). The advantage of IDX is most pronounced on tasks that benefit from fine-grained structural adjustments (e.g., Lower permeability : strict success 0.800 vs. 0.572), whereas R-group editing can be competitive or preferable on some objectives (e.g., Higher permeability : strict success 0.686 vs. 0.492). Unless otherwise stated, we use IDX as the default interface in the main experiments and report R-group results for completeness.                                                                                                                                                                          
+
+> Task Valid ↑Success (Strict) ↑Success (Loose) ↑Shift Rate ↓Shift Avg ↓
+> IDX RIDX RIDX RIDX RIDX RHigher permeability 0.582 0.880 0.492 0.686 0.512 0.742 0.979 0.911 2.460 2.214
+> Less like a drug 0.816 0.706 0.598 0.450 0.792 0.596 0.990 0.992 2.488 3.127 Less soluble in water 0.802 0.838 0.574 0.542 0.722 0.660 0.898 0.945 1.880 2.196 Less soluble in water + more HBA 0.714 0.734 0.500 0.396 0.642 0.492 0.986 0.967 1.840 1.970 Less soluble in water + more HBD 0.780 0.870 0.700 0.512 0.728 0.626 0.995 0.986 2.841 2.756
+> Lower permeability 0.820 0.730 0.800 0.572 0.810 0.624 0.995 0.995 2.917 2.556
+> More like a drug 0.500 0.814 0.114 0.168 0.216 0.284 0.972 0.973 2.596 2.767
+> More soluble in water 0.788 0.870 0.588 0.614 0.752 0.764 1.000 0.998 3.530 3.343
+> More soluble in water + higher permeability 0.676 0.876 0.406 0.380 0.540 0.552 0.959 0.943 1.846 1.865
+> More soluble in water + lower permeability 0.800 0.856 0.602 0.550 0.752 0.724 0.998 0.993 2.558 2.437
+> More soluble in water + more HBA 0.772 0.830 0.560 0.548 0.724 0.686 0.987 1.000 2.591 2.511
+> More soluble in water + more HBD 0.836 0.908 0.584 0.716 0.786 0.810 0.995 0.989 2.711 2.641
+> With more HBA 0.806 0.758 0.792 0.656 0.792 0.656 0.995 0.997 2.921 2.765
+> With more HBD 0.812 0.910 0.802 0.856 0.802 0.856 1.000 0.991 3.367 3.396
+> Overall 0.750 0.827 0.579 0.546 0.684 0.648 0.983 0.977 2.629 2.613
+
+Table 6. Comparison of SFT (IDX) and SFT (Rgroup) on DrugAssist tasks. Success metrics are higher-is-better, while shift-related metrics are lower-is-better. 
+
+## C. Training Details 
+
+We implement our models using the Qwen3-14B architecture. Below we detail the hyper-parameters for both the Supervised Fine-Tuning (SFT) and Group Relative Policy Optimization (GRPO) stages. 
+
+Optimizer & Regularization (SFT) 
+
+• Base Model: Qwen3-14B • Optimizer: AdamW • Precision: bfloat16 (BF16) • Learning Rate: 5 × 10 −5
+
+12 STRIDE: Post-Training LLMs to Reason and Refine Bio-Sequences via Edit Trajectories 
+
+• Scheduler: Cosine decay with 20 warmup steps • Per-Device Batch Size: 4• Gradient Accumulation: 2 steps • Epochs: 5• Quantization: 8-bit • Gradient Checkpointing: Enabled • Random Seed: 42 
+
+LoRA Adapters (SFT) 
+
+• Rank ( r): 32 • Alpha ( α): 64 • Dropout: 0.05 • Target Modules: q proj, k proj, v proj, o proj, up proj, down proj 
+
+Optimizer & Regularization (GRPO) 
+
+• Optimizer: AdamW • Learning Rate: 1 × 10 −5
+
+• Scheduler: Cosine decay • Max Steps: 25,000 • Per-Device Batch Size: 1• Gradient Accumulation: 4• KL Control: Fixed • KL Coefficient: 0.001 
+
+GRPO Algorithm Parameters 
+
+• Number of Generations: 8• Clip Ratio ( ϵ): 0.2 • Reward Function: Task-specific (Protein Fluorescence / Chemical Property) 
+
+GSPO Algorithm Additional Parameters 
+
+• Epsilon: 3 × 10 −4
+
+• Epsilon High: 4 × 10 −4
+
+• Steps per Generation: 4• Beta: 013 STRIDE: Post-Training LLMs to Reason and Refine Bio-Sequences via Edit Trajectories 
+
+CISPO Algorithm Additional Parameters 
+
+• Epsilon High: 5.0 
+
+LoRA Adapters (GRPO) 
+
+• Rank ( r): 16 • Alpha ( α): 32 • Target Modules: q proj, k proj, v proj, o proj, up proj, down proj 
+
+DeepSpeed & Hardware 
+
+• Strategy: DeepSpeed ZeRO-2 (Stage 2) • Offload: None • Contiguous Gradients: Enabled • Gradient Clipping: Auto 
+
+## D. Off-Target Property Drifts 
+
+Table 7 provides a per-property breakdown of off-target drifts across the 14 DrugAssist optimization tasks, complementing the aggregate shift metrics reported in Section 4.4.2. We report shift rates for five molecular properties—HBA, HBD, logP, QED, and TPSA—only when the corresponding property is not included in the task objective / reward; entries marked as “–” are excluded accordingly. (We compute shift rates on [valid molecules only / all outputs / successful outputs] using the same shift definition as in Section 4.4.2.) Overall, GSPO often reduces unintended changes in non-target properties compared to the SFT baseline, though not uniformly across all tasks and properties. For example, in the “Less like a drug” task, GSPO reduces off-target drift in HBA (0.824 → 0.383 ) and TPSA (0.762 → 0.358 ). Similarly, in a multi-objective setting such as “Less soluble in water + more HBA”, GSPO maintains tighter control over unrelated properties such as TPSA (0.908 → 0.072 ). These results suggest that sequence-level policy optimization in GSPO improves robustness beyond the aggregate shift metrics by reducing several off-target drifts while optimizing for the target objective. 
+
+Table 7. Comparison of SFT and GSPO on DrugAssist tasks. Success metrics are higher-is-better, while shift-related metrics are lower-is-better. HBA Shift HBD Shift logP Shift QED Shift TPSA Shift Task SFT GSPO SFT GSPO SFT GSPO SFT GSPO SFT GSPO Higher permeability 0.667 0.373 0.460 0.391 0.794 0.487 0.540 0.269 – –Less like a drug 0.824 0.383 0.289 0.354 0.613 0.326 – – 0.762 0.358                                                                                                                         
+
+> Less soluble in water 0.656 0.026 0.070 0.006 ––0.683 0.240 0.471 0.017
+> Less soluble + more HBA ––0.207 0.135 ––0.725 0.429 0.908 0.072
+> Less soluble + more HBD 0.974 0.995 ––––0.910 0.916 0.956 0.982 Lower permeability 0.993 0.970 0.563 0.887 0.656 0.732 0.705 0.567 ––More like a drug 0.748 0.075 0.532 0.034 0.652 0.196 ––0.664 0.047
+> More soluble in water 0.949 0.980 0.881 0.911 ––0.734 0.661 0.967 0.939
+> More soluble + higher permeability 0.553 0.477 0.740 0.726 ––0.553 0.455 ––More soluble + lower permeability 0.953 0.985 0.882 0.928 ––0.723 0.662 ––More soluble + more HBA ––0.863 0.974 ––0.756 0.751 0.972 0.976 More soluble + more HBD 0.892 0.979 ––––0.833 0.741 0.986 1.000 With more HBA ––0.536 0.092 0.653 0.305 0.762 0.348 0.970 0.059
+> With more HBD 0.921 0.994 ––0.623 0.955 0.830 0.756 0.993 0.996
+
+14
