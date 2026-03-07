@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-03-07T09:30:57.891393+00:00",
+  "count": 1,
+  "items": [
+    {
+      "paper_id": "202603/07/41771780-the-evaluation-of-machine-learning-models-using-matrix-assisted-laser-desorptionionization-time-of-flight-mass-spectrometry-maldi-tof-ms-spectra-for-the-prediction-of-antibiotic-resistance-in-klebsiella-pneumoniae",
+      "section": "deep",
+      "title_en": "The Evaluation of Machine Learning Models Using Matrix-Assisted Laser Desorption/Ionization Time-of-Flight Mass Spectrometry (MALDI-TOF-MS) Spectra for the Prediction of Antibiotic Resistance in Klebsiella pneumoniae.",
+      "authors": "Fordham SME.",
+      "date": "2026-03-07",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41771780/",
+      "score": "8.0",
+      "evidence": "利用机器学习基于质谱数据预测病原体耐药性",
+      "tldr": "针对肺炎克雷伯菌抗药性检测耗时长（48-96小时）的临床痛点，本研究评估了利用基质辅助激光解析电离飞行时间质谱（MALDI-TOF-MS）数据结合机器学习模型的预测效能。通过分析23项研究发现，集成学习（如Random Forest、XGBoost）和深度学习（CNN）模型在预测碳青霉烯类耐药性方面表现优异，AUROC普遍超过0.90，最高准确率达97%。该方法能将诊断时间缩短至分钟级，且无需额外硬件投入，具有极高的临床应用潜力。",
+      "tags": "query:pathoai",
+      "abstract_en": "Antimicrobial resistance in Klebsiella pneumoniae poses a major clinical challenge, driving development in rapid, diagnostic strategies that extend beyond conventional susceptibility testing. Twenty-three studies demonstrate that using matrix-assisted laser desorption/ionization time-of-flight mass spectrometry (MALDI-TOF-MS) spectra to create machine learning (ML) models yields rapid and accurate predictions of antibiotic resistance in K. pneumoniae. Across these studies, most models focused on carbapenem resistance and achieved Area Under the Receiver Operating Characteristic Curve (AUROC) values consistently above 0.90, with ensemble algorithms, particularly Random Forest, XGBoost, and Light Gradient Boosting Machine, and deep learning models such as Convolutional Neural Networks attaining accuracies as high as 97% and even AUROCs reaching 0.99 or higher. Sample sizes ranged from 35 to over 15,000 isolates, reinforcing the robustness of these findings across diverse clinical settings. In addition to high discrimination performance, this evaluation reports that ML models developed using MALDI-TOF-MS spectra shorten diagnostic turnaround from days (48-96 h with conventional methods) to minutes or hours, using existing MALDI-TOF-MS equipment for economical implementation. However, ML diagnostic tools remain constrained by limited external validation, spectra preprocessing protocols, and variability between different MALDI-TOF-MS platforms. These limitations may restrict model generalizability and clinical translation, highlighting the need for standardized workflows and larger multicenter evaluations.",
+      "selection_source": "fresh_fetch"
+    }
+  ]
+}

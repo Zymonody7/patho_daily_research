@@ -1,0 +1,54 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-03-07T09:29:24.935204+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 1,
+    "deep_cap": 9,
+    "deep_selected": 1,
+    "quick_candidates": 0,
+    "quick_skim_target": 14,
+    "quick_selected": 0
+  },
+  "deep_dive": [
+    {
+      "id": "41771780",
+      "title": "The Evaluation of Machine Learning Models Using Matrix-Assisted Laser Desorption/Ionization Time-of-Flight Mass Spectrometry (MALDI-TOF-MS) Spectra for the Prediction of Antibiotic Resistance in Klebsiella pneumoniae.",
+      "abstract": "Antimicrobial resistance in Klebsiella pneumoniae poses a major clinical challenge, driving development in rapid, diagnostic strategies that extend beyond conventional susceptibility testing. Twenty-three studies demonstrate that using matrix-assisted laser desorption/ionization time-of-flight mass spectrometry (MALDI-TOF-MS) spectra to create machine learning (ML) models yields rapid and accurate predictions of antibiotic resistance in K. pneumoniae. Across these studies, most models focused on carbapenem resistance and achieved Area Under the Receiver Operating Characteristic Curve (AUROC) values consistently above 0.90, with ensemble algorithms, particularly Random Forest, XGBoost, and Light Gradient Boosting Machine, and deep learning models such as Convolutional Neural Networks attaining accuracies as high as 97% and even AUROCs reaching 0.99 or higher. Sample sizes ranged from 35 to over 15,000 isolates, reinforcing the robustness of these findings across diverse clinical settings. In addition to high discrimination performance, this evaluation reports that ML models developed using MALDI-TOF-MS spectra shorten diagnostic turnaround from days (48-96 h with conventional methods) to minutes or hours, using existing MALDI-TOF-MS equipment for economical implementation. However, ML diagnostic tools remain constrained by limited external validation, spectra preprocessing protocols, and variability between different MALDI-TOF-MS platforms. These limitations may restrict model generalizability and clinical translation, highlighting the need for standardized workflows and larger multicenter evaluations.",
+      "authors": [
+        "Fordham SME."
+      ],
+      "primary_category": null,
+      "categories": [],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41771780/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "machine learning for antimicrobial resistance prediction from mass spectrometry data",
+      "llm_evidence_cn": "利用机器学习基于质谱数据预测病原体耐药性",
+      "llm_evidence": "利用机器学习基于质谱数据预测病原体耐药性",
+      "canonical_evidence": "利用机器学习基于质谱数据预测病原体耐药性",
+      "llm_tldr_en": "Evaluates ML models using MALDI-TOF-MS spectra for rapid antibiotic resistance prediction in K. pneumoniae.",
+      "llm_tldr_cn": "评估了利用质谱数据和机器学习模型快速预测肺炎克雷伯菌抗生素耐药性的效果。",
+      "llm_tldr": "评估了利用质谱数据和机器学习模型快速预测肺炎克雷伯菌抗生素耐药性的效果。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for antimicrobial resistance prediction from genomes",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": []
+}
