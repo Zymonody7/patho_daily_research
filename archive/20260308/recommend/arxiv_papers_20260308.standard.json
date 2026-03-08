@@ -1,0 +1,206 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-03-08T19:06:17.994958+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 1,
+    "deep_cap": 9,
+    "deep_selected": 1,
+    "quick_candidates": 3,
+    "quick_skim_target": 14,
+    "quick_selected": 3
+  },
+  "deep_dive": [
+    {
+      "id": "41794931",
+      "title": "A scalable and quantum-accurate foundation model for biomolecular force fields via linearly tensorized quadrangle attention.",
+      "abstract": "Accurate atomistic biomolecular simulations are vital for understanding disease mechanisms and drug discovery, yet existing methods struggle to balance quantum-mechanical accuracy with computational scalability. Classical force fields often lack precision, while quantum methods are computationally prohibitive for complex biological systems. Here we show that LiTEN, a scalable equivariant neural network, resolves this dilemma by efficiently modeling complex three- and four-body interactions with linear complexity via Linearly Tensorized Quadrangle Attention. We introduce LiTEN-FF, a foundation model pre-trained on extensive datasets to ensure broad chemical generalization across diverse molecular spaces. We demonstrate that LiTEN achieves state-of-the-art accuracy on standard benchmarks, consistently outperforming leading approaches in both precision and speed. Furthermore, LiTEN-FF enables comprehensive modeling tasks, ranging from geometry optimization to free energy surface construction, with high computational efficiency for large biomolecules. This framework provides a physically grounded, versatile foundation for advanced biomolecular modeling and drug design applications.",
+      "authors": [
+        "Qun Su",
+        "Kai Zhu",
+        "Qiaolin Gou",
+        "Jintu Zhang",
+        "Renling Hu",
+        "Yurong Li",
+        "Yongze Wang",
+        "Hui Zhang",
+        "Ziyi You",
+        "Linlong Jiang",
+        "Yu Kang",
+        "Jike Wang",
+        "Chang-Yu Hsieh",
+        "Tingjun Hou"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41794931/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "foundation model for biomolecular force fields and drug discovery",
+      "llm_evidence_cn": "生物分子力场和药物发现的基础模型",
+      "llm_evidence": "生物分子力场和药物发现的基础模型",
+      "canonical_evidence": "生物分子力场和药物发现的基础模型",
+      "llm_tldr_en": "Introduces LiTEN, a scalable foundation model for accurate biomolecular simulations and drug discovery.",
+      "llm_tldr_cn": "介绍了 LiTEN，一种用于精确生物分子模拟和药物发现的可扩展基础模型。",
+      "llm_tldr": "介绍了 LiTEN，一种用于精确生物分子模拟和药物发现的可扩展基础模型。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models and generative AI for drug discovery molecular property prediction and lead optimization",
+      "matched_requirement_id": "req-20",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "41793767",
+      "title": "High-throughput sequencing analysis of fungal and Botryosphaeriaceae communities in symptomatic and asymptomatic almond, avocado, and blueberry plants.",
+      "abstract": "The Botryosphaeriaceae family comprises a large and diverse group of fungi that can behave as endophytes, saprophytes, or pathogens, causing dieback and canker diseases worldwide. These fungi can persist in asymptomatic plants, with symptoms often triggered under host stress. This study employed a high-throughput sequencing (HTS) metabarcoding approach to investigate Botryosphaeriaceae populations in symptomatic and asymptomatic almond, avocado and blueberry plants, and to assess other fungi that may act as disease triggers, symptom enhancers or potential biocontrol agents. Botryosphaeriaceae species were detected in 100%, 93%, and 80% of symptomatic almond, avocado, and blueberry plants, respectively, and in 60%, 73% and 66% of asymptomatic plants. The predominant genera were Neofusicoccum, Botryosphaeria, Diplodia and Lasiodiplodia, with significant host-dependent variation in relative abundance. Multiple Botryosphaeriaceae infections predominated over single infections in symptomatic and asymptomatic plants, particularly in avocado. High diversity of total fungal and Botryosphaeriaceae communities was observed across all crops, with greater richness and evenness in avocado. Beta diversity analyses revealed highly significant differences among the fungal microbiomes of the three crops. Several non-Botryosphaeriaceae wood-colonizing fungi, including Cylindrocarpon, Cytospora, Diaporthe, Fusarium and Phaeoacremonium were also detected in symptomatic almond samples, suggesting possible synergistic interactions, whereas potential biocontrol genera such as Trichoderma and Clonostachys were detected exclusively in some symptomatic almond plants. This work contributes to a better understanding of the fungal etiology of canker and dieback diseases in almond, avocado, and blueberry. Furthermore, the high concordance between HTS and multiplex qPCR supports their complementary use to improve plant disease diagnosis, particularly for early preventive detection.",
+      "authors": [
+        "Laura Romero Cuadrado",
+        "Ana Aguado",
+        "Carlos José López-Herrera",
+        "Nieves Capote"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41793767/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "high-throughput sequencing for fungal pathogen detection",
+      "llm_evidence_cn": "用于真菌病原体检测的高通量测序",
+      "llm_evidence": "用于真菌病原体检测的高通量测序",
+      "canonical_evidence": "用于真菌病原体检测的高通量测序",
+      "llm_tldr_en": "Uses HTS metabarcoding to investigate fungal pathogen communities in symptomatic and asymptomatic plants.",
+      "llm_tldr_cn": "利用高通量测序元条形码技术研究有症状和无症状植物中的真菌病原体群落。",
+      "llm_tldr": "利用高通量测序元条形码技术研究有症状和无症状植物中的真菌病原体群落。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for metagenomic pathogen detection and classification",
+      "matched_requirement_id": "req-11",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41794715",
+      "title": "Fluoroalkylated antimicrobial peptides enables cytosolic delivery and eradication of intracellular Staphylococcus aureus.",
+      "abstract": "Intracellular bacteria survive are difficult to eradicate by conventional antibiotics. Antimicrobial peptides (AMPs) have garnered increasing attention due to their ability to exert broad-spectrum antibacterial effects through various mechanisms. However, they are also unable to effectively penetrate cell membranes to enter the cytoplasm. Fluorination has been proven to effectively enhance the ability of biopeptides to penetrate cell membranes. We designed a fluoroalkylated Omiganan (PFC-OMN) by conjugating a perfluorocarbon tag to a cysteine-terminated Omiganan (OMN) via a disulfide bond, enabling self-assembly into ~ 59 nm nanoparticles and glutathione-triggered release of active OMN in the cytosol. PFC-OMN retained extracellular activity against S. aureus (MIC = 12.5 µM) and exhibited markedly enhanced intracellular bactericidal potency (IMBC₉₉.₉ = 50 µM vs. > 800 µM for unmodified peptide). FITC-PFC-OMN showed 2.6-4.2× higher cellular uptake and broader cytosolic distribution compared with FITC-C-OMN. PFC-OMN displayed low hemolysis (HC₅₀ ≈ 325 µM) and macrophage cytotoxicity (IC₅₀ ≈ 450 µM). In a murine peritonitis model, PFC-OMN significantly reduced intracellular S. aureus counts. These results indicate that fluoroalkylation can enable AMP-mediated eradication of intracellular pathogens.",
+      "authors": [
+        "Tao Gao",
+        "Tiexin Liu",
+        "Junjie Shen",
+        "Bingbo Bao",
+        "Saiyu Shi",
+        "Junqing Lin",
+        "Xianyou Zheng"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41794715/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "antimicrobial peptide design for intracellular pathogen eradication",
+      "llm_evidence_cn": "针对胞内病原体清除的抗菌肽设计",
+      "llm_evidence": "针对胞内病原体清除的抗菌肽设计",
+      "canonical_evidence": "针对胞内病原体清除的抗菌肽设计",
+      "llm_tldr_en": "Designs fluoroalkylated antimicrobial peptides to effectively penetrate cells and eradicate intracellular S. aureus.",
+      "llm_tldr_cn": "设计了氟烷基化抗菌肽，以有效穿透细胞并清除胞内金黄色葡萄球菌。",
+      "llm_tldr": "设计了氟烷基化抗菌肽，以有效穿透细胞并清除胞内金黄色葡萄球菌。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41794962",
+      "title": "Adaptive diagnostic reasoning framework for pathology with multimodal large language models.",
+      "abstract": "BACKGROUND: Artificial intelligence enhances pathology screening efficiency, yet clinical adoption remains limited because most systems operate as opaque black boxes. We aim to resolve this opacity by establishing a framework that generates transparent, evidence-linked reasoning to support diagnostic auditing. METHODS: We present a framework that shifts off-the-shelf multimodal large language models from passive pattern recognition to active diagnostic reasoning. Using small labeled subsets from breast and prostate cancer datasets, we employ a two-phase self-learning process to derive diagnostic criteria without updating model weights. We integrate expert feedback from board-certified pathologists to ensure the generated descriptions align with established medical standards. RESULTS: Here we show that our framework produces audit-ready rationales while achieving over 90% accuracy in distinguishing normal tissue from invasive carcinoma. Beyond binary classification, the model effectively differentiates complex subtypes like ductal carcinoma in situ by autonomously identifying hallmark histological features, including nuclear irregularities and structural disruption. These computer-generated descriptions closely match expert assessments. Our approach delivers substantial performance gains over conventional baselines and adapts effectively across diverse tissue types and independent foundation models. CONCLUSIONS: By uniting visual understanding with reasoning, our framework provides a promising approach for clinically trustworthy artificial intelligence. This framework helps bridge the gap between opaque classifiers and auditable systems, suggesting a viable path toward evidence-linked interpretation in medical workflows.",
+      "authors": [
+        "Yunqi Hong",
+        "Kuei-Chun Kao",
+        "Liam Edwards",
+        "Nein-Tzu Liu",
+        "Chung-Yen Huang",
+        "Alex Oliveira-Kowaleski",
+        "Cho-Jui Hsieh",
+        "Neil Y C Lin"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41794962/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "multimodal large language models for diagnostic reasoning in pathology",
+      "llm_evidence_cn": "多模态大语言模型用于病理诊断推理",
+      "llm_evidence": "多模态大语言模型用于病理诊断推理",
+      "canonical_evidence": "多模态大语言模型用于病理诊断推理",
+      "llm_tldr_en": "Develops an adaptive framework using multimodal LLMs to provide transparent diagnostic reasoning in pathology.",
+      "llm_tldr_cn": "开发了一个利用多模态大模型在病理诊断中提供透明推理过程的自适应框架。",
+      "llm_tldr": "开发了一个利用多模态大模型在病理诊断中提供透明推理过程的自适应框架。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "multimodal models combining sequence structure phenotype and text",
+      "matched_requirement_id": "req-24",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

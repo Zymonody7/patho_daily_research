@@ -1,0 +1,87 @@
+Title: A scalable and quantum-accurate foundation model for biomolecular force fields via linearly tensorized quadrangle attention - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41794931/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 7.
+
+doi: 10.1038/s41467-026-70377-4.  Online ahead of print.
+
+[Kai Zhu](https://pubmed.ncbi.nlm.nih.gov/?term=Zhu+K&cauthor_id=41794931)[#](https://pubmed.ncbi.nlm.nih.gov/41794931/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41794931/#full-view-affiliation-1 "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China."),[Qiaolin Gou](https://pubmed.ncbi.nlm.nih.gov/?term=Gou+Q&cauthor_id=41794931)[#](https://pubmed.ncbi.nlm.nih.gov/41794931/#full-view-equal-contrib-explanation "Contributed equally")[3](https://pubmed.ncbi.nlm.nih.gov/41794931/#full-view-affiliation-3 "Faculty of Applied Sciences, Macao Polytechnic University, Macao, SAR, China."),[Jintu Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+J&cauthor_id=41794931)[1](https://pubmed.ncbi.nlm.nih.gov/41794931/#full-view-affiliation-1 "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China."),[Renling Hu](https://pubmed.ncbi.nlm.nih.gov/?term=Hu+R&cauthor_id=41794931)[1](https://pubmed.ncbi.nlm.nih.gov/41794931/#full-view-affiliation-1 "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41794931/#full-view-affiliation-2 "Shanghai Innovation Institute, Shanghai, China."),[Yurong Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+Y&cauthor_id=41794931)[1](https://pubmed.ncbi.nlm.nih.gov/41794931/#full-view-affiliation-1 "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China."),[Yongze Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+Y&cauthor_id=41794931)[1](https://pubmed.ncbi.nlm.nih.gov/41794931/#full-view-affiliation-1 "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China."),[Hui Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+H&cauthor_id=41794931)[1](https://pubmed.ncbi.nlm.nih.gov/41794931/#full-view-affiliation-1 "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41794931/#full-view-affiliation-2 "Shanghai Innovation Institute, Shanghai, China."),[Ziyi You](https://pubmed.ncbi.nlm.nih.gov/?term=You+Z&cauthor_id=41794931)[1](https://pubmed.ncbi.nlm.nih.gov/41794931/#full-view-affiliation-1 "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41794931/#full-view-affiliation-2 "Shanghai Innovation Institute, Shanghai, China."),[Linlong Jiang](https://pubmed.ncbi.nlm.nih.gov/?term=Jiang+L&cauthor_id=41794931)[1](https://pubmed.ncbi.nlm.nih.gov/41794931/#full-view-affiliation-1 "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China."),[Yu Kang](https://pubmed.ncbi.nlm.nih.gov/?term=Kang+Y&cauthor_id=41794931)[1](https://pubmed.ncbi.nlm.nih.gov/41794931/#full-view-affiliation-1 "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41794931/#full-view-affiliation-2 "Shanghai Innovation Institute, Shanghai, China."),[Jike Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+J&cauthor_id=41794931)[4](https://pubmed.ncbi.nlm.nih.gov/41794931/#full-view-affiliation-4 "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China. jikewang@zju.edu.cn."),[Chang-Yu Hsieh](https://pubmed.ncbi.nlm.nih.gov/?term=Hsieh+CY&cauthor_id=41794931)[5](https://pubmed.ncbi.nlm.nih.gov/41794931/#full-view-affiliation-5 "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China. kimhsieh@zju.edu.cn."),[Tingjun Hou](https://pubmed.ncbi.nlm.nih.gov/?term=Hou+T&cauthor_id=41794931)[6](https://pubmed.ncbi.nlm.nih.gov/41794931/#full-view-affiliation-6 "College of Pharmaceutical Sciences, Zhejiang University, Hangzhou, Zhejiang, China. tingjunhou@zju.edu.cn.")
+
+Affiliations
+
+*    PMID: **41794931**
+*    DOI: [10.1038/s41467-026-70377-4](https://doi.org/10.1038/s41467-026-70377-4)
+
+Free article
+
+A scalable and quantum-accurate foundation model for biomolecular force fields via linearly tensorized quadrangle attention
+---------------------------------------------------------------------------------------------------------------------------
+
+Qun Su et al. Nat Commun.2026.
+
+Free article
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+Abstract
+--------
+
+Accurate atomistic biomolecular simulations are vital for understanding disease mechanisms and drug discovery, yet existing methods struggle to balance quantum-mechanical accuracy with computational scalability. Classical force fields often lack precision, while quantum methods are computationally prohibitive for complex biological systems. Here we show that LiTEN, a scalable equivariant neural network, resolves this dilemma by efficiently modeling complex three- and four-body interactions with linear complexity via Linearly Tensorized Quadrangle Attention. We introduce LiTEN-FF, a foundation model pre-trained on extensive datasets to ensure broad chemical generalization across diverse molecular spaces. We demonstrate that LiTEN achieves state-of-the-art accuracy on standard benchmarks, consistently outperforming leading approaches in both precision and speed. Furthermore, LiTEN-FF enables comprehensive modeling tasks, ranging from geometry optimization to free energy surface construction, with high computational efficiency for large biomolecules. This framework provides a physically grounded, versatile foundation for advanced biomolecular modeling and drug design applications.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+Competing interests: The authors declare no competing interests.
+
+Similar articles
+----------------
+
+*   [Machine learning interatomic potentials in biomolecular modeling: principles, architectures, and applications.](https://pubmed.ncbi.nlm.nih.gov/41613879/)
+
+P KP, A BB, E RR, He X, A KI.P KP, et al.Biophys Rev. 2025 Aug 9;17(5):1241-1253. doi: 10.1007/s12551-025-01351-5. eCollection 2025 Oct.Biophys Rev. 2025.PMID: 41613879 Review. 
+*   [End-to-End Modeling of Reaction Field Energy Using Data-Driven Geometric Graph Neural Networks.](https://pubmed.ncbi.nlm.nih.gov/41048018/)
+
+Wu Y, Zhu Q, Luo R.Wu Y, et al.J Chem Theory Comput. 2025 Oct 14;21(19):9710-9725. doi: 10.1021/acs.jctc.5c01193. Epub 2025 Oct 6.J Chem Theory Comput. 2025.PMID: 41048018 Free PMC article. 
+*   [A scalable machine learning multi-local regression framework for potential energy surface fitting across diverse chemical landscapes.](https://pubmed.ncbi.nlm.nih.gov/40626493/)
+
+Jiang KL, Wang HQ, Li HF, Wen ZX.Jiang KL, et al.J Chem Phys. 2025 Jul 14;163(2):024106. doi: 10.1063/5.0276306.J Chem Phys. 2025.PMID: 40626493 
+*   [Toward Chemical Accuracy in Biomolecular Simulations through Data-Driven Many-Body Potentials: I. Polyalanine in the Gas Phase.](https://pubmed.ncbi.nlm.nih.gov/40492673/)
+
+Zhou R, Bull-Vulpe EF, Pan Y, Paesani F.Zhou R, et al.J Chem Theory Comput. 2025 Jun 24;21(12):6194-6212. doi: 10.1021/acs.jctc.5c00474. Epub 2025 Jun 10.J Chem Theory Comput. 2025.PMID: 40492673 
+*   [Modeling and simulation of protein-surface interactions: achievements and challenges.](https://pubmed.ncbi.nlm.nih.gov/26821792/)
+
+Ozboyaci M, Kokh DB, Corni S, Wade RC.Ozboyaci M, et al.Q Rev Biophys. 2016;49:e4. doi: 10.1017/S0033583515000256.Q Rev Biophys. 2016.PMID: 26821792 Review. 
+
+References
+----------
+
+1.       1.    Wang, T. et al. Ab initio characterization of protein molecular dynamics with AI2BMD. Nature 635, 1019–1027 (2024). 
+
+2.       1.    Dai, X. & Chen, Y. Computational biomaterials: computational simulations for biomedicine. Adv. Mater. 35, 2204798 (2023). 
+
+3.       1.    Kashefolgheta, S. et al. Evaluating classical force fields against experimental cross-solvation free energies. J. Chem. Theory Comput. 16, 7556–7580 (2020). 
+
+4.       1.    Hayashi, H., Maeda, S. & Mita, T. Quantum chemical calculations for reaction prediction in the development of synthetic methodologies. Chem. Sci. 14, 11601–11616 (2023). 
+
+5.       1.    Vogiatzis, K. D. et al. Computational approach to molecular catalysis by 3d transition metals: challenges and opportunities. Chem. Rev. 119, 2453–2523 (2019). 
+
+LinkOut - more resources
+------------------------
+
+*   ### Full Text Sources
+
+    *   [Nature Publishing Group](https://doi.org/10.1038/s41467-026-70377-4)

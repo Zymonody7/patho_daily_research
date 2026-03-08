@@ -1,10 +1,22 @@
 # 知识库
 
-- 最近沉淀条目数：61
+- 最近沉淀条目数：65
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [A scalable and quantum-accurate foundation model for biomolecular force fields via linearly tensorized quadrangle attention.](#/202603/08/202603/08/41794931-a-scalable-and-quantum-accurate-foundation-model-for-biomolecular-force-fields-via-linearly-tensorized-quadrangle-attention)
+  - TLDR：生物分子模拟面临精度与效率的权衡难题：传统力场不够准，量子计算又太慢。LiTEN 引入线性张量化四边形注意力机制，以线性复杂度建模复杂的多体相互作用。预训练基础模型 LiTEN-FF 在多个基准上取得 SOTA 精度，并能高效处理大分子的几何优化与自由能计算，为药物设计提供了兼具量子精度与扩展性的通用工具。
+  - Tags：`query:bioinfo`
+- [High-throughput sequencing analysis of fungal and Botryosphaeriaceae communities in symptomatic and asymptomatic almond, avocado, and blueberry plants.](#/202603/08/202603/08/41793767-high-throughput-sequencing-analysis-of-fungal-and-botryosphaeriaceae-communities-in-symptomatic-and-asymptomatic-almond-avocado-and-blueberry-plants)
+  - TLDR：葡萄座腔菌科真菌是导致多种经济作物枯萎和溃疡病的主要病原，且常以无症状潜伏形式存在。本研究利用高通量测序（HTS）元条形码技术，对比分析了杏仁、牛油果和蓝莓在有无症状下的真菌群落结构。结果显示该科真菌在无症状植株中检出率极高，且多为复合感染，同时识别出潜在的协同致病菌与生物控制菌。该成果为植物病害的早期预防性检测和精准诊断提供了数据支持与技术参考。
+  - Tags：`query:pathoai`
+- [Adaptive diagnostic reasoning framework for pathology with multimodal large language models.](#/202603/08/202603/08/41794962-adaptive-diagnostic-reasoning-framework-for-pathology-with-multimodal-large-language-models)
+  - TLDR：针对病理诊断中AI模型透明度不足、难以审计的问题，该研究提出了一种基于多模态大语言模型（MLLM）的自适应诊断推理框架。通过两阶段自学习过程，模型能从少量标注数据中提取诊断标准并生成与专家共识一致的循证推理描述。实验证明，该框架在乳腺癌和前列腺癌诊断中准确率超过90%，能有效识别复杂亚型，为临床提供可审计、高可信度的AI辅助诊断方案。
+  - Tags：`query:bioinfo`
+- [Fluoroalkylated antimicrobial peptides enables cytosolic delivery and eradication of intracellular Staphylococcus aureus.](#/202603/08/202603/08/41794715-fluoroalkylated-antimicrobial-peptides-enables-cytosolic-delivery-and-eradication-of-intracellular-staphylococcus-aureus)
+  - TLDR：针对胞内金黄色葡萄球菌难以被传统抗生素和抗菌肽清除的问题，本研究通过在抗菌肽Omiganan上修饰全氟碳链，构建了能自组装成纳米颗粒的PFC-OMN。该设计利用氟化修饰增强细胞穿透力，并通过二硫键实现胞内谷胱甘肽触发的药物释放。实验证明其胞内杀菌效力提升了16倍以上，且在小鼠模型中表现出良好的生物安全性与治疗效果，为解决顽固性胞内感染提供了新策略。
+  - Tags：`query:pathoai`
 - [AMR-GNN: a multi-representation graph neural network framework to enable genomic antimicrobial resistance prediction.](#/202603/07/202603/07/41792137-amr-gnn-a-multi-representation-graph-neural-network-framework-to-enable-genomic-antimicrobial-resistance-prediction)
   - TLDR：针对全基因组测序数据维度高且缺乏标准化表示导致抗生素耐药性（AMR）预测困难的问题，本文提出了 AMR-GNN 框架。该框架利用图神经网络整合多种基因组表示，在铜绿假单胞菌及多种临床病原体数据集上验证了其有效性。研究不仅显著提升了预测精度，还通过识别关键生物标志物增强了模型的可解释性，并有效缓解了克隆关系对预测结果的干扰，为精准医疗提供了有力支持。
   - Tags：`query:pathoai`
