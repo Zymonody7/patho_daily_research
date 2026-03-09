@@ -11,32 +11,32 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-03-08
-- 运行时间：2026-03-08 19:07:46 UTC
+- 最新运行日期：2026-03-09
+- 运行时间：2026-03-09 19:25:25 UTC
 - 运行状态：成功
-- 本次总论文数：4
-- 精读区：1
+- 本次总论文数：3
+- 精读区：0
 - 速读区：3
 
 ### 今日简报（AI）
-今日深度解析量子级精度的生物分子力场基础模型，并同步追踪多模态 AI 在病理诊断中的前沿应用。
-- 详情：[/202603/08/README](/202603/08/README)
+今日速递：深度解析儿童克罗恩病病毒组动态、微塑料对菌群的系统性干扰及昆虫表皮的生物防御机制。
+重点关注英夫利昔单抗对肠道病毒失调的修复作用，以及微塑料暴露如何通过多组学路径影响宿主健康。
+建议日常减少塑料制品使用以保护肠道微生态，并关注病毒组在炎症性肠病精准医疗中的监测价值。
+- 详情：[/202603/09/README](/202603/09/README)
 
 ### 精读区论文标签
-1. [A scalable and quantum-accurate foundation model for biomolecular force fields via linearly tensorized quadrangle attention.](/202603/08/41794931-a-scalable-and-quantum-accurate-foundation-model-for-biomolecular-force-fields-via-linearly-tensorized-quadrangle-attention)  
-   标签：评分：9.0/10、query:bioinfo
-   evidence：生物分子力场和药物发现的基础模型
+- 本次无精读推荐。
 
 ### 速读区论文标签
-1. [High-throughput sequencing analysis of fungal and Botryosphaeriaceae communities in symptomatic and asymptomatic almond, avocado, and blueberry plants.](/202603/08/41793767-high-throughput-sequencing-analysis-of-fungal-and-botryosphaeriaceae-communities-in-symptomatic-and-asymptomatic-almond-avocado-and-blueberry-plants)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：用于真菌病原体检测的高通量测序
-2. [Adaptive diagnostic reasoning framework for pathology with multimodal large language models.](/202603/08/41794962-adaptive-diagnostic-reasoning-framework-for-pathology-with-multimodal-large-language-models)  
-   标签：评分：7.0/10、query:bioinfo
-   evidence：多模态大语言模型用于病理诊断推理
-3. [Fluoroalkylated antimicrobial peptides enables cytosolic delivery and eradication of intracellular Staphylococcus aureus.](/202603/08/41794715-fluoroalkylated-antimicrobial-peptides-enables-cytosolic-delivery-and-eradication-of-intracellular-staphylococcus-aureus)  
+1. [Dysbiosis of fecal virome in pediatric Crohn's disease and its dynamic changes during infliximab therapy.](/202603/09/41800893-dysbiosis-of-fecal-virome-in-pediatric-crohns-disease-and-its-dynamic-changes-during-infliximab-therapy)  
+   标签：评分：7.0/10、query:seqai
+   evidence：粪便病毒组宏基因组测序和16S rRNA细菌群落分析
+2. [Interactions between polystyrene-derived micro- and nanoplastics and the microbiota: a systematic review of multi-omics mouse studies.](/202603/09/41795790-interactions-between-polystyrene-derived-micro--and-nanoplastics-and-the-microbiota-a-systematic-review-of-multi-omics-mouse-studies)  
    标签：评分：6.0/10、query:pathoai
-   evidence：针对胞内病原体清除的抗菌肽设计
+   evidence：微塑料与肠道微生物群多组学研究的系统综述
+3. [Cuticle-associated microbiota in Bactrocera dorsalis suppress fungal infection through immune and chemical defenses.](/202603/09/41800606-cuticle-associated-microbiota-in-bactrocera-dorsalis-suppress-fungal-infection-through-immune-and-chemical-defenses)  
+   标签：评分：6.0/10、query:pathoai
+   evidence：微生物群影响昆虫与病原体的相互作用并抑制真菌感染
 
 
 <div class="dpr-home-promo-card">

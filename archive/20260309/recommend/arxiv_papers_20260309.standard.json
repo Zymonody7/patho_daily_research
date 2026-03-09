@@ -1,0 +1,158 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-03-09T19:24:44.828906+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 0,
+    "deep_cap": 9,
+    "deep_selected": 0,
+    "quick_candidates": 3,
+    "quick_skim_target": 14,
+    "quick_selected": 3
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "41800893",
+      "title": "Dysbiosis of fecal virome in pediatric Crohn's disease and its dynamic changes during infliximab therapy.",
+      "abstract": "UNLABELLED: The gut virome is an emerging but underexplored component of the human microbiota, especially in pediatric Crohn's disease (CD). This study aimed to characterize the fecal virome in children with CD and evaluate its association with clinical response to infliximab (IFX) therapy. A total of 85 participants, including 60 pediatric CD patients and 25 healthy controls (HC), were recruited. Among the CD patients, 53 received ≥3 IFX infusions, 41 achieved remission (IFX-R), and 12 did not (IFX-NR). Viral-like particles in fecal samples were enriched and profiled by metagenomic sequencing, while bacterial communities were assessed via 16S rRNA gene sequencing. Pediatric CD patients exhibited significantly reduced viral richness and altered viral community compared to HCs. Functional analyses revealed that CD patients exhibit a shift in fecal virome function from DNA repair to viral replication and assembly. Trans-kingdom correlations were disrupted in CD, particularly between Torque teno viruses and beneficial bacteria, such as Blautia. An integrated machine learning model combining viral and bacterial markers achieved a certain level of diagnostic accuracy for pediatric CD (area under the curve [AUC] = 89.3%). IFX treatment influences the gut virome, with remission associated with higher abundances of Microviridae and Siphoviridae, while Anelloviridae, Myoviridae, and Podoviridae were enriched in IFX-NR at baseline. These findings suggest the virome as a potential biomarker for predicting clinical outcome in pediatric CD, offering a novel avenue for disease diagnosis and personalized treatment strategies. IMPORTANCE: Crohn's disease (CD) in children poses a growing clinical challenge, with increasing incidence and variable response to biologic therapies such as infliximab (IFX). While gut bacterial dysbiosis has been extensively studied, the role of the gut virome in pediatric CD remains largely unexplored. This study provides the first longitudinal characterization of the fecal virome in children with CD undergoing IFX therapy. We reveal distinct viral community patterns, functional alterations, and virus-bacteria interactions in pediatric CD patients. Notably, integration of virome and bacteriome profiles enhances diagnostic accuracy, offering a promising avenue for predictive biomarker development. Furthermore, virome changes may be associated with the IFX treatment outcomes in children with CD. These findings highlight the gut virome as a critical but overlooked dimension of host-microbiome interactions in pediatric CD, with potential implications for personalized therapy and mechanistic understanding of treatment resistance.",
+      "authors": [
+        "Ting Ge",
+        "Tingting Zhao",
+        "Yangming Ruan",
+        "Lin Ye",
+        "Yongmei Xiao",
+        "Fangfei Xiao",
+        "Youran Li",
+        "Xiaolu Li",
+        "Ruixue Wang",
+        "Hui Hu",
+        "Chunyan Lu",
+        "Hong Sun",
+        "Chiyu Zhang",
+        "Guangjun Yu",
+        "Ting Zhang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-09",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41800893/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "metagenomic sequencing of fecal virome and 16S rRNA profiling of bacterial communities",
+      "llm_evidence_cn": "粪便病毒组宏基因组测序和16S rRNA细菌群落分析",
+      "llm_evidence": "粪便病毒组宏基因组测序和16S rRNA细菌群落分析",
+      "canonical_evidence": "粪便病毒组宏基因组测序和16S rRNA细菌群落分析",
+      "llm_tldr_en": "Characterizes the fecal virome in pediatric Crohn's disease using metagenomics to evaluate therapy response.",
+      "llm_tldr_cn": "利用宏基因组学技术分析小儿克罗恩病患者的粪便病毒组，评估其与治疗反应的关系。",
+      "llm_tldr": "利用宏基因组学技术分析小儿克罗恩病患者的粪便病毒组，评估其与治疗反应的关系。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41795790",
+      "title": "Interactions between polystyrene-derived micro- and nanoplastics and the microbiota: a systematic review of multi-omics mouse studies.",
+      "abstract": "Micro- and nanoplastics (MNPs), especially polystyrene-derived particles (PS-MPs/PS-NPs), have become a growing concern due to their increasing presence in the environment and their proven biological toxicity. Although PS particles have been identified in various human tissues, including feces, placenta, and blood, their impact on the gut microbiota and microbiota-driven metabolic pathways remains insufficiently synthesized. This systematic review aims to compile current in vivo evidence from mouse studies to assess how PS-MP/NP exposure influences gut microbial diversity, taxonomic composition, microbial metabolites, and subsequent physiological outcomes. A PRISMA-guided literature search identified 15 controlled mouse studies published between 2010 and 2024. Across these studies, PS exposure consistently induced gut dysbiosis, characterized by reductions or shifts in alpha-diversity, distinct beta-diversity clustering, loss of beneficial commensals such as Lactobacillus, Bifidobacterium, and members of Ruminococcaceae, and enrichment of opportunistic or pro-inflammatory taxa including Proteobacteria, Helicobacter, and Staphylococcus. Notably, MNPs particles induced more pronounced microbial disruption than micro-sized forms. Overall, current experimental evidence indicates that PS-MPs/PS-NPs induce multidimensional toxicity by simultaneously disrupting gut microbial ecology and host metabolic pathways. These findings emphasize the need for standardized methodologies in microplastic research and highlight the importance of clarifying the long-term health effects of human exposure to micro- and nanoplastics.",
+      "authors": [
+        "Deniz Özkan Vardar",
+        "Berzan Ekmen",
+        "Abdulhamit Çalı"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41795790/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "systematic review of multi-omics studies on microplastics and gut microbiota",
+      "llm_evidence_cn": "微塑料与肠道微生物群多组学研究的系统综述",
+      "llm_evidence": "微塑料与肠道微生物群多组学研究的系统综述",
+      "canonical_evidence": "微塑料与肠道微生物群多组学研究的系统综述",
+      "llm_tldr_en": "Reviews how microplastic exposure influences gut microbial diversity and metabolic pathways in mice.",
+      "llm_tldr_cn": "综述了微塑料暴露如何影响小鼠肠道微生物多样性和代谢途径。",
+      "llm_tldr": "综述了微塑料暴露如何影响小鼠肠道微生物多样性和代谢途径。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41800606",
+      "title": "Cuticle-associated microbiota in Bactrocera dorsalis suppress fungal infection through immune and chemical defenses.",
+      "abstract": "BACKGROUND: Cuticular microbial communities influence insect-pathogen interactions, yet their protective roles remain incompletely understood. These microbial defenses are critical in pest species like Bactrocera dorsalis, where microbial symbionts may shape resistance to biological control agents. RESULTS: We show that the cuticular microbiota of Bactrocera dorsalis enhances resistance to the entomopathogenic fungi (EPF) Beauveria bassiana and Isaria fumosorosea through dual immune and chemical mechanisms. Gnotobiotic assays demonstrate that specific bacterial isolates (Microbacterium, Psychrobacter, and Staphylococcus) promote host survival and defense by stimulating Toll/IMD signaling pathway and up-regulating antimicrobial peptides (AMPs) such as defensin, attacin, and cecropin. In contrast, non-cuticle-associated bacteria (Escherichia coli and Staphylococcus aureus) failed to enhance survival and immune responses, indicating that protection is microbiota-specific rather than a result of general bacterial exposure. In parallel, bacterial volatiles, such as phenol, indole, and eicosane, along with extracellular enzymes including chitinase, cellulase, protease, and lipase, suppressed fungal germination and hyphal growth. Importantly, these protective effects were found to vary with host age, indicating age-dependent modulation of microbiota-mediated defense. CONCLUSIONS: Our findings revealed that cuticle-associated bacteria protect their host through complementary immune and chemical pathways. These microbiota act as an active barrier, and microbial metabolism interacts with host immune signaling. By distinguishing specific cuticle-derived effects from non-specific bacterial stimulation, this study highlighted the role of microbiota in modulating fungal susceptibility and supports their application in developing next-generation biocontrol strategies in pest management. © 2026 Society of Chemical Industry.",
+      "authors": [
+        "Kamil Kabir",
+        "Imran Afzal",
+        "Kamran Haider",
+        "Fathelrahman Naiem",
+        "Xiaoxue Li",
+        "Hongyu Zhang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-09",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41800606/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "microbiota influence insect-pathogen interactions and suppress fungal infection",
+      "llm_evidence_cn": "微生物群影响昆虫与病原体的相互作用并抑制真菌感染",
+      "llm_evidence": "微生物群影响昆虫与病原体的相互作用并抑制真菌感染",
+      "canonical_evidence": "微生物群影响昆虫与病原体的相互作用并抑制真菌感染",
+      "llm_tldr_en": "Investigates how cuticular microbiota in fruit flies provide immune and chemical defense against fungal pathogens.",
+      "llm_tldr_cn": "研究了果蝇体表微生物群如何通过免疫和化学防御机制抵抗真菌病原体感染。",
+      "llm_tldr": "研究了果蝇体表微生物群如何通过免疫和化学防御机制抵抗真菌病原体感染。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

@@ -1,10 +1,19 @@
 # 知识库
 
-- 最近沉淀条目数：65
+- 最近沉淀条目数：68
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Dysbiosis of fecal virome in pediatric Crohn's disease and its dynamic changes during infliximab therapy.](#/202603/09/202603/09/41800893-dysbiosis-of-fecal-virome-in-pediatric-crohns-disease-and-its-dynamic-changes-during-infliximab-therapy)
+  - TLDR：针对儿童克罗恩病（CD）肠道病毒组研究不足的问题，本研究通过对60名患儿和25名健康对照者的粪便进行宏基因组与16S rRNA测序，揭示了CD患儿病毒多样性下降、功能转向复制及跨界交互紊乱的特征。研究利用病毒与细菌标志物构建的机器学习模型实现了89.3%的诊断准确率，并发现特定病毒科（如Microviridae）的基线丰度可预测英夫利昔单抗（IFX）的治疗缓解情况，为精准医疗提供了新靶点。
+  - Tags：`query:seqai`
+- [Interactions between polystyrene-derived micro- and nanoplastics and the microbiota: a systematic review of multi-omics mouse studies.](#/202603/09/202603/09/41795790-interactions-between-polystyrene-derived-micro--and-nanoplastics-and-the-microbiota-a-systematic-review-of-multi-omics-mouse-studies)
+  - TLDR：聚苯乙烯微塑料和纳米塑料（PS-MNPs）的生物毒性日益受到关注，但其对肠道菌群的影响机制仍不明确。本文通过系统综述15项小鼠多组学研究，分析了PS暴露对菌群多样性及代谢的影响。结果显示，PS暴露显著诱发肠道失调，减少有益菌并富集促炎菌，且纳米级颗粒的毒性更强。该研究揭示了微塑料通过干扰菌群-代谢轴产生多维毒性，为评估人类健康风险提供了关键证据。
+  - Tags：`query:pathoai`
+- [Cuticle-associated microbiota in Bactrocera dorsalis suppress fungal infection through immune and chemical defenses.](#/202603/09/202603/09/41800606-cuticle-associated-microbiota-in-bactrocera-dorsalis-suppress-fungal-infection-through-immune-and-chemical-defenses)
+  - TLDR：针对桔小实蝇易受病原真菌侵害的问题，本研究揭示了其体表共生菌群通过免疫激活和化学抑制双重机制增强宿主抗性。通过无菌实验对比特定体表菌与非体表菌，发现特定菌株能激活Toll/IMD信号通路并分泌挥发物及酶类抑制真菌生长，为开发基于微生物组的新型害虫生物防治策略提供了重要依据。
+  - Tags：`query:pathoai`
 - [A scalable and quantum-accurate foundation model for biomolecular force fields via linearly tensorized quadrangle attention.](#/202603/08/202603/08/41794931-a-scalable-and-quantum-accurate-foundation-model-for-biomolecular-force-fields-via-linearly-tensorized-quadrangle-attention)
   - TLDR：生物分子模拟面临精度与效率的权衡难题：传统力场不够准，量子计算又太慢。LiTEN 引入线性张量化四边形注意力机制，以线性复杂度建模复杂的多体相互作用。预训练基础模型 LiTEN-FF 在多个基准上取得 SOTA 精度，并能高效处理大分子的几何优化与自由能计算，为药物设计提供了兼具量子精度与扩展性的通用工具。
   - Tags：`query:bioinfo`
