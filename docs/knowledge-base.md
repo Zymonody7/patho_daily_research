@@ -1,10 +1,31 @@
 # 知识库
 
-- 最近沉淀条目数：68
+- 最近沉淀条目数：75
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Artificial intelligence based approaches for prediction of antimicrobial resistance in ruminant host pathogens.](#/202603/10/202603/10/41801565-artificial-intelligence-based-approaches-for-prediction-of-antimicrobial-resistance-in-ruminant-host-pathogens)
+  - TLDR：反刍动物的抗生素耐药性（AMR）严重威胁畜牧业安全，传统检测手段效率低下。本文探讨了利用机器学习和深度学习技术，通过分析病原体的基因组、蛋白质组及表型数据来预测耐药性的前沿方法。这些 AI 模型能够快速识别耐药模式并预测潜在风险，为优化临床用药决策和加强公共卫生监测提供了关键的技术支撑。
+  - Tags：`query:pathoai`
+- [DNA-Logic Trimodal Biofuel Cell Platform for AI-Assisted Dual Pathogen Detection.](#/202603/10/202603/10/41802090-dna-logic-trimodal-biofuel-cell-platform-for-ai-assisted-dual-pathogen-detection)
+  - TLDR：针对甘蔗黑穗病和梢腐病检测依赖实验室、耗时长的问题，该研究开发了一种基于DNA逻辑门控的三模态自供电生物传感平台。该平台集成电化学、比色和光热信号，通过DNA逻辑电路实现双病原体并行检测，并利用随机森林回归模型进行AI辅助数据处理。实验证明其检测限达亚飞摩尔级，且在田间样本测试中表现出与qPCR高度一致的准确性，为智慧农业提供了低成本、便携的现场筛查方案。
+  - Tags：`query:pathoai`
+- [A clinic-responder-derived defined microbial consortium enhances anti-PD-1 immunotherapy efficacy in mice.](#/202603/10/202603/10/41803498-a-clinic-responder-derived-defined-microbial-consortium-enhances-anti-pd-1-immunotherapy-efficacy-in-mice)
+  - TLDR：针对肠道微生物群影响癌症免疫治疗效果但临床转化受限的问题，研究者通过宏基因组分析和计算预测，从非小细胞肺癌响应者粪便中筛选出15种细菌组成联合菌群RCom。实验证明RCom能稳定定植并产生免疫调节代谢物，通过增强肿瘤内CD8+ T细胞的浸润与杀伤功能，显著提升了小鼠模型中抗PD-1疗法的有效性，并能克服非响应者菌群导致的耐药性，为开发免疫治疗辅助药物提供了新路径。
+  - Tags：`query:pathoai`
+- [Global genomic diversity of temperate P2-like viruses.](#/202603/10/202603/10/41803419-global-genomic-diversity-of-temperate-p2-like-viruses)
+  - TLDR：针对温和噬菌体 P2 样病毒（P2Vs）因溶源特性难以通过传统方法分离、导致其多样性与生态功能研究受限的问题，本研究利用隐马尔可夫模型（pHMMs）对公共数据库进行大规模挖掘。研究成功构建了包含 5945 个基因组的 P2VGD 数据库，将已知多样性提升了百倍以上，并揭示了其在不同生境（如肠道、海洋）中通过辅助代谢基因调节宿主适应性的机制，为理解病毒-宿主共进化提供了重要资源。
+  - Tags：`query:pathoai`
+- [Revealing transcriptomic responses in](#/202603/10/202603/10/41805196-revealing-transcriptomic-responses-in)
+  - TLDR：针对致病菌在抗生素暴露初期（前30分钟）转录响应机制不明的问题，本研究利用 iModulon 分析方法处理大肠杆菌的时间序列转录组数据。研究揭示了一个由应激激活、氧化还原平衡恢复及代谢重塑构成的三阶段动态调控模型。该成果为理解细菌如何整合代谢与应激信号以应对抗生素压力提供了系统性框架，有助于挖掘耐药性产生的早期调控逻辑。
+  - Tags：`query:pathoai`
+- [Unlocking the black box: multimodal imaging and quantitative analysis of plant vesicular trafficking.](#/202603/10/202603/10/41803325-unlocking-the-black-box-multimodal-imaging-and-quantitative-analysis-of-plant-vesicular-trafficking)
+  - TLDR：植物囊泡运输是环境响应的核心，但因观测手段受限长期处于“黑箱”状态。本文综述了结合化学生物学探针与深度学习模型（如DeepFRAP、FCSNet）的多模态成像范式，实现了对囊泡动力学的精确数学建模。该方法解决了内吞化学计量等争议，将纳米级膜动态与植物抗逆表型关联，为理解植物信号转导提供了定量研究框架。
+  - Tags：`query:bioinfo`
+- [Dynamic interaction between Escherichia coli enterotoxins and bacteriocins.](#/202603/10/202603/10/41804674-dynamic-interaction-between-escherichia-coli-enterotoxins-and-bacteriocins)
+  - TLDR：肠道菌群抵御病原体入侵的分子机制尚不明确。本研究通过构建共生大肠杆菌与产肠毒素大肠杆菌（ETEC）的共培养模型，发现细菌素与肠毒素之间存在复杂的双向调控：毒素ST通过cGMP通路抑制细菌素产生，而毒素LT则通过cAMP通路促进其表达。这一发现揭示了病原体与益生菌间的分子对话机制，为利用菌群干预手段防治肠道感染提供了新视角。
+  - Tags：`query:pathoai`
 - [Dysbiosis of fecal virome in pediatric Crohn's disease and its dynamic changes during infliximab therapy.](#/202603/09/202603/09/41800893-dysbiosis-of-fecal-virome-in-pediatric-crohns-disease-and-its-dynamic-changes-during-infliximab-therapy)
   - TLDR：针对儿童克罗恩病（CD）肠道病毒组研究不足的问题，本研究通过对60名患儿和25名健康对照者的粪便进行宏基因组与16S rRNA测序，揭示了CD患儿病毒多样性下降、功能转向复制及跨界交互紊乱的特征。研究利用病毒与细菌标志物构建的机器学习模型实现了89.3%的诊断准确率，并发现特定病毒科（如Microviridae）的基线丰度可预测英夫利昔单抗（IFX）的治疗缓解情况，为精准医疗提供了新靶点。
   - Tags：`query:seqai`

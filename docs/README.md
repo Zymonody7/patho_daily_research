@@ -11,32 +11,43 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-03-09
-- 运行时间：2026-03-09 19:25:25 UTC
+- 最新运行日期：2026-03-10
+- 运行时间：2026-03-10 19:35:13 UTC
 - 运行状态：成功
-- 本次总论文数：3
-- 精读区：0
-- 速读区：3
+- 本次总论文数：7
+- 精读区：3
+- 速读区：4
 
 ### 今日简报（AI）
-今日速递：深度解析儿童克罗恩病病毒组动态、微塑料对菌群的系统性干扰及昆虫表皮的生物防御机制。
-重点关注英夫利昔单抗对肠道病毒失调的修复作用，以及微塑料暴露如何通过多组学路径影响宿主健康。
-建议日常减少塑料制品使用以保护肠道微生态，并关注病毒组在炎症性肠病精准医疗中的监测价值。
-- 详情：[/202603/09/README](/202603/09/README)
+今日聚焦 AI 赋能的病原体防控，深度解读从反刍动物耐药性预测到 DNA 逻辑检测平台的 7 篇前沿成果。
+重点关注 AI 在反刍动物耐药性预测中的满分表现，以及结合 DNA 逻辑与生物燃料电池的智能化病原体检测新方案。
+建议关注 AI 与生物传感技术的跨界融合，这正成为精准医疗与公共卫生防御的新趋势。
+- 详情：[/202603/10/README](/202603/10/README)
 
 ### 精读区论文标签
-- 本次无精读推荐。
+1. [Artificial intelligence based approaches for prediction of antimicrobial resistance in ruminant host pathogens.](/202603/10/41801565-artificial-intelligence-based-approaches-for-prediction-of-antimicrobial-resistance-in-ruminant-host-pathogens)  
+   标签：评分：10.0/10、query:pathoai
+   evidence：基于人工智能的病原体抗生素耐药性预测方法
+2. [DNA-Logic Trimodal Biofuel Cell Platform for AI-Assisted Dual Pathogen Detection.](/202603/10/41802090-dna-logic-trimodal-biofuel-cell-platform-for-ai-assisted-dual-pathogen-detection)  
+   标签：评分：9.0/10、query:pathoai
+   evidence：利用DNA逻辑电路进行AI辅助的双重病原体检测
+3. [A clinic-responder-derived defined microbial consortium enhances anti-PD-1 immunotherapy efficacy in mice.](/202603/10/41803498-a-clinic-responder-derived-defined-microbial-consortium-enhances-anti-pd-1-immunotherapy-efficacy-in-mice)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：结合宏基因组分析和计算机预测来识别与免疫治疗反应相关的细菌群落
 
 ### 速读区论文标签
-1. [Dysbiosis of fecal virome in pediatric Crohn's disease and its dynamic changes during infliximab therapy.](/202603/09/41800893-dysbiosis-of-fecal-virome-in-pediatric-crohns-disease-and-its-dynamic-changes-during-infliximab-therapy)  
-   标签：评分：7.0/10、query:seqai
-   evidence：粪便病毒组宏基因组测序和16S rRNA细菌群落分析
-2. [Interactions between polystyrene-derived micro- and nanoplastics and the microbiota: a systematic review of multi-omics mouse studies.](/202603/09/41795790-interactions-between-polystyrene-derived-micro--and-nanoplastics-and-the-microbiota-a-systematic-review-of-multi-omics-mouse-studies)  
+1. [Global genomic diversity of temperate P2-like viruses.](/202603/10/41803419-global-genomic-diversity-of-temperate-p2-like-viruses)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：用于病毒系统发育分类的隐马尔可夫模型
+2. [Revealing transcriptomic responses in](/202603/10/41805196-revealing-transcriptomic-responses-in)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：病原菌对抗生素暴露的转录组响应模型
+3. [Unlocking the black box: multimodal imaging and quantitative analysis of plant vesicular trafficking.](/202603/10/41803325-unlocking-the-black-box-multimodal-imaging-and-quantitative-analysis-of-plant-vesicular-trafficking)  
+   标签：评分：6.0/10、query:bioinfo
+   evidence：将化学生物学与深度学习结合进行多模态成像分析
+4. [Dynamic interaction between Escherichia coli enterotoxins and bacteriocins.](/202603/10/41804674-dynamic-interaction-between-escherichia-coli-enterotoxins-and-bacteriocins)  
    标签：评分：6.0/10、query:pathoai
-   evidence：微塑料与肠道微生物群多组学研究的系统综述
-3. [Cuticle-associated microbiota in Bactrocera dorsalis suppress fungal infection through immune and chemical defenses.](/202603/09/41800606-cuticle-associated-microbiota-in-bactrocera-dorsalis-suppress-fungal-infection-through-immune-and-chemical-defenses)  
-   标签：评分：6.0/10、query:pathoai
-   evidence：微生物群影响昆虫与病原体的相互作用并抑制真菌感染
+   evidence：微生物-病原体相互作用的共培养模型
 
 
 <div class="dpr-home-promo-card">
