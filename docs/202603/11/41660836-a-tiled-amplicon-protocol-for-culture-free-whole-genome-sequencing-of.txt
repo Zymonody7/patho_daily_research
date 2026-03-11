@@ -1,0 +1,90 @@
+Title: A tiled amplicon protocol for culture-free whole-genome sequencing of M. tuberculosis from clinical specimens - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41660836/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 11;64(3):e0182325.
+
+doi: 10.1128/jcm.01823-25.  Epub 2026 Feb 9.
+
+[Freddy L Gonzalez](https://pubmed.ncbi.nlm.nih.gov/?term=Gonzalez+FL&cauthor_id=41660836)[#](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-equal-contrib-explanation "Contributed equally")[2](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-2 "Department of Ecology and Evolutionary Biology, Yale University, New Haven, Connecticut, USA."),[Alice Osmaston](https://pubmed.ncbi.nlm.nih.gov/?term=Osmaston+A&cauthor_id=41660836)[3](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-3 "Department of Infection, Immunity, and Inflammation, Institute of Child Health, University College London, London, England.")[4](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-4 "Universidad Peruana Cayetano Heredia, Lima, Peru."),[Mallery I Breban](https://pubmed.ncbi.nlm.nih.gov/?term=Breban+MI&cauthor_id=41660836)[1](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-1 "Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, USA."),[Isabel Distefano](https://pubmed.ncbi.nlm.nih.gov/?term=Distefano+I&cauthor_id=41660836)[1](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-1 "Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, USA."),[Candy Leon](https://pubmed.ncbi.nlm.nih.gov/?term=Leon+C&cauthor_id=41660836)[4](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-4 "Universidad Peruana Cayetano Heredia, Lima, Peru."),[Jorge Coronel](https://pubmed.ncbi.nlm.nih.gov/?term=Coronel+J&cauthor_id=41660836)[4](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-4 "Universidad Peruana Cayetano Heredia, Lima, Peru."),[Grace Tan](https://pubmed.ncbi.nlm.nih.gov/?term=Tan+G&cauthor_id=41660836)[3](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-3 "Department of Infection, Immunity, and Inflammation, Institute of Child Health, University College London, London, England."),[Valeriu Crudu](https://pubmed.ncbi.nlm.nih.gov/?term=Crudu+V&cauthor_id=41660836)[5](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-5 "Institute of Phthisiopneumology, Chisinau, Moldova."),[Nelly Ciobanu](https://pubmed.ncbi.nlm.nih.gov/?term=Ciobanu+N&cauthor_id=41660836)[5](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-5 "Institute of Phthisiopneumology, Chisinau, Moldova."),[Alexandru Codreanu](https://pubmed.ncbi.nlm.nih.gov/?term=Codreanu+A&cauthor_id=41660836)[5](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-5 "Institute of Phthisiopneumology, Chisinau, Moldova."),[Walter Solano](https://pubmed.ncbi.nlm.nih.gov/?term=Solano+W&cauthor_id=41660836)[4](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-4 "Universidad Peruana Cayetano Heredia, Lima, Peru."),[Jimena Ráez](https://pubmed.ncbi.nlm.nih.gov/?term=R%C3%A1ez+J&cauthor_id=41660836)[4](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-4 "Universidad Peruana Cayetano Heredia, Lima, Peru."),[Patricia Sheen](https://pubmed.ncbi.nlm.nih.gov/?term=Sheen+P&cauthor_id=41660836)[4](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-4 "Universidad Peruana Cayetano Heredia, Lima, Peru."),[Mirko Zimic](https://pubmed.ncbi.nlm.nih.gov/?term=Zimic+M&cauthor_id=41660836)[4](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-4 "Universidad Peruana Cayetano Heredia, Lima, Peru."),[Orchid M Allicock](https://pubmed.ncbi.nlm.nih.gov/?term=Allicock+OM&cauthor_id=41660836)[1](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-1 "Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, USA.")[6](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-6 "Yale Institute for Global Health, Yale University, New Haven, Connecticut, USA."),[Chrispin Chaguza](https://pubmed.ncbi.nlm.nih.gov/?term=Chaguza+C&cauthor_id=41660836)[1](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-1 "Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, USA."),[Anne L Wyllie](https://pubmed.ncbi.nlm.nih.gov/?term=Wyllie+AL&cauthor_id=41660836)[1](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-1 "Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, USA."),[Matthew Brandt](https://pubmed.ncbi.nlm.nih.gov/?term=Brandt+M&cauthor_id=41660836)[1](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-1 "Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, USA."),[Daniel M Weinberger](https://pubmed.ncbi.nlm.nih.gov/?term=Weinberger+DM&cauthor_id=41660836)[1](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-1 "Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, USA.")[6](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-6 "Yale Institute for Global Health, Yale University, New Haven, Connecticut, USA.")[7](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-7 "Public Health Modeling Unit, Yale School of Public Health, New Haven, Connecticut, USA."),[Benjamin Sobkowiak](https://pubmed.ncbi.nlm.nih.gov/?term=Sobkowiak+B&cauthor_id=41660836)[3](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-3 "Department of Infection, Immunity, and Inflammation, Institute of Child Health, University College London, London, England.")[7](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-7 "Public Health Modeling Unit, Yale School of Public Health, New Haven, Connecticut, USA."),[Ted Cohen](https://pubmed.ncbi.nlm.nih.gov/?term=Cohen+T&cauthor_id=41660836)[1](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-1 "Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, USA.")[7](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-7 "Public Health Modeling Unit, Yale School of Public Health, New Haven, Connecticut, USA."),[Louis Grandjean](https://pubmed.ncbi.nlm.nih.gov/?term=Grandjean+L&cauthor_id=41660836)[3](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-3 "Department of Infection, Immunity, and Inflammation, Institute of Child Health, University College London, London, England.")[4](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-4 "Universidad Peruana Cayetano Heredia, Lima, Peru."),[Nathan D Grubaugh](https://pubmed.ncbi.nlm.nih.gov/?term=Grubaugh+ND&cauthor_id=41660836)[1](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-1 "Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, USA.")[2](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-2 "Department of Ecology and Evolutionary Biology, Yale University, New Haven, Connecticut, USA.")[6](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-6 "Yale Institute for Global Health, Yale University, New Haven, Connecticut, USA.")[7](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-7 "Public Health Modeling Unit, Yale School of Public Health, New Haven, Connecticut, USA."),[Seth N Redmond](https://pubmed.ncbi.nlm.nih.gov/?term=Redmond+SN&cauthor_id=41660836)[1](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-1 "Department of Epidemiology of Microbial Diseases, Yale School of Public Health, New Haven, Connecticut, USA.")[6](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-6 "Yale Institute for Global Health, Yale University, New Haven, Connecticut, USA.")[7](https://pubmed.ncbi.nlm.nih.gov/41660836/#full-view-affiliation-7 "Public Health Modeling Unit, Yale School of Public Health, New Haven, Connecticut, USA.")
+
+Affiliations
+
+*    PMID: **41660836**
+*    DOI: [10.1128/jcm.01823-25](https://doi.org/10.1128/jcm.01823-25)
+
+Free article
+
+A tiled amplicon protocol for culture-free whole-genome sequencing of _M. tuberculosis_ from clinical specimens
+---------------------------------------------------------------------------------------------------------------
+
+Chaney C Kalinich et al. J Clin Microbiol.2026.
+
+Free article
+
+Abstract
+--------
+
+Whole-genome sequencing of _Mycobacterium tuberculosis_ can be a valuable tool for TB surveillance and treatment, providing insights into transmission patterns and comprehensive drug susceptibility testing. However, the slow growth of _M. tuberculosis_ means traditional culture-based sequencing methods can take weeks to return results, which has limited the widespread adoption of these techniques and limited their use in clinical decision-making. Tiled amplicon sequencing is a fast, reliable, and cost-effective method of whole-genome sequencing that can be done directly on clinical specimens and has been implemented at scale in academic and public health laboratories across the world; it was the cornerstone of SARS-CoV-2 sequencing and has been adapted for a wide range of viral pathogens. However, similar methods are not yet available for far larger bacterial genomes. Extending this approach to _M. tuberculosis_ would significantly reduce the cost, labor, and turnaround time for whole-genome sequencing. We designed a tiled amplicon panel consisting of 5,128 primers that covers the entire _M. tuberculosis_ genome, the largest tiled amplicon sequencing panel we are aware of to date. Applying our amplicon panels to clinical samples of sputum, we show the ability to recover whole-genome bacterial sequences without the need for culture. The resulting sequence data can be used to determine _M. tuberculosis_ lineage and reliably identify markers of drug resistance. Using this approach in clinical settings could reduce the time needed for comprehensive drug susceptibility testing from weeks to days and enable genomic epidemiology to be performed at scale, even in resource-limited settings.IMPORTANCEWe have developed and tested an amplicon panel, TB-seq, for the priority pathogen _Mycobacterium tuberculosis_, demonstrating recovery of near-full genomes directly from patient sputum, including mixed and low-concentration samples. This approach significantly reduces the turnaround time for this slow-growing bacterium while maintaining high accuracy in detecting clinically relevant mutations, including those associated with drug resistance. Given the global burden of tuberculosis and the critical need for faster diagnostic solutions, we believe our method has the potential to improve clinical decision-making and public health strategies.
+
+**Keywords:** Mycobacterium tuberculosis; amplicon sequencing; genomic epidemiology; pathogen genomics.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+The authors declare no conflict of interest.
+
+Update of
+---------
+
+*   [Tiled Amplicon Sequencing Enables Culture-free Whole-Genome Sequencing of Pathogenic Bacteria From Clinical Specimens.](https://pubmed.ncbi.nlm.nih.gov/39763738/)
+
+Kalinich CC, Gonzalez FL, Osmaston A, Breban MI, Distefano I, Leon C, Sheen P, Zimic M, Coronel J, Tan G, Crudu V, Ciobanu N, Codreanu A, Solano W, Ráez J, Allicock OM, Chaguza C, Wyllie AL, Brandt M, Weinberger DM, Sobkowiak B, Cohen T, Grandjean L, Grubaugh ND, Redmond SN.Kalinich CC, et al.bioRxiv [Preprint]. 2024 Dec 20:2024.12.19.629550. doi: 10.1101/2024.12.19.629550.bioRxiv. 2024.PMID: 39763738 Free PMC article.Updated.Preprint. 
+
+Similar articles
+----------------
+
+*   [Whole-Genome Sequencing of Mycobacterium tuberculosis Directly from Sputum Samples.](https://pubmed.ncbi.nlm.nih.gov/34235666/)
+
+Brown AC.Brown AC.Methods Mol Biol. 2021;2314:459-480. doi: 10.1007/978-1-0716-1460-0_20.Methods Mol Biol. 2021.PMID: 34235666 
+*   [Next-generation sequencing-based user-friendly platforms for drug-resistant tuberculosis diagnosis: A promise for the near future.](https://pubmed.ncbi.nlm.nih.gov/28043592/)
+
+Dolinger DL, Colman RE, Engelthaler DM, Rodwell TC.Dolinger DL, et al.Int J Mycobacteriol. 2016 Dec;5 Suppl 1:S27-S28. doi: 10.1016/j.ijmyco.2016.09.021. Epub 2016 Oct 28.Int J Mycobacteriol. 2016.PMID: 28043592 
+*   [Whole-genome sequencing of Mycobacterium tuberculosis directly from clinical samples for high-resolution genomic epidemiology and drug resistance surveillance: an observational study.](https://pubmed.ncbi.nlm.nih.gov/35544271/)
+
+Goig GA, Cancino-Muñoz I, Torres-Puente M, Villamayor LM, Navarro D, Borrás R, Comas I.Goig GA, et al.Lancet Microbe. 2020 Aug;1(4):e175-e183. doi: 10.1016/S2666-5247(20)30060-4. Epub 2020 Aug 6.Lancet Microbe. 2020.PMID: 35544271 
+*   [Bridging the implementation gap: Challenges and opportunities for integrating whole genome sequencing in tuberculosis surveillance in low-resource settings.](https://pubmed.ncbi.nlm.nih.gov/41637877/)
+
+Micheni LN, Wambua S, Magutah K, Nkaiwuatei J, Bazira J, Sande C.Micheni LN, et al.Diagn Microbiol Infect Dis. 2026 May;115(1):117282. doi: 10.1016/j.diagmicrobio.2026.117282. Epub 2026 Jan 23.Diagn Microbiol Infect Dis. 2026.PMID: 41637877 Review. 
+*   [[Development of antituberculous drugs: current status and future prospects].](https://pubmed.ncbi.nlm.nih.gov/17240921/)
+
+Tomioka H, Namba K.Tomioka H, et al.Kekkaku. 2006 Dec;81(12):753-74.Kekkaku. 2006.PMID: 17240921 Review.Japanese. 
+
+Grants and funding
+------------------
+
+*   [1S10OD030363-01A1/NH/NIH HHS/United States](https://pubmed.ncbi.nlm.nih.gov/?term=1S10OD030363-01A1%2FNH%2FNIH+HHS%2FUnited+States%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 1S10OD030363-01A1/NH/NIH HHS/United States")
+*   [226007/Z/22/Z/WT_/Wellcome Trust/United Kingdom](https://pubmed.ncbi.nlm.nih.gov/?term=226007%2FZ%2F22%2FZ%2FWT_%2FWellcome+Trust%2FUnited+Kingdom%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 226007/Z/22/Z/WT_/Wellcome Trust/United Kingdom")
+*   [5R01AI146338-02/NH/NIH HHS/United States](https://pubmed.ncbi.nlm.nih.gov/?term=5R01AI146338-02%2FNH%2FNIH+HHS%2FUnited+States%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 5R01AI146338-02/NH/NIH HHS/United States")
+*   [CK22-2204/CC/CDC HHS/United States](https://pubmed.ncbi.nlm.nih.gov/?term=CK22-2204%2FCC%2FCDC+HHS%2FUnited+States%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant CK22-2204/CC/CDC HHS/United States")
+*   [Medical Student Fellowship/NH/NIH HHS/United States](https://pubmed.ncbi.nlm.nih.gov/?term=Medical+Student+Fellowship%2FNH%2FNIH+HHS%2FUnited+States%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant Medical Student Fellowship/NH/NIH HHS/United States")
+
+*   [NU50CK000629/CC/CDC HHS/United States](https://pubmed.ncbi.nlm.nih.gov/?term=NU50CK000629%2FCC%2FCDC+HHS%2FUnited+States%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant NU50CK000629/CC/CDC HHS/United States")
+*   [PhD Fellowship/Great Ormond Street Institute of Child Health](https://pubmed.ncbi.nlm.nih.gov/?term=PhD+Fellowship%2FGreat+Ormond+Street+Institute+of+Child+Health%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant PhD Fellowship/Great Ormond Street Institute of Child Health")
+*   [Richard K. Gershon Endowed Medical Student Fellowship/Yale University](https://pubmed.ncbi.nlm.nih.gov/?term=Richard+K.+Gershon+Endowed+Medical+Student+Fellowship%2FYale+University%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant Richard K. Gershon Endowed Medical Student Fellowship/Yale University")
+
+LinkOut - more resources
+------------------------
+
+*   ### Full Text Sources
+
+    *   [Atypon](https://journals.asm.org/doi/10.1128/jcm.01823-25?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-438)

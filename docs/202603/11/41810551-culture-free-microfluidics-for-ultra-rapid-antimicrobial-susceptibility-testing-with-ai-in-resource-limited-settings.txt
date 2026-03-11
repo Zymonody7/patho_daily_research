@@ -1,0 +1,56 @@
+Title: Culture-Free Microfluidics for Ultra-Rapid Antimicrobial Susceptibility Testing with AI in Resource-Limited Settings - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41810551/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 11.
+
+doi: 10.1021/acs.analchem.5c07535.  Online ahead of print.
+
+[Huijuan Yuan](https://pubmed.ncbi.nlm.nih.gov/?term=Yuan+H&cauthor_id=41810551)[1](https://pubmed.ncbi.nlm.nih.gov/41810551/#full-view-affiliation-1 "The Key Laboratory for Biomedical Photonics of MOE at Wuhan National Laboratory for Optoelectronics-Hubei Bioinformatics & Molecular Imaging Key Laboratory, Systems Biology Theme, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan 430074, China."),[Chenxi Dai](https://pubmed.ncbi.nlm.nih.gov/?term=Dai+C&cauthor_id=41810551)[1](https://pubmed.ncbi.nlm.nih.gov/41810551/#full-view-affiliation-1 "The Key Laboratory for Biomedical Photonics of MOE at Wuhan National Laboratory for Optoelectronics-Hubei Bioinformatics & Molecular Imaging Key Laboratory, Systems Biology Theme, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan 430074, China."),[Dongjuan Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+D&cauthor_id=41810551)[2](https://pubmed.ncbi.nlm.nih.gov/41810551/#full-view-affiliation-2 "Department of Laboratory Medicine, Children's Infectious Diseases Prevention and Control Center, Maternal and Child Health Hospital of Hubei Province, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430070, China."),[Xudong Zhao](https://pubmed.ncbi.nlm.nih.gov/?term=Zhao+X&cauthor_id=41810551)[1](https://pubmed.ncbi.nlm.nih.gov/41810551/#full-view-affiliation-1 "The Key Laboratory for Biomedical Photonics of MOE at Wuhan National Laboratory for Optoelectronics-Hubei Bioinformatics & Molecular Imaging Key Laboratory, Systems Biology Theme, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan 430074, China."),[Xin Ma](https://pubmed.ncbi.nlm.nih.gov/?term=Ma+X&cauthor_id=41810551)[3](https://pubmed.ncbi.nlm.nih.gov/41810551/#full-view-affiliation-3 "Key Laboratory of Material Chemistry for Energy Conversion and Storage, Ministry of Education, School of Chemistry and Chemical Engineering, Huazhong University of Science and Technology, Wuhan 430074, China."),[Xiang Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+X&cauthor_id=41810551)[4](https://pubmed.ncbi.nlm.nih.gov/41810551/#full-view-affiliation-4 "Department of Laboratory Medicine, Wuhan Children's Hospital, Tongji Medical College, Huazhong University of Science and Technology, Wuhan 430016, China."),[Yuxiao Shu](https://pubmed.ncbi.nlm.nih.gov/?term=Shu+Y&cauthor_id=41810551)[1](https://pubmed.ncbi.nlm.nih.gov/41810551/#full-view-affiliation-1 "The Key Laboratory for Biomedical Photonics of MOE at Wuhan National Laboratory for Optoelectronics-Hubei Bioinformatics & Molecular Imaging Key Laboratory, Systems Biology Theme, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan 430074, China."),[Shunji Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+S&cauthor_id=41810551)[1](https://pubmed.ncbi.nlm.nih.gov/41810551/#full-view-affiliation-1 "The Key Laboratory for Biomedical Photonics of MOE at Wuhan National Laboratory for Optoelectronics-Hubei Bioinformatics & Molecular Imaging Key Laboratory, Systems Biology Theme, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan 430074, China."),[Zeyu Miao](https://pubmed.ncbi.nlm.nih.gov/?term=Miao+Z&cauthor_id=41810551)[1](https://pubmed.ncbi.nlm.nih.gov/41810551/#full-view-affiliation-1 "The Key Laboratory for Biomedical Photonics of MOE at Wuhan National Laboratory for Optoelectronics-Hubei Bioinformatics & Molecular Imaging Key Laboratory, Systems Biology Theme, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan 430074, China."),[Xin Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+X&cauthor_id=41810551)[1](https://pubmed.ncbi.nlm.nih.gov/41810551/#full-view-affiliation-1 "The Key Laboratory for Biomedical Photonics of MOE at Wuhan National Laboratory for Optoelectronics-Hubei Bioinformatics & Molecular Imaging Key Laboratory, Systems Biology Theme, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan 430074, China."),[Wei Du](https://pubmed.ncbi.nlm.nih.gov/?term=Du+W&cauthor_id=41810551)[1](https://pubmed.ncbi.nlm.nih.gov/41810551/#full-view-affiliation-1 "The Key Laboratory for Biomedical Photonics of MOE at Wuhan National Laboratory for Optoelectronics-Hubei Bioinformatics & Molecular Imaging Key Laboratory, Systems Biology Theme, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan 430074, China."),[Xiaojun Feng](https://pubmed.ncbi.nlm.nih.gov/?term=Feng+X&cauthor_id=41810551)[1](https://pubmed.ncbi.nlm.nih.gov/41810551/#full-view-affiliation-1 "The Key Laboratory for Biomedical Photonics of MOE at Wuhan National Laboratory for Optoelectronics-Hubei Bioinformatics & Molecular Imaging Key Laboratory, Systems Biology Theme, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan 430074, China."),[Yiwei Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+Y&cauthor_id=41810551)[1](https://pubmed.ncbi.nlm.nih.gov/41810551/#full-view-affiliation-1 "The Key Laboratory for Biomedical Photonics of MOE at Wuhan National Laboratory for Optoelectronics-Hubei Bioinformatics & Molecular Imaging Key Laboratory, Systems Biology Theme, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan 430074, China."),[Peng Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+P&cauthor_id=41810551)[1](https://pubmed.ncbi.nlm.nih.gov/41810551/#full-view-affiliation-1 "The Key Laboratory for Biomedical Photonics of MOE at Wuhan National Laboratory for Optoelectronics-Hubei Bioinformatics & Molecular Imaging Key Laboratory, Systems Biology Theme, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan 430074, China.")[5](https://pubmed.ncbi.nlm.nih.gov/41810551/#full-view-affiliation-5 "Shenzhen Huazhong University of Science and Technology Research Institute, Shenzhen 518000, China."),[Bi-Feng Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+BF&cauthor_id=41810551)[1](https://pubmed.ncbi.nlm.nih.gov/41810551/#full-view-affiliation-1 "The Key Laboratory for Biomedical Photonics of MOE at Wuhan National Laboratory for Optoelectronics-Hubei Bioinformatics & Molecular Imaging Key Laboratory, Systems Biology Theme, Department of Biomedical Engineering, College of Life Science and Technology, Huazhong University of Science and Technology, Wuhan 430074, China.")
+
+Affiliations
+
+*    PMID: **41810551**
+*    DOI: [10.1021/acs.analchem.5c07535](https://doi.org/10.1021/acs.analchem.5c07535)
+
+Culture-Free Microfluidics for Ultra-Rapid Antimicrobial Susceptibility Testing with AI in Resource-Limited Settings
+--------------------------------------------------------------------------------------------------------------------
+
+Chao Wan et al. Anal Chem.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+Abstract
+--------
+
+The misuse of antibiotics has accelerated the rise of antimicrobial resistance (AMR), particularly in resource-limited regions, posing a critical threat to global public health. Current antibiotic susceptibility test (AST) technologies are trapped in a paradox: regions most in need of rapid diagnostics face the greatest implementation barriers due to culture-based delays and infrastructure dependence. No existing platform simultaneously overcomes these spatiotemporal constraints while maintaining phenotypic reliability. Combining the self-healing property of skins with discrete state control of D flip-flop, we present a low-cost ($0.62) centrifugal microfluidic chip with self-healing valves (μCFC-shv) that integrates bacterial enrichment (1000-fold without time-consuming incubation), antibiotic gradient generation, and AST. The shvs autonomously actuate/reseal with centrifugal speed changes, enabling robust, long-term, and repeatable use. The μCFC-shv detects pathogens within 5 min postenrichment, achieving 100% sensitivity and specificity, with a 10 °CFU/mL detection limit. Critically, it performs culture-free AST in 30 min of antibiotic exposure, demonstrating an accuracy of 97.39% across 306 clinical cases, comparable or superior to current single-bacterium detection methods. To overcome ambient light interference and subjective interpretation, we integrate a machine learning model that automates result analysis with 98.83% accuracy. This combination of accessibility and culture-free strategy makes μCFC-shv a transformative tool for AST, especially in resource-limited areas, advancing global efforts to combat bacterial infections and AMR.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Similar articles
+----------------
+
+*   [Identification and Antimicrobial Susceptibility Testing of _Campylobacter_ Using a Microfluidic Lab-on-a-Chip Device.](https://pubmed.ncbi.nlm.nih.gov/32111591/)
+
+Ma L, Petersen M, Lu X.Ma L, et al.Appl Environ Microbiol. 2020 Apr 17;86(9):e00096-20. doi: 10.1128/AEM.00096-20. Print 2020 Apr 17.Appl Environ Microbiol. 2020.PMID: 32111591 Free PMC article. 
+*   [Controlled-diffusion centrifugal microfluidic for rapid antibiotic susceptibility testing.](https://pubmed.ncbi.nlm.nih.gov/38182334/)
+
+Pang Z, Li S, Wang S, Cai Z, Zhang S, Wan C, Wang J, Li Y, Chen P, Liu BF.Pang Z, et al.Anal Chim Acta. 2024 Jan 25;1287:342033. doi: 10.1016/j.aca.2023.342033. Epub 2023 Nov 30.Anal Chim Acta. 2024.PMID: 38182334 
+*   ["Barcode" cell sensor microfluidic system: Rapid and sample-to-answer antimicrobial susceptibility testing applicable in resource-limited conditions.](https://pubmed.ncbi.nlm.nih.gov/34330036/)
+
+Chan CW, Sun H, Wang Y, Zhao Z, O'Neill R, Siu SY, Chu X, Banaei N, Ren K.Chan CW, et al.Biosens Bioelectron. 2021 Nov 15;192:113516. doi: 10.1016/j.bios.2021.113516. Epub 2021 Jul 21.Biosens Bioelectron. 2021.PMID: 34330036 
+*   [Label-free phenotypic antimicrobial susceptibility testing on microfluidic platforms: a review of advances and translation.](https://pubmed.ncbi.nlm.nih.gov/41233678/)
+
+Abubakar MU, Abdullahi SH, Xiong M, He B.Abubakar MU, et al.Mikrochim Acta. 2025 Nov 13;192(12):808. doi: 10.1007/s00604-025-07662-4.Mikrochim Acta. 2025.PMID: 41233678 Review. 
+*   [Advancements in AI-driven drug sensitivity testing research.](https://pubmed.ncbi.nlm.nih.gov/40384974/)
+
+Liao H, Xie L, Zhang N, Lu J, Zhang J.Liao H, et al.Front Cell Infect Microbiol. 2025 May 2;15:1560569. doi: 10.3389/fcimb.2025.1560569. eCollection 2025.Front Cell Infect Microbiol. 2025.PMID: 40384974 Free PMC article.Review.

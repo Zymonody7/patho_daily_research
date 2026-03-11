@@ -1,0 +1,132 @@
+Title: Computational modelling of the equine arteritis virus GP5/M Dimer: Implications for immune evasion and virulence - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41805756/
+
+Markdown Content:
+Computational modelling of the equine arteritis virus GP5/M Dimer: Implications for immune evasion and virulence
+----------------------------------------------------------------------------------------------------------------
+
+Michael Veit et al. PLoS One.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+Abstract
+--------
+
+Equine arteritis virus (EAV) is a positive-stranded RNA virus of the Arteriviridae family. Its GP5/M dimer, the principal component of the viral envelope, mediates virus budding and serves as a key target for neutralizing antibodies. Using AlphaFold3, we predicted the 3D structure of the EAV GP5/M dimer and compared it to its homolog in porcine reproductive and respiratory syndrome virus (PRRSV). Both complexes share a conserved architecture comprising a short ectodomain, three helical transmembrane regions, and a β-sheet-rich endodomain. EAV GP5 features a longer ectodomain with four α-helices and a disulfide-linked β-sheet, which forms the most variable and surface-exposed region containing neutralizing epitopes. Adjacent conserved and variable N-glycosylation sites suggest immune evasion mechanisms involving antigenic drift and glycan shielding. Another epitope, located in a membrane-proximal helix, overlaps with known virulence and persistence determinants. The transmembrane domains are the most structurally conserved regions between EAV and PRRSV, characterized by tilted and kinked helices stabilized by hydrophilic interactions within the lipid bilayer. These findings provide molecular insights into the structural organization, immune targets, and virulence-associated features of the GP5/M dimer, offering a foundation for rational vaccine design against EAV.
+
+Copyright: © 2026 Veit, Matczuk. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+The authors have declared that no competing interests exist.
+
+Figures
+-------
+
+[![Image 1: Fig 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8903/12974795/ca2de7afe549/pone.0344287.g001.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8903/12974795/684f02db4276/pone.0344287.g001.jpg)
+
+**Fig 1. Structural analysis of the Gp5/M dimer of EAV reference strain Bucyrus.**
+**(A**) Per-residue confidence (pLDDT) for the AlphaFold3-predicted Gp5/M dimer of EAV, visualized in a rainbow color gradient from red (high confidence, pLDDT > 90) to blue (low confidence, pLDDT < 50), as indicated by the accompanying color bar. **(B)** Cartoon representation of the EAV Gp5/M dimer, with Gp5 in green and M in blue. **(C)** Per-residue pLDDT scores for the predicted Gp5/M dimer of PRRSV-2 strain VR-2332, displayed in the same rainbow color scheme. **(D)** Cartoon representation of the PRRSV-2 Gp5/M dimer, with Gp5 in green and M in cyan. **(E)** Simplified schematic of the EAV Gp5/M structure, depicting helical regions as cylinders and β-strands as arrows, with Gp5 in green and M in light blue. **(F)** Electrostatic surface potential of the EAV Gp5/M dimer, with acidic regions in red and basic regions in blue. **(G)** Hydrophobic surface representation of the EAV Gp5/M dimer, with hydrophilic residues in light blue and hydrophobic residues in yellow-brown. **(H)** The EAV Gp5/M dimer embedded in a virtual Golgi membrane bilayer, illustrating the positioning of transmembrane helices.
+
+[![Image 2: Fig 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8903/12974795/cc57fcc39e5c/pone.0344287.g002.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8903/12974795/963df2cb68f0/pone.0344287.g002.jpg)
+
+**Fig 2. Structural features of the Gp5/M ectodomain of EAV.**
+**(A)** Cartoon representation of the Gp5/M ectodomain of EAV, colored by per-residue pLDDT confidence scores in a rainbow gradient from red (high confidence, pLDDT > 90) to blue (low confidence, pLDDT < 50). Predicted α-helices (H) and β-strands (β) are numbered sequentially from N- to C-terminus; TM denotes the transmembrane region. **(B)** Cartoon model of the ectodomain, with Gp5 in green and M in cyan. Glycosylation sites (N38, N63) are depicted as blue sticks. Cysteine residues involved in predicted disulfide bonds (C39–C48, C45–C62) or experimentally confirmed bonds (C16 in Gp5–C8 in M) are shown as yellow sticks. Additional interactions include a hydrogen bond (Y30 in Gp5–D10 in M) and two salt bridges (R29–D10, R29–D19). **(C)** Cartoon model of the ectodomain of the PRRSV-2 prototype virus VR 2332, with Gp5 in green and M in cyan. Cysteine residues involved in the experimentally confirmed disulfide bond (C17 in Gp5–C9 in M) are shown as yellow sticks.
+
+[![Image 3: Fig 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8903/12974795/2853261ecc02/pone.0344287.g003.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8903/12974795/1385a9afa37e/pone.0344287.g003.jpg)
+
+**Fig 3. Antibody epitopes of the Gp5/M ectodomain of EAV.**
+**(A-C)** Cartoon representation (A) and semi-transparent surface representation of the ectodomain **(B,C)**, highlighting antibody epitopes as sticks (A) or as spheres **(B,C)**: site A and site B in red, site C in wheat, and site D in orange. Glycosylation sites (N38, N63) are shown as cyan spheres. Panel C is rotated 180° relative to panel **B. (D-F)** Cartoon representation (D) and semi-transparent surface representation of the ectodomain **(E, F)**, highlighting other antibody epitopes as sticks (D) or as spheres **(E,F)**: site A and site B in red, site C in wheat, and site D in orange. Glycosylation sites (N38, N63) are shown as cyan spheres. Panel C is rotated 180° relative to panel **B.** Note: Amino acid numbering reflects the mature protein, excluding the 18-amino-acid signal peptide; add 18 to calculate positions in the full Gp5 sequence.
+
+[![Image 4: Fig 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8903/12974795/ff10291ed095/pone.0344287.g004.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8903/12974795/5bd0d33881f7/pone.0344287.g004.jpg)
+
+**Fig 4. Conservation of amino acids in the ectodomain of Gp5/M.**
+**(A, B)** Three-dimensional structure of the Gp5 and M ectodomains shown as a cartoon representation (A) and a semitransparent surface projection **(B)**. Residues are color-coded based on evolutionary conservation scores calculated using ConSurf. Variable residues are depicted as sticks (A) or spheres (B) and labeled. The color scale ranges from variable (turquoise) to highly conserved (maroon); residues lacking sufficient data are shown in yellow. Conservation scores are also mapped onto the amino acid sequence of the Gp5 ectodomain. **(C)** Web logo showing the amino acids at each position in the ectodomain of Gp5. Logos were generated from 210 aligned amino acids sequences. The overall height of the stack indicates the sequence conservation at a position (X-axis), while the height of symbols within the stack indicates the relative frequency of each amino. Asn residues are labelled green, Cys in red. The epitopes are marked with a line, site A in orange, site B in blue, site C in black and site D in green, with each line labelled accordingly. The amino acids involved in pathogenicity and persistence are labelled with +. The location of an N-glycosylation site found in isolates of an extensive EVA outbreak in North America with *.
+
+[![Image 5: Fig 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8903/12974795/fecf1591cbdf/pone.0344287.g005.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8903/12974795/7d8f8189770f/pone.0344287.g005.jpg)
+
+**Fig 5. Amino acid residues in the Gp5/M ectodomain of EAV associated with virulence and persistence.**
+**(A–B)** Structure of the Gp5/M ectodomain shown as a cartoon model (A) and a semi-transparent surface projection **(B)**. Residues implicated in pathogenicity and persistence are highlighted as sticks (A) or spheres **(B)**. Blue indicates amino acid substitutions distinguishing the virulent Bucyrus strain from attenuated variants derived through cell culture passage. Red marks substitutions associated with a variant capable of establishing persistent infection in cell culture. **(C–E)** Predicted structures of the region encompassing helices 3 and 4, generated using AlphaFold3. (C) Wild-type sequence. (D) Sequence containing S82G and D86G substitutions found in attenuated, cell-adapted virus. (E) Sequence with the P82L substitution identified in a persistent virus variant. Cartoon models are color-coded by predicted local distance difference test (pLDDT) scores, displayed in rainbow gradient to indicate confidence per residue position.
+
+[![Image 6: Fig 6](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8903/12974795/eab2ccca74c0/pone.0344287.g006.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8903/12974795/e28e1fe6b084/pone.0344287.g006.jpg)
+
+**Fig 6. Structural features of the transmembrane region of Gp5/M from EAV.**
+**(A)** Side view of the Gp5/M transmembrane region embedded in a virtual lipid bilayer. Key residues are shown as stick models and labeled. Pro25 in M and Pro110 in Gp5 introduce kinks in transmembrane helix 1 (TM1) of their respective proteins. Glu128 in TM2 of Gp5 forms ionic interactions with Arg32 in TM1 of **M.** Tyr54 and Arg82 in TM3 of M participate in hydrogen bonding with Asp104 and Ser118 in TM1 of Gp5, respectively. Cys170 and Cys177 are proposed sites of acylation. **(B, C)** Structural alignment of the transmembrane domains of Gp5/M from EAV and PRRSV-2. Residues involved in hydrophilic interactions within the lipid bilayer are shown as spheres and labeled. Proline residues in TM1 are highlighted as magenta sticks. RMSD values (in Å) indicate the degree of structural similarity between aligned domains.
+
+Similar articles
+----------------
+
+*   [Characterization of the neutralization determinants of equine arteritis virus using recombinant chimeric viruses and site-specific mutagenesis of an infectious cDNA clone.](https://pubmed.ncbi.nlm.nih.gov/15051384/)
+
+Balasuriya UB, Dobbe JC, Heidner HW, Smalley VL, Navarrette A, Snijder EJ, MacLachlan NJ.Balasuriya UB, et al.Virology. 2004 Apr 10;321(2):235-46. doi: 10.1016/j.virol.2003.12.015.Virology. 2004.PMID: 15051384 
+*   [Current knowledge on the structural proteins of porcine reproductive and respiratory syndrome (PRRS) virus: comparison of the North American and European isolates.](https://pubmed.ncbi.nlm.nih.gov/10893147/)
+
+Dea S, Gagnon CA, Mardassi H, Pirzadeh B, Rogan D.Dea S, et al.Arch Virol. 2000;145(4):659-88. doi: 10.1007/s007050050662.Arch Virol. 2000.PMID: 10893147 Free PMC article.Review. 
+
+*   [Using Alphafold2 to Predict the Structure of the Gp5/M Dimer of Porcine Respiratory and Reproductive Syndrome Virus.](https://pubmed.ncbi.nlm.nih.gov/36361998/)
+
+Veit M, Gadalla MR, Zhang M.Veit M, et al.Int J Mol Sci. 2022 Oct 30;23(21):13209. doi: 10.3390/ijms232113209.Int J Mol Sci. 2022.PMID: 36361998 Free PMC article. 
+*   [GP5 of porcine reproductive and respiratory syndrome virus (PRRSV) as a target for homologous and broadly neutralizing antibodies.](https://pubmed.ncbi.nlm.nih.gov/28528961/)
+
+Popescu LN, Trible BR, Chen N, Rowland RRR.Popescu LN, et al.Vet Microbiol. 2017 Sep;209:90-96. doi: 10.1016/j.vetmic.2017.04.016. Epub 2017 Apr 29.Vet Microbiol. 2017.PMID: 28528961 Review. 
+
+References
+----------
+
+1.       1.    Balasuriya UBR. Equine viral arteritis. Vet Clin North Am Equine Pract. 2014;30(3):543–60. doi: 10.1016/j.cveq.2014.08.011 - [DOI](https://doi.org/10.1016/j.cveq.2014.08.011) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/25441113/)
+
+2.       1.    Bailey AL, Lauck M, Sibley SD, Friedrich TC, Kuhn JH, Freimer NB, et al. Zoonotic Potential of Simian Arteriviruses. J Virol. 2016;90(2):630–5. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC4702702/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/26559828/)
+
+3.       1.    Bailey AL, Lauck M, Weiler A, Sibley SD, Dinis JM, Bergman Z, et al. High genetic diversity and adaptive potential of two simian hemorrhagic fever viruses in a wild primate population. PLoS One. 2014;9(3):e90714. doi: 10.1371/journal.pone.0090714 - [DOI](https://doi.org/10.1371/journal.pone.0090714) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3961216/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/24651479/)
+
+4.       1.    Brinton MA, Di H, Vatter HA. Simian hemorrhagic fever virus: Recent advances. Virus Res. 2015;202:112–9. doi: 10.1016/j.virusres.2014.11.024 - [DOI](https://doi.org/10.1016/j.virusres.2014.11.024) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC4449332/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/25455336/)
+
+5.       1.    Lauck M, Hyeroba D, Tumukunde A, Weny G, Lank SM, Chapman CA, et al. Novel, divergent simian hemorrhagic fever viruses in a wild Ugandan red colobus monkey discovered using direct pyrosequencing. PLoS One. 2011;6(4):e19056. doi: 10.1371/journal.pone.0019056 - [DOI](https://doi.org/10.1371/journal.pone.0019056) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3081318/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/21544192/)
+
+MeSH terms
+----------
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+Substances
+----------
+
+*   Actions 
+*   Actions 
+
+LinkOut - more resources
+------------------------
+
+*   ### Full Text Sources
+
+    *   [Public Library of Science](https://dx.plos.org/10.1371/journal.pone.0344287)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/non-CPTAC-3306)

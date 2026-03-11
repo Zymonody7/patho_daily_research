@@ -1,0 +1,58 @@
+Title: Fingerprinting Fluorescent In Situ Hybridization Enables Multiplexed Identification of Pathogenic Bacteria - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41810482/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 11.
+
+doi: 10.1021/acsnano.5c18844.  Online ahead of print.
+
+[Liang Wu](https://pubmed.ncbi.nlm.nih.gov/?term=Wu+L&cauthor_id=41810482)[1](https://pubmed.ncbi.nlm.nih.gov/41810482/#full-view-affiliation-1 "Department of Clinical Laboratory Medicine, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai 200072, P. R. China."),[Chenbin Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+C&cauthor_id=41810482)[1](https://pubmed.ncbi.nlm.nih.gov/41810482/#full-view-affiliation-1 "Department of Clinical Laboratory Medicine, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai 200072, P. R. China."),[Wen Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+W&cauthor_id=41810482)[1](https://pubmed.ncbi.nlm.nih.gov/41810482/#full-view-affiliation-1 "Department of Clinical Laboratory Medicine, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai 200072, P. R. China."),[Yazhou Wu](https://pubmed.ncbi.nlm.nih.gov/?term=Wu+Y&cauthor_id=41810482)[2](https://pubmed.ncbi.nlm.nih.gov/41810482/#full-view-affiliation-2 "Department of Clinical Laboratory Medicine, Shanghai Children's Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai 200062, P. R. China."),[Shuchang Xu](https://pubmed.ncbi.nlm.nih.gov/?term=Xu+S&cauthor_id=41810482)[1](https://pubmed.ncbi.nlm.nih.gov/41810482/#full-view-affiliation-1 "Department of Clinical Laboratory Medicine, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai 200072, P. R. China."),[Jie Deng](https://pubmed.ncbi.nlm.nih.gov/?term=Deng+J&cauthor_id=41810482)[1](https://pubmed.ncbi.nlm.nih.gov/41810482/#full-view-affiliation-1 "Department of Clinical Laboratory Medicine, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai 200072, P. R. China."),[Danyu Tian](https://pubmed.ncbi.nlm.nih.gov/?term=Tian+D&cauthor_id=41810482)[1](https://pubmed.ncbi.nlm.nih.gov/41810482/#full-view-affiliation-1 "Department of Clinical Laboratory Medicine, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai 200072, P. R. China."),[Jian Wan](https://pubmed.ncbi.nlm.nih.gov/?term=Wan+J&cauthor_id=41810482)[3](https://pubmed.ncbi.nlm.nih.gov/41810482/#full-view-affiliation-3 "Shanghai Key Laboratory of Pathogenic Fungi Medical Testing, Shanghai Pudong New Area People's Hospital, Shanghai 200120, P. R. China."),[Song Hu](https://pubmed.ncbi.nlm.nih.gov/?term=Hu+S&cauthor_id=41810482)[3](https://pubmed.ncbi.nlm.nih.gov/41810482/#full-view-affiliation-3 "Shanghai Key Laboratory of Pathogenic Fungi Medical Testing, Shanghai Pudong New Area People's Hospital, Shanghai 200120, P. R. China."),[Dongsheng Mao](https://pubmed.ncbi.nlm.nih.gov/?term=Mao+D&cauthor_id=41810482)[1](https://pubmed.ncbi.nlm.nih.gov/41810482/#full-view-affiliation-1 "Department of Clinical Laboratory Medicine, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai 200072, P. R. China."),[Xiaoli Zhu](https://pubmed.ncbi.nlm.nih.gov/?term=Zhu+X&cauthor_id=41810482)[1](https://pubmed.ncbi.nlm.nih.gov/41810482/#full-view-affiliation-1 "Department of Clinical Laboratory Medicine, Shanghai Tenth People's Hospital, School of Medicine, Tongji University, Shanghai 200072, P. R. China.")
+
+Affiliations
+
+*    PMID: **41810482**
+*    DOI: [10.1021/acsnano.5c18844](https://doi.org/10.1021/acsnano.5c18844)
+
+Fingerprinting Fluorescent _In Situ_ Hybridization Enables Multiplexed Identification of Pathogenic Bacteria
+------------------------------------------------------------------------------------------------------------
+
+Wenxing Li et al. ACS Nano.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+Abstract
+--------
+
+Fluorescence _in situ_ hybridization (FISH) is a highly specific technique for pathogenic bacteria detection that requires no culturing and provides simultaneous information on pathogenic bacteria abundance, morphology, and spatial localization. However, the limited sensitivity and poor multiplexing capacity of conventional FISH have hindered its broader application. Herein, we proposed a fingerprinting FISH (FinFISH) strategy driven by DNA self-assembly for multiplexed pathogenic bacteria detection. Using respiratory pathogens as representative models, FinFISH employs three distinct fluorophores in combinatorial labeling to generate identifiable fluorescent fingerprints for each species. In this work, FAM, Cy3, and Cy5 were selected as the fluorescent reporters because they represent well-established fluorophore combinations for multicolor imaging and combinatorial encoding, with minimal spectral overlap under standard fluorescence microscopy conditions. This strategy enables pathogen detection far beyond the limitations imposed by fluorescence channel numbers, effectively overcoming the throughput bottleneck of conventional imaging systems while offering high scalability for further expansion. Additionally, a custom-designed enclosed chip featuring multichannel reaction chambers improves parallel sample processing and simplifies experimental operation. Experimental results demonstrated that FinFISH not only performed well in identifying pathogenic bacteria within simulated sputum and urine samples but also proved applicable to clinical samples. Moreover, FinFISH provides additional semiquantitative insights into mixed infections. With future integration of expanded probe design and artificial intelligence (AI)-assisted analysis, FinFISH has the potential to advance clinical pathogenic bacteria diagnostics, microbial colocalization studies, and spatial analysis of intratumoral bacteria.
+
+**Keywords:** DNA self-assembly; Fingerprinting identification; Fluorescence encoding; Fluorescence in situ hybridization; Pathogenic bacteria.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Similar articles
+----------------
+
+*   [Voltage-Programmed Sequential Fluorescence Encoding (VPSFE) Enables Multiplexed In Situ Proteo-Imaging with Electric-Field Turing Patterns.](https://pubmed.ncbi.nlm.nih.gov/40844238/)
+
+Wang C, Zheng J, Xiong Z, Yin W, Zhao Y, Wu H, Liang S, Zhang L, Yao C, Deng Z, Liu Y, Song Q, Zhou G, Zou B.Wang C, et al.Angew Chem Int Ed Engl. 2025 Oct 13;64(42):e202511629. doi: 10.1002/anie.202511629. Epub 2025 Aug 22.Angew Chem Int Ed Engl. 2025.PMID: 40844238 
+*   [A straightforward DOPE (double labeling of oligonucleotide probes)-FISH (fluorescence in situ hybridization) method for simultaneous multicolor detection of six microbial populations.](https://pubmed.ncbi.nlm.nih.gov/22582069/)
+
+Behnam F, Vilcinskas A, Wagner M, Stoecker K.Behnam F, et al.Appl Environ Microbiol. 2012 Aug;78(15):5138-42. doi: 10.1128/AEM.00977-12. Epub 2012 May 11.Appl Environ Microbiol. 2012.PMID: 22582069 Free PMC article. 
+*   [Multiplexed Biosensing and Bioimaging Using Lanthanide-Based Time-Gated Förster Resonance Energy Transfer.](https://pubmed.ncbi.nlm.nih.gov/35084817/)
+
+Qiu X, Xu J, Cardoso Dos Santos M, Hildebrandt N.Qiu X, et al.Acc Chem Res. 2022 Feb 15;55(4):551-564. doi: 10.1021/acs.accounts.1c00691. Epub 2022 Jan 27.Acc Chem Res. 2022.PMID: 35084817 
+*   [Fluorescence in situ hybridization (FISH) in the microbiological diagnostic routine laboratory: a review.](https://pubmed.ncbi.nlm.nih.gov/28129707/)
+
+Frickmann H, Zautner AE, Moter A, Kikhney J, Hagen RM, Stender H, Poppert S.Frickmann H, et al.Crit Rev Microbiol. 2017 May;43(3):263-293. doi: 10.3109/1040841X.2016.1169990. Epub 2017 Jan 27.Crit Rev Microbiol. 2017.PMID: 28129707 Review. 
+*   [Lactic Acid Bacteria in Finfish-An Update.](https://pubmed.ncbi.nlm.nih.gov/30147679/)
+
+Ringø E, Hoseinifar SH, Ghosh K, Doan HV, Beck BR, Song SK.Ringø E, et al.Front Microbiol. 2018 Aug 10;9:1818. doi: 10.3389/fmicb.2018.01818. eCollection 2018.Front Microbiol. 2018.PMID: 30147679 Free PMC article.Review.

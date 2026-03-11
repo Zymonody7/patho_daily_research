@@ -1,0 +1,117 @@
+Title: Development and validation of a high-confidence diagnostic model integrating ctDNA methylation and serum biomarkers for early-stage hepatocellular carcinoma detection - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41807813/
+
+Markdown Content:
+Multicenter Study
+
+Actions
+
+. 2026 Mar 11;7(1):26.
+
+doi: 10.1186/s43556-026-00426-3.
+
+[Mingda Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+M&cauthor_id=41807813)[#](https://pubmed.ncbi.nlm.nih.gov/41807813/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41807813/#full-view-affiliation-1 "Department of Hepatobiliary Surgery, Eastern Hepatobiliary Surgery Hospital, Naval Medical University, Shanghai, China."),[Zhiyi Wan](https://pubmed.ncbi.nlm.nih.gov/?term=Wan+Z&cauthor_id=41807813)[#](https://pubmed.ncbi.nlm.nih.gov/41807813/#full-view-equal-contrib-explanation "Contributed equally")[2](https://pubmed.ncbi.nlm.nih.gov/41807813/#full-view-affiliation-2 "Singlera Genomics (Shanghai) Inc., Shanghai, China."),[Lanqing Yao](https://pubmed.ncbi.nlm.nih.gov/?term=Yao+L&cauthor_id=41807813)[#](https://pubmed.ncbi.nlm.nih.gov/41807813/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41807813/#full-view-affiliation-1 "Department of Hepatobiliary Surgery, Eastern Hepatobiliary Surgery Hospital, Naval Medical University, Shanghai, China."),[Shuang Zhou](https://pubmed.ncbi.nlm.nih.gov/?term=Zhou+S&cauthor_id=41807813)[2](https://pubmed.ncbi.nlm.nih.gov/41807813/#full-view-affiliation-2 "Singlera Genomics (Shanghai) Inc., Shanghai, China."),[Hui Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+H&cauthor_id=41807813)[2](https://pubmed.ncbi.nlm.nih.gov/41807813/#full-view-affiliation-2 "Singlera Genomics (Shanghai) Inc., Shanghai, China."),[Guoyue Lv](https://pubmed.ncbi.nlm.nih.gov/?term=Lv+G&cauthor_id=41807813)[3](https://pubmed.ncbi.nlm.nih.gov/41807813/#full-view-affiliation-3 "Department of Hepatobiliary and Pancreatic Surgery, General Surgery Center, First Hospital of Jilin University, Changchun, Jilin, China."),[Nanya Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+N&cauthor_id=41807813)[4](https://pubmed.ncbi.nlm.nih.gov/41807813/#full-view-affiliation-4 "Phase I Clinical Trials Unit, First Hospital of Jilin University, Changchun, Jilin, China."),[Fengmei Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+F&cauthor_id=41807813)[5](https://pubmed.ncbi.nlm.nih.gov/41807813/#full-view-affiliation-5 "Department of Gastroenterology and Hepatology, Tianjin Third Central Hospital, Tianjin, China."),[Jiahao Xu](https://pubmed.ncbi.nlm.nih.gov/?term=Xu+J&cauthor_id=41807813)[1](https://pubmed.ncbi.nlm.nih.gov/41807813/#full-view-affiliation-1 "Department of Hepatobiliary Surgery, Eastern Hepatobiliary Surgery Hospital, Naval Medical University, Shanghai, China."),[Xinfei Xu](https://pubmed.ncbi.nlm.nih.gov/?term=Xu+X&cauthor_id=41807813)[1](https://pubmed.ncbi.nlm.nih.gov/41807813/#full-view-affiliation-1 "Department of Hepatobiliary Surgery, Eastern Hepatobiliary Surgery Hospital, Naval Medical University, Shanghai, China."),[Chao Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+C&cauthor_id=41807813)[1](https://pubmed.ncbi.nlm.nih.gov/41807813/#full-view-affiliation-1 "Department of Hepatobiliary Surgery, Eastern Hepatobiliary Surgery Hospital, Naval Medical University, Shanghai, China."),[Yongkang Diao](https://pubmed.ncbi.nlm.nih.gov/?term=Diao+Y&cauthor_id=41807813)[1](https://pubmed.ncbi.nlm.nih.gov/41807813/#full-view-affiliation-1 "Department of Hepatobiliary Surgery, Eastern Hepatobiliary Surgery Hospital, Naval Medical University, Shanghai, China."),[Timohty M Pawlik](https://pubmed.ncbi.nlm.nih.gov/?term=Pawlik+TM&cauthor_id=41807813)[6](https://pubmed.ncbi.nlm.nih.gov/41807813/#full-view-affiliation-6 "Department of Surgery, Ohio State University, Wexner Medical Center, Columbus, OH, USA."),[Rui Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+R&cauthor_id=41807813)[7](https://pubmed.ncbi.nlm.nih.gov/41807813/#full-view-affiliation-7 "Singlera Genomics (Shanghai) Inc., Shanghai, China. rliu@singleragenomics.com."),[Feng Shen](https://pubmed.ncbi.nlm.nih.gov/?term=Shen+F&cauthor_id=41807813)[8](https://pubmed.ncbi.nlm.nih.gov/41807813/#full-view-affiliation-8 "Department of Hepatobiliary Surgery, Eastern Hepatobiliary Surgery Hospital, Naval Medical University, Shanghai, China. fengshensmmu@gmail.com."),[Tian Yang](https://pubmed.ncbi.nlm.nih.gov/?term=Yang+T&cauthor_id=41807813)[9](https://pubmed.ncbi.nlm.nih.gov/41807813/#full-view-affiliation-9 "Department of Hepatobiliary Surgery, Eastern Hepatobiliary Surgery Hospital, Naval Medical University, Shanghai, China. yangtianehbh@smmu.edu.cn.")
+
+Affiliations
+
+*    PMID: **41807813**
+*    DOI: [10.1186/s43556-026-00426-3](https://doi.org/10.1186/s43556-026-00426-3)
+
+Multicenter Study
+
+Development and validation of a high-confidence diagnostic model integrating ctDNA methylation and serum biomarkers for early-stage hepatocellular carcinoma detection
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Han Wu et al. Mol Biomed.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+Abstract
+--------
+
+Hepatocellular carcinoma (HCC) remains a leading cause of cancer-related mortality, with significantly improved prognosis when detected early in high-risk populations. Current serum biomarkers show limited sensitivity for early-stage disease. We developed and validated GAMAD, a multimodal diagnostic model integrating circulating tumor DNA (ctDNA) methylation with established serum markers to enhance early HCC detection in China. In this multicenter prospective trial, a total of 1,692 patients were enrolled: 476 with HCC, 645 with hepatitis, 443 with cirrhosis, and 128 with no detectable liver abnormalities. Blood tests including AFP, AFP-L3, DCP, and ctDNA methylation (HepaAiQ) were performed. Using training, validation, and independent test cohorts, we developed the GAMAD model by integrating HepaAiQ with gender, age, AFP, and DCP. HepaAiQ demonstrated a superior performance compared with AFP, DCP, and AFP-L3 with a sensitivity of 74.6%, specificity of 88.1%, and an area under the curve (AUC) of 0.862 (95% CI, 0.842-0.883) in all samples. The GAMAD model, optimized specifically for early-stage HCC, achieved sensitivity of 80.5%, specificity of 90.4%, and AUC of 0.934 (95% CI, 0.911-0.957) in the validation cohort. In the independent test cohort, GAMAD showed superior performance with sensitivity of 86.5% for stage 0/A and 91.7% for stage B-C HCC (AUC 0.952, 95% CI, 0.931-0.973), substantially outperforming the GALAD model across all cohorts. The GAMAD model represents a significant clinical advancement for early HCC detection. Its intended clinical use is to serve as an adjunct to standard imaging for high-risk populations, substantially increasing early diagnosis rates.
+
+**Keywords:** At-risk population; CtDNA methylation; Early detection; GAMAD; Hepatocellular carcinoma.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+Declarations. Ethics approval and consent to participate: The trial received approval from the ethical committees of the hospitals, including the Eastern Hepatobiliary Surgery Hospital, Naval Medical University (EHBHKY2023-H0003-P001), the First Hospital of Jilin University (22K073-001), and Tianjin Third Central Hospital (IRB2023-007–01). Written informed consent was obtained from all participants prior to enrollment. The registration number for this trial on ClinicalTrials.gov is NCT05626985. Consent for publication: Not applicable. Competing interests: Tian Yang is a scientific advisor to Singlera Genomics (Shanghai) Inc. Rui Liu reports stock ownership in Singlera Genomics (Shanghai) Inc and is an employee of Singlera Genomics. Zhiyi Wan, Shuang Zhou, and Hui Wang are employees of Singlera Genomics (Shanghai) Inc.. The other authors have no conflicts of interest to declare.
+
+References
+----------
+
+1.       1.    Tu J, Wang B, Wang X, Huo K, Hu W, Zhang R, et al. Current status and new directions for hepatocellular carcinoma diagnosis. Liver Res. 2024;8(4):218–36. [https://doi.org/10.1016/j.livres.2024.12.001](https://doi.org/10.1016/j.livres.2024.12.001) . - [DOI](https://doi.org/10.1016/j.livres.2024.12.001) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/39958920/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/11771281/)
+
+2.       1.    Zeng H, Zheng R, Sun K, Zhou M, Wang S, Li L, et al. Cancer survival statistics in China 2019-2021: a multicenter, population-based study. J Natl Cancer Center. 2024;4(3):203–13. [https://doi.org/10.1016/j.jncc.2024.06.005](https://doi.org/10.1016/j.jncc.2024.06.005) . - [DOI](https://doi.org/10.1016/j.jncc.2024.06.005)
+
+3.       1.    Zhang B-H, Yang B-H, Tang Z-Y. Randomized controlled trial of screening for hepatocellular carcinoma. J Cancer Res Clin. 2004;130(7). [https://doi.org/10.1007/s00432-004-0552-0](https://doi.org/10.1007/s00432-004-0552-0) . 
+
+4.       1.    Park JW, Chen M, Colombo M, Roberts LR, Schwartz M, Chen PJ, et al. Global patterns of hepatocellular carcinoma management from diagnosis to death: the BRIDGE study. Liver Int. 2015;35(9):2155–66. [https://doi.org/10.1111/liv.12818](https://doi.org/10.1111/liv.12818) . - [DOI](https://doi.org/10.1111/liv.12818) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/25752327/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/4691343/)
+
+5.       1.    Adeniji N, Dhanasekaran R. Current and emerging tools for hepatocellular carcinoma surveillance. Hepatol Commun. 2021;5(12):1972–86. [https://doi.org/10.1002/hep4.1823](https://doi.org/10.1002/hep4.1823) . - [DOI](https://doi.org/10.1002/hep4.1823) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/34533885/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/8631096/)
+
+Publication types
+-----------------
+
+*   Actions 
+*   Actions 
+
+MeSH terms
+----------
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+Substances
+----------
+
+*   Actions 
+*   Actions 
+
+Grants and funding
+------------------
+
+*   [No. 82425049/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=No.+82425049%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant No. 82425049/National Natural Science Foundation of China")
+*   [No. 82273074/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=No.+82273074%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant No. 82273074/National Natural Science Foundation of China")
+*   [No.82372813/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=No.82372813%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant No.82372813/National Natural Science Foundation of China")
+*   [No. 2024ZD0520500/National Science and Technology Major Project of the Ministry of Science and Technology of China](https://pubmed.ncbi.nlm.nih.gov/?term=No.+2024ZD0520500%2FNational+Science+and+Technology+Major+Project+of+the+Ministry+of+Science+and+Technology+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant No. 2024ZD0520500/National Science and Technology Major Project of the Ministry of Science and Technology of China")
+*   [No. 2024ZD0520506/National Science and Technology Major Project of the Ministry of Science and Technology of China](https://pubmed.ncbi.nlm.nih.gov/?term=No.+2024ZD0520506%2FNational+Science+and+Technology+Major+Project+of+the+Ministry+of+Science+and+Technology+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant No. 2024ZD0520506/National Science and Technology Major Project of the Ministry of Science and Technology of China")
+
+*   [No. 21SG36/Dawn Project Foundation of Shanghai](https://pubmed.ncbi.nlm.nih.gov/?term=No.+21SG36%2FDawn+Project+Foundation+of+Shanghai%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant No. 21SG36/Dawn Project Foundation of Shanghai")
+*   [No. 2022XD001/Shanghai Health and Hygiene Discipline Leader Project](https://pubmed.ncbi.nlm.nih.gov/?term=No.+2022XD001%2FShanghai+Health+and+Hygiene+Discipline+Leader+Project%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant No. 2022XD001/Shanghai Health and Hygiene Discipline Leader Project")
+*   [No. 23XD1424900/Shanghai Outstanding Academic Leader Program](https://pubmed.ncbi.nlm.nih.gov/?term=No.+23XD1424900%2FShanghai+Outstanding+Academic+Leader+Program%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant No. 23XD1424900/Shanghai Outstanding Academic Leader Program")
+*   [No. 22ZR1477900/Natural Science Foundation of Shanghai](https://pubmed.ncbi.nlm.nih.gov/?term=No.+22ZR1477900%2FNatural+Science+Foundation+of+Shanghai%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant No. 22ZR1477900/Natural Science Foundation of Shanghai")
+*   [No. SCY2024000107/Yangzhou Key R&D Project](https://pubmed.ncbi.nlm.nih.gov/?term=No.+SCY2024000107%2FYangzhou+Key+R%26D+Project%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant No. SCY2024000107/Yangzhou Key R&D Project")
+*   [No. 20244Y0233/Shanghai Municipal Health Commission Clinical Research Program](https://pubmed.ncbi.nlm.nih.gov/?term=No.+20244Y0233%2FShanghai+Municipal+Health+Commission+Clinical+Research+Program%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant No. 20244Y0233/Shanghai Municipal Health Commission Clinical Research Program")

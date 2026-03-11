@@ -1,0 +1,580 @@
+Title: Staphylococcus aureus resistance to non-β-lactam antibiotics: global genomic epidemiology and machine learning feasibility assessment - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41806067/
+
+Markdown Content:
+Staphylococcus aureus resistance to non-β-lactam antibiotics: global genomic epidemiology and machine learning feasibility assessment - PubMed
+===============
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/41806067/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41806067%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/41806067/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/41806067/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/41806067/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/0bb0c1f5-41a2-40a7-80f8-ce97836f5693/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/41806067/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/41806067/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41806067%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41806067%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+Save citation to file
+---------------------
+
+ Format:  
+
+ Create file  Cancel 
+
+Email citation
+--------------
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+ Add  Cancel 
+
+Your saved search
+-----------------
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+Create a file for external citation management software
+-------------------------------------------------------
+
+ Create file  Cancel 
+
+Your RSS Feed
+-------------
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Full text links
+
+[![Image 6: Springer full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/http:--production.springer.de-OnlineResources-Logos-springerlink.gif) Springer](https://doi.org/10.1007/s00438-026-02384-5 "See full text options at Springer")
+
+[Full text links](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/41806067/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/41806067/#abstract)
+*   [Conflict of interest statement](https://pubmed.ncbi.nlm.nih.gov/41806067/#conflict-of-interest)
+*   [Similar articles](https://pubmed.ncbi.nlm.nih.gov/41806067/#similar)
+*   [References](https://pubmed.ncbi.nlm.nih.gov/41806067/#references)
+*   [MeSH terms](https://pubmed.ncbi.nlm.nih.gov/41806067/#mesh-terms)
+*   [Substances](https://pubmed.ncbi.nlm.nih.gov/41806067/#substances)
+*   [Related information](https://pubmed.ncbi.nlm.nih.gov/41806067/#related-links)
+*   [LinkOut - more resources](https://pubmed.ncbi.nlm.nih.gov/41806067/#linkout)
+
+ Mol Genet Genomics 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Mol+Genet+Genomics%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Mol+Genet+Genomics%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+. 2026 Mar 10;301(1):59.
+
+ doi: 10.1007/s00438-026-02384-5. 
+
+Staphylococcus aureus resistance to non-β-lactam antibiotics: global genomic epidemiology and machine learning feasibility assessment
+=====================================================================================================================================
+
+[Saeid Sadeghi Ghazi Chaki](https://pubmed.ncbi.nlm.nih.gov/?term=Chaki+SSG&cauthor_id=41806067)[1](https://pubmed.ncbi.nlm.nih.gov/41806067/#full-view-affiliation-1 "Department of Microbial Biotechnology, School of Biology and Center of Excellence in Phylogeny of Living Organisms, College of Science, University of Tehran, Tehran, Iran."),[Maryam Abdulrahman Najim](https://pubmed.ncbi.nlm.nih.gov/?term=Najim+MA&cauthor_id=41806067)[2](https://pubmed.ncbi.nlm.nih.gov/41806067/#full-view-affiliation-2 "Department of Biology, College Education for Pure Science, University of Anbar, Al-Anbar, Iraq. maryam.a.najim@uoanbar.edu.iq."),[Lina A Hassan](https://pubmed.ncbi.nlm.nih.gov/?term=Hassan+LA&cauthor_id=41806067)[3](https://pubmed.ncbi.nlm.nih.gov/41806067/#full-view-affiliation-3 "Department of Pathological Analyses, Faculty of Science, University of Kufa, Kufa, Iraq."),[Saleh A S AlAbdulhadi](https://pubmed.ncbi.nlm.nih.gov/?term=AlAbdulhadi+SAS&cauthor_id=41806067)[4](https://pubmed.ncbi.nlm.nih.gov/41806067/#full-view-affiliation-4 "Department of Medical Laboratory Science, Prince Sattam bin Abdulaziz University, Riyadh, Saudi Arabia."),[Zahraa Abbas Al-Khafaji](https://pubmed.ncbi.nlm.nih.gov/?term=Al-Khafaji+ZA&cauthor_id=41806067)[5](https://pubmed.ncbi.nlm.nih.gov/41806067/#full-view-affiliation-5 "College of Pharmacy, The Islamic University, Najaf, Iraq."),[M K Sharma](https://pubmed.ncbi.nlm.nih.gov/?term=Sharma+MK&cauthor_id=41806067)[6](https://pubmed.ncbi.nlm.nih.gov/41806067/#full-view-affiliation-6 "Department of Mathematics, Chaudhary Charan Singh University, Meerut, 250004, Uttar Pradesh, India."),[Ahmed Shihab Ahmed](https://pubmed.ncbi.nlm.nih.gov/?term=Ahmed+AS&cauthor_id=41806067)[7](https://pubmed.ncbi.nlm.nih.gov/41806067/#full-view-affiliation-7 "Department of Education, Al-Manara College for Medical Sciences, Maysan, Iraq."),[Ali Batool Ahmed](https://pubmed.ncbi.nlm.nih.gov/?term=Ahmed+AB&cauthor_id=41806067)[8](https://pubmed.ncbi.nlm.nih.gov/41806067/#full-view-affiliation-8 "Department of Medical Laboratories Technology, Al-Nisour University College, Baghdad, Iraq."),[Malik Bader Alazzam](https://pubmed.ncbi.nlm.nih.gov/?term=Alazzam+MB&cauthor_id=41806067)[9](https://pubmed.ncbi.nlm.nih.gov/41806067/#full-view-affiliation-9 "Faculty of Information Technology, Jadara University, Irbid, Jordan."),[Mohammad Sholeh](https://pubmed.ncbi.nlm.nih.gov/?term=Sholeh+M&cauthor_id=41806067)[10](https://pubmed.ncbi.nlm.nih.gov/41806067/#full-view-affiliation-10 "Department of Bacteriology, Pasteur Institute of Iran, Tehran, Iran. Mohammad.sholeh.mail@gmail.com.")
+
+ Affiliations  Expand 
+
+### Affiliations
+
+*   1 Department of Microbial Biotechnology, School of Biology and Center of Excellence in Phylogeny of Living Organisms, College of Science, University of Tehran, Tehran, Iran.
+*   2 Department of Biology, College Education for Pure Science, University of Anbar, Al-Anbar, Iraq. maryam.a.najim@uoanbar.edu.iq.
+*   3 Department of Pathological Analyses, Faculty of Science, University of Kufa, Kufa, Iraq.
+*   4 Department of Medical Laboratory Science, Prince Sattam bin Abdulaziz University, Riyadh, Saudi Arabia.
+*   5 College of Pharmacy, The Islamic University, Najaf, Iraq.
+*   6 Department of Mathematics, Chaudhary Charan Singh University, Meerut, 250004, Uttar Pradesh, India.
+*   7 Department of Education, Al-Manara College for Medical Sciences, Maysan, Iraq.
+*   8 Department of Medical Laboratories Technology, Al-Nisour University College, Baghdad, Iraq.
+*   9 Faculty of Information Technology, Jadara University, Irbid, Jordan.
+*   10 Department of Bacteriology, Pasteur Institute of Iran, Tehran, Iran. Mohammad.sholeh.mail@gmail.com.
+
+*    PMID: **41806067**
+*    DOI: [10.1007/s00438-026-02384-5](https://doi.org/10.1007/s00438-026-02384-5)
+
+ Item in Clipboard 
+
+Staphylococcus aureus resistance to non-β-lactam antibiotics: global genomic epidemiology and machine learning feasibility assessment
+=====================================================================================================================================
+
+Saeid Sadeghi Ghazi Chaki et al. Mol Genet Genomics.2026.
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ Mol Genet Genomics 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Mol+Genet+Genomics%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Mol+Genet+Genomics%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+. 2026 Mar 10;301(1):59.
+
+ doi: 10.1007/s00438-026-02384-5. 
+
+### Authors
+
+[Saeid Sadeghi Ghazi Chaki](https://pubmed.ncbi.nlm.nih.gov/?term=Chaki+SSG&cauthor_id=41806067)[1](https://pubmed.ncbi.nlm.nih.gov/41806067/#short-view-affiliation-1 "Department of Microbial Biotechnology, School of Biology and Center of Excellence in Phylogeny of Living Organisms, College of Science, University of Tehran, Tehran, Iran."),[Maryam Abdulrahman Najim](https://pubmed.ncbi.nlm.nih.gov/?term=Najim+MA&cauthor_id=41806067)[2](https://pubmed.ncbi.nlm.nih.gov/41806067/#short-view-affiliation-2 "Department of Biology, College Education for Pure Science, University of Anbar, Al-Anbar, Iraq. maryam.a.najim@uoanbar.edu.iq."),[Lina A Hassan](https://pubmed.ncbi.nlm.nih.gov/?term=Hassan+LA&cauthor_id=41806067)[3](https://pubmed.ncbi.nlm.nih.gov/41806067/#short-view-affiliation-3 "Department of Pathological Analyses, Faculty of Science, University of Kufa, Kufa, Iraq."),[Saleh A S AlAbdulhadi](https://pubmed.ncbi.nlm.nih.gov/?term=AlAbdulhadi+SAS&cauthor_id=41806067)[4](https://pubmed.ncbi.nlm.nih.gov/41806067/#short-view-affiliation-4 "Department of Medical Laboratory Science, Prince Sattam bin Abdulaziz University, Riyadh, Saudi Arabia."),[Zahraa Abbas Al-Khafaji](https://pubmed.ncbi.nlm.nih.gov/?term=Al-Khafaji+ZA&cauthor_id=41806067)[5](https://pubmed.ncbi.nlm.nih.gov/41806067/#short-view-affiliation-5 "College of Pharmacy, The Islamic University, Najaf, Iraq."),[M K Sharma](https://pubmed.ncbi.nlm.nih.gov/?term=Sharma+MK&cauthor_id=41806067)[6](https://pubmed.ncbi.nlm.nih.gov/41806067/#short-view-affiliation-6 "Department of Mathematics, Chaudhary Charan Singh University, Meerut, 250004, Uttar Pradesh, India."),[Ahmed Shihab Ahmed](https://pubmed.ncbi.nlm.nih.gov/?term=Ahmed+AS&cauthor_id=41806067)[7](https://pubmed.ncbi.nlm.nih.gov/41806067/#short-view-affiliation-7 "Department of Education, Al-Manara College for Medical Sciences, Maysan, Iraq."),[Ali Batool Ahmed](https://pubmed.ncbi.nlm.nih.gov/?term=Ahmed+AB&cauthor_id=41806067)[8](https://pubmed.ncbi.nlm.nih.gov/41806067/#short-view-affiliation-8 "Department of Medical Laboratories Technology, Al-Nisour University College, Baghdad, Iraq."),[Malik Bader Alazzam](https://pubmed.ncbi.nlm.nih.gov/?term=Alazzam+MB&cauthor_id=41806067)[9](https://pubmed.ncbi.nlm.nih.gov/41806067/#short-view-affiliation-9 "Faculty of Information Technology, Jadara University, Irbid, Jordan."),[Mohammad Sholeh](https://pubmed.ncbi.nlm.nih.gov/?term=Sholeh+M&cauthor_id=41806067)[10](https://pubmed.ncbi.nlm.nih.gov/41806067/#short-view-affiliation-10 "Department of Bacteriology, Pasteur Institute of Iran, Tehran, Iran. Mohammad.sholeh.mail@gmail.com.")
+
+### Affiliations
+
+*   1 Department of Microbial Biotechnology, School of Biology and Center of Excellence in Phylogeny of Living Organisms, College of Science, University of Tehran, Tehran, Iran.
+*   2 Department of Biology, College Education for Pure Science, University of Anbar, Al-Anbar, Iraq. maryam.a.najim@uoanbar.edu.iq.
+*   3 Department of Pathological Analyses, Faculty of Science, University of Kufa, Kufa, Iraq.
+*   4 Department of Medical Laboratory Science, Prince Sattam bin Abdulaziz University, Riyadh, Saudi Arabia.
+*   5 College of Pharmacy, The Islamic University, Najaf, Iraq.
+*   6 Department of Mathematics, Chaudhary Charan Singh University, Meerut, 250004, Uttar Pradesh, India.
+*   7 Department of Education, Al-Manara College for Medical Sciences, Maysan, Iraq.
+*   8 Department of Medical Laboratories Technology, Al-Nisour University College, Baghdad, Iraq.
+*   9 Faculty of Information Technology, Jadara University, Irbid, Jordan.
+*   10 Department of Bacteriology, Pasteur Institute of Iran, Tehran, Iran. Mohammad.sholeh.mail@gmail.com.
+
+*    PMID: **41806067**
+*    DOI: [10.1007/s00438-026-02384-5](https://doi.org/10.1007/s00438-026-02384-5)
+
+ Item in Clipboard 
+
+ Full text links Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+Abstract
+--------
+
+Staphylococcus aureus is increasingly resistant to β-lactam antibiotics, making non-β-lactam cell-wall-targeting drugs crucial alternatives. Growing resistance to these agents highlights the need to identify genomic factors influencing susceptibility. Machine learning can integrate genomic and phenotypic data to predict minimum inhibitory concentrations (MICs) and uncover resistance mechanisms across time and regions. We obtained 112,360 S. aureus genomes from NCBI GenBank (March 2024), applying quality filters and standardizing metadata. Resistance genes and mutations were identified using AMRFinderPlus and CARD, focusing on glycopeptide, lipopeptide, bacitracin, and fosfomycin resistance. MICs for five antibiotics were compiled, standardized, and log₂-transformed for analysis. Allelic profiles for seven housekeeping genes were assigned using PubMLST's BIGSdb and MLST CLI v2.19.0. Temporal and geographic resistance trends were modeled using logistic regression and statistical tests. Machine learning models (Random Forest, XGBoost, Elastic Net, Partial Least Squares (PLS)) predicted MICs from genomic features, with performance assessed via cross-validation. Statistical analyses and visualizations were performed in R, with all data and scripts provided for reproducibility. We analyzed 111,350 S. aureus genomes from 137 countries, with 78% from clinical sources, 10% from environmental, veterinary, or food-related origins, and some from animals. Glycopeptide MICs were low across all sources: vancomycin (0.96 µg/mL) and teicoplanin (0.52 µg/mL), while daptomycin showed more variability (0.44 µg/mL). Fosfomycin resistance genes, particularly fosB, were detected in 65.3% of genomes overall, with significantly higher prevalence in clinical isolates (32.5%) compared to environmental (2.1%), food (4.0%), and animal sources (7.5%). Bacitracin resistance genes (bcrAB) were detected in 6.2% of clinical isolates versus 1.3% environmental and 2.8% animal sources. However, phenotypic MIC data were severely limited (fosfomycin n = 1, bacitracin n = 1), precluding validation of genotype-phenotype correlations and limiting epidemiological interpretation to genetic prevalence alone. Resistance to glycopeptides and lipopeptides remained rare (< 0.1%). Fosfomycin resistance protein B (fosB) resistance increased by 0.20% annually, especially in clinical and animal sources, while other mutations like glpT_V213I and murA_D278E declined. Geographic trends showed fosB resistance exceeded 50% in North America, Europe, and South America, with MurA_G257D most prevalent in the Middle East. Machine learning models showed moderate predictive performance for daptomycin MICs (R² = 0.49), with mprF mutations as key predictors, but demonstrated poor accuracy for glycopeptides (vancomycin R² = 0.05; teicoplanin R² = -0.13) due to extremely limited MIC variability in the dataset. Fosfomycin and bacitracin models could not be trained due to insufficient phenotypic data (n = 1 each). This study highlights the growing challenge of S. aureus resistance, especially to non-β-lactam antibiotics such as fosfomycin and bacitracin, with clinical isolates showing the highest resistance. Geographic and temporal trends indicate an increasing prevalence of fosB resistance, particularly in clinical and animal sources. Machine learning models failed to predict glycopeptide MICs (vancomycin R² = 0.05; teicoplanin R² = -0.13) due to limited phenotypic variability, achieved moderate success for daptomycin (R² = 0.49), and could not be trained for fosfomycin and bacitracin (n = 1 MIC measurement each) despite high genetic prevalence of resistance determinants. These findings emphasize the critical need for integrated genomic and phenotypic surveillance, and highlight fundamental data requirements for ML-based resistance prediction.
+
+**Keywords:** Genomic Drivers; Machine learning; Non-β-Lactam; Staphylococcus aureus; minimum inhibitory concentrations.
+
+© 2026. The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+Declarations. Conflict of interest: The authors declare that they have no competing interests. Ethical approval: Not required. Consent for publication: Not applicable.
+
+Similar articles
+----------------
+
+*   [In vivo development of daptomycin resistance in vancomycin-susceptible methicillin-resistant Staphylococcus aureus severe infections previously treated with glycopeptides.](https://pubmed.ncbi.nlm.nih.gov/26815434/)Capone A, Cafiso V, Campanile F, Parisi G, Mariani B, Petrosillo N, Stefani S.Capone A, et al.Eur J Clin Microbiol Infect Dis. 2016 Apr;35(4):625-31. doi: 10.1007/s10096-016-2581-4. Epub 2016 Jan 27.Eur J Clin Microbiol Infect Dis. 2016.PMID: 26815434  
+*   [Australian Group on Antimicrobial Resistance (AGAR) Australian Staphylococcus aureus Surveillance Outcome Program (ASSOP) Bloodstream Infection Annual Report 2023.](https://pubmed.ncbi.nlm.nih.gov/39689908/)Coombs GW, Daley DA, Shoby P, Mamoottil Sudeep S, Mowlaboccus S; Australian Group on Antimicrobial Resistance.Coombs GW, et al.Commun Dis Intell (2018). 2024 Dec 18;48. doi: 10.33321/cdi.2024.48.57.Commun Dis Intell (2018). 2024.PMID: 39689908  
+*   [Combination Antibiotic Exposure Selectively Alters the Development of Vancomycin Intermediate Resistance in Staphylococcus aureus.](https://pubmed.ncbi.nlm.nih.gov/29158272/)Zheng X, Berti AD, McCrone S, Roch M, Rosato AE, Rose WE, Chen B.Zheng X, et al.Antimicrob Agents Chemother. 2018 Jan 25;62(2):e02100-17. doi: 10.1128/AAC.02100-17. Print 2018 Feb.Antimicrob Agents Chemother. 2018.PMID: 29158272 Free PMC article.  
+*   [Insights and clinical perspectives of daptomycin resistance in Staphylococcus aureus: A review of the available evidence.](https://pubmed.ncbi.nlm.nih.gov/26143590/)Stefani S, Campanile F, Santagati M, Mezzatesta ML, Cafiso V, Pacini G.Stefani S, et al.Int J Antimicrob Agents. 2015 Sep;46(3):278-89. doi: 10.1016/j.ijantimicag.2015.05.008. Epub 2015 Jun 19.Int J Antimicrob Agents. 2015.PMID: 26143590 Review.  
+*   [Antibiotic resistance in Staphylococcus aureus and its relevance in therapy.](https://pubmed.ncbi.nlm.nih.gov/16218886/)Bal AM, Gould IM.Bal AM, et al.Expert Opin Pharmacother. 2005 Oct;6(13):2257-69. doi: 10.1517/14656566.6.13.2257.Expert Opin Pharmacother. 2005.PMID: 16218886 Review.  
+
+[See all similar articles](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed&from_uid=41806067)
+
+References
+----------
+
+1.       1.    Tarai B, Das P, Kumar D (2013) J Lab Physicians 5(02) 
+
+2.       1.    Navidifar T, Zare Banadkouki A, Parvizi E, Mofid M, Golab N, Beig M et al (2025) Global prevalence of macrolide-resistant Staphylococcus spp.: a comprehensive systematic review and meta-analysis. Front Microbiol 16:2025 
+
+3.       1.    Mirzaei R, Mohammadzadeh R, Mirzaei H, Sholeh M, Karampoor S, Abdi M et al (2020) Role of microRNAs in Staphylococcus aureus infection: Potential biomarkers and mechanism. IUBMB Life 72(9):1856–1869 - [DOI](https://doi.org/10.1002/iub.2325) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/32516518/)
+
+4.       1.    Hassoun A, Linden PK, Friedman B (2017) Incidence, prevalence, and management of mrsa bacteremia across patient populations—a review of recent developments in MRSA management and treatment. Crit Care 21(1) 
+
+5.       1.    Heidary M, Sholeh M, koupaei M, Asadi A, Khah SM, Kheirabadi F et al (2024) Prevalence of tigecycline resistance in methicillin-resistant Staphylococcus aureus: a systematic review and meta-analysis. Diagn Microbiol Infect Dis 108(1):116088 - [DOI](https://doi.org/10.1016/j.diagmicrobio.2023.116088)
+
+ Show all 23 references 
+
+MeSH terms
+----------
+
+*   
+ Anti-Bacterial Agents* / pharmacology 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Anti-Bacterial+Agents%2Fpharmacology%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Anti-Bacterial+Agents)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+*   
+ Drug Resistance, Bacterial* / genetics 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Drug+Resistance%2C+Bacterial%2Fgenetics%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Drug+Resistance%2C+Bacterial)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+*   
+ Genome, Bacterial 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Genome%2C+Bacterial%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Genome%2C+Bacterial)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+*   
+ Genomics / methods 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Genomics%2Fmethods%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Genomics)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+*   
+ Humans 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Humans%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Humans)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+*   
+ Machine Learning* 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Machine+Learning%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Machine+Learning)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+*   
+ Microbial Sensitivity Tests 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Microbial+Sensitivity+Tests%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Microbial+Sensitivity+Tests)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+*   
+ Staphylococcal Infections* / drug therapy 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Staphylococcal+Infections%2Fdrug+therapy%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Staphylococcal+Infections)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+*   
+ Staphylococcal Infections* / epidemiology 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Staphylococcal+Infections%2Fepidemiology%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Staphylococcal+Infections)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+*   
+ Staphylococcal Infections* / microbiology 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Staphylococcal+Infections%2Fmicrobiology%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Staphylococcal+Infections)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+*   
+ Staphylococcus aureus* / drug effects 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Staphylococcus+aureus%2Fdrug+effects%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Staphylococcus+aureus)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+*   
+ Staphylococcus aureus* / genetics 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Staphylococcus+aureus%2Fgenetics%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Staphylococcus+aureus)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+*   
+ beta-Lactams / pharmacology 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22beta-Lactams%2Fpharmacology%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=beta-Lactams)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+Substances
+----------
+
+*   
+ Anti-Bacterial Agents 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Anti-Bacterial+Agents%22%5Bnm%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=%22Anti-Bacterial+Agents%22)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+*   
+ beta-Lactams 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22beta-Lactams%22%5Bnm%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=%22beta-Lactams%22)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+Related information
+-------------------
+
+*   [GEO Profiles](https://www.ncbi.nlm.nih.gov/geoprofiles?linkname=pubmed_geoprofiles&from_uid=41806067 "GEO records associated with pubmed record")
+
+LinkOut - more resources
+------------------------
+
+*   ### Full Text Sources
+
+    *   [Springer](https://doi.org/10.1007/s00438-026-02384-5)
+
+*   ### Medical
+
+    *   [MedlinePlus Health Information](https://medlineplus.gov/antibioticresistance.html)
+
+*   ### Research Materials
+
+    *   [NCI CPTC Antibody Characterization Program](https://antibodies.cancer.gov/detail/CPTC-CLU-1)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-1760)
+
+**Full text links**[x]
+
+[![Image 7: Springer full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/http:--production.springer.de-OnlineResources-Logos-springerlink.gif) Springer](https://doi.org/10.1007/s00438-026-02384-5 "See full text options at Springer")
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41806067%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41806067%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41806067%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/41806067/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/?pagename=pubmed%3Apubmed%3Aabstract%3ANONE)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)

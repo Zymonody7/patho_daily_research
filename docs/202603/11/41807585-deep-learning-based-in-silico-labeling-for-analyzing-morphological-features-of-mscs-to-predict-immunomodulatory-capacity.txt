@@ -1,0 +1,76 @@
+Title: Deep learning-based in silico labeling for analyzing morphological features of MSCs to predict immunomodulatory capacity - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41807585/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 10.
+
+doi: 10.1038/s42003-026-09833-2.  Online ahead of print.
+
+[Gang An](https://pubmed.ncbi.nlm.nih.gov/?term=An+G&cauthor_id=41807585)[#](https://pubmed.ncbi.nlm.nih.gov/41807585/#full-view-equal-contrib-explanation "Contributed equally")[2](https://pubmed.ncbi.nlm.nih.gov/41807585/#full-view-affiliation-2 "Fujian Maternity and Child Health Hospital College of Clinical Medicine for Obstetrics & Gynecology and Pediatrics, Fujian Medical University, Fuzhou, China."),[Xiao Liang](https://pubmed.ncbi.nlm.nih.gov/?term=Liang+X&cauthor_id=41807585)[#](https://pubmed.ncbi.nlm.nih.gov/41807585/#full-view-equal-contrib-explanation "Contributed equally")[3](https://pubmed.ncbi.nlm.nih.gov/41807585/#full-view-affiliation-3 "Harbin Beike Health Technology Co., Ltd, Harbin, China."),[Xumin Wu](https://pubmed.ncbi.nlm.nih.gov/?term=Wu+X&cauthor_id=41807585)[#](https://pubmed.ncbi.nlm.nih.gov/41807585/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41807585/#full-view-affiliation-1 "Shenzhen Cellauto Automation Co., Ltd, Shenzhen, China."),[Junyuan Hu](https://pubmed.ncbi.nlm.nih.gov/?term=Hu+J&cauthor_id=41807585)[3](https://pubmed.ncbi.nlm.nih.gov/41807585/#full-view-affiliation-3 "Harbin Beike Health Technology Co., Ltd, Harbin, China."),[Haijun Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+H&cauthor_id=41807585)[1](https://pubmed.ncbi.nlm.nih.gov/41807585/#full-view-affiliation-1 "Shenzhen Cellauto Automation Co., Ltd, Shenzhen, China."),[Jingfeng Ou](https://pubmed.ncbi.nlm.nih.gov/?term=Ou+J&cauthor_id=41807585)[4](https://pubmed.ncbi.nlm.nih.gov/41807585/#full-view-affiliation-4 "Faculty of Computer Science and Control Engineering, Shenzhen University of Advanced Technology, Shenzhen, China."),[Xiuping Zeng](https://pubmed.ncbi.nlm.nih.gov/?term=Zeng+X&cauthor_id=41807585)[3](https://pubmed.ncbi.nlm.nih.gov/41807585/#full-view-affiliation-3 "Harbin Beike Health Technology Co., Ltd, Harbin, China."),[Zhiliang Xia](https://pubmed.ncbi.nlm.nih.gov/?term=Xia+Z&cauthor_id=41807585)[4](https://pubmed.ncbi.nlm.nih.gov/41807585/#full-view-affiliation-4 "Faculty of Computer Science and Control Engineering, Shenzhen University of Advanced Technology, Shenzhen, China."),[Kaixiang Hou](https://pubmed.ncbi.nlm.nih.gov/?term=Hou+K&cauthor_id=41807585)[5](https://pubmed.ncbi.nlm.nih.gov/41807585/#full-view-affiliation-5 "Shenzhen Kenuo Medical Laboratory, Shenzhen, China."),[Wanglong Chu](https://pubmed.ncbi.nlm.nih.gov/?term=Chu+W&cauthor_id=41807585)[3](https://pubmed.ncbi.nlm.nih.gov/41807585/#full-view-affiliation-3 "Harbin Beike Health Technology Co., Ltd, Harbin, China."),[Jianbin Ye](https://pubmed.ncbi.nlm.nih.gov/?term=Ye+J&cauthor_id=41807585)[1](https://pubmed.ncbi.nlm.nih.gov/41807585/#full-view-affiliation-1 "Shenzhen Cellauto Automation Co., Ltd, Shenzhen, China."),[Cui Liao](https://pubmed.ncbi.nlm.nih.gov/?term=Liao+C&cauthor_id=41807585)[1](https://pubmed.ncbi.nlm.nih.gov/41807585/#full-view-affiliation-1 "Shenzhen Cellauto Automation Co., Ltd, Shenzhen, China."),[Zhengmian Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+Z&cauthor_id=41807585)[6](https://pubmed.ncbi.nlm.nih.gov/41807585/#full-view-affiliation-6 "Fujian Maternity and Child Health Hospital College of Clinical Medicine for Obstetrics & Gynecology and Pediatrics, Fujian Medical University, Fuzhou, China. Mkyy2001@163.com."),[Muyun Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+M&cauthor_id=41807585)[7](https://pubmed.ncbi.nlm.nih.gov/41807585/#full-view-affiliation-7 "Shenzhen Cellauto Automation Co., Ltd, Shenzhen, China. muyun@ncgt.org.cn.")[8](https://pubmed.ncbi.nlm.nih.gov/41807585/#full-view-affiliation-8 "Shenzhen Kenuo Medical Laboratory, Shenzhen, China. muyun@ncgt.org.cn.")[9](https://pubmed.ncbi.nlm.nih.gov/41807585/#full-view-affiliation-9 "National Engineering Research Center of Foundational Technologies for CGT Industry, Shenzhen, China. muyun@ncgt.org.cn.")
+
+Affiliations
+
+*    PMID: **41807585**
+*    DOI: [10.1038/s42003-026-09833-2](https://doi.org/10.1038/s42003-026-09833-2)
+
+Deep learning-based in silico labeling for analyzing morphological features of MSCs to predict immunomodulatory capacity
+------------------------------------------------------------------------------------------------------------------------
+
+Zhiyu Liu et al. Commun Biol.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+Abstract
+--------
+
+Cellular morphology, a critical manifestation of biological characteristics, is linked to functions. In traditional cell detection, invasive labeling and detection methods not only compromise cellular viability but also entail labor-intensive workflows. Here we presented a non-invasive artificial intelligence framework that integrated deep learning (DL) and machine learning (ML) to predict the immunomodulatory capacity of mesenchymal stem cells (MSCs) through morphological profiling. The improved PreAct-ResNet50 encoder-decoder architecture was used to achieve high-accuracy instance segmentation of cells and nuclei, enabling quantification of morphological features. A LightGBM-based predictive model was subsequently employed to predict MSCs immunomodulatory biomarkers through morphological features. This dual-model system demonstrated satisfactory cell segmentation and biological characteristics prediction capabilities through performance testing. Our method provided an efficient, non- invasive tool for real-time MSCs potency assessment, which could enhance quality controls in cell therapy manufacturing.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+Competing interests: The authors declare no competing interests.
+
+Similar articles
+----------------
+
+*   [Morphology-based deep learning enables accurate detection of senescence in mesenchymal stem cell cultures.](https://pubmed.ncbi.nlm.nih.gov/38167069/)
+
+He L, Li M, Wang X, Wu X, Yue G, Wang T, Zhou Y, Lei B, Zhou G.He L, et al.BMC Biol. 2024 Jan 2;22(1):1. doi: 10.1186/s12915-023-01780-2.BMC Biol. 2024.PMID: 38167069 Free PMC article. 
+*   [Brain tumor segmentation and detection in MRI using convolutional neural networks and VGG16.](https://pubmed.ncbi.nlm.nih.gov/40183298/)
+
+Ganesh S, Gomathi R, Kannadhasan S.Ganesh S, et al.Cancer Biomark. 2025 Mar;42(3):18758592241311184. doi: 10.1177/18758592241311184. Epub 2025 Apr 4.Cancer Biomark. 2025.PMID: 40183298 
+*   [Evaluation of stroke sequelae and rehabilitation effect on brain tumor by neuroimaging technique: A comparative study.](https://pubmed.ncbi.nlm.nih.gov/39992898/)
+
+Guo X, Sun L.Guo X, et al.PLoS One. 2025 Feb 24;20(2):e0317193. doi: 10.1371/journal.pone.0317193. eCollection 2025.PLoS One. 2025.PMID: 39992898 Free PMC article. 
+*   [Artificial Intelligence Driven Innovation: Advancing Mesenchymal Stem Cell Therapies and Intelligent Biomaterials for Regenerative Medicine.](https://pubmed.ncbi.nlm.nih.gov/41463599/)
+
+Huang M, Dissanayaka WL, Yiu CKY.Huang M, et al.Bioengineering (Basel). 2025 Nov 26;12(12):1302. doi: 10.3390/bioengineering12121302.Bioengineering (Basel). 2025.PMID: 41463599 Free PMC article.Review. 
+*   [Emerging Applications and Challenges in SPR-Based Biosensors for Non-Invasive Quality Assessment of Wharton's Jelly-Derived Mesenchymal Stem Cells (WJ-MSCs) via Secretome Analysis.](https://pubmed.ncbi.nlm.nih.gov/41054903/)
+
+Govindasamy A, Wan Kamarul Zaman WS, Karman S, Syed Nor SN, Zakaria R.Govindasamy A, et al.Adv Healthc Mater. 2026 Jan;15(3):e02045. doi: 10.1002/adhm.202502045. Epub 2025 Oct 7.Adv Healthc Mater. 2026.PMID: 41054903 Review. 
+
+References
+----------
+
+1.       1.    Yuqian Z., Jianxin L., Huifen L., Guiyuan L. Improved watershed algorithm for dowels image segmentation. In: 2008 7th World Congress on Intelligent Control and Automation) (2008). 
+
+2.       1.    Krizhevsky, A., Sutskever, I. & Hinton, G. E. ImageNet classification with deep convolutional neural networks. Commun ACM 60, 84–90 (2017). 
+
+3.       1.    Blanc, K. L. et al. ISCT MSC committee statement on the US FDA approval of allogenic bone-marrow mesenchymal stromal cells. Cytotherapy, (2025). 
+
+4.       1.    Liang, J. et al. Allogenic mesenchymal stem cells transplantation in refractory systemic lupus erythematosus: a pilot clinical study. Ann Rheum Dis 69, 1423–1429 (2010). 
+
+5.       1.    Uccelli, A. et al. Safety, tolerability, and activity of mesenchymal stem cells versus placebo in multiple sclerosis (MESEMS): a phase 2, randomised, double-blind crossover trial. Lancet Neurol 20, 917–929 (2021).

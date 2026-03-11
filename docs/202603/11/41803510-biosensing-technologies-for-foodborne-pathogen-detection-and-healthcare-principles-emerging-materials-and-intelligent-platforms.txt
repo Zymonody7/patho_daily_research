@@ -1,0 +1,105 @@
+Title: Biosensing technologies for foodborne pathogen detection and healthcare: principles, emerging materials, and intelligent platforms - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41803510/
+
+Markdown Content:
+Review
+
+Biosensing technologies for foodborne pathogen detection and healthcare: principles, emerging materials, and intelligent platforms
+----------------------------------------------------------------------------------------------------------------------------------
+
+Purshottam J Assudani et al. Mikrochim Acta.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+Abstract
+--------
+
+Foodborne pathogens such as _Escherichia coli_ (E. Coli), _Salmonella_, and _Listeria_ monocytogenes continue to pose a major potential threat to global public health and therefore rapid, accurate, and field-deployable detection methods are still extremely desirable. This review describes cutting-edge examples of advanced biosensing platforms for the strategy of detecting these priority pathogens, focusing on clinical detection and highlighting electrochemical, optical, and microfluidic sensing modalities. This has been enabled by recent advances in functional nanomaterials, molecular recognition elements (including aptamers and nanozymes), and surface engineering strategies rendering sensors much ‘smarter’/improved in terms of sensitivity, specificity, and behaviour towards complex food matrices. However blending these biosensors with artificial intelligence (AI) and Machine Learning (ML) enabled intelligent pattern recognition, real-time analytics, and multiplexing at high-speed, turning traditional detection systems into smart diagnostic devices. We critically review recent case studies in light of biosensor design, signal transduction mechanisms, models of AI, performance validation, and applicability in different food environments. The principal challenges are identified which include matrix interference, instability of biorecognition elements, limitations in scalability, and the need for regulatory standardization. We discuss these with associated mitigation strategies that are technically sound, including ratiometric sensing, microfluidic pre-treatment techniques, explainable AI, and printable electronics. Forward-looking, we discuss biosensors enabled by being self-powered, biosensor hubs with modular pathogen panels, blockchain incorporation, and standardized validation pipelines. This review offers a prospective view toward enabling intelligent, robust, and regulation-ready biosensing platforms for next-generation food safety monitoring through the bridging of technological innovations with practical implementation.
+
+**Graphical Abstract:**
+
+**Keywords:** Escherichia coli; Listeria monocytogenes; Salmonella; Artificial intelligence; Biosensors; Electrochemical sensing; Food safety monitoring; Foodborne pathogens; Health diagnosis; Machine learning; Nanomaterials; Optical sensing; Point-of-care-testing.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+Declarations. Competing interests: The authors declare no competing interests.
+
+Figures
+-------
+
+[![Image 1: Fig. 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e688/12971809/c248ad473253/604_2026_7976_Fig1_HTML.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e688/12971809/c6ae69691851/604_2026_7976_Fig1_HTML.jpg)
+
+**Fig. 1**
+Graphical representation of foodborne bacterial pathogens and their contamination routes from farm to fork, followed by an illustration of the biosensing solutions, detection strategies, and functional materials used, along with the integration of AI, IoT, microfluidics and more
+
+[![Image 2: Fig. 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e688/12971809/0da4b7fe90c5/604_2026_7976_Fig2_HTML.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e688/12971809/0b6243e92abf/604_2026_7976_Fig2_HTML.jpg)
+
+**Fig. 2**
+(**A**) Functionalized AuNPs enable a reverse colorimetric aggregation assay for bacterial detection, with quantification via smartphone/microplate readout, taken from [106] with the permission of Elsevier. (**B**) Test-tube color changes across serial CFU levels and a log(CFU/mL) calibration showing strong linearity (illustrative R² ~0.96) and broad dynamic range, taken from [105] with the permission of Elsevier. (**C**)Low-cost light enclosure for consistent illumination and spectral capture; representative absorbance spectra demonstrate aggregation-induced peak shifts/intensity changes taken from [107] with the permission of Elsevier. (**D**) QDs lateral-flow test: Biotin/FITC-labeled QD probes capture Salmonella (S. Typhimurium) DNA on nitrocellulose; anti-biotin/anti-FITC lines yield a fluorescent yes/no result in ~ 15 min, taken from [108] with the permission of Elsevier. (**E**) Carbon-based nanomaterials (graphene): Heat-denatured casein cross-linked on graphene electrodes blocks nonspecific sites; anti-E. coli O157:H7 antibodies enable target binding. Right: graphene field-effect transistor (GFET) with Au source–drain and liquid gate for label-free electrical detection, taken from [114] with the permission of Elsevier
+
+[![Image 3: Fig. 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e688/12971809/3b2749df8312/604_2026_7976_Fig3_HTML.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e688/12971809/6a4821618499/604_2026_7976_Fig3_HTML.jpg)
+
+**Fig. 3**
+(**A**) Smart polymers & hydrogels: A bacteriophage-functionalized hydrogel array captures different bacteria on separate slices; phage lysis releases ATP, which is routed to a microfluidic chip for fluorescence readout. Representative multiplex traces show distinct signals for E. coli, S. Typhimurium, and S. aureus, taken from [118] with the permission of Elsevier. (B) Bioengineered receptors: CRISPR/Cas12a coupled with hybridization chain reaction (Cas12a–HCR) converts amplified pathogen DNA into a measurable signal, taken from [123] with the permission of ACS. (**C**) Enzyme-mimic nanozymes: Plasmonic/metal nanozyme composites combine photothermal heating (808 nm) with peroxidase-like catalysis to kill/enrich bacteria and amplify colorimetric assays. Magnetic separation enables rapid and selective detection, illustrated here for E. coli O157:H7 against common interferents, taken from [130] with the permission of Elsevier
+
+[![Image 4: Fig. 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e688/12971809/921eea984802/604_2026_7976_Fig4_HTML.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e688/12971809/ec9e7729d47c/604_2026_7976_Fig4_HTML.jpg)
+
+**Fig. 4**
+(**A**) Microfluidic chip designed with dual inlets and an integrated detection zone, enables precise sample handling for efficient _E. coli_ detection, taken from [135] with the permission of Elsevier. (**B**) An electrochemical system with a three-electrode setup and temperature control facilitates sensitive _E. coli_ detection under regulated thermal conditions, taken from [136] with the permission of Elsevier. (**C**) Digital microfluidic device for droplet-based _Listeria_ detection, uses isothermal amplification and fluorescence readout for rapid analysis, taken from [139] with the permission of Elsevier. (D) A microfluidic platform with mixing, reaction, and readout zones supports integrated processing and detection of Salmonella, taken from [140] with the permission of Elsevier. (**E**) Nucleic acid-based lateral flow assay for Salmonella identification provides visual output through fluorescence-labeled probe detection, taken from [141] with the permission of ACS.
+
+[![Image 5: Fig. 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e688/12971809/ce54460e2a02/604_2026_7976_Fig5_HTML.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e688/12971809/a4c566a9b810/604_2026_7976_Fig5_HTML.jpg)
+
+**Fig. 5**
+(**A**) Smartphone-enabled aptamer-magnetic nanocomposite sensor for E. coli O157:H7 detection, taken from [146] with the permission of Elsevier. (**B**) β-Galactosidase-based colorimetric E. coli detection using smartphone RGB and ICP-MS, taken from [147] with the permission of Elsevier. (**C**) Smartphone-integrated immunomagnetic fluorescence assay for detecting Listeria monocytogenes, taken from [149] with the permission of Elsevier. (**D**) Magnetic nanoprobe and TMB-based smartphone assay for Listeria detection, taken from [151] with the permission of Elsevier. (**E**) Hue-based smartphone colorimetric system for Salmonella (S. Typhimurium) quantification, taken from [143] with the permission of Elsevier. (**F**) 3D-printed smartphone holder for standardized imaging in food safety assays, taken from [152] with the permission of Elsevier
+
+[![Image 6: Fig. 6](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e688/12971809/7db8e240a3c9/604_2026_7976_Fig6_HTML.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e688/12971809/61bd988f3942/604_2026_7976_Fig6_HTML.jpg)
+
+**Fig. 6**
+(**A**) ML workflow for E. coli detection using spectral data and LSTM classifiers, taken from [156] with the permission of Elsevier. (**B**) Polarized optical sensing system with AI-assisted image classification for E. coli detection, taken from [157] with the permission of Elsevier. (**C**) Deep learning-based feature extraction and classification model for Listeria identification, taken from [158] with the permission of Elsevier. (**D**) Raman spectroscopy combined with CNN-based deep learning for Salmonella serotype discrimination, taken from [159] with the permission of Elsevier
+
+Similar articles
+----------------
+
+*   [Recent Developments on _Salmonella_ and _Listeria monocytogenes_ Detection Technologies: A Focus on Electrochemical Biosensing Technologies.](https://pubmed.ncbi.nlm.nih.gov/41376077/)
+
+Ipeleng KE, Feleni U, Saasa V.Ipeleng KE, et al.Foods. 2025 Dec 2;14(23):4139. doi: 10.3390/foods14234139.Foods. 2025.PMID: 41376077 Free PMC article.Review. 
+*   [AI-Enhanced Electrochemical Sensing Systems: A Paradigm Shift for Intelligent Food Safety Monitoring.](https://pubmed.ncbi.nlm.nih.gov/41002305/)
+
+Zhao Y, Sun T, Zhang H, Li W, Lian C, Jiang Y, Qu M, Zhao Z, Wang Y, Sun Y, Duan H, Ren Y, Liu P, Lang X, Chen S.Zhao Y, et al.Biosensors (Basel). 2025 Aug 28;15(9):565. doi: 10.3390/bios15090565.Biosensors (Basel). 2025.PMID: 41002305 Free PMC article.Review. 
+*   [Emerging Applications of Nanobiosensors in Pathogen Detection in Water and Food.](https://pubmed.ncbi.nlm.nih.gov/37887115/)
+
+Valenzuela-Amaro HM, Aguayo-Acosta A, Meléndez-Sánchez ER, de la Rosa O, Vázquez-Ortega PG, Oyervides-Muñoz MA, Sosa-Hernández JE, Parra-Saldívar R.Valenzuela-Amaro HM, et al.Biosensors (Basel). 2023 Oct 11;13(10):922. doi: 10.3390/bios13100922.Biosensors (Basel). 2023.PMID: 37887115 Free PMC article.Review. 
+*   [Biosensor for the detection of Listeria monocytogenes: emerging trends.](https://pubmed.ncbi.nlm.nih.gov/29790396/)
+
+Soni DK, Ahmad R, Dubey SK.Soni DK, et al.Crit Rev Microbiol. 2018 Sep;44(5):590-608. doi: 10.1080/1040841X.2018.1473331. Epub 2018 May 23.Crit Rev Microbiol. 2018.PMID: 29790396 Review. 
+*   [Carbon nanomaterial-based aptasensors for rapid detection of foodborne pathogenic bacteria.](https://pubmed.ncbi.nlm.nih.gov/39127327/)
+
+Fatemi K, Lau SY, Obayomi KS, Kiew SF, Coorey R, Chung LY, Fatemi R, Heshmatipour Z, Premarathna KSD.Fatemi K, et al.Anal Biochem. 2024 Dec;695:115639. doi: 10.1016/j.ab.2024.115639. Epub 2024 Aug 8.Anal Biochem. 2024.PMID: 39127327 Review. 
+
+References
+----------
+
+1.       1.    Mather AE, Gilmour MW, Reid SWJ, French NP (2024) Foodborne bacterial pathogens: genome-based approaches for enduring and emerging threats in a complex and changing world. Nat Rev Microbiol 22:543–555. 10.1038/s41579-024-01051-z - [DOI](https://doi.org/10.1038/s41579-024-01051-z) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/38789668/)
+
+2.       1.    Hamaideh S, Olaimat AN, Al-Holy MA, Ababneh A, Shahbaz HM, Abughoush M, Al-Nabulsi A, Osaili T, Ayyash M, Holley RA (2024) The Influence of Technological Shifts in the Food Chain on the Emergence of Foodborne Pathogens: An Overview. Appl Microbiol 4:594–606. 10.3390/applmicrobiol4020041 - [DOI](https://doi.org/10.3390/applmicrobiol4020041)
+
+3.       1.    Farrukh M, Munawar A, Nawaz Z, Hussain N, Bin Hafeez A, Szweda P (2025) Antibiotic resistance and preventive strategies in foodborne pathogenic bacteria: a comprehensive review. Food Sci Biotechnol 34:2101–2129. 10.1007/s10068-024-01767-x - [DOI](https://doi.org/10.1007/s10068-024-01767-x) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12064539/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/40351726/)
+
+4.       1.    Petrucci S, Costa C, Broyles D, Dikici E, Daunert S, Deo S (2021) On-site detection of food and waterborne bacteria – Current technologies, challenges, and future directions. Trends Food Sci Technol 115:409–421. 10.1016/j.tifs.2021.06.054 - [DOI](https://doi.org/10.1016/j.tifs.2021.06.054) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8276861/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/34267423/)
+
+5.       1.    Farid A, Wang Z, Khan MU, Wang P, Wang H, Liu H, Chen Z (2025) Emerging technologies for detecting foodborne pathogens and spoilage microorganisms in milk: Ensuring safety and quality. Food Microbiol 130:104763. 10.1016/j.fm.2025.104763 - [DOI](https://doi.org/10.1016/j.fm.2025.104763) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/40210394/)
+
+Publication types
+-----------------
+
+*   Actions

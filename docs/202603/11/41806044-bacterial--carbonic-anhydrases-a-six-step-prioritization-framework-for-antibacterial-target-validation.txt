@@ -1,0 +1,90 @@
+Title: Bacterial β-carbonic anhydrases: a six-step prioritization framework for antibacterial target validation - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41806044/
+
+Markdown Content:
+Review
+
+Actions
+
+. 2026 Mar 10;208(5):247.
+
+doi: 10.1007/s00203-026-04789-7.
+
+Affiliations
+
+*    PMID: **41806044**
+*    DOI: [10.1007/s00203-026-04789-7](https://doi.org/10.1007/s00203-026-04789-7)
+
+Review
+
+Bacterial β-carbonic anhydrases: a six-step prioritization framework for antibacterial target validation
+--------------------------------------------------------------------------------------------------------
+
+Mariia Y Stoliarskaia. Arch Microbiol.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+Abstract
+--------
+
+Bacterial β-carbonic anhydrases (β-CAs) are actively studied as potential targets for next-generation antibacterial agents. Despite extensive biochemical and structural characterization, their validation as isoform-specific therapeutic targets remains incomplete. Here, we developed and applied a six-filter validation framework-encompassing genetic essentiality, physiological relevance, biochemical feasibility, structural rationale, cellular target engagement, and therapeutic context-to integrate disparate data into a strategic prioritization map across representative pathogens (Escherichia coli, Mycobacterium tuberculosis, Pseudomonas aeruginosa, and Streptococcus pneumoniae). Application of this framework reveals that none of the analyzed β-CA isoforms currently qualifies as a ready therapeutic candidate (Group A), with most falling into context-dependent (Group C) or high-risk (Group D) categories due to specific validation gaps. By systematically defining these gaps, the framework provides a prioritized, target-driven roadmap for future experimental design and antibacterial drug discovery targeting bacterial β-carbonic anhydrases.
+
+**Keywords:** Escherichia coli; Mycobacterium tuberculosis; Allosteric regulation; Antimicrobial target validation; Antimicrobial targets; CO2/HCO3⁻ homeostasis; Inhibitor selectivity; Isoform specificity; pH-dependent activity; pH-dependent regulation; β-carbonic anhydrase.
+
+© 2026. The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, part of Springer Nature.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+Declarations. Conflict of interest: The authors declare no competing interests. Ethical approval and consent to participate: Not applicable. Consent for publication: Not applicable.
+
+Similar articles
+----------------
+
+*   [Integrated _in silico_ and _in vitro_ screening approaches for the discovery of small-molecule inhibitors of β-carbonic anhydrases.](https://pubmed.ncbi.nlm.nih.gov/41721644/)
+
+Bhowmik R, D'Agostino I, Angeli A, Aspatwar A.Bhowmik R, et al.Expert Opin Drug Discov. 2026 Feb 23:1-19. doi: 10.1080/17460441.2026.2636772. Online ahead of print.Expert Opin Drug Discov. 2026.PMID: 41721644 Review. 
+*   [An overview of novel antimicrobial carbonic anhydrase inhibitors.](https://pubmed.ncbi.nlm.nih.gov/37747071/)
+
+Supuran CT.Supuran CT.Expert Opin Ther Targets. 2023 Jul-Dec;27(10):897-910. doi: 10.1080/14728222.2023.2263914. Epub 2023 Oct 30.Expert Opin Ther Targets. 2023.PMID: 37747071 Review. 
+
+*   [Inhibition of bacterial carbonic anhydrases and zinc proteases: from orphan targets to innovative new antibiotic drugs.](https://pubmed.ncbi.nlm.nih.gov/22214451/)
+
+Supuran CT.Supuran CT.Curr Med Chem. 2012;19(6):831-44. doi: 10.2174/092986712799034824.Curr Med Chem. 2012.PMID: 22214451 Review. 
+*   [Structure and inhibition studies of a type II beta-carbonic anhydrase psCA3 from Pseudomonas aeruginosa.](https://pubmed.ncbi.nlm.nih.gov/26068018/)
+
+Pinard MA, Lotlikar SR, Boone CD, Vullo D, Supuran CT, Patrauchan MA, McKenna R.Pinard MA, et al.Bioorg Med Chem. 2015 Aug 1;23(15):4831-4838. doi: 10.1016/j.bmc.2015.05.029. Epub 2015 Jun 8.Bioorg Med Chem. 2015.PMID: 26068018 
+
+References
+----------
+
+1.       1.    Abutaleb NS, Holly KJ, Metcalfe CK, Abouelkhair AA, Tharra PR, Shrinidhi A, Abdelsattar AS, Burgo V, Melotte G, Akin-Olabiyi T, Knoblauch S, Ramaswamy R, Woodson C, Thirumalaikumar VP, Rodriguez JA, Yeo FJ, Snell OC, Nocentini A, Sundararajan A, Olson MR, Supuran CT, Seleem MN, Flaherty DP (2026) Bacterial carbonic anhydrase inhibitor CAI0019 demonstrates efficacy in Enterococcus faecium septicemic peritonitis mouse model while sparing the microbiome. ACS Infect Dis 12(1):176–189. [https://doi.org/10.1021/acsinfecdis.5c00736](https://doi.org/10.1021/acsinfecdis.5c00736) - [DOI](https://doi.org/10.1021/acsinfecdis.5c00736) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/41381410/)
+
+2.       1.    Ammara A, Giovannuzzi S, De Luca V, Capasso C, Nocentini A, Supuran CT, Gratteri P (2025) Tetrazole derivatives as multiclass inhibitors of bacterial carbonic anhydrases. Arch Pharm (Weinheim) 358(12):e70177. [https://doi.org/10.1002/ardp.70177](https://doi.org/10.1002/ardp.70177) - [DOI](https://doi.org/10.1002/ardp.70177) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/41451825/)
+
+3.       1.    An W, Holly KJ, Nocentini A, Imhoff RD, Hewitt CS, Abutaleb NS, Cao X, Seleem MN, Supuran CT, Flaherty DP (2022) Structure-activity relationship studies for inhibitors for vancomycin-resistant Enterococcus and human carbonic anhydrases. J Enzyme Inhib Med Chem 37(1):1838–1844. [https://doi.org/10.1080/14756366.2022.2092729](https://doi.org/10.1080/14756366.2022.2092729) - [DOI](https://doi.org/10.1080/14756366.2022.2092729) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/35758212/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/9246096/)
+
+4.       1.    Angeli A, Del Prete S, Pinteala M, Maier SS, Donald WA, Simionescu BC, Capasso C, Supuran CT (2019) The first activation study of the β-carbonic anhydrases from the pathogenic bacteria Brucella suis and Francisella tularensis with amines and amino acids. J Enzyme Inhib Med Chem 34(1):1178–1185. [https://doi.org/10.1080/14756366.2019.1630617](https://doi.org/10.1080/14756366.2019.1630617) - [DOI](https://doi.org/10.1080/14756366.2019.1630617) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/31282230/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/6691884/)
+
+5.       1.    Aspatwar A, Winum JY, Carta F, Supuran CT, Hammaren M, Parikka M, Parkkila S (2018) Carbonic anhydrase inhibitors as novel drugs against mycobacterial β-carbonic anhydrases: an update on in vitro and in vivo studies. Molecules (Basel, Switzerland) 23(11):2911. [https://doi.org/10.3390/molecules23112911](https://doi.org/10.3390/molecules23112911) - [DOI](https://doi.org/10.3390/molecules23112911) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/30413024/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/6278287/)
+
+Publication types
+-----------------
+
+*   Actions 
+
+LinkOut - more resources
+------------------------
+
+*   ### Full Text Sources
+
+    *   [Springer](https://dx.doi.org/10.1007/s00203-026-04789-7)

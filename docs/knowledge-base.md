@@ -1,10 +1,70 @@
 # 知识库
 
-- 最近沉淀条目数：75
+- 最近沉淀条目数：95
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Staphylococcus aureus resistance to non-β-lactam antibiotics: global genomic epidemiology and machine learning feasibility assessment.](#/202603/11/202603/11/41806067-staphylococcus-aureus-resistance-to-non--lactam-antibiotics-global-genomic-epidemiology-and-machine-learning-feasibility-assessment)
+  - TLDR：针对金黄色葡萄球菌对非β-内酰胺类抗生素日益增长的耐药性问题，本研究分析了全球11万余个基因组数据，利用机器学习模型尝试预测最低抑菌浓度（MIC）。研究发现磷霉素耐药基因fosB在临床样本中高度流行且呈上升趋势；机器学习在达托霉素预测上表现尚可，但在糖肽类药物上因表型数据变异性不足而失效。该研究揭示了全球耐药趋势，并指出了当前机器学习在耐药性预测中面临的数据瓶颈。
+  - Tags：`query:pathoai`
+- [scCMA: A Contrastive Masked Autoencoder Framework for Robust Representation Learning of scRNA-seq Data.](#/202603/11/202603/11/41806153-sccma-a-contrastive-masked-autoencoder-framework-for-robust-representation-learning-of-scrna-seq-data)
+  - TLDR：针对单细胞转录组测序（scRNA-seq）数据中存在的高维、稀疏、噪声及批次效应等挑战，scCMA 框架结合了对比学习与掩码自编码器技术。该方法通过对比模块增强细胞类型间的区分度并隐式消除批次偏差，同时利用掩码重建机制捕捉全局转录依赖并识别稀有特征。实验证明，scCMA 在细胞聚类、批次校正、稀有细胞识别及发育轨迹推断任务中均表现优异，为单细胞生物学研究提供了稳健的表示学习方案。
+  - Tags：`query:seqai`
+- [Culture-Free Microfluidics for Ultra-Rapid Antimicrobial Susceptibility Testing with AI in Resource-Limited Settings.](#/202603/11/202603/11/41810551-culture-free-microfluidics-for-ultra-rapid-antimicrobial-susceptibility-testing-with-ai-in-resource-limited-settings)
+  - TLDR：针对资源匮乏地区抗生素耐药性检测（AST）依赖培养、耗时长且成本高的问题，研究者开发了一种成本仅0.62美元的离心微流控芯片（μCFC-shv）。该芯片利用仿生自修复阀门技术实现了细菌的高倍富集与抗生素梯度生成，并结合机器学习模型自动分析结果。该方案无需细菌培养，在30分钟内即可完成药敏试验，准确率达97.39%，为全球抗击耐药性提供了低成本、超快速的诊断工具。
+  - Tags：`query:pathoai`
+- [Not all vaginal microbiomes are equal: functional context shapes immune landscapes.](#/202603/11/202603/11/41642002-not-all-vaginal-microbiomes-are-equal-functional-context-shapes-immune-landscapes)
+  - TLDR：传统的阴道微生物组分类方法难以区分功能差异，尤其是加德纳菌主导的复杂情况。本研究开发了基于基因目录的VISTA算法，定义了25种元基因组群落状态类型（mgCSTs）。研究发现，即使同为加德纳菌主导，其功能基因表达和引发的宿主免疫反应也大不相同。这证明了阴道菌群失调不能仅看物种比例，为生殖健康精准医疗提供了功能层面的新分类标准。
+  - Tags：`query:pathoai`
+- [A tiled amplicon protocol for culture-free whole-genome sequencing of](#/202603/11/202603/11/41660836-a-tiled-amplicon-protocol-for-culture-free-whole-genome-sequencing-of)
+  - TLDR：结核分枝杆菌（TB）的传统全基因组测序依赖耗时数周的细菌培养，严重滞后于临床决策。本研究开发了名为 TB-seq 的平铺扩增子测序方案，通过设计包含 5,128 个引物的超大规模引物组，实现了直接从患者痰液样本中提取并测序 TB 全基因组。该方法将耐药性检测周期从数周缩短至数天，在低浓度和混合样本中表现优异，为资源受限地区的结核病快速诊断和流行病学监测提供了高效工具。
+  - Tags：`query:pathoai`
+- [Efficient detection and typing of phage-plasmids.](#/202603/11/202603/11/41660861-efficient-detection-and-typing-of-phage-plasmids)
+  - TLDR：噬菌体-质粒（P-Ps）兼具噬菌体和质粒的特征，导致现有工具难以将其与普通移动遗传元件区分。为此，研究者开发了 tyPPing 工具，通过分析保守蛋白质的频率和组合特征，实现了对 P-Ps 的高效识别与分类。实验证明该工具在灵敏度和可扩展性上优于现有方法，能准确识别携带抗药性或毒力因子的 P-Ps，为研究细菌进化和临床致病机理提供了可靠的生物信息学基础。
+  - Tags：`query:seqai`
+- [Computational modelling of the equine arteritis virus GP5/M Dimer: Implications for immune evasion and virulence.](#/202603/11/202603/11/41805756-computational-modelling-of-the-equine-arteritis-virus-gp5m-dimer-implications-for-immune-evasion-and-virulence)
+  - TLDR：马动脉炎病毒（EAV）的GP5/M二聚体是病毒入侵和免疫逃逸的关键，但其精确结构此前尚不明确。本研究利用AlphaFold3预测了该二聚体的三维结构，并与猪繁殖与呼吸综合征病毒（PRRSV）进行了对比。结果揭示了包含中和表位的外域结构、聚糖屏蔽机制以及与毒力相关的跨膜区特征，为开发针对EAV的精准疫苗提供了分子层面的理论依据。
+  - Tags：`query:bioinfo`
+- [Bacterial β-carbonic anhydrases: a six-step prioritization framework for antibacterial target validation.](#/202603/11/202603/11/41806044-bacterial--carbonic-anhydrases-a-six-step-prioritization-framework-for-antibacterial-target-validation)
+  - TLDR：针对细菌β-碳酸酐酶（β-CAs）作为抗菌靶点验证不充分的问题，本研究构建了一个包含遗传必需性、生理相关性等六个维度的评估框架。通过对大肠杆菌、结核杆菌等四种病原体的分析，发现目前尚无β-CA异构体完全符合理想治疗靶点标准，多数存在验证缺口。该框架为未来抗菌药物研发提供了系统性的优先级评估工具和实验路线图。
+  - Tags：`query:pathoai`
+- [Underexplored maternal microbiomes: immune, metabolic, and microbial pathways shaping pregnancy outcomes.](#/202603/11/202603/11/41661098-underexplored-maternal-microbiomes-immune-metabolic-and-microbial-pathways-shaping-pregnancy-outcomes)
+  - TLDR：孕期母体微生物群对生殖生理和妊娠结局至关重要，但除肠道外的其他部位研究较少。本文综述了宫颈阴道、尿道、口腔等非肠道微生物群如何通过免疫调节和代谢信号影响母体健康。研究指出这些微生物群构成了一个协同网络，共同调节全身免疫和代谢通路，为通过精准微生物组学预测和干预早产、妊娠糖尿病等并发症提供了新视角。
+  - Tags：`query:pathoai`
+- [Identification of novel pyrazolo[4,3-c]pyridine and diazepane derivatives as potent inhibitors of](#/202603/11/202603/11/41661129-identification-of-novel-pyrazolo43-cpyridine-and-diazepane-derivatives-as-potent-inhibitors-of)
+  - TLDR：针对结核分枝杆菌耐药性及治疗周期长的问题，本研究聚焦于关键毒力因子 PtpB-Mtb 靶点。通过结合基于结构的虚拟筛选、分子动力学模拟及量子化学计算，从化合物库中筛选出潜在抑制剂。实验验证发现吡唑并[4,3-c]吡啶和二氮杂环类衍生物具有显著的抑制活性（IC50 达 14.4 µM）和极强的结合亲和力，为开发新型抗结核药物提供了具有潜力的先导化合物。
+  - Tags：`query:pathoai`
+- [Design and Mechanistic Study of Pf-15: A Linear Antimicrobial Peptide Derived from Gramicidin S Skeleton.](#/202603/11/202603/11/41733505-design-and-mechanistic-study-of-pf-15-a-linear-antimicrobial-peptide-derived-from-gramicidin-s-skeleton)
+  - TLDR：针对多重耐药菌威胁食品安全的问题，研究者基于短杆菌肽S（GS）骨架，通过开环、氨基酸替换及片段截短等策略设计出线性抗菌肽Pf-15。该肽具有稳定的α-螺旋结构，能精准靶向金黄色葡萄球菌细胞壁的脂磷壁酸，通过破坏细胞膜和诱导氧化应激杀灭病原体。实验证明Pf-15在保持高效广谱抗菌活性的同时，具有极低的溶血性和良好的生物相容性，为开发新型食品防腐剂提供了重要参考。
+  - Tags：`query:pathoai`
+- [Thirteen metagenome-assembled genomes of](#/202603/11/202603/11/41805177-thirteen-metagenome-assembled-genomes-of)
+  - TLDR：为了探究条斑紫菜共生微生物的功能，研究人员从不同发育阶段的紫菜样本中重构了13个 Paraglaciecola chathamensis 的宏基因组组装基因组（MAGs）。分析发现这些基因组编码了涉及宿主互作、营养获取、氮代谢及抗逆性相关的蛋白质。该研究揭示了 Paraglaciecola 在紫菜全基因组系统中的潜在生态作用，为理解海藻共生机制提供了重要的基因组学基础。
+  - Tags：`query:pathoai`
+- [Integrating ANI and phylogenies for re-evaluation of Fusobacterium taxonomy and disease associations.](#/202603/11/202603/11/41807455-integrating-ani-and-phylogenies-for-re-evaluation-of-fusobacterium-taxonomy-and-disease-associations)
+  - TLDR：针对梭杆菌属（Fusobacterium）特别是具核梭杆菌分类模糊的问题，本研究通过分析540个基因组的平均核苷酸一致性（ANI）和系统发育关系，确定了物种界定的ANI阈值并修订了分类体系。研究提出了基于gyrB和rpoB标记的B&B鉴定策略，无需全基因组测序即可实现精准分类，并重新评估了其与结直肠癌的关联，为相关疾病研究提供了标准化的分类框架。
+  - Tags：`query:pathoai`
+- [In silico structural and functional characterization of high-risk missense variants in MMP8, GZMK, and OASL genes associated with epidemic viral infections.](#/202603/11/202603/11/41807577-in-silico-structural-and-functional-characterization-of-high-risk-missense-variants-in-mmp8-gzmk-and-oasl-genes-associated-with-epidemic-viral-infections)
+  - TLDR：本研究针对流行性病毒感染中与免疫相关的 MMP8、GZMK 和 OASL 基因，通过计算模拟分析了其高风险错义突变对蛋白质结构和功能的影响。利用分子动力学模拟和对接技术，发现 D253N (MMP8)、L122P (GZMK) 和 W216C (OASL) 等突变显著改变了蛋白的柔韧性、紧凑度和构象稳定性。这些发现揭示了遗传变异如何通过改变免疫蛋白行为来影响个体对病毒的易感性，为后续免疫失调研究提供了理论基础。
+  - Tags：`query:bioinfo`
+- [Leveraging proteomics and machine learning for mechanism and biomarker discovery on glioma progression and transformation: from LGG to GBM.](#/202603/11/202603/11/41807981-leveraging-proteomics-and-machine-learning-for-mechanism-and-biomarker-discovery-on-glioma-progression-and-transformation-from-lgg-to-gbm)
+  - TLDR：低级别胶质瘤（LGG）具有向高级别恶化的风险，但其演化机制尚不明确。本研究通过对28名患者的61份配对胶质瘤样本进行蛋白质组学分析，揭示了Ras/p38-MAPK通路、RFC介导的DNA修复及代谢重编程在恶化过程中的关键作用。研究进一步利用机器学习构建了包含两个蛋白质标志物的预测模型，为临床监测LGG进展提供了具有转化价值的新工具。
+  - Tags：`query:seqai`
+- [Biosensing technologies for foodborne pathogen detection and healthcare: principles, emerging materials, and intelligent platforms.](#/202603/11/202603/11/41803510-biosensing-technologies-for-foodborne-pathogen-detection-and-healthcare-principles-emerging-materials-and-intelligent-platforms)
+  - TLDR：食源性致病菌威胁全球公共卫生，传统检测法耗时且难以实地部署。本文综述了结合功能纳米材料与AI/机器学习的先进生物传感平台，重点探讨了电化学、光学及微流控技术。通过引入智能模式识别与实时分析，将传统传感器升级为高灵敏度、可多路复用的智能诊断设备，为下一代食品安全监测提供了从技术创新到实际应用的系统性方案。
+  - Tags：`query:pathoai`
+- [A foundation model for multi-task cross-distribution restoration of fluorescence microscopy images.](#/202603/11/202603/11/41807447-a-foundation-model-for-multi-task-cross-distribution-restoration-of-fluorescence-microscopy-images)
+  - TLDR：针对荧光显微成像中现有模型任务单一、泛化性差的问题，本文开发了 FluoResFM 基础模型。该模型通过引入文本先验信息，在统一框架下实现了去噪、解卷积和超分辨率等多任务处理。在涵盖20多种生物结构的异质数据集上训练后，FluoResFM 展现出卓越的跨分布泛化能力，仅需单样本微调即可适配新任务，显著提升了下游细胞分割的准确性。
+  - Tags：`query:bioinfo`
+- [Deep learning-based in silico labeling for analyzing morphological features of MSCs to predict immunomodulatory capacity.](#/202603/11/202603/11/41807585-deep-learning-based-in-silico-labeling-for-analyzing-morphological-features-of-mscs-to-predict-immunomodulatory-capacity)
+  - TLDR：针对间充质干细胞（MSC）质量评估中传统标记方法具有侵入性且耗时的问题，本研究开发了一种结合深度学习与机器学习的非侵入性框架。该框架利用改进的 PreAct-ResNet50 进行细胞及细胞核的高精度实例分割并提取形态学特征，随后通过 LightGBM 模型预测免疫调节生物标志物。实验证明该系统能有效评估 MSC 效力，为细胞治疗制造中的实时质量控制提供了高效工具。
+  - Tags：`query:bioinfo`
+- [Development and validation of a high-confidence diagnostic model integrating ctDNA methylation and serum biomarkers for early-stage hepatocellular carcinoma detection.](#/202603/11/202603/11/41807813-development-and-validation-of-a-high-confidence-diagnostic-model-integrating-ctdna-methylation-and-serum-biomarkers-for-early-stage-hepatocellular-carcinoma-detection)
+  - TLDR：针对早期肝细胞癌（HCC）筛查中现有血清标志物灵敏度不足的问题，本研究开发了多模态诊断模型 GAMAD。该模型融合了 ctDNA 甲基化检测（HepaAiQ）与性别、年龄、AFP 及 DCP 等传统指标。在 1,692 例样本的临床验证中，GAMAD 在早期（0/A期）肝癌检测中实现了 86.5% 的灵敏度和 0.952 的 AUC，显著优于传统的 GALAD 模型，为高风险人群的早期精准诊断提供了强有力的辅助工具。
+  - Tags：`query:bioinfo`
+- [Fingerprinting Fluorescent](#/202603/11/202603/11/41810482-fingerprinting-fluorescent)
+  - TLDR：针对传统荧光原位杂交（FISH）技术在病原菌检测中多重检测能力受限的问题，该研究提出了一种基于DNA自组装驱动的指纹荧光原位杂交（FinFISH）策略。通过FAM、Cy3和Cy5三种荧光团的组合编码，为不同病原菌生成独特的荧光指纹，突破了成像通道数量对检测通量的限制。实验证明该方法在模拟及临床样本中均能准确识别病原菌并提供半定量信息，为临床诊断和空间微生物组学研究提供了高效工具。
+  - Tags：`query:pathoai`
 - [Artificial intelligence based approaches for prediction of antimicrobial resistance in ruminant host pathogens.](#/202603/10/202603/10/41801565-artificial-intelligence-based-approaches-for-prediction-of-antimicrobial-resistance-in-ruminant-host-pathogens)
   - TLDR：反刍动物的抗生素耐药性（AMR）严重威胁畜牧业安全，传统检测手段效率低下。本文探讨了利用机器学习和深度学习技术，通过分析病原体的基因组、蛋白质组及表型数据来预测耐药性的前沿方法。这些 AI 模型能够快速识别耐药模式并预测潜在风险，为优化临床用药决策和加强公共卫生监测提供了关键的技术支撑。
   - Tags：`query:pathoai`

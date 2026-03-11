@@ -1,0 +1,146 @@
+Title: Identification of novel pyrazolo[4,3-c]pyridine and diazepane derivatives as potent inhibitors of Mycobacterium tuberculosis protein tyrosine phosphatase B - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41661129/
+
+Markdown Content:
+Identification of novel pyrazolo[4,3-c]pyridine and diazepane derivatives as potent inhibitors of _Mycobacterium tuberculosis_ protein tyrosine phosphatase B
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Raunak Raunak et al. Infect Immun.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+Abstract
+--------
+
+Tuberculosis (TB), caused by _Mycobacterium tuberculosis_ (_M.tb_), continues to pose a critical global health threat as a leading infectious cause of mortality. Therapeutic efficacy is increasingly compromised by the emergence of multidrug-resistant strains and the limitations of existing regimens, which necessitate treatment durations of six months or longer. Protein tyrosine phosphatase B from _Mtb_ (PtpB-_Mtb_) has been recognized as a critical virulence factor, representing a promising target for novel antitubercular therapies due to its unique structural and functional properties. In this study, a comprehensive structure-based virtual screening approach was employed to identify novel small-molecule scaffolds with inhibitory potential against PtpB-_Mtb_. The ChemBridge compound library was curated and filtered for drug-like properties, followed by hierarchical molecular docking and molecular dynamics simulations to prioritize candidates with high predicted affinity and stability within the PtpB-_Mtb_ active site. Quantum mechanical calculations further characterized the electronic properties of top hits. Recombinant PtpB-_Mtb_ was expressed and purified to homogeneity, and _in vitro_ enzymatic assays were performed to evaluate the inhibitory potency and selectivity of shortlisted compounds. Two derivatives bearing pyrazolo[4,3-c]pyridine and 1,4-diazepane ring nuclei demonstrated significant inhibition of PtpB-_Mtb_ activity, exhibiting IC₅₀ values of 14.4 µM and 32.6 µM, respectively. Biolayer interferometry confirmed strong and specific binding to PtpB-Mtb, with dissociation constants (K d) of 0.012 µM and 0.57 µM. The integrated workflow presented herein highlights the potential of these novel scaffolds as starting points for the development of selective, cell-permeable PtpB-_Mtb_ inhibitors, offering a promising avenue for next-generation anti-tubercular drug discovery.
+
+**Keywords:** Mycobacterium tuberculosis; drug discovery; inhibitors; molecular dynamics simulation; protein tyrosine phosphatase B; pyrazolo[4,3-c] pyridine and diazepane; therapeutic.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+The authors declare no conflict of interest.
+
+Figures
+-------
+
+[![Image 1: Fig 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/fecb092c6d93/iai.00738-25.f001.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/12945d876dca/iai.00738-25.f001.jpg)
+
+**Fig 1**
+Validation of docking using retro validation—OMTS docked pose (green) and co-crystallized pose (blue).
+
+[![Image 2: Fig 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/1a2958eb6ae6/iai.00738-25.f002.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/8bdf08574919/iai.00738-25.f002.jpg)
+
+**Fig 2**
+ROC curve for docking protocol validation-ROC curve demonstrating the screening performance of the Glide XP docking protocol. The curve plots true-positive rate (sensitivity) against false-positive rate (1-specificity) for discrimination between known PtpB-Mtb inhibitors and decoy compounds. The AUC of 0.901 indicates excellent screening performance, substantially exceeding random selection (diagonal dashed line, AUC = 0.5). This high discriminative power validates the protocol’s capability to prioritize active compounds in prospective virtual screening campaigns.
+
+[![Image 3: Fig 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/1c7b557d727b/iai.00738-25.f003.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/99f8f9fb7bfd/iai.00738-25.f003.jpg)
+
+**Fig 3**
+Virtual screening of the ChemBridge compound library against Mtb-PtpB. A panel of eight compounds (D2, D3, and D5–D10) with high binding affinity toward the target protein was selected. The structures shown represent the top-ranking candidates prioritized for further _in vitro_ validation based on binding interactions, drug-likeness, and predicted pharmacokinetic properties.
+
+[![Image 4: Fig 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/f1f6c967f816/iai.00738-25.f004.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/11322bfe9231/iai.00738-25.f004.jpg)
+
+**Fig 4**
+MD simulation analysis of the OMTS–PtpB complex. (**A**) Representative 3D interaction snapshot showing key hydrogen bonds, hydrophobic, and ionic contacts formed between OMTS and the binding site residues. (**B**) 2D interaction diagram depicting persistent interactions with critical residues such as Asp165, Lys166, and Glu62 throughout the 100 ns trajectory. (**C**) RMSD plot of the protein backbone indicating complex stability over time. (**D**) RMSF plot illustrating residue-level flexibility, with limited mobility near the active site and higher fluctuations at peripheral loops.
+
+[![Image 5: Fig 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/9bab944900be/iai.00738-25.f005.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/1c4ed0c33e56/iai.00738-25.f005.jpg)
+
+**Fig 5**
+MD simulation analysis of compound 53747349 (D6) in complex with PtpB-Mtb over 500 ns. (**A**) Interaction profile histogram showing the fraction of simulation time each interaction type was maintained. (**B**) 2D ligand interaction diagram with key active site residues ASP165 and TYR125. (**C**) Protein backbone RMSD trajectory demonstrating complex equilibration and stability. (**D**) Per-residue RMSF values highlighting rigid binding site residues versus flexible peripheral loops. The complex maintained ≥7 simultaneous contacts throughout the simulation.
+
+[![Image 6: Fig 6](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/c6df051a1b8f/iai.00738-25.f006.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/6ac4046b61c2/iai.00738-25.f006.jpg)
+
+**Fig 6**
+MD simulation analysis of compound 24807456 (D9) in complex with PtpB-Mtb over 500 ns. (**A**) Interaction profile histogram showing sustained hydrogen bonding and hydrophobic contacts. (**B**) 2D ligand interaction diagram illustrating engagement with catalytic residues LYS164 and ILE203. (**C**) RMSD plot indicating structural stability with fluctuations between 1.5 and 3.5 Å. (**D**) RMSF analysis confirming limited active site flexibility. The complex maintained ≥7 simultaneous contacts throughout the trajectory.
+
+[![Image 7: Fig 7](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/9ba71504bf4d/iai.00738-25.f007.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/62a8e121062f/iai.00738-25.f007.jpg)
+
+**Fig 7**
+MD simulation analysis of apo-protein PtpB-Mtb. (**A**) RMSD trajectories of protein backbone comparing apo PtpB-Mtb with ligand-bound complexes over a 100 ns simulation. The apo protein shows higher RMSD fluctuations, indicating reduced structural stability in the absence of ligand. (**B**) RMSF profiles comparing residue flexibility between apo and ligand-bound states. Active site residues exhibit reduced flexibility upon ligand binding, demonstrating stabilization of the binding pocket region.
+
+[![Image 8: Fig 8](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/cc0918c5cf3d/iai.00738-25.f008.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/11f1981246ff/iai.00738-25.f008.jpg)
+
+**Fig 8**
+Representative snapshots of (**A**) compound D6 and (**B**) compound D9 in complex with PtpB-Mtb extracted at **(i)** 0, **(ii**) 100, **(iii)** 200, **(iv)** 300, **(v)** 400, and**(vi)** 500 ns of MD simulation in both (**A**) and (**B**). Ligands are shown in stick representation (colored by element: D6—orange and D9—blue), protein backbone is displayed as gray cartoon. All snapshots are shown from consistent viewing angles to facilitate comparison. The binding poses remain stable throughout the 500 ns trajectory, demonstrating persistent protein–ligand interactions.
+
+[![Image 9: Fig 9](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/c929a557adf0/iai.00738-25.f009.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/2ed386697cc6/iai.00738-25.f009.jpg)
+
+**Fig 9**
+QM surface map analysis of compounds 53747349 (D6) and 24807456 (D9). DFT calculations were performed to explore the electronic characteristics of compounds (**A**) D6 and (**B**) D9. (**a**) and (**b**) display the HOMO and LUMO distributions, respectively, highlighting the regions involved in electron donation and acceptance. (**c**) illustrates the ALIE maps, indicating potential sites for electrophilic attack. (**d**) shows the ESP maps, with red and blue regions denoting areas of negative and positive potential, respectively. Together, these surface properties offer insight into the reactivity and interaction potential of the compounds with target biomolecules.
+
+[![Image 10: Fig 10](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/867003b9b7c4/iai.00738-25.f010.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/6622f284d619/iai.00738-25.f010.jpg)
+
+**Fig 10**
+Inhibition profile, binding mode, and interaction pattern of top hits with Mtb-PtpB. (**A**) shows the inhibition of Mtb-PtpB activity using pNPP as the substrate. All candidates were tested at a concentration of 50 µM, among which compounds 125340 and 21595 exhibited the most significant inhibition. The ligands 53747349 (D6) and 24807456 (D9) are shown separately to highlight their respective interaction patterns with key active-site residues in panels **B(i)** and **B(ii)**, respectively. In **B(i)**, the ligand forms hydrogen bonds with GLU129, ASP165, and LYS164 and is surrounded by hydrophobic residues including PHE98, PHE161, CYS160, and ALA162. In **B(ii)**, the ligand forms hydrogen bonds with ASP165, ARG166, and LYS164 and engages in hydrophobic interactions with residues such as PHE98, PHE161, LEU227, and MET206. The presence of a sulfur atom in the ligand core may contribute to additional stabilizing interactions, and the extended hydrophobic tail enhances the overall binding affinity. The interactions suggest stabilization via hydrogen bonding and hydrophobic contacts within the binding pocket. Hydrogen bonds, hydrophobic interactions, and other critical contacts stabilizing the ligands within the binding pocket are indicated. The binding modes of compounds 53747349 (D6) and 24807456 (D9) within the active site of Mtb-PtpB are illustrated in panels **C(i)** and **C(ii)**, respectively. Color codes: Red arrows: hydrogen bonds, green arrows: π–π stacking or hydrophobic interactions, residue color: orange (acidic), blue (basic), green (hydrophobic), light blue (polar uncharged).
+
+[![Image 11: Fig 11](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/12d0e1cd2fe1/iai.00738-25.f011.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/ed4fb971342f/iai.00738-25.f011.jpg)
+
+**Fig 11**
+IC50 and type of inhibition calculations for identified inhibitors. (**A**) **(i)** Dose–response curve showing the half-maximal inhibitory concentration (IC₅₀) of compound D6 (53747349) on Mtb-PtpB activity, with an IC₅₀ of 32.62 ± 17.6 µM determined by nonlinear regression analysis (log[inhibitor] vs. response, three-parameter fit). (**A**) **(ii)** Dose–response curve showing the IC₅₀ of compound D9 (24807456), with an IC₅₀ of 14.39 ± 2.4 µM obtained under identical conditions. Each data point represents the mean ± SD of three independent experiments (_n_ = 3), each performed in technical triplicate. (**B**) Lineweaver–Burk plots illustrating the mode of inhibition by compounds D6 and D9. (**B**) **(i)** D6 (53747349) exhibits competitive inhibition with a K i of 29 ± 10.2 µM, as seen by the convergence of lines on the y-axis with increasing inhibitor concentrations (0, 10, and 50 μM), indicating unchanged Vmax and increased K m. (**B**) **(ii)** D9 (24807456) exhibits competitive inhibition with a K i of 7.2 ± 4.0 µM, as seen by the convergence of lines on the y-axis with increasing inhibitor concentrations (0, 10, and 50 μM), indicating unchanged Vmax and increased K m. Each data point represents the mean ± SD of three independent experiments (_n_ = 3), each performed in technical triplicate.
+
+[![Image 12: Fig 12](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/38356b16d57d/iai.00738-25.f012.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/fd7892cc98ca/iai.00738-25.f012.jpg)
+
+**Fig 12**
+Binding analysis of compounds 53747349 (D6) and 24807456 (D9) with Mtb-PtpB using BLI. (**A**) and (**B**) show the BLI response plots depicting the binding kinetics of compounds 53747349 (D6) and 24807456 (D9), respectively, at varying concentrations to Mtb-PtpB (12.5 µM, 25 µM, and 50 µM) immobilized on Ni-NTA biosensors. Sensors with Mtb-PtpB but without compound (buffer only) were used as references, and the reference data were subtracted prior to fitting analysis. Data were fitted using the local binding model in the Octet BLI Systems Software. Dotted lines represent indicated raw data. The kinetic analysis revealed a dissociation constant Kd of 0.5704 µM for D6 and 0.0124 µM for D9, with a corresponding _R_ ² value of 0.94 for D6 and 0.96 for D9, indicating a strong and specific binding interaction with the target protein.
+
+[![Image 13: Fig 13](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/bdc9fafd9131/iai.00738-25.f013.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/30ea/12974134/af83531b1d5b/iai.00738-25.f013.jpg)
+
+**Fig 13**
+Cytotoxic effects of compounds 53747349 (D6) and 24807456 (D9) on HEK293T cells. HEK293T cells were seeded at a density of 5 × 10³ cells per well in 96-well plates and allowed to reach approximately 80% confluency. Cells were then treated with increasing concentrations of compounds (**A**) D6 (53747349) and (**B**) D9 (24807456) for 72 h. Cytotoxicity was assessed using the MTT assay, which measures mitochondrial metabolic activity as an indicator of cell viability. Following treatment, MTT reagent was added for 2 h to allow for the formation of insoluble formazan crystals, which were subsequently solubilized in DMSO. Absorbance was measured at 530 nm using a microplate reader. Relative cell viability was calculated as a percentage of the untreated control (CON). A significant reduction in cell viability was observed at the highest concentration of D6 (300 µM), while D9 showed minimal cytotoxicity across the tested concentrations.
+
+References
+----------
+
+1.       1.    Vickers CF, Silva APG, Chakraborty A, Fernandez P, Kurepina N, Saville C, Naranjo Y, Pons M, Schnettger LS, Gutierrez MG, Park S, Kreiswith BN, Perlin DS, Thomas EJ, Cavet JS, Tabernero L. 2018. Structure-based design of MptpB inhibitors that reduce multidrug-resistant Mycobacterium tuberculosis survival and infection burden in vivo. J Med Chem 61:8337–8352. doi: 10.1021/acs.jmedchem.8b00832 - [DOI](https://doi.org/10.1021/acs.jmedchem.8b00832) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6459586/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/30153005/)
+
+2.       1.    Jain M, Gollapudi S, Khatik GL. 2023. An insight into MptpB inhibitors as a key strategy to treat MDR and XDRTuberculosis. Curr Pharm Des 29:562–575. doi: 10.2174/1381612829666230308112634 - [DOI](https://doi.org/10.2174/1381612829666230308112634) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/36892024/)
+
+3.       1.    Ruddraraju KV, Aggarwal D, Niu C, Baker EA, Zhang RY, Wu L, Zhang ZY. 2020. Highly potent and selective N-Aryl oxamic acid-based inhibitors for Mycobacterium tuberculosis protein tyrosine phosphatase B. J Med Chem 63:9212–9227. doi: 10.1021/acs.jmedchem.0c00302 - [DOI](https://doi.org/10.1021/acs.jmedchem.0c00302) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7688068/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/32787087/)
+
+4.       1.    Bagcchi S. 2023. WHO’s global tuberculosis report 2022. Lancet Microbe 4:e20. doi: 10.1016/S2666-5247(22)00359-7 - [DOI](https://doi.org/10.1016/s2666-5247(22)00359-7) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/36521512/)
+
+5.       1.    Beresford NJ, Mulhearn D, Szczepankiewicz B, Liu G, Johnson ME, Fordham-Skelton A, Abad-Zapatero C, Cavet JS, Tabernero L. 2009. Inhibition of MptpB phosphatase from Mycobacterium tuberculosis impairs mycobacterial survival in macrophages. J Antimicrob Chemother 63:928–936. doi: 10.1093/jac/dkp031 - [DOI](https://doi.org/10.1093/jac/dkp031) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/19240079/)
+
+MeSH terms
+----------
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+Substances
+----------
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+LinkOut - more resources
+------------------------
+
+*   ### Full Text Sources
+
+    *   [Atypon](https://journals.asm.org/doi/10.1128/iai.00738-25?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
