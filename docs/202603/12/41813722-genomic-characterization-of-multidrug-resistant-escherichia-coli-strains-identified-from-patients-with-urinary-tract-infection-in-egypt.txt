@@ -1,0 +1,68 @@
+Title: Genomic characterization of multidrug-resistant Escherichia coli strains identified from patients with urinary tract infection in Egypt - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41813722/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 11.
+
+doi: 10.1038/s41598-026-40536-0.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **41813722**
+*    DOI: [10.1038/s41598-026-40536-0](https://doi.org/10.1038/s41598-026-40536-0)
+
+Genomic characterization of multidrug-resistant Escherichia coli strains identified from patients with urinary tract infection in Egypt
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Nancy M El Halfawy et al. Sci Rep.2026.
+
+Abstract
+--------
+
+Extended-spectrum β-lactamases-producing Escherichia coli (ESBL-EC) pose a serious threat. Moreover, widespread antimicrobial use in Egypt increased the prevalence of antimicrobial resistance (AMR). In this study, whole-genome sequencing (WGS) using the Illumina NovaSeq 6000 was performed on two isolates (UPE7 and UPE139) recovered from participants with urinary tract infections to characterize their resistomes and virulomes. Antibiotic resistance and virulence genes of the two clinical E. coli strains were predicted using computational analysis tools. Several virulence traits and antibiotic resistance genes (ARGs) were identified. Strain UPE7 harbored bla TEM-1B, bla CTM-X-15, bla CMY-2, and strain UPE139 revealed the presence of bla OXA-244, bla TEM-12, bla TEM-82, and bla CTM-X-15 rending the resistance phenotype. The presence of mobile genetic elements adjacent to ARGs thereby suggests their potential for dissemination through horizontal gene transfer. Furthermore, the serotyping in silico investigation revealed that E. coli UPE7 and UPE139 serotypes were O8:H9 and O9:H30, respectively. Notably, key mutations in the gyrA, parC, and parE genes were predicted, consistent with their confirmed resistance to levofloxacin. These findings emphasize the importance of genomic surveillance to guide antimicrobial therapy and monitor emerging high-risk clones, and they support the need for larger-scale genomic studies to improve epidemiological understanding and clinical relevance.
+
+**Keywords:** Escherichia coli; Extended-spectrum β-lactamases (ESBLs); Horizontal gene transfer (HGT); Urinary tract infection (UTI).
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+Declarations. Competing interests: The authors declare no competing interests. Ethics declarations: The Institutional Review Board of Mansoura University, Egypt, approved the study (IRB: R.25.01.3002) on 21-8-2023. The study does not include any personal data, and the patients did not directly participate in this research work; informed consent was obtained from the patients. All study processes were conducted in accordance with the principles guiding research involving human participants as set out in the Declaration of Helsinki.
+
+Similar articles
+----------------
+
+*   [Pathogenomics analysis of high-risk clone ST147 multidrug-resistant Klebsiella pneumoniae isolated from a patient in Egypt.](https://pubmed.ncbi.nlm.nih.gov/38987681/)
+
+Elgayar FA, Gouda MK, Badran AA, El Halfawy NM.Elgayar FA, et al.BMC Microbiol. 2024 Jul 10;24(1):256. doi: 10.1186/s12866-024-03389-z.BMC Microbiol. 2024.PMID: 38987681 Free PMC article. 
+*   [Fluoroquinolone resistant _Escherichia coli_ in community: molecular analyses of resistance genes, virulence factors, and antimicrobial susceptibility test.](https://pubmed.ncbi.nlm.nih.gov/41676060/)
+
+Tano ZN, Soncini JG, Koga VL, Pimenta JS, Castilho POS, Moreira MJO, Cardoso AC, Sugiura L, Kobayashi RKT, Lincopan N, Pavanelli WR, Vespero EC.Tano ZN, et al.Front Microbiol. 2026 Jan 27;17:1730332. doi: 10.3389/fmicb.2026.1730332. eCollection 2026.Front Microbiol. 2026.PMID: 41676060 Free PMC article. 
+*   [Whole genome global insight of antibiotic resistance gene repertoire and virulome of high - risk multidrug-resistant Uropathogenic Escherichiacoli.](https://pubmed.ncbi.nlm.nih.gov/34695556/)
+
+Mitra SD, Irshad P, Anusree M, Rekha I, Shailaja S, Suresh J, Aishwarya G, Shrestha S, Shome BR.Mitra SD, et al.Microb Pathog. 2021 Dec;161(Pt A):105256. doi: 10.1016/j.micpath.2021.105256. Epub 2021 Oct 22.Microb Pathog. 2021.PMID: 34695556 
+*   [Characterization of antibiotic resistance genes and mobile elements in extended-spectrum β-lactamase-producing Escherichia coli strains isolated from hospitalized patients in Guangdong, China.](https://pubmed.ncbi.nlm.nih.gov/37336594/)
+
+Shafiq M, Bilal H, Permana B, Xu D, Cai G, Li X, Zeng M, Yuan Y, Jiao X, Yao F.Shafiq M, et al.J Appl Microbiol. 2023 Jul 4;134(7):lxad125. doi: 10.1093/jambio/lxad125.J Appl Microbiol. 2023.PMID: 37336594 
+*   [Characterization of Extended-Spectrum β-Lactamase-Producing _Escherichia coli_ Isolates That Cause Diarrhea in Sheep in Northwest China.](https://pubmed.ncbi.nlm.nih.gov/35943154/)
+
+Zhao X, Zhao H, Zhou Z, Miao Y, Li R, Yang B, Cao C, Xiao S, Wang X, Liu H, Wang J, Yang Z.Zhao X, et al.Microbiol Spectr. 2022 Aug 31;10(4):e0159522. doi: 10.1128/spectrum.01595-22. Epub 2022 Aug 9.Microbiol Spectr. 2022.PMID: 35943154 Free PMC article.Review. 
+
+References
+----------
+
+1.       1.    Chinemerem Nwobodo, D. et al. Antibiotic resistance: The challenges and some emerging strategies for tackling a global menace. J. Clin. Lab. Anal. 36, e24655. [https://doi.org/10.1002/jcla.24655](https://doi.org/10.1002/jcla.24655) (2022). 
+
+2.       1.    Endale, H., Mathewos, M. & Abdeta, D. Potential causes of the spread of antimicrobial resistance and preventive measures in one health perspective Review. Infect. Drug Resist. 16, 7515–7545. [https://doi.org/10.2147/IDR.S428837](https://doi.org/10.2147/IDR.S428837) (2023). 
+
+3.       1.    Mann, A., Nehra, K., Rana, J. S. & Dahiya, T. Antibiotic resistance in agriculture: Perspectives on upcoming strategies to overcome upsurge in resistance. Curr. Res. Microb. Sci. 2, 100030. [https://doi.org/10.1016/j.crmicr.2021.100030](https://doi.org/10.1016/j.crmicr.2021.100030) (2021). 
+
+4.       1.    Matheou, A. et al. Antibiotic Use in Livestock Farming: A Driver of Multidrug Resistance? Microorganisms 13, 779. [https://doi.org/10.3390/microorganisms13040779](https://doi.org/10.3390/microorganisms13040779) (2025). 
+
+5.       1.    Rosini, R., Nicchi, S., Pizza, M. & Rappuoli, R. Vaccines against antimicrobial resistance. Front. Immunol. 11, 1048. [https://doi.org/10.3389/fimmu.2020.01048](https://doi.org/10.3389/fimmu.2020.01048) (2020).

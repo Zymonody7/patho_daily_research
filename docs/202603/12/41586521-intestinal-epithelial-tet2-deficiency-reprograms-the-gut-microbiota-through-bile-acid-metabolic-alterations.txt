@@ -1,0 +1,114 @@
+Title: Intestinal epithelial Tet2 deficiency reprograms the gut microbiota through bile acid metabolic alterations - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41586521/
+
+Markdown Content:
+Intestinal epithelial Tet2 deficiency reprograms the gut microbiota through bile acid metabolic alterations
+-----------------------------------------------------------------------------------------------------------
+
+Nan Wang et al. mBio.2026.
+
+Abstract
+--------
+
+Epigenetic mechanisms are increasingly recognized as critical regulators of host-microbiota interactions, yet their specific roles in gut homeostasis remain elusive. Here, we demonstrate that intestinal epithelial-specific deletion of the DNA demethylase Tet2 leads to structural abnormalities, impaired barrier function, and remarkable reprogramming of the gut microbiota. Mechanistically, Tet2 deficiency downregulated the apical sodium-dependent bile acid transporter ASBT/Slc10a2, resulting in altered bile acid homeostasis with luminal accumulation of hyocholic acid (HCA). This metabolic shift created a favorable niche for the selective expansion of bile salt hydrolase (BSH)-expressing Lactobacillus species. Furthermore, we identified an age-dependent regulatory role of HCA, which promoted Lactobacillus in young mice but enriched _Akkermansia_ in aged animals. Our findings establish an epigenetic-metabolic-microbial axis centered on Tet2-mediated bile acid regulation, providing new insights into how host epigenetic factors shape the gut microbial ecosystem in an age-sensitive manner.IMPORTANCEWhile the gut microbiota is known to influence host physiology, the molecular mechanisms by which the host epigenetically regulates microbial composition remain largely unexplored. Our work reveals that the epigenetic enzyme Tet2 in intestinal epithelial cells acts as a master regulator of gut microbial ecology by modulating bile acid metabolism. The discovery that Tet2 deletion drives hyocholic acid (HCA) accumulation-which exerts age-dependent effects on _Lactobacillus_ and _Akkermansia_-provides a novel principle for understanding host-microbe interactions across the lifespan. By linking epithelial DNA demethylation to bile acid transport and microbial phenotype, we establish a previously unrecognized Tet2-ASBT-HCA pathway that expands the conceptual framework for microbiota research. These insights open new avenues for therapeutic interventions aimed at reversing microbial dysbiosis through epigenetic or metabolic modulation.
+
+**Keywords:** ASBT; Tet2; bile acid; gut microbiota.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+The authors declare no conflict of interest.
+
+Figures
+-------
+
+[![Image 1: Fig 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5f59/12977613/1a151cab7804/mbio.03562-25.f001.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5f59/12977613/81da8b502c3e/mbio.03562-25.f001.jpg)
+
+**Fig 1**
+The impact of intestinal epithelial Tet2 deficiency on epithelial architecture, bile acid metabolism, and gut microbiota composition. (**A**) Representative hematoxylin and eosin (H&E) stained images of the ileum and colon are presented. Tet2-iKO mice exhibit submucosal gaps at the villus tips (indicated by red arrows) and focal epithelial shedding with exposed lamina propria in the colon (indicated by black arrows) compared to wild-type (WT) mice. (**B and C**) Quantitative analysis of crypt depth in the ileum (**B**) and muscularis thickness in the colon (**C**) is provided (_n_ = 4). (**D**) The relative expression levels of epithelial lineage marker genes (Lgr5, Alpi, Clca1, Muc2, Chga, Vil1) in the ileum are shown (_n_ = 5). (**E**) There is a downregulation of bile acid transporter genes (Slc10a2) in Tet2-iKO mice (_n_ = 5). (**F**) In Caco-2 cells, Tet2 knockdown or inhibition using the Tet2 inhibitor Bobcat 339 results in decreased ASBT protein levels, whereas Tet2 activation via ascorbic acid leads to increased ASBT expression. (**G**) Dot blot analysis of 5hmC levels in control versus Tet2-knockdown Caco-2 cells (_n_ = 3). (**H**) Chromatin immunoprecipitation (ChIP)-qPCR showing Tet2 enrichment at the _Slc10a2_ promoter region in Caco-2 cells; IgG was used as a control (_n_ = 3). (**I**) Young Tet2-iKO mice exhibit increased fecal bile acid excretion and elevated bile acid levels in plasma and liver compared to WT littermates (_n_ = 5). (**J**) Hepatic expression of the bile acid synthesis enzyme Cyp27a1 (_n_ = 4). (**K**) Metabolomic profiling reveals elevated fecal hyocholic acid (HCA) in Tet2-iKO mice. (**L**) Molecular docking predicts favorable binding of HCA within the ASBT binding site. (**M**) Surface plasmon resonance (SPR) confirms direct binding between HCA and ASBT. (**N and O**) 16S rRNA sequencing shows altered microbiota composition and increased abundance of _Lactobacillus_ in Tet2-iKO mice (_n_ = 3). (**P**) _In vitro_ bacterial growth assay demonstrates the dose-dependent effect of HCA on _Lactobacillus_ proliferation. Differences between the two groups were assessed by Student’s _t_-test; multiple groups were compared by one-way ANOVA. Alpha-diversity indices (ACE, Chao1, Simpson) were analyzed using the Wilcoxon rank-sum test. Data are mean ± SEM, *_P_< 0.05, **_P_< 0.01, ***_P_< 0.001, ****_P_< 0.0001.
+
+[![Image 2: Fig 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5f59/12977613/12b58eca6d80/mbio.03562-25.f002.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5f59/12977613/5c9fadd5c0d9/mbio.03562-25.f002.jpg)
+
+**Fig 2**
+Tet2 deletion and HCA administration alter gut microbiota composition in an age-dependent manner. (**A**) Fecal microbiota analysis in middle-aged (5-month-old) Tet2-iKO and wild-type (WT) mice, showing sustained enrichment of _Lactobacillus_ and reduction of _Akkermansia muciniphila_ (AKK) in knockout mice. (**B**) Fecal HCA levels are reduced in aged Tet2-iKO mice compared to age-matched WT controls (_n_ = 3). (**C**) In contrast to younger mice, aged (12-month-old) Tet2-iKO mice exhibit decreased _Lactobacillus_ and increased AKK. (**D**) Tet2 deletion significantly reduces fecal HCA levels in both young and aged mice (_n_ = 3). (**E**) Relative abundance of AKK and _Lactobacillus_ in young versus aged mice (_n_ = 6). (**F**) HCA treatment in young mice increases _Lactobacillus_ and decreases AKK (_n_ = 6). (**G**) In middle-aged mice, HCA administration enriches AKK while suppressing _Lactobacillus_, indicating an age-dependent microbial response (_n_ = 6). (**H**) Intestinal expression of Fxr and Tgr5 is downregulated in young Tet2-iKO mice (_n_ = 6). (**I**) Effects of aging and HCA treatment on bile acid receptor expression (_n_ = 6). (**J**) Schematic of the _ex vivo_ fecal incubation assay. Fecal samples from young and aged mice were cultured and treated with HCA, followed by BSH activity measurement. (**K**) BSH activity in HCA-treated fecal cultures (_n_ = 6). For multi-group comparisons, two-way ANOVA with Tukey’s or Sidak’s post hoc test was used. Data are mean ± SEM, *_P_< 0.05, **_P_< 0.01, ***_P_< 0.001, ****_P_< 0.0001.
+
+Similar articles
+----------------
+
+*   [Gut microbiota inhibit Asbt-dependent intestinal bile acid reabsorption via Gata4.](https://pubmed.ncbi.nlm.nih.gov/26022694/)
+
+Out C, Patankar JV, Doktorova M, Boesjes M, Bos T, de Boer S, Havinga R, Wolters H, Boverhof R, van Dijk TH, Smoczek A, Bleich A, Sachdev V, Kratky D, Kuipers F, Verkade HJ, Groen AK.Out C, et al.J Hepatol. 2015 Sep;63(3):697-704. doi: 10.1016/j.jhep.2015.04.030. Epub 2015 May 27.J Hepatol. 2015.PMID: 26022694 Free PMC article. 
+*   [Small molecule inhibition of gut microbial choline trimethylamine lyase activity alters host cholesterol and bile acid metabolism.](https://pubmed.ncbi.nlm.nih.gov/32330092/)
+
+Pathak P, Helsley RN, Brown AL, Buffa JA, Choucair I, Nemet I, Gogonea CB, Gogonea V, Wang Z, Garcia-Garcia JC, Cai L, Temel R, Sangwan N, Hazen SL, Brown JM.Pathak P, et al.Am J Physiol Heart Circ Physiol. 2020 Jun 1;318(6):H1474-H1486. doi: 10.1152/ajpheart.00584.2019. Epub 2020 Apr 24.Am J Physiol Heart Circ Physiol. 2020.PMID: 32330092 Free PMC article. 
+*   [Microbial signals drive pre-leukaemic myeloproliferation in a Tet2-deficient host.](https://pubmed.ncbi.nlm.nih.gov/29769727/)
+
+Meisel M, Hinterleitner R, Pacis A, Chen L, Earley ZM, Mayassi T, Pierre JF, Ernest JD, Galipeau HJ, Thuille N, Bouziat R, Buscarlet M, Ringus DL, Wang Y, Li Y, Dinh V, Kim SM, McDonald BD, Zurenski MA, Musch MW, Furtado GC, Lira SA, Baier G, Chang EB, Eren AM, Weber CR, Busque L, Godley LA, Verdú EF, Barreiro LB, Jabri B.Meisel M, et al.Nature. 2018 May;557(7706):580-584. doi: 10.1038/s41586-018-0125-z. Epub 2018 May 16.Nature. 2018.PMID: 29769727 Free PMC article. 
+*   [Interactions between gut bacteria and bile in health and disease.](https://pubmed.ncbi.nlm.nih.gov/28602676/)
+
+Long SL, Gahan CGM, Joyce SA.Long SL, et al.Mol Aspects Med. 2017 Aug;56:54-65. doi: 10.1016/j.mam.2017.06.002. Epub 2017 Jun 21.Mol Aspects Med. 2017.PMID: 28602676 Review. 
+*   [The gut microbiota at the intersection of bile acids and intestinal carcinogenesis: An old story, yet mesmerizing.](https://pubmed.ncbi.nlm.nih.gov/31291465/)
+
+Liu T, Song X, Khan S, Li Y, Guo Z, Li C, Wang S, Dong W, Liu W, Wang B, Cao H.Liu T, et al.Int J Cancer. 2020 Apr 1;146(7):1780-1790. doi: 10.1002/ijc.32563. Epub 2019 Jul 23.Int J Cancer. 2020.PMID: 31291465 Review. 
+
+References
+----------
+
+1.       1.    Burgess DJ. 2015. Human genetics: somatic mutations linked to future disease risk. Nat Rev Genet 16:69. doi: 10.1038/nrg3889 - [DOI](https://doi.org/10.1038/nrg3889) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/25534323/)
+
+2.       1.    Liu J-W, Zhang Z-Q, Zhu Z-C, Li K, Xu Q, Zhang J, Cheng X-W, Li H, Sun Y, Wang J-J, Hu L-L, Xiong Z-Q, Zhu Y. 2024. Loss of TET activity in the postnatal mouse brain perturbs synaptic gene expression and impairs cognitive function. Neurosci Bull 40:1699–1712. doi: 10.1007/s12264-024-01302-2 - [DOI](https://doi.org/10.1007/s12264-024-01302-2) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC11607366/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/39395911/)
+
+3.       1.    Li L, Miao M, Chen J, Liu Z, Li W, Qiu Y, Xu S, Wang Q. 2021. Role of Ten eleven translocation-2 (Tet2) in modulating neuronal morphology and cognition in a mouse model of Alzheimer’s disease. J Neurochem 157:993–1012. doi: 10.1111/jnc.15234 - [DOI](https://doi.org/10.1111/jnc.15234) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/33165916/)
+
+4.       1.    Pratt KJB, Shea JM, Remesal-Gomez L, Bieri G, Smith LK, Couthouis J, Chen CP, Roy IJ, Gontier G, Villeda SA. 2022. Loss of neuronal Tet2 enhances hippocampal-dependent cognitive function. Cell Rep 41:111612. doi: 10.1016/j.celrep.2022.111612 - [DOI](https://doi.org/10.1016/j.celrep.2022.111612) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC10032941/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/36351399/)
+
+5.       1.    Pandey SP, Bender MJ, McPherson AC, Phelps CM, Sanchez LM, Rana M, Hedden L, Sangani KA, Chen L, Shapira JH, Siller M, Goel C, Verdú EF, Jabri B, Chang A, Chandran UR, Mullett SJ, Wendell SG, Singhi AD, Tilstra JS, Pierre JF, Arteel GE, Hinterleitner R, Meisel M. 2022. Tet2 deficiency drives liver microbiome dysbiosis triggering Tc1 cell autoimmune hepatitis. Cell Host Microbe 30:1003–1019. doi: 10.1016/j.chom.2022.05.006 - [DOI](https://doi.org/10.1016/j.chom.2022.05.006) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9841318/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/35658976/)
+
+MeSH terms
+----------
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+Substances
+----------
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+Grants and funding
+------------------
+
+*   [82271593/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82271593%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82271593/National Natural Science Foundation of China")
+*   [22120240281/the Fundamental Research Funds for the Central Universities](https://pubmed.ncbi.nlm.nih.gov/?term=22120240281%2Fthe+Fundamental+Research+Funds+for+the+Central+Universities%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 22120240281/the Fundamental Research Funds for the Central Universities")
+*   [24ZR1469200/the Natural Science Foundation of Shanghai under the Shanghai Action Plan for Science, Technology, and Innovation](https://pubmed.ncbi.nlm.nih.gov/?term=24ZR1469200%2Fthe+Natural+Science+Foundation+of+Shanghai+under+the+Shanghai+Action+Plan+for+Science%2C+Technology%2C+and+Innovation%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 24ZR1469200/the Natural Science Foundation of Shanghai under the Shanghai Action Plan for Science, Technology, and Innovation")
+*   [2025-0554-YB-18/the Tongji University Medicine-X Interdisciplinary Research Initiative](https://pubmed.ncbi.nlm.nih.gov/?term=2025-0554-YB-18%2Fthe+Tongji+University+Medicine-X+Interdisciplinary+Research+Initiative%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2025-0554-YB-18/the Tongji University Medicine-X Interdisciplinary Research Initiative")
+*   [the Peak Disciplines (Type IV) of Institutions of Higher Learning in Shanghai](https://pubmed.ncbi.nlm.nih.gov/?term=the+Peak+Disciplines+%28Type+IV%29+of+Institutions+of+Higher+Learning+in+Shanghai%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant the Peak Disciplines (Type IV) of Institutions of Higher Learning in Shanghai")
+
+LinkOut - more resources
+------------------------
+
+*   ### Full Text Sources
+
+    *   [Atypon](https://journals.asm.org/doi/10.1128/mbio.03562-25?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)

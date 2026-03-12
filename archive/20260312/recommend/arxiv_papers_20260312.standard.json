@@ -1,0 +1,768 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-03-12T19:27:46.051412+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 6,
+    "deep_cap": 9,
+    "deep_selected": 6,
+    "quick_candidates": 10,
+    "quick_skim_target": 14,
+    "quick_selected": 10
+  },
+  "deep_dive": [
+    {
+      "id": "41814064",
+      "title": "Retentive Network promotes efficient RNA language modeling of long sequences.",
+      "abstract": "The latent features of RNA sequences are crucial for our understanding of their functions. Thus, Transformer-based nucleotide language models have received widespread attention; however, the O(n²) complexity of Transformer limits their ability to process long sequences. In this work, we propose RNAret, an RNA language model based on Retention Network, which achieves training parallelism, low computational overhead, and long-sequence processing through a retention mechanism, with O(n) complexity. We pretrain RNAret using a self-supervised masked language modeling approach on 29.8 million RNA sequences. Experiments demonstrate the merit of RNAret as an RNA language model, achieving superior performance on a range of tasks, including RNA-RNA interaction prediction, RNA secondary structure prediction, and mRNA/lncRNA classification. RNAret shows strong potential for extracting latent features from RNA sequences and advancing our understanding of RNA biology.",
+      "authors": [
+        "Yi Shen",
+        "Guangshuo Cao",
+        "Yueming Hu",
+        "Shilong Zhang",
+        "Jianghong Wu",
+        "Dijun Chen",
+        "Ming Chen"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41814064/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "RNA language modeling using Retentive Network for long sequences",
+      "llm_evidence_cn": "使用保留网络进行长序列RNA语言建模",
+      "llm_evidence": "使用保留网络进行长序列RNA语言建模",
+      "canonical_evidence": "使用保留网络进行长序列RNA语言建模",
+      "llm_tldr_en": "RNAret uses a Retention Network for efficient, linear-complexity RNA language modeling of long sequences.",
+      "llm_tldr_cn": "RNAret利用保留网络实现了具有线性复杂度的长序列RNA语言建模，提升了处理效率。",
+      "llm_tldr": "RNAret利用保留网络实现了具有线性复杂度的长序列RNA语言建模，提升了处理效率。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "representation learning for DNA RNA and protein sequences",
+      "matched_requirement_id": "req-36",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41739437",
+      "title": "The chemical design of antimicrobial ionic liquids guided by machine learning: a review on balancing efficacy and toxicity.",
+      "abstract": "The design of new antimicrobial materials is a critical challenge in chemistry and materials science, driven by the global threat of multidrug-resistant pathogens. Ionic liquids (ILs) represent a highly versatile class of materials, where their chemical structure can be systematically designed to achieve desired functions. However, a significant hurdle in their application as antimicrobial agents is the inherent trade-off between antibacterial efficacy and host toxicity. This review addresses this materials design challenge by focusing on the use of machine learning (ML) to guide the chemical design of ILs. We provide a comprehensive overview of the chemical mechanisms that drive both the desired antimicrobial activity and the undesired toxicity. We then detail how an understanding of these structure-property relationships is being leveraged to build predictive quantitative structure-toxicity relationship (QSTR) models. A central focus is the application of ML for multi-objective optimization, which allows for the rational design and virtual screening of ILs with optimal efficacy-toxicity profiles. By connecting the design of cationic and anionic structures to biological outcomes, this review offers a forward-looking perspective on the data-driven chemical design of the next generation of antimicrobial materials, highlighting the synergy between materials chemistry and computational science.",
+      "authors": [
+        "Zheng Liu",
+        "Qiuyu Chen",
+        "Congfei Yao",
+        "Yimin Wang",
+        "Siqi Zhu",
+        "Jinyu Guan",
+        "Yuqing Miao"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41739437/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "machine learning for antimicrobial discovery and efficacy-toxicity balancing",
+      "llm_evidence_cn": "机器学习用于抗菌药物发现及药效与毒性平衡",
+      "llm_evidence": "机器学习用于抗菌药物发现及药效与毒性平衡",
+      "canonical_evidence": "机器学习用于抗菌药物发现及药效与毒性平衡",
+      "llm_tldr_en": "Review of machine learning methods to guide the design of antimicrobial ionic liquids balancing efficacy and toxicity.",
+      "llm_tldr_cn": "综述了利用机器学习指导抗菌离子液体设计的现状，重点在于平衡抗菌效力与宿主毒性。",
+      "llm_tldr": "综述了利用机器学习指导抗菌离子液体设计的现状，重点在于平衡抗菌效力与宿主毒性。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41811907",
+      "title": "MultiPert: An adversarial alignment and dual attention framework for single-cell multi-omics perturbation prediction.",
+      "abstract": "Precise prediction of perturbation responses is essential in systems biology research, as it plays a pivotal role in characterizing cellular identities and elucidating the regulatory mechanisms of biological pathways. Existing perturbation-responses prediction approaches are predominantly confined to single-modality transcriptomic data, limiting their capacity to capture cross-layer molecular effects. Here, we present MultiPert, a deep learning framework specifically designed for predicting perturbation responses in single-cell multi-omics data. MultiPert employs modality-specific encoders with dedicated pretraining, integrates perturbation through a dual-attention mechanism, and achieves cross-modal alignment via adversarial training. Benchmarking on human THP-1 and kidney multi-omics datasets demonstrates that MultiPert reliably predicts both perturbed gene expression and protein abundance profiles, achieving superior accuracy and stability compared to state-of-the-art strategies. MultiPert generalizes to unseen perturbations and uncovers regulatory mechanisms of immune checkpoint molecules based on perturbed proteomic predictions. In addition, enrichment analyzes of perturbed transcriptomic predictions reveal immune-related pathways. By providing an integrated and interpretable framework, MultiPert expands the scope of perturbation modeling at the multi-omics level, thereby offering a robust methodological foundation for comprehensive research into pathogenesis and drug discovery.",
+      "authors": [
+        "Mengyuan Zhao",
+        "Xinyue Tang",
+        "Jiawei Li",
+        "Cheng Liang",
+        "Jijun Tang",
+        "Fei Guo"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41811907/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "deep learning for single-cell multi-omics perturbation prediction",
+      "llm_evidence_cn": "用于单细胞多组学扰动预测的深度学习框架",
+      "llm_evidence": "用于单细胞多组学扰动预测的深度学习框架",
+      "canonical_evidence": "用于单细胞多组学扰动预测的深度学习框架",
+      "llm_tldr_en": "MultiPert is a deep learning framework for predicting perturbation responses in single-cell multi-omics data.",
+      "llm_tldr_cn": "MultiPert是一个专门用于预测单细胞多组学数据中扰动反应的深度学习框架。",
+      "llm_tldr": "MultiPert是一个专门用于预测单细胞多组学数据中扰动反应的深度学习框架。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "graph learning and foundation models for gene regulatory networks and cell state transitions",
+      "matched_requirement_id": "req-34",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41814061",
+      "title": "AF2BIND: predicting small-molecule binding sites using the pair representation of AlphaFold2.",
+      "abstract": "Identification of small-molecule binding sites in proteins is an important task for drug discovery. Despite previous homology- and machine-learning-based approaches to this problem, true de novo binding-site prediction remains a challenge. Here we use features from a pretrained neural network to train a logistic regression model, AF2BIND, for accurate prediction of de novo binding sites. AF2BIND identifies binding sites without relying on homology modeling, multiple sequence alignments or knowledge of a pocket-compatible ligand. Interpretable aspects of the model can be used to predict chemical properties of compatible ligands. We apply AF2BIND on the human proteome to produce a database that includes thousands of unseen binding sites in disease-relevant proteins. We anticipate AF2BIND will be used to focus drug discovery efforts and uncover functional sites in proteins across the tree of life.",
+      "authors": [
+        "Artem Gazizov",
+        "Anna Lian",
+        "Casper Goverde",
+        "Jody Mou",
+        "Sergey Ovchinnikov",
+        "Nicholas F Polizzi"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41814061/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Predicting small-molecule binding sites using AlphaFold2 pair representations",
+      "llm_evidence_cn": "利用AlphaFold2对表示预测小分子结合位点",
+      "llm_evidence": "利用AlphaFold2对表示预测小分子结合位点",
+      "canonical_evidence": "利用AlphaFold2对表示预测小分子结合位点",
+      "llm_tldr_en": "AF2BIND uses AlphaFold2 features to accurately predict de novo small-molecule binding sites in proteins.",
+      "llm_tldr_cn": "AF2BIND利用AlphaFold2特征准确预测蛋白质中的从头小分子结合位点。",
+      "llm_tldr": "AF2BIND利用AlphaFold2特征准确预测蛋白质中的从头小分子结合位点。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "protein language models for structure function prediction and design",
+      "matched_requirement_id": "req-16",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41670347",
+      "title": "An inducible CRISPRi system for phenotypic analysis of essential genes in",
+      "abstract": "Precise and tunable genetic tools are essential for high-throughput functional genomics. To address this need in the important gram-negative pathogen Pseudomonas aeruginosa, we developed and characterized a tightly regulated CRISPR-interference (CRISPRi) system that enables precise and tunable repression of essential genes. The system utilizes a rhamnose-inducible promoter to control both the Streptococcus pasteurianus-derived dCas9 and gene-specific sgRNAs, each encoded on separate plasmids for modularity and efficiency. The combination of tight regulation and high conjugation efficiency facilitated the rapid and facile construction of strains with regulated depletion of 16 essential genes spanning diverse pathways. Comparison of phenotypes across the different genetically depleted strains, including growth rate, susceptibility to antibiotics, and changes in transcriptional programs, revealed novel aspects of gene function or small-molecule mechanism of action. Finally, the rhamnose-inducible CRISPRi system supports the generation and stable maintenance of pooled mutant libraries, thereby paving the way for future genome-wide, systematic assessment of individual gene vulnerabilities, which will provide critical insights for target prioritization in antibiotic discovery efforts against this recalcitrant pathogen.IMPORTANCECRISPR-interference (CRISPRi) has become an invaluable tool for studying genetics. In particular, the ability to knockdown (KD) genes enables the study of essential genes and their role in cell survival. However, a tightly regulated gene KD system is required to gain valuable insights into these vulnerable genes by virtue of their essentiality. We report a tightly regulated CRISPRi system to study the biology of essential gene perturbations in Pseudomonas aeruginosa, an important gram-negative pathogen that causes severe infections and is increasingly resistant to current antibiotics. This system enables characterization of both chemical genetic interactions between small molecules and specific gene depletions and the impact of genetic perturbations on transcriptional networks. Genetic perturbations using CRISPRi can thus further our understanding of basic biology with translation toward future antimicrobial development.",
+      "authors": [
+        "Jaryd R Sullivan",
+        "Kristina M Ferrara",
+        "Rebecca Barrick",
+        "Keith P Romano",
+        "Thulasi Warrier",
+        "Deborah T Hung"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41670347/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "inducible CRISPRi system for functional genomics in pathogens",
+      "llm_evidence_cn": "用于病原体功能基因组学的诱导型 CRISPRi 系统",
+      "llm_evidence": "用于病原体功能基因组学的诱导型 CRISPRi 系统",
+      "canonical_evidence": "用于病原体功能基因组学的诱导型 CRISPRi 系统",
+      "llm_tldr_en": "Development of a regulated CRISPRi system for high-throughput functional genomics in Pseudomonas aeruginosa.",
+      "llm_tldr_cn": "开发了一种受控的 CRISPRi 系统，用于铜绿假单胞菌的高通量功能基因组学研究。",
+      "llm_tldr": "开发了一种受控的 CRISPRi 系统，用于铜绿假单胞菌的高通量功能基因组学研究。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI for CRISPR design gene editing outcome prediction and perturbation modeling",
+      "matched_requirement_id": "req-33",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41813722",
+      "title": "Genomic characterization of multidrug-resistant Escherichia coli strains identified from patients with urinary tract infection in Egypt.",
+      "abstract": "Extended-spectrum β-lactamases-producing Escherichia coli (ESBL-EC) pose a serious threat. Moreover, widespread antimicrobial use in Egypt increased the prevalence of antimicrobial resistance (AMR). In this study, whole-genome sequencing (WGS) using the Illumina NovaSeq 6000 was performed on two isolates (UPE7 and UPE139) recovered from participants with urinary tract infections to characterize their resistomes and virulomes. Antibiotic resistance and virulence genes of the two clinical E. coli strains were predicted using computational analysis tools. Several virulence traits and antibiotic resistance genes (ARGs) were identified. Strain UPE7 harbored blaTEM-1B, blaCTM-X-15, blaCMY-2, and strain UPE139 revealed the presence of blaOXA-244, blaTEM-12, blaTEM-82, and blaCTM-X-15 rending the resistance phenotype. The presence of mobile genetic elements adjacent to ARGs thereby suggests their potential for dissemination through horizontal gene transfer. Furthermore, the serotyping in silico investigation revealed that E. coli UPE7 and UPE139 serotypes were O8:H9 and O9:H30, respectively. Notably, key mutations in the gyrA, parC, and parE genes were predicted, consistent with their confirmed resistance to levofloxacin. These findings emphasize the importance of genomic surveillance to guide antimicrobial therapy and monitor emerging high-risk clones, and they support the need for larger-scale genomic studies to improve epidemiological understanding and clinical relevance.",
+      "authors": [
+        "Nancy M El Halfawy",
+        "Mona K Gouda",
+        "Fatma A Elgayar",
+        "Alaa Aboelnour Badran"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41813722/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "genomic characterization and AMR prediction in E. coli",
+      "llm_evidence_cn": "大肠杆菌的基因组特征分析和耐药性预测",
+      "llm_evidence": "大肠杆菌的基因组特征分析和耐药性预测",
+      "canonical_evidence": "大肠杆菌的基因组特征分析和耐药性预测",
+      "llm_tldr_en": "Whole-genome sequencing and computational analysis to characterize resistomes and virulomes in clinical E. coli.",
+      "llm_tldr_cn": "通过全基因组测序和计算分析来表征临床大肠杆菌的耐药组和毒力组。",
+      "llm_tldr": "通过全基因组测序和计算分析来表征临床大肠杆菌的耐药组和毒力组。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for antimicrobial resistance prediction from genomes",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "41586521",
+      "title": "Intestinal epithelial Tet2 deficiency reprograms the gut microbiota through bile acid metabolic alterations.",
+      "abstract": "Epigenetic mechanisms are increasingly recognized as critical regulators of host-microbiota interactions, yet their specific roles in gut homeostasis remain elusive. Here, we demonstrate that intestinal epithelial-specific deletion of the DNA demethylase Tet2 leads to structural abnormalities, impaired barrier function, and remarkable reprogramming of the gut microbiota. Mechanistically, Tet2 deficiency downregulated the apical sodium-dependent bile acid transporter ASBT/Slc10a2, resulting in altered bile acid homeostasis with luminal accumulation of hyocholic acid (HCA). This metabolic shift created a favorable niche for the selective expansion of bile salt hydrolase (BSH)-expressing Lactobacillus species. Furthermore, we identified an age-dependent regulatory role of HCA, which promoted Lactobacillus in young mice but enriched Akkermansia in aged animals. Our findings establish an epigenetic-metabolic-microbial axis centered on Tet2-mediated bile acid regulation, providing new insights into how host epigenetic factors shape the gut microbial ecosystem in an age-sensitive manner.IMPORTANCEWhile the gut microbiota is known to influence host physiology, the molecular mechanisms by which the host epigenetically regulates microbial composition remain largely unexplored. Our work reveals that the epigenetic enzyme Tet2 in intestinal epithelial cells acts as a master regulator of gut microbial ecology by modulating bile acid metabolism. The discovery that Tet2 deletion drives hyocholic acid (HCA) accumulation-which exerts age-dependent effects on Lactobacillus and Akkermansia-provides a novel principle for understanding host-microbe interactions across the lifespan. By linking epithelial DNA demethylation to bile acid transport and microbial phenotype, we establish a previously unrecognized Tet2-ASBT-HCA pathway that expands the conceptual framework for microbiota research. These insights open new avenues for therapeutic interventions aimed at reversing microbial dysbiosis through epigenetic or metabolic modulation.",
+      "authors": [
+        "Nan Wang",
+        "Qing Liu",
+        "Fengjiao Huo",
+        "Shuaishuai Zhang",
+        "Shuyao Lv",
+        "Taotao Mi",
+        "Hailiang Liu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41586521/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "epigenetic mechanisms regulating host-microbiota interactions and gut homeostasis",
+      "llm_evidence_cn": "调节宿主-微生物群相互作用和肠道稳态的表观遗传机制",
+      "llm_evidence": "调节宿主-微生物群相互作用和肠道稳态的表观遗传机制",
+      "canonical_evidence": "调节宿主-微生物群相互作用和肠道稳态的表观遗传机制",
+      "llm_tldr_en": "Investigates how Tet2 deficiency reprograms gut microbiota through metabolic alterations.",
+      "llm_tldr_cn": "研究了Tet2缺失如何通过代谢改变重塑肠道微生物群。",
+      "llm_tldr": "研究了Tet2缺失如何通过代谢改变重塑肠道微生物群。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41364116",
+      "title": "Environmental and physiological factors influencing the survival of resistant",
+      "abstract": "SUMMARYThe human gastrointestinal tract is a dynamic and complex ecosystem that plays a pivotal role in maintaining host health and regulating microbial homeostasis. This environment significantly impacts the survival and evolution of antimicrobial-resistant organisms. Various innate factors, including pH, temperature, osmotic stress, oxygen levels, host secretions, immune response, bile salts, and nutrient gradients, influence microbial behavior, interspecies interactions, and the spread of resistance genes to ensure successful colonization. The potential of the bacteria to avoid or overcome the antimicrobial defenses of the host is one of the most crucial phases in establishing an infection. The behavior of the bacteria in the presence of host physiological parameters and antibiotics will aid in unraveling the survival strategies and mechanisms of resistance in light of the alarming rise in multidrug-resistant gut pathogens and the absence of a licensed vaccine for non-typhoidal Salmonella infections. Uncovering key genetic interactions between the host gut environment and bacterial virulence traits, as well as resistance patterns, is critical in identifying new targets for drugs, target-specific treatment, and new drug or vaccine development, thereby improving treatment options for chronic and recurring infections by Salmonella. This review explores the interplay between gut environmental conditions and the persistence, acquisition, and horizontal transfer of drug resistance traits in Salmonella.",
+      "authors": [
+        "Chaitra Prabhu",
+        "Akshatha Kotian",
+        "Vankadari Aditya",
+        "Vijaya Kumar Deekshit"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41364116/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "microbiome host interaction and infection modeling",
+      "llm_evidence_cn": "微生物组宿主相互作用和感染建模",
+      "llm_evidence": "微生物组宿主相互作用和感染建模",
+      "canonical_evidence": "微生物组宿主相互作用和感染建模",
+      "llm_tldr_en": "Review of factors influencing the survival and evolution of antimicrobial-resistant organisms in the human gut.",
+      "llm_tldr_cn": "综述了影响人类肠道中抗生素耐药生物生存和进化的各种因素。",
+      "llm_tldr": "综述了影响人类肠道中抗生素耐药生物生存和进化的各种因素。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41814380",
+      "title": "Predicting rice drought-responsive genes via distance-based prototypical graph neural network with path aggregation mechanism.",
+      "abstract": "Drought is a primary factor that adversely impacts rice yield and quality. Identifying drought-responsive genes is essential for developing drought-responsive cultivars. Recently, graph neural network methods based on embedding learning have shown considerable success in biological networks. However, challenges still remain in adequately capturing node attribute features, representing topological structures, and addressing class imbalance, which may constrain the model's predictive capability. To address these issues, we propose a distance-based prototypical graph neural network with path aggregation mechanism (DPGNNPAM) to mine drought-responsive genes in rice. First, we combine gene expression data and protein interaction networks in rice to construct graph-based datasets. Next, we utilize a random walk strategy to generate diverse walk paths and employ a recursive neural network-based path aggregator to encode node attributes along these paths. The prototypical network approach is subsequently employed during training to focus on global information and address the issue of sample imbalance. After that, the weighted similarity is computed by measuring the distance between the node embeddings and the class prototypes. Specifically, class prototypes are representative embeddings that capture the central characteristic of each class. Finally, we transform this value into a predictive probability using the softmax function. Experimental results demonstrate that DPGNNPAM outperforms traditional graph neural network algorithms in identifying drought-responsive genes in rice. Ultimately, we identify 17 candidate genes closely related to drought stress, 12 of which are confirmed in the literature as being involved in the plant's drought stress response.",
+      "authors": [
+        "Jing Liu",
+        "Hongyan Zhang",
+        "Song Wang",
+        "Ning Zhang",
+        "Xinghui Zhu",
+        "Yi Xiao"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41814380/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "graph neural network for gene regulatory network inference",
+      "llm_evidence_cn": "用于基因调控网络推理的图神经网络",
+      "llm_evidence": "用于基因调控网络推理的图神经网络",
+      "canonical_evidence": "用于基因调控网络推理的图神经网络",
+      "llm_tldr_en": "A novel graph neural network model for predicting drought-responsive genes in rice using path aggregation.",
+      "llm_tldr_cn": "一种利用路径聚合机制预测水稻抗旱基因的新型图神经网络模型。",
+      "llm_tldr": "一种利用路径聚合机制预测水稻抗旱基因的新型图神经网络模型。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "graph learning and foundation models for gene regulatory network inference and perturbation biology",
+      "matched_requirement_id": "req-22",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41811556",
+      "title": "Endophytic fungi of Aegle marmelos as a source of novel antibacterials and anti-SARS-CoV agents.",
+      "abstract": "Drug resistance in microorganisms is a growing global threat, highlighting the urgent need for novel therapeutic agents. This study evaluates the antibacterial and anti-SARS-CoV potential of fungal endophytes isolated from A. marmelos. Among 16 endophytes screened, the ethyl acetate extract of the #3 AMLBF strain (Fusarium vanettenii) exhibited the strongest antibacterial activity against several pathogens. This extract showed minimum inhibitory concentrations (MICs) ranging from 0.49 to 0.8 µg/ml. GC/MS analysis of the active extract identified 45 compounds. Furthermore, molecular docking against the SARS-CoV-2 spike glycoprotein revealed nine potential ligands, with Anthraergosta-5,7,9,22-tetren-3-ol p-chlorobenzoate showing the most potent binding affinity (- 10.2 kcal/mol), a value exceeding that of the standard chloroquine (- 6.5 kcal/mol). These results indicate that the organic extract from this fungal strain is a promising candidate for the discovery of new antimicrobial agents.",
+      "authors": [
+        "Soniya Goyal",
+        "Poonam Bansal",
+        "Pardeep Kumar",
+        "Dinesh Kumar",
+        "Gunjan Sharma",
+        "Ashish Sharma",
+        "Bhupesh Gupta",
+        "Mahiti Gupta",
+        "Raman Kumar",
+        "Ahmad Umar",
+        "Tubia Almas",
+        "Sotirios Baskoutas"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41811556/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Molecular docking for SARS-CoV-2 ligand discovery from fungal extracts",
+      "llm_evidence_cn": "利用分子对接从真菌提取物中发现新冠病毒配体",
+      "llm_evidence": "利用分子对接从真菌提取物中发现新冠病毒配体",
+      "canonical_evidence": "利用分子对接从真菌提取物中发现新冠病毒配体",
+      "llm_tldr_en": "Identifies antibacterial and anti-SARS-CoV-2 compounds from endophytic fungi using molecular docking.",
+      "llm_tldr_cn": "通过分子对接从内生真菌中鉴定出具有抗菌和抗新冠病毒潜力的化合物。",
+      "llm_tldr": "通过分子对接从内生真菌中鉴定出具有抗菌和抗新冠病毒潜力的化合物。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models and generative AI for drug discovery molecular property prediction and lead optimization",
+      "matched_requirement_id": "req-20",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41816995",
+      "title": "Alternating High-Fat and Polysaccharide Diets Modulates Gut Phage-Bacterial Interplay.",
+      "abstract": "Phages dominate the human gut virome and are known for their ability to prey on bacteria and shape microbiota. However, their response to diet has only been elucidated using small-scale studies. By integrating a massive meta-analysis of 6932 diet-associated metagenomes with a time-resolved mouse model of a high-fat diet and polysaccharide intake, the impact of diet on the gut virome and phage-bacterial interactions was systematically characterized. Diet types, particularly high-fat and polysaccharide-rich diets, exert the strongest shaping force on the gut virome, enhancing the crosstalk between phages and bacteria. High-fat diets promote changes in phage abundance across a broad taxonomic range, from 34.21% to 50.00%, drive phages of diet-associated bacteria toward a lytic lifestyle, and remarkably enrich auxiliary metabolic genes related to amino acid metabolism. Conversely, fucoidan reversed HFD-induced dysbiosis and enhanced phage-mediated horizontal gene transfer by 8.5-fold relative to the baseline. crAssphages and Parabacteroides phages may be important contributors, broadly supporting horizontal gene transfer and auxiliary metabolism or strengthening phage-host interactions in polysaccharide interventions, including fucoidan supplementation. These findings provide a comprehensive landscape of diet-driven cross-kingdom interactions and phage-mediated gene exchange in the gut, offering new insights into potential strategies for precise nutritional interventions targeting the intestinal microbiota.",
+      "authors": [
+        "Fengxiang Zhao",
+        "Ruiqi Zhang",
+        "Rujun Wei",
+        "Huimin Fan",
+        "Yongfei Hu",
+        "Wenyu Shi",
+        "Jinfeng Wang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41816995/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Meta-analysis of diet-associated metagenomes and phage-bacterial interactions",
+      "llm_evidence_cn": "饮食相关宏基因组及噬菌体-细菌相互作用的元分析",
+      "llm_evidence": "饮食相关宏基因组及噬菌体-细菌相互作用的元分析",
+      "canonical_evidence": "饮食相关宏基因组及噬菌体-细菌相互作用的元分析",
+      "llm_tldr_en": "Systematically characterizes the impact of diet on the gut virome and phage-bacterial crosstalk using metagenomics.",
+      "llm_tldr_cn": "利用宏基因组学系统表征了饮食对肠道病毒组及噬菌体-细菌相互作用的影响。",
+      "llm_tldr": "利用宏基因组学系统表征了饮食对肠道病毒组及噬菌体-细菌相互作用的影响。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41813051",
+      "title": "NewbornsInSA multi-omic newborn screening: protocol for a prospective cohort study.",
+      "abstract": "INTRODUCTION: Newborn bloodspot screening (NBS) is freely and universally available to babies born in Australia, with nearly 300 000 newborns screened each year. The NBS programme screens for approximately 30 conditions; however, there are hundreds of childhood conditions that could be treated if identified earlier and asymptomatically. Contemporary screening platforms have relied on mass spectrometry-based technologies, limiting surveillance to conditions with validated biomarkers detectable within the neonatal period. Advancements in metabolic techniques and genomics have expanded the range of conditions that could be detected. The NewbornsInSA research study will develop, validate and evaluate a novel multi-omic model of newborn screening, integrating metabolomic and genomic newborn screening as complementary methodologies. METHODS: Parents can opt in to additional NBS through NewbornsInSA during pregnancy or shortly after birth. One thousand prospectively recruited families will be offered genomic NBS by whole-genome sequencing, including analysis of a virtual gene panel of over 600 genes, and concurrent metabolomic screening. Clinically actionable pathogenic or likely pathogenic genetic variants will be reported to parents and whole genome sequencing data will be available on request for diagnostic reanalysis, if required later in life.Acceptability of the NewbornsInSA programme will be evaluated through stakeholder engagement activities with healthcare professionals, members of the public and patient advocacy groups. Family experiences will be assessed using online surveys. The diagnostic yield, accuracy and the costs and consequences of the multi-omic NBS model will be assessed by comparison to standard-of-care NBS.NewbornsInSA will investigate the acceptability, feasibility and cost-effectiveness of a multi-omic newborn screening model in a prospectively recruited South Australian population. We hypothesise that this approach will increase the number of conditions identified, reduce the time to diagnosis and facilitate earlier care with better outcomes for newborns with genetic conditions. ETHICS AND DISSEMINATION: This research study has been ethically approved by the Women's and Children's Health Network Human Research Ethics Committee (2022/HRE00258 and 2023/HRE00236). Findings will be disseminated through peer-reviewed publication and conferences.",
+      "authors": [
+        "Lucy Anastasi",
+        "Ayesha Chowdhury",
+        "Alex Ashenden",
+        "Tomas Rozek",
+        "Jennie Louise",
+        "Khoa Lam",
+        "Stephanie Skinner",
+        "Kirsty Stallard",
+        "Tracy Merlin",
+        "Camille Schubert",
+        "Arlene Vogan",
+        "Scott Morris",
+        "Sarah Cohen-Woods",
+        "Nicholas Smith",
+        "Enzo Ranieri",
+        "Benjamin Saxon",
+        "Hamish S Scott",
+        "Drago Bratkovic",
+        "Christopher P Barnett",
+        "Carol Wai-Kwan Siu",
+        "Jovanka King",
+        "Karin S Kassahn"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41813051/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "multi-omic model for newborn screening and condition detection",
+      "llm_evidence_cn": "用于新生儿筛查和疾病检测的多组学模型",
+      "llm_evidence": "用于新生儿筛查和疾病检测的多组学模型",
+      "canonical_evidence": "用于新生儿筛查和疾病检测的多组学模型",
+      "llm_tldr_en": "Develops a multi-omic model to expand the range of detectable conditions in newborn screening.",
+      "llm_tldr_cn": "开发了一种多组学模型，以扩大新生儿筛查中可检测疾病的范围。",
+      "llm_tldr": "开发了一种多组学模型，以扩大新生儿筛查中可检测疾病的范围。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41814399",
+      "title": "Comparative centromere genomics reveals evolutionary divergence in Solanaceae genomes.",
+      "abstract": "BACKGROUND: Centromeres are chromosomal loci epigenetically specified by the histone variant CENH3, where kinetochores assemble to ensure accurate chromosome segregation during cell division. Their repetitive and rapidly evolving DNA has long impeded large-scale characterization. Advances in long-read sequencing now enable complete genome assemblies across species and within populations, providing opportunities to investigate how centromeres evolve and diversify over timescales from thousands to millions of years. RESULTS: Here, we generate near-telomere-to-telomere genome assemblies for eggplant, African eggplant, and wild pepper. Using CENH3 ChIP-seq, we delineate functional centromeric chromatin in these assemblies and in the cultivated pepper 'CA59', tomato 'Heinz 1706', and a wild tomato accession. These genomes harbor satellite-free centromeres across all chromosomes except chromosome 3 in tomato and its wild progenitor. Instead, centromeres are primarily composed of Ty3/Gypsy LTR retrotransposons, whose clade composition, abundance, recent activity, and spatial distribution differ among species. Centromere size scales with genome size in Solanaceae crops. Comparisons of closely related genomes reveal frequent centromere positional shifts driven by pericentromeric inversions and centromere repositioning. Synteny decays more rapidly around centromeres, consistent with elevated breakage within CENH3-binding regions. Finally, centromere haplotypes vary within species, exemplified by multiple haplotypes on four African eggplant chromosomes. CONCLUSIONS: These findings highlight the remarkable evolutionary dynamics and within-species variation of centromeres in Solanaceae crops, revealing distinct species-specific organizational patterns. This study positions Solanaceae as a promising model for comparative analyses of plant centromere evolution and provides a foundation for future research exploring how centromere variation contributes to phenotypic diversity.",
+      "authors": [
+        "Penglong Wan",
+        "Ming Hu",
+        "Hongyu Jin",
+        "Shuyuan Tang",
+        "Min Zhong",
+        "Jiaowen Cheng",
+        "Zhangsheng Zhu",
+        "Bihao Cao",
+        "Guoju Chen",
+        "Changming Chen",
+        "Chengjie Chen",
+        "Jianwen Song",
+        "Yi Liao"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41814399/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "long-read sequencing for complete genome assemblies and centromere characterization",
+      "llm_evidence_cn": "利用长读长测序进行完整基因组组装和着丝粒表征",
+      "llm_evidence": "利用长读长测序进行完整基因组组装和着丝粒表征",
+      "canonical_evidence": "利用长读长测序进行完整基因组组装和着丝粒表征",
+      "llm_tldr_en": "Uses long-read sequencing to generate near-T2T assemblies and study centromere evolution in Solanaceae.",
+      "llm_tldr_cn": "利用长读长测序生成近T2T组装，研究茄科植物着丝粒的进化。",
+      "llm_tldr": "利用长读长测序生成近T2T组装，研究茄科植物着丝粒的进化。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "foundation models for genomic sequencing signal read and variant analysis",
+      "matched_requirement_id": "req-38",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41814421",
+      "title": "Host immunogenetic variation and gut microbiome functionality in a wild vertebrate population.",
+      "abstract": "BACKGROUND: The gut microbiome (GM) -important for host health and survival- is partially shaped by host immunogenetics. However, to date, no study has investigated the influence of host Major Histocompatibility Complex (MHC) genes on gut microbiome functionality in a wild population. Here we use a natural population of the Seychelles warbler (Acrocephalus sechellensis) to assess the effects of MHC genes on GM taxonomy and functionality using shotgun metagenomics. RESULTS: Our results show that taxonomic GM composition was associated with MHC-II diversity and the presence of one specific MHC-I allele (Ase-ua 7). Specifically, MHC-II diversity was associated with decreased Lactococcus lactis and increased Staphylococcus lloydii abundance, while Ase-ua 7 was linked to reduced Enterococcus casselifavus and Gordonia sp OPL2 but increased Escherichia coli and Vulcaniibacterium thermophilum. These taxonomic changes may reflect differences in MHC-mediated microbial recognition. In contrast, functional GM composition was significantly associated with increasing individual MHC-I diversity but not MHC-II diversity. In particular, increasing MHC-I diversity was associated with an increased prevalence of microbial defence genes but a reduced prevalence of microbial metabolism genes. Analysis also revealed that functional GM networks were more fragmented in high compared to low MHC-I diversity hosts. CONCLUSION: These results suggest that MHC variation (particularly at MHC-I) plays an important role in shaping both the taxonomy and function of the GM in wild vertebrates. In the Seychelles warbler, this results in trade-offs whereby there is an increase in microbial defence and a reduction in GM metabolic potential in individuals with higher MHC-I diversity. Thus, this work sheds light on the possible costs and benefits of maintaining a healthy microbiome, which is essential for understanding how the GM and immune system co-evolve. Video Abstract.",
+      "authors": [
+        "Chuen Zhang Lee",
+        "Sarah F Worsley",
+        "Charli S Davies",
+        "Jan Komdeur",
+        "Falk Hildebrand",
+        "Hannah L Dugdale",
+        "David S Richardson"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41814421/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "shotgun metagenomics for gut microbiome taxonomy and functionality",
+      "llm_evidence_cn": "鸟枪法宏基因组学用于肠道微生物组分类和功能研究",
+      "llm_evidence": "鸟枪法宏基因组学用于肠道微生物组分类和功能研究",
+      "canonical_evidence": "鸟枪法宏基因组学用于肠道微生物组分类和功能研究",
+      "llm_tldr_en": "Uses shotgun metagenomics to study the influence of host MHC genes on gut microbiome taxonomy and functionality.",
+      "llm_tldr_cn": "利用鸟枪法宏基因组学研究了宿主MHC基因对肠道微生物组分类和功能的影响。",
+      "llm_tldr": "利用鸟枪法宏基因组学研究了宿主MHC基因对肠道微生物组分类和功能的影响。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41817099",
+      "title": "Building a Foundation SERS Model for Lipids through Fatty Acid Pretraining for Annotation across Chemical Spaces.",
+      "abstract": "Machine learning analysis of vibrational spectra is often closed-set, performing well for known molecular classes but degrading sharply when test molecules fall outside the training library. Herein, we introduce a SERS-based domain-informed foundation model for fatty acid-derived lipids that replaces categorical assignments with vector matching. The model is trained exclusively on primitive single-chain free fatty acids, with each structural attribute encoded by five orthogonal molecular vectors in a multidimensional space: (1) carbon number, (2) number of C═C bonds, (3) C═C position, (4) C═C geometry, and (5) number of carbon chains. This modular ensemble enables zero-shot prediction of all five vectors in parallel from previously unseen spectra, allowing untargeted molecular reconstruction by proximity in this space rather than by class labels. Despite being trained only on free fatty acids, the model generalizes to complex, multichain lipids absent from the training set, achieving accuracies of 91.7% for withheld free fatty acids, 85.5% for fatty acid esters of hydroxy fatty acids, and 80.0% for triglycerides. To enhance interpretability, we utilize density functional theory to provide a mechanistic basis for the spectral features underlying each prediction. We further demonstrate matrix-tolerant multiplex quantitation in artificial sweat and urine, recovering mixture ratios with 2-9% error across broad composition ranges. Collectively, this strategy enables extrapolative, interpretable spectral-to-structure prediction from SERS across adjacent chemical spaces.",
+      "authors": [
+        "Rui Han",
+        "Emily Xi Tan",
+        "Yangcenzi Xie",
+        "Hong Sheng Cheng",
+        "Nguan Soon Tan",
+        "Yan Lv",
+        "In Yee Phang",
+        "Xing Yi Ling"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41817099/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "foundation model for molecular property prediction and lipid annotation",
+      "llm_evidence_cn": "用于分子属性预测和脂质注释的基础模型",
+      "llm_evidence": "用于分子属性预测和脂质注释的基础模型",
+      "canonical_evidence": "用于分子属性预测和脂质注释的基础模型",
+      "llm_tldr_en": "Introduces a SERS-based foundation model for zero-shot lipid structural attribute prediction and annotation.",
+      "llm_tldr_cn": "引入了一种基于SERS的基础模型，用于脂质结构属性的零样本预测和注释。",
+      "llm_tldr": "引入了一种基于SERS的基础模型，用于脂质结构属性的零样本预测和注释。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models and generative AI for drug discovery molecular property prediction and lead optimization",
+      "matched_requirement_id": "req-20",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41817214",
+      "title": "Neutrophil-specific transcriptomic profiling reveals a novel signature for active tuberculosis diagnosis.",
+      "abstract": "Tuberculosis remains a leading cause of mortality worldwide. Rapid and accurate diagnosis of active tuberculosis (ATB) is critical for its effective treatment and disease control. However, current sputum-based detection methods have limited diagnostic coverage for ATB, resulting in missed cases and treatment delay. In this study, we performed neutrophil RNA sequencing (RNA-seq) to identify ATB-specific transcriptional signatures. Through integrated analysis of differentially expressed genes (DEGs) across 173 samples (67 ATB, 42 latent tuberculosis infection [LTBI], and 64 healthy controls [HC]), followed by quantitative Real-time polymerase chain reaction (qPCR) validation using 141 samples (31 ATB, 53 LTBI, 57 HC). A novel 4-gene neutrophil-derived tuberculosis signature (neu-TB) was screened by Lasso model prediction, and further evaluation were performed in two independent cohorts (n = 332). The signature achieved exceptional discrimination between ATB and LTBI (area under curve [AUC] = 0.975; 95% confidence interval [CI]: 0.949-1.000; P < 0.0001), with 96.8% sensitivity and 92.5% specificity. When distinguishing ATB from HC, the performance remained superior (AUC = 0.980, 91.9% sensitivity, 96.5% specificity). Notably, the signature effectively differentiated ATB from other pulmonary diseases (AUC = 0.969, 95% CI: 0.943-0.995, 93.0% sensitivity, 87.9% specificity). This study represents the first application of immune cell subset-specific transcriptomic profiling to overcome the technical limitations, which are frequently confounded by heterogeneous cellular backgrounds in whole blood or peripheral blood mononuclear cell (PBMC) analyses. The development of this 4-gene neu-TB signature not only establishes a novel methodology for identifying transcriptomic biomarkers but also demonstrates promising clinical applicability for ATB diagnostics.IMPORTANCEThe most urgent need in pulmonary TB diagnosis is developing a rapid, non-sputum, biomarker-based diagnostic test. Here, we first identified a novel transcriptomic signature and addressed these challenges through two key innovations: (i) cell-type-specific resolution: by focusing on neutrophils-the most abundant immune cell in TB blood signatures and key mediators of host-pathogen interactions-we reduce biological noise and enhance biomarker precision. (ii) Rigorous multi-cohort validation: the 4-gene neutrophil-derived TB signature (neu-TB) was selected via RNA-seq of purified neutrophils (n = 141) and validated by qPCR in two independent cohorts (total n = 332), achieving 93% sensitivity/88% specificity in distinguishing active TB from latent infection and non-TB controls.",
+      "authors": [
+        "Jie Hu",
+        "Song Liu",
+        "Liguo Liu",
+        "Xingzhu Geng",
+        "Qianting Yang",
+        "Qi Chen",
+        "Henan Xin",
+        "Lei Gao",
+        "Xiaobing Zhang",
+        "Qi Jin"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41817214/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Transcriptomic profiling and RNA sequencing for tuberculosis diagnosis",
+      "llm_evidence_cn": "用于结核病诊断的转录组分析和RNA测序",
+      "llm_evidence": "用于结核病诊断的转录组分析和RNA测序",
+      "canonical_evidence": "用于结核病诊断的转录组分析和RNA测序",
+      "llm_tldr_en": "Identifies a neutrophil-specific transcriptomic signature for active tuberculosis diagnosis using RNA-seq.",
+      "llm_tldr_cn": "利用RNA测序鉴定了中性粒细胞特异性转录组特征，用于活动性结核病的诊断。",
+      "llm_tldr": "利用RNA测序鉴定了中性粒细胞特异性转录组特征，用于活动性结核病的诊断。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "foundation models for transcriptomics RNA sequencing and gene expression modeling",
+      "matched_requirement_id": "req-44",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

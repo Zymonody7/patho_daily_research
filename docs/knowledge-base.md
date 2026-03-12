@@ -1,10 +1,58 @@
 # 知识库
 
-- 最近沉淀条目数：95
+- 最近沉淀条目数：111
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Retentive Network promotes efficient RNA language modeling of long sequences.](#/202603/12/202603/12/41814064-retentive-network-promotes-efficient-rna-language-modeling-of-long-sequences)
+  - TLDR：针对Transformer模型在处理长RNA序列时面临的O(n²)计算复杂度瓶颈，本研究提出了基于Retentive Network的RNA语言模型RNAret。该模型利用保留机制实现了线性复杂度的并行训练与低开销推理，并在2980万条RNA序列上完成了自监督预训练。实验结果显示，RNAret在RNA相互作用预测、二级结构预测及mRNA/lncRNA分类等任务中均优于现有模型，为长序列RNA的功能研究提供了高效的特征提取工具。
+  - Tags：`query:bioinfo`
+- [The chemical design of antimicrobial ionic liquids guided by machine learning: a review on balancing efficacy and toxicity.](#/202603/12/202603/12/41739437-the-chemical-design-of-antimicrobial-ionic-liquids-guided-by-machine-learning-a-review-on-balancing-efficacy-and-toxicity)
+  - TLDR：针对多重耐药病原体威胁，离子液体（ILs）虽具抗菌潜力，但面临杀菌效力与宿主毒性难以平衡的挑战。本文综述了利用机器学习（ML）指导ILs化学设计的最新进展，重点探讨了如何通过构建定量结构-毒性关系（QSTR）模型和多目标优化算法，在虚拟筛选中实现效力与安全性的协同优化，为开发下一代高性能抗菌材料提供了数据驱动的新路径。
+  - Tags：`query:pathoai`
+- [MultiPert: An adversarial alignment and dual attention framework for single-cell multi-omics perturbation prediction.](#/202603/12/202603/12/41811907-multipert-an-adversarial-alignment-and-dual-attention-framework-for-single-cell-multi-omics-perturbation-prediction)
+  - TLDR：准确预测细胞对扰动的反应对理解生物调控至关重要，但现有方法多局限于单模态转录组数据。MultiPert 是一种针对单细胞多组学设计的深度学习框架，通过模态特定编码器、双重注意力机制和对抗训练，实现了基因表达与蛋白质丰度的协同预测。在人类 THP-1 和肾脏数据集上的实验证明，该模型在预测精度和稳定性上优于现有方法，并能有效泛化至未知扰动，为揭示免疫调控机制和药物研发提供了强有力的工具。
+  - Tags：`query:bioinfo`
+- [AF2BIND: predicting small-molecule binding sites using the pair representation of AlphaFold2.](#/202603/12/202603/12/41814061-af2bind-predicting-small-molecule-binding-sites-using-the-pair-representation-of-alphafold2)
+  - TLDR：蛋白质小分子结合位点的识别对药物研发至关重要，但从头预测仍具挑战。AF2BIND 利用 AlphaFold2 预训练模型的 Pair Representation 特征，结合逻辑回归模型，实现了无需同源建模、多序列比对或配体信息的位点预测。该方法不仅能准确识别结合位点，还具备可解释性以推测配体化学性质，并已应用于人类蛋白质组，为疾病相关蛋白的药物开发提供了新工具。
+  - Tags：`query:bioinfo`
+- [An inducible CRISPRi system for phenotypic analysis of essential genes in](#/202603/12/202603/12/41670347-an-inducible-crispri-system-for-phenotypic-analysis-of-essential-genes-in)
+  - TLDR：针对铜绿假单胞菌中必需基因研究缺乏精确调控工具的问题，本研究开发了一种基于鼠李糖诱导启动子的CRISPRi系统。该系统通过双质粒模块化设计，实现了对dCas9和sgRNA的紧密调控，成功对16个必需基因进行了表型分析，揭示了基因功能与抗生素敏感性的关联。该工具为系统性评估病原菌基因脆弱性及加速抗生素研发提供了关键技术支撑。
+  - Tags：`query:bioinfo`
+- [Genomic characterization of multidrug-resistant Escherichia coli strains identified from patients with urinary tract infection in Egypt.](#/202603/12/202603/12/41813722-genomic-characterization-of-multidrug-resistant-escherichia-coli-strains-identified-from-patients-with-urinary-tract-infection-in-egypt)
+  - TLDR：针对埃及尿路感染患者中多重耐药大肠杆菌（ESBL-EC）流行率上升的问题，本研究利用 Illumina NovaSeq 6000 平台对两株临床分离株（UPE7 和 UPE139）进行了全基因组测序（WGS）及生物信息学分析。研究成功鉴定出多种耐药基因（如 blaCTM-X-15、blaOXA-244）和毒力因子，并揭示了与左氧氟沙星耐药相关的关键基因突变。该成果为监测高风险克隆和指导临床抗生素使用提供了重要的基因组学依据。
+  - Tags：`query:pathoai`
+- [Intestinal epithelial Tet2 deficiency reprograms the gut microbiota through bile acid metabolic alterations.](#/202603/12/202603/12/41586521-intestinal-epithelial-tet2-deficiency-reprograms-the-gut-microbiota-through-bile-acid-metabolic-alterations)
+  - TLDR：肠道稳态中宿主表观遗传如何调节微生物群尚不明确。本研究通过敲除小鼠肠上皮细胞的DNA去甲基化酶Tet2，发现其缺失会导致肠道屏障受损并显著重塑菌群结构。机制上，Tet2通过调控胆汁酸转运体ASBT引起猪胆酸（HCA）在肠道积聚，进而诱导特定益生菌的扩增。该研究揭示了Tet2-ASBT-HCA这一表观-代谢-微生物轴，为通过表观遗传手段干预菌群失调提供了新视角。
+  - Tags：`query:pathoai`
+- [Predicting rice drought-responsive genes via distance-based prototypical graph neural network with path aggregation mechanism.](#/202603/12/202603/12/41814380-predicting-rice-drought-responsive-genes-via-distance-based-prototypical-graph-neural-network-with-path-aggregation-mechanism)
+  - TLDR：干旱严重影响水稻产量，识别抗旱基因对育种至关重要。针对生物网络中节点属性捕捉难、拓扑结构复杂及样本类别不平衡等挑战，本研究提出DPGNNPAM模型。该模型结合基因表达与蛋白质互作网络，利用随机游走和递归神经网络聚合路径特征，并引入原型网络处理不平衡数据。实验证明该方法优于传统图神经网络，成功预测出17个候选抗旱基因，其中12个已获文献证实，为水稻抗逆育种提供了精准的候选靶点。
+  - Tags：`query:bioinfo`
+- [Alternating High-Fat and Polysaccharide Diets Modulates Gut Phage-Bacterial Interplay.](#/202603/12/202603/12/41816995-alternating-high-fat-and-polysaccharide-diets-modulates-gut-phage-bacterial-interplay)
+  - TLDR：肠道噬菌体对饮食的响应机制尚不明确。本研究通过整合近七千个宏基因组样本的大规模分析与小鼠实验，揭示了高脂和多糖饮食对肠道病毒组的塑造作用。研究发现高脂饮食会诱导噬菌体转向裂解生活方式并富集代谢基因，而岩藻多糖能逆转失调并显著增强噬菌体介导的水平基因转移。这为通过精准营养干预调节肠道微生态提供了新视角。
+  - Tags：`query:seqai`
+- [Environmental and physiological factors influencing the survival of resistant](#/202603/12/202603/12/41364116-environmental-and-physiological-factors-influencing-the-survival-of-resistant)
+  - TLDR：针对多重耐药沙门氏菌感染日益严重的现状，本文综述了人体肠道环境（如pH、渗透压、胆盐等）如何影响病原菌的生存、毒力及耐药基因的水平转移。通过分析宿主生理因素与细菌遗传特性的交互作用，揭示了细菌在复杂生态系统中的演化策略，为开发新型靶向药物和疫苗提供了理论依据。
+  - Tags：`query:pathoai`
+- [Endophytic fungi of Aegle marmelos as a source of novel antibacterials and anti-SARS-CoV agents.](#/202603/12/202603/12/41811556-endophytic-fungi-of-aegle-marmelos-as-a-source-of-novel-antibacterials-and-anti-sars-cov-agents)
+  - TLDR：针对微生物耐药性日益严重的全球威胁，本研究从药用植物木橘中分离出16种内生真菌，并评估其抗菌及抗新冠病毒潜力。实验发现，腐皮镰孢菌（Fusarium vanettenii）的提取物表现出极强的广谱抗菌活性，MIC低至0.49-0.8 µg/ml。通过分子对接模拟，筛选出9种能与SARS-CoV-2刺突蛋白结合的潜在配体，其中一种化合物的结合能显著优于标准药物氯喹。该研究为开发新型天然抗菌药和抗病毒药物提供了重要的先导化合物来源。
+  - Tags：`query:bioinfo`
+- [NewbornsInSA multi-omic newborn screening: protocol for a prospective cohort study.](#/202603/12/202603/12/41813051-newbornsinsa-multi-omic-newborn-screening-protocol-for-a-prospective-cohort-study)
+  - TLDR：针对现有新生儿筛查（NBS）仅能覆盖约30种疾病且受限于质谱检测标志物的局限性，NewbornsInSA项目提出了一种整合全基因组测序（WGS）与代谢组学的多组学筛查模型。该研究通过对1000个家庭进行前瞻性招募，分析超过600个基因位点，旨在验证多组学方法在提高诊断率、缩短诊断时间及成本效益方面的潜力，为扩展新生儿疾病筛查范围提供临床证据。
+  - Tags：`query:bioinfo`
+- [Comparative centromere genomics reveals evolutionary divergence in Solanaceae genomes.](#/202603/12/202603/12/41814399-comparative-centromere-genomics-reveals-evolutionary-divergence-in-solanaceae-genomes)
+  - TLDR：着丝粒因其高度重复的DNA序列一直是基因组研究的难点。本研究利用长读长测序技术构建了茄子、非洲茄子及野山椒的近T2T基因组，并通过CENH3 ChIP-seq精确定位了茄科作物的着丝粒。研究发现，除番茄3号染色体外，这些着丝粒多由Ty3/Gypsy逆转录转座子构成而非卫星DNA。研究揭示了着丝粒位置的频繁漂移、与基因组大小的正相关性以及种内单倍型差异，为理解植物着丝粒演化及其对表型多样性的贡献提供了重要基础。
+  - Tags：`query:seqai`
+- [Host immunogenetic variation and gut microbiome functionality in a wild vertebrate population.](#/202603/12/202603/12/41814421-host-immunogenetic-variation-and-gut-microbiome-functionality-in-a-wild-vertebrate-population)
+  - TLDR：本研究探讨了宿主免疫遗传变异如何影响野生脊椎动物肠道微生物组的功能。通过对塞舌尔莺自然种群进行鸟枪法宏基因组分析，研究揭示了主要组织相容性复合体（MHC）基因对菌群分类和功能的塑造作用。结果显示，MHC-I多样性的增加与微生物防御基因的增强及代谢潜力的下降显著相关，揭示了免疫系统在调节微生物组时存在的权衡机制，为理解两者协同进化提供了重要实证。
+  - Tags：`query:seqai`
+- [Building a Foundation SERS Model for Lipids through Fatty Acid Pretraining for Annotation across Chemical Spaces.](#/202603/12/202603/12/41817099-building-a-foundation-sers-model-for-lipids-through-fatty-acid-pretraining-for-annotation-across-chemical-spaces)
+  - TLDR：针对表面增强拉曼光谱（SERS）在识别未知脂质分子时泛化性差的问题，该研究提出了一种基于脂肪酸预训练的领域感知基础模型。通过将分子结构拆解为碳链长度、不饱和度等五个正交向量，模型实现了从简单脂肪酸到复杂多链脂质的零样本外推预测。实验证明该模型在未知脂质识别上达到80%以上准确率，并能实现复杂生物基质中的定量分析，为跨化学空间的分子结构解析提供了新思路。
+  - Tags：`query:bioinfo`
+- [Neutrophil-specific transcriptomic profiling reveals a novel signature for active tuberculosis diagnosis.](#/202603/12/202603/12/41817214-neutrophil-specific-transcriptomic-profiling-reveals-a-novel-signature-for-active-tuberculosis-diagnosis)
+  - TLDR：针对活动性肺结核（ATB）诊断中痰液检测覆盖率低、漏诊率高的问题，本研究首次采用中性粒细胞特异性转录组测序，通过Lasso模型筛选出由4个基因组成的neu-TB特征。该特征在多中心队列验证中表现优异，区分ATB与潜伏感染及其他肺部疾病的准确率极高，为非痰液依赖的结核病快速诊断提供了高精度的新型生物标志物。
+  - Tags：`query:seqai`
 - [Staphylococcus aureus resistance to non-β-lactam antibiotics: global genomic epidemiology and machine learning feasibility assessment.](#/202603/11/202603/11/41806067-staphylococcus-aureus-resistance-to-non--lactam-antibiotics-global-genomic-epidemiology-and-machine-learning-feasibility-assessment)
   - TLDR：针对金黄色葡萄球菌对非β-内酰胺类抗生素日益增长的耐药性问题，本研究分析了全球11万余个基因组数据，利用机器学习模型尝试预测最低抑菌浓度（MIC）。研究发现磷霉素耐药基因fosB在临床样本中高度流行且呈上升趋势；机器学习在达托霉素预测上表现尚可，但在糖肽类药物上因表型数据变异性不足而失效。该研究揭示了全球耐药趋势，并指出了当前机器学习在耐药性预测中面临的数据瓶颈。
   - Tags：`query:pathoai`

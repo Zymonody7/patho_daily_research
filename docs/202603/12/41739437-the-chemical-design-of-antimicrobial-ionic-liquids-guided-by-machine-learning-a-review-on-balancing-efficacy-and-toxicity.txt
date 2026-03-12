@@ -1,0 +1,592 @@
+Title: The chemical design of antimicrobial ionic liquids guided by machine learning: a review on balancing efficacy and toxicity - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41739437/
+
+Markdown Content:
+The chemical design of antimicrobial ionic liquids guided by machine learning: a review on balancing efficacy and toxicity - PubMed
+===============
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/41739437/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41739437%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/41739437/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/41739437/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/41739437/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/9fea6d21-07b4-4726-b151-fb89a024b8ad/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/41739437/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/41739437/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41739437%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41739437%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+Save citation to file
+---------------------
+
+ Format:  
+
+ Create file  Cancel 
+
+Email citation
+--------------
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+ Add  Cancel 
+
+Your saved search
+-----------------
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+Create a file for external citation management software
+-------------------------------------------------------
+
+ Create file  Cancel 
+
+Your RSS Feed
+-------------
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Full text links
+
+[![Image 6: Royal Society of Chemistry full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--www.rsc-cdn.org-oxygen-assets-logo-rsc-logo-btn-small.gif) Royal Society of Chemistry](https://doi.org/10.1039/d5tb02581h "See full text options at Royal Society of Chemistry")
+
+[Full text links](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/41739437/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/41739437/#abstract)
+*   [Similar articles](https://pubmed.ncbi.nlm.nih.gov/41739437/#similar)
+*   [Publication types](https://pubmed.ncbi.nlm.nih.gov/41739437/#publication-types)
+*   [MeSH terms](https://pubmed.ncbi.nlm.nih.gov/41739437/#mesh-terms)
+*   [Substances](https://pubmed.ncbi.nlm.nih.gov/41739437/#substances)
+*   [Related information](https://pubmed.ncbi.nlm.nih.gov/41739437/#related-links)
+*   [LinkOut - more resources](https://pubmed.ncbi.nlm.nih.gov/41739437/#linkout)
+
+Review
+
+ J Mater Chem B 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22J+Mater+Chem+B%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22J+Mater+Chem+B%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+. 2026 Mar 11;14(10):3023-3047.
+
+ doi: 10.1039/d5tb02581h. 
+
+The chemical design of antimicrobial ionic liquids guided by machine learning: a review on balancing efficacy and toxicity
+==========================================================================================================================
+
+[Zheng Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+Z&cauthor_id=41739437)[1](https://pubmed.ncbi.nlm.nih.gov/41739437/#full-view-affiliation-1 "Institute of Bismuth Science and School of Materials and Chemistry, University of Shanghai for Science and Technology, 516 Jungong Road, Shanghai, China. congfeiyao@usst.edu.cn."),[Qiuyu Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+Q&cauthor_id=41739437)[1](https://pubmed.ncbi.nlm.nih.gov/41739437/#full-view-affiliation-1 "Institute of Bismuth Science and School of Materials and Chemistry, University of Shanghai for Science and Technology, 516 Jungong Road, Shanghai, China. congfeiyao@usst.edu.cn."),[Congfei Yao](https://pubmed.ncbi.nlm.nih.gov/?term=Yao+C&cauthor_id=41739437)[1](https://pubmed.ncbi.nlm.nih.gov/41739437/#full-view-affiliation-1 "Institute of Bismuth Science and School of Materials and Chemistry, University of Shanghai for Science and Technology, 516 Jungong Road, Shanghai, China. congfeiyao@usst.edu.cn.")[2](https://pubmed.ncbi.nlm.nih.gov/41739437/#full-view-affiliation-2 "GSK Carbon Neutral Laboratory, School of Chemistry, University of Nottingham, Nottingham, UK."),[Yimin Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+Y&cauthor_id=41739437)[1](https://pubmed.ncbi.nlm.nih.gov/41739437/#full-view-affiliation-1 "Institute of Bismuth Science and School of Materials and Chemistry, University of Shanghai for Science and Technology, 516 Jungong Road, Shanghai, China. congfeiyao@usst.edu.cn."),[Siqi Zhu](https://pubmed.ncbi.nlm.nih.gov/?term=Zhu+S&cauthor_id=41739437)[1](https://pubmed.ncbi.nlm.nih.gov/41739437/#full-view-affiliation-1 "Institute of Bismuth Science and School of Materials and Chemistry, University of Shanghai for Science and Technology, 516 Jungong Road, Shanghai, China. congfeiyao@usst.edu.cn."),[Jinyu Guan](https://pubmed.ncbi.nlm.nih.gov/?term=Guan+J&cauthor_id=41739437)[1](https://pubmed.ncbi.nlm.nih.gov/41739437/#full-view-affiliation-1 "Institute of Bismuth Science and School of Materials and Chemistry, University of Shanghai for Science and Technology, 516 Jungong Road, Shanghai, China. congfeiyao@usst.edu.cn."),[Yuqing Miao](https://pubmed.ncbi.nlm.nih.gov/?term=Miao+Y&cauthor_id=41739437)[1](https://pubmed.ncbi.nlm.nih.gov/41739437/#full-view-affiliation-1 "Institute of Bismuth Science and School of Materials and Chemistry, University of Shanghai for Science and Technology, 516 Jungong Road, Shanghai, China. congfeiyao@usst.edu.cn.")
+
+ Affiliations  Expand 
+
+### Affiliations
+
+*   1 Institute of Bismuth Science and School of Materials and Chemistry, University of Shanghai for Science and Technology, 516 Jungong Road, Shanghai, China. congfeiyao@usst.edu.cn.
+*   2 GSK Carbon Neutral Laboratory, School of Chemistry, University of Nottingham, Nottingham, UK.
+
+*    PMID: **41739437**
+*    DOI: [10.1039/d5tb02581h](https://doi.org/10.1039/d5tb02581h)
+
+ Item in Clipboard 
+
+Review
+
+The chemical design of antimicrobial ionic liquids guided by machine learning: a review on balancing efficacy and toxicity
+==========================================================================================================================
+
+Zheng Liu et al. J Mater Chem B.2026.
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ J Mater Chem B 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22J+Mater+Chem+B%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22J+Mater+Chem+B%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+. 2026 Mar 11;14(10):3023-3047.
+
+ doi: 10.1039/d5tb02581h. 
+
+### Authors
+
+[Zheng Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+Z&cauthor_id=41739437)[1](https://pubmed.ncbi.nlm.nih.gov/41739437/#short-view-affiliation-1 "Institute of Bismuth Science and School of Materials and Chemistry, University of Shanghai for Science and Technology, 516 Jungong Road, Shanghai, China. congfeiyao@usst.edu.cn."),[Qiuyu Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+Q&cauthor_id=41739437)[1](https://pubmed.ncbi.nlm.nih.gov/41739437/#short-view-affiliation-1 "Institute of Bismuth Science and School of Materials and Chemistry, University of Shanghai for Science and Technology, 516 Jungong Road, Shanghai, China. congfeiyao@usst.edu.cn."),[Congfei Yao](https://pubmed.ncbi.nlm.nih.gov/?term=Yao+C&cauthor_id=41739437)[1](https://pubmed.ncbi.nlm.nih.gov/41739437/#short-view-affiliation-1 "Institute of Bismuth Science and School of Materials and Chemistry, University of Shanghai for Science and Technology, 516 Jungong Road, Shanghai, China. congfeiyao@usst.edu.cn.")[2](https://pubmed.ncbi.nlm.nih.gov/41739437/#short-view-affiliation-2 "GSK Carbon Neutral Laboratory, School of Chemistry, University of Nottingham, Nottingham, UK."),[Yimin Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+Y&cauthor_id=41739437)[1](https://pubmed.ncbi.nlm.nih.gov/41739437/#short-view-affiliation-1 "Institute of Bismuth Science and School of Materials and Chemistry, University of Shanghai for Science and Technology, 516 Jungong Road, Shanghai, China. congfeiyao@usst.edu.cn."),[Siqi Zhu](https://pubmed.ncbi.nlm.nih.gov/?term=Zhu+S&cauthor_id=41739437)[1](https://pubmed.ncbi.nlm.nih.gov/41739437/#short-view-affiliation-1 "Institute of Bismuth Science and School of Materials and Chemistry, University of Shanghai for Science and Technology, 516 Jungong Road, Shanghai, China. congfeiyao@usst.edu.cn."),[Jinyu Guan](https://pubmed.ncbi.nlm.nih.gov/?term=Guan+J&cauthor_id=41739437)[1](https://pubmed.ncbi.nlm.nih.gov/41739437/#short-view-affiliation-1 "Institute of Bismuth Science and School of Materials and Chemistry, University of Shanghai for Science and Technology, 516 Jungong Road, Shanghai, China. congfeiyao@usst.edu.cn."),[Yuqing Miao](https://pubmed.ncbi.nlm.nih.gov/?term=Miao+Y&cauthor_id=41739437)[1](https://pubmed.ncbi.nlm.nih.gov/41739437/#short-view-affiliation-1 "Institute of Bismuth Science and School of Materials and Chemistry, University of Shanghai for Science and Technology, 516 Jungong Road, Shanghai, China. congfeiyao@usst.edu.cn.")
+
+### Affiliations
+
+*   1 Institute of Bismuth Science and School of Materials and Chemistry, University of Shanghai for Science and Technology, 516 Jungong Road, Shanghai, China. congfeiyao@usst.edu.cn.
+*   2 GSK Carbon Neutral Laboratory, School of Chemistry, University of Nottingham, Nottingham, UK.
+
+*    PMID: **41739437**
+*    DOI: [10.1039/d5tb02581h](https://doi.org/10.1039/d5tb02581h)
+
+ Item in Clipboard 
+
+ Full text links Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+Abstract
+--------
+
+The design of new antimicrobial materials is a critical challenge in chemistry and materials science, driven by the global threat of multidrug-resistant pathogens. Ionic liquids (ILs) represent a highly versatile class of materials, where their chemical structure can be systematically designed to achieve desired functions. However, a significant hurdle in their application as antimicrobial agents is the inherent trade-off between antibacterial efficacy and host toxicity. This review addresses this materials design challenge by focusing on the use of machine learning (ML) to guide the chemical design of ILs. We provide a comprehensive overview of the chemical mechanisms that drive both the desired antimicrobial activity and the undesired toxicity. We then detail how an understanding of these structure-property relationships is being leveraged to build predictive quantitative structure-toxicity relationship (QSTR) models. A central focus is the application of ML for multi-objective optimization, which allows for the rational design and virtual screening of ILs with optimal efficacy-toxicity profiles. By connecting the design of cationic and anionic structures to biological outcomes, this review offers a forward-looking perspective on the data-driven chemical design of the next generation of antimicrobial materials, highlighting the synergy between materials chemistry and computational science.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Similar articles
+----------------
+
+*   [Designing Effective Antimicrobial Agents: Structural Insights into the Antibiofilm Activity of Ionic Liquids.](https://pubmed.ncbi.nlm.nih.gov/39898997/)Tikhomirov AD, Egorova KS, Ananikov VP.Tikhomirov AD, et al.J Med Chem. 2025 Feb 13;68(3):2105-2123. doi: 10.1021/acs.jmedchem.4c01780. Epub 2025 Feb 3.J Med Chem. 2025.PMID: 39898997 Review.  
+*   [Ionic Liquids: Emerging Antimicrobial Agents.](https://pubmed.ncbi.nlm.nih.gov/35879499/)Fang Z, Zheng X, Li L, Qi J, Wu W, Lu Y.Fang Z, et al.Pharm Res. 2022 Oct;39(10):2391-2404. doi: 10.1007/s11095-022-03336-5. Epub 2022 Jul 25.Pharm Res. 2022.PMID: 35879499 Review.  
+*   [Antimicrobial properties of novel ionic liquids derived from imidazolium cation with phenolic functional groups.](https://pubmed.ncbi.nlm.nih.gov/34426154/)Guzmán L, Parra-Cid C, Guerrero-Muñoz E, Peña-Varas C, Polo-Cuadrado E, Duarte Y, Castro RI, Nerio LS, Araya-Maturana R, Asefa T, Echeverría J, Ramírez D, Forero-Doria O.Guzmán L, et al.Bioorg Chem. 2021 Oct;115:105289. doi: 10.1016/j.bioorg.2021.105289. Epub 2021 Aug 20.Bioorg Chem. 2021.PMID: 34426154  
+*   [Synthesis and anti-microbial potencies of 1-(2-hydroxyethyl)-3-alkylimidazolium chloride ionic liquids: microbial viabilities at different ionic liquids concentrations.](https://pubmed.ncbi.nlm.nih.gov/23107478/)Hossain MI, El-Harbawi M, Alitheen NB, Noaman YA, Lévêque JM, Yin CY.Hossain MI, et al.Ecotoxicol Environ Saf. 2013 Jan;87:65-9. doi: 10.1016/j.ecoenv.2012.09.020. Epub 2012 Oct 27.Ecotoxicol Environ Saf. 2013.PMID: 23107478  
+*   [Synthesis, characterization and the antimicrobial activity of new eco-friendly ionic liquids.](https://pubmed.ncbi.nlm.nih.gov/23357867/)Messali M, Moussa Z, Alzahrani AY, El-Naggar MY, ElDouhaibi AS, Judeh ZM, Hammouti B.Messali M, et al.Chemosphere. 2013 Jun;91(11):1627-34. doi: 10.1016/j.chemosphere.2012.12.062. Epub 2013 Jan 26.Chemosphere. 2013.PMID: 23357867  
+
+[See all similar articles](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed&from_uid=41739437)
+
+Publication types
+-----------------
+
+*   
+ Review 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Review%22%5Bpt%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Review)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+MeSH terms
+----------
+
+*   
+ Anti-Bacterial Agents* / chemical synthesis 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Anti-Bacterial+Agents%2Fchemical+synthesis%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Anti-Bacterial+Agents)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+*   
+ Anti-Bacterial Agents* / chemistry 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Anti-Bacterial+Agents%2Fchemistry%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Anti-Bacterial+Agents)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+*   
+ Anti-Bacterial Agents* / pharmacology 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Anti-Bacterial+Agents%2Fpharmacology%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Anti-Bacterial+Agents)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+*   
+ Anti-Bacterial Agents* / toxicity 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Anti-Bacterial+Agents%2Ftoxicity%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Anti-Bacterial+Agents)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+*   
+ Anti-Infective Agents* / chemistry 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Anti-Infective+Agents%2Fchemistry%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Anti-Infective+Agents)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+*   
+ Anti-Infective Agents* / pharmacology 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Anti-Infective+Agents%2Fpharmacology%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Anti-Infective+Agents)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+*   
+ Anti-Infective Agents* / toxicity 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Anti-Infective+Agents%2Ftoxicity%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Anti-Infective+Agents)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+*   
+ Bacteria / drug effects 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Bacteria%2Fdrug+effects%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Bacteria)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+*   
+ Drug Design* 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Drug+Design%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Drug+Design)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+*   
+ Humans 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Humans%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Humans)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+*   
+ Ionic Liquids* / chemical synthesis 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Ionic+Liquids%2Fchemical+synthesis%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Ionic+Liquids)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+*   
+ Ionic Liquids* / chemistry 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Ionic+Liquids%2Fchemistry%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Ionic+Liquids)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+*   
+ Ionic Liquids* / pharmacology 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Ionic+Liquids%2Fpharmacology%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Ionic+Liquids)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+*   
+ Ionic Liquids* / toxicity 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Ionic+Liquids%2Ftoxicity%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Ionic+Liquids)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+*   
+ Machine Learning* 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Machine+Learning%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Machine+Learning)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+*   
+ Microbial Sensitivity Tests 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Microbial+Sensitivity+Tests%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Microbial+Sensitivity+Tests)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+*   
+ Quantitative Structure-Activity Relationship 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Quantitative+Structure-Activity+Relationship%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Quantitative+Structure-Activity+Relationship)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+Substances
+----------
+
+*   
+ Ionic Liquids 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Ionic+Liquids%22%5Bnm%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=%22Ionic+Liquids%22)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+*   
+ Anti-Bacterial Agents 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Anti-Bacterial+Agents%22%5Bnm%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=%22Anti-Bacterial+Agents%22)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+*   
+ Anti-Infective Agents 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Anti-Infective+Agents%22%5Bnm%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=%22Anti-Infective+Agents%22)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+Related information
+-------------------
+
+*   [GEO Profiles](https://www.ncbi.nlm.nih.gov/geoprofiles?linkname=pubmed_geoprofiles&from_uid=41739437 "GEO records associated with pubmed record")
+
+LinkOut - more resources
+------------------------
+
+*   ### Full Text Sources
+
+    *   [Royal Society of Chemistry](https://doi.org/10.1039/d5tb02581h)
+
+*   ### Medical
+
+    *   [MedlinePlus Health Information](https://medlineplus.gov/antibiotics.html)
+
+**Full text links**[x]
+
+[![Image 7: Royal Society of Chemistry full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--www.rsc-cdn.org-oxygen-assets-logo-rsc-logo-btn-small.gif) Royal Society of Chemistry](https://doi.org/10.1039/d5tb02581h "See full text options at Royal Society of Chemistry")
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41739437%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41739437%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41739437%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/41739437/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/?pagename=pubmed%3Apubmed%3Aabstract%3ANONE)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)

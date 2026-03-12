@@ -11,82 +11,70 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-03-11
-- 运行时间：2026-03-11 19:35:49 UTC
+- 最新运行日期：2026-03-12
+- 运行时间：2026-03-12 19:43:56 UTC
 - 运行状态：成功
-- 本次总论文数：20
-- 精读区：8
-- 速读区：12
+- 本次总论文数：16
+- 精读区：6
+- 速读区：10
 
 ### 今日简报（AI）
-今日深度解析 20 篇前沿文献，重点聚焦金黄色葡萄球菌耐药性的全球基因组监测及单细胞表征学习框架。
-核心结论揭示了机器学习在预测非 β-内酰胺类抗生素耐药性中的可行性，并展示了 scCMA 框架对单细胞数据处理的鲁棒性提升。
-建议关注 AI 驱动的耐药性预测与单细胞组学算法，这正成为精准防控与生物医药研发的关键突破口。
-- 详情：[/202603/11/README](/202603/11/README)
+今日精选 16 篇前沿成果，重点攻克长序列 RNA 建模效率与抗菌离子液体的精准设计。
+满分论文展示了 Retentive Network 在生物语言建模中的巨大潜力，同时机器学习正成为平衡药效与毒性的关键利器。
+建议关注 AI 与生物化学的深度融合，特别是其在处理复杂长序列及环境友好型材料设计中的实战表现。
+- 详情：[/202603/12/README](/202603/12/README)
 
 ### 精读区论文标签
-1. [Staphylococcus aureus resistance to non-β-lactam antibiotics: global genomic epidemiology and machine learning feasibility assessment.](/202603/11/41806067-staphylococcus-aureus-resistance-to-non--lactam-antibiotics-global-genomic-epidemiology-and-machine-learning-feasibility-assessment)  
+1. [Retentive Network promotes efficient RNA language modeling of long sequences.](/202603/12/41814064-retentive-network-promotes-efficient-rna-language-modeling-of-long-sequences)  
+   标签：评分：10.0/10、query:bioinfo
+   evidence：使用保留网络进行长序列RNA语言建模
+2. [The chemical design of antimicrobial ionic liquids guided by machine learning: a review on balancing efficacy and toxicity.](/202603/12/41739437-the-chemical-design-of-antimicrobial-ionic-liquids-guided-by-machine-learning-a-review-on-balancing-efficacy-and-toxicity)  
    标签：评分：9.0/10、query:pathoai
-   evidence：利用机器学习从金黄色葡萄球菌基因组中预测最小抑菌浓度和耐药机制
-2. [scCMA: A Contrastive Masked Autoencoder Framework for Robust Representation Learning of scRNA-seq Data.](/202603/11/41806153-sccma-a-contrastive-masked-autoencoder-framework-for-robust-representation-learning-of-scrna-seq-data)  
-   标签：评分：9.0/10、query:seqai
-   evidence：用于单细胞RNA测序表示学习的对比掩码自编码器
-3. [Culture-Free Microfluidics for Ultra-Rapid Antimicrobial Susceptibility Testing with AI in Resource-Limited Settings.](/202603/11/41810551-culture-free-microfluidics-for-ultra-rapid-antimicrobial-susceptibility-testing-with-ai-in-resource-limited-settings)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：AI驱动的微流控技术用于快速抗生素敏感性测试
-4. [Not all vaginal microbiomes are equal: functional context shapes immune landscapes.](/202603/11/41642002-not-all-vaginal-microbiomes-are-equal-functional-context-shapes-immune-landscapes)  
-   标签：评分：8.0/10、query:pathoai
-   evidence：宏基因组亚种和群落状态类型与宿主免疫反应
-5. [A tiled amplicon protocol for culture-free whole-genome sequencing of](/202603/11/41660836-a-tiled-amplicon-protocol-for-culture-free-whole-genome-sequencing-of)  
-   标签：评分：8.0/10、query:pathoai
-   evidence：全基因组测序用于结核病监测和传播模式
-6. [Efficient detection and typing of phage-plasmids.](/202603/11/41660861-efficient-detection-and-typing-of-phage-plasmids)  
-   标签：评分：8.0/10、query:seqai
-   evidence：基因组中噬菌体质粒检测与分型的计算方法
-7. [Computational modelling of the equine arteritis virus GP5/M Dimer: Implications for immune evasion and virulence.](/202603/11/41805756-computational-modelling-of-the-equine-arteritis-virus-gp5m-dimer-implications-for-immune-evasion-and-virulence)  
+   evidence：机器学习用于抗菌药物发现及药效与毒性平衡
+3. [MultiPert: An adversarial alignment and dual attention framework for single-cell multi-omics perturbation prediction.](/202603/12/41811907-multipert-an-adversarial-alignment-and-dual-attention-framework-for-single-cell-multi-omics-perturbation-prediction)  
+   标签：评分：9.0/10、query:bioinfo
+   evidence：用于单细胞多组学扰动预测的深度学习框架
+4. [AF2BIND: predicting small-molecule binding sites using the pair representation of AlphaFold2.](/202603/12/41814061-af2bind-predicting-small-molecule-binding-sites-using-the-pair-representation-of-alphafold2)  
+   标签：评分：9.0/10、query:bioinfo
+   evidence：利用AlphaFold2对表示预测小分子结合位点
+5. [An inducible CRISPRi system for phenotypic analysis of essential genes in](/202603/12/41670347-an-inducible-crispri-system-for-phenotypic-analysis-of-essential-genes-in)  
    标签：评分：8.0/10、query:bioinfo
-   evidence：使用AlphaFold3进行病毒蛋白结构预测
-8. [Bacterial β-carbonic anhydrases: a six-step prioritization framework for antibacterial target validation.](/202603/11/41806044-bacterial--carbonic-anhydrases-a-six-step-prioritization-framework-for-antibacterial-target-validation)  
+   evidence：用于病原体功能基因组学的诱导型 CRISPRi 系统
+6. [Genomic characterization of multidrug-resistant Escherichia coli strains identified from patients with urinary tract infection in Egypt.](/202603/12/41813722-genomic-characterization-of-multidrug-resistant-escherichia-coli-strains-identified-from-patients-with-urinary-tract-infection-in-egypt)  
    标签：评分：8.0/10、query:pathoai
-   evidence：抗菌靶点识别的优先级排序框架
+   evidence：大肠杆菌的基因组特征分析和耐药性预测
 
 ### 速读区论文标签
-1. [Underexplored maternal microbiomes: immune, metabolic, and microbial pathways shaping pregnancy outcomes.](/202603/11/41661098-underexplored-maternal-microbiomes-immune-metabolic-and-microbial-pathways-shaping-pregnancy-outcomes)  
+1. [Intestinal epithelial Tet2 deficiency reprograms the gut microbiota through bile acid metabolic alterations.](/202603/12/41586521-intestinal-epithelial-tet2-deficiency-reprograms-the-gut-microbiota-through-bile-acid-metabolic-alterations)  
    标签：评分：7.0/10、query:pathoai
-   evidence：微生物组宿主相互作用与妊娠结局预测
-2. [Identification of novel pyrazolo[4,3-c]pyridine and diazepane derivatives as potent inhibitors of](/202603/11/41661129-identification-of-novel-pyrazolo43-cpyridine-and-diazepane-derivatives-as-potent-inhibitors-of)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：针对 PtpB-Mtb 的新型抗结核抑制剂的基于结构的虚拟筛选
-3. [Design and Mechanistic Study of Pf-15: A Linear Antimicrobial Peptide Derived from Gramicidin S Skeleton.](/202603/11/41733505-design-and-mechanistic-study-of-pf-15-a-linear-antimicrobial-peptide-derived-from-gramicidin-s-skeleton)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：针对病原体的抗菌肽理性设计
-4. [Thirteen metagenome-assembled genomes of](/202603/11/41805177-thirteen-metagenome-assembled-genomes-of)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：用于宿主-微生物相互作用的宏基因组组装基因组
-5. [Integrating ANI and phylogenies for re-evaluation of Fusobacterium taxonomy and disease associations.](/202603/11/41807455-integrating-ani-and-phylogenies-for-re-evaluation-of-fusobacterium-taxonomy-and-disease-associations)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：对病原体基因组进行系统发育分析以修订分类学并研究疾病关联
-6. [In silico structural and functional characterization of high-risk missense variants in MMP8, GZMK, and OASL genes associated with epidemic viral infections.](/202603/11/41807577-in-silico-structural-and-functional-characterization-of-high-risk-missense-variants-in-mmp8-gzmk-and-oasl-genes-associated-with-epidemic-viral-infections)  
+   evidence：调节宿主-微生物群相互作用和肠道稳态的表观遗传机制
+2. [Predicting rice drought-responsive genes via distance-based prototypical graph neural network with path aggregation mechanism.](/202603/12/41814380-predicting-rice-drought-responsive-genes-via-distance-based-prototypical-graph-neural-network-with-path-aggregation-mechanism)  
    标签：评分：7.0/10、query:bioinfo
-   evidence：利用计算工作流对蛋白质变异进行计算机结构和功能表征
-7. [Leveraging proteomics and machine learning for mechanism and biomarker discovery on glioma progression and transformation: from LGG to GBM.](/202603/11/41807981-leveraging-proteomics-and-machine-learning-for-mechanism-and-biomarker-discovery-on-glioma-progression-and-transformation-from-lgg-to-gbm)  
+   evidence：用于基因调控网络推理的图神经网络
+3. [Alternating High-Fat and Polysaccharide Diets Modulates Gut Phage-Bacterial Interplay.](/202603/12/41816995-alternating-high-fat-and-polysaccharide-diets-modulates-gut-phage-bacterial-interplay)  
    标签：评分：7.0/10、query:seqai
-   evidence：蛋白质组学和机器学习用于胶质瘤进展
-8. [Biosensing technologies for foodborne pathogen detection and healthcare: principles, emerging materials, and intelligent platforms.](/202603/11/41803510-biosensing-technologies-for-foodborne-pathogen-detection-and-healthcare-principles-emerging-materials-and-intelligent-platforms)  
+   evidence：饮食相关宏基因组及噬菌体-细菌相互作用的元分析
+4. [Environmental and physiological factors influencing the survival of resistant](/202603/12/41364116-environmental-and-physiological-factors-influencing-the-survival-of-resistant)  
    标签：评分：6.0/10、query:pathoai
-   evidence：用于食源性病原体检测的智能平台
-9. [A foundation model for multi-task cross-distribution restoration of fluorescence microscopy images.](/202603/11/41807447-a-foundation-model-for-multi-task-cross-distribution-restoration-of-fluorescence-microscopy-images)  
+   evidence：微生物组宿主相互作用和感染建模
+5. [Endophytic fungi of Aegle marmelos as a source of novel antibacterials and anti-SARS-CoV agents.](/202603/12/41811556-endophytic-fungi-of-aegle-marmelos-as-a-source-of-novel-antibacterials-and-anti-sars-cov-agents)  
    标签：评分：6.0/10、query:bioinfo
-   evidence：用于荧光显微镜图像修复的基础模型
-10. [Deep learning-based in silico labeling for analyzing morphological features of MSCs to predict immunomodulatory capacity.](/202603/11/41807585-deep-learning-based-in-silico-labeling-for-analyzing-morphological-features-of-mscs-to-predict-immunomodulatory-capacity)  
+   evidence：利用分子对接从真菌提取物中发现新冠病毒配体
+6. [NewbornsInSA multi-omic newborn screening: protocol for a prospective cohort study.](/202603/12/41813051-newbornsinsa-multi-omic-newborn-screening-protocol-for-a-prospective-cohort-study)  
    标签：评分：6.0/10、query:bioinfo
-   evidence：深度学习用于细胞形态和免疫调节能力预测
-11. [Development and validation of a high-confidence diagnostic model integrating ctDNA methylation and serum biomarkers for early-stage hepatocellular carcinoma detection.](/202603/11/41807813-development-and-validation-of-a-high-confidence-diagnostic-model-integrating-ctdna-methylation-and-serum-biomarkers-for-early-stage-hepatocellular-carcinoma-detection)  
+   evidence：用于新生儿筛查和疾病检测的多组学模型
+7. [Comparative centromere genomics reveals evolutionary divergence in Solanaceae genomes.](/202603/12/41814399-comparative-centromere-genomics-reveals-evolutionary-divergence-in-solanaceae-genomes)  
+   标签：评分：6.0/10、query:seqai
+   evidence：利用长读长测序进行完整基因组组装和着丝粒表征
+8. [Host immunogenetic variation and gut microbiome functionality in a wild vertebrate population.](/202603/12/41814421-host-immunogenetic-variation-and-gut-microbiome-functionality-in-a-wild-vertebrate-population)  
+   标签：评分：6.0/10、query:seqai
+   evidence：鸟枪法宏基因组学用于肠道微生物组分类和功能研究
+9. [Building a Foundation SERS Model for Lipids through Fatty Acid Pretraining for Annotation across Chemical Spaces.](/202603/12/41817099-building-a-foundation-sers-model-for-lipids-through-fatty-acid-pretraining-for-annotation-across-chemical-spaces)  
    标签：评分：6.0/10、query:bioinfo
-   evidence：整合 ctDNA 和血清生物标志物的多模态诊断模型
-12. [Fingerprinting Fluorescent](/202603/11/41810482-fingerprinting-fluorescent)  
-   标签：评分：6.0/10、query:pathoai
-   evidence：DNA自组装驱动的多重病原菌检测策略
+   evidence：用于分子属性预测和脂质注释的基础模型
+10. [Neutrophil-specific transcriptomic profiling reveals a novel signature for active tuberculosis diagnosis.](/202603/12/41817214-neutrophil-specific-transcriptomic-profiling-reveals-a-novel-signature-for-active-tuberculosis-diagnosis)  
+   标签：评分：6.0/10、query:seqai
+   evidence：用于结核病诊断的转录组分析和RNA测序
 
 
 <div class="dpr-home-promo-card">

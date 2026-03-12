@@ -1,0 +1,87 @@
+Title: AF2BIND: predicting small-molecule binding sites using the pair representation of AlphaFold2 - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41814061/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 11.
+
+doi: 10.1038/s41592-026-03011-2.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **41814061**
+*    DOI: [10.1038/s41592-026-03011-2](https://doi.org/10.1038/s41592-026-03011-2)
+
+AF2BIND: predicting small-molecule binding sites using the pair representation of AlphaFold2
+--------------------------------------------------------------------------------------------
+
+Artem Gazizov et al. Nat Methods.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+Abstract
+--------
+
+Identification of small-molecule binding sites in proteins is an important task for drug discovery. Despite previous homology- and machine-learning-based approaches to this problem, true de novo binding-site prediction remains a challenge. Here we use features from a pretrained neural network to train a logistic regression model, AF2BIND, for accurate prediction of de novo binding sites. AF2BIND identifies binding sites without relying on homology modeling, multiple sequence alignments or knowledge of a pocket-compatible ligand. Interpretable aspects of the model can be used to predict chemical properties of compatible ligands. We apply AF2BIND on the human proteome to produce a database that includes thousands of unseen binding sites in disease-relevant proteins. We anticipate AF2BIND will be used to focus drug discovery efforts and uncover functional sites in proteins across the tree of life.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+Competing interests: The authors declare no competing interests.
+
+Similar articles
+----------------
+
+*   [Unified protein-small molecule graph neural networks for binding site prediction.](https://pubmed.ncbi.nlm.nih.gov/41774792/)
+
+Wang J, Dokholyan NV.Wang J, et al.Proc Natl Acad Sci U S A. 2026 Mar 10;123(10):e2524913123. doi: 10.1073/pnas.2524913123. Epub 2026 Mar 3.Proc Natl Acad Sci U S A. 2026.PMID: 41774792 Free PMC article. 
+*   [Improving the Modeling of Extracellular Ligand Binding Pockets in RosettaGPCR for Conformational Selection.](https://pubmed.ncbi.nlm.nih.gov/37175495/)
+
+Liessmann F, Künze G, Meiler J.Liessmann F, et al.Int J Mol Sci. 2023 Apr 24;24(9):7788. doi: 10.3390/ijms24097788.Int J Mol Sci. 2023.PMID: 37175495 Free PMC article. 
+*   [Identification of Iron-Sulfur (Fe-S) Cluster and Zinc (Zn) Binding Sites Within Proteomes Predicted by DeepMind's AlphaFold2 Program Dramatically Expands the Metalloproteome.](https://pubmed.ncbi.nlm.nih.gov/34838520/)
+
+Wehrspan ZJ, McDonnell RT, Elcock AH.Wehrspan ZJ, et al.J Mol Biol. 2022 Jan 30;434(2):167377. doi: 10.1016/j.jmb.2021.167377. Epub 2021 Nov 24.J Mol Biol. 2022.PMID: 34838520 Free PMC article. 
+*   [Computational advances in RNA-small molecule binding site prediction.](https://pubmed.ncbi.nlm.nih.gov/41654089/)
+
+Yang L, Yan Z, Liu Y, Feng Y.Yang L, et al.Prog Biophys Mol Biol. 2026 Mar;199:267-278. doi: 10.1016/j.pbiomolbio.2026.02.003. Epub 2026 Feb 5.Prog Biophys Mol Biol. 2026.PMID: 41654089 Review. 
+*   [Fingerprinting Interactions between Proteins and Ligands for Facilitating Machine Learning in Drug Discovery.](https://pubmed.ncbi.nlm.nih.gov/38254672/)
+
+Li Z, Huang R, Xia M, Patterson TA, Hong H.Li Z, et al.Biomolecules. 2024 Jan 5;14(1):72. doi: 10.3390/biom14010072.Biomolecules. 2024.PMID: 38254672 Free PMC article.Review. 
+
+References
+----------
+
+1.       1.    Utgés, J. S. & Barton, G. J. Comparative evaluation of methods for the prediction of protein-ligand binding sites. J. Cheminform. 16, 126 (2024). - [PubMed](https://pubmed.ncbi.nlm.nih.gov/39529176/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/11552181/) - [DOI](https://doi.org/10.1186/s13321-024-00923-z)
+
+2.       1.    Santana, C. A. et al. GRaSP: a graph-based residue neighborhood strategy to predict binding sites. Bioinformatics 36, i726–i734 (2020). - [PubMed](https://pubmed.ncbi.nlm.nih.gov/33381849/) - [DOI](https://doi.org/10.1093/bioinformatics/btaa805)
+
+3.       1.    Yang, J., Roy, A. & Zhang, Y. Protein-ligand binding site recognition using complementary binding-specific substructure comparison and sequence profile alignment. Bioinformatics 29, 2588–2595 (2013). - [PubMed](https://pubmed.ncbi.nlm.nih.gov/23975762/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/3789548/) - [DOI](https://doi.org/10.1093/bioinformatics/btt447)
+
+4.       1.    Hekkelman, M. L., de Vries, I., Joosten, R. P. & Perrakis, A. AlphaFill: enriching AlphaFold models with ligands and cofactors. Nat. Methods 20, 205–213 (2023). - [PubMed](https://pubmed.ncbi.nlm.nih.gov/36424442/) - [DOI](https://doi.org/10.1038/s41592-022-01685-y)
+
+5.       1.    Krivák, R. & Hoksza, D. P2Rank: machine learning based tool for rapid and accurate prediction of ligand binding sites from protein structure. J. Cheminform. 10, 39 (2018). - [PubMed](https://pubmed.ncbi.nlm.nih.gov/30109435/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/6091426/) - [DOI](https://doi.org/10.1186/s13321-018-0285-8)
+
+Grants and funding
+------------------
+
+*   [R00GM135519/U.S. Department of Health & Human Services | NIH | National Institute of General Medical Sciences (NIGMS)](https://pubmed.ncbi.nlm.nih.gov/?term=R00GM135519%2FU.S.+Department+of+Health+%26+Human+Services+%7C+NIH+%7C+National+Institute+of+General+Medical+Sciences+%28NIGMS%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant R00GM135519/U.S. Department of Health & Human Services | NIH | National Institute of General Medical Sciences (NIGMS)")
+*   [R00GM135519/U.S. Department of Health & Human Services | NIH | National Institute of General Medical Sciences (NIGMS)](https://pubmed.ncbi.nlm.nih.gov/?term=R00GM135519%2FU.S.+Department+of+Health+%26+Human+Services+%7C+NIH+%7C+National+Institute+of+General+Medical+Sciences+%28NIGMS%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant R00GM135519/U.S. Department of Health & Human Services | NIH | National Institute of General Medical Sciences (NIGMS)")
+*   [Innovation Research Fund/Dana-Farber Cancer Institute (DFCI)](https://pubmed.ncbi.nlm.nih.gov/?term=Innovation+Research+Fund%2FDana-Farber+Cancer+Institute+%28DFCI%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant Innovation Research Fund/Dana-Farber Cancer Institute (DFCI)")
+*   [Innovation Research Fund/Dana-Farber Cancer Institute (DFCI)](https://pubmed.ncbi.nlm.nih.gov/?term=Innovation+Research+Fund%2FDana-Farber+Cancer+Institute+%28DFCI%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant Innovation Research Fund/Dana-Farber Cancer Institute (DFCI)")
+*   [Innovation Research Fund/Dana-Farber Cancer Institute (DFCI)](https://pubmed.ncbi.nlm.nih.gov/?term=Innovation+Research+Fund%2FDana-Farber+Cancer+Institute+%28DFCI%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant Innovation Research Fund/Dana-Farber Cancer Institute (DFCI)")
+
+*   [MCB2032259/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=MCB2032259%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant MCB2032259/National Science Foundation (NSF)")
+*   [MCB2032259/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=MCB2032259%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant MCB2032259/National Science Foundation (NSF)")
+*   [DP5OD026389/U.S. Department of Health & Human Services | National Institutes of Health (NIH)](https://pubmed.ncbi.nlm.nih.gov/?term=DP5OD026389%2FU.S.+Department+of+Health+%26+Human+Services+%7C+National+Institutes+of+Health+%28NIH%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant DP5OD026389/U.S. Department of Health & Human Services | National Institutes of Health (NIH)")

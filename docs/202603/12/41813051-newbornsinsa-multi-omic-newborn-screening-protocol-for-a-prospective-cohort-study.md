@@ -1,0 +1,22 @@
+---
+title: "NewbornsInSA multi-omic newborn screening: protocol for a prospective cohort study."
+title_zh: NewbornsInSA 多组学新生儿筛查：一项前瞻性队列研究方案
+authors: "Lucy Anastasi, Ayesha Chowdhury, Alex Ashenden, Tomas Rozek, Jennie Louise, Khoa Lam, Stephanie Skinner, Kirsty Stallard, Tracy Merlin, Camille Schubert, Arlene Vogan, Scott Morris, Sarah Cohen-Woods, Nicholas Smith, Enzo Ranieri, Benjamin Saxon, Hamish S Scott, Drago Bratkovic, Christopher P Barnett, Carol Wai-Kwan Siu, Jovanka King, Karin S Kassahn"
+date: 2026-03-11
+pdf: "https://pubmed.ncbi.nlm.nih.gov/41813051/"
+tags: ["query:bioinfo"]
+score: 6.0
+evidence: 用于新生儿筛查和疾病检测的多组学模型
+tldr: 针对现有新生儿筛查（NBS）仅能覆盖约30种疾病且受限于质谱检测标志物的局限性，NewbornsInSA项目提出了一种整合全基因组测序（WGS）与代谢组学的多组学筛查模型。该研究通过对1000个家庭进行前瞻性招募，分析超过600个基因位点，旨在验证多组学方法在提高诊断率、缩短诊断时间及成本效益方面的潜力，为扩展新生儿疾病筛查范围提供临床证据。
+selection_source: fresh_fetch
+motivation: 现有的新生儿筛查技术主要依赖质谱分析，难以覆盖数百种若能早期发现即可治疗的罕见遗传性疾病。
+method: 建立一个整合了全基因组测序（分析600多个虚拟基因面板）与并发代谢组学检测的多组学前瞻性队列研究框架。
+result: 该研究将通过对比标准护理流程，评估多组学模型在诊断收益、检测准确性、社会接受度以及成本效益方面的具体表现。
+conclusion: 多组学筛查模型有望显著增加可识别的疾病数量并实现早期干预，为未来个性化新生儿健康管理提供可行路径。
+---
+
+## 摘要
+【引言】新生儿足跟血筛查（NBS）在澳大利亚是免费且普及的，每年约有 30 万名新生儿接受筛查。目前的 NBS 计划筛查约 30 种疾病；然而，有数百种儿童期疾病如果能更早且在无症状时被发现，是可以得到治疗的。当代的筛查平台依赖于基于质谱的技术，这限制了对在新生儿期可检测到经验证生物标志物的疾病的监测。代谢技术和基因组学的进步扩大了可检测疾病的范围。NewbornsInSA 研究将开发、验证并评估一种新型的新生儿筛查多组学模型，将代谢组学和基因组学新生儿筛查整合为互补的方法。【方法】父母可以在怀孕期间或出生后不久选择加入 NewbornsInSA 的额外 NBS。1000 个前瞻性招募的家庭将接受全基因组测序（WGS）的基因组 NBS，包括对超过 600 个基因的虚拟基因面板进行分析，并同时进行代谢组学筛查。具有临床意义的致病或疑似致病遗传变异将报告给父母，如果以后生活中需要，全基因组测序数据可根据要求用于诊断性重新分析。将通过与医疗保健专业人员、公众成员和患者倡导团体的利益相关者参与活动来评估 NewbornsInSA 计划的可接受性。家庭体验将通过在线调查进行评估。多组学 NBS 模型的诊断率、准确性以及成本和后果将通过与标准护理 NBS 的比较来评估。NewbornsInSA 将在南澳大利亚的前瞻性招募人群中调查多组学新生儿筛查模型的可接受性、可行性和成本效益。我们假设这种方法将增加识别出的疾病数量，缩短诊断时间，并为患有遗传性疾病的新生儿提供更早的护理和更好的预后。【伦理与传播】本研究已获得妇女儿童健康网络人类研究伦理委员会（2022/HRE00258 和 2023/HRE00236）的伦理批准。研究结果将通过同行评审的出版物和会议进行传播。
+
+## Abstract
+INTRODUCTION: Newborn bloodspot screening (NBS) is freely and universally available to babies born in Australia, with nearly 300 000 newborns screened each year. The NBS programme screens for approximately 30 conditions; however, there are hundreds of childhood conditions that could be treated if identified earlier and asymptomatically. Contemporary screening platforms have relied on mass spectrometry-based technologies, limiting surveillance to conditions with validated biomarkers detectable within the neonatal period. Advancements in metabolic techniques and genomics have expanded the range of conditions that could be detected. The NewbornsInSA research study will develop, validate and evaluate a novel multi-omic model of newborn screening, integrating metabolomic and genomic newborn screening as complementary methodologies. METHODS: Parents can opt in to additional NBS through NewbornsInSA during pregnancy or shortly after birth. One thousand prospectively recruited families will be offered genomic NBS by whole-genome sequencing, including analysis of a virtual gene panel of over 600 genes, and concurrent metabolomic screening. Clinically actionable pathogenic or likely pathogenic genetic variants will be reported to parents and whole genome sequencing data will be available on request for diagnostic reanalysis, if required later in life.Acceptability of the NewbornsInSA programme will be evaluated through stakeholder engagement activities with healthcare professionals, members of the public and patient advocacy groups. Family experiences will be assessed using online surveys. The diagnostic yield, accuracy and the costs and consequences of the multi-omic NBS model will be assessed by comparison to standard-of-care NBS.NewbornsInSA will investigate the acceptability, feasibility and cost-effectiveness of a multi-omic newborn screening model in a prospectively recruited South Australian population. We hypothesise that this approach will increase the number of conditions identified, reduce the time to diagnosis and facilitate earlier care with better outcomes for newborns with genetic conditions. ETHICS AND DISSEMINATION: This research study has been ethically approved by the Women's and Children's Health Network Human Research Ethics Committee (2022/HRE00258 and 2023/HRE00236). Findings will be disseminated through peer-reviewed publication and conferences.

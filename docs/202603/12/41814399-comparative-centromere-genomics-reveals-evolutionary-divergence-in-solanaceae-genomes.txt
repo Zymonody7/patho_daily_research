@@ -1,0 +1,94 @@
+Title: Comparative centromere genomics reveals evolutionary divergence in Solanaceae genomes - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41814399/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 11.
+
+doi: 10.1186/s13059-026-04028-8.  Online ahead of print.
+
+[Ming Hu](https://pubmed.ncbi.nlm.nih.gov/?term=Hu+M&cauthor_id=41814399)[#](https://pubmed.ncbi.nlm.nih.gov/41814399/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41814399/#full-view-affiliation-1 "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (South China), Ministry of Agriculture and Rural Affairs, College of Horticulture, South China Agricultural University, Guangzhou, Guangdong, 510642, China."),[Hongyu Jin](https://pubmed.ncbi.nlm.nih.gov/?term=Jin+H&cauthor_id=41814399)[#](https://pubmed.ncbi.nlm.nih.gov/41814399/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41814399/#full-view-affiliation-1 "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (South China), Ministry of Agriculture and Rural Affairs, College of Horticulture, South China Agricultural University, Guangzhou, Guangdong, 510642, China."),[Shuyuan Tang](https://pubmed.ncbi.nlm.nih.gov/?term=Tang+S&cauthor_id=41814399)[#](https://pubmed.ncbi.nlm.nih.gov/41814399/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41814399/#full-view-affiliation-1 "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (South China), Ministry of Agriculture and Rural Affairs, College of Horticulture, South China Agricultural University, Guangzhou, Guangdong, 510642, China."),[Min Zhong](https://pubmed.ncbi.nlm.nih.gov/?term=Zhong+M&cauthor_id=41814399)[1](https://pubmed.ncbi.nlm.nih.gov/41814399/#full-view-affiliation-1 "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (South China), Ministry of Agriculture and Rural Affairs, College of Horticulture, South China Agricultural University, Guangzhou, Guangdong, 510642, China."),[Jiaowen Cheng](https://pubmed.ncbi.nlm.nih.gov/?term=Cheng+J&cauthor_id=41814399)[1](https://pubmed.ncbi.nlm.nih.gov/41814399/#full-view-affiliation-1 "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (South China), Ministry of Agriculture and Rural Affairs, College of Horticulture, South China Agricultural University, Guangzhou, Guangdong, 510642, China."),[Zhangsheng Zhu](https://pubmed.ncbi.nlm.nih.gov/?term=Zhu+Z&cauthor_id=41814399)[1](https://pubmed.ncbi.nlm.nih.gov/41814399/#full-view-affiliation-1 "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (South China), Ministry of Agriculture and Rural Affairs, College of Horticulture, South China Agricultural University, Guangzhou, Guangdong, 510642, China."),[Bihao Cao](https://pubmed.ncbi.nlm.nih.gov/?term=Cao+B&cauthor_id=41814399)[1](https://pubmed.ncbi.nlm.nih.gov/41814399/#full-view-affiliation-1 "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (South China), Ministry of Agriculture and Rural Affairs, College of Horticulture, South China Agricultural University, Guangzhou, Guangdong, 510642, China."),[Guoju Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+G&cauthor_id=41814399)[1](https://pubmed.ncbi.nlm.nih.gov/41814399/#full-view-affiliation-1 "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (South China), Ministry of Agriculture and Rural Affairs, College of Horticulture, South China Agricultural University, Guangzhou, Guangdong, 510642, China."),[Changming Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+C&cauthor_id=41814399)[1](https://pubmed.ncbi.nlm.nih.gov/41814399/#full-view-affiliation-1 "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (South China), Ministry of Agriculture and Rural Affairs, College of Horticulture, South China Agricultural University, Guangzhou, Guangdong, 510642, China."),[Chengjie Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+C&cauthor_id=41814399)[2](https://pubmed.ncbi.nlm.nih.gov/41814399/#full-view-affiliation-2 "State Key Laboratory of Tropical Crop Breeding, Key Laboratory of Crop Gene Resources and Germplasm Enhancement in South China, Ministry of Agriculture and Rural Affairs, Key Laboratory of Tropical Crops Germplasm Resources Genetic Improvement and Innovation of Hainan Province, Tropical Crops Genetic Resources Institute, Chinese Academy of Tropical Agricultural Sciences, Haikou, Hainan, 571101, China. ccj0410@gmail.com."),[Jianwen Song](https://pubmed.ncbi.nlm.nih.gov/?term=Song+J&cauthor_id=41814399)[3](https://pubmed.ncbi.nlm.nih.gov/41814399/#full-view-affiliation-3 "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (South China), Ministry of Agriculture and Rural Affairs, College of Horticulture, South China Agricultural University, Guangzhou, Guangdong, 510642, China. songjianwen200@scau.edu.cn."),[Yi Liao](https://pubmed.ncbi.nlm.nih.gov/?term=Liao+Y&cauthor_id=41814399)[4](https://pubmed.ncbi.nlm.nih.gov/41814399/#full-view-affiliation-4 "Key Laboratory of Biology and Genetic Improvement of Horticultural Crops (South China), Ministry of Agriculture and Rural Affairs, College of Horticulture, South China Agricultural University, Guangzhou, Guangdong, 510642, China. yiliao@scau.edu.cn.")
+
+Affiliations
+
+*    PMID: **41814399**
+*    DOI: [10.1186/s13059-026-04028-8](https://doi.org/10.1186/s13059-026-04028-8)
+
+Comparative centromere genomics reveals evolutionary divergence in Solanaceae genomes
+-------------------------------------------------------------------------------------
+
+Penglong Wan et al. Genome Biol.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+Abstract
+--------
+
+**Background:** Centromeres are chromosomal loci epigenetically specified by the histone variant CENH3, where kinetochores assemble to ensure accurate chromosome segregation during cell division. Their repetitive and rapidly evolving DNA has long impeded large-scale characterization. Advances in long-read sequencing now enable complete genome assemblies across species and within populations, providing opportunities to investigate how centromeres evolve and diversify over timescales from thousands to millions of years.
+
+**Results:** Here, we generate near-telomere-to-telomere genome assemblies for eggplant, African eggplant, and wild pepper. Using CENH3 ChIP-seq, we delineate functional centromeric chromatin in these assemblies and in the cultivated pepper 'CA59', tomato 'Heinz 1706', and a wild tomato accession. These genomes harbor satellite-free centromeres across all chromosomes except chromosome 3 in tomato and its wild progenitor. Instead, centromeres are primarily composed of Ty3/Gypsy LTR retrotransposons, whose clade composition, abundance, recent activity, and spatial distribution differ among species. Centromere size scales with genome size in Solanaceae crops. Comparisons of closely related genomes reveal frequent centromere positional shifts driven by pericentromeric inversions and centromere repositioning. Synteny decays more rapidly around centromeres, consistent with elevated breakage within CENH3-binding regions. Finally, centromere haplotypes vary within species, exemplified by multiple haplotypes on four African eggplant chromosomes.
+
+**Conclusions:** These findings highlight the remarkable evolutionary dynamics and within-species variation of centromeres in Solanaceae crops, revealing distinct species-specific organizational patterns. This study positions Solanaceae as a promising model for comparative analyses of plant centromere evolution and provides a foundation for future research exploring how centromere variation contributes to phenotypic diversity.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+Declarations. Ethics approval and consent to participate: Not applicable. Consent for publication: Not applicable. Competing interests: The authors declare no competing interests.
+
+Similar articles
+----------------
+
+*   [Genetic diversity and architectural dynamics of soybean centromeres.](https://pubmed.ncbi.nlm.nih.gov/41491959/)
+
+Huang Y, Guan E, Song S, Koo DH, Schmidt MA, Su H, Chen C, Zhang J.Huang Y, et al.Genome Biol. 2026 Jan 5;27(1):17. doi: 10.1186/s13059-025-03924-9.Genome Biol. 2026.PMID: 41491959 Free PMC article. 
+*   [Near telomere-to-telomere genome assemblies of two Chlorella species unveil the composition and evolution of centromeres in green algae.](https://pubmed.ncbi.nlm.nih.gov/38600443/)
+
+Wang B, Jia Y, Dang N, Yu J, Bush SJ, Gao S, He W, Wang S, Guo H, Yang X, Ma W, Ye K.Wang B, et al.BMC Genomics. 2024 Apr 10;25(1):356. doi: 10.1186/s12864-024-10280-8.BMC Genomics. 2024.PMID: 38600443 Free PMC article. 
+*   [Cellular Dynamics and Genomic Identity of Centromeres in Cereal Blast Fungus.](https://pubmed.ncbi.nlm.nih.gov/31363034/)
+
+Yadav V, Yang F, Reza MH, Liu S, Valent B, Sanyal K, Naqvi NI.Yadav V, et al.mBio. 2019 Jul 30;10(4):e01581-19. doi: 10.1128/mBio.01581-19.mBio. 2019.PMID: 31363034 Free PMC article. 
+*   [Bridging the gap: unravelling plant centromeres in the telomere-to-telomere era.](https://pubmed.ncbi.nlm.nih.gov/39329317/)
+
+Naish M.Naish M.New Phytol. 2024 Dec;244(6):2143-2149. doi: 10.1111/nph.20149. Epub 2024 Sep 27.New Phytol. 2024.PMID: 39329317 Free PMC article.Review. 
+*   [The structure, function, and evolution of plant centromeres.](https://pubmed.ncbi.nlm.nih.gov/38485193/)
+
+Naish M, Henderson IR.Naish M, et al.Genome Res. 2024 Mar 20;34(2):161-178. doi: 10.1101/gr.278409.123.Genome Res. 2024.PMID: 38485193 Free PMC article.Review. 
+
+References
+----------
+
+1.       1.    Cleveland DW, Mao Y, Sullivan KF. Centromeres and kinetochores: from epigenetics to mitotic checkpoint signaling. Cell. 2003;112:407–21. 
+
+2.       1.    Fukagawa T, Earnshaw WC. The centromere: chromatin foundation for the kinetochore machinery. Dev Cell. 2014;30:496–508. 
+
+3.       1.    Naish M, Henderson IR. The structure, function, and evolution of plant centromeres. Genome Res. 2024;34:161–78. 
+
+4.       1.    Henikoff S, Dalal Y. Centromeric chromatin: what makes it unique? Curr Opin Genet Dev. 2005;15:177–84. 
+
+5.       1.    Meluh PB, Koshland D. Budding yeast centromere composition and assembly as revealed by in vivo cross-linking. Genes Dev. 1997;11:3401–12. 
+
+Grants and funding
+------------------
+
+*   [32172564/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=32172564%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 32172564/National Natural Science Foundation of China")
+*   [U21A20230/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=U21A20230%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant U21A20230/National Natural Science Foundation of China")
+*   [32302535/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=32302535%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 32302535/National Natural Science Foundation of China")
+*   [32570277/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=32570277%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 32570277/National Natural Science Foundation of China")
+*   [2022B0202080001/Key-Area Research and Development Program of Guangdong Province](https://pubmed.ncbi.nlm.nih.gov/?term=2022B0202080001%2FKey-Area+Research+and+Development+Program+of+Guangdong+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2022B0202080001/Key-Area Research and Development Program of Guangdong Province")
+
+*   [2024A1515010403/Basic and Applied Basic Research Foundation of Guangdong Province](https://pubmed.ncbi.nlm.nih.gov/?term=2024A1515010403%2FBasic+and+Applied+Basic+Research+Foundation+of+Guangdong+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2024A1515010403/Basic and Applied Basic Research Foundation of Guangdong Province")
+*   [2024A1515010470/Basic and Applied Basic Research Foundation of Guangdong Province](https://pubmed.ncbi.nlm.nih.gov/?term=2024A1515010470%2FBasic+and+Applied+Basic+Research+Foundation+of+Guangdong+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2024A1515010470/Basic and Applied Basic Research Foundation of Guangdong Province")
+*   [2024A1515010362/Basic and Applied Basic Research Foundation of Guangdong Province](https://pubmed.ncbi.nlm.nih.gov/?term=2024A1515010362%2FBasic+and+Applied+Basic+Research+Foundation+of+Guangdong+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2024A1515010362/Basic and Applied Basic Research Foundation of Guangdong Province")
+*   [2024A04J4361/the Science and Technology Plan Projects of Guangzhou](https://pubmed.ncbi.nlm.nih.gov/?term=2024A04J4361%2Fthe+Science+and+Technology+Plan+Projects+of+Guangzhou%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2024A04J4361/the Science and Technology Plan Projects of Guangzhou")

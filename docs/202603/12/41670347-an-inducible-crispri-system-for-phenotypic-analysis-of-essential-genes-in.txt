@@ -1,0 +1,129 @@
+Title: An inducible CRISPRi system for phenotypic analysis of essential genes in Pseudomonas aeruginosa - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41670347/
+
+Markdown Content:
+An inducible CRISPRi system for phenotypic analysis of essential genes in _Pseudomonas aeruginosa_
+--------------------------------------------------------------------------------------------------
+
+Jaryd R Sullivan et al. mBio.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+Abstract
+--------
+
+Precise and tunable genetic tools are essential for high-throughput functional genomics. To address this need in the important gram-negative pathogen _Pseudomonas aeruginosa_, we developed and characterized a tightly regulated CRISPR-interference (CRISPRi) system that enables precise and tunable repression of essential genes. The system utilizes a rhamnose-inducible promoter to control both the _Streptococcus pasteurianus_-derived dCas9 and gene-specific sgRNAs, each encoded on separate plasmids for modularity and efficiency. The combination of tight regulation and high conjugation efficiency facilitated the rapid and facile construction of strains with regulated depletion of 16 essential genes spanning diverse pathways. Comparison of phenotypes across the different genetically depleted strains, including growth rate, susceptibility to antibiotics, and changes in transcriptional programs, revealed novel aspects of gene function or small-molecule mechanism of action. Finally, the rhamnose-inducible CRISPRi system supports the generation and stable maintenance of pooled mutant libraries, thereby paving the way for future genome-wide, systematic assessment of individual gene vulnerabilities, which will provide critical insights for target prioritization in antibiotic discovery efforts against this recalcitrant pathogen.IMPORTANCECRISPR-interference (CRISPRi) has become an invaluable tool for studying genetics. In particular, the ability to knockdown (KD) genes enables the study of essential genes and their role in cell survival. However, a tightly regulated gene KD system is required to gain valuable insights into these vulnerable genes by virtue of their essentiality. We report a tightly regulated CRISPRi system to study the biology of essential gene perturbations in _Pseudomonas aeruginosa_, an important gram-negative pathogen that causes severe infections and is increasingly resistant to current antibiotics. This system enables characterization of both chemical genetic interactions between small molecules and specific gene depletions and the impact of genetic perturbations on transcriptional networks. Genetic perturbations using CRISPRi can thus further our understanding of basic biology with translation toward future antimicrobial development.
+
+**Keywords:** CRISPRi; Pseudomonas aeruginosa; genetic perturbation; transcriptomics.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+The authors declare no conflict of interest.
+
+Figures
+-------
+
+[![Image 1: Fig 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e71c/12977507/12f62e1f9034/mbio.02767-25.f001.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e71c/12977507/6fa811578f65/mbio.02767-25.f001.jpg)
+
+**Fig 1**
+An arabinose-based CRISPRi system yields leaky CRISPRi phenotypes. (**A**) Schematic of the CRISPRi P araBAD system (CRISPRi A). dCas9 expression is driven by the arabinose-inducible promoter P araBAD, with sgRNA constitutively expressed under the P ProD promoter. The CRISPRi A system integrates at the attTn7 site in the PA14 genome. (**B**) Western blot analysis of the expression of C-terminal 6×His-tagged dCas9 variants in the PA14 strain at varying arabinose concentrations. Wild-type PA14 or PA14 expressing dCas9 from _S. thermophilus_ (Sth1), _S. pyogenes_ (Spy), or _S. pasteurianus_ (Spa) was lysed after induction with 0, 0.03, 0.125, or 0.5% arabinose and blotted with an anti-His antibody. dCas9 Spa and dCas9 Spy levels were arabinose dose-dependent with a higher abundance of dCas9 Spa while dCas9 Sth1 was not expressed. (**C**) mKate2 fluorescence repression (normalized to control sgRNA) by CRISPRi A using dCas9 Spa or dCas9 Spy with sgRNA g1 (Fig. S1A) measured after 15 h of growth in M9 minimal media with 0, 0.125, or 0.5% arabinose. dCas9 Spa induction led to stronger depletion of mKate2 than dCas9 Spy, whose activity was also not arabinose-dependent. (**D**) Sensitization of _folA_-CRISPRi A to trimethoprim. Activity of trimethoprim against CRISPRi A strains with control or _folA_ 1 (Fig. S1H) sgRNAs grown in lysogeny broth (LB) with and without 0.125% arabinose for 24 h. Trimethoprim sensitization was dependent on having the _folA_ 1 guide but independent of arabinose. (**E**) Morphology of CRISPRi A strains with control or _mreB_ sgRNAs. CRISPRi A strains were grown in 0% or 0.5% arabinose for ~19h, stained with FM-143x, and visualized using confocal microscopy. _mreB_-CRISPRi A cells displayed spherical morphology even in the absence of arabinose.
+
+[![Image 2: Fig 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e71c/12977507/62dde8e2e448/mbio.02767-25.f002.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e71c/12977507/efb373a68376/mbio.02767-25.f002.jpg)
+
+**Fig 2**
+A rhamnose-based, modular two-piece CRISPRi P rhaBAD system (CRISPRi R) eliminates leaky phenotypes. (**A**) Schematic of the CRISPRi R system. dCas9 Spa expression is driven by the rhamnose-inducible promoter P rhaBAD and is integrated at the Φ CTX site in the PA14 genome. This establishes a parental dCas9 Spa expressing strain of PA14. sgRNAs are also under control of the P rhaBAD promoter and are integrated at the attTn7 site in the PA14 genome. (**B**) In the presence of the inducer, CRISPRi R activity against the mKate2 reporter is comparable to that of CRISPRi A, but in the absence of the inducer, CRISPRi R is more tightly off. mKate2 fluorescence repression (normalized to control sgRNA) by CRISPRi with sgRNAs g4, g8, and g11 measured after 15 h of growth in minimal M9 media with 0.05% rhamnose (CRISPRi R) or 0.5% arabinose (CRISPRi A). (**C**) Sensitization of _folA_-CRISPRi R to trimethoprim. Activity of trimethoprim against CRISPRi R strains with control or _folA_ 1 sgRNAs (Fig. S1H) grown in LB for 24 h. Trimethoprim sensitization was dependent on expressing the _folA_ 1 sgRNA and on the presence of rhamnose. (**D**) Morphology of CRISPRi R strains with control or mreB sgRNAs. CRISPRi R strains were grown in 0% or 0.05% rhamnose for ~19 h, stained with FM-143x, and visualized using confocal microscopy. mreB-CRISPRi R cells displayed spherical morphology only in the presence of the CRISPRi R inducer, indicating a tight off state. (**E**) Comparison of CRISPRi growth curves in LB without the inducer. CRISPRi R strains targeting essential genes exhibited uniform growth in the absence of rhamnose, while CRISPRi A strains exhibited variable growth in the absence of arabinose. Each line is the growth curve for a different CRISPRi strain with the control-CRISPRi strain shown in pink. (**F**) Increased control of the CRISPRi R system limits leaky KD of target genes. CRISPRi KD of target genes analyzed by RNA-seq of each corresponding CRISPRi depletion strain. The degree of KD of the targeted gene is quantified using log 2 fold change (L2FC) relative to control-CRISPRi strain after 6 h of growth in 0.5% arabinose (CRISPRi A) or 0.05% rhamnose (CRISPRi R). Each dot represents one CRISPRi strain either in induced (pink) or uninduced conditions (gray). Without induction, there is no decrease in the expression of the CRISPRi R targeted gene in the corresponding strain, in contrast to the CRISPRi A system.
+
+[![Image 3: Fig 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e71c/12977507/7771171d571a/mbio.02767-25.f003.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e71c/12977507/ceff7e9c4834/mbio.02767-25.f003.jpg)
+
+**Fig 3**
+Tight control of CRISPRi R facilitates pooled CRISPRi library construction and propagation. (**A**) Targeted amplicon sequencing of sgRNAs as a proxy for individual strain census within a propagated pool of CRISPRi R or CRISPRi A strains without the inducer. Eighteen individual CRISPRi strains were pooled at equal ratios at time zero. No loss of strains was detected in the CRISPRi R pool even after 10 h of growth, as determined by L2FC in the sgRNA amplicon abundance corresponding to the engineered strain targeting each essential gene (left). In contrast, strain dropout was apparent in the pool of CRISPRi A strains (right). Each line represents a different CRISPR mutant, with colored lines referring to the corresponding colored gene shown. (**B**) Pooled construction of a single CRISPRi R library containing 17 different strains. Conjugation was carried out with a pool of 17 different _E. coli_ sgRNA donor strains (pooled at equal ratios). Targeted amplicon sequencing to measure the abundance of sgRNAs as a proxy for strain abundance is shown as a percentage of all mapped sgRNA reads (dotted line indicates 5.8% theoretical target for each CRISPRi R sgRNA). All the individual strains were recovered at the expected ~5% of the total pool abundance.
+
+[![Image 4: Fig 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e71c/12977507/55076e2458c4/mbio.02767-25.f004.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e71c/12977507/f78958d81d3e/mbio.02767-25.f004.jpg)
+
+**Fig 4**
+CRISPRi R genetic perturbation leads to altered chemical sensitivities. (**A**) Heat map of the L2FC in growth of CRISPRi R strains relative to the control-CRISPRi R strain. CRISPRi R strains were grown in induced conditions albeit with sub-lethal concentrations of rhamnose. (0.05% rhamnose: _folA_-, _gyrA_-, _gyrB_-, _lptE_-, _rpoB_-, and _pbpA_-CRISPRi R strains; 0.025% rhamnose: _lptA_-, _lptD_-, _dxr_-, _mreB_-, _leuS_-, _rpsL_, and _rplJ_-CRISPRi R; 0.0125% rhamnose: _lpxC_- and _murA_-CRISPRi R.) Growth (OD 600) was measured for each strain after 24 h in the presence of chemical inhibitor, and L2FC of growth relative to the growth of the control-CRISPRi R strain was calculated. CRISPRi R strains displayed variable sensitivities to chemical inhibitors. (**B**) Heat map of the L2FC in growth of the _lptE_-CRISPRi R strain relative to control-CRISPRi R strain reveals broad sensitization to a number of chemical inhibitors with different mechanisms of action (MOA). Scale indicates L2FC in growth relative to control-CRISPRi R strain.
+
+[![Image 5: Fig 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e71c/12977507/cae2828e4954/mbio.02767-25.f005.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/e71c/12977507/b40b5f8cfcd8/mbio.02767-25.f005.jpg)
+
+**Fig 5**
+Transcription profiling of CRISPRi R KD strains reveals chemical genetic interactions. (**A**) PerSpecTM analysis of chemical inhibitors queried against CRISPRi R strains. Pearson correlations (−r m a x) of z-scored expression profiles from 90-min chemical inhibitor treatment on PA14 with 10 h of gene depletion of CRISPRi R strains are shown as a heat map. Responses to all chemical inhibitors were characterized in PA14 except fosmidomycin, which was characterized in a dxr-hypomorph strain due to the lack of wild-type activity. CRISPRi strains and chemical inhibitors with the same or related MOA are color-coordinated. The transcription profiles of chemical inhibitors largely cluster according to their MOA. Cell envelope genetic perturbations show a degree of crosstalk between membrane integrity and peptidoglycan synthesis chemical inhibitors. The asterisk indicates higher Pearson correlations between transcription profiles of a chemical inhibitor and genetic perturbation of its predicted target with CRISPRi R than with CRISPRi A (Fig. S7) (40). (**B**) Heat map showing gene sets enriched after CRISPRi R genetic perturbation relative to the control-CRISPRi R strain or after chemical perturbation relative to vehicle control. Enrichment is quantified by the false discovery rate measured using STRING-DB, with green and red colors indicating upregulated and downregulated gene sets, respectively. White boxes indicate no functional enrichment of a gene set. CRISPRi R perturbation revealed a distinct bacterial response to gyrase versus topoisomerase IV depletion. The DNA damage response (SOS) leading to upregulation of DNA repair and phage assembly genes, which is a hallmark of fluoroquinolone exposure, was observed after topoisomerase IV knockdown (_parC_-CRISPRi R) but not gyrase (_gyrA_-, _gyrB_-CRISPRi R) nor RNA-polymerase (_rpoB_-CRISPRi R) KD. (**C**) Volcano plots showing gene expression in PA14 in response to ciprofloxacin and novobiocin treatment. Ciprofloxacin-induced genes involved in SOS response (pink) and phage assembly (blue). (**D**) Volcano plots showing gene expression in response to CRISPRi R KD of topoisomerase genes. _parC_ KD elicited upregulation of SOS response and phage assembly genes, whereas _gyrA_ and _gyrB_ KD led to type VI secretion system (T6SS) upregulation.
+
+Update of
+---------
+
+*   [An Inducible CRISPRi system for phenotypic analysis of essential genes in Pseudomonas aeruginosa.](https://pubmed.ncbi.nlm.nih.gov/40964384/)
+
+Sullivan JR, Ferrara K, Barrick R, Romano KP, Warrier T, Hung DT.Sullivan JR, et al.bioRxiv [Preprint]. 2025 Sep 11:2025.09.11.675340. doi: 10.1101/2025.09.11.675340.bioRxiv. 2025.PMID: 40964384 Free PMC article.Updated.Preprint. 
+
+Similar articles
+----------------
+
+*   [CRISPR-dCas9-mediated knockdown of prtR, an essential gene in Pseudomonas aeruginosa.](https://pubmed.ncbi.nlm.nih.gov/32506497/)
+
+Xiang L, Qi F, Jiang L, Tan J, Deng C, Wei Z, Jin S, Huang G.Xiang L, et al.Lett Appl Microbiol. 2020 Oct;71(4):386-393. doi: 10.1111/lam.13337. Epub 2020 Jun 25.Lett Appl Microbiol. 2020.PMID: 32506497 
+*   [Investigating Pseudomonas aeruginosa Gene Function During Pathogenesis Using Mobile-CRISPRi.](https://pubmed.ncbi.nlm.nih.gov/37819512/)
+
+Yu MA, Banta AB, Ward RD, Prasad NK, Kwon MS, Rosenberg OS, Peters JM.Yu MA, et al.Methods Mol Biol. 2024;2721:13-32. doi: 10.1007/978-1-0716-3473-8_2.Methods Mol Biol. 2024.PMID: 37819512 Free PMC article. 
+*   [Reversible Gene Expression Control in Yersinia pestis by Using an Optimized CRISPR Interference System.](https://pubmed.ncbi.nlm.nih.gov/30979834/)
+
+Wang T, Wang M, Zhang Q, Cao S, Li X, Qi Z, Tan Y, You Y, Bi Y, Song Y, Yang R, Du Z.Wang T, et al.Appl Environ Microbiol. 2019 May 30;85(12):e00097-19. doi: 10.1128/AEM.00097-19. Print 2019 Jun 15.Appl Environ Microbiol. 2019.PMID: 30979834 Free PMC article. 
+*   [The rise and future of CRISPR-based approaches for high-throughput genomics.](https://pubmed.ncbi.nlm.nih.gov/39085047/)
+
+Vercauteren S, Fiesack S, Maroc L, Verstraeten N, Dewachter L, Michiels J, Vonesch SC.Vercauteren S, et al.FEMS Microbiol Rev. 2024 Sep 18;48(5):fuae020. doi: 10.1093/femsre/fuae020.FEMS Microbiol Rev. 2024.PMID: 39085047 Free PMC article.Review. 
+*   [CRISPRi-seq for genome-wide fitness quantification in bacteria.](https://pubmed.ncbi.nlm.nih.gov/34997243/)
+
+de Bakker V, Liu X, Bravo AM, Veening JW.de Bakker V, et al.Nat Protoc. 2022 Feb;17(2):252-281. doi: 10.1038/s41596-021-00639-6. Epub 2022 Jan 7.Nat Protoc. 2022.PMID: 34997243 Review. 
+
+References
+----------
+
+1.       1.    Baba T, Ara T, Hasegawa M, Takai Y, Okumura Y, Baba M, Datsenko KA, Tomita M, Wanner BL, Mori H. 2006. Construction of Escherichia coli K‐12 in‐frame, single‐gene knockout mutants: the Keio collection. Mol Syst Biol 2:2006.0008. doi: 10.1038/msb4100050 - [DOI](https://doi.org/10.1038/msb4100050) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC1681482/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/16738554/)
+
+2.       1.    van Opijnen T, Bodi KL, Camilli A. 2009. Tn-seq: high-throughput parallel sequencing for fitness and genetic interaction studies in microorganisms. Nat Methods 6:767–772. doi: 10.1038/nmeth.1377 - [DOI](https://doi.org/10.1038/nmeth.1377) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC2957483/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/19767758/)
+
+3.       1.    Liberati NT, Urbach JM, Miyata S, Lee DG, Drenkard E, Wu G, Villanueva J, Wei T, Ausubel FM. 2006. An ordered, nonredundant library of Pseudomonas aeruginosa strain PA14 transposon insertion mutants. Proc Natl Acad Sci U S A 103:2833–2838. doi: 10.1073/pnas.0511100103 - [DOI](https://doi.org/10.1073/pnas.0511100103) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC1413827/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/16477005/)
+
+4.       1.    McGinness KE, Baker TA, Sauer RT. 2006. Engineering controllable protein degradation. Mol Cell 22:701–707. doi: 10.1016/j.molcel.2006.04.027 - [DOI](https://doi.org/10.1016/j.molcel.2006.04.027) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/16762842/)
+
+5.       1.    Kim J-H, Wei J-R, Wallach JB, Robbins RS, Rubin EJ, Schnappinger D. 2011. Protein inactivation in mycobacteria by controlled proteolysis and its application to deplete the beta subunit of RNA polymerase. Nucleic Acids Res 39:2210–2220. doi: 10.1093/nar/gkq1149 - [DOI](https://doi.org/10.1093/nar/gkq1149) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3064785/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/21075796/)
+
+MeSH terms
+----------
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+Substances
+----------
+
+*   Actions 
+
+LinkOut - more resources
+------------------------
+
+*   ### Full Text Sources
+
+    *   [Atypon](https://journals.asm.org/doi/10.1128/mbio.02767-25?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
+
+*   ### Research Materials
+
+    *   [Addgene Non-profit plasmid repository](https://addgene.org/browse/pubmed/41670347)
