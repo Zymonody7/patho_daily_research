@@ -1,10 +1,37 @@
 # 知识库
 
-- 最近沉淀条目数：111
+- 最近沉淀条目数：120
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Evaluating the learnability of single-cell large language models on multiple tasks](#/202603/13/202603/13/10.21203/rs.3.rs-8919408/v1-evaluating-the-learnability-of-single-cell-large-language-models-on-multiple-tasks)
+  - TLDR：单细胞基础模型（scFMs）是否遵循“规模法则”尚不明确。本研究系统评估了 Geneformer 和 scGPT 在细胞类型标注和扰动预测任务上的表现。结果发现，大规模预训练对标注任务有效，但在扰动预测中收益有限，且增大模型规模并不总能提升性能。研究揭示了现有模型在捕捉复杂生物相互作用方面的局限，强调了引入生物学先验知识的重要性。
+  - Tags：`query:bioinfo`
+- [AIPH-TB: An Artificial Intelligence Algorithm for Physicochemical Microenvironment ReprogrammingAmplifies Pyrazinamide–Hydroxychloroquine Synergism — A Breakthrough Computational Discovery Toward TB Eradication](#/202603/13/202603/13/10.21203/rs.3.rs-9076830/v1-aiph-tb-an-artificial-intelligence-algorithm-for-physicochemical-microenvironment-reprogrammingamplifies-pyrazinamidehydroxychloroquine-synergism--a-breakthrough-computational-discovery-toward-tb-eradication)
+  - TLDR：针对结核病标准疗法治愈率受限且具肝毒性的挑战，本研究开发了AIPH-TB人工智能框架，利用强化学习和数字孪生技术优化吡嗪酰胺与羟氯喹的协同效应。该框架识别出5.2-5.8的最佳pH窗口，并发现羟氯喹能改变细菌细胞壁电位提升渗透率，预测可将治愈率提升至99.5%并显著降低毒性，为结核病精准治疗提供了新范式。
+  - Tags：`query:pathoai`
+- [NCRDLLM: Predicting ncRNA-Drug Response Associations via Multimodal Feature Fusion and Large Language Models.](#/202603/13/202603/13/41817976-ncrdllm-predicting-ncrna-drug-response-associations-via-multimodal-feature-fusion-and-large-language-models)
+  - TLDR：针对非编码RNA（ncRNA）与药物反应预测中单一RNA类型局限及多模态语义融合不足的问题，本文提出了NCRDLLM框架。该框架整合了miRNA、lncRNA和circRNA数据，利用RNA-FM、ChemBERTa等预训练模型提取序列、结构及疾病关联特征，并通过适配器映射至LLaMA-3.2-3B大模型进行LoRA微调。实验显示其在三类ncRNA预测任务中均取得优异表现（AUC-ROC最高达0.9832），为癌症精准用药提供了强有力的计算支持。
+  - Tags：`query:bioinfo`
+- [Integrated framework to study genomic surveillance of selective sweeps in multivariants dynamics.](#/202603/13/202603/13/41818157-integrated-framework-to-study-genomic-surveillance-of-selective-sweeps-in-multivariants-dynamics)
+  - TLDR：针对多变异株共存导致的复杂疫情动态，本研究开发了一个整合流行病学建模、基因组优势分析与概率监测的计算框架。该框架通过模拟变异株的传染性优势和免疫逃逸过程，揭示了变异株更替遵循受群体免疫驱动的选择性扫荡规律。通过对美、英、加等国真实疫情数据的验证，该研究量化了监测灵敏度与干预时机的权衡，为提升多变异株爆发时的基因组流行病学预警能力提供了理论支撑。
+  - Tags：`query:pathoai`
+- [MSCMF-DTB: a multi-scale cross-modal fusion framework for drug-target binding prediction.](#/202603/13/202603/13/41820521-mscmf-dtb-a-multi-scale-cross-modal-fusion-framework-for-drug-target-binding-prediction)
+  - TLDR：药物-靶点结合预测是药物研发的关键，但现有模型难以同时兼顾分子拓扑、化学子结构及蛋白质序列特征。MSCMF-DTB框架通过DenseGCN提取药物图特征，结合指纹信息，并利用多尺度CNN处理蛋白质BERT嵌入，最后通过交叉注意力与张量网络融合多模态特征。实验证明该模型在DrugBank等多个数据集上性能领先，并能识别关键结合位点，具备实际虚拟筛选潜力。
+  - Tags：`query:bioinfo`
+- [Foundation Model for Biological Temporal Data Dynamics with Experimental Validation](#/202603/13/202603/13/10.21203/rs.3.rs-9018407/v1-foundation-model-for-biological-temporal-data-dynamics-with-experimental-validation)
+  - TLDR：针对生物和生理时间序列数据存在的高维噪声、观测不全及异质性挑战，本文提出一种结合掩码变分自编码器（VAE）与潜空间神经常微分方程（Neural ODE）的通用动力学骨干模型。该模型在脑电图（EEG）、空气质量和果蝇基因表达等异质数据集上，实现了优于传统基准的预测性能，并支持反事实分析与机制蒸馏。研究证明了共享的潜空间动力学架构能有效统一跨领域的预测、适配及可解释性分析任务。
+  - Tags：`query:bioinfo`
+- [Multimodal framework for the joint analysis of single-cell RNA and T cell receptor sequencing data predicts T cell response to cancer immunotherapy.](#/202603/13/202603/13/41820396-multimodal-framework-for-the-joint-analysis-of-single-cell-rna-and-t-cell-receptor-sequencing-data-predicts-t-cell-response-to-cancer-immunotherapy)
+  - TLDR：准确预测 T 细胞对癌症免疫治疗的反应对临床至关重要，但整合单细胞 RNA 和 TCR 序列数据具有挑战性。本研究开发了 TRIM 框架，利用多模态变分自编码器整合这两类数据，并结合患者和组织背景学习共享表征。实验证明，TRIM 能通过治疗前的血液或正常组织样本，准确预测肿瘤内 T 细胞的克隆扩增和转录状态，为无创预测免疫治疗效果提供了新工具。
+  - Tags：`query:bioinfo`
+- [Host-Pathogen Interactions and Peptide-Based Therapeutics in Intracellular Bacterial Infections.](#/202603/13/202603/13/41677463-host-pathogen-interactions-and-peptide-based-therapeutics-in-intracellular-bacterial-infections)
+  - TLDR：胞内细菌感染因其隐蔽性及传统抗生素难以穿透细胞膜而成为全球健康难题。本文综述了宿主与病原体的动态博弈，提出利用多肽疗法突破困境：通过细胞穿透肽实现精准递送，利用多模态杀菌机制降低耐药性，并结合AI驱动的生成式发现与化学修饰优化性能。该研究为开发高渗透、低毒性且能激活宿主免疫的新型抗菌药物提供了系统性指导。
+  - Tags：`query:pathoai`
+- [A multi-omics analysis of gut bacteriome, virome, and serum metabolome in bipolar depression.](#/202603/13/202603/13/41820589-a-multi-omics-analysis-of-gut-bacteriome-virome-and-serum-metabolome-in-bipolar-depression)
+  - TLDR：双相抑郁症与肠道微生物-脑轴密切相关，但细菌、病毒及代谢物间的三元交互机制尚不明确。本研究对90名未用药患者和30名健康对照者进行多组学分析，识别出显著差异的249种细菌、7种病毒及261种代谢物。通过构建集成随机森林模型，实现了高达0.986的诊断曲线下面积（AUC），揭示了双相抑郁症中失调的组学网络，为精准诊断提供了强有力的生物标志物组合。
+  - Tags：`query:bioinfo`
 - [Retentive Network promotes efficient RNA language modeling of long sequences.](#/202603/12/202603/12/41814064-retentive-network-promotes-efficient-rna-language-modeling-of-long-sequences)
   - TLDR：针对Transformer模型在处理长RNA序列时面临的O(n²)计算复杂度瓶颈，本研究提出了基于Retentive Network的RNA语言模型RNAret。该模型利用保留机制实现了线性复杂度的并行训练与低开销推理，并在2980万条RNA序列上完成了自监督预训练。实验结果显示，RNAret在RNA相互作用预测、二级结构预测及mRNA/lncRNA分类等任务中均优于现有模型，为长序列RNA的功能研究提供了高效的特征提取工具。
   - Tags：`query:bioinfo`

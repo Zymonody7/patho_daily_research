@@ -1,0 +1,87 @@
+Title: Multimodal framework for the joint analysis of single-cell RNA and T cell receptor sequencing data predicts T cell response to cancer immunotherapy - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41820396/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 12.
+
+doi: 10.1038/s41467-026-70505-0.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **41820396**
+*    DOI: [10.1038/s41467-026-70505-0](https://doi.org/10.1038/s41467-026-70505-0)
+
+Multimodal framework for the joint analysis of single-cell RNA and T cell receptor sequencing data predicts T cell response to cancer immunotherapy
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+Chujun He et al. Nat Commun.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+Abstract
+--------
+
+T cell states are prognostic in different cancer types. Recent technologies enable joint profiling of T cell RNA and T cell receptor (TCR) sequences at single-cell resolution. Here we present the TCR-RNA Integrating Model (TRIM), a multi-modal variational autoencoder framework that integrates RNA-TCR data and predicts T cell clonality and transcriptional states. TRIM learns a shared representation of the data conditioned on patient, tissue source, and treatment timepoint. We applied TRIM to three independent datasets that included T cells collected before and after checkpoint inhibitor treatment, sourced either from blood and tumor biopsies in patients with head and neck squamous cell carcinoma and colorectal cancer, or from tumor and adjacent tissue in a pan-cancer dataset. In all settings, TRIM accurately predicted intra-tumor T cell clonal expansion and transcriptional status based on T cells from blood or normal tissue before treatment, demonstrating its utility in modeling multimodal T cell data and predicting T cell response to treatment and disease progression.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+Competing interests: KWW serves on the scientific advisory boards of DEM BioPharma, Solu Therapeutics, D2M Biotherapeutics, DoriNano, Inc., and Nextechinvest. He is a co-founder of Immunitas Therapeutics and receives sponsored research funding from Fate Therapeutics. He holds equity in TScan Therapeutics. RJX is Board Director at MoonLake Immunotherapeutics, and Scientific Advisory Board member at Nestle, Magnet Biomedicine, and Arena Bioworks, Co-founder of Convergence Bio; these organizations had no role in this study. CU serves on the Scientific Advisory Board of Immunai and Relation Therapeutics and has received sponsored research support from AstraZeneca and Janssen Pharmaceuticals. These activities are not related to the research reported in this study. The remaining authors declare no competing interests.
+
+Similar articles
+----------------
+
+*   [TCRcloud: a global visualization tool for T-cell and B-cell receptor transcripts.](https://pubmed.ncbi.nlm.nih.gov/41652507/)
+
+de Sousa E, Lérias JR, Gorgulho CM, Chaves-Ferreira M, Balan V, Pan W, Byrne-Steele M, Wang Z, Han J, Gama-Carvalho M, Maeurer M.de Sousa E, et al.J Transl Med. 2026 Feb 6;24(1):340. doi: 10.1186/s12967-025-07619-4.J Transl Med. 2026.PMID: 41652507 Free PMC article. 
+*   [Differences in TCR repertoire and T cell activation underlie the divergent outcomes of antitumor immune responses in tumor-eradicating versus tumor-progressing hosts.](https://pubmed.ncbi.nlm.nih.gov/33414263/)
+
+Woolaver RA, Wang X, Krinsky AL, Waschke BC, Chen SMY, Popolizio V, Nicklawsky AG, Gao D, Chen Z, Jimeno A, Wang XJ, Wang JH.Woolaver RA, et al.J Immunother Cancer. 2021 Jan;9(1):e001615. doi: 10.1136/jitc-2020-001615.J Immunother Cancer. 2021.PMID: 33414263 Free PMC article. 
+*   [T cell repertoire in peripheral blood as a potential biomarker for predicting response to concurrent cetuximab and nivolumab in head and neck squamous cell carcinoma.](https://pubmed.ncbi.nlm.nih.gov/35676062/)
+
+Wang X, Muzaffar J, Kirtane K, Song F, Johnson M, Schell MJ, Li J, Yoder SJ, Conejo-Garcia JR, Guevara-Patino JA, Bonomi M, Bhateja P, Rocco JW, Steuer CE, Saba NF, Chung CH.Wang X, et al.J Immunother Cancer. 2022 Jun;10(6):e004512. doi: 10.1136/jitc-2022-004512.J Immunother Cancer. 2022.PMID: 35676062 Free PMC article.Clinical Trial. 
+*   [TCR sequencing in cancer immunology and immunotherapy: what, when, where, why, and how.](https://pubmed.ncbi.nlm.nih.gov/41775434/)
+
+Nose Y MD, PhD, Figueiredo I, Tuballes K, Del Valle DM PhD, Gonsalves TR, Guo R, Ioannou G, Cabal R MD, Gonzalez-Kozlova E PhD, Gnjatic S PhD.Nose Y MD, PhD, et al.J Immunother Cancer. 2026 Mar 3;14(3):e013499. doi: 10.1136/jitc-2025-013499.J Immunother Cancer. 2026.PMID: 41775434 Free PMC article.Review. 
+*   [Harnessing TCR repertoires: predictive insights and therapeutic monitoring in cancer immunotherapy.](https://pubmed.ncbi.nlm.nih.gov/41244934/)
+
+Chiffelle J, Genolet R, Michielin O, Harari A.Chiffelle J, et al.Immunooncol Technol. 2025 Oct 1;28:101076. doi: 10.1016/j.iotech.2025.101076. eCollection 2025 Dec.Immunooncol Technol. 2025.PMID: 41244934 Free PMC article.Review. 
+
+References
+----------
+
+1.       1.    Restifo, N. P., Dudley, M. E. & Rosenberg, S. A. Adoptive immunotherapy for cancer: harnessing the t cell response. Nat. Rev. Immunol. 12, 269–281 (2012). 
+
+2.       1.    Sharma, P. & Allison, J. P. Dissecting the mechanisms of immune checkpoint therapy. Nat. Rev. Immunol. 20, 75–76 (2020). 
+
+3.       1.    Alcover, A., Alarcón, B. & Di Bartolo, V. Cell biology of t cell receptor expression and regulation. Annu. Rev. Immunol. 36, 103–125 (2018). 
+
+4.       1.    Davis, M. M. & Bjorkman, P. J. T-cell antigen receptor genes and t-cell recognition. Nature 334, 395–402 (1988). 
+
+5.       1.    Mellman, I., Chen, D. S., Powles, T. & Turley, S. J. The cancer-immunity cycle: Indication, genotype, and immunotype. Immunity 56, 2188–2205 (2023). 
+
+Grants and funding
+------------------
+
+*   [N00014-24-1-268/United States Department of Defense | United States Navy | ONR | Office of Naval Research Global (ONR Global)](https://pubmed.ncbi.nlm.nih.gov/?term=N00014-24-1-268%2FUnited+States+Department+of+Defense+%7C+United+States+Navy+%7C+ONR+%7C+Office+of+Naval+Research+Global+%28ONR+Global%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant N00014-24-1-268/United States Department of Defense | United States Navy | ONR | Office of Naval Research Global (ONR Global)")
+*   [N00014-24-1-268/United States Department of Defense | United States Navy | Office of Naval Research (ONR)](https://pubmed.ncbi.nlm.nih.gov/?term=N00014-24-1-268%2FUnited+States+Department+of+Defense+%7C+United+States+Navy+%7C+Office+of+Naval+Research+%28ONR%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant N00014-24-1-268/United States Department of Defense | United States Navy | Office of Naval Research (ONR)")
+*   [DE- SC002318/DOE | Advanced Research Projects Agency - Energy (Advanced Research Projects Agency - Energy - U.S. Department of Energy)](https://pubmed.ncbi.nlm.nih.gov/?term=DE-+SC002318%2FDOE+%7C+Advanced+Research+Projects+Agency+-+Energy+%28Advanced+Research+Projects+Agency+-+Energy+-+U.S.+Department+of+Energy%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant DE- SC002318/DOE | Advanced Research Projects Agency - Energy (Advanced Research Projects Agency - Energy - U.S. Department of Energy)")
+*   [1DP2AT012345/U.S. Department of Health & Human Services | NIH | National Center for Complementary and Integrative Health (NCCIH)](https://pubmed.ncbi.nlm.nih.gov/?term=1DP2AT012345%2FU.S.+Department+of+Health+%26+Human+Services+%7C+NIH+%7C+National+Center+for+Complementary+and+Integrative+Health+%28NCCIH%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 1DP2AT012345/U.S. Department of Health & Human Services | NIH | National Center for Complementary and Integrative Health (NCCIH)")
+*   [Simons Investigator Award/Simons Foundation](https://pubmed.ncbi.nlm.nih.gov/?term=Simons+Investigator+Award%2FSimons+Foundation%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant Simons Investigator Award/Simons Foundation")
+
+*   [P01 CA236749/CA/NCI NIH HHS/United States](https://pubmed.ncbi.nlm.nih.gov/?term=P01+CA236749%2FCA%2FNCI+NIH+HHS%2FUnited+States%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant P01 CA236749/CA/NCI NIH HHS/United States")
+*   [P01 CA16322/U.S. Department of Health & Human Services | NIH | NCI | Division of Cancer Epidemiology and Genetics, National Cancer Institute (National Cancer Institute Division of Cancer Epidemiology and Genetics)](https://pubmed.ncbi.nlm.nih.gov/?term=P01+CA16322%2FU.S.+Department+of+Health+%26+Human+Services+%7C+NIH+%7C+NCI+%7C+Division+of+Cancer+Epidemiology+and+Genetics%2C+National+Cancer+Institute+%28National+Cancer+Institute+Division+of+Cancer+Epidemiology+and+Genetics%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant P01 CA16322/U.S. Department of Health & Human Services | NIH | NCI | Division of Cancer Epidemiology and Genetics, National Cancer Institute (National Cancer Institute Division of Cancer Epidemiology and Genetics)")
+*   [R01 CA23803/U.S. Department of Health & Human Services | NIH | NCI | Division of Cancer Epidemiology and Genetics, National Cancer Institute (National Cancer Institute Division of Cancer Epidemiology and Genetics)](https://pubmed.ncbi.nlm.nih.gov/?term=R01+CA23803%2FU.S.+Department+of+Health+%26+Human+Services+%7C+NIH+%7C+NCI+%7C+Division+of+Cancer+Epidemiology+and+Genetics%2C+National+Cancer+Institute+%28National+Cancer+Institute+Division+of+Cancer+Epidemiology+and+Genetics%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant R01 CA23803/U.S. Department of Health & Human Services | NIH | NCI | Division of Cancer Epidemiology and Genetics, National Cancer Institute (National Cancer Institute Division of Cancer Epidemiology and Genetics)")

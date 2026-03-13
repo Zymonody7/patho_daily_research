@@ -1,0 +1,389 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-03-13T19:11:18.788069+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 7,
+    "deep_cap": 9,
+    "deep_selected": 7,
+    "quick_candidates": 2,
+    "quick_skim_target": 14,
+    "quick_selected": 2
+  },
+  "deep_dive": [
+    {
+      "id": "10.21203/rs.3.rs-8919408/v1",
+      "title": "Evaluating the learnability of single-cell large language models on multiple tasks",
+      "abstract": "<title>Abstract</title>  <p>The rise of single-cell foundation models (scFMs) has sparked interest in their potential to unify diverse biological tasks. However, their practical utility and the validity of scaling laws—the assumption that performance improves with model and data size—remain under-examined. Here, we systematically evaluate two representative scFMs, Geneformer and scGPT, across perturbation prediction and cell type annotation tasks. Our findings suggest that the benefits of large-scale pretraining are strongly task-dependent, conferring substantial advantages in cell type annotation but limited gains in perturbation prediction. Furthermore, our results indicate that increasing model size does not guarantee improved performance and can even be detrimental, challenging the ``bigger is better'' paradigm. By comparing model performance on real versus synthetic data with different levels of complexity, our analysis suggests that for perturbation prediction, the tested scFMs capture little more than simple summary statistics and may struggle to learn complex biological interactions. These results highlight the need to move beyond scaling and toward developing models that integrate deeper biological knowledge. We suggest that a renewed focus on task-specific architectures and biologically-informed priors may be critical for unlocking the true potential of foundation models in single-cell biology.</p>",
+      "authors": [
+        "Yan Y, Wang X, Song D."
+      ],
+      "primary_category": null,
+      "categories": [],
+      "published": "2026-03-12",
+      "link": "https://doi.org/10.21203/rs.3.rs-8919408/v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "evaluating single-cell large language models",
+      "llm_evidence_cn": "评估单细胞大语言模型",
+      "llm_evidence": "评估单细胞大语言模型",
+      "canonical_evidence": "评估单细胞大语言模型",
+      "llm_tldr_en": "Systematically evaluates Geneformer and scGPT across cell annotation and perturbation tasks.",
+      "llm_tldr_cn": "系统评估了Geneformer和scGPT在细胞标注和扰动预测任务中的表现。",
+      "llm_tldr": "系统评估了Geneformer和scGPT在细胞标注和扰动预测任务中的表现。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "large language models and foundation models for bioinformatics",
+      "matched_requirement_id": "req-30",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "10.21203/rs.3.rs-9076830/v1",
+      "title": "AIPH-TB: An Artificial Intelligence Algorithm for Physicochemical Microenvironment ReprogrammingAmplifies Pyrazinamide–Hydroxychloroquine Synergism — A Breakthrough Computational Discovery Toward TB Eradication",
+      "abstract": "<title>Abstract</title>  <p>  <bold>Background</bold>  Tuberculosis (TB) remains the world's deadliest bacterial pathogen, responsible for 10.6 million new cases and 1.3 million deaths in 2022 [1]. Standard four-drug RIPE (Rifampicin-Isoniazid-Pyrazinamide-Ethambutol) therapy achieves only 85% cure rates, with 25–37% of patients experiencing drug-induced hepatotoxicity [3]. The Pyrazinamide–Hydroxychloroquine (PYZ-HCQ) fixed-dose combination offers documented in vitro synergism (FICI = 0.38) through BCRP-1 efflux pump inhibition [6–8]; however, the optimal physicochemical conditions for maximising this synergy remain undefined. We developed AIPH-TB, a novel artificial intelligence (AI) framework that computationally reprograms the intracellular physicochemical and chemical microenvironment of  <italic>Mycobacterium tuberculosis</italic>  (MTB) to achieve unprecedented synergistic killing.  <bold>Methods</bold>  AIPH-TB integrates a multi-objective reinforcement learning engine (proximal policy optimisation), a Gaussian process regression synergy predictor (Matérn 5/2 kernel), and a stochastic ODE-based digital twin macrophage simulator. The model was trained on 2,847 pharmacodynamic data points from 20 peer-reviewed studies (2009–2024). It simultaneously optimises four physicochemical axes: (i) phagolysosomal pH oscillation schedule, (ii) ROS burst synchronisation timing, (iii) BCRP-1 saturation kinetics, and (iv) intracellular drug concentration trajectories across 3,600 parameter combinations.  <bold>Findings</bold>  AIPH-TB identified a narrow, previously unrecognised optimal phagolysosomal pH window of 5.2–5.8, where PYZ-HCQ synergy is maximised (predicted FICI = 0.28 ± 0.04). An AI-prescribed 12-hour pH oscillation schedule (dosing at 08:00 and 20:00) maintains the phagolysosome within this window for 18 of 24 hours. Predicted intracellular PZA concentration rises from 5.2 mM (PZA alone) to 48.7 mM (AI-optimised PYZ-HCQ), a 9.4-fold enhancement. The AI additionally identifies HCQ-mediated reduction of MTB cell wall zeta potential from -18 mV to -8 mV, increasing membrane permeability by an estimated 340% — a novel pharmacological mechanism not previously described in TB literature. The combined AIPH-TB protocol predicts 99.5% cure rate, <1.5% hepatotoxicity, sputum conversion within 2–3 weeks, and a whole-system synergy enhancement of 18–35× over standard therapy.  <bold>Interpretation</bold>  AIPH-TB is the first AI framework to computationally map and reprogram the physicochemical and chemical microenvironment of intracellular TB, unlocking synergy beyond empirical methods. The identification of MTB zeta potential as a novel pharmacological target represents a new paradigm in anti-TB drug science. These findings provide the computational and mechanistic basis for a Phase II clinical trial of AI-optimised PYZ-HCQ in drug-sensitive pulmonary tuberculosis.  </p>",
+      "authors": [
+        "Ahmed A, Rodaini S."
+      ],
+      "primary_category": null,
+      "categories": [],
+      "published": "2026-03-12",
+      "link": "https://doi.org/10.21203/rs.3.rs-9076830/v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "AI for antimicrobial discovery and therapeutic design against TB pathogen",
+      "llm_evidence_cn": "针对结核分枝杆菌的AI抗菌药物发现与治疗方案设计",
+      "llm_evidence": "针对结核分枝杆菌的AI抗菌药物发现与治疗方案设计",
+      "canonical_evidence": "针对结核分枝杆菌的AI抗菌药物发现与治疗方案设计",
+      "llm_tldr_en": "AIPH-TB uses AI to optimize drug synergism and microenvironment reprogramming for tuberculosis treatment.",
+      "llm_tldr_cn": "AIPH-TB利用人工智能优化药物协同作用和微环境重编程，以实现结核病的精准治疗。",
+      "llm_tldr": "AIPH-TB利用人工智能优化药物协同作用和微环境重编程，以实现结核病的精准治疗。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41817976",
+      "title": "NCRDLLM: Predicting ncRNA-Drug Response Associations via Multimodal Feature Fusion and Large Language Models.",
+      "abstract": "Noncoding RNAs (ncRNAs) play critical regulatory roles in cancer drug response. However, most existing methods are limited to predicting a single type of ncRNA, failing to fully capture the complex semantic associations between multimodal biological features, and thus exhibit weak generalizability and robustness. To overcome these limitations, this study proposes NCRDLLM, a unified framework that leverages large language models (LLMs) to predict associations between three types of ncRNA (circular RNA, microRNA, and long noncoding RNA) and drugs. The method integrates 19,020 experimentally validated associations and 120,009 disease association records. Three types of multimodal features are constructed: sequence features extracted using pretrained foundation models RNA-FM and ChemBERTa, structural features generated through Graph2Vec for RNA secondary structures and AttentiveFP combined with ECFP for drug molecules, and association features obtained via disease-associated coding and semantic similarity. These features are subsequently mapped into the hidden space of LLaMA-3.2-3B through adapter modules, with LoRA employed for parameter-efficient fine-tuning. Experimental results demonstrate that NCRDLLM achieves AUC-ROC values of 0.9665, 0.9832, and 0.9676 on miRNA-drug, lncRNA-drug, and circRNA-drug data sets, respectively. Ablation studies confirm the contribution of each module, while literature evidence and tissue-specific expression profiling further support the biological relevance of the predictions. NCRDLLM provides an effective strategy for identifying potential ncRNA-drug response associations.",
+      "authors": [
+        "Zihan Zhang",
+        "Yuchen Zhang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41817976/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "LLM for predicting ncRNA-drug response associations",
+      "llm_evidence_cn": "大语言模型预测ncRNA-药物反应关联",
+      "llm_evidence": "大语言模型预测ncRNA-药物反应关联",
+      "canonical_evidence": "大语言模型预测ncRNA-药物反应关联",
+      "llm_tldr_en": "Uses large language models and multimodal fusion to predict associations between noncoding RNAs and drug responses.",
+      "llm_tldr_cn": "利用大语言模型和多模态融合技术预测非编码RNA与药物反应之间的关联。",
+      "llm_tldr": "利用大语言模型和多模态融合技术预测非编码RNA与药物反应之间的关联。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "large language models for bioinformatics analysis and reasoning",
+      "matched_requirement_id": "req-23",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41818157",
+      "title": "Integrated framework to study genomic surveillance of selective sweeps in multivariants dynamics.",
+      "abstract": "Pandemics often involve complex transmission dynamics in which epidemiological surveillance is essential but not sufficient for containment, as resurgence may be driven by emerging or imported variants. Rapidly evolving pathogens produce complex disease dynamics driven by emerging variants often differing in their transmissibility, immune escape, and cross-infection. These processes influence individuals' immune life histories, producing highly dynamic immune landscapes that modulate the emergence and dominance of novel variants. We develop an integrated modeling framework that couples multivariant mean-field epidemic modeling with a mechanistic genomic dominance model and a probabilistic surveillance model. This study examines how variant emergence timing, infectiousness advantage, and cross-infection jointly shape epidemic trajectories, immune landscapes, and genomic composition. Our results demonstrate that the dominance dynamics of cocirculating variants correspond to a selective sweep characterized by a system of multilogistic equations driven by population immunity. Moreover, we show that the detection time of newly introduced variants can be accelerated or delayed depending on their emergence conditions and the prevailing variant landscape. Finally, we demonstrate that the effectiveness of response strategies depends critically on the evolving genomic composition of the outbreak, highlighting trade-offs between surveillance sensitivity and intervention timing. We validate our framework by jointly fitting epidemiological and genomic data from the spread of the Ancestral, Alpha, Gamma, and Delta variants in the United States, Denmark, the United Kingdom, and Canada. The results provide a quantitative foundation for linking epidemic dynamics, genomic surveillance, and immune life histories, advancing the development of genomic epidemiology for multivariant outbreaks.",
+      "authors": [
+        "Baltazar Espinoza",
+        "Srinivasan Venkatramanan",
+        "Andrew Scott Warren",
+        "Bryan Leroy Lewis",
+        "H Vincent Poor",
+        "Simon A Levin",
+        "Madhav V Marathe"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-17",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41818157/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "genomic surveillance of multivariant dynamics",
+      "llm_evidence_cn": "多变体动态的基因组监测",
+      "llm_evidence": "多变体动态的基因组监测",
+      "canonical_evidence": "多变体动态的基因组监测",
+      "llm_tldr_en": "Couples epidemic modeling with genomic dominance models for pathogen surveillance and outbreak monitoring.",
+      "llm_tldr_cn": "将流行病模型与基因组优势模型结合，用于病原体监测和疫情监控。",
+      "llm_tldr": "将流行病模型与基因组优势模型结合，用于病原体监测和疫情监控。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI methods for genomic surveillance and outbreak monitoring",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41820521",
+      "title": "MSCMF-DTB: a multi-scale cross-modal fusion framework for drug-target binding prediction.",
+      "abstract": "Predicting drug-target binding remains a central challenge in computational drug discovery, particularly due to the need for models that jointly capture molecular topology, chemical substructures, and protein sequence dependencies. We propose MSCMF-DTB, an end-to-end deep learning framework supporting both drug-target interaction (DTI) classification and drug-target affinity (DTA) regression. On the drug side, molecular graphs generated with RDKit are encoded using a DenseGCN module, while a parallel fingerprint channel captures fragment-level and compositional features. On the protein side, contextualized embeddings from TAPE-BERT are processed through a multi-scale 1D CNN to extract local sequence patterns. Cross-modal drug-protein relationships are modeled using cross-attention mechanism coupled with a tensor network for higher-order feature interaction. The fused representations are fed into an MLP for final prediction. Extensive experiments demonstrate that MSCMF-DTB achieves competitive and consistent performance across small- and large-scale datasets (Human, C. elegans, GPCR, BioSNAP, and DrugBank for DTI, and DAVIS and KIBA for DTA). Notably, on the large-scale DrugBank dataset for DTI prediction, MSCMF-DTB improved AUC and Recall by up to 3.2% and 6.1%, respectively, compared with the second-best model (DrugBAN). For DTA prediction, the model achieved stable performance on the large and heterogeneous KIBA dataset, with an MSE of 0.146, a Concordance Index of 0.886, and an rm² of 0.765. Attention-based interpretability further shows that the model learns biologically meaningful interaction regions. Finally, a cold-start case study indicates that MSCMF-DTB successfully identifies experimentally validated inhibitors to AKT1, illustrating its practical utility in virtual screening and drug repurposing.",
+      "authors": [
+        "Juan Huang",
+        "Yuxue Pan",
+        "Qu Chen"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41820521/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "deep learning and BERT embeddings for drug-target binding",
+      "llm_evidence_cn": "用于药物-靶点结合的深度学习和BERT嵌入",
+      "llm_evidence": "用于药物-靶点结合的深度学习和BERT嵌入",
+      "canonical_evidence": "用于药物-靶点结合的深度学习和BERT嵌入",
+      "llm_tldr_en": "Proposes a cross-modal deep learning framework using protein language model embeddings for drug-target prediction.",
+      "llm_tldr_cn": "提出了一种利用蛋白质语言模型嵌入进行药物-靶点预测的跨模态深度学习框架。",
+      "llm_tldr": "提出了一种利用蛋白质语言模型嵌入进行药物-靶点预测的跨模态深度学习框架。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models and generative AI for drug discovery molecular property prediction and lead optimization",
+      "matched_requirement_id": "req-20",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "10.21203/rs.3.rs-9018407/v1",
+      "title": "Foundation Model for Biological Temporal Data Dynamics with Experimental Validation",
+      "abstract": "<title>Abstract</title>  <p>High-dimensional biological and physiology-adjacent time series are often noisy, partially observed, and heterogeneous across subjects, space, and time, making it difficult to learn continuous-time models that are both stable to integrate and useful for intervention analysis. We propose a reusable latent-dynamics backbone that couples a mask-aware variational autoencoder with a latent neural ordinary differential equation, and returns the learned dynamics to observation space through decoded rollouts or decoder pushforward. In this work, we use the term foundation model in a dynamical sense: a shared transferable backbone for temporal modeling across datasets and downstream tasks. We evaluate the framework on three datasets: 64-channel electroencephalography motor movement and imagery, the AirQualityUCI multi-variate environmental time series with meteorological and calendar controls, and a registered Drosophila blastoderm gene-expression atlas. Across electroencephalography and air quality, the same backbone improves open-loop forecasting relative to classical baselines and supports controlled counterfactual rollouts. In electroencephalography, it also enables data-efficient subject adaptation. In air quality, it supports interpretable in silico intervention screening over exogenous drivers. In the Drosophila atlas, the black-box backbone supervises a sparse editable Hill-type mechanistic student model, yielding candidate regulatory structure, equation-level perturbation hypotheses, and an interpretable artificial-intelligence workflow for mechanistic analysis. These results show that a shared latent-dynamics backbone can unify forecasting, adaptation, counterfactual analysis, interpretable AI, and mechanistic distillation across heterogeneous biological time-series settings.</p>",
+      "authors": [
+        "Duan X, Periwal V."
+      ],
+      "primary_category": null,
+      "categories": [],
+      "published": "2026-03-12",
+      "link": "https://doi.org/10.21203/rs.3.rs-9018407/v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "foundation model for biological temporal data dynamics",
+      "llm_evidence_cn": "生物时间数据动力学基础模型",
+      "llm_evidence": "生物时间数据动力学基础模型",
+      "canonical_evidence": "生物时间数据动力学基础模型",
+      "llm_tldr_en": "Proposes a foundation model backbone for modeling high-dimensional biological and physiological time series data.",
+      "llm_tldr_cn": "提出了一种用于高维生物和生理时间序列数据建模的基础模型架构。",
+      "llm_tldr": "提出了一种用于高维生物和生理时间序列数据建模的基础模型架构。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models for DNA RNA protein and cell biology",
+      "matched_requirement_id": "req-15",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41820396",
+      "title": "Multimodal framework for the joint analysis of single-cell RNA and T cell receptor sequencing data predicts T cell response to cancer immunotherapy.",
+      "abstract": "T cell states are prognostic in different cancer types. Recent technologies enable joint profiling of T cell RNA and T cell receptor (TCR) sequences at single-cell resolution. Here we present the TCR-RNA Integrating Model (TRIM), a multi-modal variational autoencoder framework that integrates RNA-TCR data and predicts T cell clonality and transcriptional states. TRIM learns a shared representation of the data conditioned on patient, tissue source, and treatment timepoint. We applied TRIM to three independent datasets that included T cells collected before and after checkpoint inhibitor treatment, sourced either from blood and tumor biopsies in patients with head and neck squamous cell carcinoma and colorectal cancer, or from tumor and adjacent tissue in a pan-cancer dataset. In all settings, TRIM accurately predicted intra-tumor T cell clonal expansion and transcriptional status based on T cells from blood or normal tissue before treatment, demonstrating its utility in modeling multimodal T cell data and predicting T cell response to treatment and disease progression.",
+      "authors": [
+        "Chujun He",
+        "Matthew Amodio",
+        "Orr Ashenberg",
+        "Kai W Wucherpfennig",
+        "Ramnik J Xavier",
+        "Caroline Uhler"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41820396/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "multimodal variational autoencoder for single-cell RNA and TCR integration",
+      "llm_evidence_cn": "用于单细胞RNA和TCR集成的多模态变分自编码器",
+      "llm_evidence": "用于单细胞RNA和TCR集成的多模态变分自编码器",
+      "canonical_evidence": "用于单细胞RNA和TCR集成的多模态变分自编码器",
+      "llm_tldr_en": "TRIM integrates single-cell RNA and TCR data to predict T cell states and responses to cancer immunotherapy.",
+      "llm_tldr_cn": "TRIM框架整合单细胞RNA和TCR数据，用于预测T细胞状态及癌症免疫治疗反应。",
+      "llm_tldr": "TRIM框架整合单细胞RNA和TCR数据，用于预测T细胞状态及癌症免疫治疗反应。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "machine learning for multi omics integration",
+      "matched_requirement_id": "req-25",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "41677463",
+      "title": "Host-Pathogen Interactions and Peptide-Based Therapeutics in Intracellular Bacterial Infections.",
+      "abstract": "Intracellular bacterial infections remain a global health challenge due to their insidious and persistent nature. This review focuses on host-pathogen interactions, referring to the dynamic struggle between host immune defenses and bacterial invasion/survival mechanisms. A thorough understanding of host cell bactericidal mechanisms, as well as the invasion and evasion strategies employed by intracellular bacteria, is essential for developing novel antibacterial agents. Crucially, traditional antibiotics often fail due to poor membrane permeability, rapid efflux, or suboptimal subcellular accumulation, leading to treatment failure and resistance. To break this deadlock, peptide-based therapeutics offer a transformative frontier through: (1) precision delivery via cell-penetrating peptides (CPPs); (2) multimodal bactericidal mechanisms to minimize resistance; and (3) host-directed therapies that reactivate innate defense pathways. Furthermore, we highlight optimization strategies ranging from rational chemical design to AI-driven generative discovery. To facilitate clinical translation, we conclude by outlining future directions: integrating ultralarge library screening (e.g., phage/mRNA display) to expand discovery; employing chemical modifications and nanoencapsulation to overcome metabolic fragility; and developing stimuli-responsive \"smart\" platforms for spatiotemporally precise, low-toxicity delivery. Finally, implementing compartment-specific PK/PD models to quantify subcellular drug exposure is essential.",
+      "authors": [
+        "Jun Jiang",
+        "Yunkun Qi",
+        "Shutao Ma"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-13",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41677463/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "host-pathogen interactions for antibacterial agent development",
+      "llm_evidence_cn": "用于抗菌药物开发的宿主-病原体相互作用",
+      "llm_evidence": "用于抗菌药物开发的宿主-病原体相互作用",
+      "canonical_evidence": "用于抗菌药物开发的宿主-病原体相互作用",
+      "llm_tldr_en": "Reviews host-pathogen interactions to identify targets for novel peptide-based antibacterial therapeutics.",
+      "llm_tldr_cn": "综述了宿主-病原体相互作用，以确定新型肽类抗菌药物的治疗靶点。",
+      "llm_tldr": "综述了宿主-病原体相互作用，以确定新型肽类抗菌药物的治疗靶点。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41820589",
+      "title": "A multi-omics analysis of gut bacteriome, virome, and serum metabolome in bipolar depression.",
+      "abstract": "The involvement of microbiota-gut-brain axis in bipolar disorder (BD) has been uncovered, yet the specific tripartite interplay between the gut bacteriome, virome, and serum metabolome remains to be elucidated. We conducted a cross-sectional multi-omics analysis on 90 drug-free patients with bipolar depression and 30 healthy controls. A significant between-group difference in gut bacterial α-diversity was observed. Non-parametric test revealed 1929 bacterial and 134 viral species with significant inter-group difference, among which 249 bacterial and 7 viral species remained significant after FDR correction (Padjusted < 0.05). Metabolomic analysis identified 261 significantly differential serum metabolites, which were enriched in 70 biological pathways and 40 pathways remained significant after correction. Integration of the datasets revealed strong cross-omic correlations, while only eight significant viral-metabolic correlations were detected. Post-FDR significant correlations with clinical features were exclusively observed between differential metabolites and scores of disease severity, with a predominance of negative correlations. Clinically, a random forest model integrating bacteriome, virome, and metabolome features achieved superior discriminative power (AUC = 0.986) compared to single-omics models (metabolites: 0.970; bacteria: 0.823; viruses: 0.732). This work demonstrated a dysregulated bacteriome-virome-metabolome network of patients with bipolar depression, providing a robust panel of candidate biomarkers for the precise diagnosis of BD.",
+      "authors": [
+        "Lingzhuo Kong",
+        "Yifan Zhuang",
+        "Boqing Zhu",
+        "Huaizhi Wang",
+        "Yiqing Chen",
+        "Yuting Shen",
+        "Xinhua Feng",
+        "Shaohua Hu",
+        "Jianbo Lai"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41820589/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "multi-omics analysis of gut bacteriome and virome",
+      "llm_evidence_cn": "肠道细菌组和病毒组的多组学分析",
+      "llm_evidence": "肠道细菌组和病毒组的多组学分析",
+      "canonical_evidence": "肠道细菌组和病毒组的多组学分析",
+      "llm_tldr_en": "Performs multi-omics integration of gut microbiota and metabolites to understand disease-related tripartite interplay.",
+      "llm_tldr_cn": "对肠道微生物群和代谢物进行多组学整合分析，以了解疾病相关的三方相互作用。",
+      "llm_tldr": "对肠道微生物群和代谢物进行多组学整合分析，以了解疾病相关的三方相互作用。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "machine learning for multi omics integration",
+      "matched_requirement_id": "req-25",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

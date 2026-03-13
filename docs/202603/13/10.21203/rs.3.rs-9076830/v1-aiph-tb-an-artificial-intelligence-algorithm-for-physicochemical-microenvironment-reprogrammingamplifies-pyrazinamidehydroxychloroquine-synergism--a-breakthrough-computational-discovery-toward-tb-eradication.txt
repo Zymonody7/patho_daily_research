@@ -1,0 +1,20 @@
+Title: AIPH-TB: An Artificial Intelligence Algorithm for Physicochemical Microenvironment ReprogrammingAmplifies Pyrazinamide–Hydroxychloroquine Synergism — A Breakthrough Computational Discovery Toward TB Eradication
+
+URL Source: https://doi.org/10.21203/rs.3.rs-9076830/v1
+
+Markdown Content:
+**Background**
+
+Tuberculosis (TB) remains the world's deadliest bacterial pathogen, responsible for 10.6 million new cases and 1.3 million deaths in 2022 [1]. Standard four-drug RIPE (Rifampicin-Isoniazid-Pyrazinamide-Ethambutol) therapy achieves only 85% cure rates, with 25–37% of patients experiencing drug-induced hepatotoxicity [3]. The Pyrazinamide–Hydroxychloroquine (PYZ-HCQ) fixed-dose combination offers documented in vitro synergism (FICI = 0.38) through BCRP-1 efflux pump inhibition [6–8]; however, the optimal physicochemical conditions for maximising this synergy remain undefined. We developed AIPH-TB, a novel artificial intelligence (AI) framework that computationally reprograms the intracellular physicochemical and chemical microenvironment of _Mycobacterium tuberculosis_(MTB) to achieve unprecedented synergistic killing.
+
+**Methods**
+
+AIPH-TB integrates a multi-objective reinforcement learning engine (proximal policy optimisation), a Gaussian process regression synergy predictor (Matérn 5/2 kernel), and a stochastic ODE-based digital twin macrophage simulator. The model was trained on 2,847 pharmacodynamic data points from 20 peer-reviewed studies (2009–2024). It simultaneously optimises four physicochemical axes: (i) phagolysosomal pH oscillation schedule, (ii) ROS burst synchronisation timing, (iii) BCRP-1 saturation kinetics, and (iv) intracellular drug concentration trajectories across 3,600 parameter combinations.
+
+**Findings**
+
+AIPH-TB identified a narrow, previously unrecognised optimal phagolysosomal pH window of 5.2–5.8, where PYZ-HCQ synergy is maximised (predicted FICI = 0.28 ± 0.04). An AI-prescribed 12-hour pH oscillation schedule (dosing at 08:00 and 20:00) maintains the phagolysosome within this window for 18 of 24 hours. Predicted intracellular PZA concentration rises from 5.2 mM (PZA alone) to 48.7 mM (AI-optimised PYZ-HCQ), a 9.4-fold enhancement. The AI additionally identifies HCQ-mediated reduction of MTB cell wall zeta potential from -18 mV to -8 mV, increasing membrane permeability by an estimated 340% — a novel pharmacological mechanism not previously described in TB literature. The combined AIPH-TB protocol predicts 99.5% cure rate, <1.5% hepatotoxicity, sputum conversion within 2–3 weeks, and a whole-system synergy enhancement of 18–35× over standard therapy.
+
+**Interpretation**
+
+AIPH-TB is the first AI framework to computationally map and reprogram the physicochemical and chemical microenvironment of intracellular TB, unlocking synergy beyond empirical methods. The identification of MTB zeta potential as a novel pharmacological target represents a new paradigm in anti-TB drug science. These findings provide the computational and mechanistic basis for a Phase II clinical trial of AI-optimised PYZ-HCQ in drug-sensitive pulmonary tuberculosis.

@@ -1,0 +1,96 @@
+Title: Integrated framework to study genomic surveillance of selective sweeps in multivariants dynamics - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41818157/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 17;123(11):e2521031123.
+
+doi: 10.1073/pnas.2521031123.  Epub 2026 Mar 12.
+
+Affiliations
+
+*    PMID: **41818157**
+*    DOI: [10.1073/pnas.2521031123](https://doi.org/10.1073/pnas.2521031123)
+
+Integrated framework to study genomic surveillance of selective sweeps in multivariants dynamics
+------------------------------------------------------------------------------------------------
+
+Baltazar Espinoza et al. Proc Natl Acad Sci U S A.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+Abstract
+--------
+
+Pandemics often involve complex transmission dynamics in which epidemiological surveillance is essential but not sufficient for containment, as resurgence may be driven by emerging or imported variants. Rapidly evolving pathogens produce complex disease dynamics driven by emerging variants often differing in their transmissibility, immune escape, and cross-infection. These processes influence individuals' immune life histories, producing highly dynamic immune landscapes that modulate the emergence and dominance of novel variants. We develop an integrated modeling framework that couples multivariant mean-field epidemic modeling with a mechanistic genomic dominance model and a probabilistic surveillance model. This study examines how variant emergence timing, infectiousness advantage, and cross-infection jointly shape epidemic trajectories, immune landscapes, and genomic composition. Our results demonstrate that the dominance dynamics of cocirculating variants correspond to a selective sweep characterized by a system of multilogistic equations driven by population immunity. Moreover, we show that the detection time of newly introduced variants can be accelerated or delayed depending on their emergence conditions and the prevailing variant landscape. Finally, we demonstrate that the effectiveness of response strategies depends critically on the evolving genomic composition of the outbreak, highlighting trade-offs between surveillance sensitivity and intervention timing. We validate our framework by jointly fitting epidemiological and genomic data from the spread of the Ancestral, Alpha, Gamma, and Delta variants in the United States, Denmark, the United Kingdom, and Canada. The results provide a quantitative foundation for linking epidemic dynamics, genomic surveillance, and immune life histories, advancing the development of genomic epidemiology for multivariant outbreaks.
+
+**Keywords:** COVID-19 variants; biosurveillance; epidemic modeling; genomic surveillance; variant detection.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+Competing interests statement:The authors declare no competing interest.
+
+Similar articles
+----------------
+
+*   [Surveillance strategies for the detection of new pathogen variants across epidemiological contexts.](https://pubmed.ncbi.nlm.nih.gov/39236073/)
+
+Oliveira Roster KI, Kissler SM, Omoregie E, Wang JC, Amin H, Di Lonardo S, Hughes S, Grad YH.Oliveira Roster KI, et al.PLoS Comput Biol. 2024 Sep 5;20(9):e1012416. doi: 10.1371/journal.pcbi.1012416. eCollection 2024 Sep.PLoS Comput Biol. 2024.PMID: 39236073 Free PMC article. 
+*   [Selection for infectivity profiles in slow and fast epidemics, and the rise of SARS-CoV-2 variants.](https://pubmed.ncbi.nlm.nih.gov/35587653/)
+
+Blanquart F, Hozé N, Cowling BJ, Débarre F, Cauchemez S.Blanquart F, et al.Elife. 2022 May 19;11:e75791. doi: 10.7554/eLife.75791.Elife. 2022.PMID: 35587653 Free PMC article. 
+*   [Unraveling the Dynamics of Omicron (BA.1, BA.2, and BA.5) Waves and Emergence of the Deltacton Variant: Genomic Epidemiology of the SARS-CoV-2 Epidemic in Cyprus (Oct 2021-Oct 2022).](https://pubmed.ncbi.nlm.nih.gov/37766339/)
+
+Chrysostomou AC, Vrancken B, Haralambous C, Alexandrou M, Gregoriou I, Ioannides M, Ioannou C, Kalakouta O, Karagiannis C, Marcou M, Masia C, Mendris M, Papastergiou P, Patsalis PC, Pieridou D, Shammas C, Stylianou DC, Zinieri B, Lemey P, The Comessar Network, Kostrikis LG.Chrysostomou AC, et al.Viruses. 2023 Sep 15;15(9):1933. doi: 10.3390/v15091933.Viruses. 2023.PMID: 37766339 Free PMC article. 
+*   [SARS-CoV-2 Variants: Genetic Insights, Epidemiological Tracking, and Implications for Vaccine Strategies.](https://pubmed.ncbi.nlm.nih.gov/39941026/)
+
+Alhamlan FS, Al-Qahtani AA.Alhamlan FS, et al.Int J Mol Sci. 2025 Jan 31;26(3):1263. doi: 10.3390/ijms26031263.Int J Mol Sci. 2025.PMID: 39941026 Free PMC article.Review. 
+*   [Novel SARS-CoV-2 variants: the pandemics within the pandemic.](https://pubmed.ncbi.nlm.nih.gov/34015535/)
+
+Boehm E, Kronig I, Neher RA, Eckerle I, Vetter P, Kaiser L; Geneva Centre for Emerging Viral Diseases.Boehm E, et al.Clin Microbiol Infect. 2021 Aug;27(8):1109-1117. doi: 10.1016/j.cmi.2021.05.022. Epub 2021 May 17.Clin Microbiol Infect. 2021.PMID: 34015535 Free PMC article.Review. 
+
+MeSH terms
+----------
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+Grants and funding
+------------------
+
+*   [6NU50CK000555-03-01/Centers for Disease Control and Prevention Foundation (CDCF)](https://pubmed.ncbi.nlm.nih.gov/?term=6NU50CK000555-03-01%2FCenters+for+Disease+Control+and+Prevention+Foundation+%28CDCF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 6NU50CK000555-03-01/Centers for Disease Control and Prevention Foundation (CDCF)")
+*   [HDTRA120F0017/DOD | Defense Threat Reduction Agency (DTRA)](https://pubmed.ncbi.nlm.nih.gov/?term=HDTRA120F0017%2FDOD+%7C+Defense+Threat+Reduction+Agency+%28DTRA%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant HDTRA120F0017/DOD | Defense Threat Reduction Agency (DTRA)")
+*   [CCF-1918656/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=CCF-1918656%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant CCF-1918656/National Science Foundation (NSF)")
+*   [CCF-1917819/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=CCF-1917819%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant CCF-1917819/National Science Foundation (NSF)")
+*   [DMS-2327710/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=DMS-2327710%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant DMS-2327710/National Science Foundation (NSF)")
+
+*   [DMS-2327711/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=DMS-2327711%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant DMS-2327711/National Science Foundation (NSF)")
+*   [W911NF2410126/DOD | USA | AFC | CCDC | Army Research Office (ARO)](https://pubmed.ncbi.nlm.nih.gov/?term=W911NF2410126%2FDOD+%7C+USA+%7C+AFC+%7C+CCDC+%7C+Army+Research+Office+%28ARO%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant W911NF2410126/DOD | USA | AFC | CCDC | Army Research Office (ARO)")
+
+LinkOut - more resources
+------------------------
+
+*   ### Full Text Sources
+
+    *   [Atypon](https://www.pnas.org/doi/10.1073/pnas.2521031123?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
+
+*   ### Medical
+
+    *   [MedlinePlus Health Information](https://medlineplus.gov/covid19coronavirusdisease2019.html)

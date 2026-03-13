@@ -11,70 +11,49 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-03-12
-- 运行时间：2026-03-12 19:43:56 UTC
+- 最新运行日期：2026-03-13
+- 运行时间：2026-03-13 19:29:33 UTC
 - 运行状态：成功
-- 本次总论文数：16
-- 精读区：6
-- 速读区：10
+- 本次总论文数：9
+- 精读区：7
+- 速读区：2
 
 ### 今日简报（AI）
-今日精选 16 篇前沿成果，重点攻克长序列 RNA 建模效率与抗菌离子液体的精准设计。
-满分论文展示了 Retentive Network 在生物语言建模中的巨大潜力，同时机器学习正成为平衡药效与毒性的关键利器。
-建议关注 AI 与生物化学的深度融合，特别是其在处理复杂长序列及环境友好型材料设计中的实战表现。
-- 详情：[/202603/12/README](/202603/12/README)
+今日深度解析 9 篇跨学科论文，聚焦单细胞大语言模型评估与 AI 驱动的结核病药物研发突破。
+核心结论揭示了单细胞 LLM 的多任务学习潜力，并展示了 AIPH-TB 算法在重塑微环境以根除结核病方面的卓越表现。
+推荐关注 AI 算法如何精准优化药物协同效应，这为复杂疾病的计算发现提供了新范式。
+- 详情：[/202603/13/README](/202603/13/README)
 
 ### 精读区论文标签
-1. [Retentive Network promotes efficient RNA language modeling of long sequences.](/202603/12/41814064-retentive-network-promotes-efficient-rna-language-modeling-of-long-sequences)  
-   标签：评分：10.0/10、query:bioinfo
-   evidence：使用保留网络进行长序列RNA语言建模
-2. [The chemical design of antimicrobial ionic liquids guided by machine learning: a review on balancing efficacy and toxicity.](/202603/12/41739437-the-chemical-design-of-antimicrobial-ionic-liquids-guided-by-machine-learning-a-review-on-balancing-efficacy-and-toxicity)  
+1. [Evaluating the learnability of single-cell large language models on multiple tasks](/202603/13/10.21203/rs.3.rs-8919408/v1-evaluating-the-learnability-of-single-cell-large-language-models-on-multiple-tasks)  
+   标签：评分：9.0/10、query:bioinfo
+   evidence：评估单细胞大语言模型
+2. [AIPH-TB: An Artificial Intelligence Algorithm for Physicochemical Microenvironment ReprogrammingAmplifies Pyrazinamide–Hydroxychloroquine Synergism — A Breakthrough Computational Discovery Toward TB Eradication](/202603/13/10.21203/rs.3.rs-9076830/v1-aiph-tb-an-artificial-intelligence-algorithm-for-physicochemical-microenvironment-reprogrammingamplifies-pyrazinamidehydroxychloroquine-synergism--a-breakthrough-computational-discovery-toward-tb-eradication)  
    标签：评分：9.0/10、query:pathoai
-   evidence：机器学习用于抗菌药物发现及药效与毒性平衡
-3. [MultiPert: An adversarial alignment and dual attention framework for single-cell multi-omics perturbation prediction.](/202603/12/41811907-multipert-an-adversarial-alignment-and-dual-attention-framework-for-single-cell-multi-omics-perturbation-prediction)  
+   evidence：针对结核分枝杆菌的AI抗菌药物发现与治疗方案设计
+3. [NCRDLLM: Predicting ncRNA-Drug Response Associations via Multimodal Feature Fusion and Large Language Models.](/202603/13/41817976-ncrdllm-predicting-ncrna-drug-response-associations-via-multimodal-feature-fusion-and-large-language-models)  
    标签：评分：9.0/10、query:bioinfo
-   evidence：用于单细胞多组学扰动预测的深度学习框架
-4. [AF2BIND: predicting small-molecule binding sites using the pair representation of AlphaFold2.](/202603/12/41814061-af2bind-predicting-small-molecule-binding-sites-using-the-pair-representation-of-alphafold2)  
+   evidence：大语言模型预测ncRNA-药物反应关联
+4. [Integrated framework to study genomic surveillance of selective sweeps in multivariants dynamics.](/202603/13/41818157-integrated-framework-to-study-genomic-surveillance-of-selective-sweeps-in-multivariants-dynamics)  
+   标签：评分：9.0/10、query:pathoai
+   evidence：多变体动态的基因组监测
+5. [MSCMF-DTB: a multi-scale cross-modal fusion framework for drug-target binding prediction.](/202603/13/41820521-mscmf-dtb-a-multi-scale-cross-modal-fusion-framework-for-drug-target-binding-prediction)  
    标签：评分：9.0/10、query:bioinfo
-   evidence：利用AlphaFold2对表示预测小分子结合位点
-5. [An inducible CRISPRi system for phenotypic analysis of essential genes in](/202603/12/41670347-an-inducible-crispri-system-for-phenotypic-analysis-of-essential-genes-in)  
+   evidence：用于药物-靶点结合的深度学习和BERT嵌入
+6. [Foundation Model for Biological Temporal Data Dynamics with Experimental Validation](/202603/13/10.21203/rs.3.rs-9018407/v1-foundation-model-for-biological-temporal-data-dynamics-with-experimental-validation)  
    标签：评分：8.0/10、query:bioinfo
-   evidence：用于病原体功能基因组学的诱导型 CRISPRi 系统
-6. [Genomic characterization of multidrug-resistant Escherichia coli strains identified from patients with urinary tract infection in Egypt.](/202603/12/41813722-genomic-characterization-of-multidrug-resistant-escherichia-coli-strains-identified-from-patients-with-urinary-tract-infection-in-egypt)  
-   标签：评分：8.0/10、query:pathoai
-   evidence：大肠杆菌的基因组特征分析和耐药性预测
+   evidence：生物时间数据动力学基础模型
+7. [Multimodal framework for the joint analysis of single-cell RNA and T cell receptor sequencing data predicts T cell response to cancer immunotherapy.](/202603/13/41820396-multimodal-framework-for-the-joint-analysis-of-single-cell-rna-and-t-cell-receptor-sequencing-data-predicts-t-cell-response-to-cancer-immunotherapy)  
+   标签：评分：8.0/10、query:bioinfo
+   evidence：用于单细胞RNA和TCR集成的多模态变分自编码器
 
 ### 速读区论文标签
-1. [Intestinal epithelial Tet2 deficiency reprograms the gut microbiota through bile acid metabolic alterations.](/202603/12/41586521-intestinal-epithelial-tet2-deficiency-reprograms-the-gut-microbiota-through-bile-acid-metabolic-alterations)  
+1. [Host-Pathogen Interactions and Peptide-Based Therapeutics in Intracellular Bacterial Infections.](/202603/13/41677463-host-pathogen-interactions-and-peptide-based-therapeutics-in-intracellular-bacterial-infections)  
    标签：评分：7.0/10、query:pathoai
-   evidence：调节宿主-微生物群相互作用和肠道稳态的表观遗传机制
-2. [Predicting rice drought-responsive genes via distance-based prototypical graph neural network with path aggregation mechanism.](/202603/12/41814380-predicting-rice-drought-responsive-genes-via-distance-based-prototypical-graph-neural-network-with-path-aggregation-mechanism)  
+   evidence：用于抗菌药物开发的宿主-病原体相互作用
+2. [A multi-omics analysis of gut bacteriome, virome, and serum metabolome in bipolar depression.](/202603/13/41820589-a-multi-omics-analysis-of-gut-bacteriome-virome-and-serum-metabolome-in-bipolar-depression)  
    标签：评分：7.0/10、query:bioinfo
-   evidence：用于基因调控网络推理的图神经网络
-3. [Alternating High-Fat and Polysaccharide Diets Modulates Gut Phage-Bacterial Interplay.](/202603/12/41816995-alternating-high-fat-and-polysaccharide-diets-modulates-gut-phage-bacterial-interplay)  
-   标签：评分：7.0/10、query:seqai
-   evidence：饮食相关宏基因组及噬菌体-细菌相互作用的元分析
-4. [Environmental and physiological factors influencing the survival of resistant](/202603/12/41364116-environmental-and-physiological-factors-influencing-the-survival-of-resistant)  
-   标签：评分：6.0/10、query:pathoai
-   evidence：微生物组宿主相互作用和感染建模
-5. [Endophytic fungi of Aegle marmelos as a source of novel antibacterials and anti-SARS-CoV agents.](/202603/12/41811556-endophytic-fungi-of-aegle-marmelos-as-a-source-of-novel-antibacterials-and-anti-sars-cov-agents)  
-   标签：评分：6.0/10、query:bioinfo
-   evidence：利用分子对接从真菌提取物中发现新冠病毒配体
-6. [NewbornsInSA multi-omic newborn screening: protocol for a prospective cohort study.](/202603/12/41813051-newbornsinsa-multi-omic-newborn-screening-protocol-for-a-prospective-cohort-study)  
-   标签：评分：6.0/10、query:bioinfo
-   evidence：用于新生儿筛查和疾病检测的多组学模型
-7. [Comparative centromere genomics reveals evolutionary divergence in Solanaceae genomes.](/202603/12/41814399-comparative-centromere-genomics-reveals-evolutionary-divergence-in-solanaceae-genomes)  
-   标签：评分：6.0/10、query:seqai
-   evidence：利用长读长测序进行完整基因组组装和着丝粒表征
-8. [Host immunogenetic variation and gut microbiome functionality in a wild vertebrate population.](/202603/12/41814421-host-immunogenetic-variation-and-gut-microbiome-functionality-in-a-wild-vertebrate-population)  
-   标签：评分：6.0/10、query:seqai
-   evidence：鸟枪法宏基因组学用于肠道微生物组分类和功能研究
-9. [Building a Foundation SERS Model for Lipids through Fatty Acid Pretraining for Annotation across Chemical Spaces.](/202603/12/41817099-building-a-foundation-sers-model-for-lipids-through-fatty-acid-pretraining-for-annotation-across-chemical-spaces)  
-   标签：评分：6.0/10、query:bioinfo
-   evidence：用于分子属性预测和脂质注释的基础模型
-10. [Neutrophil-specific transcriptomic profiling reveals a novel signature for active tuberculosis diagnosis.](/202603/12/41817214-neutrophil-specific-transcriptomic-profiling-reveals-a-novel-signature-for-active-tuberculosis-diagnosis)  
-   标签：评分：6.0/10、query:seqai
-   evidence：用于结核病诊断的转录组分析和RNA测序
+   evidence：肠道细菌组和病毒组的多组学分析
 
 
 <div class="dpr-home-promo-card">

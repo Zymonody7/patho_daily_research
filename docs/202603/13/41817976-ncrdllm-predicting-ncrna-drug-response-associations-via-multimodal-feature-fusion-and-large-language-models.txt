@@ -1,0 +1,380 @@
+Title: NCRDLLM: Predicting ncRNA-Drug Response Associations via Multimodal Feature Fusion and Large Language Models - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41817976/
+
+Markdown Content:
+NCRDLLM: Predicting ncRNA-Drug Response Associations via Multimodal Feature Fusion and Large Language Models - PubMed
+===============
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/41817976/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41817976%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/41817976/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/41817976/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/41817976/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/41817976/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/9fea6d21-07b4-4726-b151-fb89a024b8ad/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/41817976/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/41817976/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41817976/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41817976%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41817976%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/41817976/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+Save citation to file
+---------------------
+
+ Format:  
+
+ Create file  Cancel 
+
+Email citation
+--------------
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41817976/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41817976/#)
+
+ Add  Cancel 
+
+Your saved search
+-----------------
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/41817976/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+Create a file for external citation management software
+-------------------------------------------------------
+
+ Create file  Cancel 
+
+Your RSS Feed
+-------------
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Full text links
+
+[![Image 6: American Chemical Society full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/http:--pubs.acs.org-images-pubmed-acspubs.jpg) American Chemical Society](https://doi.org/10.1021/acs.jcim.5c03011 "See full text options at American Chemical Society")
+
+[Full text links](https://pubmed.ncbi.nlm.nih.gov/41817976/#)
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41817976/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/41817976/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/41817976/#abstract)
+*   [Similar articles](https://pubmed.ncbi.nlm.nih.gov/41817976/#similar)
+*   [LinkOut - more resources](https://pubmed.ncbi.nlm.nih.gov/41817976/#linkout)
+
+ J Chem Inf Model 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22J+Chem+Inf+Model%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22J+Chem+Inf+Model%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41817976/#)
+
+. 2026 Mar 12.
+
+ doi: 10.1021/acs.jcim.5c03011.  Online ahead of print. 
+
+NCRDLLM: Predicting ncRNA-Drug Response Associations via Multimodal Feature Fusion and Large Language Models
+============================================================================================================
+
+[Zihan Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+Z&cauthor_id=41817976)[1](https://pubmed.ncbi.nlm.nih.gov/41817976/#full-view-affiliation-1 "College of Information Engineering, Northwest A & F University, Yangling, Shaanxi 712100, China."),[Yuchen Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+Y&cauthor_id=41817976)[1](https://pubmed.ncbi.nlm.nih.gov/41817976/#full-view-affiliation-1 "College of Information Engineering, Northwest A & F University, Yangling, Shaanxi 712100, China.")
+
+ Affiliations  Expand 
+
+### Affiliation
+
+*   1 College of Information Engineering, Northwest A & F University, Yangling, Shaanxi 712100, China.
+
+*    PMID: **41817976**
+*    DOI: [10.1021/acs.jcim.5c03011](https://doi.org/10.1021/acs.jcim.5c03011)
+
+ Item in Clipboard 
+
+NCRDLLM: Predicting ncRNA-Drug Response Associations via Multimodal Feature Fusion and Large Language Models
+============================================================================================================
+
+Zihan Zhang et al. J Chem Inf Model.2026.
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ J Chem Inf Model 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22J+Chem+Inf+Model%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22J+Chem+Inf+Model%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41817976/#)
+
+. 2026 Mar 12.
+
+ doi: 10.1021/acs.jcim.5c03011.  Online ahead of print. 
+
+### Authors
+
+[Zihan Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+Z&cauthor_id=41817976)[1](https://pubmed.ncbi.nlm.nih.gov/41817976/#short-view-affiliation-1 "College of Information Engineering, Northwest A & F University, Yangling, Shaanxi 712100, China."),[Yuchen Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+Y&cauthor_id=41817976)[1](https://pubmed.ncbi.nlm.nih.gov/41817976/#short-view-affiliation-1 "College of Information Engineering, Northwest A & F University, Yangling, Shaanxi 712100, China.")
+
+### Affiliation
+
+*   1 College of Information Engineering, Northwest A & F University, Yangling, Shaanxi 712100, China.
+
+*    PMID: **41817976**
+*    DOI: [10.1021/acs.jcim.5c03011](https://doi.org/10.1021/acs.jcim.5c03011)
+
+ Item in Clipboard 
+
+ Full text links Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+Abstract
+--------
+
+Noncoding RNAs (ncRNAs) play critical regulatory roles in cancer drug response. However, most existing methods are limited to predicting a single type of ncRNA, failing to fully capture the complex semantic associations between multimodal biological features, and thus exhibit weak generalizability and robustness. To overcome these limitations, this study proposes NCRDLLM, a unified framework that leverages large language models (LLMs) to predict associations between three types of ncRNA (circular RNA, microRNA, and long noncoding RNA) and drugs. The method integrates 19,020 experimentally validated associations and 120,009 disease association records. Three types of multimodal features are constructed: sequence features extracted using pretrained foundation models RNA-FM and ChemBERTa, structural features generated through Graph2Vec for RNA secondary structures and AttentiveFP combined with ECFP for drug molecules, and association features obtained via disease-associated coding and semantic similarity. These features are subsequently mapped into the hidden space of LLaMA-3.2-3B through adapter modules, with LoRA employed for parameter-efficient fine-tuning. Experimental results demonstrate that NCRDLLM achieves AUC-ROC values of 0.9665, 0.9832, and 0.9676 on miRNA-drug, lncRNA-drug, and circRNA-drug data sets, respectively. Ablation studies confirm the contribution of each module, while literature evidence and tissue-specific expression profiling further support the biological relevance of the predictions. NCRDLLM provides an effective strategy for identifying potential ncRNA-drug response associations.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Similar articles
+----------------
+
+*   [ncRPheno: a comprehensive database platform for identification and validation of disease related noncoding RNAs.](https://pubmed.ncbi.nlm.nih.gov/32122231/)Zhang W, Yao G, Wang J, Yang M, Wang J, Zhang H, Li W.Zhang W, et al.RNA Biol. 2020 Jul;17(7):943-955. doi: 10.1080/15476286.2020.1737441. Epub 2020 Mar 26.RNA Biol. 2020.PMID: 32122231 Free PMC article.  
+*   [PanGIA: A universal framework for identifying association between ncRNAs and diseases.](https://pubmed.ncbi.nlm.nih.gov/41105014/)Liu X, Lü X, Chen Q, Sun J, Zhao T, Zhu Y.Liu X, et al.Gigascience. 2025 Jan 6;14:giaf123. doi: 10.1093/gigascience/giaf123.Gigascience. 2025.PMID: 41105014 Free PMC article.  
+*   [Dual balanced augmented topological noncoding RNA disease triplet association in heterogeneous graphs.](https://pubmed.ncbi.nlm.nih.gov/40753538/)Fu L, Zhou Y, Lyu H, Sun H.Fu L, et al.Brief Bioinform. 2025 Jul 2;26(4):bbaf389. doi: 10.1093/bib/bbaf389.Brief Bioinform. 2025.PMID: 40753538 Free PMC article.  
+*   [Non-coding RNA in cancer.](https://pubmed.ncbi.nlm.nih.gov/33860799/)Yan H, Bu P.Yan H, et al.Essays Biochem. 2021 Oct 27;65(4):625-639. doi: 10.1042/EBC20200032.Essays Biochem. 2021.PMID: 33860799 Free PMC article.Review.  
+*   [Non-coding RNAs in ossification of the posterior longitudinal ligament.](https://pubmed.ncbi.nlm.nih.gov/36506306/)Zhang H, Zhang Q, Yuan Z, Dong J.Zhang H, et al.Front Genet. 2022 Nov 24;13:1069575. doi: 10.3389/fgene.2022.1069575. eCollection 2022.Front Genet. 2022.PMID: 36506306 Free PMC article.Review.  
+
+[See all similar articles](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed&from_uid=41817976)
+
+Related information
+-------------------
+
+*   [GEO Profiles](https://www.ncbi.nlm.nih.gov/geoprofiles?linkname=pubmed_geoprofiles&from_uid=41817976 "GEO records associated with pubmed record")
+
+LinkOut - more resources
+------------------------
+
+*   ### Full Text Sources
+
+    *   [American Chemical Society](https://doi.org/10.1021/acs.jcim.5c03011)
+
+**Full text links**[x]
+
+[![Image 7: American Chemical Society full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/http:--pubs.acs.org-images-pubmed-acspubs.jpg) American Chemical Society](https://doi.org/10.1021/acs.jcim.5c03011 "See full text options at American Chemical Society")
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41817976/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41817976%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/41817976/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41817976%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41817976%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/41817976/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/?pagename=pubmed%3Apubmed%3Aabstract%3ANONE)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)
