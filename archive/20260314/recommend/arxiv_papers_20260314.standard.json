@@ -1,0 +1,368 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-03-14T19:06:47.855193+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 4,
+    "deep_cap": 9,
+    "deep_selected": 4,
+    "quick_candidates": 4,
+    "quick_skim_target": 14,
+    "quick_selected": 4
+  },
+  "deep_dive": [
+    {
+      "id": "10.21203/rs.3.rs-9058008/v1",
+      "title": "Fungi classification from metagenomic data using CNN_FunBar: A simulation study",
+      "abstract": "<title>Abstract</title>  <p>Fungal classification from metagenomic datasets remains a highly challenging task due to the inherent complexity of eukaryotic genomes. The internal transcribed spacer (ITS) region is widely recognised as a reliable DNA marker for fungal taxonomic identification. Previously, a convolutional neural network (CNN)-based architecture, CNN_FunBar, was developed and demonstrated high efficiency in classifying fungal ITS sequences across multiple taxonomic levels. In the present study, two CNN_FunBar classifiers, namely Genus_Model.h5 and Species_Model.h5, were retrained using the UNITE+INSDC reference ITS datasets to classify 429 distinct fungal species and 1,293 genera. The retrained models achieved average accuracies exceeding 90% and 95% for genus- and species-level classification, respectively, on the test dataset. To further evaluate model performance, an agricultural soil metagenome was simulated using 130 microbial whole genomes (65 bacterial and 65 fungal genomes) through the MetaSim read simulator, followed by contig assembly using MEGAHIT. Complete ITS regions were extracted from the assembled contigs using the ITSx tool. The extracted ITS sequences were then classified at the genus and species levels using Genus_Model.h5 and Species_Model.h5, respectively, based on hexamer features. The results demonstrated that Species_Model.h5 and Genus_Model.h5 achieved classification accuracies of 91.93% and 95.16%, respectively, correctly identifying 62 species and 41 genera from the simulated metagenomic dataset. This study provides valuable insights and practical tools for researchers working in computational biology and metagenomics.</p>",
+      "authors": [
+        "Das R, Rai A, Mishra DC, Jha GK, Dutta S, Rakshit D, Sharma A, Talukdar A."
+      ],
+      "primary_category": null,
+      "categories": [],
+      "published": "2026-03-13",
+      "link": "https://doi.org/10.21203/rs.3.rs-9058008/v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "CNN-based architecture for fungal classification from metagenomic datasets",
+      "llm_evidence_cn": "基于CNN的架构用于宏基因组数据集中的真菌分类",
+      "llm_evidence": "基于CNN的架构用于宏基因组数据集中的真菌分类",
+      "canonical_evidence": "基于CNN的架构用于宏基因组数据集中的真菌分类",
+      "llm_tldr_en": "Retrains a CNN model to classify fungal species from metagenomic ITS sequences with high accuracy.",
+      "llm_tldr_cn": "重新训练CNN模型，从宏基因组ITS序列中高精度分类真菌物种。",
+      "llm_tldr": "重新训练CNN模型，从宏基因组ITS序列中高精度分类真菌物种。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for metagenomic pathogen classification",
+      "matched_requirement_id": "req-2",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41824492",
+      "title": "Toward AI foundation models for epidemics: Promise, challenges, and paths forward.",
+      "abstract": "Foundation models-large AI systems pretrained on broad, heterogeneous data-are transforming scientific discovery. These models (e.g., GPT, GenCast, AlphaFold) excel at learning generalizable representations and adapting to new tasks with limited data. Yet, epidemic modeling has not experienced a comparable transformation. Traditional models remain pathogen-specific and often struggle to generate rapid insights during emerging outbreaks, as starkly illustrated by the SARS-CoV-2 pandemic. This Perspective asks whether the foundation model paradigm can extend to epidemic science: Can we build a single, pretrained model that captures the shared principles of infectious disease dynamics across pathogens, populations, and settings? Such a model could be fine-tuned to new contexts with minimal data, enabling faster forecasting, inference, and response, especially valuable in resource-limited settings. We argue that the growing convergence of epidemiological insight and modern AI makes this goal both urgent and increasingly plausible. We outline the main challenges in building foundation models for epidemics-nonstationarity, fragmented surveillance data, presence of diverse dynamical regimes, and the need for interpretability. We then propose a roadmap toward epidemic foundation models, emphasizing both algorithmic innovations to address these challenges and progress beyond algorithms, including investments in open datasets and cross-disciplinary training and collaboration. Developing epidemic foundation models offers a potentially transformative opportunity to strengthen global health security, particularly by improving preparedness in underresourced settings. If successful, they will serve as powerful, generalizable tools that complement existing efforts. The process of building these models will itself be valuable, exposing critical data gaps and guiding investments in global surveillance.",
+      "authors": [
+        "Max S Y Lau",
+        "C Jessica E Metcalf",
+        "Zewen Liu",
+        "Bryan T Grenfell",
+        "Wei Jin"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-31",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41824492/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "foundation models for epidemic science and infectious disease dynamics",
+      "llm_evidence_cn": "用于流行病科学和传染病动态的基础模型",
+      "llm_evidence": "用于流行病科学和传染病动态的基础模型",
+      "canonical_evidence": "用于流行病科学和传染病动态的基础模型",
+      "llm_tldr_en": "Proposes the development of AI foundation models to capture shared principles of infectious disease dynamics.",
+      "llm_tldr_cn": "提出了开发AI基础模型的构想，旨在捕捉跨病原体和人群的传染病动力学共同原理。",
+      "llm_tldr": "提出了开发AI基础模型的构想，旨在捕捉跨病原体和人群的传染病动力学共同原理。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "foundation models for pathogen genome understanding and surveillance",
+      "matched_requirement_id": "req-10",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41824199",
+      "title": "Unraveling the role of cuproptosis in pulmonary fibrosis pathogenesis and prognosis: an integrative single-cell transcriptomics and microarray analysis.",
+      "abstract": "Pulmonary fibrosis (PF), a progressive interstitial lung disease with elusive pathogenesis, remains a therapeutic challenge. Emerging evidence suggests cuproptosis-a copper-dependent cell death pathway-may play a regulatory role in disease progression. This study aims to elucidate cuproptosis's biological function and establish a prognostic model for PF. Through integrative analysis of single-cell RNA-seq data from bleomycin (BLM)-induced mouse models and bulk RNA-seq data from idiopathic pulmonary fibrosis (IPF) patients, we identified cuproptosis-related genes (CRGs) using LASSO regression and Cox regression. A novel 4-CRG signature (LIAS, LIPT1, ATP7A, PDHB) was constructed to stratify patients into distinct risk groups in the GSE70866 cohort, where high-risk individuals exhibited poorer survival and enhanced extracellular matrix/lipid metabolism activity via GO/KEGG analysis. Experimental validation in BLM-induced mouse models, TGF-β1-stimulated fibroblast-to-myofibroblast transition assays, and human IPF specimens demonstrated significant downregulation of CRGs through qRT-PCR and immunohistochemical analyses. Functional assays revealed impaired cell viability and elevated cuproptosis markers in fibrotic microenvironments. Our findings establish an inverse correlation between cuproptosis and PF progression, and propose a robust risk-score model for clinical prognosis prediction. This multi-omics approach provides new insights into copper-mediated regulatory mechanisms in fibrogenesis.",
+      "authors": [
+        "Mengting Chen",
+        "Jialu Chen",
+        "Jiaxiang Zhang",
+        "Yong Zhu",
+        "Xiaoxiao Meng",
+        "Zhengfeng Yang",
+        "Ruilan Wang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-13",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41824199/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "integrative single-cell transcriptomics and microarray analysis for prognostic modeling",
+      "llm_evidence_cn": "整合单细胞转录组学和微阵列分析进行预后建模",
+      "llm_evidence": "整合单细胞转录组学和微阵列分析进行预后建模",
+      "canonical_evidence": "整合单细胞转录组学和微阵列分析进行预后建模",
+      "llm_tldr_en": "Identifies cuproptosis-related genes in pulmonary fibrosis using single-cell and bulk RNA-seq.",
+      "llm_tldr_cn": "利用单细胞和体转录组测序识别肺纤维化中的铜死亡相关基因。",
+      "llm_tldr": "利用单细胞和体转录组测序识别肺纤维化中的铜死亡相关基因。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "single cell sequencing and spatial transcriptomics analysis with machine learning",
+      "matched_requirement_id": "req-40",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41824220",
+      "title": "Single-cell RNA sequencing unravels chondrocyte heterogeneity and immune cell interactions in knee osteoarthritis pathogenesis.",
+      "abstract": "INTRODUCTION: Osteoarthritis (OA) is a degenerative joint disorder characterized by progressive articular cartilage destruction and chronic inflammation. However, the dynamic changes in immune cell subpopulations during OA progression and their specific regulatory interactions with chondrocyte subsets remain poorly understood. AIM: We aim to comprehensively characterize disease-specific subpopulations of chondrocytes and their distinct molecular signatures, as well as to decode the compositional diversity of infiltrating immune cells by a secondary observational analysis of public GEO database. METHODS: We integrated four single-cell RNA sequencing datasets of 20 knee OA patients and 6 healthy donors. Cellular subpopulations were identified using t-SNE-based clustering. Differential gene expression analysis was performed, followed by pathway enrichment analysis to elucidate key biological processes. Chondrocyte differentiation trajectories were reconstructed using pseudotime analysis. Intercellular communication networks were deciphered using CellChat. RESULTS: Chondrocytes were subdivided into eight distinct subpopulations. GO enrichment analysis highlighted extracellular matrix deposition, mineralization, and chondrocyte differentiation as central biological events. Trajectory analysis indicated that fibrotic chondrocytes occupy terminal positions. Among lymphocytes, effector T cells and NK cells appeared to mediate cytotoxic effects, with complement pathway activation playing a key role in regulating their functions. Macrophages constituted the majority of myeloid cells and were categorized into four subpopulations, among C1Q+macrophages were strongly associated with complement activation. CellChat analysis suggested that MIF signaling may promote inflammatory microenvironment formation in OA. CONCLUSIONS: We propose a model wherein chondrocyte-derived MIF recruits immune cells during progression of OA. Attached immune cells collectively sustain a chronic inflammatory milieu. Additionally, C1Q+macrophages produce complement components that activate the complement cascade, stimulating C5AR1+macrophages and enhancing lymphocyte-mediated cytotoxicity. These findings provide novel insights into the cellular mechanisms and intercellular crosstalk underlying OA progression. Key Points • The fibrotic chondrocytes occupy terminal differentiation stages of chondrocytes in OA. • Complement-activated effector T cells and NK cells mediate cytotoxic effects within the OA microenvironment. • C1Q⁺macrophages were closely linked to complement activation. • MIF signaling may promote inflammatory microenvironment formation in OA.",
+      "authors": [
+        "Junru Li",
+        "Hong Wang",
+        "Shidian Xu",
+        "Yunzhi Liu",
+        "Zhenjie Wang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-13",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41824220/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "integrated single-cell RNA sequencing datasets to characterize chondrocyte subpopulations",
+      "llm_evidence_cn": "整合单细胞RNA测序数据集以表征软骨细胞亚群",
+      "llm_evidence": "整合单细胞RNA测序数据集以表征软骨细胞亚群",
+      "canonical_evidence": "整合单细胞RNA测序数据集以表征软骨细胞亚群",
+      "llm_tldr_en": "Uses scRNA-seq to analyze chondrocyte heterogeneity and immune interactions in osteoarthritis.",
+      "llm_tldr_cn": "利用单细胞RNA测序分析骨关节炎中软骨细胞的异质性和免疫相互作用。",
+      "llm_tldr": "利用单细胞RNA测序分析骨关节炎中软骨细胞的异质性和免疫相互作用。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "single cell sequencing and spatial transcriptomics analysis with machine learning",
+      "matched_requirement_id": "req-40",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "41824204",
+      "title": "Loop of N2-polarized neutrophils and exhausted CD8 + T cells induces immunotherapy resistance in NSCLC.",
+      "abstract": "While neutrophils represent a prominent myeloid component in non-small cell lung cancer (NSCLC), the specific immunosuppressive functions of N2-polarized neutrophils and their mechanistic interactions with CD8⁺ T cells remain incompletely characterized. Furthermore, the development of clinically applicable models for prognostic stratification and immunotherapy response prediction, grounded in these molecular interactions, represents a critical unmet need. We integrated large-scale single-cell RNA sequencing datasets to delineate the tumor immune microenvironment, performing pathway enrichment and cell-cell communication analyses. Key molecular features derived from these interactions were employed to construct a deep neural network model. This model was trained and validated on bulk RNA sequencing cohorts to predict immunotherapy response. Additionally, we developed the N2_Neu-CD8⁺ Tex Loop Score (NTLS) for prognostic assessment and evaluated its pan-cancer applicability. Our analysis revealed a previously uncharacterized positive feedback loop between N2 neutrophils and exhausted CD8⁺ T cells (Tex). Neutrophil-derived ICAM1 engages with ITGAL/ITGB2 on CD8⁺ T cells, suppressing their NF-κB signaling and reinforcing the exhausted phenotype. In a feed-forward manner, Tex-derived CCL5 signals via CCR1 on N2 neutrophils, activating their NF-κB pathway and further upregulating ICAM1 expression. This ICAM1-Integrin and CCL5-CCR1 axis creates a self-sustaining immunosuppressive circuit. A deep learning model, built upon genes central to this loop, accurately predicted immunotherapy outcomes in NSCLC and melanoma. The derived NTLS score proved effective for prognostic stratification and was validated across multiple independent cohorts and cancer types. This study defines a pathogenic positive feedback loop, driven by ICAM1-Integrin and CCL5-CCR1 interactions, through which N2 neutrophils and Tex cells cooperatively establish an immunosuppressive niche that drives immunotherapy resistance. The computational models we developed, based on this molecular circuitry, offer robust tools for patient stratification and hold significant translational promise.",
+      "authors": [
+        "Zhansheng Zou",
+        "Zhiyu Guo",
+        "Yuanhao Wei",
+        "Shaoxi Cai",
+        "Changhui Yu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-13",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41824204/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "integrated single-cell RNA sequencing datasets for immune microenvironment analysis",
+      "llm_evidence_cn": "整合单细胞RNA测序数据集进行免疫微环境分析",
+      "llm_evidence": "整合单细胞RNA测序数据集进行免疫微环境分析",
+      "canonical_evidence": "整合单细胞RNA测序数据集进行免疫微环境分析",
+      "llm_tldr_en": "Integrates scRNA-seq to model tumor immune interactions and predict immunotherapy response in NSCLC.",
+      "llm_tldr_cn": "整合单细胞测序数据构建深度学习模型，用于预测非小细胞肺癌的免疫治疗反应。",
+      "llm_tldr": "整合单细胞测序数据构建深度学习模型，用于预测非小细胞肺癌的免疫治疗反应。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "single cell sequencing and spatial transcriptomics analysis with machine learning",
+      "matched_requirement_id": "req-40",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41824223",
+      "title": "Structural pharmacology of Chinese medicine: technological breakthroughs in decoding multi-target synergy and precision mechanisms.",
+      "abstract": "Traditional Chinese Medicine (TCM) offers valuable therapeutic strategies for chronic and infectious diseases, yet the inherent complexity of its multi-component, multi-target formulations and synergistic effects presents substantial challenges to pharmacological mechanistic understanding. Structural pharmacology of Chinese Medicine has emerged as a transformative discipline, integrating structural biology, computational chemistry, and pharmacology to elucidate the precise mechanisms underlying TCM efficacy. This review synthesizes technological advancements that enable the characterization of synergistic mechanisms and dynamic molecular interactions in TCM. Key advancements include high-resolution structural techniques such as X-ray crystallography, cryo-electron microscopy, sophisticated computational approaches such as AI-driven predictive modeling, and advanced analytical platforms. We critically examine persistent technical hurdles, such as capturing transient binding events and modeling complex multi-component system dynamics. Finally, we outline future research trajectories to establish a predictive and adaptable scientific foundation for TCM modernization, facilitating its evidence-based global integration and application in precision medicine.",
+      "authors": [
+        "Caiyan Wang",
+        "Yanling Li",
+        "Lin Zhuo",
+        "Songzhu Xu",
+        "Mengyao Wang",
+        "Zhongqiu Liu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-13",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41824223/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "structural pharmacology and computational chemistry for multi-target synergy in TCM",
+      "llm_evidence_cn": "中药多靶点协同作用的结构药理学与计算化学",
+      "llm_evidence": "中药多靶点协同作用的结构药理学与计算化学",
+      "canonical_evidence": "中药多靶点协同作用的结构药理学与计算化学",
+      "llm_tldr_en": "Reviews structural pharmacology and computational methods for decoding mechanisms in Chinese medicine.",
+      "llm_tldr_cn": "综述了用于解码中药药理机制的结构药理学和计算方法。",
+      "llm_tldr": "综述了用于解码中药药理机制的结构药理学和计算方法。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models and generative AI for drug discovery molecular property prediction and lead optimization",
+      "matched_requirement_id": "req-20",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41826684",
+      "title": "Developing a general research framework for long COVID using causal modelling.",
+      "abstract": "BACKGROUND: Long COVID is an infection-associated chronic condition with uncertain evolution, leading to ambiguity in case definitions and various hypotheses about its pathophysiology. Despite this diversity, causal models may offer a unified understanding of post-acute COVID-19 mechanisms. This study aimed to examine whether dynamic Bayesian networks could facilitate inferences on long COVID. METHODS: Using a causal engineering approach, we developed directed acyclic graphs and qualitatively parametrised them as Bayesian networks to depict the hypothesised mechanisms of long COVID in a theory-agnostic manner. Based on the literature and expert knowledge, we created a general modelling framework summarising biological pathways from mild or severe COVID-19 to the development of respiratory symptoms and fatigue over four key periods (t1 to t4). We used qualitative parametrisation for design and validation, and tested the framework against four scenarios: A) mild COVID-19 at t1 (start of acute infection); B) severe acute COVID-19 at t1; C) symptoms reported at t1 (acute COVID-19 disease); and D) symptoms reported at t1 and t3 (e.g., 3-to-6 months post-acute infection), indicating long COVID. RESULTS: Here we show that, in scenario A, the probability of progressing to severe disease and developing persistent organ dysfunction 1-to-2 years post-acute COVID-19 was lower than in scenario C. Those reporting symptoms at t1 and t3 have the highest probability of developing persistent organ dysfunction beyond the acute infection period. CONCLUSIONS: Our findings lay the foundations for a better understanding of the progression of long COVID syndromes. Illustrative simulations support the use of causal models to help address both diagnostic and prognostic questions in long COVID research.",
+      "authors": [
+        "Gladymar Pérez Chacón",
+        "Steven Mascaro",
+        "Marie J Estcourt",
+        "Chansavath Phetsouphanh",
+        "Ann E Nicholson",
+        "Tom Snelling",
+        "Yue Wu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-13",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41826684/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "causal modelling and Bayesian networks for infection-associated chronic condition",
+      "llm_evidence_cn": "感染相关慢性疾病的因果建模与贝叶斯网络",
+      "llm_evidence": "感染相关慢性疾病的因果建模与贝叶斯网络",
+      "canonical_evidence": "感染相关慢性疾病的因果建模与贝叶斯网络",
+      "llm_tldr_en": "Uses dynamic Bayesian networks to model the causal mechanisms and biological pathways of long COVID.",
+      "llm_tldr_cn": "利用动态贝叶斯网络对长新冠的因果机制和生物途径进行建模。",
+      "llm_tldr": "利用动态贝叶斯网络对长新冠的因果机制和生物途径进行建模。",
+      "llm_tags": [
+        "query:pathoai:composite"
+      ],
+      "matched_query_tag": "query:pathoai:composite",
+      "matched_query_text": "Papers central to 病原组学中的 AI 方法, especially work that connects or combines: foundation models for pathogen genomes and pathogen biology; machine learning for metagenomic pathogen classification; deep learning models for pathogen detection from sequencing data; AI methods for genomic surveillance and outbreak monitoring; machine learning for antimicrobial resistance prediction from genomes; machine learning for phylogenetic and transmission inference; multimodal models combining pathogen sequence phenotype and metadata; machine learning for microbiome host interaction pathogen ecology and infection modeling; AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design; foundation models for pathogen genome understanding and surveillance.",
+      "matched_requirement_id": "req-composite-pathoai",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41826635",
+      "title": "A Machine learning pipeline to investigate tissue ingrowth in cerebral aneurysms using preclinical animal models.",
+      "abstract": "Cerebral aneurysm is a life-threatening condition characterized by the formation of a saccular bulge in brain blood vessels, which can rupture and lead to severe complications. One treatment involves inserting a soft, flexible wire (coil) into the aneurysm to promote clotting and sealing. Mediators are often used to simulate tissue ingrowth within the sac to stabilize healing and prevent recurrence. However, quantitative assessment of tissue ingrowth in preclinical models remains labor-intensive, subjective, and poorly standardized, limiting the ability to compare therapeutic strategies and healing mechanisms. We developed a robust machine learning (ML) pipeline based on a Unet + + convolutional neural network (CNN), optimized for segmenting and quantifying tissue ingrowth in a preclinical carotid aneurysm mouse model. The model was trained and validated on 64 high-resolution histological images using 10-fold cross-validation. Image preprocessing included resizing, normalization, and augmentation, while post-processing applied thresholding techniques to CNN-generated heatmaps. Our method achieved Dice coefficients of 94.58% for sac segmentation and 95.23% for tissue ingrowth detection, with AUCs of 99.24% and 96.78%, respectively. The model's predictions showed strong agreement with ground truth ([Formula: see text]), supporting its potential for assessing biological stability and informing clinical decisions. In a blinded evaluation against expert annotations, our AI model achieved the highest agreement (Cohen's κ) among all raters, demonstrating its potential to provide consistent and expert-level tissue ingrowth assessments. A user-friendly graphical interface was developed, to enable non-technical users to perform segmentation and quantify tissue ingrowth. By providing objective, reproducible metrics of intra-aneurysmal healing, this approach supports mechanistic studies of therapeutic efficacy in preclinical aneurysm models and establishes a foundation for standardized evaluation of pro-healing interventions.",
+      "authors": [
+        "Fatemeh Afsari",
+        "Ishaq Ansari",
+        "Melanie E Martinez",
+        "Lillian Atchison",
+        "Sayat Mimar",
+        "Koji Hosaka",
+        "Brian Hoh",
+        "Pinaki Sarder"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-13",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41826635/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "machine learning pipeline based on Unet++ for quantitative assessment in preclinical models",
+      "llm_evidence_cn": "基于Unet++的机器学习流水线用于临床前模型的定量评估",
+      "llm_evidence": "基于Unet++的机器学习流水线用于临床前模型的定量评估",
+      "canonical_evidence": "基于Unet++的机器学习流水线用于临床前模型的定量评估",
+      "llm_tldr_en": "Develops a CNN-based ML pipeline for automated assessment of tissue ingrowth in cerebral aneurysms.",
+      "llm_tldr_cn": "开发了基于CNN的机器学习流水线，用于自动评估脑动脉瘤中的组织向内生长。",
+      "llm_tldr": "开发了基于CNN的机器学习流水线，用于自动评估脑动脉瘤中的组织向内生长。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "trustworthy and interpretable AI systems for bioinformatics workflows",
+      "matched_requirement_id": "req-37",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

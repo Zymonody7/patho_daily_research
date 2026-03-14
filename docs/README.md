@@ -11,49 +11,46 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-03-13
-- 运行时间：2026-03-13 19:29:33 UTC
+- 最新运行日期：2026-03-14
+- 运行时间：2026-03-14 19:16:53 UTC
 - 运行状态：成功
-- 本次总论文数：9
-- 精读区：7
-- 速读区：2
+- 本次总论文数：8
+- 精读区：4
+- 速读区：4
 
 ### 今日简报（AI）
-今日深度解析 9 篇跨学科论文，聚焦单细胞大语言模型评估与 AI 驱动的结核病药物研发突破。
-核心结论揭示了单细胞 LLM 的多任务学习潜力，并展示了 AIPH-TB 算法在重塑微环境以根除结核病方面的卓越表现。
-推荐关注 AI 算法如何精准优化药物协同效应，这为复杂疾病的计算发现提供了新范式。
-- 详情：[/202603/13/README](/202603/13/README)
+今日深度追踪 8 篇前沿进展，重点攻克 AI 流行病基座模型与真菌宏基因组分类两大核心课题。
+满分推荐 AI 在流行病预测中的范式演进，以及 CNN 算法在真菌精准识别领域的仿真突破。
+建议关注 AI 如何通过因果建模与结构药理学，为长新冠治疗及癌症耐药提供精密诊疗新方案。
+- 详情：[/202603/14/README](/202603/14/README)
 
 ### 精读区论文标签
-1. [Evaluating the learnability of single-cell large language models on multiple tasks](/202603/13/10.21203/rs.3.rs-8919408/v1-evaluating-the-learnability-of-single-cell-large-language-models-on-multiple-tasks)  
-   标签：评分：9.0/10、query:bioinfo
-   evidence：评估单细胞大语言模型
-2. [AIPH-TB: An Artificial Intelligence Algorithm for Physicochemical Microenvironment ReprogrammingAmplifies Pyrazinamide–Hydroxychloroquine Synergism — A Breakthrough Computational Discovery Toward TB Eradication](/202603/13/10.21203/rs.3.rs-9076830/v1-aiph-tb-an-artificial-intelligence-algorithm-for-physicochemical-microenvironment-reprogrammingamplifies-pyrazinamidehydroxychloroquine-synergism--a-breakthrough-computational-discovery-toward-tb-eradication)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：针对结核分枝杆菌的AI抗菌药物发现与治疗方案设计
-3. [NCRDLLM: Predicting ncRNA-Drug Response Associations via Multimodal Feature Fusion and Large Language Models.](/202603/13/41817976-ncrdllm-predicting-ncrna-drug-response-associations-via-multimodal-feature-fusion-and-large-language-models)  
-   标签：评分：9.0/10、query:bioinfo
-   evidence：大语言模型预测ncRNA-药物反应关联
-4. [Integrated framework to study genomic surveillance of selective sweeps in multivariants dynamics.](/202603/13/41818157-integrated-framework-to-study-genomic-surveillance-of-selective-sweeps-in-multivariants-dynamics)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：多变体动态的基因组监测
-5. [MSCMF-DTB: a multi-scale cross-modal fusion framework for drug-target binding prediction.](/202603/13/41820521-mscmf-dtb-a-multi-scale-cross-modal-fusion-framework-for-drug-target-binding-prediction)  
-   标签：评分：9.0/10、query:bioinfo
-   evidence：用于药物-靶点结合的深度学习和BERT嵌入
-6. [Foundation Model for Biological Temporal Data Dynamics with Experimental Validation](/202603/13/10.21203/rs.3.rs-9018407/v1-foundation-model-for-biological-temporal-data-dynamics-with-experimental-validation)  
-   标签：评分：8.0/10、query:bioinfo
-   evidence：生物时间数据动力学基础模型
-7. [Multimodal framework for the joint analysis of single-cell RNA and T cell receptor sequencing data predicts T cell response to cancer immunotherapy.](/202603/13/41820396-multimodal-framework-for-the-joint-analysis-of-single-cell-rna-and-t-cell-receptor-sequencing-data-predicts-t-cell-response-to-cancer-immunotherapy)  
-   标签：评分：8.0/10、query:bioinfo
-   evidence：用于单细胞RNA和TCR集成的多模态变分自编码器
+1. [Fungi classification from metagenomic data using CNN_FunBar: A simulation study](/202603/14/10.21203/rs.3.rs-9058008/v1-fungi-classification-from-metagenomic-data-using-cnnfunbar-a-simulation-study)  
+   标签：评分：10.0/10、query:pathoai
+   evidence：基于CNN的架构用于宏基因组数据集中的真菌分类
+2. [Toward AI foundation models for epidemics: Promise, challenges, and paths forward.](/202603/14/41824492-toward-ai-foundation-models-for-epidemics-promise-challenges-and-paths-forward)  
+   标签：评分：10.0/10、query:pathoai
+   evidence：用于流行病科学和传染病动态的基础模型
+3. [Unraveling the role of cuproptosis in pulmonary fibrosis pathogenesis and prognosis: an integrative single-cell transcriptomics and microarray analysis.](/202603/14/41824199-unraveling-the-role-of-cuproptosis-in-pulmonary-fibrosis-pathogenesis-and-prognosis-an-integrative-single-cell-transcriptomics-and-microarray-analysis)  
+   标签：评分：8.0/10、query:seqai
+   evidence：整合单细胞转录组学和微阵列分析进行预后建模
+4. [Single-cell RNA sequencing unravels chondrocyte heterogeneity and immune cell interactions in knee osteoarthritis pathogenesis.](/202603/14/41824220-single-cell-rna-sequencing-unravels-chondrocyte-heterogeneity-and-immune-cell-interactions-in-knee-osteoarthritis-pathogenesis)  
+   标签：评分：8.0/10、query:seqai
+   evidence：整合单细胞RNA测序数据集以表征软骨细胞亚群
 
 ### 速读区论文标签
-1. [Host-Pathogen Interactions and Peptide-Based Therapeutics in Intracellular Bacterial Infections.](/202603/13/41677463-host-pathogen-interactions-and-peptide-based-therapeutics-in-intracellular-bacterial-infections)  
+1. [Loop of N2-polarized neutrophils and exhausted CD8 + T cells induces immunotherapy resistance in NSCLC.](/202603/14/41824204-loop-of-n2-polarized-neutrophils-and-exhausted-cd8--t-cells-induces-immunotherapy-resistance-in-nsclc)  
+   标签：评分：7.0/10、query:seqai
+   evidence：整合单细胞RNA测序数据集进行免疫微环境分析
+2. [Developing a general research framework for long COVID using causal modelling.](/202603/14/41826684-developing-a-general-research-framework-for-long-covid-using-causal-modelling)  
    标签：评分：7.0/10、query:pathoai
-   evidence：用于抗菌药物开发的宿主-病原体相互作用
-2. [A multi-omics analysis of gut bacteriome, virome, and serum metabolome in bipolar depression.](/202603/13/41820589-a-multi-omics-analysis-of-gut-bacteriome-virome-and-serum-metabolome-in-bipolar-depression)  
-   标签：评分：7.0/10、query:bioinfo
-   evidence：肠道细菌组和病毒组的多组学分析
+   evidence：感染相关慢性疾病的因果建模与贝叶斯网络
+3. [Structural pharmacology of Chinese medicine: technological breakthroughs in decoding multi-target synergy and precision mechanisms.](/202603/14/41824223-structural-pharmacology-of-chinese-medicine-technological-breakthroughs-in-decoding-multi-target-synergy-and-precision-mechanisms)  
+   标签：评分：6.0/10、query:bioinfo
+   evidence：中药多靶点协同作用的结构药理学与计算化学
+4. [A Machine learning pipeline to investigate tissue ingrowth in cerebral aneurysms using preclinical animal models.](/202603/14/41826635-a-machine-learning-pipeline-to-investigate-tissue-ingrowth-in-cerebral-aneurysms-using-preclinical-animal-models)  
+   标签：评分：6.0/10、query:bioinfo
+   evidence：基于Unet++的机器学习流水线用于临床前模型的定量评估
 
 
 <div class="dpr-home-promo-card">

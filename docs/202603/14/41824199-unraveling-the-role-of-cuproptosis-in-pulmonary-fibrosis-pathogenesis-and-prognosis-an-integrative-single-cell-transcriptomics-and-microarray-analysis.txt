@@ -1,0 +1,84 @@
+Title: Unraveling the role of cuproptosis in pulmonary fibrosis pathogenesis and prognosis: an integrative single-cell transcriptomics and microarray analysis - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41824199/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 13.
+
+doi: 10.1007/s11010-026-05510-4.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **41824199**
+*    DOI: [10.1007/s11010-026-05510-4](https://doi.org/10.1007/s11010-026-05510-4)
+
+Unraveling the role of cuproptosis in pulmonary fibrosis pathogenesis and prognosis: an integrative single-cell transcriptomics and microarray analysis
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Mengting Chen et al. Mol Cell Biochem.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+Abstract
+--------
+
+Pulmonary fibrosis (PF), a progressive interstitial lung disease with elusive pathogenesis, remains a therapeutic challenge. Emerging evidence suggests cuproptosis-a copper-dependent cell death pathway-may play a regulatory role in disease progression. This study aims to elucidate cuproptosis's biological function and establish a prognostic model for PF. Through integrative analysis of single-cell RNA-seq data from bleomycin (BLM)-induced mouse models and bulk RNA-seq data from idiopathic pulmonary fibrosis (IPF) patients, we identified cuproptosis-related genes (CRGs) using LASSO regression and Cox regression. A novel 4-CRG signature (LIAS, LIPT1, ATP7A, PDHB) was constructed to stratify patients into distinct risk groups in the GSE70866 cohort, where high-risk individuals exhibited poorer survival and enhanced extracellular matrix/lipid metabolism activity via GO/KEGG analysis. Experimental validation in BLM-induced mouse models, TGF-β1-stimulated fibroblast-to-myofibroblast transition assays, and human IPF specimens demonstrated significant downregulation of CRGs through qRT-PCR and immunohistochemical analyses. Functional assays revealed impaired cell viability and elevated cuproptosis markers in fibrotic microenvironments. Our findings establish an inverse correlation between cuproptosis and PF progression, and propose a robust risk-score model for clinical prognosis prediction. This multi-omics approach provides new insights into copper-mediated regulatory mechanisms in fibrogenesis.
+
+**Keywords:** ATP7A; Cuproptosis; LIAS; LIPT1; PDHB; Pulmonary fibrosis.
+
+© 2026. The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+Declarations. Conflict of interest: The authors declare no competing interests. Consent to participate: All subjects participating in this study were fully informed about the purpose, process, potential risks and benefits of the study and voluntarily signed a written informed consent form. Consent for publication: All authors agree to publish. Research involving human and animal rights: This study was conducted in accordance with the Declaration of Helsinki guidelines. Approval was obtained from the ethical committees of the Shanghai General Hospital (20211KY041,2024076) and Wuxi People’s Hospital (KY24083). All procedures were performed following protocols approved by the Committee for Animal Research of Shanghai Jiaotong University (2021AWS0114) and conformed to the Guide for the Care and Use of Laboratory Animals.
+
+Similar articles
+----------------
+
+*   [Identification and immunological characterization of cuproptosis-related molecular clusters in idiopathic pulmonary fibrosis disease.](https://pubmed.ncbi.nlm.nih.gov/37266442/)
+
+Shi X, Pan Z, Cai W, Zhang Y, Duo J, Liu R, Cai T.Shi X, et al.Front Immunol. 2023 May 17;14:1171445. doi: 10.3389/fimmu.2023.1171445. eCollection 2023.Front Immunol. 2023.PMID: 37266442 Free PMC article. 
+*   [Appropriate level of cuproptosis may be involved in alleviating pulmonary fibrosis.](https://pubmed.ncbi.nlm.nih.gov/36601107/)
+
+Li G, Peng L, Wu M, Zhao Y, Cheng Z, Li G.Li G, et al.Front Immunol. 2022 Dec 19;13:1039510. doi: 10.3389/fimmu.2022.1039510. eCollection 2022.Front Immunol. 2022.PMID: 36601107 Free PMC article. 
+*   [Cuproptosis-related gene CDKN2A as a molecular target for IPF diagnosis and therapeutics.](https://pubmed.ncbi.nlm.nih.gov/37166466/)
+
+Xu B, Yang K, Han X, Hou J.Xu B, et al.Inflamm Res. 2023 Jun;72(6):1147-1160. doi: 10.1007/s00011-023-01739-7. Epub 2023 May 11.Inflamm Res. 2023.PMID: 37166466 
+*   [Identification of a novel cuproptosis-related gene signature and integrative analyses in patients with lower-grade gliomas.](https://pubmed.ncbi.nlm.nih.gov/36045691/)
+
+Bao JH, Lu WC, Duan H, Ye YQ, Li JB, Liao WT, Li YC, Sun YP.Bao JH, et al.Front Immunol. 2022 Aug 15;13:933973. doi: 10.3389/fimmu.2022.933973. eCollection 2022.Front Immunol. 2022.PMID: 36045691 Free PMC article.Review. 
+*   [A Novel Cuproptosis-Related Prognostic Gene Signature and Validation of Differential Expression in Clear Cell Renal Cell Carcinoma.](https://pubmed.ncbi.nlm.nih.gov/35627236/)
+
+Bian Z, Fan R, Xie L.Bian Z, et al.Genes (Basel). 2022 May 10;13(5):851. doi: 10.3390/genes13050851.Genes (Basel). 2022.PMID: 35627236 Free PMC article. 
+
+References
+----------
+
+1.       1.    Henderson NC, Rieder F, Wynn TA (2020) Fibrosis: from mechanisms to medicines. Nature 2020:555–566. [https://doi.org/10.1038/s41586-020-2938-9](https://doi.org/10.1038/s41586-020-2938-9) - [DOI](https://doi.org/10.1038/s41586-020-2938-9)
+
+2.       1.    Swigris JJ, Andrae DA, Churney T et al (2020) Development and initial validation analyses of the living with idiopathic pulmonary fibrosis questionnaire. Am J Respir Crit Care Med 202(12):1689–1697. [https://doi.org/10.1164/rccm.202002-0415OC](https://doi.org/10.1164/rccm.202002-0415OC) - [DOI](https://doi.org/10.1164/rccm.202002-0415oc) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/32634038/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/7737580/)
+
+3.       1.    Rajesh R, Atallah R, Bärnthaler T (2023) Dysregulation of metabolic pathways in pulmonary fibrosis. Pharmacol Ther 246:108436. [https://doi.org/10.1016/j.pharmthera.2023.108436](https://doi.org/10.1016/j.pharmthera.2023.108436) - [DOI](https://doi.org/10.1016/j.pharmthera.2023.108436) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/37150402/)
+
+4.       1.    Polverino F, Mora A (2024) Alveolar epithelial cell dysfunction in IPF linked to lipid alterations: therapeutic implications. Am J Respir Cell Mol Biol. [https://doi.org/10.1165/rcmb.2023-0432ED](https://doi.org/10.1165/rcmb.2023-0432ED) - [DOI](https://doi.org/10.1165/rcmb.2023-0432ed) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/38271680/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/11478126/)
+
+5.       1.    Gibb AA, Lazaropoulos MP, Elrod JW (2020) Myofibroblasts and fibrosis: mitochondrial and metabolic control of cellular differentiation. Circ Res 2020:427–447. [https://doi.org/10.1161/circresaha.120.316958](https://doi.org/10.1161/circresaha.120.316958) - [DOI](https://doi.org/10.1161/circresaha.120.316958)
+
+Grants and funding
+------------------
+
+*   [82200077/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82200077%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82200077/National Natural Science Foundation of China")
+*   [82472218/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82472218%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82472218/National Natural Science Foundation of China")
+*   [Z155080000004/National Key Clinical Specialist Construction Project](https://pubmed.ncbi.nlm.nih.gov/?term=Z155080000004%2FNational+Key+Clinical+Specialist+Construction+Project%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant Z155080000004/National Key Clinical Specialist Construction Project")
+*   [2023ZDFC0102/Key Supporting Discipline of Shanghai Healthcare System](https://pubmed.ncbi.nlm.nih.gov/?term=2023ZDFC0102%2FKey+Supporting+Discipline+of+Shanghai+Healthcare+System%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2023ZDFC0102/Key Supporting Discipline of Shanghai Healthcare System")

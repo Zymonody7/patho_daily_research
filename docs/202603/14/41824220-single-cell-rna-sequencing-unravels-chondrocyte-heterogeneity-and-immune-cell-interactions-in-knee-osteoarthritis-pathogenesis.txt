@@ -1,0 +1,84 @@
+Title: Single-cell RNA sequencing unravels chondrocyte heterogeneity and immune cell interactions in knee osteoarthritis pathogenesis - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41824220/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 13.
+
+doi: 10.1007/s10067-026-08030-0.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **41824220**
+*    DOI: [10.1007/s10067-026-08030-0](https://doi.org/10.1007/s10067-026-08030-0)
+
+Single-cell RNA sequencing unravels chondrocyte heterogeneity and immune cell interactions in knee osteoarthritis pathogenesis
+------------------------------------------------------------------------------------------------------------------------------
+
+Junru Li et al. Clin Rheumatol.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+Abstract
+--------
+
+**Introduction:** Osteoarthritis (OA) is a degenerative joint disorder characterized by progressive articular cartilage destruction and chronic inflammation. However, the dynamic changes in immune cell subpopulations during OA progression and their specific regulatory interactions with chondrocyte subsets remain poorly understood.
+
+**Aim:** We aim to comprehensively characterize disease-specific subpopulations of chondrocytes and their distinct molecular signatures, as well as to decode the compositional diversity of infiltrating immune cells by a secondary observational analysis of public GEO database.
+
+**Methods:** We integrated four single-cell RNA sequencing datasets of 20 knee OA patients and 6 healthy donors. Cellular subpopulations were identified using t-SNE-based clustering. Differential gene expression analysis was performed, followed by pathway enrichment analysis to elucidate key biological processes. Chondrocyte differentiation trajectories were reconstructed using pseudotime analysis. Intercellular communication networks were deciphered using CellChat.
+
+**Results:** Chondrocytes were subdivided into eight distinct subpopulations. GO enrichment analysis highlighted extracellular matrix deposition, mineralization, and chondrocyte differentiation as central biological events. Trajectory analysis indicated that fibrotic chondrocytes occupy terminal positions. Among lymphocytes, effector T cells and NK cells appeared to mediate cytotoxic effects, with complement pathway activation playing a key role in regulating their functions. Macrophages constituted the majority of myeloid cells and were categorized into four subpopulations, among C1Q+macrophages were strongly associated with complement activation. CellChat analysis suggested that MIF signaling may promote inflammatory microenvironment formation in OA.
+
+**Conclusions:** We propose a model wherein chondrocyte-derived MIF recruits immune cells during progression of OA. Attached immune cells collectively sustain a chronic inflammatory milieu. Additionally, C1Q+macrophages produce complement components that activate the complement cascade, stimulating C5AR1+macrophages and enhancing lymphocyte-mediated cytotoxicity. These findings provide novel insights into the cellular mechanisms and intercellular crosstalk underlying OA progression. Key Points • The fibrotic chondrocytes occupy terminal differentiation stages of chondrocytes in OA. • Complement-activated effector T cells and NK cells mediate cytotoxic effects within the OA microenvironment. • C1Q⁺macrophages were closely linked to complement activation. • MIF signaling may promote inflammatory microenvironment formation in OA.
+
+**Keywords:** C1Q⁺ macrophage; Chondrocyte; Complement; Osteoarthritis; Single-cell RNA sequencing.
+
+© 2026. The Author(s), under exclusive licence to International League of Associations for Rheumatology (ILAR).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+Declarations. Disclosures: None.
+
+Similar articles
+----------------
+
+*   [Single-cell RNA sequencing analysis of human chondrocytes reveals cell-cell communication alterations mediated by interactive signaling pathways in osteoarthritis.](https://pubmed.ncbi.nlm.nih.gov/37082621/)
+
+Kang X, Zhang K, Wang Y, Zhao Y, Lu Y.Kang X, et al.Front Cell Dev Biol. 2023 Apr 4;11:1099287. doi: 10.3389/fcell.2023.1099287. eCollection 2023.Front Cell Dev Biol. 2023.PMID: 37082621 Free PMC article. 
+*   [Single-cell RNA sequencing reveals different chondrocyte states in femoral cartilage between osteoarthritis and healthy individuals.](https://pubmed.ncbi.nlm.nih.gov/38868774/)
+
+Sun Z, Yan M, Wang J, Zhang H, Ji X, Xiao Y, Wang T, Yu T.Sun Z, et al.Front Immunol. 2024 May 29;15:1407679. doi: 10.3389/fimmu.2024.1407679. eCollection 2024.Front Immunol. 2024.PMID: 38868774 Free PMC article. 
+*   [Regulatory roles of 13 types of RNA modifications in osteoarthritis: based on bulk and single-cell RNA analysis.](https://pubmed.ncbi.nlm.nih.gov/40771586/)
+
+Li Y, Rong Y, Jiang K, Zhang J, Li J, Li G.Li Y, et al.3 Biotech. 2025 Sep;15(9):279. doi: 10.1007/s13205-025-04448-6. Epub 2025 Aug 4.3 Biotech. 2025.PMID: 40771586 
+*   [Molecular regulation of articular chondrocyte function and its significance in osteoarthritis.](https://pubmed.ncbi.nlm.nih.gov/21210351/)
+
+Schroeppel JP, Crist JD, Anderson HC, Wang J.Schroeppel JP, et al.Histol Histopathol. 2011 Mar;26(3):377-94. doi: 10.14670/HH-26.377.Histol Histopathol. 2011.PMID: 21210351 Review. 
+*   [Chondrocyte Apoptosis in the Pathogenesis of Osteoarthritis.](https://pubmed.ncbi.nlm.nih.gov/26528972/)
+
+Hwang HS, Kim HA.Hwang HS, et al.Int J Mol Sci. 2015 Oct 30;16(11):26035-54. doi: 10.3390/ijms161125943.Int J Mol Sci. 2015.PMID: 26528972 Free PMC article.Review. 
+
+References
+----------
+
+1.       1.    Battistelli M et al (2019) Morphological and ultrastructural analysis of normal, injured and osteoarthritic human knee menisci. Eur J Histochem 63. [https://doi.org/10.4081/ejh.2019.2998](https://doi.org/10.4081/ejh.2019.2998)
+
+2.       1.    Pettenuzzo S et al (2025) Mechanical insights into fat pads: a comparative study of infrapatellar and suprapatellar fat pads in osteoarthritis. Connect Tissue Res 66:272–283. [https://doi.org/10.1080/03008207.2025.2502591](https://doi.org/10.1080/03008207.2025.2502591) - [DOI](https://doi.org/10.1080/03008207.2025.2502591) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/40340764/)
+
+3.       1.    Hu Y, Chen X, Wang S, Jing Y, Su J (2021) Subchondral bone microenvironment in osteoarthritis and pain. Bone Res 9(1):20. [https://doi.org/10.1038/s41413-021-00147-z](https://doi.org/10.1038/s41413-021-00147-z) - [DOI](https://doi.org/10.1038/s41413-021-00147-z) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/33731688/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/7969608/)
+
+4.       1.    Hunter DJ, Bierma-Zeinstra S (2019) Osteoarthritis. Lancet 393:1745–1759. [https://doi.org/10.1016/S0140-6736(19)30417-9](https://doi.org/10.1016/S0140-6736(19)30417-9) - [DOI](https://doi.org/10.1016/s0140-6736(19)30417-9) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/31034380/)
+
+5.       1.    Ho J, Mak CCH, Sharma V, To K, Khan W (2022) Mendelian randomization studies of lifestyle-related risk factors for osteoarthritis: a prisma review and meta-analysis. Int J Mol Sci 23. [https://doi.org/10.3390/ijms231911906](https://doi.org/10.3390/ijms231911906)

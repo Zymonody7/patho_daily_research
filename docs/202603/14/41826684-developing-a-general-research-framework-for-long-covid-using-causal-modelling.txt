@@ -1,0 +1,85 @@
+Title: Developing a general research framework for long COVID using causal modelling - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41826684/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 13.
+
+doi: 10.1038/s43856-026-01488-8.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **41826684**
+*    DOI: [10.1038/s43856-026-01488-8](https://doi.org/10.1038/s43856-026-01488-8)
+
+Developing a general research framework for long COVID using causal modelling
+-----------------------------------------------------------------------------
+
+Gladymar Pérez Chacón et al. Commun Med (Lond).2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+Abstract
+--------
+
+**Background:** Long COVID is an infection-associated chronic condition with uncertain evolution, leading to ambiguity in case definitions and various hypotheses about its pathophysiology. Despite this diversity, causal models may offer a unified understanding of post-acute COVID-19 mechanisms. This study aimed to examine whether dynamic Bayesian networks could facilitate inferences on long COVID.
+
+**Methods:** Using a causal engineering approach, we developed directed acyclic graphs and qualitatively parametrised them as Bayesian networks to depict the hypothesised mechanisms of long COVID in a theory-agnostic manner. Based on the literature and expert knowledge, we created a general modelling framework summarising biological pathways from mild or severe COVID-19 to the development of respiratory symptoms and fatigue over four key periods (t 1 to t 4). We used qualitative parametrisation for design and validation, and tested the framework against four scenarios: A) mild COVID-19 at t 1 (start of acute infection); B) severe acute COVID-19 at t 1; C) symptoms reported at t 1 (acute COVID-19 disease); and D) symptoms reported at t 1 and t 3 (e.g., 3-to-6 months post-acute infection), indicating long COVID.
+
+**Results:** Here we show that, in scenario A, the probability of progressing to severe disease and developing persistent organ dysfunction 1-to-2 years post-acute COVID-19 was lower than in scenario C. Those reporting symptoms at t 1 and t 3 have the highest probability of developing persistent organ dysfunction beyond the acute infection period.
+
+**Conclusions:** Our findings lay the foundations for a better understanding of the progression of long COVID syndromes. Illustrative simulations support the use of causal models to help address both diagnostic and prognostic questions in long COVID research.
+
+Plain language summary
+----------------------
+
+Long COVID can affect some people after having COVID-19. It usually starts within three months of infection and can last for at least two months. People with long COVID may struggle with work, daily tasks, and social activities. Researchers find it hard to study because its causes aren’t directly visible. This study uses diagrams to show expert ideas about what might cause long COVID and how symptoms relate to those causes. By looking at four examples, it shows how explanations can change when new information appears. The approach helps researchers think in terms of “cause and effect”, which can improve understanding and communication about long COVID. It could also guide clinical trials, public health studies, and experiments.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+Competing interests: The authors declare no competing interests.
+
+Similar articles
+----------------
+
+*   [Folic acid supplementation and malaria susceptibility and severity among people taking antifolate antimalarial drugs in endemic areas.](https://pubmed.ncbi.nlm.nih.gov/36321557/)
+
+Crider K, Williams J, Qi YP, Gutman J, Yeung L, Mai C, Finkelstain J, Mehta S, Pons-Duran C, Menéndez C, Moraleda C, Rogers L, Daniels K, Green P.Crider K, et al.Cochrane Database Syst Rev. 2022 Feb 1;2(2022):CD014217. doi: 10.1002/14651858.CD014217.Cochrane Database Syst Rev. 2022.PMID: 36321557 Free PMC article. 
+*   [Prescription of Controlled Substances: Benefits and Risks.](https://pubmed.ncbi.nlm.nih.gov/30726003/)
+
+Preuss CV, Kalava A, King KC.Preuss CV, et al.2025 Jul 6. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2026 Jan–.2025 Jul 6. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2026 Jan–.PMID: 30726003 Free Books & Documents. 
+*   [[Standard technical specifications for methacholine chloride (Methacholine) bronchial challenge test (2023)].](https://pubmed.ncbi.nlm.nih.gov/38309959/)
+
+Pulmonary Function and Clinical Respiratory Physiology Committee of Chinese Association of Chest Physicians; Chinese Thoracic Society; Pulmonary Function Group of Respiratory Branch of Chinese Geriatric Society.Pulmonary Function and Clinical Respiratory Physiology Committee of Chinese Association of Chest Physicians, et al.Zhonghua Jie He He Hu Xi Za Zhi. 2024 Feb 12;47(2):101-119. doi: 10.3760/cma.j.cn112147-20231019-00247.Zhonghua Jie He He Hu Xi Za Zhi. 2024.PMID: 38309959 Chinese. 
+*   [Persistent symptoms and clinical findings in adults with post-acute sequelae of COVID-19/post-COVID-19 syndrome in the second year after acute infection: A population-based, nested case-control study.](https://pubmed.ncbi.nlm.nih.gov/39847575/)
+
+Peter RS, Nieters A, Göpel S, Merle U, Steinacker JM, Deibert P, Friedmann-Bette B, Nieß A, Müller B, Schilling C, Erz G, Giesen R, Götz V, Keller K, Maier P, Matits L, Parthé S, Rehm M, Schellenberg J, Schempf U, Zhu M, Kräusslich HG, Rothenbacher D, Kern WV; EPILOC Phase 2 Study Group.Peter RS, et al.PLoS Med. 2025 Jan 23;22(1):e1004511. doi: 10.1371/journal.pmed.1004511. eCollection 2025 Jan.PLoS Med. 2025.PMID: 39847575 Free PMC article. 
+*   [Intersecting factors of disadvantage and discrimination and their effect on daily life during the coronavirus pandemic: the CICADA-ME mixed-methods study.](https://pubmed.ncbi.nlm.nih.gov/39949202/)
+
+Rivas C, Moore AP, Thomson A, Anand K, Lal ZZ, Wu AF, Aksoy O.Rivas C, et al.Health Soc Care Deliv Res. 2025 Feb;13(2):1-185. doi: 10.3310/KYTF4381.Health Soc Care Deliv Res. 2025.PMID: 39949202 
+
+References
+----------
+
+1.       1.    Global Burden of Disease Long COVID Collaborators Estimated global proportions of individuals with persistent fatigue, cognitive, and respiratory symptom clusters following symptomatic COVID-19 in 2020 and 2021. JAMA 328, 1604–1615 (2022). 
+
+2.       1.    Proal, A. D. et al. SARS-CoV-2 reservoir in post-acute sequelae of COVID-19 (PASC). Nat. Immunol. 24, 1616–1627 (2023). 
+
+3.       1.    Iwasaki, A. & Putrino, D. Why we need a deeper understanding of the pathophysiology of long COVID. Lancet Infect. Dis. 23, 393–395 (2023). 
+
+4.       1.    Phetsouphanh, C. et al. Immunological dysfunction persists for 8 months following initial mild-to-moderate SARS-CoV-2 infection. Nat. Immunol. 23, 210–216 (2022). 
+
+5.       1.    Guarnieri, J. W. et al. Core mitochondrial genes are down-regulated during SARS-CoV-2 infection of rodent and human hosts. Sci. Transl. Med. 15, eabq1533 (2023).

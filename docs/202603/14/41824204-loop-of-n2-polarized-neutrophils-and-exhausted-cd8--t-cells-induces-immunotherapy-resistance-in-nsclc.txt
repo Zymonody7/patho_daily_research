@@ -1,0 +1,76 @@
+Title: Loop of N2-polarized neutrophils and exhausted CD8 + T cells induces immunotherapy resistance in NSCLC - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41824204/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 13.
+
+doi: 10.1007/s11010-025-05457-y.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **41824204**
+*    DOI: [10.1007/s11010-025-05457-y](https://doi.org/10.1007/s11010-025-05457-y)
+
+Loop of N2-polarized neutrophils and exhausted CD8 + T cells induces immunotherapy resistance in NSCLC
+------------------------------------------------------------------------------------------------------
+
+Zhansheng Zou et al. Mol Cell Biochem.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+Abstract
+--------
+
+While neutrophils represent a prominent myeloid component in non-small cell lung cancer (NSCLC), the specific immunosuppressive functions of N2-polarized neutrophils and their mechanistic interactions with CD8⁺ T cells remain incompletely characterized. Furthermore, the development of clinically applicable models for prognostic stratification and immunotherapy response prediction, grounded in these molecular interactions, represents a critical unmet need. We integrated large-scale single-cell RNA sequencing datasets to delineate the tumor immune microenvironment, performing pathway enrichment and cell-cell communication analyses. Key molecular features derived from these interactions were employed to construct a deep neural network model. This model was trained and validated on bulk RNA sequencing cohorts to predict immunotherapy response. Additionally, we developed the N2_Neu-CD8⁺ Tex Loop Score (NTLS) for prognostic assessment and evaluated its pan-cancer applicability. Our analysis revealed a previously uncharacterized positive feedback loop between N2 neutrophils and exhausted CD8⁺ T cells (Tex). Neutrophil-derived ICAM1 engages with ITGAL/ITGB2 on CD8⁺ T cells, suppressing their NF-κB signaling and reinforcing the exhausted phenotype. In a feed-forward manner, Tex-derived CCL5 signals via CCR1 on N2 neutrophils, activating their NF-κB pathway and further upregulating ICAM1 expression. This ICAM1-Integrin and CCL5-CCR1 axis creates a self-sustaining immunosuppressive circuit. A deep learning model, built upon genes central to this loop, accurately predicted immunotherapy outcomes in NSCLC and melanoma. The derived NTLS score proved effective for prognostic stratification and was validated across multiple independent cohorts and cancer types. This study defines a pathogenic positive feedback loop, driven by ICAM1-Integrin and CCL5-CCR1 interactions, through which N2 neutrophils and Tex cells cooperatively establish an immunosuppressive niche that drives immunotherapy resistance. The computational models we developed, based on this molecular circuitry, offer robust tools for patient stratification and hold significant translational promise.
+
+**Keywords:** CD8 + T cells; Immunotherapy; Neutrophils; Non-small cell lung cancer; Tumor microenvironment.
+
+© 2026. The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+Declarations. Competing interests: The authors declare no competing interests. Ethical approval: The study involving human participants was reviewed and approved by Southern Medical University: NFEC-2023-449. Patients/participants provided written informed consent to participate in this study. Consent for publication: The authors agreed to publication in the journal.
+
+Similar articles
+----------------
+
+*   [Integrated single-cell and bulk sequencing analyses with experimental validation identify the prognostic and immunological implications of CD226 in pan-cancer.](https://pubmed.ncbi.nlm.nih.gov/37580402/)
+
+Ma P, Sun W.Ma P, et al.J Cancer Res Clin Oncol. 2023 Nov;149(16):14597-14617. doi: 10.1007/s00432-023-05268-y. Epub 2023 Aug 14.J Cancer Res Clin Oncol. 2023.PMID: 37580402 Free PMC article. 
+*   [[Machine learning-based programmed cell death signature model for precise prediction of prognosis and treatment response in melanoma].](https://pubmed.ncbi.nlm.nih.gov/41656832/)
+
+Wei B, Liu H.Wei B, et al.Zhong Nan Da Xue Xue Bao Yi Xue Ban. 2025 Nov 28;50(11):1961-1978. doi: 10.11817/j.issn.1672-7347.2025.250286.Zhong Nan Da Xue Xue Bao Yi Xue Ban. 2025.PMID: 41656832 Free PMC article.Chinese. 
+*   [Integrative single-cell analysis of LUAD: elucidating immune cell dynamics and prognostic modeling based on exhausted CD8+ T cells.](https://pubmed.ncbi.nlm.nih.gov/38596689/)
+
+Zhang H, Zhang P, Lin X, Tan L, Wang Y, Jia X, Wang K, Li X, Sun D.Zhang H, et al.Front Immunol. 2024 Mar 26;15:1366096. doi: 10.3389/fimmu.2024.1366096. eCollection 2024.Front Immunol. 2024.PMID: 38596689 Free PMC article. 
+*   [CD8+ T cell exhaustion and its regulatory mechanisms in the tumor microenvironment: key to the success of immunotherapy.](https://pubmed.ncbi.nlm.nih.gov/39372416/)
+
+Zhang B, Liu J, Mo Y, Zhang K, Huang B, Shang D.Zhang B, et al.Front Immunol. 2024 Sep 20;15:1476904. doi: 10.3389/fimmu.2024.1476904. eCollection 2024.Front Immunol. 2024.PMID: 39372416 Free PMC article.Review. 
+*   [Cellular plasticity and non-small cell lung cancer: role of T and NK cell immune evasion and acquisition of resistance to immunotherapies.](https://pubmed.ncbi.nlm.nih.gov/39856479/)
+
+Mestiri S, Sami A, Sah N, El-Ella DMA, Khatoon S, Shafique K, Raza A, Mathkor DM, Haque S.Mestiri S, et al.Cancer Metastasis Rev. 2025 Jan 25;44(1):27. doi: 10.1007/s10555-025-10244-8.Cancer Metastasis Rev. 2025.PMID: 39856479 Review. 
+
+References
+----------
+
+1.       1.    Hendriks LEL, Remon J, Faivre-Finn C, Garassino MC, Heymach JV, Kerr KM et al (2024) Non-small-cell lung cancer. Nat Rev Dis Primers 10(1):71 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/39327441/) - [DOI](https://doi.org/10.1038/s41572-024-00551-9)
+
+2.       1.    Raskova Kafkova L, Mierzwicka JM, Chakraborty P, Jakubec P, Fischer O, Skarda J et al (2024) NSCLC: from tumorigenesis, immune checkpoint misuse to current and future targeted therapy. Front Immunol 15:1342086 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/38384472/) - [DOI](https://doi.org/10.3389/fimmu.2024.1342086)
+
+3.       1.    Li Y, Yan B, He S (2023) Advances and challenges in the treatment of lung cancer. Biomed Pharmacother 169:115891 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/37979378/) - [DOI](https://doi.org/10.1016/j.biopha.2023.115891)
+
+4.       1.    Xiang Y, Liu X, Wang Y, Zheng D, Meng Q, Jiang L et al (2024) Mechanisms of resistance to targeted therapy and immunotherapy in non-small cell lung cancer: promising strategies to overcoming challenges. Front Immunol 15:1366260 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/38655260/) - [DOI](https://doi.org/10.3389/fimmu.2024.1366260)
+
+5.       1.    Genova C, Dellepiane C, Carrega P, Sommariva S, Ferlazzo G, Pronzato P et al (2021) Therapeutic implications of tumor microenvironment in lung cancer: focus on immune checkpoint Blockade. Front Immunol 12:799455 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/35069581/) - [DOI](https://doi.org/10.3389/fimmu.2021.799455)

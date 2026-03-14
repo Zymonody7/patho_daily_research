@@ -1,10 +1,34 @@
 # 知识库
 
-- 最近沉淀条目数：120
+- 最近沉淀条目数：128
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Fungi classification from metagenomic data using CNN_FunBar: A simulation study](#/202603/14/202603/14/10.21203/rs.3.rs-9058008/v1-fungi-classification-from-metagenomic-data-using-cnnfunbar-a-simulation-study)
+  - TLDR：针对宏基因组数据中真菌分类难的问题，本研究利用CNN_FunBar架构，基于ITS序列的六聚体特征训练了属级和种级分类模型。通过模拟包含130个微生物基因组的农田土壤数据集进行验证，该模型在种级和属级分类上分别达到了91.93%和95.16%的准确率，为复杂环境样本中的真菌精准鉴定提供了高效的深度学习工具。
+  - Tags：`query:pathoai`
+- [Toward AI foundation models for epidemics: Promise, challenges, and paths forward.](#/202603/14/202603/14/41824492-toward-ai-foundation-models-for-epidemics-promise-challenges-and-paths-forward)
+  - TLDR：针对传统流行病模型因特定病原体限制而难以应对突发疫情的问题，本文提出构建“流行病基座模型（EFMs）”。该方法主张利用跨病原体、跨人群的异构数据进行预训练，学习传染病动力学的通用规律。这种模型能通过少量数据快速微调，实现对新发疫情的精准预测与干预，为全球公共卫生安全，特别是资源匮乏地区的防疫提供高效、通用的技术支撑。
+  - Tags：`query:pathoai`
+- [Unraveling the role of cuproptosis in pulmonary fibrosis pathogenesis and prognosis: an integrative single-cell transcriptomics and microarray analysis.](#/202603/14/202603/14/41824199-unraveling-the-role-of-cuproptosis-in-pulmonary-fibrosis-pathogenesis-and-prognosis-an-integrative-single-cell-transcriptomics-and-microarray-analysis)
+  - TLDR：肺纤维化（PF）是一种病理机制复杂的间质性肺病。本研究通过整合单细胞转录组与大体转录组数据，利用LASSO和Cox回归筛选出4个关键的铜死亡相关基因（LIAS, LIPT1, ATP7A, PDHB），构建了预后风险模型。实验验证发现，这些基因在纤维化组织中显著下调，揭示了铜死亡与肺纤维化进展呈负相关，为临床预后评估和靶向治疗提供了新视角。
+  - Tags：`query:seqai`
+- [Single-cell RNA sequencing unravels chondrocyte heterogeneity and immune cell interactions in knee osteoarthritis pathogenesis.](#/202603/14/202603/14/41824220-single-cell-rna-sequencing-unravels-chondrocyte-heterogeneity-and-immune-cell-interactions-in-knee-osteoarthritis-pathogenesis)
+  - TLDR：膝骨关节炎（OA）涉及软骨退化和慢性炎症，但软骨细胞亚群与免疫细胞间的动态交互机制尚不明确。本研究通过整合分析20名患者和6名健康供体的单细胞转录组数据，识别出8类软骨细胞亚群，并揭示了纤维化软骨细胞处于分化末端。研究发现C1Q+巨噬细胞通过补体系统激活淋巴细胞毒性，且MIF信号通路在维持炎症微环境中起关键作用，为OA治疗提供了新的细胞靶点。
+  - Tags：`query:seqai`
+- [Loop of N2-polarized neutrophils and exhausted CD8 + T cells induces immunotherapy resistance in NSCLC.](#/202603/14/202603/14/41824204-loop-of-n2-polarized-neutrophils-and-exhausted-cd8--t-cells-induces-immunotherapy-resistance-in-nsclc)
+  - TLDR：针对非小细胞肺癌中中性粒细胞导致免疫治疗耐药的机制不明问题，本研究通过整合大规模单细胞测序数据，揭示了N2型中性粒细胞与耗竭性CD8+ T细胞（Tex）之间通过ICAM1-整合素和CCL5-CCR1轴形成的促癌正反馈环路。基于此环路构建的深度学习模型和NTLS评分，能有效预测NSCLC及多种癌症的免疫治疗响应和预后，为克服耐药提供了新靶点和分层工具。
+  - Tags：`query:seqai`
+- [Developing a general research framework for long COVID using causal modelling.](#/202603/14/202603/14/41826684-developing-a-general-research-framework-for-long-covid-using-causal-modelling)
+  - TLDR：针对长新冠（Long COVID）定义模糊及病理机制复杂的挑战，本研究提出了一种基于因果建模的通用研究框架。通过构建动态贝叶斯网络（DBN）和有向无环图（DAG），模拟了从急性感染到长期症状演变的生物学路径。结果显示，在急性期和感染后3-6个月均出现症状的患者，其发生持续性器官功能障碍的概率最高。该框架为长新冠的临床诊断和预后预测提供了理论支持和模拟工具。
+  - Tags：`query:pathoai`
+- [Structural pharmacology of Chinese medicine: technological breakthroughs in decoding multi-target synergy and precision mechanisms.](#/202603/14/202603/14/41824223-structural-pharmacology-of-chinese-medicine-technological-breakthroughs-in-decoding-multi-target-synergy-and-precision-mechanisms)
+  - TLDR：中医药因其多成分、多靶点的复杂性，在药理机制解析上面临巨大挑战。本文综述了“中药结构药理学”这一新兴学科，通过整合冷冻电镜、X射线晶体学及AI驱动的预测模型等技术，实现了对中药协同作用和动态分子相互作用的精确表征。该研究为中药现代化提供了科学基础，推动了其在精准医疗中的全球化应用。
+  - Tags：`query:bioinfo`
+- [A Machine learning pipeline to investigate tissue ingrowth in cerebral aneurysms using preclinical animal models.](#/202603/14/202603/14/41826635-a-machine-learning-pipeline-to-investigate-tissue-ingrowth-in-cerebral-aneurysms-using-preclinical-animal-models)
+  - TLDR：针对脑动脉瘤栓塞治疗后组织长入评估主观且耗时的问题，本研究开发了基于 Unet++ 卷积神经网络的机器学习流水线。该方法在小鼠颈动脉瘤模型的高分辨率组织学图像上实现了高精度的囊腔分割与组织检测，Dice 系数均超过 94%。该工具不仅提高了评估的客观性与一致性，还通过图形界面降低了使用门槛，为临床前动脉瘤愈合机制研究提供了标准化量化手段。
+  - Tags：`query:bioinfo`
 - [Evaluating the learnability of single-cell large language models on multiple tasks](#/202603/13/202603/13/10.21203/rs.3.rs-8919408/v1-evaluating-the-learnability-of-single-cell-large-language-models-on-multiple-tasks)
   - TLDR：单细胞基础模型（scFMs）是否遵循“规模法则”尚不明确。本研究系统评估了 Geneformer 和 scGPT 在细胞类型标注和扰动预测任务上的表现。结果发现，大规模预训练对标注任务有效，但在扰动预测中收益有限，且增大模型规模并不总能提升性能。研究揭示了现有模型在捕捉复杂生物相互作用方面的局限，强调了引入生物学先验知识的重要性。
   - Tags：`query:bioinfo`
