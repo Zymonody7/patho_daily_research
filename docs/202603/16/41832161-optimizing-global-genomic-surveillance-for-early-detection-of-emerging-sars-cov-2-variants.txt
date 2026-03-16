@@ -1,0 +1,83 @@
+Title: Optimizing global genomic surveillance for early detection of emerging SARS-CoV-2 variants - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41832161/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 14.
+
+doi: 10.1038/s41467-026-70664-0.  Online ahead of print.
+
+[Jifan Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+J&cauthor_id=41832161)[#](https://pubmed.ncbi.nlm.nih.gov/41832161/#full-view-equal-contrib-explanation "Contributed equally")[2](https://pubmed.ncbi.nlm.nih.gov/41832161/#full-view-affiliation-2 "Department of Statistics, Texas A&M University, College Station, TX, USA."),[Wanying Sun](https://pubmed.ncbi.nlm.nih.gov/?term=Sun+W&cauthor_id=41832161)[3](https://pubmed.ncbi.nlm.nih.gov/41832161/#full-view-affiliation-3 "School of Public Health, LKS Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China."),[Mengting Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+M&cauthor_id=41832161)[3](https://pubmed.ncbi.nlm.nih.gov/41832161/#full-view-affiliation-3 "School of Public Health, LKS Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China."),[Kathy Leung](https://pubmed.ncbi.nlm.nih.gov/?term=Leung+K&cauthor_id=41832161)[3](https://pubmed.ncbi.nlm.nih.gov/41832161/#full-view-affiliation-3 "School of Public Health, LKS Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China.")[4](https://pubmed.ncbi.nlm.nih.gov/41832161/#full-view-affiliation-4 "Laboratory of Data Discovery for Health (D²4H), Hong Kong Science and Technology Park, Hong Kong SAR, China.")[5](https://pubmed.ncbi.nlm.nih.gov/41832161/#full-view-affiliation-5 "HKJC Global Health Institute, LKS Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China."),[Joseph T Wu](https://pubmed.ncbi.nlm.nih.gov/?term=Wu+JT&cauthor_id=41832161)[3](https://pubmed.ncbi.nlm.nih.gov/41832161/#full-view-affiliation-3 "School of Public Health, LKS Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China.")[4](https://pubmed.ncbi.nlm.nih.gov/41832161/#full-view-affiliation-4 "Laboratory of Data Discovery for Health (D²4H), Hong Kong Science and Technology Park, Hong Kong SAR, China.")[5](https://pubmed.ncbi.nlm.nih.gov/41832161/#full-view-affiliation-5 "HKJC Global Health Institute, LKS Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China."),[Hsiang-Yu Yuan](https://pubmed.ncbi.nlm.nih.gov/?term=Yuan+HY&cauthor_id=41832161)[6](https://pubmed.ncbi.nlm.nih.gov/41832161/#full-view-affiliation-6 "Department of Biomedical Sciences, Jockey Club College of Veterinary Medicine and Life Sciences, City University of Hong Kong, Hong Kong, China.")[7](https://pubmed.ncbi.nlm.nih.gov/41832161/#full-view-affiliation-7 "Centre for Applied One Health Research and Policy Advice, Jockey Club College of Veterinary Medicine and Life Sciences, City University of Hong Kong, Hong Kong, China."),[Maggie H Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+MH&cauthor_id=41832161)[8](https://pubmed.ncbi.nlm.nih.gov/41832161/#full-view-affiliation-8 "JC School of Public Health and Primary Care, Faculty of Medicine, the Chinese University of Hong Kong, Hong Kong SAR, China."),[Bingyi Yang](https://pubmed.ncbi.nlm.nih.gov/?term=Yang+B&cauthor_id=41832161)[3](https://pubmed.ncbi.nlm.nih.gov/41832161/#full-view-affiliation-3 "School of Public Health, LKS Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China."),[Matthew R McKay](https://pubmed.ncbi.nlm.nih.gov/?term=McKay+MR&cauthor_id=41832161)[9](https://pubmed.ncbi.nlm.nih.gov/41832161/#full-view-affiliation-9 "Department of Electrical and Electronic Engineering, University of Melbourne, Parkville, VIC, Australia.")[10](https://pubmed.ncbi.nlm.nih.gov/41832161/#full-view-affiliation-10 "Department of Microbiology and Immunology, The Peter Doherty Institute for Infection and Immunity, University of Melbourne, Melbourne, VIC, Australia.")[11](https://pubmed.ncbi.nlm.nih.gov/41832161/#full-view-affiliation-11 "Victorian Infectious Diseases Reference Laboratory, Royal Melbourne Hospital, the Peter Doherty Institute for Infection and Immunity, Melbourne, VIC, Australia.")[12](https://pubmed.ncbi.nlm.nih.gov/41832161/#full-view-affiliation-12 "Department of Electronic and Computer Engineering, Hong Kong University of Science and Technology, Hong Kong SAR, China."),[Ning Ning](https://pubmed.ncbi.nlm.nih.gov/?term=Ning+N&cauthor_id=41832161)[2](https://pubmed.ncbi.nlm.nih.gov/41832161/#full-view-affiliation-2 "Department of Statistics, Texas A&M University, College Station, TX, USA."),[Leo L M Poon](https://pubmed.ncbi.nlm.nih.gov/?term=Poon+LLM&cauthor_id=41832161)[13](https://pubmed.ncbi.nlm.nih.gov/41832161/#full-view-affiliation-13 "School of Public Health, LKS Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China. llmpoon@hku.hk.")[14](https://pubmed.ncbi.nlm.nih.gov/41832161/#full-view-affiliation-14 "HKJC Global Health Institute, LKS Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China. llmpoon@hku.hk.")[15](https://pubmed.ncbi.nlm.nih.gov/41832161/#full-view-affiliation-15 "Centre for Immunology & Infection, Hong Kong Science and Technology Park, Hong Kong SAR, China. llmpoon@hku.hk.")[16](https://pubmed.ncbi.nlm.nih.gov/41832161/#full-view-affiliation-16 "HKU-Pasteur Research Pole, School of Public Health, LKS Faculty of Medicine, The University of Hong Kong, Hong Kong SAR, China. llmpoon@hku.hk.")
+
+Affiliations
+
+*    PMID: **41832161**
+*    DOI: [10.1038/s41467-026-70664-0](https://doi.org/10.1038/s41467-026-70664-0)
+
+Optimizing global genomic surveillance for early detection of emerging SARS-CoV-2 variants
+------------------------------------------------------------------------------------------
+
+Haogao Gu et al. Nat Commun.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+Abstract
+--------
+
+The global spread of viruses highlights the need for timely and effective genomic surveillance to detect new variants and inform rapid public health responses. However, high costs and uneven sequencing capacity hinder equitable global implementation. Surveillance focused on international travelers at major travel hubs has been proposed as a way to complement robust local surveillance, but its potential benefits have not been fully quantified. Here, we develop and calibrate a multiple-strain metapopulation model of global SARS-CoV-2 transmission using extensive epidemiological, phylogenetic, and high-resolution air travel data. Retrospective analyses of the Omicron BA.1/BA.2 emergence and forward simulations for hypothetical novel variants show that targeted enhancement of traveler surveillance at key hubs can shorten variant detection delays, with reduced total surveillance efforts. Practical "non-disruptive" strategies, such as prioritizing a small number of highly connected hubs, consistently outperformed baseline approaches and remained effective across a range of variant transmissibility and vaccine effectiveness scenarios. These results provide a quantitative framework for strengthening global genomic surveillance through targeted, complementary strategies that preserve local capacity while improving preparedness for future pandemics.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+Competing interests: The authors declare no competing interests.
+
+Similar articles
+----------------
+
+*   [Wastewater Genomic Surveillance Captures Early Detection of Omicron in Utah.](https://pubmed.ncbi.nlm.nih.gov/37154725/)
+
+Gupta P, Liao S, Ezekiel M, Novak N, Rossi A, LaCross N, Oakeson K, Rohrwasser A.Gupta P, et al.Microbiol Spectr. 2023 Jun 15;11(3):e0039123. doi: 10.1128/spectrum.00391-23. Epub 2023 May 8.Microbiol Spectr. 2023.PMID: 37154725 Free PMC article. 
+*   [Baseline Sequencing Surveillance of Public Clinical Testing, Hospitals, and Community Wastewater Reveals Rapid Emergence of SARS-CoV-2 Omicron Variant of Concern in Arizona, USA.](https://pubmed.ncbi.nlm.nih.gov/36622143/)
+
+Smith MF, Holland SC, Lee MB, Hu JC, Pham NC, Sullins RA, Holland LA, Mu T, Thomas AW, Fitch R, Driver EM, Halden RU, Villegas-Gold M, Sanders S, Krauss JL, Nordstrom L, Mulrow M, White M, Murugan V, Lim ES.Smith MF, et al.mBio. 2023 Feb 28;14(1):e0310122. doi: 10.1128/mbio.03101-22. Epub 2023 Jan 9.mBio. 2023.PMID: 36622143 Free PMC article. 
+*   [Genomic epidemiology of SARS-CoV-2 in Bolivia, 2020-2024.](https://pubmed.ncbi.nlm.nih.gov/40767570/)
+
+Pérez-Cascales E, Caballero F, Martínez-Ventura A, Ayzanoa B, Prado-Zapata M, Baldiviezo-Soliz E, Carballo-Jiménez P, Tinajeros-Guzmán F, Cuicapuza D, Tsukayama P.Pérez-Cascales E, et al.Microbiol Spectr. 2025 Sep 2;13(9):e0128025. doi: 10.1128/spectrum.01280-25. Epub 2025 Aug 6.Microbiol Spectr. 2025.PMID: 40767570 Free PMC article. 
+*   [A global aircraft-based wastewater genomic surveillance network for early warning of future pandemics.](https://pubmed.ncbi.nlm.nih.gov/37061316/)
+
+Li J, Hosegood I, Powell D, Tscharke B, Lawler J, Thomas KV, Mueller JF.Li J, et al.Lancet Glob Health. 2023 May;11(5):e791-e795. doi: 10.1016/S2214-109X(23)00129-8.Lancet Glob Health. 2023.PMID: 37061316 Free PMC article.Review. 
+*   [The Evolution and Biology of SARS-CoV-2 Variants.](https://pubmed.ncbi.nlm.nih.gov/35444005/)
+
+Telenti A, Hodcroft EB, Robertson DL.Telenti A, et al.Cold Spring Harb Perspect Med. 2022 May 27;12(5):a041390. doi: 10.1101/cshperspect.a041390.Cold Spring Harb Perspect Med. 2022.PMID: 35444005 Free PMC article.Review. 
+
+References
+----------
+
+1.       1.    du Plessis, L. et al. Establishment and lineage dynamics of the SARS-CoV-2 epidemic in the UK. Science 371, 708–712 (2021). 
+
+2.       1.    Tegally, H. et al. Detection of a SARS-CoV-2 variant of concern in South Africa. Nature 592, 438–443 (2021). 
+
+3.       1.    Harvey, W. T. et al. SARS-CoV-2 variants, spike mutations and immune escape. Nat. Rev. Microbiol. 19, 409–424 (2021). 
+
+4.       1.    Carabelli, A. M. et al. SARS-CoV-2 variant biology: immune escape, transmission and fitness. Nat Rev. Microbiol. 21, 162–177 (2023). 
+
+5.       1.    Iketani, S. et al. Multiple pathways for SARS-CoV-2 resistance to nirmatrelvir. Nature 613, 558–564 (2023). 
+
+Grants and funding
+------------------
+
+*   [T11-705/21-N/Research Grants Council, University Grants Committee (RGC, UGC)](https://pubmed.ncbi.nlm.nih.gov/?term=T11-705%2F21-N%2FResearch+Grants+Council%2C+University+Grants+Committee+%28RGC%2C+UGC%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant T11-705/21-N/Research Grants Council, University Grants Committee (RGC, UGC)")
+*   [Individual Research Grant/Texas A and M University (Texas A&M University)](https://pubmed.ncbi.nlm.nih.gov/?term=Individual+Research+Grant%2FTexas+A+and+M+University+%28Texas+A%26M+University%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant Individual Research Grant/Texas A and M University (Texas A&M University)")
+*   [1R21AI180492-01/U.S. Department of Health & Human Services | National Institutes of Health (NIH)](https://pubmed.ncbi.nlm.nih.gov/?term=1R21AI180492-01%2FU.S.+Department+of+Health+%26+Human+Services+%7C+National+Institutes+of+Health+%28NIH%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 1R21AI180492-01/U.S. Department of Health & Human Services | National Institutes of Health (NIH)")

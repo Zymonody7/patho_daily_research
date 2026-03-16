@@ -1,0 +1,83 @@
+Title: PAIR: Reconstructing Single-Cell Open-Chromatin Landscapes for Transcription Factor Regulome Mapping - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41831316/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 14:e24392.
+
+doi: 10.1002/advs.202524392.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **41831316**
+*    DOI: [10.1002/advs.202524392](https://doi.org/10.1002/advs.202524392)
+
+PAIR: Reconstructing Single-Cell Open-Chromatin Landscapes for Transcription Factor Regulome Mapping
+----------------------------------------------------------------------------------------------------
+
+Yanchi Su et al. Adv Sci (Weinh).2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+Abstract
+--------
+
+Single-cell ATAC-seq (scATAC-seq) enables the interrogation of chromatin accessibility at cellular resolution, yet its practical utility is often constrained by limited sequencing depth, extreme sparsity, and pervasive technical missingness, which collectively hamper robust cell-state delineation and inference of transcription factor (TF) regulatory programs. We present PAIR, a probabilistic framework that restores scATAC-seq accessibility profiles by directly modeling the native cell-peak bipartite structure of chromatin accessibility. PAIR leverages a bipartite graph encoder to learn representations for both cells and peaks, and incorporates a variational latent layer to explicitly capture uncertainty arising from sparse and noisy measurements. To jointly recover discrete accessibility patterns and quantitative signal, PAIR integrates two complementary decoders: a qualitative decoder that reconstructs open/closed cell-peak incidences and a quantitative decoder that models accessibility counts under a Negative Binomial likelihood. Trained end-to-end with variational and embedding regularization, PAIR yields cell and peak embeddings and an imputed accessibility matrix that improves downstream analyses. Across simulated datasets with controlled sequencing depth, noise, and dropout, as well as multiple publicly available benchmarks, PAIR consistently improves clustering performance and increases sensitivity for differential accessibility. Beyond cell-level analyses, PAIR-derived peak embedding enables locus-centric regulatory interrogation: co-accessibility analysis around SOX10 reveals structured regulatory neighborhoods, and graph-based peak modules show selective activity across melanoma cell states and identify gene sets with clinically relevant survival associations. In a forebrain atlas, PAIR restores regulatory signals spanning both promoter-proximal and distal elements and uncovers biologically coherent enrichment patterns consistent with neuronal specialization.
+
+**Keywords:** bipartite graph neural network; clustering; imputation; scATAC‐seq.
+
+© 2026 The Author(s). Advanced Science published by Wiley‐VCH GmbH.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Similar articles
+----------------
+
+*   [HyGAnno: hybrid graph neural network-based cell type annotation for single-cell ATAC sequencing data.](https://pubmed.ncbi.nlm.nih.gov/38581422/)
+
+Zhang W, Cui Y, Liu B, Loza M, Park SJ, Nakai K.Zhang W, et al.Brief Bioinform. 2024 Mar 27;25(3):bbae152. doi: 10.1093/bib/bbae152.Brief Bioinform. 2024.PMID: 38581422 Free PMC article. 
+*   [SAILER: scalable and accurate invariant representation learning for single-cell ATAC-seq processing and integration.](https://pubmed.ncbi.nlm.nih.gov/34252968/)
+
+Cao Y, Fu L, Wu J, Peng Q, Nie Q, Zhang J, Xie X.Cao Y, et al.Bioinformatics. 2021 Jul 12;37(Suppl_1):i317-i326. doi: 10.1093/bioinformatics/btab303.Bioinformatics. 2021.PMID: 34252968 Free PMC article. 
+*   [Are dropout imputation methods for scRNA-seq effective for scATAC-seq data?](https://pubmed.ncbi.nlm.nih.gov/34718405/)
+
+Liu Y, Zhang J, Wang S, Zeng X, Zhang W.Liu Y, et al.Brief Bioinform. 2022 Jan 17;23(1):bbab442. doi: 10.1093/bib/bbab442.Brief Bioinform. 2022.PMID: 34718405 
+*   [Learning single-cell chromatin accessibility profiles using meta-analytic marker genes.](https://pubmed.ncbi.nlm.nih.gov/36549922/)
+
+Kawaguchi RK, Tang Z, Fischer S, Rajesh C, Tripathy R, Koo PK, Gillis J.Kawaguchi RK, et al.Brief Bioinform. 2023 Jan 19;24(1):bbac541. doi: 10.1093/bib/bbac541.Brief Bioinform. 2023.PMID: 36549922 Free PMC article. 
+*   [Fundamental and practical approaches for single-cell ATAC-seq analysis.](https://pubmed.ncbi.nlm.nih.gov/36313930/)
+
+Shi P, Nie Y, Yang J, Zhang W, Tang Z, Xu J.Shi P, et al.aBIOTECH. 2022 Sep 27;3(3):212-223. doi: 10.1007/s42994-022-00082-5. eCollection 2022 Sep.aBIOTECH. 2022.PMID: 36313930 Free PMC article.Review. 
+
+References
+----------
+
+1.       1.    A. T. Satpathy, J. M. Granja, K. E. Yost, et al., “Massively Parallel Single‐Cell Chromatin Landscapes of Human Immune Cell Development and Intratumoral T Cell Exhaustion,” Nature Biotechnology 37, no. 8 (2019): 925–936. 
+
+2.       1.    C. A. Lareau, F. M. Duarte, J. G. Chew, et al., “Droplet‐Based Combinatorial Indexing for Massive‐Scale Single‐Cell Chromatin Accessibility,” Nature Biotechnology 37, no. 8 (2019): 916–924. 
+
+3.       1.    X. Chen, R. J. Miragaia, K. N. Natarajan, and S. A. Teichmann, “A Rapid and Robust Method for Single Cell Chromatin Accessibility Profiling,” Nature Communications 9, no. 1 (2018): 5345. 
+
+4.       1.    S. Preissl, K. J. Gaulton, and B. Ren, “Characterizing Cis‐Regulatory Elements Using Single‐Cell Epigenomics,” Nature Reviews Genetics 24, no. 1 (2023): 21–43. 
+
+5.       1.    J. Yu, J. Leng, Z. Hou, D. Sun, and L.‐Y. Wu, “Incorporating Network Diffusion and Peak Location Information for Better Single‐Cell ATAC‐Seq Data Analysis,” Briefings in Bioinformatics 25, no. 2 (2024): bbae093. 
+
+Grants and funding
+------------------
+
+*   [62472195/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=62472195%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 62472195/National Natural Science Foundation of China")
+*   [62076109/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=62076109%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 62076109/National Natural Science Foundation of China")
+*   [62206086/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=62206086%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 62206086/National Natural Science Foundation of China")
+*   [JJKH20261253KJ/Outstanding Young Scientists Program of the Jilin Provincial Department of Education](https://pubmed.ncbi.nlm.nih.gov/?term=JJKH20261253KJ%2FOutstanding+Young+Scientists+Program+of+the+Jilin+Provincial+Department+of+Education%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant JJKH20261253KJ/Outstanding Young Scientists Program of the Jilin Provincial Department of Education")
+*   [135115035/Fundamental Research Funds for the Central Universities](https://pubmed.ncbi.nlm.nih.gov/?term=135115035%2FFundamental+Research+Funds+for+the+Central+Universities%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 135115035/Fundamental Research Funds for the Central Universities")
+
+*   [Northeast Normal University](https://pubmed.ncbi.nlm.nih.gov/?term=Northeast+Normal+University%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant Northeast Normal University")
+*   [A2025004/Backbone Talent Program](https://pubmed.ncbi.nlm.nih.gov/?term=A2025004%2FBackbone+Talent+Program%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant A2025004/Backbone Talent Program")

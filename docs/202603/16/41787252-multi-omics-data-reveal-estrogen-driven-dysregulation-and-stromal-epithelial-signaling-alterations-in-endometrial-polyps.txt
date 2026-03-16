@@ -1,0 +1,154 @@
+Title: Multi-Omics Data Reveal Estrogen-Driven Dysregulation and Stromal-Epithelial Signaling Alterations in Endometrial Polyps - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41787252/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 15;40(5):e71645.
+
+doi: 10.1096/fj.202504234R.
+
+[Tingwei Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+T&cauthor_id=41787252)[1](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-1 "State Key Laboratory of Primate Biomedical Research; Institute of Primate Translational Medicine, Kunming University of Science and Technology, Kunming, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-2 "Yunnan Key Laboratory of Primate Biomedical Research, Kunming, China.")[3](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-3 "Southwest United Graduate School, Kunming, China."),[Bo Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+B&cauthor_id=41787252)[1](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-1 "State Key Laboratory of Primate Biomedical Research; Institute of Primate Translational Medicine, Kunming University of Science and Technology, Kunming, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-2 "Yunnan Key Laboratory of Primate Biomedical Research, Kunming, China.")[3](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-3 "Southwest United Graduate School, Kunming, China."),[Naixue Yang](https://pubmed.ncbi.nlm.nih.gov/?term=Yang+N&cauthor_id=41787252)[1](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-1 "State Key Laboratory of Primate Biomedical Research; Institute of Primate Translational Medicine, Kunming University of Science and Technology, Kunming, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-2 "Yunnan Key Laboratory of Primate Biomedical Research, Kunming, China."),[Ting Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+T&cauthor_id=41787252)[1](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-1 "State Key Laboratory of Primate Biomedical Research; Institute of Primate Translational Medicine, Kunming University of Science and Technology, Kunming, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-2 "Yunnan Key Laboratory of Primate Biomedical Research, Kunming, China."),[Huimei Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+H&cauthor_id=41787252)[1](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-1 "State Key Laboratory of Primate Biomedical Research; Institute of Primate Translational Medicine, Kunming University of Science and Technology, Kunming, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-2 "Yunnan Key Laboratory of Primate Biomedical Research, Kunming, China.")[3](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-3 "Southwest United Graduate School, Kunming, China."),[Yu Yin](https://pubmed.ncbi.nlm.nih.gov/?term=Yin+Y&cauthor_id=41787252)[1](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-1 "State Key Laboratory of Primate Biomedical Research; Institute of Primate Translational Medicine, Kunming University of Science and Technology, Kunming, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-2 "Yunnan Key Laboratory of Primate Biomedical Research, Kunming, China."),[Xiaomei Wu](https://pubmed.ncbi.nlm.nih.gov/?term=Wu+X&cauthor_id=41787252)[4](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-4 "The First People' Hospital of Yunnan Province, The Affiliated Hospital of Kunming University of Science and Technology, Kunming, China."),[Xiaozhuo Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+X&cauthor_id=41787252)[1](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-1 "State Key Laboratory of Primate Biomedical Research; Institute of Primate Translational Medicine, Kunming University of Science and Technology, Kunming, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-2 "Yunnan Key Laboratory of Primate Biomedical Research, Kunming, China."),[Tao Yu](https://pubmed.ncbi.nlm.nih.gov/?term=Yu+T&cauthor_id=41787252)[4](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-4 "The First People' Hospital of Yunnan Province, The Affiliated Hospital of Kunming University of Science and Technology, Kunming, China."),[Xiaodie Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+X&cauthor_id=41787252)[4](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-4 "The First People' Hospital of Yunnan Province, The Affiliated Hospital of Kunming University of Science and Technology, Kunming, China."),[Tianqing Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+T&cauthor_id=41787252)[1](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-1 "State Key Laboratory of Primate Biomedical Research; Institute of Primate Translational Medicine, Kunming University of Science and Technology, Kunming, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-2 "Yunnan Key Laboratory of Primate Biomedical Research, Kunming, China.")[3](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-3 "Southwest United Graduate School, Kunming, China."),[E Dong](https://pubmed.ncbi.nlm.nih.gov/?term=Dong+E&cauthor_id=41787252)[1](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-1 "State Key Laboratory of Primate Biomedical Research; Institute of Primate Translational Medicine, Kunming University of Science and Technology, Kunming, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41787252/#full-view-affiliation-2 "Yunnan Key Laboratory of Primate Biomedical Research, Kunming, China.")
+
+Affiliations
+
+*    PMID: **41787252**
+*    PMCID: [PMC12963523](https://pmc.ncbi.nlm.nih.gov/articles/PMC12963523/)
+*    DOI: [10.1096/fj.202504234R](https://doi.org/10.1096/fj.202504234r)
+
+Multi-Omics Data Reveal Estrogen-Driven Dysregulation and Stromal-Epithelial Signaling Alterations in Endometrial Polyps
+------------------------------------------------------------------------------------------------------------------------
+
+Tingwei Chen et al. FASEB J.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+Abstract
+--------
+
+Endometrial polyps (EPs) are common uterine lesions associated with abnormal uterine bleeding and infertility, yet their pathogenesis remains poorly defined. Here, we performed single-cell RNA sequencing of normal endometrium, para-polyp, and polyp tissues, identifying distinct cellular compositions and transcriptional programs. EPs showed enhanced estrogen signaling and increased epithelial proliferation, accompanied by decreased expression of cytokines and reduced T cell cytotoxicity. Notably, we observed epithelial subpopulations with elevated copy number variations and transcription factors associated with hyperplasia. Cell-cell communication analyzes revealed aberrant stromal-epithelial crosstalk, characterized by upregulated WNT, IGF, and VEGF signaling originating from stromal cells. Spatial transcriptomic analyzes further demonstrated enhanced WNT signaling between stromal and epithelial compartments in endometrial cancer. In vitro glandular organoid models showed that epithelial transcriptional alterations contribute to polyp formation. These findings highlight a critical role of stromal-epithelial interactions in EP development and suggest potential therapeutic targets.
+
+**Keywords:** endometrial polyps; estrogen signaling; multi‐omics; organoid; single‐cell RNA sequencing; stromal‐epithelial crosstalk; transcriptomics.
+
+© 2026 The Author(s). The FASEB Journal published by Wiley Periodicals LLC on behalf of Federation of American Societies for Experimental Biology.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+The authors declare no conflicts of interest.
+
+Figures
+-------
+
+[![Image 1: FIGURE 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b91e/12963523/d59971001101/FSB2-40-e71645-g004.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b91e/12963523/8867afa1131b/FSB2-40-e71645-g004.jpg)
+
+**FIGURE 1**
+An overview of the single cell landscape of healthy controls and EPs patients. (a) A schematic outline illustrating the workflow for sample collection and integrated analysis, including the number of samples collected during the proliferative stage. (b) A Uniform Manifold Approximation and Projection (UMAP) plot displaying 10 distinct cell types identified in the scRNA‐seq data. Each point represents a single cell, color‐coded by cell type. (c) Chart showing the number and percentage of each cell type. (d) Violin plots displaying the expression levels of canonical markers for each cell type. (e) Heatmap showing the gene expression signatures of the top three marker genes for each cell type in the human endometrium. Column represents cell types; rows represent individual genes and shading indicates expression levels. (f) Bar plot showing the proportions of all cell types across the ctrl, para‐polyp, and polyp groups. (g) Cell cycle analysis of all cell types, displaying the proportion of cells in each phase across the control, para‐polyp, and polyp groups.
+
+[![Image 2: FIGURE 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b91e/12963523/3c8604556242/FSB2-40-e71645-g001.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b91e/12963523/08a38d8bc333/FSB2-40-e71645-g001.jpg)
+
+**FIGURE 2**
+Pathological endometrial characteristics of EPs patients. (a, b) Representative immunofluorescent staining and quantification of KI67‐ and PGR‐positive epithelial cells in control endometrium (CTRL) and endometrial polyps (EPs). Data are presented as mean ± SEM. Statistical significance was determined by unpaired two‐tailed Student's _t_‐test. ***_p_< 0.001; ****_p_< 0.0001. Scale bar: 100 μm. (c) Violin plot showing PGR expression in ciliated, epithelial, endothelial and stromal cell type across the control, para‐polyp and polyp groups. (d) Violin plot showing enrichment scores for estrogen signaling pathways across different cell types in normal, para‐polyp, and polyp tissues. (e) Heatmap showing the expression of highly expressed genes in ciliated and non‐ciliated epithelial cell populations of EPs compared to normal endometrium. (f) Functional enrichment analysis of differentially expressed genes (DEGs) in ciliated epithelial (ciliated‐Epi) and epithelial (Epi) cells between the control (ctrl) and EPs groups. (g) KEGG enrichment analysis of upregulated and downregulated DEGs in ciliated‐Epi and Epi cells between the ctrl and EPs groups.
+
+[![Image 3: FIGURE 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b91e/12963523/0c5e12f9cfa0/FSB2-40-e71645-g002.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b91e/12963523/5206e972ff10/FSB2-40-e71645-g002.jpg)
+
+**FIGURE 3**
+T cell subpopulations in endometrial polyp. (a) UMAP plot showing 5 T cells subpopulations identified, CD4T: CD4 T cell, Treg: Regulatory T cell, CD8T: CD8 T cell, MAIT: Mucosa‐associated invariant T, Teff: CD8 effector T cell. (b) Canonical gene markers for each T cells subpopulation. (c) overall proportions of T cells subpopulations (color legend) according to Ctrl, para‐EPs, EPs. (d) Violin plot showing cytotoxic, cytokine, exhaustion scores of T cells in Ctrl and endometrial polyp subtypes (para‐EPs, EPs). (e, f) Dot plot showing DEG markers of T cell subpopulations (CD4T and CD8T) according to ctrl, para‐EPs, EPs tissues. (g) Heatmap showing DEG cytokine and growth factors according to ctrl, para‐EPs, EPs tissues.
+
+[![Image 4: FIGURE 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b91e/12963523/83132bfbbeaf/FSB2-40-e71645-g003.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b91e/12963523/ac76e5b49841/FSB2-40-e71645-g003.jpg)
+
+**FIGURE 4**
+Molecular differences among epithelial cell subclusters. (a) Inferred large‐scale CNA levels in each epithelial cell cluster across 22 chromosomes; red indicates a high CNV level, and blue indicates a low CNV level. (b) Copy number variation score across different endometrial cell types. (c) Comparisons of overall CNA levels among different epithelial subclusters. (d) Heatmap shows the relative activity scores of biological processes in each epithelial subcluster. (e) Heatmap shows the relative expression of differential transcription factors in each epithelial cell subcluster.
+
+[![Image 5: FIGURE 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b91e/12963523/5a5ac005cf98/FSB2-40-e71645-g005.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b91e/12963523/5dc70a0f55f2/FSB2-40-e71645-g005.jpg)
+
+**FIGURE 5**
+Enhanced WNT signaling interactions between epithelial and stromal cells in EPs. (a) Inferred cell–cell communication networks via the WNT signaling pathway among epithelial and stromal subpopulations in control (Ctrl), para‐EPs, and EPs groups. The strength and direction of intercellular signaling are visualized with colored and weighted edges. (b) Violin plots showing expression levels of WNT5A and WNT2 in stromal clusters S1 and S3 across Ctrl, para‐EPs, and EPs samples. Statistical significance between different groups was evaluated with the two‐sided Wilcoxon rank sum test. (c) Expression profiles of WNT signaling components (ligands, receptors, and co‐receptors) across epithelial and stromal clusters. (d) Bubble plot showing predicted WNT ligand‐receptor interactions that are significantly upregulated in the EPs group, from S1 and S3 stromal subtypes to SOX9+epithelial cells. Bubble size indicates statistical significance (_p_< 0.01), and color represents the communication probability.
+
+[![Image 6: FIGURE 6](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b91e/12963523/d5ce34bcfa80/FSB2-40-e71645-g007.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b91e/12963523/2d395e622eb7/FSB2-40-e71645-g007.jpg)
+
+**FIGURE 6**
+Cell‐Chat analysis reveals altered intercellular communication patterns in para‐EPs and EPs. (a) Arrow plots illustrating changes in outgoing and incoming interaction strengths between para‐EPs (arrow tip) and control (arrow base) (left), and between EPs (arrow tip) and control (arrow base) (right) across major cell types. (b) Heatmaps showing differential interaction strengths between control and para‐EPs (left), and between control and EPs (right). Red and blue indicate increased and decreased signaling interactions, respectively. (c) Bar plot showing the relative information flow of major signaling pathways in ctrl, para‐EPs, and EPs groups. Communication strength was calculated by aggregating all predicted communication probabilities within each pathway. (d, e) Circle plots depicting intercellular signaling interactions involved in the IGF pathway (d) and VEGF pathway (e) across control, para‐EPs, and EPs groups. Nodes represent distinct cell types; edge thickness indicates interaction strength. (f‐g) Quantitative RT‐PCR analysis of IGF1 (f) and VEGFA (g) transcript level in control (CTRL; circles) and endometrial polyp (EPs; squares) groups. Data are shown as mean ± SEM. Statistical significance was assessed by an unpaired two‐tailed Student's _t_‐test, with _p_< 0.05 considered statistically significant.
+
+[![Image 7: FIGURE 7](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b91e/12963523/4f266d8090a0/FSB2-40-e71645-g006.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b91e/12963523/f5c89bf1395a/FSB2-40-e71645-g006.jpg)
+
+**FIGURE 7**
+Cell type mapping in endometrial carcinoma tissue slice and cell–cell communication validation in single‐cell data. (a) Spatial mapping of stromal subclusters (S1 and S3), SOX9+epithelial cells, and ciliated epithelial cells in the spatial transcriptomic dataset from Barkley et al. (b) Comparison of WNT ligand and receptor expression scores between regions with high and low enrichment of S1 + S3 stromal or SOX9+ epithelial subclusters. (c) Integration of stromal subclusters from our dataset and Ren et al. showing consistent subcluster distribution. (d) Violin plots showing expression of WNT2 and WNT5A across normal endometrium (NC), atypical endometrial hyperplasia (AEH), and endometrioid endometrial carcinoma (EEC) within stromal subclusters S1 and S3. (e) Mapping of epithelial subclusters (SOX9+ and ciliated) from both datasets demonstrating similar spatial distribution patterns. (f) WNT signaling interaction networks between epithelial and stromal subclusters across three groups. (g) Forest plot depicting log‐transformed hazard ratios (log HR) of WNT ligand expression for overall survival across TCGA cancer types. Each dot represents the log HR for an individual cancer type, with horizontal lines denoting 95% confidence intervals. Dots are colored based on prognostic significance: Gray (not significant, NS), blue (protective, HR < 1, _p_< 0.05), and red (risky, HR > 1, _p_< 0.05).
+
+[![Image 8: FIGURE 8](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b91e/12963523/801e8c2fb1c5/FSB2-40-e71645-g008.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b91e/12963523/daab550fb9c5/FSB2-40-e71645-g008.jpg)
+
+**FIGURE 8**
+Transcriptomic alterations in epithelial cells. (a) Schematic overview of the experimental design. Endometrial tissues from healthy controls (Ctrl) and polyp patients (Polyp) were collected, epithelial fractions were isolated to establish glandular organoids, and organoids were treated with estradiol (E2, 10 nM) for 7 days to mimic proliferative‐phase conditions before bulk RNA sequencing. (b) Representative bright‐field and immunofluorescence images of glandular organoids derived from Ctrl and Polyp endometrial tissues, showing comparable morphology and expression of epithelial marker EPCAM (green). Scale bars, 500 μm (upper), 50 μm (bottom). (c) Immunofluorescence staining showing the expression of progesterone receptor (PGR, green) in control and polyp organoids under untreated (−E2) and E2‐treated (+E2) conditions, indicating hormone responsiveness. Nuclei were counterstained with DAPI (blue). Scale bars, 100 μm. (d, e) Principal component analysis (PCA) for bulk‐RNA sequencing data of tissue samples from polyp and control groups under E2 treatment or untreated conditions. (f, g) Volcano plots showing genes with log2(FC) on the horizontal axis and −log10(_p_‐value) on the vertical axis. FC, fold change of polyps relative to controls. (h) Venn diagram showing the overlap of upregulated genes in polyps relative to controls under both conditions. (i) Heatmap displaying the top 22 genes upregulated in polyps under both E2‐treated and untreated conditions relative to controls. (j) KEGG and GO enrichment analyzes of differentially expressed genes, with blue representing down‐regulation and red representing up‐regulation.
+
+References
+----------
+
+1.       1.    Reginaldo Guedes C. L., Edmund Chada B., Luiz Cavalcanti D. A. N., et al., “Analysis of Estrogen‐ and Progesterone‐Receptor Expression in Endometrial Polyps,” Journal of Minimally Invasive Gynecology 14, no. 3 (2007): 300–303. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/17478359/)
+
+2.       1.    Vieira M. D. C., Vitagliano A., Rossette M. C., Neto L. C. A., Gallo A., and Sardo A. D. S., “Endometrial Polyps: Update Overview on Etiology, Diagnosis, Natural History and Treatment,” CEOG 49, no. 10 (2022): 232. 
+
+3.       1.    Berceanu C., Cernea N., Căpitănescu R. G., et al., “Endometrial Polyps,” Romanian Journal of Morphology and Embryology 63, no. 2 (2022): 323–334. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9804076/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/36374138/)
+
+4.       1.    Clark T. J. and Stevenson H., “Endometrial Polyps and Abnormal Uterine Bleeding (AUB‐P): What Is the Relationship, How Are They Diagnosed and How Are They Treated?,” Best Practice & Research. Clinical Obstetrics & Gynaecology 40 (2017): 89–104. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/27914969/)
+
+5.       1.    Yuksel S., Tuna G., Celik H. G., and Salman S., “Endometrial Polyps: Is the Prediction of Spontaneous Regression Possible?,” Obstetrics & Gynecology Science 64, no. 1 (2021): 114–121. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7834764/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/33321559/)
+
+MeSH terms
+----------
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+Substances
+----------
+
+*   Actions 
+
+Grants and funding
+------------------
+
+*   [32560179/the National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=32560179%2Fthe+National+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 32560179/the National Natural Science Foundation of China")
+*   [32130034/the National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=32130034%2Fthe+National+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 32130034/the National Natural Science Foundation of China")
+*   [82192874/the National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82192874%2Fthe+National+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82192874/the National Natural Science Foundation of China")
+*   [202201AU070232/Yunnan Fundamental Research Projects](https://pubmed.ncbi.nlm.nih.gov/?term=202201AU070232%2FYunnan+Fundamental+Research+Projects%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 202201AU070232/Yunnan Fundamental Research Projects")
+*   [202501AT070168/Yunnan Fundamental Research Projects](https://pubmed.ncbi.nlm.nih.gov/?term=202501AT070168%2FYunnan+Fundamental+Research+Projects%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 202501AT070168/Yunnan Fundamental Research Projects")
+
+*   [202401CF070089/Yunnan Fundamental Research Projects](https://pubmed.ncbi.nlm.nih.gov/?term=202401CF070089%2FYunnan+Fundamental+Research+Projects%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 202401CF070089/Yunnan Fundamental Research Projects")
+*   [2022YFA1103100/the National Key Research and Development Program of China](https://pubmed.ncbi.nlm.nih.gov/?term=2022YFA1103100%2Fthe+National+Key+Research+and+Development+Program+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2022YFA1103100/the National Key Research and Development Program of China")
+*   [202407AB110013/Central Government Guidance Fund for Local Science and Technology Development](https://pubmed.ncbi.nlm.nih.gov/?term=202407AB110013%2FCentral+Government+Guidance+Fund+for+Local+Science+and+Technology+Development%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 202407AB110013/Central Government Guidance Fund for Local Science and Technology Development")
+*   [The Yunnan Revitalization Talent Support Program](https://pubmed.ncbi.nlm.nih.gov/?term=The+Yunnan+Revitalization+Talent+Support+Program%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant The Yunnan Revitalization Talent Support Program")
+
+LinkOut - more resources
+------------------------
+
+*   ### Full Text Sources
+
+    *   [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/pmid/41787252/)
+    *   [Wiley](https://doi.org/10.1096/fj.202504234R)

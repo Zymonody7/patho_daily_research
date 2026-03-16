@@ -1,0 +1,506 @@
+Title: Mechanistic insights into sulfamethoxazole removal in activated sludge systems through machine learning and microcosm experiments - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41529620/
+
+Markdown Content:
+Mechanistic insights into sulfamethoxazole removal in activated sludge systems through machine learning and microcosm experiments - PubMed
+===============
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/41529620/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41529620%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/41529620/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/41529620/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/41529620/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/9fea6d21-07b4-4726-b151-fb89a024b8ad/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/41529620/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/41529620/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41529620%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41529620%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+Save citation to file
+---------------------
+
+ Format:  
+
+ Create file  Cancel 
+
+Email citation
+--------------
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+
+ Add  Cancel 
+
+Your saved search
+-----------------
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+Create a file for external citation management software
+-------------------------------------------------------
+
+ Create file  Cancel 
+
+Your RSS Feed
+-------------
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Full text links
+
+[![Image 6: Elsevier Science full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--linkinghub.elsevier.com-ihub-images-PubMedLink.gif) Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S0043-1354(26)00013-8 "See full text options at Elsevier Science")
+
+[Full text links](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/41529620/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/41529620/#abstract)
+*   [Conflict of interest statement](https://pubmed.ncbi.nlm.nih.gov/41529620/#conflict-of-interest)
+*   [Similar articles](https://pubmed.ncbi.nlm.nih.gov/41529620/#similar)
+*   [MeSH terms](https://pubmed.ncbi.nlm.nih.gov/41529620/#mesh-terms)
+*   [Substances](https://pubmed.ncbi.nlm.nih.gov/41529620/#substances)
+*   [Related information](https://pubmed.ncbi.nlm.nih.gov/41529620/#related-links)
+*   [LinkOut - more resources](https://pubmed.ncbi.nlm.nih.gov/41529620/#linkout)
+
+ Water Res 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Water+Res%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Water+Res%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+
+. 2026 Mar 15:292:125331.
+
+ doi: 10.1016/j.watres.2026.125331.  Epub 2026 Jan 6. 
+
+Mechanistic insights into sulfamethoxazole removal in activated sludge systems through machine learning and microcosm experiments
+=================================================================================================================================
+
+[Junjie Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+J&cauthor_id=41529620)[1](https://pubmed.ncbi.nlm.nih.gov/41529620/#full-view-affiliation-1 "State Key Laboratory of Urban-rural Water Resource and Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China."),[Lipin Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+L&cauthor_id=41529620)[1](https://pubmed.ncbi.nlm.nih.gov/41529620/#full-view-affiliation-1 "State Key Laboratory of Urban-rural Water Resource and Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China."),[Xiaowei Lv](https://pubmed.ncbi.nlm.nih.gov/?term=Lv+X&cauthor_id=41529620)[1](https://pubmed.ncbi.nlm.nih.gov/41529620/#full-view-affiliation-1 "State Key Laboratory of Urban-rural Water Resource and Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China."),[Tao Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+T&cauthor_id=41529620)[1](https://pubmed.ncbi.nlm.nih.gov/41529620/#full-view-affiliation-1 "State Key Laboratory of Urban-rural Water Resource and Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China."),[Jun Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+J&cauthor_id=41529620)[1](https://pubmed.ncbi.nlm.nih.gov/41529620/#full-view-affiliation-1 "State Key Laboratory of Urban-rural Water Resource and Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China."),[Liwen Luo](https://pubmed.ncbi.nlm.nih.gov/?term=Luo+L&cauthor_id=41529620)[2](https://pubmed.ncbi.nlm.nih.gov/41529620/#full-view-affiliation-2 "Department of Biotechnology, Ghent University, Frieda Saeysstraat 1, Ghent 9052, Belgium."),[Yu Tian](https://pubmed.ncbi.nlm.nih.gov/?term=Tian+Y&cauthor_id=41529620)[3](https://pubmed.ncbi.nlm.nih.gov/41529620/#full-view-affiliation-3 "State Key Laboratory of Urban-rural Water Resource and Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China. Electronic address: hit_tianyu@163.com.")
+
+ Affiliations  Expand 
+
+### Affiliations
+
+*   1 State Key Laboratory of Urban-rural Water Resource and Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China.
+*   2 Department of Biotechnology, Ghent University, Frieda Saeysstraat 1, Ghent 9052, Belgium.
+*   3 State Key Laboratory of Urban-rural Water Resource and Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China. Electronic address: hit_tianyu@163.com.
+
+*    PMID: **41529620**
+*    DOI: [10.1016/j.watres.2026.125331](https://doi.org/10.1016/j.watres.2026.125331)
+
+ Item in Clipboard 
+
+Mechanistic insights into sulfamethoxazole removal in activated sludge systems through machine learning and microcosm experiments
+=================================================================================================================================
+
+Junjie Chen et al. Water Res.2026.
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ Water Res 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Water+Res%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Water+Res%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+
+. 2026 Mar 15:292:125331.
+
+ doi: 10.1016/j.watres.2026.125331.  Epub 2026 Jan 6. 
+
+### Authors
+
+[Junjie Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+J&cauthor_id=41529620)[1](https://pubmed.ncbi.nlm.nih.gov/41529620/#short-view-affiliation-1 "State Key Laboratory of Urban-rural Water Resource and Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China."),[Lipin Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+L&cauthor_id=41529620)[1](https://pubmed.ncbi.nlm.nih.gov/41529620/#short-view-affiliation-1 "State Key Laboratory of Urban-rural Water Resource and Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China."),[Xiaowei Lv](https://pubmed.ncbi.nlm.nih.gov/?term=Lv+X&cauthor_id=41529620)[1](https://pubmed.ncbi.nlm.nih.gov/41529620/#short-view-affiliation-1 "State Key Laboratory of Urban-rural Water Resource and Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China."),[Tao Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+T&cauthor_id=41529620)[1](https://pubmed.ncbi.nlm.nih.gov/41529620/#short-view-affiliation-1 "State Key Laboratory of Urban-rural Water Resource and Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China."),[Jun Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+J&cauthor_id=41529620)[1](https://pubmed.ncbi.nlm.nih.gov/41529620/#short-view-affiliation-1 "State Key Laboratory of Urban-rural Water Resource and Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China."),[Liwen Luo](https://pubmed.ncbi.nlm.nih.gov/?term=Luo+L&cauthor_id=41529620)[2](https://pubmed.ncbi.nlm.nih.gov/41529620/#short-view-affiliation-2 "Department of Biotechnology, Ghent University, Frieda Saeysstraat 1, Ghent 9052, Belgium."),[Yu Tian](https://pubmed.ncbi.nlm.nih.gov/?term=Tian+Y&cauthor_id=41529620)[3](https://pubmed.ncbi.nlm.nih.gov/41529620/#short-view-affiliation-3 "State Key Laboratory of Urban-rural Water Resource and Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China. Electronic address: hit_tianyu@163.com.")
+
+### Affiliations
+
+*   1 State Key Laboratory of Urban-rural Water Resource and Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China.
+*   2 Department of Biotechnology, Ghent University, Frieda Saeysstraat 1, Ghent 9052, Belgium.
+*   3 State Key Laboratory of Urban-rural Water Resource and Environment, School of Environment, Harbin Institute of Technology, Harbin 150090, China. Electronic address: hit_tianyu@163.com.
+
+*    PMID: **41529620**
+*    DOI: [10.1016/j.watres.2026.125331](https://doi.org/10.1016/j.watres.2026.125331)
+
+ Item in Clipboard 
+
+ Full text links Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+Abstract
+--------
+
+Antibiotic residues in wastewater pose serious ecological and public health risks and may even induce the more severe threat of antimicrobial resistance (AMR). The activated sludge (AS) processes, the backbone of global wastewater treatment, play a central role in mitigating these risks. However, antibiotic removal in AS systems remains highly variable and mechanistically unclear. Here, sulfamethoxazole (SMX) was selected as a representative antibiotic to develop a comprehensive machine learning (ML)-based framework for identifying key factors and elucidating process-level mechanisms governing SMX biodegradation in AS processes using an integrated dataset from lab-, pilot-, and full-scale systems. The random forest regression (RFR) model outperformed other models and achieved the highest predictive performance (testing R² = 0.83) after full-factor grid optimization, 5-fold cross-validation and feature engineering, with strong generalization confirmed by independent (prediction error < 20 %). Feature attribution, dependency, and causal analyses revealed that process control parameters (43 %) dominated SMX removal, followed by influent (30 %) and process performance parameters (27 %). Key factors including acclimation period (AP), pH, influent SMX, and ammonia nitrogen (NH 4+-N) were identified, with threshold values (15 days, 7.3-8.0, 0.2 mg/L, 43 mg/L) revealed for the first time using the RFR model. Model-identified threshold-like effects of influent SMX concentration and AP governed the initiation of biodegradation, while influent NH 4+-N regulated SMX removal via co-metabolism. Causal inference further indicated that NH 4+-N removal rate was a stronger performance indicator of AS processes for SMX biodegradation than COD removal rate. The 60-day microcosm validation confirmed that the RFR-guided acclimation achieved near 100 % SMX removal (0.2 mg/L-10 mg/L) and supported the biological plausibility of the model-inferred threshold-like behavior, providing mechanistically informed insights beyond model. This framework integrates data-driven prediction with mechanistic understanding, providing a generalizable approach and offering actionable guidance for optimizing AS processes to mitigate antibiotic pollution.
+
+**Keywords:** Activated sludge; Antibiotics; Machine learning; Random forest regression; Sulfamethoxazole.
+
+Copyright © 2026 Elsevier Ltd. All rights reserved.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+Conflict of interest statement
+------------------------------
+
+Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+Similar articles
+----------------
+
+*   [Removal of antibiotic sulfamethoxazole by anoxic/anaerobic/oxic granular and suspended activated sludge processes.](https://pubmed.ncbi.nlm.nih.gov/29274854/)Kang AJ, Brown AK, Wong CS, Yuan Q.Kang AJ, et al.Bioresour Technol. 2018 Mar;251:151-157. doi: 10.1016/j.biortech.2017.12.021. Epub 2017 Dec 9.Bioresour Technol. 2018.PMID: 29274854  
+*   [Determination of the lower limits of antibiotic biodegradation and the fate of antibiotic resistant genes in activated sludge: Both nitrifying bacteria and heterotrophic bacteria matter.](https://pubmed.ncbi.nlm.nih.gov/34799165/)Yan R, Wang Y, Li J, Wang X, Wang Y.Yan R, et al.J Hazard Mater. 2022 Mar 5;425:127764. doi: 10.1016/j.jhazmat.2021.127764. Epub 2021 Nov 12.J Hazard Mater. 2022.PMID: 34799165  
+*   [Mechanism of microplastics promoting sulfamethoxazole biodegradation in activated sludge as revealed by DNA-stable isotope probing.](https://pubmed.ncbi.nlm.nih.gov/39616911/)Wu X, Wang K, Song M, Jiang L, Chen X, Luo C, Qiu R.Wu X, et al.Sci Total Environ. 2024 Dec 20;957:177755. doi: 10.1016/j.scitotenv.2024.177755. Epub 2024 Nov 30.Sci Total Environ. 2024.PMID: 39616911  
+*   [Enhancement of aerobic denitrification process on antibiotics removal: Mechanism and efficiency: A review.](https://pubmed.ncbi.nlm.nih.gov/40065507/)Mupindu P, Zhao YG, Pan C, Zhang Y, Liu J.Mupindu P, et al.Water Environ Res. 2025 Mar;97(3):e70050. doi: 10.1002/wer.70050.Water Environ Res. 2025.PMID: 40065507 Review.  
+*   [[Mechanisms and Influencing Factors of Antibiotic Removal in Sewage Biological Treatment].](https://pubmed.ncbi.nlm.nih.gov/30628253/)Zhang XY, Li RY, Ji M.Zhang XY, et al.Huan Jing Ke Xue. 2018 Nov 8;39(11):5276-5288. doi: 10.13227/j.hjkx.201803190.Huan Jing Ke Xue. 2018.PMID: 30628253 Review.Chinese.  
+
+[See all similar articles](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed&from_uid=41529620)
+
+MeSH terms
+----------
+
+*   
+ Anti-Bacterial Agents 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Anti-Bacterial+Agents%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Anti-Bacterial+Agents)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+
+*   
+ Biodegradation, Environmental 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Biodegradation%2C+Environmental%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Biodegradation%2C+Environmental)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+
+*   
+ Machine Learning* 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Machine+Learning%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Machine+Learning)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+
+*   
+ Sewage* / chemistry 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Sewage%2Fchemistry%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Sewage)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+
+*   
+ Sulfamethoxazole* 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Sulfamethoxazole%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Sulfamethoxazole)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+
+*   
+ Waste Disposal, Fluid / methods 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Waste+Disposal%2C+Fluid%2Fmethods%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Waste+Disposal%2C+Fluid)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+
+*   
+ Water Pollutants, Chemical 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Water+Pollutants%2C+Chemical%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Water+Pollutants%2C+Chemical)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+
+Substances
+----------
+
+*   
+ Sulfamethoxazole 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Sulfamethoxazole%22%5Bnm%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=%22Sulfamethoxazole%22)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+
+*   
+ Sewage 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Sewage%22%5Bnm%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=%22Sewage%22)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+
+*   
+ Water Pollutants, Chemical 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Water+Pollutants%2C+Chemical%22%5Bnm%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=%22Water+Pollutants%2C+Chemical%22)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+
+*   
+ Anti-Bacterial Agents 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Anti-Bacterial+Agents%22%5Bnm%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=%22Anti-Bacterial+Agents%22)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+
+Related information
+-------------------
+
+*   [GEO Profiles](https://www.ncbi.nlm.nih.gov/geoprofiles?linkname=pubmed_geoprofiles&from_uid=41529620 "GEO records associated with pubmed record")
+
+LinkOut - more resources
+------------------------
+
+*   ### Full Text Sources
+
+    *   [Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S0043-1354(26)00013-8)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-972)
+
+**Full text links**[x]
+
+[![Image 7: Elsevier Science full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--linkinghub.elsevier.com-ihub-images-PubMedLink.gif) Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S0043-1354(26)00013-8 "See full text options at Elsevier Science")
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41529620%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41529620%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41529620%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/41529620/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/?pagename=pubmed%3Apubmed%3Aabstract%3ANONE)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)

@@ -1,10 +1,40 @@
 # 知识库
 
-- 最近沉淀条目数：128
+- 最近沉淀条目数：138
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Optimizing global genomic surveillance for early detection of emerging SARS-CoV-2 variants.](#/202603/16/202603/16/41832161-optimizing-global-genomic-surveillance-for-early-detection-of-emerging-sars-cov-2-variants)
+  - TLDR：针对全球基因组监测成本高、分布不均导致新变异株发现延迟的问题，本研究开发了一个结合流行病学、系统发育和航空旅行数据的多毒株元种群模型。通过对奥密克戎变异株的回溯分析和前瞻性模拟，证明在关键交通枢纽实施针对性旅行者监测能显著缩短检测延迟。该方法在减少总监测工作量的同时，为全球大流行预警提供了一个高效且低干扰的量化框架。
+  - Tags：`query:pathoai`
+- [Mechanistic insights into sulfamethoxazole removal in activated sludge systems through machine learning and microcosm experiments.](#/202603/16/202603/16/41529620-mechanistic-insights-into-sulfamethoxazole-removal-in-activated-sludge-systems-through-machine-learning-and-microcosm-experiments)
+  - TLDR：针对活性污泥法处理废水中抗生素（以磺胺甲恶唑SMX为例）去除率波动大且机制不明的问题，本研究构建了基于随机森林回归（RFR）的机器学习框架，整合多尺度实验数据识别关键影响因子。研究发现工艺控制参数对去除率贡献最大，并首次揭示了驯化时间、pH等关键阈值。通过60天微观实验验证，模型指导的工艺优化实现了近100%的去除率，为污水处理抗生素降解提供了数据驱动的决策支持。
+  - Tags：`query:pathoai`
+- [PAIR: Reconstructing Single-Cell Open-Chromatin Landscapes for Transcription Factor Regulome Mapping.](#/202603/16/202603/16/41831316-pair-reconstructing-single-cell-open-chromatin-landscapes-for-transcription-factor-regulome-mapping)
+  - TLDR：针对单细胞 ATAC-seq 数据极度稀疏且存在技术缺失的挑战，PAIR 提出了一种基于二分图编码器的概率框架。该方法通过变分潜层捕捉测量不确定性，并利用定性与定量双解码器重构染色质开放性图谱。实验证明 PAIR 能显著提升细胞聚类精度和差异分析灵敏度，并能有效挖掘黑色素瘤及前脑发育中的转录因子调控网络，为单细胞调控组学研究提供了强有力的支持。
+  - Tags：`query:seqai`
+- [The oral-gut-brain axis in periodontitis: microbial signaling in systemic and neuroinflammatory disease.](#/202603/16/202603/16/41539591-the-oral-gut-brain-axis-in-periodontitis-microbial-signaling-in-systemic-and-neuroinflammatory-disease)
+  - TLDR：牙周炎不仅是口腔炎症，还通过“口-肠-脑轴”影响全身及神经系统健康。本文综述了牙周病原体如何通过血液、神经及免疫细胞等途径跨越屏障，诱发肠道失调和神经炎症，进而导致阿尔茨海默症等退行性疾病。研究强调了口腔微生物组在维持系统稳态中的核心作用，并提出了基于AI诊断和微生物重塑的精准医疗新方向。
+  - Tags：`query:pathoai`
+- [Conservation and Specificity in Bacillus Biofilm Dynamics: On Structure and Function of B. cereus Camelysins.](#/202603/16/202603/16/41611200-conservation-and-specificity-in-bacillus-biofilm-dynamics-on-structure-and-function-of-b-cereus-camelysins)
+  - TLDR：蜡样芽孢杆菌群体的生物被膜形成依赖于 CalY1 和 CalY2 蛋白。本研究通过核磁共振（NMR）与 AlphaFold 建模，揭示了 CalY2 在中性环境下通过 β 折叠重组自发聚合为长丝的机制，并发现其与枯草芽孢杆菌 TasA 蛋白在结构上保守但在序列上存在特异性，导致两者无法共聚。这一发现为通过干预蛋白质聚合来控制有害菌群或增强益生菌生物被膜提供了结构生物学基础。
+  - Tags：`query:bioinfo`
+- [Digital siblings unveil distinct molecular and clinical subtypes in Alzheimer's disease via omics-driven profiling.](#/202603/16/202603/16/41698287-digital-siblings-unveil-distinct-molecular-and-clinical-subtypes-in-alzheimers-disease-via-omics-driven-profiling)
+  - TLDR：阿尔茨海默病（AD）具有高度的生物学和临床异质性，导致精准诊疗困难。本研究利用流形学习技术融合了438名患者的蛋白质组学、人口统计学和临床数据，构建了“数字同胞”框架，通过识别潜在空间中相似的患者群体，成功划分出具有独特分子机制和临床特征的亚型。该方法揭示了与年龄、饮酒等相关的通路富集，为AD的精准分型和未来动态预测模型奠定了基础。
+  - Tags：`query:bioinfo`
+- [Multi-Omics Data Reveal Estrogen-Driven Dysregulation and Stromal-Epithelial Signaling Alterations in Endometrial Polyps.](#/202603/16/202603/16/41787252-multi-omics-data-reveal-estrogen-driven-dysregulation-and-stromal-epithelial-signaling-alterations-in-endometrial-polyps)
+  - TLDR：子宫内膜息肉（EP）是导致异常出血和不孕的常见病变，但其发病机制尚不明确。本研究通过对正常、息肉旁及息肉组织进行单细胞转录组测序，发现息肉中雌激素信号增强、上皮增殖加剧且免疫环境受抑制。研究揭示了基质细胞通过WNT、IGF和VEGF信号通路与上皮细胞发生的异常互作是息肉形成的关键，为EP的临床治疗提供了潜在的分子靶点。
+  - Tags：`query:seqai`
+- [Interactions of SARS-CoV-2, influenza and respiratory syncytial virus influence epidemic timing and risk.](#/202603/16/202603/16/41832342-interactions-of-sars-cov-2-influenza-and-respiratory-syncytial-virus-influence-epidemic-timing-and-risk)
+  - TLDR：本研究探讨了新冠、流感及合胞病毒（RSV）在人群层面的相互影响。通过分析多地区监测数据并构建时空贝叶斯分层模型与双病原体动力学模型，发现甲型流感（IAV）流行能显著降低随后新冠感染的风险。结果显示，IAV感染可使新冠感染率下降约94%，保护期约38天，揭示了病毒间的竞争性干扰机制，为多病原体共流行下的公共卫生预警提供了科学依据。
+  - Tags：`query:pathoai`
+- [Microbial taxonomic and functional responses to heavy metal gradients in mining-impacted stream sediments.](#/202603/16/202603/16/41539526-microbial-taxonomic-and-functional-responses-to-heavy-metal-gradients-in-mining-impacted-stream-sediments)
+  - TLDR：针对历史采矿导致的重金属污染对河流沉积物微生物的影响，本研究利用中国东大沟的天然污染梯度，通过扩增子测序和功能预测分析了细菌、古菌和真菌的响应。结果发现镉（Cd）是群落结构的关键预测因子，污染区富集了金属耐受和解毒相关基因，而细菌多样性随污染减轻而增加。该研究揭示了微生物作为环境健康指标及污染物转化中介的潜力。
+  - Tags：`query:seqai`
+- [Gut microbiota metabolic reprogramming drives the development of metabolic diseases in the host.](#/202603/16/202603/16/41830551-gut-microbiota-metabolic-reprogramming-drives-the-development-of-metabolic-diseases-in-the-host)
+  - TLDR：代谢性疾病的核心在于代谢重编程，但过去研究多集中于宿主。本文提出了“肠道菌群代谢重编程”概念，指出菌群在宿主发病前就已发生代谢路径的病理性重构。通过系统梳理脂质、葡萄糖、氨基酸等代谢失衡对宿主免疫和稳态的影响，本文构建了一个全新的代谢调节范式，为代谢性疾病的早期干预和靶向微生物治疗提供了理论框架。
+  - Tags：`query:pathoai`
 - [Fungi classification from metagenomic data using CNN_FunBar: A simulation study](#/202603/14/202603/14/10.21203/rs.3.rs-9058008/v1-fungi-classification-from-metagenomic-data-using-cnnfunbar-a-simulation-study)
   - TLDR：针对宏基因组数据中真菌分类难的问题，本研究利用CNN_FunBar架构，基于ITS序列的六聚体特征训练了属级和种级分类模型。通过模拟包含130个微生物基因组的农田土壤数据集进行验证，该模型在种级和属级分类上分别达到了91.93%和95.16%的准确率，为复杂环境样本中的真菌精准鉴定提供了高效的深度学习工具。
   - Tags：`query:pathoai`
