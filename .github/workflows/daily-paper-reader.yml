@@ -92,7 +92,9 @@ jobs:
           env | grep -E '^(HF_|HUGGINGFACE_|TRANSFORMERS_|XDG_|HOME=|GITHUB_WORKSPACE=)' | sort || true
 
           echo "--- python/hf versions ---"
-          /opt/hostedtoolcache/Python/3.11.14/x64/bin/python - <<'PY'
+          echo "python_bin=$(command -v python)"
+          python -V
+          python - <<'PY'
           import os
           def v(mod):
             try:
@@ -142,7 +144,7 @@ jobs:
           if [ -n "$FETCH_MODE" ]; then
             ARGS="$ARGS --fetch-mode $FETCH_MODE"
           fi
-          /opt/hostedtoolcache/Python/3.11.14/x64/bin/python src/main.py $ARGS --embedding-device cpu --embedding-batch-size 8
+          python src/main.py $ARGS --embedding-device cpu --embedding-batch-size 8
 
           # 让前端可以在不配置 GitHub Token 的情况下直接读取配置（只读快照）
           cp -f config.yaml docs/config.yaml
