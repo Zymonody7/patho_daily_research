@@ -1,0 +1,308 @@
+Title: Bayesian Inference for Missing Physics
+
+URL Source: https://arxiv.org/pdf/2603.14918v1
+
+Published Time: Tue, 17 Mar 2026 05:39:38 GMT
+
+Number of Pages: 7
+
+Markdown Content:
+# Bayesian Inference for Missing Physics 
+
+Arno Strouwen ∗,∗∗ ∗ Strouwen Statistics (e-mail: contact@arnostrouwen.com)  
+
+> ∗∗
+
+Biosystems Department, KULeuven, Leuven, Belgium 
+
+Abstract: Model-based approaches for (bio)process systems often suffer from incomplete knowl-edge of the underlying physical, chemical, or biological laws. Universal differential equations, which embed neural networks within differential equations, have emerged as powerful tools to learn this missing physics from experimental data. However, neural networks are inherently opaque, motivating their post-processing via symbolic regression to obtain interpretable mathe-matical expressions. Genetic algorithm-based symbolic regression is a popular approach for this post-processing step, but provides only point estimates and cannot quantify the confidence we should place in a discovered equation. We address this limitation by applying Bayesian symbolic regression, which uses Reversible Jump Markov Chain Monte Carlo to sample from the posterior distribution over symbolic expression trees. This approach naturally quantifies uncertainty in the recovered model structure. We demonstrate the methodology on a Lotka-Volterra predator-prey system and then show how a well-designed experiment leads to lower uncertainty in a fed-batch bioreactor case study. 
+
+Keywords: Bayesian inference, missing physics, symbolic regression, universal differential equations, model selection, neural network, Reversible Jump Markov Chain Monte Carlo 
+
+Note: This is an early draft. Submitted to IFAC World Congress 2026. Results are preliminary and subject to change. 
+
+1. INTRODUCTION Model-based approaches are fundamental to the analysis, control, and optimization of (bio)process systems. These models encode knowledge of physical, chemical, and bi-ological laws, such as conservation laws, transport phe-nomena, and reaction kinetics. Such knowledge is typically expressed as a system of nonlinear differential equations. In practice, however, our knowledge of the governing laws is often incomplete. These knowledge gaps are termed missing physics and must be inferred from experimental data (Harlim et al., 2021). Universal Differential Equations (UDEs) have recently emerged as a powerful framework for learning missing model structure (Rackauckas et al., 2020). UDEs embed neural networks within differential equation systems to represent terms whose underlying form is unknown (Dan-dekar et al., 2020). The opaque nature of neural networks is often undesir-able in scientific computing, where interpretability and physical insight are valued. Consequently, UDE-based approaches are frequently combined with interpretable machine learning techniques, such as sparse regression (Kaiser et al., 2018) or symbolic regression (Koza, 1994). These techniques distill the neural network into human-understandable mathematical expressions. Symbolic regression searches the space of mathematical expressions to find models that balance accuracy and sim-plicity. Mathematical expressions are typically represented as tree data structures, where branch nodes correspond to operators and leaf nodes to variables or constants. UDE-based methods are rapidly gaining traction across scientific domains, including physics (Keith et al., 2021), chemistry (Santana and Costa, 2023), and biology (Philipps et al., 2024; Rojas-Campos et al., 2023). When symbolic regression is employed in these applica-tions, genetic algorithms are the dominant approach for exploring the space of candidate expression trees (Cran-mer, 2023a). While genetic algorithms often yield good point estimates for the missing physics, they provide no principled way to quantify uncertainty in the discovered model structure. Recently, symbolic regression has been formulated within a Bayesian framework by Jin et al. (2019). This approach replaces genetic algorithms with Reversible Jump Markov Chain Monte Carlo (RJMCMC) to explore the space of possible model structures. RJMCMC extends standard MCMC by allowing moves between parameter spaces of different dimensions. This capability is essential for sym-bolic regression because different expression trees contain different numbers of constant parameters. The likelihood of a candidate tree is evaluated by compar-ing its predictions to the outputs of the trained neural network, while a prior distribution over trees penalizes depth to encourage parsimonious expressions. The RJM-CMC sampler uses the likelihood and the prior to gen-erate samples from the posterior distribution over sym-bolic trees, naturally quantifying structural uncertainty. In this paper, we apply Bayesian symbolic regression to the missing physics problem for the first time, enabling 
+
+> arXiv:2603.14918v1 [stat.ML] 16 Mar 2026
+
+principled uncertainty quantification over recovered model structures. We use the Lotka-Volterra predator-prey model to il-lustrate the concept of recovering missing physics with Bayesian symbolic regression. A fed-batch bioreactor case study is used to show how a well-designed experiment leads to lower uncertainty on the recovered missing physics. 2. MOTIVATING EXAMPLE: LOTKA-VOLTERRA We illustrate the missing physics problem using the Lotka-Volterra predator-prey model, a classical system in math-ematical ecology, and a popular tool to illustrate scientific machine learning concepts (Rackauckas et al., 2020). The model describes the dynamics of two interacting popula-tions: prey x1 and predators x2. The full system is given by: 
+
+dx 1
+
+dt = 1 .3x1 − 0.9x1x2,dx 2
+
+dt = −1.8x2 + 0 .8x1x2.
+
+(1) Suppose we know the linear dynamics but lack knowledge of the interaction terms. The incomplete model takes the form: 
+
+dx 1
+
+dt = 1 .3x1 + ϕ1(x1, x 2),dx 2
+
+dt = −1.8x2 + ϕ2(x1, x 2),
+
+(2) where ϕ1(x1, x 2) and ϕ2(x1, x 2) represent the unknown interaction terms that must be inferred from data. Figure 1 shows the state trajectories of the Lotka-Volterra system, and noisy measurements thereof, and illustrates how a neural network and Bayesian symbolic regression can be used to fill in the missing physics terms. In particular, 10 plausible symbolic equations have been generated. These equations are shown in Table 1. Table 1. Posterior samples from Bayesian sym-bolic regression for the Lotka-Volterra missing physics. Here lt( x, a, b ) = ax + b.                                 
+
+> Term Expression Chains
+> ϕ1−(x1x2)4(true: −0.9x1x2)−(x1)x22inv(inv( −(x1))) x21lt( x1,−1.16 ,0.65) + lt( x2,−1.25 ,0.85) 1
+> x2· − (x1)1inv(inv( −(lt( x1x2,0.89 ,0.20)))) 1
+> ϕ2x1x26(true: 0 .8x1x2)lt( x2,0.91 ,−0.13) x11(x2x1) + inv( −(x1)) 1lt(lt(( x2x1)x2,1.31 ,−0.24) ,0.28 ,0.87) 1lt( x1x2,0.79 ,0.26) 1
+
+The interaction term between predator and prey occurs often in these equations. The same equation can be found in many different forms, e.g., due to a double inversion. In some equations, the coefficients 0 .9 and 0 .8 are also approximately recovered, while most often a slightly too parsimonious equation involving no constants is found. In the following sections, we present the methodology used to recover these terms. We use the Lotka-Volterra predator-prey model to il-lustrate the concept of recovering missing physics with Bayesian symbolic regression. A fed-batch bioreactor case study is used to show how a well-designed experiment leads to lower uncertainty on the recovered missing physics. 2. MOTIVATING EXAMPLE: LOTKA-VOLTERRA We illustrate the missing physics problem using the Lotka-Volterra predator-prey model, a classical system in math-ematical ecology, and a popular tool to illustrate scientific machine learning concepts (Rackauckas et al., 2020). The model describes the dynamics of two interacting popula-tions: prey x1 and predators x2. The full system is given by: 
+
+dx 1
+
+dt = 1 .3x1 − 0.9x1x2,dx 2
+
+dt = −1.8x2 + 0 .8x1x2.
+
+(1) Suppose we know the linear dynamics but lack knowledge of the interaction terms. The incomplete model takes the form: dx 1
+
+dt = 1 .3x1 + ϕ1(x1, x 2),dx 2
+
+dt = −1.8x2 + ϕ2(x1, x 2),
+
+(2) where ϕ1(x1, x 2) and ϕ2(x1, x 2) represent the unknown interaction terms that must be inferred from data. Figure 1 shows the state trajectories of the Lotka-Volterra system, and noisy measurements thereof, and illustrates how a neural network and Bayesian symbolic regression can be used to fill in the missing physics terms. In particular, 10 plausible symbolic equations have been generated. These equations are shown in Table 1. Table 1. Posterior samples from Bayesian sym-bolic regression for the Lotka-Volterra missing physics. Here lt( x, a, b ) = ax + b.                                 
+
+> Term Expression Chains
+> ϕ1−(x1x2)4(true: −0.9x1x2)−(x1)x22inv(inv( −(x1))) x21lt( x1,−1.16 ,0.65) + lt( x2,−1.25 ,0.85) 1
+> x2· − (x1)1inv(inv( −(lt( x1x2,0.89 ,0.20)))) 1
+> ϕ2x1x26(true: 0 .8x1x2)lt( x2,0.91 ,−0.13) x11(x2x1) + inv( −(x1)) 1lt(lt(( x2x1)x2,1.31 ,−0.24) ,0.28 ,0.87) 1lt( x1x2,0.79 ,0.26) 1
+
+The interaction term between predator and prey occurs often in these equations. The same equation can be found in many different forms, e.g., due to a double inversion. In some equations, the coefficients 0 .9 and 0 .8 are also approximately recovered, while most often a slightly too parsimonious equation involving no constants is found. In the following sections, we present the methodology used to recover these terms. 3. UNIVERSAL DIFFERENTIAL EQUATIONS We consider dynamical systems of the following form: 
+
+Fig. 1. Lotka-Volterra system. Solid lines: true state values. Thick dots: noisy measurements of states. Dashed lines: predicted states after replacing missing physics with a neural network. Dotted lines: predicted states after replacing missing physics with 10 draws from Bayesian symbolic regression. d x
+
+d t = f (t, x, ϕ(g(x))) , with x(t = 0) = x0;
+
+yk = h(x(tk)) + ϵk,
+
+(3) where t denotes time and x(t) is the state vector. The states evolve according to the ordinary differential equa-tion system f with initial conditions x0. Measurements 
+
+yk are collected at discrete time points tk and are related to the states through the observation function h. This measurement function is useful, for example, when only a subset of states is observed. The measurements are corrupted by independent Gaussian noise ϵk, with each ϵk
+
+identically and independently distributed as multivariate normal with zero mean and covariance matrix R.The system f depends on the unknown function ϕ, which represents the missing physics. The input to ϕ is the output of a known preprocessing function g(x). This function g is useful when the missing physics depends only on a subset of the states or on known transformations thereof. We refer to g(x) as the features. In the UDE framework, the unknown function ϕ is re-placed by a neural network: d x
+
+d t = f (t, x, NN( g(x), θ)) . (4) The neural network NN( g(x), θ) takes the features g(x)as input and depends on parameters θ that must be learned from experimental data. Training of θ proceeds by minimizing the mean squared error of the observations. 4. BAYESIAN SYMBOLIC REGRESSION We want to find mathematical expressions that match the output of the neural network and quantify how certain we are a specific expression is correct. To formalize this inference problem, we represent mathe-matical expressions as tree data structures, as illustrated in Figure 2. The (non-terminal) branch nodes of the tree contain mathematical operators, while the (terminal) leaf nodes contain either features or constants. Each branch CONFIDENTIAL. Limited circulation. For review only. 
+
+Manuscript 3731 submitted to IFAC World Congress 2026. Received December 5, 2025. 
+
+Fig. 1. Lotka-Volterra system. Solid lines: true state values. Thick dots: noisy measurements of states. Dashed lines: predicted states after replacing missing physics with a neural network. Dotted lines: predicted states after replacing missing physics with 10 draws from Bayesian symbolic regression. 3. UNIVERSAL DIFFERENTIAL EQUATIONS We consider dynamical systems of the following form: d x
+
+d t = f (t, x, ϕ(g(x))) , with x(t = 0) = x0;
+
+yk = h(x(tk)) + ϵk,
+
+(3) where t denotes time and x(t) is the state vector. The states evolve according to the ordinary differential equa-tion system f with initial conditions x0. Measurements 
+
+yk are collected at discrete time points tk and are related to the states through the observation function h. This measurement function is useful, for example, when only a subset of states is observed. The measurements are corrupted by independent Gaussian noise ϵk, with each ϵk
+
+identically and independently distributed as multivariate normal with zero mean and covariance matrix R.The system f depends on the unknown function ϕ, which represents the missing physics. The input to ϕ is the output of a known preprocessing function g(x). This function g is useful when the missing physics depends only on a subset of the states or on known transformations thereof. We refer to g(x) as the features. In the UDE framework, the unknown function ϕ is re-placed by a neural network: d x
+
+d t = f (t, x, NN( g(x), θ)) . (4) The neural network NN( g(x), θ) takes the features g(x)as input and depends on parameters θ that must be learned from experimental data. Training of θ proceeds by minimizing the mean squared error of the observations. 4. BAYESIAN SYMBOLIC REGRESSION We want to find mathematical expressions that match the output of the neural network and quantify how certain we are a specific expression is correct. To formalize this inference problem, we represent mathe-matical expressions as tree data structures, as illustrated in Figure 2. The (non-terminal) branch nodes of the tree contain mathematical operators, while the (terminal) leaf nodes contain either features or constants. Each branch node has one or two children, depending on its arity, i.e., whether it is a unary or binary mathematical operator. All leaf nodes contain features except a special linear transfor-mation operator lt( x, a, b ) = ax + b, here the second and third children, a and b are constants, and the first child x
+
+is either an operator or a feature. This lt operator is the only way for constants, such as 0.9 and 0.8 in the Lotka-Volterra example, to enter the mathematical expression. +lt 
+
+x1 2 1sin 
+
+x2
+
+Fig. 2. Expression tree representing (2 x1 +1)+sin( x2). Cir-cular nodes contain operators (+, lt, sin). Rectangular nodes are terminals: rounded rectangles denote fea-tures ( x1, x2), and plain rectangles denote constants. The lt node implements the linear transformation lt( x1, 2, 1) = 2 x1 + 1. To perform Bayesian inference, we must specify a prior distribution over trees and a likelihood function. 
+
+4.1 Prior 
+
+The prior over trees is constructed from several component distributions. The terminal prior specifies the probability that a node at a given depth is a branch node. This prob-ability decreases with depth to discourage overly complex trees. The feature prior assigns probabilities to different features at leaf nodes. The operator prior assigns prob-abilities to different operators at branch nodes. Finally, 
+
+priors for a and b specify distributions over the constants in lt nodes. Using these distributions, the prior over trees is defined recursively. Starting at the root (depth zero), the terminal prior determines whether the node is a leaf or branch node. If the node is a leaf, a feature is sampled from the feature prior. If the node is a branch, an operator is sampled from the operator prior. If this operator is lt, then constants a
+
+and b are also sampled from their respective priors. Child nodes for this operator are then generated recursively with incremented depth. Sampling a tree from the prior thus involves both discrete choices (whether nodes are leaves or branches, selection of features and operators) and continuous choices (the constants a and b in lt nodes). We denote the collection of discrete choices by T and the continuous choices by A and 
+
+B, which contain the a and b constants when traversing the tree in depth-first order. Note that the dimensions of A
+
+and B vary across trees, as different trees contain different numbers of lt nodes. The tree will not fit the neural network output exactly. We assume the discrepancy follows an additive i.i.d. normal distribution with variance σ2. A variance prior on σ
+
+completes the Bayesian specification. We use the notation p(T, A, B, σ ) to denote the prior density for a given tree. 
+
+4.2 Likelihood 
+
+Let T (g(xk), A, B ) denote the output of a tree evaluated at the features g(xk) with constants A and B. Since each tree produces a scalar output, a neural network with m
+
+outputs requires m separate trees T1, . . . , T m, each with its own structure and constants ( Tj , A j , B j ). We denote the j-th output of the neural network as NN j (g(xk), θ); each tree Tj should approximate the corresponding output. Since the trees for different neural network outputs are independent, we run a separate Markov chain for each output j. Because the inference for each tree is handled separately, in the following, we drop the subscript j for clarity. The log-likelihood at measurement k is: log p(NN( g(xk), θ)|T, A, B, σ ) = 
+
+− 12 log(2 πσ 2) − (T (g(xk), A, B ) − NN( g(xk), θ)) 2
+
+2σ2 .
+
+(5) Assuming independence across time points, the total log-likelihood is the sum over all k. For notational simplicity, we write this as p(NN |T, A, B, σ ), with analogous notation for the posterior. 
+
+4.3 Markov chain 
+
+We use hybrid Gibbs sampling of Tierney (1994) with two transition kernels. The first kernel updates only the continuous parameters σ, A, and B, holding the tree structure T fixed. Since these parameters are continuous, we can use efficient gradient-based samplers such as NUTS (Hoffman et al., 2014). The second kernel updates the discrete tree structure T
+
+using Reversible Jump Markov Chain Monte Carlo (RJM-CMC) by Green (1995). A high-level explanation of this algorithm is that it proposes random modifications to the tree structure. Modifications that increase the posterior probability are more likely to be accepted than modi-fications that decrease posterior probability. The exact acceptance rate of modifications is calibrated such that the detailed balance is maintained. This ensures the sta-tionary distribution of the Markov chain is the posterior distribution. Changing the tree structure cannot be done independently of the continuous parameters, since lt nodes may appear or disappear. This change in dimensionality of A and B
+
+requires careful treatment in RJMCMC. Let K(σ, T ∗, A ∗, B ∗|σ, T, A, B ) denote the transition ker-nel, which defines a probability distribution over the next state ( σ, T ∗, A ∗, B ∗) given the current state ( σ, T, A, B ). Note that σ appears on both sides without modification, as this kernel only updates the tree structure and its constants; σ is updated separately. We only consider modifications where lt nodes are either added or deleted, but not both simultaneously. When lt nodes are added, the new constants a and b are sampled from their respective priors. We denote these newly sam-pled parameters as uA and uB .To maintain the detailed balance, we require that: 
+
+p(T, A, B, σ |NN) 
+
+× K(σ, T ∗, A ∗, B ∗|σ, T, A, B )dA ∗dB ∗ =
+
+p(T ∗, A ∗, B ∗, σ |NN) 
+
+× K(σ, T, A, B |σ, T ∗, A ∗, B ∗)dAdu AdBdu B ,
+
+(6) i.e., that the flow from T, A, B to T ∗, A ∗, B ∗ matches the reverse flow. If a bijection ψ can be established between (A, u A, B, u B ) and ( A∗, B ∗), then we get: 
+
+dA ∗dB ∗ = det ∂ψ ∂A∂u A∂B∂u B
+
+dAdu AdBdu B (7) Such a bijection is straightforward to construct: A∗ is formed by inserting uA at positions corresponding to new lt nodes in depth-first order, and similarly for B∗.Since this is a permutation, the absolute value of the determinant is 1, and thus: 
+
+K(σ, T ∗, A ∗, B ∗|σ, T, A, B ) = 
+
+K(σ, T, A, B |σ, T ∗, A ∗, B ∗)
+
+× p(T ∗, A ∗, B ∗, σ |NN) 
+
+p(T, A, B, σ |NN) (8) The same argument applies when lt nodes are deleted: the removed parameters uA and uB can be extracted from A
+
+and B via the inverse permutation, and (8) still holds. We split the transition kernel into two factors. The pro-posal distribution q(T ∗, A ∗, B ∗|T, A, B ) defines the prob-ability of proposing tree ( T ∗, A ∗, B ∗) given current tree (T, A, B ). The acceptance of the proposal is determined by acceptance probability α(σ, T ∗, A ∗, B ∗|σ, T, A, B ). If the proposal is rejected, the tree remains unchanged for this iteration. By setting: log α(σ, T ∗, A ∗, B ∗|σ, T, A, B ) = min[0 , log p(T ∗, A ∗, B ∗, σ |NN) 
+
+− log p(T, A, B, σ |NN) + log q(T, A, B |T ∗, A ∗, B ∗)
+
+− log q(T ∗, A ∗, B ∗|T, A, B )] ,
+
+(9) equation (8) is always satisfied. In practice, we sample 
+
+u ∼ Uniform(0 , 1) and accept the proposal if log u <
+
+log α. Note that this derivation mirrors standard random walk Metropolis-Hastings, but with special care for the transdimensional nature of the problem: the bijection ψ
+
+accounts for parameters appearing or disappearing when lt nodes are added or removed. The proposal distribution q follows Jin et al. (2019) and consists of several move types: With probability prf , the tree reassigns a feature : a randomly selected leaf node is replaced with a feature sampled from the feature prior. The reverse move reassigns the old feature to the same node. With probability pro , the tree reassigns an operator :a randomly selected branch node is replaced with an operator of the same arity, sampled from the operator prior (conditioned on arity). If no branch node exists, the tree is unchanged. Note that lt is the only ternary operator, and thus will remain unchanged, and this proposal does not change the a and b children of the lt node. The reverse move reassigns the old operator to the same node, (or does nothing if no branch node exists). With probability pp, the tree is pruned : a randomly selected branch node and its children are replaced with a feature sampled from the feature prior. If no branch nodes exist, the tree is unchanged. The reverse of pruning is growing. With probability pg , the tree is grown : a randomly selected leaf node is replaced by a subtree sampled from the prior, conditioned on that selected node’s depth. To ensure grow is the reverse of prune, the root of the new subtree must be a branch node; if a leaf is sampled as the root, it is resampled until a branch node is obtained. With probability pi, an operator is inserted between a randomly selected node and its parent. That inserted operator is sampled from the operator prior. If the inserted operator is unary, the insertion is straightforward. If the inserted operator is binary, then another subtree has to be grown, that is randomly assigned to either the left or right child of the inserted operator. If the inserted operator is lt, then new a and b parameters have to be sampled. The reverse of inserting an operator is deleting an operator. With probability pd, a randomly selected branch node of the tree is deleted . If the selected operator node is unary, its parent and child are connected. If the selected operator node is binary, its parent and a randomly selected child are connected. If the selected operator node is lt, its parent and first child are connected, while the second and third children ( a and b) are discarded. Of course, prf + pro + pp + pg + pi + pd must equal 1. 5. COMPUTATIONAL DETAILS The training of the universal differential equations follows Strouwen and Miclut ¸a-Cˆ ampeanu (2025). The symbolic trees for Bayesian symbolic regression are implemented us-ing DynamicExpressions.jl. This package forms the back-bone of representing trees in the genetic algorithm based SymbolicRegression.jl (Cranmer, 2023b) and is repurposed here for Bayesian inference. The negation, inverse, and exponential functions are used as unary operators. Addition, multiplication, and division are used as binary operators. Uniform distributions are used for the operator and feature priors. Normal distri-butions, with variance 1 and means 1 and 0 are used for the priors of a and b parameters respectively. A Bernoulli distribution is used as the terminal prior, where the prob-ability of being a branch node at depth d equals 0 .9(1 + 
+
+d)−0.7, with the root node having depth zero. The noise prior is an Inverse-Gamma distribution with shape and scale parameters both equal to 1. To draw from the posterior we run 100 separate Reversible Jump Markov Chains, each for 100,000 iterations, and keep the final one. The NUTS kernel for continuous parameters is only run after every 1,000 modifications to the tree for 10 steps. After the final iteration of RJMCMC, NUTS is run for an additional 100 steps. The source code accompanying this paper can be found at 
+
+https://github.com/arno-papers/IFACWC2026 .This repository also contains additional examples, such as missing physics of a SIR model for COVID-19 modeling. 6. BIOREACTOR CASE STUDY We illustrate how to use Bayesian symbolic regression to quantify model structure uncertainty using a well-mixed fed-batch bioreactor. This reactor has a long history in the experimental design literature (Versyck et al., 1997). The reactor is represented by three states: the substrate concentration, Cs, the biomass concentration, Cx, and the volume of the reactor, V . The evolution of these states is governed by the system of differential equations: 
+
+dC s
+
+dt = −
+
+ μ(Cs)0.777 
+
+
+
+Cx + Qin (t)
+
+V (50 − Cs),dC x
+
+dt = μ(Cs)Cx − Qin (t)
+
+V Cx,dV dt = Qin (t).
+
+(10) In these equations, the specific growth rate, μ, is the missing physics. This function has a single input, Cs.The true function that must be recovered is the Monod equation: 
+
+μ(Cs) = μmax Cs
+
+Ks + Cs
+
+. (11) The differential equations are also dependent on a control-lable input Qin (t). Recently, Strouwen and Miclut ¸a-Cˆ ampeanu (2025) con-structed an optimal experimental design, in which Qin (t)was optimized to recover μ as efficiently as possible, from noisy Cs measurements. The optimal experiment can re-cover the Monod equation via genetic algorithm based symbolic regression, while for the random experiment, where the control takes on random values, the correct equation is not recovered. Figure 3 depicts the system both for optimal and random controls. We now apply The source code accompanying this paper can be found at 
+
+https://github.com/arno-papers/IFACWC2026 .This repository also contains additional examples, such as missing physics of a SIR model for COVID-19 modeling. 6. BIOREACTOR CASE STUDY We illustrate how to use Bayesian symbolic regression to quantify model structure uncertainty using a well-mixed fed-batch bioreactor. This reactor has a long history in the experimental design literature (Versyck et al., 1997). The reactor is represented by three states: the substrate concentration, Cs, the biomass concentration, Cx, and the volume of the reactor, V . The evolution of these states is governed by the system of differential equations: 
+
+dC s
+
+dt = −
+
+ μ(Cs)0.777 
+
+
+
+Cx + Qin (t)
+
+V (50 − Cs),dC x
+
+dt = μ(Cs)Cx − Qin (t)
+
+V Cx,dV dt = Qin (t).
+
+(10) In these equations, the specific growth rate, μ, is the missing physics. This function has a single input, Cs.The true function that must be recovered is the Monod equation: 
+
+μ(Cs) = μmax Cs
+
+Ks + Cs
+
+. (11) The differential equations are also dependent on a control-lable input Qin (t). Recently, Strouwen and Miclut ¸a-Cˆ ampeanu (2025) con-structed an optimal experimental design, in which Qin (t)was optimized to recover μ as efficiently as possible, from noisy Cs measurements. The optimal experiment can re-cover the Monod equation via genetic algorithm based symbolic regression, while for the random experiment, where the control takes on random values, the correct equation is not recovered. Figure 3 depicts the system both for optimal and random controls. We now apply 
+
+Fig. 3. Bioreactor system. States and measurements. Bayesian symbolic regression to this data. Table 2 shows the top 10 equations discovered by our Bayesian symbolic regression approach, sorted by likelihood. For the optimal experiment, the equations are almost all rational functions, similar to the Monod equation, as can be seen in Figure 4a. However, for the random experiment, a wide range of unfamiliar functions are found. This corresponds to very poorly fitting curves in Figure 4b. The optimal experiment thus has greatly reduced the uncertainty about the model structure, while we did not learn much from the random experiment. Table 2. Top 10 discovered equations for the bioreactor. A carefully constructed experiment compared to an experiment with a random input signal. The optimal experiment finds many rational functions, similar to the Monod equation.                                                                                                                                  
+
+> Optimal experimental design
+> Cs/lt( Cs+ ((lt( Cs/(Cs·(Cs·Cs)) ,0.40 ,2.51) + Cs) + Cs),0.87 ,2.59) (Cs·Cs)/(Cs·((( Cs·(Cs+Cs)) /C s) + exp(exp( Cs/C s))))
+> Cs/(lt( −(( Cs/(Cs/C s)) /C s+ ( Cs+Cs)) ,−1.38 ,0.37)+ ((((lt( Cs,−0.45 ,2.87) ·exp(lt(exp( Cs/C s),1.80 ,−1.06))) /
+> (Cs+Cs)) /(Cs+Cs)) + lt( Cs·(Cs/C s),0.12 ,0.54)))
+> Cs/(( Cs+ exp(( Cs+ ( Cs+Cs)) /C s)) + Cs)
+> Cs/(( Cs+Cs) + exp(exp( Cs/C s)))
+> Cs/(( Cs+Cs) + exp(exp(( Cs+Cs)/lt(lt( −lt( Cs,−0.95 ,−0.92) ,1.43 ,0.24) ,1.21 ,2.47))))
+> Cs/(lt( Cs,2.35 ,3.73) + exp(exp( Cs/C s))) exp( −exp(( Cs+Cs)/(( Cs·Cs) + Cs))) (Cs/(( Cs+ lt( Cs+ lt(lt( Cs,2.27 ,0.42) /C s,3.88 ,1.02) ,1.13 ,3.34)) ·exp( Cs))) ·(exp( Cs) + Cs)(( Cs/C s) + ( Cs+ ( −exp( Cs)))) /(( −exp( Cs/C s)) ·((exp( Cs) + Cs) + (( −Cs)/C s))) Random experimental design (Cs/lt( Cs,−0.31 ,−1.33)) ·(( Cs/lt( Cs,1.97 ,1.15)) / . . .
+> (lt( Cs,3.10 ,−3.44) /(Cs+Cs·lt( Cs,−2.46 ,−2.62)))) / . . .
+> (( Cs+Cs) + (lt( Cs/C s,3.24 ,3.37) + Cs))
+> Cs/(exp(( Cs+Cs/C s)/C s)·Cs)
+> Cs/(−(−(Cs+Cs) + Cs)) exp( −Cs/C s)
+> −(−Cs/(( Cs+Cs) + Cs)) exp( −Cs/C s)exp( −Cs/C s)exp((( Cs+Cs)/C s)/(Cs+Cs)·(−Cs)) exp( −(Cs+ ((exp( −Cs) + Cs+ ( Cs/C s)/C s)/C s)) /C s)
+> Cs/(Cs+Cs+Cs)
+
+7. DISCUSSION At the start of this research project, we aimed to eliminate the neural network as an intermediate step and directly compute the likelihood of the trees based on the measured observations using (3), rather than the neural network output as in (5). However, this proved computationally infeasible: evaluating symbolic trees within a differential equation solver introduces significant overhead that Dy-namicExpressions.jl is currently not optimized for. An-other issue is that RJMCMC suffers from the curse of di-mensionality, similar to random walk Metropolis-Hastings. We hope that advances in MCMC methods for discrete parameters may make this direct approach feasible in the future (Gagnon and Doucet, 2020; Power and Goldman, 2019). Removing the neural network intermediate would bring additional benefits. Currently, the trees are trained sepa-rately for each neural network output, with no joint uncer-tainty quantification. Models also often contain unknown parameters that must be calibrated alongside the missing physics. A likelihood based directly on (3) would enable joint uncertainty quantification over both the uncertain model structure and these parameters, yielding a fully Bayesian treatment. This would also open the door to Bayesian experimental design for missing physics problems, an area that remains understudied. Classical T-optimal designs target model discrimination, and have been extended to missing physics problems (Strouwen and Miclut ¸a-Cˆ ampeanu, 2025). How-ever, T-optimal designs are difficult to combine with de-CONFIDENTIAL. Limited circulation. For review only. 
+
+Manuscript 3731 submitted to IFAC World Congress 2026. 
+
+Fig. 3. Bioreactor system. States and measurements. Bayesian symbolic regression to this data. Table 2 shows the top 10 equations discovered by our Bayesian symbolic regression approach, sorted by likelihood. For the optimal experiment, the equations are almost all rational functions, similar to the Monod equation, as can be seen in Figure 4a. However, for the random experiment, a wide range of unfamiliar functions are found. This corresponds to very poorly fitting curves in Figure 4b. The optimal experiment thus has greatly reduced the uncertainty about the model structure, while we did not learn much from the random experiment. Table 2. Top 10 discovered equations for the bioreactor. A carefully constructed experiment compared to an experiment with a random input signal. The optimal experiment finds many rational functions, similar to the Monod equation.                                                                                                                                  
+
+> Optimal experimental design
+> Cs/lt( Cs+ ((lt( Cs/(Cs·(Cs·Cs)) ,0.40 ,2.51) + Cs) + Cs),0.87 ,2.59) (Cs·Cs)/(Cs·((( Cs·(Cs+Cs)) /C s) + exp(exp( Cs/C s))))
+> Cs/(lt( −(( Cs/(Cs/C s)) /C s+ ( Cs+Cs)) ,−1.38 ,0.37)+ ((((lt( Cs,−0.45 ,2.87) ·exp(lt(exp( Cs/C s),1.80 ,−1.06))) /
+> (Cs+Cs)) /(Cs+Cs)) + lt( Cs·(Cs/C s),0.12 ,0.54)))
+> Cs/(( Cs+ exp(( Cs+ ( Cs+Cs)) /C s)) + Cs)
+> Cs/(( Cs+Cs) + exp(exp( Cs/C s)))
+> Cs/(( Cs+Cs) + exp(exp(( Cs+Cs)/lt(lt( −lt( Cs,−0.95 ,−0.92) ,1.43 ,0.24) ,1.21 ,2.47))))
+> Cs/(lt( Cs,2.35 ,3.73) + exp(exp( Cs/C s))) exp( −exp(( Cs+Cs)/(( Cs·Cs) + Cs))) (Cs/(( Cs+ lt( Cs+ lt(lt( Cs,2.27 ,0.42) /C s,3.88 ,1.02) ,1.13 ,3.34)) ·exp( Cs))) ·(exp( Cs) + Cs)(( Cs/C s) + ( Cs+ ( −exp( Cs)))) /(( −exp( Cs/C s)) ·((exp( Cs) + Cs) + (( −Cs)/C s))) Random experimental design (Cs/lt( Cs,−0.31 ,−1.33)) ·(( Cs/lt( Cs,1.97 ,1.15)) / . . .
+> (lt( Cs,3.10 ,−3.44) /(Cs+Cs·lt( Cs,−2.46 ,−2.62)))) / . . .
+> (( Cs+Cs) + (lt( Cs/C s,3.24 ,3.37) + Cs))
+> Cs/(exp(( Cs+Cs/C s)/C s)·Cs)
+> Cs/(−(−(Cs+Cs) + Cs)) exp( −Cs/C s)
+> −(−Cs/(( Cs+Cs) + Cs)) exp( −Cs/C s)exp( −Cs/C s)exp((( Cs+Cs)/C s)/(Cs+Cs)·(−Cs)) exp( −(Cs+ ((exp( −Cs) + Cs+ ( Cs/C s)/C s)/C s)) /C s)
+> Cs/(Cs+Cs+Cs)
+
+7. DISCUSSION At the start of this research project, we aimed to eliminate the neural network as an intermediate step and directly compute the likelihood of the trees based on the measured observations using (3), rather than the neural network output as in (5). However, this proved computationally infeasible: evaluating symbolic trees within a differential equation solver introduces significant overhead that Dy-namicExpressions.jl is currently not optimized for. An-other issue is that RJMCMC suffers from the curse of di-mensionality, similar to random walk Metropolis-Hastings. We hope that advances in MCMC methods for discrete parameters may make this direct approach feasible in the future (Gagnon and Doucet, 2020; Power and Goldman, 2019). Removing the neural network intermediate would bring additional benefits. Currently, the trees are trained sepa-rately for each neural network output, with no joint uncer-tainty quantification. Models also often contain unknown parameters that must be calibrated alongside the missing physics. A likelihood based directly on (3) would enable joint uncertainty quantification over both the uncertain model structure and these parameters, yielding a fully Bayesian treatment. This would also open the door to Bayesian experimental design for missing physics problems, an area that remains understudied. Classical T-optimal designs target model (a) Optimal experimental design: the equations lay in a tight region around the true missing physics, and all follow the typical Monod structure of first increasing linearly before flattening out. 
+
+> (b) Random experimental design: the equations lay in a wide region around the true missing physics. None of the equations exhibit the typical Monod structure, and they are very dissimilar from one another.
+
+Fig. 4. Fed-batch bioreactor system. Blue solid line: miss-ing physics, the Monod equation. Thick orange dots: predictions of the missing physics by the neural net-work. Green dashed lines: predicted missing physics by the top 10 trees generated by Bayesian symbolic regression. signing for parameter precision. The Bayesian framework naturally unifies these objectives (Chaloner and Verdinelli, 1995). In summary, we have presented a Bayesian approach to symbolic regression for missing physics that provides prin-cipled uncertainty quantification over discovered model structures. While the current two-stage approach, first training a neural network, then fitting symbolic expres-sions, is computationally practical, future work will focus on eliminating this intermediate step to enable fully inte-grated Bayesian inference and experimental design. REFERENCES Chaloner, K. and Verdinelli, I. (1995). Bayesian experi-mental design: A review. Statistical science , 273–304. Cranmer, M. (2023a). Interpretable machine learning for science with pysr and symbolicregression. jl. arXiv preprint arXiv:2305.01582 .Cranmer, M. (2023b). Interpretable Machine Learning for Science with PySR and SymbolicRegression.jl. doi: 10.48550/arXiv.2305.01582. Dandekar, R., Chung, K., Dixit, V., Tarek, M., Garcia-Valadez, A., Vemula, K.V., and Rackauckas, C. (2020). Bayesian neural ordinary differential equations. arXiv preprint arXiv:2012.07244 .Gagnon, P. and Doucet, A. (2020). Nonreversible jump algorithms for bayesian nested model selection. Journal of Computational and Graphical Statistics , 30(2), 312– 323. Green, P.J. (1995). Reversible jump markov chain monte carlo computation and bayesian model determination. 
+
+Biometrika , 82(4), 711–732. Harlim, J., Jiang, S.W., Liang, S., and Yang, H. (2021). Machine learning for prediction with missing dynamics. 
+
+Journal of Computational Physics , 428, 109922. Hoffman, M.D., Gelman, A., et al. (2014). The no-u-turn sampler: adaptively setting path lengths in hamiltonian monte carlo. J. Mach. Learn. Res. , 15(1), 1593–1623. Jin, Y., Fu, W., Kang, J., Guo, J., and Guo, J. (2019). Bayesian symbolic regression. arXiv preprint arXiv:1910.08892 .Kaiser, E., Kutz, J.N., and Brunton, S.L. (2018). Sparse identification of nonlinear dynamics for model predictive control in the low-data limit. Proceedings of the Royal Society A , 474(2219), 20180335. Keith, B., Khadse, A., and Field, S.E. (2021). Learning orbital dynamics of binary black hole systems from grav-itational wave measurements. Physical Review Research ,3(4), 043101. doi:10.1103/PhysRevResearch.3.043101. Koza, J.R. (1994). Genetic programming as a means for programming computers by natural selection. Statistics and computing , 4, 87–112. Philipps, M., K¨ orner, A., Vanhoefer, J., Pathirana, D., and Hasenauer, J. (2024). Non-Negative Universal Differential Equations With Applications in Systems Biology. doi:10.48550/ARXIV.2406.14246. Power, S. and Goldman, J.V. (2019). Accelerated sampling on discrete spaces with non-reversible markov processes. 
+
+arXiv preprint arXiv:1912.04681 .Rackauckas, C., Ma, Y., Martensen, J., Warner, C., Zubov, K., Supekar, R., Skinner, D., Ramadhan, A., and Edelman, A. (2020). Universal differential equa-tions for scientific machine learning. arXiv preprint arXiv:2001.04385 .Rojas-Campos, A., Stelz, L., and Nieters, P. (2023). Learn-ing COVID-19 Regional Transmission Using Universal Differential Equations in a SIR model. doi:10.48550/ ARXIV.2310.16804. Santana, V.V. and Costa, E. (2023). Efficient hybrid modeling and sorption kinetic model discovery for non-linear advection-diffusion-sorption systems: A system-atic scientific machine learning approach. Strouwen, A. and Miclut ¸a-Cˆ ampeanu, S. (2025). Experi-mental design for missing physics. IFAC-PapersOnLine ,59(6), 481–486. Tierney, L. (1994). Markov chains for exploring posterior distributions. the Annals of Statistics , 1701–1728. CONFIDENTIAL. Limited circulation. For review only. 
+
+Manuscript 3731 submitted to IFAC World Congress 2026. Received December 5, 2025. (a) Optimal experimental design: the equations lay in a tight region around the true missing physics, and all follow the typical Monod structure of first increasing linearly before flattening out. (a) Optimal experimental design: the equations lay in a tight region around the true missing physics, and all follow the typical Monod structure of first increasing linearly before flattening out. 
+
+> (b) Random experimental design: the equations lay in a wide region around the true missing physics. None of the equations exhibit the typical Monod structure, and they are very dissimilar from one another.
+
+Fig. 4. Fed-batch bioreactor system. Blue solid line: miss-ing physics, the Monod equation. Thick orange dots: predictions of the missing physics by the neural net-work. Green dashed lines: predicted missing physics by the top 10 trees generated by Bayesian symbolic regression. signing for parameter precision. The Bayesian framework naturally unifies these objectives (Chaloner and Verdinelli, 1995). In summary, we have presented a Bayesian approach to symbolic regression for missing physics that provides prin-cipled uncertainty quantification over discovered model structures. While the current two-stage approach, first training a neural network, then fitting symbolic expres-sions, is computationally practical, future work will focus on eliminating this intermediate step to enable fully inte-grated Bayesian inference and experimental design. REFERENCES Chaloner, K. and Verdinelli, I. (1995). Bayesian experi-mental design: A review. Statistical science , 273–304. Cranmer, M. (2023a). Interpretable machine learning for science with pysr and symbolicregression. jl. arXiv preprint arXiv:2305.01582 .Cranmer, M. (2023b). Interpretable Machine Learning for Science with PySR and SymbolicRegression.jl. doi: 10.48550/arXiv.2305.01582. Dandekar, R., Chung, K., Dixit, V., Tarek, M., Garcia-Valadez, A., Vemula, K.V., and Rackauckas, C. (2020). Bayesian neural ordinary differential equations. arXiv preprint arXiv:2012.07244 .Gagnon, P. and Doucet, A. (2020). Nonreversible jump algorithms for bayesian nested model selection. Journal of Computational and Graphical Statistics , 30(2), 312– 323. Green, P.J. (1995). Reversible jump markov chain monte carlo computation and bayesian model determination. 
+
+Biometrika , 82(4), 711–732. Harlim, J., Jiang, S.W., Liang, S., and Yang, H. (2021). Machine learning for prediction with missing dynamics. 
+
+Journal of Computational Physics , 428, 109922. Hoffman, M.D., Gelman, A., et al. (2014). The no-u-turn sampler: adaptively setting path lengths in hamiltonian monte carlo. J. Mach. Learn. Res. , 15(1), 1593–1623. Jin, Y., Fu, W., Kang, J., Guo, J., and Guo, J. (2019). Bayesian symbolic regression. arXiv preprint arXiv:1910.08892 .Kaiser, E., Kutz, J.N., and Brunton, S.L. (2018). Sparse identification of nonlinear dynamics for model predictive control in the low-data limit. Proceedings of the Royal Society A , 474(2219), 20180335. Keith, B., Khadse, A., and Field, S.E. (2021). Learning orbital dynamics of binary black hole systems from grav-itational wave measurements. Physical Review Research ,3(4), 043101. doi:10.1103/PhysRevResearch.3.043101. Koza, J.R. (1994). Genetic programming as a means for programming computers by natural selection. Statistics and computing , 4, 87–112. Philipps, M., K¨ orner, A., Vanhoefer, J., Pathirana, D., and Hasenauer, J. (2024). Non-Negative Universal Differential Equations With Applications in Systems Biology. doi:10.48550/ARXIV.2406.14246. Power, S. and Goldman, J.V. (2019). Accelerated sampling on discrete spaces with non-reversible markov processes. 
+
+arXiv preprint arXiv:1912.04681 .Rackauckas, C., Ma, Y., Martensen, J., Warner, C., Zubov, K., Supekar, R., Skinner, D., Ramadhan, A., and Edelman, A. (2020). Universal differential equa-tions for scientific machine learning. arXiv preprint arXiv:2001.04385 .Rojas-Campos, A., Stelz, L., and Nieters, P. (2023). Learn-ing COVID-19 Regional Transmission Using Universal Differential Equations in a SIR model. doi:10.48550/ ARXIV.2310.16804. Santana, V.V. and Costa, E. (2023). Efficient hybrid modeling and sorption kinetic model discovery for non-linear advection-diffusion-sorption systems: A system-atic scientific machine learning approach. Strouwen, A. and Miclut ¸a-Cˆ ampeanu, S. (2025). Experi-mental design for missing physics. IFAC-PapersOnLine ,59(6), 481–486. Tierney, L. (1994). Markov chains for exploring posterior distributions. the Annals of Statistics , 1701–1728. CONFIDENTIAL. Limited circulation. For review only. 
+
+Manuscript 3731 submitted to IFAC World Congress 2026. Received December 5, 2025. 
+
+> (b) Random experimental design: the equations lay in a wide region around the true missing physics. None of the equations exhibit the typical Monod structure, and they are very dissimilar from one another.
+
+Fig. 4. Fed-batch bioreactor system. Blue solid line: miss-ing physics, the Monod equation. Thick orange dots: predictions of the missing physics by the neural net-work. Green dashed lines: predicted missing physics by the top 10 trees generated by Bayesian symbolic regression. discrimination, and have been extended to missing physics problems (Strouwen and Miclut ¸a-Cˆ ampeanu, 2025). How-ever, T-optimal designs are difficult to combine with de-signing for parameter precision. The Bayesian framework naturally unifies these objectives (Chaloner and Verdinelli, 1995). In summary, we have presented a Bayesian approach to symbolic regression for missing physics that provides prin-cipled uncertainty quantification over discovered model structures. While the current two-stage approach, first training a neural network, then fitting symbolic expres-sions, is computationally practical, future work will focus on eliminating this intermediate step to enable fully inte-grated Bayesian inference and experimental design. REFERENCES Chaloner, K. and Verdinelli, I. (1995). Bayesian experi-mental design: A review. Statistical science , 273–304. Cranmer, M. (2023a). Interpretable machine learning for science with pysr and symbolicregression. jl. arXiv preprint arXiv:2305.01582 .Cranmer, M. (2023b). Interpretable Machine Learning for Science with PySR and SymbolicRegression.jl. doi: 10.48550/arXiv.2305.01582. Dandekar, R., Chung, K., Dixit, V., Tarek, M., Garcia-Valadez, A., Vemula, K.V., and Rackauckas, C. (2020). Bayesian neural ordinary differential equations. arXiv preprint arXiv:2012.07244 .Gagnon, P. and Doucet, A. (2020). Nonreversible jump algorithms for bayesian nested model selection. Journal of Computational and Graphical Statistics , 30(2), 312– 323. Green, P.J. (1995). Reversible jump markov chain monte carlo computation and bayesian model determination. 
+
+Biometrika , 82(4), 711–732. Harlim, J., Jiang, S.W., Liang, S., and Yang, H. (2021). Machine learning for prediction with missing dynamics. 
+
+Journal of Computational Physics , 428, 109922. Hoffman, M.D., Gelman, A., et al. (2014). The no-u-turn sampler: adaptively setting path lengths in hamiltonian monte carlo. J. Mach. Learn. Res. , 15(1), 1593–1623. Jin, Y., Fu, W., Kang, J., Guo, J., and Guo, J. (2019). Bayesian symbolic regression. arXiv preprint arXiv:1910.08892 .Kaiser, E., Kutz, J.N., and Brunton, S.L. (2018). Sparse identification of nonlinear dynamics for model predictive control in the low-data limit. Proceedings of the Royal Society A , 474(2219), 20180335. Keith, B., Khadse, A., and Field, S.E. (2021). Learning orbital dynamics of binary black hole systems from grav-itational wave measurements. Physical Review Research ,3(4), 043101. doi:10.1103/PhysRevResearch.3.043101. Koza, J.R. (1994). Genetic programming as a means for programming computers by natural selection. Statistics and computing , 4, 87–112. Philipps, M., K¨ orner, A., Vanhoefer, J., Pathirana, D., and Hasenauer, J. (2024). Non-Negative Universal Differential Equations With Applications in Systems Biology. doi:10.48550/ARXIV.2406.14246. Power, S. and Goldman, J.V. (2019). Accelerated sampling on discrete spaces with non-reversible markov processes. 
+
+arXiv preprint arXiv:1912.04681 .Rackauckas, C., Ma, Y., Martensen, J., Warner, C., Zubov, K., Supekar, R., Skinner, D., Ramadhan, A., and Edelman, A. (2020). Universal differential equa-tions for scientific machine learning. arXiv preprint arXiv:2001.04385 .Rojas-Campos, A., Stelz, L., and Nieters, P. (2023). Learn-ing COVID-19 Regional Transmission Using Universal Differential Equations in a SIR model. doi:10.48550/ ARXIV.2310.16804. Santana, V.V. and Costa, E. (2023). Efficient hybrid modeling and sorption kinetic model discovery for non-linear advection-diffusion-sorption systems: A system-atic scientific machine learning approach. Strouwen, A. and Miclut ¸a-Cˆ ampeanu, S. (2025). Experi-mental design for missing physics. IFAC-PapersOnLine ,59(6), 481–486. Tierney, L. (1994). Markov chains for exploring posterior distributions. the Annals of Statistics , 1701–1728. Versyck, K.J., Claes, J.E., and Van Impe, J.F. (1997). Practical identification of unstructured growth kinetics by application of optimal experimental design. Biotech-nology progress , 13(5), 524–531.

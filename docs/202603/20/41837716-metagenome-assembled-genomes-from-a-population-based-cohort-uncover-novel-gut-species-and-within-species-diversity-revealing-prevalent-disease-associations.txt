@@ -1,0 +1,73 @@
+Title: Metagenome-assembled genomes from a population-based cohort uncover novel gut species and within-species diversity, revealing prevalent disease associations - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41837716/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 16:e0011426.
+
+doi: 10.1128/msystems.00114-26.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **41837716**
+*    DOI: [10.1128/msystems.00114-26](https://doi.org/10.1128/msystems.00114-26)
+
+Free article
+
+## Metagenome-assembled genomes from a population-based cohort uncover novel gut species and within-species diversity, revealing prevalent disease associations
+
+Kateryna Pantiukh et al. mSystems.2026.
+
+Free article
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+Metagenomic profiling has advanced the understanding of microbe-host interactions. However, widely used read-based approaches are limited by incomplete reference databases and the inability to resolve strain-level variation. Here, we present a scalable, genome-resolved framework that integrates population-specific metagenome-assembled genomes (MAGs) to discover novel species, within-species diversity, and disease associations. From 1,878 deeply sequenced samples in the Estonian Microbiome Cohort (EstMB-deep), we reconstructed 84,762 MAGs representing 2,257 species, including 353 (15.6%) previously uncharacterized species reaching up to 30% relative abundances in some individuals. We integrated these MAGs with the Unified Human Gastrointestinal Genome collection to create an expanded reference (GUTrep), enabling profiling of 2,509 EstMB individuals and testing associations with 33 prevalent diseases. Of the 25 diseases with significant associations, 8 involved newly identified species, underscoring the value of population-specific MAGs. To quantify within-species diversity, we developed the genome unit number (GUN), a novel MAG-based metric that informed within-species analyses. Based on normalized GUN, we prioritized _Odoribacter splanchnicus,_ a prevalent species with the lowest within-species heterogeneity, yielding sufficient power for a within-species association study. We identified two dominant genome units, GU-N1 and GU-N2, with distinct gene repertoires and divergent disease associations. Notably, GU-N1 was negatively associated with gastritis, duodenitis, and hypertensive heart disease, associations undetected at the species level. Our study expands the human gut reference landscape, demonstrates the importance of population-specific MAGs for uncovering novel microbial diversity, and reveals new disease associations at the within-species level obscured at higher taxonomic levels, highlighting the need for genome-resolved approaches in microbiome research.
+
+**Importance:** Microbiome studies increasingly recognize that species-level profiles can mask critical within-species differences relevant to health and disease. However, our work shows that within-species diversity varies drastically across gut microbes, with some species exhibiting almost as many distinct within-species clusters as recovered genomes, making association studies at the within-species level essentially intractable. To address this, we introduce the genome unit number (GUN), a scalable metric for quantifying within-species structure. Using GUN, we demonstrate that only species with limited within-species diversity, such as _Odoribacter splanchnicus_, currently allow for robust within-species association testing. These findings emphasize the need to systematically evaluate species structure across the gut microbiome and call for the development of new computational and statistical approaches to enable meaningful within-species analyses in highly diverse species.
+
+**Keywords:** genome unit number; gut microbiome; metagenome-assembled genomes; metagenome-wide association study; metagenomics; population microbiome; within-species diversity.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Taxonomic, Genomic, and Functional Variation in the Gut Microbiomes of Wild Spotted Hyenas Across 2 Decades of Study.](https://pubmed.ncbi.nlm.nih.gov/36533929/)
+
+Rojas CA, Holekamp KE, Viladomat Jasso M, Souza V, Eisen JA, Theis KR.Rojas CA, et al.mSystems. 2023 Feb 23;8(1):e0096522. doi: 10.1128/msystems.00965-22. Epub 2022 Dec 19.mSystems. 2023.PMID: 36533929 Free PMC article. 
+*   [Large-Scale Metagenome Assembly Reveals Novel Animal-Associated Microbial Genomes, Biosynthetic Gene Clusters, and Other Genetic Diversity.](https://pubmed.ncbi.nlm.nih.gov/33144315/)
+
+Youngblut ND, de la Cuesta-Zuluaga J, Reischer GH, Dauser S, Schuster N, Walzer C, Stalder G, Farnleitner AH, Ley RE.Youngblut ND, et al.mSystems. 2020 Nov 3;5(6):e01045-20. doi: 10.1128/mSystems.01045-20.mSystems. 2020.PMID: 33144315 Free PMC article. 
+*   [Human reference gut microbiome catalog including newly assembled genomes from under-represented Asian metagenomes.](https://pubmed.ncbi.nlm.nih.gov/34446072/)
+
+Kim CY, Lee M, Yang S, Kim K, Yong D, Kim HR, Lee I.Kim CY, et al.Genome Med. 2021 Aug 27;13(1):134. doi: 10.1186/s13073-021-00950-7.Genome Med. 2021.PMID: 34446072 Free PMC article. 
+*   [A human gut metagenome-assembled genome catalogue spanning 41 countries supports genome-scale metabolic models.](https://pubmed.ncbi.nlm.nih.gov/41345261/)
+
+Ma J, Kim N, Cha JH, Kim W, Kim CY, Lee YH, Kim HS, Han YD, Yong D, Han E, Yang S, Beck S, Lee I.Ma J, et al.Nat Microbiol. 2026 Jan;11(1):317-334. doi: 10.1038/s41564-025-02206-1. Epub 2025 Dec 4.Nat Microbiol. 2026.PMID: 41345261 
+*   [Metagenome-Assembled Genomes (MAGs): Advances, Challenges, and Ecological Insights.](https://pubmed.ncbi.nlm.nih.gov/40431158/)
+
+Mirete S, Sánchez-Costa M, Díaz-Rullo J, González de Figueras C, Martínez-Rodríguez P, González-Pastor JE.Mirete S, et al.Microorganisms. 2025 Apr 25;13(5):985. doi: 10.3390/microorganisms13050985.Microorganisms. 2025.PMID: 40431158 Free PMC article.Review. 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Atypon](https://journals.asm.org/doi/10.1128/msystems.00114-26?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
+
+*   ### Research Materials
+
+    *   [NCI CPTC Antibody Characterization Program](https://antibodies.cancer.gov/detail/CPTC-ERCC2-1)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/non-CPTAC-3993)

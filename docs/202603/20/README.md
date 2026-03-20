@@ -1,0 +1,62 @@
+# 日报 · 2026-03-20
+
+- 生成时间：2026-03-20 01:41:50 UTC
+- 当次推荐总数：44
+- 精读区：30
+- 速读区：14
+
+## 今日简报（AI）
+今日精选 44 篇前沿论文，深度聚焦基因组机器学习与虚拟细胞扰动预测等核心领域。
+重点关注 SCALE 框架在细胞级端点传输中的应用，以及针对中低收入国家耐药性预测的 One Health 综述。
+建议关注 AI Agent 与大规模生物医学知识图谱的结合，这将是提升表型筛选与自动化科研效率的关键。
+
+## 精读区
+1. [Genomic and Machine Learning Approaches for Predicting Antimicrobial Resistance: A One Health Scoping Review in Low- and Middle-Income Countries](/202603/20/10.21203/rs.3.rs-9148578/v1-genomic-and-machine-learning-approaches-for-predicting-antimicrobial-resistance-a-one-health-scoping-review-in-low--and-middle-income-countries) （10.0/10）
+2. [SCALE:Scalable Conditional Atlas-Level Endpoint transport for virtual cell perturbation prediction](/202603/20/2603.17380v1-scalescalable-conditional-atlas-level-endpoint-transport-for-virtual-cell-perturbation-prediction) （10.0/10）
+3. [Illuminating cell states by a comprehensive and interpretable single cell foundation model.](/202603/20/41839876-illuminating-cell-states-by-a-comprehensive-and-interpretable-single-cell-foundation-model) （10.0/10）
+4. [PhaGCN_Cluster: A Scalable and Robust Framework for Automated Classification and Discovery of Viral Dark Matter from Metagenomes.](/202603/20/41843252-phagcncluster-a-scalable-and-robust-framework-for-automated-classification-and-discovery-of-viral-dark-matter-from-metagenomes) （10.0/10）
+5. [Orthogonal disentanglement of single-cell multi-omics reveals private and shared drivers of tissue development and pathogenesis.](/202603/20/41849387-orthogonal-disentanglement-of-single-cell-multi-omics-reveals-private-and-shared-drivers-of-tissue-development-and-pathogenesis) （10.0/10）
+6. [Integrating machine learning and artificial intelligence in the management of Acinetobacter infections: a narrative review.](/202603/20/41851574-integrating-machine-learning-and-artificial-intelligence-in-the-management-of-acinetobacter-infections-a-narrative-review) （10.0/10）
+7. [A foundation model for nucleotide sequences.](/202603/20/41854075-a-foundation-model-for-nucleotide-sequences) （10.0/10）
+8. [LaPro-DTA: Latent Dual-View Drug Representations and Salient Protein Feature Extraction for Generalizable Drug--Target Affinity Prediction](/202603/20/2603.14792v1-lapro-dta-latent-dual-view-drug-representations-and-salient-protein-feature-extraction-for-generalizable-drug--target-affinity-prediction) （9.0/10）
+9. [Multi-Task Genetic Algorithm with Multi-Granularity Encoding for Protein-Nucleotide Binding Site Prediction](/202603/20/2603.14797v1-multi-task-genetic-algorithm-with-multi-granularity-encoding-for-protein-nucleotide-binding-site-prediction) （9.0/10）
+10. [Fold-CP: A Context Parallelism Framework for Biomolecular Modeling](/202603/20/2603.14806v1-fold-cp-a-context-parallelism-framework-for-biomolecular-modeling) （9.0/10）
+11. [IgPose: A Generative Data-Augmented Pipeline for Robust Immunoglobulin-Antigen Binding Prediction](/202603/20/2603.14870v1-igpose-a-generative-data-augmented-pipeline-for-robust-immunoglobulin-antigen-binding-prediction) （9.0/10）
+12. [BiTro: Bidirectional Transfer Learning Enhances Bulk and Spatial Transcriptomics Prediction in Cancer Pathological Images](/202603/20/2603.14897v1-bitro-bidirectional-transfer-learning-enhances-bulk-and-spatial-transcriptomics-prediction-in-cancer-pathological-images) （9.0/10）
+13. [Conditional Inverse Learning of Time-Varying Reproduction Numbers Inference](/202603/20/2603.17549v1-conditional-inverse-learning-of-time-varying-reproduction-numbers-inference) （9.0/10）
+14. [Translating Gut Microbiota into Diagnostics: A Multidimensional Approach for the Diagnosis of Inflammatory Bowel Disease.](/202603/20/41220286-translating-gut-microbiota-into-diagnostics-a-multidimensional-approach-for-the-diagnosis-of-inflammatory-bowel-disease) （9.0/10）
+15. [Single-cell RNA sequencing and proteomics uncover glycolytic dysregulation linking skin and systemic inflammation in dermatomyositis.](/202603/20/41329255-single-cell-rna-sequencing-and-proteomics-uncover-glycolytic-dysregulation-linking-skin-and-systemic-inflammation-in-dermatomyositis) （9.0/10）
+16. [Quantitative metagenomics using a portable protocol.](/202603/20/41733350-quantitative-metagenomics-using-a-portable-protocol) （9.0/10）
+17. [Metagenome-assembled genomes from a population-based cohort uncover novel gut species and within-species diversity, revealing prevalent disease associations.](/202603/20/41837716-metagenome-assembled-genomes-from-a-population-based-cohort-uncover-novel-gut-species-and-within-species-diversity-revealing-prevalent-disease-associations) （9.0/10）
+18. [Unlocking Enzyme Discovery: A High-Resolution Gene Cluster Database Powered by Phylogenetic Insights and Machine Learning.](/202603/20/41837859-unlocking-enzyme-discovery-a-high-resolution-gene-cluster-database-powered-by-phylogenetic-insights-and-machine-learning) （9.0/10）
+19. [Fast hospital discharge rates blur within-hospital 'transmission footprint' in bacterial genomes, as showcased with Staphylococcus aureus.](/202603/20/41838776-fast-hospital-discharge-rates-blur-within-hospital-transmission-footprint-in-bacterial-genomes-as-showcased-with-staphylococcus-aureus) （9.0/10）
+20. [Dynamics of phage-host interactions in Bacteroides fragilis resolved by single-cell transcriptomics.](/202603/20/41839859-dynamics-of-phage-host-interactions-in-bacteroides-fragilis-resolved-by-single-cell-transcriptomics) （9.0/10）
+21. [scCAPReSE: detection of large-scale genomic rearrangements from single-cell Hi-C based on few-shot learning.](/202603/20/41840705-sccaprese-detection-of-large-scale-genomic-rearrangements-from-single-cell-hi-c-based-on-few-shot-learning) （9.0/10）
+22. [Multiscale-Aware Graph Embedding Approach Uncovers LC-61, a Potent Anti-](/202603/20/41841344-multiscale-aware-graph-embedding-approach-uncovers-lc-61-a-potent-anti-) （9.0/10）
+23. [Novel Deep-Learning Unsupervised Domain Adaptation Method for Mitigating Batch, Strain, and Instrument Variations to Enhance Raman Spectroscopy-Based Bacterial Pathogen Identification.](/202603/20/41842761-novel-deep-learning-unsupervised-domain-adaptation-method-for-mitigating-batch-strain-and-instrument-variations-to-enhance-raman-spectroscopy-based-bacterial-pathogen-identification) （9.0/10）
+24. [Machine learning identifies novel signatures of antifungal drug resistance in Saccharomycotina yeasts.](/202603/20/41843615-machine-learning-identifies-novel-signatures-of-antifungal-drug-resistance-in-saccharomycotina-yeasts) （9.0/10）
+25. [In silico discovery of thioglycoside analogues as donor-site inhibitors of glycosyltransferase LgtC.](/202603/20/41844697-in-silico-discovery-of-thioglycoside-analogues-as-donor-site-inhibitors-of-glycosyltransferase-lgtc) （9.0/10）
+26. [Machine learning-based prediction of BV-relevant probiotic functional potential in vaginal-derived Lactobacillus crispatus strains.](/202603/20/41845201-machine-learning-based-prediction-of-bv-relevant-probiotic-functional-potential-in-vaginal-derived-lactobacillus-crispatus-strains) （9.0/10）
+27. [Vector Encoding of Phylogenetic Trees by Ordered Leaf Attachment.](/202603/20/41848929-vector-encoding-of-phylogenetic-trees-by-ordered-leaf-attachment) （9.0/10）
+28. [Developing an innovative chimeric multi-epitope subunit vaccine against](/202603/20/41852711-developing-an-innovative-chimeric-multi-epitope-subunit-vaccine-against) （9.0/10）
+29. [A structural blueprint for antibacterial discovery: microwave- and ultrasound-assisted synthesis of pyrrolidine-fused quinoxalines as novel inhibitors of DNA gyrase and biofilm.](/202603/20/41853207-a-structural-blueprint-for-antibacterial-discovery-microwave--and-ultrasound-assisted-synthesis-of-pyrrolidine-fused-quinoxalines-as-novel-inhibitors-of-dna-gyrase-and-biofilm) （9.0/10）
+30. [Microbial community assembly and pathogen signatures in groundwater and tap water systems in greater Cairo, Egypt.](/202603/20/41854783-microbial-community-assembly-and-pathogen-signatures-in-groundwater-and-tap-water-systems-in-greater-cairo-egypt) （9.0/10）
+
+## 速读区
+1. [Empowering Chemical Structures with Biological Insights for Scalable Phenotypic Virtual Screening](/202603/20/2603.15006v1-empowering-chemical-structures-with-biological-insights-for-scalable-phenotypic-virtual-screening) （8.0/10）
+2. [Open Biomedical Knowledge Graphs at Scale: Construction, Federation, and AI Agent Access with Samyama Graph Database](/202603/20/2603.15080v1-open-biomedical-knowledge-graphs-at-scale-construction-federation-and-ai-agent-access-with-samyama-graph-database) （8.0/10）
+3. [MiroThinker-1.7 & H1: Towards Heavy-Duty Research Agents via Verification](/202603/20/2603.15726v1-mirothinker-17--h1-towards-heavy-duty-research-agents-via-verification) （8.0/10）
+4. [OMNIFLOW: A Physics-Grounded Multimodal Agent for Generalized Scientific Reasoning](/202603/20/2603.15797v1-omniflow-a-physics-grounded-multimodal-agent-for-generalized-scientific-reasoning) （8.0/10）
+5. [Sample-Efficient Adaptation of Drug-Response Models to Patient Tumors under Strong Biological Domain Shift](/202603/20/2603.16185v1-sample-efficient-adaptation-of-drug-response-models-to-patient-tumors-under-strong-biological-domain-shift) （8.0/10）
+6. [Digital unzipping of DNA through a solid-state nanopore: A theoretical study for base-by-base ratcheting](/202603/20/2603.14705v1-digital-unzipping-of-dna-through-a-solid-state-nanopore-a-theoretical-study-for-base-by-base-ratcheting) （7.0/10）
+7. [CrossADR: enhancing adverse drug reactions prediction for combination pharmacotherapy with cross-layer feature integration and cross-level associative learning](/202603/20/2603.15047v1-crossadr-enhancing-adverse-drug-reactions-prediction-for-combination-pharmacotherapy-with-cross-layer-feature-integration-and-cross-level-associative-learning) （7.0/10）
+8. [Geometric framework for biological evolution](/202603/20/2603.15198v1-geometric-framework-for-biological-evolution) （7.0/10）
+9. [OMNIFLOW: A Physics-Grounded Multimodal Agent for Generalized Scientific Reasoning](/202603/20/2603.15797v2-omniflow-a-physics-grounded-multimodal-agent-for-generalized-scientific-reasoning) （7.0/10）
+10. [Segmentation-before-Staining Improves Structural Fidelity in Virtual IHC-to-Multiplex IF Translation](/202603/20/2603.16160v1-segmentation-before-staining-improves-structural-fidelity-in-virtual-ihc-to-multiplex-if-translation) （7.0/10）
+11. [Cross-RAG: Zero-Shot Retrieval-Augmented Time Series Forecasting via Cross-Attention](/202603/20/2603.14709v1-cross-rag-zero-shot-retrieval-augmented-time-series-forecasting-via-cross-attention) （6.0/10）
+12. [Bayesian Inference for Missing Physics](/202603/20/2603.14918v1-bayesian-inference-for-missing-physics) （6.0/10）
+13. [Generative Inverse Design with Abstention via Diagonal Flow Matching](/202603/20/2603.15925v1-generative-inverse-design-with-abstention-via-diagonal-flow-matching) （6.0/10）
+14. [CounterRefine: Answer-Conditioned Counterevidence Retrieval for Inference-Time Knowledge Repair in Factual Question Answering](/202603/20/2603.16091v1-counterrefine-answer-conditioned-counterevidence-retrieval-for-inference-time-knowledge-repair-in-factual-question-answering) （6.0/10）
+
+---
+使用键盘方向键可在日报/论文之间快速切换。

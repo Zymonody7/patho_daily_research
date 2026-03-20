@@ -1,0 +1,418 @@
+Title: Segmentation-before-Staining Improves Structural Fidelity in Virtual IHC-to-Multiplex IF Translation
+
+URL Source: https://arxiv.org/pdf/2603.16160v1
+
+Published Time: Wed, 18 Mar 2026 00:47:56 GMT
+
+Number of Pages: 11
+
+Markdown Content:
+# Segmentation-before-Staining Improves Structural Fidelity in Virtual IHC-to-Multiplex IF Translation 
+
+Junhyeok Lee ∗1, Han Jang ∗2, Heeseong Eom 1, Joon Jang 3, and Kyu Sung Choi 4,5,6 
+
+> 1
+
+Interdisciplinary Program in Cancer Biology, Seoul National University College of Medicine, Seoul, Republic of Korea  
+
+> 2
+
+Interdisciplinary Program in Bioengineering, Seoul National University, Seoul, Republic of Korea  
+
+> 3
+
+Department of Biomedical Sciences, Seoul National University, Seoul, Republic of Korea  
+
+> 4
+
+Department of Radiology, Seoul National University Hospital, Seoul, Republic of Korea  
+
+> 5
+
+Department of Radiology, Seoul National University College of Medicine, Seoul, Republic of Korea  
+
+> 6
+
+Healthcare AI Research Institute, Seoul National University Hospital, Seoul, Republic of Korea 
+
+{jhlee0619, hanjang, seong6466, jangjoon7}@snu.ac.kr, ent1127@snu.ac.kr 
+
+Abstract. Multiplex immunofluorescence (mIF) enables simultaneous single-cell quantification of multiple biomarkers within intact tissue ar-chitecture, yet its high reagent cost, multi-round staining protocols, and need for specialized imaging platforms limit routine clinical adoption. Virtual staining can synthesize mIF channels from widely available bright-field immunohistochemistry (IHC), but current translators optimize pixel-level fidelity without explicitly constraining nuclear morphology. In pathol-ogy, this gap is clinically consequential: subtle distortions in nuclei count, shape, or spatial arrangement propagate directly to quantification end-points such as the Ki67 proliferation index, where errors of a few per-cent can shift treatment-relevant risk categories. This work introduces a supervision-free, architecture-agnostic conditioning strategy that injects a continuous cell probability map from a pretrained nuclei segmentation foundation model as an explicit input prior, together with a variance-preserving regularization term that matches local intensity statistics to maintain cell-level heterogeneity in synthesized fluorescence channels. The soft prior retains gradient-level boundary information lost by binary thresholding, providing a richer conditioning signal without task-specific tuning. Controlled experiments across Pix2Pix with U-Net and ResNet generators, deterministic regression U-Net, and conditional diffusion on two independent datasets demonstrate consistent improvements in nuclei count fidelity and perceptual quality, as the sole modifications. Code will be made publicly available upon acceptance.  
+
+> ∗
+
+Equal contribution.             
+
+> arXiv:2603.16160v1 [cs.CV] 17 Mar 2026 2J. Lee et al.
+> Keywords: Virtual staining ·Digital pathology ·Image-to-image trans-lation ·Structural priors ·Multiplex immunofluorescence ·Nuclei seg-mentation
+
+1 Introduction 
+
+Multiplex immunofluorescence (mIF) enables simultaneous detection of multiple protein markers within a single tissue section, supporting quantitative pheno-typing of immune infiltrates and spatial biomarker analysis that informs progno-sis and immunotherapy response [2, 24, 10]. However, mIF requires multi-round tyramide signal amplification, spectral unmixing, and dedicated imaging plat-forms, with per-slide costs and turnaround times far exceeding those of conven-tional immunohistochemistry (IHC) [7, 23]. Brightfield IHC is inexpensive and universally available, yet limited to one or two markers per section and reliant on manual scoring by pathologists, a labor-intensive process with substantial inter-observer variability [19]. This is especially problematic for proliferation markers such as Ki67, whose positive fraction serves as a key prognostic indicator across multiple cancer types and directly influences grading, molecular subtyping, and adjuvant treatment decisions [16, 26]. Virtual staining bridges this gap by trans-lating IHC into multi-channel mIF representations [4, 5, 1, 20]. Several architectures have been proposed for virtual staining, including mul-titask GANs [4], multi-scale supervision [15], task-specific scoring losses [18], weakly-supervised feature extraction [14], and generative multiplexing from H&E [17]. While these methods achieve high perceptual fidelity, standard metrics can mask clinically relevant structural errors [13]. Adversarial generators may alter nuclei boundaries or merge adjacent cells [11], and stochastic samplers can introduce morphological drift [9]. Such distortions can bias the Ki67 positive fraction suf-ficiently to cross clinical decision thresholds [26, 3]. This observation motivates a simple hypothesis that providing nuclei-derived structure as an explicit input prior before translation improves structural preser-vation and downstream quantification, even under paired pixel-level supervision. The proposed approach leverages Cellpose [22], a generalist cell segmentation foundation model pretrained on diverse microscopy modalities including fluores-cence, brightfield, and histopathology images, to extract a continuous per-pixel cell probability map directly from the IHC input without any domain-specific fine-tuning. This soft representation is concatenated to the IHC input as a single additional channel, providing the translator with gradient-level boundary infor-mation that binary masks discard through hard thresholding. The training loss is further augmented with a variance-preserving regularization term that matches local second-order statistics between synthesized and ground-truth channels, pre-serving the cell-level intensity heterogeneity that regression objectives tend to smooth. The contributions are as follows: (i) a supervision-free, architecture-agnostic soft prior conditioning requiring no task-specific training or threshold selection; (ii) a variance-preserving loss that maintains local intensity heterogeneity in Segmentation-before-Staining for Virtual IHC-to-mIF Translation 3Input                
+
+> IHC
+> Pretrained Nuclei
+> Segmentation Networks
+> Segmentation Mask
+> (b)Architecture -agnostic translation
+> Synthesized
+> mIF Maps
+> …
+> 𝑦 "𝐺 𝐷
+> Adversarial Generative Model
+> 𝑧
+> 𝑥′
+> 𝑥
+> 𝑦 "
+> U-Net
+> 𝑥
+> Denoising Diffusion Probabilistic Model
+> 𝑥 !𝑥 "𝑥 #𝑧
+> 𝑥 !𝑥 "𝑥 #𝑧
+> [𝑋 ;𝑃 !"#$ ]
+> 𝑀 $%&&
+> 𝑌 *
+> 𝑃 '()*
+> Soft Prior
+> 𝐷𝐴𝑃𝐼
+> 𝐿𝐴𝑃2
+> Concat
+> 𝜎 (𝑥 )
+> 𝑡
+> (a) Soft prior extraction and input conditioning (c)Synthesized outputs
+> 𝑌 *
+
+…  
+
+> 𝑋
+> [𝑋 ;𝑃 !"#$ ]ℒ"#$
+
+Fig. 1. Overview of the proposed soft prior conditioning framework. (a) Cell-pose [22] extracts a continuous probability map Psoft , concatenated as a fourth channel. (b) The conditioned input is passed to any translation architecture. (c) Multi-channel outputs; Lvar is added to the base objective to constrain local intensity statistics. 
+
+synthesized fluorescence channels; (iii) controlled benchmarking across Pix2Pix with U-Net and ResNet generators, regression U-Net, and conditional diffusion on two independent datasets; and (iv) evaluation via nuclei count fidelity and Ki67 quantification error linking synthesis quality to diagnostic utility. 
+
+2 Method 
+
+The proposed approach extends standard paired IHC-to-mIF translation with two components, both architecture-agnostic and requiring no additional training or paired annotations, as illustrated in Fig. 1. 
+
+2.1 Soft Structural Conditioning for Paired IHC-to-mIF Translation 
+
+The task of improving structural reliability in virtual staining is formulated as an input-level conditioning problem rather than an architectural redesign. Given paired, co-registered IHC RGB patches ( X ∈ RH×W ×3) and their corresponding mIF stacks ( Y ∈ RH×W ×K ) containing a nuclear reference channel, the goal is to synthesize multi-channel mIF targets while preserving fine-grained nuclear morphology and spatial arrangement. The key idea is to augment the IHC input with a continuous cell probabil-ity map extracted from a pretrained nuclei segmentation model, providing the translator with a soft structural prior that encodes per-pixel nuclei likelihood without imposing hard binarization decisions. This formulation leaves the trans-lation architecture and base training objective untouched, with only the input tensor modified, as illustrated in Fig. 1. The translation model G generates the 4 J. Lee et al. 
+
+predicted mIF stack ˆY as: 
+
+ˆY = G([ X; Psoft ]) , (1) where [· ; ·] denotes channel-wise concatenation of the 3-channel RGB input and the single-channel soft probability map (4 channels total). 
+
+2.2 Soft Prior Generation 
+
+The soft prior is extracted from a single forward pass of Cellpose [22], a pre-trained generalist cell segmentation foundation model, applied directly to the brightfield IHC input as shown in Fig. 1a. No task-specific training or access to paired mIF data is required, ensuring full decoupling from the translation pipeline. Specifically, Cellpose produces a per-pixel cell probability output Psoft ∈
+
+[0 , 1] H×W via a sigmoid activation prior to the binarization step used for instance mask generation. This continuous representation retains gradient-level informa-tion about cell boundaries, as pixels near nuclei peripheries receive intermediate probabilities rather than being forced to a hard {0, 1} decision. Sub-threshold structures such as partial nuclei at patch borders, mitotic figures with diffuse chromatin, or overlapping cells are likewise preserved rather than discarded. Compared with a binarized mask, the soft map is an information-theoretic superset because the binary mask is recoverable via thresholding but not vice versa. It also eliminates the threshold hyperparameter and propagates smoother gradients to early encoder layers. The binarized counterpart Mcell = 1[ Psoft > t ]
+
+is retained only for ablation comparison. 
+
+2.3 Variance-Preserving Regularization 
+
+Standard pixel-level objectives ( ℓ1/ℓ2) penalize mean intensity error but do not explicitly constrain local texture statistics. Regression-based models tend to smooth high-frequency intensity patterns in fluorescence channels, reducing local contrast and undermining downstream cell detection [12]. To preserve cell-level intensity heterogeneity, the base translation loss is aug-mented with a local variance matching term. The local variance map Vk(·) is defined as: 
+
+Vk(I) = μk(I2) − μk(I)2, (2) where μk(·) denotes average pooling with kernel size k and reflect padding, and 2 is the element-wise square. The variance-preserving loss then penalizes discrepancies in local second-order statistics: 
+
+Lvar = Vk( ˆY ) − Vk(Y ) 22. (3) The total training objective, illustrated in Fig. 1c, becomes: 
+
+Ltotal = Lbase + λvar Lvar , (4) where Lbase denotes the architecture-specific loss. For adversarial models, Lbase =
+
+LGAN + λℓ1 Lℓ1 , and for deterministic regression, Lbase = Lℓ1 .Segmentation-before-Staining for Virtual IHC-to-mIF Translation 5
+
+2.4 Clinical Fidelity Metrics 
+
+To assess whether synthesized mIF channels support reliable downstream quan-tification beyond standard image-quality measures, two domain-specific metrics are introduced. All thresholds are determined on the validation split and fixed at test time. 
+
+Ki67 positivity error. Given nuclei instances {ci}Ni=1 detected from the ground-truth nuclear reference channel, each nucleus is classified as Ki67-positive when its mean synthesized marker intensity exceeds a validation-selected threshold τ .The Ki67 positive fraction is defined as: 
+
+f + = 1
+
+N
+
+> N
+
+X
+
+> i=1
+
+1[ ¯I(ci) > τ ], (5) and the metric is the absolute error |f + 
+
+> pred
+
+− f +
+
+> gt
+
+|, averaged across test images. 
+
+Per-pixel MAE. For HNSCC, where only the DAPI nuclear channel is translated, the per-pixel mean absolute error 1 
+
+> HW
+
+∥ ˆY − Y ∥1 is reported as a direct measure of reconstruction accuracy. 
+
+3 Experiments and Results 
+
+3.1 Experimental Setup 
+
+Datasets. Two publicly available paired datasets are used. DeepLIIF [5] provides co-registered IHC and 3-channel mIF stacks (DAPI, Lap2, Ki67) from multiple organ sites stained with DAB chromogen ( ntrain =2 ,396 , ntest =598 ). HNSCC [6] provides co-registered mIF and mIHC stacks with nuclear, immune, and tumor markers from head-and-neck squamous cell carcinoma ( ntrain =197 , ntest =71 ,AEC chromogen). The DAPI channel is selected to maintain a shared target with DeepLIIF. Patches are resized to 256 ×256 and normalized to [−1, 1] . All splits are enforced at the case level to prevent leakage across correlated patches. 
+
+Translation architectures. To demonstrate architecture-agnostic applicability, a controlled comparison is conducted across three representative paradigms. The only difference between baseline and proposed variants is the concatenation of the soft prior channel and, where applicable, the variance-preserving term. Pix2Pix [11] with a PatchGAN discriminator and ℓ1 reconstruction is trained using both U-Net [21] and ResNet [8] generators, with the input channel count adjusted from three to four. Regression U-Net [21] trained with ℓ1 loss serves as a non-adversarial baseline, with the encoder-decoder structure otherwise identical. Conditional denoising diffusion probabilistic model (DDPM) [9] conditions the denoiser on the optionally augmented input at each step, with the noise schedule and training objective identical across configurations. 6 J. Lee et al.                                                                           
+
+> Table 1. Translation quality with off-the-shelf nuclei prior. +Prior adds the soft prob-ability map and variance-preserving loss. DeepLIIF [5] translates IHC to 3-channel mIF. HNSCC [6] translates mIHC to DAPI. †Ki67 positivity error. ‡Per-pixel MAE on DAPI channel. Best per architecture in bold .DeepLIIF [5] (3-ch mIF) HNSCC [6] (DAPI 1-ch) Model Config SSIM ↑LPIPS ↓Ki67 †↓SSIM ↑LPIPS ↓pMAE ‡↓
+> Pix2Pix [11] Baseline .719 .318 .018 .834 .134 .019 (UNet) +Prior .732 .296 .018 .855 .113 .017
+> Pix2Pix [11] Baseline .759 .293 .019 .880 .121 .016 (ResNet) +Prior .763 .291 .021 .880 .131 .015
+> Regression [21] Baseline .724 .315 .018 .812 .197 .020 (UNet) +Prior .731 .306 .018 .856 .113 .018
+> Diffusion [9] Baseline .202 .607 .052 .697 .171 .037 (DDPM) +Prior .552 .394 .066 .819 .135 .021
+
+Training details. Pix2Pix models are trained with Adam ( β1=0 .5, β2=0 .999 )at learning rate 2×10 −4 for 1,000 epochs with λℓ1 =100 . Regression U-Net uses Adam at learning rate 10 −4 for 150 epochs. Diffusion uses a linear noise schedule with T =1000 steps, trained with Adam at learning rate 2×10 −4 for 1,000 epochs. For Pix2Pix and Regression U-Net, the variance-preserving loss (Sec. 2.3) is added with λvar =50 and kernel size k=15 . All models are trained with batch size 16 and early stopping on validation loss, with 20% of the training set held out for validation. Experiments are conducted on two NVIDIA RTX 3090 GPUs using distributed data parallel training. 
+
+Evaluation metrics. Image-level fidelity is measured by structural similarity in-dex (SSIM) [25] and learned perceptual image patch similarity (LPIPS) [27] across all synthesized channels. Two additional domain-specific metrics, Ki67 positivity error and per-pixel MAE, are defined in Sec. 2.4. 
+
+3.2 Main Results 
+
+Table 1 summarizes quantitative comparisons across both datasets. The pro-posed method consistently improves SSIM and LPIPS across most architectures. On DeepLIIF, Pix2Pix (UNet) improves from .719 to .732 in SSIM and .318 to .296 in LPIPS, and Diffusion recovers from .202 to .552 in SSIM, demonstrat-ing consistent gains across both chromogen types. On HNSCC, Regression U-Net achieves the largest gain (SSIM .812 to .856, LPIPS .197 to .113), while Diffusion shows the most dramatic recovery (SSIM .697 to .819), confirming that explicit structural guidance is particularly valuable when stochastic sampling can induce morphological drift. These improvements hold across both chromogen types and training set sizes differing by an order of magnitude, supporting generality of the Segmentation-before-Staining for Virtual IHC-to-mIF Translation 7
+
+Table 2. Ablation on prior representation and loss (HNSCC [6], DAPI, ntest =71 ). 
+
+Mcell : binary mask (1 ch). Psoft : soft probability map (1 ch). Lvar : variance-preserving loss ( λ=50 , k=15 ). Best per architecture in bold .Model Prior Mcell Psoft Lvar SSIM ↑ LPIPS ↓ pMAE ↓
+
+Pix2Pix [11] None .834 .134 .019 (UNet) Binary ✓ .846 .175 .017 Soft ✓ .855 .113 .017 
+
+Soft+Var ✓ ✓ .855 .113 .017 Pix2Pix [11] None .880 .121 .016 (ResNet) Binary ✓ .879 .125 .015 Soft ✓ .881 .121 .015 Soft+Var ✓ ✓ .880 .131 .015 
+
+Regression [21] None .812 .197 .020 (UNet) Binary ✓ .840 .149 .018 Soft ✓ .858 .115 .017 
+
+Soft+Var ✓ ✓ .856 .113 .018 Diffusion [9] None .697 .171 .037 (DDPM) Binary ✓ .755 .165 .028 Soft ✓ .790 .128 .028 Soft+Var ✓ ✓ .819 .135 .021 
+
+proposed strategy. Ki67 positivity error remains comparable across most archi-tectures, while per-pixel MAE consistently improves, indicating that structural gains are largely preserved in marker quantification. 
+
+3.3 Ablation Study 
+
+Table 2 compares four conditions per architecture on HNSCC [6]. The condi-tions are no prior (None), binary mask Mcell (Binary), soft probability map Psoft 
+
+(Soft), and soft prior with variance-preserving loss (Soft+Var). Both prior repre-sentations improve over the baseline, with the soft map consistently matching or outperforming the binary mask in SSIM and LPIPS, supporting the information-theoretic argument that continuous probabilities provide a richer conditioning signal. The binary mask degrades LPIPS for Pix2Pix UNet despite improving SSIM (.175 vs .134), suggesting that hard boundaries can introduce perceptual artifacts even when structural alignment improves. Adding variance-preserving loss yields the largest additional gain for Diffusion (SSIM .790 to .819, pMAE .028 to .021), the model most susceptible to texture smoothing, while providing marginal benefit for GAN and regression models where adversarial or reconstruc-tion losses already preserve local contrast. 8 J. Lee et al. DAPI 
+
+SSIM 0.754 
+
+LPIPS 0.310 
+
+SSIM 0.781 
+
+LPIPS 0.288 
+
+SSIM 0.804 
+
+LPIPS 0.238 
+
+SSIM 0.813 
+
+LPIPS 0.238 
+
+SSIM 0.749 
+
+LPIPS 0.318 
+
+SSIM 0.782 
+
+LPIPS 0.286 
+
+SSIM 0.462 
+
+LPIPS 0.407 
+
+SSIM 0.599 
+
+LPIPS 0.368 
+
+DAPI 
+
+SSIM 0.753 
+
+LPIPS 0.334 
+
+SSIM 0.783 
+
+LPIPS 0.289 
+
+SSIM 0.815 
+
+LPIPS 0.257 
+
+SSIM 0.817 
+
+LPIPS 0.261 
+
+SSIM 0.738 
+
+LPIPS 0.360 
+
+SSIM 0.778 
+
+LPIPS 0.282 
+
+SSIM 0.463 
+
+LPIPS 0.464 
+
+SSIM 0.523 
+
+LPIPS 0.452 
+
+Lap2 
+
+SSIM 0.705 
+
+LPIPS 0.403 
+
+SSIM 0.726 
+
+LPIPS 0.318 
+
+SSIM 0.803 
+
+LPIPS 0.262 
+
+SSIM 0.803 
+
+LPIPS 0.256 
+
+SSIM 0.703 
+
+LPIPS 0.427 
+
+SSIM 0.724 
+
+LPIPS 0.333 
+
+SSIM 0.572 
+
+LPIPS 0.551 
+
+SSIM 0.628 
+
+LPIPS 0.486 
+
+Lap2 
+
+SSIM 0.762 
+
+LPIPS 0.362 
+
+SSIM 0.797 
+
+LPIPS 0.306 
+
+SSIM 0.843 
+
+LPIPS 0.235 
+
+SSIM 0.839 
+
+LPIPS 0.241 
+
+SSIM 0.752 
+
+LPIPS 0.378 
+
+SSIM 0.799 
+
+LPIPS 0.303 
+
+SSIM 0.471 
+
+LPIPS 0.500 
+
+SSIM 0.535 
+
+LPIPS 0.455 
+
+Ki67 
+
+SSIM 0.616 
+
+LPIPS 0.433 
+
+SSIM 0.646 
+
+LPIPS 0.406 
+
+SSIM 0.681 
+
+LPIPS 0.420 
+
+SSIM 0.681 
+
+LPIPS 0.412 
+
+SSIM 0.639 
+
+LPIPS 0.412 
+
+SSIM 0.644 
+
+LPIPS 0.387 
+
+SSIM 0.443 
+
+LPIPS 0.455 
+
+SSIM 0.495 
+
+LPIPS 0.429 
+
+Ki67 
+
+SSIM 0.545 
+
+LPIPS 0.466 
+
+SSIM 0.574 
+
+LPIPS 0.440 
+
+SSIM 0.617 
+
+LPIPS 0.450 
+
+SSIM 0.615 
+
+LPIPS 0.440 
+
+SSIM 0.570 
+
+LPIPS 0.459 
+
+SSIM 0.577 
+
+LPIPS 0.434 
+
+SSIM 0.393 
+
+LPIPS 0.465 
+
+SSIM 0.454 
+
+LPIPS 0.447 
+
+(a) Input (b) Prior (c) Pix2Pix (d) P2P +Psoft (e) ResNet (f) Res +Psoft (g) Reg.UNet (h) RU +Psoft (i) Diffusion (j) Diff +Psoft (k) GT 
+
+Fig. 2. Qualitative comparison on DeepLIIF test cases across three target channels (DAPI, Lap2, Ki67) from bladder and lung tissue. 
+
+3.4 Qualitative Analysis 
+
+Figure 2 presents visual comparisons on DeepLIIF test cases across DAPI, Lap2, and Ki67 channels. Baseline translators exhibit blurred nuclear boundaries and merged cells in cropped regions; the proposed method consistently reduces these artifacts, with the most pronounced gains in diffusion. Ki67 channel outputs preserve punctate staining patterns more faithfully under the proposed method, maintaining clearer separation between positive and negative nuclei. Segmentation-before-Staining for Virtual IHC-to-mIF Translation 9
+
+4 Conclusion 
+
+In this work, an architecture-agnostic soft prior conditioning strategy is pre-sented that concatenates a continuous cell probability map from a pretrained nuclei segmentation model as a single additional input channel. The proposed method consistently improves structural fidelity across adversarial, regression, and diffusion-based translators on two independent datasets without task-specific training. The accompanying variance-preserving regularization complements the structural prior by maintaining local intensity heterogeneity, with the soft prior outperforming its binarized counterpart by retaining gradient-level boundary in-formation. These results highlight off-the-shelf nuclei priors as a practical route toward clinically reliable virtual staining. 
+
+References 
+
+1. Bai, B., Yang, X., Li, Y., Zhang, Y., Pillar, N., Ozcan, A.: Deep learning-enabled virtual histological staining of biological samples. Light: Science & Applications 
+
+12 (1), 57 (2023) 2. Bollhagen, A., Bodenmiller, B.: Highly multiplexed tissue imaging in precision oncology and translational cancer research. Cancer Discovery 14 (11), 2071–2088 (2024) 3. Boyaci, C., Sun, W., Hartman, J., Ács, B.: Global scoring method of ki67 im-munohistochemistry in breast cancer demonstrates improved concordance using real-world multi-institutional data. Breast Cancer Research 27 (1), 159 (2025) 4. Ghahremani, P., Li, Y., Kaufman, A., Vanguri, R., Greenwald, N., Angelo, M., Hollmann, T.J., Nadeem, S.: Deep learning-inferred multiplex immunofluorescence for immunohistochemical image quantification. Nature machine intelligence 4(4), 401–412 (2022) 5. Ghahremani, P., Marino, J., Dodds, R., Nadeem, S.: Deepliif: An online platform for quantification of clinical pathology slides. Proceedings of the IEEE/CVF Con-ference on Computer Vision and Pattern Recognition (CVPR) pp. 21399–21405 (2022) 6. Ghahremani, P., Marino, J., Hernandez-Prera, J., de la Iglesia, J.V., Slebos, R.J., Chung, C.H., Nadeem, S.: An ai-ready multiplex staining dataset for reproducible and accurate characterization of tumor immune microenvironment. In: Interna-tional Conference on Medical Image Computing and Computer-Assisted Interven-tion. pp. 704–713. Springer (2023) 7. Harms, P.W., Frankel, T.L., Moutafi, M., Rao, A., Rimm, D.L., Taube, J.M., Thomas, D., Chan, M.P., Pantanowitz, L.: Multiplex immunohistochemistry and immunofluorescence: a practical update for pathologists. Modern Pathology 36 (7), 100197 (2023) 8. He, K., Zhang, X., Ren, S., Sun, J.: Deep residual learning for image recognition. In: Proceedings of the IEEE conference on computer vision and pattern recognition. pp. 770–778 (2016) 9. Ho, J., Jain, A., Abbeel, P.: Denoising diffusion probabilistic models. In: Advances in Neural Information Processing Systems (NeurIPS) (2020) 10. Hoyt, C.C.: Multiplex immunofluorescence and multispectral imaging: forming the basis of a clinical test platform for immuno-oncology. Frontiers in molecular bio-sciences 8, 674747 (2021) 10 J. Lee et al. 11. Isola, P., Zhu, J.Y., Zhou, T., Efros, A.A.: Image-to-image translation with condi-tional adversarial networks. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) (2017) 12. Johnson, J., Alahi, A., Fei-Fei, L.: Perceptual losses for real-time style transfer and super-resolution. In: European conference on computer vision. pp. 694–711. Springer (2016) 13. Klöckner, P., Teixeira, J., Montezuma, D., Fraga, J., Horlings, H.M., Cardoso, J.S., Oliveira, S.P.: H&e to ihc virtual staining methods in breast cancer: an overview and benchmarking. Npj digital medicine 8(1), 384 (2025) 14. Li, J., Dong, J., Huang, S., Li, X., Jiang, J., Fan, X., Zhang, Y.: Virtual immunohis-tochemistry staining for histological images assisted by weakly-supervised learning. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. pp. 11259–11268 (2024) 15. Liu, S., Zhu, C., Xu, F., Jia, X., Shi, Z., Jin, M.: Bci: Breast cancer immuno-histochemical image generation through pyramid pix2pix. In: Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. pp. 1815–1824 (2022) 16. Nielsen, T.O., Leung, S.C.Y., Rimm, D.L., Dodson, A., Acs, B., Badve, S., Denkert, C., Ellis, M.J., Fineberg, S., Flowers, M., et al.: Assessment of ki67 in breast cancer: updated recommendations from the international ki67 in breast cancer working group. JNCI: Journal of the National Cancer Institute 113 (7), 808–819 (2021) 17. Pati, P., Karkampouna, S., Bonollo, F., Compérat, E., Radić, M., Spahn, M., Mar-tinelli, A., Wartenberg, M., Kruithof-de Julio, M., Rapsomaniki, M.: Accelerating histopathology workflows with generative ai-based virtually multiplexed tumour profiling. Nature machine intelligence 6(9), 1077–1093 (2024) 18. Peng, Q., Lin, W., Hu, Y., Bao, A., Lian, C., Wei, W., Yue, M., Liu, J., Yu, L., Wang, L.: Advancing h&e-to-ihc virtual staining with task-specific domain knowl-edge for her2 scoring. In: International Conference on Medical Image Computing and Computer-Assisted Intervention. pp. 3–13. Springer (2024) 19. Rimm, D.L., Dacic, S., Schnitt, S.J.: The pathologists’ conundrum. Archives of Pathology & Laboratory Medicine 147 (1), 17–18 (2023) 20. Rivenson, Y., Wang, H., Wei, Z., de Haan, K., Zhang, Y., Wu, Y., Günaydın, H., Zuckerman, J.E., Chong, T., Sisk, A.E., et al.: Virtual histological staining of unlabelled tissue-autofluorescence images via deep learning. Nature biomedical engineering 3(6), 466–477 (2019) 21. Ronneberger, O., Fischer, P., Brox, T.: U-net: Convolutional networks for biomedi-cal image segmentation. In: International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI). Lecture Notes in Computer Sci-ence, Springer (2015) 22. Stringer, C., Wang, T., Michaelos, M., Pachitariu, M.: Cellpose: a generalist algo-rithm for cellular segmentation. Nature methods 18 (1), 100–106 (2021) 23. Sun, A.K., Fan, S., Choi, S.W.: Exploring multiplex immunohistochemistry (mihc) techniques and histopathology image analysis: Current practice and potential for clinical incorporation. Cancer Medicine 14 (1), e70523 (2025) 24. Tan, W.C.C., Nerurkar, S.N., Cai, H.Y., Ng, H.H.M., Wu, D., Wee, Y.T.F., Lim, J.C.T., Yeong, J., Lim, T.K.H.: Overview of multiplex immunohistochem-istry/immunofluorescence techniques in the era of cancer immunotherapy. Cancer Communications 40 (4), 135–153 (2020) 25. Wang, Z., Bovik, A.C., Sheikh, H.R., Simoncelli, E.P.: Image quality assessment: From error visibility to structural similarity. IEEE Transactions on Image Process-ing 13 (4), 600–612 (2004) Segmentation-before-Staining for Virtual IHC-to-mIF Translation 11 26. Yerushalmi, R., Woods, R., Ravdin, P.M., Hayes, M.M., Gelmon, K.A.: Ki67 in breast cancer: prognostic and predictive potential. The lancet oncology 11 (2), 174– 183 (2010) 27. Zhang, R., Isola, P., Efros, A.A., Shechtman, E., Wang, O.: The unreasonable effec-tiveness of deep features as a perceptual metric. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2018)

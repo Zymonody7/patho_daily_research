@@ -1,0 +1,393 @@
+Title: Machine learning identifies novel signatures of antifungal drug resistance in Saccharomycotina yeasts - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41843615/
+
+Markdown Content:
+# Machine learning identifies novel signatures of antifungal drug resistance in Saccharomycotina yeasts - PubMed
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/41843615/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41843615%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/41843615/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/41843615/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/41843615/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/41843615/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/9fea6d21-07b4-4726-b151-fb89a024b8ad/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/41843615/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/41843615/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41843615/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41843615%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41843615%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/41843615/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Save citation to file
+
+ Format:  
+
+ Create file  Cancel 
+
+## Email citation
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41843615/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41843615/#)
+
+ Add  Cancel 
+
+## Your saved search
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/41843615/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+## Create a file for external citation management software
+
+ Create file  Cancel 
+
+## Your RSS Feed
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Full text links
+
+[![Image 6: Public Library of Science full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--journals.plos.org-resource-img-external-pgen_120x30.png) Public Library of Science](https://dx.plos.org/10.1371/journal.pgen.1012091 "See full text options at Public Library of Science")
+
+[Full text links](https://pubmed.ncbi.nlm.nih.gov/41843615/#)
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41843615/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/41843615/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/41843615/#abstract)
+*   [Conflict of interest statement](https://pubmed.ncbi.nlm.nih.gov/41843615/#conflict-of-interest)
+*   [Similar articles](https://pubmed.ncbi.nlm.nih.gov/41843615/#similar)
+*   [LinkOut - more resources](https://pubmed.ncbi.nlm.nih.gov/41843615/#linkout)
+
+ PLoS Genet 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22PLoS+Genet%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22PLoS+Genet%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41843615/#)
+
+. 2026 Mar 17;22(3):e1012091.
+
+ doi: 10.1371/journal.pgen.1012091.  Online ahead of print. 
+
+# Machine learning identifies novel signatures of antifungal drug resistance in Saccharomycotina yeasts
+
+[Marie-Claire Harrison](https://pubmed.ncbi.nlm.nih.gov/?term=Harrison+MC&cauthor_id=41843615)[1](https://pubmed.ncbi.nlm.nih.gov/41843615/#full-view-affiliation-1 "Department of Biological Sciences and Evolutionary Studies Initiative, Vanderbilt University, Nashville, Tennessee, United States of America."),[David C Rinker](https://pubmed.ncbi.nlm.nih.gov/?term=Rinker+DC&cauthor_id=41843615)[1](https://pubmed.ncbi.nlm.nih.gov/41843615/#full-view-affiliation-1 "Department of Biological Sciences and Evolutionary Studies Initiative, Vanderbilt University, Nashville, Tennessee, United States of America."),[Abigail L LaBella](https://pubmed.ncbi.nlm.nih.gov/?term=LaBella+AL&cauthor_id=41843615)[1](https://pubmed.ncbi.nlm.nih.gov/41843615/#full-view-affiliation-1 "Department of Biological Sciences and Evolutionary Studies Initiative, Vanderbilt University, Nashville, Tennessee, United States of America.")[2](https://pubmed.ncbi.nlm.nih.gov/41843615/#full-view-affiliation-2 "Department of Bioinformatics and Genomics, University of North Carolina at Charlotte, Kannapolis, North Carolina, United States of America.")[3](https://pubmed.ncbi.nlm.nih.gov/41843615/#full-view-affiliation-3 "Center for Computational Intelligence to Predict Health and Environmental Risks (CIPHER), University of North Carolina at Charlotte, Charlotte, North Carolina, United States of America."),[Dana A Opulente](https://pubmed.ncbi.nlm.nih.gov/?term=Opulente+DA&cauthor_id=41843615)[4](https://pubmed.ncbi.nlm.nih.gov/41843615/#full-view-affiliation-4 "Laboratory of Genetics, DOE Great Lakes Bioenergy Research Center, Center for Genomic Science Innovation, J. F. Crow Institute for the Study of Evolution, Wisconsin Energy Institute, University of Wisconsin-Madison, Madison, Wisconsin, United States of America.")[5](https://pubmed.ncbi.nlm.nih.gov/41843615/#full-view-affiliation-5 "Department of Biology, Villanova University, Villanova, Pennsylvania, United States of America."),[John F Wolters](https://pubmed.ncbi.nlm.nih.gov/?term=Wolters+JF&cauthor_id=41843615)[4](https://pubmed.ncbi.nlm.nih.gov/41843615/#full-view-affiliation-4 "Laboratory of Genetics, DOE Great Lakes Bioenergy Research Center, Center for Genomic Science Innovation, J. F. Crow Institute for the Study of Evolution, Wisconsin Energy Institute, University of Wisconsin-Madison, Madison, Wisconsin, United States of America."),[Xiaofan Zhou](https://pubmed.ncbi.nlm.nih.gov/?term=Zhou+X&cauthor_id=41843615)[6](https://pubmed.ncbi.nlm.nih.gov/41843615/#full-view-affiliation-6 "Guangdong Province Key Laboratory of Microbial Signals and Disease Control, Integrative Microbiology Research Center, South China Agricultural University, Guangzhou, China."),[Xing-Xing Shen](https://pubmed.ncbi.nlm.nih.gov/?term=Shen+XX&cauthor_id=41843615)[7](https://pubmed.ncbi.nlm.nih.gov/41843615/#full-view-affiliation-7 "Zhejiang Key Laboratory of Biology and Ecological Regulation of Crop Pathogens and Insects, Institute of Insect Sciences, Zhejiang University, Hangzhou, China."),[Marizeth Groenewald](https://pubmed.ncbi.nlm.nih.gov/?term=Groenewald+M&cauthor_id=41843615)[8](https://pubmed.ncbi.nlm.nih.gov/41843615/#full-view-affiliation-8 "Westerdijk Fungal Biodiversity Institute, Utrecht, The Netherlands."),[Chris Todd Hittinger](https://pubmed.ncbi.nlm.nih.gov/?term=Hittinger+CT&cauthor_id=41843615)[4](https://pubmed.ncbi.nlm.nih.gov/41843615/#full-view-affiliation-4 "Laboratory of Genetics, DOE Great Lakes Bioenergy Research Center, Center for Genomic Science Innovation, J. F. Crow Institute for the Study of Evolution, Wisconsin Energy Institute, University of Wisconsin-Madison, Madison, Wisconsin, United States of America."),[Antonis Rokas](https://pubmed.ncbi.nlm.nih.gov/?term=Rokas+A&cauthor_id=41843615)[1](https://pubmed.ncbi.nlm.nih.gov/41843615/#full-view-affiliation-1 "Department of Biological Sciences and Evolutionary Studies Initiative, Vanderbilt University, Nashville, Tennessee, United States of America.")
+
+ Affiliations  Expand 
+
+### Affiliations
+
+*   1 Department of Biological Sciences and Evolutionary Studies Initiative, Vanderbilt University, Nashville, Tennessee, United States of America.
+*   2 Department of Bioinformatics and Genomics, University of North Carolina at Charlotte, Kannapolis, North Carolina, United States of America.
+*   3 Center for Computational Intelligence to Predict Health and Environmental Risks (CIPHER), University of North Carolina at Charlotte, Charlotte, North Carolina, United States of America.
+*   4 Laboratory of Genetics, DOE Great Lakes Bioenergy Research Center, Center for Genomic Science Innovation, J. F. Crow Institute for the Study of Evolution, Wisconsin Energy Institute, University of Wisconsin-Madison, Madison, Wisconsin, United States of America.
+*   5 Department of Biology, Villanova University, Villanova, Pennsylvania, United States of America.
+*   6 Guangdong Province Key Laboratory of Microbial Signals and Disease Control, Integrative Microbiology Research Center, South China Agricultural University, Guangzhou, China.
+*   7 Zhejiang Key Laboratory of Biology and Ecological Regulation of Crop Pathogens and Insects, Institute of Insect Sciences, Zhejiang University, Hangzhou, China.
+*   8 Westerdijk Fungal Biodiversity Institute, Utrecht, The Netherlands.
+
+*    PMID: **41843615**
+*    DOI: [10.1371/journal.pgen.1012091](https://doi.org/10.1371/journal.pgen.1012091)
+
+Free article
+
+ Item in Clipboard 
+
+# Machine learning identifies novel signatures of antifungal drug resistance in Saccharomycotina yeasts
+
+Marie-Claire Harrison et al. PLoS Genet.2026.
+
+Free article
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ PLoS Genet 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22PLoS+Genet%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22PLoS+Genet%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41843615/#)
+
+. 2026 Mar 17;22(3):e1012091.
+
+ doi: 10.1371/journal.pgen.1012091.  Online ahead of print. 
+
+### Authors
+
+[Marie-Claire Harrison](https://pubmed.ncbi.nlm.nih.gov/?term=Harrison+MC&cauthor_id=41843615)[1](https://pubmed.ncbi.nlm.nih.gov/41843615/#short-view-affiliation-1 "Department of Biological Sciences and Evolutionary Studies Initiative, Vanderbilt University, Nashville, Tennessee, United States of America."),[David C Rinker](https://pubmed.ncbi.nlm.nih.gov/?term=Rinker+DC&cauthor_id=41843615)[1](https://pubmed.ncbi.nlm.nih.gov/41843615/#short-view-affiliation-1 "Department of Biological Sciences and Evolutionary Studies Initiative, Vanderbilt University, Nashville, Tennessee, United States of America."),[Abigail L LaBella](https://pubmed.ncbi.nlm.nih.gov/?term=LaBella+AL&cauthor_id=41843615)[1](https://pubmed.ncbi.nlm.nih.gov/41843615/#short-view-affiliation-1 "Department of Biological Sciences and Evolutionary Studies Initiative, Vanderbilt University, Nashville, Tennessee, United States of America.")[2](https://pubmed.ncbi.nlm.nih.gov/41843615/#short-view-affiliation-2 "Department of Bioinformatics and Genomics, University of North Carolina at Charlotte, Kannapolis, North Carolina, United States of America.")[3](https://pubmed.ncbi.nlm.nih.gov/41843615/#short-view-affiliation-3 "Center for Computational Intelligence to Predict Health and Environmental Risks (CIPHER), University of North Carolina at Charlotte, Charlotte, North Carolina, United States of America."),[Dana A Opulente](https://pubmed.ncbi.nlm.nih.gov/?term=Opulente+DA&cauthor_id=41843615)[4](https://pubmed.ncbi.nlm.nih.gov/41843615/#short-view-affiliation-4 "Laboratory of Genetics, DOE Great Lakes Bioenergy Research Center, Center for Genomic Science Innovation, J. F. Crow Institute for the Study of Evolution, Wisconsin Energy Institute, University of Wisconsin-Madison, Madison, Wisconsin, United States of America.")[5](https://pubmed.ncbi.nlm.nih.gov/41843615/#short-view-affiliation-5 "Department of Biology, Villanova University, Villanova, Pennsylvania, United States of America."),[John F Wolters](https://pubmed.ncbi.nlm.nih.gov/?term=Wolters+JF&cauthor_id=41843615)[4](https://pubmed.ncbi.nlm.nih.gov/41843615/#short-view-affiliation-4 "Laboratory of Genetics, DOE Great Lakes Bioenergy Research Center, Center for Genomic Science Innovation, J. F. Crow Institute for the Study of Evolution, Wisconsin Energy Institute, University of Wisconsin-Madison, Madison, Wisconsin, United States of America."),[Xiaofan Zhou](https://pubmed.ncbi.nlm.nih.gov/?term=Zhou+X&cauthor_id=41843615)[6](https://pubmed.ncbi.nlm.nih.gov/41843615/#short-view-affiliation-6 "Guangdong Province Key Laboratory of Microbial Signals and Disease Control, Integrative Microbiology Research Center, South China Agricultural University, Guangzhou, China."),[Xing-Xing Shen](https://pubmed.ncbi.nlm.nih.gov/?term=Shen+XX&cauthor_id=41843615)[7](https://pubmed.ncbi.nlm.nih.gov/41843615/#short-view-affiliation-7 "Zhejiang Key Laboratory of Biology and Ecological Regulation of Crop Pathogens and Insects, Institute of Insect Sciences, Zhejiang University, Hangzhou, China."),[Marizeth Groenewald](https://pubmed.ncbi.nlm.nih.gov/?term=Groenewald+M&cauthor_id=41843615)[8](https://pubmed.ncbi.nlm.nih.gov/41843615/#short-view-affiliation-8 "Westerdijk Fungal Biodiversity Institute, Utrecht, The Netherlands."),[Chris Todd Hittinger](https://pubmed.ncbi.nlm.nih.gov/?term=Hittinger+CT&cauthor_id=41843615)[4](https://pubmed.ncbi.nlm.nih.gov/41843615/#short-view-affiliation-4 "Laboratory of Genetics, DOE Great Lakes Bioenergy Research Center, Center for Genomic Science Innovation, J. F. Crow Institute for the Study of Evolution, Wisconsin Energy Institute, University of Wisconsin-Madison, Madison, Wisconsin, United States of America."),[Antonis Rokas](https://pubmed.ncbi.nlm.nih.gov/?term=Rokas+A&cauthor_id=41843615)[1](https://pubmed.ncbi.nlm.nih.gov/41843615/#short-view-affiliation-1 "Department of Biological Sciences and Evolutionary Studies Initiative, Vanderbilt University, Nashville, Tennessee, United States of America.")
+
+### Affiliations
+
+*   1 Department of Biological Sciences and Evolutionary Studies Initiative, Vanderbilt University, Nashville, Tennessee, United States of America.
+*   2 Department of Bioinformatics and Genomics, University of North Carolina at Charlotte, Kannapolis, North Carolina, United States of America.
+*   3 Center for Computational Intelligence to Predict Health and Environmental Risks (CIPHER), University of North Carolina at Charlotte, Charlotte, North Carolina, United States of America.
+*   4 Laboratory of Genetics, DOE Great Lakes Bioenergy Research Center, Center for Genomic Science Innovation, J. F. Crow Institute for the Study of Evolution, Wisconsin Energy Institute, University of Wisconsin-Madison, Madison, Wisconsin, United States of America.
+*   5 Department of Biology, Villanova University, Villanova, Pennsylvania, United States of America.
+*   6 Guangdong Province Key Laboratory of Microbial Signals and Disease Control, Integrative Microbiology Research Center, South China Agricultural University, Guangzhou, China.
+*   7 Zhejiang Key Laboratory of Biology and Ecological Regulation of Crop Pathogens and Insects, Institute of Insect Sciences, Zhejiang University, Hangzhou, China.
+*   8 Westerdijk Fungal Biodiversity Institute, Utrecht, The Netherlands.
+
+*    PMID: **41843615**
+*    DOI: [10.1371/journal.pgen.1012091](https://doi.org/10.1371/journal.pgen.1012091)
+
+ Item in Clipboard 
+
+ Full text links Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Abstract
+
+Antifungal drug resistance is a major challenge in fungal infection management. Numerous genomic changes are known to contribute to acquired drug resistance in clinical isolates of specific pathogens, but whether they broadly explain natural resistance across entire lineages is unknown. We leveraged genomic, ecological, and phenotypic trait data from naturally sampled strains from nearly all known species in subphylum Saccharomycotina to examine the evolution of resistance to eight antifungal drugs. The phylogenetic distribution of drug resistance varied by drug; fluconazole resistance was widespread, while 5-fluorocytosine resistance was rare, except in Lipomycetales. A random forest algorithm trained on genomic data predicted drug-resistant yeasts with 54-75% accuracy. Fluconazole resistance was consistently predicted with the highest accuracy (75.2%). Furthermore, fluconazole resistance prediction accuracy was similar between models trained on genome-wide variation in the presence and number of InterPro protein annotations across Saccharomycotina (75.2%) and those trained on amino acid sequence alignment data of Erg11, a protein known to be involved in fluconazole resistance (74.3-74.9%). Interestingly, the top Erg11 residues for predicting fluconazole resistance across Saccharomycotina do not overlap with, are not spatially close to, and are less conserved than those previously linked to resistance in clinical isolates of Candida albicans. In silico deep mutational scanning of the C. albicans Erg11 protein reveals that amino acid variants implicated in clinical cases of resistance are almost universally destabilizing while variants in our most informative residues are energetically more neutral, explaining why the latter are much more common than the former in natural populations. Importantly, previous experimental analyses of C. albicans Erg11 have shown that amino acid variation in our most informative residues, despite having never been directly implicated in clinical cases, can directly contribute to resistance. Our results suggest that studies of natural resistance in yeast species never encountered in the clinic will yield a fuller understanding of antifungal drug resistance.
+
+Copyright: © 2026 Harrison et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+I have read the journal’s policy and the authors of this manuscript have the following competing interests: AR is a Scientific Consultant for LifeMine Therapeutics, Inc. All other authors declare no conflicts of interest.
+
+## Similar articles
+
+*   [Machine learning identifies novel signatures of antifungal drug resistance in _Saccharomycotina_ yeasts.](https://pubmed.ncbi.nlm.nih.gov/40654776/)Harrison MC, Rinker DC, LaBella AL, Opulente DA, Wolters JF, Zhou X, Shen XX, Groenewald M, Hittinger CT, Rokas A.Harrison MC, et al.bioRxiv [Preprint]. 2025 May 10:2025.05.09.653161. doi: 10.1101/2025.05.09.653161.bioRxiv. 2025.PMID: 40654776 Free PMC article.Preprint.  
+*   [Resistance in human pathogenic yeasts and filamentous fungi: prevalence, underlying molecular mechanisms and link to the use of antifungals in humans and the environment.](https://pubmed.ncbi.nlm.nih.gov/27697142/)Jensen RH.Jensen RH.Dan Med J. 2016 Oct;63(10):B5288.Dan Med J. 2016.PMID: 27697142 Review.  
+*   [Genetic variation and mutational determinants of azole resistance in Candida albicans strains of oropharyngeal colonization in HIV patients and bloodstream infections.](https://pubmed.ncbi.nlm.nih.gov/41724950/)Tsai MH, Hsieh CH, Tsai IA, Chang CM, Chen TW, Hsu JF, Chu SM, Huang HR, Wang SH, Lu JJ.Tsai MH, et al.J Biomed Sci. 2026 Feb 22;33(1):20. doi: 10.1186/s12929-026-01231-4.J Biomed Sci. 2026.PMID: 41724950 Free PMC article.  
+*   [Candida and candidaemia. Susceptibility and epidemiology.](https://pubmed.ncbi.nlm.nih.gov/24192246/)Arendrup MC.Arendrup MC.Dan Med J. 2013 Nov;60(11):B4698.Dan Med J. 2013.PMID: 24192246 Review.  
+*   [Rapid detection of ERG11 gene mutations in clinical Candida albicans isolates with reduced susceptibility to fluconazole by rolling circle amplification and DNA sequencing.](https://pubmed.ncbi.nlm.nih.gov/19682357/)Wang H, Kong F, Sorrell TC, Wang B, McNicholas P, Pantarat N, Ellis D, Xiao M, Widmer F, Chen SC.Wang H, et al.BMC Microbiol. 2009 Aug 14;9:167. doi: 10.1186/1471-2180-9-167.BMC Microbiol. 2009.PMID: 19682357 Free PMC article.  
+
+[See all similar articles](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed&from_uid=41843615)
+
+## Related information
+
+*   [GEO Profiles](https://www.ncbi.nlm.nih.gov/geoprofiles?linkname=pubmed_geoprofiles&from_uid=41843615 "GEO records associated with pubmed record")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Public Library of Science](https://dx.plos.org/10.1371/journal.pgen.1012091)
+
+**Full text links**[x]
+
+[![Image 7: Public Library of Science full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--journals.plos.org-resource-img-external-pgen_120x30.png) Public Library of Science](https://dx.plos.org/10.1371/journal.pgen.1012091 "See full text options at Public Library of Science")
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41843615/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41843615%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/41843615/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41843615%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41843615%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/41843615/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/?pagename=pubmed%3Apubmed%3Aabstract%3ANONE)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)

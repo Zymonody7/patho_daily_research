@@ -1,0 +1,694 @@
+Title: LaPro-DTA: Latent Dual-View Drug Representations and Salient Protein Feature Extraction for Generalizable Drug--Target Affinity Prediction
+
+URL Source: https://arxiv.org/pdf/2603.14792v1
+
+Published Time: Tue, 17 Mar 2026 05:55:58 GMT
+
+Number of Pages: 14
+
+Markdown Content:
+# LaPro-DTA: Latent Dual-View Drug Representations and Salient Protein Feature Extraction for Generalizable Drug–Target Affinity Prediction 
+
+## Zihan Dun 1 , Liuyi Xu 1 , An-Yang Lu 1 , Shuang Li 2 , Yining Qian 3∗
+
+> 1
+
+## College of Information Science and Engineering, Northeastern University, Shenyang 110819, China 
+
+> 2
+
+## School of Artificial Intelligence, Beihang University, Beijing 100000, China 
+
+> 3
+
+## School of Computer Science and Engineering, Northeastern University, Shenyang 110819, China dunzihan@stumail.ysu.edu.cn, {xuliuyi, luanyang }@mails.neu.edu.cn, shuangliai@buaa.edu.cn, qianyiningning@126.com 
+
+## Abstract 
+
+Drug–target affinity prediction is pivotal for accel-erating drug discovery, yet existing methods suffer from significant performance degradation in realis-tic cold-start scenarios (unseen drugs/targets/pairs), primarily driven by overfitting to training instances and information loss from irrelevant target se-quences. In this paper, we propose LaPro-DTA, a framework designed to achieve robust and gen-eralizable DTA prediction. To tackle overfitting, we devise a latent dual-view drug representation mechanism. It synergizes an instance-level view to capture fine-grained substructures with stochas-tic perturbation and a distribution-level view to distill generalized chemical scaffolds via semantic remapping, thereby enforcing the model to learn transferable structural rules rather than memoriz-ing specific samples. To mitigate information loss, we introduce a salient protein feature extraction strategy using pattern-aware top-k pooling, which effectively filters background noise and isolates high-response bioactive regions. Furthermore, a cross-view multi-head attention mechanism fuses these purified features to model comprehensive in-teractions. Extensive experiments on benchmark datasets demonstrate that LaPro-DTA significantly outperforms state-of-the-art methods, achieving an 8% MSE reduction on the Davis dataset in the chal-lenging unseen-drug setting, while offering inter-pretable insights into binding mechanisms. 
+
+## 1 Introduction 
+
+Drug–target affinity (DTA) measures the binding strength be-tween drug molecules and target proteins, serving as a cor-nerstone in virtual screening and lead optimization [Chen 
+
+et al. , 2025; Li et al. , 2023]. While traditional biochemi-cal assays provide precise measurements, they are often pro-hibitively expensive and time-consuming, limiting their scal-ability for large-scale chemical space exploration [Prasad and Mailankody, 2017]. Consequently, developing efficient data-
+
+> ∗Corresponding author.
+
+driven computational methods has become indispensable for accelerating modern drug discovery. The complexity of molecular interactions has driven a paradigm shift from classical machine learning to deep learn-ing architectures [Kim et al. , 2021; Watanabe et al. , 2021]. Early computational approaches mainly employed machine learning techniques for DTA prediction [Ain et al. , 2015; He et al. , 2017]. With the adoption of deep learning, DTA prediction methods have increasingly moved toward end-to-end models that learn task-specific representations directly from raw input data [Yang et al. , 2024; Li et al. , 2020; Zhao et al. , 2020; Fang et al. , 2023]. DeepDTA [ ¨ Ozt¨ urk 
+
+et al. , 2018] used CNNs to model local patterns in pro-tein and drug sequences, while GraphDTA [Nguyen et al. ,2021] adopted graph neural networks to represent molecu-lar structures. To improve the accuracy of DTA prediction, recent works have been proposed to investigate the capture of more effective drug features by incorporating multi-task learning methods with reconstruction tasks or using multi-model approaches [Li et al. , 2021; Zhang et al. , 2024]. For instance, [Qian et al. , 2025; Shah et al. , 2025] have been pro-posed to enhance feature representation via reconstruction, and DMFF-DTA [He et al. , 2025] has been proposed to inves-tigate the integration of sequence and graph structural infor-mation from both drugs and target proteins to improve affinity prediction performance. Collectively, these methods have es-tablished strong baselines on standard benchmarks. However, a critical gap remains: their success is largely confined to random split settings, where test data follows the same distribution as training data. In realistic cold-start sce-narios—where models must predict affinity for unseen drugs or targets—existing state-of-the-art methods suffer from sig-nificant performance degradation [Huang et al. , 2025; Chop-para and Lokesh, 2025]. This generalization gap suggests that current methods often rely on memorizing training in-stances rather than learning the transferable chemical rules governing molecular interactions. We attribute this failure to two fundamental bottlenecks in current DTA representation learning: (1) Overfitting to instances: Existing approaches typically treat drug–target pairs as isolated labels. Lacking a mechanism to capture generalizable Structure-Activity Re-lationships (SAR) [Bemis and Murcko, 1996], models tend to memorize specific training samples and their syntactic shortcuts rather than learning transferable chemical scaffolds. 
+
+> arXiv:2603.14792v1 [cs.LG] 16 Mar 2026
+
+This overfitting is often exacerbated by auxiliary reconstruc-tion tasks, which can introduce optimization conflicts distinct from the primary affinity objective [Shah et al. , 2025]. (2) Information loss from irrelevant target sequences: Drug– target binding is inherently localized to specific active sites, whereas most methods compress the full-length target se-quence into a single global representation. This mismatch causes salient binding signals to be diluted by the vast non-functional protein background [Zhao et al. , 2019]. With-out a mechanism to prioritize high-response features, models tend to average out critical local patterns with irrelevant pro-tein segments, which severely compromises their capability to generalize to unseen targets [Huang et al. , 2021]. To bridge this gap, we propose LaPro-DTA: La tent dual-view drug representations and salient Pro tein feature extrac-tion, a novel framework designed for robust and generaliz-able DTA prediction. We devise a dual-view representation learning mechanism for drugs and a salient feature extrac-tion strategy for proteins, respectively. Furthermore, a cross-view multi-head attention mechanism facilitates deep inter-action between these purified representations for comprehen-sive affinity modeling. Our main contributions are: • We propose a latent dual-view drug representation framework that synergizes an instance-level view to cap-ture fine-grained substructures and a distribution-level view to distill generalized chemical scaffolds via seman-tic remapping. By incorporating a stochastic encoding strategy, we provide a mathematically grounded solution acting as implicit regularization to effectively mitigate overfitting in data-scarce cold-start scenarios. • We develop a salient protein feature extraction strategy utilizing pattern-aware top-k pooling. This mechanism functions as a semantic filter, explicitly discarding re-dundancy from non-binding regions while preserving the most discriminative bio-active features. Crucially, this selective retention mitigates the loss of critical in-formation, facilitating precise interaction modeling. • We conduct extensive evaluations on standard bench-marks and a strictly disjoint out-of-sample test set, demonstrating that LaPro-DTA establishes new state-of-the-art performance across unseen settings and offers superior interpretability through visualized residue-level saliency analysis. 
+
+## 2 Methodology 
+
+As illustrated in Figure 1, LaPro-DTA comprises three core components: latent dual-view drug representation, salient protein feature extraction, and cross-view feature fusion with affinity prediction. 
+
+2.1 Problem Formulation 
+
+We formulate the DTA prediction task as a regression prob-lem. Let D = {d1, d 2, . . . , d N } denote the set of drug molecules, where each drug is represented by its SMILES string [Weininger, 1988]. Similarly, let T = {t1, t 2, . . . , t M }
+
+denote the set of target proteins, where each target is rep-resented by its amino acid sequence. The interactions are provided as an affinity matrix Y ∈ RN ×M , where yij rep-resents the continuous binding affinity value between drug di
+
+and target tj . The objective is to learn a predictive function 
+
+f : D×T → R that accurately estimates the affinity score for a given drug-target pair. Crucially, under cold-start settings, the drug d or target t encountered at inference time is unseen during training. 
+
+2.2 Drug Representation Modeling and Latent Dual-View Mechanism 
+
+Main Idea. To mitigate overfitting , we introduce a latent dual-view mechanism. This design discourages the model from capturing syntactic shortcuts, shifting its focus to fea-tures governed by distributional regularities. 
+
+Instance-Level View. We define a shared encoder E to ex-tract latent representations of drugs. Specifically, E first em-ploys a GatedCNN block [Dauphin et al. , 2017] to capture local substructural features from the input drug embedding 
+
+Xd ∈ RLd×dde . This block consists of three stacked con-volutional layers where information flow is controlled by the element-wise product of a linear convolutional feature map and a sigmoid-activated gate. Subsequently, the encoder projects these features into latent distribution parameters: the mean μins ∈ Rdz and the log-variance hvar ∈ Rdz .To enhance representation robustness, we propose a
+
+stochastic encoding strategy (SES) . The instance-level sam-pling process is defined as: 
+
+zins = μins + ϵ ⊙ σins , ϵ ∼ N (0, I) (1) where σins = λ · exp   12 ReLU (hvar ). Here, we en-force a hard architectural constraint using a ReLU activa-tion to ensure the standard deviation has a lower bound λ,preventing the latent space from collapsing into determinis-tic points. Theoretically, this stochastic sampling under the lower-bound constraint acts as an implicit Tikhonov regular-ization [Bishop, 1995]. To demonstrate this, let F : Rdz → R
+
+denote the downstream affinity prediction function. To iso-late the regularization effect, we temporarily focus on the instance-level view zins by treating other views and target features as constants. By applying a first-order Taylor expan-sion to F around μins , the expected loss under perturbation 
+
+ϵ can be approximated as: 
+
+Eϵ[ ˜L] ≈ Eϵ
+
+(y − F (μins ) − ∇ F ⊤(σins ⊙ ϵ)) 2
+
+= LM SE + X
+
+> i
+
+(σins,i · ∂zi F )2
+
+≥ L M SE + λ2∥∇ F (μins )∥22
+
+(2) where the cross-terms vanish since E[ϵ] = 0. The constraint 
+
+σins ≥ λ imposes a strict penalty on the gradient norm 
+
+∥∇ F ∥22. This effectively smoothes the decision boundaries of the prediction function, thereby preventing overfitting in data-scarce cold-start settings. 
+
+Distribution-Level View. Relying solely on instance-level representations suffers from a critical limitation: models tend to memorize specific input details, failing to learn the generalized regularities necessary for extrapolating to un-seen drug scenarios. To bridge this gap, we introduce a O=C1NC(=O)[C@@H] (c2ccccc2)O1    
+
+> Drug SMILES Target Sequence
+> HHWGYGK......VNFN EELMVDPLKNRQIKASFK
+> (a) Drug Representation Modeling
+> (b) Target Representation Modeling
+> Joint Context Construction
+> (c) Fusion and Prediction
+> LayerNorm
+> MLP
+> Predicted Affinity
+> Avg-Pooling
+> Concat
+> Multi-Head Attention Figure 1: Overview of the LaPro-DTA architecture. (a) Drug Representation: Extracts drug features using a dual-view mechanism to capture both instance-level and distribution-level view. (b) Target Representation: Extracts target features by selectively focusing on key bioactive segments rather than the whole sequence. (c) Feature Fusion and Prediction: Aligns drug and target features to capture fine-grained interactions between them. The red line denotes the DeCNN-to-shared-encoder route that generates the distribution-level view.
+
+distribution-level view designed to distill generalized struc-tural regularities from the chemical space. Formally, we em-ploy a DeCNN module [Zeiler et al. , 2010] to map the com-pressed instance latent zins to an intermediate feature map 
+
+Hremap ∈ RLd×dde . Distinct from autoencoders that depend on token-wise reconstruction losses to memorize inputs, our approach performs a task-driven semantic remapping . We feed Hremap back into the shared encoder E to generate the final distribution-level representation zdis :
+
+[μdis , σdis ] = E(Hremap ) (3) 
+
+zdis = μdis + ϵ ⊙ σdis , ϵ ∼ N (0 , I) (4) In this process, by eliminating the constraint of token-wise reconstruction, we decouple feature learning from the memo-rization of trivial input details. Instead, under the exclusive guidance of the discriminative DTA objective, the remap-ping process is compelled to distill only those distributional regularities that are predictively critical for drug-target in-teractions. This mechanism effectively filters out instance-specific noise while retaining the robust chemical scaffolds necessary for accurate affinity modeling, thereby providing a distribution-level perspective with enhanced generalization capabilities. 
+
+Dual-View Synergy. Guided by the SAR principle [Bemis and Murcko, 1996], our mechanism addresses the challenge where similar structures share bioactivities yet subtle varia-tions alter affinity. The distribution-level view captures gen-eralized chemical scaffolds, enabling inference on unseen en-tities via broad structural regularities. Complementarily, the instance-level view resolves fine-grained atomic details, dis-tinguishing specific interactions within local substructures. Integrating these perspectives balances the extrapolation ca-pability needed for cold-start scenarios with the discrimina-tion precision required for accurate prediction. 
+
+2.3 Salient Target Features Extraction with Pattern-Aware Top-K Pooling 
+
+Main Idea. To mitigate information loss caused by global compression, we propose a salient feature extraction strategy that acts as a selective filter. Using top-k pooling, this mech-anism prioritizes high-activation features, explicitly retaining only the most discriminative local patterns while filtering out redundancy. We use stacked CNNs to extract local represen-tations from the target protein embedding Xt ∈ RLt×de .With this architecture, the convolutional filters act as spe-cific feature detectors, capturing contextualized local struc-tures ( e.g. , motifs) into feature channels. 
+
+Pattern-Aware Top-K Pooling. [Kalchbrenner et al. , 2014] demonstrated the effectiveness of k-max pooling in capturing the most informative sequence elements. Drawing on this, we adapt this mechanism to construct compact salient features .To retain high-value information, we adopt a high-activation priority strategy. This design explicitly preserves dominant residue sets, ensuring that the downstream attention mecha-nism focuses on the most reactive biochemical patterns. For-mally, let Hconv ∈ RL′ 
+
+> t×dt
+
+denote the convolutional feature map, where dt is the number of filters. We identify the K
+
+most significant activations for each channel independently: 
+
+Ht = TopK( Hconv , K ) (5) This representation Ht ∈ RK×dt aggregates the top-k ac-tivations, where each entry corresponds to a critical residue within the sequence. This hyperparameter selection aligns with the sparsity assumption of binding pockets, suggesting that identifying the top few strongest activations per channel is sufficient to characterize the presence of specific biochem-ical motifs while suppressing redundant information. Finally, the salient features serve as the input for the fusion module. This ranking-based profile aggregates the strongest responses across all pattern detectors, robustly capturing key binding evidence. This capability is corroborated by our analysis of residue-level saliency maps in Section 3.8. 
+
+2.4 Cross-View Multi-Head Attention Fusion and Affinity Prediction 
+
+Main Idea. To leverage the dual-view drug representations and high-response protein features, we propose a cross-view multi-head attention fusion module. Unlike global pooling which causes attention degeneration, our top-k strategy pre-serves salient protein features, providing granular context for fine-grained interaction modeling. 
+
+Joint Context Construction. Drug vectors ( zins and zdis )are broadcasted to match the cardinality K of the protein seg-ments ( Ht) and concatenated, followed by a linear projection to form context matrices Cins ∈ RK×dt and Cdis ∈ RK×dt .This design addresses two realistic scenarios: (1) instance-level detail context ( Cins ) captures precise atom-level de-tails for identifying trained or similar drugs; (2) distribution-level representation context ( Cdis ) facilitates cold-start gen-eralization by leveraging scaffold similarity to infer binding potential for unseen molecules. The drug representations 
+
+zins , zdis ∈ Rdz are spatially aligned with the protein seg-ments Ht ∈ RK×dt via broadcasting. The construction of the local context matrix Cins is defined as: 
+
+Cins = ϕ  [1K z⊤ 
+
+> ins
+
+∥ Ht]Wi + bi
+
+ (6) where 1K ∈ RK×1 is a vector of ones, and ∥ denotes the concatenation along the feature dimension. Similarly, the distribution-level representation matrix Cdis is formulated as: 
+
+Cdis = ϕ  [1K z⊤ 
+
+> dis
+
+∥ Ht]Wd + bd
+
+ (7) In both cases, Wi, Wd ∈ R(dz +dt)×dt are learnable projec-tion matrices and ϕ(·) is the non-linear activation function. 
+
+Attention Fusion and Prediction. We employ multi-head attention where protein segments Ht serve as the Query ( Q), while the joint contexts act as both Key ( K) and Value ( V). For the instance-level view interaction: 
+
+Q = Ht, K = V = Cins , Oins = Softmax 
+
+ QK ⊤
+
+√dt
+
+
+
+V
+
+(8) The global output Odis is computed analogously. Finally, the affinity ˆy is predicted by aggregating the dual-view features: 
+
+ˆy = MLP (LN ([Mean( Oins ) ∥ Mean( Odis )])) (9) 
+
+Optimization Objective: We adopt the Mean Squared Error (MSE) as the objective function to minimize the discrepancy between the ground-truth affinity yi and the predicted value 
+
+ˆyi. The loss L is defined as: 
+
+LM SE = 1
+
+N
+
+> N
+
+X
+
+> i=1
+
+(yi − ˆyi)2 (10)              
+
+> Dataset Drugs Targets Interactions Affinity metrics KIBA 2,111 229 118,254 Kd, K iand IC 50
+> Davis 68 442 30,056 Kd
+> Table 1: Summary of the datasets used in our experiments.
+
+## 3 Experiments and Results 
+
+3.1 Datasets 
+
+We evaluate LaPro-DTA on two benchmark datasets: Davis [Davis et al. , 2011] and KIBA [Tang et al. , 2014]. Fol-lowing standard protocols, the interaction values in Davis are converted into their negative logarithmic forms ( pK d). De-tailed statistics are summarized in Table 1. 
+
+Settings. To rigorously assess generalization, we design two distinct experimental protocols: 
+
+Cold-Start Setting (Primary Focus). To simulate realistic drug discovery, we randomly reserve 20% of drugs and tar-gets as unseen entities. Based on this partition, the dataset is systematically stratified into three distinct scenarios: unseen drug (test drugs × training targets), unseen target (training drugs × test targets), and unseen pair (both unseen). For each scenario, the interactions are split equally into validation and testing sets, ensuring that test entities remain strictly unob-served during training. 
+
+Random Split Setting. Additionally, we conduct experi-ments under the standard random split setting (randomly di-viding interactions into train/validation/test sets) to serve as a performance reference. Detailed results for this setting are provided in Table S2 of the Supplementary Material. 
+
+3.2 Experimental Details 
+
+Hyperparameter Settings. LaPro-DTA is implemented in PyTorch 2.0 and trained on a single NVIDIA RTX 3090 GPU. The model is optimized using Adam with a learning rate of 
+
+5 × 10 −4 and a batch size of 256. To mitigate overfitting, we employ an early stopping strategy with a patience of 20 epochs (maximum 100 epochs). The Drug Encoder employs a 3-block Gated CNN (kernel size 4) with a latent dimension of d = 96 . The Protein Encoder consists of a 3-layer CNN followed by top-k pooling ( k = 4 ). For the distribution-level view, a DeCNN restores feature maps processed by a Re-encoder that shares weights with the Drug Encoder. Fi-nally, the fusion module utilizes multi-head attention ( h = 4 )followed by a prediction MLP. Comprehensive hyperparame-ter details are provided in the Supplementary Material. 
+
+Evaluation Metrics. Consistent with [He et al. , 2025], per-formance is evaluated using four standard metrics: Mean Ab-solute Error ( MAE ) and Mean Squared Error ( MSE ) quan-tify the deviation between predicted and actual affinities. The Model Davis KIBA MSE (std) ↓ MAE (std) ↓ CI (std) ↑ r2m (std) ↑ MSE (std) ↓ MAE (std) ↓ CI (std) ↑ r2m (std) ↑
+
+Setting: Unseen Drug 
+
+DeepDTA (2018) 0.745 (0.008) 0.704 (0.050) 0.699 (0.045) 0.078 (0.023) 0.478 (0.007) 0.485 (0.004) 0.688 (0.006) 0.263 (0.002) AttentionDTA (2019) 0.656 (0.004) 0.622 (0.003) 0.682 (0.010) 0.104 (0.004) 0.433 (0.041) 0.432 (0.031) 0.722 (0.025) 0.322 (0.030) Co-VAE (2021) 0.577 (0.009) 0.523 (0.001) 0.616 (0.005) 0.128 (0.014) 0.429 (0.019) 0.459 (0.041) 0.745 (0.010) 0.334 (0.019) GraphDTA (2021) 0.590 (0.016) 0.552 (0.014) 0.695 (0.008) 0.077 (0.010) 0.473 (0.021) 0.526 (0.020) 0.738 (0.004) 0.282 (0.032) ColdDTA (2023) 0.613 (0.012) 0.522 (0.008) 0.716 (0.020) 0.146 (0.012) 0.427 (0.018) 0.448 (0.030) 0.722 (0.008) 0.329 (0.029) TransVAE-DTA (2024) 0.654 (0.030) 0.559 (0.016) 0.570 (0.021) 0.030 (0.017) 0.537 (0.047) 0.501 (0.036) 0.715 (0.024) 0.201 (0.031) PairVAE (2025) 0.566 (0.004) 0.498 (0.007) 0.730 (0.003) 0.134 (0.036) 0.469 (0.031) 0.469 (0.016) 0.727 (0.007) 0.328 (0.024) 
+
+LaPro-DTA (ours) 0.519 (0.010) 0.454 (0.009) 0.737 (0.001) 0.191 (0.028) 0.403 (0.014) 0.409 (0.014) 0.755 (0.004) 0.352 (0.024) 
+
+Setting: Unseen Target 
+
+DeepDTA (2018) 0.884 (0.024) 0.711 (0.008) 0.751 (0.033) 0.183 (0.015) 0.542 (0.012) 0.498 (0.019) 0.706 (0.015) 0.365 (0.024) AttentionDTA (2019) 0.565 (0.014) 0.560 (0.022) 0.814 (0.002) 0.450 (0.033) 0.543 (0.029) 0.493 (0.013) 0.704 (0.021) 0.349 (0.023) Co-VAE (2021) 0.570 (0.018) 0.518 (0.016) 0.811 (0.011) 0.443 (0.010) 0.531 (0.013) 0.523 (0.020) 0.712 (0.005) 0.351 (0.015) GraphDTA (2021) 0.565 (0.010) 0.527 (0.011) 0.763 (0.003) 0.399 (0.014) 0.501 (0.030) 0.531 (0.026) 0.665 (0.014) 0.241 (0.040) ColdDTA (2023) 0.554 (0.008) 0.457 (0.012) 0.818 (0.024) 0.428 (0.020) 0.491 (0.018) 0.515 (0.030) 0.685 (0.027) 0.259 (0.012) TransVAE-DTA (2024) 0.834 (0.034) 0.559 (0.012) 0.728 (0.017) 0.201 (0.022) 0.500 (0.038) 0.524 (0.047) 0.651 (0.038) 0.208 (0.022) PairVAE (2025) 0.637 (0.010) 0.497 (0.009) 0.813 (0.006) 0.373 (0.050) 0.516 (0.033) 0.502 (0.005) 0.716 (0.014) 0.371 (0.025) 
+
+LaPro-DTA (ours) 0.519 (0.016) 0.449 (0.007) 0.828 (0.007) 0.473 (0.021) 0.489 (0.010) 0.491 (0.015) 0.726 (0.006) 0.403 (0.019) 
+
+Setting: Unseen Pair 
+
+DeepDTA (2018) 0.886 (0.027) 0.737 (0.012) 0.712 (0.030) 0.072 (0.030) 0.708 (0.035) 0.590 (0.004) 0.631 (0.009) 0.166 (0.020) AttentionDTA (2019) 0.837 (0.020) 0.696 (0.002) 0.715 (0.006) 0.114 (0.006) 0.674 (0.036) 0.564 (0.018) 0.631 (0.018) 0.165 (0.027) Co-VAE (2021) 0.828 (0.026) 0.617 (0.025) 0.597 (0.011) 0.096 (0.005) 0.640 (0.005) 0.565 (0.019) 0.658 (0.006) 0.185 (0.002) GraphDTA (2021) 0.874 (0.036) 0.606 (0.023) 0.631 (0.021) 0.032 (0.020) 0.643 (0.033) 0.573 (0.016) 0.597 (0.013) 0.055 (0.008) ColdDTA (2023) 0.819 (0.012) 0.622 (0.008) 0.654 (0.014) 0.117 (0.013) 0.629 (0.010) 0.570 (0.016) 0.641 (0.008) 0.170 (0.014) TransVAE-DTA (2024) 0.911 (0.039) 0.632 (0.013) 0.554 (0.020) 0.018 (0.012) 0.692 (0.018) 0.590 (0.038) 0.497 (0.003) 0.071 (0.033) PairVAE (2025) 0.820 (0.032) 0.582 (0.001) 0.741 (0.010) 0.010 (0.003) 0.621 (0.020) 0.560 (0.006) 0.672 (0.009) 0.201 (0.012) LaPro-DTA (ours) 0.727 (0.016) 0.546 (0.006) 0.770 (0.019) 0.166 (0.020) 0.637 (0.018) 0.558 (0.014) 0.660 (0.005) 0.194 (0.016) 
+
+Table 2: Performance comparison on Davis and KIBA datasets under cold-start scenarios. ( Best , Second Best). Results are reported as mean (standard deviation) over five independent runs. 
+
+Figure 2: Ablation study on the Davis dataset. 
+
+Concordance Index ( CI ) measures the ranking consistency of the model. Additionally, r2m [Pratim Roy et al. , 2009] is em-ployed to assess the external predictive capability and relia-bility of the model on the test sets. 
+
+Baselines We benchmark LaPro-DTA against six representa-tive state-of-the-art methods: DeepDTA [ ¨ Ozt¨ urk et al. , 2018] employs dual CNNs for both drug and target encoding; Atten-tionDTA [Zhao et al. , 2019] integrates attention mechanisms with CNNs and BiRNNs; Co-VAE [Li et al. , 2021] applies a co-variational autoencoder for joint representation learn-ing; GraphDTA [Nguyen et al. , 2021] processes drug molec-ular graphs using Graph Isomorphism Networks; TransVAE-DTA [Zhou et al. , 2024] combines transformers with VAEs 
+
+Figure 3: Parameter sensitivity analysis on the Davis dataset. 
+
+in a hybrid framework. Notably, ColdDTA [Fang et al. ,2023] performs data augmentation by randomly removing atomic groups from drug molecules to enhance generalization in cold-start scenarios. PairVAE [Qian et al. , 2025] utilizes multi-task learning combined with unsupervised strategies to improve model generalization. To ensure rigorous fairness, all baselines are re-trained on the experimental datasets, with hyperparameters referenced from the original literature and optimized on the specific experimental data. 
+
+3.3 Performance Comparison and Analysis 
+
+Table 2 reveals a universal performance decline across all the methods compared to random split benchmarks (details in Supplementary Materials), confirming the inherent diffi-culty of generalizing to unseen entities. Despite this chal-lenge, LaPro-DTA consistently establishes new state-of-the-art results across most scenarios. In the unseen drug setting, the model demonstrates exceptional generalization, reducing MSE by 8.3% on Davis and 6.1% on KIBA relative to the w/o distribution-level view full model Figure 4: Saliency visualization of molecules with and without distribution-level view integration, and t-SNE projection of learned drug representations. The distinct clustering of drugs sharing similar scaffolds demonstrates that the model effectively captures discriminative structural semantics, mapping chemically similar compounds into proximal latent regions.                          
+
+> PDBbind ID Year Affinity ( pK d)Pred. Affinity
+> 5txy 2017 5.460 5.476804 6qlp 2019 5.280 5.301821 5u0e 2017 5.110 5.134590 6i12 2019 5.570 5.541025 6ma2 2018 5.389 5.419472 6ajv 2019 5.039 5.130577 ............
+> Overall Performance (Mean MSE ↓)
+> Pair-VAE 1.179 HiSIF-DTA (Top-Down) 0.978
+> LaPro-DTA (Ours) 0.855
+
+Table 3: Predictive performance comparison on recent PDBbind en-tries (all methods evaluated under identical conditions). 
+
+strongest baselines. Similarly, in the unseen target scenario, it outperforms best methods by over 6.3% in terms of MSE on Davis. In the most rigorous unseen pair scenario, LaPro-DTA maintains competitive dominance. On the Davis dataset, it re-duces MSE by 11.3% and improves CI by 3.9% compared to PairVAE. On the larger KIBA dataset, while PairVAE yields a marginally lower MSE, our method achieves a superior MAE. Notably, unlike PairVAE which relies on a computationally intensive generative framework, LaPro-DTA employs an ef-ficient discriminative architecture. While PairVAE achieves marginally lower MSE on KIBA, our method strikes a supe-rior balance between accuracy and complexity, demonstrating that mitigating overfitting alone enables robust extrapolation without the heavy computational cost of generative augmen-tation. These results demonstrate the strong generalization capability of the proposed method. 
+
+3.4 Ablation Study and Parameter Sensitivity 
+
+Effectiveness of Model Components. To validate the spe-cific contribution of each module, we performed a compre-hensive ablation study on the Davis dataset, as illustrated in Figure 2. First, replacing the cross-view multi-head attention                                                                         
+
+> ID Year Structure SMILES True Pred. MSE Avg. 5txy 2017
+> O=C1NC(=...2)O1 5.46 5.48 0.001
+> 0.036 O1C(=O)...ccc1 5.46 5.28 0.034
+> O=C1O[C@...ccc1 5.46 5.20 0.067
+> O=C1O[C@...N1 5.46 5.25 0.043
+> 6qlp 2019
+> Cc1ccc(...@H]2O 5.28 5.30 0.001
+> 0.007 Cc1ccc(...)CO 5.28 5.26 0.001
+> Cc1ccc(...F)CO 5.28 5.19 0.008
+> Cc1ccc(...n1 5.28 5.14 0.019
+> 5u0e 2017
+> O=C1NC(...ccc1 5.11 5.13 0.001
+> 0.036 C([C@@H...ccc1 5.11 5.42 0.096
+> c1cc(C[...c1 5.11 5.20 0.008
+> O=C1[C@...=S 5.11 5.31 0.039
+> 6i12 2019
+> Cn1cc(N...3)cn1 5.57 5.54 0.001
+> 0.004 Cn1cc(N...O)cn1 5.57 5.60 0.001
+> Cn1cc(c...21)=O 5.57 5.65 0.007
+> Cn1ncc(...c3)c1 5.57 5.48 0.008
+> 6ma2 2018
+> COc1ccc...1cccs1 5.39 5.42 0.001
+> 0.028 COc1c([...cc1 5.39 5.66 0.075
+> c1([C@H...c1 5.39 5.57 0.031
+> COc1ccc...H]2)=O 5.39 5.46 0.005
+
+Table 4: Robustness analysis on recent PDBbind entries (SMILES variants). SMILES strings are truncated, denoted by “...”. 
+
+mechanism with simple feature concatenation (w/o Fusion, standard in [ ¨ Ozt¨ urk et al. , 2018; Li et al. , 2021]) results in the most severe degradation. This confirms that linear align-ment fails to fully integrate the complex interactions between drug and target views. Second, removing the distribution-level view while retaining only the instance-level view (w/o Dual-View) sharply increases error in the unseen pair set-ting. This supports the hypothesis that the distribution-level view captures transferable chemical scaffolds essen-tial for generalizing to novel entities. Meanwhile, replac-ing the structure-aware DeCNN module with an equivalent-parameter MLP (w/o DeCNN) degrades performance. This suggests that the inductive bias of convolution is better suited for preserving intrinsic molecular topology than flat projec-tions. Finally, substituting pattern-aware top-k pooling with standard max pooling (w/o TopK, as in [Zhou et al. , 2024; Zhang et al. , 2024]) leads to a notable decline. This val-HIS-094 GLY-131 VAL-134 
+
+> Visualization of Molecules Figure 5: A saliency visualization of the drug–target binding pocket, where colored regions indicate key residues identified by the model.
+
+idates that top-k strategy effectively preserves critical bio-active residues and mitigates information loss caused by non-essential background sequences. These components function synergistically to secure optimal performance. 
+
+Parameter Sensitivity. We evaluate the impact of K and 
+
+λ in Figure 3. Performance peaks at K = 4 ; larger values introduce background noise and cause information loss , val-idating the sparsity assumption of binding pockets. Similarly, 
+
+λ = 0 .1 yields the best results; lower values neglect global se-mantics while higher ones overwhelm instance’s local details, confirming 0.1 as the optimal balance for dual-view fusion. 
+
+3.5 Effectiveness of Distribution-Level View 
+
+To validate the capability of the distribution-level view in identifying drug scaffolds, we compared attention maps for structurally similar drugs, using Gefitinib as a case study (Figure 4). The baseline model relies solely on the instance-level view and exhibits structural myopia, causing it to overfit to spurious peripheral atoms. In contrast, the distribution-level view serves as a topological regularizer, redirecting fo-cus toward the conserved main skeleton and key pharma-cophores. This effect is further confirmed by t-SNE visualiza-tion [van der Maaten and Hinton, 2008], where related com-pounds show sharper clustering. These results demonstrate that the proposed synergy effectively corrects local biases by enforcing holistic structural constraints. 
+
+3.6 Robustness Analysis 
+
+Invariance to SMILES Permutations. To evaluate the gen-eralization capability of LaPro-DTA, we selected recent en-tries from the PDBbind dataset (as shown in Table 4). De-spite variations in SMILES linearization orders (generated by RDKit), LaPro-DTA exhibits remarkable stability. This ob-servation indicates that the SES design effectively mitigates the model’s reliance on shortcuts inherent in SMILES syn-tax, enabling a clear decoupling between molecular semantics and syntactic permutations, and thereby preserving intrinsic molecular semantics. 
+
+3.7 Out-of-Sample Test 
+
+To rigorously evaluate generalization under a strict and im-partial out-of-distribution setting, we adopt the external vali-dation protocol from HiSIF-DTA [Bi et al. , 2023]. To fairly assess zero-shot transferability, all compared methods utilize models trained solely on the Davis dataset. These models are evaluated on 95 fresh PDBbind pairs that have zero overlap with the Davis dataset, ensuring no data leakage (see Supple-mentary Materials for details). As detailed in Table 3, LaPro-DTA achieves an MSE of 0.855 , significantly outperform-ing the HiSIF-DTA (12%) under identical conditions. These results confirm that our model effectively captures transfer-able physicochemical semantics rather than dataset-specific biases, enabling robust generalization to realistic molecular distributions beyond standard benchmarks. 
+
+3.8 Interpretability of Protein Feature Extraction 
+
+Binding Interface Localization. Figure 5 illustrates the in-teraction for the representative complex PDB 5txy. We con-ducted this visualization analysis using the Grad-CAM tech-nique [Selvaraju et al. , 2017] and VMD software [Humphrey 
+
+et al. , 1996]. The pattern-aware top-k Pooling effectively fil-ters non-essential protein regions, concentrating high atten-tion scores strictly around the actual binding pocket. No-tably, critical contacting residues—including HIS-094, GLY-131, and VAL-134—are identified. This spatial alignment confirms that LaPro-DTA prioritizes physical interaction in-terfaces over irrelevant background sequences. 
+
+## 4 Conclusion 
+
+In this paper, we proposed LaPro-DTA to tackle the critical generalization bottleneck in cold-start DTA prediction. It ef-fectively mitigates overfitting through a latent dual-view drug representation mechanism and alleviates information loss via a pattern-aware salient target feature extraction strategy. Ex-tensive experiments demonstrate that LaPro-DTA not only establishes new state-of-art performance in challenging un-seen settings but also offers interpretability into the underly-ing binding mechanisms. For future work, we plan to extend our framework beyond 1D sequences by integrating explicit geometric graphs or 3D conformers, aiming to unlock richer spatial dependencies for even more robust drug discovery. A Related Works 
+
+Overview. Contemporary computational frameworks for DTA prediction generally comprise three core components: drug representation learning, target representation learning, and feature fusion. To articulate the motivation underlying LaPro-DTA, we systematically review the literature through the lens of this taxonomy. 
+
+A.1 Drug Representation Modeling 
+
+Pioneering studies, such as DeepDTA [ ¨ Ozt¨ urk et al. , 2018] and WideDTA [ ¨ Ozt¨ urk et al. , 2019], conceptualize SMILES strings as one-dimensional sequences, employing Convolu-tional Neural Networks (CNNs) or Recurrent Neural Net-works (RNNs) to extract local patterns. Despite their effi-cacy, these sequence-based methods are prone to overfitting local lexical features, often failing to capture the intrinsic spatial geometry of molecules. To mitigate this limitation, GraphDTA [Nguyen et al. , 2021] represents drug molecules as graphs, leveraging Graph Neural Networks (GNNs) to ex-plicitly encode topological dependencies. Building on this paradigm, GDilatedDTA [Zhang et al. , 2024] synergizes 2D molecular graph features with 1D sequence features, utilizing a hybrid GNN-CNN architecture to capture complementary multimodal information. Alternatively, Co-VAE [Li et al. ,2021] introduces a multi-task learning framework based on Variational Autoencoders (VAEs); by incorporating molecu-lar reconstruction as an auxiliary objective, it facilitates the learning of regularized and semantic-rich latent drug repre-sentations. 
+
+A.2 Target Representation Modeling 
+
+Target representation modeling poses a more formidable challenge than drug encoding, primarily attributable to the extensive length and high information density of amino acid sequences. To capture local sequential motifs, Convolutional and Recurrent Neural Networks are widely adopted, as exem-plified by DeepDTA [ ¨ Ozt¨ urk et al. , 2018], WideDTA [ ¨ Ozt¨ urk 
+
+et al. , 2019], and AttentionDTA [Zhao et al. , 2019]. Advanc-ing beyond standard architectures, Co-VAE [Li et al. , 2021] adapts the VAE framework to distill compact latent represen-tations, whereas TransVAE-DTA [Zhou et al. , 2024] lever-ages Transformer encoders to model long-range dependen-cies and global context. Crucially, despite these advances in feature extraction, the prevailing paradigm relies dispropor-tionately on rudimentary global pooling ( e.g. , max or average pooling) to compress variable-length sequences into fixed-size vectors. 
+
+A.3 Feature Fusion Module 
+
+The feature fusion module serves as the nexus for synthesiz-ing drug and target representations to predict binding affin-ity. Seminal models like DeepDTA [ ¨ Ozt¨ urk et al. , 2018] re-lied on the rudimentary concatenation of global embeddings, a strategy that inevitably neglects fine-grained intermolecu-lar interactions. To capture substructure-level dependencies, MolTrans [Huang et al. , 2021] constructs pairwise interac-tion maps between drug substructures and protein fragments, explicitly modeling high-order interaction patterns. Subse-quently, attention-driven paradigms further advanced interac-tion modeling: AttentionDTA [Zhao et al. , 2019] employs cross-attention mechanisms to isolate relevant interaction re-gions, whereas TransVAE-DTA [Zhou et al. , 2024] leverages Attention-based Pooling (AAP) for more discriminative fea-ture aggregation. However, owing to severe compression of target features in upstream encoding, these attention mech-anisms are prone to degeneration, significantly undermining their efficacy in capturing fine-grained bioactivity. Despite the success achieved by existing methods, signif-icant limitations persist. Specifically, drug and protein en-coders typically rely on single-view embeddings, often over-looking explicit distribution perspectives for drugs and key local fragment information for proteins. Moreover, fusion modules—whether based on concatenation, interaction maps, or attention—generally lack mechanisms to enhance robust-ness or align complementary features. Consequently, these deficiencies severely limit the generalization capabilities of current models when encountering unseen drugs or targets. 
+
+## B Supplementary Experiments 
+
+B.1 More Implementation Details 
+
+The detailed hyperparameter configurations are summarized in Table 5. We implemented LaPro-DTA using the PyTorch 2.0 framework on an NVIDIA GeForce RTX 3090 GPU. To prevent information leakage and simulate realistic cold-start scenarios, we applied a structured data splitting protocol (Al-gorithm 1). Let D and P denote the sets of drugs and proteins, respectively. We randomly partitioned these sets into disjoint subsets: D = Dseen ∪ D unseen and P = Pseen ∪ P unseen .
+
+Datasets. We evaluate LaPro-DTA on two standard bench-marks, Davis [Davis et al. , 2011] and KIBA [Tang et al. ,2014], while incorporating BindingDB [Liu et al. , 2007] to assess large-scale generalization. Davis contains 30,056 in-teractions ( pK d) between 68 drugs and 442 targets, whereas KIBA comprises 118,254 entries (KIBA scores) across 2,111 drugs and 229 targets. BindingDB serves as a supplementary testbed with broader chemical diversity. 
+
+B.2 Experiments on Random-Split Setting 
+
+Supplementary Baselines. To comprehensively validate the effectiveness of LaPro-DTA across different evaluation sce-narios, we supplement our analysis by comparing it against a broader range of methods under the standard random split setting. The performance results for the following baselines are directly cited from their respective original publications: • KronRLS [Nascimento et al. , 2016] and SimBoost [He 
+
+et al. , 2017] serve as representative traditional machine learning baselines. KronRLS computes structural and sequence similarity kernels and employs Kronecker reg-ularized least squares for prediction. SimBoost utilizes gradient boosting machines combined with feature engi-neering to model drug-target pairs. • DeepDTA [ ¨ Ozt¨ urk et al. , 2018] is a pioneering deep learning framework that treats drug SMILES and pro-tein amino acid sequences as 1D text data, employing 5 6 7 8 9 10                   
+
+> 5
+> 6
+> 7
+> 8
+> 9
+> 10
+> Predicted Label
+> UnseenDrug
+> 6810
+> 5
+> 6
+> 7
+> 8
+> 9
+> 10
+> 11
+> UnseenTarget
+> 5678910
+> 5
+> 6
+> 7
+> 8
+> 9
+> 10
+> UnseenPair
+> 10 12 14 16
+> True Label
+> 9
+> 10
+> 11
+> 12
+> 13
+> 14
+> 15
+> 16
+> Predicted Label
+> 810 12 14 16 18
+> True Label
+> 8
+> 10
+> 12
+> 14
+> 16
+> 18
+> 10 12 14 16
+> True Label
+> 9
+> 10
+> 11
+> 12
+> 13
+> 14
+> 15
+> 16
+> 17
+> Davis KIBA
+
+Figure 6: True affinity value against the predicted value on Davis and KIBA datasets. 
+
+dual Convolutional Neural Networks (CNNs) to extract local latent patterns. • WideDTA [ ¨ Ozt¨ urk et al. , 2019] improves upon Deep-DTA by adopting a ”word-based” approach. Instead of character-level inputs, it utilizes Ligand Maximum Common Substructures (LMCS) and protein motifs as input words for CNNs to capture higher-level semantic features. • AttentionDTA [Zhao et al. , 2019] incorporates atten-tion mechanisms into the sequence modeling process. By weighting the interaction intensity between drug and protein subsequences, it aims to focus the model on the most relevant binding regions. • GraphDTA [Nguyen et al. , 2021] represents a signif-icant shift towards geometric deep learning. It mod-els drug molecules as 2D graphs and investigates vari-ous Graph Neural Networks (including GCN, GAT, and GIN) to explicitly capture the topological dependencies of atoms, achieving strong baseline performance. • DeepCDA [Abbasi et al. , 2020] combines CNNs with Long Short-Term Memory (LSTM) networks. It is de-signed to capture both local features and long-term se-quential dependencies, emphasizing effective encoding for cross-domain affinity prediction. • Co-VAE [Li et al. , 2021] employs a multi-task learning strategy based on Variational Autoencoders (VAEs). It generates latent representations by jointly optimizing for affinity prediction and the reconstruction of molecular sequences. • DoubleSG-DTA [Qian et al. , 2023] introduces a multi-view fusion strategy. It extracts features from both the SMILES sequence (via CNN) and the molecular graph (via GNN), integrating these dual representations to en-hance drug encoding. • GDilatedDTA [Zhang et al. , 2024] addresses the issue of long-range dependencies and signal loss. It utilizes dilated graph convolutions for drugs and dilated 1D con-volutions for proteins to expand the receptive field with-out increasing model complexity. Table 6 reports the performance of LaPro-DTA against rep-resentative baselines under the random-split setting, follow-ing the protocol of [Zhang et al. , 2024]. Collectively, these experimental results validate the superiority of our proposed method across multiple benchmark datasets. 
+
+Comparative Results and Analysis 
+
+The empirical results presented in Table 6 demonstrate that LaPro-DTA establishes new state-of-the-art (SOTA) perfor-mance across the majority of evaluation scenarios. On the KIBA dataset, our model achieves an optimal MSE of 0.133 and a CI of 0.891. Notably, this performance signifi-cantly surpasses not only the 1D-based DeepDTA but also the 2D graph-based GraphDTA (which yields an MSE of 0.147. This substantial margin confirms that our proposed Gated 1D Algorithm 1: Cold-Start Data Splitting Algorithm 
+
+Input: Interaction Matrix A, Unseen Ratio ρ
+
+Output: Train Set Dtrain , Val Set Dval , Test Sets 
+
+{D S2, DS3, DS4}
+
+/* Step 1: Entity-Level Partitioning */ 
+
+Set random seed s;Identify active drugs Id and proteins Ip from A;
+
+Kd ← ⌊ ρ × |I d|⌋ , Kp ← ⌊ ρ × |I p|⌋ ;Randomly select unseen sets Ud ⊂ I d, Up ⊂ I p of size Kd, K p;Define seen sets Sd ← I d \ U d, Sp ← I p \ U p;
+
+/* Step 2: Interaction Allocation */ 
+
+Initialize Dtrain , Dval , DS2, DS3, DS4 ← ∅ ;
+
+for each interaction (d, p ) such that Ad,p > 0 do if d ∈ S d and p ∈ S p then 
+
+// Seen Drug, Seen Protein 
+
+Add (d, p ) to Dtrain ;
+
+else 
+
+Generate random r ∼ U nif orm (0 , 1) ;
+
+if d ∈ U d and p ∈ S p then 
+
+// New Drug (S2) 
+
+if r < 0.5 then Add to Dval ;
+
+else Add to DS2;
+
+else if d ∈ S d and p ∈ U p then 
+
+// New Protein (S3) 
+
+if r < 0.5 then Add to Dval ;
+
+else Add to DS3;
+
+else if d ∈ U d and p ∈ U p then 
+
+// Both New (S4) 
+
+if r < 0.5 then Add to Dval ;
+
+else Add to DS4;
+
+end end end return Dtrain , Dval , DS2, DS3, DS4;representation is highly effective, capturing critical local bio-chemical features that conventional CNNs or graph convolu-tions may overlook. Regarding the Davis dataset, LaPro-DTA yields the best ranking performance with a CI of 0.895 and the highest prediction stability with an r2 
+
+> m
+
+of 0.693. Although Atten-tionDTA exhibits a marginal lead in MSE, our model demon-strates superior capability in correctly ranking drug-target pairs (indicated by CI) and maintaining predictive consis-tency (indicated by r2
+
+> m
+
+). This suggests that LaPro-DTA is less biased towards the distribution mean and more robust in distinguishing relative affinity differences. Furthermore, on the BindingDB dataset, which represents a much larger and more heterogeneous chemical space, LaPro-DTA consistently secures the top position in both MSE and CI. This evidence strongly supports the robustness of our framework, proving that the synergy of dual-view drug modeling and pattern-aware target pooling enables superior generalization across                          
+
+> Table 5: Hyperparameter settings of LaPro-DTA.
+> Hyperparameter Value
+> Drug Representation
+> Embedding Dimension 128 CNN Filter Sizes [4, 4, 4] Number of Filters 128 DeconvNet Layers 3Latent Dimension ( z)96
+> Target Representation
+> Embedding Dimension 128 CNN Filter Sizes [4, 8, 12] Top-KPooling Size ( K)4Number of CNN Layers 3
+> Interaction Module
+> Attention Heads 4Attention Hidden Dim ( dk)96 MLP Hidden Units [1024, 512]
+> Optimization
+> Optimizer Adam Learning Rate 5×10 −4
+> Batch Size (KIBA / Davis) 256 / 32 Max Epochs (Cold / Rand) 100 / 500 Dropout Rate 0.1 Weight Decay 1×10 −4
+
+diverse molecular scaffolds and protein families. Despite these challenges, LaPro-DTA demonstrates supe-rior predictive capabilities. On the Davis dataset, our model achieves a substantial reduction in prediction error (MSE) compared to the strongest baseline, TransVAE-DTA, while establishing a new benchmark for ranking accuracy (CI). Al-though the predictive stability metric ( r2
+
+> m
+
+) remains compara-ble to the leading method, the distinct advantage in precision highlights the effectiveness of our feature fusion strategy. On the larger KIBA dataset, the performance gap is even more pronounced. LaPro-DTA achieves comprehensive dom-inance, consistently outperforming previous state-of-the-art methods across all metrics. This indicates that the proposed dual-view mechanism and pattern-aware pooling not only en-hance generalization in cold-start scenarios but also effec-tively refine feature granularity for standard interaction pre-diction tasks. 
+
+B.3 Ablation Study and Parameter Sensitivity 
+
+Ablation Study. As detailed in the main text, Table 7 presents the comprehensive ablation results under three cold-start settings. The results consistently indicate that removing any specific module—whether the latent dual-view mecha-nism, top-k pooling, or cross-view fusion—leads to perfor-mance degradation across all evaluation metrics. This con-firms that the complete framework is essential for achieving robust generalization when extrapolating to unseen biochem-ical entities. To further verify the contribution of each module in stan-Table 6: Performance comparison of representative DTA models on KIBA, Davis, and BindingDB datasets. ( Best , Second Best). 
+
+Model KIBA Dataset Davis Dataset BindingDB Dataset MSE ↓ CI ↑ r2m↑ MSE ↓ CI ↑ r2m↑ MSE ↓ CI ↑ r2m↑
+
+KronRLS (2015) 0.411 0.782 0.342 0.379 0.871 0.407 0.910 0.710 –SimBoost (2017) 0.222 0.836 0.629 0.282 0.872 0.644 – – –DeepDTA (2018) 0.194 0.863 0.630 0.261 0.878 0.630 0.633 0.844 0.633 WideDTA (2019) 0.179 0.875 – 0.262 0.886 – – – –AttentionDTA (2022) 0.155 0.882 0.755 0.216 0.887 0.677 0.745 0.542 –GraphDTA (GIN) (2021) 0.147 0.891 0.687 0.229 0.893 0.663 0.535 0.858 –DeepCDA (2020) 0.176 0.889 0.682 0.248 0.891 0.649 0.848 0.722 0.531 Co-VAE (New-drug) (2022) 0.416 0.742 0.358 0.724 0.712 0.107 – – –Co-VAE (New-target) (2022) 0.421 0.741 0.356 0.419 0.816 0.477 – – –DoubleSG-DTA (2023) 0.164 0.856 0.721 0.250 0.886 0.688 0.533 0.862 0.726 GDilatedDTA (2024) 0.156 0.876 0.775 0.237 0.885 0.686 0.483 0.868 0.730 LaPro-DTA (Ours) 0.133 0.891 0.760 0.225 0.895 0.693 0.466 0.874 0.706 
+
+Table 7: Ablation study of LaPro-DTA on the Davis dataset under three cold-start settings. Dual : Latent Dual-View Mechanism; TopK : top-k
+
+Pooling; Fusion : Cross-View Attention. The best results are highlighted in bold , and the second-best results are underlined. “ ↑” indicates higher is better, “ ↓” indicates lower is better. 
+
+Components Unseen Drug Unseen Target Unseen Pair Dual TopK Fusion CI (↑) MSE (↓) r2m (↑) CI (↑) MSE (↓) r2m (↑) CI (↑) MSE (↓) r2m (↑)– – – 0.723 0.567 0.137 0.808 0.654 0.368 0.728 0.836 0.104 
+
+✓ – ✓ 0.736 0.532 0.181 0.798 0.548 0.453 0.739 0.750 0.150 – ✓ ✓ 0.726 0.542 0.201 0.755 0.752 0.302 0.739 0.804 0.124 
+
+✓ ✓ – 0.654 0.646 0.032 0.742 0.856 0.191 0.664 0.909 0.025 
+
+✓ ✓ ✓ 0.737 0.519 0.191 0.828 0.519 0.473 0.770 0.727 0.166 100 150 200 250 300 350 400 450 500  
+
+> Epoch 1
+> 2
+> 3
+> 4
+> 5
+> 6
+> 7
+> 8
+> K (Hyperparameter)
+> 0.200
+> 0.225
+> 0.250
+> 0.275
+> 0.300
+> 0.325
+> 0.350
+> 0.375
+> 0.400
+> MSE 0.374
+> 0.265
+> 0.243
+> 0.368
+> 0.281
+> 0.246
+> 0.371
+> 0.254
+> 0.253
+> 0.396
+> 0.252
+> 0.225
+> 0.361
+> 0.253
+> 0.235
+> 0.371
+> 0.264
+> 0.247
+> 0.387
+> 0.270
+> 0.246
+> 0.382
+> 0.255
+> 0.239
+
+MSE              
+
+> 100 150 200 250 300 350 400 450 500
+> Epoch 1
+> 2
+> 3
+> 4
+> 5
+> 6
+> 7
+> 8
+> K (Hyperparameter)
+> 0.84
+> 0.85
+> 0.86
+> 0.87
+> 0.88
+> 0.89
+> 0.90
+> CI
+> 0.840
+> 0.868
+> 0.885
+> 0.846
+> 0.878
+> 0.883
+> 0.848
+> 0.884
+> 0.885
+> 0.845
+> 0.883 0.895
+> 0.849
+> 0.880 0.887
+> 0.839
+> 0.877 0.883
+> 0.843
+> 0.883
+> 0.888
+> 0.846
+> 0.880 0.886
+
+CI               
+
+> 100 150 200 250 300 350 400 450 500
+> Epoch 1
+> 2
+> 3
+> 4
+> 5
+> 6
+> 7
+> 8
+> K (Hyperparameter)
+> 0.50
+> 0.55
+> 0.60
+> 0.65
+> 0.70
+> R²
+> 0.522
+> 0.632
+> 0.618
+> 0.497
+> 0.580 0.613
+> 0.512
+> 0.634
+> 0.645
+> 0.490
+> 0.650 0.673
+> 0.526
+> 0.635 0.652
+> 0.514
+> 0.609
+> 0.662
+> 0.501
+> 0.612 0.632
+> 0.492
+> 0.626 0.658
+
+R2
+
+> 1
+> 2
+> 3
+> 4
+> 5
+> 6
+> 7
+> 8
+> K Value
+
+Figure 7: Comparison of MSE, CI and r2 
+
+> m
+
+of LaPro-DTA with different K on the Davis dataset. 
+
+dard evaluation scenarios, we conducted an ablation study on the Davis dataset using random splitting, as summarized in Table 8. Comparing the baseline with the variant using only top-k pooling reveals a sharp reduction in prediction error (MSE). This suggests that the top-k strategy effectively filters out uninformative background noise in protein sequences, al-lowing the model to focus on high-confidence binding motifs even when training and testing data share similar distribu-tions. Similarly, the introduction of the feature fusion module significantly boosts the concordance index, highlighting the critical role of attention-based interaction modeling in cor-rectly ranking the relative affinities of drug-target pairs. Ul-timately, the integration of the latent dual-view mechanism with these components yields the best overall performance. Table 8: Ablation study on the Davis dataset under the random split     
+
+> setting. Dual : latent dual-view (only instance-level view); TopK :top-kpooling; Fusion : cross-view attention.
+
+Components Metrics Dual TopK Fusion CI (↑) MSE (↓) r2m (↑)
+
+× × × 0.854 0.347 0.559 
+
+× ✓ × 0.875 0.240 0.663 
+
+× × ✓ 0.885 0.262 0.598 
+
+× ✓ ✓ 0.881 0.242 0.651 
+
+✓ × ✓ 0.880 0.258 0.607 
+
+✓ ✓ × 0.882 0.239 0.641 
+
+✓ ✓ ✓ 0.895 0.225 0.693 
+
+The dual-view approach complements local feature extraction by enforcing global structural consistency, which proves par-ticularly beneficial for improving predictive stability. These results confirm that the proposed modules fundamentally en-hance representation and reasoning capabilities beyond just cold-start generalization. 
+
+Parameter Sensitivity. In addition to the cold-start experi-ments, we also conducted a sensitivity analysis on the key pa-rameter K under the random split setting on the Davis dataset. As illustrated in Figure 7, as K increases from 1, the model performance exhibits a clear improvement in the early stage: MSE decreases substantially with increasing K, indicating reduced prediction error, while CI and r2 
+
+> m
+
+consistently in-crease, reflecting simultaneous enhancements in ranking ca-pability and goodness of fit. Notably, when K > 1, the model consistently outperforms the case of K = 1 , demonstrating that the proposed top-k Pooling effectively strengthens the representation of drug fragment-level features. As K contin-ues to increase, the variations of all three metrics gradually diminish, and the model performance converges to a stable regime without noticeable degradation. 
+
+B.4 Experimental Analysis 
+
+Scatter Plots of Prediction Performance. Figure 6 illus-trates the scatter plots of predicted versus observed binding affinities on the Davis and KIBA datasets under three cold-start settings. As shown, the predictions of LaPro-DTA are tightly clustered around the identity line across all scenarios, indicating strong consistency between predicted and observed affinities. Notably, the model exhibits particularly strong per-formance in the unseen drug setting on the KIBA dataset, where the scatter points are most concentrated. In contrast, a higher degree of dispersion is observed in the unseen target setting, suggesting that this scenario remains more challeng-ing for accurate affinity prediction. 
+
+## References 
+
+[Abbasi et al. , 2020] Karim Abbasi, Parvin Razzaghi, Antti Poso, Massoud Amanlou, Jahan B Ghasemi, and Ali Masoudi-Nejad. DeepCDA: deep cross-domain compound–protein affinity prediction through lstm and convolutional neural networks. Bioinformatics ,36(17):4633–4642, 2020. [Ain et al. , 2015] Qurrat Ul Ain, Antoniya Aleksandrova, Florian D Roessler, and Pedro J Ballester. Machine-learning scoring functions to improve structure-based binding affinity prediction and virtual screening. Wiley Interdisciplinary Reviews: Computational Molecular Sci-ence , 5(6):405–424, 2015. [Bemis and Murcko, 1996] Guy W Bemis and Mark A Mur-cko. The properties of known drugs. 1. Molecular frame-works. Journal of Medicinal Chemistry , 39(15):2887– 2893, 1996. [Bi et al. , 2023] Xiangpeng Bi, Shugang Zhang, Wenjian Ma, Huasen Jiang, and Zhiqiang Wei. HiSIF-DTA: a hier-archical semantic information fusion framework for drug-target affinity prediction. IEEE Journal of Biomedical and Health Informatics , 2023. [Bishop, 1995] Chris M Bishop. Training with noise is equivalent to Tikhonov regularization. Neural computa-tion , 7(1):108–116, 1995. [Chen et al. , 2025] Shihong Chen, Haicheng Yi, Zhuhong You, Xuequn Shang, Yu-An Huang, Lei Wang, and Zhen Wang. Local–Global structure-aware geometric equivari-ant graph representation learning for predicting Protein– ligand binding affinity. IEEE Transactions on Neural Net-works and Learning Systems , 2025. [Choppara and Lokesh, 2025] Prashanth Choppara and Bommareddy Lokesh. Q-BAFNet: A hybrid quantum classical approach for drug-target binding affinity predic-tion. IEEE Transactions on Computational Biology and Bioinformatics , 2025. [Dauphin et al. , 2017] Yann N Dauphin, Angela Fan, Michael Auli, and David Grangier. Language modeling with gated convolutional networks. In International conference on machine learning , pages 933–941. PMLR, 2017. [Davis et al. , 2011] Mindy I Davis, Jeremy P Hunt, Sanna Herrgard, Pietro Ciceri, Lisa M Wodicka, Gabriel Pal-lares, Michael Hocker, Daniel K Treiber, and Patrick P Zarrinkar. Comprehensive analysis of kinase inhibitor se-lectivity. Nature Biotechnology , 29(11):1046–1051, 2011. [Fang et al. , 2023] Kejie Fang, Yiming Zhang, Shiyu Du, and Jian He. ColdDTA: utilizing data augmentation and attention-based feature fusion for drug-target binding affinity prediction. Computers in Biology and Medicine ,164:107372, 2023. [He et al. , 2017] Tong He, Marten Heidemeyer, Fuqiang Ban, Artem Cherkasov, and Martin Ester. SimBoost: a read-across approach for predicting drug–target binding affinities using gradient boosting machines. Journal of cheminformatics , 9(1):24, 2017. [He et al. , 2025] Haohuai He, Guanxing Chen, Zhenchao Tang, and Calvin Yu-Chian Chen. Dual modality feature fused neural network integrating binding site information for drug target affinity prediction. NPJ Digital Medicine ,8(1):67, 2025. [Huang et al. , 2021] Kexin Huang, Cao Xiao, Lucas MGlass, and Jimeng Sun. MolTrans: molecular interaction transformer for drug–target interaction prediction. Bioin-formatics , 37(6):830–836, 2021. [Huang et al. , 2025] Zibo Huang, Xinrui Weng, and Le Ou-Yang. GFLearn: Generalized feature learning for drug-target binding affinity prediction. IEEE Journal of Biomedical and Health Informatics , 2025. [Humphrey et al. , 1996] William Humphrey, Andrew Dalke, and Klaus Schulten. VMD: visual molecular dynamics. 
+
+Journal of molecular graphics , 14(1):33–38, 1996. [Kalchbrenner et al. , 2014] Nal Kalchbrenner, Edward Grefenstette, and Phil Blunsom. A convolutional neu-ral network for modelling sentences. In Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (ACL) , pages 655–665, 2014. [Kim et al. , 2021] QHwan Kim, Joon-Hyuk Ko, Sunghoon Kim, Nojun Park, and Wonho Jhe. Bayesian neural net-work with pretrained protein embedding enhances predic-tion accuracy of drug-protein interaction. Bioinformatics ,37(20):3428–3435, 2021. [Li et al. , 2020] Shuya Li, Fangping Wan, Hantao Shu, Tao Jiang, Dan Zhao, and Jianyang Zeng. MONN: A multi-objective neural network for predicting pairwise non-covalent interactions and binding affinities between com-pounds and proteins. In International Conference on Re-search in Computational Molecular Biology , pages 259– 260. Springer, 2020. [Li et al. , 2021] Tianjiao Li, Xing-Ming Zhao, and Limin Li. Co-VAE: Drug-target binding affinity prediction by co-regularized variational autoencoders. IEEE Trans-actions on Pattern Analysis and Machine Intelligence ,44(12):8861–8873, 2021. [Li et al. , 2023] Mei Li, Ye Cao, Xiaoguang Liu, and Hua Ji. Structure-aware graph attention diffusion network for protein–ligand binding affinity prediction. IEEE Transac-tions on Neural Networks and Learning Systems , 2023. [Liu et al. , 2007] Tiqing Liu, Yuhmei Lin, Xin Wen, Robert N Jorissen, and Michael K Gilson. BindingDB: a web-accessible database of experimentally determined protein–ligand binding affinities. Nucleic acids research ,35(suppl 1):D198–D201, 2007. [Nascimento et al. , 2016] Andr´ e CA Nascimento, Ri-cardo BC Prudˆ encio, and Ivan G Costa. A multiple kernel learning algorithm for drug-target interaction prediction. 
+
+BMC Bioinformatics , 17(1):46, 2016. [Nguyen et al. , 2021] Thin Nguyen, Hang Le, Thomas P Quinn, Tri Nguyen, Thuc Duy Le, and Svetha Venkatesh. GraphDTA: predicting drug–target binding affinity with graph neural networks. Bioinformatics , 37(8):1140–1147, 2021. [ ¨ Ozt¨ urk et al. , 2018] Hakime ¨Ozt¨ urk, Arzucan ¨Ozg¨ ur, and Elif Ozkirimli. DeepDTA: deep drug–target binding affin-ity prediction. Bioinformatics , 34(17):i821–i829, 2018. [ ¨ Ozt¨ urk et al. , 2019] Hakime ¨Ozt¨ urk, Elif Ozkirimli, and Arzucan ¨ Ozg¨ ur. WideDTA: prediction of drug-target bind-ing affinity. arXiv preprint arXiv:1902.04166 , 2019. [Prasad and Mailankody, 2017] Vinay Prasad and Sham Mailankody. Research and development spending to bring a single cancer drug to market and revenues after approval. 
+
+JAMA internal medicine , 177(11):1569–1575, 2017. [Pratim Roy et al. , 2009] Partha Pratim Roy, Somnath Paul, Indrani Mitra, and Kunal Roy. On two novel parame-ters for validation of predictive QSAR models. Molecules ,14(5):1660–1701, 2009. [Qian et al. , 2023] Yongtao Qian, Wanxing Ni, Xingxing Xi-anyu, Liang Tao, and Qin Wang. DoubleSG-DTA: deep learning for drug discovery: case study on the non-small cell lung cancer with EGFR T 790 M mutation. Pharma-ceutics , 15(2):675, 2023. [Qian et al. , 2025] Yining Qian, Xuewen Zhang, and An-Yang Lu. Pair-vae: Variational pairwise augmentation with label sharing for generalizable drug-target interac-tion prediction. In 2025 IEEE International Conference on Bioinformatics and Biomedicine (BIBM) , pages 693–698. IEEE, 2025. [Selvaraju et al. , 2017] Ramprasaath R Selvaraju, Michael Cogswell, Abhishek Das, Ramakrishna Vedantam, Devi Parikh, and Dhruv Batra. Grad-CAM: Visual explana-tions from deep networks via gradient-based localization. In Proceedings of the IEEE international conference on computer vision , pages 618–626, 2017. [Shah et al. , 2025] Pir Masoom Shah, Huimin Zhu, Zhangli Lu, Kaili Wang, Jing Tang, and Min Li. DeepDTAGen: a multitask deep learning framework for drug-target affin-ity prediction and target-aware drugs generation. Nature Communications , 16(1):5021, 2025. [Tang et al. , 2014] Jing Tang, Agnieszka Szwajda, Sushil Shakyawar, Tao Xu, Petteri Hintsanen, Krister Wenner-berg, and Tero Aittokallio. Making sense of large-scale kinase inhibitor bioactivity data sets: a comparative and integrative analysis. Journal of chemical information and modeling , 54(3):735–743, 2014. [van der Maaten and Hinton, 2008] Laurens van der Maaten and Geoffrey Hinton. Visualizing data using t-sne. Journal of Machine Learning Research , 9(11):2579–2605, 2008. [Watanabe et al. , 2021] Narumi Watanabe, Yuuto Ohnuki, and Yasubumi Sakakibara. Deep learning integration of molecular and interactome data for protein–compound interaction prediction. Journal of Cheminformatics ,13(1):36, 2021. [Weininger, 1988] David Weininger. SMILES, a chemi-cal language and information system. 1. introduction to methodology and encoding rules. Journal of chemical in-formation and computer sciences , 28(1):31–36, 1988. [Yang et al. , 2024] Ziduo Yang, Weihe Zhong, Qiujie Lv, Tiejun Dong, Guanxing Chen, and Calvin Yu-Chian Chen. Interaction-based inductive bias in graph neural networks: enhancing protein-ligand binding affinity predictions from 3D structures. IEEE Transactions on Pattern Analysis and Machine Intelligence , 46(12):8191–8208, 2024. [Zeiler et al. , 2010] Matthew D Zeiler, Dilip Krishnan, Gra-ham W Taylor, and Rob Fergus. Deconvolutional net-works. In 2010 IEEE Computer Society Conference on computer vision and pattern recognition , pages 2528– 2535. IEEE, 2010. [Zhang et al. , 2024] Longxin Zhang, Wenliang Zeng, Jing-sheng Chen, Jianguo Chen, and Keqin Li. GDilatedDTA: Graph dilation convolution strategy for drug target bind-ing affinity prediction. Biomedical Signal Processing and Control , 92:106110, 2024. [Zhao et al. , 2019] Qichang Zhao, Fen Xiao, Mengyun Yang, Yaohang Li, and Jianxin Wang. AttentionDTA: prediction of drug–target binding affinity using attention model. In 2019 IEEE International Conference on Bioin-formatics and Biomedicine (BIBM) , pages 64–69. IEEE, 2019. [Zhao et al. , 2020] Lingling Zhao, Junjie Wang, Long Pang, Yang Liu, and Jun Zhang. GANsDTA: Predicting drug-target binding affinity using GANs. Frontiers in genetics ,10:1243, 2020. [Zhou et al. , 2024] Changjian Zhou, Zhongzheng Li, Jia Song, and Wensheng Xiang. TransVAE-DTA: Trans-former and variational autoencoder network for drug-target binding affinity prediction. Computer Methods and Programs in Biomedicine , 244:108003, 2024.

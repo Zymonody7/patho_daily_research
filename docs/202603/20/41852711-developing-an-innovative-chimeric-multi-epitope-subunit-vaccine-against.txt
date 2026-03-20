@@ -1,0 +1,127 @@
+Title: Developing an innovative chimeric multi-epitope subunit vaccine against Staphylococcus intermedius using an immunoinformatics strategy via Multi-omics approaches - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41852711/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 18;21(1):20251281.
+
+doi: 10.1515/med-2025-1281.  eCollection 2026 Jan.
+
+[Furrmein Fatima](https://pubmed.ncbi.nlm.nih.gov/?term=Fatima+F&cauthor_id=41852711)[1](https://pubmed.ncbi.nlm.nih.gov/41852711/#full-view-affiliation-1 "Department of Biotechnology, Faculty of Science and Technology, University of Central Punjab, Lahore, Pakistan."),[Sarmad Mahmood](https://pubmed.ncbi.nlm.nih.gov/?term=Mahmood+S&cauthor_id=41852711)[1](https://pubmed.ncbi.nlm.nih.gov/41852711/#full-view-affiliation-1 "Department of Biotechnology, Faculty of Science and Technology, University of Central Punjab, Lahore, Pakistan."),[Tariq Aziz](https://pubmed.ncbi.nlm.nih.gov/?term=Aziz+T&cauthor_id=41852711)[2](https://pubmed.ncbi.nlm.nih.gov/41852711/#full-view-affiliation-2 "Laboratory of Animal Health, Hygiene and Food Quality, University of Ioannina Arta, 47132, Arta, Greece."),[Nimra Hanif](https://pubmed.ncbi.nlm.nih.gov/?term=Hanif+N&cauthor_id=41852711)[1](https://pubmed.ncbi.nlm.nih.gov/41852711/#full-view-affiliation-1 "Department of Biotechnology, Faculty of Science and Technology, University of Central Punjab, Lahore, Pakistan."),[Nausheen Nazir](https://pubmed.ncbi.nlm.nih.gov/?term=Nazir+N&cauthor_id=41852711)[3](https://pubmed.ncbi.nlm.nih.gov/41852711/#full-view-affiliation-3 "Department of Biochemistry, University of Malakand Chakdara, Dir Lower Pakistan."),[Ashwag Shami](https://pubmed.ncbi.nlm.nih.gov/?term=Shami+A&cauthor_id=41852711)[4](https://pubmed.ncbi.nlm.nih.gov/41852711/#full-view-affiliation-4 "Department of Biology, College of Science, Princess Nourah bint Abdulrahman University, P.O Box 84428, Riyadh, 11671, Saudi Arabia."),[Maher S Alwethaynani](https://pubmed.ncbi.nlm.nih.gov/?term=Alwethaynani+MS&cauthor_id=41852711)[5](https://pubmed.ncbi.nlm.nih.gov/41852711/#full-view-affiliation-5 "Department of Clinical Laboratory Sciences, College of Applied Medical Sciences, Shaqra University, Alquwayiyah, Riyadh, Saudi Arabia."),[Fakhria A Al-Joufi](https://pubmed.ncbi.nlm.nih.gov/?term=Al-Joufi+FA&cauthor_id=41852711)[6](https://pubmed.ncbi.nlm.nih.gov/41852711/#full-view-affiliation-6 "Department of Pharmacology, College of Pharmacy, Jouf University, Aljouf, Saudi Arabia."),[Bandar K Baothman](https://pubmed.ncbi.nlm.nih.gov/?term=Baothman+BK&cauthor_id=41852711)[7](https://pubmed.ncbi.nlm.nih.gov/41852711/#full-view-affiliation-7 "Department of Medical Laboratory Sciences, Faculty of Applied Medical Sciences, King Abdulaziz University, Rabigh, Saudi Arabia."),[Sarah Almaghrabi](https://pubmed.ncbi.nlm.nih.gov/?term=Almaghrabi+S&cauthor_id=41852711)[8](https://pubmed.ncbi.nlm.nih.gov/41852711/#full-view-affiliation-8 "Department of Medical Laboratory Sciences, Faculty of Applied Medical Sciences, King Abdulaziz University, Jeddah, 21589, Saudi Arabia."),[Majid Alhomrani](https://pubmed.ncbi.nlm.nih.gov/?term=Alhomrani+M&cauthor_id=41852711)[9](https://pubmed.ncbi.nlm.nih.gov/41852711/#full-view-affiliation-9 "Department of Clinical Laboratory Sciences, The Faculty of Applied Medical Sciences, Taif University, Taif, Saudi Arabia.")
+
+Affiliations
+
+*    PMID: **41852711**
+*    PMCID: [PMC12995357](https://pmc.ncbi.nlm.nih.gov/articles/PMC12995357/)
+*    DOI: [10.1515/med-2025-1281](https://doi.org/10.1515/med-2025-1281)
+
+## Developing an innovative chimeric multi-epitope subunit vaccine against _Staphylococcus intermedius_ using an immunoinformatics strategy via Multi-omics approaches
+
+Muhammad Naveed et al. Open Med (Wars).2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+**Background:**_Streptococcus intermedius_ is a major human pathogen associated with invasive diseases such as meningitis and endocarditis. These infections may lead to inflammation, fever, and cardiac damage. At present, no effective vaccine exists for prevention.
+
+**Objectives:** This study aimed to design a stable, non-allergenic, and antigenic chimeric multi-epitope vaccine against _S. intermedius_ using Immunoinformatics approaches.
+
+**Methods:** Twelve B-cell, five helper T lymphocyte (HTL), and five cytotoxic T lymphocyte (CTL) epitopes were predicted using advanced immunoinformatics tools. These epitopes were assembled into a single vaccine candidate. The construct was evaluated in silico for its antigenicity, allergenicity, and physicochemical stability. A 3D structural model of the vaccine was generated and validated. Molecular docking and dynamics simulations were conducted to assess interactions between the vaccine and immune receptors: TLR4, TLR3, MHC-I, and MHC-II.
+
+**Results:** The final vaccine candidate demonstrated favorable antigenic and non-allergenic properties, along with high stability. Structural validation confirmed proper folding. Docking analyses revealed strong binding affinities between the vaccine and target immune receptors. Molecular dynamics simulations indicated stable complexes, supporting the construct's immunological compatibility.
+
+**Conclusions:** The designed chimeric multi-epitope vaccine shows strong potential to elicit an immune response against _S. intermedius_. These findings provide a foundation for further experimental validation through _in vivo_ and clinical trials.
+
+**Keywords:** Staphylococcus intermedius, pan-genome; brain abscesses; craniofacial osteomyelitis; immunogenicity; vaccine.
+
+© 2026 the author(s), published by De Gruyter, Berlin/Boston.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Conflict of interest: The authors declare no conflict of interest.
+
+## Figures
+
+[![Image 1: Figure 1:](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d8ac/12995357/2c61acc36d2d/j_med-2025-1281_fig_001.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d8ac/12995357/c973e1f2b901/j_med-2025-1281_fig_001.jpg)
+
+**Figure 1:**
+Flowchart of the methodology for designing a chimeric multi-epitope vaccine against _Streptococcus intermedius_.
+
+[![Image 2: Figure 2:](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d8ac/12995357/31bdee028b74/j_med-2025-1281_fig_002.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d8ac/12995357/1d8a63773b6b/j_med-2025-1281_fig_002.jpg)
+
+**Figure 2:**
+Pangenome Analysis of _Staphylococcus intermedius._ (A) Number of gene families in 12 different strains of _Staphylococcus intermedius_ and graphical representation of PAN genome (B)phylogenetic tree of 12 different strains of _Staphylococcus intermedius and_ PAN phylogeny (C)graphical representation of CORE proteome (D)graphical representation of core phylogeny.
+
+[![Image 3: Figure 3:](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d8ac/12995357/adb905e73bf3/j_med-2025-1281_fig_003.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d8ac/12995357/970103f9e192/j_med-2025-1281_fig_003.jpg)
+
+**Figure 3:**
+Flow chart design of vaccine candidate.
+
+[![Image 4: Figure 4:](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d8ac/12995357/ac3d7355b818/j_med-2025-1281_fig_004.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d8ac/12995357/7a6fa824345c/j_med-2025-1281_fig_004.jpg)
+
+**Figure 4:**
+Secondary structure of vaccine construct showing the count of alpha halix (pink), beta sheets (yellow) and coils (grey) in the vaccine construt.
+
+[![Image 5: Figure 5:](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d8ac/12995357/0f7991902708/j_med-2025-1281_fig_005.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d8ac/12995357/f4ab4b56b058/j_med-2025-1281_fig_005.jpg)
+
+**Figure 5:**
+Tertiary structure analysis of vaccine. (A) 3D structure of vaccine predicted by alpha fold2 (B)the ramachandran plot analysis (C)overall model quality predicted Pro-SA web (D)local model quality.
+
+[![Image 6: Figure 6:](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d8ac/12995357/ae6323ab665e/j_med-2025-1281_fig_006.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d8ac/12995357/74bf3405d079/j_med-2025-1281_fig_006.jpg)
+
+**Figure 6:**
+Molecular docking analysis of the designed vaccine with Toll-like receptors. (A) Docked complex of the vaccine with TLR1. (B) Docked complex of the vaccine with TLR5.
+
+[![Image 7: Figure 7:](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d8ac/12995357/5f57062ef3d6/j_med-2025-1281_fig_007.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d8ac/12995357/4be326c0d719/j_med-2025-1281_fig_007.jpg)
+
+**Figure 7:**
+Molecular dynamic simulations of vaccine with TLR1. (A) dock complex of vaccine and TLR-1 generated by iMods, (B)deformability graph, (C) B-factor graph targeting NMA and PDB structure, (D)covariance map showing red color (correlated), blue (anti-correlated) and white (un-correlated, (E)elastic network represent stiffness of amino acid residues.
+
+[![Image 8: Figure 8:](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d8ac/12995357/f293971fb5cf/j_med-2025-1281_fig_008.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d8ac/12995357/ecdf78230ac2/j_med-2025-1281_fig_008.jpg)
+
+**Figure 8:**
+Molecular dynamic simulation of vaccine with TLR 5. (A) Dock complex of vaccine and TLR-5 generated by iMods, (B)deformability graph, (C) B-factor graph targeting NMA and PDB structure, (D)covariance map showing red color (correlated), blue (anti-correlated) and white (un-correlated, (E)elastic network represent stiffness of amino acid residues.
+
+[![Image 9: Figure 9:](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d8ac/12995357/53baaf14e53f/j_med-2025-1281_fig_009.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d8ac/12995357/ec6e5b6a8335/j_med-2025-1281_fig_009.jpg)
+
+**Figure 9:**
+Free binding energy calculation of vaccine and TLR5 receptor protein complex.
+
+## Similar articles
+
+*   [An immunoinformatics approach in designing high-coverage mRNA multi-epitope vaccine against multivariant SARS-CoV-2.](https://pubmed.ncbi.nlm.nih.gov/40854643/)
+
+Giri-Rachman EA, Kurnianti AMF, Rizarullah, Setyadi AH, Artarini A, Tan MI, Riani C, Natalia D, Aditama R, Nugrahapraja H.Giri-Rachman EA, et al.J Genet Eng Biotechnol. 2025 Sep;23(3):100524. doi: 10.1016/j.jgeb.2025.100524. Epub 2025 Jun 21.J Genet Eng Biotechnol. 2025.PMID: 40854643 Free PMC article. 
+*   [Designing a broad-spectrum multi-epitope subunit vaccine against leptospirosis using immunoinformatics and structural approaches.](https://pubmed.ncbi.nlm.nih.gov/39936152/)
+
+Sethi G, Kim YK, Han SC, Hwang JH.Sethi G, et al.Front Immunol. 2025 Jan 28;15:1503853. doi: 10.3389/fimmu.2024.1503853. eCollection 2024.Front Immunol. 2025.PMID: 39936152 Free PMC article. 
+*   [Development of a multi-epitope vaccine against Helicobacter pylori using a novel saRNA technology through an immunoinformatics approach.](https://pubmed.ncbi.nlm.nih.gov/41028278/)
+
+Razzak A, Ahmed F, Mahmud MT.Razzak A, et al.Sci Rep. 2025 Sep 30;15(1):33753. doi: 10.1038/s41598-025-99512-9.Sci Rep. 2025.PMID: 41028278 Free PMC article. 
+
+*   [Computational Development of Multi-Epitope Reovirus Vaccine with Potent Predicted Binding to TLR2 and TLR4.](https://pubmed.ncbi.nlm.nih.gov/41304878/)
+
+Noman AA, Alhudhaibi AM, Sharma PD, Jannati SZ, Akhter T, Siddika S, Khan KF, Taha TH, Alsalamah SA, Abdallah EM.Noman AA, et al.Pharmaceuticals (Basel). 2025 Oct 29;18(11):1632. doi: 10.3390/ph18111632.Pharmaceuticals (Basel). 2025.PMID: 41304878 Free PMC article. 
+
+## References
+
+1.       1.    Adkins I, Holubova J, Kosova M, Sadilkova L. Bacteria and their toxins tamed for immunotherapy. Curr Pharm Biotechnol. 2012;13:1446–73. doi: 10.2174/138920112800784835. - [DOI](https://doi.org/10.2174/138920112800784835) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/22339216/)
+
+2.       1.    Al THJ. Novel in silico mRNA vaccine design exploiting proteins of Mycobacterium tuberculosis that modulates host immune responses by inducing epigenetic modifications. Sci Rep. 2022;12:4645. doi: 10.1038/s41598-022-08506-4. - [DOI](https://doi.org/10.1038/s41598-022-08506-4) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8929471/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/35301360/)
+
+3.       1.    Alotaibi G, Khan K, Al Mouslem AK, Khan SA, Abbas MN, Abbas M, et al. Pan-genome based reverse vaccinology approach to explore Enterococcus faecium (VRE) strains for identification of novel multi-epitopes vaccine candidate. Immunobiology. 2022;227:152221. doi: 10.1016/j.imbio.2022.152221. - [DOI](https://doi.org/10.1016/j.imbio.2022.152221) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/35483110/)
+
+4.       1.    Binette V, Mousseau N, Tuffery P. A generalized attraction–repulsion potential and revisited fragment library improves PEP-FOLD peptide structure prediction. J Chem Theor Comput. 2022;18:2720–36. doi: 10.1021/acs.jctc.1c01234. - [DOI](https://doi.org/10.1021/acs.jctc.1c01234) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/35298162/)
+
+5.       1.    Buchan DW, Jones DT. The PSIPRED protein analysis workbench: 20 years on. Nucleic Acids Res. 2019;47:W402–7. doi: 10.1093/nar/gkz297. - [DOI](https://doi.org/10.1093/nar/gkz297) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6602445/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/31251384/)

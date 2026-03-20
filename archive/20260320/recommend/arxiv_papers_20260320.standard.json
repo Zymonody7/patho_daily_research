@@ -1,0 +1,1993 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-03-20T00:54:08.995144+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 54,
+    "deep_cap": 9,
+    "deep_selected": 30,
+    "quick_candidates": 67,
+    "quick_skim_target": 14,
+    "quick_selected": 14
+  },
+  "deep_dive": [
+    {
+      "id": "10.21203/rs.3.rs-9148578/v1",
+      "title": "Genomic and Machine Learning Approaches for Predicting Antimicrobial Resistance: A One Health Scoping Review in Low- and Middle-Income Countries",
+      "abstract": "<title>Abstract</title>  <p>Background  Antimicrobial resistance (AMR) is a major global health threat affecting humans, animals, and the environment. Its burden is particularly severe in low- and middle-income countries (LMICs), where infectious diseases are prevalent, antimicrobial use is often unregulated, and laboratory capacity is limited. Conventional phenotypic testing is essential but time-consuming and may fail to detect emerging or complex resistance mechanisms. Objective  This scoping review maps genomic surveillance approaches combined with machine learning (ML) and artificial intelligence (AI) for predicting bacterial AMR, emphasizing methodological strategies, predictive performance, and relevance to LMIC One Health surveillance. Methods  Systematic searches of PubMed, Scopus, Web of Science, EMBASE, and preprint servers (2020–2026) identified studies applying whole-genome sequencing (WGS) or pan-genomic approaches with ML/AI to predict AMR phenotypes. Data were extracted on pathogens, genomic feature engineering, ML/AI models, validation strategies, performance metrics, sample sources (human, animal, environmental), and LMIC relevance. Results  Twenty-seven studies met inclusion criteria, including 22 with direct or transferable LMIC relevance. Predictive performance ranged from 78% to 98%, with LMIC datasets achieving 80%–94% accuracy. Tree-based ensembles (Random Forest, gradient boosting), logistic regression, and neural networks predominated. Genomic features included single nucleotide polymorphisms, k-mer encodings, and pan-genome presence–absence matrices. Explainable AI methods, such as SHAP, improved interpretability. Most models were trained on high-income country datasets, and integrated LMIC datasets spanning human, animal, and environmental reservoirs remain limited. Conclusions  Genomic ML/AI approaches offer a rapid, high-resolution pathway for AMR prediction and One Health surveillance. Expanding LMIC-specific datasets, improving external validation, and integrating explainable AI are critical for equitable and sustainable deployment.</p>",
+      "authors": [
+        "Kimera Z, Mtebe M, kibwana u, masoud s, Kamori D, mbugi e, Matee MI."
+      ],
+      "primary_category": null,
+      "categories": [],
+      "published": "2026-03-18",
+      "link": "https://doi.org/10.21203/rs.3.rs-9148578/v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "machine learning for predicting bacterial AMR from genomic surveillance",
+      "llm_evidence_cn": "利用机器学习从基因组监测中预测细菌耐药性",
+      "llm_evidence": "利用机器学习从基因组监测中预测细菌耐药性",
+      "canonical_evidence": "利用机器学习从基因组监测中预测细菌耐药性",
+      "llm_tldr_en": "Reviews genomic surveillance and ML strategies for predicting antimicrobial resistance in LMICs.",
+      "llm_tldr_cn": "综述了低中收入国家预测抗生素耐药性的基因组监测和机器学习策略。",
+      "llm_tldr": "综述了低中收入国家预测抗生素耐药性的基因组监测和机器学习策略。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for antimicrobial resistance prediction from genomes",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.17380v1",
+      "title": "SCALE:Scalable Conditional Atlas-Level Endpoint transport for virtual cell perturbation prediction",
+      "abstract": "Virtual cell models aim to enable in silico experimentation by predicting how cells respond to genetic, chemical, or cytokine perturbations from single-cell measurements. In practice, however, large-scale perturbation prediction remains constrained by three coupled bottlenecks: inefficient training and inference pipelines, unstable modeling in high-dimensional sparse expression space, and evaluation protocols that overemphasize reconstruction-like accuracy while underestimating biological fidelity. In this work we present a specialized large-scale foundation model SCALE for virtual cell perturbation prediction that addresses the above limitations jointly. First, we build a BioNeMo-based training and inference framework that substantially improves data throughput, distributed scalability, and deployment efficiency, yielding 12.51* speedup on pretrain and 1.29* on inference over the prior SOTA pipeline under matched system settings. Second, we formulate perturbation prediction as conditional transport and implement it with a set-aware flow architecture that couples LLaMA-based cellular encoding with endpoint-oriented supervision. This design yields more stable training and stronger recovery of perturbation effects. Third, we evaluate the model on Tahoe-100M using a rigorous cell-level protocol centered on biologically meaningful metrics rather than reconstruction alone. On this benchmark, our model improves PDCorr by 12.02% and DE Overlap by 10.66% over STATE. Together, these results suggest that advancing virtual cells requires not only better generative objectives, but also the co-design of scalable infrastructure, stable transport modeling, and biologically faithful evaluation.",
+      "authors": [
+        "Shuizhou Chen",
+        "Lang Yu",
+        "Kedu Jin",
+        "Songming Zhang",
+        "Hao Wu",
+        "Wenxuan Huang",
+        "Sheng Xu",
+        "Quan Qian",
+        "Qin Chen",
+        "Lei Bai",
+        "Siqi Sun",
+        "Zhangyang Gao"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "q-bio.QM"
+      ],
+      "published": "2026-03-18T05:51:08+00:00",
+      "link": "https://arxiv.org/pdf/2603.17380v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "foundation model for cell perturbation prediction",
+      "llm_evidence_cn": "细胞扰动预测的基础模型",
+      "llm_evidence": "细胞扰动预测的基础模型",
+      "canonical_evidence": "细胞扰动预测的基础模型",
+      "llm_tldr_en": "Presents SCALE, a large-scale foundation model for predicting cellular responses to perturbations.",
+      "llm_tldr_cn": "推出了SCALE，一个用于预测细胞对扰动反应的大规模基础模型。",
+      "llm_tldr": "推出了SCALE，一个用于预测细胞对扰动反应的大规模基础模型。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "graph learning and foundation models for gene regulatory networks and cell state transitions",
+      "matched_requirement_id": "req-34",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41839876",
+      "title": "Illuminating cell states by a comprehensive and interpretable single cell foundation model.",
+      "abstract": "Advances in single-cell sequencing have enabled AI-driven foundation models with powerful data representation. However, their practical use is limited by real-world data sparsity, heterogeneity, and poor interpretability. To overcome these, we introduce CellVQ. To enhance generalizability, we incorporate a large-scale single-cell dataset comprising 68 million cells, model parameters totaling 500 million, and challenging pretraining tasks. Notably, we introduce a Single-Cell Discretization (SCD) module that effectively represents cell embeddings, addressing data heterogeneity. For improved interpretability, the SCD module transforms high-dimensional and sparse single-cell data into a \"cell code,\" facilitating recognition and analysis. Additionally, we also present CellVQ-Graph, a plug-and-play tool that integrates CellVQ's features with multimodal data (genes, cell communication, annotations) to build a knowledge graph for biological discovery. Extensively evaluated, CellVQ outperforms strong baselines in all downstream tasks, and also uncovered intriguing biological phenomena with compelling explanations. CellVQ aspires to serve as a truly applicable and generalizable AI tool for the cell biology community.",
+      "authors": [
+        "Wang J, Tan C, Gao Z, Shao S, Liu S, Li SZ."
+      ],
+      "primary_category": null,
+      "categories": [],
+      "published": "2026-03-16",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41839876/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "single cell foundation model for data representation and cell state recognition",
+      "llm_evidence_cn": "用于数据表示和细胞状态识别的单细胞基础模型",
+      "llm_evidence": "用于数据表示和细胞状态识别的单细胞基础模型",
+      "canonical_evidence": "用于数据表示和细胞状态识别的单细胞基础模型",
+      "llm_tldr_en": "CellVQ is a large-scale single-cell foundation model that improves interpretability and cell state analysis.",
+      "llm_tldr_cn": "CellVQ是一个大规模单细胞基础模型，提高了可解释性和细胞状态分析能力。",
+      "llm_tldr": "CellVQ是一个大规模单细胞基础模型，提高了可解释性和细胞状态分析能力。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "single cell sequencing and spatial transcriptomics analysis with machine learning",
+      "matched_requirement_id": "req-40",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41843252",
+      "title": "PhaGCN_Cluster: A Scalable and Robust Framework for Automated Classification and Discovery of Viral Dark Matter from Metagenomes.",
+      "abstract": "Viruses are the most abundant biological entities on Earth, playing essential roles in shaping microbial communities, driving evolution, and maintaining ecosystem functions. Metagenomic sequencing has unveiled a vast landscape of uncharacterized viral \"dark matter\", comprising highly divergent sequences that elude traditional taxonomic approaches. Here, we develop PhaGCN_Cluster, a next-generation viral classification tool built upon a graph convolutional neural network (GCN) framework. By integrating protein-level sequence similarity and contig-level genomic features, PhaGCN_Cluster establishes a scalable knowledge graph-based analytical system. The optimized algorithm yields significant gains in computational efficiency, supporting accurate taxonomic assignment of up to 300,000 contigs per run. Compared with existing methods, PhaGCN_Cluster demonstrates superior classification accuracy and F1-scores, particularly under conditions of low sequence similarity, and exhibits strong robustness in detecting evolutionarily distant viruses. Notably, PhaGCN_Cluster incorporates an updated logic for assigning \"_like\" taxa, which enhances its capacity to accommodate novel viral groups while preserving high precision-though at the cost of a slight reduction in recall. By generating high-fidelity network graphs, PhaGCN_Cluster uncovers previously unrecognized clades and bridges evolutionary gaps between reference viruses and novel sequences, thereby providing critical insights into viral diversity and evolution. PhaGCN_Cluster represents an interpretable, efficient, and scalable solution for automated virus classification. The source code of PhaGCN_Cluster is available via https://github.com/xiahaolong/PhaGCN_Cluster .",
+      "authors": [
+        "Hao-Long Xia",
+        "Pei-Yu Liang",
+        "Wen-Guang Yuan",
+        "Xu-Dong Cao",
+        "Yanni Sun",
+        "Jing-Zhe Jiang",
+        "Li-Hong Yuan"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-17",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41843252/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "graph convolutional neural network for viral classification from metagenomes",
+      "llm_evidence_cn": "用于宏基因组病毒分类的图卷积神经网络",
+      "llm_evidence": "用于宏基因组病毒分类的图卷积神经网络",
+      "canonical_evidence": "用于宏基因组病毒分类的图卷积神经网络",
+      "llm_tldr_en": "PhaGCN_Cluster uses GCNs to classify and discover divergent viral sequences from metagenomic data.",
+      "llm_tldr_cn": "PhaGCN_Cluster 利用图卷积网络对宏基因组数据中的趋异病毒序列进行分类和发现。",
+      "llm_tldr": "PhaGCN_Cluster 利用图卷积网络对宏基因组数据中的趋异病毒序列进行分类和发现。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for metagenomic pathogen detection and classification",
+      "matched_requirement_id": "req-11",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41849387",
+      "title": "Orthogonal disentanglement of single-cell multi-omics reveals private and shared drivers of tissue development and pathogenesis.",
+      "abstract": "Characterizing gene expression and regulatory dynamics underlying both normal tissue function and disease progression requires an integrative analysis of single-cell multi-omics data. However, the asynchrony of gene regulation and the snapshot of single-cell multi-omics data give rise to private signals unique to each omics layer and shared signals reflecting cross-modality coordination. Here, we present Omics Separation Modeling using Domain Adaptation (OmiDos), a flexible annotation-free deep learning framework that disentangles omic-specific and interomic shared latent variables in multi-omics data with private-shared component analysis. Its modular architecture enables seamless extension to incorporate adversarial learning for unpaired data misalignment and to restructure its components to leverage the maximum mean discrepancy regularization, thereby minimizing interference with biological variability. Through this disentanglement, OmiDos enables the estimation of gene expression and regulatory dynamics at finer biological granularity and empowers various downstream analyses. We demonstrated the superior performance of OmiDos in terms of clustering accuracy, batch-effect correction, and misalignment resolution across datasets spanning diverse platforms and tissue types. In mouse secondary palate development, OmiDos precisely identified a cell type-specific unlinked distal enhancer, elucidating its essential role in the regulation of epithelial cell differentiation and migration. The application of OmiDos to medulloblastoma revealed a potential role deficiency in driving partial closure of the distal enhancer region of Neurod1 may contribute to the progression of medulloblastoma from normal to tumor states.",
+      "authors": [
+        "Yi Fan",
+        "Yanchi Su",
+        "Gaoyang Hao",
+        "Fuzhou Wang",
+        "Xingjian Chen",
+        "Ka-Chun Wong",
+        "Xiangtao Li"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41849387/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "deep learning framework for disentangling single-cell multi-omics data",
+      "llm_evidence_cn": "用于解耦单细胞多组学数据的深度学习框架",
+      "llm_evidence": "用于解耦单细胞多组学数据的深度学习框架",
+      "canonical_evidence": "用于解耦单细胞多组学数据的深度学习框架",
+      "llm_tldr_en": "OmiDos disentangles shared and private signals in single-cell multi-omics to reveal drivers of tissue development.",
+      "llm_tldr_cn": "OmiDos 解耦单细胞多组学中的共享和特有信号，揭示组织发育的驱动因素。",
+      "llm_tldr": "OmiDos 解耦单细胞多组学中的共享和特有信号，揭示组织发育的驱动因素。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41851574",
+      "title": "Integrating machine learning and artificial intelligence in the management of Acinetobacter infections: a narrative review.",
+      "abstract": "Acinetobacter baumannii, particularly in its multidrug-resistant (MDR) and carbapenem-resistant (CRAB) forms, has become a major global health concern due to its ability to survive in hospital environments, acquire resistance rapidly, and cause severe infections with high mortality. Conventional diagnostic and therapeutic strategies remain slow, imprecise, and difficult to implement, especially in resource-limited settings, highlighting the need for innovative approaches. Advances in artificial intelligence (AI) and machine learning (ML) offer powerful tools to strengthen every stage of Acinetobacter infection management. This narrative review synthesizes current evidence on how AI enhances early detection, improves species-level identification, predicts antimicrobial resistance from genomic data, accelerates drug discovery, and supports real-time hospital surveillance and outbreak control. AI-driven methods enable faster triage, more accurate differentiation between colonization and true infection, robust prediction of resistance phenotypes, and efficient identification of synergistic antibiotic combinations. Moreover, AI-supported drug discovery pipelines have recently yielded novel agents such as abaucin, demonstrating the potential of computational approaches to explore new chemical spaces. Despite these promising advances, challenges persist regarding data quality, generalizability across settings, interpretability, and ethical considerations including privacy and algorithmic bias. Successful integration of AI into clinical practice will require rigorous model validation, equitable data governance, and strong collaboration between clinicians, microbiologists, and data scientists. Overall, AI represents a transformative opportunity to reduce the clinical and economic burden of Acinetobacter infections and to strengthen global antimicrobial resistance surveillance.",
+      "authors": [
+        "Legba BB, Dube S, Meštrović T, Dashnyam K, Saktiawati AMI, Maurelli F, Matsuyama R, Dougnon V, Enany S.",
+        "Brice Boris Legba",
+        "Sinikiwe Dube",
+        "Tomislav Meštrović",
+        "Khandmaa Dashnyam",
+        "Antonia Morita Iswari Saktiawati",
+        "Francesco Maurelli",
+        "Ryota Matsuyama",
+        "Victorien Dougnon",
+        "Shymaa Enany"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-18",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41851574/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "AI and machine learning for management of Acinetobacter infections",
+      "llm_evidence_cn": "AI和机器学习用于不动杆菌感染管理",
+      "llm_evidence": "AI和机器学习用于不动杆菌感染管理",
+      "canonical_evidence": "AI和机器学习用于不动杆菌感染管理",
+      "llm_tldr_en": "Synthesizes AI applications in detecting and managing multidrug-resistant Acinetobacter infections.",
+      "llm_tldr_cn": "综述了AI在检测和管理多重耐药不动杆菌感染中的应用。",
+      "llm_tldr": "综述了AI在检测和管理多重耐药不动杆菌感染中的应用。",
+      "llm_tags": [
+        "query:pathoai:composite"
+      ],
+      "matched_query_tag": "query:pathoai:composite",
+      "matched_query_text": "Papers central to 病原组学中的 AI 方法, especially work that connects or combines: foundation models for pathogen genomes and pathogen biology; machine learning for metagenomic pathogen classification; deep learning models for pathogen detection from sequencing data; AI methods for genomic surveillance and outbreak monitoring; machine learning for antimicrobial resistance prediction from genomes; machine learning for phylogenetic and transmission inference; multimodal models combining pathogen sequence phenotype and metadata; machine learning for microbiome host interaction pathogen ecology and infection modeling; AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design; foundation models for pathogen genome understanding and surveillance.",
+      "matched_requirement_id": "req-composite-pathoai",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41854075",
+      "title": "A foundation model for nucleotide sequences.",
+      "abstract": "Foundation models have demonstrated exceptional performance across diverse downstream tasks. However, in genomics and transcriptomics, the integration of nucleotide sequences with their rich annotations remains underexplored, potentially limiting model generalizability across species and biological contexts. Here, we introduce OmniNA (Omni-applicable foundation model for nucleic acid), a self-supervised generative foundation model trained on 91.7 million nucleotide sequences and their associated annotations, totaling 1076.2 billion bases and 197 million words spanning diverse species. Unlike most existing approaches that focus solely on functional genomic element recognition, OmniNA jointly learns from both sequences and annotations, leveraging their complementarity to enhance semantic understanding and representation learning. We demonstrate that OmniNA captures sequence grammar and annotation semantics, facilitating robust transfer across nucleotide-level tasks. OmniNA can be fine-tuned under natural language paradigms and achieves state-of-the-art or competitive performance in 23 benchmarks, including sequence detection and species classification. Its learned representations also help reveal mutation effects on DNA and RNA processing. We release the model publicly as a community resource for genomics and transcriptomics research. OmniNA represents a step toward advancing foundational modeling by integrating annotation-aware learning, offering a powerful tool for genomics and transcriptomics research.",
+      "authors": [
+        "Xilin Shen",
+        "Jia Xin Li",
+        "Meng Yang",
+        "Lei Shi",
+        "Kexin Chen",
+        "Xiangchun Li"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-19",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41854075/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "foundation model for nucleotide sequences and annotations",
+      "llm_evidence_cn": "核苷酸序列及其注释的基础模型",
+      "llm_evidence": "核苷酸序列及其注释的基础模型",
+      "canonical_evidence": "核苷酸序列及其注释的基础模型",
+      "llm_tldr_en": "OmniNA is a foundation model for nucleic acids trained on 91.7 million sequences and annotations.",
+      "llm_tldr_cn": "OmniNA是一个在9170万个核酸序列及其注释上训练的基础模型。",
+      "llm_tldr": "OmniNA是一个在9170万个核酸序列及其注释上训练的基础模型。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models for DNA RNA protein and cell biology",
+      "matched_requirement_id": "req-15",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.14792v1",
+      "title": "LaPro-DTA: Latent Dual-View Drug Representations and Salient Protein Feature Extraction for Generalizable Drug--Target Affinity Prediction",
+      "abstract": "Drug--target affinity prediction is pivotal for accelerating drug discovery, yet existing methods suffer from significant performance degradation in realistic cold-start scenarios (unseen drugs/targets/pairs), primarily driven by overfitting to training instances and information loss from irrelevant target sequences. In this paper, we propose LaPro-DTA, a framework designed to achieve robust and generalizable DTA prediction. To tackle overfitting, we devise a latent dual-view drug representation mechanism. It synergizes an instance-level view to capture fine-grained substructures with stochastic perturbation and a distribution-level view to distill generalized chemical scaffolds via semantic remapping, thereby enforcing the model to learn transferable structural rules rather than memorizing specific samples. To mitigate information loss, we introduce a salient protein feature extraction strategy using pattern-aware top-$k$ pooling, which effectively filters background noise and isolates high-response bioactive regions. Furthermore, a cross-view multi-head attention mechanism fuses these purified features to model comprehensive interactions. Extensive experiments on benchmark datasets demonstrate that LaPro-DTA significantly outperforms state-of-the-art methods, achieving an 8\\% MSE reduction on the Davis dataset in the challenging unseen-drug setting, while offering interpretable insights into binding mechanisms.",
+      "authors": [
+        "Zihan Dun",
+        "Liuyi Xu",
+        "An-Yang Lu",
+        "Shuang Li",
+        "Yining Qian"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "published": "2026-03-16T03:46:51+00:00",
+      "link": "https://arxiv.org/pdf/2603.14792v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "drug-target affinity prediction and protein feature extraction",
+      "llm_evidence_cn": "药物-靶点亲和力预测与蛋白质特征提取",
+      "llm_evidence": "药物-靶点亲和力预测与蛋白质特征提取",
+      "canonical_evidence": "药物-靶点亲和力预测与蛋白质特征提取",
+      "llm_tldr_en": "Proposes LaPro-DTA for robust drug-target affinity prediction using dual-view representations.",
+      "llm_tldr_cn": "提出 LaPro-DTA 框架，通过双视图表示实现鲁棒的药物-靶点亲和力预测。",
+      "llm_tldr": "提出 LaPro-DTA 框架，通过双视图表示实现鲁棒的药物-靶点亲和力预测。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models and generative AI for drug discovery molecular property prediction and lead optimization",
+      "matched_requirement_id": "req-20",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.14797v1",
+      "title": "Multi-Task Genetic Algorithm with Multi-Granularity Encoding for Protein-Nucleotide Binding Site Prediction",
+      "abstract": "Accurate identification of protein-nucleotide binding sites is fundamental to deciphering molecular mechanisms and accelerating drug discovery. However, current computational methods often struggle with suboptimal performance due to inadequate feature representation and rigid fusion mechanisms, which hinder the effective exploitation of cross-task information synergy. To bridge this gap, we propose MTGA-MGE, a framework that integrates a Multi-Task Genetic Algorithm with Multi-Granularity Encoding to enhance binding site prediction. Specifically, we develop a Multi-Granularity Encoding (MGE) network that synergizes multi-scale convolutions and self-attention mechanisms to distill discriminative signals from high-dimensional, redundant biological data. To overcome the constraints of static fusion, a genetic algorithm is employed to adaptively evolve task-specific fusion strategies, thereby effectively improving model generalization. Furthermore, to catalyze collaborative learning, we introduce an External-Neighborhood Mechanism (ENM) that leverages biological similarities to facilitate targeted information exchange across tasks. Extensive evaluations on fifteen nucleotide datasets demonstrate that MTGA-MGE not only establishes a new state-of-the-art in data-abundant, high-resource scenarios but also maintains a robust competitive edge in rare, low-resource regimes, presenting a highly adaptive scheme for decoding complex protein-ligand interactions in the post-genomic era.",
+      "authors": [
+        "Yiming Gao",
+        "Liuyi Xu",
+        "Pengshan Cui",
+        "Yining Qian",
+        "An-Yang Lu",
+        "Xianpeng Wang"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "published": "2026-03-16T03:51:54+00:00",
+      "link": "https://arxiv.org/pdf/2603.14797v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "protein-nucleotide binding site prediction using multi-granularity encoding",
+      "llm_evidence_cn": "使用多粒度编码进行蛋白质-核苷酸结合位点预测",
+      "llm_evidence": "使用多粒度编码进行蛋白质-核苷酸结合位点预测",
+      "canonical_evidence": "使用多粒度编码进行蛋白质-核苷酸结合位点预测",
+      "llm_tldr_en": "Proposes MTGA-MGE to improve protein-nucleotide binding site prediction via multi-task learning and self-attention.",
+      "llm_tldr_cn": "提出MTGA-MGE框架，通过多任务学习和自注意力机制提升蛋白质-核苷酸结合位点预测精度。",
+      "llm_tldr": "提出MTGA-MGE框架，通过多任务学习和自注意力机制提升蛋白质-核苷酸结合位点预测精度。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "protein language models for structure function prediction and design",
+      "matched_requirement_id": "req-16",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.14806v1",
+      "title": "Fold-CP: A Context Parallelism Framework for Biomolecular Modeling",
+      "abstract": "Understanding cellular machinery requires atomic-scale reconstruction of large biomolecular assemblies. However, predicting the structures of these systems has been constrained by hardware memory requirements of models like AlphaFold 3, imposing a practical ceiling of a few thousand residues that can be processed on a single GPU. Here we present NVIDIA BioNeMo Fold-CP, a context parallelism framework that overcomes this barrier by distributing the inference and training pipelines of co-folding models across multiple GPUs. We use the Boltz models as open source reference architectures and implement custom multidimensional primitives that efficiently parallelize both the dense triangular updates and the irregular, data-dependent pattern of window-batched local attention. Our approach achieves efficient memory scaling; for an N-token input distributed across P GPUs, per-device memory scales as $O(N^2/P)$, enabling the structure prediction of assemblies exceeding 30,000 residues on 64 NVIDIA B300 GPUs. We demonstrate the scientific utility of this approach through successful developer use cases: Fold-CP enabled the scoring of over 90% of Comprehensive Resource of Mammalian protein complexes (CORUM) database, as well as folding of disease-relevant PI4KA lipid kinase complex bound to an intrinsically disordered region without cropping. By providing a scalable pathway for modeling massive systems with full global context, Fold-CP represents a significant step toward the realization of a virtual cell.",
+      "authors": [
+        "Dejun Lin",
+        "Simon Chu",
+        "Vishanth Iyer",
+        "Youhan Lee",
+        "John St John",
+        "Kevin Boyd",
+        "Brian Roland",
+        "Xiaowei Ren",
+        "Guoqing Zhou",
+        "Zhonglin Cao",
+        "Polina Binder",
+        "Yuliya Zhautouskaya",
+        "Jakub Zakrzewski",
+        "Maximilian Stadler",
+        "Kyle Gion",
+        "Yuxing Peng",
+        "Xi Chen",
+        "Tianjing Zhang",
+        "Philipp Junk",
+        "Michelle Dimon",
+        "Paweł Gniewek",
+        "Fabian Ortega",
+        "McKinley Polen",
+        "Ivan Grubisic",
+        "Ali Bashir",
+        "Graham Holt",
+        "Danny Kovtun",
+        "Matthias Grass",
+        "Luca Naef",
+        "Rui Wang",
+        "Jian Peng",
+        "Anthony Costa",
+        "Saee Paliwal",
+        "Eddie Calleja",
+        "Timur Rvachov",
+        "Neha Tadimeti",
+        "Roy Tal",
+        "Emine Kucukbenli"
+      ],
+      "primary_category": "q-bio.QM",
+      "categories": [
+        "q-bio.QM",
+        "cs.DC",
+        "cs.LG",
+        "q-bio.BM"
+      ],
+      "published": "2026-03-16T04:20:01+00:00",
+      "link": "https://arxiv.org/pdf/2603.14806v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Parallelism framework for large biomolecular assembly structure prediction like AlphaFold 3",
+      "llm_evidence_cn": "针对AlphaFold 3等大型生物分子组装体结构预测的并行框架",
+      "llm_evidence": "针对AlphaFold 3等大型生物分子组装体结构预测的并行框架",
+      "canonical_evidence": "针对AlphaFold 3等大型生物分子组装体结构预测的并行框架",
+      "llm_tldr_en": "Introduces Fold-CP to enable training and inference of large protein models across multiple GPUs.",
+      "llm_tldr_cn": "引入Fold-CP框架，实现跨多GPU的大型蛋白质模型训练与推理。",
+      "llm_tldr": "引入Fold-CP框架，实现跨多GPU的大型蛋白质模型训练与推理。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "geometric deep learning and foundation models for protein structure modeling",
+      "matched_requirement_id": "req-17",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.14870v1",
+      "title": "IgPose: A Generative Data-Augmented Pipeline for Robust Immunoglobulin-Antigen Binding Prediction",
+      "abstract": "Predicting immunoglobulin-antigen (Ig-Ag) binding remains a significant challenge due to the paucity of experimentally-resolved complexes and the limited accuracy of de novo Ig structure prediction. We introduce IgPose, a generalizable framework for Ig-Ag pose identification and scoring, built on a generative data-augmentation pipeline. To mitigate data scarcity, we constructed the Structural Immunoglobulin Decoy Database (SIDD), a comprehensive repository of high-fidelity synthetic decoys. IgPose integrates equivariant graph neural networks, ESM-2 embeddings, and gated recurrent units to synergistically capture both geometric and evolutionary features. We implemented interface-focused k-hop sampling with biologically guided pooling to enhance generalization across diverse interfaces. The framework comprises two sub-networks--IgPoseClassifier for binding pose discrimination and IgPoseScore for DockQ score estimation--and achieves robust performance on curated internal test sets and the CASP-16 benchmark compared to physics and deep learning baselines. IgPose serves as a versatile computational tool for high-throughput antibody discovery pipelines by providing accurate pose filtering and ranking. IgPose is available on GitHub (https://github.com/arontier/igpose).",
+      "authors": [
+        "Tien-Cuong Bui",
+        "Injae Chung",
+        "Wonjun Lee",
+        "Junsu Ko",
+        "Juyong Lee"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "published": "2026-03-16T06:16:03+00:00",
+      "link": "https://arxiv.org/pdf/2603.14870v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "ESM-2 embeddings and equivariant graph neural networks for protein binding",
+      "llm_evidence_cn": "用于蛋白质结合的 ESM-2 嵌入和等变图神经网络",
+      "llm_evidence": "用于蛋白质结合的 ESM-2 嵌入和等变图神经网络",
+      "canonical_evidence": "用于蛋白质结合的 ESM-2 嵌入和等变图神经网络",
+      "llm_tldr_en": "A generative pipeline using protein language models and geometric DL for robust antibody-antigen binding prediction.",
+      "llm_tldr_cn": "利用蛋白质语言模型和几何深度学习的生成式管线，用于稳健的抗体-抗原结合预测。",
+      "llm_tldr": "利用蛋白质语言模型和几何深度学习的生成式管线，用于稳健的抗体-抗原结合预测。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "geometric deep learning and foundation models for protein structure modeling",
+      "matched_requirement_id": "req-17",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.14897v1",
+      "title": "BiTro: Bidirectional Transfer Learning Enhances Bulk and Spatial Transcriptomics Prediction in Cancer Pathological Images",
+      "abstract": "Cancer pathological analysis requires modeling tumor heterogeneity across multiple modalities, primarily through transcriptomics and whole slide imaging (WSI), along with their spatial relations. On one hand, bulk transcriptomics and WSI images are largely available but lack spatial mapping; on the other hand, spatial transcriptomics (ST) data can offer high spatial resolution, yet facing challenges of high cost, low sequencing depth, and limited sample sizes. Therefore, the data foundation of either side is flawed and has its limit in accurately finding the mapping between the two modalities. To this end, we propose BiTro, a bidirectional transfer learning framework that can enhance bulk and spatial transcriptomics prediction from pathological images. Our contributions are twofold. First, we design a universal and transferable model architecture that works for both bulk+WSI and ST data. A major highlight is that we model WSI images on the cellular level to better capture cells' visual features, morphological phenotypes, and their spatial relations; to map cells' features to their transcriptomics measured in bulk or ST, we adopt multiple instance learning. Second, by using LoRA, our model can be efficiently transferred between bulk and ST data to exploit their complementary information. To test our framework, we conducted comprehensive experiments on five cancer datasets. Results demonstrate that 1) our base model can achieve better or competitive performance compared to existing models on bulk or spatial transcriptomics prediction, and 2) transfer learning can further improve the base model's performance.",
+      "authors": [
+        "Jingkun Yu",
+        "Guangkai Shang",
+        "Changtao Li",
+        "Xun Gong",
+        "Tianrui Li",
+        "Yazhou He",
+        "Zhipeng Luo"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "published": "2026-03-16T06:56:34+00:00",
+      "link": "https://arxiv.org/pdf/2603.14897v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "transfer learning for spatial transcriptomics prediction",
+      "llm_evidence_cn": "空间转录组预测的迁移学习",
+      "llm_evidence": "空间转录组预测的迁移学习",
+      "canonical_evidence": "空间转录组预测的迁移学习",
+      "llm_tldr_en": "Proposes a bidirectional transfer learning framework to enhance spatial transcriptomics from images.",
+      "llm_tldr_cn": "提出了一种双向迁移学习框架，用于通过病理图像增强空间转录组预测。",
+      "llm_tldr": "提出了一种双向迁移学习框架，用于通过病理图像增强空间转录组预测。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "deep learning and foundation models for spatial transcriptomics proteomics and tissue mapping",
+      "matched_requirement_id": "req-46",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "2603.17549v1",
+      "title": "Conditional Inverse Learning of Time-Varying Reproduction Numbers Inference",
+      "abstract": "Estimating time-varying reproduction numbers from epidemic incidence data is a central task in infectious disease surveillance, yet it poses an inherently ill-posed inverse problem. Existing approaches often rely on strong structural assumptions derived from epidemiological models, which can limit their ability to adapt to non-stationary transmission dynamics induced by interventions or behavioral changes, leading to delayed detection of regime shifts and degraded estimation accuracy. In this work, we propose a Conditional Inverse Reproduction Learning framework (CIRL) that addresses the inverse problem by learning a {conditional mapping} from historical incidence patterns and explicit time information to latent reproduction numbers. Rather than imposing strongly enforced parametric constraints, CIRL softly integrates epidemiological structure with flexible likelihood-based statistical modeling, using the renewal equation as a forward operator to enforce dynamical consistency. The resulting framework combines epidemiologically grounded constraints with data-driven temporal representations, producing reproduction number estimates that are robust to observation noise while remaining responsive to abrupt transmission changes and zero-inflated incidence observations. Experiments on synthetic epidemics with controlled regime changes and real-world SARS and COVID-19 data demonstrate the effectiveness of the proposed approach.",
+      "authors": [
+        "Lanlan Yu",
+        "Quan-Hui Liu",
+        "Haoyue Zheng",
+        "Xinfu Yang"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "physics.soc-ph"
+      ],
+      "published": "2026-03-18T09:52:41+00:00",
+      "link": "https://arxiv.org/pdf/2603.17549v1",
+      "tags": [
+        "keyword:PathoAI",
+        "query:PathoAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Inference of time-varying reproduction numbers for infectious disease surveillance",
+      "llm_evidence_cn": "传染病监测中时变再生数的推断",
+      "llm_evidence": "传染病监测中时变再生数的推断",
+      "canonical_evidence": "传染病监测中时变再生数的推断",
+      "llm_tldr_en": "Proposes a conditional inverse learning framework to estimate epidemic reproduction numbers for disease surveillance.",
+      "llm_tldr_cn": "提出一种条件逆学习框架，用于估计流行病再生数，以支持传染病监测。",
+      "llm_tldr": "提出一种条件逆学习框架，用于估计流行病再生数，以支持传染病监测。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI driven outbreak surveillance genomic epidemiology and transmission modeling",
+      "matched_requirement_id": "req-12",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41220286",
+      "title": "Translating Gut Microbiota into Diagnostics: A Multidimensional Approach for the Diagnosis of Inflammatory Bowel Disease.",
+      "abstract": "The gut microbiota has emerged as a key factor in the pathophysiology of inflammatory bowel disease (IBD), providing novel opportunities for diagnostic innovation. Traditional biomarkers, such as C-reactive protein and fecal calprotectin, are widely used in clinical practice; however, their ability to reflect disease complexity and microbial dysregulation remains limited. Recent advances in metagenomics and multi-omics integration have enabled high-resolution profiling of microbial communities and their functional capacities and associated metabolites. Differential abundance analysis and machine learning models have been used to identify microbial biomarkers that can distinguish patients with IBD from healthy individuals. Multicohort studies integrating microbiome and metabolomic data have further improved diagnostic accuracy and generalizability. Transcriptomic and proteomic analyses provide complementary insights into host-microbe interactions and disease mechanisms. In this review, we explored the potential of metagenomic biodata as diagnostic markers for IBD, with an emphasis on a multidimensional analytical approach. We highlight the recent developments in sequencing technologies, computational pipelines for microbial feature selection, and machine learning strategies applied to biomarker discovery. The integration of multi-omics data deepens our understanding of host-microbe interactions and facilitates the development of microbiota-informed diagnostic tools. As multidimensional microbial profiling evolves, its clinical utility for the diagnosis and stratification of IBD requires further investigation.",
+      "authors": [
+        "June-Young Lee",
+        "Ji-Ho Yoo",
+        "Ji Eun Kim",
+        "Jin-Woo Bae",
+        "Chang Kyun Lee"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-15",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41220286/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "machine learning for gut microbiota diagnostics and microbial biomarkers",
+      "llm_evidence_cn": "机器学习用于肠道微生物群诊断和微生物生物标志物",
+      "llm_evidence": "机器学习用于肠道微生物群诊断和微生物生物标志物",
+      "canonical_evidence": "机器学习用于肠道微生物群诊断和微生物生物标志物",
+      "llm_tldr_en": "Reviews machine learning and metagenomics for identifying microbial biomarkers in inflammatory bowel disease.",
+      "llm_tldr_cn": "综述了机器学习和宏基因组学在识别炎症性肠病微生物标志物中的应用。",
+      "llm_tldr": "综述了机器学习和宏基因组学在识别炎症性肠病微生物标志物中的应用。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41329255",
+      "title": "Single-cell RNA sequencing and proteomics uncover glycolytic dysregulation linking skin and systemic inflammation in dermatomyositis.",
+      "abstract": "BACKGROUND: Dermatomyositis is a systemic autoimmune disease characterized by progressive muscle weakness and distinctive cutaneous manifestations. While skin involvement is a major clinical feature, the precise cellular and molecular landscape of lesional skin remains poorly defined, limiting our understanding of disease pathogenesis and targeted therapeutic development. OBJECTIVES: To define the systemic and skin lesion landscape of dermatomyositis inflammation, and investigate the underlying pathogenic mechanisms. METHODS: We performed single-cell RNA sequencing (scRNAseq) on skin lesions from adults with classic dermatomyositis in order to construct a high-resolution atlas of the lesional microenvironment. Intercellular communication and trajectory analyses were performed to identify pathogenic cell subpopulations. Proteomic and transcriptomic profiling were integrated to quantify the systemic inflammation burden. Therapeutic validation was conducted in experimental autoimmune myositis (EAM) mouse models. RESULTS: Our study uncovered a unique pathogenic landscape in dermatomyositis, identifying fibroblasts as the dominant signallers, whereas macrophages were dominant in healthy control skin. We characterized a distinct inflammatory fibroblast subset and established type I interferon (IFN-I) signalling as a key immune hallmark. Multi-omics integration revealed aberrant CXCL10 expression with heightened glycolysis as a central inflammatory driver. Therapeutic targeting using the glycolysis inhibitor 2-deoxy-D-glucose (2DG) significantly ameliorated inflammation in EAM mice. CONCLUSIONS: The scRNAseq atlas of dermatomyositis skin lesions delineates a pathogenic cascade centred on inflammatory fibroblasts. We have established the IFN-I signalling pathway and a CXCL10-glycolysis axis as core mechanisms underlying inflammation in dermatomyositis. Therapeutic targeting of glycolytic pathways with 2DG significantly attenuated inflammation in vivo, suggesting potential therapeutic strategies for dermatomyositis.",
+      "authors": [
+        "Xinzhi Xu",
+        "Wenxi Li",
+        "Kexin Sun",
+        "Feifei Hu",
+        "Junxia Huang",
+        "Chaofan Liu",
+        "Xiuyuan Wang",
+        "Jianchao Ge",
+        "Ji Yang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-19",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41329255/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "single-cell RNA sequencing and proteomics for systemic inflammation",
+      "llm_evidence_cn": "单细胞RNA测序和蛋白质组学分析系统性炎症",
+      "llm_evidence": "单细胞RNA测序和蛋白质组学分析系统性炎症",
+      "canonical_evidence": "单细胞RNA测序和蛋白质组学分析系统性炎症",
+      "llm_tldr_en": "Employs scRNA-seq and proteomics to map the cellular landscape and glycolytic dysregulation in dermatomyositis.",
+      "llm_tldr_cn": "利用单细胞测序和蛋白质组学揭示了皮肌炎中的细胞图谱和糖酵解失调。",
+      "llm_tldr": "利用单细胞测序和蛋白质组学揭示了皮肌炎中的细胞图谱和糖酵解失调。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "single cell sequencing and spatial transcriptomics analysis with machine learning",
+      "matched_requirement_id": "req-40",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41733350",
+      "title": "Quantitative metagenomics using a portable protocol.",
+      "abstract": "A field-deployable DNA sequencing approach for quantitative microbial community profiling can enable rapid responses for a range of applications in the water sector-from process control to wastewater surveillance. Current quantitative approaches require complex instrumentation and have long turnaround times for DNA recovery and absolute quantitation. In this study, we report a field-deployable rapid detection and rapid absolute quantitation (rD+rQ) workflow that leverages real-time Nanopore sequencing for quantitative metagenomics. This workflow integrates a high-molecular-weight DNA recovery protocol for diverse environmental matrices of relevance to the water sector, and multiplexed Nanopore sequencing with barcoded spike-in-based calibration (BSINC). BSINC using multispecies genomic spike-in controls exhibits significantly higher calibration accuracy compared to conventional approaches that utilize either a single DNA fragment or single organism spike-in controls. Dynamic detection and quantitation limits were established based on the coverage fraction of sequenced genomes and the coefficient of variation of genome copy numbers across replicates to enhance the accuracy and precision of microbial quantitation. The rD+rQ workflow achieves species-level identification and absolute quantitative results comparable to digital PCR in environmental samples. This portable laboratory and easy-to-use rD+rQ workflow should facilitate rapid decision-making for the water industry.IMPORTANCERapid and real-time monitoring of microbial communities is critical for a vast array of applications in environmental microbiology and biotechnology. While recent developments in portable sequencing technologies and associated workflows make onsite analysis possible, these approaches do not provide quantitative data on microbial concentrations. In this study, we present a sample and data processing workflow that enables nontargeted and quantitative microbial community profiling and demonstrate its validity on complex environmental samples. This approach for acquiring quantitative data can drive rapid decision-making from bioprocess control to wastewater-based epidemiology.",
+      "authors": [
+        "Kaiqin Bian",
+        "Andrea Busch",
+        "John Norton",
+        "Charles Bott",
+        "Raul Gonzalez",
+        "Kyle Curtis",
+        "Dienye Tolofari",
+        "Wendell Khunjar",
+        "Katherine E Graham",
+        "Ameet J Pinto"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-18",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41733350/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Nanopore sequencing for quantitative metagenomics and surveillance",
+      "llm_evidence_cn": "用于定量宏基因组学和监测的纳米孔测序",
+      "llm_evidence": "用于定量宏基因组学和监测的纳米孔测序",
+      "canonical_evidence": "用于定量宏基因组学和监测的纳米孔测序",
+      "llm_tldr_en": "A field-deployable workflow using Nanopore sequencing for rapid quantitative metagenomics and surveillance.",
+      "llm_tldr_cn": "一种利用纳米孔测序进行快速定量宏基因组学和监测的可现场部署工作流。",
+      "llm_tldr": "一种利用纳米孔测序进行快速定量宏基因组学和监测的可现场部署工作流。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41837716",
+      "title": "Metagenome-assembled genomes from a population-based cohort uncover novel gut species and within-species diversity, revealing prevalent disease associations.",
+      "abstract": "UNLABELLED: Metagenomic profiling has advanced the understanding of microbe-host interactions. However, widely used read-based approaches are limited by incomplete reference databases and the inability to resolve strain-level variation. Here, we present a scalable, genome-resolved framework that integrates population-specific metagenome-assembled genomes (MAGs) to discover novel species, within-species diversity, and disease associations. From 1,878 deeply sequenced samples in the Estonian Microbiome Cohort (EstMB-deep), we reconstructed 84,762 MAGs representing 2,257 species, including 353 (15.6%) previously uncharacterized species reaching up to 30% relative abundances in some individuals. We integrated these MAGs with the Unified Human Gastrointestinal Genome collection to create an expanded reference (GUTrep), enabling profiling of 2,509 EstMB individuals and testing associations with 33 prevalent diseases. Of the 25 diseases with significant associations, 8 involved newly identified species, underscoring the value of population-specific MAGs. To quantify within-species diversity, we developed the genome unit number (GUN), a novel MAG-based metric that informed within-species analyses. Based on normalized GUN, we prioritized Odoribacter splanchnicus, a prevalent species with the lowest within-species heterogeneity, yielding sufficient power for a within-species association study. We identified two dominant genome units, GU-N1 and GU-N2, with distinct gene repertoires and divergent disease associations. Notably, GU-N1 was negatively associated with gastritis, duodenitis, and hypertensive heart disease, associations undetected at the species level. Our study expands the human gut reference landscape, demonstrates the importance of population-specific MAGs for uncovering novel microbial diversity, and reveals new disease associations at the within-species level obscured at higher taxonomic levels, highlighting the need for genome-resolved approaches in microbiome research. IMPORTANCE: Microbiome studies increasingly recognize that species-level profiles can mask critical within-species differences relevant to health and disease. However, our work shows that within-species diversity varies drastically across gut microbes, with some species exhibiting almost as many distinct within-species clusters as recovered genomes, making association studies at the within-species level essentially intractable. To address this, we introduce the genome unit number (GUN), a scalable metric for quantifying within-species structure. Using GUN, we demonstrate that only species with limited within-species diversity, such as Odoribacter splanchnicus, currently allow for robust within-species association testing. These findings emphasize the need to systematically evaluate species structure across the gut microbiome and call for the development of new computational and statistical approaches to enable meaningful within-species analyses in highly diverse species.",
+      "authors": [
+        "Kateryna Pantiukh",
+        "Kertu Liis Krigul",
+        "Oliver Aasmets",
+        "Elin Org"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-16",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41837716/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "metagenome-assembled genomes for strain-level microbiome analysis and disease associations",
+      "llm_evidence_cn": "用于菌株级微生物组分析和疾病关联的宏基因组组装基因组",
+      "llm_evidence": "用于菌株级微生物组分析和疾病关联的宏基因组组装基因组",
+      "canonical_evidence": "用于菌株级微生物组分析和疾病关联的宏基因组组装基因组",
+      "llm_tldr_en": "Presents a framework using 84,762 MAGs to discover novel species and strain-level disease associations in the gut.",
+      "llm_tldr_cn": "提出一个利用8.4万个MAG发现肠道新物种及菌株级疾病关联的基因组解析框架。",
+      "llm_tldr": "提出一个利用8.4万个MAG发现肠道新物种及菌株级疾病关联的基因组解析框架。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning and strain level microbiome analysis",
+      "matched_requirement_id": "req-54",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41837859",
+      "title": "Unlocking Enzyme Discovery: A High-Resolution Gene Cluster Database Powered by Phylogenetic Insights and Machine Learning.",
+      "abstract": "High-throughput sequencing has generated vast genomic repositories that remain under-annotated, hampering enzyme discovery. We present an integrated pipeline that (i) builds a high-resolution, cross-kingdom phylogenetic database, (ii) mines candidates via multilocus phylogeny, (iii) predicts activities using an evolutionary-scale protein language model, and (iv) removes false positives through multilevel residue-atom contact rescoring. When applied to the r-BOX pathway, this approach uncovered numerous previously undocumented FadB, BktB, Ter, and YdiI homologues. Our activity model achieved <i>R</i><sup>2</sup> = 0.68 and reduced the RMSE on high-value targets by 11% compared to the prior SOTA (UniKP). Contact scoring improved early enrichment (EF1%) by 16-fold. Experimental validation targeting FadB increased titers from 0.65 g/L (shake flasks) to 1.7 g/L, reaching 10.2 g/L in a fermentation process. Together, these results establish a robust, generalizable framework for discovering scarce, high-value enzymes and prioritizing functional variants at scale.",
+      "authors": [
+        "Zhang S, He J, Duan X, Liu Z, Lan Z, Wang Q, Wang J, Liu W, Zhai Q, Cruz-Morales P, Wu J.",
+        "Sidun Zhang",
+        "Junlong He",
+        "Xuguo Duan",
+        "Zimin Liu",
+        "Zhouge Lan",
+        "Qiong Wang",
+        "Jianyang Wang",
+        "Wenrui Liu",
+        "Qixiao Zhai",
+        "Pablo Cruz-Morales",
+        "Junjun Wu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-16",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41837859/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "evolutionary-scale protein language model for activity prediction",
+      "llm_evidence_cn": "用于活性预测的进化尺度蛋白质语言模型",
+      "llm_evidence": "用于活性预测的进化尺度蛋白质语言模型",
+      "canonical_evidence": "用于活性预测的进化尺度蛋白质语言模型",
+      "llm_tldr_en": "Integrates phylogenetic insights and protein language models to improve enzyme discovery and activity prediction.",
+      "llm_tldr_cn": "结合系统发育见解和蛋白质语言模型，提高了酶发现和活性预测的准确性。",
+      "llm_tldr": "结合系统发育见解和蛋白质语言模型，提高了酶发现和活性预测的准确性。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "protein language models for structure function prediction and design",
+      "matched_requirement_id": "req-16",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41838776",
+      "title": "Fast hospital discharge rates blur within-hospital 'transmission footprint' in bacterial genomes, as showcased with Staphylococcus aureus.",
+      "abstract": "The relatively slow mutation rates of bacterial pathogens impose severe limitations on phylodynamic analysis of bacterial outbreaks. However, whole-genome sequencing may enable accurate inference of bacterial transmission dynamics in health-care settings. We simulated the epidemic dynamics of a Staphylococcus aureus lineage using a stochastic model with a hospital and community compartment connected by patient admission and discharge. We generated synthetic genomic sequences and performed Bayesian phylodynamic inference on a proportion of samples from each simulated outbreak. When samples are obtained from both compartments, hospital transmission rate ([Formula: see text]) and community transmission rate ([Formula: see text]) are accurately estimated, if [Formula: see text] is on the same scale as the discharge rate. If [Formula: see text] is substantially lower than the discharge rate, a robust quantification of within-hospital transmission dynamics is challenging. Excluding samples from the community resulted in a notable underestimation of [Formula: see text] when [Formula: see text]. When transmission was 'community-driven', but sampling was restricted to hospital cases only, estimates are closer to the true [Formula: see text], if hospital sampling proportion is known. Otherwise, [Formula: see text] estimates reflected the transmission dynamics within the community. When using genomic data to estimate bacterial transmission rates in a health-care setting, it is essential to take into account the surrounding community. Many infections related to nosocomial outbreaks will not be observed within the hospital due to fast discharge rates. In the absence of usable genomic data from the community, alternative estimates of community transmission rates from publicly available data should be incorporated. Transmission rate estimates from nosocomial genomes alone need to be interpreted with care.",
+      "authors": [
+        "Sanni Översti",
+        "Mathilde Boumasmoud",
+        "Huldyrch F Günthard",
+        "Hugo Sax",
+        "Annelies S Zinkernagel",
+        "Roger D Kouyos",
+        "Denise Kühnert"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-16",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41838776/",
+      "tags": [
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Bayesian phylodynamic inference of bacterial transmission dynamics",
+      "llm_evidence_cn": "细菌传播动力学的贝叶斯系统动力学推断",
+      "llm_evidence": "细菌传播动力学的贝叶斯系统动力学推断",
+      "canonical_evidence": "细菌传播动力学的贝叶斯系统动力学推断",
+      "llm_tldr_en": "Uses whole-genome sequencing and Bayesian inference to model Staphylococcus aureus transmission in hospitals.",
+      "llm_tldr_cn": "利用全基因组测序和贝叶斯推断模拟医院内金黄色葡萄球菌的传播动力学。",
+      "llm_tldr": "利用全基因组测序和贝叶斯推断模拟医院内金黄色葡萄球菌的传播动力学。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for phylogenetic and transmission inference",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41839859",
+      "title": "Dynamics of phage-host interactions in Bacteroides fragilis resolved by single-cell transcriptomics.",
+      "abstract": "The interactions between lytic phages and their hosts are typically studied in bulk culture, which obscures cell-cell differences in infection susceptibility or expression of protective factors. Here, we use bacterial single-cell RNA sequencing to profile the transcriptomes of ~50,000 cells from cultures of a human pathobiont, Bacteroides fragilis, infected with a lytic bacteriophage. From a single sampling, we quantified the asynchronous progression of phage infection in individual bacterial cells and reconstructed the infection timeline, characterizing both host and phage transcriptomic changes as infection unfolded. Further, we discovered phenotypic subpopulations of bacteria that remained uninfected. Each cell's vulnerability to phage infection was influenced by expression of multiple genetic loci, most prominently phase-variable capsular polysaccharide (CPS) biosynthesis pathways and an operon predicted to encode fimbrial genes. These findings uncovered genome-wide phase variation and stochasticity that enable bacterial survival and re-growth without acquiring additional mutations. Overall, we establish bacterial single-cell RNA sequencing as a powerful platform for investigating the dynamics of host-phage interactions and revealing the roles of phase variation and stochasticity in bacterial defenses.",
+      "authors": [
+        "Anika Gupta",
+        "Norma Morella",
+        "Dmitry Sutormin",
+        "Naisi Li",
+        "Karl Gaisser",
+        "Alexander Robertson",
+        "Yaroslav Ispolatov",
+        "Georg Seelig",
+        "Neelendu Dey",
+        "Anna Kuchina"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-16",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41839859/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "single-cell transcriptomics of phage-host interactions",
+      "llm_evidence_cn": "噬菌体-宿主相互作用的单细胞转录组学",
+      "llm_evidence": "噬菌体-宿主相互作用的单细胞转录组学",
+      "canonical_evidence": "噬菌体-宿主相互作用的单细胞转录组学",
+      "llm_tldr_en": "Uses single-cell RNA sequencing to resolve the dynamics and subpopulations of phage-host interactions.",
+      "llm_tldr_cn": "利用单细胞 RNA 测序解析噬菌体与宿主相互作用的动态和亚群。",
+      "llm_tldr": "利用单细胞 RNA 测序解析噬菌体与宿主相互作用的动态和亚群。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41840705",
+      "title": "scCAPReSE: detection of large-scale genomic rearrangements from single-cell Hi-C based on few-shot learning.",
+      "abstract": "Large-scale genomic rearrangements are prevalent in cancer genomes and can profoundly rewire three-dimensional (3D) genome architecture, leading to aberrant oncogene activation through enhancer hijacking. The rewired 3D organization generates unique chromatin contact signatures, which can be detected using deep learning-based approaches. However, extending such analyses to single-cell resolution, which is critical to delineate clonal heterogeneity in cancer, remains a major challenge, due to the limited number of training sets as single-cell Hi-C techniques are not standardized and only limited datasets are available across different methods. Here, we introduce scCAPReSE, a few-shot learning-based framework that adopts representations from a pre-trained image foundation model, CLIP, to enable robust classification of structural variation (SV) patterns in single-cell Hi-C data. By extracting and fine-tuning base weights from the foundation model, scCAPReSE enables effective training of deep learning classifiers using only a few hundred large-scale SV examples derived from a single cancer cell line while adapting classification tasks to heterogeneous single-cell Hi-C libraries. scCAPReSE achieved over 90% classification accuracy when evaluated on sci-Hi-C datasets. When further applied to scNanoHi-C data from the K562 chronic myeloid leukemia cell line, scCAPReSE correctly identified the Philadelphia chromosome translocation but also revealed substantial cell-to-cell variability in the contribution of SV-mediated chromatin interactions, highlighting previously inaccessible heterogeneity in cancer 3D genome organization. In summary, scCAPReSE provides a broadly applicable and data-efficient framework for detecting SV-driven 3D genome reorganization at single-cell resolution, enabling quantitative dissection of cancer-specific chromatin architecture and clonal heterogeneity. The developed method is freely available at https://github.com/kaistcbfg/CAPReSE.",
+      "authors": [
+        "Kim K, Lee CH, Jung I."
+      ],
+      "primary_category": null,
+      "categories": [],
+      "published": "2026-03-16",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41840705/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "detection of genomic rearrangements from single-cell Hi-C",
+      "llm_evidence_cn": "从单细胞Hi-C中检测基因组重排",
+      "llm_evidence": "从单细胞Hi-C中检测基因组重排",
+      "canonical_evidence": "从单细胞Hi-C中检测基因组重排",
+      "llm_tldr_en": "scCAPReSE uses few-shot learning to detect large-scale genomic rearrangements in single-cell 3D genome data.",
+      "llm_tldr_cn": "scCAPReSE利用少样本学习从单细胞3D基因组数据中检测大规模基因组重排。",
+      "llm_tldr": "scCAPReSE利用少样本学习从单细胞3D基因组数据中检测大规模基因组重排。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "single cell sequencing and spatial transcriptomics analysis with machine learning",
+      "matched_requirement_id": "req-40",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41841344",
+      "title": "Multiscale-Aware Graph Embedding Approach Uncovers LC-61, a Potent Anti-",
+      "abstract": "Visceral leishmaniasis caused by Leishmania infantum remains a lethal disease with few therapeutic options, necessitating innovative computational methods and approaches to accelerate drug discovery. Here, we present a graph neural network (GNN) framework incorporating well-established multiscale mechanisms to improve the identification of novel antileishmanial compounds. Across two classificatory antileishmanial data sets, our GNNs demonstrated significant improvements in predictive performance, with area under the receiver operating characteristic curve (AUC) increases of 2.2-29.2% on the imbalanced data set (activity cutoff: 1 μM) and 3.4-22.5% on the balanced data set (activity cutoff: 10 μM) compared to default GNNs. Subsequently, the framework was applied to screen a library of approximately 1.3 million compounds, pinpointing LC-61 as a potent antileishmanial agent with nanomolar activity against intracellular L. infantum (IC50 = 0.076 μM) and minimal cytotoxicity to macrophages (THP-1 CC50 = 157 μM). A comprehensive in vitro ADME profiling revealed that LC-61 combines high solubility at both acidic and physiological pH (>28 μg/mL), balanced lipophilicity (eLogD = 4.07), and favorable passive permeability (PAMPA = 4.86 × 10-6 cm/s), while exhibiting lower microsomal stability. Overall, our GNN framework effectively accelerated the discovery of LC-61, a novel and biologically validated hit suitable for hit-to-lead optimization.",
+      "authors": [
+        "Vinícius Alexandre Fiaia Costa",
+        "Alexandra Maria Dos Santos Carvalho",
+        "Rafael Consolin Chelucci",
+        "Felipe da Silva Mendonça de Melo",
+        "Gustavo Santos Sandes Felizardo",
+        "Clarissa Alves Carneiro Bernardes",
+        "Holli-Joi Martin",
+        "Rodolpho de Campos Braga",
+        "Sébastien Charneau",
+        "Eugene N Muratov",
+        "Adriano Defini Andricopulo",
+        "Izabela Marques Dourado Bastos",
+        "Bruno Junior Neves"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-17",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41841344/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "GNN framework for identifying antileishmanial compounds for drug discovery",
+      "llm_evidence_cn": "用于识别抗利什曼原虫化合物的图神经网络框架",
+      "llm_evidence": "用于识别抗利什曼原虫化合物的图神经网络框架",
+      "canonical_evidence": "用于识别抗利什曼原虫化合物的图神经网络框架",
+      "llm_tldr_en": "A multiscale graph neural network improves the identification of potent antileishmanial compounds for drug discovery.",
+      "llm_tldr_cn": "一种多尺度图神经网络提高了抗利什曼原虫药物发现的识别效率。",
+      "llm_tldr": "一种多尺度图神经网络提高了抗利什曼原虫药物发现的识别效率。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41842761",
+      "title": "Novel Deep-Learning Unsupervised Domain Adaptation Method for Mitigating Batch, Strain, and Instrument Variations to Enhance Raman Spectroscopy-Based Bacterial Pathogen Identification.",
+      "abstract": "The escalating threat of antibiotic resistance demands a rapid and accurate pathogen identification. While Raman spectroscopy combined with deep learning supports fast detection, model robustness remains compromised by domain shifts arising from instrument heterogeneity, batch variability, and strain diversity. To address this, we propose the Raman Spectral Classification Discrepancy Model (RSCDM), a novel domain adaptation framework that dynamically identifies target samples far from the source domain feature distribution via output discrepancies between task-specific classifiers. It adversarially aligns features of different domains to bridge the spectral variability. Unlike traditional methods relying on fixed-domain assumptions, RSCDM leverages classifier output differences to adaptively detect out-of-distribution samples, enabling task-driven domain alignment. Experimental results demonstrate that RSCDM enhances classification accuracy for seven bacterial species across batches and strains from 81.6% to 95.4% using a commercial spectrometer and from 77.5% to 91.3% for six clinical isolates (excluded from training) obtained with a home-built spectrometer. Fine-tuning the pretrained model on reference strains' spectra acquired by both commercial and home-built spectrometers further boosts the identification accuracy of clinical isolates to 99.3%, validating robustness to instrument diversity. Together, these findings address critical challenges in spectral domain adaptation and support translation of single-cell Raman spectroscopy into clinically relevant settings. The results demonstrate that our method improved robustness to batch/strain/instrument variability and reduced identification time from days to minutes under the high-bacterial-load conditions.",
+      "authors": [
+        "Zhang Z, Xu Y, Meng S, Lei Z, Zeng H, Zhao Q, Wang L, Hu H, Yang J, Song Y.",
+        "Zhe Zhang",
+        "Yiwen Xu",
+        "Siyu Meng",
+        "Zhouhao Lei",
+        "Huan Zeng",
+        "Qiang Zhao",
+        "Liliang Wang",
+        "Huijie Hu",
+        "Jiyong Yang",
+        "Yizhi Song"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-17",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41842761/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "deep learning for bacterial pathogen identification",
+      "llm_evidence_cn": "用于细菌病原体识别的深度学习",
+      "llm_evidence": "用于细菌病原体识别的深度学习",
+      "canonical_evidence": "用于细菌病原体识别的深度学习",
+      "llm_tldr_en": "A domain adaptation method to improve bacterial pathogen identification using Raman spectroscopy.",
+      "llm_tldr_cn": "一种利用拉曼光谱提高细菌病原体识别准确率的领域自适应方法。",
+      "llm_tldr": "一种利用拉曼光谱提高细菌病原体识别准确率的领域自适应方法。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "deep learning models for pathogen detection from sequencing data",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41843615",
+      "title": "Machine learning identifies novel signatures of antifungal drug resistance in Saccharomycotina yeasts.",
+      "abstract": "Antifungal drug resistance is a major challenge in fungal infection management. Numerous genomic changes are known to contribute to acquired drug resistance in clinical isolates of specific pathogens, but whether they broadly explain natural resistance across entire lineages is unknown. We leveraged genomic, ecological, and phenotypic trait data from naturally sampled strains from nearly all known species in subphylum Saccharomycotina to examine the evolution of resistance to eight antifungal drugs. The phylogenetic distribution of drug resistance varied by drug; fluconazole resistance was widespread, while 5-fluorocytosine resistance was rare, except in Lipomycetales. A random forest algorithm trained on genomic data predicted drug-resistant yeasts with 54-75% accuracy. Fluconazole resistance was consistently predicted with the highest accuracy (75.2%). Furthermore, fluconazole resistance prediction accuracy was similar between models trained on genome-wide variation in the presence and number of InterPro protein annotations across Saccharomycotina (75.2%) and those trained on amino acid sequence alignment data of Erg11, a protein known to be involved in fluconazole resistance (74.3-74.9%). Interestingly, the top Erg11 residues for predicting fluconazole resistance across Saccharomycotina do not overlap with, are not spatially close to, and are less conserved than those previously linked to resistance in clinical isolates of Candida albicans. In silico deep mutational scanning of the C. albicans Erg11 protein reveals that amino acid variants implicated in clinical cases of resistance are almost universally destabilizing while variants in our most informative residues are energetically more neutral, explaining why the latter are much more common than the former in natural populations. Importantly, previous experimental analyses of C. albicans Erg11 have shown that amino acid variation in our most informative residues, despite having never been directly implicated in clinical cases, can directly contribute to resistance. Our results suggest that studies of natural resistance in yeast species never encountered in the clinic will yield a fuller understanding of antifungal drug resistance.",
+      "authors": [
+        "Marie-Claire Harrison",
+        "David C Rinker",
+        "Abigail L LaBella",
+        "Dana A Opulente",
+        "John F Wolters",
+        "Xiaofan Zhou",
+        "Xing-Xing Shen",
+        "Marizeth Groenewald",
+        "Chris Todd Hittinger",
+        "Antonis Rokas"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-17",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41843615/",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "random forest algorithm trained on genomic data for antifungal resistance prediction",
+      "llm_evidence_cn": "基于基因组数据训练随机森林算法进行抗真菌耐药性预测",
+      "llm_evidence": "基于基因组数据训练随机森林算法进行抗真菌耐药性预测",
+      "canonical_evidence": "基于基因组数据训练随机森林算法进行抗真菌耐药性预测",
+      "llm_tldr_en": "Uses machine learning on genomic and phenotypic data to identify signatures of antifungal resistance in yeasts.",
+      "llm_tldr_cn": "利用机器学习分析基因组和表型数据，识别酵母菌中抗真菌耐药性的新特征。",
+      "llm_tldr": "利用机器学习分析基因组和表型数据，识别酵母菌中抗真菌耐药性的新特征。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for antimicrobial resistance prediction from genomes",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41844697",
+      "title": "In silico discovery of thioglycoside analogues as donor-site inhibitors of glycosyltransferase LgtC.",
+      "abstract": "The growing prevalence of multidrug-resistant Gram-negative pathogens highlights the urgent need for therapeutic strategies that complement traditional antibiotics by targeting essential virulence pathways. Glycosyltransferase LgtC, a key enzyme in lipooligosaccharide (LOS) biosynthesis, represents an attractive target for antivirulence approaches because of its essential role in bacterial immune evasion and pathogenicity. In this work, we employed an integrated in silico pipeline to identify thioglycoside analogs structurally related to the metabolic decoys FucSBn and BacSBn, evaluating their potential to hit the UDP-galactose donor pocket of LgtC. A similarity-based screening in PubChem, followed by ADME-Tox filtering yield 18 candidate analogs. Molecular docking using AutoDock-GPU revealed several candidates, most notably C-5 (- 8.36 kcal/mol) and C-18 (- 8.13 kcal/mol), to bind favorably within the donor site, showing more negative mean scoring values than natural donor UDP-α-D-galactose (- 6.74 kcal/mol). Redocking of the natural ligand reproduced the crystallographic pose, supporting the reliability of the docking protocol. To assess dynamic behavior, 100 ns molecular dynamics simulations (AMBER14) were performed for each complex. The top-scoring analogs maintained stable binding poses, with RMSD values of ~ 2.0-3.0 Å and preserved donor-like hydrogen-bond networks complemented by π-stacking and sulfur-mediated contacts. These interaction patterns suggest that the thioglycoside analogs may occupy the donor site in a manner compatible with competitive binding. While docking and MD describe different aspects of ligand recognition, several trends observed in docking, such as the favorable binding scores of C-5 and C-18, are broadly consistent with their ability to maintain stable poses during MD. Based on this consistency and scoring, the thioglycoside scaffolds C-5, C-14, and C-18 emerge as computationally prioritized candidates for subsequent biochemical testing against LgtC. Furthermore, these scaffolds offer a mechanistic basis and putative starting points for future structure-based optimization of thioglycoside analogs aimed at disrupting LOS biosynthesis in multidrug-resistant Gram-negative bacteria.",
+      "authors": [
+        "Olimpo Sierra-Hernández",
+        "Oscar Saurith-Coronell",
+        "Jackson J Alcázar",
+        "Eliceo Cortés",
+        "Maryury C Flores-Sumoza",
+        "Juan D Rodríguez-Macías",
+        "José R Mora",
+        "Yovani Marrero-Ponce",
+        "Ernesto Contreras-Torres",
+        "Edgar A Márquez Brazón"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-17",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41844697/",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "query:BioInfo"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "in silico discovery of inhibitors for pathogen virulence pathways",
+      "llm_evidence_cn": "病原体毒力途径抑制剂的计算机发现",
+      "llm_evidence": "病原体毒力途径抑制剂的计算机发现",
+      "canonical_evidence": "病原体毒力途径抑制剂的计算机发现",
+      "llm_tldr_en": "Uses an in silico pipeline to identify thioglycoside analogs as inhibitors for a key enzyme in pathogen biosynthesis.",
+      "llm_tldr_cn": "利用计算机模拟流程识别硫代糖苷类似物，作为病原体生物合成关键酶的抑制剂。",
+      "llm_tldr": "利用计算机模拟流程识别硫代糖苷类似物，作为病原体生物合成关键酶的抑制剂。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41845201",
+      "title": "Machine learning-based prediction of BV-relevant probiotic functional potential in vaginal-derived Lactobacillus crispatus strains.",
+      "abstract": "The vaginal microbiota plays a pivotal role in maintaining female reproductive health and homeostasis. However, most currently available Lactobacillus isolates have been developed for the prevention and treatment of intestinal diseases, whereas strain-specific investigations targeting female reproductive health remain limited. Conventional cultivation and screening strategies are often associated with high costs and substantial labor requirements. Machine learning enables rapid analysis of large-scale omics data, facilitating efficient identification of candidate probiotics. A total of 639 Lactobacillus crispatus isolates were recovered from vaginal secretions of healthy women using three selective media. Based on phylogenetic tree analysis, 67 representative strains were selected for in vitro assays including growth capacity, acidification capacity (pH reduction), lactic acid production, hydrogen peroxide production, and antimicrobial activity. A weighted scoring system was subsequently established based on these results, leading to the identification of three Lactobacillus crispatus strains with optimal overall performance. Finally, by integrating k-mer-based genomic features of the strains, a multi-stage feature selection strategy was employed in combination with multiple machine learning algorithms to develop a predictive pipeline, VLCPredictor. This pipeline is capable of scoring the functional potential of vaginal-derived Lactobacillus crispatus strains. Our study provides an efficient framework for the development and application of Lactobacillus crispatus in female reproductive tract health. It may support significant implications for maintaining microbial equilibrium in the female reproductive system, as well as for the prevention and treatment of gynecological infectious diseases.",
+      "authors": [
+        "Keyu Quan",
+        "Weichi Liu",
+        "Hao Jin",
+        "Weiwei Hu",
+        "Qinggele Borjihan",
+        "Qiuhua Bao",
+        "Yongfu Chen"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-17",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41845201/",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "machine learning for probiotic functional potential in vaginal microbiota",
+      "llm_evidence_cn": "机器学习预测阴道微生物群中益生菌的功能潜力",
+      "llm_evidence": "机器学习预测阴道微生物群中益生菌的功能潜力",
+      "canonical_evidence": "机器学习预测阴道微生物群中益生菌的功能潜力",
+      "llm_tldr_en": "Uses machine learning to predict the functional potential of Lactobacillus strains for female reproductive health.",
+      "llm_tldr_cn": "利用机器学习预测乳杆菌菌株在女性生殖健康中的功能潜力。",
+      "llm_tldr": "利用机器学习预测乳杆菌菌株在女性生殖健康中的功能潜力。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41848929",
+      "title": "Vector Encoding of Phylogenetic Trees by Ordered Leaf Attachment.",
+      "abstract": "As part of work to connect phylogenetics with machine learning, there has been considerable recent interest in vector encodings of phylogenetic trees. We present a simple new \"ordered leaf attachment\" (OLA) method for uniquely encoding a binary, rooted phylogenetic tree topology as an integer vector. OLA encoding and decoding take linear time in the number of leaf nodes, and the set of vectors corresponding to trees is a simply-described subset of integer sequences. The OLA encoding is unique compared to other existing encodings in having these properties. The integer vector encoding induces a distance on the set of trees, and we investigate this distance in relation to the NNI and SPR distances.",
+      "authors": [
+        "Richman DH, Zhang C, Matsen FA.",
+        "David Harry Richman",
+        "Cheng Zhang",
+        "Frederick A Matsen"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-18",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41848929/",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "vector encoding of phylogenetic trees for machine learning",
+      "llm_evidence_cn": "用于机器学习的系统发育树向量编码",
+      "llm_evidence": "用于机器学习的系统发育树向量编码",
+      "canonical_evidence": "用于机器学习的系统发育树向量编码",
+      "llm_tldr_en": "Presents a new method for encoding phylogenetic tree topologies into vectors for machine learning tasks.",
+      "llm_tldr_cn": "提出了一种将系统发育树拓扑结构编码为向量的新方法，用于机器学习任务。",
+      "llm_tldr": "提出了一种将系统发育树拓扑结构编码为向量的新方法，用于机器学习任务。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for phylogenetic and transmission inference",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41852711",
+      "title": "Developing an innovative chimeric multi-epitope subunit vaccine against",
+      "abstract": "BACKGROUND: Streptococcus intermedius is a major human pathogen associated with invasive diseases such as meningitis and endocarditis. These infections may lead to inflammation, fever, and cardiac damage. At present, no effective vaccine exists for prevention. OBJECTIVES: This study aimed to design a stable, non-allergenic, and antigenic chimeric multi-epitope vaccine against S. intermedius using Immunoinformatics approaches. METHODS: Twelve B-cell, five helper T lymphocyte (HTL), and five cytotoxic T lymphocyte (CTL) epitopes were predicted using advanced immunoinformatics tools. These epitopes were assembled into a single vaccine candidate. The construct was evaluated in silico for its antigenicity, allergenicity, and physicochemical stability. A 3D structural model of the vaccine was generated and validated. Molecular docking and dynamics simulations were conducted to assess interactions between the vaccine and immune receptors: TLR4, TLR3, MHC-I, and MHC-II. RESULTS: The final vaccine candidate demonstrated favorable antigenic and non-allergenic properties, along with high stability. Structural validation confirmed proper folding. Docking analyses revealed strong binding affinities between the vaccine and target immune receptors. Molecular dynamics simulations indicated stable complexes, supporting the construct's immunological compatibility. CONCLUSIONS: The designed chimeric multi-epitope vaccine shows strong potential to elicit an immune response against S. intermedius. These findings provide a foundation for further experimental validation through in vivo and clinical trials.",
+      "authors": [
+        "Muhammad Naveed",
+        "Furrmein Fatima",
+        "Sarmad Mahmood",
+        "Tariq Aziz",
+        "Nimra Hanif",
+        "Nausheen Nazir",
+        "Ashwag Shami",
+        "Maher S Alwethaynani",
+        "Fakhria A Al-Joufi",
+        "Bandar K Baothman",
+        "Sarah Almaghrabi",
+        "Majid Alhomrani"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-01-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41852711/",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:PathoAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "immunoinformatics for pathogen vaccine design and epitope prediction",
+      "llm_evidence_cn": "用于病原体疫苗设计和表位预测的免疫信息学",
+      "llm_evidence": "用于病原体疫苗设计和表位预测的免疫信息学",
+      "canonical_evidence": "用于病原体疫苗设计和表位预测的免疫信息学",
+      "llm_tldr_en": "Uses immunoinformatics to design a multi-epitope vaccine against Streptococcus intermedius.",
+      "llm_tldr_cn": "利用免疫信息学方法设计针对中间链球菌的多表位疫苗。",
+      "llm_tldr": "利用免疫信息学方法设计针对中间链球菌的多表位疫苗。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41853207",
+      "title": "A structural blueprint for antibacterial discovery: microwave- and ultrasound-assisted synthesis of pyrrolidine-fused quinoxalines as novel inhibitors of DNA gyrase and biofilm.",
+      "abstract": "In order to lessen the severity of infectious diseases, anti-infective agents-drugs that prevent, combat, or control infections brought on by microorganisms-are essential in contemporary medicine. To tackle antimicrobial resistance, this project intends to design and synthesize hybrid compounds that contain pyrrolidine, quinoxaline and a hydrazinyl bridge, and assess the antimicrobial and antifungal properties of these compounds against a variety of pathogenic strains. The bactericidal properties of hybrids 24, 27, and 29 against E. coli were verified. The MIC of 12.5 µM was shown by hybrids 24, 25, and 31, which suggests bactericidal hybrids are effective against P. aeruginosa at greater concentrations. In comparison to Levofloxacin, treatment with all hybrids produced an 89-92% reduction in biofilm formation at 90% MIC. Eight hybrids' killing kinetics against P. aeruginosa were time-dependent, with an abrupt decrease in CFU number observed at higher concentrations. While 4-fold and 8-fold MICs resulted in nearly total bacterial eradication, primary bacterial elimination happened after three hours. The most effective DNA gyrase inhibitors were hybrids 25, 28, and 31; their IC50 values were significantly less than that of ciprofloxacin (77.3, 87.6, and 65.5 µM, respectively). To determine the best drug-like qualities, the study examined the physicochemical and pharmacokinetic features of active compounds. Molecular docking simulation experiments were also conducted to comprehend the binding interactions and mechanisms of action of these hits.",
+      "authors": [
+        "Eman A Fayed",
+        "Mazin A A Najm",
+        "Mostafa I Abdelglil",
+        "Triveena M Ramsis",
+        "Nirvana A Gohar",
+        "Shimaa A Metwally",
+        "Maha A Ebrahim"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-13",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41853207/",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "query:BioInfo",
+        "query:PathoAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "design and synthesis of novel inhibitors for antibacterial discovery against pathogenic strains",
+      "llm_evidence_cn": "针对病原菌株设计并合成新型抗菌药物抑制剂",
+      "llm_evidence": "针对病原菌株设计并合成新型抗菌药物抑制剂",
+      "canonical_evidence": "针对病原菌株设计并合成新型抗菌药物抑制剂",
+      "llm_tldr_en": "Synthesizes hybrid compounds to target DNA gyrase and biofilms for tackling antimicrobial resistance in pathogens.",
+      "llm_tldr_cn": "合成杂化化合物以靶向DNA促旋酶和生物膜，旨在解决病原体的抗菌耐药性问题。",
+      "llm_tldr": "合成杂化化合物以靶向DNA促旋酶和生物膜，旨在解决病原体的抗菌耐药性问题。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41854783",
+      "title": "Microbial community assembly and pathogen signatures in groundwater and tap water systems in greater Cairo, Egypt.",
+      "abstract": "BACKGROUND: Microbial communities in aquatic ecosystems are integral to water quality and public health, yet their structure and underlying ecological processes in regions like Egypt remain underexplored. To address this gap, this research explores the structure and dynamics of prokaryotic communities in tap water and groundwater in Cairo, Egypt. METHODS: Using environmental DNA metabarcoding, bioinformatics, and statistical modeling, we investigated microbial composition, pathogen identification, environmental factors, and ecological assembly processes. RESULTS: The sequence analysis revealed the presence of 6,868 amplicon sequence variants (ASVs), with distinct community structures between groundwater and tap water. Proteobacteria dominated both habitats, with significant habitat-specific variations in Firmicutes, Actinobacteria, Verrucomicrobia, and Bacteroidota. Key genera included Methylobacterium in tap water, and Thauera and Legionella in groundwater, reflecting habitat-specific adaptations. The potential presence of Legionella-detected through 16 S rRNA gene signatures-may indicate conditions that could support organisms associated with diseases such as Legionnaires' disease; however, 16 S-based detection does not confirm viability or infectivity. Similarly, the surrogate presence of taxa such as Streptococcus salivarius, Stenotrophomonas maltophilia, and Acinetobacter baumannii in tap-water samples suggests possible post-treatment contamination or biofilm-associated persistence, warranting further targeted monitoring using methods capable of confirming viability. Ecological assessments indicated that stochastic mechanisms, particularly ecological drift, were the dominant forces shaping microbial community assembly in both water sources, whereas homogeneous selection exerted a moderate influence specifically within groundwater environments. Environmental parameters such as DO%, NO₂-N, and NO₃-N were critical in shaping tap water communities, while NH₄-N and TDS influenced groundwater communities. CONCLUSION: This study highlights the distinct microbial dynamics of groundwater and tap water, emphasizing the importance of integrated water quality management strategies to mitigate nutrient pollution, monitor potential pathogen signatures, and protect public health.",
+      "authors": [
+        "Neveen M Rizk",
+        "Ayda K Kelany",
+        "Sayeda M Abdo",
+        "Mohammed Yosri",
+        "Fagr Kh Abdel-Gawad",
+        "Khaled Haider",
+        "Akram B Sultan",
+        "Ahmed M Younis",
+        "Mahmoud Gad"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-19",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41854783/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "metabarcoding and pathogen identification in microbial communities",
+      "llm_evidence_cn": "微生物群落中的元条形码与病原体识别",
+      "llm_evidence": "微生物群落中的元条形码与病原体识别",
+      "canonical_evidence": "微生物群落中的元条形码与病原体识别",
+      "llm_tldr_en": "Investigates microbial composition and pathogen signatures in water systems using metabarcoding and modeling.",
+      "llm_tldr_cn": "利用环境 DNA 元条形码和统计模型研究水系统中的微生物组成与病原体特征。",
+      "llm_tldr": "利用环境 DNA 元条形码和统计模型研究水系统中的微生物组成与病原体特征。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for metagenomic pathogen detection and classification",
+      "matched_requirement_id": "req-11",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "2603.15006v1",
+      "title": "Empowering Chemical Structures with Biological Insights for Scalable Phenotypic Virtual Screening",
+      "abstract": "Motivation: The scalable identification of bioactive compounds is essential for contemporary drug discovery. This process faces a key trade-off: structural screening offers scalability but lacks biological context, whereas high-content phenotypic profiling provides deep biological insights but is resource-intensive. The primary challenge is to extract robust biological signals from noisy data and encode them into representations that do not require biological data at inference. Results: This study presents DECODE (DEcomposing Cellular Observations of Drug Effects), a framework that bridges this gap by empowering chemical representations with intrinsic biological semantics to enable structure-based in silico biological profiling. DECODE leverages limited paired transcriptomic and morphological data as supervisory signals during training, enabling the extraction of a measurement-invariant biological fingerprint from chemical structures and explicit filtering of experimental noise. Our evaluations demonstrate that DECODE retrieves functionally similar drugs in zero-shot settings with over 20% relative improvement over chemical baselines in mechanism-of-action (MOA) prediction. Furthermore, the framework achieves a 6-fold increase in hit rates for novel anti-cancer agents during external validation. Availability and implementation: The codes and datasets of DECODE are available at https://github.com/lian-xiao/DECODE.",
+      "authors": [
+        "Xiaoqing Lian",
+        "Pengsen Ma",
+        "Tengfeng Ma",
+        "Zhonghao Ren",
+        "Xibao Cai",
+        "Zhixiang Cheng",
+        "Bosheng Song",
+        "He Wang",
+        "Xiang Pan",
+        "Yangyang Chen",
+        "Sisi Yuan",
+        "Chen Lin"
+      ],
+      "primary_category": "q-bio.QM",
+      "categories": [
+        "q-bio.QM",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "published": "2026-03-16T09:13:08+00:00",
+      "link": "https://arxiv.org/pdf/2603.15006v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Encoding biological semantics into chemical representations for phenotypic virtual screening",
+      "llm_evidence_cn": "将生物语义编码到化学表征中用于表型虚拟筛选",
+      "llm_evidence": "将生物语义编码到化学表征中用于表型虚拟筛选",
+      "canonical_evidence": "将生物语义编码到化学表征中用于表型虚拟筛选",
+      "llm_tldr_en": "DECODE framework bridges chemical structures and biological insights to improve scalable drug discovery.",
+      "llm_tldr_cn": "DECODE框架将化学结构与生物学见解相结合，以改进可扩展的药物发现。",
+      "llm_tldr": "DECODE框架将化学结构与生物学见解相结合，以改进可扩展的药物发现。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models and generative AI for drug discovery molecular property prediction and lead optimization",
+      "matched_requirement_id": "req-20",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2603.14705v1",
+      "title": "Digital unzipping of DNA through a solid-state nanopore: A theoretical study for base-by-base ratcheting",
+      "abstract": "Solid-state nanopore DNA sequencers present mechanical and chemical stability, reusability, and large-scale integrability. However, their development is hindered by the absence of a protein-free mechanism for controlling DNA translocation, which is accomplished by motor proteins in their biological counterparts. Here, we propose and theoretically analyze a protein-independent ratchet mechanism based on the unzipping of double-stranded DNA at the nanopore rim. When the transmembrane bias exceeds a certain threshold, the base pairs mechanically dissociate, allowing one strand to translocate while the other remains upstream. This unzipping process is known to slow DNA motion, suggesting that voltage pulses can trigger individual unzipping events at externally defined times, a concept referred to as digital unzipping. However, the intrinsic unzipping barrier is insufficient to provide the dwell times required for a reliable ionic-current readout; therefore, an additional mechanism is needed to hold the DNA in place between voltage pulses. To overcome this limitation, we introduce a reversible hold mechanism implemented via electrostatic attraction between DNA and a charged nanopore wall, which temporarily immobilizes the strand once the unzipping fork catches on the nanopore rim. Using a statistical-mechanical model, we track the evolution of the mean and variance of DNA position through each ratchet cycle. Analytical expressions for the corresponding error probabilities show that submicrosecond switching of the hold mechanism enables base-by-base stepping with an error rate <5%. These results theoretically demonstrate that digital unzipping combined with a reversible hold mechanism can yield deterministic single-base motion, thus opening a viable route toward all-solid-state nanopore sequencing.",
+      "authors": [
+        "Tomoki Ohkubo"
+      ],
+      "primary_category": "physics.bio-ph",
+      "categories": [
+        "physics.bio-ph",
+        "cond-mat.mes-hall",
+        "physics.app-ph"
+      ],
+      "published": "2026-03-16T01:29:08+00:00",
+      "link": "https://arxiv.org/pdf/2603.14705v1",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "theoretical study for nanopore DNA sequencing control",
+      "llm_evidence_cn": "纳米孔 DNA 测序控制的理论研究",
+      "llm_evidence": "纳米孔 DNA 测序控制的理论研究",
+      "canonical_evidence": "纳米孔 DNA 测序控制的理论研究",
+      "llm_tldr_en": "Proposes a protein-independent ratchet mechanism for controlling DNA translocation in solid-state nanopores.",
+      "llm_tldr_cn": "提出了一种独立于蛋白质的棘轮机制，用于控制固态纳米孔中的 DNA 易位。",
+      "llm_tldr": "提出了一种独立于蛋白质的棘轮机制，用于控制固态纳米孔中的 DNA 易位。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "AI for nanopore sequencing basecalling genomic alignment and variant analysis",
+      "matched_requirement_id": "req-39",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2603.14709v1",
+      "title": "Cross-RAG: Zero-Shot Retrieval-Augmented Time Series Forecasting via Cross-Attention",
+      "abstract": "Recent advances in time series foundation models (TSFMs) demonstrate strong expressive capacity through large-scale pretraining across diverse time series domains. Zero-shot time series forecasting with TSFMs, however, exhibits limited generalization to unseen datasets, which retrieval-augmented forecasting addresses by leveraging an external knowledge base. Existing approaches rely on a fixed number of retrieved samples that may introduce irrelevant information. To this end, we propose Cross-RAG, a zero-shot retrieval-augmented forecasting framework that selectively attends to query-relevant retrieved samples. Cross-RAG models input-level relevance between the query and retrieved samples via query-retrieval cross-attention, while jointly incorporating information from the query and retrieved samples. Extensive experiments demonstrate that Cross-RAG consistently improves zero-shot forecasting performance across various TSFMs and RAG methods, and additional analyses confirm its effectiveness across diverse retrieval scenarios. Code is available at https://github.com/seunghan96/cross-rag/.",
+      "authors": [
+        "Seunghan Lee",
+        "Jaehoon Lee",
+        "Jun Seo",
+        "Sungdong Yoo",
+        "Minjae Kim",
+        "Tae Yoon Lim",
+        "Dongwan Kang",
+        "Hwanil Choi",
+        "SoonYoung Lee",
+        "Wonbin Ahn"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "published": "2026-03-16T01:35:24+00:00",
+      "link": "https://arxiv.org/pdf/2603.14709v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "query:Agent"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Retrieval-augmented framework for zero-shot forecasting using cross-attention",
+      "llm_evidence_cn": "使用交叉注意力的零样本预测检索增强框架",
+      "llm_evidence": "使用交叉注意力的零样本预测检索增强框架",
+      "canonical_evidence": "使用交叉注意力的零样本预测检索增强框架",
+      "llm_tldr_en": "Proposes Cross-RAG, a retrieval-augmented framework for zero-shot time series forecasting using cross-attention.",
+      "llm_tldr_cn": "提出Cross-RAG，一种利用交叉注意力进行零样本时间序列预测的检索增强框架。",
+      "llm_tldr": "提出Cross-RAG，一种利用交叉注意力进行零样本时间序列预测的检索增强框架。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "retrieval augmented generation for biology and bioinformatics",
+      "matched_requirement_id": "req-27",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2603.15080v1",
+      "title": "Open Biomedical Knowledge Graphs at Scale: Construction, Federation, and AI Agent Access with Samyama Graph Database",
+      "abstract": "Biomedical knowledge is fragmented across siloed databases -- Reactome for pathways, STRING for protein interactions, Gene Ontology for functional annotations, ClinicalTrials.gov for study registries, and dozens more. Researchers routinely download flat files from each source and write bespoke scripts to cross-reference them, a process that is slow, error-prone, and not reproducible. We present two open-source biomedical knowledge graphs -- Pathways KG (118,686 nodes, 834,785 edges from 5 sources) and Clinical Trials KG (7,774,446 nodes, 26,973,997 edges from 5 sources) -- built on Samyama, a high-performance graph database written in Rust.   Our contributions are threefold. First, we describe a reproducible ETL pattern for constructing large-scale KGs from heterogeneous public data sources, with cross-source deduplication, batch Cypher loading, and portable snapshot export. Second, we demonstrate cross-KG federation: loading both snapshots into a single graph tenant enables property-based joins across datasets, answering questions like ``Which biological pathways are disrupted by drugs currently in Phase~3 trials for breast cancer?'' -- a query that neither KG can answer alone. Third, we introduce schema-driven MCP server generation: each KG automatically exposes typed tools for LLM agents via the Model Context Protocol, enabling natural-language access to graph queries without manual tool authoring.   All data sources are open-license (CC~BY~4.0, CC0, OBO). Snapshots, ETL code, and MCP configurations are publicly available. The combined federated graph (7.89M nodes, 27.8M edges) loads in 76 seconds on commodity hardware (Mac Mini M4, 16GB RAM), and the signature cross-KG query -- ``which pathways are disrupted by drugs in Phase~3 breast cancer trials?'' -- returns validated results in 2.1 seconds.",
+      "authors": [
+        "Madhulatha Mandarapu",
+        "Sandeep Kunkunuru"
+      ],
+      "primary_category": "cs.DB",
+      "categories": [
+        "cs.DB",
+        "cs.AI",
+        "q-bio.QM"
+      ],
+      "published": "2026-03-16T10:36:13+00:00",
+      "link": "https://arxiv.org/pdf/2603.15080v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "AI agent access to federated biomedical knowledge graphs",
+      "llm_evidence_cn": "AI智能体访问联邦生物医学知识图谱",
+      "llm_evidence": "AI智能体访问联邦生物医学知识图谱",
+      "canonical_evidence": "AI智能体访问联邦生物医学知识图谱",
+      "llm_tldr_en": "Presents Samyama, a high-performance graph database for federated biomedical knowledge and AI agent access.",
+      "llm_tldr_cn": "介绍了Samyama，一个支持联邦生物医学知识和AI智能体访问的高性能图数据库。",
+      "llm_tldr": "介绍了Samyama，一个支持联邦生物医学知识和AI智能体访问的高性能图数据库。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "autonomous agents for biomedical literature reasoning genomic data analysis and evidence synthesis",
+      "matched_requirement_id": "req-55",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2603.15047v1",
+      "title": "CrossADR: enhancing adverse drug reactions prediction for combination pharmacotherapy with cross-layer feature integration and cross-level associative learning",
+      "abstract": "Combination pharmacotherapy offers substantial therapeutic advantages but also poses substantial risks of adverse drug reactions (ADRs). The accurate prediction of ADRs with interpretable computational methods is crucial for clinical safety management, drug development, and precision medicine. However, managing ADRs remains a challenge due to the vast search space of drug combinations and the complexity of physiological responses. Current graph-based architectures often struggle to effectively integrate multi-scale biological information and frequently rely on fixed association matrices, which limits their ability to capture dynamic organ-level dependencies and generalize across diverse datasets. Here we propose CrossADR, a hierarchical framework for organ-level ADR prediction through cross-layer feature integration and cross-level associative learning. It incorporates a gated-residual-flow graph neural network to fuse multi-scale molecular features and utilizes a learnable ADR embedding space to dynamically capture latent biological correlations across 15 organ systems. Systematic evaluation on the newly constructed CrossADR-Dataset-covering 1,376 drugs and 946,000 unique combinations-demonstrates that CrossADR consistently achieves state-of-the-art performance across 80 distinct experimental scenarios and provides high-resolution insights into drug-related protein protein interactions and pathways. Overall, CrossADR represents a robust tool for cross-scale biomedical information integration, cross-layer feature integration as well as cross-level associative learning, and can be effectively utilized to prevent ADRs in clinical decision-making.",
+      "authors": [
+        "Y. Cheung"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "math.AG"
+      ],
+      "published": "2026-03-16T09:58:03+00:00",
+      "link": "https://arxiv.org/pdf/2603.15047v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "graph-based prediction of adverse drug reactions for combination therapy",
+      "llm_evidence_cn": "基于图的联合用药不良反应预测",
+      "llm_evidence": "基于图的联合用药不良反应预测",
+      "canonical_evidence": "基于图的联合用药不良反应预测",
+      "llm_tldr_en": "CrossADR improves adverse drug reaction prediction for drug combinations using cross-layer feature integration.",
+      "llm_tldr_cn": "CrossADR通过跨层特征整合提高了药物组合不良反应的预测准确性。",
+      "llm_tldr": "CrossADR通过跨层特征整合提高了药物组合不良反应的预测准确性。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models and generative AI for drug discovery molecular property prediction and lead optimization",
+      "matched_requirement_id": "req-20",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2603.14918v1",
+      "title": "Bayesian Inference for Missing Physics",
+      "abstract": "Model-based approaches for (bio)process systems often suffer from incomplete knowledge of the underlying physical, chemical, or biological laws. Universal differential equations, which embed neural networks within differential equations, have emerged as powerful tools to learn this missing physics from experimental data. However, neural networks are inherently opaque, motivating their post-processing via symbolic regression to obtain interpretable mathematical expressions. Genetic algorithm-based symbolic regression is a popular approach for this post-processing step, but provides only point estimates and cannot quantify the confidence we should place in a discovered equation. We address this limitation by applying Bayesian symbolic regression, which uses Reversible Jump Markov Chain Monte Carlo to sample from the posterior distribution over symbolic expression trees. This approach naturally quantifies uncertainty in the recovered model structure. We demonstrate the methodology on a Lotka-Volterra predator-prey system and then show how a well-designed experiment leads to lower uncertainty in a fed-batch bioreactor case study.",
+      "authors": [
+        "Arno Strouwen"
+      ],
+      "primary_category": "stat.ML",
+      "categories": [
+        "stat.ML",
+        "cs.LG"
+      ],
+      "published": "2026-03-16T07:25:42+00:00",
+      "link": "https://arxiv.org/pdf/2603.14918v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "query:BioInfo"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "interpretable mathematical expressions for bioprocess systems via Bayesian symbolic regression",
+      "llm_evidence_cn": "通过贝叶斯符号回归为生物过程系统提供可解释的数学表达式",
+      "llm_evidence": "通过贝叶斯符号回归为生物过程系统提供可解释的数学表达式",
+      "canonical_evidence": "通过贝叶斯符号回归为生物过程系统提供可解释的数学表达式",
+      "llm_tldr_en": "Proposes Bayesian symbolic regression to discover interpretable laws in bioprocess systems with uncertainty quantification.",
+      "llm_tldr_cn": "提出贝叶斯符号回归方法，用于发现生物过程系统中的可解释规律并量化不确定性。",
+      "llm_tldr": "提出贝叶斯符号回归方法，用于发现生物过程系统中的可解释规律并量化不确定性。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "trustworthy and interpretable AI systems for bioinformatics workflows",
+      "matched_requirement_id": "req-37",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2603.15726v1",
+      "title": "MiroThinker-1.7 & H1: Towards Heavy-Duty Research Agents via Verification",
+      "abstract": "We present MiroThinker-1.7, a new research agent designed for complex long-horizon reasoning tasks. Building on this foundation, we further introduce MiroThinker-H1, which extends the agent with heavy-duty reasoning capabilities for more reliable multi-step problem solving. In particular, MiroThinker-1.7 improves the reliability of each interaction step through an agentic mid-training stage that emphasizes structured planning, contextual reasoning, and tool interaction. This enables more effective multi-step interaction and sustained reasoning across complex tasks. MiroThinker-H1 further incorporates verification directly into the reasoning process at both local and global levels. Intermediate reasoning decisions can be evaluated and refined during inference, while the overall reasoning trajectory is audited to ensure that final answers are supported by coherent chains of evidence. Across benchmarks covering open-web research, scientific reasoning, and financial analysis, MiroThinker-H1 achieves state-of-the-art performance on deep research tasks while maintaining strong results on specialized domains. We also release MiroThinker-1.7 and MiroThinker-1.7-mini as open-source models, providing competitive research-agent capabilities with significantly improved efficiency.",
+      "authors": [
+        "MiroMind Team",
+        "S. Bai",
+        "L. Bing",
+        "L. Lei",
+        "R. Li",
+        "X. Li",
+        "X. Lin",
+        "E. Min",
+        "L. Su",
+        "B. Wang",
+        "L. Wang",
+        "S. Wang",
+        "X. Wang",
+        "Y. Zhang",
+        "Z. Zhang",
+        "G. Chen",
+        "L. Chen",
+        "Z. Cheng",
+        "Y. Deng",
+        "Z. Huang",
+        "D. Ng",
+        "J. Ni",
+        "Q. Ren",
+        "X. Tang",
+        "B. L. Wang",
+        "H. Wang",
+        "N. Wang",
+        "C. Wei",
+        "Q. Wu",
+        "J. Xia",
+        "Y. Xiao",
+        "H. Xu",
+        "X. Xu",
+        "C. Xue",
+        "Z. Yang",
+        "F. Ye",
+        "H. Ye",
+        "J. Yu",
+        "C. Zhang",
+        "W. Zhang",
+        "H. Zhao",
+        "P. Zhu"
+      ],
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "published": "2026-03-16T17:55:42+00:00",
+      "link": "https://arxiv.org/pdf/2603.15726v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "query:Agent",
+        "query:BioInfo"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "research agents for complex long-horizon reasoning and tool interaction",
+      "llm_evidence_cn": "用于复杂长程推理和工具交互的研究智能体",
+      "llm_evidence": "用于复杂长程推理和工具交互的研究智能体",
+      "canonical_evidence": "用于复杂长程推理和工具交互的研究智能体",
+      "llm_tldr_en": "Introduces MiroThinker agents designed for complex research tasks through structured planning and verification.",
+      "llm_tldr_cn": "引入 MiroThinker 智能体，通过结构化规划和验证处理复杂的科研任务。",
+      "llm_tldr": "引入 MiroThinker 智能体，通过结构化规划和验证处理复杂的科研任务。",
+      "llm_tags": [
+        "query:agent"
+      ],
+      "matched_query_tag": "query:agent",
+      "matched_query_text": "LLM agents for bioinformatics genomics workflows and scientific reasoning",
+      "matched_requirement_id": "req-62",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2603.15198v1",
+      "title": "Geometric framework for biological evolution",
+      "abstract": "We develop a generally covariant description of evolutionary dynamics that operates consistently in both genotype and phenotype spaces. We show that the maximum entropy principle yields a fundamental identification between the inverse metric tensor and the covariance matrix, revealing the Lande equation as a covariant gradient ascent equation. This demonstrates that evolution can be modeled as a learning process on the fitness landscape, with the specific learning algorithm determined by the functional relation between the metric tensor and the noise covariance arising from microscopic dynamics. While the metric (or the inverse genotypic covariance matrix) has been extensively characterized empirically, the noise covariance and its associated observable (the covariance of evolutionary changes) have never been directly measured. This poses the experimental challenge of determining the functional form relating metric to noise covariance.",
+      "authors": [
+        "Vitaly Vanchurin"
+      ],
+      "primary_category": "q-bio.PE",
+      "categories": [
+        "q-bio.PE",
+        "cs.LG"
+      ],
+      "published": "2026-03-16T12:37:59+00:00",
+      "link": "https://arxiv.org/pdf/2603.15198v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "query:BioInfo"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "geometric framework for evolutionary dynamics in genotype and phenotype spaces",
+      "llm_evidence_cn": "基因型和表型空间演化动力学的几何框架",
+      "llm_evidence": "基因型和表型空间演化动力学的几何框架",
+      "canonical_evidence": "基因型和表型空间演化动力学的几何框架",
+      "llm_tldr_en": "Develops a covariant description of evolution as a learning process on fitness landscapes.",
+      "llm_tldr_cn": "开发了一种将进化描述为适应度景观学习过程的协变描述方法。",
+      "llm_tldr": "开发了一种将进化描述为适应度景观学习过程的协变描述方法。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for phylogenetic and transmission inference",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2603.15925v1",
+      "title": "Generative Inverse Design with Abstention via Diagonal Flow Matching",
+      "abstract": "Inverse design aims to find design parameters $x$ achieving target performance $y^*$. Generative approaches learn bidirectional mappings between designs and labels, enabling diverse solution sampling. However, standard conditional flow matching (CFM), when adapted to inverse problems by pairing labels with design parameters, exhibits strong sensitivity to their arbitrary ordering and scaling, leading to unstable training. We introduce Diagonal Flow Matching (Diag-CFM), which resolves this through a zero-anchoring strategy that pairs design coordinates with noise and labels with zero, making the learning problem provably invariant to coordinate permutations. This yields order-of-magnitude improvements in round-trip accuracy over CFM and invertible neural network baselines across design dimensions up to $P{=}100$. We develop two architecture-intrinsic uncertainty metrics, Zero-Deviation and Self-Consistency, that enable three practical capabilities: selecting the best candidate among multiple generations, abstaining from unreliable predictions, and detecting out-of-distribution targets; consistently outperforming ensemble and general-purpose alternatives across all tasks. We validate on airfoil, gas turbine combustor, and an analytical benchmark with scalable design dimension.",
+      "authors": [
+        "Miguel de Campos",
+        "Werner Krebs",
+        "Hanno Gottschalk"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "published": "2026-03-16T21:18:16+00:00",
+      "link": "https://arxiv.org/pdf/2603.15925v1",
+      "tags": [
+        "keyword:BioInfo",
+        "query:BioInfo"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "generative inverse design for achieving target performance in design parameters",
+      "llm_evidence_cn": "用于实现设计参数目标性能的生成式逆向设计",
+      "llm_evidence": "用于实现设计参数目标性能的生成式逆向设计",
+      "canonical_evidence": "用于实现设计参数目标性能的生成式逆向设计",
+      "llm_tldr_en": "Introduces Diagonal Flow Matching for stable generative inverse design, applicable to molecular and protein optimization.",
+      "llm_tldr_cn": "引入对角流匹配用于稳定的生成式逆向设计，可应用于分子和蛋白质优化。",
+      "llm_tldr": "引入对角流匹配用于稳定的生成式逆向设计，可应用于分子和蛋白质优化。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "generative models for molecules proteins and therapeutic design",
+      "matched_requirement_id": "req-19",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2603.15797v1",
+      "title": "OMNIFLOW: A Physics-Grounded Multimodal Agent for Generalized Scientific Reasoning",
+      "abstract": "Large Language Models (LLMs) have demonstrated exceptional logical reasoning capabilities but frequently struggle with the continuous spatiotemporal dynamics governed by Partial Differential Equations (PDEs), often resulting in non-physical hallucinations. Existing approaches typically resort to costly, domain-specific fine-tuning, which severely limits cross-domain generalization and interpretability. To bridge this gap, we propose OMNIFLOW, a neuro-symbolic architecture designed to ground frozen multimodal LLMs in fundamental physical laws without requiring domain-specific parameter updates. OMNIFLOW introduces a novel \\textit{Semantic-Symbolic Alignment} mechanism that projects high-dimensional flow tensors into topological linguistic descriptors, enabling the model to perceive physical structures rather than raw pixel values. Furthermore, we construct a Physics-Guided Chain-of-Thought (PG-CoT) workflow that orchestrates reasoning through dynamic constraint injection (e.g., mass conservation) and iterative reflexive verification. We evaluate OMNIFLOW on a comprehensive benchmark spanning microscopic turbulence, theoretical Navier-Stokes equations, and macroscopic global weather forecasting. Empirical results demonstrate that OMNIFLOW significantly outperforms traditional deep learning baselines in zero-shot generalization and few-shot adaptation tasks. Crucially, it offers transparent, physically consistent reasoning reports, marking a paradigm shift from black-box fitting to interpretable scientific reasoning.",
+      "authors": [
+        "Hao Wu",
+        "Yongheng Zhang",
+        "Yuan Gao",
+        "Fan Xu",
+        "Fan Zhang",
+        "Ruobing Xie",
+        "Ruijian Gou",
+        "Yuxuan Liang",
+        "Xiaomeng Huang",
+        "Xian Wu"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "published": "2026-03-16T18:29:01+00:00",
+      "link": "https://arxiv.org/pdf/2603.15797v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "query:Agent"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "multimodal agent for scientific reasoning",
+      "llm_evidence_cn": "用于科学推理的多模态智能体",
+      "llm_evidence": "用于科学推理的多模态智能体",
+      "canonical_evidence": "用于科学推理的多模态智能体",
+      "llm_tldr_en": "Introduces OMNIFLOW, a neuro-symbolic agent for grounding LLMs in physical laws for reasoning.",
+      "llm_tldr_cn": "引入了OMNIFLOW，一种将大模型与物理定律结合的神经符号智能体用于科学推理。",
+      "llm_tldr": "引入了OMNIFLOW，一种将大模型与物理定律结合的神经符号智能体用于科学推理。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "scientific reasoning models for biology and biomedical tasks",
+      "matched_requirement_id": "req-28",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2603.15797v2",
+      "title": "OMNIFLOW: A Physics-Grounded Multimodal Agent for Generalized Scientific Reasoning",
+      "abstract": "Large Language Models (LLMs) have demonstrated exceptional logical reasoning capabilities but frequently struggle with the continuous spatiotemporal dynamics governed by Partial Differential Equations (PDEs), often resulting in non-physical hallucinations. Existing approaches typically resort to costly, domain-specific fine-tuning, which severely limits cross-domain generalization and interpretability. To bridge this gap, we propose OMNIFLOW, a neuro-symbolic architecture designed to ground frozen multimodal LLMs in fundamental physical laws without requiring domain-specific parameter updates. OMNIFLOW introduces a novel \\textit{Semantic-Symbolic Alignment} mechanism that projects high-dimensional flow tensors into topological linguistic descriptors, enabling the model to perceive physical structures rather than raw pixel values. Furthermore, we construct a Physics-Guided Chain-of-Thought (PG-CoT) workflow that orchestrates reasoning through dynamic constraint injection (e.g., mass conservation) and iterative reflexive verification. We evaluate OMNIFLOW on a comprehensive benchmark spanning microscopic turbulence, theoretical Navier-Stokes equations, and macroscopic global weather forecasting. Empirical results demonstrate that OMNIFLOW significantly outperforms traditional deep learning baselines in zero-shot generalization and few-shot adaptation tasks. Crucially, it offers transparent, physically consistent reasoning reports, marking a paradigm shift from black-box fitting to interpretable scientific reasoning.",
+      "authors": [
+        "Hao Wu",
+        "Yongheng Zhang",
+        "Yuan Gao",
+        "Fan Xu",
+        "Fan Zhang",
+        "Ruobing Xie",
+        "Ruijian Gou",
+        "Yuxuan Liang",
+        "Xiaomeng Huang",
+        "Xian Wu"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "published": "2026-03-16T18:29:01+00:00",
+      "link": "https://arxiv.org/pdf/2603.15797v2",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "query:Agent"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "multimodal agent for generalized scientific reasoning grounded in physics",
+      "llm_evidence_cn": "基于物理学的通用科学推理多模态智能体",
+      "llm_evidence": "基于物理学的通用科学推理多模态智能体",
+      "canonical_evidence": "基于物理学的通用科学推理多模态智能体",
+      "llm_tldr_en": "Introduces OMNIFLOW, a neuro-symbolic architecture to ground LLMs in physical laws for scientific reasoning.",
+      "llm_tldr_cn": "引入OMNIFLOW，一种将大语言模型与物理定律结合的神经符号架构，用于科学推理。",
+      "llm_tldr": "引入OMNIFLOW，一种将大语言模型与物理定律结合的神经符号架构，用于科学推理。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "scientific reasoning models for biology and biomedical tasks",
+      "matched_requirement_id": "req-28",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "2603.16091v1",
+      "title": "CounterRefine: Answer-Conditioned Counterevidence Retrieval for Inference-Time Knowledge Repair in Factual Question Answering",
+      "abstract": "In factual question answering, many errors are not failures of access but failures of commitment: the system retrieves relevant evidence, yet still settles on the wrong answer. We present CounterRefine, a lightweight inference-time repair layer for retrieval-grounded question answering. CounterRefine first produces a short answer from retrieved evidence, then gathers additional support and conflicting evidence with follow-up queries conditioned on that draft answer, and finally applies a restricted refinement step that outputs either KEEP or REVISE, with proposed revisions accepted only if they pass deterministic validation. In effect, CounterRefine turns retrieval into a mechanism for testing a provisional answer rather than merely collecting more context. On the full SimpleQA benchmark, CounterRefine improves a matched GPT-5 Baseline-RAG by 5.8 points and reaches a 73.1 percent correct rate, while exceeding the reported one-shot GPT-5.4 score by roughly 40 points. These findings suggest a simple but important direction for knowledgeable foundation models: beyond accessing evidence, they should also be able to use that evidence to reconsider and, when necessary, repair their own answers.",
+      "authors": [
+        "Tianyi Huang",
+        "Ying Kai Deng"
+      ],
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "published": "2026-03-17T03:27:25+00:00",
+      "link": "https://arxiv.org/pdf/2603.16091v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "retrieval-grounded question answering with counterevidence retrieval",
+      "llm_evidence_cn": "基于检索增强的问答系统及反证检索",
+      "llm_evidence": "基于检索增强的问答系统及反证检索",
+      "canonical_evidence": "基于检索增强的问答系统及反证检索",
+      "llm_tldr_en": "Introduces CounterRefine, an inference-time repair layer to improve factual accuracy in retrieval-based QA.",
+      "llm_tldr_cn": "引入CounterRefine推理层，通过反证检索修复检索增强问答中的事实错误。",
+      "llm_tldr": "引入CounterRefine推理层，通过反证检索修复检索增强问答中的事实错误。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "retrieval augmented generation for biology and bioinformatics",
+      "matched_requirement_id": "req-27",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "2603.16185v1",
+      "title": "Sample-Efficient Adaptation of Drug-Response Models to Patient Tumors under Strong Biological Domain Shift",
+      "abstract": "Predicting drug response in patients from preclinical data remains a major challenge in precision oncology due to the substantial biological gap between in vitro cell lines and patient tumors. Rather than aiming to improve absolute in vitro prediction accuracy, this work examines whether explicitly separating representation learning from task supervision enables more sample-efficient adaptation of drug-response models to patient data under strong biological domain shift. We propose a staged transfer-learning framework in which cellular and drug representations are first learned independently from large collections of unlabeled pharmacogenomic data using autoencoder-based representation learning. These representations are then aligned with drug-response labels on cell-line data and subsequently adapted to patient tumors using few-shot supervision. Through a systematic evaluation spanning in-domain, cross-dataset, and patient-level settings, we show that unsupervised pretraining provides limited benefit when source and target domains overlap substantially, but yields clear gains when adapting to patient tumors with very limited labeled data. In particular, the proposed framework achieves faster performance improvements during few-shot patient-level adaptation while maintaining comparable accuracy to single-phase baselines on standard cell-line benchmarks. Overall, these results demonstrate that learning structured and transferable representations from unlabeled molecular profiles can substantially reduce the amount of clinical supervision required for effective drug-response prediction, offering a practical pathway toward data-efficient preclinical-to-clinical translation.",
+      "authors": [
+        "Camille Jimenez Cortes",
+        "Philippe Lalanda",
+        "German Vega"
+      ],
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "q-bio.QM"
+      ],
+      "published": "2026-03-17T07:12:38+00:00",
+      "link": "https://arxiv.org/pdf/2603.16185v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "representation learning for drug-response models",
+      "llm_evidence_cn": "药物反应模型的表示学习",
+      "llm_evidence": "药物反应模型的表示学习",
+      "canonical_evidence": "药物反应模型的表示学习",
+      "llm_tldr_en": "Proposes a transfer-learning framework for adapting drug-response models to patient data using autoencoders.",
+      "llm_tldr_cn": "提出了一种迁移学习框架，利用自动编码器将药物反应模型应用于患者数据。",
+      "llm_tldr": "提出了一种迁移学习框架，利用自动编码器将药物反应模型应用于患者数据。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models and generative AI for drug discovery molecular property prediction and lead optimization",
+      "matched_requirement_id": "req-20",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "2603.16160v1",
+      "title": "Segmentation-before-Staining Improves Structural Fidelity in Virtual IHC-to-Multiplex IF Translation",
+      "abstract": "Multiplex immunofluorescence (mIF) enables simultaneous single-cell quantification of multiple biomarkers within intact tissue architecture, yet its high reagent cost, multi-round staining protocols, and need for specialized imaging platforms limit routine clinical adoption. Virtual staining can synthesize mIF channels from widely available brightfield immunohistochemistry (IHC), but current translators optimize pixel-level fidelity without explicitly constraining nuclear morphology. In pathology, this gap is clinically consequential: subtle distortions in nuclei count, shape, or spatial arrangement propagate directly to quantification endpoints such as the Ki67 proliferation index, where errors of a few percent can shift treatment-relevant risk categories. This work introduces a supervision-free, architecture-agnostic conditioning strategy that injects a continuous cell probability map from a pretrained nuclei segmentation foundation model as an explicit input prior, together with a variance-preserving regularization term that matches local intensity statistics to maintain cell-level heterogeneity in synthesized fluorescence channels. The soft prior retains gradient-level boundary information lost by binary thresholding, providing a richer conditioning signal without task-specific tuning. Controlled experiments across Pix2Pix with U-Net and ResNet generators, deterministic regression U-Net, and conditional diffusion on two independent datasets demonstrate consistent improvements in nuclei count fidelity and perceptual quality, as the sole modifications. Code will be made publicly available upon acceptance.",
+      "authors": [
+        "Junhyeok Lee",
+        "Han Jang",
+        "Heeseong Eum",
+        "Joon Jang",
+        "Kyu Sung Choi"
+      ],
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "published": "2026-03-17T06:25:50+00:00",
+      "link": "https://arxiv.org/pdf/2603.16160v1",
+      "tags": [
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "virtual staining for multiplex immunofluorescence in tissue architecture",
+      "llm_evidence_cn": "组织结构中多重免疫荧光的虚拟染色",
+      "llm_evidence": "组织结构中多重免疫荧光的虚拟染色",
+      "canonical_evidence": "组织结构中多重免疫荧光的虚拟染色",
+      "llm_tldr_en": "Improves structural fidelity in virtual staining for multiplex immunofluorescence to aid pathology quantification.",
+      "llm_tldr_cn": "提高多重免疫荧光虚拟染色的结构保真度，辅助病理定量分析。",
+      "llm_tldr": "提高多重免疫荧光虚拟染色的结构保真度，辅助病理定量分析。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "deep learning and foundation models for spatial transcriptomics proteomics and tissue mapping",
+      "matched_requirement_id": "req-46",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

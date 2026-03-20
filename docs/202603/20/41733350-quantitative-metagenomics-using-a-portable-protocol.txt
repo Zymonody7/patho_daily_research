@@ -1,0 +1,108 @@
+Title: Quantitative metagenomics using a portable protocol - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41733350/
+
+Markdown Content:
+## Quantitative metagenomics using a portable protocol
+
+Kaiqin Bian et al. Appl Environ Microbiol.2026.
+
+## Abstract
+
+A field-deployable DNA sequencing approach for quantitative microbial community profiling can enable rapid responses for a range of applications in the water sector-from process control to wastewater surveillance. Current quantitative approaches require complex instrumentation and have long turnaround times for DNA recovery and absolute quantitation. In this study, we report a field-deployable rapid detection and rapid absolute quantitation (rD+rQ) workflow that leverages real-time Nanopore sequencing for quantitative metagenomics. This workflow integrates a high-molecular-weight DNA recovery protocol for diverse environmental matrices of relevance to the water sector, and multiplexed Nanopore sequencing with barcoded spike-in-based calibration (BSINC). BSINC using multispecies genomic spike-in controls exhibits significantly higher calibration accuracy compared to conventional approaches that utilize either a single DNA fragment or single organism spike-in controls. Dynamic detection and quantitation limits were established based on the coverage fraction of sequenced genomes and the coefficient of variation of genome copy numbers across replicates to enhance the accuracy and precision of microbial quantitation. The rD+rQ workflow achieves species-level identification and absolute quantitative results comparable to digital PCR in environmental samples. This portable laboratory and easy-to-use rD+rQ workflow should facilitate rapid decision-making for the water industry.IMPORTANCERapid and real-time monitoring of microbial communities is critical for a vast array of applications in environmental microbiology and biotechnology. While recent developments in portable sequencing technologies and associated workflows make onsite analysis possible, these approaches do not provide quantitative data on microbial concentrations. In this study, we present a sample and data processing workflow that enables nontargeted and quantitative microbial community profiling and demonstrate its validity on complex environmental samples. This approach for acquiring quantitative data can drive rapid decision-making from bioprocess control to wastewater-based epidemiology.
+
+**Keywords:** Nanopore sequencing; absolute quantitation; internal standards; limit of quantitation; portable laboratory; taxonomic identification.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+The authors declare no conflict of interest.
+
+## Figures
+
+[![Image 1: Fig 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bacd/12997851/e358e76b13b8/aem.02179-25.f001.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bacd/12997851/842857ed34b5/aem.02179-25.f001.jpg)
+
+**Fig 1**
+Schematic showing the overall barcode-based rD+rQ workflow. (**A**) Multiplex Nanopore sequencing, detection, and (**B**) calibration. Spike-in controls and samples represent Zymo Mock Community DNA standard and DNA extracted from samples, respectively. Barcode effect factor i (BEF i) indicates the barcode effect factor of barcode i.
+
+[![Image 2: Fig 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bacd/12997851/1d0e7600739a/aem.02179-25.f002.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bacd/12997851/838fa5d212fd/aem.02179-25.f002.jpg)
+
+**Fig 2**
+Evaluation of DNA extraction methods on the microbial community in mixed liquor sludge samples (ML). (**A**) Purity and quantity and (**B**) DNA fragment size distribution for DNA extracted using different protocols. The line, bar, and bubble plots indicate the average purity, DNA yield, and fragment distribution, respectively. The star, circle, and filled triangle represent the mean, median, and peak of DNA fragments by molarity, respectively. (**C**) Alpha diversity (Chao1 index), (**D**) beta diversity, and (**E**) composition of the microbial community for prokaryotes using 16S rRNA gene amplicon sequencing. Beta diversity is measured using an NMDS2 plot based on Bray-Curtis distance.
+
+[![Image 3: Fig 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bacd/12997851/68d959435ee6/aem.02179-25.f003.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bacd/12997851/253636de99a4/aem.02179-25.f003.jpg)
+
+**Fig 3**
+Comparison of coverage fraction and linear regression models between spike-in controls and mock samples (Zymo Gut). (**A**) Slope, intercept, and R 2 values (correlation coefficient) of linear regression models for the spike-in controls and ZG sample at different sequencing efforts. Red and blue points represent data generated from spike-in controls and Zymo Gut, respectively. (**B**) Deviation of estimated relative abundance from theoretical values for each genome at different sequencing effort. ID_ReAb in the legend represents the abbreviation of genomes and corresponding relative abundance. The colors of the points represent different genomes, and the outlier corresponds to _Methanobrevibacter smithii_.
+
+[![Image 4: Fig 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bacd/12997851/c29c04653b5d/aem.02179-25.f004.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bacd/12997851/41f07572348c/aem.02179-25.f004.jpg)
+
+**Fig 4**
+Coverage fraction and coefficient of variation (CV) of (**A**) spike-in controls and (**B**) Zymo Even Cell samples. Horizontal and vertical lines indicate the threshold of coverage fraction and the coefficient of variation, respectively. Scatter points show the unfiltered data set, while the blue shaded area marks the data retained after LOD/LOQ filtering. (**C**) Linear regression for log10-transformed theoretical genome copy number against observed genome copy numbers of spike-ins. (**D**) Correlation between log10-transformed theoretical genome copy number and estimated genome copy number of samples. The colors of the scatters indicated different barcodes (BN, barcode number; All, average of triplicates).
+
+[![Image 5: Fig 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bacd/12997851/cd48218dad5b/aem.02179-25.f005.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bacd/12997851/79f5b25ecbee/aem.02179-25.f005.jpg)
+
+**Fig 5**
+Comparison of absolute quantitation deviations of genomes in Zymo Gut Communities resulting from different types of spike-in controls. On the x-axis, Zymo Log represents the complex spike-in controls used in the rD+rQ protocol, and the others are the abbreviations of single spike-in controls, as listed in Table S8, and its theoretical relative abundance of genome copy number.
+
+[![Image 6: Fig 6](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bacd/12997851/7d975d770e10/aem.02179-25.f006.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/bacd/12997851/9612c1d9adc3/aem.02179-25.f006.jpg)
+
+**Fig 6**
+Comparison of genome copy number generated using digital PCR (dPCR) and rapid detection and quantitation workflow (rD+rQ) in mixed liquor sludge (ML) and secondary effluent (SE) samples, respectively.
+
+## Similar articles
+
+*   [A novel barcoded nanopore sequencing workflow of high-quality, full-length bacterial 16S amplicons for taxonomic annotation of bacterial isolates and complex microbial communities.](https://pubmed.ncbi.nlm.nih.gov/39254034/)
+
+Dommann J, Kerbl-Knapp J, Albertos Torres D, Egli A, Keiser J, Schneeberger PHH.Dommann J, et al.mSystems. 2024 Oct 22;9(10):e0085924. doi: 10.1128/msystems.00859-24. Epub 2024 Sep 10.mSystems. 2024.PMID: 39254034 Free PMC article. 
+*   [Evaluation of DNA extraction kits for long-read shotgun metagenomics using Oxford Nanopore sequencing for rapid taxonomic and antimicrobial resistance detection.](https://pubmed.ncbi.nlm.nih.gov/39604411/)
+
+Purushothaman S, Meola M, Roloff T, Rooney AM, Egli A.Purushothaman S, et al.Sci Rep. 2024 Nov 27;14(1):29531. doi: 10.1038/s41598-024-80660-3.Sci Rep. 2024.PMID: 39604411 Free PMC article. 
+*   [Long-term monitoring of SARS-CoV-2 variants in wastewater using a coordinated workflow of droplet digital PCR and nanopore sequencing.](https://pubmed.ncbi.nlm.nih.gov/38430753/)
+
+Vigil K, D'Souza N, Bazner J, Cedraz FM, Fisch S, Rose JB, Aw TG.Vigil K, et al.Water Res. 2024 May 1;254:121338. doi: 10.1016/j.watres.2024.121338. Epub 2024 Feb 18.Water Res. 2024.PMID: 38430753 
+*   [Nanopore sequencing: flourishing in its teenage years.](https://pubmed.ncbi.nlm.nih.gov/39293510/)
+
+Zhang T, Li H, Jiang M, Hou H, Gao Y, Li Y, Wang F, Wang J, Peng K, Liu YX.Zhang T, et al.J Genet Genomics. 2024 Dec;51(12):1361-1374. doi: 10.1016/j.jgg.2024.09.007. Epub 2024 Sep 16.J Genet Genomics. 2024.PMID: 39293510 Review. 
+*   [Nanopore Sequencing and Its Clinical Applications.](https://pubmed.ncbi.nlm.nih.gov/32710311/)
+
+Sun X, Song L, Yang W, Zhang L, Liu M, Li X, Tian G, Wang W.Sun X, et al.Methods Mol Biol. 2020;2204:13-32. doi: 10.1007/978-1-0716-0904-0_2.Methods Mol Biol. 2020.PMID: 32710311 Review. 
+
+## References
+
+1.       1.    Hatfield RG, Batista FM, Bean TP, Fonseca VG, Santos A, Turner AD, Lewis A, Dean KJ, Martinez-Urtaza J. 2020. The application of nanopore sequencing technology to the study of dinoflagellates: a proof of concept study for rapid sequence-based discrimination of potentially harmful algae. Front Microbiol 11:844. doi: 10.3389/fmicb.2020.00844 - [DOI](https://doi.org/10.3389/fmicb.2020.00844) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7227484/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/32457722/)
+
+2.       1.    Werner D, Acharya K, Blackburn A, Zan R, Plaimart J, Allen B, Mgana SM, Sabai SM, Halla FF, Massawa SM, Haile AT, Hiruy AM, Mohammed J, Vinitnantharat S, Thongsamer T, Pantha K, Mota Filho CR, Lopes BC. 2022. MinION nanopore sequencing accelerates progress towards ubiquitous genetics in water research. Water (Basel) 14:2491. doi: 10.3390/w14162491 - [DOI](https://doi.org/10.3390/w14162491)
+
+3.       1.    Schurig S, Ceruti A, Wende A, Lübcke P, Eger E, Schaufler K, Frimpong M, Truyen U, Kobialka RM, Abd El Wahed A. 2024. Rapid identification of bacterial composition in wastewater by combining reverse purification nucleic acid extraction and nanopore sequencing. ACS EST Water 4:1808–1818. doi: 10.1021/acsestwater.3c00794 - [DOI](https://doi.org/10.1021/acsestwater.3c00794)
+
+4.       1.    Latorre-Pérez A, Pascual J, Porcar M, Vilanova C. 2020. A lab in the field: applications of real-time, in situ metagenomic sequencing. Biol Methods Protoc 5:bpaa016. doi: 10.1093/biomethods/bpaa016 - [DOI](https://doi.org/10.1093/biomethods/bpaa016) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7585387/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/33134552/)
+
+5.       1.    Blackburn J, Wong T, Madala BS, Barker C, Hardwick SA, Reis ALM, Deveson IW, Mercer TR. 2019. Use of synthetic DNA spike-in controls (sequins) for human genome sequencing. Nat Protoc 14:2119–2151. doi: 10.1038/s41596-019-0175-1 - [DOI](https://doi.org/10.1038/s41596-019-0175-1) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/31217595/)
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Atypon](https://journals.asm.org/doi/10.1128/aem.02179-25?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-999)

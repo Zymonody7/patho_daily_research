@@ -1,10 +1,142 @@
 # 知识库
 
-- 最近沉淀条目数：138
+- 最近沉淀条目数：182
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Genomic and Machine Learning Approaches for Predicting Antimicrobial Resistance: A One Health Scoping Review in Low- and Middle-Income Countries](#/202603/20/202603/20/10.21203/rs.3.rs-9148578/v1-genomic-and-machine-learning-approaches-for-predicting-antimicrobial-resistance-a-one-health-scoping-review-in-low--and-middle-income-countries)
+  - TLDR：抗生素耐药性（AMR）在低中收入国家威胁严重，传统检测耗时且难以应对复杂机制。本综述系统梳理了结合全基因组测序与机器学习的预测方法，分析了27项相关研究。结果显示，该类方法在耐药性预测上准确率达78%-98%，能有效整合人类、动物及环境的“全健康”数据，为资源受限地区提供了快速、高分辨率的监测新路径，对提升全球公共卫生预警能力具有重要价值。
+  - Tags：`query:pathoai`
+- [SCALE:Scalable Conditional Atlas-Level Endpoint transport for virtual cell perturbation prediction](#/202603/20/202603/20/2603.17380v1-scalescalable-conditional-atlas-level-endpoint-transport-for-virtual-cell-perturbation-prediction)
+  - TLDR：针对虚拟细胞扰动预测中训练效率低、高维稀疏建模不稳定以及评估指标偏离生物学意义的问题，本文提出了 SCALE 大模型。该模型基于 BioNeMo 框架优化了分布式扩展性，并采用基于 LLaMA 的细胞编码器与条件流匹配架构，将扰动预测建模为端点传输任务。在 Tahoe-100M 数据集上的实验表明，SCALE 在保持高效推理的同时，显著提升了生物学保真度指标，为大规模干预实验的计算模拟提供了更可靠的工具。
+  - Tags：`query:bioinfo`
+- [Illuminating cell states by a comprehensive and interpretable single cell foundation model.](#/202603/20/202603/20/41839876-illuminating-cell-states-by-a-comprehensive-and-interpretable-single-cell-foundation-model)
+  - TLDR：针对单细胞测序数据稀疏、异质性强且模型解释性差的问题，本文推出了CellVQ基础模型。该模型基于6800万细胞数据预训练，通过创新的单细胞离散化（SCD）模块将高维数据转化为可解释的“细胞代码”，并配合CellVQ-Graph工具整合多模态生物信息。实验证明其在多项下游任务中超越了现有基准，能有效揭示复杂的生物学现象，为细胞生物学研究提供了兼具通用性与透明度的AI工具。
+  - Tags：`query:seqai`
+- [PhaGCN_Cluster: A Scalable and Robust Framework for Automated Classification and Discovery of Viral Dark Matter from Metagenomes.](#/202603/20/202603/20/41843252-phagcncluster-a-scalable-and-robust-framework-for-automated-classification-and-discovery-of-viral-dark-matter-from-metagenomes)
+  - TLDR：针对宏基因组中大量难以通过传统方法分类的病毒“暗物质”，本研究开发了 PhaGCN_Cluster 框架。该工具利用图卷积网络（GCN）整合蛋白质序列相似性和基因组特征，构建了可扩展的知识图谱分析系统。实验证明，它在处理低相似度序列时具有极高的准确率和鲁棒性，单次可处理 30 万条序列，为发现新病毒演化分支和自动化分类提供了高效、可解释的解决方案。
+  - Tags：`query:pathoai`
+- [Orthogonal disentanglement of single-cell multi-omics reveals private and shared drivers of tissue development and pathogenesis.](#/202603/20/202603/20/41849387-orthogonal-disentanglement-of-single-cell-multi-omics-reveals-private-and-shared-drivers-of-tissue-development-and-pathogenesis)
+  - TLDR：单细胞多组学数据因基因调控异步性存在模态特有（私有）与跨模态（共享）信号，难以精准解析。本研究提出OmiDos深度学习框架，通过领域适配和正交解耦技术分离这两类信号。该方法在聚类和批次校正任务中表现优异，并成功识别出小鼠腭部发育及髓母细胞瘤中的关键远端增强子，为理解组织发育与发病机制提供了更精细的生物学视角。
+  - Tags：`query:bioinfo`
+- [Integrating machine learning and artificial intelligence in the management of Acinetobacter infections: a narrative review.](#/202603/20/202603/20/41851574-integrating-machine-learning-and-artificial-intelligence-in-the-management-of-acinetobacter-infections-a-narrative-review)
+  - TLDR：针对鲍曼不动杆菌多重耐药性带来的全球医疗挑战，本文综述了人工智能与机器学习在感染管理中的应用。通过整合基因组学、临床数据和化学空间搜索，AI 显著提升了早期诊断精度、耐药性预测速度及新药研发效率（如发现 abaucin）。这些技术为优化临床决策、控制医院感染及应对抗生素耐药性提供了高效的计算化解决方案。
+  - Tags：`query:pathoai`
+- [A foundation model for nucleotide sequences.](#/202603/20/202603/20/41854075-a-foundation-model-for-nucleotide-sequences)
+  - TLDR：现有的基因组大模型多侧重于核苷酸序列本身，忽视了丰富的注释信息，限制了模型在跨物种和多生物场景下的泛化能力。为此，研究者推出了 OmniNA，这是一个在 9170 万条序列及其关联注释（共 1.07 万亿碱基）上训练的自监督生成式基础模型。通过联合学习序列语法与注释语义，OmniNA 在序列检测、物种分类等 23 个基准测试中达到 SOTA 或领先水平，并能有效揭示突变对 DNA/RNA 处理的影响，为基因组学研究提供了强大的预训练工具。
+  - Tags：`query:bioinfo`
+- [LaPro-DTA: Latent Dual-View Drug Representations and Salient Protein Feature Extraction for Generalizable Drug--Target Affinity Prediction](#/202603/20/202603/20/2603.14792v1-lapro-dta-latent-dual-view-drug-representations-and-salient-protein-feature-extraction-for-generalizable-drug--target-affinity-prediction)
+  - TLDR：针对药物-靶点亲和力预测在冷启动场景下易过拟合及蛋白质序列噪声干扰的问题，LaPro-DTA 框架通过潜在双视图药物表征（结合微观结构与宏观骨架）和显著蛋白质特征提取（Top-k 池化过滤噪声）提升泛化性。实验显示其在 Davis 数据集未知药物设置下 MSE 降低了 8%，在提升预测精度的同时增强了结合机制的可解释性。
+  - Tags：`query:bioinfo`
+- [Multi-Task Genetic Algorithm with Multi-Granularity Encoding for Protein-Nucleotide Binding Site Prediction](#/202603/20/202603/20/2603.14797v1-multi-task-genetic-algorithm-with-multi-granularity-encoding-for-protein-nucleotide-binding-site-prediction)
+  - TLDR：针对蛋白质-核苷酸结合位点预测中特征表示不足和多任务融合僵化的问题，提出了 MTGA-MGE 框架。该框架结合多粒度编码网络提取多尺度特征，并利用遗传算法动态优化任务间的融合策略，同时引入外部邻域机制促进跨任务信息共享。实验表明，该方法在 15 个核苷酸数据集上均达到领先水平，在数据稀缺场景下也表现出极强的鲁棒性，为药物研发提供了更精准的计算工具。
+  - Tags：`query:bioinfo`
+- [Fold-CP: A Context Parallelism Framework for Biomolecular Modeling](#/202603/20/202603/20/2603.14806v1-fold-cp-a-context-parallelism-framework-for-biomolecular-modeling)
+  - TLDR：蛋白质结构预测模型（如AlphaFold 3）受限于单卡显存，难以处理超大规模生物分子组装体。NVIDIA推出Fold-CP框架，通过上下文并行技术将推理和训练任务分布至多GPU。该框架针对三角更新和局部注意力机制实现了高效的并行原语，使显存占用随GPU数量线性下降。实验显示，Fold-CP能在64张B300显卡上预测超过3万个残基的超大结构，成功处理了PI4KA等复杂激酶系统，为构建“虚拟细胞”提供了关键的扩展能力。
+  - Tags：`query:bioinfo`
+- [IgPose: A Generative Data-Augmented Pipeline for Robust Immunoglobulin-Antigen Binding Prediction](#/202603/20/202603/20/2603.14870v1-igpose-a-generative-data-augmented-pipeline-for-robust-immunoglobulin-antigen-binding-prediction)
+  - TLDR：针对免疫球蛋白-抗原（Ig-Ag）结合预测中实验数据稀缺和结构预测精度不足的问题，本文提出了 IgPose 框架。该框架通过构建 SIDD 合成诱饵数据库进行数据增强，并结合等变图神经网络、ESM-2 嵌入与 GRU 提取几何与进化特征。IgPose 包含分类器和评分器，在 CASP-16 等基准测试中表现优于物理和深度学习基线，为高通量抗体发现提供了可靠的姿态过滤与排序工具。
+  - Tags：`query:bioinfo`
+- [BiTro: Bidirectional Transfer Learning Enhances Bulk and Spatial Transcriptomics Prediction in Cancer Pathological Images](#/202603/20/202603/20/2603.14897v1-bitro-bidirectional-transfer-learning-enhances-bulk-and-spatial-transcriptomics-prediction-in-cancer-pathological-images)
+  - TLDR：针对癌症病理分析中大体转录组缺乏空间信息而空间转录组样本稀缺且成本高的问题，本文提出了BiTro双向迁移学习框架。该框架通过细胞级建模捕捉病理图像的形态与空间特征，并利用LoRA技术在Bulk和ST数据间进行高效知识迁移。在五个癌症数据集上的实验证明，BiTro在转录组预测任务上优于现有模型，且双向迁移能显著提升预测精度，为低成本获取高分辨率空间表达谱提供了新方案。
+  - Tags：`query:seqai`
+- [Conditional Inverse Learning of Time-Varying Reproduction Numbers Inference](#/202603/20/202603/20/2603.17549v1-conditional-inverse-learning-of-time-varying-reproduction-numbers-inference)
+  - TLDR：针对传染病监测中实时估算再生数（Rt）这一病态逆问题，现有方法因过度依赖刚性流行病学假设而难以捕捉突发政策导致的动态变化。本研究提出 CIRL 框架，通过学习历史发病模式到潜在再生数的条件映射，并将更新方程作为前向算子融入似然建模。实验证明，该方法在保持动力学一致性的同时，能更灵敏地捕捉传播趋势的突变，并有效处理观测噪声和零值数据，提升了疫情预警的准确性。
+  - Tags：`query:pathoai`
+- [Translating Gut Microbiota into Diagnostics: A Multidimensional Approach for the Diagnosis of Inflammatory Bowel Disease.](#/202603/20/202603/20/41220286-translating-gut-microbiota-into-diagnostics-a-multidimensional-approach-for-the-diagnosis-of-inflammatory-bowel-disease)
+  - TLDR：针对炎症性肠病（IBD）传统生物标志物难以反映肠道微生物失调复杂性的问题，本文综述了利用宏基因组学、多组学集成及机器学习构建诊断模型的方法。通过整合微生物丰度、代谢物及宿主相互作用数据，研究展示了高精度识别IBD患者的潜力，为开发精准的临床诊断和分层工具提供了多维视角。
+  - Tags：`query:pathoai`
+- [Single-cell RNA sequencing and proteomics uncover glycolytic dysregulation linking skin and systemic inflammation in dermatomyositis.](#/202603/20/202603/20/41329255-single-cell-rna-sequencing-and-proteomics-uncover-glycolytic-dysregulation-linking-skin-and-systemic-inflammation-in-dermatomyositis)
+  - TLDR：皮肌炎（DM）是一种累及皮肤和肌肉的自身免疫病，但其皮肤病变的分子机制尚不明确。本研究通过单细胞转录组测序和蛋白质组学分析，构建了DM皮损的高分辨率图谱，发现成纤维细胞而非巨噬细胞是主要的致病信号源。研究揭示了由I型干扰素信号驱动的CXCL10-糖酵解轴是炎症的核心机制，并证明糖酵解抑制剂2DG能显著缓解模型小鼠的炎症，为DM治疗提供了新靶点。
+  - Tags：`query:seqai`
+- [Quantitative metagenomics using a portable protocol.](#/202603/20/202603/20/41733350-quantitative-metagenomics-using-a-portable-protocol)
+  - TLDR：针对环境微生物定量分析依赖复杂设备、耗时长的难题，本研究开发了名为 rD+rQ 的便携式工作流。该方案利用纳米孔测序技术，结合多物种基因组内标校准法（BSINC），实现了对环境样本中微生物群落的实时绝对定量。实验证明其精度可媲美数字 PCR，为水质监控和污水流行病学调查提供了快速、现场化的决策支持。
+  - Tags：`query:seqai`
+- [Metagenome-assembled genomes from a population-based cohort uncover novel gut species and within-species diversity, revealing prevalent disease associations.](#/202603/20/202603/20/41837716-metagenome-assembled-genomes-from-a-population-based-cohort-uncover-novel-gut-species-and-within-species-diversity-revealing-prevalent-disease-associations)
+  - TLDR：针对宏基因组分析中参考数据库不全及难以区分菌株差异的问题，本研究通过对爱沙尼亚人群的1878份样本进行深度测序，构建了包含8.4万个宏基因组组装基因组（MAGs）的参考库。研究发现了353个新物种，并提出GUN指标量化种内多样性。结果揭示了新物种及特定种内基因单元（如Odoribacter splanchnicus的GU-N1）与胃炎、高血压等疾病的显著关联，证明了基因组解析方法在揭示微生态与健康关系中的关键作用。
+  - Tags：`query:seqai`
+- [Unlocking Enzyme Discovery: A High-Resolution Gene Cluster Database Powered by Phylogenetic Insights and Machine Learning.](#/202603/20/202603/20/41837859-unlocking-enzyme-discovery-a-high-resolution-gene-cluster-database-powered-by-phylogenetic-insights-and-machine-learning)
+  - TLDR：针对海量基因组数据中酶功能标注不足、发现效率低的问题，该研究开发了一套整合跨界系统发育数据库、蛋白质语言模型预测及残基-原子接触重评分的自动化发现框架。在r-BOX代谢途径的应用中，该方法显著提升了酶活性预测精度，成功挖掘出多种高产酶变体，并将关键酶FadB的产量从0.65 g/L提升至10.2 g/L，为高价值酶的规模化发现与功能优化提供了高效的通用工具。
+  - Tags：`query:bioinfo`
+- [Fast hospital discharge rates blur within-hospital 'transmission footprint' in bacterial genomes, as showcased with Staphylococcus aureus.](#/202603/20/202603/20/41838776-fast-hospital-discharge-rates-blur-within-hospital-transmission-footprint-in-bacterial-genomes-as-showcased-with-staphylococcus-aureus)
+  - TLDR：针对细菌病原体突变慢导致医院内传播追踪困难的问题，本研究通过随机模型模拟金黄色葡萄球菌在医院与社区间的动态演化。研究发现，当出院率高于院内传播率时，仅凭医院样本的基因组数据会严重低估院内传播强度。结果表明，准确评估院内感染风险必须整合社区样本或外部传播数据，为优化公共卫生监测策略提供了理论依据。
+  - Tags：`query:pathoai`
+- [Dynamics of phage-host interactions in Bacteroides fragilis resolved by single-cell transcriptomics.](#/202603/20/202603/20/41839859-dynamics-of-phage-host-interactions-in-bacteroides-fragilis-resolved-by-single-cell-transcriptomics)
+  - TLDR：传统的群体培养研究掩盖了细菌个体在噬菌体感染中的差异。本研究利用单细胞转录组测序技术（scRNA-seq）分析了约5万个脆弱拟杆菌细胞，成功重建了感染的时间轴并识别出未受感染的表型亚群。研究发现，细菌的易感性受荚膜多糖（CPS）和菌毛基因的相变调控。这一发现揭示了细菌如何通过随机的基因表达变化而非突变来抵御病毒，为理解宿主-噬菌体动态提供了新视角。
+  - Tags：`query:pathoai`
+- [scCAPReSE: detection of large-scale genomic rearrangements from single-cell Hi-C based on few-shot learning.](#/202603/20/202603/20/41840705-sccaprese-detection-of-large-scale-genomic-rearrangements-from-single-cell-hi-c-based-on-few-shot-learning)
+  - TLDR：针对单细胞Hi-C数据中由于训练样本稀缺导致难以检测大规模基因组重排（SV）的问题，scCAPReSE 引入了基于 CLIP 预训练模型的少样本学习框架。该方法通过迁移视觉基础模型的特征表示，仅需少量标注样本即可在不同测序平台的数据上实现高精度分类。实验证明其在 sci-Hi-C 数据集上准确率超 90%，并能揭示癌细胞间 3D 基因组结构的异质性，为研究癌症克隆演化提供了高效工具。
+  - Tags：`query:seqai`
+- [Multiscale-Aware Graph Embedding Approach Uncovers LC-61, a Potent Anti-](#/202603/20/202603/20/41841344-multiscale-aware-graph-embedding-approach-uncovers-lc-61-a-potent-anti-)
+  - TLDR：针对内脏利什曼病治疗药物匮乏的问题，本研究开发了一种融合多尺度感知机制的图神经网络（GNN）框架，用于提高抗利什曼原虫化合物的筛选精度。该模型在多个数据集上的预测性能显著优于传统GNN，并从130万个化合物中成功筛选出高活性分子LC-61。LC-61表现出纳摩尔级的抗原虫活性和极低的细胞毒性，为该疾病的药物研发提供了具有潜力的新型先导化合物。
+  - Tags：`query:pathoai`
+- [Novel Deep-Learning Unsupervised Domain Adaptation Method for Mitigating Batch, Strain, and Instrument Variations to Enhance Raman Spectroscopy-Based Bacterial Pathogen Identification.](#/202603/20/202603/20/41842761-novel-deep-learning-unsupervised-domain-adaptation-method-for-mitigating-batch-strain-and-instrument-variations-to-enhance-raman-spectroscopy-based-bacterial-pathogen-identification)
+  - TLDR：针对拉曼光谱在细菌鉴定中因仪器、批次和菌株差异导致的模型泛化性差问题，本研究提出RSCDM无监督领域自适应框架。该方法通过双分类器的输出差异动态识别偏离源域的样本，并利用对抗学习对齐特征分布。实验显示，该方法将跨仪器和菌株的鉴定准确率从约80%提升至95%以上，微调后可达99.3%，将鉴定时间从数天缩短至分钟级，显著增强了临床实用性。
+  - Tags：`query:pathoai`
+- [Machine learning identifies novel signatures of antifungal drug resistance in Saccharomycotina yeasts.](#/202603/20/202603/20/41843615-machine-learning-identifies-novel-signatures-of-antifungal-drug-resistance-in-saccharomycotina-yeasts)
+  - TLDR：针对真菌耐药性在跨物种演化中缺乏广谱解释的问题，本研究利用近乎所有已知酵母亚门物种的基因组与表型数据，采用随机森林算法预测了对八种抗真菌药物的耐药性。研究发现氟康唑耐药性的预测准确率最高，并识别出与临床菌株完全不同的关键氨基酸位点。这些天然变异位点在能量上更稳定，揭示了自然界中广泛存在的耐药机制，为理解真菌耐药演化提供了新视角。
+  - Tags：`query:pathoai`
+- [In silico discovery of thioglycoside analogues as donor-site inhibitors of glycosyltransferase LgtC.](#/202603/20/202603/20/41844697-in-silico-discovery-of-thioglycoside-analogues-as-donor-site-inhibitors-of-glycosyltransferase-lgtc)
+  - TLDR：针对多重耐药菌的毒力因子LgtC酶，本研究利用相似性筛选、分子对接及动力学模拟识别硫代糖苷类抑制剂。结果发现C-5和C-18等分子能比天然底物更稳定地结合在供体位点。该研究为开发干扰细菌脂寡糖合成的新型抗毒力药物提供了高潜力的先导化合物。
+  - Tags：`query:pathoai`
+- [Machine learning-based prediction of BV-relevant probiotic functional potential in vaginal-derived Lactobacillus crispatus strains.](#/202603/20/202603/20/41845201-machine-learning-based-prediction-of-bv-relevant-probiotic-functional-potential-in-vaginal-derived-lactobacillus-crispatus-strains)
+  - TLDR：针对阴道益生菌筛选成本高、效率低的问题，本研究通过对639株卷曲乳杆菌进行体外功能实验并建立加权评分体系，结合k-mer基因组特征和多阶段特征选择策略，开发了机器学习预测工具VLCPredictor。该工具能高效评估菌株在维持阴道微生态平衡及防治妇科感染方面的功能潜力，为女性生殖健康益生菌的精准开发提供了高效的计算框架。
+  - Tags：`query:pathoai`
+- [Vector Encoding of Phylogenetic Trees by Ordered Leaf Attachment.](#/202603/20/202603/20/41848929-vector-encoding-of-phylogenetic-trees-by-ordered-leaf-attachment)
+  - TLDR：针对系统发育树在机器学习中难以向量化表示的问题，本文提出“有序叶节点附加”（OLA）方法，将二叉有根树拓扑唯一编码为整数向量。该方法实现了线性时间的编解码效率，且其向量空间定义的距离与传统的 NNI 和 SPR 距离相关，为进化树数据的自动化分析提供了高效的数学表征工具。
+  - Tags：`query:pathoai`
+- [Developing an innovative chimeric multi-epitope subunit vaccine against](#/202603/20/202603/20/41852711-developing-an-innovative-chimeric-multi-epitope-subunit-vaccine-against)
+  - TLDR：针对中间链球菌（Streptococcus intermedius）引发的脑膜炎和心内膜炎等严重感染且目前缺乏疫苗的问题，本研究利用免疫信息学方法设计了一种新型嵌合多表位亚单位疫苗。通过筛选12个B细胞、5个HTL和5个CTL表位并进行结构组装，经分子对接与动力学模拟验证，该疫苗展现出良好的抗原性、稳定性和免疫受体结合能力，为后续临床前研究提供了理论基础。
+  - Tags：`query:pathoai`
+- [A structural blueprint for antibacterial discovery: microwave- and ultrasound-assisted synthesis of pyrrolidine-fused quinoxalines as novel inhibitors of DNA gyrase and biofilm.](#/202603/20/202603/20/41853207-a-structural-blueprint-for-antibacterial-discovery-microwave--and-ultrasound-assisted-synthesis-of-pyrrolidine-fused-quinoxalines-as-novel-inhibitors-of-dna-gyrase-and-biofilm)
+  - TLDR：针对日益严重的抗生素耐药性问题，本研究利用微波和超声辅助合成技术，设计并制备了一系列结合吡咯烷、喹喔啉和肼桥结构的杂合化合物。实验结果显示，这些新型分子（如化合物25、31）对大肠杆菌和铜绿假单胞菌具有显著的杀菌活性，且在抑制生物膜形成方面优于左氧氟沙星。通过靶向抑制DNA促旋酶，该系列化合物展现出强效的抗菌潜力，为开发新型抗感染药物提供了重要的结构参考。
+  - Tags：`query:pathoai`
+- [Microbial community assembly and pathogen signatures in groundwater and tap water systems in greater Cairo, Egypt.](#/202603/20/202603/20/41854783-microbial-community-assembly-and-pathogen-signatures-in-groundwater-and-tap-water-systems-in-greater-cairo-egypt)
+  - TLDR：针对埃及开罗地区地下水与自来水微生物群落研究不足的问题，本研究利用环境DNA元条形码技术与统计建模，深入分析了原核生物的组成及演化机制。研究发现两类水源微生物结构差异显著，且群落构建主要受随机性生态漂变驱动，同时检测到军团菌等潜在致病菌的基因特征。该成果揭示了城市供水系统的微生物动态，为制定针对性的水质监控与公共卫生防护策略提供了数据支撑。
+  - Tags：`query:pathoai`
+- [Empowering Chemical Structures with Biological Insights for Scalable Phenotypic Virtual Screening](#/202603/20/202603/20/2603.15006v1-empowering-chemical-structures-with-biological-insights-for-scalable-phenotypic-virtual-screening)
+  - TLDR：药物发现面临结构筛选缺乏生物背景与表型筛选成本高昂的矛盾。DECODE 框架通过利用少量转录组和形态学数据作为监督信号，将生物语义融入化学结构表征中，实现了仅凭结构即可预测生物指纹。该方法在作用机制预测上提升了 20%，并在抗癌药物筛选中将命中率提高了 6 倍，为大规模表型虚拟筛选提供了高效方案。
+  - Tags：`query:bioinfo`
+- [Open Biomedical Knowledge Graphs at Scale: Construction, Federation, and AI Agent Access with Samyama Graph Database](#/202603/20/202603/20/2603.15080v1-open-biomedical-knowledge-graphs-at-scale-construction-federation-and-ai-agent-access-with-samyama-graph-database)
+  - TLDR：针对生物医学数据分散、跨库查询难的问题，本文基于 Rust 开发的高性能图数据库 Samyama 构建了 Pathways 和 Clinical Trials 两个大规模知识图谱。通过可复现的 ETL 流程和跨库联邦技术，实现了异构数据的无缝集成，并利用 MCP 协议为 AI Agent 提供了自然语言查询接口。该方案在普通硬件上实现了千万级节点的秒级加载与复杂跨库查询，显著提升了生物医学研究的效率。
+  - Tags：`query:agent`
+- [MiroThinker-1.7 & H1: Towards Heavy-Duty Research Agents via Verification](#/202603/20/202603/20/2603.15726v1-mirothinker-17--h1-towards-heavy-duty-research-agents-via-verification)
+  - TLDR：针对复杂长程推理任务中智能体可靠性不足的问题，本文推出 MiroThinker-1.7 系列模型。通过在训练中引入结构化规划与工具交互的“智能体中期训练”，并结合 H1 版本的局部与全局双重验证机制，实现了对推理过程的实时评估与修正。该模型在科学推理、金融分析等深度研究任务上达到 SOTA 水平，并开源了高效的 1.7 及 mini 版本，显著提升了研究型智能体的实用性。
+  - Tags：`query:agent`
+- [OMNIFLOW: A Physics-Grounded Multimodal Agent for Generalized Scientific Reasoning](#/202603/20/202603/20/2603.15797v1-omniflow-a-physics-grounded-multimodal-agent-for-generalized-scientific-reasoning)
+  - TLDR：针对大语言模型在处理偏微分方程等连续时空动力学时易产生非物理幻觉的问题，本文提出了 OMNIFLOW 架构。该架构通过语义-符号对齐机制将流场张量转化为拓扑描述符，并结合物理引导的思维链（PG-CoT）进行约束推理，无需微调即可让冻结的 LLM 理解物理规律。实验证明其在湍流、天气预报等任务中表现优于传统深度学习模型，实现了可解释且物理一致的科学推理。
+  - Tags：`query:bioinfo`
+- [Sample-Efficient Adaptation of Drug-Response Models to Patient Tumors under Strong Biological Domain Shift](#/202603/20/202603/20/2603.16185v1-sample-efficient-adaptation-of-drug-response-models-to-patient-tumors-under-strong-biological-domain-shift)
+  - TLDR：针对临床前细胞系数据与患者肿瘤数据之间存在巨大生物学差异，导致药物反应预测困难的问题，该研究提出了一种分阶段迁移学习框架。该框架先通过自编码器从大规模无标注药理基因组数据中学习细胞和药物的独立表征，再利用细胞系标签进行对齐，最后通过少量样本微调实现向患者数据的迁移。实验证明，该方法在极少标注样本下能显著提升对患者肿瘤药物反应的预测效率，为临床前到临床的转化提供了高效路径。
+  - Tags：`query:bioinfo`
+- [Digital unzipping of DNA through a solid-state nanopore: A theoretical study for base-by-base ratcheting](#/202603/20/202603/20/2603.14705v1-digital-unzipping-of-dna-through-a-solid-state-nanopore-a-theoretical-study-for-base-by-base-ratcheting)
+  - TLDR：固态纳米孔测序面临缺乏蛋白质马达来精确控制DNA易位速度的难题。本研究提出一种基于双链DNA解链的棘轮机制，通过电压脉冲触发单碱基解链，并引入带电孔壁的静电吸引力作为锁定机制。理论模型证明，该方法能在亚微秒切换下实现误差低于5%的逐碱基步进，为开发全固态纳米孔测序技术提供了理论路径。
+  - Tags：`query:seqai`
+- [CrossADR: enhancing adverse drug reactions prediction for combination pharmacotherapy with cross-layer feature integration and cross-level associative learning](#/202603/20/202603/20/2603.15047v1-crossadr-enhancing-adverse-drug-reactions-prediction-for-combination-pharmacotherapy-with-cross-layer-feature-integration-and-cross-level-associative-learning)
+  - TLDR：针对联合用药中药物不良反应（ADR）预测面临的搜索空间巨大及生理反应复杂等挑战，本研究提出了 CrossADR 框架。该框架通过门控残差流图神经网络融合多尺度分子特征，并利用可学习的嵌入空间捕捉 15 个器官系统的动态关联。在包含近百万种药物组合的大规模数据集上，CrossADR 在 80 个实验场景中均达到最优性能，为临床安全用药和药物研发提供了高分辨率的生物学洞察。
+  - Tags：`query:bioinfo`
+- [Geometric framework for biological evolution](#/202603/20/202603/20/2603.15198v1-geometric-framework-for-biological-evolution)
+  - TLDR：针对生物进化在基因型与表型空间缺乏统一几何描述的问题，本研究基于最大熵原理开发了一套广义协变框架。通过将 Lande 方程识别为协变梯度上升，研究证明了进化可建模为适应度景观上的学习过程，其中度量张量与噪声协方差的函数关系决定了具体的学习算法。该成果为进化动力学提供了严谨的几何解释，并指明了未来实验测量的关键方向。
+  - Tags：`query:pathoai`
+- [OMNIFLOW: A Physics-Grounded Multimodal Agent for Generalized Scientific Reasoning](#/202603/20/202603/20/2603.15797v2-omniflow-a-physics-grounded-multimodal-agent-for-generalized-scientific-reasoning)
+  - TLDR：针对大语言模型在处理偏微分方程等时空动力学问题时易产生非物理幻觉且微调成本高的问题，本文提出了 OMNIFLOW 架构。该架构通过语义-符号对齐机制将流场张量转化为拓扑语言描述，并结合物理引导的思维链进行约束注入与验证，使冻结的多模态模型具备物理感知能力。实验证明其在湍流、天气预报等任务的零样本泛化中优于传统深度学习模型，实现了可解释的科学推理。
+  - Tags：`query:bioinfo`
+- [Segmentation-before-Staining Improves Structural Fidelity in Virtual IHC-to-Multiplex IF Translation](#/202603/20/202603/20/2603.16160v1-segmentation-before-staining-improves-structural-fidelity-in-virtual-ihc-to-multiplex-if-translation)
+  - TLDR：针对虚拟染色技术（从IHC到mIF转换）中核形态失真导致临床定量指标（如Ki67指数）不准的问题，该研究提出了一种“先分割后染色”的策略。通过引入预训练分割模型的细胞概率图作为输入先验，并结合方差保持正则化项，在不改变基础架构的情况下显著提升了合成图像的细胞计数准确性和结构保真度，为低成本、高精度的多重免疫荧光分析提供了新思路。
+  - Tags：`query:seqai`
+- [Cross-RAG: Zero-Shot Retrieval-Augmented Time Series Forecasting via Cross-Attention](#/202603/20/202603/20/2603.14709v1-cross-rag-zero-shot-retrieval-augmented-time-series-forecasting-via-cross-attention)
+  - TLDR：针对时间序列基础模型在零样本预测中泛化能力受限的问题，现有检索增强方法常因引入固定数量的样本而包含无关噪声。Cross-RAG 提出通过交叉注意力机制动态建模查询序列与检索样本间的相关性，实现对外部知识的选择性吸收。实验证明该框架能显著提升多种基础模型在不同检索场景下的零样本预测精度，为时序预测提供了更稳健的知识增强方案。
+  - Tags：`query:bioinfo`
+- [Bayesian Inference for Missing Physics](#/202603/20/202603/20/2603.14918v1-bayesian-inference-for-missing-physics)
+  - TLDR：针对生物过程建模中物理规律缺失的问题，传统方法利用通用微分方程（UDE）中的神经网络学习未知项，但神经网络缺乏可解释性且难以量化不确定性。本研究提出一种贝叶斯符号回归方法，通过可逆跳跃马尔可夫链蒙特卡罗（RJMCMC）对符号表达式树的后验分布进行采样。该方法不仅能从实验数据中恢复出可解释的数学公式，还能量化模型结构的不确定性，在捕食者模型和补料分步生物反应器案例中验证了其有效性。
+  - Tags：`query:bioinfo`
+- [Generative Inverse Design with Abstention via Diagonal Flow Matching](#/202603/20/202603/20/2603.15925v1-generative-inverse-design-with-abstention-via-diagonal-flow-matching)
+  - TLDR：针对逆向设计中条件流匹配（CFM）对参数顺序和缩放敏感导致训练不稳定的问题，本文提出了对角流匹配（Diag-CFM）。该方法通过零锚定策略将设计参数与噪声配对、标签与零配对，实现了坐标置换不变性。实验证明，在机翼和燃气轮机等高维设计任务中，该方法在往返精度上比传统方法提升了一个数量级，并能通过内置指标有效识别不可靠预测。
+  - Tags：`query:bioinfo`
+- [CounterRefine: Answer-Conditioned Counterevidence Retrieval for Inference-Time Knowledge Repair in Factual Question Answering](#/202603/20/202603/20/2603.16091v1-counterrefine-answer-conditioned-counterevidence-retrieval-for-inference-time-knowledge-repair-in-factual-question-answering)
+  - TLDR：针对事实问答中模型即便拥有证据仍会犯错的问题，本文提出了 CounterRefine 修复层。该方法在推理阶段先生成初步答案，再针对性地检索支持和反面证据来验证该答案，最后通过确定性验证决定保留或修正。实验显示其在 SimpleQA 基准上显著提升了 GPT-5 RAG 基线的表现，证明了将检索作为答案验证机制能有效修复知识性错误。
+  - Tags：`query:bioinfo`
 - [Optimizing global genomic surveillance for early detection of emerging SARS-CoV-2 variants.](#/202603/16/202603/16/41832161-optimizing-global-genomic-surveillance-for-early-detection-of-emerging-sars-cov-2-variants)
   - TLDR：针对全球基因组监测成本高、分布不均导致新变异株发现延迟的问题，本研究开发了一个结合流行病学、系统发育和航空旅行数据的多毒株元种群模型。通过对奥密克戎变异株的回溯分析和前瞻性模拟，证明在关键交通枢纽实施针对性旅行者监测能显著缩短检测延迟。该方法在减少总监测工作量的同时，为全球大流行预警提供了一个高效且低干扰的量化框架。
   - Tags：`query:pathoai`

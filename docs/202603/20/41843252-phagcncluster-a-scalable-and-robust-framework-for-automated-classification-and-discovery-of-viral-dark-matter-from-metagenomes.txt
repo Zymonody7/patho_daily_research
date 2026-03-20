@@ -1,0 +1,416 @@
+Title: PhaGCN_Cluster: A Scalable and Robust Framework for Automated Classification and Discovery of Viral Dark Matter from Metagenomes - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41843252/
+
+Markdown Content:
+# PhaGCN_Cluster: A Scalable and Robust Framework for Automated Classification and Discovery of Viral Dark Matter from Metagenomes - PubMed
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/41843252/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41843252%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/41843252/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/41843252/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/41843252/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/41843252/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/9fea6d21-07b4-4726-b151-fb89a024b8ad/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/41843252/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/41843252/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41843252/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41843252%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41843252%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/41843252/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Save citation to file
+
+ Format:  
+
+ Create file  Cancel 
+
+## Email citation
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41843252/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41843252/#)
+
+ Add  Cancel 
+
+## Your saved search
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/41843252/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+## Create a file for external citation management software
+
+ Create file  Cancel 
+
+## Your RSS Feed
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Full text links
+
+[![Image 6: Springer full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/http:--production.springer.de-OnlineResources-Logos-springerlink.gif) Springer](https://dx.doi.org/10.1007/s12539-026-00820-z "See full text options at Springer")
+
+[Full text links](https://pubmed.ncbi.nlm.nih.gov/41843252/#)
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41843252/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/41843252/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/41843252/#abstract)
+*   [Conflict of interest statement](https://pubmed.ncbi.nlm.nih.gov/41843252/#conflict-of-interest)
+*   [Similar articles](https://pubmed.ncbi.nlm.nih.gov/41843252/#similar)
+*   [References](https://pubmed.ncbi.nlm.nih.gov/41843252/#references)
+*   [Related information](https://pubmed.ncbi.nlm.nih.gov/41843252/#related-links)
+*   [Grants and funding](https://pubmed.ncbi.nlm.nih.gov/41843252/#grants)
+*   [LinkOut - more resources](https://pubmed.ncbi.nlm.nih.gov/41843252/#linkout)
+
+ Interdiscip Sci 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Interdiscip+Sci%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Interdiscip+Sci%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41843252/#)
+
+. 2026 Mar 17.
+
+ doi: 10.1007/s12539-026-00820-z.  Online ahead of print. 
+
+# PhaGCN_Cluster: A Scalable and Robust Framework for Automated Classification and Discovery of Viral Dark Matter from Metagenomes
+
+[Hao-Long Xia](https://pubmed.ncbi.nlm.nih.gov/?term=Xia+HL&cauthor_id=41843252)[#](https://pubmed.ncbi.nlm.nih.gov/41843252/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41843252/#full-view-affiliation-1 "School of Life Sciences and Biopharmaceutics, Guangdong Pharmaceutical University, Guangzhou, 510006, China."),[Pei-Yu Liang](https://pubmed.ncbi.nlm.nih.gov/?term=Liang+PY&cauthor_id=41843252)[#](https://pubmed.ncbi.nlm.nih.gov/41843252/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41843252/#full-view-affiliation-1 "School of Life Sciences and Biopharmaceutics, Guangdong Pharmaceutical University, Guangzhou, 510006, China."),[Wen-Guang Yuan](https://pubmed.ncbi.nlm.nih.gov/?term=Yuan+WG&cauthor_id=41843252)[2](https://pubmed.ncbi.nlm.nih.gov/41843252/#full-view-affiliation-2 "School of Marine Sciences, Sun Yat-Sen University, Zhuhai, 519082, China."),[Xu-Dong Cao](https://pubmed.ncbi.nlm.nih.gov/?term=Cao+XD&cauthor_id=41843252)[3](https://pubmed.ncbi.nlm.nih.gov/41843252/#full-view-affiliation-3 "Department of Chemical and Biological Engineering, University of Ottawa, Ottawa, 999040, Canada."),[Yanni Sun](https://pubmed.ncbi.nlm.nih.gov/?term=Sun+Y&cauthor_id=41843252)[4](https://pubmed.ncbi.nlm.nih.gov/41843252/#full-view-affiliation-4 "Department of Electrical Engineering, City University of Hong Kong, Hong Kong (SAR), China. yannisun@cityu.edu.hk."),[Jing-Zhe Jiang](https://pubmed.ncbi.nlm.nih.gov/?term=Jiang+JZ&cauthor_id=41843252)[5](https://pubmed.ncbi.nlm.nih.gov/41843252/#full-view-affiliation-5 "Jiangsu Province Engineering Research Center for Marine Bio-Resources Sustainable Utilization and College of Oceanography, Hohai University, Nanjing, 210024, China. jingzhejiang@gmail.com.")[6](https://pubmed.ncbi.nlm.nih.gov/41843252/#full-view-affiliation-6 "Key Laboratory of South China Sea Fishery Resources Exploitation & Utilization, Ministry of Agriculture and Rural Affairs, South China Sea Fisheries Research Institute, Chinese Academy of Fishery Sciences, Guangzhou, 510300, China. jingzhejiang@gmail.com."),[Li-Hong Yuan](https://pubmed.ncbi.nlm.nih.gov/?term=Yuan+LH&cauthor_id=41843252)[7](https://pubmed.ncbi.nlm.nih.gov/41843252/#full-view-affiliation-7 "School of Life Sciences and Biopharmaceutics, Guangdong Pharmaceutical University, Guangzhou, 510006, China. ylh@gdpu.edu.cn.")
+
+ Affiliations  Expand 
+
+### Affiliations
+
+*   1 School of Life Sciences and Biopharmaceutics, Guangdong Pharmaceutical University, Guangzhou, 510006, China.
+*   2 School of Marine Sciences, Sun Yat-Sen University, Zhuhai, 519082, China.
+*   3 Department of Chemical and Biological Engineering, University of Ottawa, Ottawa, 999040, Canada.
+*   4 Department of Electrical Engineering, City University of Hong Kong, Hong Kong (SAR), China. yannisun@cityu.edu.hk.
+*   5 Jiangsu Province Engineering Research Center for Marine Bio-Resources Sustainable Utilization and College of Oceanography, Hohai University, Nanjing, 210024, China. jingzhejiang@gmail.com.
+*   6 Key Laboratory of South China Sea Fishery Resources Exploitation & Utilization, Ministry of Agriculture and Rural Affairs, South China Sea Fisheries Research Institute, Chinese Academy of Fishery Sciences, Guangzhou, 510300, China. jingzhejiang@gmail.com.
+*   7 School of Life Sciences and Biopharmaceutics, Guangdong Pharmaceutical University, Guangzhou, 510006, China. ylh@gdpu.edu.cn.
+
+# Contributed equally.
+
+*    PMID: **41843252**
+*    DOI: [10.1007/s12539-026-00820-z](https://doi.org/10.1007/s12539-026-00820-z)
+
+ Item in Clipboard 
+
+# PhaGCN_Cluster: A Scalable and Robust Framework for Automated Classification and Discovery of Viral Dark Matter from Metagenomes
+
+Hao-Long Xia et al. Interdiscip Sci.2026.
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ Interdiscip Sci 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Interdiscip+Sci%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Interdiscip+Sci%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41843252/#)
+
+. 2026 Mar 17.
+
+ doi: 10.1007/s12539-026-00820-z.  Online ahead of print. 
+
+### Authors
+
+[Hao-Long Xia](https://pubmed.ncbi.nlm.nih.gov/?term=Xia+HL&cauthor_id=41843252)[#](https://pubmed.ncbi.nlm.nih.gov/41843252/#short-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41843252/#short-view-affiliation-1 "School of Life Sciences and Biopharmaceutics, Guangdong Pharmaceutical University, Guangzhou, 510006, China."),[Pei-Yu Liang](https://pubmed.ncbi.nlm.nih.gov/?term=Liang+PY&cauthor_id=41843252)[#](https://pubmed.ncbi.nlm.nih.gov/41843252/#short-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41843252/#short-view-affiliation-1 "School of Life Sciences and Biopharmaceutics, Guangdong Pharmaceutical University, Guangzhou, 510006, China."),[Wen-Guang Yuan](https://pubmed.ncbi.nlm.nih.gov/?term=Yuan+WG&cauthor_id=41843252)[2](https://pubmed.ncbi.nlm.nih.gov/41843252/#short-view-affiliation-2 "School of Marine Sciences, Sun Yat-Sen University, Zhuhai, 519082, China."),[Xu-Dong Cao](https://pubmed.ncbi.nlm.nih.gov/?term=Cao+XD&cauthor_id=41843252)[3](https://pubmed.ncbi.nlm.nih.gov/41843252/#short-view-affiliation-3 "Department of Chemical and Biological Engineering, University of Ottawa, Ottawa, 999040, Canada."),[Yanni Sun](https://pubmed.ncbi.nlm.nih.gov/?term=Sun+Y&cauthor_id=41843252)[4](https://pubmed.ncbi.nlm.nih.gov/41843252/#short-view-affiliation-4 "Department of Electrical Engineering, City University of Hong Kong, Hong Kong (SAR), China. yannisun@cityu.edu.hk."),[Jing-Zhe Jiang](https://pubmed.ncbi.nlm.nih.gov/?term=Jiang+JZ&cauthor_id=41843252)[5](https://pubmed.ncbi.nlm.nih.gov/41843252/#short-view-affiliation-5 "Jiangsu Province Engineering Research Center for Marine Bio-Resources Sustainable Utilization and College of Oceanography, Hohai University, Nanjing, 210024, China. jingzhejiang@gmail.com.")[6](https://pubmed.ncbi.nlm.nih.gov/41843252/#short-view-affiliation-6 "Key Laboratory of South China Sea Fishery Resources Exploitation & Utilization, Ministry of Agriculture and Rural Affairs, South China Sea Fisheries Research Institute, Chinese Academy of Fishery Sciences, Guangzhou, 510300, China. jingzhejiang@gmail.com."),[Li-Hong Yuan](https://pubmed.ncbi.nlm.nih.gov/?term=Yuan+LH&cauthor_id=41843252)[7](https://pubmed.ncbi.nlm.nih.gov/41843252/#short-view-affiliation-7 "School of Life Sciences and Biopharmaceutics, Guangdong Pharmaceutical University, Guangzhou, 510006, China. ylh@gdpu.edu.cn.")
+
+### Affiliations
+
+*   1 School of Life Sciences and Biopharmaceutics, Guangdong Pharmaceutical University, Guangzhou, 510006, China.
+*   2 School of Marine Sciences, Sun Yat-Sen University, Zhuhai, 519082, China.
+*   3 Department of Chemical and Biological Engineering, University of Ottawa, Ottawa, 999040, Canada.
+*   4 Department of Electrical Engineering, City University of Hong Kong, Hong Kong (SAR), China. yannisun@cityu.edu.hk.
+*   5 Jiangsu Province Engineering Research Center for Marine Bio-Resources Sustainable Utilization and College of Oceanography, Hohai University, Nanjing, 210024, China. jingzhejiang@gmail.com.
+*   6 Key Laboratory of South China Sea Fishery Resources Exploitation & Utilization, Ministry of Agriculture and Rural Affairs, South China Sea Fisheries Research Institute, Chinese Academy of Fishery Sciences, Guangzhou, 510300, China. jingzhejiang@gmail.com.
+*   7 School of Life Sciences and Biopharmaceutics, Guangdong Pharmaceutical University, Guangzhou, 510006, China. ylh@gdpu.edu.cn.
+
+# Contributed equally.
+
+*    PMID: **41843252**
+*    DOI: [10.1007/s12539-026-00820-z](https://doi.org/10.1007/s12539-026-00820-z)
+
+ Item in Clipboard 
+
+ Full text links Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Abstract
+
+Viruses are the most abundant biological entities on Earth, playing essential roles in shaping microbial communities, driving evolution, and maintaining ecosystem functions. Metagenomic sequencing has unveiled a vast landscape of uncharacterized viral "dark matter", comprising highly divergent sequences that elude traditional taxonomic approaches. Here, we develop PhaGCN_Cluster, a next-generation viral classification tool built upon a graph convolutional neural network (GCN) framework. By integrating protein-level sequence similarity and contig-level genomic features, PhaGCN_Cluster establishes a scalable knowledge graph-based analytical system. The optimized algorithm yields significant gains in computational efficiency, supporting accurate taxonomic assignment of up to 300,000 contigs per run. Compared with existing methods, PhaGCN_Cluster demonstrates superior classification accuracy and F1-scores, particularly under conditions of low sequence similarity, and exhibits strong robustness in detecting evolutionarily distant viruses. Notably, PhaGCN_Cluster incorporates an updated logic for assigning "_like" taxa, which enhances its capacity to accommodate novel viral groups while preserving high precision-though at the cost of a slight reduction in recall. By generating high-fidelity network graphs, PhaGCN_Cluster uncovers previously unrecognized clades and bridges evolutionary gaps between reference viruses and novel sequences, thereby providing critical insights into viral diversity and evolution. PhaGCN_Cluster represents an interpretable, efficient, and scalable solution for automated virus classification. The source code of PhaGCN_Cluster is available via https://github.com/xiahaolong/PhaGCN_Cluster .
+
+**Keywords:** Graph convolutional network; ICTV; Vetwork visualization; Viral dark matter; Virus classification.
+
+© 2026. International Association of Scientists in the Interdisciplinary Areas.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Conflict of interest: The authors declare that they have no competing interests.
+
+## Similar articles
+
+*   [Comparison of different assembly and annotation tools on analysis of simulated viral metagenomic communities in the gut.](https://pubmed.ncbi.nlm.nih.gov/24438450/)Vázquez-Castellanos JF, García-López R, Pérez-Brocal V, Pignatelli M, Moya A.Vázquez-Castellanos JF, et al.BMC Genomics. 2014 Jan 18;15:37. doi: 10.1186/1471-2164-15-37.BMC Genomics. 2014.PMID: 24438450 Free PMC article.  
+*   [ViTax: adaptive hierarchical viral taxonomy classification with a taxonomy belief tree on a foundation model.](https://pubmed.ncbi.nlm.nih.gov/39921398/)He Y, Zhou F, Bai J, Gao Y, Huang X, Wang Y.He Y, et al.Brief Bioinform. 2024 Nov 22;26(1):bbaf041. doi: 10.1093/bib/bbaf041.Brief Bioinform. 2024.PMID: 39921398 Free PMC article.  
+*   [Cataloguing the taxonomic origins of sequences from a heterogeneous sample using phylogenomics: applications in adventitious agent detection.](https://pubmed.ncbi.nlm.nih.gov/25475635/)Charlebois RL, Ng SH, Gisonni-Lex L, Mallet L.Charlebois RL, et al.PDA J Pharm Sci Technol. 2014 Nov-Dec;68(6):602-18. doi: 10.5731/pdajpst.2014.01023.PDA J Pharm Sci Technol. 2014.PMID: 25475635  
+*   [Viral Dark Matter: Illuminating Protein Function, Ecology, and Biotechnological Promises.](https://pubmed.ncbi.nlm.nih.gov/41264852/)Kosmopoulos JC, Anantharaman K.Kosmopoulos JC, et al.Biochemistry. 2025 Dec 16;64(24):4609-4627. doi: 10.1021/acs.biochem.5c00349. Epub 2025 Nov 20.Biochemistry. 2025.PMID: 41264852 Free PMC article.Review.  
+*   [Origins and challenges of viral dark matter.](https://pubmed.ncbi.nlm.nih.gov/28192164/)Krishnamurthy SR, Wang D.Krishnamurthy SR, et al.Virus Res. 2017 Jul 15;239:136-142. doi: 10.1016/j.virusres.2017.02.002. Epub 2017 Feb 9.Virus Res. 2017.PMID: 28192164 Review.  
+
+[See all similar articles](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed&from_uid=41843252)
+
+## References
+
+1.       1.    Breitbart M, Rohwer F (2005) Here a virus, there a virus, everywhere the same virus? Trends Microbiol 13:278–284. [https://doi.org/10.1016/j.tim.2005.04.003](https://doi.org/10.1016/j.tim.2005.04.003) - [DOI](https://doi.org/10.1016/j.tim.2005.04.003) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/15936660/)
+
+2.       1.    Breitbart M, Bonnain C, Malki K, Sawaya NA (2018) Phage puppet masters of the marine microbial realm. Nat Microbiol 3:754–766. [https://doi.org/10.1038/s41564-018-0166-y](https://doi.org/10.1038/s41564-018-0166-y) - [DOI](https://doi.org/10.1038/s41564-018-0166-y) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/29867096/)
+
+3.       1.    Nigro OD, Jungbluth SP, Lin HT et al (2017) Viruses in the oceanic basement. mBio 8:e02129-16. [https://doi.org/10.1128/mBio.02129-16](https://doi.org/10.1128/mBio.02129-16)
+
+4.       1.    Suttle CA (2007) Marine viruses—major players in the global ecosystem. Nat Rev Microbiol 5:801–812. [https://doi.org/10.1038/nrmicro1750](https://doi.org/10.1038/nrmicro1750) - [DOI](https://doi.org/10.1038/nrmicro1750) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/17853907/)
+
+5.       1.    Fuhrman JA (1999) Marine viruses and their biogeochemical and ecological effects. Nature 399:541–548. [https://doi.org/10.1038/21119](https://doi.org/10.1038/21119) - [DOI](https://doi.org/10.1038/21119) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/10376593/)
+
+ Show all 41 references 
+
+## Related information
+
+*   [GEO Profiles](https://www.ncbi.nlm.nih.gov/geoprofiles?linkname=pubmed_geoprofiles&from_uid=41843252 "GEO records associated with pubmed record")
+
+## Grants and funding
+
+*   [No. 2022KCXTD017/Innovation Team Project of Guangdong Universities](https://pubmed.ncbi.nlm.nih.gov/?term=No.+2022KCXTD017%2FInnovation+Team+Project+of+Guangdong+Universities%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant No. 2022KCXTD017/Innovation Team Project of Guangdong Universities")
+*   [No. 324CXTD435/Natural Science Foundation of Hainan Province](https://pubmed.ncbi.nlm.nih.gov/?term=No.+324CXTD435%2FNatural+Science+Foundation+of+Hainan+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant No. 324CXTD435/Natural Science Foundation of Hainan Province")
+*   [No. 2023TD44/Central Public-interest Scientific Institution Basal Research Fund, Chinese Academy of Fishery Sciences](https://pubmed.ncbi.nlm.nih.gov/?term=No.+2023TD44%2FCentral+Public-interest+Scientific+Institution+Basal+Research+Fund%2C+Chinese+Academy+of+Fishery+Sciences%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant No. 2023TD44/Central Public-interest Scientific Institution Basal Research Fund, Chinese Academy of Fishery Sciences")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Springer](https://dx.doi.org/10.1007/s12539-026-00820-z)
+
+**Full text links**[x]
+
+[![Image 7: Springer full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/http:--production.springer.de-OnlineResources-Logos-springerlink.gif) Springer](https://dx.doi.org/10.1007/s12539-026-00820-z "See full text options at Springer")
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41843252/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41843252%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/41843252/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41843252%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41843252%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/41843252/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/?pagename=pubmed%3Apubmed%3Aabstract%3ANONE)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)

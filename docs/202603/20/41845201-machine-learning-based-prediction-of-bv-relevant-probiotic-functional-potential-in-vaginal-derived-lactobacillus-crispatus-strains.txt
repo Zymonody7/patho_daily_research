@@ -1,0 +1,421 @@
+Title: Machine learning-based prediction of BV-relevant probiotic functional potential in vaginal-derived Lactobacillus crispatus strains - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41845201/
+
+Markdown Content:
+# Machine learning-based prediction of BV-relevant probiotic functional potential in vaginal-derived Lactobacillus crispatus strains - PubMed
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/41845201/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41845201%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/41845201/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/41845201/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/41845201/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/41845201/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/9fea6d21-07b4-4726-b151-fb89a024b8ad/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/41845201/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/41845201/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41845201/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41845201%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41845201%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/41845201/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Save citation to file
+
+ Format:  
+
+ Create file  Cancel 
+
+## Email citation
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41845201/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41845201/#)
+
+ Add  Cancel 
+
+## Your saved search
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/41845201/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+## Create a file for external citation management software
+
+ Create file  Cancel 
+
+## Your RSS Feed
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Full text links
+
+[![Image 6: BioMed Central full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--s3-service-broker-live-ddda94b7-dbb0-4917-917d-776dae91ebba.s3.amazonaws.com-bmc-linkout-fulltext.png) BioMed Central](https://bmcmicrobiol.biomedcentral.com/articles/10.1186/s12866-026-04873-4 "See full text options at BioMed Central")
+
+[Full text links](https://pubmed.ncbi.nlm.nih.gov/41845201/#)
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41845201/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/41845201/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/41845201/#abstract)
+*   [Conflict of interest statement](https://pubmed.ncbi.nlm.nih.gov/41845201/#conflict-of-interest)
+*   [Similar articles](https://pubmed.ncbi.nlm.nih.gov/41845201/#similar)
+*   [References](https://pubmed.ncbi.nlm.nih.gov/41845201/#references)
+*   [Related information](https://pubmed.ncbi.nlm.nih.gov/41845201/#related-links)
+*   [Grants and funding](https://pubmed.ncbi.nlm.nih.gov/41845201/#grants)
+*   [LinkOut - more resources](https://pubmed.ncbi.nlm.nih.gov/41845201/#linkout)
+
+ BMC Microbiol 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22BMC+Microbiol%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22BMC+Microbiol%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41845201/#)
+
+. 2026 Mar 17.
+
+ doi: 10.1186/s12866-026-04873-4.  Online ahead of print. 
+
+# Machine learning-based prediction of BV-relevant probiotic functional potential in vaginal-derived Lactobacillus crispatus strains
+
+[Keyu Quan](https://pubmed.ncbi.nlm.nih.gov/?term=Quan+K&cauthor_id=41845201)[#](https://pubmed.ncbi.nlm.nih.gov/41845201/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41845201/#full-view-affiliation-1 "Inner Mongolia Key Laboratory of Dairy Biotechnology and Engineering, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41845201/#full-view-affiliation-2 "Key Laboratory of Dairy Products Processing, Ministry of Agriculture and Rural Affairs, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[3](https://pubmed.ncbi.nlm.nih.gov/41845201/#full-view-affiliation-3 "Key Laboratory of Dairy Biotechnology and Engineering, Ministry of Education, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China."),[Weichi Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+W&cauthor_id=41845201)[#](https://pubmed.ncbi.nlm.nih.gov/41845201/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41845201/#full-view-affiliation-1 "Inner Mongolia Key Laboratory of Dairy Biotechnology and Engineering, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41845201/#full-view-affiliation-2 "Key Laboratory of Dairy Products Processing, Ministry of Agriculture and Rural Affairs, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[3](https://pubmed.ncbi.nlm.nih.gov/41845201/#full-view-affiliation-3 "Key Laboratory of Dairy Biotechnology and Engineering, Ministry of Education, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China."),[Hao Jin](https://pubmed.ncbi.nlm.nih.gov/?term=Jin+H&cauthor_id=41845201)[1](https://pubmed.ncbi.nlm.nih.gov/41845201/#full-view-affiliation-1 "Inner Mongolia Key Laboratory of Dairy Biotechnology and Engineering, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41845201/#full-view-affiliation-2 "Key Laboratory of Dairy Products Processing, Ministry of Agriculture and Rural Affairs, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[3](https://pubmed.ncbi.nlm.nih.gov/41845201/#full-view-affiliation-3 "Key Laboratory of Dairy Biotechnology and Engineering, Ministry of Education, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China."),[Weiwei Hu](https://pubmed.ncbi.nlm.nih.gov/?term=Hu+W&cauthor_id=41845201)[1](https://pubmed.ncbi.nlm.nih.gov/41845201/#full-view-affiliation-1 "Inner Mongolia Key Laboratory of Dairy Biotechnology and Engineering, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41845201/#full-view-affiliation-2 "Key Laboratory of Dairy Products Processing, Ministry of Agriculture and Rural Affairs, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[3](https://pubmed.ncbi.nlm.nih.gov/41845201/#full-view-affiliation-3 "Key Laboratory of Dairy Biotechnology and Engineering, Ministry of Education, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China."),[Qinggele Borjihan](https://pubmed.ncbi.nlm.nih.gov/?term=Borjihan+Q&cauthor_id=41845201)[1](https://pubmed.ncbi.nlm.nih.gov/41845201/#full-view-affiliation-1 "Inner Mongolia Key Laboratory of Dairy Biotechnology and Engineering, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41845201/#full-view-affiliation-2 "Key Laboratory of Dairy Products Processing, Ministry of Agriculture and Rural Affairs, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[3](https://pubmed.ncbi.nlm.nih.gov/41845201/#full-view-affiliation-3 "Key Laboratory of Dairy Biotechnology and Engineering, Ministry of Education, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China."),[Qiuhua Bao](https://pubmed.ncbi.nlm.nih.gov/?term=Bao+Q&cauthor_id=41845201)[1](https://pubmed.ncbi.nlm.nih.gov/41845201/#full-view-affiliation-1 "Inner Mongolia Key Laboratory of Dairy Biotechnology and Engineering, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41845201/#full-view-affiliation-2 "Key Laboratory of Dairy Products Processing, Ministry of Agriculture and Rural Affairs, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[3](https://pubmed.ncbi.nlm.nih.gov/41845201/#full-view-affiliation-3 "Key Laboratory of Dairy Biotechnology and Engineering, Ministry of Education, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China."),[Yongfu Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+Y&cauthor_id=41845201)[4](https://pubmed.ncbi.nlm.nih.gov/41845201/#full-view-affiliation-4 "Inner Mongolia Key Laboratory of Dairy Biotechnology and Engineering, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China. nmgyfchen@126.com.")[5](https://pubmed.ncbi.nlm.nih.gov/41845201/#full-view-affiliation-5 "Key Laboratory of Dairy Products Processing, Ministry of Agriculture and Rural Affairs, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China. nmgyfchen@126.com.")[6](https://pubmed.ncbi.nlm.nih.gov/41845201/#full-view-affiliation-6 "Key Laboratory of Dairy Biotechnology and Engineering, Ministry of Education, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China. nmgyfchen@126.com.")
+
+ Affiliations  Expand 
+
+### Affiliations
+
+*   1 Inner Mongolia Key Laboratory of Dairy Biotechnology and Engineering, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.
+*   2 Key Laboratory of Dairy Products Processing, Ministry of Agriculture and Rural Affairs, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.
+*   3 Key Laboratory of Dairy Biotechnology and Engineering, Ministry of Education, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.
+*   4 Inner Mongolia Key Laboratory of Dairy Biotechnology and Engineering, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China. nmgyfchen@126.com.
+*   5 Key Laboratory of Dairy Products Processing, Ministry of Agriculture and Rural Affairs, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China. nmgyfchen@126.com.
+*   6 Key Laboratory of Dairy Biotechnology and Engineering, Ministry of Education, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China. nmgyfchen@126.com.
+
+# Contributed equally.
+
+*    PMID: **41845201**
+*    DOI: [10.1186/s12866-026-04873-4](https://doi.org/10.1186/s12866-026-04873-4)
+
+Free article
+
+ Item in Clipboard 
+
+# Machine learning-based prediction of BV-relevant probiotic functional potential in vaginal-derived Lactobacillus crispatus strains
+
+Keyu Quan et al. BMC Microbiol.2026.
+
+Free article
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ BMC Microbiol 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22BMC+Microbiol%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22BMC+Microbiol%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41845201/#)
+
+. 2026 Mar 17.
+
+ doi: 10.1186/s12866-026-04873-4.  Online ahead of print. 
+
+### Authors
+
+[Keyu Quan](https://pubmed.ncbi.nlm.nih.gov/?term=Quan+K&cauthor_id=41845201)[#](https://pubmed.ncbi.nlm.nih.gov/41845201/#short-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41845201/#short-view-affiliation-1 "Inner Mongolia Key Laboratory of Dairy Biotechnology and Engineering, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41845201/#short-view-affiliation-2 "Key Laboratory of Dairy Products Processing, Ministry of Agriculture and Rural Affairs, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[3](https://pubmed.ncbi.nlm.nih.gov/41845201/#short-view-affiliation-3 "Key Laboratory of Dairy Biotechnology and Engineering, Ministry of Education, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China."),[Weichi Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+W&cauthor_id=41845201)[#](https://pubmed.ncbi.nlm.nih.gov/41845201/#short-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41845201/#short-view-affiliation-1 "Inner Mongolia Key Laboratory of Dairy Biotechnology and Engineering, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41845201/#short-view-affiliation-2 "Key Laboratory of Dairy Products Processing, Ministry of Agriculture and Rural Affairs, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[3](https://pubmed.ncbi.nlm.nih.gov/41845201/#short-view-affiliation-3 "Key Laboratory of Dairy Biotechnology and Engineering, Ministry of Education, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China."),[Hao Jin](https://pubmed.ncbi.nlm.nih.gov/?term=Jin+H&cauthor_id=41845201)[1](https://pubmed.ncbi.nlm.nih.gov/41845201/#short-view-affiliation-1 "Inner Mongolia Key Laboratory of Dairy Biotechnology and Engineering, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41845201/#short-view-affiliation-2 "Key Laboratory of Dairy Products Processing, Ministry of Agriculture and Rural Affairs, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[3](https://pubmed.ncbi.nlm.nih.gov/41845201/#short-view-affiliation-3 "Key Laboratory of Dairy Biotechnology and Engineering, Ministry of Education, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China."),[Weiwei Hu](https://pubmed.ncbi.nlm.nih.gov/?term=Hu+W&cauthor_id=41845201)[1](https://pubmed.ncbi.nlm.nih.gov/41845201/#short-view-affiliation-1 "Inner Mongolia Key Laboratory of Dairy Biotechnology and Engineering, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41845201/#short-view-affiliation-2 "Key Laboratory of Dairy Products Processing, Ministry of Agriculture and Rural Affairs, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[3](https://pubmed.ncbi.nlm.nih.gov/41845201/#short-view-affiliation-3 "Key Laboratory of Dairy Biotechnology and Engineering, Ministry of Education, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China."),[Qinggele Borjihan](https://pubmed.ncbi.nlm.nih.gov/?term=Borjihan+Q&cauthor_id=41845201)[1](https://pubmed.ncbi.nlm.nih.gov/41845201/#short-view-affiliation-1 "Inner Mongolia Key Laboratory of Dairy Biotechnology and Engineering, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41845201/#short-view-affiliation-2 "Key Laboratory of Dairy Products Processing, Ministry of Agriculture and Rural Affairs, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[3](https://pubmed.ncbi.nlm.nih.gov/41845201/#short-view-affiliation-3 "Key Laboratory of Dairy Biotechnology and Engineering, Ministry of Education, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China."),[Qiuhua Bao](https://pubmed.ncbi.nlm.nih.gov/?term=Bao+Q&cauthor_id=41845201)[1](https://pubmed.ncbi.nlm.nih.gov/41845201/#short-view-affiliation-1 "Inner Mongolia Key Laboratory of Dairy Biotechnology and Engineering, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41845201/#short-view-affiliation-2 "Key Laboratory of Dairy Products Processing, Ministry of Agriculture and Rural Affairs, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.")[3](https://pubmed.ncbi.nlm.nih.gov/41845201/#short-view-affiliation-3 "Key Laboratory of Dairy Biotechnology and Engineering, Ministry of Education, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China."),[Yongfu Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+Y&cauthor_id=41845201)[4](https://pubmed.ncbi.nlm.nih.gov/41845201/#short-view-affiliation-4 "Inner Mongolia Key Laboratory of Dairy Biotechnology and Engineering, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China. nmgyfchen@126.com.")[5](https://pubmed.ncbi.nlm.nih.gov/41845201/#short-view-affiliation-5 "Key Laboratory of Dairy Products Processing, Ministry of Agriculture and Rural Affairs, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China. nmgyfchen@126.com.")[6](https://pubmed.ncbi.nlm.nih.gov/41845201/#short-view-affiliation-6 "Key Laboratory of Dairy Biotechnology and Engineering, Ministry of Education, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China. nmgyfchen@126.com.")
+
+### Affiliations
+
+*   1 Inner Mongolia Key Laboratory of Dairy Biotechnology and Engineering, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.
+*   2 Key Laboratory of Dairy Products Processing, Ministry of Agriculture and Rural Affairs, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.
+*   3 Key Laboratory of Dairy Biotechnology and Engineering, Ministry of Education, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China.
+*   4 Inner Mongolia Key Laboratory of Dairy Biotechnology and Engineering, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China. nmgyfchen@126.com.
+*   5 Key Laboratory of Dairy Products Processing, Ministry of Agriculture and Rural Affairs, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China. nmgyfchen@126.com.
+*   6 Key Laboratory of Dairy Biotechnology and Engineering, Ministry of Education, Inner Mongolia Agricultural University, Hohhot, Inner Mongolia, China. nmgyfchen@126.com.
+
+# Contributed equally.
+
+*    PMID: **41845201**
+*    DOI: [10.1186/s12866-026-04873-4](https://doi.org/10.1186/s12866-026-04873-4)
+
+ Item in Clipboard 
+
+ Full text links Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Abstract
+
+The vaginal microbiota plays a pivotal role in maintaining female reproductive health and homeostasis. However, most currently available Lactobacillus isolates have been developed for the prevention and treatment of intestinal diseases, whereas strain-specific investigations targeting female reproductive health remain limited. Conventional cultivation and screening strategies are often associated with high costs and substantial labor requirements. Machine learning enables rapid analysis of large-scale omics data, facilitating efficient identification of candidate probiotics. A total of 639 Lactobacillus crispatus isolates were recovered from vaginal secretions of healthy women using three selective media. Based on phylogenetic tree analysis, 67 representative strains were selected for in vitro assays including growth capacity, acidification capacity (pH reduction), lactic acid production, hydrogen peroxide production, and antimicrobial activity. A weighted scoring system was subsequently established based on these results, leading to the identification of three Lactobacillus crispatus strains with optimal overall performance. Finally, by integrating k-mer-based genomic features of the strains, a multi-stage feature selection strategy was employed in combination with multiple machine learning algorithms to develop a predictive pipeline, VLCPredictor. This pipeline is capable of scoring the functional potential of vaginal-derived Lactobacillus crispatus strains. Our study provides an efficient framework for the development and application of Lactobacillus crispatus in female reproductive tract health. It may support significant implications for maintaining microbial equilibrium in the female reproductive system, as well as for the prevention and treatment of gynecological infectious diseases.
+
+**Keywords:** Lactobacillus crispatus; Functional prediction; Machine learning; Probiotic strain screening; Vaginal microbiota.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Ethics approval and consent to participate: Our study was approved by the Ethics Committee of the Inner Mongolia Nutrition Society and conducted in accordance with the principles of the Declaration of Helsinki (Approval No. A202310006). Informed consent was obtained from all participants. Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Characterization of the first vaginal _Lactobacillus crispatus_ genomes isolated in Brazil.](https://pubmed.ncbi.nlm.nih.gov/33854845/)Oliveira de Almeida M, Carvalho R, Figueira Aburjaile F, Malcher Miranda F, Canário Cerqueira J, Brenig B, Ghosh P, Ramos R, Kato RB, de Castro Soares S, Silva A, Azevedo V, Canário Viana MV.Oliveira de Almeida M, et al.PeerJ. 2021 Mar 10;9:e11079. doi: 10.7717/peerj.11079. eCollection 2021.PeerJ. 2021.PMID: 33854845 Free PMC article.  
+*   [Characterisation of probiotic properties in human vaginal lactobacilli strains.](https://pubmed.ncbi.nlm.nih.gov/27527701/)Hütt P, Lapp E, Štšepetova J, Smidt I, Taelma H, Borovkova N, Oopkaup H, Ahelik A, Rööp T, Hoidmets D, Samuel K, Salumets A, Mändar R.Hütt P, et al.Microb Ecol Health Dis. 2016 Aug 12;27:30484. doi: 10.3402/mehd.v27.30484. eCollection 2016.Microb Ecol Health Dis. 2016.PMID: 27527701 Free PMC article.  
+*   [In Vitro Assessment of Lactobacillus crispatus UBLCp01, Lactobacillus gasseri UBLG36, and Lactobacillus johnsonii UBLJ01 as a Potential Vaginal Probiotic Candidate.](https://pubmed.ncbi.nlm.nih.gov/34417721/)Ahire JJ, Sahoo S, Kashikar MS, Heerekar A, Lakshmi SG, Madempudi RS.Ahire JJ, et al.Probiotics Antimicrob Proteins. 2023 Apr;15(2):275-286. doi: 10.1007/s12602-021-09838-9. Epub 2021 Aug 20.Probiotics Antimicrob Proteins. 2023.PMID: 34417721  
+*   [Lactobacillus crispatus as biomarker of the healthy vaginal tract.](https://pubmed.ncbi.nlm.nih.gov/27492695/)Lepargneur JP.Lepargneur JP.Ann Biol Clin (Paris). 2016 Aug 1;74(4):421-7. doi: 10.1684/abc.2016.1169.Ann Biol Clin (Paris). 2016.PMID: 27492695 Review.English.  
+*   [Lactobacillus crispatus dominant vaginal microbita in pregnancy.](https://pubmed.ncbi.nlm.nih.gov/32414287/)Veščičík P, Kacerovská Musilová I, Stráník J, Štěpán M, Kacerovský M.Veščičík P, et al.Ceska Gynekol. 2020 Winter;85(1):67-70.Ceska Gynekol. 2020.PMID: 32414287 Review.English.  
+
+[See all similar articles](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed&from_uid=41845201)
+
+## References
+
+1.       1.    Kennedy MS, Chang EB. The microbiome: composition and locations. Prog Mol Biol Transl Sci. 2020;176:1–42. 
+
+2.       1.    Ayariga JA, Ibrahim I, Gildea L, Abugri J, Villafane R. Microbiota in a long survival discourse with the human host. Arch Microbiol. 2023;205(1):5. 
+
+3.       1.    Hertzberger R, Morselli S, Botschuijver S, Himschoot L, Steenbergen L, Bruisten S, et al. Degradation of Resistant α-1, 4-glucan by Vaginal Gardnerella Species is Associated with Bacterial Vaginosis. Curr Microbiol. 2025;82(10):1–9. 
+
+4.       1.    Rosca AS, Castro J, Sousa LG, Cerca N. Gardnerella and vaginal health: the truth is out there. FEMS Microbiol Rev. 2020;44(1):73–105. 
+
+5.       1.    Zhu B, Tao Z, Edupuganti L, Serrano MG, Buck GA. Roles of the microbiota of the female reproductive tract in gynecological and reproductive health. Microbiol Mol Biol Rev. 2022;86(4):e00181-21. 
+
+ Show all 60 references 
+
+## Related information
+
+*   [GEO Profiles](https://www.ncbi.nlm.nih.gov/geoprofiles?linkname=pubmed_geoprofiles&from_uid=41845201 "GEO records associated with pubmed record")
+
+## Grants and funding
+
+*   [GZB20250684/China Postdoctoral Science Foundation](https://pubmed.ncbi.nlm.nih.gov/?term=GZB20250684%2FChina+Postdoctoral+Science+Foundation%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant GZB20250684/China Postdoctoral Science Foundation")
+*   [2025KYPT0107/Research Program of Science and Technology at Universities of Inner Mongolia Autonomous Region](https://pubmed.ncbi.nlm.nih.gov/?term=2025KYPT0107%2FResearch+Program+of+Science+and+Technology+at+Universities+of+Inner+Mongolia+Autonomous+Region%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2025KYPT0107/Research Program of Science and Technology at Universities of Inner Mongolia Autonomous Region")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [BioMed Central](https://bmcmicrobiol.biomedcentral.com/articles/10.1186/s12866-026-04873-4)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/non-CPTAC-3409)
+
+**Full text links**[x]
+
+[![Image 7: BioMed Central full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--s3-service-broker-live-ddda94b7-dbb0-4917-917d-776dae91ebba.s3.amazonaws.com-bmc-linkout-fulltext.png) BioMed Central](https://bmcmicrobiol.biomedcentral.com/articles/10.1186/s12866-026-04873-4 "See full text options at BioMed Central")
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41845201/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41845201%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/41845201/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41845201%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41845201%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/41845201/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/?pagename=pubmed%3Apubmed%3Aabstract%3ANONE)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)

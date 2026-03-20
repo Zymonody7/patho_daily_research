@@ -1,0 +1,120 @@
+Title: A structural blueprint for antibacterial discovery: microwave- and ultrasound-assisted synthesis of pyrrolidine-fused quinoxalines as novel inhibitors of DNA gyrase and biofilm - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41853207/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 17;16(16):14638-14659.
+
+doi: 10.1039/d6ra00675b.  eCollection 2026 Mar 13.
+
+Affiliations
+
+*    PMID: **41853207**
+*    PMCID: [PMC12994725](https://pmc.ncbi.nlm.nih.gov/articles/PMC12994725/)
+*    DOI: [10.1039/d6ra00675b](https://doi.org/10.1039/d6ra00675b)
+
+## A structural blueprint for antibacterial discovery: microwave- and ultrasound-assisted synthesis of pyrrolidine-fused quinoxalines as novel inhibitors of DNA gyrase and biofilm
+
+Eman A Fayed et al. RSC Adv.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+In order to lessen the severity of infectious diseases, anti-infective agents-drugs that prevent, combat, or control infections brought on by microorganisms-are essential in contemporary medicine. To tackle antimicrobial resistance, this project intends to design and synthesize hybrid compounds that contain pyrrolidine, quinoxaline and a hydrazinyl bridge, and assess the antimicrobial and antifungal properties of these compounds against a variety of pathogenic strains. The bactericidal properties of hybrids 24, 27, and 29 against _E. coli_ were verified. The MIC of 12.5 µM was shown by hybrids 24, 25, and 31, which suggests bactericidal hybrids are effective against _P. aeruginosa_ at greater concentrations. In comparison to Levofloxacin, treatment with all hybrids produced an 89-92% reduction in biofilm formation at 90% MIC. Eight hybrids' killing kinetics against _P. aeruginosa_ were time-dependent, with an abrupt decrease in CFU number observed at higher concentrations. While 4-fold and 8-fold MICs resulted in nearly total bacterial eradication, primary bacterial elimination happened after three hours. The most effective DNA gyrase inhibitors were hybrids 25, 28, and 31; their IC 50 values were significantly less than that of ciprofloxacin (77.3, 87.6, and 65.5 µM, respectively). To determine the best drug-like qualities, the study examined the physicochemical and pharmacokinetic features of active compounds. Molecular docking simulation experiments were also conducted to comprehend the binding interactions and mechanisms of action of these hits.
+
+This journal is © The Royal Society of Chemistry.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+The author(s) report no conflicts of interest in this work.
+
+## Figures
+
+[![Image 1: Fig. 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/843b24fa712b/d6ra00675b-f1.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/085d098fc916/d6ra00675b-f1.jpg)
+
+**Fig. 1. Schematic representation of hybridized substances featuring quinoxaline, pyrrole/pyrrolidine, azo-bridge, and various substitutes.**
+
+[![Image 2: Scheme 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/59230fa0f1fb/d6ra00675b-s1.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/dd1a09959c6d/d6ra00675b-s1.jpg)
+
+**Scheme 1. Creation of hydrazinylquinoxaline (4) and (6).**
+
+[![Image 3: Scheme 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/b95146491e58/d6ra00675b-s2.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/f2ae0423321a/d6ra00675b-s2.jpg)
+
+**Scheme 2. Manufacturing of oxo-pyrrolidine fragments 16–23.**
+
+[![Image 4: Scheme 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/744312933fc6/d6ra00675b-s3.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/0f02ab1ce573/d6ra00675b-s3.jpg)
+
+**Scheme 3. Preparation of quinoxaline–pyrrolidine conjugates 24–31.**
+
+[![Image 5: Fig. 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/e034f92818ab/d6ra00675b-f2.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/b3739dd95bf5/d6ra00675b-f2.jpg)
+
+**Fig. 2. Biofilm formation inhibition by evaluated hybrids _versus_ Levofloxacin at 50%, 75% and 90% MIC.**
+
+[![Image 6: Fig. 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/ecffc8065dcc/d6ra00675b-f3.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/a7dc1cc35adb/d6ra00675b-f3.jpg)
+
+**Fig. 3. Time-kill effect of 24–31 against _P. aeruginosa versus_ growth control (GC).**
+
+[![Image 7: Fig. 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/1bcaa6901faf/d6ra00675b-f4.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/2b17ff276cb5/d6ra00675b-f4.jpg)
+
+**Fig. 4. The IC 50 values of artificial hybrids on _P. aeruginosa_ DNA gyrase.**
+
+[![Image 8: Fig. 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/78a1fe186646/d6ra00675b-f5.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/fd8641dd8b7a/d6ra00675b-f5.jpg)
+
+**Fig. 5. SAR of pyrrolidine–quinoxaline hybrids.**
+
+[![Image 9: Fig. 6](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/09eddf1c8b68/d6ra00675b-f6.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/a3cc343ff3ab/d6ra00675b-f6.jpg)
+
+**Fig. 6. The bioavailability radar of the assessed hybrids and the drugs that are referenced are correlated. The area that is colored provides ideal chemical and physical conditions for absorption through the mouth. Insolubility (INSOLU), unsaturation (INSATU), polarity (POLAR), molecular weight (SIZE), lipophilicity (LIPO), and flexibility (FLEX).**
+
+[![Image 10: Fig. 7](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/226651b39069/d6ra00675b-f7.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/38c959d162a3/d6ra00675b-f7.jpg)
+
+**Fig. 7. (A) Overlay of bound ligand (cyan) and redocked ligand (yellow) and bound ligand interactions, (B) binding mode and ligand interactions of Ciprofloxacin.**
+
+[![Image 11: Fig. 8](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/8a869095d09e/d6ra00675b-f8.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/e37d5872e442/d6ra00675b-f8.jpg)
+
+**Fig. 8. Binding mode and ligand interactions of (A) 24 (B) 25 (C) 26 (D) 27.**
+
+[![Image 12: Fig. 9](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/c2f82c125e3f/d6ra00675b-f9.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/575f/12994725/2dad0bb9fef2/d6ra00675b-f9.jpg)
+
+**Fig. 9. The ligand interactions and binding mechanism of (A) 28 (B) 29 (C) 30 (D) 31.**
+
+## Similar articles
+
+*   [Synthesis and molecular docking of new N4-piperazinyl ciprofloxacin hybrids as antimicrobial DNA gyrase inhibitors.](https://pubmed.ncbi.nlm.nih.gov/36152132/)
+
+Mohammed HHH, Ali DME, Badr M, Habib AGK, Mahmoud AM, Farhan SM, Gany SSHAE, Mohamad SA, Hayallah AM, Abbas SH, Abuo-Rahma GEA.Mohammed HHH, et al.Mol Divers. 2023 Aug;27(4):1751-1765. doi: 10.1007/s11030-022-10528-z. Epub 2022 Sep 24.Mol Divers. 2023.PMID: 36152132 Free PMC article. 
+*   [Structure based design and synthesis of 3-(7-nitro-3-oxo-3,4-dihydroquinoxalin-2-yl)propanehydrazide derivatives as novel bacterial DNA-gyrase inhibitors: In-vitro, In-vivo, In-silico and SAR studies.](https://pubmed.ncbi.nlm.nih.gov/36215786/)
+
+Saleh MA, Elmaaty AA, El Saeed HS, Saleh MM, Salah M, Ezz Eldin RR.Saleh MA, et al.Bioorg Chem. 2022 Dec;129:106186. doi: 10.1016/j.bioorg.2022.106186. Epub 2022 Oct 5.Bioorg Chem. 2022.PMID: 36215786 
+*   [Design and synthesis of ciprofloxacin-sulfonamide hybrids to manipulate ciprofloxacin pharmacological qualities: Potency and side effects.](https://pubmed.ncbi.nlm.nih.gov/34871841/)
+
+Ibrahim NM, Fahim SH, Hassan M, Farag AE, Georgey HH.Ibrahim NM, et al.Eur J Med Chem. 2022 Jan 15;228:114021. doi: 10.1016/j.ejmech.2021.114021. Epub 2021 Nov 30.Eur J Med Chem. 2022.PMID: 34871841 
+*   [Sulopenem: An Intravenous and Oral Penem for the Treatment of Urinary Tract Infections Due to Multidrug-Resistant Bacteria.](https://pubmed.ncbi.nlm.nih.gov/35294769/)
+
+Zhanel GG, Pozdirca M, Golden AR, Lawrence CK, Zelenitsky S, Berry L, Schweizer F, Bay D, Adam H, Zhanel MA, Lagacé-Wiens P, Walkty A, Irfan N, Naber K, Lynch JP 3rd, Karlowsky JA.Zhanel GG, et al.Drugs. 2022 Apr;82(5):533-557. doi: 10.1007/s40265-022-01688-1. Epub 2022 Mar 16.Drugs. 2022.PMID: 35294769 Review. 
+*   [Fluoroquinolones Hybrid Molecules as Promising Antibacterial Agents in the Fight against Antibacterial Resistance.](https://pubmed.ncbi.nlm.nih.gov/36015376/)
+
+Lungu IA, Moldovan OL, Biriș V, Rusu A.Lungu IA, et al.Pharmaceutics. 2022 Aug 22;14(8):1749. doi: 10.3390/pharmaceutics14081749.Pharmaceutics. 2022.PMID: 36015376 Free PMC article.Review. 
+
+## References
+
+1.       1.    Rawson T. M. Wilson R. C. Holmes A. Understanding the role of bacterial and fungal infection in COVID-19. Clin. Microbiol. Infection. 2021;27:9–11. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7546203/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/32979569/)
+
+2.       1.    Köhler J. R. Hube B. Puccia R. Casadevall A. Perfect J. R. Fungi that Infect Humans. Microbiol. Spectr. 2017;5(3) doi: 10.1128/microbiolspec.FUNK-0014-2016. - [DOI](https://doi.org/10.1128/microbiolspec.funk-0014-2016) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC11687496/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/28597822/)
+
+3.       1.    Verhoef J., van Kessel K. and Snippe H., Immune Response in Human Pathology: Infections Caused by Bacteria, Viruses, Fungi, and Parasites, in Nijkamp and Parnham's Principles of Immunopharmacology, ed. M. J. Parnham, F. P. Nijkamp and A. G. Rossi, Springer International Publishing, Cham, 2019, pp. 165–178 
+
+4.       1.    Peters B. M. Jabra-Rizk M. A. O'May G. A. Costerton J. W. Shirtliff M. E. Polymicrobial Interactions: Impact on Pathogenesis and Human Disease. Clin. Microbiol. Rev. 2012;25:193–213. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3255964/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/22232376/)
+
+5.       1.    Muteeb G. Rehman M. T. Shahwan M. Aatif M. Origin of Antibiotics and Antibiotic Resistance, and Their Impacts on Drug Development: A Narrative Review. Pharmaceuticals. 2023;16:1615. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC10675245/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/38004480/)

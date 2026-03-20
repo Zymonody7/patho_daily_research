@@ -1,0 +1,121 @@
+Title: Translating Gut Microbiota into Diagnostics: A Multidimensional Approach for the Diagnosis of Inflammatory Bowel Disease - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41220286/
+
+Markdown Content:
+Review
+
+Actions
+
+. 2026 Mar 15;20(2):199-212.
+
+doi: 10.5009/gnl250360.  Epub 2025 Nov 12.
+
+Affiliations
+
+*    PMID: **41220286**
+*    PMCID: [PMC12989658](https://pmc.ncbi.nlm.nih.gov/articles/PMC12989658/)
+*    DOI: [10.5009/gnl250360](https://doi.org/10.5009/gnl250360)
+
+Review
+
+## Translating Gut Microbiota into Diagnostics: A Multidimensional Approach for the Diagnosis of Inflammatory Bowel Disease
+
+June-Young Lee et al. Gut Liver.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+The gut microbiota has emerged as a key factor in the pathophysiology of inflammatory bowel disease (IBD), providing novel opportunities for diagnostic innovation. Traditional biomarkers, such as C-reactive protein and fecal calprotectin, are widely used in clinical practice; however, their ability to reflect disease complexity and microbial dysregulation remains limited. Recent advances in metagenomics and multi-omics integration have enabled high-resolution profiling of microbial communities and their functional capacities and associated metabolites. Differential abundance analysis and machine learning models have been used to identify microbial biomarkers that can distinguish patients with IBD from healthy individuals. Multicohort studies integrating microbiome and metabolomic data have further improved diagnostic accuracy and generalizability. Transcriptomic and proteomic analyses provide complementary insights into host-microbe interactions and disease mechanisms. In this review, we explored the potential of metagenomic biodata as diagnostic markers for IBD, with an emphasis on a multidimensional analytical approach. We highlight the recent developments in sequencing technologies, computational pipelines for microbial feature selection, and machine learning strategies applied to biomarker discovery. The integration of multi-omics data deepens our understanding of host-microbe interactions and facilitates the development of microbiota-informed diagnostic tools. As multidimensional microbial profiling evolves, its clinical utility for the diagnosis and stratification of IBD requires further investigation.
+
+**Keywords:** Biomarkers; Gastrointestinal microbiome; Inflammatory bowel diseases; Metagenomics; Multiomics.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+CONFLICTS OF INTEREST
+
+No potential conflict of interest relevant to this article was reported.
+
+## Figures
+
+[![Image 1: Fig. 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5dc3/12989658/22db80bd4a9b/gnl-20-2-199-f1.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5dc3/12989658/ceb371c11c95/gnl-20-2-199-f1.jpg)
+
+**Fig. 1**
+Workflow for biomarker identification using a multi-omics dataset through differential abundance (DA) and machine learning (ML) approaches. Multi-omics datasets, including genomic, transcriptomic, metabolomic, and proteomic profiles, were first acquired and preprocessed to generate quantified feature tables. DA analysis methods (e.g., LEfSe, MaAsLin2/3, ANCOM-BC2) were then applied to identify candidate features. In parallel, ML approaches (e.g., random forest, support vector machines, neural networks) were used for feature selection. LEfSe, Linear Discriminant Analysis Effect Size; MaAsLin, Microbiome Multivariable Association with Linear Models; ANCOM-BC, Analysis of Composition of Microbiomes with Bias Correction. The figure was created in BioRender.
+
+[![Image 2: Fig. 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5dc3/12989658/8dba35fc0217/gnl-20-2-199-f2.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5dc3/12989658/985339e19117/gnl-20-2-199-f2.jpg)
+
+**Fig. 2**
+Overview of a multidimensional biomarker discovery framework for inflammatory bowel disease (IBD) diagnosis and prognosis. Samples from patients with IBD, including oral, serum, tissue, and fecal specimens, were subjected to multi-omics analyses such as 16S/metagenomic profiling, metatranscriptomics, metaproteomics, and metabolomics. These data were integrated using a multistep analytical strategy involving differential abundance testing, network analysis, machine learning-based feature selection, and literature-based curation. The selected core biomarkers were evaluated using supervised modeling (such as receiver operating characteristic and accuracy) for diagnostic and prognostic utility in IBD. The figure was created in BioRender.
+
+## Similar articles
+
+*   [Microbiome based precision medicine through integrated multiomics and machine learning.](https://pubmed.ncbi.nlm.nih.gov/41192043/)
+
+Kumar A, Xu C, Dakal TC.Kumar A, et al.Microbiol Res. 2026 Feb;303:128384. doi: 10.1016/j.micres.2025.128384. Epub 2025 Nov 3.Microbiol Res. 2026.PMID: 41192043 Review. 
+*   [Metagenomic Sequencing Reveals Distinct Gut Microbiome Profiles in Therapy-Naïve de Novo Pediatric Inflammatory Bowel Disease.](https://pubmed.ncbi.nlm.nih.gov/40971415/)
+
+Vermeer E, Prins FM, Hidding IJ, Jagt JZ, de Jonge R, Benninga MA, Gacesa R, Weersma RK, de Boer NKH, de Meij TGJ.Vermeer E, et al.Inflamm Bowel Dis. 2026 Feb 1;32(2):207-219. doi: 10.1093/ibd/izaf184.Inflamm Bowel Dis. 2026.PMID: 40971415 Free PMC article. 
+*   [Combined metabolomic and metagenomic analysis reveals inflammatory bowel disease diversity in pediatric and adult patients.](https://pubmed.ncbi.nlm.nih.gov/41480317/)
+
+Zakharzhevskaya NB, Erdes SI, Belousova EA, Samolygo IS, Manina MA, Kondrashova PV, Lomakina EY, Kardonsky DA, Vorobyeva EA, Shagaleeva OY, Silantyev AA, Kazakova VD, Kashatnikova DA, Kalachnuk TN, Kolesnikova IV, Chaplin AV, Markelova MI, Grigoryeva TV, Olekhnovich EI, Veselovsky VA, Morozov MD, Zoruk PY, Boldyreva DI, Vanyushkina AA, Efimov BA.Zakharzhevskaya NB, et al.World J Gastroenterol. 2025 Dec 28;31(48):112653. doi: 10.3748/wjg.v31.i48.112653.World J Gastroenterol. 2025.PMID: 41480317 Free PMC article. 
+*   [Multiomics-Based Profiling of the Fecal Microbiome Reveals Potential Disease-Specific Signatures in Pediatric IBD (PIBD).](https://pubmed.ncbi.nlm.nih.gov/40427639/)
+
+DeSantis AH, Buss K, Coker KM, Pasternak BA, Chi J, Patterson JS, Gu H, Jurutka PW, Sandrin TR.DeSantis AH, et al.Biomolecules. 2025 May 21;15(5):746. doi: 10.3390/biom15050746.Biomolecules. 2025.PMID: 40427639 Free PMC article. 
+*   [Machine Learning and Artificial Intelligence in the Multi-Omics Approach to Gut Microbiota.](https://pubmed.ncbi.nlm.nih.gov/40118220/)
+
+Rozera T, Pasolli E, Segata N, Ianiro G.Rozera T, et al.Gastroenterology. 2025 Aug;169(3):487-501. doi: 10.1053/j.gastro.2025.02.035. Epub 2025 Mar 19.Gastroenterology. 2025.PMID: 40118220 Review. 
+
+## References
+
+1.       1.    Frank DN, St Amand AL, Feldman RA, Boedeker EC, Harpaz N, Pace NR. Molecular-phylogenetic characterization of microbial community imbalances in human inflammatory bowel diseases. Proc Natl Acad Sci U S A. 2007;104:13780–13785. doi: 10.1073/pnas.0706625104. - [DOI](https://doi.org/10.1073/pnas.0706625104) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC1959459/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/17699621/)
+
+2.       1.    Gevers D, Kugathasan S, Denson LA, et al. The treatment-naive microbiome in new-onset Crohn's disease. Cell Host Microbe. 2014;15:382–392. doi: 10.1016/j.chom.2014.02.005. - [DOI](https://doi.org/10.1016/j.chom.2014.02.005) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC4059512/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/24629344/)
+
+3.       1.    Nishida A, Inoue R, Inatomi O, Bamba S, Naito Y, Andoh A. Gut microbiota in the pathogenesis of inflammatory bowel disease. Clin J Gastroenterol. 2018;11:1–10. doi: 10.1007/s12328-017-0813-5. - [DOI](https://doi.org/10.1007/s12328-017-0813-5) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/29285689/)
+
+4.       1.    Paramsothy S, Nielsen S, Kamm MA, et al. Specific bacteria and metabolites associated with response to fecal microbiota transplantation in patients with ulcerative colitis. Gastroenterology. 2019;156:1440–1454.e2. doi: 10.1053/j.gastro.2018.12.001. - [DOI](https://doi.org/10.1053/j.gastro.2018.12.001) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/30529583/)
+
+5.       1.    Zuo T, Kamm MA, Colombel JF, Ng SC. Urbanization and the gut microbiota in health and inflammatory bowel disease. Nat Rev Gastroenterol Hepatol. 2018;15:440–452. doi: 10.1038/s41575-018-0003-z. - [DOI](https://doi.org/10.1038/s41575-018-0003-z) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/29670252/)
+
+## Publication types
+
+*   Actions 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Inforang](http://www.gutnliver.org/journal/view.html?doi=10.5009/gnl250360)
+    *   [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/pmid/41220286/)
+
+*   ### Research Materials
+
+    *   [NCI CPTC Antibody Characterization Program](https://antibodies.cancer.gov/detail/CPTC-CRP-1)
