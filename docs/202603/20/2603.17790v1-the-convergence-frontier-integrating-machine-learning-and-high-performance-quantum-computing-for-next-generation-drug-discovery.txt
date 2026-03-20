@@ -1,0 +1,991 @@
+Title: The Convergence Frontier: Integrating Machine Learning and High Performance Quantum Computing for Next-Generation Drug Discovery
+
+URL Source: https://arxiv.org/pdf/2603.17790v1
+
+Published Time: Thu, 19 Mar 2026 01:29:38 GMT
+
+Number of Pages: 50
+
+Markdown Content:
+# The Convergence Frontier: Integrating Machine Learning and High Performance Quantum Computing for Next-Generation Drug Discovery 
+
+# Narjes Ansari 1, César Feniou 1, Nicolaï Gouraud 1, Daniele Loco 1, Siwar Badreddine 1, Baptiste Claudon 1, Félix Aviat 1, Marharyta Blazhynska 1, Kevin Gasperich 2, Guillaume Michel 1, Diata Traore 1, Corentin Villot 1, Thomas Plé 3, Olivier Adjoua 3, Louis Lagardère 1,3 , and Jean-Philip Piquemal 1,3,* 1Qubit Pharmaceuticals, Advanced Research Department, 75014 Paris, France 
+
+> 2
+
+# Qubit Pharmaceuticals Inc, Advanced Research Department, Chicago, IL, USA 
+
+> 3
+
+# Sorbonne Université, Laboratoire de Chimie Théorique, UMR 7616 CNRS, 75005 Paris, France 
+
+> *
+
+# Contact author: jean-philip.piquemal@sorbonne-universite.fr March 19, 2026 
+
+Abstract 
+
+Integrating quantum mechanics into drug discovery marks a decisive shift from empirical trial-and-error toward quantitative precision. However, the prohibitive cost of ab initio molecular dynamics has historically forced a compromise between chemical accuracy and computational scalability. This paper identifies the convergence of High-Performance Computing (HPC), Machine Learning (ML), and Quantum Computing (QC) as the definitive solution to this bottleneck. While ML foundation models, such as FeNNix-Bio1, enable quantum-accurate simulations, they remain tethered to the inherent limits of classical data generation. We detail how High-Performance Quantum Computing (HPQC), utilizing hybrid QPU-GPU architectures, will serve as the ultimate accelerator for quantum chemistry data. By leveraging Hilbert space mapping, these systems can achieve true chemical accuracy while bypassing the heuristics of classical approximations. We show how this tripartite convergence optimizes the drug discovery pipeline, spanning from initial system preparation to ML-driven, high-fidelity simulations. Finally, we position quantum-enhanced sampling as the “beyond GPU” frontier for modeling reactive cellular systems and pioneering next-generation materials. 
+
+# 1 Introduction 
+
+In modern pharmacology, quantum mechanics and drug discovery have become an essential duo. What was once a metaphorical search for a key in a dark room has been illuminated by the predictive precision of quantum physics. However, because these calculations are incredibly resource-heavy, they are rarely used in isolation. To make them practical, researchers now rely on a powerful convergence of acceleration strategies: High-Performance Computing (HPC), Machine Learning (ML), and the emerging capabilities of Quantum Computing (QC). Indeed, while artificial intelligence has significantly advanced the prediction of static protein structures through models like AlphaFold [1], characterizing the dynamic behavior and interactions of these systems in a chemically reac-tive realistic cellular environment remains a major computational challenge. Molecular Dynamics (MD) [2, 3] is the primary method for unraveling these motions, yet researchers face a difficult trade-off: full quantum physics/chemistry simulation, i.e. ab initio MD (AIMD) [4, 5] is too computationally intensive for large-scale biological systems, while classical approximations, i.e. the traditional empirical force fields, often lack accuracy and require tedious manual parameterization. In this evolving landscape, the first major breakthrough involves coupling Machine Learning with GPU-accelerated HPC (GPU=Graphic Processing Unit). This synergy unlocked the use of Neural Network Potentials (NNPs) [6,7], which act as a powerful alternative to traditional force fields [8] methods by (1) achieving the high-precision accuracy of quantum mechanics at a fraction of the cost and (2) providing automated parameterization. Initially, existing NNPs often struggled with long-range interactions and 1
+
+> arXiv:2603.17790v1 [quant-ph] 18 Mar 2026
+
+charged species [9]; besides, despite GPU-acceleration, the condensed-phase biological simulations required for drug discovery predictions were hindered by the low scalability. To address these limitations, some of us recently presented FeNNix-Bio1 [10], a foundation machine learning model engineered for high-speed, reactive atomistic molecular dynamics simulations of biological systems with unprecedented scalability and quantum precision. In practice, the underlying Quantum Chemistry methodologies dictate NNP accuracy by providing the high-quality training data these models require. Because exact solutions to the Schrödinger equation remain computationally intractable, researchers must rely on approximations whose cost creates a bottleneck, limiting the volume of high-fidelity data available for training. This is where further convergence with quantum computing becomes a game changer. Quantum Computing is increasingly viewed as the ultimate computational frontier, the ”beyond GPUs” accelerator, poised to revolutionize specific, high-complexity applications. In our case, it holds significant potential for electronic-structure problems, allowing to drastically enhance the quality of the reference NNPs databases. The primary advantage of QC lies in its ability to map an exponentially large Hilbert space, representing the possible states of electrons, onto a linear number of qubits. Quantum algorithms can theoretically perform ground-state wave-function calculations that are far more accurate than those possible on classical computers, and could reach the so-called chemical accuracy ,a level of precision comparable to experimental predictions. As a final step, by accelerating the core statistical mechanics algorithms designed to sample and measure observables of interest on biomolecular systems, quantum computing is also set to transform molecular simulations, pushing the boundaries of what is possible in MD and Monte Carlo sampling [11, 11, 12]. 
+
+Figure 1: ML/HPC/QC convergence leveraging all type of computing plateforms: from classical Graphics Card Units (GPUs) and Central Processing Units (CPUs) to Quantum Processing Units (QPUs) for simulations in drug design and beyond, from synthetic data (A/B) to system preparation (C) and applications (D/E). In this work, we present an integrated drug-discovery pipeline that leverages the synergy between Machine Learning, HPC, and Quantum Computing (Figure 1). We demonstrate that the benefits of quantum integration are immediate; rather than waiting for fault-tolerant systems, we show that current NISQ-era hardware is already capable of driving meaningful scientific progress. We also present Hyperion [13], a quantum emulator designed 2to bridge the gap between the NISQ era and FTQC. By leveraging exact and quasi-exact emulation of noiseless logical qubits, Hyperion enables rigorous algorithm development in a controlled environment, enhancing current workflows while preparing for future fault-tolerant hardware. This here paper is organized to follow a streamlined, end-to-end drug design workflow utilizing both classical and quantum computing platforms. We begin by discussing the preparation of molecular systems, including the water placement problem in quantum computing. We then analyze quantum algorithms for quantum chemistry as providers of high-accuracy training data for quantum-based Neural Network Potentials. A focus on the Hy-perion quantum emulator is provided alongside the discussion on quantum hardware. We then focus on the development of these specific Machine Learning models for Molecular Dynamics simulations, introducing the FeNNix-Bio1 foundation model and its underlying Ignis database, and showing the transition from classical to exact quantum algorithms for training data generation. Finally, we provide an overview of modern enhanced sampling techniques and their projected quantum speedups. Throughout each section, we contrast classical and quantum implementations while providing detailed performance and resource estimations. 
+
+# 2 Quantum Algorithm for the Preparation of Systems in Drug Dis-covery Simulations 
+
+# 2.1 A Short Overview of Quantum Computing Architectures 
+
+The fundamental divide in quantum hardware lies between the NISQ (Noisy Intermediate-Scale Quantum) era [14] and the future of FTQC (Fault-Tolerant Quantum Computing [15,16] a transition defined by how systems manage operational errors. Current NISQ devices rely on “physical” qubits that are highly susceptible to environmental noise and decoherence. In contrast, FTQC uses many physical qubits to encode a single “logical” qubit. This redundancy enables the system to detect and correct errors in real time using Quantum Error Correction (QEC) codes [17], and unlocks the potential for reliable, error-free computations in deep quantum circuits. Multiple hardware technologies are being pursued toward the common goal of fault tolerance, each with its own trade-offs. 
+
+Superconducting qubits [18] (e.g. Transmons [19]) offer fast gate speeds and well-developed fabrication tech-niques, but require cooling down to ∼10,mK and have limited coherence times. Cat qubits store information in specially designed quantum states that naturally suppress bit-flip error [20]s, a promising route toward hardware-efficient fault tolerance. Trapped ions [21,22] achieve very high gate fidelities and long coherence times, although gate operations are slower and scaling to large systems remains challenging. Neutral atoms [16, 23] allow large numbers of qubits using arrays of laser traps that can be rearranged dynamically. Photonic systems [24, 25] operate at room temperature and connect naturally to quantum communication networks, though reliable two-qubit gates and photon losses remain important challenges. Finally, spin qubits in silicon offer long coherence times [26, 27] and can be fabricated using techniques similar to those of conventional semiconductor technology, making them a promising candidate for large-scale integration. Although FTQC is often seen as the field’s ulti-mate goal, it is not a strict prerequisite for progress. Many quantum algorithms can already run on today’s NISQ hardware and provide useful capabilities in the near term. In the following, we discuss how these systems may progressively integrate into drug discovery workflows as both hardware and algorithms continue to improve. 
+
+# 2.2 Preparation of Systems for Drug Discovery Simulations in the NISQ Era 
+
+Preparing a biological system for molecular dynamics (MD) [28] or docking [29] is a meticulous process that transforms a static structural snapshot – whether experimentally derived via X-ray Crystallography, NMR, or Cryo-EM from the Protein Data Bank [30], or predicted through machine learning foundation models like Al-phaFold – into a dynamic, chemically realistic model. It begins with structure cleaning, where researchers resolve missing loops, add hydrogen atoms, usually absent in X-ray crystallography, and assign appropriate protonation states to amino acids based on the local pH. The system is then solvated in a box of explicit water molecules and neutralized by adding counter-ions (like N a + or Cl −) to mimic physiological ionic strength. Once the envi-ronment is set, the system undergoes energy minimization to clear any steric clashes or ”bad contacts” inherited from the initial setup. Finally, the system is subjected to equilibration phases, where temperature and pressure are gradually stabilized under the chosen force field parameters, ensuring the system reaches a steady state before the actual production run begins. Among the myriad steps in computer-aided drug design (CADD) [31–33], the 
+
+”water problem” (or hydration-site prediction problem ), i.e. the challenge of accurately and efficiently placing water molecules around proteins, remains a formidable hurdle, as water serves as a dynamic participant 3rather than a mere background solvent. Because water molecules frequently act as structural glue or interfacial mediators between a protein and a ligand, their behavior dictates the thermodynamic success of a drug candidate. Both the initial conditions needed to perform MD simulations and the biomolecule’s structure used in docking are therefore impacted by the presence of water molecules, which is hard to detect in buried cavities. 
+
+2.2.1 Revisiting the Water Placement Problem using Quantum Computing 
+
+Accurately capturing the configurational sampling of water molecules is computationally expensive due to their fluctuating networks of hydrogen bonds and the dual nature of water as bulk fluid and site-stabilized entity [34]. While classical molecular dynamics and Monte Carlo simulations provide the groundwork for exploring this vast conformational space, high-precision free-energy estimations require GPU-accelerated enhanced sampling [35,36]. CADD pipelines demand novel methodologies to reduce this computational overhead without sacrificing accuracy. Although machine learning approaches promise to streamline such task [37, 38], they not always surpass the accuracy of high-performance physics-based simulations [39, 40]. Some of the authors have recently proposed a new method based on quantum optimisation to address the problem with current NISQ hardware [41]. To leverage a neutral atom analog device , the hydration-site prediction problem is formulated as a Gaussian Mixture Model (GMM) optimisation and mapped onto the Rydberg Hamiltonian. A classically pre-computed, continuous 3D Reference Interaction Site Model (RISM) density [42,43] is used as target density to mimic, by minimizing the L2 norm difference between such continuous density and the discrete GMM. The optimisation problem is defined by a quadratic objective function C(x), cast into a standard QUBO (Quadratic Unconstrained Binary Optimisation) equation: 
+
+min 
+
+> x∈{ 0,1}N
+
+C(x) = 
+
+> N
+
+∑
+
+> i=1
+
+Qii xi + 2 
+
+> N
+
+∑
+
+> i<j
+
+Qij xixj . (1) The symmetric QUBO matrix Q maps the Gaussian Mixture Model (GMM) for localized water positions to a discrete optimisation problem. The Qii term represents the energetic cost or benefit of placing a single water molecule based on its protein environment, while Qij encodes pairwise interaction energy between sites to constrain the water network’s configuration. We proposed a quantum adiabatic evolution based and a variational algorithm to find the minimum of this cost function [41] using Pasqal’s Rydberg atoms analog technology [23]. This choice allowed us to take advantage of the inherent Rydberg blockade mechanism, to enforce physical distance constraints between water molecules, preventing un-physical overlapping. In a recent work [44], we have extended the methodology to the digital, gate-based quantum comput-ing paradigm . We integrated all required steps to map the hydration-site prediction problem as a QUBO into a numerical pipeline to take advantage of advanced quantum optimisation tools [45, 46], demonstrating the performances of our method by running hybrid quantum-classical optimisation up to 123 qubits on IBM’s 156-qubit Heron processors (Pittsburgh and Kingston ). We tested our digital implementation on a set of FDA-approved drug targets, to reproduce experimental crystal water positions in the binding sites. The overall pipeline is illustrated on Figure 2. 
+
+2.2.2 Performances of the Quantum Water Placement using NISQ Hardware As first outcome of our study , we validated our method’s accuracy at scales relevant to drug discovery, iden-tifying crystal water molecules using simplified ∼100-variable (qubit) QUBO instances on the currently available Heron QPU, see Fig. 3. While our approach on the Heron yielded satisfactory results—outperforming state-of-the-art classical methods like Placevent, it was itself surpassed by Hydraprot. This discrepancy is primarily attributed to current qubit limitations. To explore full-scale complexity, we conducted classical simulations mim-icking future quantum performance with 900 and 3,974 qubits (Fig. 3). These simulations correctly identified 80–90% of crystallographic water molecules using up to ∼4000 variables, matching or exceeding the precision of current top-tier tools. Consequently, we demonstrate that accuracy scales systematically with qubit count ,suggesting a clear path toward quantum utility .
+
+As second outcome , we achieved a relevant milestone towards quantum utility, by outperforming in one problem instance the exact classical solver CPLEX. As shown in Fig. 4 (left panel), the solution obtained on the Heron R3 (Pittsburgh) QPU reached a more favorable cost for a 123-variable (qubit) instance. This shows the potential of quantum optimization to outperform exact classical solvers as problem complexity increases beyond this threshold. 
+
+As third outcome , we estimated the quantum resources needed to reach the utility threshold for 
+
+4Figure 2: Detailed, step-by-step workflow followed to implement our protein’s hydration pocket hybrid NISQ/classical approach; each step is briefly described in a simple flow diagram, whose components are grouped and attached to one of the five main phases in which we schematically partition the procedure: Input, Problem Formulation, QUBO, Hybrid NISQ/Classical procedure and Output. Pictures and formulas are used to illustrate the most relevant steps. The notation used for the formulas can be found in the original paper presenting the method [41]. 
+
+drug discovery , identified at around 1000 variables. Extrapolating from benchmarks up to 156 qubits (Fig. 4, right panel), we found that roughly 100,000 gates will be required for our 900-variable instance. Based on IBM’s roadmap and projected improvements in fidelity and gate reduction, we predict utility-scale implementation is achievable by 2028. 
+
+2.2.3 Perspectives: QUBO, Quantum optimization and Drug Design Pipeline 
+
+Accurately localizing water molecules within binding pockets is a prerequisite for high-fidelity Molecular Dynamics and can significantly enhance binding mode predictions in molecular docking [49]. By adapting the initial input density to encode small-molecule interactions with target proteins, our method could be extended into a quantum-native docking algorithm. While current literature explores both quantum optimization [50] and quantum-inspired approaches [51], our results reinforce the transformative potential of quantum computing (QC) in drug discovery. As demonstrated by our algorithmic benchmarks, quantum optimization is poised to disrupt existing pipelines [52–54], initially augmenting classical hardware before systematically replacing traditional algorithms as quantum advantage is realized. 
+
+# 3 Quantum Algorithm for Quantum Chemistry: Overcoming the Ex-ponential Wall to generate Quantum-accurate Training Data 
+
+The case for quantum chemistry data In typical computer-assisted Drug Design pipelines, sampling and characterizing dynamic behavior of biological systems of interest is usually performed through Molecular Dy-namics (MD), with traditional MD simulations relying on classical force fields. Such models describe interatomic interactions using simple, fixed functional forms, which are computationally efficient but unable to capture the complexity of electronic effects. A promising alternative is to train neural network potentials on accurate quan-tum chemistry data, allowing the model to learn the underlying potential energy surface (PES) of a molecular system. Once trained, such models can reproduce near-quantum accuracy while retaining the efficiency needed for large-scale simulations. Achieving this requires highly accurate reference calculations : in quantum chemistry, the standard benchmark is chemical accuracy, corresponding to an energy error of about 1 kcal/mol relative to the exact solution of the 5Figure 3: Example of accuracy comparison between: our method performing a quantum optimisation on IBM Heron R3 Pittsburgh (violet) on a simplified protein instance encompassing 123 binary variables (qubits), to meat the current hardware limitations; our method performing the optimisation classically (red), to scale-up (900 and 3974 binary variables, respectively) to reach the required complexity in the Drug Discovery application; two of the existing alternative solutions (green), namely Hydraprot [47] and Placevent [48]); the bar plot represents the percentage of crystal water molecules identified in the binding pocket of the 3be7 drug-protein complex structure (PDB). The results demonstrate how, increasing the QUBO complexity to reach the order of 1000 variables, our approach perform comparably to the neural-network Hydraprot. 
+
+Figure 4: Left: Exact classical (CPLEX) vs QPU optimisation results on a 123 variables/qubit hydration site prediction problem formulated as a QUBO. Top panel shows the incumbent solution (light-blue line) over time compared to the best solution identified using the QPU optimisation on IBM R3 Pittsburgh (dashed red line). Bottom panel shows the optimality gap over time, during the 3h optimisation run. [44]. Right: scaling and resources estimation performed on a protein complex, varying QUBO complexity; the number of 2-qubits gates is plot against the number of QUBO variables/qubits. [44] electronic Schrödinger equation. The latter corresponds to solving the many-electron problem 
+
+ˆH |Ψ( x1, x2, ..., xNelec )⟩ = E |Ψ( x1, x2, ..., xNelec )⟩ (2) where Ψ( x1, x2, ..., xNelec ) (Ψ in the following) is the Nelec -electrons wave function with x = {r, σ }, ˆT is the kinetic energy operator, ˆVne is the electron-nucleus interaction, ˆWee is the electron-electron interaction and E is the energy of the state Ψ. In order to solve the electronic structure problem, one needs to face several challenges: (i) chemical accuracy requires a complete treatment of electron correlation (at the Full Configuration Interaction, 6or Full-CI, level) and (ii) also requires an infinite basis set to represent the electronic wavefunction, known as the Complete Basis Set (CBS) limit, see 6.1.4 and ref. [55] for more details. To understand the challenges of reaching this level, we must examine the computational bottlenecks inherent in modeling the many-body problem. 
+
+# 3.1 Classical Computing State of the Art in Quantum Chemistry 
+
+3.1.1 Quantum Chemistry and the Quest for Accuracy 
+
+In quantum chemistry, most computational methods can be viewed as successive approximations to the Full-CI/CBS limit, trading reduced treatments of electron correlation and finite basis sets for computational sav-ings. This trade-off is commonly illustrated by the so-called Pople diagram, which represents the computational complexity as a function of these two approximation axes (see Fig. 5). As one moves toward more accurate descriptions, the computational complexity increases rapidly, leading to what is commonly referred to as the exponential wall. The simultaneous need for increasingly accurate treatments of electron correlation and larger basis sets thus creates a severe computational bottleneck: while chemical accuracy can be reached for small gas-phase molecules, extending such calculations to large biomolecular systems or condensed-phase materials remains extremely challenging. At the lowest level, Hartree–Fock (HF) theory treats electrons within a mean-field approximation, neglecting their instantaneous correlated motion. Density Functional Theory (DFT) [56] partially accounts for correlation effects through approximate functionals of the electron density. Achieving higher accuracy requires post–Hartree–Fock approaches that explicitly treat electron correlation. Methods such as Coupled Cluster—particularly CCSD(T) [57], often considered the “gold standard”—provide high accuracy but exhibit steep computational scaling (typically O(N 7)) and can fail for strongly correlated, multireference sys-tems. Alternative high-accuracy approaches include the Density Matrix Renormalization Group (DMRG) [58–60], which efficiently captures strong correlations within carefully chosen active spaces, and Diffusion Monte Carlo (DMC) [61], a stochastic method that naturally avoids basis-set incompleteness errors by working in real-space. Selected Configuration Interaction (sCI) methods [62, 63] construct systematically improvable multideterminant wavefunctions by selecting the most important determinants from the Full-CI expansion. While this approach provides a controllable path toward the exact solution, it also clearly exposes the exponential wall: achieving progressively smaller improvements in energy requires an exponentially growing number of determinants as the Full-CI limit is approached. Additional details about the methods and the basis sets can be found in the technical Appendix 6 at the end of the paper. 
+
+Figure 5: Pople-style diagram illustrating the exponential wall encountered in classical electronic-structure meth-ods, and the potential mitigation offered by quantum computing approaches. The surface color and elevation qualitatively represent the computational complexity. 
+
+3.1.2 Classically Intractable Systems in Quantum Chemistry 
+
+As we have seen, the boundary of classical intractability in quantum chemistry is defined by the exponential growth of the configuration space required to describe ”strong correlation”, a threshold where classical approx-7imations of electron behavior fundamentally collapse. In ”weakly correlated” systems, such as most organic molecules at their equilibrium geometry, electrons move relatively independently within a mean field, allowing DFT, the workhorse of the field, to model thousands of atoms by mapping the complex many-body problem onto a simpler electron density. While DFT and high-accuracy methods like CCSD(T) function well for systems up to roughly 20–50 atoms before CCSD(T)’s O(N 7) scaling or functional inaccuracies become a bottleneck, they evaporate in ”strongly correlated” scenarios, such as transition metal clusters, lanthanides, or molecules during bond dissociation. In these cases, multiple electronic states are nearly equal in energy, and electrons become so inextricably linked that the single-determinant foundation of DFT fails to capture the physics. As explained, advanced classical techniques like DMRG and sCI attempt to truncate the Hilbert space by following only the most ”entangled” paths, while DMC uses stochastic sampling to avoid explicit wavefunction storage. Yet, these methods hit a final wall: DMRG is limited by the ”area law” of entanglement in 3D systems, SCI suffers from a combinatorial explosion of necessary determinants, and DMC is plagued by the Fermion Sign Problem, which leads to exponential noise. This definitive breakdown typically occurs when the ”active space” exceeds approxi-mately 50 electrons in 50 orbitals, at which point the possible configurations surpass the memory and stochastic capacity of any classical supercomputer, shifting the problem from a matter of hardware speed to a fundamental mathematical impossibility that necessitates quantum computing simulation. 
+
+# 3.2 Quantum Computing: Overview of Recent Quantum Algorithms for Electronic Structure 
+
+Quantum computers offer a promising way forward: the apparent exponential wall can be built with only a linear number of qubits, allowing molecular wavefunctions in the Full-CI space to be encoded efficiently (see Figure 5). Quantum algorithm development for the ground-state quantum chemistry problem consists in converting this representation capability into computational speedup over the classical methods introduced in the former section. For the ground-state quantum chemistry problem, the field splits into two broad classes, revealing a clear tradeoff between theoretical guarantees and near-term implementability: (i) NISQ-oriented algorithms such as the Variational Quantum Eigensolver (VQE) [64], and related hybrid quantum-classical schemes (QSCI, QSD) that pair ansatz preparation and measurement on the QPU with classical CPU/GPU processing. (ii) Algorithms such as the Quantum Phase Estimation (QPE), on the other hand, assume access to large and fault-tolerant quantum computers, and extract the ground-state energy with deterministic success, at a computational cost that depends on the system size, the desired accuracy, and the quality of the initial state. Below, we review contributions in both paradigms, aiming to reduce resource demands and bring quantum advantage closer to practice. 
+
+3.2.1 Near-Term Hybrid Quantum Algorithms: the Search for Hardware Efficient Ansätze 
+
+The VQE approximates the molecular ground state by minimizing the energy over a truncated subspace of the Full-CI Hilbert space, in close analogy with classical CI methods. A key difference is that VQE constructs this variational space using an ansatz composed of unitary, exponentially parameterized operators, whereas CI relies on linear expansions in excitation operators. Quantum advantage with VQE would then mean that, for some practically relevant problems, the variational space spanned by the quantum circuit provides a better heuristic than classical ansätze [65], assuming efficient parameter training. Then, the central challenge in VQE is ansatz design: it must balance expressivity (containing states near the ground state), trainability (enabling efficient parameter optimization), and circuit depth, as NISQ devices allow only limited numbers of qubits and gates due to decoherence. So far, practical implementations continue to face numerous challenges, several of which are outlined below. First, commonly used ansätze can be insufficiently expressive for strongly correlated systems, particularly when higher-order excitations such as triples are required to achieve chemical accuracy. Second, the operator pools from which ansätze are constructed are often far larger than algebraically necessary, resulting in substantial computational overhead. Last but not least, VQE relies on a global, non-convex optimization landscape that is often rough and largely flat, due both to barren plateaus arising from high dimensionality and to excited-state contamination intrinsic to energy minimization, leading to significant convergence difficulties in multi-parameter optimization. To address these limitations, we developed a set of complementary strategies, all developed/tested at the emulation level using our Hyperion quantum emulator (see 3.3), that directly target each of the aforementioned challenges. 8Fixed ansatz approaches First, we focused on the fixed ansatz method utilizes a pre-defined quantum circuit structure, i.e. a template of gates, where the sequence and connectivity of the qubits remain constant throughout the computation. While the arrangement of the gates is static, the individual rotation angles (the parameters) are tunable. During the VQE process, a classical optimizer iteratively adjusts these angles to minimize the expectation value of the Hamiltonian, effectively searching for the system’s ground state energy within a constrained search space defined by that specific circuit.To improve expressivity in strongly correlated regimes, we extended the conventional chemistry-inspired Coupled Cluster UCCSD fixed ansatz [66] by incorporating triple excitations, leading to a UCCSDT formulation [67] capable of capturing higher-order correlation effects required for chemical accuracy. Second, to mitigate the inefficiency of oversized operator pools, the non-iterative disentangled UCC ansatz was introduced ( NI-DUCC [68]) using a highly expressive network of hardware-efficient operators constructed to guarantee algebraic completeness. Third, we proposed an efficient and systematic procedure to generate complete operator pools associated with a given Lie algebra [69], which was previously a technically demanding task limiting qubit counts. This advance enables the practical deployment of minimal complete pools (MCPs) within NI-DUCC, i.e. NI-DUCC(MCPs). Table 1: Comparison of Standard UCC-VQE and NI-DUCC(MCPs)-VQE 
+
+Feature Standard UCC-VQE NI-DUCC(MCPs)-VQE Circuit Depth High (due to Trotterization) Low (Disentangled/Product form) 
+
+Optimization Gradient-based (Slow) Gradient-independent / Non-iterative 
+
+Symmetry Hard to maintain exactly Built-in via Lie Algebraic closure 
+
+Accuracy Limited to double excitations (no Full-CI accuracy) and by noise/depth on current hardware Reaches Full-CI at specific layers but still limited by noise/depth on current hardware 
+
+Adaptive ansatz approaches In practice, MCPs can also be used within adaptive VQE frameworks such as ADAPT-VQE [70, 71]. Indeed, these latter have the ability to construct compact, problem-specific circuits that are significantly more efficient than fixed-structure hardware heuristics as they grow the circuit dynamically by adding operators one by one based on their impact. Consequently, MCPs underpin our introduction of 
+
+MB-ADAPT-VQE technique [69], which couples MCPs with batch-ADAPT techniques [72] to ensure optimal convergence. This approach significantly enhances hardware efficiency by mitigating the high cost of gradients, a notorious bottleneck in adaptive methods. By implementing NI-DUCC(MCPs) and MB-ADAPT-VQE, we demonstrate algorithmic parity with, or superiority over, current best-in-class fixed and adaptive VQE approaches for quantum chemistry .Finally, to address excited-state contamination and the resulting energy plateaus in ADAPT-VQE, we intro-duced Overlap-ADAPT-VQE [73], which grows the ansatz via variational projection onto an intermediate-quality reference state rather than direct energy minimization. This projection-based strategy yields significantly more compact circuits and accelerates subsequent convergence. More broadly, Overlap-ADAPT-VQE estab-lishes a unified framework for learning and compressing quantum states into efficient ansätze. We exploited this capability for classical data loading by compressing sparse selected-CI wavefunctions into compact quantum rep-resentations that serve as high-quality initial states for both VQE and Quantum Phase Estimation [73, 74], two algorithms whose performance is critically dependent on initialization quality. Note that while MB-ADAPT-VQE is highly efficient in terms of measurement overhead and convergence rate, it can be couple to Overlap-ADAPT to produce more compact representations. 
+
+VQE on present NISQ hardware: the example of Greedy-ADAPT-VQE To conclude, let us discuss the practical difficulties of implementing VQE algorithms on todays quantum computers. To this end and in order to mitigate the optimization difficulties of VQE arising from non-convex landscapes and barren plateaus, we introduced Greedy Gradient-Free ADAPT-VQE (GGA-VQE) [75]. The method exploits analytical structure to convert the global variational optimization into an iterative greedy procedure in which each parameter can be determined locally without gradient estimation. This substantially reduces the classical optimization overhead while producing compact, hardware-aligned ansätze tailored to the target Hamiltonian. 9Table 2: Comparison of ADAPT-VQE and MB-ADAPT-VQE 
+
+Feature Standard ADAPT-VQE MB-ADAPT-VQE Operator Pool Typically uses large pools, such as the QEB pool. Uses optimally constructed Minimal Complete Pools (MCPs). 
+
+Pool Scaling Traditionally scales as O(N 4). Verified to scale linearly, O(N ), with the number of qubits. 
+
+Ansatz Growth Appends a single exponentiated generator per iteration. Incorporates MCPs into a batched approach, adding k operators per iteration. 
+
+Selection Cost Requires measuring energy gradients for every operator in a large pool. Reduces measurement overhead by using a compact, symmetry-preserving pool 
+
+Gradient Cost Must evaluate energy gradients for 
+
+O(N 4) operators per step. Only requires gradient evaluations for 
+
+O(N ) operators per step. 
+
+Measurement Overhead High total measurement cost of approximately O(N 8).Dramatically reduced measurement overhead scaling as O(N 5).
+
+Accuracy Reaches Full-CI at specific layers but still limited by noise/depth on current hardware Reaches Full-CI at specific layers but still limited by noise/depth on current hardware Table 3: Comparison of Standard and Overlap-ADAPT-VQE Strategies 
+
+Feature Standard ADAPT-VQE Overlap-ADAPT-VQE Growth Metric Energy Gradient (aims to minimize ground state energy). Overlap Maximization (aims to match a target wavefunction). 
+
+Target State The exact ground state of the system Hamiltonian. A high-quality intermediate target (e.g., from Selected-CI). 
+
+Ansatz Efficiency Can suffer from local minima and over-parameterization in noisy landscapes. Produces ”ultra-compact” ansätze by avoiding energy-landscape noise. Table 4: Comparison of Standard ADAPT-VQE and GGA-VQE Strategies 
+
+Feature Standard ADAPT-VQE GGA-VQE (Greedy Gradient-Free) Selection Criterion Uses energy gradients to identify the most impactful operator. Uses a gradient-free greedy selection rule to pick operators. 
+
+Measurement Cost High; requires evaluating gradients for all pool operators at each step. Significantly lower; bypasses the hardware-intensive gradient-evaluation stage. 
+
+Optimization Iterative classical-quantum loop based on steepest descent. Aimed at reducing classical optimization overhead by avoiding gradient maps. 
+
+Scaling Issue Suffers from the ”gradient measurement bottleneck” as pools grow. Mitigates the bottleneck, though potentially at the cost of ansatz compactness. 
+
+Hardware Fit Limited by the ”gradient measurement bottleneck” on NISQ devices 
+
+More hardware-efficient for intermediate-scale systems due to lower overhead. 10 A proof-of-principle implementation was carried out on a 25-qubit IonQ trapped-ion processor for transverse-field Ising simulations, constituting, to our knowledge, the first hardware realization of an adaptive VQE algorithm. 0  0  0  0       
+
+>  
+> 00
+> 0
+> 0
+> 0
+> 0
+> 0
+>           
+> |
+> θ
+> θ
+>  
+> 
+> θ
+>  
+> 
+> |
+
+Figure 6: Relative error in optimizing the angle at iteration k of the GGA-VQE algorithm using only the QPU. Data from ref. [75]. Despite significant fluctuations in the QPU-measured energies, the parameters extracted from hardware mea-surements remain close to the optimal noiseless values for the first iterations of the algorithm (Fig. 6), indicating that the greedy analytical updates are robust to realistic noise levels. At the same time, recent analyses by Dalton et al. [76] show that achieving a genuine quantum advantage with adaptive VQE would require several orders of magnitude reduction in current gate error rates. While GGA-VQE can be viewed as the ”minimal” adaptive method aimed at hardware implementation, primarily because it removes the most expensive part of the ADAPT-VQE process, i.e. the hardware-intensive gradient evaluation, MB-ADAPT-VQE and NI-DUCC-VQE offer more refined ”minimal” strategies by optimizing the underlying mathematical structure of the operator pools. In any case, taken together, these results reflect the current frontier of adaptive VQE on NISQ hardware, where algorithmic progress is possible but ultimately constrained by present noise levels. In practice, low-accuracy VQE computations can, of course, be performed on hardware with minimal basis sets. However, these do no meet yet the accuracy requirements to be included into our foundation model. Therefore we developed approaches enabling to immediately increase accuracy through emulation while reducing time to full quantum hardware adoption. A follow-up to this discussion, linked to the reduction in qubits requirements can be found in section 4.3.. Lets us now focus on quantum strategies allowing to access fault tolerant architectures to provide near-exact QPE quantum chemistry computations. 
+
+3.2.2 Scalable Algorithms for Fault-Tolerant Architectures: Towards Quantum Phase Estimation Quantum Phase Estimation At the opposite end of the spectrum, Quantum Phase Estimation (QPE) pro-vides ground-state energies at Full-CI accuracy with controllable error assuming fault-tolerant hardware. Within a fixed basis, it yields the exact Full-CI solution using a circuit whose size scales with system size, target accuracy, and initial-state quality. Current resource estimates for chemically relevant problems indicate requirements on the order of billions of gates and thousands of logical qubits [78], placing QPE well beyond near-term hardware capabilities, despite its favorable asymptotic scaling and the prospect of at least polynomial quantum advantage. Ongoing efforts therefore focus on reducing these resource demands, a challenge that is twofold: improving the high-level mapping of chemical problems onto quantum operations, and improving the low-level gate decompo-sition of the fundamental building blocks of QPE. We identify that leading asymptotic formulations of QPE for chemistry rely on first-quantized plane-wave bases [79], which are natural for periodic systems but poorly suited for strongly correlated or highly localized molecular states. To address this, we introduce the use of adaptive molecular grids as a first-quantized basis for QPE, together with an operator transformation yielding a transcorrelated Hamiltonian whose ground states are smoother in real space [77]. Together, these efforts aim to incorporate more chemical structure and physical insight into fault-tolerant quantum algorithms, helping bridge the gap between formal asymptotic advantage and practical chemical applications. The second aspect of this challenge concerns optimizing the low-level gate decomposition of QPE building blocks, a rapidly evolving area that closely follows advances in hardware and error correction to guide compilation 11 Figure 7: Dissociation curve of H 2: binding energy versus internuclear distance for our transcorrelated (TC) method on nonuniform grids, compared to FCI at the CBS limit. Grids studied contain 2000, 3000, and 4000 total points (20, 30, and 40 radial points combined with 50 angular quadrature points per atom), corresponding to Hamiltonian matrices of dimensions 4, 9, and 16 millions, respectively. Data from ref. [77]. Table 5: Comparison of our First-Quantized Real-Space Framework vs. Standard VQE 
+
+Feature First-Quantized Real-Space Framework (FTQC) Standard VQE (NISQ) Quantization First-quantized, real-space formulation. Typically second-quantized (orbital-based). 
+
+Qubit Scaling Logarithmic with spatial resolution: 
+
+O(η log N ).Linear with the number of spin-orbitals: 
+
+O(N ).
+
+Primary Algorithm Deterministic: QPE (Hermitian) or QEVE (Transcorrelated). Heuristic: Variational minimization of energy. 
+
+Discretization Non-uniform, molecule-adaptive grids (Voronoi partitions). Fixed basis sets (e.g., Gaussian atom-centered functions). 
+
+Cusp Handling Transcorrelated (TC) extension eliminates Coulomb singularities. Limited by basis set; requires many functions to approach CBS limit. 
+
+Complexity Two-body operators achieve quadratic scaling O(N 2).Often involves O(N 4) terms in standard representations. strategies. We introduced an implementation of the multi-controlled NOT gate whose circuit depth scales only polylogarithmically with the number of control qubits [80], yielding an exponential improvement over previous state-of-the-art. To conclude, let us explain how we can illustrate this type of work by implementing building block on today’s hardware. 
+
+3.2.3 Assessing FTQC Building Blocks on NISQ Hardware 
+
+To illustrate how NISQ devices can be used to prototype algorithmic primitives designed for fault-tolerant quantum computing (FTQC), we consider a recent method we introduced for preparing quantum states whose amplitudes follow a polynomial of degree d. The construction achieves logarithmic circuit depth in the number of qubits n, improving on previous approaches that required linear depth. The method combines three ingredients compatible with FTQC architectures: a block-encoding of an affine diagonal operator using a Pauli-basis de-composition with only n terms, a modified linear-combination-of-unitaries (LCU) implementation enabling logarithmic-depth execution, and a generalized quantum eigenvalue transformation (GQET) to promote the affine operator to an arbitrary polynomial. Because polynomial approximations are ubiquitous in scientific computing, this primitive provides a scalable route to quantum state preparation for many quantum algorithms .A proof-of-principle implementation [81] was carried out on the 56-qubit Quantinuum H2 trapped-ion 
+
+12 processor [82], using 14 qubits and more than 500 primitive gates, demonstrating the feasibility of the approach on present-day hardware (Fig. 8). The measured amplitudes follow the expected polynomial profile, confirming the construction experimentally. This illustrates how NISQ hardware can already be used to experimentally validate FTQC-oriented algorithmic primitives at small scale. 0.0 0.2 0.4 0.6 0.8 1.0 x
+
+> 0.05
+> 0.10
+> 0.15
+> 0.20
+> 0.25
+> Post-selected
+> 20000 shots on H2 Experimental: y=-0.243*x+0.279 Analytical: y=-0.241*x+0.279
+
+Figure 8: Hardware demonstration on the Quantinuum H2 trapped-ion processor of a degree-one polynomial-amplitude state preparation. The plotted values correspond to the square roots of the postselected measurement frequencies of each computational-basis outcome, showing good agreement with the target polynomial profile. Data from ref. [81] These results highlight both the necessity and the opportunity for tight co-design between chemistry-informed algorithm development and hardware-efficient gate-level compilation. 
+
+# 3.3 The GPU-accelerated Hyperion Quantum Platform: from Emulation to Or-chestration 
+
+Exploitation and development of the quantum and hybrid algorithms presented earlier depends on direct access to quantum computing hardware, a resource increasingly critical and strategic. Availability is, however, scarce, and still mainly distributed on NISQ-era machines. This supply gap has driven the demand for high-performance software packages capable of simulating quantum systems using classical computing resources. These are known as quantum emulators and serve multiple purposes: validating novel algorithms, guiding algorithmic design and refinement, verifying outputs from physical quantum hardware, and providing a controlled environment for rigorous benchmarking. In response to this need, various emulation frameworks have emerged over the past five years [83–89], with underlying strategies typically dictated by specific target applications. 
+
+3.3.1 Hyperion: High Performance GPU-accelerated Quantum Emulation 
+
+The strategies employed by quantum emulators are often shaped by the specific use cases envisioned by their de-velopers. Among these, Hyperion is our in-house quantum emulator, a GPU-accelerated , h igh-performance software library jointly developed by Qubit Pharmaceuticals and Sorbonne University [13]. 
+
+Hyperion’s philosophy. Hyperion is dedicated to simulating quantum chemistry problems using exact or quasi-exact strategies that emulate noiseless logical qubits. Our primary objective is to improve present NISQ methodologies and to prepare for the advent of FTQC by enabling algorithm design within a controlled en-vironment. We have specifically focused on emulation strategies targeting quantum algorithms capable of ad-dressing currently intractable quantum chemistry problems on classical supercomputers, specifically aiming for Full-CI/CBS accuracy (see Sections 3.1 and 3.2). To contextualize Hyperion within the broader landscape, modern quantum emulators generally employ two primary approaches: state-vector-based emulation (using ei-ther dense or sparse representations for exact or approximate computations) and tensor network-based methods (where performance is governed by the entanglement structure of the simulated state). To maintain our fo-cus on high-fidelity simulations that bridge the gap toward physical quantum hardware, Hyperion strictly uses these native quantum computing strategies. We deliberately avoid ”quantum-inspired” classical approaches that 13 Hyperion Quantum Emulator 
+
+Input: Quantum Circuit/ Algorithm (e.g., VQE, Quantum Chemistry Ansatz) 
+
+HPC: NVIDIA GPUS (A100/H100) Multi-Node Interconnects OUTPUT: 
+
+> Exact Simulation Results Noiseless Benchmarks Quantum Chemical Calculations
+> Sparse State representation
+> Custom SpMSpV kernels (Sparse Matrix-Sparse Vector Multiplication)
+> Matrix Product States (MPS) Decomposition (Low-rank tensors)
+> Nvidia cuTensor Acceleration
+> Sparse Representation
+> Tensor Network (MPS)
+
+Figure 9: Overview of the Hyperion quantum emulator rely heavily on traditional classical chemistry integral codes to revisit quantum algorithms. Hyperion therefore provides a rigorous framework for assessing and validating novel quantum algorithms . At its core, the emulator relies on highly optimized linear algebra kernels to accelerate operations between state-vectors and Hamiltonian matrices. An overview of Hyperion is given in Figure 9. Hyperion includes several emulators that we will detail below. 
+
+3.3.2 The Hyperion-1 Emulator: State-vector and MPS for Chemistry 
+
+Within the state-vector paradigm , the full state-vector (or brute-force) approach represents an n-qubit quan-tum state as a dense vector of size 2n. This approach provides an exact representation of quantum states and enables efficient gate operations by using straightforward linear algebra, which is well-suited for GPU optimiza-tion. Therefore it provides exact - noiseless- logical qubits that can be compared to incoming FTQC results. While this method provides an exact representation and enables efficient, GPU-optimized operations, it becomes memory-bound and unpracticable with regular ressources for systems exceeding approximately 32-34 qubits due to the necessity of storing all 2n complex amplitudes. Alternatively, when the specific algorithm or underlying physical problem exhibits structural sparsity, quantum states can be represented as sparse vectors to significantly reduce memory overhead, an approach commonly used in sparse quantum emulators. In this representation, the state-vector is updated via indexing operations, thereby avoiding the need to explicitly store the full operator matrices during computation and providing a substantial computational speedup over dense arithmetics. However, it is worth noting that the fundamental limitation of state-vector based methods persists: the memory overhead scales exponentially with the system size. Even when fully leveraging sparsity, these methods consistently hit hard memory limits. A more promising avenue to alleviate this problem involves methods such as tensor networks [60,90–92]. Tensor network approaches have emerged as a compelling alternative for quantum emulation, offering a flexible and memory efficient framework. These methods, widely used in physics and mathematics, can help overcome the so-called curse of dimensionality in certain scenarios and have become very important in the quantum computing field. In this paradigm, a quantum circuit is cast as a network of tensors where the desired output is obtained through a sequence of pairwise contractions (the tensor equivalent of matrix multiplication). The primary advantage of these data structures lies in their adaptability, contraction orders can be heuristically optimized to prioritize either computational speed or memory constraints. By representing a quantum state as a tensor network with fixed input and open output indices, one can efficiently compute specific amplitudes and expectation values through targeted contractions. Beyond general tensor contractions, specific decompositions like Matrix Product States (MPS) enable significant data compression, provided that the system exhibits limited entanglement. By using a 1D chain of low rank tensors, MPS can represent a quantum 14 state using a memory footprint that scales polynomially rather than exponentially. Using the MPS backend enables the substitution of exact state-vectors with memory-controlled approximations. In this context, our Hyperion emulator supports primarily sparse state-vector emulation while still offering approximate representations of state-vectors using MPS. Consequently, the performance of Hyperion is directly dependent on the efficiency of its underlying linear and multilinear algebra kernels. Although adopting sparse representations can significantly enhance simulation speed, it introduces considerable complexity into the under-lying linear algebra. For example, sparse matrix–dense vector multiplication (SpMV) is extensively documented and supported by highly optimized libraries such as Intel MKL. In contrast, sparse matrix–sparse vector mul-tiplication (SpMSpV), a central operation in our applications, remains computationally demanding. Because SpMSpV performance is heavily dictated by the sparsity patterns of both operands and has limited applicability in traditional scientific computing, it lacks optimized library support tailored for sparse quantum simulations. Hyperion addresses this critical gap directly by implementing custom kernels specifically engineered for efficient SpMSpV operations . Furthermore, the library integrates tensor network strategies with a focus on MPS. To maximize computational throughput, these tensor operations are GPU-accelerated using the Nvidia cuTensor library [93]. To provide context, Table 6 outlines the capabilities of Hyperion-1 in terms of logical qubit capacity for its SV implementation. As a robust benchmarking tool for novel quantum and hybrid algorithms, Hyperion-1 was notably used to evaluate the Greedy Gradient-free Adaptive VQE (GGA-VQE) algorithm [75]. By computing the exact ground state of a 25-qubit Ising model, it provided a critical noiseless baseline for assessing ansatz quality on physical hardware. Furthermore, the emulator enabled large-scale simulations of up to 32 qubits in ref. [55], which used a novel approach embedding a quantum computing ansatz into density-functional theory via density-based basis-set corrections. This method yielded quantitative quantum chemistry results for molecular systems that would otherwise necessitate brute-force calculations involving hundreds of logical qubits (see Section 4.3 for further details). Hyperion-1 also demonstrated its capacity for intensive workloads in [74], performing a rigorous 28-qubit Overlap-ADAPT-VQE simulation [73] for state preparation in strongly correlated systems. Finally, our emulator has been used in validating new variational algorithms, such as MB-ADAPT-VQE [69] and NI-DUCC-VQE [68], pushing scalable molecular simulations to 26 qubits for accurate modeling of systems like the water molecule. Note that Hyperion-1 already enables to simulate ten of thousands of CNOT gates thanks to its GPU-acceleration (see Table 4.3.2, section 4 for examples). Several applications of Hyperion-1 can be found in section 4.3.2. In summary, Hyperion-1 facilitates the rapid emulation of complex algorithms, such as ADAPT-VQE, at scales reaching 32 qubits for its SV implementation. Its GPU acceleration allows for thousands of iterations within quantum chemistry workflows, ensuring true convergence and high-fidelity results. It also possess MPS capabilities enabling to reach up to 36 qubit simulations approximate simulations. Table 6: Simulation capacities (logical qubits) on NVIDIA H100 (80 GB) GPUs for Hyperion-1 state-vector approach. The implementations can reach CNOT counts beyond 13000. Maximum Logical Qubits H100 GPUs Total Memory Hyperion-1 (SV) 
+
+1 80 GB 24 4 320 GB –8 640 GB 28 16 1280 GB –64 5120 GB –128 10 240 GB 32 
+
+Perspectives. Scaling toward 50 qubits represents the theoretical frontier for state-vector approaches on exas-cale supercomputers [94]. Currently, Hyperion-1 utilizes the CuQuantum SDK [93] to push beyond our present 32-qubit mark; however, this approach’s reliance on massive computational power makes it unsustainable for broader industrial use. To achieve chemical accuracy for systems between 40 and 100 qubits without prohibitive costs, our emulator must evolve beyond its current MPS-based architecture that allows to reach 36 qubits. Indeed, 15 although MPS can solve, in certain cases, the memory bottleneck for intermediate-scale ADAPT-VQE simulations, its one-dimensional structure limits its ability to model the complex entanglement of highly correlated molecules. Indeed, while MPS are a powerful classical tool for simulating quantum systems, their primary limitation is the exponential growth of the bond dimension D required to track entanglement. In a quantum computer, a circuit can easily generate ”volume law” entanglement where every qubit is highly correlated with every other qubit, for an MPS to accurately mimic this, the size of its internal tensors must scale exponentially with the number of qubits, eventually exhausting classical memory. Furthermore, MPS is inherently a one-dimensional architecture, making it highly inefficient at simulating the complex 2D or 3D connectivity found in modern quantum proces-sors. Consequently, as a quantum circuit increases in depth and connectivity, the compression required to keep the MPS simulation running leads to a rapid loss of fidelity, meaning it can only truly mimic ”shallow” or weakly entangled quantum processes before the classical overhead becomes insurmountable. Therefore, one can include more flexible structures, such as Tree Tensor Networks (TTNs) and 2D tensor graphs. Such an evolution is mandatory to bridge the gap between theoretical accuracy and industrial utility, ensuring that complex simulations remain viable on sustainable GPU resources . Because processing these complex networks are computationally demanding, current focuses on developing a flexible software engine. This upgraded 
+
+upgraded Hyperion platform will rely on advanced approximate algorithms, to efficiently handle the massive entanglement of complex quantum chemistry problems. 
+
+Qiskit Interface Finally, we are currently finalizing a Qiskit interface for quantum circuit emulation. This will allow users to try our Hyperion emulator using sparse state-vector emulation for specifically structured circuits, MPS for circuits with low entanglement, and dense state-vector emulator for others. 
+
+3.3.3 Hyperion’s Competitive Landscape for Exact Quantum Emulation The 50 Qubits Limit for State-Vector Emulation. The JUQCS-50 project recently defined the current frontier of State-Vector (SV) simulation, while simultaneously highlighting its practical constraints for domain-specific applications. This landmark 50-qubit simulation utilized the Booster module of the exascale JUPITER supercomputer, harnessing a massive fleet of 16,384 NVIDIA GH200 Grace Hopper Superchips across 4,096 nodes. While JUQCS-50 leverages the NVIDIA cuQuantum SDK—specifically the Host State Vector Migration features for explicit data movement—its primary demonstration involved Random Quantum Circuits (RQC). Although RQC is the standard benchmark for ”quantum supremacy,” it remains a synthetic task that does not address the specific topological and algebraic complexities of quantum chemistry. Consequently, while logical qubit count serves as a high-profile metric for emulator performance, it is largely meaningless in isolation. For quantum chemistry, performance must instead be measured by the ability to support a complete operational framework. This includes high-precision FP64 arithmetic, complex Hamiltonian mappings, and the iterative demands of the Variational Quantum Eigensolver (VQE)—all of which are necessary to produce chemically meaningful predictions. A rigorous metric must therefore account for circuit depth and the total number of CNOT gates simulated. Indeed, many HPC studies report high qubit counts by oversimplifying the underlying chemical problem, often failing to simulate circuits of practical depth. In the State-Vector (SV) regime, it is technically possible to reach 80 qubits or more [95]; however, such results rely on specialized Hamiltonian-based methods like Iterative Qubit Coupled Cluster (iQCC). These methods employ aggressive Hamiltonian cutoffs and ”greedy” operator selection to keep the wavefunction artificially sparse by discarding essential interaction terms. While effective for weakly correlated systems, this strategy inevitably collapses in the presence of strong electronic correlation, where entanglement spreads across the entire state vector and eliminates any sparsity advantage. Ultimately, these molecule-dependent approximations do not offer a reliable or general path toward numerically exact solutions. Consequently, for general-purpose, high-fidelity SV emulation, the practical hard limit remains 50 qubits, as established by the JUQCS-50 project. 
+
+Accuracy limit for Matrix Product States Regarding Matrix Product States (MPS), exact tensor network simulations struggle with deep circuits and high CNOT counts due to the inherent complexity of contraction path optimization. Consequently, these methods are often validated using shallow, small-scale circuits, which allow for the artificial inflation of qubit counts. For instance, Shang et al. [96] developed a high-performance VQE simulator on the Sunway supercomputer by integrating MPS with Density Matrix Embedding Theory (DMET), nominally reaching 1,000 qubits. However, DMET is not a strictly accurate many-body method; its primary weakness lies in its fragment-based nature, which relies on an ”embarrassingly parallel” scheme for quantum chemistry solvers. By partitioning the system into independent local clusters associated with isolated, small circuits, the 16 methodology achieves high qubit counts at the expense of capturing the long-range correlation effects that define a true quantum advantage. While high qubit counts can be achieved using Matrix Product States (MPS) by strictly limiting circuit complexity, these approaches face significant operational constraints. For instance, recent 70-qubit simulations using MPS and NVIDIA’s cuQuantum [97] were restricted to 975 total gates and only 188 CNOTs. This limitation stems largely from the inherently non-exact bosonic mapping which, by construction, doubles the number of claimed qubits. In contrast, Hyperion can simulate in excess of 10,000 CNOTs using ADAPT-VQE (see Section 4.3.2, Table 4.3.2). Furthermore, by restricting simulations to the seniority-zero subspace, such methods rely on molecule-dependent approximations that discard essential correlation effects, rendering the Full Configuration Interaction (FCI) limit unreachable. Quantum Computing ultimate objective must remain the achievement of predictive chemical simulations approaching the FCI/CBS limit, prioritizing chemical accuracy over inflated qubit counts that yield only crude approximations. Current research supports these limitations: a recent study by Google and the Chan group [98] estimated the 
+
+stability limit for MPS at 36 qubits using ADAPT-VQE . Our experiments confirm these findings 
+
+(see below). Ultimately, there is ”no free lunch” in quantum chemistry: simplification rarely equates to accuracy. While MPS emulation can reach higher qubit counts than State Vector (SV) methods by restricting the bond dimension, such simulations often lack the precision required for chemical applications. Furthermore, many large-scale simulations rely on molecule-dependent approximations or arbitrary cutoffs, which introduce uncontrolled errors and lack generality. Because MPS and other Tensor Network approaches are inherently non-exact, their computational costs explode when attempting to capture the high-degree entanglement characteristic of strongly correlated molecular systems. 
+
+Quantum Emulation for Quantum Chemistry applications. Table 7 illustrates where Hyperion stands within the current state of the art of quantum emulation for chemistry applications. Hyperion-1 is engineered as prioritizing full-fidelity representations over lossy compression. To overcome the massive overhead inherent in exact calculations, the platform integrates GPU acceleration with high-performance sparsity, a combination that is mandatory for the iterative nature of variational algorithms. Traditional CPU-based state-vector approaches are prohibitively slow, often failing to reach convergence within the thousands of iterations required by protocols like ADAPT-VQE. By offloading these intensive workloads to specialized GPU architectures, Hyperion-1 achieves the throughput necessary for complex molecular simulations that would otherwise remain computationally intractable on conventional CPU frameworks. Concerning brute force circuit simulations, Hyperion already offers the possibilities to handle ten of thousands of CNOT gates 
+
+(see Table 4.3.2, section 4 for examples). Note that Hyperion embodies qubits extrapolation techniques 
+
+allowing to go far beyond these qubit counts to provide a shortcut to chemical accurate. Offering up to 10-fold reduction in qubits , these techniques allowed us in recent years to explore the electronic structure of systems ranging beyond 300 qubits . These approaches are described in section 4.3.2. 
+
+3.3.4 Beyond Quantum Emulation: Unified Orchestration of Hybrid QPU and GPU Architectures and noise modeling. Orchestration is another key layer of Hyperion. Its role is to coordinate how computations are distributed be-tween quantum processors (QPUs) and classical computers (CPUs and GPUs). Because most near-term quantum algorithms combine quantum and classical steps [109], orchestration breaks a calculation into smaller tasks, sends each one to the appropriate hardware, and manages the exchange of data between them. Orchestration should be reflected directly in algorithm workflows. As an example, we implemented such a workflow for the GGA-VQE algorithm, combining a trapped-ion IonQ quantum processor with classical GPU resources to perform hybrid energy evaluations. In this experiment [75], the GGA-VQE circuit was first executed on the IonQ Aria QPU to generate the variational ansatz state. The resulting circuit parameters were then retrieved and reproduced on the Hyperion emulator, where the variational energy was evaluated using HPC resources (see Sec. 3.2.1 and Fig. 10). This hybrid execution illustrates how orchestration can seamlessly coordinate quantum hardware and classical computing resources within a single workflow. 
+
+Noise modeling The integration of QPU orchestration and emulation modules enables precise modeling of statistical sampling noise - often termed shot noise - which remains a primary bottleneck for NISQ-era algorithms [75]. Since Hamiltonian expectation values are derived from finite measurements, the resulting cost function is inherently stochastic and non-linear. In algorithms such as ADAPT-VQE, this noise can cause energy convergence 17 Table 7: List of Quantum Emulator Packages with Demonstrated Applications to Quantum Chemistry (standard ADAPT-VQE), and Corresponding Features. SV=State-Vector, MPS= Matrix Product States 
+
+Software Max Qubits Accuracy SV MPS GPUs Hyperion-1 (SV) 1 32 Exact ✓ × ✓
+
+Hyperion-1 (MPS) 1 36 Globally bounded × ✓ ✓
+
+quantumlib qsim SV (Google) 2 12 Exact ✓ × ×
+
+cuStateVec SV (NVIDIA) 3 32 Exact ✓ × ✓
+
+cuTensorNet MPS (NVIDIA) 4 36 Globally bounded × ✓ ✓
+
+FQE MPS (Google) 5 36 Globally bounded × ✓ ×
+
+Microsoft sparse SV 6 8 Exact ✓ × ×
+
+mpiQulacs SV (Fujitsu) 7 36 Non-exact (cutoffs) ✓ × ×
+
+Captiva/myQLM-fermion SV (Bull/Eviden) 8 24 Exact ✓ × ×
+
+Pennylane Lightning SV 9 24 Exact ✓ ✓ ×
+
+Qiskit Aer SV (IBM) 10 22 Exact ✓ ✓ ×         
+
+> 1Iterated 32 qubits simulations reported in [55] using Hyperion-1 and 128 H100 GPUs. Larger qubits counts can be obtained through leveraging the cuQuantum SDK dense matrix operations [99].For pure MPS, due to accuracy, the limit is 36 qubits, the same as discussed in [98]
+> 2quantumlib [100, 101] is an open-source ecosystem of quantum computing tools maintained by Google Quantum AI. Using this framework, a 12 qubit VQE simulation is achieved.
+> 3,4cuStateVec and cuTensorNet are parts of the cuQuantum SDK [99]. For MPS, due to accuracy,the limit is the same as discussed in [98]. For SV, the limit is theoretically the one discussed for state-vector emulation: between 32 and 50, see the JUQCS-50 [94] discussion in 3.3.4. To our knowledge, reported applications of cuQuantum to quantum chemistry using SV are limited to 32 qubits [102].
+> 5Fermionic Quantum Emulator (FQE) [98]. MPS simulations pose accuracy limitations for pure MPS. FQE uses the open-source pyblock3 and block2 librairies.
+> 626 qubits max but 8 demonstrated for chemistry [103]
+> 736 qubits single-iteration ADAPT-VQE simulation and Hamiltonian terms cut-off method was used to slim down terms [104, 105].
+> 8The distributed SV emulator from the Qaptiva plateform can perform quantum chemistry using the OpenVQE package [106] coupled to myQLM-fermion [107]. myQLM-fermion can emulate up to 30 qubits with CLinalg and Captiva lists some MPS capabilities. In both cases, quantum chemistry applications have not been reported.
+> 9[108]
+> 10 [86]
+
+to plateau prematurely, often failing to reach chemical accuracy. Developing noise-resilient strategies - including local optimization and analytical extrapolation—is therefore critical to maintaining the tractability of high-dimensional optimization under sampling uncertainty. Furthermore, recognizing that device-specific hardware noise presents additional challenges, we are collaborating with our hardware partners to integrate these modeling capabilities into our framework. On the classical side, Hyperion is hardware-agnostic and can run on GPUs from NVIDIA, Intel, and AMD, although current optimizations target NVIDIA architectures. On the quantum side, it follows a similar approach by interfacing with multiple types of QPUs and providing a unified environment for the quantum algorithms discussed in this work. 
+
+# 4 Quantum Foundation Machine Learning Models for Molecular Dy-namics 
+
+In recent decades, molecular simulations have relied on heavily parametrized empirical interatomic potentials. There has been a steady improvement of the quality of these models allowing an overall increase in the quality of their prediction. This comes from both better parametrization procedures [110,111]) and more accurate functional forms that manage to better approximate the intrinsic quantum mechanical nature of the phenomena at stake [112–116]. Among these, polarizable force fields have proven to provide a systematic quality improvement while still being associated to a manageable computational cost thanks to algorithmic and high performance computing implementation efforts [117–119]. They have also proven to be able to produce large scale predictive high-resolution simulations of complex biological systems [120–125]. Still, these models suffer from a lack of flexibility 18 Figure 10: Convergence of the GGA-VQE algorithm’s energy as a function of iteration count. The blue curve provides the classical ansatz reference. In contrast, the green and orange curves represent the GGA-VQE ansatz energy as evaluated via a hybrid approach and a 25-qubit QPU, respectively. The hybrid results were obtained by extracting the QPU-generated wavefunction and re-simulating it on the Hyperion-1 HPC emulator to calculate the variational energy. Data from ref. [75]. of their mathematical formulations as well as expert knowledge for their calibration. The advent of neural network potentials directly addresses both these shortcomings. Early scalable architectures such as the seminal work of Behler and Parrinello [6] laid the groundwork for modern models, which provide high-accuracy gas-phase simulations for small molecules at a significantly lower cost than traditional ab initio methods. However, these models often struggle when transitioning to condensed-phase biological environments where efficient sampling is critical. The MACE foundation models [126] can also be highlighted as a pioneering general-purpose machine learning potential for material science, though its derivative that focuses on organic small molecules, MACE-OFF, remains computationally expensive and limited for drug design due to its initial lack of support for charged species [127]. 
+
+# 4.1 FeNNix-Bio1, a Quantum Foundation Model for Drug Design 
+
+In that context, some of us introduced FeNNix-Bio1 [10], a family of foundation machine learning models (S and M versions) designed to enable accurate and reactive atomistic simulations of biological systems with unprecedented speed and scalability. While traditional drug discovery has been hampered by the computational bottleneck of characterizing dynamic interactions between proteins and drug candidates, FeNNix-Bio1 bridges this gap by providing quantum-accurate molecular dynamics without the need for manual parameterization. Trained exclusively on the Ignis inhouse proprietary dataset [10] (see sec. 4.2) — a massive initial collection of over 2.2 million synthetic quantum chemistry configurations — the model employs a novel RaSTER (Range-Separated Transformer with Equivariant Representations) architecture [10]. This architecture utilizes a multi-resolution descriptor that resolves short-range covalent structures with an equivariant Transformer while addressing long-range interactions (up to 11 Å) via a physics-inspired radial basis. To handle the complex charge states ubiquitous in biology, a multi-Qeq embedding was introduced. By non-locally distributing the total charge, it allows the model to differentiate between various charge states in condensed-phase environments. The model’s versatility was demonstrated across a wide spectrum of applications, including the precise prediction of hydration free energies (HFEs) for the Freesolv [128] dataset, where it significantly outperformed traditional GAFF force fields (see ref. [111] and references therein). Furthermore, FeNNix-Bio1 successfully modeled complex phenomena such as the reversible folding of the Chignolin protein—a first for a foundation ML model—and preserved stable binding modes for protein-ligand complexes like Benzamidine-Trypsin. The model also natively handles chemical reactivity, accurately sampling reactive pathways for the conversion of butadiene to cyclobutene through active-learning-driven finetuning. From a performance standpoint, FeNNix-Bio1 is optimized for massively parallel GPU-accelerated systems, showing inference speeds over an order of magnitude faster than existing models like 19 MACE-OFF [127] while maintaining comparable or superior accuracy. By accounting for nuclear quantum effects (NQEs) through an adaptive Quantum Thermal Bath [129, 130] and providing robust uncertainty quantification via the DPOSE method [131], FeNNix-Bio1 establishes a new standard for predictive pharmacological sciences, capable of simulating efficiently systems as large as the SARS-CoV-2 Spike protein with over 1.6 million atoms while providing quantum accurate properties. 
+
+4.1.1 FeNNix-Bio1: Fast Neural Network Architectures for Quantum-accurate Simulations 
+
+In the context of molecular dynamics, beside its efficient neural architecture, a key innovation of FeNNix-Bio1 is to leverage acceleration methods that couple model distillation, multi-time-stepping and non-conservative forces offering unprecedented simulation capabilities at quantum accuracy. 
+
+Efficient Neural Architectures and Fast Efficient Multi-Time-Stepping. Let us summarize the general architecture of FeNNix-Bio1 [10]. In a first step, each atom is embedded in a Nf -dimensional vector space, describing electronic structure and charge information. This initial geometry-independent embedding is then updated to include local geometric information via two message-passing layers of an equivariant transformer [132– 138]. The first layer considers a high-resolution description of very short range (within a R(sr ) 
+
+> c
+
+= 3 .5 Å cutoff) geometry, while the second layer incorporates both short-range and medium-range messages up to a cutoff R(lr ) 
+
+> c
+
+=7.5 Å, resulting in a total receptive field of 11 Å. Then, atomic energies for each atom are obtained from mixture-of-experts [139] multi-layer perceptrons M LP E , taking the final embeddings xi as an input, with routing depending on the chemical group G(Zi) of each atom. Each perceptron M LP G(Zi) 
+
+> E
+
+outputs Nens scalars interpreted as an energy distribution, which are then averaged in the final output. Finally, an explicit screened nuclear repulsion term Erep is added, as well as fixed reference atomic energies E0 
+
+> Zi
+
+. The expression of total energy is thus given by 
+
+Etot =
+
+> Nat
+
+∑
+
+> i=1
+
+E0 
+
+> Zi
+
++
+
+> Nat
+
+∑
+
+> i,j =1
+
+Erep (rij ) + 1
+
+Nens 
+
+> Nens
+
+∑
+
+> n=1
+> Nat
+
+∑
+
+> i=1
+
+[M LP G(Zi) 
+
+> E
+
+(xi)] n ,
+
+where Nat is the number of atoms in the system and rij is the distance between atoms i and j. The repulsion term Erep has an analytic expression, defined using the element-pair-specific NLH parametrization of [140]: 
+
+Erep (rij ) = ZiZj
+
+4πε 0rij 
+
+> 3
+
+∑
+
+> n=1
+
+anij e−bnij rij ,
+
+with Zi the atomic number of atom i and anij , b nij parameters that depend on the unordered pair of species 
+
+Zi, Z j that were obtained via a fit to ab initio references. Compared to other NNPs, using different resolutions at different scales, namely highly precise short-range spatial descriptors and minimal physics-inspired longer-range features (i.e. radial basis that uses Coulomb and dispersion kernels, similar to the ones used in [141]), allow for a drastic improvement in efficiency. We refer to [10] for more details. While simulating an atomistic system with FeNNix-Bio1(M) is less expensive than using ab initio methods by several orders of magnitude, evaluating neural networks remains slower than any classical empirical force field, which motivates the development of algorithmic methods to accelerate NNP-based simulations. In molecular dy-namics, the number of evaluations the force field per unit of physical time is proportional to the time discretization step size. A well-known method used to increase the maximum usable time step of classical integrators (which is usually limited by the highest-frequency motions of the system such as chemical bond vibrations) is called multi time-stepping (MTS) [142, 143]. When applied to an empirical force field model, it consists in treating the fast-varying short-range forces within a small step size, while only applying the long-range, more regular forces at larger time step. This effectively increases the speed of simulation by reducing the rate at which expensive long-range forces are computed. In a NNP however, there is no natural decomposition of the forces into “cheap” and “expensive” parts. Instead, we proposed in [144] a so-called distilled multi-time-step (DMTS) strategy for NNPs, based on distillation [145, 146] of the FeNNix-Bio1(M) foundation model [10] which was performed via the FeNNol [147] library. In this strategy, a small, less precise but fast-to-evaluate model is trained on data labeled with FeNNix-Bio1(M) instead of DFT. Then, following the MTS procedure, this small model, which uses a single 3.5 Å-cutoff message passing layer that is sufficient to capture the fast-varying forces, is applied in several iterations of an inner loop, before being corrected by an application of the difference between the large and small force models in an external loop. Therefore, by reducing the number of computations of the large expensive 20 model, simulation speed is increased by a factor 3 to 4 with respect to standard single-time-step, enabling longer stable simulations. Another way of accelerating simulation speed is the use of non-conservative forces [137, 148–152], that are not constrained to deriving from a potential energy. By directly predicting force vector fields, one is able to bypass the costly backpropagation step required to compute energy derivatives, therefore improving computational efficiency at fixed model architecture. In [153], we extend the DMTS procedure to the use of such forces, which we denote DMTS-NC. Now, the large NNP model is distilled into a small non-conservative one, which still enforces several physical priors such as equivariance under rotation and cancellation of atomic force components. This architecture allows the distilled model to reach an excellent agreement (the final training mean absolute error being close to 1kcal/mol) with the reference one, on top of being faster to evaluate than the small conservative model used in DMTS. By lowering evaluation cost while improving stability (in particular, the occasional disagreements between the small and large models which required system-specific fine-tuning are greatly reduced), the DMTS-NC scheme is found to be more stable and efficient than its conservative counterpart with additional speedups reaching 15-30% over DMTS. Note that similarly to DMTS, DMTC-NC is a model-agnostic strategy and could be applied to distill any NNP model such as MACE [126]. Overall, this acceleration strategy achieves speedups of up to 431% over standard single-time-step methods while maintaining the near-quantum mechanical accuracy required for complex systems like solvated proteins and water boxes while ensuring FeNNix-Bio1 to be, by far, the fastest NNP approach. 
+
+4.1.2 Applications of the FeNNix-Biol Foundation Model 
+
+Potential applications of the FeNNix-Biol Foundation Model are numerous and are listed in Table 9. FeNNix-Biol serves as a versatile foundation model for drug design, enabling accurate simulations of liquid water properties and ion solvation. It excels in predicting hydration free energies, absolute binding free energies, and chemical reactivity out-of-the-box. Furthermore, it facilitates the reversible folding of proteins and the refinement of static structures from AI models like Boltz or AlphaFold. Its scalability even allows for the simulation of massive complexes, such as the full SARS-CoV-2 Spike protein. 
+
+4.1.3 Software Base: the High Performance Tinker-HP Package. 
+
+FeNNix-Bio1 integrates the Tinker-HP software [118, 119] suite—specifically via the Deep-HP [154] scalable interface—to manage the extreme computational requirements of large-scale biological systems. This architecture bridges the gap between static structural prediction and high-fidelity dynamic simulations through two primary pillars: 
+
+High-Performance Scalability. By utilizing the Deep-HP interface to link the FeNNol library [147], which embodies FeNNix-Bio1, with Tinker-HP, FeNNix-Bio1 leverages advanced 3D spatial domain decomposition and full GPU offloading. This synergy allows for: • Massive System Sizes : Efficient simulation of systems containing millions of atoms. • Optimized Workloads : Offloading of intensive neighbor list computations and parallel communication to the Tinker-HP engine. • Hardware Agnosticism : Seamless execution across NVIDIA, Intel, and AMD GPU architectures. 
+
+Quantum Accuracy in Dynamics at Scale. FeNNix-Bio1 foundation models incorporate Nuclear Quantum Effects (NQEs) through non-classical molecular dynamics, ensuring high-fidelity modeling of condensed-phase phenomena (e.g., the anomalous properties of liquid water). Key methods include: • a fast adQTB (Adaptive Quantum Thermal Bath)implementation [130]: Provides quantum dynamics at a computational cost comparable to classical simulations .• Path Integral Approaches: Integrated via the Quantum-HP module [155] for rigorous, high-resolution, treatment of quantum nature of dynamics in complex environments. • Extended Functionality: Support for QM/MM multiscale modeling [156, 157] and sophisticated enhanced sampling techniques, see section 5. 21 Table 8: Summary of FeNNix-Bio1 Foundation Model Methodology 
+
+Component Description Model Nature A foundation machine learning model designed for accurate, reactive atomistic simulations of biological systems. 
+
+Architectural Variants Consists of FeNNix-Bio1(S) (light-weight, high-throughput) and FeNNix-Bio1(M) (heavier, higher accuracy). 
+
+Training Data Trained on the Ignis dataset ( 2.23M conformations) derived exclusively from synthetic DFT quantum chemistry data 
+
+Energy Decomposition Total energy is decomposed into atomic contributions using a Mixture-of-Experts (MoE) multilayer perceptron. 
+
+Charge Modeling Employs multi-Qeq embedding to globally distribute total charge, enabling non-local differentiation of charge states. 
+
+Receptive Field Uses two-layer equivariant message-passing with a total receptive field of 11Å , comparable to traditional force fields. 
+
+Range Resolution Features the RaSTER descriptor: equivariant Transformers for short-range and physics-inspired kernels for long-range effects. 
+
+Nuclear Quantum Effects Explicitly includes Nuclear Quantum Effects (NQEs) via the adaptive Quantum Thermal Bath (adQTB) method or Path Integrals. 
+
+Uncertainty Tracking Uses the DPOSE method to provide well-calibrated, inexpensive uncertainty estimates for predictions. 
+
+Hardware Target Massively parallel , GPU-accelerated 
+
+implementation functional on NVIDIA, AMD, and Intel platforms. 
+
+Distilled Multi Time-Stepping (DMTS-NC) 4-time faster than in the initial 1fs timestep published implementation. In essence, FeNNix-Bio1 provides the ”intelligence” by defining complex molecular interactions, while Tinker-HP serves as the high-performance ”engine” necessary to drive these simulations at biological scales. As demonstrated in Figure 11, the integration of FeNNix-Bio1 via the Deep-HP interface yields a performance increase of more than one order of magnitude over state-of-the-art MACE models, bringing foundation-model-driven molecular dynamics into the realm of practical production simulations. Furthermore, due to the strictly short-range nature of the FeNNix-Bio1 architecture, these models exhibit superior parallel scalability compared to traditional approaches , allowing for efficient distributed computing across massive atomic systems. No 
+
+# 4.2 Chemically-accurate Synthetic Quantum Data with Classical Methods 
+
+4.2.1 Ignis: a Large DFT Computations Quantum Database. 
+
+Quantum chemistry databases serve as the indispensable ”knowledge base” for training neural network poten-tials, allowing these models to bypass traditional experimental parameterization while maintaining high physical fidelity. Because neural networks are inherently data-driven, their ability to accurately predict molecular behavior depends entirely on the diversity and quality of the underlying quantum mechanical data, such as the energies 22 Table 9: Applications of the FeNNix-Biol Foundation Model 
+
+Application Domain Specific Description Notable Performance / Result Liquid Water Properties Calculation of radial distribution func-tions, density, and enthalpy of vapor-ization. Reaches the quality of accurate po-larizable models while outperform-ing other foundation models at lower cost. 
+
+Ions in Solution Study of the behavior of N a + and Cl −
+
+ions in a water box. Achieves agreement with polarizable force fields. 
+
+Hydration Free Energies (HFEs) 
+
+Prediction of HFEs for over 600 molecules in the Freesolv dataset. Provides sub-kcal/mol accuracy and converges at least 60 times faster than other foundation models. 
+
+Protein Folding Study of the reversible folding of the Chignolin protein (CLN025). Recovers folded, misfolded, and un-folded states; first time achieved with a foundation ML model. 
+
+Protein-Ligand Complexes MD simulation of complexes such as the Benzamidine-Trypsin complex. Maintains a well-preserved binding mode over several nanoseconds of trajectory. 
+
+Absolute Binding Free Energy Calculation of standard binding free energy for Phenol and Benzene to Lysozyme. Obtains values close to experimen-tal results, such as −4.4 kcal/mol for benzene-lysozyme. 
+
+Chemical Reactivity Exploration of the gas-phase reaction converting butadiene to cyclobutene. Models reaction pathways and bond order inversion out-of-the-box with high data efficiency. 
+
+Large-Scale Simulations Simulation of the SARS-CoV-2 Spike protein with membrane and glycans ( >
+
+1M-atom system). Demonstrates scalability to systems exceeding 7 million atoms. 
+
+Synergy with AI Models Refinement of structures predicted by AlphaFold or Boltz models. Enables full relaxation of predicted structures to model side-chain dy-namics in solution. and forces found in the Ignis or SPICE2 datasets. These databases enable models to learn complex, many-body effects—such as polarization and charge delocalization—that are often simplified or neglected in traditional empirical force fields. Furthermore, comprehensive databases are critical for ensuring transferability, allowing a foundation model trained on small molecular fragments to successfully extrapolate to large, condensed-phase biological systems like proteins or membranes. By providing a wide range of conformations, including distorted geometries and transition states, these datasets allow neural networks to handle chemical reactivity and bond breaking, tasks that were historically reserved for computationally expensive ab initio methods. Ultimately, as these databases grow through active learning and the inclusion of higher-level quantum data, they push neural networks toward the ”chemical accuracy” of 1 kcal/mol, bridging the gap between static structural predictions and dynamic biological reality. In our case, the Ignis database is a comprehensive collection of over 2.2 million DFT synthetic quantum chem-istry conformations (energies + forces) specifically curated to ground the FeNNix-Bio1 foundation models in high-level physical reality, see 6 for a discussion about the choice of DFT. Its core architecture is built upon the SPICE2(+)-ccECP dataset, which consists of over 2 million SPICE2 configurations and 100,000 ANI-2x samples recomputed using B97M-D3(BJ) Density Functional Theory coupled with correlated consistent effective core potentials (ccECP). To bridge the gap toward complex biological simulations, the database was explicitly augmented with 28,000 configurations of solvated ions—including essential species like N a +, Cl −, M g 2+ , and 
+
+Zn 2+ —alongside 64,080 molecule-water dimers designed to enhance the model’s capture of subtle intermolecular interactions. Furthermore, Ignis includes synthetic data for isolated atoms and highly distorted water geometries to enforce correct chemical dissociation limits and improve the overall learning dynamics of intra- and inter-molecular scales. This dataset has already significantly grown, as it is intended to be systematically improvable, evolving through active-learning-driven finetuning processes that expand the foundation model’s coverage across relevant areas of chemical space. 23 10 3 10 4 10 5 10 6 10 7
+
+Number of atoms 
+
+10 0
+
+10 1
+
+10 2  
+
+> Perf. (Million steps/day)
+> 16 GPUs 64 GPUs 128 GPUs
+> FeNNix-Bio1(S)
+> FeNNix-Bio1(M)
+> MACE-OFF23(S)
+> MACE-OFF23(M)
+> MACE-OFF23(L)
+> AMOEBA
+> FeNNix-Bio1(S)
+> (multi-GPU)
+
+Figure 11: Performance in millions of steps per day of various Machine Learning Potentials, compared to the AMOEBA force field, with varying system size for 1fs simulations (i.e. no multi-timestep). Data from ref [10] 
+
+4.2.2 Beyond DFT: Climbing the Jacob’s Ladder up to sCI/DMC. 
+
+Figure 12: Ignis Database: Jacob’s Ladder Strategy for the Quantum Chemistry Computations Of course, DFT has limitations in term of accuracy [56], and towards addressing the discussed Pople diagram (see Fig 5), some of us proposed a ”Jacob’s Ladder” strategy [158], see Figure 12, to generate high-accuracy 24 synthetic datasets (energies and forces) by leveraging multiple layers of increasingly complex quantum chemistry methods. This hierarchical approach begins with the initial Ignis theory level, i.e. DFT, as the foundation layer due to its lower computational cost, which is then refined by higher-accuracy methods. The ladder ascends to Diffusion Monte Carlo, which provides high accuracy at a medium cost, and finally to Selected Configuration Interaction (sCI) combined with DMC for the highest fidelity. By using massively GPU-accelerated software at each rung, we aim to approach ”chemical accuracy” (errors below 1 kcal/mol) in large number of cases. It is important to note that obtaining Diffusion Monte Carlo forces is a crucial yet historically difficult component of quantum chemistry, traditionally hindered by the fixed-node approximation and the stochastic nature of the algorithm. To overcome these hurdles at the exascale, we implemented a highly optimized multi-level batching approach that groups walkers and atomic centers to maximize GPU utilization on a supercomputer [158]. This strategy, utilizing a Zero-Variance Zero-Bias force estimator [159], achieved sustained performances enabling to perform a large number of computations. Because DMC operates directly in real space, these forces are free from basis set incompleteness errors, effectively reaching the complete basis-set limit. In that context, sCI-DMC runs are possible as sCI can provide improved initial nodal structures to further improve DMC energies and forces. Despite being approximately 100 times more computationally intensive than energy evaluations, these accurate forces allows for the refinement of the FeNNix-Biol foundation model through transfer/multi-level learning, correcting DFT-level inaccuracies to approach further near-exact quantum precision for large-scale biological simulations. Table 10: Summary of the 2025 status for the Ignis Database 
+
+Dataset Component Description & Scope Quantum Level of Theory Core Base Set ∼2.1 million molecular conformations including SPICE2 and 100K ANI-2X configurations selected via active learning. 
+
+DFT: ωB97M-D3BJ with ccECP and aug-cc-pVTZ basis sets. 
+
+Solvated Ions 28,000 conformations of biologically relevant ions (e.g., Na, Cl, Zn) in varying water cluster sizes (2–10 molecules). 
+
+DFT: ωB97M-D3BJ-ccECP. Finetuned with AMOEBA-03 force predictions for monovalent ions. 
+
+Intermolecular Data 64,080 molecule-water dimers sampled from the Freesolv database to capture subtle solvation energies. 
+
+DFT: Interaction energies computed as the difference between dimer and monomer sum. 
+
+Physical Limits Synthetic data for isolated atoms and highly distorted water molecules to ensure correct dissociation behavior. 
+
+DFT: Adjusted to match the formation energy of the chosen functional. 
+
+High-Accuracy Subset ∼40,000 configurations (20,251 with full forces) extracted for “beyond DFT” refinement. 
+
+QMC: Diffusion Monte Carlo (DMC) operating in the infinite-basis set limit. 
+
+Strong Correlation 2,000 configurations specifically targeting significant electronic correlation effects. 
+
+Multideterminant QMC: 
+
+DMC with Selected-CI wavefunctions (1.4M determinants). 
+
+Near-exact Quantum Reference Hundreds of data points converged at the CBS limit to complement sCI/DMC. 
+
+Quantum Computing: 
+
+ADAPT-VQE/DBBSC computations obtained via GPU-accelerated quantum Hyperion emulators. 25 4.2.3 Software Base: Quantum Chemistry Packages 
+
+To perform these computations, we leverage inhouse GPU-accelerated versions of open-source codes such as PySCF [160] for DFT computations and QMCPack [161]. Note that for DMC, our version includes fast generation of DMC forces [158]. We developed our own, GPU-accelerated, massively parallel sCI package [162]. The essential sCI procedure is described below (see 6.1.3), and our code builds upon this by incorporating the latest in improved sCI methods and parallel scaling strategies. This set of tools allows us to leverage state-of-the-art algorithms and HPC hardware to push the limit of what is feasible using classical methods. 
+
+# 4.3 Near-Schrödinger quality Quantum Chemistry Databases with Quantum Com-puting 
+
+4.3.1 Incorporation High-resolution Quantum Algorithms Results into the Ignis Database 
+
+While the discussed DFT/DMC/sCI strategy is pushing the limits of classical hardware [158], reaching accuracy beyond these methods is currently hindered by the ”exponential wall” of classical computation. However, the advent of FTQC and logical qubits offer a path to overcome this barrier, potentially providing the polynomial speedups necessary for exact, Schrödinger-like Full-CI/CBS computations. In anticipation of this shift, the Ignis dataset strategy already incorporates these quantum algorithms; currently, our Hyperion GPU-accelerated quantum emulator is being utilized to generate hundreds of datapoints converged at the CBS chemical accuracy [55]. We particularly leverage a specific hybrid quantum-classical framework present in Hyperion and designed to 
+
+achieve high-precision chemical results while drastically reducing the number of qubits required for calculations [55]. By integrating 1) Density-Based Basis-Set Correction (DBBSC), a density-based correlation potential to approximate the basis set error of the electron-electron interaction and 2) System Adapted Basis Set (SABS), a molecular orbital selection strategy to adapt the size of the basis to the qubit budget, with quantum algorithms like ADAPT-VQE, we provide a ”shortcut” to the complete-basis-set limit , addressing the ”qubit budget bottleneck” that typically limits quantum chemistry to small systems and minimal basis sets. 
+
+4.3.2 Shortcut to Chemical Accurate Quantum Computing; Up to 10-fold reduction in qubits requirements with DBBSC 
+
+The density-based basis set correction comes from a reformulation of the Kohn-Sham formulation of DFT for multi-determinant wave-function. In this picture, the variational problem is written as follow: 
+
+EB 
+
+> 0
+
+= min 
+
+> ΨB
+
+{
+
+⟨ΨB| ˆT + ˆVne + ˆWee |ΨB⟩ + ¯EB[nΨB ]
+
+}
+
+, (3) which can be compared to Eq. (6). In DBBSC, the electron-electron interaction in the basis-set B is computed in the first term and the density functional approximation is build to recover the basis-set error in the electron-electron interaction. One can find some of this approximations in Ref. [163] and references therein. In order to solve (3), one can formulate the minimization problem as the following eigenvalue equations: 
+
+ˆT B + ˆV B 
+
+> ne
+
++ ˆW B 
+
+> ee
+
++ ˆ¯V B[nΨB ] |ΨB⟩ = EB 
+
+> 0
+
+|ΨB⟩ , (4) where ˆ¯V B[nB] is a one-electron effective potential computed from the derivative of ¯EB[nΨB ] (details in Ref. [163], also the link between the eigenvalue EB 
+
+> 0
+
+, and the physical ground-state energy EB 
+
+> 0
+
+for which we do not need to add details here). Finally, Eq. (4) is a self-consistent equation. From the solutions, one can notice the small addition in the value of the ground state energy with respect to what could be obtain with a standard sCI because we are still working on the correlation energy. From this, one can picture the effective potential ˆ¯ B
+
+V [nΨB ] as a pertubation potential. This remark justify the second way to implement the DBBSC, using an a posteriori correction that adds classical density-functional and Hartree-Fock (HF) corrections to quantum results: 
+
+EB 
+
+> 0
+
+≃ EB + ¯EB[nΦB ], (5) where ΦB is the solution of the Hartree-Fock equation. The methodology utilizes two main strategies: an a posteriori correction that adds classical density-functional and Hartree-Fock (HF) corrections to quantum results, and a self-consistent scheme that iteratively updates the Hamiltonian based on electronic density for which we summarize some results in Tab. 12. 26 STO-3G     
+
+> STO-3G+
+> 6-31G
+> 6-31G+
+> V5Z-10
+> V5Z-10+
+> cc-pVDZ
+> cc-pVTZ
+> cc-pVQZ
+> cc-pV5Z
+> Basis sets
+> 10 4
+> 10 3
+> 10 2
+> 10 1
+> 10 0
+> |Energy - CBS| (Ha)
+
+System = LiH 
+
+> Chemical accuracy
+> STO-3G
+> 6-31G
+> V5Z-10
+> Dunning basis
+
+Figure 13: Shortcut to chemically accurate quantum computing via density-based basis-set correction: ground-state energy errors with respect to the extrapolated CBS limit for the LiH molecule. Dot markers correspond to energies without basis-set corrections. Cross markers correspond to the corrected energies. On the x-axis, the labels with a + sign symbolize basis-set corrected values. The blue box corresponds to a range of 1.6 mHa around the extrapolated CBS limit. Full convergence is obtained with only 28 qubits providing a 10-fold reduction in qubits requirements. Data from ref. [55]. 
+
+SABS : In the SABS method, one define a strategy to select a subset of M atomic orbitals from a basis set B = {χμ}μ=1 ,N bas such that the overlap between the density in the basis B and the new reduced basis ˜B is maximized [55]. Through the use of System-Adapted Basis Sets (SABS) [55] and GPU-accelerated emulation, the study demonstrated that ”chemical accuracy” (1.6 mHa) for molecules like H2, LiH, H2O, and N2 can be reached using as few as 10 to 32 qubits—results that would otherwise necessitate hundreds of logical qubits. Figure 13 highlights the effects of the correction for the LiH molecule that can be fully converged at the absolute chemical accuracy using only 28 qubits, avoiding therefore the brute force needs of more than 290 qubits while providing a ten-fold reduction in qubits requirements. In average, qubit reduction range from 4 to 10 depending on the electronic correlation . Table 12 provides other examples including a comparison for N2 with IBM recent computations. 
+
+Comparison with a quantum centric supercomputing approach Indeed, in their initial state-of-the art hybrid quantum centric supercomputing work [109], IBM also simulated the dissociation of the N2 molecule us-ing Sample-based Quantum Diagonalization (SQD). utilizing a cc-pVDZ (double-zeta) basis set, their approach required a ’brute force’ mapping of 58 qubits and over 10,500 gates to produce a qualitatively correct potential energy surface. However, achieving results consistent with reference methods required massive classical compu-tational overhead, involving hundreds of Fugaku supercomputer nodes and yielding an error significantly larger than the chemical accuracy threshold, see Table 12. In contrast, our hybrid DBBSC methodology achieves a higher cc-pVTZ (triple-zeta) quality for N2 using only 32 qubits on 16 H100 nodes at the time using Hyperion-1. This demonstrates the relevance of emulation strategy that allows to explore new algorithms. By drastically reducing qubit requirements while maintaining high-fidelity accuracy, our approach demonstrates a more scalable path toward chemically accurate quantum simulations on near-term hardware. For these systems, Table 4.3.2 also highlights the capabilities of Hyperion to deal with large circuit encompassing thousands of CNOTS gates. This hybrid methodology is designed for implementation on Quantum Processor Units (QPUs) and will grow in significance as logical qubit counts increase. By effectively bridging the gap between current hardware limita-tions and the stringent accuracy requirements for predictive drug design, it enables high-fidelity simulations of 27 complex biological systems. Step by step, we are replacing the Ignis database classical data by their quantum computing counterpart, progressively increasing its quality while improving the chemical space description of our foundation models. Leveraging various forms of learning, “beyond” DFT FeNNix-Bio potentials are currently under development, see [158] for discussion. Table 11: Comparison of Standard ADAPT-VQE vs ADAPT-VQE + DBBSC 
+
+Feature Standard ADAPT-VQE ADAPT-VQE + DBBSC Primary Goal Minimize energy within a fixed, finite basis set. Approach the Complete-Basis-Set (CBS) limit using small basis sets. 
+
+Basis Set Requirements Requires large basis sets (e.g., cc-pVTZ) for high-accuracy predictions. Achieves high accuracy using minimal basis sets (e.g., STO-3G, 6-31G). 
+
+Qubit Resources Qubit count scales linearly with the large basis size, often requiring hundreds of qubits. Drastically reduced; enables accurate simulations with as few as 10–30 qubits. 
+
+Correction Strategy None; results are limited by basis-set truncation errors. Hybrid: Combines quantum solver with classical density-functional and HF corrections. 
+
+Implementation Purely variational quantum algorithm. Can be applied a posteriori (Strategy 1) or self-consistently (Strategy 2). 
+
+Convergence Rate Slow convergence with respect to basis-set size. Accelerated convergence to the CBS limit through self-consistent improvement. Table 12: Comparison of ground-state energy errors (in mHa) and qubit requirements for noiseless ADAPT-VQE. For H 2O, LiH, H 2 and N 2 molecules, we compare standard ADAPT-VQE using the largest basis set that can be fitted in maximum 30 qubit with the use of our best adaptive basis sets and DBBSC. Last column presents the error with the chemical accuracy threshold ( ∼ 1.6 mHa) as the target reference. For complete results, see Ref. [55] 
+
+System Method / Basis Nqubits Energy (Ha) ∆ vs CBS (mHa) H2O 6-31G (ADAPT-VQE) 24 -76.11989 258 V5Z-11 with SC(ADAPT+PBE)+ ∆HF** 30 -76.33570 42.42 cc-pVTZ (FCI) 114 -76.33250 46 FCI (CBS) 400 † -76.37812 
+
+LiH 6-31G (ADAPT-VQE) 20 -7.99800 27 V5Z-10 with SC(ADAPT+PBE)+ ∆HF* 28 -8.02540 0.58 FCI (CBS) 290 † -8.02482 
+
+H2 cc-pVDZ (ADAPT-VQE) 20 -1.16275 10 V5Z-8 with SC(ADAPT+PBE)+ ∆HF* 24 -1.17320 0.55 FCI (CBS) 220 † -1.17265 
+
+N2 STO-3G (ADAPT-VQE) 16 -107.65251 1772 V5Z-11 with SC(ADAPT+PBE)+ ∆HF** 32 -109.37281 52 cc-pVTZ (FCI) 116 -109.37527 50 FCI(CBS) 360 † -109.42498  
+
+> * Reaches CBS chemical accuracy. ** Reaches cc-pVTZ quality. ***Sample-based quantum diagonalization (SQD) from IBM on the Fugaku supercomputer coupled to a Heron QPU [109]
+> †Number of qubits for the cc-pV5Z basis required to approach the CBS limit in a standard classical FCI scheme.
+
+28 Table 13: CNOT-gate counts for qubit and qubit-excitation-based (QEB) operator pools for ADAPT-VQE/DBBSC from ref [55] 
+
+Molecule Nqubits NCN OT (QEB) NCN OT (qubit) 
+
+H2O
+
+6-31G 24 12657 5862 V5Z-11 30 12647 5858 
+
+LiH 
+
+6-31G 20 511 242 V5Z-10 28 1083 506 
+
+H2
+
+cc-pVDZ 20 233 110 V5Z-8 24 395 186 
+
+N2
+
+STO-3G 16 4868 2256 V5Z-11 32 11718 5420 
+
+# 5 Modern Enhanced Sampling Techniques: From Structural Dynam-ics to Quantum-Accurate Properties 
+
+# 5.1 Deriving Macroscopic Observables from Molecular Simulations 
+
+In the industrial world, molecular simulation acts as a computational microscope. The vast majority of information we derive comes from properties computed as statistical averages [164]. These are based on the Boltzmann and Gibbs distributions, providing information about how atoms behave at specific temperatures and pressures. Such averages can predict the conductivity of battery electrolytes, the structural integrity of new materials or the critical distances between a drug ligand and its protein target [165–167]. As will be discussed in Subsection 5.3, quantum computers are particularly well-suited to accelerate such averages under Gibbs distributions. In fields like drug discovery, we also leverage more involved quantities, calculating complex metrics like absolute free energies of binding [168] of a drug candidate to a disease-related target, and solubility [169] of a compound. Computing these properties through quantum-accurate models ensures that our findings aren’t mere estimates, but are instead directly inherited from the first principles of physics. 
+
+5.1.1 The Timescale Challenge: Balancing Accuracy and Dynamics 
+
+Yet, a fundamental conflict remains between accuracy and time; the more accurate models are often constrained by the vast timescale gap of molecular processes. Machine Learning Potentials (MLPs) trained on massive quantum datasets have dramatically reduced the cost of computing the energy of a single configuration. But capturing these static snapshots is not the same as capturing the dynamics of moving between states. To converge these properties, we need simulation timescales that remain out of reach for today’s infrastructure [170]. For example, simulating a complete ligand binding process to a protein requires microseconds or milliseconds of molecular dynamics [171]. Without a method to accelerate the dynamics, the timescale required to connect these static snapshots becomes prohibitive, leaving no choice but to use classical models that fail to capture the quantum essence of the system. Some researchers try to skip the simulation entirely by using purely data driven techniques leveraging ex-perimental macroscopic values [172, 173], but these “black box” methods often fail to generalize [174–176] and lack explainability. In drug design, physics-based explainability is essential; knowing exactly how a single water molecule moves in a binding pocket can be the difference between a failed trial and a potent drug [177, 178]. 
+
+# 5.2 Overcoming Energetic Bottlenecks with Enhanced Sampling 
+
+This is where Enhanced Sampling becomes indispensable . By applying a strategic bias to the simula-tion [179], allowing the overcoming of energetic barriers (see Fig. 14), we bypass the need to wait for rare events to occur spontaneously, dramatically compressing the time required to sample the relevant physics . Our team developed two specific “accelerators”: Lambda-ABF-OPES [36, 180] to calculate the absolute binding free energy (ABFE) of a ligand to a macromolecular target and Dual-LAO [181] to calculate the relative binding 
+
+29 free energy (RBFE) between molecules for the same target, a key aspect of the hit optimisation stage of drug discovery. These methods use an ”alchemical path”—essentially turning the ligand into a “ghost” to decouple it from its target. By combining a dynamical alchemical variable ( λ), Adaptive Biasing Force (ABF) [182–184], On-the-fly Probability Enhanced Sampling (OPES) [185, 186], and Thermodynamic Integration (TI) [187]. Free Energy Surface Reaction coordinate 
+
+> Standard Molecular dynamics Enhanced Sampling
+
+Figure 14: Free energy surface (FES) profiles for a protein-ligand binding event . The upper panel illustrates the rugged transition state barrier and the high energy required to move between the unbound and bound states. In standard Molecular Dynamics (MD), these high barriers lead to kinetic trapping in local minima. The lower panel demonstrates the application of enhanced sampling techniques, which effectively flatten the free energy landscape. This reduction in barrier height allows the simulation to overcome energetic bottlenecks and explore both states within a feasible computational timescale. 
+
+5.2.1 Lambda-ABF-OPES: Maximizing Convergence and Computational Efficiency 
+
+ABFE calculations are traditionally difficult to converge due to the high dimensionality of the phase space and the significant energy barriers involved. To evaluate the efficiency of our proposed method, we applied it to calculate the ABFE of 11 ligand-protein complexes of BRD4 [36], which serves as a realistic and widely recognized benchmark for such alchemical methods. 
+
+Accuracy and speedup As demonstrated in Ref. 36, our Lambda-ABF-OPES (LAO) protocol achieves up to a 9-fold increase in sampling efficiency over the standard L-ABF implementation [180]. We further compared the total simulation cost of LAO against traditional fixed-λ (FL) alchemical methods and modern physics-based methods such as OneOPES (OO) [188]. For the BRD4 system, our results indicate that LAO is approximately 4.4 times faster than the FL method [189] and between 20 to 58 times faster than OO [190] (see Table 14). Crucially, this significant gain in speed is achieved while maintaining high accuracy. This confirms that the accelerated convergence of LAO does not compromise the precision required for reliable drug discovery applications. 
+
+Computational time saving As shown in Table 15, the accelerated convergence of the LAO method leads to substantial savings in computational resources. For this 11 ligand-complex system alone, LAO results in a total saving of approximately 21,384 ns of simulation time compared to the FL method and over 51,264 ns compared to the OO protocol. This reduction in the total computational footprint allows for significantly faster lead optimization cycles in drug discovery without sacrificing the accuracy of the binding affinity predictions. 30 Table 14: Binding free energy ( ∆G, kcal/mol) and computational cost (ns) comparison across LAO, FL, and OO methods for BRD4 ligands.                                                                                                                                                                                                     
+
+> Cpd. ∆GEXP ∆GLAO ∆GF L ∆GOO Total Time (ns) LAO Speedup
+> (Ours) LAO aFL bOO cvs. FL vs. OO L1 −9.8±0.1−10 .56 ±0.46 −10 .4±0.6−10 .5±0.3192 840 4000 4.4x 20.8x
+> L2 −9.6±0.1−8.26 ±0.22 −9.5±0.4−7.8±0.2192 840 5600 4.4x 29.2x
+> L3 −9.0±0.1−9.19 ±0.30 −9.2±0.5−8.8±0.4192 840 4000 4.4x 20.8x
+> L4 −8.9±0.1−10 .13 ±0.15 −9.4±0.8−9.5±0.5192 840 4800 4.4x 25.0x
+> L5 −8.8±0.1−8.27 ±0.52 −8.6±0.3−8.4±0.5192 840 4000 4.4x 20.8x
+> L6 −8.2±0.1−6.75 ±0.30 −9.9±0.8−10 .0±0.3192 840 11200 4.4x 58.3x
+> L7 −7.8±0.1−6.42 ±0.65 −5.9±0.5−7.9±0.2192 840 4800 4.4x 25.0x
+> L8 −7.4±0.1−5.46 ±0.53 −7.8±0.3−6.9±0.3192 840 4000 4.4x 20.8x
+> L9 −7.3±0.1−7.57 ±0.12 −7.7±0.4−8.3±0.3192 840 4000 4.4x 20.8x
+> L10 −6.3±0.0−7.05 ±0.33 −5.9±0.2−5.9±0.2192 840 5600 4.4x 29.2x
+> L11 −5.6−4.98 ±0.58 −5.4±0.2−6.7±0.5192 840 5600 4.4x 29.2x
+> a
+
+Simulation time per ligand: 36 ns × 4 walkers for the complex phase + 12 ns times 4 walkers for the solvent phase  
+
+> b
+
+Simulation time per ligand calculated as 73 fixed-λ windows (42 for complex, 31 for solvent phase) of 11.5 ns each (0.5 ns NVT and 1.0 ns NPT equilibration, 10 ns production)  
+
+> c
+
+Simulations using 8 walkers, with total simulation time varying ranging between 4000 and 11200 ns 
+
+Table 15: Total computational cost comparison for the 11-ligand BRD4 set. Total time for LAO and FL includes 3 independent repeats per ligand to account for statistical convergence. OO represents the sum of the individual production runs required for the 11-ligand set. 
+
+Method Calculations Total Sim. (ns) Net Savings 
+
+LAO (Ours) 11 Ligands × 3 Repeats 6,336 –Fixed-λ (FL) 11 Ligands × 3 Repeats 27,720 21,384 ns saved 
+
+oneOPES (OO) 11 Ligands (Single Runs) 57,600 51,264 ns saved 
+
+5.2.2 Dual-LAO: Navigating Complex Topological Transformations for High-Throughput Relative Binding Free Energies 
+
+RBFE calculations play a critical role in the hit-to-lead optimization phase of structure-based drug discovery; however, their practical utility is frequently constrained by the substantial computational overhead required to achieve converged results, particularly for chemically diverse transformations. To demonstrate the versatility of our approach, we applied the Dual-LAO method to a set of four highly challenging benchmark systems: PWWP1 (contains charge-changing ionic transitions), BRD4 (buried water displacement), P38 (fragment-like large shifts), and CHK1 (scaffold-hopping via ring-breaking). We compared our performance against the state-of-the-art FEP+ protocol commercialized by Schrödinger [191], which typically requires extensive sampling across numerous λ-windows to ensure accuracy. 
+
+Accuracy and speedup As summarized in Table 16, Dual-LAO consistently outperforms the FEP+ baseline in both precision and efficiency . Our method achieves significantly lower RMSE values—most notably in the PWWP1 and BRD4 systems—while requiring a fraction of the sampling time. Specifically, Dual-LAO provides a speedup of up to 30-fold per edge (averaging 24 ns per transformation) compared to the 480–960 ns required by standard FEP+ protocols. These results indicate that Dual-LAO successfully navigates complex topological changes and solvent rearrangements without the need for the dense λ-staging traditionally required for convergence. The aggregate impact on computational resources is even more pronounced when considering the entire benchmark set. 
+
+Computational time saving As detailed in Table 17, across the 56 studied transformations (including three independent repeats to ensure statistical robustness), the Dual-LAO method requires a total of only 4,500 ns of simulation time. In contrast, the standard FEP+ protocol necessitates over 87,000 ns to complete the same set. This results in a net saving of approximately 82,7 μs of simulation time. Such a massive reduction in the computational footprint facilitates significantly higher throughput in lead optimization, enabling the rapid exploration of vast chemical spaces that were previously cost-prohibitive for high-precision alchemical methods. 31 Table 16: Performance and Efficiency Benchmark: Dual-LAO vs. FEP+ Method. Summary of accuracy (RMSE in kcal/mol) and computational cost. Dual-LAO consistently achieves higher accuracy with significantly lower total sampling times compared to standard FEP+ protocol.                                                                     
+
+> System Challenge Type Method Sampling/Edge RMSE R2Speedup/Edge
+> PWWP1 Charge-Changing Dual-LAO 24 ns a0.43 0.92 30x
+> (Ionic Change) FEP+ [192] 960 ns b[191] 1.14 0.79 –
+> BRD4 Buried Water Dual-LAO 24 ns a0.60 0.75 15x
+> (Displacement) FEP+ [191] 480 ns c2.05 ≈0–
+> P38 Fragment-like Dual-LAO 24 ns a0.66 0.82 15x
+> (Large Shift) FEP+ [191] 480 ns c0.90 0.56 –
+> CHK1 Scaffold-Hopping Dual-LAO 24 ns a0.52 0.57 27x
+> (Ring-Breaking) FEP+ [191] 640 ns d0.18 0.76 –
+> a4 ns ×4 walkers complex) + (2 ns ×4 walkers solvent.
+> b24 λwindows simulated for 20 ns per window per phase.
+> c12 λwindows simulated for 20 ns per window per phase.
+> d16 λwindows simulated for 20 ns per window per phase.
+> Note: All RMSE values are in kcal/mol. Dual-LAO consistently outperforms benchmarks in both efficiency and precision.
+
+Table 17: System-Specific Computational Savings with Dual-LAO. Comparison of cumulative sampling time (ns) required across all 56 transformations. By reducing the sampling per edge to a unified 24 ns, Dual-LAO achieves a total reduction of 82,860 ns (approx. 82,7 μs).                                 
+
+> System No. Edges FEP+ Total (ns) Dual-LAO Total (ns) Net Savings (ns)
+> PWWP1 30 ×3 Rep. 46,080 2160 93,920
+> BRD4 11 ×3 Rep. 15,840 990 14,850
+> P38 7×3 Rep. 10,080 630 9,450
+> CHK1 8×3 Rep. 15,360 720 14,640 Total 56 ×3 Rep. 86,360 4,500 82,860
+
+Ultimately, combining modern enhanced sampling techniques with the latest machine learning potentials makes the computation of quantum-accurate properties a practical reality. This powerful synergy holds the promise of significantly improving the utility of molecular simulations in industrial applications like drug discovery. Moreover, the next section highlights further possible enhancements leveraging Quantum Computing. 
+
+# 5.3 Quantum Speedups for Statistical Mechanics and Molecular Simulation 
+
+As we have discussed, molecular dynamics ultimately reduce to the computation of statistical averages. More precisely, one is often interested in estimating expectation values with respect to the Gibbs distribution associated with a physical system. In practice, these quantities are typically computed using Markov Chain Monte Carlo methods, where a Markov chain is used to generate samples from the target distribution. Quantum computers are particularly well suited to accelerate such tasks. 
+
+5.3.1 End-to-end quadratic speedups for equilibrium sampling and observable estimation 
+
+In practice, Gibbs measures evaluations as described in the above sections can be accessed through Markov Chain Monte Carlo (MCMC), whose efficiency is governed by the spectral gap and mixing properties of the underlying Markov process. In complex energy landscapes, mixing times can be prohibitively long, and achieving small statistical error requires a large number of samples. Quantum algorithms offer two distinct avenues for acceleration. First, given access to samples, amplitude estimation provides a quadratic improvement in precision over classical Monte Carlo sampling [193]. This replaces the classical O(1 /ϵ 2) sampling complexity for error ϵ with O(1 /ϵ ). Second, quantum walks associated with reversible Markov chains exhibit a quadratic improvement in spectral gap dependence [194], suggesting a quadratic reduction of the asymptotic mixing rate from O(1 /δ ) to O
+
+(
+
+1/√δ
+
+)
+
+, where δ is the classical gap. Together, these ingredients suggest the possibility of end-to-end quadratic speedups for quantum equilibrium sampling and observable estimation .32 However, asymptotic improvements in mixing or precision do not automatically translate into practical speedups. Any realistic advantage requires a fully end-to-end implementation that includes state preparation, controlled reflections, amplitude amplification, and ultimately fault-tolerant error correction. In particular, quan-tum walk speedups presuppose nontrivial initial state preparation. Circumventing this requirement is known as the quantum walk mixing problem [195]. A complementary approach is provided by continuous-time quantum Gibbs samplers based on physically motivated Lindbladians, as developed in [196, 197]. These algorithms simulate open quantum system dynamics whose fixed point is the Gibbs state. Crucially, because the evolution contracts arbitrary initial states toward equilibrium, this framework requires far less a priori knowledge of the target thermal state and alleviates the initial state bottleneck that limits previously mentioned quantum walk-based methods. However, it does not provide a clear spectral gap amplification mechanism. Thus, quantum algorithms provide compelling asymptotic evidence for accelerated Gibbs sampling, via both quadratic precision improvements and gap amplification. Achieving genuine practical speedups hinges on over-coming the initial state preparation barrier and integrating these primitives into resource-efficient, fault-tolerant architectures [11, 80, 198, 199]. Resolving these challenges would bring quantum advantage in statistical mechan-ics and its applications significantly closer to reality. In other words, quantum algorithms promise to accelerate drug discovery by facilitating binding free energy estimations and the study of protein-ligand complexes, which Section 4 explains are central to the field. Moreover, some of us have shown that current quantum devices such as Quantinuum’s H2 and 98-qubits Helios can already achieve small quantum Markov Chain Monte Carlo simulations [12], opening a new route for quantum-accelerated atomistic molecular simulations. Let us detailed these recent experiments. 
+
+5.3.2 Experimental Realization of the Markov Chain Monte Carlo Algorithm on a Quantum Com-puter 
+
+The experiments reported in this section were carried out on the H2 and Helios Quantinuum trapped-ion quantum computers . The objective of the experiments is to demonstrate, on present-day Noisy Intermediate-Scale Quantum (NISQ) hardware, a minimal instance of quantum Markov Chain Monte Carlo workflow . The present experiments combine a quantum encoding of a simple Markov chain with amplitude estimation in order to illustrate this approach on real devices. Table 18 reports the experimental results obtained when using the prepared stationary state π to estimate the expectation value Eπ (f ) = 0 .5 of a function f through Quantum Amplitude Estimation. In the context of this simple two-state Markov chain, the experiment provides a minimal demonstration of a quantum Markov Chain Monte Carlo procedure. A quantum circuit first prepares the stationary distribution, after which amplitude estimation evaluates the mean. Each successful state preparation produces an estimate for Eπ (f ). The possible outputs are discrete, and correspond to the values of 0, 0.5, and 1. The table therefore reports how often each of these outcomes was observed over repeated runs of the circuit on the two devices. In the absence of noise, the algorithm would return 0.5 in every successful run, as indicated in the ”Expected” row. In practice, the overwhelming majority of measurements indeed concentrate on this value, while a small number of outcomes appear at 0 and 1. Despite the imperfect gates of current hardware, the implemented circuits reliably capture the target expectation value .
+
+Measured Eπ (f ): 0 0.5 1H2-1 12 444 29 
+
+Helios 8 464 16 
+
+Expected 0 500 0Table 18: Measurements of Eπ (f ) with 10 3 shots via the linear combination of unitaries method. The state preparation was successful 485 times on H2-1 and 488 times on Helios. Data from ref. [12]. We also experimentally test one of our quantum walk constructions designed for the Metropolis-Hastings algorithm, the most widely used Markov Chain Monte Carlo method. The theoretical framework and circuit construction are presented in [11]. To validate the implementation of the quantum walk, we perform the following experiment. The target fixed point of the walk operator is prepared by applying a unitary V to the initial state |0⟩. The computational basis statistics of this state are measured. The operator W is then applied, and the same statistics are measured 33 again. The statistics are expected to remain unchanged. Figure 15 shows the measurement histograms obtained on the H2-1, H2-2 and Helios devices. In this particular case, the state under study is V |0⟩ = WV |0⟩ = 
+
+> 1√8
+
+(|10 ⟩ + |12 ⟩ + |18 ⟩ + |20 ⟩ + |42 ⟩ + |44 ⟩ + |50 ⟩ + |52 ⟩).2      
+
+> 4
+> 5
+> 8
+> 9
+> 10
+> 11
+> 12
+> 13
+> 14
+> 16
+> 18
+> 19
+> 20
+> 21
+> 22
+> 23
+> 26
+> 28
+> 34
+> 36
+> 37
+> 40
+> 41
+> 42
+> 43
+> 44
+> 45
+> 46
+> 47
+> 48
+> 49
+> 50
+> 51
+> 52
+> 53
+> 54
+> 55
+> 58
+> 59
+> 60
+> 61
+> Measured computational basis state
+> 0
+> 200
+> 400
+> 600
+> 800
+> 1000
+> 1200
+> 1400
+> Counts
+> V|0 H2-1
+> V|0 H2-1
+> V|0 H2-2
+> V|0 H2-2
+> V|0 Helios
+> V|0 Helios
+> Expected count (1250)
+
+Figure 15: Measurement statistics of 10 4 measurements of V |0⟩ and WV |0⟩ on Quantinuum’s H2-1, H2-2 and Helios devices. We expect V |0⟩ to be a 1 eigenvector of W, thus should remain unchanged after the application of the walk operator. The eigenstate is 
+
+V |0⟩ = WV |0⟩ = 1√8 (|10 ⟩ + |12 ⟩ + |18 ⟩ + |20 ⟩ + |42 ⟩ + |44 ⟩ + |50 ⟩ + |52 ⟩) . Data from ref. [12]. Our results show that, at the current noise levels, circuits of depth corresponding to roughly 250 el-ementary gates can still yield quantitatively meaningful Monte Carlo estimates, even when applied directly to the physical qubits . By leveraging the full quadratic speedups of Markov Chain Monte Carlo al-gorithms, this approach offers broad utility in our drug design pipeline as it impacts statistical physics and computational chemistry but also Bayesian inference, and machine learning optimization .
+
+# Conclusion 
+
+The convergence of these next-generation algorithms has been already implemented within a drug discovery pipeline [200]. It enables the large-scale, high-fidelity prediction of novel therapeutics for complex challenges in areas that require new treatments such as oncology, inflammation or respiratory diseases. It marks a trans-formative shift in drug discovery , moving the field from trial-and-error methodologies toward a future of quantitative, quantum-accurate precision . Indeed, the proposed integrated approach (1) establishes a unique competitive position by transcending the inherent trade-offs between chemical accuracy and computational scalability that currently constrain the industry. Unlike classical AI drug discovery platforms that often rely on “black box” data-driven techniques, which can fail to generalize or provide physical explainability, our framework utilizes the FeNNix-Bio1 foundation model (and associated Ignis proprietary database ) to ensure results are directly inherited from first principles, providing the “intelligence” for interactions while leveraging the scalable Tinker-HP engine. While pure-play quantum approaches remain constrained by the ’qubit bottleneck’ of NISQ-era hardware, our hybrid methodology—leveraging Hyperion emulators and Density-Based Basis-Set Correction (DBBSC)—achieves chemical accuracy today. By using only 10 to 36-40 qubits, we deliver up to ten-fold reduction in resource overhead compared to brute-force methods enabling to explore systems far beyond the 300 qubits limits . As hardware scales, this framework, which is QPU-ready, will signifi-cantly accelerate the deployment of QPUs for high-fidelity quantum data production . Furthermore, compared to usual Pharma internal efforts that frequently rely on empirical force fields requiring tedious manual parameterization, this tripartite synergy automates high-precision simulations for dynamic, reactive systems with over millions of atoms using machine learning foundation models. By mapping an exponentially large Hilbert 34 space onto a linear number of qubits to bypass the “exponential wall” of classical many-body problems and by utilizing quantum-enhanced sampling to provide quantum acceleration for simulations, this approach serves as a superior, complementary frontier for modeling the reactive reality of complex cellular environments. While neu-ral network architectures are also expected to evolve alongside emerging quantum capabilities [201], 
+
+this tripartite synergy is already addressing critical pharmacological challenges . By leveraging current NISQ technology, these hybrid systems enable complex water placement studies in proteins through quantum optimization and achieve chemical accuracy in electronic structures via state-of-the-art GPU-accelerated quantum emulation. This progress establishes a clear trajectory toward near-exact, Schrödinger-level, precision 
+
+as hardware and Quantum Phase Estimation (QPE) algorithms mature. As quantum hardware transitions to-ward fault-tolerance, it will also emerge as the “beyond GPU” frontier - providing quadratic speedups for statistical mechanics , including Monte Carlo and molecular dynamics simulations. This technological leap bridges the gap between static protein snapshots and the dynamic, reactive reality of complex cellular environ-ments. Finally, while drug discovery represents a rigorous benchmark for simulation accuracy, the HPQC and ML synergy extends far beyond life sciences; these methodologies are equally transformative for modeling electrolytes, next-generation batteries, and advanced materials. 
+
+# 6 Technical Appendix 
+
+# 6.1 Classical Quantum Chemistry 
+
+6.1.1 Hartree-Fock Theory 
+
+At the lowest level of the Pople diagram, Hartree–Fock (HF) theory treats electrons within a mean-field approx-imation, neglecting their instantaneous correlated motion. The solution of the Hartree-Fock approximation is a compact single determinant ΦHF ({ci}i=1 ,N MO ; x1, x2, ..., xNelec ), where {ci}i=1 ,N MO are a set of parameter to optimize in this problem. Starting with an Hartree-Fock calculation is a good starting point to have a crude qualitative description of the molecular system but not quantitatively comparable with experiments. To allow the latter, on must take into account the instantaneous correlated motions. For that there are the two main family of correlated methods: 1) methods based on density functional theory (DFT).; 2)methods based on the wave-function approximation (WFT) that we will introduce in the following paragraphs, 
+
+6.1.2 Density-functional Theory 
+
+The Hohenberg-Kohn theorem demonstrating the mapping from the potential (in our case electron-nucleus) to the ground-state density. Thus, DFT can claim a considerable reduction of the computational cost of quantities comparable with experiments in comparison with wave-function based approaches. In the Kohn-Sham formulation of DFT, one solves the following minimization problem in terms of single-determinant wave functions Φ:
+
+E0 = min 
+
+> Φ
+
+{
+
+< Φ| ˆT + ˆVne |Φ > +EHxc [nΦ]
+
+}
+
+, (6) where EHxc is the Hartree-Exchange-correlation density functional and nΦ is the electronic one-electron density of the single-determinant wave function Φ. We note that DFT allows to accounts for correlation effects through a single-determinant formulation where the correlation is hidden in a density functional. In practice, DFT suffers from the unknown exact expression of EHxc [nΦ]. Therefore, in practice one must choose among a zoo of ap-proximations which are sufficient to make density-functional approximation a standard in chemistry applications but which lacks 1) systematic improvements of the approximations 2) systematic understanding of successful of unsuccessful results. In practice, DFT is the ”workhorse” of quantum chemistry because it shifts the focus from the complex, 3N -dimensional wavefunction (where N is the number of electrons) to the 3-dimensional electron density. This mathematical shift reduces the computational complexity from exponential to a much more man-ageable cubic scaling ( O(N 3)), allowing researchers to model systems with hundreds or even thousands of atoms. By using functional approximations to handle electron correlation and exchange, DFT provides a remarkable balance: it is accurate enough to predict chemical properties like bond lengths and reaction energies, yet efficient enough to be run on standard laboratory computers. In the context of the design of NNPs, this balance allows DFT to be used to compute large scale databases of millions of energies and forces. 35 6.1.3 Wave-function Theory 
+
+In this family of methods, one focuses on the form and parameterization of the wave-function Ψ( {θ}; x1, x2, ..., xNelec )
+
+and the associated methods to optimize the problem parameters {θ} by taking into account the exact electron-electron interaction. In this section, we will mention, among all the available approaches, selected CI and DMRG who are expressed as variational problem but also coupled-cluster and diffusion Monte-Carlo which can be qual-ified as projector method where the standard implementations leads to non-variational problems. 
+
+Selected Configuration Interaction (sCI) methods sCI [62,63] construct systematically improvable multi-determinant wavefunctions by iteratively selecting the most important determinants from the Full-CI expansion. These methods achieve high accuracy while using only a small fraction of the full configurational space. At iter-ation k, the sCI wavefunction is a linear combination of the set of determinants {| Φ(k) 
+
+> i
+
+⟩} i=1 , ˜N (k)
+
+> det
+
+with coefficients 
+
+{d(k) 
+
+> i
+
+}:
+
+|Ψ(k)
+
+> sCI
+
+({d(k) 
+
+> i
+
+}i=1 , ˜N (k)
+
+> det
+
+; x1, x2, ..., xNelec )⟩ = d(k)0 |ΦHF ⟩ + 
+
+> ˜N(k)
+> det
+
+∑
+
+> i=1
+
+d(k) 
+
+> i
+
+|Φ(k) 
+
+> i
+
+⟩ , (7) where ˜N (k) 
+
+> det
+
+is the number of included determinants at iteration k. To expand the wavefunction and explore more of the full configurational space, new determinants are selected from those connected to the current wavefunction. Our Hamiltonian is at most a two-electron operator, so the number of connections to any determinant in {| Φ(k) 
+
+> i
+
+⟩} is quartic in the system size ( O(N 2
+
+> elec
+
+N 2
+
+> MO
+
+)). Some selection criterion is evaluated for these connected determinants, and the best N (k) 
+
+> sel
+
+of these are added to the wavefunction to obtain {| Φ(k+1)  
+
+> i
+
+⟩} i=1 , ˜N (k+1) 
+
+> det
+
+, where ˜N (k+1)  
+
+> det
+
+= ˜N (k) 
+
+> det
+
++
+
+N (k) 
+
+> sel
+
+.This class of methods provides a controllable path toward the exact solution (by iteratively increasing ˜Ndet ), and it also has enormous flexibility in all parts of the iterative process (e.g., periodically pruning unimpor-tant determinants, using stochastic methods, incorporating different selection criteria, using parameterized filter-ing/screening techniques) [63, 202–204]. The full configurational space grows exponentially with system size, so sCI methods will still hit the exponential wall: achieving progressively smaller improvements in energy requires an exponentially growing number of determinants as the Full-CI limit is approached; however, these methods traverse the space in a way that can yield incredibly accurate results for problem sizes that are not feasible with other high-accuracy methods. 
+
+Coupled Cluster approaches These methods, particularly CCSD(T) [57], are often considered the “gold standard”, provide high accuracy but exhibit steep computational scaling (typically O(N 7)) and can fail for strongly correlated, multireference systems. In this approach, we consider an exponential ansatz for the wave-function: 
+
+|ΨCCSD ⟩ = e ˆT1+ ˆT2 |ΦHF ⟩ , (8) where ˆT1 and ˆT2 are cluster of excitation operators such as ˆT1 groups one-electron excitation operators, and similar with ˆT2. Solving the CCSD problem is, roughly, optimizing the parameters of the excitation operators through a set of amplitudes equations based on a projection onto the Hartree-Fock solution. Alternative high-accuracy approaches include the Density Matrix Renormalization Group (DMRG) and Diffusion Quantum Monte Carlo (DMC). 
+
+Density Matrix Renormalization Group DMRG is [58–60] a popular optimization technique to approxi-mate the ground-state energy of strongly correlated quantum systems, it can be seen as a numerical algorithm for the efficient truncation of the Hilbert space of low-dimensional quantum systems. It was developed to overcome the curse of dimensionality, where the dimension of the quantum many-body Hamiltonian scales exponentially with the number of degrees of freedom, making exact diagonalization impossible for larger systems. In the original formulation of White [58], DMRG algorithm uses a truncated iterative diagonalization ( a decimation procedure) that divides a large system into smaller numerical solvable blocks. This formulation uses two main strategies. The infinite-system approach iteratively increases the system size while truncating the basis, retaining only the eigenvectors that correspond to the highest eigenvalues of the reduced density matrices. The finite-system approach refines this initial approximation by keeping the total system size fixed and employing a sweeping protocol. By systematically growing one block while shrinking the other, this back-and-forth sweeping 36 optimizes the wave function variationally, ensuring the estimated energy decreases until convergence is reached. A few years after its invention, DMRG was reformulated using the language of tensor networks, which allows for much more efficient computer coding. The finite-system DMRG is cast as a variational optimization routine where the Hamiltonians are represented as Matrix Product Operators (MPO) and the wavefunction as an MPS. Rather than explicitly constructing and diagonalizing density matrices to truncate the system, this approach applies a Singular Value Decomposition (SVD) to the local tensors within the MPS. Discarding the lowest singular values during the SVD yields optimal data compression, this is mathematically equivalent to retaining the highest eigenvalues of the density matrix in the original formulation. While DMRG is an incredibly powerful tool for specific types of physics problems, DMRG is practically only efficient for one-dimensional (1D) quantum models. The method’s success relies on truncating the Hilbert space to a maximum number of retained states, denoted by the bond dimension D. If a quantum state is highly entangled, such as in two or three-dimensional systems that obey boundary area laws, the required bond dimension D scales exponentially with the system size. In such cases, the algorithm encounters the very exponential wall it was originally designed to bypass. Last but not least, one can consider Diffusion Monte Carlo (DMC). 
+
+Diffusion Monte Carlo (DMC) DMC [61] is a stochastic quantum chemistry method that solves the many-body Schrödinger equation by evolving an initial wavefunction in imaginary time. Unlike traditional ab initio methods that rely on finite basis sets, DMC operates directly in real space, making it inherently free from basis-set incompleteness errors and allowing it to reach the infinite-basis (CBS) limit by construction. The algorithm works by ensuring that any trial state not orthogonal to the ground state will converge to that ground state in the long-time limit. To handle the fermion sign problem, DMC typically employs the fixed-node (FN) approximation, which constrains the nodal surface of the many-body wavefunction to match that of a reference trial wavefunction, such as a Slater-Jastrow form. Due to its ”embarrassingly parallel” nature, DMC is ideally suited for exascale supercomputing, enabling highly accurate energy and force evaluations for complex molecular systems containing thousands of electrons on exascale-class supercomputers. 
+
+6.1.4 Basis Sets General case In quantum chemistry, basis sets are collections of one-electron orbital functions, typically Gaussian-type orbitals (GTOs) , used to represent the electronic Hamiltonian and describe the molecular wave-function. Because a finite number of functions can only approximate the true, continuous electronic distribution, the choice of basis set directly dictates the accuracy and computational cost of a simulation. The Complete Basis-Set (CBS) limit represents the theoretical point where the basis set becomes infinitely large, meaning the mathematical representation is no longer constrained by the number of functions used. Reaching the CBS limit is essential for achieving ”chemical accuracy”—an error within approximately 1.6 mHa—as exact solutions like Full Configuration Interaction (FCI) are defined only at this limit. Since using an infinite basis is physically impos-sible, researchers typically estimate the CBS limit through extrapolation schemes or utilize corrective methods, such as Density-Based Basis-Set Correction (DBBSC), to approach it with significantly fewer quantum resources. Alternatively, among the classical quantum chemistry methods, the primary advantage of Diffusion Monte Carlo (DMC) is its ability to operate directly in real space, which makes it inherently free from basis-set incompleteness errors and allows it to reach the CBS limit by construction. 
+
+Quantum Computing In quantum computing, the choice of basis sets is directly related to the number of qubits required for a simulation, as the encoding of the molecular problem determines how many quantum resources are consumed. In the standard second-quantized framework often used for chemistry, the electronic Hamiltonian is mapped such that one spin-orbital corresponds to one qubit. Consequently, using a larger and more accurate basis set (moving toward the CBS limit) linearly increases the number of qubits needed. Therefore, achieving chemically useful results typically requires basis sets much larger than minimal ones. For complex molecules, the qubit count for these large basis sets quickly exceeds the capacity of current NISQ hardware and early FTQC (Fault-Tolerant Quantum Computing) devices. Techniques like DBBSC (Density-Based Basis-Set Correction) act as a ”shortcut” by allowing high-accuracy predictions—comparable to large basis sets—while using minimal basis sets that require far fewer qubits. For example, reaching ”triple-zeta” quality for an N2
+
+molecule, which might normally require 100 qubits, can be achieved with only 16 qubits using these correction methods.Alternatively, in first-quantized real-space formulations, the relationship changes: the qubit count scales logarithmically with the spatial resolution of the grid rather than linearly with the number of orbitals 37 Acknowledgments 
+
+The authors thank Marie-Céline Bezat, Christophe Jurczak and Robert Marino for careful reading of the manuscript. This work has received funding from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation program (grant agreement No 810367), project EMC2 (JPP). Support from the PEPR EPIQ - Quantum Software (ANR-22-PETQ-0007, JPP) and HQI (JPP) programs is acknowledged. 
+
+# References 
+
+[1] Josh Abramson, Jonas Adler, Jack Dunger, Richard Evans, Tim Green, Alexander Pritzel, Olaf Ron-neberger, Lindsay Willmore, Andrew J Ballard, Joshua Bambrick, et al. Accurate structure prediction of biomolecular interactions with alphafold 3. Nature, 630(8016):493–500, 2024. [2] Berni J Alder and Thomas Everett Wainwright. Studies in molecular dynamics. i. general method. The Journal of Chemical Physics, 31(2):459–466, 1959. [3] J Andrew McCammon, Bruce R Gelin, and Martin Karplus. Dynamics of folded proteins. Nature, 267(5612):585–590, 1977. [4] R. Car and M. Parrinello. Unified approach for molecular dynamics and density-functional theory. Physical Review Letters, 55:2471–2474, Nov 1985. [5] Thomas D Kühne, Marcella Iannuzzi, Mauro Del Ben, Vladimir V Rybkin, Patrick Seewald, Frederick Stein, Teodoro Laino, Rustam Z Khaliullin, Ole Schütt, Florian Schiffmann, et al. Cp2k: An electronic structure and molecular dynamics software package-quickstep: Efficient and accurate electronic structure calculations. The Journal of Chemical Physics, 152(19), 2020. [6] Jörg Behler and Michele Parrinello. Generalized neural-network representation of high-dimensional potential-energy surfaces. Physical Review Letters, 98(14):146401, 2007. [7] Emir Kocer, Tsz Wai Ko, and Jörg Behler. Neural network potentials: A concise overview of methods. Annual Review of Physical Chemistry, 73(Volume 73, 2022):163–186, 2022. [8] Alexander D. MacKerell. Chapter 7 empirical force fields for proteins: Current status and future directions, 2005. [9] Justin S Smith, Olexandr Isayev, and Adrian E Roitberg. Ani-1: an extensible neural network potential with dft accuracy at force field computational cost. Chemical Science, 8(4):3192–3203, 2017. [10] Thomas Plé, Olivier Adjoua, Anouar Benali, Evgeny Posenitskiy, Corentin Villot, Louis Lagardère, and Jean-Philip Piquemal. A foundation model for accurate atomistic simulations in drug design. preprint ChemRxiv, DOI: 10.26434/chemrxiv-2025-f1hgn-v4, 2025. [11] Baptiste Claudon, Pablo Rodenas-Ruiz, Jean-Philip Piquemal, and Pierre Monmarché. Quantum circuits for the metropolis-hastings algorithm. arxiv:2506.11576, 2026. [12] Baptiste Claudon, Sergi Ramos-Calderer, and Jean-Philip Piquemal. Experimental realization of the markov chain monte carlo algorithm on a quantum computer. arxiv:2603.08395, 2026. [13] Olivier Adjoua, Siwar Badreddine, César Feniou, Igor Chollet, Diata Traore, Guillaume Michel, and Jean-Philip Piquemal. High performance quantum emulation for chemistry applications with hyperion. arXiv:, 2026. [14] John Preskill. Quantum computing in the nisq era and beyond. Quantum, 2:79, 2018. [15] Earl T Campbell, Barbara M Terhal, and Christophe Vuillot. Roads towards fault-tolerant universal quan-tum computation. Nature, 549(7671):172–179, 2017. [16] Dolev Bluvstein, Simon J Evered, Alexandra A Geim, Sophie H Li, Hengyun Zhou, Tom Manovitz, Sepehr Ebadi, Madelyn Cain, Marcin Kalinowski, Dominik Hangleiter, et al. Logical quantum processor based on reconfigurable atom arrays. Nature, 626(7997):58–65, 2024. 38 [17] Google Quantum AI and Collaborators. Quantum error correction below the surface code threshold. Nature, 638(8052):920–926, 2025. [18] Morten Kjaergaard, Mollie E Schwartz, Jochen Braumüller, Philip Krantz, Joel I-J Wang, Simon Gustavs-son, and William D Oliver. Superconducting qubits: Current state of play. Annual Review of Condensed Matter Physics, 11(1):369–395, 2020. [19] Youngseok Kim, Andrew Eddins, Sajant Anand, Ken Xuan Wei, Ewout Van Den Berg, Sami Rosenblatt, Hasan Nayfeh, Yantao Wu, Michael Zaletel, Kristan Temme, et al. Evidence for the utility of quantum computing before fault tolerance. Nature, 618(7965):500–505, 2023. [20] Ulysse Réglade, Adrien Bocquet, Ronan Gautier, Joachim Cohen, Antoine Marquet, Emanuele Albertinale, Natalia Pankratova, Mattis Hallén, Felix Rautschke, L-A Sellem, et al. Quantum control of a cat qubit with bit-flip times exceeding ten seconds. Nature, 629(8013):778–783, 2024. [21] Colin D Bruzewicz, John Chiaverini, Robert McConnell, and Jeremy M Sage. Trapped-ion quantum com-puting: Progress and challenges. Applied physics reviews, 6(2), 2019. [22] Steven A Moses, Charles H Baldwin, Michael S Allman, R Ancona, L Ascarrunz, C Barnes, J Bartolotta, B Bjork, P Blanchard, M Bohn, et al. A race-track trapped-ion quantum processor. Physical Review X, 13(4):041052, 2023. [23] Loïc Henriet, Lucas Beguin, Adrien Signoles, Thierry Lahaye, Antoine Browaeys, Georges-Olivier Reymond, and Christophe Jurczak. Quantum computing with neutral atoms. Quantum, 4:327, September 2020. [24] Sara Bartolucci, Patrick Birchall, Hector Bombin, Hugo Cable, Chris Dawson, Mercedes Gimeno-Segovia, Eric Johnston, Konrad Kieling, Naomi Nickerson, Mihir Pant, et al. Fusion-based quantum computation. Nature Communications, 14(1):912, 2023. [25] Alexandr Krasnok and Xiulai Xu. Emerging trends in photonic quantum computing. Advanced Photonics, 8(1):010102–010102, 2026. [26] Guido Burkard, Thaddeus D Ladd, Andrew Pan, John M Nichol, and Jason R Petta. Semiconductor spin qubits. Reviews of Modern Physics, 95(2):025003, 2023. [27] Quentin Schmidt, Baptiste Jadot, Brian Martinez, Antoine Faurie, Tristan Meunier, Jean-Baptiste Casanova, Xavier Jehl, Yvain Thonnart, and Franck Badets. 13.5 an 18.5 μw/qubit cryo-cmos charge-readout ic demonstrating qam multiplexing for spin qubits. In 2025 IEEE International Solid-State Circuits Conference (ISSCC), volume 68, pages 244–246. IEEE, 2025. [28] Daniel R. Roe and Bernard R. Brooks. A protocol for preparing explicitly solvated systems for stable molecular dynamics simulations. The Journal of Chemical Physics, 153(5):054123, 08 2020. [29] Christopher R Corbeil, Christopher I Williams, and Paul Labute. Variability in docking success rates due to dataset preparation. Journal of computer-aided molecular design, 26(6):775–786, 2012. [30] wwPDB consortium. Protein data bank: the single global archive for 3d macromolecular structure data. Nucleic acids research, 47(D1):D520–D528, 2019. [31] Arun Bahadur Gurung, Mohammad Ajmal Ali, Joongku Lee, Mohammad Abul Farah, and Khalid Mashay Al-Anazi. An updated review of computer-aided drug design and its application to covid-19. BioMed Research International, 2021(1):8853056, 2021. [32] Divya Vemula, Perka Jayasurya, Varthiya Sushmitha, Yethirajula Naveen Kumar, and Vasundhra Bhandari. Cadd, ai and ml in drug discovery: A comprehensive review. European Journal of Pharmaceutical Sciences, 181:106324, 2023. [33] Yiqun Chang, Bryson A. Hawkins, Jonathan J. Du, Paul W. Groundwater, David E. Hibbs, and Felcia Lai. A guide to in silico drug design. Pharmaceutics, 15(1):1–52, 2023. [34] Marharyta Blazhynska, Narjes Ansari, Louis Lagardère, and Jean-Philip Piquemal. From water networks to binding affinities: Resolving solvation dynamics for accurate protein-ligand predictions. bioRxiv, page DOI: 10.1101/2025.10.17.683050, 2025. 39 [35] Narjes Ansari, Chengwen Liu, Florent Hédin, Jérôme Hénin, Jay W Ponder, Pengyu Ren, Jean-Philip Piquemal, Louis Lagardère, and Krystel El Hage. Targeting rna with small molecules using state-of-the-art methods provides highly predictive affinities of riboswitch inhibitors. Communications Biology, 8(1):1405, 2025. [36] Narjes Ansari, Zhifeng Francis Jing, Antoine Gagelin, Florent Hédin, Félix Aviat, Jérôme Hénin, Jean-Philip Piquemal, and Louis Lagardère. Lambda-abf-opes: Faster convergence with high accuracy in alchemical free energy calculations. J. Phys. Chem. Lett., 16(19):4626–4634, 2025. [37] Filippo Bigi, Sanggyu Chong, Agustinus Kristiadi, and Michele Ceriotti. Flashmd: long-stride, universal prediction of molecular dynamics, 2025. [38] Michael Plainer, Hao Wu, Leon Klein, Stephan Günnemann, and Frank Noé. Consistent sampling and simulation: Molecular dynamics with energy-based diffusion models, 2025. [39] Frank Noé, Alexandre Tkatchenko, Klaus-Robert Müller, and Cecilia Clementi. Machine learning for molecular simulation. Annual Review of Physical Chemistry, 71(Volume 71, 2020):361–390, 2020. [40] Anastasia Agathangelou, Dilhan Manawadu, and Ivano Tavernelli. Quantum algorithm for protein side-chain optimisation: Comparing quantum to classical methods, 2025. [41] Mauro D’Arcangelo, Louis-Paul Henry, Loïc Henriet, Daniele Loco, Nicolaï Gouraud, Stanislas Angebault, Jules Sueiro, Jérôme Forêt, Pierre Monmarché, and Jean-Philip Piquemal. Leveraging analog quantum computing with neutral atoms for solvent configuration prediction in drug discovery. Physical Review Research, 6(4):043020, 2024. [42] Tyler Luchko, Sergey Gusarov, Daniel R. Roe, Carlos Simmerling, David A. Case, Jack Tuszynski, and Andriy Kovalenko. Three-dimensional molecular theory of solvation coupled with molecular dynamics in amber. Journal of Chemical Theory and Computation, 6(3):607–624, 2010. [43] Dipankar Roy and Andriy Kovalenko. Performance of 3d-rism-kh in predicting hydration free energy: Effect of solute parameters. J. Phy. Chem. A, 123(18):4087–4093, 2019. [44] Daniele Loco, Kisa Barkemeyer, Andre R. R. Carvalho, and Jean-Philip Piquemal. Practical protein-pocket hydration-site prediction for drug discovery on a quantum computer. Preprint arXiv:2512.08390, 2025. [45] Q-CTRL. “fire opal,” https://q-ctrl.com/fire-opal (2025), [online], 2025. [46] Pranav S. Mundada, Aaron Barbosa, Smarak Maity, Yulun Wang, Thomas Merkh, T.M. Stace, Felicity Nielson, Andre R.R. Carvalho, Michael Hush, Michael J. Biercuk, and Yuval Baum. Experimental bench-marking of an automated deterministic error-suppression workflow for quantum algorithms. Phys. Rev. Appl., 20:024034, Aug 2023. [47] Andreas Zamanos, George Ioannakis, and Ioannis Z. Emiris. Hydraprot: A new deep learning tool for fast and accurate prediction of water molecule positions for protein structures. J. Chem. Inf. and Modeling, 64(7):2594–2611, 2024. [48] Daniel J Sindhikara, Norio Yoshida, and Fumio Hirata. Placevent: an algorithm for prediction of ex-plicit solvent atom distribution-application to HIV-1 protease and F-ATP synthase. J Comput Chem, 33(18):1536–1543, April 2012. [49] P. C. Agu, C. A. Afiukwa, O. U. Orji, E. M. Ezeh, I. H. Ofoke, C. O. Ogbu, E. I. Ugwuja, and P. M. Aja. Molecular docking as a tool for the discovery of molecular targets of nutraceuticals in diseases management. Scientific Reports, 13(1):13398, 2023. [50] Qi-Ming Ding, Yi-Ming Huang, and Xiao Yuan. Molecular docking via quantum approximate optimization algorithm. Phys. Rev. Appl., 21:034036, Mar 2024. [51] Yunting Li, Xiaopeng Cui, Zhaoping Xiong, Bowen Liu, Bi-Ying Wang, Runqiu Shu, Nan Qiao, and Man-Hong Yung. Quantum molecular docking with a quantum-inspired algorithm. Journal of Chemical Theory and Computation, 20(15):6687–6694, 2024. 40 [52] Weitang Li, Zhi Yin, Xiaoran Li, Dongqiang Ma, Shuang Yi, Zhenxing Zhang, Chenji Zou, Kunliang Bu, Maochun Dai, Jie Yue, Yuzong Chen, Xiaojin Zhang, and Shengyu Zhang. A hybrid quantum computing pipeline for real world drug discovery. Scientific Reports, 14(1):16942, 7 2024. [53] Poulami Das, Avishek Ray, Siddhartha Bhattacharyya, Jan Platos, Vaclav Snasel, Leo Mrsic, Tingwen Huang, and Ivan Zelinka. A brief review on quantum computing based drug design. WIREs Data Mining and Knowledge Discovery, 14(6):e1553, 2024. [54] Anthony M. Smaldone, Yu Shee, Gregory W. Kyro, Chuzhi Xu, Nam P. Vu, Rishab Dutta, Marwa H. Farag, Alexey Galda, Sandeep Kumar, Elica Kyoseva, and Victor S. Batista. Quantum machine learning in drug discovery: Applications in academia and pharmaceutical industries, 2024. [55] Diata Traore, Olivier Adjoua, César Feniou, Ioanna-Maria Lygatsika, Yvon Maday, Evgeny Posenitskiy, Kerstin Hammernik, Alberto Peruzzo, Julien Toulouse, Emmanuel Giner, et al. Shortcut to chemically accurate quantum computing via density-based basis-set correction. Communications Chemistry, 7(1):269, 2024. [56] Wolfram Koch and Max C Holthausen. A chemist’s guide to density functional theory. John Wiley & Sons, 2015. [57] Krishnan Raghavachari, Gary W. Trucks, John A. Pople, and Martin Head-Gordon. A fifth-order pertur-bation comparison of electron correlation theories. Chemical Physics Letters, 157(6):479–483, 1989. [58] Steven R. White. Density matrix formulation for quantum renormalization groups. Physical Review Letters, 69(19):2863–2866, November 1992. [59] Örs Legeza, Andor Menczer, Ádám Ganyecz, Miklós Antal Werner, Kornél Kapás, Jeff Hammond, Sotiris S. Xantheas, Martin Ganahl, and Frank Neese. Orbital optimization of large active spaces via ai-accelerators. Journal of Chemical Theory and Computation, 21(13):6545–6558, 2025. PMID: 40512221. [60] Ulrich Schollwöck. The density-matrix renormalization group in the age of matrix product states. Annals of Physics, 326(1):96–192, January 2011. [61] Peter J. Reynolds, Jan Tobochnik, and Harvey Gould. Diffusion quantum monte carlo. Computer in Physics, 4(6):662–668, 11 1990. [62] Bernard Huron, JP Malrieu, and P Rancurel. Iterative perturbation calculations of ground and excited state energies from multiconfigurational zeroth-order wavefunctions. The Journal of Chemical Physics, 58(12):5745–5759, 1973. [63] Yann Garniron, Thomas Applencourt, Kevin Gasperich, Anouar Benali, Anthony Ferté, Julien Paquier, Barthélémy Pradines, Roland Assaraf, Peter Reinhardt, Julien Toulouse, et al. Quantum package 2.0: An open-source determinant-driven suite of programs. Journal of chemical theory and computation, 15(6):3591– 3609, 2019. [64] Alberto Peruzzo, Jarrod McClean, Peter Shadbolt, Man-Hong Yung, Xiao-Qi Zhou, Peter J Love, Alán Aspuru-Guzik, and Jeremy L O’brien. A variational eigenvalue solver on a photonic quantum processor. Nature communications, 5(1):4213, 2014. [65] Oskar Leimkuhler and K Birgitta Whaley. Exponential quantum speedups for near-term molecular electronic structure methods. arXiv preprint arXiv:2503.21041, 2025. [66] Abhinav Anand, Philipp Schleich, Sumner Alperin-Lea, Phillip W. K. Jensen, Sukin Sim, Manuel Díaz-Tinoco, Jakob S. Kottmann, Matthias Degroote, Artur F. Izmaylov, and Alán Aspuru-Guzik. A quantum computing view on unitary coupled cluster theory. Chem. Soc. Rev., 51:1659–1684, 2022. [67] Mohammad Haidar, Marko J. Rančić, Yvon Maday, and Jean-Philip Piquemal. Extension of the trotterized unitary coupled cluster to triple excitations. The Journal of Physical Chemistry A, 127(15):3543–3550, 2023. PMID: 37039518. [68] Mohammad Haidar, Olivier Adjoua, Siwar Badreddine, Alberto Peruzzo, and Jean-Philip Piquemal. Non-iterative disentangled unitary coupled-cluster based on lie-algebraic structure. Quantum Science and Technology, 10(2):025031, February 2025. 41 [69] Yaromir Viswanathan, Olivier Adjoua, César Feniou, Siwar Badreddine, and Jean-Philip Piquemal. An optimal framework for constructing lie-algebra generator pools: Application to variational quantum eigen-solvers for chemistry. arxiv:2511.22593, 2025. [70] Harper R Grimsley, Sophia E Economou, Edwin Barnes, and Nicholas J Mayhall. An adaptive variational algorithm for exact molecular simulations on a quantum computer. Nature communications, 10(1):3007, 2019. [71] Ho Lun Tang, VO Shkolnikov, George S Barron, Harper R Grimsley, Nicholas J Mayhall, Edwin Barnes, and Sophia E Economou. qubit-adapt-vqe: An adaptive algorithm for constructing hardware-efficient ansätze on a quantum processor. PRX Quantum, 2(2):020310, 2021. [72] Mariia D Sapova and Aleksey K Fedorov. Variational quantum eigensolver techniques for simulating carbon monoxide oxidation. Communications Physics, 5(1):199, 2022. [73] César Feniou, Muhammad Hassan, Diata Traoré, Emmanuel Giner, Yvon Maday, and Jean-Philip Pique-mal. Overlap-adapt-vqe: practical quantum chemistry on quantum computers via overlap-guided compact ansätze. Communications Physics, 6(1):192, 2023. [74] César Feniou, Olivier Adjoua, Baptiste Claudon, Julien Zylberman, Emmanuel Giner, and Jean-Philip Piquemal. Sparse quantum state preparation for strongly correlated systems. The Journal of Physical Chemistry Letters, 15(11):3197–3205, 2024. [75] César Feniou, Muhammad Hassan, Baptiste Claudon, Axel Courtat, Olivier Adjoua, Yvon Maday, and Jean-Philip Piquemal. Greedy gradient-free adaptive variational quantum algorithms on a noisy intermediate scale quantum computer. Scientific Reports, 15(1):18689, 2025. [76] Kieran Dalton, Christopher K Long, Yordan S Yordanov, Charles G Smith, Crispin HW Barnes, Normann Mertig, and David RM Arvidsson-Shukur. Quantifying the effect of gate errors on variational quantum eigensolvers for quantum chemistry. npj Quantum Information, 10(1):18, 2024. [77] César Feniou, Christopher Cherfan, Julien Zylberman, Baptiste Claudon, Jean-Philip Piquemal, and Em-manuel Giner. Real-space chemistry on quantum computers: A fault-tolerant algorithm with adaptive grids and transcorrelated extension. arXiv preprint arXiv:2507.20583, 2025. [78] Joonho Lee, Dominic W Berry, Craig Gidney, William J Huggins, Jarrod R McClean, Nathan Wiebe, and Ryan Babbush. Even more efficient quantum computations of chemistry through tensor hypercontraction. PRX quantum, 2(3):030305, 2021. [79] Ryan Babbush, Dominic W Berry, Jarrod R McClean, and Hartmut Neven. Quantum simulation of chem-istry with sublinear scaling in basis size. npj Quantum Information, 5(1):92, 2019. [80] Baptiste Claudon, Julien Zylberman, César Feniou, Fabrice Debbasch, Alberto Peruzzo, and Jean-Philip Piquemal. Polylogarithmic-depth controlled-not gates without ancilla qubits. Nature Communications, 15(1), July 2024. [81] Baptiste Claudon, Alexis Lucas, Jean-Philip Piquemal, César Feniou, and Julien Zylberman. Logarithmic-depth quantum state preparation of polynomials. arxiv:2603.16527, 2026. [82] Minzhao Liu, Ruslan Shaydulin, Pradeep Niroula, Matthew DeCross, Shih-Han Hung, Wen Yu Kon, En-rique Cervero-Martín, Kaushik Chakraborty, Omar Amer, Scott Aaronson, Atithi Acharya, Yuri Alexeev, K. Jordan Berg, Shouvanik Chakrabarti, Florian J. Curchod, Joan M. Dreiling, Neal Erickson, Cameron Foltz, Michael Foss-Feig, David Hayes, Travis S. Humble, Niraj Kumar, Jeffrey Larson, and Danylo Lykov. Certified randomness using a trapped-ion quantum processor. arXiv:2503.20498, 2025. Demonstration on the 56-qubit Quantinuum H2-1 trapped-ion quantum computer. [83] Yasunari Suzuki, Yoshiaki Kawase, Yuya Masumura, Yuria Hiraga, Masahiro Nakadai, Jiabao Chen, Ken M. Nakanishi, Kosuke Mitarai, Ryosuke Imai, Shiro Tamiya, Takahiro Yamamoto, Tennin Yan, Toru Kawakubo, Yuya O. Nakagawa, Yohei Ibe, Youyuan Zhang, Hirotsugu Yamashita, Hikaru Yoshimura, Aki-hiro Hayashi, and Keisuke Fujii. Qulacs: a fast and versatile quantum circuit simulator for research purpose. Quantum, 5:559, October 2021. 42 [84] Jarrod R McClean, Nicholas C Rubin, Kevin J Sung, Ian D Kivlichan, Xavier Bonet-Monroig, Yudong Cao, Chengyu Dai, E Schuyler Fried, Craig Gidney, Brendan Gimby, Pranav Gokhale, Thomas Häner, Tarini Hardikar, Vojtěch Havlíček, Oscar Higgott, Cupjin Huang, Josh Izaac, Zhang Jiang, Xinle Liu, Sam McArdle, Matthew Neeley, Thomas O’Brien, Bryan O’Gorman, Isil Ozfidan, Maxwell D Radin, Jhonathan Romero, Nicolas P D Sawaya, Bruno Senjean, Kanav Setia, Sukin Sim, Damian S Steiger, Mark Steudtner, Qiming Sun, Wei Sun, Daochen Wang, Fang Zhang, and Ryan Babbush. Openfermion: the electronic structure package for quantum computers. Quantum Science and Technology, 5(3):034014, June 2020. [85] Ali Asadi, Amintor Dusko, Chae-Yeun Park, Vincent Michaud-Rioux, Isidor Schoch, Shuli Shu, Trevor Vin-cent, and Lee James O’Riordan. Hybrid quantum programming with pennylane lightning on hpc platforms, 2024. [86] Qiskit contributors. Qiskit: An open-source framework for quantum computing, 2019. [87] The myQLM development team. myqlm - quantum python package. https://myqlm.github.io , 2024. Accessed: 2024-10-05. [88] Gian Giacomo Guerreschi, Justin Hogaboam, Fabio Baruffa, and Nicolas P D Sawaya. Intel quantum simulator: a cloud-ready high-performance simulator of quantum circuits. Quantum Science and Technology, 5(3):034007, May 2020. [89] Harun Bayraktar, Ali Charara, David Clark, Saul Cohen, Timothy Costa, Yao-Lung L. Fang, Yang Gao, Jack Guan, John Gunnels, Azzam Haidar, Andreas Hehn, Markus Hohnerbach, Matthew Jones, Tom Lubowe, Dmitry Lyakh, Shinya Morino, Paul Springer, Sam Stanwyck, Igor Terentyev, Satya Varadhan, Jonathan Wong, and Takuma Yamaguchi. cuquantum sdk: A high-performance library for accelerating quantum science. In 2023 IEEE International Conference on Quantum Computing and Engineering (QCE), volume 01, pages 1050–1061, 2023. [90] Igor L. Markov and Yaoyun Shi. Simulating quantum computation by contracting tensor networks. SIAM Journal on Computing, 38(3):963–981, January 2008. [91] Guifré Vidal. Efficient classical simulation of slightly entangled quantum computations. Physical Review Letters, 91(14), October 2003. [92] J. Ignacio Cirac, David Pérez-García, Norbert Schuch, and Frank Verstraete. Matrix product states and projected entangled pair states: Concepts, symmetries, theorems. Reviews of Modern Physics, 93(4), December 2021. [93] NVIDIA. cutensor: Tensor linear algebra on nvidia gpus. https://developer.nvidia.com/cutensor , n.d. Accessed: 2024-02-11. [94] Hans De Raedt, Jiri Kraus, Andreas Herten, Vrinda Mehta, Mathis Bode, Markus Hrywniak, Kristel Michielsen, and Thomas Lippert. Universal quantum simulation of 50 qubits on europes first exascale supercomputer harnessing its heterogeneous cpu-gpu architecture. arXiv preprint arXiv:2511.03359, 2025. [95] DS Steiger, T Häner, SN Genin, and HG Katzgraber. Sparse simulation of vqe circuits for quantum chemistry. arXiv preprint arXiv:2404.10047, 2024. [96] Honghui Shang, Li Shen, Yi Fan, Zhiqian Xu, Chu Guo, Jie Liu, Wenhao Zhou, Huan Ma, Rongfen Lin, Yuling Yang, et al. Large-scale simulation of quantum computational chemistry on a new sunway supercomputer. In SC22: International Conference for High Performance Computing, Networking, Storage and Analysis, pages 1–14. IEEE, 2022. [97] Kvantify. Accelerating quantum chemistry with nvidia dgx spark. https://www.kvantify.com/blog/ nvidia-dgx-spark , 2026. Accessed: 2026-03-18. [98] Justin Provazza, Klaas Gunst, Huanchen Zhai, Garnet K-L Chan, Toru Shiozaki, Nicholas C Rubin, and Alec F White. Fast emulation of fermionic circuits with matrix product states. Journal of Chemical Theory and Computation, 20(9):3719–3728, 2024. 43 [99] Harun Bayraktar, Ali Charara, David Clark, Saul Cohen, Timothy Costa, Yao-Lung L Fang, Yang Gao, Jack Guan, John Gunnels, Azzam Haidar, et al. cuquantum sdk: A high-performance library for accelerating quantum science. In 2023 IEEE International Conference on Quantum Computing and Engineering (QCE), volume 1, pages 1050–1061. IEEE, 2023. [100] Google LLC. Quantumlib qsim, doi: 10.5281/zenodo.4067237, 2025. [101] Frank Arute, Kunal Arya, Ryan Babbush, Dave Bacon, Joseph C. Bardin, Rami Barends, Sergio Boixo, Michael Broughton, Bob B. Buckley, David A. Buell, Brian Burkett, Nicholas Bushnell, Yu Chen, Zi-jun Chen, Benjamin Chiaro, Roberto Collins, William Courtney, Sean Demura, Andrew Dunsworth, Ed-ward Farhi, Austin Fowler, Brooks Foxen, Craig Gidney, Marissa Giustina, Rob Graff, Steve Habegger, Matthew P. Harrigan, Alan Ho, Sabrina Hong, Trent Huang, William J. Huggins, Lev Ioffe, Sergei V. Isakov, Evan Jeffrey, Zhang Jiang, Cody Jones, Dvir Kafri, Kostyantyn Kechedzhi, Julian Kelly, Seon Kim, Paul V. Klimov, Alexander Korotkov, Fedor Kostritsa, David Landhuis, Pavel Laptev, Mike Lindmark, Erik Lucero, Orion Martin, John M. Martinis, Jarrod R. McClean, Matt McEwen, Anthony Megrant, Xiao Mi, Masoud Mohseni, Wojciech Mruczkiewicz, Josh Mutus, Ofer Naaman, Matthew Neeley, Charles Neill, Hartmut Neven, Murphy Yuezhen Niu, Thomas E. O’Brien, Eric Ostby, Andre Petukhov, Harald Put-terman, Chris Quintana, Pedram Roushan, Nicholas C. Rubin, Daniel Sank, Kevin J. Satzinger, Vadim Smelyanskiy, Doug Strain, Kevin J. Sung, Marco Szalay, Tyler Y. Takeshita, Amit Vainsencher, Theodore White, Nathan Wiebe, Z. Jamie Yao, Ping Yeh, and Adam Zalcman. Hartree-fock on a superconducting qubit quantum computer. Science, 369(6507):1084–1089, August 2020. [102] NVIDIA. Nvidia cuda-q powers quantum applications research. https://developer.nvidia.com/blog/ nvidia-cuda-q-powers-quantum-applications-research/ , May 2024. Accessed: 2026-03-16. [103] Samuel Jaques and Thomas Häner. Leveraging state sparsity for more efficient quantum simulations. ACM Transactions on Quantum Computing, 3(3):1–17, 2022. [104] Mikio Morita, Yoshinori Tomita, Junpei Koyama, and Koichi Kimura. Simulator demonstration of large scale variational quantum algorithm on hpc cluster. arXiv preprint arXiv:2402.11878, 2024. [105] Satoshi Imamura, Masafumi Yamazaki, Takumi Honda, Akihiko Kasagi, Akihiro Tabuchi, Hiroshi Nakao, Naoto Fukumoto, and Kohta Nakashima. mpiqulacs: A distributed quantum computer simulator for a64fx-based cluster systems. arXiv preprint arXiv:2203.16044, 2022. [106] Mohammad Haidar, Marko J Rančić, Thomas Ayral, Yvon Maday, and Jean-Philip Piquemal. Open source variational quantum eigensolver extension of the quantum learning machine for quantum chemistry. Wiley Interdisciplinary Reviews: Computational Molecular Science, 13(5):e1664, 2023. [107] Atos Quantum Team. myqlm-fermion: A library for fermionic quantum simulation within the myqlm ecosystem. [108] Ali Asadi, Amintor Dusko, Chae-Yeun Park, Vincent Michaud-Rioux, Isidor Schoch, Shuli Shu, Trevor Vin-cent, and Lee James O’Riordan. Hybrid quantum programming with pennylane lightning on hpc platforms. arXiv preprint arXiv:2403.02512, 2024. [109] Javier Robledo-Moreno, Mario Motta, Holger Haas, Ali Javadi-Abhari, Petar Jurcevic, William Kirby, Simon Martiel, Kunal Sharma, Sandeep Sharma, Tomonori Shirakawa, et al. Chemistry beyond the scale of exact diagonalization on a quantum-centric supercomputer. Science Advances, 11(25):eadu9991, 2025. [110] Brandon Walker, Chengwen Liu, Elizabeth Wait, and Pengyu Ren. Automation of amoeba polarizable force field for small molecules: Poltype 2. Journal of Computational Chemistry, 43(23):1530–1542, 2022. [111] Gong Chen, Théo Jaffrelot Inizan, Thomas Plé, Louis Lagardère, Jean-Philip Piquemal, and Yvon Maday. Advancing force fields parameterization: A directed graph attention networks approach. Journal of Chemical Theory and Computation, 20(13):5558–5569, 2024. [112] Pengyu Ren and Jay W. Ponder. Polarizable atomic multipole water model for molecular mechanics simu-lation. The Journal of Physical Chemistry B, 107(24):5933–5947, 2003. 44 [113] Yue Shi, Zhen Xia, Jiajing Zhang, Robert Best, Chuanjie Wu, Jay W Ponder, and Pengyu Ren. Polarizable atomic multipole-based amoeba force field for proteins. Journal of Chemical Theory and Computation, 9(9):4046–4063, 2013. [114] Chengwen Liu, Jean-Philip Piquemal, and Pengyu Ren. Amoeba+ classical potential for modeling molecular interactions. Journal of Chemical Theory and Computation, 15(7):4122–4139, 2019. [115] Chengwen Liu, Jean-Philip Piquemal, and Pengyu Ren. Implementation of geometry-dependent charge flux into the polarizable amoeba+ potential. The Journal of Physical Chemistry Letters, 11(2):419–426, 2020. [116] Grzegorz Nawrocki, Igor Leontyev, Serzhan Sakipov, Mikhail Darkhovskiy, Igor Kurnikov, Leonid Pereyaslavets, Ganesh Kamath, Ekaterina Voronina, Oleg Butin, Alexey Illarionov, et al. Protein–ligand binding free-energy calculations with arrow – a purely first-principles parameterized polarizable force field. Journal of Chemical Theory and Computation, 18(12):7751–7763, 2022. [117] Martin Amezcua, Léa El Khoury, and David L Mobley. Sampl7 host–guest challenge overview: assessing the reliability of polarizable and non-polarizable methods for binding free energy calculations. Journal of computer-aided molecular design, 35(1):1–35, 2021. [118] Louis Lagardère, Luc-Henri Jolly, Filippo Lipparini, Félix Aviat, Benjamin Stamm, Zhifeng F. Jing, Matthew Harger, Hedieh Torabifard, G. Andrés Cisneros, Michael J. Schnieders, Nohad Gresh, Yvon Maday, Pengyu Y. Ren, Jay W. Ponder, and Jean-Philip Piquemal. Tinker-hp: a massively parallel molecular dy-namics package for multiscale simulations of large complex systems with advanced point dipole polarizable force fields. Chemical Science, 9:956–972, 2018. [119] Olivier Adjoua, Louis Lagardère, Luc-Henri Jolly, Arnaud Durocher, Thibaut Very, Isabelle Dupays, Zhi Wang, Théo Jaffrelot Inizan, Frédéric Célerse, Pengyu Ren, Jay W. Ponder, and Jean-Philip Pique-mal. Tinker-hp: Accelerating molecular dynamics simulations of large complex systems with advanced point dipole polarizable force fields using gpus and multi-gpu systems. Journal of Chemical Theory and Computation, 17(4):2034–2053, 2021. [120] Théo Jaffrelot Inizan, Frédéric Célerse, Olivier Adjoua, Dina El Ahdab, Luc-Henri Jolly, Chengwen Liu, Pengyu Ren, Matthieu Montes, Nathalie Lagarde, Louis Lagardère, Pierre Monmarché, and Jean-Philip Piquemal. High-resolution mining of the sars-cov-2 main protease conformational space: supercomputer-driven unsupervised adaptive sampling. Chem. Sci., 12:4889–4907, 2021. [121] Dina El Ahdab, Louis Lagardère, Théo Jaffrelot Inizan, Fréderic Célerse, Chengwen Liu, Olivier Adjoua, Luc-Henri Jolly, Nohad Gresh, Zeina Hobaika, Pengyu Ren, Richard G. Maroun, and Jean-Philip Piquemal. Interfacial water many-body effects drive structural dynamics and allosteric interactions in sars-cov-2 main protease dimerization interface. J. Phys. Chem. Lett., 12(26):6218–6226, 2021. PMID: 34196568. [122] Marharyta Blazhynska, Louis Lagardère, Chengwen Liu, Olivier Adjoua, Pengyu Ren, and Jean-Philip Piquemal. Water–glycan interactions drive the sars-cov-2 spike dynamics: insights into glycan-gate control and camouflage mechanisms. Chem. Sci., 15:14177–14187, 2024. [123] Zhifeng Jing, Joshua A Rackers, Lawrence R Pratt, Chengwen Liu, Susan B Rempe, and Pengyu Ren. Thermodynamics of ion binding and occupancy in potassium channels. Chemical Science, 12(25):8920– 8930, 2021. [124] Adrien Schahl, Louis Lagardère, Brandon Walker, Pengyu Ren, Hugo Wioland, Maya Ballet, Antoine Jégou, Matthieu Chavent, and Jean-Philip Piquemal. Histidine 73 methylation coordinates β-actin plasticity in response to key environmental factors. Nature Communications, 16(1):2304, 2025. [125] Léa El Khoury, Zhifeng Jing, Alberto Cuzzolin, Alessandro Deplano, Daniele Loco, Boris Sattarov, Florent Hédin, Sebastian Wendeborn, Chris Ho, Dina El Ahdab, Theo Jaffrelot Inizan, Mattia Sturlese, Alice Sosic, Martina Volpiana, Angela Lugato, Marco Barone, Barbara Gatto, Maria Ludovica Macchia, Massimo Bel-landa, Roberto Battistutta, Cristiano Salata, Ivan Kondratov, Rustam Iminov, Andrii Khairulin, Yaroslav Mykhalonok, Anton Pochepko, Volodymyr Chashka-Ratushnyi, Iaroslava Kos, Stefano Moro, Matthieu Montes, Pengyu Ren, Jay W. Ponder, Louis Lagardère, Jean-Philip Piquemal, and Davide Sabbadin. Com-putationally driven discovery of sars-cov-2 mpro inhibitors: from design to experimental validation. Chem. Sci., 13:3674–3687, 2022. 45 [126] Ilyes Batatia, Philipp Benner, Yuan Chiang, Alin M. Elena, Dávid P. Kovács, Janosh Riebesell, Xavier R. Advincula, Mark Asta, Matthew Avaylon, William J. Baldwin, Fabian Berger, Noam Bernstein, Arghya Bhowmik, Filippo Bigi, Samuel M. Blau, Vlad Cărare, Michele Ceriotti, Sanggyu Chong, James P. Darby, Sandip De, Flaviano Della Pia, Volker L. Deringer, Rokas Elijošius, Zakariya El-Machachi, Edvin Fako, Fabio Falcioni, Andrea C. Ferrari, John L. A. Gardner, Mikołaj J. Gawkowski, Annalena Genreith-Schriever, Janine George, Rhys E. A. Goodall, Jonas Grandel, Clare P. Grey, Petr Grigorev, Shuang Han, Will Han-dley, Hendrik H. Heenen, Kersti Hermansson, Cheuk Hin Ho, Stephan Hofmann, Christian Holm, Jad Jaafar, Konstantin S. Jakob, Hyunwook Jung, Venkat Kapil, Aaron D. Kaplan, Nima Karimitari, James R. Kermode, Panagiotis Kourtis, Namu Kroupa, Jolla Kullgren, Matthew C. Kuner, Domantas Kuryla, Guoda Liepuoniute, Chen Lin, Johannes T. Margraf, Ioan-Bogdan Magdău, Angelos Michaelides, J. Harry Moore, Aakash A. Naik, Samuel P. Niblett, Sam Walton Norwood, Niamh O’Neill, Christoph Ortner, Kristin A. Persson, Karsten Reuter, Andrew S. Rosen, Louise A. M. Rosset, Lars L. Schaaf, Christoph Schran, Ben-jamin X. Shi, Eric Sivonxay, Tamás K. Stenczel, Christopher Sutton, Viktor Svahn, Thomas D. Swinburne, Jules Tilly, Cas van der Oord, Santiago Vargas, Eszter Varga-Umbrich, Tejs Vegge, Martin Vondrák, Yang-shuai Wang, William C. Witt, Thomas Wolf, Fabian Zills, and Gábor Csányi. A foundation model for atomistic materials chemistry. The Journal of Chemical Physics, 163(18):184110, 11 2025. [127] Dávid Péter Kovács, J. Harry Moore, Nicholas J. Browning, Ilyes Batatia, Joshua T. Horton, Yixuan Pu, Venkat Kapil, William C. Witt, Ioan-Bogdan Magdău, Daniel J. Cole, and Gábor Csányi. Mace-off: Short-range transferable machine learning force fields for organic molecules. Journal of the American Chemical Society, 147(21):17598–17611, 2025. [128] David L Mobley and J Peter Guthrie. Freesolv: a database of experimental and calculated hydration free energies, with input files. Journal of computer-aided molecular design, 28:711–720, 2014. [129] Etienne Mangaud, Simon Huppert, Thomas Plé, Philippe Depondt, Sara Bonella, and Fabio Finocchi. The fluctuation–dissipation theorem as a diagnosis and cure for zero-point energy leakage in quantum thermal bath simulations. Journal of chemical theory and computation, 15(5):2863–2880, 2019. [130] Nastasia Mauger, Thomas Plé, Louis Lagardère, Sara Bonella, Etienne Mangaud, Jean-Philip Piquemal, and Simon Huppert. Nuclear quantum effects in liquid water at near classical computational cost using the adaptive quantum thermal bath. The Journal of Physical Chemistry Letters, 12(34):8285–8291, 2021. [131] Matthias Kellner and Michele Ceriotti. Uncertainty quantification by direct propagation of shallow ensem-bles. Machine Learning: Science and Technology, 5(3):035006, 2024. [132] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. Attention is all you need. Advances in neural information processing systems, 30, 2017. [133] Fabian Fuchs, Daniel Worrall, Volker Fischer, and Max Welling. Se(3)-transformers: 3d roto-translation equivariant attention networks. Advances in neural information processing systems, 33:1970–1981, 2020. [134] Philipp Thölke and Gianni De Fabritiis. Torchmd-net: equivariant transformers for neural network based molecular potentials. arXiv preprint arXiv:2202.02541, 2022. [135] Tuan Le, Frank Noé, and Djork-Arné Clevert. Equivariant graph attention networks for molecular property prediction. arXiv preprint arXiv:2202.09891, 2022. [136] Yi-Lun Liao and Tess Smidt. Equiformer: Equivariant graph attention transformer for 3d atomistic graphs. arXiv preprint arXiv:2206.11990, 2022. [137] Yi-Lun Liao, Brandon Wood, Abhishek Das, and Tess Smidt. Equiformerv2: Improved equivariant trans-former for scaling to higher-degree representations. arXiv preprint arXiv:2306.12059, 2023. [138] J Thorben Frank, Oliver T Unke, Klaus-Robert Müller, and Stefan Chmiela. A euclidean transformer for fast and stable machine learned force fields. Nature Communications, 15(1):6539, 2024. [139] Weilin Cai, Juyong Jiang, Fan Wang, Jing Tang, Sunghun Kim, and Jiayi Huang. A survey on mixture of experts. arXiv preprint arXiv:2407.06204, 2024. 46 [140] Kai Nordlund, Susi Lehtola, and Gerhard Hobler. Repulsive interatomic potentials calculated at three levels of theory. Phys. Rev. A, 111:032818, Mar 2025. [141] Kevin K Huguenin-Dumittan, Philip Loche, Ni Haoran, and Michele Ceriotti. Physics-inspired equivariant descriptors of nonbonded interactions. The Journal of Physical Chemistry Letters, 14(43):9612–9618, 2023. [142] M. Tuckerman, B. J. Berne, and G. J. Martyna. Reversible multiple time scale molecular dynamics. The Journal of Chemical Physics, 97(3):1990–2001, 08 1992. [143] Louis Lagardère, Félix Aviat, and Jean-Philip Piquemal. Pushing the limits of multiple-time-step strategies for polarizable point dipole molecular dynamics. The Journal of Physical Chemistry Letters, 10(10):2593– 2599, 2019. [144] Côme Cattin, Thomas Plé, Olivier Adjoua, Nicolaï Gouraud, Louis Lagardère, and Jean-Philip Piquemal. Accelerating molecular dynamics simulations with foundation neural network models using multiple time steps and distillation. The Journal of Physical Chemistry Letters, 17(5):1288–1295, 2026. PMID: 41562233. [145] Geoffrey Hinton, Oriol Vinyals, and Jeff Dean. Distilling the knowledge in a neural network. arXiv preprint arXiv:1503.02531, 2015. [146] Jianping Gou, Baosheng Yu, Stephen J Maybank, and Dacheng Tao. Knowledge distillation: A survey. International journal of computer vision, 129(6):1789–1819, 2021. [147] Thomas Plé, Olivier Adjoua, Louis Lagardère, and Jean-Philip Piquemal. FeNNol: An efficient and flex-ible library for building force-field-enhanced neural network potentials. The Journal of Chemical Physics, 161(4):042502, 07 2024. [148] Weihua Hu, Muhammed Shuaibi, Abhishek Das, Siddharth Goyal, Anuroop Sriram, Jure Leskovec, Devi Parikh, and C Lawrence Zitnick. Forcenet: A graph neural network for large-scale quantum calculations. arXiv preprint arXiv:2103.01436, 2021. [149] Johannes Gasteiger, Florian Becker, and Stephan Günnemann. Gemnet: Universal directional graph neural networks for molecules. Advances in Neural Information Processing Systems, 34:6790–6802, 2021. [150] Mark Neumann, James Gin, Benjamin Rhodes, Steven Bennett, Zhiyi Li, Hitarth Choubisa, Arthur Hussey, and Jonathan Godwin. Orb: A fast, scalable neural network potential. arXiv preprint arXiv:2410.22570, 2024. [151] Benjamin Rhodes, Sander Vandenhaute, Vaidotas Šimkus, James Gin, Jonathan Godwin, Tim Duignan, and Mark Neumann. Orb-v3: atomistic simulation at scale. arXiv preprint arXiv:2504.06231, 2025. [152] Max Eissler, Tim Korjakow, Stefan Ganscha, Oliver T Unke, Klaus-Robert MÃžller, and Stefan Gugler. How simple can you go? an off-the-shelf transformer approach to molecular dynamics. arXiv preprint arXiv:2503.01431, 2025. [153] Nicolaï Gouraud, Côme Cattin, Thomas Plé, Olivier Adjoua, Louis Lagardère, and Jean-Philip Piquemal. Faster molecular dynamics with neural network potentials via distilled multiple time-stepping and non-conservative forces. arxiv:2602.14975, 2026. [154] Théo Jaffrelot Inizan, Thomas Plé, Olivier Adjoua, Pengyu Ren, Hatice Gokcan, Olexandr Isayev, Louis La-gardère, and Jean-Philip Piquemal. Scalable hybrid deep neural networks/polarizable potentials biomolec-ular simulations including long-range effects. Chemical Science, 14:5438–5452, 2023. [155] Thomas Plé, Nastasia Mauger, Olivier Adjoua, Théo Jaffrelot Inizan, Louis Lagardère, Simon Huppert, and Jean-Philip Piquemal. Routine molecular dynamics simulations including nuclear quantum effects: from force fields to machine learning potentials. Journal of Chemical Theory and Computation, 19(5):1432–1445, 2023. [156] Daniele Loco, Louis Lagardere, Gérardo A Cisneros, Giovanni Scalmani, Michael Frisch, Filippo Lipparini, Benedetta Mennucci, and Jean-Philip Piquemal. Towards large scale hybrid qm/mm dynamics of complex systems with advanced point dipole polarizable embeddings. Chemical science, 10(30):7200–7211, 2019. 47 [157] Daniele Loco, Louis Lagardère, Olivier Adjoua, and Jean-Philip Piquemal. Atomistic polarizable embed-dings: energy, dynamics, spectroscopy, and reactivity. Accounts of Chemical Research, 54(13):2812–2822, 2021. [158] Anouar Benali, Thomas Plé, Olivier Adjoua, Valay Agarawal, Thomas Applencourt, Marharyta Blazhynska, Raymond Clay III, Kevin Gasperich, Khalid Hossain, Jeongnim Kim, Christopher Knight, Jaron T. Krogel, Yvon Maday, Maxime Maria, Matthieu Montes, Ye Luo, Evgeny Posenitskiy, Corentin Villot, Venkatram Vishwanath, Louis Lagardère, and Jean-Philip Piquemal. Pushing the accuracy limit of foundation neural network models with quantum monte carlo forces and path integrals. preprint arXiv: 2504.07948, DOI: 10.48550/arXiv.2504.07948, 2025. [159] Roland Assaraf and Michel Caffarel. Zero-variance zero-bias principle for observables in quantum monte carlo: Application to forces. The Journal of Chemical Physics, 119(20):10536–10552, 2003. [160] Qiming Sun, Xing Zhang, Samragni Banerjee, Peng Bao, Marc Barbry, Nick S Blunt, Nikolay A Bogdanov, George H Booth, Jia Chen, Zhi-Hao Cui, et al. Recent developments in the pyscf program package. The Journal of chemical physics, 153(2), 2020. [161] J. Kim, A. Baczewski, T. Beaudet, A. Benali, C. Bennett, M. Berrill, N. Blunt, E. J. L. Borda, M. Casula, D. Ceperley, S. Chiesa, B. K. Clark, R. Clay, K. Delaney, M. Dewing, K. Esler, H. Hao, O. Heinonen, P. R. C. Kent, J. T. Krogel, I. Kylanpaa, Y. W. Li, M. G. Lopez, Y. Luo, F. Malone, R. Martin, A. Mathuriya, J. McMinis, C. Melton, L. Mitas, M. A. Morales, E. Neuscamman, W. Parker, S. Flores, N. A. Romero, B. Rubenstein, J. Shea, H. Shin, L. Shulenburger, A. Tillack, J. Townsend, N. Tubman, B. van der Goetz, J. Vincent, D. C. Yang, Y. Yang, S. Zhang, and L. Zhao. Qmcpack : An open source ab initio quantum monte carlo package for the electronic structure of atoms, molecules, and solids. J. Phys.: Condens. Matter, 30:195901, 2018. [162] Kevin Gasperich et al. An efficient selected-ci code @ qubit pharmaceuticals, 2026, to be published. [163] Emmanuel Giner, Diata Traore, Barthélemy Pradines, and Julien Toulouse. Self-consistent density-based basis-set correction: How much do we lower total energies and improve dipole moments? The Journal of Chemical Physics, 155(4):044109, 07 2021. [164] Daan Frenkel and Berend Smit. Understanding molecular simulation: from algorithms to applications. elsevier, 2023. [165] Matthew K Horton, Patrick Huck, Ruo Xi Yang, Jason M Munro, Shyam Dwaraknath, Alex M Ganose, Ryan S Kingsbury, Mingjian Wen, Jimmy X Shen, Tyler S Mathis, et al. Accelerated data-driven materials science with the materials project. Nature Materials, 24(10):1522–1532, 2025. [166] Dmitry Bedrov, Jean-Philip Piquemal, Oleg Borodin, Alexander D MacKerell Jr, Benoît Roux, and Chris-tian Schroöder. Molecular dynamics simulations of ionic liquids and electrolytes using polarizable force fields. Chemical reviews, 119(13):7940–7995, 2019. [167] Marco De Vivo, Matteo Masetti, Giovanni Bottegoni, and Andrea Cavalli. Role of molecular dynamics and related methods in drug discovery. Journal of medicinal chemistry, 59(9):4035–4061, 2016. [168] Matteo Aldeghi, Alexander Heifetz, Michael J Bodkin, Stefan Knapp, and Philip C Biggin. Predictions of ligand selectivity from absolute binding free energy calculations. J. Am. Chem. Soc., 139(2):946–957, 2017. [169] Ketan T Savjani, Anuradha K Gajjar, and Jignasa K Savjani. Drug solubility: importance and enhancement techniques. International Scholarly Research Notices, 2012(1):195727, 2012. [170] Rafael C Bernardi, Marcelo CR Melo, and Klaus Schulten. Enhanced sampling techniques in molecular dynamics simulations of biological systems. Biochim. Biophys. Acta Gen. Subj., 1850(5):872–877, 2015. [171] Albert C Pan, Huafeng Xu, Timothy Palpant, and David E Shaw. Quantitative characterization of the binding and unbinding of millimolar drug fragments with molecular dynamics simulations. Journal of chemical theory and computation, 13(7):3372–3377, 2017. 48 [172] Jeremy Wohlwend, Gabriele Corso, Saro Passaro, Mateo Reveiz, Ken Leidal, Wojtek Swiderski, Tally Port-noi, Itamar Chinn, Jacob Silterra, Tommi Jaakkola, and Regina Barzilay. Boltz-1 democratizing biomolec-ular interaction modeling. bioRxiv, 2024. [173] Saro Passaro, Gabriele Corso, Jeremy Wohlwend, Mateo Reveiz, Stephan Thaler, Vignesh Ram Somnath, Noah Getz, Tally Portnoi, Julien Roy, Hannes Stark, et al. Boltz-2: Towards accurate and efficient binding affinity prediction. BioRxiv, 2025. [174] Guillaume Bret, François Sindt, and Didier Rognan. Assessing boltz-2 performance for the binding classi-fication of docking hits. Journal of Chemical Information and Modeling, 2025. [175] Venkata Sai Sreyas Adury, Pratyush Tiwary, Xinyu Gu, and Mrinal Shekhar. Early-enrichment hit discovery via reversible-work c (t) estimation in metadynamics (ctmd). bioRxiv, pages 2026–02, 2026. [176] Peter Škrinjar, Jérôme Eberhardt, Janani Durairaj, and Torsten Schwede. Have protein-ligand co-folding methods moved beyond memorisation? BioRxiv, pages 2025–02, 2025. [177] John E Ladbury. Just add water! the effect of water on the specificity of protein-ligand binding sites and its potential application to drug design. Chemistry & biology, 3(12):973–980, 1996. [178] Stanislav Andreev, Tatu Pantsar, Roberta Tesch, Niclas Kahlke, Ahmed El-Gokha, Francesco Ansideri, Lukas Grätz, Jenny Romasco, Giulia Sita, Christian Geibel, et al. Addressing a trapped high-energy water: design and synthesis of highly potent pyrimidoindole-based glycogen synthase kinase-3 β inhibitors. Journal of Medicinal Chemistry, 65(2):1283–1301, 2021. [179] Jérôme Hénin, Tony Lelièvre, Michael R. Shirts, Omar Valsson, and Lucie Delemotte. Enhanced sampling methods for molecular dynamics simulations [article v1.0]. Living J. Comput. Mol. Sci., 4:1583, Dec. 2022. [180] Louis Lagardère, Lise Maurin, Olivier Adjoua, Krystel El Hage, Pierre Monmarché, Jean-Philip Piquemal, and Jérôme Hénin. Lambda-abf: Simplified, portable, accurate, and cost-effective alchemical free-energy computation. Journal of Chemical Theory and Computation, 20(11):4481–4498, 2024. [181] Narjes Ansari, Félix Aviat, Jérôme Hénin, Jean-Philip Piquemal, and Louis Lagardère. Fast, systematic and robust relative binding free energies for simple and complex transformations: dual-lao. arXiv preprint arXiv:2512.17624, 2025. [182] Eric Darve and Andrew Pohorille. Calculating free energies using average force. J. Chem. Phys., 115(20):9169–9183, 2001. [183] Eric Darve, David Rodríguez-Gómez, and Andrew Pohorille. Adaptive biasing force method for scalar and vector free energy calculations. J. Chem. Phys., 128(14):144120–1, 2008. [184] Jeffrey Comer, James C Gumbart, Jérôme Hénin, Tony Lelièvre, Andrew Pohorille, and Christophe Chipot. The adaptive biasing force method: Everything you always wanted to know but were afraid to ask. J. Phys. Chem. B, 119(3):1129–1151, 2015. [185] Michele Invernizzi and Michele Parrinello. Rethinking Metadynamics: From bias potentials to probability Distributions. J. Phys. Chem. Lett., 11(7):2731–2736, 4 2020. [186] Michele Invernizzi and Michele Parrinello. Exploration vs convergence speed in adaptive-bias enhanced sampling. J. Chem. Theory Comput., 18(6):3988–3996, 6 2022. [187] TP Straatsma and JA McCammon. Multiconfiguration thermodynamic integration. J. Chem. Phys., 95(2):1175–1188, 1991. [188] Valerio Rizzi, Simone Aureli, Narjes Ansari, and Francesco Luigi Gervasio. Oneopes, a combined enhanced sampling method to rule them all. J. Chem. Theory Comput., 19(17):5731–5742, 2023. [189] Matteo Aldeghi, Alexander Heifetz, Michael J Bodkin, Stefan Knapp, and Philip C Biggin. Accurate calculation of the absolute free energy of binding for drug molecules. Chemi. Sci., 7(1):207–218, 2016. [190] Maurice Karrenbrock, Alberto Borsatto, Valerio Rizzi, Dominykas Lukauskis, Simone Aureli, and Francesco Luigi Gervasio. Absolute binding free energies with oneopes. J. Phys. Chem. Lett., 15(39):9871–9880, 2024. 49 [191] Gregory A Ross, Chao Lu, Guido Scarabelli, Steven K Albanese, Evelyne Houang, Robert Abel, Edward D Harder, and Lingle Wang. The maximal and current accuracy of rigorous protein-ligand binding free energy calculations. Commun. Chem., 6(1):222, 2023. [192] Irfan Alibay, Aniket Magarkar, Daniel Seeliger, and Philip Charles Biggin. Evaluating the use of absolute binding free energy in the fragment optimisation process. Commun. Chem., 5(1):105, 2022. [193] Gilles Brassard, Peter Høyer, Michele Mosca, and Alain Tapp. Quantum amplitude amplification and estimation, 2002. [194] M. Szegedy. Quantum speed-up of markov chain based algorithms. In 45th Annual IEEE Symposium on Foundations of Computer Science, pages 32–41, 2004. [195] Peter C. Richter. Quantum speedup of classical mixing processes. Physical Review A, 76(4), October 2007. [196] Chi-Fang Chen, Michael Kastoryano, Fernando G. S. L. Brandão, and András Gilyén. Efficient quantum thermal simulation. Nature, 646:561 – 566, 2025. [197] Zhiyan Ding, Chi-Fang Chen, and Lin Lin. Single-ancilla ground state preparation via lindbladians. Phys. Rev. Res., 6:033147, Aug 2024. [198] Baptiste Claudon, Jean-Philip Piquemal, and Pierre Monmarché. Quantum speedup for nonreversible markov chains. Nature Communications, 16(1), November 2025. [199] Baptiste Claudon. A simple algorithm to reflect through eigenspaces of unitaries. arxiv:412.09320, 2025. [200] The Atlas scientific platform for molecular simulation @ Quantum Pharmaceuticals, 2026. [201] Yuri Alexeev, Marwa H Farag, Taylor L Patti, Mark E Wolf, Natalia Ares, Alán Aspuru-Guzik, Simon C Benjamin, Zhenyu Cai, Shuxiang Cao, Christopher Chamberland, et al. Artificial intelligence for quantum computing. Nature Communications, 16(1):10829, 2025. [202] Jeffrey B. Schriber and Francesco A. Evangelista. Adaptive configuration interaction for computing chal-lenging electronic excited states with tunable accuracy. Journal of Chemical Theory and Computation, 13(11):5354–5366, 2017. [203] Sandeep Sharma, Adam A. Holmes, Guillaume Jeanmairet, Ali Alavi, and C. J. Umrigar. Semistochastic heat-bath configuration interaction method: Selected configuration interaction with semistochastic pertur-bation theory. Journal of Chemical Theory and Computation, 13(4):1595–1604, 2017. [204] Norm M. Tubman, C. Daniel Freeman, Daniel S. Levine, Diptarka Hait, Martin Head-Gordon, and K. Bir-gitta Whaley. Modern approaches to exact diagonalization and selected configuration interaction with the adaptive sampling ci method. Journal of Chemical Theory and Computation, 16(4):2139–2159, 2020. 50

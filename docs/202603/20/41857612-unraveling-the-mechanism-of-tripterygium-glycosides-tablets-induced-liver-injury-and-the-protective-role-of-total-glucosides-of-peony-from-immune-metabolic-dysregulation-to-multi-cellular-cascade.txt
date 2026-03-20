@@ -1,0 +1,58 @@
+Title: Unraveling the mechanism of tripterygium glycosides tablets-induced liver injury and the protective role of total glucosides of peony from immune-metabolic dysregulation to multi-cellular cascade - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41857612/
+
+Markdown Content:
+## Unraveling the mechanism of tripterygium glycosides tablets-induced liver injury and the protective role of total glucosides of peony from immune-metabolic dysregulation to multi-cellular cascade
+
+Yi Zhang et al. Chin Med.2026.
+
+## Abstract
+
+Tripterygium glycosides tablets (TGT) are effective against autoimmune diseases but cause significant drug-induced liver injury (DILI) that limits clinical use. While TGT disrupts hepatic iron-lipid homeostasis and co-administration with Total Glucosides of Peony (TGP) mitigates its toxicity, the multi-cellular mechanisms remain unclear. In the current study, using integrative single-cell RNA sequencing and pathological validation in controlled mouse models (TGT vs.Con and TGT + TGP vs. TGT.) we elucidated a pathogenic iron-lipid axis driving hepatotoxicity via cellular cascades. TGT initiated Kupffer cell M1 polarization, releasing pro-inflammatory cytokines (TNF-α and IL-1β) that recruited neutrophils and induced NETosis-mediated oxidative stress. Concurrently, hepatic endothelial cells developed iron overload with increased Hamp and decreased Slc40a1, alongside inflammatory damage, while hepatocytes exhibited fatty acid metabolic dysfunction and lipid peroxidation, collectively propagating adipocyte hyperplasia and perilipin-2-driven lipid accumulation. Critically, TGP rescued toxicity by reversing Kupffer cell M1-to-M2 polarization with decreased iNOS and increased CD206, suppressing NET formation with decreased Ly6G and CitH3, alleviating iron deposition with reduced Prussian blue staining, and normalizing lipid metabolism with decreased oil red O staining and perilipin-2. This study identifies the iron-lipid axis as the central driver of TGT-induced liver injury, which is mediated by a sequential multi-cellular cascade involving Kupffer cells, neutrophils, endothelial cells, hepatocytes, and adipocytes. These findings position TGP as a multi-target detoxification agent that mechanistically disrupts this axis and establishes a cellular hierarchy blueprint for metabolic toxicity intervention, supporting its potential as a rescue strategy for precision medicine and detoxification screening.
+
+**Keywords:** Cellular cascade; Detoxification; Drug-induced liver injury; Iron–lipid metabolism; Single-cell RNA sequencing; Total glucosides of peony; Tripterygium glycosides tablet.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Ethical approval and consent to participate: The study was approved by the Research Ethics Committee of the Institute of Chinese Materia Medica, China Academy of Chinese Medical Sciences, Beijing, China[Ethics approval number: 2022B050]. All animal studies were treated in accordance with the guidelines and regulations for the use and care of animals. Consent for publication: Not applicable. Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Single-cell transcriptome analysis uncovers underlying mechanisms of acute liver injury induced by tripterygium glycosides tablet in mice.](https://pubmed.ncbi.nlm.nih.gov/37719192/)
+
+Guo Q, Wu J, Wang Q, Huang Y, Chen L, Gong J, Du M, Cheng G, Lu T, Zhao M, Zhao Y, Qiu C, Xia F, Zhang J, Chen J, Qiu F, Wang J.Guo Q, et al.J Pharm Anal. 2023 Aug;13(8):908-925. doi: 10.1016/j.jpha.2023.03.004. Epub 2023 Mar 22.J Pharm Anal. 2023.PMID: 37719192 Free PMC article. 
+*   [Toxic effects of Tripterygium glycoside tablets on the reproductive system of male rats by metabolomics, cytotoxicity, and molecular docking.](https://pubmed.ncbi.nlm.nih.gov/37062137/)
+
+Ge JC, Qian Q, Gao YH, Zhang YF, Li YX, Wang X, Fu Y, Ma YM, Wang Q.Ge JC, et al.Phytomedicine. 2023 Jun;114:154813. doi: 10.1016/j.phymed.2023.154813. Epub 2023 Apr 10.Phytomedicine. 2023.PMID: 37062137 
+*   [Metabolomics reveals the role of PPARα in Tripterygium Wilfordii-induced liver injury.](https://pubmed.ncbi.nlm.nih.gov/35143937/)
+
+Dai M, Peng W, Zhang T, Zhao Q, Ma X, Cheng Y, Wang C, Li F.Dai M, et al.J Ethnopharmacol. 2022 May 10;289:115090. doi: 10.1016/j.jep.2022.115090. Epub 2022 Feb 7.J Ethnopharmacol. 2022.PMID: 35143937 
+*   [[Benefit and risk of Tripterygium Glycosides Tablets in treatment of rheumatoid arthritis based on multi-criteria decision-making analysis].](https://pubmed.ncbi.nlm.nih.gov/32237479/)
+
+Jiang H, Zhang XM, Zhang B, Zhang D, Lyu JT.Jiang H, et al.Zhongguo Zhong Yao Za Zhi. 2020 Feb;45(4):798-808. doi: 10.19540/j.cnki.cjcmm.20191115.502.Zhongguo Zhong Yao Za Zhi. 2020.PMID: 32237479 Chinese. 
+*   [[Meta-analysis on safety of Tripterygium Glycosides Tablets in treatment of rheumatoid arthritis].](https://pubmed.ncbi.nlm.nih.gov/32237477/)
+
+Li YQ, Hu RX, Jia KX, Wang JX, Xu TT, Cui RZ, Ming RR, Li TX, Liu CF, Liao X, Lin N.Li YQ, et al.Zhongguo Zhong Yao Za Zhi. 2020 Feb;45(4):775-790. doi: 10.19540/j.cnki.cjcmm.20191225.501.Zhongguo Zhong Yao Za Zhi. 2020.PMID: 32237477 Chinese. 
+
+## References
+
+1.       1.    Luo D, Zuo Z, Zhao H, Tan Y, Xiao C. Immunoregulatory effects of Tripterygium wilfordii Hook F and its extracts in clinical practice. Front Med. 2019;13(5):556–63. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/30604167/) - [DOI](https://doi.org/10.1007/s11684-018-0649-5)
+
+2.       1.    Marcus DM. Comparison of Tripterygium wilfordii Hook F with methotrexate in the treatment of rheumatoid arthritis. Ann Rheum Dis. 2014;73(9):e56. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/24938284/) - [DOI](https://doi.org/10.1136/annrheumdis-2014-205971)
+
+3.       1.    Lv Q, Zhang W, Shi Q, Zheng W, Li X, Chen H, et al. Comparison of Tripterygium wilfordii Hook F with methotrexate in the treatment of active rheumatoid arthritis (TRIFRA): a randomised, controlled clinical trial. Ann Rheum Dis. 2014;74(6):1078–86. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/24733191/) - [DOI](https://doi.org/10.1136/annrheumdis-2013-204807)
+
+4.       1.    Zhou Y, Xia X, Peng W, Wang Q, Peng J, Li Y, et al. The effectiveness and safety of Tripterygium wilfordii Hook. F extracts in rheumatoid arthritis: a systematic review and meta-analysis. Front Pharmacol. 2018;9:356. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/29713281/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/5911475/) - [DOI](https://doi.org/10.3389/fphar.2018.00356)
+
+5.       1.    Zhang X, Yang H, Zuo X, Wu L, Peng J, Li Z, et al. Efficacy and safety of Tripterygium wilfordii Hook F plus TNF inhibitor for active rheumatoid arthritis: a multicentre, randomized, double-blind, triple-dummy controlled trial. Clin Immunol. 2023;255:109749. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/37657525/) - [DOI](https://doi.org/10.1016/j.clim.2023.109749)
+
+## Grants and funding
+
+*   [82330124/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82330124%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82330124/National Natural Science Foundation of China")
+*   [7252247/Beijing Natural Science Foundation](https://pubmed.ncbi.nlm.nih.gov/?term=7252247%2FBeijing+Natural+Science+Foundation%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 7252247/Beijing Natural Science Foundation")
+*   [CI2023E002/Scientific and technological innovation project of China Academy of Chinese Medical Sciences](https://pubmed.ncbi.nlm.nih.gov/?term=CI2023E002%2FScientific+and+technological+innovation+project+of+China+Academy+of+Chinese+Medical+Sciences%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant CI2023E002/Scientific and technological innovation project of China Academy of Chinese Medical Sciences")

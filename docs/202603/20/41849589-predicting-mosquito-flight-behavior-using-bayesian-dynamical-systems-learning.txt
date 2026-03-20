@@ -1,0 +1,90 @@
+Title: Predicting mosquito flight behavior using Bayesian dynamical systems learning - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41849589/
+
+Markdown Content:
+## Predicting mosquito flight behavior using Bayesian dynamical systems learning
+
+Christopher Zuo et al. Sci Adv.2026.
+
+## Abstract
+
+Mosquito-borne diseases cause several hundred thousand deaths worldwide every year. Deciphering mosquito host-seeking behavior is essential to prevent disease transmission through mosquito capture and surveillance. Despite recent substantial progress, we still lack a comprehensive quantitative understanding of how visual and other sensory cues guide mosquitoes to their targets. Here, we combined three-dimensional infrared tracking of _Aedes aegypti_ mosquitoes with Bayesian dynamical systems inference to learn a quantitative biophysical model of mosquito host-seeking behavior. Trained on more than 20 million data points, each corresponding to an instantaneous position and velocity in mosquito free-flight trajectories recorded in the presence of visual and carbon dioxide cues, the model accurately predicts how mosquitoes respond to human targets. Our results provide a quantitative foundation for optimizing mosquito capture and control strategies, a key step toward mitigating the impact of mosquito-borne diseases.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+The authors declare that they have no competing interests.
+
+## Figures
+
+[![Image 1: Fig. 1.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b55c/12998517/812da7bec366/sciadv.adz7063-f1.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b55c/12998517/40227fe8ebb1/sciadv.adz7063-f1.jpg)
+
+**Fig. 1.. 3D tracking of individual mosquitoes enables Bayesian dynamical systems learning of mosquito flight behaviors.**
+(**A**) Design of the experimental setup. (**B**) Left: A human subject wearing dark clothing . The remaining panels show 2D projections of 3D mosquito trajectories around the subject shown on the left, colored by flight speed. Photo subject: C.Z. Photographer: D.L.H., Georgia Institute of Technology. (**C**) Left: A human subject wearing a half-black, half-white outfit. The remaining panels show 2D projections of 3D mosquito trajectories around the subject shown on the left, colored by flight speed. Photo subject: C.Z. Photographer: D.L.H., Georgia Institute of Technology. (**D**) Learning dynamical models for mosquito flight behaviors. Left: Inputs are 3D trajectories of mosquito positions r(t) and velocities v(t). Middle: The unknown behavioral force f is decomposed on a set of basis functions θ μ, where the decomposition coefficients w μ are learned from input data using sparse Bayesian inference. Right: The learned dynamical model can be simulated to generate synthetic time-series data for validation against input data, comparing them based on ensemble statistics such as speed probability density function (PDF) and directional correlation function, which are not used in model learning. Scale bars labeled with _x_, _y_, and _z_: 25 cm. For visual clarity, 50% of trajectories are shown.
+
+[![Image 2: Fig. 2.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b55c/12998517/835f5d12b1a7/sciadv.adz7063-f2.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b55c/12998517/dfd9839320ee/sciadv.adz7063-f2.jpg)
+
+**Fig. 2.. Free flying mosquitoes exhibit two distinct behaviors.**
+(**A**) Representative mosquito trajectories from (top) experiments and (bottom) simulations of the learned model. Scale bars labeled with _x_, _y_, and _z_: 25 cm. For visual clarity, only 10% of total trajectories are shown. (**B**) 2D histogram of the two most relevant learned decomposition coefficients shows two groups of trajectories, an active group (green) and an idle group (blue). (**C** and **D**) The learned rates α at varying speed _v_ for (C) the active group and (D) the idle group. Positive and negative α indicate acceleration and deceleration, respectively. (**E** to **G**) Probability distributions of (E) the measured flight speed, (F) the learned velocity diffusion coefficient, and (G) the duration of the trajectories for the two groups. (**H**) Mean squared displacement (MSD), (**I**) directional correlation, and (**J**) speed correlation are compared between experiments (black) and simulations of the learned model (gray). MSD shows ballistic flight at short lag times, transitioning to more diffusive movement around a lag time of 1 s. Directional correlation indicates straight flight over short intervals and turning over longer times, while speed correlation decreases toward zero, with experimental data showing small oscillations.
+
+[![Image 3: Fig. 3.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b55c/12998517/e09eba28a09b/sciadv.adz7063-f3.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b55c/12998517/4f382ae22231/sciadv.adz7063-f3.jpg)
+
+**Fig. 3.. Learning dynamical models of mosquito flight behaviors reveals different responses to stimuli.**
+(**A**) Schematics of the experimental setup. Photo subject: C.Z. Photographer: D.L.H., Georgia Institute of Technology. (**B**) Illustration of a mosquito flying with a velocity v v ˆ and a displacement d d ˆ relative to the stimulus (dashed circle). The behavioral forces are decomposed into components parallel (f∥) and perpendicular (f⊥) to v and are expressed as functions of the flight speed _v_, the distance _d_ to the stimulus, and the flight direction v ˆ⋅d ˆ (−1 toward and +1 away). (**C** to **E**) Mosquito response to a visual stimulus. (C) 2D density maps of recorded trajectories reveal mosquito attraction to the visual stimulus with bidirectional flights. (D) Left: Simulated trajectory of the learned model. Heatmaps of the learned responses (middle) f∥ and (right) f⊥ to visual stimulus. Yellow/blue represent speed increase/decrease (f∥) or turning away/toward the stimulus (f⊥). (E) 2D density maps of simulated trajectories agree quantitatively with the experimental data in (C), with a symmetric Kullback-Leibler distance D KL S=0.20 outperforming the best Gaussian fit (D KL S=0.36). (**F** to **H**) Mosquito response to CO 2 cues. Plots correspond to (C) to (E). Simulated and experimental distributions yield a symmetric Kullback-Leibler distance D KL S=0.41, smaller than that of a Gaussian fit (D KL S=0.76).
+
+[![Image 4: Fig. 4.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b55c/12998517/d1cb81396e1a/sciadv.adz7063-f4.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b55c/12998517/4c62f05f5a11/sciadv.adz7063-f4.jpg)
+
+**Fig. 4.. Mosquitoes combine visual and CO 2 cues to target human hosts.**
+(**A**) Schematics of the experimental setup. Photo subject: CZ. Photographer: D.L.H., Georgia Institute of Technology. (**B** to **D**) Mosquito response to the combined visual and CO 2 cues. Plots correspond to Fig. 3 (C to E). A symmetric Kullback-Leibler distance of D KL S=0.31 is computed between the distributions in (B) and (D), which is smaller than that between (B) and its best Gaussian fit (D KL S=0.98). (**E**) Left: Mosquito trajectories around a human subject wearing a black hood and white outfit (shown in middle). Right: The human subject can be approximated by a black sphere emitting CO 2. Photo subject: CZ. Photographer: D.L.H., Georgia Institute of Technology. (**F**) Heatmaps of mosquito densities at varying distances _d_ from the center of the head, flight speeds _v_, and flight directions v ˆ⋅d ˆ, for the experiment in (E). (**G**) The learned forces in (C) are approximated by nonnegative linear superposition, f∥,lin and f⊥,lin, of the responses to individual cues. Heatmaps showing the difference between the learned and linearly reconstructed forces indicate that the mosquito’s response to combined stimuli is not a simple sum of uni-stimulus responses. (**H**) Heatmaps of simulated trajectories predicted by the model learned in (C). Plots correspond to (F). A symmetric Kullback-Leibler distance of D KL S=0.53 is computed between the distributions in (F) and (H), which is smaller than that between (F) and its best Gaussian fit (D KL S=0.70).
+
+[![Image 5: Fig. 5.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b55c/12998517/6b51c4ec9734/sciadv.adz7063-f5.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b55c/12998517/0368210f1bda/sciadv.adz7063-f5.jpg)
+
+**Fig. 5.. Model-predicted mosquito trajectories in response to different stimuli agree with experimental observations.**
+(**A**) Representative trajectory of a mosquito in an empty chamber. (**B**) Typical experimental trajectories (_n_ = 30) in a 1-meter cube without cues. These 3D trajectories are projected onto a 2D plane. (**C**) 2D projection of 3D simulated trajectories (_n_ = 30) of mosquitoes in an empty chamber. (**D** to **L**) Schematic, experimental, and simulated trajectories of mosquitoes in response to [(D) to (F)] visual cues, [(G) to (I)] CO 2 cues, and [(J) to (L)] combined visual and CO 2 cues. For each cue, _n_ = 30 trajectories are shown. In (D), (G), and (J), dashed circles indicate the zone of attraction, and diffuse orange denotes CO 2. In (H) and (I), the trajectories are spread out in the third dimension. (**M** and **N**) Cumulative distribution functions (CDFs) of (M) the experimental trajectories and (N) the simulated trajectories in response to the specified sensory cues indicate that the learned models capture the key features of mosquito flight behavior. (**O**) Kolmogorov-Smirnov (KS) distances demonstrate a quantitative agreement between the experimental and simulation CDFs.
+
+## Similar articles
+
+*   [Mapping Aedes aegypti (Diptera: Culicidae) and Aedes albopictus Vector Mosquito Distribution in Brownsville, TX.](https://pubmed.ncbi.nlm.nih.gov/31400202/)
+
+Myer MH, Fizer CM, Mcpherson KR, Neale AC, Pilant AN, Rodriguez A, Whung PY, Johnston JM.Myer MH, et al.J Med Entomol. 2020 Jan 9;57(1):231-240. doi: 10.1093/jme/tjz132.J Med Entomol. 2020.PMID: 31400202 Free PMC article. 
+*   [Active dispersal of Aedes albopictus: a mark-release-recapture study using self-marking units.](https://pubmed.ncbi.nlm.nih.gov/31831040/)
+
+Vavassori L, Saddler A, Müller P.Vavassori L, et al.Parasit Vectors. 2019 Dec 12;12(1):583. doi: 10.1186/s13071-019-3837-5.Parasit Vectors. 2019.PMID: 31831040 Free PMC article. 
+*   [Visual-Olfactory Integration in the Human Disease Vector Mosquito Aedes aegypti.](https://pubmed.ncbi.nlm.nih.gov/31327719/)
+
+Vinauger C, Van Breugel F, Locke LT, Tobin KKS, Dickinson MH, Fairhall AL, Akbari OS, Riffell JA.Vinauger C, et al.Curr Biol. 2019 Aug 5;29(15):2509-2516.e5. doi: 10.1016/j.cub.2019.06.043. Epub 2019 Jul 18.Curr Biol. 2019.PMID: 31327719 Free PMC article. 
+*   [Keeping track of mosquitoes: a review of tools to track, record and analyse mosquito flight.](https://pubmed.ncbi.nlm.nih.gov/29499744/)
+
+Spitzen J, Takken W.Spitzen J, et al.Parasit Vectors. 2018 Mar 2;11(1):123. doi: 10.1186/s13071-018-2735-6.Parasit Vectors. 2018.PMID: 29499744 Free PMC article.Review. 
+*   [Smart technology for mosquito control: Recent developments, challenges, and future prospects.](https://pubmed.ncbi.nlm.nih.gov/39098749/)
+
+Rajak P, Ganguly A, Adhikary S, Bhattacharya S.Rajak P, et al.Acta Trop. 2024 Oct;258:107348. doi: 10.1016/j.actatropica.2024.107348. Epub 2024 Aug 2.Acta Trop. 2024.PMID: 39098749 Review. 
+
+## References
+
+1.       1.    Omodior O., Luetke M. C., Nelson E. J., Mosquito-borne infectious disease, risk-perceptions, and personal protective behavior among US international travelers. Prev. Med. Rep. 12, 336–342 (2018). - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6222040/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/30416953/)
+
+2.       1.    Wang J., Zhu Z., Novel paradigm of mosquito-borne disease control based on self-powered strategy. Front. Public Health 11, 1115000 (2023). - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9895093/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/36741958/)
+
+3.       1.    McBride C. S., Baier F., Omondi A. B., Spitzer S. A., Lutomiah J., Sang R., Ignell R., Vosshall L. B., Evolution of mosquito preference for humans linked to an odorant receptor. Nature 515, 222–227 (2014). - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC4286346/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/25391959/)
+
+4.       1.    Yee D. A., Bermond C. D., Reyes-Torres L. J., Fijman N. S., Scavo N. A., Nelsen J., Yee S. H., Robust network stability of mosquitoes and human pathogens of medical importance. Parasit. Vectors 15, 216 (2022). - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9208160/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/35725618/)
+
+5.       1.    A. Hinze, S. Hill, R. Ignell, “Chapter 9: Odour-mediated host selection and discrimination in mosquitoes,” in _Sensory Ecology of Disease Vectors_ (Wageningen Academic Publishers, 2022), pp. 253–276. 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Atypon](https://www.science.org/doi/10.1126/sciadv.adz7063?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)

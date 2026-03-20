@@ -1,0 +1,651 @@
+Title: Deep learning predicts and in vitro experiments validates the synergistic anti-liver cancer effect of vincristine and lenvatinib: Mechanism involving apoptosis induction via the TNF-α/Caspase-8 pathway - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41637988/
+
+Markdown Content:
+# Deep learning predicts and in vitro experiments validates the synergistic anti-liver cancer effect of vincristine and lenvatinib: Mechanism involving apoptosis induction via the TNF-α/Caspase-8 pathway - PubMed
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/41637988/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41637988%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/41637988/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/41637988/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/41637988/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/9fea6d21-07b4-4726-b151-fb89a024b8ad/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/41637988/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/41637988/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41637988%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41637988%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Save citation to file
+
+ Format:  
+
+ Create file  Cancel 
+
+## Email citation
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+ Add  Cancel 
+
+## Your saved search
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+## Create a file for external citation management software
+
+ Create file  Cancel 
+
+## Your RSS Feed
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Full text links
+
+[![Image 6: Elsevier Science full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--linkinghub.elsevier.com-ihub-images-PubMedLink.gif) Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S0006-291X(26)00144-0 "See full text options at Elsevier Science")
+
+[Full text links](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/41637988/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/41637988/#abstract)
+*   [Conflict of interest statement](https://pubmed.ncbi.nlm.nih.gov/41637988/#conflict-of-interest)
+*   [Similar articles](https://pubmed.ncbi.nlm.nih.gov/41637988/#similar)
+*   [Publication types](https://pubmed.ncbi.nlm.nih.gov/41637988/#publication-types)
+*   [MeSH terms](https://pubmed.ncbi.nlm.nih.gov/41637988/#mesh-terms)
+*   [Substances](https://pubmed.ncbi.nlm.nih.gov/41637988/#substances)
+*   [Related information](https://pubmed.ncbi.nlm.nih.gov/41637988/#related-links)
+*   [LinkOut - more resources](https://pubmed.ncbi.nlm.nih.gov/41637988/#linkout)
+
+ Biochem Biophys Res Commun 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Biochem+Biophys+Res+Commun%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Biochem+Biophys+Res+Commun%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+. 2026 Mar 19:805:153380.
+
+ doi: 10.1016/j.bbrc.2026.153380.  Epub 2026 Jan 30. 
+
+# Deep learning predicts and in vitro experiments validates the synergistic anti-liver cancer effect of vincristine and lenvatinib: Mechanism involving apoptosis induction via the TNF-α/Caspase-8 pathway
+
+[Wenbin Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+W&cauthor_id=41637988)[1](https://pubmed.ncbi.nlm.nih.gov/41637988/#full-view-affiliation-1 "Guangxi Key Laboratory of Special Biomedicine, School of Medicine, Guangxi University, Nanning, Guangxi, 530004, China."),[Yumeng Zhao](https://pubmed.ncbi.nlm.nih.gov/?term=Zhao+Y&cauthor_id=41637988)[2](https://pubmed.ncbi.nlm.nih.gov/41637988/#full-view-affiliation-2 "Laboratory Animal Resources Center, Haihe Laboratory of Cell Ecosystem, Tianjin, 300392, China."),[Manqi Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+M&cauthor_id=41637988)[1](https://pubmed.ncbi.nlm.nih.gov/41637988/#full-view-affiliation-1 "Guangxi Key Laboratory of Special Biomedicine, School of Medicine, Guangxi University, Nanning, Guangxi, 530004, China."),[Mingming Wei](https://pubmed.ncbi.nlm.nih.gov/?term=Wei+M&cauthor_id=41637988)[3](https://pubmed.ncbi.nlm.nih.gov/41637988/#full-view-affiliation-3 "Laboratory Animal Resources Center, Haihe Laboratory of Cell Ecosystem, Tianjin, 300392, China. Electronic address: mingmingshengwu@163.com."),[Lichuan Wu](https://pubmed.ncbi.nlm.nih.gov/?term=Wu+L&cauthor_id=41637988)[4](https://pubmed.ncbi.nlm.nih.gov/41637988/#full-view-affiliation-4 "Guangxi Key Laboratory of Special Biomedicine, School of Medicine, Guangxi University, Nanning, Guangxi, 530004, China. Electronic address: richard_wu@gxu.edu.cn."),[Jinrui Wei](https://pubmed.ncbi.nlm.nih.gov/?term=Wei+J&cauthor_id=41637988)[5](https://pubmed.ncbi.nlm.nih.gov/41637988/#full-view-affiliation-5 "Guangxi Key Laboratory of Efficacy Study on Chinese Materia Medica, Institute of Traditional Chinese and Zhuang-Yao Ethnic Medicine, Guangxi University of Chinese Medicine, Nanning, Guangxi, 530200, China. Electronic address: weijr@gxtcmu.edu.cn.")
+
+ Affiliations  Expand 
+
+### Affiliations
+
+*   1 Guangxi Key Laboratory of Special Biomedicine, School of Medicine, Guangxi University, Nanning, Guangxi, 530004, China.
+*   2 Laboratory Animal Resources Center, Haihe Laboratory of Cell Ecosystem, Tianjin, 300392, China.
+*   3 Laboratory Animal Resources Center, Haihe Laboratory of Cell Ecosystem, Tianjin, 300392, China. Electronic address: mingmingshengwu@163.com.
+*   4 Guangxi Key Laboratory of Special Biomedicine, School of Medicine, Guangxi University, Nanning, Guangxi, 530004, China. Electronic address: richard_wu@gxu.edu.cn.
+*   5 Guangxi Key Laboratory of Efficacy Study on Chinese Materia Medica, Institute of Traditional Chinese and Zhuang-Yao Ethnic Medicine, Guangxi University of Chinese Medicine, Nanning, Guangxi, 530200, China. Electronic address: weijr@gxtcmu.edu.cn.
+
+*    PMID: **41637988**
+*    DOI: [10.1016/j.bbrc.2026.153380](https://doi.org/10.1016/j.bbrc.2026.153380)
+
+ Item in Clipboard 
+
+# Deep learning predicts and in vitro experiments validates the synergistic anti-liver cancer effect of vincristine and lenvatinib: Mechanism involving apoptosis induction via the TNF-α/Caspase-8 pathway
+
+Wenbin Wang et al. Biochem Biophys Res Commun.2026.
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ Biochem Biophys Res Commun 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Biochem+Biophys+Res+Commun%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Biochem+Biophys+Res+Commun%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+. 2026 Mar 19:805:153380.
+
+ doi: 10.1016/j.bbrc.2026.153380.  Epub 2026 Jan 30. 
+
+### Authors
+
+[Wenbin Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+W&cauthor_id=41637988)[1](https://pubmed.ncbi.nlm.nih.gov/41637988/#short-view-affiliation-1 "Guangxi Key Laboratory of Special Biomedicine, School of Medicine, Guangxi University, Nanning, Guangxi, 530004, China."),[Yumeng Zhao](https://pubmed.ncbi.nlm.nih.gov/?term=Zhao+Y&cauthor_id=41637988)[2](https://pubmed.ncbi.nlm.nih.gov/41637988/#short-view-affiliation-2 "Laboratory Animal Resources Center, Haihe Laboratory of Cell Ecosystem, Tianjin, 300392, China."),[Manqi Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+M&cauthor_id=41637988)[1](https://pubmed.ncbi.nlm.nih.gov/41637988/#short-view-affiliation-1 "Guangxi Key Laboratory of Special Biomedicine, School of Medicine, Guangxi University, Nanning, Guangxi, 530004, China."),[Mingming Wei](https://pubmed.ncbi.nlm.nih.gov/?term=Wei+M&cauthor_id=41637988)[3](https://pubmed.ncbi.nlm.nih.gov/41637988/#short-view-affiliation-3 "Laboratory Animal Resources Center, Haihe Laboratory of Cell Ecosystem, Tianjin, 300392, China. Electronic address: mingmingshengwu@163.com."),[Lichuan Wu](https://pubmed.ncbi.nlm.nih.gov/?term=Wu+L&cauthor_id=41637988)[4](https://pubmed.ncbi.nlm.nih.gov/41637988/#short-view-affiliation-4 "Guangxi Key Laboratory of Special Biomedicine, School of Medicine, Guangxi University, Nanning, Guangxi, 530004, China. Electronic address: richard_wu@gxu.edu.cn."),[Jinrui Wei](https://pubmed.ncbi.nlm.nih.gov/?term=Wei+J&cauthor_id=41637988)[5](https://pubmed.ncbi.nlm.nih.gov/41637988/#short-view-affiliation-5 "Guangxi Key Laboratory of Efficacy Study on Chinese Materia Medica, Institute of Traditional Chinese and Zhuang-Yao Ethnic Medicine, Guangxi University of Chinese Medicine, Nanning, Guangxi, 530200, China. Electronic address: weijr@gxtcmu.edu.cn.")
+
+### Affiliations
+
+*   1 Guangxi Key Laboratory of Special Biomedicine, School of Medicine, Guangxi University, Nanning, Guangxi, 530004, China.
+*   2 Laboratory Animal Resources Center, Haihe Laboratory of Cell Ecosystem, Tianjin, 300392, China.
+*   3 Laboratory Animal Resources Center, Haihe Laboratory of Cell Ecosystem, Tianjin, 300392, China. Electronic address: mingmingshengwu@163.com.
+*   4 Guangxi Key Laboratory of Special Biomedicine, School of Medicine, Guangxi University, Nanning, Guangxi, 530004, China. Electronic address: richard_wu@gxu.edu.cn.
+*   5 Guangxi Key Laboratory of Efficacy Study on Chinese Materia Medica, Institute of Traditional Chinese and Zhuang-Yao Ethnic Medicine, Guangxi University of Chinese Medicine, Nanning, Guangxi, 530200, China. Electronic address: weijr@gxtcmu.edu.cn.
+
+*    PMID: **41637988**
+*    DOI: [10.1016/j.bbrc.2026.153380](https://doi.org/10.1016/j.bbrc.2026.153380)
+
+ Item in Clipboard 
+
+ Full text links Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Abstract
+
+Resistance to lenvatinib has become a major obstacle in the clinical treatment of liver cancer, highlighting the significant research value and translational potential of developing synergistic drug combinations. In this study, deep learning models (MARSY and MatchMaker) were employed to predict potential synergistic partners for lenvatinib, with vincristine identified as a promising candidate. In vitro experiments confirmed that the combination synergistically inhibited the proliferation, migration, and clonogenic formation of liver cancer cells: CCK-8 and colony formation assays demonstrated a significant reduction in cell viability and clonogenic ability, while wound healing and Transwell assays indicated effective suppression of cell migration. The synergistic effect was quantitatively validated using the ZIP model. Furthermore, flow cytometry and Western blot analyses confirmed that the combination effectively induced apoptosis. Mechanistic studies revealed that the co-treatment led to excessive accumulation of intracellular reactive oxygen species (ROS), which activated the TNF-α/Caspase-8 signaling pathway, thereby inducing apoptosis in liver cancer cells. The cytotoxicity and pro-apoptotic effects were significantly attenuated by the ROS scavenger NAC. These findings provide a solid preclinical foundation for the further development of this combination therapy and underscore the importance of the "computational prediction-mechanistic validation" strategy in advancing cancer drug discovery.
+
+**Keywords:** Apoptosis; Death receptor pathway; Deep learning; Lenvatinib; Synergistic effect against liver cancer; Vincristine.
+
+Copyright © 2026 Elsevier Inc. All rights reserved.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+## Similar articles
+
+*   [Lenvatinib Suppresses Colorectal Cancer Cell Growth, Migration, and Invasion _via_ Dual-pathway Apoptosis and ERK/STAT3/NF-κB Inactivation.](https://pubmed.ncbi.nlm.nih.gov/41482360/)Wu CH, Hsu FT, Chen CH, Wang PE, Huang HY, Hsieh LL, Chen CH.Wu CH, et al.In Vivo. 2026 Jan-Feb;40(1):264-273. doi: 10.21873/invivo.14189.In Vivo. 2026.PMID: 41482360 Free PMC article.  
+*   [KBTBD8/RRP15 as a potential novel therapeutic target associates with lenvatinib-inhibited progression in hepatocellular carcinoma both in vitro and in vivo.](https://pubmed.ncbi.nlm.nih.gov/39672234/)Zhao S, Wang X, Wu R, Wang F, Tang X, Chen J, Jiang R, Kang W, Xu G, Wang L, Wang Z, Zou X, Zhang B.Zhao S, et al.J Adv Res. 2025 Oct;76:569-583. doi: 10.1016/j.jare.2024.12.017. Epub 2024 Dec 11.J Adv Res. 2025.PMID: 39672234 Free PMC article.  
+*   [Mechanism of d-Glucaro-1,4-lactone enhancing the anticancer efficacy of lenvatinib via the IFN-γ-STAT3-PD-L1 signaling pathway in hepatocellular carcinoma.](https://pubmed.ncbi.nlm.nih.gov/41485289/)Deng Y, Hu Q, Song Z, Nie M, Wu Z, Lei Y, Liu M, Zhan D, Xie B.Deng Y, et al.Phytomedicine. 2026 Jan;150:157760. doi: 10.1016/j.phymed.2025.157760. Epub 2025 Dec 31.Phytomedicine. 2026.PMID: 41485289  
+*   [Antrocinol-mediated downregulation of ATG5 induces autophagy-dependent cell death and activates the unfolded protein response through PERK/CHOP signaling in lenvatinib-resistant hepatocellular carcinoma cells.](https://pubmed.ncbi.nlm.nih.gov/40912516/)Lai SW, Cheng YC, Hsieh MS, Kuo KT, Yadav VK, Tzeng YM, Yeh CT, Tsai TY.Lai SW, et al.Eur J Pharmacol. 2025 Nov 5;1006:178115. doi: 10.1016/j.ejphar.2025.178115. Epub 2025 Sep 3.Eur J Pharmacol. 2025.PMID: 40912516  
+*   [Aberrant activation of the PI3K/AKT/HIF‑1α pathway promotes glycolysis and lenvatinib resistance in liver cancer.](https://pubmed.ncbi.nlm.nih.gov/40878941/)Wang J, Shi J, Mi L, Zhao M, Han G, Yin F.Wang J, et al.Mol Med Rep. 2025 Nov;32(5):301. doi: 10.3892/mmr.2025.13666. Epub 2025 Aug 29.Mol Med Rep. 2025.PMID: 40878941 Free PMC article.  
+
+[See all similar articles](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed&from_uid=41637988)
+
+## Publication types
+
+*   
+ Research Support, Non-U.S. Gov't 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Research+Support%2C+Non-U.S.+Gov%27t%22%5Bpt%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Research+Support%2C+Non-U.S.+Gov%27t)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+## MeSH terms
+
+*   
+ Antineoplastic Agents* / pharmacology 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Antineoplastic+Agents%2Fpharmacology%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Antineoplastic+Agents)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Apoptosis* / drug effects 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Apoptosis%2Fdrug+effects%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Apoptosis)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Caspase 8* / metabolism 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Caspase+8%2Fmetabolism%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Caspase+8)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Cell Line, Tumor 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Cell+Line%2C+Tumor%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Cell+Line%2C+Tumor)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Cell Movement / drug effects 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Cell+Movement%2Fdrug+effects%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Cell+Movement)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Cell Proliferation / drug effects 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Cell+Proliferation%2Fdrug+effects%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Cell+Proliferation)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Cell Survival / drug effects 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Cell+Survival%2Fdrug+effects%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Cell+Survival)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Deep Learning* 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Deep+Learning%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Deep+Learning)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Drug Synergism 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Drug+Synergism%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Drug+Synergism)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Humans 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Humans%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Humans)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Liver Neoplasms* / drug therapy 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Liver+Neoplasms%2Fdrug+therapy%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Liver+Neoplasms)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Liver Neoplasms* / metabolism 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Liver+Neoplasms%2Fmetabolism%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Liver+Neoplasms)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Liver Neoplasms* / pathology 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Liver+Neoplasms%2Fpathology%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Liver+Neoplasms)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Phenylurea Compounds* / pharmacology 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Phenylurea+Compounds%2Fpharmacology%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Phenylurea+Compounds)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Quinolines* / pharmacology 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Quinolines%2Fpharmacology%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Quinolines)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Reactive Oxygen Species / metabolism 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Reactive+Oxygen+Species%2Fmetabolism%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Reactive+Oxygen+Species)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Signal Transduction / drug effects 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Signal+Transduction%2Fdrug+effects%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Signal+Transduction)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Tumor Necrosis Factor-alpha* / metabolism 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Tumor+Necrosis+Factor-alpha%2Fmetabolism%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Tumor+Necrosis+Factor-alpha)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Vincristine* / pharmacology 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Vincristine%2Fpharmacology%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Vincristine)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+## Substances
+
+*   
+ Quinolines 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Quinolines%22%5Bnm%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=%22Quinolines%22)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Phenylurea Compounds 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Phenylurea+Compounds%22%5Bnm%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=%22Phenylurea+Compounds%22)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ lenvatinib 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22lenvatinib%22%5Bnm%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=%22lenvatinib%22)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Caspase 8 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Caspase+8%22%5Bnm%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=%22Caspase+8%22)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Vincristine 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Vincristine%22%5Bnm%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=%22Vincristine%22)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Tumor Necrosis Factor-alpha 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Tumor+Necrosis+Factor-alpha%22%5Bnm%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=%22Tumor+Necrosis+Factor-alpha%22)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Antineoplastic Agents 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Antineoplastic+Agents%22%5Bnm%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=%22Antineoplastic+Agents%22)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+*   
+ Reactive Oxygen Species 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Reactive+Oxygen+Species%22%5Bnm%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=%22Reactive+Oxygen+Species%22)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+## Related information
+
+*   [GEO Profiles](https://www.ncbi.nlm.nih.gov/geoprofiles?linkname=pubmed_geoprofiles&from_uid=41637988 "GEO records associated with pubmed record")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S0006-291X(26)00144-0)
+
+*   ### Medical
+
+    *   [MedlinePlus Health Information](https://medlineplus.gov/livercancer.html)
+
+**Full text links**[x]
+
+[![Image 7: Elsevier Science full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--linkinghub.elsevier.com-ihub-images-PubMedLink.gif) Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S0006-291X(26)00144-0 "See full text options at Elsevier Science")
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41637988%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41637988%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41637988%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/41637988/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/?pagename=pubmed%3Apubmed%3Aabstract%3ANONE)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)
