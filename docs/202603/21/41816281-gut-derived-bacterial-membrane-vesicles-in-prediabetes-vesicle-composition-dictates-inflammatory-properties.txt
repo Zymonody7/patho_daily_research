@@ -1,0 +1,100 @@
+Title: Gut-derived bacterial membrane vesicles in prediabetes: Vesicle composition dictates inflammatory properties - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41816281/
+
+Markdown Content:
+## Gut-derived bacterial membrane vesicles in prediabetes: Vesicle composition dictates inflammatory properties
+
+Jari Verbunt et al. iScience.2026.
+
+## Abstract
+
+Systemic inflammation relates to the pathophysiology of metabolic diseases such as obesity or type 2 diabetes. Understanding aberrant microbiota-host interactions is essential for comprehending their pathogenesis. Gut bacteria produce bacterial membrane vesicles (bMVs) reflecting bacterial metabolism and activity. Importantly, in animal models, these vesicles can reach organs and affect metabolism by inducing inflammation. We investigated feces-derived gut bacteria and bMVs in participants diagnosed with prediabetes and in healthy controls. Vesicle and bacterial DNA repertoires were found to be vastly different, with Gram-negative bacterial taxa dominating at the vesicle level (_Alistipes_, _Barnesiella_) and Gram-positive taxa (_Anaerostipes_, _Collinsella_) dominating at the bacterial level. We observed no compositional differences between participant-phenotype groups. Strikingly, vesicle repertoires characterized by elevated proportional abundance of Lachnospiraceae and Oscillospiraceae DNA were more proinflammatory, whereas the opposite was observed for vesicles rich in Akkermansiaceae DNA. These results may improve our understanding of microbe-host interactions relevant to metabolic and inflammatory diseases.
+
+**Keywords:** Bacteriology; Diabetology; Medicine.
+
+© 2026 The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+The authors declare no competing interests.
+
+## Figures
+
+[![Image 1: None](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e3c/12972707/4bc5b285cc3e/fx1.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e3c/12972707/aba00749cdbf/fx1.jpg)
+
+**Graphical abstract**
+
+[![Image 2: Figure 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e3c/12972707/64a089af2996/gr1.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e3c/12972707/de2efee25245/gr1.jpg)
+
+**Figure 1**
+Vesicle repertoires (_n_ = 24) characterized by 16S rRNA amplicon sequencing differ in composition from the bacterial compositions (_n_ = 24) that produced them (A) Linear relationships between the number of features (amplicon sequence variants/ASVs or Genera) detected in vesicle samples and the bacteria that produced them. Depicted are ordinary least squares linear regressions with 95% confidence intervals. For ASVs, _p_ = 0.0098 (R 2 = 0.41), for Genera, _p_ = 0.11 (R 2 = 0.10). (B) Principal component analysis (PCA) of CLR-transformed genus-level compositions (vesicles vs. bacteria). Aitchison distance PERMANOVA _p_< 0.001. (C) Shannon diversity of bacterial and vesicle compositions at the genus and family levels. Boxplots compare bacteria and vesicles; Wilcoxon rank-sum test was performed at genus (_p_ = 2.7 × 10−9) and family (_p_ = 0.574). Boxes represent the interquartile range, and whiskers extend to 1.5x the interquartile range. (D) Top 5 most discriminative taxa for vesicle and bacterial compositions at the genus taxonomic level. (E) Iris plot displays the most prevalent taxa constituting vesicle or bacterial compositions. Compositions are grouped together based on similarity.
+
+[![Image 3: Figure 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e3c/12972707/6cdea49f693f/gr2.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e3c/12972707/b31ef3413e4c/gr2.jpg)
+
+**Figure 2**
+No compositional differences in bacteria or vesicles between distinct metabolic phenotypes (A) Metabolic parameters, BMI, fasting plasma glucose levels, and plasma glucose levels 2 h post OGTT are elevated in PD. (B) No differences in bacterial compositional richness between groups. (C) No differences in vesicle compositional richness between groups. (D) No differences in mean vesicle size between groups. (E) No differences in mean vesicle concentration between groups. (A–E) Bars represent mean ± standard deviation. Statistical testing of single-variable data was performed using unpaired two-tailed t-testing. Significance levels are indicated as ∗∗∗_p_< 0.001, ∗∗∗∗_p_< 0.0001, ns; not significant. (F) Principal component analysis (PCA) of CLR-transformed genus-level bacterial compositions (HC vs. PD). Aitchison distance PERMANOVA _p_ = 0.47. (G) Principal component analysis (PCA) of CLR-transformed genus-level vesicle compositions (HC vs. PD). Aitchison distance PERMANOVA _p_ = 0.879. BMI: body mass index in kg/mˆ2. OGTT: oral glucose tolerance test. HC: healthy control. PD: prediabetes.
+
+[![Image 4: Figure 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e3c/12972707/38dccb7c1d35/gr3.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e3c/12972707/370048a89e8a/gr3.jpg)
+
+**Figure 3**
+A: Vesicle composition by DNA determines inflammatory potential, but differences are not phenotype-specific (A) Pearson’s regression analyses overview at class taxonomic level indicating relative taxa abundances correlating positively (proinflammatory) and negatively (antiinflammatory) with outcome. Heatmap shows Spearman’s rank correlation coefficients. ∗_p_< 0.05, (uncorrected). Filled circles indicate significance after Benjamini-Hochberg false discovery rate correction, q < 0.05. (B) Comparison of proportional abundance of taxa (class) constituting vesicle repertoires by phenotype group. Bars represent mean ± standard deviation. (C) 50% highest-proportion (_n_ = 10) vs. 50% lowest-proportion (_n_ = 10) dichotomized comparison of cytokine induction by taxa of interest (family). Bars represent mean ± standard error of the mean. B and C: Statistical testing was performed using unpaired two-tailed t-testing. Significance levels are indicated ∗∗_p_< 0.01, ∗_p_< 0.05, ns; not significant. C: No FDR correction was performed in this specific design, as statistical analyses were hypothesis-driven and focused on a limited number of biologically pre-specified cytokines. HC: healthy control. PD: prediabetes.
+
+[![Image 5: Figure 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e3c/12972707/6fc25e3d28fe/gr4.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e3c/12972707/69038d0c79fc/gr4.jpg)
+
+**Figure 4**
+Western blot analysis of classical eukaryotic vesicle markers CD63 and CD81 To determine the contamination of gut-derived bMV repertoires by human host extracellular vesicles (EVs), detection of the human EV markers CD63 and CD81 was performed on bMV samples. As positive controls for the used antibodies, primary Adipocyte stem cell lysate, and its separated EVs were included. Eukaryotic EV markers were positive in the control samples only.
+
+[![Image 6: Figure 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e3c/12972707/0af902d58c7b/gr5.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e3c/12972707/028235f33824/gr5.jpg)
+
+**Figure 5**
+Detectability of bacterial vesicle marker in gut-bMV repertoires Western blot analysis of _Escherichia coli_ outer membrane protein A (OmpA). OmpA can be detected in some of the gut-bMV repertoires as vesicles by this taxon (family Enterobacteriaceae), which can contribute to vesicle production. OmpA was selected, given that no pan-bacterial vesicle marker is available. Positive control: _E. coli_ K12 monoculture-derived vesicles. Negative control: _Staphylococcus aureus_ monoculture-derived vesicles.
+
+[![Image 7: Figure 6](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e3c/12972707/99f186e84a32/gr6.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e3c/12972707/ceb7a71c11df/gr6.jpg)
+
+**Figure 6**
+CryoTEM images (200 kV) of gut-bacteria derived membrane vesicles analyzed in this study (A–D) Arrows indicate spherical nanosized bMVs enclosed by a lipid bilayer. Scale-bars denote 100 nm.
+
+[![Image 8: Figure 7](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e3c/12972707/ffc0ea7a8dba/gr7.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/6e3c/12972707/079cf9863c24/gr7.jpg)
+
+**Figure 7**
+Room temperature negative staining TEM images (120 kV) of gut-bacteria-derived membrane vesicles analyzed in this study (A–D) White arrows indicate bMVs contrasted by uranyl-salt deposition on the surface or borders of the vesicles. Scale-bars denote 100 nm.
+
+## Similar articles
+
+*   [Gut-bacteria derived membrane vesicles and host metabolic health: a narrative review.](https://pubmed.ncbi.nlm.nih.gov/38808455/)
+
+Verbunt J, Jocken J, Blaak E, Savelkoul P, Stassen F.Verbunt J, et al.Gut Microbes. 2024 Jan-Dec;16(1):2359515. doi: 10.1080/19490976.2024.2359515. Epub 2024 May 29.Gut Microbes. 2024.PMID: 38808455 Free PMC article.Review. 
+*   [Methods of Bacterial Membrane Vesicle Production, Purification, Quantification, and Examination of Their Immunogenic Functions.](https://pubmed.ncbi.nlm.nih.gov/35759190/)
+
+Bitto NJ, Kaparakis-Liaskos M.Bitto NJ, et al.Methods Mol Biol. 2022;2523:43-61. doi: 10.1007/978-1-0716-2449-4_4.Methods Mol Biol. 2022.PMID: 35759190 
+*   [Considerations for the Analysis of Bacterial Membrane Vesicles: Methods of Vesicle Production and Quantification Can Influence Biological and Experimental Outcomes.](https://pubmed.ncbi.nlm.nih.gov/34937167/)
+
+Bitto NJ, Zavan L, Johnston EL, Stinear TP, Hill AF, Kaparakis-Liaskos M.Bitto NJ, et al.Microbiol Spectr. 2021 Dec 22;9(3):e0127321. doi: 10.1128/Spectrum.01273-21. Epub 2021 Dec 22.Microbiol Spectr. 2021.PMID: 34937167 Free PMC article. 
+*   [Altered tryptophan metabolism and gut immune crosstalk in hypertensive middle-aged women.](https://pubmed.ncbi.nlm.nih.gov/41087031/)
+
+Shah S, Mu C, Shen-Tu G, Schlicht K, Forkert ND, Laudes M, Köfeler HC, Shearer J.Shah S, et al.Am J Physiol Heart Circ Physiol. 2025 Nov 1;329(5):H1435-H1447. doi: 10.1152/ajpheart.00395.2025. Epub 2025 Oct 14.Am J Physiol Heart Circ Physiol. 2025.PMID: 41087031 
+*   [From food to vesicle: nutritional influences on gut microbial inflammatory signaling.](https://pubmed.ncbi.nlm.nih.gov/41705204/)
+
+Verbunt J, Mennens L, Jocken J, Blaak EE, Savelkoul P, Stassen FRM.Verbunt J, et al.Front Nutr. 2026 Feb 2;13:1756462. doi: 10.3389/fnut.2026.1756462. eCollection 2026.Front Nutr. 2026.PMID: 41705204 Free PMC article.Review. 
+
+## References
+
+1.       1.    Joos R., Boucher K., Lavelle A., Arumugam M., Blaser M.J., Claesson M.J., Clarke G., Cotter P.D., De Sordi L., Dominguez-Bello M.G., et al. Examining the healthy human microbiome concept. Nat. Rev. Microbiol. 2025;23:192–205. doi: 10.1038/s41579-024-01107-0. - [DOI](https://doi.org/10.1038/s41579-024-01107-0) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/39443812/)
+
+2.       1.    Canfora E.E., Jocken J.W., Blaak E.E. Short-chain fatty acids in control of body weight and insulin sensitivity. Nat. Rev. Endocrinol. 2015;11:577–591. doi: 10.1038/nrendo.2015.128. - [DOI](https://doi.org/10.1038/nrendo.2015.128) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/26260141/)
+
+3.       1.    Ansaldo E., Farley T.K., Belkaid Y. Control of immunity by the microbiota. Annu. Rev. Immunol. 2021;39:449–479. doi: 10.1146/annurev-immunol-093019-112348. - [DOI](https://doi.org/10.1146/annurev-immunol-093019-112348) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/33902310/)
+
+4.       1.    Delzenne N.M., Bindels L.B., Neyrinck A.M., Walter J. The gut microbiome and dietary fibres: implications in obesity, cardiometabolic diseases and cancer. Nat. Rev. Microbiol. 2025;23:225–238. doi: 10.1038/s41579-024-01108-z. - [DOI](https://doi.org/10.1038/s41579-024-01108-z) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/39390291/)
+
+5.       1.    Xie H., Yu S., Tang M., Xun Y., Shen Q., Wu G. Gut microbiota dysbiosis in inflammatory bowel disease: interaction with intestinal barriers and microbiota-targeted treatment options. Front. Cell. Infect. Microbiol. 2025;15 doi: 10.3389/fcimb.2025.1608025. - [DOI](https://doi.org/10.3389/fcimb.2025.1608025) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12245916/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/40654576/)
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S2589-0042(26)00463-3)
+    *   [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/pmid/41816281/)

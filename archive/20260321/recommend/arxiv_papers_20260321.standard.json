@@ -1,0 +1,513 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-03-21T19:03:17.309693+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 4,
+    "deep_cap": 9,
+    "deep_selected": 4,
+    "quick_candidates": 6,
+    "quick_skim_target": 14,
+    "quick_selected": 6
+  },
+  "deep_dive": [
+    {
+      "id": "41862452",
+      "title": "High-resolution phage-host assignment through key proteins using large language models.",
+      "abstract": "Viral sequences in diverse environments remain largely uncharacterized, impeding our comprehension of their genetic makeup, biological interactions, and potential applications. This underscores an urgent need for innovative analytical methods. Here, we present the VirHost Hunter framework, which employs phage tails and lysins, bypassing the requirement for full genomes, for efficient and high-resolution host assignment. By harnessing Protein Language Models and Vision Transformers, VirHost Hunter captures protein functional homology despite sequence dissimilarity, significantly boosting prediction accuracy. In the scenario of disease-associated gut bacteria, the calibrated VirHost Hunter surpasses existing methods, doubling phage host assignments, expanding taxonomic reach, and revealing previously uncharacterized phages targeting gut bacteria, including Akkermansia and Prevotella. Therefore, we establish a gut phage lysin database, enabling the synthesis of a lysin that effectively and specifically targets an obesity-promoting bacterium. VirHost Hunter's precision and scalability mark a significant leap forward in virome research and present a promising avenue for microbiome therapies.",
+      "authors": [
+        "Zhihua Du",
+        "Min Li",
+        "Kaihuang Lin",
+        "Bo Xing",
+        "Yuehua Ou",
+        "Zihao Lin",
+        "Wenchen Song",
+        "Jie Chen",
+        "Junhua Li",
+        "Jianqiang Li",
+        "Minfeng Xiao"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-20",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41862452/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "large language models for phage-host assignment and pathogen understanding",
+      "llm_evidence_cn": "用于噬菌体-宿主分配和病原体理解的大语言模型",
+      "llm_evidence": "用于噬菌体-宿主分配和病原体理解的大语言模型",
+      "canonical_evidence": "用于噬菌体-宿主分配和病原体理解的大语言模型",
+      "llm_tldr_en": "Uses protein language models to predict phage-host assignments with high resolution using key proteins.",
+      "llm_tldr_cn": "利用蛋白质语言模型，通过关键蛋白实现高分辨率的噬菌体-宿主关系预测。",
+      "llm_tldr": "利用蛋白质语言模型，通过关键蛋白实现高分辨率的噬菌体-宿主关系预测。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "foundation models for pathogen genome understanding and surveillance",
+      "matched_requirement_id": "req-10",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41860614",
+      "title": "[Advances in integrated antimicrobial resistance diagnostics: quantitative, qualitative and AI-driven approaches].",
+      "abstract": "The rapid global increase in antimicrobial resistance complicates the treatment of life-threatening infections and makes fast, reliable antimicrobial susceptibility testing (AST) essential. While phenotypic methods such as broth dilution, agar diffusion, gradient diffusion and automated systems remain the diagnostic standard, they are limited by long turnaround times. Rapid phenotypic AST (RAST) approaches shorten the time to first results to 4 to 8 h and allow earlier optimisation of anti-infective therapy, although their clinical benefit has not yet been conclusively demonstrated and their use is restricted to validated pathogens and substances.In parallel, molecular methods such as PCR, isothermal amplification and, increasingly, whole-genome sequencing enable rapid detection of key resistance determinants (e.g., mecA/C, vanA/B, extended-spectrum beta-lactamases [ESBL] and carbapenemase genes), thereby particularly supporting the workup of positive blood cultures and surveillance investigations. Their predictive value is high for Gram-positive pathogens but limited for Gram-negative organisms due to the diversity of resistance mechanisms. Artificial intelligence (AI) offers additional potential for automated interpretation of phenotypic tests, analysis of complex genomic data and mass-spectrometry-based resistance prediction models, but faces challenges regarding standardisation, generalisability and data quality.Overall, novel RAST, molecular and AI-supported approaches usefully complement but do not replace classical methods. Their clinical impact depends on targeted implementation and integration into effective antibiotic and diagnostic stewardship structures.",
+      "authors": [
+        "Benjamin Berinson",
+        "Moritz Hentschke",
+        "Holger Rohde"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-20",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41860614/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "AI-driven antimicrobial resistance diagnostics",
+      "llm_evidence_cn": "AI 驱动的抗微生物耐药性诊断",
+      "llm_evidence": "AI 驱动的抗微生物耐药性诊断",
+      "canonical_evidence": "AI 驱动的抗微生物耐药性诊断",
+      "llm_tldr_en": "Reviews advances in AI-driven and molecular approaches for rapid antimicrobial resistance diagnostics.",
+      "llm_tldr_cn": "综述了用于快速抗微生物耐药性诊断的 AI 驱动和分子方法的进展。",
+      "llm_tldr": "综述了用于快速抗微生物耐药性诊断的 AI 驱动和分子方法的进展。",
+      "llm_tags": [
+        "query:pathoai:composite"
+      ],
+      "matched_query_tag": "query:pathoai:composite",
+      "matched_query_text": "Papers central to 病原组学中的 AI 方法, especially work that connects or combines: foundation models for pathogen genomes and pathogen biology; machine learning for metagenomic pathogen classification; deep learning models for pathogen detection from sequencing data; AI methods for genomic surveillance and outbreak monitoring; machine learning for antimicrobial resistance prediction from genomes; machine learning for phylogenetic and transmission inference; multimodal models combining pathogen sequence phenotype and metadata; machine learning for microbiome host interaction pathogen ecology and infection modeling; AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design; foundation models for pathogen genome understanding and surveillance.",
+      "matched_requirement_id": "req-composite-pathoai",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41862659",
+      "title": "LazySlide: accessible and interoperable whole-slide image analysis.",
+      "abstract": "Histopathological data are foundational in both biological research and clinical diagnostics but remain siloed from modern multimodal and single-cell frameworks. Here we introduce LazySlide, an open-source Python package built on the scverse ecosystem for efficient whole-slide image analysis and multimodal integration. By leveraging vision-language foundation models and adhering to scverse data standards, LazySlide bridges histopathology with omics workflows. It supports tissue and cell segmentation, feature extraction, cross-modal querying and zero-shot classification, with minimal setup.",
+      "authors": [
+        "Yimin Zheng",
+        "Ernesto Abila",
+        "Eva Chrenková",
+        "Iva Buljan",
+        "Juliane Winkler",
+        "André F Rendeiro"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-20",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41862659/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "vision-language foundation models for multimodal integration of histopathology and omics",
+      "llm_evidence_cn": "用于组织病理学和组学多模态融合的视觉语言基础模型",
+      "llm_evidence": "用于组织病理学和组学多模态融合的视觉语言基础模型",
+      "canonical_evidence": "用于组织病理学和组学多模态融合的视觉语言基础模型",
+      "llm_tldr_en": "Introduces LazySlide, a tool using foundation models to bridge histopathology with omics workflows.",
+      "llm_tldr_cn": "介绍了LazySlide，一个利用基础模型连接组织病理学与组学工作流的工具。",
+      "llm_tldr": "介绍了LazySlide，一个利用基础模型连接组织病理学与组学工作流的工具。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "multimodal models combining sequence structure phenotype and text",
+      "matched_requirement_id": "req-24",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41862476",
+      "title": "Single-cell multiomics uncovers an endothelial mechanosensitive PIEZO1-IL-33 axis driving pulmonary fibrosis.",
+      "abstract": "Pulmonary fibrosis represents a progressive interstitial lung disease marked by excessive extracellular matrix deposition and architectural distortion. Vascular endothelial cells critically contribute to fibrogenesis through paracrine secretion of pro-fibrotic mediators, yet their mechanobiological regulation remains elusive. Using integrated single-cell multi-omics profiling of human pulmonary fibrosis specimens and experimental fibrosis models induced by bleomycin or silica, we identify mechanosensitive Piezo1 upregulation in Endothelial cells as a hallmark of fibrotic progression. Endothelial-specific Piezo1 knockout significantly attenuates Bleomycin-induced fibrotic remodeling in male mice, establishing its pathogenic necessity. Mechanistically, PIEZO1 activation promotes pulmonary fibrosis development via CAPN2-mediated STAT3 phosphorylation, which may regulate the secretion of the pro-fibrotic molecule interleukin-33. These findings suggest that the endothelial PIEZO1-CAPN2-STAT3-IL33 axis is a potential therapeutic target for PF intervention.",
+      "authors": [
+        "Lanlan Zhang",
+        "Xuezhen Gui",
+        "Ruijie Hou",
+        "Liping Jia",
+        "Shu Xia",
+        "Xin Zhang",
+        "Yingyun Fu",
+        "Qian-Fang Meng",
+        "Qun Luo",
+        "Xing Shi",
+        "Bingxin Guo",
+        "Ruifang Liang",
+        "Ludan Yue",
+        "Xue Chen",
+        "Haizhao Xu",
+        "Pengbo Wang",
+        "Xia Tong",
+        "Lujie Liu",
+        "Lingwei Wang",
+        "Baicun Li",
+        "Zi Chen",
+        "Linfu Zhou",
+        "Linshu Zhang",
+        "Rongchang Chen",
+        "Changbin Sun",
+        "Wei Xu",
+        "Lang Rao",
+        "Haibo Zhou",
+        "Bi-Sen Ding",
+        "Shanze Chen"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-20",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41862476/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "integrated single-cell multi-omics profiling of pulmonary fibrosis",
+      "llm_evidence_cn": "肺纤维化的集成单细胞多组学分析",
+      "llm_evidence": "肺纤维化的集成单细胞多组学分析",
+      "canonical_evidence": "肺纤维化的集成单细胞多组学分析",
+      "llm_tldr_en": "Uses single-cell multi-omics to identify a mechanosensitive axis driving pulmonary fibrosis.",
+      "llm_tldr_cn": "利用单细胞多组学技术鉴定了驱动肺纤维化的机械敏感轴。",
+      "llm_tldr": "利用单细胞多组学技术鉴定了驱动肺纤维化的机械敏感轴。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "single cell sequencing and spatial transcriptomics analysis with machine learning",
+      "matched_requirement_id": "req-40",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "41588607",
+      "title": "Host genetic variation and gut microbiome in pediatric diseases.",
+      "abstract": "Pediatric health is the foundation for people's lifelong health. The co-evolution of host genetics and the gut microbiome fosters a symbiotic relationship that is important for pediatric growth and the pathogenesis of various diseases. However, a comprehensive overview of the human genetics-gut microbiome axis in pediatric diseases remains unavailable. This review summarizes the human genetic variants that are associated with pediatric diseases, affecting the nervous, respiratory, and immune systems, as well as those linked to preterm birth (PTB), as identified by genome-wide association studies (GWAS). As the gut microbiome plays a crucial role in pediatric health, we have systematically discussed microbial biomarkers associated with the onset and progression of pediatric diseases, with an emphasis on their clinical impact across four key axes: the gut-brain, gut-lung, gut-skin, and gut-immune axes. The GWAS on the gut microbiome revealed numerous genetic variants that intricately regulate its composition. These variants predispose individuals to gut microbiome dysbiosis, potentially initiating or exacerbating pediatric disease manifestations. Moreover, the underrepresentation of populations from low- and middle-income countries in existing microbiome-related data, coupled with technical challenges, limits our understanding of the association between microbiome and health. Finally, we emphasize the promising potential of elucidating and modulating host gene-gut microbiome interactions to offer novel insights for advancing precision pediatric medicine and developing innovative therapeutic strategies.",
+      "authors": [
+        "Yi Meng",
+        "Hua Wang",
+        "Dezhi Mu",
+        "Shuqin Zeng",
+        "Shaopu Wang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-20",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41588607/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Review of human genetics-gut microbiome axis and microbial biomarkers in pediatric disease pathogenesis",
+      "llm_evidence_cn": "综述人类遗传学-肠道微生物群轴以及儿科疾病发病机制中的微生物生物标志物",
+      "llm_evidence": "综述人类遗传学-肠道微生物群轴以及儿科疾病发病机制中的微生物生物标志物",
+      "canonical_evidence": "综述人类遗传学-肠道微生物群轴以及儿科疾病发病机制中的微生物生物标志物",
+      "llm_tldr_en": "Review summarizes the interplay between host genetics and gut microbiome in pediatric health and disease.",
+      "llm_tldr_cn": "综述总结了宿主遗传学与肠道微生物群在儿科健康与疾病中的相互作用。",
+      "llm_tldr": "综述总结了宿主遗传学与肠道微生物群在儿科健康与疾病中的相互作用。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41860433",
+      "title": "Comparing the performance of functional versus taxonomic metagenomics for detecting ammonia disturbances in the biogas system.",
+      "abstract": "Biogas is a renewable energy source with great potential, but its production is frequently hindered by process disturbances, of which a high ammonia concentration is one common cause. It is desirable that such disturbances are found as early as possible; metagenomics data has the potential to improve this detection. This study compares functional and taxonomic aspects of metagenomics data, hypothesising that functional data will perform better for detecting ammonia disturbances. The hypothesis was tested by metagenomic sequencing of samples from three independent studies, which followed lab-scale reactors during ammonia disturbances. The resulting sequences were used to predict genes, which were functionally and taxonomically annotated. The read counts of these features were fitted to disturbance states and ammonia concentrations of reactor samples using regularised regression, which allowed filtering out irrelevant features even with limited sample sizes. Within studies, taxonomic data had similar or better performance in detecting ammonia disturbances and in fitting ammonia concentrations. When applying trained models to other studies however, while performance was generally poor, functional models more often performed better compared to taxonomic models than the other way around. All in all, our hypothesis that functional metagenomics would outperform taxonomic metagenomics only found limited support.",
+      "authors": [
+        "Dries Boers",
+        "Olivier Chapleur",
+        "Anders F Andersson",
+        "Anna Schnürer"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-20",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41860433/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "metagenomic classification and functional analysis for disturbance detection",
+      "llm_evidence_cn": "用于干扰检测的宏基因组分类和功能分析",
+      "llm_evidence": "用于干扰检测的宏基因组分类和功能分析",
+      "canonical_evidence": "用于干扰检测的宏基因组分类和功能分析",
+      "llm_tldr_en": "Compares functional and taxonomic metagenomics for detecting process disturbances in biogas systems.",
+      "llm_tldr_cn": "比较了功能和分类宏基因组学在检测沼气系统工艺干扰中的表现。",
+      "llm_tldr": "比较了功能和分类宏基因组学在检测沼气系统工艺干扰中的表现。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for metagenomic pathogen detection and classification",
+      "matched_requirement_id": "req-11",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41816281",
+      "title": "Gut-derived bacterial membrane vesicles in prediabetes: Vesicle composition dictates inflammatory properties.",
+      "abstract": "Systemic inflammation relates to the pathophysiology of metabolic diseases such as obesity or type 2 diabetes. Understanding aberrant microbiota-host interactions is essential for comprehending their pathogenesis. Gut bacteria produce bacterial membrane vesicles (bMVs) reflecting bacterial metabolism and activity. Importantly, in animal models, these vesicles can reach organs and affect metabolism by inducing inflammation. We investigated feces-derived gut bacteria and bMVs in participants diagnosed with prediabetes and in healthy controls. Vesicle and bacterial DNA repertoires were found to be vastly different, with Gram-negative bacterial taxa dominating at the vesicle level (Alistipes, Barnesiella) and Gram-positive taxa (Anaerostipes, Collinsella) dominating at the bacterial level. We observed no compositional differences between participant-phenotype groups. Strikingly, vesicle repertoires characterized by elevated proportional abundance of Lachnospiraceae and Oscillospiraceae DNA were more proinflammatory, whereas the opposite was observed for vesicles rich in Akkermansiaceae DNA. These results may improve our understanding of microbe-host interactions relevant to metabolic and inflammatory diseases.",
+      "authors": [
+        "Jari Verbunt",
+        "Lisa Mennens",
+        "Johan Jocken",
+        "Emanuel E Canfora",
+        "Ellen E Blaak",
+        "Paul Savelkoul",
+        "Frank Stassen"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-20",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41816281/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Investigating gut microbiota-host interactions and bacterial DNA repertoires in metabolic disease pathogenesis",
+      "llm_evidence_cn": "研究代谢疾病发病机制中的肠道微生物群与宿主相互作用及细菌DNA库",
+      "llm_evidence": "研究代谢疾病发病机制中的肠道微生物群与宿主相互作用及细菌DNA库",
+      "canonical_evidence": "研究代谢疾病发病机制中的肠道微生物群与宿主相互作用及细菌DNA库",
+      "llm_tldr_en": "Study reveals how gut-derived bacterial membrane vesicles influence host inflammation in prediabetes.",
+      "llm_tldr_cn": "研究揭示了肠道细菌膜囊泡如何影响糖尿病前期的宿主炎症反应。",
+      "llm_tldr": "研究揭示了肠道细菌膜囊泡如何影响糖尿病前期的宿主炎症反应。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41862658",
+      "title": "Open and sustainable AI: challenges, opportunities and the road ahead in the life sciences.",
+      "abstract": "Artificial intelligence (AI) has seen transformative breakthroughs in the life sciences, expanding possibilities to interpret biological information at an unprecedented capacity. To maximize return on growing investments and accelerate progress, it is urgent to address long-standing research challenges arising from the rapid adoption of AI methods. We review the erosion of trust in AI outputs driven by poor reusability and reproducibility, and highlight their impact on environmental sustainability. Furthermore, we discuss the fragmented components of the AI ecosystem and lack of guiding pathways to support open and sustainable AI model development. In response, this Perspective introduces practical open and sustainable AI recommendations mapped to over 300 ecosystem components and provides guiding implementation pathways. Our work connects researchers with relevant AI resources, facilitating the implementation of sustainable, reusable and reproducible AI. Built upon community consensus and aligned to existing efforts, these outputs will aid future policy development and structured pathways for guiding AI implementation.",
+      "authors": [
+        "Gavin Farrell",
+        "Eleni Adamidi",
+        "Rafael Andrade Buono",
+        "Mihail Anton",
+        "Omar Abdelghani Attafi",
+        "Salvador Capella Gutierrez",
+        "Emidio Capriotti",
+        "Leyla Jael Castro",
+        "Davide Cirillo",
+        "Lisa Crossman",
+        "Christophe Dessimoz",
+        "Alexandros Dimopoulos",
+        "Raúl Fernández-Díaz",
+        "Styliani-Christina Fragkouli",
+        "Carole Goble",
+        "Wei Gu",
+        "John M Hancock",
+        "Alireza Khanteymoori",
+        "Tom Lenaerts",
+        "Fabio G Liberante",
+        "Peter Maccallum",
+        "Alexander Miguel Monzon",
+        "Magnus Palmblad",
+        "Lucy Poveda",
+        "Ovidiu Radulescu",
+        "Denis C Shields",
+        "Shoaib Sufi",
+        "Thanasis Vergoulis",
+        "Fotis Psomopoulos",
+        "Silvio C E Tosatto"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-20",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41862658/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "discusses open and sustainable AI model development in life sciences",
+      "llm_evidence_cn": "讨论生命科学中开放和可持续的AI模型开发",
+      "llm_evidence": "讨论生命科学中开放和可持续的AI模型开发",
+      "canonical_evidence": "讨论生命科学中开放和可持续的AI模型开发",
+      "llm_tldr_en": "Reviews challenges and provides recommendations for open, reproducible, and sustainable AI in life sciences.",
+      "llm_tldr_cn": "综述了生命科学中AI的挑战，并为开发开放、可复现且可持续的AI模型提供了建议。",
+      "llm_tldr": "综述了生命科学中AI的挑战，并为开发开放、可复现且可持续的AI模型提供了建议。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "trustworthy and interpretable AI systems for bioinformatics workflows",
+      "matched_requirement_id": "req-37",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41862473",
+      "title": "Widespread effects of catecholamines on growth of human gut bacteria.",
+      "abstract": "The interactions between hosts and their microbiomes are driven in part by chemical communication, which influences immune responses, metabolism, and microbial community structure. Neuroendocrine signals are central to this bidirectional communication, forming the basis of microbial endocrinology. Although host-derived hormones, including catecholamines, are known to affect microbial physiology, much of the existing literature focuses on a limited number of model organisms or complex in vivo systems, where disentangling direct microbial responses from host-mediated effects is challenging. As a result, systematic comparative analyses of direct bacterial responses under controlled conditions remain scarce. Here, we performed a systematic in vitro screen under anaerobic conditions to assess catecholamine effects on the growth dynamics of phylogenetically diverse human gut bacteria. Catecholamines altered multiple growth parameters in a species-specific manner, with effects detectable at nanogram concentrations. Multivariate analyses, including principal component analysis and non-metric multidimensional scaling, revealed lineage-associated response patterns across taxa. Although derived from monoculture experiments, these intrinsic responses provide a comparative framework for understanding how direct hormone-microbe interactions may contribute to microbiome dynamics under host stress. Overall, this study provides a quantitative cross-species dataset to inform future systems-level investigations in microbial endocrinology.",
+      "authors": [
+        "Michael Daniels",
+        "Dinely Wijayagunasekera",
+        "David Berry"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-20",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41862473/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "host-microbiome chemical communication and microbial endocrinology",
+      "llm_evidence_cn": "宿主-微生物组化学通讯与微生物内分泌学",
+      "llm_evidence": "宿主-微生物组化学通讯与微生物内分泌学",
+      "canonical_evidence": "宿主-微生物组化学通讯与微生物内分泌学",
+      "llm_tldr_en": "Systematically screens the effects of host catecholamines on the growth of diverse human gut bacteria.",
+      "llm_tldr_cn": "系统性地筛选了宿主儿茶酚胺对多种人类肠道细菌生长的影响。",
+      "llm_tldr": "系统性地筛选了宿主儿茶酚胺对多种人类肠道细菌生长的影响。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41862705",
+      "title": "The evolutionary dynamics between viral mimics and host proteins.",
+      "abstract": "Viral proteins interact with host proteins to hijack cellular pathways important for viral replication. Viral mimics are proteins whose structural similarity to host-mimicked proteins allows them to interact with mutual host targets. This mimicry poses a challenge for the host-how to avoid mimics without compromising essential interactions with host-mimicked proteins. Despite the prevalence of mimicry, the evolutionary dynamics between host and viral mimics remain largely unknown. We address this by integrating structural modeling, host-virus interaction networks, and comprehensive evolutionary analyses of host and viral proteins. We show that host proteins targeted by mimics and host-mimicked proteins are highly conserved, and that this is related to functional constraints imposed on host proteins. Host interface residues that interact with both mimics and host-mimicked proteins evolve slowly, while residues that exclusively interact with mimics evolve significantly faster. Surprisingly, viral mimics do not evolve rapidly, instead displaying complex evolutionary patterns. Our analysis reveals host's limited capacity to escape mimicry and viral evolution to exploit this, and highlights how constraints lead to unexpectedly slow evolution of host-virus interaction networks.",
+      "authors": [
+        "Rotem Fuchs",
+        "Ofir Schor",
+        "Bar Naim",
+        "Dafna Tussia-Cohen",
+        "Alessandra Mozzi",
+        "Diego Forni",
+        "Sivan Friedman",
+        "Zohar Haggai",
+        "Manuela Sironi",
+        "Tzachi Hagai"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-20",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41862705/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "structural modeling of host-virus protein interactions",
+      "llm_evidence_cn": "宿主-病毒蛋白质相互作用的结构建模",
+      "llm_evidence": "宿主-病毒蛋白质相互作用的结构建模",
+      "canonical_evidence": "宿主-病毒蛋白质相互作用的结构建模",
+      "llm_tldr_en": "Investigates evolutionary dynamics of viral mimics and host proteins using structural modeling and networks.",
+      "llm_tldr_cn": "利用结构建模和相互作用网络研究病毒模拟物与宿主蛋白之间的进化动力学。",
+      "llm_tldr": "利用结构建模和相互作用网络研究病毒模拟物与宿主蛋白之间的进化动力学。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

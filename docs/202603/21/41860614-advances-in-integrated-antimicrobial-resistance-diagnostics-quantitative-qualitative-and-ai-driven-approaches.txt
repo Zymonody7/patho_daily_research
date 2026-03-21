@@ -1,0 +1,81 @@
+Title: [Advances in integrated antimicrobial resistance diagnostics: quantitative, qualitative and AI-driven approaches] - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41860614/
+
+Markdown Content:
+Review
+
+Actions
+
+. 2026 Mar 20.
+
+doi: 10.1007/s00103-026-04220-y.  Online ahead of print.
+
+[Article in German]
+
+Affiliations
+
+*    PMID: **41860614**
+*    DOI: [10.1007/s00103-026-04220-y](https://doi.org/10.1007/s00103-026-04220-y)
+
+Review
+
+## [Advances in integrated antimicrobial resistance diagnostics: quantitative, qualitative and AI-driven approaches]
+
+[Article in German]
+
+Benjamin Berinson et al. Bundesgesundheitsblatt Gesundheitsforschung Gesundheitsschutz.2026.
+
+## Abstract 
+in [English,](https://pubmed.ncbi.nlm.nih.gov/41860614/#eng-abstract)[German](https://pubmed.ncbi.nlm.nih.gov/41860614/#deu-abstract)
+
+The rapid global increase in antimicrobial resistance complicates the treatment of life-threatening infections and makes fast, reliable antimicrobial susceptibility testing (AST) essential. While phenotypic methods such as broth dilution, agar diffusion, gradient diffusion and automated systems remain the diagnostic standard, they are limited by long turnaround times. Rapid phenotypic AST (RAST) approaches shorten the time to first results to 4 to 8 h and allow earlier optimisation of anti-infective therapy, although their clinical benefit has not yet been conclusively demonstrated and their use is restricted to validated pathogens and substances.In parallel, molecular methods such as PCR, isothermal amplification and, increasingly, whole-genome sequencing enable rapid detection of key resistance determinants (e.g., mecA/C, vanA/B, extended-spectrum beta-lactamases [ESBL] and carbapenemase genes), thereby particularly supporting the workup of positive blood cultures and surveillance investigations. Their predictive value is high for Gram-positive pathogens but limited for Gram-negative organisms due to the diversity of resistance mechanisms. Artificial intelligence (AI) offers additional potential for automated interpretation of phenotypic tests, analysis of complex genomic data and mass-spectrometry-based resistance prediction models, but faces challenges regarding standardisation, generalisability and data quality.Overall, novel RAST, molecular and AI-supported approaches usefully complement but do not replace classical methods. Their clinical impact depends on targeted implementation and integration into effective antibiotic and diagnostic stewardship structures.
+
+Die schnelle, weltweite Zunahme antimikrobieller Resistenzen erschwert die Behandlung lebensbedrohlicher Infektionen und erfordert schnelle, verlässliche Verfahren zur Antibiotikaempfindlichkeitsprüfung (AST). Während phänotypische Methoden wie Bouillondilution, Agardiffusion, Gradientendiffusion sowie automatisierte Systeme weiterhin den diagnostischen Standard darstellen, sind sie durch lange Turnaround-Zeiten limitiert. Beschleunigte phänotypische AST-Verfahren (RAST) verkürzen die Zeit bis zu ersten Ergebnissen auf 4–8 h und ermöglichen eine frühere Optimierung antiinfektiver Therapien, wenngleich ihr klinischer Nutzen bislang nicht abschließend belegt und ihr Einsatz auf validierte Erreger und Substanzen begrenzt ist.Parallel erlauben molekulare Methoden wie PCR, isothermale Amplifikation und zunehmend auch Gesamtgenomsequenzierung den schnellen Nachweis zentraler Resistenzdeterminanten (zum Beispiel mecA/C, vanA/B, Extended-spectrum-Beta-Laktamasen (ESBL), Carbapenemasegene) und unterstützen so insbesondere die Aufarbeitung positiver Blutkulturen sowie Überwachungsuntersuchungen. Ihre Aussagekraft ist bei grampositiven Erregern hoch, bei gramnegativen jedoch durch die Vielfalt resistenzvermittelnder Mechanismen limitiert. Künstliche Intelligenz (KI) bietet zusätzliche Potenziale in der automatisierten Interpretation phänotypischer Tests, in der Analyse komplexer Genomdaten und in massenspektrometrischen Modellen zur Resistenzvorhersage, steht aber vor Herausforderungen hinsichtlich Standardisierung, Generalisierbarkeit und Datenqualität.Insgesamt ergänzen neue RAST-, molekulare und KI-gestützte Ansätze die klassischen Methoden sinnvoll, ersetzen sie jedoch nicht. Ihr klinischer Nutzen entfaltet sich nur bei gezieltem Einsatz und Einbettung in funktionierende Antibiotic- und Diagnostic-Stewardship-Strukturen.
+
+**Keywords:** Artificial intelligence; Molecular detection; Phenotypic susceptibility testing; Rapid diagnostics; Whole genome sequencing.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Einhaltung ethischer Richtlinien. Interessenkonflikt: B. Berinson erhielt Beraterhonorare (Biomerieux, Gradientech). M. Hentschke gibt an, dass kein Interessenkonflikt besteht. H. Rohde erhielt Beraterhonorare (Biomerieux, Gradientech) und Sprecherhonorare (Biomerieux, Gradientech, Pfizer, Shionogi, Gilead, Infectopharm). Für diesen Beitrag wurden von den Autor/-innen keine Studien an Menschen oder Tieren durchgeführt. Für die aufgeführten Studien gelten die jeweils dort angegebenen ethischen Richtlinien.
+
+## Similar articles
+
+*   [Evaluation of QuickMIC system for rapid antimicrobial susceptibility testing of Gram-negative pathogens from positive blood cultures, including strains producing extended-spectrum β-lactamases and carbapenemases.](https://pubmed.ncbi.nlm.nih.gov/40492764/)
+
+Morecchiato F, Chilleri C, Antonelli A, Malmberg C, Giani T, Rossolini GM.Morecchiato F, et al.Microbiol Spectr. 2025 Jul;13(7):e0037025. doi: 10.1128/spectrum.00370-25. Epub 2025 Jun 10.Microbiol Spectr. 2025.PMID: 40492764 Free PMC article. 
+*   [Rapid determination of antimicrobial susceptibility of Gram-negative bacteria from clinical blood cultures using a scattered light-integrated collection device.](https://pubmed.ncbi.nlm.nih.gov/38415707/)
+
+Falconer K, Hammond R, Parcell BJ, Gillespie SH.Falconer K, et al.J Med Microbiol. 2024 Feb;73(2). doi: 10.1099/jmm.0.001812.J Med Microbiol. 2024.PMID: 38415707 
+*   [Improving time-to-result: head-to-head comparison of three rapid AST systems for Gram-negative bacteremia, including the newly developed VITEK REVEAL.](https://pubmed.ncbi.nlm.nih.gov/41065398/)
+
+Squitieri D, Menchinelli G, Magrì C, D'Inzeo T, Fiori B, Cacaci M, Sanguinetti M, De Angelis G, Posteraro B.Squitieri D, et al.J Clin Microbiol. 2025 Nov 12;63(11):e0105025. doi: 10.1128/jcm.01050-25. Epub 2025 Oct 9.J Clin Microbiol. 2025.PMID: 41065398 Free PMC article. 
+*   [How to accelerate antimicrobial susceptibility testing.](https://pubmed.ncbi.nlm.nih.gov/31055166/)
+
+Idelevich EA, Becker K.Idelevich EA, et al.Clin Microbiol Infect. 2019 Nov;25(11):1347-1355. doi: 10.1016/j.cmi.2019.04.025. Epub 2019 May 2.Clin Microbiol Infect. 2019.PMID: 31055166 Review. 
+*   [Integrating artificial intelligence with genome sequencing against antimicrobial resistance: a narrative review.](https://pubmed.ncbi.nlm.nih.gov/41694508/)
+
+Scaglione G, Mastroianni N, Rizzo A, Palomba E, Carcione D, Brigante G, Principe L, Colaneri M, Gori A, Borgonovo F.Scaglione G, et al.Front Public Health. 2026 Jan 29;14:1757161. doi: 10.3389/fpubh.2026.1757161. eCollection 2026.Front Public Health. 2026.PMID: 41694508 Free PMC article.Review. 
+
+## References
+
+#### Literatur
+
+1.       1.    Marchaim D, Gottesman T, Schwartz O et al (2010) National multicenter study of predictors and outcomes of bacteremia upon hospital admission caused by Enterobacteriaceae producing extended-spectrum beta-lactamases. Antimicrob Agents Chemother 54:5099–5104. [https://doi.org/10.1128/AAC.00565-10](https://doi.org/10.1128/AAC.00565-10) - [DOI](https://doi.org/10.1128/aac.00565-10) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/20837757/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/2981239/)
+
+2.       1.    Kang CI, Kim SH, Park WB et al (2005) Bloodstream infections caused by antibiotic-resistant gram-negative bacilli: risk factors for mortality and impact of inappropriate initial antimicrobial therapy on outcome. Antimicrob Agents Chemother 49:760–766. [https://doi.org/10.1128/AAC.49.2.760-766.2005](https://doi.org/10.1128/AAC.49.2.760-766.2005) - [DOI](https://doi.org/10.1128/aac.49.2.760-766.2005) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/15673761/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/547233/)
+
+3.       1.    Collaborators GBDAR (2024) Global burden of bacterial antimicrobial resistance 1990-2021: a systematic analysis with forecasts to 2050. Lancet 404:1199–1226. [https://doi.org/10.1016/S0140–6736(24)01867‑1](https://doi.org/10.1016/S0140%E2%80%936736(24)01867%E2%80%911) - [DOI](https://doi.org/10.1016/s0140-6736(24)01867-1)
+
+4.       1.    Van Heuverswyn J, Valik JK, van der Werff S D, Hedberg P, Giske C, Naucler P (2023) Association Between Time to Appropriate Antimicrobial Treatment and 30-day Mortality in Patients With Bloodstream Infections: A Retrospective Cohort Study. Clin Infect Dis 76:469–478. [https://doi.org/10.1093/cid/ciac727](https://doi.org/10.1093/cid/ciac727) - [DOI](https://doi.org/10.1093/cid/ciac727) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/36065752/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/9907509/)
+
+5.       1.    Andrews JM (2001) Determination of minimum inhibitory concentrations. J Antimicrob Chemother 48(Suppl 1):5–16. [https://doi.org/10.1093/jac/48.suppl_1.5](https://doi.org/10.1093/jac/48.suppl_1.5) - [DOI](https://doi.org/10.1093/jac/48.suppl_1.5) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/11420333/)
+
+## Publication types
+
+*   Actions 
+*   Actions

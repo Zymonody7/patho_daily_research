@@ -1,0 +1,69 @@
+Title: LazySlide: accessible and interoperable whole-slide image analysis - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41862659/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 20.
+
+doi: 10.1038/s41592-026-03044-7.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **41862659**
+*    DOI: [10.1038/s41592-026-03044-7](https://doi.org/10.1038/s41592-026-03044-7)
+
+## LazySlide: accessible and interoperable whole-slide image analysis
+
+Yimin Zheng et al. Nat Methods.2026.
+
+## Abstract
+
+Histopathological data are foundational in both biological research and clinical diagnostics but remain siloed from modern multimodal and single-cell frameworks. Here we introduce LazySlide, an open-source Python package built on the scverse ecosystem for efficient whole-slide image analysis and multimodal integration. By leveraging vision-language foundation models and adhering to scverse data standards, LazySlide bridges histopathology with omics workflows. It supports tissue and cell segmentation, feature extraction, cross-modal querying and zero-shot classification, with minimal setup.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [CellViT++: Energy-efficient and adaptive cell segmentation and classification using foundation models.](https://pubmed.ncbi.nlm.nih.gov/41576779/)
+
+Hörst F, Rempe M, Becker H, Heine L, Keyl J, Kleesiek J.Hörst F, et al.Comput Methods Programs Biomed. 2026 Apr;277:109206. doi: 10.1016/j.cmpb.2025.109206. Epub 2026 Jan 9.Comput Methods Programs Biomed. 2026.PMID: 41576779 
+*   [MIL-Adapter: Coupling multiple instance learning and vision-language adapters for few-shot slide-level classification.](https://pubmed.ncbi.nlm.nih.gov/41616642/)
+
+Meseguer P, Del Amor R, Naranjo V.Meseguer P, et al.Med Image Anal. 2026 May;110:103964. doi: 10.1016/j.media.2026.103964. Epub 2026 Jan 26.Med Image Anal. 2026.PMID: 41616642 
+*   [Spotsweeper-py: spatially-aware quality control metrics for spatial omics data in the Python ecosystem.](https://pubmed.ncbi.nlm.nih.gov/41427384/)
+
+Chen X, Totty M, Hicks SC.Chen X, et al.bioRxiv [Preprint]. 2025 Dec 9:2025.12.06.692760. doi: 10.64898/2025.12.06.692760.bioRxiv. 2025.PMID: 41427384 Free PMC article.Preprint. 
+*   [Advancing open-source visual analytics in digital pathology: A systematic review of tools, trends, and clinical applications.](https://pubmed.ncbi.nlm.nih.gov/40599690/)
+
+Ahmad Z, Alzubaidi M, Al-Thelaya K, Calí C, Boughorbel S, Schneider J, Agus M.Ahmad Z, et al.J Pathol Inform. 2025 May 23;18:100454. doi: 10.1016/j.jpi.2025.100454. eCollection 2025 Aug.J Pathol Inform. 2025.PMID: 40599690 Free PMC article.Review. 
+*   [Vision-language foundation models for medical imaging: a review of current practices and innovations.](https://pubmed.ncbi.nlm.nih.gov/40917147/)
+
+Ryu JS, Kang H, Chu Y, Yang S.Ryu JS, et al.Biomed Eng Lett. 2025 Jun 6;15(5):809-830. doi: 10.1007/s13534-025-00484-6. eCollection 2025 Sep.Biomed Eng Lett. 2025.PMID: 40917147 Free PMC article.Review. 
+
+## References
+
+1.       1.    Bankhead, P. et al. QuPath: open source software for digital pathology image analysis. Sci. Rep. 7, 16878 (2017). - [DOI](https://doi.org/10.1038/s41598-017-17204-5) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/29203879/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/5715110/)
+
+2.       1.    Lu, M. Y. et al. Data-efficient and weakly supervised computational pathology on whole-slide images. Nat. Biomed. Eng. 5, 555–570 (2021). - [DOI](https://doi.org/10.1038/s41551-020-00682-w) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/33649564/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/8711640/)
+
+3.       1.    Omar, M. et al. Antibody-based multiplex image analysis: standard analytical workflows and artificial intelligence tools for pathologists. Lab. Invest. 105, 104220 (2025). - [DOI](https://doi.org/10.1016/j.labinv.2025.104220) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/40744223/)
+
+4.       1.    Dolezal, J. M. et al. Slideflow: deep learning for digital histopathology with real-time whole-slide visualization. BMC Bioinformatics 25, 134 (2024). - [DOI](https://doi.org/10.1186/s12859-024-05758-x) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/38539070/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/10967068/)
+
+5.       1.    Pocock, J. et al. TIAToolbox as an end-to-end library for advanced tissue image analytics. Commun. Med. 2, 120 (2022). - [DOI](https://doi.org/10.1038/s43856-022-00186-5) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/36168445/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/9509319/)
+
+## Grants and funding
+
+*   [WWTF-LS23-067/Vienna Science and Technology Fund (Wiener Wissenschafts-, Forschungs- und Technologiefonds)](https://pubmed.ncbi.nlm.nih.gov/?term=WWTF-LS23-067%2FVienna+Science+and+Technology+Fund+%28Wiener+Wissenschafts-%2C+Forschungs-+und+Technologiefonds%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant WWTF-LS23-067/Vienna Science and Technology Fund (Wiener Wissenschafts-, Forschungs- und Technologiefonds)")
+*   [WWTF-LS23-067/Vienna Science and Technology Fund (Wiener Wissenschafts-, Forschungs- und Technologiefonds)](https://pubmed.ncbi.nlm.nih.gov/?term=WWTF-LS23-067%2FVienna+Science+and+Technology+Fund+%28Wiener+Wissenschafts-%2C+Forschungs-+und+Technologiefonds%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant WWTF-LS23-067/Vienna Science and Technology Fund (Wiener Wissenschafts-, Forschungs- und Technologiefonds)")
+*   [WWTF-LS23-067/Vienna Science and Technology Fund (Wiener Wissenschafts-, Forschungs- und Technologiefonds)](https://pubmed.ncbi.nlm.nih.gov/?term=WWTF-LS23-067%2FVienna+Science+and+Technology+Fund+%28Wiener+Wissenschafts-%2C+Forschungs-+und+Technologiefonds%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant WWTF-LS23-067/Vienna Science and Technology Fund (Wiener Wissenschafts-, Forschungs- und Technologiefonds)")
+*   [WWTF-LS23-067/Vienna Science and Technology Fund (Wiener Wissenschafts-, Forschungs- und Technologiefonds)](https://pubmed.ncbi.nlm.nih.gov/?term=WWTF-LS23-067%2FVienna+Science+and+Technology+Fund+%28Wiener+Wissenschafts-%2C+Forschungs-+und+Technologiefonds%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant WWTF-LS23-067/Vienna Science and Technology Fund (Wiener Wissenschafts-, Forschungs- und Technologiefonds)")
+*   [101220825/EC | EU Framework Programme for Research and Innovation H2020 | H2020 Priority Excellent Science | H2020 European Research Council (H2020 Excellent Science - European Research Council)](https://pubmed.ncbi.nlm.nih.gov/?term=101220825%2FEC+%7C+EU+Framework+Programme+for+Research+and+Innovation+H2020+%7C+H2020+Priority+Excellent+Science+%7C+H2020+European+Research+Council+%28H2020+Excellent+Science+-+European+Research+Council%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 101220825/EC | EU Framework Programme for Research and Innovation H2020 | H2020 Priority Excellent Science | H2020 European Research Council (H2020 Excellent Science - European Research Council)")

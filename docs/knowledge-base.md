@@ -1,10 +1,40 @@
 # 知识库
 
-- 最近沉淀条目数：161
+- 最近沉淀条目数：171
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [High-resolution phage-host assignment through key proteins using large language models.](#/202603/21/202603/21/41862452-high-resolution-phage-host-assignment-through-key-proteins-using-large-language-models)
+  - TLDR：针对环境中大量病毒序列难以识别宿主的问题，本研究开发了 VirHost Hunter 框架。该框架利用蛋白质语言模型和视觉 Transformer 提取噬菌体尾部蛋白和裂解酶的深层特征，无需完整基因组即可实现高分辨率的宿主分配。实验证明该方法在肠道菌群分析中显著提升了预测精度，并成功筛选出能特异性针对肥胖相关细菌的裂解酶，为精准微生物组治疗提供了新路径。
+  - Tags：`query:pathoai`
+- [[Advances in integrated antimicrobial resistance diagnostics: quantitative, qualitative and AI-driven approaches].](#/202603/21/202603/21/41860614-advances-in-integrated-antimicrobial-resistance-diagnostics-quantitative-qualitative-and-ai-driven-approaches)
+  - TLDR：针对全球耐药性增加导致传统药敏试验耗时过长的问题，本文综述了快速表型药敏试验、分子诊断及AI驱动的预测模型。这些技术能将检测时间缩短至4-8小时并精准识别耐药基因，AI则在自动化解释和复杂数据分析中展现潜力，为优化抗感染治疗提供了更高效的决策支持。
+  - Tags：`query:pathoai`
+- [LazySlide: accessible and interoperable whole-slide image analysis.](#/202603/21/202603/21/41862659-lazyslide-accessible-and-interoperable-whole-slide-image-analysis)
+  - TLDR：针对病理全切片图像（WSI）与单细胞组学数据长期存在的数据孤岛问题，LazySlide 作为一个基于 scverse 生态的开源 Python 工具包，通过集成视觉语言大模型并遵循统一数据标准，实现了病理图像与组学流程的无缝对接。它支持组织分割、特征提取及零样本分类等功能，显著降低了多模态整合分析的门槛，为生物医学研究提供了高效的互操作平台。
+  - Tags：`query:bioinfo`
+- [Single-cell multiomics uncovers an endothelial mechanosensitive PIEZO1-IL-33 axis driving pulmonary fibrosis.](#/202603/21/202603/21/41862476-single-cell-multiomics-uncovers-an-endothelial-mechanosensitive-piezo1-il-33-axis-driving-pulmonary-fibrosis)
+  - TLDR：肺纤维化是一种导致肺组织硬化的进展性疾病，血管内皮细胞在其中的力学调控机制尚不明确。本研究利用单细胞多组学技术分析人类及小鼠模型，发现力学敏感离子通道PIEZO1在内皮细胞中显著上调。通过内皮特异性敲除实验，证实了PIEZO1通过CAPN2/STAT3通路调控促纤维化因子IL-33的分泌，从而驱动疾病进展，为肺纤维化治疗提供了新的干预靶点。
+  - Tags：`query:seqai`
+- [Host genetic variation and gut microbiome in pediatric diseases.](#/202603/21/202603/21/41588607-host-genetic-variation-and-gut-microbiome-in-pediatric-diseases)
+  - TLDR：针对儿科疾病中宿主遗传与肠道微生物协同演化的复杂机制，本文综述了通过全基因组关联分析（GWAS）识别的遗传变异及其对肠道菌群组成的调控作用。文章系统梳理了肠道微生物在脑、肺、皮肤及免疫轴中的生物标志物，揭示了遗传易感性如何通过诱发菌群失调来驱动疾病，为儿科精准医疗和创新疗法提供了理论支撑。
+  - Tags：`query:pathoai`
+- [Gut-derived bacterial membrane vesicles in prediabetes: Vesicle composition dictates inflammatory properties.](#/202603/21/202603/21/41816281-gut-derived-bacterial-membrane-vesicles-in-prediabetes-vesicle-composition-dictates-inflammatory-properties)
+  - TLDR：针对代谢性疾病中肠道菌群与宿主相互作用机制不明的问题，本研究对比了糖尿病前期患者与健康对照组的粪便细菌及其分泌的膜囊泡（bMVs）。研究发现，bMVs 的组成与细菌群落显著不同，且特定菌属（如 Lachnospiraceae）比例较高的 bMVs 具有更强的促炎特性。这一发现揭示了 bMVs 组成而非单纯细菌丰度是驱动代谢性炎症的关键因素，为理解前驱糖尿病的病理机制提供了新视角。
+  - Tags：`query:pathoai`
+- [Widespread effects of catecholamines on growth of human gut bacteria.](#/202603/21/202603/21/41862473-widespread-effects-of-catecholamines-on-growth-of-human-gut-bacteria)
+  - TLDR：宿主与肠道微生物通过神经内分泌信号（如儿茶酚胺）进行通讯，但目前缺乏对多样化菌群直接响应的系统性研究。本研究在厌氧条件下对多种人类肠道细菌进行了体外筛选，量化了儿茶酚胺对细菌生长动力学的影响。结果发现，儿茶酚胺在极低浓度下即可诱发物种特异性的生长改变，且响应模式具有谱系关联性。该研究为理解压力状态下激素如何直接塑造肠道菌群提供了定量数据支持。
+  - Tags：`query:pathoai`
+- [The evolutionary dynamics between viral mimics and host proteins.](#/202603/21/202603/21/41862705-the-evolutionary-dynamics-between-viral-mimics-and-host-proteins)
+  - TLDR：病毒通过模仿宿主蛋白来劫持细胞通路，但宿主如何在不破坏自身功能的前提下规避这种模仿尚不明确。本研究整合结构建模、蛋白质相互作用网络及演化分析，发现受模仿的宿主蛋白因功能限制而高度保守。研究揭示了宿主界面残基的差异化演化速率，并指出病毒利用宿主的演化困境实现了稳定的劫持，为理解宿主-病毒协同演化提供了新视角。
+  - Tags：`query:pathoai`
+- [Comparing the performance of functional versus taxonomic metagenomics for detecting ammonia disturbances in the biogas system.](#/202603/21/202603/21/41860433-comparing-the-performance-of-functional-versus-taxonomic-metagenomics-for-detecting-ammonia-disturbances-in-the-biogas-system)
+  - TLDR：沼气生产常受高浓度氨干扰，及早发现干扰至关重要。本研究通过对三个独立实验室反应器的宏基因组数据进行功能和分类学标注，利用正则化回归模型对比了两者在检测氨干扰方面的表现。结果显示，在单一研究内部，分类学数据表现更优；但在跨研究应用时，功能模型展现出更好的泛化潜力。这表明功能宏基因组在跨场景监测中具有一定优势，但并未全面超越分类学方法。
+  - Tags：`query:pathoai`
+- [Open and sustainable AI: challenges, opportunities and the road ahead in the life sciences.](#/202603/21/202603/21/41862658-open-and-sustainable-ai-challenges-opportunities-and-the-road-ahead-in-the-life-sciences)
+  - TLDR：生命科学领域 AI 应用虽广，但面临可重复性差、资源浪费及生态碎片化等严峻挑战。本文通过梳理 300 多个生态系统组件，提出了一套开放且可持续的 AI 开发建议与实施路径。该成果为研究者提供了具体的资源链接与操作指南，旨在提升 AI 模型的复用性并降低环境成本，推动生命科学研究向更透明、高效的方向发展。
+  - Tags：`query:bioinfo`
 - [A foundation model for nucleotide sequences.](#/202603/20/202603/20/41854075-a-foundation-model-for-nucleotide-sequences)
   - TLDR：现有的基因组大模型多侧重于核苷酸序列本身，忽视了丰富的注释信息，限制了模型在跨物种和多生物场景下的泛化能力。为此，研究者推出了 OmniNA，这是一个在 9170 万条序列及其关联注释（共 1.07 万亿碱基）上训练的自监督生成式基础模型。通过联合学习序列语法与注释语义，OmniNA 在序列检测、物种分类等 23 个基准测试中达到 SOTA 或领先水平，并能有效揭示突变对 DNA/RNA 处理的影响，为基因组学研究提供了强大的预训练工具。
   - Tags：`query:bioinfo`
