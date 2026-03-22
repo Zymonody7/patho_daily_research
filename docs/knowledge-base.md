@@ -1,10 +1,19 @@
 # 知识库
 
-- 最近沉淀条目数：171
+- 最近沉淀条目数：174
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Evaluating Deep Learning Based Structure Prediction Methods on Antibody-Antigen Complexes.](#/202603/22/202603/22/41863324-evaluating-deep-learning-based-structure-prediction-methods-on-antibody-antigen-complexes)
+  - TLDR：针对抗体-抗原复合物预测中缺乏共进化信号的难题，本研究评估了 AlphaFold2、AlphaFold3、Boltz-1 和 Chai-1 等深度学习模型。研究发现，增加采样次数能以对数线性方式提升预测成功率，但模型自带的评分机制难以准确识别最优结构。AlphaFold3 表现最优，但其性能高度依赖于训练集中存在的结构相似性，揭示了当前模型在处理全新抗体结构时的局限性。
+  - Tags：`query:bioinfo`
+- [Antibacterial efficacy and mechanism of the novel antimicrobial peptide lachnospirin-1 against](#/202603/22/202603/22/41838520-antibacterial-efficacy-and-mechanism-of-the-novel-antimicrobial-peptide-lachnospirin-1-against)
+  - TLDR：针对耐碳青霉烯鲍曼不动杆菌（CRAB）引发的全球性医疗难题，本研究筛选并合成了一种新型抗菌肽 lachnospirin-1。该肽不仅能高效杀灭 CRAB 及其生物膜和休眠细胞，还通过破坏细胞膜、中和脂多糖及诱导氧化应激等多重机制发挥作用。小鼠实验证实其具有良好的安全性和体内抗菌活性，为治疗难治性 CRAB 感染提供了极具潜力的候选药物。
+  - Tags：`query:pathoai`
+- [Unveiling the prognostic and therapeutic landscape of the zinc transporter protein SLC39A family in colorectal cancer through multi-omics and machine learning approaches.](#/202603/22/202603/22/41863577-unveiling-the-prognostic-and-therapeutic-landscape-of-the-zinc-transporter-protein-slc39a-family-in-colorectal-cancer-through-multi-omics-and-machine-learning-approaches)
+  - TLDR：针对结直肠癌（CRC）预后评估的难题，本研究聚焦于SLC39A锌转运蛋白家族，通过集成10种机器学习算法的101种组合，构建了预后风险模型SFRS。该模型不仅能精准预测患者生存期，还揭示了SLC39A家族在免疫微环境调节和免疫治疗响应中的关键作用，并识别出SLC39A8和SLC39A14作为潜在的生物标志物，为CRC的精准医疗提供了新工具。
+  - Tags：`query:bioinfo`
 - [High-resolution phage-host assignment through key proteins using large language models.](#/202603/21/202603/21/41862452-high-resolution-phage-host-assignment-through-key-proteins-using-large-language-models)
   - TLDR：针对环境中大量病毒序列难以识别宿主的问题，本研究开发了 VirHost Hunter 框架。该框架利用蛋白质语言模型和视觉 Transformer 提取噬菌体尾部蛋白和裂解酶的深层特征，无需完整基因组即可实现高分辨率的宿主分配。实验证明该方法在肠道菌群分析中显著提升了预测精度，并成功筛选出能特异性针对肥胖相关细菌的裂解酶，为精准微生物组治疗提供了新路径。
   - Tags：`query:pathoai`

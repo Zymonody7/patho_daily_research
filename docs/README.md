@@ -11,52 +11,31 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-03-21
-- 运行时间：2026-03-21 19:04:38 UTC
+- 最新运行日期：2026-03-22
+- 运行时间：2026-03-22 19:07:56 UTC
 - 运行状态：成功
-- 本次总论文数：10
-- 精读区：4
-- 速读区：6
+- 本次总论文数：3
+- 精读区：1
+- 速读区：2
 
 ### 今日简报（AI）
-今日聚焦 AI 赋能微生物组学，深度解析了噬菌体宿主识别与耐药性诊断的前沿突破。
-大语言模型在噬菌体蛋白预测中展现出极高精度，同时 AI 驱动的集成化方案正重塑抗生素耐药性的精准检测。
-建议关注 AI 工具在病原体追踪中的应用，并留意肠道细菌囊泡对糖尿病等代谢疾病的潜在影响。
-- 详情：[/202603/21/README](/202603/21/README)
+今日深度评估了AI预测抗体复合物结构的实战效能，并同步探索了新型抗菌肽与癌症治疗新靶点。
+核心结论指出深度学习在抗体建模中仍具挑战，而SLC39A家族展现出显著的结直肠癌预后评估潜力。
+推荐关注AI辅助药物设计的精度边界，以及多组学技术在精准医疗中的前沿应用。
+- 详情：[/202603/22/README](/202603/22/README)
 
 ### 精读区论文标签
-1. [High-resolution phage-host assignment through key proteins using large language models.](/202603/21/41862452-high-resolution-phage-host-assignment-through-key-proteins-using-large-language-models)  
-   标签：评分：10.0/10、query:pathoai
-   evidence：用于噬菌体-宿主分配和病原体理解的大语言模型
-2. [[Advances in integrated antimicrobial resistance diagnostics: quantitative, qualitative and AI-driven approaches].](/202603/21/41860614-advances-in-integrated-antimicrobial-resistance-diagnostics-quantitative-qualitative-and-ai-driven-approaches)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：AI 驱动的抗微生物耐药性诊断
-3. [LazySlide: accessible and interoperable whole-slide image analysis.](/202603/21/41862659-lazyslide-accessible-and-interoperable-whole-slide-image-analysis)  
-   标签：评分：9.0/10、query:bioinfo
-   evidence：用于组织病理学和组学多模态融合的视觉语言基础模型
-4. [Single-cell multiomics uncovers an endothelial mechanosensitive PIEZO1-IL-33 axis driving pulmonary fibrosis.](/202603/21/41862476-single-cell-multiomics-uncovers-an-endothelial-mechanosensitive-piezo1-il-33-axis-driving-pulmonary-fibrosis)  
-   标签：评分：8.0/10、query:seqai
-   evidence：肺纤维化的集成单细胞多组学分析
+1. [Evaluating Deep Learning Based Structure Prediction Methods on Antibody-Antigen Complexes.](/202603/22/41863324-evaluating-deep-learning-based-structure-prediction-methods-on-antibody-antigen-complexes)  
+   标签：评分：8.0/10、query:bioinfo
+   evidence：评估宿主-病原体蛋白复合物的深度学习预测
 
 ### 速读区论文标签
-1. [Host genetic variation and gut microbiome in pediatric diseases.](/202603/21/41588607-host-genetic-variation-and-gut-microbiome-in-pediatric-diseases)  
+1. [Antibacterial efficacy and mechanism of the novel antimicrobial peptide lachnospirin-1 against](/202603/22/41838520-antibacterial-efficacy-and-mechanism-of-the-novel-antimicrobial-peptide-lachnospirin-1-against)  
    标签：评分：7.0/10、query:pathoai
-   evidence：综述人类遗传学-肠道微生物群轴以及儿科疾病发病机制中的微生物生物标志物
-2. [Gut-derived bacterial membrane vesicles in prediabetes: Vesicle composition dictates inflammatory properties.](/202603/21/41816281-gut-derived-bacterial-membrane-vesicles-in-prediabetes-vesicle-composition-dictates-inflammatory-properties)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：研究代谢疾病发病机制中的肠道微生物群与宿主相互作用及细菌DNA库
-3. [Widespread effects of catecholamines on growth of human gut bacteria.](/202603/21/41862473-widespread-effects-of-catecholamines-on-growth-of-human-gut-bacteria)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：宿主-微生物组化学通讯与微生物内分泌学
-4. [The evolutionary dynamics between viral mimics and host proteins.](/202603/21/41862705-the-evolutionary-dynamics-between-viral-mimics-and-host-proteins)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：宿主-病毒蛋白质相互作用的结构建模
-5. [Comparing the performance of functional versus taxonomic metagenomics for detecting ammonia disturbances in the biogas system.](/202603/21/41860433-comparing-the-performance-of-functional-versus-taxonomic-metagenomics-for-detecting-ammonia-disturbances-in-the-biogas-system)  
-   标签：评分：6.0/10、query:pathoai
-   evidence：用于干扰检测的宏基因组分类和功能分析
-6. [Open and sustainable AI: challenges, opportunities and the road ahead in the life sciences.](/202603/21/41862658-open-and-sustainable-ai-challenges-opportunities-and-the-road-ahead-in-the-life-sciences)  
-   标签：评分：6.0/10、query:bioinfo
-   evidence：讨论生命科学中开放和可持续的AI模型开发
+   evidence：抗菌肽发现及针对病原体靶点识别的分子动力学模拟
+2. [Unveiling the prognostic and therapeutic landscape of the zinc transporter protein SLC39A family in colorectal cancer through multi-omics and machine learning approaches.](/202603/22/41863577-unveiling-the-prognostic-and-therapeutic-landscape-of-the-zinc-transporter-protein-slc39a-family-in-colorectal-cancer-through-multi-omics-and-machine-learning-approaches)  
+   标签：评分：7.0/10、query:bioinfo
+   evidence：多组学和机器学习用于预后预测
 
 
 <div class="dpr-home-promo-card">

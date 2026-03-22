@@ -1,0 +1,51 @@
+{
+  "label": "2026-03-22",
+  "date": "2026-03-22",
+  "generated_at": "2026-03-22T19:08:05",
+  "count": 3,
+  "papers": [
+    {
+      "paper_id": "202603/22/41863324-evaluating-deep-learning-based-structure-prediction-methods-on-antibody-antigen-complexes",
+      "section": "deep",
+      "title_en": "Evaluating Deep Learning Based Structure Prediction Methods on Antibody-Antigen Complexes.",
+      "authors": "Samuel Fromm, Marko Ludaic, Arne Elofsson",
+      "date": "2026-03-21",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41863324/",
+      "score": "8.0",
+      "evidence": "评估宿主-病原体蛋白复合物的深度学习预测",
+      "tldr": "针对抗体-抗原复合物预测中缺乏共进化信号的难题，本研究评估了 AlphaFold2、AlphaFold3、Boltz-1 和 Chai-1 等深度学习模型。研究发现，增加采样次数能以对数线性方式提升预测成功率，但模型自带的评分机制难以准确识别最优结构。AlphaFold3 表现最优，但其性能高度依赖于训练集中存在的结构相似性，揭示了当前模型在处理全新抗体结构时的局限性。",
+      "tags": "query:bioinfo",
+      "abstract_en": "MOTIVATION: AlphaFold2 significantly improved the prediction of protein complex structures. However, its accuracy is lower for interactions without coevolutionary signals, such as host-pathogen and antibody-antigen interactions. Two strategies have been developed to address this limitation: massive sampling and replacing the evoformer with the pairformer, which does not rely on coevolution, as introduced in AlphaFold3, thereby enabling more structural reasoning by the network. RESULTS: : In this study, we benchmark structure prediction methods on unseen antibody-antigen complexes. We found that increased sampling improves the chances of generating a correct protein model, roughly in a log-linear manner. However, the internal quality estimates by AlphaFold often cannot identify the best predicted structures for each target, resulting in a significant loss of performance for the top-ranked protein model compared with the best model. For all methods, a significant challenge remains the identification of the best model. We also show that AlphaFold3 outperforms AlphaFold2, Boltz-1, and Chai-1. Furthermore, AlphaFold3 performance declines significantly for complexes that lack structural similarity to the training set, indicating that it has to some extent learned to detect remote structural similarities. AVAILABILITY AND IMPLEMENTATION: All code is available from github.com/samuelfromm/abag-benchmark-set/and all data from DOI : 10.5281/zenodo.17978681.The latter repository also contains the code. SUPPLEMENTARY INFORMATION: Supplementary information is available online.",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202603/22/41838520-antibacterial-efficacy-and-mechanism-of-the-novel-antimicrobial-peptide-lachnospirin-1-against",
+      "section": "quick",
+      "title_en": "Antibacterial efficacy and mechanism of the novel antimicrobial peptide lachnospirin-1 against",
+      "authors": "Pengfei She, Mengna Li, Yiqing Liu, Guanqing Huang, Shaowei Guo, Dan Xiao, Yelan Hong, Lihua Lu, Yong Wu",
+      "date": "2026-12-31",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41838520/",
+      "score": "7.0",
+      "evidence": "抗菌肽发现及针对病原体靶点识别的分子动力学模拟",
+      "tldr": "针对耐碳青霉烯鲍曼不动杆菌（CRAB）引发的全球性医疗难题，本研究筛选并合成了一种新型抗菌肽 lachnospirin-1。该肽不仅能高效杀灭 CRAB 及其生物膜和休眠细胞，还通过破坏细胞膜、中和脂多糖及诱导氧化应激等多重机制发挥作用。小鼠实验证实其具有良好的安全性和体内抗菌活性，为治疗难治性 CRAB 感染提供了极具潜力的候选药物。",
+      "tags": "query:pathoai",
+      "abstract_en": "The treatment of carbapenem-resistant A. baumannii (CRAB) infections has become a major global medical challenge; therefore, there is an urgent need for new antimicrobial development. Antimicrobial peptides hold great promising potential due to their rapid bactericidal activity and low induction of drug resistance. In this study, we screened and synthesized the antimicrobial peptide lachnospirin-1, which exhibited significant bactericidal activity against CRAB and can also effectively eliminate its biofilms and persister cells. Mechanism studies, including fluorescent probe detection, transmission electron microscopy observations, and molecular dynamics simulations, et al. indicated that lachnospirin-1 exerts its effects through multiple mechanisms, such as disrupting bacterial cell membranes, neutralizing lipopolysaccharide, as well as inducing oxidative stress, which also demonstrates its certain potential. In addition, the favorable safety profile and effective in vivo bactericidal activity of lachnospirin-1 were determined by mouse models. Overall, our study found that lachnospirin-1 has considerable research potential as a lead compound and possesses latent value as a clinical therapy for refractory infections caused by CRAB.",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202603/22/41863577-unveiling-the-prognostic-and-therapeutic-landscape-of-the-zinc-transporter-protein-slc39a-family-in-colorectal-cancer-through-multi-omics-and-machine-learning-approaches",
+      "section": "quick",
+      "title_en": "Unveiling the prognostic and therapeutic landscape of the zinc transporter protein SLC39A family in colorectal cancer through multi-omics and machine learning approaches.",
+      "authors": "Haizhen Chen, Chaozhao Chen, Jie Chen, Huang Zheng, Xinhao Zhu, Qianru Yu, Jiajie Zhou, Jiasheng Zong, Tingyan Lu, Jing Sun, Yanfei Shao, Minhua Zheng",
+      "date": "2026-03-21",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41863577/",
+      "score": "7.0",
+      "evidence": "多组学和机器学习用于预后预测",
+      "tldr": "针对结直肠癌（CRC）预后评估的难题，本研究聚焦于SLC39A锌转运蛋白家族，通过集成10种机器学习算法的101种组合，构建了预后风险模型SFRS。该模型不仅能精准预测患者生存期，还揭示了SLC39A家族在免疫微环境调节和免疫治疗响应中的关键作用，并识别出SLC39A8和SLC39A14作为潜在的生物标志物，为CRC的精准医疗提供了新工具。",
+      "tags": "query:bioinfo",
+      "abstract_en": "Colorectal cancer (CRC) remains a significant global health challenge due to its high prevalence and mortality rates. Zinc transporter proteins of the SLC39A family are crucial mediators of metal ion transport and have been implicated in numerous diseases, including cancer. However, the specific molecular mechanisms underpinning their impact on CRC progression remain poorly understood. By analyzing thousands of CRC patient samples from large-scale public databases, we constructed a SLC39A family-related signature (SFRS) for prognostic prediction through the integration of 101 combinations of 10 machine learning algorithms. This model was utilized to explore tumor biology, immune microenvironment composition, mutation patterns, and responses to immunotherapy in CRC patients. To reinforce these findings, immunohistochemistry (IHC) analyses were conducted on our in-house cohort (RJ-TMA-Cohort) to examine expression levels of two key molecules, SLC39A8 and SLC39A14, and their associations with CRC progression. The SFRS model demonstrated excellent predictive performance, effectively stratifying CRC patients based on tumor characteristics, immune microenvironment, mutation features, and immunotherapy responses. Moreover, IHC and bioinformatic analyses revealed that SLC39A8 and SLC39A14 expression levels are closely associated with CRC progression, emphasizing their potential roles in tumor microenvironment regulation and their value as biomarkers and therapeutic targets. This study is the first to comprehensively investigate the functions of the SLC39A family in CRC, offering novel insights into their roles in tumor development, prognosis, and potential relevance to immunotherapy response. The SFRS model represents a powerful tool for clinical applications, while SLC39A8 and SLC39A14 present promising avenues for future research and therapeutic strategies.",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}

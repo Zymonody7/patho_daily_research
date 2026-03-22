@@ -1,0 +1,71 @@
+Title: Unveiling the prognostic and therapeutic landscape of the zinc transporter protein SLC39A family in colorectal cancer through multi-omics and machine learning approaches - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41863577/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 21.
+
+doi: 10.1007/s10238-025-01996-2.  Online ahead of print.
+
+[Chaozhao Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+C&cauthor_id=41863577)[#](https://pubmed.ncbi.nlm.nih.gov/41863577/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41863577/#full-view-affiliation-1 "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41863577/#full-view-affiliation-2 "Shanghai Minimally Invasive Surgery Center, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.")[3](https://pubmed.ncbi.nlm.nih.gov/41863577/#full-view-affiliation-3 "Shanghai Jiao Tong University School of Medicine, Shanghai, China."),[Jie Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+J&cauthor_id=41863577)[#](https://pubmed.ncbi.nlm.nih.gov/41863577/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41863577/#full-view-affiliation-1 "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41863577/#full-view-affiliation-2 "Shanghai Minimally Invasive Surgery Center, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."),[Huang Zheng](https://pubmed.ncbi.nlm.nih.gov/?term=Zheng+H&cauthor_id=41863577)[1](https://pubmed.ncbi.nlm.nih.gov/41863577/#full-view-affiliation-1 "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41863577/#full-view-affiliation-2 "Shanghai Minimally Invasive Surgery Center, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."),[Xinhao Zhu](https://pubmed.ncbi.nlm.nih.gov/?term=Zhu+X&cauthor_id=41863577)[3](https://pubmed.ncbi.nlm.nih.gov/41863577/#full-view-affiliation-3 "Shanghai Jiao Tong University School of Medicine, Shanghai, China."),[Qianru Yu](https://pubmed.ncbi.nlm.nih.gov/?term=Yu+Q&cauthor_id=41863577)[4](https://pubmed.ncbi.nlm.nih.gov/41863577/#full-view-affiliation-4 "Key Lab of Cell Differentiation and Apoptosis of Ministry of Education, Shanghai Jiao Tong University School of Medicine, Shanghai, China.")[3](https://pubmed.ncbi.nlm.nih.gov/41863577/#full-view-affiliation-3 "Shanghai Jiao Tong University School of Medicine, Shanghai, China."),[Jiajie Zhou](https://pubmed.ncbi.nlm.nih.gov/?term=Zhou+J&cauthor_id=41863577)[3](https://pubmed.ncbi.nlm.nih.gov/41863577/#full-view-affiliation-3 "Shanghai Jiao Tong University School of Medicine, Shanghai, China."),[Jiasheng Zong](https://pubmed.ncbi.nlm.nih.gov/?term=Zong+J&cauthor_id=41863577)[3](https://pubmed.ncbi.nlm.nih.gov/41863577/#full-view-affiliation-3 "Shanghai Jiao Tong University School of Medicine, Shanghai, China."),[Tingyan Lu](https://pubmed.ncbi.nlm.nih.gov/?term=Lu+T&cauthor_id=41863577)[3](https://pubmed.ncbi.nlm.nih.gov/41863577/#full-view-affiliation-3 "Shanghai Jiao Tong University School of Medicine, Shanghai, China."),[Jing Sun](https://pubmed.ncbi.nlm.nih.gov/?term=Sun+J&cauthor_id=41863577)[5](https://pubmed.ncbi.nlm.nih.gov/41863577/#full-view-affiliation-5 "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China. sj11788@rjh.com.cn.")[6](https://pubmed.ncbi.nlm.nih.gov/41863577/#full-view-affiliation-6 "Shanghai Minimally Invasive Surgery Center, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China. sj11788@rjh.com.cn."),[Yanfei Shao](https://pubmed.ncbi.nlm.nih.gov/?term=Shao+Y&cauthor_id=41863577)[7](https://pubmed.ncbi.nlm.nih.gov/41863577/#full-view-affiliation-7 "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China. syf01p17@rjh.com.cn.")[8](https://pubmed.ncbi.nlm.nih.gov/41863577/#full-view-affiliation-8 "Shanghai Minimally Invasive Surgery Center, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China. syf01p17@rjh.com.cn."),[Minhua Zheng](https://pubmed.ncbi.nlm.nih.gov/?term=Zheng+M&cauthor_id=41863577)[9](https://pubmed.ncbi.nlm.nih.gov/41863577/#full-view-affiliation-9 "Department of General Surgery, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China. zmhtiger@yeah.net.")[10](https://pubmed.ncbi.nlm.nih.gov/41863577/#full-view-affiliation-10 "Shanghai Minimally Invasive Surgery Center, Ruijin Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China. zmhtiger@yeah.net.")
+
+Affiliations
+
+*    PMID: **41863577**
+*    DOI: [10.1007/s10238-025-01996-2](https://doi.org/10.1007/s10238-025-01996-2)
+
+## Unveiling the prognostic and therapeutic landscape of the zinc transporter protein SLC39A family in colorectal cancer through multi-omics and machine learning approaches
+
+Haizhen Chen et al. Clin Exp Med.2026.
+
+## Abstract
+
+Colorectal cancer (CRC) remains a significant global health challenge due to its high prevalence and mortality rates. Zinc transporter proteins of the SLC39A family are crucial mediators of metal ion transport and have been implicated in numerous diseases, including cancer. However, the specific molecular mechanisms underpinning their impact on CRC progression remain poorly understood. By analyzing thousands of CRC patient samples from large-scale public databases, we constructed a SLC39A family-related signature (SFRS) for prognostic prediction through the integration of 101 combinations of 10 machine learning algorithms. This model was utilized to explore tumor biology, immune microenvironment composition, mutation patterns, and responses to immunotherapy in CRC patients. To reinforce these findings, immunohistochemistry (IHC) analyses were conducted on our in-house cohort (RJ-TMA-Cohort) to examine expression levels of two key molecules, SLC39A8 and SLC39A14, and their associations with CRC progression. The SFRS model demonstrated excellent predictive performance, effectively stratifying CRC patients based on tumor characteristics, immune microenvironment, mutation features, and immunotherapy responses. Moreover, IHC and bioinformatic analyses revealed that SLC39A8 and SLC39A14 expression levels are closely associated with CRC progression, emphasizing their potential roles in tumor microenvironment regulation and their value as biomarkers and therapeutic targets. This study is the first to comprehensively investigate the functions of the SLC39A family in CRC, offering novel insights into their roles in tumor development, prognosis, and potential relevance to immunotherapy response. The SFRS model represents a powerful tool for clinical applications, while SLC39A8 and SLC39A14 present promising avenues for future research and therapeutic strategies.
+
+**Keywords:** Colorectal cancer; Immunotherapy; Machine learning; Prognostic predictive model; SLC39A family; Tumor microenvironment.
+
+© 2025. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Competing interests: The authors declare no competing interests. Ethics approval: This study was approved by the Ethics Committee of Ruijin Hospital, Shanghai Jiao Tong University School of Medicine (Ethics Approval number: NCT04714814). Consent to participate: All procedures involving human subjects were conducted in accordance with the Declaration of Helsinki, and written informed consent was obtained from all patients whose tissue samples were used. Consent to publish: The authors affirm that human research participants provided informed consent for publication of the images in Fig. 10.”
+
+## Similar articles
+
+*   [Revealing the mechanism of chanling Gao in preventing and treating liver metastasis in colorectal cancer through integrated multi-omics and artificial intelligence.](https://pubmed.ncbi.nlm.nih.gov/41342434/)
+
+Yang B, Huang W, Li J, Sun H, Zhou K, Du C, Liang A, Tang D.Yang B, et al.Int J Surg. 2025 Dec 4. doi: 10.1097/JS9.0000000000004322. Online ahead of print.Int J Surg. 2025.PMID: 41342434 
+*   [Tumor-infiltrating immune cell signature score reveals prognostic biomarkers and therapeutic targets for colorectal cancer.](https://pubmed.ncbi.nlm.nih.gov/40438100/)
+
+Zuo X, Long W, Lin K, Jia G.Zuo X, et al.Front Immunol. 2025 May 14;16:1583327. doi: 10.3389/fimmu.2025.1583327. eCollection 2025.Front Immunol. 2025.PMID: 40438100 Free PMC article. 
+*   [Decoding colorectal cancer chemotherapy and immunotherapy resistance: revealing the role of NOL3 using single-cell RNA sequencing and machine learning.](https://pubmed.ncbi.nlm.nih.gov/41286470/)
+
+Ma L, Luan Y, Wei Y, Li W, Lu L.Ma L, et al.Clin Exp Med. 2025 Nov 25;26(1):32. doi: 10.1007/s10238-025-01913-7.Clin Exp Med. 2025.PMID: 41286470 Free PMC article. 
+*   [Tumor microenvironment characterization in colorectal cancer to identify prognostic and immunotherapy genes signature.](https://pubmed.ncbi.nlm.nih.gov/37596528/)
+
+Guo XW, Lei RE, Zhou QN, Zhang G, Hu BL, Liang YX.Guo XW, et al.BMC Cancer. 2023 Aug 18;23(1):773. doi: 10.1186/s12885-023-11277-4.BMC Cancer. 2023.PMID: 37596528 Free PMC article. 
+*   [Metal ion transporter SLC39A14-mediated ferroptosis and glycosylation modulate the tumor immune microenvironment: pan-cancer multi-omics exploration of therapeutic potential.](https://pubmed.ncbi.nlm.nih.gov/41121066/)
+
+Chiang YC, Wang CY, Kumar S, Hsieh CB, Chang KF, Ko CC, Chang CH, Lin HR, Wu CJ, Yuan CH, Xuan DTM, Ngadio JL, Solomon DD, Wulandari FS, Lin HY, Yang SF, Lee YK.Chiang YC, et al.Cancer Cell Int. 2025 Oct 21;25(1):363. doi: 10.1186/s12935-025-04003-6.Cancer Cell Int. 2025.PMID: 41121066 Free PMC article. 
+
+## References
+
+1.       1.    Dekker E, Tanis PJ, Vleugels JLA, Kasi PM, Wallace MB. Colorectal cancer. Lancet. 2019;394:1467–80. [https://doi.org/10.1016/s0140-6736(19)32319-0](https://doi.org/10.1016/s0140-6736(19)32319-0). 
+
+2.       1.    Bray F, et al. Global cancer statistics 2018: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. CA Cancer J Clin. 2018;68:394–424. [https://doi.org/10.3322/caac.21492](https://doi.org/10.3322/caac.21492). 
+
+3.       1.    Ciardiello F, et al. Clinical management of metastatic colorectal cancer in the era of precision medicine. CA Cancer J Clin. 2022;72:372–401. [https://doi.org/10.3322/caac.21728](https://doi.org/10.3322/caac.21728). 
+
+4.       1.    Ganesh K, et al. Immunotherapy in colorectal cancer: rationale, challenges and potential. Nat Rev Gastroenterol Hepatol. 2019;16:361–75. [https://doi.org/10.1038/s41575-019-0126-x](https://doi.org/10.1038/s41575-019-0126-x). 
+
+5.       1.    König IR, Fuchs O, Hansen G, von Mutius E, Kopp MV. What is precision medicine? Eur Respir J. 2017. [https://doi.org/10.1183/13993003.00391-2017](https://doi.org/10.1183/13993003.00391-2017). 
+
+## Grants and funding
+
+*   [82273344/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82273344%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82273344/National Natural Science Foundation of China")
+*   [82072614/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82072614%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82072614/National Natural Science Foundation of China")
+*   [19250101/College Students' Innovative Entrepreneurial Training Plan Program](https://pubmed.ncbi.nlm.nih.gov/?term=19250101%2FCollege+Students%27+Innovative+Entrepreneurial+Training+Plan+Program%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 19250101/College Students' Innovative Entrepreneurial Training Plan Program")
