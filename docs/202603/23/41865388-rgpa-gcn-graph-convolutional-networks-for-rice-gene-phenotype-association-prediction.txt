@@ -1,0 +1,398 @@
+Title: RGPA-GCN: Graph convolutional networks for rice gene-phenotype association prediction - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41865388/
+
+Markdown Content:
+# RGPA-GCN: Graph convolutional networks for rice gene-phenotype association prediction - PubMed
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/41865388/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41865388%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/41865388/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/41865388/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/41865388/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/41865388/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/9fea6d21-07b4-4726-b151-fb89a024b8ad/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/41865388/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/41865388/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41865388/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41865388%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41865388%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/41865388/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Save citation to file
+
+ Format:  
+
+ Create file  Cancel 
+
+## Email citation
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41865388/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41865388/#)
+
+ Add  Cancel 
+
+## Your saved search
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/41865388/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+## Create a file for external citation management software
+
+ Create file  Cancel 
+
+## Your RSS Feed
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Full text links
+
+[![Image 6: Wiley full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/http:--media.wiley.com-assets-7388-69-wiley-full-text.png) Wiley](https://doi.org/10.1111/plb.70212 "See full text options at Wiley")
+
+[Full text links](https://pubmed.ncbi.nlm.nih.gov/41865388/#)
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41865388/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/41865388/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/41865388/#abstract)
+*   [Similar articles](https://pubmed.ncbi.nlm.nih.gov/41865388/#similar)
+*   [References](https://pubmed.ncbi.nlm.nih.gov/41865388/#references)
+*   [Related information](https://pubmed.ncbi.nlm.nih.gov/41865388/#related-links)
+*   [Grants and funding](https://pubmed.ncbi.nlm.nih.gov/41865388/#grants)
+*   [LinkOut - more resources](https://pubmed.ncbi.nlm.nih.gov/41865388/#linkout)
+
+ Plant Biol (Stuttg) 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Plant+Biol+%28Stuttg%29%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Plant+Biol+%28Stuttg%29%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41865388/#)
+
+. 2026 Mar 22.
+
+ doi: 10.1111/plb.70212.  Online ahead of print. 
+
+# RGPA-GCN: Graph convolutional networks for rice gene-phenotype association prediction
+
+[J Luo](https://pubmed.ncbi.nlm.nih.gov/?term=Luo+J&cauthor_id=41865388)[1](https://pubmed.ncbi.nlm.nih.gov/41865388/#full-view-affiliation-1 "School of Artificial Intelligence, Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Anhui Agricultural University, Hefei, China."),[X Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+X&cauthor_id=41865388)[1](https://pubmed.ncbi.nlm.nih.gov/41865388/#full-view-affiliation-1 "School of Artificial Intelligence, Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Anhui Agricultural University, Hefei, China."),[X Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+X&cauthor_id=41865388)[1](https://pubmed.ncbi.nlm.nih.gov/41865388/#full-view-affiliation-1 "School of Artificial Intelligence, Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Anhui Agricultural University, Hefei, China."),[Q Zhou](https://pubmed.ncbi.nlm.nih.gov/?term=Zhou+Q&cauthor_id=41865388)[1](https://pubmed.ncbi.nlm.nih.gov/41865388/#full-view-affiliation-1 "School of Artificial Intelligence, Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Anhui Agricultural University, Hefei, China."),[Y Xiang](https://pubmed.ncbi.nlm.nih.gov/?term=Xiang+Y&cauthor_id=41865388)[1](https://pubmed.ncbi.nlm.nih.gov/41865388/#full-view-affiliation-1 "School of Artificial Intelligence, Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Anhui Agricultural University, Hefei, China."),[Z Yue](https://pubmed.ncbi.nlm.nih.gov/?term=Yue+Z&cauthor_id=41865388)[2](https://pubmed.ncbi.nlm.nih.gov/41865388/#full-view-affiliation-2 "School of Artificial Intelligence, Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Research Centre for Biological Breeding, Anhui Agricultural University, Hefei, China."),[Y Gao](https://pubmed.ncbi.nlm.nih.gov/?term=Gao+Y&cauthor_id=41865388)[2](https://pubmed.ncbi.nlm.nih.gov/41865388/#full-view-affiliation-2 "School of Artificial Intelligence, Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Research Centre for Biological Breeding, Anhui Agricultural University, Hefei, China.")
+
+ Affiliations  Expand 
+
+### Affiliations
+
+*   1 School of Artificial Intelligence, Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Anhui Agricultural University, Hefei, China.
+*   2 School of Artificial Intelligence, Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Research Centre for Biological Breeding, Anhui Agricultural University, Hefei, China.
+
+*    PMID: **41865388**
+*    DOI: [10.1111/plb.70212](https://doi.org/10.1111/plb.70212)
+
+ Item in Clipboard 
+
+# RGPA-GCN: Graph convolutional networks for rice gene-phenotype association prediction
+
+J Luo et al. Plant Biol (Stuttg).2026.
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ Plant Biol (Stuttg) 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Plant+Biol+%28Stuttg%29%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Plant+Biol+%28Stuttg%29%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41865388/#)
+
+. 2026 Mar 22.
+
+ doi: 10.1111/plb.70212.  Online ahead of print. 
+
+### Authors
+
+[J Luo](https://pubmed.ncbi.nlm.nih.gov/?term=Luo+J&cauthor_id=41865388)[1](https://pubmed.ncbi.nlm.nih.gov/41865388/#short-view-affiliation-1 "School of Artificial Intelligence, Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Anhui Agricultural University, Hefei, China."),[X Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+X&cauthor_id=41865388)[1](https://pubmed.ncbi.nlm.nih.gov/41865388/#short-view-affiliation-1 "School of Artificial Intelligence, Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Anhui Agricultural University, Hefei, China."),[X Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+X&cauthor_id=41865388)[1](https://pubmed.ncbi.nlm.nih.gov/41865388/#short-view-affiliation-1 "School of Artificial Intelligence, Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Anhui Agricultural University, Hefei, China."),[Q Zhou](https://pubmed.ncbi.nlm.nih.gov/?term=Zhou+Q&cauthor_id=41865388)[1](https://pubmed.ncbi.nlm.nih.gov/41865388/#short-view-affiliation-1 "School of Artificial Intelligence, Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Anhui Agricultural University, Hefei, China."),[Y Xiang](https://pubmed.ncbi.nlm.nih.gov/?term=Xiang+Y&cauthor_id=41865388)[1](https://pubmed.ncbi.nlm.nih.gov/41865388/#short-view-affiliation-1 "School of Artificial Intelligence, Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Anhui Agricultural University, Hefei, China."),[Z Yue](https://pubmed.ncbi.nlm.nih.gov/?term=Yue+Z&cauthor_id=41865388)[2](https://pubmed.ncbi.nlm.nih.gov/41865388/#short-view-affiliation-2 "School of Artificial Intelligence, Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Research Centre for Biological Breeding, Anhui Agricultural University, Hefei, China."),[Y Gao](https://pubmed.ncbi.nlm.nih.gov/?term=Gao+Y&cauthor_id=41865388)[2](https://pubmed.ncbi.nlm.nih.gov/41865388/#short-view-affiliation-2 "School of Artificial Intelligence, Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Research Centre for Biological Breeding, Anhui Agricultural University, Hefei, China.")
+
+### Affiliations
+
+*   1 School of Artificial Intelligence, Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Anhui Agricultural University, Hefei, China.
+*   2 School of Artificial Intelligence, Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information, Research Centre for Biological Breeding, Anhui Agricultural University, Hefei, China.
+
+*    PMID: **41865388**
+*    DOI: [10.1111/plb.70212](https://doi.org/10.1111/plb.70212)
+
+ Item in Clipboard 
+
+ Full text links Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Abstract
+
+Rice plays a pivotal role as a vital food source for human consumption. Identifying gene-phenotype associations (GPAs) can significantly enhance the tolerance of rice to environmental stress and its overall yield. Nevertheless, the experimental process of discovering GPAs is not only consume a lot of resources but also time-consuming. The computational screening for GPAs has emerged as an essential tool to complement and expedite biological experiments. In this study, we tackle the prediction of GPAs by framing it as a node classification task, and introduce RGPA-GCN, an innovative computational approach leveraging graph convolutional networks. RGPA-GCN constructs a topology graph through the application of the k-nearest neighbor method for effective information aggregation. The nodes within this graph encapsulate both gene functional similarity and phenotype semantic similarity, enhancing the accuracy of our predictions. Notably, the RGPA-GCN approach demonstrates its ability to predict both unknown GPAs and previously unseen genes or phenotypes. Leveraging 5-fold cross-validation, RGPA-GCN exhibits commendable performance, outperforming six classical machine learning methods, and three state-of-the-art models. Additionally, the ablation studies on the sampler and the case studies involving five different phenotypes yields promising results, underscoring the effectiveness of this approach.
+
+**Keywords:** gene–phenotype associations; graph convolutional network; rice; the topology graph.
+
+© 2026 Wiley‐VCH GmbH. Published by John Wiley & Sons Ltd.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [MAMF-GCN: Multi-scale adaptive multi-channel fusion deep graph convolutional network for predicting mental disorder.](https://pubmed.ncbi.nlm.nih.gov/35872410/)Pan J, Lin H, Dong Y, Wang Y, Ji Y.Pan J, et al.Comput Biol Med. 2022 Sep;148:105823. doi: 10.1016/j.compbiomed.2022.105823. Epub 2022 Jul 6.Comput Biol Med. 2022.PMID: 35872410  
+*   [Admission blood tests predicting survival of SARS-CoV-2 infected patients: a practical implementation of graph convolution network in imbalance dataset.](https://pubmed.ncbi.nlm.nih.gov/39123113/)Lian J, Huang F, Huang X, Lau KY, Ng KS, Chu CCF, Lam SC, Koohli-Moghadam M, Vardhanabhuti V.Lian J, et al.BMC Infect Dis. 2024 Aug 9;24(1):803. doi: 10.1186/s12879-024-09699-x.BMC Infect Dis. 2024.PMID: 39123113 Free PMC article.  
+*   [Exploring the role of edge distribution in graph convolutional networks.](https://pubmed.ncbi.nlm.nih.gov/37806139/)He L, Bai L, Yang X, Liang Z, Liang J.He L, et al.Neural Netw. 2023 Nov;168:459-470. doi: 10.1016/j.neunet.2023.09.048. Epub 2023 Oct 4.Neural Netw. 2023.PMID: 37806139  
+*   [XP-GCN: Extreme learning machines and parallel graph convolutional networks for high-throughput prediction of blood-brain barrier penetration based on feature fusion.](https://pubmed.ncbi.nlm.nih.gov/41172602/)Pala MA.Pala MA.Comput Biol Chem. 2026 Feb;120(Pt 2):108755. doi: 10.1016/j.compbiolchem.2025.108755. Epub 2025 Oct 28.Comput Biol Chem. 2026.PMID: 41172602  
+*   [GRA-GCN: Dense Granule Protein Prediction in Apicomplexa Protozoa Through Graph Convolutional Network.](https://pubmed.ncbi.nlm.nih.gov/36441896/)Shi H, Feng H, Lu Z, Xue W, Yang C, Yue Z.Shi H, et al.IEEE/ACM Trans Comput Biol Bioinform. 2023 May-Jun;20(3):1963-1970. doi: 10.1109/TCBB.2022.3224836. Epub 2023 Jun 5.IEEE/ACM Trans Comput Biol Bioinform. 2023.PMID: 36441896  
+
+[See all similar articles](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed&from_uid=41865388)
+
+## References
+
+1.       1.    Altman N.S. (1992) An Introduction to kernel and nearest‐neighbor nonparametric regression. The American Statistician, 46, 175–185. 
+
+2.       1.    Anilkumar C., Muhammed Azharudheen T.P., Sah R.P., Sunitha N.C., Devanna B.N., Marndi B.C., Patra B.C. (2023) Gene based markers improve precision of genome‐wide association studies and accuracy of genomic predictions in rice breeding. Heredity, 130, 335–345. 
+
+3.       1.    Bamunu Mudiyanselage T., Lei X., Senanayake N., Zhang Y., Pan Y. (2022) Predicting CircRNA disease associations using novel node classification and link prediction models on graph convolutional networks. Methods, 198, 32–44. 
+
+4.       1.    Chen X. (2015) KATZLDA: KATZ measure for the lncRNA‐disease association prediction. Scientific Reports, 5, 16840. 
+
+5.       1.    Chen Z., Zhang L., Sun J., Meng R., Yin S., Zhao Q. (2023) DCAMCP: A deep learning model based on capsule network and attention mechanism for molecular carcinogenicity prediction. Journal of Cellular and Molecular Medicine, 27, 3117–3126. 
+
+ Show all 58 references 
+
+## Related information
+
+*   [GEO Profiles](https://www.ncbi.nlm.nih.gov/geoprofiles?linkname=pubmed_geoprofiles&from_uid=41865388 "GEO records associated with pubmed record")
+
+## Grants and funding
+
+*   [National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=National+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant National Natural Science Foundation of China")
+*   [the Graduate Education Quality Project of Anhui](https://pubmed.ncbi.nlm.nih.gov/?term=the+Graduate+Education+Quality+Project+of+Anhui%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant the Graduate Education Quality Project of Anhui")
+*   [the Introduction and Stabilization of Talent Project of Anhui Agricultural University](https://pubmed.ncbi.nlm.nih.gov/?term=the+Introduction+and+Stabilization+of+Talent+Project+of+Anhui+Agricultural+University%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant the Introduction and Stabilization of Talent Project of Anhui Agricultural University")
+*   [the Open Fund of Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information](https://pubmed.ncbi.nlm.nih.gov/?term=the+Open+Fund+of+Anhui+Provincial+Engineering+Laboratory+for+Beidou+Precision+Agriculture+Information%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant the Open Fund of Anhui Provincial Engineering Laboratory for Beidou Precision Agriculture Information")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Wiley](https://doi.org/10.1111/plb.70212)
+
+**Full text links**[x]
+
+[![Image 7: Wiley full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/http:--media.wiley.com-assets-7388-69-wiley-full-text.png) Wiley](https://doi.org/10.1111/plb.70212 "See full text options at Wiley")
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41865388/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41865388%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/41865388/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41865388%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41865388%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/41865388/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/?pagename=pubmed%3Apubmed%3Aabstract%3ANONE)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)

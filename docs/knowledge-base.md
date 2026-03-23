@@ -1,10 +1,40 @@
 # 知识库
 
-- 最近沉淀条目数：174
+- 最近沉淀条目数：184
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Evaluating the Utilities of Foundation Models in Single-Cell Data Analysis.](#/202603/23/202603/23/41869863-evaluating-the-utilities-of-foundation-models-in-single-cell-data-analysis)
+  - TLDR：随着大模型在生物医学领域的兴起，单细胞基础模型（FMs）层出不穷，但其真实效能尚不明确。本研究通过 scEval 框架对 scGPT、Geneformer 等 10 个主流模型在 8 类下游任务中进行了全面评估。结果显示，虽然部分模型表现优异，但在特定任务上仍难以超越传统专用算法。该研究为单细胞大模型的预训练与微调提供了实践指南，并开源了评测工具以推动领域发展。
+  - Tags：`query:seqai`
+- [A Computational Community Blind Challenge on Pan-Coronavirus Drug Discovery Data.](#/202603/23/202603/23/41749419-a-computational-community-blind-challenge-on-pan-coronavirus-drug-discovery-data)
+  - TLDR：针对冠状病毒药物研发中计算预测准确性难以客观评估的问题，ASAP 联盟联合 Polaris 发起了一项社区盲测挑战。该挑战利用未公开的 SARS-CoV-2 和 MERS-CoV 实验数据，要求参与者预测小分子的生化活性、配体结合姿态及 ADMET 指标。通过对全球提交方案的元分析，建立了性能基准，揭示了当前机器学习在药物发现中的优势与局限，为构建可信、可重复的 AI 辅助药物研发流程提供了实证基础。
+  - Tags：`query:pathoai`
+- [Topology-Aware Generation and Activity-Based Filtering: A Computational-Experimental Framework for Data-Scarce Quaternary Ammonium Compound Discovery.](#/202603/23/202603/23/41785100-topology-aware-generation-and-activity-based-filtering-a-computational-experimental-framework-for-data-scarce-quaternary-ammonium-compound-discovery)
+  - TLDR：针对季铵盐类（QACs）抗菌化合物在数据稀缺情况下难以发现新结构的问题，本研究对比了两种基于拓扑感知变分自编码器（VAE）的生成工作流。通过引入活性预测模型进行预筛选，显著提升了生成分子的质量和合成价值。实验验证了11种新型QACs对四种病原体具有高效抗菌活性，证明了该框架在小样本化学空间探索中的有效性。
+  - Tags：`query:pathoai`
+- [RGPA-GCN: Graph convolutional networks for rice gene-phenotype association prediction.](#/202603/23/202603/23/41865388-rgpa-gcn-graph-convolutional-networks-for-rice-gene-phenotype-association-prediction)
+  - TLDR：水稻基因与表型关联（GPA）的实验鉴定耗时耗力，计算预测成为重要辅助手段。本研究提出RGPA-GCN模型，将GPA预测建模为图节点分类任务，利用k-近邻算法构建融合基因功能与表型语义相似性的拓扑图，并通过图卷积网络进行信息聚合。实验证明该方法在5折交叉验证中优于多种经典及前沿模型，能有效预测未知关联及新基因/表型，为提升水稻产量与抗逆性提供了高效的计算工具。
+  - Tags：`query:bioinfo`
+- [TabPFN Opens New Avenues for Small-Data Tabular Learning in Drug Discovery.](#/202603/23/202603/23/41867095-tabpfn-opens-new-avenues-for-small-data-tabular-learning-in-drug-discovery)
+  - TLDR：早期药物研发常面临数据稀缺和分布偏移的挑战，导致传统的梯度提升树模型（如 XGBoost）鲁棒性受限。本研究将基于 Transformer 的表格基础模型 TabPFN 应用于分子数据建模，发现其在回归任务、小样本场景及分布外（OOD）评估中表现出比传统模型更稳定且显著的优势。通过特征消融和嵌入分析，证实了该模型具有更优的归纳偏置，为药物发现中的小数据预测提供了高效且稳健的新途径。
+  - Tags：`query:bioinfo`
+- [scResponse: A Rank-Based Method for Identifying Cell States That Contribute to Immunotherapy Response by Single-Cell Data.](#/202603/23/202603/23/41869876-scresponse-a-rank-based-method-for-identifying-cell-states-that-contribute-to-immunotherapy-response-by-single-cell-data)
+  - TLDR：针对免疫治疗中患者响应差异大且缺乏单细胞分辨率评估工具的问题，本研究开发了基于秩次的算法 scResponse。该方法能量化单细胞对免疫治疗的响应程度，揭示了巨噬细胞极化、T细胞耗竭等多种细胞状态对疗效的影响。通过跨癌症分析，研究发现了调控肿瘤细胞响应的关键代谢通路，并通过实验验证了其作为免疫治疗增敏靶点的潜力，为精准医疗提供了新工具。
+  - Tags：`query:seqai`
+- [Pulmonary mucoid](#/202603/23/202603/23/41869810-pulmonary-mucoid)
+  - TLDR：铜绿假单胞菌（PA）的黏液型表型是其应对环境压力的重要适应方式，但其对肺部微生物群落及免疫反应的影响尚不明确。本研究通过对住院患者痰液进行16S rDNA测序和血清细胞因子检测，发现黏液型PA感染具有更高的微生物物种丰富度及更剧烈的炎症反应（如IL-6、TNF-α升高）。研究揭示了特定菌群与炎症因子的相关性，为慢性肺部疾病的精准抗感染和免疫调节治疗提供了生物标志物。
+  - Tags：`query:pathoai`
+- [MEditome: Computational Detection of RNA Edit Sites Using](#/202603/23/202603/23/41869825-meditome-computational-detection-of-rna-edit-sites-using)
+  - TLDR：RNA编辑对细菌适应性至关重要，但传统方法依赖参考基因组，难以检测未知菌株。MEditome 提出了一种基于从头组装（de novo assembly）的计算流程，能够直接从宏基因组和宏转录组数据中识别全微生物组的RNA编辑位点。该工具在人类肠道微生物组中发现了2,295个编辑位点，并揭示了与炎症性肠病相关的差异编辑模式，为理解微生物与宿主互动提供了新视角。
+  - Tags：`query:seqai`
+- [Potential role of the ocular surface microbiome in dry eye: microbial interactions and symptom alleviation.](#/202603/23/202603/23/41870088-potential-role-of-the-ocular-surface-microbiome-in-dry-eye-microbial-interactions-and-symptom-alleviation)
+  - TLDR：干眼症涉及泪膜不稳定和炎症，但眼表微生物组的具体作用尚不明确。本研究通过全宏基因组测序分析了接受环孢素A或透明质酸钠治疗的患者眼表菌群，发现虽然不同治疗方案对整体菌群结构影响相似，但特定物种（如表皮葡萄球菌）的丰度变化与睑板腺功能障碍（MGD）的改善显著相关。研究揭示了眼表微生态在缓解干眼症状中的潜在调节作用，为开发基于微生物组的干眼症治疗策略提供了系统性见解。
+  - Tags：`query:pathoai`
+- [Integrated Microbiome and Metabolome Analysis for Characterization and Discrimination of Saliva, Semen, Vaginal Secretions, and Their Mixtures.](#/202603/23/202603/23/41870248-integrated-microbiome-and-metabolome-analysis-for-characterization-and-discrimination-of-saliva-semen-vaginal-secretions-and-their-mixtures)
+  - TLDR：法医学中准确识别体液来源及遗留时间具有挑战性。本研究通过整合全长16S rRNA测序与非靶向代谢组学技术，分析了唾液、精液、阴道分泌物及其混合物在不同暴露时间下的特征。结果显示，多组学数据的融合显著提升了分类性能，随机森林模型在体液识别任务中达到了100%的准确率，为复杂法医样本的精准鉴定提供了新思路。
+  - Tags：`query:seqai`
 - [Evaluating Deep Learning Based Structure Prediction Methods on Antibody-Antigen Complexes.](#/202603/22/202603/22/41863324-evaluating-deep-learning-based-structure-prediction-methods-on-antibody-antigen-complexes)
   - TLDR：针对抗体-抗原复合物预测中缺乏共进化信号的难题，本研究评估了 AlphaFold2、AlphaFold3、Boltz-1 和 Chai-1 等深度学习模型。研究发现，增加采样次数能以对数线性方式提升预测成功率，但模型自带的评分机制难以准确识别最优结构。AlphaFold3 表现最优，但其性能高度依赖于训练集中存在的结构相似性，揭示了当前模型在处理全新抗体结构时的局限性。
   - Tags：`query:bioinfo`

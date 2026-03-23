@@ -1,0 +1,69 @@
+Title: scResponse: A Rank-Based Method for Identifying Cell States That Contribute to Immunotherapy Response by Single-Cell Data - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41869876/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 23:e24397.
+
+doi: 10.1002/advs.202524397.  Online ahead of print.
+
+[Haijun Huang](https://pubmed.ncbi.nlm.nih.gov/?term=Huang+H&cauthor_id=41869876)[3](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-3 "School of Basic Medical Sciences, Harbin Medical University, Harbin, China."),[Yuxiu Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+Y&cauthor_id=41869876)[3](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-3 "School of Basic Medical Sciences, Harbin Medical University, Harbin, China."),[Bo Jiang](https://pubmed.ncbi.nlm.nih.gov/?term=Jiang+B&cauthor_id=41869876)[3](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-3 "School of Basic Medical Sciences, Harbin Medical University, Harbin, China."),[Yuzheng Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+Y&cauthor_id=41869876)[3](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-3 "School of Basic Medical Sciences, Harbin Medical University, Harbin, China."),[Huanhuan Xu](https://pubmed.ncbi.nlm.nih.gov/?term=Xu+H&cauthor_id=41869876)[3](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-3 "School of Basic Medical Sciences, Harbin Medical University, Harbin, China."),[Jing Ren](https://pubmed.ncbi.nlm.nih.gov/?term=Ren+J&cauthor_id=41869876)[3](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-3 "School of Basic Medical Sciences, Harbin Medical University, Harbin, China."),[Shengnan Guo](https://pubmed.ncbi.nlm.nih.gov/?term=Guo+S&cauthor_id=41869876)[4](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-4 "School of Intelligent Medicine and Technology, Big Data Research Center, Hainan Engineering Research Center for Health Big Data, Hainan Medical University, Hainan, China."),[Tianhao Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+T&cauthor_id=41869876)[3](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-3 "School of Basic Medical Sciences, Harbin Medical University, Harbin, China."),[Mingjie Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+M&cauthor_id=41869876)[3](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-3 "School of Basic Medical Sciences, Harbin Medical University, Harbin, China."),[Tianyu Zhai](https://pubmed.ncbi.nlm.nih.gov/?term=Zhai+T&cauthor_id=41869876)[3](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-3 "School of Basic Medical Sciences, Harbin Medical University, Harbin, China."),[Wenbo Yang](https://pubmed.ncbi.nlm.nih.gov/?term=Yang+W&cauthor_id=41869876)[5](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-5 "Department of Hematology, The Second Affiliated Hospital of Harbin Medical University, Harbin, China."),[Kaidong Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+K&cauthor_id=41869876)[6](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-6 "Department of Systems Biology, College of Bioinformatics Science and Technology, Harbin Medical University, Harbin, China."),[Cheng Lyu](https://pubmed.ncbi.nlm.nih.gov/?term=Lyu+C&cauthor_id=41869876)[3](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-3 "School of Basic Medical Sciences, Harbin Medical University, Harbin, China."),[Jingxuan Kang](https://pubmed.ncbi.nlm.nih.gov/?term=Kang+J&cauthor_id=41869876)[3](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-3 "School of Basic Medical Sciences, Harbin Medical University, Harbin, China."),[Mingshuo Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+M&cauthor_id=41869876)[3](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-3 "School of Basic Medical Sciences, Harbin Medical University, Harbin, China."),[Yupeng Lu](https://pubmed.ncbi.nlm.nih.gov/?term=Lu+Y&cauthor_id=41869876)[3](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-3 "School of Basic Medical Sciences, Harbin Medical University, Harbin, China."),[Binghui Si](https://pubmed.ncbi.nlm.nih.gov/?term=Si+B&cauthor_id=41869876)[3](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-3 "School of Basic Medical Sciences, Harbin Medical University, Harbin, China."),[Shujun Cao](https://pubmed.ncbi.nlm.nih.gov/?term=Cao+S&cauthor_id=41869876)[3](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-3 "School of Basic Medical Sciences, Harbin Medical University, Harbin, China."),[Dandan Xu](https://pubmed.ncbi.nlm.nih.gov/?term=Xu+D&cauthor_id=41869876)[7](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-7 "Center for Endemic Disease Control, Chinese Center for Disease Control and Prevention, Harbin Medical University, Harbin, China.")[8](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-8 "National Health Commission Key Laboratory of Etiology and Epidemiology, Harbin Medical University, Harbin, China.")[9](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-9 "Joint Key Laboratory of Endemic Diseases, Harbin Medical University, Guizhou Medical University, Xi'an Jiaotong University, Harbin, China."),[Zong Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+Z&cauthor_id=41869876)[1](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-1 "Harbin Medical University Cancer Hospital, Harbin Medical University, Harbin, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-2 "Key Laboratory of Molecular Oncology of Heilongjiang Province, Harbin, China."),[Dapeng Hao](https://pubmed.ncbi.nlm.nih.gov/?term=Hao+D&cauthor_id=41869876)[3](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-3 "School of Basic Medical Sciences, Harbin Medical University, Harbin, China.")[10](https://pubmed.ncbi.nlm.nih.gov/41869876/#full-view-affiliation-10 "Department of Phase 1 Trials Center, Harbin Medical University Cancer Hospital, Harbin Medical University, Harbin, China.")
+
+Affiliations
+
+*    PMID: **41869876**
+*    DOI: [10.1002/advs.202524397](https://doi.org/10.1002/advs.202524397)
+
+## scResponse: A Rank-Based Method for Identifying Cell States That Contribute to Immunotherapy Response by Single-Cell Data
+
+Qi Dong et al. Adv Sci (Weinh).2026.
+
+## Abstract
+
+Immunotherapy has shown great promise in cancer treatment, yet many patients fail to achieve long-term efficacy. Single-cell sequencing is a powerful technique for understanding how cellular diversity affects treatment outcomes; however, there remains a lack of robust methods for evaluating immunotherapy efficacy at single-cell resolution. In this study, we present scResponse, an efficient algorithm that quantifies single-cell responses to immunotherapy. scResponse captures subtle influences of diverse cellular subtypes and states on immunotherapy efficacy, including the effects of vascular normalization states of vascular cells, polarization of macrophages, terminal exhaustion of CD8+ T cells, and the opposing impacts from distinct fibroblast subtypes. By linking therapeutic response to single‑cell states, scResponse enables to delineate how distinct biological processes shape cellular states to drive divergent therapeutic outcomes. Integrated analysis across cancers identified key metabolic pathways associated with responsive states of tumor cells, including glyoxylate and dicarboxylate metabolism as immunotherapy-sensitizing and retinol metabolism as suppressing it. As a proof-of-concept, the opposing roles of glyoxylate and retinol metabolism was validated using tumor‑CD8+ T cell co-culture assays and in vivo mouse models. Thus, scResponse is an effective tool for mapping immunotherapy efficacy to single-cell states, enabling mechanistic insights and target discovery for developing novel immunotherapy sensitization strategies.
+
+**Keywords:** cell state; immunotherapy; metabolism; single‐cell.
+
+© 2026 The Author(s). Advanced Science published by Wiley‐VCH GmbH.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Macrophage Polarization in the Tumor Microenvironment of Hepatocellular Carcinoma: From Mechanistic Insights to Translational Therapies.](https://pubmed.ncbi.nlm.nih.gov/41403016/)
+
+Fu X, Pang M, Wang Z, Wang H.Fu X, et al.Cancer Control. 2025 Jan-Dec;32:10732748251406674. doi: 10.1177/10732748251406674. Epub 2025 Dec 16.Cancer Control. 2025.PMID: 41403016 Free PMC article.Review. 
+*   [Deciphering the tumor immune microenvironment: single-cell and spatial transcriptomic insights into cervical cancer fibroblasts.](https://pubmed.ncbi.nlm.nih.gov/40616092/)
+
+Lin Z, Zhou Y, Liu Z, Nie W, Cao H, Li S, Li X, Zhu L, Lin G, Ding Y, Jiang Y, Gu Z, Xu L, Zhao Z, Cai H.Lin Z, et al.J Exp Clin Cancer Res. 2025 Jul 5;44(1):194. doi: 10.1186/s13046-025-03432-5.J Exp Clin Cancer Res. 2025.PMID: 40616092 Free PMC article. 
+*   [GITR and TIGIT immunotherapy provokes divergent multicellular responses in the tumor microenvironment of gastrointestinal cancers.](https://pubmed.ncbi.nlm.nih.gov/38008725/)
+
+Sathe A, Ayala C, Bai X, Grimes SM, Lee B, Kin C, Shelton A, Poultsides G, Ji HP.Sathe A, et al.Genome Med. 2023 Nov 26;15(1):100. doi: 10.1186/s13073-023-01259-3.Genome Med. 2023.PMID: 38008725 Free PMC article. 
+*   [An integrated bioinformatic analysis of bulk and single-cell sequencing clarifies immune microenvironment and metabolic profiles of lung adenocarcinoma to predict immunotherapy efficacy.](https://pubmed.ncbi.nlm.nih.gov/37091977/)
+
+Li M, Zhou B, Zheng C.Li M, et al.Front Cell Dev Biol. 2023 Apr 5;11:1163314. doi: 10.3389/fcell.2023.1163314. eCollection 2023.Front Cell Dev Biol. 2023.PMID: 37091977 Free PMC article. 
+*   [Reinvigorating exhausted CD8+ cytotoxic T lymphocytes in the tumor microenvironment and current strategies in cancer immunotherapy.](https://pubmed.ncbi.nlm.nih.gov/32844499/)
+
+Hossain MA, Liu G, Dai B, Si Y, Yang Q, Wazir J, Birnbaumer L, Yang Y.Hossain MA, et al.Med Res Rev. 2021 Jan;41(1):156-201. doi: 10.1002/med.21727. Epub 2020 Aug 25.Med Res Rev. 2021.PMID: 32844499 Review. 
+
+## References
+
+1.       1.    Y. Shiravand, F. Khodadadi, S. M. A. Kashani, et al., “Immune Checkpoint Inhibitors in Cancer Therapy,” Current Oncology 29, no. 5 (2022): 3044–3060, [https://doi.org/10.3390/curroncol29050247](https://doi.org/10.3390/curroncol29050247). 
+
+2.       1.    S. S. Said and W. N. Ibrahim, “Cancer Resistance to Immunotherapy: Comprehensive Insights With Future Perspectives,” Pharmaceutics 15, no. 4 (2023): 1143, [https://doi.org/10.3390/pharmaceutics15041143](https://doi.org/10.3390/pharmaceutics15041143). 
+
+3.       1.    D. Huang, N. Ma, X. Li, et al., “Advances in Single‐Cell RNA Sequencing and Its Applications in Cancer Research,” Journal of Hematology & Oncology 16, no. 1 (2023): 98, [https://doi.org/10.1186/s13045‐023‐01494‐6](https://doi.org/10.1186/s13045%E2%80%90023%E2%80%9001494%E2%80%906). 
+
+4.       1.    J. Le, Y. Dian, D. Zhao, et al., “Single‐cell Multi‐omics in Cancer Immunotherapy: From Tumor Heterogeneity to Personalized Precision Treatment,” Molecular Cancer 24, no. 1 (2025): 221, [https://doi.org/10.1186/s12943‐025‐02426‐3](https://doi.org/10.1186/s12943%E2%80%90025%E2%80%9002426%E2%80%903). 
+
+5.       1.    Y. Huang, A. Jia, Y. Wang, and G. Liu, “CD8+ T Cell Exhaustion in Anti‐Tumour Immunity: The New Insights for Cancer Immunotherapy,” Immunology 168, no. 1 (2023): 30–48, [https://doi.org/10.1111/imm.13588](https://doi.org/10.1111/imm.13588). 
+
+## Grants and funding
+
+*   [82394454/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82394454%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82394454/National Natural Science Foundation of China")
+*   [82273492/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82273492%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82273492/National Natural Science Foundation of China")
+*   [GZC20251713/Postdoctoral Fellowship Program of CPSF](https://pubmed.ncbi.nlm.nih.gov/?term=GZC20251713%2FPostdoctoral+Fellowship+Program+of+CPSF%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant GZC20251713/Postdoctoral Fellowship Program of CPSF")
+*   [2025MD784164/China Postdoctoral Science Foundation](https://pubmed.ncbi.nlm.nih.gov/?term=2025MD784164%2FChina+Postdoctoral+Science+Foundation%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2025MD784164/China Postdoctoral Science Foundation")
+*   [LBH-Z25209/Heilongjiang Postdoctoral Fund](https://pubmed.ncbi.nlm.nih.gov/?term=LBH-Z25209%2FHeilongjiang+Postdoctoral+Fund%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant LBH-Z25209/Heilongjiang Postdoctoral Fund")

@@ -1,0 +1,22 @@
+---
+title: "Potential role of the ocular surface microbiome in dry eye: microbial interactions and symptom alleviation."
+title_zh: 眼表微生物组在干眼症中的潜在作用：微生物相互作用与症状缓解
+authors: "Joon-Young Park, Chang Ki Yoon, Jin-Jae Lee, Young Joo Shin, Bong-Soo Kim"
+date: 2026-03-23
+pdf: "https://pubmed.ncbi.nlm.nih.gov/41870088/"
+tags: ["query:pathoai"]
+score: 7.0
+evidence: 通过全宏基因组测序表征眼表微生物群的变化
+tldr: 干眼症涉及泪膜不稳定和炎症，但眼表微生物组的具体作用尚不明确。本研究通过全宏基因组测序分析了接受环孢素A或透明质酸钠治疗的患者眼表菌群，发现虽然不同治疗方案对整体菌群结构影响相似，但特定物种（如表皮葡萄球菌）的丰度变化与睑板腺功能障碍（MGD）的改善显著相关。研究揭示了眼表微生态在缓解干眼症状中的潜在调节作用，为开发基于微生物组的干眼症治疗策略提供了系统性见解。
+selection_source: fresh_fetch
+motivation: 旨在明确眼表微生物组在干眼症病理过程中的角色，并识别与临床症状改善相关的特定微生物特征。
+method: 采用全宏基因组测序技术分析干眼症患者治疗前后的眼表样本，并结合临床症状评分和睑板腺功能评估进行关联研究。
+result: 研究发现特定微生物物种（如表皮葡萄球菌和假中间型葡萄球菌）的相互作用变化与睑板腺功能障碍评分的改善强相关。
+conclusion: 眼表微生物组的局部改变而非整体结构重塑是症状缓解的关键，这证明了针对特定眼表菌群进行干预具有治疗干眼症的潜力。
+---
+
+## 摘要
+干眼症是一种常见的眼科疾病，其特征是泪膜不稳定、炎症和眼部不适。尽管眼表（OS）微生物组有助于免疫调节和病原体防御，但其在干眼症病理生理学中的作用仍不清楚。因此，本研究旨在表征接受环孢素 A 或 NewHyalUni 治疗的干眼症患者眼表微生物组的变化，并确定其与临床改善相关的潜在作用。干眼症患者接受环孢素 A 与 NewHyalUni 滴眼液联合治疗或单独使用 NewHyalUni 治疗。在治疗前后收集眼表样本，并通过全宏基因组测序分析微生物组。在下游分析之前去除了潜在的污染物，以考虑到眼表样本低生物量的特性。临床评估包括症状评分和睑板腺功能障碍（MGD）评估。治疗组之间未观察到整体微生物组成的显著差异。尽管如此，两组均表现出症状改善。眼表微生物组的变化与 MGD 评分的改善密切相关。此外，研究发现微生物相互作用在治疗后发生了转变。关键物种（表皮葡萄球菌、中间型葡萄球菌、天蓝色链霉菌和迟缓爱德华氏菌）被鉴定为 MGD 评分改善的潜在介质，其通过调节微生物组功能并抑制炎症相关物种发挥作用。尽管不同的治疗方案没有导致不同的微生物谱，但症状的改善与特定微生物组的变化有关。这些发现强调了眼表微生物组在干眼症中的潜在作用，并支持开发基于微生物组的治疗策略。重要性：干眼症是一种常见的眼科疾病，具有复杂的病理生理学，不仅限于泪液缺乏和炎症。尽管有越来越多的证据表明黏膜表面存在宿主-微生物组相互作用，但眼表（OS）微生物组对干眼症的贡献仍知之甚少。我们的研究结果表明，即使在整体微生物群没有发生重大变化的情况下，特定分类群和生态相互作用的转变也与睑板腺功能和干眼症状的改善相关。通过识别可能与临床改善相关的微生物特征，我们为低生物量微生物组在眼部健康中的作用提供了系统层面的见解。这项工作扩展了目前对非肠道环境中微生物组-宿主动态的理解，并支持未来开发基于微生物组的治疗策略。临床试验：本研究已在 ClinicalTrials.gov 注册，编号为 NCT06936462。
+
+## Abstract
+Dry eye is a prevalent ocular disorder characterized by tear film instability, inflammation, and ocular discomfort. Although the ocular surface (OS) microbiome contributes to immune regulation and pathogen defense, its role in dry eye pathophysiology remains unclear. Therefore, the present study aimed to characterize alterations in the OS microbiome of patients with dry eye undergoing cyclosporin A or NewHyalUni treatment and to identify their potential roles related to clinical improvement. Patients with dry eye were treated with either cyclosporin A and NewHyalUni drop combination or NewHyalUni alone. OS samples were collected before and after treatment, and the microbiome was analyzed by whole metagenome sequencing. Potential contaminants were removed before downstream analysis to account for the low-biomass nature of OS samples. Clinical evaluations included symptom scores and the assessment of meibomian gland dysfunction (MGD). No significant differences in the overall microbial composition were observed between the treatment groups. Nevertheless, both groups demonstrated symptomatic improvement. OS microbiome alterations were strongly correlated with improvements in MGD scores. Moreover, microbial interactions were found to shift following treatment. Key species (Staphylococcus epidermidis, Staphylococcus pseudintermedius, Streptomyces lividans, and Edwardsiella tarda) were identified as potential mediators of MGD score improvement by modulating microbiome functions and suppressing inflammation-associated species. Although distinct treatment regimens did not lead to divergent microbiome profiles, symptomatic improvement was associated with alterations in a specific microbiome. These findings highlight the OS microbiome's potential role in dry eye and support the development of microbiome-based therapeutic strategies.IMPORTANCEDry eye is a common ocular disorder with complex pathophysiology that extends beyond tear deficiency and inflammation. Despite growing evidence of host-microbiome interactions at mucosal surfaces, the contribution of the ocular surface (OS) microbiome to dry eye remains poorly understood. Our findings in this study reveal that shifts in specific taxa and ecological interactions correlate with improvements in meibomian gland function and dry eye symptoms, even in the absence of major changes in overall microbiota. By identifying microbial signatures potentially linked to clinical improvement, we provide systems-level insight into the role of low-biomass microbiomes in ocular health. This work expands the current understanding of microbiome-host dynamics in non-gut environments and supports future development of microbiome-informed therapeutic strategies.CLINICAL TRIALSThis study is registered with ClinicalTrials.gov as NCT06936462.
