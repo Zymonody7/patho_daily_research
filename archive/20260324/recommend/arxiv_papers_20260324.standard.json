@@ -1,0 +1,657 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-03-24T19:40:09.951855+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 7,
+    "deep_cap": 9,
+    "deep_selected": 7,
+    "quick_candidates": 7,
+    "quick_skim_target": 14,
+    "quick_selected": 7
+  },
+  "deep_dive": [
+    {
+      "id": "41871361",
+      "title": "MADRe: Strain-level Metagenomic Classification Through Assembly-Driven Database Reduction.",
+      "abstract": "Strain-level metagenomic classification is essential for understanding microbial diversity and functional potential, yet remains challenging, particularly when sample composition is unknown and reference databases are large and redundant. Here we present MADRe, a modular and scalable pipeline for long-read strain-level metagenomic classification based on Metagenome Assembly-Driven Database Reduction. Beyond system-level integration, MADRe introduces statistical strategies that leverage assembly-derived genomic context to guide database reduction and probabilistic read reassignment. Specifically, it combines long-read metagenome assembly, contig-to-reference reassignment using an expectation-maximization framework for reference reduction, and probabilistic read mapping reassignment on a reduced database to achieve sensitive and precise strain-level classification. We extensively evaluated MADRe on simulated datasets, mock communities, and a real anaerobic digester sludge metagenome. Across diverse similarity and coverage conditions, MADRe consistently improves precision by reducing false-positive strain detections. MADRe's design allows users to apply either the database reduction or read classification step individually. Using only the read classification step shows results on par with other tested tools. MADRe is open source and publicly available at https://github.com/lbcb-sci/MADRe.",
+      "authors": [
+        "Lipovac J, Šikić M, Vicedomini R, Križanović K.",
+        "Josipa Lipovac",
+        "Mile Šikić",
+        "Riccardo Vicedomini",
+        "Krešimir Križanović"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-23",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41871361/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "strain-level metagenomic classification and assembly",
+      "llm_evidence_cn": "菌株级宏基因组分类与组装",
+      "llm_evidence": "菌株级宏基因组分类与组装",
+      "canonical_evidence": "菌株级宏基因组分类与组装",
+      "llm_tldr_en": "MADRe is a scalable pipeline for strain-level metagenomic classification using assembly-driven database reduction.",
+      "llm_tldr_cn": "MADRe 是一个利用组装驱动的数据库缩减技术进行菌株级宏基因组分类的可扩展流程。",
+      "llm_tldr": "MADRe 是一个利用组装驱动的数据库缩减技术进行菌株级宏基因组分类的可扩展流程。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41873866",
+      "title": "AI foundation models for RNA biology.",
+      "abstract": "RNA biology is undergoing a transformative revolution driven by AI foundation models. These models learn the intricate relationships between RNA sequence, structure, and function by training on vast, diverse datasets spanning millions of RNA molecules across various species. Through self-supervised learning on these sequences, these models acquire a generalizable understanding of RNA, which can then be fine-tuned for various downstream tasks, thereby enabling the decoding of functional rules embedded in RNA sequences. In this review, we provide a comprehensive guide to RNA foundation models. Using concrete examples of RNA biology, we begin with the concept of foundation models and review the importance of pre-training datasets, architectural innovations, self-supervised strategies, and fine-tuning approaches that allow general RNA representations to be translated into task-specific models. Crucially, we highlight how explainable AI (XAI) methods transform these models from black-box predictors into valuable discovery tools that reveal candidate cis-regulatory elements and structural motifs. As RNA foundation models keep advancing and integrating more multimodal biological data, they aim to uncover additional regulatory rules and functions encoded in RNA.",
+      "authors": [
+        "Haopeng Yu",
+        "Yiliang Ding"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41873866/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "AI foundation models for RNA biology",
+      "llm_evidence_cn": "用于 RNA 生物学的 AI 基础模型",
+      "llm_evidence": "用于 RNA 生物学的 AI 基础模型",
+      "canonical_evidence": "用于 RNA 生物学的 AI 基础模型",
+      "llm_tldr_en": "A comprehensive review of AI foundation models for decoding RNA sequence, structure, and function.",
+      "llm_tldr_cn": "全面综述了用于解码 RNA 序列、结构和功能的 AI 基础模型。",
+      "llm_tldr": "全面综述了用于解码 RNA 序列、结构和功能的 AI 基础模型。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models for DNA RNA protein and cell biology",
+      "matched_requirement_id": "req-15",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41874246",
+      "title": "Phylogeny-informed random forests for human microbiome studies.",
+      "abstract": "UNLABELLED: Random Forest is a widely used tree-based ensemble learning algorithm that efficiently captures complex nonlinear relationships and higher-order feature interactions with no distributional assumptions to be satisfied. It is also well-suited to human microbiome studies, where the data are highly skewed, overdispersed, discrete, and irregular. Here, I pay particular attention to the phylogenetic tree information that reflects evolutionary ancestry and functional relatedness among microbial features. Proper incorporation of phylogenetic tree information into microbiome data analysis has provided new insights and improved analytical performance. In this paper, I introduce an extension of the Random Forest algorithm that incorporates phylogenetic tree information, named Phylogeny-Informed Random Forests (PIRF), to improve predictive accuracy in human microbiome studies. The core mechanism of PIRF lies in its localized approach; rather than treating all features as competing globally to be selected or weighted, PIRF identifies informative features within each phylogenetic cluster (i.e., a localized group of microbial features that are evolutionarily and functionally related), thereby enriching functional representations while reducing tree-to-tree correlation. I demonstrate the high predictive accuracy of PIRF, compared with other off-the-shelf tools, across seven benchmark tasks: four classification problems (gingival inflammation, immunotherapy response, type 1 diabetes, and obesity) and three regression problems (cytokine level, age based on oral microbiome, and age based on gut microbiome). IMPORTANCE: PIRF is an extension of the Random Forest algorithm that incorporates phylogenetic tree information to improve predictive accuracy in human microbiome studies. PIRF can serve as a useful tool for microbiome-based disease diagnostics and personalized medicine. The software and tutorials are freely available as an R package, named PIRF, at https://github.com/hk1785/PIRF.",
+      "authors": [
+        "Hyunwook Koh"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41874246/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "introduces a phylogeny-informed Random Forest algorithm for microbiome data analysis",
+      "llm_evidence_cn": "引入一种结合系统发育信息的随机森林算法用于微生物组数据分析",
+      "llm_evidence": "引入一种结合系统发育信息的随机森林算法用于微生物组数据分析",
+      "canonical_evidence": "引入一种结合系统发育信息的随机森林算法用于微生物组数据分析",
+      "llm_tldr_en": "Develops a phylogeny-informed Random Forest to improve microbial feature analysis in microbiome studies.",
+      "llm_tldr_cn": "开发了一种结合系统发育信息的随机森林算法，以改进微生物组研究中的特征分析。",
+      "llm_tldr": "开发了一种结合系统发育信息的随机森林算法，以改进微生物组研究中的特征分析。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning and strain level microbiome analysis",
+      "matched_requirement_id": "req-54",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "PMC13007503",
+      "title": "Biochip-simulated genotype signals enable accurate and interpretable AMR prediction via machine learning",
+      "abstract": "",
+      "authors": [
+        "Fu Z."
+      ],
+      "primary_category": null,
+      "categories": [],
+      "published": "2026-03-24",
+      "link": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13007503/?tool=EBI",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "machine learning for accurate and interpretable AMR prediction",
+      "llm_evidence_cn": "用于准确且可解释的AMR预测的机器学习",
+      "llm_evidence": "用于准确且可解释的AMR预测的机器学习",
+      "canonical_evidence": "用于准确且可解释的AMR预测的机器学习",
+      "llm_tldr_en": "Employs machine learning on biochip-simulated signals for interpretable antimicrobial resistance prediction.",
+      "llm_tldr_cn": "利用生物芯片模拟信号结合机器学习进行可解释的抗菌药物耐药性预测。",
+      "llm_tldr": "利用生物芯片模拟信号结合机器学习进行可解释的抗菌药物耐药性预测。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for antimicrobial resistance prediction from genomes",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41874436",
+      "title": "On the utility of Deep Learning for model classification and parameter estimation on complex diversification scenarios.",
+      "abstract": "Birth-Death models applied to dated phylogenies are useful tools to study past diversification dynamics. Parameters in these stochastic models are typically inferred using likelihood-based methods; however, these approaches can exhibit computational tractability issues for models of moderate to high complexity. One approach to increase model complexity while remaining computationally tractable is Deep Learning. These techniques have recently been explored in the context of serially-sampled phylogenies (phylodynamics) and trait-dependent birth-death models (macroevolution). Here, we explore the power of Convolutional Neural Networks (CNNs) to solve classification (model selection) and regression (parameter estimation) tasks for extant-only phylogenies under six constant-rate and time-varying, lineage-homogeneous diversification scenarios: Constant Birth-Death, High Extinction, Mass Extinction, Diversity-Dependent Diversification, and the piecewise-constant scenarios Stasis-and-Radiate and Waxing-and-Waning. We simulated 10,000 phylogenetic trees under each diversification scenario, which were encoded using the CDV vectorization procedure to capture branch length information. The encoded trees were used to train a set of CNNs models designed to match three empirical phylogenies of eucalypts, conifers, and cetaceans, which have previously been used for benchmarking diversification models and differ in the number of extant tips. Additionally, we compared CNN performance with Maximum Likelihood Estimation (MLE) for the same set of scenarios. We found that CNNs exhibited classification accuracy levels of 80-93%, whereas MLE achieved levels of 70-74%. The most difficult scenarios for CNN classification were High Extinction and Mass-Extinction. For regression tasks, mean average errors were slightly higher for MLE compared with DL. Both approaches had difficulty estimating ratio parameters such as mass-extinction survival and relative extinction. Finally, we applied our CNN models for parameter estimation on the three empirical phylogenies under the best-fit diversification scenario. This allows us to discuss shortcomings and future avenues for improvement, such as the inclusion of rate-variable, lineage-heterogeneous models.",
+      "authors": [
+        "Pablo Gutiérrez de la Peña",
+        "Guillermo Iglesias",
+        "Edgar Talavera",
+        "Andrea Sánchez Meseguer",
+        "Isabel Sanmartín"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41874436/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Deep Learning for model classification and parameter estimation on phylogenies",
+      "llm_evidence_cn": "深度学习用于系统发育树的模型分类和参数估计",
+      "llm_evidence": "深度学习用于系统发育树的模型分类和参数估计",
+      "canonical_evidence": "深度学习用于系统发育树的模型分类和参数估计",
+      "llm_tldr_en": "Explores CNNs for model selection and parameter estimation in complex evolutionary diversification scenarios.",
+      "llm_tldr_cn": "探索使用卷积神经网络在复杂的进化多样化场景中进行模型选择和参数估计。",
+      "llm_tldr": "探索使用卷积神经网络在复杂的进化多样化场景中进行模型选择和参数估计。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for phylogenetic and transmission inference",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41649278",
+      "title": "Assessment of genome evolution in",
+      "abstract": "UNLABELLED: Bifidobacterium adolescentis is one of the most frequently encountered bifidobacterial species present in the adult human gut microbiota, with a prevalence of approximately 60%. Despite its high prevalence, B. adolescentis has not been extensively studied and characterized, and our understanding of its physiological traits, genetic diversity, and potential interactions with other members of the human gut microbiota or with its host is therefore fragmentary. In the current study, a data set comprising 1,682 B. adolescentis genomes was compiled by combining publicly available data and metagenome assemblies from 131 projects to uncover the unique genetic characteristics of this species. A pangenome analysis of B. adolescentis identified 203 clusters of orthologous genes absent from the other five human-associated Bifidobacterium species, six of which were in silico predicted to encode functions unique to this taxon. Furthermore, 2,597 genes were predicted to have been acquired by horizontal gene transfer, including genes encoding extracellular structures involved in interaction with the host and other microorganisms, and phage defense mechanisms against bacteriophages. Detailed phylogenetic analysis revealed seven clusters within the B. adolescentis species, each partially associated with the origin of strain isolation, suggesting phylogenetic differentiation shaped by geographical strain origin. Moreover, a large-scale metagenomic analysis of over 10,000 human gut metagenomes from healthy adults revealed that B. adolescentis co-occurs with 36 putative beneficial commensals and butyrate-producing taxa, highlighting its role as a key bifidobacterial species involved in microbial networking within the adult human gut microbiota. IMPORTANCE: To comprehensively explore the biodiversity within a microbial species, the reconstruction of a substantial number of genomes is essential. In this study, we successfully uncovered the genetic diversity of Bifidobacterium adolescentis by retrieving a large number of genomes from human gut metagenomic samples. The complete overview of the B. adolescentis pangenome enabled us to investigate the genetic features that distinguish this gut commensal from other bifidobacterial species residing in the human intestinal microbiota.",
+      "authors": [
+        "Emanuele Selleri",
+        "Chiara Tarracchini",
+        "Silvia Petraro",
+        "Leonardo Mancabelli",
+        "Christian Milani",
+        "Francesca Turroni",
+        "Yan Shao",
+        "Hilary P Browne",
+        "Trevor D Lawley",
+        "Douwe van Sinderen",
+        "Marco Ventura",
+        "Gabriele Andrea Lugli"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41649278/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "metagenome assemblies and pangenome analysis",
+      "llm_evidence_cn": "宏基因组组装与泛基因组分析",
+      "llm_evidence": "宏基因组组装与泛基因组分析",
+      "canonical_evidence": "宏基因组组装与泛基因组分析",
+      "llm_tldr_en": "Pangenome analysis of Bifidobacterium adolescentis using 1,682 genomes from metagenome assemblies.",
+      "llm_tldr_cn": "利用 1,682 个宏基因组组装基因组对青春双歧杆菌进行泛基因组分析。",
+      "llm_tldr": "利用 1,682 个宏基因组组装基因组对青春双歧杆菌进行泛基因组分析。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41870799",
+      "title": "Integrated single-cell and spatial mapping coupled with machine learning unveils core stemness landscapes and regulatory drivers in triple-negative breast cancer.",
+      "abstract": "OBJECTIVE: Triple-negative breast cancer (TNBC) exhibits pronounced intratumoral heterogeneity, and cancer stem cells (CSCs) are thought to play a pivotal role in this process. However, the molecular regulatory mechanisms linking CSC-associated stemness features to tumor progression remain insufficiently elucidated. METHODS: We integrated single-cell RNA sequencing (scRNA-seq), spatial transcriptomics, and bulk transcriptomic data to identify high-stemness cell populations using the inferCNV and CytoTRACE algorithms. Stemness-related genes were evaluated for feature importance through hdWGCNA combined with machine learning approaches, and an XGBoost-based risk prediction model was constructed. Cellular differentiation trajectories were inferred using Monocle3 and scTour, while the effects of core genes on stemness pathways and malignant biological behaviors were assessed via CellChat analysis, SHAP attribution, and scTenifoldKnk-based virtual knockdown experiments. RESULTS: We successfully established a predictive model comprising five core stemness-related genes (CALD1, ANP32B, FIS1, CD82, and APLP2), with the high-stemness score group exhibiting poorer prognosis and enhanced immune evasion. Trajectory analysis confirmed that the high-stemness subpopulation resided at the initiation stage of differentiation. Enrichment analyses revealed highly active Notch signaling communication, and virtual knockdown of hub genes effectively suppressed the expression of stemness markers such as NOTCH1. In addition, drug sensitivity analysis identified BI.2536 and related compounds as exhibiting higher therapeutic sensitivity in the high-risk group. CONCLUSION: Our predictive model offers a novel perspective on the stemness landscape of TNBC. These core genes play key roles in maintaining stemness and also serve as potential molecular targets for personalized therapies aimed at TNBC stem-like cells.",
+      "authors": [
+        "Zhenzhong Huo",
+        "Weibo Sun",
+        "Chun Lou",
+        "Tiansong Yang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-23",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41870799/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "integrated single-cell and spatial mapping with XGBoost machine learning",
+      "llm_evidence_cn": "单细胞与空间制图结合XGBoost机器学习",
+      "llm_evidence": "单细胞与空间制图结合XGBoost机器学习",
+      "canonical_evidence": "单细胞与空间制图结合XGBoost机器学习",
+      "llm_tldr_en": "Integrates scRNA-seq and spatial transcriptomics with ML to identify cancer stemness drivers.",
+      "llm_tldr_cn": "结合单细胞测序、空间转录组与机器学习，识别癌症干性驱动因素。",
+      "llm_tldr": "结合单细胞测序、空间转录组与机器学习，识别癌症干性驱动因素。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for single cell sequencing and spatial omics pipelines",
+      "matched_requirement_id": "req-51",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "41872204",
+      "title": "Cross-order detection of bacteriophage transduction in microbial communities using RNA barcoding.",
+      "abstract": "Bacteriophages (phages) facilitate gene transfer and microbial evolution in all ecosystems and have applications as tools for engineering microbiomes and as antimicrobials. Historic efforts to map phage hosts, such as plaque assays, are limited to cultured bacteria, are low throughput, and are hard to apply in microbial communities and environmentally-relevant contexts. To overcome these limitations, we integrate a synthetic ribozyme that stores information about participation in horizontal gene transfer in 16S ribosomal RNA (rRNA) into the phage-plasmid P1, and perform targeted 16S rRNA sequencing following transduction to identify phage-host interactions. Experiments in synthetic and wastewater communities reveal Aeromonadales as a previously unreported P1 host order and show P1 transduction into pathogens. In wastewater, host range varies across phagemids having different origins of replication and phage-derived particles having different tail fibers. This work shows how autonomous barcoding can be used in phages to identify the molecular controls on their host range in microbial communities.",
+      "authors": [
+        "Zachary W LaTurner",
+        "Matthew J Dysart",
+        "Samuel K Schwartz",
+        "Elizabeth Zeng",
+        "James Chappell",
+        "Jonathan J Silberg",
+        "Lauren B Stadler"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-23",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41872204/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "RNA barcoding and sequencing to identify phage-host interactions",
+      "llm_evidence_cn": "利用RNA条形码和测序识别噬菌体-宿主相互作用",
+      "llm_evidence": "利用RNA条形码和测序识别噬菌体-宿主相互作用",
+      "canonical_evidence": "利用RNA条形码和测序识别噬菌体-宿主相互作用",
+      "llm_tldr_en": "Uses synthetic ribozymes and 16S rRNA sequencing to map phage-host interactions in microbial communities.",
+      "llm_tldr_cn": "利用合成核酶和16S rRNA测序技术绘制微生物群落中的噬菌体-宿主相互作用图谱。",
+      "llm_tldr": "利用合成核酶和16S rRNA测序技术绘制微生物群落中的噬菌体-宿主相互作用图谱。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41700860",
+      "title": "Paenitracins, a novel family of bacitracin-type nonribosomal peptide antibiotics produced by plant-associated",
+      "abstract": "The growing threat of antimicrobial resistance necessitates the discovery of novel antibiotics with activity against drug-resistant pathogens. Members of the genus Paenibacillus are a rich source of nonribosomal peptides (NRPs), including well-known antibiotics such as polymyxins, paenibacterin, and tridecaptins. Here, we use a targeted mass spectrometry query language (MassQL)-based approach to identify the NRPs produced by a collection of 227 taxonomically diverse plant-associated Paenibacillus strains, providing detailed insights into their NRP-producing potential. Using MassQL to zoom in specifically on NRPs containing basic amino acids, we discovered a novel family of bacitracins, which we designated paenitracins. The paenitracins are the first bacitracin-type peptides reported in Paenibacillus and are distinguished from canonical bacitracins by three previously unseen amino acid substitutions. The paenitracins exhibit potent activity against gram-positive pathogens, including vancomycin-resistant Enterococcus faecium E155. Our work provides a novel metabolomics-guided and genomics-guided workflow for the discovery of bioactive NRPs as a strategy to prioritize natural product chemical space and accelerate antibiotic discovery.IMPORTANCEMembers of the genus Paenibacillus play an important role in soil ecology, producing a range of important nonribosomal peptides (NRPs). A collection of plant-associated Paenibacillus spp. were analyzed for their phylogenetic and metabolic diversity. We developed a novel discovery pipeline that combines feature-based molecular networking with mass spectrometry query language queries to systematically prioritize bioactive NRPs containing basic amino acids. Thus, we provide a comprehensive genus-wide inventory of NRPs produced by Paenibacillus spp. We thereby identified the paenitracins, a new sub-family of bacitracins active against multidrug-resistant gram-positive pathogens. Our pipeline enables the discovery of novel peptidic natural products to accelerate the prioritization of chemical space for antibiotics.",
+      "authors": [
+        "Nataliia V Machushynets",
+        "Somayah S Elsayed",
+        "Chao Du",
+        "Vladyslav Lysenko",
+        "Mercedes de la Cruz",
+        "Pilar Sanchez",
+        "Olga Genilloud",
+        "Nathaniel I Martin",
+        "Mark R Liles",
+        "Gilles P van Wezel"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41700860/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "uses mass spectrometry query language to identify novel antibiotics from Paenibacillus",
+      "llm_evidence_cn": "使用质谱查询语言从类芽孢杆菌中鉴定新型抗生素",
+      "llm_evidence": "使用质谱查询语言从类芽孢杆菌中鉴定新型抗生素",
+      "canonical_evidence": "使用质谱查询语言从类芽孢杆菌中鉴定新型抗生素",
+      "llm_tldr_en": "Identifies novel bacitracin-type antibiotics using a targeted mass spectrometry approach.",
+      "llm_tldr_cn": "利用靶向质谱方法鉴定出新型杆菌肽类抗生素。",
+      "llm_tldr": "利用靶向质谱方法鉴定出新型杆菌肽类抗生素。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41872371",
+      "title": "Generating 3D models of complex carbohydrates with GLYCAM-Web.",
+      "abstract": "We present online three-dimensional (3D) structure-prediction tools at GLYCAM-Web ( www.glycam.org ) that can be used for generating experimentally consistent 3D structures of oligosaccharides for data interpretation, hypothesis generation, 3D visualization, molecular docking and further simulation. The tools support the modeling of an unlimited array of natural glycans and polysaccharides, glycosaminoglycans, engineered glycomaterials and glycoproteins. GLYCAM-Web is directly linked to external databases, such as the Protein Data Bank, facilitating comparison with experimental data.",
+      "authors": [
+        "Oliver C Grant",
+        "Daniel Wentworth",
+        "Samuel G Holmes",
+        "Rajan Kandel",
+        "David Sehnal",
+        "Xiaocong Wang",
+        "Yao Xiao",
+        "Preston Sheppard",
+        "Tobias Grelsson",
+        "Andrew Coulter",
+        "Grayson Miller",
+        "Arunima Singh",
+        "Meenakshi Nagarajan",
+        "Bethany L Foley",
+        "Robert J Woods"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-23",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41872371/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "3D structure prediction for complex carbohydrates and glycoproteins",
+      "llm_evidence_cn": "复杂糖类和糖蛋白的3D结构预测",
+      "llm_evidence": "复杂糖类和糖蛋白的3D结构预测",
+      "canonical_evidence": "复杂糖类和糖蛋白的3D结构预测",
+      "llm_tldr_en": "GLYCAM-Web provides tools for 3D structure prediction of glycans and glycoproteins to aid molecular docking.",
+      "llm_tldr_cn": "GLYCAM-Web提供糖类和糖蛋白的3D结构预测工具，辅助分子对接和模拟。",
+      "llm_tldr": "GLYCAM-Web提供糖类和糖蛋白的3D结构预测工具，辅助分子对接和模拟。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "generative models for molecules proteins and therapeutic design",
+      "matched_requirement_id": "req-19",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41860960",
+      "title": "Spatially structured inflammatory response in the presence of a uniform stimulus.",
+      "abstract": "Inflammatory responses occur within the complex spatial context of tissues and organs, and many questions remain about how tissue structure and cellular communication shape their spatiotemporal dynamics. Here, we use a multiplexed RNA in situ hybridization approach, together with analytical tools, to study inflammatory gene expression in the larval zebrafish tailfin in response to a bath of lipopolysaccharide. We use this model system to address whether spatial structure emerges in the tissue response even absent the spatial variation introduced by a pathogen. We find that epithelial cells in the tailfin express several proinflammatory genes, and that across these genes, the uniform stimulus triggers a spatially nonuniform response. We use a graph-based spectral decomposition method to analyze its structure, and find that it is consistent with a diffusion-consumption model of secondary signaling. Overall, long-wavelength modes dominate the signal, creating zones of activation which account for a majority of the variation in gene expression. Our results show that epithelial cells are important producers of proinflammatory effector molecules in this system, and that tissue induces spatial correlations even absent a structured input.",
+      "authors": [
+        "Elizabeth R Jerison",
+        "Nicolas Romeo",
+        "Stephen R Quake"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41860960/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "multiplexed RNA in situ hybridization for spatial inflammatory gene expression",
+      "llm_evidence_cn": "多重RNA原位杂交用于空间炎症基因表达分析",
+      "llm_evidence": "多重RNA原位杂交用于空间炎症基因表达分析",
+      "canonical_evidence": "多重RNA原位杂交用于空间炎症基因表达分析",
+      "llm_tldr_en": "Uses spatial transcriptomics tools to study inflammatory response patterns in zebrafish tissue.",
+      "llm_tldr_cn": "利用空间转录组学工具研究斑马鱼组织中的炎症反应模式。",
+      "llm_tldr": "利用空间转录组学工具研究斑马鱼组织中的炎症反应模式。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "deep learning and foundation models for spatial transcriptomics proteomics and tissue mapping",
+      "matched_requirement_id": "req-46",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41872467",
+      "title": "Conserved neutrophil degranulation transcripts in HIV-TB coinfected children across East and Southern Africa.",
+      "abstract": "BACKGROUND: HIV-tuberculosis (HIV-TB) coinfection poses a significant public health challenge among children in high-burden African regions. Most previous transcriptomic studies have concentrated on adults and non-African populations, primarily analyzing gene-level differential expression. This approach overlooks multi-isoform complexity and may obscure both inherent and pathogen-induced intragenic heterogeneity. This multi-center case-control study aimed to identify and characterize the transcript-level landscape of HIV-TB coinfection in children from different African regions. METHODS: We analyzed whole-blood RNA sequencing data from 97 children with and without tuberculosis from Uganda (East Africa) and from Botswana and Eswatini (Southern Africa). Reads were quality-controlled, and low-abundance transcripts filtered out. Differential transcript expression was estimated using models that adjusted for batch, age, and sex, with multiple testing controlled by the Benjamini-Hochberg procedure. Pathway enrichment was performed on the set of differentially expressed transcripts. RESULTS: Our analyses show geographic heterogeneity in immune responses; however, the top three gene pathways - immune system, innate immune system, and neutrophil degranulation are consistently conserved across regions. Although there is limited overlap among upregulated transcripts, four of the six shared differentially expressed transcripts (DETs) are enriched in neutrophil degranulation pathways, indicating a conserved transcriptional signature of HIV-TB coinfection. Additionally, we identify five genes with region-specific, non-overlapping isoforms, a distinction not detectable through gene-level analysis. CONCLUSIONS: These findings demonstrate a conserved whole-blood transcriptomic signature in pediatric HIV-TB coinfection, while also highlighting regional variation at the isoform level. This supports the use of transcript-level analyses to identify biomarkers and enhance understanding of host responses in diverse African settings.",
+      "authors": [
+        "Eric Katagirya",
+        "Busisiwe Mlotshwa",
+        "Samuel Kyobe",
+        "Savannah Mwesigwa",
+        "Gaone Retshabile",
+        "Lesedi Williams",
+        "Marion Amujal",
+        "John Mukisa",
+        "Gerald Mboowa",
+        "David P Kateete",
+        "Misaki Wayengera",
+        "Sununguko Wata Mpoloka",
+        "Angella N Mirembe",
+        "Ishmael Kasvosve",
+        "Koketso Morapedi",
+        "Makhosazana Dlamini",
+        "Betty Nsangi",
+        "Grace P Kisitu",
+        "Adeodata R Kekitiinwa",
+        "Gabriel Anabwani",
+        "Moses L Joloba",
+        "Eddie Mujjwiga Wampande",
+        "Dithan Kiragga",
+        "Florence Anabwani-Richter",
+        "Chester W Brown",
+        "Graeme Mardon",
+        "Neil A Hanchard",
+        "Mogomotsi Matshaba",
+        "and for the Collaborative African Genomics Network (CAfGEN)"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41872467/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "RNA sequencing for pathogen-induced heterogeneity",
+      "llm_evidence_cn": "用于病原体诱导异质性的 RNA 测序",
+      "llm_evidence": "用于病原体诱导异质性的 RNA 测序",
+      "canonical_evidence": "用于病原体诱导异质性的 RNA 测序",
+      "llm_tldr_en": "Analysis of whole-blood RNA sequencing data to characterize the transcript-level landscape of HIV-TB coinfection.",
+      "llm_tldr_cn": "通过全血 RNA 测序数据分析，表征 HIV-TB 共感染的转录水平图谱。",
+      "llm_tldr": "通过全血 RNA 测序数据分析，表征 HIV-TB 共感染的转录水平图谱。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "foundation models for transcriptomics RNA sequencing and gene expression modeling",
+      "matched_requirement_id": "req-44",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41866998",
+      "title": "The esophageal microbiome: mechanisms and clinical implications.",
+      "abstract": "PURPOSE OF REVIEW: Interest in the esophageal microbiome has expanded rapidly, yet its functional and clinical relevance remains incompletely defined. This review synthesizes emerging evidence on host-microbe interactions in esophageal diseases, with a focus on mechanistic pathways and translational potential. RECENT FINDINGS: Recent studies demonstrate that esophageal microbes influence epithelial differentiation, barrier integrity, and inflammatory signaling in conditions such as eosinophilic esophagitis and Barrett's esophagus. Microbial metabolism, particularly bile acid transformation, links microbial composition to epithelial stress responses and neoplastic progression. In esophageal cancer, tumor-associated microbes modulate epigenetic regulation and suppress antitumor immunity. Integrative multiomics approaches have further identified microbial signatures associated with disease progression and treatment response. SUMMARY: The esophageal microbiome influences disease pathogenesis and has potential for risk stratification and therapeutic targeting. Future progress will depend on longitudinal studies, improved functional resolution, and integration of microbial data with epithelial and immune biology to enable clinical translation.",
+      "authors": [
+        "Nonyelum Ebigbo"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-23",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41866998/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "host-microbe interactions in esophageal diseases",
+      "llm_evidence_cn": "食管疾病中的宿主-微生物相互作用",
+      "llm_evidence": "食管疾病中的宿主-微生物相互作用",
+      "canonical_evidence": "食管疾病中的宿主-微生物相互作用",
+      "llm_tldr_en": "Reviews the functional and clinical relevance of the esophageal microbiome in host-microbe interactions.",
+      "llm_tldr_cn": "综述了食管微生物组在宿主-微生物相互作用中的功能和临床相关性。",
+      "llm_tldr": "综述了食管微生物组在宿主-微生物相互作用中的功能和临床相关性。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41874180",
+      "title": "Characterizing the nasopharyngeal microbiome and resistome of dairy cattle with and without bovine respiratory disease.",
+      "abstract": "Bovine respiratory disease (BRD) remains a significant economic challenge in dairy cattle despite extensive vaccination programs that have been developed and implemented during the last few decades. This study investigated the nasopharyngeal microbiome and resistome of dairy cattle across various life stages to understand the roles of microbial communities associated with BRD. A case-control study was conducted on three commercial dairy farms in Northern California, collecting nasopharyngeal swabs from 69 animals, including preweaned calves, weaned heifers, and lactating cows with and without BRD. Shotgun metagenomic sequencing was used to characterize both microbiome and resistome profiles observed at the time of BRD diagnosis. Results revealed that BRD is associated with distinct microbial community patterns, rather than the increased abundance of a specific pathogen. Age was a critical factor influencing microbial diversity, with adult cows showing the highest diversity and weaned heifers with BRD showing the lowest. A total of 1,164 bacterial species were identified, with BRD cases harboring 14 unique species compared to control animals. BRD cases were characterized by the co-occurrence of multiple respiratory pathogens, including Mannheimia haemolytica, Pasteurella multocida, Histophilus somni, and Mesomycoplasma species, which showed positive correlation with BRD cases but negative correlations in BRD controls, while BRD control animals showed significantly higher abundance of commensal Staphylococcus species. Resistome analysis identified 65 antimicrobial resistance genes, with BRD cases harboring more unique resistance genes than BRD controls. These findings challenge traditional single-pathogen models and demonstrate that BRD is likely the result of complex microbial community interactions and changes in community abundance, providing new potential targets to explore when considering prevention strategies toward promoting microbial communities that prevent or reduce the risk of BRD.IMPORTANCEBovine respiratory disease (BRD) represents one of the most economically challenging conditions in cattle production, with an estimated direct cost that exceeds $165 million annually in the United States alone. Despite decades of vaccination efforts targeting known pathogens, BRD prevalence remains unchanged, indicating an incomplete understanding of disease pathogenesis. This study provides critical insights by shifting focus from individual pathogens to entire microbial communities, revealing that BRD involves complex bacterial interactions, as well as the role of the understudied nasal commensal microbiome in healthy animals. The identification of distinct \"pathobiomes\" associated with disease and protective commensal communities in healthy animals fundamentally changes approaches to BRD prevention and treatment. The discovery that age significantly influences microbiome stability highlights critical intervention periods. Furthermore, the association between BRD and increased antimicrobial resistance genes raises concerns about current treatment and overall management practices, selecting for drug-resistant communities. This research provides a foundation for developing microbiome-based diagnostic tools and interventions supporting healthy microbial ecosystem development.",
+      "authors": [
+        "Adriana Garzon",
+        "Craig Miramontes",
+        "Bart C Weimer",
+        "Rodrigo Profeta",
+        "Alejandro Hoyos-Jaramillo",
+        "Heather M Fritz",
+        "Richard V Pereira"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41874180/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "metagenomic sequencing for microbiome and resistome profiling",
+      "llm_evidence_cn": "用于微生物组和耐药组分析的宏基因组测序",
+      "llm_evidence": "用于微生物组和耐药组分析的宏基因组测序",
+      "canonical_evidence": "用于微生物组和耐药组分析的宏基因组测序",
+      "llm_tldr_en": "This study uses shotgun metagenomics to characterize the nasopharyngeal microbiome and resistome in dairy cattle.",
+      "llm_tldr_cn": "本研究利用鸟枪法宏基因组测序技术分析了奶牛鼻咽部微生物组和耐药组特征。",
+      "llm_tldr": "本研究利用鸟枪法宏基因组测序技术分析了奶牛鼻咽部微生物组和耐药组特征。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

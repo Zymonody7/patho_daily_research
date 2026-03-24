@@ -1,10 +1,52 @@
 # 知识库
 
-- 最近沉淀条目数：184
+- 最近沉淀条目数：198
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [MADRe: Strain-level Metagenomic Classification Through Assembly-Driven Database Reduction.](#/202603/24/202603/24/41871361-madre-strain-level-metagenomic-classification-through-assembly-driven-database-reduction)
+  - TLDR：针对宏基因组分析中菌株级分类受限于参考数据库冗余和样本组成未知的问题，MADRe 提出了一种基于组装驱动的数据库缩减策略。该方法通过长读段组装获取基因组上下文，利用期望最大化（EM）框架将组装结果映射回参考库以精简数据库，最后在缩减后的库上进行概率化读段重分配。实验证明，MADRe 在模拟和真实数据中均能显著降低假阳性，提升了菌株识别的精确度。
+  - Tags：`query:seqai`
+- [AI foundation models for RNA biology.](#/202603/24/202603/24/41873866-ai-foundation-models-for-rna-biology)
+  - TLDR：RNA生物学正经历AI大模型带来的变革。针对RNA序列、结构与功能之间复杂的映射难题，研究者利用数百万跨物种RNA数据进行自监督预训练，构建出具备通用表征能力的基座模型。通过微调，这些模型能精准预测功能规则，并结合可解释AI技术挖掘顺式作用元件等生物学基元，为解码生命调控规律提供了强有力的计算工具。
+  - Tags：`query:bioinfo`
+- [Phylogeny-informed random forests for human microbiome studies.](#/202603/24/202603/24/41874246-phylogeny-informed-random-forests-for-human-microbiome-studies)
+  - TLDR：人类微生物组数据具有高度偏态和离散特征，且微生物间存在进化亲缘关系。传统随机森林忽略了这种系统发育树信息。PIRF（系统发育知情随机森林）通过在系统发育簇内局部筛选特征，增强了功能表示并降低了决策树间的相关性。在牙龈炎症、免疫治疗反应及年龄预测等七项基准任务中，PIRF 的预测准确率优于现有工具，为微生物组疾病诊断提供了更精准的建模方案。
+  - Tags：`query:seqai`
+- [Biochip-simulated genotype signals enable accurate and interpretable AMR prediction via machine learning](#/202603/24/202603/24/PMC13007503-biochip-simulated-genotype-signals-enable-accurate-and-interpretable-amr-prediction-via-machine-learning)
+  - TLDR：针对抗生素耐药性（AMR）预测中基因组数据处理复杂且模型黑盒化的问题，该研究提出利用生物芯片模拟的基因型信号作为机器学习输入。通过将基因序列转化为可观测的模拟杂交信号，模型在多种病原菌预测任务中表现出高准确率，并能直观定位关键耐药位点。该方法为开发兼具高性能与临床可解释性的快速耐药性诊断工具提供了技术支撑。
+  - Tags：`query:pathoai`
+- [Assessment of genome evolution in](#/202603/24/202603/24/41649278-assessment-of-genome-evolution-in)
+  - TLDR：青春双歧杆菌是成人肠道中流行率极高但研究尚浅的菌种。本研究通过整合131个项目的宏基因组数据，构建了包含1682个基因组的大规模数据集，利用泛基因组分析揭示了其特有的遗传特征、水平基因转移现象及地理演化规律。研究证实该菌与36种有益菌存在显著共存关系，为理解其在肠道微生态网络中的核心作用提供了重要的数据支撑。
+  - Tags：`query:seqai`
+- [Integrated single-cell and spatial mapping coupled with machine learning unveils core stemness landscapes and regulatory drivers in triple-negative breast cancer.](#/202603/24/202603/24/41870799-integrated-single-cell-and-spatial-mapping-coupled-with-machine-learning-unveils-core-stemness-landscapes-and-regulatory-drivers-in-triple-negative-breast-cancer)
+  - TLDR：针对三阴性乳腺癌（TNBC）高度异质性及肿瘤干细胞（CSCs）驱动恶化的问题，本研究整合单细胞、空间及大块转录组数据，利用CytoTRACE算法与XGBoost机器学习构建了由CALD1等5个核心基因组成的干性预测模型。研究发现高干性细胞处于分化起点，通过激活Notch信号通路促进免疫逃逸并导致预后不良，同时筛选出BI.2536等潜在敏感药物，为TNBC干细胞靶向治疗提供了新靶点。
+  - Tags：`query:seqai`
+- [On the utility of Deep Learning for model classification and parameter estimation on complex diversification scenarios.](#/202603/24/202603/24/41874436-on-the-utility-of-deep-learning-for-model-classification-and-parameter-estimation-on-complex-diversification-scenarios)
+  - TLDR：针对系统发育树分析中传统似然法难以处理复杂演化模型的问题，本研究评估了卷积神经网络（CNN）在物种多样化模型分类和参数估计中的表现。通过对六种复杂演化场景（如大规模灭绝、多样性依赖等）进行大规模模拟，并利用CDV向量化技术处理树结构数据，结果显示CNN在模型分类准确率（80-93%）和参数回归精度上均优于传统极大似然估计（MLE），为宏观演化研究提供了一种高效的深度学习替代方案。
+  - Tags：`query:pathoai`
+- [Cross-order detection of bacteriophage transduction in microbial communities using RNA barcoding.](#/202603/24/202603/24/41872204-cross-order-detection-of-bacteriophage-transduction-in-microbial-communities-using-rna-barcoding)
+  - TLDR：针对传统噬菌体宿主鉴定方法依赖纯培养、通量低且难以应用于复杂微生物群落的问题，本研究开发了一种基于RNA条形码的自主检测技术。通过在P1噬菌体质粒中嵌入合成核酶，将转导信息直接记录在宿主的16S rRNA中，并结合高通量测序识别宿主。实验成功在合成及废水群落中发现了P1的新宿主目（气单胞菌目）及病原体转导现象，揭示了复制起点和尾部纤维对宿主范围的影响，为工程化改造微生物群提供了高通量的检测手段。
+  - Tags：`query:seqai`
+- [Generating 3D models of complex carbohydrates with GLYCAM-Web.](#/202603/24/202603/24/41872371-generating-3d-models-of-complex-carbohydrates-with-glycam-web)
+  - TLDR：复杂糖类（聚糖）的3D结构对其生物功能至关重要，但建模难度大。GLYCAM-Web 提供了一套在线工具，能够为各种天然及人工合成的寡糖、多糖和糖蛋白生成与实验数据一致的3D模型。该平台通过与PDB等数据库联动，帮助研究者快速构建用于分子对接和动力学模拟的高精度结构，推动了糖生物学领域的数据解释与假设验证。
+  - Tags：`query:bioinfo`
+- [Conserved neutrophil degranulation transcripts in HIV-TB coinfected children across East and Southern Africa.](#/202603/24/202603/24/41872467-conserved-neutrophil-degranulation-transcripts-in-hiv-tb-coinfected-children-across-east-and-southern-africa)
+  - TLDR：针对非洲高负担地区儿童HIV-TB共感染研究不足且传统基因级分析忽略异构体复杂性的问题，本研究通过对东非和南非多中心儿童全血RNA测序数据进行转录本水平分析，发现尽管存在地理差异，但中性粒细胞脱颗粒等免疫通路在不同地区高度保守。研究识别出跨地区的共享转录本特征及地区特异性异构体，为开发精准的生物标志物和理解宿主免疫响应提供了新视角。
+  - Tags：`query:seqai`
+- [Characterizing the nasopharyngeal microbiome and resistome of dairy cattle with and without bovine respiratory disease.](#/202603/24/202603/24/41874180-characterizing-the-nasopharyngeal-microbiome-and-resistome-of-dairy-cattle-with-and-without-bovine-respiratory-disease)
+  - TLDR：针对牛呼吸道疾病（BRD）这一长期困扰奶牛养殖业的经济难题，本研究利用鸟枪法宏基因组测序技术，对69头不同生长阶段奶牛的鼻咽微生物组和耐药组进行了系统表征。研究发现BRD并非由单一病原体驱动，而是多种病原体协同作用及共生菌群失调的结果，且患病牛表现出更高的抗生素耐药基因多样性。该成果挑战了传统的单病原体模型，为基于微生物群落的BRD预防和精准干预提供了新视角。
+  - Tags：`query:seqai`
+- [Paenitracins, a novel family of bacitracin-type nonribosomal peptide antibiotics produced by plant-associated](#/202603/24/202603/24/41700860-paenitracins-a-novel-family-of-bacitracin-type-nonribosomal-peptide-antibiotics-produced-by-plant-associated)
+  - TLDR：针对耐药菌威胁，研究团队利用 MassQL 质谱查询语言和分子网络技术，对 227 株类芽孢杆菌进行代谢组学筛选，旨在寻找含碱性氨基酸的新型非核糖体肽（NRP）。研究成功发现并鉴定了一类新型杆菌肽家族——Paenitracins，其具有独特的氨基酸取代特征，并对万古霉素耐药肠球菌等革兰氏阳性致病菌表现出强效抗菌活性，为加速抗生素研发提供了高效的发现流程。
+  - Tags：`query:pathoai`
+- [Spatially structured inflammatory response in the presence of a uniform stimulus.](#/202603/24/202603/24/41860960-spatially-structured-inflammatory-response-in-the-presence-of-a-uniform-stimulus)
+  - TLDR：针对组织结构如何影响炎症反应动态的问题，研究者利用斑马鱼幼鱼尾鳍模型，在均匀脂多糖（LPS）刺激下，通过多重RNA原位杂交和图谱谱分解方法观察基因表达。研究发现，即使刺激是均匀的，上皮细胞仍表现出空间非均匀的促炎基因表达。这种现象符合二次信号的扩散-消耗模型，表明组织结构能在无空间差异输入的情况下诱导产生空间相关性，揭示了上皮细胞在炎症信号传导中的关键作用。
+  - Tags：`query:seqai`
+- [The esophageal microbiome: mechanisms and clinical implications.](#/202603/24/202603/24/41866998-the-esophageal-microbiome-mechanisms-and-clinical-implications)
+  - TLDR：食管微生物群在食管疾病中的作用日益受到关注，但其功能机制尚不明确。本文综述了微生物如何通过影响上皮分化、屏障完整性及胆汁酸代谢等途径，参与嗜酸性食管炎、巴雷特食管及食管癌的病理过程。研究指出，微生物特征可作为疾病进展的生物标志物，并为开发针对性免疫治疗和风险分层提供了新思路。
+  - Tags：`query:pathoai`
 - [Evaluating the Utilities of Foundation Models in Single-Cell Data Analysis.](#/202603/23/202603/23/41869863-evaluating-the-utilities-of-foundation-models-in-single-cell-data-analysis)
   - TLDR：随着大模型在生物医学领域的兴起，单细胞基础模型（FMs）层出不穷，但其真实效能尚不明确。本研究通过 scEval 框架对 scGPT、Geneformer 等 10 个主流模型在 8 类下游任务中进行了全面评估。结果显示，虽然部分模型表现优异，但在特定任务上仍难以超越传统专用算法。该研究为单细胞大模型的预训练与微调提供了实践指南，并开源了评测工具以推动领域发展。
   - Tags：`query:seqai`

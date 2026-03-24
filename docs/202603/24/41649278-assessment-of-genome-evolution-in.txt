@@ -1,0 +1,77 @@
+Title: Assessment of genome evolution in Bifidobacterium adolescentis indicates genetic adaptation to the human gut - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41649278/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 24;11(3):e0117325.
+
+doi: 10.1128/msystems.01173-25.  Epub 2026 Feb 6.
+
+[Chiara Tarracchini](https://pubmed.ncbi.nlm.nih.gov/?term=Tarracchini+C&cauthor_id=41649278)[1](https://pubmed.ncbi.nlm.nih.gov/41649278/#full-view-affiliation-1 "Laboratory of Probiogenomics, Department of Chemistry, Life Sciences, and Environmental Sustainability, University of Parma, Parma, Italy."),[Silvia Petraro](https://pubmed.ncbi.nlm.nih.gov/?term=Petraro+S&cauthor_id=41649278)[1](https://pubmed.ncbi.nlm.nih.gov/41649278/#full-view-affiliation-1 "Laboratory of Probiogenomics, Department of Chemistry, Life Sciences, and Environmental Sustainability, University of Parma, Parma, Italy."),[Leonardo Mancabelli](https://pubmed.ncbi.nlm.nih.gov/?term=Mancabelli+L&cauthor_id=41649278)[2](https://pubmed.ncbi.nlm.nih.gov/41649278/#full-view-affiliation-2 "Department of Medicine and Surgery, University of Parma, Parma, Italy.")[3](https://pubmed.ncbi.nlm.nih.gov/41649278/#full-view-affiliation-3 "Microbiome Research Hub, University of Parma, Parma, Italy."),[Christian Milani](https://pubmed.ncbi.nlm.nih.gov/?term=Milani+C&cauthor_id=41649278)[1](https://pubmed.ncbi.nlm.nih.gov/41649278/#full-view-affiliation-1 "Laboratory of Probiogenomics, Department of Chemistry, Life Sciences, and Environmental Sustainability, University of Parma, Parma, Italy.")[3](https://pubmed.ncbi.nlm.nih.gov/41649278/#full-view-affiliation-3 "Microbiome Research Hub, University of Parma, Parma, Italy."),[Francesca Turroni](https://pubmed.ncbi.nlm.nih.gov/?term=Turroni+F&cauthor_id=41649278)[1](https://pubmed.ncbi.nlm.nih.gov/41649278/#full-view-affiliation-1 "Laboratory of Probiogenomics, Department of Chemistry, Life Sciences, and Environmental Sustainability, University of Parma, Parma, Italy.")[3](https://pubmed.ncbi.nlm.nih.gov/41649278/#full-view-affiliation-3 "Microbiome Research Hub, University of Parma, Parma, Italy."),[Yan Shao](https://pubmed.ncbi.nlm.nih.gov/?term=Shao+Y&cauthor_id=41649278)[4](https://pubmed.ncbi.nlm.nih.gov/41649278/#full-view-affiliation-4 "Host-Microbiota Interactions Laboratory, Wellcome Sanger Institute, Hinxton, United Kingdom."),[Hilary P Browne](https://pubmed.ncbi.nlm.nih.gov/?term=Browne+HP&cauthor_id=41649278)[4](https://pubmed.ncbi.nlm.nih.gov/41649278/#full-view-affiliation-4 "Host-Microbiota Interactions Laboratory, Wellcome Sanger Institute, Hinxton, United Kingdom."),[Trevor D Lawley](https://pubmed.ncbi.nlm.nih.gov/?term=Lawley+TD&cauthor_id=41649278)[4](https://pubmed.ncbi.nlm.nih.gov/41649278/#full-view-affiliation-4 "Host-Microbiota Interactions Laboratory, Wellcome Sanger Institute, Hinxton, United Kingdom."),[Douwe van Sinderen](https://pubmed.ncbi.nlm.nih.gov/?term=van+Sinderen+D&cauthor_id=41649278)[5](https://pubmed.ncbi.nlm.nih.gov/41649278/#full-view-affiliation-5 "APC Microbiome Institute and School of Microbiology, Bioscience Institute, National University of Ireland, Cork, Ireland."),[Marco Ventura](https://pubmed.ncbi.nlm.nih.gov/?term=Ventura+M&cauthor_id=41649278)[1](https://pubmed.ncbi.nlm.nih.gov/41649278/#full-view-affiliation-1 "Laboratory of Probiogenomics, Department of Chemistry, Life Sciences, and Environmental Sustainability, University of Parma, Parma, Italy.")[3](https://pubmed.ncbi.nlm.nih.gov/41649278/#full-view-affiliation-3 "Microbiome Research Hub, University of Parma, Parma, Italy."),[Gabriele Andrea Lugli](https://pubmed.ncbi.nlm.nih.gov/?term=Lugli+GA&cauthor_id=41649278)[1](https://pubmed.ncbi.nlm.nih.gov/41649278/#full-view-affiliation-1 "Laboratory of Probiogenomics, Department of Chemistry, Life Sciences, and Environmental Sustainability, University of Parma, Parma, Italy.")[3](https://pubmed.ncbi.nlm.nih.gov/41649278/#full-view-affiliation-3 "Microbiome Research Hub, University of Parma, Parma, Italy.")
+
+Affiliations
+
+*    PMID: **41649278**
+*    DOI: [10.1128/msystems.01173-25](https://doi.org/10.1128/msystems.01173-25)
+
+Free article
+
+## Assessment of genome evolution in _Bifidobacterium adolescentis_ indicates genetic adaptation to the human gut
+
+Emanuele Selleri et al. mSystems.2026.
+
+Free article
+
+## Abstract
+
+_Bifidobacterium adolescentis_ is one of the most frequently encountered bifidobacterial species present in the adult human gut microbiota, with a prevalence of approximately 60%. Despite its high prevalence, _B. adolescentis_ has not been extensively studied and characterized, and our understanding of its physiological traits, genetic diversity, and potential interactions with other members of the human gut microbiota or with its host is therefore fragmentary. In the current study, a data set comprising 1,682 _B. adolescentis_ genomes was compiled by combining publicly available data and metagenome assemblies from 131 projects to uncover the unique genetic characteristics of this species. A pangenome analysis of _B. adolescentis_ identified 203 clusters of orthologous genes absent from the other five human-associated _Bifidobacterium_ species, six of which were _in silico_ predicted to encode functions unique to this taxon. Furthermore, 2,597 genes were predicted to have been acquired by horizontal gene transfer, including genes encoding extracellular structures involved in interaction with the host and other microorganisms, and phage defense mechanisms against bacteriophages. Detailed phylogenetic analysis revealed seven clusters within the _B. adolescentis_ species, each partially associated with the origin of strain isolation, suggesting phylogenetic differentiation shaped by geographical strain origin. Moreover, a large-scale metagenomic analysis of over 10,000 human gut metagenomes from healthy adults revealed that _B. adolescentis_ co-occurs with 36 putative beneficial commensals and butyrate-producing taxa, highlighting its role as a key bifidobacterial species involved in microbial networking within the adult human gut microbiota.
+
+**Importance:** To comprehensively explore the biodiversity within a microbial species, the reconstruction of a substantial number of genomes is essential. In this study, we successfully uncovered the genetic diversity of _Bifidobacterium adolescentis_ by retrieving a large number of genomes from human gut metagenomic samples. The complete overview of the _B. adolescentis_ pangenome enabled us to investigate the genetic features that distinguish this gut commensal from other bifidobacterial species residing in the human intestinal microbiota.
+
+**Keywords:** bifidobacteria; genomics; metagenomics; microbiome.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+The authors declare no conflict of interest.
+
+## Similar articles
+
+*   [Comparative genomic and phenotypic analysis of potential beneficial properties of _Bifidobacterium adolescentis_.](https://pubmed.ncbi.nlm.nih.gov/41186414/)
+
+Van Haute MJ, Chacón-Vargas K, Christensen CM, Yumul SRP, Abdulaali FF, Benson AK, Hutkins R, Auchtung TA.Van Haute MJ, et al.mSphere. 2025 Nov 25;10(11):e0067325. doi: 10.1128/msphere.00673-25. Epub 2025 Nov 4.mSphere. 2025.PMID: 41186414 Free PMC article. 
+*   [Evaluation of genetic diversity among strains of the human gut commensal Bifidobacterium adolescentis.](https://pubmed.ncbi.nlm.nih.gov/27035119/)
+
+Duranti S, Milani C, Lugli GA, Mancabelli L, Turroni F, Ferrario C, Mangifesta M, Viappiani A, Sánchez B, Margolles A, van Sinderen D, Ventura M.Duranti S, et al.Sci Rep. 2016 Apr 1;6:23971. doi: 10.1038/srep23971.Sci Rep. 2016.PMID: 27035119 Free PMC article. 
+*   [Gut Bifidobacterium responses to probiotic Lactobacillus casei Zhang administration vary between subjects from different geographic regions.](https://pubmed.ncbi.nlm.nih.gov/35318524/)
+
+Zhao F, Bai X, Zhang J, Kwok LY, Shen L, Jin H, Sun T, Sun Z, Zhang H.Zhao F, et al.Appl Microbiol Biotechnol. 2022 Apr;106(7):2665-2675. doi: 10.1007/s00253-022-11868-4. Epub 2022 Mar 23.Appl Microbiol Biotechnol. 2022.PMID: 35318524 
+*   [Glycan Utilization and Cross-Feeding Activities by Bifidobacteria.](https://pubmed.ncbi.nlm.nih.gov/29089173/)
+
+Turroni F, Milani C, Duranti S, Mahony J, van Sinderen D, Ventura M.Turroni F, et al.Trends Microbiol. 2018 Apr;26(4):339-350. doi: 10.1016/j.tim.2017.10.001. Epub 2017 Oct 28.Trends Microbiol. 2018.PMID: 29089173 Review. 
+*   [Meta-analysis reveals different functional characteristics of human gut Bifidobacteria associated with habitual diet.](https://pubmed.ncbi.nlm.nih.gov/37316017/)
+
+Yin P, Zhang C, Du T, Yi S, Yu L, Tian F, Chen W, Zhai Q.Yin P, et al.Food Res Int. 2023 Aug;170:112981. doi: 10.1016/j.foodres.2023.112981. Epub 2023 May 29.Food Res Int. 2023.PMID: 37316017 Review. 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Atypon](https://journals.asm.org/doi/10.1128/msystems.01173-25?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)

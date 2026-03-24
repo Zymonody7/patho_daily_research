@@ -1,0 +1,74 @@
+Title: Cross-order detection of bacteriophage transduction in microbial communities using RNA barcoding - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41872204/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 23.
+
+doi: 10.1038/s41467-026-70995-y.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **41872204**
+*    DOI: [10.1038/s41467-026-70995-y](https://doi.org/10.1038/s41467-026-70995-y)
+
+## Cross-order detection of bacteriophage transduction in microbial communities using RNA barcoding
+
+Zachary W LaTurner et al. Nat Commun.2026.
+
+## Abstract
+
+Bacteriophages (phages) facilitate gene transfer and microbial evolution in all ecosystems and have applications as tools for engineering microbiomes and as antimicrobials. Historic efforts to map phage hosts, such as plaque assays, are limited to cultured bacteria, are low throughput, and are hard to apply in microbial communities and environmentally-relevant contexts. To overcome these limitations, we integrate a synthetic ribozyme that stores information about participation in horizontal gene transfer in 16S ribosomal RNA (rRNA) into the phage-plasmid P1, and perform targeted 16S rRNA sequencing following transduction to identify phage-host interactions. Experiments in synthetic and wastewater communities reveal Aeromonadales as a previously unreported P1 host order and show P1 transduction into pathogens. In wastewater, host range varies across phagemids having different origins of replication and phage-derived particles having different tail fibers. This work shows how autonomous barcoding can be used in phages to identify the molecular controls on their host range in microbial communities.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Competing interests: J.C. and J.J.S. have submitted a provisional patent (63/487372) on a related technology. The other authors declare no competing interests.
+
+## Similar articles
+
+*   [A Novel Group of Promiscuous Podophages Infecting Diverse Gammaproteobacteria from River Communities Exhibits Dynamic Intergenus Host Adaptation.](https://pubmed.ncbi.nlm.nih.gov/33531404/)
+
+Cazares D, Cazares A, Figueroa W, Guarneros G, Edwards RA, Vinuesa P.Cazares D, et al.mSystems. 2021 Feb 2;6(1):e00773-20. doi: 10.1128/mSystems.00773-20.mSystems. 2021.PMID: 33531404 Free PMC article. 
+*   [The impact of bacteriophages on phyllosphere bacterial abundance and composition.](https://pubmed.ncbi.nlm.nih.gov/29457297/)
+
+Morella NM, Gomez AL, Wang G, Leung MS, Koskella B.Morella NM, et al.Mol Ecol. 2018 Apr;27(8):2025-2038. doi: 10.1111/mec.14542. Epub 2018 Mar 15.Mol Ecol. 2018.PMID: 29457297 
+*   [Horizontal gene transfer and CRISPR targeting drive phage-bacterial host interactions and coevolution in pink berry marine microbial aggregates.](https://pubmed.ncbi.nlm.nih.gov/36798152/)
+
+Kosmopoulos JC, Campbell DE, Whitaker RJ, Wilbanks EG.Kosmopoulos JC, et al.bioRxiv [Preprint]. 2023 Feb 7:2023.02.06.527410. doi: 10.1101/2023.02.06.527410.bioRxiv. 2023.PMID: 36798152 Free PMC article.Updated.Preprint.  
+*   [Phage-host interplay: examples from tailed phages and Gram-negative bacterial pathogens.](https://pubmed.ncbi.nlm.nih.gov/25191318/)
+
+Chaturongakul S, Ounjai P.Chaturongakul S, et al.Front Microbiol. 2014 Aug 20;5:442. doi: 10.3389/fmicb.2014.00442. eCollection 2014.Front Microbiol. 2014.PMID: 25191318 Free PMC article.Review. 
+*   [Profiles of phage in global hospital wastewater: Association with microbial hosts, antibiotic resistance genes, metal resistance genes, and mobile genetic elements.](https://pubmed.ncbi.nlm.nih.gov/38513871/)
+
+Kang Y, Wang J, Wang Y, Li Z.Kang Y, et al.Sci Total Environ. 2024 May 20;926:171766. doi: 10.1016/j.scitotenv.2024.171766. Epub 2024 Mar 19.Sci Total Environ. 2024.PMID: 38513871 
+
+## References
+
+1.       1.    Chibani-Chennoufi, S., Bruttin, A., Dillmann, M.-L. & Brüssow, H. Phage-host interaction: an ecological perspective. J. Bacteriol. 186, 3677–3686 (2004). 
+
+2.       1.    Suttle, C. A. Marine viruses — major players in the global ecosystem. Nat. Rev. Microbiol. 5, 801–812 (2007). 
+
+3.       1.    Mushegian, A. R. Are There 1031 virus particles on earth, or more, or fewer? J. Bacteriol. 202, [https://doi.org/10.1128/jb.00052-20](https://doi.org/10.1128/jb.00052-20) (2020). 
+
+4.       1.    Koonin, E. V., Krupovic, M. & Dolja, V. V. The global virome: How much diversity and how many independent origins? Environ. Microbiol. 25, 40–44 (2023). 
+
+5.       1.    Balcazar, J. L. Bacteriophages as vehicles for antibiotic resistance genes in the environment. PLOS Pathog 10, e1004219 (2014). 
+
+## Grants and funding
+
+*   [2237052/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=2237052%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2237052/National Science Foundation (NSF)")
+*   [2237052/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=2237052%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2237052/National Science Foundation (NSF)")
+*   [2237052/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=2237052%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2237052/National Science Foundation (NSF)")
+*   [2227526/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=2227526%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2227526/National Science Foundation (NSF)")
+*   [2227526/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=2227526%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2227526/National Science Foundation (NSF)")
+
+*   [W911NF-24-2-0073/United States Department of Defense | United States Army | U.S. Army Research, Development and Engineering Command | Army Research Office (ARO)](https://pubmed.ncbi.nlm.nih.gov/?term=W911NF-24-2-0073%2FUnited+States+Department+of+Defense+%7C+United+States+Army+%7C+U.S.+Army+Research%2C+Development+and+Engineering+Command+%7C+Army+Research+Office+%28ARO%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant W911NF-24-2-0073/United States Department of Defense | United States Army | U.S. Army Research, Development and Engineering Command | Army Research Office (ARO)")
+*   [W911NF-24-2-0073/United States Department of Defense | United States Army | U.S. Army Research, Development and Engineering Command | Army Research Office (ARO)](https://pubmed.ncbi.nlm.nih.gov/?term=W911NF-24-2-0073%2FUnited+States+Department+of+Defense+%7C+United+States+Army+%7C+U.S.+Army+Research%2C+Development+and+Engineering+Command+%7C+Army+Research+Office+%28ARO%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant W911NF-24-2-0073/United States Department of Defense | United States Army | U.S. Army Research, Development and Engineering Command | Army Research Office (ARO)")
+*   [W911NF-24-2-0073/United States Department of Defense | United States Army | U.S. Army Research, Development and Engineering Command | Army Research Office (ARO)](https://pubmed.ncbi.nlm.nih.gov/?term=W911NF-24-2-0073%2FUnited+States+Department+of+Defense+%7C+United+States+Army+%7C+U.S.+Army+Research%2C+Development+and+Engineering+Command+%7C+Army+Research+Office+%28ARO%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant W911NF-24-2-0073/United States Department of Defense | United States Army | U.S. Army Research, Development and Engineering Command | Army Research Office (ARO)")
+*   [W911NF-24-2-0073/United States Department of Defense | United States Army | U.S. Army Research, Development and Engineering Command | Army Research Office (ARO)](https://pubmed.ncbi.nlm.nih.gov/?term=W911NF-24-2-0073%2FUnited+States+Department+of+Defense+%7C+United+States+Army+%7C+U.S.+Army+Research%2C+Development+and+Engineering+Command+%7C+Army+Research+Office+%28ARO%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant W911NF-24-2-0073/United States Department of Defense | United States Army | U.S. Army Research, Development and Engineering Command | Army Research Office (ARO)")

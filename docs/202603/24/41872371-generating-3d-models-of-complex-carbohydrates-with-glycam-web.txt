@@ -1,0 +1,85 @@
+Title: Generating 3D models of complex carbohydrates with GLYCAM-Web - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41872371/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 23.
+
+doi: 10.1038/s41592-026-03033-w.  Online ahead of print.
+
+[Daniel Wentworth](https://pubmed.ncbi.nlm.nih.gov/?term=Wentworth+D&cauthor_id=41872371)[1](https://pubmed.ncbi.nlm.nih.gov/41872371/#full-view-affiliation-1 "Complex Carbohydrate Research Center and Department of Biochemistry and Molecular Biology, University of Georgia, Athens, GA, USA."),[Samuel G Holmes](https://pubmed.ncbi.nlm.nih.gov/?term=Holmes+SG&cauthor_id=41872371)[1](https://pubmed.ncbi.nlm.nih.gov/41872371/#full-view-affiliation-1 "Complex Carbohydrate Research Center and Department of Biochemistry and Molecular Biology, University of Georgia, Athens, GA, USA."),[Rajan Kandel](https://pubmed.ncbi.nlm.nih.gov/?term=Kandel+R&cauthor_id=41872371)[1](https://pubmed.ncbi.nlm.nih.gov/41872371/#full-view-affiliation-1 "Complex Carbohydrate Research Center and Department of Biochemistry and Molecular Biology, University of Georgia, Athens, GA, USA."),[David Sehnal](https://pubmed.ncbi.nlm.nih.gov/?term=Sehnal+D&cauthor_id=41872371)[2](https://pubmed.ncbi.nlm.nih.gov/41872371/#full-view-affiliation-2 "National Centre for Biomolecular Research, Faculty of Science, Masaryk University, Brno, Czech Republic."),[Xiaocong Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+X&cauthor_id=41872371)[1](https://pubmed.ncbi.nlm.nih.gov/41872371/#full-view-affiliation-1 "Complex Carbohydrate Research Center and Department of Biochemistry and Molecular Biology, University of Georgia, Athens, GA, USA.")[3](https://pubmed.ncbi.nlm.nih.gov/41872371/#full-view-affiliation-3 "Hubei Key Laboratory of Agricultural Bioinformatics, College of Informatics, Huazhong Agricultural University, Wuhan, China."),[Yao Xiao](https://pubmed.ncbi.nlm.nih.gov/?term=Xiao+Y&cauthor_id=41872371)[1](https://pubmed.ncbi.nlm.nih.gov/41872371/#full-view-affiliation-1 "Complex Carbohydrate Research Center and Department of Biochemistry and Molecular Biology, University of Georgia, Athens, GA, USA."),[Preston Sheppard](https://pubmed.ncbi.nlm.nih.gov/?term=Sheppard+P&cauthor_id=41872371)[1](https://pubmed.ncbi.nlm.nih.gov/41872371/#full-view-affiliation-1 "Complex Carbohydrate Research Center and Department of Biochemistry and Molecular Biology, University of Georgia, Athens, GA, USA."),[Tobias Grelsson](https://pubmed.ncbi.nlm.nih.gov/?term=Grelsson+T&cauthor_id=41872371)[1](https://pubmed.ncbi.nlm.nih.gov/41872371/#full-view-affiliation-1 "Complex Carbohydrate Research Center and Department of Biochemistry and Molecular Biology, University of Georgia, Athens, GA, USA."),[Andrew Coulter](https://pubmed.ncbi.nlm.nih.gov/?term=Coulter+A&cauthor_id=41872371)[1](https://pubmed.ncbi.nlm.nih.gov/41872371/#full-view-affiliation-1 "Complex Carbohydrate Research Center and Department of Biochemistry and Molecular Biology, University of Georgia, Athens, GA, USA."),[Grayson Miller](https://pubmed.ncbi.nlm.nih.gov/?term=Miller+G&cauthor_id=41872371)[1](https://pubmed.ncbi.nlm.nih.gov/41872371/#full-view-affiliation-1 "Complex Carbohydrate Research Center and Department of Biochemistry and Molecular Biology, University of Georgia, Athens, GA, USA."),[Arunima Singh](https://pubmed.ncbi.nlm.nih.gov/?term=Singh+A&cauthor_id=41872371)[1](https://pubmed.ncbi.nlm.nih.gov/41872371/#full-view-affiliation-1 "Complex Carbohydrate Research Center and Department of Biochemistry and Molecular Biology, University of Georgia, Athens, GA, USA."),[Meenakshi Nagarajan](https://pubmed.ncbi.nlm.nih.gov/?term=Nagarajan+M&cauthor_id=41872371)[1](https://pubmed.ncbi.nlm.nih.gov/41872371/#full-view-affiliation-1 "Complex Carbohydrate Research Center and Department of Biochemistry and Molecular Biology, University of Georgia, Athens, GA, USA."),[Bethany L Foley](https://pubmed.ncbi.nlm.nih.gov/?term=Foley+BL&cauthor_id=41872371)[1](https://pubmed.ncbi.nlm.nih.gov/41872371/#full-view-affiliation-1 "Complex Carbohydrate Research Center and Department of Biochemistry and Molecular Biology, University of Georgia, Athens, GA, USA."),[Robert J Woods](https://pubmed.ncbi.nlm.nih.gov/?term=Woods+RJ&cauthor_id=41872371)[4](https://pubmed.ncbi.nlm.nih.gov/41872371/#full-view-affiliation-4 "Complex Carbohydrate Research Center and Department of Biochemistry and Molecular Biology, University of Georgia, Athens, GA, USA. rwoods@ccrc.uga.edu.")
+
+Affiliations
+
+*    PMID: **41872371**
+*    DOI: [10.1038/s41592-026-03033-w](https://doi.org/10.1038/s41592-026-03033-w)
+
+## Generating 3D models of complex carbohydrates with GLYCAM-Web
+
+Oliver C Grant et al. Nat Methods.2026.
+
+## Abstract
+
+We present online three-dimensional (3D) structure-prediction tools at GLYCAM-Web ( www.glycam.org ) that can be used for generating experimentally consistent 3D structures of oligosaccharides for data interpretation, hypothesis generation, 3D visualization, molecular docking and further simulation. The tools support the modeling of an unlimited array of natural glycans and polysaccharides, glycosaminoglycans, engineered glycomaterials and glycoproteins. GLYCAM-Web is directly linked to external databases, such as the Protein Data Bank, facilitating comparison with experimental data.
+
+© 2026. The Author(s), under exclusive licence to Springer Nature America, Inc.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Competing interests: A.S. is currently employed as a Senior Editor for Nature Methods. She was not involved in the decision-making process for this paper and did not have access to confidential information pertaining to the peer review and editorial process. The other authors declare no competing interests.
+
+## Similar articles
+
+*   [GLYCAM Bacterial Carbohydrate Builder: a web-tool for modelling 3D structures of bacterial glycans.](https://pubmed.ncbi.nlm.nih.gov/41659496/)
+
+Nieto-Fabregat F, Grant OC, Wang X, Wentworth D, Woods RJ, Marchetti R.Nieto-Fabregat F, et al.bioRxiv [Preprint]. 2026 Jan 27:2026.01.26.700271. doi: 10.64898/2026.01.26.700271.bioRxiv. 2026.PMID: 41659496 Free PMC article.Preprint. 
+*   [CSDB/SNFG Structure Editor: An Online Glycan Builder with 2D and 3D Structure Visualization.](https://pubmed.ncbi.nlm.nih.gov/34595926/)
+
+Bochkov AY, Toukach PV.Bochkov AY, et al.J Chem Inf Model. 2021 Oct 25;61(10):4940-4948. doi: 10.1021/acs.jcim.1c00917. Epub 2021 Oct 1.J Chem Inf Model. 2021.PMID: 34595926 
+*   [GAG Builder: a web-tool for modeling 3D structures of glycosaminoglycans.](https://pubmed.ncbi.nlm.nih.gov/31034567/)
+
+Singh A, Montgomery D, Xue X, Foley BL, Woods RJ.Singh A, et al.Glycobiology. 2019 Jul 1;29(7):515-518. doi: 10.1093/glycob/cwz027.Glycobiology. 2019.PMID: 31034567 Free PMC article. 
+*   [Three-Dimensional Structures of Carbohydrates and Where to Find Them.](https://pubmed.ncbi.nlm.nih.gov/33081008/)
+
+Scherbinina SI, Toukach PV.Scherbinina SI, et al.Int J Mol Sci. 2020 Oct 18;21(20):7702. doi: 10.3390/ijms21207702.Int J Mol Sci. 2020.PMID: 33081008 Free PMC article.Review. 
+*   [Are N-linked glycans intrinsically disordered?](https://pubmed.ncbi.nlm.nih.gov/40645091/)
+
+Gazaway E, Kandel R, Grant OC, Woods RJ.Gazaway E, et al.Curr Opin Struct Biol. 2025 Aug;93:103118. doi: 10.1016/j.sbi.2025.103118. Epub 2025 Jul 10.Curr Opin Struct Biol. 2025.PMID: 40645091 Review. 
+
+## References
+
+1.       1.    Gazaway, E., Kandel, R., Grant, O. C. & Woods, R. J. Are N-linked glycans intrinsically disordered? Curr. Opin. Struct. Biol. 93, 103118 (2025). - [PubMed](https://pubmed.ncbi.nlm.nih.gov/40645091/) - [DOI](https://doi.org/10.1016/j.sbi.2025.103118)
+
+2.       1.    Woods, R. J. Predicting the structures of glycans, glycoproteins, and their complexes. Am. Chem. Soc. 118, 8005–8024 (2018). 
+
+3.       1.    Brisson, J.-R. & Carver, J. P. Solution conformation of aD(1-3)- and aD(1-6)-linked oligomannosides using proton nuclear magnetic resonance. Biochemistry 22, 1362–1368 (1983). - [PubMed](https://pubmed.ncbi.nlm.nih.gov/6838858/) - [DOI](https://doi.org/10.1021/bi00275a007)
+
+4.       1.    Homans, S. W. Conformation and dynamics of oligosaccharides in solution. Glycobiology 3, 551–555 (1993). - [PubMed](https://pubmed.ncbi.nlm.nih.gov/8130386/) - [DOI](https://doi.org/10.1093/glycob/3.6.551)
+
+5.       1.    Weiner, P. K. & Kollman, P. A. AMBER: assisted model building with energy refinement. a general program for modeling molecules and their interactions. J. Comp. Chem. 2, 287–303 (1981). - [DOI](https://doi.org/10.1002/jcc.540020311)
+
+## Grants and funding
+
+*   [U01 CA207824/CA/NCI NIH HHS/United States](https://pubmed.ncbi.nlm.nih.gov/?term=U01+CA207824%2FCA%2FNCI+NIH+HHS%2FUnited+States%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant U01 CA207824/CA/NCI NIH HHS/United States")
+*   [R01 GM100058/GM/NIGMS NIH HHS/United States](https://pubmed.ncbi.nlm.nih.gov/?term=R01+GM100058%2FGM%2FNIGMS+NIH+HHS%2FUnited+States%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant R01 GM100058/GM/NIGMS NIH HHS/United States")
+*   [R24 GM136984/GM/NIGMS NIH HHS/United States](https://pubmed.ncbi.nlm.nih.gov/?term=R24+GM136984%2FGM%2FNIGMS+NIH+HHS%2FUnited+States%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant R24 GM136984/GM/NIGMS NIH HHS/United States")
+*   [R01 AI155975/AI/NIAID NIH HHS/United States](https://pubmed.ncbi.nlm.nih.gov/?term=R01+AI155975%2FAI%2FNIAID+NIH+HHS%2FUnited+States%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant R01 AI155975/AI/NIAID NIH HHS/United States")
+*   [U01 CA207824/CA/NCI NIH HHS/United States](https://pubmed.ncbi.nlm.nih.gov/?term=U01+CA207824%2FCA%2FNCI+NIH+HHS%2FUnited+States%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant U01 CA207824/CA/NCI NIH HHS/United States")
+
+*   [R01 GM100058/GM/NIGMS NIH HHS/United States](https://pubmed.ncbi.nlm.nih.gov/?term=R01+GM100058%2FGM%2FNIGMS+NIH+HHS%2FUnited+States%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant R01 GM100058/GM/NIGMS NIH HHS/United States")
+*   [DMR-1933525/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=DMR-1933525%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant DMR-1933525/National Science Foundation (NSF)")
+*   [DMR-1933525/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=DMR-1933525%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant DMR-1933525/National Science Foundation (NSF)")
+*   [DMR-1933525/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=DMR-1933525%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant DMR-1933525/National Science Foundation (NSF)")
+*   [DMR-1933525/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=DMR-1933525%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant DMR-1933525/National Science Foundation (NSF)")
+*   [DMR-1933525/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=DMR-1933525%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant DMR-1933525/National Science Foundation (NSF)")
+*   [DMR-1933525/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=DMR-1933525%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant DMR-1933525/National Science Foundation (NSF)")
+*   [DMR-1933525/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=DMR-1933525%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant DMR-1933525/National Science Foundation (NSF)")
+*   [DMR-1933525/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=DMR-1933525%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant DMR-1933525/National Science Foundation (NSF)")
+*   [DMR-1933525/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=DMR-1933525%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant DMR-1933525/National Science Foundation (NSF)")
+*   [DMR-1933525/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=DMR-1933525%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant DMR-1933525/National Science Foundation (NSF)")
+*   [DMR-1933525/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=DMR-1933525%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant DMR-1933525/National Science Foundation (NSF)")
+*   [2025AFB695/Natural Science Foundation of Hubei Province (Hubei Provincial Natural Science Foundation)](https://pubmed.ncbi.nlm.nih.gov/?term=2025AFB695%2FNatural+Science+Foundation+of+Hubei+Province+%28Hubei+Provincial+Natural+Science+Foundation%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2025AFB695/Natural Science Foundation of Hubei Province (Hubei Provincial Natural Science Foundation)")

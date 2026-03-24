@@ -1,0 +1,75 @@
+Title: Integrated single-cell and spatial mapping coupled with machine learning unveils core stemness landscapes and regulatory drivers in triple-negative breast cancer - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41870799/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 23.
+
+doi: 10.1007/s12672-026-04824-5.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **41870799**
+*    DOI: [10.1007/s12672-026-04824-5](https://doi.org/10.1007/s12672-026-04824-5)
+
+## Integrated single-cell and spatial mapping coupled with machine learning unveils core stemness landscapes and regulatory drivers in triple-negative breast cancer
+
+Zhenzhong Huo et al. Discov Oncol.2026.
+
+## Abstract
+
+**Objective:** Triple-negative breast cancer (TNBC) exhibits pronounced intratumoral heterogeneity, and cancer stem cells (CSCs) are thought to play a pivotal role in this process. However, the molecular regulatory mechanisms linking CSC-associated stemness features to tumor progression remain insufficiently elucidated.
+
+**Methods:** We integrated single-cell RNA sequencing (scRNA-seq), spatial transcriptomics, and bulk transcriptomic data to identify high-stemness cell populations using the inferCNV and CytoTRACE algorithms. Stemness-related genes were evaluated for feature importance through hdWGCNA combined with machine learning approaches, and an XGBoost-based risk prediction model was constructed. Cellular differentiation trajectories were inferred using Monocle3 and scTour, while the effects of core genes on stemness pathways and malignant biological behaviors were assessed via CellChat analysis, SHAP attribution, and scTenifoldKnk-based virtual knockdown experiments.
+
+**Results:** We successfully established a predictive model comprising five core stemness-related genes (CALD1, ANP32B, FIS1, CD82, and APLP2), with the high-stemness score group exhibiting poorer prognosis and enhanced immune evasion. Trajectory analysis confirmed that the high-stemness subpopulation resided at the initiation stage of differentiation. Enrichment analyses revealed highly active Notch signaling communication, and virtual knockdown of hub genes effectively suppressed the expression of stemness markers such as NOTCH1. In addition, drug sensitivity analysis identified BI.2536 and related compounds as exhibiting higher therapeutic sensitivity in the high-risk group.
+
+**Conclusion:** Our predictive model offers a novel perspective on the stemness landscape of TNBC. These core genes play key roles in maintaining stemness and also serve as potential molecular targets for personalized therapies aimed at TNBC stem-like cells.
+
+**Keywords:** Cancer stem cells; Machine learning; Single-cell RNA sequencing; Spatial transcriptomics; Triple-negative breast cancer.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Ethics approval and consent to participate: There are no ethical considerations applicable to our article. Consent for publication: Not applicable. Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Multi-omics comprehensive analysis identified KIF22 and KRAS as highly synthetic lethal pairs for triple-negative breast cancer.](https://pubmed.ncbi.nlm.nih.gov/41727639/)
+
+Miao S, Wang X, Gu Q, Bian C, Fan R, Ni Q, Wang Y, Zhuang Z.Miao S, et al.Front Oncol. 2026 Feb 6;16:1748954. doi: 10.3389/fonc.2026.1748954. eCollection 2026.Front Oncol. 2026.PMID: 41727639 Free PMC article. 
+*   [Comprehensive molecular characterization of high-stemness gastric cancer cells using single-cell transcriptomics, spatial mapping, and machine learning.](https://pubmed.ncbi.nlm.nih.gov/41408440/)
+
+Wang Z, Li X, Wang J, Yu H, Zhao D, Xu Y, Zhou S, Men W.Wang Z, et al.NPJ Precis Oncol. 2025 Dec 17;9(1):400. doi: 10.1038/s41698-025-01177-0.NPJ Precis Oncol. 2025.PMID: 41408440 Free PMC article. 
+*   [Integrated machine learning algorithms identify KIF15 as a potential prognostic biomarker and correlated with stemness in triple-negative breast cancer.](https://pubmed.ncbi.nlm.nih.gov/39271768/)
+
+Guo Q, Qiu P, Pan K, Liang H, Liu Z, Lin J.Guo Q, et al.Sci Rep. 2024 Sep 13;14(1):21449. doi: 10.1038/s41598-024-72406-y.Sci Rep. 2024.PMID: 39271768 Free PMC article. 
+*   [Characterization of pancreatic cancer stem cells and construction of a stem cell-based prognostic signature.](https://pubmed.ncbi.nlm.nih.gov/41436608/)
+
+Fang J, Ji H, Wang M, Zheng B, Zhou J, Xiao C.Fang J, et al.Sci Rep. 2025 Dec 23;16(1):3100. doi: 10.1038/s41598-025-33029-z.Sci Rep. 2025.PMID: 41436608 Free PMC article. 
+*   [Integrated transcriptomics and machine learning reveal REN as a dual regulator of tumor stemness and NK cell evasion in Wilms tumor progression.](https://pubmed.ncbi.nlm.nih.gov/40534868/)
+
+Cao Q, Li J, Zou Y, Xu C, Tang H, Chen M.Cao Q, et al.Front Immunol. 2025 Jun 4;16:1612987. doi: 10.3389/fimmu.2025.1612987. eCollection 2025.Front Immunol. 2025.PMID: 40534868 Free PMC article. 
+
+## References
+
+1.       1.    Xiong X, Zheng LW, Ding Y, Chen YF, Cai YW, Wang LP, et al. Breast cancer: pathogenesis and treatments. Signal Transduct Target Ther. 2025;10(1):49. 
+
+2.       1.    Xu X, Zhang M, Xu F, Jiang S. Wnt signaling in breast cancer: biological mechanisms, challenges and opportunities. Mol Cancer. 2020;19(1):165. 
+
+3.       1.    Verma A, Singh A, Singh MP, Nengroo MA, Saini KK, Satrusal SR, et al. EZH2-H3K27me3 mediated KRT14 upregulation promotes TNBC peritoneal metastasis. Nat Commun. 2022;13(1):7344. 
+
+4.       1.    Bianchini G, Balko JM, Mayer IA, Sanders ME, Gianni L. Triple-negative breast cancer: challenges and opportunities of a heterogeneous disease. Nat Rev Clin Oncol. 2016;13(11):674–90. 
+
+5.       1.    Bai X, Ni J, Beretov J, Graham P, Li Y. Triple-negative breast cancer therapeutic resistance: where is the Achilles’ heel? Cancer Lett. 2021;497:100–11. 
+
+## LinkOut - more resources
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-323)
