@@ -1,0 +1,62 @@
+Title: OptiSyn: an interpretable, multi-omics-driven graph convolutional network framework for synergy-oriented drug combination design in disease treatment - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41877167/
+
+Markdown Content:
+## OptiSyn: an interpretable, multi-omics-driven graph convolutional network framework for synergy-oriented drug combination design in disease treatment
+
+Yinli Shi et al. Chin Med.2026.
+
+## Abstract
+
+**Background:** Bioinformatics and large-scale computational modelling have emerged as essential research fields in modern biomedical science, enabling drug discovery and therapeutic optimisation. A unique and potent technical framework for the modernisation and mechanistic clarification of traditional Chinese medicine (TCM) formulations is provided by the integration of multidimensional data using systems biology and artificial intelligence (AI) techniques.
+
+**Methods:** Ankylosing spondylitis-associated key hub genes were identified using multi-omics datasets, differential gene expression analysis, weighted gene co-expression network analysis, single-cell transcriptomic analysis, Mendelian randomization, and network module partitioning. In order to predict the optimal drug combinations and synergistic principal-auxiliary therapeutic roles, an interpretable, multi-layer graph convolutional network model was built using network topology features, molecular docking data, empirical clinical medication knowledge, and compound clustering similarity.
+
+**Results:** Eight AS-associated hub genes were found using AS as a representative disease model. A possible TCM formula, ASD-A, comprising Myrrha, Drynariae Rhizoma, Lycii Fructus, Epimedii Folium, Achyranthis Bidentatae Radix, Alpiniae Officinarum Rhizoma, Forsythiae Fructus, Astragali Radix, was prioritised by the proposed model. While ablation studies highlighted the crucial role of multi-source information integration in compound formula screening and the creation of customised intervention methods, model performance evaluation showed strong predictive potential. The identified hub genes were found to be tightly linked to immunological responses and T-cell-mediated immune processes, according to functional enrichment analyses. Experiments conducted both in vivo and in vitro confirmed that ASD-A significantly reduced pro-inflammatory cytokines like IL-6 and TNF-α (P < 0.05), modulated the proportions of CD80 and CD86 cell subsets, and regulated the expression of important genes like KRAS, SMAD2, and MAPK14 (P < 0.05). Furthermore, in activated Jurkat cells, ASD-A significantly decreased IL17 fluorescence while increasing Foxp3 fluorescence (P < 0.05), indicating a rebalancing of the IL17/Foxp3 axis. The roles of major and auxiliary components in controlling hub gene activity were further clarified by formula decomposition analysis of ASD-A.
+
+**Conclusion:** The suggested AI-driven formula design approach provides new insights into combinatorial therapy approaches for AS while also conforming to the TCM theory of Jun-Chen-Zuo-Shi principle. The significant potential of combining contemporary bioinformatics and AI techniques with traditional medicine is demonstrated by this study, which could facilitate efficient and mechanistically informed disease therapy.
+
+**Keywords:** Ankylosing spondylitis; Artificial intelligence; Interpretable modeling; Multi-omics integration; T-cell immunity; Traditional Chinese medicine formula.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Competing interests: The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+
+## Similar articles
+
+*   [Network Pharmacology-Driven Sustainability: AI and Multi-Omics Synergy for Drug Discovery in Traditional Chinese Medicine.](https://pubmed.ncbi.nlm.nih.gov/40732361/)
+
+Yang L, Wang H, Zhu Z, Yang Y, Xiong Y, Cui X, Liu Y.Yang L, et al.Pharmaceuticals (Basel). 2025 Jul 21;18(7):1074. doi: 10.3390/ph18071074.Pharmaceuticals (Basel). 2025.PMID: 40732361 Free PMC article.Review. 
+*   [[Scientific connotation of Jianpi Huogu Formula in treating steroid-induced ONFH based on lipid metabolism reprogramming and transcriptional regulatory network].](https://pubmed.ncbi.nlm.nih.gov/41814721/)
+
+Li T, Zhang C, Jia Y, Chen WH, Lin N, Zhang YQ.Li T, et al.Zhongguo Zhong Yao Za Zhi. 2026 Jan;51(2):332-340. doi: 10.19540/j.cnki.cjcmm.20250717.402.Zhongguo Zhong Yao Za Zhi. 2026.PMID: 41814721 Chinese. 
+*   [[Medication law and mechanism of traditional Chinese medicine in prevention and treatment of epidemic diseases: based on traditional Chinese medicine theory of cold pestilence].](https://pubmed.ncbi.nlm.nih.gov/36164884/)
+
+Li ZY, Hao EW, Cao R, Lin S, Chen SY, Huang XT, Xu WR, Hou XT, Deng JG.Li ZY, et al.Zhongguo Zhong Yao Za Zhi. 2022 Sep;47(17):4765-4777. doi: 10.19540/j.cnki.cjcmm.20220528.501.Zhongguo Zhong Yao Za Zhi. 2022.PMID: 36164884 Chinese. 
+*   [Revealing the mechanism of chanling Gao in preventing and treating liver metastasis in colorectal cancer through integrated multi-omics and artificial intelligence.](https://pubmed.ncbi.nlm.nih.gov/41342434/)
+
+Yang B, Huang W, Li J, Sun H, Zhou K, Du C, Liang A, Tang D.Yang B, et al.Int J Surg. 2025 Dec 4. doi: 10.1097/JS9.0000000000004322. Online ahead of print.Int J Surg. 2025.PMID: 41342434 
+
+## References
+
+1.       1.    Shyr ZA, Cheng YS, Lo DC, et al. Drug combination therapy for emerging viral diseases. Drug Discov Today. 2021;26(10):2367–76. [https://doi.org/10.1016/j.drudis.2021.05.008](https://doi.org/10.1016/j.drudis.2021.05.008) . - [DOI](https://doi.org/10.1016/j.drudis.2021.05.008) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/34023496/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/8139175/)
+
+2.       1.    Jiang Y, Yang M, Wang S, et al. Emerging role of deep learning-based artificial intelligence in tumor pathology. Cancer Commun. 2020;40(4):154–66. [https://doi.org/10.1002/cac2.12012](https://doi.org/10.1002/cac2.12012) . - [DOI](https://doi.org/10.1002/cac2.12012)
+
+3.       1.    Salditt M, Humberg S, Nestler S. Gradient tree boosting for hierarchical data. Multivar Behav Res. 2023;58(5):911–37. [https://doi.org/10.1080/00273171.2022.2146638](https://doi.org/10.1080/00273171.2022.2146638) . - [DOI](https://doi.org/10.1080/00273171.2022.2146638)
+
+4.       1.    Zhao W, Wang B, Li S. Network pharmacology for traditional Chinese medicine in era of artificial intelligence. Chin Herb Med. 2024;16(4):558–60. [https://doi.org/10.1016/j.chmed.2024.08.004](https://doi.org/10.1016/j.chmed.2024.08.004) . - [DOI](https://doi.org/10.1016/j.chmed.2024.08.004) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/39606265/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/11589279/)
+
+5.       1.    Zhang P, Zhang D, Zhou W, et al. Network pharmacology: towards the artificial intelligence-based precision traditional Chinese medicine. Brief Bioinform. 2023;25(1):bbad518. [https://doi.org/10.1093/bib/bbad518](https://doi.org/10.1093/bib/bbad518) . - [DOI](https://doi.org/10.1093/bib/bbad518) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/38197310/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/10777171/)
+
+## Grants and funding
+
+*   [ZB2025009/the Fundamental Research Funds for the Central Public Welfare Research Institutes](https://pubmed.ncbi.nlm.nih.gov/?term=ZB2025009%2Fthe+Fundamental+Research+Funds+for+the+Central+Public+Welfare+Research+Institutes%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant ZB2025009/the Fundamental Research Funds for the Central Public Welfare Research Institutes")
+*   [82474682/the National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82474682%2Fthe+National+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82474682/the National Natural Science Foundation of China")
+*   [CI2023C063YLL/Scientific and Technological Innovation Project of China Academy of Chinese Medical Sciences](https://pubmed.ncbi.nlm.nih.gov/?term=CI2023C063YLL%2FScientific+and+Technological+Innovation+Project+of+China+Academy+of+Chinese+Medical+Sciences%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant CI2023C063YLL/Scientific and Technological Innovation Project of China Academy of Chinese Medical Sciences")
+*   [2017ZX09301059/the National Major Scientific and Technological Special Project for Significant New Drugs Development](https://pubmed.ncbi.nlm.nih.gov/?term=2017ZX09301059%2Fthe+National+Major+Scientific+and+Technological+Special+Project+for+Significant+New+Drugs+Development%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2017ZX09301059/the National Major Scientific and Technological Special Project for Significant New Drugs Development")

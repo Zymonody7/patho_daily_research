@@ -1,0 +1,814 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-03-25T19:30:32.022598+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 7,
+    "deep_cap": 9,
+    "deep_selected": 7,
+    "quick_candidates": 10,
+    "quick_skim_target": 14,
+    "quick_selected": 10
+  },
+  "deep_dive": [
+    {
+      "id": "41837859",
+      "title": "Unlocking Enzyme Discovery: A High-Resolution Gene Cluster Database Powered by Phylogenetic Insights and Machine Learning.",
+      "abstract": "High-throughput sequencing has generated vast genomic repositories that remain under-annotated, hampering enzyme discovery. We present an integrated pipeline that (i) builds a high-resolution, cross-kingdom phylogenetic database, (ii) mines candidates via multilocus phylogeny, (iii) predicts activities using an evolutionary-scale protein language model, and (iv) removes false positives through multilevel residue-atom contact rescoring. When applied to the r-BOX pathway, this approach uncovered numerous previously undocumented FadB, BktB, Ter, and YdiI homologues. Our activity model achieved R2 = 0.68 and reduced the RMSE on high-value targets by 11% compared to the prior SOTA (UniKP). Contact scoring improved early enrichment (EF1%) by 16-fold. Experimental validation targeting FadB increased titers from 0.65 g/L (shake flasks) to 1.7 g/L, reaching 10.2 g/L in a fermentation process. Together, these results establish a robust, generalizable framework for discovering scarce, high-value enzymes and prioritizing functional variants at scale.",
+      "authors": [
+        "Sidun Zhang",
+        "Junlong He",
+        "Xuguo Duan",
+        "Zimin Liu",
+        "Zhouge Lan",
+        "Qiong Wang",
+        "Jianyang Wang",
+        "Wenrui Liu",
+        "Qixiao Zhai",
+        "Pablo Cruz-Morales",
+        "Junjun Wu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-25",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41837859/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "evolutionary-scale protein language model for activity prediction",
+      "llm_evidence_cn": "用于活性预测的进化规模蛋白质语言模型",
+      "llm_evidence": "用于活性预测的进化规模蛋白质语言模型",
+      "canonical_evidence": "用于活性预测的进化规模蛋白质语言模型",
+      "llm_tldr_en": "Integrates phylogenetic insights and protein language models for high-resolution enzyme discovery.",
+      "llm_tldr_cn": "结合系统发育见解和蛋白质语言模型，用于高分辨率酶发现。",
+      "llm_tldr": "结合系统发育见解和蛋白质语言模型，用于高分辨率酶发现。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "protein language models for structure function prediction and design",
+      "matched_requirement_id": "req-16",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41877167",
+      "title": "OptiSyn: an interpretable, multi-omics-driven graph convolutional network framework for synergy-oriented drug combination design in disease treatment.",
+      "abstract": "BACKGROUND: Bioinformatics and large-scale computational modelling have emerged as essential research fields in modern biomedical science, enabling drug discovery and therapeutic optimisation. A unique and potent technical framework for the modernisation and mechanistic clarification of traditional Chinese medicine (TCM) formulations is provided by the integration of multidimensional data using systems biology and artificial intelligence (AI) techniques. METHODS: Ankylosing spondylitis-associated key hub genes were identified using multi-omics datasets, differential gene expression analysis, weighted gene co-expression network analysis, single-cell transcriptomic analysis, Mendelian randomization, and network module partitioning. In order to predict the optimal drug combinations and synergistic principal-auxiliary therapeutic roles, an interpretable, multi-layer graph convolutional network model was built using network topology features, molecular docking data, empirical clinical medication knowledge, and compound clustering similarity. RESULTS: Eight AS-associated hub genes were found using AS as a representative disease model. A possible TCM formula, ASD-A, comprising Myrrha, Drynariae Rhizoma, Lycii Fructus, Epimedii Folium, Achyranthis Bidentatae Radix, Alpiniae Officinarum Rhizoma, Forsythiae Fructus, Astragali Radix, was prioritised by the proposed model. While ablation studies highlighted the crucial role of multi-source information integration in compound formula screening and the creation of customised intervention methods, model performance evaluation showed strong predictive potential. The identified hub genes were found to be tightly linked to immunological responses and T-cell-mediated immune processes, according to functional enrichment analyses. Experiments conducted both in vivo and in vitro confirmed that ASD-A significantly reduced pro-inflammatory cytokines like IL-6 and TNF-α (P < 0.05), modulated the proportions of CD80 and CD86 cell subsets, and regulated the expression of important genes like KRAS, SMAD2, and MAPK14 (P < 0.05). Furthermore, in activated Jurkat cells, ASD-A significantly decreased IL17 fluorescence while increasing Foxp3 fluorescence (P < 0.05), indicating a rebalancing of the IL17/Foxp3 axis. The roles of major and auxiliary components in controlling hub gene activity were further clarified by formula decomposition analysis of ASD-A. CONCLUSION: The suggested AI-driven formula design approach provides new insights into combinatorial therapy approaches for AS while also conforming to the TCM theory of Jun-Chen-Zuo-Shi principle. The significant potential of combining contemporary bioinformatics and AI techniques with traditional medicine is demonstrated by this study, which could facilitate efficient and mechanistically informed disease therapy.",
+      "authors": [
+        "Yinli Shi",
+        "Jun Liu",
+        "Guoduan Zeng",
+        "Yuedan Wang",
+        "Shuang Guan",
+        "Muzhi Li",
+        "Sicun Wang",
+        "Yanan Yu",
+        "Weibin Yang",
+        "Zhong Wang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41877167/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "multi-omics-driven graph convolutional network for drug combination design",
+      "llm_evidence_cn": "多组学驱动的图卷积网络用于药物组合设计",
+      "llm_evidence": "多组学驱动的图卷积网络用于药物组合设计",
+      "canonical_evidence": "多组学驱动的图卷积网络用于药物组合设计",
+      "llm_tldr_en": "A GCN framework integrating multi-omics data for interpretable drug synergy prediction and design.",
+      "llm_tldr_cn": "一种整合多组学数据的图卷积网络框架，用于可解释的药物协同预测与设计。",
+      "llm_tldr": "一种整合多组学数据的图卷积网络框架，用于可解释的药物协同预测与设计。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41876492",
+      "title": "Explainable drug side effect prediction in central neural system via biologically informed graph neural network.",
+      "abstract": "The early detection of potential side effects (SEs) is a critical yet formidable challenge within the realms of drug development and patient healthcare management. Conventional in-vitro or in-vivo approaches for SE detection are often not feasible to scale during the preclinical phase for numerous drug candidates. Innovations in explainable artificial intelligence offer the prospect of early detection of potential SEs for novel therapeutics prior to their release in the market, as well as the explication of the underlying biological mechanisms. In this context, we present a novel biologically informed graph-based model, called HHAN-DSI, which capitalizes on multimodal interactions among molecular entities. Applied within the domain of the central nervous system (CNS) - the organ system associated with the largest number of SEs - our model demonstrates its capability to reveal previously unrecognized SEs of various psychiatric drugs. Moreover, HHAN-DSI elucidates the associated biological mechanisms, delineating an intricate network of genes, biological functions, drugs, and SEs.",
+      "authors": [
+        "Tongtong Huang",
+        "Ko-Hong Lin",
+        "Rodrigo Machado-Vieira",
+        "Jair C Soares",
+        "Xiaoqian Jiang",
+        "Yejin Kim"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-25",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41876492/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "biologically informed graph neural network for drug side effect prediction",
+      "llm_evidence_cn": "用于药物副作用预测的生物信息图神经网络",
+      "llm_evidence": "用于药物副作用预测的生物信息图神经网络",
+      "canonical_evidence": "用于药物副作用预测的生物信息图神经网络",
+      "llm_tldr_en": "Introduces a graph-based model for explainable drug side effect prediction using multimodal molecular interactions.",
+      "llm_tldr_cn": "引入了一种基于图的模型，利用多模态分子相互作用进行可解释的药物副作用预测。",
+      "llm_tldr": "引入了一种基于图的模型，利用多模态分子相互作用进行可解释的药物副作用预测。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models and generative AI for drug discovery molecular property prediction and lead optimization",
+      "matched_requirement_id": "req-20",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41879323",
+      "title": "Metagenomic profiling and predictive modeling of the gut microbiome reveal signatures of gestational disease.",
+      "abstract": "The gut microbiome plays a vital role in maternal health and pregnancy outcomes, yet its impact on conditions like gestational hypertension (GH) and gestational diabetes mellitus (GDM) remains poorly understood. This study explores how the gut microbiome differs between pregnant women with these conditions and healthy controls, using metagenomic sequencing to analyze microbial composition and function. Our findings reveal that women with GH and GDM exhibit greater microbiome variability and distinct shifts in bacterial communities compared to healthy pregnancies. Key beneficial bacteria, such as Bacteroides fragilis and Roseburia intestinalis, were reduced in cases, suggesting potential disruptions in gut-related metabolic and immune functions. In addition to multiple differentially abundant species of Sphingobacterium in cases versus controls, functional analysis indicated changes in carbohydrate and lipid metabolism, reinforcing the microbiome's connection to metabolic health. Furthermore, machine learning models demonstrated promising results in predicting disease status based on microbiome data, underscoring the potential for gut bacteria as potential predictive biomarkers for pregnancy-related conditions. These insights highlight the gut microbiome's role in pregnancy health and suggest it may be a promising target for future interventions aimed at reducing complications and improving maternal-fetal outcomes.IMPORTANCEGut microbial dysbiosis has been implicated in pregnancy complications, yet most studies rely on 16S rRNA sequencing, which limits resolution and functional insight. Here, using shotgun metagenomic sequencing and machine learning, we identified robust microbial taxonomic and functional signatures that distinguish gestational hypertension and gestational diabetes from healthy pregnancies. A combined feature set enabled accurate classification of disease status, with overlapping features between statistical and predictive frameworks underscoring biological relevance. Altogether, our study defines high-resolution microbiome signatures with translational potential as predictive biomarkers for maternal health, while also providing an open, reproducible analysis pipeline to support future investigations.",
+      "authors": [
+        "Genevieve A Mortensen",
+        "Haley Schmidt",
+        "Predrag Radivojac",
+        "Yuzhen Ye",
+        "David M Haas"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-25",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41879323/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "metagenomic sequencing and predictive modeling of gut microbiome for disease outcomes",
+      "llm_evidence_cn": "肠道微生物组的宏基因组测序和疾病预测建模",
+      "llm_evidence": "肠道微生物组的宏基因组测序和疾病预测建模",
+      "canonical_evidence": "肠道微生物组的宏基因组测序和疾病预测建模",
+      "llm_tldr_en": "Uses metagenomics and predictive modeling to identify gut microbiome signatures associated with gestational diseases.",
+      "llm_tldr_cn": "利用宏基因组学和预测模型识别与妊娠期疾病相关的肠道微生物组特征。",
+      "llm_tldr": "利用宏基因组学和预测模型识别与妊娠期疾病相关的肠道微生物组特征。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41498623",
+      "title": "New tools for exploring parasite biology and elucidating host-pathogen interactions in cryptosporidiosis.",
+      "abstract": "SUMMARYCryptosporidiosis is a major public health concern, the extent of which has only truly been appreciated within the last decade. Cryptosporidium research has undergone a renaissance, with new insights into population structure, species diversity, and evolution of the parasite driven by the advent of genetic transformation techniques and novel models for culture in vitro and in vivo. Here, we summarize the impact of these advances on our understanding of this important parasite. In the initial section, we focus on what we have learned about host range and infectivity from comparative genomics, briefly review the public health impact of human infection, and summarize recent findings on immune control and interactions with other gut microbes that influence infection. The second half of the review is devoted to new technical advances that have uncovered novel biological findings. As research on Cryptosporidium is still in its infancy, we finish by summarizing some of the challenges and opportunities for future research.",
+      "authors": [
+        "Abigail Kimball",
+        "Wanyi Huang",
+        "Iti Saraav",
+        "Lisa Funkhouser-Jones",
+        "Valentin Greigert",
+        "Fuxian Yang",
+        "Rui Xu",
+        "Yaoyu Feng",
+        "Lihua Xiao",
+        "L David Sibley"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-25",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41498623/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Comparative genomics and novel models for exploring host-pathogen interactions in cryptosporidiosis",
+      "llm_evidence_cn": "比较基因组学和探索隐孢子虫病宿主-病原体相互作用的新模型",
+      "llm_evidence": "比较基因组学和探索隐孢子虫病宿主-病原体相互作用的新模型",
+      "canonical_evidence": "比较基因组学和探索隐孢子虫病宿主-病原体相互作用的新模型",
+      "llm_tldr_en": "Summarizes advances in genomics and models for understanding parasite biology and host-pathogen interactions.",
+      "llm_tldr_cn": "总结了利用基因组学和模型理解寄生虫生物学及宿主-病原体相互作用的进展。",
+      "llm_tldr": "总结了利用基因组学和模型理解寄生虫生物学及宿主-病原体相互作用的进展。",
+      "llm_tags": [
+        "query:pathoai:composite"
+      ],
+      "matched_query_tag": "query:pathoai:composite",
+      "matched_query_text": "Papers central to 病原组学中的 AI 方法, especially work that connects or combines: foundation models for pathogen genomes and pathogen biology; machine learning for metagenomic pathogen classification; deep learning models for pathogen detection from sequencing data; AI methods for genomic surveillance and outbreak monitoring; machine learning for antimicrobial resistance prediction from genomes; machine learning for phylogenetic and transmission inference; multimodal models combining pathogen sequence phenotype and metadata; machine learning for microbiome host interaction pathogen ecology and infection modeling; AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design; foundation models for pathogen genome understanding and surveillance.",
+      "matched_requirement_id": "req-composite-pathoai",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41875404",
+      "title": "HiCMamba: Enhancing Hi-C resolution and identifying 3D genome structures with state space modeling.",
+      "abstract": "Hi-C technology measures genome-wide interaction frequencies, providing a powerful tool for studying the 3D genomic structure within the nucleus. However, high sequencing costs and technical challenges often result in Hi-C data with limited coverage, leading to imprecise estimates of chromatin interaction frequencies. To address this issue, we present a novel deep learning-based method HiCMamba to enhance the resolution of Hi-C contact maps using a state space model. We adopt the UNet-based auto-encoder architecture to stack the proposed holistic scan block, enabling the perception of both global and local receptive fields at multiple scales. Experimental results demonstrate that HiCMamba outperforms state-of-the-art methods while significantly reducing computational resources. Furthermore, the 3D genome structures, including topologically associating domains (TADs) and loops, identified in the contact maps recovered by HiCMamba are validated through associated epigenomic features. Our work demonstrates the potential of a state space model as foundational frameworks in the field of Hi-C resolution enhancement. The data and source code used in this work are available at GitHub: https://github.com/myang998/HiCMamba.",
+      "authors": [
+        "Minghao Yang",
+        "Zhi-An Huang",
+        "Zhihang Zheng",
+        "Yuqiao Liu",
+        "Shichen Zhang",
+        "Pengfei Zhang",
+        "Hui Xiong",
+        "Shaojun Tang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41875404/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "state space modeling for enhancing Hi-C resolution",
+      "llm_evidence_cn": "用于增强 Hi-C 分辨率的状态空间建模",
+      "llm_evidence": "用于增强 Hi-C 分辨率的状态空间建模",
+      "canonical_evidence": "用于增强 Hi-C 分辨率的状态空间建模",
+      "llm_tldr_en": "Introduces HiCMamba, a state space model to enhance Hi-C contact map resolution and 3D genome analysis.",
+      "llm_tldr_cn": "引入 HiCMamba，一种用于增强 Hi-C 接触图分辨率和 3D 基因组分析的状态空间模型。",
+      "llm_tldr": "引入 HiCMamba，一种用于增强 Hi-C 接触图分辨率和 3D 基因组分析的状态空间模型。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "foundation models for genomic sequencing signal read and variant analysis",
+      "matched_requirement_id": "req-38",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41877484",
+      "title": "CRISPR-Cas9-Mediated Upregulation of Utrophin Ameliorates Duchenne Muscular Dystrophy.",
+      "abstract": "Duchenne muscular dystrophy is a lethal neuromuscular disorder caused by loss of dystrophin. Upregulating utrophin, a dystrophin paralogue, is a promising gene therapy approach. Here, we present a CRISPR-Cas9-based strategy to enhance utrophin expression by disrupting repressor binding sites. Using a Cas9/gRNA ribonucleoprotein complex we disrupted several such sites in DMD myoblasts and identified micro-RNA Let-7c binding site as effective in relieving repression of the UTRN gene. Interestingly, Cas9-generated indels were as effective as the complete removal of Let-7c binding site in upregulating UTRN expression, with minimal off-target effects. In a three-dimensional tissue-engineered human skeletal muscle model of DMD, this editing strategy resulted in significant utrophin upregulation and functional improvements of calcium dysregulation and muscle contraction. Finally, in mdx mice, local or systemic delivery of recombinant adeno-associated viruses encoding Cas9 and gRNA targeting the Let-7c binding site resulted in utrophin upregulation and amelioration of muscle histopathology and function. These findings provide the foundations for a mutation-independent, potentially universal gene editing therapeutic strategy for DMD.",
+      "authors": [
+        "Maëlle Ralu",
+        "Simon Guiraud",
+        "Sumitava Dastidar",
+        "Paola Galbiati",
+        "Emilia Sadaoui",
+        "Fetta Mazed",
+        "Fatima Amor",
+        "Anne de Cian",
+        "Isabelle Richard",
+        "Kamel Mamchaoui",
+        "Giuseppe Ronzitti",
+        "Francesco Saverio Tedesco",
+        "Mario Amendola"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41877484/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "CRISPR-Cas9 guide design and genome editing for therapeutic upregulation",
+      "llm_evidence_cn": "用于治疗性上调的CRISPR-Cas9引导设计和基因组编辑",
+      "llm_evidence": "用于治疗性上调的CRISPR-Cas9引导设计和基因组编辑",
+      "canonical_evidence": "用于治疗性上调的CRISPR-Cas9引导设计和基因组编辑",
+      "llm_tldr_en": "Demonstrates a CRISPR-Cas9 strategy to treat Duchenne muscular dystrophy by upregulating utrophin expression.",
+      "llm_tldr_cn": "展示了一种通过CRISPR-Cas9上调尿囊素表达来治疗杜氏肌营养不良症的策略。",
+      "llm_tldr": "展示了一种通过CRISPR-Cas9上调尿囊素表达来治疗杜氏肌营养不良症的策略。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "machine learning for CRISPR guide design genome editing outcome prediction and off target modeling",
+      "matched_requirement_id": "req-21",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "41641960",
+      "title": "The bacteriophage-encoded regulator PemR attenuates",
+      "abstract": "The global challenge of multidrug-resistant Pseudomonas aeruginosa demands innovative anti-virulence approaches. We characterize PemR, a novel transcriptional regulator encoded by P. aeruginosa phage PAYQ66, which orchestrates multimodal virulence attenuation in P. aeruginosa. Biochemical analyses demonstrated that PemR directly binds to the mvfR promoter, resulting in significant repression of this key quorum-sensing regulator. This repression, in turn, induces profound metabolic reprogramming by redirecting metabolic flux away from PQS biosynthesis toward catechol accumulation. PemR globally attenuates virulence phenotypes, including pyocyanin production, rhamnolipid synthesis, motility, and biofilm formation. Transcriptomic profiling further reveals that PemR upregulates rsmA to suppress the type VI secretion system, thereby potentially modulating the host's interaction with competing bacteria in polymicrobial environments. The motility analysis shows that PemR suppresses bacterial swimming, swarming, and twitching at gene expression levels. Overall, infection models demonstrate that PemR significantly inhibits bacterial virulence. As the first reported phage-encoded transcriptional hijacker of the mvfR regulon, PemR concurrently disrupts quorum sensing and bacterial pathogenicity, offering a strategic blueprint for novel anti-virulence therapeutics targeting multidrug-resistant pathogens.IMPORTANCEThis study identifies a novel bacteriophage-encoded regulator PemR that simultaneously disrupts multiple virulence pathways in the opportunistic pathogen P. aeruginosa. By hijacking a key bacterial quorum-sensing (QS) system and reprogramming host metabolism, PemR significantly reduces pathogenicity without killing the bacteria. This work reveals a sophisticated strategy phages use to manipulate their hosts and provides a promising blueprint for developing next-generation anti-virulence therapeutics. Such approaches aim to disarm dangerous bacteria rather than eliminate them, potentially slowing the emergence of antibiotic resistance and offering new strategies against multidrug-resistant infections.",
+      "authors": [
+        "Wenbo Yan",
+        "Yingxin Yang",
+        "Jiahui Cao",
+        "Mengyao Zhang",
+        "Yiming Yang",
+        "Chao Li",
+        "Nan Zhang",
+        "Lixin Yuan",
+        "Meng Li",
+        "Lijun Liu",
+        "Yani Zhang",
+        "Shiwei Wang",
+        "Tietao Wang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41641960/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Characterization of a phage-encoded regulator for anti-virulence and metabolic reprogramming in P. aeruginosa",
+      "llm_evidence_cn": "表征噬菌体编码的调节因子，用于铜绿假单胞菌的抗毒力和代谢重编程",
+      "llm_evidence": "表征噬菌体编码的调节因子，用于铜绿假单胞菌的抗毒力和代谢重编程",
+      "canonical_evidence": "表征噬菌体编码的调节因子，用于铜绿假单胞菌的抗毒力和代谢重编程",
+      "llm_tldr_en": "Identifies a phage regulator that attenuates pathogen virulence, supporting target identification.",
+      "llm_tldr_cn": "鉴定出一种能减弱病原体毒力的噬菌体调节因子，支持药物靶点识别。",
+      "llm_tldr": "鉴定出一种能减弱病原体毒力的噬菌体调节因子，支持药物靶点识别。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41856646",
+      "title": "[Analysis of influencing factors of incisional infection and construction of risk prediction model in laparoscopic colorectal cancer surgery].",
+      "abstract": "Objective: To analyze the risk factors for incisional surgical site infection (I-SSI) after laparoscopic colorectal cancer surgery and to construct a risk prediction model, thereby providing a basis for precise clinical prevention. Methods: A retrospective observational study was conducted involving 919 patients who underwent laparoscopic radical colorectal cancer resection at Subei People's Hospital of Yangzhou University of Jiangsu Province from February 2018 to February 2022. The inclusion criteria were as follows: (1) Age ≥ 18 years; (2) Postoperative pathological confirmation of colon or rectal cancer; (3) Surgical approach involving laparoscopic radical resection (including laparoscopic-assisted or totally laparoscopic surgery); and (4) Complete clinicopathological data (including baseline data, surgical records, and postoperative follow-up records). The exclusion criteria included: conversion to open surgery or failure to complete the predetermined surgical plan; concurrent severe infectious diseases (e.g., sepsis or abscess) or immunodeficiency diseases (e.g., AIDS or long-term use of immunosuppressants); severe liver or kidney dysfunction (Child-Pugh grade C); preoperative neoadjuvant chemoradiotherapy; distant metastasis (Stage IV); or concurrent other malignancies. Data including age, gender, body mass index (BMI), medical history, tumor size, prophylactic antibiotic use, surgical type, surgical site, auxiliary incision direction, and incision length were extracted from the electronic medical record system. The primary outcome measure was I-SSI, diagnosed according to the 2017 Centers for Disease Control and Prevention (CDC) guidelines for the prevention of surgical site infection (criteria included purulent drainage, pathogen detection, signs of infection such as pain/redness/swelling/heat, or incision opening by a surgeon within 30 days post-surgery). Univariate and multivariate Logistic regression analyses were used to screen for infection-related risk factors. A nomogram prediction model was constructed using R software, and its performance was evaluated using the Receiver Operating Characteristic (ROC) curve and calibration plot. Results: Among the 919 patients, 55 (6.0%) developed I-SSI (infection group), while the remaining 864 (94.0%) constituted the non-infection group. Compared with the non-infection group, the infection group had significantly higher prevalences of diabetes and hypoproteinemia, higher BMI, and higher proportions of emergency surgery and longitudinal incisions (all P<0.05); the rate of preoperative prophylactic antibiotic use was lower (P=0.022), and the minimum tumor diameter measured by preoperative CT was larger (P<0.001). The difference between incision length and minimum tumor diameter differed significantly between the two groups (P=0.011). Multivariate analysis indicated that diabetes (OR=2.05, 95%CI: 1.10-3.79, P=0.023), hypoproteinemia (OR=3.52, 95%CI: 1.73-7.17, P<0.001), BMI (per 1-unit increase: OR=1.10, 95%CI: 1.02-1.19, P=0.011), and longitudinal incision (OR=2.32, 95%CI: 1.09-4.92, P=0.029) were independent risk factors for postoperative I-SSI. Conversely, elective surgery (OR=0.35, 95%CI: 0.16-0.80, P=0.012), preoperative prophylactic antibiotic use (OR=0.44, 95%CI: 0.24-0.78, P=0.005), and an incision length greater than the minimum tumor diameter (Difference >1-2 cm: OR=0.35, 95%CI: 0.15-0.81, P=0.015; Difference Conclusions: Diabetes, hypoproteinemia, elevated BMI, and longitudinal incisions are independent risk factors for I-SSI in laparoscopic colorectal cancer surgery, whereas elective surgery, preoperative prophylactic antibiotic use, and ensuring the incision length is greater than the minimum tumor diameter are independent protective factors. The nomogram prediction model constructed based on these factors demonstrates good predictive performance and can effectively identify patients at high risk of postoperative incision infection, providing a reference for precise clinical prevention and intervention.",
+      "authors": [
+        "B Liu",
+        "J C Zou",
+        "W Wang",
+        "J Ren",
+        "L H Wang",
+        "D R Wang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-25",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41856646/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Construction of a risk prediction model for surgical site infection using retrospective clinical data",
+      "llm_evidence_cn": "利用回顾性临床数据构建手术部位感染风险预测模型",
+      "llm_evidence": "利用回顾性临床数据构建手术部位感染风险预测模型",
+      "canonical_evidence": "利用回顾性临床数据构建手术部位感染风险预测模型",
+      "llm_tldr_en": "Develops a clinical risk model to predict postoperative infection outcomes.",
+      "llm_tldr_cn": "开发了一个临床风险模型来预测术后感染结果。",
+      "llm_tldr": "开发了一个临床风险模型来预测术后感染结果。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41875004",
+      "title": "Discrete Tokenization for Multimodal LLMs: A Comprehensive Survey.",
+      "abstract": "The rapid advancement of large language models (LLMs) has intensified the need for effective mechanisms to transform continuous multimodal data into discrete representations suitable for language-based processing. Discrete tokenization, with vector quantization (VQ) as a central approach, offers both computational efficiency and compatibility with LLM architectures. Despite its growing importance, there is a lack of a comprehensive survey that systematically examines VQ techniques in the context of LLM-based systems. This work fills this gap by presenting the first structured taxonomy and analysis of discrete tokenization methods designed for LLMs. We categorize 8 representative VQ variants that span classical and modern paradigms and analyze their algorithmic principles, training dynamics, and integration challenges with LLM pipelines. Beyond algorithm-level investigation, we discuss existing research in terms of classical applications without LLMs, LLM-based single-modality systems, and LLM-based multimodal systems, highlighting how quantization strategies influence alignment, reasoning, and generation performance. In addition, we identify key challenges including codebook collapse, unstable gradient estimation, and modality-specific encoding constraints. Finally, we discuss emerging research directions such as dynamic and task-adaptive quantization, unified tokenization frameworks, and biologically inspired codebook learning. This survey bridges the gap between traditional vector quantization and modern LLM applications, serving as a foundational reference for the development of efficient and generalizable multimodal systems. A continuously updated version is available at: https://github.com/jindongli-Ai/LLM-Discrete-Tokenization-Survey.",
+      "authors": [
+        "Jindong Li",
+        "Yali Fu",
+        "Jiahong Liu",
+        "Linxiao Cao",
+        "Wei Ji",
+        "Menglin Yang",
+        "Irwin King",
+        "Ming-Hsuan Yang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41875004/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "discrete tokenization for multimodal LLMs and language-based processing",
+      "llm_evidence_cn": "多模态大语言模型的离散标记化与语言处理",
+      "llm_evidence": "多模态大语言模型的离散标记化与语言处理",
+      "canonical_evidence": "多模态大语言模型的离散标记化与语言处理",
+      "llm_tldr_en": "Provides a comprehensive survey of discrete tokenization methods for integrating multimodal data into LLMs.",
+      "llm_tldr_cn": "全面综述了将多模态数据整合到大语言模型中的离散标记化方法。",
+      "llm_tldr": "全面综述了将多模态数据整合到大语言模型中的离散标记化方法。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "multimodal models combining sequence structure phenotype and text",
+      "matched_requirement_id": "req-24",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41874169",
+      "title": "The post-translational adaptor protein SadB modulates the pathogenicity of",
+      "abstract": "In Pseudomonas aeruginosa, SadB acts as a post-translational adaptor protein that binds to the transcriptional regulator AmrZ. Deletion of sadB results in a biofilm-defective, hyperswarming phenotype. To investigate whether SadB contributes to virulence, we employed in vivo bioluminescence imaging and histopathology to visualize the development of infection in a mouse soft tissue model. Compared with the parent PAO1 strain, the sadB mutant was highly attenuated and rapidly cleared from the infection site, whereas genetic complementation conferring constitutive expression of sadB resulted in a much more persistent phenotype. Transcriptome analysis was undertaken to gain insights into the global impact of SadB, revealing that it modulates expression of diverse genes involved in biofilm development, quorum sensing (QS), secondary metabolite production, iron acquisition, virulence, protein secretion, and anaerobiosis. In the sadB mutant, we observed log-phase induction of the rhl and pqs QS systems, increased production of siderophores and pyocyanin, differential regulation of genes involved in c-di-GMP signaling, and a growth defect under microaerophilic conditions. The overproduction of rhamnolipids is consistent with the hyperswarming, biofilm-defective phenotype of the sadB mutant since rhamnolipids act as anti-adhesive surface lubricants. Deletion of rhlA in the sadB mutant resulted in the restoration of biofilm formation, offering mechanistic insight into the biofilm-defective phenotype of the sadB mutant. SadB clearly plays a global role in the adaptive behavior and virulence of P. aeruginosa.IMPORTANCEBiofilms are characterized by their intrinsic tolerance to antibiotics, host immune defenses, and ability to cause persistent infections. In Pseudomonas aeruginosa, mutation of the surface attachment defect gene, sadB, results in cells that are biofilm-defective, hyperswarmers. Here, we sought to determine whether SadB regulates virulence and influences the development of infection. In a mouse skin infection model, a P. aeruginosa sadB deletion mutant was highly attenuated. We also demonstrate that SadB regulates many different genes involved in virulence, quorum sensing, iron acquisition, protein secretion, and anaerobiosis as well as biofilm formation, highlighting a broader role in pathogenesis than previously recognized. Consequently, SadB has potential as a novel protein target for antibacterial drug discovery.",
+      "authors": [
+        "Maria Papangeli",
+        "Jeni Luckett",
+        "Stephan Heeb",
+        "Morgan R Alexander",
+        "Paul Williams",
+        "Jean-Frédéric Dubern"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41874169/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Transcriptome analysis of pathogen virulence and infection modeling",
+      "llm_evidence_cn": "病原体毒力与感染模型的转录组分析",
+      "llm_evidence": "病原体毒力与感染模型的转录组分析",
+      "canonical_evidence": "病原体毒力与感染模型的转录组分析",
+      "llm_tldr_en": "Investigates the role of SadB in Pseudomonas aeruginosa pathogenicity using infection models and transcriptomics.",
+      "llm_tldr_cn": "通过感染模型和转录组分析研究SadB蛋白在铜绿假单胞菌致病性中的作用。",
+      "llm_tldr": "通过感染模型和转录组分析研究SadB蛋白在铜绿假单胞菌致病性中的作用。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41875330",
+      "title": "NEAT-DNA: A Chemically Accurate, Sequence-Dependent Coarse-Grained Model for Large-Scale DNA Simulations.",
+      "abstract": "DNA's physical properties play a central role in genome organization and regulation, but simulating its behavior across biologically relevant scales remains a major computational challenge. Coarse grained DNA models have enabled faster simulations, yet they often sacrifice chemical accuracy or produce unphysical conformations, limiting their utility for studying genome structure. A key difficulty has been constructing a model that is both efficient enough for large-scale simulations and faithful to the molecular mechanics of DNA. Here, we introduce NEAT-DNA, a new coarse-grained DNA model that resolves longstanding limitations in physical realism and parameter optimization. By combining a physically principled energy formulation with a unified training framework that integrates data from both atomistic simulations and experiments, NEAT-DNA accurately reproduces sequence-dependent structure and flexibility while remaining computationally efficient. This approach marks a significant advance over previous models, which either lacked sequence specificity or introduced distortions inconsistent with experimental observations. NEAT-DNA bridges this gap, offering a high-fidelity yet tractable representation of DNA suitable for exploring chromatin folding. More broadly, it provides a foundation for large-scale simulations that couple molecular detail with gene-level chromatin organization, opening new avenues for predictive modeling in structural genomics.",
+      "authors": [
+        "Ivan Riveros",
+        "Bin Zhang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41875330/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "coarse-grained model for large-scale DNA simulations and genome organization",
+      "llm_evidence_cn": "用于大规模DNA模拟和基因组组织的粗粒度模型",
+      "llm_evidence": "用于大规模DNA模拟和基因组组织的粗粒度模型",
+      "canonical_evidence": "用于大规模DNA模拟和基因组组织的粗粒度模型",
+      "llm_tldr_en": "Introduces NEAT-DNA, a chemically accurate model for efficient large-scale simulations of DNA physical properties.",
+      "llm_tldr_cn": "引入NEAT-DNA，一种用于高效大规模DNA物理特性模拟的化学精确模型。",
+      "llm_tldr": "引入NEAT-DNA，一种用于高效大规模DNA物理特性模拟的化学精确模型。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models for DNA RNA protein and cell biology",
+      "matched_requirement_id": "req-15",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41875159",
+      "title": "Unique structural and ligand-binding properties of the",
+      "abstract": "Staphylococcus aureus is a human pathogen capable of forming biofilms that complicate treatment and facilitate chronic infections. A family of S. aureus serine hydrolases are important regulators of virulence and biofilm formation. Among these, FphE is highly specific to S. aureus and therefore a viable target for both imaging and therapy. Here, we present bioinformatic and structural evidence that FphE may be involved in aromatic compound metabolism. In addition, 12 distinct crystal forms reveal that FphE exists as a highly unusual but stable and flexible, cross-subunit homodimer, unique to the large alpha/beta hydrolase superfamily. Substrate engagement favors retention of the dimeric state, which is a more catalytically active form of the enzyme, and small-angle X-ray scattering confirms that the dimeric architecture occurs in solution. High-resolution cocrystal structures of FphE covalently bound to two chemically distinct ligands reveal different modes of active site engagement, supporting an atypical structural plasticity of the dimer interface. Together, these findings establish FphE as a structurally unique alpha/beta hydrolase and provide a foundation for structure-guided development of S. aureus-specific inhibitors and imaging probes.",
+      "authors": [
+        "Jeyun Jo",
+        "Tulsi Upadhyay",
+        "Xiangyan You",
+        "John M Bennett",
+        "Hyunbin Lee",
+        "Matthew Bogyo",
+        "Matthias Fellner"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-31",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41875159/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "bioinformatic and structural evidence for pathogen target identification",
+      "llm_evidence_cn": "病原体靶点识别的生物信息学和结构证据",
+      "llm_evidence": "病原体靶点识别的生物信息学和结构证据",
+      "canonical_evidence": "病原体靶点识别的生物信息学和结构证据",
+      "llm_tldr_en": "Investigates the structure of S. aureus FphE as a potential therapeutic target for treating biofilm infections.",
+      "llm_tldr_cn": "研究金黄色葡萄球菌FphE的结构，将其作为治疗生物膜感染的潜在治疗靶点。",
+      "llm_tldr": "研究金黄色葡萄球菌FphE的结构，将其作为治疗生物膜感染的潜在治疗靶点。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41876608",
+      "title": "A lasso-based model combining miRNA and clinical variables predicts future risk of breast and ovarian cancer.",
+      "abstract": "Hereditary breast and ovarian cancer syndrome (HBOC) is principally caused by germline mutations in BRCA1 and BRCA2. However, most women with HBOC are undiagnosed, and some patients meeting clinical criteria for HBOC will have no identifiable mutation after genetic testing. Here, we deploy a lasso-based model to combine serum miRNA profiles with clinical data to identify women at elevated risk for ovarian cancer among a population of 1831 individuals enrolled in an institutional biobank. The miRNA and metadata variables are mapped to two-dimensional space using lasso, after which a linear classification model is trained to estimate \"BRCAness\" and long-term risk of cancer. After tenfold cross-validation, the method offers a BRCA prediction AUC score of 0.98 (95% CI 0.94-1.0) and generalizes across subgroups stratified by age, cancer history, and racial/ethnic group. To demonstrate the clinical relevance of this phenotype, we use the lasso-based model to assess 5-year ovarian cancer risk among an independent cohort of 1044 subjects agnostic to genetic testing results enrolled in a randomized clinical trial. In this unselected population, the output of the lasso-based model strongly correlates to the log 5-year relative risk of ovarian cancer (R = 0.93, 95% CI 0.83-0.97, p < 0.0001). When the model was used to predict future onset of ovarian cancer directly, the AUC offered was AUC = 0.75 (95% CI 0.70-0.78). Together, these data suggest the proposed model is a predictor of future ovarian cancer risk.",
+      "authors": [
+        "James W Webber",
+        "Laura Wollborn",
+        "Sudhanshu Mishra",
+        "Stephanie Alimena",
+        "Bryanna Testino",
+        "Konrad Stawiski",
+        "Wojciech Fendler",
+        "Dipanjan Chowdhury",
+        "Kevin M Elias"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41876608/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "lasso-based model combining miRNA and clinical variables",
+      "llm_evidence_cn": "结合 miRNA 和临床变量的 lasso 模型",
+      "llm_evidence": "结合 miRNA 和临床变量的 lasso 模型",
+      "canonical_evidence": "结合 miRNA 和临床变量的 lasso 模型",
+      "llm_tldr_en": "Uses a lasso-based model to integrate miRNA and clinical data for cancer risk prediction.",
+      "llm_tldr_cn": "使用基于 lasso 的模型整合 miRNA 和临床数据进行癌症风险预测。",
+      "llm_tldr": "使用基于 lasso 的模型整合 miRNA 和临床数据进行癌症风险预测。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "machine learning for multi omics integration",
+      "matched_requirement_id": "req-25",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41877296",
+      "title": "Functional xenogeneic hematopoietic cells maintaining donor-dominant identity and immune tolerance enable therapy.",
+      "abstract": "BACKGROUND: The clinical supply of hematopoietic cells is severely constrained by the limitations of donor donation and inefficient in vitro generation. While generating these cells within interspecies chimeras presents a groundbreaking alternative, the fundamental biological properties and therapeutic potential of the resulting xenogeneic hematopoietic cells remain poorly characterized. METHODS: We generated xenogeneic hematopoietic cells in rodent models via blastocyst complementation and bone marrow transplantation. A comprehensive comparative analysis of these cells was conducted using single-cell RNA sequencing and proteomics. Their functional efficacy was rigorously evaluated through reverse transplantation into a series of donor-species disease models, including hemorrhagic anemia, thalassemia, thrombocytopenia, and leukemia. RESULTS: Bone marrow transplantation yielded significantly higher chimeric efficiency than blastocyst complementation. Xenogeneic hematopoietic cells, including red blood cells, platelets, and white blood cells, exhibited a transcriptional and proteomic profile that was dominantly donor-specific. Crucially, these cells did not elicit significant immune rejection upon reverse transfusion. Functionally, xenogeneic red blood cells rescued models of hemorrhagic anemia and thalassemia, platelets alleviated thrombocytopenia, and xenogeneic T cells engineered with a chimeric antigen receptor effectively suppressed leukemia progression. Furthermore, the implantation of xenogeneic hematopoietic cells partially reconstituted splenic morphology and function in immunodeficient recipients. CONCLUSION: Our study provides the first comprehensive functional validation of xenogeneic hematopoietic cells generated in interspecies bioreactors. We definitively show that these cells possess donor-like molecular identities, evade immune rejection, and serve as effective \"seed cells\" to rescue a wide spectrum of hematologic diseases. This work establishes a transformative paradigm for utilizing interspecies chimeras to overcome critical shortages in transfusion and cellular therapies.",
+      "authors": [
+        "Shumin Xiong",
+        "Ren Zhou",
+        "Chuijin Wei",
+        "Xiaomin Wang",
+        "Yunhan Tang",
+        "Liaoliao Dong",
+        "Ping Yu",
+        "Duanqing Pei",
+        "Zhu Chen",
+        "Sai-Juan Chen",
+        "Lin Cheng"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41877296/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Single-cell RNA sequencing and proteomics for hematopoietic cell analysis",
+      "llm_evidence_cn": "单细胞RNA测序和蛋白质组学用于造血细胞分析",
+      "llm_evidence": "单细胞RNA测序和蛋白质组学用于造血细胞分析",
+      "canonical_evidence": "单细胞RNA测序和蛋白质组学用于造血细胞分析",
+      "llm_tldr_en": "Uses single-cell RNA-seq and proteomics to characterize xenogeneic hematopoietic cells in rodent models.",
+      "llm_tldr_cn": "利用单细胞RNA测序和蛋白质组学技术对啮齿动物模型中的异种造血细胞进行表征。",
+      "llm_tldr": "利用单细胞RNA测序和蛋白质组学技术对啮齿动物模型中的异种造血细胞进行表征。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "single cell sequencing and spatial transcriptomics analysis with machine learning",
+      "matched_requirement_id": "req-40",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41876849",
+      "title": "Enzyme-constrained genome-scale model of Yarrowia lipolytica predicts growth-phase specific metabolic engineering targets.",
+      "abstract": "The oleaginous yeast Yarrowia lipolytica has been gaining increasing importance as an industrial biotech platform, supported by several available metabolic engineering tools. Genome-scale models (GEMs) are relevant to the iterative improvement of this yeast, and their predictive ability is enhanced by enzymatic activity constraints (ecGEMs). Although the newest tools for ecGEM reconstruction use deep learning to expand the coverage of these constraints, this approach has not yet been applied to Y. lipolytica models. This paper describes the reconstruction of an ecGEM of Y. lipolytica (eciYali5-GEM) and its application in predicting metabolic engineering targets for enhanced lipid and carotenoid production, respectively, in this yeast. To achieve this, we constrained a manually curated Y. lipolytica model with physiological flux and mass-spectrometry proteomics data collected from distinct growth phases of two engineered strains (producing lipids and carotenoids, respectively) and their parental strain. We found that the enzymatic constraints enable the prediction of growth-phase-specific metabolic engineering targets, a feature not displayed by regular GEMs. Combining these targets with other ecGEM-based insights, we propose two strategies for further metabolic engineering, including the use of inducible promoters for precise, growth-phase-specific expression of targets such as phytoene dehydrogenase for carotenoid production. These targets included genes previously validated elsewhere, as well as novel genes awaiting experimental validation. This model, which is publicly available, can be similarly adapted and used by different metabolic engineering efforts, making it a versatile tool for the development of Y. lipolytica as a microbial cell factory. KEY POINTS: • eciYali5-GEM reconstruction used in silico and in vitro proteomics data. • Enzyme constraints enriched Y. lipolytica ecGEM predictions. • eciYali5-GEM improves metabolic engineering rational design.",
+      "authors": [
+        "Juliano Sabedotti De Biaggi",
+        "Young-Kyoung Park",
+        "Eduard J Kerkhoven",
+        "Rodrigo Ledesma-Amaro",
+        "Petri-Jaan Lahtvee"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41876849/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Deep learning for enzyme constraints in genome-scale metabolic models",
+      "llm_evidence_cn": "深度学习用于基因组规模代谢模型中的酶约束",
+      "llm_evidence": "深度学习用于基因组规模代谢模型中的酶约束",
+      "canonical_evidence": "深度学习用于基因组规模代谢模型中的酶约束",
+      "llm_tldr_en": "Reconstructs an enzyme-constrained metabolic model for Y. lipolytica using deep learning to predict engineering targets.",
+      "llm_tldr_cn": "利用深度学习构建解脂耶罗维亚酵母的酶约束代谢模型，用于预测代谢工程靶点。",
+      "llm_tldr": "利用深度学习构建解脂耶罗维亚酵母的酶约束代谢模型，用于预测代谢工程靶点。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41879310",
+      "title": "The respiratory microbiome in pulmonary tuberculosis: a meta-analysis reveals niche-specific microbial and functional signatures.",
+      "abstract": "UNLABELLED: Tuberculosis (TB) remains a major global health challenge. The close relationship between the microbiome and the host is becoming increasingly notable. While studies on the respiratory microbiome in pulmonary tuberculosis (PTB) exist, a comprehensive understanding of microbial characteristics across the entire respiratory tract is still lacking. To address this, we conducted a meta-analysis by integrating data from common and representative respiratory samples. We integrated 16S rRNA data from 11 public datasets encompassing upper respiratory tract specimens (URTs), sputum, and bronchoalveolar lavage fluid (BALF). Ecological patterns were investigated through co-occurrence networks and neutral community modeling, while taxonomic and functional analyses were conducted with QIIME2 and PICRUSt2. The respiratory microbiota in PTB exhibited dynamic variations while sharing common genera, such as Streptococcus, Prevotella, Veillonella, and Neisseria. Alpha diversity was consistently higher in PTB than in healthy controls, with BALF exhibiting the greatest microbial diversity. Several differentially abundant genera were identified among the three sample types, Serratia being almost exclusively detected in BALF. Notably, the microbial interaction network in sputum was more complex and demonstrated the best fit to the neutral community model. Functional predictions highlighted enriched pathways such as peptidoglycan maturation and ABC transporters, and Bacillus was linked to multiple metabolic pathways. Several KO functions were predicted to be more active in URTs and sputum than in BALF. Our multi-scale analysis delineates a niche-specific biogeography of the respiratory microbiome in PTB. By elucidating community assembly and microbe interplay, we position the respiratory microbiota as an active contributor to TB. This work paves the way for novel microbiota-based diagnostics and ecologically informed therapies. IMPORTANCE: Pulmonary tuberculosis (PTB) remains a leading cause of global mortality, yet the ecological principles shaping its respiratory microbiome are poorly understood. By integrating 16S rRNA datasets from upper and lower airway specimens, this study provides the first comprehensive meta-analysis of respiratory microbial diversity and function in PTB. We reveal distinct community structures and functional potentials among upper airways, sputum, and bronchoalveolar lavage fluid, driven by niche-specific ecological processes rather than stochastic assembly. These findings establish a baseline framework for interpreting microbial biogeography across the respiratory tract and highlight potential microbial biomarkers for site-specific monitoring and therapeutic targeting in PTB.",
+      "authors": [
+        "Mingyang Qin",
+        "Yanhua Wen",
+        "Shanshan Li",
+        "Song Li",
+        "Xuming Li",
+        "Yuting Lin",
+        "Long Hu",
+        "Han Xia",
+        "Yu Pang",
+        "Liang Li"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-25",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41879310/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Meta-analysis of respiratory microbiome and microbial signatures in TB",
+      "llm_evidence_cn": "结核病呼吸道微生物组及微生物特征的元分析",
+      "llm_evidence": "结核病呼吸道微生物组及微生物特征的元分析",
+      "canonical_evidence": "结核病呼吸道微生物组及微生物特征的元分析",
+      "llm_tldr_en": "Integrates 16S rRNA data to reveal microbial signatures and ecological patterns in pulmonary tuberculosis.",
+      "llm_tldr_cn": "整合16S rRNA数据，揭示肺结核患者呼吸道的微生物特征和生态模式。",
+      "llm_tldr": "整合16S rRNA数据，揭示肺结核患者呼吸道的微生物特征和生态模式。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

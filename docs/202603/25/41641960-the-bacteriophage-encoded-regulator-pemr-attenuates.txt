@@ -1,0 +1,139 @@
+Title: The bacteriophage-encoded regulator PemR attenuates Pseudomonas aeruginosa virulence by hijacking quorum sensing and metabolism - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41641960/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 24;100(3):e0207125.
+
+doi: 10.1128/jvi.02071-25.  Epub 2026 Feb 5.
+
+[Yingxin Yang](https://pubmed.ncbi.nlm.nih.gov/?term=Yang+Y&cauthor_id=41641960)[1](https://pubmed.ncbi.nlm.nih.gov/41641960/#full-view-affiliation-1 "Key Laboratory of Resources Biology and Biotechnology in Western China, Ministry of Education, College of Life Sciences, Northwest University, Xi'an, Shaanxi, China."),[Jiahui Cao](https://pubmed.ncbi.nlm.nih.gov/?term=Cao+J&cauthor_id=41641960)[1](https://pubmed.ncbi.nlm.nih.gov/41641960/#full-view-affiliation-1 "Key Laboratory of Resources Biology and Biotechnology in Western China, Ministry of Education, College of Life Sciences, Northwest University, Xi'an, Shaanxi, China."),[Mengyao Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+M&cauthor_id=41641960)[1](https://pubmed.ncbi.nlm.nih.gov/41641960/#full-view-affiliation-1 "Key Laboratory of Resources Biology and Biotechnology in Western China, Ministry of Education, College of Life Sciences, Northwest University, Xi'an, Shaanxi, China."),[Yiming Yang](https://pubmed.ncbi.nlm.nih.gov/?term=Yang+Y&cauthor_id=41641960)[1](https://pubmed.ncbi.nlm.nih.gov/41641960/#full-view-affiliation-1 "Key Laboratory of Resources Biology and Biotechnology in Western China, Ministry of Education, College of Life Sciences, Northwest University, Xi'an, Shaanxi, China."),[Chao Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+C&cauthor_id=41641960)[1](https://pubmed.ncbi.nlm.nih.gov/41641960/#full-view-affiliation-1 "Key Laboratory of Resources Biology and Biotechnology in Western China, Ministry of Education, College of Life Sciences, Northwest University, Xi'an, Shaanxi, China."),[Nan Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+N&cauthor_id=41641960)[1](https://pubmed.ncbi.nlm.nih.gov/41641960/#full-view-affiliation-1 "Key Laboratory of Resources Biology and Biotechnology in Western China, Ministry of Education, College of Life Sciences, Northwest University, Xi'an, Shaanxi, China."),[Lixin Yuan](https://pubmed.ncbi.nlm.nih.gov/?term=Yuan+L&cauthor_id=41641960)[1](https://pubmed.ncbi.nlm.nih.gov/41641960/#full-view-affiliation-1 "Key Laboratory of Resources Biology and Biotechnology in Western China, Ministry of Education, College of Life Sciences, Northwest University, Xi'an, Shaanxi, China."),[Meng Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+M&cauthor_id=41641960)[1](https://pubmed.ncbi.nlm.nih.gov/41641960/#full-view-affiliation-1 "Key Laboratory of Resources Biology and Biotechnology in Western China, Ministry of Education, College of Life Sciences, Northwest University, Xi'an, Shaanxi, China."),[Lijun Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+L&cauthor_id=41641960)[1](https://pubmed.ncbi.nlm.nih.gov/41641960/#full-view-affiliation-1 "Key Laboratory of Resources Biology and Biotechnology in Western China, Ministry of Education, College of Life Sciences, Northwest University, Xi'an, Shaanxi, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41641960/#full-view-affiliation-2 "School of Basic Medical Science, Xi'an Medical University, Xi'an, Shaanxi, China."),[Yani Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+Y&cauthor_id=41641960)[1](https://pubmed.ncbi.nlm.nih.gov/41641960/#full-view-affiliation-1 "Key Laboratory of Resources Biology and Biotechnology in Western China, Ministry of Education, College of Life Sciences, Northwest University, Xi'an, Shaanxi, China."),[Shiwei Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+S&cauthor_id=41641960)[1](https://pubmed.ncbi.nlm.nih.gov/41641960/#full-view-affiliation-1 "Key Laboratory of Resources Biology and Biotechnology in Western China, Ministry of Education, College of Life Sciences, Northwest University, Xi'an, Shaanxi, China."),[Tietao Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+T&cauthor_id=41641960)[1](https://pubmed.ncbi.nlm.nih.gov/41641960/#full-view-affiliation-1 "Key Laboratory of Resources Biology and Biotechnology in Western China, Ministry of Education, College of Life Sciences, Northwest University, Xi'an, Shaanxi, China.")
+
+Affiliations
+
+*    PMID: **41641960**
+*    PMCID: [PMC13011342](https://pmc.ncbi.nlm.nih.gov/articles/PMC13011342/)
+*    DOI: [10.1128/jvi.02071-25](https://doi.org/10.1128/jvi.02071-25)
+
+## The bacteriophage-encoded regulator PemR attenuates _Pseudomonas aeruginosa_ virulence by hijacking quorum sensing and metabolism
+
+Wenbo Yan et al. J Virol.2026.
+
+## Abstract
+
+The global challenge of multidrug-resistant _Pseudomonas aeruginosa_ demands innovative anti-virulence approaches. We characterize PemR, a novel transcriptional regulator encoded by _P. aeruginosa_ phage PAYQ66, which orchestrates multimodal virulence attenuation in _P. aeruginosa_. Biochemical analyses demonstrated that PemR directly binds to the _mvfR_ promoter, resulting in significant repression of this key quorum-sensing regulator. This repression, in turn, induces profound metabolic reprogramming by redirecting metabolic flux away from PQS biosynthesis toward catechol accumulation. PemR globally attenuates virulence phenotypes, including pyocyanin production, rhamnolipid synthesis, motility, and biofilm formation. Transcriptomic profiling further reveals that PemR upregulates _rsmA_ to suppress the type VI secretion system, thereby potentially modulating the host's interaction with competing bacteria in polymicrobial environments. The motility analysis shows that PemR suppresses bacterial swimming, swarming, and twitching at gene expression levels. Overall, infection models demonstrate that PemR significantly inhibits bacterial virulence. As the first reported phage-encoded transcriptional hijacker of the _mvfR_ regulon, PemR concurrently disrupts quorum sensing and bacterial pathogenicity, offering a strategic blueprint for novel anti-virulence therapeutics targeting multidrug-resistant pathogens.IMPORTANCEThis study identifies a novel bacteriophage-encoded regulator PemR that simultaneously disrupts multiple virulence pathways in the opportunistic pathogen _P. aeruginosa_. By hijacking a key bacterial quorum-sensing (QS) system and reprogramming host metabolism, PemR significantly reduces pathogenicity without killing the bacteria. This work reveals a sophisticated strategy phages use to manipulate their hosts and provides a promising blueprint for developing next-generation anti-virulence therapeutics. Such approaches aim to disarm dangerous bacteria rather than eliminate them, potentially slowing the emergence of antibiotic resistance and offering new strategies against multidrug-resistant infections.
+
+**Keywords:** Pseudomonas aeruginosa; anthranilate metabolism; bacteriophage; quorum-sensing system; virulence regulation.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+The authors declare no conflict of interest.
+
+## Figures
+
+[![Image 1: Fig 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a7da/13011342/252b59ce3681/jvi.02071-25.f001.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a7da/13011342/9c8295380e16/jvi.02071-25.f001.jpg)
+
+**Fig 1**
+The phage-encoded transcriptional regulator PemR suppresses _mvfR_ expression by directly binding to its promoter. (**A**) Schematic diagram of the experimental procedure for identifying phage genes that regulate the expression of _mvfR_ in _P. aeruginosa_. Early-expressed phage genes were individually cloned into the inducible plasmid pME6032 and transformed into PAO1 (integrated with mini-_mvfR-lux_) strains. Subsequently, the luminescence of each constructed strain was examined after growth at 37°C for 12 h on LB plates with 0.5 mM IPTG. (**B**) Overnight cultures of _P. aeruginosa_ (mini-_mvfR-lux_) harboring either pME6032 (Control) and pME6032-_pemR_ (PemR) were spotted onto LB plates with or without 0.5 mM IPTG and incubated at 37°C. Luminescence was imaged after 12 h. (**C**) _P. aeruginosa_ strains (integrated with mini-_mvfR_-Flag) harboring either the empty vector pME6032 (Control) or pME6032-_pemR_ (PemR) were cultured to an OD 600 of 1.0. Equal amounts of samples were loaded onto SDS-PAGE gels and detected using anti-Flag antibody. α-RNA polymerase (RNAP) served as the loading control. (**D**) Superposition of the 3D structure of the helix-turn-helix (HTH) transcriptional regulator from _Candidatus aminicenantes bacterium_ (Sequence ID: UCE40751.1) and PemR structures using Alpha Fold3 and visualized by PyMOL. The structures are colored green and cyan, respectively. (**E**) Qualitative and quantitative analysis of BACTH assay. Protein-protein interaction between PemR and PemR was assessed using bacterial adenylate cyclase-based two-hybrid (BACTH) system coupled with β-galactosidase assay. _E. coli_ BTH101 strains expressing pKT25-zip/pUT18C-zip plasmids served as positive controls, while those harboring empty pKT25/pUT18C, pKT25-PemR/pUT18C, and pKT25/pUT18C-PemR vectors were used as negative controls. (**F**) SEC analysis of PemR. SEC chromatographic profiles of the purified PemR in 10 mM Tris-HCl, 500 mM NaCl buffer with Seplife S-100. The inset shows protein analysis of the indicated peaks by SDS-PAGE and Coomassie Brilliant Blue-R250 staining. (**G**) EMSA reveals that PemR binds to and shifts the _mvfR_ promoter but not the _rhlR_ promoter. Each reaction mixture contained 2.0 ng/μL of _mvfR_ and _rhlR_ PCR products. Protein concentrations are indicated above the lanes. (**H**) Overnight cultures of _P. aeruginosa_ (mini-_mvfR-lux_) harboring either pME6032 (Control), pME6032-_pemR_ (PemR), and pME6032-_pemR S34A_ (PemR S34A) were spotted onto LB plates with or without 0.5 mM IPTG and incubated at 37°C. Luminescence was imaged after 12 h. (**I**) EMSA reveals that PemR binds to and shifts the _mvfR_ promoter, whereas PemR S34A does not bind to the _mvfR_ promoter. Each reaction mixture contained 2.0 ng/μL of _mvfR_ PCR products. Protein concentrations are indicated above the lanes. (**B, C, and E–I**) Data are representative of three independent replicates. (**E**) Data shown are representative from three independent experiments. Error bars indicate mean ± standard deviation. Statistical significance was calculated using paired _t_-test.
+
+[![Image 2: Fig 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a7da/13011342/f5d5af256e30/jvi.02071-25.f002.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a7da/13011342/19b6829dcdc1/jvi.02071-25.f002.jpg)
+
+**Fig 2**
+PemR modulates _mvfR_ to suppress PQS and enhance catechol production. (**A**) Schematic illustration of _mvfR_-mediated regulation of anthranilate metabolism. Anthranilate, the precursor of PQS signaling molecules, can be catabolized into catechol via the AntABC metabolic pathway. (**B**) Thin-layer chromatography (TLC) analysis of PQS production in _Pseudomonas aeruginosa_ strains harboring either the empty vector pME6032 (Control) or pME6032-_pemR_ (PemR). The intensity of bands was quantified using Fiji ImageJ. (**C–D**) PemR inhibits _pqsH_ and _pqsABCDE_ expression. The transcriptional activity of _pqsH_ and _pqsABCDE_ promoter was analyzed in PAO1 harboring pME6032 (Control) and PAO1 harboring _pemR_ (PemR) using reporter gene assay. (**E**) PemR downregulates _phnA_ expression. Relative mRNA levels of _phnA_ were quantified by qRT-PCR in PAO1 (Control) versus PAO1 expressing _pemR_ (PemR). (**F**) PemR enhances catechol production. Culture supernatants from PAO1 (Control) and PAO1 expressing _pemR_ (PemR) were analyzed by HPLC, with relative quantification of components performed using LabSolutions software based on peak areas. (**G–H**) PemR upregulates _antABC_ and _antR_ expression. Promoter activities of _antABC_ and _antR_ were measured in PAO1 (Control) versus PAO1 expressing _pemR_ (PemR). (**B–H**) Data are representative of two (**F**) or three (**B, C, D, E, H**) independent experiments. Error bars indicate mean ± standard deviation. Statistical significance was calculated using paired _t_-test.
+
+[![Image 3: Fig 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a7da/13011342/93aa6d960ed4/jvi.02071-25.f003.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a7da/13011342/198dd7c62cc6/jvi.02071-25.f003.jpg)
+
+**Fig 3**
+PemR attenuates _P. aeruginosa_ virulence. (**A**) Pyocyanin production was measured in PAO1 (Control), PAO1(PemR), and PAO1(PemR S34A) strains following 12 h of growth in LB medium. (**B–C**) PemR suppresses _phzA1_ and _phzA2_ expression. Promoter activities of _phzA1_ and _phzA2_ were measured in PAO1 (Control) versus PAO1 expressing _pemR_ (PemR). (**D**) Rhamnolipid production by PAO1 (Control), PAO1(PemR), and PAO1(PemR S34A) strains on CTAB-methylene blue plates. (**E**) PemR suppresses _rhlAB_ expression. Promoter activity of _rhlAB_ was measured in PAO1 (Control) versus PAO1 expressing _pemR_ (PemR). (**F**) Biofilm formation in PAO1 (Control), PAO1(PemR), and PAO1(PemR S34A) strains was assessed by crystal violet staining (lower panel) and optical density measurement (upper panel). (**G**) PemR downregulates _pelA_ expression. Relative mRNA levels of _pelA_ were quantified by qRT-PCR in PAO1 (Control) versus PAO1 expressing pemR (PemR). (**H–I**) Pathogenicity assessment of PAO1 (Control) versus PAO1 expressing _pemR_ (PemR) using Chinese cabbage (_Brassica rapa_) and greater wax moth (_Galleria mellonella_) infection models. PBS served as the negative control. (**A, D, F, and H**) Data shown are representative from three independent experiments. (**A–G**) Data are representative of three independent replicates. Error bars indicate mean ± standard deviation. Statistical significance was calculated using paired _t_-test. (**I**) Statistical significance was calculated using Log-rank (Mantel–Cox) test.
+
+[![Image 4: Fig 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a7da/13011342/52fc2bf72042/jvi.02071-25.f004.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a7da/13011342/e7347ec6410d/jvi.02071-25.f004.jpg)
+
+**Fig 4**
+Global transcriptome analysis of expressing PemR in _P. aeruginosa_. (**A**) Transcriptomic analysis revealed differentially expressed genes (DEGs) between _P. aeruginosa_ PAO1 carrying empty vector (Control) and _pemR_-expressing strain (PemR) through volcano plot analysis. Red and blue dots represent significantly up- and downregulated genes, respectively. The horizontal dashed line indicates the _P_-value cutoff (_P_ = 0.05), while vertical dashed lines denote Log 2 FC thresholds (−1 and 1). (**B**) Validation of RNA-Seq data by qRT-PCR. Five randomly selected genes were analyzed using qRT-PCR to confirm the reliability of transcriptome results. Data are presented as mean ± SD from three independent experiments. (**C**) GO functional enrichment of PemR-associated DEGs. The top 10 significantly enriched terms (Fisher’s exact test, _P_< 0.001, FDR corrected) are shown. Circle area scales with DEG number; color gradient indicates statistical significance (−log 10 adjusted _P_-value). (**D**) Heatmap of gene expression levels (RPKM) in PemR-expressing strains (PemR_1-2) versus empty vector controls (Control_1-2). Color gradient represents RPKM values across three biological replicates per strain (blue: low expression; red: high expression). Displayed genes are associated with the QS systems.
+
+[![Image 5: Fig 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a7da/13011342/b048ba91a08d/jvi.02071-25.f005.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a7da/13011342/34d2691189ce/jvi.02071-25.f005.jpg)
+
+**Fig 5**
+PemR represses type VI secretion system by promoting _rsmA_ expression. (**A**) Comparative transcriptomic analysis revealed significant downregulation of T6SS-associated genes in _pemR_-expressing PAO1 (PemR) compared to the wild-type control (Control). (**B–D**) PemR suppresses _hcp1_, _hcp2,_ and _hcp3_ expression. Promoter activities of _hcp1_, _hcp2,_ and _hcp3_ were measured in PAO1 (Control) versus PAO1 expressing pemR (PemR). (**E**) Co-culture survival analysis of _E. coli_ with PAO1 (Control) or PAO1 expressing pemR (PemR). Bacterial viability was assessed after 12-hour co-culture at an initial 5:1 ratio (_P. aeruginosa_/_E. coli_). (**F**) Competition Index (CI) = (Post-competition CFU ratio of _P. aeruginosa_ to _E. coli_) / (Pre-competition CFU ratio of _P. aeruginosa_ to _E. coli_). (**G**) PemR enhances _rsmA_ expression. Promoter activity of _rsmA_ was measured in PAO1 (Control) versus PAO1 expressing PemR (PemR). (**B–D and G**) Data shown are representative from three independent experiments. Error bars indicate mean ± standard deviation. Statistical significance was calculated using paired _T_ test. (**E and F**) Data are representative of two independent replicates. Error bars indicate mean ± standard deviation. Statistical significance was calculated using paired _t_-test.
+
+[![Image 6: Fig 6](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a7da/13011342/5ace97a014fb/jvi.02071-25.f006.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a7da/13011342/5554a7a05681/jvi.02071-25.f006.jpg)
+
+**Fig 6**
+PemR reduces motility in _P. aeruginosa_. (**A**) Comparative transcriptomics revealed significantly reduced expression of flagella- and pilus-associated genes in _pemR_-expressing PAO1 (PemR) versus wild-type PAO1 (Control). (**B**) qRT-PCR analysis of _fliM_, _flhA_, and _flaB_ mRNA levels in PAO1 (Control) versus PemR-expressing PAO1 (PemR). (**C–D**) PemR suppresses _pilG_ and _fleQ_ expression. Promoter activities of _pilG_ and _fleQ_ were measured in PAO1 (Control) versus PAO1 expressing PemR (PemR). (**E**) Motility assays: PAO1 (Control), PAO1 (PemR), and PAO1 (PemR S34A) strains grown to OD 600=2.0 were spotted onto swimming, swarming, and twitching agar plates. Incubation was performed at 30°C for 16 h (swimming) or 37°C for 16 h (swarming and twitching). (**B–D**) Data shown are representative from three independent experiments. Error bars indicate mean ± standard deviation. Statistical significance was calculated using paired _t_-test. (**E**) Data are representative of three independent replicates. Error bars indicate mean ± standard deviation. Statistical significance was calculated using paired _t_-test.
+
+[![Image 7: Fig 7](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a7da/13011342/bc83d50d76f1/jvi.02071-25.f007.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a7da/13011342/9b296090b9a3/jvi.02071-25.f007.jpg)
+
+**Fig 7**
+Proposed model of PemR-regulated pathway in _P. aeruginosa_. The phage hijacks the host translational machinery to express the transcriptional regulator PemR, after infection of _P. aeruginosa_ by bacteriophage PAYQ66. PemR is a pivotal factor that modulates multiple cellular pathways in _P. aeruginosa_, including PQS and catechol synthesis, pyocyanin production, rhamnolipid synthesis, biofilm formation, swarming motility, and T6SS-mediated antibacterial activity. Black arrows denote direct regulatory interactions between PemR and its target genes; blue arrows indicate indirect regulatory relationships. PemR represses _mvfR_ transcription by directly binding to its promoter region, thereby controlling PQS and catechol biosynthesis. Other cellular processes are modulated indirectly via PemR-dependent changes in the expression levels of genes involved in diverse physiological pathways. FlgB, FlhA, FliM, and PilG are key proteins for flagellum and pilus assembly and motility. RhlA, RhlB, and RhlC are essential enzymes for rhamnolipid synthesis. VgrG, Tle, and Tse are core components required for T6SS-mediated antibacterial activity. PelA, PelB, and PelC are critical enzymes for biofilm formation.
+
+## Similar articles
+
+*   [Targeted deletion of Pf prophages from diverse _Pseudomonas aeruginosa_ isolates has differential impacts on quorum sensing and virulence traits.](https://pubmed.ncbi.nlm.nih.gov/38687034/)
+
+Schmidt AK, Schwartzkopf CM, Pourtois JD, Burgener EB, Faith DR, Joyce A, Lamma T, Kumar G, Bollyky PL, Secor PR.Schmidt AK, et al.J Bacteriol. 2024 May 23;206(5):e0040223. doi: 10.1128/jb.00402-23. Epub 2024 Apr 30.J Bacteriol. 2024.PMID: 38687034 Free PMC article. 
+*   [RpoN-Dependent Direct Regulation of Quorum Sensing and the Type VI Secretion System in Pseudomonas aeruginosa PAO1.](https://pubmed.ncbi.nlm.nih.gov/29760208/)
+
+Shao X, Zhang X, Zhang Y, Zhu M, Yang P, Yuan J, Xie Y, Zhou T, Wang W, Chen S, Liang H, Deng X.Shao X, et al.J Bacteriol. 2018 Jul 25;200(16):e00205-18. doi: 10.1128/JB.00205-18. Print 2018 Aug 15.J Bacteriol. 2018.PMID: 29760208 Free PMC article. 
+*   [Coordinated regulation of anthranilate metabolism and bacterial virulence by the GntR family regulator MpaR in Pseudomonas aeruginosa.](https://pubmed.ncbi.nlm.nih.gov/32748556/)
+
+Wang T, Qi Y, Wang Z, Zhao J, Ji L, Li J, Cai Z, Yang L, Wu M, Liang H.Wang T, et al.Mol Microbiol. 2020 Nov;114(5):857-869. doi: 10.1111/mmi.14584. Epub 2020 Aug 18.Mol Microbiol. 2020.PMID: 32748556 
+*   [Quorum Sensing and its Inhibition in _Pseudomonas aeruginosa_: Molecular Targets and Mode of Action.](https://pubmed.ncbi.nlm.nih.gov/40248926/)
+
+Kachhadiya DK, Georrge JJ.Kachhadiya DK, et al.Curr Drug Targets. 2025;26(9):613-631. doi: 10.2174/0113894501373124250410105111.Curr Drug Targets. 2025.PMID: 40248926 Review. 
+*   [Algal metabolites as emerging anti-virulence therapeutics against Pseudomonas aeruginosa.](https://pubmed.ncbi.nlm.nih.gov/41369779/)
+
+Chakraborty A, Bhattacharya D, Pandit S, Gill HS, Rajeev M, Lahiri D, Nag M.Chakraborty A, et al.Arch Microbiol. 2025 Dec 10;208(1):58. doi: 10.1007/s00203-025-04614-7.Arch Microbiol. 2025.PMID: 41369779 Review. 
+
+## References
+
+1.       1.    De Oliveira DMP, Forde BM, Kidd TJ, Harris PNA, Schembri MA, Beatson SA, Paterson DL, Walker MJ. 2020. Antimicrobial resistance in eskape pathogens. Clin Microbiol Rev 33:e00181-19. doi: 10.1128/CMR.00181-19 - [DOI](https://doi.org/10.1128/cmr.00181-19) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7227449/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/32404435/)
+
+2.       1.    Li M, Guan C, Song G, Gao X, Yang W, Wang T, Zhang Y. 2022. Characterization of a conjugative multidrug resistance IncP-2 megaplasmid, pPAG5, from a clinical Pseudomonas aeruginosa isolate. Microbiol Spectr 10:e0199221. doi: 10.1128/spectrum.01992-21 - [DOI](https://doi.org/10.1128/spectrum.01992-21) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8849076/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/35171033/)
+
+3.       1.    Yam ELY, Hsu LY, Yap EP-H, Yeo TW, Lee V, Schlundt J, Lwin MO, Limmathurotsakul D, Jit M, Dedon P, Turner P, Wilder-Smith A. 2019. Antimicrobial resistance in the Asia Pacific region: a meeting report. Antimicrob Resist Infect Control 8:202. doi: 10.1186/s13756-019-0654-8 - [DOI](https://doi.org/10.1186/s13756-019-0654-8) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6921568/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/31890158/)
+
+4.       1.    Botelho J, Lood C, Partridge SR, van Noort V, Lavigne R, Grosso F, Peixe L. 2019. Combining sequencing approaches to fully resolve a carbapenemase-encoding megaplasmid in a Pseudomonas shirazica clinical strain. Emerg Microbes Infect 8:1186–1194. doi: 10.1080/22221751.2019.1648182 - [DOI](https://doi.org/10.1080/22221751.2019.1648182) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6713103/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/31381486/)
+
+5.       1.    Qin S, Xiao W, Zhou C, Pu Q, Deng X, Lan L, Liang H, Song X, Wu M. 2022. Pseudomonas aeruginosa: pathogenesis, virulence factors, antibiotic resistance, interaction with host, technology advances and emerging therapeutics. Signal Transduct Target Ther 7:199. doi: 10.1038/s41392-022-01056-1 - [DOI](https://doi.org/10.1038/s41392-022-01056-1) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9233671/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/35752612/)
+
+## Publication types
+
+*   Actions 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Atypon](https://journals.asm.org/doi/10.1128/jvi.02071-25?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)

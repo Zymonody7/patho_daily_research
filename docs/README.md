@@ -11,64 +11,73 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-03-24
-- 运行时间：2026-03-24 19:45:18 UTC
+- 最新运行日期：2026-03-25
+- 运行时间：2026-03-25 19:34:25 UTC
 - 运行状态：成功
-- 本次总论文数：14
+- 本次总论文数：17
 - 精读区：7
-- 速读区：7
+- 速读区：10
 
 ### 今日简报（AI）
-今日精选 14 篇前沿进展，聚焦宏基因组菌株级分类优化与 RNA 生物学 AI 大模型的跨代升级。
-重点关注 MADRe 算法通过组装驱动精简数据库实现的精准分类，以及 AI 基础模型在解析 RNA 复杂功能中的核心作用。
-建议优先研读两篇满分论文，掌握计算生物学在精准分类与大模型跨界融合的最新风向。
-- 详情：[/202603/24/README](/202603/24/README)
+今日深度解析17篇前沿文献，聚焦AI与多组学技术在酶发现及药物联用设计中的突破性进展。
+重点推荐OptiSyn多组学图网络框架与高分辨率基因簇数据库，两者显著提升了药物协同设计与生物催化剂挖掘的效率。
+建议科研人员关注机器学习与系统发育学结合的新范式，以加速生物医药领域的精准发现。
+- 详情：[/202603/25/README](/202603/25/README)
 
 ### 精读区论文标签
-1. [MADRe: Strain-level Metagenomic Classification Through Assembly-Driven Database Reduction.](/202603/24/41871361-madre-strain-level-metagenomic-classification-through-assembly-driven-database-reduction)  
-   标签：评分：10.0/10、query:seqai
-   evidence：菌株级宏基因组分类与组装
-2. [AI foundation models for RNA biology.](/202603/24/41873866-ai-foundation-models-for-rna-biology)  
-   标签：评分：10.0/10、query:bioinfo
-   evidence：用于 RNA 生物学的 AI 基础模型
-3. [Phylogeny-informed random forests for human microbiome studies.](/202603/24/41874246-phylogeny-informed-random-forests-for-human-microbiome-studies)  
-   标签：评分：9.0/10、query:seqai
-   evidence：引入一种结合系统发育信息的随机森林算法用于微生物组数据分析
-4. [Biochip-simulated genotype signals enable accurate and interpretable AMR prediction via machine learning](/202603/24/PMC13007503-biochip-simulated-genotype-signals-enable-accurate-and-interpretable-amr-prediction-via-machine-learning)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：用于准确且可解释的AMR预测的机器学习
-5. [Assessment of genome evolution in](/202603/24/41649278-assessment-of-genome-evolution-in)  
-   标签：评分：8.0/10、query:seqai
-   evidence：宏基因组组装与泛基因组分析
-6. [Integrated single-cell and spatial mapping coupled with machine learning unveils core stemness landscapes and regulatory drivers in triple-negative breast cancer.](/202603/24/41870799-integrated-single-cell-and-spatial-mapping-coupled-with-machine-learning-unveils-core-stemness-landscapes-and-regulatory-drivers-in-triple-negative-breast-cancer)  
-   标签：评分：8.0/10、query:seqai
-   evidence：单细胞与空间制图结合XGBoost机器学习
-7. [On the utility of Deep Learning for model classification and parameter estimation on complex diversification scenarios.](/202603/24/41874436-on-the-utility-of-deep-learning-for-model-classification-and-parameter-estimation-on-complex-diversification-scenarios)  
+1. [Unlocking Enzyme Discovery: A High-Resolution Gene Cluster Database Powered by Phylogenetic Insights and Machine Learning.](/202603/25/41837859-unlocking-enzyme-discovery-a-high-resolution-gene-cluster-database-powered-by-phylogenetic-insights-and-machine-learning)  
+   标签：评分：9.0/10、query:bioinfo
+   evidence：用于活性预测的进化规模蛋白质语言模型
+2. [OptiSyn: an interpretable, multi-omics-driven graph convolutional network framework for synergy-oriented drug combination design in disease treatment.](/202603/25/41877167-optisyn-an-interpretable-multi-omics-driven-graph-convolutional-network-framework-for-synergy-oriented-drug-combination-design-in-disease-treatment)  
+   标签：评分：9.0/10、query:bioinfo
+   evidence：多组学驱动的图卷积网络用于药物组合设计
+3. [New tools for exploring parasite biology and elucidating host-pathogen interactions in cryptosporidiosis.](/202603/25/41498623-new-tools-for-exploring-parasite-biology-and-elucidating-host-pathogen-interactions-in-cryptosporidiosis)  
    标签：评分：8.0/10、query:pathoai
-   evidence：深度学习用于系统发育树的模型分类和参数估计
+   evidence：比较基因组学和探索隐孢子虫病宿主-病原体相互作用的新模型
+4. [HiCMamba: Enhancing Hi-C resolution and identifying 3D genome structures with state space modeling.](/202603/25/41875404-hicmamba-enhancing-hi-c-resolution-and-identifying-3d-genome-structures-with-state-space-modeling)  
+   标签：评分：8.0/10、query:seqai
+   evidence：用于增强 Hi-C 分辨率的状态空间建模
+5. [Explainable drug side effect prediction in central neural system via biologically informed graph neural network.](/202603/25/41876492-explainable-drug-side-effect-prediction-in-central-neural-system-via-biologically-informed-graph-neural-network)  
+   标签：评分：8.0/10、query:bioinfo
+   evidence：用于药物副作用预测的生物信息图神经网络
+6. [CRISPR-Cas9-Mediated Upregulation of Utrophin Ameliorates Duchenne Muscular Dystrophy.](/202603/25/41877484-crispr-cas9-mediated-upregulation-of-utrophin-ameliorates-duchenne-muscular-dystrophy)  
+   标签：评分：8.0/10、query:bioinfo
+   evidence：用于治疗性上调的CRISPR-Cas9引导设计和基因组编辑
+7. [Metagenomic profiling and predictive modeling of the gut microbiome reveal signatures of gestational disease.](/202603/25/41879323-metagenomic-profiling-and-predictive-modeling-of-the-gut-microbiome-reveal-signatures-of-gestational-disease)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：肠道微生物组的宏基因组测序和疾病预测建模
 
 ### 速读区论文标签
-1. [Cross-order detection of bacteriophage transduction in microbial communities using RNA barcoding.](/202603/24/41872204-cross-order-detection-of-bacteriophage-transduction-in-microbial-communities-using-rna-barcoding)  
-   标签：评分：7.0/10、query:seqai
-   evidence：利用RNA条形码和测序识别噬菌体-宿主相互作用
-2. [Generating 3D models of complex carbohydrates with GLYCAM-Web.](/202603/24/41872371-generating-3d-models-of-complex-carbohydrates-with-glycam-web)  
+1. [The bacteriophage-encoded regulator PemR attenuates](/202603/25/41641960-the-bacteriophage-encoded-regulator-pemr-attenuates)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：表征噬菌体编码的调节因子，用于铜绿假单胞菌的抗毒力和代谢重编程
+2. [Discrete Tokenization for Multimodal LLMs: A Comprehensive Survey.](/202603/25/41875004-discrete-tokenization-for-multimodal-llms-a-comprehensive-survey)  
    标签：评分：7.0/10、query:bioinfo
-   evidence：复杂糖类和糖蛋白的3D结构预测
-3. [Conserved neutrophil degranulation transcripts in HIV-TB coinfected children across East and Southern Africa.](/202603/24/41872467-conserved-neutrophil-degranulation-transcripts-in-hiv-tb-coinfected-children-across-east-and-southern-africa)  
-   标签：评分：7.0/10、query:seqai
-   evidence：用于病原体诱导异质性的 RNA 测序
-4. [Characterizing the nasopharyngeal microbiome and resistome of dairy cattle with and without bovine respiratory disease.](/202603/24/41874180-characterizing-the-nasopharyngeal-microbiome-and-resistome-of-dairy-cattle-with-and-without-bovine-respiratory-disease)  
-   标签：评分：7.0/10、query:seqai
-   evidence：用于微生物组和耐药组分析的宏基因组测序
-5. [Paenitracins, a novel family of bacitracin-type nonribosomal peptide antibiotics produced by plant-associated](/202603/24/41700860-paenitracins-a-novel-family-of-bacitracin-type-nonribosomal-peptide-antibiotics-produced-by-plant-associated)  
+   evidence：多模态大语言模型的离散标记化与语言处理
+3. [NEAT-DNA: A Chemically Accurate, Sequence-Dependent Coarse-Grained Model for Large-Scale DNA Simulations.](/202603/25/41875330-neat-dna-a-chemically-accurate-sequence-dependent-coarse-grained-model-for-large-scale-dna-simulations)  
+   标签：评分：7.0/10、query:bioinfo
+   evidence：用于大规模DNA模拟和基因组组织的粗粒度模型
+4. [A lasso-based model combining miRNA and clinical variables predicts future risk of breast and ovarian cancer.](/202603/25/41876608-a-lasso-based-model-combining-mirna-and-clinical-variables-predicts-future-risk-of-breast-and-ovarian-cancer)  
+   标签：评分：7.0/10、query:bioinfo
+   evidence：结合 miRNA 和临床变量的 lasso 模型
+5. [Enzyme-constrained genome-scale model of Yarrowia lipolytica predicts growth-phase specific metabolic engineering targets.](/202603/25/41876849-enzyme-constrained-genome-scale-model-of-yarrowia-lipolytica-predicts-growth-phase-specific-metabolic-engineering-targets)  
+   标签：评分：7.0/10、query:bioinfo
+   evidence：深度学习用于基因组规模代谢模型中的酶约束
+6. [The respiratory microbiome in pulmonary tuberculosis: a meta-analysis reveals niche-specific microbial and functional signatures.](/202603/25/41879310-the-respiratory-microbiome-in-pulmonary-tuberculosis-a-meta-analysis-reveals-niche-specific-microbial-and-functional-signatures)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：结核病呼吸道微生物组及微生物特征的元分析
+7. [[Analysis of influencing factors of incisional infection and construction of risk prediction model in laparoscopic colorectal cancer surgery].](/202603/25/41856646-analysis-of-influencing-factors-of-incisional-infection-and-construction-of-risk-prediction-model-in-laparoscopic-colorectal-cancer-surgery)  
    标签：评分：6.0/10、query:pathoai
-   evidence：使用质谱查询语言从类芽孢杆菌中鉴定新型抗生素
-6. [Spatially structured inflammatory response in the presence of a uniform stimulus.](/202603/24/41860960-spatially-structured-inflammatory-response-in-the-presence-of-a-uniform-stimulus)  
+   evidence：利用回顾性临床数据构建手术部位感染风险预测模型
+8. [The post-translational adaptor protein SadB modulates the pathogenicity of](/202603/25/41874169-the-post-translational-adaptor-protein-sadb-modulates-the-pathogenicity-of)  
+   标签：评分：6.0/10、query:pathoai
+   evidence：病原体毒力与感染模型的转录组分析
+9. [Unique structural and ligand-binding properties of the](/202603/25/41875159-unique-structural-and-ligand-binding-properties-of-the)  
+   标签：评分：6.0/10、query:pathoai
+   evidence：病原体靶点识别的生物信息学和结构证据
+10. [Functional xenogeneic hematopoietic cells maintaining donor-dominant identity and immune tolerance enable therapy.](/202603/25/41877296-functional-xenogeneic-hematopoietic-cells-maintaining-donor-dominant-identity-and-immune-tolerance-enable-therapy)  
    标签：评分：6.0/10、query:seqai
-   evidence：多重RNA原位杂交用于空间炎症基因表达分析
-7. [The esophageal microbiome: mechanisms and clinical implications.](/202603/24/41866998-the-esophageal-microbiome-mechanisms-and-clinical-implications)  
-   标签：评分：6.0/10、query:pathoai
-   evidence：食管疾病中的宿主-微生物相互作用
+   evidence：单细胞RNA测序和蛋白质组学用于造血细胞分析
 
 
 <div class="dpr-home-promo-card">

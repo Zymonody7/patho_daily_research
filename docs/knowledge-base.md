@@ -1,10 +1,61 @@
 # 知识库
 
-- 最近沉淀条目数：198
+- 最近沉淀条目数：215
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Unlocking Enzyme Discovery: A High-Resolution Gene Cluster Database Powered by Phylogenetic Insights and Machine Learning.](#/202603/25/202603/25/41837859-unlocking-enzyme-discovery-a-high-resolution-gene-cluster-database-powered-by-phylogenetic-insights-and-machine-learning)
+  - TLDR：针对海量基因组数据标注不足导致酶发现困难的问题，该研究构建了一个整合跨界系统发育数据库、多位点挖掘、蛋白质语言模型（pLM）活性预测及残基-原子接触重评分的流水线。在r-BOX代谢途径应用中，该方法显著提升了活性预测精度和筛选效率，实验验证使FadB产量提升至10.2 g/L，为高价值酶的规模化挖掘提供了高效工具。
+  - Tags：`query:bioinfo`
+- [OptiSyn: an interpretable, multi-omics-driven graph convolutional network framework for synergy-oriented drug combination design in disease treatment.](#/202603/25/202603/25/41877167-optisyn-an-interpretable-multi-omics-driven-graph-convolutional-network-framework-for-synergy-oriented-drug-combination-design-in-disease-treatment)
+  - TLDR：针对中药复方配伍机制复杂、难以量化设计的问题，本研究开发了OptiSyn框架，通过整合多组学数据识别强直性脊柱炎的关键基因，并利用可解释的多层图卷积网络融合分子对接与临床经验，预测最优药物组合。该模型成功筛选出ASD-A复方，经实验验证能有效调节免疫反应并平衡IL17/Foxp3轴，为中医药现代化和精准联合用药提供了数据驱动的新路径。
+  - Tags：`query:bioinfo`
+- [New tools for exploring parasite biology and elucidating host-pathogen interactions in cryptosporidiosis.](#/202603/25/202603/25/41498623-new-tools-for-exploring-parasite-biology-and-elucidating-host-pathogen-interactions-in-cryptosporidiosis)
+  - TLDR：隐孢子虫病是全球重大公共卫生威胁，但长期受限于研究工具匮乏。本文综述了近十年该领域的突破，重点介绍了基因转化技术及新型国内外培养模型如何推动对寄生虫进化、宿主范围及免疫互作的认知。通过总结这些技术进步带来的生物学新发现，为解决该寄生虫感染的防治难题提供了研究路线图。
+  - Tags：`query:pathoai`
+- [HiCMamba: Enhancing Hi-C resolution and identifying 3D genome structures with state space modeling.](#/202603/25/202603/25/41875404-hicmamba-enhancing-hi-c-resolution-and-identifying-3d-genome-structures-with-state-space-modeling)
+  - TLDR：Hi-C技术是研究3D基因组结构的关键，但高昂的测序成本导致数据分辨率受限。HiCMamba引入了状态空间模型（SSM），通过基于UNet的自编码器架构和全局扫描模块，实现了对Hi-C接触图的高效超分辨率增强。实验证明该方法在提升精度的同时显著降低了计算开销，并能准确还原TAD和染色质环等关键生物结构，为低成本获取高质量基因组互作数据提供了新方案。
+  - Tags：`query:seqai`
+- [Explainable drug side effect prediction in central neural system via biologically informed graph neural network.](#/202603/25/202603/25/41876492-explainable-drug-side-effect-prediction-in-central-neural-system-via-biologically-informed-graph-neural-network)
+  - TLDR：针对药物研发中副作用检测难、成本高且缺乏解释性的问题，本研究提出了 HHAN-DSI 模型。这是一种融合生物学先验知识的图神经网络，通过整合药物、基因和生物功能的多模态交互数据，专门用于预测中枢神经系统药物的副作用。实验证明该模型能有效识别精神类药物的潜在风险，并清晰展示从分子到表型的生物学机制，为早期药物安全性评估提供了有力工具。
+  - Tags：`query:bioinfo`
+- [CRISPR-Cas9-Mediated Upregulation of Utrophin Ameliorates Duchenne Muscular Dystrophy.](#/202603/25/202603/25/41877484-crispr-cas9-mediated-upregulation-of-utrophin-ameliorates-duchenne-muscular-dystrophy)
+  - TLDR：杜氏肌营养不良症（DMD）因抗肌萎缩蛋白缺失导致，上调其同源蛋白 Utrophin 是潜在疗法。本研究利用 CRISPR-Cas9 技术破坏 UTRN 基因上的 Let-7c 微 RNA 抑制位点，通过产生插入/缺失突变解除表达抑制。实验证明该方法在 3D 人类骨骼肌模型和 mdx 小鼠中均能显著提升 Utrophin 表达，改善肌肉收缩功能和病理特征，为 DMD 提供了一种不依赖特定突变类型的通用基因编辑策略。
+  - Tags：`query:bioinfo`
+- [Metagenomic profiling and predictive modeling of the gut microbiome reveal signatures of gestational disease.](#/202603/25/202603/25/41879323-metagenomic-profiling-and-predictive-modeling-of-the-gut-microbiome-reveal-signatures-of-gestational-disease)
+  - TLDR：妊娠期高血压（GH）和妊娠期糖尿病（GDM）严重影响母婴健康，但其与肠道微生物组的关系尚不明确。本研究利用宏基因组测序技术，对比分析了患病孕妇与健康对照组的肠道菌群组成及功能差异。结果发现患者体内有益菌减少，且碳水化合物与脂质代谢功能发生显著改变。通过机器学习模型，研究成功利用微生物特征实现了对疾病状态的准确预测，为妊娠期并发症的早期筛查和干预提供了新的生物标志物和潜在靶点。
+  - Tags：`query:pathoai`
+- [The bacteriophage-encoded regulator PemR attenuates](#/202603/25/202603/25/41641960-the-bacteriophage-encoded-regulator-pemr-attenuates)
+  - TLDR：针对多重耐药铜绿假单胞菌的治疗难题，本研究发现并表征了噬菌体PAYQ66编码的新型调节因子PemR。PemR通过直接结合并抑制关键群体感应调节因子mvfR的启动子，重塑细菌代谢流并抑制多种毒力因子（如绿脓素、生物膜及运动性），同时上调rsmA抑制VI型分泌系统。该研究揭示了噬菌体通过“劫持”宿主调控网络实现毒力衰减的机制，为开发不依赖杀伤、不易产生耐药性的新型抗毒力疗法提供了重要策略。
+  - Tags：`query:pathoai`
+- [Discrete Tokenization for Multimodal LLMs: A Comprehensive Survey.](#/202603/25/202603/25/41875004-discrete-tokenization-for-multimodal-llms-a-comprehensive-survey)
+  - TLDR：多模态大模型在处理图像、音频等连续信号时，需将其转化为离散 Token 以适配语言模型架构。本文系统综述了以矢量量化（VQ）为核心的离散分词技术，通过对 8 种代表性 VQ 变体进行分类，深入探讨了其在模型对齐、推理和生成中的作用。该综述梳理了从传统应用到现代多模态大模型的演进路径，并总结了码本崩溃等核心挑战，为构建高效通用的多模态系统提供了关键参考。
+  - Tags：`query:bioinfo`
+- [NEAT-DNA: A Chemically Accurate, Sequence-Dependent Coarse-Grained Model for Large-Scale DNA Simulations.](#/202603/25/202603/25/41875330-neat-dna-a-chemically-accurate-sequence-dependent-coarse-grained-model-for-large-scale-dna-simulations)
+  - TLDR：基因组组织研究需要在大尺度上模拟DNA行为，但现有粗粒度模型常在化学准确性与计算效率间权衡，导致物理真实性不足。NEAT-DNA提出了一种结合物理能量公式与原子级模拟及实验数据统一训练的新型粗粒度模型。它在保持高效计算的同时，精准还原了DNA的序列依赖性结构与柔性，为探索染色质折叠等大规模基因组结构提供了高保真模拟工具。
+  - Tags：`query:bioinfo`
+- [A lasso-based model combining miRNA and clinical variables predicts future risk of breast and ovarian cancer.](#/202603/25/202603/25/41876608-a-lasso-based-model-combining-mirna-and-clinical-variables-predicts-future-risk-of-breast-and-ovarian-cancer)
+  - TLDR：针对遗传性乳腺癌和卵巢癌综合征（HBOC）诊断率低且基因检测存在局限性的问题，研究者开发了一种结合血清 miRNA 谱与临床数据的 Lasso 模型。该模型通过量化“BRCAness”特征，在 1831 人的队列中实现了 0.98 的 BRCA 突变预测 AUC，并在独立临床试验中成功预测了未来 5 年的卵巢癌发病风险（AUC=0.75）。该方法为早期识别高危人群提供了一种非侵入性的生物标志物工具。
+  - Tags：`query:bioinfo`
+- [Enzyme-constrained genome-scale model of Yarrowia lipolytica predicts growth-phase specific metabolic engineering targets.](#/202603/25/202603/25/41876849-enzyme-constrained-genome-scale-model-of-yarrowia-lipolytica-predicts-growth-phase-specific-metabolic-engineering-targets)
+  - TLDR：针对解脂耶氏酵母在工业生物制造中代谢预测精度不足的问题，本研究构建了受酶约束的全基因组代谢模型 eciYali5-GEM。通过整合深度学习预测的酶参数与不同生长阶段的蛋白质组学数据，该模型克服了传统模型无法捕捉代谢动态变化的局限。结果显示，模型能精准识别脂质和类胡萝卜素合成在特定生长阶段的代谢工程靶点，并提出了基于诱导型启动子的优化策略，为提升微生物工厂产量提供了高效的理性设计工具。
+  - Tags：`query:bioinfo`
+- [The respiratory microbiome in pulmonary tuberculosis: a meta-analysis reveals niche-specific microbial and functional signatures.](#/202603/25/202603/25/41879310-the-respiratory-microbiome-in-pulmonary-tuberculosis-a-meta-analysis-reveals-niche-specific-microbial-and-functional-signatures)
+  - TLDR：针对肺结核患者呼吸道微生物群落特征不明确的问题，本研究通过整合11个公开数据集的16S rRNA测序数据，对上呼吸道、痰液和支气管肺泡灌洗液（BALF）进行了多尺度元分析。研究发现肺结核患者呼吸道微生物多样性显著升高，且不同采样部位具有独特的菌群结构和功能特征（如BALF中的沙雷氏菌富集），揭示了呼吸道微生态的生态位差异，为基于微生物的肺结核诊断和治疗提供了新思路。
+  - Tags：`query:pathoai`
+- [[Analysis of influencing factors of incisional infection and construction of risk prediction model in laparoscopic colorectal cancer surgery].](#/202603/25/202603/25/41856646-analysis-of-influencing-factors-of-incisional-infection-and-construction-of-risk-prediction-model-in-laparoscopic-colorectal-cancer-surgery)
+  - TLDR：针对腹腔镜结直肠癌手术后切口感染（I-SSI）的预防难题，本研究回顾性分析了919例患者的临床数据，通过逻辑回归筛选出糖尿病、低蛋白血症、BMI及切口方式等关键影响因素。研究构建了一个列线图预测模型，其AUC达0.786，能有效识别高风险患者，为临床精准干预和降低术后感染率提供了量化决策支持。
+  - Tags：`query:pathoai`
+- [The post-translational adaptor protein SadB modulates the pathogenicity of](#/202603/25/202603/25/41874169-the-post-translational-adaptor-protein-sadb-modulates-the-pathogenicity-of)
+  - TLDR：针对铜绿假单胞菌中 SadB 蛋白对致病性的影响，研究人员通过小鼠感染模型和转录组分析发现，SadB 缺失会导致细菌生物膜形成缺陷并增强群集运动，使其在宿主体内极易被清除。研究揭示了 SadB 通过调节群体感应和鼠李糖脂合成来影响细菌毒力，证明了其作为新型抗菌药物靶点的潜力。
+  - Tags：`query:pathoai`
+- [Unique structural and ligand-binding properties of the](#/202603/25/202603/25/41875159-unique-structural-and-ligand-binding-properties-of-the)
+  - TLDR：金黄色葡萄球菌（S. aureus）的生物被膜增加了治疗难度，而丝氨酸水解酶 FphE 是其毒力和生物被膜形成的关键调节因子。本研究通过生物信息学分析、12 种晶体结构解析及小角 X 射线散射（SAXS）技术，揭示了 FphE 具有独特的跨亚基同源二聚体结构，这在 alpha/beta 水解酶超家族中极为罕见。研究发现底物结合能稳定该二聚体并增强催化活性，且活性位点具有显著的结构可塑性，为开发针对金黄色葡萄球菌的特异性抑制剂和成像探针提供了结构基础。
+  - Tags：`query:pathoai`
+- [Functional xenogeneic hematopoietic cells maintaining donor-dominant identity and immune tolerance enable therapy.](#/202603/25/202603/25/41877296-functional-xenogeneic-hematopoietic-cells-maintaining-donor-dominant-identity-and-immune-tolerance-enable-therapy)
+  - TLDR：针对临床造血细胞捐献受限且体外生成效率低的问题，研究团队利用啮齿类动物异种嵌合体模型，通过囊胚补偿和骨髓移植技术在异种生物反应器中培育造血细胞。实验证明，这些异种造血细胞在转录组和蛋白质组层面保持了供体特征，且回输供体后不产生免疫排斥，能有效治疗贫血、血小板减少及白血病，为解决输血和细胞治疗的来源难题提供了新范式。
+  - Tags：`query:seqai`
 - [MADRe: Strain-level Metagenomic Classification Through Assembly-Driven Database Reduction.](#/202603/24/202603/24/41871361-madre-strain-level-metagenomic-classification-through-assembly-driven-database-reduction)
   - TLDR：针对宏基因组分析中菌株级分类受限于参考数据库冗余和样本组成未知的问题，MADRe 提出了一种基于组装驱动的数据库缩减策略。该方法通过长读段组装获取基因组上下文，利用期望最大化（EM）框架将组装结果映射回参考库以精简数据库，最后在缩减后的库上进行概率化读段重分配。实验证明，MADRe 在模拟和真实数据中均能显著降低假阳性，提升了菌株识别的精确度。
   - Tags：`query:seqai`
@@ -553,49 +604,4 @@
   - Tags：`query:bioinfo`
 - [Mozi: Governed Autonomy for Drug Discovery LLM Agents](#/20260226-20260307/2603.03655v1-mozi-governed-autonomy-for-drug-discovery-llm-agents)
   - TLDR：针对药物研发中 LLM 智能体工具调用失控和长程任务可靠性差的问题，本文提出 Mozi 架构。该架构通过控制层实现角色隔离与反思规划，并利用工作流层将药物研发流程转化为有状态的技能图谱，引入数据契约与人机协作检查点。实验证明 Mozi 在 PharmaBench 基准测试中表现优异，能有效降低错误累积，将 LLM 从脆弱的对话者转化为具备严谨治理能力的可靠科研助手。
-  - Tags：`query:agent`
-- [Inference-Time Toxicity Mitigation in Protein Language Models](#/20260226-20260307/2603.04045v1-inference-time-toxicity-mitigation-in-protein-language-models)
-  - TLDR：蛋白质语言模型（PLM）在设计新蛋白质时可能产生具有毒性的序列，尤其是在针对特定分类群进行微调后。为解决此安全风险，研究者引入了对数几率差值放大（LDA）技术，在推理阶段通过对比基准模型与毒性微调模型的输出差异来调整概率分布。实验证明，LDA能在不重新训练的情况下显著降低生成序列的毒性率，同时保持蛋白质的结构可行性和生物学相似性，为蛋白质生成提供了实用的安全控制手段。
-  - Tags：`query:bioinfo`
-- [An Active Learning Framework for Data-Efficient, Human-in-the-Loop Enzyme Function Prediction](#/20260226-20260307/2602.23269v1-an-active-learning-framework-for-data-efficient-human-in-the-loop-enzyme-function-prediction)
-  - TLDR：针对蛋白质序列爆炸式增长与实验标注缓慢之间的矛盾，本研究提出了 HATTER 框架，将主动学习与人类在环标注相结合，用于高效微调酶功能预测模型。实验证明，该框架在显著减少数据需求和计算成本的前提下，达到了与标准监督学习相当的预测性能。研究还发现简单的熵采样或边际采样在蛋白质序列任务中表现优异，为低成本、专家引导的酶功能发现提供了可扩展的解决方案。
-  - Tags：`query:bioinfo`
-- [Evaluating Stochasticity in Deep Research Agents](#/20260226-20260307/2602.23271v1-evaluating-stochasticity-in-deep-research-agents)
-  - TLDR：深度研究智能体（DRA）在处理相同查询时常因随机性导致结果不一致，阻碍了其在金融、医疗等严谨领域的应用。本文将 DRA 建模为信息获取马尔可夫决策过程，量化了信息获取、压缩和推理三个阶段的方差来源。研究发现推理和早期阶段的随机性对结果影响最大。通过引入结构化输出和集成式查询生成策略，在 DeepSearchQA 任务上成功降低了 22% 的随机性并保持了高质量输出，为构建可靠的研究助手提供了理论与实践指导。
-  - Tags：`query:agent`
-- [Inference-time optimization for experiment-grounded protein ensemble generation](#/20260226-20260307/2602.24007v1-inference-time-optimization-for-experiment-grounded-protein-ensemble-generation)
-  - TLDR：蛋白质功能依赖于动态构象系综，但AlphaFold3等模型生成的系综常与实验数据不符。本研究提出一种推理时优化框架，通过在潜空间优化表示以最大化系综对数似然，并结合物理力场先验进行玻尔兹曼加权采样。实验证明该方法在X-ray和NMR数据拟合上优于现有引导方法，且揭示了过度优化设计指标（如ipTM）可能导致模型置信度虚高，为提高蛋白质设计可靠性提供了新路径。
-  - Tags：`query:bioinfo`
-- [Inference-time optimization for experiment-grounded protein ensemble generation](#/20260226-20260307/2602.24007v2-inference-time-optimization-for-experiment-grounded-protein-ensemble-generation)
-  - TLDR：针对 AlphaFold3 等生成模型难以产生符合实验观测的蛋白质构象系综的问题，本研究提出一种推理时优化框架。该方法通过在潜空间优化表示以最大化系综对数似然，并结合物理力场与结构先验进行玻尔兹曼加权采样。实验证明，该框架在 X 射线和核磁共振数据拟合上优于现有方法，且揭示了通过扰动嵌入来虚假提升模型置信度的风险，为提高蛋白质设计可靠性提供了新路径。
-  - Tags：`query:bioinfo`
-- [MuViT: Multi-Resolution Vision Transformers for Learning Across Scales in Microscopy](#/20260226-20260307/2602.24222v1-muvit-multi-resolution-vision-transformers-for-learning-across-scales-in-microscopy)
-  - TLDR：显微镜图像通常包含从细胞到组织的跨尺度信息，但传统模型难以同时高效处理高分辨率细节和广域上下文。MuViT 提出了一种多分辨率视觉 Transformer，通过将不同分辨率的图像块映射到统一的世界坐标系，并结合改进的旋转位置编码，实现了在单一编码器内融合多尺度特征。在肾脏病理和脑部显微图像等任务中，MuViT 显著优于传统 ViT 和 CNN，为大规模显微图像分析提供了高效的跨尺度建模方案。
-  - Tags：`query:seqai`
-- [Cytoarchitecture in Words: Weakly Supervised Vision-Language Modeling for Human Brain Microscopy](#/20260226-20260307/2602.23088v1-cytoarchitecture-in-words-weakly-supervised-vision-language-modeling-for-human-brain-microscopy)
-  - TLDR：针对人类大脑显微图像分析中缺乏图文对标注的问题，本研究提出一种弱监督视觉语言建模方法。该方法通过脑区标签作为中介，从文献中自动挖掘描述性文本生成合成标注，将视觉基础模型CytoNet与大语言模型耦合。实验表明，该模型能生成准确的细胞构筑描述，在57个脑区中实现了90.6%的标签匹配率，为缺乏标注的生物医学领域提供了构建自然语言交互接口的新路径。
-  - Tags：`query:seqai`
-- [A Novel Aggregated SIR Model for Spatial Epidemic Propagation](#/20260226-20260307/2602.23449v1-a-novel-aggregated-sir-model-for-spatial-epidemic-propagation)
-  - TLDR：针对传统SIR模型难以刻画空间传播动态且网络/个体模型复杂度过高的问题，本文提出一种扩展的聚合SIR模型。该模型通过引入描述疫情在不同区域传播状态（未到达、活跃、已结束）的聚合变量，在不增加高维参数的情况下模拟多地区异步爆发。结果表明，该模型能有效复现聚合数据中的长平台期和多波峰现象，为空间结构化疫情研究提供了一种简洁且可解释的分析框架。
-  - Tags：`query:pathoai`
-- [From Static Benchmarks to Dynamic Protocol: Agent-Centric Text Anomaly Detection for Evaluating LLM Reasoning](#/20260226-20260307/2602.23729v1-from-static-benchmarks-to-dynamic-protocol-agent-centric-text-anomaly-detection-for-evaluating-llm-reasoning)
-  - TLDR：针对静态基准测试难以评估大模型持续进化的推理能力这一问题，本文提出一种基于智能体协作的动态评估协议。该协议通过教师、协调者和学生三种角色智能体的交互，实现问题的自动生成、验证与难度递增演化。在文本异常检测任务上的实验表明，该方法能有效挖掘模型在复杂逻辑推理中的边界错误，为大模型评估提供了一种可持续且自动化的新范式。
-  - Tags：`query:agent`
-- [UniFAR: A Unified Facet-Aware Retrieval Framework for Scientific Documents](#/20260226-20260307/2602.23766v1-unifar-a-unified-facet-aware-retrieval-framework-for-scientific-documents)
-  - TLDR：针对科学文献检索中传统模型难以适应“问题-文档”检索（如RAG场景）的粒度不匹配、语义偏离等问题，UniFAR 提出了一个统一的切面感知检索框架。该框架通过自适应多粒度聚合、可学习的切面锚点以及联合监督训练，实现了对长文档结构与短问题意图的有效对齐。实验证明，UniFAR 在多种检索任务上均优于现有方法，显著提升了科学文献检索的通用性。
-  - Tags：`query:agent`
-- [Flow-Based Density Ratio Estimation for Intractable Distributions with Applications in Genomics](#/20260226-20260307/2602.24201v1-flow-based-density-ratio-estimation-for-intractable-distributions-with-applications-in-genomics)
-  - TLDR：针对难以直接计算概率密度的复杂分布，传统流模型在估计密度比时需分别计算似然积分，导致计算开销巨大。本研究利用条件感知流匹配构建了一种动态公式，能够沿生成轨迹直接追踪密度比。该方法在模拟基准测试中表现优异，并成功应用于单细胞基因组学，实现了跨实验条件的细胞状态比较、处理效应评估及批次效应校正，为高维数据的似然对比提供了高效工具。
-  - Tags：`query:seqai`
-- [Quality-Aware Robust Multi-View Clustering for Heterogeneous Observation Noise](#/20260226-20260307/2602.22568v1-quality-aware-robust-multi-view-clustering-for-heterogeneous-observation-noise)
-  - TLDR：针对多视图聚类中存在的异构观测噪声（噪声强度连续变化而非简单的二元分布）问题，该研究提出了QARMVC框架。该方法利用信息瓶颈机制提取语义并根据重构误差量化样本质量，通过质量加权的对比学习和聚合策略，在特征提取与视图融合阶段自适应抑制噪声干扰。实验证明，该方法在多种异构噪声场景下均优于现有技术，显著提升了多视图聚类的鲁棒性。
-  - Tags：`query:bioinfo`
-- [Random-Forest-Induced Graph Neural Networks for Tabular Learning](#/20260226-20260307/2602.24224v1-random-forest-induced-graph-neural-networks-for-tabular-learning)
-  - TLDR：针对表格数据缺乏显式图结构导致图神经网络（GNN）难以直接应用的问题，本文提出了 RF-GNN 框架。该方法利用随机森林生成的邻近度度量来构建样本间的关联图，从而捕捉特征间的非线性交互和自适应相似性。在 36 个基准数据集上的实验表明，RF-GNN 在加权 F1 分数上优于传统机器学习模型及现有的图构建方法，为表格数据的深度学习建模提供了新思路。
-  - Tags：`query:bioinfo`
-- [MedCollab: Causal-Driven Multi-Agent Collaboration for Full-Cycle Clinical Diagnosis via IBIS-Structured Argumentation](#/20260226-20260307/2603.01131v1-medcollab-causal-driven-multi-agent-collaboration-for-full-cycle-clinical-diagnosis-via-ibis-structured-argumentation)
-  - TLDR：针对大语言模型在临床诊断中存在的幻觉和解释性不足问题，MedCollab 模拟医院会诊流程，构建了一个多智能体协作框架。该框架通过动态招募专科智能体，结合 IBIS 结构化论证协议与层次化疾病因果链，将诊断过程转化为逻辑严密的推理路径。实验证明，该方法在真实临床数据集上显著提升了诊断准确率并降低了幻觉，为透明、合规的医疗决策提供了新方案。
-  - Tags：`query:agent`
-- [QIME: Constructing Interpretable Medical Text Embeddings via Ontology-Grounded Questions](#/20260226-20260307/2603.01690v2-qime-constructing-interpretable-medical-text-embeddings-via-ontology-grounded-questions)
-  - TLDR：针对生物医学文本嵌入缺乏可解释性、难以辅助临床决策的问题，QIME 提出了一种基于本体知识的框架。该方法通过生成与临床概念相关的原子化“是/否”问题，将文本转化为可解释的二进制向量。实验表明，QIME 在语义相似度、聚类和检索任务上优于现有可解释方法，并缩小了与黑盒模型的性能差距，为医疗 AI 提供了透明且高效的表示方案。
   - Tags：`query:agent`

@@ -1,0 +1,75 @@
+Title: Explainable drug side effect prediction in central neural system via biologically informed graph neural network - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41876492/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 25.
+
+doi: 10.1038/s41398-026-03971-1.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **41876492**
+*    DOI: [10.1038/s41398-026-03971-1](https://doi.org/10.1038/s41398-026-03971-1)
+
+## Explainable drug side effect prediction in central neural system via biologically informed graph neural network
+
+Tongtong Huang et al. Transl Psychiatry.2026.
+
+## Abstract
+
+The early detection of potential side effects (SEs) is a critical yet formidable challenge within the realms of drug development and patient healthcare management. Conventional in-vitro or in-vivo approaches for SE detection are often not feasible to scale during the preclinical phase for numerous drug candidates. Innovations in explainable artificial intelligence offer the prospect of early detection of potential SEs for novel therapeutics prior to their release in the market, as well as the explication of the underlying biological mechanisms. In this context, we present a novel biologically informed graph-based model, called HHAN-DSI, which capitalizes on multimodal interactions among molecular entities. Applied within the domain of the central nervous system (CNS) - the organ system associated with the largest number of SEs - our model demonstrates its capability to reveal previously unrecognized SEs of various psychiatric drugs. Moreover, HHAN-DSI elucidates the associated biological mechanisms, delineating an intricate network of genes, biological functions, drugs, and SEs.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Explaining protein-protein interactions with knowledge graph-based semantic similarity.](https://pubmed.ncbi.nlm.nih.gov/38308873/)
+
+Sousa RT, Silva S, Pesquita C.Sousa RT, et al.Comput Biol Med. 2024 Mar;170:108076. doi: 10.1016/j.compbiomed.2024.108076. Epub 2024 Feb 1.Comput Biol Med. 2024.PMID: 38308873 
+*   [XMR: an explainable multimodal neural network for drug response prediction.](https://pubmed.ncbi.nlm.nih.gov/37600972/)
+
+Wang Z, Zhou Y, Zhang Y, Mo YK, Wang Y.Wang Z, et al.Front Bioinform. 2023 Aug 2;3:1164482. doi: 10.3389/fbinf.2023.1164482. eCollection 2023.Front Bioinform. 2023.PMID: 37600972 Free PMC article. 
+*   [Folic acid supplementation and malaria susceptibility and severity among people taking antifolate antimalarial drugs in endemic areas.](https://pubmed.ncbi.nlm.nih.gov/36321557/)
+
+Crider K, Williams J, Qi YP, Gutman J, Yeung L, Mai C, Finkelstain J, Mehta S, Pons-Duran C, Menéndez C, Moraleda C, Rogers L, Daniels K, Green P.Crider K, et al.Cochrane Database Syst Rev. 2022 Feb 1;2(2022):CD014217. doi: 10.1002/14651858.CD014217.Cochrane Database Syst Rev. 2022.PMID: 36321557 Free PMC article.Updated. 
+*   [Explainable multiplex graph propagational network with multimodal neuroimage integration for dementia subtype diagnosis.](https://pubmed.ncbi.nlm.nih.gov/40819392/)
+
+Park S, Lee DG, Kim J, Kim D, Nam Y, Park B, Kim N, Lee S, Hong CH, Son SJ, Roh HW, Woo HG, Shin H.Park S, et al.Neural Netw. 2025 Dec;192:107971. doi: 10.1016/j.neunet.2025.107971. Epub 2025 Aug 7.Neural Netw. 2025.PMID: 40819392 
+*   [A comprehensive review of neural network-based approaches for drug-target interaction prediction.](https://pubmed.ncbi.nlm.nih.gov/40715759/)
+
+Panahandeh F, Mansouri N.Panahandeh F, et al.Mol Divers. 2025 Jul 26. doi: 10.1007/s11030-025-11303-6. Online ahead of print.Mol Divers. 2025.PMID: 40715759 Review. 
+
+## References
+
+1.       1.    Bates DW, Cullen DJ, Laird N, Petersen LA, Small SD, Servi D, et al. Incidence of adverse drug events and potential adverse drug events. Implications for prevention. ADE prevention study group. JAMA. 1995;274:29–34. 
+
+2.       1.    Lee, A Adverse Drug Reactions. (2001). 
+
+3.       1.    Karch FE. Adverse drug reactions. a critical review. JAMA. 1975;234:1236–41. [https://doi.org/10.1001/jama.234.12.1236](https://doi.org/10.1001/jama.234.12.1236). 
+
+4.       1.    Onakpoya IJ, Heneghan CJ, Aronson JK. Post-marketing withdrawal of 462 medicinal products because of adverse drug reactions: a systematic review of the world literature. BMC Med. 2016;14:10. 
+
+5.       1.    Siramshetty VB, Nickel J, Omieczynski C, Gohlke BO, Drwal MN, Preissner R. WITHDRAWN—a resource for withdrawn and discontinued drugs. Nucleic Acids Res. 2015;44:D1080–D1086. 
+
+## Grants and funding
+
+*   [R01AG084637/Foundation for the National Institutes of Health (Foundation for the National Institutes of Health, Inc.)](https://pubmed.ncbi.nlm.nih.gov/?term=R01AG084637%2FFoundation+for+the+National+Institutes+of+Health+%28Foundation+for+the+National+Institutes+of+Health%2C+Inc.%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant R01AG084637/Foundation for the National Institutes of Health (Foundation for the National Institutes of Health, Inc.)")
+*   [U24AG098157/Foundation for the National Institutes of Health (Foundation for the National Institutes of Health, Inc.)](https://pubmed.ncbi.nlm.nih.gov/?term=U24AG098157%2FFoundation+for+the+National+Institutes+of+Health+%28Foundation+for+the+National+Institutes+of+Health%2C+Inc.%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant U24AG098157/Foundation for the National Institutes of Health (Foundation for the National Institutes of Health, Inc.)")
+*   [R01AG066749/Foundation for the National Institutes of Health (Foundation for the National Institutes of Health, Inc.)](https://pubmed.ncbi.nlm.nih.gov/?term=R01AG066749%2FFoundation+for+the+National+Institutes+of+Health+%28Foundation+for+the+National+Institutes+of+Health%2C+Inc.%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant R01AG066749/Foundation for the National Institutes of Health (Foundation for the National Institutes of Health, Inc.)")
+*   [R01LM013712/Foundation for the National Institutes of Health (Foundation for the National Institutes of Health, Inc.)](https://pubmed.ncbi.nlm.nih.gov/?term=R01LM013712%2FFoundation+for+the+National+Institutes+of+Health+%28Foundation+for+the+National+Institutes+of+Health%2C+Inc.%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant R01LM013712/Foundation for the National Institutes of Health (Foundation for the National Institutes of Health, Inc.)")
+*   [R01LM014520/Foundation for the National Institutes of Health (Foundation for the National Institutes of Health, Inc.)](https://pubmed.ncbi.nlm.nih.gov/?term=R01LM014520%2FFoundation+for+the+National+Institutes+of+Health+%28Foundation+for+the+National+Institutes+of+Health%2C+Inc.%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant R01LM014520/Foundation for the National Institutes of Health (Foundation for the National Institutes of Health, Inc.)")
+
+*   [R01AG082721/Foundation for the National Institutes of Health (Foundation for the National Institutes of Health, Inc.)](https://pubmed.ncbi.nlm.nih.gov/?term=R01AG082721%2FFoundation+for+the+National+Institutes+of+Health+%28Foundation+for+the+National+Institutes+of+Health%2C+Inc.%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant R01AG082721/Foundation for the National Institutes of Health (Foundation for the National Institutes of Health, Inc.)")
+*   [R01AG066749/Foundation for the National Institutes of Health (Foundation for the National Institutes of Health, Inc.)](https://pubmed.ncbi.nlm.nih.gov/?term=R01AG066749%2FFoundation+for+the+National+Institutes+of+Health+%28Foundation+for+the+National+Institutes+of+Health%2C+Inc.%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant R01AG066749/Foundation for the National Institutes of Health (Foundation for the National Institutes of Health, Inc.)")
+*   [U01AG079847/Foundation for the National Institutes of Health (Foundation for the National Institutes of Health, Inc.)](https://pubmed.ncbi.nlm.nih.gov/?term=U01AG079847%2FFoundation+for+the+National+Institutes+of+Health+%28Foundation+for+the+National+Institutes+of+Health%2C+Inc.%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant U01AG079847/Foundation for the National Institutes of Health (Foundation for the National Institutes of Health, Inc.)")
+*   [U01CA274576/Foundation for the National Institutes of Health (Foundation for the National Institutes of Health, Inc.)](https://pubmed.ncbi.nlm.nih.gov/?term=U01CA274576%2FFoundation+for+the+National+Institutes+of+Health+%28Foundation+for+the+National+Institutes+of+Health%2C+Inc.%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant U01CA274576/Foundation for the National Institutes of Health (Foundation for the National Institutes of Health, Inc.)")
+*   [#2124789/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=%232124789%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant #2124789/National Science Foundation (NSF)")

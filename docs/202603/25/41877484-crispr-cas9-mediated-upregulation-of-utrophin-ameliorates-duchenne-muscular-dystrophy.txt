@@ -1,0 +1,47 @@
+Title: CRISPR-Cas9-Mediated Upregulation of Utrophin Ameliorates Duchenne Muscular Dystrophy - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41877484/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 24:S1525-0016(26)00211-X.
+
+doi: 10.1016/j.ymthe.2026.03.025.  Online ahead of print.
+
+[Simon Guiraud](https://pubmed.ncbi.nlm.nih.gov/?term=Guiraud+S&cauthor_id=41877484)[1](https://pubmed.ncbi.nlm.nih.gov/41877484/#full-view-affiliation-1 "Genethon; 91000 Evry, France; Université Paris-Saclay, Univ Evry, Inserm, Genethon, Integrare research unit UMR_S951; 91000 Evry-Courcouronnes, France."),[Sumitava Dastidar](https://pubmed.ncbi.nlm.nih.gov/?term=Dastidar+S&cauthor_id=41877484)[2](https://pubmed.ncbi.nlm.nih.gov/41877484/#full-view-affiliation-2 "Department of Cell and Developmental Biology, University College London; London WC1E 6BT, UK; The Francis Crick Institute; London NW1 1AT, UK."),[Paola Galbiati](https://pubmed.ncbi.nlm.nih.gov/?term=Galbiati+P&cauthor_id=41877484)[1](https://pubmed.ncbi.nlm.nih.gov/41877484/#full-view-affiliation-1 "Genethon; 91000 Evry, France; Université Paris-Saclay, Univ Evry, Inserm, Genethon, Integrare research unit UMR_S951; 91000 Evry-Courcouronnes, France."),[Emilia Sadaoui](https://pubmed.ncbi.nlm.nih.gov/?term=Sadaoui+E&cauthor_id=41877484)[1](https://pubmed.ncbi.nlm.nih.gov/41877484/#full-view-affiliation-1 "Genethon; 91000 Evry, France; Université Paris-Saclay, Univ Evry, Inserm, Genethon, Integrare research unit UMR_S951; 91000 Evry-Courcouronnes, France."),[Fetta Mazed](https://pubmed.ncbi.nlm.nih.gov/?term=Mazed+F&cauthor_id=41877484)[1](https://pubmed.ncbi.nlm.nih.gov/41877484/#full-view-affiliation-1 "Genethon; 91000 Evry, France; Université Paris-Saclay, Univ Evry, Inserm, Genethon, Integrare research unit UMR_S951; 91000 Evry-Courcouronnes, France."),[Fatima Amor](https://pubmed.ncbi.nlm.nih.gov/?term=Amor+F&cauthor_id=41877484)[1](https://pubmed.ncbi.nlm.nih.gov/41877484/#full-view-affiliation-1 "Genethon; 91000 Evry, France; Université Paris-Saclay, Univ Evry, Inserm, Genethon, Integrare research unit UMR_S951; 91000 Evry-Courcouronnes, France."),[Anne de Cian](https://pubmed.ncbi.nlm.nih.gov/?term=de+Cian+A&cauthor_id=41877484)[3](https://pubmed.ncbi.nlm.nih.gov/41877484/#full-view-affiliation-3 "INSERM U1154, CNRS UMR7196, Museum National d'Histoire Naturelle; 75015 Paris, France."),[Isabelle Richard](https://pubmed.ncbi.nlm.nih.gov/?term=Richard+I&cauthor_id=41877484)[1](https://pubmed.ncbi.nlm.nih.gov/41877484/#full-view-affiliation-1 "Genethon; 91000 Evry, France; Université Paris-Saclay, Univ Evry, Inserm, Genethon, Integrare research unit UMR_S951; 91000 Evry-Courcouronnes, France."),[Kamel Mamchaoui](https://pubmed.ncbi.nlm.nih.gov/?term=Mamchaoui+K&cauthor_id=41877484)[4](https://pubmed.ncbi.nlm.nih.gov/41877484/#full-view-affiliation-4 "Sorbonne Université, Inserm, Institut de Myologie, Centre de Recherche en Myologie; 75013 Paris, France."),[Giuseppe Ronzitti](https://pubmed.ncbi.nlm.nih.gov/?term=Ronzitti+G&cauthor_id=41877484)[1](https://pubmed.ncbi.nlm.nih.gov/41877484/#full-view-affiliation-1 "Genethon; 91000 Evry, France; Université Paris-Saclay, Univ Evry, Inserm, Genethon, Integrare research unit UMR_S951; 91000 Evry-Courcouronnes, France."),[Francesco Saverio Tedesco](https://pubmed.ncbi.nlm.nih.gov/?term=Tedesco+FS&cauthor_id=41877484)[5](https://pubmed.ncbi.nlm.nih.gov/41877484/#full-view-affiliation-5 "Department of Cell and Developmental Biology, University College London; London WC1E 6BT, UK; The Francis Crick Institute; London NW1 1AT, UK; Dubowitz Neuromuscular Centre, UCL Great Ormond Street Institute of Child Health and Great Ormond Street Hospital for Children; London WC1N 1EH, UK."),[Mario Amendola](https://pubmed.ncbi.nlm.nih.gov/?term=Amendola+M&cauthor_id=41877484)[6](https://pubmed.ncbi.nlm.nih.gov/41877484/#full-view-affiliation-6 "Genethon; 91000 Evry, France; Université Paris-Saclay, Univ Evry, Inserm, Genethon, Integrare research unit UMR_S951; 91000 Evry-Courcouronnes, France; Department of Clinical and Experimental Medicine, University of Foggia; 71122 Foggia, Italy. Electronic address: mamendola@genethon.fr.")
+
+Affiliations
+
+*    PMID: **41877484**
+*    DOI: [10.1016/j.ymthe.2026.03.025](https://doi.org/10.1016/j.ymthe.2026.03.025)
+
+## CRISPR-Cas9-Mediated Upregulation of Utrophin Ameliorates Duchenne Muscular Dystrophy
+
+Maëlle Ralu et al. Mol Ther.2026.
+
+## Abstract
+
+Duchenne muscular dystrophy is a lethal neuromuscular disorder caused by loss of dystrophin. Upregulating utrophin, a dystrophin paralogue, is a promising gene therapy approach. Here, we present a CRISPR-Cas9-based strategy to enhance utrophin expression by disrupting repressor binding sites. Using a Cas9/gRNA ribonucleoprotein complex we disrupted several such sites in DMD myoblasts and identified micro-RNA Let-7c binding site as effective in relieving repression of the UTRN gene. Interestingly, Cas9-generated indels were as effective as the complete removal of Let-7c binding site in upregulating UTRN expression, with minimal off-target effects. In a three-dimensional tissue-engineered human skeletal muscle model of DMD, this editing strategy resulted in significant utrophin upregulation and functional improvements of calcium dysregulation and muscle contraction. Finally, in mdx mice, local or systemic delivery of recombinant adeno-associated viruses encoding Cas9 and gRNA targeting the Let-7c binding site resulted in utrophin upregulation and amelioration of muscle histopathology and function. These findings provide the foundations for a mutation-independent, potentially universal gene editing therapeutic strategy for DMD.
+
+Copyright © 2026 The Author(s). Published by Elsevier Inc. All rights reserved.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Functional improvement of dystrophic muscle by repression of utrophin: let-7c interaction.](https://pubmed.ncbi.nlm.nih.gov/29045431/)
+
+Mishra MK, Loro E, Sengupta K, Wilton SD, Khurana TS.Mishra MK, et al.PLoS One. 2017 Oct 18;12(10):e0182676. doi: 10.1371/journal.pone.0182676. eCollection 2017.PLoS One. 2017.PMID: 29045431 Free PMC article. 
+*   [Duchenne muscular dystrophy cell culture models created by CRISPR/Cas9 gene editing and their application in drug screening.](https://pubmed.ncbi.nlm.nih.gov/34521928/)
+
+Soblechero-Martín P, Albiasu-Arteta E, Anton-Martinez A, de la Puente-Ovejero L, Garcia-Jimenez I, González-Iglesias G, Larrañaga-Aiestaran I, López-Martínez A, Poyatos-García J, Ruiz-Del-Yerro E, Gonzalez F, Arechavala-Gomeza V.Soblechero-Martín P, et al.Sci Rep. 2021 Sep 14;11(1):18188. doi: 10.1038/s41598-021-97730-5.Sci Rep. 2021.PMID: 34521928 Free PMC article. 
+*   [In Vivo Genome Editing Restores Dystrophin Expression and Cardiac Function in Dystrophic Mice.](https://pubmed.ncbi.nlm.nih.gov/28790199/)
+
+El Refaey M, Xu L, Gao Y, Canan BD, Adesanya TMA, Warner SC, Akagi K, Symer DE, Mohler PJ, Ma J, Janssen PML, Han R.El Refaey M, et al.Circ Res. 2017 Sep 29;121(8):923-929. doi: 10.1161/CIRCRESAHA.117.310996. Epub 2017 Aug 8.Circ Res. 2017.PMID: 28790199 Free PMC article. 
+*   [The AAV-mediated and RNA-guided CRISPR/Cas9 system for gene therapy of DMD and BMD.](https://pubmed.ncbi.nlm.nih.gov/28390761/)
+
+Wang JZ, Wu P, Shi ZM, Xu YL, Liu ZJ.Wang JZ, et al.Brain Dev. 2017 Aug;39(7):547-556. doi: 10.1016/j.braindev.2017.03.024. Epub 2017 Apr 5.Brain Dev. 2017.PMID: 28390761 Review. 
+*   [Dystrophin- and Utrophin-Based Therapeutic Approaches for Treatment of Duchenne Muscular Dystrophy: A Comparative Review.](https://pubmed.ncbi.nlm.nih.gov/37917377/)
+
+Szwec S, Kapłucha Z, Chamberlain JS, Konieczny P.Szwec S, et al.BioDrugs. 2024 Jan;38(1):95-119. doi: 10.1007/s40259-023-00632-3. Epub 2023 Nov 2.BioDrugs. 2024.PMID: 37917377 Free PMC article.Review.
