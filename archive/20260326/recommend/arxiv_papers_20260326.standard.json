@@ -1,0 +1,539 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-03-26T19:41:17.522808+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 3,
+    "deep_cap": 9,
+    "deep_selected": 3,
+    "quick_candidates": 8,
+    "quick_skim_target": 14,
+    "quick_selected": 8
+  },
+  "deep_dive": [
+    {
+      "id": "10.21203/rs.3.rs-9082479/v1",
+      "title": "Sparse autoencoders reveal organized biological knowledge but minimal regulatory logic in single-cell foundation models: a comparative atlas of Geneformer and scGPT",
+      "abstract": "<title>Abstract</title>  <p>Background: Single-cell foundation models such as Geneformer and scGPT encode rich biological information, but whether this includes causal regulatory logic rather than statistical co-expression remains unclear. Sparse autoencoders (SAEs) can resolve superposition in neural networks by decomposing dense activations into interpretable features, yet they have not been systematically applied to biological foundation models. <h4>Results:</h4> We trained TopK SAEs on residual stream activations from all layers of Geneformer V2-316M (18 layers, d=1,152) and scGPT whole-human (12 layers, d=512), producing atlases of 82,525 and 24,527 features, respectively. Both atlases confirm massive superposition, with 99.8% of features invisible to SVD. Systematic characterization reveals rich biological organization: 29–59% of features annotate to Gene Ontology, KEGG, Reactome, STRING, or TRRUST, with U-shaped layer profiles reflecting hierarchical abstraction. Features organize into co-activation modules (141 in Geneformer, 76 in scGPT), exhibit causal specificity (median 2.36×), and form cross-layer information highways (63–99.8%). When tested against genome-scale CRISPRi perturbation data, only 3 of 48 transcription factors (6.2%) show regulatory-target-specific feature responses. A multi-tissue control yields marginal improvement (10.4%, 5 of 48 TFs), establishing model representations as the bottleneck. <h4>Conclusions:</h4> These models have internalized organized biological knowledge, including pathway membership, protein interactions, functional modules, and hierarchical abstraction, yet they encode minimal causal regulatory logic. We release both feature atlases as interactive web platforms enabling exploration of more than 107,000 features across 30 layers of two leading single-cell foundation models.</p>",
+      "authors": [
+        "Kendiukhov I."
+      ],
+      "primary_category": null,
+      "categories": [],
+      "published": "2026-03-25",
+      "link": "https://doi.org/10.21203/rs.3.rs-9082479/v1",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Evaluation of single-cell foundation models Geneformer and scGPT using sparse autoencoders",
+      "llm_evidence_cn": "使用稀疏自编码器评估单细胞基础模型 Geneformer 和 scGPT",
+      "llm_evidence": "使用稀疏自编码器评估单细胞基础模型 Geneformer 和 scGPT",
+      "canonical_evidence": "使用稀疏自编码器评估单细胞基础模型 Geneformer 和 scGPT",
+      "llm_tldr_en": "This study uses sparse autoencoders to interpret biological knowledge and regulatory logic in single-cell foundation models.",
+      "llm_tldr_cn": "该研究利用稀疏自编码器解析单细胞基础模型中的生物学知识和调控逻辑。",
+      "llm_tldr": "该研究利用稀疏自编码器解析单细胞基础模型中的生物学知识和调控逻辑。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "large language models and foundation models for bioinformatics",
+      "matched_requirement_id": "req-30",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41882029",
+      "title": "Atlas of predicted protein complex structures across kingdoms.",
+      "abstract": "Protein complexes are fundamental to all biological processes. Public repositories have expanded to include millions of potential protein-protein interactions (PPIs) from human and diverse model organisms. Yet, large-scale structural characterization of these complexes-especially across different biological kingdoms-has lagged far behind, leaving most potential and unidentified interactions unresolved. Here, we present a comprehensive atlas of 1.1 million predicted protein-protein interaction structures generated with the AlphaFold2-based ColabFold framework. This dataset spans proteome-wide interactions from bacteria, archaea, humans, mice, plants, and human-virus pairs. Overall, we identify 181,671 high-confidence protein complex structures, especially 37,855 in the human interactome. Structural clustering revealed numerous conserved protein complex architectures shared across kingdoms, providing insights into previously uncharacterized biological functions. Supported by co-immunoprecipitation experiments, we further identify candidate viral receptors for Human mastadenovirus A and Papiine alphaherpesvirus 2. Comparative analyses integrating our complex structures with the AlphaFold monomeric structure database uncovered widespread gene fusion and fission events during evolution. Finally, we demonstrate how our dataset can enhance protein binding-surface prediction using deep learning approaches, illustrating its broad utility beyond structural modeling alone. Altogether, this atlas to our knowledge, represents one of the most extensive cross-kingdom resources and opens avenues for future discoveries in various biomedical applications.",
+      "authors": [
+        "Xianzhi Qi",
+        "Cheng Ye",
+        "Jianqiang Liang",
+        "Shimin Wen",
+        "Yuanyuan Li",
+        "Kai Ding",
+        "Yongfu Hao",
+        "Junjie Fei",
+        "Weian Mao",
+        "Liupeng Li",
+        "Zhiyu Lin",
+        "Yichong Shen",
+        "Hongjie Zhu",
+        "Yayun Hu",
+        "Rui Zhang",
+        "Pengli Ji",
+        "Yafei Lu",
+        "Bonan Liu",
+        "Han Wang",
+        "Yuxuan Chen",
+        "Zhenguo Ma",
+        "Peiyuan Yang",
+        "Xinyu Xu",
+        "Junlong Wu",
+        "Youyuan Zhu",
+        "Qiaosha Zou",
+        "Wencheng Zhu",
+        "Kelu Yao",
+        "Shuya Li",
+        "Hongyi Xin",
+        "Daji Ergu",
+        "Jianyang Zeng",
+        "Zhi-Xiong Jim Xiao",
+        "Chunhua Shen",
+        "Ying Cai",
+        "Yong Yi",
+        "Dacheng Ma"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-25",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41882029/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "AlphaFold2-based protein complex structure atlas",
+      "llm_evidence_cn": "基于AlphaFold2的蛋白质复合物结构图谱",
+      "llm_evidence": "基于AlphaFold2的蛋白质复合物结构图谱",
+      "canonical_evidence": "基于AlphaFold2的蛋白质复合物结构图谱",
+      "llm_tldr_en": "Presents a massive atlas of 1.1 million predicted protein complex structures using AlphaFold2 across kingdoms.",
+      "llm_tldr_cn": "展示了跨物种的110万个基于AlphaFold2预测的蛋白质复合物结构图谱。",
+      "llm_tldr": "展示了跨物种的110万个基于AlphaFold2预测的蛋白质复合物结构图谱。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "geometric deep learning and foundation models for protein structure modeling",
+      "matched_requirement_id": "req-17",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41784176",
+      "title": "Structure-Based Discovery of a New LpxH-Targeted Chemotype with Activity against",
+      "abstract": "Gram-negative pathogens are difficult to treat because their outer membrane, enriched with lipid A-anchored lipopolysaccharide, serves as a protective barrier to many antibiotics. LpxH, an essential dimanganese hydrolase in lipid A biosynthesis, represents a promising antimicrobial target, but its distinct L-shaped binding pocket has limited inhibitor development, with only the sulfonylpiperazine chemotype reported to date. To broaden the chemical space, we developed a multistage virtual screening workflow combining HipHop-based pharmacophore modeling, ROCS-based query matching, and FRED docking. This pipeline identified F523-0608, an acetylpiperazine-containing compound, as a moderate Klebsiella pneumoniae LpxH (KpLpxH) inhibitor. Substructure searching and optimization yielded compound 7, a potent inhibitor (IC50: 0.17 μM) with moderate antibacterial activity (MIC: 5.3 μg/mL). The crystal structure of the KpLpxH-compound 7 complex revealed its binding mode, validating virtual screening analysis. These studies establish acetylpiperazine derivatives as a new class of LpxH inhibitors and provide a foundation for future antibiotic development.",
+      "authors": [
+        "Gao Zhang",
+        "C Skyler Cochrane",
+        "Bochao Yang",
+        "Jinshi Zhao",
+        "Hongwei Jin",
+        "Song Wu",
+        "Pei Zhou",
+        "Jie Xia"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-26",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41784176/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "virtual screening workflow for antimicrobial target identification and inhibitor development",
+      "llm_evidence_cn": "用于抗菌靶点识别和抑制剂开发的虚拟筛选工作流",
+      "llm_evidence": "用于抗菌靶点识别和抑制剂开发的虚拟筛选工作流",
+      "canonical_evidence": "用于抗菌靶点识别和抑制剂开发的虚拟筛选工作流",
+      "llm_tldr_en": "Develops a virtual screening pipeline to identify new inhibitors for essential Gram-negative pathogen targets.",
+      "llm_tldr_cn": "开发虚拟筛选工作流，针对革兰氏阴性菌的关键靶点 LpxH 发现新型抑制剂。",
+      "llm_tldr": "开发虚拟筛选工作流，针对革兰氏阴性菌的关键靶点 LpxH 发现新型抑制剂。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "41456824",
+      "title": "Elucidating the therapeutic mechanism of Orthosiphon aristatus in hyperuricemic nephropathy: An integrated microbiome-metabolomics approach.",
+      "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: Hyperuricemic nephropathy (HN) remains challenging to treat due to the limitations, including variable efficacy and side effects, of conventional drugs. Orthosiphon aristatus (O. aristatus), used for over 2000 years in Dai medicine to treat kidney disorders by \"clearing heat and promoting diuresis,\" shows strong potential for HN management. However, its mechanisms of action against HN remain unclear. AIM OF THE STUDY: This study aimed to elucidate the nephroprotective effects and underlying mechanisms of O. aristatus against HN using an integrated strategy focusing on the gut-kidney axis. METHODS: A rat model of HN was established by combined oral administration of potassium oxonate (750 mg/kg) and uric acid (300 mg/kg) daily for 7 weeks. Model rats were treated with a low- or high-dose aqueous extract of O. aristatus (3.125 or 6.25 g/kg/day), using allopurinol (5 mg/kg/day) as a positive control. Renal function was assessed by measuring serum levels of uric acid, creatinine, and urea nitrogen. Renal pathological injury and fibrosis were evaluated through histopathological examination (H&E and Masson's trichrome staining), immunohistochemistry (α-SMA, vimentin), and transmission electron microscopy. To elucidate the underlying mechanisms, an integrated multi-omics approach was employed: gut microbiota composition was profiled by metagenomic sequencing, and metabolic alterations in cecal content and kidney tissue were characterized using UPLC-MS-based metabolomics. Furthermore, the protein expression of key targets involved in intestinal barrier function (Occludin, Claudin-1) and the IDO1/AhR signaling pathway was validated by Western blot analysis. RESULTS: O. aristatus treatment significantly ameliorated renal dysfunction and pathological injury, as demonstrated by marked reductions in serum uric acid (sUA), creatinine (Scr), and blood urea nitrogen (BUN) levels (all p < 0.001), alongside attenuated tubular injury and fibrosis. Concurrently, it restored gut microbiota diversity (e.g., increased Shannon index, p < 0.05) and composition, characterized by an enrichment of beneficial Prevotella and a reduction in Bacteroides. Integrated metabolomics analysis further linked these effects to the rectification of tryptophan metabolism, manifested by decreased renal kynurenine levels (p < 0.01) and enhanced intestinal barrier integrity (e.g., elevated Occludin and Claudin-1, p < 0.05). Collectively, our results delineate that the renoprotective effect of O. aristatus is mediated through the suppression of the renal IDO1/kynurenine/AhR pro-fibrotic signaling axis, unveiling a novel gut microbiota-metabolite-kidney interaction mechanism. CONCLUSION: This study elucidates that the renoprotective effect of O. aristatus against HN is mediated through modulation of the gut-kidney axis, by restoring microbial ecology, reprogramming host tryptophan metabolism, and subsequently inhibiting the IDO1/kynurenine/AhR pro-fibrotic pathway.",
+      "authors": [
+        "Haohao Quan",
+        "Jianting Ouyang",
+        "Xinwen Fu",
+        "Danyao Lin",
+        "Qiaoru Wu",
+        "Delun Li",
+        "Yimeng Li",
+        "Fan Yang",
+        "Shouhai Wu",
+        "Chuang Li",
+        "Wei Mao"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-25",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41456824/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "integrated microbiome-metabolomics approach for multi-omics interpretation",
+      "llm_evidence_cn": "微生物组-代谢组学集成方法用于多组学解释",
+      "llm_evidence": "微生物组-代谢组学集成方法用于多组学解释",
+      "canonical_evidence": "微生物组-代谢组学集成方法用于多组学解释",
+      "llm_tldr_en": "Uses an integrated microbiome-metabolomics strategy to study the therapeutic mechanisms of a traditional medicine.",
+      "llm_tldr_cn": "采用微生物组-代谢组学集成策略研究传统药物的治疗机制。",
+      "llm_tldr": "采用微生物组-代谢组学集成策略研究传统药物的治疗机制。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41858012",
+      "title": "Glutathione Impacts Both Batrachochytrium dendrobatidis Virulence and Amphibian Cellular Defense in a Chytridiomycosis Model.",
+      "abstract": "Glutathione has important roles in diverse infections, yet its involvement in the interaction between the deadly fungal pathogen Batrachochytrium dendrobatidis (Bd) and its amphibian hosts is still unclear. Using in vitro assays and a cell infection model, we examined how glutathione influences Bd virulence traits and cellular host disease resistance. For Bd, inhibition of glutathione reductase rapidly killed zoospores, indicating that glutathione is essential for this pathogen. In addition, exposure to exogenous glutathione promoted the potential for virulence through accelerated and increased zoospore release. In host amphibian cells, Bd infection decreased intracellular glutathione content and increased reactive oxygen species, suggesting that chytridiomycosis pathogenesis involves oxidative stress. Depletion of host glutathione before exposure to Bd increased infection severity, whereas amphibian cells with slightly elevated glutathione levels were partially protected against Bd. However, manipulation of host glutathione levels after the establishment of Bd infection did not impact its intracellular growth, implying that the host glutathione-mediated resistance only occurs during the initial Bd invasion process. Importantly, this effect of glutathione on host resistance is not a general response to pathogens, as it was not observed in cells exposed to the viral pathogen FV3. As glutathione increased both infectious zoospore production and host resistance to zoospore infection, our study suggests that this antioxidant may play an important role in the host/pathogen interaction during chytridiomycosis. Thus, environmental conditions and therapeutic approaches that affect glutathione systems in the host and/or pathogen have the potential to alter chytridiomycosis dynamics and should be further explored.",
+      "authors": [
+        "Webb RJ, Roberts AA, Berger L, Robert J, Skerratt LF."
+      ],
+      "primary_category": null,
+      "categories": [],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41858012/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "interaction between the deadly fungal pathogen and its amphibian hosts",
+      "llm_evidence_cn": "致命真菌病原体与其两栖动物宿主之间的相互作用",
+      "llm_evidence": "致命真菌病原体与其两栖动物宿主之间的相互作用",
+      "canonical_evidence": "致命真菌病原体与其两栖动物宿主之间的相互作用",
+      "llm_tldr_en": "Investigates glutathione's role in fungal pathogen virulence and host cellular defense mechanisms.",
+      "llm_tldr_cn": "研究谷胱甘肽在真菌病原体毒力和宿主细胞防御机制相互作用中的关键作用。",
+      "llm_tldr": "研究谷胱甘肽在真菌病原体毒力和宿主细胞防御机制相互作用中的关键作用。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41880553",
+      "title": "The dual roles of microorganisms in inflammatory diseases: initiators and regulators.",
+      "abstract": "Research on the microbiome is reshaping the conceptual foundations of inflammatory diseases. As a dynamic component of the host ecosystem, microbial communities collectively influence inflammatory responses and homeostatic balance through their metabolites, structural signals, and interactions with immune pathways. Dysbiosis can amplify immune activation and metabolic disturbances, leading to persistent inflammation, whereas specific commensal taxa and their metabolites possess the capacity to suppress excessive immune responses and restore homeostasis. This bidirectional regulatory capacity positions the microbiome as a central node that both drives and modulates inflammatory networks. Multi-omics investigations have delineated the systemic architecture of microbe-host interactions, revealing cross-system axes such as the gut-brain, gut-liver, and skin-gut pathways that constitute a signaling framework integrating inflammation and immunity, thereby reshaping our understanding of disease pathogenesis. Within this framework, inflammation is redefined as an adaptive strategy for maintaining systemic stability rather than merely a singular pathological reaction. Therapeutic approaches including fecal microbiota transplantation (FMT), engineered microbial strains, and interventions targeting metabolic signaling are propelling microecological medicine into an era of precision modulation. As systems biology converges with spatial omics, research on the microbiome is shifting from descriptive pathology toward mechanistic control, establishing it as a critical nexus linking immunity, metabolism, and disease evolution. This transformation heralds a paradigm shift in medicine from merely \"suppressing inflammation\" to actively \"reconstructing ecological order.\"",
+      "authors": [
+        "Yan Liao",
+        "Ruoyu Jiang",
+        "Haoling Zhang",
+        "Wangzheqi Zhang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-25",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41880553/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "microbiome host interaction and inflammatory disease modeling",
+      "llm_evidence_cn": "微生物组宿主相互作用和炎症疾病建模",
+      "llm_evidence": "微生物组宿主相互作用和炎症疾病建模",
+      "canonical_evidence": "微生物组宿主相互作用和炎症疾病建模",
+      "llm_tldr_en": "Explores the microbiome's role as a regulator of inflammatory diseases through multi-omics and host interactions.",
+      "llm_tldr_cn": "通过多组学和宿主相互作用探讨了微生物组作为炎症疾病调节者的角色。",
+      "llm_tldr": "通过多组学和宿主相互作用探讨了微生物组作为炎症疾病调节者的角色。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41877289",
+      "title": "Comprehensive assessment of the genomic stability of human induced pluripotent stem cells for clinical applications.",
+      "abstract": "BACKGROUND: Human induced pluripotent stem cells (hiPSCs) may acquire genomic alterations during reprogramming and culture, which poses significant risks for clinical applications. Current detection methods, such as karyotyping analysis, often fail to identify critical submicroscopic variations. This highlights an urgent need for comprehensive genomic surveillance strategies. METHODS: Three human iPSC lines were continually cultured in vitro for 50 passages, with genome alterations evaluated every 10 passages. The evaluation methods included karyotyping to detect chromosomal abnormalities, optical genome mapping (OGM) to identify copy number variations (CNVs) and structural variants (SVs), whole-exome sequencing (WES) to detect coding mutations, and RNA sequencing (RNA-seq) to detect the changes of gene expression. RESULTS: We detected accumulating chromosomal abnormalities (e.g., trisomy 12), SVs, CNVs, and sequence mutations in three hiPSC lines during extended culture. OGM effectively identified SVs and CNVs below karyotyping resolution, particularly recurrent genome abnormalities such as gains on chr17q, chr12p and chr20q. WES revealed coding mutations, including germline short variants and newly acquired somatic mutations, some of which were associated with tumors or diseases, such as CDH1, BCOR. Transcriptional changes correlated with genomic alterations, including dysregulation of oncogenes such as BCL2L1, KRAS and MDM2. Results demonstrate that each method had unique detection capabilities and limitations, and only integrative approaches can comprehensively identify genomic abnormalities. CONCLUSIONS: This study established a comprehensive strategy for evaluating the genomic alterations of hiPSCs by integrating karyotyping, OGM, WES, and RNA-seq. This comprehensive strategy can be applied to scenarios such as hiPSC clone screening, establishment of cell bank passages, and quality control of hiPSC-derived products. It provides a reliable genetic stability evaluation protocol to support the safe clinical application of hiPSC-related products.",
+      "authors": [
+        "Kehua Zhang",
+        "Tao Na",
+        "Chuncui Jia",
+        "Xianghe Yuan",
+        "Meichen Guo",
+        "Xu Yang",
+        "Min Li",
+        "Wenwen Jia",
+        "Zhihui Bai",
+        "Jizhen Lu",
+        "Zhongmin Liu",
+        "Shufang Meng"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-25",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41877289/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "genomic surveillance strategies for identifying alterations",
+      "llm_evidence_cn": "用于识别变异的基因组监测策略",
+      "llm_evidence": "用于识别变异的基因组监测策略",
+      "canonical_evidence": "用于识别变异的基因组监测策略",
+      "llm_tldr_en": "Evaluates genomic stability in hiPSCs using comprehensive surveillance methods like OGM and WES.",
+      "llm_tldr_cn": "使用 OGM 和 WES 等综合监测方法评估 hiPSC 的基因组稳定性。",
+      "llm_tldr": "使用 OGM 和 WES 等综合监测方法评估 hiPSC 的基因组稳定性。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI methods for genomic surveillance and outbreak monitoring",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41882727",
+      "title": "Dual functions of apigenin in suppressing Phytophthora capsici and shaping the pepper microbiome.",
+      "abstract": "BACKGROUND: Plant resistance to soil-borne pathogens is shaped by the interactions among host genetics, root exudates, and rhizosphere microbiomes. Flavonoids are widely recognized for their antimicrobial and signaling functions, yet their role in mediating metabolite-microbiome-pathogen interactions in pepper (Capsicum frutescens) remains poorly understood. RESULTS: Through integrated microbiome, transcriptome, and metabolome analyses, we compared resistant (CA53) and susceptible (CA476) pepper cultivars under challenge by Phytophthora capsici in the pepper rhizosphere. Resistant plants maintained relatively stable transcriptional and metabolic profiles, whereas susceptible plants exhibited a pronounced suppression of the flavonoid biosynthesis pathway, with a marked decline in apigenin levels. Exogenous application of apigenin significantly enhanced pepper resistance by disrupting sporangial cell membrane integrity and thereby inhibiting zoospore release (95% reduction in zoospore release). In addition, apigenin functioned as a central hub metabolite, selectively enriching disease-suppressive rhizosphere microbes and reinforcing host protection. CONCLUSION: Our findings uncover a dual role of apigenin in pepper resistance: directly inhibiting pathogen propagation and indirectly reinforcing the recruitment of protective microbiota. These insights highlight the ecological functions of root-derived metabolites in shaping plant-microbiome interactions and provide potential avenues for metabolite-informed strategies in sustainable crop protection. Video Abstract.",
+      "authors": [
+        "Xiwen Liao",
+        "Weifeng Song",
+        "Yiman Wan",
+        "Jing Zhang",
+        "Panrong Ren",
+        "Pierre Delaplace",
+        "Yuan Chen"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-25",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41882727/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Integrated microbiome and metabolome analysis of host-pathogen interactions",
+      "llm_evidence_cn": "宿主-病原体相互作用的微生物组和代谢组综合分析",
+      "llm_evidence": "宿主-病原体相互作用的微生物组和代谢组综合分析",
+      "canonical_evidence": "宿主-病原体相互作用的微生物组和代谢组综合分析",
+      "llm_tldr_en": "This paper analyzes how apigenin suppresses pathogens and shapes the rhizosphere microbiome in pepper plants.",
+      "llm_tldr_cn": "本文分析了芹菜素如何抑制病原体并塑造辣椒根际微生物组。",
+      "llm_tldr": "本文分析了芹菜素如何抑制病原体并塑造辣椒根际微生物组。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41883043",
+      "title": "Novel Enterococcus phages identified through comprehensive screening to control contamination in chicken meat.",
+      "abstract": "BACKGROUND: Antibiotic-resistant Enterococcus faecalis and E. faecium are persistent contaminants in food and environmental settings, including poultry-related matrices, contributing to food safety risks and antimicrobial resistance (AMR) dissemination. This study aimed to identify Enterococcus phages through environmental screening and evaluate their biocontrol potential using a chicken wing food model. RESULTS: From 1719 environmental samples, 45 Enterococcus-targeting phages were isolated, and two (Efs.1 1-1 and Efm 3-10) with the broadest lytic profiles were selected for characterization. Transmission electron microscopy revealed that both phages belong to Caudoviricetes with siphovirus-like morphology, latent periods (6-8 min), and high burst sizes (90-110 PFU per cell). Whole-genome sequencing revealed complete circular genomes with estimated completeness values between 0.97 and 1.00, and no detectable virulence, lysogeny, or AMR genes. The phages were stable at pH 4 for 60 min and tolerated 40-60 °C for 1 h. Phage titers decreased from 10.0 to no less than 6.0 log PFU mL-1 across all storage conditions over 12 months. In vitro assays in tryptic soy broth showed that while the control groups reached 8.56-9.12 log CFU mL-1 at 24 h at 37 °C, no bacteria were detected in any of the phage-treated samples (limit of detection: 1 CFU mL-1). In the chicken wing food model, phage treatment maintained bacterial counts below the detection limit (<1 log CFU g-1) throughout refrigerated storage. Mean log reductions reached 1.78-2.78 and 3.71-4.71 log CFU g-1, respectively. CONCLUSION: These novel lytic phages exhibit strong stability and rapid antibacterial activity, offering promising biocontrol agents to reduce Enterococcus contamination in chicken meat. © 2026 Society of Chemical Industry.",
+      "authors": [
+        "Bahar Onaran Acar",
+        "Ayse Nur Erdinc",
+        "Tansu Yildiz",
+        "Gorkem Cengiz",
+        "Gizem Cufaoglu",
+        "Gultekin Unal",
+        "Muammer Goncuoglu",
+        "Irfan Erol",
+        "Naim Deniz Ayaz"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-25",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41883043/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Phage screening to control antibiotic-resistant pathogen contamination",
+      "llm_evidence_cn": "筛选噬菌体以控制耐药病原体污染",
+      "llm_evidence": "筛选噬菌体以控制耐药病原体污染",
+      "canonical_evidence": "筛选噬菌体以控制耐药病原体污染",
+      "llm_tldr_en": "Identifies novel Enterococcus phages to combat antimicrobial resistance and food contamination in poultry.",
+      "llm_tldr_cn": "鉴定了新型肠球菌噬菌体，用于控制禽肉中的耐药性病原体污染。",
+      "llm_tldr": "鉴定了新型肠球菌噬菌体，用于控制禽肉中的耐药性病原体污染。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41883120",
+      "title": "AI-Assisted Tissue Classification in Chironomus riparius: A Potential Tool for Ecotoxicological Studies.",
+      "abstract": "Histological techniques are valuable tools in various biological and medical disciplines. They have proven particularly valuable in ecotoxicological studies, providing critical insight into the sublethal effects of pollutants on aquatic organisms. However, limited reference data on invertebrate histology make these analyses time-consuming, particularly for previously undescribed species. In this study, a deep learning model, based on the Convolutional Neural Network (CNN) was developed to automatically identify 11 tissue types of Chironomus riparius. The model achieved an overall accuracy of 94.21%, with five of the eleven tissues correctly identified in all cases, while the highest misclassification rate (22.72%) occurred in the case of recognizing parietal fat body. This represents the first AI-assisted approach for histological tissue classification in a standard invertebrate Organisation for Economic Co-operation and Development model organism, achieving high accuracy and providing a foundation for integrating deep learning into future histopathological workflows in environmental and ecotoxicological research.",
+      "authors": [
+        "Jelena Stojanović",
+        "Aleksandar Milosavljević",
+        "Dimitrija Savić-Zdravković",
+        "Djuradj Milošević"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-25",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41883120/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "deep learning for automatic tissue classification and mapping",
+      "llm_evidence_cn": "用于自动组织分类和映射的深度学习",
+      "llm_evidence": "用于自动组织分类和映射的深度学习",
+      "canonical_evidence": "用于自动组织分类和映射的深度学习",
+      "llm_tldr_en": "Developed a CNN model for automated tissue classification in ecotoxicological studies with high accuracy.",
+      "llm_tldr_cn": "开发了一种用于生态毒理学研究中自动组织分类的 CNN 模型，具有很高的准确性。",
+      "llm_tldr": "开发了一种用于生态毒理学研究中自动组织分类的 CNN 模型，具有很高的准确性。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "deep learning and foundation models for spatial transcriptomics proteomics and tissue mapping",
+      "matched_requirement_id": "req-46",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41885500",
+      "title": "Demography-dependent variability in the human tumor mycobiome.",
+      "abstract": "UNLABELLED: Recent studies have shown that the tumor mycobiome may have prognostic and diagnostic significance in cancer patients. We aimed to gain a better understanding of how patient characteristics (age, sex, body mass index [BMI], and race) influence the composition of the tumor mycobiome, using the data of these studies. We first tested the data in view of recent critiques of tumor microbiome data processing procedures and concluded that the batch correction and transformation used on it may produce false signals. Instead, we explored 14 combinations of data transformation and batch correction methods on data of 224 fungal species across 13 cancer types. Propensity scores were utilized to adjust for potential confounders such as histological type and tumor stage. To minimize false outcomes, we identified as positive results only those fungi species that showed significant difference in abundance across a demographic factor within a particular cancer type, using data normalized according to all 14 combinations. We observed significant differences in 24 fungal species abundance within tumors for certain demographic characteristics. A total of 20 of these differences were among races in specific cancers. The findings indicate that there are intricate interactions between the mycobiome, cancer type, and patient demographics. Our study highlights the need to account for race in order to understand the role of the mycobiome in cancer development and treatment response. The study also underscores the importance of data processing techniques. IMPORTANCE: This study analyzes the demographic-dependent variability of the intratumor mycobiome, providing a novel understanding of fungal abundance across different cancer types and patient demographics. By analyzing over 5,000 tumor samples from The Cancer Genome Atlas, the research identified 24 fungal species with significant abundance variations linked to demographic factors such as race, age, sex, and body mass index. These findings underscore the complexity of the tumor microenvironment and the importance of accounting for demographic diversity in cancer research. The study emphasizes the necessity of using robust data normalization and batch correction techniques to avoid spurious associations in order to ensure the reliability of mycobiome analysis. This work highlights the mycobiome as a new frontier in precision oncology and paves the way for future personalized cancer diagnostics and treatments that account for the influence of demographic factors on tumor biology.",
+      "authors": [
+        "Dan Coster",
+        "Thomy Margalit",
+        "Ronen Ben-Ami",
+        "Ben Boursi",
+        "Ron Shamir"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-26",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41885500/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "tumor mycobiome data processing and batch correction",
+      "llm_evidence_cn": "肿瘤真菌组数据处理与批次校正",
+      "llm_evidence": "肿瘤真菌组数据处理与批次校正",
+      "canonical_evidence": "肿瘤真菌组数据处理与批次校正",
+      "llm_tldr_en": "Evaluates data transformation and batch correction methods for analyzing the human tumor mycobiome.",
+      "llm_tldr_cn": "评估用于分析人类肿瘤真菌组的数据转换和批次校正方法。",
+      "llm_tldr": "评估用于分析人类肿瘤真菌组的数据转换和批次校正方法。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

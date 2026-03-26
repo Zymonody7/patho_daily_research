@@ -1,10 +1,43 @@
 # 知识库
 
-- 最近沉淀条目数：215
+- 最近沉淀条目数：226
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Sparse autoencoders reveal organized biological knowledge but minimal regulatory logic in single-cell foundation models: a comparative atlas of Geneformer and scGPT](#/202603/26/202603/26/10.21203/rs.3.rs-9082479/v1-sparse-autoencoders-reveal-organized-biological-knowledge-but-minimal-regulatory-logic-in-single-cell-foundation-models-a-comparative-atlas-of-geneformer-and-scgpt)
+  - TLDR：单细胞大模型（如Geneformer和scGPT）是否真正理解基因调控逻辑尚不明确。本研究利用稀疏自编码器（SAE）对这两个模型的内部激活进行了解构，构建了包含超过10万个特征的解释性图谱。研究发现，模型虽然成功学习了复杂的生物学知识（如通路、蛋白质相互作用和层级结构），但在应对CRISPRi扰动实验时表现出极弱的因果调控逻辑。这一结果揭示了当前单细胞模型在模拟基因调控网络方面的局限性，并为模型改进提供了方向。
+  - Tags：`query:bioinfo`
+- [Atlas of predicted protein complex structures across kingdoms.](#/202603/26/202603/26/41882029-atlas-of-predicted-protein-complex-structures-across-kingdoms)
+  - TLDR：蛋白质复合物是生命活动的核心，但其结构表征远滞后于相互作用数据的增长。本研究利用基于 AlphaFold2 的 ColabFold 框架，构建了涵盖细菌、古菌、人类、小鼠及病毒等跨物种的 110 万个蛋白质相互作用结构图谱。通过筛选出 18 万个高置信度结构，揭示了跨物种保守的复合物构型，并成功预测了新型病毒受体。该资源不仅深化了对蛋白质进化与功能的理解，还显著提升了蛋白质结合位点预测等下游 AI 任务的性能。
+  - Tags：`query:bioinfo`
+- [Structure-Based Discovery of a New LpxH-Targeted Chemotype with Activity against](#/202603/26/202603/26/41784176-structure-based-discovery-of-a-new-lpxh-targeted-chemotype-with-activity-against)
+  - TLDR：针对革兰氏阴性菌外膜屏障导致的耐药难题，本研究聚焦于脂质A合成的关键酶LpxH。由于现有抑制剂骨架单一，研究团队利用药效团建模、形状匹配及分子对接的多阶段虚拟筛选技术，从海量化合物中鉴定出乙酰哌嗪这一新化学骨架。经过结构优化得到的化合物7展现出显著的酶抑制活性和抗菌潜力，并通过晶体结构解析证实了其独特的结合模式，为新型抗生素研发开辟了新路径。
+  - Tags：`query:pathoai`
+- [Elucidating the therapeutic mechanism of Orthosiphon aristatus in hyperuricemic nephropathy: An integrated microbiome-metabolomics approach.](#/202603/26/202603/26/41456824-elucidating-the-therapeutic-mechanism-of-orthosiphon-aristatus-in-hyperuricemic-nephropathy-an-integrated-microbiome-metabolomics-approach)
+  - TLDR：高尿酸性肾病（HN）因传统药物副作用大而难以根治。本研究通过大鼠实验，利用宏基因组学与代谢组学联合分析，揭示了猫须草（Orthosiphon aristatus）的治疗机制。结果显示，猫须草通过调节肠道菌群（如增加普氏菌）、改善色氨酸代谢并抑制IDO1/犬尿氨酸/AhR促纤维化通路，有效减轻了肾损伤和纤维化，为HN的临床治疗提供了肠-肾轴互动的新视角。
+  - Tags：`query:bioinfo`
+- [The dual roles of microorganisms in inflammatory diseases: initiators and regulators.](#/202603/26/202603/26/41880553-the-dual-roles-of-microorganisms-in-inflammatory-diseases-initiators-and-regulators)
+  - TLDR：炎症性疾病的传统认知正被微生物组研究重塑。本文探讨了微生物群落作为宿主生态系统的动态组成部分，如何通过代谢产物和免疫信号双向调节炎症：失调会诱发免疫激活，而特定共生菌则能抑制过度反应。通过多组学技术揭示的肠-脑、肠-肝等跨系统轴，将炎症重新定义为维持系统稳定的适应性策略。这促使医疗手段从单纯“抑制炎症”转向通过粪菌移植、工程菌等手段“重建生态秩序”，为精准医疗提供了新范式。
+  - Tags：`query:pathoai`
+- [Dual functions of apigenin in suppressing Phytophthora capsici and shaping the pepper microbiome.](#/202603/26/202603/26/41882727-dual-functions-of-apigenin-in-suppressing-phytophthora-capsici-and-shaping-the-pepper-microbiome)
+  - TLDR：针对辣椒疫霉病这一土传病害，本研究通过整合转录组、代谢组和微生物组分析，揭示了芹菜素在植物防御中的核心作用。实验表明，芹菜素不仅能通过破坏细胞膜直接抑制病原菌孢子释放（效率达95%），还能作为代谢枢纽定向富集根际抑病微生物。该研究阐明了“代谢物-微生物-病原体”的互作机制，为可持续农业中的精准植保提供了新策略。
+  - Tags：`query:pathoai`
+- [Glutathione Impacts Both Batrachochytrium dendrobatidis Virulence and Amphibian Cellular Defense in a Chytridiomycosis Model.](#/202603/26/202603/26/41858012-glutathione-impacts-both-batrachochytrium-dendrobatidis-virulence-and-amphibian-cellular-defense-in-a-chytridiomycosis-model)
+  - TLDR：针对致命真菌 Bd 对两栖动物致病机制不明的问题，本研究通过体外实验和细胞感染模型，探讨了谷胱甘肽（GSH）在病原体毒力和宿主防御中的双重作用。研究发现 GSH 是 Bd 生存所必需的，且能促进其孢子释放；同时，宿主细胞内 GSH 水平决定了其对 Bd 初始入侵的抵抗力。这一发现揭示了氧化应激在壶菌病中的关键作用，为通过调节抗氧化系统防治该病提供了新思路。
+  - Tags：`query:pathoai`
+- [Comprehensive assessment of the genomic stability of human induced pluripotent stem cells for clinical applications.](#/202603/26/202603/26/41877289-comprehensive-assessment-of-the-genomic-stability-of-human-induced-pluripotent-stem-cells-for-clinical-applications)
+  - TLDR：人诱导多能干细胞（hiPSCs）在长期培养中易积累基因组变异，威胁临床应用安全。本研究通过对3株hiPSC进行50代连续培养，整合核型分析、光学基因组图谱（OGM）、全外显子组测序（WES）和转录组测序（RNA-seq）进行多维度监测。结果发现，传统核型分析难以识别的微小结构变异和癌症相关基因突变（如BCOR）会随代次累积，并导致癌基因表达异常。该研究建立的综合评估策略为hiPSC克隆筛选和临床产品质控提供了可靠的技术框架。
+  - Tags：`query:pathoai`
+- [Novel Enterococcus phages identified through comprehensive screening to control contamination in chicken meat.](#/202603/26/202603/26/41883043-novel-enterococcus-phages-identified-through-comprehensive-screening-to-control-contamination-in-chicken-meat)
+  - TLDR：针对禽肉中耐药性肠球菌污染导致的食品安全风险，研究人员从1719份环境样本中筛选出45株噬菌体，并重点评估了Efs.1 1-1和Efm 3-10两株广谱裂解性噬菌体。实验证明这两株噬菌体具有极短的潜伏期和高爆发量，且不含毒力或耐药基因，在冷藏鸡翅模型中能将细菌数量降至检测限以下，为减少禽肉肠球菌污染提供了高效的生物防治方案。
+  - Tags：`query:pathoai`
+- [AI-Assisted Tissue Classification in Chironomus riparius: A Potential Tool for Ecotoxicological Studies.](#/202603/26/202603/26/41883120-ai-assisted-tissue-classification-in-chironomus-riparius-a-potential-tool-for-ecotoxicological-studies)
+  - TLDR：针对水生无脊椎动物组织学分析中参考资料匮乏、人工识别耗时费力的问题，本研究开发了一种基于卷积神经网络（CNN）的深度学习模型，用于自动识别标准实验生物摇蚊幼虫的11种组织类型。该模型实现了94.21%的分类准确率，有效解决了传统病理分析的效率瓶颈，为环境毒理学研究中的自动化组织病理学工作流奠定了基础。
+  - Tags：`query:seqai`
+- [Demography-dependent variability in the human tumor mycobiome.](#/202603/26/202603/26/41885500-demography-dependent-variability-in-the-human-tumor-mycobiome)
+  - TLDR：肿瘤真菌组具有重要的预后价值，但患者人口统计学特征对其组成的影响尚不明确。本研究针对现有数据处理可能产生的假阳性问题，对TCGA中5000多份肿瘤样本进行了重新分析，采用了14种数据转换与批次校正组合，并利用倾向评分调整混杂因素。研究发现了24种与年龄、性别、BMI特别是种族显著相关的真菌物种，揭示了肿瘤微环境的复杂性，为精准肿瘤学中的个性化诊断和治疗提供了新视角。
+  - Tags：`query:seqai`
 - [Unlocking Enzyme Discovery: A High-Resolution Gene Cluster Database Powered by Phylogenetic Insights and Machine Learning.](#/202603/25/202603/25/41837859-unlocking-enzyme-discovery-a-high-resolution-gene-cluster-database-powered-by-phylogenetic-insights-and-machine-learning)
   - TLDR：针对海量基因组数据标注不足导致酶发现困难的问题，该研究构建了一个整合跨界系统发育数据库、多位点挖掘、蛋白质语言模型（pLM）活性预测及残基-原子接触重评分的流水线。在r-BOX代谢途径应用中，该方法显著提升了活性预测精度和筛选效率，实验验证使FadB产量提升至10.2 g/L，为高价值酶的规模化挖掘提供了高效工具。
   - Tags：`query:bioinfo`
@@ -572,36 +605,3 @@
 - [Multimodal Mixture-of-Experts with Retrieval Augmentation for Protein Active Site Identification](#/20260226-20260307/2603.01511v1-multimodal-mixture-of-experts-with-retrieval-augmentation-for-protein-active-site-identification)
   - TLDR：针对蛋白质活性位点识别中训练数据稀疏和多模态融合不可靠的问题，本文提出首个检索增强框架 MERA。该框架通过分层多专家检索从链、序列和活性位点维度动态聚合上下文信息，并结合基于 Dempster-Shafer 证据理论的可信度感知融合策略。实验证明 MERA 在 ProTAD-Gen 等数据集上达到 SOTA 水平，AUPRC 达 90%，为蛋白质功能理解和药物研发提供了更精准的预测工具。
   - Tags：`query:bioinfo`
-- [Causal Circuit Tracing Reveals Distinct Computational Architectures in Single-Cell Foundation Models: Inhibitory Dominance, Biological Coherence, and Cross-Model Convergence](#/20260226-20260307/2603.01752v1-causal-circuit-tracing-reveals-distinct-computational-architectures-in-single-cell-foundation-models-inhibitory-dominance-biological-coherence-and-cross-model-convergence)
-  - TLDR：针对单细胞基础模型内部计算机制不明的问题，本研究利用稀疏自编码器（SAE）结合因果电路追踪技术，对 Geneformer 和 scGPT 进行了大规模消融实验。研究发现这些模型普遍存在抑制性主导特征和约 53% 的生物学一致性，并识别出跨模型的共识功能域。该工作揭示了 AI 模型如何表征基因调控逻辑，为理解生物大模型的内部决策提供了可解释性框架。
-  - Tags：`query:bioinfo`
-- [Causal Circuit Tracing Reveals Distinct Computational Architectures in Single-Cell Foundation Models: Inhibitory Dominance, Biological Coherence, and Cross-Model Convergence](#/20260226-20260307/2603.01752v2-causal-circuit-tracing-reveals-distinct-computational-architectures-in-single-cell-foundation-models-inhibitory-dominance-biological-coherence-and-cross-model-convergence)
-  - TLDR：针对单细胞基础模型内部计算机制不明的问题，本研究利用稀疏自编码器（SAE）结合因果电路追踪技术，分析了 Geneformer 和 scGPT 的特征间相互作用。研究发现模型普遍存在抑制性主导现象和生物学一致性，并识别出跨模型的共识功能域。该工作揭示了模型如何编码基因表达关系，为理解生物 AI 的内部逻辑提供了因果证据。
-  - Tags：`query:bioinfo`
-- [Bi-TEAM: A Unified Cross-Scale Representation Learning Framework for Chemically Modified Biomolecules](#/20260226-20260307/2603.01873v1-bi-team-a-unified-cross-scale-representation-learning-framework-for-chemically-modified-biomolecules)
-  - TLDR：蛋白质语言模型擅长捕捉长程生物语义但缺乏底层化学细节，而化学模型则难以兼顾全局序列上下文。Bi-TEAM 框架通过双门控残差融合机制，将非天然氨基酸和翻译后修饰等原子级化学变异注入全局蛋白质表征中。实验显示，该模型在溶血性预测和环肽设计等任务上显著优于现有基准，为化学修饰生物分子的表征学习提供了兼具生物语义与化学精度的新方案。
-  - Tags：`query:bioinfo`
-- [GPU-accelerated single-cell analysis at scale with rapids-singlecell](#/20260226-20260307/2603.02402v1-gpu-accelerated-single-cell-analysis-at-scale-with-rapids-singlecell)
-  - TLDR：针对单细胞测序数据规模激增导致的 CPU 计算效率瓶颈，本文推出了 rapids-singlecell 框架。该框架基于 NVIDIA RAPIDS 和 CuPy，为 scverse 生态提供了原生的 GPU 加速支持，可直接处理 AnnData 结构。实验表明，它在预处理、聚类等核心环节实现了数百倍的加速，将千万级细胞的分析耗时从数小时缩短至分钟级，极大地提升了大规模单细胞研究的交互式探索能力。
-  - Tags：`query:seqai`
-- [Rigidity-Aware Geometric Pretraining for Protein Design and Conformational Ensembles](#/20260226-20260307/2603.02406v1-rigidity-aware-geometric-pretraining-for-protein-design-and-conformational-ensembles)
-  - TLDR：针对蛋白质设计中几何特征学习不足、缺乏动态构象建模的问题，本文提出 RigidSSL 预训练框架。该框架通过在 43 万个 AlphaFold 结构上进行扰动恢复预训练，并结合分子动力学轨迹进行微调，利用刚体感知的流匹配目标函数同时优化平移与旋转动力学。实验表明，RigidSSL 显著提升了蛋白质设计的可设计性、多样性及基序支架任务的成功率，并能更准确地捕捉蛋白质的动态构象分布，为蛋白质工程提供了更具物理意义的生成模型。
-  - Tags：`query:bioinfo`
-- [Sparse autoencoders reveal organized biological knowledge but minimal regulatory logic in single-cell foundation models: a comparative atlas of Geneformer and scGPT](#/20260226-20260307/2603.02952v1-sparse-autoencoders-reveal-organized-biological-knowledge-but-minimal-regulatory-logic-in-single-cell-foundation-models-a-comparative-atlas-of-geneformer-and-scgpt)
-  - TLDR：单细胞大模型（如Geneformer和scGPT）是否真正理解基因调控逻辑尚存争议。本研究利用稀疏自编码器（SAE）对这两个模型的中间层激活进行分解，构建了包含超过10万个可解释特征的图谱。结果发现，虽然模型成功学习了生物通路、蛋白质相互作用等组织化知识，但在模拟基因敲除等因果调控逻辑方面表现极差。这一发现揭示了当前生物大模型在因果推理上的局限性，并为模型解释提供了新工具。
-  - Tags：`query:bioinfo`
-- [OrchMAS: Orchestrated Reasoning with Multi Collaborative Heterogeneous Scientific Expert Structured Agents](#/20260226-20260307/2603.03005v1-orchmas-orchestrated-reasoning-with-multi-collaborative-heterogeneous-scientific-expert-structured-agents)
-  - TLDR：针对现有大模型多智能体系统在科学领域中存在的角色僵化、缺乏动态调整能力及计算可靠性低等问题，OrchMAS 提出了一种双层编排框架。该框架通过编排模型动态构建推理流水线并实例化异构专家智能体，再由执行模型完成具体任务，并支持基于反馈的动态重规划。实验证明，该方法在多项科学推理基准测试中显著优于现有系统，提升了复杂科学任务的处理效率与准确性。
-  - Tags：`query:agent`
-- [Quantifying Ranking Instability Across Evaluation Protocol Axes in Gene Regulatory Network Benchmarking](#/20260226-20260307/2603.03493v1-quantifying-ranking-instability-across-evaluation-protocol-axes-in-gene-regulatory-network-benchmarking)
-  - TLDR：基因调控网络（GRN）推断方法的排名在不同评估协议下往往不稳定，这影响了科学结论的可靠性。本研究提出了一个系统性诊断框架，通过分析三种人体组织和六种推断方法，量化了候选集限制、组织背景、参考网络选择等因素导致的排名翻转率。结果显示，参考网络选择导致的排名翻转率高达32.1%，且这种不稳定性主要源于方法间相对判别能力的差异。该研究为GRN基准测试提供了稳定性评估工具和报告规范，有助于提升生物信息学评价的严谨性。
-  - Tags：`query:bioinfo`
-- [Learning functional groups in complex microbiomes](#/20260226-20260307/2603.03547v1-learning-functional-groups-in-complex-microbiomes)
-  - TLDR：微生物群落极其复杂，难以建立结构与功能间的直接联系。本研究提出一种基于神经网络的聚类算法，能将成千上万的微生物或基因简化为少数几个“功能组”。通过在肠道、海洋和土壤数据集上的验证，该方法成功识别了决定代谢和生存策略的关键模块，并结合实验揭示了分子机制，为理解和调控复杂生态系统提供了简洁的结构-功能映射工具。
-  - Tags：`query:pathoai`
-- [STRIDE: Post-Training LLMs to Reason and Refine Bio-Sequences via Edit Trajectories](#/20260226-20260307/2603.03573v1-stride-post-training-llms-to-reason-and-refine-bio-sequences-via-edit-trajectories)
-  - TLDR：针对生物序列优化中缺乏可控离散编辑和长程规划的问题，本文提出 STRIDE 框架。该框架通过后训练使大语言模型能够生成包含插入、删除、替换等原子操作的可执行编辑轨迹，并结合 Levenshtein 对齐的监督微调与策略优化。在蛋白质荧光和分子优化任务中，STRIDE 显著提升了变长编辑的成功率和序列新颖性，为生物序列的精确受限优化提供了可验证的推理路径。
-  - Tags：`query:bioinfo`
-- [Mozi: Governed Autonomy for Drug Discovery LLM Agents](#/20260226-20260307/2603.03655v1-mozi-governed-autonomy-for-drug-discovery-llm-agents)
-  - TLDR：针对药物研发中 LLM 智能体工具调用失控和长程任务可靠性差的问题，本文提出 Mozi 架构。该架构通过控制层实现角色隔离与反思规划，并利用工作流层将药物研发流程转化为有状态的技能图谱，引入数据契约与人机协作检查点。实验证明 Mozi 在 PharmaBench 基准测试中表现优异，能有效降低错误累积，将 LLM 从脆弱的对话者转化为具备严谨治理能力的可靠科研助手。
-  - Tags：`query:agent`
