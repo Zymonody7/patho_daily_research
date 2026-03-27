@@ -1,0 +1,69 @@
+Title: Leveraging weighted embedding and Transformer architecture to improve phenotype prediction of complex traits for crops - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41888146/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 26.
+
+doi: 10.1038/s41467-026-71035-5.  Online ahead of print.
+
+[Linfeng Yu](https://pubmed.ncbi.nlm.nih.gov/?term=Yu+L&cauthor_id=41888146)[#](https://pubmed.ncbi.nlm.nih.gov/41888146/#full-view-equal-contrib-explanation "Contributed equally")[2](https://pubmed.ncbi.nlm.nih.gov/41888146/#full-view-affiliation-2 "The State Key Laboratory of Crop Gene Resources and Breeding, National Engineering Laboratory for Crop Molecular Breeding, Institute of Crop Sciences, Chinese Academy of Agricultural Sciences, Beijing, China."),[Mengfan Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+M&cauthor_id=41888146)[#](https://pubmed.ncbi.nlm.nih.gov/41888146/#full-view-equal-contrib-explanation "Contributed equally")[3](https://pubmed.ncbi.nlm.nih.gov/41888146/#full-view-affiliation-3 "Institute of Environment and Sustainable Development in Agriculture, Chinese Academy of Agricultural Sciences, Beijing, China."),[Rui Han](https://pubmed.ncbi.nlm.nih.gov/?term=Han+R&cauthor_id=41888146)[3](https://pubmed.ncbi.nlm.nih.gov/41888146/#full-view-affiliation-3 "Institute of Environment and Sustainable Development in Agriculture, Chinese Academy of Agricultural Sciences, Beijing, China."),[Yecheng Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+Y&cauthor_id=41888146)[2](https://pubmed.ncbi.nlm.nih.gov/41888146/#full-view-affiliation-2 "The State Key Laboratory of Crop Gene Resources and Breeding, National Engineering Laboratory for Crop Molecular Breeding, Institute of Crop Sciences, Chinese Academy of Agricultural Sciences, Beijing, China."),[Abdulwahab Saliu Shaibu](https://pubmed.ncbi.nlm.nih.gov/?term=Shaibu+AS&cauthor_id=41888146)[4](https://pubmed.ncbi.nlm.nih.gov/41888146/#full-view-affiliation-4 "Department of Agronomy, Bayero University Kano, Kano, Nigeria."),[Kwadwo Gyapong Agyenim-Boateng](https://pubmed.ncbi.nlm.nih.gov/?term=Agyenim-Boateng+KG&cauthor_id=41888146)[5](https://pubmed.ncbi.nlm.nih.gov/41888146/#full-view-affiliation-5 "DynaMo Center, Department of Plant and Environmental Sciences, University of Copenhagen, Frederiksberg, Denmark."),[Zhaoyi Hao](https://pubmed.ncbi.nlm.nih.gov/?term=Hao+Z&cauthor_id=41888146)[2](https://pubmed.ncbi.nlm.nih.gov/41888146/#full-view-affiliation-2 "The State Key Laboratory of Crop Gene Resources and Breeding, National Engineering Laboratory for Crop Molecular Breeding, Institute of Crop Sciences, Chinese Academy of Agricultural Sciences, Beijing, China."),[Yitian Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+Y&cauthor_id=41888146)[2](https://pubmed.ncbi.nlm.nih.gov/41888146/#full-view-affiliation-2 "The State Key Laboratory of Crop Gene Resources and Breeding, National Engineering Laboratory for Crop Molecular Breeding, Institute of Crop Sciences, Chinese Academy of Agricultural Sciences, Beijing, China."),[Bin Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+B&cauthor_id=41888146)[2](https://pubmed.ncbi.nlm.nih.gov/41888146/#full-view-affiliation-2 "The State Key Laboratory of Crop Gene Resources and Breeding, National Engineering Laboratory for Crop Molecular Breeding, Institute of Crop Sciences, Chinese Academy of Agricultural Sciences, Beijing, China."),[Shengrui Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+S&cauthor_id=41888146)[2](https://pubmed.ncbi.nlm.nih.gov/41888146/#full-view-affiliation-2 "The State Key Laboratory of Crop Gene Resources and Breeding, National Engineering Laboratory for Crop Molecular Breeding, Institute of Crop Sciences, Chinese Academy of Agricultural Sciences, Beijing, China."),[Liang Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+L&cauthor_id=41888146)[2](https://pubmed.ncbi.nlm.nih.gov/41888146/#full-view-affiliation-2 "The State Key Laboratory of Crop Gene Resources and Breeding, National Engineering Laboratory for Crop Molecular Breeding, Institute of Crop Sciences, Chinese Academy of Agricultural Sciences, Beijing, China."),[Lijuan Qiu](https://pubmed.ncbi.nlm.nih.gov/?term=Qiu+L&cauthor_id=41888146)[6](https://pubmed.ncbi.nlm.nih.gov/41888146/#full-view-affiliation-6 "The State Key Laboratory of Crop Gene Resources and Breeding, National Engineering Laboratory for Crop Molecular Breeding, Institute of Crop Sciences, Chinese Academy of Agricultural Sciences, Beijing, China. qiulijuan@caas.cn."),[Junming Sun](https://pubmed.ncbi.nlm.nih.gov/?term=Sun+J&cauthor_id=41888146)[7](https://pubmed.ncbi.nlm.nih.gov/41888146/#full-view-affiliation-7 "The State Key Laboratory of Crop Gene Resources and Breeding, National Engineering Laboratory for Crop Molecular Breeding, Institute of Crop Sciences, Chinese Academy of Agricultural Sciences, Beijing, China. sunjunming@caas.cn.")
+
+Affiliations
+
+*    PMID: **41888146**
+*    DOI: [10.1038/s41467-026-71035-5](https://doi.org/10.1038/s41467-026-71035-5)
+
+## Leveraging weighted embedding and Transformer architecture to improve phenotype prediction of complex traits for crops
+
+Jing Li et al. Nat Commun.2026.
+
+## Abstract
+
+Understanding the relationship between genomic variation and phenotype is fundamental to deciphering the genetic architecture underlying complex traits. Yet, existing statistical models struggle to balance massive genomic datasets with biological interpretability. Here, we introduce GP-WAITER, a deep learning framework integrating GWAS-derived SNP weights into a hybrid convolutional neural network and Transformer architecture. By utilizing a weighted embedding mechanism and multi-head self-attention, GP-WAITER effectively captures long-range dependencies across ultra-long genomic sequences. The model consistently outperforms seven state-of-the-art genomic prediction models across six datasets, achieving up to a 77.5% improvement in prediction accuracy, a 78% reduction in mean squared error, and a 1.8-2.4fold increase in computational efficiency. Furthermore, GP-WAITER offers biological transparency by pinpointing key genetic variants driving specific traits. This scalable, interpretable framework provides a powerful tool for precision breeding and the functional interpretation of trait-associated variants.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Crop phenotype prediction using SNP context and whole-genome feature embedding based on DNABERT-2.](https://pubmed.ncbi.nlm.nih.gov/41527074/)
+
+Li H, Cui Y, Sun T, Wang T, Chen Z, Wang C, Bian W, Liu J, Wang M, Chen L, Wu J, Huang J.Li H, et al.Plant Methods. 2026 Jan 12;22(1):15. doi: 10.1186/s13007-025-01492-4.Plant Methods. 2026.PMID: 41527074 Free PMC article. 
+*   [GViT-GP: injecting the genomic relationship matrix as an inductive bias into a vision transformer via cross-attention for genomic prediction.](https://pubmed.ncbi.nlm.nih.gov/41873339/)
+
+Li J, Luo W, Yu H, Huang X, Ma J, Li S, Li Y, Gu L.Li J, et al.Front Genet. 2026 Mar 9;17:1758565. doi: 10.3389/fgene.2026.1758565. eCollection 2026.Front Genet. 2026.PMID: 41873339 Free PMC article. 
+*   [Genomic prediction of growth trait phenotypes in Large White pigs using a chromosome-encoded multi-head self-attention model.](https://pubmed.ncbi.nlm.nih.gov/41846293/)
+
+Zhou WX, Zhao ZJ, Chen D, Cui SD, Wang JG, Chen ZY, Yu SX, Chen JM, Zhou YX, Huang RJ, Tang GQ.Zhou WX, et al.Yi Chuan. 2026 Mar;48(3):331-340. doi: 10.16288/j.yczz.25-228.Yi Chuan. 2026.PMID: 41846293 
+*   [Breeding perspectives on tackling trait genome-to-phenome (G2P) dimensionality using ensemble-based genomic prediction.](https://pubmed.ncbi.nlm.nih.gov/40613890/)
+
+Cooper M, Tomura S, Wilkinson MJ, Powell O, Messina CD.Cooper M, et al.Theor Appl Genet. 2025 Jul 4;138(7):172. doi: 10.1007/s00122-025-04960-6.Theor Appl Genet. 2025.PMID: 40613890 Free PMC article.Review. 
+*   [Harnessing Artificial Intelligence and Machine Learning for Identifying Quantitative Trait Loci (QTL) Associated with Seed Quality Traits in Crops.](https://pubmed.ncbi.nlm.nih.gov/40508402/)
+
+Kassem MA.Kassem MA.Plants (Basel). 2025 Jun 5;14(11):1727. doi: 10.3390/plants14111727.Plants (Basel). 2025.PMID: 40508402 Free PMC article.Review. 
+
+## References
+
+1.       1.    Goddard, M. E. & Hayes, B. J. Mapping genes for complex traits in domestic animals and their use in breeding programmes. Nat. Rev. Genet. 10, 381–391 (2009). 
+
+2.       1.    Xu, Y. et al. Smart breeding driven by big data, artificial intelligence, and integrated genomic-enviromic prediction. Mol. Plant 15, 1664–1695 (2022). 
+
+3.       1.    Alemu, A. et al. Genomic selection in plant breeding: key factors shaping two decades of progress. Mol. Plant 17, 552–578 (2024). 
+
+4.       1.    Endelman, J. B. Ridge regression and other kernels for genomic selection with R Package rrBLUP. Plant Genome 4, 250–255 (2011). 
+
+5.       1.    Zhao, T. et al. Integration of eQTL and machine learning to dissect causal genes with pleiotropic effects in genetic regulation networks of seed cotton yield. Cell Rep. 42, 113111 (2023). 
+
+## Grants and funding
+
+*   [32272178/National Natural Science Foundation of China (National Science Foundation of China)](https://pubmed.ncbi.nlm.nih.gov/?term=32272178%2FNational+Natural+Science+Foundation+of+China+%28National+Science+Foundation+of+China%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 32272178/National Natural Science Foundation of China (National Science Foundation of China)")
+*   [32001574/National Natural Science Foundation of China (National Science Foundation of China)](https://pubmed.ncbi.nlm.nih.gov/?term=32001574%2FNational+Natural+Science+Foundation+of+China+%28National+Science+Foundation+of+China%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 32001574/National Natural Science Foundation of China (National Science Foundation of China)")
+*   [32472193/National Natural Science Foundation of China (National Science Foundation of China)](https://pubmed.ncbi.nlm.nih.gov/?term=32472193%2FNational+Natural+Science+Foundation+of+China+%28National+Science+Foundation+of+China%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 32472193/National Natural Science Foundation of China (National Science Foundation of China)")

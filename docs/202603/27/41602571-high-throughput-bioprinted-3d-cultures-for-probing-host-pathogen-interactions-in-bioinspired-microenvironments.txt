@@ -1,0 +1,81 @@
+Title: High-throughput bioprinted 3D cultures for probing host-pathogen interactions in bioinspired microenvironments - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41602571/
+
+Markdown Content:
+Actions
+
+. 2026 Jan 7;4(2):543-556.
+
+doi: 10.1039/d5lp00285k.  eCollection 2026 Mar 26.
+
+Affiliations
+
+*    PMID: **41602571**
+*    PMCID: [PMC12834240](https://pmc.ncbi.nlm.nih.gov/articles/PMC12834240/)
+*    DOI: [10.1039/d5lp00285k](https://doi.org/10.1039/d5lp00285k)
+
+## High-throughput bioprinted 3D cultures for probing host-pathogen interactions in bioinspired microenvironments
+
+Jodi Graf et al. RSC Appl Polym.2026.
+
+## Abstract
+
+The microenvironment of immune cells is an important regulator of their function and fate. Three-dimensional (3D) culture systems provide opportunities for probing immune cell responses to invading pathogens in microenvironments with biophysical and biochemical properties inspired by human tissues. Yet, the low throughput and manual preparation of many 3D culture models present challenges for translation of assays and their broad and accessible use for studying host-pathogen interactions. To address this, we established a high-throughput macrophage-bacteria co-culture model that mimics lung tissue stiffness across healthy and diseased conditions. Using bioprinting, human THP-1 monocytes were encapsulated and differentiated into macrophages within synthetic extracellular matrices (ECMs) fabricated with well-defined polymer and peptide bioinks in a 96-well plate format. Macrophages retained viability and displayed immunocompetence, including phenotype, phagocytosis, and response to stimuli. Macrophages in fibrosis-inspired 'stiffer' (storage modulus (_G_') ∼4.8 kPa) microenvironments exhibited higher basal expression of both inflammation and traditional fibrosis associated genes compared to more compliant (_G_' ∼1.1 kPa) synthetic ECMs inspired by healthy lung microenvironments. We applied our model 3D cultures to study immune response to invasion of a bacterial pathogen implicated in hospital born lung infections and mortality, _Pseudomonas aeruginosa_. Macrophages exhibited differential responses to _P. aeruginosa_ in stiff microenvironments, with decreased cytokine secretion of IL-6 and IL-1β and elevated IL-10 and TNF-α compared to healthy compliant microenvironments, suggesting that microenvironment properties may shape initial immune responses. This high-throughput, accessible controlled platform provides opportunities for understanding human host-pathogen interactions and a foundation for identifying therapeutic strategies for bacterial infections in well-defined physiologically relevant microenvironments.
+
+This journal is © The Royal Society of Chemistry.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+There are no conflicts to declare.
+
+## Figures
+
+[![Image 1: Fig. 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f182/12834240/0f0abc202900/d5lp00285k-f1.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f182/12834240/a5b224bed319/d5lp00285k-f1.jpg)
+
+**Fig. 1. Cell viability in different matrix compositions in bioprinted 3D cultures. THP-1 monocytes were printed using RASTRUM™ bioprinter and differentiated into macrophages: (A) workflow for cell encapsulation, differentiation, and monitoring. (B) Percentage of viable cells shown with standard error of mean was quantified using analysis of confocal images. The statistics shown represent one-way ANOVA results from Tukey's test (_n_ ≥ 3), comparing viabilities on Day 7 where *_p_< 0.05, **_p_< 0.01, ***_p_< 0.001, ****_p_< 0.0001. There were statistical differences between Day 7 viability for 1.1 and 3.0 kPa cultures. All others were nonsignificant. (C) Representative _z_-stack projections from confocal imaging of cells in different synthetic matrix stiffnesses (_G_′ ∼0.7, 1.1, 3.0, and 4.8 kPa) stained using LIVE/DEAD™ kit are shown (scale bar: 100 µm).**
+
+[![Image 2: Fig. 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f182/12834240/176464a97e8a/d5lp00285k-f2.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f182/12834240/bfd029dafc43/d5lp00285k-f2.jpg)
+
+**Fig. 2. Basal expression of markers of macrophage phenotype in bioprinted 3D cultures. (A) THP-1 (THP) differentiation into macrophages (dTHP) in different microenvironments (2D culture on TCP; 3D culture in different synthetic matrix stiffnesses (_G_′ ∼1.1 kPa, 4.8 kPa)) assessed by the % CD11b + cells using flow cytometry. (B) Basal levels of expression of markers of macrophage phenotype (MHCII, CD86, and CD206) were quantified using flow cytometry. (C–H) Basal levels of expression of markers of macrophage phenotype were quantified using RT-qPCR. The statistics shown represent one-way ANOVA results from Tukey's test (_n_ = 3) where *_p_< 0.05, **_p_< 0.01, ***_p_< 0.001, ****_p_< 0.0001.**
+
+[![Image 3: Fig. 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f182/12834240/a972abb41cc0/d5lp00285k-f3.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f182/12834240/31bb7d7dfd91/d5lp00285k-f3.jpg)
+
+**Fig. 3. Macrophage polarization in response to well-defined stimuli in bioprinted 3D cultures. (A) Experimental workflow and (B) flow cytometry results for expression markers of macrophage inflammatory phenotype (MHCII, CD86) in response to well-defined stimuli (M1 stimuli (LPS/IFNγ)) in different microenvironments (2D culture on TCP; 3D culture in different synthetic matrix stiffnesses (_G_′ ∼1.1 kPa, 4.8 kPa)). The statistics shown represent a one-way ANOVA Tukey's test (_n_ = 3) where *_p_< 0.05, **_p_< 0.01, ***_p_< 0.001, ****_p_< 0.0001.**
+
+[![Image 4: Fig. 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f182/12834240/7b45bd770c03/d5lp00285k-f4.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f182/12834240/6662413fbf2d/d5lp00285k-f4.jpg)
+
+**Fig. 4. Analysis of GFP-expressing _P. aeruginosa_ uptake by macrophages. (A) Workflow of bacteria invasion. Flow cytometry results showing (B) % of dTHP-1 macrophages that are GFP+; and (C) GFP MFI of only macrophages that are + for bacteria phagocytosis, for cells in 2D culture on TCP without bacterial invasion (UT control) and 3D culture in different synthetic matrix stiffnesses with bacterial invasion (_G_′ ∼1.1 kPa, 4.8 kPa). (D) average bacteria/cell/image was quantified using IMARIS analysis of (E) confocal microscopy images to identify GFP + bacteria (green) within macrophage cell bodies stained with CellTracker™ (red) and nuclei (blue). Image processing can be found in Fig. S2. The statistics shown represent one-way ANOVA (B–D) Tukey's test (_n_ = 3) where *_p_< 0.05, **_p_< 0.01, ***_p_< 0.001, ****_p_< 0.0001.**
+
+[![Image 5: Fig. 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f182/12834240/030345ddc39d/d5lp00285k-f5.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f182/12834240/7217512c6b72/d5lp00285k-f5.jpg)
+
+**Fig. 5. Evaluation of macrophage inflammatory response to _P. aeruginosa_. (A) Workflow is shown for (B) flow cytometry result for macrophage surface markers and (C) ELISA results of measured cytokine release for macrophages in 3D culture in synthetic matrix stiffnesses (_G_′ ∼1.1 kPa, 4.8 kPa) with and without (UT) _P. aeruginosa_ invasion. The statistics shown represent one-way ANOVA Tukey's test (_n_ = 3) where *_p_< 0.05, **_p_< 0.01, ***_p_< 0.001, ****_p_< 0.0001.**
+
+## Similar articles
+
+*   [Engineering Breast Cancer Microenvironments and 3D Bioprinting.](https://pubmed.ncbi.nlm.nih.gov/29881724/)
+
+Belgodere JA, King CT, Bursavich JB, Burow ME, Martin EC, Jung JP.Belgodere JA, et al.Front Bioeng Biotechnol. 2018 May 24;6:66. doi: 10.3389/fbioe.2018.00066. eCollection 2018.Front Bioeng Biotechnol. 2018.PMID: 29881724 Free PMC article.Review. 
+*   [Recent advances in microarray 3D bioprinting for high-throughput spheroid and tissue culture and analysis.](https://pubmed.ncbi.nlm.nih.gov/34296737/)
+
+Shrestha S, Lekkala VKR, Acharya P, Siddhpura D, Lee MY.Shrestha S, et al.Essays Biochem. 2021 Aug 10;65(3):481-489. doi: 10.1042/EBC20200150.Essays Biochem. 2021.PMID: 34296737 Free PMC article.Review. 
+*   [A collagen hydrogel-based intestinal model enabling physiological epithelial-immune cell interactions in host-microbe studies.](https://pubmed.ncbi.nlm.nih.gov/40476383/)
+
+Kim N, Kim J, Choi J, Kim R.Kim N, et al.Biomater Sci. 2025 Jul 8;13(14):3887-3902. doi: 10.1039/d5bm00612k.Biomater Sci. 2025.PMID: 40476383 
+*   [High-Throughput 3D Bioprinted Organoids of Skin Cancer Utilized for Diagnosis and Personalized Therapy.](https://pubmed.ncbi.nlm.nih.gov/41440181/)
+
+Shukla AK, Shukla S, Suryawanshi SP, Mahendra Upadhyay A, Ray N, Thiruppathi G, Dutta SD, Mongre RK.Shukla AK, et al.Curr Oncol. 2025 Nov 21;32(12):653. doi: 10.3390/curroncol32120653.Curr Oncol. 2025.PMID: 41440181 Free PMC article.Review. 
+
+## References
+
+1.       1.    Aegerter H. Lambrecht B. N. Jakubzick C. V. Immunity. 2022;55:1564–1580. doi: 10.1016/j.immuni.2022.08.010. - [DOI](https://doi.org/10.1016/j.immuni.2022.08.010) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9533769/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/36103853/)
+
+2.       1.    Buechler M. B. Fu W. Turley S. J. Immunity. 2021;54:903–915. doi: 10.1016/j.immuni.2021.04.021. - [DOI](https://doi.org/10.1016/j.immuni.2021.04.021) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/33979587/)
+
+3.       1.    Amy M. d. W. Pieter S. H. Tom H. M. O. Simone A. J. Anne M. v. d. D. Thorax. 2022;77:408. doi: 10.1136/thoraxjnl-2021-217997. - [DOI](https://doi.org/10.1136/thoraxjnl-2021-217997) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8938665/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/35017314/)
+
+4.       1.    Hirayama D. Iida T. Nakase H. Int. J. Mol. Sci. 2017;19:92. doi: 10.3390/ijms19010092. - [DOI](https://doi.org/10.3390/ijms19010092) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC5796042/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/29286292/)
+
+5.       1.    Ardain A. Marakalala M. J. Leslie A. Immunology. 2020;159:245–256. doi: 10.1111/imm.13143. - [DOI](https://doi.org/10.1111/imm.13143) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7011639/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/31670391/)

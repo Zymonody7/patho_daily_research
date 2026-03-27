@@ -1,0 +1,392 @@
+Title: Identifying systemic lupus erythematosus from serum proteomic profiles using machine learning and genetic risk stratification - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41884878/
+
+Markdown Content:
+# Identifying systemic lupus erythematosus from serum proteomic profiles using machine learning and genetic risk stratification - PubMed
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/41884878/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41884878%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/41884878/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/41884878/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/41884878/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/41884878/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/9fea6d21-07b4-4726-b151-fb89a024b8ad/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/41884878/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/41884878/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41884878/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41884878%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41884878%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/41884878/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Save citation to file
+
+ Format:  
+
+ Create file  Cancel 
+
+## Email citation
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41884878/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41884878/#)
+
+ Add  Cancel 
+
+## Your saved search
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/41884878/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+## Create a file for external citation management software
+
+ Create file  Cancel 
+
+## Your RSS Feed
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Full text links
+
+[![Image 6: Wiley full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/http:--media.wiley.com-assets-7388-69-wiley-full-text.png) Wiley](https://doi.org/10.1002/art.70156 "See full text options at Wiley")
+
+[Full text links](https://pubmed.ncbi.nlm.nih.gov/41884878/#)
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41884878/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/41884878/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/41884878/#abstract)
+*   [Similar articles](https://pubmed.ncbi.nlm.nih.gov/41884878/#similar)
+*   [LinkOut - more resources](https://pubmed.ncbi.nlm.nih.gov/41884878/#linkout)
+
+ Arthritis Rheumatol 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Arthritis+Rheumatol%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Arthritis+Rheumatol%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41884878/#)
+
+. 2026 Mar 26.
+
+ doi: 10.1002/art.70156.  Online ahead of print. 
+
+# Identifying systemic lupus erythematosus from serum proteomic profiles using machine learning and genetic risk stratification
+
+[Mehmet Hocaoǧlu](https://pubmed.ncbi.nlm.nih.gov/?term=Hocao%C7%A7lu+M&cauthor_id=41884878)[1](https://pubmed.ncbi.nlm.nih.gov/41884878/#full-view-affiliation-1 "Division of Rheumatology and Clinical Immunology, Department of Medicine, University of Pittsburgh, Pittsburgh, PA, USA.")[2](https://pubmed.ncbi.nlm.nih.gov/41884878/#full-view-affiliation-2 "Lupus Center of Excellence, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA."),[Jishnu Das](https://pubmed.ncbi.nlm.nih.gov/?term=Das+J&cauthor_id=41884878)[3](https://pubmed.ncbi.nlm.nih.gov/41884878/#full-view-affiliation-3 "Center for Systems Immunology, Departments of Immunology and Computational & Systems Biology, University of Pittsburgh, Pittsburgh, PA, USA."),[Amr H Sawalha](https://pubmed.ncbi.nlm.nih.gov/?term=Sawalha+AH&cauthor_id=41884878)[1](https://pubmed.ncbi.nlm.nih.gov/41884878/#full-view-affiliation-1 "Division of Rheumatology and Clinical Immunology, Department of Medicine, University of Pittsburgh, Pittsburgh, PA, USA.")[2](https://pubmed.ncbi.nlm.nih.gov/41884878/#full-view-affiliation-2 "Lupus Center of Excellence, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA.")[4](https://pubmed.ncbi.nlm.nih.gov/41884878/#full-view-affiliation-4 "Division of Rheumatology, Department of Pediatrics, University of Pittsburgh, Pittsburgh, PA, USA.")[5](https://pubmed.ncbi.nlm.nih.gov/41884878/#full-view-affiliation-5 "Department of Immunology, University of Pittsburgh, Pittsburgh, PA, USA.")
+
+ Affiliations  Expand 
+
+### Affiliations
+
+*   1 Division of Rheumatology and Clinical Immunology, Department of Medicine, University of Pittsburgh, Pittsburgh, PA, USA.
+*   2 Lupus Center of Excellence, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA.
+*   3 Center for Systems Immunology, Departments of Immunology and Computational & Systems Biology, University of Pittsburgh, Pittsburgh, PA, USA.
+*   4 Division of Rheumatology, Department of Pediatrics, University of Pittsburgh, Pittsburgh, PA, USA.
+*   5 Department of Immunology, University of Pittsburgh, Pittsburgh, PA, USA.
+
+*    PMID: **41884878**
+*    DOI: [10.1002/art.70156](https://doi.org/10.1002/art.70156)
+
+ Item in Clipboard 
+
+# Identifying systemic lupus erythematosus from serum proteomic profiles using machine learning and genetic risk stratification
+
+Mehmet Hocaoǧlu et al. Arthritis Rheumatol.2026.
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ Arthritis Rheumatol 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Arthritis+Rheumatol%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Arthritis+Rheumatol%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41884878/#)
+
+. 2026 Mar 26.
+
+ doi: 10.1002/art.70156.  Online ahead of print. 
+
+### Authors
+
+[Mehmet Hocaoǧlu](https://pubmed.ncbi.nlm.nih.gov/?term=Hocao%C7%A7lu+M&cauthor_id=41884878)[1](https://pubmed.ncbi.nlm.nih.gov/41884878/#short-view-affiliation-1 "Division of Rheumatology and Clinical Immunology, Department of Medicine, University of Pittsburgh, Pittsburgh, PA, USA.")[2](https://pubmed.ncbi.nlm.nih.gov/41884878/#short-view-affiliation-2 "Lupus Center of Excellence, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA."),[Jishnu Das](https://pubmed.ncbi.nlm.nih.gov/?term=Das+J&cauthor_id=41884878)[3](https://pubmed.ncbi.nlm.nih.gov/41884878/#short-view-affiliation-3 "Center for Systems Immunology, Departments of Immunology and Computational & Systems Biology, University of Pittsburgh, Pittsburgh, PA, USA."),[Amr H Sawalha](https://pubmed.ncbi.nlm.nih.gov/?term=Sawalha+AH&cauthor_id=41884878)[1](https://pubmed.ncbi.nlm.nih.gov/41884878/#short-view-affiliation-1 "Division of Rheumatology and Clinical Immunology, Department of Medicine, University of Pittsburgh, Pittsburgh, PA, USA.")[2](https://pubmed.ncbi.nlm.nih.gov/41884878/#short-view-affiliation-2 "Lupus Center of Excellence, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA.")[4](https://pubmed.ncbi.nlm.nih.gov/41884878/#short-view-affiliation-4 "Division of Rheumatology, Department of Pediatrics, University of Pittsburgh, Pittsburgh, PA, USA.")[5](https://pubmed.ncbi.nlm.nih.gov/41884878/#short-view-affiliation-5 "Department of Immunology, University of Pittsburgh, Pittsburgh, PA, USA.")
+
+### Affiliations
+
+*   1 Division of Rheumatology and Clinical Immunology, Department of Medicine, University of Pittsburgh, Pittsburgh, PA, USA.
+*   2 Lupus Center of Excellence, University of Pittsburgh School of Medicine, Pittsburgh, PA, USA.
+*   3 Center for Systems Immunology, Departments of Immunology and Computational & Systems Biology, University of Pittsburgh, Pittsburgh, PA, USA.
+*   4 Division of Rheumatology, Department of Pediatrics, University of Pittsburgh, Pittsburgh, PA, USA.
+*   5 Department of Immunology, University of Pittsburgh, Pittsburgh, PA, USA.
+
+*    PMID: **41884878**
+*    DOI: [10.1002/art.70156](https://doi.org/10.1002/art.70156)
+
+ Item in Clipboard 
+
+ Full text links Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Abstract
+
+**Objectives:** Proteome-wide risk models for lupus remain underexplored. We developed classification models to identify lupus from serum proteomic profiles.
+
+**Methods:** Lupus patients and individuals with other autoimmune diseases in the UK Biobank were included. Differential proteomic expressions were characterized and followed by hierarchical clustering analysis. Proteomic linear and machine learning models were developed for established disease classification and future lupus prediction, and compared to polygenic risk scores (PRS). Two additional independent lupus cohorts from Sweden, as part of the Human Protein Atlas (HPA), and from China were used for replication.
+
+**Results:** 44,173 participants with proteomic data including 2,063 individuals with at least one autoimmune disease at enrollment were studied in the UK Biobank. This included 383 lupus patients with a mean age of 43.6 ± 11.7 at disease onset. Lupus showed the largest number of dysregulated proteins among autoimmune diseases and clustered with rheumatoid arthritis. Comparison with HPA showed that ~70% of lupus proteomic associations could be replicated with moderate correlation in effect sizes. The machine learning model outperformed the linear model in identifying preexisting lupus and generalized well to future lupus prediction. Among lupus patients on immunomodulatory medications, the model reached ~90% sensitivity at 95% specificity, which was replicated in an independent cohort. Model interpretation highlighted SCARB2, SOD2, CD302, Galectin-9, and GGT5 proteins with substantial effects on lupus identification.
+
+**Conclusions:** Proteomic machine learning models show excellent performance for identifying preexisting lupus and generalizes well for predicting lupus before clinical diagnosis. Model interpretation identified novel candidate biomarkers for lupus.
+
+This article is protected by copyright. All rights reserved.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Machine Learning-Based Identification of Novel Exosome-Derived Metabolic Biomarkers for the Diagnosis of Systemic Lupus Erythematosus and Differentiation of Renal Involvement.](https://pubmed.ncbi.nlm.nih.gov/40019633/)Wang ZY, Liu WJ, Jin QY, Zhang XS, Chu XJ, Khan A, Zhan SB, Shen H, Yang P.Wang ZY, et al.Curr Med Sci. 2025 Apr;45(2):231-243. doi: 10.1007/s11596-025-00023-5. Epub 2025 Feb 28.Curr Med Sci. 2025.PMID: 40019633  
+*   [Proteomic prediction of diverse incident diseases: a machine learning-guided biomarker discovery study using data from a prospective cohort study.](https://pubmed.ncbi.nlm.nih.gov/38906612/)Carrasco-Zanini J, Pietzner M, Koprulu M, Wheeler E, Kerrison ND, Wareham NJ, Langenberg C.Carrasco-Zanini J, et al.Lancet Digit Health. 2024 Jul;6(7):e470-e479. doi: 10.1016/S2589-7500(24)00087-6.Lancet Digit Health. 2024.PMID: 38906612  
+*   [Inflammation-related proteomics of extracellular vesicles as novel biomarkers for systemic lupus erythematosus revealed by proximity extension assay.](https://pubmed.ncbi.nlm.nih.gov/41233846/)Zhan S, Wang Z, Xu Y, Zhou S, Ge M, Song Y, Zhu Y, Dou H, Shen H, Yang P.Zhan S, et al.Arthritis Res Ther. 2025 Nov 13;27(1):211. doi: 10.1186/s13075-025-03681-x.Arthritis Res Ther. 2025.PMID: 41233846 Free PMC article.  
+*   [The pathogenesis of systemic lupus erythematosus: Harnessing big data to understand the molecular basis of lupus.](https://pubmed.ncbi.nlm.nih.gov/31806421/)Catalina MD, Owen KA, Labonte AC, Grammer AC, Lipsky PE.Catalina MD, et al.J Autoimmun. 2020 Jun;110:102359. doi: 10.1016/j.jaut.2019.102359. Epub 2019 Dec 2.J Autoimmun. 2020.PMID: 31806421 Review.  
+*   [Machine learning in lupus nephritis: bridging prediction models and clinical decision-making towards personalized nephrology.](https://pubmed.ncbi.nlm.nih.gov/41234906/)Garcia-Bañol DF, Arias-Choles AM, Aldana-Peréz S, Aroca-Martínez GJ, Musso CG, Navarro-Quiroz R, Dominguez-Vargas A, Gonzalez-Torres HJ.Garcia-Bañol DF, et al.Front Med (Lausanne). 2025 Oct 29;12:1686057. doi: 10.3389/fmed.2025.1686057. eCollection 2025.Front Med (Lausanne). 2025.PMID: 41234906 Free PMC article.Review.  
+
+[See all similar articles](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed&from_uid=41884878)
+
+## Related information
+
+*   [GEO Profiles](https://www.ncbi.nlm.nih.gov/geoprofiles?linkname=pubmed_geoprofiles&from_uid=41884878 "GEO records associated with pubmed record")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Wiley](https://doi.org/10.1002/art.70156)
+
+*   ### Research Materials
+
+    *   [NCI CPTC Antibody Characterization Program](https://antibodies.cancer.gov/detail/CPTC-LGALS9-1)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-127)
+
+**Full text links**[x]
+
+[![Image 7: Wiley full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/http:--media.wiley.com-assets-7388-69-wiley-full-text.png) Wiley](https://doi.org/10.1002/art.70156 "See full text options at Wiley")
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41884878/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41884878%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/41884878/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41884878%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41884878%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/41884878/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/?pagename=pubmed%3Apubmed%3Aabstract%3ANONE)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)

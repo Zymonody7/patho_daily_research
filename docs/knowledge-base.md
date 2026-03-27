@@ -1,10 +1,58 @@
 # 知识库
 
-- 最近沉淀条目数：226
+- 最近沉淀条目数：242
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Systematic evaluation of single-cell foundation model interpretability reveals attention captures co-expression rather than unique regulatory signal](#/202603/27/202603/27/10.21203/rs.3.rs-9082476/v1-systematic-evaluation-of-single-cell-foundation-model-interpretability-reveals-attention-captures-co-expression-rather-than-unique-regulatory-signal)
+  - TLDR：单细胞大模型常被认为其注意力机制能揭示基因调控关系，但这一假设缺乏严谨验证。本研究通过对4种细胞系和2种扰动方式进行系统性评估，发现注意力权重主要捕捉的是基因共表达等统计关联，而非因果调控信号。实验表明，简单的基因级基准模型在预测扰动效果上优于复杂的注意力边得分，且消融实验证实注意力头对预测并无实质贡献。研究提出了CSSI工具以优化异质群体中的边提取，为单细胞大模型的可解释性建立了质量控制标准。
+  - Tags：`query:bioinfo`
+- [Artificial intelligence for early detection and risk prediction of antimicrobial resistance in aquatic ecosystems.](#/202603/27/202603/27/41888601-artificial-intelligence-for-early-detection-and-risk-prediction-of-antimicrobial-resistance-in-aquatic-ecosystems)
+  - TLDR：水生环境是抗生素耐药性（AMR）传播的关键路径，但现有监测手段碎片化且效率低。该研究提出将人工智能与多维元数据（组学、环境、水文）结合，构建时空预测模型，旨在实现耐药基因的早期识别与动态预警。这一框架为全球“全健康”监测提供了高效、实时的技术路径，有助于提升公共卫生防御能力。
+  - Tags：`query:pathoai`
+- [Genome Mining and Molecular Networking Guided Discovery of Embleyamycins A-F, the Calcimycin-Type Polyethers from a Desert-Derived](#/202603/27/202603/27/41762129-genome-mining-and-molecular-networking-guided-discovery-of-embleyamycins-a-f-the-calcimycin-type-polyethers-from-a-desert-derived)
+  - TLDR：针对从青藏高原沙漠分离的稀有放线菌L77，研究人员通过基因组测序发现其虽具备钙霉素合成潜力，但因缺失关键甲基转移酶基因而可能产生新结构。通过整合基因组挖掘与质谱分子网络技术，成功定向分离出6种新型脱甲基钙霉素类抗生素（Embleyamycins A-F）。这些化合物对多种致病菌表现出显著活性，不仅丰富了钙霉素家族的化学多样性，也验证了多组学结合策略在加速新药发现中的高效性。
+  - Tags：`query:pathoai`
+- [VIBES: A multiscale modeling approach integrating within-host and between-hosts dynamics in epidemics.](#/202603/27/202603/27/41886375-vibes-a-multiscale-modeling-approach-integrating-within-host-and-between-hosts-dynamics-in-epidemics)
+  - TLDR：流行病传播受宿主内病毒动力学和宿主间社交行为共同驱动，但两者影响难以区分。本研究提出 VIBES 框架，将基于患者数据的病毒载量模型与基于社交网络的传播模型相结合。以 SARS-CoV-2 为例，发现社交竞争会缩短代际时间，而隔离措施会提高症状前传播比例。该框架为量化生物与社会因素对疫情的影响提供了机械论工具，有助于评估公共卫生干预效果。
+  - Tags：`query:pathoai`
+- [Multitask Pretraining Framework for Improving Predictivity of Machine Learning Chemical Bioactivity Models for Low-Data Endpoints.](#/202603/27/202603/27/41887802-multitask-pretraining-framework-for-improving-predictivity-of-machine-learning-chemical-bioactivity-models-for-low-data-endpoints)
+  - TLDR：针对化学毒理学中许多终点数据稀缺、单任务模型泛化性差的问题，本研究提出了一种多任务预训练框架。该框架首先在多个中等规模的 ToxCast 数据集上进行联合训练以提取通用的分子表征，随后将其与下游分类器结合，应用于仅有约100个样本的小数据任务。实验证明，该方法在多数低数据任务上的预测准确率优于传统化学描述符，为解决毒理学预测中的数据孤岛和样本不足问题提供了有效方案。
+  - Tags：`query:bioinfo`
+- [PTBD: a machine learning-based non-invasive diagnostic model for pulmonary tuberculosis using large-scale blood transcriptomes.](#/202603/27/202603/27/41888771-ptbd-a-machine-learning-based-non-invasive-diagnostic-model-for-pulmonary-tuberculosis-using-large-scale-blood-transcriptomes)
+  - TLDR：肺结核（PTB）的快速准确诊断对控制疫情至关重要，但现有方法在灵敏度和实用性上存在局限。本研究开发了PTBD模型，通过整合最高得分对（TSP）算法与机器学习，分析了近三千例外周血转录组样本。该模型在区分PTB与肺炎、肺癌等复杂背景时表现优异，外部验证AUC达0.909，且在HIV感染、耐药等特殊人群中保持稳健，为临床早期筛查和预后评估提供了非侵入性的分子诊断工具。
+  - Tags：`query:pathoai`
+- [High-throughput bioprinted 3D cultures for probing host-pathogen interactions in bioinspired microenvironments.](#/202603/27/202603/27/41602571-high-throughput-bioprinted-3d-cultures-for-probing-host-pathogen-interactions-in-bioinspired-microenvironments)
+  - TLDR：针对现有3D细胞培养模型通量低、手动操作复杂且难以模拟复杂组织微环境的问题，本研究利用生物打印技术在96孔板中构建了模拟肺部硬度的巨噬细胞-细菌共培养模型。通过合成细胞外基质精确调控物理特性，发现纤维化相关的“硬”环境会显著改变巨噬细胞对铜绿假单胞菌感染的免疫反应，为研究宿主-病原体相互作用及开发抗感染疗法提供了高通量生理相关平台。
+  - Tags：`query:pathoai`
+- [Sepsis Diagnostics via Biosensors: Engineering Platforms, Artificial Intelligence Integration, and Clinical Translation.](#/202603/27/202603/27/41698024-sepsis-diagnostics-via-biosensors-engineering-platforms-artificial-intelligence-integration-and-clinical-translation)
+  - TLDR：败血症因其高度异质性和缺乏单一生物标志物，导致临床诊断极具挑战。本文综述了利用生物传感器结合纳米材料、CRISPR等前沿技术实现实时、多指标检测的进展，并重点探讨了人工智能在增强传感器信号解析及电子健康记录预测中的关键作用。该研究不仅梳理了从实验室到临床转化的技术瓶颈，还为加速败血症诊断平台的部署提供了系统性的路线图。
+  - Tags：`query:pathoai`
+- [A Surface-Enhanced Raman Scattering-Digital Microfluidics Biosensing Platform Integrated with a 1D-Convolutional Neural Network for Noninvasive Detection of Inflammation Markers.](#/202603/27/202603/27/41733640-a-surface-enhanced-raman-scattering-digital-microfluidics-biosensing-platform-integrated-with-a-1d-convolutional-neural-network-for-noninvasive-detection-of-inflammation-markers)
+  - TLDR：针对早期败血症诊断中汗液炎症标志物检测难的问题，该研究开发了一种集成表面增强拉曼散射（SERS）与数字微流控（DMF）的自动化传感平台。通过构建磁性夹心免疫复合物并结合1D卷积神经网络（1D-CNN）进行光谱数据处理，实现了对C反应蛋白（CRP）的高灵敏度定量分析。该系统在20分钟内完成检测，检出限达0.77 pg/mL，为非侵入式、自动化的临床早期筛查提供了高效的技术方案。
+  - Tags：`query:pathoai`
+- [Identifying systemic lupus erythematosus from serum proteomic profiles using machine learning and genetic risk stratification.](#/202603/27/202603/27/41884878-identifying-systemic-lupus-erythematosus-from-serum-proteomic-profiles-using-machine-learning-and-genetic-risk-stratification)
+  - TLDR：系统性红斑狼疮（SLE）的早期诊断和风险评估仍具挑战。本研究利用 UK Biobank 等多中心队列的血清蛋白质组数据，构建了机器学习分类模型，用于识别既往病例并预测未来发病风险。结果显示，该模型在识别准确率上显著优于传统线性模型和多基因风险评分，并在跨种族队列中表现出良好泛化性，同时识别出 SCARB2 等关键生物标志物，为 SLE 的精准诊疗提供了新工具。
+  - Tags：`query:bioinfo`
+- [Synthesis of β-Carboline-Based Dimers and Hybrids and Anti-Methicillin-Resistant Staphylococcus aureus Properties by Targeting FtsZ.](#/202603/27/202603/27/41886480-synthesis-of--carboline-based-dimers-and-hybrids-and-anti-methicillin-resistant-staphylococcus-aureus-properties-by-targeting-ftsz)
+  - TLDR：针对耐甲氧西林金黄色葡萄球菌（MRSA）引发的抗生素耐药性危机，本研究通过二聚化和杂化策略合成了他克林-β-咔啉杂合体。该类化合物能有效破坏细菌细胞壁与细胞膜完整性，并通过结合FtsZ蛋白的核苷酸结合域，促进其异常聚合并抑制GTP酶活性，从而阻断细菌分裂。实验结果显示其对MRSA具有极强的抑制活性，为开发新型抗耐药菌药物提供了新思路。
+  - Tags：`query:pathoai`
+- [Leveraging weighted embedding and Transformer architecture to improve phenotype prediction of complex traits for crops.](#/202603/27/202603/27/41888146-leveraging-weighted-embedding-and-transformer-architecture-to-improve-phenotype-prediction-of-complex-traits-for-crops)
+  - TLDR：针对作物复杂性状预测中海量基因组数据与生物学解释性难以平衡的问题，本研究开发了 GP-WAITER 深度学习框架。该框架通过将 GWAS 衍生的 SNP 权重融入 CNN 与 Transformer 的混合架构，利用加权嵌入和自注意力机制捕捉超长基因序列的远程依赖关系。实验表明，该模型在预测准确率和计算效率上显著优于现有 SOTA 模型，并能精准定位关键遗传变异，为精准育种提供了高效且具解释性的工具。
+  - Tags：`query:bioinfo`
+- [Transmission Bottlenecks of Sparicotyle chrysophrii in a Gilthead Seabream Aquaculture: A Next-Generation Matrix Approach.](#/202603/27/202603/27/41889129-transmission-bottlenecks-of-sparicotyle-chrysophrii-in-a-gilthead-seabream-aquaculture-a-next-generation-matrix-approach)
+  - TLDR：针对地中海金头鲷养殖中寄生虫 S. chrysophrii 爆发规律不明的问题，本研究采用下一代矩阵（NGM）框架构建了寄生虫传播模型，并结合土耳其商业鱼场的季节性实测数据进行参数化分析。研究发现，尽管该寄生虫具备极高的理论繁殖潜力，但实际感染水平受环境约束呈现显著季节波动。通过敏感性分析识别出幼虫期死亡和成虫流失是限制其种群扩张的关键瓶颈，为制定精准的养殖防疫策略提供了理论依据。
+  - Tags：`query:pathoai`
+- [Impact of gut microbiota on hepatocellular carcinoma: Pathogenesis, diagnosis, prognosis, and therapeutic prospective.](#/202603/27/202603/27/41785672-impact-of-gut-microbiota-on-hepatocellular-carcinoma-pathogenesis-diagnosis-prognosis-and-therapeutic-prospective)
+  - TLDR：肝细胞癌（HCC）治疗效果受限，肠道菌群通过肠肝轴影响其发生发展。本文综述了肠道菌群在HCC发病机制、诊断及预后中的作用，重点分析了菌群如何通过代谢和免疫系统调节手术、化疗及免疫治疗的疗效。研究指出，利用益生菌、粪菌移植等手段干预肠道菌群，可作为HCC个体化治疗的新型辅助策略，具有重要的临床转化价值。
+  - Tags：`query:pathoai`
+- [Microecological Interventions against Antibiotic-Induced Dysbiosis and Related Resistome Expansion.](#/202603/27/202603/27/41889026-microecological-interventions-against-antibiotic-induced-dysbiosis-and-related-resistome-expansion)
+  - TLDR：抗生素滥用导致肠道菌群失调及耐药基因扩散，严重威胁全球健康。本文综述了益生菌、粪菌移植及饮食调节等微生态干预手段在恢复肠道稳态、增强定植抵抗力及遏制耐药组扩张方面的作用。通过整合生态学与治疗视角，该研究为应对抗生素耐药性及改善临床预后提供了一套可持续的微生态干预框架。
+  - Tags：`query:pathoai`
+- [Gut yeasts accelerate chill coma recovery in Drosophila melanogaster.](#/202603/27/202603/27/41891189-gut-yeasts-accelerate-chill-coma-recovery-in-drosophila-melanogaster)
+  - TLDR：针对肠道微生物如何影响宿主抗逆性的问题，本研究通过构建无菌、天然及特定酵母定植的黑腹果蝇模型，评估了不同酵母菌株对果蝇冷昏迷恢复时间（CCRT）的影响。实验发现，特定种类的活酵母（如 Lachancea kluyveri）能显著缩短雌性果蝇的恢复时间，而死酵母或非共生菌株无效。这一发现揭示了肠道酵母在调节宿主热耐受性中的关键共生作用，挑战了酵母仅作为营养来源的传统认知。
+  - Tags：`query:pathoai`
 - [Sparse autoencoders reveal organized biological knowledge but minimal regulatory logic in single-cell foundation models: a comparative atlas of Geneformer and scGPT](#/202603/26/202603/26/10.21203/rs.3.rs-9082479/v1-sparse-autoencoders-reveal-organized-biological-knowledge-but-minimal-regulatory-logic-in-single-cell-foundation-models-a-comparative-atlas-of-geneformer-and-scgpt)
   - TLDR：单细胞大模型（如Geneformer和scGPT）是否真正理解基因调控逻辑尚不明确。本研究利用稀疏自编码器（SAE）对这两个模型的内部激活进行了解构，构建了包含超过10万个特征的解释性图谱。研究发现，模型虽然成功学习了复杂的生物学知识（如通路、蛋白质相互作用和层级结构），但在应对CRISPRi扰动实验时表现出极弱的因果调控逻辑。这一结果揭示了当前单细胞模型在模拟基因调控网络方面的局限性，并为模型改进提供了方向。
   - Tags：`query:bioinfo`
@@ -557,51 +605,3 @@
 - [Friend and Foe: Microbes in Orchestrating Immunity and Shaping Infection Dynamics.](#/202603/07/202603/07/41789806-friend-and-foe-microbes-in-orchestrating-immunity-and-shaping-infection-dynamics)
   - TLDR：针对传染病及抗生素耐药性带来的全球挑战，本文综述了微生物群在调节宿主免疫和抵御感染中的核心作用。文章系统分析了肠道、皮肤等部位微生物与病原体的相互作用，并探讨了益生菌、粪菌移植及工程化菌群等干预手段。研究指出，通过调节微生物群可增强宿主定殖抗性，为开发替代传统抗生素的可持续、机制驱动型感染防治策略提供了重要参考。
   - Tags：`query:pathoai`
-- [Heuristically Adaptive Diffusion-Model Evolutionary Strategy.](#/202603/07/202603/07/41793196-heuristically-adaptive-diffusion-model-evolutionary-strategy)
-  - TLDR：针对传统进化算法在复杂优化任务中缺乏对历史经验深度利用的问题，该研究提出了一种启发式自适应扩散模型进化策略。该方法将扩散模型集成到进化框架中，利用其强大的分布建模能力替代传统变异算子，通过在启发式筛选的数据库上迭代训练来生成高质量后代。实验表明，该策略能有效利用历史数据中的潜在关联，在保持种群多样性的同时显著提升收敛效率，为高维参数优化提供了更具灵活性和精确性的生成式搜索方案。
-  - Tags：`query:bioinfo`
-- [Swift quantitative risk assessment and multi-criteria decision analysis on main food-borne pathogens in market food in Zhejiang Province, China](#/202603/07/202603/07/IND609405755-swift-quantitative-risk-assessment-and-multi-criteria-decision-analysis-on-main-food-borne-pathogens-in-market-food-in-zhejiang-province-china)
-  - TLDR：针对食源性疾病带来的公共卫生挑战，本研究利用2019-2023年浙江省监测数据，结合1万余人的消费习惯，采用快速定量风险评估（sQMRA）与多准则决策分析（MCDA）模型，估算出该地区年发病约150万例。研究识别出副溶血性弧菌与海鱼、金黄色葡萄球菌与熟肉制品等高风险组合，证明了MCDA在风险排序中的优越性，为制定精准的食品安全政策提供了科学依据。
-  - Tags：`query:pathoai`
-- [Forecasting Antimicrobial Resistance Trends Using Machine Learning on WHO GLASS Surveillance Data: A Retrieval-Augmented Generation Approach for Policy Decision Support](#/20260226-20260307/2602.22673v1-forecasting-antimicrobial-resistance-trends-using-machine-learning-on-who-glass-surveillance-data-a-retrieval-augmented-generation-approach-for-policy-decision-support)
-  - TLDR：针对全球抗生素耐药性（AMR）预测难题，该研究利用WHO GLASS监测数据，对比了XGBoost、LSTM等多种机器学习模型对耐药趋势的预测效果，并结合RAG技术（ChromaDB与Phi-3 Mini）构建了政策决策支持系统。结果显示XGBoost表现最优，且RAG能提供有据可查的政策建议，为公共卫生决策提供了数据驱动的工具。
-  - Tags：`query:pathoai`
-- [SC-Arena: A Natural Language Benchmark for Single-Cell Reasoning with Knowledge-Augmented Evaluation](#/20260226-20260307/2602.23199v1-sc-arena-a-natural-language-benchmark-for-single-cell-reasoning-with-knowledge-augmented-evaluation)
-  - TLDR：针对单细胞生物学领域大模型评估标准碎片化、缺乏生物学解释力的问题，本文提出了 SC-Arena 评测框架。该框架通过“虚拟细胞”抽象统一了细胞标注、扰动预测等五类自然语言任务，并引入外部本体和文献知识进行增强评估。实验表明，现有模型在处理复杂生物机制时表现不均，而该框架能提供更具生物学准确性和可解释性的评价，为开发生物对齐的通用大模型提供了支撑。
-  - Tags：`query:bioinfo`
-- [SciDER: Scientific Data-centric End-to-end Researcher](#/20260226-20260307/2603.01421v1-scider-scientific-data-centric-end-to-end-researcher)
-  - TLDR：针对现有AI智能体难以自主处理原始实验数据的问题，SciDER 提出了一种以数据为中心的端到端科研系统。该系统通过专门的智能体协作完成原始数据解析、假设生成及代码执行，并引入自进化记忆和评论家反馈机制。在三个基准测试中，SciDER 的表现优于通用智能体和现有最先进模型，为自动化数据驱动型科学研究提供了高效的模块化工具。
-  - Tags：`query:agent`
-- [D3LM: A Discrete DNA Diffusion Language Model for Bidirectional DNA Understanding and Generation](#/20260226-20260307/2603.01780v1-d3lm-a-discrete-dna-diffusion-language-model-for-bidirectional-dna-understanding-and-generation)
-  - TLDR：针对现有DNA基础模型在理解（BERT类）与生成（自回归类）能力上难以兼顾，且自回归模型无法捕捉DNA双向调控特征的问题，本研究提出了D3LM。该模型将离散掩码扩散引入DNA建模，在保留双向表征学习能力的同时实现了高质量序列生成。实验表明，D3LM在理解任务上优于同规模的NT v2，且在调控元件生成质量上大幅领先自回归模型，为构建统一的DNA基础模型提供了新范式。
-  - Tags：`query:bioinfo`
-- [Deep learning-guided evolutionary optimization for protein design](#/20260226-20260307/2603.02753v1-deep-learning-guided-evolutionary-optimization-for-protein-design)
-  - TLDR：蛋白质设计面临序列空间巨大且函数关系复杂的挑战。为此，研究者提出了 BoGA 框架，将遗传算法作为随机候选生成器集成到贝叶斯优化的代理模型循环中，实现了高效的数据驱动优化。该方法在序列和结构设计基准测试中表现优异，并成功设计出针对肺炎链球菌溶血素的高置信度肽结合剂，显著加速了功能性蛋白质的发现过程，为生物技术和药物研发提供了有力工具。
-  - Tags：`query:bioinfo`
-- [SeekRBP: Leveraging Sequence-Structure Integration with Reinforcement Learning for Receptor-Binding Protein Identification](#/20260226-20260307/2603.04748v1-seekrbp-leveraging-sequence-structure-integration-with-reinforcement-learning-for-receptor-binding-protein-identification)
-  - TLDR：针对病毒受体结合蛋白（RBP）序列差异大、传统比对方法失效以及机器学习中负样本选择难的问题，提出了SeekRBP框架。该方法融合蛋白质语言模型与结构嵌入，并引入强化学习中的多臂老虎机策略，动态筛选具有挑战性的负样本进行训练。实验证明SeekRBP在识别准确率上优于传统静态采样方法，并在弧菌噬菌体案例中成功提升了宿主预测能力，为噬菌体治疗和合成生物学提供了高效的标注工具。
-  - Tags：`query:pathoai`
-- [Induction Meets Biology: Mechanisms of Repeat Detection in Protein Language Models](#/20260226-20260307/2602.23179v1-induction-meets-biology-mechanisms-of-repeat-detection-in-protein-language-models)
-  - TLDR：蛋白质序列中广泛存在重复片段，对结构和功能至关重要。本研究通过分析蛋白质语言模型（PLM）的内部机制，揭示了其识别精确和近似重复序列的过程。研究发现，PLM 首先利用位置注意力及编码氨基酸相似性的生物神经元构建特征，随后通过归纳头（Induction Heads）在重复片段间对齐并预测。这一发现阐明了 PLM 如何结合通用模式匹配与专业生物知识来处理复杂的生物演化任务。
-  - Tags：`query:bioinfo`
-- [GenDRAM:Hardware-Software Co-Design of General Platform in DRAM](#/20260226-20260307/2602.23828v1-gendramhardware-software-co-design-of-general-platform-in-dram)
-  - TLDR：针对动态规划算法（如全源最短路径和基因比对）在传统架构中面临的严重数据传输瓶颈，以及现有存内计算方案无法处理完整工作流的问题，本文提出了GenDRAM。该架构利用单片3D DRAM（M3D DRAM）的高带宽和容量，集成了专门的搜索处理单元和无乘法器通用计算单元，并配合3D感知数据映射策略。实验显示，GenDRAM在APSP任务上比顶级GPU快68倍，在基因组端到端流程中快22倍，显著提升了数据密集型任务的执行效率。
-  - Tags：`query:seqai`
-- [Graph-Based Multi-Omics Integration Improves Subtype Recovery and Survival Prediction Over Classical Integration Strategies in TCGA-BRCA](#/20260226-20260307/2603.00212v1-graph-based-multi-omics-integration-improves-subtype-recovery-and-survival-prediction-over-classical-integration-strategies-in-tcga-brca)
-  - TLDR：针对乳腺癌亚型分类主要依赖转录组学而忽视多组学协同效应的问题，本研究采用相似性网络融合（SNF）技术整合了RNA-seq、DNA甲基化和拷贝数变异数据。实验证明，基于图的多组学融合在亚型恢复（NMI=0.495）和生存预测（C-index=0.681）上均优于传统的特征拼接及部分单组学基准，揭示了多组学整合在捕捉复杂生物学特征方面的潜力。
-  - Tags：`query:bioinfo`
-- [CoPeP: Benchmarking Continual Pretraining for Protein Language Models](#/20260226-20260307/2603.00253v2-copep-benchmarking-continual-pretraining-for-protein-language-models)
-  - TLDR：针对蛋白质数据库（如UniProt）持续更新的特性，现有蛋白质语言模型面临如何高效吸收新知识的问题。本文推出了CoPeP基准测试，通过整理过去十年的蛋白质序列数据，评估了重放、去学习及塑性调节等持续学习方法在31项下游任务上的表现。研究发现，利用时间元信息能使模型困惑度降低7%，且多种持续学习策略在大规模预训练中均优于简单的增量训练，为生物大模型的动态演进提供了重要参考。
-  - Tags：`query:bioinfo`
-- [From Literature to Hypotheses: An AI Co-Scientist System for Biomarker-Guided Drug Combination Hypothesis Generation](#/20260226-20260307/2603.00612v1-from-literature-to-hypotheses-an-ai-co-scientist-system-for-biomarker-guided-drug-combination-hypothesis-generation)
-  - TLDR：针对生物医学文献海量增长导致难以系统关联生物标志物与药物组合的问题，本研究开发了 AI Co-Scientist (CoDHy) 系统。该系统通过整合结构化数据库与非结构化文献构建特定任务知识图谱，结合图嵌入与智能体推理生成并验证药物组合假设。CoDHy 提供交互式界面让研究者参与迭代优化，为肿瘤转化医学提供了透明、可解释且可引导的探索工具。
-  - Tags：`query:agent`
-- [HarmonyCell: Automating Single-Cell Perturbation Modeling under Semantic and Distribution Shifts](#/20260226-20260307/2603.01396v1-harmonycell-automating-single-cell-perturbation-modeling-under-semantic-and-distribution-shifts)
-  - TLDR：针对单细胞扰动建模中元数据格式不一（语义异构）和生物变异导致的分布偏移（统计异构）难题，HarmonyCell 提出了一个端到端的智能体框架。该框架利用大模型驱动的语义统一器自动对齐异构元数据，并结合蒙特卡洛树搜索（MCTS）在层级空间内自动合成具有最优归纳偏置的模型架构。实验表明，该方法在异构数据集上的执行成功率达95%，且在分布外预测任务中达到或超越了专家设计的基准模型，实现了无需人工干预的自动化虚拟细胞建模。
-  - Tags：`query:agent`
-- [ProtRLSearch: A Multi-Round Multimodal Protein Search Agent with Large Language Models Trained via Reinforcement Learning](#/20260226-20260307/2603.01464v1-protrlsearch-a-multi-round-multimodal-protein-search-agent-with-large-language-models-trained-via-reinforcement-learning)
-  - TLDR：针对蛋白质分析中现有搜索代理仅支持单轮文本搜索、缺乏序列模态引导且搜索过程难以约束的问题，本文提出 ProtRLSearch。该代理通过强化学习结合多维奖励机制，实现了蛋白质序列与文本的双模态多轮搜索，能实时优化搜索关键词并生成高质量报告。在包含3000道题目的 ProtMCQs 基准测试中，该模型在蛋白质功能推理和复杂调控网络分析等任务上表现出色，显著提升了蛋白质中心化推理的准确性。
-  - Tags：`query:agent`
-- [Multimodal Mixture-of-Experts with Retrieval Augmentation for Protein Active Site Identification](#/20260226-20260307/2603.01511v1-multimodal-mixture-of-experts-with-retrieval-augmentation-for-protein-active-site-identification)
-  - TLDR：针对蛋白质活性位点识别中训练数据稀疏和多模态融合不可靠的问题，本文提出首个检索增强框架 MERA。该框架通过分层多专家检索从链、序列和活性位点维度动态聚合上下文信息，并结合基于 Dempster-Shafer 证据理论的可信度感知融合策略。实验证明 MERA 在 ProTAD-Gen 等数据集上达到 SOTA 水平，AUPRC 达 90%，为蛋白质功能理解和药物研发提供了更精准的预测工具。
-  - Tags：`query:bioinfo`

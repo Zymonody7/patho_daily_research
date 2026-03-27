@@ -1,0 +1,93 @@
+Title: Artificial intelligence for early detection and risk prediction of antimicrobial resistance in aquatic ecosystems - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41888601/
+
+Markdown Content:
+Review
+
+Actions
+
+. 2026 Mar 26;4(1):20.
+
+doi: 10.1038/s44259-026-00192-w.
+
+[Ronan Adler Tavella](https://pubmed.ncbi.nlm.nih.gov/?term=Tavella+RA&cauthor_id=41888601)[3](https://pubmed.ncbi.nlm.nih.gov/41888601/#full-view-affiliation-3 "Institute of Environmental, Chemical and Pharmaceutical Sciences, Federal University of São Paulo, Diadema, Brazil.")[4](https://pubmed.ncbi.nlm.nih.gov/41888601/#full-view-affiliation-4 "Antimicrobial Resistance Institute of São Paulo (ARIES), São Paulo, Brazil."),[Fábio Parra Sellera](https://pubmed.ncbi.nlm.nih.gov/?term=Sellera+FP&cauthor_id=41888601)[5](https://pubmed.ncbi.nlm.nih.gov/41888601/#full-view-affiliation-5 "School of Veterinary Medicine, Metropolitan University of Santos, Santos, Brazil.")[6](https://pubmed.ncbi.nlm.nih.gov/41888601/#full-view-affiliation-6 "Department of Internal Medicine, School of Veterinary Medicine and Animal Science, University of São Paulo, São Paulo, Brazil."),[Jose Luis Balcazar](https://pubmed.ncbi.nlm.nih.gov/?term=Balcazar+JL&cauthor_id=41888601)[7](https://pubmed.ncbi.nlm.nih.gov/41888601/#full-view-affiliation-7 "Catalan Institute for Water Research (ICRA-CERCA), Girona, Spain."),[Jesus Rodriguez-Manzano](https://pubmed.ncbi.nlm.nih.gov/?term=Rodriguez-Manzano+J&cauthor_id=41888601)[8](https://pubmed.ncbi.nlm.nih.gov/41888601/#full-view-affiliation-8 "Department of Infectious Disease, Faculty of Medicine, Imperial College London, London, UK.")[9](https://pubmed.ncbi.nlm.nih.gov/41888601/#full-view-affiliation-9 "Centres for Antimicrobial Optimisation Network, Imperial College London, London, UK.")[10](https://pubmed.ncbi.nlm.nih.gov/41888601/#full-view-affiliation-10 "The Fleming Initiative, Imperial College London and Imperial College Healthcare NHS Trust, London, UK."),[Rodrigo Cayô](https://pubmed.ncbi.nlm.nih.gov/?term=Cay%C3%B4+R&cauthor_id=41888601)[4](https://pubmed.ncbi.nlm.nih.gov/41888601/#full-view-affiliation-4 "Antimicrobial Resistance Institute of São Paulo (ARIES), São Paulo, Brazil.")[11](https://pubmed.ncbi.nlm.nih.gov/41888601/#full-view-affiliation-11 "Laboratory of Environmental Antimicrobial Resistance (LEARN), Department of Biological Sciences (DCB), Institute of Environmental, Chemical and Pharmaceutical Sciences (ICAQF), Federal University of São Paulo (UNIFESP), Diadema, Brazil."),[Nilton Lincopan](https://pubmed.ncbi.nlm.nih.gov/?term=Lincopan+N&cauthor_id=41888601)[4](https://pubmed.ncbi.nlm.nih.gov/41888601/#full-view-affiliation-4 "Antimicrobial Resistance Institute of São Paulo (ARIES), São Paulo, Brazil.")[12](https://pubmed.ncbi.nlm.nih.gov/41888601/#full-view-affiliation-12 "Department of Microbiology, Instituto de Ciências Biomédicas, University of São Paulo, São Paulo, Brazil.")[13](https://pubmed.ncbi.nlm.nih.gov/41888601/#full-view-affiliation-13 "Department of Clinical Analysis, Faculty of Pharmacy, University of São Paulo, São Paulo, Brazil."),[Ana Cristina Gales](https://pubmed.ncbi.nlm.nih.gov/?term=Gales+AC&cauthor_id=41888601)[4](https://pubmed.ncbi.nlm.nih.gov/41888601/#full-view-affiliation-4 "Antimicrobial Resistance Institute of São Paulo (ARIES), São Paulo, Brazil.")[14](https://pubmed.ncbi.nlm.nih.gov/41888601/#full-view-affiliation-14 "Escola Paulista de Medicina, Universidade Federal de São Paulo, São Paulo, Brazil."),[Sergio Schenkman](https://pubmed.ncbi.nlm.nih.gov/?term=Schenkman+S&cauthor_id=41888601)[4](https://pubmed.ncbi.nlm.nih.gov/41888601/#full-view-affiliation-4 "Antimicrobial Resistance Institute of São Paulo (ARIES), São Paulo, Brazil.")[14](https://pubmed.ncbi.nlm.nih.gov/41888601/#full-view-affiliation-14 "Escola Paulista de Medicina, Universidade Federal de São Paulo, São Paulo, Brazil."),[Zhi Ruan](https://pubmed.ncbi.nlm.nih.gov/?term=Ruan+Z&cauthor_id=41888601)[15](https://pubmed.ncbi.nlm.nih.gov/41888601/#full-view-affiliation-15 "Department of Clinical Laboratory, Sir Run Run Shaw Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China. r_z@zju.edu.cn.")[16](https://pubmed.ncbi.nlm.nih.gov/41888601/#full-view-affiliation-16 "Key Laboratory of Precision Medicine in Diagnosis and Monitoring Research of Zhejiang Province, Hangzhou, Zhejiang, China. r_z@zju.edu.cn."),[Eliana Guedes Stehling](https://pubmed.ncbi.nlm.nih.gov/?term=Stehling+EG&cauthor_id=41888601)[17](https://pubmed.ncbi.nlm.nih.gov/41888601/#full-view-affiliation-17 "Department of Clinical Analyses, Toxicology and Food Science, School of Pharmaceutical Sciences of Ribeirão Preto, University of São Paulo, Ribeirão Preto, São Paulo, Brazil."),[João Pedro Rueda Furlan](https://pubmed.ncbi.nlm.nih.gov/?term=Furlan+JPR&cauthor_id=41888601)[18](https://pubmed.ncbi.nlm.nih.gov/41888601/#full-view-affiliation-18 "Antimicrobial Resistance Institute of São Paulo (ARIES), São Paulo, Brazil. joao.furlan@academico.ufpb.br.")[19](https://pubmed.ncbi.nlm.nih.gov/41888601/#full-view-affiliation-19 "Escola Paulista de Medicina, Universidade Federal de São Paulo, São Paulo, Brazil. joao.furlan@academico.ufpb.br.")[20](https://pubmed.ncbi.nlm.nih.gov/41888601/#full-view-affiliation-20 "Department of Pharmaceutical Sciences, Health Sciences Center, Federal University of Paraíba, João Pessoa, Paraíba, Brazil. joao.furlan@academico.ufpb.br.")
+
+Affiliations
+
+*    PMID: **41888601**
+*    DOI: [10.1038/s44259-026-00192-w](https://doi.org/10.1038/s44259-026-00192-w)
+
+Review
+
+## Artificial intelligence for early detection and risk prediction of antimicrobial resistance in aquatic ecosystems
+
+William Calero-Cáceres et al. NPJ Antimicrob Resist.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+Aquatic environments are key reservoirs and dissemination pathways of antimicrobial resistance (AMR). However, current water-based surveillance remains fragmented and inefficient for the timely detection of emerging threats. Integrating artificial intelligence with embedded metadata provides a powerful pathway to identify novel antimicrobial resistance genes, characterize resistome profiles, and predict AMR dynamics in real-time by combining omics, environmental, and hydrological data into spatiotemporal predictive models. Successful implementation of this framework will require robust governance, ethical safeguards, and capacity building to support predictive AMR monitoring aligned with the One Health approach.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Competing interests: William Calero-Cáceres is a member of the Editorial Board of npj Antimicrobials and Resistance. William Calero-Cáceres was not involved in the journal’s review of, or decisions related to, this manuscript.
+
+## Similar articles
+
+*   [Integrating One Health governance in China: Assessing structural implementation and operational entry points.](https://pubmed.ncbi.nlm.nih.gov/41049402/)
+
+Zhang QY, Zhang YY, Liu JS, Li XC, Zhu ZL, Feng XY, Han LF, Zhu CD, Tun HM, Zong L, Zhang X.Zhang QY, et al.One Health. 2025 Sep 17;21:101209. doi: 10.1016/j.onehlt.2025.101209. eCollection 2025 Dec.One Health. 2025.PMID: 41049402 Free PMC article. 
+*   [Leveraging Artificial Intelligence to Advance Bioinformatics in Africa: Opportunities, Challenges, and Ethical Considerations in Combating Antimicrobial Resistance.](https://pubmed.ncbi.nlm.nih.gov/41782801/)
+
+Lyimo B.Lyimo B.Bioinform Biol Insights. 2026 Feb 28;20:11779322261427123. doi: 10.1177/11779322261427123. eCollection 2026.Bioinform Biol Insights. 2026.PMID: 41782801 Free PMC article. 
+*   [Could wastewater-based surveillance be key to combating antimicrobial resistance?](https://pubmed.ncbi.nlm.nih.gov/41081523/)
+
+Balcázar JL.Balcázar JL.mBio. 2025 Nov 12;16(11):e0277825. doi: 10.1128/mbio.02778-25. Epub 2025 Oct 13.mBio. 2025.PMID: 41081523 Free PMC article. 
+*   [Artificial intelligence in combating challenges in antimicrobial resistance: a narrative review.](https://pubmed.ncbi.nlm.nih.gov/41859321/)
+
+Salama RA, Abdel Kader RG, Wadid NA.Salama RA, et al.Infect Prev Pract. 2026 Feb 14;8(2):100522. doi: 10.1016/j.infpip.2026.100522. eCollection 2026 Jun.Infect Prev Pract. 2026.PMID: 41859321 Free PMC article.Review. 
+*   [From Farm to Fork: Antimicrobial-Resistant Bacterial Pathogens in Livestock Production and the Food Chain.](https://pubmed.ncbi.nlm.nih.gov/41012787/)
+
+Elbehiry A, Marzouk E.Elbehiry A, et al.Vet Sci. 2025 Sep 4;12(9):862. doi: 10.3390/vetsci12090862.Vet Sci. 2025.PMID: 41012787 Free PMC article.Review. 
+
+## References
+
+1.       1.    Naghavi, M. et al. Global burden of bacterial antimicrobial resistance 1990–2021: a systematic analysis with forecasts to 2050. Lancet 404, 1199–1226 (2024). - [DOI](https://doi.org/10.1016/s0140-6736(24)01867-1)
+
+2.       1.    Grenni, P. Antimicrobial resistance in rivers: a review of the genes detected and new challenges. Environ. Toxicol. Chem. 41, 687–714 (2022). - [PubMed](https://pubmed.ncbi.nlm.nih.gov/35191071/) - [DOI](https://doi.org/10.1002/etc.5289)
+
+3.       1.    European Environment Agency. Antimicrobial resistance in European surface waters: a developing area. European Environment Agency (EEA). [https://www.eea.europa.eu/en/analysis/publications/antimicrobial-resista...](https://www.eea.europa.eu/en/analysis/publications/antimicrobial-resistance-in-european-surface-waters-a-developing-area) (2023). 
+
+4.       1.    Sivalingam, P. et al. Anthropogenic pollution may enhance natural transformation in water, favouring the spread of antibiotic resistance genes. J. Hazard. Mater. 475, 134885 (2024). - [PubMed](https://pubmed.ncbi.nlm.nih.gov/38876022/) - [DOI](https://doi.org/10.1016/j.jhazmat.2024.134885)
+
+5.       1.    Cocker, D. et al. Healthcare as a driver, reservoir and amplifier of antimicrobial resistance: opportunities for interventions. Nat. Rev. Microbiol. 22, 636–649 (2024). - [PubMed](https://pubmed.ncbi.nlm.nih.gov/39048837/) - [DOI](https://doi.org/10.1038/s41579-024-01076-4)
+
+## Publication types
+
+*   Actions 
+
+## Grants and funding
+
+*   [PEFCIAL15/Ecuadorian Corporation for the Development of Research and Academia (CEDIA)](https://pubmed.ncbi.nlm.nih.gov/?term=PEFCIAL15%2FEcuadorian+Corporation+for+the+Development+of+Research+and+Academia+%28CEDIA%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant PEFCIAL15/Ecuadorian Corporation for the Development of Research and Academia (CEDIA)")
+*   [21/10599-3/São Paulo Research Foundation (FAPESP)](https://pubmed.ncbi.nlm.nih.gov/?term=21%2F10599-3%2FS%C3%A3o+Paulo+Research+Foundation+%28FAPESP%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 21/10599-3/São Paulo Research Foundation (FAPESP)")
+*   [21/10599-3/São Paulo Research Foundation (FAPESP)](https://pubmed.ncbi.nlm.nih.gov/?term=21%2F10599-3%2FS%C3%A3o+Paulo+Research+Foundation+%28FAPESP%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 21/10599-3/São Paulo Research Foundation (FAPESP)")
+*   [21/10599-3/São Paulo Research Foundation (FAPESP)](https://pubmed.ncbi.nlm.nih.gov/?term=21%2F10599-3%2FS%C3%A3o+Paulo+Research+Foundation+%28FAPESP%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 21/10599-3/São Paulo Research Foundation (FAPESP)")
+*   [21/10599-3/São Paulo Research Foundation (FAPESP)](https://pubmed.ncbi.nlm.nih.gov/?term=21%2F10599-3%2FS%C3%A3o+Paulo+Research+Foundation+%28FAPESP%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 21/10599-3/São Paulo Research Foundation (FAPESP)")
+
+*   [21/10599-3/São Paulo Research Foundation (FAPESP)](https://pubmed.ncbi.nlm.nih.gov/?term=21%2F10599-3%2FS%C3%A3o+Paulo+Research+Foundation+%28FAPESP%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 21/10599-3/São Paulo Research Foundation (FAPESP)")
+*   [21/10599-3/São Paulo Research Foundation (FAPESP)](https://pubmed.ncbi.nlm.nih.gov/?term=21%2F10599-3%2FS%C3%A3o+Paulo+Research+Foundation+%28FAPESP%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 21/10599-3/São Paulo Research Foundation (FAPESP)")
+*   [82472335/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82472335%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82472335/National Natural Science Foundation of China")
+*   [2024C03217/"Pioneer" and "Leading Goose" R&D Program of Zhejiang Province](https://pubmed.ncbi.nlm.nih.gov/?term=2024C03217%2F%22Pioneer%22+and+%22Leading+Goose%22+R%26D+Program+of+Zhejiang+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2024C03217/\"Pioneer\" and \"Leading Goose\" R&D Program of Zhejiang Province")
+*   [WKJ-ZJ-2506/Key Program of the Zhejiang Medical and Health Science and Technology Project](https://pubmed.ncbi.nlm.nih.gov/?term=WKJ-ZJ-2506%2FKey+Program+of+the+Zhejiang+Medical+and+Health+Science+and+Technology+Project%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant WKJ-ZJ-2506/Key Program of the Zhejiang Medical and Health Science and Technology Project")

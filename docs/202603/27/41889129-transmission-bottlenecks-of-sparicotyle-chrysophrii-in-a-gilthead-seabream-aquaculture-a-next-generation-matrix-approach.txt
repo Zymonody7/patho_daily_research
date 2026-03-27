@@ -1,0 +1,57 @@
+Title: Transmission Bottlenecks of Sparicotyle chrysophrii in a Gilthead Seabream Aquaculture: A Next-Generation Matrix Approach - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41889129/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 26:e70169.
+
+doi: 10.1111/jfd.70169.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **41889129**
+*    DOI: [10.1111/jfd.70169](https://doi.org/10.1111/jfd.70169)
+
+## Transmission Bottlenecks of Sparicotyle chrysophrii in a Gilthead Seabream Aquaculture: A Next-Generation Matrix Approach
+
+Phan Van Quyet et al. J Fish Dis.2026.
+
+## Abstract
+
+Sparicotyle chrysophrii is a major ectoparasitic pathogen of gilthead seabream (Sparus aurata) in Mediterranean aquaculture. Despite its high reproductive capacity, the parasite does not consistently cause severe outbreaks on commercial farms. In this study, we applied a next-generation matrix (NGM) framework to quantify intrinsic transmission potential and compare it with observed seasonal infection patterns. Field data of S. chrysophrii collected from a commercial seabream farm in Türkiye across four seasons were used to parameterize the model under marine cage conditions. The NGM analysis indicated that intrinsic transmission potential (R 0) can reach high values under biologically plausible reproductive scenarios and varies only slightly across the observed seasonal temperature range. In contrast, field observations revealed pronounced seasonal variation in infection levels, with moderate prevalence in spring and summer, a marked increase in autumn, and no detectable infection in winter. Sensitivity analysis identified mortality during the free-living larval stage and adult parasite loss as the dominant processes limiting parasite replacement. These findings suggest that the apparent mismatch between high intrinsic transmission potential and moderate field infection levels may reflect environmental and system-level constraints that reduce realized transmission in open-cage aquaculture systems. By decomposing transmission into stage-specific components, the NGM framework clarifies key bottlenecks regulating persistence of S. chrysophrii and provides a mechanistic framework for evaluating potential control strategies in marine aquaculture.
+
+**Keywords:** Sparicotyle chrysophrii; basic reproduction number (R0); gilthead seabream; next‐generation matrix (NGM); parasite transmission modelling.
+
+© 2026 John Wiley & Sons Ltd.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Come rain or come shine: environmental effects on the infective stages of Sparicotyle chrysophrii, a key pathogen in Mediterranean aquaculture.](https://pubmed.ncbi.nlm.nih.gov/30359292/)
+
+Villar-Torres M, Montero FE, Raga JA, Repullés-Albelda A.Villar-Torres M, et al.Parasit Vectors. 2018 Oct 25;11(1):558. doi: 10.1186/s13071-018-3139-3.Parasit Vectors. 2018.PMID: 30359292 Free PMC article. 
+*   [Genetic variation of Sparicotyle chrysophrii (Monogenea: Microcotylidae) from the gilthead sea bream Sparus aurata (Teleostei: Sparidae) in the Mediterranean Sea.](https://pubmed.ncbi.nlm.nih.gov/36418649/)
+
+Farjallah S, Amor N, Garippa G, Montero FE, Víllora-Montero M, Mohamed OB, Merella P.Farjallah S, et al.Parasitol Res. 2023 Jan;122(1):157-165. doi: 10.1007/s00436-022-07709-y. Epub 2022 Nov 24.Parasitol Res. 2023.PMID: 36418649 
+
+*   [Seventy years of coexistence: Parasites and Mediterranean fish aquaculture.](https://pubmed.ncbi.nlm.nih.gov/40254086/)
+
+Mladineo I, Hrabar J.Mladineo I, et al.Fish Shellfish Immunol. 2025 Jul;162:110355. doi: 10.1016/j.fsi.2025.110355. Epub 2025 Apr 18.Fish Shellfish Immunol. 2025.PMID: 40254086 Review. 
+*   [Mapping the knowledge of the main diseases affecting sea bass and sea bream in Mediterranean.](https://pubmed.ncbi.nlm.nih.gov/31960605/)
+
+Muniesa A, Basurco B, Aguilera C, Furones D, Reverté C, Sanjuan-Vilaplana A, Jansen MD, Brun E, Tavornpanich S.Muniesa A, et al.Transbound Emerg Dis. 2020 May;67(3):1089-1100. doi: 10.1111/tbed.13482. Epub 2020 Jan 30.Transbound Emerg Dis. 2020.PMID: 31960605 Review. 
+
+## References
+
+1.       1.    Anderson, R. M., and R. M. May. 1991. Infectious Diseases of Humans: Dynamics and Control. Oxford University Press. [https://doi.org/10.1093/oso/9780198545996.001.0001](https://doi.org/10.1093/oso/9780198545996.001.0001). 
+
+2.       1.    Antonelli, L., Y. Quilichini, and B. Marchand. 2010. “Sparicotyle chrysophrii (Van Beneden & Hesse, 1863) (Monogenea: Polyopisthocotylea), Parasite of Cultured Gilthead Sea Bream Sparus aurata (Linnaeus, 1758) (Pisces: Teleostei) From Corsica: Ecological and Morphological Study.” Parasitology Research 107: 389–398. [https://doi.org/10.1007/s00436‐010‐1893‐5](https://doi.org/10.1007/s00436%E2%80%90010%E2%80%901893%E2%80%905). 
+
+3.       1.    Ben‐Horin, T., D. C. Behringer, B. R. Silliman, and K. D. Lafferty. 2020. “Marine Fish Diseases.” In Marine Disease Ecology, edited by D. C. Behringer, B. R. Silliman, and K. D. Lafferty, 3–32. Oxford University Press. [https://doi.org/10.1093/oso/9780198821632.001.0001](https://doi.org/10.1093/oso/9780198821632.001.0001). 
+
+4.       1.    Bush, A. O., K. D. Lafferty, J. M. Lotz, and A. W. Shostak. 1997. “Parasitology Meets Ecology on Its Own Terms: Margolis Et al. Revisited.” Journal of Parasitology 83: 575–583. [https://doi.org/10.2307/3284227](https://doi.org/10.2307/3284227). 
+
+5.       1.    Cortez, M. H. 2013. “When Does Pathogen Evolution Maximize the Basic Reproductive Number in Well‐Mixed Host–Pathogen Systems?” Journal of Mathematical Biology 67: 1533–1585. [https://doi.org/10.1007/s00285‐012‐0601‐2](https://doi.org/10.1007/s00285%E2%80%90012%E2%80%900601%E2%80%902).
