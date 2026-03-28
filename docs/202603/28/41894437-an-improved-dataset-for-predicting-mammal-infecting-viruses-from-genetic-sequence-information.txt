@@ -1,0 +1,49 @@
+Title: An improved dataset for predicting mammal infecting viruses from genetic sequence information - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41894437/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 27;22(3):e1014125.
+
+doi: 10.1371/journal.pcbi.1014125.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **41894437**
+*    DOI: [10.1371/journal.pcbi.1014125](https://doi.org/10.1371/journal.pcbi.1014125)
+
+## An improved dataset for predicting mammal infecting viruses from genetic sequence information
+
+Tyler Reddy et al. PLoS Comput Biol.2026.
+
+## Abstract
+
+There have been several attempts to develop machine learning (ML) models to identify human infecting viruses from their genomic sequences, with varying degrees of success. Direct comparison between models is problematic, because these models are typically trained and evaluated on different datasets with alternative data splitting schemes, features, and model performance metrics. In this paper we present a standardized dataset of mammal infecting and non-infecting viral pathogens, refined from the previous work of Mollentze et al. to include the latest literature evidence, roughly doubling the number of curated host-virus records available to the community, and new host target labels, primate and mammal. The new host labels were included for several reasons, including previous reports that classification performance is better at broader taxonomic ranks and the idea that there may be more data for primate infection that might serve as a suitable proxy for zoonotic potential and avoidance of false positives for human infection due to absence of evidence. On this dataset, we report the performance of eight machine learning models for predicting mammal-infecting viruses from their genomic sequences. We find that randomly assigning cases in our improved dataset to training/testing sets, when compared to the original assignments into training/testing in Mollentze et al., increases the overall average ROC AUC of prediction of human infection from 0.663 ± 0.070 to 0.784 ± 0.013, consistent with the reduction in phylogenetic distance between train and test sets (relative entropy change from 3.00 to 0.08). The broadest host category of mammal infection can be predicted most reliably at 0.850 ± 0.020. We share our improved dataset and code to enable standardized comparisons of machine learning methods to predict human host infections. Overall, we have presented preliminary evidence that classification of virus host infection is more tractable at higher taxonomic ranks, that unsurprisingly reducing the phylogenetic distance between training and test sets can improve predictive performance, that peptide kmer features appear to be harmful to out of sample model performance, and we are left with the question of whether models for virus host prediction can reasonably be expected to perform well in out of sample scenarios given the likelihood that viruses do not share a common ancestor. Consistent with this concern, when the data is resampled such that there is no overlap between viral families in training and test sets (relative entropy > 24), models perform no better than random chance at prediction of human infection regardless of whether kmers are included (ROC AUC 0.50 ± 0.08) or not (ROC AUC 0.50 ± 0.04).
+
+Copyright: This is an open access article, free of all copyright, and may be freely reproduced, distributed, transmitted, modified, built upon, or otherwise used by anyone for any lawful purpose. The work is made available under the Creative Commons CC0 public domain dedication.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+The authors have declared that no competing interests exist.
+
+## Similar articles
+
+*   [Predicting host taxonomic information from viral genomes: A comparison of feature representations.](https://pubmed.ncbi.nlm.nih.gov/32453718/)
+
+Young F, Rogers S, Robertson DL.Young F, et al.PLoS Comput Biol. 2020 May 26;16(5):e1007894. doi: 10.1371/journal.pcbi.1007894. eCollection 2020 May.PLoS Comput Biol. 2020.PMID: 32453718 Free PMC article. 
+*   [Prediction of virus-host infectious association by supervised learning methods.](https://pubmed.ncbi.nlm.nih.gov/28361670/)
+
+Zhang M, Yang L, Ren J, Ahlgren NA, Fuhrman JA, Sun F.Zhang M, et al.BMC Bioinformatics. 2017 Mar 14;18(Suppl 3):60. doi: 10.1186/s12859-017-1473-7.BMC Bioinformatics. 2017.PMID: 28361670 Free PMC article. 
+*   [Folic acid supplementation and malaria susceptibility and severity among people taking antifolate antimalarial drugs in endemic areas.](https://pubmed.ncbi.nlm.nih.gov/36321557/)
+
+Crider K, Williams J, Qi YP, Gutman J, Yeung L, Mai C, Finkelstain J, Mehta S, Pons-Duran C, Menéndez C, Moraleda C, Rogers L, Daniels K, Green P.Crider K, et al.Cochrane Database Syst Rev. 2022 Feb 1;2(2022):CD014217. doi: 10.1002/14651858.CD014217.Cochrane Database Syst Rev. 2022.PMID: 36321557 Free PMC article.Updated. 
+*   [Identifying and prioritizing potential human-infecting viruses from their genome sequences.](https://pubmed.ncbi.nlm.nih.gov/34582436/)
+
+Mollentze N, Babayan SA, Streicker DG.Mollentze N, et al.PLoS Biol. 2021 Sep 28;19(9):e3001390. doi: 10.1371/journal.pbio.3001390. eCollection 2021 Sep.PLoS Biol. 2021.PMID: 34582436 Free PMC article. 
+*   [Virus classification - where do you draw the line?](https://pubmed.ncbi.nlm.nih.gov/30039318/)
+
+Simmonds P, Aiewsakun P.Simmonds P, et al.Arch Virol. 2018 Aug;163(8):2037-2046. doi: 10.1007/s00705-018-3938-z. Epub 2018 Jul 24.Arch Virol. 2018.PMID: 30039318 Free PMC article.Review.

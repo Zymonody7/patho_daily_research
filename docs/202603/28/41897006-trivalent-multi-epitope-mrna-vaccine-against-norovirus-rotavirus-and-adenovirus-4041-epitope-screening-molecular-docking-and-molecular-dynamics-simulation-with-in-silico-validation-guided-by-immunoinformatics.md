@@ -1,0 +1,22 @@
+---
+title: "Trivalent multi-epitope mRNA vaccine against norovirus, rotavirus, and adenovirus 40/41: epitope screening, molecular docking, and molecular dynamics simulation with in silico validation guided by immunoinformatics."
+title_zh: 针对诺如病毒、轮状病毒和腺病毒 40/41 的三价多表位 mRNA 疫苗：基于免疫信息学指导的表位筛选、分子对接、分子动力学模拟及计算机验证
+authors: "Xu Wu, Yizhong Xu, Rongliu Qin, Yuying Luo, Yanqun Hou, Ziyou Zhou, Ruping Qu, Shiyang Ma, Jie Chen, Fei Zhu, Pinhua Pan"
+date: 2026-03-27
+pdf: "https://pubmed.ncbi.nlm.nih.gov/41897006/"
+tags: ["query:pathoai"]
+score: 7.0
+evidence: 针对病毒病原体的疫苗设计免疫信息学
+tldr: 针对诺如病毒、轮状病毒及腺病毒40/41引起的严重腹泻问题，本研究利用免疫信息学方法设计了一种三价多表位mRNA疫苗。通过筛选高抗原性且无毒的T细胞和B细胞表位，并结合分子对接与动力学模拟验证其结构稳定性，结果显示该疫苗具有良好的免疫激活潜力和广泛的人群覆盖率，为多病毒共感染的预防提供了高效的数字化设计方案。
+selection_source: fresh_fetch
+motivation: 旨在解决传统疫苗研发周期长、成本高的问题，应对诺如、轮状及腺病毒等多种病原体导致的全球性腹泻威胁。
+method: 采用免疫信息学技术筛选病毒蛋白中的关键免疫表位，并通过分子动力学模拟和免疫仿真验证疫苗的结构稳定性与免疫原性。
+result: 成功构建了包含38个核心表位的多表位疫苗模型，模拟显示其能与免疫受体稳定结合并诱导强烈的免疫反应。
+conclusion: 该数字化设计的mRNA疫苗在理论上具备良好的安全性和广谱保护力，为后续动物实验和多价疫苗开发奠定了基础。
+---
+
+## 摘要
+背景：腹泻病是全球主要的公共卫生威胁，尤其危及幼儿、老年人和免疫功能低下者。诺如病毒、轮状病毒和腺病毒 40/41 这三种关键病原体可诱发脱水、电解质紊乱及严重并发症，每年导致数万人死亡。传统疫苗存在固有局限性，包括开发周期较长和生产成本高。随着生物信息学与免疫学的深度融合，由高通量分析驱动的免疫信息学技术能够可靠地预测免疫原性和抗原性等关键表位属性，为多价疫苗的开发提供了一种高效的方法。本研究旨在利用免疫信息学方法开发一种针对这三种病原体的三价多表位 mRNA 疫苗，为腹泻病的防控提供潜在的创新策略。方法：从 NCBI 病毒数据库获取目标病毒蛋白对应的氨基酸序列。根据高抗原性、非过敏性和无毒性等关键属性筛选并选择表位。使用接头分子将合适的佐剂组分与选定的 T 淋巴细胞和 B 淋巴细胞表位组装，以进行疫苗的计算机辅助构建。利用在线工具分析了计算机设计的疫苗的结构及相关特征。通过分子对接实验结合分子动力学模拟，阐明了配体-受体结合的相互作用模式和结构稳定性特征。通过密码子优化设计了疫苗的 mRNA 序列，并最终利用免疫模拟评估了其免疫原性。结果：共筛选出 16 个细胞毒性 T 细胞表位、5 个辅助性 T 细胞表位和 17 个线性 B 细胞表位用于构建疫苗。在评估免疫学和理化性质后，进行了分子对接和分子动力学模拟，结果表明该疫苗具有良好的结构稳定性以及与免疫受体之间合理的相互作用。结论：本研究中计算机设计的疫苗预计具有良好的结构稳定性、潜在的免疫激活能力和广阔的人群覆盖范围，为开发针对多种病毒共感染的疫苗提供了初步见解；然而，其免疫原性和安全性仍需通过动物模型实验进一步验证。
+
+## Abstract
+BACKGROUND: Diarrheal diseases constitute a major global public health threat, particularly endangering young children, the elderly, and immunocompromised individuals. Three key pathogens-norovirus, rotavirus, and adenovirus 40/41-can induce dehydration, electrolyte imbalances, and severe complications, resulting in tens of thousands of deaths annually. Conventional vaccines have inherent limitations, including relatively long development cycles and high production costs. With the deep integration of bioinformatics and immunology, immunoinformatic techniques driven by high-throughput analysis enable reliable prediction of key epitope properties such as immunogenicity and antigenicity, offering an efficient approach for multivalent vaccine development. This study aims to develop a trivalent multi-epitope mRNA vaccine targeting these three pathogens using immunoinformatic methods, providing a potential innovative strategy for the prevention and control of diarrheal diseases. METHODS: The amino acid sequences corresponding to the target viral proteins were obtained from the NCBI Virus Database. Epitopes were screened and selected based on key properties including high antigenicity, non-allergenicity, and non-toxicity. Appropriate adjuvant components, along with the chosen T-lymphocyte and B-lymphocyte epitopes, were assembled using linker molecules to computationally construct the vaccine. Structural and related features of the computationally designed vaccine were analyzed using online tools. Molecular docking assays, in conjunction with molecular dynamics simulations, were performed to clarify the interaction modes and structural stability characteristics of ligand-receptor binding. mRNA sequences of the vaccine were designed through codon optimization, and their immunogenicity was ultimately assessed using immune simulations. RESULTS: A total of 16 cytotoxic T-cell epitopes, 5 helper T-cell epitopes, and 17 linear B-cell epitopes were selected to construct the vaccine. After evaluating immunological and physicochemical properties, molecular docking and molecular dynamics simulations were performed, suggesting favorable structural stability and plausible interactions with immune receptors. CONCLUSIONS: The computationally designed vaccine in this study was predicted to exhibit favorable structural stability, potential immune activation capability, and promising broad population coverage, providing preliminary insights for the development of vaccines against multiple viral co-infections; however, its immunogenicity and safety remain to be further validated through animal model experiments.

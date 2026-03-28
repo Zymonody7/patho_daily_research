@@ -1,0 +1,71 @@
+Title: Mining of food metagenomes reveals an unexplored diversity of dsDNA bacteriophages - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41896556/
+
+Markdown Content:
+Actions
+
+. 2026 Mar 27.
+
+doi: 10.1038/s41522-026-00941-9.  Online ahead of print.
+
+[Viyal Soni](https://pubmed.ncbi.nlm.nih.gov/?term=Soni+V&cauthor_id=41896556)[1](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-1 "Teagasc Food Research Centre, Moorepark, Fermoy, Ireland.")[3](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-3 "School of Biochemistry and Cell Biology, University College Cork, Cork, Ireland."),[Joseph Ancla](https://pubmed.ncbi.nlm.nih.gov/?term=Ancla+J&cauthor_id=41896556)[1](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-1 "Teagasc Food Research Centre, Moorepark, Fermoy, Ireland.")[2](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-2 "School of Microbiology, University College Cork, Cork, Ireland."),[Vincent Somerville](https://pubmed.ncbi.nlm.nih.gov/?term=Somerville+V&cauthor_id=41896556)[4](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-4 "Department of Biochemistry, Microbiology and Bioinformatics, Université Laval, Quebec, Canada.")[5](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-5 "Department of Health Sciences and Technology, ETH Zürich, Zürich, Switzerland."),[Nicola Segata](https://pubmed.ncbi.nlm.nih.gov/?term=Segata+N&cauthor_id=41896556)[6](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-6 "Department of Cellular, Computational and Integrative Biology, University of Trento, Trento, Italy.")[7](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-7 "IEO, Istituto Europeo di Oncologia IRCSS, Milan, Italy.")[8](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-8 "Department of Twins Research and Genetic Epidemiology, King's College London, London, UK."),[Susan Joyce](https://pubmed.ncbi.nlm.nih.gov/?term=Joyce+S&cauthor_id=41896556)[3](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-3 "School of Biochemistry and Cell Biology, University College Cork, Cork, Ireland."),[Douwe van Sinderen](https://pubmed.ncbi.nlm.nih.gov/?term=Sinderen+DV&cauthor_id=41896556)[2](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-2 "School of Microbiology, University College Cork, Cork, Ireland.")[9](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-9 "APC Microbiome Ireland SFI Research Centre, University College Cork, Cork, Ireland."),[Jennifer Mahony](https://pubmed.ncbi.nlm.nih.gov/?term=Mahony+J&cauthor_id=41896556)[2](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-2 "School of Microbiology, University College Cork, Cork, Ireland.")[9](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-9 "APC Microbiome Ireland SFI Research Centre, University College Cork, Cork, Ireland."),[Andrey N Shkoporov](https://pubmed.ncbi.nlm.nih.gov/?term=Shkoporov+AN&cauthor_id=41896556)[2](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-2 "School of Microbiology, University College Cork, Cork, Ireland.")[9](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-9 "APC Microbiome Ireland SFI Research Centre, University College Cork, Cork, Ireland.")[10](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-10 "Department of Medicine, University College Cork, Cork, Ireland."),[John G Kenny](https://pubmed.ncbi.nlm.nih.gov/?term=Kenny+JG&cauthor_id=41896556)[1](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-1 "Teagasc Food Research Centre, Moorepark, Fermoy, Ireland.")[9](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-9 "APC Microbiome Ireland SFI Research Centre, University College Cork, Cork, Ireland.")[11](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-11 "VistaMilk SFI Research Centre, Teagasc, Moorepark, Fermoy, Ireland."),[Paul D Cotter](https://pubmed.ncbi.nlm.nih.gov/?term=Cotter+PD&cauthor_id=41896556)[12](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-12 "Teagasc Food Research Centre, Moorepark, Fermoy, Ireland. Paul.Cotter@teagasc.ie.")[13](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-13 "APC Microbiome Ireland SFI Research Centre, University College Cork, Cork, Ireland. Paul.Cotter@teagasc.ie.")[14](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-14 "VistaMilk SFI Research Centre, Teagasc, Moorepark, Fermoy, Ireland. Paul.Cotter@teagasc.ie."),[Orla O'Sullivan](https://pubmed.ncbi.nlm.nih.gov/?term=O%27Sullivan+O&cauthor_id=41896556)[15](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-15 "Teagasc Food Research Centre, Moorepark, Fermoy, Ireland. Orla.OSullivan@teagasc.ie.")[16](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-16 "School of Microbiology, University College Cork, Cork, Ireland. Orla.OSullivan@teagasc.ie.")[17](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-17 "School of Biochemistry and Cell Biology, University College Cork, Cork, Ireland. Orla.OSullivan@teagasc.ie.")[18](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-18 "APC Microbiome Ireland SFI Research Centre, University College Cork, Cork, Ireland. Orla.OSullivan@teagasc.ie.")[19](https://pubmed.ncbi.nlm.nih.gov/41896556/#full-view-affiliation-19 "VistaMilk SFI Research Centre, Teagasc, Moorepark, Fermoy, Ireland. Orla.OSullivan@teagasc.ie.")
+
+Affiliations
+
+*    PMID: **41896556**
+*    DOI: [10.1038/s41522-026-00941-9](https://doi.org/10.1038/s41522-026-00941-9)
+
+## Mining of food metagenomes reveals an unexplored diversity of dsDNA bacteriophages
+
+Liam H Walsh et al. NPJ Biofilms Microbiomes.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+Bacteriophages are key drivers of microbial ecology, co-existing and co-evolving with bacteria across diverse environments. Limitations in culturing, alongside advances in sequencing and bioinformatics, have driven the use of metagenomics to explore viral diversity. Viral-specific analysis of >3000 food metagenomes from cFMD produced the FVGC, comprising ~3400 metagenome-assembled viruses, most of which belong to novel Caudoviricetes lineages (n = 91), with only ~15% represented in IMG/VR v4. Together, these findings reveal extensive uncharacterized viral diversity in food systems. Beyond serving as a reference, the FVGC facilitates detailed investigation of virus-host interactions. Viral sequences were pervasive across microbial genomes, with several bacterial families exhibiting near-universal associations with viral elements. Bacterial antiviral defence systems were abundant and taxonomically diverse, dominated by restriction-modification systems, while CRISPR-Cas systems showed pronounced lineage-specific distributions; in contrast, viral anti-defence genes were detected at low frequency (<10% of MAVs). Host prediction linked MAVs to clinically relevant taxa, including expanded ESKAPE pathogens such as Klebsiella pneumoniae, Acinetobacter baumannii, Staphylococcus aureus, and Enterobacter spp., highlighting the ecological connectivity between food-associated viruses and clinically important bacteria. Antimicrobial resistance signals were scarce, suggesting minimal phage-mediated AMR dissemination in food environments. This new publicly available viral database represents a valuable resource for further exploration of viral diversity.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [_In silico_ and _in vitro_ comparative analysis of 79 _Acinetobacter baumannii_ clinical isolates.](https://pubmed.ncbi.nlm.nih.gov/40377313/)
+
+Scarrone M, Turner D, Dion M, Tremblay D, Moineau S.Scarrone M, et al.Microbiol Spectr. 2025 Jul;13(7):e0284924. doi: 10.1128/spectrum.02849-24. Epub 2025 May 16.Microbiol Spectr. 2025.PMID: 40377313 Free PMC article. 
+*   [A comprehensive reference catalog of human skin DNA virome reveals novel viral diversity and microenvironmental influences.](https://pubmed.ncbi.nlm.nih.gov/41025824/)
+
+Li Z, Li S, Han C, Chen Y, Zhen H, Sun Y, Zhou X, Chen Y, Zheng Y, Han L, Krutmann J, Nie C, Wang J, Xia J.Li Z, et al.Microbiol Spectr. 2025 Nov 4;13(11):e0117825. doi: 10.1128/spectrum.01178-25. Epub 2025 Sep 30.Microbiol Spectr. 2025.PMID: 41025824 Free PMC article. 
+*   [Extensive diversity and rapid turnover of phage defense repertoires in cheese-associated bacterial communities.](https://pubmed.ncbi.nlm.nih.gov/36028909/)
+
+Somerville V, Schowing T, Chabas H, Schmidt RS, von Ah U, Bruggmann R, Engel P.Somerville V, et al.Microbiome. 2022 Aug 27;10(1):137. doi: 10.1186/s40168-022-01328-6.Microbiome. 2022.PMID: 36028909 Free PMC article. 
+*   [CRISPR in Modulating Antibiotic Resistance of ESKAPE Pathogens.](https://pubmed.ncbi.nlm.nih.gov/35939207/)
+
+Saha U, Gondi R, Patil A, Saroj SD.Saha U, et al.Mol Biotechnol. 2023 Jan;65(1):1-16. doi: 10.1007/s12033-022-00543-8. Epub 2022 Aug 8.Mol Biotechnol. 2023.PMID: 35939207 Review. 
+*   [Fishing for phages in metagenomes: what do we catch, what do we miss?](https://pubmed.ncbi.nlm.nih.gov/34139668/)
+
+Benler S, Koonin EV.Benler S, et al.Curr Opin Virol. 2021 Aug;49:142-150. doi: 10.1016/j.coviro.2021.05.008. Epub 2021 Jun 15.Curr Opin Virol. 2021.PMID: 34139668 Review. 
+
+## References
+
+1.       1.    Brown, T. L., Charity, O. J. & Adriaenssens, E. M. Ecological and functional roles of bacteriophages in contrasting environments: marine, terrestrial and human gut. Curr. Opin. Microbiol. 70, 102229 (2022). 
+
+2.       1.    Castledine, M. & Buckling, A. Critically evaluating the relative importance of phage in shaping microbial community composition. Trends Microbiol. 32, 957–969 (2024). 
+
+3.       1.    Shkoporov, A. N., Turkington, C. J. & Hill, C. Mutualistic interplay between bacteriophages and bacteria in the human gut. Nat. Rev. Microbiol. 20, 737–749 (2022). 
+
+4.       1.    Reyes, A., Semenkovich, N. P., Whiteson, K., Rohwer, F. & Gordon, J. I. Going viral: next-generation sequencing applied to phage populations in the human gut. Nat. Rev. Microbiol. 10, 607–617 (2012). 
+
+5.       1.    Ranveer, S. A. et al. Positive and negative aspects of bacteriophages and their immense role in the food chain. npj Sci. Food 8, 1 (2024).

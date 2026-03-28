@@ -1,0 +1,418 @@
+Title: Scaling and quantization of large-scale foundation model enables resource-efficient predictions in network biology - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41896605/
+
+Markdown Content:
+# Scaling and quantization of large-scale foundation model enables resource-efficient predictions in network biology - PubMed
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/41896605/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41896605%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/41896605/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/41896605/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/41896605/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/41896605/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/9fea6d21-07b4-4726-b151-fb89a024b8ad/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/41896605/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/41896605/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41896605/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41896605%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41896605%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/41896605/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Save citation to file
+
+ Format:  
+
+ Create file  Cancel 
+
+## Email citation
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41896605/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41896605/#)
+
+ Add  Cancel 
+
+## Your saved search
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/41896605/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+## Create a file for external citation management software
+
+ Create file  Cancel 
+
+## Your RSS Feed
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41896605/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/41896605/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/41896605/#abstract)
+*   [Conflict of interest statement](https://pubmed.ncbi.nlm.nih.gov/41896605/#conflict-of-interest)
+*   [Similar articles](https://pubmed.ncbi.nlm.nih.gov/41896605/#similar)
+*   [References](https://pubmed.ncbi.nlm.nih.gov/41896605/#references)
+*   [Related information](https://pubmed.ncbi.nlm.nih.gov/41896605/#related-links)
+*   [Grants and funding](https://pubmed.ncbi.nlm.nih.gov/41896605/#grants)
+
+ Nat Comput Sci 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Nat+Comput+Sci%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Nat+Comput+Sci%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41896605/#)
+
+. 2026 Mar 27.
+
+ doi: 10.1038/s43588-026-00972-4.  Online ahead of print. 
+
+# Scaling and quantization of large-scale foundation model enables resource-efficient predictions in network biology
+
+[Han Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+H&cauthor_id=41896605)[#](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-affiliation-1 "Gladstone Institute of Cardiovascular Disease, San Francisco, CA, USA.")[2](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-affiliation-2 "Gladstone Institute of Data Science and Biotechnology, San Francisco, CA, USA.")[3](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-affiliation-3 "Gladstone-University of California, San Francisco (UCSF) Institute of Genomic Immunology, San Francisco, CA, USA.")[4](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-affiliation-4 "Biological and Medical Informatics Graduate Program, UCSF, San Francisco, CA, USA."),[Madhavan S Venkatesh](https://pubmed.ncbi.nlm.nih.gov/?term=Venkatesh+MS&cauthor_id=41896605)[#](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-affiliation-1 "Gladstone Institute of Cardiovascular Disease, San Francisco, CA, USA.")[2](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-affiliation-2 "Gladstone Institute of Data Science and Biotechnology, San Francisco, CA, USA.")[5](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-affiliation-5 "Department of Computational and Systems Biology, University of California, Los Angeles, Los Angeles, CA, USA."),[Javier Gόmez Ortega](https://pubmed.ncbi.nlm.nih.gov/?term=G%CF%8Cmez+Ortega+J&cauthor_id=41896605)[1](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-affiliation-1 "Gladstone Institute of Cardiovascular Disease, San Francisco, CA, USA.")[2](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-affiliation-2 "Gladstone Institute of Data Science and Biotechnology, San Francisco, CA, USA."),[Siddharth V Mahesh](https://pubmed.ncbi.nlm.nih.gov/?term=Mahesh+SV&cauthor_id=41896605)[1](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-affiliation-1 "Gladstone Institute of Cardiovascular Disease, San Francisco, CA, USA.")[2](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-affiliation-2 "Gladstone Institute of Data Science and Biotechnology, San Francisco, CA, USA.")[4](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-affiliation-4 "Biological and Medical Informatics Graduate Program, UCSF, San Francisco, CA, USA."),[Tarak N Nandi](https://pubmed.ncbi.nlm.nih.gov/?term=Nandi+TN&cauthor_id=41896605)[6](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-affiliation-6 "Data Science and Learning, Argonne National Laboratory, Lemont, IL, USA."),[Ravi K Madduri](https://pubmed.ncbi.nlm.nih.gov/?term=Madduri+RK&cauthor_id=41896605)[6](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-affiliation-6 "Data Science and Learning, Argonne National Laboratory, Lemont, IL, USA."),[Karin Pelka](https://pubmed.ncbi.nlm.nih.gov/?term=Pelka+K&cauthor_id=41896605)[3](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-affiliation-3 "Gladstone-University of California, San Francisco (UCSF) Institute of Genomic Immunology, San Francisco, CA, USA.")[7](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-affiliation-7 "Department of Microbiology and Immunology, UCSF, San Francisco, CA, USA.")[8](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-affiliation-8 "Helen Diller Family Comprehensive Cancer Center, UCSF, San Francisco, CA, USA.")[9](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-affiliation-9 "Parker Institute for Cancer Immunotherapy, San Francisco, CA, USA.")[10](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-affiliation-10 "Weill Cancer Hub West, San Francisco, CA, USA."),[Christina V Theodoris](https://pubmed.ncbi.nlm.nih.gov/?term=Theodoris+CV&cauthor_id=41896605)[11](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-affiliation-11 "Gladstone Institute of Cardiovascular Disease, San Francisco, CA, USA. christina.theodoris@gladstone.ucsf.edu.")[12](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-affiliation-12 "Gladstone Institute of Data Science and Biotechnology, San Francisco, CA, USA. christina.theodoris@gladstone.ucsf.edu.")[13](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-affiliation-13 "Biological and Medical Informatics Graduate Program, UCSF, San Francisco, CA, USA. christina.theodoris@gladstone.ucsf.edu.")[14](https://pubmed.ncbi.nlm.nih.gov/41896605/#full-view-affiliation-14 "Department of Pediatrics, Institute for Human Genetics, Cardiovascular Research Institute, UCSF, San Francisco, CA, USA. christina.theodoris@gladstone.ucsf.edu.")
+
+ Affiliations  Expand 
+
+### Affiliations
+
+*   1 Gladstone Institute of Cardiovascular Disease, San Francisco, CA, USA.
+*   2 Gladstone Institute of Data Science and Biotechnology, San Francisco, CA, USA.
+*   3 Gladstone-University of California, San Francisco (UCSF) Institute of Genomic Immunology, San Francisco, CA, USA.
+*   4 Biological and Medical Informatics Graduate Program, UCSF, San Francisco, CA, USA.
+*   5 Department of Computational and Systems Biology, University of California, Los Angeles, Los Angeles, CA, USA.
+*   6 Data Science and Learning, Argonne National Laboratory, Lemont, IL, USA.
+*   7 Department of Microbiology and Immunology, UCSF, San Francisco, CA, USA.
+*   8 Helen Diller Family Comprehensive Cancer Center, UCSF, San Francisco, CA, USA.
+*   9 Parker Institute for Cancer Immunotherapy, San Francisco, CA, USA.
+*   10 Weill Cancer Hub West, San Francisco, CA, USA.
+*   11 Gladstone Institute of Cardiovascular Disease, San Francisco, CA, USA. christina.theodoris@gladstone.ucsf.edu.
+*   12 Gladstone Institute of Data Science and Biotechnology, San Francisco, CA, USA. christina.theodoris@gladstone.ucsf.edu.
+*   13 Biological and Medical Informatics Graduate Program, UCSF, San Francisco, CA, USA. christina.theodoris@gladstone.ucsf.edu.
+*   14 Department of Pediatrics, Institute for Human Genetics, Cardiovascular Research Institute, UCSF, San Francisco, CA, USA. christina.theodoris@gladstone.ucsf.edu.
+
+# Contributed equally.
+
+*    PMID: **41896605**
+*    DOI: [10.1038/s43588-026-00972-4](https://doi.org/10.1038/s43588-026-00972-4)
+
+ Item in Clipboard 
+
+# Scaling and quantization of large-scale foundation model enables resource-efficient predictions in network biology
+
+Han Chen et al. Nat Comput Sci.2026.
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ Nat Comput Sci 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Nat+Comput+Sci%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Nat+Comput+Sci%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41896605/#)
+
+. 2026 Mar 27.
+
+ doi: 10.1038/s43588-026-00972-4.  Online ahead of print. 
+
+### Authors
+
+[Han Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+H&cauthor_id=41896605)[#](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-affiliation-1 "Gladstone Institute of Cardiovascular Disease, San Francisco, CA, USA.")[2](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-affiliation-2 "Gladstone Institute of Data Science and Biotechnology, San Francisco, CA, USA.")[3](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-affiliation-3 "Gladstone-University of California, San Francisco (UCSF) Institute of Genomic Immunology, San Francisco, CA, USA.")[4](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-affiliation-4 "Biological and Medical Informatics Graduate Program, UCSF, San Francisco, CA, USA."),[Madhavan S Venkatesh](https://pubmed.ncbi.nlm.nih.gov/?term=Venkatesh+MS&cauthor_id=41896605)[#](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-affiliation-1 "Gladstone Institute of Cardiovascular Disease, San Francisco, CA, USA.")[2](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-affiliation-2 "Gladstone Institute of Data Science and Biotechnology, San Francisco, CA, USA.")[5](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-affiliation-5 "Department of Computational and Systems Biology, University of California, Los Angeles, Los Angeles, CA, USA."),[Javier Gόmez Ortega](https://pubmed.ncbi.nlm.nih.gov/?term=G%CF%8Cmez+Ortega+J&cauthor_id=41896605)[1](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-affiliation-1 "Gladstone Institute of Cardiovascular Disease, San Francisco, CA, USA.")[2](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-affiliation-2 "Gladstone Institute of Data Science and Biotechnology, San Francisco, CA, USA."),[Siddharth V Mahesh](https://pubmed.ncbi.nlm.nih.gov/?term=Mahesh+SV&cauthor_id=41896605)[1](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-affiliation-1 "Gladstone Institute of Cardiovascular Disease, San Francisco, CA, USA.")[2](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-affiliation-2 "Gladstone Institute of Data Science and Biotechnology, San Francisco, CA, USA.")[4](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-affiliation-4 "Biological and Medical Informatics Graduate Program, UCSF, San Francisco, CA, USA."),[Tarak N Nandi](https://pubmed.ncbi.nlm.nih.gov/?term=Nandi+TN&cauthor_id=41896605)[6](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-affiliation-6 "Data Science and Learning, Argonne National Laboratory, Lemont, IL, USA."),[Ravi K Madduri](https://pubmed.ncbi.nlm.nih.gov/?term=Madduri+RK&cauthor_id=41896605)[6](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-affiliation-6 "Data Science and Learning, Argonne National Laboratory, Lemont, IL, USA."),[Karin Pelka](https://pubmed.ncbi.nlm.nih.gov/?term=Pelka+K&cauthor_id=41896605)[3](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-affiliation-3 "Gladstone-University of California, San Francisco (UCSF) Institute of Genomic Immunology, San Francisco, CA, USA.")[7](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-affiliation-7 "Department of Microbiology and Immunology, UCSF, San Francisco, CA, USA.")[8](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-affiliation-8 "Helen Diller Family Comprehensive Cancer Center, UCSF, San Francisco, CA, USA.")[9](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-affiliation-9 "Parker Institute for Cancer Immunotherapy, San Francisco, CA, USA.")[10](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-affiliation-10 "Weill Cancer Hub West, San Francisco, CA, USA."),[Christina V Theodoris](https://pubmed.ncbi.nlm.nih.gov/?term=Theodoris+CV&cauthor_id=41896605)[11](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-affiliation-11 "Gladstone Institute of Cardiovascular Disease, San Francisco, CA, USA. christina.theodoris@gladstone.ucsf.edu.")[12](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-affiliation-12 "Gladstone Institute of Data Science and Biotechnology, San Francisco, CA, USA. christina.theodoris@gladstone.ucsf.edu.")[13](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-affiliation-13 "Biological and Medical Informatics Graduate Program, UCSF, San Francisco, CA, USA. christina.theodoris@gladstone.ucsf.edu.")[14](https://pubmed.ncbi.nlm.nih.gov/41896605/#short-view-affiliation-14 "Department of Pediatrics, Institute for Human Genetics, Cardiovascular Research Institute, UCSF, San Francisco, CA, USA. christina.theodoris@gladstone.ucsf.edu.")
+
+### Affiliations
+
+*   1 Gladstone Institute of Cardiovascular Disease, San Francisco, CA, USA.
+*   2 Gladstone Institute of Data Science and Biotechnology, San Francisco, CA, USA.
+*   3 Gladstone-University of California, San Francisco (UCSF) Institute of Genomic Immunology, San Francisco, CA, USA.
+*   4 Biological and Medical Informatics Graduate Program, UCSF, San Francisco, CA, USA.
+*   5 Department of Computational and Systems Biology, University of California, Los Angeles, Los Angeles, CA, USA.
+*   6 Data Science and Learning, Argonne National Laboratory, Lemont, IL, USA.
+*   7 Department of Microbiology and Immunology, UCSF, San Francisco, CA, USA.
+*   8 Helen Diller Family Comprehensive Cancer Center, UCSF, San Francisco, CA, USA.
+*   9 Parker Institute for Cancer Immunotherapy, San Francisco, CA, USA.
+*   10 Weill Cancer Hub West, San Francisco, CA, USA.
+*   11 Gladstone Institute of Cardiovascular Disease, San Francisco, CA, USA. christina.theodoris@gladstone.ucsf.edu.
+*   12 Gladstone Institute of Data Science and Biotechnology, San Francisco, CA, USA. christina.theodoris@gladstone.ucsf.edu.
+*   13 Biological and Medical Informatics Graduate Program, UCSF, San Francisco, CA, USA. christina.theodoris@gladstone.ucsf.edu.
+*   14 Department of Pediatrics, Institute for Human Genetics, Cardiovascular Research Institute, UCSF, San Francisco, CA, USA. christina.theodoris@gladstone.ucsf.edu.
+
+# Contributed equally.
+
+*    PMID: **41896605**
+*    DOI: [10.1038/s43588-026-00972-4](https://doi.org/10.1038/s43588-026-00972-4)
+
+ Item in Clipboard 
+
+Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Abstract
+
+Foundation models for network biology are pretrained on large-scale biological data to enable context-aware predictions in a diverse array of downstream tasks through transfer learning. However, increasing model sizes with the expansion of available pretraining data also increases the computational resources required for fine-tuning and inference in downstream applications. Here we first assemble a corpus comprising ~104 million human single-cell transcriptomes from a broad range of tissues and diseases and pretrain successively larger models, defining the scaling laws for transcriptional masked learning. We then demonstrate that model quantization preserves the contextual gene and cell embedding space of the full-precision model, matching performance in zero-shot and fine-tuning applications while requiring only 15% of the time and 34% of the memory as the full model for fine-tuning with the same batch size. Overall, model quantization represents an effective method for resource-efficient fine-tuning and inference while preserving biological knowledge.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Competing interests: K.P. is a consultant to Santa Ana Bio, Inc. The other authors declare no competing interests.
+
+## Similar articles
+
+*   [Quantized multi-task learning for context-specific representations of gene network dynamics.](https://pubmed.ncbi.nlm.nih.gov/39229018/)Chen H, Venkatesh MS, Ortega JG, Mahesh SV, Nandi TN, Madduri RK, Pelka K, Theodoris CV.Chen H, et al.bioRxiv [Preprint]. 2024 Aug 19:2024.08.16.608180. doi: 10.1101/2024.08.16.608180.bioRxiv. 2024.PMID: 39229018 Free PMC article.Preprint.  
+*   [MedPTQ: a practical pipeline for real post-training quantization in 3D medical image segmentation.](https://pubmed.ncbi.nlm.nih.gov/41709974/)Qu C, Zhao R, Yu Y, Liu B, Yao T, Zhu J, Landman BA, Tang Y, Huo Y.Qu C, et al.J Med Imaging (Bellingham). 2026 Jan;13(1):014006. doi: 10.1117/1.JMI.13.1.014006. Epub 2026 Feb 17.J Med Imaging (Bellingham). 2026.PMID: 41709974 Free PMC article.  
+*   [Positional embeddings and zero-shot learning using BERT for molecular-property prediction.](https://pubmed.ncbi.nlm.nih.gov/39910649/)Mswahili ME, Hwang J, Rajapakse JC, Jo K, Jeong YS.Mswahili ME, et al.J Cheminform. 2025 Feb 5;17(1):17. doi: 10.1186/s13321-025-00959-9.J Cheminform. 2025.PMID: 39910649 Free PMC article.  
+*   [Parameter Efficient Fine-tuning of Transformer-based Masked Autoencoder Enhances Resource Constrained Neuroimage Analysis.](https://pubmed.ncbi.nlm.nih.gov/40027656/)Dhinagar NJ, Ozarkar SS, Buwa KU, Thomopoulos SI, Owens-Walton C, Laltoo E, Jagad C, Chen YL, Cook P, McMillan C, Tsai CC, Wang JJ, Wu YR, Thompson PM.Dhinagar NJ, et al.bioRxiv [Preprint]. 2025 Feb 20:2025.02.15.638442. doi: 10.1101/2025.02.15.638442.bioRxiv. 2025.PMID: 40027656 Free PMC article.Preprint.  
+*   [A comprehensive survey of genome language models in bioinformatics.](https://pubmed.ncbi.nlm.nih.gov/41537311/)Shu L, Tang J, Guan X, Zhang D.Shu L, et al.Brief Bioinform. 2026 Jan 7;27(1):bbaf724. doi: 10.1093/bib/bbaf724.Brief Bioinform. 2026.PMID: 41537311 Free PMC article.Review.  
+
+[See all similar articles](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed&from_uid=41896605)
+
+## References
+
+1.       1.    Theodoris, C. V. et al. Human disease modeling reveals integrated transcriptional and epigenetic mechanisms of NOTCH1 haploinsufficiency. Cell 160, 1072–1086 (2015). - [DOI](https://doi.org/10.1016/j.cell.2015.02.035)
+
+2.       1.    Theodoris, C. V. et al. Network-based screen in iPSC-derived cells reveals therapeutic candidate for heart valve disease. Science 371, eabd0724 (2021). - [DOI](https://doi.org/10.1126/science.abd0724)
+
+3.       1.    Vaswani, A. et al. Attention is all you need. Adv. Neural Inf. Process. Syst. 30, (2017). 
+
+4.       1.    Devlin, J., Chang, M.-W., Lee, K. & Toutanova, K. BERT: pre-training of deep bidirectional transformers for language understanding. Preprint at [https://arxiv.org/abs/1810.04805](https://arxiv.org/abs/1810.04805) (2018). 
+
+5.       1.    He, K., Zhang, X., Ren, S. & Sun, J. Deep residual learning for image recognition. In Proc. IEEE Conference on Computer Vision and Pattern Recognition 770–778 (IEEE, 2015). 
+
+ Show all 39 references 
+
+## Related information
+
+*   [GEO Profiles](https://www.ncbi.nlm.nih.gov/geoprofiles?linkname=pubmed_geoprofiles&from_uid=41896605 "GEO records associated with pubmed record")
+
+## Grants and funding
+
+*   [DP5OD036170/U.S. Department of Health & Human Services | National Institutes of Health (NIH)](https://pubmed.ncbi.nlm.nih.gov/?term=DP5OD036170%2FU.S.+Department+of+Health+%26+Human+Services+%7C+National+Institutes+of+Health+%28NIH%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant DP5OD036170/U.S. Department of Health & Human Services | National Institutes of Health (NIH)")
+*   [1022136.01/Burroughs Wellcome Fund (BWF)](https://pubmed.ncbi.nlm.nih.gov/?term=1022136.01%2FBurroughs+Wellcome+Fund+%28BWF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 1022136.01/Burroughs Wellcome Fund (BWF)")
+*   [2034836/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=2034836%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2034836/National Science Foundation (NSF)")
+*   [DE-AC02-06CH11357/U.S. Department of Energy (DOE)](https://pubmed.ncbi.nlm.nih.gov/?term=DE-AC02-06CH11357%2FU.S.+Department+of+Energy+%28DOE%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant DE-AC02-06CH11357/U.S. Department of Energy (DOE)")
+*   [DE-AC02-06CH11357/U.S. Department of Energy (DOE)](https://pubmed.ncbi.nlm.nih.gov/?term=DE-AC02-06CH11357%2FU.S.+Department+of+Energy+%28DOE%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant DE-AC02-06CH11357/U.S. Department of Energy (DOE)")
+
+*   [R00CA259511/U.S. Department of Health & Human Services | NIH | National Cancer Institute (NCI)](https://pubmed.ncbi.nlm.nih.gov/?term=R00CA259511%2FU.S.+Department+of+Health+%26+Human+Services+%7C+NIH+%7C+National+Cancer+Institute+%28NCI%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant R00CA259511/U.S. Department of Health & Human Services | NIH | National Cancer Institute (NCI)")
+*   [Cancer Cell Map Initiative/U.S. Department of Health & Human Services | NIH | National Cancer Institute (NCI)](https://pubmed.ncbi.nlm.nih.gov/?term=Cancer+Cell+Map+Initiative%2FU.S.+Department+of+Health+%26+Human+Services+%7C+NIH+%7C+National+Cancer+Institute+%28NCI%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant Cancer Cell Map Initiative/U.S. Department of Health & Human Services | NIH | National Cancer Institute (NCI)")
+
+ Show all 7 grants 
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41896605/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41896605%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/41896605/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41896605%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41896605%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/41896605/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/?pagename=pubmed%3Apubmed%3Aabstract%3ANONE)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)

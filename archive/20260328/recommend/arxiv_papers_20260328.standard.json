@@ -1,0 +1,483 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-03-28T19:22:27.371581+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 6,
+    "deep_cap": 9,
+    "deep_selected": 6,
+    "quick_candidates": 4,
+    "quick_skim_target": 14,
+    "quick_selected": 4
+  },
+  "deep_dive": [
+    {
+      "id": "41894324",
+      "title": "Physics-constrained neural ordinary differential equation models to discover and predict microbial community dynamics.",
+      "abstract": "Microbial communities play essential roles in shaping ecosystem functions and predictive modeling frameworks are crucial for understanding, controlling, and harnessing their properties. Competition and cross-feeding of metabolites drives microbiome dynamics and functions. Existing mechanistic models that capture metabolite-mediated interactions in microbial communities have limited flexibility due to rigid assumptions. While machine learning models provide flexibility, they require large datasets, are challenging to interpret, and can overfit to experimental noise. To overcome these limitations, we develop a physics-constrained machine learning model, which we call the neural species mediator (NSM), that combines a mechanistic model of metabolite dynamics with a machine learning component. The NSM outperforms mechanistic or machine learning components on in vitro experimental datasets and provides insights into direct biological interactions. In summary, carefully embedding a neural network into a mechanistic model of microbial community dynamics improves prediction performance and interpretability compared to its constituent mechanistic or machine learning components.",
+      "authors": [
+        "Thompson J, Connors BM, Zavala VM, Venturelli OS.",
+        "Jaron Thompson",
+        "Bryce M Connors",
+        "Victor M Zavala",
+        "Ophelia S Venturelli"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41894324/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Physics-constrained machine learning for microbial community dynamics",
+      "llm_evidence_cn": "物理约束的机器学习用于微生物群落动态",
+      "llm_evidence": "物理约束的机器学习用于微生物群落动态",
+      "canonical_evidence": "物理约束的机器学习用于微生物群落动态",
+      "llm_tldr_en": "Develops a physics-constrained neural ODE model to predict metabolite-mediated microbial community dynamics.",
+      "llm_tldr_cn": "开发了一种物理约束的神经常微分方程模型，用于预测代谢物介导的微生物群落动态。",
+      "llm_tldr": "开发了一种物理约束的神经常微分方程模型，用于预测代谢物介导的微生物群落动态。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41894437",
+      "title": "An improved dataset for predicting mammal infecting viruses from genetic sequence information.",
+      "abstract": "There have been several attempts to develop machine learning (ML) models to identify human infecting viruses from their genomic sequences, with varying degrees of success. Direct comparison between models is problematic, because these models are typically trained and evaluated on different datasets with alternative data splitting schemes, features, and model performance metrics. In this paper we present a standardized dataset of mammal infecting and non-infecting viral pathogens, refined from the previous work of Mollentze et al. to include the latest literature evidence, roughly doubling the number of curated host-virus records available to the community, and new host target labels, primate and mammal. The new host labels were included for several reasons, including previous reports that classification performance is better at broader taxonomic ranks and the idea that there may be more data for primate infection that might serve as a suitable proxy for zoonotic potential and avoidance of false positives for human infection due to absence of evidence. On this dataset, we report the performance of eight machine learning models for predicting mammal-infecting viruses from their genomic sequences. We find that randomly assigning cases in our improved dataset to training/testing sets, when compared to the original assignments into training/testing in Mollentze et al., increases the overall average ROC AUC of prediction of human infection from 0.663 ± 0.070 to 0.784 ± 0.013, consistent with the reduction in phylogenetic distance between train and test sets (relative entropy change from 3.00 to 0.08). The broadest host category of mammal infection can be predicted most reliably at 0.850 ± 0.020. We share our improved dataset and code to enable standardized comparisons of machine learning methods to predict human host infections. Overall, we have presented preliminary evidence that classification of virus host infection is more tractable at higher taxonomic ranks, that unsurprisingly reducing the phylogenetic distance between training and test sets can improve predictive performance, that peptide kmer features appear to be harmful to out of sample model performance, and we are left with the question of whether models for virus host prediction can reasonably be expected to perform well in out of sample scenarios given the likelihood that viruses do not share a common ancestor. Consistent with this concern, when the data is resampled such that there is no overlap between viral families in training and test sets (relative entropy > 24), models perform no better than random chance at prediction of human infection regardless of whether kmers are included (ROC AUC 0.50 ± 0.08) or not (ROC AUC 0.50 ± 0.04).",
+      "authors": [
+        "Reddy T, Schneider A, Hall AR, Witmer A, Hengartner N.",
+        "Tyler Reddy",
+        "Austin Schneider",
+        "Aaron R Hall",
+        "Adam Witmer",
+        "Nick Hengartner"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41894437/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "machine learning for predicting mammal infecting viruses",
+      "llm_evidence_cn": "机器学习预测感染哺乳动物的病毒",
+      "llm_evidence": "机器学习预测感染哺乳动物的病毒",
+      "canonical_evidence": "机器学习预测感染哺乳动物的病毒",
+      "llm_tldr_en": "Provides a standardized dataset to improve machine learning models for identifying human-infecting viral pathogens.",
+      "llm_tldr_cn": "提供了一个标准化数据集，以改进识别感染人类病毒病原体的机器学习模型。",
+      "llm_tldr": "提供了一个标准化数据集，以改进识别感染人类病毒病原体的机器学习模型。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "foundation models for pathogen genomes and pathogen biology",
+      "matched_requirement_id": "req-1",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41896581",
+      "title": "High-Resolution Colony Images of Clinically Isolated Bacteria for Automated Detection and Deep Learning.",
+      "abstract": "The observation and analysis of colonies on solid media are key steps in microbiological research. However, traditional manual interpretation methods are inefficient when handling large-scale samples and are prone to subjective bias, making it difficult to meet the demands for efficient, standardized, and traceable detection. Although AI and computer vision offer new opportunities for automated colony analysis, existing datasets are often small, inconsistently collected, and lack sufficient strain diversity, limiting model generalization. Here, we publicly release a large, normalized colony image dataset covering 19 bacterial species and 151 strains from diverse sources, with 50 images per species to capture within-species phenotypic diversity. Images were collected on a closed background under stable lighting and uniform shooting angles following strict protocols, then systematically annotated and augmented to improve usability. In total, the dataset contains 118,442 colony instances, providing a robust foundation for training, evaluating, and applying AI models for automated detection.",
+      "authors": [
+        "Jia Du",
+        "Chun Yang",
+        "Miao Sun",
+        "Qi Sun",
+        "Miao Wang",
+        "Xufeng Ji",
+        "Kaifei Wang",
+        "Jiancheng Xu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41896581/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "large colony image dataset for automated detection and deep learning",
+      "llm_evidence_cn": "用于自动检测和深度学习的大规模菌落图像数据集",
+      "llm_evidence": "用于自动检测和深度学习的大规模菌落图像数据集",
+      "canonical_evidence": "用于自动检测和深度学习的大规模菌落图像数据集",
+      "llm_tldr_en": "Releases a large-scale bacterial colony image dataset to improve deep learning models for pathogen detection.",
+      "llm_tldr_cn": "发布大规模细菌菌落图像数据集，以改进用于病原体检测的深度学习模型。",
+      "llm_tldr": "发布大规模细菌菌落图像数据集，以改进用于病原体检测的深度学习模型。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "deep learning models for pathogen detection from sequencing data",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41896605",
+      "title": "Scaling and quantization of large-scale foundation model enables resource-efficient predictions in network biology.",
+      "abstract": "Foundation models for network biology are pretrained on large-scale biological data to enable context-aware predictions in a diverse array of downstream tasks through transfer learning. However, increasing model sizes with the expansion of available pretraining data also increases the computational resources required for fine-tuning and inference in downstream applications. Here we first assemble a corpus comprising ~104 million human single-cell transcriptomes from a broad range of tissues and diseases and pretrain successively larger models, defining the scaling laws for transcriptional masked learning. We then demonstrate that model quantization preserves the contextual gene and cell embedding space of the full-precision model, matching performance in zero-shot and fine-tuning applications while requiring only 15% of the time and 34% of the memory as the full model for fine-tuning with the same batch size. Overall, model quantization represents an effective method for resource-efficient fine-tuning and inference while preserving biological knowledge.",
+      "authors": [
+        "Han Chen",
+        "Madhavan S Venkatesh",
+        "Javier Gόmez Ortega",
+        "Siddharth V Mahesh",
+        "Tarak N Nandi",
+        "Ravi K Madduri",
+        "Karin Pelka",
+        "Christina V Theodoris"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41896605/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Foundation models for network biology and single-cell transcriptomes",
+      "llm_evidence_cn": "用于网络生物学和单细胞转录组的基础模型",
+      "llm_evidence": "用于网络生物学和单细胞转录组的基础模型",
+      "canonical_evidence": "用于网络生物学和单细胞转录组的基础模型",
+      "llm_tldr_en": "Explores scaling laws and quantization for large-scale foundation models in single-cell network biology.",
+      "llm_tldr_cn": "探讨了单细胞网络生物学大规模基础模型的缩放法则和量化技术。",
+      "llm_tldr": "探讨了单细胞网络生物学大规模基础模型的缩放法则和量化技术。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models for DNA RNA protein and cell biology",
+      "matched_requirement_id": "req-15",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41896911",
+      "title": "DeepISO: deep learning-powered prediction of protein-protein interaction rewiring generated by alternative splicing.",
+      "abstract": "Isoforms from the same gene can significantly rewire protein interaction networks, but proteome-wide computational evaluation of these effects remains challenging. In this work, we present DeepISO, a deep learning framework for predicting isoform-specific interactions. DeepISO integrates two graph convolutional neural networks and a random forest model via a logistic regression model. To the best of our knowledge, this is the first approach to jointly leverage AlphaFold-predicted structures and ESM2 language model embeddings for this task. Compared with state-of-the-art PPI prediction tools, DeepISO demonstrates superior performance.",
+      "authors": [
+        "Xiaokun Guo",
+        "Linyang Jiang",
+        "Jiajun Li",
+        "Mengdi Yuan",
+        "Dianke Li",
+        "Wenyu Shi",
+        "Ziding Zhang",
+        "Stefan Wuchty"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41896911/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "protein language models for structure and interaction prediction",
+      "llm_evidence_cn": "蛋白质语言模型用于结构和相互作用预测",
+      "llm_evidence": "蛋白质语言模型用于结构和相互作用预测",
+      "canonical_evidence": "蛋白质语言模型用于结构和相互作用预测",
+      "llm_tldr_en": "Integrates ESM2 language model and AlphaFold structures to predict isoform-specific protein-protein interactions.",
+      "llm_tldr_cn": "整合ESM2语言模型和AlphaFold结构来预测异构体特异性的蛋白质相互作用。",
+      "llm_tldr": "整合ESM2语言模型和AlphaFold结构来预测异构体特异性的蛋白质相互作用。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "protein language models for structure function prediction and design",
+      "matched_requirement_id": "req-16",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41896490",
+      "title": "A Segatella Copri-centered Gut Microbiota-mediated Metabolic Dysregulation Associated with Transition from Asymptomatic to Symptomatic Intracranial Atherosclerosis.",
+      "abstract": "The mechanisms underlying the continuum from asymptomatic intracranial atherosclerotic stenosis (aICAS) to symptomatic intracranial large-artery atherosclerotic ischemic stroke (iLAA-IS) remain unclear. We investigated the gut microbiota-metabolite axis in this transition to identify predictive biomarkers and clarify key functional pathways. In a case-control study (63 iLAA-IS cases; 56 aICAS controls), fecal shotgun metagenomics and untargeted plasma metabolomics were profiled. Using machine learning with 10-fold nested cross-validation, we identified five robust biomarkers associated with the transition: Alistipes putredinis (risk-associated) and four protective features (Segatella copri, Gln-Gly, Methionine Sulfoxide, and N6-Acetyl-L-Lysine). Integrated models incorporating these markers significantly improved predictive performance relative to conventional risk factors (e.g., mean AUC of Gln-Gly: 0.9104 vs. 0.7188). Mechanistic analyses revealed a Segatella copri-centered metabolic dysregulation: its depletion coincided with a broad loss of anabolic pathways (BCAA biosynthesis, folate-SAM-methionine metabolism, and tRNA charging), which were positively linked to amino acid-related metabolites. In contrast, the pathways of Alistipes putredinis showed no such coupling. These findings suggest that the aICAS-to-iLAA-IS transition is characterized by chronic metabolic dysregulation, involving a Segatella copri-centered microbiota-metabolite axis. This multi-omic signature offers novel insights into stroke pathogenesis and potential targets for prevention.",
+      "authors": [
+        "Manqi Zheng",
+        "Xiao Yang",
+        "Ruobing Tian",
+        "Xue Xia",
+        "Qin Xu",
+        "Ying Hui",
+        "Shuohua Chen",
+        "Yan Liu",
+        "Anxin Wang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-28",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41896490/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "machine learning for gut microbiota and infection outcome prediction",
+      "llm_evidence_cn": "机器学习用于肠道微生物群与感染结果预测",
+      "llm_evidence": "机器学习用于肠道微生物群与感染结果预测",
+      "canonical_evidence": "机器学习用于肠道微生物群与感染结果预测",
+      "llm_tldr_en": "Identifies gut microbiota biomarkers for disease transition using shotgun metagenomics and machine learning.",
+      "llm_tldr_cn": "利用散弹枪宏基因组学和机器学习识别疾病进展的肠道微生物群生物标志物。",
+      "llm_tldr": "利用散弹枪宏基因组学和机器学习识别疾病进展的肠道微生物群生物标志物。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "41896556",
+      "title": "Mining of food metagenomes reveals an unexplored diversity of dsDNA bacteriophages.",
+      "abstract": "Bacteriophages are key drivers of microbial ecology, co-existing and co-evolving with bacteria across diverse environments. Limitations in culturing, alongside advances in sequencing and bioinformatics, have driven the use of metagenomics to explore viral diversity. Viral-specific analysis of >3000 food metagenomes from cFMD produced the FVGC, comprising ~3400 metagenome-assembled viruses, most of which belong to novel Caudoviricetes lineages (n = 91), with only ~15% represented in IMG/VR v4. Together, these findings reveal extensive uncharacterized viral diversity in food systems. Beyond serving as a reference, the FVGC facilitates detailed investigation of virus-host interactions. Viral sequences were pervasive across microbial genomes, with several bacterial families exhibiting near-universal associations with viral elements. Bacterial antiviral defence systems were abundant and taxonomically diverse, dominated by restriction-modification systems, while CRISPR-Cas systems showed pronounced lineage-specific distributions; in contrast, viral anti-defence genes were detected at low frequency (<10% of MAVs). Host prediction linked MAVs to clinically relevant taxa, including expanded ESKAPE pathogens such as Klebsiella pneumoniae, Acinetobacter baumannii, Staphylococcus aureus, and Enterobacter spp., highlighting the ecological connectivity between food-associated viruses and clinically important bacteria. Antimicrobial resistance signals were scarce, suggesting minimal phage-mediated AMR dissemination in food environments. This new publicly available viral database represents a valuable resource for further exploration of viral diversity.",
+      "authors": [
+        "Liam H Walsh",
+        "Viyal Soni",
+        "Joseph Ancla",
+        "Vincent Somerville",
+        "Nicola Segata",
+        "Susan Joyce",
+        "Douwe van Sinderen",
+        "Jennifer Mahony",
+        "Andrey N Shkoporov",
+        "John G Kenny",
+        "Paul D Cotter",
+        "Orla O'Sullivan"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41896556/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "metagenome-assembled viruses and virus-host interactions",
+      "llm_evidence_cn": "宏基因组组装病毒与病毒-宿主相互作用",
+      "llm_evidence": "宏基因组组装病毒与病毒-宿主相互作用",
+      "canonical_evidence": "宏基因组组装病毒与病毒-宿主相互作用",
+      "llm_tldr_en": "Analyzed food metagenomes to identify novel bacteriophages and investigate their interactions with microbial hosts.",
+      "llm_tldr_cn": "分析食品宏基因组以鉴定新型噬菌体并研究其与微生物宿主的相互作用。",
+      "llm_tldr": "分析食品宏基因组以鉴定新型噬菌体并研究其与微生物宿主的相互作用。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41894385",
+      "title": "Artificial Intelligence and Multiomics Beyond PSA Screening in African and Middle Eastern Prostate Cancer Patients.",
+      "abstract": "Prostate cancer (PCa) remains a major global health burden, with incidence rising as populations age. The molecular, histological, and patient-specific heterogeneity of PCa underscores the urgent need for advanced strategies to improve detection and risk stratification. This review highlights how multiomics integration, including transcriptomics, DNA methylation, proteomics, and metabolomics, combined with artificial intelligence (AI), can validate biological mechanisms across molecular layers, thereby enhancing diagnostic reliability and biological relevance. While prostate-specific antigen (PSA) testing has significantly shaped PCa epidemiology, its limited specificity and sensitivity have led to widespread overdiagnosis and overtreatment, particularly of indolent tumors. These limitations are especially pronounced in underrepresented populations, notably men of African descent and those in the Middle East and North Africa (MENA) region, where PSA-based screening demonstrates reduced effectiveness. Despite advances in biomarker discovery, current datasets lack sufficient ethnic and regional diversity, raising concerns about the clinical validity and equity of AI-driven models. We argue that equitable precision oncology requires not only technological innovation but also the development of inclusive, demographically representative datasets. This review offers a forward-looking perspective on advancing PCa screening and stratification beyond PSA, with a particular emphasis on addressing the unmet clinical needs of African and Middle Eastern patients.",
+      "authors": [
+        "Rula Al-Shahrabi",
+        "Omer S Alkhnbashi",
+        "Rauda S B Almarri",
+        "Sarfraz Ahmad",
+        "Nelson C Soares",
+        "Zainab Al Shareef"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41894385/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "AI and multiomics integration for cancer",
+      "llm_evidence_cn": "人工智能与多组学整合用于癌症研究",
+      "llm_evidence": "人工智能与多组学整合用于癌症研究",
+      "canonical_evidence": "人工智能与多组学整合用于癌症研究",
+      "llm_tldr_en": "Reviews how AI and multiomics integration improves diagnostic reliability and risk stratification in prostate cancer.",
+      "llm_tldr_cn": "综述了人工智能与多组学整合如何提高前列腺癌的诊断可靠性和风险分层。",
+      "llm_tldr": "综述了人工智能与多组学整合如何提高前列腺癌的诊断可靠性和风险分层。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41896632",
+      "title": "Dynamic gut responses to sepsis uncovered by multi-omics profiling in a rodent model.",
+      "abstract": "Sepsis reflects an immune dysregulation in response to infection, and the intestine functions as the largest immune organ in the human body. However, the multidimensional dynamic changes within the gut environment during the progression of sepsis remain incompletely understood. Here, we show the alterations in the gut over the course of pneumonia-induced sepsis through the analysis of cellular, microbial, metabolic, and protein profiles over time. We demonstrate that subsets of immune cells, including mononuclear phagocytes and T cells, undergo compositional and transcriptional shifts. Simultaneously, specific structural cells and mucus-producing cells exhibit adapted roles in antigen presentation and the regulation of intestinal homeostasis. Furthermore, we detail alterations in the gut microbiome composition, metabolite levels, and colonic protein expression, identifying shared fluctuation patterns across these biological dimensions. These findings outline the interactions among the gut microbiome, cellular activity, and immune responses, providing potential therapeutic targets for future sepsis management.",
+      "authors": [
+        "Jingchao Lei",
+        "Jing Qi",
+        "Jia Zhai",
+        "Ziying Chen",
+        "Nanyi Li",
+        "Yao Zhang",
+        "Yishu Yuan",
+        "Chuanzheng Sun"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41896632/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "multi-omics profiling of gut response to infection",
+      "llm_evidence_cn": "感染后肠道反应的多组学分析",
+      "llm_evidence": "感染后肠道反应的多组学分析",
+      "canonical_evidence": "感染后肠道反应的多组学分析",
+      "llm_tldr_en": "Uses multi-omics to characterize dynamic changes in the gut environment during pneumonia-induced sepsis.",
+      "llm_tldr_cn": "利用多组学技术表征肺炎诱导的脓毒症期间肠道环境的动态变化。",
+      "llm_tldr": "利用多组学技术表征肺炎诱导的脓毒症期间肠道环境的动态变化。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41897006",
+      "title": "Trivalent multi-epitope mRNA vaccine against norovirus, rotavirus, and adenovirus 40/41: epitope screening, molecular docking, and molecular dynamics simulation with in silico validation guided by immunoinformatics.",
+      "abstract": "BACKGROUND: Diarrheal diseases constitute a major global public health threat, particularly endangering young children, the elderly, and immunocompromised individuals. Three key pathogens-norovirus, rotavirus, and adenovirus 40/41-can induce dehydration, electrolyte imbalances, and severe complications, resulting in tens of thousands of deaths annually. Conventional vaccines have inherent limitations, including relatively long development cycles and high production costs. With the deep integration of bioinformatics and immunology, immunoinformatic techniques driven by high-throughput analysis enable reliable prediction of key epitope properties such as immunogenicity and antigenicity, offering an efficient approach for multivalent vaccine development. This study aims to develop a trivalent multi-epitope mRNA vaccine targeting these three pathogens using immunoinformatic methods, providing a potential innovative strategy for the prevention and control of diarrheal diseases. METHODS: The amino acid sequences corresponding to the target viral proteins were obtained from the NCBI Virus Database. Epitopes were screened and selected based on key properties including high antigenicity, non-allergenicity, and non-toxicity. Appropriate adjuvant components, along with the chosen T-lymphocyte and B-lymphocyte epitopes, were assembled using linker molecules to computationally construct the vaccine. Structural and related features of the computationally designed vaccine were analyzed using online tools. Molecular docking assays, in conjunction with molecular dynamics simulations, were performed to clarify the interaction modes and structural stability characteristics of ligand-receptor binding. mRNA sequences of the vaccine were designed through codon optimization, and their immunogenicity was ultimately assessed using immune simulations. RESULTS: A total of 16 cytotoxic T-cell epitopes, 5 helper T-cell epitopes, and 17 linear B-cell epitopes were selected to construct the vaccine. After evaluating immunological and physicochemical properties, molecular docking and molecular dynamics simulations were performed, suggesting favorable structural stability and plausible interactions with immune receptors. CONCLUSIONS: The computationally designed vaccine in this study was predicted to exhibit favorable structural stability, potential immune activation capability, and promising broad population coverage, providing preliminary insights for the development of vaccines against multiple viral co-infections; however, its immunogenicity and safety remain to be further validated through animal model experiments.",
+      "authors": [
+        "Xu Wu",
+        "Yizhong Xu",
+        "Rongliu Qin",
+        "Yuying Luo",
+        "Yanqun Hou",
+        "Ziyou Zhou",
+        "Ruping Qu",
+        "Shiyang Ma",
+        "Jie Chen",
+        "Fei Zhu",
+        "Pinhua Pan"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41897006/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "immunoinformatics for vaccine design against viral pathogens",
+      "llm_evidence_cn": "针对病毒病原体的疫苗设计免疫信息学",
+      "llm_evidence": "针对病毒病原体的疫苗设计免疫信息学",
+      "canonical_evidence": "针对病毒病原体的疫苗设计免疫信息学",
+      "llm_tldr_en": "Uses immunoinformatics and molecular docking to design a trivalent mRNA vaccine against three major enteric pathogens.",
+      "llm_tldr_cn": "利用免疫信息学和分子对接技术设计针对三种主要肠道病原体的三价mRNA疫苗。",
+      "llm_tldr": "利用免疫信息学和分子对接技术设计针对三种主要肠道病原体的三价mRNA疫苗。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}
