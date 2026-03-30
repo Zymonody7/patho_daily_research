@@ -1,0 +1,22 @@
+---
+title: Shotgun metagenome sequencing and informatics can accurately form a metagenome-assembled genome (MAG) of the bacterial tier 1 select agent
+title_zh: 鸟枪法宏基因组测序与信息学分析能够准确构建一级生物选择性病原菌的宏基因组组装基因组 (MAG)
+authors: "Gregory A Sprenger, Jay E Gee, Mindy G Elrod, Zachary P Weiner, Christopher A Gulvik"
+date: 2026-03-30
+pdf: "https://pubmed.ncbi.nlm.nih.gov/41910375/"
+tags: ["query:seqai"]
+score: 8.0
+evidence: 用于病原体鉴定的宏基因组组装基因组 (MAG) 分箱和信息学方法
+tldr: "针对2021年美国香薰喷雾导致的类鼻疽疫情，研究探讨了在存在多种近缘物种的复杂微生物群落中，如何准确提取高致病性类鼻疽伯克霍尔德氏菌（B. pseudomallei）的基因组。通过使用nf-core/mag流程进行宏基因组组装（MAG），并结合严格的重叠群质量过滤，成功获得了与分离株相似度达99.9%的基因组。该方法证明了宏基因组技术在无需培养的情况下，也能实现病原体溯源和生物威胁监测。"
+selection_source: fresh_fetch
+motivation: 在包含多种近缘干扰菌株的复杂样本中，验证宏基因组组装技术（MAG）能否准确还原高致病性病原体的基因组以用于疫情溯源。
+method: 利用nf-core/mag自动化流程对受污染香薰喷雾进行鸟枪法宏基因组测序，并通过重叠群（contig）比对剔除潜在的近缘物种污染。
+result: "成功构建了类鼻疽伯克霍尔德氏菌的MAG，其与临床分离株的平均核苷酸一致性（ANI）高达99.9%，并准确锁定了病原体源自南亚。"
+conclusion: 宏基因组组装技术在处理复杂环境样本时具有极高的分辨率，可作为公共卫生监测和生物威胁快速预警的有效工具。
+---
+
+## 摘要
+当每个分类单元具有足够的读取深度时，鸟枪法宏基因组学能够直接从微生物群落中获取宏基因组组装基因组 (MAG)。2021年，一种被类鼻疽伯克霍尔德氏菌 (Burkholderia pseudomallei) 污染的香薰喷雾在美国引发了类鼻疽疫情。宏基因组组装基因组分箱 (binning) 部分取决于不同的核苷酸组成，而受污染的香薰喷雾中含有其他细菌，包括相关物种（例如：洋葱伯克霍尔德氏菌、新洋葱伯克霍尔德氏菌、多变伯克霍尔德氏菌、拟多变伯克霍尔德氏菌、少动贪铜菌和铜绿假单胞菌，它们与类鼻疽伯克霍尔德氏菌的平均核苷酸一致性 (ANI) 分别为 84.2%、84.4%、84.7%、84.8%、75.7% 和 72.3%，平均氨基酸一致性 (AAI) 分别为 79.5%、79.8%、80.5%、80.4%、62.5% 和 52.9%）。我们对受污染的香薰喷雾进行了宏基因组测序，以确定公共宏基因组流程 (https://github.com/nf-core/mag) 是否能构建类鼻疽伯克霍尔德氏菌的 MAG。流程完成后，重叠群 (contig) 间和内部的比较显示出极少数来自相关分类单元的潜在污染物。保守地移除这些重叠群具有重要价值，最终使类鼻疽伯克霍尔德氏菌 MAG 与从香薰喷雾中分离出的菌株基因组之间的 ANI 达到 99.9%。这强调了对恢复的 MAG 进行质量检查（例如检查同属嵌合体）对于疫情病原基因组学等高分辨率目标的重要性。重要的是，我们的分析表明，利用类鼻疽伯克霍尔德氏菌 MAG 可以得出与相应分离株基因组完全一致的结论，即香薰喷雾中的类鼻疽伯克霍尔德氏菌起源于南亚（特别是印度）。由于基于读取片段 (k-mer) 的快速分类方法经常报告假阳性，该操作框架对于公共卫生监测中的快速生物威胁雷达检测系统可能具有重要价值。重要性：2021年，一种进口香薰喷雾因受类鼻疽伯克霍尔德氏菌污染而在美国引发了类鼻疽疫情。利用鸟枪法宏基因组学，尽管存在其他相关微生物，我们仍直接从产品中重建了该病原体近乎完整的基因组。组装后的基因组与培养的分离株显示出 99.9% 的相似性。这项工作证明了宏基因组学可以从复杂样本中恢复高质量的病原体基因组，从而支持疫情调查并加强公共卫生监测。
+
+## Abstract
+Shotgun metagenomics, when sufficient read depth exists for each taxon, enables capturing metagenome-assembled genomes (MAGs) directly from a microbial community. In 2021, an aromatherapy spray contaminated with Burkholderia pseudomallei caused an outbreak of melioidosis in the United States. Metagenome-assembled genome binning depends in part on different nucleotide compositions, and the contaminated aromatherapy spray contained other bacteria, including related species (e.g., Burkholderia cepacia, Burkholderia cenocepacia, Burkholderia multivorans, Burkholderia pseudomultivorans, Cupriavidus pauculus, and Pseudomonas aeruginosa with average nucleotide identity (ANI) to B. pseudomallei being 84.2%, 84.4%, 84.7%, 84.8%, 75.7%, and 72.3%, respectively, and AAI being 79.5%, 79.8%, 80.5%, 80.4%, 62.5%, and 52.9%, respectively). We performed metagenomic sequencing on the contaminated aromatherapy spray to determine if a public metagenomic pipeline (https://github.com/nf-core/mag) can form a MAG of B. pseudomallei. Upon completion of the pipeline, inter- and intracontig comparisons revealed few potential contaminants of related taxa. Conservative removal of those contigs was especially valuable, ultimately obtaining an ANI of 99.9% between the B. pseudomallei MAG and the genome of an isolate from the aromatherapy spray. This underscores the importance of quality checking recovered MAGs (e.g., for congeneric chimerism) for high-resolution objectives such as outbreak pathogenomics. Importantly, our analysis revealed that the identical conclusion was made possible with the B. pseudomallei MAG (as with its corresponding isolate genome), which was that the aromatherapy B. pseudomallei originated from South Asia (specifically India). Because rapid read-based (k-mer) taxonomic classification methods often report false positives, this operational framework could be valuable for rapid biothreat radar detection systems in public health surveillance.IMPORTANCEIn 2021, an imported aromatherapy spray caused a U.S. outbreak of melioidosis after contamination with Burkholderia pseudomallei. Using shotgun metagenomics, we reconstructed a near-complete genome of the pathogen directly from the product, despite the presence of other related microbes. The assembled genome showed 99.9% similarity to a cultured isolate. This work demonstrates that metagenomics can recover high-quality pathogen genomes from complex samples, supporting outbreak investigations and enhancing public health surveillance.

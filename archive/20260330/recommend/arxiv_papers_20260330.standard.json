@@ -1,0 +1,199 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-03-30T19:38:21.921416+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 3,
+    "deep_cap": 9,
+    "deep_selected": 3,
+    "quick_candidates": 1,
+    "quick_skim_target": 14,
+    "quick_selected": 1
+  },
+  "deep_dive": [
+    {
+      "id": "41821670",
+      "title": "Strategies to Improve Detection of Novel Pandemic Pathogens: Cost Versus Detection Performance for Promising Pathogen-Agnostic Detection Workflows.",
+      "abstract": "This RAND analysis compares three pathogen-agnostic biosurveillance strategies-syndromic, wearable, and environmental-using modeling to assess cost versus detection performance. Environmental sampling detected outbreaks fastest, followed by wearable sensors, although both lost advantage with highly transmissible or symptomatic diseases. Limited pilot deployments could refine real-world costs and validate early-warning performance.",
+      "authors": [
+        "Demarsh A, de Lima PN, Nelson C, Aguilera JR, Duarte N, Nevo S, Willis HH.",
+        "Alex Demarsh",
+        "Pedro Nascimento de Lima",
+        "Cassidy Nelson",
+        "Javier Rojas Aguilera",
+        "Nathan Duarte",
+        "Sella Nevo",
+        "Henry H Willis"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-30",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41821670/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "modeling biosurveillance strategies for pandemic pathogens",
+      "llm_evidence_cn": "大流行病原体生物监测策略建模",
+      "llm_evidence": "大流行病原体生物监测策略建模",
+      "canonical_evidence": "大流行病原体生物监测策略建模",
+      "llm_tldr_en": "Compares cost and performance of pathogen-agnostic biosurveillance strategies for outbreak detection.",
+      "llm_tldr_cn": "比较了用于爆发检测的病原体不可知生物监测策略的成本和性能。",
+      "llm_tldr": "比较了用于爆发检测的病原体不可知生物监测策略的成本和性能。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI methods for genomic surveillance and outbreak monitoring",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41910375",
+      "title": "Shotgun metagenome sequencing and informatics can accurately form a metagenome-assembled genome (MAG) of the bacterial tier 1 select agent",
+      "abstract": "Shotgun metagenomics, when sufficient read depth exists for each taxon, enables capturing metagenome-assembled genomes (MAGs) directly from a microbial community. In 2021, an aromatherapy spray contaminated with Burkholderia pseudomallei caused an outbreak of melioidosis in the United States. Metagenome-assembled genome binning depends in part on different nucleotide compositions, and the contaminated aromatherapy spray contained other bacteria, including related species (e.g., Burkholderia cepacia, Burkholderia cenocepacia, Burkholderia multivorans, Burkholderia pseudomultivorans, Cupriavidus pauculus, and Pseudomonas aeruginosa with average nucleotide identity (ANI) to B. pseudomallei being 84.2%, 84.4%, 84.7%, 84.8%, 75.7%, and 72.3%, respectively, and AAI being 79.5%, 79.8%, 80.5%, 80.4%, 62.5%, and 52.9%, respectively). We performed metagenomic sequencing on the contaminated aromatherapy spray to determine if a public metagenomic pipeline (https://github.com/nf-core/mag) can form a MAG of B. pseudomallei. Upon completion of the pipeline, inter- and intracontig comparisons revealed few potential contaminants of related taxa. Conservative removal of those contigs was especially valuable, ultimately obtaining an ANI of 99.9% between the B. pseudomallei MAG and the genome of an isolate from the aromatherapy spray. This underscores the importance of quality checking recovered MAGs (e.g., for congeneric chimerism) for high-resolution objectives such as outbreak pathogenomics. Importantly, our analysis revealed that the identical conclusion was made possible with the B. pseudomallei MAG (as with its corresponding isolate genome), which was that the aromatherapy B. pseudomallei originated from South Asia (specifically India). Because rapid read-based (k-mer) taxonomic classification methods often report false positives, this operational framework could be valuable for rapid biothreat radar detection systems in public health surveillance.IMPORTANCEIn 2021, an imported aromatherapy spray caused a U.S. outbreak of melioidosis after contamination with Burkholderia pseudomallei. Using shotgun metagenomics, we reconstructed a near-complete genome of the pathogen directly from the product, despite the presence of other related microbes. The assembled genome showed 99.9% similarity to a cultured isolate. This work demonstrates that metagenomics can recover high-quality pathogen genomes from complex samples, supporting outbreak investigations and enhancing public health surveillance.",
+      "authors": [
+        "Gregory A Sprenger",
+        "Jay E Gee",
+        "Mindy G Elrod",
+        "Zachary P Weiner",
+        "Christopher A Gulvik"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-30",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41910375/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Metagenome-assembled genome (MAG) binning and informatics for pathogen identification",
+      "llm_evidence_cn": "用于病原体鉴定的宏基因组组装基因组 (MAG) 分箱和信息学方法",
+      "llm_evidence": "用于病原体鉴定的宏基因组组装基因组 (MAG) 分箱和信息学方法",
+      "canonical_evidence": "用于病原体鉴定的宏基因组组装基因组 (MAG) 分箱和信息学方法",
+      "llm_tldr_en": "Demonstrates accurate MAG formation of Burkholderia pseudomallei from shotgun metagenomic sequencing data.",
+      "llm_tldr_cn": "证明了利用鸟枪法宏基因组测序数据可以准确构建类鼻疽伯克霍尔霍德氏菌的宏基因组组装基因组。",
+      "llm_tldr": "证明了利用鸟枪法宏基因组测序数据可以准确构建类鼻疽伯克霍尔霍德氏菌的宏基因组组装基因组。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41910445",
+      "title": "Convolutional Neural Network-Assisted Ultrasensitive Immunochromatographic Strips of",
+      "abstract": "The development of a signal probe that simultaneously possesses high luminescence and superior nano-biointerfacial affinity remains challenging for advancing immunochromatographic assay (ICA) strips to detect foodborne pathogens. Herein, we propose convolutional neural network-assisted ICA strips to detect Salmonella typhimurium in various agri-foods through anchoring aggregation-induced emission luminogens, ETT, into aminophenol-formaldehyde resin nanobowls (AFRNBs) via Schiff-base chemistry, yielding high-performance fluorescent AFRNBs/ETT with enhanced nano-biointerfacial affinity. The rigid nanobowl effectively restricts the intramolecular motion of ETT, bringing a markedly enhanced quantum yield and a prolonged fluorescence lifetime. Concurrently, the abundant groups on the AFRNBs surface enable entropy-driven efficient conjugation with antibodies, endowing AFRNBs/ETT with exceptional nano-biointerfacial affinity. Therefore, the developed AFRNBs/ETT-based ICA strips for detecting Salmonella typhimurium demonstrate good analytical performance, with a detection limit of 78 CFU mL-1, alongside high specificity, stability, reproducibility, and feasibility in various agri-foods. The convolutional neural network model further enables automated and objective readout, boosting detection reliability.",
+      "authors": [
+        "Yuechun Li",
+        "Shaojun Luo",
+        "Zhaowen Cui",
+        "Longhua Shi",
+        "Chenxin Ji",
+        "Yiyue Ma",
+        "Yuanyuan Cheng",
+        "Guo Hao",
+        "Jing Sun",
+        "Yanwei Ji",
+        "Jianlong Wang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-30",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41910445/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "CNN-assisted detection of foodborne pathogens like Salmonella typhimurium",
+      "llm_evidence_cn": "卷积神经网络辅助检测鼠伤寒沙门氏菌等食源性病原体",
+      "llm_evidence": "卷积神经网络辅助检测鼠伤寒沙门氏菌等食源性病原体",
+      "canonical_evidence": "卷积神经网络辅助检测鼠伤寒沙门氏菌等食源性病原体",
+      "llm_tldr_en": "Proposes a CNN-assisted immunochromatographic assay for ultrasensitive detection of Salmonella in agri-foods.",
+      "llm_tldr_cn": "提出了一种利用卷积神经网络辅助的免疫层析试纸条，用于超灵敏检测农产品中的鼠伤寒沙门氏菌。",
+      "llm_tldr": "提出了一种利用卷积神经网络辅助的免疫层析试纸条，用于超灵敏检测农产品中的鼠伤寒沙门氏菌。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "deep learning models for pathogen detection from sequencing data",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "41904966",
+      "title": "Effect of the microbiome on pathogen susceptibility across four Drosophilidae species.",
+      "abstract": "Microbiome have been shown to play an important role in host susceptibility to infections in some hosts. However, less is known about whether microbiota-mediated effects are consistent across host species, as our understanding of such interactions may be affected by publication bias. Following on from a large study of 36 species of Drosophilidae challenged with four bacterial pathogens, we identified two candidate host species that might have protective microbiomes based on low susceptibility and high abundance of culturable microbiota; we selected two other host species for comparison. We tested whether germ-reduced flies, and flies with natural or re-constituted microbiomes varied in their susceptibility to systemic infection with two bacterial pathogens (Providencia rettgeri and Staphylococcus aureus) and one viral pathogen (Drosophila C Virus). The composition and abundance of the bacterial microbiota varied between host species and microbiome treatments. We found an overall interaction between host species and pathogen type, confirming previous work that host species vary in their susceptibility in a pathogen specific manner. Similarly, we found that microbiome treatments had differing effects on host survival among host species, although some effect sizes tended to be small. In D. putrida individuals with manipulated microbiomes showed increased susceptibility to all pathogens tested; in other hosts altered susceptibility was pathogen dependent. While there are always challenges to manipulating microbiomes, especially across multiple host species, our results indicate that host microbiota play limited roles on survival in systemic infection in these four species. This work demonstrates that caution is required when generalizing about potential beneficial impact of microbiomes.",
+      "authors": [
+        "Sun H, Longdon B, Raymond B.",
+        "Hongbo Sun",
+        "Ben Longdon",
+        "Ben Raymond"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-29",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41904966/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "microbiome effect on pathogen susceptibility",
+      "llm_evidence_cn": "微生物组对病原体易感性的影响",
+      "llm_evidence": "微生物组对病原体易感性的影响",
+      "canonical_evidence": "微生物组对病原体易感性的影响",
+      "llm_tldr_en": "Investigates how the microbiome influences host susceptibility to bacterial pathogens across Drosophila species.",
+      "llm_tldr_cn": "研究微生物组如何影响果蝇物种对细菌病原体的宿主易感性。",
+      "llm_tldr": "研究微生物组如何影响果蝇物种对细菌病原体的宿主易感性。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

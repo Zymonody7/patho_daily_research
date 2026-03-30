@@ -1,10 +1,22 @@
 # 知识库
 
-- 最近沉淀条目数：252
+- 最近沉淀条目数：256
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Strategies to Improve Detection of Novel Pandemic Pathogens: Cost Versus Detection Performance for Promising Pathogen-Agnostic Detection Workflows.](#/202603/30/202603/30/41821670-strategies-to-improve-detection-of-novel-pandemic-pathogens-cost-versus-detection-performance-for-promising-pathogen-agnostic-detection-workflows)
+  - TLDR：针对新型大流行病原体识别延迟的问题，本研究通过建模对比了综合征监测、可穿戴设备和环境采样三种“病原体无关”的生物监测策略。结果显示，环境采样在预警速度上表现最优，可穿戴设备次之，但在高传染性疾病中优势会减弱。该研究为公共卫生部门在成本与检测效能之间进行权衡提供了量化依据。
+  - Tags：`query:pathoai`
+- [Shotgun metagenome sequencing and informatics can accurately form a metagenome-assembled genome (MAG) of the bacterial tier 1 select agent](#/202603/30/202603/30/41910375-shotgun-metagenome-sequencing-and-informatics-can-accurately-form-a-metagenome-assembled-genome-mag-of-the-bacterial-tier-1-select-agent)
+  - TLDR：针对2021年美国香薰喷雾导致的类鼻疽疫情，研究探讨了在存在多种近缘物种的复杂微生物群落中，如何准确提取高致病性类鼻疽伯克霍尔德氏菌（B. pseudomallei）的基因组。通过使用nf-core/mag流程进行宏基因组组装（MAG），并结合严格的重叠群质量过滤，成功获得了与分离株相似度达99.9%的基因组。该方法证明了宏基因组技术在无需培养的情况下，也能实现病原体溯源和生物威胁监测。
+  - Tags：`query:seqai`
+- [Convolutional Neural Network-Assisted Ultrasensitive Immunochromatographic Strips of](#/202603/30/202603/30/41910445-convolutional-neural-network-assisted-ultrasensitive-immunochromatographic-strips-of)
+  - TLDR：针对食品致病菌检测中信号探针发光强度与生物亲和力难以兼顾的问题，本研究开发了一种结合卷积神经网络（CNN）的超灵敏免疫层析试纸。通过将聚集诱导发光分子（ETT）嵌入氨基苯酚甲醛树脂纳米碗（AFRNBs）中，显著提升了荧光效率和抗体结合能力。该系统实现了对鼠伤寒沙门氏菌的高灵敏度检测（78 CFU/mL），并利用CNN模型实现了自动化、客观的结果判读，提升了检测的可靠性与效率。
+  - Tags：`query:pathoai`
+- [Effect of the microbiome on pathogen susceptibility across four Drosophilidae species.](#/202603/30/202603/30/41904966-effect-of-the-microbiome-on-pathogen-susceptibility-across-four-drosophilidae-species)
+  - TLDR：本研究探讨了微生物组对宿主抗病性的影响是否在不同物种间具有普适性。研究者选取了四种果蝇属物种，通过构建无菌、自然及重组微生物组模型，测试其对两种细菌和一种病毒系统性感染的抵抗力。结果表明，微生物组对存活率的影响在不同宿主和病原体组合中表现不一，且整体效应较小。这一发现挑战了微生物组普遍具有显著免疫保护作用的观点，提醒研究者在推广其益生功能时需保持谨慎。
+  - Tags：`query:pathoai`
 - [Physics-constrained neural ordinary differential equation models to discover and predict microbial community dynamics.](#/202603/28/202603/28/41894324-physics-constrained-neural-ordinary-differential-equation-models-to-discover-and-predict-microbial-community-dynamics)
   - TLDR：微生物群落的动态受代谢物竞争和互补驱动，但传统机理模型过于僵化，而纯机器学习模型又缺乏可解释性且易过拟合。本研究提出了“神经物种中介者（NSM）”模型，将描述代谢物动态的机理方程与神经网络相结合，构建物理约束的神经常微分方程。实验证明，NSM 在体外数据集上的预测性能优于单一模型，并能揭示潜在的生物相互作用，为理解和控制微生物群落提供了兼具灵活性与可解释性的新工具。
   - Tags：`query:pathoai`
@@ -593,15 +605,3 @@
 - [Multimodal Alignment Improves Generalizability of Genomic Biomarker Prediction in Computational Pathology](#/202603/07/202603/07/2603.00193v1-multimodal-alignment-improves-generalizability-of-genomic-biomarker-prediction-in-computational-pathology)
   - TLDR：针对计算病理学中预测基因生物标志物需大量标注数据且泛化性差的问题，本文提出 MARBLE 预训练策略。该方法通过对比学习将病理图像特征与大语言模型（LLM）及蛋白质语言模型（PLM）生成的生物标志物知识进行对齐。实验证明，这种生物学信息对齐显著提升了模型在少量数据下对新标志物的预测能力，为精准医疗提供了更高效的工具。
   - Tags：`query:bioinfo`
-- [Contextual Invertible World Models: A Neuro-Symbolic Agentic Framework for Colorectal Cancer Drug Response](#/202603/07/202603/07/2603.02274v1-contextual-invertible-world-models-a-neuro-symbolic-agentic-framework-for-colorectal-cancer-drug-response)
-  - TLDR：针对结直肠癌药物反应预测中样本稀疏且模型黑盒的问题，该研究提出一种神经符号智能体框架。该框架结合了定量机器学习世界模型与大语言模型推理层，通过显式建模临床背景（如MSI状态）并引入逆向推理技术，实现了对基因编辑后药物敏感性变化的预测。实验在GDSC数据集上达到0.504的相关性，并经临床数据验证，为可解释的精准医疗提供了生物学依据。
-  - Tags：`query:agent`
-- [Learning graph topology from metapopulation epidemic encoder-decoder](#/202603/07/202603/07/2603.02349v1-learning-graph-topology-from-metapopulation-epidemic-encoder-decoder)
-  - TLDR：针对流行病传播中难以同时推断传播参数和流动网络的问题，本研究提出两种编码器-解码器架构，直接从疫情时间序列中学习图拓扑。该方法在未知参数时仍能有效推断，实验显示其性能优于现有技术，且多病原体数据可显著提升精度，为疾病传播建模提供了鲁棒的联合推断框架。
-  - Tags：`query:pathoai`
-- [Count Bridges enable Modeling and Deconvolving Transcriptomic Data](#/202603/07/202603/07/2603.04730v1-count-bridges-enable-modeling-and-deconvolving-transcriptomic-data)
-  - TLDR：针对生物转录组数据中常见的整数计数特性以及多细胞聚合导致的低分辨率问题，本文提出 Count Bridges 框架。该方法在整数空间构建随机桥过程，实现了类似扩散模型的生成建模，并结合 EM 算法处理聚合观测。实验证明该方法在整数分布匹配上达到 SOTA，并能有效完成 Bulk RNA-seq 反卷积和空间转录组单细胞分辨率还原任务，为生物计数数据建模提供了新工具。
-  - Tags：`query:seqai`
-- [DARE: Aligning LLM Agents with the R Statistical Ecosystem via Distribution-Aware Retrieval](#/202603/07/202603/07/2603.04743v1-dare-aligning-llm-agents-with-the-r-statistical-ecosystem-via-distribution-aware-retrieval)
-  - TLDR：针对 LLM 智能体在处理 R 语言统计任务时因缺乏专业知识和工具检索不准导致的效果不佳问题，本文提出了 DARE 检索模型。该模型通过融合数据分布特征与函数元数据，显著提升了 R 包检索的准确性。配合构建的 RPKB 知识库和 RCodingAgent 智能体，在统计分析任务中取得了优于现有开源模型的效果，有效弥合了 LLM 与成熟 R 统计生态之间的鸿沟。
-  - Tags：`query:agent`

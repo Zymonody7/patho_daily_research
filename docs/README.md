@@ -11,22 +11,34 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-03-29
-- 运行时间：2026-03-29 19:24:46 UTC
+- 最新运行日期：2026-03-30
+- 运行时间：2026-03-30 19:39:39 UTC
 - 运行状态：成功
-- 本次总论文数：0
-- 精读区：0
-- 速读区：0
+- 本次总论文数：4
+- 精读区：3
+- 速读区：1
 
 ### 今日简报（AI）
-> 今日无新推荐，系统未产出可展示论文。
-- 详情：[/202603/29/README](/202603/29/README)
+今日聚焦病原体检测前沿，深入评估了宏基因组测序在识别新型大流行威胁中的成本效益与技术精度。
+研究证实宏基因组组装技术可精准识别一级生物威胁制剂，并揭示了微生物组对宿主抗病性的显著影响。
+建议关注生物安全预警技术的优化，了解如何通过科学测序策略提升应对未来疫情的防御能力。
+- 详情：[/202603/30/README](/202603/30/README)
 
 ### 精读区论文标签
-- 本次无精读推荐。
+1. [Strategies to Improve Detection of Novel Pandemic Pathogens: Cost Versus Detection Performance for Promising Pathogen-Agnostic Detection Workflows.](/202603/30/41821670-strategies-to-improve-detection-of-novel-pandemic-pathogens-cost-versus-detection-performance-for-promising-pathogen-agnostic-detection-workflows)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：大流行病原体生物监测策略建模
+2. [Shotgun metagenome sequencing and informatics can accurately form a metagenome-assembled genome (MAG) of the bacterial tier 1 select agent](/202603/30/41910375-shotgun-metagenome-sequencing-and-informatics-can-accurately-form-a-metagenome-assembled-genome-mag-of-the-bacterial-tier-1-select-agent)  
+   标签：评分：8.0/10、query:seqai
+   evidence：用于病原体鉴定的宏基因组组装基因组 (MAG) 分箱和信息学方法
+3. [Convolutional Neural Network-Assisted Ultrasensitive Immunochromatographic Strips of](/202603/30/41910445-convolutional-neural-network-assisted-ultrasensitive-immunochromatographic-strips-of)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：卷积神经网络辅助检测鼠伤寒沙门氏菌等食源性病原体
 
 ### 速读区论文标签
-- 本次无速读推荐。
+1. [Effect of the microbiome on pathogen susceptibility across four Drosophilidae species.](/202603/30/41904966-effect-of-the-microbiome-on-pathogen-susceptibility-across-four-drosophilidae-species)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：微生物组对病原体易感性的影响
 
 
 <div class="dpr-home-promo-card">
