@@ -1,0 +1,22 @@
+---
+title: Differential assembly and functional roles of bacterial communities in coniferous and mixed conifer-broadleaf forest soils.
+title_zh: 针叶林与针阔混交林土壤细菌群落的差异化构建及其功能作用
+authors: "Dexing Chen, Ziyang Zhang, Shunfen Wang, Wenhui Li, Yimin He, Wenyu Zhang, Weiwei Sun, Mingjiu Chen, Shuangquan Zou, Xin Qian"
+date: 2026-03-31
+pdf: "https://pubmed.ncbi.nlm.nih.gov/41789917/"
+tags: ["query:seqai"]
+score: 7.0
+evidence: 土壤细菌群落的宏基因组鸟枪法测序
+tldr: 针对针叶林与针阔混交林土壤细菌群落差异不明的问题，本研究结合16S rRNA扩增子与宏基因组测序，对比分析了两类森林中高丰度与稀有类群的结构、演替机制及功能。结果发现混交林更有利于碳降解与固氮，而针叶林侧重抗逆；群落构建受随机过程主导。研究强调了保护混交林对维持土壤微生物功能多样性的重要性。
+selection_source: fresh_fetch
+motivation: 探究针叶林与针阔混交林对土壤中高丰度及稀有细菌类群分布、演替机制及生态功能的差异化影响。
+method: 整合16S rRNA基因扩增子测序与宏基因组鸟枪法测序技术，对两种森林类型的土壤样本进行群落结构、共发生网络及功能潜力对比分析。
+result: 发现高丰度类群受pH和有机质驱动，而稀有类群受磷钾含量影响，且混交林在碳氮循环功能上表现出明显优势。
+conclusion: 森林土壤细菌群落构建主要由随机过程驱动，保护针阔混交林对于提升土壤健康和生态系统功能多样性具有关键作用。
+---
+
+## 摘要
+森林土壤蕴含着多样的细菌，它们在养分循环中发挥着至关重要的作用。然而，针叶林与针阔混交林对高丰度（abundant）和稀有（rare）细菌类群分布的差异化影响仍不清楚。在本研究中，我们结合了 16S rRNA 基因扩增子测序与宏基因组鸟枪法测序，对针叶人工林及其相邻针阔混交林的土壤细菌群落进行了对比分析，重点考察了它们的群落结构、构建机制、共发生网络以及功能潜力。高丰度和稀有类群在两种森林类型间的群落组成均表现出显著差异。土壤 pH 值和有机质含量显著影响了总体及高丰度细菌群落，而速效磷和速效钾是稀有群落组成的关键决定因素。共发生网络分析显示，高丰度群落形成了高度聚类且简化的网络，而稀有群落的网络则更为破碎且富含关键种。零模型分析表明，群落构建主要由随机过程驱动，其中生态漂变解释了总体和稀有群落约 80% 的变异，而扩散限制解释了高丰度群落近 72% 的变异。功能预测表明，混交林中的细菌群落富集了与糖基化、碳水化合物降解和固氮相关的通路，而针叶林则倾向于与自噬、信号传导和应激反应相关的通路。本研究强调了高丰度和稀有细菌类群在森林土壤生态系统中的互补作用，并突出了保护混交林对于维持微生物功能多样性的重要性。重要性：森林土壤承载着由常见和稀有细菌构成的复杂网络，它们默默地调节着养分循环。通过对比纯针叶林与针阔混交林，我们发现高丰度物种支撑着基本功能，而较稀有的微生物则填充了专门的生态位。酸度和养分强烈影响着细菌的繁衍；混交林有利于分解碳水化合物和固氮的微生物，而针叶林土壤则支持适应压力和贫瘠条件的生物。这些发现强调了保护多样化森林生态系统对于土壤健康、碳封存以及在适应气候变化中制定有效森林管理策略的重要性。
+
+## Abstract
+Forest soils harbor a diverse array of bacteria that play a crucial role in nutrient cycling. However, the differential effects of coniferous versus mixed conifer-broadleaf forests on the distribution of both abundant and rare bacterial taxa remain poorly understood. In this study, we integrated 16S rRNA gene amplicon sequencing with metagenomic shotgun sequencing to conduct a comparative analysis of soil bacterial communities in a conifer plantation and an adjacent mixed conifer-broadleaf forest, specifically examining their community structure, assembly mechanisms, co-occurrence networks, and functional potential. Both abundant and rare taxa showed significant differences in community composition between the two forest types. Soil pH and organic matter content significantly influenced the total and abundant bacterial communities, while available phosphorus and potassium were key determinants of rare community composition. Co-occurrence network analysis revealed that abundant communities formed highly clustered, simplified networks, contrasting with more fragmented and keystone-rich networks in rare communities. Null model analyses indicated that community assembly was largely driven by stochastic processes, with ecological drift accounting for about 80% of the variation in total and rare communities, and dispersal limitation explaining nearly 72% of the variation in abundant communities. Functional predictions indicated that bacterial communities in mixed forests were enriched in pathways linked to glycosylation, carbohydrate degradation, and nitrogen fixation, while coniferous forests favored pathways related to autophagy, signaling, and stress responses. This study highlights the complementary roles of abundant and rare bacterial taxa in forest soil ecosystems and underscores the importance of preserving mixed forests to sustain microbial functional diversity.IMPORTANCEForest soils host a complex web of common and rare bacteria that quietly regulate nutrient cycles. By comparing pure conifer stands with mixed conifer-broadleaf forests, we found that abundant species underpin essential functions while rarer microbes fill specialized niches. Acidity and nutrients strongly influence which bacteria thrive; mixed stands favored microbes that break down carbohydrates and fix nitrogen, whereas conifer soils supported organisms adapted to stress and nutrient-poor conditions. These findings emphasize the importance of preserving diverse forest ecosystems for soil health, carbon storage, and effective forest management strategies in climate change adaptation.

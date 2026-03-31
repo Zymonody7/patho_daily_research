@@ -1,10 +1,46 @@
 # 知识库
 
-- 最近沉淀条目数：256
+- 最近沉淀条目数：268
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [AI-guided multi-omics analysis identifies NPC1-modulated susceptibility to SARS-CoV-2 infection under PM](#/202603/31/202603/31/41912520-ai-guided-multi-omics-analysis-identifies-npc1-modulated-susceptibility-to-sars-cov-2-infection-under-pm)
+  - TLDR：针对PM2.5暴露增加新冠病毒感染风险但机制不明的问题，本研究利用微调的单细胞转录组大模型，结合流行病学、GWAS及多组学分析，发现NPC1蛋白是关键调节因子。研究证实PM2.5通过NPC1介导的内吞-溶酶体途径促进病毒进入细胞，揭示了环境与遗传因素共同影响易感性的分子机制，为空气质量政策和防疫提供了科学依据。
+  - Tags：`query:pathoai`
+- [FALCON2: compression-based metagenomic classification of ancient viruses.](#/202603/31/202603/31/41913056-falcon2-compression-based-metagenomic-classification-of-ancient-viruses)
+  - TLDR：古代病毒DNA（aDNA）具有片段极短（20-100bp）且存在化学损伤的特点，导致传统基于k-mer匹配或比对的分类器在超短序列上准确率大幅下降。FALCON2 提出了一种基于压缩算法的分类框架，利用位置感知的有限上下文模型（FCM）捕捉序列特征。实验表明，在20-40bp的超短序列任务中，FALCON2 的 AUPRC 达到 0.968，远超 Kraken2 等主流工具，为古基因组学研究提供了高精度且低内存消耗的分类方案。
+  - Tags：`query:pathoai`
+- [Novel Deep-Learning Unsupervised Domain Adaptation Method for Mitigating Batch, Strain, and Instrument Variations to Enhance Raman Spectroscopy-Based Bacterial Pathogen Identification.](#/202603/31/202603/31/41842761-novel-deep-learning-unsupervised-domain-adaptation-method-for-mitigating-batch-strain-and-instrument-variations-to-enhance-raman-spectroscopy-based-bacterial-pathogen-identification)
+  - TLDR：拉曼光谱结合深度学习可快速识别病原体，但受仪器、批次和菌株差异导致的域偏移影响，模型泛化性较差。本研究提出RSCDM模型，通过两个分类器的输出差异动态识别偏离源域的目标样本，并利用对抗学习进行特征对齐。实验显示，该方法将跨仪器和菌株的识别准确率从约80%提升至95%以上，微调后可达99.3%，将鉴定时间从数天缩短至分钟级，显著增强了临床诊断的鲁棒性。
+  - Tags：`query:pathoai`
+- [Compressing the collective knowledge of ESM into a single protein language model.](#/202603/31/202603/31/41912799-compressing-the-collective-knowledge-of-esm-into-a-single-protein-language-model)
+  - TLDR：针对蛋白质变异效应预测（VEP）中纯序列语言模型性能受限、往往需依赖结构或同源信息的问题，该研究提出一种协同蒸馏方法。通过将多个ESM模型中最具置信度的预测结果蒸馏至单一模型中，使其在不引入额外外部数据的情况下，在多个VEP基准测试上达到SOTA水平，并能准确量化生物库数据中的临床表型严重程度，为高效变异预测提供了新思路。
+  - Tags：`query:bioinfo`
+- [A novel method for drug-target affinity prediction by integrating predicted evolutionary information and multi-scale protein graphs.](#/202603/31/202603/31/41913214-a-novel-method-for-drug-target-affinity-prediction-by-integrating-predicted-evolutionary-information-and-multi-scale-protein-graphs)
+  - TLDR：药物-靶点亲和力（DTA）预测是药物研发的关键，但传统方法依赖耗时的多序列比对（MSA）来获取进化信息，限制了计算效率。MAFI-DTA 模型通过 ESM-3 蛋白质语言模型直接从序列中提取进化上下文，并结合多尺度蛋白质图结构，利用 GNN、BiLSTM 和 Transformer 融合特征。实验证明该方法在多个基准数据集上优于现有模型，在保证预测精度的同时显著降低了计算开销，为加速药物筛选提供了高效工具。
+  - Tags：`query:bioinfo`
+- [ECOD: Classification of domains in AFDB Swiss-Prot structure predictions.](#/202603/31/202603/31/41911251-ecod-classification-of-domains-in-afdb-swiss-prot-structure-predictions)
+  - TLDR：随着 AlphaFold 预测结构的爆发式增长，如何系统性地对海量结构进行演化分类成为挑战。本研究利用 DPAM 流水线对 Swiss-Prot 数据库中超过 54 万个蛋白质预测结构进行了 ECOD 结构域分类，成功识别出逾 103 万个结构域。该工作不仅扩展了 ECOD 的覆盖范围，还发现了 10 万个序列比对无法识别的新结构域，为理解蛋白质功能演化提供了高置信度的结构基础。
+  - Tags：`query:bioinfo`
+- [Differential assembly and functional roles of bacterial communities in coniferous and mixed conifer-broadleaf forest soils.](#/202603/31/202603/31/41789917-differential-assembly-and-functional-roles-of-bacterial-communities-in-coniferous-and-mixed-conifer-broadleaf-forest-soils)
+  - TLDR：针对针叶林与针阔混交林土壤细菌群落差异不明的问题，本研究结合16S rRNA扩增子与宏基因组测序，对比分析了两类森林中高丰度与稀有类群的结构、演替机制及功能。结果发现混交林更有利于碳降解与固氮，而针叶林侧重抗逆；群落构建受随机过程主导。研究强调了保护混交林对维持土壤微生物功能多样性的重要性。
+  - Tags：`query:seqai`
+- [Metagenomics in Obstructive Lung Diseases: Insights into Microbial Dysbiosis, Host-Microbe Interactions, and the Gut-Lung Axis.](#/202603/31/202603/31/41910951-metagenomics-in-obstructive-lung-diseases-insights-into-microbial-dysbiosis-host-microbe-interactions-and-the-gut-lung-axis)
+  - TLDR：阻塞性肺病（如哮喘和COPD）受微生物组、宿主免疫和代谢的复杂影响。本文综述了宏基因组学在揭示呼吸道与肠道微生物失调中的应用，指出哮喘多与早期微生物扰动相关，而COPD则表现为成年期变形菌门占优。研究强调了“肠-肺轴”通过短链脂肪酸等代谢物调节免疫的作用，为未来基于微生物组的精准医疗和干预提供了系统生物学视角。
+  - Tags：`query:pathoai`
+- [Metagenome Sequencing and Recovery of 52 Microbial Genomes from Plastic-Polluted Coastal Sediment.](#/202603/31/202603/31/41912529-metagenome-sequencing-and-recovery-of-52-microbial-genomes-from-plastic-polluted-coastal-sediment)
+  - TLDR：针对印度沿海塑料污染热点地区沉积物中微生物群落特征不明的问题，研究人员利用Illumina短读长测序技术结合三种高效分箱工具，成功重建了52个非冗余宏基因组组装基因组（MAGs）。研究发现这些微生物涵盖18个门类，且包含大量此前未被分类的新物种（如3个新目和28个新属），为理解塑料污染环境下的生态功能提供了首个详尽的基因组参考。
+  - Tags：`query:seqai`
+- [A requirement for](#/202603/31/202603/31/41660825-a-requirement-for)
+  - TLDR：针对住院患者中常见的缺锌增加鲍曼不动杆菌肺炎风险的问题，研究人员利用全基因组转座子测序（Tn-seq）筛选了该菌在缺锌小鼠肺部增殖所需的关键基因。研究发现，嘌呤生物合成途径（如purI基因）和铁载体途径在缺锌环境下对细菌存活至关重要。这一发现揭示了宿主营养状态对病原菌代谢的需求影响，并指出嘌呤合成是开发肺炎新药的潜在靶点。
+  - Tags：`query:pathoai`
+- [mSphere of Influence: Missing the trees for the forest.](#/202603/31/202603/31/41677269-msphere-of-influence-missing-the-trees-for-the-forest)
+  - TLDR：本文探讨了在宿主-微生物相互作用研究中，从宏观群落分析转向微观空间结构与分子机制的重要性。作者通过回顾舌背微生物群的空间生态学研究以及共生葡萄球菌抑制金黄色葡萄球菌毒性的分子发现，阐述了这些精细维度的视角如何启发其对奈瑟菌属（Neisseria）共生与宿主适应性的研究，强调了“局部细节”对理解整体生态的关键价值。
+  - Tags：`query:pathoai`
+- [Systematic analysis of snRNA genes reveals frequent RNU2-2 variants in dominant and recessive developmental and epileptic encephalopathies.](#/202603/31/202603/31/41912934-systematic-analysis-of-snrna-genes-reveals-frequent-rnu2-2-variants-in-dominant-and-recessive-developmental-and-epileptic-encephalopathies)
+  - TLDR：针对非编码小核RNA（snRNA）在遗传病中作用不明的问题，本研究对3.4万余名罕见病患者的200个snRNA基因进行了系统性筛查。研究发现RNU2-2基因变异是导致发育性癫痫性脑病的重要原因，识别出141名携带显性或隐性变异的患者。该研究揭示了RNU2-2变异的高发性及其对剪接和DNA甲基化的影响，为神经发育障碍的精准诊断提供了关键遗传证据。
+  - Tags：`query:seqai`
 - [Strategies to Improve Detection of Novel Pandemic Pathogens: Cost Versus Detection Performance for Promising Pathogen-Agnostic Detection Workflows.](#/202603/30/202603/30/41821670-strategies-to-improve-detection-of-novel-pandemic-pathogens-cost-versus-detection-performance-for-promising-pathogen-agnostic-detection-workflows)
   - TLDR：针对新型大流行病原体识别延迟的问题，本研究通过建模对比了综合征监测、可穿戴设备和环境采样三种“病原体无关”的生物监测策略。结果显示，环境采样在预警速度上表现最优，可穿戴设备次之，但在高传染性疾病中优势会减弱。该研究为公共卫生部门在成本与检测效能之间进行权衡提供了量化依据。
   - Tags：`query:pathoai`
@@ -569,39 +605,3 @@
 - [Dynamic interaction between Escherichia coli enterotoxins and bacteriocins.](#/202603/10/202603/10/41804674-dynamic-interaction-between-escherichia-coli-enterotoxins-and-bacteriocins)
   - TLDR：肠道菌群抵御病原体入侵的分子机制尚不明确。本研究通过构建共生大肠杆菌与产肠毒素大肠杆菌（ETEC）的共培养模型，发现细菌素与肠毒素之间存在复杂的双向调控：毒素ST通过cGMP通路抑制细菌素产生，而毒素LT则通过cAMP通路促进其表达。这一发现揭示了病原体与益生菌间的分子对话机制，为利用菌群干预手段防治肠道感染提供了新视角。
   - Tags：`query:pathoai`
-- [Dysbiosis of fecal virome in pediatric Crohn's disease and its dynamic changes during infliximab therapy.](#/202603/09/202603/09/41800893-dysbiosis-of-fecal-virome-in-pediatric-crohns-disease-and-its-dynamic-changes-during-infliximab-therapy)
-  - TLDR：针对儿童克罗恩病（CD）肠道病毒组研究不足的问题，本研究通过对60名患儿和25名健康对照者的粪便进行宏基因组与16S rRNA测序，揭示了CD患儿病毒多样性下降、功能转向复制及跨界交互紊乱的特征。研究利用病毒与细菌标志物构建的机器学习模型实现了89.3%的诊断准确率，并发现特定病毒科（如Microviridae）的基线丰度可预测英夫利昔单抗（IFX）的治疗缓解情况，为精准医疗提供了新靶点。
-  - Tags：`query:seqai`
-- [Interactions between polystyrene-derived micro- and nanoplastics and the microbiota: a systematic review of multi-omics mouse studies.](#/202603/09/202603/09/41795790-interactions-between-polystyrene-derived-micro--and-nanoplastics-and-the-microbiota-a-systematic-review-of-multi-omics-mouse-studies)
-  - TLDR：聚苯乙烯微塑料和纳米塑料（PS-MNPs）的生物毒性日益受到关注，但其对肠道菌群的影响机制仍不明确。本文通过系统综述15项小鼠多组学研究，分析了PS暴露对菌群多样性及代谢的影响。结果显示，PS暴露显著诱发肠道失调，减少有益菌并富集促炎菌，且纳米级颗粒的毒性更强。该研究揭示了微塑料通过干扰菌群-代谢轴产生多维毒性，为评估人类健康风险提供了关键证据。
-  - Tags：`query:pathoai`
-- [Cuticle-associated microbiota in Bactrocera dorsalis suppress fungal infection through immune and chemical defenses.](#/202603/09/202603/09/41800606-cuticle-associated-microbiota-in-bactrocera-dorsalis-suppress-fungal-infection-through-immune-and-chemical-defenses)
-  - TLDR：针对桔小实蝇易受病原真菌侵害的问题，本研究揭示了其体表共生菌群通过免疫激活和化学抑制双重机制增强宿主抗性。通过无菌实验对比特定体表菌与非体表菌，发现特定菌株能激活Toll/IMD信号通路并分泌挥发物及酶类抑制真菌生长，为开发基于微生物组的新型害虫生物防治策略提供了重要依据。
-  - Tags：`query:pathoai`
-- [A scalable and quantum-accurate foundation model for biomolecular force fields via linearly tensorized quadrangle attention.](#/202603/08/202603/08/41794931-a-scalable-and-quantum-accurate-foundation-model-for-biomolecular-force-fields-via-linearly-tensorized-quadrangle-attention)
-  - TLDR：生物分子模拟面临精度与效率的权衡难题：传统力场不够准，量子计算又太慢。LiTEN 引入线性张量化四边形注意力机制，以线性复杂度建模复杂的多体相互作用。预训练基础模型 LiTEN-FF 在多个基准上取得 SOTA 精度，并能高效处理大分子的几何优化与自由能计算，为药物设计提供了兼具量子精度与扩展性的通用工具。
-  - Tags：`query:bioinfo`
-- [High-throughput sequencing analysis of fungal and Botryosphaeriaceae communities in symptomatic and asymptomatic almond, avocado, and blueberry plants.](#/202603/08/202603/08/41793767-high-throughput-sequencing-analysis-of-fungal-and-botryosphaeriaceae-communities-in-symptomatic-and-asymptomatic-almond-avocado-and-blueberry-plants)
-  - TLDR：葡萄座腔菌科真菌是导致多种经济作物枯萎和溃疡病的主要病原，且常以无症状潜伏形式存在。本研究利用高通量测序（HTS）元条形码技术，对比分析了杏仁、牛油果和蓝莓在有无症状下的真菌群落结构。结果显示该科真菌在无症状植株中检出率极高，且多为复合感染，同时识别出潜在的协同致病菌与生物控制菌。该成果为植物病害的早期预防性检测和精准诊断提供了数据支持与技术参考。
-  - Tags：`query:pathoai`
-- [Adaptive diagnostic reasoning framework for pathology with multimodal large language models.](#/202603/08/202603/08/41794962-adaptive-diagnostic-reasoning-framework-for-pathology-with-multimodal-large-language-models)
-  - TLDR：针对病理诊断中AI模型透明度不足、难以审计的问题，该研究提出了一种基于多模态大语言模型（MLLM）的自适应诊断推理框架。通过两阶段自学习过程，模型能从少量标注数据中提取诊断标准并生成与专家共识一致的循证推理描述。实验证明，该框架在乳腺癌和前列腺癌诊断中准确率超过90%，能有效识别复杂亚型，为临床提供可审计、高可信度的AI辅助诊断方案。
-  - Tags：`query:bioinfo`
-- [Fluoroalkylated antimicrobial peptides enables cytosolic delivery and eradication of intracellular Staphylococcus aureus.](#/202603/08/202603/08/41794715-fluoroalkylated-antimicrobial-peptides-enables-cytosolic-delivery-and-eradication-of-intracellular-staphylococcus-aureus)
-  - TLDR：针对胞内金黄色葡萄球菌难以被传统抗生素和抗菌肽清除的问题，本研究通过在抗菌肽Omiganan上修饰全氟碳链，构建了能自组装成纳米颗粒的PFC-OMN。该设计利用氟化修饰增强细胞穿透力，并通过二硫键实现胞内谷胱甘肽触发的药物释放。实验证明其胞内杀菌效力提升了16倍以上，且在小鼠模型中表现出良好的生物安全性与治疗效果，为解决顽固性胞内感染提供了新策略。
-  - Tags：`query:pathoai`
-- [AMR-GNN: a multi-representation graph neural network framework to enable genomic antimicrobial resistance prediction.](#/202603/07/202603/07/41792137-amr-gnn-a-multi-representation-graph-neural-network-framework-to-enable-genomic-antimicrobial-resistance-prediction)
-  - TLDR：针对全基因组测序数据维度高且缺乏标准化表示导致抗生素耐药性（AMR）预测困难的问题，本文提出了 AMR-GNN 框架。该框架利用图神经网络整合多种基因组表示，在铜绿假单胞菌及多种临床病原体数据集上验证了其有效性。研究不仅显著提升了预测精度，还通过识别关键生物标志物增强了模型的可解释性，并有效缓解了克隆关系对预测结果的干扰，为精准医疗提供了有力支持。
-  - Tags：`query:pathoai`
-- [A novel hypothetical protein (SAUSA300_1684) confers excellent protection against multi-drug-resistant Staphylococcus aureus infection in the murine model.](#/202603/07/202603/07/41548530-a-novel-hypothetical-protein-sausa3001684-confers-excellent-protection-against-multi-drug-resistant-staphylococcus-aureus-infection-in-the-murine-model)
-  - TLDR：针对金黄色葡萄球菌多重耐药性导致缺乏有效疫苗的挑战，本研究利用机器学习引导的反向疫苗学方法，从蛋白质组中筛选出新型抗原蛋白 IMTS8。实验证明该蛋白在临床菌株中高度保守且暴露于细菌表面，通过小鼠模型验证，接种 IMTS8 能诱导强烈的免疫反应并提供近乎完全的感染保护，为开发耐药菌疫苗提供了重要候选靶点。
-  - Tags：`query:pathoai`
-- [The Evaluation of Machine Learning Models Using Matrix-Assisted Laser Desorption/Ionization Time-of-Flight Mass Spectrometry (MALDI-TOF-MS) Spectra for the Prediction of Antibiotic Resistance in Klebsiella pneumoniae.](#/202603/07/202603/07/41771780-the-evaluation-of-machine-learning-models-using-matrix-assisted-laser-desorptionionization-time-of-flight-mass-spectrometry-maldi-tof-ms-spectra-for-the-prediction-of-antibiotic-resistance-in-klebsiella-pneumoniae)
-  - TLDR：针对肺炎克雷伯菌抗药性检测耗时长（48-96小时）的临床痛点，本研究评估了利用基质辅助激光解析电离飞行时间质谱（MALDI-TOF-MS）数据结合机器学习模型的预测效能。通过分析23项研究发现，集成学习（如Random Forest、XGBoost）和深度学习（CNN）模型在预测碳青霉烯类耐药性方面表现优异，AUROC普遍超过0.90，最高准确率达97%。该方法能将诊断时间缩短至分钟级，且无需额外硬件投入，具有极高的临床应用潜力。
-  - Tags：`query:pathoai`
-- [Spatial transcriptomics maps host-gut microbiome biogeography at high resolution.](#/202603/07/202603/07/41792309-spatial-transcriptomics-maps-host-gut-microbiome-biogeography-at-high-resolution)
-  - TLDR：肠道微生物与宿主的相互作用对健康至关重要，但缺乏高分辨率的原位测量工具。本研究开发了一种结合酶促原位多聚腺苷酸化与空间转录组测序的新方法，实现了1微米分辨率的宿主-微生物空间图谱绘制。该方法显著提升了低丰度微生物的检测灵敏度，并在小鼠肠道肿瘤模型中揭示了微生物分布的地理特征及肿瘤导致的界面结构变化，为研究微环境下的宿主-菌群互动提供了通用工具。
-  - Tags：`query:seqai`
-- [Multimodal Alignment Improves Generalizability of Genomic Biomarker Prediction in Computational Pathology](#/202603/07/202603/07/2603.00193v1-multimodal-alignment-improves-generalizability-of-genomic-biomarker-prediction-in-computational-pathology)
-  - TLDR：针对计算病理学中预测基因生物标志物需大量标注数据且泛化性差的问题，本文提出 MARBLE 预训练策略。该方法通过对比学习将病理图像特征与大语言模型（LLM）及蛋白质语言模型（PLM）生成的生物标志物知识进行对齐。实验证明，这种生物学信息对齐显著提升了模型在少量数据下对新标志物的预测能力，为精准医疗提供了更高效的工具。
-  - Tags：`query:bioinfo`

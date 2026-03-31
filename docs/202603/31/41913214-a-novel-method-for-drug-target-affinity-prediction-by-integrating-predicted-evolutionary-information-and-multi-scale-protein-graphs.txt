@@ -1,0 +1,391 @@
+Title: A novel method for drug-target affinity prediction by integrating predicted evolutionary information and multi-scale protein graphs - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41913214/
+
+Markdown Content:
+# A novel method for drug-target affinity prediction by integrating predicted evolutionary information and multi-scale protein graphs - PubMed
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/41913214/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41913214%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/41913214/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/41913214/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/41913214/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/41913214/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/9fea6d21-07b4-4726-b151-fb89a024b8ad/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/41913214/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/41913214/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41913214/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41913214%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41913214%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/41913214/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Save citation to file
+
+ Format:  
+
+ Create file  Cancel 
+
+## Email citation
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41913214/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41913214/#)
+
+ Add  Cancel 
+
+## Your saved search
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/41913214/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+## Create a file for external citation management software
+
+ Create file  Cancel 
+
+## Your RSS Feed
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41913214/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/41913214/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/41913214/#abstract)
+*   [Conflict of interest statement](https://pubmed.ncbi.nlm.nih.gov/41913214/#conflict-of-interest)
+*   [Similar articles](https://pubmed.ncbi.nlm.nih.gov/41913214/#similar)
+*   [References](https://pubmed.ncbi.nlm.nih.gov/41913214/#references)
+*   [Related information](https://pubmed.ncbi.nlm.nih.gov/41913214/#related-links)
+*   [Grants and funding](https://pubmed.ncbi.nlm.nih.gov/41913214/#grants)
+
+ BMC Biol 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22BMC+Biol%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22BMC+Biol%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41913214/#)
+
+. 2026 Mar 30.
+
+ doi: 10.1186/s12915-026-02589-5.  Online ahead of print. 
+
+# A novel method for drug-target affinity prediction by integrating predicted evolutionary information and multi-scale protein graphs
+
+[Mingjian Jiang](https://pubmed.ncbi.nlm.nih.gov/?term=Jiang+M&cauthor_id=41913214)[1](https://pubmed.ncbi.nlm.nih.gov/41913214/#full-view-affiliation-1 "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, Shandong, China."),[Huaibin Hang](https://pubmed.ncbi.nlm.nih.gov/?term=Hang+H&cauthor_id=41913214)[1](https://pubmed.ncbi.nlm.nih.gov/41913214/#full-view-affiliation-1 "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, Shandong, China."),[Zihao Cui](https://pubmed.ncbi.nlm.nih.gov/?term=Cui+Z&cauthor_id=41913214)[1](https://pubmed.ncbi.nlm.nih.gov/41913214/#full-view-affiliation-1 "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, Shandong, China."),[Junxiao Feng](https://pubmed.ncbi.nlm.nih.gov/?term=Feng+J&cauthor_id=41913214)[1](https://pubmed.ncbi.nlm.nih.gov/41913214/#full-view-affiliation-1 "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, Shandong, China."),[Weina Pang](https://pubmed.ncbi.nlm.nih.gov/?term=Pang+W&cauthor_id=41913214)[2](https://pubmed.ncbi.nlm.nih.gov/41913214/#full-view-affiliation-2 "Weifang Xinsheng Biotechnology Development Co., LTD, Weifang, Shandong, China."),[Teng Ma](https://pubmed.ncbi.nlm.nih.gov/?term=Ma+T&cauthor_id=41913214)[1](https://pubmed.ncbi.nlm.nih.gov/41913214/#full-view-affiliation-1 "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, Shandong, China."),[Zhi Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+Z&cauthor_id=41913214)[1](https://pubmed.ncbi.nlm.nih.gov/41913214/#full-view-affiliation-1 "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, Shandong, China."),[Yaping Fan](https://pubmed.ncbi.nlm.nih.gov/?term=Fan+Y&cauthor_id=41913214)[1](https://pubmed.ncbi.nlm.nih.gov/41913214/#full-view-affiliation-1 "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, Shandong, China."),[Shunpeng Pang](https://pubmed.ncbi.nlm.nih.gov/?term=Pang+S&cauthor_id=41913214)[3](https://pubmed.ncbi.nlm.nih.gov/41913214/#full-view-affiliation-3 "School of Computer Engineering, WeiFang University, Weifang, Shandong, China. pangshp@wfu.edu.cn."),[Wei Zhou](https://pubmed.ncbi.nlm.nih.gov/?term=Zhou+W&cauthor_id=41913214)[1](https://pubmed.ncbi.nlm.nih.gov/41913214/#full-view-affiliation-1 "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, Shandong, China."),[Yuanyuan Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+Y&cauthor_id=41913214)[1](https://pubmed.ncbi.nlm.nih.gov/41913214/#full-view-affiliation-1 "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, Shandong, China.")
+
+ Affiliations  Expand 
+
+### Affiliations
+
+*   1 School of Information and Control Engineering, Qingdao University of Technology, Qingdao, Shandong, China.
+*   2 Weifang Xinsheng Biotechnology Development Co., LTD, Weifang, Shandong, China.
+*   3 School of Computer Engineering, WeiFang University, Weifang, Shandong, China. pangshp@wfu.edu.cn.
+
+*    PMID: **41913214**
+*    DOI: [10.1186/s12915-026-02589-5](https://doi.org/10.1186/s12915-026-02589-5)
+
+ Item in Clipboard 
+
+# A novel method for drug-target affinity prediction by integrating predicted evolutionary information and multi-scale protein graphs
+
+Mingjian Jiang et al. BMC Biol.2026.
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ BMC Biol 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22BMC+Biol%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22BMC+Biol%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41913214/#)
+
+. 2026 Mar 30.
+
+ doi: 10.1186/s12915-026-02589-5.  Online ahead of print. 
+
+### Authors
+
+[Mingjian Jiang](https://pubmed.ncbi.nlm.nih.gov/?term=Jiang+M&cauthor_id=41913214)[1](https://pubmed.ncbi.nlm.nih.gov/41913214/#short-view-affiliation-1 "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, Shandong, China."),[Huaibin Hang](https://pubmed.ncbi.nlm.nih.gov/?term=Hang+H&cauthor_id=41913214)[1](https://pubmed.ncbi.nlm.nih.gov/41913214/#short-view-affiliation-1 "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, Shandong, China."),[Zihao Cui](https://pubmed.ncbi.nlm.nih.gov/?term=Cui+Z&cauthor_id=41913214)[1](https://pubmed.ncbi.nlm.nih.gov/41913214/#short-view-affiliation-1 "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, Shandong, China."),[Junxiao Feng](https://pubmed.ncbi.nlm.nih.gov/?term=Feng+J&cauthor_id=41913214)[1](https://pubmed.ncbi.nlm.nih.gov/41913214/#short-view-affiliation-1 "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, Shandong, China."),[Weina Pang](https://pubmed.ncbi.nlm.nih.gov/?term=Pang+W&cauthor_id=41913214)[2](https://pubmed.ncbi.nlm.nih.gov/41913214/#short-view-affiliation-2 "Weifang Xinsheng Biotechnology Development Co., LTD, Weifang, Shandong, China."),[Teng Ma](https://pubmed.ncbi.nlm.nih.gov/?term=Ma+T&cauthor_id=41913214)[1](https://pubmed.ncbi.nlm.nih.gov/41913214/#short-view-affiliation-1 "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, Shandong, China."),[Zhi Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+Z&cauthor_id=41913214)[1](https://pubmed.ncbi.nlm.nih.gov/41913214/#short-view-affiliation-1 "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, Shandong, China."),[Yaping Fan](https://pubmed.ncbi.nlm.nih.gov/?term=Fan+Y&cauthor_id=41913214)[1](https://pubmed.ncbi.nlm.nih.gov/41913214/#short-view-affiliation-1 "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, Shandong, China."),[Shunpeng Pang](https://pubmed.ncbi.nlm.nih.gov/?term=Pang+S&cauthor_id=41913214)[3](https://pubmed.ncbi.nlm.nih.gov/41913214/#short-view-affiliation-3 "School of Computer Engineering, WeiFang University, Weifang, Shandong, China. pangshp@wfu.edu.cn."),[Wei Zhou](https://pubmed.ncbi.nlm.nih.gov/?term=Zhou+W&cauthor_id=41913214)[1](https://pubmed.ncbi.nlm.nih.gov/41913214/#short-view-affiliation-1 "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, Shandong, China."),[Yuanyuan Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+Y&cauthor_id=41913214)[1](https://pubmed.ncbi.nlm.nih.gov/41913214/#short-view-affiliation-1 "School of Information and Control Engineering, Qingdao University of Technology, Qingdao, Shandong, China.")
+
+### Affiliations
+
+*   1 School of Information and Control Engineering, Qingdao University of Technology, Qingdao, Shandong, China.
+*   2 Weifang Xinsheng Biotechnology Development Co., LTD, Weifang, Shandong, China.
+*   3 School of Computer Engineering, WeiFang University, Weifang, Shandong, China. pangshp@wfu.edu.cn.
+
+*    PMID: **41913214**
+*    DOI: [10.1186/s12915-026-02589-5](https://doi.org/10.1186/s12915-026-02589-5)
+
+ Item in Clipboard 
+
+Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Abstract
+
+**Background:** Drug-target affinity (DTA) prediction is crucial for drug discovery. While protein evolutionary features are vital for identifying conserved regions, current methods rely on computationally expensive multiple sequence alignment (MSA), creating a significant bottleneck. To address this, we propose MAFI-DTA, a novel model that circumvents the computational burden of MSA by deriving evolutionary context directly from sequences using the advanced protein language model, ESM-3. Furthermore, we introduced a multi-scale protein graph construction strategy based on varying numbers of residues, enabling the effective extraction of structural information across different scales through a neural network integrating graph neural networks, BiLSTM, and transformer modules.
+
+**Results:** Experimental validation on multiple benchmark datasets demonstrates that MAFI-DTA achieves significantly better performance compared to existing approaches. This improved accuracy is attributed to the effective incorporation of both the predicted evolutionary information and the multi-scale graph representations. The source code is available at https://github.com/aliveadult/MAFI.
+
+**Conclusions:** MAFI-DTA successfully captures crucial evolutionary and multi-scale structural context efficiently, overcoming the limitations of traditional MSA methods. This approach provides a high-performing tool that facilitates the study of drug-target interactions and accelerates the drug discovery process.
+
+**Keywords:** Drug-target affinity prediction; Multi-scale graph representation; Protein evolutionary information.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Ethics approval and consent to participate: Not applicable. Consent for publication: Not applicable. Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [MDM-DTA: Message Passing Neural Network with molecular descriptors and Mixture of Experts for drug-target affinity prediction.](https://pubmed.ncbi.nlm.nih.gov/41285097/)Dai Y, Tan X, Wang H, Ma G, Xiong Y, Qiu X.Dai Y, et al.Comput Methods Programs Biomed. 2026 Feb 1;274:109163. doi: 10.1016/j.cmpb.2025.109163. Epub 2025 Nov 21.Comput Methods Programs Biomed. 2026.PMID: 41285097  
+*   [Drug-target affinity prediction with extended graph learning-convolutional networks.](https://pubmed.ncbi.nlm.nih.gov/38365583/)Qi H, Yu T, Yu W, Liu C.Qi H, et al.BMC Bioinformatics. 2024 Feb 16;25(1):75. doi: 10.1186/s12859-024-05698-6.BMC Bioinformatics. 2024.PMID: 38365583 Free PMC article.  
+*   [GS-DTA: integrating graph and sequence models for predicting drug-target binding affinity.](https://pubmed.ncbi.nlm.nih.gov/39905318/)Luo J, Zhu Z, Xu Z, Xiao C, Wei J, Shen J.Luo J, et al.BMC Genomics. 2025 Feb 4;26(1):105. doi: 10.1186/s12864-025-11234-4.BMC Genomics. 2025.PMID: 39905318 Free PMC article.  
+*   [A survey of drug-target interaction and affinity prediction methods via graph neural networks.](https://pubmed.ncbi.nlm.nih.gov/37329615/)Zhang Y, Hu Y, Han N, Yang A, Liu X, Cai H.Zhang Y, et al.Comput Biol Med. 2023 Sep;163:107136. doi: 10.1016/j.compbiomed.2023.107136. Epub 2023 Jun 7.Comput Biol Med. 2023.PMID: 37329615 Review.  
+*   [A comprehensive review of the recent advances on predicting drug-target affinity based on deep learning.](https://pubmed.ncbi.nlm.nih.gov/38628639/)Zeng X, Li SJ, Lv SQ, Wen ML, Li Y.Zeng X, et al.Front Pharmacol. 2024 Apr 2;15:1375522. doi: 10.3389/fphar.2024.1375522. eCollection 2024.Front Pharmacol. 2024.PMID: 38628639 Free PMC article.Review.  
+
+[See all similar articles](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed&from_uid=41913214)
+
+## References
+
+1.       1.    Vefghi A, Rahmati Z, Akbari M. Drug-target interaction/affinity prediction: Deep learning models and advances review. Comput Biol Med. 2025;196:110438. 
+
+2.       1.    Lee H, Lee JW. Target identification for biologically active small molecules using chemical biology approaches. Arch Pharm Res. 2016;39(9):1193–201. 
+
+3.       1.    Zhang Y, Jiang Z, Chen C, Wei Q, Gu. DeepStack-DTIs: Predicting Drug-Target Interactions Using LightGBM Feature Selection and Deep-Stacked Ensemble Classifier. Interdiscip Sci. 2022;14(2):311–30. 
+
+4.       1.    Roy K, Kar S, Das RN. QSAR/QSPR Modeling: Introduction. In: A Primer on QSAR/QSPR Modeling: Fundamental Concepts. Springer; 2015. pp. 1–36. 
+
+5.       1.    Ünlü A, Ulusoy E, Yiğit MG, Darcan M, Doğan T. Protein language models for predicting drug-target interactions: Novel approaches, emerging methods, and future directions. Curr Opin Struc Biol. 2025;91:103017. 
+
+ Show all 56 references 
+
+## Related information
+
+*   [GEO Profiles](https://www.ncbi.nlm.nih.gov/geoprofiles?linkname=pubmed_geoprofiles&from_uid=41913214 "GEO records associated with pubmed record")
+
+## Grants and funding
+
+*   [ZR2022QF111/Natural Science Foundation of Shandong Province](https://pubmed.ncbi.nlm.nih.gov/?term=ZR2022QF111%2FNatural+Science+Foundation+of+Shandong+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant ZR2022QF111/Natural Science Foundation of Shandong Province")
+*   [62541607/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=62541607%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 62541607/National Natural Science Foundation of China")
+*   [WFU2023BS47/Scientific Research Foundation for Ph.D](https://pubmed.ncbi.nlm.nih.gov/?term=WFU2023BS47%2FScientific+Research+Foundation+for+Ph.D%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant WFU2023BS47/Scientific Research Foundation for Ph.D")
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41913214/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41913214%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/41913214/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41913214%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41913214%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/41913214/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/?pagename=pubmed%3Apubmed%3Aabstract%3ANONE)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)
