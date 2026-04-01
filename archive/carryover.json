@@ -1,6 +1,288 @@
 {
-  "generated_at": "2026-03-31T19:36:47.088515+00:00",
-  "updated_date": "20260331",
+  "generated_at": "2026-04-01T19:50:26.627830+00:00",
+  "updated_date": "20260401",
   "carryover_days": 1,
-  "items": []
+  "items": [
+    {
+      "id": "41707391",
+      "title": "Metagenomic and metatranscriptomic analyses reveal microbial dysbiosis and bacteria-virus interactions in the lungs of Australian feedlot cattle with bovine respiratory disease.",
+      "abstract": "Bovine respiratory disease (BRD) remains the leading cause of feedlot cattle morbidity and mortality. Despite its polymicrobial aetiology, microbial population structure and inter-pathogen dynamics within the lungs of cattle with BRD remain poorly understood. To characterise the lung microbiome and virome of feedlot cattle with (n = 23) and without BRD (n = 9), we applied RNA-sequencing and full-length 16S rRNA gene sequencing to bovine lung tissue samples collected at post-mortem. Host-depleted RNA-seq reads were assembled and profiled, bacterial communities were classified, and diversity, differential abundance, bacteria-virus correlations, co-occurrence networks, and phage-host links analysed. Lung samples from BRD- cattle revealed pathogen-dominated communities with reduced within-sample diversity. Metamycoplasmataceae/Mycoplasmataceae, and Pasteurellaceae accounted for approximately 65.3 % of the bacterial population in samples from cattle with BRD, compared to approximately 11.3 % in lung samples from non-BRD cattle. At the species level, a significantly increased abundance of Pasteurella multocida was observed in BRD cattle. The virome was bacteriophage-dominated in both groups (led by Peduoviridae) but revealed distinct BRD-associated changes. Strong correlation between bacterial genomic abundance and transcriptional activity was observed in cattle with BRD, particularly for Mycoplasmopsis bovis, P. multocida, and Trueperella pyogenes. Network analyses consistently identified M. bovis, P. multocida, and Histophilus somni as highly connected hubs, whereas phages predicted to infect BRD-associated bacteria and Pestivirus bovis were more prevalent and/or abundant in lung samples from BRD cattle. Overall, BRD is characterised by a shift to low-diversity, pathogen-centred bacterial communities within a phage-rich virome that includes enrichment of bacterial pathogen-associated phages. These findings provide a basis for microbiome-informed, multi-pathogen diagnostics and help prioritise surveillance and control strategies that can be included into feedlot BRD management programmes to reduce antimicrobial use, animal losses, and economic impacts.",
+      "authors": [
+        "Gebremeskel Mamu Werid",
+        "Farhid Hemmatzadeh",
+        "Tony Batterham",
+        "Darren Miller",
+        "Robert Edwards",
+        "Darren J Trott",
+        "Kiro Petrovski"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41707391/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "metagenomic and metatranscriptomic analysis of bacteria-virus interactions",
+      "llm_evidence_cn": "细菌-病毒相互作用的宏基因组和宏转录组分析",
+      "llm_evidence": "细菌-病毒相互作用的宏基因组和宏转录组分析",
+      "canonical_evidence": "细菌-病毒相互作用的宏基因组和宏转录组分析",
+      "llm_tldr_en": "Uses multi-omics to reveal microbial dysbiosis and pathogen interactions in bovine respiratory disease.",
+      "llm_tldr_cn": "利用多组学技术揭示牛呼吸道疾病中的微生物失调和病原体相互作用。",
+      "llm_tldr": "利用多组学技术揭示牛呼吸道疾病中的微生物失调和病原体相互作用。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "carryover_cache",
+      "paper_id": "41707391",
+      "carry_days": 1
+    },
+    {
+      "id": "41917024",
+      "title": "The global phylogeography of rapidly expanding multidrug resistant Ural lineage 4.2 Mycobacterium tuberculosis.",
+      "abstract": "Multidrug resistant tuberculosis (MDR-TB) epidemics are sustained by transmission of reproductively fit MDR M. tuberculosis (Mtb) strains. We search a large publicly available dataset of ~200,000 Mtb whole genome sequences to identify strains related to a highly successful MDR clade circulating in Moldova belonging to lineage 4.2.1/Ural. We characterize a clade of 1604 drug-resistant Mtb sequences harboring conserved resistance-conferring mutations. We identify the Russian Federation as the most likely country of origin for this clade and infer several independent migration events from Russia and Moldova to other European and Asian countries. We estimate that this clade is expanding more rapidly than comparable clades of lineage 4.2.1/Ural. The broad dispersal of this highly successful clade is an urgent global health threat. Genomic surveillance is essential to track the evolution and spread of this and other strains of concern.",
+      "authors": [
+        "Melanie H Chitwood",
+        "Isabel Rancu",
+        "Yexuan Song",
+        "Barney I Potter",
+        "Yi Ting Chew",
+        "Nelly Ciobanu",
+        "Valeriu Crudu",
+        "Caroline Colijn",
+        "Ted Cohen",
+        "Benjamin Sobkowiak"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-31",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41917024/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "genomic epidemiology and transmission modeling of MDR-TB",
+      "llm_evidence_cn": "多重耐药结核病的基因组流行病学和传播建模",
+      "llm_evidence": "多重耐药结核病的基因组流行病学和传播建模",
+      "canonical_evidence": "多重耐药结核病的基因组流行病学和传播建模",
+      "llm_tldr_en": "Analyzes 200,000 Mtb genomes to trace the global phylogeography and rapid expansion of multidrug-resistant clades.",
+      "llm_tldr_cn": "分析 20 万个结核分枝杆菌基因组，追踪多重耐药演化支的全球系统地理学和快速扩张。",
+      "llm_tldr": "分析 20 万个结核分枝杆菌基因组，追踪多重耐药演化支的全球系统地理学和快速扩张。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI driven outbreak surveillance genomic epidemiology and transmission modeling",
+      "matched_requirement_id": "req-12",
+      "selection_source": "carryover_cache",
+      "paper_id": "41917024",
+      "carry_days": 1
+    },
+    {
+      "id": "41917425",
+      "title": "MIMIC: a flexible pipeline to register and summarize IMC-MSI experiments.",
+      "abstract": "Spatial omics is transforming our ability to interrogate local tissue microenvironments by enabling spatially resolved measurement of biomolecules such as transcripts, proteins, and metabolites. However, capturing the full biological complexity of tissues often requires combining multiple modalities, which introduces both experimental as well as computational challenges. To address computational difficulties due to differences in resolution, noise levels, and available channels, we present MIMIC: a reproducible, semi-automated workflow that integrates Mass Spectrometry Imaging and Imaging Mass Cytometry for joint downstream analysis. MIMIC incorporates rigorous quality control, including registration error assessment, and supports pixel-level modeling to delineate analyte-cell type associations. We demonstrate the power of our approach with a proof-of-concept study on artificial tissue and apply it to human liver tissue affected by metabolic dysfunction-associated steatotic liver disease. Despite integration challenges, MIMIC provides a robust framework that successfully recovers known molecular associations and reveals novel spatial relationships across modalities.",
+      "authors": [
+        "Reto Gerber",
+        "Jake Griner",
+        "Silvia Guglietta",
+        "Carsten Krieg",
+        "Mark D Robinson"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41917425/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "spatial omics integration and tissue microenvironment modeling",
+      "llm_evidence_cn": "空间组学整合与组织微环境建模",
+      "llm_evidence": "空间组学整合与组织微环境建模",
+      "canonical_evidence": "空间组学整合与组织微环境建模",
+      "llm_tldr_en": "Presents MIMIC, a pipeline for integrating Mass Spectrometry Imaging and Imaging Mass Cytometry for spatial omics.",
+      "llm_tldr_cn": "推出 MIMIC，一个整合质谱成像和成像质谱流式细胞术进行空间组学分析的流程。",
+      "llm_tldr": "推出 MIMIC，一个整合质谱成像和成像质谱流式细胞术进行空间组学分析的流程。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "deep learning and foundation models for spatial transcriptomics proteomics and tissue mapping",
+      "matched_requirement_id": "req-46",
+      "selection_source": "carryover_cache",
+      "paper_id": "41917425",
+      "carry_days": 1
+    },
+    {
+      "id": "41912361",
+      "title": "Hi-C Links Reveal Viral Activity and Infection Within the Free-Living Microbial Community of a Secondary Chlorophyll Maximum in the Eastern Tropical North Pacific.",
+      "abstract": "Oxygen-deficient zones (ODZs) influence global nitrogen cycling as key sites for the removal of bioavailable nitrogen through denitrification and anammox. Despite their importance, many microbes and viruses in ODZs remain uncultivated, limiting our understanding of their ecological roles. This study employed Hi-C proximity linkages, combined with long and short read metagenomic sequencing to characterise active viral interactions in the prokaryotic community at a secondary chlorophyll maximum in the Eastern Tropical North Pacific ODZ. Among the identified 861 assembled viral contigs over 10 kb, 75 showed significant links to microbial genomes. Virus-host linkages indicated 19 novel virus-microbe pairs that were likely infectious, and which conventional in silico host prediction methods largely missed. The virus-host relationships involved nine distinct microbial phyla, with previously unrecorded viral infections of Planctomycetes, Chloroflexota, Alphaproteobacteria, Gammaproteobactera, Myxococcota and Verrucomicrobia. Most hosts carried the genomic potential for denitrification. Phylogenetic analysis of the terminase large subunit (terL) genes from linked viruses suggested that many active phages resemble known temperate phages, indicating that lysogeny may be an ecological strategy in ODZs. Our comprehensive metagenomic approach offers new insights into viral-host interactions in this ecosystem, highlighting the importance of including proximity methods in viral ecology studies of uncultivated microbial populations.",
+      "authors": [
+        "Christina Rathwell",
+        "Clara A Fuchsman",
+        "Gabrielle Rocap"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41912361/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Hi-C and metagenomic sequencing for virus-host linkage in microbial communities",
+      "llm_evidence_cn": "利用Hi-C和宏基因组测序分析微生物群落中的病毒-宿主关联",
+      "llm_evidence": "利用Hi-C和宏基因组测序分析微生物群落中的病毒-宿主关联",
+      "canonical_evidence": "利用Hi-C和宏基因组测序分析微生物群落中的病毒-宿主关联",
+      "llm_tldr_en": "Uses Hi-C and metagenomics to characterize viral activity and infection in marine microbial communities.",
+      "llm_tldr_cn": "利用Hi-C和宏基因组技术表征海洋微生物群落中的病毒活动与感染。",
+      "llm_tldr": "利用Hi-C和宏基因组技术表征海洋微生物群落中的病毒活动与感染。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "carryover_cache",
+      "paper_id": "41912361",
+      "carry_days": 1
+    },
+    {
+      "id": "41713744",
+      "title": "Longitudinal Analysis of Surface-Associated Bacterial Ecology and Resistome Dynamics in a Pig Slaughterhouse.",
+      "abstract": "Slaughterhouses constitute key stages for the transmission of bacterial pathogens and antimicrobial resistance throughout the meat production chain, with significant implications for food safety. This study investigated the bacterial communities and resistome profiles of surface-associated microbes in a pig slaughterhouse sampled at two-year intervals in 2017 and 2019. Thirty-five strains of Salmonella enterica serovar Typhimurium and its monophasic variant, major pathogenic serovars of the sector, were collected through the slaughtering line in this time frame, and they displayed multidrug resistance profiles characteristic of the pig sector. Whole-genome analysis revealed no clear phylogenetic clustering by site or sampling date. Both 16S rRNA metabarcoding and shotgun metagenomics underlined site-specific bacterial communities dominated by the Moraxellaceae family and with a relatively stable composition across the sampling period. The upstream of the slaughtering line (dehairing stage) was characterized by aminoglycoside and tetracycline resistance genes, predominantly associated with Acinetobacter, Escherichia, and Clostridium, alongside oxidative stress genes carried by Streptococcus. At the downstream section of the slaughtering process, the red offal platform exhibited increased diversity and abundance of antibiotic and biocide resistance determinants. These included β-lactam and carbapenem resistance genes as well as efflux pump-associated elements (adeJ), mainly linked to Acinetobacter, which was consistently enriched, suggesting its potential role as a reservoir for resistance genes. Overall, these findings provide insights into the composition, stability, and functional potential of bacterial communities in slaughterhouse environments and their possible role in shaping pathogen and resistance gene dynamics along the food production chain.",
+      "authors": [
+        "Pierre Lemée",
+        "Alain Le Roux",
+        "Carole Feurer",
+        "Paméla Houée",
+        "Patricia Le Grandois",
+        "Edouard Hirchaud",
+        "Christophe Soumet",
+        "Arnaud Bridier"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41713744/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "whole-genome analysis of resistome dynamics and Salmonella in slaughterhouses",
+      "llm_evidence_cn": "屠宰场沙门氏菌耐药组动态的全基因组分析",
+      "llm_evidence": "屠宰场沙门氏菌耐药组动态的全基因组分析",
+      "canonical_evidence": "屠宰场沙门氏菌耐药组动态的全基因组分析",
+      "llm_tldr_en": "Analyzes bacterial ecology and antimicrobial resistance dynamics in a pig slaughterhouse over two years.",
+      "llm_tldr_cn": "分析了猪屠宰场两年间细菌生态和抗菌素耐药性的动态变化。",
+      "llm_tldr": "分析了猪屠宰场两年间细菌生态和抗菌素耐药性的动态变化。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for antimicrobial resistance prediction from genomes",
+      "matched_requirement_id": "req-5",
+      "selection_source": "carryover_cache",
+      "paper_id": "41713744",
+      "carry_days": 1
+    },
+    {
+      "id": "41915540",
+      "title": "Epidemiological and Genetic Evolutionary Characteristics of Dengue Virus in Hainan Province, China, Based on Whole-Genome Sequencing and Serological Data.",
+      "abstract": "BACKGROUND: Dengue fever is one of the most widely distributed vector-borne infectious diseases globally, prevalent in tropical and subtropical regions. An estimated 3.9 billion people in 128 countries are at risk of infection globally, and the 2024 outbreak was the most severe. As a tropical region, Hainan Province in China serves as a significant endemic area for dengue fever, where epidemic prevention and control remain critical. OBJECTIVE: To analyze the transmission dynamics and pathogen variation characteristics of the 2024 dengue fever outbreak in Hainan Province. METHODS: Acute-phase serum samples from 18 confirmed dengue cases during the 2024 outbreak in Hainan Province were collected and serotyped using TaqMan real-time PCR. The viral envelope (E) gene and representative whole genomes were sequenced and compared with domestic reference strains to assess epidemic trends. Phylogenetic and molecular clock analyses were performed based on E gene and full-genome sequences to infer spatiotemporal transmission dynamics. Sequence alignment and homology modeling were used to identify E gene mutations and evaluate their potential effects on E protein functional domains and viral pathogenicity. RESULTS: Among the 18 samples, 17 were dengue virus (DENV)-1, and 1 was DENV-3. Phylogenetic analysis revealed that the primary strains in this outbreak were highly homologous to those circulating in Guangdong Province; however, two strains exhibited significant genetic differences, suggesting possible independent introduction. Additionally, two unique DENV-1 E gene mutations (D147N and S338L) were identified, which we hypothesize may be associated with viral characteristics, subject to further functional verification. CONCLUSION: This study systematically reveals the epidemiological characteristics of the 2024 dengue fever outbreak and provides a scientific basis for formulating local control strategies and a research foundation for further exploring the molecular-level pathogenicity and transmissibility of DENV.",
+      "authors": [
+        "Zi-Meng Cheng",
+        "Bing-Hui Xia",
+        "Ping Li",
+        "Xin-Hang Ning",
+        "Zi-Hui Zhuang",
+        "Qiang Zhou",
+        "Yong-Zhe Zhu",
+        "Hao Ren"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-31",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41915540/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "genomic epidemiology and transmission dynamics of Dengue",
+      "llm_evidence_cn": "登革热基因组流行病学与传播动态",
+      "llm_evidence": "登革热基因组流行病学与传播动态",
+      "canonical_evidence": "登革热基因组流行病学与传播动态",
+      "llm_tldr_en": "Analyzes transmission dynamics and pathogen variation of Dengue virus using whole-genome sequencing.",
+      "llm_tldr_cn": "基于全基因组测序分析了2024年海南登革热疫情的传播动态和病原体变异特征。",
+      "llm_tldr": "基于全基因组测序分析了2024年海南登革热疫情的传播动态和病原体变异特征。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI driven outbreak surveillance genomic epidemiology and transmission modeling",
+      "matched_requirement_id": "req-12",
+      "selection_source": "carryover_cache",
+      "paper_id": "41915540",
+      "carry_days": 1
+    }
+  ]
 }

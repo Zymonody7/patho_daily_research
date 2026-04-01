@@ -1,10 +1,79 @@
 # 知识库
 
-- 最近沉淀条目数：268
+- 最近沉淀条目数：291
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [From 16S rRNA to deep learning: Evolution of computational approaches in human microbiome studies.](#/202604/01/202604/01/41418718-from-16s-rrna-to-deep-learning-evolution-of-computational-approaches-in-human-microbiome-studies)
+  - TLDR：人体微生物组研究正从简单的物种分类描述转向功能预测，但整合复杂的多组学数据仍面临挑战。本文综述了从 16S rRNA 测序到深度学习和网络建模的技术演进，重点介绍了 DeepMicro 等 AI 平台如何整合基因组与代谢组数据。这些进步实现了精准的生物标志物识别和宿主-微生物交互建模，将微生物组研究从观察性学科转变为可预测的转化科学，助力个性化医疗。
+  - Tags：`query:pathoai`
+- [Diagnostic performance of nanopore-targeted sequencing for pulmonary infections in a tuberculosis-endemic setting: A prospective observational study.](#/202604/01/202604/01/41581647-diagnostic-performance-of-nanopore-targeted-sequencing-for-pulmonary-infections-in-a-tuberculosis-endemic-setting-a-prospective-observational-study)
+  - TLDR：针对结核病高发地区肺部感染病原体复杂、多重感染常见且传统检测耗时长的挑战，本研究通过前瞻性临床试验，评估了纳米孔靶向测序（NTS）在单一流程内检测分枝杆菌、细菌和真菌的性能。结果显示NTS在多种病原体检测上的灵敏度均优于传统培养法，整体诊断收益提升12.2%，证明了其在复杂肺部感染快速诊断中的临床应用价值。
+  - Tags：`query:seqai`
+- [AI-empowered crop protection against insect-borne diseases.](#/202604/01/202604/01/41604840-ai-empowered-crop-protection-against-insect-borne-diseases)
+  - TLDR：针对昆虫传播植物病害对农业的严重威胁，本文综述了AI在解析病原体-植物-昆虫复杂交互中的应用。通过构建科学大模型与AI智能体，研究者可自动化科研流程并测试假设，同时利用AI进行抗性基因识别、农药虚拟筛选及合成免疫蛋白设计。这些技术为实现精准防控和理解病害流行规律提供了系统性的新工具，具有重要的科研与应用价值。
+  - Tags：`query:pathoai`
+- [Rapid detection of NDM-producing carbapenem-resistant Escherichia coli using MALDI-TOF MS combined with machine learning techniques.](#/202604/01/202604/01/41619912-rapid-detection-of-ndm-producing-carbapenem-resistant-escherichia-coli-using-maldi-tof-ms-combined-with-machine-learning-techniques)
+  - TLDR：针对产 NDM 酶的耐药大肠埃希菌（CREC）检测慢、传播快的问题，本研究结合 MALDI-TOF 质谱技术与机器学习算法，通过引入新型复合基质提升蛋白质图谱分辨率。利用随机森林模型实现了对 NDM 阳性菌株的高精度识别（AUC 达 0.993），并锁定了 4 个关键特征峰，为临床快速诊断耐药菌提供了高效、准确的技术手段。
+  - Tags：`query:pathoai`
+- [Detection of novel Pegivirus C genome in an unexplained febrile outbreak, Gombe State, Nigeria, 2024 by enhanced mNGS approach.](#/202604/01/202604/01/41667020-detection-of-novel-pegivirus-c-genome-in-an-unexplained-febrile-outbreak-gombe-state-nigeria-2024-by-enhanced-mngs-approach)
+  - TLDR：2024年7月尼日利亚发生一起不明原因急性发热疫情，常规检测无法确定病因。研究团队利用增强型宏基因组二代测序（mNGS）技术对22名患者血清进行深度分析，成功重构出一种新型庚型肝炎病毒C（Pegivirus C）的全基因组。结果显示该病毒在所有样本中均呈阳性，且与西非流行株高度相关，为探究该病毒在急性发热及出血症状中的潜在致病性提供了关键证据。
+  - Tags：`query:pathoai`
+- [KMGTMDA: KAN-driven multiscale graph neural network and context-enhanced prediction for human microbe-disease associations.](#/202604/01/202604/01/41698566-kmgtmda-kan-driven-multiscale-graph-neural-network-and-context-enhanced-prediction-for-human-microbe-disease-associations)
+  - TLDR：针对传统微生物实验成本高、周期长的问题，本研究提出 KMGTMDA 框架用于预测人类微生物与疾病的关联。该方法融合了动态多尺度图卷积、增强上下文的图 Transformer 以及 Kolmogorov-Arnold 网络（KAN），通过捕捉多尺度拓扑特征和全局依赖关系，在预测任务中取得了 0.9779 的 AUC。该工具能有效筛选潜在致病微生物，为疾病机制研究和靶向治疗提供计算支持。
+  - Tags：`query:pathoai`
+- [Compact and informative representation learning for scRNA-seq data clustering with masked information bottleneck.](#/202604/01/202604/01/41917934-compact-and-informative-representation-learning-for-scrna-seq-data-clustering-with-masked-information-bottleneck)
+  - TLDR：针对单细胞转录组测序（scRNA-seq）数据中存在的高稀疏、高噪声和信息冗余导致细胞聚类困难的问题，本研究提出了scMIB框架。该方法通过掩码去噪策略扰动基因表达以抑制噪声，并引入信息瓶颈（IB）目标来压缩冗余信号，从而提取最具代表性的特征。实验结果表明，scMIB在多个公开数据集上显著提升了聚类准确性和鲁棒性，为识别复杂生物系统中的细胞异质性提供了更可靠的工具。
+  - Tags：`query:seqai`
+- [TCMNet: an AI-driven strategy for optimizing traditional Chinese medicine.](#/202604/01/202604/01/41918015-tcmnet-an-ai-driven-strategy-for-optimizing-traditional-chinese-medicine)
+  - TLDR：针对中药方剂设计主观性强、靶点优先级缺乏权重等问题，研究者开发了 TCMNet 策略。该方法融合了专用大模型 TCMChat 提取的语义权重、加权蛋白质相互作用网络（PPI）以及 Boltz-2 深度学习结合预测。在帕金森病案例中，TCMNet 成功评估了天麻钩藤饮等经典方剂及中西医结合方案的疗效，并识别出银杏叶中的黄酮类活性成分，为中药方剂的现代化优化和活性成分鉴定提供了量化工具。
+  - Tags：`query:bioinfo`
+- [HistoGWAS: an AI-enabled framework for automated genetic analysis of tissue phenotypes in histology cohorts.](#/202604/01/202604/01/41918129-histogwas-an-ai-enabled-framework-for-automated-genetic-analysis-of-tissue-phenotypes-in-histology-cohorts)
+  - TLDR：针对组织病理学图像中遗传变异如何影响组织结构的分析难题，HistoGWAS 框架整合了视觉基础模型、方差分量模型和生成模型，实现了从自动特征提取到关联分析及效应解释的全流程自动化。在 GTEx 数据集的 11 种组织中，该方法成功识别出 4 个与组织表型显著相关的遗传位点（tissueQTLs），并揭示了其与复杂性状的联系，为大规模人群队列的组织遗传学研究提供了高效工具。
+  - Tags：`query:bioinfo`
+- [A computer-aided drug repurposing: the antibacterial agents targeting GroEL.](#/202604/01/202604/01/41239775-a-computer-aided-drug-repurposing-the-antibacterial-agents-targeting-groel)
+  - TLDR：针对抗生素研发成本高、周期长的问题，本研究开发了一套结合靶点筛选、药物预测、分子对接及动力学模拟的计算工作流，旨在从现有药物库中寻找针对细菌伴侣蛋白 GroEL 的抗菌药物。通过实验验证，成功发现达普司他和依折麦布具有显著的抗菌活性，且与外排泵抑制剂联用可增强药效，为老药新用提供了高效的计算筛选范式。
+  - Tags：`query:pathoai`
+- [Metagenomic next-generation sequencing in pediatric infectious disease diagnosis: A comprehensive systematic literature review and meta-analysis.](#/202604/01/202604/01/41500047-metagenomic-next-generation-sequencing-in-pediatric-infectious-disease-diagnosis-a-comprehensive-systematic-literature-review-and-meta-analysis)
+  - TLDR：针对儿科感染性疾病诊断中传统微生物检测灵敏度低、样本量受限的问题，本研究通过对33项研究（共4165名患者）进行系统综述和元分析，评估了宏基因组二代测序（mNGS）的诊断效能。结果显示mNGS的灵敏度（0.84）远高于传统检测（0.40），且在发现罕见病原体和指导临床用药方面具有显著优势，证明了其作为儿科感染诊断重要补充手段的临床价值。
+  - Tags：`query:pathoai`
+- [Metagenomic Surveillance of Blood-Fed Mosquitoes for Assessing Zoonotic Risk in Managed Animal Settings.](#/202604/01/202604/01/41574538-metagenomic-surveillance-of-blood-fed-mosquitoes-for-assessing-zoonotic-risk-in-managed-animal-settings)
+  - TLDR：针对人畜共患病早期监测难的问题，本研究提出利用吸血蚊子作为“生物采样器”的异源监测方案。通过在印度农场和动物园采集蚊子样本，结合牛津纳米孔（MinION）宏基因组测序技术，分析了不同宿主来源蚊子的微生物组。研究成功检测到疟原虫、巴贝斯虫等多种病原体基因片段，并揭示了宿主种类对微生物群落结构的显著影响，为构建“全健康”预警体系提供了非侵入式的新路径。
+  - Tags：`query:pathoai`
+- [Unraveling dengue virus-host interactions through transcriptomics: Insights into disease progression and severity signatures.](#/202604/01/202604/01/41638513-unraveling-dengue-virus-host-interactions-through-transcriptomics-insights-into-disease-progression-and-severity-signatures)
+  - TLDR：登革病毒（DENV）感染机制复杂且重症预警困难。本文综述了利用转录组学技术（如单细胞测序、空间转录组等）解析病毒与宿主相互作用的最新进展。通过分析宿主基因表达变化，研究揭示了病毒逃逸免疫的策略及疾病严重程度的分子特征，为早期诊断标志物的发现和抗病毒药物研发提供了关键的分子基础。
+  - Tags：`query:pathoai`
+- [Digital twin of Mycobacterium tuberculosis infection: Integrating immune dynamics and pathogen adaptation for precision therapy.](#/202604/01/202604/01/41650584-digital-twin-of-mycobacterium-tuberculosis-infection-integrating-immune-dynamics-and-pathogen-adaptation-for-precision-therapy)
+  - TLDR：结核分枝杆菌感染因个体差异大、病理过程复杂而难以精准治疗。该研究提出了一个结核病数字孪生框架，通过整合临床、免疫学和药代动力学数据，构建能模拟从肉芽肿形成到全身免疫调节的动态计算模型。该系统旨在预测治疗结果并识别耐药风险，为个性化给药和宿主导向干预提供决策支持，推动结核病从通用方案向精准医疗转型。
+  - Tags：`query:pathoai`
+- [IMPG2-associated retinal dystrophy with a novel missense variant and therapeutic options via adenine base editing.](#/202604/01/202604/01/41478731-impg2-associated-retinal-dystrophy-with-a-novel-missense-variant-and-therapeutic-options-via-adenine-base-editing)
+  - TLDR：针对一名患有早发性视杆-视锥细胞营养不良的患者，研究发现其 IMPG2 基因存在复合杂合突变，包括一个新的错义突变 p.Arg291Ser 和一个无义突变 c.411G>A。通过蛋白质结构建模揭示了该错义突变的致病性，并评估了利用腺嘌呤碱基编辑（ABE）技术修复无义突变的可行性，为 IMPG2 相关视网膜变性提供了精准诊断依据和潜在的基因治疗方案。
+  - Tags：`query:bioinfo`
+- [Comparative evaluation of multimodal point-of-care tests to differentiate gram-negative from gram-positive infections in critically ill adults: a diagnostic accuracy study.](#/202604/01/202604/01/41535672-comparative-evaluation-of-multimodal-point-of-care-tests-to-differentiate-gram-negative-from-gram-positive-infections-in-critically-ill-adults-a-diagnostic-accuracy-study)
+  - TLDR：针对脓毒症患者早期经验性用药缺乏针对性的问题，本研究系统评估了多种快速床旁检测（POCT）在区分革兰氏阴性与阳性感染中的准确性。通过对72项研究的荟萃分析发现，基于病原体的快速检测（如PCR和质谱）表现最优，而降钙素原（PCT）在3-5 ng/mL阈值下具有较好的临床参考价值，为早期精准抗感染治疗提供了循证依据。
+  - Tags：`query:pathoai`
+- [Viral metagenomics reveals the RNA viral composition of herbivorous wildlife on the Qinghai-Tibet Plateau.](#/202604/01/202604/01/41581442-viral-metagenomics-reveals-the-rna-viral-composition-of-herbivorous-wildlife-on-the-qinghai-tibet-plateau)
+  - TLDR：针对青藏高原极端环境下野生动物病毒组研究不足的问题，本研究对该地区6种草食性野生动物的741份粪便样本进行了病毒宏基因组分析。研究揭示了涵盖18个科的丰富RNA病毒组成，并成功组装出28条属于星状病毒科、微小核糖核酸病毒科等的新病毒序列。系统发育分析显示这些病毒与人类及多种哺乳动物病毒存在亲缘关系，为高原地区新发传染病的源头防控和生态风险评估提供了重要科学依据。
+  - Tags：`query:pathoai`
+- [Genomic diversity of human adenoviruses in Tanzanian children under five: Insights into F40, F41, B, and rare A18 genotypes.](#/202604/01/202604/01/41619541-genomic-diversity-of-human-adenoviruses-in-tanzanian-children-under-five-insights-into-f40-f41-b-and-rare-a18-genotypes)
+  - TLDR：针对坦桑尼亚地区人类腺病毒（HAdV）全基因组序列缺失导致难以追踪其演化与传播的问题，本研究利用纳米孔宏基因组测序技术，对患有腹泻的坦桑尼亚婴幼儿样本进行了深度测序。研究首次获得了非洲首例、全球第三例 HAdV-A18 全基因组，以及坦桑尼亚首批 F40、F41 和 B3 型基因组，填补了撒哈拉以南非洲地区腺病毒基因组数据的空白，为全球病毒监测和演化研究提供了关键数据支持。
+  - Tags：`query:seqai`
+- [The gut microbiota in Salmonella Typhi infection and translocation: Mechanisms of colonization resistance, pathogen subversion, and prospects for microecological intervention.](#/202604/01/202604/01/41690650-the-gut-microbiota-in-salmonella-typhi-infection-and-translocation-mechanisms-of-colonization-resistance-pathogen-subversion-and-prospects-for-microecological-intervention)
+  - TLDR：伤寒沙门氏菌如何突破肠道屏障是防治关键。本文综述了该菌与肠道菌群的博弈，分析了健康菌群通过代谢物构建的定植抵抗，以及病原菌利用毒素和效应蛋白破坏免疫、引发菌群失调的机制。文章评估了益生菌和粪菌移植等干预手段，并指出从传统小鼠模型向类器官等人类特异性模型转化的必要性，为耐药性伤寒的精准防控提供了微生态视角下的新路径。
+  - Tags：`query:pathoai`
+- [Boronic acid derivatives inhibit Candida albicans growth by compromising energy metabolism.](#/202604/01/202604/01/40738473-boronic-acid-derivatives-inhibit-candida-albicans-growth-by-compromising-energy-metabolism)
+  - TLDR：针对真菌性角膜炎等真菌感染缺乏高效药物的问题，本研究筛选并评估了含硼化合物的抗真菌活性。发现候选化合物 BD11 能通过抑制琥珀酸脱氢酶活性、降低 ATP 水平及破坏细胞壁完整性，有效抑制白色念珠菌的生长与毒力。在小鼠模型中，BD11 显著减轻了角膜损伤，为开发新型抗真菌药物提供了重要候选分子和代谢干预新思路。
+  - Tags：`query:pathoai`
+- [Comprehension of the age-dependent gut and brain interaction of honey bee workers by integration of multi omics approaches.](#/202604/01/202604/01/40749788-comprehension-of-the-age-dependent-gut-and-brain-interaction-of-honey-bee-workers-by-integration-of-multi-omics-approaches)
+  - TLDR：蜜蜂的劳动分工与年龄相关的行为转变密切相关，但肠道菌群与大脑之间的相互作用机制尚不明确。本研究通过对不同日龄工蜂的肠道和大脑进行多组学分析（元蛋白质组学和代谢组学），揭示了两者间氨基酸（如色氨酸）的运输与代谢关联。研究发现菌群结构随年龄显著变化，且代谢路径的改变与能量消耗及采蜜行为相关，为理解蜜蜂肠脑轴通讯及开发环境压力生物标志物提供了新视角。
+  - Tags：`query:bioinfo`
+- [Metagenomics insights into bacterial community, viral diversity and community-scale functions in fermented red pepper.](#/202604/01/202604/01/41344778-metagenomics-insights-into-bacterial-community-viral-diversity-and-community-scale-functions-in-fermented-red-pepper)
+  - TLDR：针对发酵红辣椒中微生物功能、病毒多样性及抗生素耐药基因（ARG）传播机制不明的问题，本研究采用宏基因组学多方法集成分析，揭示了芽孢杆菌在碳降解中的核心作用，并发现有益菌是ARG的主要载体。研究指出ARG分布主要受菌群组成而非水平基因转移驱动，为优化发酵效率与防控生物安全风险提供了双重策略指导。
+  - Tags：`query:pathoai`
+- [Lung microbiome quantification and bacterial density as prognostic markers in lung transplantation.](#/202604/01/202604/01/41453696-lung-microbiome-quantification-and-bacterial-density-as-prognostic-markers-in-lung-transplantation)
+  - TLDR：慢性肺同种异体移植物功能障碍（CLAD）是影响肺移植长期生存率的主要障碍。本研究通过对108名肺移植受者的支气管肺泡灌洗液进行病例对照分析，对比了微生物相对丰度与绝对定量在预测CLAD中的表现。结果表明，结合细菌绝对密度能显著增强微生物特征与CLAD发生风险的关联，证明了绝对定量在评估移植预后中的关键价值。
+  - Tags：`query:pathoai`
 - [AI-guided multi-omics analysis identifies NPC1-modulated susceptibility to SARS-CoV-2 infection under PM](#/202603/31/202603/31/41912520-ai-guided-multi-omics-analysis-identifies-npc1-modulated-susceptibility-to-sars-cov-2-infection-under-pm)
   - TLDR：针对PM2.5暴露增加新冠病毒感染风险但机制不明的问题，本研究利用微调的单细胞转录组大模型，结合流行病学、GWAS及多组学分析，发现NPC1蛋白是关键调节因子。研究证实PM2.5通过NPC1介导的内吞-溶酶体途径促进病毒进入细胞，揭示了环境与遗传因素共同影响易感性的分子机制，为空气质量政策和防疫提供了科学依据。
   - Tags：`query:pathoai`
@@ -535,73 +604,4 @@
   - Tags：`query:pathoai`
 - [Not all vaginal microbiomes are equal: functional context shapes immune landscapes.](#/202603/11/202603/11/41642002-not-all-vaginal-microbiomes-are-equal-functional-context-shapes-immune-landscapes)
   - TLDR：传统的阴道微生物组分类方法难以区分功能差异，尤其是加德纳菌主导的复杂情况。本研究开发了基于基因目录的VISTA算法，定义了25种元基因组群落状态类型（mgCSTs）。研究发现，即使同为加德纳菌主导，其功能基因表达和引发的宿主免疫反应也大不相同。这证明了阴道菌群失调不能仅看物种比例，为生殖健康精准医疗提供了功能层面的新分类标准。
-  - Tags：`query:pathoai`
-- [A tiled amplicon protocol for culture-free whole-genome sequencing of](#/202603/11/202603/11/41660836-a-tiled-amplicon-protocol-for-culture-free-whole-genome-sequencing-of)
-  - TLDR：结核分枝杆菌（TB）的传统全基因组测序依赖耗时数周的细菌培养，严重滞后于临床决策。本研究开发了名为 TB-seq 的平铺扩增子测序方案，通过设计包含 5,128 个引物的超大规模引物组，实现了直接从患者痰液样本中提取并测序 TB 全基因组。该方法将耐药性检测周期从数周缩短至数天，在低浓度和混合样本中表现优异，为资源受限地区的结核病快速诊断和流行病学监测提供了高效工具。
-  - Tags：`query:pathoai`
-- [Efficient detection and typing of phage-plasmids.](#/202603/11/202603/11/41660861-efficient-detection-and-typing-of-phage-plasmids)
-  - TLDR：噬菌体-质粒（P-Ps）兼具噬菌体和质粒的特征，导致现有工具难以将其与普通移动遗传元件区分。为此，研究者开发了 tyPPing 工具，通过分析保守蛋白质的频率和组合特征，实现了对 P-Ps 的高效识别与分类。实验证明该工具在灵敏度和可扩展性上优于现有方法，能准确识别携带抗药性或毒力因子的 P-Ps，为研究细菌进化和临床致病机理提供了可靠的生物信息学基础。
-  - Tags：`query:seqai`
-- [Computational modelling of the equine arteritis virus GP5/M Dimer: Implications for immune evasion and virulence.](#/202603/11/202603/11/41805756-computational-modelling-of-the-equine-arteritis-virus-gp5m-dimer-implications-for-immune-evasion-and-virulence)
-  - TLDR：马动脉炎病毒（EAV）的GP5/M二聚体是病毒入侵和免疫逃逸的关键，但其精确结构此前尚不明确。本研究利用AlphaFold3预测了该二聚体的三维结构，并与猪繁殖与呼吸综合征病毒（PRRSV）进行了对比。结果揭示了包含中和表位的外域结构、聚糖屏蔽机制以及与毒力相关的跨膜区特征，为开发针对EAV的精准疫苗提供了分子层面的理论依据。
-  - Tags：`query:bioinfo`
-- [Bacterial β-carbonic anhydrases: a six-step prioritization framework for antibacterial target validation.](#/202603/11/202603/11/41806044-bacterial--carbonic-anhydrases-a-six-step-prioritization-framework-for-antibacterial-target-validation)
-  - TLDR：针对细菌β-碳酸酐酶（β-CAs）作为抗菌靶点验证不充分的问题，本研究构建了一个包含遗传必需性、生理相关性等六个维度的评估框架。通过对大肠杆菌、结核杆菌等四种病原体的分析，发现目前尚无β-CA异构体完全符合理想治疗靶点标准，多数存在验证缺口。该框架为未来抗菌药物研发提供了系统性的优先级评估工具和实验路线图。
-  - Tags：`query:pathoai`
-- [Underexplored maternal microbiomes: immune, metabolic, and microbial pathways shaping pregnancy outcomes.](#/202603/11/202603/11/41661098-underexplored-maternal-microbiomes-immune-metabolic-and-microbial-pathways-shaping-pregnancy-outcomes)
-  - TLDR：孕期母体微生物群对生殖生理和妊娠结局至关重要，但除肠道外的其他部位研究较少。本文综述了宫颈阴道、尿道、口腔等非肠道微生物群如何通过免疫调节和代谢信号影响母体健康。研究指出这些微生物群构成了一个协同网络，共同调节全身免疫和代谢通路，为通过精准微生物组学预测和干预早产、妊娠糖尿病等并发症提供了新视角。
-  - Tags：`query:pathoai`
-- [Identification of novel pyrazolo[4,3-c]pyridine and diazepane derivatives as potent inhibitors of](#/202603/11/202603/11/41661129-identification-of-novel-pyrazolo43-cpyridine-and-diazepane-derivatives-as-potent-inhibitors-of)
-  - TLDR：针对结核分枝杆菌耐药性及治疗周期长的问题，本研究聚焦于关键毒力因子 PtpB-Mtb 靶点。通过结合基于结构的虚拟筛选、分子动力学模拟及量子化学计算，从化合物库中筛选出潜在抑制剂。实验验证发现吡唑并[4,3-c]吡啶和二氮杂环类衍生物具有显著的抑制活性（IC50 达 14.4 µM）和极强的结合亲和力，为开发新型抗结核药物提供了具有潜力的先导化合物。
-  - Tags：`query:pathoai`
-- [Design and Mechanistic Study of Pf-15: A Linear Antimicrobial Peptide Derived from Gramicidin S Skeleton.](#/202603/11/202603/11/41733505-design-and-mechanistic-study-of-pf-15-a-linear-antimicrobial-peptide-derived-from-gramicidin-s-skeleton)
-  - TLDR：针对多重耐药菌威胁食品安全的问题，研究者基于短杆菌肽S（GS）骨架，通过开环、氨基酸替换及片段截短等策略设计出线性抗菌肽Pf-15。该肽具有稳定的α-螺旋结构，能精准靶向金黄色葡萄球菌细胞壁的脂磷壁酸，通过破坏细胞膜和诱导氧化应激杀灭病原体。实验证明Pf-15在保持高效广谱抗菌活性的同时，具有极低的溶血性和良好的生物相容性，为开发新型食品防腐剂提供了重要参考。
-  - Tags：`query:pathoai`
-- [Thirteen metagenome-assembled genomes of](#/202603/11/202603/11/41805177-thirteen-metagenome-assembled-genomes-of)
-  - TLDR：为了探究条斑紫菜共生微生物的功能，研究人员从不同发育阶段的紫菜样本中重构了13个 Paraglaciecola chathamensis 的宏基因组组装基因组（MAGs）。分析发现这些基因组编码了涉及宿主互作、营养获取、氮代谢及抗逆性相关的蛋白质。该研究揭示了 Paraglaciecola 在紫菜全基因组系统中的潜在生态作用，为理解海藻共生机制提供了重要的基因组学基础。
-  - Tags：`query:pathoai`
-- [Integrating ANI and phylogenies for re-evaluation of Fusobacterium taxonomy and disease associations.](#/202603/11/202603/11/41807455-integrating-ani-and-phylogenies-for-re-evaluation-of-fusobacterium-taxonomy-and-disease-associations)
-  - TLDR：针对梭杆菌属（Fusobacterium）特别是具核梭杆菌分类模糊的问题，本研究通过分析540个基因组的平均核苷酸一致性（ANI）和系统发育关系，确定了物种界定的ANI阈值并修订了分类体系。研究提出了基于gyrB和rpoB标记的B&B鉴定策略，无需全基因组测序即可实现精准分类，并重新评估了其与结直肠癌的关联，为相关疾病研究提供了标准化的分类框架。
-  - Tags：`query:pathoai`
-- [In silico structural and functional characterization of high-risk missense variants in MMP8, GZMK, and OASL genes associated with epidemic viral infections.](#/202603/11/202603/11/41807577-in-silico-structural-and-functional-characterization-of-high-risk-missense-variants-in-mmp8-gzmk-and-oasl-genes-associated-with-epidemic-viral-infections)
-  - TLDR：本研究针对流行性病毒感染中与免疫相关的 MMP8、GZMK 和 OASL 基因，通过计算模拟分析了其高风险错义突变对蛋白质结构和功能的影响。利用分子动力学模拟和对接技术，发现 D253N (MMP8)、L122P (GZMK) 和 W216C (OASL) 等突变显著改变了蛋白的柔韧性、紧凑度和构象稳定性。这些发现揭示了遗传变异如何通过改变免疫蛋白行为来影响个体对病毒的易感性，为后续免疫失调研究提供了理论基础。
-  - Tags：`query:bioinfo`
-- [Leveraging proteomics and machine learning for mechanism and biomarker discovery on glioma progression and transformation: from LGG to GBM.](#/202603/11/202603/11/41807981-leveraging-proteomics-and-machine-learning-for-mechanism-and-biomarker-discovery-on-glioma-progression-and-transformation-from-lgg-to-gbm)
-  - TLDR：低级别胶质瘤（LGG）具有向高级别恶化的风险，但其演化机制尚不明确。本研究通过对28名患者的61份配对胶质瘤样本进行蛋白质组学分析，揭示了Ras/p38-MAPK通路、RFC介导的DNA修复及代谢重编程在恶化过程中的关键作用。研究进一步利用机器学习构建了包含两个蛋白质标志物的预测模型，为临床监测LGG进展提供了具有转化价值的新工具。
-  - Tags：`query:seqai`
-- [Biosensing technologies for foodborne pathogen detection and healthcare: principles, emerging materials, and intelligent platforms.](#/202603/11/202603/11/41803510-biosensing-technologies-for-foodborne-pathogen-detection-and-healthcare-principles-emerging-materials-and-intelligent-platforms)
-  - TLDR：食源性致病菌威胁全球公共卫生，传统检测法耗时且难以实地部署。本文综述了结合功能纳米材料与AI/机器学习的先进生物传感平台，重点探讨了电化学、光学及微流控技术。通过引入智能模式识别与实时分析，将传统传感器升级为高灵敏度、可多路复用的智能诊断设备，为下一代食品安全监测提供了从技术创新到实际应用的系统性方案。
-  - Tags：`query:pathoai`
-- [A foundation model for multi-task cross-distribution restoration of fluorescence microscopy images.](#/202603/11/202603/11/41807447-a-foundation-model-for-multi-task-cross-distribution-restoration-of-fluorescence-microscopy-images)
-  - TLDR：针对荧光显微成像中现有模型任务单一、泛化性差的问题，本文开发了 FluoResFM 基础模型。该模型通过引入文本先验信息，在统一框架下实现了去噪、解卷积和超分辨率等多任务处理。在涵盖20多种生物结构的异质数据集上训练后，FluoResFM 展现出卓越的跨分布泛化能力，仅需单样本微调即可适配新任务，显著提升了下游细胞分割的准确性。
-  - Tags：`query:bioinfo`
-- [Deep learning-based in silico labeling for analyzing morphological features of MSCs to predict immunomodulatory capacity.](#/202603/11/202603/11/41807585-deep-learning-based-in-silico-labeling-for-analyzing-morphological-features-of-mscs-to-predict-immunomodulatory-capacity)
-  - TLDR：针对间充质干细胞（MSC）质量评估中传统标记方法具有侵入性且耗时的问题，本研究开发了一种结合深度学习与机器学习的非侵入性框架。该框架利用改进的 PreAct-ResNet50 进行细胞及细胞核的高精度实例分割并提取形态学特征，随后通过 LightGBM 模型预测免疫调节生物标志物。实验证明该系统能有效评估 MSC 效力，为细胞治疗制造中的实时质量控制提供了高效工具。
-  - Tags：`query:bioinfo`
-- [Development and validation of a high-confidence diagnostic model integrating ctDNA methylation and serum biomarkers for early-stage hepatocellular carcinoma detection.](#/202603/11/202603/11/41807813-development-and-validation-of-a-high-confidence-diagnostic-model-integrating-ctdna-methylation-and-serum-biomarkers-for-early-stage-hepatocellular-carcinoma-detection)
-  - TLDR：针对早期肝细胞癌（HCC）筛查中现有血清标志物灵敏度不足的问题，本研究开发了多模态诊断模型 GAMAD。该模型融合了 ctDNA 甲基化检测（HepaAiQ）与性别、年龄、AFP 及 DCP 等传统指标。在 1,692 例样本的临床验证中，GAMAD 在早期（0/A期）肝癌检测中实现了 86.5% 的灵敏度和 0.952 的 AUC，显著优于传统的 GALAD 模型，为高风险人群的早期精准诊断提供了强有力的辅助工具。
-  - Tags：`query:bioinfo`
-- [Fingerprinting Fluorescent](#/202603/11/202603/11/41810482-fingerprinting-fluorescent)
-  - TLDR：针对传统荧光原位杂交（FISH）技术在病原菌检测中多重检测能力受限的问题，该研究提出了一种基于DNA自组装驱动的指纹荧光原位杂交（FinFISH）策略。通过FAM、Cy3和Cy5三种荧光团的组合编码，为不同病原菌生成独特的荧光指纹，突破了成像通道数量对检测通量的限制。实验证明该方法在模拟及临床样本中均能准确识别病原菌并提供半定量信息，为临床诊断和空间微生物组学研究提供了高效工具。
-  - Tags：`query:pathoai`
-- [Artificial intelligence based approaches for prediction of antimicrobial resistance in ruminant host pathogens.](#/202603/10/202603/10/41801565-artificial-intelligence-based-approaches-for-prediction-of-antimicrobial-resistance-in-ruminant-host-pathogens)
-  - TLDR：反刍动物的抗生素耐药性（AMR）严重威胁畜牧业安全，传统检测手段效率低下。本文探讨了利用机器学习和深度学习技术，通过分析病原体的基因组、蛋白质组及表型数据来预测耐药性的前沿方法。这些 AI 模型能够快速识别耐药模式并预测潜在风险，为优化临床用药决策和加强公共卫生监测提供了关键的技术支撑。
-  - Tags：`query:pathoai`
-- [DNA-Logic Trimodal Biofuel Cell Platform for AI-Assisted Dual Pathogen Detection.](#/202603/10/202603/10/41802090-dna-logic-trimodal-biofuel-cell-platform-for-ai-assisted-dual-pathogen-detection)
-  - TLDR：针对甘蔗黑穗病和梢腐病检测依赖实验室、耗时长的问题，该研究开发了一种基于DNA逻辑门控的三模态自供电生物传感平台。该平台集成电化学、比色和光热信号，通过DNA逻辑电路实现双病原体并行检测，并利用随机森林回归模型进行AI辅助数据处理。实验证明其检测限达亚飞摩尔级，且在田间样本测试中表现出与qPCR高度一致的准确性，为智慧农业提供了低成本、便携的现场筛查方案。
-  - Tags：`query:pathoai`
-- [A clinic-responder-derived defined microbial consortium enhances anti-PD-1 immunotherapy efficacy in mice.](#/202603/10/202603/10/41803498-a-clinic-responder-derived-defined-microbial-consortium-enhances-anti-pd-1-immunotherapy-efficacy-in-mice)
-  - TLDR：针对肠道微生物群影响癌症免疫治疗效果但临床转化受限的问题，研究者通过宏基因组分析和计算预测，从非小细胞肺癌响应者粪便中筛选出15种细菌组成联合菌群RCom。实验证明RCom能稳定定植并产生免疫调节代谢物，通过增强肿瘤内CD8+ T细胞的浸润与杀伤功能，显著提升了小鼠模型中抗PD-1疗法的有效性，并能克服非响应者菌群导致的耐药性，为开发免疫治疗辅助药物提供了新路径。
-  - Tags：`query:pathoai`
-- [Global genomic diversity of temperate P2-like viruses.](#/202603/10/202603/10/41803419-global-genomic-diversity-of-temperate-p2-like-viruses)
-  - TLDR：针对温和噬菌体 P2 样病毒（P2Vs）因溶源特性难以通过传统方法分离、导致其多样性与生态功能研究受限的问题，本研究利用隐马尔可夫模型（pHMMs）对公共数据库进行大规模挖掘。研究成功构建了包含 5945 个基因组的 P2VGD 数据库，将已知多样性提升了百倍以上，并揭示了其在不同生境（如肠道、海洋）中通过辅助代谢基因调节宿主适应性的机制，为理解病毒-宿主共进化提供了重要资源。
-  - Tags：`query:pathoai`
-- [Revealing transcriptomic responses in](#/202603/10/202603/10/41805196-revealing-transcriptomic-responses-in)
-  - TLDR：针对致病菌在抗生素暴露初期（前30分钟）转录响应机制不明的问题，本研究利用 iModulon 分析方法处理大肠杆菌的时间序列转录组数据。研究揭示了一个由应激激活、氧化还原平衡恢复及代谢重塑构成的三阶段动态调控模型。该成果为理解细菌如何整合代谢与应激信号以应对抗生素压力提供了系统性框架，有助于挖掘耐药性产生的早期调控逻辑。
-  - Tags：`query:pathoai`
-- [Unlocking the black box: multimodal imaging and quantitative analysis of plant vesicular trafficking.](#/202603/10/202603/10/41803325-unlocking-the-black-box-multimodal-imaging-and-quantitative-analysis-of-plant-vesicular-trafficking)
-  - TLDR：植物囊泡运输是环境响应的核心，但因观测手段受限长期处于“黑箱”状态。本文综述了结合化学生物学探针与深度学习模型（如DeepFRAP、FCSNet）的多模态成像范式，实现了对囊泡动力学的精确数学建模。该方法解决了内吞化学计量等争议，将纳米级膜动态与植物抗逆表型关联，为理解植物信号转导提供了定量研究框架。
-  - Tags：`query:bioinfo`
-- [Dynamic interaction between Escherichia coli enterotoxins and bacteriocins.](#/202603/10/202603/10/41804674-dynamic-interaction-between-escherichia-coli-enterotoxins-and-bacteriocins)
-  - TLDR：肠道菌群抵御病原体入侵的分子机制尚不明确。本研究通过构建共生大肠杆菌与产肠毒素大肠杆菌（ETEC）的共培养模型，发现细菌素与肠毒素之间存在复杂的双向调控：毒素ST通过cGMP通路抑制细菌素产生，而毒素LT则通过cAMP通路促进其表达。这一发现揭示了病原体与益生菌间的分子对话机制，为利用菌群干预手段防治肠道感染提供了新视角。
   - Tags：`query:pathoai`

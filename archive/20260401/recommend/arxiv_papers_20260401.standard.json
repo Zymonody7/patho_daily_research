@@ -1,0 +1,1104 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-04-01T19:50:26.626190+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 20,
+    "deep_cap": 9,
+    "deep_selected": 9,
+    "quick_candidates": 39,
+    "quick_skim_target": 14,
+    "quick_selected": 14
+  },
+  "deep_dive": [
+    {
+      "id": "41418718",
+      "title": "From 16S rRNA to deep learning: Evolution of computational approaches in human microbiome studies.",
+      "abstract": "The human microbiome plays a vital role in maintaining physiological balance and influencing immunity, metabolism, and disease development. Over the past decade, the field has witnessed a remarkable transition from traditional 16S rRNA sequencing and culture-based assays to advanced computational frameworks that integrate multiomics datasets. Modern computational tools now enable researchers to move beyond descriptive taxonomy toward functional, predictive, and mechanistic insights, with techniques such as network modeling, genome-scale metabolic reconstruction, and deep learning algorithms facilitating the accurate profiling of microbial communities and the identification of biomarkers associated with complex disorders. AI-based platforms including QIIME, MetaPhlAn, and DeepMicro have further strengthened microbiome analysis by integrating genomic, proteomic, and metabolomic data to model host-microbe interactions. Despite these advances, challenges such as data heterogeneity, limited interpretability of AI models, and ethical issues in data sharing continue to impede clinical translation. Future progress will rely on explainable AI, federated learning, and standardized data frameworks to promote transparency, reproducibility, and applicability in precision medicine. Overall, the integration of AI-driven bioinformatics marks a paradigm shift in human microbiome research, transforming it from an observational discipline into a predictive and translational science with the potential to revolutionize personalized healthcare.",
+      "authors": [
+        "Jyotsana Dwivedi",
+        "Man Mohan Shukla",
+        "Akanksha Upadhyay",
+        "Ankita Wal",
+        "Krishana Kumar Sharma",
+        "Amin Gasmi"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41418718/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "deep learning for microbiome host interaction and biomarkers",
+      "llm_evidence_cn": "深度学习用于微生物组宿主相互作用和生物标志物",
+      "llm_evidence": "深度学习用于微生物组宿主相互作用和生物标志物",
+      "canonical_evidence": "深度学习用于微生物组宿主相互作用和生物标志物",
+      "llm_tldr_en": "Reviews the evolution of microbiome analysis from 16S rRNA to deep learning for disease prediction.",
+      "llm_tldr_cn": "综述了人类微生物组研究从16S rRNA测序到集成多组学深度学习框架的演进过程。",
+      "llm_tldr": "综述了人类微生物组研究从16S rRNA测序到集成多组学深度学习框架的演进过程。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41581647",
+      "title": "Diagnostic performance of nanopore-targeted sequencing for pulmonary infections in a tuberculosis-endemic setting: A prospective observational study.",
+      "abstract": "BACKGROUND: Pulmonary infections in tuberculosis (TB)-endemic settings are heterogeneous and commonly polymicrobial. Nanopore-targeted sequencing (NTS) enables detection of mycobacteria, bacteria, and fungi in a single targeted assay. However, performance across pathogen classes in TB-endemic cohorts remains limited. METHODS: We conducted a prospective study at a specialized TB hospital, enrolling adults with suspected pulmonary infections across five predefined diagnostic categories: pulmonary TB, nontuberculous mycobacterial pulmonary disease, bacterial, fungal, and polymicrobial infection. Respiratory specimens (n = 312) from 305 patients were tested in parallel by conventional microbiological testing (CMT) and NTS. Blinded clinical diagnoses served as the reference standard. RESULTS: Among 283 paired cases, NTS identified the adjudicated pathogens in 263 cases, whereas culture identified them in 185 cases. NTS showed a sensitivity/specificity of 83.0%/99.4% for Mycobacterium tuberculosis, 89.8%/98.2% for nontuberculous mycobacteria, 92.9%/91.1% for fungi, and 97.4%/57.8% for bacteria. In 72 polymicrobial infections, NTS detected all adjudicated pathogens in 77.8% vs 62.5% for CMT, a nonsignificant difference (P = 0.06). Overall, NTS provided a 12.2% incremental diagnostic yield. CONCLUSION: NTS offers sensitive, single-assay detection of diverse pulmonary pathogens in TB-endemic settings. By streamlining workflows and improving detection of fastidious or co-infecting organisms, it may complement conventional methods. However, bacterial NTS findings in nonsterile respiratory specimens require clinical correlation.",
+      "authors": [
+        "Qijing Fan",
+        "Jun Chen",
+        "Ying Wang",
+        "Rui Liao",
+        "Shiwei Gong",
+        "Jianjian Guo",
+        "Youyi Rao",
+        "Tao Fang",
+        "Shaohua Hu",
+        "Lifeng Chen",
+        "Jing Zhou",
+        "Zhengbin Zhang",
+        "Yi Ren",
+        "Shi Chen"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41581647/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "nanopore-targeted sequencing for pathogen detection",
+      "llm_evidence_cn": "纳米孔靶向测序用于病原体检测",
+      "llm_evidence": "纳米孔靶向测序用于病原体检测",
+      "canonical_evidence": "纳米孔靶向测序用于病原体检测",
+      "llm_tldr_en": "Evaluates nanopore-targeted sequencing for detecting multiple pathogen classes in pulmonary infections.",
+      "llm_tldr_cn": "评估纳米孔靶向测序在肺部感染中对多种病原体的检测性能。",
+      "llm_tldr": "评估纳米孔靶向测序在肺部感染中对多种病原体的检测性能。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "AI for nanopore sequencing basecalling genomic alignment and variant analysis",
+      "matched_requirement_id": "req-39",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41604840",
+      "title": "AI-empowered crop protection against insect-borne diseases.",
+      "abstract": "Insect-borne plant diseases, such as psyllid-transmitted citrus Huanglongbing (HLB) and whitefly-transmitted viral diseases, pose a major threat to global agriculture. These insect-borne pathogens establish in multipartite interactions with host plants and insect vectors, frequently altering host physiology and vector behavior to facilitate transmission. This review examines recent advances in plant defense against these pathogens, as well as pathogen strategies that undermine host defenses. We emphasize the promise of artificial intelligence (AI) in accelerating scientific research and technological advancements for managing insect-borne diseases. These strategies contribute to building an integrated platform, which trains scientific foundation models and creates AI agents to automate research workflows and test hypotheses. They also provided precision intervention strategies by identifying resistance genes, developing in silico approaches to develop new pesticides, and synthetic immune proteins. These AI platforms for insect-borne plant diseases enable a systemic understanding of the complex pathogen-plant-insect interactions, thereby offering new opportunities for controlling disease outbreaks and epidemics.",
+      "authors": [
+        "Pingzhi Zhao",
+        "Qiudong Xia",
+        "Jian Ye"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41604840/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "AI foundation models for managing insect-borne pathogen diseases",
+      "llm_evidence_cn": "用于管理虫媒病原体疾病的AI基础模型",
+      "llm_evidence": "用于管理虫媒病原体疾病的AI基础模型",
+      "canonical_evidence": "用于管理虫媒病原体疾病的AI基础模型",
+      "llm_tldr_en": "Review highlights AI and foundation models for understanding and managing insect-borne plant pathogens.",
+      "llm_tldr_cn": "综述强调了AI和基础模型在理解和管理虫媒植物病原体方面的应用前景。",
+      "llm_tldr": "综述强调了AI和基础模型在理解和管理虫媒植物病原体方面的应用前景。",
+      "llm_tags": [
+        "query:pathoai:composite"
+      ],
+      "matched_query_tag": "query:pathoai:composite",
+      "matched_query_text": "Papers central to 病原组学中的 AI 方法, especially work that connects or combines: foundation models for pathogen genomes and pathogen biology; machine learning for metagenomic pathogen classification; deep learning models for pathogen detection from sequencing data; AI methods for genomic surveillance and outbreak monitoring; machine learning for antimicrobial resistance prediction from genomes; machine learning for phylogenetic and transmission inference; multimodal models combining pathogen sequence phenotype and metadata; machine learning for microbiome host interaction pathogen ecology and infection modeling; AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design; foundation models for pathogen genome understanding and surveillance.",
+      "matched_requirement_id": "req-composite-pathoai",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41619912",
+      "title": "Rapid detection of NDM-producing carbapenem-resistant Escherichia coli using MALDI-TOF MS combined with machine learning techniques.",
+      "abstract": "BACKGROUND: Carbapenem-resistant Escherichia coli (CREC) producing New Delhi metallo-beta-lactamase (NDM) poses a substantial threat to global public health. Prompt detection of CREC is essential for effective patient management and to curb the spread of resistance. OBJECTIVE: This study aims to establish a rapid and reliable detection method for NDM-producing CREC using matrix-assisted laser desorption ionization time-of-flight mass spectrometry (MALDI-TOF MS) in conjunction with machine learning (ML) techniques. METHODS: Clinical isolates of E. coli were collected from the First Hospital of Jilin University's clinical laboratory from August 2018 to December 2022. Polymerase chain reaction was employed to detect 23 prevalent resistance genes in the isolates. Protein profiles were analysed by MALDI-TOF MS with a cooperative matrix consisting of (E)-propyl α-cyano-4-hydroxylcinnamylate (CHCA-C3) and α-cyano-4-hydroxycinnamic acid (CHCA). By comparative analysis of nine ML algorithms, the optimal algorithm was identified and used to find the NDM-specific ion peaks. Furthermore, the NDM gene was cloned into the standard E. coli strain ATCC 25922 to verify the reliability of these specific peaks. RESULTS: A total of 154 E. coli strains were categorized into three groups: 45 CREC strains, 58 extended-spectrum beta-lactamase-producing strains, and 51 non-CREC, non-extended-spectrum beta-lactamase strains. Polymerase chain reaction amplification identified 12 resistance genes. The established ML model with random forest algorithm exhibits excellent discriminative ability, achieving an AUC of 0.993 and an AP of 0.997. Four specific peaks (m/z 5132, m/z 5209, m/z 6350, and m/z 6371) of NDM were identified using the cooperative matrix. In contrast, the traditional CHCA matrix revealed no specific peaks. Furthermore, the specific peaks at m/z 5132 and m/z 5209 were detected in the MALDI-TOF MS spectra of the recombinant E. coli strain ATCC 25922-PZY01/NDM, which directly correlated with the expression of the NDM gene. CONCLUSIONS: The integration of MALDI-TOF MS with ML techniques, facilitated by the cooperative matrix approach, has enabled the swift and precise identification of NDM-producing CREC. This advancement significantly enhances the effectiveness of clinical management and the control of hospital-acquired infections.",
+      "authors": [
+        "Rongrong Dong",
+        "Yifei Wang",
+        "Lei Song",
+        "Jiayin Wang",
+        "Chun Yang",
+        "Xufeng Ji",
+        "Qi Zhou",
+        "Hao Wang",
+        "Xinhua Guo",
+        "Jiancheng Xu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41619912/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "machine learning for carbapenem-resistant E. coli detection",
+      "llm_evidence_cn": "机器学习用于碳青霉烯耐药大肠杆菌检测",
+      "llm_evidence": "机器学习用于碳青霉烯耐药大肠杆菌检测",
+      "canonical_evidence": "机器学习用于碳青霉烯耐药大肠杆菌检测",
+      "llm_tldr_en": "Combines MALDI-TOF MS with machine learning for rapid detection of NDM-producing resistant E. coli.",
+      "llm_tldr_cn": "结合质谱技术与机器学习，实现产NDM酶耐药大肠杆菌的快速检测。",
+      "llm_tldr": "结合质谱技术与机器学习，实现产NDM酶耐药大肠杆菌的快速检测。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for antimicrobial resistance prediction from genomes",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41667020",
+      "title": "Detection of novel Pegivirus C genome in an unexplained febrile outbreak, Gombe State, Nigeria, 2024 by enhanced mNGS approach.",
+      "abstract": "OBJECTIVES: In July 2024, an outbreak of acute febrile illness occurred in Chassi village, Gombe State, Nigeria, affecting over 30 individuals, primarily children, with symptoms including fever, jaundice, abdominal pain, and mucosal bleeding. The cause remained unidentified after conventional diagnostics excluded known viral hemorrhagic fevers, malaria, and bacterial infections. This study aimed to investigate the potential etiologic agent behind the outbreak using unbiased genomic techniques. METHODS: We employed a metagenomic next-generation sequencing (mNGS) strategy with viral enrichment to analyze serum samples from 22 symptomatic patients. A novel complete 9.3 kb genome of Pegivirus C (GOMBE-017-2025) was reconstructed and phylogenetically compared to global sequences. Detection was validated using targeted PCR and Sanger sequencing. Environmental and microbial testing were conducted on local water sources. RESULTS: Pegivirus C was consistently detected in all 22 samples. The reconstructed genome showed 92.7% identity to a 2018 Nigerian strain and clustered with West African isolates. PCR and sequencing confirmed its presence. Environmental and bacterial sources were ruled out as causative agents. CONCLUSION: The uniform detection of Pegivirus C in this localized outbreak raises concern over its potential pathogenic or co-pathogenic role. These findings support the need for further investigation into its transmission dynamics, tropism, and clinical relevance.",
+      "authors": [
+        "Maryam Sani Lawal",
+        "Kyoko Hayashida",
+        "Tatsuki Sugi",
+        "Adesuyi Ayodeji Omoare",
+        "Nuhu Bile",
+        "Haruna Ishaya Maikudi",
+        "Pius Odunzec Israel James",
+        "Felix Villeng",
+        "Olajumoke Babatunde",
+        "Jide Idris",
+        "Junya Yamagishi"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41667020/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "mNGS approach for pathogen detection in unexplained febrile outbreak",
+      "llm_evidence_cn": "利用mNGS方法在不明原因发热疫情中检测病原体",
+      "llm_evidence": "利用mNGS方法在不明原因发热疫情中检测病原体",
+      "canonical_evidence": "利用mNGS方法在不明原因发热疫情中检测病原体",
+      "llm_tldr_en": "Identifies a novel Pegivirus C genome in an outbreak using metagenomic next-generation sequencing.",
+      "llm_tldr_cn": "利用宏基因组二代测序技术在疫情中鉴定出一种新型庚型肝炎病毒C基因组。",
+      "llm_tldr": "利用宏基因组二代测序技术在疫情中鉴定出一种新型庚型肝炎病毒C基因组。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "deep learning models for pathogen detection from sequencing data",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41698566",
+      "title": "KMGTMDA: KAN-driven multiscale graph neural network and context-enhanced prediction for human microbe-disease associations.",
+      "abstract": "OBJECTIVE: Microorganisms play an irreplaceable role in critical physiological processes such as human metabolic regulation, cancer inhibition, and pathogen antagonism, yet traditional culture-based microbial experiments are expensive and time-consuming. Consequently, there is an urgent need to develop efficient computational prediction models to prioritize disease-related microbes, aiming to discover potential associations and reveal their underlying biological mechanisms. METHODS: A novel computational framework named KMGTMDA is proposed. First, a dynamic adjacency matrix is employed to dynamically integrate first-order adjacency and higher-order topological information, utilizing an attribute matrix generation network to adaptively adjust node connection weights, and incorporating multi-scale graph features through dual-pathway graph convolution. Secondly, considering the contextual relationships of microbial and disease node features, a graph Transformer is employed to capture global dependencies through a multi-head attention mechanism. In this model, graph structural bias and neighborhood token extraction are introduced to capture local semantic patterns. Moreover, a feature retention strategy is incorporated to complement detailed interaction representations from the feature perspective. Finally, the features are input into a Kolmogorov-Arnold Network (KAN), which constructs nonlinear mappings through learnable basis functions and piecewise splines to generate association scores. RESULTS: The model was evaluated through five-fold cross-validation, achieving AUC and AUPR values of 0.9779 and 0.9786, respectively. Additionally, case studies confirmed that KMGTMDA is an effective tool for screening potential microbes associated with periodontal disease and bacterial vaginosis. CONCLUSIONS: This approach efficiently reveals potential associations between human microbes and diseases through multi-scale dynamic topological graph neural networks and feature context learning. It provides more effective guidance for interpreting disease pathogenesis and designing targeted treatment strategies, and offers new directions for further research on potential disease targets.",
+      "authors": [
+        "Xiaoxin Du",
+        "Hang Sun",
+        "Bo Wang",
+        "YiPing Wang",
+        "WenLong Zhao",
+        "Tang Sun",
+        "LiSen Yang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41698566/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "KAN-driven graph neural network for microbe-disease associations",
+      "llm_evidence_cn": "KAN驱动的图神经网络预测微生物与疾病关联",
+      "llm_evidence": "KAN驱动的图神经网络预测微生物与疾病关联",
+      "canonical_evidence": "KAN驱动的图神经网络预测微生物与疾病关联",
+      "llm_tldr_en": "Proposes a graph neural network framework to predict associations between microbes and human diseases.",
+      "llm_tldr_cn": "提出了一种图神经网络框架，用于预测微生物与人类疾病之间的关联。",
+      "llm_tldr": "提出了一种图神经网络框架，用于预测微生物与人类疾病之间的关联。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41917934",
+      "title": "Compact and informative representation learning for scRNA-seq data clustering with masked information bottleneck.",
+      "abstract": "BACKGROUND: Single-cell RNA sequencing (scRNA-seq) provides unprecedented opportunities to characterize cellular heterogeneity. However, the high sparsity, noise, and redundancy inherent in gene expression data often obscure biologically meaningful signals and hinder accurate cell clustering. Although highly variable genes are commonly used to reduce dimensionality, they may still contain redundant or noisy information that degrades clustering performance. RESULTS: Here, we propose scMIB, a masked information bottleneck framework for robust representation learning in scRNA-seq data. The method introduces a masking-based denoising strategy that perturbs gene expression patterns and trains the model to recover informative structures while suppressing noise. By integrating an information bottleneck objective, scMIB further compresses redundant signals and preserves the most relevant information for clustering. In addition, a mask consistency learning mechanism is employed to align real and predicted masks, encouraging the model to capture stable gene-level patterns. Extensive experiments on multiple public scRNA-seq datasets demonstrate that scMIB consistently improves clustering accuracy and robustness compared with existing methods, while effectively mitigating the influence of noise and sparsity. CONCLUSIONS: Our results show that combining masking-based perturbation with information bottleneck learning provides an effective strategy for extracting informative representations from noisy single-cell transcriptomic data. The proposed framework offers a robust solution for scRNA-seq clustering and may facilitate more reliable identification of cellular heterogeneity in complex biological systems.",
+      "authors": [
+        "Xiaoqiang Yan",
+        "Fengshou Han",
+        "Yunpeng Wu",
+        "Zhen Tian"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-31",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41917934/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "representation learning for scRNA-seq data clustering",
+      "llm_evidence_cn": "单细胞RNA测序数据的表示学习与聚类",
+      "llm_evidence": "单细胞RNA测序数据的表示学习与聚类",
+      "canonical_evidence": "单细胞RNA测序数据的表示学习与聚类",
+      "llm_tldr_en": "Proposes a masked information bottleneck framework for robust representation learning in scRNA-seq data.",
+      "llm_tldr_cn": "提出一种掩码信息瓶颈框架，用于单细胞RNA测序数据的鲁棒表示学习和聚类。",
+      "llm_tldr": "提出一种掩码信息瓶颈框架，用于单细胞RNA测序数据的鲁棒表示学习和聚类。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "single cell sequencing and spatial transcriptomics analysis with machine learning",
+      "matched_requirement_id": "req-40",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41918015",
+      "title": "TCMNet: an AI-driven strategy for optimizing traditional Chinese medicine.",
+      "abstract": "BACKGROUND: Artificial intelligence (AI), particularly large language models (LLMs), have provided powerful tools for systematically modeling the complexity of traditional Chinese medicine (TCM). To overcome the limitations of subjective formula design and unweighted target prioritization, we developed TCMNet, an AI-powered strategy that integrates LLM-assisted disease knowledge mining, protein-protein interaction (PPI) networks, and deep learning-based binding prediction to support herbal formula evaluation and active compounds identification. METHODS: TCMNet integrates AI-guided literature analysis with weighted PPI network evaluation. Parkinson's disease (PD) was chosen as the representative case study. Disease-associated protein targets were semantically weighted using TCMChat, a TCM-specific LLM that extracts relevant targets from Chinese and English literature. Furthermore, herb-specific information data, such as composition ratios, compound abundance, and compound-protein interaction probabilities, was used to generate weighted herb-related proteins. These weights were incorporated into a PPI network to assign biological weight to each node. Four classical TCM formulas (Tianma Gouteng Decoction, Liuwei Dihuang, Qianzheng San, Dabuyin Wan), the clinically optimized Pingchan Granule (PCG), and their integrative combinations with Western medicine (Levodopa) were systematically evaluated alongside the single-herb Ginkgo biloba. Therapeutic relevance was assessed using network-based metrics such as target coverage, Jaccard similarity, and weighted proximity, with statistical significance measured by Z-scores. To validate key active compounds, we employed Boltz-2, a state-of-the-art deep learning method, to predict the binding probabilities between herbal compounds and prioritized PD-associated proteins. RESULTS: Weighted proximity metrics markedly outperformed unweighted measures across all four evaluated TCM formulas, demonstrating the substantial benefit of integrating node weights. Among the evaluated formulas, Tianma Gouteng Decoction demonstrated superior performance in target coverage and network proximity, aligning well with existing literature. Computational validation on Pingchan Granule (PCG) confirmed that TCMNet successfully captures the therapeutic retention of formula optimization. Furthermore, integrative strategies combining TCM with Levodopa exhibited significantly enhanced network proximity compared to monotherapy, supporting the rationale for combined treatment. Moreover, the case study identified flavonoids and isoflavonoids from Ginkgo biloba as the primary bioactive constituents contributing to anti-PD activity. Boltz-2 deep learning predictions further confirmed that flavonoid compounds exhibited significantly higher binding probabilities and affinities toward key PD-associated proteins compared to non-flavonoids, thus validating the results of TCMNet. CONCLUSIONS: By explicitly incorporating protein weights through combining LLM-guided target identification with node-weighted evaluation, TCMNet offers a new AI-driven strategy for optimizing TCM. This approach enables herbal formula evaluation and optimization as well as the identification of bioactive constituents, advancing the modernization of herbal medicine research.",
+      "authors": [
+        "Shuoyan Tan",
+        "Xin Shao",
+        "Xuting Zhang",
+        "Yizheng Dai",
+        "Boli Zhang",
+        "Yiyu Cheng",
+        "Xiaohui Fan"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-31",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41918015/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "AI-powered strategy integrating LLMs and deep learning for drug discovery",
+      "llm_evidence_cn": "集成大语言模型和深度学习的AI驱动药物发现策略",
+      "llm_evidence": "集成大语言模型和深度学习的AI驱动药物发现策略",
+      "canonical_evidence": "集成大语言模型和深度学习的AI驱动药物发现策略",
+      "llm_tldr_en": "TCMNet uses LLMs and deep learning to optimize traditional Chinese medicine formulas and identify active compounds.",
+      "llm_tldr_cn": "TCMNet利用大模型和深度学习优化中药方剂并鉴定活性化合物。",
+      "llm_tldr": "TCMNet利用大模型和深度学习优化中药方剂并鉴定活性化合物。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models and generative AI for drug discovery molecular property prediction and lead optimization",
+      "matched_requirement_id": "req-20",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41918129",
+      "title": "HistoGWAS: an AI-enabled framework for automated genetic analysis of tissue phenotypes in histology cohorts.",
+      "abstract": "Understanding how genetic variation shapes tissue structure is crucial for disease biology, yet scalable, general-purpose frameworks for genetic analysis of histology traits are lacking. We present HistoGWAS, a framework for genome-wide association studies of histology data that leverages foundation models for automated trait definition, variance component models for efficient association testing, and generative models for variant effect interpretation. Applied to 11 tissues from the Genotype-Tissue Expression project, HistoGWAS identifies four genome-wide significant loci associated with tissue histology-tissue quantitative trait loci (tissueQTLs)-which we link to molecular changes and complex traits. Power analyses demonstrate scalability to population-scale histology cohorts.",
+      "authors": [
+        "Shubham Chaudhary",
+        "Almut Voigts",
+        "Michael Bereket",
+        "Matthew L Albert",
+        "Kristina Schwamborn",
+        "Eleftheria Zeggini",
+        "Francesco Paolo Casale"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-03-31",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41918129/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "foundation models for automated trait definition and variant effect interpretation",
+      "llm_evidence_cn": "利用基础模型进行自动性状定义和变异效应解释",
+      "llm_evidence": "利用基础模型进行自动性状定义和变异效应解释",
+      "canonical_evidence": "利用基础模型进行自动性状定义和变异效应解释",
+      "llm_tldr_en": "HistoGWAS uses foundation models to automate genetic analysis of tissue phenotypes in histology cohorts.",
+      "llm_tldr_cn": "HistoGWAS利用基础模型实现了组织学队列中组织表型的自动化遗传分析。",
+      "llm_tldr": "HistoGWAS利用基础模型实现了组织学队列中组织表型的自动化遗传分析。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "multimodal models combining sequence structure phenotype and text",
+      "matched_requirement_id": "req-24",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "41239775",
+      "title": "A computer-aided drug repurposing: the antibacterial agents targeting GroEL.",
+      "abstract": "BACKGROUND AND PURPOSE: Drug repurposing (DR) presents a compelling alternative to traditional drug discovery, offering lower risk and cost by applying approved drugs to new indications. Computational methods play a vital role in early-stage drug repurposing and the development of robust computational workflows can accelerate antibiotic discovery. EXPERIMENTAL APPROACH: We established a novel computational workflow comprising three key steps: target screening (based on CEG 2.0 database), drug screening (utilizing DrugBank database, antiBac-Pred database, molecular docking and molecular dynamics [MD] simulation) and in vitro antibacterial experiments. KEY RESULTS: Our workflow identified numerous commercially available drugs predicted to target the bacterial chaperone GroEL. Antibacterial assays revealed that both daprodustat and ezetimibe exhibited efficacy against Staphylococcus aureus and Escherichia coli ΔtolC. Notably, the efflux pump inhibitor PAβN enhanced the antibacterial efficacy of daprodustat against both S. aureus and E. coli, while potentiating the antibacterial potency of ezetimibe specifically against S. aureus. MD simulations confirmed stable binding of both drugs to S. aureus or E. coli GroEL, aligning with the antibacterial results. CONCLUSION AND IMPLICATIONS: This study validated our computational workflow for repurposing non-antibacterial drugs as antibacterial agents, demonstrating that cost-effective, computer-aided drug repurposing is a feasible strategy for identifying new therapeutic approaches to diseases, such as cancer, diabetes and COVID-19. Furthermore, the synergistic effect of daprodustat combined with an efflux pump inhibitor (e.g. PAβN) represents a promising therapeutic approach against both Gram-positive and Gram-negative bacterial pathogens.",
+      "authors": [
+        "Dongdong Zhang",
+        "Feng-Biao Guo",
+        "Haotian Li"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41239775/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "computational workflow for antibiotic discovery and drug repurposing",
+      "llm_evidence_cn": "用于抗生素发现和药物重定位的计算工作流",
+      "llm_evidence": "用于抗生素发现和药物重定位的计算工作流",
+      "canonical_evidence": "用于抗生素发现和药物重定位的计算工作流",
+      "llm_tldr_en": "Establishes a computer-aided drug repurposing workflow to identify new antibacterial agents targeting GroEL.",
+      "llm_tldr_cn": "建立了一个计算机辅助的药物重定位工作流，以鉴定针对GroEL的新型抗菌药物。",
+      "llm_tldr": "建立了一个计算机辅助的药物重定位工作流，以鉴定针对GroEL的新型抗菌药物。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "41478731",
+      "title": "IMPG2-associated retinal dystrophy with a novel missense variant and therapeutic options via adenine base editing.",
+      "abstract": "We describe a novel missense variant in IMPG2 in a patient with early-onset rod-cone dystrophy with central macular atrophy and evaluate the potential of adenine base editing (ABE) as a therapeutic strategy. Ophthalmic evaluation included ultra-widefield fundus photography, fundus autofluorescence, and spectral-domain optical coherence tomography. Genetic testing was performed with a targeted next-generation sequencing panel and Sanger confirmation. Variant pathogenicity was assessed using in silico prediction tools, protein stability algorithms, and structural modeling. ABE feasibility was analyzed through PAM site identification and guide RNA design. Genetic testing revealed compound heterozygosity for a pathogenic nonsense variant (c.411G>A; p.Trp137*) and a novel missense variant (c.871C>A; p.Arg291Ser) within the SEA-1 domain. While in silico prediction tools classified p.Arg291Ser as benign or neutral, structural modeling and stability analyses supported a destabilizing effect. Base editing assessment indicated that c.411G>A is targetable with ABE. This case underscores the clinical relevance of domain-specific IMPG2 variants and the limitations of in silico predictions. ABE offers a promising therapeutic option for IMPG2-associated retinopathy.",
+      "authors": [
+        "Maram E A Abdalla Elsayed",
+        "Vincenzo Barone",
+        "Maria Kaukonen",
+        "Matthew I J Raybould",
+        "Robert E MacLaren"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41478731/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "AI for CRISPR design and variant pathogenicity assessment",
+      "llm_evidence_cn": "用于CRISPR设计和变异致病性评估的AI",
+      "llm_evidence": "用于CRISPR设计和变异致病性评估的AI",
+      "canonical_evidence": "用于CRISPR设计和变异致病性评估的AI",
+      "llm_tldr_en": "Evaluates adenine base editing for retinal dystrophy using in silico pathogenicity prediction.",
+      "llm_tldr_cn": "利用计算预测评估腺嘌呤碱基编辑治疗视网膜营养不良的可行性。",
+      "llm_tldr": "利用计算预测评估腺嘌呤碱基编辑治疗视网膜营养不良的可行性。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI for CRISPR design gene editing outcome prediction and perturbation modeling",
+      "matched_requirement_id": "req-33",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "40738473",
+      "title": "Boronic acid derivatives inhibit Candida albicans growth by compromising energy metabolism.",
+      "abstract": "INTRODUCTION: Fungal infections represent a global health concern with significant implications for human well-being. Among them, refractory and sight-threatening fungal keratitis (FK) poses a serious threat to ocular health. This underscores an urgent need for developing novel antifungal agents to meet clinical demands. OBJECTIVE: This study aimed to screen boron-containing compounds for potent antifungal activity. The selected compounds were then subjected to in vitro and in vivo bioactivity evaluation, and their antifungal mechanisms were investigated. METHODS: The antifungal effects of boron-containing compounds were evaluated using minimum inhibitory concentration assays, resistance studies, time-kill curves, and hyphal and biofilm inhibition assays. The in vitro and in vivo drug-likeness of the candidate compounds was assessed. Transcriptome sequencing, SYTOX Green staining, DiSC3(5) staining, ergosterol binding assays, sorbitol rescue assays, transmission electron microscopy, intracellular reactive oxygen species and adenosine triphosphate (ATP) content assays, succinate dehydrogenase (SDH) activity assays, calcofluor white staining, and RT-qPCR were employed to investigate the antifungal mechanisms of the candidate compounds. RESULTS: In this study, we identified compound BD11 as a promising candidate with potent antifungal activity against various pathogenic fungi and low cytotoxicity. BD11 impaired mitochondrial function, reduced the activity of SDH, decreased intracellular ATP levels, and disrupted the integrity of the cell wall, thereby effectively inhibiting the growth and virulence of Candida albicans. Importantly, in a murine FK model, BD11 significantly attenuated corneal damage. CONCLUSION: These results highlight the excellent clinical potential of compound BD11 in combating fungal infections. This study provides new insights for the discovery and development of novel antifungal agents for the treatment of fungal diseases.",
+      "authors": [
+        "Suhua Wu",
+        "Venkatesh Mayandi",
+        "Eunice Tze Leng Goh",
+        "Wenyi Wang",
+        "Nuotong Han",
+        "Rongcui Zhong",
+        "Zhaozu Luo",
+        "Yue Wang",
+        "Mu Chen",
+        "Rajamani Lakshminarayanan",
+        "Zhixiong Ruan",
+        "Shouping Liu",
+        "Shuimu Lin"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40738473/",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "antifungal discovery and target identification",
+      "llm_evidence_cn": "抗真菌药物发现和靶点识别",
+      "llm_evidence": "抗真菌药物发现和靶点识别",
+      "canonical_evidence": "抗真菌药物发现和靶点识别",
+      "llm_tldr_en": "Screens boronic acid derivatives as novel antifungal agents against Candida albicans by targeting energy metabolism.",
+      "llm_tldr_cn": "筛选硼酸衍生物作为新型抗真菌剂，通过靶向能量代谢抑制白色念珠菌生长。",
+      "llm_tldr": "筛选硼酸衍生物作为新型抗真菌剂，通过靶向能量代谢抑制白色念珠菌生长。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41500047",
+      "title": "Metagenomic next-generation sequencing in pediatric infectious disease diagnosis: A comprehensive systematic literature review and meta-analysis.",
+      "abstract": "BACKGROUND: Diagnosing pediatric infectious diseases is challenging due to nonspecific presentations, small sample volumes, and the limited sensitivity of conventional microbiological tests (CMTs). Metagenomic next-generation sequencing (mNGS) enables broad, hypothesis-free pathogen detection, but its diagnostic performance in children remains insufficiently characterized. This study evaluates the diagnostic accuracy of mNGS in pediatric infectious diseases and compares its performance with CMTs. METHODS: This systematic review and meta-analysis was registered in PROSPERO (CRD42024542444). Searches were performed using multiple databases through August 2024. Eligible studies evaluated mNGS and CMTs in pediatric patients (≤21 years) with suspected infectious diseases and compared their respective results with clinical diagnosis. Pooled sensitivity, specificity, and diagnostic odds ratios (DORs) were calculated using a bivariate random-effects model. RESULTS: Thirty-three studies (n = 4,165) met inclusion criteria, and nine were eligible for meta-analysis. Pooled sensitivity and specificity of mNGS versus clinical diagnosis were 0.84 (95% CI: 0.82-0.86) and 0.71 (95% CI: 0.66-0.75), respectively, compared with 0.40 (95% CI: 0.37-0.43) and 0.82 (95% CI: 0.78-0.86) for CMTs. The pooled DOR favored mNGS (18.6 vs. 5.4). Respiratory infections were most frequently investigated, followed by bloodstream and mixed infections. Over two-thirds of studies reported changes in antimicrobial management following mNGS results. CONCLUSIONS: mNGS demonstrates superior sensitivity and diagnostic accuracy compared with CMTs, enabling comprehensive pathogen detection, including rare and co-infecting organisms, and informing targeted antimicrobial therapy. Despite limitations related to cost, complex interpretation, and methodological standardization, mNGS represents a promising complement to conventional diagnostics in pediatric infectious disease management.",
+      "authors": [
+        "Maria Celidonio Gutfreund",
+        "Gustavo Yano Callado",
+        "Isabele Pardo",
+        "Mariana Kim Hsieh",
+        "Patrícia Deffune Celeghini",
+        "Gabriel O V Lopes",
+        "Pedro S Marra",
+        "Yan Runa Cheng",
+        "Takaaki Kobayashi",
+        "João Renato Rebello Pinho",
+        "José Roberto Generoso",
+        "Lucas Bulgarelli",
+        "Eneida A Mendonça",
+        "Rodrigo Octávio Deliberato",
+        "Deyvid Emanuel Amgarten",
+        "Fernanda de Mello Malta",
+        "Michael B Edmond",
+        "Alexandre R Marra"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41500047/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "metagenomic next-generation sequencing for pathogen detection",
+      "llm_evidence_cn": "宏基因组二代测序用于病原体检测",
+      "llm_evidence": "宏基因组二代测序用于病原体检测",
+      "canonical_evidence": "宏基因组二代测序用于病原体检测",
+      "llm_tldr_en": "Evaluates the diagnostic accuracy of mNGS for detecting pathogens in pediatric infectious diseases.",
+      "llm_tldr_cn": "评估宏基因组二代测序在儿科感染性疾病病原体检测中的诊断准确性。",
+      "llm_tldr": "评估宏基因组二代测序在儿科感染性疾病病原体检测中的诊断准确性。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for metagenomic pathogen detection and classification",
+      "matched_requirement_id": "req-11",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "41535672",
+      "title": "Comparative evaluation of multimodal point-of-care tests to differentiate gram-negative from gram-positive infections in critically ill adults: a diagnostic accuracy study.",
+      "abstract": "PURPOSE: Patients with suspected sepsis often receive broad-spectrum antibiotics before culture results are available. A rapid point-of-care test (POCT) that indicates Gram-negative (GN) versus Gram-positive (GP) infection could help tailor empiric therapy. We systematically compared available POCT for GN/GP differentiation and, for biomarkers, examined clinically usable thresholds. METHODS: PubMed, Embase, Web of Science and the Cochrane Library (January 2005 to August 2025) were searched for studies in adults with sepsis that evaluated rapid tests to distinguish GN from GP infection. We pooled host-response biomarkers, pathogen-directed assays, omics-based tests, and clinical-parameter approaches using a bivariate random-effects model to obtain pooled sensitivity, specificity, area under the curve (AUC) and Youden's index. For biomarkers reported at multiple cut-offs, clinically relevant strata were prespecified and compared. RESULTS: Of 86 included studies, 72 were eligible for quantitative synthesis. Pathogen-directed rapid assays (PCR, MALDI-TOF MS) showed the highest and most consistent accuracy (pooled sensitivity and specificity > 0.90; AUC 0.97-0.99; Youden 0.85-0.92). Among the biomarker studies, procalcitonin (PCT) showed clear threshold dependence: the 3-5 ng/mL stratum provided the most balanced discrimination (sensitivity 0.84; specificity 0.83; AUC 0.90; Youden 0.67), whereas higher cut-offs did not yield further gains. Omics-based approaches showed variable accuracy, and clinical-parameter approaches alone achieved sensitivity and specificity < 0.70. CONCLUSION: In adults with sepsis, pathogen-directed rapid assays are the most reliable POCT for early GN/GP differentiation. When biomarker testing is available, a PCT range of 3-5 ng/mL is a pragmatic working threshold that can support earlier tailoring of empiric antimicrobial therapy.",
+      "authors": [
+        "Weijia Huang",
+        "Ting Yang",
+        "Sinan Ma",
+        "Jiatian Wang",
+        "Huangxin Gong",
+        "Haitao Wang",
+        "Jingying Sun",
+        "Na Wang",
+        "Li Zhang",
+        "Yan Wang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41535672/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "multimodal point-of-care tests for pathogen classification",
+      "llm_evidence_cn": "用于病原体分类的多模态即时检测",
+      "llm_evidence": "用于病原体分类的多模态即时检测",
+      "canonical_evidence": "用于病原体分类的多模态即时检测",
+      "llm_tldr_en": "Evaluates multimodal tests and omics to differentiate Gram-negative from Gram-positive infections in sepsis.",
+      "llm_tldr_cn": "评估多模态检测和组学方法在败血症中区分革兰氏阴性和阳性感染的效果。",
+      "llm_tldr": "评估多模态检测和组学方法在败血症中区分革兰氏阴性和阳性感染的效果。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for metagenomic pathogen detection and classification",
+      "matched_requirement_id": "req-11",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "40749788",
+      "title": "Comprehension of the age-dependent gut and brain interaction of honey bee workers by integration of multi omics approaches.",
+      "abstract": "INTRODUCTION: In honey bees, division of labour is a key feature, with age-related behavioural transitions being closely associated with molecular changes in the brain, gut, and microbiota. Despite evidence of both microbiome and brain changes in honey bees, most studies focus on either aspect or a single method of investigation, limiting our understanding of their interconnected roles in development and task differentiation. OBJECTIVES: In this study, we investigated the molecular changes in the gut and brain in honey bee workers of different ages using (meta-)proteomics and metabolomics to better understand their contribution to behavioural responses and modulation. METHODS: Workers were sampled at seven timepoints throughout their life. Mass spectrometry for (meta-) proteomic and metabolomic of the guts and brains allowed insights into the global structural and functional dynamics of the microbiota, as well as the functional and metabolic alterations in the host gut and brain, and their interactions. RESULTS: Our results indicate the transport of amino acids between the gut and brain, potentially influencing functional pathways and behavioural phenotypes. We observed a correlation between concentrations of tryptophan and its metabolic products between honey bee brain and gut. This provides evidence regarding gut-brain axis as a way of internal communication for different host mechanisms in honey bees. Microbiota composition changed significantly, with protein numbers increasing significantly in the establishment phase. Proteomic results from both the host and the microbiota reveal that altered metabolic and functional pathway abundances may be due to energy expenditure, task differentiation, and age of onset of foraging. CONCLUSION: Overall, our findings are the first to describe the global (meta-)proteomic and metabolomic changes in the honeybee gut and brain throughout a worker's life. This provides new insights toward developing potential biomarkers for evaluation of different functional changes related to various environmental stressors.",
+      "authors": [
+        "Cassandra Uthoff",
+        "Yelyzaveta Yakovlyeva",
+        "Beatrice Engelmann",
+        "Ulrike Rolle-Kampczyk",
+        "Sven-Bastiaan Haange",
+        "Abdulrahim T Alkassab",
+        "Jens Pistorius",
+        "Fynn Brix",
+        "Silvio Waschina",
+        "Andreas S Thum",
+        "Nico Jehmlich",
+        "Martin von Bergen"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40749788/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "integration of multi-omics approaches for gut and brain interaction",
+      "llm_evidence_cn": "整合多组学方法研究肠道与大脑的相互作用",
+      "llm_evidence": "整合多组学方法研究肠道与大脑的相互作用",
+      "canonical_evidence": "整合多组学方法研究肠道与大脑的相互作用",
+      "llm_tldr_en": "Study integrates proteomics and metabolomics to understand honey bee gut-brain-microbiota interactions.",
+      "llm_tldr_cn": "该研究整合了蛋白质组学和代谢组学，以了解蜜蜂肠道-大脑-微生物群的相互作用。",
+      "llm_tldr": "该研究整合了蛋白质组学和代谢组学，以了解蜜蜂肠道-大脑-微生物群的相互作用。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41574538",
+      "title": "Metagenomic Surveillance of Blood-Fed Mosquitoes for Assessing Zoonotic Risk in Managed Animal Settings.",
+      "abstract": "BACKGROUND: Vector-borne zoonotic diseases remain a major global public health concern, particularly at interfaces where humans, domestic animals, and wildlife interact closely. Conventional surveillance approaches often fail to detect early zoonotic spillover events, especially in farm and zoological settings. Blood-fed mosquitoes, which feed on diverse vertebrate hosts, offer a unique opportunity for non-invasive environmental surveillance through xenosurveillance. This study evaluates the feasibility of using blood-fed mosquitoes as biological samplers to assess zoonotic risk in managed animal settings in eastern India. METHODS: A total of 185 blood-fed female mosquitoes were collected from livestock farms and zoological enclosures in West Bengal, India, and grouped based on host association (cattle, buffalo, goat, poultry, zebra, and deer). Mosquito species were identified using mitochondrial cytochrome c oxidase I (COI) gene sequencing. Host-group-wise pooled DNA from mosquito heads and abdomens was subjected to shotgun metagenomic sequencing using Oxford Nanopore MinION technology. Taxonomic classification was performed using Kraken 2, and microbial diversity was analyzed through alpha and beta diversity metrics using phyloseq. RESULTS: Six mosquito species were identified, including Culex tritaeniorhynchus, Culex vishnui, and Mansonia uniformis, known vectors of zoonotic pathogens. Metagenomic analysis revealed diverse microbial communities dominated by Actinobacteria, Proteobacteria, and Firmicutes, with significant host-associated variation in microbial composition. Buffalo- and zebra-associated mosquitoes exhibited the highest microbial richness, while cattle-associated mosquitoes showed comparatively lower diversity. Genomic fragments corresponding to potential zoonotic and veterinary pathogens-including Plasmodium relictum, Babesia bigemina, and Clostridium botulinum-were detected across multiple host groups. Beta diversity analysis demonstrated clear host-driven clustering of mosquito-associated microbiomes. CONCLUSION: This pilot study demonstrates that blood-fed mosquitoes can serve as effective non-invasive biological samplers for detecting environmental DNA signatures of potential zoonotic pathogens in managed animal settings. While the detection of pathogen-associated genomic fragments does not confirm active infection or transmission, the findings highlight the utility of mosquito-based metagenomic surveillance as an early warning and risk-detection tool within a One Health framework. Integrating such approaches with targeted diagnostics and epidemiological surveillance may strengthen preparedness for emerging vector-borne zoonotic threats.",
+      "authors": [
+        "Mukesh Thakur",
+        "Stanzin Dolker",
+        "Avijit Ghosh",
+        "Lenrik K Wangmo",
+        "Vinaya K Singh",
+        "Mehedi Hasan",
+        "Aditya P Acharya",
+        "Ankush Biswas",
+        "Siddik Sarkar",
+        "Lalit Kumar Sharma",
+        "Dhriti Banerjee"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41574538/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "metagenomic surveillance for zoonotic risk and outbreak monitoring",
+      "llm_evidence_cn": "针对人畜共患风险和疫情监测的宏基因组监测",
+      "llm_evidence": "针对人畜共患风险和疫情监测的宏基因组监测",
+      "canonical_evidence": "针对人畜共患风险和疫情监测的宏基因组监测",
+      "llm_tldr_en": "Evaluates metagenomic xenosurveillance of mosquitoes to assess zoonotic spillover risks.",
+      "llm_tldr_cn": "评估了蚊虫宏基因组异源监测在评估人畜共患病溢出风险中的可行性。",
+      "llm_tldr": "评估了蚊虫宏基因组异源监测在评估人畜共患病溢出风险中的可行性。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI methods for genomic surveillance and outbreak monitoring",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "41581442",
+      "title": "Viral metagenomics reveals the RNA viral composition of herbivorous wildlife on the Qinghai-Tibet Plateau.",
+      "abstract": "RNA viruses, a widely distributed group of pathogens in nature, possess exceptionally high genetic diversity and rapid evolutionary potential. High-altitude ecosystems, represented by the Qinghai-Tibet Plateau, with their unique environmental conditions, may harbor distinct viral communities. However, there remains a lack of systematic understanding regarding the composition and distribution of RNA viruses in wildlife under such extreme environments. In this study, a total of 741 fecal samples were collected from three regions on the Qinghai-Tibet Plateau, and viral metagenomics technology was used to reveal the composition and diversity of RNA viruses in the fecal samples of six species of herbivorous wild animals on the plateau. We identified a substantial abundance of RNA viruses, classified into 18 distinct viral families. Furthermore, the structure of the viral communities varied among different host species. Through assembly, 28 viral sequences belonging to the families Astroviridae, Picornaviridae, Picobirnaviridae, Tobaniviridae, and Caliciviridae were identified. Phylogenetic analysis revealed that the newly identified viral strains share close relationships with viruses found in humans, marmots, and other mammals. The results indicate that wildlife in this region are reservoirs of unidentified RNA viruses, some of which may pose potential threats to public health and the animal husbandry. These findings provide crucial scientific evidence and data support for future virus surveillance, ecological risk assessment, and the prevention and control of emerging infectious diseases at their source.",
+      "authors": [
+        "Yue Chen",
+        "Shiyin Huang",
+        "Shuang Zhang",
+        "Haixuan Wang",
+        "Xiaofei Song",
+        "Likai Ji",
+        "Quan Shen",
+        "Shixing Yang",
+        "Yuwei Liu",
+        "Xiaochun Wang",
+        "Ping Wu",
+        "Hongfeng Yang",
+        "Tongling Shan",
+        "Xiaolong Wang",
+        "Wen Zhang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41581442/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "viral metagenomics for pathogen composition in wildlife",
+      "llm_evidence_cn": "利用病毒宏基因组学揭示野生动物病原体组成",
+      "llm_evidence": "利用病毒宏基因组学揭示野生动物病原体组成",
+      "canonical_evidence": "利用病毒宏基因组学揭示野生动物病原体组成",
+      "llm_tldr_en": "Uses viral metagenomics to characterize RNA virus diversity in herbivorous wildlife on the Qinghai-Tibet Plateau.",
+      "llm_tldr_cn": "利用病毒宏基因组技术揭示了青藏高原草食野生动物粪便中的RNA病毒组成和多样性。",
+      "llm_tldr": "利用病毒宏基因组技术揭示了青藏高原草食野生动物粪便中的RNA病毒组成和多样性。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for metagenomic pathogen detection and classification",
+      "matched_requirement_id": "req-11",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41344778",
+      "title": "Metagenomics insights into bacterial community, viral diversity and community-scale functions in fermented red pepper.",
+      "abstract": "Fermented red peppers (FRPs) provide distinct flavor and possible health benefits, but understanding of their microbial functions, viral diversity, pathogenicity, and horizontal gene transfer (HGT) patterns remains limited. Integrated multi-method analysis revealed FRP's bacterial community was dominated by Bacillus (21.52 %), Lactobacillus sensu lato (14.27 %), and Pantoea (13.60 %). Bacillus drove core fermentation with an over 40 % contribution to carbon degradation and iron reduction. The virome was dominated by Caudoviricetes phages, yet 25.5 % of the functions of viral genes remained unknown. Critically, multidrug resistance genes were the most abundant ARGs, and beneficial bacteria served as major reservoirs for ARGs, co-occurring with potential opportunistic pathogens. Despite inhibitory conditions, these last dominated key metabolic nodes hydrogen generation and acetate oxidation. Counterintuitively, ARG profiles correlated with bacterial composition but not with mobile genetic elements or detected HGT events, challenging HGT as the primary ARG driver. These findings necessitate dual strategies: leveraging key microbes for fermentation efficiency while implementing stringent monitoring to mitigate pathogen and ARG related risks.",
+      "authors": [
+        "Zhihua Li",
+        "Chi Zhao",
+        "Zhenyu Mao",
+        "Lingyan Zhao",
+        "Petri Penttinen",
+        "Suyi Zhang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41344778/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "metagenomic analysis of microbial functions and pathogenicity",
+      "llm_evidence_cn": "微生物功能和致病性的宏基因组分析",
+      "llm_evidence": "微生物功能和致病性的宏基因组分析",
+      "canonical_evidence": "微生物功能和致病性的宏基因组分析",
+      "llm_tldr_en": "Analyzes bacterial and viral communities in fermented red pepper using metagenomics.",
+      "llm_tldr_cn": "通过宏基因组学分析发酵红辣椒中的细菌和病毒群落及其功能。",
+      "llm_tldr": "通过宏基因组学分析发酵红辣椒中的细菌和病毒群落及其功能。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for metagenomic pathogen detection and classification",
+      "matched_requirement_id": "req-11",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41638513",
+      "title": "Unraveling dengue virus-host interactions through transcriptomics: Insights into disease progression and severity signatures.",
+      "abstract": "Dengue virus (DENV) remains a major global health concern, characterized by complex virus-host interactions that are not yet fully understood. Advances in transcriptomic technologies have become crucial for uncovering the molecular mechanisms underlying DENV infection. This review summarizes recent transcriptomic studies, spanning microarrays, bulk RNA sequencing (RNA-seq), single-cell RNA sequencing (scRNA-seq), virus-inclusive single-cell RNA-seq (ViscRNA-seq), and spatial transcriptomics. that have deepened our understanding of how DENV modulates host gene expression. These approaches have revealed critical immune responses, viral evasion strategies, and gene expression signatures linked to disease progression and severity. Moreover, transcriptomic analyses have facilitated the discovery of potential biomarkers for early diagnosis and novel targets for antiviral therapy. By integrating findings from diverse experimental models and technologies, this review underscores the pivotal role of transcriptomics in elucidating DENV pathogenesis. Collectively, these insights provide a robust foundation for developing improved diagnostics and therapeutic interventions against dengue.",
+      "authors": [
+        "Luz H Patino",
+        "Axel Vergel",
+        "Juan David Ramírez"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41638513/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "transcriptomics and single-cell RNA-seq for virus-host interactions",
+      "llm_evidence_cn": "转录组学和单细胞测序研究病毒-宿主相互作用",
+      "llm_evidence": "转录组学和单细胞测序研究病毒-宿主相互作用",
+      "canonical_evidence": "转录组学和单细胞测序研究病毒-宿主相互作用",
+      "llm_tldr_en": "Summarizes transcriptomic approaches to understand dengue virus modulation of host gene expression and immunity.",
+      "llm_tldr_cn": "总结了利用转录组学技术理解登革病毒如何调节宿主基因表达和免疫反应的研究进展。",
+      "llm_tldr": "总结了利用转录组学技术理解登革病毒如何调节宿主基因表达和免疫反应的研究进展。",
+      "llm_tags": [
+        "query:pathoai:composite"
+      ],
+      "matched_query_tag": "query:pathoai:composite",
+      "matched_query_text": "Papers central to 病原组学中的 AI 方法, especially work that connects or combines: foundation models for pathogen genomes and pathogen biology; machine learning for metagenomic pathogen classification; deep learning models for pathogen detection from sequencing data; AI methods for genomic surveillance and outbreak monitoring; machine learning for antimicrobial resistance prediction from genomes; machine learning for phylogenetic and transmission inference; multimodal models combining pathogen sequence phenotype and metadata; machine learning for microbiome host interaction pathogen ecology and infection modeling; AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design; foundation models for pathogen genome understanding and surveillance.",
+      "matched_requirement_id": "req-composite-pathoai",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "41619541",
+      "title": "Genomic diversity of human adenoviruses in Tanzanian children under five: Insights into F40, F41, B, and rare A18 genotypes.",
+      "abstract": "Human adenoviruses (HAdVs) are important pathogens that are associated with a wide array of clinical diseases, particularly in the pediatric population. Despite numerous reports of HAdV infections in Tanzania, there are currently no whole genome sequences from this region available in global public databases. This gap presents challenges to our efforts to understand their dissemination and evolution over time. This study employed nanopore-based metagenomic sequencing to detect and sequence the whole genomes of HAdV strains in Tanzanian infants with diarrhea. We present the first whole genome of HAdV-A18 from Africa, representing only the third worldwide. Additionally, it includes the first complete genomes of HAdV-F40, HAdV-F41, and HAdV-B3 obtained from Tanzania. In addition, this study provides information on the enteric adenovirus lineages circulating in Tanzania. These findings provide crucial genomic insights into the diversity of viruses in sub-Saharan Africa and underscore the importance of genomic surveillance to deepen our understanding of adenovirus transmission and evolution.",
+      "authors": [
+        "Mariana J Shayo",
+        "Davis Kuchaka",
+        "Melkiory Beti",
+        "Patrick Kimu",
+        "Boaz Wadugu",
+        "Emilie E B Jensen",
+        "Happiness Kumburu",
+        "Paul Kazyoba",
+        "Mohamed Ali",
+        "SeqTZ Consortium",
+        "Philip T L C Clausen",
+        "Florida Muro",
+        "Blandina T Mmbaga",
+        "Michael Alifrangis",
+        "Frank M Aarestrup",
+        "Tolbert Sonda"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41619541/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "nanopore-based metagenomic sequencing for pathogen detection",
+      "llm_evidence_cn": "基于纳米孔的宏基因组测序用于病原体检测",
+      "llm_evidence": "基于纳米孔的宏基因组测序用于病原体检测",
+      "canonical_evidence": "基于纳米孔的宏基因组测序用于病原体检测",
+      "llm_tldr_en": "Uses nanopore metagenomics to sequence whole genomes of human adenoviruses in Tanzania.",
+      "llm_tldr_cn": "利用纳米孔宏基因组测序技术对坦桑尼亚人类腺病毒进行全基因组测序。",
+      "llm_tldr": "利用纳米孔宏基因组测序技术对坦桑尼亚人类腺病毒进行全基因组测序。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "AI for nanopore sequencing basecalling genomic alignment and variant analysis",
+      "matched_requirement_id": "req-39",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41453696",
+      "title": "Lung microbiome quantification and bacterial density as prognostic markers in lung transplantation.",
+      "abstract": "BACKGROUND: Chronic lung allograft dysfunction (CLAD) is a barrier to long-term survival following lung transplantation. Composition of the lung allograft microbiome has been explored as a prognostic marker for allograft survival, but most studies have measured bacterial relative, not absolute, abundances. Absolute quantitation of bacterial abundances improves the assessment of host-microbe interactions in diverse disease states and physiologic compartments but has not been compared to compositional indices alone for performance in identifying CLAD-associated allograft microbiomes. METHODS: We performed a case-control study to compare the composition of the lung allograft microbiome between lung transplant recipients who developed CLAD within the first 4 years of transplant (cases) versus those who remained CLAD-free for the first 5 years post-transplant (controls). Within 12 months post-transplantation, bronchoalveolar lavage fluid was collected from 53 cases and 55 controls to compare compositional features of the microbiome and bacterial absolute abundance. RESULTS: We identified 5 overlapping compositional subtypes, termed community state types (CST), of the lung allograft microbiome that were dominated by either Prevotella species, Streptococcus and Neisseria species, Staphylococcus or Pseudomonas species, or a diverse bacterial population. Lower bacterial density was observed in the taxonomically diverse community and was lower in controls than cases. Normalizing the relative abundance of CST-defining bacteria to total bacterial density strengthened microbiome-composition/chronic lung allograft dysfunction (CLAD) associations. CONCLUSIONS: Absolute bacterial quantification strengthens associations between the lung microbiome and CLAD following lung transplantation and may improve our understanding of how the lung microbiome affects lung transplant outcomes.",
+      "authors": [
+        "Jessica Santilli",
+        "Elaine Reguera-Nuñez",
+        "Eric Armstrong",
+        "Zonelle Wijesinha",
+        "Liran Levy",
+        "Pierre H H Schneeberger",
+        "Rayoun Ramendra",
+        "Chen Yang Kevin Zhang",
+        "Ella Huszti",
+        "Tereza Martinu",
+        "Bryan Coburn"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41453696/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "microbiome quantification for infection outcome prediction",
+      "llm_evidence_cn": "用于感染结果预测的微生物组定量",
+      "llm_evidence": "用于感染结果预测的微生物组定量",
+      "canonical_evidence": "用于感染结果预测的微生物组定量",
+      "llm_tldr_en": "Evaluates absolute bacterial quantification in the lung microbiome as a prognostic marker for transplant survival.",
+      "llm_tldr_cn": "评估肺部微生物组的绝对细菌定量作为移植存活的预后标志物。",
+      "llm_tldr": "评估肺部微生物组的绝对细菌定量作为移植存活的预后标志物。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41650584",
+      "title": "Digital twin of Mycobacterium tuberculosis infection: Integrating immune dynamics and pathogen adaptation for precision therapy.",
+      "abstract": "Mycobacterium tuberculosis remains one of the world's most persistent pathogens, responsible for over a million deaths each year despite effective drugs and decades of research. Disease progression varies widely among individuals, reflecting interactions between pathogen, physiology, host immunity, and pharmacological response. We propose a digital twin framework for tuberculosis that integrates clinical, immunological, and pharmacokinetic data into a continuously adaptive computational model. The twin would simulate host-pathogen dynamics from granuloma formation to systemic immune regulation, linking these processes with individualised drug exposure and treatment response. By forecasting outcomes and identifying early indicators of relapse or resistance, such a system could guide precision therapy and accelerate discovery of host-directed interventions. The tuberculosis digital twin thus represents a bridge between infection biology, computation, and clinical translation, presenting an evolving model capable of transforming how this ancient disease is understood and managed. However, translation will require further longitudinal clinical and immunological datasets and systematic validation of model predictions in real-world treatment settings.",
+      "authors": [
+        "Ruqaiyyah Siddiqui",
+        "Naveed Ahmed Khan"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41650584/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "digital twin for host-pathogen dynamics and infection modeling",
+      "llm_evidence_cn": "宿主-病原体动态和感染建模的数字孪生",
+      "llm_evidence": "宿主-病原体动态和感染建模的数字孪生",
+      "canonical_evidence": "宿主-病原体动态和感染建模的数字孪生",
+      "llm_tldr_en": "A digital twin framework for tuberculosis integrates multi-source data to model host-pathogen dynamics.",
+      "llm_tldr_cn": "结核病数字孪生框架整合多源数据，模拟宿主与病原体的相互作用动态。",
+      "llm_tldr": "结核病数字孪生框架整合多源数据，模拟宿主与病原体的相互作用动态。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "41690650",
+      "title": "The gut microbiota in Salmonella Typhi infection and translocation: Mechanisms of colonization resistance, pathogen subversion, and prospects for microecological intervention.",
+      "abstract": "The systemic establishment of the strictly human-adapted pathogen Salmonella Typhi critically depends on functional interplay between its virulence effectors and the host gut microbiome. Organized within a \"colonization-toxicity-immunity- microecological intervention\" framework, this review synthesizes recent molecular and multi-omics evidence to delineate key host-pathogen-microbiota dynamics. During colonization, a healthy gut microbiota exerts multi-layered colonization resistance through nutrient and niche competition, as well as via microbial metabolites such as short-chain fatty acids and secondary bile acids. Current evidence more consistently supports DDR-associated cellular senescence and type I IFN signaling as major outcomes of typhoid toxin activity; pyroptosis, if observed, appears context-dependent and should not be presented as a universal endpoint. Concurrently, the Vi capsule and type III secretion system (T3SS) effector proteins (e.g., SteD) act in concert to disrupt innate and adaptive immunity, reprogram the mucosal immunometabolic landscape, and exacerbate microbial dysbiosis. We also evaluate the strength of evidence and applicability of microbiota-targeted interventions, including probiotics, prebiotics, synthetic microbial consortia, and fecal microbiota transplantation (FMT), and address the limitations of extrapolating from Salmonella Typhimurium mouse models to human Salmonella Typhi, typhoid toxin infection. Furthermore, we emphasize the need for cross-validation using human intestinal organoids, humanized immune mice, and population-level data, integrated with metabolomic and immune profiling, to establish a definitive \"metabolism-immunity-toxicity\" causal chain. Confronting the persistent evolution of H58 and other drug-resistant lineages, we propose a paradigm shift through the convergence of genomic epidemiology, microbiota-informed risk stratification, and vaccine-microbiota synergism; these elements collectively chart an implementable roadmap for precision medicine in disease control.",
+      "authors": [
+        "Chunyu Ma",
+        "Ziyi Zou",
+        "Wei Zhao",
+        "Yiwei Rao",
+        "Boheng Liu",
+        "Mengqi Sun",
+        "Dengyu Chen"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41690650/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "multi-omics evidence for host-pathogen-microbiota dynamics in Salmonella infection",
+      "llm_evidence_cn": "沙门氏菌感染中宿主-病原体-微生物群动态的多组学证据",
+      "llm_evidence": "沙门氏菌感染中宿主-病原体-微生物群动态的多组学证据",
+      "canonical_evidence": "沙门氏菌感染中宿主-病原体-微生物群动态的多组学证据",
+      "llm_tldr_en": "Synthesizes multi-omics evidence on colonization resistance and pathogen subversion in S. Typhi infection.",
+      "llm_tldr_cn": "综合多组学证据，阐述了伤寒沙门氏菌感染中的定植抗性和病原体破坏机制。",
+      "llm_tldr": "综合多组学证据，阐述了伤寒沙门氏菌感染中的定植抗性和病原体破坏机制。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

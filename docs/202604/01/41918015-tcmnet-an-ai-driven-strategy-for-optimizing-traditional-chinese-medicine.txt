@@ -1,0 +1,65 @@
+Title: TCMNet: an AI-driven strategy for optimizing traditional Chinese medicine - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41918015/
+
+Markdown Content:
+## TCMNet: an AI-driven strategy for optimizing traditional Chinese medicine
+
+Shuoyan Tan et al. Chin Med.2026.
+
+## Abstract
+
+**Background:** Artificial intelligence (AI), particularly large language models (LLMs), have provided powerful tools for systematically modeling the complexity of traditional Chinese medicine (TCM). To overcome the limitations of subjective formula design and unweighted target prioritization, we developed TCMNet, an AI-powered strategy that integrates LLM-assisted disease knowledge mining, protein-protein interaction (PPI) networks, and deep learning-based binding prediction to support herbal formula evaluation and active compounds identification.
+
+**Methods:** TCMNet integrates AI-guided literature analysis with weighted PPI network evaluation. Parkinson's disease (PD) was chosen as the representative case study. Disease-associated protein targets were semantically weighted using TCMChat, a TCM-specific LLM that extracts relevant targets from Chinese and English literature. Furthermore, herb-specific information data, such as composition ratios, compound abundance, and compound-protein interaction probabilities, was used to generate weighted herb-related proteins. These weights were incorporated into a PPI network to assign biological weight to each node. Four classical TCM formulas (Tianma Gouteng Decoction, Liuwei Dihuang, Qianzheng San, Dabuyin Wan), the clinically optimized Pingchan Granule (PCG), and their integrative combinations with Western medicine (Levodopa) were systematically evaluated alongside the single-herb Ginkgo biloba. Therapeutic relevance was assessed using network-based metrics such as target coverage, Jaccard similarity, and weighted proximity, with statistical significance measured by Z-scores. To validate key active compounds, we employed Boltz-2, a state-of-the-art deep learning method, to predict the binding probabilities between herbal compounds and prioritized PD-associated proteins.
+
+**Results:** Weighted proximity metrics markedly outperformed unweighted measures across all four evaluated TCM formulas, demonstrating the substantial benefit of integrating node weights. Among the evaluated formulas, Tianma Gouteng Decoction demonstrated superior performance in target coverage and network proximity, aligning well with existing literature. Computational validation on Pingchan Granule (PCG) confirmed that TCMNet successfully captures the therapeutic retention of formula optimization. Furthermore, integrative strategies combining TCM with Levodopa exhibited significantly enhanced network proximity compared to monotherapy, supporting the rationale for combined treatment. Moreover, the case study identified flavonoids and isoflavonoids from Ginkgo biloba as the primary bioactive constituents contributing to anti-PD activity. Boltz-2 deep learning predictions further confirmed that flavonoid compounds exhibited significantly higher binding probabilities and affinities toward key PD-associated proteins compared to non-flavonoids, thus validating the results of TCMNet.
+
+**Conclusions:** By explicitly incorporating protein weights through combining LLM-guided target identification with node-weighted evaluation, TCMNet offers a new AI-driven strategy for optimizing TCM. This approach enables herbal formula evaluation and optimization as well as the identification of bioactive constituents, advancing the modernization of herbal medicine research.
+
+**Keywords:** Artificial intelligence (AI); Herbal formula optimization; Large language model (LLM); Node-weighted networks; Parkinson’s disease; Protein–protein interaction (PPI); Traditional Chinese medicine (TCM).
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Ethics approval and consent to participate: Not applicable. Consent for publication: Not applicable. Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [A Weighted Voting Approach for Traditional Chinese Medicine Formula Classification Using Large Language Models: Algorithm Development and Validation Study.](https://pubmed.ncbi.nlm.nih.gov/40705933/)
+
+Wang Z, Li K, Peng S, Liu L, Yang X, Yao K, Herre H, Zhu Y.Wang Z, et al.JMIR Med Inform. 2025 Jul 24;13:e69286. doi: 10.2196/69286.JMIR Med Inform. 2025.PMID: 40705933 Free PMC article. 
+*   [Advances in the application of artificial intelligence in mass spectrometry-based analysis of traditional Chinese medicine: compound identification and metabolic pathway elucidation.](https://pubmed.ncbi.nlm.nih.gov/41389153/)
+
+Xu J, Bai L, Yang M, Yi Z, Wang T, Han H, Dong P.Xu J, et al.Anal Bioanal Chem. 2026 Apr;418(7):1829-1844. doi: 10.1007/s00216-025-06260-w. Epub 2025 Dec 13.Anal Bioanal Chem. 2026.PMID: 41389153 Review. 
+*   [IFTP-TCM: An ingredient-free explainable framework for target prediction and mechanistic elucidation in traditional Chinese medicine.](https://pubmed.ncbi.nlm.nih.gov/41762613/)
+
+Chen F, Zhao R, Han X, Li H, Tang Z.Chen F, et al.Comput Biol Chem. 2026 Feb 21;123:108974. doi: 10.1016/j.compbiolchem.2026.108974. Online ahead of print.Comput Biol Chem. 2026.PMID: 41762613 
+*   [Digitally Assisted Clinical Decision-Making in Traditional Chinese Medicine: Comparative Study of 5 Large Language Models.](https://pubmed.ncbi.nlm.nih.gov/41814991/)
+
+Liu W, Miao S, Ma Q, Li Y, Deng Y, Wang X, Zhang X, Ma N, Miao H, Si Y, Shi Q, Zhu L, Shang H, Wang Y.Liu W, et al.JMIR Form Res. 2026 Mar 2;10:e80167. doi: 10.2196/80167.JMIR Form Res. 2026.PMID: 41814991 Free PMC article. 
+*   [Research progress on employing medicinal plants and their active compounds to target autophagic pathways for Parkinson's disease therapy.](https://pubmed.ncbi.nlm.nih.gov/41895540/)
+
+Hu W, Li Y, Yang A, Jiao X, Zhang A, Li J, Zhao L, Zhao B, Wan D, Zhang X, Zhang G.Hu W, et al.J Ethnopharmacol. 2026 Mar 25;365:121574. doi: 10.1016/j.jep.2026.121574. Online ahead of print.J Ethnopharmacol. 2026.PMID: 41895540 Review. 
+
+## References
+
+1.       1.    Zhang C, Chen G, Tang G, Xu X, Feng Z, Lu Y, et al. Multi-component Chinese medicine formulas for drug discovery: state of the art and future perspectives. Acta Mater Med. 2023;2(1):106–25. 
+
+2.       1.    Tie D, He M, Li W, Xiang Z. Advances in the application of network analysis methods in traditional Chinese medicine research. Phytomedicine. 2025;136:156256. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/39615211/) - [DOI](https://doi.org/10.1016/j.phymed.2024.156256)
+
+3.       1.    Zhai Y, Liu L, Zhang F, Chen X, Wang H, Zhou J, et al. Network pharmacology: a crucial approach in traditional Chinese medicine research. Chin Med. 2025;20(1):8. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/39800680/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/11725223/) - [DOI](https://doi.org/10.1186/s13020-024-01056-z)
+
+4.       1.    Li S. Network target: a starting point for traditional Chinese medicine network pharmacology. Zhongguo Zhong Yao Za Zhi. 2011;36(15):2017–20. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/22066431/)
+
+5.       1.    Zhang S, Wang W, Pi X, He Z, Liu H. Advances in the application of traditional Chinese medicine using artificial intelligence: a review. Am J Chin Med. 2023;51(05):1067–83. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/37417927/) - [DOI](https://doi.org/10.1142/s0192415x23500490)
+
+## Grants and funding
+
+*   [2025M773912/the China Postdoctoral Science Foundation](https://pubmed.ncbi.nlm.nih.gov/?term=2025M773912%2Fthe+China+Postdoctoral+Science+Foundation%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2025M773912/the China Postdoctoral Science Foundation")
+*   [82505383/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82505383%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82505383/National Natural Science Foundation of China")
+*   [2025C01110/the "Pioneer" and "Leading Goose" R&D Program of Zhejiang](https://pubmed.ncbi.nlm.nih.gov/?term=2025C01110%2Fthe+%22Pioneer%22+and+%22Leading+Goose%22+R%26D+Program+of+Zhejiang%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2025C01110/the \"Pioneer\" and \"Leading Goose\" R&D Program of Zhejiang")
+*   [2026SKLDRS03114/State Key Laboratory of Drug Regulatory Science Project](https://pubmed.ncbi.nlm.nih.gov/?term=2026SKLDRS03114%2FState+Key+Laboratory+of+Drug+Regulatory+Science+Project%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2026SKLDRS03114/State Key Laboratory of Drug Regulatory Science Project")

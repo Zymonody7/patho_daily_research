@@ -1,0 +1,434 @@
+Title: KMGTMDA: KAN-driven multiscale graph neural network and context-enhanced prediction for human microbe-disease associations - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41698566/
+
+Markdown Content:
+# KMGTMDA: KAN-driven multiscale graph neural network and context-enhanced prediction for human microbe-disease associations - PubMed
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/41698566/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41698566%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/41698566/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/41698566/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/41698566/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/41698566/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/9fea6d21-07b4-4726-b151-fb89a024b8ad/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/41698566/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/41698566/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41698566/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41698566%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41698566%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/41698566/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Save citation to file
+
+ Format:  
+
+ Create file  Cancel 
+
+## Email citation
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41698566/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41698566/#)
+
+ Add  Cancel 
+
+## Your saved search
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/41698566/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+## Create a file for external citation management software
+
+ Create file  Cancel 
+
+## Your RSS Feed
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Full text links
+
+[![Image 6: Elsevier Science full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--linkinghub.elsevier.com-ihub-images-PubMedLink.gif) Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S0303-2647(26)00039-0 "See full text options at Elsevier Science")
+
+[Full text links](https://pubmed.ncbi.nlm.nih.gov/41698566/#)
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41698566/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/41698566/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/41698566/#abstract)
+*   [Conflict of interest statement](https://pubmed.ncbi.nlm.nih.gov/41698566/#conflict-of-interest)
+*   [Similar articles](https://pubmed.ncbi.nlm.nih.gov/41698566/#similar)
+*   [MeSH terms](https://pubmed.ncbi.nlm.nih.gov/41698566/#mesh-terms)
+*   [Related information](https://pubmed.ncbi.nlm.nih.gov/41698566/#related-links)
+*   [LinkOut - more resources](https://pubmed.ncbi.nlm.nih.gov/41698566/#linkout)
+
+ Biosystems 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Biosystems%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Biosystems%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41698566/#)
+
+. 2026 Apr:262:105729.
+
+ doi: 10.1016/j.biosystems.2026.105729.  Epub 2026 Feb 14. 
+
+# KMGTMDA: KAN-driven multiscale graph neural network and context-enhanced prediction for human microbe-disease associations
+
+[Xiaoxin Du](https://pubmed.ncbi.nlm.nih.gov/?term=Du+X&cauthor_id=41698566)[1](https://pubmed.ncbi.nlm.nih.gov/41698566/#full-view-affiliation-1 "College of Computer and Control Engineering, Qiqihar University, Qiqihar, 161000, Heilongjiang, China; Heilongjiang Key Laboratory of Big Data Network Security Detection and Analysis, Qiqihar University, Qiqihar, 161000, Heilongjiang, China. Electronic address: xiaoxindu@qqhru.edu.cn."),[Hang Sun](https://pubmed.ncbi.nlm.nih.gov/?term=Sun+H&cauthor_id=41698566)[2](https://pubmed.ncbi.nlm.nih.gov/41698566/#full-view-affiliation-2 "College of Computer and Control Engineering, Qiqihar University, Qiqihar, 161000, Heilongjiang, China; Heilongjiang Key Laboratory of Big Data Network Security Detection and Analysis, Qiqihar University, Qiqihar, 161000, Heilongjiang, China."),[Bo Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+B&cauthor_id=41698566)[2](https://pubmed.ncbi.nlm.nih.gov/41698566/#full-view-affiliation-2 "College of Computer and Control Engineering, Qiqihar University, Qiqihar, 161000, Heilongjiang, China; Heilongjiang Key Laboratory of Big Data Network Security Detection and Analysis, Qiqihar University, Qiqihar, 161000, Heilongjiang, China."),[YiPing Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+Y&cauthor_id=41698566)[2](https://pubmed.ncbi.nlm.nih.gov/41698566/#full-view-affiliation-2 "College of Computer and Control Engineering, Qiqihar University, Qiqihar, 161000, Heilongjiang, China; Heilongjiang Key Laboratory of Big Data Network Security Detection and Analysis, Qiqihar University, Qiqihar, 161000, Heilongjiang, China."),[WenLong Zhao](https://pubmed.ncbi.nlm.nih.gov/?term=Zhao+W&cauthor_id=41698566)[2](https://pubmed.ncbi.nlm.nih.gov/41698566/#full-view-affiliation-2 "College of Computer and Control Engineering, Qiqihar University, Qiqihar, 161000, Heilongjiang, China; Heilongjiang Key Laboratory of Big Data Network Security Detection and Analysis, Qiqihar University, Qiqihar, 161000, Heilongjiang, China."),[Tang Sun](https://pubmed.ncbi.nlm.nih.gov/?term=Sun+T&cauthor_id=41698566)[2](https://pubmed.ncbi.nlm.nih.gov/41698566/#full-view-affiliation-2 "College of Computer and Control Engineering, Qiqihar University, Qiqihar, 161000, Heilongjiang, China; Heilongjiang Key Laboratory of Big Data Network Security Detection and Analysis, Qiqihar University, Qiqihar, 161000, Heilongjiang, China."),[LiSen Yang](https://pubmed.ncbi.nlm.nih.gov/?term=Yang+L&cauthor_id=41698566)[2](https://pubmed.ncbi.nlm.nih.gov/41698566/#full-view-affiliation-2 "College of Computer and Control Engineering, Qiqihar University, Qiqihar, 161000, Heilongjiang, China; Heilongjiang Key Laboratory of Big Data Network Security Detection and Analysis, Qiqihar University, Qiqihar, 161000, Heilongjiang, China.")
+
+ Affiliations  Expand 
+
+### Affiliations
+
+*   1 College of Computer and Control Engineering, Qiqihar University, Qiqihar, 161000, Heilongjiang, China; Heilongjiang Key Laboratory of Big Data Network Security Detection and Analysis, Qiqihar University, Qiqihar, 161000, Heilongjiang, China. Electronic address: xiaoxindu@qqhru.edu.cn.
+*   2 College of Computer and Control Engineering, Qiqihar University, Qiqihar, 161000, Heilongjiang, China; Heilongjiang Key Laboratory of Big Data Network Security Detection and Analysis, Qiqihar University, Qiqihar, 161000, Heilongjiang, China.
+
+*    PMID: **41698566**
+*    DOI: [10.1016/j.biosystems.2026.105729](https://doi.org/10.1016/j.biosystems.2026.105729)
+
+ Item in Clipboard 
+
+# KMGTMDA: KAN-driven multiscale graph neural network and context-enhanced prediction for human microbe-disease associations
+
+Xiaoxin Du et al. Biosystems.2026 Apr.
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ Biosystems 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Biosystems%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Biosystems%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41698566/#)
+
+. 2026 Apr:262:105729.
+
+ doi: 10.1016/j.biosystems.2026.105729.  Epub 2026 Feb 14. 
+
+### Authors
+
+[Xiaoxin Du](https://pubmed.ncbi.nlm.nih.gov/?term=Du+X&cauthor_id=41698566)[1](https://pubmed.ncbi.nlm.nih.gov/41698566/#short-view-affiliation-1 "College of Computer and Control Engineering, Qiqihar University, Qiqihar, 161000, Heilongjiang, China; Heilongjiang Key Laboratory of Big Data Network Security Detection and Analysis, Qiqihar University, Qiqihar, 161000, Heilongjiang, China. Electronic address: xiaoxindu@qqhru.edu.cn."),[Hang Sun](https://pubmed.ncbi.nlm.nih.gov/?term=Sun+H&cauthor_id=41698566)[2](https://pubmed.ncbi.nlm.nih.gov/41698566/#short-view-affiliation-2 "College of Computer and Control Engineering, Qiqihar University, Qiqihar, 161000, Heilongjiang, China; Heilongjiang Key Laboratory of Big Data Network Security Detection and Analysis, Qiqihar University, Qiqihar, 161000, Heilongjiang, China."),[Bo Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+B&cauthor_id=41698566)[2](https://pubmed.ncbi.nlm.nih.gov/41698566/#short-view-affiliation-2 "College of Computer and Control Engineering, Qiqihar University, Qiqihar, 161000, Heilongjiang, China; Heilongjiang Key Laboratory of Big Data Network Security Detection and Analysis, Qiqihar University, Qiqihar, 161000, Heilongjiang, China."),[YiPing Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+Y&cauthor_id=41698566)[2](https://pubmed.ncbi.nlm.nih.gov/41698566/#short-view-affiliation-2 "College of Computer and Control Engineering, Qiqihar University, Qiqihar, 161000, Heilongjiang, China; Heilongjiang Key Laboratory of Big Data Network Security Detection and Analysis, Qiqihar University, Qiqihar, 161000, Heilongjiang, China."),[WenLong Zhao](https://pubmed.ncbi.nlm.nih.gov/?term=Zhao+W&cauthor_id=41698566)[2](https://pubmed.ncbi.nlm.nih.gov/41698566/#short-view-affiliation-2 "College of Computer and Control Engineering, Qiqihar University, Qiqihar, 161000, Heilongjiang, China; Heilongjiang Key Laboratory of Big Data Network Security Detection and Analysis, Qiqihar University, Qiqihar, 161000, Heilongjiang, China."),[Tang Sun](https://pubmed.ncbi.nlm.nih.gov/?term=Sun+T&cauthor_id=41698566)[2](https://pubmed.ncbi.nlm.nih.gov/41698566/#short-view-affiliation-2 "College of Computer and Control Engineering, Qiqihar University, Qiqihar, 161000, Heilongjiang, China; Heilongjiang Key Laboratory of Big Data Network Security Detection and Analysis, Qiqihar University, Qiqihar, 161000, Heilongjiang, China."),[LiSen Yang](https://pubmed.ncbi.nlm.nih.gov/?term=Yang+L&cauthor_id=41698566)[2](https://pubmed.ncbi.nlm.nih.gov/41698566/#short-view-affiliation-2 "College of Computer and Control Engineering, Qiqihar University, Qiqihar, 161000, Heilongjiang, China; Heilongjiang Key Laboratory of Big Data Network Security Detection and Analysis, Qiqihar University, Qiqihar, 161000, Heilongjiang, China.")
+
+### Affiliations
+
+*   1 College of Computer and Control Engineering, Qiqihar University, Qiqihar, 161000, Heilongjiang, China; Heilongjiang Key Laboratory of Big Data Network Security Detection and Analysis, Qiqihar University, Qiqihar, 161000, Heilongjiang, China. Electronic address: xiaoxindu@qqhru.edu.cn.
+*   2 College of Computer and Control Engineering, Qiqihar University, Qiqihar, 161000, Heilongjiang, China; Heilongjiang Key Laboratory of Big Data Network Security Detection and Analysis, Qiqihar University, Qiqihar, 161000, Heilongjiang, China.
+
+*    PMID: **41698566**
+*    DOI: [10.1016/j.biosystems.2026.105729](https://doi.org/10.1016/j.biosystems.2026.105729)
+
+ Item in Clipboard 
+
+ Full text links Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Abstract
+
+**Objective:** Microorganisms play an irreplaceable role in critical physiological processes such as human metabolic regulation, cancer inhibition, and pathogen antagonism, yet traditional culture-based microbial experiments are expensive and time-consuming. Consequently, there is an urgent need to develop efficient computational prediction models to prioritize disease-related microbes, aiming to discover potential associations and reveal their underlying biological mechanisms.
+
+**Methods:** A novel computational framework named KMGTMDA is proposed. First, a dynamic adjacency matrix is employed to dynamically integrate first-order adjacency and higher-order topological information, utilizing an attribute matrix generation network to adaptively adjust node connection weights, and incorporating multi-scale graph features through dual-pathway graph convolution. Secondly, considering the contextual relationships of microbial and disease node features, a graph Transformer is employed to capture global dependencies through a multi-head attention mechanism. In this model, graph structural bias and neighborhood token extraction are introduced to capture local semantic patterns. Moreover, a feature retention strategy is incorporated to complement detailed interaction representations from the feature perspective. Finally, the features are input into a Kolmogorov-Arnold Network (KAN), which constructs nonlinear mappings through learnable basis functions and piecewise splines to generate association scores.
+
+**Results:** The model was evaluated through five-fold cross-validation, achieving AUC and AUPR values of 0.9779 and 0.9786, respectively. Additionally, case studies confirmed that KMGTMDA is an effective tool for screening potential microbes associated with periodontal disease and bacterial vaginosis.
+
+**Conclusions:** This approach efficiently reveals potential associations between human microbes and diseases through multi-scale dynamic topological graph neural networks and feature context learning. It provides more effective guidance for interpreting disease pathogenesis and designing targeted treatment strategies, and offers new directions for further research on potential disease targets.
+
+**Keywords:** Attention mechanism; Graph transformer; Kolmogorov-Arnold network; Microbe–disease association; Multi-scale graph neural network.
+
+Copyright © 2026 Elsevier B.V. All rights reserved.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+## Similar articles
+
+*   [A Multi-Scale Neighbor Topology Guided Transformer and Kolmogorov-Arnold Network Enhanced Feature Learning Model for Disease-Related circRNA Prediction.](https://pubmed.ncbi.nlm.nih.gov/40833909/)Xuan P, Li H, Cui H, Xu Z, Nakaguchi T, Zhang T.Xuan P, et al.IEEE J Biomed Health Inform. 2026 Mar;30(3):2263-2275. doi: 10.1109/JBHI.2025.3600406.IEEE J Biomed Health Inform. 2026.PMID: 40833909  
+*   [Adversarial regularized autoencoder graph neural network for microbe-disease associations prediction.](https://pubmed.ncbi.nlm.nih.gov/39528423/)He L, Zou Q, Dai Q, Cheng S, Wang Y.He L, et al.Brief Bioinform. 2024 Sep 23;25(6):bbae584. doi: 10.1093/bib/bbae584.Brief Bioinform. 2024.PMID: 39528423 Free PMC article.  
+*   [Spatio-Temporal Transformer with Kolmogorov-Arnold Network for Skeleton-Based Hand Gesture Recognition.](https://pubmed.ncbi.nlm.nih.gov/39943338/)Han P, He X, Matsumaru T, Dutta V.Han P, et al.Sensors (Basel). 2025 Jan 24;25(3):702. doi: 10.3390/s25030702.Sensors (Basel). 2025.PMID: 39943338 Free PMC article.  
+*   [MVGCNMDA: Multi-view Graph Augmentation Convolutional Network for Uncovering Disease-Related Microbes.](https://pubmed.ncbi.nlm.nih.gov/35428964/)Hua M, Yu S, Liu T, Yang X, Wang H.Hua M, et al.Interdiscip Sci. 2022 Sep;14(3):669-682. doi: 10.1007/s12539-022-00514-2. Epub 2022 Apr 15.Interdiscip Sci. 2022.PMID: 35428964  
+*   [Predicting potential microbe-disease associations based on dual branch graph convolutional network.](https://pubmed.ncbi.nlm.nih.gov/39086148/)Chen J, Zhu Y, Yuan Q.Chen J, et al.J Cell Mol Med. 2024 Aug;28(15):e18571. doi: 10.1111/jcmm.18571.J Cell Mol Med. 2024.PMID: 39086148 Free PMC article.  
+
+[See all similar articles](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed&from_uid=41698566)
+
+## MeSH terms
+
+*   
+ Algorithms 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Algorithms%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Algorithms)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41698566/#)
+
+*   
+ Computational Biology* / methods 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Computational+Biology%2Fmethods%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Computational+Biology)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41698566/#)
+
+*   
+ Graph Neural Networks 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Graph+Neural+Networks%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Graph+Neural+Networks)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41698566/#)
+
+*   
+ Humans 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Humans%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Humans)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41698566/#)
+
+*   
+ Neural Networks, Computer* 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Neural+Networks%2C+Computer%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Neural+Networks%2C+Computer)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41698566/#)
+
+## Related information
+
+*   [GEO Profiles](https://www.ncbi.nlm.nih.gov/geoprofiles?linkname=pubmed_geoprofiles&from_uid=41698566 "GEO records associated with pubmed record")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S0303-2647(26)00039-0)
+
+**Full text links**[x]
+
+[![Image 7: Elsevier Science full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--linkinghub.elsevier.com-ihub-images-PubMedLink.gif) Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S0303-2647(26)00039-0 "See full text options at Elsevier Science")
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41698566/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41698566%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/41698566/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41698566%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41698566%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/41698566/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/?pagename=pubmed%3Apubmed%3Aabstract%3ANONE)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)
