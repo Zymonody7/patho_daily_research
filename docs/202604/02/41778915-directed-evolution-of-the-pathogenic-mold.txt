@@ -1,0 +1,131 @@
+Title: Directed evolution of the pathogenic mold Aspergillus fumigatus reveals novel genes contributing to triazole resistance - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41778915/
+
+Markdown Content:
+Actions
+
+. 2026 Apr;70(4):e0163525.
+
+doi: 10.1128/aac.01635-25.  Epub 2026 Mar 4.
+
+[Argha Sarkar](https://pubmed.ncbi.nlm.nih.gov/?term=Sarkar+A&cauthor_id=41778915)[1](https://pubmed.ncbi.nlm.nih.gov/41778915/#full-view-affiliation-1 "Department of Clinical Microbiology and Immunology, Gray School of Medicine, Tel Aviv University, Tel Aviv, Israel."),[Avital Varshavsky](https://pubmed.ncbi.nlm.nih.gov/?term=Varshavsky+A&cauthor_id=41778915)[1](https://pubmed.ncbi.nlm.nih.gov/41778915/#full-view-affiliation-1 "Department of Clinical Microbiology and Immunology, Gray School of Medicine, Tel Aviv University, Tel Aviv, Israel."),[Yona Shadkchan](https://pubmed.ncbi.nlm.nih.gov/?term=Shadkchan+Y&cauthor_id=41778915)[1](https://pubmed.ncbi.nlm.nih.gov/41778915/#full-view-affiliation-1 "Department of Clinical Microbiology and Immunology, Gray School of Medicine, Tel Aviv University, Tel Aviv, Israel."),[Xuefei Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+X&cauthor_id=41778915)[2](https://pubmed.ncbi.nlm.nih.gov/41778915/#full-view-affiliation-2 "David Braley Centre for Antibiotics Discovery, M.G. DeGroote Institute for Infectious Disease Research, Department of Biochemistry and Biomedical Sciences, McMaster University, Hamilton, Ontario, Canada."),[Gerard D Wright](https://pubmed.ncbi.nlm.nih.gov/?term=Wright+GD&cauthor_id=41778915)[2](https://pubmed.ncbi.nlm.nih.gov/41778915/#full-view-affiliation-2 "David Braley Centre for Antibiotics Discovery, M.G. DeGroote Institute for Infectious Disease Research, Department of Biochemistry and Biomedical Sciences, McMaster University, Hamilton, Ontario, Canada."),[Endrews Delbaje](https://pubmed.ncbi.nlm.nih.gov/?term=Delbaje+E&cauthor_id=41778915)[3](https://pubmed.ncbi.nlm.nih.gov/41778915/#full-view-affiliation-3 "Departamento de Biologia, Faculdade de Filosofia, Ciências e Letras de Ribeirão Preto, Universidade de São Paulo, Ribeirão Preto, São Paulo, Brazil."),[Bradley Laflamme](https://pubmed.ncbi.nlm.nih.gov/?term=Laflamme+B&cauthor_id=41778915)[4](https://pubmed.ncbi.nlm.nih.gov/41778915/#full-view-affiliation-4 "Department of Molecular Genetics, University of Toronto, , Toronto, Ontario, Canada."),[Sara Fallah](https://pubmed.ncbi.nlm.nih.gov/?term=Fallah+S&cauthor_id=41778915)[4](https://pubmed.ncbi.nlm.nih.gov/41778915/#full-view-affiliation-4 "Department of Molecular Genetics, University of Toronto, , Toronto, Ontario, Canada."),[Evelyne Côté](https://pubmed.ncbi.nlm.nih.gov/?term=C%C3%B4t%C3%A9+E&cauthor_id=41778915)[4](https://pubmed.ncbi.nlm.nih.gov/41778915/#full-view-affiliation-4 "Department of Molecular Genetics, University of Toronto, , Toronto, Ontario, Canada."),[Nicole Robbins](https://pubmed.ncbi.nlm.nih.gov/?term=Robbins+N&cauthor_id=41778915)[4](https://pubmed.ncbi.nlm.nih.gov/41778915/#full-view-affiliation-4 "Department of Molecular Genetics, University of Toronto, , Toronto, Ontario, Canada."),[Thaila Fernanda Dos Reis](https://pubmed.ncbi.nlm.nih.gov/?term=Fernanda+Dos+Reis+T&cauthor_id=41778915)[5](https://pubmed.ncbi.nlm.nih.gov/41778915/#full-view-affiliation-5 "Departamento de Bioquímica, Instituto de Química, Universidade Estadual de São Paulo, Araraquara, Brazil."),[Gustavo H Goldman](https://pubmed.ncbi.nlm.nih.gov/?term=Goldman+GH&cauthor_id=41778915)[6](https://pubmed.ncbi.nlm.nih.gov/41778915/#full-view-affiliation-6 "Faculdade de Ciências Farmacêuticas de Ribeirão Preto, Universidade de São Paulo, Ribeirão Preto, São Paulo, Brazil.")[7](https://pubmed.ncbi.nlm.nih.gov/41778915/#full-view-affiliation-7 "National Institute of Science and Technology in Human Pathogenic Fungi, São Paulo, Brazil."),[Leah E Cowen](https://pubmed.ncbi.nlm.nih.gov/?term=Cowen+LE&cauthor_id=41778915)[4](https://pubmed.ncbi.nlm.nih.gov/41778915/#full-view-affiliation-4 "Department of Molecular Genetics, University of Toronto, , Toronto, Ontario, Canada."),[Nir Osherov](https://pubmed.ncbi.nlm.nih.gov/?term=Osherov+N&cauthor_id=41778915)[1](https://pubmed.ncbi.nlm.nih.gov/41778915/#full-view-affiliation-1 "Department of Clinical Microbiology and Immunology, Gray School of Medicine, Tel Aviv University, Tel Aviv, Israel.")
+
+Affiliations
+
+*    PMID: **41778915**
+*    PMCID: [PMC13041316](https://pmc.ncbi.nlm.nih.gov/articles/PMC13041316/)
+*    DOI: [10.1128/aac.01635-25](https://doi.org/10.1128/aac.01635-25)
+
+## Directed evolution of the pathogenic mold _Aspergillus fumigatus_ reveals novel genes contributing to triazole resistance
+
+Mariana Handelman et al. Antimicrob Agents Chemother.2026 Apr.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+_Aspergillus fumigatus_ is the leading cause of invasive mold infections in immunocompromised patients. Current antifungal treatment primarily depends on the triazole antifungals, which act by inhibiting Erg11/Cyp51, a key enzyme in the ergosterol biosynthetic pathway. However, resistance is emerging at an increasing rate, reducing treatment efficacy and patient survival. Confirmed resistance mechanisms in clinical isolates include mutations in _cyp51A_, _cyp51B_, _hmg1_, _hapE_, _cox10_, and the overexpression of drug efflux pumps. To identify additional determinants of triazole resistance, we grew _A. fumigatus_ wild-type and _Δcyp51A_ mutant strains under increasing concentrations of voriconazole. Sequencing of the resultant resistant strains identified known mutations in _cyp51A_ and _cyp51B_, and novel mutations in _hmg1_, _abcC (cdr1B)_, _ptaB, erg25B,_ and _srbA_. Mutations of _hmg1_ and _ptaB_ occurred early during evolution, while mutations of _erg25B_ and _srbA_ occurred later. Reintroduction of the novel mutations in _hmg1_, _abcC_, _ptaB,_ and _erg25B_ into wild-type _A. fumigatus_ and correction of the _srbA_ mutation in the evolved strain validated their contribution toward triazole resistance. Sterol profiling analysis indicated that mutation or deletion of _erg25B_ is associated with a decrease in the accumulation of methylated sterols. Mutation or deletion of _ptaB_ resulted in increased _cyp51A_, _cyp51B_, and _erg25A_ expression. Sequence analysis of clinical isolates revealed enrichment of missense mutations in _ptaB_, _hmg1_, _abcC_, and _srbA_ among triazole-resistant strains.
+
+**Keywords:** Aspergillus fumigatus; drug resistance; evolution; triazole antifungals.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+L.E.C. is a co-founder and shareholder in Bright Angel Therapeutics, a platform company for the development of novel antifungal therapeutics, and a Science Advisor for Kapoose Creek, a company that harnesses the therapeutic potential of fungi. None of the other authors report any conflict of interest.
+
+## Figures
+
+[![Image 1: Fig 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b90c/13041316/4e3f6047608f/aac.01635-25.f001.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b90c/13041316/ac3de67b4e74/aac.01635-25.f001.jpg)
+
+**Fig 1**
+Stepwise evolution of _A. fumigatus_ under increasing VRC concentrations generates resistant strains. (**A**) Schematic representation of the stepwise evolution protocol. (**B**) Serial dilution assays of independently evolved VRC-resistant strains (A20, B29, C12, and D12) derived from the _akuB KU80-_ wild-type background under increasing VRC concentrations. The numeral denotes the total number of passages. Control strain Cont.29 represents _akuB KU80-_ passaged 29 times without drug. (**C**) Serial dilution assays of independently evolved VRC-resistant strains (A3, B12, C30, and D2) derived from the _Δcyp51A_ background under increasing VRC concentrations. Control strain Cont.30 represents _Δcyp51A_ passaged 30 times without drug.
+
+[![Image 2: Fig 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b90c/13041316/351267d34705/aac.01635-25.f002.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b90c/13041316/9af45ef5d924/aac.01635-25.f002.jpg)
+
+**Fig 2**
+Evolved resistant strains exhibit a fitness cost in the absence of VRC. (**A**) Point inoculation of evolved and control strains on YAG agar, incubated for 72 h at 37°C. (**B**) Radial growth measurements showing significantly reduced colony diameter in evolved strains compared to controls (****, _P_< 0.0001). Error bars indicate the standard deviation of biological triplicate. ns, not significant.
+
+[![Image 3: Fig 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b90c/13041316/f5fd16dbf0dd/aac.01635-25.f003.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b90c/13041316/4d152c5dc1a3/aac.01635-25.f003.jpg)
+
+**Fig 3**
+Novel Hmg1 substitutions G386W and L493P contribute to VRC resistance in _A. fumigatus_. (**A**) Schematic representation of Hmg1 showing the positions of G386W in the sterol-sensing domain and L493P outside the SSD. (**B**) Serial dilution assays of WT strains carrying Hmg1 G386W or L493P on YAG agar with increasing voriconazole concentrations. (**C**) Serial dilution assays of _Δcyp51A_ strains carrying Hmg1 G386W or L493P on YAG agar with increasing VRC concentrations.
+
+[![Image 4: Fig 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b90c/13041316/306a54e42241/aac.01635-25.f004.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b90c/13041316/6eb12027e530/aac.01635-25.f004.jpg)
+
+**Fig 4**
+Novel AbcC substitution R339H contributes to VRC resistance in _A. fumigatus_. (**A**) Schematic representation of AbcC showing the positions of R339H in the nucleotide-binding domain (NBD) and S570N in the second transmembrane domain. (**B**) Serial dilution assays of WT strain carrying AbcC R339H on YAG agar with increasing VRC concentrations.
+
+[![Image 5: Fig 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b90c/13041316/f786aa68dbc3/aac.01635-25.f005.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b90c/13041316/03836064f6c5/aac.01635-25.f005.jpg)
+
+**Fig 5**
+Novel Erg25B substitution D253G and _erg25B_ deletion contribute to VRC resistance in _A. fumigatus_. (**A**) Schematic representation of Erg25B indicating the positions of G178D and D253G within the fatty acid hydroxylase domain. (**B**) Serial dilution assays of WT strain carrying Erg25B D253G or _erg25B_ deletion on YAG agar with increasing VRC concentrations. (**C**) Sterol profiling of _akuB KU80-_, _Δerg25B_, and Erg25B D253G strains showing relative levels of lanosterol, eburicol, 14-methylergosta-8,24(28)-dien-3β,6α-diol, and ergosterol with or without VRC. Data are presented as mean ± SEM from three independent biological replicates, each performed in duplicate. ** _P_< 0.01, *** _P_< 0.001, **** _P_< 0.0001, ns, not significant.
+
+[![Image 6: Fig 6](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b90c/13041316/1339e4dc8d1c/aac.01635-25.f006.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b90c/13041316/4c347edb25f9/aac.01635-25.f006.jpg)
+
+**Fig 6**
+_PtaB_ mutation or deletion contributes to triazole resistance and increases the expression of key ergosterol biosynthesis genes. (**A**) Schematic representation of PtaB showing the positions of Q312stop and Q397FS mutations located before and within the LIM-binding domain, respectively. (**B**) Point inoculation of PtaB Q312stop, PtaB Q397FS, and _ΔptaB_ on YAG agar with or without VRC, incubated for 72 h at 37°C. (**C**) Radial growth measurements of strains _ptaB_ mutants show significantly reduced colony diameter compared to the control WT strain (****, _P_< 0.0001). Error bars indicate the standard deviation of biological triplicate. (**D**) Conidiation assays revealing significantly reduced sporulation in the _ptaB_ mutants (_P <_ 0.001). Error bars represent the standard deviation of biological replicates. (**E**) Serial dilution assays of WT, strains PtaB Q312stop, PtaB Q397FS, and _ΔptaB_ on YAG agar containing increasing concentrations of VRC. (**F**) qPCR analysis of _hmg1_, _erg1_, _cyp51A_, _cyp51B_, _erg25A,_ and _erg3C_ expression in the WT, _ΔptaB,_ and PtaB Q397FS strains, grown with and without VRC. Error bars indicate the standard deviation of three technical replicates of three biological experiments. * _P_< 0.05, ** _P_< 0.01, *** _P_< 0.001, **** _P_< 0.0001, ns, not significant.
+
+[![Image 7: Fig 7](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b90c/13041316/c58e5e2d5d93/aac.01635-25.f007.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b90c/13041316/b8380a4bfecd/aac.01635-25.f007.jpg)
+
+**Fig 7**
+The SrbA L250P substitution modulates voriconazole resistance. (**A**) Schematic representation of SrbA showing the position of the L250P substitution within the DNA-binding domain. (**B**) Serial dilution assays of parental _Δcyp51A_, the evolved parental _Δcyp51A_ B12 SrbA-L250P strain, and _Δcyp51A_ B12-_srbA_ in which the SrbA L250P mutation was corrected. Strains were grown on YAG agar containing increasing concentrations of VRC. (**C**) qPCR analysis of _ptaB_, _srbA_, _hmg1_, _erg1_, _cyp51B_, _erg24A, erg25A, erg25B, erg3C,_ and _abcC_ expression in _Δcyp51A_ B12 SrbA-L250P and _Δcyp51A_ B12-_srbA_ strains, grown with and without VRC treatment. Error bars indicate the standard deviation of three technical replicates of three biological experiments. (**D**) Serial dilution assays of WT, _srbA_ L250P, and _ΔsrbA_ on YAG agar with increasing VRC concentrations. * _P_< 0.05, ** _P_< 0.01, *** _P_< 0.001, **** _P_< 0.0001, ns, not significant.
+
+[![Image 8: Fig 8](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b90c/13041316/3c527688d7bc/aac.01635-25.f008.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b90c/13041316/dc57e810c8b9/aac.01635-25.f008.jpg)
+
+**Fig 8**
+Mutation timeline in lineages evolved from the (**A**) WT and (**B**) Δcyp51A backgrounds. ARMS-PCR and Sanger sequencing showed early appearance of hmg1 (generations 2–4) and ptaB (generations 2–5) mutations, intermediate cyp51B (generation 6), and later abcC (generations 6, 12), erg25B (generations 8, 9), and srbA (generation 9) mutations.
+
+## References
+
+1.       1.    Denning DW. 2024. Global incidence and mortality of severe fungal disease. Lancet Infect Dis 24:e428–e438. doi: 10.1016/S1473-3099(23)00692-8 - [DOI](https://doi.org/10.1016/s1473-3099(23)00692-8) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/38224705/)
+
+2.       1.    Kanaujia R, Singh S, Rudramurthy SM. 2023. Aspergillosis: an update on clinical spectrum, diagnostic schemes, and management. Curr Fungal Infect Rep 17:144–155. doi: 10.1007/s12281-023-00461-5 - [DOI](https://doi.org/10.1007/s12281-023-00461-5) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC10157594/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/37360858/)
+
+3.       1.    Brown GD, Denning DW, Gow NAR, Levitz SM, Netea MG, White TC. 2012. Hidden killers: human fungal infections. Sci Transl Med 4:165rv13. doi: 10.1126/scitranslmed.3004404 - [DOI](https://doi.org/10.1126/scitranslmed.3004404) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/23253612/)
+
+4.       1.    Latgé J-P, Chamilos G. 2019. Aspergillus fumigatus and aspergillosis in 2019. Clin Microbiol Rev 33:e00140-18. doi: 10.1128/CMR.00140-18 - [DOI](https://doi.org/10.1128/cmr.00140-18) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6860006/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/31722890/)
+
+5.       1.    Boyer J, Feys S, Zsifkovits I, Hoenigl M, Egger M. 2023. Treatment of invasive aspergillosis: how it’s going, where it’s heading. Mycopathologia 188:667–681. doi: 10.1007/s11046-023-00727-z - [DOI](https://doi.org/10.1007/s11046-023-00727-z) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC10132806/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/37100963/)
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Atypon](https://journals.asm.org/doi/10.1128/aac.01635-25?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)

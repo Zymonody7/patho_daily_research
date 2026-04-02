@@ -1,0 +1,1123 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-04-02T19:33:46.257813+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 10,
+    "deep_cap": 9,
+    "deep_selected": 9,
+    "quick_candidates": 24,
+    "quick_skim_target": 14,
+    "quick_selected": 14
+  },
+  "deep_dive": [
+    {
+      "id": "41922571",
+      "title": "AlphaFold as a prior: experimental structure determination conditioned on a pretrained neural network.",
+      "abstract": "Advances in machine learning have transformed structural biology, enabling swift and accurate prediction of protein structure from sequence. However, key challenges persist in modeling side-chain packing, condition-dependent conformational changes and biomolecular interactions, largely because of limited high-quality training data. At the same time, emerging experimental techniques such as cryo-electron microscopy (cryo-EM), cryo-electron tomography (cryo-ET) and high-throughput crystallography are generating vast amounts of structural information but converting these data into mechanistically interpretable atomic models often remains difficult. Here we show that integrating experimental measurements directly into protein structure prediction can overcome these limitations. We introduce ROCKET, an augmentation of AlphaFold2 that refines predicted structures using cryo-EM, cryo-ET and X-ray crystallography data. By optimizing structures in the space of coevolutionary embeddings rather than Cartesian coordinates, ROCKET captures biologically meaningful structural variation that is inaccessible to AlphaFold2 alone and to existing automated modeling approaches, especially when the signal-to-noise ratio is low. ROCKET enables scalable, automated model building without retraining and provides a general framework for integrating experimental observables with biomolecular machine learning.",
+      "authors": [
+        "Alisia Fadini",
+        "Minhuan Li",
+        "Airlie J McCoy",
+        "Suresh Banjara",
+        "Hiroki Okumura",
+        "Eve Napier",
+        "Pietro Fontana",
+        "Amir R Khan",
+        "Luca Jovine",
+        "Thomas C Terwilliger",
+        "Randy J Read",
+        "Doeke R Hekstra",
+        "Mohammed AlQuraishi"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41922571/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "integrating experimental measurements into pretrained AlphaFold models",
+      "llm_evidence_cn": "将实验测量结果整合到预训练的 AlphaFold 模型中",
+      "llm_evidence": "将实验测量结果整合到预训练的 AlphaFold 模型中",
+      "canonical_evidence": "将实验测量结果整合到预训练的 AlphaFold 模型中",
+      "llm_tldr_en": "Proposes using AlphaFold as a prior to improve protein structure determination from experimental data.",
+      "llm_tldr_cn": "提出将 AlphaFold 作为先验，以改进从实验数据中确定蛋白质结构的过程。",
+      "llm_tldr": "提出将 AlphaFold 作为先验，以改进从实验数据中确定蛋白质结构的过程。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "geometric deep learning and foundation models for protein structure modeling",
+      "matched_requirement_id": "req-17",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41922570",
+      "title": "Quantifying uncertainty in protein representations across models and tasks.",
+      "abstract": "Biomolecular embeddings serve as efficient representations of sequence and structure, enabling tasks such as similarity searches, structure and function prediction and estimation of biophysical properties. However, relying on embeddings without assessing their ability to accurately represent biomolecules is a critical flaw-akin to using a scalpel in surgery without verifying its sharpness. Here we propose a means to evaluate the capacity of protein language models to encode biologically meaningful information. For each protein, representation uncertainty is scored as the fraction of non-biological 'synthetic' sequences among its nearest neighbors in latent space. Our analysis reveals that low-quality embeddings often fail to capture meaningful biology, displaying vector properties indistinguishable from those of randomly generated sequences. Our model-agnostic scoring framework is, to our knowledge, the first to quantify protein sequence embedding reliability. It enables embedding screening prior to downstream applications and inferences, significantly improving their reliability. We propose that embedding evaluation should be undertaken for other uses of language models in science as well.",
+      "authors": [
+        "R Prabakaran",
+        "Yana Bromberg"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41922570/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Evaluation of protein language models and biomolecular embeddings",
+      "llm_evidence_cn": "蛋白质语言模型和生物分子嵌入的评估",
+      "llm_evidence": "蛋白质语言模型和生物分子嵌入的评估",
+      "canonical_evidence": "蛋白质语言模型和生物分子嵌入的评估",
+      "llm_tldr_en": "Proposes a method to quantify uncertainty in protein language model embeddings to ensure biological meaningfulness.",
+      "llm_tldr_cn": "提出一种量化蛋白质语言模型嵌入不确定性的方法，以确保其编码具有生物学意义的信息。",
+      "llm_tldr": "提出一种量化蛋白质语言模型嵌入不确定性的方法，以确保其编码具有生物学意义的信息。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "benchmark and evaluation for bioinformatics language models",
+      "matched_requirement_id": "req-29",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41923365",
+      "title": "TaxTriage: An Open-Source Metagenomic Sequencing Data Analysis Pipeline Enabling Putative Pathogen Detection.",
+      "abstract": "MOTIVATION: TaxTriage is a comprehensive pathogen identification workflow designed for both short- and long-read untargeted DNA and RNA sequencing data. Combining read classification, mapping, and de novo assembly approaches, putative pathogens are identified through comparisons to curated pathogens and abundance expectations from healthy cohort data. Flexible installation options are enabled using Nextflow™ (NF), including cloud deployment via NF Tower (Seqera Platform) and local installation on a variety of systems, including standalone installations without external internet access. Final analysis summaries are compiled into an Organism Discovery Report, which lists likely pathogens and supporting data, including a custom confidence score. RESULTS: Evaluation of published in silico, clinical, and outbreak datasets identified performance comparable to alternative cloud-based processing pipelines for expected pathogen and co-infection detection with similar sensitivity and increased specificity. To support both public health and veterinary diagnostics communities, customization options have been incorporated to enable improved performance for host species of interest. AVAILABILITY AND IMPLEMENTATION: Source code for TaxTriage is freely available at https://github.com/jhuapl-bio/taxtriage. TaxTriage v2.1.1 has been archived on Zenodo at https://zenodo.org/records/17081354 to permit reproducible analysis as described in this manuscript. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+      "authors": [
+        "Brian Merritt",
+        "Jeremy D Ratcliff",
+        "Stanley Ta",
+        "Gunars Osis",
+        "Matthew R Mauldin",
+        "Peter M Thielen"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41923365/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "metagenomic sequencing data analysis pipeline for pathogen detection",
+      "llm_evidence_cn": "用于病原体检测的宏基因组测序数据分析流程",
+      "llm_evidence": "用于病原体检测的宏基因组测序数据分析流程",
+      "canonical_evidence": "用于病原体检测的宏基因组测序数据分析流程",
+      "llm_tldr_en": "TaxTriage is an open-source pipeline for identifying pathogens from short- and long-read metagenomic sequencing data.",
+      "llm_tldr_cn": "TaxTriage 是一个开源流程，用于从长短读长宏基因组测序数据中识别病原体。",
+      "llm_tldr": "TaxTriage 是一个开源流程，用于从长短读长宏基因组测序数据中识别病原体。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for metagenomic pathogen detection and classification",
+      "matched_requirement_id": "req-11",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41925746",
+      "title": "Integrated spatial transcriptomics and pan-cancer XGBoost modeling uncover spatial drivers of immune exclusion and predict immunotherapy response.",
+      "abstract": "Immunotherapy has revolutionized cancer treatment, yet characterizing the spatial complexity of the tumor immune microenvironment remains a challenge. In this study, we established a comprehensive computational framework integrating multi-omics profiling across 27 cancer types to decode immune-related non-coding RNA regulatory networks. Moving beyond traditional bulk analysis, we utilized spatial transcriptomics to dissect the spatial localization of these regulators. We identified the SNHG6-BIRC5 axis as a critical driver of the \"immune-cold\" phenotype in lung adenocarcinoma. We provide visual evidence that this axis localizes to tumor nests and negatively correlates with T- cell infiltration, elucidating a mechanism of spatial immune exclusion. Validating the clinical relevance of these findings, genome-scale CRISPR-Cas9 screening data confirmed the functional essentiality of these targets for cancer cell survival. Furthermore, pharmacogenomic analysis revealed that high expression of this axis correlates with sensitivity to chemotherapy agents like Vinblastine, suggesting a potential stratification strategy for patients with immune-excluded tumors. To expand the clinical utility to immunotherapy prediction, we developed a pan-cancer XGBoost machine learning model incorporating 14 high-performance regulatory features. This model achieved robust performance in distinguishing immunotherapy responders from non-responders with an AUC of 0.771, outperforming traditional markers such as PD-L1. Collectively, this study highlights spatial determinants of immune exclusion and chemotherapy sensitivity- and presents a generalized machine- learning tool for precision immunotherapy stratification. The developed online resource is freely available to facilitate community-wide biomarker discovery.",
+      "authors": [
+        "Hongying Zhao",
+        "Wangyang Liu",
+        "Haotian Xu",
+        "Lu Wang",
+        "Zushun Chen",
+        "Yanwu Sun",
+        "Li Wang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-02",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41925746/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "integrated spatial transcriptomics and XGBoost modeling for cancer",
+      "llm_evidence_cn": "整合空间转录组学和 XGBoost 模型用于癌症研究",
+      "llm_evidence": "整合空间转录组学和 XGBoost 模型用于癌症研究",
+      "canonical_evidence": "整合空间转录组学和 XGBoost 模型用于癌症研究",
+      "llm_tldr_en": "Combines spatial transcriptomics and machine learning to predict immunotherapy response and immune exclusion.",
+      "llm_tldr_cn": "结合空间转录组学和机器学习来预测免疫治疗反应和免疫排除。",
+      "llm_tldr": "结合空间转录组学和机器学习来预测免疫治疗反应和免疫排除。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "deep learning and foundation models for spatial transcriptomics proteomics and tissue mapping",
+      "matched_requirement_id": "req-46",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41707391",
+      "title": "Metagenomic and metatranscriptomic analyses reveal microbial dysbiosis and bacteria-virus interactions in the lungs of Australian feedlot cattle with bovine respiratory disease.",
+      "abstract": "Bovine respiratory disease (BRD) remains the leading cause of feedlot cattle morbidity and mortality. Despite its polymicrobial aetiology, microbial population structure and inter-pathogen dynamics within the lungs of cattle with BRD remain poorly understood. To characterise the lung microbiome and virome of feedlot cattle with (n = 23) and without BRD (n = 9), we applied RNA-sequencing and full-length 16S rRNA gene sequencing to bovine lung tissue samples collected at post-mortem. Host-depleted RNA-seq reads were assembled and profiled, bacterial communities were classified, and diversity, differential abundance, bacteria-virus correlations, co-occurrence networks, and phage-host links analysed. Lung samples from BRD- cattle revealed pathogen-dominated communities with reduced within-sample diversity. Metamycoplasmataceae/Mycoplasmataceae, and Pasteurellaceae accounted for approximately 65.3 % of the bacterial population in samples from cattle with BRD, compared to approximately 11.3 % in lung samples from non-BRD cattle. At the species level, a significantly increased abundance of Pasteurella multocida was observed in BRD cattle. The virome was bacteriophage-dominated in both groups (led by Peduoviridae) but revealed distinct BRD-associated changes. Strong correlation between bacterial genomic abundance and transcriptional activity was observed in cattle with BRD, particularly for Mycoplasmopsis bovis, P. multocida, and Trueperella pyogenes. Network analyses consistently identified M. bovis, P. multocida, and Histophilus somni as highly connected hubs, whereas phages predicted to infect BRD-associated bacteria and Pestivirus bovis were more prevalent and/or abundant in lung samples from BRD cattle. Overall, BRD is characterised by a shift to low-diversity, pathogen-centred bacterial communities within a phage-rich virome that includes enrichment of bacterial pathogen-associated phages. These findings provide a basis for microbiome-informed, multi-pathogen diagnostics and help prioritise surveillance and control strategies that can be included into feedlot BRD management programmes to reduce antimicrobial use, animal losses, and economic impacts.",
+      "authors": [
+        "Gebremeskel Mamu Werid",
+        "Farhid Hemmatzadeh",
+        "Tony Batterham",
+        "Darren Miller",
+        "Robert Edwards",
+        "Darren J Trott",
+        "Kiro Petrovski"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41707391/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Metagenomic analysis of lung microbiome and bacteria-virus interactions",
+      "llm_evidence_cn": "肺部微生物组和细菌-病毒相互作用的宏基因组分析",
+      "llm_evidence": "肺部微生物组和细菌-病毒相互作用的宏基因组分析",
+      "canonical_evidence": "肺部微生物组和细菌-病毒相互作用的宏基因组分析",
+      "llm_tldr_en": "Analyzes the lung microbiome and virome in cattle to understand microbial dysbiosis and pathogen interactions.",
+      "llm_tldr_cn": "通过宏基因组和转录组分析牛肺部微生物失调及病原体间的相互作用。",
+      "llm_tldr": "通过宏基因组和转录组分析牛肺部微生物失调及病原体间的相互作用。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41912361",
+      "title": "Hi-C Links Reveal Viral Activity and Infection Within the Free-Living Microbial Community of a Secondary Chlorophyll Maximum in the Eastern Tropical North Pacific.",
+      "abstract": "Oxygen-deficient zones (ODZs) influence global nitrogen cycling as key sites for the removal of bioavailable nitrogen through denitrification and anammox. Despite their importance, many microbes and viruses in ODZs remain uncultivated, limiting our understanding of their ecological roles. This study employed Hi-C proximity linkages, combined with long and short read metagenomic sequencing to characterise active viral interactions in the prokaryotic community at a secondary chlorophyll maximum in the Eastern Tropical North Pacific ODZ. Among the identified 861 assembled viral contigs over 10 kb, 75 showed significant links to microbial genomes. Virus-host linkages indicated 19 novel virus-microbe pairs that were likely infectious, and which conventional in silico host prediction methods largely missed. The virus-host relationships involved nine distinct microbial phyla, with previously unrecorded viral infections of Planctomycetes, Chloroflexota, Alphaproteobacteria, Gammaproteobactera, Myxococcota and Verrucomicrobia. Most hosts carried the genomic potential for denitrification. Phylogenetic analysis of the terminase large subunit (terL) genes from linked viruses suggested that many active phages resemble known temperate phages, indicating that lysogeny may be an ecological strategy in ODZs. Our comprehensive metagenomic approach offers new insights into viral-host interactions in this ecosystem, highlighting the importance of including proximity methods in viral ecology studies of uncultivated microbial populations.",
+      "authors": [
+        "Christina Rathwell",
+        "Clara A Fuchsman",
+        "Gabrielle Rocap"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41912361/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "metagenomic sequencing and Hi-C for virus-host interactions",
+      "llm_evidence_cn": "用于病毒-宿主相互作用的宏基因组测序和Hi-C技术",
+      "llm_evidence": "用于病毒-宿主相互作用的宏基因组测序和Hi-C技术",
+      "canonical_evidence": "用于病毒-宿主相互作用的宏基因组测序和Hi-C技术",
+      "llm_tldr_en": "Uses Hi-C and metagenomics to link viruses to microbial hosts in oxygen-deficient marine zones.",
+      "llm_tldr_cn": "利用Hi-C和宏基因组学技术将海洋缺氧区中的病毒与微生物宿主联系起来。",
+      "llm_tldr": "利用Hi-C和宏基因组学技术将海洋缺氧区中的病毒与微生物宿主联系起来。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41708876",
+      "title": "Repurposing Tirazone as an effective quorum-sensing inhibitor against Pseudomonas aeruginosa virulence and biofilm formation.",
+      "abstract": "Antibiotic resistance has emerged as a critical global public health challenge. Quorum sensing (QS), a density-dependent regulatory mechanism, plays a pivotal role in bacterial pathogenesis by coordinating virulence factor expression, making it a critical target for antivirulence therapy. Leveraging a drug repositioning strategy, this study investigated the antivirulence potential of drugs in the database of DrugBank on the common opportunistic pathogen Pseudomonas aeruginosa by virtual screening. Molecular docking analysis predicted that the antitumor drug, Tirazone, could bind to the core QS regulatory proteins, LasR, RhlR, and PqsR of P. aeruginosa with abundant active sites, whereas the binding free energies were higher than those of the native QS signals. In vitro experiments demonstrated that Tirazone significantly suppressed virulence factor secretion, cell motilities, and biofilm formation in the model P. aeruginosa strain PAO1, and downregulated the expression of a series of QS-related genes with low effective concentration (≤ 8 μM). A competitive binding model of QS signal molecules further elucidated that Tirazone interfered with QS signaling by competitively inhibiting the function of LasR, RhlR, and PqsR. Additionally, Tirazone treatment significantly protected Caenorhabditis elegans and mouse models from P. aeruginosa infection, and reduced the bacterial loads and pathological lesions in mouse lungs. Moreover, Tirazone demonstrated synergistic effects with polymyxin B, levofloxacin, and amikacin, significantly enhancing their bactericidal efficacy in treating P. aeruginosa. This study reveals the molecular mechanism underlying Tirazone's multi-target intervention in the QS system, and provides an experimental foundation for developing combination therapies based on antivirulence strategies.",
+      "authors": [
+        "Mengna Feng",
+        "Xiaoyu Wu",
+        "Xin Hu",
+        "Yi Wu",
+        "Shiyi Gou",
+        "Qiman Ran",
+        "Yang Yuan",
+        "Ting Huang",
+        "Lufeng Dan",
+        "Yiwen Chu",
+        "Xikun Zhou",
+        "Kelei Zhao",
+        "Lianming Du"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41708876/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "virtual screening and molecular docking for antivirulence drug repurposing",
+      "llm_evidence_cn": "用于抗毒力药物重定位的虚拟筛选和分子对接",
+      "llm_evidence": "用于抗毒力药物重定位的虚拟筛选和分子对接",
+      "canonical_evidence": "用于抗毒力药物重定位的虚拟筛选和分子对接",
+      "llm_tldr_en": "Uses virtual screening and docking to repurpose Tirazone as a quorum-sensing inhibitor against P. aeruginosa.",
+      "llm_tldr_cn": "利用虚拟筛选和分子对接技术将 Tirazone 重定位为铜绿假单胞菌的群体感应抑制剂。",
+      "llm_tldr": "利用虚拟筛选和分子对接技术将 Tirazone 重定位为铜绿假单胞菌的群体感应抑制剂。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41734518",
+      "title": "Microbiome alterations and host-pathogen interactions in paratuberculosis: A one health perspective.",
+      "abstract": "Paratuberculosis is a chronic ruminal-enteric infection caused by Mycobacterium avium subsp. paratuberculosis (MAP). It has significant economic, trade, and public health implications. In addition to evading host immunity, MAP modulates the gut microbiome, resulting in dysbiosis that exacerbates disease progression. A conceptual framework is proposed in which Johne's disease (JD) can serve as the paradigm of chronic infection, based on dysbiosis in microbial imbalance, immune escape, and pathogen survival in a self-sustaining loop, as in human tuberculosis and Crohn's disease. This review evaluates the evidence on MAP-induced microbiome alterations and their impact on host-pathogen relations, immune responses, and metabolic processes in cattle, sheep, goats, and other ruminants. JD-associated dysbiosis is characterized by reduced microbial diversity, depletion of butyrate-producing taxa (e.g., Ruminococcaceae and Lachnospiraceae), enrichment of pro-inflammatory Enterobacteriaceae, and disruption of short-chain fatty acid (SCFA) metabolic pathways. Recent studies suggest that such alterations in microbes can be the initial signs of diagnosis and pre-treatment components, such as probiotics, prebiotics, dietary modifications, and microbiome-based vaccinations. This summary bridges the research on the veterinary and human microbiome, revealing that MAP-Microbiome interactions reflect immunological evasion and microbial persistence schemes observed with other intracellular pathogens. Evidence across species and disciplines highlights the interdependence between host microbiome stability, pathogen persistence, and disease progression. However, variances between studies show the need to adopt standardized methodologies, longitudinal studies, and multi-omics designs to establish whether dysbiosis precedes or follows MAP infection. The review is the first to combine molecular, immunological, and microbiome-level data into the One Health concept of MAP persistence. Moreover, this review takes a One Health approach where the investigation of MAP-induced dysbiosis offers an understanding of chronic inflammation, microbial ecology, and persistence strategies applicable to veterinary as well as human health. This way, we can emphasize the diagnostic, therapeutic, and translational opportunities of microbiome-based interventions in JD using a One Health model that connects ruminant disease to human inflammatory bowel diseases, including Crohn's disease.",
+      "authors": [
+        "Ankush Dhillon",
+        "Prabhati Yadav",
+        "Saurabh Gupta",
+        "Shoor Vir Singh",
+        "Jagdip Singh Sohal",
+        "Krishan Dutta Rawat"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41734518/",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Microbiome alterations and host-pathogen interactions in infection",
+      "llm_evidence_cn": "感染中的微生物组变化和宿主-病原体相互作用",
+      "llm_evidence": "感染中的微生物组变化和宿主-病原体相互作用",
+      "canonical_evidence": "感染中的微生物组变化和宿主-病原体相互作用",
+      "llm_tldr_en": "Reviews how MAP modulates the gut microbiome and host-pathogen interactions in paratuberculosis.",
+      "llm_tldr_cn": "综述了副结核分枝杆菌如何调节肠道微生物组及宿主-病原体相互作用。",
+      "llm_tldr": "综述了副结核分枝杆菌如何调节肠道微生物组及宿主-病原体相互作用。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41923466",
+      "title": "Comparative Amplicon and Shotgun Metagenome Profiling of Soil Microbial Communities in Kauri Forests Affected by Phytophthora agathidicida.",
+      "abstract": "Soil-borne pathogens can influence microbial communities and ecosystem function, making it important to understand their broader ecological impacts. We investigated interactions between Phytophthora agathidicida (the causal agent of kauri tree dieback) and soil microbial communities, while also comparing detection and community-profiling methods. Soils from 60 kauri trees across three sites in the Waitākere Ranges, New Zealand, were analysed using loop-mediated isothermal amplification (LAMP) for pathogen detection, and 16S rRNA gene/ITS gene amplicon sequencing alongside shotgun metagenomics for community characterisation. LAMP detected P. agathidicida in 39/60 samples, while shotgun sequencing detected Phytophthora-associated DNA at low abundance across all samples. Microbial community structure and functional potential showed weak association with pathogen presence, though differential abundance testing identified several genera enriched in pathogen-detected soils, including taxa previously linked to disease suppression. Amplicon and shotgun profiles indicated broadly comparable patterns at higher taxonomic and functional levels, while differences between approaches emerged primarily at finer taxonomic resolution. Importantly, functional predictions from PICRUSt2 closely matched shotgun-derived profiles at broader scales, indicating its suitability as a cost-effective tool for broad-scale monitoring. These findings suggest limited direct pathogen effects on microbial communities and highlight how integrating molecular approaches provides complementary insights into soil microbiome-pathogen interactions.",
+      "authors": [
+        "Zoe King",
+        "Hannah L Buckley",
+        "Gavin Lear",
+        "Brent Seale",
+        "Kevin C Lee",
+        "Luitgard Schwendenmann",
+        "Donnabella C Lacap-Bugler"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41923466/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Shotgun metagenomics for community profiling and pathogen detection",
+      "llm_evidence_cn": "用于群落分析和病原体检测的鸟枪法宏基因组学",
+      "llm_evidence": "用于群落分析和病原体检测的鸟枪法宏基因组学",
+      "canonical_evidence": "用于群落分析和病原体检测的鸟枪法宏基因组学",
+      "llm_tldr_en": "Compares amplicon and shotgun metagenomics for detecting soil pathogens and profiling microbial communities.",
+      "llm_tldr_cn": "对比了扩增子和鸟枪法宏基因组测序在检测土壤病原体及表征微生物群落方面的效果。",
+      "llm_tldr": "对比了扩增子和鸟枪法宏基因组测序在检测土壤病原体及表征微生物群落方面的效果。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "41922730",
+      "title": "Two years of SARS-CoV-2 genomic surveillance capacity development in Guinea.",
+      "abstract": "",
+      "authors": [
+        "N'Faly Magassouba",
+        "Emanuele Gustani-Buss",
+        "Kekoura Ifono",
+        "Emily Victoria Nelson",
+        "Jacob Camara",
+        "Giuditta Annibaldis",
+        "Annick Renevey",
+        "Julia Hinzmann",
+        "Mette Hinrichs",
+        "Sarah Ryter",
+        "Ehizojie Emua",
+        "Saa Lucien Millimono",
+        "Eugene Kolie",
+        "Moussa Condé",
+        "Bakary Sylla",
+        "Nourdine Ibrahim",
+        "Stephane Mely",
+        "Hugo Soubrier",
+        "Joëlle Goüy de Bellocq",
+        "Beatriz Escudero-Pérez",
+        "Laura N Cuypers",
+        "Elodie Moissonnier",
+        "Lien de Caluwé",
+        "Jonas Müller",
+        "Anke Thielebein",
+        "Alexandru Tomazatos",
+        "Christine Jacobsen",
+        "Meike Pahlmann",
+        "Beate Becker-Ziaja",
+        "Cyril Erameh",
+        "Sylvanus Okogbenin",
+        "Fara Raymond Koundouno",
+        "Youssouf Sidibé",
+        "Kaba Keïta",
+        "Mamadou Boye Keita",
+        "Gianluca Loi",
+        "Moke Fundji Jean Marie Kipela",
+        "Georges Alfred Ki-Zerbo",
+        "Seydou Dia",
+        "Philippe Lemey",
+        "Stephan Günther",
+        "Alimou Camara",
+        "Barré Soropogui",
+        "Liana Eleni Kafetzopoulou",
+        "Sanaba Boumbaly",
+        "Sophie Duraffour"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41922730/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Genomic surveillance capacity development for SARS-CoV-2",
+      "llm_evidence_cn": "SARS-CoV-2 基因组监测能力建设",
+      "llm_evidence": "SARS-CoV-2 基因组监测能力建设",
+      "canonical_evidence": "SARS-CoV-2 基因组监测能力建设",
+      "llm_tldr_en": "Reports on the development of genomic surveillance capacity for monitoring SARS-CoV-2 outbreaks.",
+      "llm_tldr_cn": "报告了用于监测 SARS-CoV-2 疫情的基因组监测能力的建设情况。",
+      "llm_tldr": "报告了用于监测 SARS-CoV-2 疫情的基因组监测能力的建设情况。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI methods for genomic surveillance and outbreak monitoring",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "41455276",
+      "title": "Streptococcus vaginalis affects cellular dynamics of cervical cancer cells via oxidative stress-induced activation of endoplasmic reticulum unfolded protein response.",
+      "abstract": "The vaginal microbiome plays an important role in the development of cervical cancer, highlighting the potential influence of specific members on disease susceptibility, progression, and suppression. In this study, we characterized a recently identified species of vaginal viridans group streptococci, Streptococcus vaginalis. By examining its prevalence, genomic features, and interactions with model cervical cancer cells, we aim to deepen the understanding of its biological significance and broader implications for vaginal health. Microbiome profiling detected S. vaginalis in 27 % of a cohort of Korean women, and the second most abundant species of Streptococcus. Pan-genome analysis and comparative genomics of S. vaginalis strains revealed their reduced pathogenic potentials. In vitro bioassays using cervical cancer cell models (HeLa, SiHa, and CaSki) demonstrated significant effects of S. vaginalis, influencing morphology, proliferation, migration, colony formation, and the induction of apoptosis. Mechanistic investigation identified the involvement of the endoplasmic reticulum (ER) stress and the activation of the unfolded protein response (UPR). Hydrogen peroxide produced by S. vaginalis was found to induce oxidative stress, triggering the ER stress-mediated cellular stress responses in cervical cancer cells. Our study revealed the influence of S. vaginalis on the dynamics of cervical cancer cells via oxidative stress-induced activation of the ER UPR pathway. These mechanistic insights emphasize a potential avenue for therapeutic interventions aimed at modulating oxidative and ER stress responses in cervical cancer treatment strategies. Overall, our findings provide new perspectives into the biological significance of S. vaginalis, expanding our understanding of its potential role beyond simple commensalism.",
+      "authors": [
+        "Jake Adolf V Montecillo",
+        "Heon Jong Yoo",
+        "Yoo-Young Lee",
+        "Chul Min Park",
+        "Angela Cho",
+        "Hyunsu Lee",
+        "Jong Mi Kim",
+        "Nan Young Lee",
+        "Sun-Hyun Park",
+        "Nora Jee-Young Park",
+        "Hyung Soo Han",
+        "Gun Oh Chong",
+        "Incheol Seo"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41455276/",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "microbiome host interaction and genomic features of Streptococcus vaginalis",
+      "llm_evidence_cn": "阴道链球菌的微生物组-宿主相互作用及基因组特征",
+      "llm_evidence": "阴道链球菌的微生物组-宿主相互作用及基因组特征",
+      "canonical_evidence": "阴道链球菌的微生物组-宿主相互作用及基因组特征",
+      "llm_tldr_en": "Characterizes Streptococcus vaginalis genomic features and its interaction with cervical cancer cells.",
+      "llm_tldr_cn": "表征了阴道链球菌的基因组特征及其与宫颈癌细胞的相互作用。",
+      "llm_tldr": "表征了阴道链球菌的基因组特征及其与宫颈癌细胞的相互作用。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41372726",
+      "title": "Definitional ambiguity and the dual threat of Hypervirulent Klebsiella pneumoniae infections: a systematic review and meta-analysis.",
+      "abstract": "BACKGROUND: Hypervirulent Klebsiella pneumoniae (HvKp) causes severe invasive infections, but the lack of a standardized definition complicates surveillance. The emergence of carbapenem-resistant HvKp (CR-HvKp) poses a \"dual-risk\" threat whose impact is poorly quantified. This meta-analysis aimed to determine pooled proportions of severe outcomes stratified by diagnostic criteria and quantify the mortality risk associated with CR-HvKp. METHODS: Following PRISMA guidelines, we systematically searched five databases for studies published up to July 2025 reporting clinical outcomes of HvKp infection. A random-effects model was used to calculate pooled proportions of liver abscess, metastatic spread, septic shock, microbiological failure and mortality, with subgroup analyses by HvKp definition (phenotypic, molecular, combined, or clinical). Odds ratios (OR) for mortality in CR-HvKp versus carbapenem-susceptible (CS)-HvKp were pooled. RESULTS: From 4413 records, 79 studies involving 4240 patients were included. The pooled proportion of liver abscess was 24% (95% CI 17-32%) and metastatic spread was 22% (95% CI 12-32%), both significantly influenced by the diagnostic criteria used (p < 0.0001). Pooled mortality for HvKp was 21% (95% CI 15-27%). In stark contrast, pooled mortality for CR-HvKp was 57% (95% CI 35-78%). The frequency of microbiological failure among HvKp infected patients was reported to be 39%. A meta-analysis of six studies revealed CR-HvKp infection was associated with over 12-fold higher odds of death compared to CS-HvKp infection. CONCLUSION: HvKp continues to cause severe invasive infections, though outcome estimates vary due to inconsistent definitions. Mortality increases markedly when carbapenem resistance co-exists with virulence, indicating that poor outcomes are driven by both pathogenic and resistance mechanisms. Standardized diagnostic criteria and expanded genomic surveillance are essential to improve epidemiological comparability and guide early detection and containment of high-risk HvKp strains.",
+      "authors": [
+        "Danavath Nagendra",
+        "Veena Suresh",
+        "Ashritha A Udupa",
+        "Thejesh Srinivas",
+        "Vandana Kalwaje Eshwara",
+        "Muralidhar Varma",
+        "Prabha Prakash",
+        "Shruthi Rao",
+        "Souvik Chaudhuri"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41372726/",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "systematic review and meta-analysis for surveillance of hypervirulent Klebsiella pneumoniae",
+      "llm_evidence_cn": "高毒力肺炎克雷伯菌监测的系统评价和荟萃分析",
+      "llm_evidence": "高毒力肺炎克雷伯菌监测的系统评价和荟萃分析",
+      "canonical_evidence": "高毒力肺炎克雷伯菌监测的系统评价和荟萃分析",
+      "llm_tldr_en": "Quantifies mortality risk and clinical outcomes of hv-CRKP to improve standardized surveillance definitions.",
+      "llm_tldr_cn": "通过荟萃分析量化了高毒力耐药肺炎克雷伯菌的死亡风险，旨在完善其临床监测标准。",
+      "llm_tldr": "通过荟萃分析量化了高毒力耐药肺炎克雷伯菌的死亡风险，旨在完善其临床监测标准。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI methods for genomic surveillance and outbreak monitoring",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41619713",
+      "title": "Assessment of Escherichia coli as an indicator of antimicrobial resistance and monitoring of ESBL/AmpC-Producing Enterobacteriaceae in retail seafood commonly consumed in Italy.",
+      "abstract": "This study assessed Escherichia coli as an indicator of antimicrobial resistance (AMR) in retail seafood, integrating microbiological and genomic analyses within a One Health perspective. Overall, E. coli was cultured from 55 (13%) of 422 raw samples from seven seafood categories commonly consumed in Italy. E. coli was detected across multiple seafood types, but particularly in bivalves (23%) and crustaceans (20%). Because these species can accumulate or acquire faecal contaminants from the aquatic environment or along the post-harvest chain, they represent relevant matrices for AMR monitoring. In parallel, we investigated the presence of Extended-β-Lactamase ESBL-, AmpC- and carbapenemase-producing Enterobacteriaceae. Cefotaxime-resistant E. coli isolates were identified at low but relevant frequencies, especially in bivalves, and were characterised phenotypically and by whole-genome sequencing. Most isolates carried clinically important ESBL or AmpC genes, more frequently blaCTX-M-15, often on contigs predicted as plasmid-associated, indicating their potential for horizontal spread. An ESBL-producing Atlantibacter hermannii harbouring blaCTX-M-55 was also recovered from frozen shrimps. Additional AmpC-producing Enterobacteriaceae, including Citrobacter and Enterobacter species, were detected in a subset of samples. Overall, our findings support the suitability of E. coli as an AMR indicator organism for retail bivalves and crustaceans. The detection of ESBL-producing strains, carrying important plasmid-borne resistance determinants, highlights the need to strengthen AMR surveillance in these seafood commodities.",
+      "authors": [
+        "Francesca Leoni",
+        "Silvia Pieralisi",
+        "Elisa Albini",
+        "Francesca Romana Massacci",
+        "Gabriele Angelico",
+        "Serenella Orsini",
+        "Carmen Maresca",
+        "Eleonora Scoccia",
+        "Valeria Michelacci",
+        "Paola Chiani",
+        "Manuela Marra",
+        "Maria Carollo",
+        "Francesca Barchiesi",
+        "Chiara Francesca Magistrali"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-02",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41619713/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "genomic analysis for antimicrobial resistance monitoring in seafood",
+      "llm_evidence_cn": "用于海产品抗生素耐药性监测的基因组分析",
+      "llm_evidence": "用于海产品抗生素耐药性监测的基因组分析",
+      "canonical_evidence": "用于海产品抗生素耐药性监测的基因组分析",
+      "llm_tldr_en": "Integrates microbiological and genomic analysis to monitor antimicrobial resistance in E. coli from retail seafood.",
+      "llm_tldr_cn": "整合微生物学和基因组分析，监测零售海产品中大肠杆菌的抗生素耐药性。",
+      "llm_tldr": "整合微生物学和基因组分析，监测零售海产品中大肠杆菌的抗生素耐药性。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for antimicrobial resistance prediction from genomes",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41379552",
+      "title": "Transcriptomic Plasticity Is a Hallmark of Metastatic Pancreatic Cancer.",
+      "abstract": "UNLABELLED: Metastasis is the leading cause of cancer deaths. To develop strategies for intercepting metastatic progression, a better understanding of how tumor cells adapt to vastly different organ contexts is needed. To investigate this question, a single-cell transcriptomic atlas of primary tumors and diverse metastatic samples (liver, omentum, peritoneum, stomach wall, lymph node, and diaphragm) from a patient with pancreatic ductal adenocarcinoma who underwent rapid autopsy was generated. Using unsupervised archetype analysis, both shared and site-specific gene programs were identified, including lipid metabolism and gastrointestinal programs prevalent in peritoneal and stomach wall lesions, respectively. We developed phylogenetic inference from copy-number alterations in single-cell sequencing observations (PICASSO) as a probabilistic approach for inferring clonal phylogeny from single-cell and matched whole-exome sequencing data. Comparison of PICASSO-generated clonal structure with phenotypic signatures revealed that pancreatic cancer cells adapted to local environments with minimal contribution from clonal genotype. Our results suggest a paradigm whereby strong environmental effects are imposed on highly plastic cancer cells during metastatic dissemination. SIGNIFICANCE: Single-cell transcriptional profiling of primary tumor and metastases from rapid autopsy samples of an individual with pancreatic cancer, combined with probabilistic clonal inference by PICASSO, reveals substantial transcriptomic plasticity in metastatic cells. This article is part of a special series: Driving Cancer Discoveries with Computational Research, Data Science, and Machine Learning/AI .",
+      "authors": [
+        "Alejandro Jiménez-Sánchez",
+        "Sitara Persad",
+        "Akimasa Hayashi",
+        "Shigeaki Umeda",
+        "Roshan Sharma",
+        "Yubin Xie",
+        "Arnav Mehta",
+        "Wungki Park",
+        "Ignas Masilionis",
+        "Tinyi Chu",
+        "Feiyang Zhu",
+        "Jungeui Hong",
+        "Ronan Chaligne",
+        "Eileen M O'Reilly",
+        "Linas Mazutis",
+        "Tal Nawy",
+        "Itsik Pe'er",
+        "Christine A Iacobuzio-Donahue",
+        "Dana Pe'er"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-02",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41379552/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Single-cell transcriptomic atlas and phylogenetic inference from sequencing data",
+      "llm_evidence_cn": "单细胞转录组图谱及基于测序数据的系统发育推断",
+      "llm_evidence": "单细胞转录组图谱及基于测序数据的系统发育推断",
+      "canonical_evidence": "单细胞转录组图谱及基于测序数据的系统发育推断",
+      "llm_tldr_en": "Used single-cell transcriptomics and phylogenetic inference to study metastatic pancreatic cancer plasticity.",
+      "llm_tldr_cn": "利用单细胞转录组学和系统发育推断研究了转移性胰腺癌的塑性。",
+      "llm_tldr": "利用单细胞转录组学和系统发育推断研究了转移性胰腺癌的塑性。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "single cell sequencing and spatial transcriptomics analysis with machine learning",
+      "matched_requirement_id": "req-40",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41661137",
+      "title": "Discriminating models of trait evolution.",
+      "abstract": "A central challenge in comparative biology is linking present-day trait variation across species with unobserved evolutionary processes that occurred in the past. In this endeavor, phylogenetic comparative methods are invaluable for fitting, comparing, and selecting evolutionary models of varying complexity and biological meaning. Traditionally, evolutionary studies have relied on conventional statistical approaches to assess model fit and identify the one that best explains variation in a given trait. Here, we explore an alternative strategy by applying supervised learning to predict evolutionary models via discriminant analysis. We formally introduce Evolutionary Discriminant Analysis (EvoDA) as an addition to the biologist's toolkit, offering a suite of new methods for studying trait evolution. We evaluate the performance of EvoDA alongside conventional model selection through a series of fungal phylogeny case studies, each targeting increasingly challenging analytical tasks. These results showcase the strengths of EvoDA, with substantial improvements over conventional approaches when studying traits subject to measurement error, which likely reflect realistic conditions in empirical datasets. To complement our simulation-based benchmarking, we explore the application of EvoDA for tackling a notoriously difficult task: predicting the mode and tempo of gene expression evolution. This empirical analysis suggests that stabilizing selection acts on a majority of genes, with bursts of expression evolution in a handful of genes related to stress, cellular transportation, and transcription regulation. Collectively, our findings illustrate the promise of EvoDA for predicting trait models across a range of evolutionary and experimental contexts, establishing a new methodological framework for the next era of comparative research.",
+      "authors": [
+        "Jenniffer Roa Lozano",
+        "Surbhit Jangra",
+        "Michael DeGiorgio",
+        "Raquel Assis",
+        "Richard Adams"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-02",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41661137/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "supervised learning for predicting evolutionary models and phylogenetic comparative methods",
+      "llm_evidence_cn": "用于预测进化模型和系统发育比较方法的监督学习",
+      "llm_evidence": "用于预测进化模型和系统发育比较方法的监督学习",
+      "canonical_evidence": "用于预测进化模型和系统发育比较方法的监督学习",
+      "llm_tldr_en": "Introduces Evolutionary Discriminant Analysis (EvoDA) using supervised learning to predict evolutionary models.",
+      "llm_tldr_cn": "引入了进化判别分析（EvoDA），利用监督学习来预测进化模型。",
+      "llm_tldr": "引入了进化判别分析（EvoDA），利用监督学习来预测进化模型。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for phylogenetic and transmission inference",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41534087",
+      "title": "LINE-1 Retrotransposon Protein ORF1p Forms Condensates That Drive cGAS-Induced Immune Evasion in Lung Squamous Cell Carcinoma.",
+      "abstract": "UNLABELLED: Lung squamous cell carcinoma (LUSC) is a lethal malignancy with limited treatment options, driven by an immunosuppressive tumor microenvironment (TME) and a paucity of actionable targets. Pathogenic LINE-1 (pL1HS) retrotransposons promote LUSC progression by fostering immune evasion. Elucidation of the mechanistic link between retrotransposon activity and TME reprogramming could help identify strategies to stimulate antitumor immunity. In this study, we conducted integrated multiomics analyses, including bulk and single-cell RNA sequencing combined with proteomics, that revealed hyperactivated cGAS-STING signaling and a myeloid-derived suppressor cell (MDSC)-rich TME in pL1HS+ LUSC. Mechanistically, LINE-1 open reading frame 1 protein (L1-ORF1p) underwent liquid-liquid phase separation (LLPS) via its intrinsically disordered region, forming cytosolic condensates that scaffolded pL1HS nucleic acid, HMGN2, and cGAS into a ternary complex. This complex sustained chronic noncanonical NF-κB signaling-dependent cGAS-STING activation, which in turn drove immune suppression via MDSC recruitment and activation. The coiled-coil domain of L1-ORF1p stabilized these condensates by binding HMGN2, perpetuating this immunosuppressive cascade. Dual targeting of pL1HS and cGAS restored antitumor immunity and suppressed tumor growth in preclinical models. Together, this work reveals a therapeutically actionable LLPS-driven axis that can be targeted with a combinatorial strategy to overcome immune evasion in LUSC, thereby addressing a critical unmet clinical need. SIGNIFICANCE: Pathogenic LINE-1 retrotransposon-derived L1-ORF1p forms condensates to scaffold cGAS-HMGN2 complexes that activate cGAS-STING and drive immunosuppression in lung squamous cell carcinoma, which can be overcome by combined targeting of LINE-1 and cGAS.",
+      "authors": [
+        "Biyuan Xing",
+        "Jialing Liu",
+        "Yongjie Xie",
+        "Pengpeng Liu",
+        "Lianmin Zhang",
+        "Wenjing Tian",
+        "Wenwen Yu",
+        "Hailong Wang",
+        "Jing Wang",
+        "Zeguo Sun",
+        "Weijia Zhang",
+        "Rui Zhang",
+        "Jinpu Yu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-02",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41534087/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "integrated multiomics including single-cell RNA sequencing and proteomics",
+      "llm_evidence_cn": "整合多组学分析，包括单细胞转录组和蛋白质组",
+      "llm_evidence": "整合多组学分析，包括单细胞转录组和蛋白质组",
+      "canonical_evidence": "整合多组学分析，包括单细胞转录组和蛋白质组",
+      "llm_tldr_en": "Combines single-cell RNA-seq and proteomics to reveal immune evasion mechanisms in lung squamous cell carcinoma.",
+      "llm_tldr_cn": "结合单细胞测序和蛋白质组学揭示了肺鳞癌中由逆转录转座子驱动的免疫逃逸机制。",
+      "llm_tldr": "结合单细胞测序和蛋白质组学揭示了肺鳞癌中由逆转录转座子驱动的免疫逃逸机制。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "deep learning and foundation models for spatial transcriptomics proteomics and tissue mapping",
+      "matched_requirement_id": "req-46",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41671649",
+      "title": "Plant microbiome regulation for sustainable agriculture.",
+      "abstract": "Plant-associated microbiomes are vital for sustainable agriculture, enhancing crop nutrient uptake, stress resistance, and yield while reducing agrochemical reliance. Microbial regulation, the targeted manipulation of these microbiomes, bridges microbial ecological potential and agricultural application. Currently, this regulation is categorized by whether microbial genomes are modified, encompassing two core strategies: external conditioning and internal engineering. External conditioning is a genome-unaltered approach that reshapes microbial communities via environmental cues, host traits, and agronomic practices, enabling rapid, low-regulatory tuning of microbiome function. In contrast, internal engineering alters microbial genomes via CRISPR-based tools, synthetic communities, and in situ editing to lock in stable beneficial traits for consistent field performance. Emerging technologies like AI-powered predictive models and advanced delivery systems support both strategies by boosting microbial regulation precision and scalability. Ultimately, microbial regulation optimizes plant-microbe interactions, expediting sustainable agricultural solutions to enhance climate resilience and global food security.",
+      "authors": [
+        "Jingying Zhang",
+        "Weidong Liu",
+        "Binglei Wang",
+        "Qianhang Zhai",
+        "Yang Bai"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41671649/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "CRISPR-based tools for microbial genome engineering",
+      "llm_evidence_cn": "基于CRISPR的微生物基因组工程工具",
+      "llm_evidence": "基于CRISPR的微生物基因组工程工具",
+      "canonical_evidence": "基于CRISPR的微生物基因组工程工具",
+      "llm_tldr_en": "Reviews strategies for plant microbiome regulation, including CRISPR-based internal genome engineering.",
+      "llm_tldr_cn": "综述了植物微生物组调节策略，包括利用CRISPR工具进行微生物基因组内部工程化改造。",
+      "llm_tldr": "综述了植物微生物组调节策略，包括利用CRISPR工具进行微生物基因组内部工程化改造。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI for CRISPR design gene editing outcome prediction and perturbation modeling",
+      "matched_requirement_id": "req-33",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41778915",
+      "title": "Directed evolution of the pathogenic mold",
+      "abstract": "Aspergillus fumigatus is the leading cause of invasive mold infections in immunocompromised patients. Current antifungal treatment primarily depends on the triazole antifungals, which act by inhibiting Erg11/Cyp51, a key enzyme in the ergosterol biosynthetic pathway. However, resistance is emerging at an increasing rate, reducing treatment efficacy and patient survival. Confirmed resistance mechanisms in clinical isolates include mutations in cyp51A, cyp51B, hmg1, hapE, cox10, and the overexpression of drug efflux pumps. To identify additional determinants of triazole resistance, we grew A. fumigatus wild-type and Δcyp51A mutant strains under increasing concentrations of voriconazole. Sequencing of the resultant resistant strains identified known mutations in cyp51A and cyp51B, and novel mutations in hmg1, abcC (cdr1B), ptaB, erg25B, and srbA. Mutations of hmg1 and ptaB occurred early during evolution, while mutations of erg25B and srbA occurred later. Reintroduction of the novel mutations in hmg1, abcC, ptaB, and erg25B into wild-type A. fumigatus and correction of the srbA mutation in the evolved strain validated their contribution toward triazole resistance. Sterol profiling analysis indicated that mutation or deletion of erg25B is associated with a decrease in the accumulation of methylated sterols. Mutation or deletion of ptaB resulted in increased cyp51A, cyp51B, and erg25A expression. Sequence analysis of clinical isolates revealed enrichment of missense mutations in ptaB, hmg1, abcC, and srbA among triazole-resistant strains.",
+      "authors": [
+        "Mariana Handelman",
+        "Argha Sarkar",
+        "Avital Varshavsky",
+        "Yona Shadkchan",
+        "Xuefei Chen",
+        "Gerard D Wright",
+        "Endrews Delbaje",
+        "Bradley Laflamme",
+        "Sara Fallah",
+        "Evelyne Côté",
+        "Nicole Robbins",
+        "Thaila Fernanda Dos Reis",
+        "Gustavo H Goldman",
+        "Leah E Cowen",
+        "Nir Osherov"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41778915/",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "sequencing to identify determinants of triazole resistance in pathogens",
+      "llm_evidence_cn": "通过测序鉴定病原体对三唑类药物耐药性的决定因素",
+      "llm_evidence": "通过测序鉴定病原体对三唑类药物耐药性的决定因素",
+      "canonical_evidence": "通过测序鉴定病原体对三唑类药物耐药性的决定因素",
+      "llm_tldr_en": "Uses sequencing and directed evolution to identify genetic mutations driving antifungal resistance in Aspergillus.",
+      "llm_tldr_cn": "利用测序和定向进化技术鉴定了驱动曲霉属真菌抗真菌耐药性的基因突变。",
+      "llm_tldr": "利用测序和定向进化技术鉴定了驱动曲霉属真菌抗真菌耐药性的基因突变。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for antimicrobial resistance prediction from genomes",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41711572",
+      "title": "Comparative genomic, phenotypic, and clinical characterization of ST11-KL25 and ST11-KL64 hypervirulent carbapenem-resistant",
+      "abstract": "Hypervirulent carbapenem-resistant Klebsiella pneumoniae (hv-CRKP) poses a significant challenge in healthcare settings due to its combination of high virulence and multidrug resistance. In China, ST11 is the predominant lineage, with KL64 and the recently identified KL25 as key capsular subtypes. The clinical and genomic characteristics of ST11-KL25 remain insufficiently characterized. A total of 239 hv-CRKP isolates collected from 2020 to 2023 were analyzed. Molecular typing, antimicrobial susceptibility testing, whole-genome sequencing, and phenotypic assays were used to compare the epidemiology, resistance mechanisms, and virulence traits of ST11-KL25 and ST11-KL64. Clinical data were reviewed to assess infection characteristics. ST11 accounted for 87.9% (210/239) of hv-CRKP isolates. Among ST11 isolates, KL64 (54.7%, 104/190) and KL25 (45.3%, 86/190) were the predominant capsular types. Phylogenetic analysis suggested that ST11-KL25 may have originated from KL64 through capsular switching, with increasing prevalence after 2021. Both sublineages exhibited extensive drug resistance; however, ST11-KL64 showed broader resistance, including higher rates of ceftazidime-avibactam and polymyxin resistance. Phenotypically, ST11-KL25 demonstrated greater competitive fitness and biofilm formation, while ST11-KL64 displayed higher in vivo virulence in the Galleria mellonella model. ST11-KL25 and ST11-KL64 exhibit distinct adaptation strategies within hv-CRKP. KL25 seems to be a stable, colonization-adapted subtype with consistent resistance and moderate virulence, while KL64 is more invasive, with broader resistance and higher virulence. Subtype-specific surveillance and intervention are essential to limit their spread and protect patient and public health.",
+      "authors": [
+        "Ping Li",
+        "Yanghua Xiao",
+        "Ruihang Luo",
+        "Jingwen Zhang",
+        "Feng Nie",
+        "TianYu Zou",
+        "Yang Liu",
+        "Wei Zhang",
+        "Tianxin Xiang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41711572/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "genomic and phenotypic characterization of hypervirulent carbapenem-resistant Klebsiella pneumoniae",
+      "llm_evidence_cn": "高毒力碳青霉烯耐药肺炎克雷伯菌的基因组和表型特征",
+      "llm_evidence": "高毒力碳青霉烯耐药肺炎克雷伯菌的基因组和表型特征",
+      "canonical_evidence": "高毒力碳青霉烯耐药肺炎克雷伯菌的基因组和表型特征",
+      "llm_tldr_en": "Analyzes genomic and clinical traits of hv-CRKP isolates to understand resistance and virulence mechanisms.",
+      "llm_tldr_cn": "通过全基因组测序分析了高毒力耐药肺炎克雷伯菌的基因组和临床特征，揭示其耐药与毒力机制。",
+      "llm_tldr": "通过全基因组测序分析了高毒力耐药肺炎克雷伯菌的基因组和临床特征，揭示其耐药与毒力机制。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI methods for genomic surveillance and outbreak monitoring",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41732369",
+      "title": "Microscopic-scale gut microbiota dataset of Kunming mice revealed by 16S rRNA gene high-throughput sequencing.",
+      "abstract": "Gut microbiota profoundly influence host physiology, yet most studies rely on bulk-scale intestinal samples, overlooking microbial heterogeneity at the micro-scale. Here, we present a dataset generated from 378 colonic micro-scale grains (20-40 µm) and 20 bulk samples collected from four Kunming mice. Using Illumina NovaSeq 6000 sequencing of the 16S rRNA V4 region, we obtained over 8.0 million raw reads, processed into 1506 amplicon sequence variants (ASVs) spanning 19 phyla and 203 genera. Firmicutes and Bacteroidetes were the dominant phyla across scales, while marked differences were observed in ASV richness (p < 0.001, Wilcoxon test) and network complexity (number of edges, p = 0.03, Wilcoxon test) between bulk samples and micro-scale grains. The dataset, deposited in the NCBI Sequence Read Archive (SRA) under BioProject PRJNA1249752, provides a high-resolution view of gut microbial spatial organization at the sub-100 µm scale. These data advance current understanding of microbial assembly processes, interspecies interactions, and scale-dependent community structure, thereby serving as a valuable resource for microbiome ecology and future mechanistic studies.",
+      "authors": [
+        "Ruibiao Fu",
+        "Jin Li",
+        "Meng Wang",
+        "Dong Xiao",
+        "Fangzhou Li",
+        "Xinguo Zhu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41732369/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "16S rRNA gene high-throughput sequencing for gut microbiota taxonomic profiling",
+      "llm_evidence_cn": "16S rRNA基因高通量测序用于肠道微生物群分类分析",
+      "llm_evidence": "16S rRNA基因高通量测序用于肠道微生物群分类分析",
+      "canonical_evidence": "16S rRNA基因高通量测序用于肠道微生物群分类分析",
+      "llm_tldr_en": "Provides a micro-scale gut microbiota dataset using 16S rRNA sequencing to reveal microbial heterogeneity.",
+      "llm_tldr_cn": "利用16S rRNA测序技术构建了小鼠肠道微生物群微观尺度数据集，揭示了微生物分布的异质性。",
+      "llm_tldr": "利用16S rRNA测序技术构建了小鼠肠道微生物群微观尺度数据集，揭示了微生物分布的异质性。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41734681",
+      "title": "A quantitative decision-support framework for assessing the feasibility and sensitivity of wastewater-based epidemiology of respiratory virus surveillance.",
+      "abstract": "Wastewater-based epidemiology (WBE) has emerged as a cost-effective and non-invasive tool for monitoring infectious diseases. However, its practical implementation for virus surveillance remains challenged by uncertainty in detection sensitivity, which depends on both pathogen-specific and methodological factors. This study applies a quantitative decision-support framework to prospectively evaluate the feasibility and sensitivity of WBE, with a specific focus on estimating the minimum number of infected individuals required for reliable detection, for SARS-CoV-2, respiratory syncytial virus (RSV), influenza A virus (IAV), and rhinovirus (RhV), using year-round weekly wastewater data. SARS-CoV-2 was detected throughout the year, and RSV exhibited seasonal detection, whereas IAV and RhV were undetected despite concurrent clinical circulation. To interpret these observations, a Monte Carlo simulation framework incorporating fecal shedding rates, recovery efficiency, and RNA decay was used to assess detection feasibility prior to large-scale deployment. The model indicated that SARS-CoV-2 required the lowest infections to surpass a 50% detection threshold (0.85 per 100,000 population), followed by RSV and RhV, while IAV had the highest threshold (1177.02 per 100,000), primarily due to low fecal shedding. Sensitivity analysis identified viral shedding and recovery efficiency as the most influential parameters. Simulations further suggested that droplet digital PCR combined with recovery efficiencies ≥35% could enable reliable detection of all four viruses under urban conditions. Overall, these findings demonstrate that WBE sensitivity is jointly governed by virus-specific characteristics and methodological performance. The proposed framework, informed by field observations, provides a transparent and data-driven approach for feasibility-oriented planning and methodological optimization of WBE surveillance programs.",
+      "authors": [
+        "Sunita Samantarat",
+        "Kwanrawee Sirikanchana",
+        "Yong Poovorawan",
+        "Jatuwat Sangsanont"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41734681/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "quantitative framework for wastewater-based epidemiology and virus surveillance",
+      "llm_evidence_cn": "基于废水的流行病学和病毒监测定量框架",
+      "llm_evidence": "基于废水的流行病学和病毒监测定量框架",
+      "canonical_evidence": "基于废水的流行病学和病毒监测定量框架",
+      "llm_tldr_en": "Develops a decision-support framework for wastewater-based surveillance of respiratory viruses like SARS-CoV-2.",
+      "llm_tldr_cn": "开发了一个用于呼吸道病毒（如 SARS-CoV-2）废水监测的定量决策支持框架。",
+      "llm_tldr": "开发了一个用于呼吸道病毒（如 SARS-CoV-2）废水监测的定量决策支持框架。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI driven outbreak surveillance genomic epidemiology and transmission modeling",
+      "matched_requirement_id": "req-12",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41782272",
+      "title": "Interpretable Machine Learning to Decipher Myelodysplastic Syndrome-Associated Alterations of the Extracellular Matrix by Time-of-Flight Secondary Ion Mass Spectrometry.",
+      "abstract": "Machine learning (ML) accelerates progress in many areas, including biomedical and clinical research. ML algorithms provide powerful options for efficiently analyzing multivariate data sets. We developed and validated an ML pipeline to detect myelodysplastic syndrome (MDS)-associated pathological alterations of extracellular matrices (ECMs) by time-of-flight secondary ion mass spectrometry (ToF-SIMS). A Bayesian-optimized neural network (NN) was trained and applied to classify ToF-SIMS spectra of ECM secreted by mesenchymal stromal cells (MSCs) derived from MDS patients and healthy reference donors. Validated by principal component analysis, the explainer tool SHapley Additive exPlanations (known as SHAP) was integrated into the analysis pipeline to unravel characteristic compositional and structural differences of the ECM variants. Our results demonstrate the potential of ToF-SIMS-ML for the label-free investigation of pathogenic alterations of the ECM. Integrated into the multiscale ECM analysis of cell and organoid-based disease models, the introduced methodology may facilitate advances in the development of novel diagnostic and therapeutic strategies.",
+      "authors": [
+        "Ralf Zimmermann",
+        "Mirko Nitschke",
+        "Valentina Magno",
+        "Friedrich Stölzel",
+        "Manja Wobus"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41782272/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "ML pipeline for mass spectrometry classification",
+      "llm_evidence_cn": "用于质谱分类的机器学习流水线",
+      "llm_evidence": "用于质谱分类的机器学习流水线",
+      "canonical_evidence": "用于质谱分类的机器学习流水线",
+      "llm_tldr_en": "An ML pipeline using Bayesian-optimized neural networks to classify ToF-SIMS spectra for disease detection.",
+      "llm_tldr_cn": "开发了一种基于贝叶斯优化神经网络的机器学习流水线，用于分析质谱数据以检测疾病相关的病理变化。",
+      "llm_tldr": "开发了一种基于贝叶斯优化神经网络的机器学习流水线，用于分析质谱数据以检测疾病相关的病理变化。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for proteogenomics and mass spectrometry based sequence analysis",
+      "matched_requirement_id": "req-52",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41814646",
+      "title": "Transcriptome Analysis Reveals Cross-Kingdom Virulence Factors in Erwinia persicina Cp2.",
+      "abstract": "Erwinia persicina is a well-documented plant pathogenic bacterium, causing soft rot in various plant hosts. There are rare previous reports that it is associated with animal diseases. In this study, we used an alfalfa root infection model and a mouse model via gavage administration of E. persicina strain Cp2. Strain Cp2 was pathogenic on both alfalfa and mice. On alfalfa, Cp2 primarily caused leaf spot and etiolation. Mice exhibited moderate lesions in their liver, stomach and kidney tissues, with inflammation in the liver and kidney after gavage. Furthermore, viable Cp2 cells were successfully reisolated from mouse faeces at different time periods after gavage. Transcriptome analysis revealed that the 34 bacterial differentially expressed genes (DEGs) in Cp2 in response to infecting both alfalfa and mice were predominantly enriched in pathways related to bacterial adhesion, biofilm and motility. Bap was identified as a key virulence gene contributing to cross-kingdom pathogenicity of Cp2. The results provide a solid foundation for the subsequent functional validation of the virulence factors of this cross-kingdom pathogenic bacterium.",
+      "authors": [
+        "Rong Huang",
+        "Xiao-Ni Liu",
+        "Tom Hsiang",
+        "Zhen-Fen Zhang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41814646/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "transcriptome analysis of cross-kingdom virulence and infection modeling",
+      "llm_evidence_cn": "跨界毒力因子的转录组分析与感染建模",
+      "llm_evidence": "跨界毒力因子的转录组分析与感染建模",
+      "canonical_evidence": "跨界毒力因子的转录组分析与感染建模",
+      "llm_tldr_en": "Analyzes the transcriptome of Erwinia persicina to identify virulence factors across plant and animal hosts.",
+      "llm_tldr_cn": "通过转录组分析鉴定了 Erwinia persicina 在植物和动物宿主中的跨界毒力因子。",
+      "llm_tldr": "通过转录组分析鉴定了 Erwinia persicina 在植物和动物宿主中的跨界毒力因子。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

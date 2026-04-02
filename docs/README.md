@@ -11,91 +11,91 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-04-01
-- 运行时间：2026-04-01 19:58:48 UTC
+- 最新运行日期：2026-04-02
+- 运行时间：2026-04-02 19:39:43 UTC
 - 运行状态：成功
 - 本次总论文数：23
 - 精读区：9
 - 速读区：14
 
 ### 今日简报（AI）
-今日精选 23 篇前沿研究，深度复盘人体微生物组计算演进及纳米孔测序在肺部感染中的临床突破。
-重点关注深度学习对微生物组研究的重塑，以及纳米孔技术在结核高发区精准诊断的卓越性能。
-建议关注 mNGS 在儿科及人畜共患病监测中的应用，了解计算生物学如何赋能临床诊疗。
-- 详情：[/202604/01/README](/202604/01/README)
+今日精选 23 篇前沿进展，深度聚焦 AlphaFold 辅助结构测定及蛋白质表征的可靠性量化。
+满分论文揭示了将预训练模型作为先验知识加速实验解析的新路径，并系统评估了蛋白质表征的跨任务不确定性。
+推荐关注 AI 与结构生物学的深度融合工具，同时留意食品安全与病毒监测中的耐药性预警。
+- 详情：[/202604/02/README](/202604/02/README)
 
 ### 精读区论文标签
-1. [From 16S rRNA to deep learning: Evolution of computational approaches in human microbiome studies.](/202604/01/41418718-from-16s-rrna-to-deep-learning-evolution-of-computational-approaches-in-human-microbiome-studies)  
+1. [AlphaFold as a prior: experimental structure determination conditioned on a pretrained neural network.](/202604/02/41922571-alphafold-as-a-prior-experimental-structure-determination-conditioned-on-a-pretrained-neural-network)  
+   标签：评分：10.0/10、query:bioinfo
+   evidence：将实验测量结果整合到预训练的 AlphaFold 模型中
+2. [Quantifying uncertainty in protein representations across models and tasks.](/202604/02/41922570-quantifying-uncertainty-in-protein-representations-across-models-and-tasks)  
+   标签：评分：9.0/10、query:bioinfo
+   evidence：蛋白质语言模型和生物分子嵌入的评估
+3. [TaxTriage: An Open-Source Metagenomic Sequencing Data Analysis Pipeline Enabling Putative Pathogen Detection.](/202604/02/41923365-taxtriage-an-open-source-metagenomic-sequencing-data-analysis-pipeline-enabling-putative-pathogen-detection)  
    标签：评分：9.0/10、query:pathoai
-   evidence：深度学习用于微生物组宿主相互作用和生物标志物
-2. [Diagnostic performance of nanopore-targeted sequencing for pulmonary infections in a tuberculosis-endemic setting: A prospective observational study.](/202604/01/41581647-diagnostic-performance-of-nanopore-targeted-sequencing-for-pulmonary-infections-in-a-tuberculosis-endemic-setting-a-prospective-observational-study)  
+   evidence：用于病原体检测的宏基因组测序数据分析流程
+4. [Integrated spatial transcriptomics and pan-cancer XGBoost modeling uncover spatial drivers of immune exclusion and predict immunotherapy response.](/202604/02/41925746-integrated-spatial-transcriptomics-and-pan-cancer-xgboost-modeling-uncover-spatial-drivers-of-immune-exclusion-and-predict-immunotherapy-response)  
    标签：评分：9.0/10、query:seqai
-   evidence：纳米孔靶向测序用于病原体检测
-3. [AI-empowered crop protection against insect-borne diseases.](/202604/01/41604840-ai-empowered-crop-protection-against-insect-borne-diseases)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：用于管理虫媒病原体疾病的AI基础模型
-4. [Rapid detection of NDM-producing carbapenem-resistant Escherichia coli using MALDI-TOF MS combined with machine learning techniques.](/202604/01/41619912-rapid-detection-of-ndm-producing-carbapenem-resistant-escherichia-coli-using-maldi-tof-ms-combined-with-machine-learning-techniques)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：机器学习用于碳青霉烯耐药大肠杆菌检测
-5. [Detection of novel Pegivirus C genome in an unexplained febrile outbreak, Gombe State, Nigeria, 2024 by enhanced mNGS approach.](/202604/01/41667020-detection-of-novel-pegivirus-c-genome-in-an-unexplained-febrile-outbreak-gombe-state-nigeria-2024-by-enhanced-mngs-approach)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：利用mNGS方法在不明原因发热疫情中检测病原体
-6. [KMGTMDA: KAN-driven multiscale graph neural network and context-enhanced prediction for human microbe-disease associations.](/202604/01/41698566-kmgtmda-kan-driven-multiscale-graph-neural-network-and-context-enhanced-prediction-for-human-microbe-disease-associations)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：KAN驱动的图神经网络预测微生物与疾病关联
-7. [Compact and informative representation learning for scRNA-seq data clustering with masked information bottleneck.](/202604/01/41917934-compact-and-informative-representation-learning-for-scrna-seq-data-clustering-with-masked-information-bottleneck)  
-   标签：评分：9.0/10、query:seqai
-   evidence：单细胞RNA测序数据的表示学习与聚类
-8. [TCMNet: an AI-driven strategy for optimizing traditional Chinese medicine.](/202604/01/41918015-tcmnet-an-ai-driven-strategy-for-optimizing-traditional-chinese-medicine)  
-   标签：评分：8.0/10、query:bioinfo
-   evidence：集成大语言模型和深度学习的AI驱动药物发现策略
-9. [HistoGWAS: an AI-enabled framework for automated genetic analysis of tissue phenotypes in histology cohorts.](/202604/01/41918129-histogwas-an-ai-enabled-framework-for-automated-genetic-analysis-of-tissue-phenotypes-in-histology-cohorts)  
-   标签：评分：8.0/10、query:bioinfo
-   evidence：利用基础模型进行自动性状定义和变异效应解释
+   evidence：整合空间转录组学和 XGBoost 模型用于癌症研究
+5. [Metagenomic and metatranscriptomic analyses reveal microbial dysbiosis and bacteria-virus interactions in the lungs of Australian feedlot cattle with bovine respiratory disease.](/202604/02/41707391-metagenomic-and-metatranscriptomic-analyses-reveal-microbial-dysbiosis-and-bacteria-virus-interactions-in-the-lungs-of-australian-feedlot-cattle-with-bovine-respiratory-disease)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：肺部微生物组和细菌-病毒相互作用的宏基因组分析
+6. [Repurposing Tirazone as an effective quorum-sensing inhibitor against Pseudomonas aeruginosa virulence and biofilm formation.](/202604/02/41708876-repurposing-tirazone-as-an-effective-quorum-sensing-inhibitor-against-pseudomonas-aeruginosa-virulence-and-biofilm-formation)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：用于抗毒力药物重定位的虚拟筛选和分子对接
+7. [Microbiome alterations and host-pathogen interactions in paratuberculosis: A one health perspective.](/202604/02/41734518-microbiome-alterations-and-host-pathogen-interactions-in-paratuberculosis-a-one-health-perspective)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：感染中的微生物组变化和宿主-病原体相互作用
+8. [Hi-C Links Reveal Viral Activity and Infection Within the Free-Living Microbial Community of a Secondary Chlorophyll Maximum in the Eastern Tropical North Pacific.](/202604/02/41912361-hi-c-links-reveal-viral-activity-and-infection-within-the-free-living-microbial-community-of-a-secondary-chlorophyll-maximum-in-the-eastern-tropical-north-pacific)  
+   标签：评分：8.0/10、query:seqai
+   evidence：用于病毒-宿主相互作用的宏基因组测序和Hi-C技术
+9. [Comparative Amplicon and Shotgun Metagenome Profiling of Soil Microbial Communities in Kauri Forests Affected by Phytophthora agathidicida.](/202604/02/41923466-comparative-amplicon-and-shotgun-metagenome-profiling-of-soil-microbial-communities-in-kauri-forests-affected-by-phytophthora-agathidicida)  
+   标签：评分：8.0/10、query:seqai
+   evidence：用于群落分析和病原体检测的鸟枪法宏基因组学
 
 ### 速读区论文标签
-1. [A computer-aided drug repurposing: the antibacterial agents targeting GroEL.](/202604/01/41239775-a-computer-aided-drug-repurposing-the-antibacterial-agents-targeting-groel)  
+1. [Two years of SARS-CoV-2 genomic surveillance capacity development in Guinea.](/202604/02/41922730-two-years-of-sars-cov-2-genomic-surveillance-capacity-development-in-guinea)  
    标签：评分：8.0/10、query:pathoai
-   evidence：用于抗生素发现和药物重定位的计算工作流
-2. [Metagenomic next-generation sequencing in pediatric infectious disease diagnosis: A comprehensive systematic literature review and meta-analysis.](/202604/01/41500047-metagenomic-next-generation-sequencing-in-pediatric-infectious-disease-diagnosis-a-comprehensive-systematic-literature-review-and-meta-analysis)  
-   标签：评分：8.0/10、query:pathoai
-   evidence：宏基因组二代测序用于病原体检测
-3. [Metagenomic Surveillance of Blood-Fed Mosquitoes for Assessing Zoonotic Risk in Managed Animal Settings.](/202604/01/41574538-metagenomic-surveillance-of-blood-fed-mosquitoes-for-assessing-zoonotic-risk-in-managed-animal-settings)  
-   标签：评分：8.0/10、query:pathoai
-   evidence：针对人畜共患风险和疫情监测的宏基因组监测
-4. [Unraveling dengue virus-host interactions through transcriptomics: Insights into disease progression and severity signatures.](/202604/01/41638513-unraveling-dengue-virus-host-interactions-through-transcriptomics-insights-into-disease-progression-and-severity-signatures)  
-   标签：评分：8.0/10、query:pathoai
-   evidence：转录组学和单细胞测序研究病毒-宿主相互作用
-5. [Digital twin of Mycobacterium tuberculosis infection: Integrating immune dynamics and pathogen adaptation for precision therapy.](/202604/01/41650584-digital-twin-of-mycobacterium-tuberculosis-infection-integrating-immune-dynamics-and-pathogen-adaptation-for-precision-therapy)  
-   标签：评分：8.0/10、query:pathoai
-   evidence：宿主-病原体动态和感染建模的数字孪生
-6. [IMPG2-associated retinal dystrophy with a novel missense variant and therapeutic options via adenine base editing.](/202604/01/41478731-impg2-associated-retinal-dystrophy-with-a-novel-missense-variant-and-therapeutic-options-via-adenine-base-editing)  
+   evidence：SARS-CoV-2 基因组监测能力建设
+2. [Streptococcus vaginalis affects cellular dynamics of cervical cancer cells via oxidative stress-induced activation of endoplasmic reticulum unfolded protein response.](/202604/02/41455276-streptococcus-vaginalis-affects-cellular-dynamics-of-cervical-cancer-cells-via-oxidative-stress-induced-activation-of-endoplasmic-reticulum-unfolded-protein-response)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：阴道链球菌的微生物组-宿主相互作用及基因组特征
+3. [Assessment of Escherichia coli as an indicator of antimicrobial resistance and monitoring of ESBL/AmpC-Producing Enterobacteriaceae in retail seafood commonly consumed in Italy.](/202604/02/41619713-assessment-of-escherichia-coli-as-an-indicator-of-antimicrobial-resistance-and-monitoring-of-esblampc-producing-enterobacteriaceae-in-retail-seafood-commonly-consumed-in-italy)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：用于海产品抗生素耐药性监测的基因组分析
+4. [Discriminating models of trait evolution.](/202604/02/41661137-discriminating-models-of-trait-evolution)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：用于预测进化模型和系统发育比较方法的监督学习
+5. [Plant microbiome regulation for sustainable agriculture.](/202604/02/41671649-plant-microbiome-regulation-for-sustainable-agriculture)  
    标签：评分：7.0/10、query:bioinfo
-   evidence：用于CRISPR设计和变异致病性评估的AI
-7. [Comparative evaluation of multimodal point-of-care tests to differentiate gram-negative from gram-positive infections in critically ill adults: a diagnostic accuracy study.](/202604/01/41535672-comparative-evaluation-of-multimodal-point-of-care-tests-to-differentiate-gram-negative-from-gram-positive-infections-in-critically-ill-adults-a-diagnostic-accuracy-study)  
+   evidence：基于CRISPR的微生物基因组工程工具
+6. [Comparative genomic, phenotypic, and clinical characterization of ST11-KL25 and ST11-KL64 hypervirulent carbapenem-resistant](/202604/02/41711572-comparative-genomic-phenotypic-and-clinical-characterization-of-st11-kl25-and-st11-kl64-hypervirulent-carbapenem-resistant)  
    标签：评分：7.0/10、query:pathoai
-   evidence：用于病原体分类的多模态即时检测
-8. [Viral metagenomics reveals the RNA viral composition of herbivorous wildlife on the Qinghai-Tibet Plateau.](/202604/01/41581442-viral-metagenomics-reveals-the-rna-viral-composition-of-herbivorous-wildlife-on-the-qinghai-tibet-plateau)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：利用病毒宏基因组学揭示野生动物病原体组成
-9. [Genomic diversity of human adenoviruses in Tanzanian children under five: Insights into F40, F41, B, and rare A18 genotypes.](/202604/01/41619541-genomic-diversity-of-human-adenoviruses-in-tanzanian-children-under-five-insights-into-f40-f41-b-and-rare-a18-genotypes)  
+   evidence：高毒力碳青霉烯耐药肺炎克雷伯菌的基因组和表型特征
+7. [Microscopic-scale gut microbiota dataset of Kunming mice revealed by 16S rRNA gene high-throughput sequencing.](/202604/02/41732369-microscopic-scale-gut-microbiota-dataset-of-kunming-mice-revealed-by-16s-rrna-gene-high-throughput-sequencing)  
    标签：评分：7.0/10、query:seqai
-   evidence：基于纳米孔的宏基因组测序用于病原体检测
-10. [The gut microbiota in Salmonella Typhi infection and translocation: Mechanisms of colonization resistance, pathogen subversion, and prospects for microecological intervention.](/202604/01/41690650-the-gut-microbiota-in-salmonella-typhi-infection-and-translocation-mechanisms-of-colonization-resistance-pathogen-subversion-and-prospects-for-microecological-intervention)  
+   evidence：16S rRNA基因高通量测序用于肠道微生物群分类分析
+8. [A quantitative decision-support framework for assessing the feasibility and sensitivity of wastewater-based epidemiology of respiratory virus surveillance.](/202604/02/41734681-a-quantitative-decision-support-framework-for-assessing-the-feasibility-and-sensitivity-of-wastewater-based-epidemiology-of-respiratory-virus-surveillance)  
    标签：评分：7.0/10、query:pathoai
-   evidence：沙门氏菌感染中宿主-病原体-微生物群动态的多组学证据
-11. [Boronic acid derivatives inhibit Candida albicans growth by compromising energy metabolism.](/202604/01/40738473-boronic-acid-derivatives-inhibit-candida-albicans-growth-by-compromising-energy-metabolism)  
+   evidence：基于废水的流行病学和病毒监测定量框架
+9. [Interpretable Machine Learning to Decipher Myelodysplastic Syndrome-Associated Alterations of the Extracellular Matrix by Time-of-Flight Secondary Ion Mass Spectrometry.](/202604/02/41782272-interpretable-machine-learning-to-decipher-myelodysplastic-syndrome-associated-alterations-of-the-extracellular-matrix-by-time-of-flight-secondary-ion-mass-spectrometry)  
+   标签：评分：7.0/10、query:seqai
+   evidence：用于质谱分类的机器学习流水线
+10. [Transcriptome Analysis Reveals Cross-Kingdom Virulence Factors in Erwinia persicina Cp2.](/202604/02/41814646-transcriptome-analysis-reveals-cross-kingdom-virulence-factors-in-erwinia-persicina-cp2)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：跨界毒力因子的转录组分析与感染建模
+11. [Definitional ambiguity and the dual threat of Hypervirulent Klebsiella pneumoniae infections: a systematic review and meta-analysis.](/202604/02/41372726-definitional-ambiguity-and-the-dual-threat-of-hypervirulent-klebsiella-pneumoniae-infections-a-systematic-review-and-meta-analysis)  
    标签：评分：6.0/10、query:pathoai
-   evidence：抗真菌药物发现和靶点识别
-12. [Comprehension of the age-dependent gut and brain interaction of honey bee workers by integration of multi omics approaches.](/202604/01/40749788-comprehension-of-the-age-dependent-gut-and-brain-interaction-of-honey-bee-workers-by-integration-of-multi-omics-approaches)  
-   标签：评分：6.0/10、query:bioinfo
-   evidence：整合多组学方法研究肠道与大脑的相互作用
-13. [Metagenomics insights into bacterial community, viral diversity and community-scale functions in fermented red pepper.](/202604/01/41344778-metagenomics-insights-into-bacterial-community-viral-diversity-and-community-scale-functions-in-fermented-red-pepper)  
+   evidence：高毒力肺炎克雷伯菌监测的系统评价和荟萃分析
+12. [Transcriptomic Plasticity Is a Hallmark of Metastatic Pancreatic Cancer.](/202604/02/41379552-transcriptomic-plasticity-is-a-hallmark-of-metastatic-pancreatic-cancer)  
+   标签：评分：6.0/10、query:seqai
+   evidence：单细胞转录组图谱及基于测序数据的系统发育推断
+13. [LINE-1 Retrotransposon Protein ORF1p Forms Condensates That Drive cGAS-Induced Immune Evasion in Lung Squamous Cell Carcinoma.](/202604/02/41534087-line-1-retrotransposon-protein-orf1p-forms-condensates-that-drive-cgas-induced-immune-evasion-in-lung-squamous-cell-carcinoma)  
+   标签：评分：6.0/10、query:seqai
+   evidence：整合多组学分析，包括单细胞转录组和蛋白质组
+14. [Directed evolution of the pathogenic mold](/202604/02/41778915-directed-evolution-of-the-pathogenic-mold)  
    标签：评分：6.0/10、query:pathoai
-   evidence：微生物功能和致病性的宏基因组分析
-14. [Lung microbiome quantification and bacterial density as prognostic markers in lung transplantation.](/202604/01/41453696-lung-microbiome-quantification-and-bacterial-density-as-prognostic-markers-in-lung-transplantation)  
-   标签：评分：6.0/10、query:pathoai
-   evidence：用于感染结果预测的微生物组定量
+   evidence：通过测序鉴定病原体对三唑类药物耐药性的决定因素
 
 
 <div class="dpr-home-promo-card">

@@ -1,0 +1,363 @@
+Title: TaxTriage: An Open-Source Metagenomic Sequencing Data Analysis Pipeline Enabling Putative Pathogen Detection - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41923365/
+
+Markdown Content:
+# TaxTriage: An Open-Source Metagenomic Sequencing Data Analysis Pipeline Enabling Putative Pathogen Detection - PubMed
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/41923365/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41923365%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/41923365/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/41923365/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/41923365/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/41923365/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/9fea6d21-07b4-4726-b151-fb89a024b8ad/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/41923365/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/41923365/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41923365/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41923365%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41923365%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/41923365/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Save citation to file
+
+ Format:  
+
+ Create file  Cancel 
+
+## Email citation
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41923365/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41923365/#)
+
+ Add  Cancel 
+
+## Your saved search
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/41923365/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+## Create a file for external citation management software
+
+ Create file  Cancel 
+
+## Your RSS Feed
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41923365/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/41923365/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/41923365/#abstract)
+*   [Similar articles](https://pubmed.ncbi.nlm.nih.gov/41923365/#similar)
+
+ Bioinformatics 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Bioinformatics%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Bioinformatics%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41923365/#)
+
+. 2026 Apr 1:btag119.
+
+ doi: 10.1093/bioinformatics/btag119.  Online ahead of print. 
+
+# TaxTriage: An Open-Source Metagenomic Sequencing Data Analysis Pipeline Enabling Putative Pathogen Detection
+
+[Brian Merritt](https://pubmed.ncbi.nlm.nih.gov/?term=Merritt+B&cauthor_id=41923365)[1](https://pubmed.ncbi.nlm.nih.gov/41923365/#full-view-affiliation-1 "Johns Hopkins Applied Physics Laboratory, Laurel, MD 20723, United States."),[Jeremy D Ratcliff](https://pubmed.ncbi.nlm.nih.gov/?term=Ratcliff+JD&cauthor_id=41923365)[1](https://pubmed.ncbi.nlm.nih.gov/41923365/#full-view-affiliation-1 "Johns Hopkins Applied Physics Laboratory, Laurel, MD 20723, United States."),[Stanley Ta](https://pubmed.ncbi.nlm.nih.gov/?term=Ta+S&cauthor_id=41923365)[1](https://pubmed.ncbi.nlm.nih.gov/41923365/#full-view-affiliation-1 "Johns Hopkins Applied Physics Laboratory, Laurel, MD 20723, United States."),[Gunars Osis](https://pubmed.ncbi.nlm.nih.gov/?term=Osis+G&cauthor_id=41923365)[2](https://pubmed.ncbi.nlm.nih.gov/41923365/#full-view-affiliation-2 "Contractor for Office of Laboratory Systems and Response, Centers for Disease Control and Prevention, ASRT Inc, Atlanta, Georgia 30346, United States."),[Matthew R Mauldin](https://pubmed.ncbi.nlm.nih.gov/?term=Mauldin+MR&cauthor_id=41923365)[3](https://pubmed.ncbi.nlm.nih.gov/41923365/#full-view-affiliation-3 "Office of Readiness and Response, Centers for Disease Control and Prevention, Atlanta, GA 30333."),[Peter M Thielen](https://pubmed.ncbi.nlm.nih.gov/?term=Thielen+PM&cauthor_id=41923365)[1](https://pubmed.ncbi.nlm.nih.gov/41923365/#full-view-affiliation-1 "Johns Hopkins Applied Physics Laboratory, Laurel, MD 20723, United States.")
+
+ Affiliations  Expand 
+
+### Affiliations
+
+*   1 Johns Hopkins Applied Physics Laboratory, Laurel, MD 20723, United States.
+*   2 Contractor for Office of Laboratory Systems and Response, Centers for Disease Control and Prevention, ASRT Inc, Atlanta, Georgia 30346, United States.
+*   3 Office of Readiness and Response, Centers for Disease Control and Prevention, Atlanta, GA 30333.
+
+*    PMID: **41923365**
+*    DOI: [10.1093/bioinformatics/btag119](https://doi.org/10.1093/bioinformatics/btag119)
+
+ Item in Clipboard 
+
+# TaxTriage: An Open-Source Metagenomic Sequencing Data Analysis Pipeline Enabling Putative Pathogen Detection
+
+Brian Merritt et al. Bioinformatics.2026.
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ Bioinformatics 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Bioinformatics%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Bioinformatics%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41923365/#)
+
+. 2026 Apr 1:btag119.
+
+ doi: 10.1093/bioinformatics/btag119.  Online ahead of print. 
+
+### Authors
+
+[Brian Merritt](https://pubmed.ncbi.nlm.nih.gov/?term=Merritt+B&cauthor_id=41923365)[1](https://pubmed.ncbi.nlm.nih.gov/41923365/#short-view-affiliation-1 "Johns Hopkins Applied Physics Laboratory, Laurel, MD 20723, United States."),[Jeremy D Ratcliff](https://pubmed.ncbi.nlm.nih.gov/?term=Ratcliff+JD&cauthor_id=41923365)[1](https://pubmed.ncbi.nlm.nih.gov/41923365/#short-view-affiliation-1 "Johns Hopkins Applied Physics Laboratory, Laurel, MD 20723, United States."),[Stanley Ta](https://pubmed.ncbi.nlm.nih.gov/?term=Ta+S&cauthor_id=41923365)[1](https://pubmed.ncbi.nlm.nih.gov/41923365/#short-view-affiliation-1 "Johns Hopkins Applied Physics Laboratory, Laurel, MD 20723, United States."),[Gunars Osis](https://pubmed.ncbi.nlm.nih.gov/?term=Osis+G&cauthor_id=41923365)[2](https://pubmed.ncbi.nlm.nih.gov/41923365/#short-view-affiliation-2 "Contractor for Office of Laboratory Systems and Response, Centers for Disease Control and Prevention, ASRT Inc, Atlanta, Georgia 30346, United States."),[Matthew R Mauldin](https://pubmed.ncbi.nlm.nih.gov/?term=Mauldin+MR&cauthor_id=41923365)[3](https://pubmed.ncbi.nlm.nih.gov/41923365/#short-view-affiliation-3 "Office of Readiness and Response, Centers for Disease Control and Prevention, Atlanta, GA 30333."),[Peter M Thielen](https://pubmed.ncbi.nlm.nih.gov/?term=Thielen+PM&cauthor_id=41923365)[1](https://pubmed.ncbi.nlm.nih.gov/41923365/#short-view-affiliation-1 "Johns Hopkins Applied Physics Laboratory, Laurel, MD 20723, United States.")
+
+### Affiliations
+
+*   1 Johns Hopkins Applied Physics Laboratory, Laurel, MD 20723, United States.
+*   2 Contractor for Office of Laboratory Systems and Response, Centers for Disease Control and Prevention, ASRT Inc, Atlanta, Georgia 30346, United States.
+*   3 Office of Readiness and Response, Centers for Disease Control and Prevention, Atlanta, GA 30333.
+
+*    PMID: **41923365**
+*    DOI: [10.1093/bioinformatics/btag119](https://doi.org/10.1093/bioinformatics/btag119)
+
+ Item in Clipboard 
+
+Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Abstract
+
+**Motivation:** TaxTriage is a comprehensive pathogen identification workflow designed for both short- and long-read untargeted DNA and RNA sequencing data. Combining read classification, mapping, and de novo assembly approaches, putative pathogens are identified through comparisons to curated pathogens and abundance expectations from healthy cohort data. Flexible installation options are enabled using Nextflow™ (NF), including cloud deployment via NF Tower (Seqera Platform) and local installation on a variety of systems, including standalone installations without external internet access. Final analysis summaries are compiled into an Organism Discovery Report, which lists likely pathogens and supporting data, including a custom confidence score.
+
+**Results:** Evaluation of published in silico, clinical, and outbreak datasets identified performance comparable to alternative cloud-based processing pipelines for expected pathogen and co-infection detection with similar sensitivity and increased specificity. To support both public health and veterinary diagnostics communities, customization options have been incorporated to enable improved performance for host species of interest.
+
+**Availability and implementation:** Source code for TaxTriage is freely available at https://github.com/jhuapl-bio/taxtriage. TaxTriage v2.1.1 has been archived on Zenodo at https://zenodo.org/records/17081354 to permit reproducible analysis as described in this manuscript.
+
+**Supplementary information:** Supplementary data are available at Bioinformatics online.
+
+Published by Oxford University Press 2026.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [EVscope: A Comprehensive Bioinformatics Pipeline for Accurate and Robust Analysis of Total RNA Sequencing from Extracellular Vesicles.](https://pubmed.ncbi.nlm.nih.gov/40666973/)Zhao Y, Chintalapudi H, Xu Z, Liu W, Hu Y, Grassin E, Song M, Hong S, Lee LP, Dong X.Zhao Y, et al.bioRxiv [Preprint]. 2025 Jun 27:2025.06.24.660984. doi: 10.1101/2025.06.24.660984.bioRxiv. 2025.PMID: 40666973 Free PMC article.Preprint.  
+*   [The Nextflow nf-core/metatdenovo pipeline for reproducible annotation of metatranscriptomes, and more.](https://pubmed.ncbi.nlm.nih.gov/41368505/)Di Leo D, Nilsson E, Krinos A, Pinhassi J, Lundin D.Di Leo D, et al.PeerJ. 2025 Dec 5;13:e20328. doi: 10.7717/peerj.20328. eCollection 2025.PeerJ. 2025.PMID: 41368505 Free PMC article.  
+*   [nf-core/nanostring: a pipeline for reproducible NanoString nCounter analysis.](https://pubmed.ncbi.nlm.nih.gov/38212989/)Peltzer A, Mohr C, Stadermann KB, Zwick M, Schmid R.Peltzer A, et al.Bioinformatics. 2024 Jan 2;40(1):btae019. doi: 10.1093/bioinformatics/btae019.Bioinformatics. 2024.PMID: 38212989 Free PMC article.  
+*   [PhytoPipe: a phytosanitary pipeline for plant pathogen detection and diagnosis using RNA-seq data.](https://pubmed.ncbi.nlm.nih.gov/38093207/)Hu X, Hurtado-Gonzales OP, Adhikari BN, French-Monar RD, Malapi M, Foster JA, McFarland CD.Hu X, et al.BMC Bioinformatics. 2023 Dec 13;24(1):470. doi: 10.1186/s12859-023-05589-2.BMC Bioinformatics. 2023.PMID: 38093207 Free PMC article.  
+*   [Folic acid supplementation and malaria susceptibility and severity among people taking antifolate antimalarial drugs in endemic areas.](https://pubmed.ncbi.nlm.nih.gov/36321557/)Crider K, Williams J, Qi YP, Gutman J, Yeung L, Mai C, Finkelstain J, Mehta S, Pons-Duran C, Menéndez C, Moraleda C, Rogers L, Daniels K, Green P.Crider K, et al.Cochrane Database Syst Rev. 2022 Feb 1;2(2022):CD014217. doi: 10.1002/14651858.CD014217.Cochrane Database Syst Rev. 2022.Update in: [Cochrane Database Syst Rev. 2026 Feb 18;2:CD014217. doi: 10.1002/14651858.CD014217.pub2.](https://pubmed.ncbi.nlm.nih.gov/41705996/)PMID: 36321557 Free PMC article.Updated.  
+
+[See all similar articles](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed&from_uid=41923365)
+
+## Related information
+
+*   [GEO Profiles](https://www.ncbi.nlm.nih.gov/geoprofiles?linkname=pubmed_geoprofiles&from_uid=41923365 "GEO records associated with pubmed record")
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41923365/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41923365%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/41923365/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41923365%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41923365%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/41923365/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/?pagename=pubmed%3Apubmed%3Aabstract%3ANONE)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)

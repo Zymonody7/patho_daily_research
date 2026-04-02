@@ -1,0 +1,80 @@
+Title: AlphaFold as a prior: experimental structure determination conditioned on a pretrained neural network - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41922571/
+
+Markdown Content:
+Actions
+
+. 2026 Apr 1.
+
+doi: 10.1038/s41592-026-03047-4.  Online ahead of print.
+
+[Minhuan Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+M&cauthor_id=41922571)[#](https://pubmed.ncbi.nlm.nih.gov/41922571/#full-view-equal-contrib-explanation "Contributed equally")[3](https://pubmed.ncbi.nlm.nih.gov/41922571/#full-view-affiliation-3 "John A. Paulson School of Engineering and Applied Sciences, Harvard University, Cambridge, MA, USA.")[4](https://pubmed.ncbi.nlm.nih.gov/41922571/#full-view-affiliation-4 "Center for Computational Mathematics, Flatiron Institute, New York, NY, USA."),[Airlie J McCoy](https://pubmed.ncbi.nlm.nih.gov/?term=McCoy+AJ&cauthor_id=41922571)[1](https://pubmed.ncbi.nlm.nih.gov/41922571/#full-view-affiliation-1 "Cambridge Institute for Medical Research, University of Cambridge, Cambridge, UK."),[Suresh Banjara](https://pubmed.ncbi.nlm.nih.gov/?term=Banjara+S&cauthor_id=41922571)[5](https://pubmed.ncbi.nlm.nih.gov/41922571/#full-view-affiliation-5 "Department of Chemistry, Umeå University, Umea, Sweden."),[Hiroki Okumura](https://pubmed.ncbi.nlm.nih.gov/?term=Okumura+H&cauthor_id=41922571)[6](https://pubmed.ncbi.nlm.nih.gov/41922571/#full-view-affiliation-6 "Department of Applied Biological Chemistry, Faculty of Agriculture, Meijo University, Nagoya, Japan."),[Eve Napier](https://pubmed.ncbi.nlm.nih.gov/?term=Napier+E&cauthor_id=41922571)[7](https://pubmed.ncbi.nlm.nih.gov/41922571/#full-view-affiliation-7 "School of Biochemistry and Immunology, Trinity College Dublin, Dublin, Ireland."),[Pietro Fontana](https://pubmed.ncbi.nlm.nih.gov/?term=Fontana+P&cauthor_id=41922571)[8](https://pubmed.ncbi.nlm.nih.gov/41922571/#full-view-affiliation-8 "Department of Immunology, St. Jude Children's Research Hospital, Memphis, TN, USA."),[Amir R Khan](https://pubmed.ncbi.nlm.nih.gov/?term=Khan+AR&cauthor_id=41922571)[7](https://pubmed.ncbi.nlm.nih.gov/41922571/#full-view-affiliation-7 "School of Biochemistry and Immunology, Trinity College Dublin, Dublin, Ireland."),[Luca Jovine](https://pubmed.ncbi.nlm.nih.gov/?term=Jovine+L&cauthor_id=41922571)[9](https://pubmed.ncbi.nlm.nih.gov/41922571/#full-view-affiliation-9 "Department of Medicine, Huddinge, Karolinska Institutet, Stockholm, Sweden."),[Thomas C Terwilliger](https://pubmed.ncbi.nlm.nih.gov/?term=Terwilliger+TC&cauthor_id=41922571)[10](https://pubmed.ncbi.nlm.nih.gov/41922571/#full-view-affiliation-10 "New Mexico Consortium, Los Alamos, NM, USA."),[Randy J Read](https://pubmed.ncbi.nlm.nih.gov/?term=Read+RJ&cauthor_id=41922571)[11](https://pubmed.ncbi.nlm.nih.gov/41922571/#full-view-affiliation-11 "Cambridge Institute for Medical Research, University of Cambridge, Cambridge, UK. rjr27@cam.ac.uk."),[Doeke R Hekstra](https://pubmed.ncbi.nlm.nih.gov/?term=Hekstra+DR&cauthor_id=41922571)[12](https://pubmed.ncbi.nlm.nih.gov/41922571/#full-view-affiliation-12 "John A. Paulson School of Engineering and Applied Sciences, Harvard University, Cambridge, MA, USA. doeke_hekstra@harvard.edu.")[13](https://pubmed.ncbi.nlm.nih.gov/41922571/#full-view-affiliation-13 "Department of Molecular and Cellular Biology, Harvard University, Cambridge, MA, USA. doeke_hekstra@harvard.edu."),[Mohammed AlQuraishi](https://pubmed.ncbi.nlm.nih.gov/?term=AlQuraishi+M&cauthor_id=41922571)[14](https://pubmed.ncbi.nlm.nih.gov/41922571/#full-view-affiliation-14 "Department of Systems Biology, Columbia University, New York, NY, USA. m.alquraishi@columbia.edu.")
+
+Affiliations
+
+*    PMID: **41922571**
+*    DOI: [10.1038/s41592-026-03047-4](https://doi.org/10.1038/s41592-026-03047-4)
+
+## AlphaFold as a prior: experimental structure determination conditioned on a pretrained neural network
+
+Alisia Fadini et al. Nat Methods.2026.
+
+## Abstract
+
+Advances in machine learning have transformed structural biology, enabling swift and accurate prediction of protein structure from sequence. However, key challenges persist in modeling side-chain packing, condition-dependent conformational changes and biomolecular interactions, largely because of limited high-quality training data. At the same time, emerging experimental techniques such as cryo-electron microscopy (cryo-EM), cryo-electron tomography (cryo-ET) and high-throughput crystallography are generating vast amounts of structural information but converting these data into mechanistically interpretable atomic models often remains difficult. Here we show that integrating experimental measurements directly into protein structure prediction can overcome these limitations. We introduce ROCKET, an augmentation of AlphaFold2 that refines predicted structures using cryo-EM, cryo-ET and X-ray crystallography data. By optimizing structures in the space of coevolutionary embeddings rather than Cartesian coordinates, ROCKET captures biologically meaningful structural variation that is inaccessible to AlphaFold2 alone and to existing automated modeling approaches, especially when the signal-to-noise ratio is low. ROCKET enables scalable, automated model building without retraining and provides a general framework for integrating experimental observables with biomolecular machine learning.
+
+© 2026. The Author(s), under exclusive licence to Springer Nature America, Inc.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Competing interests: M.A. is a member of the scientific advisory boards of Cyrus Biotechnology, Deep Forest Sciences, Nabla Bio, Oracle Therapeutics and Achira. The other authors declare no competing interests.
+
+## Similar articles
+
+*   [AlphaFold as a Prior: Experimental Structure Determination Conditioned on a Pretrained Neural Network.](https://pubmed.ncbi.nlm.nih.gov/40027838/)
+
+Fadini A, Li M, McCoy AJ, Terwilliger TC, Read RJ, Hekstra D, AlQuraishi M.Fadini A, et al.bioRxiv [Preprint]. 2025 Mar 11:2025.02.18.638828. doi: 10.1101/2025.02.18.638828.bioRxiv. 2025.PMID: 40027838 Free PMC article.Preprint. 
+*   [Connecting the dots: deep learning-based automated model building methods in cryo-EM.](https://pubmed.ncbi.nlm.nih.gov/41757224/)
+
+Bansia H, des Georges A.Bansia H, et al.Front Mol Biosci. 2026 Feb 11;12:1613399. doi: 10.3389/fmolb.2025.1613399. eCollection 2025.Front Mol Biosci. 2026.PMID: 41757224 Free PMC article.Review. 
+*   [Advantages and Limitations of AlphaFold in Structural Biology: Insights from Recent Studies.](https://pubmed.ncbi.nlm.nih.gov/41326937/)
+
+Li MQC, Wang S, Lin SR, Ting LEN, Wan ZH, Xie G, Zhang J.Li MQC, et al.Protein J. 2026 Feb;45(1):22-38. doi: 10.1007/s10930-025-10310-8. Epub 2025 Dec 1.Protein J. 2026.PMID: 41326937 Free PMC article.Review. 
+*   [Accurate Macromolecular Complex Modeling for Cryo-EM with CryoZeta.](https://pubmed.ncbi.nlm.nih.gov/41756897/)
+
+Zhang Z, Li S, Farheen F, Kagaya Y, Liu B, Ibtehaz N, Terashi G, Nakamura T, Zhu H, Khan K, Zhang Y, Kihara D.Zhang Z, et al.bioRxiv [Preprint]. 2026 Feb 16:2026.02.13.705846. doi: 10.64898/2026.02.13.705846.bioRxiv. 2026.PMID: 41756897 Free PMC article.Preprint. 
+*   [Integrating AlphaFold and deep learning for atomistic interpretation of cryo-EM maps.](https://pubmed.ncbi.nlm.nih.gov/37982712/)
+
+Dai X, Wu L, Yoo S, Liu Q.Dai X, et al.Brief Bioinform. 2023 Sep 22;24(6):bbad405. doi: 10.1093/bib/bbad405.Brief Bioinform. 2023.PMID: 37982712 
+
+## References
+
+1.       1.    Jumper, J. et al. Highly accurate protein structure prediction with AlphaFold. Nature 596, 583–589 (2021). - [PubMed](https://pubmed.ncbi.nlm.nih.gov/34265844/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/8371605/) - [DOI](https://doi.org/10.1038/s41586-021-03819-2)
+
+2.       1.    Baek, M. et al. Accurate prediction of protein structures and interactions using a three-track neural network. Science 373, 871–876 (2021). - [PubMed](https://pubmed.ncbi.nlm.nih.gov/34282049/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/7612213/) - [DOI](https://doi.org/10.1126/science.abj8754)
+
+3.       1.    Jumper, J. et al. Applying and improving AlphaFold at CASP14. Proteins 89, 1711–1721 (2021). - [PubMed](https://pubmed.ncbi.nlm.nih.gov/34599769/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/9299164/) - [DOI](https://doi.org/10.1002/prot.26257)
+
+4.       1.    Pereira, J. et al. High-accuracy protein structure prediction in CASP14. Proteins 89, 1687–1699 (2021). - [PubMed](https://pubmed.ncbi.nlm.nih.gov/34218458/) - [DOI](https://doi.org/10.1002/prot.26171)
+
+5.       1.    Karelina, M., Noh, J. J. & Dror, R. O. How accurately can one predict drug binding modes using AlphaFold models? eLife 12, RP89386 (2023). - [PubMed](https://pubmed.ncbi.nlm.nih.gov/38131311/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/10746139/) - [DOI](https://doi.org/10.7554/elife.89386.2)
+
+## Grants and funding
+
+*   [R35-GM150546/U.S. Department of Health & Human Services | NIH | National Institute of General Medical Sciences (NIGMS)](https://pubmed.ncbi.nlm.nih.gov/?term=R35-GM150546%2FU.S.+Department+of+Health+%26+Human+Services+%7C+NIH+%7C+National+Institute+of+General+Medical+Sciences+%28NIGMS%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant R35-GM150546/U.S. Department of Health & Human Services | NIH | National Institute of General Medical Sciences (NIGMS)")
+*   [P01-GM063210/U.S. Department of Health & Human Services | NIH | National Institute of General Medical Sciences (NIGMS)](https://pubmed.ncbi.nlm.nih.gov/?term=P01-GM063210%2FU.S.+Department+of+Health+%26+Human+Services+%7C+NIH+%7C+National+Institute+of+General+Medical+Sciences+%28NIGMS%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant P01-GM063210/U.S. Department of Health & Human Services | NIH | National Institute of General Medical Sciences (NIGMS)")
+*   [P01-GM063210/U.S. Department of Health & Human Services | NIH | National Institute of General Medical Sciences (NIGMS)](https://pubmed.ncbi.nlm.nih.gov/?term=P01-GM063210%2FU.S.+Department+of+Health+%26+Human+Services+%7C+NIH+%7C+National+Institute+of+General+Medical+Sciences+%28NIGMS%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant P01-GM063210/U.S. Department of Health & Human Services | NIH | National Institute of General Medical Sciences (NIGMS)")
+*   [DP2-GM141000/U.S. Department of Health & Human Services | NIH | National Institute of General Medical Sciences (NIGMS)](https://pubmed.ncbi.nlm.nih.gov/?term=DP2-GM141000%2FU.S.+Department+of+Health+%26+Human+Services+%7C+NIH+%7C+National+Institute+of+General+Medical+Sciences+%28NIGMS%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant DP2-GM141000/U.S. Department of Health & Human Services | NIH | National Institute of General Medical Sciences (NIGMS)")
+*   [BB/Y009398/1/RCUK | Biotechnology and Biological Sciences Research Council (BBSRC)](https://pubmed.ncbi.nlm.nih.gov/?term=BB%2FY009398%2F1%2FRCUK+%7C+Biotechnology+and+Biological+Sciences+Research+Council+%28BBSRC%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant BB/Y009398/1/RCUK | Biotechnology and Biological Sciences Research Council (BBSRC)")
+
+*   [2021-00271/Stiftelsen för Strategisk Forskning (Swedish Foundation for Strategic Research)](https://pubmed.ncbi.nlm.nih.gov/?term=2021-00271%2FStiftelsen+f%C3%B6r+Strategisk+Forskning+%28Swedish+Foundation+for+Strategic+Research%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2021-00271/Stiftelsen för Strategisk Forskning (Swedish Foundation for Strategic Research)")
+*   [2024-05336/Vetenskapsrådet (Swedish Research Council)](https://pubmed.ncbi.nlm.nih.gov/?term=2024-05336%2FVetenskapsr%C3%A5det+%28Swedish+Research+Council%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2024-05336/Vetenskapsrådet (Swedish Research Council)")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Nature Publishing Group](https://doi.org/10.1038/s41592-026-03047-4)

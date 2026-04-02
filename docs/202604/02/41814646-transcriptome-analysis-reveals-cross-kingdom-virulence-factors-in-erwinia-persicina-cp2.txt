@@ -1,0 +1,96 @@
+Title: Transcriptome Analysis Reveals Cross-Kingdom Virulence Factors in Erwinia persicina Cp2 - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41814646/
+
+Markdown Content:
+Actions
+
+. 2026 Apr;18(2):e70322.
+
+doi: 10.1111/1758-2229.70322.
+
+Affiliations
+
+*    PMID: **41814646**
+*    DOI: [10.1111/1758-2229.70322](https://doi.org/10.1111/1758-2229.70322)
+
+## Transcriptome Analysis Reveals Cross-Kingdom Virulence Factors in Erwinia persicina Cp2
+
+Rong Huang et al. Environ Microbiol Rep.2026 Apr.
+
+## Abstract
+
+Erwinia persicina is a well-documented plant pathogenic bacterium, causing soft rot in various plant hosts. There are rare previous reports that it is associated with animal diseases. In this study, we used an alfalfa root infection model and a mouse model via gavage administration of E. persicina strain Cp2. Strain Cp2 was pathogenic on both alfalfa and mice. On alfalfa, Cp2 primarily caused leaf spot and etiolation. Mice exhibited moderate lesions in their liver, stomach and kidney tissues, with inflammation in the liver and kidney after gavage. Furthermore, viable Cp2 cells were successfully reisolated from mouse faeces at different time periods after gavage. Transcriptome analysis revealed that the 34 bacterial differentially expressed genes (DEGs) in Cp2 in response to infecting both alfalfa and mice were predominantly enriched in pathways related to bacterial adhesion, biofilm and motility. Bap was identified as a key virulence gene contributing to cross-kingdom pathogenicity of Cp2. The results provide a solid foundation for the subsequent functional validation of the virulence factors of this cross-kingdom pathogenic bacterium.
+
+**Keywords:** Erwinia persicina; cross‐kingdom; grassland agroecosystems; phytopathogen; zoopathogen.
+
+© 2026 The Author(s). Environmental Microbiology Reports published by John Wiley & Sons Ltd.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Unveiling alfalfa root rot resistance genes through an integrative GWAS and transcriptome study.](https://pubmed.ncbi.nlm.nih.gov/39810092/)
+
+He F, Xu M, Liu H, Xu Y, Long R, Kang J, Yang Q, Chen L.He F, et al.BMC Plant Biol. 2025 Jan 15;25(1):58. doi: 10.1186/s12870-024-05903-x.BMC Plant Biol. 2025.PMID: 39810092 Free PMC article. 
+*   [Cross-Kingdom Pathogenesis of _Pantoea alfalfae_ CQ10: Insights from Transcriptome and Proteome Analyses.](https://pubmed.ncbi.nlm.nih.gov/39597586/)
+
+Su J, Yao B, Huang R, Liu X, Zhang Z, Zhang Y.Su J, et al.Microorganisms. 2024 Oct 30;12(11):2197. doi: 10.3390/microorganisms12112197.Microorganisms. 2024.PMID: 39597586 Free PMC article. 
+*   [Plant Growth-Promoting Genes can Switch to be Virulence Factors via Horizontal Gene Transfer.](https://pubmed.ncbi.nlm.nih.gov/29476343/)
+
+Stritzler M, Soto G, Ayub N.Stritzler M, et al.Microb Ecol. 2018 Oct;76(3):579-583. doi: 10.1007/s00248-018-1163-7. Epub 2018 Feb 23.Microb Ecol. 2018.PMID: 29476343 
+*   [The regulation of virulence in phytopathogenic Erwinia species: quorum sensing, antibiotics and ecological considerations.](https://pubmed.ncbi.nlm.nih.gov/12448721/)
+
+Whitehead NA, Byers JT, Commander P, Corbett MJ, Coulthurst SJ, Everson L, Harris AK, Pemberton CL, Simpson NJ, Slater H, Smith DS, Welch M, Williamson N, Salmond GP.Whitehead NA, et al.Antonie Van Leeuwenhoek. 2002 Aug;81(1-4):223-31. doi: 10.1023/a:1020570802717.Antonie Van Leeuwenhoek. 2002.PMID: 12448721 Review. 
+*   [Quorum sensing, virulence and secondary metabolite production in plant soft-rotting bacteria.](https://pubmed.ncbi.nlm.nih.gov/17360277/)
+
+Barnard AM, Bowden SD, Burr T, Coulthurst SJ, Monson RE, Salmond GP.Barnard AM, et al.Philos Trans R Soc Lond B Biol Sci. 2007 Jul 29;362(1483):1165-83. doi: 10.1098/rstb.2007.2042.Philos Trans R Soc Lond B Biol Sci. 2007.PMID: 17360277 Free PMC article.Review. 
+
+## References
+
+1.       1.    Aroeti, L., N. Elbaz, R. Faigenbaum‐Romm, et al. 2025. “Formation of a Membraneless Compartment Regulates Bacterial Virulence.” Nature Communications 16: 3834. [https://doi.org/10.1038/s41467‐025‐58829‐9](https://doi.org/10.1038/s41467%E2%80%90025%E2%80%9058829%E2%80%909). 
+
+2.       1.    Brenner, D. J., N. R. Krieg, and J. T. Staley. 2005. Bergey's Manual of Systematic Bacteriology (Second Edition, Volume 2 Part B, C). Springer US. 
+
+3.       1.    Büttner, D., and U. Bonas. 2003. “Common Infection Strategies of Plant and Animal Pathogenic Bacteria.” Current Opinion in Plant Biology 6: 312–319. [https://doi.org/10.1016/s1369‐5266(03)00064‐5](https://doi.org/10.1016/s1369%E2%80%905266(03)00064%E2%80%905). 
+
+4.       1.    Cao, H., R. L. Baldini, and L. G. Rahme. 2001. “Common Mechanisms for Pathogens of Plants and Animals.” Annual Review of Phytopathology 39: 259–284. [https://doi.org/10.1146/annurev.phyto.39.1.259](https://doi.org/10.1146/annurev.phyto.39.1.259). 
+
+5.       1.    Cucarella, C., M. A. Tormo, E. Knecht, et al. 2002. “Expression of the Biofilm‐Associated Protein Interferes With Host Protein Receptors of Staphylococcus aureus and Alters the Infective Process.” Infection and Immunity 70: 3180–3186. [https://doi.org/10.1128/IAI.70.6.3180‐3186.2002](https://doi.org/10.1128/IAI.70.6.3180%E2%80%903186.2002). 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+*   Actions 
+
+## Grants and funding
+
+*   [LYYC-2025-03/Longyuan Young Talents Project of Gansu Province](https://pubmed.ncbi.nlm.nih.gov/?term=LYYC-2025-03%2FLongyuan+Young+Talents+Project+of+Gansu+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant LYYC-2025-03/Longyuan Young Talents Project of Gansu Province")
+*   [Gaufx-05j01/Fuxi Distinguished Talent Cultivation Project of Gansu Agricultural University](https://pubmed.ncbi.nlm.nih.gov/?term=Gaufx-05j01%2FFuxi+Distinguished+Talent+Cultivation+Project+of+Gansu+Agricultural+University%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant Gaufx-05j01/Fuxi Distinguished Talent Cultivation Project of Gansu Agricultural University")
+*   [32060396/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=32060396%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 32060396/National Natural Science Foundation of China")
+*   [LCJ20240172/Science and Technology Support Project of the Gansu Forestry and Grassland Administration-Gansu Grassland Ecological Restoration and Management Project](https://pubmed.ncbi.nlm.nih.gov/?term=LCJ20240172%2FScience+and+Technology+Support+Project+of+the+Gansu+Forestry+and+Grassland+Administration-Gansu+Grassland+Ecological+Restoration+and+Management+Project%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant LCJ20240172/Science and Technology Support Project of the Gansu Forestry and Grassland Administration-Gansu Grassland Ecological Restoration and Management Project")
+*   [2025QB-051/Department of Education Young Doctoral Researchers 'In-Enterprise & In-Park' Collaboration Project](https://pubmed.ncbi.nlm.nih.gov/?term=2025QB-051%2FDepartment+of+Education+Young+Doctoral+Researchers+%27In-Enterprise+%26+In-Park%27+Collaboration+Project%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2025QB-051/Department of Education Young Doctoral Researchers 'In-Enterprise & In-Park' Collaboration Project")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Wiley](https://doi.org/10.1111/1758-2229.70322)

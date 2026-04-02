@@ -1,0 +1,116 @@
+Title: Hi-C Links Reveal Viral Activity and Infection Within the Free-Living Microbial Community of a Secondary Chlorophyll Maximum in the Eastern Tropical North Pacific - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41912361/
+
+Markdown Content:
+## Hi-C Links Reveal Viral Activity and Infection Within the Free-Living Microbial Community of a Secondary Chlorophyll Maximum in the Eastern Tropical North Pacific
+
+Christina Rathwell et al. Environ Microbiol.2026 Apr.
+
+## Abstract
+
+Oxygen-deficient zones (ODZs) influence global nitrogen cycling as key sites for the removal of bioavailable nitrogen through denitrification and anammox. Despite their importance, many microbes and viruses in ODZs remain uncultivated, limiting our understanding of their ecological roles. This study employed Hi-C proximity linkages, combined with long and short read metagenomic sequencing to characterise active viral interactions in the prokaryotic community at a secondary chlorophyll maximum in the Eastern Tropical North Pacific ODZ. Among the identified 861 assembled viral contigs over 10 kb, 75 showed significant links to microbial genomes. Virus-host linkages indicated 19 novel virus-microbe pairs that were likely infectious, and which conventional in silico host prediction methods largely missed. The virus-host relationships involved nine distinct microbial phyla, with previously unrecorded viral infections of Planctomycetes, Chloroflexota, Alphaproteobacteria, Gammaproteobactera, Myxococcota and Verrucomicrobia. Most hosts carried the genomic potential for denitrification. Phylogenetic analysis of the terminase large subunit (terL) genes from linked viruses suggested that many active phages resemble known temperate phages, indicating that lysogeny may be an ecological strategy in ODZs. Our comprehensive metagenomic approach offers new insights into viral-host interactions in this ecosystem, highlighting the importance of including proximity methods in viral ecology studies of uncultivated microbial populations.
+
+© 2026 The Author(s). Environmental Microbiology published by John Wiley & Sons Ltd.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+The authors declare no conflicts of interest.
+
+## Figures
+
+[![Image 1: FIGURE 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/13eb/13035462/4508a5f5243c/EMI-28-e70274-g003.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/13eb/13035462/8c71d6ff5f88/EMI-28-e70274-g003.jpg)
+
+**FIGURE 1**
+(A) Global location of oxygen deficient zones (ODZ), including the Eastern Tropical North and South Pacific and the Arabian Sea. Oxygen concentrations are mapped from 2018 World Ocean Atlas data which preceded sample collection by 1 year. (B) Zoomed in view of sample site location (yellow dot) in the Eastern Tropical Pacific Ocean ODZ. Oxygen concentration at 300 m depth is depicted with colour shown in legend on panel A. (C) Measurements taken by the CTD instrument during the sampling cast, showing oxygen depletion to zero and a secondary chlorophyll maximum contained in anoxic depths.
+
+[![Image 2: FIGURE 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/13eb/13035462/894887b65b6c/EMI-28-e70274-g006.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/13eb/13035462/0665c01bd55f/EMI-28-e70274-g006.jpg)
+
+**FIGURE 2**
+Computational workflow to determine virus‐host pairs. Contigs from a hybrid assembly were identified as viral using 3 different computational methods. Contigs identified by at least two of these methods were pursued further as viruses. Potential viral contigs were annotated with DRAMv and VIBRANT, and taxonomy and statistics were derived from geNomad and checkV. Microbial contigs were binned with three different methods, which were fed into DAS Tool to get integrated MAGs. MAGs were analysed with GTDB‐tk, DRAM and checkM. Hi‐C reads that mapped viral contigs of sufficient length and viral gene content that linked with sufficiently characterised and uncontaminated bins were statistically analysed for virus‐microbe activity in the sample.
+
+[![Image 3: FIGURE 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/13eb/13035462/315e6c306c7f/EMI-28-e70274-g001.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/13eb/13035462/4cfff91a8e3e/EMI-28-e70274-g001.jpg)
+
+**FIGURE 3**
+Final 861 viral sequences that were used to query virus‐microbe interactions with Hi‐C linkages. (A) Virus contigs greater than 10 kb are shown with diameter dependent on checkV completeness and coloured by geNomad taxonomic groupings. Total viral length is plotted on the y‐axis. (B) Hallmark gene presence for each virus contig as determined by geNomad. (C) Virus coverage in the short‐read sequencing library of the sample from the secondary chlorophyll maximum.
+
+[![Image 4: FIGURE 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/13eb/13035462/b72969414afd/EMI-28-e70274-g008.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/13eb/13035462/7ae9cb5a3fc1/EMI-28-e70274-g008.jpg)
+
+**FIGURE 4**
+Auxiliary metabolic genes (AMGs) found in viral genomes. Viral genomes at least 10,000 bp in length were annotated with DRAM and VIBRANT and further curated manually to remove metabolic genes likely to have viral function, such as methyltransferases and peptidases. Remaining AMGs were named with KEGG Pathway terminology, with Pathway 1 being higher order divisions, and 2 and 3 more specific. Gene function colour‐coded by Pathway 2 divisions and grouped by Pathway 3 divisions.
+
+[![Image 5: FIGURE 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/13eb/13035462/944f2d238751/EMI-28-e70274-g007.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/13eb/13035462/3161bfb722d0/EMI-28-e70274-g007.jpg)
+
+**FIGURE 5**
+All virus‐microbe associations in the sample from the secondary chlorophyll maximum as determined by Hi‐C links and iPHoP in silico host predictions. A, B. Upper bar plots show virus‐microbe interactions determined with Hi‐C links, and the lower panel shows best in silico host predictions with iPHoP. The x‐axis plots an individual virus contig on each tick and the y‐axis shows the calculated viruses per host cell. (A) The 25 virus contigs that had both iPHoP in silico predictions and significant HiC links. (B) The 50 viruses that had no iPHoP in silico prediction but had significant HiC links. (C) Host predictions for 183 viruses that had iPHoP in silico predictions with no significant HiC links to microbial MAGs. (D) The total number of viruses characterised by these methods and not characterised by either method. (E) Average abundance plotted for virus contigs that had significant Hi‐C links and those that had none, showing that Hi‐C linked contigs were more abundant than those that had no links.
+
+[![Image 6: FIGURE 6](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/13eb/13035462/78453bf9bf22/EMI-28-e70274-g005.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/13eb/13035462/53c493cbe119/EMI-28-e70274-g005.jpg)
+
+**FIGURE 6**
+Data for each virus‐host link determined by Hi‐C to have an abundance of greater than one virus copy per host cell in the metagenome sample. (A) Host predictions, Hi‐C linked hosts, and virus per host (VPH) amounts are shown in the tiles to the left. Colours for broad host taxonomy are included in the taxon legend below. Virus‐per‐host tiles are darker for a higher VPH, with the VPH value displayed in the tile. (B) Gene calls and identities for each viral contig. Gene calls were determined through VIBRANT and DRAMv, which use KEGG, PFAM, VOG and viral RefSeq to identify gene content. Genes are coloured by broad function, including nucleotide replication, structural, auxiliary metabolic genes (AMG) and other phage proteins.
+
+[![Image 7: FIGURE 7](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/13eb/13035462/edab06714895/EMI-28-e70274-g004.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/13eb/13035462/49548c7bc911/EMI-28-e70274-g004.jpg)
+
+**FIGURE 7**
+TerL phylogeny of linked viruses. A maximum likelihood phylogenetic tree (RaxML‐ng) of the _terL_ gene for each linked viral contig, where _terL_ was annotated. Branches from this study are in bold, and their annotations are also in bold. Bootstrap values above 70 are marked by a bold circle. Clades are coloured by packaging strategy, with colours described outside of the circle. Viruses from this study are named as _Taxon_ Vir, where _Taxon_ is the phylum or class (Proteobacteria) determined by GTDB‐tk taxonomy of the linked microbial genome, for all viral sequences with a VPH of greater than 1. In linked viruses with a VPH less than 1, the name is stated as Linked_ _Taxon\__ VPH_ _X_, where Taxon is the phylum or class (Proteobacteria) of the linked microbial genome, and the X is the VPH number determined for the virus‐microbe pair.
+
+## Similar articles
+
+*   [Novel Alphaproteobacteria transcribe genes for nitric oxide transformation at high levels in a marine oxygen-deficient zone.](https://pubmed.ncbi.nlm.nih.gov/38445905/)
+
+Elbon CE, Stewart FJ, Glass JB.Elbon CE, et al.Appl Environ Microbiol. 2024 Apr 17;90(4):e0209923. doi: 10.1128/aem.02099-23. Epub 2024 Mar 6.Appl Environ Microbiol. 2024.PMID: 38445905 Free PMC article. 
+*   [An analysis of protists in Pacific oxygen deficient zones: implications for Prochlorococcus and N 2 -producing bacteria.](https://pubmed.ncbi.nlm.nih.gov/34995411/)
+
+Fuchsman CA, Cherubini L, Hays MD.Fuchsman CA, et al.Environ Microbiol. 2022 Apr;24(4):1790-1804. doi: 10.1111/1462-2920.15893. Epub 2022 Jan 17.Environ Microbiol. 2022.PMID: 34995411 
+*   [Associations between picocyanobacterial ecotypes and cyanophage host genes across ocean basins and depth.](https://pubmed.ncbi.nlm.nih.gov/36874978/)
+
+Fuchsman CA, Garcia Prieto D, Hays MD, Cram JA.Fuchsman CA, et al.PeerJ. 2023 Feb 28;11:e14924. doi: 10.7717/peerj.14924. eCollection 2023.PeerJ. 2023.PMID: 36874978 Free PMC article. 
+*   [Host-hijacking and planktonic piracy: how phages command the microbial high seas.](https://pubmed.ncbi.nlm.nih.gov/30709355/)
+
+Warwick-Dugdale J, Buchholz HH, Allen MJ, Temperton B.Warwick-Dugdale J, et al.Virol J. 2019 Feb 1;16(1):15. doi: 10.1186/s12985-019-1120-1.Virol J. 2019.PMID: 30709355 Free PMC article.Review. 
+*   [Bacteriophages that infect marine roseobacters: genomics and ecology.](https://pubmed.ncbi.nlm.nih.gov/30556267/)
+
+Zhan Y, Chen F.Zhan Y, et al.Environ Microbiol. 2019 Jun;21(6):1885-1895. doi: 10.1111/1462-2920.14504. Epub 2019 Jan 13.Environ Microbiol. 2019.PMID: 30556267 Review. 
+
+## References
+
+1.       1.    Ahlgren, N. A. , Fuchsman C. A., Rocap G., and Fuhrman J. A.. 2019. “Discovery of Several Novel, Widespread, and Ecologically Distinct Marine Thaumarchaeota Viruses That Encode amoC Nitrification Genes.” ISME Journal 13: 618–631. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6462027/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/30315316/)
+
+2.       1.    Ahlgren, N. A. , Ren J., Lu Y. Y., Fuhrman J. A., and Sun F.. 2017. “Alignment‐Free _d_ 2* Oligonucleotide Frequency Dissimilarity Measure Improves Prediction of Hosts From Metagenomically‐Derived Viral Sequences.” Nucleic Acids Research 45: 39–53. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC5224470/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/27899557/)
+
+3.       1.    Antipov, D. , Korobeynikov A., McLean J. S., and Pevzner P. A.. 2016. “Hybrid SPAdes : An Algorithm for Hybrid Assembly of Short and Long Reads.” Bioinformatics 32: 1009–1015. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC4907386/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/26589280/)
+
+4.       1.    Avrani, S. , Schwartz D. A., and Lindell D.. 2014. “Virus‐Host Swinging Party in the Oceans.” Mobile Genetic Elements 2: 88–95. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3429526/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/22934242/)
+
+5.       1.    Babbin, A. R. , Keil R. G., Devol A. H., and Ward B. B.. 2014. “Organic Matter Stoichiometry, Flux, and Oxygen Control Nitrogen Loss in the Ocean.” Science 344: 406–408. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/24763588/)
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/pmid/41912361/)
+    *   [Wiley](https://doi.org/10.1111/1462-2920.70274)

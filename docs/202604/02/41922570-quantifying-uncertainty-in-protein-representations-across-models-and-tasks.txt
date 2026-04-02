@@ -1,0 +1,401 @@
+Title: Quantifying uncertainty in protein representations across models and tasks - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41922570/
+
+Markdown Content:
+# Quantifying uncertainty in protein representations across models and tasks - PubMed
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/41922570/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41922570%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/41922570/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/41922570/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/41922570/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/41922570/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/9fea6d21-07b4-4726-b151-fb89a024b8ad/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/41922570/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/41922570/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41922570/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41922570%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41922570%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/41922570/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Save citation to file
+
+ Format:  
+
+ Create file  Cancel 
+
+## Email citation
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41922570/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41922570/#)
+
+ Add  Cancel 
+
+## Your saved search
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/41922570/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+## Create a file for external citation management software
+
+ Create file  Cancel 
+
+## Your RSS Feed
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Full text links
+
+[![Image 6: Nature Publishing Group full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--www.nature.com-static-images-logos-nature-portfolio-120.png) Nature Publishing Group](https://doi.org/10.1038/s41592-026-03028-7 "See full text options at Nature Publishing Group")
+
+[Full text links](https://pubmed.ncbi.nlm.nih.gov/41922570/#)
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41922570/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/41922570/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/41922570/#abstract)
+*   [Conflict of interest statement](https://pubmed.ncbi.nlm.nih.gov/41922570/#conflict-of-interest)
+*   [Similar articles](https://pubmed.ncbi.nlm.nih.gov/41922570/#similar)
+*   [References](https://pubmed.ncbi.nlm.nih.gov/41922570/#references)
+*   [Related information](https://pubmed.ncbi.nlm.nih.gov/41922570/#related-links)
+*   [Grants and funding](https://pubmed.ncbi.nlm.nih.gov/41922570/#grants)
+*   [LinkOut - more resources](https://pubmed.ncbi.nlm.nih.gov/41922570/#linkout)
+
+ Nat Methods 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Nat+Methods%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Nat+Methods%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41922570/#)
+
+. 2026 Apr 1.
+
+ doi: 10.1038/s41592-026-03028-7.  Online ahead of print. 
+
+# Quantifying uncertainty in protein representations across models and tasks
+
+[R Prabakaran](https://pubmed.ncbi.nlm.nih.gov/?term=Prabakaran+R&cauthor_id=41922570)[1](https://pubmed.ncbi.nlm.nih.gov/41922570/#full-view-affiliation-1 "Department of Biology, Emory University, Atlanta, GA, USA. prabakaran@emory.edu."),[Yana Bromberg](https://pubmed.ncbi.nlm.nih.gov/?term=Bromberg+Y&cauthor_id=41922570)[2](https://pubmed.ncbi.nlm.nih.gov/41922570/#full-view-affiliation-2 "Department of Biology, Emory University, Atlanta, GA, USA. yana.bromberg@emory.edu.")[3](https://pubmed.ncbi.nlm.nih.gov/41922570/#full-view-affiliation-3 "Department of Computer Science, Emory University, Atlanta, GA, USA. yana.bromberg@emory.edu.")
+
+ Affiliations  Expand 
+
+### Affiliations
+
+*   1 Department of Biology, Emory University, Atlanta, GA, USA. prabakaran@emory.edu.
+*   2 Department of Biology, Emory University, Atlanta, GA, USA. yana.bromberg@emory.edu.
+*   3 Department of Computer Science, Emory University, Atlanta, GA, USA. yana.bromberg@emory.edu.
+
+*    PMID: **41922570**
+*    DOI: [10.1038/s41592-026-03028-7](https://doi.org/10.1038/s41592-026-03028-7)
+
+ Item in Clipboard 
+
+# Quantifying uncertainty in protein representations across models and tasks
+
+R Prabakaran et al. Nat Methods.2026.
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ Nat Methods 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Nat+Methods%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Nat+Methods%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41922570/#)
+
+. 2026 Apr 1.
+
+ doi: 10.1038/s41592-026-03028-7.  Online ahead of print. 
+
+### Authors
+
+[R Prabakaran](https://pubmed.ncbi.nlm.nih.gov/?term=Prabakaran+R&cauthor_id=41922570)[1](https://pubmed.ncbi.nlm.nih.gov/41922570/#short-view-affiliation-1 "Department of Biology, Emory University, Atlanta, GA, USA. prabakaran@emory.edu."),[Yana Bromberg](https://pubmed.ncbi.nlm.nih.gov/?term=Bromberg+Y&cauthor_id=41922570)[2](https://pubmed.ncbi.nlm.nih.gov/41922570/#short-view-affiliation-2 "Department of Biology, Emory University, Atlanta, GA, USA. yana.bromberg@emory.edu.")[3](https://pubmed.ncbi.nlm.nih.gov/41922570/#short-view-affiliation-3 "Department of Computer Science, Emory University, Atlanta, GA, USA. yana.bromberg@emory.edu.")
+
+### Affiliations
+
+*   1 Department of Biology, Emory University, Atlanta, GA, USA. prabakaran@emory.edu.
+*   2 Department of Biology, Emory University, Atlanta, GA, USA. yana.bromberg@emory.edu.
+*   3 Department of Computer Science, Emory University, Atlanta, GA, USA. yana.bromberg@emory.edu.
+
+*    PMID: **41922570**
+*    DOI: [10.1038/s41592-026-03028-7](https://doi.org/10.1038/s41592-026-03028-7)
+
+ Item in Clipboard 
+
+ Full text links Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Abstract
+
+Biomolecular embeddings serve as efficient representations of sequence and structure, enabling tasks such as similarity searches, structure and function prediction and estimation of biophysical properties. However, relying on embeddings without assessing their ability to accurately represent biomolecules is a critical flaw-akin to using a scalpel in surgery without verifying its sharpness. Here we propose a means to evaluate the capacity of protein language models to encode biologically meaningful information. For each protein, representation uncertainty is scored as the fraction of non-biological 'synthetic' sequences among its nearest neighbors in latent space. Our analysis reveals that low-quality embeddings often fail to capture meaningful biology, displaying vector properties indistinguishable from those of randomly generated sequences. Our model-agnostic scoring framework is, to our knowledge, the first to quantify protein sequence embedding reliability. It enables embedding screening prior to downstream applications and inferences, significantly improving their reliability. We propose that embedding evaluation should be undertaken for other uses of language models in science as well.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [LMCrot: an enhanced protein crotonylation site predictor by leveraging an interpretable window-level embedding from a transformer-based protein language model.](https://pubmed.ncbi.nlm.nih.gov/38662579/)Pratyush P, Bahmani S, Pokharel S, Ismail HD, Kc DB.Pratyush P, et al.Bioinformatics. 2024 May 2;40(5):btae290. doi: 10.1093/bioinformatics/btae290.Bioinformatics. 2024.PMID: 38662579 Free PMC article.  
+*   [Scalable embedding fusion with protein language models: insights from benchmarking text-integrated representations.](https://pubmed.ncbi.nlm.nih.gov/41394632/)Ko YS, Parkinson J, Wang W.Ko YS, et al.bioRxiv [Preprint]. 2025 Dec 1:2024.08.24.609531. doi: 10.1101/2024.08.24.609531.bioRxiv. 2025.Update in: [Brief Bioinform. 2026 Jan 7;27(1):bbag014. doi: 10.1093/bib/bbag014.](https://pubmed.ncbi.nlm.nih.gov/41608984/)PMID: 41394632 Free PMC article.Updated.Preprint.  
+*   [Tree visualizations of protein sequence embedding space enable improved functional clustering of diverse protein superfamilies.](https://pubmed.ncbi.nlm.nih.gov/36642409/)Yeung W, Zhou Z, Mathew L, Gravel N, Taujale R, O'Boyle B, Salcedo M, Venkat A, Lanzilotta W, Li S, Kannan N.Yeung W, et al.Brief Bioinform. 2023 Jan 19;24(1):bbac619. doi: 10.1093/bib/bbac619.Brief Bioinform. 2023.PMID: 36642409 Free PMC article.  
+*   [SECNLP: A survey of embeddings in clinical natural language processing.](https://pubmed.ncbi.nlm.nih.gov/31711972/)Kalyan KS, Sangeetha S.Kalyan KS, et al.J Biomed Inform. 2020 Jan;101:103323. doi: 10.1016/j.jbi.2019.103323. Epub 2019 Nov 8.J Biomed Inform. 2020.PMID: 31711972 Review.  
+*   [Biological Sequence Representation Methods and Recent Advances: A Review.](https://pubmed.ncbi.nlm.nih.gov/41007283/)Zhang H, Shi Y, Wang Y, Yang X, Li K, Im SK, Han Y.Zhang H, et al.Biology (Basel). 2025 Aug 27;14(9):1137. doi: 10.3390/biology14091137.Biology (Basel). 2025.PMID: 41007283 Free PMC article.Review.  
+
+[See all similar articles](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed&from_uid=41922570)
+
+## References
+
+1.       1.    Qin, L. et al. A survey of multilingual large language models. Patterns (N Y) 6, 101118 (2025). - [PubMed](https://pubmed.ncbi.nlm.nih.gov/39896256/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/11783891/) - [DOI](https://doi.org/10.1016/j.patter.2024.101118)
+
+2.       1.    Weissenow, K. & Rost, B. Are protein language models the new universal key? Curr. Opin. Struct. Biol. 91, 102997 (2025). - [PubMed](https://pubmed.ncbi.nlm.nih.gov/39921962/) - [DOI](https://doi.org/10.1016/j.sbi.2025.102997)
+
+3.       1.    Consens, M. E. et al. Transformers and genome language models. Nat. Mach. Intell.7, 346–362 (2025). - [DOI](https://doi.org/10.1038/s42256-025-01007-9)
+
+4.       1.    Zablocki, L. I. et al. Comprehensive benchmarking of large language models for RNA secondary structure prediction. Brief. Bioinform. 26, bbaf137 (2025). - [PubMed](https://pubmed.ncbi.nlm.nih.gov/40205851/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/11982019/) - [DOI](https://doi.org/10.1093/bib/bbaf137)
+
+5.       1.    Wang, Z. et al. Large language models in bioinformatics: a survey. Findings of the Association for Computational Linguistics: ACL 2025 (eds Wanxiang, C. et al.) 3602–3615 (Association for Computational Linguistics, 2025). 
+
+ Show all 60 references 
+
+## Related information
+
+*   [GEO Profiles](https://www.ncbi.nlm.nih.gov/geoprofiles?linkname=pubmed_geoprofiles&from_uid=41922570 "GEO records associated with pubmed record")
+
+## Grants and funding
+
+*   [2310114/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=2310114%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2310114/National Science Foundation (NSF)")
+*   [2310114/National Science Foundation (NSF)](https://pubmed.ncbi.nlm.nih.gov/?term=2310114%2FNational+Science+Foundation+%28NSF%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2310114/National Science Foundation (NSF)")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Nature Publishing Group](https://doi.org/10.1038/s41592-026-03028-7)
+
+**Full text links**[x]
+
+[![Image 7: Nature Publishing Group full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--www.nature.com-static-images-logos-nature-portfolio-120.png) Nature Publishing Group](https://doi.org/10.1038/s41592-026-03028-7 "See full text options at Nature Publishing Group")
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41922570/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41922570%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/41922570/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41922570%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41922570%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/41922570/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/?pagename=pubmed%3Apubmed%3Aabstract%3ANONE)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)
