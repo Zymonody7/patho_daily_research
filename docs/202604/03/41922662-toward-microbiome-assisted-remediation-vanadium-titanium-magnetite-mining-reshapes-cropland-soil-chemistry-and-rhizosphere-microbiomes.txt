@@ -1,0 +1,97 @@
+Title: Toward microbiome-assisted remediation: Vanadium-titanium magnetite mining reshapes cropland soil chemistry and rhizosphere microbiomes - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41922662/
+
+Markdown Content:
+## Toward microbiome-assisted remediation: Vanadium-titanium magnetite mining reshapes cropland soil chemistry and rhizosphere microbiomes
+
+Bingliang Liu et al. Crop Health.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+Vanadium-titanium magnetite (VTM) mining can modify cropland soils and root-associated microbiomes with implications for crop health. However, how crop rhizosphere microbiomes reorganize under VTM-derived stress-particularly when bacteria and fungi are considered together-remains poorly understood. In the Hongge district (Panzhihua, China), we sampled bulk soils and rhizospheres of lettuce, rapeseed, and pea from croplands within the VTM mining influence zone (mining-impacted fields) and paired croplands outside the zone (reference fields). We measured soil chemistry and profiled bacterial and fungal communities using 16S rRNA and ITS amplicon sequencing, respectively. Mining-impacted soils generally showed a VTM geochemical imprint, neutral-alkaline pH, and reduced plant-available P and K. Bray-Curtis-based ordinations indicated a clear separation between mining-impacted and reference rhizospheres, and taxonomic profiles suggested host-dependent reassembly of both bacterial and fungal communities. Putative functional profiling suggested a shift toward stress-accommodation processes, and fungal guild assignments tended to tilt toward saprotrophic/endophytic categories. Mantel analyses identified pH as one of the strongest correlates of community turnover, whereas structural equation modeling was consistent with nutrient availability (available N/P/K composite) explaining a substantial portion of the VTM effect; the composite total-metal-load axis (Fe/V/Ti/Zn) showed limited explanatory power, especially for fungi. Together, these field-based, two-kingdom signals link VTM-altered soil chemistry to rhizosphere restructuring in edible crops and provide actionable indicators for crop health management.
+
+**Keywords:** Crop health; Heavy-metal stress; Microbiome-assisted remediation; Rhizosphere microbiome; VTM mining.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Ethics approval and consent to participate: Not applicable. Consent for publication: Not applicable. Competing interests: The authors declare that they have no conflicts of interest.
+
+## Figures
+
+[![Image 1: Fig. 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/605d/13043986/bec59074577e/44297_2026_72_Fig1_HTML.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/605d/13043986/8a57aec65171/44297_2026_72_Fig1_HTML.jpg)
+
+**Fig.1**
+Alpha diversity of rhizosphere microbiomes. Boxplots show observed ASVs (richness) (**a**, **c**) and Shannon diversity (**b**, **d**) for bacterial (16S) and fungal (ITS) communities across soil type × crop groups. Points represent biological replicates (_n_ = 3 per group). Statistical comparisons were performed within each crop rhizosphere (VTM vs. reference), while bulk-soil controls (CK, VT-CK) were evaluated separately and not pooled with rhizosphere samples. Lsa, _Lactuca sativa_; Bra, _Brassica rapa_; Psa, _Pisum sativum_
+
+[![Image 2: Fig. 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/605d/13043986/04d7d97e19b1/44297_2026_72_Fig2_HTML.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/605d/13043986/4f40cf2cc685/44297_2026_72_Fig2_HTML.jpg)
+
+**Fig.2**
+Beta diversity of rhizosphere microbiomes. **a** Bacteria; **b** Fungi. Ordinations are based on Bray–Curtis dissimilarities using principal coordinates analysis (PCoA) (axis labels show % variance explained). Points are biological replicates; colors/shapes denote treatment groups (CK, VT-CK, Lsa, VT-Lsa, Bra, VT-Bra, Psa, VT-Psa). The top and right-side boxplots summarize group distributions of the corresponding axis scores; gray insets report PERMANOVA results (vegan adonis2:R 2 and _p_-value). Lsa, _Lactuca sativa_; Bra, _Brassica rapa_; Psa, _Pisum sativum_
+
+[![Image 3: Fig. 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/605d/13043986/f8591954b612/44297_2026_72_Fig3_HTML.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/605d/13043986/7ca16fe9d763/44297_2026_72_Fig3_HTML.jpg)
+
+**Fig.3**
+Taxonomic composition of rhizosphere microbiomes. Bacterial panels: **a** phylum level (top 10), **b** genus level (top 10); fungal panels: **c** phylum level (top 9), **d** genus level (top 10). Stacked bars show relative abundance (%) per sample and treatment group (Lsa, VT_Lsa, Bra, VT_Bra, Psa, VT_Psa); low-abundance taxa are pooled as “Others.” Unclassified reads/taxa were removed prior to plotting, and proportions were re-normalized to 100%. Colors denote taxa; bars sum to 100%. Rank prefixes in legends follow common microbiome conventions (e.g., p__ for phylum, g__ for genus). Lsa, _Lactuca sativa_; Bra, _Brassica rapa_; Psa, _Pisum sativum_
+
+[![Image 4: Fig. 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/605d/13043986/adbb2898c03d/44297_2026_72_Fig4_HTML.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/605d/13043986/bee9c1c301f5/44297_2026_72_Fig4_HTML.jpg)
+
+**Fig.4**
+LEfSe biomarkers and co-occurrence networks of rhizosphere microbiota in response to VTM exposure. Rhizosphere samples from the three crops were pooled by status (pink, reference rhizospheres; blue, mining-impacted rhizospheres); bulk soils (CK, VT-CK) were excluded to avoid niche confounding. **a** Bacteria—differential taxa and their effect sizes (log10 LDA scores). **b** Bacteria-cladogram showing the phylogenetic distribution of discriminant clades; colored sectors indicate enrichment in the corresponding group. **c** Fungi—differential taxa and LDA scores. **d** Fungi-cladogram of discriminant fungal clades. Only taxa meeting the preset LEfSe significance/LDA thresholds are displayed; rank prefixes follow standard notation (p_, c_, o_, f_, g_, s_). **e**–**h** Co‑occurrence networks of dominant bacterial and fungal genera in reference and VTM‑exposed rhizospheres. Networks were inferred from genus-level relative abundances using significant Spearman correlations. Node color indicates taxon identity (legend), node size reflects mean relative abundance, and edge color represents positive (pink) or negative (green) correlations
+
+[![Image 5: Fig. 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/605d/13043986/3eb7f268a1d8/44297_2026_72_Fig5_HTML.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/605d/13043986/e8ff1f02b5e4/44297_2026_72_Fig5_HTML.jpg)
+
+**Fig.5**
+Bacterial functional profiles and fungal guilds of rhizosphere microbiomes (STAMP). **a** Bacteria: PICRUSt2-inferred GO Biological Process terms showing the top differentially abundant functions between pooled groups (pink, reference rhizospheres; blue, mining-impacted rhizospheres). Left bars give mean proportions (%); right forest plots show between-group differences with 95% CIs (Wilcox’s tests; _P_< 0.05). **b** Fungi: FUNGuild trophic modes with significant between-group differences (_P_< 0.05); bars and forest plots are displayed as in panel (**a**). Functional predictions were generated with PICRUSt2 and fungal guilds assigned with FUNGuild; statistics and visualization were performed in STAMP
+
+[![Image 6: Fig. 6](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/605d/13043986/a603f277f6e5/44297_2026_72_Fig6_HTML.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/605d/13043986/d07a8f5a8ecf/44297_2026_72_Fig6_HTML.jpg)
+
+**Fig.6**
+Soil chemistry–microbiome coupling revealed by genus–environment correlations, Mantel tests and structural equation modeling (SEM). **a** Bacteria: Pearson correlation heatmap between the top-10 genera and soil variables (OC, Fe, V, Ti, Zn, TN, TP, TK, AN, AP, AK, pH). Cells display Pearson’s r (− 1 to 1); colors encode direction/magnitude. **b** Fungi: as in (**a**) for the top-10 fungal genera. **c** Integrated Mantel analysis linking community dissimilarities to environmental distances: Bray–Curtis dissimilarity (bacterial and fungal ASV tables) vs. Euclidean distance of z-scored soil variables. Edge color represents Mantel p-value and edge width the Mantel r; the upper-right matrix shows Pearson correlations among environmental variables (“Env-cor”). Genera and species names are italicized in legends. **d** SEM linking VTM exposure, metal load (PC1 of Fe, V, Ti and Zn), nutrient availability (PC1 of AN, AP and AK), and bacterial/fungal community turnover (Bray–Curtis PCoA1 scores). Numbers on paths are standardized coefficients; solid lines indicate significant paths (_P_< 0.05), and dashed lines indicate non-significant paths. OC, soil organic carbon; TN, total nitrogen; TP, total phosphorus; TK, total potassium; AN, alkali-hydrolyzable nitrogen; AP, Olsen-P; AK, available potassium
+
+## Similar articles
+
+*   [Phosphate mining activities affect crop rhizosphere fungal communities.](https://pubmed.ncbi.nlm.nih.gov/35623536/)
+
+Li Q, Wu Q, Zhang T, Xiang P, Bao Z, Tu W, Li L, Wang Q.Li Q, et al.Sci Total Environ. 2022 Sep 10;838(Pt 2):156196. doi: 10.1016/j.scitotenv.2022.156196. Epub 2022 May 24.Sci Total Environ. 2022.PMID: 35623536 
+*   [Alkaline soil pH affects bulk soil, rhizosphere and root endosphere microbiomes of plants growing in a Sandhills ecosystem.](https://pubmed.ncbi.nlm.nih.gov/33580950/)
+
+Lopes LD, Hao J, Schachtman DP.Lopes LD, et al.FEMS Microbiol Ecol. 2021 Mar 31;97(4):fiab028. doi: 10.1093/femsec/fiab028.FEMS Microbiol Ecol. 2021.PMID: 33580950 
+
+*   [Rhizosphere Microbial Response to Multiple Metal(loid)s in Different Contaminated Arable Soils Indicates Crop-Specific Metal-Microbe Interactions.](https://pubmed.ncbi.nlm.nih.gov/30291123/)
+
+Sun W, Xiao E, Krumins V, Häggblom MM, Dong Y, Pu Z, Li B, Wang Q, Xiao T, Li F.Sun W, et al.Appl Environ Microbiol. 2018 Nov 30;84(24):e00701-18. doi: 10.1128/AEM.00701-18. Print 2018 Dec 15.Appl Environ Microbiol. 2018.PMID: 30291123 Free PMC article. 
+*   [Microbiomes in agroecosystem: Diversity, function and assembly mechanisms.](https://pubmed.ncbi.nlm.nih.gov/36184075/)
+
+Xiong C, Lu Y.Xiong C, et al.Environ Microbiol Rep. 2022 Dec;14(6):833-849. doi: 10.1111/1758-2229.13126. Epub 2022 Oct 2.Environ Microbiol Rep. 2022.PMID: 36184075 Review. 
+
+## References
+
+1.       1.    Hou D, Jia X, Wang L, McGrath SP, Zhu Y-G, Hu Q, et al. Global soil pollution by toxic metals threatens agriculture and human health. Science. 2025;388(6744):316–21. 10.1126/science.adr5214. - [DOI](https://doi.org/10.1126/science.adr5214) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/40245139/)
+
+2.       1.    Fu Y, Li M, Li J, Chen D, Ye T, Wang C, Yan F, Qiu Z. Soil microbial community variation in vanadium-enriched farmland surrounding vanadium titanomagnetite tailing in Southwest China. Appl Soil Ecol. 2024;198. 10.1016/j.apsoil.2024.105318. 
+
+3.       1.    Liu P-P, Zhou M-F, Chen WT, Boone M, Cnudde V. Using multiphase solid inclusions to constrain the origin of the Baima Fe–Ti–(V) oxide deposit, SW China. J Petrol. 2014;55(5):951–76. 10.1093/petrology/egu012. - [DOI](https://doi.org/10.1093/petrology/egu012)
+
+4.       1.    Shellnutt JG. The Emeishan large igneous province: a synthesis. Geosci Front. 2014;5(3):369–94. 10.1016/j.gsf.2013.07.003. - [DOI](https://doi.org/10.1016/j.gsf.2013.07.003)
+
+5.       1.    Tang Q-x, Gan C-d, Yang J-y, Huang Y. Dynamics of vanadium and response of inherent bacterial communities in vanadium–titanium magnetite tailings to beneficiation agents, temperature, and illumination. Environ Pollut. 2023;330:121743. 10.1016/j.envpol.2023.121743. - [DOI](https://doi.org/10.1016/j.envpol.2023.121743) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/37149251/)
+
+## Grants and funding
+
+*   [2024NSFSC1202/Natural Science Foundation of Sichuan Province](https://pubmed.ncbi.nlm.nih.gov/?term=2024NSFSC1202%2FNatural+Science+Foundation+of+Sichuan+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2024NSFSC1202/Natural Science Foundation of Sichuan Province")
+*   [25FTZLCL0012/Open Projects of the Sichuan Provincial Key Laboratory for Critical Strategic Materials of Vanadium and Titanium](https://pubmed.ncbi.nlm.nih.gov/?term=25FTZLCL0012%2FOpen+Projects+of+the+Sichuan+Provincial+Key+Laboratory+for+Critical+Strategic+Materials+of+Vanadium+and+Titanium%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 25FTZLCL0012/Open Projects of the Sichuan Provincial Key Laboratory for Critical Strategic Materials of Vanadium and Titanium")
+*   [TYNSYS-2023-Z-03/Open Projects of the Sichuan Provincial University Key Laboratory for Solar Energy Technology Integration and Application Promotion](https://pubmed.ncbi.nlm.nih.gov/?term=TYNSYS-2023-Z-03%2FOpen+Projects+of+the+Sichuan+Provincial+University+Key+Laboratory+for+Solar+Energy+Technology+Integration+and+Application+Promotion%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant TYNSYS-2023-Z-03/Open Projects of the Sichuan Provincial University Key Laboratory for Solar Energy Technology Integration and Application Promotion")
+*   [Z3785/the start-up funds provided by Chengdu University](https://pubmed.ncbi.nlm.nih.gov/?term=Z3785%2Fthe+start-up+funds+provided+by+Chengdu+University%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant Z3785/the start-up funds provided by Chengdu University")

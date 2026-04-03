@@ -1,0 +1,509 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-04-03T19:14:36.724697+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 5,
+    "deep_cap": 9,
+    "deep_selected": 5,
+    "quick_candidates": 5,
+    "quick_skim_target": 14,
+    "quick_selected": 5
+  },
+  "deep_dive": [
+    {
+      "id": "41926572",
+      "title": "Protein and genomic language models uncover the unexplored diversity of bacterial immunity.",
+      "abstract": "The bacterial pangenome contains a vast diversity of antiphage systems, whose overall extent is still unknown. In this study, we developed complementary machine learning approaches to systematically predict antiphage function from genomic context, protein sequence, or their combination, achieving up to 99% precision and 92% recall. We validated these models experimentally in Escherichia and Streptomyces with the discovery of 12 antiphage systems. Applied to over 32,000 bacterial genomes, these models expand the predicted antiphage repertoire, with ~1.5% of bacterial genomes devoted to defense and more than 85% of predicted protein families remaining uncharacterized. We provide an interactive catalog of more than 19,000 candidate operon families for experimental follow-up. Together, these findings show that most molecular diversity in bacterial immunity remains uncharacterized and provide a foundation for its systematic exploration.",
+      "authors": [
+        "Ernest Mordret",
+        "Alexandre Hervé",
+        "Florian Tesson",
+        "Hugo Vaysset",
+        "Tyler Clabby",
+        "Arthur Loubat",
+        "Helena Shomar",
+        "Remi Planel",
+        "Rachel Lavenir",
+        "Jean Cury",
+        "Aude Bernheim"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-02",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41926572/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "genomic language models for bacterial immunity and antiphage function prediction",
+      "llm_evidence_cn": "用于细菌免疫和抗噬菌体功能预测的基因组语言模型",
+      "llm_evidence": "用于细菌免疫和抗噬菌体功能预测的基因组语言模型",
+      "canonical_evidence": "用于细菌免疫和抗噬菌体功能预测的基因组语言模型",
+      "llm_tldr_en": "Uses genomic and protein language models to discover novel bacterial antiphage defense systems with high precision.",
+      "llm_tldr_cn": "利用基因组和蛋白质语言模型发现新型细菌抗噬菌体防御系统，具有极高准确率。",
+      "llm_tldr": "利用基因组和蛋白质语言模型发现新型细菌抗噬菌体防御系统，具有极高准确率。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "foundation models for pathogen genomes and pathogen biology",
+      "matched_requirement_id": "req-1",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41547150",
+      "title": "Metagenomics insights into the effects of lactic acid bacteria inoculation on the microbial communities and antibiotic resistance genes in mare milk.",
+      "abstract": "Antibiotic resistance genes (ARGs) are emerging contaminants threatening public health, yet their transmission risk via mare milk products remains understudied. Using metagenomics, we analyzed lactic acid bacteria (LAB)-inoculated fermented, naturally fermented, raw, and pasteurized mare milk to investigate the effect of LAB inoculation on the distribution and transmission pathways of ARGs in mare milk. The results showed that naturally fermented, raw, and pasteurized mare milk had the highest number of pathogens, relative abundance of ARGs, and relative abundance of mobile genetic elements (MGEs), while LAB inoculation significantly reduced these (p < 0.05). Bacillota was the dominant microbial group in different samples. Compared to naturally fermented and raw mare milk, LAB-inoculated fermentation significantly altered microbial community structure (p < 0.05). This not only reduced or eliminated certain harmful bacteria but also decreased the abundance of total ARGs and multiple ARG subtypes by reducing host bacteria and MGEs. Microbes and MGEs jointly drove ARG transmission, with microbes being key. Transposon, Bacteroidota, and Pseudomonadota are the major MGEs and microbial taxa for ARG transmission. LAB inoculation can effectively inhibit the spread of 11 ARG types, including β-lactam and multidrug resistance, by weakening the co-occurrence network among microbes, ARGs, and MGEs. This study enhances understanding of resistance genes in diverse equine dairy products, elucidates the impact of LAB fermentation on ARG distribution and transmission pathways in mare milk, and provides valuable data references and theoretical guidance for safer equine dairy processing.",
+      "authors": [
+        "Jun Liu",
+        "Xiaoxiao Huang",
+        "Yanrong Wang",
+        "Yingji Wang",
+        "Rongrong Luo",
+        "Xiaolin Lu",
+        "Ketao Cao",
+        "Jun Xing",
+        "Yixian Tu",
+        "Wenxin Zheng"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-02",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41547150/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Metagenomics for pathogen detection and antibiotic resistance gene analysis in milk",
+      "llm_evidence_cn": "宏基因组学用于牛奶中病原体检测和抗生素耐药基因分析",
+      "llm_evidence": "宏基因组学用于牛奶中病原体检测和抗生素耐药基因分析",
+      "canonical_evidence": "宏基因组学用于牛奶中病原体检测和抗生素耐药基因分析",
+      "llm_tldr_en": "Metagenomic analysis of how LAB inoculation reduces pathogens and ARGs in mare milk.",
+      "llm_tldr_cn": "宏基因组分析揭示了乳酸菌接种如何减少马奶中的病原体和耐药基因。",
+      "llm_tldr": "宏基因组分析揭示了乳酸菌接种如何减少马奶中的病原体和耐药基因。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for metagenomic pathogen detection and classification",
+      "matched_requirement_id": "req-11",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41927920",
+      "title": "CREsted: modeling genomic and synthetic cell-type-specific enhancers across tissues and species.",
+      "abstract": "Sequence-based deep learning models have become the state of the art for analyzing the genomic regulatory code. Particularly for enhancers, these models excel at deciphering sequence grammar that underlies their activity. To enable end-to-end enhancer modeling and design, we developed a software package called CREsted (cis-regulatory element sequence training, explanation and design). It combines preprocessing and analysis of single-cell assay for transposase-accessible chromatin using sequencing data, modeling chromatin accessibility from sequence, sequence design and downstream analysis to decipher enhancer grammar. We demonstrate CREsted's functionality on a mouse cortex and a human peripheral blood mononuclear cell dataset. Additionally, we use CREsted to compare mesenchymal-like cancer cell states between tumor types, and we investigate different fine-tuning strategies of genomic foundation models within CREsted. Finally, we train a model on a zebrafish development atlas and use this to design and in vivo validate cell-type-specific enhancers. For varying datasets, we demonstrate that CREsted facilitates efficient training and analyses, enabling scrutinization of the enhancer logic and design of synthetic enhancers across tissues and species.",
+      "authors": [
+        "Niklas Kempynck",
+        "Seppe De Winter",
+        "Casper H Blaauw",
+        "Vasileios Konstantakos",
+        "Eren Can Ekşi",
+        "Sam Dieltiens",
+        "Darina Abaffyová",
+        "Valérie Bercier",
+        "Ibrahim I Taskiran",
+        "Gert Hulselmans",
+        "Katina Spanier",
+        "Valerie Christiaens",
+        "Ludo Van Den Bosch",
+        "Lukas Mahieu",
+        "Stein Aerts"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-02",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41927920/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "deep learning for genomic regulatory code and sequence representation",
+      "llm_evidence_cn": "用于基因组调控密码和序列表示学习的深度学习",
+      "llm_evidence": "用于基因组调控密码和序列表示学习的深度学习",
+      "canonical_evidence": "用于基因组调控密码和序列表示学习的深度学习",
+      "llm_tldr_en": "Introduces CREsted, a deep learning framework for modeling and designing cell-type-specific enhancers from sequence.",
+      "llm_tldr_cn": "开发了CREsted深度学习框架，用于从序列中建模和设计细胞类型特异性增强子。",
+      "llm_tldr": "开发了CREsted深度学习框架，用于从序列中建模和设计细胞类型特异性增强子。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "representation learning for DNA RNA and protein sequences",
+      "matched_requirement_id": "req-36",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41928100",
+      "title": "Forecasting influenza activity based on internet retrieval behavior and meteorological data in four megacities of China.",
+      "abstract": "BACKGROUND: Accurate and timely early warning of seasonal influenza epidemics continues to pose a critical public health challenge. Innovative methodologies leveraging network data sources, such as internet search queries, serve as a valuable complement to traditional laboratory surveillance in terms of timeliness. This study aimed to develop and validate a deep-learning model for influenza prediction based on multi-source data. METHODS: Using etiological surveillance data of influenza viruses among influenza-like illness (ILI) cases in four megacities (Beijing, Tianjin, Shanghai, and Shenzhen) during 2013 and 2018, we developed prediction models based on weekly Baidu index data and meteorological indicators. A long short-term memory (LSTM) model was compared against three machine learning algorithms. The optimal model was used for weekly forecasting of influenza activity. RESULTS: The LSTM model exhibited superior performance (maximum R2 : 0.80‒0.94 across cities) when compared to the three machine-learning models (maximum R2: 0.73‒0.82), and effectively predicted the weekly positive detection rate of influenza viruses with a lead time of 1‒3 weeks for the four megacities. Its accuracy was robustly maintained in medium-term rolling forecasts (14‒35 weeks) across all four megacities. Although the significance of predictors varied geographically, the Baidu index for \"Tamiflu\" was consistently a dominant predictor in three megacities. CONCLUSIONS: This study validates the significant potential of integrating network big data and deep-learning algorithm for influenza surveillance. The developed LSTM model provides a streamlined and effective tool for the early detection and warning of seasonal influenza epidemics.",
+      "authors": [
+        "Shan CX, Wang YH, Xu Q, Wang GL, Lv CL, Fang LQ.",
+        "Chun-Xi Shan",
+        "Yan-He Wang",
+        "Qiang Xu",
+        "Guo-Lin Wang",
+        "Chen-Long Lv",
+        "Li-Qun Fang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-02",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41928100/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "deep-learning model for influenza prediction and early warning",
+      "llm_evidence_cn": "用于流感预测和预警的深度学习模型",
+      "llm_evidence": "用于流感预测和预警的深度学习模型",
+      "canonical_evidence": "用于流感预测和预警的深度学习模型",
+      "llm_tldr_en": "Develops a deep-learning model for influenza forecasting using internet search and meteorological data.",
+      "llm_tldr_cn": "利用互联网搜索和气象数据开发了用于流感预测的深度学习模型。",
+      "llm_tldr": "利用互联网搜索和气象数据开发了用于流感预测的深度学习模型。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI driven outbreak surveillance genomic epidemiology and transmission modeling",
+      "matched_requirement_id": "req-12",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41927589",
+      "title": "The Extreme Environment Microbiome Catalog (EEMC): a global resource for microbial diversity and antimicrobial discovery.",
+      "abstract": "Microorganisms in extreme environments represent a promising source of novel metabolites, yet their global diversity and biosynthetic potential remain underexplored. Here, we reconstruct 78,213 bacterial and archaeal genomes from 2293 publicly available metagenomes and 3214 microbial isolates to establish a unified database, the Extreme Environment Microbiome Catalog (EEMC). The EEMC expands known global phylogenetic diversity, encompassing 32,715 representative species and nearly 4 billion non-redundant genes, 63.00% and 19.21% of which are previously unannotated, respectively. It also comprises 163,693 biosynthetic gene clusters, grouped into 64,733 gene cluster families, 58.68% of which are classified as novel, underscoring the functional diversity of microbial communities across various extreme habitats. We further develop protein large language models to predict genome-encoded candidate antimicrobial peptides (cAMPs) from the EEMC, identifying 3032 non-toxic candidates. Of 100 synthesized peptides, 84% demonstrate antibacterial activity, and all 50 tested cAMPs exhibit low cytotoxicity. Notably, six of the most potent cAMPs show significant efficacy against multidrug-resistant, Gram-negative pathogens in vitro, indicating their biomedical potential. Together, our study establishes the EEMC as a foundational resource for uncovering novel microbial lineages and biosynthetic capabilities, highlighting its substantial potential for drug discovery and laying the foundation for future advances in biotechnology and biomedicine.",
+      "authors": [
+        "Puzi Jiang",
+        "Zhengjiao Liang",
+        "Vladimir Kovacevic",
+        "Jingya Shi",
+        "Nikola Milicevic",
+        "Feng Wang",
+        "Lin Liu",
+        "Yue Liu",
+        "Yunjiang Jiang",
+        "Mo Han",
+        "Xiaonan Lin",
+        "Časlav Petronić",
+        "Nikola Stanojevic",
+        "Lingqin Wang",
+        "Suwan Wang",
+        "Haixian Cheng",
+        "Jiani Li",
+        "Rouxi Chen",
+        "Yong Zhang",
+        "Yuxiang Li",
+        "Junhua Li",
+        "Xiaodong Fang",
+        "Zhen Yue",
+        "Chuang Xue",
+        "Peng Yin",
+        "Haixin Chen"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-02",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41927589/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "metagenomic reconstruction of bacterial and archaeal genomes for antimicrobial discovery",
+      "llm_evidence_cn": "从宏基因组中重建细菌和古菌基因组以进行抗生素发现",
+      "llm_evidence": "从宏基因组中重建细菌和古菌基因组以进行抗生素发现",
+      "canonical_evidence": "从宏基因组中重建细菌和古菌基因组以进行抗生素发现",
+      "llm_tldr_en": "Reconstructs 78,213 genomes from metagenomes to establish a global resource for microbial diversity and metabolites.",
+      "llm_tldr_cn": "从宏基因组中重建超过7万个基因组，建立全球极端环境微生物目录以助力抗生素发现。",
+      "llm_tldr": "从宏基因组中重建超过7万个基因组，建立全球极端环境微生物目录以助力抗生素发现。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "41930898",
+      "title": "Comparative Analysis of Rice Response to Rhizobacteria Highlights Transcriptional Signatures to Detrimental and Beneficial Interactions.",
+      "abstract": "The microbiota of plants is composed of a large diversity of microbes, engaging with their host various types of interactions from beneficial to detrimental. Consequently, the study of how plants perceive mutualistic from pathogenic microbes and which molecular pathways drive the outcome of the interaction (partnership or defense) are critical questions for the understanding of plant-microbe interactions. In this study, we evaluated rice transcriptional response to a diversity of bacteria spanning from root pathogens to plant-growth-promoting rhizobacteria (PGPR) in hydroponic conditions. A transcriptomic analysis of rice leaf and root tissues was performed to identify common and specific transcriptional signatures during interaction with non-plant-isolated (Escherichia coli & Stenotrophomonas maltophilia), plant-isolated (Pseudomonas defensor & Bradyrhizobium sp. ORS278), or rice-isolated bacteria (Azospirillum sp. B510, & Burkholderia plantarii). Among all tested groups, the pools of differentially expressed genes (DEGs) modulated by all bacteria or by the PGPR represented only a fraction of total DEGs, highlighting the specificity of response to each bacterium. However, plant-isolated bacteria induced a stronger response than non-plant-isolated bacteria. Rice response to PGPR, pertaining to growth induction and stress mitigation, allowed us to identify putative marker genes of beneficial interaction. Ten genes (such as OsPR1b, rNBS41, related to defense response) were oppositely regulated: repressed upon pathogenic and induced upon PGPR interactions. These genes could be pivotal to trigger mutualism or immunity signals. These transcriptomic clues to bacterial mitigation of rice health were confirmed in a greenhouse experiment, in which PGPR demonstrated strong biocontrol potential against a foliar phytopathogen.",
+      "authors": [
+        "Ludivine Guigard",
+        "Eoghan King",
+        "Aurore Comte",
+        "Nicolas Busset",
+        "Anne-Alicia Gonzalez",
+        "Lionel Moulin",
+        "Pierre Czernic"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-03",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41930898/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "transcriptomic analysis of rice response to pathogenic and beneficial microbes",
+      "llm_evidence_cn": "水稻对病原和益生菌反应的转录组分析",
+      "llm_evidence": "水稻对病原和益生菌反应的转录组分析",
+      "canonical_evidence": "水稻对病原和益生菌反应的转录组分析",
+      "llm_tldr_en": "Analyzes transcriptional signatures to distinguish between beneficial and pathogenic plant-microbe interactions.",
+      "llm_tldr_cn": "分析转录特征以区分植物与微生物之间的有益和致病相互作用。",
+      "llm_tldr": "分析转录特征以区分植物与微生物之间的有益和致病相互作用。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41922662",
+      "title": "Toward microbiome-assisted remediation: Vanadium-titanium magnetite mining reshapes cropland soil chemistry and rhizosphere microbiomes.",
+      "abstract": "Vanadium-titanium magnetite (VTM) mining can modify cropland soils and root-associated microbiomes with implications for crop health. However, how crop rhizosphere microbiomes reorganize under VTM-derived stress-particularly when bacteria and fungi are considered together-remains poorly understood. In the Hongge district (Panzhihua, China), we sampled bulk soils and rhizospheres of lettuce, rapeseed, and pea from croplands within the VTM mining influence zone (mining-impacted fields) and paired croplands outside the zone (reference fields). We measured soil chemistry and profiled bacterial and fungal communities using 16S rRNA and ITS amplicon sequencing, respectively. Mining-impacted soils generally showed a VTM geochemical imprint, neutral-alkaline pH, and reduced plant-available P and K. Bray-Curtis-based ordinations indicated a clear separation between mining-impacted and reference rhizospheres, and taxonomic profiles suggested host-dependent reassembly of both bacterial and fungal communities. Putative functional profiling suggested a shift toward stress-accommodation processes, and fungal guild assignments tended to tilt toward saprotrophic/endophytic categories. Mantel analyses identified pH as one of the strongest correlates of community turnover, whereas structural equation modeling was consistent with nutrient availability (available N/P/K composite) explaining a substantial portion of the VTM effect; the composite total-metal-load axis (Fe/V/Ti/Zn) showed limited explanatory power, especially for fungi. Together, these field-based, two-kingdom signals link VTM-altered soil chemistry to rhizosphere restructuring in edible crops and provide actionable indicators for crop health management.",
+      "authors": [
+        "Bingliang Liu",
+        "Xiao Huang",
+        "Cheng Chang",
+        "Xin Wan",
+        "Mingrong Liu",
+        "Rui Li",
+        "Jun Li",
+        "Qiang Li",
+        "Yang Tao"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-02",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41922662/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "16S rRNA and ITS sequencing for profiling bacterial and fungal communities in soil",
+      "llm_evidence_cn": "16S rRNA和ITS测序用于分析土壤中的细菌和真菌群落",
+      "llm_evidence": "16S rRNA和ITS测序用于分析土壤中的细菌和真菌群落",
+      "canonical_evidence": "16S rRNA和ITS测序用于分析土壤中的细菌和真菌群落",
+      "llm_tldr_en": "Study on how mining stress reshapes rhizosphere microbiomes using amplicon sequencing.",
+      "llm_tldr_cn": "利用扩增子测序研究采矿压力如何重塑根际微生物组。",
+      "llm_tldr": "利用扩增子测序研究采矿压力如何重塑根际微生物组。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41930963",
+      "title": "Genomic and evolutionary factors influencing the prediction accuracy of optimal growth temperature in prokaryotes.",
+      "abstract": "Bacteria and archaea have evolved diverse genomic adaptations to thrive across various temperatures. These adaptations include genome sequence optimizations, such as increased GC content in rRNA and tRNA, shifts in codon and amino acid usage, and the acquisition of functional genes conferring adaptation for specific temperatures. Since the experimental determination of optimal growth temperatures (OGTs) is only possible for cultured species, predicting OGT from genomic information has become increasingly important given the exponential increase in genomic data. Although previous studies developed prediction models integrating multiple features based on genome composition using machine learning, the accuracy was variable depending on the target species, with models performing well for thermophiles but less accurately for psychrophiles. In this study, we curated the OGTs and genomic data of 2,869 bacterial species to develop a novel prediction model incorporating features reflecting genomic adaptation toward lower temperatures. We found that species with rapid OGT shifts from their ancestors, including psychrophiles, showed less accuracy in genome composition-based models. Incorporating the gene presence/absence information associated with the rapid changes in OGT improved the prediction accuracy for psychrophiles. We also observed that OGT in archaea is phylogenetically more conserved than in bacteria, which may lead to the long-term optimization of the genome composition and explain high predictability of OGT in archaea. These findings highlight the importance of integrating long- and short-term evolutionary adaptations for phenotype prediction models.IMPORTANCEPrediction of optimal growth temperature (OGT) from genomic data allows for characterizing uncultivated microbes. This study developed a novel OGT prediction model by curating OGT and genomic data of 2,869 bacterial species, demonstrating that the prediction accuracy was improved by incorporating not only genome composition features reflecting long-term temperature adaptation but also the presence/absence information of genes conferring short-term adaptation, particularly for species undergoing rapid OGT shifts. Our study provides a framework for improving phenotype prediction models by integrating long- and short-term evolutionary factors, which may also apply to other microbial physiological phenotypes.",
+      "authors": [
+        "Seiji Toki",
+        "Motomu Matsui",
+        "Kento Tominaga",
+        "Takao K Suzuki",
+        "Takashi Tsuchimatsu",
+        "Wataru Iwasaki"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-03",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41930963/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "machine learning for predicting prokaryotic growth temperature from genomic information",
+      "llm_evidence_cn": "利用机器学习根据基因组信息预测原核生物的生长温度",
+      "llm_evidence": "利用机器学习根据基因组信息预测原核生物的生长温度",
+      "canonical_evidence": "利用机器学习根据基因组信息预测原核生物的生长温度",
+      "llm_tldr_en": "Investigates genomic factors and machine learning models to predict optimal growth temperatures in prokaryotes.",
+      "llm_tldr_cn": "研究影响原核生物最佳生长温度预测的基因组因素，并利用机器学习模型进行预测。",
+      "llm_tldr": "研究影响原核生物最佳生长温度预测的基因组因素，并利用机器学习模型进行预测。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "foundation models for pathogen genomes and pathogen biology",
+      "matched_requirement_id": "req-1",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41925224",
+      "title": "Unique microbial communities and phylosymbiosis signals in herpetofauna.",
+      "abstract": "Microbial symbionts are closely related to the internal and external factors of their host. However, the prevalence of phylosymbiosis (the presence of host phylogenetic signal in microbial community composition) remains controversial, especially in animals collectively referred to as herpetofauna. To expand our understanding of host-microbiota interactions, we analyzed 11,697 symbiotic microbiota samples from of 337 herpetofaunal species, covering skin, oral cavity, gut, cloaca, feces, and other body sites. The composition of the microbial communities gradually changes along the digestive tract, and is host-specific in each region. Overall, herpetofauna's dominant microbial taxa (Firmicutes, Proteobacteria, Bacteroidota) are more similar to mammals than fish (which are dominated by Proteobacteria, Firmicutes, and Fusobacteriota). However, phylosymbiosis in herpetofauna is weaker than in mammals and tends to occur at higher host taxonomic levels. The strength of the phylosymbiosis signal is influenced by body site, host genetic distance, and analytical method. It indicates that phylosymbiosis exists but is not universal. The intensity and significance of this signal are influenced by host taxonomic scale, the location of the microbial communities, and the the assessment methods. These results advance our knowledge of host-microbe interactions across the Tree of Life.",
+      "authors": [
+        "Jiaying Li",
+        "Yuze Gao",
+        "Xuelin Zhao",
+        "Jiahao Zhu",
+        "Si Zheng",
+        "Qihan Guo",
+        "Longhui Zhao",
+        "Guocheng Shu",
+        "Yuzhou Gong",
+        "Wujie Xu",
+        "Ting Chen"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-02",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41925224/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "analysis of symbiotic microbiota and phylosymbiosis signals in herpetofauna",
+      "llm_evidence_cn": "两栖爬行动物共生微生物群及系统发育共生信号分析",
+      "llm_evidence": "两栖爬行动物共生微生物群及系统发育共生信号分析",
+      "canonical_evidence": "两栖爬行动物共生微生物群及系统发育共生信号分析",
+      "llm_tldr_en": "Analyzes host-microbiota interactions and phylogenetic signals across diverse herpetofauna species.",
+      "llm_tldr_cn": "分析了多种两栖爬行动物的宿主-微生物群相互作用和系统发育信号。",
+      "llm_tldr": "分析了多种两栖爬行动物的宿主-微生物群相互作用和系统发育信号。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41926537",
+      "title": "Fitting coarse-grained models to macroscopic experimental data via automatic differentiation.",
+      "abstract": "Developing physics-based models for molecular simulation requires fitting many unknown parameters to diverse experimental datasets. Traditionally, this process is piecemeal and difficult to reproduce, leading to a fragmented landscape of models. Here, we establish a systematic framework for fitting coarse-grained molecular models to macroscopic experimental data by leveraging recently developed methods for computing low-variance gradient estimates with automatic differentiation. Using a widely validated DNA force field as an exemplar, we develop methods for optimizing structural, mechanical, and thermodynamic properties across a range of simulation techniques, including enhanced sampling and external forcing, spanning micro- and millisecond timescales. We highlight how automatic differentiation enables efficient sensitivity analyses that yield insights into the model parameters governing physical behaviors. We then demonstrate the broad applicability of these techniques by optimizing diverse biomolecular systems, including RNA and DNA-protein hybrid models. We show how conflict-free gradient methods from multitask learning can be adapted to impose multiple constraints simultaneously without compromising accuracy. This approach provides a foundation for transparent, reproducible, community-driven force field development, accelerating progress in molecular modeling.",
+      "authors": [
+        "Ryan K Krueger",
+        "Megan C Engel",
+        "Ryan Hausen",
+        "Michael P Brenner"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41926537/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "fitting coarse-grained DNA force field models via automatic differentiation",
+      "llm_evidence_cn": "通过自动微分拟合粗粒度DNA力场模型",
+      "llm_evidence": "通过自动微分拟合粗粒度DNA力场模型",
+      "canonical_evidence": "通过自动微分拟合粗粒度DNA力场模型",
+      "llm_tldr_en": "A framework for fitting molecular models to experimental data using automatic differentiation for DNA simulation.",
+      "llm_tldr_cn": "一种利用自动微分将分子模型与实验数据拟合的框架，用于DNA模拟。",
+      "llm_tldr": "一种利用自动微分将分子模型与实验数据拟合的框架，用于DNA模拟。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models for DNA RNA protein and cell biology",
+      "matched_requirement_id": "req-15",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

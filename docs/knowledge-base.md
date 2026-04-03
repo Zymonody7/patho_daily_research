@@ -1,10 +1,40 @@
 # 知识库
 
-- 最近沉淀条目数：314
+- 最近沉淀条目数：324
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Protein and genomic language models uncover the unexplored diversity of bacterial immunity.](#/202604/03/202604/03/41926572-protein-and-genomic-language-models-uncover-the-unexplored-diversity-of-bacterial-immunity)
+  - TLDR：细菌泛基因组中蕴含着极其丰富的抗噬菌体防御系统，但绝大部分尚未被发现。本研究开发了结合蛋白质序列与基因组上下文（操纵子结构）的机器学习模型，以高达99%的准确率预测抗噬菌体功能。通过在实验中验证12个新系统并分析3.2万个基因组，研究揭示了细菌基因组中约1.5%用于防御，且超过85%的预测防御家族仍未被表征。该工作为系统性探索细菌免疫多样性及开发新型生物技术工具奠定了基础。
+  - Tags：`query:pathoai`
+- [Metagenomics insights into the effects of lactic acid bacteria inoculation on the microbial communities and antibiotic resistance genes in mare milk.](#/202604/03/202604/03/41547150-metagenomics-insights-into-the-effects-of-lactic-acid-bacteria-inoculation-on-the-microbial-communities-and-antibiotic-resistance-genes-in-mare-milk)
+  - TLDR：马奶产品中抗生素耐药基因（ARGs）的传播威胁公共卫生，但相关研究较少。本研究利用宏基因组学技术，对比分析了乳酸菌（LAB）接种发酵、自然发酵、生鲜及巴氏杀菌马奶中的微生物群落与ARGs分布。结果表明，LAB接种能显著降低病原体、ARGs及移动遗传元件（MGEs）的丰度，通过削弱微生物与耐药基因的共存网络抑制耐药性传播，为马奶安全加工提供了理论依据。
+  - Tags：`query:pathoai`
+- [CREsted: modeling genomic and synthetic cell-type-specific enhancers across tissues and species.](#/202604/03/202604/03/41927920-crested-modeling-genomic-and-synthetic-cell-type-specific-enhancers-across-tissues-and-species)
+  - TLDR：针对基因组增强子调控逻辑解析与设计的复杂性，研究者开发了 CREsted 软件套件。该工具整合了单细胞染色质可及性数据预处理、序列建模、可解释性分析及序列设计功能。通过在小鼠大脑、人类免疫细胞及癌症数据上的应用，以及在斑马鱼体内的实验验证，CREsted 证明了其在跨物种、跨组织解析增强子语法和设计高特异性人工增强子方面的强大能力，为基因调控研究提供了端到端的解决方案。
+  - Tags：`query:bioinfo`
+- [The Extreme Environment Microbiome Catalog (EEMC): a global resource for microbial diversity and antimicrobial discovery.](#/202604/03/202604/03/41927589-the-extreme-environment-microbiome-catalog-eemc-a-global-resource-for-microbial-diversity-and-antimicrobial-discovery)
+  - TLDR：针对极端环境微生物多样性及代谢潜力探索不足的问题，研究团队通过整合数千份宏基因组和分离株数据，构建了包含7.8万个基因组的极端环境微生物目录（EEMC）。利用蛋白质大语言模型（pLLM）从该库中预测并筛选出3032个候选抗菌肽，实验验证显示其在抗多重耐药菌方面具有极高活性与低毒性，为生物医药研发提供了重要资源。
+  - Tags：`query:seqai`
+- [Forecasting influenza activity based on internet retrieval behavior and meteorological data in four megacities of China.](#/202604/03/202604/03/41928100-forecasting-influenza-activity-based-on-internet-retrieval-behavior-and-meteorological-data-in-four-megacities-of-china)
+  - TLDR：针对季节性流感预警滞后的挑战，本研究整合百度指数搜索行为与气象多源数据，利用长短期记忆网络（LSTM）构建了针对北京、上海等四大城市的流感预测模型。结果显示，该模型在预测流感病毒阳性检出率方面优于传统机器学习算法，可提前1-3周发出预警，为城市公共卫生监测提供了高效的数字化工具。
+  - Tags：`query:pathoai`
+- [Comparative Analysis of Rice Response to Rhizobacteria Highlights Transcriptional Signatures to Detrimental and Beneficial Interactions.](#/202604/03/202604/03/41930898-comparative-analysis-of-rice-response-to-rhizobacteria-highlights-transcriptional-signatures-to-detrimental-and-beneficial-interactions)
+  - TLDR：针对植物如何区分益生菌与病原菌这一核心问题，本研究通过水培实验对比了水稻对不同来源细菌（非植物、植物及水稻分离菌）的转录组响应。研究发现，虽然大部分基因响应具有菌株特异性，但植物分离菌诱导的反应更强。研究识别出10个关键标志基因（如OsPR1b），它们在益生菌作用下上调而在病原菌作用下下调，揭示了植物在共生与防御间的分子切换机制，为利用益生菌提升作物抗病性提供了理论依据。
+  - Tags：`query:pathoai`
+- [Genomic and evolutionary factors influencing the prediction accuracy of optimal growth temperature in prokaryotes.](#/202604/03/202604/03/41930963-genomic-and-evolutionary-factors-influencing-the-prediction-accuracy-of-optimal-growth-temperature-in-prokaryotes)
+  - TLDR：针对原核生物最适生长温度（OGT）预测中嗜冷菌准确率低的问题，本研究分析了2,869种细菌基因组，发现快速演化导致的基因组成分滞后是主因。通过整合反映长期演化的基因组成分特征与反映短期演化的基因功能（基因存在/缺失）信息，构建了新预测模型，显著提升了嗜冷菌的预测精度，为微生物表型预测提供了结合演化时间尺度的通用框架。
+  - Tags：`query:pathoai`
+- [Toward microbiome-assisted remediation: Vanadium-titanium magnetite mining reshapes cropland soil chemistry and rhizosphere microbiomes.](#/202604/03/202604/03/41922662-toward-microbiome-assisted-remediation-vanadium-titanium-magnetite-mining-reshapes-cropland-soil-chemistry-and-rhizosphere-microbiomes)
+  - TLDR：针对攀枝花钒钛磁铁矿（VTM）开采对农田生态的影响，本研究对比了受矿区影响与非影响区的生菜、油菜和豌豆根际微生物组。通过整合土壤理化分析与16S/ITS扩增子测序，发现采矿活动显著改变了土壤pH和养分水平，导致细菌和真菌群落发生宿主依赖性的重组，并向压力适应型功能转变。研究揭示了养分有效性而非重金属总量是驱动微生物重构的主因，为矿区农作物健康管理和微生物辅助修复提供了关键的生物指标。
+  - Tags：`query:seqai`
+- [Unique microbial communities and phylosymbiosis signals in herpetofauna.](#/202604/03/202604/03/41925224-unique-microbial-communities-and-phylosymbiosis-signals-in-herpetofauna)
+  - TLDR：本研究针对两栖爬行动物中宿主进化与微生物群落相关性（系统发育共生）的争议，通过分析337个物种的11,697份多部位微生物样本，发现其菌群结构虽与哺乳动物相似，但进化共生信号较弱且受分类尺度和采样部位影响。研究揭示了系统发育共生在变温动物中并非普遍规律，为理解生命树中宿主-微生物的复杂演化提供了新视角。
+  - Tags：`query:pathoai`
+- [Fitting coarse-grained models to macroscopic experimental data via automatic differentiation.](#/202604/03/202604/03/41926537-fitting-coarse-grained-models-to-macroscopic-experimental-data-via-automatic-differentiation)
+  - TLDR：针对分子模拟中粗粒化模型参数拟合过程零散且难以复现的问题，该研究提出了一套基于自动微分（AD）的系统化框架，用于将模型参数直接拟合至宏观实验数据。通过计算低方差梯度估计，该方法实现了对DNA、RNA及蛋白质-DNA杂合模型在结构、力学和热力学性质上的跨尺度优化。该框架不仅提升了力场开发的透明度与效率，还通过多任务学习解决了多约束下的参数冲突，为构建高精度分子模型提供了通用工具。
+  - Tags：`query:bioinfo`
 - [AlphaFold as a prior: experimental structure determination conditioned on a pretrained neural network.](#/202604/02/202604/02/41922571-alphafold-as-a-prior-experimental-structure-determination-conditioned-on-a-pretrained-neural-network)
   - TLDR：AlphaFold2 在处理侧链堆积和构象变化时存在局限，而冷冻电镜等实验数据虽多但建模困难。本研究提出 ROCKET 框架，将实验观测值作为约束引入 AlphaFold2，通过在共进化嵌入空间而非笛卡尔坐标空间进行优化，实现了对低信噪比实验数据的自动化、高精度建模。该方法无需重新训练模型，显著提升了在复杂生物环境下的结构预测准确性，为实验数据与机器学习的融合提供了通用范式。
   - Tags：`query:bioinfo`
@@ -575,33 +605,3 @@
 - [Single-cell RNA sequencing unravels chondrocyte heterogeneity and immune cell interactions in knee osteoarthritis pathogenesis.](#/202603/14/202603/14/41824220-single-cell-rna-sequencing-unravels-chondrocyte-heterogeneity-and-immune-cell-interactions-in-knee-osteoarthritis-pathogenesis)
   - TLDR：膝骨关节炎（OA）涉及软骨退化和慢性炎症，但软骨细胞亚群与免疫细胞间的动态交互机制尚不明确。本研究通过整合分析20名患者和6名健康供体的单细胞转录组数据，识别出8类软骨细胞亚群，并揭示了纤维化软骨细胞处于分化末端。研究发现C1Q+巨噬细胞通过补体系统激活淋巴细胞毒性，且MIF信号通路在维持炎症微环境中起关键作用，为OA治疗提供了新的细胞靶点。
   - Tags：`query:seqai`
-- [Loop of N2-polarized neutrophils and exhausted CD8 + T cells induces immunotherapy resistance in NSCLC.](#/202603/14/202603/14/41824204-loop-of-n2-polarized-neutrophils-and-exhausted-cd8--t-cells-induces-immunotherapy-resistance-in-nsclc)
-  - TLDR：针对非小细胞肺癌中中性粒细胞导致免疫治疗耐药的机制不明问题，本研究通过整合大规模单细胞测序数据，揭示了N2型中性粒细胞与耗竭性CD8+ T细胞（Tex）之间通过ICAM1-整合素和CCL5-CCR1轴形成的促癌正反馈环路。基于此环路构建的深度学习模型和NTLS评分，能有效预测NSCLC及多种癌症的免疫治疗响应和预后，为克服耐药提供了新靶点和分层工具。
-  - Tags：`query:seqai`
-- [Developing a general research framework for long COVID using causal modelling.](#/202603/14/202603/14/41826684-developing-a-general-research-framework-for-long-covid-using-causal-modelling)
-  - TLDR：针对长新冠（Long COVID）定义模糊及病理机制复杂的挑战，本研究提出了一种基于因果建模的通用研究框架。通过构建动态贝叶斯网络（DBN）和有向无环图（DAG），模拟了从急性感染到长期症状演变的生物学路径。结果显示，在急性期和感染后3-6个月均出现症状的患者，其发生持续性器官功能障碍的概率最高。该框架为长新冠的临床诊断和预后预测提供了理论支持和模拟工具。
-  - Tags：`query:pathoai`
-- [Structural pharmacology of Chinese medicine: technological breakthroughs in decoding multi-target synergy and precision mechanisms.](#/202603/14/202603/14/41824223-structural-pharmacology-of-chinese-medicine-technological-breakthroughs-in-decoding-multi-target-synergy-and-precision-mechanisms)
-  - TLDR：中医药因其多成分、多靶点的复杂性，在药理机制解析上面临巨大挑战。本文综述了“中药结构药理学”这一新兴学科，通过整合冷冻电镜、X射线晶体学及AI驱动的预测模型等技术，实现了对中药协同作用和动态分子相互作用的精确表征。该研究为中药现代化提供了科学基础，推动了其在精准医疗中的全球化应用。
-  - Tags：`query:bioinfo`
-- [A Machine learning pipeline to investigate tissue ingrowth in cerebral aneurysms using preclinical animal models.](#/202603/14/202603/14/41826635-a-machine-learning-pipeline-to-investigate-tissue-ingrowth-in-cerebral-aneurysms-using-preclinical-animal-models)
-  - TLDR：针对脑动脉瘤栓塞治疗后组织长入评估主观且耗时的问题，本研究开发了基于 Unet++ 卷积神经网络的机器学习流水线。该方法在小鼠颈动脉瘤模型的高分辨率组织学图像上实现了高精度的囊腔分割与组织检测，Dice 系数均超过 94%。该工具不仅提高了评估的客观性与一致性，还通过图形界面降低了使用门槛，为临床前动脉瘤愈合机制研究提供了标准化量化手段。
-  - Tags：`query:bioinfo`
-- [Evaluating the learnability of single-cell large language models on multiple tasks](#/202603/13/202603/13/10.21203/rs.3.rs-8919408/v1-evaluating-the-learnability-of-single-cell-large-language-models-on-multiple-tasks)
-  - TLDR：单细胞基础模型（scFMs）是否遵循“规模法则”尚不明确。本研究系统评估了 Geneformer 和 scGPT 在细胞类型标注和扰动预测任务上的表现。结果发现，大规模预训练对标注任务有效，但在扰动预测中收益有限，且增大模型规模并不总能提升性能。研究揭示了现有模型在捕捉复杂生物相互作用方面的局限，强调了引入生物学先验知识的重要性。
-  - Tags：`query:bioinfo`
-- [AIPH-TB: An Artificial Intelligence Algorithm for Physicochemical Microenvironment ReprogrammingAmplifies Pyrazinamide–Hydroxychloroquine Synergism — A Breakthrough Computational Discovery Toward TB Eradication](#/202603/13/202603/13/10.21203/rs.3.rs-9076830/v1-aiph-tb-an-artificial-intelligence-algorithm-for-physicochemical-microenvironment-reprogrammingamplifies-pyrazinamidehydroxychloroquine-synergism--a-breakthrough-computational-discovery-toward-tb-eradication)
-  - TLDR：针对结核病标准疗法治愈率受限且具肝毒性的挑战，本研究开发了AIPH-TB人工智能框架，利用强化学习和数字孪生技术优化吡嗪酰胺与羟氯喹的协同效应。该框架识别出5.2-5.8的最佳pH窗口，并发现羟氯喹能改变细菌细胞壁电位提升渗透率，预测可将治愈率提升至99.5%并显著降低毒性，为结核病精准治疗提供了新范式。
-  - Tags：`query:pathoai`
-- [NCRDLLM: Predicting ncRNA-Drug Response Associations via Multimodal Feature Fusion and Large Language Models.](#/202603/13/202603/13/41817976-ncrdllm-predicting-ncrna-drug-response-associations-via-multimodal-feature-fusion-and-large-language-models)
-  - TLDR：针对非编码RNA（ncRNA）与药物反应预测中单一RNA类型局限及多模态语义融合不足的问题，本文提出了NCRDLLM框架。该框架整合了miRNA、lncRNA和circRNA数据，利用RNA-FM、ChemBERTa等预训练模型提取序列、结构及疾病关联特征，并通过适配器映射至LLaMA-3.2-3B大模型进行LoRA微调。实验显示其在三类ncRNA预测任务中均取得优异表现（AUC-ROC最高达0.9832），为癌症精准用药提供了强有力的计算支持。
-  - Tags：`query:bioinfo`
-- [Integrated framework to study genomic surveillance of selective sweeps in multivariants dynamics.](#/202603/13/202603/13/41818157-integrated-framework-to-study-genomic-surveillance-of-selective-sweeps-in-multivariants-dynamics)
-  - TLDR：针对多变异株共存导致的复杂疫情动态，本研究开发了一个整合流行病学建模、基因组优势分析与概率监测的计算框架。该框架通过模拟变异株的传染性优势和免疫逃逸过程，揭示了变异株更替遵循受群体免疫驱动的选择性扫荡规律。通过对美、英、加等国真实疫情数据的验证，该研究量化了监测灵敏度与干预时机的权衡，为提升多变异株爆发时的基因组流行病学预警能力提供了理论支撑。
-  - Tags：`query:pathoai`
-- [MSCMF-DTB: a multi-scale cross-modal fusion framework for drug-target binding prediction.](#/202603/13/202603/13/41820521-mscmf-dtb-a-multi-scale-cross-modal-fusion-framework-for-drug-target-binding-prediction)
-  - TLDR：药物-靶点结合预测是药物研发的关键，但现有模型难以同时兼顾分子拓扑、化学子结构及蛋白质序列特征。MSCMF-DTB框架通过DenseGCN提取药物图特征，结合指纹信息，并利用多尺度CNN处理蛋白质BERT嵌入，最后通过交叉注意力与张量网络融合多模态特征。实验证明该模型在DrugBank等多个数据集上性能领先，并能识别关键结合位点，具备实际虚拟筛选潜力。
-  - Tags：`query:bioinfo`
-- [Foundation Model for Biological Temporal Data Dynamics with Experimental Validation](#/202603/13/202603/13/10.21203/rs.3.rs-9018407/v1-foundation-model-for-biological-temporal-data-dynamics-with-experimental-validation)
-  - TLDR：针对生物和生理时间序列数据存在的高维噪声、观测不全及异质性挑战，本文提出一种结合掩码变分自编码器（VAE）与潜空间神经常微分方程（Neural ODE）的通用动力学骨干模型。该模型在脑电图（EEG）、空气质量和果蝇基因表达等异质数据集上，实现了优于传统基准的预测性能，并支持反事实分析与机制蒸馏。研究证明了共享的潜空间动力学架构能有效统一跨领域的预测、适配及可解释性分析任务。
-  - Tags：`query:bioinfo`

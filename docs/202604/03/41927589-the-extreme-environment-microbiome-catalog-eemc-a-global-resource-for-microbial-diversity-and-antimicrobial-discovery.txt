@@ -1,0 +1,73 @@
+Title: The Extreme Environment Microbiome Catalog (EEMC): a global resource for microbial diversity and antimicrobial discovery - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41927589/
+
+Markdown Content:
+Actions
+
+. 2026 Apr 2.
+
+doi: 10.1038/s41467-026-71145-0.  Online ahead of print.
+
+[Zhengjiao Liang](https://pubmed.ncbi.nlm.nih.gov/?term=Liang+Z&cauthor_id=41927589)[#](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-1 "BGI Research, Sanya, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-2 "Hainan Technology Innovation Center for Marine Biological Resources Utilization (Preparatory Period), BGI Research, Sanya, China."),[Vladimir Kovacevic](https://pubmed.ncbi.nlm.nih.gov/?term=Kovacevic+V&cauthor_id=41927589)[#](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-equal-contrib-explanation "Contributed equally")[3](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-3 "BGI Research, Belgrade, Serbia."),[Jingya Shi](https://pubmed.ncbi.nlm.nih.gov/?term=Shi+J&cauthor_id=41927589)[#](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-1 "BGI Research, Sanya, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-2 "Hainan Technology Innovation Center for Marine Biological Resources Utilization (Preparatory Period), BGI Research, Sanya, China."),[Nikola Milicevic](https://pubmed.ncbi.nlm.nih.gov/?term=Milicevic+N&cauthor_id=41927589)[3](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-3 "BGI Research, Belgrade, Serbia."),[Feng Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+F&cauthor_id=41927589)[1](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-1 "BGI Research, Sanya, China."),[Lin Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+L&cauthor_id=41927589)[4](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-4 "BGI Research, Wuhan, China."),[Yue Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+Y&cauthor_id=41927589)[1](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-1 "BGI Research, Sanya, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-2 "Hainan Technology Innovation Center for Marine Biological Resources Utilization (Preparatory Period), BGI Research, Sanya, China."),[Yunjiang Jiang](https://pubmed.ncbi.nlm.nih.gov/?term=Jiang+Y&cauthor_id=41927589)[1](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-1 "BGI Research, Sanya, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-2 "Hainan Technology Innovation Center for Marine Biological Resources Utilization (Preparatory Period), BGI Research, Sanya, China."),[Mo Han](https://pubmed.ncbi.nlm.nih.gov/?term=Han+M&cauthor_id=41927589)[1](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-1 "BGI Research, Sanya, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-2 "Hainan Technology Innovation Center for Marine Biological Resources Utilization (Preparatory Period), BGI Research, Sanya, China."),[Xiaonan Lin](https://pubmed.ncbi.nlm.nih.gov/?term=Lin+X&cauthor_id=41927589)[1](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-1 "BGI Research, Sanya, China."),[Časlav Petronić](https://pubmed.ncbi.nlm.nih.gov/?term=Petroni%C4%87+%C4%8C&cauthor_id=41927589)[3](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-3 "BGI Research, Belgrade, Serbia."),[Nikola Stanojevic](https://pubmed.ncbi.nlm.nih.gov/?term=Stanojevic+N&cauthor_id=41927589)[3](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-3 "BGI Research, Belgrade, Serbia."),[Lingqin Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+L&cauthor_id=41927589)[5](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-5 "MOE Key Laboratory of Bio-Intelligent Manufacturing, State Key Laboratory of Fine Chemicals, Frontiers Science Centre for Smart Materials Oriented Chemical Engineering, School of Bioengineering, Dalian University of Technology, Dalian, China."),[Suwan Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+S&cauthor_id=41927589)[5](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-5 "MOE Key Laboratory of Bio-Intelligent Manufacturing, State Key Laboratory of Fine Chemicals, Frontiers Science Centre for Smart Materials Oriented Chemical Engineering, School of Bioengineering, Dalian University of Technology, Dalian, China."),[Haixian Cheng](https://pubmed.ncbi.nlm.nih.gov/?term=Cheng+H&cauthor_id=41927589)[5](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-5 "MOE Key Laboratory of Bio-Intelligent Manufacturing, State Key Laboratory of Fine Chemicals, Frontiers Science Centre for Smart Materials Oriented Chemical Engineering, School of Bioengineering, Dalian University of Technology, Dalian, China."),[Jiani Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+J&cauthor_id=41927589)[5](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-5 "MOE Key Laboratory of Bio-Intelligent Manufacturing, State Key Laboratory of Fine Chemicals, Frontiers Science Centre for Smart Materials Oriented Chemical Engineering, School of Bioengineering, Dalian University of Technology, Dalian, China."),[Rouxi Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+R&cauthor_id=41927589)[1](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-1 "BGI Research, Sanya, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-2 "Hainan Technology Innovation Center for Marine Biological Resources Utilization (Preparatory Period), BGI Research, Sanya, China."),[Yong Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+Y&cauthor_id=41927589)[4](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-4 "BGI Research, Wuhan, China."),[Yuxiang Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+Y&cauthor_id=41927589)[4](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-4 "BGI Research, Wuhan, China."),[Junhua Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+J&cauthor_id=41927589)[3](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-3 "BGI Research, Belgrade, Serbia."),[Xiaodong Fang](https://pubmed.ncbi.nlm.nih.gov/?term=Fang+X&cauthor_id=41927589)[1](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-1 "BGI Research, Sanya, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-2 "Hainan Technology Innovation Center for Marine Biological Resources Utilization (Preparatory Period), BGI Research, Sanya, China.")[6](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-6 "BGI Research, Shenzhen, China."),[Zhen Yue](https://pubmed.ncbi.nlm.nih.gov/?term=Yue+Z&cauthor_id=41927589)[7](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-7 "BGI Research, Sanya, China. yuezhen@genomics.cn.")[8](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-8 "Hainan Technology Innovation Center for Marine Biological Resources Utilization (Preparatory Period), BGI Research, Sanya, China. yuezhen@genomics.cn."),[Chuang Xue](https://pubmed.ncbi.nlm.nih.gov/?term=Xue+C&cauthor_id=41927589)[9](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-9 "MOE Key Laboratory of Bio-Intelligent Manufacturing, State Key Laboratory of Fine Chemicals, Frontiers Science Centre for Smart Materials Oriented Chemical Engineering, School of Bioengineering, Dalian University of Technology, Dalian, China. xue.1@dlut.edu.cn.")[10](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-10 "Ningbo Institute of Dalian University of Technology, Ningbo, China. xue.1@dlut.edu.cn."),[Peng Yin](https://pubmed.ncbi.nlm.nih.gov/?term=Yin+P&cauthor_id=41927589)[11](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-11 "BGI Research, Wuhan, China. yinpeng@genomics.cn."),[Haixin Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+H&cauthor_id=41927589)[12](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-12 "BGI Research, Sanya, China. chenhaixin@genomics.cn.")[13](https://pubmed.ncbi.nlm.nih.gov/41927589/#full-view-affiliation-13 "Hainan Technology Innovation Center for Marine Biological Resources Utilization (Preparatory Period), BGI Research, Sanya, China. chenhaixin@genomics.cn.")
+
+Affiliations
+
+*    PMID: **41927589**
+*    DOI: [10.1038/s41467-026-71145-0](https://doi.org/10.1038/s41467-026-71145-0)
+
+Free article
+
+## The Extreme Environment Microbiome Catalog (EEMC): a global resource for microbial diversity and antimicrobial discovery
+
+Puzi Jiang et al. Nat Commun.2026.
+
+Free article
+
+## Abstract
+
+Microorganisms in extreme environments represent a promising source of novel metabolites, yet their global diversity and biosynthetic potential remain underexplored. Here, we reconstruct 78,213 bacterial and archaeal genomes from 2293 publicly available metagenomes and 3214 microbial isolates to establish a unified database, the Extreme Environment Microbiome Catalog (EEMC). The EEMC expands known global phylogenetic diversity, encompassing 32,715 representative species and nearly 4 billion non-redundant genes, 63.00% and 19.21% of which are previously unannotated, respectively. It also comprises 163,693 biosynthetic gene clusters, grouped into 64,733 gene cluster families, 58.68% of which are classified as novel, underscoring the functional diversity of microbial communities across various extreme habitats. We further develop protein large language models to predict genome-encoded candidate antimicrobial peptides (cAMPs) from the EEMC, identifying 3032 non-toxic candidates. Of 100 synthesized peptides, 84% demonstrate antibacterial activity, and all 50 tested cAMPs exhibit low cytotoxicity. Notably, six of the most potent cAMPs show significant efficacy against multidrug-resistant, Gram-negative pathogens in vitro, indicating their biomedical potential. Together, our study establishes the EEMC as a foundational resource for uncovering novel microbial lineages and biosynthetic capabilities, highlighting its substantial potential for drug discovery and laying the foundation for future advances in biotechnology and biomedicine.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Diversity and distribution of biosynthetic gene clusters in agricultural soil microbiomes.](https://pubmed.ncbi.nlm.nih.gov/38470142/)
+
+Zhang Z, Zhang L, Zhang L, Chu H, Zhou J, Ju F.Zhang Z, et al.mSystems. 2024 Apr 16;9(4):e0126323. doi: 10.1128/msystems.01263-23. Epub 2024 Mar 12.mSystems. 2024.PMID: 38470142 Free PMC article. 
+*   [A genome and gene catalog of the aquatic microbiomes of the Tibetan Plateau.](https://pubmed.ncbi.nlm.nih.gov/38365793/)
+
+Cheng M, Luo S, Zhang P, Xiong G, Chen K, Jiang C, Yang F, Huang H, Yang P, Liu G, Zhang Y, Ba S, Yin P, Xiong J, Miao W, Ning K.Cheng M, et al.Nat Commun. 2024 Feb 16;15(1):1438. doi: 10.1038/s41467-024-45895-8.Nat Commun. 2024.PMID: 38365793 Free PMC article. 
+*   [_Nocardia_ genomes are a large reservoir of diverse gene content, biosynthetic gene clusters, and species-specific genes.](https://pubmed.ncbi.nlm.nih.gov/40407329/)
+
+Eripogu KK, Yu C-P, Tsai A, Lin J-J, Lin H-C, Li W-H.Eripogu KK, et al.mBio. 2025 Jun 11;16(6):e0094725. doi: 10.1128/mbio.00947-25. Epub 2025 May 23.mBio. 2025.PMID: 40407329 Free PMC article. 
+*   [Comparative Metagenomic Analysis of Biosynthetic Diversity across Sponge Microbiomes Highlights Metabolic Novelty, Conservation, and Diversification.](https://pubmed.ncbi.nlm.nih.gov/35862823/)
+
+Loureiro C, Galani A, Gavriilidou A, Chaib de Mares M, van der Oost J, Medema MH, Sipkema D.Loureiro C, et al.mSystems. 2022 Aug 30;7(4):e0035722. doi: 10.1128/msystems.00357-22. Epub 2022 Jul 18.mSystems. 2022.PMID: 35862823 Free PMC article.Review. 
+*   [Exploring the diversity and antimicrobial potential of actinomycetes isolated from different environments in Saudi Arabia: a systematic review.](https://pubmed.ncbi.nlm.nih.gov/40207161/)
+
+Helmi NR.Helmi NR.Front Microbiol. 2025 Mar 26;16:1568899. doi: 10.3389/fmicb.2025.1568899. eCollection 2025.Front Microbiol. 2025.PMID: 40207161 Free PMC article.Review. 
+
+## References
+
+1.       1.    Shu, W.-S. & Huang, L.-N. Microbial diversity in extreme environments. Nat. Rev. Microbiol. 20, 219–235 (2022). 
+
+2.       1.    Ando, N. et al. The molecular basis for life in extreme environments. Annu. Rev. biophysics 50, 343–372 (2021). 
+
+3.       1.    Hemmerling, F. & Piel, J. Strategies to access biosynthetic novelty in bacterial genomes for drug discovery. Nat. Rev. Drug Discov. 21, 359–378 (2022). 
+
+4.       1.    Sayed, A. M. et al. Extreme environments: microbiology leading to specialized metabolites. J. Appl. Microbiol. 128, 630–657 (2020). 
+
+5.       1.    Dick, G. J. The microbiomes of deep-sea hydrothermal vents: distributed globally, shaped locally. Nat. Rev. Microbiol. 17, 271–283 (2019). 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Nature Publishing Group](https://doi.org/10.1038/s41467-026-71145-0)
