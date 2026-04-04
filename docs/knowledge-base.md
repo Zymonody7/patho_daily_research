@@ -1,10 +1,25 @@
 # 知识库
 
-- 最近沉淀条目数：324
+- 最近沉淀条目数：329
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [A diagnostic model based on pulmonary microbiota and host gene expression to distinguish colonization from pneumonia.](#/202604/04/202604/04/41933095-a-diagnostic-model-based-on-pulmonary-microbiota-and-host-gene-expression-to-distinguish-colonization-from-pneumonia)
+  - TLDR：针对临床上难以区分下呼吸道微生物定植与肺炎感染导致抗生素滥用的问题，本研究通过对神经外科ICU患者的深部痰液进行宏基因组（mNGS）和转录组测序，分析了肺部菌群特征与宿主免疫反应。研究发现感染组存在明显的菌群失调，而定植组则表现出上皮屏障维护相关的通路激活。最终构建了一个包含7个基因特征的多组学诊断模型，在验证集中达到0.875的AUC，为精准区分定植与感染提供了新工具。
+  - Tags：`query:pathoai`
+- [A Bayesian modelling framework for estimating tick-borne pathogen transmission dynamics at the host-tick interface.](#/202604/04/202604/04/41931472-a-bayesian-modelling-framework-for-estimating-tick-borne-pathogen-transmission-dynamics-at-the-host-tick-interface)
+  - TLDR：蜱传病原体传播涉及宿主到蜱、蜱间共食及预感染等多种复杂路径，难以量化。本研究开发了一个贝叶斯建模框架，通过整合宿主与蜱的野外采样数据，估算不同路径的传播概率及影响因素。在法国鸟类与蜱的实测数据中，该模型证实了“共食传播”在多种病原体扩散中的关键作用，并发现吸血饱满度显著影响传播效率，为精准防控蜱传疾病提供了量化工具。
+  - Tags：`query:pathoai`
+- [In silico design of a multiepitope vaccine against antibiotic drug-resistant Acinetobacter baumannii.](#/202604/04/202604/04/41932930-in-silico-design-of-a-multiepitope-vaccine-against-antibiotic-drug-resistant-acinetobacter-baumannii)
+  - TLDR：针对耐药性极强的鲍曼不动杆菌（A. baumannii），本研究利用生物信息学方法设计了一种多表位疫苗（MEV）。通过分析美罗培南耐药株的转录组数据，筛选出12个高保守且具免疫原性的蛋白质，并预测出12个CTL和7个HTL表位。分子动力学模拟和免疫仿真证明该疫苗结构稳定且能激发强烈的免疫反应，为应对多重耐药菌感染提供了新的候选方案。
+  - Tags：`query:pathoai`
+- [INB](#/202604/04/202604/04/41933929-inb)
+  - TLDR：针对血脑屏障穿透肽（BBBPPs）发现中数据稀缺且模型黑盒的问题，该研究提出了物理启发的双模态框架 INB3P。通过引入物理化学引导的突变增强策略（PCGM）扩充训练集，并结合序列-结构双向注意力机制与对比学习进行优化。实验证明 INB3P 在独立测试集上超越了现有模型，并能自主发现两亲性基序等生物物理机制，为小样本生物数据建模提供了通用范式。
+  - Tags：`query:bioinfo`
+- [A microphysiologic human cervical model recapitulates microbial, immune, and pathogenic properties of sexually transmitted infections.](#/202604/04/202604/04/41931629-a-microphysiologic-human-cervical-model-recapitulates-microbial-immune-and-pathogenic-properties-of-sexually-transmitted-infections)
+  - TLDR：针对现有单层细胞培养和动物模型难以模拟人类宫颈复杂微环境的问题，研究者开发了一种低成本、易操作的微生理系统（MPS）。该系统成功模拟了人类宫颈组织及其微生物群，并能复现衣原体和淋球菌感染时的动态免疫及病理特征。该平台在多个实验室验证了其可重复性，为生殖道感染研究提供了一个高度仿生的体外模型。
+  - Tags：`query:pathoai`
 - [Protein and genomic language models uncover the unexplored diversity of bacterial immunity.](#/202604/03/202604/03/41926572-protein-and-genomic-language-models-uncover-the-unexplored-diversity-of-bacterial-immunity)
   - TLDR：细菌泛基因组中蕴含着极其丰富的抗噬菌体防御系统，但绝大部分尚未被发现。本研究开发了结合蛋白质序列与基因组上下文（操纵子结构）的机器学习模型，以高达99%的准确率预测抗噬菌体功能。通过在实验中验证12个新系统并分析3.2万个基因组，研究揭示了细菌基因组中约1.5%用于防御，且超过85%的预测防御家族仍未被表征。该工作为系统性探索细菌免疫多样性及开发新型生物技术工具奠定了基础。
   - Tags：`query:pathoai`
@@ -589,19 +604,4 @@
   - Tags：`query:pathoai`
 - [Microbial taxonomic and functional responses to heavy metal gradients in mining-impacted stream sediments.](#/202603/16/202603/16/41539526-microbial-taxonomic-and-functional-responses-to-heavy-metal-gradients-in-mining-impacted-stream-sediments)
   - TLDR：针对历史采矿导致的重金属污染对河流沉积物微生物的影响，本研究利用中国东大沟的天然污染梯度，通过扩增子测序和功能预测分析了细菌、古菌和真菌的响应。结果发现镉（Cd）是群落结构的关键预测因子，污染区富集了金属耐受和解毒相关基因，而细菌多样性随污染减轻而增加。该研究揭示了微生物作为环境健康指标及污染物转化中介的潜力。
-  - Tags：`query:seqai`
-- [Gut microbiota metabolic reprogramming drives the development of metabolic diseases in the host.](#/202603/16/202603/16/41830551-gut-microbiota-metabolic-reprogramming-drives-the-development-of-metabolic-diseases-in-the-host)
-  - TLDR：代谢性疾病的核心在于代谢重编程，但过去研究多集中于宿主。本文提出了“肠道菌群代谢重编程”概念，指出菌群在宿主发病前就已发生代谢路径的病理性重构。通过系统梳理脂质、葡萄糖、氨基酸等代谢失衡对宿主免疫和稳态的影响，本文构建了一个全新的代谢调节范式，为代谢性疾病的早期干预和靶向微生物治疗提供了理论框架。
-  - Tags：`query:pathoai`
-- [Fungi classification from metagenomic data using CNN_FunBar: A simulation study](#/202603/14/202603/14/10.21203/rs.3.rs-9058008/v1-fungi-classification-from-metagenomic-data-using-cnnfunbar-a-simulation-study)
-  - TLDR：针对宏基因组数据中真菌分类难的问题，本研究利用CNN_FunBar架构，基于ITS序列的六聚体特征训练了属级和种级分类模型。通过模拟包含130个微生物基因组的农田土壤数据集进行验证，该模型在种级和属级分类上分别达到了91.93%和95.16%的准确率，为复杂环境样本中的真菌精准鉴定提供了高效的深度学习工具。
-  - Tags：`query:pathoai`
-- [Toward AI foundation models for epidemics: Promise, challenges, and paths forward.](#/202603/14/202603/14/41824492-toward-ai-foundation-models-for-epidemics-promise-challenges-and-paths-forward)
-  - TLDR：针对传统流行病模型因特定病原体限制而难以应对突发疫情的问题，本文提出构建“流行病基座模型（EFMs）”。该方法主张利用跨病原体、跨人群的异构数据进行预训练，学习传染病动力学的通用规律。这种模型能通过少量数据快速微调，实现对新发疫情的精准预测与干预，为全球公共卫生安全，特别是资源匮乏地区的防疫提供高效、通用的技术支撑。
-  - Tags：`query:pathoai`
-- [Unraveling the role of cuproptosis in pulmonary fibrosis pathogenesis and prognosis: an integrative single-cell transcriptomics and microarray analysis.](#/202603/14/202603/14/41824199-unraveling-the-role-of-cuproptosis-in-pulmonary-fibrosis-pathogenesis-and-prognosis-an-integrative-single-cell-transcriptomics-and-microarray-analysis)
-  - TLDR：肺纤维化（PF）是一种病理机制复杂的间质性肺病。本研究通过整合单细胞转录组与大体转录组数据，利用LASSO和Cox回归筛选出4个关键的铜死亡相关基因（LIAS, LIPT1, ATP7A, PDHB），构建了预后风险模型。实验验证发现，这些基因在纤维化组织中显著下调，揭示了铜死亡与肺纤维化进展呈负相关，为临床预后评估和靶向治疗提供了新视角。
-  - Tags：`query:seqai`
-- [Single-cell RNA sequencing unravels chondrocyte heterogeneity and immune cell interactions in knee osteoarthritis pathogenesis.](#/202603/14/202603/14/41824220-single-cell-rna-sequencing-unravels-chondrocyte-heterogeneity-and-immune-cell-interactions-in-knee-osteoarthritis-pathogenesis)
-  - TLDR：膝骨关节炎（OA）涉及软骨退化和慢性炎症，但软骨细胞亚群与免疫细胞间的动态交互机制尚不明确。本研究通过整合分析20名患者和6名健康供体的单细胞转录组数据，识别出8类软骨细胞亚群，并揭示了纤维化软骨细胞处于分化末端。研究发现C1Q+巨噬细胞通过补体系统激活淋巴细胞毒性，且MIF信号通路在维持炎症微环境中起关键作用，为OA治疗提供了新的细胞靶点。
   - Tags：`query:seqai`

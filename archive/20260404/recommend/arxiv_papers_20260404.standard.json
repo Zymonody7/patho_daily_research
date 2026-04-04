@@ -1,0 +1,260 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-04-04T19:11:11.391476+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 4,
+    "deep_cap": 9,
+    "deep_selected": 4,
+    "quick_candidates": 1,
+    "quick_skim_target": 14,
+    "quick_selected": 1
+  },
+  "deep_dive": [
+    {
+      "id": "41933095",
+      "title": "A diagnostic model based on pulmonary microbiota and host gene expression to distinguish colonization from pneumonia.",
+      "abstract": "Pneumonia remains a leading cause of global mortality. Conventional diagnostic approaches frequently fail to distinguish microbial colonization from true infection in the lower respiratory tract, complicating clinical decision-making and contributing to antibiotic overuse. Improved diagnostic strategies are urgently needed. In this prospective, single-center study, deep sputum specimens were collected from patients with respiratory colonization (n = 17) and infectious pneumonia (n = 27) admitted to the neurosurgical ICU of Huashan Hospital. Metagenomic next-generation sequencing (mNGS) and metatranscriptomic profiling were performed to characterize both the pulmonary microbiota and the host immune response. These features were subsequently integrated to construct a diagnostic model. Microbial community profiling revealed reduced alpha diversity and enrichment of metabolically active pathogenic taxa in the infection group, consistent with a dysbiotic state permissive to invasion. In contrast, the colonization group demonstrated a more balanced microbial ecosystem. Transcriptomic analyses identified 2232 differentially expressed host genes between the two groups. The colonization group showed marked activation of the Wnt, MAPK, chemokine, and focal adhesion pathways, which are functionally implicated in epithelial barrier maintenance and early immune homeostasis. A multi-omics diagnostic model incorporating seven gene features (ANKRD52, ZC3HAV1L, SERPINE3, CDPF1, ZNF720, TAGLN3, and LRRC15) achieved a discrimination between colonization and infection (AUC = 0.951 in the training cohort; 0.875 in the validation set). By jointly analyzing the pulmonary microbiome and host transcriptome, this study provides insight into host-microbe interactions distinguishing colonization from infection and presents a predictive model with potential clinical relevance.",
+      "authors": [
+        "Zhangfan Fu",
+        "Yuhan Sun",
+        "Haijun Yao",
+        "Qihui Liu",
+        "Qiran Zhang",
+        "Jin Hu",
+        "Yang Zhou",
+        "Ning Jiang",
+        "Jingwen Ai",
+        "Jialin Jin",
+        "Wenhong Zhang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-03",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41933095/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "diagnostic model combining pulmonary microbiota and host gene expression",
+      "llm_evidence_cn": "结合肺部微生物群和宿主基因表达的诊断模型",
+      "llm_evidence": "结合肺部微生物群和宿主基因表达的诊断模型",
+      "canonical_evidence": "结合肺部微生物群和宿主基因表达的诊断模型",
+      "llm_tldr_en": "Develops a diagnostic model using mNGS and host response to distinguish pneumonia from colonization.",
+      "llm_tldr_cn": "利用 mNGS 和宿主反应开发诊断模型，以区分肺炎与微生物定植。",
+      "llm_tldr": "利用 mNGS 和宿主反应开发诊断模型，以区分肺炎与微生物定植。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41933929",
+      "title": "INB",
+      "abstract": "Functional peptide discovery, particularly for blood-brain barrier-penetrating peptides (BBBPPs), is strictly limited by extreme data scarcity and the \"black-box\" nature of deep learning. Here, INB3P is presented as a physics-informed, multi-modal framework designed to address these challenges. Physicochemical-guided mutagenesis (PCGM), a novel augmentation strategy that enforces biochemical constraints to expand training diversity without violating the biological manifold. INB3P integrates PCGM with a bi-directional co-attention mechanism fusing sequence and structure, optimized via contrastive learning and a Stable-MCC loss. INB3P significantly outperforms state-of-the-art baselines on the same independent test set used in a prior study. Crucially, the model autonomously rediscovers known biophysical mechanisms-including amphipathic motifs and long-range contact stabilization-providing strong in silico validation of its learned representations. This work establishes a generalizable paradigm for learning from small, imbalanced biological datasets. To facilitate community adoption, a web server is provided at http://www.bioai-lab.com/INBP, featuring a standalone PCGM module, empowering researchers to apply physics-guided augmentation strategy to their own sparse datasets.",
+      "authors": [
+        "Jingwei Lv",
+        "Qianyang Wu",
+        "Jian Liu",
+        "Binlu Yang",
+        "Yuanhao Li",
+        "Junlin Xu",
+        "Yajie Meng",
+        "Leyi Wei",
+        "Zilong Zhang",
+        "Quan Zou",
+        "Xiulai Li",
+        "Feifei Cui"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-03",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41933929/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "multi-modal framework fusing sequence and structure for peptide discovery",
+      "llm_evidence_cn": "融合序列和结构的肽发现多模态框架",
+      "llm_evidence": "融合序列和结构的肽发现多模态框架",
+      "canonical_evidence": "融合序列和结构的肽发现多模态框架",
+      "llm_tldr_en": "Introduces INB3P, a multi-modal framework using sequence and structure for functional peptide discovery.",
+      "llm_tldr_cn": "引入了 INB3P，这是一个利用序列和结构进行功能肽发现的多模态框架。",
+      "llm_tldr": "引入了 INB3P，这是一个利用序列和结构进行功能肽发现的多模态框架。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "multimodal models combining sequence structure phenotype and text",
+      "matched_requirement_id": "req-24",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41931472",
+      "title": "A Bayesian modelling framework for estimating tick-borne pathogen transmission dynamics at the host-tick interface.",
+      "abstract": "Understanding the transmission dynamics of tick-borne pathogens at the host-tick interface is challenged by the presence of multiple pathways for tick infection, including (i) host-to-tick transmission, (ii) tick-to-tick (cofeeding) transmission, and (iii) pre-existing infection through vertical transmission or prior feeding. Assessing parameters governing these pathways is critical for identifying the main transmission drivers and, consequently, key prevention and control points. Here, we developed a Bayesian modelling framework that estimates key parameters describing the probability of each transmission pathway and assesses associated factors, including bird species, tick life stage and engorgement level, by jointly modelling transmission at the host-tick interface using data collected in field studies that sample hosts and their ticks. First, by fitting the model to simulated host-tick infection data, we demonstrated the framework's ability to recover the parameter values underlying these data. Model performance improved significantly when more information was available on variability in cofeeding probability among individual ticks, highlighting the value of testing all collected ticks and recording their spatial distribution on the host in relation to each other. Second, we fitted the model to field data collected at the bird-tick interface in Northeast France in 2023, focusing on Borrelia garinii, B. valaisiana, and Anaplasma phagocytophilum as case pathogens. For all three pathogens studied, models including cofeeding transmission explained the data significantly better than models that did not. Engorgement level was significantly and positively associated with the probability of bird-to-tick transmission for A. phagocytophilum. Finally, the estimated parameters, such as the probability of A. phagocytophilum infection in birds and the probability of Borrelia or Anaplasma infection in ticks before feeding, were comparable to values from an external dataset, not used for model fitting. Our framework provides a valuable foundation for future research to understand tick-borne pathogen transmission dynamics based on epidemiological and ecological field data collected at the host-tick interface.",
+      "authors": [
+        "Kim Y, Faivre B, Boulinier T, Sineau C, Galon C, Moutailler S, Bournez L, Métras R.",
+        "Younjung Kim",
+        "Bruno Faivre",
+        "Thierry Boulinier",
+        "Célia Sineau",
+        "Clémence Galon",
+        "Sara Moutailler",
+        "Laure Bournez",
+        "Raphaëlle Métras"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-03",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41931472/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Bayesian modeling for pathogen transmission dynamics",
+      "llm_evidence_cn": "用于病原体传播动力学的贝叶斯建模",
+      "llm_evidence": "用于病原体传播动力学的贝叶斯建模",
+      "canonical_evidence": "用于病原体传播动力学的贝叶斯建模",
+      "llm_tldr_en": "Develops a Bayesian framework to estimate transmission dynamics of tick-borne pathogens at the host interface.",
+      "llm_tldr_cn": "开发了一个贝叶斯建模框架，用于评估宿主-蜱界面上蜱传病原体的传播动力学。",
+      "llm_tldr": "开发了一个贝叶斯建模框架，用于评估宿主-蜱界面上蜱传病原体的传播动力学。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for phylogenetic and transmission inference",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41932930",
+      "title": "In silico design of a multiepitope vaccine against antibiotic drug-resistant Acinetobacter baumannii.",
+      "abstract": "Acinetobacter baumannii, a member of the ESKAPE pathogens, causes approximately 722,000 infections annually and is notorious for rapidly developing resistance to multiple antibiotics, resulting in poor clinical outcomes. Due to the rapid emergence of drug-resistant strains and limited effective treatments, the World Health Organization has listed A. baumannii as a top-priority pathogen for vaccine development, highlighting the urgent need for novel therapeutic strategies. In this study, we employed an in silico approach to design a multiepitope vaccine (MEV) targeting multidrug-resistant strains by analyzing RNA-seq data from meropenem-resistant isolates. The vaccine non-toxicity, probably antigenic, and non-allergenic nature was predicated via ToxinPred, VaxiJen v2.0, and AllerTOP v2.0 tools. CTL and HTL epitope prediction was carried out using NetMHCpan and NetMHCIIpan respectively. PEP-FOLD3.5 server predicted T-cell epitopes 3D structure. Molecular docking of the modeled epitopes into the MHC binding grooves was performed using the HADDOCK 2.4 web server for strong binding interactions. MD simulations were carried out using GROMACS version 2021.4 for the MEV stability and PCA was performed to identify dominant conformational states during the simulation. C-ImmSim server was used for the simulation of immune response. RNA-seq analysis from meropenem resistant A. baumannii strains, we identified 1,240 significantly upregulated genes linked to resistance mechanisms. From 156 non-homologous proteins, 12 highly conserved, non-allergenic antigenic proteins were selected to predict 12 CTL and 7 HTL epitopes with strong HLA-binding affinity and immunogenic potential. Molecular docking and dynamics simulations confirmed stable epitope-MHC interactions and structural stability of the 335-amino-acid MEV construct, while immune simulations indicated robust activation of innate and adaptive responses. This in silico study lays a promising foundation for vaccine development against A. baumannii and provides a critical step toward future in vitro and in vivo validation.",
+      "authors": [
+        "Sudeep Khadka",
+        "Muhammad Ajmal Khan",
+        "Shahid Iqbal",
+        "Amin Ullah",
+        "Ajaz Ahmad",
+        "Noor Zada Khan",
+        "Aishma Khattak"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-03",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41932930/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "in silico design of multiepitope vaccine against drug-resistant Acinetobacter baumannii",
+      "llm_evidence_cn": "针对耐药鲍曼不动杆菌的多表位疫苗计算机辅助设计",
+      "llm_evidence": "针对耐药鲍曼不动杆菌的多表位疫苗计算机辅助设计",
+      "canonical_evidence": "针对耐药鲍曼不动杆菌的多表位疫苗计算机辅助设计",
+      "llm_tldr_en": "Uses in silico methods and RNA-seq data to design a vaccine against multidrug-resistant A. baumannii.",
+      "llm_tldr_cn": "利用计算机模拟方法和转录组数据设计了针对多重耐药鲍曼不动杆菌的多表位疫苗。",
+      "llm_tldr": "利用计算机模拟方法和转录组数据设计了针对多重耐药鲍曼不动杆菌的多表位疫苗。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "41931629",
+      "title": "A microphysiologic human cervical model recapitulates microbial, immune, and pathogenic properties of sexually transmitted infections.",
+      "abstract": "Sexually transmitted infections (STIs) of the cervicovaginal mucosa are among the most common global infections. Current monolayer cell culture and animal models fail to reproduce the multilevel complexity required to investigate host-microbiota-pathogen relationships simultaneously and/or with sufficient physiological relevance. To address this limitation, we have developed a microphysiologic system (MPS) that models human cervical tissue and its microbiota and is susceptible to infection by two prominent genital pathogens, Chlamydia trachomatis and Neisseria gonorrhoeae. Notably, this MPS platform recapitulates essential dynamic, polymicrobial, immune, and pathogenic features of chlamydial and gonococcal infections as they occur in humans. The low-cost MPS device requires no specialized equipment or specific expertise and was experimentally validated across multiple nonengineering, remotely located laboratories, demonstrating its transferability and reproducibility. The platform provides a tool for research into genital infections in a system that closely mimics the cervical epithelium, an important advance over existing models.",
+      "authors": [
+        "Katherine M Nelson",
+        "Daniel J Minahan",
+        "Vonetta L Edwards",
+        "Ian J Glomski",
+        "David J Delgado Diaz",
+        "Keena Thomas",
+        "Forrest C Walker",
+        "Patrik M Bavoil",
+        "Isabelle Derré",
+        "Alison K Criss",
+        "Jacques Ravel",
+        "Jason P Gleghorn"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-03",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41931629/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "microphysiologic system for host-microbiota-pathogen interaction modeling",
+      "llm_evidence_cn": "用于宿主-微生物群-病原体相互作用建模的微生理系统",
+      "llm_evidence": "用于宿主-微生物群-病原体相互作用建模的微生理系统",
+      "canonical_evidence": "用于宿主-微生物群-病原体相互作用建模的微生理系统",
+      "llm_tldr_en": "Develops a human cervical microphysiologic system to study host-microbiota-pathogen interactions in STIs.",
+      "llm_tldr_cn": "开发了一种人类宫颈微生理系统，用于研究性传播感染中的宿主-微生物群-病原体相互作用。",
+      "llm_tldr": "开发了一种人类宫颈微生理系统，用于研究性传播感染中的宿主-微生物群-病原体相互作用。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

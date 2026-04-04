@@ -1,0 +1,66 @@
+Title: INB3P: A Multi-Modal and Interpretable Co-Attention Framework Integrating Property-Aware Explanations and Memory-Bank Contrastive Fusion for Blood-Brain Barrier Penetrating Peptide Discovery - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41933929/
+
+Markdown Content:
+Actions
+
+. 2026 Apr 3:e23984.
+
+doi: 10.1002/advs.202523984.  Online ahead of print.
+
+[Qianyang Wu](https://pubmed.ncbi.nlm.nih.gov/?term=Wu+Q&cauthor_id=41933929)[1](https://pubmed.ncbi.nlm.nih.gov/41933929/#full-view-affiliation-1 "School of Computer Science and Technology, Hainan University, Haikou, China."),[Jian Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+J&cauthor_id=41933929)[1](https://pubmed.ncbi.nlm.nih.gov/41933929/#full-view-affiliation-1 "School of Computer Science and Technology, Hainan University, Haikou, China."),[Binlu Yang](https://pubmed.ncbi.nlm.nih.gov/?term=Yang+B&cauthor_id=41933929)[1](https://pubmed.ncbi.nlm.nih.gov/41933929/#full-view-affiliation-1 "School of Computer Science and Technology, Hainan University, Haikou, China."),[Yuanhao Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+Y&cauthor_id=41933929)[1](https://pubmed.ncbi.nlm.nih.gov/41933929/#full-view-affiliation-1 "School of Computer Science and Technology, Hainan University, Haikou, China."),[Junlin Xu](https://pubmed.ncbi.nlm.nih.gov/?term=Xu+J&cauthor_id=41933929)[2](https://pubmed.ncbi.nlm.nih.gov/41933929/#full-view-affiliation-2 "School of Computer Science and Technology, Wuhan University of Science and Technology, Wuhan, Hubei, China."),[Yajie Meng](https://pubmed.ncbi.nlm.nih.gov/?term=Meng+Y&cauthor_id=41933929)[3](https://pubmed.ncbi.nlm.nih.gov/41933929/#full-view-affiliation-3 "School of Computer Science and Artificial Intelligence, Wuhan Textile University, Wuhan, Hubei, China."),[Leyi Wei](https://pubmed.ncbi.nlm.nih.gov/?term=Wei+L&cauthor_id=41933929)[4](https://pubmed.ncbi.nlm.nih.gov/41933929/#full-view-affiliation-4 "Centre For Artificial Intelligence-Driven Drug Discovery, Faculty of Applied Science, Macao Polytechnic University, Macao, SAR, China."),[Zilong Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+Z&cauthor_id=41933929)[1](https://pubmed.ncbi.nlm.nih.gov/41933929/#full-view-affiliation-1 "School of Computer Science and Technology, Hainan University, Haikou, China."),[Quan Zou](https://pubmed.ncbi.nlm.nih.gov/?term=Zou+Q&cauthor_id=41933929)[5](https://pubmed.ncbi.nlm.nih.gov/41933929/#full-view-affiliation-5 "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China, Chengdu, China."),[Xiulai Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+X&cauthor_id=41933929)[1](https://pubmed.ncbi.nlm.nih.gov/41933929/#full-view-affiliation-1 "School of Computer Science and Technology, Hainan University, Haikou, China."),[Feifei Cui](https://pubmed.ncbi.nlm.nih.gov/?term=Cui+F&cauthor_id=41933929)[1](https://pubmed.ncbi.nlm.nih.gov/41933929/#full-view-affiliation-1 "School of Computer Science and Technology, Hainan University, Haikou, China.")
+
+Affiliations
+
+*    PMID: **41933929**
+*    DOI: [10.1002/advs.202523984](https://doi.org/10.1002/advs.202523984)
+
+## INB 3 P: A Multi-Modal and Interpretable Co-Attention Framework Integrating Property-Aware Explanations and Memory-Bank Contrastive Fusion for Blood-Brain Barrier Penetrating Peptide Discovery
+
+Jingwei Lv et al. Adv Sci (Weinh).2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+Functional peptide discovery, particularly for blood-brain barrier-penetrating peptides (BBBPPs), is strictly limited by extreme data scarcity and the "black-box" nature of deep learning. Here, INB 3 P is presented as a physics-informed, multi-modal framework designed to address these challenges. Physicochemical-guided mutagenesis (PCGM), a novel augmentation strategy that enforces biochemical constraints to expand training diversity without violating the biological manifold. INB 3 P integrates PCGM with a bi-directional co-attention mechanism fusing sequence and structure, optimized via contrastive learning and a Stable-MCC loss. INB 3 P significantly outperforms state-of-the-art baselines on the same independent test set used in a prior study. Crucially, the model autonomously rediscovers known biophysical mechanisms-including amphipathic motifs and long-range contact stabilization-providing strong in silico validation of its learned representations. This work establishes a generalizable paradigm for learning from small, imbalanced biological datasets. To facilitate community adoption, a web server is provided at http://www.bioai-lab.com/INBP, featuring a standalone PCGM module, empowering researchers to apply physics-guided augmentation strategy to their own sparse datasets.
+
+**Keywords:** cns drug delivery; contrastive learning; interpretability; multi‐modal deep learning; physicochemical‐guided augmentation.
+
+© 2026 The Author(s). Advanced Science published by Wiley‐VCH GmbH.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [MHAFR-DDI: a multimodal hierarchical attention fusion and relation-aware architecture for drug-drug interaction event prediction.](https://pubmed.ncbi.nlm.nih.gov/41729823/)
+
+Li M, Cao C, Zou Q, Wei L, Wang Y.Li M, et al.Brief Bioinform. 2026 Jan 7;27(1):bbag077. doi: 10.1093/bib/bbag077.Brief Bioinform. 2026.PMID: 41729823 Free PMC article. 
+*   [Contrastive learning-based multi-mechanism disentangled assessment for drug-drug interaction.](https://pubmed.ncbi.nlm.nih.gov/41310461/)
+
+Zhang J, Zeng Y, Tang C, Zhong C, Wen H, Liu Y.Zhang J, et al.BMC Bioinformatics. 2025 Nov 27;26(1):286. doi: 10.1186/s12859-025-06304-z.BMC Bioinformatics. 2025.PMID: 41310461 Free PMC article. 
+*   [Multi-modal contrastive learning based on molecular and textual data for drug response prediction.](https://pubmed.ncbi.nlm.nih.gov/41924825/)
+
+Duan M, Li X, Hou X, Qu Y, Cui H, Zhang Y.Duan M, et al.Neural Netw. 2026 Mar 25;201:108882. doi: 10.1016/j.neunet.2026.108882. Online ahead of print.Neural Netw. 2026.PMID: 41924825 
+*   [Multi-Modal Deep Representation Learning Accurately Identifies and Interprets Drug-Target Interactions.](https://pubmed.ncbi.nlm.nih.gov/40111772/)
+
+Hu J, Liu Y, Zeng X, Zou Q, Su R, Wei L.Hu J, et al.IEEE J Biomed Health Inform. 2025 Jul;29(7):5350-5360. doi: 10.1109/JBHI.2025.3553217.IEEE J Biomed Health Inform. 2025.PMID: 40111772 
+
+## References
+
+1.       1.    S. Hashemi, P. Vosough, S. Taghizadeh, and A. Savardashtaki, “Therapeutic Peptide Development Revolutionized: Harnessing the Power of Artificial Intelligence for Drug Discovery,” Heliyon 10, no. 22 (2024): e40265, [https://doi.org/10.1016/j.heliyon.2024.e40265](https://doi.org/10.1016/j.heliyon.2024.e40265). 
+
+2.       1.    Q. Tang and W. Chen, “DeepB3P: A Transformer‐Based Model for Identifying Blood–Brain Barrier Penetrating Peptides With Data Augmentation Using Feedback GAN,” Journal of Advanced Research 73 (2025): 459–468, [https://doi.org/10.1016/j.jare.2024.08.002](https://doi.org/10.1016/j.jare.2024.08.002). 
+
+3.       1.    Q. Ding, R. Yao, Y. Bai, et al., “Explainable Artificial Intelligence in the Field of Drug Research Drug Design,” Development and Therapy 19 (2025): 4501–4516. 
+
+4.       1.    H. Lee, U. Ozbulak, H. Park, S. Depuydt, W. De Neve, and J. Vankerschaver, “Assessing the Reliability of Point Mutation as Data Augmentation for Deep Learning With Genomic Data,” BMC Bioinformatics 25, no. 1 (2024): 170, [https://doi.org/10.1186/s12859‐024‐05787‐6](https://doi.org/10.1186/s12859%E2%80%90024%E2%80%9005787%E2%80%906). 
+
+5.       1.    H. Shen, L. C. Price, T. Bahadori, and F. Seeger, “Improving Generalizability of Protein Sequence Models With Data Augmentations,” bioRxiv (2021): 20212002.
