@@ -1,0 +1,67 @@
+Title: scAgeClock: a single-cell transcriptome-based human aging clock model using gated multi-head attention neural networks - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41935096/
+
+Markdown Content:
+Actions
+
+. 2026 Apr 4.
+
+doi: 10.1038/s41514-026-00379-5.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **41935096**
+*    DOI: [10.1038/s41514-026-00379-5](https://doi.org/10.1038/s41514-026-00379-5)
+
+## scAgeClock: a single-cell transcriptome-based human aging clock model using gated multi-head attention neural networks
+
+Gangcai Xie. NPJ Aging.2026.
+
+## Abstract
+
+Aging clock models have emerged as a crucial tool for measuring biological age, with significant implications for anti-aging interventions and disease risk assessment. However, human aging clock models that offer single-cell resolution and account for cell and tissue heterogeneities remain underdeveloped. This study introduces scAgeClock, a novel gated multi-head attention neural network-based single-cell aging clock model. Leveraging a large-scale dataset of over 16 million single-cell transcriptome profiles from more than 40 human tissues and 400 cell types, scAgeClock demonstrates improved age prediction accuracy compared to baseline methods. Nearly half of the tissue-level cell types exhibit mean absolute errors of <10 years, with substantial variability in prediction accuracy observed across different cell types. Feature importance analysis reveals enrichment of aging clock genes related to ribosome, translation, defense response, viral life cycle, programmed cell death, and COVID-19 disease. A novel metric, the aging deviation index proposed by this study, revealed deceleration of ages in cells with higher differentiation potencies and tumor cells in higher phases or under metastasis, while acceleration of ages was observed in skin cells. Furthermore, scAgeClock is publicly available to facilitate future research and potential implementations.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Competing interests: The author declares no competing interests.
+
+## Similar articles
+
+*   [Folic acid supplementation and malaria susceptibility and severity among people taking antifolate antimalarial drugs in endemic areas.](https://pubmed.ncbi.nlm.nih.gov/36321557/)
+
+Crider K, Williams J, Qi YP, Gutman J, Yeung L, Mai C, Finkelstain J, Mehta S, Pons-Duran C, Menéndez C, Moraleda C, Rogers L, Daniels K, Green P.Crider K, et al.Cochrane Database Syst Rev. 2022 Feb 1;2(2022):CD014217. doi: 10.1002/14651858.CD014217.Cochrane Database Syst Rev. 2022.PMID: 36321557 Free PMC article.Updated. 
+*   [Precise and interpretable neural networks reveal epigenetic signatures of aging across youth in health and disease.](https://pubmed.ncbi.nlm.nih.gov/39916723/)
+
+Martínez-Enguita D, Hillerton T, Åkesson J, Kling D, Lerm M, Gustafsson M.Martínez-Enguita D, et al.Front Aging. 2025 Jan 23;5:1526146. doi: 10.3389/fragi.2024.1526146. eCollection 2024.Front Aging. 2025.PMID: 39916723 Free PMC article. 
+*   [EnsembleAge clock: a reliable and robust epigenetic age clock service reveals epigenetic age acceleration in opioid-overdosed brains.](https://pubmed.ncbi.nlm.nih.gov/41351063/)
+
+Anand A, Agarwal Y, Gupta T, Lin J, Ghemrawi M, Gerhard GS, Lee H.Anand A, et al.BMC Genomics. 2025 Dec 6;26(1):1088. doi: 10.1186/s12864-025-12271-9.BMC Genomics. 2025.PMID: 41351063 Free PMC article. 
+*   [ORANGE: a machine learning approach for modeling tissue-specific aging from transcriptomic data.](https://pubmed.ncbi.nlm.nih.gov/41766649/)
+
+Jalal W, Musarrat M, Samee MAH, Rahman MS.Jalal W, et al.Brief Bioinform. 2026 Mar 1;27(2):bbag093. doi: 10.1093/bib/bbag093.Brief Bioinform. 2026.PMID: 41766649 Free PMC article. 
+*   [The circadian clock in skin: implications for adult stem cells, tissue regeneration, cancer, aging, and immunity.](https://pubmed.ncbi.nlm.nih.gov/25589491/)
+
+Plikus MV, Van Spyk EN, Pham K, Geyfman M, Kumar V, Takahashi JS, Andersen B.Plikus MV, et al.J Biol Rhythms. 2015 Jun;30(3):163-82. doi: 10.1177/0748730414563537. Epub 2015 Jan 13.J Biol Rhythms. 2015.PMID: 25589491 Free PMC article.Review. 
+
+## References
+
+1.       1.    López-Otín, C., Blasco, M. A., Partridge, L., Serrano, M. & Kroemer, G. Hallmarks of aging: an expanding universe. Cell 186, 243–278 (2023). 
+
+2.       1.    Guo, J. et al. Aging and aging-related diseases: from molecular mechanisms to interventions and treatments. Sig. Transduct. Target Ther. 7, 391 (2022). 
+
+3.       1.    Han, J.-D. J. The ticking of aging clocks. Trends Endocrinol. Metab. 35, 11–22 (2024). 
+
+4.       1.    Hannum, G. et al. Genome-wide methylation profiles reveal quantitative views of human aging rates. Mol. Cell 49, 359–367 (2013). 
+
+5.       1.    Horvath, S. DNA methylation age of human tissues and cell types. Genome Biol. 14, 3156 (2013). 
+
+## Grants and funding
+
+*   [31900484/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=31900484%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 31900484/National Natural Science Foundation of China")
+*   [BK20190924/Natural Science Foundation of Jiangsu Province](https://pubmed.ncbi.nlm.nih.gov/?term=BK20190924%2FNatural+Science+Foundation+of+Jiangsu+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant BK20190924/Natural Science Foundation of Jiangsu Province")
+*   [JSSCTD202348/Jiangsu Innovative and Entrepreneurial Research Team Program](https://pubmed.ncbi.nlm.nih.gov/?term=JSSCTD202348%2FJiangsu+Innovative+and+Entrepreneurial+Research+Team+Program%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant JSSCTD202348/Jiangsu Innovative and Entrepreneurial Research Team Program")

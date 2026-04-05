@@ -1,0 +1,83 @@
+Title: Helicobacter pylori-linked gene CFAP73 rewires epithelial programs and shapes the gastric cancer microenvironment - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41934579/
+
+Markdown Content:
+Actions
+
+. 2026 Apr 4.
+
+doi: 10.1007/s12672-026-04891-8.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **41934579**
+*    DOI: [10.1007/s12672-026-04891-8](https://doi.org/10.1007/s12672-026-04891-8)
+
+## Helicobacter pylori-linked gene CFAP73 rewires epithelial programs and shapes the gastric cancer microenvironment
+
+Haiwen Li et al. Discov Oncol.2026.
+
+## Abstract
+
+**Background:** Helicobacter pylori (HP) infection is the strongest environmental driver of gastric cancer, yet the epithelial programs that are progressively disrupted during infection and are associated with malignant transformation remain unclear.
+
+**Methods:** Trend-associated genes across HP-infection datasets (GSE60662, GSE60427) were identified using the Jonckheere-Terpstra test and intersected with survival-associated genes in TCGA-STAD. Random-forest modeling, multiple independent validation cohorts, functional analyses, single-cell RNA-seq (GSE249874), ligand-receptor inference, and spatial transcriptomics were integrated to define the biological role and microenvironmental impact of CFAP73.
+
+**Results:** CFAP73 emerged as the top tumor-protective gene progressively downregulated during HP infection and strongly predictive of favorable survival and cisplatin benefit. CFAP73 expression marked a tumor-suppressive epithelial state characterized by reduced proliferation, EMT inhibition, and activation of p53 and apoptotic pathways. Single-cell analysis showed CFAP73 predominantly in non-malignant epithelial cells, with HP infection driving its loss. CFAP73 + epithelial cells displayed increased LCN2 expression and attenuated oncogenic signaling. Microenvironmentally, CFAP73_high tumors were enriched for effector and Th17 T cells and showed reduced exhausted T cells, Tregs, and pro-tumorigenic CAF states (iCAF, apCAF). Ligand-receptor modeling revealed that CFAP73 + epithelial cells received weaker WNT, TGFβ, and PDGF signals from CAFs but stronger cytotoxic interactions from T cells. Spatial transcriptomics confirmed spatial segregation of CFAP73 + epithelial regions from proliferative, hypoxic, immune-checkpoint-active niches.
+
+**Conclusions:** CFAP73 is a previously unrecognized epithelial tumor suppressor suppressed early during HP infection. Loss of CFAP73 may contribute to epithelial malignant reprogramming and reshapes fibroblast and T-cell states toward an immunosuppressive, pro-tumor microenvironment. CFAP73 represents a promising biomarker linking HP-driven mucosal injury to gastric cancer initiation, progression, and therapeutic response.
+
+**Keywords:** CFAP73; Gastric cancer; Helicobacter pylori; Single-cell RNA-seq.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Ethics approval and consent to participate: Not applicable. Consent for publication: Not applicable. Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Long-Term _Helicobacter pylori_ Infection Switches Gastric Epithelium Reprogramming Towards Cancer Stem Cell-Related Differentiation Program in _Hp_-Activated Gastric Fibroblast-TGFβ Dependent Manner.](https://pubmed.ncbi.nlm.nih.gov/33023180/)
+
+Krzysiek-Maczka G, Targosz A, Szczyrk U, Wrobel T, Strzalka M, Brzozowski T, Czyz J, Ptak-Belowska A.Krzysiek-Maczka G, et al.Microorganisms. 2020 Oct 2;8(10):1519. doi: 10.3390/microorganisms8101519.Microorganisms. 2020.PMID: 33023180 Free PMC article. 
+
+*   [Hypermethylation-mediated HNF4A silencing by Helicobacter pylori infection drives gastric cancer by disrupting epithelial cell polarity and activating EMT signaling.](https://pubmed.ncbi.nlm.nih.gov/41053012/)
+
+Li D, Zhou Z, Li X, Guo Q, Yuan L, Zhang X, Zhai L, Xia L, Leng W, Qin S.Li D, et al.Cell Death Dis. 2025 Oct 6;16(1):688. doi: 10.1038/s41419-025-08029-6.Cell Death Dis. 2025.PMID: 41053012 Free PMC article. 
+*   [Helicobacter pylori-activated fibroblasts as a silent partner in gastric cancer development.](https://pubmed.ncbi.nlm.nih.gov/37460910/)
+
+Krzysiek-Maczka G, Brzozowski T, Ptak-Belowska A.Krzysiek-Maczka G, et al.Cancer Metastasis Rev. 2023 Dec;42(4):1219-1256. doi: 10.1007/s10555-023-10122-1. Epub 2023 Jul 17.Cancer Metastasis Rev. 2023.PMID: 37460910 Free PMC article.Review. 
+*   [The IL-17 axis in gastric carcinogenesis: From inflammation to oncogenic transformation.](https://pubmed.ncbi.nlm.nih.gov/41349463/)
+
+Lyu Z, Gu M, Lu Z, Lin F, Zhang R, Dong P, Liu Y, Li Z, Huang L.Lyu Z, et al.Cytokine Growth Factor Rev. 2026 Feb;87:19-37. doi: 10.1016/j.cytogfr.2025.12.001. Epub 2025 Dec 2.Cytokine Growth Factor Rev. 2026.PMID: 41349463 Review. 
+
+## References
+
+1.       1.    Thrift AP, Wenker TN, El-Serag HB. Global burden of gastric cancer: epidemiological trends, risk factors, screening and prevention. Nat Rev Clin Oncol. 2023;20(5):338–49. [https://doi.org/10.1038/s41571-023-00747-0](https://doi.org/10.1038/s41571-023-00747-0). 
+
+2.       1.    Sundar R, Nakayama I, Markar SR, Shitara K, van Laarhoven HWM, Janjigian YY, Smyth EC. Gastric cancer. Lancet. 2025;405(10494):2087–102. [https://doi.org/10.1016/S0140-6736(25)00052-2](https://doi.org/10.1016/S0140-6736(25)00052-2). 
+
+3.       1.    Mamun TI, Younus S, Rahman MH. Gastric cancer-Epidemiology, modifiable and non-modifiable risk factors, challenges and opportunities: An updated review. Cancer Treat Res Commun. 2024;41:100845. [https://doi.org/10.1016/j.ctarc.2024.100845](https://doi.org/10.1016/j.ctarc.2024.100845). 
+
+4.       1.    Duan Y, Xu Y, Dou Y, Xu D. Helicobacter pylori and gastric cancer: mechanisms and new perspectives. J Hematol Oncol. 2025;18(1):10. [https://doi.org/10.1186/s13045-024-01654-2](https://doi.org/10.1186/s13045-024-01654-2). 
+
+5.       1.    Yan T, Sun H, Liao Y, Zhou J. Helicobacter pylori mediated niche environment aberrations promote the progression of gastric cancer. Genes Dis. 2024;11(5):101207. [https://doi.org/10.1016/j.gendis.2024.101207](https://doi.org/10.1016/j.gendis.2024.101207). 
+
+## Grants and funding
+
+*   [2022033/Hefei Municipal Natural Science Foundation](https://pubmed.ncbi.nlm.nih.gov/?term=2022033%2FHefei+Municipal+Natural+Science+Foundation%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2022033/Hefei Municipal Natural Science Foundation")
+*   [2023AH040077/Natural Science Research Major Project of Anhui Educational Committee](https://pubmed.ncbi.nlm.nih.gov/?term=2023AH040077%2FNatural+Science+Research+Major+Project+of+Anhui+Educational+Committee%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2023AH040077/Natural Science Research Major Project of Anhui Educational Committee")
+*   [2022xkjT038/Basic and Clinical Cooperation Improvement Program of Anhui Medical University](https://pubmed.ncbi.nlm.nih.gov/?term=2022xkjT038%2FBasic+and+Clinical+Cooperation+Improvement+Program+of+Anhui+Medical+University%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2022xkjT038/Basic and Clinical Cooperation Improvement Program of Anhui Medical University")
+
+## LinkOut - more resources
+
+*   ### Research Materials
+
+    *   [NCI CPTC Antibody Characterization Program](https://antibodies.cancer.gov/detail/CPTC-TP53-2)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-681)

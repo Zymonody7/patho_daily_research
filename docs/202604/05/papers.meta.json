@@ -1,0 +1,79 @@
+{
+  "label": "2026-04-05",
+  "date": "2026-04-05",
+  "generated_at": "2026-04-05T19:14:23",
+  "count": 5,
+  "papers": [
+    {
+      "paper_id": "202604/05/41935096-scageclock-a-single-cell-transcriptome-based-human-aging-clock-model-using-gated-multi-head-attention-neural-networks",
+      "section": "deep",
+      "title_en": "scAgeClock: a single-cell transcriptome-based human aging clock model using gated multi-head attention neural networks.",
+      "authors": "Gangcai Xie",
+      "date": "2026-04-04",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41935096/",
+      "score": "8.0",
+      "evidence": "用于单细胞转录组老化时钟的门控多头注意力神经网络",
+      "tldr": "针对现有衰老时钟模型缺乏单细胞分辨率、难以处理组织异质性的问题，本研究开发了 scAgeClock。该模型基于门控多头注意力神经网络，利用涵盖40多种组织、1600万个单细胞转录组的大规模数据集进行训练。scAgeClock 在400多种细胞类型中实现了高精度预测，并引入“衰老偏差指数”揭示了细胞分化潜能、肿瘤转移及皮肤病变对生物学年龄的影响，为精准评估个体衰老和疾病风险提供了新工具。",
+      "tags": "query:seqai",
+      "abstract_en": "Aging clock models have emerged as a crucial tool for measuring biological age, with significant implications for anti-aging interventions and disease risk assessment. However, human aging clock models that offer single-cell resolution and account for cell and tissue heterogeneities remain underdeveloped. This study introduces scAgeClock, a novel gated multi-head attention neural network-based single-cell aging clock model. Leveraging a large-scale dataset of over 16 million single-cell transcriptome profiles from more than 40 human tissues and 400 cell types, scAgeClock demonstrates improved age prediction accuracy compared to baseline methods. Nearly half of the tissue-level cell types exhibit mean absolute errors of <10 years, with substantial variability in prediction accuracy observed across different cell types. Feature importance analysis reveals enrichment of aging clock genes related to ribosome, translation, defense response, viral life cycle, programmed cell death, and COVID-19 disease. A novel metric, the aging deviation index proposed by this study, revealed deceleration of ages in cells with higher differentiation potencies and tumor cells in higher phases or under metastasis, while acceleration of ages was observed in skin cells. Furthermore, scAgeClock is publicly available to facilitate future research and potential implementations.",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202604/05/41934579-helicobacter-pylori-linked-gene-cfap73-rewires-epithelial-programs-and-shapes-the-gastric-cancer-microenvironment",
+      "section": "quick",
+      "title_en": "Helicobacter pylori-linked gene CFAP73 rewires epithelial programs and shapes the gastric cancer microenvironment.",
+      "authors": "Haiwen Li, Ran Wei, Yuhan Liu, Jiaju Wang, Xinyi Wang, Li Chen, Bangjie Chen, Yong Yao",
+      "date": "2026-04-04",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41934579/",
+      "score": "7.0",
+      "evidence": "利用随机森林模型研究幽门螺杆菌感染对胃癌微环境的影响",
+      "tldr": "幽门螺杆菌（HP）感染是胃癌的主要诱因，但其诱导上皮细胞恶变的具体机制尚不明确。本研究通过整合多组学数据和空间转录组学，发现纤毛相关蛋白CFAP73是受HP感染抑制的关键抑癌基因。CFAP73的缺失会激活EMT和增殖通路，并重塑肿瘤微环境，使其向免疫抑制状态转变。该研究揭示了CFAP73作为连接HP感染与胃癌进展的生物标志物，为评估预后和化疗敏感性提供了新视角。",
+      "tags": "query:pathoai",
+      "abstract_en": "BACKGROUND: Helicobacter pylori (HP) infection is the strongest environmental driver of gastric cancer, yet the epithelial programs that are progressively disrupted during infection and are associated with malignant transformation remain unclear. METHODS: Trend-associated genes across HP-infection datasets (GSE60662, GSE60427) were identified using the Jonckheere-Terpstra test and intersected with survival-associated genes in TCGA-STAD. Random-forest modeling, multiple independent validation cohorts, functional analyses, single-cell RNA-seq (GSE249874), ligand-receptor inference, and spatial transcriptomics were integrated to define the biological role and microenvironmental impact of CFAP73. RESULTS: CFAP73 emerged as the top tumor-protective gene progressively downregulated during HP infection and strongly predictive of favorable survival and cisplatin benefit. CFAP73 expression marked a tumor-suppressive epithelial state characterized by reduced proliferation, EMT inhibition, and activation of p53 and apoptotic pathways. Single-cell analysis showed CFAP73 predominantly in non-malignant epithelial cells, with HP infection driving its loss. CFAP73 + epithelial cells displayed increased LCN2 expression and attenuated oncogenic signaling. Microenvironmentally, CFAP73_high tumors were enriched for effector and Th17 T cells and showed reduced exhausted T cells, Tregs, and pro-tumorigenic CAF states (iCAF, apCAF). Ligand-receptor modeling revealed that CFAP73 + epithelial cells received weaker WNT, TGFβ, and PDGF signals from CAFs but stronger cytotoxic interactions from T cells. Spatial transcriptomics confirmed spatial segregation of CFAP73 + epithelial regions from proliferative, hypoxic, immune-checkpoint-active niches. CONCLUSIONS: CFAP73 is a previously unrecognized epithelial tumor suppressor suppressed early during HP infection. Loss of CFAP73 may contribute to epithelial malignant reprogramming and reshapes fibroblast and T-cell states toward an immunosuppressive, pro-tumor microenvironment. CFAP73 represents a promising biomarker linking HP-driven mucosal injury to gastric cancer initiation, progression, and therapeutic response.",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202604/05/41935279-nanobody-based-bioprotac-for-viral-protein-degradation-provides-an-antiviral-strategy-for-porcine-arterivirus",
+      "section": "quick",
+      "title_en": "Nanobody-based bioPROTAC for viral protein degradation provides an antiviral strategy for porcine arterivirus.",
+      "authors": "Shibo Su, Mingxia Sun, Haiwei Wang, Yan-Dong Tang, Jin Chen, Xinqi Shi, Shuang Cai, Hanrong Zhou, Wei Yang, Ning Zhang, Yongbo Yang, Shujie Wang, Kai Zhao, Hongliang Zhang, Zhijun Tian, Xuehui Cai, Yu Lu, Fandan Meng, Tongqing An",
+      "date": "2026-04-05",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41935279/",
+      "score": "7.0",
+      "evidence": "针对病原体病毒蛋白降解的抗病毒策略和治疗设计",
+      "tldr": "针对猪繁殖与呼吸综合征病毒（PRRSV）等易突变RNA病毒，传统药物易产生耐药性。本研究开发了一种基于纳米抗体的模块化bioPROTAC平台，通过将针对病毒核心蛋白Nsp9的纳米抗体与SPOP蛋白融合，实现了对病毒蛋白的高效降解。实验证明该方案能显著抑制多种PRRSV毒株的复制，并在仔猪模型中通过mRNA-LNP递送有效降低了死亡率和肺部损伤，为应对高变异病毒提供了新的精准治疗策略。",
+      "tags": "query:pathoai",
+      "abstract_en": "BACKGROUND: Proteolysis-targeting chimeras (PROTACs) are powerful tools for targeted protein degradation and are expected to contribute to a promising strategy for next-generation precision therapeutic antiviral drug development. Nanobody-based bioPROTACs can directly bind to protein and mediate target protein degradation, providing a potential antiviral strategy for RNA viruses featuring error-prone replication. Here, we aimed to establish a modular speckle-type POZ protein (SPOP)-derived bioPROTAC platform that enabled rapid antiviral drug construction through the substitution of a target protein-specific nanobody. RESULTS: Using porcine reproductive and respiratory syndrome virus (PRRSV) as a model pathogen, bioPROTACs molecules were successfully constructed by flexibly fusing nanobodies against PRRSV nonstructural protein 9 (Nsp9, viral RdRp) to the BTB domain of SPOP. BioPROTACs demonstrated specific degradation of target proteins in a dose-dependent manner, and a bivalent nanobody configuration enhanced the degradation efficiency to greater than 60%. BioPROTACs exhibited antiviral activity against multi-lineages of PRRSV and significantly potentiated the antiviral efficacy of non-neutralizing nanobodies in vitro. Furthermore, intravenous delivery of bioPROTAC-encoding constructs in mice achieved significant reduction of target protein levels within 24 h, demonstrating efficient in vivo degradation capability. Moreover, the combined administration of bioPROTACs via the mRNA-LNP system suppressed PRRSV proliferation and transmission in piglets, which was characterized by reduced viremia, alleviated lung damage, and a decrease in the piglet mortality rate to 25%. Importantly, we revealed that the subcellular localization of both the target protein and bioPROTACs determined the degradation pathway, confirming that cytoplasmic 9nb-SPOPΔNLS mediated Nsp9 degradation through the autophagy-lysosome pathway in the cytoplasm. This study expands the applicability of SPOP-derived bioPROTACs from nuclear proteins to cytoplasmic proteins, providing a novel strategy for developing antiviral therapies against highly variable viruses. CONCLUSION: The aim of the current study was to develop and validate modular bioPROTACs targeting essential viral proteins. We constructed the degraders by fusing target-specific nanobodies to the BTB domain of SPOP. More importantly, a combination of bioPROTACs targeting different stages of viral replication, delivered via mRNA-LNPs, suppressed viral replication in a pig model. These findings offer valuable insights into the target degradation mechanisms of SPOP-derived bioPROTACs and provide a foundation for the design of antivirals that have activity against multi-lineages of porcine arterivirus and overcome drug resistance.",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202604/05/41530914-delivering-artificial-intelligence-ready-genomics-with-the-maize-genetics-and-genomics-database",
+      "section": "quick",
+      "title_en": "Delivering artificial intelligence-ready genomics with the Maize Genetics and Genomics Database.",
+      "authors": "Olivia C Haley, Laura E Tibbs-Cortes, Stephen F Harding, Elly Poretsky, Ethalinda K Cannon, John L Portwood, Jack M Gardiner, Taner Z Sen, Hye-Seon Kim, Margaret R Woodhouse, Carson M Andorf",
+      "date": "2026-04-04",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41530914/",
+      "score": "6.0",
+      "evidence": "构建人工智能就绪的基因组数据基础设施和基础",
+      "tldr": "针对玉米基因组数据复杂且难以直接用于 AI 模型的问题，MaizeGDB 建立了 AI 就绪的基础设施。该平台通过标准化数据集、预计算 DNA 与蛋白质语言模型的嵌入向量，并提供零样本变异效应评分及可视化工具，为研究者提供了可重复的 AI 工作流。这显著提升了玉米基因功能发现和变异解释的效率，助力加速培育优良玉米品种。",
+      "tags": "query:bioinfo",
+      "abstract_en": "The integration of artificial intelligence (AI) into computational biology is changing biological research, particularly in agriculture, where large and complex datasets offer opportunities for discovery and crop improvement. Maize (Zea mays L.), a globally critical crop with extensive genomic, genetic, proteomic, and functional resources, stands to benefit from AI integration. The Maize Genetics and Genomics Database (MaizeGDB) is proactively building an AI-ready infrastructure by standardizing datasets, precomputing complex features, developing novel interactive tools, and providing reproducible workflows. This paper details MaizeGDB's strategic initiatives to create a foundation of AI-ready data in standardized formats and generate precomputed embeddings from cutting-edge DNA and protein language models. We introduce new functionalities, including zero-shot variant effect scoring derived from biological language models (protein and DNA) and genome browser tracks for visualizing nucleotide conservation (conveying potential functional significance). Furthermore, we provide custom dataset assembly resources and reproducible workflows via GitHub. By providing access to and organization of maize data, MaizeGDB enables the maize research and breeding community to leverage AI for the accelerated discovery of gene function, variant interpretation, and the development of improved maize varieties.",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202604/05/41934398-design-synthesis-and-biological-evaluation-of-pyrimido45-",
+      "section": "quick",
+      "title_en": "Design, Synthesis, and Biological Evaluation of Pyrimido[4,5-",
+      "authors": "Yuzhi Liu, Xin-Yu Leng, Haiqiao Wang, Shanghan Ruan, Xin Meng, Tiansong Li, Haifeng Cao, Ying Fu, Yushe Yang",
+      "date": "2026-04-04",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41934398/",
+      "score": "6.0",
+      "evidence": "针对多重耐药革兰氏阴性病原体的靶点识别与抑制剂设计",
+      "tldr": "针对多重耐药（MDR）革兰氏阴性菌引发的公共卫生危机，本研究以细菌II型拓扑异构酶ATP结合位点为靶点，针对现有先导化合物GP-1存在的hERG心脏毒性和药代动力学缺陷，利用结构修饰和计算机辅助药物设计（CADD）优化，开发出新型嘧啶并[4,5-b]吲哚类衍生物。其中化合物65展现出强效的广谱抗菌活性，消除了hERG抑制风险，并具有优异的体内药效和代谢特性，为开发新型抗生素提供了重要候选药物。",
+      "tags": "query:pathoai",
+      "abstract_en": "The escalating crisis of antimicrobial resistance (AMR), particularly multidrug-resistant (MDR) Gram-negative bacterial infections, presents a grave threat to global public health. This urgent unmet medical need underscores the demand for novel antibiotics capable of overcoming existing resistance mechanisms. The ATP-binding sites of bacterial type II topoisomerases represent promising therapeutic targets against MDR Gram-negative pathogens. Pyrimido[4,5-b]indole-based compounds (GP-1) are the first reported ATPase inhibitors of DNA gyrase with potent and broad-spectrum antibacterial activity against both MDR Gram-positive and Gram-negative pathogens; however, they are associated with hERG inhibition and suboptimal pharmacokinetic profiles. To overcome these limitations, we designed a new series of pyrimido[4,5-b]indole-based derivatives using structure-based scaffold modification and CADD-guided optimization. This campaign culminated in the discovery of compound 65, which exhibited potent broad-spectrum antibacterial activity against MDR Gram-negative bacteria without detectable hERG liability. Moreover, 65 demonstrated improved pharmacokinetic properties, leading to enhanced in vivo efficacy compared to levofloxacin in a murine infection model.",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}

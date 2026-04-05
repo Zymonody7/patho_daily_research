@@ -11,37 +11,37 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-04-04
-- 运行时间：2026-04-04 19:13:41 UTC
+- 最新运行日期：2026-04-05
+- 运行时间：2026-04-05 19:14:14 UTC
 - 运行状态：成功
 - 本次总论文数：5
-- 精读区：4
-- 速读区：1
+- 精读区：1
+- 速读区：4
 
 ### 今日简报（AI）
-今日深度解析 5 篇生物医学前沿论文，重点聚焦肺炎精准诊断与病原体传播建模。
-结合肺部菌群与宿主基因表达的新模型可有效区分肺炎与定植，贝叶斯框架则为蜱传疾病防控提供了动态预测新思路。
-建议关注多组学融合诊断技术，其在提升临床感染识别准确率方面具有显著的实战潜力。
-- 详情：[/202604/04/README](/202604/04/README)
+今日聚焦单细胞衰老时钟模型 scAgeClock，同步探索胃癌微环境、抗病毒策略及玉米基因组 AI 平台。
+重点关注利用门控多头注意力机制精准预测人类衰老，以及 CFAP73 基因重塑胃癌微环境的分子机制。
+建议关注 AI 如何赋能生物大数据，从精准抗衰到智慧农业，科技正在深度重塑生命科学。
+- 详情：[/202604/05/README](/202604/05/README)
 
 ### 精读区论文标签
-1. [A diagnostic model based on pulmonary microbiota and host gene expression to distinguish colonization from pneumonia.](/202604/04/41933095-a-diagnostic-model-based-on-pulmonary-microbiota-and-host-gene-expression-to-distinguish-colonization-from-pneumonia)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：结合肺部微生物群和宿主基因表达的诊断模型
-2. [A Bayesian modelling framework for estimating tick-borne pathogen transmission dynamics at the host-tick interface.](/202604/04/41931472-a-bayesian-modelling-framework-for-estimating-tick-borne-pathogen-transmission-dynamics-at-the-host-tick-interface)  
-   标签：评分：8.0/10、query:pathoai
-   evidence：用于病原体传播动力学的贝叶斯建模
-3. [In silico design of a multiepitope vaccine against antibiotic drug-resistant Acinetobacter baumannii.](/202604/04/41932930-in-silico-design-of-a-multiepitope-vaccine-against-antibiotic-drug-resistant-acinetobacter-baumannii)  
-   标签：评分：8.0/10、query:pathoai
-   evidence：针对耐药鲍曼不动杆菌的多表位疫苗计算机辅助设计
-4. [INB](/202604/04/41933929-inb)  
-   标签：评分：8.0/10、query:bioinfo
-   evidence：融合序列和结构的肽发现多模态框架
+1. [scAgeClock: a single-cell transcriptome-based human aging clock model using gated multi-head attention neural networks.](/202604/05/41935096-scageclock-a-single-cell-transcriptome-based-human-aging-clock-model-using-gated-multi-head-attention-neural-networks)  
+   标签：评分：8.0/10、query:seqai
+   evidence：用于单细胞转录组老化时钟的门控多头注意力神经网络
 
 ### 速读区论文标签
-1. [A microphysiologic human cervical model recapitulates microbial, immune, and pathogenic properties of sexually transmitted infections.](/202604/04/41931629-a-microphysiologic-human-cervical-model-recapitulates-microbial-immune-and-pathogenic-properties-of-sexually-transmitted-infections)  
+1. [Helicobacter pylori-linked gene CFAP73 rewires epithelial programs and shapes the gastric cancer microenvironment.](/202604/05/41934579-helicobacter-pylori-linked-gene-cfap73-rewires-epithelial-programs-and-shapes-the-gastric-cancer-microenvironment)  
    标签：评分：7.0/10、query:pathoai
-   evidence：用于宿主-微生物群-病原体相互作用建模的微生理系统
+   evidence：利用随机森林模型研究幽门螺杆菌感染对胃癌微环境的影响
+2. [Nanobody-based bioPROTAC for viral protein degradation provides an antiviral strategy for porcine arterivirus.](/202604/05/41935279-nanobody-based-bioprotac-for-viral-protein-degradation-provides-an-antiviral-strategy-for-porcine-arterivirus)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：针对病原体病毒蛋白降解的抗病毒策略和治疗设计
+3. [Delivering artificial intelligence-ready genomics with the Maize Genetics and Genomics Database.](/202604/05/41530914-delivering-artificial-intelligence-ready-genomics-with-the-maize-genetics-and-genomics-database)  
+   标签：评分：6.0/10、query:bioinfo
+   evidence：构建人工智能就绪的基因组数据基础设施和基础
+4. [Design, Synthesis, and Biological Evaluation of Pyrimido[4,5-](/202604/05/41934398-design-synthesis-and-biological-evaluation-of-pyrimido45-)  
+   标签：评分：6.0/10、query:pathoai
+   evidence：针对多重耐药革兰氏阴性病原体的靶点识别与抑制剂设计
 
 
 <div class="dpr-home-promo-card">

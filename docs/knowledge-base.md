@@ -1,10 +1,25 @@
 # 知识库
 
-- 最近沉淀条目数：329
+- 最近沉淀条目数：334
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [scAgeClock: a single-cell transcriptome-based human aging clock model using gated multi-head attention neural networks.](#/202604/05/202604/05/41935096-scageclock-a-single-cell-transcriptome-based-human-aging-clock-model-using-gated-multi-head-attention-neural-networks)
+  - TLDR：针对现有衰老时钟模型缺乏单细胞分辨率、难以处理组织异质性的问题，本研究开发了 scAgeClock。该模型基于门控多头注意力神经网络，利用涵盖40多种组织、1600万个单细胞转录组的大规模数据集进行训练。scAgeClock 在400多种细胞类型中实现了高精度预测，并引入“衰老偏差指数”揭示了细胞分化潜能、肿瘤转移及皮肤病变对生物学年龄的影响，为精准评估个体衰老和疾病风险提供了新工具。
+  - Tags：`query:seqai`
+- [Helicobacter pylori-linked gene CFAP73 rewires epithelial programs and shapes the gastric cancer microenvironment.](#/202604/05/202604/05/41934579-helicobacter-pylori-linked-gene-cfap73-rewires-epithelial-programs-and-shapes-the-gastric-cancer-microenvironment)
+  - TLDR：幽门螺杆菌（HP）感染是胃癌的主要诱因，但其诱导上皮细胞恶变的具体机制尚不明确。本研究通过整合多组学数据和空间转录组学，发现纤毛相关蛋白CFAP73是受HP感染抑制的关键抑癌基因。CFAP73的缺失会激活EMT和增殖通路，并重塑肿瘤微环境，使其向免疫抑制状态转变。该研究揭示了CFAP73作为连接HP感染与胃癌进展的生物标志物，为评估预后和化疗敏感性提供了新视角。
+  - Tags：`query:pathoai`
+- [Nanobody-based bioPROTAC for viral protein degradation provides an antiviral strategy for porcine arterivirus.](#/202604/05/202604/05/41935279-nanobody-based-bioprotac-for-viral-protein-degradation-provides-an-antiviral-strategy-for-porcine-arterivirus)
+  - TLDR：针对猪繁殖与呼吸综合征病毒（PRRSV）等易突变RNA病毒，传统药物易产生耐药性。本研究开发了一种基于纳米抗体的模块化bioPROTAC平台，通过将针对病毒核心蛋白Nsp9的纳米抗体与SPOP蛋白融合，实现了对病毒蛋白的高效降解。实验证明该方案能显著抑制多种PRRSV毒株的复制，并在仔猪模型中通过mRNA-LNP递送有效降低了死亡率和肺部损伤，为应对高变异病毒提供了新的精准治疗策略。
+  - Tags：`query:pathoai`
+- [Delivering artificial intelligence-ready genomics with the Maize Genetics and Genomics Database.](#/202604/05/202604/05/41530914-delivering-artificial-intelligence-ready-genomics-with-the-maize-genetics-and-genomics-database)
+  - TLDR：针对玉米基因组数据复杂且难以直接用于 AI 模型的问题，MaizeGDB 建立了 AI 就绪的基础设施。该平台通过标准化数据集、预计算 DNA 与蛋白质语言模型的嵌入向量，并提供零样本变异效应评分及可视化工具，为研究者提供了可重复的 AI 工作流。这显著提升了玉米基因功能发现和变异解释的效率，助力加速培育优良玉米品种。
+  - Tags：`query:bioinfo`
+- [Design, Synthesis, and Biological Evaluation of Pyrimido[4,5-](#/202604/05/202604/05/41934398-design-synthesis-and-biological-evaluation-of-pyrimido45-)
+  - TLDR：针对多重耐药（MDR）革兰氏阴性菌引发的公共卫生危机，本研究以细菌II型拓扑异构酶ATP结合位点为靶点，针对现有先导化合物GP-1存在的hERG心脏毒性和药代动力学缺陷，利用结构修饰和计算机辅助药物设计（CADD）优化，开发出新型嘧啶并[4,5-b]吲哚类衍生物。其中化合物65展现出强效的广谱抗菌活性，消除了hERG抑制风险，并具有优异的体内药效和代谢特性，为开发新型抗生素提供了重要候选药物。
+  - Tags：`query:pathoai`
 - [A diagnostic model based on pulmonary microbiota and host gene expression to distinguish colonization from pneumonia.](#/202604/04/202604/04/41933095-a-diagnostic-model-based-on-pulmonary-microbiota-and-host-gene-expression-to-distinguish-colonization-from-pneumonia)
   - TLDR：针对临床上难以区分下呼吸道微生物定植与肺炎感染导致抗生素滥用的问题，本研究通过对神经外科ICU患者的深部痰液进行宏基因组（mNGS）和转录组测序，分析了肺部菌群特征与宿主免疫反应。研究发现感染组存在明显的菌群失调，而定植组则表现出上皮屏障维护相关的通路激活。最终构建了一个包含7个基因特征的多组学诊断模型，在验证集中达到0.875的AUC，为精准区分定植与感染提供了新工具。
   - Tags：`query:pathoai`
@@ -590,18 +605,3 @@
 - [The oral-gut-brain axis in periodontitis: microbial signaling in systemic and neuroinflammatory disease.](#/202603/16/202603/16/41539591-the-oral-gut-brain-axis-in-periodontitis-microbial-signaling-in-systemic-and-neuroinflammatory-disease)
   - TLDR：牙周炎不仅是口腔炎症，还通过“口-肠-脑轴”影响全身及神经系统健康。本文综述了牙周病原体如何通过血液、神经及免疫细胞等途径跨越屏障，诱发肠道失调和神经炎症，进而导致阿尔茨海默症等退行性疾病。研究强调了口腔微生物组在维持系统稳态中的核心作用，并提出了基于AI诊断和微生物重塑的精准医疗新方向。
   - Tags：`query:pathoai`
-- [Conservation and Specificity in Bacillus Biofilm Dynamics: On Structure and Function of B. cereus Camelysins.](#/202603/16/202603/16/41611200-conservation-and-specificity-in-bacillus-biofilm-dynamics-on-structure-and-function-of-b-cereus-camelysins)
-  - TLDR：蜡样芽孢杆菌群体的生物被膜形成依赖于 CalY1 和 CalY2 蛋白。本研究通过核磁共振（NMR）与 AlphaFold 建模，揭示了 CalY2 在中性环境下通过 β 折叠重组自发聚合为长丝的机制，并发现其与枯草芽孢杆菌 TasA 蛋白在结构上保守但在序列上存在特异性，导致两者无法共聚。这一发现为通过干预蛋白质聚合来控制有害菌群或增强益生菌生物被膜提供了结构生物学基础。
-  - Tags：`query:bioinfo`
-- [Digital siblings unveil distinct molecular and clinical subtypes in Alzheimer's disease via omics-driven profiling.](#/202603/16/202603/16/41698287-digital-siblings-unveil-distinct-molecular-and-clinical-subtypes-in-alzheimers-disease-via-omics-driven-profiling)
-  - TLDR：阿尔茨海默病（AD）具有高度的生物学和临床异质性，导致精准诊疗困难。本研究利用流形学习技术融合了438名患者的蛋白质组学、人口统计学和临床数据，构建了“数字同胞”框架，通过识别潜在空间中相似的患者群体，成功划分出具有独特分子机制和临床特征的亚型。该方法揭示了与年龄、饮酒等相关的通路富集，为AD的精准分型和未来动态预测模型奠定了基础。
-  - Tags：`query:bioinfo`
-- [Multi-Omics Data Reveal Estrogen-Driven Dysregulation and Stromal-Epithelial Signaling Alterations in Endometrial Polyps.](#/202603/16/202603/16/41787252-multi-omics-data-reveal-estrogen-driven-dysregulation-and-stromal-epithelial-signaling-alterations-in-endometrial-polyps)
-  - TLDR：子宫内膜息肉（EP）是导致异常出血和不孕的常见病变，但其发病机制尚不明确。本研究通过对正常、息肉旁及息肉组织进行单细胞转录组测序，发现息肉中雌激素信号增强、上皮增殖加剧且免疫环境受抑制。研究揭示了基质细胞通过WNT、IGF和VEGF信号通路与上皮细胞发生的异常互作是息肉形成的关键，为EP的临床治疗提供了潜在的分子靶点。
-  - Tags：`query:seqai`
-- [Interactions of SARS-CoV-2, influenza and respiratory syncytial virus influence epidemic timing and risk.](#/202603/16/202603/16/41832342-interactions-of-sars-cov-2-influenza-and-respiratory-syncytial-virus-influence-epidemic-timing-and-risk)
-  - TLDR：本研究探讨了新冠、流感及合胞病毒（RSV）在人群层面的相互影响。通过分析多地区监测数据并构建时空贝叶斯分层模型与双病原体动力学模型，发现甲型流感（IAV）流行能显著降低随后新冠感染的风险。结果显示，IAV感染可使新冠感染率下降约94%，保护期约38天，揭示了病毒间的竞争性干扰机制，为多病原体共流行下的公共卫生预警提供了科学依据。
-  - Tags：`query:pathoai`
-- [Microbial taxonomic and functional responses to heavy metal gradients in mining-impacted stream sediments.](#/202603/16/202603/16/41539526-microbial-taxonomic-and-functional-responses-to-heavy-metal-gradients-in-mining-impacted-stream-sediments)
-  - TLDR：针对历史采矿导致的重金属污染对河流沉积物微生物的影响，本研究利用中国东大沟的天然污染梯度，通过扩增子测序和功能预测分析了细菌、古菌和真菌的响应。结果发现镉（Cd）是群落结构的关键预测因子，污染区富集了金属耐受和解毒相关基因，而细菌多样性随污染减轻而增加。该研究揭示了微生物作为环境健康指标及污染物转化中介的潜力。
-  - Tags：`query:seqai`
