@@ -1,7 +1,35 @@
 {
-  "generated_at": "2026-04-05T19:14:23.722328+00:00",
-  "count": 334,
+  "generated_at": "2026-04-06T20:09:49.063008+00:00",
+  "count": 336,
   "items": [
+    {
+      "paper_id": "202604/06/41936024-tokenizing-loops-of-antibodies",
+      "section": "deep",
+      "title_en": "Tokenizing loops of antibodies.",
+      "authors": "Ada Fang, Robert G Alberstein, Simon Kelow, Frédéric A Dreyer",
+      "date": "2026-04-06",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41936024/",
+      "score": "9.0",
+      "evidence": "用于蛋白质基础模型的多模态抗体环分词器",
+      "tldr": "抗体CDR环结构对结合抗原至关重要，但传统聚类方法覆盖度低且难以与大模型集成。本研究开发了Igloo分词器，通过对比学习将抗体环的骨架二面角与序列信息映射为离散Token。实验证明Igloo在H3环检索、亲和力预测及抗体设计任务中表现出色，能以更小参数量达到SOTA水平，为抗体工程提供了高效的多模态表征方案。",
+      "tags": "query:bioinfo",
+      "abstract_en": "The complementarity-determining regions (CDRs) of antibodies are loop structures that are key to their interactions with antigens and are of high importance to the design of novel biologics. Existing approaches for characterizing the diversity of CDRs have limited coverage and cannot be readily incorporated into protein foundation models. Here we introduce ImmunoGlobulin LOOp Tokenizer, Igloo, a multimodal antibody loop tokenizer that encodes backbone dihedral angles and sequence. Igloo is trained using a contrastive learning objective to map loops with similar backbone dihedral angles closer together in latent space. Compared to state-of-the-art protein encoding approaches, Igloo can efficiently retrieve the closest matching loop structures from a structural antibody database, outperforming the existing methods on identifying similar H3 loops by 6.1%. Igloo assigns tokens to all loops, addressing the limited coverage issue of canonical clusters, while retaining the ability to recover canonical loop conformations. To demonstrate the versatility of Igloo tokens, we show that they can be incorporated into protein language models with IglooLM and IglooALM. On predicting binding affinity of heavy chain variants, IglooLM outperforms the base protein language model on 8 out of 10 antibody-antigen targets. Additionally, it is on par with existing state-of-the-art sequence-based and multimodal protein language models, performing comparably to models with 7× more parameters. IglooALM samples antibody loops which are diverse in sequence and more consistent in structure than state-of-the-art antibody inverse folding models. We show that Igloo can rapidly and scalably prioritize functional antibody variants from large mutagenesis libraries, achieving a 1.9× enrichment of experimentally validated HER2 binders in a zero-shot setting. Igloo demonstrates the benefit of introducing multimodal tokens for antibody loops for encoding their diverse landscape, improving protein foundation models, and for antibody CDR design.",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202604/06/41937144-microbial-functional-traits-in-the-hyperaccumulating-noccaea-praecox-rhizobiome-are-metal-dependent-and-host-driven",
+      "section": "quick",
+      "title_en": "Microbial functional traits in the hyperaccumulating Noccaea praecox rhizobiome are metal-dependent and host-driven.",
+      "authors": "Valentina Bočaj, Paula Pongrac, Matevž Likar",
+      "date": "2026-04-06",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41937144/",
+      "score": "7.0",
+      "evidence": "利用宏基因组测序表征微生物功能和耐药组",
+      "tldr": "针对超富集植物 Noccaea praecox 如何在重金属污染土壤中生存的问题，本研究通过宏基因组测序分析了其根系和根际微生物的功能基因组。研究发现，虽然土壤金属含量显著影响微生物的耐药组（如锌/镉外排系统），但植物宿主在筛选特定转运蛋白功能方面起主导作用。特别是根际富集的 ZIP 家族锌转运功能可能辅助了植物对锌的高需求，揭示了植物-微生物协同适应极端金属环境的机制。",
+      "tags": "query:seqai",
+      "abstract_en": "BACKGROUND: Noccaea praecox is a zinc (Zn), cadmium (Cd), and lead (Pb) hyperaccumulating plant native to the Italian peninsula and Western Balkans, where it occurs naturally in both metalliferous and non-metalliferous soils. In the present study, we investigated the effects of soil metal concentrations and the plant host on microbial functional traits, specifically the resistome (i.e., microbial functions associated with metal tolerance and resistance) in two soil compartments: the roots and rhizosphere of N. praecox. For this, we collected four plants from each metalliferous and non-metalliferous site and used a metagenomic sequencing approach to characterise microbial functions from paired root and rhizosphere samples, with three root samples per site obtained due to limited biomass, and four rhizosphere samples. RESULTS: The compartment was the primary driver of the general microbial functional structure. By contrast, the soil metal concentrations and root compartment significantly shaped the microbial resistome. Functions associated with the cobalt-zinc-cadmium efflux system and copper-transporting P-type ATPase V were significantly enriched at the metalliferous compared to the non-metalliferous site, with log2 fold change being 2.62 and 1.72, respectively. Transporters associated with manganese/iron and cobalt/nickel were shaped by the host, regardless of soil metal levels, consistent with host-mediated filtering of microbial functions. Notably, several Zn transporter-related microbial functions associated with the ZIP family were more abundant in the rhizosphere, potentially supporting the plant's high Zn demand. CONCLUSION: Overall, our results demonstrate that both environmental conditions and plant host play interactive roles in shaping the microbial functional potential, with the host sometimes exerting a stronger influence than soil metal content. The enrichment of Zn transporters (Zrt-/Irt-like proteins) in the rhizosphere of the Zn-hyperaccumulating N. praecox suggests a specific microbial adaptation that may facilitate Zn uptake. These findings provide new insight into the functional dynamics of plant-microbe interactions that support the N. praecox lifestyle.",
+      "selection_source": "fresh_fetch"
+    },
     {
       "paper_id": "202604/05/41935096-scageclock-a-single-cell-transcriptome-based-human-aging-clock-model-using-gated-multi-head-attention-neural-networks",
       "section": "deep",

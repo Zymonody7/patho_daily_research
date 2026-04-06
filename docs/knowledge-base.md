@@ -1,10 +1,16 @@
 # 知识库
 
-- 最近沉淀条目数：334
+- 最近沉淀条目数：336
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Tokenizing loops of antibodies.](#/202604/06/202604/06/41936024-tokenizing-loops-of-antibodies)
+  - TLDR：抗体CDR环结构对结合抗原至关重要，但传统聚类方法覆盖度低且难以与大模型集成。本研究开发了Igloo分词器，通过对比学习将抗体环的骨架二面角与序列信息映射为离散Token。实验证明Igloo在H3环检索、亲和力预测及抗体设计任务中表现出色，能以更小参数量达到SOTA水平，为抗体工程提供了高效的多模态表征方案。
+  - Tags：`query:bioinfo`
+- [Microbial functional traits in the hyperaccumulating Noccaea praecox rhizobiome are metal-dependent and host-driven.](#/202604/06/202604/06/41937144-microbial-functional-traits-in-the-hyperaccumulating-noccaea-praecox-rhizobiome-are-metal-dependent-and-host-driven)
+  - TLDR：针对超富集植物 Noccaea praecox 如何在重金属污染土壤中生存的问题，本研究通过宏基因组测序分析了其根系和根际微生物的功能基因组。研究发现，虽然土壤金属含量显著影响微生物的耐药组（如锌/镉外排系统），但植物宿主在筛选特定转运蛋白功能方面起主导作用。特别是根际富集的 ZIP 家族锌转运功能可能辅助了植物对锌的高需求，揭示了植物-微生物协同适应极端金属环境的机制。
+  - Tags：`query:seqai`
 - [scAgeClock: a single-cell transcriptome-based human aging clock model using gated multi-head attention neural networks.](#/202604/05/202604/05/41935096-scageclock-a-single-cell-transcriptome-based-human-aging-clock-model-using-gated-multi-head-attention-neural-networks)
   - TLDR：针对现有衰老时钟模型缺乏单细胞分辨率、难以处理组织异质性的问题，本研究开发了 scAgeClock。该模型基于门控多头注意力神经网络，利用涵盖40多种组织、1600万个单细胞转录组的大规模数据集进行训练。scAgeClock 在400多种细胞类型中实现了高精度预测，并引入“衰老偏差指数”揭示了细胞分化潜能、肿瘤转移及皮肤病变对生物学年龄的影响，为精准评估个体衰老和疾病风险提供了新工具。
   - Tags：`query:seqai`
@@ -598,10 +604,4 @@
   - Tags：`query:pathoai`
 - [Mechanistic insights into sulfamethoxazole removal in activated sludge systems through machine learning and microcosm experiments.](#/202603/16/202603/16/41529620-mechanistic-insights-into-sulfamethoxazole-removal-in-activated-sludge-systems-through-machine-learning-and-microcosm-experiments)
   - TLDR：针对活性污泥法处理废水中抗生素（以磺胺甲恶唑SMX为例）去除率波动大且机制不明的问题，本研究构建了基于随机森林回归（RFR）的机器学习框架，整合多尺度实验数据识别关键影响因子。研究发现工艺控制参数对去除率贡献最大，并首次揭示了驯化时间、pH等关键阈值。通过60天微观实验验证，模型指导的工艺优化实现了近100%的去除率，为污水处理抗生素降解提供了数据驱动的决策支持。
-  - Tags：`query:pathoai`
-- [PAIR: Reconstructing Single-Cell Open-Chromatin Landscapes for Transcription Factor Regulome Mapping.](#/202603/16/202603/16/41831316-pair-reconstructing-single-cell-open-chromatin-landscapes-for-transcription-factor-regulome-mapping)
-  - TLDR：针对单细胞 ATAC-seq 数据极度稀疏且存在技术缺失的挑战，PAIR 提出了一种基于二分图编码器的概率框架。该方法通过变分潜层捕捉测量不确定性，并利用定性与定量双解码器重构染色质开放性图谱。实验证明 PAIR 能显著提升细胞聚类精度和差异分析灵敏度，并能有效挖掘黑色素瘤及前脑发育中的转录因子调控网络，为单细胞调控组学研究提供了强有力的支持。
-  - Tags：`query:seqai`
-- [The oral-gut-brain axis in periodontitis: microbial signaling in systemic and neuroinflammatory disease.](#/202603/16/202603/16/41539591-the-oral-gut-brain-axis-in-periodontitis-microbial-signaling-in-systemic-and-neuroinflammatory-disease)
-  - TLDR：牙周炎不仅是口腔炎症，还通过“口-肠-脑轴”影响全身及神经系统健康。本文综述了牙周病原体如何通过血液、神经及免疫细胞等途径跨越屏障，诱发肠道失调和神经炎症，进而导致阿尔茨海默症等退行性疾病。研究强调了口腔微生物组在维持系统稳态中的核心作用，并提出了基于AI诊断和微生物重塑的精准医疗新方向。
   - Tags：`query:pathoai`

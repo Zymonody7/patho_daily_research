@@ -1,0 +1,102 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-04-06T19:46:33.493849+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 1,
+    "deep_cap": 9,
+    "deep_selected": 1,
+    "quick_candidates": 1,
+    "quick_skim_target": 14,
+    "quick_selected": 1
+  },
+  "deep_dive": [
+    {
+      "id": "41936024",
+      "title": "Tokenizing loops of antibodies.",
+      "abstract": "The complementarity-determining regions (CDRs) of antibodies are loop structures that are key to their interactions with antigens and are of high importance to the design of novel biologics. Existing approaches for characterizing the diversity of CDRs have limited coverage and cannot be readily incorporated into protein foundation models. Here we introduce ImmunoGlobulin LOOp Tokenizer, Igloo, a multimodal antibody loop tokenizer that encodes backbone dihedral angles and sequence. Igloo is trained using a contrastive learning objective to map loops with similar backbone dihedral angles closer together in latent space. Compared to state-of-the-art protein encoding approaches, Igloo can efficiently retrieve the closest matching loop structures from a structural antibody database, outperforming the existing methods on identifying similar H3 loops by 6.1%. Igloo assigns tokens to all loops, addressing the limited coverage issue of canonical clusters, while retaining the ability to recover canonical loop conformations. To demonstrate the versatility of Igloo tokens, we show that they can be incorporated into protein language models with IglooLM and IglooALM. On predicting binding affinity of heavy chain variants, IglooLM outperforms the base protein language model on 8 out of 10 antibody-antigen targets. Additionally, it is on par with existing state-of-the-art sequence-based and multimodal protein language models, performing comparably to models with 7× more parameters. IglooALM samples antibody loops which are diverse in sequence and more consistent in structure than state-of-the-art antibody inverse folding models. We show that Igloo can rapidly and scalably prioritize functional antibody variants from large mutagenesis libraries, achieving a 1.9× enrichment of experimentally validated HER2 binders in a zero-shot setting. Igloo demonstrates the benefit of introducing multimodal tokens for antibody loops for encoding their diverse landscape, improving protein foundation models, and for antibody CDR design.",
+      "authors": [
+        "Ada Fang",
+        "Robert G Alberstein",
+        "Simon Kelow",
+        "Frédéric A Dreyer"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-12-31",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41936024/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "multimodal antibody loop tokenizer for protein foundation models",
+      "llm_evidence_cn": "用于蛋白质基础模型的多模态抗体环分词器",
+      "llm_evidence": "用于蛋白质基础模型的多模态抗体环分词器",
+      "canonical_evidence": "用于蛋白质基础模型的多模态抗体环分词器",
+      "llm_tldr_en": "Introduces Igloo, a tokenizer for antibody CDRs that integrates with protein foundation models for design.",
+      "llm_tldr_cn": "引入了Igloo，一种用于抗体CDR区域的分词器，可集成到蛋白质基础模型中用于生物药设计。",
+      "llm_tldr": "引入了Igloo，一种用于抗体CDR区域的分词器，可集成到蛋白质基础模型中用于生物药设计。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "protein language models for structure function prediction and design",
+      "matched_requirement_id": "req-16",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "41937144",
+      "title": "Microbial functional traits in the hyperaccumulating Noccaea praecox rhizobiome are metal-dependent and host-driven.",
+      "abstract": "BACKGROUND: Noccaea praecox is a zinc (Zn), cadmium (Cd), and lead (Pb) hyperaccumulating plant native to the Italian peninsula and Western Balkans, where it occurs naturally in both metalliferous and non-metalliferous soils. In the present study, we investigated the effects of soil metal concentrations and the plant host on microbial functional traits, specifically the resistome (i.e., microbial functions associated with metal tolerance and resistance) in two soil compartments: the roots and rhizosphere of N. praecox. For this, we collected four plants from each metalliferous and non-metalliferous site and used a metagenomic sequencing approach to characterise microbial functions from paired root and rhizosphere samples, with three root samples per site obtained due to limited biomass, and four rhizosphere samples. RESULTS: The compartment was the primary driver of the general microbial functional structure. By contrast, the soil metal concentrations and root compartment significantly shaped the microbial resistome. Functions associated with the cobalt-zinc-cadmium efflux system and copper-transporting P-type ATPase V were significantly enriched at the metalliferous compared to the non-metalliferous site, with log2 fold change being 2.62 and 1.72, respectively. Transporters associated with manganese/iron and cobalt/nickel were shaped by the host, regardless of soil metal levels, consistent with host-mediated filtering of microbial functions. Notably, several Zn transporter-related microbial functions associated with the ZIP family were more abundant in the rhizosphere, potentially supporting the plant's high Zn demand. CONCLUSION: Overall, our results demonstrate that both environmental conditions and plant host play interactive roles in shaping the microbial functional potential, with the host sometimes exerting a stronger influence than soil metal content. The enrichment of Zn transporters (Zrt-/Irt-like proteins) in the rhizosphere of the Zn-hyperaccumulating N. praecox suggests a specific microbial adaptation that may facilitate Zn uptake. These findings provide new insight into the functional dynamics of plant-microbe interactions that support the N. praecox lifestyle.",
+      "authors": [
+        "Valentina Bočaj",
+        "Paula Pongrac",
+        "Matevž Likar"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-05",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41937144/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "metagenomic sequencing to characterize microbial functions and resistome",
+      "llm_evidence_cn": "利用宏基因组测序表征微生物功能和耐药组",
+      "llm_evidence": "利用宏基因组测序表征微生物功能和耐药组",
+      "canonical_evidence": "利用宏基因组测序表征微生物功能和耐药组",
+      "llm_tldr_en": "Uses metagenomics to study microbial functional traits and metal resistance in plant rhizobiomes.",
+      "llm_tldr_cn": "利用宏基因组学方法研究了植物根际微生物的功能特征及其对金属的耐药性。",
+      "llm_tldr": "利用宏基因组学方法研究了植物根际微生物的功能特征及其对金属的耐药性。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

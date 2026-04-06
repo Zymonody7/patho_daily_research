@@ -11,37 +11,28 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-04-05
-- 运行时间：2026-04-05 19:14:14 UTC
+- 最新运行日期：2026-04-06
+- 运行时间：2026-04-06 20:09:39 UTC
 - 运行状态：成功
-- 本次总论文数：5
+- 本次总论文数：2
 - 精读区：1
-- 速读区：4
+- 速读区：1
 
 ### 今日简报（AI）
-今日聚焦单细胞衰老时钟模型 scAgeClock，同步探索胃癌微环境、抗病毒策略及玉米基因组 AI 平台。
-重点关注利用门控多头注意力机制精准预测人类衰老，以及 CFAP73 基因重塑胃癌微环境的分子机制。
-建议关注 AI 如何赋能生物大数据，从精准抗衰到智慧农业，科技正在深度重塑生命科学。
-- 详情：[/202604/05/README](/202604/05/README)
+1) 今日聚焦抗体 Loop 结构的数字化表征突破，并同步探讨超积累植物根际微生物的金属响应机制。
+2) 重点推荐 9.0 分佳作，其通过 Token 化技术精准建模抗体关键区域，为免疫药物设计提供了全新范式。
+3) 建议关注 AI 驱动的生物大分子表征技术，这正成为连接精准医疗与环境修复的前沿技术支点。
+- 详情：[/202604/06/README](/202604/06/README)
 
 ### 精读区论文标签
-1. [scAgeClock: a single-cell transcriptome-based human aging clock model using gated multi-head attention neural networks.](/202604/05/41935096-scageclock-a-single-cell-transcriptome-based-human-aging-clock-model-using-gated-multi-head-attention-neural-networks)  
-   标签：评分：8.0/10、query:seqai
-   evidence：用于单细胞转录组老化时钟的门控多头注意力神经网络
+1. [Tokenizing loops of antibodies.](/202604/06/41936024-tokenizing-loops-of-antibodies)  
+   标签：评分：9.0/10、query:bioinfo
+   evidence：用于蛋白质基础模型的多模态抗体环分词器
 
 ### 速读区论文标签
-1. [Helicobacter pylori-linked gene CFAP73 rewires epithelial programs and shapes the gastric cancer microenvironment.](/202604/05/41934579-helicobacter-pylori-linked-gene-cfap73-rewires-epithelial-programs-and-shapes-the-gastric-cancer-microenvironment)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：利用随机森林模型研究幽门螺杆菌感染对胃癌微环境的影响
-2. [Nanobody-based bioPROTAC for viral protein degradation provides an antiviral strategy for porcine arterivirus.](/202604/05/41935279-nanobody-based-bioprotac-for-viral-protein-degradation-provides-an-antiviral-strategy-for-porcine-arterivirus)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：针对病原体病毒蛋白降解的抗病毒策略和治疗设计
-3. [Delivering artificial intelligence-ready genomics with the Maize Genetics and Genomics Database.](/202604/05/41530914-delivering-artificial-intelligence-ready-genomics-with-the-maize-genetics-and-genomics-database)  
-   标签：评分：6.0/10、query:bioinfo
-   evidence：构建人工智能就绪的基因组数据基础设施和基础
-4. [Design, Synthesis, and Biological Evaluation of Pyrimido[4,5-](/202604/05/41934398-design-synthesis-and-biological-evaluation-of-pyrimido45-)  
-   标签：评分：6.0/10、query:pathoai
-   evidence：针对多重耐药革兰氏阴性病原体的靶点识别与抑制剂设计
+1. [Microbial functional traits in the hyperaccumulating Noccaea praecox rhizobiome are metal-dependent and host-driven.](/202604/06/41937144-microbial-functional-traits-in-the-hyperaccumulating-noccaea-praecox-rhizobiome-are-metal-dependent-and-host-driven)  
+   标签：评分：7.0/10、query:seqai
+   evidence：利用宏基因组测序表征微生物功能和耐药组
 
 
 <div class="dpr-home-promo-card">
