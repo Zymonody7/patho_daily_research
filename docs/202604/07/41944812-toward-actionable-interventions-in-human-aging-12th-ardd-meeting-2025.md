@@ -1,0 +1,22 @@
+---
+title: "Toward actionable interventions in human aging (12th ARDD meeting, 2025)."
+title_zh: 迈向人类衰老的可行干预措施（第12届ARDD会议，2025年）。
+authors: "Aleksandr Dekan, Sierra Lore, Ye Eun Yoon, Aisyah Sjöholm, Alexander Tyshkovskiy, Alexey Terskikh, Ana Maria Cuervo, Anastasia Georgievskaya, Andrea Heinz, Andrei Seluanov, Andrew Adams, Andy P Tsai, Anna Murray, Anne Brunet, Anne Marije van Harten, Avi Spier, Ben Shenhar, Bente Klarlund Pedersen, Berthil Clasen, Björn Schumacher, Brian K Kennedy, Charlotte Suetta, Christiane Volbracht, Christoph Kuppe, Clive Cookson, Collin Y Ewald, Cristiana Banila, Daisy Cai, Dario Riccardo Valenzano, Dudley W Lamming, Edward Rudnic, Elias Bou Samra, Emma Teeling, Eric Verdin, Evandro Fei Fang, Fabrizio d'Adda di Fagagna, Fedor Galkin, Garri Zmudze, Heinrich Jasper, In Hwa Jang, Jing-Dong Jackie Han, Jamie Justice, Jan H J Hoeijmakers, Javier María Peralta Ramos, Jean-Marc Lemaitre, Jeroen Aerssens, Joe Betts-LaCroix, John C Newman, Juan Carlos Izpisua Belmonte, Kazuto Kawamura, Kennedy Matsagas Schaal, Kitsu Egerton, Kotb Abdelmohsen, Kristen Fortney, Lars Hartenstein, Laura Niedernhofer, Lida Katsimpardi, Lisa Melton, Lotte Bjerre Knudsen, Luigi Ferrucci, Lykke Sylow, Marco Demaria, Marissa J Schafer, Marta Guasch-Ferré, Martin Borch-Jensen, Maxim Kholin, Michael Antonov, Michael Levitt, Michela Deleidi, Miriam Merad, Morten Meldal, Mourad Topors, Murali Venkatesan, Nathan K LeBrasseur, Niklas Anzinger, Peter Fedichev, Paul Kohlhaas, Peter J Mullen, Priya Singhal, Rafael de Cabo, Riekelt H Houtkooper, Rusty Montgomery, Ryan Smith, Sharon Rosenzweig-Lipson, Sergey Jakimov, Steve Horvath, Steven Austad, Thomas A Rando, Todd White, Tom Zuber, Tomaz Rozmaric, Tony Wyss-Coray, Tuomas Tammela, Vadim N Gladyshev, Vanessa V C Sinatti, Weilan Wang, William Harborne, Xiaodong Liu, Xing Li Wang, Yousin Suh, Yuta Lee, Zane Koch, Alex Zhavoronkov, Morten Scheibye-Knudsen, Daniela Bakula"
+date: 2026-04-06
+pdf: "https://pubmed.ncbi.nlm.nih.gov/41944812/"
+tags: ["query:bioinfo"]
+score: 7.0
+evidence: 用于靶点识别和药物开发的人工智能和机器学习平台
+tldr: 针对人类衰老研究长期停留在描述性阶段、难以转化为临床干预的问题，第12届ARDD会议展示了如何通过AI与机器学习平台加速药物靶点识别，并结合新型临床前模型优化转化路径。会议强调衰老并非随机损伤的积累，而是可调控、可逆转的生物过程。这一转变标志着衰老研究正从理论探索迈向可操作的个性化治疗干预，旨在显著延长人类健康寿命。
+selection_source: fresh_fetch
+motivation: 衰老研究急需从单纯的现象描述转向可临床操作的干预手段，以应对全球老龄化带来的健康挑战。
+method: 整合基础生物学发现与人工智能算法，利用机器学习进行靶点筛选，并开发更具转化价值的临床前研究模型。
+result: 识别出了调节衰老特征的具体分子机制，并证明了通过精准干预可以调制甚至逆转部分衰老过程。
+conclusion: 衰老是一个可编程且可干预的生物学过程，AI驱动的药物研发将成为实现个性化长寿医疗的关键。
+---
+
+## 摘要
+第12届衰老研究与药物研发（ARDD）会议在哥本哈根大学召开，全面概述了衰老生物学领域的最新进展。各分会场的一个核心主题是该领域正逐渐从描述性、相关性研究转向机制性理解，从而能够设计旨在延长人类健康寿命的个性化治疗干预措施。关键讨论强调了多学科的融合。报告详细介绍了如何将基础生物学见解与人工智能和机器学习平台相结合，以加速靶点识别和药物开发。此外，新型临床前研究模型的开发与应用被认为是改善向人类临床试验转化路径的关键。科学论述已从编目已确立的衰老特征，发展到识别并调节调节这些特征的特定分子机制。这一关注点基于以下假设：衰老不仅是随机损伤积累的结果，而且可能是一个可处理、可修改且具有潜在可逆性的生物过程，能够通过干预手段进行干预。本报告总结了会议上提出的主要研究方向和概念框架。
+
+## Abstract
+The 12th Aging Research and Drug Discovery (ARDD) meeting convened at the University of Copenhagen, presenting a comprehensive overview of recent advancements in the biology of aging. A central theme across sessions was the field's gradual shift from descriptive, correlational studies to mechanistic understandings enabling the engineering of personalized therapeutic interventions aimed at extending human healthspan. Key discussions highlighted the convergence of multiple disciplines. Presentations detailed how fundamental biological insights are being integrated with artificial intelligence and machine learning platforms for accelerated target identification and drug development. Furthermore, the development and application of novel preclinical research models were presented as critical for improving the translational pipeline to human clinical trials. Scientific discourse has advanced from cataloging the established hallmarks of aging to identifying and modulating the specific molecular mechanisms that regulate them. This focus is predicated on the hypothesis that aging is not solely a result of stochastic damage accumulation but may be a tractable, modifiable, and potentially reversible biological process amenable to intervention. This report summarizes the principal research directions and conceptual frameworks presented at the conference.

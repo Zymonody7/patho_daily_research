@@ -1,10 +1,34 @@
 # 知识库
 
-- 最近沉淀条目数：336
+- 最近沉淀条目数：344
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Artificial Intelligence Powers Protein Functional Annotation.](#/202604/07/202604/07/41944419-artificial-intelligence-powers-protein-functional-annotation)
+  - TLDR：蛋白质功能注释对理解生命过程至关重要，但传统实验方法成本高且通量低。本文系统综述了利用人工智能预测基因本体（GO）术语和酶委员会（EC）编号的计算方法，将其归纳为六大建模范式。通过对比不同方法的评估指标与应用场景，为实现更精准、高分辨率的蛋白质功能预测提供了技术路线参考，助力生物医学研究。
+  - Tags：`query:bioinfo`
+- [Gemella morbillorum Promotes Colorectal Carcinogenesis: LPBDCP-Mediated Invasion Activates Ras Signaling and Destabilizes p53.](#/202604/07/202604/07/41944309-gemella-morbillorum-promotes-colorectal-carcinogenesis-lpbdcp-mediated-invasion-activates-ras-signaling-and-destabilizes-p53)
+  - TLDR：肠道菌群失调是结直肠癌的重要诱因。本研究识别出关键致病菌 Gemella morbillorum，发现其利用 LPBDCP 蛋白与宿主 TMEM140 受体结合入侵细胞，通过激活 Ras 通路及分泌 NDPD 蛋白降解 p53 抑癌蛋白，从而加速肿瘤生长。该发现揭示了细菌促癌的分子机制，并验证了通过基因干预阻断该过程的可行性。
+  - Tags：`query:pathoai`
+- [Toward actionable interventions in human aging (12th ARDD meeting, 2025).](#/202604/07/202604/07/41944812-toward-actionable-interventions-in-human-aging-12th-ardd-meeting-2025)
+  - TLDR：针对人类衰老研究长期停留在描述性阶段、难以转化为临床干预的问题，第12届ARDD会议展示了如何通过AI与机器学习平台加速药物靶点识别，并结合新型临床前模型优化转化路径。会议强调衰老并非随机损伤的积累，而是可调控、可逆转的生物过程。这一转变标志着衰老研究正从理论探索迈向可操作的个性化治疗干预，旨在显著延长人类健康寿命。
+  - Tags：`query:bioinfo`
+- [Single-cell RNA-seq reveals trans-sialidase-like superfamily gene expression heterogeneity in](#/202604/07/202604/07/41945382-single-cell-rna-seq-reveals-trans-sialidase-like-superfamily-gene-expression-heterogeneity-in)
+  - TLDR：针对克氏锥虫如何利用复杂表面蛋白家族逃避宿主免疫的难题，本研究采用单细胞RNA测序技术分析了其感染阶段的转录组。研究发现，反式唾液酸酶样超家族（TcS）基因在单细胞层面表现出极高的表达异质性，且每个细胞的TcS表达谱几乎唯一。这一结果揭示了寄生虫通过非同步化的基因表达实现群体多样性的机制，深化了对克氏锥虫感染策略的理解。
+  - Tags：`query:seqai`
+- [Backbone Thioamidation of a Ribosomal Subunit Protein in Pseudomonadota.](#/202604/07/202604/07/41818325-backbone-thioamidation-of-a-ribosomal-subunit-protein-in-pseudomonadota)
+  - TLDR：针对大肠杆菌核糖体蛋白 uL16 骨架上神秘的硫酰胺化修饰，研究者通过蛋白质结构预测筛选出 EcYcaO 为关键催化酶。通过突变分析揭示了其独特的静电互补结合界面，并证实该修饰在假单胞菌门中广泛存在。该研究不仅填补了核糖体修饰机制的空白，也为利用计算方法寻找酶底物提供了新范式。
+  - Tags：`query:bioinfo`
+- [Helicobacter pylori activates the TRAF1/OASL/ZBP1-PANoptosome pathway to induce PANoptosis in the gastric mucosa.](#/202604/07/202604/07/41942799-helicobacter-pylori-activates-the-traf1oaslzbp1-panoptosome-pathway-to-induce-panoptosis-in-the-gastric-mucosa)
+  - TLDR：幽门螺杆菌（H. pylori）是胃癌的关键致病因子，但其诱导胃黏膜损伤的具体机制尚不完全明确。本研究通过临床样本、细胞实验及小鼠模型，发现 H. pylori 通过 VacA 毒素激活 TRAF1/OASL 轴，进而触发 ZBP1 介导的 PANoptosis（泛凋亡）。研究揭示了该通路在胃癌演变中的双重作用：在炎症阶段诱导细胞死亡导致黏膜损伤，而在胃癌阶段则抑制细胞死亡促进肿瘤进展，为胃癌防治提供了新靶点。
+  - Tags：`query:pathoai`
+- [Unraveling plasmid contributions to phosphorus acquisition in soil microbiomes.](#/202604/07/202604/07/41943157-unraveling-plasmid-contributions-to-phosphorus-acquisition-in-soil-microbiomes)
+  - TLDR：磷是土壤微生物生长的关键养分，但其有效性常受限。本研究通过分析全球多样化生物群落的土壤宏基因组和质粒数据库，系统鉴定了质粒携带的磷获取基因（如调控、转运及矿化基因）。结果发现这些基因广泛分布于多种环境和宿主分类群中，且与土壤磷含量的直接关联较弱。这揭示了土壤移动基因组是微生物磷代谢功能的重要库，为理解土壤养分循环提供了新视角。
+  - Tags：`query:seqai`
+- [Beyond Weight: Systems Biology and Precision Medicine Redefine Obesity as a Multidimensional Disease.](#/202604/07/202604/07/41944002-beyond-weight-systems-biology-and-precision-medicine-redefine-obesity-as-a-multidimensional-disease)
+  - TLDR：传统的以BMI为核心的肥胖评估模型无法捕捉其复杂的生物学异质性。本文通过系统生物学框架，整合单细胞转录组、代谢组及计算模型等多维数据，将肥胖重新定义为一种多维疾病。研究揭示了脂肪重塑和炎症反应在分子层面的显著差异，为基于生物标志物的精准分型和AI辅助预测提供了理论支撑，推动肥胖治疗从单纯减重转向基于机制的精准医疗。
+  - Tags：`query:bioinfo`
 - [Tokenizing loops of antibodies.](#/202604/06/202604/06/41936024-tokenizing-loops-of-antibodies)
   - TLDR：抗体CDR环结构对结合抗原至关重要，但传统聚类方法覆盖度低且难以与大模型集成。本研究开发了Igloo分词器，通过对比学习将抗体环的骨架二面角与序列信息映射为离散Token。实验证明Igloo在H3环检索、亲和力预测及抗体设计任务中表现出色，能以更小参数量达到SOTA水平，为抗体工程提供了高效的多模态表征方案。
   - Tags：`query:bioinfo`
@@ -581,27 +605,3 @@
 - [Single-cell RNA sequencing and proteomics uncover glycolytic dysregulation linking skin and systemic inflammation in dermatomyositis.](#/202603/20/202603/20/41329255-single-cell-rna-sequencing-and-proteomics-uncover-glycolytic-dysregulation-linking-skin-and-systemic-inflammation-in-dermatomyositis)
   - TLDR：皮肌炎（DM）是一种累及皮肤和肌肉的自身免疫病，但其皮肤病变的分子机制尚不明确。本研究通过单细胞转录组测序和蛋白质组学分析，构建了DM皮损的高分辨率图谱，发现成纤维细胞而非巨噬细胞是主要的致病信号源。研究揭示了由I型干扰素信号驱动的CXCL10-糖酵解轴是炎症的核心机制，并证明糖酵解抑制剂2DG能显著缓解模型小鼠的炎症，为DM治疗提供了新靶点。
   - Tags：`query:seqai`
-- [Microbial community assembly and pathogen signatures in groundwater and tap water systems in greater Cairo, Egypt.](#/202603/20/202603/20/41854783-microbial-community-assembly-and-pathogen-signatures-in-groundwater-and-tap-water-systems-in-greater-cairo-egypt)
-  - TLDR：针对埃及开罗地区地下水与自来水微生物群落研究不足的问题，本研究利用环境DNA元条形码技术与统计建模，深入分析了原核生物的组成及演化机制。研究发现两类水源微生物结构差异显著，且群落构建主要受随机性生态漂变驱动，同时检测到军团菌等潜在致病菌的基因特征。该成果揭示了城市供水系统的微生物动态，为制定针对性的水质监控与公共卫生防护策略提供了数据支撑。
-  - Tags：`query:pathoai`
-- [Unraveling the mechanism of tripterygium glycosides tablets-induced liver injury and the protective role of total glucosides of peony from immune-metabolic dysregulation to multi-cellular cascade.](#/202603/20/202603/20/41857612-unraveling-the-mechanism-of-tripterygium-glycosides-tablets-induced-liver-injury-and-the-protective-role-of-total-glucosides-of-peony-from-immune-metabolic-dysregulation-to-multi-cellular-cascade)
-  - TLDR：雷公藤多苷片（TGT）在治疗自身免疫病时常引发严重的肝损伤，限制了其临床应用。本研究利用单细胞转录组测序技术，揭示了TGT通过“铁-脂轴”引发的多细胞级联反应机制，包括库普弗细胞极化、中性粒细胞募集及肝细胞代谢紊乱。研究发现芍药总苷（TGP）能有效逆转这一过程，通过多靶点干预恢复肝脏稳态，为药物性肝损伤的精准防治提供了细胞层面的机制蓝图。
-  - Tags：`query:seqai`
-- [Temperature-driven metagenomics reveals reshaping of microbial communities and nitrogen cycling functions and their potential impacts on Chinese sturgeon host health](#/202603/20/202603/20/IND609435330-temperature-driven-metagenomics-reveals-reshaping-of-microbial-communities-and-nitrogen-cycling-functions-and-their-potential-impacts-on-chinese-sturgeon-host-health)
-  - TLDR：针对中华鲟循环水养殖系统中温度波动引发的微生物失衡风险，本研究利用宏基因组学技术分析了不同热力条件下微生物群落及氮循环功能的动态演变。研究发现，在产卵最适温度下，病原体显著增加且群落稳定性下降，而降温可抑制病原并恢复平衡；同时识别出Nitrospira为维持水质的关键物种。该成果为濒危物种迁地保护提供了基于微生物组的非侵入式监测框架。
-  - Tags：`query:pathoai`
-- [Predicting mosquito flight behavior using Bayesian dynamical systems learning.](#/202603/20/202603/20/41849589-predicting-mosquito-flight-behavior-using-bayesian-dynamical-systems-learning)
-  - TLDR：针对蚊媒疾病防控中对蚊子寻宿主行为缺乏定量理解的问题，研究者结合三维红外追踪技术与贝叶斯动力系统推理，利用超过2000万个飞行轨迹数据点，构建了一个描述埃及伊蚊在视觉和二氧化碳诱导下飞行行为的生物物理模型。该模型能准确预测蚊子对人类目标的反应，为优化蚊虫捕获和防控策略提供了定量基础。
-  - Tags：`query:pathoai`
-- [Gut microbe-derived](#/202603/20/202603/20/41855263-gut-microbe-derived)
-  - TLDR：肠道微生物组与代谢疾病密切相关，但其影响进食后激素和代谢反应的具体机制尚不明确。本研究聚焦于一类研究较少的微生物衍生脂质——N-酰基酰胺（N-acyl amides），通过实验观察其对宿主餐后代谢生理的影响。结果发现，这类脂质能重组宿主由激素驱动的餐后代谢转换，并广泛调节基因表达、代谢激素及昼夜节律，为开发基于微生物组的代谢病疗法提供了新靶点。
-  - Tags：`query:pathoai`
-- [Manifold-based learning for high-throughput single-peanut phenotyping.](#/202603/20/202603/20/41857070-manifold-based-learning-for-high-throughput-single-peanut-phenotyping)
-  - TLDR：花生育种受限于复杂的基因型与表型交互作用，缺乏高效的量化手段。该研究开发了一套高通量表型分析框架，利用数码显微镜或手机成像结合流形学习技术，捕捉花生果实的几何形态特征。通过对中国各地6500多颗花生果实的分析，成功识别出具有地理特征的形态标记并实现了品种的精准鉴别，为构建预测表型性状的几何大模型及加速精准农业奠定了基础。
-  - Tags：`query:bioinfo`
-- [Optimizing global genomic surveillance for early detection of emerging SARS-CoV-2 variants.](#/202603/16/202603/16/41832161-optimizing-global-genomic-surveillance-for-early-detection-of-emerging-sars-cov-2-variants)
-  - TLDR：针对全球基因组监测成本高、分布不均导致新变异株发现延迟的问题，本研究开发了一个结合流行病学、系统发育和航空旅行数据的多毒株元种群模型。通过对奥密克戎变异株的回溯分析和前瞻性模拟，证明在关键交通枢纽实施针对性旅行者监测能显著缩短检测延迟。该方法在减少总监测工作量的同时，为全球大流行预警提供了一个高效且低干扰的量化框架。
-  - Tags：`query:pathoai`
-- [Mechanistic insights into sulfamethoxazole removal in activated sludge systems through machine learning and microcosm experiments.](#/202603/16/202603/16/41529620-mechanistic-insights-into-sulfamethoxazole-removal-in-activated-sludge-systems-through-machine-learning-and-microcosm-experiments)
-  - TLDR：针对活性污泥法处理废水中抗生素（以磺胺甲恶唑SMX为例）去除率波动大且机制不明的问题，本研究构建了基于随机森林回归（RFR）的机器学习框架，整合多尺度实验数据识别关键影响因子。研究发现工艺控制参数对去除率贡献最大，并首次揭示了驯化时间、pH等关键阈值。通过60天微观实验验证，模型指导的工艺优化实现了近100%的去除率，为污水处理抗生素降解提供了数据驱动的决策支持。
-  - Tags：`query:pathoai`

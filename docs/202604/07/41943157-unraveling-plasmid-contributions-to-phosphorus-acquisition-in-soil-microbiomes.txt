@@ -1,0 +1,77 @@
+Title: Unraveling plasmid contributions to phosphorus acquisition in soil microbiomes - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41943157/
+
+Markdown Content:
+Actions
+
+. 2026 Apr 6.
+
+doi: 10.1186/s40793-026-00887-7.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **41943157**
+*    DOI: [10.1186/s40793-026-00887-7](https://doi.org/10.1186/s40793-026-00887-7)
+
+## Unraveling plasmid contributions to phosphorus acquisition in soil microbiomes
+
+Pablo Bruna et al. Environ Microbiome.2026.
+
+## Abstract
+
+**Background:** Phosphorus (P) is a fundamental macronutrient for plant and microbial growth, but its availability in soils is often constrained by strong interactions with minerals and organic matter. While the role of bacteriophages in P cycling has gained attention, plasmids remain comparatively underexplored despite their central role in horizontal gene transfer. This study aimed to investigate the occurrence, diversity, and ecological relevance of plasmid-borne genes involved in P acquisition across soils with contrasting P availability.
+
+**Results:** Using curated plasmid databases and soil metagenomes from diverse biomes, we identified a broad repertoire of plasmid-encoded P-acquisition genes. These genes encompassed regulatory pathways, transport systems, organic P mineralization, and inorganic P solubilization. Regulatory and transporter genes were the most abundant categories, with phoB, phoP, and ugpC among the most frequently detected. When additional analyses were performed using habitat-specific P classifications and continuous P gradients, these associations appeared weak and were not significant after multiple-testing correction. These results suggest that plasmid-encoded P-acquisition genes are broadly distributed across environments rather than tightly constrained by measured soil P levels, while taxonomic assignment revealed that Pseudomonadota were the predominant plasmid hosts, followed by Bacillota and Actinobacteriota, suggesting broad host diversity.
+
+**Conclusions:** This study provides a genomic overview of plasmid-borne genes associated with P acquisition in soils. Our results show that these genes are widespread across plasmids from diverse environments and host taxa, suggesting that the soil mobilome may represent an important reservoir of functions related to microbial P metabolism. While the presence and relative abundance of these genes indicate their potential ecological relevance, functional expression and ecological impact remain to be experimentally validated. These findings expand current knowledge of plasmid contributions to nutrient cycling and highlight the mobilome as a potential target for future studies aiming to better understand microbial strategies for P acquisition in soil ecosystems.
+
+**Keywords:** Auxiliary metabolic genes; Metagenome; Mobile genetic elements; Mobilome; Phosphorus acquisition genes; Phosphorus cycling.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Competing interest: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Genome-Resolved Metagenomics Reveals Distinct Phosphorus Acquisition Strategies between Soil Microbiomes.](https://pubmed.ncbi.nlm.nih.gov/35014868/)
+
+Wu X, Rensing C, Han D, Xiao KQ, Dai Y, Tang Z, Liesack W, Peng J, Cui Z, Zhang F.Wu X, et al.mSystems. 2022 Feb 22;7(1):e0110721. doi: 10.1128/msystems.01107-21. Epub 2022 Jan 11.mSystems. 2022.PMID: 35014868 Free PMC article. 
+*   [Genomic fingerprints of the world's soil ecosystems.](https://pubmed.ncbi.nlm.nih.gov/38722174/)
+
+Graham EB, Garayburu-Caruso VA, Wu R, Zheng J, McClure R, Jones GD.Graham EB, et al.mSystems. 2024 Jun 18;9(6):e0111223. doi: 10.1128/msystems.01112-23. Epub 2024 May 9.mSystems. 2024.PMID: 38722174 Free PMC article. 
+*   [Nutrient limitation shapes functional traits of mycorrhizal fungi and phosphorus-cycling bacteria across an elevation gradient.](https://pubmed.ncbi.nlm.nih.gov/41334926/)
+
+Shulman HB, Pyle JAM, Classen AT, Inouye DW, Simberloff R, Sorensen PO, Thomas W 4th, Rudgers JA, Kivlin SN.Shulman HB, et al.mSystems. 2026 Jan 20;11(1):e0052325. doi: 10.1128/msystems.00523-25. Epub 2025 Dec 3.mSystems. 2026.PMID: 41334926 Free PMC article. 
+*   [Plasmid-Encoded Traits Vary across Environments.](https://pubmed.ncbi.nlm.nih.gov/36629415/)
+
+Finks SS, Martiny JBH.Finks SS, et al.mBio. 2023 Feb 28;14(1):e0319122. doi: 10.1128/mbio.03191-22. Epub 2023 Jan 11.mBio. 2023.PMID: 36629415 Free PMC article. 
+*   [Underexplored viral auxiliary metabolic genes in soil: Diversity and eco-evolutionary significance.](https://pubmed.ncbi.nlm.nih.gov/36571495/)
+
+Sun M, Yuan S, Xia R, Ye M, Balcázar JL.Sun M, et al.Environ Microbiol. 2023 Apr;25(4):800-810. doi: 10.1111/1462-2920.16329. Epub 2023 Jan 5.Environ Microbiol. 2023.PMID: 36571495 Review. 
+
+## References
+
+1.       1.    White PJ, Hammond JP. Phosphorus nutrition of terrestrial plants. In: White PJ, Hammond JP, editors. The ecophysiology of plant-phosphorus interactions [Internet]. Springer; 2008. p. 51–81. [https://doi.org/10.1007/978-1-4020-8435-5_4](https://doi.org/10.1007/978-1-4020-8435-5_4). 
+
+2.       1.    Richardson AE, Simpson RJ. Soil microorganisms mediating phosphorus availability update on microbial phosphorus. Plant Physiol. 2011;156(3):989–96. [https://doi.org/10.1104/pp.111.175448](https://doi.org/10.1104/pp.111.175448). 
+
+3.       1.    Walsh M, Schenk G, Schmidt S. Realising the circular phosphorus economy delivers for sustainable development goals. NPJ Sustain Agric. 2023;1(1):1–15. [https://doi.org/10.1038/s44264-023-00002-0](https://doi.org/10.1038/s44264-023-00002-0). 
+
+4.       1.    Cordell D, Drangert JO, White S. The story of phosphorus: global food security and food for thought. Glob Environ Change. 2009;19(2):292–305. [https://doi.org/10.1016/j.gloenvcha.2008.10.009](https://doi.org/10.1016/j.gloenvcha.2008.10.009). 
+
+5.       1.    Daneshgar S, Callegari A, Capodaglio AG, Vaccari D. The potential phosphorus crisis: resource conservation and possible escape technologies—a review. Resources. 2018;7(2):37. [https://doi.org/10.3390/resources7020037](https://doi.org/10.3390/resources7020037). 
+
+## Grants and funding
+
+*   [2023-21230832/Agencia Nacional de Investigación y Desarrollo](https://pubmed.ncbi.nlm.nih.gov/?term=2023-21230832%2FAgencia+Nacional+de+Investigaci%C3%B3n+y+Desarrollo%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2023-21230832/Agencia Nacional de Investigación y Desarrollo")
+*   [FONDECYT Regular 1241293/Agencia Nacional de Investigación y Desarrollo](https://pubmed.ncbi.nlm.nih.gov/?term=FONDECYT+Regular+1241293%2FAgencia+Nacional+de+Investigaci%C3%B3n+y+Desarrollo%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant FONDECYT Regular 1241293/Agencia Nacional de Investigación y Desarrollo")
+*   [1230084/Agencia Nacional de Investigación y Desarrollo (ANID)](https://pubmed.ncbi.nlm.nih.gov/?term=1230084%2FAgencia+Nacional+de+Investigaci%C3%B3n+y+Desarrollo+%28ANID%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 1230084/Agencia Nacional de Investigación y Desarrollo (ANID)")
+*   [FONDECYT Regular 1251164/Agencia Nacional de Investigación y Desarrollo (ANID)](https://pubmed.ncbi.nlm.nih.gov/?term=FONDECYT+Regular+1251164%2FAgencia+Nacional+de+Investigaci%C3%B3n+y+Desarrollo+%28ANID%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant FONDECYT Regular 1251164/Agencia Nacional de Investigación y Desarrollo (ANID)")
+*   [Consolidator grant 865694/ERC_/European Research Council/International](https://pubmed.ncbi.nlm.nih.gov/?term=Consolidator+grant+865694%2FERC_%2FEuropean+Research+Council%2FInternational%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant Consolidator grant 865694/ERC_/European Research Council/International")
+
+*   [Germany's Excellence Strategy - EXC 2051 - Project-ID 390713860/Deutsche Forschungsgemeinschaft](https://pubmed.ncbi.nlm.nih.gov/?term=Germany%27s+Excellence+Strategy+-+EXC+2051+-+Project-ID+390713860%2FDeutsche+Forschungsgemeinschaft%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant Germany's Excellence Strategy - EXC 2051 - Project-ID 390713860/Deutsche Forschungsgemeinschaft")

@@ -1,0 +1,74 @@
+Title: Artificial Intelligence Powers Protein Functional Annotation - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41944419/
+
+Markdown Content:
+Review
+
+Actions
+
+. 2026 Apr 7:e24373.
+
+doi: 10.1002/advs.202524373.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **41944419**
+*    DOI: [10.1002/advs.202524373](https://doi.org/10.1002/advs.202524373)
+
+Review
+
+## Artificial Intelligence Powers Protein Functional Annotation
+
+Wenkang Wang et al. Adv Sci (Weinh).2026.
+
+## Abstract
+
+Protein functional annotation is essential for understanding biological processes, disease mechanisms, and enzyme activities, yet experimental validation remains costly and low-throughput. With the rapid development of Artificial Intelligence (AI), a wide range of computational approaches have been proposed to infer protein functions. This review systematically examines methods for annotating Gene Ontology (GO) terms and Enzyme Commission (EC) numbers. These are two complementary systems that capture different aspects of protein functions. Based on these two systems, we first synthesize existing approaches into six general modeling paradigms with a clear, structured framework. Then, we introduce GO and EC in a parallel manner, consisting of representative methods, commonly used evaluation metrics, prediction scenarios, and task-specific challenges. Finally, we outline emerging opportunities and future directions aimed at achieving more accurate, context-dependent, and high-resolution protein functional annotation.
+
+**Keywords:** artificial intelligence; enzyme commission; functional annotation; gene ontology; protein function.
+
+© 2026 The Author(s). Advanced Science published by Wiley‐VCH GmbH.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [An Experimental Approach to Genome Annotation: This report is based on a colloquium sponsored by the American Academy of Microbiology held July 19-20, 2004, in Washington, DC.](https://pubmed.ncbi.nlm.nih.gov/33001599/)
+
+[No authors listed][No authors listed]Washington (DC): American Society for Microbiology; 2004.Washington (DC): American Society for Microbiology; 2004.PMID: 33001599 Free Books & Documents.Review. 
+*   [The development of PIPA: an integrated and automated pipeline for genome-wide protein function annotation.](https://pubmed.ncbi.nlm.nih.gov/18221520/)
+
+Yu C, Zavaljevski N, Desai V, Johnson S, Stevens FJ, Reifman J.Yu C, et al.BMC Bioinformatics. 2008 Jan 25;9:52. doi: 10.1186/1471-2105-9-52.BMC Bioinformatics. 2008.PMID: 18221520 Free PMC article. 
+*   [Enzyme functional classification using artificial intelligence.](https://pubmed.ncbi.nlm.nih.gov/40155269/)
+
+Kim HR, Ji H, Kim GB, Lee SY.Kim HR, et al.Trends Biotechnol. 2025 Sep;43(9):2214-2231. doi: 10.1016/j.tibtech.2025.03.003. Epub 2025 Mar 27.Trends Biotechnol. 2025.PMID: 40155269 Review. 
+*   [Approaches for accelerating microbial gene function discovery using artificial intelligence.](https://pubmed.ncbi.nlm.nih.gov/41501479/)
+
+Palsson BO, Lee SY, Kim GB.Palsson BO, et al.Nat Microbiol. 2026 Feb;11(2):350-358. doi: 10.1038/s41564-025-02214-1. Epub 2026 Jan 7.Nat Microbiol. 2026.PMID: 41501479 Review. 
+*   [Application of Artificial Intelligence Technology in Plant MicroRNA Research: Progress, Challenges, and Prospects.](https://pubmed.ncbi.nlm.nih.gov/41465283/)
+
+Yang R, Zhang H.Yang R, et al.Int J Mol Sci. 2025 Dec 9;26(24):11854. doi: 10.3390/ijms262411854.Int J Mol Sci. 2025.PMID: 41465283 Free PMC article.Review. 
+
+## References
+
+1.       1.    G. Kustatscher, T. Collins, A. C. Gingras, et al., “Understudied Proteins: Opportunities and Challenges for Functional Proteomics,” Nature Methods 19, no. 7 (2022): 774–779. 
+
+2.       1.    N. Zhou, Y. Jiang, T. R. Bergquist, et al., “The CAFA Challenge Reports Improved Protein Function Prediction and New Functional Annotations for Hundreds of Genes Through Experimental Screens,” Genome Biology 20, no. 1 (2019): 244. 
+
+3.       1.    P. Radivojac, W. T. Clark, T. R. Oron, et al., “A Large‐Scale Evaluation of Computational Protein Function Prediction,” Nature Methods 10, no. 3 (2013): 221–227. 
+
+4.       1.    W. Wang, Y. Shuai, Q. Yang, F. Zhang, M. Zeng, and M. Li, “A Comprehensive Computational Benchmark for Evaluating Deep Learning‐Based Protein Function Prediction Approaches,” Briefings in Bioinformatics 25, no. 2 (2024): bbae050. 
+
+5.       1.    C. Zhang, W. Zheng, L. Freddolino, and Y. Zhang, “MetaGO: Predicting Gene Ontology of Non‐Homologous Proteins Through Low‐Resolution Protein Structure Prediction and Protein–Protein Network Mapping,” Journal of Molecular Biology 430, no. 15 (2018): 2256–2265. 
+
+## Publication types
+
+*   Actions 
+
+## Grants and funding
+
+*   [625B2184/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=625B2184%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 625B2184/National Natural Science Foundation of China")
+*   [62225209/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=62225209%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 62225209/National Natural Science Foundation of China")
+*   [2023YFF1205500/Key Technologies Research and Development Program](https://pubmed.ncbi.nlm.nih.gov/?term=2023YFF1205500%2FKey+Technologies+Research+and+Development+Program%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2023YFF1205500/Key Technologies Research and Development Program")
+*   [2025JJ30025/Natural Science Foundation of Hunan Province](https://pubmed.ncbi.nlm.nih.gov/?term=2025JJ30025%2FNatural+Science+Foundation+of+Hunan+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2025JJ30025/Natural Science Foundation of Hunan Province")
