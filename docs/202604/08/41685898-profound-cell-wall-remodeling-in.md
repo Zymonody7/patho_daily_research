@@ -1,0 +1,22 @@
+---
+title: Profound cell wall remodeling in
+title_zh: 深刻的细胞壁重塑在...
+authors: "Farnaz Daneshnia, Liuyang Cai, Deepika Gunasekaran, Isha Gautam, Austin M Perry, Pegah Mosharaf Ghahfarokhy, Arefeh Ebadati, Julieta Munoz, Dorian Padilla, Süleyha Hilmioglu-Polat, Shenglin Mei, Daniel J Floyd, Miquel Àngel Schikora-Tamarit, Diego Fuentes, Maria Artigues-Lleixà, Louise A Walker, Samuel M Gonçalves, Mostafa Salehi, Agostinho Carvalho, Jigar V Desai, David S Perlin, Carol A Munro, Alex Hopke, Tuo Wang, Toni Gabaldón, Wenjie Fang, Clarissa J Nobile, Michael K Mansour, Amir Arastehfar"
+date: 2026-04-07
+pdf: "https://pubmed.ncbi.nlm.nih.gov/41685898/"
+tags: ["query:pathoai"]
+score: 6.0
+evidence: 全基因组测序用于耐药性和耐受性分析
+tldr: 针对念珠菌感染中药物耐受性导致治疗失败的问题，本研究通过分析临床连续分离株，结合全基因组测序、核磁共振及动物实验，揭示了病原菌通过细胞壁重塑（增加甘露聚糖、减少β-葡聚糖）获得棘白菌素耐受性的机制。研究发现这种重塑虽增强了生物膜并抑制了免疫，却意外增加了对两性霉素B的敏感性，证明了利用药物敏感性差异进行交替治疗的潜力。
+selection_source: fresh_fetch
+motivation: 探究念珠菌在抗真菌药物压力下如何通过生理适应产生耐受性，以及这种适应对病原菌生存能力和药物敏感性的影响。
+method: 对临床获取的连续分离株进行全基因组测序、细胞壁结构分析（NMR与显微镜）、转录组测序以及小鼠感染模型和免疫细胞交互实验。
+result: 发现病原菌通过显著的细胞壁重塑增强了对棘白菌素的耐受性并逃避了免疫攻击，但同时导致其对两性霉素B变得更加敏感。
+conclusion: 细胞壁重塑是真菌应对药物压力的关键适应机制，利用不同药物间的敏感性差异（如交替使用棘白菌素和两性霉素B）可有效清除耐受性真菌群体。
+---
+
+## 摘要
+抗真菌耐受性（Antifungal tolerance）可促进耐药性的产生，但往往会给真菌病原体带来适应性代价。耐受性群体如何补偿这些缺陷以及如何对其进行治疗干预仍知之甚少。本研究调查了从一名患有持续性念珠菌血症且米卡芬净（micafungin）治疗失败的患者中回收的四株连续的近光滑念珠菌（Candida parapsilosis）分离株。感染最终通过脂质体两性霉素 B（LAMB）清除。全基因组测序（WGS）证实了克隆亲缘性且不存在已知的耐药突变。显微镜和固态核磁共振显示，后期的分离株表现出显著的细胞壁重塑（CWR），其特征是甘露聚糖含量增加和 β-葡聚糖含量减少。这些分离株形成了更厚的生物膜，并表现出增强的棘白菌素（echinocandin）耐受性，但矛盾的是，在体外和小鼠全身感染期间，它们对两性霉素 B（AMB）的敏感性增加。尽管突变图谱复杂，但浮游生长和生物膜生长过程中的转录组分析显示，它们与最早的分离株差异极小。在功能上，进化的分离株抑制了 M1 巨噬细胞极化，减弱了促炎细胞因子的产生，在与中性粒细胞相互作用期间存活率更高，并暂时增加了体内的真菌负荷。这些发现表明，宿主驱动的 CWR 可以促进棘白菌素耐受性，同时使近光滑念珠菌对 AMB 敏感。我们的结果表明，交替使用棘白菌素和 LAMB 疗法可能有效消除耐受棘白菌素的真菌群体。重要性：抗真菌耐受性越来越被认为是耐药性的前兆，但其临床和生物学后果仍不明确。通过分析一例持续性念珠菌血症中的连续近光滑念珠菌分离株，我们表明细胞壁重塑与棘白菌素耐受性相关，改变了宿主免疫相互作用，并增加了对两性霉素 B（AMB）的敏感性。这些发现揭示了耐受性相关的适应如何影响感染期间病原体的适应性，并突出了交替使用棘白菌素和 AMB 疗法的治疗潜力。这项工作增进了我们对抗真菌耐受性的理解，并表明利用相反的药物敏感性可能会改善难治性念珠菌感染的治疗结果。
+
+## Abstract
+Antifungal tolerance can promote the emergence of resistance yet often incurs fitness costs for fungal pathogens. How tolerant populations compensate for these deficits and how they may be therapeutically targeted remain poorly understood. Here, we investigate four sequential Candida parapsilosis isolates recovered from a patient with persistent candidemia and failure of micafungin therapy. The infection was ultimately cleared with liposomal amphotericin B (LAMB). Whole-genome sequencing (WGS) confirmed clonal relatedness and the absence of known resistance mutations. Later isolates displayed marked cell wall remodeling (CWR), characterized by increased mannan and reduced β-glucan content, as revealed by microscopy and solid-state nuclear magnetic resonance. These isolates formed thicker biofilms and displayed enhanced echinocandin tolerance but paradoxically showed increased susceptibility to amphotericin B (AMB) in vitro and during systemic infection in mice. Despite a complex mutational landscape, transcriptomic profiling across planktonic and biofilm growth showed minimal divergence from the earliest isolate. Functionally, evolved isolates suppressed M1 macrophage polarization, dampened proinflammatory cytokine production, survived better during neutrophil interactions, and transiently increased fungal burden in vivo. These findings show that host-driven CWR could promote echinocandin tolerance while simultaneously sensitizing C. parapsilosis to AMB. Our results suggest that alternating echinocandin and LAMB therapy may effectively eliminate echinocandin-tolerant fungal populations.IMPORTANCEAntifungal tolerance is increasingly recognized as a precursor to resistance, yet its clinical and biological consequences remain poorly defined. By analyzing sequential Candida parapsilosis isolates from a case of persistent candidemia, we show that cell wall remodeling is associated with echinocandin tolerance, alters host immune interactions, and increases susceptibility to amphotericin B (AMB). These findings reveal how tolerance-associated adaptations shape pathogen fitness during infection and highlight the therapeutic potential of alternating echinocandin and AMB therapy. This work advances our understanding of antifungal tolerance and suggests that exploiting opposing drug susceptibilities may improve treatment outcomes for challenging-to-treat Candida infections.

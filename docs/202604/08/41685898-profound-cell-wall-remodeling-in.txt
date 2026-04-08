@@ -1,0 +1,161 @@
+Title: Profound cell wall remodeling in Candida parapsilosis during systemic infection confers simultaneous tolerance to echinocandins and host immunity - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41685898/
+
+Markdown Content:
+Actions
+
+. 2026 Apr 7;14(4):e0304325.
+
+doi: 10.1128/spectrum.03043-25.  Epub 2026 Feb 13.
+
+[Liuyang Cai](https://pubmed.ncbi.nlm.nih.gov/?term=Cai+L&cauthor_id=41685898)[3](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-3 "Department of Dermatology, Shanghai Key Laboratory of Molecular Medical Mycology, Shanghai Changzheng Hospital, Naval Medical University, Shanghai, China.")[4](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-4 "The Center for Fungal Infectious Diseases Basic Research and Innovation of Medicine and Pharmacy, Ministry of Education, Shanghai, China."),[Deepika Gunasekaran](https://pubmed.ncbi.nlm.nih.gov/?term=Gunasekaran+D&cauthor_id=41685898)[5](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-5 "Department of Molecular and Cell Biology, School of Natural Sciences, University of California Merced, Merced, California, USA."),[Isha Gautam](https://pubmed.ncbi.nlm.nih.gov/?term=Gautam+I&cauthor_id=41685898)[6](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-6 "Department of Chemistry, Michigan State University, East Lansing, Michigan, USA."),[Austin M Perry](https://pubmed.ncbi.nlm.nih.gov/?term=Perry+AM&cauthor_id=41685898)[5](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-5 "Department of Molecular and Cell Biology, School of Natural Sciences, University of California Merced, Merced, California, USA.")[7](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-7 "Quantitative and Systems Biology Graduate Program, University of California, Merced, California, USA."),[Pegah Mosharaf Ghahfarokhy](https://pubmed.ncbi.nlm.nih.gov/?term=Mosharaf+Ghahfarokhy+P&cauthor_id=41685898)[5](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-5 "Department of Molecular and Cell Biology, School of Natural Sciences, University of California Merced, Merced, California, USA.")[7](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-7 "Quantitative and Systems Biology Graduate Program, University of California, Merced, California, USA.")[8](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-8 "Health Sciences Research Institute, University of California, Merced, California, USA."),[Arefeh Ebadati](https://pubmed.ncbi.nlm.nih.gov/?term=Ebadati+A&cauthor_id=41685898)[5](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-5 "Department of Molecular and Cell Biology, School of Natural Sciences, University of California Merced, Merced, California, USA.")[7](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-7 "Quantitative and Systems Biology Graduate Program, University of California, Merced, California, USA.")[8](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-8 "Health Sciences Research Institute, University of California, Merced, California, USA."),[Julieta Munoz](https://pubmed.ncbi.nlm.nih.gov/?term=Munoz+J&cauthor_id=41685898)[5](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-5 "Department of Molecular and Cell Biology, School of Natural Sciences, University of California Merced, Merced, California, USA."),[Dorian Padilla](https://pubmed.ncbi.nlm.nih.gov/?term=Padilla+D&cauthor_id=41685898)[5](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-5 "Department of Molecular and Cell Biology, School of Natural Sciences, University of California Merced, Merced, California, USA."),[Süleyha Hilmioglu-Polat](https://pubmed.ncbi.nlm.nih.gov/?term=Hilmioglu-Polat+S&cauthor_id=41685898)[9](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-9 "Department of Medical Microbiology, Ege University Faculty of Medicine, Izmir, Turkey."),[Shenglin Mei](https://pubmed.ncbi.nlm.nih.gov/?term=Mei+S&cauthor_id=41685898)[10](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-10 "Fralin Biomedical Research Institute, Virginia Tech FBRI21 Cancer Research Center, Washington, DC, USA.")[11](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-11 "Department of Biomedical Sciences and Pathobiology, College of Veterinary Medicine, Virginia Tech, Blacksburg, Virginia, USA."),[Daniel J Floyd](https://pubmed.ncbi.nlm.nih.gov/?term=Floyd+DJ&cauthor_id=41685898)[2](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-2 "Division of Infectious Diseases, Massachusetts General Hospital, Boston, Massachusetts, USA."),[Miquel Àngel Schikora-Tamarit](https://pubmed.ncbi.nlm.nih.gov/?term=Schikora-Tamarit+M%C3%80&cauthor_id=41685898)[12](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-12 "Life Sciences Programme, Supercomputing Center (BSC-CNS), Barcelona, Spain.")[13](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-13 "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Spain."),[Diego Fuentes](https://pubmed.ncbi.nlm.nih.gov/?term=Fuentes+D&cauthor_id=41685898)[12](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-12 "Life Sciences Programme, Supercomputing Center (BSC-CNS), Barcelona, Spain.")[13](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-13 "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Spain."),[Maria Artigues-Lleixà](https://pubmed.ncbi.nlm.nih.gov/?term=Artigues-Lleix%C3%A0+M&cauthor_id=41685898)[12](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-12 "Life Sciences Programme, Supercomputing Center (BSC-CNS), Barcelona, Spain.")[13](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-13 "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Spain."),[Louise A Walker](https://pubmed.ncbi.nlm.nih.gov/?term=Walker+LA&cauthor_id=41685898)[14](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-14 "School of Medicine, Medical Sciences and Nutrition, Institute of Medical Sciences, University of Aberdeen, Aberdeen, United Kingdom."),[Samuel M Gonçalves](https://pubmed.ncbi.nlm.nih.gov/?term=Gon%C3%A7alves+SM&cauthor_id=41685898)[15](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-15 "School of Medicine, Life and Health Sciences Research Institute (ICVS), University of Minho, Braga, Portugal.")[16](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-16 "ICVS/3B's-PT Government Associate Laboratory, Guimarães, Braga, Portugal."),[Mostafa Salehi](https://pubmed.ncbi.nlm.nih.gov/?term=Salehi+M&cauthor_id=41685898)[17](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-17 "Department Industrial Engineering Faculty of K.N, KN Toosi University of Technology, Tehran, Iran."),[Agostinho Carvalho](https://pubmed.ncbi.nlm.nih.gov/?term=Carvalho+A&cauthor_id=41685898)[15](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-15 "School of Medicine, Life and Health Sciences Research Institute (ICVS), University of Minho, Braga, Portugal.")[16](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-16 "ICVS/3B's-PT Government Associate Laboratory, Guimarães, Braga, Portugal."),[Jigar V Desai](https://pubmed.ncbi.nlm.nih.gov/?term=Desai+JV&cauthor_id=41685898)[18](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-18 "Center for Discovery and Innovation, Hackensack Meridian Health, Nutley, New Jersey, USA."),[David S Perlin](https://pubmed.ncbi.nlm.nih.gov/?term=Perlin+DS&cauthor_id=41685898)[18](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-18 "Center for Discovery and Innovation, Hackensack Meridian Health, Nutley, New Jersey, USA.")[19](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-19 "Georgetown University Lombardi Comprehensive Cancer Center, Washington, DC, USA.")[20](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-20 "Department of Medical Sciences, Hackensack Meridian School of Medicine, Nutley, New Jersey, USA."),[Carol A Munro](https://pubmed.ncbi.nlm.nih.gov/?term=Munro+CA&cauthor_id=41685898)[14](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-14 "School of Medicine, Medical Sciences and Nutrition, Institute of Medical Sciences, University of Aberdeen, Aberdeen, United Kingdom."),[Alex Hopke](https://pubmed.ncbi.nlm.nih.gov/?term=Hopke+A&cauthor_id=41685898)[21](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-21 "Department of Biomedical Sciences, East Tennessee State University Quillen College of Medicine, Center of Excellence in Inflammation, Infectious Disease and Immunity, East Tennessee State University, Johnson City, Tennessee, USA."),[Tuo Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+T&cauthor_id=41685898)[6](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-6 "Department of Chemistry, Michigan State University, East Lansing, Michigan, USA."),[Toni Gabaldón](https://pubmed.ncbi.nlm.nih.gov/?term=Gabald%C3%B3n+T&cauthor_id=41685898)[12](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-12 "Life Sciences Programme, Supercomputing Center (BSC-CNS), Barcelona, Spain.")[13](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-13 "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Barcelona, Spain.")[22](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-22 "Catalan Institution for Research and Advanced Studies, Barcelona, Spain.")[23](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-23 "Centro de Investigación Biomédica en Red de Enfermedades Infecciosas (CIBERINFEC), Barcelona, Spain."),[Wenjie Fang](https://pubmed.ncbi.nlm.nih.gov/?term=Fang+W&cauthor_id=41685898)[3](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-3 "Department of Dermatology, Shanghai Key Laboratory of Molecular Medical Mycology, Shanghai Changzheng Hospital, Naval Medical University, Shanghai, China.")[4](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-4 "The Center for Fungal Infectious Diseases Basic Research and Innovation of Medicine and Pharmacy, Ministry of Education, Shanghai, China."),[Clarissa J Nobile](https://pubmed.ncbi.nlm.nih.gov/?term=Nobile+CJ&cauthor_id=41685898)[5](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-5 "Department of Molecular and Cell Biology, School of Natural Sciences, University of California Merced, Merced, California, USA.")[8](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-8 "Health Sciences Research Institute, University of California, Merced, California, USA."),[Michael K Mansour](https://pubmed.ncbi.nlm.nih.gov/?term=Mansour+MK&cauthor_id=41685898)[2](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-2 "Division of Infectious Diseases, Massachusetts General Hospital, Boston, Massachusetts, USA.")[24](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-24 "Department of Medicine, Harvard Medical School, Boston, Massachusetts, USA."),[Amir Arastehfar](https://pubmed.ncbi.nlm.nih.gov/?term=Arastehfar+A&cauthor_id=41685898)[2](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-2 "Division of Infectious Diseases, Massachusetts General Hospital, Boston, Massachusetts, USA.")[24](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-24 "Department of Medicine, Harvard Medical School, Boston, Massachusetts, USA.")[25](https://pubmed.ncbi.nlm.nih.gov/41685898/#full-view-affiliation-25 "University Hospital Wuerzburg, Medical Hospital II, Würzburg, Germany.")
+
+Affiliations
+
+*    PMID: **41685898**
+*    PMCID: [PMC13055393](https://pmc.ncbi.nlm.nih.gov/articles/PMC13055393/)
+*    DOI: [10.1128/spectrum.03043-25](https://doi.org/10.1128/spectrum.03043-25)
+
+## Profound cell wall remodeling in _Candida parapsilosis_ during systemic infection confers simultaneous tolerance to echinocandins and host immunity
+
+Farnaz Daneshnia et al. Microbiol Spectr.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+Antifungal tolerance can promote the emergence of resistance yet often incurs fitness costs for fungal pathogens. How tolerant populations compensate for these deficits and how they may be therapeutically targeted remain poorly understood. Here, we investigate four sequential _Candida parapsilosis_ isolates recovered from a patient with persistent candidemia and failure of micafungin therapy. The infection was ultimately cleared with liposomal amphotericin B (LAMB). Whole-genome sequencing (WGS) confirmed clonal relatedness and the absence of known resistance mutations. Later isolates displayed marked cell wall remodeling (CWR), characterized by increased mannan and reduced β-glucan content, as revealed by microscopy and solid-state nuclear magnetic resonance. These isolates formed thicker biofilms and displayed enhanced echinocandin tolerance but paradoxically showed increased susceptibility to amphotericin B (AMB) _in vitro_ and during systemic infection in mice. Despite a complex mutational landscape, transcriptomic profiling across planktonic and biofilm growth showed minimal divergence from the earliest isolate. Functionally, evolved isolates suppressed M1 macrophage polarization, dampened proinflammatory cytokine production, survived better during neutrophil interactions, and transiently increased fungal burden _in vivo_. These findings show that host-driven CWR could promote echinocandin tolerance while simultaneously sensitizing _C. parapsilosis_ to AMB. Our results suggest that alternating echinocandin and LAMB therapy may effectively eliminate echinocandin-tolerant fungal populations.IMPORTANCEAntifungal tolerance is increasingly recognized as a precursor to resistance, yet its clinical and biological consequences remain poorly defined. By analyzing sequential _Candida parapsilosis_ isolates from a case of persistent candidemia, we show that cell wall remodeling is associated with echinocandin tolerance, alters host immune interactions, and increases susceptibility to amphotericin B (AMB). These findings reveal how tolerance-associated adaptations shape pathogen fitness during infection and highlight the therapeutic potential of alternating echinocandin and AMB therapy. This work advances our understanding of antifungal tolerance and suggests that exploiting opposing drug susceptibilities may improve treatment outcomes for challenging-to-treat _Candida_ infections.
+
+**Keywords:** biofilms; cell wall remodeling; echinocandins; immune evasion; macrophage polarization; polyenes; resistance; tolerance.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Clarissa J. Nobile is a co-founder and acting CEO of BioSynesis, Inc., a company developing diagnostics and therapeutics for biofilm infections. Michael K. Mansour consults for Vericel; has received grants from Cytovale, Roche, Karius, Genentech, and Thermo-Fisher Scientific; is a medical writer for UpToDate; and has patents pending for neutrophil therapeutics.
+
+## Figures
+
+[![Image 1: Fig 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d402/13055393/621443ac176f/spectrum.03043-25.f001.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d402/13055393/24ccdeebb986/spectrum.03043-25.f001.jpg)
+
+**Fig 1**
+The clinical history and the WGS analysis of the serial _C. parapsilosis_ isolates. Schematic diagram depicting the history of the patient suffering from persistent candidemia due to _C. parapsilosis_ (note that Ambisome is the commercial name for liposomal AMB) (**A**). The number of variants identified in each isolate, in either linear (bottom) or log (top) scale (**B**). SNP-based multiple correspondence analysis (MCA) plot. Serial isolates formed a tight cluster with significant genetic distance relative to _C. parapsilosis_ blood isolates collected from the same hospital (CP110, CP120, CP196, and CP207) (12) (**C**). Evolutionary relationships between isolates based on SNP data. Each column is one of the 14 SNPs that had a different presence/absence pattern across isolates (rows). The row colors match those shown in panel B. Clustermap generated using the function seaborn.clustermap, using “jaccard” as a distance metric and “average” as a linkage method for clustering the rows (**D**). The white, gray, and black colors represent SNPs not called, SNPs with low confidence not passing the quality control, and SNPs with high confidence passing the quality control, respectively. The clustering of SNPs and strains is based on the pattern of SNPs. 0/1 indicates heterozygous calls, while 1/1 indicates homozygous calls.
+
+[![Image 2: Fig 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d402/13055393/33fe898e876a/spectrum.03043-25.f002.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d402/13055393/810da6e49d30/spectrum.03043-25.f002.jpg)
+
+**Fig 2**
+_C. parapsilosis_ isolates collected later during the infection show _in vitro_ growth defects. Growth curves of overnight cultures adjusted to a starting OD 600 = 0.2 and resuspended in the indicated medium with OD 600 values recorded hourly for 24 h are shown in panels **A**, **D**, **E**, **F**, **G**, and **H**. Conditions tested included rich YPD medium in the absence of any stress (**A**), pH = 5 YPD (**D**), oxidative stress, 10 mM H 2 O 2 (**E**), cell wall stress, 60 µg/mL Congo Red (**F**), membrane stress, 0.005% SDS (**G**), and osmotic stress, 0.5M NaCl (**H**). Absolute coverage per gene on a log scale is shown along the genome (**B**) and along the mitochondrial genome (**C**). Differences in final OD 600 values were used in statistical analysis and * denotes _P_ ≤ 0.05. The Wilcoxon signed-rank test of the final OD 600 values was used for comparative analysis.
+
+[![Image 3: Fig 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d402/13055393/0950a39e7777/spectrum.03043-25.f003.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d402/13055393/0bb6dfe098cd/spectrum.03043-25.f003.jpg)
+
+**Fig 3**
+_C. parapsilosis_ isolates underwent CWR during infection. Cell wall exposure analysis of _C. parapsilosis_ isolates using fluorescence microscopy (**A**) and pertinent MFI values (**B**). Chitin, β-glucan, and mannan exposures were determined using wheat germ agglutinin, anti–dectin-1 antibody, and concanavalin A. TEM graphs of _C. parapsilosis_ isolates (**C**) and pertinent inner and outer cell wall thickness in nm (**D**). *** _P_ ≤ 0.001 and _P_ ≤ 0.0001. The Wilcoxon Signed Ranks Test was used for analysis.
+
+[![Image 4: Fig 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d402/13055393/f9b7672b72e5/spectrum.03043-25.f004.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d402/13055393/27a34e27966d/spectrum.03043-25.f004.jpg)
+
+**Fig 4**
+Determination of the chemical composition of the cell wall structure using solid-state NMR. Overall cell wall composition (rigid and mobile sections) using solid-state NMR (**A**). The rigid fraction of the cell wall (**B**). 2D CP-based 13 C-13 C CORD spectra of Cp9, Cp10, Cp11, and Cp12, shown in turquoise, purple, green, and pink, respectively. Cross-peak assignments for the resolved polysaccharides are labeled with glucans color-coded as follows: β−1,3-glucans (blue), chitin (orange) (also indicated by orange dashed lines and circles highlighting chitin cross-peaks), and β−1,6-glucans (magenta), with corresponding magenta lines and circles. All isolates exhibit similar glucan components, with variations in cross-peak intensities (**B**). The mobile fraction and mannan composition (**C**). 2D DP _J_-INADEQUATE spectra highlighting the mobile components in Cp9, Cp10, Cp11, and Cp12 are shown in turquoise, purple, green, and pink, respectively. Through-bond carbon correlations for the resolved polysaccharides are labeled in Cp9, with glucans and mannans color-coded as follows: β−1,3-glucans (blue), β−1,6-glucans (magenta), and mannans (various shades of brown)-α−1,2-mannans (brown, Mn 1,2), oxygen-linked α−1,2-mannans (light brown, O-Mn 1,2), and α−1,6-mannans (gray, Mn 1,6). While all isolates share similar glucan components, differences in peak intensities are observed (**C**). All spectral processing and peak integrations were performed using TopSpin 4.1.4, calculations for relative abundance were conducted in Excel, and graphical representations were generated using Origin 2021.
+
+[![Image 5: Fig 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d402/13055393/48cffcf4a7be/spectrum.03043-25.f005.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d402/13055393/ec2c10edc617/spectrum.03043-25.f005.jpg)
+
+**Fig 5**
+Determination of the biofilm level of _C. parapsilosis_ isolates under _in vitro_ conditions and expression of cell wall-related genes at various stages of biofilm formation. Determination of biofilm level of _C. parapsilosis_ isolates using crystal violet (**A**) and CLSM (**B and C**). Principal component analysis (PCA) plot of _C. parapsilosis_ isolates under planktonic conditions (**D**). Variance stabilizing transformation was applied to planktonic samples for the PCA plot. The x-axis shows the dimension with most variance computed using the top 500 genes that have the most variance across samples, and the y-axis shows PC2, with the second-most variation in data. Expression of cell-wall related genes in planktonic condition across strains Cp10–Cp12 relative to Cp9 at each time point (**E**). * _P_ ≤ 0.05 and ** _P_ ≤ 0.01. The Wilcoxon Signed Rank Test was used for analysis.
+
+[![Image 6: Fig 6](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d402/13055393/db8820c3dd60/spectrum.03043-25.f006.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d402/13055393/266f4ab07a30/spectrum.03043-25.f006.jpg)
+
+**Fig 6**
+Transcriptomic responses of _C. parapsilosis_ isolates at various stages of biofilm formation. Cellular components (**A**) upregulated and (**B**) downregulated in Cp10–Cp12 relative to Cp9 at each time point in the biofilm condition. Log2 fold change of gene expression in Cp10–Cp12 was obtained for each strain relative to Cp9 in each time point in the biofilm condition to identify strain-specific changes in expression. Figure depicts (**A**) upregulated and (**B**) downregulated cellular components that are enriched in at least one of the Cp10–Cp12 strains at a biofilm time point relative to Cp9.
+
+[![Image 7: Fig 7](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d402/13055393/4c07aa9fa71b/spectrum.03043-25.f007.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d402/13055393/e7aaa5db2822/spectrum.03043-25.f007.jpg)
+
+**Fig 7**
+_In vitro_ and _in vivo_ determination of echinocandin and AMB tolerance of the _C. parapsilosis_ isolates. Tolerance of biofilms of the serial isolates to micafungin _in vitro_ (**A**). Tolerance of the serial isolates to caspofungin in a systemic infection mouse model of candidemia based on CFU enumeration in the kidney (**B**), spleen (**C**), and liver (**D**). Tolerance of biofilms of the serial isolates to AMB _in vitro_ (**E**). Tolerance of the serial isolates to LAMB in a systemic infection mouse model of candidemia based on CFU enumerations in the kidney (**F**), spleen (**G**), and liver (**H**). _In vitro_ antifungal biofilm tolerance determination used fully mature biofilms after 3-, 8-, and 24-h antifungal drug exposure by plating and CFU enumeration against untreated controls at pertinent time points. _In vivo_ antifungal tolerance determination used C57BL/6 mice intravenously infected with 2 × 10 7 fungal cells. Organs were harvested at designated time points, homogenized, and plated on YPD plates for CFU counting. Antifungal treatment (5 mg/kg) was started 24 h post-infection, and 5 mice were used for each isolate at each time point (each dot represents one mouse). ** _P_ ≤ 0.01 and *** _P_ ≤ 0.001. The Wilcoxon Signed Rank Test was used for analysis.
+
+[![Image 8: Fig 8](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d402/13055393/007272697ac2/spectrum.03043-25.f008.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d402/13055393/d515f6773129/spectrum.03043-25.f008.jpg)
+
+**Fig 8**
+Interaction of _C. parapsilosis_ isolates with primary human macrophages and neutrophils. Production of proinflammatory cytokines (**A**), phagocytosis (**B**), and ROS production (**C**) induced by the serial isolates during interaction with primary human macrophages. Survival during interaction with primary human macrophages (**D**). Phagocytosis (**E**) and ROS production (**F**) induced by serial isolates during interactions with primary human neutrophils. Survival during interaction with primary human neutrophils (**G**). Cytokine concentrations were measured by ELISA at 24 h post-infection, whereas phagocytosis was measured by MFI of FITC-labeled _C. parapsilosis_ at 1 h post-infection (only intracellular cells), and macrophage/neutrophil ROS was determined by measuring the MFI of dihydrorhodamine 123 at 3 h post-infection. Survival during interaction with neutrophils was determined by normalizing CFUs at designated time points against the initial inoculum. Survival during interaction with macrophages was measured by normalizing intracellular CFUs at designated time points against pertinent intracellular cells at 1 h post-infection. Swarming of primary human neutrophils in the presence of the serial isolates (**H**). * _P_ ≤ 0.05 and ** _P_ ≤ 0.01. The Wilcoxon Signed Rank Test was used for analysis.
+
+[![Image 9: Fig 9](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d402/13055393/e778187aaa08/spectrum.03043-25.f009.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d402/13055393/24d6c9e0aefc/spectrum.03043-25.f009.jpg)
+
+**Fig 9**
+Transcriptomic responses of macrophages toward serial isolates of _C. parapsilosis_. PCA plot of infected macrophages and uninfected macrophages (**A**). GO-term pathway analysis (upregulated shown) of macrophages infected with the later isolates (**B**). Enrichment of transcripts associated with M1 polarized macrophages (marked as black vertical lines) infected in the later isolates estimated using GSEA (**C–E**). The x-axis shows the ranked order of the transcripts by fold change, and the y-axis shows the enrichment score, a running sum statistic based on the ranked order of genes. The negative NES and _P_-values indicate that transcripts associated with M1 polarized macrophages are significantly enriched among downregulated genes in later isolates.
+
+[![Image 10: Fig 10](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d402/13055393/46b7c1c4be11/spectrum.03043-25.f010.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/d402/13055393/e67cc888d5d7/spectrum.03043-25.f010.jpg)
+
+**Fig 10**
+Later _C. parapsilosis_ isolates had a transiently higher survival in a systemic infection mouse model of candidemia**.** CFUs at each timepoint are shown in the spleen (**A**), kidney (**B**), and liver (**C**). Each dot represents a single mouse. C57BL/6 mice intravenously infected with 2 × 10 7 fungal cells, organs were harvested at designated time points, homogenized, and plated on YPD plates for CFU counting. Five mice were used for each isolate at each time point. * _P_ ≤ 0.05. The Wilcoxon signed-rank test was used for analysis.
+
+## References
+
+1.       1.    Daneshnia F, de Almeida Júnior JN, Ilkit M, Lombardi L, Perry AM, Gao M, Nobile CJ, Egger M, Perlin DS, Zhai B, Hohl TM, Gabaldón T, Colombo AL, Hoenigl M, Arastehfar A. 2023. Worldwide emergence of fluconazole-resistant Candida parapsilosis: current framework and future research roadmap. Lancet Microbe 4:e470–e480. doi: 10.1016/S2666-5247(23)00067-8 - [DOI](https://doi.org/10.1016/s2666-5247(23)00067-8) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC10634418/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/37121240/)
+
+2.       1.    Tóth R, Nosek J, Mora-Montes HM, Gabaldon T, Bliss JM, Nosanchuk JD, Turner SA, Butler G, Vágvölgyi C, Gácser A. 2019. Candida parapsilosis: from genes to the bedside. Clin Microbiol Rev 32:e00111-18. doi: 10.1128/CMR.00111-18 - [DOI](https://doi.org/10.1128/cmr.00111-18) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6431126/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/30814115/)
+
+3.       1.    Gabaldón T. 2024. Threats from the Candida parapsilosis complex: the surge of multidrug resistance and a hotbed for new emerging pathogens. Microbiol Mol Biol Rev 88:e0002923. doi: 10.1128/mmbr.00029-23 - [DOI](https://doi.org/10.1128/mmbr.00029-23) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC11653726/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/39508581/)
+
+4.       1.    Fekkar A, Blaize M, Bouglé A, Normand A-C, Raoelina A, Kornblum D, Kamus L, Piarroux R, Imbert S. 2023. Hospital outbreak of fluconazole-resistant Candida parapsilosis: arguments for clonal transmission and long-term persistence. Antimicrob Agents Chemother 95:e02036-20. doi: 10.1128/AAC.02036-20 - [DOI](https://doi.org/10.1128/aac.02036-20) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8092880/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/33593841/)
+
+5.       1.    Brassington PJT, Klefisch F-R, Graf B, Pfüller R, Kurzai O, Walther G, Barber AE. 2025. Genomic reconstruction of an azole-resistant Candida parapsilosis outbreak and the creation of a multi-locus sequence typing scheme: a retrospective observational and genomic epidemiology study. Lancet Microbe 6:100949. doi: 10.1016/j.lanmic.2024.07.012 - [DOI](https://doi.org/10.1016/j.lanmic.2024.07.012) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/39557054/)
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Grants and funding
+
+*   [R01AI132638, R01AI176658/National Institute of Allergy and Infectious Diseases](https://pubmed.ncbi.nlm.nih.gov/?term=R01AI132638%2C+R01AI176658%2FNational+Institute+of+Allergy+and+Infectious+Diseases%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant R01AI132638, R01AI176658/National Institute of Allergy and Infectious Diseases")
+*   [R01AI173270/National Institute of Allergy and Infectious Diseases](https://pubmed.ncbi.nlm.nih.gov/?term=R01AI173270%2FNational+Institute+of+Allergy+and+Infectious+Diseases%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant R01AI173270/National Institute of Allergy and Infectious Diseases")
+*   [K22AI163399/National Institute of Allergy and Infectious Diseases](https://pubmed.ncbi.nlm.nih.gov/?term=K22AI163399%2FNational+Institute+of+Allergy+and+Infectious+Diseases%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant K22AI163399/National Institute of Allergy and Infectious Diseases")
+*   [R35GM156045/GM/NIGMS NIH HHS/United States](https://pubmed.ncbi.nlm.nih.gov/?term=R35GM156045%2FGM%2FNIGMS+NIH+HHS%2FUnited+States%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant R35GM156045/GM/NIGMS NIH HHS/United States")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Atypon](https://journals.asm.org/doi/10.1128/spectrum.03043-25?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)

@@ -1,0 +1,22 @@
+---
+title: "Integrative proteogenomics maps multifactorial aetiology, progression and therapeutic vulnerabilities in gastric cancer."
+title_zh: 整合蛋白质基因组学揭示胃癌的多因素病因、进展及治疗靶点。
+authors: "Ya-Hsuan Chang, Tzu-Chan Hong, Kuen-Tyng Lin, Yi-Jing Hsiao, Hsiang-En Hsu, Juanilita T Waniwan, Rodrigo Espinoza Silva, I-Rue Lai, Po-Chu Lee, Ming-Tsan Lin, Chia-Tung Shun, Min-Shu Hsieh, Yi-Ju Chen, Song-Wei Wang, Wen-Hung Hsu, I-Chen Wu, Yao-Kuang Wang, Ching-Chun Li, Jaw-Yuan Wang, Yin-Chen Hsu, Hao Fang, Ze-Shiang Lin, Wen-Hsin Chang, Jyun-Hong Lin, Yan-Si Chen, Ying-Chieh Ko, Chi-Ya Shen, Yan-Ming Chen, Chia-Yu Wang, Yu-Teng Jheng, Wen-Yi Liu, Yu-Tai Wang, Chang-Wei Yeh, Pei-Rong Huang, Jyh-Ming Liou, Li-Tzong Chen, Chia-Li Han, Deng-Chyang Wu, Hsuan-Yu Chen, Sung-Liang Yu, Ming-Shiang Wu, Yu-Ju Chen, Taiwan Cancer Moonshot Program"
+date: 2026-04-07
+pdf: "https://pubmed.ncbi.nlm.nih.gov/41617485/"
+tags: ["query:bioinfo"]
+score: 7.0
+evidence: 整合蛋白质基因组学和微生物分析以研究癌症病因
+tldr: "胃癌的发生受幽门螺杆菌、环境暴露和微生物群落的共同驱动，但其分子机制尚不明确。本研究通过对154名患者进行整合蛋白基因组学分析，结合环境致癌物和微生物谱，揭示了多环芳烃（如二苯并[a,h]吖啶）的高致癌风险，并定义了三种基于微生物环境的起始生态类型。研究还发现了链球菌富集与紧密连接蛋白破坏的关联，并识别出CDK4等潜在治疗靶点，为胃癌的精准分型和个体化治疗提供了分子图谱。"
+selection_source: fresh_fetch
+motivation: 旨在阐明除幽门螺杆菌感染外，环境致癌物、微生物演替与宿主反应在胃癌发生发展中的复杂分子关联。
+method: 整合了154例初治胃癌患者的肿瘤、癌旁组织及血液的多组学数据（WES、RNA-seq、蛋白质组、磷酸化蛋白质组），并结合致癌物特征和微生物组分析。
+result: "识别出高风险环境致癌物二苯并[a,h]吖啶，定义了三种微生物驱动的起始生态位，并发现链球菌富集与上皮间质转化及紧密连接蛋白受损密切相关。"
+conclusion: 该研究构建了一个受环境和微生物启发的蛋白基因组框架，为胃癌的风险分层、预防策略及寻找临床可行的治疗靶点提供了科学依据。
+---
+
+## 摘要
+背景：胃癌在东亚的发病率极高，其发生源于除幽门螺杆菌（HP）感染之外复杂的宿主-微生物组-环境相互作用。然而，连接环境致癌物、微生物演替和宿主反应的分子架构尚不清楚。目的：通过整合蛋白质基因组、微生物和环境暴露谱分析，阐明胃癌的多因素病因以及临床可操作的亚型和生物标志物。设计：我们建立了来自154名未接受过治疗的台湾患者的配对肿瘤、癌旁黏膜组织和血液的多组学图谱，整合了全外显子组测序、RNA-seq、蛋白质组和磷酸化蛋白质组分析，并结合了致癌物特征、HP状态、微生物组组成和精细的解剖图谱。通过细胞功能实验测试了致癌物的影响。在独立队列中评估了微生物亚型。结果：一种多环芳烃特征——二苯并[a,h]吖啶，被确定为促进侵袭、免疫抑制和预后不良的高风险暴露因素，在该队列中其风险显著超过了亚硝胺相关风险。多层整合定义了三种起始生态：HP驱动的炎症型、非HP微生物富集的免疫沉默型以及无HP且微生物耗竭型。在HP阴性肿瘤中，链球菌富集亚型与紧密连接（CLDN18.2/ZO-1/OCLN）破坏和上皮-间质转化相关；而一部分临床侵袭性病例保留了CLDN18.2高表达的上皮稳定亚型，具有治疗可及性。独立队列研究显示，胃液来源的咽峡炎链球菌丰度与紧密连接蛋白呈负相关。解剖图谱揭示了位置特异性、性别特异性和亚型特异性的致癌网络及激酶活性，包括临床生物标志物阴性肿瘤中的CDK4激活。结合暴露和蛋白质组-免疫状态的决策树模型进一步完善了超越分期的复发和生存预测。结论：该蛋白质基因组学框架定义了基于暴露和微生物组信息的胃癌亚型，为患者分层、预防和可操作的治疗靶点提供了分子方案。
+
+## Abstract
+BACKGROUND: Gastric cancer, with disproportionately higher incidence in East Asia, arises from complex host-microbiome-environment interactions beyond Helicobacter pylori (HP) infection. However, the molecular architecture linking environmental carcinogens, microbial succession and host response remains unclear. OBJECTIVE: To delineate multifactorial aetiologies and clinically actionable subtypes/biomarkers of gastric cancer through integrative proteogenomic, microbial and environmental exposure profiling. DESIGN: We established a multiomics atlas of paired tumour, adjacent mucosa tissues and blood from 154 treatment-naïve Taiwanese patients, integrating whole-exome sequencing, RNA-seq, proteome and phosphoproteome profiling with carcinogen signatures, HP status, microbiome composition and refined anatomical mapping. Cell-based functional assays tested carcinogen effects. Microbial subtype was assessed in an independent cohort. RESULTS: A polycyclic-aromatic-hydrocarbon signature, dibenz[a,h]acridine, emerged as a high-risk exposure promoting invasion, immune suppression and poor survival, significantly exceeding nitrosamine-linked risk in this cohort. Multilayer integration defined three initiation ecologies: HP-driven inflammatory, non-HP microbiome-enriched immune-silent and HP-free microbially depleted states. Among HP-negative tumours, a Streptococcus-enriched subtype associated with tight-junction (CLDN18.2/ZO-1/OCLN) disruption and epithelial-mesenchymal transition, whereas a subset of clinically aggressive cases retained CLDN18.2-high epithelial-stable subtype for therapeutic accessibility. An independent cohort revealed gastric juice-derived Streptococcus anginosus abundance inversely correlated with tight-junction proteins. Anatomical mapping reveals location-specific, sex-specific, subtype-specific oncogenic networks and kinase activity, including CDK4 activation in clinical biomarker-negative tumours. Decision-tree models combining exposure and proteome-immune states refined recurrence and survival prediction beyond stage. CONCLUSION: This proteogenomic framework defines exposure-informed and microbiome-informed gastric cancer subtypes, providing a molecular schema for patient stratification, prevention and actionable therapeutic vulnerabilities.

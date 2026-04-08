@@ -1,0 +1,897 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-04-08T19:50:59.676316+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 4,
+    "deep_cap": 9,
+    "deep_selected": 4,
+    "quick_candidates": 13,
+    "quick_skim_target": 14,
+    "quick_selected": 13
+  },
+  "deep_dive": [
+    {
+      "id": "41946559",
+      "title": "Publicly available multimodal large language models for ocular surface infections: benchmarking against corneal specialists in triage, diagnosis and treatment.",
+      "abstract": "BACKGROUND/AIMS: Ocular surface infections remain a major cause of visual loss worldwide, yet diagnosis often relies on slow or insensitive microbiological techniques. Artificial intelligence may complement emerging molecular tools by supporting rapid triage and diagnostic reasoning. This study benchmarked publicly available multimodal large language models (LLMs) against corneal specialists for the diagnosis, treatment and urgency triage of infectious keratitis and conjunctivitis. METHODS: A single-centre diagnostic-accuracy study included 60 microbiologically confirmed infectious keratitis and conjunctivitis cases, each comprising a slit-lamp photograph and a paired clinical vignette. Six multimodal LLMs (GPT-4o, GPT-5, Gemini, Claude, Perplexity and Grok) were evaluated for diagnosis, treatment and urgency triage under three input conditions (image-only, text-only and image+text). Outputs were compared with two corneal specialists. RESULTS: LLM performance depended strongly on input modality. Image-only accuracy was lowest (best GPT-5, 61.4%; κ=0.38) with frequent misclassification of fungal and Acanthamoeba keratitis and hallucinations confined to this setting. Text input improved results (GPT-5, 83.3%; κ=0.78), though accuracy remained below specialists (87-90%; κ≈0.8). Combined image+text achieved near-human accuracy without consistently surpassing corneal specialists (Perplexity 96.7%; κ=0.95; GPT-5 91.7%; κ=0.87). Treatment accuracy remained lower (81-85% vs 90-98%), while urgency triage matched experts in multimodal input. CONCLUSION: Publicly accessible multimodal LLMs can approach expert-level performance in diagnosis and triage when provided with clinical context and slit-lamp images. Gaps in therapeutic reasoning and rare pathogen recognition underscore the need for targeted refinement and validation. These models may complement specialist care, supporting rapid triage and integration with molecular or metagenomic diagnostics, especially in resource-limited settings.",
+      "authors": [
+        "Carlos Campo-Beamud",
+        "Antonio Adan Ruiz",
+        "Jesús Bastante Quijano",
+        "Esther Campo Beamud",
+        "Francisco Javier Gómez-Romero",
+        "Alfredo Julian Fernández Ruíz",
+        "Sergio Copete"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41946559/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "multimodal LLMs for infection diagnosis and triage",
+      "llm_evidence_cn": "多模态大语言模型用于感染诊断和分诊",
+      "llm_evidence": "多模态大语言模型用于感染诊断和分诊",
+      "canonical_evidence": "多模态大语言模型用于感染诊断和分诊",
+      "llm_tldr_en": "Benchmarks multimodal LLMs against specialists for diagnosing and triaging ocular surface infections.",
+      "llm_tldr_cn": "评估多模态大语言模型在眼表感染诊断、治疗和分诊中的表现。",
+      "llm_tldr": "评估多模态大语言模型在眼表感染诊断、治疗和分诊中的表现。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "multimodal models combining sequence structure phenotype and text",
+      "matched_requirement_id": "req-24",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41759557",
+      "title": "Alterations in the gut virome of children with allergic rhinitis: enrichment of pro-inflammatory bacteriophages and depletion of fungal viruses.",
+      "abstract": "This study aimed to characterize the gut virome in children with allergic rhinitis (AR) and explore its interactions with immune markers and allergens. Metagenomic sequencing was performed on fecal samples from 16 AR and 17 healthy control (HC) children. Viral genes (VGs) were identified and taxonomically annotated using BLASTP against the NCBI NR database. Virome diversity, differential abundance, and correlations with IgE were analyzed using LEfSe, random forest, and Spearman correlation. While alpha diversity did not differ, beta diversity revealed subtle compositional trends. Taranisvirus was enriched in AR and positively correlated with total IgE (ρ = 0.4647, P = 0.045). Mitovirus and Duamitovirus were depleted in AR and negatively correlated with allergens. Virus-bacteria co-occurrence network analysis revealed a reconfigured ecological interactome in AR, characterized by pro-phage-centric associations that may disrupt mucosal immune homeostasis. Random forest identified total IgE, milk, and dust mite as top discriminators. This first study of the gut virome in pediatric AR reveals a pro-inflammatory phage enrichment and protective fungal virus depletion, implicating the virome in modulating Th2 immunity. These findings suggest a potential correlation between virome alterations and allergic diseases, which may inform future research on virome-targeted interventions.IMPORTANCEAllergic rhinitis is a prevalent childhood condition with a significant impact on quality of life, yet its pathogenesis is not fully understood. While the bacterial microbiome has been studied, the role of the gut virome remains largely unexplored. Our study provides the first evidence of gut virome dysbiosis in children with allergic rhinitis. We identified specific pro-inflammatory bacteriophages that are enriched and correlated with IgE levels, as well as protective fungal viruses that are depleted. These findings offer new perspectives on allergic disease pathogenesis by suggesting a potential role of the virome in modulating host immunity. This work not only opens a new avenue for understanding the environmental and microbial drivers of allergic diseases but also suggests the potential for novel virome-based diagnostics and therapeutic strategies, such as phage therapy, which could have a broad impact on clinical practice.This study is registered with ClinicalTrials.gov as ChiCTR2400085982.",
+      "authors": [
+        "Wei Yang",
+        "Lindong Shi",
+        "Xiuyun Li",
+        "Fuguang Rao",
+        "Rongrong Luo",
+        "Congfu Huang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41759557/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "metagenomic sequencing and random forest for virome analysis",
+      "llm_evidence_cn": "宏基因组测序和随机森林用于病毒组分析",
+      "llm_evidence": "宏基因组测序和随机森林用于病毒组分析",
+      "canonical_evidence": "宏基因组测序和随机森林用于病毒组分析",
+      "llm_tldr_en": "Uses metagenomics and random forest to identify gut virome alterations and pro-inflammatory phages in allergic rhinitis.",
+      "llm_tldr_cn": "利用宏基因组学和随机森林识别过敏性鼻炎患者肠道病毒组的变化和促炎噬菌体。",
+      "llm_tldr": "利用宏基因组学和随机森林识别过敏性鼻炎患者肠道病毒组的变化和促炎噬菌体。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for metagenomic pathogen detection and classification",
+      "matched_requirement_id": "req-11",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41810942",
+      "title": "Genomic insights into a clade-specific",
+      "abstract": "Candida tropicalis is a leading cause of invasive candidiasis in the Asia-Pacific region with reported crude mortality rates exceeding 50%. The rising prevalence of azole-resistant strains presents a significant clinical challenge. We analyzed 1,016 C. tropicalis clinical isolates collected over nine years from 27 hospitals across North India. Fluconazole resistance was detected in 5.1% (n = 52) of isolates, with cross-resistance observed to voriconazole in 55.7% and itraconazole in 44.2% of isolates. Multilocus sequence typing (MLST) analysis of global 1,630 isolates including 208 Indian and whole-genome sequencing of 716 global isolates (139 Indian) confirmed the clonal emergence and persistence of azole-resistant MLST clade 4 strains in Indian hospitals. Phylogenomic analyses identified that Indian azole-resistant lineage was closely related to azole-resistant isolates from mainland China and Taiwan. The underlying mechanism of resistance involved hotspot mutations (Y132F) in the ERG11 gene along with its duplication, overexpression, and twofold high ergosterol content. Comparative transcriptomics of two clinical isolates exhibiting >512 fold difference in fluconazole susceptibility identified upregulation of virulence-associated genes, ALS7 gene (eightfold), SAP7 and SAP9 (1.6- and 2-fold, respectively) in azole-resistant isolate. Furthermore, azole-resistant isolates showed robust biofilm-associated metabolic activity (twofold), reduced β-glucan exposure, and greater survival in both neutrophil and macrophage killing assays. Notably, azole-resistant lineage exhibits several traits associated with adhesion and immune evasion that could possibly enable its spread in healthcare settings and signals the beginning of a greater spread of this clone. The urgent need for continuous genomic surveillance and antifungal stewardship is warranted to mitigate the spread of multidrug-resistant C. tropicalis.IMPORTANCEInvasive fungal infections affect 6.5 million people annually and are associated with high mortality rates. Despite being the leading cause of invasive yeast infections in the Asia-Pacific, this is the first comprehensive study of Candida tropicalis from India documenting the emergence of azole-resistant clonal lineage (clade 4) in several hospitals in India. Azole resistance is driven by mutations, gene duplication, and overexpression of its target gene ERG11. The Indian azole-resistant isolates showed high genetic relatedness with those from China. Also, resistant isolate showed overexpression of virulence-related genes and robust biofilm formation. Notably, reduced β-glucan exposure in fluconazole-resistant isolates may contribute to their decreased susceptibility to the innate immune system. Importantly, this study provides evidence for the emergence of azole-resistant C. tropicalis lineage in India, which exhibits several traits associated with adhesion and immune evasion that could possibly enable its spread in healthcare settings leading to a public health concern.",
+      "authors": [
+        "Kusum Jain",
+        "Nityendra Shukla",
+        "Amtoj Kaur",
+        "Barsha Kalita",
+        "Shriya Srivastava",
+        "Suhani Yadav",
+        "Preeti Rani",
+        "Poornima Kagra",
+        "Ashutosh Singh",
+        "Komal Chaudhary",
+        "Hardeep Kaur",
+        "Jenish Patel",
+        "Manju Chauhan",
+        "Bansidhar Tarai",
+        "Jitendra Narayan",
+        "Neeraj Chauhan",
+        "Anuradha Chowdhary"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41810942/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Phylogenomic analyses for monitoring azole-resistant fungal clades",
+      "llm_evidence_cn": "用于监测耐唑类真菌进化分枝的系统基因组分析",
+      "llm_evidence": "用于监测耐唑类真菌进化分枝的系统基因组分析",
+      "canonical_evidence": "用于监测耐唑类真菌进化分枝的系统基因组分析",
+      "llm_tldr_en": "Uses phylogenomics to track the emergence and persistence of drug-resistant Candida tropicalis in hospitals.",
+      "llm_tldr_cn": "利用系统基因组学追踪医院中耐药热带念珠菌的出现和持续存在。",
+      "llm_tldr": "利用系统基因组学追踪医院中耐药热带念珠菌的出现和持续存在。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI methods for genomic surveillance and outbreak monitoring",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41946910",
+      "title": "Integrating chemical, genetic, and feasibility assessments for anti-tubercular target validation.",
+      "abstract": "Despite the approval of two first-in-class anti-tuberculars over the past two decades, the global burden of tuberculosis (TB) remains unacceptably high, in part due to the emergence and spread of drug-resistant strains of Mycobacterium tuberculosis (Mtb). This review summarizes advances and ongoing challenges in anti-TB drug discovery, focusing on identifying and validating novel targets. Highlighted is a framework developed by the TB Drug Accelerator (TBDA) consortium for target validation in Mtb. Two computational platforms, DAIKON and PARSNIP, allow the systematic evaluation of targets across multiple dimensions, including chemical validation, genetic essentiality, vulnerability, and the feasibility to identify drug-like molecules for a target of interest. Case studies of Pks13 and NadE illustrate how these parameters guide target prioritization and risk assessment. By integrating these metrics, the framework enables dynamic, transparent target ranking, supporting development of both pan-TB and treatment-shortening regimens. This paradigm is adaptable to other bacterial pathogens and is designed to improve evidence-based decision-making in antibacterial drug discovery.",
+      "authors": [
+        "Dirk Schnappinger",
+        "Steven J Berthel",
+        "Helena I M Boshoff",
+        "Inna V Krieger",
+        "Paridhi Sukheja",
+        "Saswati Panda",
+        "Siddhant Rath",
+        "Kelsey Briggs",
+        "Xuelin Bian",
+        "Sari Rasheed",
+        "Laura A T Cleghorn",
+        "Sandeep Ghorpade",
+        "Dirk A Lamprecht",
+        "Nader Fotouhi",
+        "Rolf Müller",
+        "Carl Nathan",
+        "Tanya Parish",
+        "Kyu Rhee",
+        "Peter Warner",
+        "Case W McNamara",
+        "Jeremy M Rock",
+        "James C Sacchettini",
+        "Valerie Mizrahi"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41946910/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Computational platforms for anti-tubercular target validation",
+      "llm_evidence_cn": "用于抗结核靶点验证的计算平台",
+      "llm_evidence": "用于抗结核靶点验证的计算平台",
+      "canonical_evidence": "用于抗结核靶点验证的计算平台",
+      "llm_tldr_en": "Reviews computational platforms DAIKON and PARSNIP for systematic validation of novel anti-TB drug targets.",
+      "llm_tldr_cn": "评述了用于系统验证新型抗结核药物靶点的计算平台DAIKON和PARSNIP。",
+      "llm_tldr": "评述了用于系统验证新型抗结核药物靶点的计算平台DAIKON和PARSNIP。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "41617485",
+      "title": "Integrative proteogenomics maps multifactorial aetiology, progression and therapeutic vulnerabilities in gastric cancer.",
+      "abstract": "BACKGROUND: Gastric cancer, with disproportionately higher incidence in East Asia, arises from complex host-microbiome-environment interactions beyond Helicobacter pylori (HP) infection. However, the molecular architecture linking environmental carcinogens, microbial succession and host response remains unclear. OBJECTIVE: To delineate multifactorial aetiologies and clinically actionable subtypes/biomarkers of gastric cancer through integrative proteogenomic, microbial and environmental exposure profiling. DESIGN: We established a multiomics atlas of paired tumour, adjacent mucosa tissues and blood from 154 treatment-naïve Taiwanese patients, integrating whole-exome sequencing, RNA-seq, proteome and phosphoproteome profiling with carcinogen signatures, HP status, microbiome composition and refined anatomical mapping. Cell-based functional assays tested carcinogen effects. Microbial subtype was assessed in an independent cohort. RESULTS: A polycyclic-aromatic-hydrocarbon signature, dibenz[a,h]acridine, emerged as a high-risk exposure promoting invasion, immune suppression and poor survival, significantly exceeding nitrosamine-linked risk in this cohort. Multilayer integration defined three initiation ecologies: HP-driven inflammatory, non-HP microbiome-enriched immune-silent and HP-free microbially depleted states. Among HP-negative tumours, a Streptococcus-enriched subtype associated with tight-junction (CLDN18.2/ZO-1/OCLN) disruption and epithelial-mesenchymal transition, whereas a subset of clinically aggressive cases retained CLDN18.2-high epithelial-stable subtype for therapeutic accessibility. An independent cohort revealed gastric juice-derived Streptococcus anginosus abundance inversely correlated with tight-junction proteins. Anatomical mapping reveals location-specific, sex-specific, subtype-specific oncogenic networks and kinase activity, including CDK4 activation in clinical biomarker-negative tumours. Decision-tree models combining exposure and proteome-immune states refined recurrence and survival prediction beyond stage. CONCLUSION: This proteogenomic framework defines exposure-informed and microbiome-informed gastric cancer subtypes, providing a molecular schema for patient stratification, prevention and actionable therapeutic vulnerabilities.",
+      "authors": [
+        "Ya-Hsuan Chang",
+        "Tzu-Chan Hong",
+        "Kuen-Tyng Lin",
+        "Yi-Jing Hsiao",
+        "Hsiang-En Hsu",
+        "Juanilita T Waniwan",
+        "Rodrigo Espinoza Silva",
+        "I-Rue Lai",
+        "Po-Chu Lee",
+        "Ming-Tsan Lin",
+        "Chia-Tung Shun",
+        "Min-Shu Hsieh",
+        "Yi-Ju Chen",
+        "Song-Wei Wang",
+        "Wen-Hung Hsu",
+        "I-Chen Wu",
+        "Yao-Kuang Wang",
+        "Ching-Chun Li",
+        "Jaw-Yuan Wang",
+        "Yin-Chen Hsu",
+        "Hao Fang",
+        "Ze-Shiang Lin",
+        "Wen-Hsin Chang",
+        "Jyun-Hong Lin",
+        "Yan-Si Chen",
+        "Ying-Chieh Ko",
+        "Chi-Ya Shen",
+        "Yan-Ming Chen",
+        "Chia-Yu Wang",
+        "Yu-Teng Jheng",
+        "Wen-Yi Liu",
+        "Yu-Tai Wang",
+        "Chang-Wei Yeh",
+        "Pei-Rong Huang",
+        "Jyh-Ming Liou",
+        "Li-Tzong Chen",
+        "Chia-Li Han",
+        "Deng-Chyang Wu",
+        "Hsuan-Yu Chen",
+        "Sung-Liang Yu",
+        "Ming-Shiang Wu",
+        "Yu-Ju Chen",
+        "Taiwan Cancer Moonshot Program"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41617485/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Integrative proteogenomic and microbial profiling for cancer etiology",
+      "llm_evidence_cn": "整合蛋白质基因组学和微生物分析以研究癌症病因",
+      "llm_evidence": "整合蛋白质基因组学和微生物分析以研究癌症病因",
+      "canonical_evidence": "整合蛋白质基因组学和微生物分析以研究癌症病因",
+      "llm_tldr_en": "Establishes a multi-omics atlas to link microbial succession and host response in gastric cancer progression.",
+      "llm_tldr_cn": "建立多组学图谱，将胃癌进展中的微生物演替与宿主反应联系起来。",
+      "llm_tldr": "建立多组学图谱，将胃癌进展中的微生物演替与宿主反应联系起来。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41685898",
+      "title": "Profound cell wall remodeling in",
+      "abstract": "Antifungal tolerance can promote the emergence of resistance yet often incurs fitness costs for fungal pathogens. How tolerant populations compensate for these deficits and how they may be therapeutically targeted remain poorly understood. Here, we investigate four sequential Candida parapsilosis isolates recovered from a patient with persistent candidemia and failure of micafungin therapy. The infection was ultimately cleared with liposomal amphotericin B (LAMB). Whole-genome sequencing (WGS) confirmed clonal relatedness and the absence of known resistance mutations. Later isolates displayed marked cell wall remodeling (CWR), characterized by increased mannan and reduced β-glucan content, as revealed by microscopy and solid-state nuclear magnetic resonance. These isolates formed thicker biofilms and displayed enhanced echinocandin tolerance but paradoxically showed increased susceptibility to amphotericin B (AMB) in vitro and during systemic infection in mice. Despite a complex mutational landscape, transcriptomic profiling across planktonic and biofilm growth showed minimal divergence from the earliest isolate. Functionally, evolved isolates suppressed M1 macrophage polarization, dampened proinflammatory cytokine production, survived better during neutrophil interactions, and transiently increased fungal burden in vivo. These findings show that host-driven CWR could promote echinocandin tolerance while simultaneously sensitizing C. parapsilosis to AMB. Our results suggest that alternating echinocandin and LAMB therapy may effectively eliminate echinocandin-tolerant fungal populations.IMPORTANCEAntifungal tolerance is increasingly recognized as a precursor to resistance, yet its clinical and biological consequences remain poorly defined. By analyzing sequential Candida parapsilosis isolates from a case of persistent candidemia, we show that cell wall remodeling is associated with echinocandin tolerance, alters host immune interactions, and increases susceptibility to amphotericin B (AMB). These findings reveal how tolerance-associated adaptations shape pathogen fitness during infection and highlight the therapeutic potential of alternating echinocandin and AMB therapy. This work advances our understanding of antifungal tolerance and suggests that exploiting opposing drug susceptibilities may improve treatment outcomes for challenging-to-treat Candida infections.",
+      "authors": [
+        "Farnaz Daneshnia",
+        "Liuyang Cai",
+        "Deepika Gunasekaran",
+        "Isha Gautam",
+        "Austin M Perry",
+        "Pegah Mosharaf Ghahfarokhy",
+        "Arefeh Ebadati",
+        "Julieta Munoz",
+        "Dorian Padilla",
+        "Süleyha Hilmioglu-Polat",
+        "Shenglin Mei",
+        "Daniel J Floyd",
+        "Miquel Àngel Schikora-Tamarit",
+        "Diego Fuentes",
+        "Maria Artigues-Lleixà",
+        "Louise A Walker",
+        "Samuel M Gonçalves",
+        "Mostafa Salehi",
+        "Agostinho Carvalho",
+        "Jigar V Desai",
+        "David S Perlin",
+        "Carol A Munro",
+        "Alex Hopke",
+        "Tuo Wang",
+        "Toni Gabaldón",
+        "Wenjie Fang",
+        "Clarissa J Nobile",
+        "Michael K Mansour",
+        "Amir Arastehfar"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41685898/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Whole-genome sequencing for resistance and tolerance analysis",
+      "llm_evidence_cn": "全基因组测序用于耐药性和耐受性分析",
+      "llm_evidence": "全基因组测序用于耐药性和耐受性分析",
+      "canonical_evidence": "全基因组测序用于耐药性和耐受性分析",
+      "llm_tldr_en": "Uses WGS to study cell wall remodeling and antifungal tolerance in Candida parapsilosis isolates.",
+      "llm_tldr_cn": "利用全基因组测序研究近平滑念珠菌的细胞壁重塑和抗真菌耐受性。",
+      "llm_tldr": "利用全基因组测序研究近平滑念珠菌的细胞壁重塑和抗真菌耐受性。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for antimicrobial resistance prediction from genomes",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41757926",
+      "title": "Identification of",
+      "abstract": "Rapid and accurate identification of Aspergillus species in clinical microbiology laboratories is crucial for aspergillosis diagnosis and antifungal therapy. However, traditional methods still face challenges in distinguishing phylogenetically related species due to their morphological similarities. This study presents FungalNet, a deep learning model integrating ResNet-50 architecture with Focal Loss algorithm, specifically designed to enhance feature extraction for Aspergillus identification. A total of 12,000 high-resolution images were obtained from lactophenol cotton blue-stained slide preparations under a 100× oil immersion objective, among which 311 images were excluded through a novel quality control approach combining fivefold cross-validation and expert manual review. The performance of four deep learning models (FungalNet and three established models) for identifying Aspergillus species and sections was evaluated using the remaining 11,689 qualified images. FungalNet demonstrated superior classification performance, achieving overall accuracies of 98.45% and 97.85% at the section and species levels, respectively. These results indicate that FungalNet shows significant promise for rapid and accurate identification of Aspergillus species. With further optimization and multicenter validation, this tool could potentially be integrated into routine diagnostic workflows to enhance the efficiency and reliability of fungal identification in clinical settings.IMPORTANCEThis study integrates microscopic morphology identification with deep learning to address the challenge of accurate Aspergillus species identification. Twelve clinically isolated Aspergillus species belonging to eight different sections were included. From touch-tape slide preparations with lactophenol cotton blue staining under a 100× oil immersion objective, 11,689 qualified images were collected and analyzed using FungalNet (our proposed model) along with three established models (GoogLeNet, ResNet-50, and Xception). The results showed that FungalNet demonstrated superior performance in Aspergillus identification, achieving the highest classification accuracy at both section (98.45%) and species (97.85%) levels. Given its rapid turnaround time and cost-effectiveness, this AI-based image analysis approach shows promising potential for the rapid and accurate identification of Aspergillus species in clinical microbiology laboratories.",
+      "authors": [
+        "Meng Tan",
+        "Zhe Guo",
+        "Yanyi Wang",
+        "Xinyi Xu",
+        "Wei Cao",
+        "Zhaoyang Liu",
+        "Chuanhao Jiang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41757926/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Deep learning for fungal pathogen identification from images",
+      "llm_evidence_cn": "深度学习用于图像中的真菌病原体识别",
+      "llm_evidence": "深度学习用于图像中的真菌病原体识别",
+      "canonical_evidence": "深度学习用于图像中的真菌病原体识别",
+      "llm_tldr_en": "FungalNet uses ResNet-50 and Focal Loss for rapid, accurate identification of Aspergillus species.",
+      "llm_tldr_cn": "FungalNet 利用 ResNet-50 和 Focal Loss 算法实现曲霉属真菌的快速准确识别。",
+      "llm_tldr": "FungalNet 利用 ResNet-50 和 Focal Loss 算法实现曲霉属真菌的快速准确识别。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "deep learning models for pathogen detection from sequencing data",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41705700",
+      "title": "SET-M33 peptide as a selective",
+      "abstract": "As we face the threat from bacterial pathogens that are resistant to many conventional antibiotics, many current research efforts focus on expanding our arsenal of antimicrobial compounds. However, identifying use cases in which such new antimicrobials can effectively target pathogens while minimizing collateral damage in the commensal microbiota remains a challenge. To tackle this challenge, we focused on one new antimicrobial, the synthetic antimicrobial peptide SET-M33, and examined its ability to target porcine respiratory pathogens and a collection of porcine commensal nasal microbiota members in vitro. Our experiments revealed three key results. First, there were large differences in SET-M33 sensitivity across the tested strains. In particular, pathogenic Glaesserella parasuis was highly sensitive to SET-M33 at concentrations that did not affect the growth of most commensal strains. Second, some of the tested commensal strains (Rothia nasimurium and Staphylococcus aureus) were able to inactivate SET-M33 during in vitro cultivation. Third, despite this potential for SET-M33 inactivation by commensal strains, SET-M33 was still able to selectively eliminate pathogenic G. parasuis from in vitro co-cultures that also contained R. nasimurium. Overall, this study highlights the substantial complexity that emerges from the interplay between antimicrobials, pathogens, and commensals, even within a comparatively simple in vitro system, and provides a template for identifying suitable use cases for newly developed antimicrobials.IMPORTANCEAntimicrobial resistance in pathogenic bacteria is a major global challenge. To tackle it, antimicrobial peptides (AMPs) have emerged as particularly promising candidates, and recent years have seen a rapid expansion of the available AMP arsenal. However, identifying good \"use cases\" for such AMPs-that is, scenarios in which an AMP not only inhibits a pathogen of interest but also avoids disrupting the commensal microbiota-remains challenging. Here, we aimed to develop an experimental framework that enables the rapid detection of such use cases in vitro. As a test case, we focused on the synthetic AMP SET-M33 and examined its effect on several respiratory porcine pathogens and a collection of commensal nasal microbiota strains. We found that even within such a comparatively simple in vitro model system, there is substantial complexity that emerges from the interplay among AMPs, pathogens, and commensals.",
+      "authors": [
+        "Ana Laura Pereira Lourenço",
+        "Oussama Rouam El Khatab",
+        "Chiara Falciani",
+        "Alessandro Pini",
+        "Virginia Aragon",
+        "Marta Cerdà-Cuéllar",
+        "Karl Kochanowski"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41705700/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Targeting pathogens while minimizing collateral damage to microbiota",
+      "llm_evidence_cn": "针对病原体同时减少对菌群的附带损伤",
+      "llm_evidence": "针对病原体同时减少对菌群的附带损伤",
+      "canonical_evidence": "针对病原体同时减少对菌群的附带损伤",
+      "llm_tldr_en": "Evaluates the synthetic peptide SET-M33 for selective targeting of respiratory pathogens over commensals.",
+      "llm_tldr_cn": "评估合成肽 SET-M33 在选择性针对呼吸道病原体而非共生菌方面的能力。",
+      "llm_tldr": "评估合成肽 SET-M33 在选择性针对呼吸道病原体而非共生菌方面的能力。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41773858",
+      "title": "Dissecting the effect of single- and co-infection of TB and COVID-19 pathogens on the sputum microbiome.",
+      "abstract": "UNLABELLED: Tuberculosis (TB) and COVID-19 are both respiratory diseases, and understanding their interaction is important for effective co-infection management. Although some studies have investigated TB and COVID-19 co-infection in terms of immune responses, microbial dysbiosis in such cases remains unexplored. In this study, we understand the interface between TB and COVID-19 by systematically inspecting the microbial composition of sputum samples collected from four groups of individuals: TB only, COVID-19 only, and both TB and COVID-19 (TBCOVID) infected patients, and uninfected group (Controls). Besides metagenomic analysis of the microbiome of these sputum samples, we also performed whole-genome sequencing analysis of a subset of TB-positive samples. Different bioinformatic analyses ensured data quality and revealed significant differences in the microbial composition between Control vs disease groups. To understand the effect of COVID-19 on TB, we compared TBCOVID vs TB samples and observed (i) higher read counts of TB-causing bacteria in the TBCOVID group, and (ii) differential abundance of several taxa, including Capnocytophaga gingivalis. Functional profiling with PICRUSt2 revealed elevated pathways, including the pulmonary surfactant lipid metabolism pathway (with a fold change of 7.46) in the TBCOVID group. Further clustering of these pathways revealed a sub-cluster of individuals with adverse treatment outcomes. Two individuals in this sub-cluster had a respiratory pathogen, Stenotrophomonas maltophilia-knowing such information on key respiratory pathogens in a patient can help personalize the patient's antibiotic regimen. Overall, our study reveals the effect of COVID-19 on the airway microbiome of TB patients and encourages the use of co-microbial/co-pathogen profiling to personalize TB treatment. IMPORTANCE: The community of microbes in an individual's airway tract can play a complex role in respiratory diseases like tuberculosis (TB) and COVID-19. Although changes in microbial composition in TB and COVID-19 patients have been studied separately, we present a first-of-its-kind investigation of the airway-tract microbiome of individuals simultaneously infected with TB and COVID-19 pathogens. Our results highlight that co-infection with COVID-19 in TB patients alters the abundance of certain bacterial species and their related pathways. For instance, Capnocytophaga gingivalis is abundant in co-infected patients, but not in TB-only patients. This species and other differentially abundant species we identified in the co-morbid condition, if replicated in independent cohorts, can help explain how COVID-19 could exacerbate the severity of lung infection in TB patients. Our study also stimulates future longitudinal studies using expanded data sets to understand the role of concomitant pathogens and assess whether adjusting the antibiotic regimen accordingly can improve TB treatment outcomes.",
+      "authors": [
+        "Brintha Vijayakumar Padmavathy",
+        "Ashok Kumar Shanmugavel",
+        "Sivakumar Shanmugam",
+        "Manikandan Narayanan"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41773858/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "metagenomic analysis of TB and COVID-19 co-infection",
+      "llm_evidence_cn": "结核病与新冠病毒共感染的宏基因组分析",
+      "llm_evidence": "结核病与新冠病毒共感染的宏基因组分析",
+      "canonical_evidence": "结核病与新冠病毒共感染的宏基因组分析",
+      "llm_tldr_en": "Analyzes microbial dysbiosis in sputum samples from patients with TB and COVID-19 co-infections using metagenomics.",
+      "llm_tldr_cn": "利用宏基因组学分析结核病和新冠肺炎共感染患者痰液样本中的微生物失调。",
+      "llm_tldr": "利用宏基因组学分析结核病和新冠肺炎共感染患者痰液样本中的微生物失调。",
+      "llm_tags": [
+        "query:pathoai:composite"
+      ],
+      "matched_query_tag": "query:pathoai:composite",
+      "matched_query_text": "Papers central to 病原组学中的 AI 方法, especially work that connects or combines: foundation models for pathogen genomes and pathogen biology; machine learning for metagenomic pathogen classification; deep learning models for pathogen detection from sequencing data; AI methods for genomic surveillance and outbreak monitoring; machine learning for antimicrobial resistance prediction from genomes; machine learning for phylogenetic and transmission inference; multimodal models combining pathogen sequence phenotype and metadata; machine learning for microbiome host interaction pathogen ecology and infection modeling; AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design; foundation models for pathogen genome understanding and surveillance.",
+      "matched_requirement_id": "req-composite-pathoai",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41757897",
+      "title": "Wzc mutation enhances virulence in CRKP ST11-KL64 via complement-mediated lysis and lipopolysaccharide release.",
+      "abstract": "Carbapenem-resistant Klebsiella pneumoniae (CRKP) ST11-KL64 has emerged as the dominant subclone in China. Mutations in Wzc confer a hypermucoviscous (HMV) phenotype and enhanced virulence, but how these mutations regulate capsular polysaccharide (CPS) architecture, whether they alter virulence traits, and the mechanisms and consequences of these alterations remain unclear. We found that the WzcY572D mutation in CRKP ST11-KL64 induced HMV phenotype, increased cell-free CPS production, and elongated CPS chain length. In a mouse peritonitis-septicemia model, Wzc mutant strains caused higher lethality, greater cytokine release, more pronounced inflammatory cell infiltration, and severe tissue damage. These mutants also exhibited increased anti-phagocytic ability and greater serum killing activity compared to the non-mutant strain. Elevated lipopolysaccharide (LPS) levels were detected in serum from mice infected with the mutant strains and in normal human serum incubated with these strains. The mutants showed stronger binding to C5b-9 than non-mutation strains. Notably, pretreatment of mice with TAK-242 reduced the lethality induced by CRB113WzcY572D. Collectively, these findings indicate that Wzc mutation in CRKP ST11-KL64 alters CPS spatial distribution and chain length, leading to HMV phenotype acquisition. These changes enhance complement-mediated bacterial lysis. The lysis of bacterial cells results in increased LPS release, and subsequent stronger inflammatory response and more severe tissue damage, ultimately enhances bacterial virulence.IMPORTANCECarbapenem-resistant Klebsiella pneumoniae (CRKP) ST11-KL64 combines multidrug resistance with elevated virulence, posing a significant public health threat. This study demonstrates that Wzc mutation modulates bacteria-host interactions and enhances bacterial pathogenicity through regulating capsular polysaccharide (CPS) architecture. Our findings provide novel insights into the interplay between CPS biosynthesis, the hypermucoviscous phenotype, and virulence in CRKP ST11-KL64.",
+      "authors": [
+        "Huanhuan Yan",
+        "Yufeng Dai",
+        "Kun Ye",
+        "Qiang Zhao",
+        "Na Guo",
+        "Lifeng Wang",
+        "Jiyong Yang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41757897/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Genomic mutation analysis of pathogen virulence and infection outcome",
+      "llm_evidence_cn": "病原体毒力与感染结果的基因组突变分析",
+      "llm_evidence": "病原体毒力与感染结果的基因组突变分析",
+      "canonical_evidence": "病原体毒力与感染结果的基因组突变分析",
+      "llm_tldr_en": "Identifies how specific mutations in Klebsiella pneumoniae enhance virulence and cause severe tissue damage.",
+      "llm_tldr_cn": "确定肺炎克雷伯菌的特定突变如何增强毒力并导致严重的组织损伤。",
+      "llm_tldr": "确定肺炎克雷伯菌的特定突变如何增强毒力并导致严重的组织损伤。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41817188",
+      "title": "Mapping the geodispersal and evolutionary dynamics of regional Nipah virus strain in Bangladesh.",
+      "abstract": "Nipah virus (NiV) is a zoonotic pathogen causing severe respiratory and neurological disease in humans, with high fatality rates, primarily transmitted from fruit bats to humans through bat-tainted raw date palm sap and fruits. NiV outbreaks have occurred almost annually across 34 of 64 districts in Bangladesh. The study investigated the geodispersal patterns and evolutionary phylodynamics of NiV, aiding in more effective outbreak management strategies in Bangladesh. Phylodynamic and geographic evolutionary analyses were conducted using the nucleoprotein (N) gene sequence (n = 23) isolated from human and bat samples (2016-2023), along with publicly available NiV genomes up through November 2024. Bayesian evolutionary analysis of NiV spatiotemporal data suggested NiV clade expansion and the emergence of a new lineage, possibly driven by genetic mutations over time, and identified potential risk areas for NiV infections. The analysis revealed that Bangladeshi NiV strains diverged into two major lineages, BD-1 and BD-2, around 1984. BD-1 is split into NiV-BD1.1 and BD1.2 (first detected in 2004), while BD-2 emerged in 2008, later diverging into BD2.1 and BD2.2. As of 2023, most bat-derived NiV sequences belong to the BD-2 lineage. The estimated evolutionary rate of NiV in Bangladesh is 4.89 × 10⁻⁴ substitutions/site/year (95% HPD: 3.71 × 10⁻⁴ - 6.45 × 10⁻⁴), with genetic clusters spanning from 6.54 km to 116.09 km. Our findings highlight ongoing evolution, the emergence of sub-lineages, and the geographic expansion of NiV in Bangladesh, underscoring the value of phylogeographic approaches in guiding targeted surveillance and control strategies.IMPORTANCEA comprehensive understanding of the spread and evolution of the Nipah virus is critical, as it causes severe disease and frequent outbreaks in Bangladesh. This study provides a detailed look into how different strains of the Nipah virus have geographically moved and genetically changed over nearly two decades. By analyzing virus samples from fruit bats and infected human cases, the study reveals that the virus has formed two distinct sub-lineages, evolving separately at different times and regions of Bangladesh. Identifying these groups helps pinpoint areas most at risk for future outbreaks. These insights are important for identifying high-risk regions and informing surveillance priorities for early detection and preparedness, particularly in areas with recurring spillover events. Ultimately, this research emphasizes the importance of continuously monitoring Nipah virus evolution in both bats and humans, guiding public health strategies to manage and reduce the impact of this dangerous disease in Bangladesh and other regions.",
+      "authors": [
+        "Md Mahfuzur Rahman",
+        "Shahreen Rahman",
+        "Samiur Rahim",
+        "Mohammad Enayet Hossain",
+        "Syed Moinuddin Satter",
+        "John D Klena",
+        "Shannon Whitmer",
+        "Tahmina Shirin",
+        "Joel M Montgomery",
+        "Ariful Islam",
+        "Jonathan H Epstein",
+        "Maria E Kaczmarek",
+        "Iqbal Kabir Jahid",
+        "Mohammed Ziaur Rahman"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41817188/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Phylodynamic and geographic evolutionary analyses for outbreak management",
+      "llm_evidence_cn": "用于疫情管理的系统动力学和地理演化分析",
+      "llm_evidence": "用于疫情管理的系统动力学和地理演化分析",
+      "canonical_evidence": "用于疫情管理的系统动力学和地理演化分析",
+      "llm_tldr_en": "Analyzes geodispersal and evolution of Nipah virus in Bangladesh to improve outbreak management strategies.",
+      "llm_tldr_cn": "分析孟加拉国尼帕病毒的地理扩散和演化动态，以优化疫情管理策略。",
+      "llm_tldr": "分析孟加拉国尼帕病毒的地理扩散和演化动态，以优化疫情管理策略。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI driven outbreak surveillance genomic epidemiology and transmission modeling",
+      "matched_requirement_id": "req-12",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41757906",
+      "title": "Auranofin and iodoquinol as promising repurposing drugs against filamentous fungi: antifungal activity and cellular alterations.",
+      "abstract": "Opportunistic fungal infections have become an increasing health threat, particularly in immunocompromised individuals, due to their high virulence, biofilm-forming capacity, and resistance to conventional antifungals. Given the limited therapeutic arsenal, drug repurposing represents a promising strategy for antifungal discovery. This study evaluated the antifungal activity and mechanisms of auranofin and iodoquinol against filamentous fungi listed as World Health Organization (WHO) priority pathogens, including Aspergillus fumigatus, Fusarium oxysporum, Scedosporium boydii, Lomentospora prolificans, Rhizopus oryzae, Mucor velutinosus, and Cunninghamella sp. Although Aspergillus flavus is not included in the WHO priority list, it was included in this study due to its clinical relevance as a major cause of aspergillosis and fungal rhinosinusitis. Auranofin displayed fungicidal activity against Aspergillus spp., L. prolificans, S. boydii, and R. oryzae, while iodoquinol exhibited potent but mainly fungistatic effects, with minimum inhibitory concentration values ranging from 0.625 to 20 µM. Both compounds inhibited early growth and reduced preformed biofilms by over 50% in biomass and metabolic activity. Stress susceptibility and fluorescence assays indicated that auranofin interferes with lipid homeostasis, cell wall integrity, and oxidative stress responses, whereas iodoquinol alters membrane lipids, mannose, and chitin distribution, suggesting multitarget surface effects. Scanning electron microscopy revealed consistent ultrastructural alterations, including hyphal deformation and increased extracellular matrix deposition in A. fumigatus and F. oxysporum treated with sub-inhibitory drug concentrations, corroborating the observed cellular stress responses. Drug interaction assays demonstrated additive or synergistic effects with voriconazole and amphotericin B, but not with posaconazole. Overall, auranofin and iodoquinol exhibit broad-spectrum antifungal activity, disrupt fungal morphology and physiology, and represent promising repurposed candidates for developing novel combination therapies against refractory mycoses.IMPORTANCEMycoses caused by opportunistic fungi are an increasingly public health problem, particularly in immunocompromised individuals, due to their high virulence and resistance to conventional antifungals. The World Health Organization's priority fungal pathogens list points out a variety of filamentous fungi, such as Aspergillus fumigatus, A. flavus, Fusarium oxysporum, Scedosporium boydii, Lomentospora prolificans, Rhizopus oryzae, Mucor velutinosus, and Cunninghamella sp. Given the limited therapeutic arsenal to combat them, drug repurposing represents a promising strategy for antifungal discovery. The present study evaluated the antifungal activity and some cellular alterations caused by auranofin and iodoquinol, which are already available in clinical settings to treat rheumatoid arthritis and infections by amoeba, respectively. The data presented in the study revealed that both drugs display a wide spectrum of action against different fungal pathogens, as well as contribute to highlight the potential of them as repurposing drugs to be investigated as alternatives for the treatment of mycoses.",
+      "authors": [
+        "Mariana Ingrid Dutra da Silva Xisto",
+        "Rodrigo Rollin-Pinheiro",
+        "Paloma Cristina Malfetano da Rosa",
+        "Johnatha de Souza Santos",
+        "Nicole Ferreira da Silva Irmão",
+        "Julia Almeida Abi Abib",
+        "Victor Pereira Rochetti",
+        "Yuri de Castro Almeida",
+        "Giulia Maria Pires Dos Santos Freitas",
+        "Jefferson Cypriano",
+        "Eliana Barreto-Bergter"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41757906/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "drug repurposing against WHO priority fungal pathogens",
+      "llm_evidence_cn": "针对世卫组织重点真菌病原体的药物重用",
+      "llm_evidence": "针对世卫组织重点真菌病原体的药物重用",
+      "canonical_evidence": "针对世卫组织重点真菌病原体的药物重用",
+      "llm_tldr_en": "Evaluates auranofin and iodoquinol as repurposed antifungal agents against high-priority filamentous fungi.",
+      "llm_tldr_cn": "评估金诺芬和碘喹啉作为针对高优先级丝状真菌的重用抗真菌药物的效果。",
+      "llm_tldr": "评估金诺芬和碘喹啉作为针对高优先级丝状真菌的重用抗真菌药物的效果。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41757948",
+      "title": "Divergent roles of",
+      "abstract": "Salmonella enterica subsp. enterica serovar typhimurium (S. typhimurium) is a facultative intracellular pathogen causing significant gastrointestinal infections in both humans and animals. The type VI secretion system (T6SS) plays a crucial role in its virulence, facilitating competition with host gut microbiota and promoting infection. While S. typhimurium possesses a single T6SS, it encodes three hcp genes, which are essential for its functionality. To investigate the non-redundant roles of each hcp gene, in this study, we used 16S rRNA sequencing to analyze gut microbiota in BALB/c mice after infection with wild-type (WT) S. typhimurium or three mutant strains (Δhcp1, Δhcp2, and Δhcp3). Our findings revealed that S. typhimurium infection induced severe gut dysbiosis especially on the second day post-infection, which was characterized by a notable increase in Firmicutes and activation of the energy pathways. The deletion of each hcp gene led to distinct changes in bacterial taxa, underscoring the non-redundant function of each hcp. Lactobacillus showed significant effects in both strain main effects and strain-time interaction effects. Despite having only one T6SS, S. typhimurium achieves precise modulation of its functions through the divergent roles of its Hcp proteins, enabling efficient colonization and persistence in the host gut. These findings provide insights into the intricate mechanisms of bacterial adaptation and host-pathogen interactions, offering potential avenues for therapeutic interventions targeting T6SS-mediated dysbiosis.IMPORTANCESalmonella enterica subsp. enterica serovar typhimurium (S. typhimurium) is a facultative intracellular pathogen causing significant gastrointestinal infections in humans and animals. The type VI secretion system (T6SS) plays a crucial role in its virulence, facilitating competition with host gut microbiota and promoting infection. While S. typhimurium possesses a single T6SS, it encodes three hcp genes, which are crucial for its functionality and may exhibit non-redundant roles. In this study, we used 16S rRNA sequencing to analyze gut microbiota in BALB/c mice after infection with wild-type (WT) S. typhimurium or mutant strains (Δhcp1, Δhcp2, Δhcp3). Our findings revealed that the deletion of individual hcp genes led to distinct bacterial taxa changes, underscoring the non-redundant functions of each hcp. Despite having only one T6SS, S. typhimurium achieves precise modulation of its functions through the divergent roles of its Hcp proteins, enabling efficient colonization and persistence in the host gut.",
+      "authors": [
+        "Jia Liu",
+        "Jiao Liu",
+        "Chengjie Feng",
+        "Qinghua Zou"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41757948/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "16S rRNA sequencing to analyze gut microbiota after pathogen infection",
+      "llm_evidence_cn": "使用16S rRNA测序分析病原体感染后的肠道菌群",
+      "llm_evidence": "使用16S rRNA测序分析病原体感染后的肠道菌群",
+      "canonical_evidence": "使用16S rRNA测序分析病原体感染后的肠道菌群",
+      "llm_tldr_en": "Investigates how Salmonella typhimurium T6SS genes influence gut microbiota dysbiosis during infection.",
+      "llm_tldr_cn": "研究鼠伤寒沙门氏菌T6SS基因如何影响感染期间的肠道菌群失调。",
+      "llm_tldr": "研究鼠伤寒沙门氏菌T6SS基因如何影响感染期间的肠道菌群失调。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41759554",
+      "title": "Insights into antibiotic resistomes from gut metagenome-assembled genomes of the free-range pigs.",
+      "abstract": "The pig gut microbiome serves as a reservoir for antibiotic resistance genes (ARGs), which pose a threat to public health and environmental safety. To investigate the presence of ARGs carried by free-range pigs, which have frequent contact with humans and their environment, we characterized the resistome of the pig gut microbiome through metagenomic sequencing of fecal samples from 120 pigs across four provinces in China (Yunnan, Guizhou, Sichuan, and Jiangsu). By constructing metagenome-assembled genomes (MAGs) and gene catalogs, we explored the microbial community structure and ARG distribution. Our analysis revealed a highly diverse array of ARGs, particularly those conferring resistance to multidrug, glycopeptide, peptide, and tetracycline antibiotics. Bacillota A and Actinomycetota were the dominant phyla across samples. However, notable regional differences in microbiota composition and resistance profiles were observed. These differences were likely influenced by local farming practices and environmental conditions. Guizhou harbored 11 unique ARG types, followed by Sichuan (seven), which showed region-specific resistome signatures. Escherichia coli and other microbial taxa were closely linked with ARG abundance, suggesting potential vectors for horizontal gene transfer. Analysis of mobile genetic elements (MGEs) further supported this, revealing a strong linear correlation between MGE and ARG abundance, with transposase elements particularly associated with multidrug ARGs. These findings highlight the central role of MGEs in ARG dissemination and underscore the need for targeted strategies to curb antibiotic resistance in livestock systems. Regional variation in resistome profiles further emphasizes the influence of local agricultural practices on resistance dynamics.IMPORTANCEThe growing prevalence of antibiotic resistance poses a significant global health threat, making it imperative to trace the origins and transmission routes of ARGs. This study delivers a comprehensive genomic reference for the porcine gut microbiota and clarifies how regional farming practices shape distinct resistome profiles. Integrating these data with analyses of mobile genetic elements and microbial hosts reveals the complex interplay among host, microbiota, and environment, thereby extending current knowledge of the pig gut ecosystem. These findings provide an evidence-based foundation for targeted surveillance and intervention strategies to curb antibiotic resistance in livestock and safeguard public health.",
+      "authors": [
+        "Xihui Dai",
+        "Huan Liu",
+        "Xue Bai",
+        "Diyan Li",
+        "Tao Wang",
+        "Hang Zhong",
+        "Huailiang Xu",
+        "Jing Sun"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41759554/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Metagenome-assembled genomes (MAGs) for antibiotic resistome analysis in pig gut",
+      "llm_evidence_cn": "利用宏基因组组装基因组（MAGs）进行猪肠道抗生素耐药组分析",
+      "llm_evidence": "利用宏基因组组装基因组（MAGs）进行猪肠道抗生素耐药组分析",
+      "canonical_evidence": "利用宏基因组组装基因组（MAGs）进行猪肠道抗生素耐药组分析",
+      "llm_tldr_en": "Characterized the antibiotic resistome of free-range pigs using metagenome-assembled genomes.",
+      "llm_tldr_cn": "通过构建宏基因组组装基因组（MAGs），分析了散养猪肠道微生物群的抗生素耐药组。",
+      "llm_tldr": "通过构建宏基因组组装基因组（MAGs），分析了散养猪肠道微生物群的抗生素耐药组。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning and strain level microbiome analysis",
+      "matched_requirement_id": "req-54",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41944907",
+      "title": "The role of multiscale and delayed dynamics in tuberculosis Transmission and control: a mathematical approach.",
+      "abstract": "Transmission of tuberculosis (TB) among human population depends on an individual's infectiousness, which is further determined by the concentration of Mycobacterium tuberculosis (Mtb) in the body. Additionally, Mtb is resistant to dryness, cold, acidic, and alkaline environments and can survive in acidic and alkaline environments for 4-5 years. Mtb in the environment plays a significant role in TB transmission and should not be overlooked. To investigate the epidemiologic relationships among pathogens, hosts, and the environment, we first develop a multiscale TB model that includes multiple transmission routes (human-to-human and environment-to-human) and links Mtb-immune response interactions to TB transmission in population. We comprehensively analyze the dynamic properties of the fast system, slow system, and full system. Analysis results reveal that coupling bacterial processes within-host with transmission mechanisms between-host can trigger diverse complex behaviors, including both forward and backward bifurcation phenomena. This implies that thresholds routinely used to control TB infection or eliminate Mtb from an epidemiological or immunological perspective may fail under specific conditions; that is, even if the basic reproduction number R 0  is less than 1, endemic equilibria may still exist in the system. Second, from a microtherapeutic point of view, we establish an impulsive time-delayed differential equation to characterize the actual medication regimen for TB. The basic reproduction number R 0 '  is defined as the spectral radius of a linear integral operator. Then, we show that R 0 '  is a critical parameter that determines the persistence of the model. More precisely, if  R 0 ' < 1  , the disease-free periodic solution is globally attractive; if  R 0 ' > 1  , the disease is uniformly persistent. Finally, we employ numerical methods to elucidate the interactions between population transmission dynamics and pathogen dynamics. Specifically, the basic reproduction number R 0  of the full system increases rapidly with the rise in Mtb release rate, while its change is relatively slower with an increase in the immune rate. These results highlight the dominant role of chemotherapy, with immunotherapy playing only a supporting role.",
+      "authors": [
+        "Li W, Wang Y, Jin Z.",
+        "Wei Li",
+        "Yi Wang",
+        "Zhen Jin"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41944907/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Mathematical modeling of tuberculosis transmission and control",
+      "llm_evidence_cn": "结核病传播与控制的数学建模",
+      "llm_evidence": "结核病传播与控制的数学建模",
+      "canonical_evidence": "结核病传播与控制的数学建模",
+      "llm_tldr_en": "Develops a multiscale mathematical model to investigate TB transmission routes between humans and the environment.",
+      "llm_tldr_cn": "开发多尺度数学模型，研究人类与环境之间的结核病传播途径。",
+      "llm_tldr": "开发多尺度数学模型，研究人类与环境之间的结核病传播途径。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI driven outbreak surveillance genomic epidemiology and transmission modeling",
+      "matched_requirement_id": "req-12",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41945867",
+      "title": "NQO1-Mediated Anoikis Resistance and Immune Evasion Define a High-Risk Multi-Omic Subtype for Precision Management of T1 High-Grade Bladder Cancer.",
+      "abstract": "T1 high-grade (T1HG) bladder cancer represents an aggressive subset of non-muscle-invasive bladder cancer (NMIBC) with frequent Bacillus Calmette-Guérin (BCG) failure and a high risk of progression, yet current models inadequately guide treatment selection between early cystectomy and bladder preservation. Integrative multi-omics profiling of 147 tumors identifies two clinically distinct subtypes. A high-risk subtype (T1HG1) is defined by coupled anoikis resistance and immune evasion, exhibiting markedly increased progression rates (>80% vs. <20%), poor BCG responsiveness, and a higher likelihood of cystectomy. NAD(P)H:quinone oxidoreductase 1 (NQO1) is identified as a central regulator linking tumor-intrinsic survival to suppression of macrophage-T cell crosstalk. Elevated NQO1 promotes anoikis resistance and reprograms macrophages toward an immunosuppressive phenotype, limiting CXCL9-mediated T cell recruitment and facilitating immune escape. Pharmacologic inhibition of NQO1 using skullcapflavone II restores apoptotic sensitivity and enhances cisplatin efficacy, resulting in significant tumor suppression with favorable tolerability in preclinical models. A multi-omic machine learning framework for T1HG UCB, termed T1HG-UCBguider, integrating clinical, transcriptomic, and methylation features, enables individualized risk stratification and treatment guidance. Validation across seven independent cohorts, demonstrates robust performance in identifying patients at risk of progression and BCG failure. These findings establish a biologically grounded framework for precision management of T1HG bladder cancer.",
+      "authors": [
+        "Bin Guo",
+        "Chunru Xu",
+        "Shufan Fu",
+        "Qiang Cheng",
+        "Juan Li",
+        "Linkuo Shang",
+        "Gaojie Li",
+        "Yang Yang",
+        "Ying Wang",
+        "Yanqing Gong",
+        "Shengwei Xiong",
+        "Jian Fan",
+        "Changwei Yuan",
+        "Mei Zhang",
+        "Yifan Zuo",
+        "Elena Papaleo",
+        "Yue Shi",
+        "Yuan Liang",
+        "Xuesong Li",
+        "Hongzhao Li",
+        "Weimin Ci"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41945867/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "integrative multi-omics profiling for cancer subtypes",
+      "llm_evidence_cn": "癌症亚型的综合多组学分析",
+      "llm_evidence": "癌症亚型的综合多组学分析",
+      "canonical_evidence": "癌症亚型的综合多组学分析",
+      "llm_tldr_en": "Uses multi-omics to identify high-risk bladder cancer subtypes and guide precision treatment.",
+      "llm_tldr_cn": "利用多组学整合分析识别高危膀胱癌亚型，指导精准医疗。",
+      "llm_tldr": "利用多组学整合分析识别高危膀胱癌亚型，指导精准医疗。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41947241",
+      "title": "Microbiota-gut-muscle axis shapes fish muscle texture by regulating collagen synthesis.",
+      "abstract": "BACKGROUND: Increasing studies have emphasized the communication network between the gut microbiome and host organs, revealing that such interactions significantly influence host physiological performances. However, whether a gut-muscle axis exists to regulate muscle quality in animal production is unknown. RESULTS: In two independent cohorts, the muscle hardness of tilapia subjected to a long-term faba bean diet exhibited significant inter-individual variation. RNA-Seq analyses of the high-hardness (H) and low-hardness (L) groups pointed to collagen-based extracellular matrix as a possible factor driving muscle hardness development. Transplantation of gut microbiota from the H donor resulted in enhanced collagen synthesis in gnotobiotic zebrafish. Muscular collagen deposition was featured with an increased abundance of gut Cetobacterium. Gnotobiotic models colonized with live C. somerae exhibited enhanced collagen synthesis. Integrated analyses of microbiome function, bacterial genome, and metabolic profiles identified acetate as a key effector of C. somerae. Acetate incubation upregulated collagen I expression in TGF-β-activated fibroblasts in an acetylation-dependent manner. Mechanistically, acetate promoted the acetylation of SMAD2/3, enhancing its nuclear transport and stability, which ultimately increased collagen expression. An acetate-supplemented feeding experiment corroborated these findings. CONCLUSION: The comprehensive results provided evidences that gut microbes regulated tilapia muscle texture through SMAD2/3 acetylation-driven collagen synthesis. This study expands our understanding of the multifaceted role of the gut-muscle axis in muscle physiology. Furthermore, our findings highlight that targeting gut microbiota and the downstream collagen synthesis pathway could be promising for manipulating muscle quality in animal production. Video Abstract.",
+      "authors": [
+        "Zhe Wang",
+        "Lu-Kuan Li",
+        "Nan-Nan Zhou",
+        "Tong Wang",
+        "Yue-Xin Wang",
+        "Fang Qiao",
+        "Zhen-Yu Du",
+        "Mei-Ling Zhang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41947241/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "gut microbiome and host organ interactions",
+      "llm_evidence_cn": "肠道微生物群与宿主器官相互作用",
+      "llm_evidence": "肠道微生物群与宿主器官相互作用",
+      "canonical_evidence": "肠道微生物群与宿主器官相互作用",
+      "llm_tldr_en": "Investigates how the gut-muscle axis and microbiota regulate muscle quality in fish via collagen synthesis.",
+      "llm_tldr_cn": "研究肠道微生物轴如何通过调节胶原合成来影响鱼类肌肉质量。",
+      "llm_tldr": "研究肠道微生物轴如何通过调节胶原合成来影响鱼类肌肉质量。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

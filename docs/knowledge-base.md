@@ -1,10 +1,61 @@
 # 知识库
 
-- 最近沉淀条目数：344
+- 最近沉淀条目数：361
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Publicly available multimodal large language models for ocular surface infections: benchmarking against corneal specialists in triage, diagnosis and treatment.](#/202604/08/202604/08/41946559-publicly-available-multimodal-large-language-models-for-ocular-surface-infections-benchmarking-against-corneal-specialists-in-triage-diagnosis-and-treatment)
+  - TLDR：针对眼表感染诊断依赖微生物检测且效率较低的现状，本研究对比了GPT-4o、GPT-5等六款多模态大模型与角膜病专家在感染性角膜炎和结膜炎诊断、治疗及分诊中的表现。通过60例确诊病例测试发现，模型在“图像+文本”双重输入下表现最佳，Perplexity和GPT-5的诊断准确率接近人类专家，但在治疗方案制定和罕见病原体识别上仍存在短板。该研究验证了多模态LLM作为眼科辅助诊断工具在资源受限地区的临床潜力。
+  - Tags：`query:bioinfo`
+- [Alterations in the gut virome of children with allergic rhinitis: enrichment of pro-inflammatory bacteriophages and depletion of fungal viruses.](#/202604/08/202604/08/41759557-alterations-in-the-gut-virome-of-children-with-allergic-rhinitis-enrichment-of-pro-inflammatory-bacteriophages-and-depletion-of-fungal-viruses)
+  - TLDR：过敏性鼻炎（AR）的发病机制尚不完全明确，且肠道病毒组的作用研究较少。本研究通过对16名AR患儿和17名健康儿童的粪便样本进行宏基因组测序，分析了病毒组的多样性及与免疫指标的关系。结果发现AR患儿肠道中促炎性噬菌体显著增加且与IgE水平正相关，而真菌病毒则显著减少。这一发现揭示了病毒组在调节Th2免疫中的潜在作用，为AR的诊断和噬菌体疗法提供了新思路。
+  - Tags：`query:pathoai`
+- [Genomic insights into a clade-specific](#/202604/08/202604/08/41810942-genomic-insights-into-a-clade-specific)
+  - TLDR：针对亚太地区高致死率的热带念珠菌耐药性上升问题，本研究通过对印度27家医院近十年的1016份临床样本进行基因组学分析，揭示了耐唑类药物的第4进化支（clade 4）克隆株的兴起。研究发现该菌株通过ERG11基因突变与扩增产生耐药性，并表现出更强的生物膜形成能力和免疫逃逸特性。这一发现为监测多重耐药真菌的全球传播提供了关键的基因组证据与生物学见解。
+  - Tags：`query:pathoai`
+- [Integrating chemical, genetic, and feasibility assessments for anti-tubercular target validation.](#/202604/08/202604/08/41946910-integrating-chemical-genetic-and-feasibility-assessments-for-anti-tubercular-target-validation)
+  - TLDR：针对耐药性结核分枝杆菌带来的全球健康威胁，结核病药物加速器（TBDA）联盟开发了一套整合化学、遗传学及可行性评估的目标验证框架。通过DAIKON和PARSNIP计算平台，该框架能从本质性、脆弱性和成药性等多维度对潜在药物靶点进行系统化评估。以Pks13和NadE为例，该方法实现了透明的动态靶点排序，为缩短疗程和开发广谱抗结核药物提供了科学决策依据。
+  - Tags：`query:pathoai`
+- [Integrative proteogenomics maps multifactorial aetiology, progression and therapeutic vulnerabilities in gastric cancer.](#/202604/08/202604/08/41617485-integrative-proteogenomics-maps-multifactorial-aetiology-progression-and-therapeutic-vulnerabilities-in-gastric-cancer)
+  - TLDR：胃癌的发生受幽门螺杆菌、环境暴露和微生物群落的共同驱动，但其分子机制尚不明确。本研究通过对154名患者进行整合蛋白基因组学分析，结合环境致癌物和微生物谱，揭示了多环芳烃（如二苯并[a,h]吖啶）的高致癌风险，并定义了三种基于微生物环境的起始生态类型。研究还发现了链球菌富集与紧密连接蛋白破坏的关联，并识别出CDK4等潜在治疗靶点，为胃癌的精准分型和个体化治疗提供了分子图谱。
+  - Tags：`query:bioinfo`
+- [Identification of](#/202604/08/202604/08/41757926-identification-of)
+  - TLDR：针对临床微生物实验室中曲霉菌因形态相似导致难以快速准确鉴定的问题，本研究开发了基于深度学习的 FungalNet 模型。该模型结合 ResNet-50 架构与 Focal Loss 算法，利用 11,689 张高分辨率显微图像进行训练，并引入了结合交叉验证与专家审核的质量控制流程。实验结果显示，FungalNet 在组别和物种水平的鉴定准确率分别达到 98.45% 和 97.85%，为临床真菌鉴定提供了一种高效、低成本的自动化方案。
+  - Tags：`query:pathoai`
+- [Dissecting the effect of single- and co-infection of TB and COVID-19 pathogens on the sputum microbiome.](#/202604/08/202604/08/41773858-dissecting-the-effect-of-single--and-co-infection-of-tb-and-covid-19-pathogens-on-the-sputum-microbiome)
+  - TLDR：本研究针对结核病（TB）与新冠肺炎（COVID-19）共感染对呼吸道微生物组的影响展开调查。通过对 TB、COVID-19、共感染及健康对照四组人群的痰液进行宏基因组分析，发现共感染显著改变了微生物组成，导致结核杆菌载量增加及特定致病菌（如牙龈二氧化碳嗜纤维菌）富集。研究还揭示了肺表面活性物质脂质代谢等关键通路的异常，为通过共感染病原体谱分析实现结核病个性化治疗提供了科学依据。
+  - Tags：`query:pathoai`
+- [Mapping the geodispersal and evolutionary dynamics of regional Nipah virus strain in Bangladesh.](#/202604/08/202604/08/41817188-mapping-the-geodispersal-and-evolutionary-dynamics-of-regional-nipah-virus-strain-in-bangladesh)
+  - TLDR：孟加拉国尼帕病毒（NiV）频繁爆发且致死率高，主要通过果蝠传播。本研究利用2016-2023年间的人类与蝙蝠样本核蛋白（N）基因序列，结合贝叶斯演化分析，揭示了病毒的地理扩散路径与演化动力学。研究发现NiV已演化出BD-1和BD-2两大支系并持续产生亚分支，估算了其演化速率及地理扩张范围，为精准防控和早期预警提供了科学依据。
+  - Tags：`query:pathoai`
+- [Profound cell wall remodeling in](#/202604/08/202604/08/41685898-profound-cell-wall-remodeling-in)
+  - TLDR：针对念珠菌感染中药物耐受性导致治疗失败的问题，本研究通过分析临床连续分离株，结合全基因组测序、核磁共振及动物实验，揭示了病原菌通过细胞壁重塑（增加甘露聚糖、减少β-葡聚糖）获得棘白菌素耐受性的机制。研究发现这种重塑虽增强了生物膜并抑制了免疫，却意外增加了对两性霉素B的敏感性，证明了利用药物敏感性差异进行交替治疗的潜力。
+  - Tags：`query:pathoai`
+- [SET-M33 peptide as a selective](#/202604/08/202604/08/41705700-set-m33-peptide-as-a-selective)
+  - TLDR：针对抗生素耐药性挑战，本研究探讨了合成抗菌肽 SET-M33 在保护共生菌群的同时精准打击病原体的潜力。通过体外实验对比猪呼吸道病原体（如副猪嗜血杆菌）与鼻腔共生菌的敏感性，发现 SET-M33 能在不干扰多数共生菌的情况下显著抑制病原体，且在共生菌存在灭活风险的复杂环境下仍能保持选择性杀伤。该研究为评估新型抗菌药物的临床应用场景提供了实验框架。
+  - Tags：`query:pathoai`
+- [Wzc mutation enhances virulence in CRKP ST11-KL64 via complement-mediated lysis and lipopolysaccharide release.](#/202604/08/202604/08/41757897-wzc-mutation-enhances-virulence-in-crkp-st11-kl64-via-complement-mediated-lysis-and-lipopolysaccharide-release)
+  - TLDR：针对中国流行的耐碳青霉烯肺炎克雷伯菌（CRKP）ST11-KL64亚型，本研究探讨了Wzc蛋白突变如何增强其致病性。通过构建WzcY572D突变株并结合小鼠腹膜炎模型，发现该突变改变了荚膜多糖（CPS）的结构与分布，使其更易被补体系统裂解。这种裂解反而导致大量脂多糖（LPS）释放，诱发剧烈的炎症反应和组织损伤。研究揭示了细菌通过“自我牺牲”式裂解释放毒素来增强毒力的新机制，为防控高毒力耐药菌提供了理论依据。
+  - Tags：`query:pathoai`
+- [Auranofin and iodoquinol as promising repurposing drugs against filamentous fungi: antifungal activity and cellular alterations.](#/202604/08/202604/08/41757906-auranofin-and-iodoquinol-as-promising-repurposing-drugs-against-filamentous-fungi-antifungal-activity-and-cellular-alterations)
+  - TLDR：针对免疫受损人群面临的丝状真菌感染威胁及现有药物耐药性问题，本研究探索了老药新用策略，评估了金诺芬（Auranofin）和碘喹啉（Iodoquinol）对多种WHO重点真菌的抑制效果。实验表明，两种药物能显著抑制真菌生长及生物膜形成，并通过干扰细胞壁完整性和脂质稳态发挥作用，为开发新型抗真菌联合疗法提供了有力候选方案。
+  - Tags：`query:pathoai`
+- [Divergent roles of](#/202604/08/202604/08/41757948-divergent-roles-of)
+  - TLDR：鼠伤寒沙门氏菌利用VI型分泌系统（T6SS）与宿主肠道菌群竞争，但其单一T6SS系统却编码了三个hcp基因。本研究通过构建hcp1/2/3缺失突变株并对感染小鼠进行16S rRNA测序，发现不同hcp基因缺失会导致截然不同的肠道菌群失调模式，特别是对乳杆菌属的影响显著。这表明沙门氏菌通过Hcp蛋白的功能分化实现了对T6SS的精确调控，为其在肠道内的定殖和持久感染提供了竞争优势。
+  - Tags：`query:pathoai`
+- [Insights into antibiotic resistomes from gut metagenome-assembled genomes of the free-range pigs.](#/202604/08/202604/08/41759554-insights-into-antibiotic-resistomes-from-gut-metagenome-assembled-genomes-of-the-free-range-pigs)
+  - TLDR：散养猪肠道微生物是抗生素耐药基因（ARGs）的重要载体，对公共卫生构成潜在威胁。本研究通过对中国四省120头散养猪的粪便进行宏基因组测序，构建了高质量的宏基因组组装基因组（MAGs），揭示了耐药基因在不同地域间的分布差异及其与移动遗传元件（MGEs）的强相关性。研究结果为制定针对性的畜牧业耐药性监控策略提供了科学依据。
+  - Tags：`query:seqai`
+- [The role of multiscale and delayed dynamics in tuberculosis Transmission and control: a mathematical approach.](#/202604/08/202604/08/41944907-the-role-of-multiscale-and-delayed-dynamics-in-tuberculosis-transmission-and-control-a-mathematical-approach)
+  - TLDR：针对结核病（TB）传播中宿主内免疫反应与环境病原体存活的复杂交互问题，本文构建了一个多尺度数学模型，整合了人际传播与环境传播路径。通过分析快慢动力学系统，揭示了即使基本再生数小于1也可能存在地方病平衡点的后向分支现象。随后利用脉冲时滞微分方程模拟实际给药方案，确定了疾病消除的临界参数，并证实化疗在控制结核病中起主导作用，而免疫治疗仅起辅助作用。
+  - Tags：`query:pathoai`
+- [NQO1-Mediated Anoikis Resistance and Immune Evasion Define a High-Risk Multi-Omic Subtype for Precision Management of T1 High-Grade Bladder Cancer.](#/202604/08/202604/08/41945867-nqo1-mediated-anoikis-resistance-and-immune-evasion-define-a-high-risk-multi-omic-subtype-for-precision-management-of-t1-high-grade-bladder-cancer)
+  - TLDR：针对T1期高级别膀胱癌（T1HG）预后差异大且缺乏精准分层手段的问题，本研究通过对147例样本进行多组学分析，鉴定出以NQO1介导的失巢凋亡抗性和免疫逃逸为特征的高危亚型T1HG1。该亚型进展率高且对BCG治疗反应差；研究揭示了NQO1通过抑制巨噬细胞与T细胞互作促进免疫逃逸的机制，并开发了机器学习模型T1HG-UCBguider，为患者的个体化治疗和早期膀胱全切决策提供了科学依据。
+  - Tags：`query:bioinfo`
+- [Microbiota-gut-muscle axis shapes fish muscle texture by regulating collagen synthesis.](#/202604/08/202604/08/41947241-microbiota-gut-muscle-axis-shapes-fish-muscle-texture-by-regulating-collagen-synthesis)
+  - TLDR：针对水产养殖中鱼类肌肉硬度差异的生物学机制不明，本研究通过罗非鱼队列分析、菌群移植及无菌鱼模型，揭示了“肠道-肌肉轴”对肌肉品质的调控路径。研究发现，肠道中的鲸杆菌属（Cetobacterium）通过代谢产物乙酸，诱导SMAD2/3蛋白发生乙酰化修饰，从而增强细胞核转运并促进胶原蛋白合成。该成果为利用微生物组工程优化动物肌肉质地提供了科学依据。
+  - Tags：`query:pathoai`
 - [Artificial Intelligence Powers Protein Functional Annotation.](#/202604/07/202604/07/41944419-artificial-intelligence-powers-protein-functional-annotation)
   - TLDR：蛋白质功能注释对理解生命过程至关重要，但传统实验方法成本高且通量低。本文系统综述了利用人工智能预测基因本体（GO）术语和酶委员会（EC）编号的计算方法，将其归纳为六大建模范式。通过对比不同方法的评估指标与应用场景，为实现更精准、高分辨率的蛋白质功能预测提供了技术路线参考，助力生物医学研究。
   - Tags：`query:bioinfo`
@@ -554,54 +605,3 @@
 - [Open and sustainable AI: challenges, opportunities and the road ahead in the life sciences.](#/202603/21/202603/21/41862658-open-and-sustainable-ai-challenges-opportunities-and-the-road-ahead-in-the-life-sciences)
   - TLDR：生命科学领域 AI 应用虽广，但面临可重复性差、资源浪费及生态碎片化等严峻挑战。本文通过梳理 300 多个生态系统组件，提出了一套开放且可持续的 AI 开发建议与实施路径。该成果为研究者提供了具体的资源链接与操作指南，旨在提升 AI 模型的复用性并降低环境成本，推动生命科学研究向更透明、高效的方向发展。
   - Tags：`query:bioinfo`
-- [A foundation model for nucleotide sequences.](#/202603/20/202603/20/41854075-a-foundation-model-for-nucleotide-sequences)
-  - TLDR：现有的基因组大模型多侧重于核苷酸序列本身，忽视了丰富的注释信息，限制了模型在跨物种和多生物场景下的泛化能力。为此，研究者推出了 OmniNA，这是一个在 9170 万条序列及其关联注释（共 1.07 万亿碱基）上训练的自监督生成式基础模型。通过联合学习序列语法与注释语义，OmniNA 在序列检测、物种分类等 23 个基准测试中达到 SOTA 或领先水平，并能有效揭示突变对 DNA/RNA 处理的影响，为基因组学研究提供了强大的预训练工具。
-  - Tags：`query:bioinfo`
-- [EMCFsys: A scalable ecosystem for high-throughput nanoscale ultrastructure analysis across biological kingdoms](#/202603/20/202603/20/10.21203/rs.3.rs-8942783/v1-emcfsys-a-scalable-ecosystem-for-high-throughput-nanoscale-ultrastructure-analysis-across-biological-kingdoms)
-  - TLDR：针对体积电子显微镜（vEM）成像慢、标注难的瓶颈，本文推出了EMCFsys生态系统。该系统包含涵盖14种模态的400万张电镜图像数据集，以及用于16倍加速成像的修复模型EMCellFiner和支持少样本分割的基座模型EMCellFound。通过集成Napari插件，研究者能以极低标注成本实现跨物种、跨细胞的高通量3D超微结构重建，显著降低了大规模生物成像的研究门槛。
-  - Tags：`query:bioinfo`
-- [An Interpretable Machine Learning Framework for Non-Small Cell Lung Cancer Drug Response Analysis](#/202603/20/202603/20/2603.16330v1-an-interpretable-machine-learning-framework-for-non-small-cell-lung-cancer-drug-response-analysis)
-  - TLDR：针对非小细胞肺癌治疗中因肿瘤异质性导致的疗效差异问题，该研究利用多组学数据构建了基于 XGBoost 的药物反应预测模型。通过 SHAP 值量化特征贡献，并引入 DeepSeek 大语言模型对关键基因和生物通路进行生物学解释。结果表明，该框架能准确预测药物敏感性（LN-IC50），为个性化精准医疗提供了具有生物学依据的可解释决策支持。
-  - Tags：`query:bioinfo`
-- [Ablation Study of a Fairness Auditing Agentic System for Bias Mitigation in Early-Onset Colorectal Cancer Detection](#/202603/20/202603/20/2603.17179v1-ablation-study-of-a-fairness-auditing-agentic-system-for-bias-mitigation-in-early-onset-colorectal-cancer-detection)
-  - TLDR：针对临床AI模型中存在的算法偏见和安全风险，本研究开发了一套由领域专家代理和公平性顾问代理组成的双智能体系统，用于审计早发性结直肠癌检测模型。通过对不同参数规模的LLM进行消融实验，结果表明结合检索增强生成（RAG）的智能体架构在识别人口统计学差异方面最接近专家水平，为自动化、规模化的临床AI公平性审计提供了可行方案。
-  - Tags：`query:agent`
-- [Deep learning predicts and in vitro experiments validates the synergistic anti-liver cancer effect of vincristine and lenvatinib: Mechanism involving apoptosis induction via the TNF-α/Caspase-8 pathway.](#/202603/20/202603/20/41637988-deep-learning-predicts-and-in-vitro-experiments-validates-the-synergistic-anti-liver-cancer-effect-of-vincristine-and-lenvatinib-mechanism-involving-apoptosis-induction-via-the-tnf-caspase-8-pathway)
-  - TLDR：针对肝癌治疗中仑伐替尼易产生耐药性的难题，本研究利用深度学习模型 MARSY 和 MatchMaker 筛选出长春新碱作为其协同增效药物。通过体外实验验证，该组合能显著抑制肝癌细胞增殖与迁移，并通过诱导活性氧（ROS）积累激活 TNF-α/Caspase-8 通路触发细胞凋亡。这一“计算预测+实验验证”的模式为开发新型肝癌联合疗法提供了重要参考。
-  - Tags：`query:bioinfo`
-- [Discovering Targetable Conformation of RhoA Mutant by Integrating Native Mass Spectrometry, Ultraviolet Photodissociation, and X-ray Diffraction.](#/202603/20/202603/20/41837560-discovering-targetable-conformation-of-rhoa-mutant-by-integrating-native-mass-spectrometry-ultraviolet-photodissociation-and-x-ray-diffraction)
-  - TLDR：针对“不可成药”的 RhoA Y42C 突变体因构象高度动态而难以靶向的问题，本研究整合了 X 射线晶体学与原生质谱-紫外光解技术（nMS-UVPD），成功识别出该突变体中占主导地位的 Mg2+ 锁定构象。该方法揭示了一个隐藏的半胱氨酸共价结合口袋，并据此筛选出有效的共价抑制剂，为开发针对高动态致病蛋白突变体的药物提供了全新的技术路线。
-  - Tags：`query:pathoai`
-- [Bioinformatic and experimental analyses revealed pathogen-derived pathoPEPs candidates predicted to control plant miRNAs expression and infection.](#/202603/20/202603/20/41856776-bioinformatic-and-experimental-analyses-revealed-pathogen-derived-pathopeps-candidates-predicted-to-control-plant-mirnas-expression-and-infection)
-  - TLDR：针对病原体如何跨界调控宿主基因的问题，本研究提出病原体可能产生与宿主miPEP同源的短肽（pathoPEPs）来干扰宿主miRNA。通过对甘蓝型油菜及其根肿病菌的转录组和核糖体分析，鉴定了3个关键pathoPEPs，发现其表达与宿主miRNA呈负相关，并揭示了病原体通过操纵激素和代谢途径促进侵染的机制，为理解生物间互作提供了新视角。
-  - Tags：`query:pathoai`
-- [Klebsiella Enrichment Is Associated with Disease Severity in Ulcerative Colitis.](#/202603/20/202603/20/41860568-klebsiella-enrichment-is-associated-with-disease-severity-in-ulcerative-colitis)
-  - TLDR：溃疡性结肠炎（UC）的病情评估依赖于对肠道微环境的深入理解。本研究通过对83名不同严重程度的UC患者及30名健康对照者的粪便和黏膜样本进行宏基因组与代谢组学并行分析，发现重症患者中克雷伯氏菌（Klebsiella）显著富集，且粪便与黏膜在代谢通路改变上存在生态位差异。研究揭示了克雷伯氏菌丰度与疾病进展的关联，为UC的精准分级和靶向治疗提供了新的生物标志物和代谢视角。
-  - Tags：`query:seqai`
-- [Machine learning-driven discovery of quinoline derivatives against Ichthyophthirius multifiliis](#/202603/20/202603/20/IND609455325-machine-learning-driven-discovery-of-quinoline-derivatives-against-ichthyophthirius-multifiliis)
-  - TLDR：针对淡水养殖中导致重大经济损失的小瓜虫病（白点病），本研究建立了一套机器学习驱动的药物研发流程。通过评估24种喹啉衍生物的抗寄生虫活性，构建了基于随机森林的定量构效关系（QSAR）模型，并利用该模型从虚拟库中筛选出4种高活性候选化合物。实验验证表明，该方法能有效识别训练集之外的新型活性骨架，为水产抗寄生虫药物研发提供了高效、可扩展的AI加速范式。
-  - Tags：`query:pathoai`
-- [TPMM: Three-component Posterior Mixture Model Enables Robust Inverton Detection in Low-Depth Metagenomes and Suggests Potential Viral Invertons](#/202603/20/202603/20/2603.16194v1-tpmm-three-component-posterior-mixture-model-enables-robust-inverton-detection-in-low-depth-metagenomes-and-suggests-potential-viral-invertons)
-  - TLDR：针对宏基因组测序中低深度数据难以准确识别 DNA 反转（invertons）的问题，本研究开发了 TPMM 模型。该模型将反转检测建模为三组分后验混合概率问题，通过整合测序深度和读段证据，实现了对噪声、低概率和高概率信号的分类，并利用贝叶斯假发现率进行质量控制。实验证明 TPMM 在低深度数据下比传统工具更灵敏，并首次揭示了病毒基因组中潜在的倒置调节机制。
-  - Tags：`query:seqai`
-- [HGP-Mamba: Integrating Histology and Generated Protein Features for Mamba-based Multimodal Survival Risk Prediction](#/202603/20/202603/20/2603.16421v1-hgp-mamba-integrating-histology-and-generated-protein-features-for-mamba-based-multimodal-survival-risk-prediction)
-  - TLDR：针对癌症生存风险预测中蛋白质表达数据获取成本高、难以与病理图像结合的问题，HGP-Mamba 框架通过预训练模型从全扫描切片中直接生成蛋白质特征，并利用 LiAM 和 GiEM 两个 Mamba 模块分别实现局部细粒度交互与全局模态融合。实验证明该方法在四个癌症数据集上达到了最优性能，且计算效率显著优于现有模型，为低成本多模态预后分析提供了新方案。
-  - Tags：`query:bioinfo`
-- [HGP-Mamba: Integrating Histology and Generated Protein Features for Mamba-based Multimodal Survival Risk Prediction](#/202603/20/202603/20/2603.16421v2-hgp-mamba-integrating-histology-and-generated-protein-features-for-mamba-based-multimodal-survival-risk-prediction)
-  - TLDR：针对癌症生存风险预测中蛋白质表达数据获取成本高、难以与病理图像有效结合的问题，本文提出了 HGP-Mamba 框架。该框架利用预训练模型从病理全扫描图像（WSI）中直接生成蛋白质特征，并结合病理形态特征，通过局部与全局交互增强的 Mamba 模块实现高效的多模态融合。实验证明该方法在四个公开数据集上达到了 SOTA 性能，且计算效率优于现有方法，为低成本、高精度的多模态预后分析提供了新思路。
-  - Tags：`query:bioinfo`
-- [Training a force field for proteins and small molecules from scratch](#/202603/20/202603/20/2603.16770v1-training-a-force-field-for-proteins-and-small-molecules-from-scratch)
-  - TLDR：针对传统分子动力学力场依赖人工调参、迁移性差的问题，本研究开发了名为 Garnet 的图神经网络模型。该模型利用连续原子类型技术，直接从量子力学和实验数据中端到端地学习蛋白质与小分子的力场参数。实验证明，Garnet 在蛋白质折叠、复合物稳定性及结合自由能预测等任务上达到了主流力场的水平，为自动化、可重复的力场发现提供了高效的机器学习平台。
-  - Tags：`query:bioinfo`
-- [Negation is Not Semantic: Diagnosing Dense Retrieval Failure Modes for Trade-offs in Contradiction-Aware Biomedical QA](#/202603/20/202603/20/2603.17580v1-negation-is-not-semantic-diagnosing-dense-retrieval-failure-modes-for-trade-offs-in-contradiction-aware-biomedical-qa)
-  - TLDR：针对生物医学问答中大模型易产生幻觉且难以识别矛盾证据的问题，本文揭示了稠密检索在处理否定语义时存在的“语义坍塌”缺陷。研究者提出一种基于BM25统一骨干的解耦词法架构，通过分离语义支持与矛盾检测，在3000万篇文献的PubMed库上实现了高效检索。实验证明该方法在矛盾识别和引用覆盖率上表现优异，显著提升了医疗AI回答的诚实性与可靠性。
-  - Tags：`query:agent`
-- [Atomic Trajectory Modeling with State Space Models for Biomolecular Dynamics](#/202603/20/202603/20/2603.17633v1-atomic-trajectory-modeling-with-state-space-models-for-biomolecular-dynamics)
-  - TLDR：针对分子动力学模拟计算成本高且现有生成模型难以捕捉时间演化或仅限单体蛋白的问题，本文提出了 ATMOS 框架。该框架结合状态空间模型（SSM）与扩散模型，利用 Pairformer 捕捉长程时间依赖并以自回归方式生成原子级轨迹。在 mdCATH 和 MISATO 等数据集上的实验表明，ATMOS 在蛋白质单体及蛋白-配体复合物的轨迹生成上达到 SOTA 水平，为高效模拟生物分子动态提供了新方案。
-  - Tags：`query:bioinfo`
-- [The Convergence Frontier: Integrating Machine Learning and High Performance Quantum Computing for Next-Generation Drug Discovery](#/202603/20/202603/20/2603.17790v1-the-convergence-frontier-integrating-machine-learning-and-high-performance-quantum-computing-for-next-generation-drug-discovery)
-  - TLDR：药物研发长期面临从头算分子动力学计算成本高昂、难以兼顾精度与规模的难题。本文提出融合高性能计算（HPC）、机器学习（ML）与量子计算（QC）的集成框架，利用混合QPU-GPU架构加速量子化学数据生成，并结合FeNNix-Bio1等大模型实现高保真模拟。该方案突破了经典计算的启发式限制，为复杂细胞系统建模和新药发现提供了具备量子精度的可扩展路径。
-  - Tags：`query:bioinfo`
-- [Single-cell RNA sequencing and proteomics uncover glycolytic dysregulation linking skin and systemic inflammation in dermatomyositis.](#/202603/20/202603/20/41329255-single-cell-rna-sequencing-and-proteomics-uncover-glycolytic-dysregulation-linking-skin-and-systemic-inflammation-in-dermatomyositis)
-  - TLDR：皮肌炎（DM）是一种累及皮肤和肌肉的自身免疫病，但其皮肤病变的分子机制尚不明确。本研究通过单细胞转录组测序和蛋白质组学分析，构建了DM皮损的高分辨率图谱，发现成纤维细胞而非巨噬细胞是主要的致病信号源。研究揭示了由I型干扰素信号驱动的CXCL10-糖酵解轴是炎症的核心机制，并证明糖酵解抑制剂2DG能显著缓解模型小鼠的炎症，为DM治疗提供了新靶点。
-  - Tags：`query:seqai`
