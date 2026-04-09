@@ -1,0 +1,564 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-04-09T19:48:58.278018+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 7,
+    "deep_cap": 9,
+    "deep_selected": 7,
+    "quick_candidates": 4,
+    "quick_skim_target": 14,
+    "quick_selected": 4
+  },
+  "deep_dive": [
+    {
+      "id": "41950094",
+      "title": "Reconstruction of human metabolic models with large language models.",
+      "abstract": "Genome-scale metabolic models (GEMs) have become essential tools for understanding human metabolism. Here, we introduce Human2, a consensus human GEM with enhanced precision and biological relevance, which leverages large language models (LLMs) and GitHub Action checks to streamline automated, efficient, and collaborative curation. Human2 supports the reconstruction of tissue- and organ-specific models tailored to sex- and age-specific human groups. By integrating transcriptomic, proteomic, and kinetic data, we reveal distinct metabolic features across these groups, such as significant differences in arachidonic acid and leukotriene metabolism. The specific models were integrated into a dynamic whole-body framework, marking an enzyme-constrained dynamic model that simulates interorgan metabolite exchanges under varying nutritional states, from feeding to fasting. Our work highlights the transformative role of LLMs in GEM reconstruction and introduces a whole-body dynamic simulation that integrates kinetic data, offering a powerful resource for multiscale human metabolism modeling.",
+      "authors": [
+        "Jiahao Luo",
+        "Hao Wang",
+        "Devlin Moyer",
+        "Zhetao Guo",
+        "Jonathan L Robinson",
+        "Johan Gustafsson",
+        "Mihail Anton",
+        "Yu Chen",
+        "Eduard J Kerkhoven",
+        "Jens Nielsen",
+        "Feiran Li"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-14",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41950094/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "LLMs for human metabolic model reconstruction",
+      "llm_evidence_cn": "利用大语言模型重建人类代谢模型",
+      "llm_evidence": "利用大语言模型重建人类代谢模型",
+      "canonical_evidence": "利用大语言模型重建人类代谢模型",
+      "llm_tldr_en": "Introduces Human2, a human metabolic model curated using LLMs to streamline biological modeling.",
+      "llm_tldr_cn": "引入了 Human2，这是一个利用大语言模型辅助策划的人类代谢模型，简化了生物建模过程。",
+      "llm_tldr": "引入了 Human2，这是一个利用大语言模型辅助策划的人类代谢模型，简化了生物建模过程。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "large language models and foundation models for bioinformatics",
+      "matched_requirement_id": "req-30",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41951715",
+      "title": "Multiple hypervariable markers improve mycobiome classification in metatranscriptome and metagenome data.",
+      "abstract": "Profiling the taxonomic and functional composition of mycobiome using metagenomic and metatranscriptomic sequencing is advancing our understanding of fungal functions in ecosystems. However, the sensitivity and accuracy of mycobiome classification using genome- or core protein-based approaches, is limited by the availability of reference genomes and the resolution of sequence databases. To address this, we propose the MicroFisher, a novel tool to identify taxonomically useful reads from metagenomic or metatranscriptomic data, enabling taxonomic identification of community members based on multiple hypervariable markers. We applied MicroFisher to profile the simulated fungal communities to assess the performance of the developed tool, and found higher performance in fungal prediction and abundance estimation compared to existing tools. In addition, we also used metagenomes from forest soil and metatranscriptomes of root eukaryotic microbes to test our method and found that MicroFisher provided more accurate profiling of environmental microbiomes compared to other classification tools. MicroFisher leverages high-resolution hypervariable marker gene databases and weighted integration algorithms to deliver more accurate fungal community classification compared to existing state-of-the-art tools. Additionally, it enables the detection of rare taxa, which is challenging with other available tools. Thus, MicroFisher serves as a novel pipeline for classification of fungal communities from metagenomes and metatranscriptomes.",
+      "authors": [
+        "Haihua Wang",
+        "Steven H Wu",
+        "Kaile Zhang",
+        "Ko-Hsuan Chen",
+        "Rytas Vilgalys",
+        "Hui-Ling Liao"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41951715/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "taxonomic profiling and classification from metagenomic data",
+      "llm_evidence_cn": "宏基因组数据的分类学分析与分类",
+      "llm_evidence": "宏基因组数据的分类学分析与分类",
+      "canonical_evidence": "宏基因组数据的分类学分析与分类",
+      "llm_tldr_en": "Introduces MicroFisher for improved mycobiome classification in metagenomic and metatranscriptomic data.",
+      "llm_tldr_cn": "推出了 MicroFisher，用于改进宏基因组和宏转录组数据中的真菌组分类。",
+      "llm_tldr": "推出了 MicroFisher，用于改进宏基因组和宏转录组数据中的真菌组分类。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41951735",
+      "title": "Multiomics and deep learning dissect regulatory syntax in human development.",
+      "abstract": "Transcription factors establish cell identity during development by binding regulatory DNA in a sequence-specific manner, often promoting local chromatin accessibility and regulating gene expression1. Mapping accessible chromatin offers critical insights into transcriptional control, but available datasets for human development are restricted to bulk tissue, single organs or single modalities2. Here we present the Human Development Multiomic Atlas, a single-cell atlas of chromatin accessibility and gene expression from 817,740 fetal cells across 12 organs, spanning 203 cell types and more than 1 million candidate cis-regulatory elements, many of which exhibit organ-specific in vivo enhancer activity. Deep learning models trained to predict accessibility from local DNA sequence unravel a comprehensive lexicon of motifs that influence accessibility, including composite motifs exhibiting distinct syntactic constraints that are predicted to mediate transcription factor cooperativity. We identify 'hard' syntactic rules requiring precise motif spacing and orientation, 'soft' rules allowing flexible motif arrangements, and ubiquitous motifs inhibiting accessibility. Model-based interpretation of genetic variants reveals that disruption of motifs with positive and negative effects is associated with concordant effects on gene expression. Our work delineates how motif syntax governs cell-type-specific chromatin accessibility and provides a foundational resource for decoding cis-regulatory logic and interpreting genetic variation during human development.",
+      "authors": [
+        "Betty B Liu",
+        "Selin Jessa",
+        "Samuel H Kim",
+        "Yan Ting Ng",
+        "Soon Il Higashino",
+        "Georgi K Marinov",
+        "Derek C Chen",
+        "Benjamin E Parks",
+        "Li Li",
+        "Tri C Nguyen",
+        "Austin T Wang",
+        "Sean K Wang",
+        "Meng How Tan",
+        "Serena Y Tan",
+        "Michael Kosicki",
+        "Len A Pennacchio",
+        "Eyal Ben-David",
+        "Anca M Pasca",
+        "Anshul Kundaje",
+        "Kyle K H Farh",
+        "William J Greenleaf"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41951735/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "deep learning for multi-omics integration and regulatory syntax prediction",
+      "llm_evidence_cn": "用于多组学整合和调控语法预测的深度学习",
+      "llm_evidence": "用于多组学整合和调控语法预测的深度学习",
+      "canonical_evidence": "用于多组学整合和调控语法预测的深度学习",
+      "llm_tldr_en": "Uses deep learning and single-cell multi-omics to map regulatory elements across human fetal development.",
+      "llm_tldr_cn": "利用深度学习和单细胞多组学技术绘制人类胎儿发育过程中的调控元件图谱。",
+      "llm_tldr": "利用深度学习和单细胞多组学技术绘制人类胎儿发育过程中的调控元件图谱。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41951853",
+      "title": "The trRosettaRNA server for RNA structure prediction.",
+      "abstract": "Similar to proteins, many RNAs fold into three-dimensional (3D) structures to perform biological functions. Here we present the trRosettaRNA server, a web-based platform for automated RNA 3D structure prediction using deep learning. The primary input is the nucleotide sequence of a target RNA, with the option to upload custom multiple sequence alignments and secondary structures. The server uses an end-to-end neural network for automated 3D structure prediction, followed by an energy optimization step to resolve structural violations. As an automated server, trRosettaRNA is distinguished by its state-of-the-art modeling accuracy, flexible input options and comprehensive visualization of prediction results. trRosettaRNA has been successfully applied in various contexts, including predicting structures for Rfam families lacking known 3D structures, where representative cases of high-confidence structure predictions were found to align well with subsequent experimental observations. Utilizing up to 5 central processing unit (CPU) cores in parallel on our computer cluster, the server takes a median time of about 1 h to predict structures for RNA sequences with about 200 nucleotides. The standalone package for trRosettaRNA offers distinct advantages such as enhanced data privacy for sensitive sequences, the ability to bypass server queues and integration into high-throughput automated pipelines. Importantly, the open-source nature of the package empowers researchers to directly modify the codebase for specialized research needs or to develop derivative tools by fine-tuning the underlying neural network. The web server and standalone package of trRosettaRNA are available at https://yanglab.qd.sdu.edu.cn/trRosettaRNA/ and https://github.com/YangLab-SDU/trRosettaRNA2 , respectively.",
+      "authors": [
+        "Wenkai Wang",
+        "Xiaocheng Liu",
+        "Zhenling Peng",
+        "Jianyi Yang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41951853/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "deep learning for automated RNA 3D structure prediction",
+      "llm_evidence_cn": "用于自动化RNA三维结构预测的深度学习",
+      "llm_evidence": "用于自动化RNA三维结构预测的深度学习",
+      "canonical_evidence": "用于自动化RNA三维结构预测的深度学习",
+      "llm_tldr_en": "Introduces trRosettaRNA, a deep learning server for high-accuracy automated RNA structure prediction.",
+      "llm_tldr_cn": "介绍了trRosettaRNA，一个用于高精度自动化RNA结构预测的深度学习服务器。",
+      "llm_tldr": "介绍了trRosettaRNA，一个用于高精度自动化RNA结构预测的深度学习服务器。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models for DNA RNA protein and cell biology",
+      "matched_requirement_id": "req-15",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41951911",
+      "title": "Sequence Display enables large-scale sequence-activity datasets for rapid protein evolution.",
+      "abstract": "Engineering proteins with desired functions remains challenging and usually requires multiple rounds of screening and selection. Here, we present Sequence Display, a platform that generates large-scale protein sequence-activity datasets in a single round. Sequence Display enables multiplexed assessment of individual variant activity within a single experiment, offering a robust approach to mapping detailed sequence-function relationships. We demonstrate the platform's broad applicability by generating datasets for cytosine deaminase, uracil glycosylase inhibitor, aminoacyl-tRNA synthetase and a compact Cas9 nuclease. Integrating these datasets obtained from Sequence Display with pretrained protein language models, fine-grained, variant-specific activity landscapes can be constructed. We discovered several Cas9 variants with expanded protospacer-adjacent motif recognition and evolved aminoacyl-tRNA synthetase variants capable of recognizing different noncanonical amino acids. Together, this study establishes Sequence Display as a powerful tool for mapping protein activity landscapes and accelerating the discovery of optimized proteins for biological and medical applications.",
+      "authors": [
+        "Linqi Cheng",
+        "Xinzhe Zheng",
+        "Shiyu Jason Jiang",
+        "Yu Hu",
+        "Yijie Liu",
+        "Kaiqiang Yang",
+        "Jinyan Rui",
+        "Haoxue Ding",
+        "Mengxi Zhang",
+        "Teng Yuan",
+        "Qianglan Lu",
+        "Haoxin Ye",
+        "Chen-Long Li",
+        "Yiming Guo",
+        "Zuotong Tian",
+        "Anna Qin",
+        "Boyang Zhou",
+        "Kevin K Yang",
+        "Xiongyi Huang",
+        "Han Xiao"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41951911/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "integrating sequence-activity datasets with pretrained protein language models",
+      "llm_evidence_cn": "将序列-活性数据集与预训练蛋白质语言模型集成",
+      "llm_evidence": "将序列-活性数据集与预训练蛋白质语言模型集成",
+      "canonical_evidence": "将序列-活性数据集与预训练蛋白质语言模型集成",
+      "llm_tldr_en": "Combines high-throughput sequence-activity data with protein language models for rapid protein evolution.",
+      "llm_tldr_cn": "将高通量序列-活性数据与蛋白质语言模型结合，用于蛋白质的快速进化。",
+      "llm_tldr": "将高通量序列-活性数据与蛋白质语言模型结合，用于蛋白质的快速进化。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "protein language models for structure function prediction and design",
+      "matched_requirement_id": "req-16",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41952315",
+      "title": "TriPDCL: A Tri-Pathway Prototype-Driven Contrastive Learning Framework for Cross-Modality Single-Cell Integration.",
+      "abstract": "The rapid development of single-cell sequencing technologies has laid a solid foundation for multiomics data integration. A central objective in multiomics integration is to attenuate cross-omic discrepancies stemming from technical batch effects and inherent biological variability, thereby facilitating a unified latent representation that supports robust downstream analyses. However, the intrinsic high sparsity of single-cell data and pronounced intercellular heterogeneity pose greater challenges for joint analysis. We foreground cellular heterogeneity and present TriPDCL, a prototype-based contrastive learning framework, which not only achieves effective transfer of heterogeneity information through an iterative prototype-learning update mechanism but also, by leveraging learnable prototype centers, enables precise construction of reliable positive-negative sample pairs. It tackles two principal challenges, the alignment of cross-modal heterogeneity and the robust learning, in multiomics analysis. Subsequently, comparative assessments conducted on five data sets in contrast to seven representative methods illustrate the superiority of the proposed approach.",
+      "authors": [
+        "Xiaoyun Xiong",
+        "Chengdong Zhang",
+        "Fengnan Yang",
+        "Shaoqing Wang",
+        "Yuanyuan Zhang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41952315/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "contrastive learning framework for cross-modality single-cell integration",
+      "llm_evidence_cn": "用于跨模态单细胞整合的对比学习框架",
+      "llm_evidence": "用于跨模态单细胞整合的对比学习框架",
+      "canonical_evidence": "用于跨模态单细胞整合的对比学习框架",
+      "llm_tldr_en": "Proposes TriPDCL, a prototype-driven contrastive learning framework for integrating sparse multi-omics single-cell data.",
+      "llm_tldr_cn": "提出TriPDCL，一种用于整合稀疏多组学单细胞数据的原型驱动对比学习框架。",
+      "llm_tldr": "提出TriPDCL，一种用于整合稀疏多组学单细胞数据的原型驱动对比学习框架。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "machine learning for multi omics integration",
+      "matched_requirement_id": "req-25",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41871300",
+      "title": "Coupled Hydrogen-Bond-Electrostatic Recognition of Phosphatidylglycerol Drives the Design of Resistance-Suppressing Miniature Peptidomimetics.",
+      "abstract": "The emergence of multidrug-resistant (MDR) pathogens has urged us to find new antimicrobial strategies. Phosphatidylglycerol (PG) is an attractive bacterial-specific lipid target but is targeted by only one clinical agent, daptomycin. Yet daptomycin, like most reported PG binders, binds PG through an imprecise hydrophobic-electrostatic mode, necessitating a relatively large molecular size. This requirement, together with its strict Ca2+ dependence, significantly limits its efficacy. Here, we report bis-pyridinium amides (BisPAs), a rationally designed class of small molecules capable of precisely recognizing PG through amide-diol hydrogen bonding coupled with pyridinium-phosphate anionic-π interaction, independent of environmental conditions such as Ca2+. The lead compound, BisPA14, with ∼one-third the molecular weight of daptomycin, exhibits comparable PG-binding affinity, with Kd(BisPA14) = 1.4 × 10-6 M versus Kd(daptomycin-Ca2+) = 0.9 × 10-6 M. BisPA14 disrupts PG self-assembly and membrane integrity and simultaneously engages bacterial DNA as a secondary intracellular target. This dual-targeting mechanism enables BisPA14 to eradicate proliferating, tolerant, and persister bacterial populations while suppressing resistance evolution. It remains active in serum-containing environments, protects host cells from bacterial damage, and demonstrates excellent biocompatibility and strong therapeutic efficacy in intraperitoneal, pulmonary, and bloodstream methicillin-resistant Staphylococcus aureus infection models. As a synthetically accessible small molecule that functionally mimics and improves upon daptomycin's lipid-targeting mechanism, this work establishes a secondary-bonding-driven PG-recognition paradigm for combating MDR bacterial infections.",
+      "authors": [
+        "Xubo Tong",
+        "Jiaqi Li",
+        "Yingjia Tan",
+        "Jie Mao",
+        "Peiren Chen",
+        "Ziqi Yin",
+        "Mengqian Wang",
+        "Changwu Li",
+        "Guihua Liu",
+        "Yongyi Yao",
+        "Ruihan Gao",
+        "Yingying Li",
+        "Siwei Guo",
+        "Yang Deng",
+        "Wing-Leung Wong",
+        "Pan Mao",
+        "Xin Li",
+        "Junfeng Song",
+        "Xinxin Feng"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41871300/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "rational design of resistance-suppressing miniature peptidomimetics against MDR pathogens",
+      "llm_evidence_cn": "针对多重耐药病原体的抗耐药小型拟肽合理设计",
+      "llm_evidence": "针对多重耐药病原体的抗耐药小型拟肽合理设计",
+      "canonical_evidence": "针对多重耐药病原体的抗耐药小型拟肽合理设计",
+      "llm_tldr_en": "Designs small molecules that target bacterial lipids to overcome antimicrobial resistance in MDR pathogens.",
+      "llm_tldr_cn": "设计了针对细菌脂质的小分子，以克服多重耐药病原体的抗菌耐药性。",
+      "llm_tldr": "设计了针对细菌脂质的小分子，以克服多重耐药病原体的抗菌耐药性。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "41952172",
+      "title": "Cross-body site microbial interactions influence the human plasma metabolome.",
+      "abstract": "BACKGROUND: The human microbiome profoundly influences the host plasma metabolome and health, but most studies have focused on the gut microbiome in isolation. A comprehensive assessment of how microbiomes from multiple body sites jointly shape host metabolism has been lacking. RESULTS: Using data from three independent human cohorts (n = 435), we systematically analyzed the selective and joint influences of microbiomes from multiple body sites on the human plasma metabolome (814 annotated metabolites). Microbiomes from all body sites contributed to plasma metabolome variation, collectively explaining 30.13% of the inter-individual variation. The gut microbiome showed the largest contribution (18.44%), followed by oral (14.70%), skin (11.5%), and nasal (5.88%) microbiomes. Microbial composition did not necessarily predict metabolic function for example, despite distinct compositions, oral and gut microbiomes exhibited similar associations with circulating metabolites. Machine learning and mediation analyses revealed widespread cooperative and synergistic microbial interactions across body sites, particularly along the oral-gut axis. Over half of the metabolites were jointly influenced by multiple body-site microbiomes. This axis showed cross-site microbial crosstalk and sequential metabolic processing, regulating metabolites such as indole derivatives and carboxylic acids. The oral-gut microbiome-metabolome axis was further amplified in insulin resistance (IR), linking enhanced microbial cooperation to metabolic dysregulation. CONCLUSION: Our findings reveal the systemic and interactive nature of microbiome-metabolome relationships and highlight the need to integrate spatially distributed microbial ecosystems to fully understand host metabolic regulation and disease mechanisms. Video Abstract.",
+      "authors": [
+        "Jingxiang Zhang",
+        "Chao Jiang",
+        "Xin Zhou",
+        "Peng Gao",
+        "Sunny Wong",
+        "Michael Snyder",
+        "Xiaotao Shen"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-09",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41952172/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "microbiome host interaction and influence on plasma metabolome",
+      "llm_evidence_cn": "微生物组与宿主相互作用及其对血浆代谢组的影响",
+      "llm_evidence": "微生物组与宿主相互作用及其对血浆代谢组的影响",
+      "canonical_evidence": "微生物组与宿主相互作用及其对血浆代谢组的影响",
+      "llm_tldr_en": "Analyzes how multi-site microbiomes jointly influence the human plasma metabolome and host health.",
+      "llm_tldr_cn": "分析了多部位微生物组如何共同影响人类血浆代谢组和宿主健康。",
+      "llm_tldr": "分析了多部位微生物组如何共同影响人类血浆代谢组和宿主健康。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41773863",
+      "title": "A20 restricted PDCoV release through negative regulation of PANoptosis.",
+      "abstract": "Coronavirus infections can trigger multiple modes of cell death, leading to severe infectious diseases. The process is modulated by host factors with mechanisms yet to be fully elucidated. Here, we first demonstrated that the host factor A20 regulated PANoptosis during porcine deltacoronavirus (PDCoV) infection, thereby contributing to the antiviral defense response. We found that PDCoV could induce PANoptosis in intestinal epithelial cells, which facilitates the extracellular release of viral particles through this form of programmed cell death. A20 restricted the PANoptosome assembly and downstream death signaling by targeting RIPK3 ubiquitin chains for degradation. Consequently, loss of A20 exacerbated cell lysis and enhanced the release of viral particles, although this effect does not alter viral entry or replication. We further established that PDCoV-induced PANoptosis-dependent release was driven by osmotic imbalance resulting from membrane pore formation mediated by GSDMD and MLKL, rather than by direct transmembrane egress of viral particles. Transwell models showed that pharmacological inhibition of the pore-forming activities of GSDMD and MLKL reduced viral dissemination and preserved epithelial barrier integrity. These findings advance our understanding of enteric coronavirus pathogenesis and suggest that the A20-PANoptosis axis represents a potential target for antiviral intervention.IMPORTANCECoronaviruses have repeatedly posed significant threats to both human and animal health. Here, we used porcine deltacoronavirus (PDCoV), a highly enterotropic zoonotic pathogen, to uncover a novel mechanism by which coronaviruses exploit PANoptosis to facilitate viral egress. We demonstrate that PDCoV infection triggers PANoptosis in intestinal epithelial cells, leading to plasma membrane rupture and subsequent viral release. Importantly, we identified the host ubiquitin-editing enzyme A20 as a critical negative regulator of this process. A20 restricts PANoptosome assembly by specifically deubiquitinating RIPK3, thereby limiting cell lysis and suppressing viral dissemination without affecting viral replication. Our findings offer fundamental insights into coronavirus-host interactions and highlight the therapeutic potential of targeting lytic cell death to combat viral dissemination.",
+      "authors": [
+        "Chunyu Lu",
+        "Xiaofeng Xue",
+        "Zhuoqi Chen",
+        "Wei Wang",
+        "Rongli Guo",
+        "Min Sun",
+        "Baochao Fan",
+        "Bin Li",
+        "Jizong Li"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41773863/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "host factor regulation of cell death during coronavirus infection",
+      "llm_evidence_cn": "冠状病毒感染期间宿主因子对细胞死亡的调节",
+      "llm_evidence": "冠状病毒感染期间宿主因子对细胞死亡的调节",
+      "canonical_evidence": "冠状病毒感染期间宿主因子对细胞死亡的调节",
+      "llm_tldr_en": "Reveals how host factor A20 regulates PANoptosis to restrict the release of porcine deltacoronavirus.",
+      "llm_tldr_cn": "揭示了宿主因子 A20 如何通过调节 PANoptosis 来限制猪丁型冠状病毒的释放。",
+      "llm_tldr": "揭示了宿主因子 A20 如何通过调节 PANoptosis 来限制猪丁型冠状病毒的释放。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41873878",
+      "title": "Integrating GWAS, QTL Mapping, and RNA-seq to Identify Candidate Genes for Kernel Weight and Oil Traits in Maize (",
+      "abstract": "The evaluation of the kernel oil content and fatty acid composition in maize is crucial for understanding maize nutrition. This study utilized an association population of 278 inbred lines and a F2 population of 229 individuals to identify candidate genes for 8 kernel weight and oil traits. By employing two genome-wide association study (GWAS) models, the K model and Q+K model, key SNP loci and candidate genes were identified. A total of 10 pleiotropic quantitative trait loci (QTLs) were discovered that collectively encompassed 82 candidate genes. Notably, the SAD gene catalyzed the conversion of stearoyl-acyl carrier protein (ACP) to oleoyl-ACP, playing a crucial role in regulating the content of unsaturated fatty acids in plants. Three candidate genes were identified through three methods (GWAS, QTL mapping, and RNA-seq), with the FALDH gene playing a role in regulating the grain oil content. Through the integration of GWAS analysis and QTL mapping, one stable QTL related to the oil content (qOC5) and one stable QTL related to arachidic acid (qAA9) were identified. Among them, the FAE2 gene was located in qAA9, which plays a crucial role in regulating the fatty acid content in plants. Additionally, the gene TT12, identified through a combination of GWAS and RNA-seq analyses, has been found to play a pivotal role in seed development. Overall, these findings provide a foundation for deeper insights into the genetic mechanisms underlying maize oil traits and offer valuable insights for molecular marker-assisted breeding.",
+      "authors": [
+        "Lijun Zhang",
+        "Yuhan Song",
+        "Meiyan Chen",
+        "Chunyu Hu",
+        "Wanru Wang",
+        "Xunbo Zhou",
+        "Xiaoqin Hao",
+        "Xingtan Zhang",
+        "Xiping Yang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41873878/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "integrating GWAS and RNA-seq for trait gene identification",
+      "llm_evidence_cn": "整合GWAS和RNA-seq用于性状基因鉴定",
+      "llm_evidence": "整合GWAS和RNA-seq用于性状基因鉴定",
+      "canonical_evidence": "整合GWAS和RNA-seq用于性状基因鉴定",
+      "llm_tldr_en": "Integrates GWAS, QTL mapping, and RNA-seq to identify candidate genes for kernel weight and oil traits in maize.",
+      "llm_tldr_cn": "整合GWAS、QTL定位和RNA-seq技术，鉴定玉米籽粒重量和油脂性状的候选基因。",
+      "llm_tldr": "整合GWAS、QTL定位和RNA-seq技术，鉴定玉米籽粒重量和油脂性状的候选基因。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41950191",
+      "title": "Microbial diversity, functional genomics and antibiotic resistance in integrated chicken and fish farming systems of Bangladesh.",
+      "abstract": "The integrated chicken and fish farming system in Bangladesh is widely practiced for its resource efficiency, yet its microbial structure, functional potential, and associated antimicrobial resistance risks remain poorly understood. This study investigated microbial communities, metabolic functions, and antimicrobial resistance profiles across multiple components of integrated farming systems, including chicken gut, chicken droppings, feed, fish intestine, and pond sediment. Microbial profiling was performed using 16S ribosomal ribonucleic acid (rRNA) gene sequencing, functional metagenomic prediction, and culture-based isolation, complemented by antimicrobial susceptibility testing. A total of 2,838 operational taxonomic units were identified, with bacteria constituting the vast majority of detected microorganisms. Microbial community composition was strongly shaped by sample type, reflecting distinct ecological niches within the farming system. Chicken gut samples were dominated by Firmicutes, feed samples by Cyanobacteria, and sediment samples exhibited the highest microbial diversity, including taxa involved in biogeochemical cycling. Functional analysis revealed that pathways related to amino acid and carbohydrate metabolism were most abundant across all samples, while sediment and feed were enriched in pathways associated with xenobiotic degradation, suggesting a role in environmental detoxification. Culture-based methods isolated clinically relevant bacteria, including Escherichia coli and Proteus mirabilis, although metagenomic analysis indicated that these organisms represented only a minor fraction of the overall microbial community. Antimicrobial susceptibility testing demonstrated notable resistance, particularly to tetracyclines and fluoroquinolones. Metagenomic analysis further identified multiple antimicrobial resistance genes, with several showing strong associations with specific bacterial genera. This study provides the first comprehensive characterization of microbial diversity, functional capacity, and antimicrobial resistance within integrated chicken and fish farming systems in Bangladesh, highlighting potential environmental reservoirs of resistance and underscoring the need for improved management strategies to enhance sustainability and reduce public health risks.",
+      "authors": [
+        "S M Kador",
+        "Jannatul Ferdus Shila",
+        "Sinthea Afrin",
+        "Jarin Jannat",
+        "Khondoker Tanjim Islam",
+        "Rafid Nahian Rubaiyat",
+        "Mohammad Imtiaj Uddin Bhuiyan",
+        "Tanay Chakrovarty",
+        "Md Shazid Hasan",
+        "Najmuj Sakib",
+        "M Shaminur Rahman",
+        "Ovinu Kibria Islam",
+        "Md Tanvir Islam"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-01-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41950191/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Functional metagenomic prediction of antimicrobial resistance",
+      "llm_evidence_cn": "抗菌素耐药性的功能宏基因组预测",
+      "llm_evidence": "抗菌素耐药性的功能宏基因组预测",
+      "canonical_evidence": "抗菌素耐药性的功能宏基因组预测",
+      "llm_tldr_en": "This study uses 16S rRNA sequencing and functional metagenomics to profile microbial AMR in farming systems.",
+      "llm_tldr_cn": "本研究利用16S rRNA测序和功能宏基因组学分析了养殖系统中的微生物耐药性。",
+      "llm_tldr": "本研究利用16S rRNA测序和功能宏基因组学分析了养殖系统中的微生物耐药性。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for antimicrobial resistance prediction from genomes",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

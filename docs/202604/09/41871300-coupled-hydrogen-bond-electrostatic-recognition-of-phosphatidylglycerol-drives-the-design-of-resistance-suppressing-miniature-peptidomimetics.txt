@@ -1,0 +1,84 @@
+Title: Coupled Hydrogen-Bond-Electrostatic Recognition of Phosphatidylglycerol Drives the Design of Resistance-Suppressing Miniature Peptidomimetics - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41871300/
+
+Markdown Content:
+Actions
+
+. 2026 Apr 8;148(13):14662-14679.
+
+doi: 10.1021/jacs.6c03697.  Epub 2026 Mar 23.
+
+[Xubo Tong](https://pubmed.ncbi.nlm.nih.gov/?term=Tong+X&cauthor_id=41871300)[1](https://pubmed.ncbi.nlm.nih.gov/41871300/#full-view-affiliation-1 "Institute of Chemical Biology and Nanomedicine, State Key Laboratory of Chemo and Biosensing, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and College of Chemistry and Chemical Engineering, Hunan University, Changsha 410082, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41871300/#full-view-affiliation-2 "State Key Laboratory of Medicinal Chemical Biology, Nankai University, Tianjin 300071, China.")[3](https://pubmed.ncbi.nlm.nih.gov/41871300/#full-view-affiliation-3 "Department of Dermatology, The First Affiliated Hospital of Chongqing Medical University, Chongqing 400010, China."),[Yingjia Tan](https://pubmed.ncbi.nlm.nih.gov/?term=Tan+Y&cauthor_id=41871300)[1](https://pubmed.ncbi.nlm.nih.gov/41871300/#full-view-affiliation-1 "Institute of Chemical Biology and Nanomedicine, State Key Laboratory of Chemo and Biosensing, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and College of Chemistry and Chemical Engineering, Hunan University, Changsha 410082, China.")[2](https://pubmed.ncbi.nlm.nih.gov/41871300/#full-view-affiliation-2 "State Key Laboratory of Medicinal Chemical Biology, Nankai University, Tianjin 300071, China."),[Jie Mao](https://pubmed.ncbi.nlm.nih.gov/?term=Mao+J&cauthor_id=41871300)[1](https://pubmed.ncbi.nlm.nih.gov/41871300/#full-view-affiliation-1 "Institute of Chemical Biology and Nanomedicine, State Key Laboratory of Chemo and Biosensing, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and College of Chemistry and Chemical Engineering, Hunan University, Changsha 410082, China."),[Peiren Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+P&cauthor_id=41871300)[1](https://pubmed.ncbi.nlm.nih.gov/41871300/#full-view-affiliation-1 "Institute of Chemical Biology and Nanomedicine, State Key Laboratory of Chemo and Biosensing, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and College of Chemistry and Chemical Engineering, Hunan University, Changsha 410082, China."),[Ziqi Yin](https://pubmed.ncbi.nlm.nih.gov/?term=Yin+Z&cauthor_id=41871300)[1](https://pubmed.ncbi.nlm.nih.gov/41871300/#full-view-affiliation-1 "Institute of Chemical Biology and Nanomedicine, State Key Laboratory of Chemo and Biosensing, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and College of Chemistry and Chemical Engineering, Hunan University, Changsha 410082, China."),[Mengqian Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+M&cauthor_id=41871300)[1](https://pubmed.ncbi.nlm.nih.gov/41871300/#full-view-affiliation-1 "Institute of Chemical Biology and Nanomedicine, State Key Laboratory of Chemo and Biosensing, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and College of Chemistry and Chemical Engineering, Hunan University, Changsha 410082, China."),[Changwu Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+C&cauthor_id=41871300)[1](https://pubmed.ncbi.nlm.nih.gov/41871300/#full-view-affiliation-1 "Institute of Chemical Biology and Nanomedicine, State Key Laboratory of Chemo and Biosensing, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and College of Chemistry and Chemical Engineering, Hunan University, Changsha 410082, China."),[Guihua Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+G&cauthor_id=41871300)[1](https://pubmed.ncbi.nlm.nih.gov/41871300/#full-view-affiliation-1 "Institute of Chemical Biology and Nanomedicine, State Key Laboratory of Chemo and Biosensing, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and College of Chemistry and Chemical Engineering, Hunan University, Changsha 410082, China."),[Yongyi Yao](https://pubmed.ncbi.nlm.nih.gov/?term=Yao+Y&cauthor_id=41871300)[1](https://pubmed.ncbi.nlm.nih.gov/41871300/#full-view-affiliation-1 "Institute of Chemical Biology and Nanomedicine, State Key Laboratory of Chemo and Biosensing, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and College of Chemistry and Chemical Engineering, Hunan University, Changsha 410082, China."),[Ruihan Gao](https://pubmed.ncbi.nlm.nih.gov/?term=Gao+R&cauthor_id=41871300)[1](https://pubmed.ncbi.nlm.nih.gov/41871300/#full-view-affiliation-1 "Institute of Chemical Biology and Nanomedicine, State Key Laboratory of Chemo and Biosensing, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and College of Chemistry and Chemical Engineering, Hunan University, Changsha 410082, China."),[Yingying Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+Y&cauthor_id=41871300)[1](https://pubmed.ncbi.nlm.nih.gov/41871300/#full-view-affiliation-1 "Institute of Chemical Biology and Nanomedicine, State Key Laboratory of Chemo and Biosensing, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and College of Chemistry and Chemical Engineering, Hunan University, Changsha 410082, China."),[Siwei Guo](https://pubmed.ncbi.nlm.nih.gov/?term=Guo+S&cauthor_id=41871300)[4](https://pubmed.ncbi.nlm.nih.gov/41871300/#full-view-affiliation-4 "Hunan Provincial Key Laboratory of Anti-Resistance Microbial Drugs, The Third Hospital of Changsha (The Affiliated Changsha Hospital of Hunan University), Changsha 410015, China."),[Yang Deng](https://pubmed.ncbi.nlm.nih.gov/?term=Deng+Y&cauthor_id=41871300)[4](https://pubmed.ncbi.nlm.nih.gov/41871300/#full-view-affiliation-4 "Hunan Provincial Key Laboratory of Anti-Resistance Microbial Drugs, The Third Hospital of Changsha (The Affiliated Changsha Hospital of Hunan University), Changsha 410015, China."),[Wing-Leung Wong](https://pubmed.ncbi.nlm.nih.gov/?term=Wong+WL&cauthor_id=41871300)[5](https://pubmed.ncbi.nlm.nih.gov/41871300/#full-view-affiliation-5 "Department of Applied Biology and Chemical Technology, The Hong Kong Polytechnic University, Hung Hom, Kowloon, Hong Kong SAR 999077, China."),[Pan Mao](https://pubmed.ncbi.nlm.nih.gov/?term=Mao+P&cauthor_id=41871300)[4](https://pubmed.ncbi.nlm.nih.gov/41871300/#full-view-affiliation-4 "Hunan Provincial Key Laboratory of Anti-Resistance Microbial Drugs, The Third Hospital of Changsha (The Affiliated Changsha Hospital of Hunan University), Changsha 410015, China."),[Xin Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+X&cauthor_id=41871300)[4](https://pubmed.ncbi.nlm.nih.gov/41871300/#full-view-affiliation-4 "Hunan Provincial Key Laboratory of Anti-Resistance Microbial Drugs, The Third Hospital of Changsha (The Affiliated Changsha Hospital of Hunan University), Changsha 410015, China."),[Junfeng Song](https://pubmed.ncbi.nlm.nih.gov/?term=Song+J&cauthor_id=41871300)[6](https://pubmed.ncbi.nlm.nih.gov/41871300/#full-view-affiliation-6 "Lab of Advanced Materials, College of Smart Materials and Future Energy, Department of Chemistry, Fudan University, Shanghai 200433, China."),[Xinxin Feng](https://pubmed.ncbi.nlm.nih.gov/?term=Feng+X&cauthor_id=41871300)[1](https://pubmed.ncbi.nlm.nih.gov/41871300/#full-view-affiliation-1 "Institute of Chemical Biology and Nanomedicine, State Key Laboratory of Chemo and Biosensing, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and College of Chemistry and Chemical Engineering, Hunan University, Changsha 410082, China.")[4](https://pubmed.ncbi.nlm.nih.gov/41871300/#full-view-affiliation-4 "Hunan Provincial Key Laboratory of Anti-Resistance Microbial Drugs, The Third Hospital of Changsha (The Affiliated Changsha Hospital of Hunan University), Changsha 410015, China.")
+
+Affiliations
+
+*    PMID: **41871300**
+*    DOI: [10.1021/jacs.6c03697](https://doi.org/10.1021/jacs.6c03697)
+
+## Coupled Hydrogen-Bond-Electrostatic Recognition of Phosphatidylglycerol Drives the Design of Resistance-Suppressing Miniature Peptidomimetics
+
+Xubo Tong et al. J Am Chem Soc.2026.
+
+## Abstract
+
+The emergence of multidrug-resistant (MDR) pathogens has urged us to find new antimicrobial strategies. Phosphatidylglycerol (PG) is an attractive bacterial-specific lipid target but is targeted by only one clinical agent, daptomycin. Yet daptomycin, like most reported PG binders, binds PG through an imprecise hydrophobic-electrostatic mode, necessitating a relatively large molecular size. This requirement, together with its strict Ca 2+ dependence, significantly limits its efficacy. Here, we report _bis_-pyridinium amides (**BisPA**s), a rationally designed class of small molecules capable of precisely recognizing PG through amide-diol hydrogen bonding coupled with pyridinium-phosphate anionic-π interaction, independent of environmental conditions such as Ca 2+. The lead compound, **BisPA14**, with ∼one-third the molecular weight of daptomycin, exhibits comparable PG-binding affinity, with _K_ d(**BisPA14**) = 1.4 × 10-6 M versus _K_ d(daptomycin-Ca 2+) = 0.9 × 10-6 M. **BisPA14** disrupts PG self-assembly and membrane integrity and simultaneously engages bacterial DNA as a secondary intracellular target. This dual-targeting mechanism enables **BisPA14** to eradicate proliferating, tolerant, and persister bacterial populations while suppressing resistance evolution. It remains active in serum-containing environments, protects host cells from bacterial damage, and demonstrates excellent biocompatibility and strong therapeutic efficacy in intraperitoneal, pulmonary, and bloodstream methicillin-resistant _Staphylococcus aureus_ infection models. As a synthetically accessible small molecule that functionally mimics and improves upon daptomycin's lipid-targeting mechanism, this work establishes a secondary-bonding-driven PG-recognition paradigm for combating MDR bacterial infections.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Mechanism of High-Level Daptomycin Resistance in _Corynebacterium striatum_.](https://pubmed.ncbi.nlm.nih.gov/30089649/)
+
+Goldner NK, Bulow C, Cho K, Wallace M, Hsu FF, Patti GJ, Burnham CA, Schlesinger P, Dantas G.Goldner NK, et al.mSphere. 2018 Aug 8;3(4):e00371-18. doi: 10.1128/mSphereDirect.00371-18.mSphere. 2018.PMID: 30089649 Free PMC article. 
+*   [Oligopyridinium peptidomimetics with dual bacterial membrane and DNA targeting as resistance-resistant antibacterials.](https://pubmed.ncbi.nlm.nih.gov/40759068/)
+
+Li J, Cao H, Chen P, Guo S, Deng Y, Li X, Pu H, Bai Y, Yao L, Wong WL, Zhang C, Feng X.Li J, et al.Eur J Med Chem. 2025 Nov 15;298:118025. doi: 10.1016/j.ejmech.2025.118025. Epub 2025 Jul 30.Eur J Med Chem. 2025.PMID: 40759068 
+*   [Daptomycin membrane activity is modulated by the localized interplay between calcium ions and phospholipids in monolayers and bilayers containing a lysyl-phosphatidylglycerol analogue.](https://pubmed.ncbi.nlm.nih.gov/40930447/)
+
+Hoernke M, Shi S, Hubbard ATM, Geringer N, Strati F, Shen C, Wölk C, Harvey RD.Hoernke M, et al.Biochim Biophys Acta Biomembr. 2025 Dec;1867(8):184452. doi: 10.1016/j.bbamem.2025.184452. Epub 2025 Sep 8.Biochim Biophys Acta Biomembr. 2025.PMID: 40930447 
+*   [Molecular mechanisms of resistance and tolerance of Staphylococcus aureus to daptomycin.](https://pubmed.ncbi.nlm.nih.gov/41297715/)
+
+Lim C, Coombs GW, Mowlaboccus S.Lim C, et al.Int J Antimicrob Agents. 2026 Jan;67(1):107678. doi: 10.1016/j.ijantimicag.2025.107678. Epub 2025 Nov 24.Int J Antimicrob Agents. 2026.PMID: 41297715 Review. 
+*   [The action mechanism of daptomycin.](https://pubmed.ncbi.nlm.nih.gov/27288182/)
+
+Taylor SD, Palmer M.Taylor SD, et al.Bioorg Med Chem. 2016 Dec 15;24(24):6253-6268. doi: 10.1016/j.bmc.2016.05.052. Epub 2016 May 28.Bioorg Med Chem. 2016.PMID: 27288182 Review. 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [American Chemical Society](https://doi.org/10.1021/jacs.6c03697)
+
+*   ### Research Materials
+
+    *   [NCI CPTC Antibody Characterization Program](https://antibodies.cancer.gov/detail/CPTC-GSTP1-1)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-651)

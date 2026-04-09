@@ -1,0 +1,129 @@
+Title: A20 restricted PDCoV release through negative regulation of PANoptosis - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41773863/
+
+Markdown Content:
+## A20 restricted PDCoV release through negative regulation of PANoptosis
+
+Chunyu Lu et al. mBio.2026.
+
+## Abstract
+
+Coronavirus infections can trigger multiple modes of cell death, leading to severe infectious diseases. The process is modulated by host factors with mechanisms yet to be fully elucidated. Here, we first demonstrated that the host factor A20 regulated PANoptosis during porcine deltacoronavirus (PDCoV) infection, thereby contributing to the antiviral defense response. We found that PDCoV could induce PANoptosis in intestinal epithelial cells, which facilitates the extracellular release of viral particles through this form of programmed cell death. A20 restricted the PANoptosome assembly and downstream death signaling by targeting RIPK3 ubiquitin chains for degradation. Consequently, loss of A20 exacerbated cell lysis and enhanced the release of viral particles, although this effect does not alter viral entry or replication. We further established that PDCoV-induced PANoptosis-dependent release was driven by osmotic imbalance resulting from membrane pore formation mediated by GSDMD and MLKL, rather than by direct transmembrane egress of viral particles. Transwell models showed that pharmacological inhibition of the pore-forming activities of GSDMD and MLKL reduced viral dissemination and preserved epithelial barrier integrity. These findings advance our understanding of enteric coronavirus pathogenesis and suggest that the A20-PANoptosis axis represents a potential target for antiviral intervention.IMPORTANCECoronaviruses have repeatedly posed significant threats to both human and animal health. Here, we used porcine deltacoronavirus (PDCoV), a highly enterotropic zoonotic pathogen, to uncover a novel mechanism by which coronaviruses exploit PANoptosis to facilitate viral egress. We demonstrate that PDCoV infection triggers PANoptosis in intestinal epithelial cells, leading to plasma membrane rupture and subsequent viral release. Importantly, we identified the host ubiquitin-editing enzyme A20 as a critical negative regulator of this process. A20 restricts PANoptosome assembly by specifically deubiquitinating RIPK3, thereby limiting cell lysis and suppressing viral dissemination without affecting viral replication. Our findings offer fundamental insights into coronavirus-host interactions and highlight the therapeutic potential of targeting lytic cell death to combat viral dissemination.
+
+**Keywords:** A20; PANoptosis; PDCoV; coronavirus; viral release; zoonosis.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+The authors declare no conflict of interest.
+
+## Figures
+
+[![Image 1: Fig 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cff2/13059786/1229b17feccb/mbio.00081-26.f001.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cff2/13059786/e651f6ec9e05/mbio.00081-26.f001.jpg)
+
+**Fig 1**
+PDCoV triggered PANoptosis in intestinal epithelial cells. (**A**) qRT-PCR quantification of PDCoV copy numbers in cytoplasmic lysates of IPEC-J2 (MOI of 0.5). TCID50 assay of PDCoV titers. _n_ = 3. (**B**) Cell viability and cytotoxicity of IPEC-J2 cells at the indicated time points post-infection with PDCoV (MOI of 0.5). _n_ = 3. (**C and D**) Cell viability (**C**) and cytotoxicity (**D**) of IPEC-J2 at indicated times post-infection with PDCoV (MOI of 0.5) after antibody-mediated neutralization or inactivation. _n_ = 3. (**E**) Immunoblot analysis of the cleavage or phosphorylation of GSDMD, caspase-3, and MLKL, along with the expression of PDCoV N protein. Blots for GAPDH served as loading controls. (**F**) Co-IP of RIPK3 with ASC, ZBP1, and pro caspase-8 at 24 hpi. (**G**) Representative immunofluorescence images showing co-localization of RIPK3, ASC, and pro-caspase-8 in IPEC-J2 at 24 hpi with PDCoV (MOI of 0.5). Scale bar, 20 μm. (**H**) Fecal consistency scores were recorded (above). Viral shedding (red) and body weight (blue) were recorded (below). _n_ = 3. (**I**) Pathological examination and H&E-stained jejunum sections. Scale bars, 20 μm. (**J**) Representative immunofluorescence images of jejunal tissue sections from piglets at 48 hpi. Nuclei were shown in blue, pMLKL or GSDMD-N or caspase-3 p17 in ochre, the epithelial cell marker E-cadherin in green, and PDCoV in red. Scale bar, 20 μm. (**K**) Representative immunofluorescence images showing colocalization of PANoptosome components in jejunal tissues. Nuclei were shown in blue, E-cadherin in green, PDCoV in red, ASC in purple, RIPK3 in ochre, and pro-caspase-8 in light blue. Scale bar, 10 μm. Line plots showed fluorescence intensity profiles of 50 pixels for co-localization analysis in each image. (**L**) mRNA expression levels of IL-1β and IL-6 in jejunal tissues of piglets at 48 hpi. _n_ = 6. (**M**) Immunoblot analysis of PDCoV-N and total and phosphorylated p65. Blots for GAPDH served as loading controls. All experiments were representative of three or more independent experiments. Bars indicated mean + SD. **** _P_< 0.0001, *** _P_< 0.0005, ** _P_< 0.005, and * _P_< 0.05; ns, no significant difference.
+
+[![Image 2: Fig 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cff2/13059786/3d0a029809b7/mbio.00081-26.f002.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cff2/13059786/c8b5652a7b33/mbio.00081-26.f002.jpg)
+
+**Fig 2**
+A20 regulated PDCoV-induced PANoptosis. (**A**) mRNA expression levels of A20 in IPEC-J2 cells at 24 hpi (MOI of 0.5). _n_ = 6. Immunoblot analysis of A20. Blots for GAPDH served as loading controls. (**B**) Immunoblot analysis of total and phosphorylated p65 and MLKL, and cleaved GSDMD and caspase-3 in WT and A20 KO cells. Blots for GAPDH served as loading controls. (**C**) mRNA expression levels of IL-1β and IL-6 in WT and A20 KO cells at 24 hpi with PDCoV. _n_ = 6. (**D**) Cell viability assay at 24 hpi in WT and A20 KO cells. _n_ = 3. (**E**) Cytotoxicity assay at 24 hpi in WT and A20 KO cells. _n_ = 3. All experiments were representative of three or more independent experiments. Bars indicated mean + SD. **** _P_< 0.0001, *** _P_< 0.0005, ** _P_< 0.005, and * _P_< 0.05, ns, no significant difference.
+
+[![Image 3: Fig 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cff2/13059786/4191226d533c/mbio.00081-26.f003.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cff2/13059786/bd589287943f/mbio.00081-26.f003.jpg)
+
+**Fig 3**
+A20 targeted RIPK3 ubiquitination to regulate PANoptosome. (**A**) Co-immunoprecipitation analysis of interactions between ZBP1 and pro caspase-8, RIPK3, and ASC at 24 hpi in WT and A20 KO cells, under either wild-type (RIPK3 K5) or K5-mutant RIPK3 (RIPK3 K5A) backgrounds. (**B**) Immunoblot analysis of total and ubiquitinated levels of ZBP1, RIPK3 (K5), and RIPK3 (K5A) in WT and A20 KO cells. Co-IP analysis of RIPK3 (K5) or RIPK3 (K5A) with A20 in WT and A20 KO cells. Blots for GAPDH served as loading controls. (**C**) Sequence alignment of human and Sus scrofa RIPK3 proteins. Identical residues were shaded in red, and the conserved lysine residue K5 was indicated by a blue triangle. All experiments were representative of three or more independent experiments.
+
+[![Image 4: Fig 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cff2/13059786/ca06629172e7/mbio.00081-26.f004.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cff2/13059786/ba241ac31811/mbio.00081-26.f004.jpg)
+
+**Fig 4**
+A20 deficiency promoted PDCoV release. (**A**) Immunoblot analysis of PDCoV N protein levels in cytoplasmic lysates (Lys.) and supernatants (Sup.) of WT, A20 KO, and A20 OE cells at 24 hpi. Blots for GAPDH served as loading controls. (**B**) qRT-PCR quantification of PDCoV N gene copy numbers in cytoplasmic lysates (Lys.) and supernatants (Sup.) of WT, A20 KO, and A20 OE cells at 24 hpi (MOI of 0.5). _n_ = 3. (**C**) TCID 50 assay of viral titers released from WT, A20 KO, and A20 OE cells at 24 hpi (MOI of 0.5). _n_ = 3. (**D**) Kinetics of PI-permeable cell death in WT, A20 KO, and A20 OE cells following PDCoV infection (MOI of 0.5). _n_ = 5. (**E and F**) qRT-PCR quantification of PDCoV copy numbers in cytoplasmic lysates (Lys.) and supernatants (Sup.) of WT, A20 KO, and A20 OE cells. _n_ = 3. (**G**) Representative immunofluorescence images showing colocalization of PDCoV with early endosomes (RAB5A+), late endosomes (RAB7B+), and lysosomes (LAMP2+) in WT, A20 KO, and A20 OE cells at 24 hpi. Nuclei were stained blue, PDCoV N protein was shown in green, and RAB5A, RAB7B, or LAMP2 were shown in yellow. Scale bar, 20 μm. Manders’ colocalization analysis of yellow and green fluorescence signals displayed as scatterplots. (**H**) Representative immunofluorescence images showing levels of viral dsRNA in WT, A20 KO, and A20 OE cells at 12 and 24 hpi. Scale bar, 20 μm. All experiments were representative of three or more independent experiments. Bars indicated mean + SD. **** _P_< 0.0001, *** _P_< 0.0005, ** _P_< 0.005, and * _P_< 0.05; ns, no significant difference.
+
+[![Image 5: Fig 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cff2/13059786/690fbfcb2391/mbio.00081-26.f005.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cff2/13059786/7d365ece5e37/mbio.00081-26.f005.jpg)
+
+**Fig 5**
+PDCoV release was dependent on lytic cell death. (**A**) Immunoblot analysis of PDCoV N protein levels in cytoplasmic lysates (Lys.) and supernatants (Sup.) of WT and A20 KO cells at 24 hpi (MOI of 0.5), with or without treatment with DEVD or NSA. Blots for GAPDH served as loading controls. (**B**) qRT-PCR quantification of PDCoV N gene copy numbers in cytoplasmic lysates (Lys.) and supernatants (Sup.) of WT cells with or without 200 mM mannitol treatment. _n_ = 3. (**C**) Immunoblot analysis of membrane-associated MLKL and GSDMD-N in WT and A20 KO cells at 24 hpi, with or without NSA treatment. Na+/K+ ATPase was used as a membrane protein loading control. (**D**) Kinetics of PI-permeable cell death in WT and A20 KO cells at 24 hpi with or without 200 mM mannitol treatment. _n_ = 6. (**E**) qRT-PCR quantification of PDCoV N gene copy numbers in cytoplasmic lysates (Lys.) and supernatants (Sup.) of A20 KO cells, with or without 200 mM mannitol treatment. _n_ = 3. (**F**) Immunoblot analysis of membrane-associated MLKL and GSDMD-N in WT and A20 KO cells at 24 hpi, with or without 200 mM mannitol treatment. Na+/K+ ATPase was used as a loading control. (**G**) Immunoblot analysis of PDCoV N protein levels in cytoplasmic lysates (Lys.) and supernatants (Sup.) of WT and A20 KO cells at 24 hpi, with or without 200 mM mannitol treatment. Blots for GAPDH served as loading controls. All experiments were representative of three or more independent experiments. Bars indicated mean + SD. **** _P_< 0.0001, *** _P_< 0.0005, ** _P_< 0.005, and * _P_< 0.05; ns, no significant difference.
+
+[![Image 6: Fig 6](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cff2/13059786/37fa82a25be0/mbio.00081-26.f006.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cff2/13059786/bcc4b0bc7cf2/mbio.00081-26.f006.jpg)
+
+**Fig 6**
+NSA inhibited the spread of PDCoV. The _in vitro_ intestinal barrier model was established using IPEC-J2 cells. At 24 hpi, the model was evaluated for transepithelial electrical resistance (TEER) (**A**, _n_ = 6) and NaFI permeability (**B**, _n_ = 6). (**C**) qRT-PCR analysis of PDCoV N gene copy numbers in the basal compartment cells in the presence or absence of neutralizing antibodies. _n_ = 5. (**D**) qRT-PCR analysis of PDCoV N gene copy numbers in the lower chamber with or without NSA treatment. _n_ = 3. (**E**) TCID 50 assay of PDCoV titers in the lower chamber of WT and A20 KO models. _n_ = 3. (**F and G**) Cytotoxicity (F, _n_ = 3) and cell viability (G, _n_ = 3) assays of basal compartment cells in WT and A20 KO models with or without NSA treatment. (**H**) mRNA expression levels of IL-1β and IL-6 in basal compartment cells of WT and A20 KO models with or without NSA treatment. _n_ = 3. All experiments were representative of three or more independent experiments. Bars indicated mean + SD. **** _P_< 0.0001, *** _P_< 0.0005, ** _P_< 0.005, and * _P_< 0.05; ns, no significant difference.
+
+[![Image 7: Fig 7](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cff2/13059786/382d6ed7a624/mbio.00081-26.f007.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cff2/13059786/b716f3ea2930/mbio.00081-26.f007.jpg)
+
+**Fig 7**
+A20 restricted PDCoV release by suppressing PANoptosis-mediated plasma membrane rupture. Upon infecting intestinal epithelial cells, PDCoV RNA is sensed by ZBP1, triggering RIPK3 ubiquitination and PANoptosome assembly. This initiates PANoptosis, where GSDMD and MLKL pores cause osmotic imbalance and plasma membrane rupture, facilitating viral release. The host protein A20 counteracts this by deubiquitinating RIPK3 to suppress the PANoptosome, thereby delaying lysis and restricting viral spread.
+
+## Similar articles
+
+*   [GSDMD and GSDME exhibit distinct roles in enteric coronavirus PDCoV-induced pyroptosis and inflammatory responses.](https://pubmed.ncbi.nlm.nih.gov/40503916/)
+
+Li C, Shi Y, Xie C, Duan K, Ding T, Xu X, Fang L, Zhou Y, Xiao S.Li C, et al.J Virol. 2025 Jul 22;99(7):e0187624. doi: 10.1128/jvi.01876-24. Epub 2025 Jun 12.J Virol. 2025.PMID: 40503916 Free PMC article. 
+*   [Cleavage of HDAC6 to dampen its antiviral activity by nsp5 is a common strategy of swine enteric coronaviruses.](https://pubmed.ncbi.nlm.nih.gov/38289103/)
+
+Li Z, Xiao W, Yang Z, Guo J, Zhou J, Xiao S, Fang P, Fang L.Li Z, et al.J Virol. 2024 Feb 20;98(2):e0181423. doi: 10.1128/jvi.01814-23. Epub 2024 Jan 30.J Virol. 2024.PMID: 38289103 Free PMC article. 
+*   [ANKFY1 suppresses PDCoV replication by degrading viral nsp8 protein via p62-dependent selective autophagy.](https://pubmed.ncbi.nlm.nih.gov/41763084/)
+
+Xu Y, Zhang Y, Zhu H, Yu X, Lou J, Liu M, Liu G, Bai J, Jiang P, Yang Z, Wang X.Xu Y, et al.Vet Microbiol. 2026 Apr;315:110927. doi: 10.1016/j.vetmic.2026.110927. Epub 2026 Feb 3.Vet Microbiol. 2026.PMID: 41763084 
+*   [Epidemiology, pathogenesis, immune evasion mechanism and vaccine development of porcine Deltacoronavirus.](https://pubmed.ncbi.nlm.nih.gov/38653845/)
+
+Shan X, Li R, Ma X, Qiu G, Xiang Y, Zhang X, Wu D, Wang L, Zhang J, Wang T, Li W, Xiang Y, Song H, Niu D.Shan X, et al.Funct Integr Genomics. 2024 Apr 24;24(3):79. doi: 10.1007/s10142-024-01346-7.Funct Integr Genomics. 2024.PMID: 38653845 Review. 
+*   [Cell entry mechanisms of porcine enteric coronaviruses.](https://pubmed.ncbi.nlm.nih.gov/41651428/)
+
+Wang Y, Zhao F, Zhao Q, Du S, Wen Y, Wu R, Cao S, Cong F, Huang X.Wang Y, et al.J Biol Chem. 2026 Mar;302(3):111250. doi: 10.1016/j.jbc.2026.111250. Epub 2026 Feb 5.J Biol Chem. 2026.PMID: 41651428 Free PMC article.Review. 
+
+## References
+
+1.       1.    Leao JC, Gusmao TP de L, Zarzar AM, Leao Filho JC, Barkokebas Santos de Faria A, Morais Silva IH, Gueiros LAM, Robinson NA, Porter S, Carvalho A de AT. 2022. Coronaviridae-old friends, new enemy! Oral Dis 28 Suppl 1:858–866. doi: 10.1111/odi.13447 - [DOI](https://doi.org/10.1111/odi.13447) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7300831/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/32475006/)
+
+2.       1.    Mao L, Cai X, Li J, Li X, Li S, Li W, Lu H, Dong Y, Zhai J, Xu X, Li B. 2025. Discovery of a novel betacoronavirus 1, cpCoV, in goats in China: the new risk of cross-species transmission. PLoS Pathog 21:e1012974. doi: 10.1371/journal.ppat.1012974 - [DOI](https://doi.org/10.1371/journal.ppat.1012974) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC11918373/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/40100842/)
+
+3.       1.    Woo PCY, Lau SKP, Lam CSF, Lau CCY, Tsang AKL, Lau JHN, Bai R, Teng JLL, Tsang CCC, Wang M, Zheng B-J, Chan K-H, Yuen K-Y. 2012. Discovery of seven novel Mammalian and avian coronaviruses in the genus deltacoronavirus supports bat coronaviruses as the gene source of alphacoronavirus and betacoronavirus and avian coronaviruses as the gene source of gammacoronavirus and deltacoronavirus. J Virol 86:3995–4008. doi: 10.1128/JVI.06540-11 - [DOI](https://doi.org/10.1128/jvi.06540-11) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3302495/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/22278237/)
+
+4.       1.    Wang L, Byrum B, Zhang Y. 2014. Detection and genetic characterization of deltacoronavirus in pigs, Ohio, USA, 2014. Emerg Infect Dis 20:1227–1230. doi: 10.3201/eid2007.140296 - [DOI](https://doi.org/10.3201/eid2007.140296) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC4073853/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/24964136/)
+
+5.       1.    Lee S, Lee C. 2014. Complete genome characterization of Korean porcine deltacoronavirus strain KOR/KNU14-04/2014. Genome Announc 2:e01191-14. doi: 10.1128/genomeA.01191-14 - [DOI](https://doi.org/10.1128/genomea.01191-14) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC4246158/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/25428966/)
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+
+## Grants and funding
+
+*   [2023YFD1801303/National Key Research and Development Program of China](https://pubmed.ncbi.nlm.nih.gov/?term=2023YFD1801303%2FNational+Key+Research+and+Development+Program+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2023YFD1801303/National Key Research and Development Program of China")
+*   [32525056, 32272996, 32473119/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=32525056%2C+32272996%2C+32473119%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 32525056, 32272996, 32473119/National Natural Science Foundation of China")
+*   [TN202421/Taizhou Science and Technology Support Program (Agriculture) Project](https://pubmed.ncbi.nlm.nih.gov/?term=TN202421%2FTaizhou+Science+and+Technology+Support+Program+%28Agriculture%29+Project%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant TN202421/Taizhou Science and Technology Support Program (Agriculture) Project")
+*   [U23A20236/Regional Innovation and Development Joint Fund of National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=U23A20236%2FRegional+Innovation+and+Development+Joint+Fund+of+National+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant U23A20236/Regional Innovation and Development Joint Fund of National Natural Science Foundation of China")
+*   [BK20230077/Natural Science Foundation of Jiangsu Province](https://pubmed.ncbi.nlm.nih.gov/?term=BK20230077%2FNatural+Science+Foundation+of+Jiangsu+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant BK20230077/Natural Science Foundation of Jiangsu Province")
+
+*   [CX(24)2001/Jiangsu Agricultural Science and Technology Innovation Fund](https://pubmed.ncbi.nlm.nih.gov/?term=CX%2824%292001%2FJiangsu+Agricultural+Science+and+Technology+Innovation+Fund%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant CX(24)2001/Jiangsu Agricultural Science and Technology Innovation Fund")
+*   [JSYSZJ2024001/Jiangsu Provincial Key Construction Labortory of Probiotics Preparation Open Project](https://pubmed.ncbi.nlm.nih.gov/?term=JSYSZJ2024001%2FJiangsu+Provincial+Key+Construction+Labortory+of+Probiotics+Preparation+Open+Project%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant JSYSZJ2024001/Jiangsu Provincial Key Construction Labortory of Probiotics Preparation Open Project")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Atypon](https://journals.asm.org/doi/10.1128/mbio.00081-26?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-895)

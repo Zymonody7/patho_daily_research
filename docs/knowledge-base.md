@@ -1,10 +1,43 @@
 # 知识库
 
-- 最近沉淀条目数：361
+- 最近沉淀条目数：372
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Reconstruction of human metabolic models with large language models.](#/202604/09/202604/09/41950094-reconstruction-of-human-metabolic-models-with-large-language-models)
+  - TLDR：针对人类基因组规模代谢模型（GEM）构建中人工维护成本高、精度不足的问题，本研究开发了 Human2 模型。该模型利用大语言模型（LLM）和自动化工作流进行高效协作策展，支持构建不同性别、年龄及组织的特异性模型。通过整合多组学与动力学数据，Human2 实现了对全身器官间代谢物交换的动态模拟，为多尺度人类代谢研究提供了高精度的数字化工具。
+  - Tags：`query:bioinfo`
+- [Multiple hypervariable markers improve mycobiome classification in metatranscriptome and metagenome data.](#/202604/09/202604/09/41951715-multiple-hypervariable-markers-improve-mycobiome-classification-in-metatranscriptome-and-metagenome-data)
+  - TLDR：针对宏基因组和宏转录组中真菌分类受限于参考基因组匮乏和数据库分辨率低的问题，本研究开发了 MicroFisher 工具。该工具通过识别多个高变标记基因序列，并结合加权集成算法进行分类，在模拟群落及森林土壤、植物根系等真实环境数据中表现出比现有工具更高的分类准确度和丰度估计精度，尤其提升了对稀有分类单元的检测能力。
+  - Tags：`query:seqai`
+- [Multiomics and deep learning dissect regulatory syntax in human development.](#/202604/09/202604/09/41951735-multiomics-and-deep-learning-dissect-regulatory-syntax-in-human-development)
+  - TLDR：针对人类发育过程中染色质可及性数据局限于单一器官或模态的问题，本研究构建了涵盖12个器官、80余万个细胞的多组学图谱，并利用深度学习模型从DNA序列预测可及性。研究揭示了转录因子协同作用的“硬性”与“软性”语法规则，以及抑制可及性的通用基序，为解码人类发育中的顺式调控逻辑和遗传变异提供了基础资源。
+  - Tags：`query:bioinfo`
+- [The trRosettaRNA server for RNA structure prediction.](#/202604/09/202604/09/41951853-the-trrosettarna-server-for-rna-structure-prediction)
+  - TLDR：许多RNA的功能依赖其复杂的三维结构，但实验测定成本高且周期长。trRosettaRNA是一个基于深度学习的自动化RNA三维结构预测平台，通过端到端神经网络直接从序列预测空间约束，并结合能量优化消除物理冲突。该工具在Rfam家族预测中表现出极高的准确性，与实验观测高度吻合，为RNA结构生物学研究提供了高效、开源的计算方案。
+  - Tags：`query:bioinfo`
+- [Sequence Display enables large-scale sequence-activity datasets for rapid protein evolution.](#/202604/09/202604/09/41951911-sequence-display-enables-large-scale-sequence-activity-datasets-for-rapid-protein-evolution)
+  - TLDR：针对蛋白质工程中多轮筛选效率低下的难题，本研究开发了 Sequence Display 平台，可在单轮实验中生成大规模蛋白质序列-活性数据集。该平台通过多路复用技术评估变体活性，并结合预训练蛋白质语言模型构建精细的活性景观。实验证明，该方法成功进化出具有更广 PAM 识别能力的 Cas9 和新型氨酰-tRNA 合成酶，为加速生物医学功能蛋白的发现提供了高效的数据驱动方案。
+  - Tags：`query:bioinfo`
+- [TriPDCL: A Tri-Pathway Prototype-Driven Contrastive Learning Framework for Cross-Modality Single-Cell Integration.](#/202604/09/202604/09/41952315-tripdcl-a-tri-pathway-prototype-driven-contrastive-learning-framework-for-cross-modality-single-cell-integration)
+  - TLDR：单细胞多组学集成面临数据稀疏和细胞异质性对齐的挑战。TriPDCL 提出了一种三通路原型驱动的对比学习框架，通过可学习的原型中心和迭代更新机制，在潜在空间中精确构建正负样本对，从而有效对齐跨模态的异质性信息。在五个数据集上的实验表明，该方法在消除批次效应和保留生物学特征方面优于现有主流方法，为统一的多组学表征学习提供了新方案。
+  - Tags：`query:bioinfo`
+- [Coupled Hydrogen-Bond-Electrostatic Recognition of Phosphatidylglycerol Drives the Design of Resistance-Suppressing Miniature Peptidomimetics.](#/202604/09/202604/09/41871300-coupled-hydrogen-bond-electrostatic-recognition-of-phosphatidylglycerol-drives-the-design-of-resistance-suppressing-miniature-peptidomimetics)
+  - TLDR：针对多重耐药菌缺乏高效靶向药物的挑战，本研究设计了双吡啶酰胺（BisPAs）类小分子，通过酰胺-二醇氢键与吡啶-磷酸根阴离子-π相互作用的协同机制，实现了对细菌特异性磷脂PG的精确识别。核心化合物BisPA14分子量仅为达托霉素的三分之一，却具备相当的结合力且不依赖钙离子，能通过破坏细胞膜并靶向DNA的双重机制清除耐药菌并抑制抗性产生，在多种感染模型中展现出优异的治疗潜力。
+  - Tags：`query:pathoai`
+- [Cross-body site microbial interactions influence the human plasma metabolome.](#/202604/09/202604/09/41952172-cross-body-site-microbial-interactions-influence-the-human-plasma-metabolome)
+  - TLDR：过去研究多关注肠道微生物对代谢的影响，忽视了多部位微生物的协同作用。本研究通过分析三个队列的多种体表微生物与血浆代谢组数据，发现肠道、口腔、皮肤和鼻腔微生物共同解释了约30%的代谢变异。研究揭示了口腔-肠道轴在吲哚衍生物等代谢物处理中的跨部位协同作用，且这种关联在胰岛素抵抗患者中更为显著，强调了多部位微生物组整合研究对理解宿主代谢的重要性。
+  - Tags：`query:pathoai`
+- [A20 restricted PDCoV release through negative regulation of PANoptosis.](#/202604/09/202604/09/41773863-a20-restricted-pdcov-release-through-negative-regulation-of-panoptosis)
+  - TLDR：猪丁型冠状病毒（PDCoV）通过诱导肠道上皮细胞发生PANoptosis（一种集凋亡、焦亡、坏死于一体的程序性死亡）来促进病毒释放。研究发现宿主蛋白A20通过去泛素化RIPK3来抑制PANoptosome复合物的组装，从而负向调节这一死亡过程。实验证明，A20缺失会加剧细胞裂解并显著增加病毒扩散，而抑制GSDMD和MLKL介导的膜孔形成可减少病毒传播。该研究揭示了病毒利用宿主死亡机制进行传播的新路径，为抗病毒干预提供了潜在靶点。
+  - Tags：`query:pathoai`
+- [Integrating GWAS, QTL Mapping, and RNA-seq to Identify Candidate Genes for Kernel Weight and Oil Traits in Maize (](#/202604/09/202604/09/41873878-integrating-gwas-qtl-mapping-and-rna-seq-to-identify-candidate-genes-for-kernel-weight-and-oil-traits-in-maize-)
+  - TLDR：本研究旨在解析玉米籽粒重量与油脂性状的遗传机制。通过整合278份自交系关联群体和229份F2群体的GWAS、QTL定位及RNA-seq数据，识别出10个多效性QTL及SAD、FALDH、FAE2等关键候选基因。研究揭示了调控不饱和脂肪酸和油脂含量的分子基础，为玉米品质改良的分子标记辅助育种提供了重要基因资源。
+  - Tags：`query:bioinfo`
+- [Microbial diversity, functional genomics and antibiotic resistance in integrated chicken and fish farming systems of Bangladesh.](#/202604/09/202604/09/41950191-microbial-diversity-functional-genomics-and-antibiotic-resistance-in-integrated-chicken-and-fish-farming-systems-of-bangladesh)
+  - TLDR：孟加拉国广泛采用鸡鱼集成养殖模式，但其微生物结构及抗生素耐药性（AMR）风险尚不明确。本研究通过16S rRNA测序、功能宏基因组预测及培养法，分析了鸡肠道、饲料、鱼肠道及沉积物等环节的微生物群落。结果发现沉积物微生物多样性最高，且系统中普遍存在对四环素和氟喹诺酮类的耐药性，并识别出关键耐药基因。该研究揭示了集成养殖系统作为耐药性环境库的风险，为提升养殖可持续性及公共卫生安全提供了科学依据。
+  - Tags：`query:pathoai`
 - [Publicly available multimodal large language models for ocular surface infections: benchmarking against corneal specialists in triage, diagnosis and treatment.](#/202604/08/202604/08/41946559-publicly-available-multimodal-large-language-models-for-ocular-surface-infections-benchmarking-against-corneal-specialists-in-triage-diagnosis-and-treatment)
   - TLDR：针对眼表感染诊断依赖微生物检测且效率较低的现状，本研究对比了GPT-4o、GPT-5等六款多模态大模型与角膜病专家在感染性角膜炎和结膜炎诊断、治疗及分诊中的表现。通过60例确诊病例测试发现，模型在“图像+文本”双重输入下表现最佳，Perplexity和GPT-5的诊断准确率接近人类专家，但在治疗方案制定和罕见病原体识别上仍存在短板。该研究验证了多模态LLM作为眼科辅助诊断工具在资源受限地区的临床潜力。
   - Tags：`query:bioinfo`
@@ -572,36 +605,3 @@
 - [Antibacterial efficacy and mechanism of the novel antimicrobial peptide lachnospirin-1 against](#/202603/22/202603/22/41838520-antibacterial-efficacy-and-mechanism-of-the-novel-antimicrobial-peptide-lachnospirin-1-against)
   - TLDR：针对耐碳青霉烯鲍曼不动杆菌（CRAB）引发的全球性医疗难题，本研究筛选并合成了一种新型抗菌肽 lachnospirin-1。该肽不仅能高效杀灭 CRAB 及其生物膜和休眠细胞，还通过破坏细胞膜、中和脂多糖及诱导氧化应激等多重机制发挥作用。小鼠实验证实其具有良好的安全性和体内抗菌活性，为治疗难治性 CRAB 感染提供了极具潜力的候选药物。
   - Tags：`query:pathoai`
-- [Unveiling the prognostic and therapeutic landscape of the zinc transporter protein SLC39A family in colorectal cancer through multi-omics and machine learning approaches.](#/202603/22/202603/22/41863577-unveiling-the-prognostic-and-therapeutic-landscape-of-the-zinc-transporter-protein-slc39a-family-in-colorectal-cancer-through-multi-omics-and-machine-learning-approaches)
-  - TLDR：针对结直肠癌（CRC）预后评估的难题，本研究聚焦于SLC39A锌转运蛋白家族，通过集成10种机器学习算法的101种组合，构建了预后风险模型SFRS。该模型不仅能精准预测患者生存期，还揭示了SLC39A家族在免疫微环境调节和免疫治疗响应中的关键作用，并识别出SLC39A8和SLC39A14作为潜在的生物标志物，为CRC的精准医疗提供了新工具。
-  - Tags：`query:bioinfo`
-- [High-resolution phage-host assignment through key proteins using large language models.](#/202603/21/202603/21/41862452-high-resolution-phage-host-assignment-through-key-proteins-using-large-language-models)
-  - TLDR：针对环境中大量病毒序列难以识别宿主的问题，本研究开发了 VirHost Hunter 框架。该框架利用蛋白质语言模型和视觉 Transformer 提取噬菌体尾部蛋白和裂解酶的深层特征，无需完整基因组即可实现高分辨率的宿主分配。实验证明该方法在肠道菌群分析中显著提升了预测精度，并成功筛选出能特异性针对肥胖相关细菌的裂解酶，为精准微生物组治疗提供了新路径。
-  - Tags：`query:pathoai`
-- [[Advances in integrated antimicrobial resistance diagnostics: quantitative, qualitative and AI-driven approaches].](#/202603/21/202603/21/41860614-advances-in-integrated-antimicrobial-resistance-diagnostics-quantitative-qualitative-and-ai-driven-approaches)
-  - TLDR：针对全球耐药性增加导致传统药敏试验耗时过长的问题，本文综述了快速表型药敏试验、分子诊断及AI驱动的预测模型。这些技术能将检测时间缩短至4-8小时并精准识别耐药基因，AI则在自动化解释和复杂数据分析中展现潜力，为优化抗感染治疗提供了更高效的决策支持。
-  - Tags：`query:pathoai`
-- [LazySlide: accessible and interoperable whole-slide image analysis.](#/202603/21/202603/21/41862659-lazyslide-accessible-and-interoperable-whole-slide-image-analysis)
-  - TLDR：针对病理全切片图像（WSI）与单细胞组学数据长期存在的数据孤岛问题，LazySlide 作为一个基于 scverse 生态的开源 Python 工具包，通过集成视觉语言大模型并遵循统一数据标准，实现了病理图像与组学流程的无缝对接。它支持组织分割、特征提取及零样本分类等功能，显著降低了多模态整合分析的门槛，为生物医学研究提供了高效的互操作平台。
-  - Tags：`query:bioinfo`
-- [Single-cell multiomics uncovers an endothelial mechanosensitive PIEZO1-IL-33 axis driving pulmonary fibrosis.](#/202603/21/202603/21/41862476-single-cell-multiomics-uncovers-an-endothelial-mechanosensitive-piezo1-il-33-axis-driving-pulmonary-fibrosis)
-  - TLDR：肺纤维化是一种导致肺组织硬化的进展性疾病，血管内皮细胞在其中的力学调控机制尚不明确。本研究利用单细胞多组学技术分析人类及小鼠模型，发现力学敏感离子通道PIEZO1在内皮细胞中显著上调。通过内皮特异性敲除实验，证实了PIEZO1通过CAPN2/STAT3通路调控促纤维化因子IL-33的分泌，从而驱动疾病进展，为肺纤维化治疗提供了新的干预靶点。
-  - Tags：`query:seqai`
-- [Host genetic variation and gut microbiome in pediatric diseases.](#/202603/21/202603/21/41588607-host-genetic-variation-and-gut-microbiome-in-pediatric-diseases)
-  - TLDR：针对儿科疾病中宿主遗传与肠道微生物协同演化的复杂机制，本文综述了通过全基因组关联分析（GWAS）识别的遗传变异及其对肠道菌群组成的调控作用。文章系统梳理了肠道微生物在脑、肺、皮肤及免疫轴中的生物标志物，揭示了遗传易感性如何通过诱发菌群失调来驱动疾病，为儿科精准医疗和创新疗法提供了理论支撑。
-  - Tags：`query:pathoai`
-- [Gut-derived bacterial membrane vesicles in prediabetes: Vesicle composition dictates inflammatory properties.](#/202603/21/202603/21/41816281-gut-derived-bacterial-membrane-vesicles-in-prediabetes-vesicle-composition-dictates-inflammatory-properties)
-  - TLDR：针对代谢性疾病中肠道菌群与宿主相互作用机制不明的问题，本研究对比了糖尿病前期患者与健康对照组的粪便细菌及其分泌的膜囊泡（bMVs）。研究发现，bMVs 的组成与细菌群落显著不同，且特定菌属（如 Lachnospiraceae）比例较高的 bMVs 具有更强的促炎特性。这一发现揭示了 bMVs 组成而非单纯细菌丰度是驱动代谢性炎症的关键因素，为理解前驱糖尿病的病理机制提供了新视角。
-  - Tags：`query:pathoai`
-- [Widespread effects of catecholamines on growth of human gut bacteria.](#/202603/21/202603/21/41862473-widespread-effects-of-catecholamines-on-growth-of-human-gut-bacteria)
-  - TLDR：宿主与肠道微生物通过神经内分泌信号（如儿茶酚胺）进行通讯，但目前缺乏对多样化菌群直接响应的系统性研究。本研究在厌氧条件下对多种人类肠道细菌进行了体外筛选，量化了儿茶酚胺对细菌生长动力学的影响。结果发现，儿茶酚胺在极低浓度下即可诱发物种特异性的生长改变，且响应模式具有谱系关联性。该研究为理解压力状态下激素如何直接塑造肠道菌群提供了定量数据支持。
-  - Tags：`query:pathoai`
-- [The evolutionary dynamics between viral mimics and host proteins.](#/202603/21/202603/21/41862705-the-evolutionary-dynamics-between-viral-mimics-and-host-proteins)
-  - TLDR：病毒通过模仿宿主蛋白来劫持细胞通路，但宿主如何在不破坏自身功能的前提下规避这种模仿尚不明确。本研究整合结构建模、蛋白质相互作用网络及演化分析，发现受模仿的宿主蛋白因功能限制而高度保守。研究揭示了宿主界面残基的差异化演化速率，并指出病毒利用宿主的演化困境实现了稳定的劫持，为理解宿主-病毒协同演化提供了新视角。
-  - Tags：`query:pathoai`
-- [Comparing the performance of functional versus taxonomic metagenomics for detecting ammonia disturbances in the biogas system.](#/202603/21/202603/21/41860433-comparing-the-performance-of-functional-versus-taxonomic-metagenomics-for-detecting-ammonia-disturbances-in-the-biogas-system)
-  - TLDR：沼气生产常受高浓度氨干扰，及早发现干扰至关重要。本研究通过对三个独立实验室反应器的宏基因组数据进行功能和分类学标注，利用正则化回归模型对比了两者在检测氨干扰方面的表现。结果显示，在单一研究内部，分类学数据表现更优；但在跨研究应用时，功能模型展现出更好的泛化潜力。这表明功能宏基因组在跨场景监测中具有一定优势，但并未全面超越分类学方法。
-  - Tags：`query:pathoai`
-- [Open and sustainable AI: challenges, opportunities and the road ahead in the life sciences.](#/202603/21/202603/21/41862658-open-and-sustainable-ai-challenges-opportunities-and-the-road-ahead-in-the-life-sciences)
-  - TLDR：生命科学领域 AI 应用虽广，但面临可重复性差、资源浪费及生态碎片化等严峻挑战。本文通过梳理 300 多个生态系统组件，提出了一套开放且可持续的 AI 开发建议与实施路径。该成果为研究者提供了具体的资源链接与操作指南，旨在提升 AI 模型的复用性并降低环境成本，推动生命科学研究向更透明、高效的方向发展。
-  - Tags：`query:bioinfo`
