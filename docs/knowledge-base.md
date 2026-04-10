@@ -1,10 +1,37 @@
 # 知识库
 
-- 最近沉淀条目数：372
+- 最近沉淀条目数：381
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Causal Prediction of TP53 Variant Pathogenicity Using a Perturbation-Informed Protein Language Model.](#/202604/10/202604/10/41955512-causal-prediction-of-tp53-variant-pathogenicity-using-a-perturbation-informed-protein-language-model)
+  - TLDR：TP53基因突变的功能预测对癌症研究至关重要，但通用模型在处理特定基因的错义突变时准确性有限。本研究开发了CaVepP53，通过在扰动实验数据上微调蛋白质语言模型，利用野生型与突变体嵌入向量的欧氏距离量化致病性。实验证明该模型在准确率和F1分数上显著优于AlphaMissense等通用模型，并成功预测了ClinVar未收录的新功能变体，为精准医疗提供了高精度的基因特异性预测框架。
+  - Tags：`query:bioinfo`
+- [Mechanistic Design of Graphdiyne-Based Multimodal Sensing Integrating Machine Learning and Photothermal Dynamics for Precision Recognition and On-Demand Inactivation.](#/202604/10/202604/10/41955469-mechanistic-design-of-graphdiyne-based-multimodal-sensing-integrating-machine-learning-and-photothermal-dynamics-for-precision-recognition-and-on-demand-inactivation)
+  - TLDR：针对致病菌快速检测与治疗的需求，该研究开发了一种基于石墨炔（GDY）的自供电多模态传感平台。利用CRISPR/Cas12a的特异性识别触发信号，结合GDY/金纳米颗粒电极，实现了电化学、比色和光热三种模式的副溶血性弧菌检测。通过机器学习整合多模态信号，实现了97.71%的感染分级准确率，并能利用光热效应原位灭活细菌，为伤口感染的精准诊疗提供了新方案。
+  - Tags：`query:pathoai`
+- [Environmentally mediated interactions predict community assembly and invasion success in a gut microbiota synthetic community.](#/202604/10/202604/10/41960919-environmentally-mediated-interactions-predict-community-assembly-and-invasion-success-in-a-gut-microbiota-synthetic-community)
+  - TLDR：肠道微生物群的稳定性对健康至关重要，但其复杂性使得预测物种入侵（如病原体定植或益生菌恢复）变得困难。本研究通过测量10种常见肠道细菌在彼此代谢产物（上清液）中的生长情况，构建并验证了广义Lotka-Volterra模型。结果表明，由可溶性化学物质介导的环境相互作用是决定群落组成和入侵成败的关键，且指向入侵者的相互作用比群落内部竞争更具决定性。这为通过精准干预预防病原体生长和优化益生菌疗法提供了理论基础。
+  - Tags：`query:pathoai`
+- [Targeting Inflammation in Bronchiectasis.](#/202604/10/202604/10/41954871-targeting-inflammation-in-bronchiectasis)
+  - TLDR：支气管扩张症长期被视为单纯的感染性疾病，但过度活跃的中性粒细胞炎症才是导致肺部损伤的关键。本文综述了从微生物组、炎症小体到Th17细胞因子的多维炎症机制，分析了DPP-1抑制剂等新型抗炎疗法在临床试验中的潜力。研究指出，通过生物标志物区分患者内型并实施精准抗炎治疗，是解决传统抗菌疗法效果不佳、改善患者预后的核心路径。
+  - Tags：`query:pathoai`
+- [Combining multiplexed assays of variant effect for enhanced BRCA2 variant classification.](#/202604/10/202604/10/41957374-combining-multiplexed-assays-of-variant-effect-for-enhanced-brca2-variant-classification)
+  - TLDR：针对 BRCA2 基因中大量意义不明变异（VUS）导致的临床评估难题，本研究整合了两项针对其 C 端 DNA 结合域的饱和基因组编辑（SGE）实验数据，构建了 Integrated VarCall 复合模型。该模型在 6383 个变异位点上实现了 98.8% 的分类准确率，优于单一研究。结合 ClinGen 临床标准，研究成功对 92.8% 的变异进行了明确的致病性或良性分类，显著提升了 BRCA2 变异的临床解读能力。
+  - Tags：`query:seqai`
+- [Unraveling salt-responsive genes in Suaeda salsa through genomic and transcriptomic profiling across salinity gradients.](#/202604/10/202604/10/41957698-unraveling-salt-responsive-genes-in-suaeda-salsa-through-genomic-and-transcriptomic-profiling-across-salinity-gradients)
+  - TLDR：针对全球作物受盐渍化限制的问题，本研究以强耐盐植物盐地碱蓬为对象，利用Helixer工具首次完成了其染色体级基因组的注释，并结合不同盐浓度下的长期转录组分析，筛选出462个差异表达基因及11个核心候选基因。这些基因涉及离子转运、渗透调节及抗氧化等关键过程，为培育耐盐作物提供了重要的基因资源和理论基础。
+  - Tags：`query:seqai`
+- [Identification of DC-174 as a Novel Hydroxamic Precandidate for the Development of an Oral Snakebite Treatment.](#/202604/10/202604/10/41955094-identification-of-dc-174-as-a-novel-hydroxamic-precandidate-for-the-development-of-an-oral-snakebite-treatment)
+  - TLDR：针对蛇咬伤中毒这一高致死率且缺乏便捷疗法的热带病，研究团队通过分子建模指导化学修饰，开发出新型羟肟酸类小分子抑制剂 DC-174。该药物能高效抑制蛇毒中关键的锌依赖性金属蛋白酶（IC50 < 10 nM），并能中和多种蛇毒的促凝血活性。在小鼠实验中，DC-174 展现出优异的口服生物利用度和临床前疗效，为开发首款口服蛇咬伤急救药物提供了极具潜力的先导化合物。
+  - Tags：`query:pathoai`
+- [Resolving competing evolutionary histories in joint ancestral state reconstruction.](#/202604/10/202604/10/41955119-resolving-competing-evolutionary-histories-in-joint-ancestral-state-reconstruction)
+  - TLDR：传统的祖先状态重建（ASR）多关注单个节点的边缘概率，难以刻画完整的进化轨迹。本研究提出了一种基于随机映射条件概率的联合重建方法，通过采样生成可能的进化历史分布，并提供了量化不确定性的工具。在模拟实验和肺炎克雷伯菌耐药性演化分析中，该方法成功识别出多个竞争性的进化路径，比传统的节点式方法更准确地还原了复杂的表型-基因型转换过程，为理解性状演化提供了更全面的视角。
+  - Tags：`query:pathoai`
+- [Antibacterial potential of epiphytic fungi obtained from brown algae of Kenyan coastal waters.](#/202604/10/202604/10/41955261-antibacterial-potential-of-epiphytic-fungi-obtained-from-brown-algae-of-kenyan-coastal-waters)
+  - TLDR：针对多重耐药菌威胁及新药研发滞后的现状，本研究探索了肯尼亚沿海褐藻表面的附生真菌作为新型抗菌药物来源的潜力。通过形态学与ITS分子鉴定，筛选出9株具有广谱活性的菌株（如交链孢属、弯孢属和青霉属），并利用GC-MS分析其代谢产物。实验结果显示，这些真菌提取物对ESKAPE病原体表现出显著的抑制作用，最低抑菌浓度达0.039 mg/mL，且扫描电镜观察证实其通过破坏细菌细胞膜发挥杀菌作用，为开发新型抗生素提供了重要候选资源。
+  - Tags：`query:pathoai`
 - [Reconstruction of human metabolic models with large language models.](#/202604/09/202604/09/41950094-reconstruction-of-human-metabolic-models-with-large-language-models)
   - TLDR：针对人类基因组规模代谢模型（GEM）构建中人工维护成本高、精度不足的问题，本研究开发了 Human2 模型。该模型利用大语言模型（LLM）和自动化工作流进行高效协作策展，支持构建不同性别、年龄及组织的特异性模型。通过整合多组学与动力学数据，Human2 实现了对全身器官间代谢物交换的动态模拟，为多尺度人类代谢研究提供了高精度的数字化工具。
   - Tags：`query:bioinfo`
@@ -577,31 +604,4 @@
   - Tags：`query:pathoai`
 - [Topology-Aware Generation and Activity-Based Filtering: A Computational-Experimental Framework for Data-Scarce Quaternary Ammonium Compound Discovery.](#/202603/23/202603/23/41785100-topology-aware-generation-and-activity-based-filtering-a-computational-experimental-framework-for-data-scarce-quaternary-ammonium-compound-discovery)
   - TLDR：针对季铵盐类（QACs）抗菌化合物在数据稀缺情况下难以发现新结构的问题，本研究对比了两种基于拓扑感知变分自编码器（VAE）的生成工作流。通过引入活性预测模型进行预筛选，显著提升了生成分子的质量和合成价值。实验验证了11种新型QACs对四种病原体具有高效抗菌活性，证明了该框架在小样本化学空间探索中的有效性。
-  - Tags：`query:pathoai`
-- [RGPA-GCN: Graph convolutional networks for rice gene-phenotype association prediction.](#/202603/23/202603/23/41865388-rgpa-gcn-graph-convolutional-networks-for-rice-gene-phenotype-association-prediction)
-  - TLDR：水稻基因与表型关联（GPA）的实验鉴定耗时耗力，计算预测成为重要辅助手段。本研究提出RGPA-GCN模型，将GPA预测建模为图节点分类任务，利用k-近邻算法构建融合基因功能与表型语义相似性的拓扑图，并通过图卷积网络进行信息聚合。实验证明该方法在5折交叉验证中优于多种经典及前沿模型，能有效预测未知关联及新基因/表型，为提升水稻产量与抗逆性提供了高效的计算工具。
-  - Tags：`query:bioinfo`
-- [TabPFN Opens New Avenues for Small-Data Tabular Learning in Drug Discovery.](#/202603/23/202603/23/41867095-tabpfn-opens-new-avenues-for-small-data-tabular-learning-in-drug-discovery)
-  - TLDR：早期药物研发常面临数据稀缺和分布偏移的挑战，导致传统的梯度提升树模型（如 XGBoost）鲁棒性受限。本研究将基于 Transformer 的表格基础模型 TabPFN 应用于分子数据建模，发现其在回归任务、小样本场景及分布外（OOD）评估中表现出比传统模型更稳定且显著的优势。通过特征消融和嵌入分析，证实了该模型具有更优的归纳偏置，为药物发现中的小数据预测提供了高效且稳健的新途径。
-  - Tags：`query:bioinfo`
-- [scResponse: A Rank-Based Method for Identifying Cell States That Contribute to Immunotherapy Response by Single-Cell Data.](#/202603/23/202603/23/41869876-scresponse-a-rank-based-method-for-identifying-cell-states-that-contribute-to-immunotherapy-response-by-single-cell-data)
-  - TLDR：针对免疫治疗中患者响应差异大且缺乏单细胞分辨率评估工具的问题，本研究开发了基于秩次的算法 scResponse。该方法能量化单细胞对免疫治疗的响应程度，揭示了巨噬细胞极化、T细胞耗竭等多种细胞状态对疗效的影响。通过跨癌症分析，研究发现了调控肿瘤细胞响应的关键代谢通路，并通过实验验证了其作为免疫治疗增敏靶点的潜力，为精准医疗提供了新工具。
-  - Tags：`query:seqai`
-- [Pulmonary mucoid](#/202603/23/202603/23/41869810-pulmonary-mucoid)
-  - TLDR：铜绿假单胞菌（PA）的黏液型表型是其应对环境压力的重要适应方式，但其对肺部微生物群落及免疫反应的影响尚不明确。本研究通过对住院患者痰液进行16S rDNA测序和血清细胞因子检测，发现黏液型PA感染具有更高的微生物物种丰富度及更剧烈的炎症反应（如IL-6、TNF-α升高）。研究揭示了特定菌群与炎症因子的相关性，为慢性肺部疾病的精准抗感染和免疫调节治疗提供了生物标志物。
-  - Tags：`query:pathoai`
-- [MEditome: Computational Detection of RNA Edit Sites Using](#/202603/23/202603/23/41869825-meditome-computational-detection-of-rna-edit-sites-using)
-  - TLDR：RNA编辑对细菌适应性至关重要，但传统方法依赖参考基因组，难以检测未知菌株。MEditome 提出了一种基于从头组装（de novo assembly）的计算流程，能够直接从宏基因组和宏转录组数据中识别全微生物组的RNA编辑位点。该工具在人类肠道微生物组中发现了2,295个编辑位点，并揭示了与炎症性肠病相关的差异编辑模式，为理解微生物与宿主互动提供了新视角。
-  - Tags：`query:seqai`
-- [Potential role of the ocular surface microbiome in dry eye: microbial interactions and symptom alleviation.](#/202603/23/202603/23/41870088-potential-role-of-the-ocular-surface-microbiome-in-dry-eye-microbial-interactions-and-symptom-alleviation)
-  - TLDR：干眼症涉及泪膜不稳定和炎症，但眼表微生物组的具体作用尚不明确。本研究通过全宏基因组测序分析了接受环孢素A或透明质酸钠治疗的患者眼表菌群，发现虽然不同治疗方案对整体菌群结构影响相似，但特定物种（如表皮葡萄球菌）的丰度变化与睑板腺功能障碍（MGD）的改善显著相关。研究揭示了眼表微生态在缓解干眼症状中的潜在调节作用，为开发基于微生物组的干眼症治疗策略提供了系统性见解。
-  - Tags：`query:pathoai`
-- [Integrated Microbiome and Metabolome Analysis for Characterization and Discrimination of Saliva, Semen, Vaginal Secretions, and Their Mixtures.](#/202603/23/202603/23/41870248-integrated-microbiome-and-metabolome-analysis-for-characterization-and-discrimination-of-saliva-semen-vaginal-secretions-and-their-mixtures)
-  - TLDR：法医学中准确识别体液来源及遗留时间具有挑战性。本研究通过整合全长16S rRNA测序与非靶向代谢组学技术，分析了唾液、精液、阴道分泌物及其混合物在不同暴露时间下的特征。结果显示，多组学数据的融合显著提升了分类性能，随机森林模型在体液识别任务中达到了100%的准确率，为复杂法医样本的精准鉴定提供了新思路。
-  - Tags：`query:seqai`
-- [Evaluating Deep Learning Based Structure Prediction Methods on Antibody-Antigen Complexes.](#/202603/22/202603/22/41863324-evaluating-deep-learning-based-structure-prediction-methods-on-antibody-antigen-complexes)
-  - TLDR：针对抗体-抗原复合物预测中缺乏共进化信号的难题，本研究评估了 AlphaFold2、AlphaFold3、Boltz-1 和 Chai-1 等深度学习模型。研究发现，增加采样次数能以对数线性方式提升预测成功率，但模型自带的评分机制难以准确识别最优结构。AlphaFold3 表现最优，但其性能高度依赖于训练集中存在的结构相似性，揭示了当前模型在处理全新抗体结构时的局限性。
-  - Tags：`query:bioinfo`
-- [Antibacterial efficacy and mechanism of the novel antimicrobial peptide lachnospirin-1 against](#/202603/22/202603/22/41838520-antibacterial-efficacy-and-mechanism-of-the-novel-antimicrobial-peptide-lachnospirin-1-against)
-  - TLDR：针对耐碳青霉烯鲍曼不动杆菌（CRAB）引发的全球性医疗难题，本研究筛选并合成了一种新型抗菌肽 lachnospirin-1。该肽不仅能高效杀灭 CRAB 及其生物膜和休眠细胞，还通过破坏细胞膜、中和脂多糖及诱导氧化应激等多重机制发挥作用。小鼠实验证实其具有良好的安全性和体内抗菌活性，为治疗难治性 CRAB 感染提供了极具潜力的候选药物。
   - Tags：`query:pathoai`

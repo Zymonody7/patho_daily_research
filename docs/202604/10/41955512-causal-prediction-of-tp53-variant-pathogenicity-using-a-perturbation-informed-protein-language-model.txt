@@ -1,0 +1,79 @@
+Title: Causal Prediction of TP53 Variant Pathogenicity Using a Perturbation-Informed Protein Language Model - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41955512/
+
+Markdown Content:
+Actions
+
+. 2026 Apr 9:e16332.
+
+doi: 10.1002/advs.202516332.  Online ahead of print.
+
+[Yang Zhao](https://pubmed.ncbi.nlm.nih.gov/?term=Zhao+Y&cauthor_id=41955512)[1](https://pubmed.ncbi.nlm.nih.gov/41955512/#full-view-affiliation-1 "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."),[Boqiang Hu](https://pubmed.ncbi.nlm.nih.gov/?term=Hu+B&cauthor_id=41955512)[1](https://pubmed.ncbi.nlm.nih.gov/41955512/#full-view-affiliation-1 "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."),[Wuke Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+W&cauthor_id=41955512)[1](https://pubmed.ncbi.nlm.nih.gov/41955512/#full-view-affiliation-1 "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."),[Minfang Song](https://pubmed.ncbi.nlm.nih.gov/?term=Song+M&cauthor_id=41955512)[2](https://pubmed.ncbi.nlm.nih.gov/41955512/#full-view-affiliation-2 "Research Center for Life Sciences Computing, Zhejiang Lab, Hangzhou, Zhejiang, China."),[Annabeth Xinyu Zhao](https://pubmed.ncbi.nlm.nih.gov/?term=Zhao+AX&cauthor_id=41955512)[3](https://pubmed.ncbi.nlm.nih.gov/41955512/#full-view-affiliation-3 "College of Science & Medicine, The Australian National University, Canberra, Australia."),[Xiangyang Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+X&cauthor_id=41955512)[1](https://pubmed.ncbi.nlm.nih.gov/41955512/#full-view-affiliation-1 "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."),[Gefei Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+G&cauthor_id=41955512)[1](https://pubmed.ncbi.nlm.nih.gov/41955512/#full-view-affiliation-1 "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."),[Yanfen Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+Y&cauthor_id=41955512)[1](https://pubmed.ncbi.nlm.nih.gov/41955512/#full-view-affiliation-1 "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."),[Weiyan Zheng](https://pubmed.ncbi.nlm.nih.gov/?term=Zheng+W&cauthor_id=41955512)[4](https://pubmed.ncbi.nlm.nih.gov/41955512/#full-view-affiliation-4 "Bone Marrow Transplantation Center, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."),[Xinpeng Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+X&cauthor_id=41955512)[5](https://pubmed.ncbi.nlm.nih.gov/41955512/#full-view-affiliation-5 "Nebraska Food for Health Center, Department of Food Science and Technology, University of Nebraska, Lincoln, Nebraska, USA."),[Xia Lin](https://pubmed.ncbi.nlm.nih.gov/?term=Lin+X&cauthor_id=41955512)[1](https://pubmed.ncbi.nlm.nih.gov/41955512/#full-view-affiliation-1 "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."),[Yanbin Yin](https://pubmed.ncbi.nlm.nih.gov/?term=Yin+Y&cauthor_id=41955512)[5](https://pubmed.ncbi.nlm.nih.gov/41955512/#full-view-affiliation-5 "Nebraska Food for Health Center, Department of Food Science and Technology, University of Nebraska, Lincoln, Nebraska, USA."),[Xingxu Huang](https://pubmed.ncbi.nlm.nih.gov/?term=Huang+X&cauthor_id=41955512)[1](https://pubmed.ncbi.nlm.nih.gov/41955512/#full-view-affiliation-1 "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China."),[Jinfang Zheng](https://pubmed.ncbi.nlm.nih.gov/?term=Zheng+J&cauthor_id=41955512)[2](https://pubmed.ncbi.nlm.nih.gov/41955512/#full-view-affiliation-2 "Research Center for Life Sciences Computing, Zhejiang Lab, Hangzhou, Zhejiang, China."),[Tingbo Liang](https://pubmed.ncbi.nlm.nih.gov/?term=Liang+T&cauthor_id=41955512)[1](https://pubmed.ncbi.nlm.nih.gov/41955512/#full-view-affiliation-1 "The Key Laboratory of Pancreatic Diseases of Zhejiang Province, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, China.")
+
+Affiliations
+
+*    PMID: **41955512**
+*    DOI: [10.1002/advs.202516332](https://doi.org/10.1002/advs.202516332)
+
+## Causal Prediction of TP53 Variant Pathogenicity Using a Perturbation-Informed Protein Language Model
+
+Huiying Chen et al. Adv Sci (Weinh).2026.
+
+## Abstract
+
+Accurate prediction of variant functional impact is crucial for understanding human diseases, particularly for cancer-related genes such as TP53. Advances in high-throughput mutational assays have enhanced variant effect prediction (VEP), but missense classification remains challenging due to the limitations of broad, non-gene-specific models. Here we present CaVepP53, a TP53-specific predictor fine-tuned on perturbation-based experimental variants. The model not only classifies mutations but also quantifies their pathogenicity by calculating Euclidean distances between the wild-type and mutant embeddings and deriving confidence scores through logistic transformation. Benchmarking demonstrates that CaVepP53 significantly outperforms general-purpose models, such as AlphaMissense (AM) and PrimateAI-3D, achieving higher accuracy, precision, and F1-score in predicting pathogenic mutations. Competitive growth assay validation of 22 mutations further confirms CaVepP53's robustness, including 7 functional novel variants absent in the ClinVar database. Thus, by integrating protein language models with experimentally validated functional data, our approach enables accurate, interpretable VEP for TP53, overcoming limitations of predictors trained solely on evolutionary or clinical associations. We further extended this framework to five additional cancer-related genes (VHL, ATM, BRCA1, RAD51C, and BAP1), establishing a generalizable framework for gene-specific VEP with potential applications in precision medicine.
+
+**Keywords:** TP53; causal; pathogenic mutations; perturbation; protein language models; variant effect prediction.
+
+© 2026 The Author(s). Advanced Science published by Wiley‐VCH GmbH.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Integration of protein stability and AlphaMissense scores improves bioinformatic impact prediction for p53 missense and in-frame amino acid deletion variants.](https://pubmed.ncbi.nlm.nih.gov/40233742/)
+
+Rotenberg N, Fortuno C, Varga MJ, Chamberlin AC, Ramadane-Morchadi L, Feng BJ, de la Hoya M, Richardson ME, Spurdle AB.Rotenberg N, et al.Am J Hum Genet. 2025 May 1;112(5):1003-1014. doi: 10.1016/j.ajhg.2025.01.012. Epub 2025 Apr 14.Am J Hum Genet. 2025.PMID: 40233742 Free PMC article. 
+*   [Evaluation of BoostDM, a somatic variant prediction tool, for the interpretation of germline variants in hereditary cancer genes.](https://pubmed.ncbi.nlm.nih.gov/41840222/)
+
+Munté E, Muiños F, Marín R, Feliubadaló L, Brando F, López-Bigas N, Lázaro C, González-Pérez A, Valle L.Munté E, et al.Eur J Hum Genet. 2026 Mar 16. doi: 10.1038/s41431-026-02077-y. Online ahead of print.Eur J Hum Genet. 2026.PMID: 41840222 
+*   [Language models reveal evidence gaps in variants of uncertain significance.](https://pubmed.ncbi.nlm.nih.gov/41867208/)
+
+Li W, Bhat V, Yu T, Lebo M, Zitnik M, Cassa C.Li W, et al.medRxiv [Preprint]. 2026 Mar 2:2026.02.28.26347206. doi: 10.64898/2026.02.28.26347206.medRxiv. 2026.PMID: 41867208 Free PMC article.Preprint. 
+*   [Leveraging protein structural information to improve variant effect prediction.](https://pubmed.ncbi.nlm.nih.gov/39987793/)
+
+Gerasimavicius L, Teichmann SA, Marsh JA.Gerasimavicius L, et al.Curr Opin Struct Biol. 2025 Jun;92:103023. doi: 10.1016/j.sbi.2025.103023. Epub 2025 Feb 22.Curr Opin Struct Biol. 2025.PMID: 39987793 Free PMC article.Review. 
+*   [Germline Missense Variants in _BRCA1_: New Trends and Challenges for Clinical Annotation.](https://pubmed.ncbi.nlm.nih.gov/31013702/)
+
+Golubeva VA, Nepomuceno TC, Monteiro ANA.Golubeva VA, et al.Cancers (Basel). 2019 Apr 12;11(4):522. doi: 10.3390/cancers11040522.Cancers (Basel). 2019.PMID: 31013702 Free PMC article.Review. 
+
+## References
+
+1.       1.    J. E. Rood, A. Hupalowska, and A. Regev, “Toward a Foundation Model of Causal Cell and Tissue Biology With a Perturbation Cell and Tissue Atlas,” Cell 187, no. 17 (2024): 4520–4545, [https://doi.org/10.1016/j.cell.2024.07.035](https://doi.org/10.1016/j.cell.2024.07.035). 
+
+2.       1.    I. Consortium, “Deciphering the Impact of Genomic Variation on Function,” Nature 633, no. 8028 (2024): 47–57, [https://doi.org/10.1038/s41586‐024‐07510‐0](https://doi.org/10.1038/s41586%E2%80%90024%E2%80%9007510%E2%80%900). 
+
+3.       1.    S. Chen, L. C. Francioli, J. K. Goodrich, et al., “A Genomic Mutational Constraint Map Using Variation in 76,156 human Genomes,” Nature 625, no. 7993 (2024): 92–100, [https://doi.org/10.1038/s41586‐023‐06045‐0](https://doi.org/10.1038/s41586%E2%80%90023%E2%80%9006045%E2%80%900). 
+
+4.       1.    H. K. Finucane, B. Bulik‐Sullivan, A. Gusev, et al., “Partitioning Heritability by Functional Annotation Using Genome‐Wide Association Summary Statistics,” Nature Genetics 47, no. 11 (2015): 1228–1235, [https://doi.org/10.1038/ng.3404](https://doi.org/10.1038/ng.3404). 
+
+5.       1.    X. Zhang, P. I. Theotokis, N. Li, et al., “Genetic Constraint at Single Amino Acid Resolution in Protein Domains Improves Missense Variant Prioritisation and Gene Discovery,” Genome Medicine 16, no. 1 (2024): 88, [https://doi.org/10.1186/s13073‐024‐01358‐9](https://doi.org/10.1186/s13073%E2%80%90024%E2%80%9001358%E2%80%909). 
+
+## Grants and funding
+
+*   [82450113/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82450113%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82450113/National Natural Science Foundation of China")
+*   [2024YFA1306400/National Key R&D Program of China](https://pubmed.ncbi.nlm.nih.gov/?term=2024YFA1306400%2FNational+Key+R%26D+Program+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2024YFA1306400/National Key R&D Program of China")
+*   [2024SSYS0007/R&D Program of Zhejiang](https://pubmed.ncbi.nlm.nih.gov/?term=2024SSYS0007%2FR%26D+Program+of+Zhejiang%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2024SSYS0007/R&D Program of Zhejiang")
+*   [ZDBS-ZRKJZ-TLC008/Key Research Program of Chinese Academy of Sciences](https://pubmed.ncbi.nlm.nih.gov/?term=ZDBS-ZRKJZ-TLC008%2FKey+Research+Program+of+Chinese+Academy+of+Sciences%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant ZDBS-ZRKJZ-TLC008/Key Research Program of Chinese Academy of Sciences")
+*   [BK20233003/Jiangsu Basic Research Center for Synthetic Biology Grant](https://pubmed.ncbi.nlm.nih.gov/?term=BK20233003%2FJiangsu+Basic+Research+Center+for+Synthetic+Biology+Grant%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant BK20233003/Jiangsu Basic Research Center for Synthetic Biology Grant")
+
+## LinkOut - more resources
+
+*   ### Research Materials
+
+    *   [NCI CPTC Antibody Characterization Program](https://antibodies.cancer.gov/detail/CPTC-RAD51C-1)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-951)

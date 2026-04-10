@@ -1,0 +1,70 @@
+Title: Mechanistic Design of Graphdiyne-Based Multimodal Sensing Integrating Machine Learning and Photothermal Dynamics for Precision Recognition and On-Demand Inactivation - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41955469/
+
+Markdown Content:
+Actions
+
+. 2026 Apr 9:e75186.
+
+doi: 10.1002/advs.75186.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **41955469**
+*    DOI: [10.1002/advs.75186](https://doi.org/10.1002/advs.75186)
+
+## Mechanistic Design of Graphdiyne-Based Multimodal Sensing Integrating Machine Learning and Photothermal Dynamics for Precision Recognition and On-Demand Inactivation
+
+Jing Xu et al. Adv Sci (Weinh).2026.
+
+## Abstract
+
+Rapid and accurate detection of pathogenic bacteria remains essential for infection control and timely treatment. Here, we report a graphdiyne (GDY)-based self-powered biosensing platform that integrates CRISPR/Cas12a molecular recognition with GDY/Au nanoparticle-engineered bioelectrodes for multimodal detection and photothermal inactivation of Vibrio parahaemolyticus. The ultrathin GDY framework provides a high-surface-area scaffold for uniform Au nanoparticle dispersion, facilitating interfacial charge transfer and enhancing enzyme-mediated redox kinetics at the bioanode. Target-triggered CRISPR/Cas12a trans-cleavage regulates the release of glucose oxidase from a hairpin probe, enabling a self-powered electrochemical readout driven by glucose oxidation. In parallel, HRP-catalyzed oxidation of TMB generates oxTMB with strong near-infrared absorbance, providing complementary colorimetric and photothermal (808 nm) outputs and enabling in situ bacterial inactivation. The electrochemical, colorimetric, and thermal modes exhibit concentration-dependent responses with limits of detection of 0.34, 0.41, and 0.78 CFU mL-1, respectively. Integration of multimodal signals via machine learning further enables infection grading with an overall accuracy of 97.71%. This multimodal diagnostic-therapeutic strategy demonstrates reliable performance in both in vitro and in vivo wound infection models, highlighting its potential for localized infection monitoring and point-of-care bacterial management. This study provides a proof-of-concept demonstration of an integrated self-powered multimodal biosensing platform for simultaneous bacterial detection and inactivation.
+
+**Keywords:** graphdiyne; multimodal cascade; photothermal inactivation; self‐powered.
+
+© 2026 The Author(s). Advanced Science published by Wiley‐VCH GmbH.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Dual-modal aptamer/CRISPR-Cas12a biosensor with Fe-C-N@Au nanozyme for simultaneous detection of azithromycin and macrolide resistance genes and degradation of azithromycin.](https://pubmed.ncbi.nlm.nih.gov/40972176/)
+
+Liu G, Meng Z, Zheng W, Qiu A, Tian Y, Zhang Z, Zhang T, Wu P, Ding P.Liu G, et al.J Hazard Mater. 2025 Sep 13;498:139850. doi: 10.1016/j.jhazmat.2025.139850. Online ahead of print.J Hazard Mater. 2025.PMID: 40972176 
+*   [Light-driven sp-C bond interconversion in black phosphorus/graphdiyne nanozyme for enhanced peroxidase-like activity and dual-mode detection of Vibrio vulnificus.](https://pubmed.ncbi.nlm.nih.gov/40540865/)
+
+Chen Z, Wang C, Wang K, Sun Y, Zhang Y, Yuan X, Wang L, Bai Q, Chen D, Sui N.Chen Z, et al.J Hazard Mater. 2025 Sep 5;495:138950. doi: 10.1016/j.jhazmat.2025.138950. Epub 2025 Jun 15.J Hazard Mater. 2025.PMID: 40540865 
+*   [Multimodal microfluidic sensor for harmful bacteria detection: Integrating nanozyme catalysis, SERS, and photothermal sterilization.](https://pubmed.ncbi.nlm.nih.gov/40803133/)
+
+Su G, Liu G, Zhang J, Wang H, Wei H, Wang Z.Su G, et al.Spectrochim Acta A Mol Biomol Spectrosc. 2026 Jan 15;345:126809. doi: 10.1016/j.saa.2025.126809. Epub 2025 Aug 10.Spectrochim Acta A Mol Biomol Spectrosc. 2026.PMID: 40803133 
+*   [CRISPR-Cas12a biosensing technology advances and applications in precision diagnostics and cancer research.](https://pubmed.ncbi.nlm.nih.gov/41500123/)
+
+Zang Z, Chen J, Dong Y, Chen L, Yang M, Mu M, Zhou L, Zhang W, Zou G, Liu C.Zang Z, et al.Talanta. 2026 May 1;301:129298. doi: 10.1016/j.talanta.2025.129298. Epub 2026 Jan 6.Talanta. 2026.PMID: 41500123 Review. 
+*   [Multimodal SERS Biosensing Platforms: Emerging Opportunities for Ultrasensitive Biomarker Detection and Intelligent Diagnostics.](https://pubmed.ncbi.nlm.nih.gov/41698023/)
+
+Hu C, Guan M, Mi F, Zhang S, Geng P.Hu C, et al.ACS Sens. 2026 Mar 27;11(3):1794-1830. doi: 10.1021/acssensors.5c04741. Epub 2026 Feb 16.ACS Sens. 2026.PMID: 41698023 Review. 
+
+## References
+
+1.       1.    S. Vidovic, R. Taylor, D. Hedderley, G. C. Fletcher, and N. Wei, “Detection of Non‐Pathogenic and Pathogenic Populations of Vibrio Parahaemolyticus in Various Samples by the Conventional, Quantitative and Droplet Digital PCRs,” Scientific Reports 14 (2024): 4137. 
+
+2.       1.    L. J. Getz, J. M. Brown, L. Sobot, A. Chow, J. Mahendrarajah, and N. A. Thomas, “Attenuation of a DNA Cruciform by a Conserved Regulator Directs T3SS1 Mediated Virulence in Vibrio Parahaemolyticus,” Nucleic Acids Research 51 (2023): 6156–6171. 
+
+3.       1.    J. Shi, P. Li, Y. Huang, et al., “Smartphone‐Assisted Self‐Powered Dual‐Mode Biosensor Designed on Binary 3D DNA Walkers Mediated CRISPR/Cas12a System,” Chemical Engineering Journal 483 (2024): 149231. 
+
+4.       1.    F. T. Wang, R. Cai, and W. H. Tan, “Self‐Powered Biosensor for a Highly Efficient and Ultrasensitive Dual‐Biomarker Assay,” Analytical Chemistry 95 (2023): 6046–6052. 
+
+5.       1.    C. Wang, P. Wang, J. Li, et al., “Utilizing Parasitic Capacitance of Single‐Droplet Electricity Generator For Specific Bacterial Detection,” Advanced Functional Materials 33 (2023): 2302524. 
+
+## Grants and funding
+
+*   [82502519/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82502519%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82502519/National Natural Science Foundation of China")
+*   [2025LHZX5004/Henan Province Traditional Chinese Medicine Scientific Research Special Joint Construction Project (Luoyang Orthopedic Hospital of Henan Province)](https://pubmed.ncbi.nlm.nih.gov/?term=2025LHZX5004%2FHenan+Province+Traditional+Chinese+Medicine+Scientific+Research+Special+Joint+Construction+Project+%28Luoyang+Orthopedic+Hospital+of+Henan+Province%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2025LHZX5004/Henan Province Traditional Chinese Medicine Scientific Research Special Joint Construction Project (Luoyang Orthopedic Hospital of Henan Province)")
+*   [235200810056/Joint Fund Project for Technology Research and Development Plan of Henan Technology](https://pubmed.ncbi.nlm.nih.gov/?term=235200810056%2FJoint+Fund+Project+for+Technology+Research+and+Development+Plan+of+Henan+Technology%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 235200810056/Joint Fund Project for Technology Research and Development Plan of Henan Technology")
+*   [Shaanxi Province Postdoctoral Research Project](https://pubmed.ncbi.nlm.nih.gov/?term=Shaanxi+Province+Postdoctoral+Research+Project%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant Shaanxi Province Postdoctoral Research Project")
+*   [Youth Excellent Talent Project of The Second Affiliated Hospital of Xi'an Jiaotong University](https://pubmed.ncbi.nlm.nih.gov/?term=Youth+Excellent+Talent+Project+of+The+Second+Affiliated+Hospital+of+Xi%27an+Jiaotong+University%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant Youth Excellent Talent Project of The Second Affiliated Hospital of Xi'an Jiaotong University")
+
+*   [2024GH-ZDXM-39/Shaanxi Provincial International Science and Technology Cooperation Program (Key Project)](https://pubmed.ncbi.nlm.nih.gov/?term=2024GH-ZDXM-39%2FShaanxi+Provincial+International+Science+and+Technology+Cooperation+Program+%28Key+Project%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2024GH-ZDXM-39/Shaanxi Provincial International Science and Technology Cooperation Program (Key Project)")
+*   [2562/Ministry of Science and Technology of China](https://pubmed.ncbi.nlm.nih.gov/?term=2562%2FMinistry+of+Science+and%C2%A0Technology+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2562/Ministry of Science and Technology of China")
