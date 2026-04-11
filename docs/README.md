@@ -11,49 +11,46 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-04-10
-- 运行时间：2026-04-10 19:35:17 UTC
+- 最新运行日期：2026-04-11
+- 运行时间：2026-04-11 19:15:08 UTC
 - 运行状态：成功
-- 本次总论文数：9
+- 本次总论文数：8
 - 精读区：3
-- 速读区：6
+- 速读区：5
 
 ### 今日简报（AI）
-今日深度解析 9 篇前沿成果，聚焦 AI 驱动的蛋白质变异预测与多模态智能传感。
-重点推荐利用扰动感知语言模型精准判定 TP53 致病性，以及结合机器学习的石墨炔系统在精准识别与灭活中的突破。
-建议关注 AI 与生物医学交叉领域，特别是针对关键抑癌基因变异的智能化解读。
-- 详情：[/202604/10/README](/202604/10/README)
+今日聚焦 AI 驱动的细菌基因致死预测与多组学数据稀缺的创新解决方案。
+重点推荐 Tripleknock 模型对三基因敲除效应的精准模拟，以及预测性元组学在微生物研究中的突破。
+建议关注深度学习如何重塑生物实验设计，提升复杂生命系统的预测效率。
+- 详情：[/202604/11/README](/202604/11/README)
 
 ### 精读区论文标签
-1. [Causal Prediction of TP53 Variant Pathogenicity Using a Perturbation-Informed Protein Language Model.](/202604/10/41955512-causal-prediction-of-tp53-variant-pathogenicity-using-a-perturbation-informed-protein-language-model)  
-   标签：评分：9.0/10、query:bioinfo
-   evidence：微调蛋白质语言模型用于预测TP53变异致病性
-2. [Mechanistic Design of Graphdiyne-Based Multimodal Sensing Integrating Machine Learning and Photothermal Dynamics for Precision Recognition and On-Demand Inactivation.](/202604/10/41955469-mechanistic-design-of-graphdiyne-based-multimodal-sensing-integrating-machine-learning-and-photothermal-dynamics-for-precision-recognition-and-on-demand-inactivation)  
+1. [Tripleknock: predicting lethal effect of three-gene knockout in bacteria by deep learning.](/202604/11/41963398-tripleknock-predicting-lethal-effect-of-three-gene-knockout-in-bacteria-by-deep-learning)  
+   标签：评分：9.0/10、query:pathoai
+   evidence：深度学习预测细菌多基因敲除的致死效应，用于抗生素靶点识别
+2. [Predicted meta-omics: A potential solution to multi-omics data scarcity in microbiome studies.](/202604/11/41961886-predicted-meta-omics-a-potential-solution-to-multi-omics-data-scarcity-in-microbiome-studies)  
+   标签：评分：8.0/10、query:bioinfo
+   evidence：用于从宏基因组数据预测元组学特征的机器学习模型
+3. [Carbapenem-resistance oprD mutations reshape Pseudomonas aeruginosa host-pathogen interactions during infection.](/202604/11/41963355-carbapenem-resistance-oprd-mutations-reshape-pseudomonas-aeruginosa-host-pathogen-interactions-during-infection)  
    标签：评分：8.0/10、query:pathoai
-   evidence：集成机器学习的生物传感用于病原菌检测
-3. [Environmentally mediated interactions predict community assembly and invasion success in a gut microbiota synthetic community.](/202604/10/41960919-environmentally-mediated-interactions-predict-community-assembly-and-invasion-success-in-a-gut-microbiota-synthetic-community)  
-   标签：评分：8.0/10、query:pathoai
-   evidence：预测肠道微生物群落构建及机会致病菌入侵
+   evidence：抗生素耐药突变重塑感染过程中的宿主-病原体相互作用
 
 ### 速读区论文标签
-1. [Targeting Inflammation in Bronchiectasis.](/202604/10/41954871-targeting-inflammation-in-bronchiectasis)  
+1. [Comparative analysis towards the identification of genome wide characteristics of a beneficial fungal endophyte.](/202604/11/41963563-comparative-analysis-towards-the-identification-of-genome-wide-characteristics-of-a-beneficial-fungal-endophyte)  
    标签：评分：7.0/10、query:pathoai
-   evidence：慢性肺部感染中的微生物组与致病菌相互作用
-2. [Combining multiplexed assays of variant effect for enhanced BRCA2 variant classification.](/202604/10/41957374-combining-multiplexed-assays-of-variant-effect-for-enhanced-brca2-variant-classification)  
-   标签：评分：7.0/10、query:seqai
-   evidence：用于基因组变异分类的复合模型
-3. [Unraveling salt-responsive genes in Suaeda salsa through genomic and transcriptomic profiling across salinity gradients.](/202604/10/41957698-unraveling-salt-responsive-genes-in-suaeda-salsa-through-genomic-and-transcriptomic-profiling-across-salinity-gradients)  
-   标签：评分：7.0/10、query:seqai
-   evidence：使用Helixer工具进行基因组注释和转录组分析
-4. [Identification of DC-174 as a Novel Hydroxamic Precandidate for the Development of an Oral Snakebite Treatment.](/202604/10/41955094-identification-of-dc-174-as-a-novel-hydroxamic-precandidate-for-the-development-of-an-oral-snakebite-treatment)  
+   evidence：真菌内生菌与病原体的比较基因组学和系统发育分析
+2. [Dietary conjugated linoleic acid enhances resistance to](/202604/11/41964110-dietary-conjugated-linoleic-acid-enhances-resistance-to)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：宿主-微生物-免疫相互作用与感染抗性
+3. [Tumor Whole-Genome Sequencing for Prediction of Venous Thromboembolism in Patients With Metastasized Solid Cancer.](/202604/11/41958384-tumor-whole-genome-sequencing-for-prediction-of-venous-thromboembolism-in-patients-with-metastasized-solid-cancer)  
+   标签：评分：6.0/10、query:seqai
+   evidence：全基因组测序和体细胞突变分析用于临床风险预测
+4. [Environmental pathogen surveillance in cities without universal piped wastewater infrastructure.](/202604/11/41961797-environmental-pathogen-surveillance-in-cities-without-universal-piped-wastewater-infrastructure)  
    标签：评分：6.0/10、query:pathoai
-   evidence：针对致病性毒素药物发现的分子建模
-5. [Resolving competing evolutionary histories in joint ancestral state reconstruction.](/202604/10/41955119-resolving-competing-evolutionary-histories-in-joint-ancestral-state-reconstruction)  
+   evidence：非传统废水中的环境病原体监测
+5. [Plasmodium yoelii infection induces lung injury by modulating type 2 conventional dendritic cells autophagy via the STAT3-IRF4 signaling.](/202604/11/41963299-plasmodium-yoelii-infection-induces-lung-injury-by-modulating-type-2-conventional-dendritic-cells-autophagy-via-the-stat3-irf4-signaling)  
    标签：评分：6.0/10、query:pathoai
-   evidence：进化轨迹的联合祖先状态重建
-6. [Antibacterial potential of epiphytic fungi obtained from brown algae of Kenyan coastal waters.](/202604/10/41955261-antibacterial-potential-of-epiphytic-fungi-obtained-from-brown-algae-of-kenyan-coastal-waters)  
-   标签：评分：6.0/10、query:pathoai
-   evidence：针对多重耐药病原体的抗菌潜力
+   evidence：宿主-病原体相互作用及感染诱导损伤的模型研究
 
 
 <div class="dpr-home-promo-card">

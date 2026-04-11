@@ -1,10 +1,34 @@
 # 知识库
 
-- 最近沉淀条目数：381
+- 最近沉淀条目数：389
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Tripleknock: predicting lethal effect of three-gene knockout in bacteria by deep learning.](#/202604/11/202604/11/41963398-tripleknock-predicting-lethal-effect-of-three-gene-knockout-in-bacteria-by-deep-learning)
+  - TLDR：针对细菌三基因敲除致死效应预测中实验筛选慢、传统FBA模拟耗时长且依赖代谢模型的问题，本文开发了基于深度学习的预测工具Tripleknock。该模型利用蛋白质序列特征进行训练，在保持高准确率的同时，预测速度比FBA快20倍，并在多种病原菌上展现了良好的跨物种泛化能力，为发现新抗生素靶点提供了高效的计算手段。
+  - Tags：`query:pathoai`
+- [Predicted meta-omics: A potential solution to multi-omics data scarcity in microbiome studies.](#/202604/11/202604/11/41961886-predicted-meta-omics-a-potential-solution-to-multi-omics-data-scarcity-in-microbiome-studies)
+  - TLDR：肠道微生物组研究常受限于多组学数据（如转录组、代谢组）的高昂获取成本。本研究评估了利用机器学习模型从宏基因组数据预测其他组学特征的可行性。通过对比弹性网络、随机森林及神经网络，发现模型能有效预测转录本和代谢物丰度，且预测特征在肠道疾病分类任务中表现出与实验数据相当的效力，为缓解多组学数据稀缺提供了计算方案。
+  - Tags：`query:bioinfo`
+- [Carbapenem-resistance oprD mutations reshape Pseudomonas aeruginosa host-pathogen interactions during infection.](#/202604/11/202604/11/41963355-carbapenem-resistance-oprd-mutations-reshape-pseudomonas-aeruginosa-host-pathogen-interactions-during-infection)
+  - TLDR：针对碳青霉烯耐药铜绿假单胞菌中常见的 oprD 基因突变，研究其在抗生素耐药之外对感染过程的影响。通过体外人类气道上皮感染模型，发现该突变能增强细菌的早期附着和跨膜易位能力。研究揭示了 oprD 缺失会改变细菌外膜电荷并减少粘液束缚，从而促进上皮屏障定殖。这表明耐药突变能直接重塑宿主-病原体相互作用，对理解感染动态具有重要价值。
+  - Tags：`query:pathoai`
+- [Comparative analysis towards the identification of genome wide characteristics of a beneficial fungal endophyte.](#/202604/11/202604/11/41963563-comparative-analysis-towards-the-identification-of-genome-wide-characteristics-of-a-beneficial-fungal-endophyte)
+  - TLDR：针对有益内生真菌 Fusarium solani K (FsK) 促进植物抗逆的机制尚不明确的问题，研究者通过对 FsK 进行全基因组测序，并将其与致病性及其他共生真菌进行比较基因组分析。研究揭示了 FsK 在分泌效应因子、碳水化合物活性酶及次级代谢产物簇上的特征，并识别出与 DNA 修复和铁获取相关的特异性基因，为理解真菌-植物互作及农业应用提供了基因组学基础。
+  - Tags：`query:pathoai`
+- [Dietary conjugated linoleic acid enhances resistance to](#/202604/11/202604/11/41964110-dietary-conjugated-linoleic-acid-enhances-resistance-to)
+  - TLDR：针对饮食脂质如何增强肠道免疫防御这一问题，本研究发现补充共轭亚油酸（CLA）能显著提高小鼠对沙门氏菌感染的抵抗力。通过单细胞测序和表观遗传分析，研究揭示了 CLA 协同肠道益生菌，通过激活 PPARγ 信号通路诱导肠道 CD8+ T 细胞发生代谢重编程，增强其氧化磷酸化水平和效应功能。这一发现阐明了“饮食-微生物-免疫”轴在粘膜保护中的关键作用，为通过营养干预预防肠道感染提供了理论依据。
+  - Tags：`query:pathoai`
+- [Tumor Whole-Genome Sequencing for Prediction of Venous Thromboembolism in Patients With Metastasized Solid Cancer.](#/202604/11/202604/11/41958384-tumor-whole-genome-sequencing-for-prediction-of-venous-thromboembolism-in-patients-with-metastasized-solid-cancer)
+  - TLDR：针对转移性实体瘤患者静脉血栓栓塞（VTE）预测准确性不足的问题，本研究利用3087名患者的全基因组测序（WGS）数据，分析了临床指标、生殖系变异及体细胞突变与VTE的关联。结果显示，整合了14种关键体细胞突变、生殖系多基因风险评分及临床因素的综合模型，其预测性能（C-index 0.77）显著优于现有的Khorana临床评分（0.55），证明了肿瘤基因组数据在识别高风险血栓患者中的巨大潜力。
+  - Tags：`query:seqai`
+- [Environmental pathogen surveillance in cities without universal piped wastewater infrastructure.](#/202604/11/202604/11/41961797-environmental-pathogen-surveillance-in-cities-without-universal-piped-wastewater-infrastructure)
+  - TLDR：针对中低收入国家城市缺乏完善下水道系统导致无法进行常规废水监测的问题，本研究在莫桑比克马普托市采集了包括露天排水沟、受污染河流、土壤及粪便污泥在内的多种环境样本。通过多重 RT-qPCR 技术检测多种病原体并建立回归模型，发现虽然非传统样本中的病原体浓度低于污水处理厂进水，但其检出率依然很高，且降雨会显著提升浓度。这证明了在非正规排水体系下开展环境病原体监测的可行性，为公共卫生干预提供了新思路。
+  - Tags：`query:pathoai`
+- [Plasmodium yoelii infection induces lung injury by modulating type 2 conventional dendritic cells autophagy via the STAT3-IRF4 signaling.](#/202604/11/202604/11/41963299-plasmodium-yoelii-infection-induces-lung-injury-by-modulating-type-2-conventional-dendritic-cells-autophagy-via-the-stat3-irf4-signaling)
+  - TLDR：疟疾感染常导致严重的肺损伤，但肺部 cDC2 细胞的作用机制不明。研究发现约氏疟原虫通过 TLR3/7-STAT3-IRF4 通路抑制 cDC2 自噬，导致其在肺部异常积累并促进 Th1 细胞分化，进而加剧炎症损伤。通过抑制 STAT3 或敲除 IRF4 可恢复 cDC2 功能并减轻肺部病理，揭示了疟疾免疫损伤的新机制。
+  - Tags：`query:pathoai`
 - [Causal Prediction of TP53 Variant Pathogenicity Using a Perturbation-Informed Protein Language Model.](#/202604/10/202604/10/41955512-causal-prediction-of-tp53-variant-pathogenicity-using-a-perturbation-informed-protein-language-model)
   - TLDR：TP53基因突变的功能预测对癌症研究至关重要，但通用模型在处理特定基因的错义突变时准确性有限。本研究开发了CaVepP53，通过在扰动实验数据上微调蛋白质语言模型，利用野生型与突变体嵌入向量的欧氏距离量化致病性。实验证明该模型在准确率和F1分数上显著优于AlphaMissense等通用模型，并成功预测了ClinVar未收录的新功能变体，为精准医疗提供了高精度的基因特异性预测框架。
   - Tags：`query:bioinfo`
@@ -581,27 +605,3 @@
 - [Generating 3D models of complex carbohydrates with GLYCAM-Web.](#/202603/24/202603/24/41872371-generating-3d-models-of-complex-carbohydrates-with-glycam-web)
   - TLDR：复杂糖类（聚糖）的3D结构对其生物功能至关重要，但建模难度大。GLYCAM-Web 提供了一套在线工具，能够为各种天然及人工合成的寡糖、多糖和糖蛋白生成与实验数据一致的3D模型。该平台通过与PDB等数据库联动，帮助研究者快速构建用于分子对接和动力学模拟的高精度结构，推动了糖生物学领域的数据解释与假设验证。
   - Tags：`query:bioinfo`
-- [Conserved neutrophil degranulation transcripts in HIV-TB coinfected children across East and Southern Africa.](#/202603/24/202603/24/41872467-conserved-neutrophil-degranulation-transcripts-in-hiv-tb-coinfected-children-across-east-and-southern-africa)
-  - TLDR：针对非洲高负担地区儿童HIV-TB共感染研究不足且传统基因级分析忽略异构体复杂性的问题，本研究通过对东非和南非多中心儿童全血RNA测序数据进行转录本水平分析，发现尽管存在地理差异，但中性粒细胞脱颗粒等免疫通路在不同地区高度保守。研究识别出跨地区的共享转录本特征及地区特异性异构体，为开发精准的生物标志物和理解宿主免疫响应提供了新视角。
-  - Tags：`query:seqai`
-- [Characterizing the nasopharyngeal microbiome and resistome of dairy cattle with and without bovine respiratory disease.](#/202603/24/202603/24/41874180-characterizing-the-nasopharyngeal-microbiome-and-resistome-of-dairy-cattle-with-and-without-bovine-respiratory-disease)
-  - TLDR：针对牛呼吸道疾病（BRD）这一长期困扰奶牛养殖业的经济难题，本研究利用鸟枪法宏基因组测序技术，对69头不同生长阶段奶牛的鼻咽微生物组和耐药组进行了系统表征。研究发现BRD并非由单一病原体驱动，而是多种病原体协同作用及共生菌群失调的结果，且患病牛表现出更高的抗生素耐药基因多样性。该成果挑战了传统的单病原体模型，为基于微生物群落的BRD预防和精准干预提供了新视角。
-  - Tags：`query:seqai`
-- [Paenitracins, a novel family of bacitracin-type nonribosomal peptide antibiotics produced by plant-associated](#/202603/24/202603/24/41700860-paenitracins-a-novel-family-of-bacitracin-type-nonribosomal-peptide-antibiotics-produced-by-plant-associated)
-  - TLDR：针对耐药菌威胁，研究团队利用 MassQL 质谱查询语言和分子网络技术，对 227 株类芽孢杆菌进行代谢组学筛选，旨在寻找含碱性氨基酸的新型非核糖体肽（NRP）。研究成功发现并鉴定了一类新型杆菌肽家族——Paenitracins，其具有独特的氨基酸取代特征，并对万古霉素耐药肠球菌等革兰氏阳性致病菌表现出强效抗菌活性，为加速抗生素研发提供了高效的发现流程。
-  - Tags：`query:pathoai`
-- [Spatially structured inflammatory response in the presence of a uniform stimulus.](#/202603/24/202603/24/41860960-spatially-structured-inflammatory-response-in-the-presence-of-a-uniform-stimulus)
-  - TLDR：针对组织结构如何影响炎症反应动态的问题，研究者利用斑马鱼幼鱼尾鳍模型，在均匀脂多糖（LPS）刺激下，通过多重RNA原位杂交和图谱谱分解方法观察基因表达。研究发现，即使刺激是均匀的，上皮细胞仍表现出空间非均匀的促炎基因表达。这种现象符合二次信号的扩散-消耗模型，表明组织结构能在无空间差异输入的情况下诱导产生空间相关性，揭示了上皮细胞在炎症信号传导中的关键作用。
-  - Tags：`query:seqai`
-- [The esophageal microbiome: mechanisms and clinical implications.](#/202603/24/202603/24/41866998-the-esophageal-microbiome-mechanisms-and-clinical-implications)
-  - TLDR：食管微生物群在食管疾病中的作用日益受到关注，但其功能机制尚不明确。本文综述了微生物如何通过影响上皮分化、屏障完整性及胆汁酸代谢等途径，参与嗜酸性食管炎、巴雷特食管及食管癌的病理过程。研究指出，微生物特征可作为疾病进展的生物标志物，并为开发针对性免疫治疗和风险分层提供了新思路。
-  - Tags：`query:pathoai`
-- [Evaluating the Utilities of Foundation Models in Single-Cell Data Analysis.](#/202603/23/202603/23/41869863-evaluating-the-utilities-of-foundation-models-in-single-cell-data-analysis)
-  - TLDR：随着大模型在生物医学领域的兴起，单细胞基础模型（FMs）层出不穷，但其真实效能尚不明确。本研究通过 scEval 框架对 scGPT、Geneformer 等 10 个主流模型在 8 类下游任务中进行了全面评估。结果显示，虽然部分模型表现优异，但在特定任务上仍难以超越传统专用算法。该研究为单细胞大模型的预训练与微调提供了实践指南，并开源了评测工具以推动领域发展。
-  - Tags：`query:seqai`
-- [A Computational Community Blind Challenge on Pan-Coronavirus Drug Discovery Data.](#/202603/23/202603/23/41749419-a-computational-community-blind-challenge-on-pan-coronavirus-drug-discovery-data)
-  - TLDR：针对冠状病毒药物研发中计算预测准确性难以客观评估的问题，ASAP 联盟联合 Polaris 发起了一项社区盲测挑战。该挑战利用未公开的 SARS-CoV-2 和 MERS-CoV 实验数据，要求参与者预测小分子的生化活性、配体结合姿态及 ADMET 指标。通过对全球提交方案的元分析，建立了性能基准，揭示了当前机器学习在药物发现中的优势与局限，为构建可信、可重复的 AI 辅助药物研发流程提供了实证基础。
-  - Tags：`query:pathoai`
-- [Topology-Aware Generation and Activity-Based Filtering: A Computational-Experimental Framework for Data-Scarce Quaternary Ammonium Compound Discovery.](#/202603/23/202603/23/41785100-topology-aware-generation-and-activity-based-filtering-a-computational-experimental-framework-for-data-scarce-quaternary-ammonium-compound-discovery)
-  - TLDR：针对季铵盐类（QACs）抗菌化合物在数据稀缺情况下难以发现新结构的问题，本研究对比了两种基于拓扑感知变分自编码器（VAE）的生成工作流。通过引入活性预测模型进行预筛选，显著提升了生成分子的质量和合成价值。实验验证了11种新型QACs对四种病原体具有高效抗菌活性，证明了该框架在小样本化学空间探索中的有效性。
-  - Tags：`query:pathoai`
