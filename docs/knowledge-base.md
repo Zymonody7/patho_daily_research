@@ -1,10 +1,19 @@
 # 知识库
 
-- 最近沉淀条目数：389
+- 最近沉淀条目数：392
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Artificial intelligence in microbiology: implications for metagenomics, diagnostics, and AMR surveillance.](#/202604/12/202604/12/41965741-artificial-intelligence-in-microbiology-implications-for-metagenomics-diagnostics-and-amr-surveillance)
+  - TLDR：针对微生物学中抗生素耐药性（AMR）监测和病原体分类的复杂挑战，本文综述了深度学习、Transformer序列模型及图神经网络等AI技术在基因组学和临床数据分析中的应用。通过整合多模态数据和可解释性AI技术，这些方法显著提升了耐药基因识别与表型预测的准确性。AI驱动的宏基因组分析为全球传染病监控和非侵入性诊断提供了高效、可扩展的解决方案，具有重大的公共卫生价值。
+  - Tags：`query:pathoai`
+- [LaMGen: LLM-based 3D molecular generation for multi-target drug design.](#/202604/12/202604/12/41965333-lamgen-llm-based-3d-molecular-generation-for-multi-target-drug-design)
+  - TLDR：针对多靶点药物设计中现有方法缺乏生物背景且泛化性差的问题，LaMGen 提出了一种基于大语言模型（LLM）的 3D 分子生成框架。该框架利用包含 60 万量子精度构象和 70 万多靶点关联的 MTD2025 数据集，结合 ESM-C 蛋白质嵌入和旋转感知令牌，实现了高精度、低能耗的分子构象生成。实验表明，LaMGen 在生成速度（0.44s）和分子性质上优于扩散模型，能有效发现具有高结合亲和力的创新候选药物。
+  - Tags：`query:bioinfo`
+- [Bridging Artificial Intelligence, Machine Learning with Green Nanotechnology: A Visionary Framework for Smart Fungal Disease Management in Plants.](#/202604/12/202604/12/41966676-bridging-artificial-intelligence-machine-learning-with-green-nanotechnology-a-visionary-framework-for-smart-fungal-disease-management-in-plants)
+  - TLDR：针对植物真菌病害导致的粮食安全威胁及传统农药的污染问题，该研究提出了一个集成 AI 预测与绿色纳米技术的智能管理框架。通过融合高光谱成像、深度学习及边缘 AI 实时监测技术，精准识别病害并联动生物废弃物合成的纳米颗粒进行靶向治理。该方法实现了从早期诊断到可持续防控的闭环，显著提升了农业系统的精准度与抗风险能力。
+  - Tags：`query:pathoai`
 - [Tripleknock: predicting lethal effect of three-gene knockout in bacteria by deep learning.](#/202604/11/202604/11/41963398-tripleknock-predicting-lethal-effect-of-three-gene-knockout-in-bacteria-by-deep-learning)
   - TLDR：针对细菌三基因敲除致死效应预测中实验筛选慢、传统FBA模拟耗时长且依赖代谢模型的问题，本文开发了基于深度学习的预测工具Tripleknock。该模型利用蛋白质序列特征进行训练，在保持高准确率的同时，预测速度比FBA快20倍，并在多种病原菌上展现了良好的跨物种泛化能力，为发现新抗生素靶点提供了高效的计算手段。
   - Tags：`query:pathoai`
@@ -596,12 +605,3 @@
 - [Integrated single-cell and spatial mapping coupled with machine learning unveils core stemness landscapes and regulatory drivers in triple-negative breast cancer.](#/202603/24/202603/24/41870799-integrated-single-cell-and-spatial-mapping-coupled-with-machine-learning-unveils-core-stemness-landscapes-and-regulatory-drivers-in-triple-negative-breast-cancer)
   - TLDR：针对三阴性乳腺癌（TNBC）高度异质性及肿瘤干细胞（CSCs）驱动恶化的问题，本研究整合单细胞、空间及大块转录组数据，利用CytoTRACE算法与XGBoost机器学习构建了由CALD1等5个核心基因组成的干性预测模型。研究发现高干性细胞处于分化起点，通过激活Notch信号通路促进免疫逃逸并导致预后不良，同时筛选出BI.2536等潜在敏感药物，为TNBC干细胞靶向治疗提供了新靶点。
   - Tags：`query:seqai`
-- [On the utility of Deep Learning for model classification and parameter estimation on complex diversification scenarios.](#/202603/24/202603/24/41874436-on-the-utility-of-deep-learning-for-model-classification-and-parameter-estimation-on-complex-diversification-scenarios)
-  - TLDR：针对系统发育树分析中传统似然法难以处理复杂演化模型的问题，本研究评估了卷积神经网络（CNN）在物种多样化模型分类和参数估计中的表现。通过对六种复杂演化场景（如大规模灭绝、多样性依赖等）进行大规模模拟，并利用CDV向量化技术处理树结构数据，结果显示CNN在模型分类准确率（80-93%）和参数回归精度上均优于传统极大似然估计（MLE），为宏观演化研究提供了一种高效的深度学习替代方案。
-  - Tags：`query:pathoai`
-- [Cross-order detection of bacteriophage transduction in microbial communities using RNA barcoding.](#/202603/24/202603/24/41872204-cross-order-detection-of-bacteriophage-transduction-in-microbial-communities-using-rna-barcoding)
-  - TLDR：针对传统噬菌体宿主鉴定方法依赖纯培养、通量低且难以应用于复杂微生物群落的问题，本研究开发了一种基于RNA条形码的自主检测技术。通过在P1噬菌体质粒中嵌入合成核酶，将转导信息直接记录在宿主的16S rRNA中，并结合高通量测序识别宿主。实验成功在合成及废水群落中发现了P1的新宿主目（气单胞菌目）及病原体转导现象，揭示了复制起点和尾部纤维对宿主范围的影响，为工程化改造微生物群提供了高通量的检测手段。
-  - Tags：`query:seqai`
-- [Generating 3D models of complex carbohydrates with GLYCAM-Web.](#/202603/24/202603/24/41872371-generating-3d-models-of-complex-carbohydrates-with-glycam-web)
-  - TLDR：复杂糖类（聚糖）的3D结构对其生物功能至关重要，但建模难度大。GLYCAM-Web 提供了一套在线工具，能够为各种天然及人工合成的寡糖、多糖和糖蛋白生成与实验数据一致的3D模型。该平台通过与PDB等数据库联动，帮助研究者快速构建用于分子对接和动力学模拟的高精度结构，推动了糖生物学领域的数据解释与假设验证。
-  - Tags：`query:bioinfo`

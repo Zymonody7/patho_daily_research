@@ -1,7 +1,49 @@
 {
-  "generated_at": "2026-04-11T19:15:20.436836+00:00",
-  "count": 389,
+  "generated_at": "2026-04-12T19:22:34.303550+00:00",
+  "count": 392,
   "items": [
+    {
+      "paper_id": "202604/12/41965741-artificial-intelligence-in-microbiology-implications-for-metagenomics-diagnostics-and-amr-surveillance",
+      "section": "deep",
+      "title_en": "Artificial intelligence in microbiology: implications for metagenomics, diagnostics, and AMR surveillance.",
+      "authors": "Renu Khangarot, Vandana Kumari, Rajeev Mishra, Abhijeet Singh",
+      "date": "2026-04-12",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41965741/",
+      "score": "10.0",
+      "evidence": "用于微生物学宏基因组、诊断和耐药性监测的AI方法",
+      "tldr": "针对微生物学中抗生素耐药性（AMR）监测和病原体分类的复杂挑战，本文综述了深度学习、Transformer序列模型及图神经网络等AI技术在基因组学和临床数据分析中的应用。通过整合多模态数据和可解释性AI技术，这些方法显著提升了耐药基因识别与表型预测的准确性。AI驱动的宏基因组分析为全球传染病监控和非侵入性诊断提供了高效、可扩展的解决方案，具有重大的公共卫生价值。",
+      "tags": "query:pathoai",
+      "abstract_en": "Artificial intelligence (AI) is now a key player in modern microbiology, as it enables high-resolution analyses of genomic, metagenomic, and clinical data for the monitoring of infectious disease and antimicrobial resistance (AMR). Considerable advancements in deep learning, transformer-based sequence models, graph neural networks, and multimodal architectures have greatly improved microbial classification accuracy, antibiotic resistance gene (ARG) detection, and resistance prediction. Taking metagenomic sequencing into consideration, these advancements have contributed to the development of sensitive, scalable, and non-invasive methods to profile microbiomes, determine novel resistance, and monitor AMR trends at the population level. This review summarizes recent advances in AI-aided microbiology, with a particular emphasis on AMR surveillance. Specific topics include deep learning frameworks for ARG annotation, emerging approaches to identifying new resistance genes, and multimodal applications (genomic and clinical metadata) aimed at improving phenotype prediction. The role of metagenome-assembled genomes (MAGs) to enhance AMR surveillance efforts is noted, along with their noted limitations relative to isolate genomes. The discussion includes the examination of explainable AI (XAI) techniques including SHAP, attention mechanism approaches, and gradient-based attribution approaches, with the aim of increasing transparency and clinical explainability. We also cover potential applications including AI-enabled non-invasive fecal microbiome diagnostics, laboratory automation, and environmental surveillance. While there has been significant progress, unresolved issues exist relating to dataset variations, liability of models to datasets, interpretability, and regulatory approval. Overcoming these barriers, however, will require standardized frameworks for these workflows, privacy-preserving federated learning methods, and interpretable AI frameworks for clinical and public health tools. AI could fundamentally change AMR surveillance by allowing for earlier resistance detection, advanced risk assessment recommendation, and improved monitoring strategies globally.",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202604/12/41965333-lamgen-llm-based-3d-molecular-generation-for-multi-target-drug-design",
+      "section": "deep",
+      "title_en": "LaMGen: LLM-based 3D molecular generation for multi-target drug design.",
+      "authors": "Qun Su, Qiaolin Gou, Hui Zhang, Jike Wang, Huiyong Sun, Renling Hu, Rui Qin, Huanxiang Liu, Tingjun Hou, Yu Kang",
+      "date": "2026-04-12",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41965333/",
+      "score": "9.0",
+      "evidence": "基于大语言模型的3D分子生成用于多靶点药物设计",
+      "tldr": "针对多靶点药物设计中现有方法缺乏生物背景且泛化性差的问题，LaMGen 提出了一种基于大语言模型（LLM）的 3D 分子生成框架。该框架利用包含 60 万量子精度构象和 70 万多靶点关联的 MTD2025 数据集，结合 ESM-C 蛋白质嵌入和旋转感知令牌，实现了高精度、低能耗的分子构象生成。实验表明，LaMGen 在生成速度（0.44s）和分子性质上优于扩散模型，能有效发现具有高结合亲和力的创新候选药物。",
+      "tags": "query:bioinfo",
+      "abstract_en": "Multi-target drugs hold great promise for treating complex diseases, yet existing methodologies predominantly rely on ligand-based approaches, which lack sufficient biological context and are often confined to specific target pairs, resulting in limited generalizability. Here, we introduce LaMGen, a general-purpose multi-target drug design framework powered by large language models (LLMs). Built on MTD2025, a dataset comprising over 600,000 quantum-accurate molecular conformations and 700,000 multi-target associations, LaMGen directly yields energy-favorable conformations with quantum-level accuracy. The framework integrates ESM-C protein embeddings, rotation-aware ligand tokens, and a TriCoupleAttention module to capture multi-level target-ligand interactions. Across independent benchmarks, LaMGen outperforms diffusion-based model across multiple properties, generating molecules in an average of 0.44 s, while preserving high conformational plausibility. Retrospective analyses demonstrate that LaMGen not only can reproduce molecules identical to known actives, but also consistently produces structurally novel candidates with conserved core scaffolds and superior binding affinities.",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202604/12/41966676-bridging-artificial-intelligence-machine-learning-with-green-nanotechnology-a-visionary-framework-for-smart-fungal-disease-management-in-plants",
+      "section": "quick",
+      "title_en": "Bridging Artificial Intelligence, Machine Learning with Green Nanotechnology: A Visionary Framework for Smart Fungal Disease Management in Plants.",
+      "authors": "Garima Yadav, Arti, Jyoti Mathur",
+      "date": "2026-04-12",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41966676/",
+      "score": "7.0",
+      "evidence": "用于真菌病害图像分类和监测的深度学习",
+      "tldr": "针对植物真菌病害导致的粮食安全威胁及传统农药的污染问题，该研究提出了一个集成 AI 预测与绿色纳米技术的智能管理框架。通过融合高光谱成像、深度学习及边缘 AI 实时监测技术，精准识别病害并联动生物废弃物合成的纳米颗粒进行靶向治理。该方法实现了从早期诊断到可持续防控的闭环，显著提升了农业系统的精准度与抗风险能力。",
+      "tags": "query:pathoai",
+      "abstract_en": "Fungal diseases in plants pose significant threats to global food security and sustainable agriculture, yet current management methods remain limited by environmental concerns and increasing pathogen resistance. Advanced plant disease detection ML methods include hyperspectral imaging for early disease detection, deep learning (CNNs) for image-based classification, and Internet of Things (IoT) with edge AI for real-time monitoring. Although independent advances have been made in plant disease detection and nanotechnology-based control, there is a clear lack of integrated research that combines intelligent predictive systems with eco-friendly nanobiocontrol agents for comprehensive disease management. We hypothesize that an integrated framework linking advanced disease detection technologies with green-synthesized biowaste-derived nanoparticles will improve early diagnosis and sustainable control of fungal diseases compared to existing approaches. The objectives of this study are to (1) identify limitations in current detection and control strategies, (2) develop a hybrid system that couples real-time monitoring and prediction with targeted application of green nanomaterials, and (3) assess the efficacy of this integrated approach against representative fungal pathogens in model crops. This combined strategy aims to enhance precision, sustainability, and responsiveness in crop protection, offering a forward-looking paradigm for resilient agricultural systems in the face of evolving phytopathological challenges.",
+      "selection_source": "fresh_fetch"
+    },
     {
       "paper_id": "202604/11/41963398-tripleknock-predicting-lethal-effect-of-three-gene-knockout-in-bacteria-by-deep-learning",
       "section": "deep",
