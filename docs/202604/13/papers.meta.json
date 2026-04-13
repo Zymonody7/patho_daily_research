@@ -1,0 +1,51 @@
+{
+  "label": "2026-04-13",
+  "date": "2026-04-13",
+  "generated_at": "2026-04-13T19:51:43",
+  "count": 3,
+  "papers": [
+    {
+      "paper_id": "202604/13/41972771-prophage-mediated-lysogenic-conversion-drives-virulence-evolution-and-genomic-plasticity-in",
+      "section": "quick",
+      "title_en": "Prophage-mediated lysogenic conversion drives virulence evolution and genomic plasticity in",
+      "authors": "Zhenglong Wen, Yaqi Guo, Yan Liang, Yanfang Li, Kexun Lian, Rui Tang, Shoupan Li, Pei Zheng, Yonggang Qu",
+      "date": "2026-04-13",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41972771/",
+      "score": "7.0",
+      "evidence": "人畜共患病原体毒力的比较基因组学和系统发育分析",
+      "tldr": "针对猪链球菌 9 型这一人畜共患病原体，本研究通过对 16 个菌株进行比较基因组学分析，揭示了原噬菌体在驱动基因组可塑性和毒力演化中的核心作用。研究发现原噬菌体不仅通过水平转移携带毒力基因（如 sly），还通过重组诱导染色体大片段倒位，并提出了“基因监狱”模型解释毒力性状的稳定遗传。这为理解病原菌进化及制定防疫策略提供了重要理论依据。",
+      "tags": "query:pathoai",
+      "abstract_en": "Streptococcus suis serotype 9 is an emerging zoonotic pathogen threatening pig production and public health. Here, we combined comparative genomics of 16 strains, including clinical isolate SS2401, to elucidate the role of prophages in shaping genomic plasticity and virulence evolution. The pan-genome was open (α = 0.375), highlighting extensive genetic diversity. Prophages were prevalent (56.25% of strains), significantly correlated with larger genomes, and exhibited two integration modes: direct insertion as genomic islands and integration at recombination hotspots associated with large-scale inversions. Phylogenetic analysis of the terminase large subunit (TerL) and whole-genome sequences revealed multiple independent acquisitions, with three prophages in SS2401 originating from distinct lineages (\"one strain, multiple sources\"). Recombination analysis detected 1,432 events across the core genome, indicating frequent horizontal gene exchange. The virulence gene sly (suilysin) was carried as a gene cassette within prophage Phi2401a. Notably, we identified integrase-deficient but otherwise intact prophages that may function as \"gene prisons,\" stably fixing virulence traits. These findings demonstrate that prophages act as dual drivers of genomic architecture and as dynamic reservoirs for virulence genes, providing a framework for understanding bacterial adaptation and informing surveillance strategies in the swine industry.IMPORTANCEStreptococcus suis serotype 9 poses a significant threat to pig farming and public health worldwide. This study reveals that prophages are not passive passengers but active architects of genomic plasticity and virulence evolution in this pathogen. We demonstrate that prophages contribute to genome expansion, facilitate large-scale chromosomal rearrangements, and carry key virulence genes such as sly. The discovery of a \"one strain, multiple sources\" acquisition pattern and the \"gene prison\" model explains how virulence traits can be stably maintained and disseminated. These findings redefine prophages as dual drivers of bacterial evolution, providing new insights for surveillance and intervention strategies in the swine industry.",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202604/13/41973156-rethinking-ms-therapeutics-from-disease-pathogenesis-mechanisms-to-ai-driven-drug-discovery",
+      "section": "quick",
+      "title_en": "Rethinking MS Therapeutics: From Disease Pathogenesis Mechanisms to AI-Driven Drug Discovery.",
+      "authors": "Maryam Ziaei, Mohammadreza Sehhati, Mohammadreza Torabi, Nafiseh Esmaeil, Fahimeh Ghasemi",
+      "date": "2026-04-13",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41973156/",
+      "score": "7.0",
+      "evidence": "AI驱动的疾病发病机制药物发现",
+      "tldr": "探讨了从理解疾病发病机制到AI驱动药物发现的转变。",
+      "tags": "query:bioinfo",
+      "abstract_en": "arXiv did not provide an abstract for this paper.",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202604/13/41973193-construction-of-a-multi-label-odor-prediction-model-based-on-molecular-structures-and-olfactory-receptor-binding-profiles-with-a-novel-interpretability-framework",
+      "section": "quick",
+      "title_en": "Construction of a multi-label odor prediction model based on molecular structures and olfactory receptor binding profiles with a novel interpretability framework.",
+      "authors": "Yuta Wakutsu, Hiromasa Kaneko",
+      "date": "2026-04-13",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41973193/",
+      "score": "6.0",
+      "evidence": "化学信息学中的分子结构与受体结合预测",
+      "tldr": "开发了一个基于分子结构和受体结合的多阶段气味预测框架。",
+      "tags": "query:bioinfo",
+      "abstract_en": "Predicting odors from molecular structures is a long-standing challenge in chemoinformatics, especially in cases where structurally similar compounds, such as optical isomers, exhibit distinct odor perceptions. To address this, we developed a multi-stage odor prediction framework that integrates both molecular structures and olfactory receptor (OR) binding information. Recognizing that human olfaction is mediated by complex receptor-ligand interactions, we divided the process into three mechanistic stages: (1) prediction of molecular binding to ORs (classification), (2) estimation of binding strength (regression), and (3) prediction of odor presence based on receptor responses (classification). We further introduced a novel interpretability metric, Positive likeness, which estimates the contribution of specific receptors to the likelihood of each odor label. Using this framework, we demonstrated the ability to distinguish odor differences between optical isomers and to identify ORs that are potentially responsible for the perception of specific odor attributes. The model also enabled extrapolative odor prediction for molecules with unknown odor annotations, leveraging receptor information and label propagation. Our results highlight the importance of receptor-level descriptors in enhancing predictive performance and biological interpretability. This study provides a foundation for receptor-guided odor modeling and supports applications in fragrance design and sensory informatics.",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}

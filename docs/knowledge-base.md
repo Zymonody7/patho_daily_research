@@ -1,10 +1,19 @@
 # 知识库
 
-- 最近沉淀条目数：392
+- 最近沉淀条目数：395
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Prophage-mediated lysogenic conversion drives virulence evolution and genomic plasticity in](#/202604/13/202604/13/41972771-prophage-mediated-lysogenic-conversion-drives-virulence-evolution-and-genomic-plasticity-in)
+  - TLDR：针对猪链球菌 9 型这一人畜共患病原体，本研究通过对 16 个菌株进行比较基因组学分析，揭示了原噬菌体在驱动基因组可塑性和毒力演化中的核心作用。研究发现原噬菌体不仅通过水平转移携带毒力基因（如 sly），还通过重组诱导染色体大片段倒位，并提出了“基因监狱”模型解释毒力性状的稳定遗传。这为理解病原菌进化及制定防疫策略提供了重要理论依据。
+  - Tags：`query:pathoai`
+- [Rethinking MS Therapeutics: From Disease Pathogenesis Mechanisms to AI-Driven Drug Discovery.](#/202604/13/202604/13/41973156-rethinking-ms-therapeutics-from-disease-pathogenesis-mechanisms-to-ai-driven-drug-discovery)
+  - TLDR：探讨了从理解疾病发病机制到AI驱动药物发现的转变。
+  - Tags：`query:bioinfo`
+- [Construction of a multi-label odor prediction model based on molecular structures and olfactory receptor binding profiles with a novel interpretability framework.](#/202604/13/202604/13/41973193-construction-of-a-multi-label-odor-prediction-model-based-on-molecular-structures-and-olfactory-receptor-binding-profiles-with-a-novel-interpretability-framework)
+  - TLDR：开发了一个基于分子结构和受体结合的多阶段气味预测框架。
+  - Tags：`query:bioinfo`
 - [Artificial intelligence in microbiology: implications for metagenomics, diagnostics, and AMR surveillance.](#/202604/12/202604/12/41965741-artificial-intelligence-in-microbiology-implications-for-metagenomics-diagnostics-and-amr-surveillance)
   - TLDR：针对微生物学中抗生素耐药性（AMR）监测和病原体分类的复杂挑战，本文综述了深度学习、Transformer序列模型及图神经网络等AI技术在基因组学和临床数据分析中的应用。通过整合多模态数据和可解释性AI技术，这些方法显著提升了耐药基因识别与表型预测的准确性。AI驱动的宏基因组分析为全球传染病监控和非侵入性诊断提供了高效、可扩展的解决方案，具有重大的公共卫生价值。
   - Tags：`query:pathoai`
@@ -595,13 +604,4 @@
   - Tags：`query:bioinfo`
 - [Phylogeny-informed random forests for human microbiome studies.](#/202603/24/202603/24/41874246-phylogeny-informed-random-forests-for-human-microbiome-studies)
   - TLDR：人类微生物组数据具有高度偏态和离散特征，且微生物间存在进化亲缘关系。传统随机森林忽略了这种系统发育树信息。PIRF（系统发育知情随机森林）通过在系统发育簇内局部筛选特征，增强了功能表示并降低了决策树间的相关性。在牙龈炎症、免疫治疗反应及年龄预测等七项基准任务中，PIRF 的预测准确率优于现有工具，为微生物组疾病诊断提供了更精准的建模方案。
-  - Tags：`query:seqai`
-- [Biochip-simulated genotype signals enable accurate and interpretable AMR prediction via machine learning](#/202603/24/202603/24/PMC13007503-biochip-simulated-genotype-signals-enable-accurate-and-interpretable-amr-prediction-via-machine-learning)
-  - TLDR：针对抗生素耐药性（AMR）预测中基因组数据处理复杂且模型黑盒化的问题，该研究提出利用生物芯片模拟的基因型信号作为机器学习输入。通过将基因序列转化为可观测的模拟杂交信号，模型在多种病原菌预测任务中表现出高准确率，并能直观定位关键耐药位点。该方法为开发兼具高性能与临床可解释性的快速耐药性诊断工具提供了技术支撑。
-  - Tags：`query:pathoai`
-- [Assessment of genome evolution in](#/202603/24/202603/24/41649278-assessment-of-genome-evolution-in)
-  - TLDR：青春双歧杆菌是成人肠道中流行率极高但研究尚浅的菌种。本研究通过整合131个项目的宏基因组数据，构建了包含1682个基因组的大规模数据集，利用泛基因组分析揭示了其特有的遗传特征、水平基因转移现象及地理演化规律。研究证实该菌与36种有益菌存在显著共存关系，为理解其在肠道微生态网络中的核心作用提供了重要的数据支撑。
-  - Tags：`query:seqai`
-- [Integrated single-cell and spatial mapping coupled with machine learning unveils core stemness landscapes and regulatory drivers in triple-negative breast cancer.](#/202603/24/202603/24/41870799-integrated-single-cell-and-spatial-mapping-coupled-with-machine-learning-unveils-core-stemness-landscapes-and-regulatory-drivers-in-triple-negative-breast-cancer)
-  - TLDR：针对三阴性乳腺癌（TNBC）高度异质性及肿瘤干细胞（CSCs）驱动恶化的问题，本研究整合单细胞、空间及大块转录组数据，利用CytoTRACE算法与XGBoost机器学习构建了由CALD1等5个核心基因组成的干性预测模型。研究发现高干性细胞处于分化起点，通过激活Notch信号通路促进免疫逃逸并导致预后不良，同时筛选出BI.2536等潜在敏感药物，为TNBC干细胞靶向治疗提供了新靶点。
   - Tags：`query:seqai`

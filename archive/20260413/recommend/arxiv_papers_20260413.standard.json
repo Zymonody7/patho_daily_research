@@ -1,0 +1,150 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-04-13T19:51:30.945566+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 0,
+    "deep_cap": 9,
+    "deep_selected": 0,
+    "quick_candidates": 3,
+    "quick_skim_target": 14,
+    "quick_selected": 3
+  },
+  "deep_dive": [],
+  "quick_skim": [
+    {
+      "id": "41972771",
+      "title": "Prophage-mediated lysogenic conversion drives virulence evolution and genomic plasticity in",
+      "abstract": "Streptococcus suis serotype 9 is an emerging zoonotic pathogen threatening pig production and public health. Here, we combined comparative genomics of 16 strains, including clinical isolate SS2401, to elucidate the role of prophages in shaping genomic plasticity and virulence evolution. The pan-genome was open (α = 0.375), highlighting extensive genetic diversity. Prophages were prevalent (56.25% of strains), significantly correlated with larger genomes, and exhibited two integration modes: direct insertion as genomic islands and integration at recombination hotspots associated with large-scale inversions. Phylogenetic analysis of the terminase large subunit (TerL) and whole-genome sequences revealed multiple independent acquisitions, with three prophages in SS2401 originating from distinct lineages (\"one strain, multiple sources\"). Recombination analysis detected 1,432 events across the core genome, indicating frequent horizontal gene exchange. The virulence gene sly (suilysin) was carried as a gene cassette within prophage Phi2401a. Notably, we identified integrase-deficient but otherwise intact prophages that may function as \"gene prisons,\" stably fixing virulence traits. These findings demonstrate that prophages act as dual drivers of genomic architecture and as dynamic reservoirs for virulence genes, providing a framework for understanding bacterial adaptation and informing surveillance strategies in the swine industry.IMPORTANCEStreptococcus suis serotype 9 poses a significant threat to pig farming and public health worldwide. This study reveals that prophages are not passive passengers but active architects of genomic plasticity and virulence evolution in this pathogen. We demonstrate that prophages contribute to genome expansion, facilitate large-scale chromosomal rearrangements, and carry key virulence genes such as sly. The discovery of a \"one strain, multiple sources\" acquisition pattern and the \"gene prison\" model explains how virulence traits can be stably maintained and disseminated. These findings redefine prophages as dual drivers of bacterial evolution, providing new insights for surveillance and intervention strategies in the swine industry.",
+      "authors": [
+        "Zhenglong Wen",
+        "Yaqi Guo",
+        "Yan Liang",
+        "Yanfang Li",
+        "Kexun Lian",
+        "Rui Tang",
+        "Shoupan Li",
+        "Pei Zheng",
+        "Yonggang Qu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-13",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41972771/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "comparative genomics and phylogenetic analysis of zoonotic pathogen virulence",
+      "llm_evidence_cn": "人畜共患病原体毒力的比较基因组学和系统发育分析",
+      "llm_evidence": "人畜共患病原体毒力的比较基因组学和系统发育分析",
+      "canonical_evidence": "人畜共患病原体毒力的比较基因组学和系统发育分析",
+      "llm_tldr_en": "Uses comparative genomics to study prophage-mediated virulence evolution in Streptococcus suis.",
+      "llm_tldr_cn": "利用比较基因组学研究了前噬菌体介导的猪链球菌毒力进化。",
+      "llm_tldr": "利用比较基因组学研究了前噬菌体介导的猪链球菌毒力进化。",
+      "llm_tags": [
+        "query:pathoai:composite"
+      ],
+      "matched_query_tag": "query:pathoai:composite",
+      "matched_query_text": "Papers central to 病原组学中的 AI 方法, especially work that connects or combines: foundation models for pathogen genomes and pathogen biology; machine learning for metagenomic pathogen classification; deep learning models for pathogen detection from sequencing data; AI methods for genomic surveillance and outbreak monitoring; machine learning for antimicrobial resistance prediction from genomes; machine learning for phylogenetic and transmission inference; multimodal models combining pathogen sequence phenotype and metadata; machine learning for microbiome host interaction pathogen ecology and infection modeling; AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design; foundation models for pathogen genome understanding and surveillance.",
+      "matched_requirement_id": "req-composite-pathoai",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41973193",
+      "title": "Construction of a multi-label odor prediction model based on molecular structures and olfactory receptor binding profiles with a novel interpretability framework.",
+      "abstract": "Predicting odors from molecular structures is a long-standing challenge in chemoinformatics, especially in cases where structurally similar compounds, such as optical isomers, exhibit distinct odor perceptions. To address this, we developed a multi-stage odor prediction framework that integrates both molecular structures and olfactory receptor (OR) binding information. Recognizing that human olfaction is mediated by complex receptor-ligand interactions, we divided the process into three mechanistic stages: (1) prediction of molecular binding to ORs (classification), (2) estimation of binding strength (regression), and (3) prediction of odor presence based on receptor responses (classification). We further introduced a novel interpretability metric, Positive likeness, which estimates the contribution of specific receptors to the likelihood of each odor label. Using this framework, we demonstrated the ability to distinguish odor differences between optical isomers and to identify ORs that are potentially responsible for the perception of specific odor attributes. The model also enabled extrapolative odor prediction for molecules with unknown odor annotations, leveraging receptor information and label propagation. Our results highlight the importance of receptor-level descriptors in enhancing predictive performance and biological interpretability. This study provides a foundation for receptor-guided odor modeling and supports applications in fragrance design and sensory informatics.",
+      "authors": [
+        "Yuta Wakutsu",
+        "Hiromasa Kaneko"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-13",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41973193/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "molecular structure and receptor binding prediction in chemoinformatics",
+      "llm_evidence_cn": "化学信息学中的分子结构与受体结合预测",
+      "llm_evidence": "化学信息学中的分子结构与受体结合预测",
+      "canonical_evidence": "化学信息学中的分子结构与受体结合预测",
+      "llm_tldr_en": "Develops a multi-stage framework for odor prediction based on molecular structures and receptor binding.",
+      "llm_tldr_cn": "开发了一个基于分子结构和受体结合的多阶段气味预测框架。",
+      "llm_tldr": "开发了一个基于分子结构和受体结合的多阶段气味预测框架。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models and generative AI for drug discovery molecular property prediction and lead optimization",
+      "matched_requirement_id": "req-20",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41973156",
+      "title": "Rethinking MS Therapeutics: From Disease Pathogenesis Mechanisms to AI-Driven Drug Discovery.",
+      "abstract": "",
+      "authors": [
+        "Maryam Ziaei",
+        "Mohammadreza Sehhati",
+        "Mohammadreza Torabi",
+        "Nafiseh Esmaeil",
+        "Fahimeh Ghasemi"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-13",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41973156/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "AI-driven drug discovery for disease pathogenesis",
+      "llm_evidence_cn": "AI驱动的疾病发病机制药物发现",
+      "llm_evidence": "AI驱动的疾病发病机制药物发现",
+      "canonical_evidence": "AI驱动的疾病发病机制药物发现",
+      "llm_tldr_en": "Explores the transition from understanding disease pathogenesis to AI-driven therapeutic discovery.",
+      "llm_tldr_cn": "探讨了从理解疾病发病机制到AI驱动药物发现的转变。",
+      "llm_tldr": "探讨了从理解疾病发病机制到AI驱动药物发现的转变。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models and generative AI for drug discovery molecular property prediction and lead optimization",
+      "matched_requirement_id": "req-20",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

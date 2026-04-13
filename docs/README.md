@@ -11,31 +11,32 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-04-12
-- 运行时间：2026-04-12 19:22:23 UTC
+- 最新运行日期：2026-04-13
+- 运行时间：2026-04-13 19:51:41 UTC
 - 运行状态：成功
 - 本次总论文数：3
-- 精读区：2
-- 速读区：1
+- 精读区：0
+- 速读区：3
 
 ### 今日简报（AI）
-今日深度解析 AI 在微生物诊断与药物研发中的核心突破，涵盖从耐药性监测到 3D 分子生成的跨界应用。
-重点关注 AI 驱动的宏基因组监测技术，以及利用大语言模型（LLM）实现多靶点药物精准设计的新范式。
-建议关注 AI 如何将复杂生物数据转化为诊疗方案，这正成为生命科学领域最具潜力的增长点。
-- 详情：[/202604/12/README](/202604/12/README)
+- 今日共生成 3 篇推荐（精读 0 篇，速读 3 篇）
+- 速读：《Prophage-mediated lysogenic conversion drives virulence evolution and genomic plasticity in》（7.0/10）, 《Rethinking MS Therapeutics: From Disease Pathogenesis Mechanisms to AI-Driven Drug Discovery.》（7.0/10）, 《Construction of a multi-label odor prediction model based on molecular structures and olfactory receptor binding profiles with a novel interpretability framework.》（6.0/10）
+- 这些结果覆盖了当下较热的方向，建议先看精读区论文的关键问题与方法。
+- 详情：[/202604/13/README](/202604/13/README)
 
 ### 精读区论文标签
-1. [Artificial intelligence in microbiology: implications for metagenomics, diagnostics, and AMR surveillance.](/202604/12/41965741-artificial-intelligence-in-microbiology-implications-for-metagenomics-diagnostics-and-amr-surveillance)  
-   标签：评分：10.0/10、query:pathoai
-   evidence：用于微生物学宏基因组、诊断和耐药性监测的AI方法
-2. [LaMGen: LLM-based 3D molecular generation for multi-target drug design.](/202604/12/41965333-lamgen-llm-based-3d-molecular-generation-for-multi-target-drug-design)  
-   标签：评分：9.0/10、query:bioinfo
-   evidence：基于大语言模型的3D分子生成用于多靶点药物设计
+- 本次无精读推荐。
 
 ### 速读区论文标签
-1. [Bridging Artificial Intelligence, Machine Learning with Green Nanotechnology: A Visionary Framework for Smart Fungal Disease Management in Plants.](/202604/12/41966676-bridging-artificial-intelligence-machine-learning-with-green-nanotechnology-a-visionary-framework-for-smart-fungal-disease-management-in-plants)  
+1. [Prophage-mediated lysogenic conversion drives virulence evolution and genomic plasticity in](/202604/13/41972771-prophage-mediated-lysogenic-conversion-drives-virulence-evolution-and-genomic-plasticity-in)  
    标签：评分：7.0/10、query:pathoai
-   evidence：用于真菌病害图像分类和监测的深度学习
+   evidence：人畜共患病原体毒力的比较基因组学和系统发育分析
+2. [Rethinking MS Therapeutics: From Disease Pathogenesis Mechanisms to AI-Driven Drug Discovery.](/202604/13/41973156-rethinking-ms-therapeutics-from-disease-pathogenesis-mechanisms-to-ai-driven-drug-discovery)  
+   标签：评分：7.0/10、query:bioinfo
+   evidence：AI驱动的疾病发病机制药物发现
+3. [Construction of a multi-label odor prediction model based on molecular structures and olfactory receptor binding profiles with a novel interpretability framework.](/202604/13/41973193-construction-of-a-multi-label-odor-prediction-model-based-on-molecular-structures-and-olfactory-receptor-binding-profiles-with-a-novel-interpretability-framework)  
+   标签：评分：6.0/10、query:bioinfo
+   evidence：化学信息学中的分子结构与受体结合预测
 
 
 <div class="dpr-home-promo-card">
