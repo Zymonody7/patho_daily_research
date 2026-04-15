@@ -1,0 +1,467 @@
+Title: A systematic review and benchmarking of modern metagenomic tools for taxonomic classification - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41830810/
+
+Markdown Content:
+# A systematic review and benchmarking of modern metagenomic tools for taxonomic classification - PubMed
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/41830810/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41830810%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/41830810/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/41830810/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/41830810/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/41830810/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/c1d4f879-7ea3-43c2-8443-9d91424ff1b9/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/41830810/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/41830810/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41830810/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41830810%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41830810%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/41830810/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Save citation to file
+
+ Format:  
+
+ Create file  Cancel 
+
+## Email citation
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41830810/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41830810/#)
+
+ Add  Cancel 
+
+## Your saved search
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/41830810/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+## Create a file for external citation management software
+
+ Create file  Cancel 
+
+## Your RSS Feed
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Full text links
+
+[![Image 6: Elsevier Science full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--linkinghub.elsevier.com-ihub-images-elsevieroa.png) Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(26)00163-0 "See full text options at Elsevier Science")
+
+[Full text links](https://pubmed.ncbi.nlm.nih.gov/41830810/#)
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41830810/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/41830810/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/41830810/#abstract)
+*   [Conflict of interest statement](https://pubmed.ncbi.nlm.nih.gov/41830810/#conflict-of-interest)
+*   [Similar articles](https://pubmed.ncbi.nlm.nih.gov/41830810/#similar)
+*   [Publication types](https://pubmed.ncbi.nlm.nih.gov/41830810/#publication-types)
+*   [MeSH terms](https://pubmed.ncbi.nlm.nih.gov/41830810/#mesh-terms)
+*   [Related information](https://pubmed.ncbi.nlm.nih.gov/41830810/#related-links)
+*   [LinkOut - more resources](https://pubmed.ncbi.nlm.nih.gov/41830810/#linkout)
+
+Review
+
+ Comput Biol Med 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Comput+Biol+Med%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Comput+Biol+Med%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41830810/#)
+
+. 2026 Apr 15:206:111600.
+
+ doi: 10.1016/j.compbiomed.2026.111600.  Epub 2026 Mar 13. 
+
+# A systematic review and benchmarking of modern metagenomic tools for taxonomic classification
+
+[Inês Branco Martins](https://pubmed.ncbi.nlm.nih.gov/?term=Martins+IB&cauthor_id=41830810)[1](https://pubmed.ncbi.nlm.nih.gov/41830810/#full-view-affiliation-1 "IEETA/DETI, LASI, University of Aveiro, Campus Universitário de Santiago, Aveiro, 3810-193, Portugal."),[Jorge Miguel Silva](https://pubmed.ncbi.nlm.nih.gov/?term=Silva+JM&cauthor_id=41830810)[1](https://pubmed.ncbi.nlm.nih.gov/41830810/#full-view-affiliation-1 "IEETA/DETI, LASI, University of Aveiro, Campus Universitário de Santiago, Aveiro, 3810-193, Portugal."),[João Rafael Almeida](https://pubmed.ncbi.nlm.nih.gov/?term=Almeida+JR&cauthor_id=41830810)[2](https://pubmed.ncbi.nlm.nih.gov/41830810/#full-view-affiliation-2 "IEETA/DETI, LASI, University of Aveiro, Campus Universitário de Santiago, Aveiro, 3810-193, Portugal. Electronic address: joao.rafael.almeida@ua.pt.")
+
+ Affiliations  Expand 
+
+### Affiliations
+
+*   1 IEETA/DETI, LASI, University of Aveiro, Campus Universitário de Santiago, Aveiro, 3810-193, Portugal.
+*   2 IEETA/DETI, LASI, University of Aveiro, Campus Universitário de Santiago, Aveiro, 3810-193, Portugal. Electronic address: joao.rafael.almeida@ua.pt.
+
+*    PMID: **41830810**
+*    DOI: [10.1016/j.compbiomed.2026.111600](https://doi.org/10.1016/j.compbiomed.2026.111600)
+
+Free article
+
+ Item in Clipboard 
+
+Review
+
+# A systematic review and benchmarking of modern metagenomic tools for taxonomic classification
+
+Inês Branco Martins et al. Comput Biol Med.2026.
+
+Free article
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ Comput Biol Med 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Comput+Biol+Med%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Comput+Biol+Med%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41830810/#)
+
+. 2026 Apr 15:206:111600.
+
+ doi: 10.1016/j.compbiomed.2026.111600.  Epub 2026 Mar 13. 
+
+### Authors
+
+[Inês Branco Martins](https://pubmed.ncbi.nlm.nih.gov/?term=Martins+IB&cauthor_id=41830810)[1](https://pubmed.ncbi.nlm.nih.gov/41830810/#short-view-affiliation-1 "IEETA/DETI, LASI, University of Aveiro, Campus Universitário de Santiago, Aveiro, 3810-193, Portugal."),[Jorge Miguel Silva](https://pubmed.ncbi.nlm.nih.gov/?term=Silva+JM&cauthor_id=41830810)[1](https://pubmed.ncbi.nlm.nih.gov/41830810/#short-view-affiliation-1 "IEETA/DETI, LASI, University of Aveiro, Campus Universitário de Santiago, Aveiro, 3810-193, Portugal."),[João Rafael Almeida](https://pubmed.ncbi.nlm.nih.gov/?term=Almeida+JR&cauthor_id=41830810)[2](https://pubmed.ncbi.nlm.nih.gov/41830810/#short-view-affiliation-2 "IEETA/DETI, LASI, University of Aveiro, Campus Universitário de Santiago, Aveiro, 3810-193, Portugal. Electronic address: joao.rafael.almeida@ua.pt.")
+
+### Affiliations
+
+*   1 IEETA/DETI, LASI, University of Aveiro, Campus Universitário de Santiago, Aveiro, 3810-193, Portugal.
+*   2 IEETA/DETI, LASI, University of Aveiro, Campus Universitário de Santiago, Aveiro, 3810-193, Portugal. Electronic address: joao.rafael.almeida@ua.pt.
+
+*    PMID: **41830810**
+*    DOI: [10.1016/j.compbiomed.2026.111600](https://doi.org/10.1016/j.compbiomed.2026.111600)
+
+ Item in Clipboard 
+
+ Full text links Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Abstract
+
+Advancements in metagenomics have been driven by the continuous development of bioinformatic tools, particularly taxonomic classification software, which are central to the accurate characterization of microbial communities. However, establishing direct comparisons between these tools remains challenging due to variations in evaluation metrics, reference databases, and input data types. In this study, we present a systematic review of recently developed metagenomic taxonomic classification tools. Of the 31 identified tools, nine satisfied all functional and methodological criteria for the benchmark analysis. We evaluated their accuracy and computational performance using a standardized dataset derived from the NCBI RefSeq database. Our analysis revealed that most of these tools are domain-specific, each excelling in particular areas. Tools like TAMA, CAMITAX and PhyloFlash achieved higher accuracy for prokaryotic organisms, while ViWrap and PhaBOX achieved higher accuracy for viral classifications. SqueezeMeta achieved high F1 scores across most domains, though its assembly-based architecture limits effectiveness on highly diverse samples. MegaPath-Nano was least affected by increased mutation rates. The execution time varied widely among the tools, with domain-specific and machine learning-based tools generally being faster, while tools like BASTA had longer runtimes and lower accuracy. This review synthesizes performance results for current tools, providing an overview of their strengths and computational methodologies.
+
+**Keywords:** Benchmarking; Bioinformatics; Classification; Metagenomics; Sequencing; Taxonomy.
+
+Copyright © 2026 The Author(s). Published by Elsevier Ltd.. All rights reserved.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+## Similar articles
+
+*   [Benchmarking Metagenomics Tools for Taxonomic Classification.](https://pubmed.ncbi.nlm.nih.gov/31398336/)Ye SH, Siddle KJ, Park DJ, Sabeti PC.Ye SH, et al.Cell. 2019 Aug 8;178(4):779-794. doi: 10.1016/j.cell.2019.07.010.Cell. 2019.PMID: 31398336 Free PMC article.Review.  
+*   [Comparison of different assembly and annotation tools on analysis of simulated viral metagenomic communities in the gut.](https://pubmed.ncbi.nlm.nih.gov/24438450/)Vázquez-Castellanos JF, García-López R, Pérez-Brocal V, Pignatelli M, Moya A.Vázquez-Castellanos JF, et al.BMC Genomics. 2014 Jan 18;15:37. doi: 10.1186/1471-2164-15-37.BMC Genomics. 2014.PMID: 24438450 Free PMC article.  
+*   [Re-purposing software for functional characterization of the microbiome.](https://pubmed.ncbi.nlm.nih.gov/33422152/)Gardiner LJ, Haiminen N, Utro F, Parida L, Seabolt E, Krishna R, Kaufman JH.Gardiner LJ, et al.Microbiome. 2021 Jan 9;9(1):4. doi: 10.1186/s40168-020-00971-1.Microbiome. 2021.PMID: 33422152 Free PMC article.  
+*   [Analysis of sequencing strategies and tools for taxonomic annotation: Defining standards for progressive metagenomics.](https://pubmed.ncbi.nlm.nih.gov/30104688/)Escobar-Zepeda A, Godoy-Lozano EE, Raggi L, Segovia L, Merino E, Gutiérrez-Rios RM, Juarez K, Licea-Navarro AF, Pardo-Lopez L, Sanchez-Flores A.Escobar-Zepeda A, et al.Sci Rep. 2018 Aug 13;8(1):12034. doi: 10.1038/s41598-018-30515-5.Sci Rep. 2018.PMID: 30104688 Free PMC article.  
+*   [Computational Tools and Resources for Long-read Metagenomic Sequencing Using Nanopore and PacBio.](https://pubmed.ncbi.nlm.nih.gov/40845163/)Zhang 张天缘 T, Jiang 蒋冕 M, Li 李汉洲 H, Gao 高云云 Y, Yousuf S, Yu 余凯敏 K, Yi 易欣欣 X, Wang 王俊 J, Yang 杨路路 L, Liu 刘永鑫 YX.Zhang 张天缘 T, et al.Genomics Proteomics Bioinformatics. 2025 Sep 22;23(4):qzaf075. doi: 10.1093/gpbjnl/qzaf075.Genomics Proteomics Bioinformatics. 2025.PMID: 40845163 Free PMC article.Review.  
+
+[See all similar articles](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed&from_uid=41830810)
+
+## Publication types
+
+*   
+ Systematic Review 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Systematic+Review%22%5Bpt%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Systematic+Review)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41830810/#)
+
+*   
+ Review 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Review%22%5Bpt%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Review)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41830810/#)
+
+## MeSH terms
+
+*   
+ Benchmarking 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Benchmarking%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Benchmarking)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41830810/#)
+
+*   
+ Computational Biology / methods 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Computational+Biology%2Fmethods%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Computational+Biology)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41830810/#)
+
+*   
+ Databases, Genetic 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Databases%2C+Genetic%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Databases%2C+Genetic)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41830810/#)
+
+*   
+ Humans 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Humans%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Humans)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41830810/#)
+
+*   
+ Metagenomics* / methods 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Metagenomics%2Fmethods%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Metagenomics)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41830810/#)
+
+*   
+ Software* 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Software%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Software)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41830810/#)
+
+## Related information
+
+*   [GEO Profiles](https://www.ncbi.nlm.nih.gov/geoprofiles?linkname=pubmed_geoprofiles&from_uid=41830810 "GEO records associated with pubmed record")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [ClinicalKey](https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(26)00163-0)
+    *   [Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(26)00163-0)
+
+**Full text links**[x]
+
+[![Image 7: Elsevier Science full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--linkinghub.elsevier.com-ihub-images-elsevieroa.png) Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(26)00163-0 "See full text options at Elsevier Science")
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41830810/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41830810%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/41830810/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41830810%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41830810%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/41830810/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/?pagename=pubmed%3Apubmed%3Aabstract%3ANONE)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)

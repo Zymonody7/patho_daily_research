@@ -1,0 +1,745 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-04-15T19:52:05.608905+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 5,
+    "deep_cap": 9,
+    "deep_selected": 5,
+    "quick_candidates": 10,
+    "quick_skim_target": 14,
+    "quick_selected": 10
+  },
+  "deep_dive": [
+    {
+      "id": "41830810",
+      "title": "A systematic review and benchmarking of modern metagenomic tools for taxonomic classification.",
+      "abstract": "Advancements in metagenomics have been driven by the continuous development of bioinformatic tools, particularly taxonomic classification software, which are central to the accurate characterization of microbial communities. However, establishing direct comparisons between these tools remains challenging due to variations in evaluation metrics, reference databases, and input data types. In this study, we present a systematic review of recently developed metagenomic taxonomic classification tools. Of the 31 identified tools, nine satisfied all functional and methodological criteria for the benchmark analysis. We evaluated their accuracy and computational performance using a standardized dataset derived from the NCBI RefSeq database. Our analysis revealed that most of these tools are domain-specific, each excelling in particular areas. Tools like TAMA, CAMITAX and PhyloFlash achieved higher accuracy for prokaryotic organisms, while ViWrap and PhaBOX achieved higher accuracy for viral classifications. SqueezeMeta achieved high F1 scores across most domains, though its assembly-based architecture limits effectiveness on highly diverse samples. MegaPath-Nano was least affected by increased mutation rates. The execution time varied widely among the tools, with domain-specific and machine learning-based tools generally being faster, while tools like BASTA had longer runtimes and lower accuracy. This review synthesizes performance results for current tools, providing an overview of their strengths and computational methodologies.",
+      "authors": [
+        "Inês Branco Martins",
+        "Jorge Miguel Silva",
+        "João Rafael Almeida"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-15",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41830810/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "benchmarking of metagenomic tools for taxonomic classification",
+      "llm_evidence_cn": "宏基因组分类工具的基准测试",
+      "llm_evidence": "宏基因组分类工具的基准测试",
+      "canonical_evidence": "宏基因组分类工具的基准测试",
+      "llm_tldr_en": "Systematically reviews and benchmarks modern metagenomic tools for accurate microbial taxonomic classification.",
+      "llm_tldr_cn": "系统地回顾并基准测试了用于微生物分类的现代宏基因组学工具。",
+      "llm_tldr": "系统地回顾并基准测试了用于微生物分类的现代宏基因组学工具。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for metagenomic pathogen detection and classification",
+      "matched_requirement_id": "req-11",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41957532",
+      "title": "Structure- and Ligand-Based Discovery of Novel 3-Chymotrypsin-Like Protease Nonpeptidomimetic Hits.",
+      "abstract": "The SARS-CoV-2 3-chymotrypsin-like (3CLpro) protease is a key target for the development of COVID-19 therapeutics. While ensitrelvir and nirmatrelvir are approved drugs for treatment, the continuous research and development for new antiviral drugs is necessary to combat the emergence of variants and other related viruses. This study employed structure- and ligand-based computer-assisted approaches to identify new 3CLpro nonpeptidomimetic inhibitors. Using data from COVID Moonshot, NCATS, and the literature, computational methods such as shape-based, ensemble docking, and machine learning (ML) techniques were developed, achieving robust validation metrics: AUC = 87%, EF = 7, BEDROC = 60% for shape-based; AUC = 87%, EF = 7.03, BEDROC = 62% for ensemble docking, and ACC = 81%, MCC = 62% for ML models, combing Random forest + ECFP4 fingerprint. These models were utilized in virtual screening (VS) campaigns using the H3D and ChemBridge libraries, from which six promising hits with IC50 values ≤80 µM were identified, including LabMol-499 with an IC50 of 13.71 µM and a Ki of 21.74 µM. Moreover, we found that LabMol-499 acts as a noncompetitive, reversible inhibitor of 3CLpro. These findings provide a foundation for hit-to-lead optimization of new nonpeptidomimetic 3CLpro inhibitors.",
+      "authors": [
+        "Sabrina Silva-Mendonça",
+        "Donald Seanego",
+        "Christopher Jurisch",
+        "Melina Mottin",
+        "Flávia Nader Motta",
+        "Beatriz S A Rodrigues",
+        "Gilberto S M Junior",
+        "Alexandra Maria Dos Santos Carvalho",
+        "Fábio Muniz de Oliveira",
+        "Sunniva Sigurdardóttir",
+        "Per Sunnerhagen",
+        "Izabela Marques Dourado Bastos",
+        "Richard Gessner",
+        "Kelly Chibale",
+        "Carolina Horta Andrade"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-14",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41957532/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "machine learning for SARS-CoV-2 3CLpro inhibitor discovery",
+      "llm_evidence_cn": "机器学习用于新冠病毒3CL蛋白酶抑制剂发现",
+      "llm_evidence": "机器学习用于新冠病毒3CL蛋白酶抑制剂发现",
+      "canonical_evidence": "机器学习用于新冠病毒3CL蛋白酶抑制剂发现",
+      "llm_tldr_en": "Uses ML and docking to identify nonpeptidomimetic inhibitors for SARS-CoV-2 protease.",
+      "llm_tldr_cn": "利用机器学习和分子对接技术发现新型新冠病毒蛋白酶非肽类抑制剂。",
+      "llm_tldr": "利用机器学习和分子对接技术发现新型新冠病毒蛋白酶非肽类抑制剂。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41980989",
+      "title": "A multi-modal diffusion model with dual-cross-attention for multi-omics data generation and translation.",
+      "abstract": "Single-cell multi-omics technologies offer unprecedented opportunities to decipher complex cellular mechanisms. To overcome experimental limitations in scale, cost, and coverage, powerful computational methods are essential for integrating diverse data modalities and generating high-fidelity in-silico data. In this paper, we present scDiffusion-X, a latent diffusion model for multi-omics data integration, generation, and translation. The core innovation is a Dual-Cross-Attention (DCA) module that adaptively captures intricate, hidden relationships between molecular modalities, offering a more flexible and interpretable approach than existing integration strategies. Extensive benchmarking experiments demonstrate that scDiffusion-X excels at generating realistic multi-omics data, preserving cellular heterogeneity and global data structures with excellent scalability. Beyond simulation, scDiffusion-X uniquely enables accurate modality translation, predicting one molecular modality from another with robust uncertainty quantification. Furthermore, we designed a gradient-based interpretation framework to transform the DCA module into a discovery tool, enabling inference of comprehensive cell-type-specific heterogeneous gene regulatory networks (GRNs). By integrating state-of-the-art generative modeling with biological interpretability, scDiffusion-X serves as a powerful tool for dissecting regulatory relationships, predicting perturbation responses, and accelerating discovery in single-cell multi-omics research.",
+      "authors": [
+        "Erpai Luo",
+        "Lei Wei",
+        "Minsheng Hao",
+        "Xuegong Zhang",
+        "Qiao Liu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-14",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41980989/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "multi-modal diffusion model for multi-omics data integration",
+      "llm_evidence_cn": "用于多组学数据整合的多模态扩散模型",
+      "llm_evidence": "用于多组学数据整合的多模态扩散模型",
+      "canonical_evidence": "用于多组学数据整合的多模态扩散模型",
+      "llm_tldr_en": "Introduces scDiffusion-X, a latent diffusion model for single-cell multi-omics integration and generation.",
+      "llm_tldr_cn": "提出scDiffusion-X，一种用于单细胞多组学整合与生成的潜扩散模型。",
+      "llm_tldr": "提出scDiffusion-X，一种用于单细胞多组学整合与生成的潜扩散模型。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41984488",
+      "title": "Machine-Learning Microfluidic Minute-Scale Microorganism Metrics Monitoring(M6).",
+      "abstract": "On-site monitoring of microorganisms remains challenging because of low concentrations, strong background interference, and dynamic aerosol diffusion, particularly for aerosol-transmitted pathogens. Here, we report a rapid detection platform that integrates a Puri-focusing microfluidic chip, electrochemical impedance spectroscopy (EIS), and machine learning for the analysis of airborne microorganisms. Guided by fluid-dynamic design and laminar-flow focusing, the chip achieved a 95.8% separation efficiency for 5 µm target particles. African swine fever virus (ASFV) was used as a model pathogen. Impedance features, including modulus, real and imaginary components, and phase angle, were extracted from aerosol samples and analyzed using multiple machine learning classifiers. Five-fold cross-validation identified Random Forest (RF) as the optimal model, achieving 95.2% classification accuracy. The platform reached a system-level detection limit of 188 TCID50/mL for air-sampled aerosols and showed high concordance with enzyme-linked immunosorbent assay (ELISA) results. Each detection cycle required less than 1 minute. This integrated strategy offers a feasible route for rapid on-site monitoring of aerosol-transmitted microorganisms in public health, agriculture, livestock farming, and production safety.",
+      "authors": [
+        "Ning Yang",
+        "Jiahao Ding",
+        "Si Chen",
+        "Lijie Yan",
+        "Shichao Ding",
+        "Lavonda Li",
+        "Junyi Sun",
+        "Haodong Liu",
+        "Tongge Li",
+        "Ning Liu",
+        "Mingji Wei",
+        "Xiaoyong Zhu",
+        "Xiaobo Zou",
+        "Shouqi Yuan",
+        "Xingcai Zhang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-15",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41984488/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "machine learning for rapid detection of aerosol-transmitted pathogens like ASFV",
+      "llm_evidence_cn": "机器学习用于非洲猪瘟病毒等气溶胶传播病原体的快速检测",
+      "llm_evidence": "机器学习用于非洲猪瘟病毒等气溶胶传播病原体的快速检测",
+      "canonical_evidence": "机器学习用于非洲猪瘟病毒等气溶胶传播病原体的快速检测",
+      "llm_tldr_en": "Integrates microfluidics and machine learning for rapid, on-site monitoring of airborne pathogens.",
+      "llm_tldr_cn": "结合微流控技术和机器学习，实现了对空气传播病原体的快速现场监测。",
+      "llm_tldr": "结合微流控技术和机器学习，实现了对空气传播病原体的快速现场监测。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "deep learning models for pathogen detection from sequencing data",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41911382",
+      "title": "Accelerated Combinatorial Drug Design for Human Immunodeficiency Virus Resistance through Seeded Multisite λ-Dynamics.",
+      "abstract": "The seemingly endless emergence of drug-resistant mutations poses a significant challenge in developing effective therapeutics, particularly for rapidly evolving pathogens like human immunodeficiency virus (HIV). Understanding how small molecular changes can confer resilience against diverse protein mutants is crucial for next-generation drug design. In the work presented here, we apply multisite λ-dynamics (MSλD) to navigate a chemical space of unprecedented size of over 12,000 protein-ligand combinations of HIV-1 Reverse Transcriptase (HIV-RT) and non-nucleoside inhibitors. We simultaneously explore the indole and indolizine inhibitor scaffolds against the wild-type protein, as well as several key resistance-conferring mutations at residues 181 and 188 within the active site. Our simulations show that smaller substituents, such as hydrogen, fluorine, or chlorine atoms, are preferred at all three sites on both drug scaffolds. We find that the binding affinity rankings of the strongest inhibitors remain highly conserved across the entire mutational panel, supporting the identification of truly resilient universal binders. Furthermore, the indolizine scaffold predicts a more favorable binding landscape across the mutants compared to the indole scaffold, suggesting a higher intrinsic resilience. We also map the limits of therapeutic efficacy, which show the Y188I mutation as a resistance hotspot that markedly reduces binding affinity for all tested compounds. To efficiently sample this vast alchemical and mutational space, we introduce a bias seeding method that leverages solvent-phase free energy simulations, calculations already necessary for estimating the relative free energies. This work establishes a powerful and efficient framework for understanding drug resistance landscapes and guiding the design of robust antiviral therapies capable of overcoming mutation-driven escape in systems like HIV-RT.",
+      "authors": [
+        "Paige E Bowling",
+        "Jonah Z Vilseck",
+        "Charles L Brooks"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-14",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41911382/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "drug design for HIV resistance using multisite dynamics",
+      "llm_evidence_cn": "利用多位点动力学进行HIV耐药性药物设计",
+      "llm_evidence": "利用多位点动力学进行HIV耐药性药物设计",
+      "canonical_evidence": "利用多位点动力学进行HIV耐药性药物设计",
+      "llm_tldr_en": "Applies MSλD to design inhibitors resilient against drug-resistant mutations in HIV-1.",
+      "llm_tldr_cn": "应用多位点λ动力学设计能够应对HIV-1耐药突变的新型抑制剂。",
+      "llm_tldr": "应用多位点λ动力学设计能够应对HIV-1耐药突变的新型抑制剂。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "41778923",
+      "title": "Molecular and mechanistic insights into the gut-liver axis in",
+      "abstract": "Klebsiella pneumoniae is an opportunistic Gram-negative pathogen in clinical settings, primarily causing opportunistic infections in hospitals. The prevalence of liver abscess cases caused by hypervirulent K. pneumoniae (hvKP) has significantly increased in recent years, renewing interest in the interaction between this bacterium and the gut-liver axis. Research has shown that K. pneumoniae disrupts intestinal barrier integrity by adhering to and producing virulence factors, leading to bacterial translocation to vital organs such as the liver. This activation of inflammatory signaling pathways triggers systemic infection, exacerbating liver damage and systemic inflammation. The current research still faces key challenges: the molecular mechanism of bacteria crossing the intestinal barrier to reach the liver is not yet clear, the dynamic regulatory network of the gut-liver axis during infection lacks systematic analysis, and insufficient clinical research data limit a comprehensive understanding of its pathogenic mechanism. This review systematically organizes the latest research progress on the interaction between K. pneumoniae infection and the gut-liver axis, with a focus on the breakdown of the intestinal barrier mediated by virulence factors, mechanisms of bacterial translocation, and the collaborative regulatory network of immune cells (such as macrophages and neutrophils) and inflammatory pathways in the gut-liver axis. By analyzing the immune evasion strategies of hvKP and the host-pathogen arms race with host immune responses, it provides theoretical references for a deeper understanding of its pathogenic mechanism and lays the foundation for clinical development of precise intervention strategies targeting inflammatory pathways or intestinal barrier repair.",
+      "authors": [
+        "Jie Deng",
+        "Ling Cheng",
+        "Jinbo Liu",
+        "Zhangrui Zeng"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-15",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41778923/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "pathogen-host interaction and infection modeling for Klebsiella pneumoniae",
+      "llm_evidence_cn": "肺炎克雷伯菌的病原体-宿主相互作用与感染建模",
+      "llm_evidence": "肺炎克雷伯菌的病原体-宿主相互作用与感染建模",
+      "canonical_evidence": "肺炎克雷伯菌的病原体-宿主相互作用与感染建模",
+      "llm_tldr_en": "Explores the molecular mechanisms of Klebsiella pneumoniae translocation and infection via the gut-liver axis.",
+      "llm_tldr_cn": "探讨肺炎克雷伯菌通过肠-肝轴易位和感染的分子机制。",
+      "llm_tldr": "探讨肺炎克雷伯菌通过肠-肝轴易位和感染的分子机制。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41945438",
+      "title": "Hypoxia inducible factors regulate pneumovirus replication by enhancing innate immune sensing.",
+      "abstract": "The immune mechanisms responsible for protection and pathogenesis in pneumoviral infection are not well defined. We demonstrated that pharmacological activation of the hypoxic inducible factor (HIF) signaling axis using daprodustat limited viral replication through enhanced immune signaling. Transcriptomic analysis revealed HIF augmented activation of innate immune response genes, including interferon-stimulated gene 15 (Isg15), in the lung and spleen of mice infected with pneumonia virus of mice (PVM). In human respiratory syncytial virus (hRSV)-infected airway epithelial cells, daprodustat inhibited viral replication and enhanced ISG15 expression in a HIF-dependent manner. Importantly, inhibition of type I interferon signaling or the RIG-I sensing pathway abrogated the antiviral activity of HIF. Moreover, daprodustat increased interferon signaling in response to viral RNA, suggesting that HIF inhibits pneumovirus replication through enhancing viral RNA sensing. Mechanistically, daprodustat reduced N6-methyladenosine modification of viral RNA through upregulation of RNA demethylases, promoting detection by innate immune sensors. This study highlights the intricate interplay between hypoxia and antiviral immunity and offers valuable insights into pneumovirus-host interactions and potential therapeutic interventions.",
+      "authors": [
+        "Jiyeon Ha",
+        "Parul Sharma",
+        "Sammi Ta",
+        "Senko Tsukuda",
+        "James M Harris",
+        "Rebekah Penrice-Randal",
+        "Eleanor Bentley",
+        "Adam Kirby",
+        "Daniele F Mega",
+        "David A Matthews",
+        "Peter Balfe",
+        "Jan Rehwinkel",
+        "Anja Kipar",
+        "James P Stewart",
+        "Jane A McKeating",
+        "Peter A C Wing"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-14",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41945438/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Transcriptomic analysis of host-pathogen interaction and immune sensing in pneumovirus",
+      "llm_evidence_cn": "肺炎病毒感染中宿主-病原体相互作用和免疫感知的转录组分析",
+      "llm_evidence": "肺炎病毒感染中宿主-病原体相互作用和免疫感知的转录组分析",
+      "canonical_evidence": "肺炎病毒感染中宿主-病原体相互作用和免疫感知的转录组分析",
+      "llm_tldr_en": "Investigates how HIF regulates pneumovirus replication through innate immune sensing and transcriptomics.",
+      "llm_tldr_cn": "研究HIF如何通过先天免疫感知和转录组分析调节肺炎病毒复制。",
+      "llm_tldr": "研究HIF如何通过先天免疫感知和转录组分析调节肺炎病毒复制。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41891780",
+      "title": "Insights into the Arms Race between Prokaryotic Hosts and Their Viruses in Mangrove Ecosystem.",
+      "abstract": "The coevolutionary arms race between prokaryotes and viruses has driven the diversification of various microbial immune mechanisms including restriction-modification (RM) and clustered regularly interspaced short palindromic repeats and CRISPR-associated protein (CRISPR-Cas) systems. While recent efforts have expanded the catalog of antiviral systems, their ecological dynamics within complex microbial communities remain underexplored. Here, we analyzed prokaryotic communities, viruses, and defense systems in mangrove habitats from Futian, China, by integrating DNA and RNA sequencing of sediment cores collected across multiple depths and seasons at two sites. Prokaryotic genomes harbored 65 distinct defense system types, representing ∼43% of known systems, with transcriptional activity dominated by Pseudomonadota, Planctomycetota, and Chloroflexiota. The key systems, including abortive infection (AbiD, AbiE, AbiU), Eleos, CRISPR-Cas, MazEF, Retron, and Wadjet, exhibited high transcriptional activity across samples. Strikingly, viruses encoded highly expressed defense systems such as AbiE and RM, despite their co-occurring prokaryotic hosts lacking detectable antiviral systems. The abundance ratio of prokaryotes and viruses with defense systems shows an opposite trend as the depth variation. Heterologous validation confirmed the antiviral efficacy of the selected systems. Our findings suggest that viral-encoded defense systems may functionally augment host immunity in mangrove habitats, revealing a nuanced coevolutionary interplay within these ecosystems. This study advances our understanding of host-virus interactions at the community level in mangrove wetland microbiomes.",
+      "authors": [
+        "Chengxiang Gu",
+        "Jiazheng Gu",
+        "Jinquan Li",
+        "Dayu Zou",
+        "Yanling Qi",
+        "Runyue Xia",
+        "Zhichao Zhou",
+        "Meng Li"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-14",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41891780/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "metagenomic analysis of prokaryotic host-virus arms race",
+      "llm_evidence_cn": "原核宿主与病毒军备竞赛的宏基因组分析",
+      "llm_evidence": "原核宿主与病毒军备竞赛的宏基因组分析",
+      "canonical_evidence": "原核宿主与病毒军备竞赛的宏基因组分析",
+      "llm_tldr_en": "Integrates DNA/RNA sequencing to explore antiviral defense systems in mangrove microbial communities.",
+      "llm_tldr_cn": "整合DNA和RNA测序研究红树林生态系统中微生物的抗病毒防御系统。",
+      "llm_tldr": "整合DNA和RNA测序研究红树林生态系统中微生物的抗病毒防御系统。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41975515",
+      "title": "Proteogenomic decoding of chemotherapy resistance in patients with triple-negative breast cancer.",
+      "abstract": "BACKGROUND: The clinical utility of integrated proteogenomic biomarkers for predicting chemotherapy response in triple-negative breast cancer remains underexplored. We prospectively analyzed paired baseline and post-treatment tumor samples from 50 patients with stage II-III TNBC treated with anthracycline- and taxane-based neoadjuvant chemotherapy, integrating whole-exome sequencing, RNA sequencing, global proteomics, and phosphoproteomics. RESULTS: Non-negative matrix factorization clustering identifies five proteogenomic subtypes. The immune-enriched subtype demonstrates the highest pathologic complete response rate (55.6%), whereas no pathologic complete response was observed in the xenobiotic metabolism or epithelial-mesenchymal transition subtypes. Immune-related pathways are enriched in tumors with pathologic complete response, while epithelial-mesenchymal transition pathways are enriched in non-pathologic complete response tumors. The estrogen response pathway is selectively enriched in non-pathologic complete response tumors at the proteomic level and inversely correlated with immune activation. Post-translational modification and in vitro analyses suggest estrogen-linked GRK2 activation contributes to chemotherapy resistance. ITGB8 copy number loss is associated with higher pathologic complete response rates and immune activation, while non-pathologic complete response tumors of the immunomodulatory subtype show increased expression of AKR1C2 and ABCA13. Comparison of baseline and post-treatment tumors reveals AURKB pathway activation in residual disease, with Aurora B kinase inhibition synergizing with paclitaxel. A predictive model incorporating these biomarkers outperforms RNA-based models in predicting response. CONCLUSION: Integrative proteogenomic profiling enables robust prediction of chemotherapy resistance in triple-negative breast cancer and identifies actionable biomarkers providing a framework for advancing personalized therapeutic strategies.",
+      "authors": [
+        "Dong Ki Lee",
+        "Min Hwan Kim",
+        "Yumi Hwang",
+        "Seul-Gi Kim",
+        "Won-Ji Ryu",
+        "Geon-Uk Kim",
+        "Hyun Myoung Yun",
+        "Shinyoung Park",
+        "Jeong Dong Lee",
+        "Hyun Ju Han",
+        "Gun Min Kim",
+        "Kyung-Hee Kim",
+        "Jong Bae Park",
+        "Min Jung Kim",
+        "Ja Seung Koo",
+        "Jee Ye Kim",
+        "Hyung Seok Park",
+        "Seung Il Kim",
+        "Heon Yung Gee",
+        "Seho Park",
+        "Joohyuk Sohn"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-14",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41975515/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "proteogenomic integration of sequencing and mass spectrometry data",
+      "llm_evidence_cn": "测序与质谱数据的蛋白质基因组学整合",
+      "llm_evidence": "测序与质谱数据的蛋白质基因组学整合",
+      "canonical_evidence": "测序与质谱数据的蛋白质基因组学整合",
+      "llm_tldr_en": "Integrates multi-omics data to identify proteogenomic subtypes and biomarkers for chemotherapy resistance.",
+      "llm_tldr_cn": "整合多组学数据以识别三阴性乳腺癌化疗耐药的蛋白质基因组亚型和生物标志物。",
+      "llm_tldr": "整合多组学数据以识别三阴性乳腺癌化疗耐药的蛋白质基因组亚型和生物标志物。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for proteogenomics mass spectrometry and sequence analysis",
+      "matched_requirement_id": "req-45",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41980962",
+      "title": "KIMMDY: a biomolecular reaction emulator.",
+      "abstract": "Molecular simulations have become indispensable in biological research. Their accuracy continues to improve, but directly modelling biochemical reactions - central to all life processes - remains computationally challenging. Here, we present a biomolecular reaction emulator that models reactions across conformational ensembles using kinetic Monte Carlo. Our method, KIMMDY, is capable of handling dynamic, large-scale systems with successive, competing reactions, even on the second timescale or slower. It leverages graph neural networks for large-scale prediction of reaction rates, while also being capable of using simpler physics-based or heuristic models. We validate our approach against experimental data and showcase its power and versatility through a series of applications, including radical reactions, nucleophilic substitutions, and photodimerization. Example systems span proteins and DNA. KIMMDY aids the understanding of biochemical reaction cascades in complex systems, helps to re-interpret experimental data, and can inspire future wet-lab experiments.",
+      "authors": [
+        "Eric Hartmann",
+        "Jannik Buhr",
+        "Kai Riedmiller",
+        "Evgeni Ulanov",
+        "Boris N Schüpp",
+        "Denis Kiesewetter",
+        "Daniel Sucerquia",
+        "Camilo Aponte-Santamaría",
+        "Frauke Gräter"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-14",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41980962/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "graph neural networks for predicting biomolecular reaction rates",
+      "llm_evidence_cn": "用于预测生物分子反应速率的图神经网络",
+      "llm_evidence": "用于预测生物分子反应速率的图神经网络",
+      "canonical_evidence": "用于预测生物分子反应速率的图神经网络",
+      "llm_tldr_en": "Introduces KIMMDY, a reaction emulator using GNNs to model large-scale biochemical reaction systems.",
+      "llm_tldr_cn": "介绍了KIMMDY，一种利用图神经网络模拟大规模生化反应系统的反应仿真器。",
+      "llm_tldr": "介绍了KIMMDY，一种利用图神经网络模拟大规模生化反应系统的反应仿真器。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "graph learning and foundation models for gene regulatory network inference and perturbation biology",
+      "matched_requirement_id": "req-22",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41980953",
+      "title": "Quantitative stable isotope probing (qSIP)-informed metagenomics identifies viruses infecting chemoautotrophs.",
+      "abstract": "Aquatic environments absorb ~2.5 gigatonnes of atmospheric carbon each year1, more than the carbon stored in the atmosphere, soils, and all biomass combined. Primary producers transform this dissolved inorganic carbon into biomass that can subsequently flow into other trophic levels, or be released back into the environment through viral lysis. While there is substantial knowledge about the diversity and activity of viruses infecting photoautotrophic primary producers and the ecosystem impact, little is known about viruses infecting chemoautotrophs, representing a gap in our understanding of key processes driving microbial carbon cycling. Here, we combine metagenomics with quantitative 12/13C stable isotopic probing (qSIP) mesocosm experiments in a marine-derived meromictic pond to quantify population-specific isotopic enrichment, identify key chemoautotrophic primary producers, and virus-host dynamics. Isotopically enriched carbon is tracked from the genomes of chemoautotrophs to putative viruses, showing that active populations of hydrogen/sulfur-oxidizing chemoautotrophs (Thiomicrorhabdus, Hydrogenovibrio, Sulfurimonas, Sulfurovum) are targeted by viruses. This work provides the foundation for revealing the diversity and activity of viruses infecting globally-widespread chemoautotrophs. Our study sheds light on trophic interactions that impact microbial carbon cycling in aphotic environments and builds toward biogeochemical models that incorporate viral impacts on chemoautotrophic microbial communities.",
+      "authors": [
+        "Elaine Luo",
+        "Ngoc D Pham",
+        "Timothy J Rogers",
+        "Md Moinuddin Sheam",
+        "Bayleigh E Benner",
+        "Joseph J Vallino",
+        "Gareth Trubl",
+        "Julie A Huber"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-14",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41980953/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "metagenomics for identifying viruses in aquatic environments",
+      "llm_evidence_cn": "利用宏基因组学鉴定水生环境中的病毒",
+      "llm_evidence": "利用宏基因组学鉴定水生环境中的病毒",
+      "canonical_evidence": "利用宏基因组学鉴定水生环境中的病毒",
+      "llm_tldr_en": "Combines qSIP and metagenomics to identify viruses infecting chemoautotrophs in aquatic ecosystems.",
+      "llm_tldr_cn": "结合qSIP和宏基因组学技术鉴定水生生态系统中感染化能自养生物的病毒。",
+      "llm_tldr": "结合qSIP和宏基因组学技术鉴定水生生态系统中感染化能自养生物的病毒。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41981599",
+      "title": "Molecular and antigenic characteristics of the influenza B virus in Guangzhou, 2022-2023.",
+      "abstract": "BACKGROUND: The Influenza B virus (IBV), which accounts for nearly a quarter of annual global influenza-associated morbidity, represents a major human respiratory pathogen. Since late 2019, IBV transmission patterns have shifted markedly following the emergence of COVID-19, yet systematic studies on IBV prevalence before and after the pandemic remain limited. METHODS: We conducted systematic surveillance of 66 IBV isolates collected from Guangzhou during 2022-2023. Phylogenetic analysis of HA/NA genes was complemented with evolutionary rate estimation, hemagglutination inhibition assays, antigenic cartography, and structural modeling of hemagglutinin variants. RESULTS: We revealed the distinct epidemic trends of IBVs in Southern China: clade V1A.3a.1/V1A.3a.2 co-circulated in 2022-2023 influenza season, while complete replacement of V1A.3a.1 by V1A.3a.2 in 2023-2024 season, which was driven by a 1.36-fold increase in the evolutionary rate of the HA gene (1.632 × 10-3, P < 0.05) post-NPIs. Spatially, discrete Bayesian phylogeographic analysis confirmed that Jiangxi Province acted as the core upstream hub of the nationwide transmission of V1A.3a.1, which persisted endemically from Jiangxi in 2020 to six adjacent provinces in 2021 before its final extinction in China. Notably, cross-reactive HI and quantitative antigenic cartography elucidated antigenic divergence between V1A.3a.1 and V1A.3a.2 subclades, and revealed that the complete displacement of V1A.3a.1 by V1A.3a.2 was mediated by the broadened antigenic recognition of 2023 V1A.3a.2 isolates. Structural modeling revealed L144P in the 150-loop may be the primary driver of antigenic divergence, inducing conformational rearrangement in residues 146-148. CONCLUSION: This study elucidates the unique evolutionary and epidemic patterns of IBV in the subtropical region of southern China after the relaxation of COVID-19 NPIs, deciphers the molecular mechanism of clade replacement and antigenic diversification of the Victoria lineage V1A.3a subclade, and validates the sustained effectiveness of the WHO 2022 influenza B vaccine strain update in southern China. Our findings fill the gap in systematic surveillance of IBV in subtropical sentinel regions, identify Guangzhou as a key monitoring site for IBV evolutionary dynamics, and provide critical molecular and antigenic evidence for the optimization of regional influenza surveillance systems and vaccine strain selection strategies.",
+      "authors": [
+        "Yang Liu",
+        "Shengzhen Wu",
+        "Yong Liu",
+        "Jingbin Chen",
+        "Juncong Xiao",
+        "Jiawei Zhang",
+        "Qingsheng Huang",
+        "Weiqi Pan",
+        "Dongni Lin",
+        "Yang Wang",
+        "Hon Chitin",
+        "Zifeng Yang",
+        "Xiaoyan Deng"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-14",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41981599/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Phylogenetic analysis and structural modeling of influenza B virus variants",
+      "llm_evidence_cn": "乙型流感病毒变异株的系统发育分析和结构建模",
+      "llm_evidence": "乙型流感病毒变异株的系统发育分析和结构建模",
+      "canonical_evidence": "乙型流感病毒变异株的系统发育分析和结构建模",
+      "llm_tldr_en": "Surveillance and phylogenetic analysis of influenza B virus to understand transmission and evolution.",
+      "llm_tldr_cn": "对乙型流感病毒进行系统监测和发育分析，以了解其传播和演化特征。",
+      "llm_tldr": "对乙型流感病毒进行系统监测和发育分析，以了解其传播和演化特征。",
+      "llm_tags": [
+        "query:pathoai:composite"
+      ],
+      "matched_query_tag": "query:pathoai:composite",
+      "matched_query_text": "Papers central to 病原组学中的 AI 方法, especially work that connects or combines: foundation models for pathogen genomes and pathogen biology; machine learning for metagenomic pathogen classification; deep learning models for pathogen detection from sequencing data; AI methods for genomic surveillance and outbreak monitoring; machine learning for antimicrobial resistance prediction from genomes; machine learning for phylogenetic and transmission inference; multimodal models combining pathogen sequence phenotype and metadata; machine learning for microbiome host interaction pathogen ecology and infection modeling; AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design; foundation models for pathogen genome understanding and surveillance.",
+      "matched_requirement_id": "req-composite-pathoai",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41981426",
+      "title": "[Differential analysis of gut microbiome in patients with periprosthetic joint infection, aseptic failure, and osteoarthritis].",
+      "abstract": "OBJECTIVE: To explore the differences in gut microbiota diversity and structural characteristics among patients with periprosthetic joint infection (PJI), aseptic failure (AF), and osteoarthritis (OA), and to analyze the association between gut microbiota dysbiosis and the occurrence of PJI, thereby providing a new theoretical basis for elucidating the pathogenesis and treatment strategies of PJI in clinical practice. METHODS: The study enrolled patients with PJI and AF admitted between February 2024 and December 2024, as well as OA patients admitted in February 2024. A total of 52 PJI patients, 19 AF patients, and 29 OA patients who met the selection criteria were included in the analysis. Significant differences were observed among the three groups in terms of gender, age, surgical site, preoperative C-reactive protein levels, and erythrocyte sedimentation rate ( P<0.05), while no significant difference was found in American Society of Anesthesiologists (ASA) classification and body mass index ( P>0.05). Among the PJI patients, infection staging was as follows: 9 cases in the acute phase, 28 cases in the delayed phase, and 15 cases in the chronic phase; 23 cases were accompanied by sinus tract formation. Fecal samples were collected at different time points: for the PJI group, samples were obtained preoperatively and on postoperative days (7±1) and (14±1); for the AF group, preoperatively and on postoperative day (7±1); and for the OA group, preoperatively only. Metagenomics next-generation sequencing were employed to analyze gut microbiota α-diversity indices (ACE index, Chao1 index, Shannon index, Simpson index, and observed_species index) and differential bacterial genera (screened using the LEfSe algorithm). RESULTS: Analysis of gut microbiota diversity showed that the preoperative α-diversity indices (ACE index, Chao1 index, Shannon index, Simpson index, and observed_species index) in the PJI group were significantly lower than those in AF group and OA group ( P<0.05). Compared with the AF group on postoperative day (7±1), the α-diversity indices in the PJI group on postoperative day (7±1) were lower, but the difference was not significant ( P>0.05); by postoperative day (14±1), these indices further decreased, and the difference was significant ( P<0.05). In the PJI group, no significant difference was observed in any of the indices across different time points postoperatively ( P>0.05). Analysis of gut microbiota structural characteristics revealed that the PJI group exhibited characteristic dysbiosis both before and after operation. Preoperatively, the PJI group was characterized by enrichment of Pseudomonadota (relative abundance 13.19%), Enterobacteriaceae ( Escherichia 3.26%, Klebsiella 1.90%), and opportunistic pathogens such as Enterococcus faecium (0.43%), while the relative abundances of Firmicutes (51.83%) and Bifidobacterium (0.24%) decreased. Postoperatively, the α-diversity in the PJI group further declined, with increased relative abundances of Escherichia and Klebsiella, and the relative abundance of Firmicutes decreased to 40.24%. LEfSe analysis of preoperative gut microbiota composition between the PJI group and AF group indicated that the AF group was predominated by Firmicutes, Bifidobacterium, and Roseburia preoperatively, with greater postoperative microbial stability compared to the PJI group. CONCLUSION: Patients with PJI exhibited a gut microbiota profile characterized by reduced diversity and enrichment of opportunistic pathogens. Postoperative antibiotic treatment further aggravated this dysbiosis, providing new clinical insights into the role of gut microbiota imbalance in the pathogenesis and progression of PJI.",
+      "authors": [
+        "Kari Muzhabaier",
+        "Yicheng Li",
+        "Fei Wang",
+        "Xiaobin Guo",
+        "Quan Chen",
+        "Xiaogang Zhang",
+        "Li Cao"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-15",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41981426/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "gut microbiome dysbiosis and infection outcome prediction",
+      "llm_evidence_cn": "肠道菌群失调与感染结果预测",
+      "llm_evidence": "肠道菌群失调与感染结果预测",
+      "canonical_evidence": "肠道菌群失调与感染结果预测",
+      "llm_tldr_en": "Analyzes gut microbiota differences to understand the pathogenesis of periprosthetic joint infection.",
+      "llm_tldr_cn": "分析肠道微生物群差异，为阐明人工关节置换术后感染的发病机制提供理论依据。",
+      "llm_tldr": "分析肠道微生物群差异，为阐明人工关节置换术后感染的发病机制提供理论依据。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41981644",
+      "title": "Quantum dot-DNA microsphere aptamer biosensor with AI-assisted structural modeling for rapid detection of the lung cancer biomarker USE1.",
+      "abstract": "BACKGROUND: Lung cancer remains a leading cause of cancer-related mortality worldwide, highlighting the urgent need for rapid, accurate, and affordable diagnostic strategies. UBA6-specific E2 conjugating enzyme 1 (USE1) is overexpressed in lung cancer and contributes to tumorigenesis, yet no clinically applicable method exists for its detection. RESULTS: We developed an AI-assisted aptamer biosensing platform for antibody-free detection of USE1. High-affinity candidates (Aptamer 1e) were identified through systematic SELEX and rational truncation, and AlphaFold3-based modeling was subsequently applied post hoc to provide a structural hypothesis for the observed binding. For signal amplification and visualization, we engineered a nanostructured detection system composed of rolling-circle-amplified DNA microspheres (DNAMS) conjugated with streptavidin-quantum dots (STA-QDs). The DNAMS-STA-QD biosensor enabled strong fluorescence signals in USE1-positive cancer cells and produced a clear visual distinction between tumor and matched normal lung tissues. In 30 paired tissue samples, the biosensor achieved AUC = 0.961, with 86.7% sensitivity and 93.3% specificity for detecting lung cancer. The assay requires no antibodies, enzymatic amplification, or specialized instrumentation, and offers a rapid, low-cost workflow. CONCLUSIONS: This study presents a clinically oriented nanobiosensing platform that integrates AI-assisted aptamer structural modeling with quantum dot-enhanced DNA nanostructures for sensitive detection of USE1. The approach offers a robust, antibody-free method for lung cancer diagnosis and demonstrates the potential of combining deep learning with nanobiotechnology to accelerate biomarker detection tool development.",
+      "authors": [
+        "Min-Jee Kim",
+        "Kyuha Yum",
+        "Dajeong Kim",
+        "Iksoo Jang",
+        "Aron Park",
+        "MinJun Jung",
+        "Geun Dong Lee",
+        "Jun-O Jin",
+        "Wonpil Im",
+        "Jong Bum Lee",
+        "Peter Chang-Whan Lee"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-14",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41981644/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "AlphaFold3-based structural modeling for aptamer-target binding hypothesis",
+      "llm_evidence_cn": "基于 AlphaFold3 的结构建模用于适配体-靶标结合假设",
+      "llm_evidence": "基于 AlphaFold3 的结构建模用于适配体-靶标结合假设",
+      "canonical_evidence": "基于 AlphaFold3 的结构建模用于适配体-靶标结合假设",
+      "llm_tldr_en": "Uses AlphaFold3 to provide structural insights for an AI-assisted lung cancer biomarker detection platform.",
+      "llm_tldr_cn": "利用 AlphaFold3 为 AI 辅助的肺癌生物标志物检测平台提供结构建模支持。",
+      "llm_tldr": "利用 AlphaFold3 为 AI 辅助的肺癌生物标志物检测平台提供结构建模支持。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "geometric deep learning and foundation models for protein structure modeling",
+      "matched_requirement_id": "req-17",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41981741",
+      "title": "Modulating the gut microbiota to enhance immune checkpoint inhibitor efficacy in colorectal cancer: mechanisms, therapeutic strategies, and clinical perspectives.",
+      "abstract": "Immune checkpoint inhibitors (ICIs) have revolutionized cancer treatment, yet their efficacy in colorectal cancer (CRC) remains limited to a minority of patients with microsatellite instability-high (MSI-H) tumors, leaving the majority with microsatellite stable (MSS) disease unresponsive. The gut microbiota, a key regulator of host immunity, has emerged as a pivotal determinant of ICI response. This review delineates the dual role of the gut microbiome-encompassing specific bacterial strains, their metabolites, and bioactive components such as extracellular vesicles (EVs) and outer membrane vesicles (OMVs)-in either enhancing or impairing ICI efficacy through complex interactions with the host immune system. We further explore the emerging concept of gut microbiota circadian rhythms and their potential to inform personalized chrono-immunotherapy paradigms. Furthermore, we synthesize promising microbiota-targeting strategies as adjunctive approaches to overcome resistance and augment ICI efficacy in CRC. Finally, we present selected clinical evidence and outline future perspectives to expand the clinical benefit of immunotherapy in CRC patients.",
+      "authors": [
+        "Yan Chen",
+        "Yi-Tong Wang",
+        "Jing-Yi Hu",
+        "Er-Cong Wang",
+        "Xia-He Jia",
+        "Jun Wang",
+        "Guang-Tao Min",
+        "Wei-Lin Jin",
+        "Lei Jiang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-12-31",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41981741/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "gut microbiota modulation and host immunity interaction",
+      "llm_evidence_cn": "肠道菌群调节与宿主免疫相互作用",
+      "llm_evidence": "肠道菌群调节与宿主免疫相互作用",
+      "canonical_evidence": "肠道菌群调节与宿主免疫相互作用",
+      "llm_tldr_en": "Reviews how gut microbiota influences cancer immunotherapy efficacy through host-microbe interactions.",
+      "llm_tldr_cn": "综述了肠道微生物群如何通过宿主-微生物相互作用影响癌症免疫治疗效果。",
+      "llm_tldr": "综述了肠道微生物群如何通过宿主-微生物相互作用影响癌症免疫治疗效果。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

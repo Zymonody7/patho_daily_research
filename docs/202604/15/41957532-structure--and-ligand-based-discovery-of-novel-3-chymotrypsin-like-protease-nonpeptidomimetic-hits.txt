@@ -1,0 +1,151 @@
+Title: Structure- and Ligand-Based Discovery of Novel 3-Chymotrypsin-Like Protease Nonpeptidomimetic Hits - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41957532/
+
+Markdown Content:
+Actions
+
+. 2026 Apr 14;21(7):e202501083.
+
+doi: 10.1002/cmdc.202501083.
+
+[Sabrina Silva-Mendonça](https://pubmed.ncbi.nlm.nih.gov/?term=Silva-Mendon%C3%A7a+S&cauthor_id=41957532)[1](https://pubmed.ncbi.nlm.nih.gov/41957532/#full-view-affiliation-1 "Laboratory of Molecular Modeling and Drug Design (LabMol), Faculdade de Farmácia, Universidade Federal de Goiás, Goiânia, Brazil.")[2](https://pubmed.ncbi.nlm.nih.gov/41957532/#full-view-affiliation-2 "Center for the Research and Advancement in Fragments and Molecular Targets (CRAFT), School of Pharmaceutical Sciences at Ribeirão Preto, University of São Paulo, Ribeirão Preto, Brazil.")[3](https://pubmed.ncbi.nlm.nih.gov/41957532/#full-view-affiliation-3 "Center for Excellence in One Health (CESU), Universidade Federal de Goiás, Goiânia, Brazil."),[Christopher Jurisch](https://pubmed.ncbi.nlm.nih.gov/?term=Jurisch+C&cauthor_id=41957532)[4](https://pubmed.ncbi.nlm.nih.gov/41957532/#full-view-affiliation-4 "Holistic Drug Discovery and Development Center (H3D), University of Cape Town, Rondebosch, South Africa."),[Melina Mottin](https://pubmed.ncbi.nlm.nih.gov/?term=Mottin+M&cauthor_id=41957532)[1](https://pubmed.ncbi.nlm.nih.gov/41957532/#full-view-affiliation-1 "Laboratory of Molecular Modeling and Drug Design (LabMol), Faculdade de Farmácia, Universidade Federal de Goiás, Goiânia, Brazil.")[2](https://pubmed.ncbi.nlm.nih.gov/41957532/#full-view-affiliation-2 "Center for the Research and Advancement in Fragments and Molecular Targets (CRAFT), School of Pharmaceutical Sciences at Ribeirão Preto, University of São Paulo, Ribeirão Preto, Brazil.")[3](https://pubmed.ncbi.nlm.nih.gov/41957532/#full-view-affiliation-3 "Center for Excellence in One Health (CESU), Universidade Federal de Goiás, Goiânia, Brazil."),[Flávia Nader Motta](https://pubmed.ncbi.nlm.nih.gov/?term=Nader+Motta+F&cauthor_id=41957532)[5](https://pubmed.ncbi.nlm.nih.gov/41957532/#full-view-affiliation-5 "Laboratory of Pathogen-Host Interaction (LIPH), Institute of Biological Sciences, Universidade de Brasília, Brasília, Brazil.")[6](https://pubmed.ncbi.nlm.nih.gov/41957532/#full-view-affiliation-6 "Faculdade de Ceilândia, Universidade de Brasília, Brasília, Brazil."),[Beatriz S A Rodrigues](https://pubmed.ncbi.nlm.nih.gov/?term=S+A+Rodrigues+B&cauthor_id=41957532)[5](https://pubmed.ncbi.nlm.nih.gov/41957532/#full-view-affiliation-5 "Laboratory of Pathogen-Host Interaction (LIPH), Institute of Biological Sciences, Universidade de Brasília, Brasília, Brazil."),[Gilberto S M Junior](https://pubmed.ncbi.nlm.nih.gov/?term=S+M+Junior+G&cauthor_id=41957532)[5](https://pubmed.ncbi.nlm.nih.gov/41957532/#full-view-affiliation-5 "Laboratory of Pathogen-Host Interaction (LIPH), Institute of Biological Sciences, Universidade de Brasília, Brasília, Brazil."),[Alexandra Maria Dos Santos Carvalho](https://pubmed.ncbi.nlm.nih.gov/?term=Dos+Santos+Carvalho+AM&cauthor_id=41957532)[5](https://pubmed.ncbi.nlm.nih.gov/41957532/#full-view-affiliation-5 "Laboratory of Pathogen-Host Interaction (LIPH), Institute of Biological Sciences, Universidade de Brasília, Brasília, Brazil."),[Fábio Muniz de Oliveira](https://pubmed.ncbi.nlm.nih.gov/?term=Muniz+de+Oliveira+F&cauthor_id=41957532)[1](https://pubmed.ncbi.nlm.nih.gov/41957532/#full-view-affiliation-1 "Laboratory of Molecular Modeling and Drug Design (LabMol), Faculdade de Farmácia, Universidade Federal de Goiás, Goiânia, Brazil.")[7](https://pubmed.ncbi.nlm.nih.gov/41957532/#full-view-affiliation-7 "McGowan Institute for Regenerative Medicine,, Department of Surgery, University of Pittsburgh, Pennsylvania, USA."),[Sunniva Sigurdardóttir](https://pubmed.ncbi.nlm.nih.gov/?term=Sigurdard%C3%B3ttir+S&cauthor_id=41957532)[8](https://pubmed.ncbi.nlm.nih.gov/41957532/#full-view-affiliation-8 "Department of Chemistry and Molecular Biology, University of Gothenburg, Gothenburg, Sweden."),[Per Sunnerhagen](https://pubmed.ncbi.nlm.nih.gov/?term=Sunnerhagen+P&cauthor_id=41957532)[8](https://pubmed.ncbi.nlm.nih.gov/41957532/#full-view-affiliation-8 "Department of Chemistry and Molecular Biology, University of Gothenburg, Gothenburg, Sweden."),[Izabela Marques Dourado Bastos](https://pubmed.ncbi.nlm.nih.gov/?term=Marques+Dourado+Bastos+I&cauthor_id=41957532)[5](https://pubmed.ncbi.nlm.nih.gov/41957532/#full-view-affiliation-5 "Laboratory of Pathogen-Host Interaction (LIPH), Institute of Biological Sciences, Universidade de Brasília, Brasília, Brazil."),[Richard Gessner](https://pubmed.ncbi.nlm.nih.gov/?term=Gessner+R&cauthor_id=41957532)[4](https://pubmed.ncbi.nlm.nih.gov/41957532/#full-view-affiliation-4 "Holistic Drug Discovery and Development Center (H3D), University of Cape Town, Rondebosch, South Africa."),[Kelly Chibale](https://pubmed.ncbi.nlm.nih.gov/?term=Chibale+K&cauthor_id=41957532)[4](https://pubmed.ncbi.nlm.nih.gov/41957532/#full-view-affiliation-4 "Holistic Drug Discovery and Development Center (H3D), University of Cape Town, Rondebosch, South Africa."),[Carolina Horta Andrade](https://pubmed.ncbi.nlm.nih.gov/?term=Horta+Andrade+C&cauthor_id=41957532)[1](https://pubmed.ncbi.nlm.nih.gov/41957532/#full-view-affiliation-1 "Laboratory of Molecular Modeling and Drug Design (LabMol), Faculdade de Farmácia, Universidade Federal de Goiás, Goiânia, Brazil.")[2](https://pubmed.ncbi.nlm.nih.gov/41957532/#full-view-affiliation-2 "Center for the Research and Advancement in Fragments and Molecular Targets (CRAFT), School of Pharmaceutical Sciences at Ribeirão Preto, University of São Paulo, Ribeirão Preto, Brazil.")[3](https://pubmed.ncbi.nlm.nih.gov/41957532/#full-view-affiliation-3 "Center for Excellence in One Health (CESU), Universidade Federal de Goiás, Goiânia, Brazil.")[9](https://pubmed.ncbi.nlm.nih.gov/41957532/#full-view-affiliation-9 "Center for Excellence in Artificial Intelligence (CEIA), Institute of Informatics, Universidade Federal de Goiás, Goiânia, Brazil.")
+
+Affiliations
+
+*    PMID: **41957532**
+*    PMCID: [PMC13065885](https://pmc.ncbi.nlm.nih.gov/articles/PMC13065885/)
+*    DOI: [10.1002/cmdc.202501083](https://doi.org/10.1002/cmdc.202501083)
+
+## Structure- and Ligand-Based Discovery of Novel 3-Chymotrypsin-Like Protease Nonpeptidomimetic Hits
+
+Sabrina Silva-Mendonça et al. ChemMedChem.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+The SARS-CoV-2 3-chymotrypsin-like (3CL pro) protease is a key target for the development of COVID-19 therapeutics. While ensitrelvir and nirmatrelvir are approved drugs for treatment, the continuous research and development for new antiviral drugs is necessary to combat the emergence of variants and other related viruses. This study employed structure- and ligand-based computer-assisted approaches to identify new 3CL pro nonpeptidomimetic inhibitors. Using data from COVID Moonshot, NCATS, and the literature, computational methods such as shape-based, ensemble docking, and machine learning (ML) techniques were developed, achieving robust validation metrics: AUC = 87%, EF = 7, BEDROC = 60% for shape-based; AUC = 87%, EF = 7.03, BEDROC = 62% for ensemble docking, and ACC = 81%, MCC = 62% for ML models, combing Random forest + ECFP4 fingerprint. These models were utilized in virtual screening (VS) campaigns using the H3D and ChemBridge libraries, from which six promising hits with IC 50 values ≤80 µM were identified, including LabMol-499 with an IC 50 of 13.71 µM and a K i of 21.74 µM. Moreover, we found that LabMol-499 acts as a noncompetitive, reversible inhibitor of 3CL pro. These findings provide a foundation for hit-to-lead optimization of new nonpeptidomimetic 3CL pro inhibitors.
+
+**Keywords:** 3‐chymotrypsin‐like protease; Computer‐Aided Drug Design; Mpro; antiviral agents; computational chemistry; drug discovery; machine learning.
+
+© 2026 The Author(s). ChemMedChem published by Wiley‐VCH GmbH.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+The authors declare no conflicts of interest.
+
+## Figures
+
+[![Image 1: FIGURE 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8a11/13065885/207bf6b7f477/CMDC-21-e202501083-g015.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8a11/13065885/5efd92456c95/CMDC-21-e202501083-g015.jpg)
+
+**FIGURE 1**
+Principal component analysis (PCA) and normal mode analysis (NMA) for the selection of 3D structures of 3CL pro. Panel (A) presents the PCA analysis, with colors representing different clusters: red, yellow, green, blue, and orange. Panel (B) illustrates the conformational differences among amino acids, their respective subsites S1, S1’, S2, S3, S4, S5, and the organization of the canonical active site. Panel (C) displays the NMA, with dashed lines in green, blue, red, yellow, and cyan corresponding to subsites S1, S2, S3, S4, and S5, respectively. Continuous lines represent each 3D structure selected, with colors corresponding to PDB IDs 7K3T[33], IDs 7JU7[34], 7LTJ[35], 7L14[36], 7AQE[37], and 7AVD[37], respectively.
+
+[![Image 2: FIGURE 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8a11/13065885/fb8b77f90643/CMDC-21-e202501083-g011.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8a11/13065885/3e6dfe0f779f/CMDC-21-e202501083-g011.jpg)
+
+**FIGURE 2**
+Structural basis for query generation. (A) Protein–ligand interaction profile of **compound 21** (PDB ID: 7L13[36]) within the 3CL pro catalytic site, generated via the PLIP platform[42]. (B) Resulting shape‐based model illustrating the molecular volume and pharmacophoric characteristics used for virtual screening (VS).
+
+[![Image 3: FIGURE 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8a11/13065885/d420ec4cab3a/CMDC-21-e202501083-g008.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8a11/13065885/950ffcd47350/CMDC-21-e202501083-g008.jpg)
+
+**FIGURE 3**
+Structural similarity and activity cliff (AC) analysis generated via SARANEA[47]. (A) Comparative analysis of individual datasets (Literature, COVID Moonshot, ChEMBL, and NCATS). (B) Analysis of the integrated dataset following the exclusion of heterogeneous literature data. Spatial distribution: Nodes are organized using a force‐directed layout where physical proximity reflects structural similarity, resulting in the formation of scaffold‐based clusters. Node Color: Represents biological potency: green (IC 50> 10 μM); yellow (1 μM < IC 50 ≤ 10 μM); red (IC 50 ≤ 1 μM). Node size: Proportional to the individual discontinuity score; larger nodes highlight compounds involved in significant ACs, where minor structural modifications lead to substantial shifts in potency.
+
+[![Image 4: FIGURE 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8a11/13065885/ffba59fc2d34/CMDC-21-e202501083-g003.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8a11/13065885/dd3e561862fa/CMDC-21-e202501083-g003.jpg)
+
+**FIGURE 4**
+PCA analysis of ECFP4 (A), FCFP4 (B), and MACCS (C) molecular descriptors. The chemical space of inactive compounds is represented in red, and that of active compounds is depicted in green.
+
+[![Image 5: FIGURE 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8a11/13065885/3859c263a9a5/CMDC-21-e202501083-g001.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8a11/13065885/1b7d0cb35524/CMDC-21-e202501083-g001.jpg)
+
+**FIGURE 5**
+Feature importance analysis using SHAP values. SHAP summary plot showing the top 20 ECFP4 fingerprint bits ranked by their mean absolute SHAP value, indicating their contribution to the RF model's classification of active compounds. Each point represents the SHAP value of a given bit for an individual compound, with colors indicating low (blue) to high (red) feature values (bit absence or presence). Representative chemical substructures associated with selected bits (e.g., nitrogenous heterocycles, amides) are shown to aid interpretation of the pharmacophoric patterns learned by the model. High‐impact features such as Bits 1535 and 1452 are associated with pyridine‐ and pyrimidine‐like motifs, which typically mediate hydrogen bonding in the S1 pocket, while Bit 1324 reflects chlorinated aromatic motifs consistent with hydrophobic interactions in the S2 subsite.
+
+[![Image 6: FIGURE 6](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8a11/13065885/1b15459f754c/CMDC-21-e202501083-g004.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8a11/13065885/e4aae47ada10/CMDC-21-e202501083-g004.jpg)
+
+**FIGURE 6**
+Hierarchical VS workflow for hit identification. The funnel illustrates the consensus strategy applied to the ChemBridge (left) and H3D (right) libraries. Stage 1 (Shape‐based): Prioritization of the top 1% of compounds based on 3D similarity to a known potent inhibitor (RefTversky score), specifically targeting pharmacophoric features relevant to 3CL pro. Stage 2 (Ensemble Docking): A multitiered mechanistic filter utilizing HTVS, SP, and XP modules to account for receptor flexibility across five representative 3CL pro conformations. Stage 3 (QSAR/ML): Selection of compounds with a predicted activity probability >50% and within the applicability domain to ensure consistent physicochemical signatures. Final Selection: Medicinal chemistry evaluation based on established drug‐like properties (LogS, LogP, and PSA), resulting in the prioritization of candidates for experimental FRET and yeast‐based validation.
+
+[![Image 7: FIGURE 7](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8a11/13065885/5c5e872ad0d5/CMDC-21-e202501083-g007.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8a11/13065885/e06e9d406603/CMDC-21-e202501083-g007.jpg)
+
+**FIGURE 7**
+LabMol‐499 compound is a non‐competitive inhibitor of SARS‐CoV‐2 3CL pro protease. (A) LabMol‐499 inhibition test in the absence and presence of 1 mM CHAPS detergent. (B) Dose‐response curve of LabMol‐499 in SARS‐CoV‐2 3CL pro enzymatic activity. (C) Lineweaver–Burk plot of compound LabMol‐499 _K_ i. (D) Assessment of compound activity reversibility by the jump‐dilution method.
+
+[![Image 8: FIGURE 8](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8a11/13065885/c20a35eea106/CMDC-21-e202501083-g017.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/8a11/13065885/db97509d3b23/CMDC-21-e202501083-g017.jpg)
+
+**FIGURE 8**
+Predicted physicochemical and ADME profile of LabMol‐499. Schematic representation of key pharmacokinetic parameters obtained via the SwissADME platform. The compound exhibits favorable drug‐like characteristics, including a bioavailability score of 0.55 and adherence to Lipinski and Veber rules. The significant aromatic framework (18 heavy aromatic atoms) and high topological polar surface area (TPSA > 80 Å 2) are consistent with its predicted lack of BBB permeability. Challenges regarding high lipophilicity (WLOGP = 5.3) and low aqueous solubility (AliLOGS) are identified as primary focal points for future hit‐to‐lead structural optimization.
+
+## References
+
+1.       1.    Schnitzler L., Janssen L. M. M., Evers S. M. A. A., et al., “The Broader Societal Impacts of COVID‐19 and the Growing Importance of Capturing These in Health Economic Analyses,” International Journal of Technology Assessment in Health Care 37 (2021): e43. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/33686927/)
+
+2.       1.    Chuck C.‐P., Chong L.‐T., Chen C., Chow H.‐F., Wan D. C.‐C., and Wong K.‐B., “Profiling of Substrate Specificity of SARS‐CoV. 3CLpro,” PLOS ONE 5 (2010): e13197. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC2950840/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/20949131/)
+
+3.       1.    Bhowmick S., Saha A., Osman S. M., Alasmary F. A., Almutairi T. M., and Islam M. A., “Structure‐Based Identification of SARS‐CoV‐2 Main Protease Inhibitors from Anti‐Viral Specific Chemical Libraries: An Exhaustive Computational Screening Approach,” Molecular Diversity 25 (2021): 1979–1997. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8039805/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/33844135/)
+
+4.       1.    Kneller D. W., Phillips G., O’Neill H. M., et al., “Structural Plasticity of SARS‐CoV‐2 3CL Mpro Active Site Cavity Revealed by Room Temperature X‐Ray Crystallography,” Nature Communications 11 (2020): 3202. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7314768/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/32581217/)
+
+5.       1.    Dai W., Zhang B., Jiang X.‐M., et al., “Structure‐Based Design of Antiviral Drug Candidates Targeting the SARS‐CoV‐2 Main Protease,” Science 368 (2020): 1331–1335. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7179937/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/32321856/)
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Grants and funding
+
+*   [#440373/2022-0/CNPq](https://pubmed.ncbi.nlm.nih.gov/?term=%23440373%2F2022-0%2FCNPq%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant #440373/2022-0/CNPq")
+*   [#444750/2024-0/CNPq](https://pubmed.ncbi.nlm.nih.gov/?term=%23444750%2F2024-0%2FCNPq%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant #444750/2024-0/CNPq")
+*   [#441038/2020-4/CNPq BRICS STI COVID-19](https://pubmed.ncbi.nlm.nih.gov/?term=%23441038%2F2020-4%2FCNPq+BRICS+STI+COVID-19%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant #441038/2020-4/CNPq BRICS STI COVID-19")
+*   [#202010267000272/FAPEG](https://pubmed.ncbi.nlm.nih.gov/?term=%23202010267000272%2FFAPEG%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant #202010267000272/FAPEG")
+*   [001/CAPES](https://pubmed.ncbi.nlm.nih.gov/?term=001%2FCAPES%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 001/CAPES")
+
+*   [2020-05738/Swedish Research Council](https://pubmed.ncbi.nlm.nih.gov/?term=2020-05738%2FSwedish+Research+Council%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2020-05738/Swedish Research Council")
+*   [2021-03667/Swedish Research Council](https://pubmed.ncbi.nlm.nih.gov/?term=2021-03667%2FSwedish+Research+Council%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2021-03667/Swedish Research Council")
+*   [BR2018-8017/STINT](https://pubmed.ncbi.nlm.nih.gov/?term=BR2018-8017%2FSTINT%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant BR2018-8017/STINT")
+*   [South African Medical Research Council (SAMRC)](https://pubmed.ncbi.nlm.nih.gov/?term=South+African+Medical+Research+Council+%28SAMRC%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant South African Medical Research Council (SAMRC)")
+*   [Strategic Innovation Partnerships (SHIP) unit of the SAMRC](https://pubmed.ncbi.nlm.nih.gov/?term=Strategic+Innovation+Partnerships+%28SHIP%29+unit+of+the+SAMRC%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant Strategic Innovation Partnerships (SHIP) unit of the SAMRC")
+*   [the Technology Innovation Agency (TIA)](https://pubmed.ncbi.nlm.nih.gov/?term=the+Technology+Innovation+Agency+%28TIA%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant the Technology Innovation Agency (TIA)")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/pmid/41957532/)
+    *   [Wiley](https://doi.org/10.1002/cmdc.202501083)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-438)

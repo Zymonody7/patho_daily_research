@@ -1,10 +1,55 @@
 # 知识库
 
-- 最近沉淀条目数：395
+- 最近沉淀条目数：410
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [A systematic review and benchmarking of modern metagenomic tools for taxonomic classification.](#/202604/15/202604/15/41830810-a-systematic-review-and-benchmarking-of-modern-metagenomic-tools-for-taxonomic-classification)
+  - TLDR：宏基因组分类工具是微生物群落研究的核心，但由于评估标准和数据库差异，工具间的横向对比十分困难。本研究系统综述了31款最新分类工具，并选取其中9款在统一的NCBI RefSeq基准数据集上进行性能评测。结果显示，领域专用工具（如针对原核生物的TAMA和针对病毒的ViWrap）在准确率上具有显著优势，而SqueezeMeta在跨领域任务中表现均衡。该研究为AI和生物信息学研究者在不同应用场景下选择最优分类算法提供了量化参考。
+  - Tags：`query:pathoai`
+- [Structure- and Ligand-Based Discovery of Novel 3-Chymotrypsin-Like Protease Nonpeptidomimetic Hits.](#/202604/15/202604/15/41957532-structure--and-ligand-based-discovery-of-novel-3-chymotrypsin-like-protease-nonpeptidomimetic-hits)
+  - TLDR：针对新冠病毒3CL蛋白酶（3CLpro）易受变异株影响的问题，本研究结合基于配体（形状匹配、机器学习）与基于结构（集成对接）的计算方法，从H3D和ChemBridge数据库中筛选非肽类抑制剂。通过实验验证，成功发现6个活性分子，其中LabMol-499表现最佳（IC50为13.71 µM），且证实其为非竞争性可逆抑制剂，为开发新型抗病毒药物提供了先导化合物。
+  - Tags：`query:pathoai`
+- [A multi-modal diffusion model with dual-cross-attention for multi-omics data generation and translation.](#/202604/15/202604/15/41980989-a-multi-modal-diffusion-model-with-dual-cross-attention-for-multi-omics-data-generation-and-translation)
+  - TLDR：针对单细胞多组学实验成本高、规模受限的问题，本文开发了 scDiffusion-X 潜空间扩散模型。该模型通过创新的双交叉注意力（DCA）机制捕捉不同分子模态间的复杂关联，实现了高质量的多组学数据生成与跨模态翻译。实验证明其在保持细胞异质性的同时，能准确预测缺失模态并推断细胞类型特异性的基因调控网络，为生物医学研究提供了强有力的计算工具。
+  - Tags：`query:bioinfo`
+- [Machine-Learning Microfluidic Minute-Scale Microorganism Metrics Monitoring(M6).](#/202604/15/202604/15/41984488-machine-learning-microfluidic-minute-scale-microorganism-metrics-monitoringm6)
+  - TLDR：针对气溶胶传播病原体（如非洲猪瘟病毒）现场监测难的问题，该研究开发了集成微流控芯片、电化学阻抗谱（EIS）与机器学习的M6监测平台。通过流体动力学设计实现目标颗粒的高效分离，并利用随机森林模型对阻抗特征进行分类。结果显示，该系统在1分钟内即可完成检测，准确率达95.2%，检测限低至188 TCID50/mL，为公共卫生和畜牧业提供了一种快速、精准的现场监测方案。
+  - Tags：`query:pathoai`
+- [Accelerated Combinatorial Drug Design for Human Immunodeficiency Virus Resistance through Seeded Multisite λ-Dynamics.](#/202604/15/202604/15/41911382-accelerated-combinatorial-drug-design-for-human-immunodeficiency-virus-resistance-through-seeded-multisite--dynamics)
+  - TLDR：针对 HIV 病毒快速变异导致的耐药性难题，本研究利用多位点 λ 动力学（MSλD）方法，在大规模化学空间（超过 12,000 种蛋白-配体组合）中探索了 HIV-1 逆转录酶抑制剂的结合性能。通过引入溶剂相自由能偏置种子技术，显著提升了采样效率。研究发现 indolizine 骨架比 indole 骨架具有更好的抗突变韧性，并识别出 Y188I 为关键耐药位点，为设计广谱抗病毒药物提供了高效的计算框架。
+  - Tags：`query:pathoai`
+- [Molecular and mechanistic insights into the gut-liver axis in](#/202604/15/202604/15/41778923-molecular-and-mechanistic-insights-into-the-gut-liver-axis-in)
+  - TLDR：肺炎克雷伯菌（尤其是高毒力株hvKP）引起的肝脓肿发病率显著上升，但其跨越肠道屏障进入肝脏的分子机制尚不明确。本文系统综述了该菌通过毒力因子破坏肠道完整性、诱发细菌易位及激活肠肝轴免疫炎症网络的最新研究进展。文章揭示了hvKP的免疫逃逸策略与宿主防御间的博弈，为开发针对肠道修复或炎症通路的精准临床干预手段提供了理论支撑。
+  - Tags：`query:pathoai`
+- [Insights into the Arms Race between Prokaryotic Hosts and Their Viruses in Mangrove Ecosystem.](#/202604/15/202604/15/41891780-insights-into-the-arms-race-between-prokaryotic-hosts-and-their-viruses-in-mangrove-ecosystem)
+  - TLDR：针对红树林生态系统中原核生物与病毒的协同进化军备竞赛，本研究通过对深圳福田红树林沉积物进行多深度、多季节的 DNA 和 RNA 宏基因组测序，系统分析了防御系统的分布与转录活性。研究发现原核生物携带了约 43% 的已知防御系统，且病毒自身也编码并表达防御系统以增强宿主免疫。这一发现揭示了复杂生态系统中宿主与病毒之间超越单纯对抗的共进化机制，为理解微生物群落的稳定性提供了新视角。
+  - Tags：`query:pathoai`
+- [KIMMDY: a biomolecular reaction emulator.](#/202604/15/202604/15/41980962-kimmdy-a-biomolecular-reaction-emulator)
+  - TLDR：针对生物分子反应模拟中计算成本高、难以处理长时间尺度及复杂级联反应的问题，本文开发了名为 KIMMDY 的反应仿真器。该工具结合动力学蒙特卡洛算法与图神经网络，能够在大规模构象系综中预测反应速率并模拟竞争性反应。实验证明 KIMMDY 在蛋白质和 DNA 的自由基反应、亲核取代等场景下表现优异，为理解复杂生化过程提供了高效的计算手段。
+  - Tags：`query:bioinfo`
+- [Molecular and antigenic characteristics of the influenza B virus in Guangzhou, 2022-2023.](#/202604/15/202604/15/41981599-molecular-and-antigenic-characteristics-of-the-influenza-b-virus-in-guangzhou-2022-2023)
+  - TLDR：针对新冠疫情后乙型流感病毒（IBV）传播模式的变化，本研究对2022-2023年广州地区的66个IBV分离株进行了系统监测。通过系统发育分析、抗原制图及结构建模，揭示了Victoria系V1A.3a.2亚分支取代V1A.3a.1的演化过程，发现HA基因进化速率在防疫措施放松后显著提升，并确定L144P突变为抗原差异的关键驱动因素。研究验证了现行疫苗的有效性，为亚热带地区流感防控和疫苗选株提供了科学依据。
+  - Tags：`query:pathoai`
+- [Quantum dot-DNA microsphere aptamer biosensor with AI-assisted structural modeling for rapid detection of the lung cancer biomarker USE1.](#/202604/15/202604/15/41981644-quantum-dot-dna-microsphere-aptamer-biosensor-with-ai-assisted-structural-modeling-for-rapid-detection-of-the-lung-cancer-biomarker-use1)
+  - TLDR：针对肺癌早期诊断中生物标志物 USE1 缺乏临床检测手段的问题，本研究开发了一种结合 AI 结构建模与量子点增强 DNA 纳米结构的无抗体生物传感器。通过 SELEX 筛选出高亲和力适配体，并利用 AlphaFold3 进行结构验证，配合滚环扩增产生的 DNA 微球与量子点实现信号放大。该传感器在临床样本中表现出极高的灵敏度与特异性，为低成本、快速的肺癌筛查提供了新方案。
+  - Tags：`query:bioinfo`
+- [Hypoxia inducible factors regulate pneumovirus replication by enhancing innate immune sensing.](#/202604/15/202604/15/41945438-hypoxia-inducible-factors-regulate-pneumovirus-replication-by-enhancing-innate-immune-sensing)
+  - TLDR：针对肺炎病毒感染免疫机制不明的问题，研究发现激活缺氧诱导因子（HIF）能显著抑制病毒复制。通过药物达普司他提升HIF水平，可上调RNA去甲基酶并减少病毒RNA的m6A修饰，从而增强RIG-I对病毒的识别及干扰素免疫反应。该发现揭示了缺氧信号与抗病毒免疫的互作，为hRSV等病毒治疗提供了新靶点。
+  - Tags：`query:pathoai`
+- [Proteogenomic decoding of chemotherapy resistance in patients with triple-negative breast cancer.](#/202604/15/202604/15/41975515-proteogenomic-decoding-of-chemotherapy-resistance-in-patients-with-triple-negative-breast-cancer)
+  - TLDR：针对三阴性乳腺癌化疗耐药预测难的问题，本研究对50例患者化疗前后的样本进行了基因组、转录组与蛋白质组的整合分析。研究识别出五种分子亚型，揭示了雌激素通路激活及GRK2磷酸化介导的耐药机制，并发现AURKB抑制剂能增强化疗敏感性。该研究构建的预测模型准确度优于单一组学模型，为TNBC精准治疗提供了新的生物标志物和治疗靶点。
+  - Tags：`query:seqai`
+- [Quantitative stable isotope probing (qSIP)-informed metagenomics identifies viruses infecting chemoautotrophs.](#/202604/15/202604/15/41980953-quantitative-stable-isotope-probing-qsip-informed-metagenomics-identifies-viruses-infecting-chemoautotrophs)
+  - TLDR：化能自养微生物是无光环境碳循环的核心，但其受病毒感染的动态过程一直难以观测。本研究结合宏基因组学与定量稳定同位素探针（qSIP）技术，在海洋环境实验中追踪13C标记碳从宿主向病毒的转移。结果成功识别了感染多种关键化能自养菌的活跃病毒，揭示了病毒在调节深海碳通量中的潜在作用，为构建更精准的全球生物地球化学模型提供了关键数据支持。
+  - Tags：`query:seqai`
+- [[Differential analysis of gut microbiome in patients with periprosthetic joint infection, aseptic failure, and osteoarthritis].](#/202604/15/202604/15/41981426-differential-analysis-of-gut-microbiome-in-patients-with-periprosthetic-joint-infection-aseptic-failure-and-osteoarthritis)
+  - TLDR：针对人工关节置换术后感染（PJI）发病机制不明的问题，本研究通过宏基因组测序对比了PJI、无菌性松动（AF）及骨关节炎（OA）患者的肠道菌群差异。结果发现PJI患者术前肠道菌群多样性显著降低，且富集了埃希氏菌等条件致病菌，术后抗生素使用进一步加剧了这种失调。该研究揭示了肠道微生态失衡与PJI的关联，为临床诊疗提供了新思路。
+  - Tags：`query:pathoai`
+- [Modulating the gut microbiota to enhance immune checkpoint inhibitor efficacy in colorectal cancer: mechanisms, therapeutic strategies, and clinical perspectives.](#/202604/15/202604/15/41981741-modulating-the-gut-microbiota-to-enhance-immune-checkpoint-inhibitor-efficacy-in-colorectal-cancer-mechanisms-therapeutic-strategies-and-clinical-perspectives)
+  - TLDR：结直肠癌（CRC）中仅少数MSI-H患者对免疫检查点抑制剂（ICI）有反应，而占多数的MSS患者疗效不佳。本文综述了肠道微生物群（包括菌株、代谢物及囊泡）如何通过调节宿主免疫影响ICI疗效，并探讨了利用微生物昼夜节律进行个性化治疗的潜力。通过总结靶向微生物的辅助策略，为克服CRC免疫耐药、提升临床获益提供了系统性见解。
+  - Tags：`query:pathoai`
 - [Prophage-mediated lysogenic conversion drives virulence evolution and genomic plasticity in](#/202604/13/202604/13/41972771-prophage-mediated-lysogenic-conversion-drives-virulence-evolution-and-genomic-plasticity-in)
   - TLDR：针对猪链球菌 9 型这一人畜共患病原体，本研究通过对 16 个菌株进行比较基因组学分析，揭示了原噬菌体在驱动基因组可塑性和毒力演化中的核心作用。研究发现原噬菌体不仅通过水平转移携带毒力基因（如 sly），还通过重组诱导染色体大片段倒位，并提出了“基因监狱”模型解释毒力性状的稳定遗传。这为理解病原菌进化及制定防疫策略提供了重要理论依据。
   - Tags：`query:pathoai`
@@ -560,48 +605,3 @@
 - [Explainable drug side effect prediction in central neural system via biologically informed graph neural network.](#/202603/25/202603/25/41876492-explainable-drug-side-effect-prediction-in-central-neural-system-via-biologically-informed-graph-neural-network)
   - TLDR：针对药物研发中副作用检测难、成本高且缺乏解释性的问题，本研究提出了 HHAN-DSI 模型。这是一种融合生物学先验知识的图神经网络，通过整合药物、基因和生物功能的多模态交互数据，专门用于预测中枢神经系统药物的副作用。实验证明该模型能有效识别精神类药物的潜在风险，并清晰展示从分子到表型的生物学机制，为早期药物安全性评估提供了有力工具。
   - Tags：`query:bioinfo`
-- [CRISPR-Cas9-Mediated Upregulation of Utrophin Ameliorates Duchenne Muscular Dystrophy.](#/202603/25/202603/25/41877484-crispr-cas9-mediated-upregulation-of-utrophin-ameliorates-duchenne-muscular-dystrophy)
-  - TLDR：杜氏肌营养不良症（DMD）因抗肌萎缩蛋白缺失导致，上调其同源蛋白 Utrophin 是潜在疗法。本研究利用 CRISPR-Cas9 技术破坏 UTRN 基因上的 Let-7c 微 RNA 抑制位点，通过产生插入/缺失突变解除表达抑制。实验证明该方法在 3D 人类骨骼肌模型和 mdx 小鼠中均能显著提升 Utrophin 表达，改善肌肉收缩功能和病理特征，为 DMD 提供了一种不依赖特定突变类型的通用基因编辑策略。
-  - Tags：`query:bioinfo`
-- [Metagenomic profiling and predictive modeling of the gut microbiome reveal signatures of gestational disease.](#/202603/25/202603/25/41879323-metagenomic-profiling-and-predictive-modeling-of-the-gut-microbiome-reveal-signatures-of-gestational-disease)
-  - TLDR：妊娠期高血压（GH）和妊娠期糖尿病（GDM）严重影响母婴健康，但其与肠道微生物组的关系尚不明确。本研究利用宏基因组测序技术，对比分析了患病孕妇与健康对照组的肠道菌群组成及功能差异。结果发现患者体内有益菌减少，且碳水化合物与脂质代谢功能发生显著改变。通过机器学习模型，研究成功利用微生物特征实现了对疾病状态的准确预测，为妊娠期并发症的早期筛查和干预提供了新的生物标志物和潜在靶点。
-  - Tags：`query:pathoai`
-- [The bacteriophage-encoded regulator PemR attenuates](#/202603/25/202603/25/41641960-the-bacteriophage-encoded-regulator-pemr-attenuates)
-  - TLDR：针对多重耐药铜绿假单胞菌的治疗难题，本研究发现并表征了噬菌体PAYQ66编码的新型调节因子PemR。PemR通过直接结合并抑制关键群体感应调节因子mvfR的启动子，重塑细菌代谢流并抑制多种毒力因子（如绿脓素、生物膜及运动性），同时上调rsmA抑制VI型分泌系统。该研究揭示了噬菌体通过“劫持”宿主调控网络实现毒力衰减的机制，为开发不依赖杀伤、不易产生耐药性的新型抗毒力疗法提供了重要策略。
-  - Tags：`query:pathoai`
-- [Discrete Tokenization for Multimodal LLMs: A Comprehensive Survey.](#/202603/25/202603/25/41875004-discrete-tokenization-for-multimodal-llms-a-comprehensive-survey)
-  - TLDR：多模态大模型在处理图像、音频等连续信号时，需将其转化为离散 Token 以适配语言模型架构。本文系统综述了以矢量量化（VQ）为核心的离散分词技术，通过对 8 种代表性 VQ 变体进行分类，深入探讨了其在模型对齐、推理和生成中的作用。该综述梳理了从传统应用到现代多模态大模型的演进路径，并总结了码本崩溃等核心挑战，为构建高效通用的多模态系统提供了关键参考。
-  - Tags：`query:bioinfo`
-- [NEAT-DNA: A Chemically Accurate, Sequence-Dependent Coarse-Grained Model for Large-Scale DNA Simulations.](#/202603/25/202603/25/41875330-neat-dna-a-chemically-accurate-sequence-dependent-coarse-grained-model-for-large-scale-dna-simulations)
-  - TLDR：基因组组织研究需要在大尺度上模拟DNA行为，但现有粗粒度模型常在化学准确性与计算效率间权衡，导致物理真实性不足。NEAT-DNA提出了一种结合物理能量公式与原子级模拟及实验数据统一训练的新型粗粒度模型。它在保持高效计算的同时，精准还原了DNA的序列依赖性结构与柔性，为探索染色质折叠等大规模基因组结构提供了高保真模拟工具。
-  - Tags：`query:bioinfo`
-- [A lasso-based model combining miRNA and clinical variables predicts future risk of breast and ovarian cancer.](#/202603/25/202603/25/41876608-a-lasso-based-model-combining-mirna-and-clinical-variables-predicts-future-risk-of-breast-and-ovarian-cancer)
-  - TLDR：针对遗传性乳腺癌和卵巢癌综合征（HBOC）诊断率低且基因检测存在局限性的问题，研究者开发了一种结合血清 miRNA 谱与临床数据的 Lasso 模型。该模型通过量化“BRCAness”特征，在 1831 人的队列中实现了 0.98 的 BRCA 突变预测 AUC，并在独立临床试验中成功预测了未来 5 年的卵巢癌发病风险（AUC=0.75）。该方法为早期识别高危人群提供了一种非侵入性的生物标志物工具。
-  - Tags：`query:bioinfo`
-- [Enzyme-constrained genome-scale model of Yarrowia lipolytica predicts growth-phase specific metabolic engineering targets.](#/202603/25/202603/25/41876849-enzyme-constrained-genome-scale-model-of-yarrowia-lipolytica-predicts-growth-phase-specific-metabolic-engineering-targets)
-  - TLDR：针对解脂耶氏酵母在工业生物制造中代谢预测精度不足的问题，本研究构建了受酶约束的全基因组代谢模型 eciYali5-GEM。通过整合深度学习预测的酶参数与不同生长阶段的蛋白质组学数据，该模型克服了传统模型无法捕捉代谢动态变化的局限。结果显示，模型能精准识别脂质和类胡萝卜素合成在特定生长阶段的代谢工程靶点，并提出了基于诱导型启动子的优化策略，为提升微生物工厂产量提供了高效的理性设计工具。
-  - Tags：`query:bioinfo`
-- [The respiratory microbiome in pulmonary tuberculosis: a meta-analysis reveals niche-specific microbial and functional signatures.](#/202603/25/202603/25/41879310-the-respiratory-microbiome-in-pulmonary-tuberculosis-a-meta-analysis-reveals-niche-specific-microbial-and-functional-signatures)
-  - TLDR：针对肺结核患者呼吸道微生物群落特征不明确的问题，本研究通过整合11个公开数据集的16S rRNA测序数据，对上呼吸道、痰液和支气管肺泡灌洗液（BALF）进行了多尺度元分析。研究发现肺结核患者呼吸道微生物多样性显著升高，且不同采样部位具有独特的菌群结构和功能特征（如BALF中的沙雷氏菌富集），揭示了呼吸道微生态的生态位差异，为基于微生物的肺结核诊断和治疗提供了新思路。
-  - Tags：`query:pathoai`
-- [[Analysis of influencing factors of incisional infection and construction of risk prediction model in laparoscopic colorectal cancer surgery].](#/202603/25/202603/25/41856646-analysis-of-influencing-factors-of-incisional-infection-and-construction-of-risk-prediction-model-in-laparoscopic-colorectal-cancer-surgery)
-  - TLDR：针对腹腔镜结直肠癌手术后切口感染（I-SSI）的预防难题，本研究回顾性分析了919例患者的临床数据，通过逻辑回归筛选出糖尿病、低蛋白血症、BMI及切口方式等关键影响因素。研究构建了一个列线图预测模型，其AUC达0.786，能有效识别高风险患者，为临床精准干预和降低术后感染率提供了量化决策支持。
-  - Tags：`query:pathoai`
-- [The post-translational adaptor protein SadB modulates the pathogenicity of](#/202603/25/202603/25/41874169-the-post-translational-adaptor-protein-sadb-modulates-the-pathogenicity-of)
-  - TLDR：针对铜绿假单胞菌中 SadB 蛋白对致病性的影响，研究人员通过小鼠感染模型和转录组分析发现，SadB 缺失会导致细菌生物膜形成缺陷并增强群集运动，使其在宿主体内极易被清除。研究揭示了 SadB 通过调节群体感应和鼠李糖脂合成来影响细菌毒力，证明了其作为新型抗菌药物靶点的潜力。
-  - Tags：`query:pathoai`
-- [Unique structural and ligand-binding properties of the](#/202603/25/202603/25/41875159-unique-structural-and-ligand-binding-properties-of-the)
-  - TLDR：金黄色葡萄球菌（S. aureus）的生物被膜增加了治疗难度，而丝氨酸水解酶 FphE 是其毒力和生物被膜形成的关键调节因子。本研究通过生物信息学分析、12 种晶体结构解析及小角 X 射线散射（SAXS）技术，揭示了 FphE 具有独特的跨亚基同源二聚体结构，这在 alpha/beta 水解酶超家族中极为罕见。研究发现底物结合能稳定该二聚体并增强催化活性，且活性位点具有显著的结构可塑性，为开发针对金黄色葡萄球菌的特异性抑制剂和成像探针提供了结构基础。
-  - Tags：`query:pathoai`
-- [Functional xenogeneic hematopoietic cells maintaining donor-dominant identity and immune tolerance enable therapy.](#/202603/25/202603/25/41877296-functional-xenogeneic-hematopoietic-cells-maintaining-donor-dominant-identity-and-immune-tolerance-enable-therapy)
-  - TLDR：针对临床造血细胞捐献受限且体外生成效率低的问题，研究团队利用啮齿类动物异种嵌合体模型，通过囊胚补偿和骨髓移植技术在异种生物反应器中培育造血细胞。实验证明，这些异种造血细胞在转录组和蛋白质组层面保持了供体特征，且回输供体后不产生免疫排斥，能有效治疗贫血、血小板减少及白血病，为解决输血和细胞治疗的来源难题提供了新范式。
-  - Tags：`query:seqai`
-- [MADRe: Strain-level Metagenomic Classification Through Assembly-Driven Database Reduction.](#/202603/24/202603/24/41871361-madre-strain-level-metagenomic-classification-through-assembly-driven-database-reduction)
-  - TLDR：针对宏基因组分析中菌株级分类受限于参考数据库冗余和样本组成未知的问题，MADRe 提出了一种基于组装驱动的数据库缩减策略。该方法通过长读段组装获取基因组上下文，利用期望最大化（EM）框架将组装结果映射回参考库以精简数据库，最后在缩减后的库上进行概率化读段重分配。实验证明，MADRe 在模拟和真实数据中均能显著降低假阳性，提升了菌株识别的精确度。
-  - Tags：`query:seqai`
-- [AI foundation models for RNA biology.](#/202603/24/202603/24/41873866-ai-foundation-models-for-rna-biology)
-  - TLDR：RNA生物学正经历AI大模型带来的变革。针对RNA序列、结构与功能之间复杂的映射难题，研究者利用数百万跨物种RNA数据进行自监督预训练，构建出具备通用表征能力的基座模型。通过微调，这些模型能精准预测功能规则，并结合可解释AI技术挖掘顺式作用元件等生物学基元，为解码生命调控规律提供了强有力的计算工具。
-  - Tags：`query:bioinfo`
-- [Phylogeny-informed random forests for human microbiome studies.](#/202603/24/202603/24/41874246-phylogeny-informed-random-forests-for-human-microbiome-studies)
-  - TLDR：人类微生物组数据具有高度偏态和离散特征，且微生物间存在进化亲缘关系。传统随机森林忽略了这种系统发育树信息。PIRF（系统发育知情随机森林）通过在系统发育簇内局部筛选特征，增强了功能表示并降低了决策树间的相关性。在牙龈炎症、免疫治疗反应及年龄预测等七项基准任务中，PIRF 的预测准确率优于现有工具，为微生物组疾病诊断提供了更精准的建模方案。
-  - Tags：`query:seqai`

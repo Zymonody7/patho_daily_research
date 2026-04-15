@@ -1,0 +1,58 @@
+Title: Machine-Learning Microfluidic Minute-Scale Microorganism Metrics Monitoring(M6) - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41984488/
+
+Markdown Content:
+Actions
+
+. 2026 Apr 15:e21106.
+
+doi: 10.1002/advs.202521106.  Online ahead of print.
+
+[Jiahao Ding](https://pubmed.ncbi.nlm.nih.gov/?term=Ding+J&cauthor_id=41984488)[1](https://pubmed.ncbi.nlm.nih.gov/41984488/#full-view-affiliation-1 "School of Electrical and Information Engineering, Jiangsu University, Zhenjiang, China."),[Si Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+S&cauthor_id=41984488)[2](https://pubmed.ncbi.nlm.nih.gov/41984488/#full-view-affiliation-2 "World Tea Organization, Cambridge, Massachusetts, USA.")[3](https://pubmed.ncbi.nlm.nih.gov/41984488/#full-view-affiliation-3 "Fluid Machinery Center, Jiangsu University, Zhenjiang, China."),[Lijie Yan](https://pubmed.ncbi.nlm.nih.gov/?term=Yan+L&cauthor_id=41984488)[2](https://pubmed.ncbi.nlm.nih.gov/41984488/#full-view-affiliation-2 "World Tea Organization, Cambridge, Massachusetts, USA.")[4](https://pubmed.ncbi.nlm.nih.gov/41984488/#full-view-affiliation-4 "School of Medicine, Stanford University, Stanford, California, USA.")[5](https://pubmed.ncbi.nlm.nih.gov/41984488/#full-view-affiliation-5 "Fuwai Central China Cardiovascular Hospital, Central China Fuwai Hospital of Zhengzhou University, Zhengzhou, China."),[Shichao Ding](https://pubmed.ncbi.nlm.nih.gov/?term=Ding+S&cauthor_id=41984488)[2](https://pubmed.ncbi.nlm.nih.gov/41984488/#full-view-affiliation-2 "World Tea Organization, Cambridge, Massachusetts, USA.")[6](https://pubmed.ncbi.nlm.nih.gov/41984488/#full-view-affiliation-6 "Department of Chemical and Nano Engineering, University of California, San Diego, La Jolla, California, USA."),[Lavonda Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+L&cauthor_id=41984488)[2](https://pubmed.ncbi.nlm.nih.gov/41984488/#full-view-affiliation-2 "World Tea Organization, Cambridge, Massachusetts, USA.")[7](https://pubmed.ncbi.nlm.nih.gov/41984488/#full-view-affiliation-7 "Department of Materials Science and Engineering, Stanford University, Stanford, California, USA."),[Junyi Sun](https://pubmed.ncbi.nlm.nih.gov/?term=Sun+J&cauthor_id=41984488)[2](https://pubmed.ncbi.nlm.nih.gov/41984488/#full-view-affiliation-2 "World Tea Organization, Cambridge, Massachusetts, USA.")[4](https://pubmed.ncbi.nlm.nih.gov/41984488/#full-view-affiliation-4 "School of Medicine, Stanford University, Stanford, California, USA."),[Haodong Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+H&cauthor_id=41984488)[1](https://pubmed.ncbi.nlm.nih.gov/41984488/#full-view-affiliation-1 "School of Electrical and Information Engineering, Jiangsu University, Zhenjiang, China."),[Tongge Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+T&cauthor_id=41984488)[1](https://pubmed.ncbi.nlm.nih.gov/41984488/#full-view-affiliation-1 "School of Electrical and Information Engineering, Jiangsu University, Zhenjiang, China."),[Ning Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+N&cauthor_id=41984488)[1](https://pubmed.ncbi.nlm.nih.gov/41984488/#full-view-affiliation-1 "School of Electrical and Information Engineering, Jiangsu University, Zhenjiang, China."),[Mingji Wei](https://pubmed.ncbi.nlm.nih.gov/?term=Wei+M&cauthor_id=41984488)[1](https://pubmed.ncbi.nlm.nih.gov/41984488/#full-view-affiliation-1 "School of Electrical and Information Engineering, Jiangsu University, Zhenjiang, China."),[Xiaoyong Zhu](https://pubmed.ncbi.nlm.nih.gov/?term=Zhu+X&cauthor_id=41984488)[1](https://pubmed.ncbi.nlm.nih.gov/41984488/#full-view-affiliation-1 "School of Electrical and Information Engineering, Jiangsu University, Zhenjiang, China."),[Xiaobo Zou](https://pubmed.ncbi.nlm.nih.gov/?term=Zou+X&cauthor_id=41984488)[8](https://pubmed.ncbi.nlm.nih.gov/41984488/#full-view-affiliation-8 "School of Food and Biological Engineering, Jiangsu University, Zhenjiang, China."),[Shouqi Yuan](https://pubmed.ncbi.nlm.nih.gov/?term=Yuan+S&cauthor_id=41984488)[6](https://pubmed.ncbi.nlm.nih.gov/41984488/#full-view-affiliation-6 "Department of Chemical and Nano Engineering, University of California, San Diego, La Jolla, California, USA."),[Xingcai Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+X&cauthor_id=41984488)[2](https://pubmed.ncbi.nlm.nih.gov/41984488/#full-view-affiliation-2 "World Tea Organization, Cambridge, Massachusetts, USA.")[6](https://pubmed.ncbi.nlm.nih.gov/41984488/#full-view-affiliation-6 "Department of Chemical and Nano Engineering, University of California, San Diego, La Jolla, California, USA.")[7](https://pubmed.ncbi.nlm.nih.gov/41984488/#full-view-affiliation-7 "Department of Materials Science and Engineering, Stanford University, Stanford, California, USA.")
+
+Affiliations
+
+*    PMID: **41984488**
+*    DOI: [10.1002/advs.202521106](https://doi.org/10.1002/advs.202521106)
+
+## Machine-Learning Microfluidic Minute-Scale Microorganism Metrics Monitoring(M6)
+
+Ning Yang et al. Adv Sci (Weinh).2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+On-site monitoring of microorganisms remains challenging because of low concentrations, strong background interference, and dynamic aerosol diffusion, particularly for aerosol-transmitted pathogens. Here, we report a rapid detection platform that integrates a Puri-focusing microfluidic chip, electrochemical impedance spectroscopy (EIS), and machine learning for the analysis of airborne microorganisms. Guided by fluid-dynamic design and laminar-flow focusing, the chip achieved a 95.8% separation efficiency for 5 µm target particles. African swine fever virus (ASFV) was used as a model pathogen. Impedance features, including modulus, real and imaginary components, and phase angle, were extracted from aerosol samples and analyzed using multiple machine learning classifiers. Five-fold cross-validation identified Random Forest (RF) as the optimal model, achieving 95.2% classification accuracy. The platform reached a system-level detection limit of 188 TCID50/mL for air-sampled aerosols and showed high concordance with enzyme-linked immunosorbent assay (ELISA) results. Each detection cycle required less than 1 minute. This integrated strategy offers a feasible route for rapid on-site monitoring of aerosol-transmitted microorganisms in public health, agriculture, livestock farming, and production safety.
+
+**Keywords:** epidemic early warning; global public health; machine learning microfluidics; microorganism aerosol detection; minute‐scale monitoring.
+
+© 2026 The Author(s). Advanced Science published by Wiley‐VCH GmbH.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## References
+
+1.       1.    R. Medzhitov, “Recognition of Microorganisms and Activation of the Immune Response,” Nature 449 (2007): 819–826, [https://doi.org/10.1038/nature06246](https://doi.org/10.1038/nature06246). 
+
+2.       1.    D. Zhang, D. Zhong, J. Ouyang, et al., “Microalgae‐based Oral Microcarriers for Gut Microbiota Homeostasis and Intestinal Protection in Cancer Radiotherapy,” Nature Communications 13 (2022): 1413, [https://doi.org/10.1038/s41467‐022‐28744‐4](https://doi.org/10.1038/s41467%E2%80%90022%E2%80%9028744%E2%80%904). 
+
+3.       1.    Y. Wang, G. Zheng, N. Jiang, et al., “Nature‐inspired Micropatterns,” Nature Reviews Methods Primers 3 (2023): 68, [https://doi.org/10.1038/s43586‐023‐00251‐w](https://doi.org/10.1038/s43586%E2%80%90023%E2%80%9000251%E2%80%90w). 
+
+4.       1.    B. Zheng, Q. Li, L. Fang, et al., “Microorganism Microneedle Micro‐engine Depth Drug Delivery,” Nature Communications 15 (2024): 8947, [https://doi.org/10.1038/s41467‐024‐53280‐8](https://doi.org/10.1038/s41467%E2%80%90024%E2%80%9053280%E2%80%908). 
+
+5.       1.    T. Li, N. Yang, Y. Xiao, et al., “Virus Detection Light Diffraction Fingerprints for Biological Applications,” Science Advances 10 (2024): adl3466, [https://doi.org/10.1126/sciadv.adl3466](https://doi.org/10.1126/sciadv.adl3466). 
+
+## Grants and funding
+
+*   [2022YFD2000200/National Key Research and Development Program for Young Scientists](https://pubmed.ncbi.nlm.nih.gov/?term=2022YFD2000200%2FNational+Key+Research+and+Development+Program+for+Young+Scientists%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2022YFD2000200/National Key Research and Development Program for Young Scientists")
+*   [BE2023017-2/Key Research and Development Program (Sub-project) of Jiangsu Province](https://pubmed.ncbi.nlm.nih.gov/?term=BE2023017-2%2FKey+Research+and+Development+Program+%28Sub-project%29+of+Jiangsu+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant BE2023017-2/Key Research and Development Program (Sub-project) of Jiangsu Province")
+*   [BE2022052-2/Key Research and Development Program (Sub-project) of Jiangsu Province](https://pubmed.ncbi.nlm.nih.gov/?term=BE2022052-2%2FKey+Research+and+Development+Program+%28Sub-project%29+of+Jiangsu+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant BE2022052-2/Key Research and Development Program (Sub-project) of Jiangsu Province")
+*   [32572198/National Natural Science Foundation of China (General Program)](https://pubmed.ncbi.nlm.nih.gov/?term=32572198%2FNational+Natural+Science+Foundation+of+China+%28General+Program%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 32572198/National Natural Science Foundation of China (General Program)")

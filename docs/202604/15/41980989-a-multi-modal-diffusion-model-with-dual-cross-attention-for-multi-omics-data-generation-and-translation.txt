@@ -1,0 +1,408 @@
+Title: A multi-modal diffusion model with dual-cross-attention for multi-omics data generation and translation - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41980989/
+
+Markdown Content:
+# A multi-modal diffusion model with dual-cross-attention for multi-omics data generation and translation - PubMed
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/41980989/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41980989%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/41980989/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/41980989/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/41980989/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/41980989/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/c1d4f879-7ea3-43c2-8443-9d91424ff1b9/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/41980989/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/41980989/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41980989/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41980989%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41980989%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/41980989/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Save citation to file
+
+ Format:  
+
+ Create file  Cancel 
+
+## Email citation
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41980989/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41980989/#)
+
+ Add  Cancel 
+
+## Your saved search
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/41980989/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+## Create a file for external citation management software
+
+ Create file  Cancel 
+
+## Your RSS Feed
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Full text links
+
+[![Image 6: Nature Publishing Group full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--www.nature.com-static-images-logos-nature-portfolio-120.png) Nature Publishing Group](https://doi.org/10.1038/s41467-026-71744-x "See full text options at Nature Publishing Group")
+
+[Full text links](https://pubmed.ncbi.nlm.nih.gov/41980989/#)
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41980989/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/41980989/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/41980989/#abstract)
+*   [Conflict of interest statement](https://pubmed.ncbi.nlm.nih.gov/41980989/#conflict-of-interest)
+*   [Similar articles](https://pubmed.ncbi.nlm.nih.gov/41980989/#similar)
+*   [References](https://pubmed.ncbi.nlm.nih.gov/41980989/#references)
+*   [Related information](https://pubmed.ncbi.nlm.nih.gov/41980989/#related-links)
+*   [Grants and funding](https://pubmed.ncbi.nlm.nih.gov/41980989/#grants)
+*   [LinkOut - more resources](https://pubmed.ncbi.nlm.nih.gov/41980989/#linkout)
+
+ Nat Commun 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Nat+Commun%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Nat+Commun%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41980989/#)
+
+. 2026 Apr 14.
+
+ doi: 10.1038/s41467-026-71744-x.  Online ahead of print. 
+
+# A multi-modal diffusion model with dual-cross-attention for multi-omics data generation and translation
+
+[Erpai Luo](https://pubmed.ncbi.nlm.nih.gov/?term=Luo+E&cauthor_id=41980989)[1](https://pubmed.ncbi.nlm.nih.gov/41980989/#full-view-affiliation-1 "Department of Automation, MOE Key Lab of Bioinformatics and Bioinformatics Division of BNRIST, Tsinghua University, Beijing, China."),[Lei Wei](https://pubmed.ncbi.nlm.nih.gov/?term=Wei+L&cauthor_id=41980989)[1](https://pubmed.ncbi.nlm.nih.gov/41980989/#full-view-affiliation-1 "Department of Automation, MOE Key Lab of Bioinformatics and Bioinformatics Division of BNRIST, Tsinghua University, Beijing, China."),[Minsheng Hao](https://pubmed.ncbi.nlm.nih.gov/?term=Hao+M&cauthor_id=41980989)[1](https://pubmed.ncbi.nlm.nih.gov/41980989/#full-view-affiliation-1 "Department of Automation, MOE Key Lab of Bioinformatics and Bioinformatics Division of BNRIST, Tsinghua University, Beijing, China."),[Xuegong Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+X&cauthor_id=41980989)[2](https://pubmed.ncbi.nlm.nih.gov/41980989/#full-view-affiliation-2 "Department of Automation, MOE Key Lab of Bioinformatics and Bioinformatics Division of BNRIST, Tsinghua University, Beijing, China. zhangxg@tsinghua.edu.cn.")[3](https://pubmed.ncbi.nlm.nih.gov/41980989/#full-view-affiliation-3 "School of Life Sciences and School of Medicine, Tsinghua University, Beijing, China. zhangxg@tsinghua.edu.cn."),[Qiao Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+Q&cauthor_id=41980989)[4](https://pubmed.ncbi.nlm.nih.gov/41980989/#full-view-affiliation-4 "Department of Biostatistics, Yale University, New Haven, CT, USA. qiao.liu@yale.edu.")[5](https://pubmed.ncbi.nlm.nih.gov/41980989/#full-view-affiliation-5 "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA. qiao.liu@yale.edu.")
+
+ Affiliations  Expand 
+
+### Affiliations
+
+*   1 Department of Automation, MOE Key Lab of Bioinformatics and Bioinformatics Division of BNRIST, Tsinghua University, Beijing, China.
+*   2 Department of Automation, MOE Key Lab of Bioinformatics and Bioinformatics Division of BNRIST, Tsinghua University, Beijing, China. zhangxg@tsinghua.edu.cn.
+*   3 School of Life Sciences and School of Medicine, Tsinghua University, Beijing, China. zhangxg@tsinghua.edu.cn.
+*   4 Department of Biostatistics, Yale University, New Haven, CT, USA. qiao.liu@yale.edu.
+*   5 Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA. qiao.liu@yale.edu.
+
+*    PMID: **41980989**
+*    DOI: [10.1038/s41467-026-71744-x](https://doi.org/10.1038/s41467-026-71744-x)
+
+Free article
+
+ Item in Clipboard 
+
+# A multi-modal diffusion model with dual-cross-attention for multi-omics data generation and translation
+
+Erpai Luo et al. Nat Commun.2026.
+
+Free article
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ Nat Commun 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Nat+Commun%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Nat+Commun%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41980989/#)
+
+. 2026 Apr 14.
+
+ doi: 10.1038/s41467-026-71744-x.  Online ahead of print. 
+
+### Authors
+
+[Erpai Luo](https://pubmed.ncbi.nlm.nih.gov/?term=Luo+E&cauthor_id=41980989)[1](https://pubmed.ncbi.nlm.nih.gov/41980989/#short-view-affiliation-1 "Department of Automation, MOE Key Lab of Bioinformatics and Bioinformatics Division of BNRIST, Tsinghua University, Beijing, China."),[Lei Wei](https://pubmed.ncbi.nlm.nih.gov/?term=Wei+L&cauthor_id=41980989)[1](https://pubmed.ncbi.nlm.nih.gov/41980989/#short-view-affiliation-1 "Department of Automation, MOE Key Lab of Bioinformatics and Bioinformatics Division of BNRIST, Tsinghua University, Beijing, China."),[Minsheng Hao](https://pubmed.ncbi.nlm.nih.gov/?term=Hao+M&cauthor_id=41980989)[1](https://pubmed.ncbi.nlm.nih.gov/41980989/#short-view-affiliation-1 "Department of Automation, MOE Key Lab of Bioinformatics and Bioinformatics Division of BNRIST, Tsinghua University, Beijing, China."),[Xuegong Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+X&cauthor_id=41980989)[2](https://pubmed.ncbi.nlm.nih.gov/41980989/#short-view-affiliation-2 "Department of Automation, MOE Key Lab of Bioinformatics and Bioinformatics Division of BNRIST, Tsinghua University, Beijing, China. zhangxg@tsinghua.edu.cn.")[3](https://pubmed.ncbi.nlm.nih.gov/41980989/#short-view-affiliation-3 "School of Life Sciences and School of Medicine, Tsinghua University, Beijing, China. zhangxg@tsinghua.edu.cn."),[Qiao Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+Q&cauthor_id=41980989)[4](https://pubmed.ncbi.nlm.nih.gov/41980989/#short-view-affiliation-4 "Department of Biostatistics, Yale University, New Haven, CT, USA. qiao.liu@yale.edu.")[5](https://pubmed.ncbi.nlm.nih.gov/41980989/#short-view-affiliation-5 "Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA. qiao.liu@yale.edu.")
+
+### Affiliations
+
+*   1 Department of Automation, MOE Key Lab of Bioinformatics and Bioinformatics Division of BNRIST, Tsinghua University, Beijing, China.
+*   2 Department of Automation, MOE Key Lab of Bioinformatics and Bioinformatics Division of BNRIST, Tsinghua University, Beijing, China. zhangxg@tsinghua.edu.cn.
+*   3 School of Life Sciences and School of Medicine, Tsinghua University, Beijing, China. zhangxg@tsinghua.edu.cn.
+*   4 Department of Biostatistics, Yale University, New Haven, CT, USA. qiao.liu@yale.edu.
+*   5 Program in Computational Biology and Bioinformatics, Yale University, New Haven, CT, USA. qiao.liu@yale.edu.
+
+*    PMID: **41980989**
+*    DOI: [10.1038/s41467-026-71744-x](https://doi.org/10.1038/s41467-026-71744-x)
+
+ Item in Clipboard 
+
+ Full text links Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Abstract
+
+Single-cell multi-omics technologies offer unprecedented opportunities to decipher complex cellular mechanisms. To overcome experimental limitations in scale, cost, and coverage, powerful computational methods are essential for integrating diverse data modalities and generating high-fidelity in-silico data. In this paper, we present scDiffusion-X, a latent diffusion model for multi-omics data integration, generation, and translation. The core innovation is a Dual-Cross-Attention (DCA) module that adaptively captures intricate, hidden relationships between molecular modalities, offering a more flexible and interpretable approach than existing integration strategies. Extensive benchmarking experiments demonstrate that scDiffusion-X excels at generating realistic multi-omics data, preserving cellular heterogeneity and global data structures with excellent scalability. Beyond simulation, scDiffusion-X uniquely enables accurate modality translation, predicting one molecular modality from another with robust uncertainty quantification. Furthermore, we designed a gradient-based interpretation framework to transform the DCA module into a discovery tool, enabling inference of comprehensive cell-type-specific heterogeneous gene regulatory networks (GRNs). By integrating state-of-the-art generative modeling with biological interpretability, scDiffusion-X serves as a powerful tool for dissecting regulatory relationships, predicting perturbation responses, and accelerating discovery in single-cell multi-omics research.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [scDiffusion: conditional generation of high-quality single-cell data using diffusion model.](https://pubmed.ncbi.nlm.nih.gov/39171840/)Luo E, Hao M, Wei L, Zhang X.Luo E, et al.Bioinformatics. 2024 Sep 2;40(9):btae518. doi: 10.1093/bioinformatics/btae518.Bioinformatics. 2024.PMID: 39171840 Free PMC article.  
+*   [LoHi-SSL: a Multi-Level Synergistic Learning Model for Integrating Single-Cell Multi-Omics Data via Low- and High-Order Information Fusion.](https://pubmed.ncbi.nlm.nih.gov/41805524/)Xiong X, Zhang K, Zhang C, Zhang Y.Xiong X, et al.IEEE Trans Comput Biol Bioinform. 2026 Mar 10;PP. doi: 10.1109/TCBBIO.2026.3672503. Online ahead of print.IEEE Trans Comput Biol Bioinform. 2026.PMID: 41805524  
+*   [A sequence knowledge-guided deep learning method for single-cell multi-omics translation.](https://pubmed.ncbi.nlm.nih.gov/41975483/)Zhao M, Li J, Jiang Y, Yan J, Tang X, Liang C, Tang J, Guo F.Zhao M, et al.Genome Biol. 2026 Apr 14. doi: 10.1186/s13059-026-04070-6. Online ahead of print.Genome Biol. 2026.PMID: 41975483  
+*   [Toward next-generation machine learning and deep learning for spatial omics.](https://pubmed.ncbi.nlm.nih.gov/41902503/)Zirem Y, Fournier I, Salzet M.Zirem Y, et al.Brief Bioinform. 2026 Mar 1;27(2):bbag131. doi: 10.1093/bib/bbag131.Brief Bioinform. 2026.PMID: 41902503 Free PMC article.Review.  
+*   [Artificial Intelligence Drives Advances in Multi-Omics Analysis and Precision Medicine for Sepsis.](https://pubmed.ncbi.nlm.nih.gov/41751160/)Shen Y, Zhang P, Luo J, Chen S, Gu S, Lin Z, Tang Z.Shen Y, et al.Biomedicines. 2026 Jan 23;14(2):261. doi: 10.3390/biomedicines14020261.Biomedicines. 2026.PMID: 41751160 Free PMC article.Review.  
+
+[See all similar articles](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed&from_uid=41980989)
+
+## References
+
+1.       1.    Badia-i-Mompel, P. et al. Gene regulatory network inference in the era of single-cell multi-omics. Nat. Rev. Genet. 24, 739–754 (2023). 
+
+2.       1.    Schäfer, P. S. L., Dimitrov, D., Villablanca, E. J. & Saez-Rodriguez, J. Integrating single-cell multi-omics and prior biological knowledge for a functional characterization of the immune system. Nat. Immunol. 25, 405–417 (2024). 
+
+3.       1.    Cao, J. et al. Joint profiling of chromatin accessibility and gene expression in thousands of single cells. Science 361, 1380–1385 (2018). 
+
+4.       1.    Stoeckius, M. et al. Simultaneous epitope and transcriptome measurement in single cells. Nat. Methods 14, 865–868 (2017). 
+
+5.       1.    Hao, Y. et al. Integrated analysis of multimodal single-cell data. Cell 184, 3573–3587 (2021). e3529. 
+
+ Show all 71 references 
+
+## Related information
+
+*   [GEO Profiles](https://www.ncbi.nlm.nih.gov/geoprofiles?linkname=pubmed_geoprofiles&from_uid=41980989 "GEO records associated with pubmed record")
+
+## Grants and funding
+
+*   [92470105, 62373210/National Natural Science Foundation of China (National Science Foundation of China)](https://pubmed.ncbi.nlm.nih.gov/?term=92470105%2C+62373210%2FNational+Natural+Science+Foundation+of+China+%28National+Science+Foundation+of+China%29%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 92470105, 62373210/National Natural Science Foundation of China (National Science Foundation of China)")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Nature Publishing Group](https://doi.org/10.1038/s41467-026-71744-x)
+
+**Full text links**[x]
+
+[![Image 7: Nature Publishing Group full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--www.nature.com-static-images-logos-nature-portfolio-120.png) Nature Publishing Group](https://doi.org/10.1038/s41467-026-71744-x "See full text options at Nature Publishing Group")
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41980989/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41980989%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/41980989/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41980989%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41980989%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/41980989/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/?pagename=pubmed%3Apubmed%3Aabstract%3ANONE)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)
