@@ -1,10 +1,46 @@
 # 知识库
 
-- 最近沉淀条目数：410
+- 最近沉淀条目数：422
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Rapid whole genome sequencing of Plasmodium DNA from cryptic malaria cases in UK travellers provides insights into infection origins, transmission, and antimalarial resistance.](#/202604/16/202604/16/41989089-rapid-whole-genome-sequencing-of-plasmodium-dna-from-cryptic-malaria-cases-in-uk-travellers-provides-insights-into-infection-origins-transmission-and-antimalarial-resistance)
+  - TLDR：针对英国每年约2000例输入性疟疾中难以追踪感染源的“隐匿性病例”，研究团队利用Illumina和纳米孔测序技术对临床样本进行全基因组测序，并结合Malaria-Profiler工具及AI模型进行快速分析。该方法成功识别了耐药性标记，并基于1.5万个基因组数据库精准推断了地理来源，同时通过亲缘关系分析确认了家庭内部的传播集群。这为非疟疾流行地区提供了高分辨率的监测手段，有助于快速响应公共卫生风险并优化防控资源分配。
+  - Tags：`query:pathoai`
+- [Explainability Methods from Machine Learning Detect Important Drugs' Atoms in Drug-Target Interactions.](#/202604/16/202604/16/41985080-explainability-methods-from-machine-learning-detect-important-drugs-atoms-in-drug-target-interactions)
+  - TLDR：针对图神经网络在药物-靶标相互作用预测中缺乏透明度的问题，本研究评估了四种可解释AI归因方法在激酶和GPCR靶标上的表现。通过将模型关注的原子映射到3D蛋白质-配体结构中，发现共识归因原子能高度准确地识别出结合口袋内的关键接触位点，证明了XAI方法在辅助药物发现和验证模型生物学合理性方面的价值。
+  - Tags：`query:bioinfo`
+- [GPU-accelerated modeling of biological regulatory networks.](#/202604/16/202604/16/41986459-gpu-accelerated-modeling-of-biological-regulatory-networks)
+  - TLDR：生物调节网络（BRN）的建模与仿真在理解细胞行为中至关重要，但随着网络规模扩大，传统 CPU 计算面临严重的性能瓶颈。该研究通过将 BRN 的状态空间搜索或随机模拟算法迁移至 GPU 并行架构，利用数千个核心加速计算过程。实验证明，该方法在处理大规模复杂网络时实现了显著的加速比，为高通量生物数据分析和复杂生命系统模拟提供了高效的计算工具。
+  - Tags：`query:bioinfo`
+- [Multi-tissue multi-omics integration reveals tissue-specific pathways, gene networks and drug candidates for type 1 diabetes.](#/202604/16/202604/16/41986815-multi-tissue-multi-omics-integration-reveals-tissue-specific-pathways-gene-networks-and-drug-candidates-for-type-1-diabetes)
+  - TLDR：针对 1 型糖尿病 (T1D) 遗传位点与病理机制关联不明的问题，本研究通过整合 GWAS 数据与多组织多组学调控网络，识别出关键驱动基因（如 FYN、TAP1）及组织特异性通路（如胰岛中的干扰素信号）。研究不仅在 NOD 小鼠模型中验证了关键基因，还结合电子病历筛选出潜在的候选药物，为 T1D 的早期干预和精准治疗提供了系统性的分子图谱和药理依据。
+  - Tags：`query:bioinfo`
+- [PROTACs as novel therapeutics against Mycobacterium tuberculosis: Current progress and future directions.](#/202604/16/202604/16/41759306-protacs-as-novel-therapeutics-against-mycobacterium-tuberculosis-current-progress-and-future-directions)
+  - TLDR：针对结核分枝杆菌（Mtb）耐药性强且传统抑制剂需持续占据靶点的问题，本文综述了靶向蛋白质降解（TPD）技术，特别是PROTACs的应用。该技术利用细胞内源性降解系统催化消除致病蛋白，而非单纯抑制其活性。这种方法能提供更持久的疗效并降低耐药风险，为开发新型抗结核药物提供了具有高特异性和机制驱动的治疗新范式。
+  - Tags：`query:pathoai`
+- [Contrastive multimodal deep learning for survival prediction in grade 2/3 gliomas.](#/202604/16/202604/16/41987576-contrastive-multimodal-deep-learning-for-survival-prediction-in-grade-23-gliomas)
+  - TLDR：针对2/3级胶质瘤生存预测中因肿瘤异质性导致单模态数据预测不准的问题，该研究提出了一种对比多模态深度学习框架。该框架整合了病理全切片图像、体细胞突变和临床数据，通过三阶段训练流程对齐跨模态表征并优化生存分析目标。实验结果显示，该模型在TCGA数据集上达到0.91的C-index，显著优于单模态模型，并在外部验证集上表现稳健，为临床个性化治疗和风险分层提供了高效的自动化工具。
+  - Tags：`query:bioinfo`
+- [Self-Assembling Nano-Antimicrobial Oligopeptides With Dual Offense-Defense Functions for Synchronously Achieving High Activity and Biosafety.](#/202604/16/202604/16/41988677-self-assembling-nano-antimicrobial-oligopeptides-with-dual-offense-defense-functions-for-synchronously-achieving-high-activity-and-biosafety)
+  - TLDR：针对纳米抗菌肽在提升杀菌活性时往往伴随高细胞毒性的矛盾，该研究提出一种“攻防一体”策略。通过序列工程设计出具有中等表面电位（约+20 mV）的自组装寡肽纳米纤维，利用细菌与哺乳动物细胞膜的电荷差异实现选择性识别，并结合疏水基团的高暴露度增强对细菌膜的穿透力。实验证明该材料在保持极低细胞毒性的同时具有强效抗菌能力，并在小鼠皮肤感染模型中显著促进了伤口愈合，为解决耐药菌感染提供了高生物安全性的新方案。
+  - Tags：`query:pathoai`
+- [Glomage: A Multimodal Platform for High-Content Morphological and RNA Profiling of Glomeruli in Zebrafish and Mouse Models.](#/202604/16/202604/16/41988720-glomage-a-multimodal-platform-for-high-content-morphological-and-rna-profiling-of-glomeruli-in-zebrafish-and-mouse-models)
+  - TLDR：慢性肾病影响广泛，其核心过滤单元肾小球中的足细胞因结构复杂且不可再生，长期缺乏高效的3D分析手段。Glomage 平台通过整合高通量分离、3D体积成像与 RNA 提取技术，实现了对斑马鱼和老鼠肾小球形态与基因表达的同步分析。该方法解决了足细胞表型量化难、规模小的痛点，为肾病机制研究和药物筛选提供了高内涵、跨物种的标准化工具。
+  - Tags：`query:seqai`
+- [Quantifying Protein Homodimer Affinities and the Effect of Molecular Glues and Interface Residues Using Native Mass Spectrometry.](#/202604/16/202604/16/41921055-quantifying-protein-homodimer-affinities-and-the-effect-of-molecular-glues-and-interface-residues-using-native-mass-spectrometry)
+  - TLDR：蛋白质同源二聚体相互作用的定量分析在药物研发中至关重要，但传统质谱法常因信号重叠难以准确测量。本研究利用定量激光诱导液体珠离子解吸质谱（qLILBID-MS），结合稀释实验和共价交联技术，成功分离了单体与二聚体的电荷态分布。该方法不仅能精确测定高微摩尔范围内的解离常数，还能监测分子胶和界面突变对亲和力的影响，为PROTAC等诱导邻近药物的筛选提供了高效、低耗的表征手段。
+  - Tags：`query:seqai`
+- [Reassessing the reliability and translational potential of bacterial cell envelope targets: lessons from LpxC, NagA, and beyond.](#/202604/16/202604/16/41983410-reassessing-the-reliability-and-translational-potential-of-bacterial-cell-envelope-targets-lessons-from-lpxc-naga-and-beyond)
+  - TLDR：针对革兰氏阴性菌药物研发中，LpxC和NagA等生化验证过的靶点难以转化为临床疗法的问题，本文通过案例分析揭示了代谢适应性和宿主环境对靶点有效性的影响。研究提出了一套整合生理必需性、通路脆弱性及旁路潜力的可靠性评估框架，旨在通过系统生物学视角优化早期靶点筛选，降低抗菌药物研发后期的失败率。
+  - Tags：`query:pathoai`
+- [Translation quality control in Pseudomonas aeruginosa: current knowledge and perspectives.](#/202604/16/202604/16/41983571-translation-quality-control-in-pseudomonas-aeruginosa-current-knowledge-and-perspectives)
+  - TLDR：铜绿假单胞菌的致病性与耐药性高度依赖其核糖体在压力下的功能维持。本文综述了该菌通过核糖体保护、救援及休眠等翻译质量控制机制应对环境压力的最新研究进展。文章深入探讨了这些机制如何增强病原体的适应性，并指出针对这些翻译调控路径开发新型抗菌药物的潜力，为解决抗生素耐药性提供了新思路。
+  - Tags：`query:pathoai`
+- [Stable bioreactor control reveals acidic pH-driven metabolic reprogramming and mitochondrial dysfunction in human lymphoblastoid cells.](#/202604/16/202604/16/41986597-stable-bioreactor-control-reveals-acidic-ph-driven-metabolic-reprogramming-and-mitochondrial-dysfunction-in-human-lymphoblastoid-cells)
+  - TLDR：针对酸性微环境对人体细胞分子机制影响不明的问题，研究者利用气体控制生物反应器模拟酸性环境，结合多组学分析发现，酸性pH会诱导淋巴母细胞发生糖酵解转向、线粒体功能障碍及NAD+耗竭，并导致致病性线粒体DNA突变富集。通过补充NMN或抑制PARP1恢复NAD+水平可逆转上述损伤。该研究揭示了pH稳态在代谢、氧化还原与免疫信号中的核心作用，为理解酸性环境诱发的病理变化提供了新机制。
+  - Tags：`query:bioinfo`
 - [A systematic review and benchmarking of modern metagenomic tools for taxonomic classification.](#/202604/15/202604/15/41830810-a-systematic-review-and-benchmarking-of-modern-metagenomic-tools-for-taxonomic-classification)
   - TLDR：宏基因组分类工具是微生物群落研究的核心，但由于评估标准和数据库差异，工具间的横向对比十分困难。本研究系统综述了31款最新分类工具，并选取其中9款在统一的NCBI RefSeq基准数据集上进行性能评测。结果显示，领域专用工具（如针对原核生物的TAMA和针对病毒的ViWrap）在准确率上具有显著优势，而SqueezeMeta在跨领域任务中表现均衡。该研究为AI和生物信息学研究者在不同应用场景下选择最优分类算法提供了量化参考。
   - Tags：`query:pathoai`
@@ -568,40 +604,4 @@
   - Tags：`query:pathoai`
 - [Elucidating the therapeutic mechanism of Orthosiphon aristatus in hyperuricemic nephropathy: An integrated microbiome-metabolomics approach.](#/202603/26/202603/26/41456824-elucidating-the-therapeutic-mechanism-of-orthosiphon-aristatus-in-hyperuricemic-nephropathy-an-integrated-microbiome-metabolomics-approach)
   - TLDR：高尿酸性肾病（HN）因传统药物副作用大而难以根治。本研究通过大鼠实验，利用宏基因组学与代谢组学联合分析，揭示了猫须草（Orthosiphon aristatus）的治疗机制。结果显示，猫须草通过调节肠道菌群（如增加普氏菌）、改善色氨酸代谢并抑制IDO1/犬尿氨酸/AhR促纤维化通路，有效减轻了肾损伤和纤维化，为HN的临床治疗提供了肠-肾轴互动的新视角。
-  - Tags：`query:bioinfo`
-- [The dual roles of microorganisms in inflammatory diseases: initiators and regulators.](#/202603/26/202603/26/41880553-the-dual-roles-of-microorganisms-in-inflammatory-diseases-initiators-and-regulators)
-  - TLDR：炎症性疾病的传统认知正被微生物组研究重塑。本文探讨了微生物群落作为宿主生态系统的动态组成部分，如何通过代谢产物和免疫信号双向调节炎症：失调会诱发免疫激活，而特定共生菌则能抑制过度反应。通过多组学技术揭示的肠-脑、肠-肝等跨系统轴，将炎症重新定义为维持系统稳定的适应性策略。这促使医疗手段从单纯“抑制炎症”转向通过粪菌移植、工程菌等手段“重建生态秩序”，为精准医疗提供了新范式。
-  - Tags：`query:pathoai`
-- [Dual functions of apigenin in suppressing Phytophthora capsici and shaping the pepper microbiome.](#/202603/26/202603/26/41882727-dual-functions-of-apigenin-in-suppressing-phytophthora-capsici-and-shaping-the-pepper-microbiome)
-  - TLDR：针对辣椒疫霉病这一土传病害，本研究通过整合转录组、代谢组和微生物组分析，揭示了芹菜素在植物防御中的核心作用。实验表明，芹菜素不仅能通过破坏细胞膜直接抑制病原菌孢子释放（效率达95%），还能作为代谢枢纽定向富集根际抑病微生物。该研究阐明了“代谢物-微生物-病原体”的互作机制，为可持续农业中的精准植保提供了新策略。
-  - Tags：`query:pathoai`
-- [Glutathione Impacts Both Batrachochytrium dendrobatidis Virulence and Amphibian Cellular Defense in a Chytridiomycosis Model.](#/202603/26/202603/26/41858012-glutathione-impacts-both-batrachochytrium-dendrobatidis-virulence-and-amphibian-cellular-defense-in-a-chytridiomycosis-model)
-  - TLDR：针对致命真菌 Bd 对两栖动物致病机制不明的问题，本研究通过体外实验和细胞感染模型，探讨了谷胱甘肽（GSH）在病原体毒力和宿主防御中的双重作用。研究发现 GSH 是 Bd 生存所必需的，且能促进其孢子释放；同时，宿主细胞内 GSH 水平决定了其对 Bd 初始入侵的抵抗力。这一发现揭示了氧化应激在壶菌病中的关键作用，为通过调节抗氧化系统防治该病提供了新思路。
-  - Tags：`query:pathoai`
-- [Comprehensive assessment of the genomic stability of human induced pluripotent stem cells for clinical applications.](#/202603/26/202603/26/41877289-comprehensive-assessment-of-the-genomic-stability-of-human-induced-pluripotent-stem-cells-for-clinical-applications)
-  - TLDR：人诱导多能干细胞（hiPSCs）在长期培养中易积累基因组变异，威胁临床应用安全。本研究通过对3株hiPSC进行50代连续培养，整合核型分析、光学基因组图谱（OGM）、全外显子组测序（WES）和转录组测序（RNA-seq）进行多维度监测。结果发现，传统核型分析难以识别的微小结构变异和癌症相关基因突变（如BCOR）会随代次累积，并导致癌基因表达异常。该研究建立的综合评估策略为hiPSC克隆筛选和临床产品质控提供了可靠的技术框架。
-  - Tags：`query:pathoai`
-- [Novel Enterococcus phages identified through comprehensive screening to control contamination in chicken meat.](#/202603/26/202603/26/41883043-novel-enterococcus-phages-identified-through-comprehensive-screening-to-control-contamination-in-chicken-meat)
-  - TLDR：针对禽肉中耐药性肠球菌污染导致的食品安全风险，研究人员从1719份环境样本中筛选出45株噬菌体，并重点评估了Efs.1 1-1和Efm 3-10两株广谱裂解性噬菌体。实验证明这两株噬菌体具有极短的潜伏期和高爆发量，且不含毒力或耐药基因，在冷藏鸡翅模型中能将细菌数量降至检测限以下，为减少禽肉肠球菌污染提供了高效的生物防治方案。
-  - Tags：`query:pathoai`
-- [AI-Assisted Tissue Classification in Chironomus riparius: A Potential Tool for Ecotoxicological Studies.](#/202603/26/202603/26/41883120-ai-assisted-tissue-classification-in-chironomus-riparius-a-potential-tool-for-ecotoxicological-studies)
-  - TLDR：针对水生无脊椎动物组织学分析中参考资料匮乏、人工识别耗时费力的问题，本研究开发了一种基于卷积神经网络（CNN）的深度学习模型，用于自动识别标准实验生物摇蚊幼虫的11种组织类型。该模型实现了94.21%的分类准确率，有效解决了传统病理分析的效率瓶颈，为环境毒理学研究中的自动化组织病理学工作流奠定了基础。
-  - Tags：`query:seqai`
-- [Demography-dependent variability in the human tumor mycobiome.](#/202603/26/202603/26/41885500-demography-dependent-variability-in-the-human-tumor-mycobiome)
-  - TLDR：肿瘤真菌组具有重要的预后价值，但患者人口统计学特征对其组成的影响尚不明确。本研究针对现有数据处理可能产生的假阳性问题，对TCGA中5000多份肿瘤样本进行了重新分析，采用了14种数据转换与批次校正组合，并利用倾向评分调整混杂因素。研究发现了24种与年龄、性别、BMI特别是种族显著相关的真菌物种，揭示了肿瘤微环境的复杂性，为精准肿瘤学中的个性化诊断和治疗提供了新视角。
-  - Tags：`query:seqai`
-- [Unlocking Enzyme Discovery: A High-Resolution Gene Cluster Database Powered by Phylogenetic Insights and Machine Learning.](#/202603/25/202603/25/41837859-unlocking-enzyme-discovery-a-high-resolution-gene-cluster-database-powered-by-phylogenetic-insights-and-machine-learning)
-  - TLDR：针对海量基因组数据标注不足导致酶发现困难的问题，该研究构建了一个整合跨界系统发育数据库、多位点挖掘、蛋白质语言模型（pLM）活性预测及残基-原子接触重评分的流水线。在r-BOX代谢途径应用中，该方法显著提升了活性预测精度和筛选效率，实验验证使FadB产量提升至10.2 g/L，为高价值酶的规模化挖掘提供了高效工具。
-  - Tags：`query:bioinfo`
-- [OptiSyn: an interpretable, multi-omics-driven graph convolutional network framework for synergy-oriented drug combination design in disease treatment.](#/202603/25/202603/25/41877167-optisyn-an-interpretable-multi-omics-driven-graph-convolutional-network-framework-for-synergy-oriented-drug-combination-design-in-disease-treatment)
-  - TLDR：针对中药复方配伍机制复杂、难以量化设计的问题，本研究开发了OptiSyn框架，通过整合多组学数据识别强直性脊柱炎的关键基因，并利用可解释的多层图卷积网络融合分子对接与临床经验，预测最优药物组合。该模型成功筛选出ASD-A复方，经实验验证能有效调节免疫反应并平衡IL17/Foxp3轴，为中医药现代化和精准联合用药提供了数据驱动的新路径。
-  - Tags：`query:bioinfo`
-- [New tools for exploring parasite biology and elucidating host-pathogen interactions in cryptosporidiosis.](#/202603/25/202603/25/41498623-new-tools-for-exploring-parasite-biology-and-elucidating-host-pathogen-interactions-in-cryptosporidiosis)
-  - TLDR：隐孢子虫病是全球重大公共卫生威胁，但长期受限于研究工具匮乏。本文综述了近十年该领域的突破，重点介绍了基因转化技术及新型国内外培养模型如何推动对寄生虫进化、宿主范围及免疫互作的认知。通过总结这些技术进步带来的生物学新发现，为解决该寄生虫感染的防治难题提供了研究路线图。
-  - Tags：`query:pathoai`
-- [HiCMamba: Enhancing Hi-C resolution and identifying 3D genome structures with state space modeling.](#/202603/25/202603/25/41875404-hicmamba-enhancing-hi-c-resolution-and-identifying-3d-genome-structures-with-state-space-modeling)
-  - TLDR：Hi-C技术是研究3D基因组结构的关键，但高昂的测序成本导致数据分辨率受限。HiCMamba引入了状态空间模型（SSM），通过基于UNet的自编码器架构和全局扫描模块，实现了对Hi-C接触图的高效超分辨率增强。实验证明该方法在提升精度的同时显著降低了计算开销，并能准确还原TAD和染色质环等关键生物结构，为低成本获取高质量基因组互作数据提供了新方案。
-  - Tags：`query:seqai`
-- [Explainable drug side effect prediction in central neural system via biologically informed graph neural network.](#/202603/25/202603/25/41876492-explainable-drug-side-effect-prediction-in-central-neural-system-via-biologically-informed-graph-neural-network)
-  - TLDR：针对药物研发中副作用检测难、成本高且缺乏解释性的问题，本研究提出了 HHAN-DSI 模型。这是一种融合生物学先验知识的图神经网络，通过整合药物、基因和生物功能的多模态交互数据，专门用于预测中枢神经系统药物的副作用。实验证明该模型能有效识别精神类药物的潜在风险，并清晰展示从分子到表型的生物学机制，为早期药物安全性评估提供了有力工具。
   - Tags：`query:bioinfo`

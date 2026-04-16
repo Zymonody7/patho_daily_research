@@ -1,0 +1,564 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-04-16T19:48:48.038296+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 4,
+    "deep_cap": 9,
+    "deep_selected": 4,
+    "quick_candidates": 8,
+    "quick_skim_target": 14,
+    "quick_selected": 8
+  },
+  "deep_dive": [
+    {
+      "id": "41989089",
+      "title": "Rapid whole genome sequencing of Plasmodium DNA from cryptic malaria cases in UK travellers provides insights into infection origins, transmission, and antimalarial resistance.",
+      "abstract": "BACKGROUND: The UK reports approximately 2,000 imported malaria cases annually, necessitating effective surveillance to determine infection sources, transmission routes, inform strategies for prevention, and detect molecular markers of drug resistance that may compromise treatment outcomes. Defined by their unclear route of infection, cryptic malaria cases pose a particular challenge for malaria surveillance because they may signify undetected localised transmission or malaria re-introduction and therefore necessitate additional public health resources and epidemiological investigations. Here, we demonstrate the utility of near-real-time whole-genome sequencing (WGS) in providing high genomic resolution and detailed molecular characterisation to help resolve cryptic malaria cases in the UK. METHODS: Plasmodium DNA (9 isolates) sourced from clinical blood samples underwent WGS using either Illumina or Oxford Nanopore Technologies (ONT) platforms. Sequence data were rapidly analysed with Malaria-Profiler, which performs read mapping, variant calling, quality control, drug resistance prediction, and AI-based geographic origin inference using a reference database of more than 15,000 isolate genomes. Plasmodium ovale spp. and P. falciparum infections identified among family members were further analysed to assess parasite relatedness using identity-by-descent and multiplicity of infection approaches to investigate transmission clusters. RESULTS: Using a combination of Illumina and ONT WGS platforms alongside Malaria-Profiler, we rapidly profiled parasites from four cryptic P. falciparum malaria cases in the UK, identifying drug resistance markers and predicting geographic origins through AI-based methods. We also applied WGS to family-related clusters of P. ovale spp and P. falciparum cases, confirming (sub)species identities and enabling fine-scale transmission cluster analysis. CONCLUSION: This study highlights the power of real-time WGS and AI-enhanced tools for high-resolution malaria genomic surveillance. By enabling rapid characterisation of cryptic and imported cases, this approach supports timely public health responses, including targeted epidemiological investigations and, where appropriate, the de-escalation of entomological surveillance. In doing so, it helps sustain malaria elimination in non-endemic settings.",
+      "authors": [
+        "Mark K I Tan",
+        "Nina Billows",
+        "Debbie Nolder",
+        "Sophie Moss",
+        "Jody E Phelan",
+        "Joseph Thorpe",
+        "Jonathan L Edgeworth",
+        "Colin J Sutherland",
+        "Peter L Chiodini",
+        "Susana Campino",
+        "Taane G Clark"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-16",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41989089/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "WGS for malaria surveillance, transmission routes, and drug resistance markers",
+      "llm_evidence_cn": "全基因组测序用于疟疾监测、传播途径和耐药性标记物分析",
+      "llm_evidence": "全基因组测序用于疟疾监测、传播途径和耐药性标记物分析",
+      "canonical_evidence": "全基因组测序用于疟疾监测、传播途径和耐药性标记物分析",
+      "llm_tldr_en": "Demonstrates rapid WGS for tracking malaria origins, transmission, and resistance in imported cases.",
+      "llm_tldr_cn": "展示了快速全基因组测序在追踪输入性疟疾来源、传播和耐药性方面的应用。",
+      "llm_tldr": "展示了快速全基因组测序在追踪输入性疟疾来源、传播和耐药性方面的应用。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI methods for genomic surveillance and outbreak monitoring",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41985080",
+      "title": "Explainability Methods from Machine Learning Detect Important Drugs' Atoms in Drug-Target Interactions.",
+      "abstract": "Predicting drug-target interactions (DTI) with graph neural networks (GNNs) is hindered by their lack of interpretability. To address this, we benchmark four explainable artificial intelligence (XAI) attribution methods on GNN models trained for kinase and G-protein-coupled receptors (GPCR) targets. We assess the methods' consistency through atom-level intersection over union (IoU) and validate their biological relevance by mapping attributed atoms to three-dimensional (3D) protein-ligand structures. While consistency across methods was modest, consensus attributions were highly enriched for atoms directly contacting the binding pocket─up to 76% within 2 Å in the kinase-inhibitor complexes. Notably, these attributed atoms were frequently found contacting experimentally important regulatory residues such as those in the DFG motif. This indicates that XAI methods, despite their disagreements, can identify chemically meaningful ligand features, providing a foundation for developing more interpretable GNNs in drug discovery.",
+      "authors": [
+        "Mrinal Mahindran",
+        "Qingyuan Liu",
+        "Vishak Madhwaraj Kadambalithaya",
+        "Olga V Kalinina"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-15",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41985080/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "explainable AI for drug-target interactions using graph neural networks",
+      "llm_evidence_cn": "基于图神经网络的药物-靶点相互作用可解释AI",
+      "llm_evidence": "基于图神经网络的药物-靶点相互作用可解释AI",
+      "canonical_evidence": "基于图神经网络的药物-靶点相互作用可解释AI",
+      "llm_tldr_en": "Benchmarks XAI methods on GNNs to identify critical atoms in drug-target interactions for kinases and GPCRs.",
+      "llm_tldr_cn": "对图神经网络的可解释性方法进行基准测试，以识别药物-靶点相互作用中的关键原子。",
+      "llm_tldr": "对图神经网络的可解释性方法进行基准测试，以识别药物-靶点相互作用中的关键原子。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models and generative AI for drug discovery molecular property prediction and lead optimization",
+      "matched_requirement_id": "req-20",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41986459",
+      "title": "GPU-accelerated modeling of biological regulatory networks.",
+      "abstract": "",
+      "authors": [
+        "Joyce Reimer",
+        "Pranta Saha",
+        "Chris Chen",
+        "Neeraj Dhar",
+        "Brook Byrns",
+        "Steven Rayan",
+        "Gordon Broderick"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-15",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41986459/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "GPU-accelerated modeling of biological regulatory networks",
+      "llm_evidence_cn": "GPU加速的生物调节网络建模",
+      "llm_evidence": "GPU加速的生物调节网络建模",
+      "canonical_evidence": "GPU加速的生物调节网络建模",
+      "llm_tldr_en": "Presents a GPU-accelerated approach for efficient modeling of complex biological regulatory networks.",
+      "llm_tldr_cn": "提出了一种GPU加速方法，用于高效模拟复杂的生物调节网络。",
+      "llm_tldr": "提出了一种GPU加速方法，用于高效模拟复杂的生物调节网络。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "graph learning and foundation models for gene regulatory network inference and perturbation biology",
+      "matched_requirement_id": "req-22",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41986815",
+      "title": "Multi-tissue multi-omics integration reveals tissue-specific pathways, gene networks and drug candidates for type 1 diabetes.",
+      "abstract": "AIMS/HYPOTHESIS: Although genome-wide association studies (GWAS) have identified loci associated with type 1 diabetes, the specific pathways and regulatory networks linking these loci to disease pathology remain largely unknown. We hypothesised that type 1 diabetes genetic risk factors disrupt tissue-specific biological pathways and gene networks that ultimately lead to beta cell loss. METHODS: We conducted a multi-tissue multi-omics analysis that integrates human GWAS data for type 1 diabetes with tissue-specific regulatory data for gene expression and gene network models across relevant tissues to highlight key pathways and key driver (KD) genes contributing to type 1 diabetes pathogenesis. KD genes were validated using islet-specific gene expression and protein data from non-obese diabetic (NOD) mice compared with type 2 diabetic and non-diabetic mouse models. Drug repositioning predictions were generated using the INCS L1000 and PharmOmics platforms, and candidate drugs were tested using electronic medical records (EMRs) of individuals with type 1 diabetes from the OneFlorida+ Clinical Data Network. RESULTS: Our integrative genomics approach identified known immune pathways across multiple tissues, such as adaptive immune responses, cytokine-mediated inflammation, primary immunodeficiency, and interactions between lymphoid and non-lymphoid cells. Tissue-specific signals included genes related to type 2 diabetes in lymphocytes, viral response pathways in macrophages and monocytes, and Notch signalling in adipose tissue and immune cells. In pancreatic islet analysis, we observed significant enrichment for type 1 diabetes and type 2 diabetes gene sets alongside immune-related pathways, including antigen processing, systemic lupus erythematosus and IFN signalling. Removing HLA genes from the analysis revealed additional immune pathways, such as retinoic acid-inducible gene I (RIG-I)/melanoma differentiation-associated protein 5 (MDA5) induction of interferons, together with melanogenesis, steroid hormone synthesis and iron transport. Network modelling highlighted the autoimmune basis of disease, with KDs such as FYN, TAP1, WAS and HLA-B/C/G, as well as additional immunomodulatory proteins such as LCK, LCP2 and genes such as EMR1 and GC. These KDs were further supported by gene and protein expression data from NOD mice. We additionally highlight various drug classes that target the type 1 diabetes genetic networks and may be useful to delay type 1 diabetes development; some of these were supported by our EMR screen. CONCLUSIONS/INTERPRETATION: Our multi-tissue multi-omics approach provides a detailed landscape of the tissue-specific genetic networks and regulators underlying type 1 diabetes. This analysis confirms the roles of known immune pathways while uncovering additional regulatory elements and disease-associated networks, thus expanding our understanding of type 1 diabetes pathogenesis. The identification of potential drug candidates through network analysis, with supporting evidence from EMRs, offers potential therapeutic strategies for targeting disease pathways and holds promise for delaying or preventing type 1 diabetes progression.",
+      "authors": [
+        "Montgomery Blencowe",
+        "Zara Saleem",
+        "Ruoshui Liu",
+        "Margaret Wang",
+        "I-Hsin Tseng",
+        "Julian Wier",
+        "Stefan Mutter",
+        "Florin Vaida",
+        "Yi Guo",
+        "Niina Sandholm",
+        "Courtney Ackeifi",
+        "Daniel L Kaufman",
+        "Xia Yang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-15",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41986815/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "multi-tissue multi-omics integration for disease pathways",
+      "llm_evidence_cn": "疾病通路的多组织多组学整合",
+      "llm_evidence": "疾病通路的多组织多组学整合",
+      "canonical_evidence": "疾病通路的多组织多组学整合",
+      "llm_tldr_en": "Integrating GWAS and multi-omics data to identify tissue-specific pathways and drug candidates for type 1 diabetes.",
+      "llm_tldr_cn": "整合GWAS和多组学数据，以识别1型糖尿病的组织特异性通路和候选药物。",
+      "llm_tldr": "整合GWAS和多组学数据，以识别1型糖尿病的组织特异性通路和候选药物。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "41759306",
+      "title": "PROTACs as novel therapeutics against Mycobacterium tuberculosis: Current progress and future directions.",
+      "abstract": "Targeted Protein Degradation (TPD) has emerged as a transformative strategy in drug discovery, offering novel approaches to eliminate pathogenic proteins with high specificity. Unlike traditional small-molecule inhibitors, which often require sustained target engagement and are prone to resistance via target mutations, TPD harnesses the cell's endogenous ubiquitin-proteasome system to catalytically degrade pathogenic proteins, enabling potent and durable therapeutic effects. This review highlights the recent advances and potential of one such TPD technology, PROTACs against Mycobacterium tuberculosis. We discuss resistance mechanisms in bacteria along with various opportunities for PROTAC based degradation, explore challenges in achieving selectivity, and outline future directions for integrating PROTACs into anti-bacterial therapeutics. This emerging paradigm holds promise to revolutionize infectious disease treatment by offering targeted, mechanism-based eradication of disease-driving proteins. Looking forward, advances in medicinal chemistry, structural biology, and delivery platforms are expected to expand the scope and efficacy of various TPD strategies including PROTACs in infectious disease treatment.",
+      "authors": [
+        "Deepthi Ramesh",
+        "Ahammed Ameen Thottasseri"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-15",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41759306/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "AI for antimicrobial discovery and therapeutic design",
+      "llm_evidence_cn": "用于抗菌药物发现和治疗设计的AI",
+      "llm_evidence": "用于抗菌药物发现和治疗设计的AI",
+      "canonical_evidence": "用于抗菌药物发现和治疗设计的AI",
+      "llm_tldr_en": "Reviews PROTACs as a targeted protein degradation strategy for treating Mycobacterium tuberculosis.",
+      "llm_tldr_cn": "综述了PROTACs作为治疗结核分枝杆菌的靶向蛋白质降解策略。",
+      "llm_tldr": "综述了PROTACs作为治疗结核分枝杆菌的靶向蛋白质降解策略。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41921055",
+      "title": "Quantifying Protein Homodimer Affinities and the Effect of Molecular Glues and Interface Residues Using Native Mass Spectrometry.",
+      "abstract": "Biological processes rely on finely tuned homo- and heteromeric interactions between (biomacro)molecules. The strength of an interaction, typically given by the dissociation constant (KD), plays a crucial role in basic research and must be monitored throughout the development of drugs and agrochemicals. An ideal method for KD determination is applicable to various analytes with a large range of affinities, tolerates complex matrix compositions, does not require labeling, and simultaneously provides information on the structural integrity of the binding partners. Native mass spectrometry meets these criteria but typically struggles with homooligomeric complexes due to overlapping mass signals. To overcome this, we resolve monomer/dimer contributions to overlapping MS-peaks by separately analyzing the charge state distribution of each oligomeric species via sample dilution and covalent cross-linking. Following this approach, we show that quantitative laser-induced liquid bead ion desorption mass spectrometry (qLILBID-MS) accurately captures the affinities of Bovine Serum Albumin (BSA) and chemically induced dimers of Tryparedoxin (Tpx), an oxidoreductase from human pathogenic Trypanosoma brucei parasites, with various molecular glues and homodimer affinities. Conveniently, qLILBID-MS requires a fraction of sample used by other methods such as isothermal titration calorimetry (ITC) and yields previously inaccessible protein homodimer KDs in the high micromolar range, which allowed us to monitor the gradual decrease in homodimer affinity via mutation of crucial dimer interface contacts. Overall, qLILBID-MS is a sensitive, robust, fast, scalable, and cost-effective alternative to quantify protein/protein interactions, that can accelerate contemporary drug discovery workflows, e.g. the efficient screening for proximity inducing molecules like proteolysis targeting chimera (PROTACs) and molecular glues.",
+      "authors": [
+        "Jonathan Schulte",
+        "Eric Schwegler",
+        "Ute A Hellmich",
+        "Nina Morgner"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-15",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41921055/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Native mass spectrometry for protein interaction and structural integrity",
+      "llm_evidence_cn": "原生质谱用于蛋白质相互作用和结构完整性分析",
+      "llm_evidence": "原生质谱用于蛋白质相互作用和结构完整性分析",
+      "canonical_evidence": "原生质谱用于蛋白质相互作用和结构完整性分析",
+      "llm_tldr_en": "Uses native mass spectrometry to quantify protein homodimer affinities and molecular glue effects.",
+      "llm_tldr_cn": "利用原生质谱定量蛋白质同源二聚体亲和力和分子胶效应。",
+      "llm_tldr": "利用原生质谱定量蛋白质同源二聚体亲和力和分子胶效应。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for proteogenomics mass spectrometry and sequence analysis",
+      "matched_requirement_id": "req-45",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41987576",
+      "title": "Contrastive multimodal deep learning for survival prediction in grade 2/3 gliomas.",
+      "abstract": "BACKGROUND: Accurate survival prediction for grade 2/3 glioma patients remains challenging due to tumor biological heterogeneity and limitations of current prognostic methods that rely on single-modality data. METHODS: We developed a multimodal deep learning framework integrating histopathology whole-slide images, somatic mutations, and clinical-demographic data. A three-stage training pipeline combined contrastive learning with survival-specific optimization to align cross-modal representations. The framework was trained on 498 grade 2/3 glioma patients from TCGA and evaluated using 5-fold cross-validation and an independent Dartmouth-Hitchcock Medical Center (DHMC) cohort (n = 61). RESULTS: The contrastive multimodal model achieved a c-index of 0.91 (95% CI: 0.84 to 0.96), significantly outperforming the unimodal models (image-only = 0.76; non-image-only = 0.87) and showing an improvement over the non-contrastive multimodal model (c-index = 0.89), although this difference was not statistically significant. Kaplan-Meier analysis demonstrated clear survival separation across risk strata (log-rank P = 4.4 × 10-5). Contrastive learning improved representation clustering quality, with silhouette scores increasing from 0.20 to 0.24 (P = 0.05). External evaluation on the DHMC cohort achieved a c-index of 0.87 (95% CI: 0.77 to 0.95) after domain adaptation. CONCLUSION: Contrastive multimodal learning significantly enhances survival prediction in grade 2/3 gliomas by effectively integrating histopathology, genomics, and clinical data. This annotation-free approach enables early risk stratification using routinely collected data and shows promise for informing personalized treatment decisions and clinical trial stratification.",
+      "authors": [
+        "Peiying Hua",
+        "Chun-Chieh Lin",
+        "Travis Fenlon",
+        "Xiaoying Liu",
+        "Saeed Hassanpour"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-15",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41987576/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "multimodal deep learning integrating histopathology and somatic mutations",
+      "llm_evidence_cn": "整合组织病理学和体细胞突变的多模态深度学习",
+      "llm_evidence": "整合组织病理学和体细胞突变的多模态深度学习",
+      "canonical_evidence": "整合组织病理学和体细胞突变的多模态深度学习",
+      "llm_tldr_en": "Develops a multimodal deep learning framework for glioma survival prediction using histopathology and mutations.",
+      "llm_tldr_cn": "开发了一个整合病理图像和体细胞突变的多模态深度学习框架，用于胶质瘤生存预测。",
+      "llm_tldr": "开发了一个整合病理图像和体细胞突变的多模态深度学习框架，用于胶质瘤生存预测。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "multimodal models combining sequence structure phenotype and text",
+      "matched_requirement_id": "req-24",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41983410",
+      "title": "Reassessing the reliability and translational potential of bacterial cell envelope targets: lessons from LpxC, NagA, and beyond.",
+      "abstract": "Despite major advances in antibacterial target identification, the translation of biochemically validated targets into clinically effective therapies remains inconsistent, particularly for Gram-negative pathogens. Enzymes involved in bacterial cell envelope biogenesis, such as LpxC and NagA, exemplify this disconnect. Both targets are genetically validated, structurally tractable, and extensively characterized, yet no inhibitors have reached clinical use. Here, we argue that this gap reflects limitations in early target assessment rather than intrinsic flaws in these enzymes. Using LpxC and NagA as case studies, we highlight how context-dependent essentiality, metabolic adaptability, pathway robustness, host microenvironments, and pharmacokinetic constraints collectively shape translational outcomes. We further discuss systems-level and computational approaches that expose adaptive buffering and compensatory mechanisms overlooked by classical validation paradigms. Finally, we propose a reliability-based framework for antibacterial target prioritization that integrates physiological indispensability, pathway fragility, bypass potential, and translational feasibility. Incorporating reliability-driven criteria early in discovery may improve target selection and reduce late-stage attrition in antibacterial drug development.",
+      "authors": [
+        "Ahmed M Kamal El-Sagheir",
+        "Alaa Elsaghir"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-15",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41983410/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "antibacterial target identification and translational potential assessment",
+      "llm_evidence_cn": "抗菌靶点识别与转化潜力评估",
+      "llm_evidence": "抗菌靶点识别与转化潜力评估",
+      "canonical_evidence": "抗菌靶点识别与转化潜力评估",
+      "llm_tldr_en": "Discusses the gap between antibacterial target identification and clinical translation for Gram-negative pathogens.",
+      "llm_tldr_cn": "探讨了革兰氏阴性菌抗菌靶点识别与临床转化之间的差距及评估局限。",
+      "llm_tldr": "探讨了革兰氏阴性菌抗菌靶点识别与临床转化之间的差距及评估局限。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41988677",
+      "title": "Self-Assembling Nano-Antimicrobial Oligopeptides With Dual Offense-Defense Functions for Synchronously Achieving High Activity and Biosafety.",
+      "abstract": "Self-assembling nano-antimicrobial peptides (nano-AMPs) hold significant promise for addressing bacterial resistance, yet the persistent activity-biocompatibility paradox remains a major scientific challenge. Here, we present an \"integrated offense‒defense\" strategy in which binding to mammalian cells is inhibited (defense) but bacterial membrane insertion is improved (offense), effectively decoupling antimicrobial potency from host cytotoxicity. We demonstrated that nano-AMPs with moderate surface potentials (∼+20 mV) preferentially bind to bacteria and exhibit minimal interactions with mammalian cells because of the inherent charge disparity between bacterial and mammalian cell membranes. Experimental and theoretical analysis revealed that systematic sequence engineering resulted in peptide nanofibers with loose molecular packing and high exposure of hydrophobic residues. The optimized nano-AMP exhibited potent antimicrobial activity (MIC of 5∼6 µM) and exceptional biosafety (therapeutic index TI = HC10 / MIC > 30; selectivity index SI = IC20 / MIC> 50). A murine skin wound infection model confirmed the antimicrobial efficacy of this peptide, which reduced the bacterial burden and promoted wound healing.",
+      "authors": [
+        "He Zhao",
+        "Ye Tian",
+        "Runpeng Liu",
+        "Huimei Yu",
+        "Jiayi Sun",
+        "Xiaoyan Jia",
+        "Hai Xu",
+        "Yongju Kim",
+        "Wen Li"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-16",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41988677/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "antimicrobial peptide design for addressing bacterial resistance",
+      "llm_evidence_cn": "针对细菌耐药性的抗菌肽设计",
+      "llm_evidence": "针对细菌耐药性的抗菌肽设计",
+      "canonical_evidence": "针对细菌耐药性的抗菌肽设计",
+      "llm_tldr_en": "Presents a strategy for nano-antimicrobial peptides to decouple antimicrobial potency from host cytotoxicity.",
+      "llm_tldr_cn": "提出了一种纳米抗菌肽设计策略，有效分离了抗菌效力与宿主细胞毒性。",
+      "llm_tldr": "提出了一种纳米抗菌肽设计策略，有效分离了抗菌效力与宿主细胞毒性。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41983571",
+      "title": "Translation quality control in Pseudomonas aeruginosa: current knowledge and perspectives.",
+      "abstract": "The fitness and virulence of Pseudomonas aeruginosa rely on its ability to maintain a functional pool of ribosomes, which are essential for protein synthesis. This review explores the intricate ways of ribosome protection, rescue and hibernation, by which P. aeruginosa preserves ribosome functionality under stress. These processes enhance the adaptability and resistance of this pathogen to ribosome-targeting antibiotics and present significant challenges to current therapeutic strategies. By highlighting recent discoveries and identifying promising directions for future research, this review aims to explore potential targets for innovative drug discovery.",
+      "authors": [
+        "L'Hermitte B, Gillet R, Baysse C.",
+        "Bastien L'Hermitte",
+        "Reynald Gillet",
+        "Christine Baysse"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-15",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41983571/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "pathogen target identification and drug discovery",
+      "llm_evidence_cn": "病原体靶点识别与药物发现",
+      "llm_evidence": "病原体靶点识别与药物发现",
+      "canonical_evidence": "病原体靶点识别与药物发现",
+      "llm_tldr_en": "Discusses ribosome protection in P. aeruginosa as a potential target for innovative drug discovery.",
+      "llm_tldr_cn": "讨论了铜绿假单胞菌中的核糖体保护，作为创新药物发现的潜在靶点。",
+      "llm_tldr": "讨论了铜绿假单胞菌中的核糖体保护，作为创新药物发现的潜在靶点。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41988720",
+      "title": "Glomage: A Multimodal Platform for High-Content Morphological and RNA Profiling of Glomeruli in Zebrafish and Mouse Models.",
+      "abstract": "Chronic kidney disease affects more than 850 million people worldwide, yet effective treatment strategies remain limited. The glomerulus is the central filtering unit of the kidney and critically depends on the complex 3D architecture of podocytes. As terminally differentiated and essentially non-regenerative cells, podocytes are highly vulnerable to injury, and their loss is an irreversible factor in kidney function decline. However, their complex morphology has prevented scalable analysis and slowed progress in drug discovery. To overcome these limitations, Glomage was developed as a cross-species high-throughput platform for scalable 3D analysis of glomeruli. In zebrafish larvae, the workflow enables simultaneous isolation, staining, volumetric imaging, and RNA extraction of hundreds of glomeruli. By preserving spatial architecture, the protocol supports rapid, reproducible quantification of podocyte number and structure, enabling systematic assessment of cellular phenotypes at an unprecedented scale. To extend translational relevance, the workflow was adapted to isolated mouse glomeruli, enabling rapid 3D imaging and sensitive detection of key pathological features such as age-related podocyte depletion. Compatibility across species underscores the robustness, versatility, and broad applicability of the platform. Overall, Glomage creates a powerful high-content framework for glomerular profiling, accelerates mechanistic studies of podocyte biology, and supports the discovery of urgently needed therapeutic interventions.",
+      "authors": [
+        "Maximilian Schindler",
+        "Tim Lange",
+        "Sophia-Marie Bach",
+        "Soeren S Lienkamp",
+        "Nicole Endlich"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-16",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41988720/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Multimodal platform for high-content morphological and RNA profiling",
+      "llm_evidence_cn": "用于高内涵形态学和RNA分析的多模态平台",
+      "llm_evidence": "用于高内涵形态学和RNA分析的多模态平台",
+      "canonical_evidence": "用于高内涵形态学和RNA分析的多模态平台",
+      "llm_tldr_en": "Glomage provides a scalable 3D multimodal platform for kidney morphological and RNA profiling.",
+      "llm_tldr_cn": "Glomage提供了一个可扩展的3D多模态平台，用于肾脏形态学和RNA谱分析。",
+      "llm_tldr": "Glomage提供了一个可扩展的3D多模态平台，用于肾脏形态学和RNA谱分析。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "deep learning and foundation models for spatial transcriptomics proteomics and tissue mapping",
+      "matched_requirement_id": "req-46",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41986597",
+      "title": "Stable bioreactor control reveals acidic pH-driven metabolic reprogramming and mitochondrial dysfunction in human lymphoblastoid cells.",
+      "abstract": "Human cells require pH regulation to maintain physiological function, yet the molecular consequences of acidic environments remain incompletely understood. Here, we employ a gas-only bioreactor to control pH, oxygen, and temperature. Integrated multi-omics analyses reveal that acidic pH induces a glycolytic metabolic shift, suppresses proliferation, and promotes accumulation of lactate and oncometabolites alongside mitochondrial dysfunction. Acidic conditions increase reactive oxygen species (ROS) and activate inflammatory and immune pathways, leading to heteroplasmic enrichment of a pathogenic mitochondrial mutation. Acidic pH depletes intracellular NAD⁺, partly driven by PARP1 activation. Restoring NAD⁺ through nicotinamide mononucleotide (NMN) supplementation partially rescues proliferation and stress-associated transcription, while elevating NAD+ levels by NMN or PARP1 inhibition reverses heteroplasmic enrichment of mutant mitochondrial DNA. These findings underscore the role of pH homeostasis in coordinating metabolism, redox balance, and immune signaling, and identify NAD⁺ metabolism as a mechanistic link between acidic microenvironments, mitochondrial genome instability, and immune-metabolic remodeling.",
+      "authors": [
+        "Samhan Alsolami",
+        "Yingzi Zhang",
+        "Upendra Singh",
+        "Yiqing Jin",
+        "Nadia Steiner",
+        "Kacper Szczepski",
+        "Shannon G Klein",
+        "Baolei Yuan",
+        "Chongwei Bi",
+        "Mengge Wang",
+        "Siyi Fu",
+        "Juan Carlos Izpisua Belmonte",
+        "Pierre J Magistretti",
+        "Carlos M Duarte",
+        "Lukasz Jaremko",
+        "Mo Li"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-15",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41986597/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "integrated multi-omics analyses for metabolic reprogramming",
+      "llm_evidence_cn": "代谢重编程的集成多组学分析",
+      "llm_evidence": "代谢重编程的集成多组学分析",
+      "canonical_evidence": "代谢重编程的集成多组学分析",
+      "llm_tldr_en": "Multi-omics analysis reveals how acidic pH drives metabolic shifts and mitochondrial dysfunction in human cells.",
+      "llm_tldr_cn": "多组学分析揭示了酸性pH如何驱动人类细胞的代谢转变和线粒体功能障碍。",
+      "llm_tldr": "多组学分析揭示了酸性pH如何驱动人类细胞的代谢转变和线粒体功能障碍。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

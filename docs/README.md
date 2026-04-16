@@ -11,66 +11,56 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-04-15
-- 运行时间：2026-04-15 19:55:18 UTC
+- 最新运行日期：2026-04-16
+- 运行时间：2026-04-16 19:50:17 UTC
 - 运行状态：成功
-- 本次总论文数：15
-- 精读区：5
-- 速读区：10
+- 本次总论文数：12
+- 精读区：4
+- 速读区：8
 
 ### 今日简报（AI）
-今日深度解析 15 篇前沿成果，重点聚焦宏基因组分类工具测评与新型蛋白酶抑制剂筛选。
-权威基准测试揭示了现代宏基因组工具的性能差异，同时非肽类 3CL 蛋白酶先导化合物的发现为药物
-- 详情：[/202604/15/README](/202604/15/README)
+今日聚焦 12 篇生物医药前沿进展，深度解析了疟疾基因组溯源与 AI 辅助药物靶点
+- 详情：[/202604/16/README](/202604/16/README)
 
 ### 精读区论文标签
-1. [A systematic review and benchmarking of modern metagenomic tools for taxonomic classification.](/202604/15/41830810-a-systematic-review-and-benchmarking-of-modern-metagenomic-tools-for-taxonomic-classification)  
+1. [Rapid whole genome sequencing of Plasmodium DNA from cryptic malaria cases in UK travellers provides insights into infection origins, transmission, and antimalarial resistance.](/202604/16/41989089-rapid-whole-genome-sequencing-of-plasmodium-dna-from-cryptic-malaria-cases-in-uk-travellers-provides-insights-into-infection-origins-transmission-and-antimalarial-resistance)  
    标签：评分：9.0/10、query:pathoai
-   evidence：宏基因组分类工具的基准测试
-2. [Structure- and Ligand-Based Discovery of Novel 3-Chymotrypsin-Like Protease Nonpeptidomimetic Hits.](/202604/15/41957532-structure--and-ligand-based-discovery-of-novel-3-chymotrypsin-like-protease-nonpeptidomimetic-hits)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：机器学习用于新冠病毒3CL蛋白酶抑制剂发现
-3. [A multi-modal diffusion model with dual-cross-attention for multi-omics data generation and translation.](/202604/15/41980989-a-multi-modal-diffusion-model-with-dual-cross-attention-for-multi-omics-data-generation-and-translation)  
-   标签：评分：9.0/10、query:bioinfo
-   evidence：用于多组学数据整合的多模态扩散模型
-4. [Machine-Learning Microfluidic Minute-Scale Microorganism Metrics Monitoring(M6).](/202604/15/41984488-machine-learning-microfluidic-minute-scale-microorganism-metrics-monitoringm6)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：机器学习用于非洲猪瘟病毒等气溶胶传播病原体的快速检测
-5. [Accelerated Combinatorial Drug Design for Human Immunodeficiency Virus Resistance through Seeded Multisite λ-Dynamics.](/202604/15/41911382-accelerated-combinatorial-drug-design-for-human-immunodeficiency-virus-resistance-through-seeded-multisite--dynamics)  
-   标签：评分：8.0/10、query:pathoai
-   evidence：利用多位点动力学进行HIV耐药性药物设计
+   evidence：全基因组测序用于疟疾监测、传播途径和耐药性标记物分析
+2. [Explainability Methods from Machine Learning Detect Important Drugs' Atoms in Drug-Target Interactions.](/202604/16/41985080-explainability-methods-from-machine-learning-detect-important-drugs-atoms-in-drug-target-interactions)  
+   标签：评分：8.0/10、query:bioinfo
+   evidence：基于图神经网络的药物-靶点相互作用可解释AI
+3. [GPU-accelerated modeling of biological regulatory networks.](/202604/16/41986459-gpu-accelerated-modeling-of-biological-regulatory-networks)  
+   标签：评分：8.0/10、query:bioinfo
+   evidence：GPU加速的生物调节网络建模
+4. [Multi-tissue multi-omics integration reveals tissue-specific pathways, gene networks and drug candidates for type 1 diabetes.](/202604/16/41986815-multi-tissue-multi-omics-integration-reveals-tissue-specific-pathways-gene-networks-and-drug-candidates-for-type-1-diabetes)  
+   标签：评分：8.0/10、query:bioinfo
+   evidence：疾病通路的多组织多组学整合
 
 ### 速读区论文标签
-1. [Molecular and mechanistic insights into the gut-liver axis in](/202604/15/41778923-molecular-and-mechanistic-insights-into-the-gut-liver-axis-in)  
+1. [PROTACs as novel therapeutics against Mycobacterium tuberculosis: Current progress and future directions.](/202604/16/41759306-protacs-as-novel-therapeutics-against-mycobacterium-tuberculosis-current-progress-and-future-directions)  
    标签：评分：7.0/10、query:pathoai
-   evidence：肺炎克雷伯菌的病原体-宿主相互作用与感染建模
-2. [Insights into the Arms Race between Prokaryotic Hosts and Their Viruses in Mangrove Ecosystem.](/202604/15/41891780-insights-into-the-arms-race-between-prokaryotic-hosts-and-their-viruses-in-mangrove-ecosystem)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：原核宿主与病毒军备竞赛的宏基因组分析
-3. [KIMMDY: a biomolecular reaction emulator.](/202604/15/41980962-kimmdy-a-biomolecular-reaction-emulator)  
+   evidence：用于抗菌药物发现和治疗设计的AI
+2. [Contrastive multimodal deep learning for survival prediction in grade 2/3 gliomas.](/202604/16/41987576-contrastive-multimodal-deep-learning-for-survival-prediction-in-grade-23-gliomas)  
    标签：评分：7.0/10、query:bioinfo
-   evidence：用于预测生物分子反应速率的图神经网络
-4. [Molecular and antigenic characteristics of the influenza B virus in Guangzhou, 2022-2023.](/202604/15/41981599-molecular-and-antigenic-characteristics-of-the-influenza-b-virus-in-guangzhou-2022-2023)  
+   evidence：整合组织病理学和体细胞突变的多模态深度学习
+3. [Self-Assembling Nano-Antimicrobial Oligopeptides With Dual Offense-Defense Functions for Synchronously Achieving High Activity and Biosafety.](/202604/16/41988677-self-assembling-nano-antimicrobial-oligopeptides-with-dual-offense-defense-functions-for-synchronously-achieving-high-activity-and-biosafety)  
    标签：评分：7.0/10、query:pathoai
-   evidence：乙型流感病毒变异株的系统发育分析和结构建模
-5. [Quantum dot-DNA microsphere aptamer biosensor with AI-assisted structural modeling for rapid detection of the lung cancer biomarker USE1.](/202604/15/41981644-quantum-dot-dna-microsphere-aptamer-biosensor-with-ai-assisted-structural-modeling-for-rapid-detection-of-the-lung-cancer-biomarker-use1)  
-   标签：评分：7.0/10、query:bioinfo
-   evidence：基于 AlphaFold3 的结构建模用于适配体-靶标结合假设
-6. [Hypoxia inducible factors regulate pneumovirus replication by enhancing innate immune sensing.](/202604/15/41945438-hypoxia-inducible-factors-regulate-pneumovirus-replication-by-enhancing-innate-immune-sensing)  
-   标签：评分：6.0/10、query:pathoai
-   evidence：肺炎病毒感染中宿主-病原体相互作用和免疫感知的转录组分析
-7. [Proteogenomic decoding of chemotherapy resistance in patients with triple-negative breast cancer.](/202604/15/41975515-proteogenomic-decoding-of-chemotherapy-resistance-in-patients-with-triple-negative-breast-cancer)  
+   evidence：针对细菌耐药性的抗菌肽设计
+4. [Glomage: A Multimodal Platform for High-Content Morphological and RNA Profiling of Glomeruli in Zebrafish and Mouse Models.](/202604/16/41988720-glomage-a-multimodal-platform-for-high-content-morphological-and-rna-profiling-of-glomeruli-in-zebrafish-and-mouse-models)  
+   标签：评分：7.0/10、query:seqai
+   evidence：用于高内涵形态学和RNA分析的多模态平台
+5. [Quantifying Protein Homodimer Affinities and the Effect of Molecular Glues and Interface Residues Using Native Mass Spectrometry.](/202604/16/41921055-quantifying-protein-homodimer-affinities-and-the-effect-of-molecular-glues-and-interface-residues-using-native-mass-spectrometry)  
    标签：评分：6.0/10、query:seqai
-   evidence：测序与质谱数据的蛋白质基因组学整合
-8. [Quantitative stable isotope probing (qSIP)-informed metagenomics identifies viruses infecting chemoautotrophs.](/202604/15/41980953-quantitative-stable-isotope-probing-qsip-informed-metagenomics-identifies-viruses-infecting-chemoautotrophs)  
-   标签：评分：6.0/10、query:seqai
-   evidence：利用宏基因组学鉴定水生环境中的病毒
-9. [[Differential analysis of gut microbiome in patients with periprosthetic joint infection, aseptic failure, and osteoarthritis].](/202604/15/41981426-differential-analysis-of-gut-microbiome-in-patients-with-periprosthetic-joint-infection-aseptic-failure-and-osteoarthritis)  
+   evidence：原生质谱用于蛋白质相互作用和结构完整性分析
+6. [Reassessing the reliability and translational potential of bacterial cell envelope targets: lessons from LpxC, NagA, and beyond.](/202604/16/41983410-reassessing-the-reliability-and-translational-potential-of-bacterial-cell-envelope-targets-lessons-from-lpxc-naga-and-beyond)  
    标签：评分：6.0/10、query:pathoai
-   evidence：肠道菌群失调与感染结果预测
-10. [Modulating the gut microbiota to enhance immune checkpoint inhibitor efficacy in colorectal cancer: mechanisms, therapeutic strategies, and clinical perspectives.](/202604/15/41981741-modulating-the-gut-microbiota-to-enhance-immune-checkpoint-inhibitor-efficacy-in-colorectal-cancer-mechanisms-therapeutic-strategies-and-clinical-perspectives)  
+   evidence：抗菌靶点识别与转化潜力评估
+7. [Translation quality control in Pseudomonas aeruginosa: current knowledge and perspectives.](/202604/16/41983571-translation-quality-control-in-pseudomonas-aeruginosa-current-knowledge-and-perspectives)  
    标签：评分：6.0/10、query:pathoai
-   evidence：肠道菌群调节与宿主免疫相互作用
+   evidence：病原体靶点识别与药物发现
+8. [Stable bioreactor control reveals acidic pH-driven metabolic reprogramming and mitochondrial dysfunction in human lymphoblastoid cells.](/202604/16/41986597-stable-bioreactor-control-reveals-acidic-ph-driven-metabolic-reprogramming-and-mitochondrial-dysfunction-in-human-lymphoblastoid-cells)  
+   标签：评分：6.0/10、query:bioinfo
+   evidence：代谢重编程的集成多组学分析
 
 
 <div class="dpr-home-promo-card">
