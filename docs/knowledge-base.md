@@ -1,10 +1,25 @@
 # 知识库
 
-- 最近沉淀条目数：422
+- 最近沉淀条目数：427
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Conserved and divergent gene regulatory networks for crop drought resistance.](#/202604/17/202604/17/41991527-conserved-and-divergent-gene-regulatory-networks-for-crop-drought-resistance)
+  - TLDR：针对作物抗旱机制在跨物种间保守性与差异性不明的问题，该研究利用图深度学习框架整合了5000多份转录组数据，构建了涵盖13万个基因的跨组学基因调控网络（GRN）。研究发现了TCP-PP2C等保守调控模式，并揭示了C3与C4作物在抗旱策略上的网络拓扑差异：C3作物依赖集中且剧烈重构的网络实现避旱，而C4作物则通过分布式且稳定的网络实现耐旱。这为理解作物进化适应性提供了新视角。
+  - Tags：`query:bioinfo`
+- [Interpretable multimodal PET/CT-EHR fusion via mixture-of-experts for prognostic stratification in mantle cell lymphoma: a multicenter study.](#/202604/17/202604/17/41992190-interpretable-multimodal-petct-ehr-fusion-via-mixture-of-experts-for-prognostic-stratification-in-mantle-cell-lymphoma-a-multicenter-study)
+  - TLDR：针对套细胞淋巴瘤（MCL）生物学异质性强、传统预后工具准确性不足的问题，本研究开发了一种基于混合专家模型（MoE）的多模态融合框架。该框架通过注意力门控机制，深度整合了患者基线PET/CT影像视觉特征、影像组学特征以及电子健康记录（EHR）的文本表征。实验结果显示，该模型在预测无进展生存期和总生存期方面显著优于传统临床指标，并能通过注意力图谱提供病理相关的可解释性，为MCL的精准风险分层提供了非侵入性工具。
+  - Tags：`query:bioinfo`
+- [The diagnostic and prognostic utility of blood metagenomic next-generation sequencing for invasive pulmonary aspergillosis.](#/202604/17/202604/17/41995327-the-diagnostic-and-prognostic-utility-of-blood-metagenomic-next-generation-sequencing-for-invasive-pulmonary-aspergillosis)
+  - TLDR：针对临床上难以区分侵袭性肺曲霉病（IPA）与曲霉定植的难题，本研究回顾性分析了95例血宏基因组测序（mNGS）阳性患者，评估了真菌载量（RPM）及血清学指标（GM、BDG）的诊断与预后价值。结果显示，虽然RPM单独诊断效能有限，但与GM或BDG联合使用可显著提升诊断准确率（AUC最高达0.900），并识别出反晕征等死亡预测因子，为危重症患者提供了非侵入性的多模态诊疗方案。
+  - Tags：`query:pathoai`
+- [Hypobaric hypoxia affects gut microbiota of rats through affected community assembly, reduced network resilience, and metabolic reprogramming.](#/202604/17/202604/17/41990134-hypobaric-hypoxia-affects-gut-microbiota-of-rats-through-affected-community-assembly-reduced-network-resilience-and-metabolic-reprogramming)
+  - TLDR：针对高原低压缺氧环境对肠道微生物影响机制尚不明确的问题，本研究利用宏基因组测序技术对比了模拟6000米海拔与2100米海拔下大鼠的肠道菌群。研究发现缺氧显著改变了菌群的β多样性，降低了群落构建中的随机性影响及共发生网络的稳定性，并导致蛋白质合成与碳水化合物代谢路径发生重编程。该成果揭示了环境压力重塑微生物动态的机制，为理解高海拔环境下的宿主-微生物互作提供了新视角。
+  - Tags：`query:seqai`
+- [The ecological dynamics of skin microbiota in skin health and diseases.](#/202604/17/202604/17/41995603-the-ecological-dynamics-of-skin-microbiota-in-skin-health-and-diseases)
+  - TLDR：皮肤微生物群对维持皮肤健康至关重要，但其失调会导致特应性皮炎、银屑病等疾病。本文综述了皮肤微生物的组成、功能及其与宿主免疫的交互机制，分析了环境与生物因素对菌群稳定性的影响。通过总结针对特定致病菌（如金黄色葡萄球菌）的干预策略，为开发基于微生物组的新型皮肤病疗法提供了理论支撑和研究方向。
+  - Tags：`query:pathoai`
 - [Rapid whole genome sequencing of Plasmodium DNA from cryptic malaria cases in UK travellers provides insights into infection origins, transmission, and antimalarial resistance.](#/202604/16/202604/16/41989089-rapid-whole-genome-sequencing-of-plasmodium-dna-from-cryptic-malaria-cases-in-uk-travellers-provides-insights-into-infection-origins-transmission-and-antimalarial-resistance)
   - TLDR：针对英国每年约2000例输入性疟疾中难以追踪感染源的“隐匿性病例”，研究团队利用Illumina和纳米孔测序技术对临床样本进行全基因组测序，并结合Malaria-Profiler工具及AI模型进行快速分析。该方法成功识别了耐药性标记，并基于1.5万个基因组数据库精准推断了地理来源，同时通过亲缘关系分析确认了家庭内部的传播集群。这为非疟疾流行地区提供了高分辨率的监测手段，有助于快速响应公共卫生风险并优化防控资源分配。
   - Tags：`query:pathoai`
@@ -590,18 +605,3 @@
 - [Microecological Interventions against Antibiotic-Induced Dysbiosis and Related Resistome Expansion.](#/202603/27/202603/27/41889026-microecological-interventions-against-antibiotic-induced-dysbiosis-and-related-resistome-expansion)
   - TLDR：抗生素滥用导致肠道菌群失调及耐药基因扩散，严重威胁全球健康。本文综述了益生菌、粪菌移植及饮食调节等微生态干预手段在恢复肠道稳态、增强定植抵抗力及遏制耐药组扩张方面的作用。通过整合生态学与治疗视角，该研究为应对抗生素耐药性及改善临床预后提供了一套可持续的微生态干预框架。
   - Tags：`query:pathoai`
-- [Gut yeasts accelerate chill coma recovery in Drosophila melanogaster.](#/202603/27/202603/27/41891189-gut-yeasts-accelerate-chill-coma-recovery-in-drosophila-melanogaster)
-  - TLDR：针对肠道微生物如何影响宿主抗逆性的问题，本研究通过构建无菌、天然及特定酵母定植的黑腹果蝇模型，评估了不同酵母菌株对果蝇冷昏迷恢复时间（CCRT）的影响。实验发现，特定种类的活酵母（如 Lachancea kluyveri）能显著缩短雌性果蝇的恢复时间，而死酵母或非共生菌株无效。这一发现揭示了肠道酵母在调节宿主热耐受性中的关键共生作用，挑战了酵母仅作为营养来源的传统认知。
-  - Tags：`query:pathoai`
-- [Sparse autoencoders reveal organized biological knowledge but minimal regulatory logic in single-cell foundation models: a comparative atlas of Geneformer and scGPT](#/202603/26/202603/26/10.21203/rs.3.rs-9082479/v1-sparse-autoencoders-reveal-organized-biological-knowledge-but-minimal-regulatory-logic-in-single-cell-foundation-models-a-comparative-atlas-of-geneformer-and-scgpt)
-  - TLDR：单细胞大模型（如Geneformer和scGPT）是否真正理解基因调控逻辑尚不明确。本研究利用稀疏自编码器（SAE）对这两个模型的内部激活进行了解构，构建了包含超过10万个特征的解释性图谱。研究发现，模型虽然成功学习了复杂的生物学知识（如通路、蛋白质相互作用和层级结构），但在应对CRISPRi扰动实验时表现出极弱的因果调控逻辑。这一结果揭示了当前单细胞模型在模拟基因调控网络方面的局限性，并为模型改进提供了方向。
-  - Tags：`query:bioinfo`
-- [Atlas of predicted protein complex structures across kingdoms.](#/202603/26/202603/26/41882029-atlas-of-predicted-protein-complex-structures-across-kingdoms)
-  - TLDR：蛋白质复合物是生命活动的核心，但其结构表征远滞后于相互作用数据的增长。本研究利用基于 AlphaFold2 的 ColabFold 框架，构建了涵盖细菌、古菌、人类、小鼠及病毒等跨物种的 110 万个蛋白质相互作用结构图谱。通过筛选出 18 万个高置信度结构，揭示了跨物种保守的复合物构型，并成功预测了新型病毒受体。该资源不仅深化了对蛋白质进化与功能的理解，还显著提升了蛋白质结合位点预测等下游 AI 任务的性能。
-  - Tags：`query:bioinfo`
-- [Structure-Based Discovery of a New LpxH-Targeted Chemotype with Activity against](#/202603/26/202603/26/41784176-structure-based-discovery-of-a-new-lpxh-targeted-chemotype-with-activity-against)
-  - TLDR：针对革兰氏阴性菌外膜屏障导致的耐药难题，本研究聚焦于脂质A合成的关键酶LpxH。由于现有抑制剂骨架单一，研究团队利用药效团建模、形状匹配及分子对接的多阶段虚拟筛选技术，从海量化合物中鉴定出乙酰哌嗪这一新化学骨架。经过结构优化得到的化合物7展现出显著的酶抑制活性和抗菌潜力，并通过晶体结构解析证实了其独特的结合模式，为新型抗生素研发开辟了新路径。
-  - Tags：`query:pathoai`
-- [Elucidating the therapeutic mechanism of Orthosiphon aristatus in hyperuricemic nephropathy: An integrated microbiome-metabolomics approach.](#/202603/26/202603/26/41456824-elucidating-the-therapeutic-mechanism-of-orthosiphon-aristatus-in-hyperuricemic-nephropathy-an-integrated-microbiome-metabolomics-approach)
-  - TLDR：高尿酸性肾病（HN）因传统药物副作用大而难以根治。本研究通过大鼠实验，利用宏基因组学与代谢组学联合分析，揭示了猫须草（Orthosiphon aristatus）的治疗机制。结果显示，猫须草通过调节肠道菌群（如增加普氏菌）、改善色氨酸代谢并抑制IDO1/犬尿氨酸/AhR促纤维化通路，有效减轻了肾损伤和纤维化，为HN的临床治疗提供了肠-肾轴互动的新视角。
-  - Tags：`query:bioinfo`

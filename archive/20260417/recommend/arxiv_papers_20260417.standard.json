@@ -1,0 +1,252 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-04-17T19:46:11.439146+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 1,
+    "deep_cap": 9,
+    "deep_selected": 1,
+    "quick_candidates": 4,
+    "quick_skim_target": 14,
+    "quick_selected": 4
+  },
+  "deep_dive": [
+    {
+      "id": "41991527",
+      "title": "Conserved and divergent gene regulatory networks for crop drought resistance.",
+      "abstract": "Understanding crop drought resistance mechanisms is critical for enhancing resilience to intensifying climate change. However, the conserved and divergent drought resistance mechanisms under the genetic basis across species remain unclear. Here, using an innovative graph-based deep learning framework, we construct drought-responsive large-scale gene regulatory networks (GRNs) across transcriptional, proteomic, and metabolic layers in major Poaceae crops integrating over 5000 bulk RNA-seq datasets to map 3.3 million interactions among 130,000 genes. Other crops in Fabaceae and Solanaceae are also included for further validation. Large-scale data and advanced algorithms provide rigorous, genome-wide evidence and insights into drought GRNs. We find robustly conserved interaction patterns of TCP-PP2C and ERF-2OGD linked to abscisic acid and redox regulation. Divergent mechanisms are identified, including SPL-PELP in rice/wheat lineage and ERF-Psb28 in maize/sorghum lineage from large-scale comparative network analysis. We propose the hypothesis that drought resistance in crops is phylogenetically constrained by the topological structure of GRNs, rather than just a few key genes. Drought resistance of representative C3 crops, with inherited growth-related drought escape and avoidance strategies, is governed by a concentrated network with drastic reprogramming, while drought resistance of representative C4 crops, with genetically determined drought tolerance strategy, is governed by a distributed and stable network. Our findings offer deep insights into the evolutionary dynamics of GRNs in crops, revealing how gene network architecture has been shaped by natural selection to drive genetic adaptation in response to climate challenges.",
+      "authors": [
+        "Xianzhi Deng",
+        "Liangsheng Shi",
+        "Yu Wang",
+        "Han Qiao",
+        "Xin Wang",
+        "Jiateng Ma",
+        "Yufan Zhang",
+        "Yuanyuan Zha",
+        "Xiaolong Hu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-17",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41991527/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "graph-based deep learning for gene regulatory network inference",
+      "llm_evidence_cn": "基于图深度学习的基因调控网络推断",
+      "llm_evidence": "基于图深度学习的基因调控网络推断",
+      "canonical_evidence": "基于图深度学习的基因调控网络推断",
+      "llm_tldr_en": "Uses a graph-based deep learning framework to construct large-scale gene regulatory networks across crops.",
+      "llm_tldr_cn": "利用图深度学习框架构建跨作物的多组学大规模基因调控网络。",
+      "llm_tldr": "利用图深度学习框架构建跨作物的多组学大规模基因调控网络。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "graph learning and foundation models for gene regulatory networks and cell state transitions",
+      "matched_requirement_id": "req-34",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "41992190",
+      "title": "Interpretable multimodal PET/CT-EHR fusion via mixture-of-experts for prognostic stratification in mantle cell lymphoma: a multicenter study.",
+      "abstract": "BACKGROUND: Mantle cell lymphoma (MCL) is a rare, biologically heterogeneous B-cell malignancy with highly variable outcomes. Existing prognostic tools are suboptimal. We developed an interpretable deep learning framework integrating baseline [18F]FDG PET/CT and electronic health record (EHR) data for individualized risk stratification. METHODS: In this multicenter study, 187 treatment-naïve MCL patients were analyzed. A mixture-of-experts (MoE) fusion network integrated multimodal representations from PET/CT and EHR data. Expert modules comprising vision encoders, radiomics extractors, and a medical language model were integrated through an attention-based gating mechanism to construct multimodal radiomic signatures (R-signatures) predictive of progression-free survival (PFS) and overall survival (OS). R-signatures were validated and incorporated with clinical and metabolic factors into multiparametric models. Deep learning model interpretability was evaluated using attention visualization, expert-level contributions and pathologic correlation. RESULTS: R-signatures robustly discriminated relapse (AUC = 0.893 training, 0.755 validation) and death (AUC = 0.804 and 0.844), and independently predicted adverse outcomes (PFS: HR = 27.70, P < 0.001; OS: HR = 6.86, P = 0.001). Multiparametric models integrating R-signatures with total lesion glycolysis, β2-microglobulin, WBC, and Ki-67 outperformed conventional indices (C-indices: PFS 0.892 training, 0.781 validation; OS 0.877 training, 0.862 validation). Time-dependent ROC analyses consistently showed AUCs approaching or exceeding 0.800. Calibration and decision curve analyses confirmed excellent agreement and superior clinical net benefit. Attention maps localized high-weighted regions to hypermetabolic tumor areas, with higher R-signature values in blastoid and pleomorphic variants versus classical histology (P = 0.028 and P = 0.010). CONCLUSIONS: This interpretable PET/CT-EHR fusion framework substantially improves prognostic precision in MCL, providing a noninvasive, clinically translatable tool for risk-adapted management.",
+      "authors": [
+        "Chong Jiang",
+        "Zitong Zhang",
+        "Zekun Jiang",
+        "Chongyang Ding",
+        "Yue Teng",
+        "Limin Gao",
+        "Ming Jiang",
+        "Linhao Qu",
+        "Rong Tian"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-16",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41992190/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Multimodal deep learning integrating imaging and EHR data",
+      "llm_evidence_cn": "整合影像和电子健康档案数据的多模态深度学习",
+      "llm_evidence": "整合影像和电子健康档案数据的多模态深度学习",
+      "canonical_evidence": "整合影像和电子健康档案数据的多模态深度学习",
+      "llm_tldr_en": "Develops a multimodal mixture-of-experts framework for prognostic stratification in lymphoma.",
+      "llm_tldr_cn": "开发了一个用于淋巴瘤预后分层的多模态混合专家深度学习框架。",
+      "llm_tldr": "开发了一个用于淋巴瘤预后分层的多模态混合专家深度学习框架。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "multimodal models combining sequence structure phenotype and text",
+      "matched_requirement_id": "req-24",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41990134",
+      "title": "Hypobaric hypoxia affects gut microbiota of rats through affected community assembly, reduced network resilience, and metabolic reprogramming.",
+      "abstract": "In host-microbe interactions, host diet and environmental stress are key driving factors shaping the gut microbiota. Although previous studies have shown that hypoxia affects the structure and function of the gut microbiota in rodents, most have relied on 16S rRNA gene sequencing and lacked analysis of community assembly mechanisms, co-occurrence networks, and functional pathways. Here, we used metagenomic next-generation sequencing (mNGS) to examine the gut microbiota of rats exposed to hypobaric hypoxia (WH, simulated 6000 m altitude) compared to WL group (2100 m altitude). Hypoxia significantly altered β-diversity of gut microbiota, but did not affect its α-diversity. Community assembly was primarily governed by stochastic processes, with hypoxia stress reducing their impact. Microbial co-occurrence networks were dominated by positive correlations, although network resilience and stability declined under hypoxia. Helicobacter and Eubacterium were identified as high-abundance differentiating genera, and Akkermansia muciniphila was significantly enriched in WH group. Functional analysis revealed alterations in pathways related to protein synthesis and carbohydrate metabolism, suggesting that hypoxia may affect nutrient utilization by the host. Overall, these findings provide a comprehensive view of how hypoxic stress reshapes the gut microbiota of rats, offering new insights into microbial dynamics under environmental stress.",
+      "authors": [
+        "Xinyang Chen",
+        "Yihong Wang",
+        "Jianzhuo Feng",
+        "Huiqing Chen",
+        "Baohui Yao",
+        "Fuxin Li",
+        "Quanyu Yang",
+        "Jiapeng Qu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-16",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41990134/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "metagenomic sequencing for microbial community analysis",
+      "llm_evidence_cn": "宏基因组测序用于微生物群落分析",
+      "llm_evidence": "宏基因组测序用于微生物群落分析",
+      "canonical_evidence": "宏基因组测序用于微生物群落分析",
+      "llm_tldr_en": "Uses metagenomic sequencing to analyze how hypoxia shapes gut microbiota community assembly and networks.",
+      "llm_tldr_cn": "利用宏基因组测序分析缺氧如何塑造肠道微生物群落构建和网络。",
+      "llm_tldr": "利用宏基因组测序分析缺氧如何塑造肠道微生物群落构建和网络。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41995327",
+      "title": "The diagnostic and prognostic utility of blood metagenomic next-generation sequencing for invasive pulmonary aspergillosis.",
+      "abstract": "UNLABELLED: Differentiating invasive pulmonary aspergillosis (IPA) from colonization in patients with Aspergillus-positive blood metagenomic next-generation sequencing (mNGS) remains a clinical challenge. This study aims to evaluate the diagnostic and prognostic value of blood mNGS-derived fungal load (reads per million [RPM]) and two key serological biomarkers (galactomannan [GM] and 1,3-β-D-glucan [BDG]) in distinguishing these two entities. This retrospective study enrolled 95 patients with Aspergillus detected by blood mNGS, stratified into infection (n = 60) and colonization (n = 35) groups using modified EORTC/MSGERC criteria. We analyzed clinical characteristics, co-infection spectra, and serological biomarkers (GM and BDG). Diagnostic performance was evaluated via receiver operating characteristic (ROC) analysis, and prognostic factors for 28-day mortality were identified using least absolute shrinkage and selection operator-Cox regression. Distinct co-infection patterns were observed between groups: the infection group was dominated by polymicrobial co-infections, including clinically significant pathogens such as Acinetobacter baumannii, Klebsiella pneumoniae, Mucor spp., and Human cytomegalovirus; in contrast, the colonization group primarily featured single viral co-infections. While mNGS effectively detected Aspergillus, RPM alone showed limited ability to discriminate infection from colonization, with area under the curves (AUCs) ranging from 0.406 to 0.657 across patient groups. The optimal RPM cutoff varied substantially by immune status, being highest in immunocompetent patients (RPM cutoff: 1.77). Diagnostic performance significantly improved when RPM was integrated with GM (AUC up to 0.900 at a cutoff of 0.36 optical density index) or BDG (AUC up to 0.881 pg/mL), particularly in immunocompetent individuals. RPM also correlated with albumin, hemoglobin, platelet counts, and lymphocyte counts (all P < 0.05). Multivariate analysis identified reversed halo sign (hazard ratio [HR] = 2.143), decreased ratio of partial pressure of arterial oxygen to fraction of inspired oxygen (PaO2/FiO2; HR = 1.361), and elevated lactate dehydrogenase (HR = 1.055) as independent predictors of 28-day mortality. Blood mNGS demonstrates high sensitivity for detecting Aspergillus but requires integration with serological biomarkers to differentiate IPA from colonization. The RPM can offer prognostic utility. A multimodal strategy is crucial for early diagnosis and improving outcomes in high-risk patients. IMPORTANCE: First large-scale validation of blood mNGS for invasive pulmonary aspergillosis diagnosis-this study represents the first sizable cohort systematically evaluating blood metagenomic next-generation sequencing (mNGS) for distinguishing invasive pulmonary aspergillosis from colonization, addressing a critical gap in non-invasive diagnostic approaches for critically ill patients. Comprehensive Aspergillus co-infection profiling-we identified distinct co-infection patterns, with the infection group showing significantly higher rates of polymicrobial infections, providing crucial insights into co-infection dynamics in Aspergillosis. Optimized diagnostic integration strategy-our findings demonstrate that while mNGS-derived reads per million alone show limited diagnostic value, their integration with serological biomarkers significantly improves performance, establishing a clinically relevant multimodal diagnostic framework. Robust prognostic stratification model-through least absolute shrinkage and selection operator-Cox regression, we established a validated prognostic model identifying reversed halo sign, decreased PaO2/FiO2, and elevated lactate dehydrogenase as independent predictors of 28-day mortality, providing clinically actionable tools for risk stratification.",
+      "authors": [
+        "Yuhui Chen",
+        "Xinzhu Tang",
+        "Sifen Lu",
+        "Liyan Guo",
+        "Laduona Wang",
+        "Lang Min",
+        "Ting Niu",
+        "Yongzhao Zhou"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-17",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41995327/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "metagenomic next-generation sequencing for pathogen detection",
+      "llm_evidence_cn": "用于病原体检测的宏基因组二代测序",
+      "llm_evidence": "用于病原体检测的宏基因组二代测序",
+      "canonical_evidence": "用于病原体检测的宏基因组二代测序",
+      "llm_tldr_en": "Evaluates blood mNGS for diagnosing invasive pulmonary aspergillosis and distinguishing it from colonization.",
+      "llm_tldr_cn": "评估血液mNGS在诊断侵袭性肺曲霉病及区分定植方面的临床价值。",
+      "llm_tldr": "评估血液mNGS在诊断侵袭性肺曲霉病及区分定植方面的临床价值。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for metagenomic pathogen detection and classification",
+      "matched_requirement_id": "req-11",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41995603",
+      "title": "The ecological dynamics of skin microbiota in skin health and diseases.",
+      "abstract": "SUMMARYThe skin microbiome, consisting of bacteria, fungi, viruses, and archaea, plays a crucial role in maintaining skin health by regulating immune responses, preserving barrier function, and influencing metabolic processes. Dysbiosis in the microbiome is linked to dermatological diseases such as atopic dermatitis (AD), psoriasis, and acne, with specific microbes, such as Staphylococcus aureus and Cutibacterium acnes, either promoting or protecting against disease. This review summarizes recent advances in understanding the composition and functions of the skin microbiome, its interaction with host immunity, and impact on skin health. We also discuss the implications of environmental and biological factors on microbiome stability and explore emerging therapeutic strategies targeting the skin microbiota. These insights highlight the potential of microbiome-based approaches for advancing dermatological treatment.",
+      "authors": [
+        "Pu Pu",
+        "Yimeng Wang",
+        "Xiaoli Liu",
+        "Yanli Pang",
+        "Li Qiang",
+        "Wenhui Wang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-17",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41995603/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Ecological dynamics and host interaction of skin microbiota",
+      "llm_evidence_cn": "皮肤微生物群的生态动力学与宿主相互作用",
+      "llm_evidence": "皮肤微生物群的生态动力学与宿主相互作用",
+      "canonical_evidence": "皮肤微生物群的生态动力学与宿主相互作用",
+      "llm_tldr_en": "Reviews skin microbiome dynamics, host-microbe interactions, and their role in health and disease.",
+      "llm_tldr_cn": "综述了皮肤微生物群动态、宿主-微生物相互作用及其在健康和疾病中的作用。",
+      "llm_tldr": "综述了皮肤微生物群动态、宿主-微生物相互作用及其在健康和疾病中的作用。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

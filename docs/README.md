@@ -11,56 +11,37 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-04-16
-- 运行时间：2026-04-16 19:50:17 UTC
+- 最新运行日期：2026-04-17
+- 运行时间：2026-04-17 19:53:35 UTC
 - 运行状态：成功
-- 本次总论文数：12
-- 精读区：4
-- 速读区：8
+- 本次总论文数：5
+- 精读区：1
+- 速读区：4
 
 ### 今日简报（AI）
-今日聚焦 12 篇生物医药前沿进展，深度解析了疟疾基因组溯源与 AI 辅助药物靶点
-- 详情：[/202604/16/README](/202604/16/README)
+今日精选 5 篇前沿研究，深度解析作物抗旱基因网络及多模态医疗诊断新进展。
+重点关注作物抗旱调控机制的演化规律（9.0分），以及 AI 融合 PET/CT 数据在淋巴瘤预后中的突破。
+建议对智慧农业和精准医疗感兴趣的读者，深入了解基因组学与多模态融合技术的跨界应用。
+- 详情：[/202604/17/README](/202604/17/README)
 
 ### 精读区论文标签
-1. [Rapid whole genome sequencing of Plasmodium DNA from cryptic malaria cases in UK travellers provides insights into infection origins, transmission, and antimalarial resistance.](/202604/16/41989089-rapid-whole-genome-sequencing-of-plasmodium-dna-from-cryptic-malaria-cases-in-uk-travellers-provides-insights-into-infection-origins-transmission-and-antimalarial-resistance)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：全基因组测序用于疟疾监测、传播途径和耐药性标记物分析
-2. [Explainability Methods from Machine Learning Detect Important Drugs' Atoms in Drug-Target Interactions.](/202604/16/41985080-explainability-methods-from-machine-learning-detect-important-drugs-atoms-in-drug-target-interactions)  
-   标签：评分：8.0/10、query:bioinfo
-   evidence：基于图神经网络的药物-靶点相互作用可解释AI
-3. [GPU-accelerated modeling of biological regulatory networks.](/202604/16/41986459-gpu-accelerated-modeling-of-biological-regulatory-networks)  
-   标签：评分：8.0/10、query:bioinfo
-   evidence：GPU加速的生物调节网络建模
-4. [Multi-tissue multi-omics integration reveals tissue-specific pathways, gene networks and drug candidates for type 1 diabetes.](/202604/16/41986815-multi-tissue-multi-omics-integration-reveals-tissue-specific-pathways-gene-networks-and-drug-candidates-for-type-1-diabetes)  
-   标签：评分：8.0/10、query:bioinfo
-   evidence：疾病通路的多组织多组学整合
+1. [Conserved and divergent gene regulatory networks for crop drought resistance.](/202604/17/41991527-conserved-and-divergent-gene-regulatory-networks-for-crop-drought-resistance)  
+   标签：评分：9.0/10、query:bioinfo
+   evidence：基于图深度学习的基因调控网络推断
 
 ### 速读区论文标签
-1. [PROTACs as novel therapeutics against Mycobacterium tuberculosis: Current progress and future directions.](/202604/16/41759306-protacs-as-novel-therapeutics-against-mycobacterium-tuberculosis-current-progress-and-future-directions)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：用于抗菌药物发现和治疗设计的AI
-2. [Contrastive multimodal deep learning for survival prediction in grade 2/3 gliomas.](/202604/16/41987576-contrastive-multimodal-deep-learning-for-survival-prediction-in-grade-23-gliomas)  
+1. [Interpretable multimodal PET/CT-EHR fusion via mixture-of-experts for prognostic stratification in mantle cell lymphoma: a multicenter study.](/202604/17/41992190-interpretable-multimodal-petct-ehr-fusion-via-mixture-of-experts-for-prognostic-stratification-in-mantle-cell-lymphoma-a-multicenter-study)  
    标签：评分：7.0/10、query:bioinfo
-   evidence：整合组织病理学和体细胞突变的多模态深度学习
-3. [Self-Assembling Nano-Antimicrobial Oligopeptides With Dual Offense-Defense Functions for Synchronously Achieving High Activity and Biosafety.](/202604/16/41988677-self-assembling-nano-antimicrobial-oligopeptides-with-dual-offense-defense-functions-for-synchronously-achieving-high-activity-and-biosafety)  
+   evidence：整合影像和电子健康档案数据的多模态深度学习
+2. [The diagnostic and prognostic utility of blood metagenomic next-generation sequencing for invasive pulmonary aspergillosis.](/202604/17/41995327-the-diagnostic-and-prognostic-utility-of-blood-metagenomic-next-generation-sequencing-for-invasive-pulmonary-aspergillosis)  
    标签：评分：7.0/10、query:pathoai
-   evidence：针对细菌耐药性的抗菌肽设计
-4. [Glomage: A Multimodal Platform for High-Content Morphological and RNA Profiling of Glomeruli in Zebrafish and Mouse Models.](/202604/16/41988720-glomage-a-multimodal-platform-for-high-content-morphological-and-rna-profiling-of-glomeruli-in-zebrafish-and-mouse-models)  
-   标签：评分：7.0/10、query:seqai
-   evidence：用于高内涵形态学和RNA分析的多模态平台
-5. [Quantifying Protein Homodimer Affinities and the Effect of Molecular Glues and Interface Residues Using Native Mass Spectrometry.](/202604/16/41921055-quantifying-protein-homodimer-affinities-and-the-effect-of-molecular-glues-and-interface-residues-using-native-mass-spectrometry)  
+   evidence：用于病原体检测的宏基因组二代测序
+3. [Hypobaric hypoxia affects gut microbiota of rats through affected community assembly, reduced network resilience, and metabolic reprogramming.](/202604/17/41990134-hypobaric-hypoxia-affects-gut-microbiota-of-rats-through-affected-community-assembly-reduced-network-resilience-and-metabolic-reprogramming)  
    标签：评分：6.0/10、query:seqai
-   evidence：原生质谱用于蛋白质相互作用和结构完整性分析
-6. [Reassessing the reliability and translational potential of bacterial cell envelope targets: lessons from LpxC, NagA, and beyond.](/202604/16/41983410-reassessing-the-reliability-and-translational-potential-of-bacterial-cell-envelope-targets-lessons-from-lpxc-naga-and-beyond)  
+   evidence：宏基因组测序用于微生物群落分析
+4. [The ecological dynamics of skin microbiota in skin health and diseases.](/202604/17/41995603-the-ecological-dynamics-of-skin-microbiota-in-skin-health-and-diseases)  
    标签：评分：6.0/10、query:pathoai
-   evidence：抗菌靶点识别与转化潜力评估
-7. [Translation quality control in Pseudomonas aeruginosa: current knowledge and perspectives.](/202604/16/41983571-translation-quality-control-in-pseudomonas-aeruginosa-current-knowledge-and-perspectives)  
-   标签：评分：6.0/10、query:pathoai
-   evidence：病原体靶点识别与药物发现
-8. [Stable bioreactor control reveals acidic pH-driven metabolic reprogramming and mitochondrial dysfunction in human lymphoblastoid cells.](/202604/16/41986597-stable-bioreactor-control-reveals-acidic-ph-driven-metabolic-reprogramming-and-mitochondrial-dysfunction-in-human-lymphoblastoid-cells)  
-   标签：评分：6.0/10、query:bioinfo
-   evidence：代谢重编程的集成多组学分析
+   evidence：皮肤微生物群的生态动力学与宿主相互作用
 
 
 <div class="dpr-home-promo-card">
