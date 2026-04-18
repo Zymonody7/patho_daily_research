@@ -1,0 +1,166 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-04-18T19:16:46.885148+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 2,
+    "deep_cap": 9,
+    "deep_selected": 2,
+    "quick_candidates": 1,
+    "quick_skim_target": 14,
+    "quick_selected": 1
+  },
+  "deep_dive": [
+    {
+      "id": "41998407",
+      "title": "Orthrus: toward evolutionary and functional RNA foundation models.",
+      "abstract": "In the face of rapidly accumulating genomic data, our ability to predict key mature RNA properties that underlie transcript function and regulation remains limited. Pretrained genomic foundation models offer an avenue to adapt learned RNA representations to biological prediction tasks; however, existing models are trained using strategies borrowed from textual domains that do not leverage biological domain knowledge. Here we introduce Orthrus, a Mamba-based mature RNA foundation model pretrained using a self-supervised contrastive learning objective with biological augmentations. Orthrus is trained by maximizing embedding similarity between pairs of RNA transcripts that are formed from splice isoforms of ten model organisms and transcripts from orthologous genes in 400+ mammalian species. This training objective results in a latent representation that clusters RNA sequences with functional and evolutionary similarities. Orthrus' mature RNA isoform representations outperform genomic foundation models on mRNA property prediction tasks, requiring only a fraction of fine-tuning data. Finally, we show that Orthrus is capable of capturing divergent biological function of individual transcript isoforms.",
+      "authors": [
+        "Fradkin P, Shi RI, Dalal T, Isaev K, Frey BJ, Lee LJ, Morris Q, Wang B.",
+        "Philip Fradkin",
+        "Ruian Ian Shi",
+        "Taykhoom Dalal",
+        "Keren Isaev",
+        "Brendan J Frey",
+        "Leo J Lee",
+        "Quaid Morris",
+        "Bo Wang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-17",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41998407/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "Mamba-based mature RNA foundation model with biological augmentations",
+      "llm_evidence_cn": "基于Mamba的具有生物增强功能的成熟RNA基础模型",
+      "llm_evidence": "基于Mamba的具有生物增强功能的成熟RNA基础模型",
+      "canonical_evidence": "基于Mamba的具有生物增强功能的成熟RNA基础模型",
+      "llm_tldr_en": "Introduces Orthrus, a foundation model for predicting mature RNA properties and functions.",
+      "llm_tldr_cn": "介绍了Orthrus，一个用于预测成熟RNA特性和功能的基础模型。",
+      "llm_tldr": "介绍了Orthrus，一个用于预测成熟RNA特性和功能的基础模型。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models for DNA RNA protein and cell biology",
+      "matched_requirement_id": "req-15",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41952993",
+      "title": "Drug screening to identify compounds to eliminate",
+      "abstract": "Burkholderia pseudomallei (B. pseudomallei) exhibits inherent resistance to multiple antibiotics and Strong pathogenicity, highlighting the urgent need for effective antibiotics. The type VI secretion system (T6SS) is a key virulence factor in B. pseudomallei, and its core structural protein hemolysin coregulated protein (Hcp) represents a conserved, essential target for potential intervention. In this study, Hcp was utilized as a molecular target to screen antibacterial agents from the FDA Orange Book database. Subsequent functional assays and mechanistic analyses identified netilmicin sulfate, which specifically binds to Hcp and exhibits a potent bacteriostatic effect. In vitro and in vivo studies demonstrated that it effectively eliminates B. pseudomallei and enhances host survival post-infection. Combination with ceftazidime exhibits synergism, strengthening host cell protection and reducing the required dosage. Mechanistically, it disrupts Hcp's tubular structure, compromising T6SS functional architecture and attenuating B. pseudomallei viability. Beyond identifying a promising antibiotic candidate, this approach underscores a potential strategy for future antimicrobial drug discovery targeting T6SS components.",
+      "authors": [
+        "Chuizhe Chen",
+        "Xuemiao Li",
+        "Xin Li",
+        "Kangji Yang",
+        "Bo Wang",
+        "Lianpan Dai",
+        "Qianfeng Xia"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-17",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41952993/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "drug screening and target identification for resistant pathogen",
+      "llm_evidence_cn": "针对耐药病原体的药物筛选和靶点识别",
+      "llm_evidence": "针对耐药病原体的药物筛选和靶点识别",
+      "canonical_evidence": "针对耐药病原体的药物筛选和靶点识别",
+      "llm_tldr_en": "Screens FDA-approved drugs to identify inhibitors targeting a key virulence factor in Burkholderia pseudomallei.",
+      "llm_tldr_cn": "针对类鼻疽伯克霍尔德菌的关键毒力因子筛选FDA批准药物，寻找新型抗菌剂。",
+      "llm_tldr": "针对类鼻疽伯克霍尔德菌的关键毒力因子筛选FDA批准药物，寻找新型抗菌剂。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "41997944",
+      "title": "Cariogenic microorganisms induce oral epithelial atypia through host-microbiome-high sugar diet interactions.",
+      "abstract": "Oral mucosal development during infancy is crucial because disruptions at this stage can compromise barrier function and increase susceptibility to oral diseases throughout life. The contribution of oral pathogens to oral mucosal development in infancy remains poorly understood. Here, we show that early-life co-infection with Streptococcus mutans and Candida albicans under a sucrose-enriched diet perturbs oral epithelial homeostasis and is associated with atypical hyperplasia and parakeratosis of the tongue. Using an infant rat model, we utilized OMICS data (microbiome, untargeted metabolomics, and multiplex immune profiling) together with high-dimensional mediation statistic modeling to reveal that microbial co-infection synergizes with dietary sugar to shape oral and gut microbial communities. The microbial alterations were accompanied by systemic metabolic alterations, marked by enhanced amino acid and carbohydrate metabolism, and depletion of vitamin B6 and taurine pathways. Oral microbial and metabolic changes were associated with atypical hyperplasia and parakeratosis on both dorsal and ventral surfaces of tongue mucosa. Complementary in vitro modeling revealed that sucrose-conditioned co-infection disrupted epithelial barrier integrity and orchestrated metabolic remodeling in oral epithelial cells. These findings reveal a host-microbe-diet interaction axis underlying early mucosal remodeling and provide mechanistic insight into how cariogenic microbes may influence oral mucosal disease beyond caries.",
+      "authors": [
+        "Yan Wu",
+        "Nora Alomeir",
+        "Megan Falsetta",
+        "Ruqian Yang",
+        "Eli Sun",
+        "Anna-Karoline Israel",
+        "Julietta Fiscella",
+        "Tongtong Wu",
+        "Yuan Liu",
+        "Ting Li",
+        "Ronald Wood",
+        "Mark Kenney",
+        "Gina Meng",
+        "Sabrina Terando",
+        "Chloe Terio",
+        "Kevin Fiscella",
+        "Jin Xiao"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-17",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41997944/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "high-dimensional mediation statistic modeling for host-microbiome-pathogen interactions",
+      "llm_evidence_cn": "宿主-微生物组-病原体相互作用的高维中介统计建模",
+      "llm_evidence": "宿主-微生物组-病原体相互作用的高维中介统计建模",
+      "canonical_evidence": "宿主-微生物组-病原体相互作用的高维中介统计建模",
+      "llm_tldr_en": "Uses multi-omics and statistical modeling to study how oral pathogens and diet perturb host epithelial homeostasis.",
+      "llm_tldr_cn": "利用多组学和统计建模研究口腔病原体和饮食如何干扰宿主上皮稳态。",
+      "llm_tldr": "利用多组学和统计建模研究口腔病原体和饮食如何干扰宿主上皮稳态。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

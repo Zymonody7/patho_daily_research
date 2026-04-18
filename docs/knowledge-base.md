@@ -1,10 +1,19 @@
 # 知识库
 
-- 最近沉淀条目数：427
+- 最近沉淀条目数：430
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Orthrus: toward evolutionary and functional RNA foundation models.](#/202604/18/202604/18/41998407-orthrus-toward-evolutionary-and-functional-rna-foundation-models)
+  - TLDR：针对现有基因组大模型缺乏生物学先验知识的问题，Orthrus 提出了一种基于 Mamba 架构的成熟 RNA 基础模型。它通过对比学习，将来自 400 多种哺乳动物的同源基因及多种模型生物的剪接异构体进行关联训练，从而学习到具有进化和功能意义的 RNA 表征。实验表明，Orthrus 在 mRNA 属性预测任务上优于传统模型，且仅需极少量的微调数据，能有效捕捉不同异构体间的生物学功能差异。
+  - Tags：`query:bioinfo`
+- [Drug screening to identify compounds to eliminate](#/202604/18/202604/18/41952993-drug-screening-to-identify-compounds-to-eliminate)
+  - TLDR：针对类鼻疽伯克霍尔德菌的高致病性与多重耐药性问题，研究者以其VI型分泌系统（T6SS）的核心结构蛋白Hcp为靶点，从FDA药物库中筛选出硫酸奈替米星。实验证明该药物能特异性结合并破坏Hcp的管状结构，从而瓦解T6SS功能，在体内外均表现出显著的抑菌效果，且与头孢他啶联用具有协同增效作用，为抗耐药菌药物研发提供了新策略。
+  - Tags：`query:pathoai`
+- [Cariogenic microorganisms induce oral epithelial atypia through host-microbiome-high sugar diet interactions.](#/202604/18/202604/18/41997944-cariogenic-microorganisms-induce-oral-epithelial-atypia-through-host-microbiome-high-sugar-diet-interactions)
+  - TLDR：婴儿期口腔黏膜发育对终身健康至关重要。本研究通过幼鼠模型发现，变形链球菌与白色念珠菌在高糖饮食下协同作用，通过改变口腔与肠道菌群及全身代谢（如维生素B6耗竭），诱发舌黏膜非典型增生和角化不全。该研究揭示了“宿主-微生物-饮食”轴对早期黏膜重塑的影响，为理解致龋菌如何诱发龋齿以外的口腔疾病提供了新机制。
+  - Tags：`query:pathoai`
 - [Conserved and divergent gene regulatory networks for crop drought resistance.](#/202604/17/202604/17/41991527-conserved-and-divergent-gene-regulatory-networks-for-crop-drought-resistance)
   - TLDR：针对作物抗旱机制在跨物种间保守性与差异性不明的问题，该研究利用图深度学习框架整合了5000多份转录组数据，构建了涵盖13万个基因的跨组学基因调控网络（GRN）。研究发现了TCP-PP2C等保守调控模式，并揭示了C3与C4作物在抗旱策略上的网络拓扑差异：C3作物依赖集中且剧烈重构的网络实现避旱，而C4作物则通过分布式且稳定的网络实现耐旱。这为理解作物进化适应性提供了新视角。
   - Tags：`query:bioinfo`
@@ -596,12 +605,3 @@
 - [Leveraging weighted embedding and Transformer architecture to improve phenotype prediction of complex traits for crops.](#/202603/27/202603/27/41888146-leveraging-weighted-embedding-and-transformer-architecture-to-improve-phenotype-prediction-of-complex-traits-for-crops)
   - TLDR：针对作物复杂性状预测中海量基因组数据与生物学解释性难以平衡的问题，本研究开发了 GP-WAITER 深度学习框架。该框架通过将 GWAS 衍生的 SNP 权重融入 CNN 与 Transformer 的混合架构，利用加权嵌入和自注意力机制捕捉超长基因序列的远程依赖关系。实验表明，该模型在预测准确率和计算效率上显著优于现有 SOTA 模型，并能精准定位关键遗传变异，为精准育种提供了高效且具解释性的工具。
   - Tags：`query:bioinfo`
-- [Transmission Bottlenecks of Sparicotyle chrysophrii in a Gilthead Seabream Aquaculture: A Next-Generation Matrix Approach.](#/202603/27/202603/27/41889129-transmission-bottlenecks-of-sparicotyle-chrysophrii-in-a-gilthead-seabream-aquaculture-a-next-generation-matrix-approach)
-  - TLDR：针对地中海金头鲷养殖中寄生虫 S. chrysophrii 爆发规律不明的问题，本研究采用下一代矩阵（NGM）框架构建了寄生虫传播模型，并结合土耳其商业鱼场的季节性实测数据进行参数化分析。研究发现，尽管该寄生虫具备极高的理论繁殖潜力，但实际感染水平受环境约束呈现显著季节波动。通过敏感性分析识别出幼虫期死亡和成虫流失是限制其种群扩张的关键瓶颈，为制定精准的养殖防疫策略提供了理论依据。
-  - Tags：`query:pathoai`
-- [Impact of gut microbiota on hepatocellular carcinoma: Pathogenesis, diagnosis, prognosis, and therapeutic prospective.](#/202603/27/202603/27/41785672-impact-of-gut-microbiota-on-hepatocellular-carcinoma-pathogenesis-diagnosis-prognosis-and-therapeutic-prospective)
-  - TLDR：肝细胞癌（HCC）治疗效果受限，肠道菌群通过肠肝轴影响其发生发展。本文综述了肠道菌群在HCC发病机制、诊断及预后中的作用，重点分析了菌群如何通过代谢和免疫系统调节手术、化疗及免疫治疗的疗效。研究指出，利用益生菌、粪菌移植等手段干预肠道菌群，可作为HCC个体化治疗的新型辅助策略，具有重要的临床转化价值。
-  - Tags：`query:pathoai`
-- [Microecological Interventions against Antibiotic-Induced Dysbiosis and Related Resistome Expansion.](#/202603/27/202603/27/41889026-microecological-interventions-against-antibiotic-induced-dysbiosis-and-related-resistome-expansion)
-  - TLDR：抗生素滥用导致肠道菌群失调及耐药基因扩散，严重威胁全球健康。本文综述了益生菌、粪菌移植及饮食调节等微生态干预手段在恢复肠道稳态、增强定植抵抗力及遏制耐药组扩张方面的作用。通过整合生态学与治疗视角，该研究为应对抗生素耐药性及改善临床预后提供了一套可持续的微生态干预框架。
-  - Tags：`query:pathoai`

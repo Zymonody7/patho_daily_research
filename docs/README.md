@@ -11,37 +11,31 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-04-17
-- 运行时间：2026-04-17 19:53:35 UTC
+- 最新运行日期：2026-04-18
+- 运行时间：2026-04-18 19:17:35 UTC
 - 运行状态：成功
-- 本次总论文数：5
-- 精读区：1
-- 速读区：4
+- 本次总论文数：3
+- 精读区：2
+- 速读区：1
 
 ### 今日简报（AI）
-今日精选 5 篇前沿研究，深度解析作物抗旱基因网络及多模态医疗诊断新进展。
-重点关注作物抗旱调控机制的演化规律（9.0分），以及 AI 融合 PET/CT 数据在淋巴瘤预后中的突破。
-建议对智慧农业和精准医疗感兴趣的读者，深入了解基因组学与多模态融合技术的跨界应用。
-- 详情：[/202604/17/README](/202604/17/README)
+今日深度解析 RNA 进化大模型 Orthrus 及药物筛选新进展，共精读 2 篇高分文献。
+满分论文 Orthrus 重新定义了 RNA 功能建模，另有研究揭示了高糖饮食与口腔病变的菌群互作机制。
+推荐优先研读 RNA 基础模型的技术突破，并关注饮食习惯对微生态健康的深远影响。
+- 详情：[/202604/18/README](/202604/18/README)
 
 ### 精读区论文标签
-1. [Conserved and divergent gene regulatory networks for crop drought resistance.](/202604/17/41991527-conserved-and-divergent-gene-regulatory-networks-for-crop-drought-resistance)  
-   标签：评分：9.0/10、query:bioinfo
-   evidence：基于图深度学习的基因调控网络推断
+1. [Orthrus: toward evolutionary and functional RNA foundation models.](/202604/18/41998407-orthrus-toward-evolutionary-and-functional-rna-foundation-models)  
+   标签：评分：10.0/10、query:bioinfo
+   evidence：基于Mamba的具有生物增强功能的成熟RNA基础模型
+2. [Drug screening to identify compounds to eliminate](/202604/18/41952993-drug-screening-to-identify-compounds-to-eliminate)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：针对耐药病原体的药物筛选和靶点识别
 
 ### 速读区论文标签
-1. [Interpretable multimodal PET/CT-EHR fusion via mixture-of-experts for prognostic stratification in mantle cell lymphoma: a multicenter study.](/202604/17/41992190-interpretable-multimodal-petct-ehr-fusion-via-mixture-of-experts-for-prognostic-stratification-in-mantle-cell-lymphoma-a-multicenter-study)  
-   标签：评分：7.0/10、query:bioinfo
-   evidence：整合影像和电子健康档案数据的多模态深度学习
-2. [The diagnostic and prognostic utility of blood metagenomic next-generation sequencing for invasive pulmonary aspergillosis.](/202604/17/41995327-the-diagnostic-and-prognostic-utility-of-blood-metagenomic-next-generation-sequencing-for-invasive-pulmonary-aspergillosis)  
+1. [Cariogenic microorganisms induce oral epithelial atypia through host-microbiome-high sugar diet interactions.](/202604/18/41997944-cariogenic-microorganisms-induce-oral-epithelial-atypia-through-host-microbiome-high-sugar-diet-interactions)  
    标签：评分：7.0/10、query:pathoai
-   evidence：用于病原体检测的宏基因组二代测序
-3. [Hypobaric hypoxia affects gut microbiota of rats through affected community assembly, reduced network resilience, and metabolic reprogramming.](/202604/17/41990134-hypobaric-hypoxia-affects-gut-microbiota-of-rats-through-affected-community-assembly-reduced-network-resilience-and-metabolic-reprogramming)  
-   标签：评分：6.0/10、query:seqai
-   evidence：宏基因组测序用于微生物群落分析
-4. [The ecological dynamics of skin microbiota in skin health and diseases.](/202604/17/41995603-the-ecological-dynamics-of-skin-microbiota-in-skin-health-and-diseases)  
-   标签：评分：6.0/10、query:pathoai
-   evidence：皮肤微生物群的生态动力学与宿主相互作用
+   evidence：宿主-微生物组-病原体相互作用的高维中介统计建模
 
 
 <div class="dpr-home-promo-card">

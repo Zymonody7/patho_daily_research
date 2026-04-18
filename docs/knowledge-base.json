@@ -1,7 +1,49 @@
 {
-  "generated_at": "2026-04-17T19:53:44.606132+00:00",
-  "count": 427,
+  "generated_at": "2026-04-18T19:17:44.539952+00:00",
+  "count": 430,
   "items": [
+    {
+      "paper_id": "202604/18/41998407-orthrus-toward-evolutionary-and-functional-rna-foundation-models",
+      "section": "deep",
+      "title_en": "Orthrus: toward evolutionary and functional RNA foundation models.",
+      "authors": "Fradkin P, Shi RI, Dalal T, Isaev K, Frey BJ, Lee LJ, Morris Q, Wang B., Philip Fradkin, Ruian Ian Shi, Taykhoom Dalal, Keren Isaev, Brendan J Frey, Leo J Lee, Quaid Morris, Bo Wang",
+      "date": "2026-04-18",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41998407/",
+      "score": "10.0",
+      "evidence": "基于Mamba的具有生物增强功能的成熟RNA基础模型",
+      "tldr": "针对现有基因组大模型缺乏生物学先验知识的问题，Orthrus 提出了一种基于 Mamba 架构的成熟 RNA 基础模型。它通过对比学习，将来自 400 多种哺乳动物的同源基因及多种模型生物的剪接异构体进行关联训练，从而学习到具有进化和功能意义的 RNA 表征。实验表明，Orthrus 在 mRNA 属性预测任务上优于传统模型，且仅需极少量的微调数据，能有效捕捉不同异构体间的生物学功能差异。",
+      "tags": "query:bioinfo",
+      "abstract_en": "In the face of rapidly accumulating genomic data, our ability to predict key mature RNA properties that underlie transcript function and regulation remains limited. Pretrained genomic foundation models offer an avenue to adapt learned RNA representations to biological prediction tasks; however, existing models are trained using strategies borrowed from textual domains that do not leverage biological domain knowledge. Here we introduce Orthrus, a Mamba-based mature RNA foundation model pretrained using a self-supervised contrastive learning objective with biological augmentations. Orthrus is trained by maximizing embedding similarity between pairs of RNA transcripts that are formed from splice isoforms of ten model organisms and transcripts from orthologous genes in 400+ mammalian species. This training objective results in a latent representation that clusters RNA sequences with functional and evolutionary similarities. Orthrus' mature RNA isoform representations outperform genomic foundation models on mRNA property prediction tasks, requiring only a fraction of fine-tuning data. Finally, we show that Orthrus is capable of capturing divergent biological function of individual transcript isoforms.",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202604/18/41952993-drug-screening-to-identify-compounds-to-eliminate",
+      "section": "deep",
+      "title_en": "Drug screening to identify compounds to eliminate",
+      "authors": "Chuizhe Chen, Xuemiao Li, Xin Li, Kangji Yang, Bo Wang, Lianpan Dai, Qianfeng Xia",
+      "date": "2026-04-18",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41952993/",
+      "score": "8.0",
+      "evidence": "针对耐药病原体的药物筛选和靶点识别",
+      "tldr": "针对类鼻疽伯克霍尔德菌的高致病性与多重耐药性问题，研究者以其VI型分泌系统（T6SS）的核心结构蛋白Hcp为靶点，从FDA药物库中筛选出硫酸奈替米星。实验证明该药物能特异性结合并破坏Hcp的管状结构，从而瓦解T6SS功能，在体内外均表现出显著的抑菌效果，且与头孢他啶联用具有协同增效作用，为抗耐药菌药物研发提供了新策略。",
+      "tags": "query:pathoai",
+      "abstract_en": "Burkholderia pseudomallei (B. pseudomallei) exhibits inherent resistance to multiple antibiotics and Strong pathogenicity, highlighting the urgent need for effective antibiotics. The type VI secretion system (T6SS) is a key virulence factor in B. pseudomallei, and its core structural protein hemolysin coregulated protein (Hcp) represents a conserved, essential target for potential intervention. In this study, Hcp was utilized as a molecular target to screen antibacterial agents from the FDA Orange Book database. Subsequent functional assays and mechanistic analyses identified netilmicin sulfate, which specifically binds to Hcp and exhibits a potent bacteriostatic effect. In vitro and in vivo studies demonstrated that it effectively eliminates B. pseudomallei and enhances host survival post-infection. Combination with ceftazidime exhibits synergism, strengthening host cell protection and reducing the required dosage. Mechanistically, it disrupts Hcp's tubular structure, compromising T6SS functional architecture and attenuating B. pseudomallei viability. Beyond identifying a promising antibiotic candidate, this approach underscores a potential strategy for future antimicrobial drug discovery targeting T6SS components.",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202604/18/41997944-cariogenic-microorganisms-induce-oral-epithelial-atypia-through-host-microbiome-high-sugar-diet-interactions",
+      "section": "quick",
+      "title_en": "Cariogenic microorganisms induce oral epithelial atypia through host-microbiome-high sugar diet interactions.",
+      "authors": "Yan Wu, Nora Alomeir, Megan Falsetta, Ruqian Yang, Eli Sun, Anna-Karoline Israel, Julietta Fiscella, Tongtong Wu, Yuan Liu, Ting Li, Ronald Wood, Mark Kenney, Gina Meng, Sabrina Terando, Chloe Terio, Kevin Fiscella, Jin Xiao",
+      "date": "2026-04-18",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41997944/",
+      "score": "7.0",
+      "evidence": "宿主-微生物组-病原体相互作用的高维中介统计建模",
+      "tldr": "婴儿期口腔黏膜发育对终身健康至关重要。本研究通过幼鼠模型发现，变形链球菌与白色念珠菌在高糖饮食下协同作用，通过改变口腔与肠道菌群及全身代谢（如维生素B6耗竭），诱发舌黏膜非典型增生和角化不全。该研究揭示了“宿主-微生物-饮食”轴对早期黏膜重塑的影响，为理解致龋菌如何诱发龋齿以外的口腔疾病提供了新机制。",
+      "tags": "query:pathoai",
+      "abstract_en": "Oral mucosal development during infancy is crucial because disruptions at this stage can compromise barrier function and increase susceptibility to oral diseases throughout life. The contribution of oral pathogens to oral mucosal development in infancy remains poorly understood. Here, we show that early-life co-infection with Streptococcus mutans and Candida albicans under a sucrose-enriched diet perturbs oral epithelial homeostasis and is associated with atypical hyperplasia and parakeratosis of the tongue. Using an infant rat model, we utilized OMICS data (microbiome, untargeted metabolomics, and multiplex immune profiling) together with high-dimensional mediation statistic modeling to reveal that microbial co-infection synergizes with dietary sugar to shape oral and gut microbial communities. The microbial alterations were accompanied by systemic metabolic alterations, marked by enhanced amino acid and carbohydrate metabolism, and depletion of vitamin B6 and taurine pathways. Oral microbial and metabolic changes were associated with atypical hyperplasia and parakeratosis on both dorsal and ventral surfaces of tongue mucosa. Complementary in vitro modeling revealed that sucrose-conditioned co-infection disrupted epithelial barrier integrity and orchestrated metabolic remodeling in oral epithelial cells. These findings reveal a host-microbe-diet interaction axis underlying early mucosal remodeling and provide mechanistic insight into how cariogenic microbes may influence oral mucosal disease beyond caries.",
+      "selection_source": "fresh_fetch"
+    },
     {
       "paper_id": "202604/17/41991527-conserved-and-divergent-gene-regulatory-networks-for-crop-drought-resistance",
       "section": "deep",
