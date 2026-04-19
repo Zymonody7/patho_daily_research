@@ -11,31 +11,43 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-04-18
-- 运行时间：2026-04-18 19:17:35 UTC
+- 最新运行日期：2026-04-19
+- 运行时间：2026-04-19 19:17:41 UTC
 - 运行状态：成功
-- 本次总论文数：3
-- 精读区：2
-- 速读区：1
+- 本次总论文数：7
+- 精读区：3
+- 速读区：4
 
 ### 今日简报（AI）
-今日深度解析 RNA 进化大模型 Orthrus 及药物筛选新进展，共精读 2 篇高分文献。
-满分论文 Orthrus 重新定义了 RNA 功能建模，另有研究揭示了高糖饮食与口腔病变的菌群互作机制。
-推荐优先研读 RNA 基础模型的技术突破，并关注饮食习惯对微生态健康的深远影响。
-- 详情：[/202604/18/README](/202604/18/README)
+今日精选 7 篇前沿研究，深度剖析肠道多界互作对 MASLD 的影响及疟原虫蛋白互作的新靶点。
+重点揭示了肠道噬菌体-细菌-代谢物轴在脂肪肝中的失调机制，并证实废水监测能有效预警耐药耳念珠菌的暴发。
+建议关注
+- 详情：[/202604/19/README](/202604/19/README)
 
 ### 精读区论文标签
-1. [Orthrus: toward evolutionary and functional RNA foundation models.](/202604/18/41998407-orthrus-toward-evolutionary-and-functional-rna-foundation-models)  
-   标签：评分：10.0/10、query:bioinfo
-   evidence：基于Mamba的具有生物增强功能的成熟RNA基础模型
-2. [Drug screening to identify compounds to eliminate](/202604/18/41952993-drug-screening-to-identify-compounds-to-eliminate)  
+1. [Multi-kingdom profiling reveals altered gut phage-bacteria-metabolite interactions in MASLD.](/202604/19/42000726-multi-kingdom-profiling-reveals-altered-gut-phage-bacteria-metabolite-interactions-in-masld)  
    标签：评分：8.0/10、query:pathoai
-   evidence：针对耐药病原体的药物筛选和靶点识别
+   evidence：散弹枪宏基因组学分析多界微生物相互作用
+2. [Targeting protein-protein interactions in Plasmodium: from asexual replication to sexual development.](/202604/19/42001110-targeting-protein-protein-interactions-in-plasmodium-from-asexual-replication-to-sexual-development)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：针对蛋白质相互作用进行抗疟药物发现
+3. [Deep learning-based identification of visually similar foliar diseases in field-grown barley.](/202604/19/42001137-deep-learning-based-identification-of-visually-similar-foliar-diseases-in-field-grown-barley)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：深度学习用于农作物多类病原体检测
 
 ### 速读区论文标签
-1. [Cariogenic microorganisms induce oral epithelial atypia through host-microbiome-high sugar diet interactions.](/202604/18/41997944-cariogenic-microorganisms-induce-oral-epithelial-atypia-through-host-microbiome-high-sugar-diet-interactions)  
+1. [Phage-Encoded Metabolic Bypass Drives Herbicide Resistance in Soil Microbiomes.](/202604/19/41999333-phage-encoded-metabolic-bypass-drives-herbicide-resistance-in-soil-microbiomes)  
    标签：评分：7.0/10、query:pathoai
-   evidence：宿主-微生物组-病原体相互作用的高维中介统计建模
+   evidence：土壤中噬菌体-宿主相互作用与微生物适应
+2. [Wastewater intelligence predicts the emergence of clinically-relevant and drug-resistant Candidozyma auris at healthcare facilities.](/202604/19/42000719-wastewater-intelligence-predicts-the-emergence-of-clinically-relevant-and-drug-resistant-candidozyma-auris-at-healthcare-facilities)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：基于废水的流行病学方法用于耐药病原体监测
+3. [The B7 family subgroup reflects tumor cell heterogeneity and patient post-operative prognosis in gallbladder cancer.](/202604/19/42001193-the-b7-family-subgroup-reflects-tumor-cell-heterogeneity-and-patient-post-operative-prognosis-in-gallbladder-cancer)  
+   标签：评分：7.0/10、query:seqai
+   evidence：单细胞RNA测序分析肿瘤细胞异质性
+4. [Mycobacterium tuberculosis long-chain fatty acid resistome reveals universal stress protein TB15.3 as essential for infection.](/202604/19/42000959-mycobacterium-tuberculosis-long-chain-fatty-acid-resistome-reveals-universal-stress-protein-tb153-as-essential-for-infection)  
+   标签：评分：6.0/10、query:pathoai
+   evidence：转座子测序用于病原体靶点识别和耐药机制研究
 
 
 <div class="dpr-home-promo-card">

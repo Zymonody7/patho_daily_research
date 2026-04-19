@@ -1,10 +1,31 @@
 # 知识库
 
-- 最近沉淀条目数：430
+- 最近沉淀条目数：437
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Multi-kingdom profiling reveals altered gut phage-bacteria-metabolite interactions in MASLD.](#/202604/19/202604/19/42000726-multi-kingdom-profiling-reveals-altered-gut-phage-bacteria-metabolite-interactions-in-masld)
+  - TLDR：代谢相关脂肪性肝病（MASLD）与肠道菌群失调密切相关，但以往研究多局限于细菌。本研究通过整合210名患者与210名对照组的宏基因组、真菌测序及代谢组数据，揭示了MASLD中跨界生态网络的重构。研究发现噬菌体对有害菌R. gnavus的控制减弱，导致其异常扩张并引发胆汁酸代谢紊乱。这一发现阐明了“噬菌体-细菌-代谢物”轴在疾病中的作用，为MASLD的无创诊断和精准治疗提供了多维度的生物标志物。
+  - Tags：`query:pathoai`
+- [Targeting protein-protein interactions in Plasmodium: from asexual replication to sexual development.](#/202604/19/202604/19/42001110-targeting-protein-protein-interactions-in-plasmodium-from-asexual-replication-to-sexual-development)
+  - TLDR：针对传统抗疟药因靶向酶催化位点易产生耐药性的问题，本文系统综述了疟原虫生命周期中关键的蛋白质-蛋白质相互作用（PPI）网络。通过整合冷冻电镜和遗传学研究，揭示了介导红细胞入侵、代谢稳态及蚊媒传播的多亚基复合物结构。这些PPI界面具有较低的突变潜力，为开发抗耐药的新一代抗疟药物、中和抗体及阻断传播疫苗提供了高选择性的新靶点。
+  - Tags：`query:pathoai`
+- [Deep learning-based identification of visually similar foliar diseases in field-grown barley.](#/202604/19/202604/19/42001137-deep-learning-based-identification-of-visually-similar-foliar-diseases-in-field-grown-barley)
+  - TLDR：针对田间大麦多种视觉相似病害共存导致单一病害模型难以准确区分的问题，本研究提出一种多类别深度学习分割模型，用于同时识别大麦柄锈菌和柱隔孢叶斑病。实验表明，该模型在分割精度（Dice系数）上显著优于独立的二分类模型，且预测的病害面积与人工标注高度一致，为育种中的大规模自动化抗性评估提供了高效、可扩展的方案。
+  - Tags：`query:pathoai`
+- [Phage-Encoded Metabolic Bypass Drives Herbicide Resistance in Soil Microbiomes.](#/202604/19/202604/19/41999333-phage-encoded-metabolic-bypass-drives-herbicide-resistance-in-soil-microbiomes)
+  - TLDR：土壤微生物在草丁膦除草剂压力下表现出极强的恢复力，但其背后的噬菌体驱动机制尚不明确。本研究通过时序宏基因组分析和共演化实验发现，草丁膦促使噬菌体从裂解性向溶源性转变，并利用携带的gdhA基因通过氨解毒代谢旁路直接补偿宿主代谢损伤。这一发现揭示了噬菌体介导的土壤微生物抗药性演化新路径，为评估农药生态风险和设计可持续农药提供了新视角。
+  - Tags：`query:pathoai`
+- [Wastewater intelligence predicts the emergence of clinically-relevant and drug-resistant Candidozyma auris at healthcare facilities.](#/202604/19/202604/19/42000719-wastewater-intelligence-predicts-the-emergence-of-clinically-relevant-and-drug-resistant-candidozyma-auris-at-healthcare-facilities)
+  - TLDR：针对耳念珠菌耐药性演变快、传统监测滞后的挑战，本研究利用废水流行病学工具在医疗机构层面建立了高分辨率预警系统。通过对废水进行全基因组测序和质谱分析，研究者在临床病例出现前近五个月就检测到了关键耐药突变和新亚群，且废水样本与临床分离株的基因组一致性超过90%。该方法证明了废水监测在真菌暴发早期预警和耐药性追踪中的巨大潜力，为公共卫生防控提供了重要补充。
+  - Tags：`query:pathoai`
+- [The B7 family subgroup reflects tumor cell heterogeneity and patient post-operative prognosis in gallbladder cancer.](#/202604/19/202604/19/42001193-the-b7-family-subgroup-reflects-tumor-cell-heterogeneity-and-patient-post-operative-prognosis-in-gallbladder-cancer)
+  - TLDR：针对胆囊癌（GBC）术后预后评估不准及肿瘤异质性不明的问题，研究通过单细胞测序分析了B7家族分子（CD276、VTCN1、HHLA2）在不同上皮亚群中的表达特征。发现HHLA2通过RAC1/CDC42-PAK1-Cofilin通路促进肿瘤上皮-间充质转化（EMT）。基于这些分子标志物结合临床特征构建的GBM机器学习模型，显著提升了术后风险分层能力，为胆囊癌精准治疗提供了新靶点和预测工具。
+  - Tags：`query:seqai`
+- [Mycobacterium tuberculosis long-chain fatty acid resistome reveals universal stress protein TB15.3 as essential for infection.](#/202604/19/202604/19/42000959-mycobacterium-tuberculosis-long-chain-fatty-acid-resistome-reveals-universal-stress-protein-tb153-as-essential-for-infection)
+  - TLDR：结核分枝杆菌（Mtb）在感染过程中依赖长链脂肪酸（LCFA）作为能源，但过量LCFA具有毒性。本研究利用转座子测序（TnSeq）鉴定了包含38个基因的LCFA抗性组，发现关键蛋白TB15.3通过“代谢刹车”机制限制LCFA的摄取与分解，防止细胞膜超极化。实验证明TB15.3对Mtb在小鼠慢性感染和干酪样坏死模型中的存活至关重要，为抗结核药物研发提供了新靶点。
+  - Tags：`query:pathoai`
 - [Orthrus: toward evolutionary and functional RNA foundation models.](#/202604/18/202604/18/41998407-orthrus-toward-evolutionary-and-functional-rna-foundation-models)
   - TLDR：针对现有基因组大模型缺乏生物学先验知识的问题，Orthrus 提出了一种基于 Mamba 架构的成熟 RNA 基础模型。它通过对比学习，将来自 400 多种哺乳动物的同源基因及多种模型生物的剪接异构体进行关联训练，从而学习到具有进化和功能意义的 RNA 表征。实验表明，Orthrus 在 mRNA 属性预测任务上优于传统模型，且仅需极少量的微调数据，能有效捕捉不同异构体间的生物学功能差异。
   - Tags：`query:bioinfo`
@@ -583,25 +604,4 @@
   - Tags：`query:pathoai`
 - [Multitask Pretraining Framework for Improving Predictivity of Machine Learning Chemical Bioactivity Models for Low-Data Endpoints.](#/202603/27/202603/27/41887802-multitask-pretraining-framework-for-improving-predictivity-of-machine-learning-chemical-bioactivity-models-for-low-data-endpoints)
   - TLDR：针对化学毒理学中许多终点数据稀缺、单任务模型泛化性差的问题，本研究提出了一种多任务预训练框架。该框架首先在多个中等规模的 ToxCast 数据集上进行联合训练以提取通用的分子表征，随后将其与下游分类器结合，应用于仅有约100个样本的小数据任务。实验证明，该方法在多数低数据任务上的预测准确率优于传统化学描述符，为解决毒理学预测中的数据孤岛和样本不足问题提供了有效方案。
-  - Tags：`query:bioinfo`
-- [PTBD: a machine learning-based non-invasive diagnostic model for pulmonary tuberculosis using large-scale blood transcriptomes.](#/202603/27/202603/27/41888771-ptbd-a-machine-learning-based-non-invasive-diagnostic-model-for-pulmonary-tuberculosis-using-large-scale-blood-transcriptomes)
-  - TLDR：肺结核（PTB）的快速准确诊断对控制疫情至关重要，但现有方法在灵敏度和实用性上存在局限。本研究开发了PTBD模型，通过整合最高得分对（TSP）算法与机器学习，分析了近三千例外周血转录组样本。该模型在区分PTB与肺炎、肺癌等复杂背景时表现优异，外部验证AUC达0.909，且在HIV感染、耐药等特殊人群中保持稳健，为临床早期筛查和预后评估提供了非侵入性的分子诊断工具。
-  - Tags：`query:pathoai`
-- [High-throughput bioprinted 3D cultures for probing host-pathogen interactions in bioinspired microenvironments.](#/202603/27/202603/27/41602571-high-throughput-bioprinted-3d-cultures-for-probing-host-pathogen-interactions-in-bioinspired-microenvironments)
-  - TLDR：针对现有3D细胞培养模型通量低、手动操作复杂且难以模拟复杂组织微环境的问题，本研究利用生物打印技术在96孔板中构建了模拟肺部硬度的巨噬细胞-细菌共培养模型。通过合成细胞外基质精确调控物理特性，发现纤维化相关的“硬”环境会显著改变巨噬细胞对铜绿假单胞菌感染的免疫反应，为研究宿主-病原体相互作用及开发抗感染疗法提供了高通量生理相关平台。
-  - Tags：`query:pathoai`
-- [Sepsis Diagnostics via Biosensors: Engineering Platforms, Artificial Intelligence Integration, and Clinical Translation.](#/202603/27/202603/27/41698024-sepsis-diagnostics-via-biosensors-engineering-platforms-artificial-intelligence-integration-and-clinical-translation)
-  - TLDR：败血症因其高度异质性和缺乏单一生物标志物，导致临床诊断极具挑战。本文综述了利用生物传感器结合纳米材料、CRISPR等前沿技术实现实时、多指标检测的进展，并重点探讨了人工智能在增强传感器信号解析及电子健康记录预测中的关键作用。该研究不仅梳理了从实验室到临床转化的技术瓶颈，还为加速败血症诊断平台的部署提供了系统性的路线图。
-  - Tags：`query:pathoai`
-- [A Surface-Enhanced Raman Scattering-Digital Microfluidics Biosensing Platform Integrated with a 1D-Convolutional Neural Network for Noninvasive Detection of Inflammation Markers.](#/202603/27/202603/27/41733640-a-surface-enhanced-raman-scattering-digital-microfluidics-biosensing-platform-integrated-with-a-1d-convolutional-neural-network-for-noninvasive-detection-of-inflammation-markers)
-  - TLDR：针对早期败血症诊断中汗液炎症标志物检测难的问题，该研究开发了一种集成表面增强拉曼散射（SERS）与数字微流控（DMF）的自动化传感平台。通过构建磁性夹心免疫复合物并结合1D卷积神经网络（1D-CNN）进行光谱数据处理，实现了对C反应蛋白（CRP）的高灵敏度定量分析。该系统在20分钟内完成检测，检出限达0.77 pg/mL，为非侵入式、自动化的临床早期筛查提供了高效的技术方案。
-  - Tags：`query:pathoai`
-- [Identifying systemic lupus erythematosus from serum proteomic profiles using machine learning and genetic risk stratification.](#/202603/27/202603/27/41884878-identifying-systemic-lupus-erythematosus-from-serum-proteomic-profiles-using-machine-learning-and-genetic-risk-stratification)
-  - TLDR：系统性红斑狼疮（SLE）的早期诊断和风险评估仍具挑战。本研究利用 UK Biobank 等多中心队列的血清蛋白质组数据，构建了机器学习分类模型，用于识别既往病例并预测未来发病风险。结果显示，该模型在识别准确率上显著优于传统线性模型和多基因风险评分，并在跨种族队列中表现出良好泛化性，同时识别出 SCARB2 等关键生物标志物，为 SLE 的精准诊疗提供了新工具。
-  - Tags：`query:bioinfo`
-- [Synthesis of β-Carboline-Based Dimers and Hybrids and Anti-Methicillin-Resistant Staphylococcus aureus Properties by Targeting FtsZ.](#/202603/27/202603/27/41886480-synthesis-of--carboline-based-dimers-and-hybrids-and-anti-methicillin-resistant-staphylococcus-aureus-properties-by-targeting-ftsz)
-  - TLDR：针对耐甲氧西林金黄色葡萄球菌（MRSA）引发的抗生素耐药性危机，本研究通过二聚化和杂化策略合成了他克林-β-咔啉杂合体。该类化合物能有效破坏细菌细胞壁与细胞膜完整性，并通过结合FtsZ蛋白的核苷酸结合域，促进其异常聚合并抑制GTP酶活性，从而阻断细菌分裂。实验结果显示其对MRSA具有极强的抑制活性，为开发新型抗耐药菌药物提供了新思路。
-  - Tags：`query:pathoai`
-- [Leveraging weighted embedding and Transformer architecture to improve phenotype prediction of complex traits for crops.](#/202603/27/202603/27/41888146-leveraging-weighted-embedding-and-transformer-architecture-to-improve-phenotype-prediction-of-complex-traits-for-crops)
-  - TLDR：针对作物复杂性状预测中海量基因组数据与生物学解释性难以平衡的问题，本研究开发了 GP-WAITER 深度学习框架。该框架通过将 GWAS 衍生的 SNP 权重融入 CNN 与 Transformer 的混合架构，利用加权嵌入和自注意力机制捕捉超长基因序列的远程依赖关系。实验表明，该模型在预测准确率和计算效率上显著优于现有 SOTA 模型，并能精准定位关键遗传变异，为精准育种提供了高效且具解释性的工具。
   - Tags：`query:bioinfo`
