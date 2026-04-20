@@ -1,10 +1,22 @@
 # 知识库
 
-- 最近沉淀条目数：437
+- 最近沉淀条目数：441
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Expanding role of cell-free DNA for the early diagnosis and monitoring of pulmonary diseases.](#/202604/20/202604/20/41603032-expanding-role-of-cell-free-dna-for-the-early-diagnosis-and-monitoring-of-pulmonary-diseases)
+  - TLDR：针对肺部疾病早期诊断和监测的临床需求，本文综述了循环游离DNA（cfDNA）作为液体活检核心技术的应用现状。通过分析cfDNA的甲基化、片段化及突变特征，该技术已在肺癌筛查、肺炎病原体识别及慢阻肺风险分层中展现潜力。结合AI与多组学分析，cfDNA正成为精准呼吸医学中实现个性化管理的关键工具。
+  - Tags：`query:pathoai`
+- [IL10 is a potent modulator of IL1-mediated inflammation in bovine endometrial explants.](#/202604/20/202604/20/41942315-il10-is-a-potent-modulator-of-il1-mediated-inflammation-in-bovine-endometrial-explants)
+  - TLDR：针对奶牛子宫炎症影响繁殖效率的问题，本研究利用离体子宫内膜外植体模型，对比了致病菌、机会致病菌及益生菌对炎症因子IL1B及其拮抗剂IL1RA表达的影响。研究发现，所有细菌初期均诱导促炎反应，而细胞因子IL10能显著下调IL1B表达并将炎症比例转向抗炎方向。这揭示了IL10在调节子宫炎症中的关键作用，并提示益生菌在子宫环境中的作用具有复杂性。
+  - Tags：`query:pathoai`
+- [Cotton Recruits Soil-Derived Delftia tsuruhatensis to Suppress Aphid Detoxification Via Salicylic Acid-Mediated Defense.](#/202604/20/202604/20/42003736-cotton-recruits-soil-derived-delftia-tsuruhatensis-to-suppress-aphid-detoxification-via-salicylic-acid-mediated-defense)
+  - TLDR：针对棉蚜危害，研究发现棉花受害时会主动招募土壤中的鹤鹤德夫特菌。该菌通过激活植物水杨酸信号通路，跨物种抑制蚜虫关键解毒基因 UGT2B17，显著降低其存活与繁殖力。这一发现揭示了植物利用微生物增强免疫并解除害虫防御的跨界调控机制，为农业生物防治提供了新策略。
+  - Tags：`query:pathoai`
+- [High-throughput screening reveals mechanisms of environmental control of germination in a fungal thermophile.](#/202604/20/202604/20/42007705-high-throughput-screening-reveals-mechanisms-of-environmental-control-of-germination-in-a-fungal-thermophile)
+  - TLDR：嗜热真菌 T. thermophilus 在高温下生长良好但在低温下受限，其温度适应机制尚不明确。本研究通过大规模转座子插入突变和测序表型分析，筛选出影响其生命周期的关键基因。研究发现，该真菌的孢子萌发并非仅取决于耐热性，而是一个整合了温度与锌离子等环境信号的复杂决策过程。这一发现揭示了嗜热真菌的环境适应逻辑，为工业菌株的高温生物加工改造提供了理论基础。
+  - Tags：`query:seqai`
 - [Multi-kingdom profiling reveals altered gut phage-bacteria-metabolite interactions in MASLD.](#/202604/19/202604/19/42000726-multi-kingdom-profiling-reveals-altered-gut-phage-bacteria-metabolite-interactions-in-masld)
   - TLDR：代谢相关脂肪性肝病（MASLD）与肠道菌群失调密切相关，但以往研究多局限于细菌。本研究通过整合210名患者与210名对照组的宏基因组、真菌测序及代谢组数据，揭示了MASLD中跨界生态网络的重构。研究发现噬菌体对有害菌R. gnavus的控制减弱，导致其异常扩张并引发胆汁酸代谢紊乱。这一发现阐明了“噬菌体-细菌-代谢物”轴在疾病中的作用，为MASLD的无创诊断和精准治疗提供了多维度的生物标志物。
   - Tags：`query:pathoai`
@@ -592,16 +604,4 @@
   - Tags：`query:bioinfo`
 - [Systematic evaluation of single-cell foundation model interpretability reveals attention captures co-expression rather than unique regulatory signal](#/202603/27/202603/27/10.21203/rs.3.rs-9082476/v1-systematic-evaluation-of-single-cell-foundation-model-interpretability-reveals-attention-captures-co-expression-rather-than-unique-regulatory-signal)
   - TLDR：单细胞大模型常被认为其注意力机制能揭示基因调控关系，但这一假设缺乏严谨验证。本研究通过对4种细胞系和2种扰动方式进行系统性评估，发现注意力权重主要捕捉的是基因共表达等统计关联，而非因果调控信号。实验表明，简单的基因级基准模型在预测扰动效果上优于复杂的注意力边得分，且消融实验证实注意力头对预测并无实质贡献。研究提出了CSSI工具以优化异质群体中的边提取，为单细胞大模型的可解释性建立了质量控制标准。
-  - Tags：`query:bioinfo`
-- [Artificial intelligence for early detection and risk prediction of antimicrobial resistance in aquatic ecosystems.](#/202603/27/202603/27/41888601-artificial-intelligence-for-early-detection-and-risk-prediction-of-antimicrobial-resistance-in-aquatic-ecosystems)
-  - TLDR：水生环境是抗生素耐药性（AMR）传播的关键路径，但现有监测手段碎片化且效率低。该研究提出将人工智能与多维元数据（组学、环境、水文）结合，构建时空预测模型，旨在实现耐药基因的早期识别与动态预警。这一框架为全球“全健康”监测提供了高效、实时的技术路径，有助于提升公共卫生防御能力。
-  - Tags：`query:pathoai`
-- [Genome Mining and Molecular Networking Guided Discovery of Embleyamycins A-F, the Calcimycin-Type Polyethers from a Desert-Derived](#/202603/27/202603/27/41762129-genome-mining-and-molecular-networking-guided-discovery-of-embleyamycins-a-f-the-calcimycin-type-polyethers-from-a-desert-derived)
-  - TLDR：针对从青藏高原沙漠分离的稀有放线菌L77，研究人员通过基因组测序发现其虽具备钙霉素合成潜力，但因缺失关键甲基转移酶基因而可能产生新结构。通过整合基因组挖掘与质谱分子网络技术，成功定向分离出6种新型脱甲基钙霉素类抗生素（Embleyamycins A-F）。这些化合物对多种致病菌表现出显著活性，不仅丰富了钙霉素家族的化学多样性，也验证了多组学结合策略在加速新药发现中的高效性。
-  - Tags：`query:pathoai`
-- [VIBES: A multiscale modeling approach integrating within-host and between-hosts dynamics in epidemics.](#/202603/27/202603/27/41886375-vibes-a-multiscale-modeling-approach-integrating-within-host-and-between-hosts-dynamics-in-epidemics)
-  - TLDR：流行病传播受宿主内病毒动力学和宿主间社交行为共同驱动，但两者影响难以区分。本研究提出 VIBES 框架，将基于患者数据的病毒载量模型与基于社交网络的传播模型相结合。以 SARS-CoV-2 为例，发现社交竞争会缩短代际时间，而隔离措施会提高症状前传播比例。该框架为量化生物与社会因素对疫情的影响提供了机械论工具，有助于评估公共卫生干预效果。
-  - Tags：`query:pathoai`
-- [Multitask Pretraining Framework for Improving Predictivity of Machine Learning Chemical Bioactivity Models for Low-Data Endpoints.](#/202603/27/202603/27/41887802-multitask-pretraining-framework-for-improving-predictivity-of-machine-learning-chemical-bioactivity-models-for-low-data-endpoints)
-  - TLDR：针对化学毒理学中许多终点数据稀缺、单任务模型泛化性差的问题，本研究提出了一种多任务预训练框架。该框架首先在多个中等规模的 ToxCast 数据集上进行联合训练以提取通用的分子表征，随后将其与下游分类器结合，应用于仅有约100个样本的小数据任务。实验证明，该方法在多数低数据任务上的预测准确率优于传统化学描述符，为解决毒理学预测中的数据孤岛和样本不足问题提供了有效方案。
   - Tags：`query:bioinfo`

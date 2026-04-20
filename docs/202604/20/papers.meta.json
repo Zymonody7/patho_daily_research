@@ -1,0 +1,65 @@
+{
+  "label": "2026-04-20",
+  "date": "2026-04-20",
+  "generated_at": "2026-04-20T19:43:43",
+  "count": 4,
+  "papers": [
+    {
+      "paper_id": "202604/20/41603032-expanding-role-of-cell-free-dna-for-the-early-diagnosis-and-monitoring-of-pulmonary-diseases",
+      "section": "quick",
+      "title_en": "Expanding role of cell-free DNA for the early diagnosis and monitoring of pulmonary diseases.",
+      "authors": "Liuqing Yang, Yu Gu, Jun Shao, Li Zhang, Chengdi Wang",
+      "date": "2026-04-20",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41603032/",
+      "score": "7.0",
+      "evidence": "利用cfDNA进行快速病原体识别",
+      "tldr": "针对肺部疾病早期诊断和监测的临床需求，本文综述了循环游离DNA（cfDNA）作为液体活检核心技术的应用现状。通过分析cfDNA的甲基化、片段化及突变特征，该技术已在肺癌筛查、肺炎病原体识别及慢阻肺风险分层中展现潜力。结合AI与多组学分析，cfDNA正成为精准呼吸医学中实现个性化管理的关键工具。",
+      "tags": "query:pathoai",
+      "abstract_en": "Circulating cell-free DNA (cfDNA) has firmly established itself as a cornerstone of liquid biopsy, advancing the noninvasive diagnosis and monitoring of pulmonary diseases. Its molecular characteristics, particularly methylation profiles, fragmentation patterns, and mutations, now enable a range of clinical applications-from early detection of lung cancer to rapid pathogen identification and severity assessment in pneumonia, and to precise risk stratification in chronic conditions such as chronic obstructive pulmonary disease and asthma. Beyond diagnostic applications, dynamic changes in cfDNA levels and profiles provide critical insights into disease monitoring across a spectrum of pulmonary disorders. While challenges in detection sensitivity, analytical standardization, and clinical validation remain, the ongoing integration of multi-omics data and artificial intelligence is refining the predictive power of cfDNA-based models. Future developments are expected to consolidate the role of cfDNA analysis as an indispensable tool in precision pulmonology, ultimately transforming diagnostic pathways and enabling more personalized, proactive management of respiratory health.",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202604/20/41942315-il10-is-a-potent-modulator-of-il1-mediated-inflammation-in-bovine-endometrial-explants",
+      "section": "quick",
+      "title_en": "IL10 is a potent modulator of IL1-mediated inflammation in bovine endometrial explants.",
+      "authors": "Marie Margarete Meyerholz-Wohllebe, Anna Maria Kneidl, Simone Tamara Knoch, Sandra Haug, Frank Weber, Yury Zablotski, Christoph Gabler, Wolfram Petzl, Holm Zerbe",
+      "date": "2026-04-20",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41942315/",
+      "score": "6.0",
+      "evidence": "宿主-病原体相互作用与感染结果建模",
+      "tldr": "针对奶牛子宫炎症影响繁殖效率的问题，本研究利用离体子宫内膜外植体模型，对比了致病菌、机会致病菌及益生菌对炎症因子IL1B及其拮抗剂IL1RA表达的影响。研究发现，所有细菌初期均诱导促炎反应，而细胞因子IL10能显著下调IL1B表达并将炎症比例转向抗炎方向。这揭示了IL10在调节子宫炎症中的关键作用，并提示益生菌在子宫环境中的作用具有复杂性。",
+      "tags": "query:pathoai",
+      "abstract_en": "CONTEXT: Bovine uterine inflammation impairs fertility, animal welfare and economics. Balanced regulation of interleukin-1 family proteins is crucial to resolve endometrial inflammation. AIM: mRNA expression of interleukin 1B (IL1B) and its receptor antagonist (IL1RA) was examined in bovine endometrial explants. METHODS: Endometrial explants from 26 cows were incubated with heat-inactivated pathogenic Escherichia coli, opportunistic Bacillus pumilus or commensal and potentially protective Lactobacillus buchneri (3, 14 and 24 h) and with cytokines (24 h; IL1B, IL17A, IL10). mRNA expression of IL1B and IL1RA was quantified via reverse-transcription quantitative polymerase chain reaction (RT-qPCR) and mixed effects models were used for statistical analysis. KEY RESULTS: IL1B mRNA expression increased after bacterial challenge at all timepoints (P < 0.001). IL1RA mRNA expression increased after Escherichia coli and Bacillus pumilus exposure only at 3 h, but after Lactobacillus buchneri at 14 and 24 h (P < 0.010). A pro-inflammatory shift of the IL1RA:IL1B ratio was detected at all timepoints and for all bacterial challenges (P < 0.020). Stimulation with IL10 reduced IL1B and IL1RA mRNA expression and shifted the IL1RA:IL1B ratio in an anti-inflammatory direction (P < 0.001). CONCLUSION: This study confirmed explant culture as a suitable model for analyzing inflammatory regulation in the bovine endometrium and identified IL10 as a potent modulator of endometrial IL1B and IL1RA. IMPLICATIONS: Not only Escherichia coli and Bacillus pumilus, but also unexpectedly Lactobacillus buchneri, induced initial pro-inflammatory mRNA expression patterns to be different depending on culture duration. This highlights the need for further research on pathogenic and opportunistic versus potentially protective bacteria in bovine uterine health.",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202604/20/42003736-cotton-recruits-soil-derived-delftia-tsuruhatensis-to-suppress-aphid-detoxification-via-salicylic-acid-mediated-defense",
+      "section": "quick",
+      "title_en": "Cotton Recruits Soil-Derived Delftia tsuruhatensis to Suppress Aphid Detoxification Via Salicylic Acid-Mediated Defense.",
+      "authors": "Hui Xue, Fengchao Diao, Qiqing Yu, Xiangzhen Zhu, Tingfang Zhong, Li Wang, Kaixin Zhang, Dongyang Li, Jichao Ji, Junyu Luo, Jinjie Cui, Xueke Gao",
+      "date": "2026-04-20",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/42003736/",
+      "score": "6.0",
+      "evidence": "微生物组宿主相互作用与病原体防御",
+      "tldr": "针对棉蚜危害，研究发现棉花受害时会主动招募土壤中的鹤鹤德夫特菌。该菌通过激活植物水杨酸信号通路，跨物种抑制蚜虫关键解毒基因 UGT2B17，显著降低其存活与繁殖力。这一发现揭示了植物利用微生物增强免疫并解除害虫防御的跨界调控机制，为农业生物防治提供了新策略。",
+      "tags": "query:pathoai",
+      "abstract_en": "The synergistic defense between microorganisms and plants holds significant ecological importance in resisting pest attacks. Herbivorous insects pose a significant threat to global agriculture. While plants deploy defense hormones like jasmonic acid (JA) and salicylic acid (SA), the role of beneficial microbes in enhancing these defenses remains underexplored. This study unveils a novel tripartite interaction in which cotton actively mobilizes the soil-derived bacterium Delftia tsuruhatensis to roots and leaves upon aphid attack, reshaping its microbiome for defense. Following aphid infestation, the abundance of D. tsuruhatensis was increased significantly in both roots and leaves. Inoculation of cotton with D. tsuruhatensis significantly reduced aphid fitness, inhibiting phloem feeding, decreasing survival, prolonging nymphal development, and impairing reproduction. Mechanistically, we found that D. tsuruhatensis activates the host plant's SA signaling pathway. This plant-mediated response, in turn, effectively suppresses the expression of a key aphid detoxification gene, UGT2B17 (UDP-glucosyltransferase 2B17), compromising the insect's ability to metabolize plant defenses. Furthermore, the combination of D. tsuruhatensis and RNAi-mediated silencing of UGT2B17 synergistically enhanced aphid mortality. Our results elucidate a sophisticated defense strategy wherein the host plant leverages a beneficial microbe to augment its innate immunity through cross-kingdom gene regulation, ultimately disarming the pest's detoxification system.",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202604/20/42007705-high-throughput-screening-reveals-mechanisms-of-environmental-control-of-germination-in-a-fungal-thermophile",
+      "section": "quick",
+      "title_en": "High-throughput screening reveals mechanisms of environmental control of germination in a fungal thermophile.",
+      "authors": "Olusola A Ogunyewo, Kristopher Fleming, Madeleine Morris, Kayleigh Fort, Lori B Huberman, Rachel B Brem",
+      "date": "2026-04-20",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/42007705/",
+      "score": "6.0",
+      "evidence": "通过测序进行表型分析以确定遗传决定因素",
+      "tldr": "嗜热真菌 T. thermophilus 在高温下生长良好但在低温下受限，其温度适应机制尚不明确。本研究通过大规模转座子插入突变和测序表型分析，筛选出影响其生命周期的关键基因。研究发现，该真菌的孢子萌发并非仅取决于耐热性，而是一个整合了温度与锌离子等环境信号的复杂决策过程。这一发现揭示了嗜热真菌的环境适应逻辑，为工业菌株的高温生物加工改造提供了理论基础。",
+      "tags": "query:seqai",
+      "abstract_en": "Thermothelomyces thermophilus is a filamentous fungus isolated from self-heating compost. Unlike most of the fungal kingdom, this species exhibits a growth optimum at 45°C and is intolerant of temperatures below 30°C. To investigate genetic contributors to temperature-dependent fitness in this system, we implemented a large-scale insertional mutagenesis approach. We generated thousands of T. thermophilus mutants and cultured them at temperature extremes in a standard medium. Phenotyping-by-sequencing identified dozens of disrupted loci representing candidate determinants of thermophilic life history, including several annotated in metal transport. We then validated a subset of screen hits with a directed, single-gene knockout paradigm. The results revealed a temperature-dependent regulatory logic for germination, the developmental decision by which a fungal spore initiates growth. Surprisingly, most mutants germinated far better at 50°C than the wild type in a standard medium and showed markedly slower germination at lower temperatures, consistent with altered germination regulation rather than enhanced intrinsic heat tolerance. We hypothesized that T. thermophilus has evolved sophisticated regulatory machinery to block germination at high temperatures unless environmental conditions are favorable. As a proof of concept, we surveyed media conditions and established that elevated zinc dampened germination of wild-type T. thermophilus at 50°C but promoted it at lower temperatures; mutation experiments made clear that such sensitivity was mediated in part by the zinc transporter zip. We interpret these results under a model in which T. thermophilus integrates temperature and nutrient availability to control the transition from spore dormancy to vegetative growth, a developmental decision that shapes fitness outcomes across temperatures.IMPORTANCEFungal thermophiles thrive at temperatures that represent the upper limits of eukaryotic life. The regulatory and developmental mechanisms that shape their temperature-dependent fitness remain poorly understood. In this work, we elucidate how Thermothelomyces thermophilus integrates temperature cues with other environmental inputs during germination, a key life-cycle stage for dispersal. Our findings highlight germination regulation as an important contributor to fitness at elevated temperatures in a thermophilic eukaryote. These insights are of basic biological interest and provide a foundation for rational strategies to modulate temperature-dependent performance in industrial strains, with applications for high-temperature bioprocessing.",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}

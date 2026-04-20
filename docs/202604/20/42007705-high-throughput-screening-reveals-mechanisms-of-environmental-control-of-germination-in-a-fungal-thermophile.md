@@ -1,0 +1,22 @@
+---
+title: High-throughput screening reveals mechanisms of environmental control of germination in a fungal thermophile.
+title_zh: 高通量筛选揭示了一种嗜热真菌萌发的环境调控机制
+authors: "Olusola A Ogunyewo, Kristopher Fleming, Madeleine Morris, Kayleigh Fort, Lori B Huberman, Rachel B Brem"
+date: 2026-04-20
+pdf: "https://pubmed.ncbi.nlm.nih.gov/42007705/"
+tags: ["query:seqai"]
+score: 6.0
+evidence: 通过测序进行表型分析以确定遗传决定因素
+tldr: 嗜热真菌 T. thermophilus 在高温下生长良好但在低温下受限，其温度适应机制尚不明确。本研究通过大规模转座子插入突变和测序表型分析，筛选出影响其生命周期的关键基因。研究发现，该真菌的孢子萌发并非仅取决于耐热性，而是一个整合了温度与锌离子等环境信号的复杂决策过程。这一发现揭示了嗜热真菌的环境适应逻辑，为工业菌株的高温生物加工改造提供了理论基础。
+selection_source: fresh_fetch
+motivation: 探究嗜热真菌如何在极端高温环境下通过遗传调控维持生存，并识别决定其温度依赖性适应性的关键基因。
+method: 采用大规模插入突变技术构建突变体库，并结合测序表型分析在不同温度下筛选影响生长发育的基因位点。
+result: 发现锌转运蛋白 zip 等基因介导了孢子萌发的温度敏感性，且多数突变体在 50°C 下的萌发率反而高于野生型，表明萌发过程受到严格的环境逻辑控制。
+conclusion: 嗜热真菌通过整合温度与营养信号来精准调控从休眠到生长的发育转变，这种萌发调节机制是其在高温环境下实现适应性最大化的核心策略。
+---
+
+## 摘要
+嗜热毁丝霉（Thermothelomyces thermophilus）是一种从自热堆肥中分离出的丝状真菌。与大多数真菌界成员不同，该物种的最适生长温度为 45°C，且不耐受 30°C 以下的温度。为了研究该系统中温度依赖性适应度的遗传贡献因素，我们采用了一种大规模插入诱变方法。我们产生了数千个 T. thermophilus 突变体，并在标准培养基中的极端温度下对其进行培养。通过测序表型分析（Phenotyping-by-sequencing），我们鉴定了数十个被破坏的位点，这些位点代表了嗜热生活史的候选决定因素，其中包括几个被注释为参与金属转运的位点。随后，我们利用定向单基因敲除范式验证了一部分筛选出的命中位点。结果揭示了萌发过程中一种温度依赖性的调节逻辑，萌发是真菌孢子启动生长的发育决策。令人惊讶的是，在标准培养基中，大多数突变体在 50°C 下的萌发情况远好于野生型，而在较低温度下萌发明显变慢，这与萌发调节的改变一致，而非内在耐热性的增强。我们假设 T. thermophilus 已经进化出复杂的调节机制，除非环境条件有利，否则会在高温下阻止萌发。作为概念验证，我们调查了培养基条件，并确定升高的锌浓度会抑制野生型 T. thermophilus 在 50°C 下的萌发，但在较低温度下会促进其萌发；突变实验表明，这种敏感性部分是由锌转运蛋白 zip 介导的。我们将这些结果解释为一种模型，即 T. thermophilus 整合温度和养分可用性来控制从孢子休眠到营养生长的转变，这是一种决定不同温度下适应度结果的发育决策。【重要性】嗜热真菌在代表真核生物生命上限的温度下茁壮成长。塑造其温度依赖性适应度的调节和发育机制仍不清楚。在这项工作中，我们阐明了 Thermothelomyces thermophilus 在萌发（扩散的关键生命周期阶段）过程中如何将温度信号与其他环境输入整合。我们的发现强调了萌发调节是嗜热真核生物在高温下适应度的重要贡献因素。这些见解具有基础生物学意义，并为调节工业菌株中温度依赖性性能的合理策略奠定了基础，可应用于高温生物加工。
+
+## Abstract
+Thermothelomyces thermophilus is a filamentous fungus isolated from self-heating compost. Unlike most of the fungal kingdom, this species exhibits a growth optimum at 45°C and is intolerant of temperatures below 30°C. To investigate genetic contributors to temperature-dependent fitness in this system, we implemented a large-scale insertional mutagenesis approach. We generated thousands of T. thermophilus mutants and cultured them at temperature extremes in a standard medium. Phenotyping-by-sequencing identified dozens of disrupted loci representing candidate determinants of thermophilic life history, including several annotated in metal transport. We then validated a subset of screen hits with a directed, single-gene knockout paradigm. The results revealed a temperature-dependent regulatory logic for germination, the developmental decision by which a fungal spore initiates growth. Surprisingly, most mutants germinated far better at 50°C than the wild type in a standard medium and showed markedly slower germination at lower temperatures, consistent with altered germination regulation rather than enhanced intrinsic heat tolerance. We hypothesized that T. thermophilus has evolved sophisticated regulatory machinery to block germination at high temperatures unless environmental conditions are favorable. As a proof of concept, we surveyed media conditions and established that elevated zinc dampened germination of wild-type T. thermophilus at 50°C but promoted it at lower temperatures; mutation experiments made clear that such sensitivity was mediated in part by the zinc transporter zip. We interpret these results under a model in which T. thermophilus integrates temperature and nutrient availability to control the transition from spore dormancy to vegetative growth, a developmental decision that shapes fitness outcomes across temperatures.IMPORTANCEFungal thermophiles thrive at temperatures that represent the upper limits of eukaryotic life. The regulatory and developmental mechanisms that shape their temperature-dependent fitness remain poorly understood. In this work, we elucidate how Thermothelomyces thermophilus integrates temperature cues with other environmental inputs during germination, a key life-cycle stage for dispersal. Our findings highlight germination regulation as an important contributor to fitness at elevated temperatures in a thermophilic eukaryote. These insights are of basic biological interest and provide a foundation for rational strategies to modulate temperature-dependent performance in industrial strains, with applications for high-temperature bioprocessing.

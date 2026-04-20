@@ -11,43 +11,35 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-04-19
-- 运行时间：2026-04-19 19:17:41 UTC
+- 最新运行日期：2026-04-20
+- 运行时间：2026-04-20 19:43:34 UTC
 - 运行状态：成功
-- 本次总论文数：7
-- 精读区：3
+- 本次总论文数：4
+- 精读区：0
 - 速读区：4
 
 ### 今日简报（AI）
-今日精选 7 篇前沿研究，深度剖析肠道多界互作对 MASLD 的影响及疟原虫蛋白互作的新靶点。
-重点揭示了肠道噬菌体-细菌-代谢物轴在脂肪肝中的失调机制，并证实废水监测能有效预警耐药耳念珠菌的暴发。
-建议关注
-- 详情：[/202604/19/README](/202604/19/README)
+今日聚焦生物标志物与防御机制，涵盖肺部疾病监测、牛子宫炎症调节及棉花抗虫策略。
+重点关注游离DNA（cfDNA）在肺病早诊中的潜力，以及棉花如何招募土壤益生菌来抑制蚜虫的解毒能力。
+建议关注无创液体活检在呼吸健康领域的应用，以及微生物辅助绿色农业防控的新思路。
+- 详情：[/202604/20/README](/202604/20/README)
 
 ### 精读区论文标签
-1. [Multi-kingdom profiling reveals altered gut phage-bacteria-metabolite interactions in MASLD.](/202604/19/42000726-multi-kingdom-profiling-reveals-altered-gut-phage-bacteria-metabolite-interactions-in-masld)  
-   标签：评分：8.0/10、query:pathoai
-   evidence：散弹枪宏基因组学分析多界微生物相互作用
-2. [Targeting protein-protein interactions in Plasmodium: from asexual replication to sexual development.](/202604/19/42001110-targeting-protein-protein-interactions-in-plasmodium-from-asexual-replication-to-sexual-development)  
-   标签：评分：8.0/10、query:pathoai
-   evidence：针对蛋白质相互作用进行抗疟药物发现
-3. [Deep learning-based identification of visually similar foliar diseases in field-grown barley.](/202604/19/42001137-deep-learning-based-identification-of-visually-similar-foliar-diseases-in-field-grown-barley)  
-   标签：评分：8.0/10、query:pathoai
-   evidence：深度学习用于农作物多类病原体检测
+- 本次无精读推荐。
 
 ### 速读区论文标签
-1. [Phage-Encoded Metabolic Bypass Drives Herbicide Resistance in Soil Microbiomes.](/202604/19/41999333-phage-encoded-metabolic-bypass-drives-herbicide-resistance-in-soil-microbiomes)  
+1. [Expanding role of cell-free DNA for the early diagnosis and monitoring of pulmonary diseases.](/202604/20/41603032-expanding-role-of-cell-free-dna-for-the-early-diagnosis-and-monitoring-of-pulmonary-diseases)  
    标签：评分：7.0/10、query:pathoai
-   evidence：土壤中噬菌体-宿主相互作用与微生物适应
-2. [Wastewater intelligence predicts the emergence of clinically-relevant and drug-resistant Candidozyma auris at healthcare facilities.](/202604/19/42000719-wastewater-intelligence-predicts-the-emergence-of-clinically-relevant-and-drug-resistant-candidozyma-auris-at-healthcare-facilities)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：基于废水的流行病学方法用于耐药病原体监测
-3. [The B7 family subgroup reflects tumor cell heterogeneity and patient post-operative prognosis in gallbladder cancer.](/202604/19/42001193-the-b7-family-subgroup-reflects-tumor-cell-heterogeneity-and-patient-post-operative-prognosis-in-gallbladder-cancer)  
-   标签：评分：7.0/10、query:seqai
-   evidence：单细胞RNA测序分析肿瘤细胞异质性
-4. [Mycobacterium tuberculosis long-chain fatty acid resistome reveals universal stress protein TB15.3 as essential for infection.](/202604/19/42000959-mycobacterium-tuberculosis-long-chain-fatty-acid-resistome-reveals-universal-stress-protein-tb153-as-essential-for-infection)  
+   evidence：利用cfDNA进行快速病原体识别
+2. [IL10 is a potent modulator of IL1-mediated inflammation in bovine endometrial explants.](/202604/20/41942315-il10-is-a-potent-modulator-of-il1-mediated-inflammation-in-bovine-endometrial-explants)  
    标签：评分：6.0/10、query:pathoai
-   evidence：转座子测序用于病原体靶点识别和耐药机制研究
+   evidence：宿主-病原体相互作用与感染结果建模
+3. [Cotton Recruits Soil-Derived Delftia tsuruhatensis to Suppress Aphid Detoxification Via Salicylic Acid-Mediated Defense.](/202604/20/42003736-cotton-recruits-soil-derived-delftia-tsuruhatensis-to-suppress-aphid-detoxification-via-salicylic-acid-mediated-defense)  
+   标签：评分：6.0/10、query:pathoai
+   evidence：微生物组宿主相互作用与病原体防御
+4. [High-throughput screening reveals mechanisms of environmental control of germination in a fungal thermophile.](/202604/20/42007705-high-throughput-screening-reveals-mechanisms-of-environmental-control-of-germination-in-a-fungal-thermophile)  
+   标签：评分：6.0/10、query:seqai
+   evidence：通过测序进行表型分析以确定遗传决定因素
 
 
 <div class="dpr-home-promo-card">
