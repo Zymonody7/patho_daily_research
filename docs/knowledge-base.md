@@ -1,10 +1,34 @@
 # 知识库
 
-- 最近沉淀条目数：441
+- 最近沉淀条目数：449
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Analytical validation of a highly accurate and reliable next-generation sequencing-based urine assay.](#/202604/21/202604/21/42012213-analytical-validation-of-a-highly-accurate-and-reliable-next-generation-sequencing-based-urine-assay)
+  - TLDR：针对传统尿培养在尿路感染诊断中灵敏度低、易漏诊的问题，研究团队开发并验证了 BIOTIA-ID 临床级宏基因组测序管线。该方法结合机器学习算法过滤共生菌干扰，在 1470 份样本中实现了 97.2% 的灵敏度和 99.6% 的特异性，并能同步检测耐药基因。该技术为复杂或复发性感染提供了比传统培养更精准、全面的诊断方案，有助于优化抗生素使用并支持临床决策。
+  - Tags：`query:pathoai`
+- [Accelerating Leigh syndrome drug discovery through deep learning screening in brain organoids.](#/202604/21/202604/21/42009687-accelerating-leigh-syndrome-drug-discovery-through-deep-learning-screening-in-brain-organoids)
+  - TLDR：针对缺乏疗法的罕见线粒体疾病Leigh综合征，研究者利用SURF1突变导致的神经元发育受损表型，开发了细胞类型特异性的深度学习药物筛选算法，并结合酵母模型进行平行验证。研究发现唑类化合物（如他拉罗唑）能显著修复类脑器官的神经元形态并改善代谢异常。该成果展示了AI筛选与人类类器官模型结合在加速罕见神经发育疾病药物发现方面的应用价值。
+  - Tags：`query:bioinfo`
+- [Hotspot pocket-based discovery of urea transporter selective inhibitors.](#/202604/21/202604/21/42009654-hotspot-pocket-based-discovery-of-urea-transporter-selective-inhibitors)
+  - TLDR：针对尿素转运蛋白（UT）抑制剂作为利尿剂的开发难题，研究团队采用两轮渐进式热点口袋虚拟筛选技术，成功鉴定出高选择性UT-A2抑制剂M353-0039。通过冷冻电镜解析了其与UT-A2结合的高分辨率结构，揭示了其占据深层口袋及与非保守残基相互作用的分子机制。该研究不仅为探索UT-A2生理功能提供了工具，也为开发新一代高效利尿剂提供了方法学参考。
+  - Tags：`query:bioinfo`
+- [Trimethylamine-producing microbe Bacillus megaterium KCTC 3007 promotes antitumor immunity in endometrial cancer via type I interferon response pathways.](#/202604/21/202604/21/42010642-trimethylamine-producing-microbe-bacillus-megaterium-kctc-3007-promotes-antitumor-immunity-in-endometrial-cancer-via-type-i-interferon-response-pathways)
+  - TLDR：针对子宫内膜癌（ECa）预后受微生物群落影响但机制不明的问题，本研究通过整合宏转录组、转录组和代谢组学分析，发现巨大芽孢杆菌（BM）KCTC 3007 与患者生存期延长显著相关。研究证实该菌通过产生代谢产物氧化三甲胺（TMAO），激活宿主 I 型干扰素通路并诱导癌细胞焦亡，从而增强 CD8+ T 细胞介导的抗肿瘤免疫。这一发现为利用益生菌或代谢物辅助治疗子宫内膜癌提供了新的机械论依据和临床策略。
+  - Tags：`query:pathoai`
+- [Single-cell co-mapping reveals relationship between chromatin state and gene expression in early zebrafish development.](#/202604/21/202604/21/42011025-single-cell-co-mapping-reveals-relationship-between-chromatin-state-and-gene-expression-in-early-zebrafish-development)
+  - TLDR：针对脊椎动物胚胎发育中染色质状态与基因表达耦合机制不明的问题，研究者开发了一种能同时检测单细胞全长转录组和组蛋白修饰的多模态测量方法，并应用于斑马鱼早期发育研究。研究发现，在胚层形成前两者处于解离状态，随后在原肠胚期逐渐耦合；通过机器学习模型识别了谱系特异性转录因子及其表观遗传调控模式。该研究揭示了细胞身份建立过程中转录与染色质层的动态交互逻辑。
+  - Tags：`query:seqai`
+- [AN ACTIVE LEARNING PROJECT FOR TEACHING BIOINFORMATICS, PHYLOGENETICS, AND PARASITOLOGY.](#/202604/21/202604/21/42002290-an-active-learning-project-for-teaching-bioinformatics-phylogenetics-and-parasitology)
+  - TLDR：针对生物学教学中理论应用不足的问题，本项目设计了一套主动学习方案，让学生扮演生物学家角色，利用 MEGA 软件对 GenBank 中的寄生虫分子序列进行生物信息学分析。通过构建系统发育树，学生能够识别未知分类群并解决模拟的现实寄生虫学难题。该方法不仅加深了学生对进化过程的理解，还锻炼了其利用跨学科工具应对全球健康和生物多样性挑战的实战能力。
+  - Tags：`query:pathoai`
+- [Quantitative Analysis of Multiple Serum Tumor Biomarkers by an Interpretable Stacked Ensemble Model.](#/202604/21/202604/21/42010926-quantitative-analysis-of-multiple-serum-tumor-biomarkers-by-an-interpretable-stacked-ensemble-model)
+  - TLDR：针对血清肿瘤标志物在表面增强拉曼光谱（SERS）检测中面临的光谱复杂和基质干扰问题，本研究提出了一种可解释堆叠集成模型（ISEM）。该模型结合了LASSO特征选择与集成学习算法，实现了对12种血清肿瘤标志物的高精度定量分析（R2 > 0.9），并通过SHAP解释性分析揭示了分子结构与光谱特征的关联，为癌症早期筛查提供了可靠且透明的数字化工具。
+  - Tags：`query:bioinfo`
+- [Proximity Binding Assay for PROTAC Ternary Complex Analysis.](#/202604/21/202604/21/42011828-proximity-binding-assay-for-protac-ternary-complex-analysis)
+  - TLDR：PROTAC等诱导的三元复合物形成是靶向蛋白质降解的关键，但其实时动力学分析极具挑战。该研究提出一种基于Y型DNA支架的邻近结合分析法，将E3连接酶和靶蛋白锚定在可旋转的DNA臂上，通过FRET和荧光淬灭技术在生物传感器上同步测量二元及三元相互作用。该方法在CRBN/VHL与BRD蛋白家族的测试中表现出高通量和低样本消耗特性，为优化降解剂的药理性能提供了关键的动力学见解。
+  - Tags：`query:bioinfo`
 - [Expanding role of cell-free DNA for the early diagnosis and monitoring of pulmonary diseases.](#/202604/20/202604/20/41603032-expanding-role-of-cell-free-dna-for-the-early-diagnosis-and-monitoring-of-pulmonary-diseases)
   - TLDR：针对肺部疾病早期诊断和监测的临床需求，本文综述了循环游离DNA（cfDNA）作为液体活检核心技术的应用现状。通过分析cfDNA的甲基化、片段化及突变特征，该技术已在肺癌筛查、肺炎病原体识别及慢阻肺风险分层中展现潜力。结合AI与多组学分析，cfDNA正成为精准呼吸医学中实现个性化管理的关键工具。
   - Tags：`query:pathoai`
@@ -581,27 +605,3 @@
 - [High-Resolution Colony Images of Clinically Isolated Bacteria for Automated Detection and Deep Learning.](#/202603/28/202603/28/41896581-high-resolution-colony-images-of-clinically-isolated-bacteria-for-automated-detection-and-deep-learning)
   - TLDR：针对微生物菌落人工分析效率低、主观偏差大以及现有AI数据集规模小且不规范的问题，本研究发布了一个包含19种临床常见细菌、151个菌株的大规模高分辨率标准化数据集。该数据集通过严格的受控环境采集，包含超过11.8万个标注菌落实例，捕捉了丰富的种内表型多样性。这一成果为开发高泛化性的自动化菌落检测与分类深度学习模型提供了坚实的数据基础，推动了临床微生物检测的标准化与智能化。
   - Tags：`query:pathoai`
-- [Scaling and quantization of large-scale foundation model enables resource-efficient predictions in network biology.](#/202603/28/202603/28/41896605-scaling-and-quantization-of-large-scale-foundation-model-enables-resource-efficient-predictions-in-network-biology)
-  - TLDR：针对网络生物学基础模型随数据规模增大导致计算资源消耗剧增的问题，本研究构建了包含1.04亿个人类单细胞转录组的大规模数据集，并训练了不同规模的模型以确立缩放法则。通过引入模型量化技术，在保持生物学知识表达能力的同时，将微调时间缩短至15%，内存占用降至34%，实现了在资源受限环境下高效进行单细胞下游任务预测。
-  - Tags：`query:bioinfo`
-- [DeepISO: deep learning-powered prediction of protein-protein interaction rewiring generated by alternative splicing.](#/202603/28/202603/28/41896911-deepiso-deep-learning-powered-prediction-of-protein-protein-interaction-rewiring-generated-by-alternative-splicing)
-  - TLDR：同一基因产生的不同异构体（Isoforms）会显著改变蛋白质相互作用（PPI）网络，但大规模预测这种“重连”现象极具挑战。DeepISO 提出了一种深度学习框架，首次结合了 AlphaFold 预测的蛋白质结构信息与 ESM2 语言模型的序列嵌入特征，通过图卷积网络与随机森林的集成模型实现异构体特异性相互作用的预测。实验证明该方法在预测精度上优于现有主流 PPI 工具，为理解蛋白质功能多样性提供了高效的计算手段。
-  - Tags：`query:bioinfo`
-- [A Segatella Copri-centered Gut Microbiota-mediated Metabolic Dysregulation Associated with Transition from Asymptomatic to Symptomatic Intracranial Atherosclerosis.](#/202603/28/202603/28/41896490-a-segatella-copri-centered-gut-microbiota-mediated-metabolic-dysregulation-associated-with-transition-from-asymptomatic-to-symptomatic-intracranial-atherosclerosis)
-  - TLDR：针对无症状颅内动脉狭窄（aICAS）向症状性缺血性脑卒中（iLAA-IS）演变的机制不明问题，本研究通过粪便宏基因组和血浆代谢组学分析，利用机器学习筛选出以Segatella copri为核心的5个关键生物标志物。结果显示，该多组学模型预测准确率显著优于传统因素（AUC达0.91），并揭示了肠道菌群失调导致的代谢紊乱是卒中发生的关键驱动力，为脑卒中预防提供了新靶点。
-  - Tags：`query:pathoai`
-- [Mining of food metagenomes reveals an unexplored diversity of dsDNA bacteriophages.](#/202603/28/202603/28/41896556-mining-of-food-metagenomes-reveals-an-unexplored-diversity-of-dsdna-bacteriophages)
-  - TLDR：针对食品微生物组中病毒多样性研究不足的问题，本研究通过对3000多个食品宏基因组样本进行病毒组学分析，构建了包含约3400个病毒基因组的FVGC数据库。研究发现食品中存在大量未知的有尾噬菌体纲谱系，并揭示了病毒与ESKAPE等临床相关病原菌的紧密宿主联系，同时证实噬菌体介导的抗生素抗性传播风险较低，为食品安全和病毒生态研究提供了重要资源。
-  - Tags：`query:seqai`
-- [Dynamic gut responses to sepsis uncovered by multi-omics profiling in a rodent model.](#/202603/28/202603/28/41896632-dynamic-gut-responses-to-sepsis-uncovered-by-multi-omics-profiling-in-a-rodent-model)
-  - TLDR：脓毒症会导致严重的免疫功能紊乱，而肠道作为最大的免疫器官在其中扮演关键角色，但其动态演变机制尚不明确。本研究通过构建肺炎诱导的脓毒症大鼠模型，利用多组学技术追踪了肠道细胞、微生物、代谢物及蛋白质随时间的动态变化。研究发现免疫细胞与结构细胞在转录水平发生显著重塑，并揭示了微生物群与宿主代谢的协同波动模式，为脓毒症的临床干预提供了潜在的治疗靶点。
-  - Tags：`query:pathoai`
-- [Trivalent multi-epitope mRNA vaccine against norovirus, rotavirus, and adenovirus 40/41: epitope screening, molecular docking, and molecular dynamics simulation with in silico validation guided by immunoinformatics.](#/202603/28/202603/28/41897006-trivalent-multi-epitope-mrna-vaccine-against-norovirus-rotavirus-and-adenovirus-4041-epitope-screening-molecular-docking-and-molecular-dynamics-simulation-with-in-silico-validation-guided-by-immunoinformatics)
-  - TLDR：针对诺如病毒、轮状病毒及腺病毒40/41引起的严重腹泻问题，本研究利用免疫信息学方法设计了一种三价多表位mRNA疫苗。通过筛选高抗原性且无毒的T细胞和B细胞表位，并结合分子对接与动力学模拟验证其结构稳定性，结果显示该疫苗具有良好的免疫激活潜力和广泛的人群覆盖率，为多病毒共感染的预防提供了高效的数字化设计方案。
-  - Tags：`query:pathoai`
-- [Artificial Intelligence and Multiomics Beyond PSA Screening in African and Middle Eastern Prostate Cancer Patients.](#/202603/28/202603/28/41894385-artificial-intelligence-and-multiomics-beyond-psa-screening-in-african-and-middle-eastern-prostate-cancer-patients)
-  - TLDR：针对前列腺癌筛查中PSA检测特异性不足导致过度诊断的问题，特别是在非洲和中东人群中表现不佳的现状，本文综述了利用AI整合转录组、DNA甲基化、蛋白质组等多组学数据的方法。通过分析多层分子机制，AI模型能显著提升诊断可靠性与风险分层精度。文章强调了构建包含多元族裔数据集的重要性，旨在为欠代表人群提供更公平、精准的诊疗方案。
-  - Tags：`query:bioinfo`
-- [Systematic evaluation of single-cell foundation model interpretability reveals attention captures co-expression rather than unique regulatory signal](#/202603/27/202603/27/10.21203/rs.3.rs-9082476/v1-systematic-evaluation-of-single-cell-foundation-model-interpretability-reveals-attention-captures-co-expression-rather-than-unique-regulatory-signal)
-  - TLDR：单细胞大模型常被认为其注意力机制能揭示基因调控关系，但这一假设缺乏严谨验证。本研究通过对4种细胞系和2种扰动方式进行系统性评估，发现注意力权重主要捕捉的是基因共表达等统计关联，而非因果调控信号。实验表明，简单的基因级基准模型在预测扰动效果上优于复杂的注意力边得分，且消融实验证实注意力头对预测并无实质贡献。研究提出了CSSI工具以优化异质群体中的边提取，为单细胞大模型的可解释性建立了质量控制标准。
-  - Tags：`query:bioinfo`

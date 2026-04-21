@@ -1,0 +1,22 @@
+---
+title: Trimethylamine-producing microbe Bacillus megaterium KCTC 3007 promotes antitumor immunity in endometrial cancer via type I interferon response pathways.
+title_zh: 产三甲胺微生物巨大芽孢杆菌 KCTC 3007 通过 I 型干扰素响应通路促进子宫内膜癌的抗肿瘤免疫
+authors: "Kyungchan Min, Se Ik Kim, Minji Lee, Yunjae Kim, Chanyeong Jeong, Sujeong Kim, Sang Jin Kim, Hyun Kim, Beomki Cho, Yanghyun Joo, Hansoo Park, Maria Lee"
+date: 2026-04-20
+pdf: "https://pubmed.ncbi.nlm.nih.gov/42010642/"
+tags: ["query:pathoai"]
+score: 7.0
+evidence: 癌症中微生物群与宿主相互作用的多组学分析
+tldr: 针对子宫内膜癌（ECa）预后受微生物群落影响但机制不明的问题，本研究通过整合宏转录组、转录组和代谢组学分析，发现巨大芽孢杆菌（BM）KCTC 3007 与患者生存期延长显著相关。研究证实该菌通过产生代谢产物氧化三甲胺（TMAO），激活宿主 I 型干扰素通路并诱导癌细胞焦亡，从而增强 CD8+ T 细胞介导的抗肿瘤免疫。这一发现为利用益生菌或代谢物辅助治疗子宫内膜癌提供了新的机械论依据和临床策略。
+selection_source: fresh_fetch
+motivation: 旨在探究子宫内膜组织内驻留的微生物群落如何通过代谢产物调节宿主免疫反应，进而影响子宫内膜癌的发生发展与预后。
+method: 采用多组学整合分析方法，结合 60 例患者的宏转录组、宿主转录组及血清代谢组数据，并通过外周血单核细胞与癌细胞的体外共培养实验进行功能验证。
+result: 鉴定出巨大芽孢杆菌 KCTC 3007 能通过产生 TMAO 激活 IFNAR1 介导的 I 型干扰素通路，显著提升 CD8+ T 细胞活性并诱导肿瘤细胞发生焦亡。
+conclusion: 该研究首次阐明了“巨大芽孢杆菌-TMAO-I型干扰素”这一完整的抗肿瘤免疫调控轴，证明了产 TMAO 的益生菌菌株在子宫内膜癌治疗中的潜在应用价值。
+---
+
+## 摘要
+背景：子宫内膜癌 (ECa) 是最常见的妇科恶性肿瘤之一，转移性或复发性病例的治疗反应有限。细菌微生物群已成为癌变和抗肿瘤免疫的关键调节因子。然而，子宫内膜微生物群在 ECa 发病机制和预后中的作用仍知之甚少。方法：我们对 60 名 ECa 患者和 18 名良性患者进行了整合元转录组学、转录组学和靶向代谢组学的全面多组学分析。RNA 测序能够同时分析活跃的组织驻留微生物群和宿主基因表达。对所有患者进行了血清代谢组学分析。通过使用外周血单核细胞 (PBMC)、癌症细胞系、RNA 测序和活细胞成像的体外共培养实验，验证了所识别的微生物-代谢物关联。结果：与良性对照组相比，ECa 患者的微生物多样性和组成发生了显著变化。通过整合多组学分析，我们确定巨大芽孢杆菌 (Bacillus megaterium, BM) KCTC 3007 是一种与无复发生存期延长相关的有益微生物。在对 ECa 亚型的探索性分析中，台湾贪铜菌 (Cupriavidus taiwanensis) 和滨海单胞菌 (Marinomonas primoryensis) 显示出与预后不良的潜在联系，但由于某些亚组样本量有限，这些观察结果需谨慎对待。组织中 BM 的丰度与血清三甲胺 N-氧化物 (TMAO) 水平呈正相关，尤其是在绝经后女性中。体外实验表明，BM KCTC 3007 通过促进白细胞介素和 I 型干扰素的表达、扩增 CD8+ T 细胞群体以及增加免疫细胞与肿瘤细胞的相互作用，增强了抗肿瘤免疫。RNA 测序揭示了干扰素 alpha 响应和免疫细胞增殖通路的激活，其中 IFNAR1 被确定为关键的上游调节因子。TMAO 处理重现了这些免疫激活效应，增强了 CD8+ T 细胞反应，并优先诱导癌细胞焦亡。结论：我们首次提供了证据，证明组织驻留的 BM KCTC 3007 通过产生 TMAO 以及随后的 I 型干扰素介导的免疫激活，促进 ECa 的抗肿瘤免疫。这种整合多组学方法建立了一个完整的微生物-代谢物-宿主机制通路，并突出了产 TMAO 益生菌株在 ECa 治疗中的治疗潜力。视频摘要。
+
+## Abstract
+BACKGROUND: Endometrial cancer (ECa) is one of the most common gynecologic malignancies, with limited therapeutic responses in metastatic or recurrent cases. The bacterial microbiota has emerged as a key modulator of carcinogenesis and antitumor immunity. However, the role of endometrial microbiota in ECa pathogenesis and prognosis remains poorly understood. METHODS: We performed comprehensive multi-omics analysis integrating metatranscriptomics, transcriptomics, and targeted metabolomics from 60 ECa and 18 benign patients. RNA sequencing enabled simultaneous profiling of active tissue-resident microbiota and host gene expression. Serum metabolomics was conducted on all patients. Identified microbial-metabolite associations were validated through in vitro co-culture experiments using peripheral blood mononuclear cells (PBMCs), cancer cell lines, RNA sequencing, and live cell imaging. RESULTS: ECa patients exhibited significantly altered microbial diversity and composition compared to benign controls. Through integrated multi-omics analysis, we identified Bacillus megaterium (BM) KCTC 3007 as a beneficial microbe associated with prolonged recurrence-free survival. In an exploratory analysis of ECa subtypes, Cupriavidus taiwanensis and Marinomonas primoryensis showed potential links to poor prognosis, although these observations warrant caution due to the limited size of certain subgroups. Tissue BM abundance positively correlated with serum trimethylamine N-oxide (TMAO) levels, particularly in postmenopausal women. In vitro experiments demonstrated that BM KCTC 3007 enhanced antitumor immunity by promoting interleukin and type I interferon expression, expanding CD8 + T cell populations, and increasing immune cell-tumor cell interactions. RNA sequencing revealed activation of interferon alpha response and immune cell proliferation pathways, with IFNAR1 identified as a key upstream regulator. TMAO treatment recapitulated these immune-activating effects, enhancing CD8 + T cell responses and preferentially inducing pyroptotic cancer cell death. CONCLUSIONS: We provide the first evidence that tissue-resident BM KCTC 3007 promotes antitumor immunity in ECa through TMAO production and subsequent type I interferon-mediated immune activation. This integrated multi-omics approach establishes a complete microbe-metabolite-host mechanistic pathway and highlights the therapeutic potential of TMAO-producing probiotic strains for ECa treatment. Video Abstract.

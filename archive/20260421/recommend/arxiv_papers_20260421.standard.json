@@ -1,0 +1,435 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-04-21T19:48:25.184818+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 2,
+    "deep_cap": 9,
+    "deep_selected": 2,
+    "quick_candidates": 6,
+    "quick_skim_target": 14,
+    "quick_selected": 6
+  },
+  "deep_dive": [
+    {
+      "id": "42012213",
+      "title": "Analytical validation of a highly accurate and reliable next-generation sequencing-based urine assay.",
+      "abstract": "Urinary tract infections (UTIs) are diagnosed based on symptoms and confirmed by urine culture, despite its limitations in sensitivity. False-negative cultures can lead to inappropriate antimicrobial use or urosepsis in high-risk patients. Next-generation sequencing (NGS)-based metagenomics offers a comprehensive and precise alternative but is rarely applied clinically. We developed and validated BIOTIA-ID, a clinical-grade NGS-based diagnostic pipeline for pathogen detection in urine. Remnant clinical and spiked urine samples underwent extraction, metagenomic library preparation, and Illumina NextSeq 550 sequencing. We trained and applied a bioinformatic pipeline that uses machine learning to identify pathogens and resistance markers. BIOTIA-DX was intentionally designed and trained to increase stringency and reduce false positive detection of urogenital commensals or opportunistic microbes present at colonization levels. Internal controls ensured standardized, high-stringency results. The assay was validated on 1,470 urine specimens evaluating over 14.5k analytes. The clinical validation achieved a 97.2% sensitivity and 99.6% specificity with a limit of detection (LoD) of <15,000 CFU/mL for most bacterial species and <5,000 CFU/mL for fungal species. Discordant results were reconciled by target-specific qPCR or 16S Sanger sequencing, and 87% of the NGS results were concordant with the comparator. A subset of 332 clinical specimens was tested and validated for antimicrobial resistance (AMR). sul and blaSHV genes were commonly associated with Escherichia coli and Klebsiella pneumoniae, while cfxA was found in Prevotella and Pseudomonas spp. detected by BIOTIA-ID. Overall, these data demonstrate that BIOTIA-ID is a comprehensive, highly accurate end-to-end diagnostic assay with notable advantages over current culture-based diagnostics.IMPORTANCEUrinary tract infections (UTIs) are among the most common infections, yet current diagnostic methods, including urine culture, often fail to detect pathogens accurately, leading to delayed treatment and inappropriate antimicrobial use. Clinical metagenomics offers a powerful alternative, especially in complicated cases. BIOTIA-ID is a validated, clinical-grade next-generation sequencing (NGS)-based assay that provides highly accurate pathogen identification and antimicrobial resistance profiling. By incorporating machine learning and stringent quality controls, BIOTIA-ID minimizes false positives and enhances diagnostic precision. Our study demonstrates its superior performance over culture, with potential to improve UTI diagnostics, guide targeted therapy, and support antimicrobial stewardship. The implementation of urine metagenomic diagnostics could support recurrent and complicated UTI patient management, providing a more reliable alternative to traditional methods.",
+      "authors": [
+        "Mara Couto-Rodriguez",
+        "David C Danko",
+        "Heather L Wells",
+        "Sol Rey",
+        "Xavier Jirau Serrano",
+        "Gabor Fidler",
+        "John Papciak",
+        "P Ford Combs",
+        "Anna Plourde",
+        "Michael Augenbraun",
+        "Christopher E Mason",
+        "Caitlin Otto",
+        "Niamh B O'Hara",
+        "Dorottya Nagy-Szakal"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-21",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42012213/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "machine learning for metagenomic pathogen detection in urine",
+      "llm_evidence_cn": "用于尿液宏基因组病原体检测的机器学习",
+      "llm_evidence": "用于尿液宏基因组病原体检测的机器学习",
+      "canonical_evidence": "用于尿液宏基因组病原体检测的机器学习",
+      "llm_tldr_en": "Validated an NGS-based pipeline using machine learning for clinical pathogen detection and resistance identification.",
+      "llm_tldr_cn": "验证了一个基于机器学习的NGS流程，用于临床病原体检测和耐药性识别。",
+      "llm_tldr": "验证了一个基于机器学习的NGS流程，用于临床病原体检测和耐药性识别。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for metagenomic pathogen detection and classification",
+      "matched_requirement_id": "req-11",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42009687",
+      "title": "Accelerating Leigh syndrome drug discovery through deep learning screening in brain organoids.",
+      "abstract": "Leigh syndrome (Leigh) is an untreatable mitochondrial disorder characterized by lactic acidosis and basal ganglia and midbrain pathology, leading to psychomotor regression and early death. We previously uncovered impaired neuronal morphogenesis in Leigh cerebral organoids carrying SURF1 gene variants. Leveraging this phenotype, we here develop a deep learning algorithm tailored for cell type-specific drug repurposing screening. In parallel, we perform a survival drug screen in a yeast model of Leigh. The two approaches independently converge on azole compounds, two of which - talarozole and sertaconazole - rescue neuronal morphogenesis in Leigh neurons and lower lactate release and improve growth rate in Leigh midbrain organoids. Mechanistically, these compounds modulate the retinoic acid pathway and membrane-associate lipid metabolism. The findings highlight azoles as promising candidates for Leigh and demonstrate the potential of combining in silico screens with human brain organoids as new approach methodologies (NAMs) to advance the discovery of therapeutics addressing rare neurodevelopmental disorders.",
+      "authors": [
+        "Carmen Menacho",
+        "Satoshi Okawa",
+        "Iris Álvarez-Merz",
+        "Annika Wittich",
+        "Mikel Muñoz-Oreja",
+        "Pawel Lisowski",
+        "Mario López Martín",
+        "Tancredi Massimo Pentimalli",
+        "Shiri Zakin",
+        "Mathuravani Thevandavakkam",
+        "Caleb Jerred",
+        "Selene Lickfett",
+        "Laura Petersilie",
+        "Agnieszka Rybak-Wolf",
+        "Annette Seibt",
+        "Diran Herebian",
+        "Gizem Inak",
+        "Susanne Brodesser",
+        "Andrea Zaliani",
+        "Barbara Mlody",
+        "Justin Donnelly",
+        "Kasey Woleben",
+        "Francesc Xavier Soriano",
+        "Jose C Fernandez-Checa",
+        "Natascia Ventura",
+        "Sidney Cambridge",
+        "Ertan Mayatepek",
+        "Antonella Spinazzola",
+        "Markus Schuelke",
+        "Nikolaus Rajewsky",
+        "Andrea Rossi",
+        "Alex Peralvarez-Marin",
+        "Felix Distelmaier",
+        "Ethan Perlstein",
+        "Ian J Holt",
+        "Emma Puighermanal",
+        "Ole Pless",
+        "Christine R Rose",
+        "Antonio Del Sol",
+        "Alessandro Prigione"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-20",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42009687/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "deep learning algorithm for cell type-specific drug repurposing screening",
+      "llm_evidence_cn": "用于细胞类型特异性药物重定向筛选的深度学习算法",
+      "llm_evidence": "用于细胞类型特异性药物重定向筛选的深度学习算法",
+      "canonical_evidence": "用于细胞类型特异性药物重定向筛选的深度学习算法",
+      "llm_tldr_en": "Uses deep learning to screen drugs in brain organoids for treating Leigh syndrome.",
+      "llm_tldr_cn": "利用深度学习在脑类器官中筛选治疗 Leigh 综合征的重定向药物。",
+      "llm_tldr": "利用深度学习在脑类器官中筛选治疗 Leigh 综合征的重定向药物。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models and generative AI for drug discovery molecular property prediction and lead optimization",
+      "matched_requirement_id": "req-20",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "42009654",
+      "title": "Hotspot pocket-based discovery of urea transporter selective inhibitors.",
+      "abstract": "Urea transporter (UT) inhibitors are a promising class of diuretics, as selective inhibitors targeting UT-A subtypes have demonstrated considerable therapeutic potential. Herein, we employ a two-round progressive hotspot pocket-based virtual screening approach combined with biological validation to identify M353-0039 as a highly potent and selective inhibitor of UT-A2. We conduct cryo-electron microscopy to solve the structures of UT-A2 bound with the two inhibitors, M353-0039 and E822-1968, at the resolution of 2.7 Å and 2.9 Å respectively, and elucidate the structural mechanism underlying the superior efficacy and selectivity of M353-0039. Compared with the inhibitor HQA2 and E822-1968, M353-0039 occupies a deeper binding pocket and forms more interactions with UT-A2, thus leading to greater inhibitory potency. We demonstrate that the selectivity of M353-0039 is driven by the nonconserved residues C285 and G322 within the \"T-T\" subpocket of UT-A2. Finally, we validate the selective effects of M353-0039 in inhibiting UT-A2 function both in mouse models and hepatic cell. These findings not only identify a selective inhibitor as a tool that can be applied to elucidate the unique physiological roles of UT-A2 but also provide an available method for efficiently developing UT-A-selective inhibitors with potent activity as the next-generation diuretics.",
+      "authors": [
+        "Lei Liu",
+        "Zhi Li",
+        "Chao Zhang",
+        "Yan Zhang",
+        "Zhizhen Huang",
+        "Daolai Zhang",
+        "Dongfang Li",
+        "Juanjuan Zhao",
+        "Yuhao Miao",
+        "Boyang Cai",
+        "Kongkai Zhu",
+        "Jin-Peng Sun",
+        "Guige Hou",
+        "Ying Sun",
+        "Baoxue Yang",
+        "Xiao Yu",
+        "Shenming Huang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-20",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42009654/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "hotspot pocket-based virtual screening for drug discovery",
+      "llm_evidence_cn": "基于热点口袋的药物发现虚拟筛选",
+      "llm_evidence": "基于热点口袋的药物发现虚拟筛选",
+      "canonical_evidence": "基于热点口袋的药物发现虚拟筛选",
+      "llm_tldr_en": "Identifies selective urea transporter inhibitors using a progressive hotspot pocket-based virtual screening approach.",
+      "llm_tldr_cn": "采用渐进式热点口袋虚拟筛选方法发现了高选择性尿素转运蛋白抑制剂。",
+      "llm_tldr": "采用渐进式热点口袋虚拟筛选方法发现了高选择性尿素转运蛋白抑制剂。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models and generative AI for drug discovery molecular property prediction and lead optimization",
+      "matched_requirement_id": "req-20",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42002290",
+      "title": "AN ACTIVE LEARNING PROJECT FOR TEACHING BIOINFORMATICS, PHYLOGENETICS, AND PARASITOLOGY.",
+      "abstract": "This article describes an active learning project designed for implementation in general biology, ecology, evolution, and parasitology courses. It involves individual or group-based tasks in which students role-play as various types of biologists to solve real-world parasitology problems through molecular data analysis. Specifically, students are provided with a scenario and a molecular data set to analyze, which involves performing bioinformatic tasks to construct a phylogenetic tree. Students use MEGA software to explore, create, and illustrate a phylogenetic analysis of parasites with GenBank sequences. The resulting phylogenetic tree helps identify an \"unknown\" taxon and provides the evidence required to address the scenario and answer the posed question. By fostering a deeper understanding of evolutionary processes and bioinformatics tools, this project not only enhances students' knowledge of parasitology but also prepares them to tackle complex, interdisciplinary challenges in global health, biodiversity conservation, and beyond, shaping the next generation of scientists capable of addressing the urgent issues facing our world.",
+      "authors": [
+        "Jadin RC, Orlofske SA.",
+        "Robert C Jadin",
+        "Sarah A Orlofske"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-20",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42002290/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "bioinformatic tasks to construct a phylogenetic tree for parasites",
+      "llm_evidence_cn": "构建寄生虫系统发育树的生物信息学任务",
+      "llm_evidence": "构建寄生虫系统发育树的生物信息学任务",
+      "canonical_evidence": "构建寄生虫系统发育树的生物信息学任务",
+      "llm_tldr_en": "An educational project using bioinformatics tools for parasite identification and phylogenetic analysis.",
+      "llm_tldr_cn": "一个使用生物信息学工具进行寄生虫鉴定和系统发育分析的教学项目。",
+      "llm_tldr": "一个使用生物信息学工具进行寄生虫鉴定和系统发育分析的教学项目。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for phylogenetic and transmission inference",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42010642",
+      "title": "Trimethylamine-producing microbe Bacillus megaterium KCTC 3007 promotes antitumor immunity in endometrial cancer via type I interferon response pathways.",
+      "abstract": "BACKGROUND: Endometrial cancer (ECa) is one of the most common gynecologic malignancies, with limited therapeutic responses in metastatic or recurrent cases. The bacterial microbiota has emerged as a key modulator of carcinogenesis and antitumor immunity. However, the role of endometrial microbiota in ECa pathogenesis and prognosis remains poorly understood. METHODS: We performed comprehensive multi-omics analysis integrating metatranscriptomics, transcriptomics, and targeted metabolomics from 60 ECa and 18 benign patients. RNA sequencing enabled simultaneous profiling of active tissue-resident microbiota and host gene expression. Serum metabolomics was conducted on all patients. Identified microbial-metabolite associations were validated through in vitro co-culture experiments using peripheral blood mononuclear cells (PBMCs), cancer cell lines, RNA sequencing, and live cell imaging. RESULTS: ECa patients exhibited significantly altered microbial diversity and composition compared to benign controls. Through integrated multi-omics analysis, we identified Bacillus megaterium (BM) KCTC 3007 as a beneficial microbe associated with prolonged recurrence-free survival. In an exploratory analysis of ECa subtypes, Cupriavidus taiwanensis and Marinomonas primoryensis showed potential links to poor prognosis, although these observations warrant caution due to the limited size of certain subgroups. Tissue BM abundance positively correlated with serum trimethylamine N-oxide (TMAO) levels, particularly in postmenopausal women. In vitro experiments demonstrated that BM KCTC 3007 enhanced antitumor immunity by promoting interleukin and type I interferon expression, expanding CD8 + T cell populations, and increasing immune cell-tumor cell interactions. RNA sequencing revealed activation of interferon alpha response and immune cell proliferation pathways, with IFNAR1 identified as a key upstream regulator. TMAO treatment recapitulated these immune-activating effects, enhancing CD8 + T cell responses and preferentially inducing pyroptotic cancer cell death. CONCLUSIONS: We provide the first evidence that tissue-resident BM KCTC 3007 promotes antitumor immunity in ECa through TMAO production and subsequent type I interferon-mediated immune activation. This integrated multi-omics approach establishes a complete microbe-metabolite-host mechanistic pathway and highlights the therapeutic potential of TMAO-producing probiotic strains for ECa treatment. Video Abstract.",
+      "authors": [
+        "Kyungchan Min",
+        "Se Ik Kim",
+        "Minji Lee",
+        "Yunjae Kim",
+        "Chanyeong Jeong",
+        "Sujeong Kim",
+        "Sang Jin Kim",
+        "Hyun Kim",
+        "Beomki Cho",
+        "Yanghyun Joo",
+        "Hansoo Park",
+        "Maria Lee"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-20",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42010642/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "multi-omics analysis of microbiota-host interaction in cancer",
+      "llm_evidence_cn": "癌症中微生物群与宿主相互作用的多组学分析",
+      "llm_evidence": "癌症中微生物群与宿主相互作用的多组学分析",
+      "canonical_evidence": "癌症中微生物群与宿主相互作用的多组学分析",
+      "llm_tldr_en": "Integrates metatranscriptomics and host transcriptomics to study microbiota roles in endometrial cancer.",
+      "llm_tldr_cn": "整合元转录组和宿主转录组研究子宫内膜癌中微生物群的作用。",
+      "llm_tldr": "整合元转录组和宿主转录组研究子宫内膜癌中微生物群的作用。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42010926",
+      "title": "Quantitative Analysis of Multiple Serum Tumor Biomarkers by an Interpretable Stacked Ensemble Model.",
+      "abstract": "Surface-enhanced Raman spectroscopy (SERS) offers exceptional sensitivity and specificity for biomolecular detection, particularly in analyzing serum tumor biomarkers. However, its application is hindered by spectral complexity and matrix interference. Although machine learning (ML) has shown promise in SERS data analysis, existing quantitative models for biomarker detection lack generalizability and interpretability. To address these challenges, we developed an interpretable stacked ensemble model (ISEM) that integrates feature selection, ensemble learning, and explainable artificial intelligence (XAI) for quantifying 12 serum tumor biomarkers. To ensure reliable quantitative analysis, we validated the acquired SERS data using uniform and reproducible Au nanoparticle substrates. Preprocessing, least absolute shrinkage, and selection operator (LASSO) feature selection were employed to establish a foundation for accurate quantification. Subsequently, 12 serum tumor biomarkers were quantified, demonstrating the superior performance of ISEM, which achieved a high predictive accuracy, with R2 values exceeding 0.9 for all biomarkers. Crucially, based on the quantitative results, we provided molecular-level interpretability for structure-spectrum correlations using Shapley additive explanations (SHAP), revealing how glycosylation reactions, matrix interference, and spectral overlap influence prediction accuracy. Furthermore, the capability of ISEM to quantify multiple biomarkers in unseen samples was confirmed through validation of its generalizability. Our study establishes an ensemble-driven, interpretable framework for quantitative biomarker analysis in a complex biological matrix, demonstrating significant potential for early cancer diagnosis and screening.",
+      "authors": [
+        "Boyu Wu",
+        "Jiawei Chen",
+        "Yanheng Huang",
+        "Pan Li",
+        "Qingmei Deng",
+        "Ronglu Dong",
+        "Liangbao Yang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-20",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42010926/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "interpretable stacked ensemble model for biomarker detection",
+      "llm_evidence_cn": "用于生物标志物检测的可解释堆叠集成模型",
+      "llm_evidence": "用于生物标志物检测的可解释堆叠集成模型",
+      "canonical_evidence": "用于生物标志物检测的可解释堆叠集成模型",
+      "llm_tldr_en": "Develops an interpretable machine learning model for quantifying serum tumor biomarkers from SERS data.",
+      "llm_tldr_cn": "开发了一种可解释的机器学习模型，用于从SERS数据中定量分析血清肿瘤标志物。",
+      "llm_tldr": "开发了一种可解释的机器学习模型，用于从SERS数据中定量分析血清肿瘤标志物。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "trustworthy and interpretable AI systems for bioinformatics workflows",
+      "matched_requirement_id": "req-37",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42011025",
+      "title": "Single-cell co-mapping reveals relationship between chromatin state and gene expression in early zebrafish development.",
+      "abstract": "Establishing a cell type-specific chromatin landscape is crucial for the maintenance of cell identity during embryonic development. However, our knowledge of how this landscape is set during vertebrate embryogenesis has been limited, due to the lack of methods to jointly detect chromatin modifications and gene expression in the same cell. Here we present a multimodal measurement of full-length transcriptome and histone modifications in individual cells during early embryonic development in zebrafish. We show that before the formation of germ layers, the chromatin and transcription states of cells are uncoupled and become progressively connected during gastrulation and somitogenesis. Silencing of developmental genes is achieved by local spreading of repressive chromatin together with cell type-specific demethylation. Combining transcription factor (TF) expression and chromatin states within an interpretable machine learning model, we classify TFs as lineage-specific activators and repressors and identify a subset of TFs that are epigenetically regulated. Altogether, our data resolves the dynamic relationship between chromatin and transcription during early vertebrate development and clarifies how these two layers interact to establish cell identity.",
+      "authors": [
+        "Vivek Bhardwaj",
+        "Alberto Griffa",
+        "Helena Viñas Gaza",
+        "Peter Zeller",
+        "Alexander van Oudenaarden"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-21",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42011025/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "multimodal measurement of transcriptome and histone modifications in individual cells",
+      "llm_evidence_cn": "单细胞中转录组和组蛋白修饰的多模态测量",
+      "llm_evidence": "单细胞中转录组和组蛋白修饰的多模态测量",
+      "canonical_evidence": "单细胞中转录组和组蛋白修饰的多模态测量",
+      "llm_tldr_en": "Presents a multimodal method to jointly detect chromatin state and gene expression in single zebrafish cells.",
+      "llm_tldr_cn": "提出了一种在斑马鱼单细胞中联合检测染色质状态和基因表达的多模态测量方法。",
+      "llm_tldr": "提出了一种在斑马鱼单细胞中联合检测染色质状态和基因表达的多模态测量方法。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "single cell sequencing and spatial transcriptomics analysis with machine learning",
+      "matched_requirement_id": "req-40",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42011828",
+      "title": "Proximity Binding Assay for PROTAC Ternary Complex Analysis.",
+      "abstract": "The engineered formation of ternary complexes, in which two proteins are bridged by small molecules such as PROTACs or molecular glues, is a prerequisite for the targeted enzymatic degradation of pathogenic proteins; however, the combined analysis of these ternary interactions during the drug discovery process remains challenging. Here, we introduce a proximity binding assay for the simultaneous measurement of binary and ternary interaction kinetics on a biosensor surface. Target proteins and the substrate binding subunit of ubiquitin E3 ligase are tethered to mobile swivel arms of a Y-shaped DNA scaffold. The Y-structure induces spatial proximity between the proteins and presents them to PROTAC analytes flown across the sensor. PROTAC-induced ternary complex formation is measured by fluorescence energy transfer (FRET), while binary interactions are detected by fluorescence quenching. The assay is applied to cereblon (CRBN) and von Hippel-Lindau (VHL) as E3 ligase substrate receptors, a range of compounds including AT1, MZ1, dBETs, and ARV-825 as PROTACs, and the two bromodomains of BRD2, BRD3, BRD4, and BRDT proteins as targets. Automated workflows enable the measurement of 384 real-time sensorgrams in a single run using picomole sample quantities. The insights into proximity-mediated binding kinetics can enable the development of PROTACs and molecular glues with improved properties for targeted protein degradation.",
+      "authors": [
+        "Irene Ponzo",
+        "Alice Soldà",
+        "Charlotte Crowe",
+        "Göran Dahl",
+        "Tereza Jahodová",
+        "Andreas Heerwig",
+        "Stefan Geschwindner",
+        "Alessio Ciulli",
+        "Ulrich Rant"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-21",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42011828/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "analysis of ternary complexes for targeted degradation of pathogenic proteins",
+      "llm_evidence_cn": "针对病原蛋白靶向降解的三元复合物分析",
+      "llm_evidence": "针对病原蛋白靶向降解的三元复合物分析",
+      "canonical_evidence": "针对病原蛋白靶向降解的三元复合物分析",
+      "llm_tldr_en": "Introduces a proximity binding assay to analyze ternary complex kinetics for PROTAC-based therapeutic design.",
+      "llm_tldr_cn": "引入了一种邻近结合分析法，用于分析PROTAC药物设计中的三元复合物动力学。",
+      "llm_tldr": "引入了一种邻近结合分析法，用于分析PROTAC药物设计中的三元复合物动力学。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "generative models for molecules proteins and therapeutic design",
+      "matched_requirement_id": "req-19",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}
