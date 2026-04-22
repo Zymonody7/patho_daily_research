@@ -1,10 +1,67 @@
 # 知识库
 
-- 最近沉淀条目数：449
+- 最近沉淀条目数：468
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Empowering global disease surveillance with CURED: a tool for rapid identification of unique genomic biomarkers.](#/202604/22/202604/22/41854250-empowering-global-disease-surveillance-with-cured-a-tool-for-rapid-identification-of-unique-genomic-biomarkers)
+  - TLDR：针对全基因组测序（WGS）在病原微生物大规模实时监测中成本高、速度慢的问题，研究者开发了 CURED 工具。该工具通过分析基因组训练集，识别具有特定限制性内切酶位点的唯一 k-mer，从而将复杂的基因组信息转化为低成本、快速的 PCR 诊断方案。实验证明 CURED 在 MRSA、鲍曼不动杆菌等多种病原体检测中表现优异，显著提升了局部爆发调查和全球疾病监测的效率与可及性。
+  - Tags：`query:pathoai`
+- [scSurvival: Single-Cell Survival Analysis of Clinical Cancer Cohort Data at Cellular Resolution.](#/202604/22/202604/22/42013315-scsurvival-single-cell-survival-analysis-of-clinical-cancer-cohort-data-at-cellular-resolution)
+  - TLDR：针对单细胞测序数据与临床生存数据结合时缺乏直接建模工具的问题，该研究开发了 scSurvival 框架。它采用基于注意力机制的多实例 Cox 回归模型，将肿瘤样本视为细胞集合，并结合变分自编码器处理高维稀疏数据和批次效应。该方法不仅能准确预测癌症患者的生存预后，还能识别出对生存起关键作用的细胞亚群，为单细胞水平的临床预后分析提供了有力工具。
+  - Tags：`query:seqai`
+- [Metagenome-assembled genomes from a population-based cohort uncover novel gut species and within-species diversity, revealing prevalent disease associations.](#/202604/22/202604/22/41837716-metagenome-assembled-genomes-from-a-population-based-cohort-uncover-novel-gut-species-and-within-species-diversity-revealing-prevalent-disease-associations)
+  - TLDR：针对宏基因组分析中参考数据库不全及难以区分菌株差异的问题，本研究通过对爱沙尼亚队列的1878份样本进行深度测序，构建了包含353个新物种的基因组集，并提出GUN指标量化种内多样性。研究成功关联了25种疾病，其中8种涉及新物种，并揭示了特定菌株与胃炎等疾病的隐藏关联，证明了基因组解析方法在精准医疗中的价值。
+  - Tags：`query:seqai`
+- [Integrating Arrhenius Constraints with Lineage-Aware Meta-Learning for Few-Shot Prediction of Temperature-Dependent Enzyme Kinetics.](#/202604/22/202604/22/42013401-integrating-arrhenius-constraints-with-lineage-aware-meta-learning-for-few-shot-prediction-of-temperature-dependent-enzyme-kinetics)
+  - TLDR：酶工程中预测催化效率（kcat）随温度的变化至关重要，但面临实验数据稀缺且纯数据驱动模型易违背热力学原理的挑战。PIMetaKcat 框架通过结合系统发育信息的元学习与阿伦尼乌斯方程约束，实现了少样本下的动力学预测。该方法在低相似度序列上表现优异，能准确重建酶的活性曲线并识别最优温度，显著提升了理性酶设计的效率。
+  - Tags：`query:bioinfo`
+- [Navigating multi-omic integration methods for human microbiome research.](#/202604/22/202604/22/42014454-navigating-multi-omic-integration-methods-for-human-microbiome-research)
+  - TLDR：人体微生物组研究中多组学数据整合面临分析挑战。本文系统梳理了整合方法，重点围绕分子层交互、疾病偏移、患者分层及机制识别等核心问题，为研究者提供根据目标选择最优策略的指南，旨在提升对宿主-微生物交互作用的理解。
+  - Tags：`query:bioinfo`
+- [Machine learning model based on plasma proteomics for the identification of Parkinson's disease.](#/202604/22/202604/22/42015416-machine-learning-model-based-on-plasma-proteomics-for-the-identification-of-parkinsons-disease)
+  - TLDR：针对帕金森病（PD）诊断中缺乏可靠生物标志物的问题，本研究利用高通量血浆蛋白质组学技术，结合 Boruta 特征筛选和 Stacking 集成学习模型，从 698 名受试者中识别出 11 种关键蛋白标志物。该模型在多个独立外部队列中表现出高准确度（AUC 最高达 0.939），不仅提升了 PD 的临床诊断精度，还通过 SHAP 解释揭示了炎症和脂质代谢等潜在病理机制。
+  - Tags：`query:bioinfo`
+- [Integrative Proteomic and Machine Learning Analysis Identifies Novel Predictors and Risk Model for Diabetic Macrovascular Complications.](#/202604/22/202604/22/42017289-integrative-proteomic-and-machine-learning-analysis-identifies-novel-predictors-and-risk-model-for-diabetic-macrovascular-complications)
+  - TLDR：针对糖尿病大血管并发症早期预警工具匮乏的问题，本研究整合蛋白质组学孟德尔随机化、PWAS及机器学习技术，从循环蛋白中筛选出43个关键标志物。通过构建包含12种蛋白的风险评分模型，实现了对并发症的高精度预测（AUC=0.793），且能提前10-12年捕捉到蛋白异常轨迹。该研究不仅为临床提供了长效风险分层工具，还揭示了免疫炎症与细胞外基质重塑在病理过程中的核心作用。
+  - Tags：`query:bioinfo`
+- [Systematic evaluation of TCGA tumor microbiota reveals context-dependent reliability.](#/202604/22/202604/22/42017663-systematic-evaluation-of-tcga-tumor-microbiota-reveals-context-dependent-reliability)
+  - TLDR：针对TCGA肿瘤微生物组数据可靠性存疑的问题，本研究系统评估了两大主流微生物谱在24种癌症中的表现。通过置换检验框架发现，虽然微生物组成具有一致性，但其与宿主组学的关联（如生存率、细胞组成）存在大量伪相关。研究推出了MOMAC2平台对关联进行置信度分级，并实验验证了咽峡炎链球菌对口腔癌的促增殖作用，为肿瘤微生物组研究提供了可靠性基准。
+  - Tags：`query:seqai`
+- [The chicken gut virome: spatial structuring and extensive diversity of 19,778 viral populations.](#/202604/22/202604/22/41910132-the-chicken-gut-virome-spatial-structuring-and-extensive-diversity-of-19778-viral-populations)
+  - TLDR：针对鸡肠道病毒组研究不足的问题，本研究通过分析1,514份来自全球不同地区的肠道宏基因组样本，构建了包含19,778个病毒操作分类单元（vOTUs）的综合图谱。研究发现这些病毒以长尾噬菌体为主，且在肠道不同部位呈现显著的空间分层特征。该成果揭示了地理、品种和饮食对病毒多样性的影响，为通过调控病毒组提升家禽健康提供了重要的数据基础。
+  - Tags：`query:seqai`
+- [Cell wall remodeling-dependent morphotype switch in](#/202604/22/202604/22/41973921-cell-wall-remodeling-dependent-morphotype-switch-in)
+  - TLDR：鸟分枝杆菌（M. avium）存在透明（SmT）和不透明（SmO）两种菌落形态，其中SmT与致病性相关。本研究发现，这种形态切换并非源于基因重组，而是由细胞壁肽聚糖重塑基因（如marP和ripA）的突变或失调驱动。实验表明，SmO形态能通过激活NLRP3炎症小体增强肺部初步定植能力，而SmT形态则擅长长期存活。这一发现揭示了病原体通过细胞壁重塑来平衡定植与持久感染的生存策略。
+  - Tags：`query:pathoai`
+- [Agent based modeling approach for population dynamics of the biological vector Aedes aegypti.](#/202604/22/202604/22/42013888-agent-based-modeling-approach-for-population-dynamics-of-the-biological-vector-aedes-aegypti)
+  - TLDR：针对埃及伊蚊在奥地利等高气候波动地区的扩散风险，本研究开发了一个基于智能体的种群动力学模型。该模型整合了温度和降水对蚊子生命周期各阶段的影响，并模拟了2024年及未来气候情景下的种群演变。结果显示，尽管未来平均气温升高，但剧烈的气候波动导致未来种群规模预测值低于2024年，且蚊群无法越冬，表明该物种在当地长期定居风险较低，为公共卫生预警提供了科学依据。
+  - Tags：`query:pathoai`
+- [Precursors of sea star wasting: immune and microbial disruption during initial disease outbreak in southeast Alaska.](#/202604/22/202604/22/42014077-precursors-of-sea-star-wasting-immune-and-microbial-disruption-during-initial-disease-outbreak-in-southeast-alaska)
+  - TLDR：海星消耗性疾病（SSW）严重威胁北太平洋海星种群。本研究通过整合2016年阿拉斯加爆发初期向日葵海星的转录组与微生物数据，发现暴露于病原但尚未显症的个体已出现补体系统激活及组织重塑基因失调。研究揭示了弧菌属（Vibrio spp.）丰度与宿主免疫反应的关联，为理解SSW早期致病机制及宿主-病原体动态提供了关键证据。
+  - Tags：`query:pathoai`
+- [Population-scale long-read DNA sequencing: peering under the hood of the new evolutionary genomics.](#/202604/22/202604/22/42014088-population-scale-long-read-dna-sequencing-peering-under-the-hood-of-the-new-evolutionary-genomics)
+  - TLDR：针对传统短读长测序难以捕捉复杂结构变异的问题，本文综述了群体规模长读长测序（PLRS）与泛基因组技术在进化基因组学中的应用。通过分析鸟类等脊椎动物的二倍体组装、重复序列注释及拷贝数变异，文章展示了长读长技术如何利用泛基因组图谱精准量化变异。这一范式转变揭示了基因组中被长期忽视的复杂性，为理解物种进化提供了更完整的遗传图谱。
+  - Tags：`query:seqai`
+- [Chromosome-level genome assembly of the sponge Halisarca dujardinii.](#/202604/22/202604/22/42014710-chromosome-level-genome-assembly-of-the-sponge-halisarca-dujardinii)
+  - TLDR：针对具有极强再生能力的海洋海绵 Halisarca dujardinii，本研究利用纳米孔长读长、Illumina短读长及Hi-C技术，首次构建了其染色体级别的基因组图谱。该基因组大小为226.5 Mbp，包含21条染色体及完整的线粒体基因组，并结合单细胞转录组数据精细标注了1.4万个蛋白质编码基因。这一高质量基因组为探索海绵细胞重组再生机制及早期动物进化提供了关键的分子基础。
+  - Tags：`query:seqai`
+- [Adaptation of](#/202604/22/202604/22/41805190-adaptation-of)
+  - TLDR：粪肠球菌（Ef）是人体肠道的重要成员，但其在粘膜表面的定殖机制尚不明确。本研究利用人结肠类器官结合灌注培养系统，通过高分辨率成像观察到Ef在粘液层中形成生物膜样微菌落。结合转座子插入测序（Tn-seq）技术，揭示了Ef在粘膜定殖过程中发生的显著代谢重组和调控响应。该研究为理解肠道菌群与宿主粘膜的相互作用提供了高分辨率的生理模型。
+  - Tags：`query:pathoai`
+- [Profiling of genetic determinants required for fitness of community-associated methicillin-resistant](#/202604/22/202604/22/42012196-profiling-of-genetic-determinants-required-for-fitness-of-community-associated-methicillin-resistant)
+  - TLDR：社区获得性耐甲氧西林金黄色葡萄球菌（CA-MRSA）是导致菌血症的主要原因，但其在血液环境中的生存机制尚不明确。本研究利用转座子插入测序技术（TraDIS）对USA300 JE2菌株在人体血液中的适应性进行了全基因组筛选，识别出76个关键适应性基因，涉及呼吸代谢、血红素解毒及嘌呤合成等路径。研究不仅验证了代谢基因的重要性，还发现某些调节因子缺失反而能提升竞争优势，为理解病原菌在血管环境中的适应机制提供了重要参考。
+  - Tags：`query:pathoai`
+- [Early Detection of Asymptomatic Human Infections in Vector-Borne Diseases: A Programmatic Model for Enhanced Surveillance.](#/202604/22/202604/22/42013832-early-detection-of-asymptomatic-human-infections-in-vector-borne-diseases-a-programmatic-model-for-enhanced-surveillance)
+  - TLDR：针对虫媒传染病中超过60%的感染者为无症状、导致传统监测滞后的问题，本文提出了建立“增强型虫媒疾病警戒小组（EVBD-VTs）”的规划模型。该模型整合了多学科团队、实验室网络与气候风险评估，通过主动病例检测识别无症状携带者。这一方案旨在将防控策略从被动应对转为主动预警，有效阻断间歇期的病原体循环，提升全球公共卫生安全。
+  - Tags：`query:pathoai`
+- [Metabolomics-based and functional validation to explore the effect of the gut microbe-associated metabolite guanidinoacetic acid on rectal adenocarcinoma.](#/202604/22/202604/22/42014751-metabolomics-based-and-functional-validation-to-explore-the-effect-of-the-gut-microbe-associated-metabolite-guanidinoacetic-acid-on-rectal-adenocarcinoma)
+  - TLDR：肠道菌群失调与直肠腺癌（READ）的发生密切相关，但具体代谢物如何介导宿主互作尚不清晰。本研究通过对READ患者和健康对照组的粪便进行16S rRNA测序与非靶向代谢组学分析，发现患者体内胍基乙酸（GAA）代谢显著增强。体外实验进一步证实GAA能促进结直肠癌细胞的增殖、侵袭与迁移并抑制凋亡，揭示了GAA作为关键代谢物在READ进展中的促癌作用，为疾病干预提供了新方向。
+  - Tags：`query:pathoai`
+- [Urinary extracellular vesicle miRNA signature reflects pancreatic islet stress in type 2 diabetes.](#/202604/22/202604/22/42017432-urinary-extracellular-vesicle-mirna-signature-reflects-pancreatic-islet-stress-in-type-2-diabetes)
+  - TLDR：针对2型糖尿病（T2D）早期诊断难的问题，本研究分析了68名受试者的尿液细胞外囊泡（ECV）miRNA测序数据，通过机器学习筛选出包含5个核心miRNA的生物标志物组合。该组合在内外验证集中均表现出高诊断准确率（AUC>0.86），且其表达模式与胰岛等代谢组织的分子变化高度一致，为无创监测T2D进展提供了具有生物学解释性的新手段。
+  - Tags：`query:seqai`
 - [Analytical validation of a highly accurate and reliable next-generation sequencing-based urine assay.](#/202604/21/202604/21/42012213-analytical-validation-of-a-highly-accurate-and-reliable-next-generation-sequencing-based-urine-assay)
   - TLDR：针对传统尿培养在尿路感染诊断中灵敏度低、易漏诊的问题，研究团队开发并验证了 BIOTIA-ID 临床级宏基因组测序管线。该方法结合机器学习算法过滤共生菌干扰，在 1470 份样本中实现了 97.2% 的灵敏度和 99.6% 的特异性，并能同步检测耐药基因。该技术为复杂或复发性感染提供了比传统培养更精准、全面的诊断方案，有助于优化抗生素使用并支持临床决策。
   - Tags：`query:pathoai`
@@ -547,61 +604,4 @@
   - Tags：`query:pathoai`
 - [Lung microbiome quantification and bacterial density as prognostic markers in lung transplantation.](#/202604/01/202604/01/41453696-lung-microbiome-quantification-and-bacterial-density-as-prognostic-markers-in-lung-transplantation)
   - TLDR：慢性肺同种异体移植物功能障碍（CLAD）是影响肺移植长期生存率的主要障碍。本研究通过对108名肺移植受者的支气管肺泡灌洗液进行病例对照分析，对比了微生物相对丰度与绝对定量在预测CLAD中的表现。结果表明，结合细菌绝对密度能显著增强微生物特征与CLAD发生风险的关联，证明了绝对定量在评估移植预后中的关键价值。
-  - Tags：`query:pathoai`
-- [AI-guided multi-omics analysis identifies NPC1-modulated susceptibility to SARS-CoV-2 infection under PM](#/202603/31/202603/31/41912520-ai-guided-multi-omics-analysis-identifies-npc1-modulated-susceptibility-to-sars-cov-2-infection-under-pm)
-  - TLDR：针对PM2.5暴露增加新冠病毒感染风险但机制不明的问题，本研究利用微调的单细胞转录组大模型，结合流行病学、GWAS及多组学分析，发现NPC1蛋白是关键调节因子。研究证实PM2.5通过NPC1介导的内吞-溶酶体途径促进病毒进入细胞，揭示了环境与遗传因素共同影响易感性的分子机制，为空气质量政策和防疫提供了科学依据。
-  - Tags：`query:pathoai`
-- [FALCON2: compression-based metagenomic classification of ancient viruses.](#/202603/31/202603/31/41913056-falcon2-compression-based-metagenomic-classification-of-ancient-viruses)
-  - TLDR：古代病毒DNA（aDNA）具有片段极短（20-100bp）且存在化学损伤的特点，导致传统基于k-mer匹配或比对的分类器在超短序列上准确率大幅下降。FALCON2 提出了一种基于压缩算法的分类框架，利用位置感知的有限上下文模型（FCM）捕捉序列特征。实验表明，在20-40bp的超短序列任务中，FALCON2 的 AUPRC 达到 0.968，远超 Kraken2 等主流工具，为古基因组学研究提供了高精度且低内存消耗的分类方案。
-  - Tags：`query:pathoai`
-- [Novel Deep-Learning Unsupervised Domain Adaptation Method for Mitigating Batch, Strain, and Instrument Variations to Enhance Raman Spectroscopy-Based Bacterial Pathogen Identification.](#/202603/31/202603/31/41842761-novel-deep-learning-unsupervised-domain-adaptation-method-for-mitigating-batch-strain-and-instrument-variations-to-enhance-raman-spectroscopy-based-bacterial-pathogen-identification)
-  - TLDR：拉曼光谱结合深度学习可快速识别病原体，但受仪器、批次和菌株差异导致的域偏移影响，模型泛化性较差。本研究提出RSCDM模型，通过两个分类器的输出差异动态识别偏离源域的目标样本，并利用对抗学习进行特征对齐。实验显示，该方法将跨仪器和菌株的识别准确率从约80%提升至95%以上，微调后可达99.3%，将鉴定时间从数天缩短至分钟级，显著增强了临床诊断的鲁棒性。
-  - Tags：`query:pathoai`
-- [Compressing the collective knowledge of ESM into a single protein language model.](#/202603/31/202603/31/41912799-compressing-the-collective-knowledge-of-esm-into-a-single-protein-language-model)
-  - TLDR：针对蛋白质变异效应预测（VEP）中纯序列语言模型性能受限、往往需依赖结构或同源信息的问题，该研究提出一种协同蒸馏方法。通过将多个ESM模型中最具置信度的预测结果蒸馏至单一模型中，使其在不引入额外外部数据的情况下，在多个VEP基准测试上达到SOTA水平，并能准确量化生物库数据中的临床表型严重程度，为高效变异预测提供了新思路。
-  - Tags：`query:bioinfo`
-- [A novel method for drug-target affinity prediction by integrating predicted evolutionary information and multi-scale protein graphs.](#/202603/31/202603/31/41913214-a-novel-method-for-drug-target-affinity-prediction-by-integrating-predicted-evolutionary-information-and-multi-scale-protein-graphs)
-  - TLDR：药物-靶点亲和力（DTA）预测是药物研发的关键，但传统方法依赖耗时的多序列比对（MSA）来获取进化信息，限制了计算效率。MAFI-DTA 模型通过 ESM-3 蛋白质语言模型直接从序列中提取进化上下文，并结合多尺度蛋白质图结构，利用 GNN、BiLSTM 和 Transformer 融合特征。实验证明该方法在多个基准数据集上优于现有模型，在保证预测精度的同时显著降低了计算开销，为加速药物筛选提供了高效工具。
-  - Tags：`query:bioinfo`
-- [ECOD: Classification of domains in AFDB Swiss-Prot structure predictions.](#/202603/31/202603/31/41911251-ecod-classification-of-domains-in-afdb-swiss-prot-structure-predictions)
-  - TLDR：随着 AlphaFold 预测结构的爆发式增长，如何系统性地对海量结构进行演化分类成为挑战。本研究利用 DPAM 流水线对 Swiss-Prot 数据库中超过 54 万个蛋白质预测结构进行了 ECOD 结构域分类，成功识别出逾 103 万个结构域。该工作不仅扩展了 ECOD 的覆盖范围，还发现了 10 万个序列比对无法识别的新结构域，为理解蛋白质功能演化提供了高置信度的结构基础。
-  - Tags：`query:bioinfo`
-- [Differential assembly and functional roles of bacterial communities in coniferous and mixed conifer-broadleaf forest soils.](#/202603/31/202603/31/41789917-differential-assembly-and-functional-roles-of-bacterial-communities-in-coniferous-and-mixed-conifer-broadleaf-forest-soils)
-  - TLDR：针对针叶林与针阔混交林土壤细菌群落差异不明的问题，本研究结合16S rRNA扩增子与宏基因组测序，对比分析了两类森林中高丰度与稀有类群的结构、演替机制及功能。结果发现混交林更有利于碳降解与固氮，而针叶林侧重抗逆；群落构建受随机过程主导。研究强调了保护混交林对维持土壤微生物功能多样性的重要性。
-  - Tags：`query:seqai`
-- [Metagenomics in Obstructive Lung Diseases: Insights into Microbial Dysbiosis, Host-Microbe Interactions, and the Gut-Lung Axis.](#/202603/31/202603/31/41910951-metagenomics-in-obstructive-lung-diseases-insights-into-microbial-dysbiosis-host-microbe-interactions-and-the-gut-lung-axis)
-  - TLDR：阻塞性肺病（如哮喘和COPD）受微生物组、宿主免疫和代谢的复杂影响。本文综述了宏基因组学在揭示呼吸道与肠道微生物失调中的应用，指出哮喘多与早期微生物扰动相关，而COPD则表现为成年期变形菌门占优。研究强调了“肠-肺轴”通过短链脂肪酸等代谢物调节免疫的作用，为未来基于微生物组的精准医疗和干预提供了系统生物学视角。
-  - Tags：`query:pathoai`
-- [Metagenome Sequencing and Recovery of 52 Microbial Genomes from Plastic-Polluted Coastal Sediment.](#/202603/31/202603/31/41912529-metagenome-sequencing-and-recovery-of-52-microbial-genomes-from-plastic-polluted-coastal-sediment)
-  - TLDR：针对印度沿海塑料污染热点地区沉积物中微生物群落特征不明的问题，研究人员利用Illumina短读长测序技术结合三种高效分箱工具，成功重建了52个非冗余宏基因组组装基因组（MAGs）。研究发现这些微生物涵盖18个门类，且包含大量此前未被分类的新物种（如3个新目和28个新属），为理解塑料污染环境下的生态功能提供了首个详尽的基因组参考。
-  - Tags：`query:seqai`
-- [A requirement for](#/202603/31/202603/31/41660825-a-requirement-for)
-  - TLDR：针对住院患者中常见的缺锌增加鲍曼不动杆菌肺炎风险的问题，研究人员利用全基因组转座子测序（Tn-seq）筛选了该菌在缺锌小鼠肺部增殖所需的关键基因。研究发现，嘌呤生物合成途径（如purI基因）和铁载体途径在缺锌环境下对细菌存活至关重要。这一发现揭示了宿主营养状态对病原菌代谢的需求影响，并指出嘌呤合成是开发肺炎新药的潜在靶点。
-  - Tags：`query:pathoai`
-- [mSphere of Influence: Missing the trees for the forest.](#/202603/31/202603/31/41677269-msphere-of-influence-missing-the-trees-for-the-forest)
-  - TLDR：本文探讨了在宿主-微生物相互作用研究中，从宏观群落分析转向微观空间结构与分子机制的重要性。作者通过回顾舌背微生物群的空间生态学研究以及共生葡萄球菌抑制金黄色葡萄球菌毒性的分子发现，阐述了这些精细维度的视角如何启发其对奈瑟菌属（Neisseria）共生与宿主适应性的研究，强调了“局部细节”对理解整体生态的关键价值。
-  - Tags：`query:pathoai`
-- [Systematic analysis of snRNA genes reveals frequent RNU2-2 variants in dominant and recessive developmental and epileptic encephalopathies.](#/202603/31/202603/31/41912934-systematic-analysis-of-snrna-genes-reveals-frequent-rnu2-2-variants-in-dominant-and-recessive-developmental-and-epileptic-encephalopathies)
-  - TLDR：针对非编码小核RNA（snRNA）在遗传病中作用不明的问题，本研究对3.4万余名罕见病患者的200个snRNA基因进行了系统性筛查。研究发现RNU2-2基因变异是导致发育性癫痫性脑病的重要原因，识别出141名携带显性或隐性变异的患者。该研究揭示了RNU2-2变异的高发性及其对剪接和DNA甲基化的影响，为神经发育障碍的精准诊断提供了关键遗传证据。
-  - Tags：`query:seqai`
-- [Strategies to Improve Detection of Novel Pandemic Pathogens: Cost Versus Detection Performance for Promising Pathogen-Agnostic Detection Workflows.](#/202603/30/202603/30/41821670-strategies-to-improve-detection-of-novel-pandemic-pathogens-cost-versus-detection-performance-for-promising-pathogen-agnostic-detection-workflows)
-  - TLDR：针对新型大流行病原体识别延迟的问题，本研究通过建模对比了综合征监测、可穿戴设备和环境采样三种“病原体无关”的生物监测策略。结果显示，环境采样在预警速度上表现最优，可穿戴设备次之，但在高传染性疾病中优势会减弱。该研究为公共卫生部门在成本与检测效能之间进行权衡提供了量化依据。
-  - Tags：`query:pathoai`
-- [Shotgun metagenome sequencing and informatics can accurately form a metagenome-assembled genome (MAG) of the bacterial tier 1 select agent](#/202603/30/202603/30/41910375-shotgun-metagenome-sequencing-and-informatics-can-accurately-form-a-metagenome-assembled-genome-mag-of-the-bacterial-tier-1-select-agent)
-  - TLDR：针对2021年美国香薰喷雾导致的类鼻疽疫情，研究探讨了在存在多种近缘物种的复杂微生物群落中，如何准确提取高致病性类鼻疽伯克霍尔德氏菌（B. pseudomallei）的基因组。通过使用nf-core/mag流程进行宏基因组组装（MAG），并结合严格的重叠群质量过滤，成功获得了与分离株相似度达99.9%的基因组。该方法证明了宏基因组技术在无需培养的情况下，也能实现病原体溯源和生物威胁监测。
-  - Tags：`query:seqai`
-- [Convolutional Neural Network-Assisted Ultrasensitive Immunochromatographic Strips of](#/202603/30/202603/30/41910445-convolutional-neural-network-assisted-ultrasensitive-immunochromatographic-strips-of)
-  - TLDR：针对食品致病菌检测中信号探针发光强度与生物亲和力难以兼顾的问题，本研究开发了一种结合卷积神经网络（CNN）的超灵敏免疫层析试纸。通过将聚集诱导发光分子（ETT）嵌入氨基苯酚甲醛树脂纳米碗（AFRNBs）中，显著提升了荧光效率和抗体结合能力。该系统实现了对鼠伤寒沙门氏菌的高灵敏度检测（78 CFU/mL），并利用CNN模型实现了自动化、客观的结果判读，提升了检测的可靠性与效率。
-  - Tags：`query:pathoai`
-- [Effect of the microbiome on pathogen susceptibility across four Drosophilidae species.](#/202603/30/202603/30/41904966-effect-of-the-microbiome-on-pathogen-susceptibility-across-four-drosophilidae-species)
-  - TLDR：本研究探讨了微生物组对宿主抗病性的影响是否在不同物种间具有普适性。研究者选取了四种果蝇属物种，通过构建无菌、自然及重组微生物组模型，测试其对两种细菌和一种病毒系统性感染的抵抗力。结果表明，微生物组对存活率的影响在不同宿主和病原体组合中表现不一，且整体效应较小。这一发现挑战了微生物组普遍具有显著免疫保护作用的观点，提醒研究者在推广其益生功能时需保持谨慎。
-  - Tags：`query:pathoai`
-- [Physics-constrained neural ordinary differential equation models to discover and predict microbial community dynamics.](#/202603/28/202603/28/41894324-physics-constrained-neural-ordinary-differential-equation-models-to-discover-and-predict-microbial-community-dynamics)
-  - TLDR：微生物群落的动态受代谢物竞争和互补驱动，但传统机理模型过于僵化，而纯机器学习模型又缺乏可解释性且易过拟合。本研究提出了“神经物种中介者（NSM）”模型，将描述代谢物动态的机理方程与神经网络相结合，构建物理约束的神经常微分方程。实验证明，NSM 在体外数据集上的预测性能优于单一模型，并能揭示潜在的生物相互作用，为理解和控制微生物群落提供了兼具灵活性与可解释性的新工具。
-  - Tags：`query:pathoai`
-- [An improved dataset for predicting mammal infecting viruses from genetic sequence information.](#/202603/28/202603/28/41894437-an-improved-dataset-for-predicting-mammal-infecting-viruses-from-genetic-sequence-information)
-  - TLDR：针对从基因序列预测病毒是否感染人类的任务，现有模型因数据集不统一难以比较。本研究通过扩充文献证据，构建了一个包含哺乳动物和灵长类标签的标准化数据集，并评估了8种机器学习模型。结果显示，模型表现高度依赖训练集与测试集的系统发育距离；当测试集包含全新的病毒科时，预测准确率降至随机水平。这为评估病毒跨物种传播风险提供了更严谨的基准。
-  - Tags：`query:pathoai`
-- [High-Resolution Colony Images of Clinically Isolated Bacteria for Automated Detection and Deep Learning.](#/202603/28/202603/28/41896581-high-resolution-colony-images-of-clinically-isolated-bacteria-for-automated-detection-and-deep-learning)
-  - TLDR：针对微生物菌落人工分析效率低、主观偏差大以及现有AI数据集规模小且不规范的问题，本研究发布了一个包含19种临床常见细菌、151个菌株的大规模高分辨率标准化数据集。该数据集通过严格的受控环境采集，包含超过11.8万个标注菌落实例，捕捉了丰富的种内表型多样性。这一成果为开发高泛化性的自动化菌落检测与分类深度学习模型提供了坚实的数据基础，推动了临床微生物检测的标准化与智能化。
   - Tags：`query:pathoai`

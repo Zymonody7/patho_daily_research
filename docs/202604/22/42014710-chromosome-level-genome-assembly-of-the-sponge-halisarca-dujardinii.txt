@@ -1,0 +1,77 @@
+Title: Chromosome-level genome assembly of the sponge Halisarca dujardinii - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42014710/
+
+Markdown Content:
+Actions
+
+. 2026 Apr 21.
+
+doi: 10.1038/s41597-026-07161-y.  Online ahead of print.
+
+[Alexander Cherkasov](https://pubmed.ncbi.nlm.nih.gov/?term=Cherkasov+A&cauthor_id=42014710)[1](https://pubmed.ncbi.nlm.nih.gov/42014710/#full-view-affiliation-1 "Center for Molecular and Cellular Biology, Skolkovo Institute of Science and Technology, 121205, Moscow, Russia."),[Leonid Sidorov](https://pubmed.ncbi.nlm.nih.gov/?term=Sidorov+L&cauthor_id=42014710)[1](https://pubmed.ncbi.nlm.nih.gov/42014710/#full-view-affiliation-1 "Center for Molecular and Cellular Biology, Skolkovo Institute of Science and Technology, 121205, Moscow, Russia."),[Kim I Adameyko](https://pubmed.ncbi.nlm.nih.gov/?term=Adameyko+KI&cauthor_id=42014710)[2](https://pubmed.ncbi.nlm.nih.gov/42014710/#full-view-affiliation-2 "Koltzov Institute of Developmental Biology, Russian Academy of Sciences, 119334, Moscow, Russia."),[Alexander D Finoshin](https://pubmed.ncbi.nlm.nih.gov/?term=Finoshin+AD&cauthor_id=42014710)[2](https://pubmed.ncbi.nlm.nih.gov/42014710/#full-view-affiliation-2 "Koltzov Institute of Developmental Biology, Russian Academy of Sciences, 119334, Moscow, Russia."),[Alina Ryabova](https://pubmed.ncbi.nlm.nih.gov/?term=Ryabova+A&cauthor_id=42014710)[3](https://pubmed.ncbi.nlm.nih.gov/42014710/#full-view-affiliation-3 "Institute of Fundamental Medicine and Biology, Kazan Federal University, 420008, Kazan, Russia.")[4](https://pubmed.ncbi.nlm.nih.gov/42014710/#full-view-affiliation-4 "Leibniz Institute on Aging - Fritz Lipmann Institute, 07745, Jena, Germany."),[Anastasiia Kashtanova](https://pubmed.ncbi.nlm.nih.gov/?term=Kashtanova+A&cauthor_id=42014710)[5](https://pubmed.ncbi.nlm.nih.gov/42014710/#full-view-affiliation-5 "Faculty of Bioengineering and Bioinformatics, M.V. Lomonosov Moscow State University, 119234, Moscow, Russia."),[Guzel Gazizova](https://pubmed.ncbi.nlm.nih.gov/?term=Gazizova+G&cauthor_id=42014710)[3](https://pubmed.ncbi.nlm.nih.gov/42014710/#full-view-affiliation-3 "Institute of Fundamental Medicine and Biology, Kazan Federal University, 420008, Kazan, Russia."),[Natalia Gogoleva](https://pubmed.ncbi.nlm.nih.gov/?term=Gogoleva+N&cauthor_id=42014710)[6](https://pubmed.ncbi.nlm.nih.gov/42014710/#full-view-affiliation-6 "Research Department for Limnology, Mondsee, Universität Innsbruck, 5310, Mondsee, Austria.")[7](https://pubmed.ncbi.nlm.nih.gov/42014710/#full-view-affiliation-7 "Kazan Institute of Biochemistry and Biophysics, Federal Research Center \"Kazan Scientific Center of the Russian Academy of Sciences\", 420111, Kazan, Russia."),[Anton V Burakov](https://pubmed.ncbi.nlm.nih.gov/?term=Burakov+AV&cauthor_id=42014710)[8](https://pubmed.ncbi.nlm.nih.gov/42014710/#full-view-affiliation-8 "A.N. Belozersky Institute of Physical and Chemical Biology, Lomonosov Moscow State University, 119234, Moscow, Russia."),[Olga Kozlova](https://pubmed.ncbi.nlm.nih.gov/?term=Kozlova+O&cauthor_id=42014710)[3](https://pubmed.ncbi.nlm.nih.gov/42014710/#full-view-affiliation-3 "Institute of Fundamental Medicine and Biology, Kazan Federal University, 420008, Kazan, Russia."),[Elena Shagimardanova](https://pubmed.ncbi.nlm.nih.gov/?term=Shagimardanova+E&cauthor_id=42014710)[9](https://pubmed.ncbi.nlm.nih.gov/42014710/#full-view-affiliation-9 "Genomics and Bioimaging Core Facility, Skolkovo Institute of Science and Technology, 121205, Moscow, Russia.")[10](https://pubmed.ncbi.nlm.nih.gov/42014710/#full-view-affiliation-10 "Life Improvement by Future Technologies Institute, 121205, Moscow, Russia."),[Oleg Gusev](https://pubmed.ncbi.nlm.nih.gov/?term=Gusev+O&cauthor_id=42014710)[10](https://pubmed.ncbi.nlm.nih.gov/42014710/#full-view-affiliation-10 "Life Improvement by Future Technologies Institute, 121205, Moscow, Russia.")[11](https://pubmed.ncbi.nlm.nih.gov/42014710/#full-view-affiliation-11 "Graduate School of Medicine, Juntendo University, 1138421, Tokyo, Japan."),[Kirill Mikhailov](https://pubmed.ncbi.nlm.nih.gov/?term=Mikhailov+K&cauthor_id=42014710)[8](https://pubmed.ncbi.nlm.nih.gov/42014710/#full-view-affiliation-8 "A.N. Belozersky Institute of Physical and Chemical Biology, Lomonosov Moscow State University, 119234, Moscow, Russia.")[12](https://pubmed.ncbi.nlm.nih.gov/42014710/#full-view-affiliation-12 "A.A. Kharkevich Institute for Information Transmission Problems, Russian Academy of Sciences, 127051, Moscow, Russia."),[Oksana Kravchuk](https://pubmed.ncbi.nlm.nih.gov/?term=Kravchuk+O&cauthor_id=42014710)[2](https://pubmed.ncbi.nlm.nih.gov/42014710/#full-view-affiliation-2 "Koltzov Institute of Developmental Biology, Russian Academy of Sciences, 119334, Moscow, Russia."),[Yulia Lyupina](https://pubmed.ncbi.nlm.nih.gov/?term=Lyupina+Y&cauthor_id=42014710)[2](https://pubmed.ncbi.nlm.nih.gov/42014710/#full-view-affiliation-2 "Koltzov Institute of Developmental Biology, Russian Academy of Sciences, 119334, Moscow, Russia."),[Ekaterina Khrameeva](https://pubmed.ncbi.nlm.nih.gov/?term=Khrameeva+E&cauthor_id=42014710)[13](https://pubmed.ncbi.nlm.nih.gov/42014710/#full-view-affiliation-13 "Center for Molecular and Cellular Biology, Skolkovo Institute of Science and Technology, 121205, Moscow, Russia. e.khrameeva@skoltech.ru.")
+
+Affiliations
+
+*    PMID: **42014710**
+*    DOI: [10.1038/s41597-026-07161-y](https://doi.org/10.1038/s41597-026-07161-y)
+
+Free article
+
+## Chromosome-level genome assembly of the sponge Halisarca dujardinii
+
+Vasiliy Zubarev et al. Sci Data.2026.
+
+Free article
+
+## Abstract
+
+Halisarca dujardinii is a marine sponge known for its ability to completely regenerate via cell reaggregation. Here we present the first chromosome-level genome assembly of H. dujardinii, generated using Oxford Nanopore long reads, Illumina short reads, and Hi-C data. The final assembly spans 226.5 Mbp and is organized into 21 chromosome-scale scaffolds, representing the full nuclear genome, with an assembly N50 of 10.1 Mbp. In addition, we report the complete mitochondrial genome for H. dujardinii, assembled as a circular molecule and annotated to contain 14 protein-coding genes. We provide a comprehensive genome annotation comprising 14,565 nuclear protein-coding genes, of which 85.6% are functionally annotated, along with repetitive elements and non-coding RNAs. Transcript models were refined using extensive bulk and single-cell RNA sequencing data, enabling accurate annotation of 3' untranslated regions. This new genomic resource provides a valuable foundation for investigating the molecular basis of sponge regeneration, as well as for comparative studies of sponge evolution and marine biology.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [First draft genome assembly of sponge Halisarca dujardinii reveals key components of basement membrane and broad repertoire of aggregation factors.](https://pubmed.ncbi.nlm.nih.gov/41461809/)
+
+Borisenko I, Predeus A, Lavrov A, Ereskovsky A.Borisenko I, et al.Sci Rep. 2025 Dec 29;15(1):44778. doi: 10.1038/s41598-025-28962-y.Sci Rep. 2025.PMID: 41461809 Free PMC article. 
+*   [An Improved Chromosome-Level Genome Assembly and Comprehensive Annotation of the Model Ascidian Ciona savignyi.](https://pubmed.ncbi.nlm.nih.gov/41792167/)
+
+Huang X, Zhan A.Huang X, et al.Sci Data. 2026 Mar 6;13(1):617. doi: 10.1038/s41597-026-06990-1.Sci Data. 2026.PMID: 41792167 Free PMC article. 
+*   [Chromosome-level genome assembly and annotation of the schizothoracine fish Gymnodiptychus pachycheilus.](https://pubmed.ncbi.nlm.nih.gov/41820404/)
+
+Gao K, Lei C, Lin X, Zeng R, Zhou C, Song Z.Gao K, et al.Sci Data. 2026 Mar 12. doi: 10.1038/s41597-026-07037-1. Online ahead of print.Sci Data. 2026.PMID: 41820404 
+*   [Chromosome-scale assembly of the Sparassis latifolia genome obtained using long-read and Hi-C sequencing.](https://pubmed.ncbi.nlm.nih.gov/34021320/)
+
+Yang C, Ma L, Xiao D, Liu X, Jiang X, Ying Z, Lin Y.Yang C, et al.G3 (Bethesda). 2021 Aug 7;11(8):jkab173. doi: 10.1093/g3journal/jkab173.G3 (Bethesda). 2021.PMID: 34021320 Free PMC article. 
+*   [Chromosome-scale genome assembly and annotation of Huzhang (Reynoutria japonica).](https://pubmed.ncbi.nlm.nih.gov/40118865/)
+
+Zhang J, Xu Q, You L, Li B, Zhang Z, Lin W, Luo X, Ye Z, Zheng L, Li C, Niu J, Wang G, Hu H, Zhou C, Zhang Y.Zhang J, et al.Sci Data. 2025 Mar 21;12(1):474. doi: 10.1038/s41597-025-04773-8.Sci Data. 2025.PMID: 40118865 Free PMC article. 
+
+## References
+
+1.       1.    Ereskovsky, A. V., Lavrov, D. V., Boury-Esnault, N. & Vacelet, J. Molecular and morphological description of a new species of Halisarca (Demospongiae: Halisarcida) from Mediterranean Sea and a redescription of the type species Halisarca dujardini. Zootaxa 2768, (2011). 
+
+2.       1.    Lavrov, A. I. & Kosevich, I. A. Sponge cell reaggregation: Cellular structure and morphogenetic potencies of multicellular aggregates: SPONGE CELL REAGGREGATION: CELLULAR STRUCTURE. J. Exp. Zool. Part Ecol. Genet. Physiol. 325, 158–177 (2016). 
+
+3.       1.    Ereskovsky, A. V. et al. Transdifferentiation and mesenchymal‐to‐epithelial transition during regeneration in Demospongiae (Porifera). J. Exp. Zoolog. B Mol. Dev. Evol. 334, 37–58 (2020). 
+
+4.       1.    Ereskovsky, A., Borisenko, I. E., Bolshakov, F. V. & Lavrov, A. I. Whole-Body Regeneration in Sponges: Diversity, Fine Mechanisms, and Future Prospects. Genes 12, 506 (2021). 
+
+5.       1.    Borisenko, I., Adamski, M., Ereskovsky, A. & Adamska, M. Surprisingly rich repertoire of Wnt genes in the demosponge Halisarca dujardini. BMC Evol. Biol. 16, 123 (2016). 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Nature Publishing Group](https://doi.org/10.1038/s41597-026-07161-y)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-1475)

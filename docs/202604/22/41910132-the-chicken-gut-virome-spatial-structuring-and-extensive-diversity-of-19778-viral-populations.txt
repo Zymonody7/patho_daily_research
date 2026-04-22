@@ -1,0 +1,117 @@
+Title: The chicken gut virome: spatial structuring and extensive diversity of 19,778 viral populations - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41910132/
+
+Markdown Content:
+## The chicken gut virome: spatial structuring and extensive diversity of 19,778 viral populations
+
+Johan S Sáenz et al. mSystems.2026.
+
+## Abstract
+
+Viral communities, especially phages, affect prokaryotic diversity and thus influence the host's metabolic processes. However, the makeup and role of the chicken gut virome remain poorly understood. To address this gap, we mined 1,458 chicken gut metagenomes and 56 viral-enriched samples to recover viral sequences and assemble a comprehensive collection of draft viral genomes. We identified 19,778 viral operational taxonomic units (vOTUs), of which 97% were dsDNA phages from the _Caudoviricetes_ class, primarily targeting gut bacteria such as _Lactobacillus_, _Limosilactobacillus_, and _Escherichia_. Most protein-coding genes in these genomes were uncharacterized and lacked known biological functions. Additionally, the distribution of vOTUs across samples showed that the chicken virome is highly individual-specific. Yet, the viral community also exhibited strong spatial stratification along the gastrointestinal tract, with notable differences between proximal and distal regions, primarily driven by phages linked to the _Lactobacillaceae_ family. Moreover, this study shows that the geographical region, breed, and diet drive the chicken gut viral diversity and composition. This underscores the significant novelty of the chicken gut virome and its largely unexplored functional potential, much of which would be missed if analyses were restricted to fecal samples.
+
+**Importance:** The chicken gut harbors a vast community of viruses that remain largely unexplored despite their potential to influence poultry health and productivity. By analyzing 1,514 samples from different gut regions across 15 countries, we discovered nearly 20,000 distinct viruses, most of which were previously unknown phages. The chicken virome showed strong spatial differences along the gastrointestinal tract, meaning each gut section harbors a unique viral community, underscoring that fecal samples alone miss much of the virome's diversity. We also uncovered that the geographical region, breed, and diet could drive the chicken gut viral diversity and composition. Overall, our findings greatly expand our understanding of gut virus diversity and microbiome ecology, offering a valuable foundation for developing strategies to monitor or manipulate the microbiome to improve poultry health.
+
+**Keywords:** chicken; gut; metagenomics; phages.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+The authors declare no conflict of interest.
+
+## Figures
+
+[![Image 1: Fig 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7824/13098223/8f9058a19a49/msystems.00191-26.f001.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7824/13098223/68db3b023e8a/msystems.00191-26.f001.jpg)
+
+**Fig 1**
+Global distribution and gastrointestinal origin of the collected 1,514 chicken gut metagenomic samples. (**A**) Map showing the distribution of collected samples across 15 countries. The map was created using R and the package ggplot2; the base map is from Natural Earth. (**B**) Schematic representation of the different chicken gut regions covered by the collected samples analyzed in this study. (**C**) Distribution of metagenomic samples by gut region and sex.
+
+[![Image 2: Fig 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7824/13098223/e785bd9df483/msystems.00191-26.f002.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7824/13098223/deca780d0f61/msystems.00191-26.f002.jpg)
+
+**Fig 2**
+A global metagenomic analysis recovered 19,778 vOTUs from the chicken gut, predominantly _Caudoviricetes_ associated with a bacterial host. (**A**) Overview of the assembly and vOTU recovery pipeline from 1,458 chicken gut metagenomes and 56 viral-enriched samples. (**B**) Number of vOTUs by genome quality. (**C**) Genome length distribution by genome quality. (**D**) Number of viral genes per vOTU across genome quality. (**E**) Proportion of vOTUs by viral class, predicted host domain, and lifestyle.
+
+[![Image 3: Fig 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7824/13098223/193bcb15b43e/msystems.00191-26.f003.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7824/13098223/b6ec1cd5fcc0/msystems.00191-26.f003.jpg)
+
+**Fig 3**
+Chicken gut phages are largely associated with dominant chicken gut bacterial phyla like _Bacillota_, _Bacteroidota,_ and _Pseudomonadota_. (**A**) Distribution of vOTUs across the predicted prokaryotic phyla host. The X-axis is depicted on a log scale. (**B**) Genome length distributions (in kb) of vOTUs associated with each phylum. The X-axis is depicted on a log scale. (**C**) Predicted lifestyle of vOTUs (temperate, virulent, or uncertain) stratified by host phylum. (**D**) Predicted viral class of vOTUs grouped per host phylum.
+
+[![Image 4: Fig 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7824/13098223/4803e0c47b79/msystems.00191-26.f004.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7824/13098223/1aac609d76f1/msystems.00191-26.f004.jpg)
+
+**Fig 4**
+Chicken gut viral genomes harbor extensive functional novelty and defense and antidefense systems. (**A**) Proportion of the total genes with known and unknown function. (**B**) Proportion of genes with known function distributed between functional categories. (**C**) Functional annotation of the 40 most prevalent genes. (**D**) Defense and antidefense systems predicted in the viral genomes from the chicken gut.
+
+[![Image 5: Fig 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7824/13098223/ef0cb55e58d9/msystems.00191-26.f005.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7824/13098223/10afba0a6c12/msystems.00191-26.f005.jpg)
+
+**Fig 5**
+The chicken viral community is highly individualized and unique compared to other animal viromes. (**A**) Distribution of vOTUs across chicken gut samples. (**B**) Core vOTUs found in different fractions of samples, grouped by gut region. Each color represents the percentage of samples included in the calculation of the core virome. Core viromes were calculated in each gut section, excluding the rest of the samples. (**C**) Venn diagram showing the number of chicken gut vOTUs shared with Refseq viral, human gut (UHGV), rumen (RVD), and pig gut (PVD) collections of species-level vOTUs. (**D**) Prevalence of chicken gut vOTUs in other animal guts.
+
+[![Image 6: Fig 6](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7824/13098223/81296ee2a475/msystems.00191-26.f006.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7824/13098223/329e7be6768d/msystems.00191-26.f006.jpg)
+
+**Fig 6**
+The chicken gut virome is structured along the intestinal tract with site-specific richness and composition. (**A**) Distribution of observed vOTUs in different gut regions. Letters indicate statistically significant differences between groups based on pairwise Wilcoxon rank-sum tests (_P_< 0.05). (**B**) Principal component analysis based on Bray-Curtis dissimilarities predicted by the abundance of vOTUs grouped by putative hosts at the family level. (**C**) Relative abundance of vOTUs grouped by their predicted host, at the genus level, across distinct gastrointestinal regions.
+
+[![Image 7: Fig 7](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7824/13098223/48100c8d51d6/msystems.00191-26.f007.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7824/13098223/467637d32654/msystems.00191-26.f007.jpg)
+
+**Fig 7**
+_Crassvirales_ include both shared and host-associated lineages across humans, pigs, and chickens. (**A**) Proteomic tree of _Crassvirales_ genome sequences based on genome-wide sequence similarities. Concentric annotation tracks indicate (1) _Crassvirales_ clade assignment, (2) predicted bacterial host genus, and (3) the metagenomic sample source. (**B**) Prevalence of _Crassvirales_ vOTUs along different regions of the chicken gastrointestinal tract. Positive prevalence was considered if at least one vOTU was detected in the sample. (**C**) Prevalence of _Crassvirales_ vOTUs across different countries and the number of vOTUs grouped by clade. The number on the right represents the number of vOTUs detected across the samples of each country.
+
+[![Image 8: Fig 8](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7824/13098223/43f340787d90/msystems.00191-26.f008.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7824/13098223/a2b9c0220d64/msystems.00191-26.f008.jpg)
+
+**Fig 8**
+The geographical region, breed, and diet supplementation drive the chicken gut viral diversity and composition. (**A**) Frequency of vOTUs across fecal samples collected from several countries. Circles are colored based on the tree-top predicted bacterial host. Dashed line indicates vOTUs detected in > 50 samples and > 5 countries. (**B**) Non-metric multidimensional scaling (NMDS) of fecal samples based on Bray–Curtis dissimilarities of vOTU relative abundances, colored by geographic region. Only vOTUs present in 10 or more samples were used. (**C**) Number of vOTUs per fecal sample across countries. * indicates a significant difference between the country and Italy, while # indicates a significant difference between the country and China (Wilcoxon rank-sum test, _P_< 0.05). (**D**) Number of vOTUs in ileal samples stratified by chicken breed. Lohmann Brown Classic (LB) and Lohmann LSL-Classic (LSL) laying hens. * indicates significant pairwise contrasts of estimated marginal means (EMMs) on the response derived from a negative binomial generalized linear model (strain × diet; _P_< 0.05). n.s indicates non significant _P_> 0.05. (**E**) NMDS ordination of ileal samples grouped by breed and phosphorus supplementation. (**F**) Relative abundance of vOTUs associated with _Lactobacillus_, _Ligilactobacillus_, and _Limosilactobacillus_ detected in ileal samples across chicken breeds. (**G**) Relative abundance ratio between vOTUs associated with _Lactobacillus/Ligilactobacillus_ in ileal samples. * indicates a significant difference between the breeds (Kruskall-Wallis test, _P_< 0.05)
+
+## Similar articles
+
+*   [The salivary virome during childhood dental caries.](https://pubmed.ncbi.nlm.nih.gov/40719460/)
+
+Tang J, Baker JL.Tang J, et al.mSphere. 2025 Aug 26;10(8):e0019825. doi: 10.1128/msphere.00198-25. Epub 2025 Jul 28.mSphere. 2025.PMID: 40719460 Free PMC article. 
+*   [Identification and profiling of novel metagenome assembled uncultivated virus genomes from human gut.](https://pubmed.ncbi.nlm.nih.gov/40713701/)
+
+Bhardwaj K, Niharika, Garg A, Jain A, Kumar M, Datt M, Singh V, Vrati S.Bhardwaj K, et al.Virol J. 2025 Jul 25;22(1):254. doi: 10.1186/s12985-025-02739-1.Virol J. 2025.PMID: 40713701 Free PMC article. 
+*   [Metagenomic analysis of the gut virome in patients with irritable bowel syndrome.](https://pubmed.ncbi.nlm.nih.gov/39023095/)
+
+Zhang P, Ma S, Guo R, Li L, Guo X, Chang D, Li S, Zhang H, Fu C, Yang L, Zhang Y, Jiang J, Wang T, Wang J, Shi H.Zhang P, et al.J Med Virol. 2024 Jul;96(7):e29802. doi: 10.1002/jmv.29802.J Med Virol. 2024.PMID: 39023095 
+*   [Bacteriophages in gut metagenomes: from analysis to application.](https://pubmed.ncbi.nlm.nih.gov/41572308/)
+
+Natalia Z, Aleksandra S, Egor S, Ksenia K.Natalia Z, et al.Virol J. 2026 Jan 22;23(1):40. doi: 10.1186/s12985-026-03069-6.Virol J. 2026.PMID: 41572308 Free PMC article.Review. 
+*   [Tools and approaches to study the human gut virome: from the bench to bioinformatics.](https://pubmed.ncbi.nlm.nih.gov/41636510/)
+
+Anne Hallowell H, Malogan J, Suez J.Anne Hallowell H, et al.mSystems. 2026 Mar 24;11(3):e0100225. doi: 10.1128/msystems.01002-25. Epub 2026 Feb 4.mSystems. 2026.PMID: 41636510 Free PMC article.Review. 
+
+## References
+
+1.       1.    Wang Y, Qu M, Bi Y, Liu WJ, Ma S, Wan B, Hu Y, Zhu B, Zhang G, Gao GF. 2024. The multi-kingdom microbiome catalog of the chicken gastrointestinal tract. Biosaf Health 6:101–115. doi: 10.1016/j.bsheal.2024.02.006 - [DOI](https://doi.org/10.1016/j.bsheal.2024.02.006) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC11894977/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/40078943/)
+
+2.       1.    Huang P, Zhang Y, Xiao K, Jiang F, Wang H, Tang D, Liu D, Liu B, Liu Y, He X, et al. 2018. The chicken gut metagenome and the modulatory effects of plant-derived benzylisoquinoline alkaloids. Microbiome 6:211. doi: 10.1186/s40168-018-0590-5 - [DOI](https://doi.org/10.1186/s40168-018-0590-5) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6260706/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/30482240/)
+
+3.       1.    Glendinning L, Stewart RD, Pallen MJ, Watson KA, Watson M. 2020. Assembly of hundreds of novel bacterial genomes from the chicken caecum. Genome Biol 21:34. doi: 10.1186/s13059-020-1947-1 - [DOI](https://doi.org/10.1186/s13059-020-1947-1) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7014784/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/32051016/)
+
+4.       1.    Roth C, Sims T, Rodehutscord M, Seifert J, Camarinha-Silva A. 2022. The active core microbiota of two high-yielding laying hen breeds fed with different levels of calcium and phosphorus. Front Physiol 13:951350. doi: 10.3389/fphys.2022.951350 - [DOI](https://doi.org/10.3389/fphys.2022.951350) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9539745/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/36213242/)
+
+5.       1.    Robinson K, Yang Q, Stewart S, Whitmore MA, Zhang G. 2022. Biogeography, succession, and origin of the chicken intestinal mycobiome. Microbiome 10:55. doi: 10.1186/s40168-022-01252-9 - [DOI](https://doi.org/10.1186/s40168-022-01252-9) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8976367/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/35365230/)
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Atypon](https://journals.asm.org/doi/10.1128/msystems.00191-26?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-1548)
