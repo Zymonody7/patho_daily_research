@@ -1,10 +1,37 @@
 # 知识库
 
-- 最近沉淀条目数：468
+- 最近沉淀条目数：477
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [PhaBOX2: an enhanced web server for discovering and analyzing viral contigs in metagenomic data.](#/202604/23/202604/23/42023515-phabox2-an-enhanced-web-server-for-discovering-and-analyzing-viral-contigs-in-metagenomic-data)
+  - TLDR：针对宏基因组病毒分析工具零散且缺乏解释性的挑战，PhaBOX2 升级为集成化分析平台。它将范围从噬菌体扩展至古菌和真核病毒，采用“玻璃盒”设计结合序列比对与机器学习，提供可解释的中间证据。该平台实现了从质控到系统发育分析的全流程自动化，处理速度提升约 80%，为病毒研究提供了高效、透明的一站式解决方案。
+  - Tags：`query:pathoai`
+- [Artificial Intelligence-Based Tools for Automated Genus-Level Identification of Plant-Parasitic Nematodes.](#/202604/23/202604/23/41621093-artificial-intelligence-based-tools-for-automated-genus-level-identification-of-plant-parasitic-nematodes)
+  - TLDR：针对植物寄生线虫（PPN）传统鉴定方法耗时费力且依赖专家经验的问题，本研究采用 YOLOv11-seg 实例分割算法，对马铃薯作物中常见的三类重要寄生线虫及非寄生线虫进行了自动化识别。通过对 8,654 个显微图像实例进行训练，模型在测试集上实现了 88.6% 的准确率，核心类别的 F1 分数均超过 0.92。该研究证明了深度学习在属级线虫快速鉴定中的有效性，为构建自动化病原体监测系统提供了技术路径。
+  - Tags：`query:pathoai`
+- [Integrating theory and machine learning to reveal determinants of plasmid copy number.](#/202604/23/202604/23/42020421-integrating-theory-and-machine-learning-to-reveal-determinants-of-plasmid-copy-number)
+  - TLDR：质粒拷贝数（PCN）对微生物进化和耐药性至关重要，但其决定因素尚不明确。本研究结合理论建模与机器学习，首先通过理论解释了质粒大小与PCN间的幂律关系，随后利用11,051个质粒数据训练模型，发现蛋白质结构域是关键预测因子。该框架成功应用于数十万个宏基因组质粒和临床分离株，揭示了特定生态位下的PCN热点及肠道质粒组特征，为耐药性监测和质粒生态学研究提供了新工具。
+  - Tags：`query:pathoai`
+- [Human milk oligosaccharide mediates mutualism between Escherichia coli and Bifidobacterium bifidum.](#/202604/23/202604/23/42020426-human-milk-oligosaccharide-mediates-mutualism-between-escherichia-coli-and-bifidobacterium-bifidum)
+  - TLDR：婴儿肠道中大肠杆菌（E. coli）的生态作用尚不明确。本研究通过对母婴宏基因组的纵向分析及体外实验，发现 E. coli 与双歧杆菌（B. bifidum）存在互利共生关系：E. coli 为双歧杆菌提供必需的半胱氨酸，而双歧杆菌降解母乳低聚糖（2'-FL）产生的单糖则反哺 E. coli。这种跨物种代谢耦合解释了两者在婴儿肠道中共存的机制，为理解早期微生物群落构建提供了新视角。
+  - Tags：`query:seqai`
+- [Treemble: A Graphical Tool to Generate Newick Strings from Phylogenetic Tree Images.](#/202604/23/202604/23/42018742-treemble-a-graphical-tool-to-generate-newick-strings-from-phylogenetic-tree-images)
+  - TLDR：针对生物学文献中大量进化树仅以图像形式存在、缺乏机器可读 Newick 格式的问题，Treemble 推出了一款跨平台桌面应用。该工具结合深度学习节点检测模型与用户交互点击，能从矩形或圆形进化树图像中精准提取节点坐标并自动重构拓扑结构，同时支持末端标签的自动识别。这为研究者从既有文献中回收进化数据、进行超树构建和后续分析提供了高效且低误的解决方案。
+  - Tags：`query:pathoai`
+- [Emergence of hypervirulent Klebsiella pneumoniae ST111 with a novel virulence plasmid causing pyogenic liver abscess.](#/202604/23/202604/23/42021129-emergence-of-hypervirulent-klebsiella-pneumoniae-st111-with-a-novel-virulence-plasmid-causing-pyogenic-liver-abscess)
+  - TLDR：针对非典型高毒力肺炎克雷伯菌（hvKp）导致肝脓肿的罕见病例，本研究通过全基因组测序和CRISPR/Cas9质粒消除技术，分析了ST111型菌株的致病机制。研究发现一种新型毒力质粒是其高致病性的核心，该质粒携带了通常位于染色体上的ybt基因簇。这一发现揭示了非典型谱系通过获取强效毒力因子演变为高毒力菌株的风险，为临床监测和防控新兴高毒力克隆提供了重要依据。
+  - Tags：`query:pathoai`
+- [Gut microbiota reshapes host energy metabolism to modulate depressive behaviors.](#/202604/23/202604/23/42023591-gut-microbiota-reshapes-host-energy-metabolism-to-modulate-depressive-behaviors)
+  - TLDR：抑郁症常伴随能量代谢紊乱，但肠道菌群在其中的作用机制尚不明确。本研究通过对100名抑郁症患者进行宏基因组与代谢组联合分析，揭示了“肠道菌群-能量代谢物-抑郁表型”轴，并利用小鼠模型验证了自体粪菌移植（FMT）能修复线粒体结构并纠正无氧糖酵解。该研究证明了肠道菌群对宿主能量代谢的重塑作用，为抑郁症治疗提供了新思路。
+  - Tags：`query:pathoai`
+- [Microbiome in adult severe caries and cross-kingdom biofilms validation.](#/202604/23/202604/23/42024170-microbiome-in-adult-severe-caries-and-cross-kingdom-biofilms-validation)
+  - TLDR：成年人重症龋齿（ASC）严重影响口腔功能，但其致病机制尚不明确。本研究通过对ASC患者唾液进行宏基因组分析，发现白色念珠菌和韦荣氏菌显著富集。随后构建了包含细菌与真菌的跨界生物膜模型，证实了这些微生物间的协同作用能显著增强胞外多糖合成、产酸耐受力及牙本质脱矿能力。该研究揭示了跨界微生物交互作用在增强龋齿毒力中的关键作用，为高龋齿风险的预防提供了新思路。
+  - Tags：`query:pathoai`
+- [Predicting microbial community responses to disturbance using genome-resolved trait-based life-history strategies.](#/202604/23/202604/23/42023670-predicting-microbial-community-responses-to-disturbance-using-genome-resolved-trait-based-life-history-strategies)
+  - TLDR：针对微生物群落如何响应环境扰动这一生态学核心问题，本研究将植物学中的CSR（竞争者-开拓者-耐逆者）生活史策略框架引入微生物研究。通过在合成废水生物反应器中设置不同频率的有机负荷扰动，结合宏基因组学和机器学习分析，揭示了群落从竞争主导向耐逆主导演变的规律。该方法为预测复杂生态系统动态提供了统一的性状分析工具，有助于提升生态系统管理和生物技术应用的精准度。
+  - Tags：`query:pathoai`
 - [Empowering global disease surveillance with CURED: a tool for rapid identification of unique genomic biomarkers.](#/202604/22/202604/22/41854250-empowering-global-disease-surveillance-with-cured-a-tool-for-rapid-identification-of-unique-genomic-biomarkers)
   - TLDR：针对全基因组测序（WGS）在病原微生物大规模实时监测中成本高、速度慢的问题，研究者开发了 CURED 工具。该工具通过分析基因组训练集，识别具有特定限制性内切酶位点的唯一 k-mer，从而将复杂的基因组信息转化为低成本、快速的 PCR 诊断方案。实验证明 CURED 在 MRSA、鲍曼不动杆菌等多种病原体检测中表现优异，显著提升了局部爆发调查和全球疾病监测的效率与可及性。
   - Tags：`query:pathoai`
@@ -577,31 +604,4 @@
   - Tags：`query:pathoai`
 - [Digital twin of Mycobacterium tuberculosis infection: Integrating immune dynamics and pathogen adaptation for precision therapy.](#/202604/01/202604/01/41650584-digital-twin-of-mycobacterium-tuberculosis-infection-integrating-immune-dynamics-and-pathogen-adaptation-for-precision-therapy)
   - TLDR：结核分枝杆菌感染因个体差异大、病理过程复杂而难以精准治疗。该研究提出了一个结核病数字孪生框架，通过整合临床、免疫学和药代动力学数据，构建能模拟从肉芽肿形成到全身免疫调节的动态计算模型。该系统旨在预测治疗结果并识别耐药风险，为个性化给药和宿主导向干预提供决策支持，推动结核病从通用方案向精准医疗转型。
-  - Tags：`query:pathoai`
-- [IMPG2-associated retinal dystrophy with a novel missense variant and therapeutic options via adenine base editing.](#/202604/01/202604/01/41478731-impg2-associated-retinal-dystrophy-with-a-novel-missense-variant-and-therapeutic-options-via-adenine-base-editing)
-  - TLDR：针对一名患有早发性视杆-视锥细胞营养不良的患者，研究发现其 IMPG2 基因存在复合杂合突变，包括一个新的错义突变 p.Arg291Ser 和一个无义突变 c.411G>A。通过蛋白质结构建模揭示了该错义突变的致病性，并评估了利用腺嘌呤碱基编辑（ABE）技术修复无义突变的可行性，为 IMPG2 相关视网膜变性提供了精准诊断依据和潜在的基因治疗方案。
-  - Tags：`query:bioinfo`
-- [Comparative evaluation of multimodal point-of-care tests to differentiate gram-negative from gram-positive infections in critically ill adults: a diagnostic accuracy study.](#/202604/01/202604/01/41535672-comparative-evaluation-of-multimodal-point-of-care-tests-to-differentiate-gram-negative-from-gram-positive-infections-in-critically-ill-adults-a-diagnostic-accuracy-study)
-  - TLDR：针对脓毒症患者早期经验性用药缺乏针对性的问题，本研究系统评估了多种快速床旁检测（POCT）在区分革兰氏阴性与阳性感染中的准确性。通过对72项研究的荟萃分析发现，基于病原体的快速检测（如PCR和质谱）表现最优，而降钙素原（PCT）在3-5 ng/mL阈值下具有较好的临床参考价值，为早期精准抗感染治疗提供了循证依据。
-  - Tags：`query:pathoai`
-- [Viral metagenomics reveals the RNA viral composition of herbivorous wildlife on the Qinghai-Tibet Plateau.](#/202604/01/202604/01/41581442-viral-metagenomics-reveals-the-rna-viral-composition-of-herbivorous-wildlife-on-the-qinghai-tibet-plateau)
-  - TLDR：针对青藏高原极端环境下野生动物病毒组研究不足的问题，本研究对该地区6种草食性野生动物的741份粪便样本进行了病毒宏基因组分析。研究揭示了涵盖18个科的丰富RNA病毒组成，并成功组装出28条属于星状病毒科、微小核糖核酸病毒科等的新病毒序列。系统发育分析显示这些病毒与人类及多种哺乳动物病毒存在亲缘关系，为高原地区新发传染病的源头防控和生态风险评估提供了重要科学依据。
-  - Tags：`query:pathoai`
-- [Genomic diversity of human adenoviruses in Tanzanian children under five: Insights into F40, F41, B, and rare A18 genotypes.](#/202604/01/202604/01/41619541-genomic-diversity-of-human-adenoviruses-in-tanzanian-children-under-five-insights-into-f40-f41-b-and-rare-a18-genotypes)
-  - TLDR：针对坦桑尼亚地区人类腺病毒（HAdV）全基因组序列缺失导致难以追踪其演化与传播的问题，本研究利用纳米孔宏基因组测序技术，对患有腹泻的坦桑尼亚婴幼儿样本进行了深度测序。研究首次获得了非洲首例、全球第三例 HAdV-A18 全基因组，以及坦桑尼亚首批 F40、F41 和 B3 型基因组，填补了撒哈拉以南非洲地区腺病毒基因组数据的空白，为全球病毒监测和演化研究提供了关键数据支持。
-  - Tags：`query:seqai`
-- [The gut microbiota in Salmonella Typhi infection and translocation: Mechanisms of colonization resistance, pathogen subversion, and prospects for microecological intervention.](#/202604/01/202604/01/41690650-the-gut-microbiota-in-salmonella-typhi-infection-and-translocation-mechanisms-of-colonization-resistance-pathogen-subversion-and-prospects-for-microecological-intervention)
-  - TLDR：伤寒沙门氏菌如何突破肠道屏障是防治关键。本文综述了该菌与肠道菌群的博弈，分析了健康菌群通过代谢物构建的定植抵抗，以及病原菌利用毒素和效应蛋白破坏免疫、引发菌群失调的机制。文章评估了益生菌和粪菌移植等干预手段，并指出从传统小鼠模型向类器官等人类特异性模型转化的必要性，为耐药性伤寒的精准防控提供了微生态视角下的新路径。
-  - Tags：`query:pathoai`
-- [Boronic acid derivatives inhibit Candida albicans growth by compromising energy metabolism.](#/202604/01/202604/01/40738473-boronic-acid-derivatives-inhibit-candida-albicans-growth-by-compromising-energy-metabolism)
-  - TLDR：针对真菌性角膜炎等真菌感染缺乏高效药物的问题，本研究筛选并评估了含硼化合物的抗真菌活性。发现候选化合物 BD11 能通过抑制琥珀酸脱氢酶活性、降低 ATP 水平及破坏细胞壁完整性，有效抑制白色念珠菌的生长与毒力。在小鼠模型中，BD11 显著减轻了角膜损伤，为开发新型抗真菌药物提供了重要候选分子和代谢干预新思路。
-  - Tags：`query:pathoai`
-- [Comprehension of the age-dependent gut and brain interaction of honey bee workers by integration of multi omics approaches.](#/202604/01/202604/01/40749788-comprehension-of-the-age-dependent-gut-and-brain-interaction-of-honey-bee-workers-by-integration-of-multi-omics-approaches)
-  - TLDR：蜜蜂的劳动分工与年龄相关的行为转变密切相关，但肠道菌群与大脑之间的相互作用机制尚不明确。本研究通过对不同日龄工蜂的肠道和大脑进行多组学分析（元蛋白质组学和代谢组学），揭示了两者间氨基酸（如色氨酸）的运输与代谢关联。研究发现菌群结构随年龄显著变化，且代谢路径的改变与能量消耗及采蜜行为相关，为理解蜜蜂肠脑轴通讯及开发环境压力生物标志物提供了新视角。
-  - Tags：`query:bioinfo`
-- [Metagenomics insights into bacterial community, viral diversity and community-scale functions in fermented red pepper.](#/202604/01/202604/01/41344778-metagenomics-insights-into-bacterial-community-viral-diversity-and-community-scale-functions-in-fermented-red-pepper)
-  - TLDR：针对发酵红辣椒中微生物功能、病毒多样性及抗生素耐药基因（ARG）传播机制不明的问题，本研究采用宏基因组学多方法集成分析，揭示了芽孢杆菌在碳降解中的核心作用，并发现有益菌是ARG的主要载体。研究指出ARG分布主要受菌群组成而非水平基因转移驱动，为优化发酵效率与防控生物安全风险提供了双重策略指导。
-  - Tags：`query:pathoai`
-- [Lung microbiome quantification and bacterial density as prognostic markers in lung transplantation.](#/202604/01/202604/01/41453696-lung-microbiome-quantification-and-bacterial-density-as-prognostic-markers-in-lung-transplantation)
-  - TLDR：慢性肺同种异体移植物功能障碍（CLAD）是影响肺移植长期生存率的主要障碍。本研究通过对108名肺移植受者的支气管肺泡灌洗液进行病例对照分析，对比了微生物相对丰度与绝对定量在预测CLAD中的表现。结果表明，结合细菌绝对密度能显著增强微生物特征与CLAD发生风险的关联，证明了绝对定量在评估移植预后中的关键价值。
   - Tags：`query:pathoai`

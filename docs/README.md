@@ -11,79 +11,49 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-04-22
-- 运行时间：2026-04-22 19:52:55 UTC
+- 最新运行日期：2026-04-23
+- 运行时间：2026-04-23 19:55:01 UTC
 - 运行状态：成功
-- 本次总论文数：19
-- 精读区：8
-- 速读区：11
+- 本次总论文数：9
+- 精读区：4
+- 速读区：5
 
 ### 今日简报（AI）
-今日聚焦 19 篇生物信息前沿，重点突破全球疾病监测工具与单细胞维度的癌症生存分析。
-推荐关注 CURED 工具对基因组生物标志物的快速识别，以及 scSurvival 在细胞分辨率下对癌症预后的精准预测。
-建议深入了解单细胞组学与自动化监测平台如何联手提升临床诊断与公共卫生预警效率。
-- 详情：[/202604/22/README](/202604/22/README)
+今日聚焦宏基因组病毒分析利器 PhaBOX2 及 AI 自动化识别技术，深度解析 9 篇生物信息与微生物学前沿进展。
+重点推荐满分工具 PhaBOX2 助力病毒序列深度挖掘，以及 AI 在植物寄生线虫鉴定中的高效应用。
+建议关注生物信息工具与 AI 的跨界融合，并持续追踪肠道菌群对心理健康及耐药菌演化的深远影响。
+- 详情：[/202604/23/README](/202604/23/README)
 
 ### 精读区论文标签
-1. [Empowering global disease surveillance with CURED: a tool for rapid identification of unique genomic biomarkers.](/202604/22/41854250-empowering-global-disease-surveillance-with-cured-a-tool-for-rapid-identification-of-unique-genomic-biomarkers)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：用于快速追踪新兴病原微生物的基因组生物标志物
-2. [scSurvival: Single-Cell Survival Analysis of Clinical Cancer Cohort Data at Cellular Resolution.](/202604/22/42013315-scsurvival-single-cell-survival-analysis-of-clinical-cancer-cohort-data-at-cellular-resolution)  
-   标签：评分：9.0/10、query:seqai
-   evidence：基于注意力机制的多实例学习单细胞生存分析
-3. [Metagenome-assembled genomes from a population-based cohort uncover novel gut species and within-species diversity, revealing prevalent disease associations.](/202604/22/41837716-metagenome-assembled-genomes-from-a-population-based-cohort-uncover-novel-gut-species-and-within-species-diversity-revealing-prevalent-disease-associations)  
+1. [PhaBOX2: an enhanced web server for discovering and analyzing viral contigs in metagenomic data.](/202604/23/42023515-phabox2-an-enhanced-web-server-for-discovering-and-analyzing-viral-contigs-in-metagenomic-data)  
+   标签：评分：10.0/10、query:pathoai
+   evidence：用于病毒序列分析和宏基因组病原体检测的集成套件
+2. [Artificial Intelligence-Based Tools for Automated Genus-Level Identification of Plant-Parasitic Nematodes.](/202604/23/41621093-artificial-intelligence-based-tools-for-automated-genus-level-identification-of-plant-parasitic-nematodes)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：用于自动病原体检测和分类的计算机视觉工具
+3. [Integrating theory and machine learning to reveal determinants of plasmid copy number.](/202604/23/42020421-integrating-theory-and-machine-learning-to-reveal-determinants-of-plasmid-copy-number)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：机器学习模型预测质粒拷贝数，影响抗生素耐药性和致病性
+4. [Human milk oligosaccharide mediates mutualism between Escherichia coli and Bifidobacterium bifidum.](/202604/23/42020426-human-milk-oligosaccharide-mediates-mutualism-between-escherichia-coli-and-bifidobacterium-bifidum)  
    标签：评分：8.0/10、query:seqai
-   evidence：用于菌株级微生物组分析的宏基因组组装基因组
-4. [Integrating Arrhenius Constraints with Lineage-Aware Meta-Learning for Few-Shot Prediction of Temperature-Dependent Enzyme Kinetics.](/202604/22/42013401-integrating-arrhenius-constraints-with-lineage-aware-meta-learning-for-few-shot-prediction-of-temperature-dependent-enzyme-kinetics)  
-   标签：评分：8.0/10、query:bioinfo
-   evidence：用于酶动力学预测的谱系感知元学习
-5. [Navigating multi-omic integration methods for human microbiome research.](/202604/22/42014454-navigating-multi-omic-integration-methods-for-human-microbiome-research)  
-   标签：评分：8.0/10、query:bioinfo
-   evidence：人类微生物组研究的多组学整合方法
-6. [Machine learning model based on plasma proteomics for the identification of Parkinson's disease.](/202604/22/42015416-machine-learning-model-based-on-plasma-proteomics-for-the-identification-of-parkinsons-disease)  
-   标签：评分：8.0/10、query:bioinfo
-   evidence：基于血浆蛋白质组学的机器学习模型
-7. [Integrative Proteomic and Machine Learning Analysis Identifies Novel Predictors and Risk Model for Diabetic Macrovascular Complications.](/202604/22/42017289-integrative-proteomic-and-machine-learning-analysis-identifies-novel-predictors-and-risk-model-for-diabetic-macrovascular-complications)  
-   标签：评分：8.0/10、query:bioinfo
-   evidence：用于生物标志物发现的机器学习和多组学整合
-8. [Systematic evaluation of TCGA tumor microbiota reveals context-dependent reliability.](/202604/22/42017663-systematic-evaluation-of-tcga-tumor-microbiota-reveals-context-dependent-reliability)  
-   标签：评分：8.0/10、query:seqai
-   evidence：基准测试微生物概况和宿主-微生物关联
+   evidence：用于菌株水平分析的鸟枪法宏基因组学和计算方法
 
 ### 速读区论文标签
-1. [The chicken gut virome: spatial structuring and extensive diversity of 19,778 viral populations.](/202604/22/41910132-the-chicken-gut-virome-spatial-structuring-and-extensive-diversity-of-19778-viral-populations)  
-   标签：评分：7.0/10、query:seqai
-   evidence：宏基因组病毒序列恢复与分类分析
-2. [Cell wall remodeling-dependent morphotype switch in](/202604/22/41973921-cell-wall-remodeling-dependent-morphotype-switch-in)  
+1. [Treemble: A Graphical Tool to Generate Newick Strings from Phylogenetic Tree Images.](/202604/23/42018742-treemble-a-graphical-tool-to-generate-newick-strings-from-phylogenetic-tree-images)  
    标签：评分：7.0/10、query:pathoai
-   evidence：病原体的表型、基因组和转录组综合分析
-3. [Agent based modeling approach for population dynamics of the biological vector Aedes aegypti.](/202604/22/42013888-agent-based-modeling-approach-for-population-dynamics-of-the-biological-vector-aedes-aegypti)  
+   evidence：系统发育树转换的图形工具
+2. [Emergence of hypervirulent Klebsiella pneumoniae ST111 with a novel virulence plasmid causing pyogenic liver abscess.](/202604/23/42021129-emergence-of-hypervirulent-klebsiella-pneumoniae-st111-with-a-novel-virulence-plasmid-causing-pyogenic-liver-abscess)  
    标签：评分：7.0/10、query:pathoai
-   evidence：疾病媒介种群动态的智能体建模
-4. [Precursors of sea star wasting: immune and microbial disruption during initial disease outbreak in southeast Alaska.](/202604/22/42014077-precursors-of-sea-star-wasting-immune-and-microbial-disruption-during-initial-disease-outbreak-in-southeast-alaska)  
+   evidence：利用全基因组测序和CRISPR/Cas9研究高毒力病原体的出现和质粒
+3. [Gut microbiota reshapes host energy metabolism to modulate depressive behaviors.](/202604/23/42023591-gut-microbiota-reshapes-host-energy-metabolism-to-modulate-depressive-behaviors)  
    标签：评分：7.0/10、query:pathoai
-   evidence：整合转录组和微生物数据进行感染建模
-5. [Population-scale long-read DNA sequencing: peering under the hood of the new evolutionary genomics.](/202604/22/42014088-population-scale-long-read-dna-sequencing-peering-under-the-hood-of-the-new-evolutionary-genomics)  
-   标签：评分：7.0/10、query:seqai
-   evidence：讨论了用于长读长测序、基因组组装和变异检测的计算工具
-6. [Chromosome-level genome assembly of the sponge Halisarca dujardinii.](/202604/22/42014710-chromosome-level-genome-assembly-of-the-sponge-halisarca-dujardinii)  
-   标签：评分：7.0/10、query:seqai
-   evidence：使用Nanopore和Illumina读段进行基因组组装
-7. [Adaptation of](/202604/22/41805190-adaptation-of)  
+   evidence：用于微生物组-宿主相互作用和感染建模的鸟枪法宏基因组学
+4. [Microbiome in adult severe caries and cross-kingdom biofilms validation.](/202604/23/42024170-microbiome-in-adult-severe-caries-and-cross-kingdom-biofilms-validation)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：龋齿核心微生物群及其相互作用的宏基因组分析
+5. [Predicting microbial community responses to disturbance using genome-resolved trait-based life-history strategies.](/202604/23/42023670-predicting-microbial-community-responses-to-disturbance-using-genome-resolved-trait-based-life-history-strategies)  
    标签：评分：6.0/10、query:pathoai
-   evidence：微生物组-宿主-病原体相互作用建模
-8. [Profiling of genetic determinants required for fitness of community-associated methicillin-resistant](/202604/22/42012196-profiling-of-genetic-determinants-required-for-fitness-of-community-associated-methicillin-resistant)  
-   标签：评分：6.0/10、query:pathoai
-   evidence：病原体基因组适应性决定因素与测序
-9. [Early Detection of Asymptomatic Human Infections in Vector-Borne Diseases: A Programmatic Model for Enhanced Surveillance.](/202604/22/42013832-early-detection-of-asymptomatic-human-infections-in-vector-borne-diseases-a-programmatic-model-for-enhanced-surveillance)  
-   标签：评分：6.0/10、query:pathoai
-   evidence：增强媒介传播疾病监测的规划模型
-10. [Metabolomics-based and functional validation to explore the effect of the gut microbe-associated metabolite guanidinoacetic acid on rectal adenocarcinoma.](/202604/22/42014751-metabolomics-based-and-functional-validation-to-explore-the-effect-of-the-gut-microbe-associated-metabolite-guanidinoacetic-acid-on-rectal-adenocarcinoma)  
-   标签：评分：6.0/10、query:pathoai
-   evidence：直肠腺癌中的肠道微生物与宿主相互作用
-11. [Urinary extracellular vesicle miRNA signature reflects pancreatic islet stress in type 2 diabetes.](/202604/22/42017432-urinary-extracellular-vesicle-mirna-signature-reflects-pancreatic-islet-stress-in-type-2-diabetes)  
-   标签：评分：6.0/10、query:seqai
-   evidence：miRNA测序与监督机器学习用于诊断性能评估
+   evidence：微生物群落响应与生态策略
 
 
 <div class="dpr-home-promo-card">
