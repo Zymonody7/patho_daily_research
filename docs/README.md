@@ -11,49 +11,43 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-04-23
-- 运行时间：2026-04-23 19:55:01 UTC
+- 最新运行日期：2026-04-26
+- 运行时间：2026-04-26 19:31:48 UTC
 - 运行状态：成功
-- 本次总论文数：9
-- 精读区：4
-- 速读区：5
+- 本次总论文数：7
+- 精读区：3
+- 速读区：4
 
 ### 今日简报（AI）
-今日聚焦宏基因组病毒分析利器 PhaBOX2 及 AI 自动化识别技术，深度解析 9 篇生物信息与微生物学前沿进展。
-重点推荐满分工具 PhaBOX2 助力病毒序列深度挖掘，以及 AI 在植物寄生线虫鉴定中的高效应用。
-建议关注生物信息工具与 AI 的跨界融合，并持续追踪肠道菌群对心理健康及耐药菌演化的深远影响。
-- 详情：[/202604/23/README](/202604/23/README)
+深度解析病原体溢出评估工具 RAISE 与抗耐药菌新药筛选，全方位追踪流行病传播动态。
+重点推荐 RAISE 计算工具对冠状病毒溢出风险的精准量化，以及针对屎肠球菌群体感应系统的天然产物药物筛选。
+建议关注公共卫生监测技术的迭代，并了解个人行为感知如何通过数字模拟影响疫情走向。
+- 详情：[/202604/26/README](/202604/26/README)
 
 ### 精读区论文标签
-1. [PhaBOX2: an enhanced web server for discovering and analyzing viral contigs in metagenomic data.](/202604/23/42023515-phabox2-an-enhanced-web-server-for-discovering-and-analyzing-viral-contigs-in-metagenomic-data)  
-   标签：评分：10.0/10、query:pathoai
-   evidence：用于病毒序列分析和宏基因组病原体检测的集成套件
-2. [Artificial Intelligence-Based Tools for Automated Genus-Level Identification of Plant-Parasitic Nematodes.](/202604/23/41621093-artificial-intelligence-based-tools-for-automated-genus-level-identification-of-plant-parasitic-nematodes)  
-   标签：评分：8.0/10、query:pathoai
-   evidence：用于自动病原体检测和分类的计算机视觉工具
-3. [Integrating theory and machine learning to reveal determinants of plasmid copy number.](/202604/23/42020421-integrating-theory-and-machine-learning-to-reveal-determinants-of-plasmid-copy-number)  
-   标签：评分：8.0/10、query:pathoai
-   evidence：机器学习模型预测质粒拷贝数，影响抗生素耐药性和致病性
-4. [Human milk oligosaccharide mediates mutualism between Escherichia coli and Bifidobacterium bifidum.](/202604/23/42020426-human-milk-oligosaccharide-mediates-mutualism-between-escherichia-coli-and-bifidobacterium-bifidum)  
+1. [RAISE: A computational tool for evaluating sarbecovirus spillover potential.](/202604/26/42034636-raise-a-computational-tool-for-evaluating-sarbecovirus-spillover-potential)  
+   标签：评分：9.0/10、query:pathoai
+   evidence：用于沙贝病毒溢出潜力和受体相互作用评分的计算框架
+2. [Subtractive proteomics-driven identification of AgrA and structure-guided discovery of phytochemical and marine natural products as novel anti-quorum sensing therapeutic leads against Enterococcus faecium.](/202604/26/42035380-subtractive-proteomics-driven-identification-of-agra-and-structure-guided-discovery-of-phytochemical-and-marine-natural-products-as-novel-anti-quorum-sensing-therapeutic-leads-against-enterococcus-faecium)  
+   标签：评分：9.0/10、query:pathoai
+   evidence：蛋白质组学驱动的治疗靶点识别
+3. [RuSpacer: a CRISPR spacer database derived from ruminant-associated prokaryotes for virome analysis.](/202604/26/42034665-ruspacer-a-crispr-spacer-database-derived-from-ruminant-associated-prokaryotes-for-virome-analysis)  
    标签：评分：8.0/10、query:seqai
-   evidence：用于菌株水平分析的鸟枪法宏基因组学和计算方法
+   evidence：用于宏基因组病毒组分析和宿主-病毒预测的CRISPR间隔序列数据库
 
 ### 速读区论文标签
-1. [Treemble: A Graphical Tool to Generate Newick Strings from Phylogenetic Tree Images.](/202604/23/42018742-treemble-a-graphical-tool-to-generate-newick-strings-from-phylogenetic-tree-images)  
+1. [Using Serosurveys to Optimize Surveillance for Zoonotic Pathogens.](/202604/26/42033553-using-serosurveys-to-optimize-surveillance-for-zoonotic-pathogens)  
    标签：评分：7.0/10、query:pathoai
-   evidence：系统发育树转换的图形工具
-2. [Emergence of hypervirulent Klebsiella pneumoniae ST111 with a novel virulence plasmid causing pyogenic liver abscess.](/202604/23/42021129-emergence-of-hypervirulent-klebsiella-pneumoniae-st111-with-a-novel-virulence-plasmid-causing-pyogenic-liver-abscess)  
+   evidence：用于人畜共患病原体监测和溢出预测的统计模型
+2. [The complexome contextualizes proteomics data to fingerprint biological states and highlight perturbed functional modules in disease.](/202604/26/42034643-the-complexome-contextualizes-proteomics-data-to-fingerprint-biological-states-and-highlight-perturbed-functional-modules-in-disease)  
+   标签：评分：7.0/10、query:bioinfo
+   evidence：多组学整合的生物信息学框架
+3. [App-based epidemic game in a university campus reveals how risk perception and behavioral interventions shape disease transmission dynamics.](/202604/26/42034809-app-based-epidemic-game-in-a-university-campus-reveals-how-risk-perception-and-behavioral-interventions-shape-disease-transmission-dynamics)  
    标签：评分：7.0/10、query:pathoai
-   evidence：利用全基因组测序和CRISPR/Cas9研究高毒力病原体的出现和质粒
-3. [Gut microbiota reshapes host energy metabolism to modulate depressive behaviors.](/202604/23/42023591-gut-microbiota-reshapes-host-energy-metabolism-to-modulate-depressive-behaviors)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：用于微生物组-宿主相互作用和感染建模的鸟枪法宏基因组学
-4. [Microbiome in adult severe caries and cross-kingdom biofilms validation.](/202604/23/42024170-microbiome-in-adult-severe-caries-and-cross-kingdom-biofilms-validation)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：龋齿核心微生物群及其相互作用的宏基因组分析
-5. [Predicting microbial community responses to disturbance using genome-resolved trait-based life-history strategies.](/202604/23/42023670-predicting-microbial-community-responses-to-disturbance-using-genome-resolved-trait-based-life-history-strategies)  
+   evidence：模拟疾病传播动态
+4. [An oral-gut microbial metabolite links](/202604/26/42033241-an-oral-gut-microbial-metabolite-links)  
    标签：评分：6.0/10、query:pathoai
-   evidence：微生物群落响应与生态策略
+   evidence：微生物组与宿主相互作用及口肠轴病原体建模
 
 
 <div class="dpr-home-promo-card">

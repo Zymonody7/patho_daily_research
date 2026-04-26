@@ -1,0 +1,349 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-04-26T19:30:10.594562+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 3,
+    "deep_cap": 9,
+    "deep_selected": 3,
+    "quick_candidates": 4,
+    "quick_skim_target": 14,
+    "quick_selected": 4
+  },
+  "deep_dive": [
+    {
+      "id": "42034636",
+      "title": "RAISE: A computational tool for evaluating sarbecovirus spillover potential.",
+      "abstract": "Animal sarbecoviruses, relatives of SARS-CoV or SARS-CoV-2, pose a significant zoonotic threat driven by their ability to bind the human ACE2 (hACE2) receptor. To address challenges in evaluating these threats, we developed RAISE (Receptor binding domain-hACE2 Interaction Scoring Evaluation), a computational framework that integrates structural predictions with interaction scoring. By scoring predicted hACE2 interactions, our RAISE model categorized sarbecoviruses into three groups: high potential (hACE2-binding), negligible potential (hACE2-nonbinding), and an intermediate \"poised\" state (a state defined by either weak binding activity or a high potential to evolve it). Mutation screening of two \"hACE2-poised\" sarbecoviruses, PDF-2370 and Khosta-1 using RAISE, revealed mutations such as T498Y/W that enabled human ACE2 utilization and expanded their ability to bind to ACE2 receptors from a broader range of species. The model's generalizability was further demonstrated through prospective application to merbecoviruses, highlighting its utility in preemptively assessing zoonotic threats across coronavirus lineages. RAISE provides a predictive roadmap for prioritizing risk viruses and guiding pandemic preparedness.",
+      "authors": [
+        "He Huang",
+        "Lupeng Kong",
+        "Yanzhi Zhu",
+        "Yue Dai",
+        "Yutong Yang",
+        "Yuyang Wang",
+        "Zhiqiang Wu",
+        "Yi Qin Gao",
+        "Lili Ren"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-25",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42034636/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "computational framework for sarbecovirus spillover potential and receptor interaction scoring",
+      "llm_evidence_cn": "用于沙贝病毒溢出潜力和受体相互作用评分的计算框架",
+      "llm_evidence": "用于沙贝病毒溢出潜力和受体相互作用评分的计算框架",
+      "canonical_evidence": "用于沙贝病毒溢出潜力和受体相互作用评分的计算框架",
+      "llm_tldr_en": "RAISE is a computational tool that integrates structural prediction to evaluate the zoonotic spillover risk of sarbecoviruses.",
+      "llm_tldr_cn": "RAISE是一个集成结构预测的计算工具，用于评估沙贝病毒的动物源性溢出风险。",
+      "llm_tldr": "RAISE是一个集成结构预测的计算工具，用于评估沙贝病毒的动物源性溢出风险。",
+      "llm_tags": [
+        "query:pathoai:composite"
+      ],
+      "matched_query_tag": "query:pathoai:composite",
+      "matched_query_text": "Papers central to 病原组学中的 AI 方法, especially work that connects or combines: foundation models for pathogen genomes and pathogen biology; machine learning for metagenomic pathogen classification; deep learning models for pathogen detection from sequencing data; AI methods for genomic surveillance and outbreak monitoring; machine learning for antimicrobial resistance prediction from genomes; machine learning for phylogenetic and transmission inference; multimodal models combining pathogen sequence phenotype and metadata; machine learning for microbiome host interaction pathogen ecology and infection modeling; AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design; foundation models for pathogen genome understanding and surveillance.",
+      "matched_requirement_id": "req-composite-pathoai",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42035380",
+      "title": "Subtractive proteomics-driven identification of AgrA and structure-guided discovery of phytochemical and marine natural products as novel anti-quorum sensing therapeutic leads against Enterococcus faecium.",
+      "abstract": "Enterococcus faecium, a member of the ESKAPE pathogens, has become a significant clinical threat due to its rapidly increasing resistance to frontline antibiotics. This gram-positive bacterium has developed multidrug resistance through prolonged exposure to hospital environments, posing serious risks to immunocompromised patients. The present study aimed to identify novel therapeutic targets from the E. faecium genome and to explore the potential of marine natural products as anti-quorum sensing agents. A comprehensive subtractive proteomics pipeline incorporating non-human homology, essentiality, subcellular localization, druggability, and pathway uniqueness identified the accessory gene regulator A protein (AgrA) as a key target involved in quorum sensing, biofilm formation, and virulence. Following structural quality assessment, a hierarchy-based virtual screening of MNPs from the CMNPD and SPECS natural product libraries was carried out to identify potential AgrA inhibitors. The virtual screening workflow shortlisted three promising MNPs (CMNPD6428, CMNPD30814, and SPECS AE-765) with favourable binding affinities and pharmacokinetic properties. Docking scores ranged from - 7.46 to - 8.01 kcal/mol, and MM/GBSA binding free energy calculations (≤ - 50 kcal/mol) further supported their strong interactions. Pharmacokinetic evaluation indicated acceptable safety profiles. Density functional theory analysis confirmed the chemical stability and reactivity of the compounds through HOMO-LUMO energy gap assessment. Finally, 500 ns molecular dynamics simulations and principal component analysis-based free energy landscape mapping validated the structural stability and sustained binding of the identified MNPs within the AgrA binding pocket. Overall, this study highlights three promising MNPs as potential anti-quorum sensing leads against E. faecium, offering a foundation for future therapeutic development.",
+      "authors": [
+        "Pradeep Kumar Sriram",
+        "Manikandan Jayaraman",
+        "Maharaja Muthuvairam Subbulakshmi",
+        "Shaslinah Nathar",
+        "Dhamodharan Prabhu",
+        "Jeyakanthan Jeyaraman"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-26",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42035380/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "proteomics-driven identification of therapeutic targets",
+      "llm_evidence_cn": "蛋白质组学驱动的治疗靶点识别",
+      "llm_evidence": "蛋白质组学驱动的治疗靶点识别",
+      "canonical_evidence": "蛋白质组学驱动的治疗靶点识别",
+      "llm_tldr_en": "A subtractive proteomics pipeline to identify novel therapeutic targets in the Enterococcus faecium genome.",
+      "llm_tldr_cn": "一种减法蛋白质组学流程，用于识别屎肠球菌基因组中的新型治疗靶点。",
+      "llm_tldr": "一种减法蛋白质组学流程，用于识别屎肠球菌基因组中的新型治疗靶点。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42034665",
+      "title": "RuSpacer: a CRISPR spacer database derived from ruminant-associated prokaryotes for virome analysis.",
+      "abstract": "Microorganisms in the ruminant gastrointestinal tract play key roles in lignocellulose degradation and energy conversion. Prokaryote-infecting viruses play a pivotal role in shaping host abundance and metabolism. Despite their importance, host-virus prediction in this environment remains limited, partly due to the lack of specialized clustered regularly interspaced short palindromic repeat spacer datasets. Here, RuSpacer, a database of 181,023 clustered regularly interspaced short palindromic repeat spacers extracted primarily from publicly available rumen-associated prokaryotic genomes, was established. Each spacer is annotated with the taxonomic identity of the genome from which it was derived. RuSpacer enables host-virus prediction via spacer-protospacer matching, particularly in the rumen ecosystem. It can also be integrated with existing publicly available spacer datasets and used for host-virus prediction in environments other than the rumen. Overall, this resource supports research on host-virus interactions, microbial ecology, and virus-based biocontrol strategies in livestock and other complex microbiomes.",
+      "authors": [
+        "Yoshiaki Sato"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-25",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42034665/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "CRISPR spacer database for metagenomic virome analysis and host-virus prediction",
+      "llm_evidence_cn": "用于宏基因组病毒组分析和宿主-病毒预测的CRISPR间隔序列数据库",
+      "llm_evidence": "用于宏基因组病毒组分析和宿主-病毒预测的CRISPR间隔序列数据库",
+      "canonical_evidence": "用于宏基因组病毒组分析和宿主-病毒预测的CRISPR间隔序列数据库",
+      "llm_tldr_en": "Established RuSpacer, a CRISPR spacer database to improve host-virus prediction in ruminant metagenomes.",
+      "llm_tldr_cn": "建立了RuSpacer数据库，利用CRISPR间隔序列提升反刍动物宏基因组中的宿主-病毒预测。",
+      "llm_tldr": "建立了RuSpacer数据库，利用CRISPR间隔序列提升反刍动物宏基因组中的宿主-病毒预测。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "42033553",
+      "title": "Using Serosurveys to Optimize Surveillance for Zoonotic Pathogens.",
+      "abstract": "Zoonotic pathogens pose significant risk to human health, with spillover into human populations contributing to chronic disease and epidemics. Despite the widely recognized burden of zoonotic spillover, our ability to identify which animal populations serve as primary reservoirs remains incomplete. This challenge is compounded when prevalence in reservoir populations reaches detectable levels only at specific times of year. In these cases, statistical models designed to predict the timing of peak prevalence could guide field sampling for active infections or predict when spillover risk is likely to be greatest. Thus, we develop a general mathematical model that leverages routinely collected serosurveillance data to optimize sampling for elusive pathogens. Using simulated data, we show that our methodology reliably identifies times when pathogen prevalence is expected to peak. Then, we demonstrate an implementation of our method using previously published surveillance data in straw-colored fruit bats (Eidolon helvum). The generality and simplicity of our methodology make it broadly applicable to a wide range of putative reservoir species where seasonal patterns of birth lead to cyclic, but potentially short-lived, pulses of pathogen prevalence.",
+      "authors": [
+        "E Clancey",
+        "S L Nuismer",
+        "S N Seifert"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-25",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42033553/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "statistical models for zoonotic pathogen surveillance and spillover prediction",
+      "llm_evidence_cn": "用于人畜共患病原体监测和溢出预测的统计模型",
+      "llm_evidence": "用于人畜共患病原体监测和溢出预测的统计模型",
+      "canonical_evidence": "用于人畜共患病原体监测和溢出预测的统计模型",
+      "llm_tldr_en": "Develops a mathematical model using serosurveillance data to optimize sampling for zoonotic pathogens.",
+      "llm_tldr_cn": "开发了一种利用血清监测数据优化人畜共患病原体采样时机的数学模型。",
+      "llm_tldr": "开发了一种利用血清监测数据优化人畜共患病原体采样时机的数学模型。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI methods for genomic surveillance and outbreak monitoring",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42033241",
+      "title": "An oral-gut microbial metabolite links",
+      "abstract": "BACKGROUND: Myocardial ischemia-reperfusion injury (MIRI) remains a major complication. Fusobacterium nucleatum (F. nucleatum), an oral pathobiont associated with cardiometabolic disease, may influence host physiology by reshaping gut microbial function through an oral-gut axis. Whether such microbial interactions contribute to MIRI remains unclear. METHODS: An oral F. nucleatum gavage mouse model and cohorts were established to investigate the effect of oral F. nucleatum on MIRI, gut microbial histidine metabolism including imidazole propionate (ImP) production, the association of ImP with coronary heart disease (CHD), and its microbial sources. MIRI was induced with or without antibiotic-mediated microbiota depletion and/or ImP administration, and p62 dependence was examined by knockdown approaches in vitro and in vivo. Plasma metabolites, cardiac injury, ultrastructure, and p62/mTOR signaling were assessed. RESULTS: F. nucleatum aggravated MIRI despite the absence of persistent colonic colonization. Instead, F. nucleatum altered gut microbial composition, including Lactobacillus abundance, and was associated with elevated circulating ImP. Antibiotic-mediated microbiota depletion reduced ImP and attenuated myocardial injury. Plasma ImP was elevated in patients with CHD, and ImP-producing capacity was supported primarily by gut microbiota urocanate reductase (UAR)-associated functions. In H9c2 cells, ImP exacerbated hypoxia/reoxygenation injury, and increased the autophagy adaptor p62 together with downstream mTOR/S6K1 signaling. p62 knockdown attenuated the mTOR/S6K1 response and injury-associated changes, whereas IRS1 suppression persisted. CONCLUSIONS: F. nucleatum reshapes gut microbial metabolism, thereby amplifying MIRI via ImP. ImP emerges as a functional mediator linking oral dysbiosis to MIRI, and reducing microbiota-derived ImP may represent a more mechanistically grounded strategy to mitigate MIRI.",
+      "authors": [
+        "Yiwen Li",
+        "Qian Xu",
+        "Mengmeng Zhu",
+        "Wenting Wang",
+        "Yanfei Liu",
+        "Hongjun Yang",
+        "Yue Liu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-12-31",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42033241/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "microbiome host interaction and oral-gut axis pathogen modeling",
+      "llm_evidence_cn": "微生物组与宿主相互作用及口肠轴病原体建模",
+      "llm_evidence": "微生物组与宿主相互作用及口肠轴病原体建模",
+      "canonical_evidence": "微生物组与宿主相互作用及口肠轴病原体建模",
+      "llm_tldr_en": "Investigates how the oral pathobiont F. nucleatum reshapes gut microbial metabolism to influence host heart injury.",
+      "llm_tldr_cn": "研究了口腔致病菌具核梭杆菌如何通过重塑肠道微生物代谢影响宿主心肌损伤。",
+      "llm_tldr": "研究了口腔致病菌具核梭杆菌如何通过重塑肠道微生物代谢影响宿主心肌损伤。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42034643",
+      "title": "The complexome contextualizes proteomics data to fingerprint biological states and highlight perturbed functional modules in disease.",
+      "abstract": "Analyzing single omics and integrating multimodal omics datasets to capture functional dysregulation in disease remains challenging. Here, we propose a bioinformatics framework that leverages curated datasets of protein complexes ('complexome') as a foundation for proteomics data integration. Available for human and other model organisms, the complexome provides a global view of cellular function, enabling queries with proteomics datasets. We first benchmarked how protein abundances across human tissues shape distinct complexomic profiles, serving to fingerprint biological activity. Next, we analyzed complexome remodeling using disease versus control proteomics quantifications. Using proteomics data from fibroblasts of patients with genetically confirmed metabolic defects, we identified significant perturbations in mitochondrial oxidative phosphorylation complexes and additional complexes involved in wider mitochondrial functions. The complexome provides a systems-wide approach to dissect mechanisms underlying disease-related functional and phenotypic changes by mapping measured protein-level perturbations to specific molecular complexes. The software is available as a Python notebook at https://github.com/mguharoy/Complexome.",
+      "authors": [
+        "Mainak Guharoy",
+        "Isabelle Adant",
+        "Matthew Bird",
+        "Alexander Botzki",
+        "James Collier",
+        "Jonas Dehairs",
+        "Stefaan Derveaux",
+        "Simon Devos",
+        "Geert Goeminne",
+        "Francis Impens",
+        "Andrea Jáñez Pedrayes",
+        "Rekin's Janky",
+        "Ruth Maes",
+        "Pedro Magalhães",
+        "Teresa M Maia",
+        "Wouter Meersseman",
+        "Daisy Rymen",
+        "Johannes V Swinnen",
+        "Delphi Van Haver",
+        "Dries Verdegem",
+        "Peter Witters",
+        "David Cassiman",
+        "Bart Ghesquiere"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-25",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42034643/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "bioinformatics framework for multi-omics integration",
+      "llm_evidence_cn": "多组学整合的生物信息学框架",
+      "llm_evidence": "多组学整合的生物信息学框架",
+      "canonical_evidence": "多组学整合的生物信息学框架",
+      "llm_tldr_en": "A framework leveraging protein complex datasets to integrate and contextualize proteomics data in disease.",
+      "llm_tldr_cn": "利用蛋白质复合物数据集整合蛋白质组学数据以揭示疾病功能失调的框架。",
+      "llm_tldr": "利用蛋白质复合物数据集整合蛋白质组学数据以揭示疾病功能失调的框架。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42034809",
+      "title": "App-based epidemic game in a university campus reveals how risk perception and behavioral interventions shape disease transmission dynamics.",
+      "abstract": "Effective infectious disease control requires understanding transmission dynamics and behavioral factors that influence non-pharmaceutical interventions (NPIs) such as social distancing and quarantining. To investigate these dynamics in a real-life setting, we conducted a two-week gamified epidemic experiment at Wenzhou-Kean University, China, involving nearly 1,000 students. A Bluetooth-enabled app was used to simulate the spread of a virtual pathogen and collect real-time behavioral and epidemiological data. We developed a Susceptible-Exposed-Asymptomatic-Infected-Removed model with time-varying transmission rates to incorporate behavioral feedback and assess the effectiveness of interventions. Our results show that NPIs alone may not be sufficient unless coupled with high compliance driven by elevated risk perception. Participants who adhered strongly to NPIs significantly reduced transmission. Additionally, superspreader statistics and a heavy-tailed transmission tree structure mirroring patterns seen in biological outbreaks provides support for the external validity of the data. This studyreveals the importance of integrating adaptive human behavior and heterogeneity into epidemiological models and highlights the potential of our app-based epidemic experiments as tools for studying outbreak dynamics in real-life settings.",
+      "authors": [
+        "Salihu S Musa",
+        "Winnie Mkandawire",
+        "Trusting Inekwe",
+        "Yinan Dong",
+        "Andonaq Grozdani",
+        "Hung Hong",
+        "Mansi Khandpekar",
+        "Sarah A Nowak",
+        "Jean-Gabriel Young",
+        "Aloysius Wong",
+        "Dale King",
+        "Andrés Colubri"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-25",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42034809/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "modeling disease transmission dynamics",
+      "llm_evidence_cn": "模拟疾病传播动态",
+      "llm_evidence": "模拟疾病传播动态",
+      "canonical_evidence": "模拟疾病传播动态",
+      "llm_tldr_en": "An app-based epidemic game and SEAIR model to study how behavior shapes pathogen transmission dynamics.",
+      "llm_tldr_cn": "基于APP的流行病博弈和SEAIR模型，研究行为如何影响病原体传播动态。",
+      "llm_tldr": "基于APP的流行病博弈和SEAIR模型，研究行为如何影响病原体传播动态。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI driven outbreak surveillance genomic epidemiology and transmission modeling",
+      "matched_requirement_id": "req-12",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

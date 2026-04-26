@@ -1,10 +1,31 @@
 # 知识库
 
-- 最近沉淀条目数：477
+- 最近沉淀条目数：484
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [RAISE: A computational tool for evaluating sarbecovirus spillover potential.](#/202604/26/202604/26/42034636-raise-a-computational-tool-for-evaluating-sarbecovirus-spillover-potential)
+  - TLDR：针对沙贝病毒（如SARS-CoV-2）通过结合hACE2受体引发跨物种传播的风险，本研究开发了RAISE计算框架。该工具通过整合结构预测与相互作用评分，将病毒分为高风险、无风险及“蓄势待发”三类。RAISE成功预测了使弱结合病毒获得感染人类能力的特定突变（如T498Y/W），并展现了在墨贝病毒中的通用性，为传染病预警提供了量化评估工具。
+  - Tags：`query:pathoai`
+- [Subtractive proteomics-driven identification of AgrA and structure-guided discovery of phytochemical and marine natural products as novel anti-quorum sensing therapeutic leads against Enterococcus faecium.](#/202604/26/202604/26/42035380-subtractive-proteomics-driven-identification-of-agra-and-structure-guided-discovery-of-phytochemical-and-marine-natural-products-as-novel-anti-quorum-sensing-therapeutic-leads-against-enterococcus-faecium)
+  - TLDR：针对耐药性极强的屎肠球菌（E. faecium），研究通过减法蛋白质组学筛选出调控群体感应的关键蛋白 AgrA 作为药物靶点。随后利用分子对接、动力学模拟等计算手段，从海洋天然产物库中鉴定出 CMNPD6428 等三种具有高亲和力和良好药代动力学特性的先导化合物。这些发现为开发新型抗毒力药物、缓解抗生素耐药性提供了理论基础和候选分子。
+  - Tags：`query:pathoai`
+- [RuSpacer: a CRISPR spacer database derived from ruminant-associated prokaryotes for virome analysis.](#/202604/26/202604/26/42034665-ruspacer-a-crispr-spacer-database-derived-from-ruminant-associated-prokaryotes-for-virome-analysis)
+  - TLDR：反刍动物胃肠道微生物对能量转换至关重要，但由于缺乏专门的CRISPR间隔序列数据库，预测该环境中的宿主-病毒相互作用十分困难。本研究构建了RuSpacer数据库，包含从反刍动物相关原核生物基因组中提取的181,023个带分类注释的spacer。该资源通过spacer-protospacer匹配显著提升了瘤胃生态系统中的病毒宿主预测能力，为研究微生物生态和病毒生物防治提供了关键数据支持。
+  - Tags：`query:seqai`
+- [Using Serosurveys to Optimize Surveillance for Zoonotic Pathogens.](#/202604/26/202604/26/42033553-using-serosurveys-to-optimize-surveillance-for-zoonotic-pathogens)
+  - TLDR：针对人兽共患病病原体在动物宿主中流行时间短、难以通过随机采样捕捉活跃感染的问题，本研究开发了一种通用的数学模型，利用常规收集的血清学监测数据（抗体）来推断病原体流行的峰值时间。通过模拟数据和对非洲草黄食果蝠的实证分析，证明该方法能准确指导野外采样时机，从而提高病原体发现概率并优化溢出风险预警。
+  - Tags：`query:pathoai`
+- [The complexome contextualizes proteomics data to fingerprint biological states and highlight perturbed functional modules in disease.](#/202604/26/202604/26/42034643-the-complexome-contextualizes-proteomics-data-to-fingerprint-biological-states-and-highlight-perturbed-functional-modules-in-disease)
+  - TLDR：针对单组学数据难以揭示疾病复杂功能紊乱的问题，该研究提出了一个基于蛋白质复合物集合（Complexome）的生物信息学框架。通过将蛋白质组学数据映射到已知的复合物模块，该方法能刻画不同组织的生物学特征指纹，并精准识别代谢疾病中线粒体等功能模块的异常。这为从系统层面解析疾病表型背后的分子机制提供了高效的整合分析工具。
+  - Tags：`query:bioinfo`
+- [App-based epidemic game in a university campus reveals how risk perception and behavioral interventions shape disease transmission dynamics.](#/202604/26/202604/26/42034809-app-based-epidemic-game-in-a-university-campus-reveals-how-risk-perception-and-behavioral-interventions-shape-disease-transmission-dynamics)
+  - TLDR：针对传染病防控中行为因素对非药物干预（NPI）效果影响不明的问题，本研究在温州肯恩大学开展了近千人规模的蓝牙App模拟疫情实验。通过构建包含行为反馈的SEAIR动力学模型，发现仅靠NPI不足以控制疫情，必须结合由风险感知驱动的高合规性行为。研究验证了虚拟疫情与真实生物爆发在超速传播和长尾分布上的相似性，为将人类行为异质性整合进流行病模型提供了实证支持。
+  - Tags：`query:pathoai`
+- [An oral-gut microbial metabolite links](#/202604/26/202604/26/42033241-an-oral-gut-microbial-metabolite-links)
+  - TLDR：心肌缺血再灌注损伤（MIRI）是心脏病治疗中的重大挑战。本研究发现口腔致病菌具核梭杆菌虽不直接定植肠道，但能通过重塑肠道菌群结构，诱导代谢产物咪唑丙酸（ImP）水平升高。通过小鼠模型和临床队列验证，ImP会激活心肌细胞中的p62/mTOR信号通路，从而加重再灌注损伤。该发现揭示了“口-肠-心”轴的代谢调控机制，为通过干预菌群代谢减轻心脏损伤提供了新靶点。
+  - Tags：`query:pathoai`
 - [PhaBOX2: an enhanced web server for discovering and analyzing viral contigs in metagenomic data.](#/202604/23/202604/23/42023515-phabox2-an-enhanced-web-server-for-discovering-and-analyzing-viral-contigs-in-metagenomic-data)
   - TLDR：针对宏基因组病毒分析工具零散且缺乏解释性的挑战，PhaBOX2 升级为集成化分析平台。它将范围从噬菌体扩展至古菌和真核病毒，采用“玻璃盒”设计结合序列比对与机器学习，提供可解释的中间证据。该平台实现了从质控到系统发育分析的全流程自动化，处理速度提升约 80%，为病毒研究提供了高效、透明的一站式解决方案。
   - Tags：`query:pathoai`
@@ -584,24 +605,3 @@
 - [Compact and informative representation learning for scRNA-seq data clustering with masked information bottleneck.](#/202604/01/202604/01/41917934-compact-and-informative-representation-learning-for-scrna-seq-data-clustering-with-masked-information-bottleneck)
   - TLDR：针对单细胞转录组测序（scRNA-seq）数据中存在的高稀疏、高噪声和信息冗余导致细胞聚类困难的问题，本研究提出了scMIB框架。该方法通过掩码去噪策略扰动基因表达以抑制噪声，并引入信息瓶颈（IB）目标来压缩冗余信号，从而提取最具代表性的特征。实验结果表明，scMIB在多个公开数据集上显著提升了聚类准确性和鲁棒性，为识别复杂生物系统中的细胞异质性提供了更可靠的工具。
   - Tags：`query:seqai`
-- [TCMNet: an AI-driven strategy for optimizing traditional Chinese medicine.](#/202604/01/202604/01/41918015-tcmnet-an-ai-driven-strategy-for-optimizing-traditional-chinese-medicine)
-  - TLDR：针对中药方剂设计主观性强、靶点优先级缺乏权重等问题，研究者开发了 TCMNet 策略。该方法融合了专用大模型 TCMChat 提取的语义权重、加权蛋白质相互作用网络（PPI）以及 Boltz-2 深度学习结合预测。在帕金森病案例中，TCMNet 成功评估了天麻钩藤饮等经典方剂及中西医结合方案的疗效，并识别出银杏叶中的黄酮类活性成分，为中药方剂的现代化优化和活性成分鉴定提供了量化工具。
-  - Tags：`query:bioinfo`
-- [HistoGWAS: an AI-enabled framework for automated genetic analysis of tissue phenotypes in histology cohorts.](#/202604/01/202604/01/41918129-histogwas-an-ai-enabled-framework-for-automated-genetic-analysis-of-tissue-phenotypes-in-histology-cohorts)
-  - TLDR：针对组织病理学图像中遗传变异如何影响组织结构的分析难题，HistoGWAS 框架整合了视觉基础模型、方差分量模型和生成模型，实现了从自动特征提取到关联分析及效应解释的全流程自动化。在 GTEx 数据集的 11 种组织中，该方法成功识别出 4 个与组织表型显著相关的遗传位点（tissueQTLs），并揭示了其与复杂性状的联系，为大规模人群队列的组织遗传学研究提供了高效工具。
-  - Tags：`query:bioinfo`
-- [A computer-aided drug repurposing: the antibacterial agents targeting GroEL.](#/202604/01/202604/01/41239775-a-computer-aided-drug-repurposing-the-antibacterial-agents-targeting-groel)
-  - TLDR：针对抗生素研发成本高、周期长的问题，本研究开发了一套结合靶点筛选、药物预测、分子对接及动力学模拟的计算工作流，旨在从现有药物库中寻找针对细菌伴侣蛋白 GroEL 的抗菌药物。通过实验验证，成功发现达普司他和依折麦布具有显著的抗菌活性，且与外排泵抑制剂联用可增强药效，为老药新用提供了高效的计算筛选范式。
-  - Tags：`query:pathoai`
-- [Metagenomic next-generation sequencing in pediatric infectious disease diagnosis: A comprehensive systematic literature review and meta-analysis.](#/202604/01/202604/01/41500047-metagenomic-next-generation-sequencing-in-pediatric-infectious-disease-diagnosis-a-comprehensive-systematic-literature-review-and-meta-analysis)
-  - TLDR：针对儿科感染性疾病诊断中传统微生物检测灵敏度低、样本量受限的问题，本研究通过对33项研究（共4165名患者）进行系统综述和元分析，评估了宏基因组二代测序（mNGS）的诊断效能。结果显示mNGS的灵敏度（0.84）远高于传统检测（0.40），且在发现罕见病原体和指导临床用药方面具有显著优势，证明了其作为儿科感染诊断重要补充手段的临床价值。
-  - Tags：`query:pathoai`
-- [Metagenomic Surveillance of Blood-Fed Mosquitoes for Assessing Zoonotic Risk in Managed Animal Settings.](#/202604/01/202604/01/41574538-metagenomic-surveillance-of-blood-fed-mosquitoes-for-assessing-zoonotic-risk-in-managed-animal-settings)
-  - TLDR：针对人畜共患病早期监测难的问题，本研究提出利用吸血蚊子作为“生物采样器”的异源监测方案。通过在印度农场和动物园采集蚊子样本，结合牛津纳米孔（MinION）宏基因组测序技术，分析了不同宿主来源蚊子的微生物组。研究成功检测到疟原虫、巴贝斯虫等多种病原体基因片段，并揭示了宿主种类对微生物群落结构的显著影响，为构建“全健康”预警体系提供了非侵入式的新路径。
-  - Tags：`query:pathoai`
-- [Unraveling dengue virus-host interactions through transcriptomics: Insights into disease progression and severity signatures.](#/202604/01/202604/01/41638513-unraveling-dengue-virus-host-interactions-through-transcriptomics-insights-into-disease-progression-and-severity-signatures)
-  - TLDR：登革病毒（DENV）感染机制复杂且重症预警困难。本文综述了利用转录组学技术（如单细胞测序、空间转录组等）解析病毒与宿主相互作用的最新进展。通过分析宿主基因表达变化，研究揭示了病毒逃逸免疫的策略及疾病严重程度的分子特征，为早期诊断标志物的发现和抗病毒药物研发提供了关键的分子基础。
-  - Tags：`query:pathoai`
-- [Digital twin of Mycobacterium tuberculosis infection: Integrating immune dynamics and pathogen adaptation for precision therapy.](#/202604/01/202604/01/41650584-digital-twin-of-mycobacterium-tuberculosis-infection-integrating-immune-dynamics-and-pathogen-adaptation-for-precision-therapy)
-  - TLDR：结核分枝杆菌感染因个体差异大、病理过程复杂而难以精准治疗。该研究提出了一个结核病数字孪生框架，通过整合临床、免疫学和药代动力学数据，构建能模拟从肉芽肿形成到全身免疫调节的动态计算模型。该系统旨在预测治疗结果并识别耐药风险，为个性化给药和宿主导向干预提供决策支持，推动结核病从通用方案向精准医疗转型。
-  - Tags：`query:pathoai`
