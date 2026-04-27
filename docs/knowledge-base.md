@@ -1,10 +1,34 @@
 # 知识库
 
-- 最近沉淀条目数：484
+- 最近沉淀条目数：492
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Stool-based genomic surveillance identifies post-engraftment expansion of multidrug-resistant pathogens in haematopoietic stem cell transplant patients in India](#/202604/27/202604/27/10.21203/rs.3.rs-9289820/v1-stool-based-genomic-surveillance-identifies-post-engraftment-expansion-of-multidrug-resistant-pathogens-in-haematopoietic-stem-cell-transplant-patients-in-india)
+  - TLDR：针对造血干细胞移植（HSCT）患者易发耐药菌血流感染的问题，本研究通过对印度81名患者的粪便进行纵向宏基因组监测，揭示了肠道耐药基因组在植入后的动态扩张规律。研究发现，植入后的早期免疫恢复期是耐药基因（如blaNDM）爆发的高危窗口，且肠道定植与后续血流感染具有基因组层面的直接关联。这一发现为通过非侵入性手段预测感染风险及指导临床精准用药提供了重要依据。
+  - Tags：`query:pathoai`
+- [DrugGPS: Attention-guided multimodal fusion for intelligent exploration of drug-target and drug-disease interactions.](#/202604/27/202604/27/42037091-druggps-attention-guided-multimodal-fusion-for-intelligent-exploration-of-drug-target-and-drug-disease-interactions)
+  - TLDR：药物研发中准确预测药物-靶点（DTI）和药物-疾病（DDI）相互作用至关重要，但单一模态数据难以捕捉复杂的生化关系。DrugGPS 框架通过注意力机制融合了药物结构、序列、生物网络及相似性图谱等多模态数据，并引入 MeSH 疾病特征。实验证明该模型在预测精度和效率上优于现有方法，并成功识别出 MR 受体的活性化合物，为药物重定向提供了高效工具。
+  - Tags：`query:bioinfo`
+- [Suppressing viral assembly in human metapneumovirus by targeting fusion protein with natural compounds: a structural dynamics and energetics study.](#/202604/27/202604/27/42043606-suppressing-viral-assembly-in-human-metapneumovirus-by-targeting-fusion-protein-with-natural-compounds-a-structural-dynamics-and-energetics-study)
+  - TLDR：针对人类偏肺病毒（HMPV）缺乏特效药的问题，本研究利用虚拟筛选、分子动力学模拟和密度泛函理论，从天然化合物库中筛选出能抑制病毒融合蛋白（F蛋白）的候选药物。结果发现表没食子儿茶素没食子酸酯（EGCG）、芦丁和槲皮素具有极强的结合亲和力和结构稳定性，优于临床药物利巴韦林，为开发新型抗HMPV药物提供了计算依据。
+  - Tags：`query:pathoai`
+- [OGTFinder: A Curated Growth Temperature Data Set and Its Application To Predict Optimal Growth Temperatures of Bacteria and Archaea.](#/202604/27/202604/27/41968931-ogtfinder-a-curated-growth-temperature-data-set-and-its-application-to-predict-optimal-growth-temperatures-of-bacteria-and-archaea)
+  - TLDR：针对现有模型在极端温度和稀有分类群预测准确率低的问题，本研究构建了一个包含逾1.5万种生物的全面生长温度数据集，并利用加权评分和系统发育划分优化了多层感知机（MLP）模型。该模型通过分析蛋白质组平均氨基酸特征，实现了对原核生物最适生长温度（OGT）的高精度预测，为极端环境下酶的生物勘探提供了有力工具。
+  - Tags：`query:pathoai`
+- [The mosquito midgut harbors stable bacteria that enhance host hemolymph immunity.](#/202604/27/202604/27/42036782-the-mosquito-midgut-harbors-stable-bacteria-that-enhance-host-hemolymph-immunity)
+  - TLDR：针对蚊媒传染病防控中微生物群落不稳定的难题，本研究通过对香港野外采集的白纹伊蚊和库蚊进行跨发育阶段的16S rRNA测序与菌株分离，识别出如硫氧化丛毛单胞菌等物种特异性的稳定共生菌。实验证明这些稳定菌株能显著增强蚊子血淋巴的抗菌活性并提高宿主存活率，为利用共生菌阻断病原体传播提供了新的免疫调节靶点。
+  - Tags：`query:pathoai`
+- [Host GPCR-cAMP signaling balances Gαs and Gαi activity to control intracellular](#/202604/27/202604/27/42041261-host-gpcr-camp-signaling-balances-gs-and-gi-activity-to-control-intracellular)
+  - TLDR：布鲁氏菌通过操纵宿主细胞的 GPCR 信号通路来建立细胞内复制环境。研究发现，感染早期细菌利用 IV 型分泌系统激活宿主 Gαs 蛋白并提升 cAMP 水平，从而避免被溶酶体降解。通过使用 Gαi 受体激动剂或抑制剂阻断这一信号动态，可将病原体重定向至自噬降解途径，为开发针对宿主信号通路的抗感染策略提供了新思路。
+  - Tags：`query:pathoai`
+- [MINT32: A Minimum-Image INT32 Coordinate Representation for Fast and Accurate Molecular Dynamics on GPUs.](#/202604/27/202604/27/41934384-mint32-a-minimum-image-int32-coordinate-representation-for-fast-and-accurate-molecular-dynamics-on-gpus)
+  - TLDR：针对 GPU 分子动力学模拟中 FP32 坐标表示带来的量化误差和系统不稳定性问题，本文提出了 MINT32 坐标表示法。该方法将模拟空间映射到 32 位整数网格，利用整数溢出特性自动处理周期性边界条件。实验表明，MINT32 在保持单精度计算速度的同时，将能量漂移降低了 5-10 倍，达到了双精度级别的模拟稳定性，为下一代高性能 MD 引擎提供了高精度且低开销的坐标方案。
+  - Tags：`query:bioinfo`
+- [Reproducibility crisis in isothermal amplification: lessons from benchmarking LAMP assays.](#/202604/27/202604/27/42037378-reproducibility-crisis-in-isothermal-amplification-lessons-from-benchmarking-lamp-assays)
+  - TLDR：等温扩增技术（如LAMP）因缺乏统一报告标准面临可重复性危机。本研究通过对9种已发表的铜绿假单胞菌检测方法进行基准测试，发现多数研究存在关键信息缺失、特异性虚标及检测限远高于报告值等问题。该研究揭示了学术报告与实际性能间的巨大鸿沟，强调了建立标准化质量控制体系对推动该技术临床转化的紧迫性。
+  - Tags：`query:pathoai`
 - [RAISE: A computational tool for evaluating sarbecovirus spillover potential.](#/202604/26/202604/26/42034636-raise-a-computational-tool-for-evaluating-sarbecovirus-spillover-potential)
   - TLDR：针对沙贝病毒（如SARS-CoV-2）通过结合hACE2受体引发跨物种传播的风险，本研究开发了RAISE计算框架。该工具通过整合结构预测与相互作用评分，将病毒分为高风险、无风险及“蓄势待发”三类。RAISE成功预测了使弱结合病毒获得感染人类能力的特定突变（如T498Y/W），并展现了在墨贝病毒中的通用性，为传染病预警提供了量化评估工具。
   - Tags：`query:pathoai`
@@ -580,28 +604,4 @@
   - Tags：`query:seqai`
 - [LINE-1 Retrotransposon Protein ORF1p Forms Condensates That Drive cGAS-Induced Immune Evasion in Lung Squamous Cell Carcinoma.](#/202604/02/202604/02/41534087-line-1-retrotransposon-protein-orf1p-forms-condensates-that-drive-cgas-induced-immune-evasion-in-lung-squamous-cell-carcinoma)
   - TLDR：针对肺鳞状细胞癌（LUSC）中免疫逃逸机制不明的问题，研究发现逆转录转座子蛋白 L1-ORF1p 通过液-液相分离形成凝聚体，招募 cGAS 和 HMGN2 形成三元复合物，从而持续激活 cGAS-STING 信号通路并诱导髓系抑制性细胞（MDSC）浸润。通过联合靶向 LINE-1 和 cGAS，研究成功在临床前模型中恢复了抗肿瘤免疫并抑制了肿瘤生长，为 LUSC 治疗提供了新策略。
-  - Tags：`query:seqai`
-- [Directed evolution of the pathogenic mold](#/202604/02/202604/02/41778915-directed-evolution-of-the-pathogenic-mold)
-  - TLDR：针对烟曲霉对三唑类抗真菌药物耐药性日益严重的问题，研究团队通过在伏立康唑浓度梯度下进行定向进化实验，模拟了耐药性的产生过程。研究不仅确认了已知的耐药基因，还发现了abcC、ptaB、erg25B和srbA等新型耐药突变位点，并通过基因编辑验证了其功能。该研究揭示了真菌耐药的演化路径和分子机制，为临床耐药菌株的监测和新型药物研发提供了重要靶点。
-  - Tags：`query:pathoai`
-- [From 16S rRNA to deep learning: Evolution of computational approaches in human microbiome studies.](#/202604/01/202604/01/41418718-from-16s-rrna-to-deep-learning-evolution-of-computational-approaches-in-human-microbiome-studies)
-  - TLDR：人体微生物组研究正从简单的物种分类描述转向功能预测，但整合复杂的多组学数据仍面临挑战。本文综述了从 16S rRNA 测序到深度学习和网络建模的技术演进，重点介绍了 DeepMicro 等 AI 平台如何整合基因组与代谢组数据。这些进步实现了精准的生物标志物识别和宿主-微生物交互建模，将微生物组研究从观察性学科转变为可预测的转化科学，助力个性化医疗。
-  - Tags：`query:pathoai`
-- [Diagnostic performance of nanopore-targeted sequencing for pulmonary infections in a tuberculosis-endemic setting: A prospective observational study.](#/202604/01/202604/01/41581647-diagnostic-performance-of-nanopore-targeted-sequencing-for-pulmonary-infections-in-a-tuberculosis-endemic-setting-a-prospective-observational-study)
-  - TLDR：针对结核病高发地区肺部感染病原体复杂、多重感染常见且传统检测耗时长的挑战，本研究通过前瞻性临床试验，评估了纳米孔靶向测序（NTS）在单一流程内检测分枝杆菌、细菌和真菌的性能。结果显示NTS在多种病原体检测上的灵敏度均优于传统培养法，整体诊断收益提升12.2%，证明了其在复杂肺部感染快速诊断中的临床应用价值。
-  - Tags：`query:seqai`
-- [AI-empowered crop protection against insect-borne diseases.](#/202604/01/202604/01/41604840-ai-empowered-crop-protection-against-insect-borne-diseases)
-  - TLDR：针对昆虫传播植物病害对农业的严重威胁，本文综述了AI在解析病原体-植物-昆虫复杂交互中的应用。通过构建科学大模型与AI智能体，研究者可自动化科研流程并测试假设，同时利用AI进行抗性基因识别、农药虚拟筛选及合成免疫蛋白设计。这些技术为实现精准防控和理解病害流行规律提供了系统性的新工具，具有重要的科研与应用价值。
-  - Tags：`query:pathoai`
-- [Rapid detection of NDM-producing carbapenem-resistant Escherichia coli using MALDI-TOF MS combined with machine learning techniques.](#/202604/01/202604/01/41619912-rapid-detection-of-ndm-producing-carbapenem-resistant-escherichia-coli-using-maldi-tof-ms-combined-with-machine-learning-techniques)
-  - TLDR：针对产 NDM 酶的耐药大肠埃希菌（CREC）检测慢、传播快的问题，本研究结合 MALDI-TOF 质谱技术与机器学习算法，通过引入新型复合基质提升蛋白质图谱分辨率。利用随机森林模型实现了对 NDM 阳性菌株的高精度识别（AUC 达 0.993），并锁定了 4 个关键特征峰，为临床快速诊断耐药菌提供了高效、准确的技术手段。
-  - Tags：`query:pathoai`
-- [Detection of novel Pegivirus C genome in an unexplained febrile outbreak, Gombe State, Nigeria, 2024 by enhanced mNGS approach.](#/202604/01/202604/01/41667020-detection-of-novel-pegivirus-c-genome-in-an-unexplained-febrile-outbreak-gombe-state-nigeria-2024-by-enhanced-mngs-approach)
-  - TLDR：2024年7月尼日利亚发生一起不明原因急性发热疫情，常规检测无法确定病因。研究团队利用增强型宏基因组二代测序（mNGS）技术对22名患者血清进行深度分析，成功重构出一种新型庚型肝炎病毒C（Pegivirus C）的全基因组。结果显示该病毒在所有样本中均呈阳性，且与西非流行株高度相关，为探究该病毒在急性发热及出血症状中的潜在致病性提供了关键证据。
-  - Tags：`query:pathoai`
-- [KMGTMDA: KAN-driven multiscale graph neural network and context-enhanced prediction for human microbe-disease associations.](#/202604/01/202604/01/41698566-kmgtmda-kan-driven-multiscale-graph-neural-network-and-context-enhanced-prediction-for-human-microbe-disease-associations)
-  - TLDR：针对传统微生物实验成本高、周期长的问题，本研究提出 KMGTMDA 框架用于预测人类微生物与疾病的关联。该方法融合了动态多尺度图卷积、增强上下文的图 Transformer 以及 Kolmogorov-Arnold 网络（KAN），通过捕捉多尺度拓扑特征和全局依赖关系，在预测任务中取得了 0.9779 的 AUC。该工具能有效筛选潜在致病微生物，为疾病机制研究和靶向治疗提供计算支持。
-  - Tags：`query:pathoai`
-- [Compact and informative representation learning for scRNA-seq data clustering with masked information bottleneck.](#/202604/01/202604/01/41917934-compact-and-informative-representation-learning-for-scrna-seq-data-clustering-with-masked-information-bottleneck)
-  - TLDR：针对单细胞转录组测序（scRNA-seq）数据中存在的高稀疏、高噪声和信息冗余导致细胞聚类困难的问题，本研究提出了scMIB框架。该方法通过掩码去噪策略扰动基因表达以抑制噪声，并引入信息瓶颈（IB）目标来压缩冗余信号，从而提取最具代表性的特征。实验结果表明，scMIB在多个公开数据集上显著提升了聚类准确性和鲁棒性，为识别复杂生物系统中的细胞异质性提供了更可靠的工具。
   - Tags：`query:seqai`

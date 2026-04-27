@@ -1,0 +1,22 @@
+---
+title: "MINT32: A Minimum-Image INT32 Coordinate Representation for Fast and Accurate Molecular Dynamics on GPUs."
+title_zh: MINT32：一种用于 GPU 上快速且准确分子动力学的最小镜像 INT32 坐标表示
+authors: Tai-Sung Lee
+date: 2026-04-27
+pdf: "https://pubmed.ncbi.nlm.nih.gov/41934384/"
+tags: ["query:bioinfo"]
+score: 6.0
+evidence: 分子动力学模拟的坐标表示
+tldr: 针对 GPU 分子动力学模拟中 FP32 坐标表示带来的量化误差和系统不稳定性问题，本文提出了 MINT32 坐标表示法。该方法将模拟空间映射到 32 位整数网格，利用整数溢出特性自动处理周期性边界条件。实验表明，MINT32 在保持单精度计算速度的同时，将能量漂移降低了 5-10 倍，达到了双精度级别的模拟稳定性，为下一代高性能 MD 引擎提供了高精度且低开销的坐标方案。
+selection_source: fresh_fetch
+motivation: 传统的单精度浮点数坐标在分子动力学模拟中存在量化噪声，会导致系统异常升温并破坏长期模拟的稳定性。
+method: 将模拟区域映射到 32 位定点整数网格，并利用整数自然溢出的特性实现无分支开销的周期性边界条件处理。
+result: 在多个蛋白质系统测试中，该方法在几乎不增加计算开销的前提下，将能量漂移降低了 5 到 10 倍，并支持更高精度的约束算法。
+conclusion: 坐标表示的精度是决定分子动力学模拟稳定性的核心因素，采用 32 位整数表示可以在性能与精度之间取得最佳平衡。
+---
+
+## 摘要
+长期以来，GPU 上的分子动力学 (MD) 模拟一直需要在性能和数值精度之间进行权衡。混合精度方法（如 AMBER SPFP 和 OpenMM）以高精度累加力，同时使用单精度 (FP32) 表示坐标。这种设计引入了一个根本性的“噪声底限”：FP32 坐标中的量化误差会向系统注入人工热量，从而降低长期稳定性并扭曲动力学性质。我们介绍了 MINT32，这是一种将模拟盒子映射到 32 位整数网格上的坐标表示方法。MINT32 实现了约 0.01 fm 的均匀空间分辨率，比 FP32 最差情况下的间距精细约 2 个数量级。这种精度并没有带来与 64 位整数运算相关的内存带宽惩罚。此外，MINT32 通过自回绕（self-wrapping）提供了算法上的优雅性，即通过精确的整数溢出来强制执行周期性边界条件，从而完全消除了分支分歧。在涵盖 1.2 万到 9.1 万个原子的三个系统上的基准测试结果表明，MINT32 将微正则系综 (NVE) 模拟中的能量漂移降低了 5-10 倍，为具有挑战性的 PME 水系统和大型蛋白质基准测试提供了双精度级别的稳定性。当与单精度力评估相结合时，MINT32 的表现优于传统的混合精度模型，这一观察结果在两个独立的蛋白质系统中得到了重现，表明坐标精度是决定模拟稳定性的主导因素。定点网格进一步支持在生产长度的运行中将 SHAKE 容差收紧至 10⁻⁷ Å，且在本文报告的基准测试中未观察到收敛失败。磁贴匹配（Tile-matched）基准测试证实，在消费级 GPU 上，MINT32 整数运算相对于标准 FP32 坐标产生的开销微乎其微（0-5%）；在未优化的原型中观察到的 11-16% 的速度差异归因于使用了较旧的 32 × 32 原子磁贴，而非生产环境中的 16 × 16 布局。这些发现为未来的分子动力学 (MD) 引擎奠定了概念基础。本研究的主要目标是为下一代 MD 软件确定一种最优的坐标表示。为此，我们提出了一个原型框架，旨在隔离和评估分子动力学中坐标表示的数值行为，并以修改版的 AMBER 模拟软件包仅作为测试平台。
+
+## Abstract
+Molecular dynamics (MD) simulations on GPUs have historically required a trade-off between performance and numerical precision. Mixed-precision approaches, such as AMBER SPFP and OpenMM, accumulate forces with high precision while representing coordinates with single precision (FP32). This design introduces a fundamental "noise floor": quantization error in FP32 coordinates injects artificial heat into the system, degrading the long-term stability and distorting the kinetic properties. We introduce MINT32, a coordinate representation that maps the simulation box onto a 32-bit integer grid. MINT32 achieves a uniform spatial resolution of approximately 0.01 fm, roughly 2 orders of magnitude finer than the worst-case FP32 spacing. This precision comes without the memory bandwidth penalties associated with 64-bit integer arithmetic. In addition, MINT32 offers algorithmic elegance through self-wrapping, whereby periodic boundary conditions are enforced via exact integer overflow, eliminating branch divergence entirely. Benchmark results on three systems spanning 12K to 91K atoms demonstrate that MINT32 reduces energy drift in microcanonical (NVE) simulations by 5-10×, delivering double-precision-level stability for challenging PME water systems and large protein benchmarks alike. When paired with single-precision force evaluations, MINT32 outperforms conventional mixed-precision models, an observation reproduced across two independent protein systems, indicating that coordinate precision is the dominant factor governing simulation stability. The fixed-point grid further supports tightened SHAKE tolerances of 10-7 Å in production-length runs, with no observed convergence failures in the benchmarks reported here. Tile-matched benchmarks confirm that MINT32 integer arithmetic incurs negligible overhead (0-5%) relative to standard FP32 coordinates on consumer-grade GPUs; the 11-16% speed difference observed in the unoptimized prototype is attributable to the use of older 32 × 32 atom tiles rather than the production 16 × 16 layout. These findings serve as a conceptual foundation for future molecular dynamics (MD) engines. The primary objective of this study is to identify an optimal coordinate representation for the next-generation MD software. To this end, we present a prototype framework designed to isolate and evaluate the numerical behavior of coordinate representations in molecular dynamics, with a modified version of the AMBER simulation package serving solely as a testbed.

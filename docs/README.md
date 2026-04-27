@@ -11,43 +11,46 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-04-26
-- 运行时间：2026-04-26 19:31:48 UTC
+- 最新运行日期：2026-04-27
+- 运行时间：2026-04-27 19:59:11 UTC
 - 运行状态：成功
-- 本次总论文数：7
+- 本次总论文数：8
 - 精读区：3
-- 速读区：4
+- 速读区：5
 
 ### 今日简报（AI）
-深度解析病原体溢出评估工具 RAISE 与抗耐药菌新药筛选，全方位追踪流行病传播动态。
-重点推荐 RAISE 计算工具对冠状病毒溢出风险的精准量化，以及针对屎肠球菌群体感应系统的天然产物药物筛选。
-建议关注公共卫生监测技术的迭代，并了解个人行为感知如何通过数字模拟影响疫情走向。
-- 详情：[/202604/26/README](/202604/26/README)
+今日聚焦多重耐药菌的基因组监测与 AI 驱动的药物互作探索，深度解析 8 篇生物医药前沿进展。
+重点关注造血干细胞移植后耐药菌的肠道扩张规律，以及 DrugGPS 多模态融合技术在药物靶点预测中的突破。
+建议临床人员关注耐药菌的粪便基因组监测，科研人员可尝试利用 AI 工具加速药物筛选。
+- 详情：[/202604/27/README](/202604/27/README)
 
 ### 精读区论文标签
-1. [RAISE: A computational tool for evaluating sarbecovirus spillover potential.](/202604/26/42034636-raise-a-computational-tool-for-evaluating-sarbecovirus-spillover-potential)  
+1. [Stool-based genomic surveillance identifies post-engraftment expansion of multidrug-resistant pathogens in haematopoietic stem cell transplant patients in India](/202604/27/10.21203/rs.3.rs-9289820/v1-stool-based-genomic-surveillance-identifies-post-engraftment-expansion-of-multidrug-resistant-pathogens-in-haematopoietic-stem-cell-transplant-patients-in-india)  
    标签：评分：9.0/10、query:pathoai
-   evidence：用于沙贝病毒溢出潜力和受体相互作用评分的计算框架
-2. [Subtractive proteomics-driven identification of AgrA and structure-guided discovery of phytochemical and marine natural products as novel anti-quorum sensing therapeutic leads against Enterococcus faecium.](/202604/26/42035380-subtractive-proteomics-driven-identification-of-agra-and-structure-guided-discovery-of-phytochemical-and-marine-natural-products-as-novel-anti-quorum-sensing-therapeutic-leads-against-enterococcus-faecium)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：蛋白质组学驱动的治疗靶点识别
-3. [RuSpacer: a CRISPR spacer database derived from ruminant-associated prokaryotes for virome analysis.](/202604/26/42034665-ruspacer-a-crispr-spacer-database-derived-from-ruminant-associated-prokaryotes-for-virome-analysis)  
-   标签：评分：8.0/10、query:seqai
-   evidence：用于宏基因组病毒组分析和宿主-病毒预测的CRISPR间隔序列数据库
+   evidence：利用宏基因组学对多重耐药病原体进行基因组监测
+2. [DrugGPS: Attention-guided multimodal fusion for intelligent exploration of drug-target and drug-disease interactions.](/202604/27/42037091-druggps-attention-guided-multimodal-fusion-for-intelligent-exploration-of-drug-target-and-drug-disease-interactions)  
+   标签：评分：9.0/10、query:bioinfo
+   evidence：药物-靶点和药物-疾病相互作用的多模态融合
+3. [Suppressing viral assembly in human metapneumovirus by targeting fusion protein with natural compounds: a structural dynamics and energetics study.](/202604/27/42043606-suppressing-viral-assembly-in-human-metapneumovirus-by-targeting-fusion-protein-with-natural-compounds-a-structural-dynamics-and-energetics-study)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：病毒靶点识别和治疗设计的计算框架
 
 ### 速读区论文标签
-1. [Using Serosurveys to Optimize Surveillance for Zoonotic Pathogens.](/202604/26/42033553-using-serosurveys-to-optimize-surveillance-for-zoonotic-pathogens)  
+1. [OGTFinder: A Curated Growth Temperature Data Set and Its Application To Predict Optimal Growth Temperatures of Bacteria and Archaea.](/202604/27/41968931-ogtfinder-a-curated-growth-temperature-data-set-and-its-application-to-predict-optimal-growth-temperatures-of-bacteria-and-archaea)  
    标签：评分：7.0/10、query:pathoai
-   evidence：用于人畜共患病原体监测和溢出预测的统计模型
-2. [The complexome contextualizes proteomics data to fingerprint biological states and highlight perturbed functional modules in disease.](/202604/26/42034643-the-complexome-contextualizes-proteomics-data-to-fingerprint-biological-states-and-highlight-perturbed-functional-modules-in-disease)  
-   标签：评分：7.0/10、query:bioinfo
-   evidence：多组学整合的生物信息学框架
-3. [App-based epidemic game in a university campus reveals how risk perception and behavioral interventions shape disease transmission dynamics.](/202604/26/42034809-app-based-epidemic-game-in-a-university-campus-reveals-how-risk-perception-and-behavioral-interventions-shape-disease-transmission-dynamics)  
+   evidence：机器学习预测细菌生长温度
+2. [The mosquito midgut harbors stable bacteria that enhance host hemolymph immunity.](/202604/27/42036782-the-mosquito-midgut-harbors-stable-bacteria-that-enhance-host-hemolymph-immunity)  
    标签：评分：7.0/10、query:pathoai
-   evidence：模拟疾病传播动态
-4. [An oral-gut microbial metabolite links](/202604/26/42033241-an-oral-gut-microbial-metabolite-links)  
+   evidence：蚊子中的微生物组-宿主相互作用和病原体生态学
+3. [Host GPCR-cAMP signaling balances Gαs and Gαi activity to control intracellular](/202604/27/42041261-host-gpcr-camp-signaling-balances-gs-and-gi-activity-to-control-intracellular)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：布鲁氏菌的宿主-病原体相互作用和感染建模
+4. [MINT32: A Minimum-Image INT32 Coordinate Representation for Fast and Accurate Molecular Dynamics on GPUs.](/202604/27/41934384-mint32-a-minimum-image-int32-coordinate-representation-for-fast-and-accurate-molecular-dynamics-on-gpus)  
+   标签：评分：6.0/10、query:bioinfo
+   evidence：分子动力学模拟的坐标表示
+5. [Reproducibility crisis in isothermal amplification: lessons from benchmarking LAMP assays.](/202604/27/42037378-reproducibility-crisis-in-isothermal-amplification-lessons-from-benchmarking-lamp-assays)  
    标签：评分：6.0/10、query:pathoai
-   evidence：微生物组与宿主相互作用及口肠轴病原体建模
+   evidence：病原体检测LAMP分析的基准测试
 
 
 <div class="dpr-home-promo-card">
