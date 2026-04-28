@@ -11,46 +11,47 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-04-27
-- 运行时间：2026-04-27 19:59:11 UTC
+- 最新运行日期：2026-04-28
+- 运行时间：2026-04-28 20:11:32 UTC
 - 运行状态：成功
 - 本次总论文数：8
-- 精读区：3
-- 速读区：5
+- 精读区：4
+- 速读区：4
 
 ### 今日简报（AI）
-今日聚焦多重耐药菌的基因组监测与 AI 驱动的药物互作探索，深度解析 8 篇生物医药前沿进展。
-重点关注造血干细胞移植后耐药菌的肠道扩张规律，以及 DrugGPS 多模态融合技术在药物靶点预测中的突破。
-建议临床人员关注耐药菌的粪便基因组监测，科研人员可尝试利用 AI 工具加速药物筛选。
-- 详情：[/202604/27/README](/202604/27/README)
+- 今日共生成 8 篇推荐（精读 4 篇，速读 4 篇）
+- 精读：《Antimycobacterial Peptides: From Natural Product Discovery to AI Guided Design.》（9.0/10）, 《Augmented prediction of multi-species protein-RNA interactions using evolutionary conservation of RNA-binding proteins.》（8.0/10）
+- 速读：《Connecting habitats, boosting disease resistance: Spatial connectivity enhances amphibian microbiome defenses against fungal pathogen.》（7.0/10）, 《Discovery of BI-10: An Unexplored Broad-Spectrum Antimicrobial Benzimidazole Derivative Targeting Bacterial Membrane.》（7.0/10）, 《Machine learning multiscale collective cell dynamics: From single-cell characterization to multicellular monolayer modeling.》（6.0/10）
+- 这些结果覆盖了当下较热的方向，建议先看精读区论文的关键问题与方法。
+- 详情：[/202604/28/README](/202604/28/README)
 
 ### 精读区论文标签
-1. [Stool-based genomic surveillance identifies post-engraftment expansion of multidrug-resistant pathogens in haematopoietic stem cell transplant patients in India](/202604/27/10.21203/rs.3.rs-9289820/v1-stool-based-genomic-surveillance-identifies-post-engraftment-expansion-of-multidrug-resistant-pathogens-in-haematopoietic-stem-cell-transplant-patients-in-india)  
+1. [Antimycobacterial Peptides: From Natural Product Discovery to AI Guided Design.](/202604/28/42045115-antimycobacterial-peptides-from-natural-product-discovery-to-ai-guided-design)  
    标签：评分：9.0/10、query:pathoai
-   evidence：利用宏基因组学对多重耐药病原体进行基因组监测
-2. [DrugGPS: Attention-guided multimodal fusion for intelligent exploration of drug-target and drug-disease interactions.](/202604/27/42037091-druggps-attention-guided-multimodal-fusion-for-intelligent-exploration-of-drug-target-and-drug-disease-interactions)  
-   标签：评分：9.0/10、query:bioinfo
-   evidence：药物-靶点和药物-疾病相互作用的多模态融合
-3. [Suppressing viral assembly in human metapneumovirus by targeting fusion protein with natural compounds: a structural dynamics and energetics study.](/202604/27/42043606-suppressing-viral-assembly-in-human-metapneumovirus-by-targeting-fusion-protein-with-natural-compounds-a-structural-dynamics-and-energetics-study)  
+   evidence：AI引导的针对耐药病原体的抗分枝杆菌肽设计
+2. [Augmented prediction of multi-species protein-RNA interactions using evolutionary conservation of RNA-binding proteins.](/202604/28/42045261-augmented-prediction-of-multi-species-protein-rna-interactions-using-evolutionary-conservation-of-rna-binding-proteins)  
+   标签：评分：8.0/10、query:bioinfo
+   evidence：用于跨物种蛋白质-RNA相互作用预测的深度学习
+3. [Targeting Crimean-Congo hemorrhagic fever virus: computational and MD-driven discovery of Moringa oleifera peptides against the RdRp-embedded OTU protease.](/202604/28/42045402-targeting-crimean-congo-hemorrhagic-fever-virus-computational-and-md-driven-discovery-of-moringa-oleifera-peptides-against-the-rdrp-embedded-otu-protease)  
    标签：评分：8.0/10、query:pathoai
-   evidence：病毒靶点识别和治疗设计的计算框架
+   evidence：针对病毒蛋白酶的肽类药物计算筛选
+4. [Global emergence, evolution and international dissemination of the ST145 Klebsiella oxytoca lineage.](/202604/28/42045601-global-emergence-evolution-and-international-dissemination-of-the-st145-klebsiella-oxytoca-lineage)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：产酸克雷伯菌的基因组监测与演化
 
 ### 速读区论文标签
-1. [OGTFinder: A Curated Growth Temperature Data Set and Its Application To Predict Optimal Growth Temperatures of Bacteria and Archaea.](/202604/27/41968931-ogtfinder-a-curated-growth-temperature-data-set-and-its-application-to-predict-optimal-growth-temperatures-of-bacteria-and-archaea)  
+1. [Connecting habitats, boosting disease resistance: Spatial connectivity enhances amphibian microbiome defenses against fungal pathogen.](/202604/28/42008677-connecting-habitats-boosting-disease-resistance-spatial-connectivity-enhances-amphibian-microbiome-defenses-against-fungal-pathogen)  
    标签：评分：7.0/10、query:pathoai
-   evidence：机器学习预测细菌生长温度
-2. [The mosquito midgut harbors stable bacteria that enhance host hemolymph immunity.](/202604/27/42036782-the-mosquito-midgut-harbors-stable-bacteria-that-enhance-host-hemolymph-immunity)  
+   evidence：微生物组对真菌病原体的防御
+2. [Discovery of BI-10: An Unexplored Broad-Spectrum Antimicrobial Benzimidazole Derivative Targeting Bacterial Membrane.](/202604/28/42011055-discovery-of-bi-10-an-unexplored-broad-spectrum-antimicrobial-benzimidazole-derivative-targeting-bacterial-membrane)  
    标签：评分：7.0/10、query:pathoai
-   evidence：蚊子中的微生物组-宿主相互作用和病原体生态学
-3. [Host GPCR-cAMP signaling balances Gαs and Gαi activity to control intracellular](/202604/27/42041261-host-gpcr-camp-signaling-balances-gs-and-gi-activity-to-control-intracellular)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：布鲁氏菌的宿主-病原体相互作用和感染建模
-4. [MINT32: A Minimum-Image INT32 Coordinate Representation for Fast and Accurate Molecular Dynamics on GPUs.](/202604/27/41934384-mint32-a-minimum-image-int32-coordinate-representation-for-fast-and-accurate-molecular-dynamics-on-gpus)  
+   evidence：发现针对重点病原体的抗菌药物
+3. [Machine learning multiscale collective cell dynamics: From single-cell characterization to multicellular monolayer modeling.](/202604/28/42030151-machine-learning-multiscale-collective-cell-dynamics-from-single-cell-characterization-to-multicellular-monolayer-modeling)  
    标签：评分：6.0/10、query:bioinfo
-   evidence：分子动力学模拟的坐标表示
-5. [Reproducibility crisis in isothermal amplification: lessons from benchmarking LAMP assays.](/202604/27/42037378-reproducibility-crisis-in-isothermal-amplification-lessons-from-benchmarking-lamp-assays)  
-   标签：评分：6.0/10、query:pathoai
-   evidence：病原体检测LAMP分析的基准测试
+   evidence：用于多细胞动力学和细胞状态转换的机器学习
+4. [SAVLT: Structure-Aware Vision-Language Tuning for Multi-Center Cervical OCT Diagnosis.](/202604/28/42044002-savlt-structure-aware-vision-language-tuning-for-multi-center-cervical-oct-diagnosis)  
+   标签：评分：6.0/10、query:bioinfo
+   evidence：用于医学诊断的视觉语言微调
 
 
 <div class="dpr-home-promo-card">

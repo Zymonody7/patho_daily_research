@@ -1,10 +1,34 @@
 # 知识库
 
-- 最近沉淀条目数：492
+- 最近沉淀条目数：460
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Antimycobacterial Peptides: From Natural Product Discovery to AI Guided Design.](#/202604/28/202604/28/42045115-antimycobacterial-peptides-from-natural-product-discovery-to-ai-guided-design)
+  - TLDR：针对分枝杆菌（如结核杆菌）耐药性强且细胞壁难以穿透的问题，抗分枝杆菌肽（AMyPs）凭借其独特的杀菌机制和低耐药风险成为研究热点。本文综述了从天然产物挖掘、理性设计到AI驱动发现的最新进展，重点介绍了利用机器学习模型在特定数据集上预测和优化新型AMyPs的方法，为开发下一代抗分枝杆菌药物提供了技术路径。
+  - Tags：`query:pathoai`
+- [Augmented prediction of multi-species protein-RNA interactions using evolutionary conservation of RNA-binding proteins.](#/202604/28/202604/28/42045261-augmented-prediction-of-multi-species-protein-rna-interactions-using-evolutionary-conservation-of-rna-binding-proteins)
+  - TLDR：针对跨物种蛋白质-RNA相互作用实验成本高、难以覆盖非模式生物的问题，MuSIC 框架利用深度学习结合进化保守性信息，在从人类到酵母的11个物种间实现了高精度的 RBP 结合位点预测。该方法不仅在性能上超越了现有模型，还能量化遗传变异对结合的影响，为研究人类疾病中的调控机制提供了有力工具。
+  - Tags：`query:bioinfo`
+- [Targeting Crimean-Congo hemorrhagic fever virus: computational and MD-driven discovery of Moringa oleifera peptides against the RdRp-embedded OTU protease.](#/202604/28/202604/28/42045402-targeting-crimean-congo-hemorrhagic-fever-virus-computational-and-md-driven-discovery-of-moringa-oleifera-peptides-against-the-rdrp-embedded-otu-protease)
+  - TLDR：克里米亚-刚果出血热病毒（CCHFV）缺乏有效药物，其L蛋白中的OTU蛋白酶通过干扰宿主泛素化实现免疫逃逸。本研究利用计算模拟和分子动力学方法，从辣木蛋白质组中筛选出能模拟泛素结合模式的候选肽。结果发现Pep31在结合亲和力、溶解度和结构稳定性方面表现优异，为开发针对CCHFV的新型肽类抗病毒药物提供了理论基础。
+  - Tags：`query:pathoai`
+- [Global emergence, evolution and international dissemination of the ST145 Klebsiella oxytoca lineage.](#/202604/28/202604/28/42045601-global-emergence-evolution-and-international-dissemination-of-the-st145-klebsiella-oxytoca-lineage)
+  - TLDR：产酸克雷伯氏菌（K. oxytoca）是重要的机会致病菌，但其全球流行规律尚不明确。本研究通过对全球42个国家1299个基因组的系统发育分析，首次发现携带blaKPC-2和tmexCD2-toprJ2耐药基因的菌株，并确定ST145为全球主导谱系。研究揭示了ST145起源于波兰并向全球扩散的路径，及其通过代谢增强提升环境适应性的机制，为耐药菌监控提供了关键依据。
+  - Tags：`query:pathoai`
+- [Connecting habitats, boosting disease resistance: Spatial connectivity enhances amphibian microbiome defenses against fungal pathogen.](#/202604/28/202604/28/42008677-connecting-habitats-boosting-disease-resistance-spatial-connectivity-enhances-amphibian-microbiome-defenses-against-fungal-pathogen)
+  - TLDR：栖息地破碎化会干扰宿主与病原体的接触动态，进而影响两栖动物皮肤微生物组的防御能力。本研究探讨了栖息地连通性如何通过“适应性微生物组”机制影响抗真菌保护，通过联合物种分布模型分析发现，栖息地分割限制了抗真菌细菌的招募，导致病原体感染负荷增加。研究强调了维持自然生境连通性对保护宿主及其功能性微生物组、抵御传染病的关键作用。
+  - Tags：`query:pathoai`
+- [Discovery of BI-10: An Unexplored Broad-Spectrum Antimicrobial Benzimidazole Derivative Targeting Bacterial Membrane.](#/202604/28/202604/28/42011055-discovery-of-bi-10-an-unexplored-broad-spectrum-antimicrobial-benzimidazole-derivative-targeting-bacterial-membrane)
+  - TLDR：针对全球抗生素耐药性危机，研究者发现了一种新型苯并咪唑衍生物 BI-10。该化合物通过破坏细菌细胞膜完整性，对铜绿假单胞菌和耐甲氧西林金黄色葡萄球菌（MRSA）表现出显著的广谱抗菌活性。实验证明 BI-10 具有快速杀菌、抗生物膜及与传统抗生素协同增效的能力，且在哺乳动物细胞模型中展现出良好的生物相容性，为开发新型抗多重耐药菌药物提供了极具潜力的先导分子。
+  - Tags：`query:pathoai`
+- [Machine learning multiscale collective cell dynamics: From single-cell characterization to multicellular monolayer modeling.](#/202604/28/202604/28/42030151-machine-learning-multiscale-collective-cell-dynamics-from-single-cell-characterization-to-multicellular-monolayer-modeling)
+  - TLDR：针对集体细胞动力学在跨尺度建模中面临的物理参数难测量及主动力机制不明等挑战，该研究提出了一种尺度自适应的混合机器学习框架。该框架在单细胞尺度利用物理引导的机器学习推断关键参数以表征形态与速度，在多细胞尺度则采用物理无关的机器学习直接预测密度波动等宏观行为。实验证明该方法能有效结合物理先验与数据驱动的优势，为理解胚胎发育及疾病演变等复杂生理过程提供了精准的跨尺度计算手段。
+  - Tags：`query:bioinfo`
+- [SAVLT: Structure-Aware Vision-Language Tuning for Multi-Center Cervical OCT Diagnosis.](#/202604/28/202604/28/42044002-savlt-structure-aware-vision-language-tuning-for-multi-center-cervical-oct-diagnosis)
+  - TLDR：针对宫颈OCT影像诊断中伪影干扰病理特征识别的问题，提出SAVLT框架。该框架通过引入区域感知空间注意力（RaSA）模块，强制模型关注组织内部结构并过滤非生物噪声，同时结合双约束目标函数提升多中心场景下的鲁棒性。实验证明，该方法在少样本情况下具有极强的泛化能力和临床可解释性，为异构OCT影像的自动化诊断提供了可靠方案。
+  - Tags：`query:bioinfo`
 - [Stool-based genomic surveillance identifies post-engraftment expansion of multidrug-resistant pathogens in haematopoietic stem cell transplant patients in India](#/202604/27/202604/27/10.21203/rs.3.rs-9289820/v1-stool-based-genomic-surveillance-identifies-post-engraftment-expansion-of-multidrug-resistant-pathogens-in-haematopoietic-stem-cell-transplant-patients-in-india)
   - TLDR：针对造血干细胞移植（HSCT）患者易发耐药菌血流感染的问题，本研究通过对印度81名患者的粪便进行纵向宏基因组监测，揭示了肠道耐药基因组在植入后的动态扩张规律。研究发现，植入后的早期免疫恢复期是耐药基因（如blaNDM）爆发的高危窗口，且肠道定植与后续血流感染具有基因组层面的直接关联。这一发现为通过非侵入性手段预测感染风险及指导临床精准用药提供了重要依据。
   - Tags：`query:pathoai`
@@ -581,27 +605,3 @@
 - [Plant microbiome regulation for sustainable agriculture.](#/202604/02/202604/02/41671649-plant-microbiome-regulation-for-sustainable-agriculture)
   - TLDR：针对现代农业过度依赖化肥农药且作物抗逆性不足的问题，本文系统综述了植物微生物组调节的两大核心策略：外部环境调节通过农艺措施和宿主性状在不改变基因的前提下重塑菌群，而内部基因工程则利用CRISPR和合成菌群等手段锁定有益性状。结合AI预测模型与精准递送技术，这些方法能有效优化植物-微生物相互作用，为实现可持续农业和保障粮食安全提供技术支撑。
   - Tags：`query:bioinfo`
-- [Comparative genomic, phenotypic, and clinical characterization of ST11-KL25 and ST11-KL64 hypervirulent carbapenem-resistant](#/202604/02/202604/02/41711572-comparative-genomic-phenotypic-and-clinical-characterization-of-st11-kl25-and-st11-kl64-hypervirulent-carbapenem-resistant)
-  - TLDR：针对高毒力耐碳青霉烯肺炎克雷伯菌（hv-CRKP）在临床中的威胁，本研究通过对2020-2023年间收集的239株菌株进行全基因组测序、表型实验及临床分析，对比了ST11-KL25与ST11-KL64两个主要亚型的特征。研究发现KL25亚型可能由KL64通过荚膜转换演变而来，其在生物膜形成和竞争适应性上更具优势，而KL64则表现出更强的侵袭力和更广的耐药谱。该研究揭示了不同亚型的进化与适应策略，为精准防控hv-CRKP传播提供了科学依据。
-  - Tags：`query:pathoai`
-- [Microscopic-scale gut microbiota dataset of Kunming mice revealed by 16S rRNA gene high-throughput sequencing.](#/202604/02/202604/02/41732369-microscopic-scale-gut-microbiota-dataset-of-kunming-mice-revealed-by-16s-rrna-gene-high-throughput-sequencing)
-  - TLDR：肠道微生物研究通常依赖大尺度样本，容易忽略微米级别的空间异质性。本研究通过对昆明小鼠的378个微米级（20-40微米）结肠颗粒和20个大尺度样本进行16S rRNA高通量测序，构建了一个包含1506个扩增子序列变体（ASVs）的高分辨率数据集。结果揭示了微观尺度与宏观尺度在物种丰富度和网络复杂性上的显著差异，为理解微生物空间组织和群落构建提供了关键的微观数据支持。
-  - Tags：`query:seqai`
-- [A quantitative decision-support framework for assessing the feasibility and sensitivity of wastewater-based epidemiology of respiratory virus surveillance.](#/202604/02/202604/02/41734681-a-quantitative-decision-support-framework-for-assessing-the-feasibility-and-sensitivity-of-wastewater-based-epidemiology-of-respiratory-virus-surveillance)
-  - TLDR：针对呼吸道病毒废水监测中检测灵敏度不确定的问题，本研究构建了一个基于蒙特卡洛模拟的定量决策支持框架，评估了SARS-CoV-2、RSV、流感和鼻病毒的监测可行性。通过对比实测数据与模拟结果，发现病毒粪便排泄率是影响检测下限的关键因素，并指出通过优化ddPCR技术和回收率可显著提升监测效能，为公共卫生监测方案的优化提供了数据驱动的工具。
-  - Tags：`query:pathoai`
-- [Interpretable Machine Learning to Decipher Myelodysplastic Syndrome-Associated Alterations of the Extracellular Matrix by Time-of-Flight Secondary Ion Mass Spectrometry.](#/202604/02/202604/02/41782272-interpretable-machine-learning-to-decipher-myelodysplastic-syndrome-associated-alterations-of-the-extracellular-matrix-by-time-of-flight-secondary-ion-mass-spectrometry)
-  - TLDR：骨髓增生异常综合征（MDS）会导致细胞外基质（ECM）发生病理改变，但传统手段难以高效识别其复杂变化。本研究开发了一套结合飞行时间二次离子质谱（ToF-SIMS）与机器学习的分析流程，利用贝叶斯优化的神经网络对患者与健康供体的ECM光谱进行分类，并引入SHAP解释工具揭示了关键的生化差异。该方法实现了无标记的病理检测，为MDS的临床诊断和药物研发提供了新的分子层面视角。
-  - Tags：`query:seqai`
-- [Transcriptome Analysis Reveals Cross-Kingdom Virulence Factors in Erwinia persicina Cp2.](#/202604/02/202604/02/41814646-transcriptome-analysis-reveals-cross-kingdom-virulence-factors-in-erwinia-persicina-cp2)
-  - TLDR：针对植物病原菌 Erwinia persicina 是否具备跨界致病能力的问题，本研究通过建立苜蓿感染和小白鼠灌胃模型，证实了 Cp2 菌株对动植物的双重致病性。利用转录组分析筛选出 34 个在两种宿主中共同表达的差异基因，发现其致病机制主要集中在细菌粘附、生物膜形成和运动能力上，并确定了关键毒力基因 Bap。该研究为理解跨界病原菌的演化与防治提供了重要依据。
-  - Tags：`query:pathoai`
-- [Definitional ambiguity and the dual threat of Hypervirulent Klebsiella pneumoniae infections: a systematic review and meta-analysis.](#/202604/02/202604/02/41372726-definitional-ambiguity-and-the-dual-threat-of-hypervirulent-klebsiella-pneumoniae-infections-a-systematic-review-and-meta-analysis)
-  - TLDR：高毒力肺炎克雷伯菌（HvKp）因缺乏统一定义导致流行病学监测困难，且耐药菌株（CR-HvKp）的出现构成了双重威胁。本研究通过对79项临床研究、4240名患者的数据进行系统综述和荟萃分析，量化了不同诊断标准下的临床结局及死亡风险。结果显示，CR-HvKp的病死率高达57%，死亡风险是敏感株的12倍以上，证明了耐药与高毒力协同作用的严重性，为临床预警和防控策略提供了数据支持。
-  - Tags：`query:pathoai`
-- [Transcriptomic Plasticity Is a Hallmark of Metastatic Pancreatic Cancer.](#/202604/02/202604/02/41379552-transcriptomic-plasticity-is-a-hallmark-of-metastatic-pancreatic-cancer)
-  - TLDR：胰腺癌转移是导致死亡的主因，但癌细胞如何适应不同器官环境尚不明确。本研究通过对一名胰腺癌患者的多个转移灶进行单细胞转录组测序，并开发了 PICASSO 算法来推断克隆演化路径。研究发现，转移灶的表型差异主要由环境诱导的转录组可塑性决定，而非遗传克隆背景。这一发现揭示了环境对高度可塑性癌细胞的强力塑造作用，为针对性治疗转移性癌症提供了新视角。
-  - Tags：`query:seqai`
-- [LINE-1 Retrotransposon Protein ORF1p Forms Condensates That Drive cGAS-Induced Immune Evasion in Lung Squamous Cell Carcinoma.](#/202604/02/202604/02/41534087-line-1-retrotransposon-protein-orf1p-forms-condensates-that-drive-cgas-induced-immune-evasion-in-lung-squamous-cell-carcinoma)
-  - TLDR：针对肺鳞状细胞癌（LUSC）中免疫逃逸机制不明的问题，研究发现逆转录转座子蛋白 L1-ORF1p 通过液-液相分离形成凝聚体，招募 cGAS 和 HMGN2 形成三元复合物，从而持续激活 cGAS-STING 信号通路并诱导髓系抑制性细胞（MDSC）浸润。通过联合靶向 LINE-1 和 cGAS，研究成功在临床前模型中恢复了抗肿瘤免疫并抑制了肿瘤生长，为 LUSC 治疗提供了新策略。
-  - Tags：`query:seqai`

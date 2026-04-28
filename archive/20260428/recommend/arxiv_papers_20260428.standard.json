@@ -1,0 +1,389 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-04-28T20:06:06.978712+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 4,
+    "deep_cap": 9,
+    "deep_selected": 4,
+    "quick_candidates": 4,
+    "quick_skim_target": 14,
+    "quick_selected": 4
+  },
+  "deep_dive": [
+    {
+      "id": "42045115",
+      "title": "Antimycobacterial Peptides: From Natural Product Discovery to AI Guided Design.",
+      "abstract": "Mycobacterial pathogens remain major global health threats, exacerbated by both rapid acquisition of antibiotic resistance and the formidable drug diffusion barrier presented by the rigid mycomembrane. These challenges have renewed interest in antimycobacterial peptides (AMyPs), a diverse class of short amphiphilic sequences capable of rapidly killing both drug-sensitive and drug-resistant mycobacteria. Beyond their intrinsic potency, AMyPs can synergize with existing antibiotics and exhibit markedly slower resistance development relative to conventional small molecules. In this review, we synthesize recent advances spanning natural bioprospecting, mechanism-guided rational design, and chemical optimization strategies that have yielded increasingly potent and selective AMyP candidates. We further highlight the rapid emergence of artificial intelligence-driven discovery platforms, which leverage machine-learning models trained on curated, mycobacteria-specific data sets to predict and refine novel AMyPs with growing accuracy. Together, these technologic, biologic, and computational advances outline a rapidly expanding landscape for AMyP-based therapeutic development and establish a foundation for next-generation antimycobacterial drug design.",
+      "authors": [
+        "Diptomit Biswas",
+        "Scott H Medina"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42045115/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "AI guided design of antimycobacterial peptides for drug-resistant pathogens",
+      "llm_evidence_cn": "AI引导的针对耐药病原体的抗分枝杆菌肽设计",
+      "llm_evidence": "AI引导的针对耐药病原体的抗分枝杆菌肽设计",
+      "canonical_evidence": "AI引导的针对耐药病原体的抗分枝杆菌肽设计",
+      "llm_tldr_en": "Reviews AI-guided design and optimization of peptides to combat drug-resistant mycobacterial pathogens.",
+      "llm_tldr_cn": "综述了AI引导的设计和优化肽类药物以对抗耐药分枝杆菌病原体的进展。",
+      "llm_tldr": "综述了AI引导的设计和优化肽类药物以对抗耐药分枝杆菌病原体的进展。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42045261",
+      "title": "Augmented prediction of multi-species protein-RNA interactions using evolutionary conservation of RNA-binding proteins.",
+      "abstract": "RNA-binding proteins (RBPs) play critical roles in the regulation of gene expression. Recent studies have begun to detail the RNA recognition mechanisms of diverse RBPs. However, given the array of RBPs studied so far, it is implausible to experimentally profile RBP-binding peaks for hundreds of RBPs in multiple non-model organisms. Here, we introduce MuSIC (Multi-Species RBP-RNA Interactions using Conservation), a deep learning-based framework for predicting cross-species RBP-RNA interactions by leveraging label smoothing and evolutionary conservation of RBPs across 11 phylogenetically diverse species ranging from human to yeast. MuSIC outperforms state-of-the-art computational methods, and achieves highly accurate prediction of RBP-binding peaks across species. The prediction confidence is higher in the metazoan species, partially reflecting differences in RBP conservation patterns. Finally, the effects of homologous genetic variants on RBP binding can be computationally quantified across species, followed by experimental validations. The target transcripts with disrupted binding events are enriched in the ubiquitination-associated pathways. To summarize, MuSIC provides a useful computational framework for predicting RBP-RNA interactions cross-species and quantifying the effects of genetic variants on RBP binding, offering insights into the RBP-mediated regulatory mechanisms implicated in human diseases.",
+      "authors": [
+        "Jiale He",
+        "Tong Zhou",
+        "Lu-Feng Hu",
+        "Yuhua Jiao",
+        "Junhao Wang",
+        "Shengwen Yan",
+        "Siyao Jia",
+        "Qiuzhen Chen",
+        "Wentao Zhu",
+        "Jilin Zhang",
+        "Mutian Jia",
+        "Yuanning Li",
+        "Xianwei Wang",
+        "Yangming Wang",
+        "Yucheng T Yang",
+        "Lei Sun"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42045261/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "deep learning for cross-species protein-RNA interaction prediction",
+      "llm_evidence_cn": "用于跨物种蛋白质-RNA相互作用预测的深度学习",
+      "llm_evidence": "用于跨物种蛋白质-RNA相互作用预测的深度学习",
+      "canonical_evidence": "用于跨物种蛋白质-RNA相互作用预测的深度学习",
+      "llm_tldr_en": "MuSIC uses deep learning and evolutionary conservation to predict protein-RNA interactions across diverse species.",
+      "llm_tldr_cn": "MuSIC利用深度学习和进化保守性预测多种物种间的蛋白质-RNA相互作用。",
+      "llm_tldr": "MuSIC利用深度学习和进化保守性预测多种物种间的蛋白质-RNA相互作用。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "representation learning for biological sequences and molecules",
+      "matched_requirement_id": "req-26",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42045402",
+      "title": "Targeting Crimean-Congo hemorrhagic fever virus: computational and MD-driven discovery of Moringa oleifera peptides against the RdRp-embedded OTU protease.",
+      "abstract": "Crimean-Congo Hemorrhagic Fever Virus (CCHFV) is a tick-borne pathogen causes hemorrhagic disease with high fatality rates, and no approved vaccines/antivirals currently exist. The viral L protein contains a unique ovarian tumor (OTU) protease domain that cleaves ubiquitin and ubiquitin-like modifiers from host proteins, thereby aiding immune evasion and viral replication. Targeting the OTU domain represents a promising strategy for therapeutic intervention. Peptides obtained from Moringa oleifera proteome that mimic the binding mode of the endogenous ubiquitin molecule. These peptides were computationally screened for their ability to bind the OTU protease domain, incorporating both conventional cysteine protease inhibitors and protein-protein interaction interface mimetics. This study revealed Pep31 with a strong balance of binding affinity, solubility, and structural stability, highlighting its potential as a novel OTU protease inhibitor. While our findings are computational, they provide a foundation for experimental validation and the future development of peptide-based antivirals targeting CCHFV.",
+      "authors": [
+        "Muhammad Hassam",
+        "Rubina",
+        "Heng Zheng",
+        "Syed Tarique Moin",
+        "Reaz Uddin"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42045402/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "computational screening of peptides against viral protease",
+      "llm_evidence_cn": "针对病毒蛋白酶的肽类药物计算筛选",
+      "llm_evidence": "针对病毒蛋白酶的肽类药物计算筛选",
+      "canonical_evidence": "针对病毒蛋白酶的肽类药物计算筛选",
+      "llm_tldr_en": "Uses computational screening and MD simulations to discover peptides targeting CCHFV protease.",
+      "llm_tldr_cn": "利用计算筛选和分子动力学模拟发现针对克里米亚-刚果出血热病毒蛋白酶的肽类药物。",
+      "llm_tldr": "利用计算筛选和分子动力学模拟发现针对克里米亚-刚果出血热病毒蛋白酶的肽类药物。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42045601",
+      "title": "Global emergence, evolution and international dissemination of the ST145 Klebsiella oxytoca lineage.",
+      "abstract": "Klebsiella oxytoca is an under-recognised opportunistic pathogen increasingly associated with severe antimicrobial-resistant infections. Here, we report the first carbapenemase-producing K. oxytoca (CPKO) isolate co-harbouring blaKPC-2 and tmexCD2-toprJ2 on a conjugative IncFrepB(R1701) plasmid with interspecies transferability. To place this resistance convergence in context, we analysed 1299 genomes from 42 countries and found that the global burden and diversity of K. oxytoca have been underestimated, with marked geographical heterogeneity in CPKO. Despite broad sequence-type diversity, ST145 emerged as the dominant global lineage, particularly among CPKO, with an expanded resistome and dense insertion sequence content. Bayesian phylogeographical analysis suggested that ST145 may have emerged around 1980, with Poland as the most probable ancestral location in the model, followed by inferred spread across Europe, Asia, and the Americas, with China possibly serving as a secondary hub for onward dissemination. Genome-wide association analysis revealed reinforced metabolic circuits in ST145, suggesting enhanced physiological fitness that may facilitate persistence and dissemination. Together, these findings support enhanced surveillance of CPKO, particularly the emerging ST145 lineage.",
+      "authors": [
+        "Shangshang Qin",
+        "Zhiyang Yu",
+        "Yanlei Shen",
+        "Xu Liu",
+        "Junya Li",
+        "Hong Yao",
+        "Yan Li"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42045601/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "genomic surveillance and evolution of Klebsiella oxytoca",
+      "llm_evidence_cn": "产酸克雷伯菌的基因组监测与演化",
+      "llm_evidence": "产酸克雷伯菌的基因组监测与演化",
+      "canonical_evidence": "产酸克雷伯菌的基因组监测与演化",
+      "llm_tldr_en": "Analysis of 1299 genomes reveals the global emergence and resistance evolution of the ST145 K. oxytoca lineage.",
+      "llm_tldr_cn": "对1299个基因组的分析揭示了ST145产酸克雷伯菌谱系的全球出现和耐药演化。",
+      "llm_tldr": "对1299个基因组的分析揭示了ST145产酸克雷伯菌谱系的全球出现和耐药演化。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI methods for genomic surveillance and outbreak monitoring",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "42008677",
+      "title": "Connecting habitats, boosting disease resistance: Spatial connectivity enhances amphibian microbiome defenses against fungal pathogen.",
+      "abstract": "Disruption of habitat connectivity alters host movement patterns and pathogen exposure in wildlife. Changes in exposure dynamics have led to increased research interest in host-associated microbial communities (i.e., microbiomes), particularly in how repeated encounters with pathogens may drive microbial filtering processes that favor the assembly of pathogen-inhibiting microbiomes, a concept known as the adaptive microbiome principle. Understanding how habitat connectivity and pathogen exposure shape adaptive microbiomes remains a key frontier in disease ecology. For widely distributed waterborne pathogens such as the amphibian chytrid fungus Batrachochytrium dendrobatidis (Bd), sustained host exposure in contiguous terrestrial-aquatic habitats may promote selection of microbiomes with enhanced antifungal properties. In contrast, under conditions of high habitat split, where key habitats such as forests and water bodies are spatially disconnected, limited exposure to Bd during the pre-tbreeding and overwintering seasons may hinder the selection of Bd-inhibitory microbiomes that are critical for host protection during the subsequent breeding season, when pathogen exposure in water bodies is at its peak. Our results demonstrate that habitat split may limit recruitment of putative Bd-inhibitory skin bacteria, while Bd loads increase with habitat split for certain amphibian species. Results from Joint Species Distribution Models also indicate that habitat split is a key driver of reduced skin bacterial diversity, even after accounting for biotic and abiotic metrics. Our study provides evidence that spatial connectivity among natural habitats is essential for maintaining multiple levels of biodiversity, from host species to their associated functional microbiomes, highlighting a critical link between environmental disturbance, microbial defenses, and disease dynamics.",
+      "authors": [
+        "Daniel Medina",
+        "Renato A Martins",
+        "Paula R Prist",
+        "Shannon Buttimer",
+        "Wesley J Neely",
+        "Laura K Schuck",
+        "Sasha E Greenspan",
+        "Mariana L Lyra",
+        "Patrick J Kearns",
+        "Douglas C Woodhams",
+        "Molly C Bletz",
+        "Vinicius A São-Pedro",
+        "Célio F B Haddad",
+        "C Guilherme Becker"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-28",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42008677/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "microbiome defenses against fungal pathogen",
+      "llm_evidence_cn": "微生物组对真菌病原体的防御",
+      "llm_evidence": "微生物组对真菌病原体的防御",
+      "canonical_evidence": "微生物组对真菌病原体的防御",
+      "llm_tldr_en": "Explores how habitat connectivity shapes the adaptive microbiome to defend against fungal pathogens.",
+      "llm_tldr_cn": "探讨了生境连通性如何塑造适应性微生物组以防御真菌病原体。",
+      "llm_tldr": "探讨了生境连通性如何塑造适应性微生物组以防御真菌病原体。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42030151",
+      "title": "Machine learning multiscale collective cell dynamics: From single-cell characterization to multicellular monolayer modeling.",
+      "abstract": "Collective cell dynamics are fundamental to numerous physiological processes, including embryo development, tissue morphogenesis, immune response, and disease progression. Accurately modeling these dynamics across scales remains challenging, as traditional physics-based models usually rely on many unmeasurable parameters and unclear active physics, limiting their ability to capture both single-cell features and emergent multicellular behaviors. Here, we introduce a scale-adaptive hybrid machine learning (ML) framework, in which complementary physics-guided and physics-agnostic method each resolves an above key issue at single-cell and multicellular scales, respectively. The physics-guided ML method integrates physical models with experimental data to infer previously unmeasurable parameters, enabling more accurate characterization of single-cell shape and velocity features, but unknown active forces and inherent physical assumptions still constrain its ability to predict multicellular scale dynamics. In contrast, the physics-agnostic ML method bypasses explicit physical assumptions to directly model multicellular behaviors from historical state sequences. This method provides robust long-term predictions of coarse-grained density oscillations and waves observed experimentally, yet it suffers from high stochasticity when applied to single-cell scale modeling. By assigning each approach to the scale where it is most effective, our framework leverages their respective strengths while mitigating their limitations. This complementary strategy bridges the gap between theoretical modeling and experimental observations, offering a versatile computational paradigm for multiscale collective cell dynamics with broad potential in diverse physiological and pathological contexts.",
+      "authors": [
+        "Kun Xu",
+        "Jianbo Bai",
+        "Hao-Shun Zhang",
+        "Cheng-Lin Lv",
+        "Yue Li",
+        "Yue Shao",
+        "Xi-Qiao Feng",
+        "Bo Li"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-28",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42030151/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "machine learning for multicellular dynamics and cell state transitions",
+      "llm_evidence_cn": "用于多细胞动力学和细胞状态转换的机器学习",
+      "llm_evidence": "用于多细胞动力学和细胞状态转换的机器学习",
+      "canonical_evidence": "用于多细胞动力学和细胞状态转换的机器学习",
+      "llm_tldr_en": "Introduces a hybrid ML framework to model collective cell dynamics across single-cell and multicellular scales.",
+      "llm_tldr_cn": "引入混合机器学习框架，跨单细胞和多细胞尺度模拟集体细胞动力学。",
+      "llm_tldr": "引入混合机器学习框架，跨单细胞和多细胞尺度模拟集体细胞动力学。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "graph learning and foundation models for gene regulatory networks and cell state transitions",
+      "matched_requirement_id": "req-34",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42011055",
+      "title": "Discovery of BI-10: An Unexplored Broad-Spectrum Antimicrobial Benzimidazole Derivative Targeting Bacterial Membrane.",
+      "abstract": "Antimicrobial resistance (AMR) has emerged as a global healthcare crisis, necessitating the discovery of potent antibacterial agents. In the present investigation, we report the discovery, in vitro and ex vivo antibacterial efficacy studies, and mechanism of action of an unexplored benzimidazole derivative (BI-10), a promising broad-spectrum antibacterial agent with significant efficacy against Pseudomonas aeruginosa and methicillin-resistant Staphylococcus aureus (MRSA). BI-10 demonstrated a minimum Inhibitory Concentration (MIC) of 2.4 μg/ml (6.25 µM) against these priority pathogens. In vitro assessments revealed that BI-10 possessed rapid bactericidal activity, anti-biofilm potential and showed synergistic interactions with conventional antibiotics. Ex vivo efficacy studies using various mammalian cell lines demonstrated strong intracellular killing. Moreover, BI-10 showed the ability to prevent both adhesion and invasion of pathogens in different mammalian cell infection models. The membrane-disrupting nature of BI-10 against both pathogens was established using scanning electron microscopy, membrane permeability, depolarization, and integrity assays. Multiple in silico analyses further demonstrated drug-likeness and the biocompatibility profile of BI-10. Altogether, our findings establish BI-10 as a potent, broad-spectrum antimicrobial agent with robust in vitro and ex vivo efficacy and bacterial cell membrane-disrupting activity. This study highlights BI-10 as a valuable antibacterial lead molecule for the development of a new antimicrobial agent against multidrug-resistant pathogens.",
+      "authors": [
+        "Biplab Sarkar",
+        "Rakshit Manhas",
+        "Arti Rathore",
+        "Jyoti Kumari",
+        "Shifa Firdous",
+        "Avisek Mahapa"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-28",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42011055/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "discovery of antimicrobial agent against priority pathogens",
+      "llm_evidence_cn": "发现针对重点病原体的抗菌药物",
+      "llm_evidence": "发现针对重点病原体的抗菌药物",
+      "canonical_evidence": "发现针对重点病原体的抗菌药物",
+      "llm_tldr_en": "Identifies a new antimicrobial derivative with efficacy against MRSA and P. aeruginosa.",
+      "llm_tldr_cn": "鉴定出一种对耐甲氧西林金黄色葡萄球菌和铜绿假单胞菌有效的新型抗菌衍生物。",
+      "llm_tldr": "鉴定出一种对耐甲氧西林金黄色葡萄球菌和铜绿假单胞菌有效的新型抗菌衍生物。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42044002",
+      "title": "SAVLT: Structure-Aware Vision-Language Tuning for Multi-Center Cervical OCT Diagnosis.",
+      "abstract": "Cervical optical coherence tomography (OCT) enables micrometer-scale visualization of tissue, yet trustworthy diagnosis under limited supervision remains challenging. While vision-language models (VLMs) offer a solution by leveraging consistent clinical semantics, their adaptation is hindered by confounding artifacts that masquerade as biological structures. This phenomenon hijacks global attention, obscuring the pathological layer degradation that is crucial for diagnosis. To overcome this limitation, we propose SAVLT, a structure-aware tuning framework that adapts VLMs via parameter-efficient fine-tuning. To shift from global matching to anatomical grounding, SAVLT introduces a region-aware spatial attention (RaSA) module that enforces spatial constraints. RaSA purifies visual representations from non-biological noise, restoring the model's focus on intra-tissue structural integrity. Furthermore, a dual-constraint objective couples image-text alignment with learnable visual prototypes to stabilize optimization against multi-center domain shifts and prompt variations. Validated across a multi-center cohort and two external test datasets, SAVLT delivers robust few-shot generalization and clinical interpretability, establishing a reliable paradigm for deploying foundation models in heterogeneous OCT imaging. Source code is publicly available at https://github.com/rabbit-my/SAVLT.",
+      "authors": [
+        "Mi Yin",
+        "Yuchen Pei",
+        "Yixiong Zou",
+        "Yan Zhang",
+        "Yutao Ma"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42044002/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "vision-language tuning for medical diagnosis",
+      "llm_evidence_cn": "用于医学诊断的视觉语言微调",
+      "llm_evidence": "用于医学诊断的视觉语言微调",
+      "canonical_evidence": "用于医学诊断的视觉语言微调",
+      "llm_tldr_en": "Proposes a structure-aware vision-language tuning framework for improved medical image diagnosis.",
+      "llm_tldr_cn": "提出了一种结构感知的视觉语言微调框架，用于改进医学图像诊断。",
+      "llm_tldr": "提出了一种结构感知的视觉语言微调框架，用于改进医学图像诊断。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "multimodal models combining sequence structure phenotype and text",
+      "matched_requirement_id": "req-24",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}
