@@ -1,10 +1,28 @@
 # 知识库
 
-- 最近沉淀条目数：460
+- 最近沉淀条目数：466
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Single-cell phenotype-associated subpopulation identification via transfer foundation model and statistical ensemble learning.](#/202604/29/202604/29/42050525-single-cell-phenotype-associated-subpopulation-identification-via-transfer-foundation-model-and-statistical-ensemble-learning)
+  - TLDR：单细胞测序虽能揭示细胞异质性，但难以直接关联复杂的临床表型。为此，研究者开发了 scPASI 工具，通过整合预训练大模型与残差变分自编码器提取特征，并利用统计集成学习量化细胞亚群与表型的关联。该方法能将细胞划分为四类表型相关组，在肿瘤状态、基因突变及预后预测等任务中表现优于现有方法，为识别疾病关键细胞亚群和治疗靶点提供了新框架。
+  - Tags：`query:seqai`
+- [Within-patient evolution of](#/202604/29/202604/29/41837616-within-patient-evolution-of)
+  - TLDR：针对多重耐药铜绿假单胞菌感染治疗难的问题，本研究通过对6名患者的临床分离株和培养富集的宏基因组样本进行纵向全基因组测序，对比了单菌落与群体层面的演化差异。结果发现，宏基因组测序能捕捉到单菌落分析易忽略的低频耐药突变（如ampC和ftsI），并揭示了这些突变在抗生素压力下从低频到固定的动态过程，为精准医疗和耐药监测提供了新视角。
+  - Tags：`query:pathoai`
+- [Integrating single-cell and bulk transcriptomes to reveal prognostic and immunological features of ecDNA-related genes in osteosarcoma.](#/202604/29/202604/29/42047819-integrating-single-cell-and-bulk-transcriptomes-to-reveal-prognostic-and-immunological-features-of-ecdna-related-genes-in-osteosarcoma)
+  - TLDR：利用机器学习整合单细胞和大块转录组数据，构建骨肉瘤预后评估模型并分析肿瘤微环境特征。
+  - Tags：`query:seqai`
+- [Two Novel PKLR Variants in Pyruvate Kinase Deficiency: Insights From Clinical, Molecular and Functional Analysis.](#/202604/29/202604/29/42049675-two-novel-pklr-variants-in-pyruvate-kinase-deficiency-insights-from-clinical-molecular-and-functional-analysis)
+  - TLDR：本研究利用 AlphaFold3 模拟了丙酮酸激酶缺乏症中新型 PKLR 变体的结构影响。
+  - Tags：`query:bioinfo`
+- [HNRM: hyperedge neighborhood-based representation for predicting N6-methyladenosine-related regulatory pathways.](#/202604/29/202604/29/42050531-hnrm-hyperedge-neighborhood-based-representation-for-predicting-n6-methyladenosine-related-regulatory-pathways)
+  - TLDR：HNRM 利用超图神经网络预测 m6A 位点、疾病和药物之间的高阶关联。
+  - Tags：`query:bioinfo`
+- [Aptamer-mediated outer membrane destabilization overcomes low permeability resistance in Pseudomonas aeruginosa.](#/202604/29/202604/29/42053421-aptamer-mediated-outer-membrane-destabilization-overcomes-low-permeability-resistance-in-pseudomonas-aeruginosa)
+  - TLDR：针对铜绿假单胞菌外膜渗透性低导致的耐药难题，研究者开发了靶向必需外膜蛋白 BamA 的 DNA 适配体 Apt 60 和 Apt 173。通过分子对接与动力学模拟确定其作用于 BamA 侧门，实验证实该适配体能物理性破坏外膜完整性并诱发膜泡。这种机制显著增强了阿奇霉素的杀菌效果，在蜡螟感染模型中提高了宿主存活率，为克服革兰氏阴性菌耐药性提供了基于核酸药物的新策略。
+  - Tags：`query:pathoai`
 - [Antimycobacterial Peptides: From Natural Product Discovery to AI Guided Design.](#/202604/28/202604/28/42045115-antimycobacterial-peptides-from-natural-product-discovery-to-ai-guided-design)
   - TLDR：针对分枝杆菌（如结核杆菌）耐药性强且细胞壁难以穿透的问题，抗分枝杆菌肽（AMyPs）凭借其独特的杀菌机制和低耐药风险成为研究热点。本文综述了从天然产物挖掘、理性设计到AI驱动发现的最新进展，重点介绍了利用机器学习模型在特定数据集上预测和优化新型AMyPs的方法，为开发下一代抗分枝杆菌药物提供了技术路径。
   - Tags：`query:pathoai`
@@ -587,21 +605,3 @@
 - [Hi-C Links Reveal Viral Activity and Infection Within the Free-Living Microbial Community of a Secondary Chlorophyll Maximum in the Eastern Tropical North Pacific.](#/202604/02/202604/02/41912361-hi-c-links-reveal-viral-activity-and-infection-within-the-free-living-microbial-community-of-a-secondary-chlorophyll-maximum-in-the-eastern-tropical-north-pacific)
   - TLDR：针对东热带北太平洋缺氧区（ODZ）中大量微生物和病毒难以培养、生态功能不明的问题，本研究结合Hi-C物理邻近连接技术与长短读长宏基因组测序，分析了次级叶绿素最大值层的病毒-宿主相互作用。研究成功识别出75个与微生物基因组关联的病毒序列，揭示了19对传统方法难以预测的新型感染关系，并发现这些宿主多具备反硝化潜力。该成果证明了Hi-C在揭示未培养微生物群落病毒活动中的关键作用，为理解海洋氮循环中的病毒调控提供了新视角。
   - Tags：`query:seqai`
-- [Comparative Amplicon and Shotgun Metagenome Profiling of Soil Microbial Communities in Kauri Forests Affected by Phytophthora agathidicida.](#/202604/02/202604/02/41923466-comparative-amplicon-and-shotgun-metagenome-profiling-of-soil-microbial-communities-in-kauri-forests-affected-by-phytophthora-agathidicida)
-  - TLDR：针对新西兰考里松枯死病病原体（P. agathidicida）对土壤微生物群落的影响，本研究对比了LAMP检测、扩增子测序与宏基因组测序三种方法。研究发现病原体存在与微生物群落结构及功能潜力的关联较弱，但识别出部分与抗病相关的特定菌属。结果证明了不同分子手段在监测病原体影响中的互补性，为森林生态系统健康监测提供了技术参考。
-  - Tags：`query:seqai`
-- [Two years of SARS-CoV-2 genomic surveillance capacity development in Guinea.](#/202604/02/202604/02/41922730-two-years-of-sars-cov-2-genomic-surveillance-capacity-development-in-guinea)
-  - TLDR：针对几内亚在新冠疫情初期缺乏病毒变异追踪能力的问题，该研究记录了通过国际协作在当地建立基因组监测平台的两年历程。通过部署测序设备和专业培训，几内亚实现了对 SARS-CoV-2 变异株的自主检测，成功识别了多次疫情波动中的关键变异株。这一实践证明了在资源受限地区构建可持续病原体监测网络的可行性与重要性。
-  - Tags：`query:pathoai`
-- [Streptococcus vaginalis affects cellular dynamics of cervical cancer cells via oxidative stress-induced activation of endoplasmic reticulum unfolded protein response.](#/202604/02/202604/02/41455276-streptococcus-vaginalis-affects-cellular-dynamics-of-cervical-cancer-cells-via-oxidative-stress-induced-activation-of-endoplasmic-reticulum-unfolded-protein-response)
-  - TLDR：阴道微生物群对宫颈癌的发展具有重要影响，但特定菌种如阴道链球菌（S. vaginalis）的作用机制尚不清晰。本研究通过基因组分析和体外细胞实验，发现该菌能产生过氧化氢并诱导氧化应激，进而激活宫颈癌细胞的内质网未折叠蛋白反应（UPR），显著抑制癌细胞的增殖与迁移并诱导凋亡。这一发现揭示了阴道链球菌在调节肿瘤细胞动力学中的关键作用，为宫颈癌的微生物辅助治疗提供了新的生物学视角。
-  - Tags：`query:pathoai`
-- [Assessment of Escherichia coli as an indicator of antimicrobial resistance and monitoring of ESBL/AmpC-Producing Enterobacteriaceae in retail seafood commonly consumed in Italy.](#/202604/02/202604/02/41619713-assessment-of-escherichia-coli-as-an-indicator-of-antimicrobial-resistance-and-monitoring-of-esblampc-producing-enterobacteriaceae-in-retail-seafood-commonly-consumed-in-italy)
-  - TLDR：针对意大利零售海产品中抗生素耐药性（AMR）监测不足的问题，本研究通过对422份海产样本进行微生物培养和全基因组测序，评估了大肠杆菌作为耐药监测指标的可行性。结果显示，双壳类和甲壳类动物的大肠杆菌检出率最高，且发现了携带临床重要耐药基因（如blaCTX-M-15）的产超广谱β-内酰胺酶（ESBL）菌株。该研究证明了大肠杆菌是监测海产品耐药性的有效指标，强调了加强食品供应链中耐药菌监测的必要性。
-  - Tags：`query:pathoai`
-- [Discriminating models of trait evolution.](#/202604/02/202604/02/41661137-discriminating-models-of-trait-evolution)
-  - TLDR：针对系统发育比较生物学中难以准确推断性状演化模型的问题，本文提出了 Evolutionary Discriminant Analysis (EvoDA) 框架。该方法将监督学习中的判别分析引入生物演化研究，通过模拟数据训练模型来预测真实性状的演化模式。在真菌系统发育案例中，EvoDA 在处理含测量误差的数据时表现优于传统统计方法，并成功揭示了基因表达演化中稳定选择占主导的规律，为复杂演化过程的推断提供了新工具。
-  - Tags：`query:pathoai`
-- [Plant microbiome regulation for sustainable agriculture.](#/202604/02/202604/02/41671649-plant-microbiome-regulation-for-sustainable-agriculture)
-  - TLDR：针对现代农业过度依赖化肥农药且作物抗逆性不足的问题，本文系统综述了植物微生物组调节的两大核心策略：外部环境调节通过农艺措施和宿主性状在不改变基因的前提下重塑菌群，而内部基因工程则利用CRISPR和合成菌群等手段锁定有益性状。结合AI预测模型与精准递送技术，这些方法能有效优化植物-微生物相互作用，为实现可持续农业和保障粮食安全提供技术支撑。
-  - Tags：`query:bioinfo`

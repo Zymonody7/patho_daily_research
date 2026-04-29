@@ -1,0 +1,62 @@
+Title: HNRM: hyperedge neighborhood-based representation for predicting N6-methyladenosine-related regulatory pathways - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42050531/
+
+Markdown Content:
+Actions
+
+. 2026 Apr 29.
+
+doi: 10.1186/s12915-026-02612-9.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42050531**
+*    DOI: [10.1186/s12915-026-02612-9](https://doi.org/10.1186/s12915-026-02612-9)
+
+## HNRM: hyperedge neighborhood-based representation for predicting N6-methyladenosine-related regulatory pathways
+
+Dongdong Jiang et al. BMC Biol.2026.
+
+## Abstract
+
+**Background:** N6-methyladenosine (m6A), the most predominant post-transcriptional RNA modification, regulates splicing, translation, and decay processes. Its dysregulation is implicated in cancers, metabolic disorders, and neurological diseases. Despite accumulating evidence highlighting m6A as a key player in human pathologies, no previous computational framework has investigated the high-order associations among m6A sites, diseases, and drugs within a unified model.
+
+**Results:** Here, we introduce HNRM, a data-driven approach designed to model hyperedges across these entities. We frame this problem as a high-order link-prediction task on a hypergraph. We employ a hypergraph neural network based on hyperedge neighborhoods to learn embedding representations of both hyperedges and nodes.
+
+**Conclusions:** The performance of HNRM is evaluated on a newly collected and processed m6A dataset, as well as on five additional datasets from other domains, demonstrating its superior effectiveness. Ablation studies and Gene Ontology enrichment analysis further validate its capability in identifying potential associations.
+
+**Keywords:** Hyperedge neighborhood; Hypergraph representation learning; RNA N6-methyladenosine.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Ethics approval and consent to participate: Not applicable. Consent for publication: Not applicable. Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Hypergraph Learning with Hyperedge Gating and Multiscale Topology Feature Learning for Predicting Disease-Related circRNAs.](https://pubmed.ncbi.nlm.nih.gov/41141759/)
+
+Xuan P, Zheng R, Cui H, Sun F, Wang F, Zhang T.Xuan P, et al.ACS Omega. 2025 Oct 6;10(41):48176-48191. doi: 10.1021/acsomega.5c04984. eCollection 2025 Oct 21.ACS Omega. 2025.PMID: 41141759 Free PMC article. 
+*   [Hypergraph contrastive attention networks for hyperedge prediction with negative samples evaluation.](https://pubmed.ncbi.nlm.nih.gov/39447434/)
+
+Wang J, Chen J, Wang Z, Gong M.Wang J, et al.Neural Netw. 2025 Jan;181:106807. doi: 10.1016/j.neunet.2024.106807. Epub 2024 Oct 19.Neural Netw. 2025.PMID: 39447434 
+*   [Hypergraph representations of single-cell RNA sequencing data for improved cell clustering.](https://pubmed.ncbi.nlm.nih.gov/41896196/)
+
+He W, Bolnick DI, Scarpino SV, Eliassi-Rad T.He W, et al.Bioinformatics. 2026 Apr 7;42(4):btag148. doi: 10.1093/bioinformatics/btag148.Bioinformatics. 2026.PMID: 41896196 Free PMC article. 
+*   [The Epigenetic Regulation of RNA N6-Methyladenosine Methylation in Glycolipid Metabolism.](https://pubmed.ncbi.nlm.nih.gov/36830642/)
+
+Yang H, Li Y, Huang L, Fang M, Xu S.Yang H, et al.Biomolecules. 2023 Feb 1;13(2):273. doi: 10.3390/biom13020273.Biomolecules. 2023.PMID: 36830642 Free PMC article.Review. 
+*   [Physio-pathological effects of N6-methyladenosine and its therapeutic implications in leukemia.](https://pubmed.ncbi.nlm.nih.gov/35999621/)
+
+Liu WW, Wang H, Zhu XY.Liu WW, et al.Biomark Res. 2022 Aug 23;10(1):64. doi: 10.1186/s40364-022-00410-3.Biomark Res. 2022.PMID: 35999621 Free PMC article.Review. 
+
+## Grants and funding
+
+*   [62472344/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=62472344%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 62472344/National Natural Science Foundation of China")
+*   [TZJH2024027/Xidian University Specially Funded Project for Interdisciplinary Exploration](https://pubmed.ncbi.nlm.nih.gov/?term=TZJH2024027%2FXidian+University+Specially+Funded+Project+for+Interdisciplinary+Exploration%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant TZJH2024027/Xidian University Specially Funded Project for Interdisciplinary Exploration")
+*   [2025JC-JCQN-094/Natural Science Basic Research Program of Shaanxi](https://pubmed.ncbi.nlm.nih.gov/?term=2025JC-JCQN-094%2FNatural+Science+Basic+Research+Program+of+Shaanxi%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2025JC-JCQN-094/Natural Science Basic Research Program of Shaanxi")
+*   [QTZX25071/Fundamental Research Funds for the Central Universities](https://pubmed.ncbi.nlm.nih.gov/?term=QTZX25071%2FFundamental+Research+Funds+for+the+Central+Universities%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant QTZX25071/Fundamental Research Funds for the Central Universities")
