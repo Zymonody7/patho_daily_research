@@ -1,0 +1,47 @@
+Title: Gut microbiota composition and tumor immune features in meningioma patients - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42059606/
+
+Markdown Content:
+Actions
+
+. 2026 Apr 30:e0248525.
+
+doi: 10.1128/spectrum.02485-25.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42059606**
+*    DOI: [10.1128/spectrum.02485-25](https://doi.org/10.1128/spectrum.02485-25)
+
+## Gut microbiota composition and tumor immune features in meningioma patients
+
+Kai Yin et al. Microbiol Spectr.2026.
+
+## Abstract
+
+Meningiomas are prevalent intracranial tumors with poorly understood extraneural drivers. While the gut-brain axis influences neuro-oncogenesis, meningioma-specific gut microbiome alterations and their clinical implications remain uncharacterized. This study integrated 16S rRNA sequencing of fecal samples from 15 treatment-naïve WHO grade I meningioma patients (MPs) and 15 healthy controls (HCs) with immunohistochemical profiling of tumor immune infiltrates (MPO⁺ neutrophils, CD68⁺ macrophages, CD3⁺ T cells). Compared with HCs, MPs exhibited significantly reduced alpha diversity (Shannon index, _P_ = 0.026) and distinct beta diversity (permutational multivariate analysis of variance, _P_< 0.0009). Taxonomic analysis revealed enrichment of _Proteobacteria_ (28.82% vs. 2.46%, _P_ = 0.001), specifically _Escherichia\_Shigella_ at the genus level (25.95% vs. 1.61%, _P_ = 0.008), along with depletion of _Bacteroidaceae_ and _Ruminococcaceae_. LEfSe identified _Escherichia\_Shigella_ as the top meningioma-enriched biomarker. In diagnostic modeling, _Escherichia\_Shigella_ achieved an area under the receiver operating characteristic curve of 95.11% (95% CI: 86.91%-100%) for WHO grade I meningioma detection. Critically, _Escherichia\_Shigella_ abundance positively correlated with intratumoral MPO⁺, CD68⁺, and CD3⁺ cell densities (all _P_< 0.05), whereas _Ruminococcaceae_ showed inverse correlations. The 16S rRNA sequencing data are publicly available in the GSA database under accession number CRA027974. This study provides the first evidence of gut dysbiosis in grade I meningioma, characterized by _Escherichia\_Shigella_ dominance and depletion of immunomodulatory commensals. This signature correlates with increased immune infiltration and holds promise as a novel biomarker.
+
+**Importance:** Detailed exploration of host-microbe interactions can be worthwhile. Gut dysbiosis has been implicated in neuroinflammation, blood-brain barrier disruption, and oncogenesis in multiple cancer types, including gliomas. However, the gut microbiota composition and metabolic characteristics in patients with meningioma have not been previously reported. To address these critical knowledge gaps, we conducted a case-control study integrating 16S rRNA sequencing, clinical phenotyping, and immunohistochemical profiling. Our study revealed significant alterations in the gut microbiota of MPs, characterized by reduced alpha diversity, enrichment of _Proteobacteria_, and depletion of beneficial taxa, including _Bacteroidaceae_ and _Ruminococcaceae_. Critically, we identified _Escherichia\_Shigella_ as a potential diagnostic biomarker and demonstrated strong correlations between elevated _Escherichia\_Shigella_/Enterobacteriaceae abundance and increased intratumoral infiltration of MPO⁺ neutrophils, CD68⁺ macrophages, and CD3⁺ T cells. These findings are the first evidence that gut microbiome dysbiosis is closely associated with meningioma inflammation.
+
+**Keywords:** 16S rRNA sequencing; gut microbiota; gut-brain axis; meningioma.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Expansion of _Escherichia-Shigella_ in Gut Is Associated with the Onset and Response to Immunosuppressive Therapy of IgA Nephropathy.](https://pubmed.ncbi.nlm.nih.gov/36041791/)
+
+Zhao J, Bai M, Ning X, Qin Y, Wang Y, Yu Z, Dong R, Zhang Y, Sun S.Zhao J, et al.J Am Soc Nephrol. 2022 Dec;33(12):2276-2292. doi: 10.1681/ASN.2022020189. Epub 2022 Aug 30.J Am Soc Nephrol. 2022.PMID: 36041791 Free PMC article.Clinical Trial. 
+*   [Decrease in Escherichia-Shigella in the gut microbiota of ESKD patients undergoing maintenance hemodialysis.](https://pubmed.ncbi.nlm.nih.gov/40001029/)
+
+Qin Y, Zhao J, Wang L, Yang X, Wang J, Li S, Chen Y, Guo J, Wang F, Luo K.Qin Y, et al.BMC Nephrol. 2025 Feb 25;26(1):98. doi: 10.1186/s12882-025-03988-6.BMC Nephrol. 2025.PMID: 40001029 Free PMC article. 
+*   [A 16S rRNA-based meta-analysis of gut microbiota in diabetic nephropathy using QIIME2 and publicly available NGS datasets.](https://pubmed.ncbi.nlm.nih.gov/41485298/)
+
+Chopra C, Kukkar D, Kaur H.Chopra C, et al.Comput Biol Chem. 2026 Apr;121:108876. doi: 10.1016/j.compbiolchem.2026.108876. Epub 2026 Jan 2.Comput Biol Chem. 2026.PMID: 41485298 
+*   [Gut Microbiota Dysbiosis and Gut-Nasal Axis Alterations in Preschool Children with Allergic Rhinitis and Functional Constipation.](https://pubmed.ncbi.nlm.nih.gov/41416173/)
+
+Yang W, Li X, Wang C, Li X, Huang C.Yang W, et al.J Asthma Allergy. 2025 Dec 11;18:1727-1741. doi: 10.2147/JAA.S561982. eCollection 2025.J Asthma Allergy. 2025.PMID: 41416173 Free PMC article. 
+*   [Gut microbiota alterations in colorectal adenoma-carcinoma sequence based on 16S rRNA gene sequencing: A systematic review and meta-analysis.](https://pubmed.ncbi.nlm.nih.gov/39197689/)
+
+Wu YJ, Xiong JF, Zhan CN, Xu H.Wu YJ, et al.Microb Pathog. 2024 Oct;195:106889. doi: 10.1016/j.micpath.2024.106889. Epub 2024 Aug 26.Microb Pathog. 2024.PMID: 39197689

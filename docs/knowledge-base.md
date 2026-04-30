@@ -1,10 +1,64 @@
 # 知识库
 
-- 最近沉淀条目数：466
+- 最近沉淀条目数：484
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Spatial-aware detection of copy number alterations from spatial transcriptomics using SpaCNA.](#/202604/30/202604/30/42056094-spatial-aware-detection-of-copy-number-alterations-from-spatial-transcriptomics-using-spacna)
+  - TLDR：针对肿瘤空间转录组数据中拷贝数变异（CNA）检测精度不足的问题，SpaCNA 框架通过整合形态学特征聚合邻近位点，并利用隐马尔可夫随机场模型捕捉空间连续性。该方法在模拟和真实癌症数据中实现了高达 0.95 的 F1 分数，能够精准识别肿瘤边界、空间亚克隆及 3D 演化轨迹，为研究肿瘤异质性和空间生物学提供了高效的计算工具。
+  - Tags：`query:seqai`
+- [An agentic framework for autonomous scientific discovery in cancer pathology.](#/202604/30/202604/30/42056496-an-agentic-framework-for-autonomous-scientific-discovery-in-cancer-pathology)
+  - TLDR：针对癌症病理分析中特征工程繁琐、可解释性差及工作流碎片化的问题，本研究开发了SPARK智能体框架。该框架以语言为通用接口，能自主将生物学假设转化为分析工具，直接处理复杂病理数据而无需额外训练。在涉及5种癌症、5400余名患者的大规模验证中，SPARK成功提取了与预后和生物标志物相关的临床特征，为自动化科学发现和精准诊断提供了新范式。
+  - Tags：`query:agent`
+- [Embedding multilayer RNA networks for lncRNA-miRNA interaction prediction via LMI-MHGAT.](#/202604/30/202604/30/42057106-embedding-multilayer-rna-networks-for-lncrna-mirna-interaction-prediction-via-lmi-mhgat)
+  - TLDR：60 的极端正负样本比下仍优于 14 种现有方法，并在跨物种预测和疾病关联分析中展现出极强的泛化能力与生物学解释力。
+  - Tags：`query:bioinfo`
+- [Integrating viral kinetics into routine outbreak surveillance: challenges, opportunities and lessons from COVID-19.](#/202604/30/202604/30/42057724-integrating-viral-kinetics-into-routine-outbreak-surveillance-challenges-opportunities-and-lessons-from-covid-19)
+  - TLDR：病毒动力学（VK）对理解感染机制和制定防疫政策至关重要，但目前相关研究多为事后分析且缺乏标准化。本文总结了新冠疫情期间 VK 监测的经验，提出将其整合进常规病原体监测体系的框架。通过建立全球动态 VK 数据库和标准化建模工具，可以实时优化流行病学参数估计、药物研发及政策调整，从而提升对未来大流行的应对能力。
+  - Tags：`query:pathoai`
+- [Robust Heterogeneity Adjustment for Gaussian Graphical Model With Latent Variables.](#/202604/30/202604/30/42053355-robust-heterogeneity-adjustment-for-gaussian-graphical-model-with-latent-variables)
+  - TLDR：针对生物多元数据中因未观测子群体（如肿瘤亚型）和离群点导致的图模型估计失真问题，该研究提出了一种结合混合模型的鲁棒潜变量高斯图模型。该方法在剔除潜变量干扰的同时，能同步实现网络结构估计、离群点检测及子群体识别。实验证明，该方法在存在高比例噪声和异质性时仍能保持估计的可靠性，为复杂生物网络分析提供了稳健的工具。
+  - Tags：`query:bioinfo`
+- [Resource availability structures microbial competition through genomic niche partitioning.](#/202604/30/202604/30/42054365-resource-availability-structures-microbial-competition-through-genomic-niche-partitioning)
+  - TLDR：微生物对稀缺资源的竞争塑造了生物多样性，但从基因组数据量化竞争一直是个难题。本研究开发了 CaCo 指标，通过碳水化合物活性酶谱计算生态位重叠和竞争潜力。对全球 1.4 万个宏基因组组装基因组的分析显示，微生物竞争模式随资源丰富度演变：从贫营养海洋中的分化专才转向富碳肠道中的重叠全才。该方法成功预测了竞争排斥现象，为理解资源可用性如何驱动群落结构提供了新工具。
+  - Tags：`query:pathoai`
+- [A novel serum metabolite classifier for identifying Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD) integrating metabolomics and machine learning.](#/202604/30/202604/30/42056921-a-novel-serum-metabolite-classifier-for-identifying-metabolic-dysfunction-associated-steatotic-liver-disease-masld-integrating-metabolomics-and-machine-learning)
+  - TLDR：针对代谢相关脂肪性肝病（MASLD）缺乏无创诊断标志物的问题，本研究通过非靶向代谢组学和16S rDNA测序分析血清代谢物与肠道菌群的关联，利用LASSO回归筛选出10种关键代谢物并构建随机森林分类器。该模型在验证集上达到0.87的AUROC，结合临床指标后提升至0.94，为MASLD的早期筛查提供了高效的无创诊断方案。
+  - Tags：`query:bioinfo`
+- [Lactobacillus johnsonii-derived extracellular vesicles modulate gut microbiota metabolites and macrophage-related immune responses against Salmonella Typhimurium infection.](#/202604/30/202604/30/42057229-lactobacillus-johnsonii-derived-extracellular-vesicles-modulate-gut-microbiota-metabolites-and-macrophage-related-immune-responses-against-salmonella-typhimurium-infection)
+  - TLDR：针对鼠伤寒沙门氏菌导致的肠道炎症与损伤，本研究探讨了约氏乳杆菌来源细胞外囊泡（Lj-EVs）的干预效果。通过多组学分析发现，Lj-EVs能富集有益菌阿克曼氏菌，并调节巨噬细胞代谢，将促炎的糖酵解模式转为氧化磷酸化，从而增强肠道屏障并限制病原菌扩散。该成果为利用益生菌囊泡开发新型抗感染策略提供了理论依据。
+  - Tags：`query:pathoai`
+- [Hybrid capture RNA-seq defines temporal gene expression in](#/202604/30/202604/30/42059552-hybrid-capture-rna-seq-defines-temporal-gene-expression-in)
+  - TLDR：立克次体作为专性胞内寄生菌，其基因表达研究长期受限于宿主RNA污染，导致感染初期等低载量阶段难以分析。本研究采用病原体杂交捕获技术（PatH-Cap）富集细菌转录本，成功绘制了帕氏立克次体感染后24小时内的动态基因表达图谱。研究揭示了生长、致病相关基因及分泌系统的时序表达特征，并识别出数百个反义RNA，为理解此类难培养病原体的调控网络提供了关键数据支持。
+  - Tags：`query:seqai`
+- [Spatial ecology of the](#/202604/30/202604/30/42059625-spatial-ecology-of-the)
+  - TLDR：人类口腔中的二氧化碳嗜纤维菌（Capnocytophaga）与牙周及全身健康密切相关。本研究利用元泛基因组学分析了该属在口腔不同部位的菌株级分布与功能适应性。研究发现，虽然大多数菌株偏好牙斑环境，但特定变体更倾向于舌部，且不同演化支在呼吸链和代谢途径上存在显著差异。这一发现揭示了微生物在微环境中的生态位特化机制，为口腔健康干预提供了理论基础。
+  - Tags：`query:seqai`
+- [Decoding the genome of multidrug resistant (MDR)](#/202604/30/202604/30/42059626-decoding-the-genome-of-multidrug-resistant-mdr)
+  - TLDR：针对从感染患者脑脊液中分离出的多重耐药菌株 Providencia hangzhouensis HL_Adamas-11，研究人员利用全基因组测序技术对其进行了基因组解码。通过计算预测，揭示了该菌株包含针对β-内酰胺、氯霉素、大环内酯和氨基糖苷类药物的抗性基因盒。这一发现为理解该病原体的耐药机制提供了分子基础，有助于指导临床用药和公共卫生防控。
+  - Tags：`query:pathoai`
+- [A dataset of rare copy number variants associated with neurodevelopmental and neuropsychiatric disorders.](#/202604/30/202604/30/42056145-a-dataset-of-rare-copy-number-variants-associated-with-neurodevelopmental-and-neuropsychiatric-disorders)
+  - TLDR：针对神经发育和精神疾病中拷贝数变异（CNV）复杂且异质性强的问题，研究者构建了 CNVPathwayAtlas 数据集。该数据集整合了 38 种致病性 CNV 的基因组坐标、受影响基因、分子通路及临床表型，并与 WikiPathways 等外部资源关联。它为研究 CNV 的分子机制、识别共有致病通路及药物研发提供了结构化的数据基础。
+  - Tags：`query:bioinfo`
+- [PTP1B in astrocytes drives pathogen-induced neurodegeneration.](#/202604/30/202604/30/42057007-ptp1b-in-astrocytes-drives-pathogen-induced-neurodegeneration)
+  - TLDR：病原体感染与阿尔茨海默病等神经退行性疾病密切相关，但其致病机制尚不明确。本研究发现星形胶质细胞中的蛋白酪氨酸磷酸酶1B（PTP1B）是感染诱导神经炎症的关键调节因子。通过在弓形虫感染模型中敲除或抑制PTP1B，研究者成功阻断了神经毒性胶质细胞的产生并挽救了认知功能。该发现揭示了PTP1B介导的胶质-神经元通讯紊乱是病原体驱动神经退化的核心机制，为相关疾病提供了新治疗靶点。
+  - Tags：`query:pathoai`
+- [The Guild Model of CF Airway Microbial Ecology.](#/202604/30/202604/30/42059556-the-guild-model-of-cf-airway-microbial-ecology)
+  - TLDR：针对囊性纤维化（CF）气道微生物群落复杂、传统分类学难以揭示致病机制的问题，本研究提出了“行会模型”（Guild Model）。该模型摒弃了单纯的物种分类，转而根据微生物的资源利用方式和生态功能将其划分为四个功能组。这一框架为理解CF气道生态提供了更精准的视角，有助于识别微生物间的代谢耦合及其对宿主组织的破坏作用，并可推广至其他微生物相关疾病的研究。
+  - Tags：`query:pathoai`
+- [Host genetics shapes the recovery of the gut microbiome after antibiotic treatment: the role of the blood group related](#/202604/30/202604/30/42059571-host-genetics-shapes-the-recovery-of-the-gut-microbiome-after-antibiotic-treatment-the-role-of-the-blood-group-related)
+  - TLDR：抗生素会导致肠道菌群失调，但宿主遗传因素如何影响其恢复尚不明确。本研究通过对比不同 B4galnt2 基因型小鼠在抗生素处理后的菌群动态，发现缺失该基因的小鼠在链霉素处理后恢复更快，且伴随特定有益菌群增加和耐药基因表达差异。这一发现揭示了宿主基因与抗生素相互作用对菌群恢复的影响，为通过个性化医疗手段缓解菌群失调提供了科学依据。
+  - Tags：`query:pathoai`
+- [Gut microbiota composition and tumor immune features in meningioma patients.](#/202604/30/202604/30/42059606-gut-microbiota-composition-and-tumor-immune-features-in-meningioma-patients)
+  - TLDR：脑膜瘤是常见的颅内肿瘤，但其肠道微生物群的影响尚不明确。本研究通过对15名初诊脑膜瘤患者和15名健康对照者的粪便样本进行16S rRNA测序，并结合肿瘤免疫浸润分析，发现患者肠道菌群多样性显著降低，且埃希氏菌-志贺氏菌属（Escherichia_Shigella）显著富集。该菌属不仅可作为高准确度的诊断标志物，还与肿瘤内免疫细胞浸润呈正相关，揭示了肠脑轴在脑膜瘤炎症中的潜在作用。
+  - Tags：`query:pathoai`
+- [Integrated multi-omics analysis reveals gut dysbiosis and altered energy metabolism in Chinese ALS patients.](#/202604/30/202604/30/42059647-integrated-multi-omics-analysis-reveals-gut-dysbiosis-and-altered-energy-metabolism-in-chinese-als-patients)
+  - TLDR：针对肌萎缩侧索硬化症（ALS）病因不明的问题，本研究通过对中国患者进行肠道微生物、病毒及代谢组的多组学分析，发现患者肠道内有益菌减少而致病菌增加。研究揭示了微生物组通过加速维生素C降解和干扰能量代谢，加剧了宿主的氧化应激，为通过调节肠道菌群功能治疗ALS提供了新靶点。
+  - Tags：`query:bioinfo`
+- [Functional emergence driven by structural evolution of the DSBH domain in Fe](#/202604/30/202604/30/42059769-functional-emergence-driven-by-structural-evolution-of-the-dsbh-domain-in-fe)
+  - TLDR：针对 2OG 依赖型加氧酶如何实现底物特异性识别的问题，本研究通过构建 7 种哺乳动物 DSBH 核心结构域的进化树，结合多物种结构拟合技术，揭示了二级结构的演变规律。研究发现 DSBH 前导区的结构变异是决定底物识别的关键，为理解蛋白质功能演化提供了新视角，助力生物工程设计。
+  - Tags：`query:bioinfo`
 - [Single-cell phenotype-associated subpopulation identification via transfer foundation model and statistical ensemble learning.](#/202604/29/202604/29/42050525-single-cell-phenotype-associated-subpopulation-identification-via-transfer-foundation-model-and-statistical-ensemble-learning)
   - TLDR：单细胞测序虽能揭示细胞异质性，但难以直接关联复杂的临床表型。为此，研究者开发了 scPASI 工具，通过整合预训练大模型与残差变分自编码器提取特征，并利用统计集成学习量化细胞亚群与表型的关联。该方法能将细胞划分为四类表型相关组，在肿瘤状态、基因突变及预后预测等任务中表现优于现有方法，为识别疾病关键细胞亚群和治疗靶点提供了新框架。
   - Tags：`query:seqai`
@@ -551,57 +605,3 @@
 - [A microphysiologic human cervical model recapitulates microbial, immune, and pathogenic properties of sexually transmitted infections.](#/202604/04/202604/04/41931629-a-microphysiologic-human-cervical-model-recapitulates-microbial-immune-and-pathogenic-properties-of-sexually-transmitted-infections)
   - TLDR：针对现有单层细胞培养和动物模型难以模拟人类宫颈复杂微环境的问题，研究者开发了一种低成本、易操作的微生理系统（MPS）。该系统成功模拟了人类宫颈组织及其微生物群，并能复现衣原体和淋球菌感染时的动态免疫及病理特征。该平台在多个实验室验证了其可重复性，为生殖道感染研究提供了一个高度仿生的体外模型。
   - Tags：`query:pathoai`
-- [Protein and genomic language models uncover the unexplored diversity of bacterial immunity.](#/202604/03/202604/03/41926572-protein-and-genomic-language-models-uncover-the-unexplored-diversity-of-bacterial-immunity)
-  - TLDR：细菌泛基因组中蕴含着极其丰富的抗噬菌体防御系统，但绝大部分尚未被发现。本研究开发了结合蛋白质序列与基因组上下文（操纵子结构）的机器学习模型，以高达99%的准确率预测抗噬菌体功能。通过在实验中验证12个新系统并分析3.2万个基因组，研究揭示了细菌基因组中约1.5%用于防御，且超过85%的预测防御家族仍未被表征。该工作为系统性探索细菌免疫多样性及开发新型生物技术工具奠定了基础。
-  - Tags：`query:pathoai`
-- [Metagenomics insights into the effects of lactic acid bacteria inoculation on the microbial communities and antibiotic resistance genes in mare milk.](#/202604/03/202604/03/41547150-metagenomics-insights-into-the-effects-of-lactic-acid-bacteria-inoculation-on-the-microbial-communities-and-antibiotic-resistance-genes-in-mare-milk)
-  - TLDR：马奶产品中抗生素耐药基因（ARGs）的传播威胁公共卫生，但相关研究较少。本研究利用宏基因组学技术，对比分析了乳酸菌（LAB）接种发酵、自然发酵、生鲜及巴氏杀菌马奶中的微生物群落与ARGs分布。结果表明，LAB接种能显著降低病原体、ARGs及移动遗传元件（MGEs）的丰度，通过削弱微生物与耐药基因的共存网络抑制耐药性传播，为马奶安全加工提供了理论依据。
-  - Tags：`query:pathoai`
-- [CREsted: modeling genomic and synthetic cell-type-specific enhancers across tissues and species.](#/202604/03/202604/03/41927920-crested-modeling-genomic-and-synthetic-cell-type-specific-enhancers-across-tissues-and-species)
-  - TLDR：针对基因组增强子调控逻辑解析与设计的复杂性，研究者开发了 CREsted 软件套件。该工具整合了单细胞染色质可及性数据预处理、序列建模、可解释性分析及序列设计功能。通过在小鼠大脑、人类免疫细胞及癌症数据上的应用，以及在斑马鱼体内的实验验证，CREsted 证明了其在跨物种、跨组织解析增强子语法和设计高特异性人工增强子方面的强大能力，为基因调控研究提供了端到端的解决方案。
-  - Tags：`query:bioinfo`
-- [The Extreme Environment Microbiome Catalog (EEMC): a global resource for microbial diversity and antimicrobial discovery.](#/202604/03/202604/03/41927589-the-extreme-environment-microbiome-catalog-eemc-a-global-resource-for-microbial-diversity-and-antimicrobial-discovery)
-  - TLDR：针对极端环境微生物多样性及代谢潜力探索不足的问题，研究团队通过整合数千份宏基因组和分离株数据，构建了包含7.8万个基因组的极端环境微生物目录（EEMC）。利用蛋白质大语言模型（pLLM）从该库中预测并筛选出3032个候选抗菌肽，实验验证显示其在抗多重耐药菌方面具有极高活性与低毒性，为生物医药研发提供了重要资源。
-  - Tags：`query:seqai`
-- [Forecasting influenza activity based on internet retrieval behavior and meteorological data in four megacities of China.](#/202604/03/202604/03/41928100-forecasting-influenza-activity-based-on-internet-retrieval-behavior-and-meteorological-data-in-four-megacities-of-china)
-  - TLDR：针对季节性流感预警滞后的挑战，本研究整合百度指数搜索行为与气象多源数据，利用长短期记忆网络（LSTM）构建了针对北京、上海等四大城市的流感预测模型。结果显示，该模型在预测流感病毒阳性检出率方面优于传统机器学习算法，可提前1-3周发出预警，为城市公共卫生监测提供了高效的数字化工具。
-  - Tags：`query:pathoai`
-- [Comparative Analysis of Rice Response to Rhizobacteria Highlights Transcriptional Signatures to Detrimental and Beneficial Interactions.](#/202604/03/202604/03/41930898-comparative-analysis-of-rice-response-to-rhizobacteria-highlights-transcriptional-signatures-to-detrimental-and-beneficial-interactions)
-  - TLDR：针对植物如何区分益生菌与病原菌这一核心问题，本研究通过水培实验对比了水稻对不同来源细菌（非植物、植物及水稻分离菌）的转录组响应。研究发现，虽然大部分基因响应具有菌株特异性，但植物分离菌诱导的反应更强。研究识别出10个关键标志基因（如OsPR1b），它们在益生菌作用下上调而在病原菌作用下下调，揭示了植物在共生与防御间的分子切换机制，为利用益生菌提升作物抗病性提供了理论依据。
-  - Tags：`query:pathoai`
-- [Genomic and evolutionary factors influencing the prediction accuracy of optimal growth temperature in prokaryotes.](#/202604/03/202604/03/41930963-genomic-and-evolutionary-factors-influencing-the-prediction-accuracy-of-optimal-growth-temperature-in-prokaryotes)
-  - TLDR：针对原核生物最适生长温度（OGT）预测中嗜冷菌准确率低的问题，本研究分析了2,869种细菌基因组，发现快速演化导致的基因组成分滞后是主因。通过整合反映长期演化的基因组成分特征与反映短期演化的基因功能（基因存在/缺失）信息，构建了新预测模型，显著提升了嗜冷菌的预测精度，为微生物表型预测提供了结合演化时间尺度的通用框架。
-  - Tags：`query:pathoai`
-- [Toward microbiome-assisted remediation: Vanadium-titanium magnetite mining reshapes cropland soil chemistry and rhizosphere microbiomes.](#/202604/03/202604/03/41922662-toward-microbiome-assisted-remediation-vanadium-titanium-magnetite-mining-reshapes-cropland-soil-chemistry-and-rhizosphere-microbiomes)
-  - TLDR：针对攀枝花钒钛磁铁矿（VTM）开采对农田生态的影响，本研究对比了受矿区影响与非影响区的生菜、油菜和豌豆根际微生物组。通过整合土壤理化分析与16S/ITS扩增子测序，发现采矿活动显著改变了土壤pH和养分水平，导致细菌和真菌群落发生宿主依赖性的重组，并向压力适应型功能转变。研究揭示了养分有效性而非重金属总量是驱动微生物重构的主因，为矿区农作物健康管理和微生物辅助修复提供了关键的生物指标。
-  - Tags：`query:seqai`
-- [Unique microbial communities and phylosymbiosis signals in herpetofauna.](#/202604/03/202604/03/41925224-unique-microbial-communities-and-phylosymbiosis-signals-in-herpetofauna)
-  - TLDR：本研究针对两栖爬行动物中宿主进化与微生物群落相关性（系统发育共生）的争议，通过分析337个物种的11,697份多部位微生物样本，发现其菌群结构虽与哺乳动物相似，但进化共生信号较弱且受分类尺度和采样部位影响。研究揭示了系统发育共生在变温动物中并非普遍规律，为理解生命树中宿主-微生物的复杂演化提供了新视角。
-  - Tags：`query:pathoai`
-- [Fitting coarse-grained models to macroscopic experimental data via automatic differentiation.](#/202604/03/202604/03/41926537-fitting-coarse-grained-models-to-macroscopic-experimental-data-via-automatic-differentiation)
-  - TLDR：针对分子模拟中粗粒化模型参数拟合过程零散且难以复现的问题，该研究提出了一套基于自动微分（AD）的系统化框架，用于将模型参数直接拟合至宏观实验数据。通过计算低方差梯度估计，该方法实现了对DNA、RNA及蛋白质-DNA杂合模型在结构、力学和热力学性质上的跨尺度优化。该框架不仅提升了力场开发的透明度与效率，还通过多任务学习解决了多约束下的参数冲突，为构建高精度分子模型提供了通用工具。
-  - Tags：`query:bioinfo`
-- [AlphaFold as a prior: experimental structure determination conditioned on a pretrained neural network.](#/202604/02/202604/02/41922571-alphafold-as-a-prior-experimental-structure-determination-conditioned-on-a-pretrained-neural-network)
-  - TLDR：AlphaFold2 在处理侧链堆积和构象变化时存在局限，而冷冻电镜等实验数据虽多但建模困难。本研究提出 ROCKET 框架，将实验观测值作为约束引入 AlphaFold2，通过在共进化嵌入空间而非笛卡尔坐标空间进行优化，实现了对低信噪比实验数据的自动化、高精度建模。该方法无需重新训练模型，显著提升了在复杂生物环境下的结构预测准确性，为实验数据与机器学习的融合提供了通用范式。
-  - Tags：`query:bioinfo`
-- [Quantifying uncertainty in protein representations across models and tasks.](#/202604/02/202604/02/41922570-quantifying-uncertainty-in-protein-representations-across-models-and-tasks)
-  - TLDR：蛋白质语言模型生成的嵌入向量应用广泛，但其表示的可靠性缺乏量化评估。本研究提出一种模型无关的评分框架，通过计算蛋白质在潜空间近邻中非生物“合成”序列的比例来衡量不确定性。实验证明，该方法能有效识别无法捕捉生物特征的低质量嵌入，通过在下游任务前进行筛选，显著提升了生物特性预测的可靠性。
-  - Tags：`query:bioinfo`
-- [TaxTriage: An Open-Source Metagenomic Sequencing Data Analysis Pipeline Enabling Putative Pathogen Detection.](#/202604/02/202604/02/41923365-taxtriage-an-open-source-metagenomic-sequencing-data-analysis-pipeline-enabling-putative-pathogen-detection)
-  - TLDR：针对宏基因组测序中病原体识别效率与准确性问题，TaxTriage 推出了一套开源分析流程。它整合了序列分类、比对及从头组装技术，支持长短读长数据，并通过对比健康人群基准和已知病原体库来识别潜在威胁。实验证明其在保持高灵敏度的同时提升了特异性，为公共卫生和兽医临床诊断提供了灵活、可离线部署的自动化工具。
-  - Tags：`query:pathoai`
-- [Integrated spatial transcriptomics and pan-cancer XGBoost modeling uncover spatial drivers of immune exclusion and predict immunotherapy response.](#/202604/02/202604/02/41925746-integrated-spatial-transcriptomics-and-pan-cancer-xgboost-modeling-uncover-spatial-drivers-of-immune-exclusion-and-predict-immunotherapy-response)
-  - TLDR：针对免疫治疗中肿瘤微环境空间复杂性难以刻画的问题，本研究整合27种癌症的多组学数据与空间转录组技术，识别出驱动免疫排斥的关键调控轴（如SNHG6-BIRC5），并结合CRISPR筛选和药理基因组学验证了其功能。在此基础上，构建了基于14个特征的泛癌XGBoost预测模型，在免疫治疗响应预测中达到0.771的AUC，优于传统标志物，为精准免疫治疗提供了空间维度的见解和预测工具。
-  - Tags：`query:seqai`
-- [Metagenomic and metatranscriptomic analyses reveal microbial dysbiosis and bacteria-virus interactions in the lungs of Australian feedlot cattle with bovine respiratory disease.](#/202604/02/202604/02/41707391-metagenomic-and-metatranscriptomic-analyses-reveal-microbial-dysbiosis-and-bacteria-virus-interactions-in-the-lungs-of-australian-feedlot-cattle-with-bovine-respiratory-disease)
-  - TLDR：牛呼吸道疾病（BRD）是导致育肥牛死亡的主要原因，但其肺部微生物群落动态尚不明确。本研究通过对澳大利亚育肥牛肺组织进行宏基因组和宏转录组测序，发现BRD患牛肺部呈现低多样性且由特定病原体主导的特征，并揭示了细菌与噬菌体间的复杂互作网络。研究结果为开发多病原体诊断工具和优化饲养场防疫策略提供了科学依据。
-  - Tags：`query:pathoai`
-- [Repurposing Tirazone as an effective quorum-sensing inhibitor against Pseudomonas aeruginosa virulence and biofilm formation.](#/202604/02/202604/02/41708876-repurposing-tirazone-as-an-effective-quorum-sensing-inhibitor-against-pseudomonas-aeruginosa-virulence-and-biofilm-formation)
-  - TLDR：针对铜绿假单胞菌耐药性难题，本研究通过药物重定位策略从DrugBank数据库中筛选出抗肿瘤药物替拉扎明（Tirazone）。研究发现该药物能竞争性结合LasR、RhlR和PqsR三大核心群体感应蛋白，在低浓度下显著抑制细菌毒力因子分泌、运动能力及生物膜形成，并在动物模型中展现出显著的抗感染保护作用及与抗生素的协同杀菌潜力，为开发新型抗毒力联合疗法提供了依据。
-  - Tags：`query:pathoai`
-- [Microbiome alterations and host-pathogen interactions in paratuberculosis: A one health perspective.](#/202604/02/202604/02/41734518-microbiome-alterations-and-host-pathogen-interactions-in-paratuberculosis-a-one-health-perspective)
-  - TLDR：副结核病（JD）是由MAP引起的慢性肠道感染，严重影响畜牧业及公共卫生。本文综述了MAP如何通过诱导肠道菌群失调（如减少丁酸产生菌、增加促炎菌）来逃避宿主免疫并维持生存。研究提出了一个将JD作为慢性感染范式的框架，强调了菌群稳定性与病原体持久性之间的关系，为基于菌群的诊断和治疗提供了“全健康”视角的理论支持，并揭示了其与人类克罗恩病的潜在联系。
-  - Tags：`query:pathoai`
-- [Hi-C Links Reveal Viral Activity and Infection Within the Free-Living Microbial Community of a Secondary Chlorophyll Maximum in the Eastern Tropical North Pacific.](#/202604/02/202604/02/41912361-hi-c-links-reveal-viral-activity-and-infection-within-the-free-living-microbial-community-of-a-secondary-chlorophyll-maximum-in-the-eastern-tropical-north-pacific)
-  - TLDR：针对东热带北太平洋缺氧区（ODZ）中大量微生物和病毒难以培养、生态功能不明的问题，本研究结合Hi-C物理邻近连接技术与长短读长宏基因组测序，分析了次级叶绿素最大值层的病毒-宿主相互作用。研究成功识别出75个与微生物基因组关联的病毒序列，揭示了19对传统方法难以预测的新型感染关系，并发现这些宿主多具备反硝化潜力。该成果证明了Hi-C在揭示未培养微生物群落病毒活动中的关键作用，为理解海洋氮循环中的病毒调控提供了新视角。
-  - Tags：`query:seqai`

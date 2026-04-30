@@ -1,0 +1,59 @@
+Title: A novel serum metabolite classifier for identifying Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD) integrating metabolomics and machine learning - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42056921/
+
+Markdown Content:
+Actions
+
+. 2026 Apr 29.
+
+doi: 10.1186/s12876-026-04842-1.  Online ahead of print.
+
+[Yiru Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+Y&cauthor_id=42056921)[#](https://pubmed.ncbi.nlm.nih.gov/42056921/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/42056921/#full-view-affiliation-1 "Department of Laboratory Medicine, the Second Xiangya Hospital, Central South University, Changsha, Hunan, China.")[3](https://pubmed.ncbi.nlm.nih.gov/42056921/#full-view-affiliation-3 "Department of Laboratory Medicine, Zhujiang Hospital, Southern Medical University, Guangzhou, China."),[Ziyang Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+Z&cauthor_id=42056921)[1](https://pubmed.ncbi.nlm.nih.gov/42056921/#full-view-affiliation-1 "Department of Laboratory Medicine, the Second Xiangya Hospital, Central South University, Changsha, Hunan, China.")[2](https://pubmed.ncbi.nlm.nih.gov/42056921/#full-view-affiliation-2 "Center for Clinical Molecular Diagnostics, the Second Xiangya Hospital, Central South University, Changsha, Hunan, China."),[Zhiyang Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+Z&cauthor_id=42056921)[1](https://pubmed.ncbi.nlm.nih.gov/42056921/#full-view-affiliation-1 "Department of Laboratory Medicine, the Second Xiangya Hospital, Central South University, Changsha, Hunan, China.")[2](https://pubmed.ncbi.nlm.nih.gov/42056921/#full-view-affiliation-2 "Center for Clinical Molecular Diagnostics, the Second Xiangya Hospital, Central South University, Changsha, Hunan, China."),[Zhe Guo](https://pubmed.ncbi.nlm.nih.gov/?term=Guo+Z&cauthor_id=42056921)[1](https://pubmed.ncbi.nlm.nih.gov/42056921/#full-view-affiliation-1 "Department of Laboratory Medicine, the Second Xiangya Hospital, Central South University, Changsha, Hunan, China.")[2](https://pubmed.ncbi.nlm.nih.gov/42056921/#full-view-affiliation-2 "Center for Clinical Molecular Diagnostics, the Second Xiangya Hospital, Central South University, Changsha, Hunan, China."),[Weimin Wu](https://pubmed.ncbi.nlm.nih.gov/?term=Wu+W&cauthor_id=42056921)[1](https://pubmed.ncbi.nlm.nih.gov/42056921/#full-view-affiliation-1 "Department of Laboratory Medicine, the Second Xiangya Hospital, Central South University, Changsha, Hunan, China.")[2](https://pubmed.ncbi.nlm.nih.gov/42056921/#full-view-affiliation-2 "Center for Clinical Molecular Diagnostics, the Second Xiangya Hospital, Central South University, Changsha, Hunan, China."),[Li Tan](https://pubmed.ncbi.nlm.nih.gov/?term=Tan+L&cauthor_id=42056921)[1](https://pubmed.ncbi.nlm.nih.gov/42056921/#full-view-affiliation-1 "Department of Laboratory Medicine, the Second Xiangya Hospital, Central South University, Changsha, Hunan, China.")[2](https://pubmed.ncbi.nlm.nih.gov/42056921/#full-view-affiliation-2 "Center for Clinical Molecular Diagnostics, the Second Xiangya Hospital, Central South University, Changsha, Hunan, China."),[Lini Dong](https://pubmed.ncbi.nlm.nih.gov/?term=Dong+L&cauthor_id=42056921)[4](https://pubmed.ncbi.nlm.nih.gov/42056921/#full-view-affiliation-4 "Department of Geriatrics, the Second Xiangya Hospital, Central South University, Changsha, Hunan, China."),[Xiangyu Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+X&cauthor_id=42056921)[4](https://pubmed.ncbi.nlm.nih.gov/42056921/#full-view-affiliation-4 "Department of Geriatrics, the Second Xiangya Hospital, Central South University, Changsha, Hunan, China."),[Xing Lyu](https://pubmed.ncbi.nlm.nih.gov/?term=Lyu+X&cauthor_id=42056921)[1](https://pubmed.ncbi.nlm.nih.gov/42056921/#full-view-affiliation-1 "Department of Laboratory Medicine, the Second Xiangya Hospital, Central South University, Changsha, Hunan, China.")[2](https://pubmed.ncbi.nlm.nih.gov/42056921/#full-view-affiliation-2 "Center for Clinical Molecular Diagnostics, the Second Xiangya Hospital, Central South University, Changsha, Hunan, China."),[Min Hu](https://pubmed.ncbi.nlm.nih.gov/?term=Hu+M&cauthor_id=42056921)[#](https://pubmed.ncbi.nlm.nih.gov/42056921/#full-view-equal-contrib-explanation "Contributed equally")[5](https://pubmed.ncbi.nlm.nih.gov/42056921/#full-view-affiliation-5 "Department of Laboratory Medicine, the Second Xiangya Hospital, Central South University, Changsha, Hunan, China. huminjyk@csu.edu.cn.")[6](https://pubmed.ncbi.nlm.nih.gov/42056921/#full-view-affiliation-6 "Center for Clinical Molecular Diagnostics, the Second Xiangya Hospital, Central South University, Changsha, Hunan, China. huminjyk@csu.edu.cn."),[Qichen Long](https://pubmed.ncbi.nlm.nih.gov/?term=Long+Q&cauthor_id=42056921)[#](https://pubmed.ncbi.nlm.nih.gov/42056921/#full-view-equal-contrib-explanation "Contributed equally")[7](https://pubmed.ncbi.nlm.nih.gov/42056921/#full-view-affiliation-7 "Department of Laboratory Medicine, the Second Xiangya Hospital, Central South University, Changsha, Hunan, China. qclong@csu.edu.cn.")[8](https://pubmed.ncbi.nlm.nih.gov/42056921/#full-view-affiliation-8 "Center for Clinical Molecular Diagnostics, the Second Xiangya Hospital, Central South University, Changsha, Hunan, China. qclong@csu.edu.cn.")
+
+Affiliations
+
+*    PMID: **42056921**
+*    DOI: [10.1186/s12876-026-04842-1](https://doi.org/10.1186/s12876-026-04842-1)
+
+## A novel serum metabolite classifier for identifying Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD) integrating metabolomics and machine learning
+
+Binghui Li et al. BMC Gastroenterol.2026.
+
+## Abstract
+
+**Background:** Metabolic dysfunction-associated steatotic liver disease (MASLD) presents a growing global health burden, while reliable non-invasive biomarkers for identifying affected individuals remain limited. This study aimed to characterize serum metabolomic signatures associated with steatosis and fibrosis and to develop a clinically applicable metabolite-based classifier.
+
+**Methods:** Untargeted serum metabolomics was performed in a FibroScan-characterized discovery cohort (n = 35) to identify candidate metabolic features associated with hepatic steatosis and fibrosis burden. To provide biological context for the observed metabolic alterations, 16 S rDNA sequencing was subsequently conducted in paired fecal samples from a subset of participants (n = 27). Differential metabolites were then subjected to LASSO regression for feature selection and used to construct a random forest diagnostic model in a validation cohort comprising healthy controls (n = 19) and ultrasound-confirmed MASLD patients (n = 52).
+
+**Results:** Metabolomic profiling revealed distinct metabolic patterns across different degrees of steatosis and fibrosis. A total of 55 and 46 metabolites were identified as differentially abundant in relation to steatosis and fibrosis burden, respectively. Microbiome analysis indicated alterations in gut microbial composition, and integrative correlation analysis suggested several potential microbe-metabolite associations, including two metabolite-genus pairs showing relatively strong correlations. LASSO regression selected a panel of ten metabolites as the most informative diagnostic features. Using these metabolites as input variables, a random forest classifier was constructed and achieved an area under the receiver operating characteristic curve (AUROC) of 0.87. Incorporation of four clinical variables (BMI, ALT, triglycerides, and HDL cholesterol) further improved model performance, yielding an AUROC of 0.94.
+
+**Conclusion:** This study characterizes systemic metabolic alterations associated with MASLD and presents a non-invasive diagnostic model integrating serum metabolites with clinical indicators. Together, these findings highlight the potential utility of metabolomics-assisted approaches for identifying MASLD and for improving biological understanding of disease-associated metabolic changes.
+
+**Keywords:** Chinese; Gut microbiota; Machine learning; Metabolic dysfunction-associated steatotic liver disease; Metabolomics.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Ethics approval and consent to participate: All methods adhered to relevant guidelines and regulations and were approved by the ethics committee of the Second Xiangya Hospital of Central South University (number 2023-Z0168). The requirement for written informed consent was waived due to the retrospective design, in accordance with the Declaration of Helsinki. Consent for publication: Not applicable. Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Integrating Gut Microbiome and Metabolome to Gain Insight into Metabolic Dysfunction-Associated Steatotic Liver Disease.](https://pubmed.ncbi.nlm.nih.gov/41142530/)
+
+Zhang X, Chen J, van Kleef LA, Medina-Gomez C, van Meurs JBJ, Ikram MA, Kraaij R, Brouwer WP, de Knegt RJ, Ahmad S, Ghanbari M.Zhang X, et al.Gastro Hep Adv. 2025 Aug 29;4(10):100783. doi: 10.1016/j.gastha.2025.100783. eCollection 2025.Gastro Hep Adv. 2025.PMID: 41142530 Free PMC article. 
+*   [Alisol B ameliorated metabolic dysfunction-associated steatotic liver disease via regulating purine metabolism and restoring the gut microbiota disorders.](https://pubmed.ncbi.nlm.nih.gov/40582207/)
+
+Yiyou L, Congcong Z, Guilin R, Jiannan Q, Yilong F, Fucai L, Qingsheng L, Zhiling Y, Lin C, Xiaobing D.Yiyou L, et al.Phytomedicine. 2025 Sep;145:156992. doi: 10.1016/j.phymed.2025.156992. Epub 2025 Jun 22.Phytomedicine. 2025.PMID: 40582207 
+*   [Extracellular vesicles as biomarkers for metabolic dysfunction-associated steatotic liver disease staging using explainable artificial intelligence.](https://pubmed.ncbi.nlm.nih.gov/40539197/)
+
+Trifylli EM, Angelakis A, Kriebardis AG, Papadopoulos N, Fortis SP, Pantazatou V, Koskinas J, Kranidioti H, Koustas E, Sarantis P, Manolakopoulos S, Deutsch M.Trifylli EM, et al.World J Gastroenterol. 2025 Jun 14;31(22):106937. doi: 10.3748/wjg.v31.i22.106937.World J Gastroenterol. 2025.PMID: 40539197 Free PMC article. 
+*   ["Trust your gut": exploring the connection between gut microbiome dysbiosis and the advancement of Metabolic Associated Steatosis Liver Disease (MASLD)/Metabolic Associated Steatohepatitis (MASH): a systematic review of animal and human studies.](https://pubmed.ncbi.nlm.nih.gov/41001122/)
+
+Bahitham W, Banoun Y, Aljahdali M, Almuaiqly G, Bahshwan SM, Aljahdali L, Sanai FM, Rosado AS, Sergi CM.Bahitham W, et al.Front Nutr. 2025 Sep 10;12:1637071. doi: 10.3389/fnut.2025.1637071. eCollection 2025.Front Nutr. 2025.PMID: 41001122 Free PMC article.Review. 
+*   [Application of machine learning and deep learning in metabolic dysfunction-associated steatotic liver disease: a systematic review and meta-analysis.](https://pubmed.ncbi.nlm.nih.gov/40850679/)
+
+Zhang H, Wu X, Ni W, Wu J, Zhou S, Jia L, Jin M, Zhao S, Jiang Z, Wu C, Sun Y, Shi J, Li J.Zhang H, et al.J Adv Res. 2026 May;83:933-946. doi: 10.1016/j.jare.2025.08.042. Epub 2025 Aug 22.J Adv Res. 2026.PMID: 40850679 Review.

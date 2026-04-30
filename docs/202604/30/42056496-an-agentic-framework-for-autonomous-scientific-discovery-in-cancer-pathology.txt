@@ -1,0 +1,69 @@
+Title: An agentic framework for autonomous scientific discovery in cancer pathology - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42056496/
+
+Markdown Content:
+Actions
+
+. 2026 Apr 29.
+
+doi: 10.1038/s41591-026-04357-y.  Online ahead of print.
+
+[Bide Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+B&cauthor_id=42056496)[#](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-1 "Institute of Pathology, University Hospital Cologne, Medical Faculty, University of Cologne, Cologne, Germany."),[Ines Aring](https://pubmed.ncbi.nlm.nih.gov/?term=Aring+I&cauthor_id=42056496)[1](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-1 "Institute of Pathology, University Hospital Cologne, Medical Faculty, University of Cologne, Cologne, Germany."),[Marcus Bauer](https://pubmed.ncbi.nlm.nih.gov/?term=Bauer+M&cauthor_id=42056496)[2](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-2 "Institute of Pathology, University Hospital Halle, Halle, Germany."),[Lennert Glamann](https://pubmed.ncbi.nlm.nih.gov/?term=Glamann+L&cauthor_id=42056496)[2](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-2 "Institute of Pathology, University Hospital Halle, Halle, Germany."),[Michael Wessolly](https://pubmed.ncbi.nlm.nih.gov/?term=Wessolly+M&cauthor_id=42056496)[3](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-3 "Institute of Pathology, University Hospital Essen, Essen, Germany."),[Kyra Johnson](https://pubmed.ncbi.nlm.nih.gov/?term=Johnson+K&cauthor_id=42056496)[1](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-1 "Institute of Pathology, University Hospital Cologne, Medical Faculty, University of Cologne, Cologne, Germany."),[Heike Göbel](https://pubmed.ncbi.nlm.nih.gov/?term=G%C3%B6bel+H&cauthor_id=42056496)[1](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-1 "Institute of Pathology, University Hospital Cologne, Medical Faculty, University of Cologne, Cologne, Germany."),[Tristan Lerbs](https://pubmed.ncbi.nlm.nih.gov/?term=Lerbs+T&cauthor_id=42056496)[1](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-1 "Institute of Pathology, University Hospital Cologne, Medical Faculty, University of Cologne, Cologne, Germany."),[Taban Sangenne](https://pubmed.ncbi.nlm.nih.gov/?term=Sangenne+T&cauthor_id=42056496)[1](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-1 "Institute of Pathology, University Hospital Cologne, Medical Faculty, University of Cologne, Cologne, Germany."),[Peter Herrmann](https://pubmed.ncbi.nlm.nih.gov/?term=Herrmann+P&cauthor_id=42056496)[3](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-3 "Institute of Pathology, University Hospital Essen, Essen, Germany."),[Fabian Mairinger](https://pubmed.ncbi.nlm.nih.gov/?term=Mairinger+F&cauthor_id=42056496)[3](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-3 "Institute of Pathology, University Hospital Essen, Essen, Germany."),[Christopher Kopp](https://pubmed.ncbi.nlm.nih.gov/?term=Kopp+C&cauthor_id=42056496)[4](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-4 "Department of Otorhinolaryngology, Head and Neck Surgery, Faculty of Medicine, University of Cologne, Cologne, Germany."),[Sebastian Michels](https://pubmed.ncbi.nlm.nih.gov/?term=Michels+S&cauthor_id=42056496)[5](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-5 "Clinic I of Internal Medicine, Center for Integrated Oncology, University Hospital Cologne, Cologne, Germany."),[Anna Rasokat](https://pubmed.ncbi.nlm.nih.gov/?term=Rasokat+A&cauthor_id=42056496)[5](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-5 "Clinic I of Internal Medicine, Center for Integrated Oncology, University Hospital Cologne, Cologne, Germany."),[Matthias Heldwein](https://pubmed.ncbi.nlm.nih.gov/?term=Heldwein+M&cauthor_id=42056496)[6](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-6 "Department of Cardiothoracic Surgery, University Hospital Cologne, Cologne, Germany."),[Steffen Wagner](https://pubmed.ncbi.nlm.nih.gov/?term=Wagner+S&cauthor_id=42056496)[7](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-7 "Department of Otorhinolaryngology, Head and Neck Surgery, University of Giessen, Giessen, Germany."),[Birgid Schömig-Markiefka](https://pubmed.ncbi.nlm.nih.gov/?term=Sch%C3%B6mig-Markiefka+B&cauthor_id=42056496)[1](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-1 "Institute of Pathology, University Hospital Cologne, Medical Faculty, University of Cologne, Cologne, Germany."),[Jürgen Wolf](https://pubmed.ncbi.nlm.nih.gov/?term=Wolf+J&cauthor_id=42056496)[5](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-5 "Clinic I of Internal Medicine, Center for Integrated Oncology, University Hospital Cologne, Cologne, Germany."),[Sylvia Hartmann](https://pubmed.ncbi.nlm.nih.gov/?term=Hartmann+S&cauthor_id=42056496)[3](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-3 "Institute of Pathology, University Hospital Essen, Essen, Germany."),[Claudia Wickenhauser](https://pubmed.ncbi.nlm.nih.gov/?term=Wickenhauser+C&cauthor_id=42056496)[2](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-2 "Institute of Pathology, University Hospital Halle, Halle, Germany."),[Andrey Bychkov](https://pubmed.ncbi.nlm.nih.gov/?term=Bychkov+A&cauthor_id=42056496)[8](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-8 "Kameda Medical Center, Kamogawa, and Nagasaki University, Nagasaki, Japan."),[Jens Peter Klussmann](https://pubmed.ncbi.nlm.nih.gov/?term=Klussmann+JP&cauthor_id=42056496)[4](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-4 "Department of Otorhinolaryngology, Head and Neck Surgery, Faculty of Medicine, University of Cologne, Cologne, Germany."),[Alexander Quaas](https://pubmed.ncbi.nlm.nih.gov/?term=Quaas+A&cauthor_id=42056496)[1](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-1 "Institute of Pathology, University Hospital Cologne, Medical Faculty, University of Cologne, Cologne, Germany."),[Reinhard Buettner](https://pubmed.ncbi.nlm.nih.gov/?term=Buettner+R&cauthor_id=42056496)[1](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-1 "Institute of Pathology, University Hospital Cologne, Medical Faculty, University of Cologne, Cologne, Germany."),[Yuri Tolkach](https://pubmed.ncbi.nlm.nih.gov/?term=Tolkach+Y&cauthor_id=42056496)[9](https://pubmed.ncbi.nlm.nih.gov/42056496/#full-view-affiliation-9 "Institute of Pathology, University Hospital Cologne, Medical Faculty, University of Cologne, Cologne, Germany. iurii.tolkach@uk-koeln.de.")
+
+Affiliations
+
+*    PMID: **42056496**
+*    DOI: [10.1038/s41591-026-04357-y](https://doi.org/10.1038/s41591-026-04357-y)
+
+## An agentic framework for autonomous scientific discovery in cancer pathology
+
+Florian Trost et al. Nat Med.2026.
+
+## Abstract
+
+Artificial intelligence has advanced cancer pathology, but many systems still depend on hand-crafted features, are hard to explain and rely on fragmented workflows. We introduce SPARK (System of Pathology Agents for Research and Knowledge), a foundational agentic artificial intelligence approach that uses language as a universal interface to autonomously generate biologically driven concepts for tumor analysis. SPARK turns biological ideas into analytical tools and works directly with complex pathology data without extra model training. We evaluated SPARK across 18 patient cohorts spanning five cancer types (lung adenocarcinoma, lung squamous cell carcinoma, colorectal cancer, breast cancer and oropharyngeal squamous cell carcinoma) and more than 5,400 patients with available histopathology images and clinical/follow-up information, in both prognostic and predictive settings and on a well characterized spatial biology breast cancer dataset (patient n = 625). We found that SPARK produced clinically and biologically relevant concepts correlated with prognosis, known pathological variables and predictive biomarkers, including patterns of tumor progression and temporal change inferred from static images. A dedicated module allows for human interaction with SPARK. Further prospective validation is needed to evaluate the clinical utility of the tools created by SPARK. All code, parameters and results are openly released to help researchers and clinicians improve diagnostic precision and deepen tumor biology insights.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Agentic AI in Radiology: Evolution from Large Language Models to Future Clinical Integration.](https://pubmed.ncbi.nlm.nih.gov/41532836/)
+
+Khosravi B, Rouzrokh P, Akinci D'Antonoli T, Moassefi M, Faghani S, Mansuri A, Bressem K, Tejani A, Gichoya J.Khosravi B, et al.Radiol Artif Intell. 2026 Mar;8(2):e250651. doi: 10.1148/ryai.250651.Radiol Artif Intell. 2026.PMID: 41532836 Review. 
+*   [Next-generation radiomic sequencing in non-small cell lung cancer: an alternative model to predict mutations from [18F]FDG PET/CT.](https://pubmed.ncbi.nlm.nih.gov/41067858/)
+
+Monaco L, Crivellaro C, De Bernardi E, Bono F, Casati G, Seminati D, Cortinovis DL, Elisei F, L'Imperio V, Landoni C, Pagni F, Turolla EA, Messa C, Guerra L.Monaco L, et al.Ther Adv Respir Dis. 2025 Jan-Dec;19:17534666251384433. doi: 10.1177/17534666251384433. Epub 2025 Oct 9.Ther Adv Respir Dis. 2025.PMID: 41067858 Free PMC article. 
+*   [Integrating computational pathology and multi-transcriptomics to characterize lung adenocarcinoma heterogeneity and prognostic modeling.](https://pubmed.ncbi.nlm.nih.gov/40474806/)
+
+Li Z, Qiao W, Yu S, Fan B, Yang M, Wu M, Qiu F, Wang J.Li Z, et al.Int J Surg. 2025 Aug 1;111(8):5162-5181. doi: 10.1097/JS9.0000000000002639. Epub 2025 Jun 5.Int J Surg. 2025.PMID: 40474806 
+*   [Toward autonomous discovery: agentic AI and the future of ophthalmic research.](https://pubmed.ncbi.nlm.nih.gov/41175385/)
+
+Soetikno BT, Nielsen CS, Pollreisz A, Ting DSW.Soetikno BT, et al.Curr Opin Ophthalmol. 2026 Jan 1;37(1):60-65. doi: 10.1097/ICU.0000000000001179. Epub 2025 Oct 22.Curr Opin Ophthalmol. 2026.PMID: 41175385 Review. 
+*   [Application of artificial intelligence and digital tools in cancer pathology.](https://pubmed.ncbi.nlm.nih.gov/41241581/)
+
+Shaktah LA, Carrero ZI, Hewitt KJ, Gustav M, Cecchini M, Foersch S, Berezowska S, Kather JN.Shaktah LA, et al.Lancet Digit Health. 2025 Oct;7(10):100933. doi: 10.1016/j.landig.2025.100933. Epub 2025 Nov 14.Lancet Digit Health. 2025.PMID: 41241581 Review. 
+
+## References
+
+1.       1.    Bera, K., Schalper, K. A., Rimm, D. L., Velcheti, V. & Madabhushi, A. Artificial intelligence in digital pathology — new tools for diagnosis and precision oncology. Nat. Rev. Clin. Oncol. 16, 703–715 (2019). - [DOI](https://doi.org/10.1038/s41571-019-0252-y) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/31399699/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/6880861/)
+
+2.       1.    McGenity, C. et al. Artificial intelligence in digital pathology: a systematic review and meta-analysis of diagnostic test accuracy. npj Digit. Med. 7, 1–19 (2024). - [DOI](https://doi.org/10.1038/s41746-024-01106-8)
+
+3.       1.    Wang, X. et al. A pathology foundation model for cancer diagnosis and prognosis prediction. Nature 634, 970–978 (2024). - [DOI](https://doi.org/10.1038/s41586-024-07894-z) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/39232164/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/12186853/)
+
+4.       1.    Kludt, C. et al. Next-generation lung cancer pathology: development and validation of diagnostic and prognostic algorithms. Cell Rep. Med. [https://doi.org/10.1016/J.XCRM.2024.101697](https://doi.org/10.1016/J.XCRM.2024.101697) (2024). 
+
+5.       1.    Carvalho, R. et al. AI-based tumor-stroma ratio quantification algorithm: comprehensive evaluation of prognostic role in primary colorectal cancer. Virchows Arch. [https://doi.org/10.1007/S00428-025-04048-Y](https://doi.org/10.1007/S00428-025-04048-Y) (2025). 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Nature Publishing Group](https://doi.org/10.1038/s41591-026-04357-y)

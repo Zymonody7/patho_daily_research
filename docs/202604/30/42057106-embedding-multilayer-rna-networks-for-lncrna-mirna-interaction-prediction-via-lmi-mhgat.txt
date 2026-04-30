@@ -1,0 +1,385 @@
+Title: Embedding multilayer RNA networks for lncRNA-miRNA interaction prediction via LMI-MHGAT - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42057106/
+
+Markdown Content:
+# Embedding multilayer RNA networks for lncRNA-miRNA interaction prediction via LMI-MHGAT - PubMed
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/42057106/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42057106%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/42057106/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/42057106/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/42057106/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/42057106/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/ffd2ec78-62e5-42af-9cba-3b683627d12e/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/42057106/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/42057106/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/42057106/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42057106%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42057106%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/42057106/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Save citation to file
+
+ Format:  
+
+ Create file  Cancel 
+
+## Email citation
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/42057106/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/42057106/#)
+
+ Add  Cancel 
+
+## Your saved search
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/42057106/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+## Create a file for external citation management software
+
+ Create file  Cancel 
+
+## Your RSS Feed
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/42057106/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/42057106/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/42057106/#abstract)
+*   [Conflict of interest statement](https://pubmed.ncbi.nlm.nih.gov/42057106/#conflict-of-interest)
+*   [Similar articles](https://pubmed.ncbi.nlm.nih.gov/42057106/#similar)
+*   [Grants and funding](https://pubmed.ncbi.nlm.nih.gov/42057106/#grants)
+
+ BMC Biol 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22BMC+Biol%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22BMC+Biol%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42057106/#)
+
+. 2026 Apr 30.
+
+ doi: 10.1186/s12915-026-02600-z.  Online ahead of print. 
+
+# Embedding multilayer RNA networks for lncRNA-miRNA interaction prediction via LMI-MHGAT
+
+[Jing Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+J&cauthor_id=42057106)[1](https://pubmed.ncbi.nlm.nih.gov/42057106/#full-view-affiliation-1 "School of Automation (School of Artificial Intelligence), Beijing Information Science and Technology University, Beijing, China.")[2](https://pubmed.ncbi.nlm.nih.gov/42057106/#full-view-affiliation-2 "School of Computer Science and Engineering, Xi'an University of Technology, 710048, Xi'an, Shaanxi, China."),[Peimeng Zhen](https://pubmed.ncbi.nlm.nih.gov/?term=Zhen+P&cauthor_id=42057106)[3](https://pubmed.ncbi.nlm.nih.gov/42057106/#full-view-affiliation-3 "School of Computer Science, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China.")[4](https://pubmed.ncbi.nlm.nih.gov/42057106/#full-view-affiliation-4 "Key Laboratory of Big Data Storage and Management, Ministry of Industry and Information Technology, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China."),[Zhengxuan Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+Z&cauthor_id=42057106)[3](https://pubmed.ncbi.nlm.nih.gov/42057106/#full-view-affiliation-3 "School of Computer Science, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China.")[4](https://pubmed.ncbi.nlm.nih.gov/42057106/#full-view-affiliation-4 "Key Laboratory of Big Data Storage and Management, Ministry of Industry and Information Technology, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China."),[Yongtian Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+Y&cauthor_id=42057106)[3](https://pubmed.ncbi.nlm.nih.gov/42057106/#full-view-affiliation-3 "School of Computer Science, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China.")[4](https://pubmed.ncbi.nlm.nih.gov/42057106/#full-view-affiliation-4 "Key Laboratory of Big Data Storage and Management, Ministry of Industry and Information Technology, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China."),[Jiajie Peng](https://pubmed.ncbi.nlm.nih.gov/?term=Peng+J&cauthor_id=42057106)[3](https://pubmed.ncbi.nlm.nih.gov/42057106/#full-view-affiliation-3 "School of Computer Science, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China.")[4](https://pubmed.ncbi.nlm.nih.gov/42057106/#full-view-affiliation-4 "Key Laboratory of Big Data Storage and Management, Ministry of Industry and Information Technology, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China."),[Yifu Xiao](https://pubmed.ncbi.nlm.nih.gov/?term=Xiao+Y&cauthor_id=42057106)[5](https://pubmed.ncbi.nlm.nih.gov/42057106/#full-view-affiliation-5 "School of Computer Science, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China. xiaoyifu@csu.edu.cn.")[6](https://pubmed.ncbi.nlm.nih.gov/42057106/#full-view-affiliation-6 "School of Computer Science and Engineering, Central South University, 410083, Changsha, Hunan, China. xiaoyifu@csu.edu.cn."),[Tao Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+T&cauthor_id=42057106)[7](https://pubmed.ncbi.nlm.nih.gov/42057106/#full-view-affiliation-7 "School of Computer Science, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China. twang@nwpu.edu.cn.")[8](https://pubmed.ncbi.nlm.nih.gov/42057106/#full-view-affiliation-8 "Key Laboratory of Big Data Storage and Management, Ministry of Industry and Information Technology, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China. twang@nwpu.edu.cn.")
+
+ Affiliations  Expand 
+
+### Affiliations
+
+*   1 School of Automation (School of Artificial Intelligence), Beijing Information Science and Technology University, Beijing, China.
+*   2 School of Computer Science and Engineering, Xi'an University of Technology, 710048, Xi'an, Shaanxi, China.
+*   3 School of Computer Science, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China.
+*   4 Key Laboratory of Big Data Storage and Management, Ministry of Industry and Information Technology, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China.
+*   5 School of Computer Science, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China. xiaoyifu@csu.edu.cn.
+*   6 School of Computer Science and Engineering, Central South University, 410083, Changsha, Hunan, China. xiaoyifu@csu.edu.cn.
+*   7 School of Computer Science, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China. twang@nwpu.edu.cn.
+*   8 Key Laboratory of Big Data Storage and Management, Ministry of Industry and Information Technology, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China. twang@nwpu.edu.cn.
+
+*    PMID: **42057106**
+*    DOI: [10.1186/s12915-026-02600-z](https://doi.org/10.1186/s12915-026-02600-z)
+
+ Item in Clipboard 
+
+# Embedding multilayer RNA networks for lncRNA-miRNA interaction prediction via LMI-MHGAT
+
+Jing Chen et al. BMC Biol.2026.
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ BMC Biol 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22BMC+Biol%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22BMC+Biol%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42057106/#)
+
+. 2026 Apr 30.
+
+ doi: 10.1186/s12915-026-02600-z.  Online ahead of print. 
+
+### Authors
+
+[Jing Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+J&cauthor_id=42057106)[1](https://pubmed.ncbi.nlm.nih.gov/42057106/#short-view-affiliation-1 "School of Automation (School of Artificial Intelligence), Beijing Information Science and Technology University, Beijing, China.")[2](https://pubmed.ncbi.nlm.nih.gov/42057106/#short-view-affiliation-2 "School of Computer Science and Engineering, Xi'an University of Technology, 710048, Xi'an, Shaanxi, China."),[Peimeng Zhen](https://pubmed.ncbi.nlm.nih.gov/?term=Zhen+P&cauthor_id=42057106)[3](https://pubmed.ncbi.nlm.nih.gov/42057106/#short-view-affiliation-3 "School of Computer Science, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China.")[4](https://pubmed.ncbi.nlm.nih.gov/42057106/#short-view-affiliation-4 "Key Laboratory of Big Data Storage and Management, Ministry of Industry and Information Technology, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China."),[Zhengxuan Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+Z&cauthor_id=42057106)[3](https://pubmed.ncbi.nlm.nih.gov/42057106/#short-view-affiliation-3 "School of Computer Science, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China.")[4](https://pubmed.ncbi.nlm.nih.gov/42057106/#short-view-affiliation-4 "Key Laboratory of Big Data Storage and Management, Ministry of Industry and Information Technology, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China."),[Yongtian Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+Y&cauthor_id=42057106)[3](https://pubmed.ncbi.nlm.nih.gov/42057106/#short-view-affiliation-3 "School of Computer Science, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China.")[4](https://pubmed.ncbi.nlm.nih.gov/42057106/#short-view-affiliation-4 "Key Laboratory of Big Data Storage and Management, Ministry of Industry and Information Technology, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China."),[Jiajie Peng](https://pubmed.ncbi.nlm.nih.gov/?term=Peng+J&cauthor_id=42057106)[3](https://pubmed.ncbi.nlm.nih.gov/42057106/#short-view-affiliation-3 "School of Computer Science, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China.")[4](https://pubmed.ncbi.nlm.nih.gov/42057106/#short-view-affiliation-4 "Key Laboratory of Big Data Storage and Management, Ministry of Industry and Information Technology, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China."),[Yifu Xiao](https://pubmed.ncbi.nlm.nih.gov/?term=Xiao+Y&cauthor_id=42057106)[5](https://pubmed.ncbi.nlm.nih.gov/42057106/#short-view-affiliation-5 "School of Computer Science, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China. xiaoyifu@csu.edu.cn.")[6](https://pubmed.ncbi.nlm.nih.gov/42057106/#short-view-affiliation-6 "School of Computer Science and Engineering, Central South University, 410083, Changsha, Hunan, China. xiaoyifu@csu.edu.cn."),[Tao Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+T&cauthor_id=42057106)[7](https://pubmed.ncbi.nlm.nih.gov/42057106/#short-view-affiliation-7 "School of Computer Science, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China. twang@nwpu.edu.cn.")[8](https://pubmed.ncbi.nlm.nih.gov/42057106/#short-view-affiliation-8 "Key Laboratory of Big Data Storage and Management, Ministry of Industry and Information Technology, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China. twang@nwpu.edu.cn.")
+
+### Affiliations
+
+*   1 School of Automation (School of Artificial Intelligence), Beijing Information Science and Technology University, Beijing, China.
+*   2 School of Computer Science and Engineering, Xi'an University of Technology, 710048, Xi'an, Shaanxi, China.
+*   3 School of Computer Science, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China.
+*   4 Key Laboratory of Big Data Storage and Management, Ministry of Industry and Information Technology, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China.
+*   5 School of Computer Science, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China. xiaoyifu@csu.edu.cn.
+*   6 School of Computer Science and Engineering, Central South University, 410083, Changsha, Hunan, China. xiaoyifu@csu.edu.cn.
+*   7 School of Computer Science, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China. twang@nwpu.edu.cn.
+*   8 Key Laboratory of Big Data Storage and Management, Ministry of Industry and Information Technology, Northwestern Polytechnical University, 1 Dongxiang Rd., 710072, Xi'an, China. twang@nwpu.edu.cn.
+
+*    PMID: **42057106**
+*    DOI: [10.1186/s12915-026-02600-z](https://doi.org/10.1186/s12915-026-02600-z)
+
+ Item in Clipboard 
+
+Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Abstract
+
+**Background:** The identification of lncRNA-miRNA interactions (LMIs) is crucial for deciphering post-transcriptional regulatory networks and their roles in development and disease. While computational methods have been developed to predict LMIs, existing approaches are often limited by an inability to effectively integrate multimodal biological data and to handle the severe class imbalance inherent to biological networks.
+
+**Results:** To overcome these limitations, we present LMI-MHGAT, a novel deep learning framework for LMI prediction based on a Multilayer Heterogeneous Graph Attention network. Our model integrates diverse data-including RNA sequences, expression profiles, and known molecular interactions-into a unified graph representation. A key innovation is the use of a graph attention mechanism that dynamically learns to weight information from different relational layers, enabling the model to learn robust embeddings for lncRNAs and miRNAs. LMI-MHGAT significantly outperforms 14 existing methods on human LMI data, demonstrating exceptional robustness under severe class imbalance (positive-to-negative ratio 1:60). The model generalizes effectively, achieving state-of-the-art performance on rat and plant datasets. Case studies confirm its ability to recover disease-associated regulatory axes and predict novel, biologically plausible interactions.
+
+**Conclusions:** LMI-MHGAT provides a more powerful and robust framework for LMI prediction by simultaneously addressing key limitations in data utilization and integration. The tool is freely accessible at https://github.com/Zhenpm/LMI-MHGAT.
+
+**Keywords:** Deep learning; Imbalanced network; LncRNA-miRNA interaction; Multilayer heterogeneous RNA network.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Ethics approval and consent to participate: Not applicable. Consent for publication: Not applicable. Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Plant lncRNA-miRNA Interaction Prediction Based on Counterfactual Heterogeneous Graph Attention Network.](https://pubmed.ncbi.nlm.nih.gov/39382820/)He Y, Ning Z, Zhu X, Zhang Y, Liu C, Jiang S, Yuan Z, Zhang H.He Y, et al.Interdiscip Sci. 2025 Jun;17(2):244-256. doi: 10.1007/s12539-024-00652-9. Epub 2024 Oct 9.Interdiscip Sci. 2025.PMID: 39382820  
+*   [HetGAT-LMI: Interpretable Heterogeneous Graph Attention Method for Predicting lncRNA-miRNA Interactions.](https://pubmed.ncbi.nlm.nih.gov/41432189/)Liu R, Wang Z, Han T, Shao L, Zhao Q.Liu R, et al.J Chem Inf Model. 2026 Jan 12;66(1):796-807. doi: 10.1021/acs.jcim.5c02664. Epub 2025 Dec 23.J Chem Inf Model. 2026.PMID: 41432189  
+*   [Enhancing LncRNA-miRNA interaction prediction with multimodal contrastive representation learning.](https://pubmed.ncbi.nlm.nih.gov/40524425/)Teng Z, Tian Z, Zhou M, Wang G, Tian Z, Zhao Y.Teng Z, et al.Brief Bioinform. 2025 May 1;26(3):bbaf281. doi: 10.1093/bib/bbaf281.Brief Bioinform. 2025.PMID: 40524425 Free PMC article.  
+*   [A Survey of Computational Methods and Databases for lncRNA-MiRNA Interaction Prediction.](https://pubmed.ncbi.nlm.nih.gov/37030713/)Sheng N, Huang L, Gao L, Cao Y, Xie X, Wang Y.Sheng N, et al.IEEE/ACM Trans Comput Biol Bioinform. 2023 Sep-Oct;20(5):2810-2826. doi: 10.1109/TCBB.2023.3264254. Epub 2023 Oct 10.IEEE/ACM Trans Comput Biol Bioinform. 2023.PMID: 37030713 Review.  
+*   [LMI-DForest: A deep forest model towards the prediction of lncRNA-miRNA interactions.](https://pubmed.ncbi.nlm.nih.gov/33120126/)Wang W, Guan X, Khan MT, Xiong Y, Wei DQ.Wang W, et al.Comput Biol Chem. 2020 Dec;89:107406. doi: 10.1016/j.compbiolchem.2020.107406. Epub 2020 Oct 20.Comput Biol Chem. 2020.PMID: 33120126 Review.  
+
+[See all similar articles](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed&from_uid=42057106)
+
+## Related information
+
+*   [GEO Profiles](https://www.ncbi.nlm.nih.gov/geoprofiles?linkname=pubmed_geoprofiles&from_uid=42057106 "GEO records associated with pubmed record")
+
+## Grants and funding
+
+*   [62572391, 62402382/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=62572391%2C+62402382%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 62572391, 62402382/National Natural Science Foundation of China")
+*   [62102319/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=62102319%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 62102319/National Natural Science Foundation of China")
+*   [2025YFC3410200/National Key R&D Program of China](https://pubmed.ncbi.nlm.nih.gov/?term=2025YFC3410200%2FNational+Key+R%26D+Program+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2025YFC3410200/National Key R&D Program of China")
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/42057106/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42057106%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/42057106/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42057106%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42057106%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/42057106/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/?pagename=pubmed%3Apubmed%3Aabstract%3ANONE)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)

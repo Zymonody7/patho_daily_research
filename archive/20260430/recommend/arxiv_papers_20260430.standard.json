@@ -1,0 +1,878 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-04-30T19:59:32.772551+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 4,
+    "deep_cap": 9,
+    "deep_selected": 4,
+    "quick_candidates": 14,
+    "quick_skim_target": 14,
+    "quick_selected": 14
+  },
+  "deep_dive": [
+    {
+      "id": "42056094",
+      "title": "Spatial-aware detection of copy number alterations from spatial transcriptomics using SpaCNA.",
+      "abstract": "Spatial transcriptomics (ST) profiles genome-wide gene expression while preserving spatial context, yet accurate detection of copy number alterations (CNAs) in tumor ST data remains challenging. Here, we present SpaCNA, a computational framework that integrates multi-modal information of ST for robust CNA detection. SpaCNA aggregates expression from neighboring spots with similar morphological features and leverages a hidden Markov random field model incorporating spatial continuity for reliable CNA detection in ST datasets. Further, SpaCNA can reconstruct 3D CNA profiles with spatial continuity across consecutive slices when applied to 3D ST datasets. Extensive benchmarking on simulated data and real cancer datasets demonstrates SpaCNA's superior accuracy, achieving up to 0.95 F1-score in CNA detection and tumor region identification. In applications to breast cancer and colorectal cancer, SpaCNA reveals tumor boundaries and spatially distinct subclones with context-dependent interactions within the microenvironment. Notably, SpaCNA performs CNA detection in a 3D ST dataset of head and neck squamous cell carcinoma, revealing the tumor evolution trajectory of three subclones in 3D space. By providing accurate CNA inference, SpaCNA facilitates the analysis of intratumoral heterogeneity and spatial cancer biology.",
+      "authors": [
+        "Zihui Zhang",
+        "Xiaochen Wang",
+        "Hong Xuan",
+        "Yan Xu",
+        "Zijie Jin",
+        "Ruibin Xi"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-29",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42056094/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Spatial-aware detection of copy number alterations in spatial transcriptomics",
+      "llm_evidence_cn": "空间转录组学中拷贝数变异的空间感知检测",
+      "llm_evidence": "空间转录组学中拷贝数变异的空间感知检测",
+      "canonical_evidence": "空间转录组学中拷贝数变异的空间感知检测",
+      "llm_tldr_en": "Introduces SpaCNA, a framework for robust copy number alteration detection in spatial transcriptomics data.",
+      "llm_tldr_cn": "介绍了SpaCNA，一个用于空间转录组数据中稳健检测拷贝数变异的框架。",
+      "llm_tldr": "介绍了SpaCNA，一个用于空间转录组数据中稳健检测拷贝数变异的框架。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "deep learning and foundation models for spatial transcriptomics proteomics and tissue mapping",
+      "matched_requirement_id": "req-46",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42056496",
+      "title": "An agentic framework for autonomous scientific discovery in cancer pathology.",
+      "abstract": "Artificial intelligence has advanced cancer pathology, but many systems still depend on hand-crafted features, are hard to explain and rely on fragmented workflows. We introduce SPARK (System of Pathology Agents for Research and Knowledge), a foundational agentic artificial intelligence approach that uses language as a universal interface to autonomously generate biologically driven concepts for tumor analysis. SPARK turns biological ideas into analytical tools and works directly with complex pathology data without extra model training. We evaluated SPARK across 18 patient cohorts spanning five cancer types (lung adenocarcinoma, lung squamous cell carcinoma, colorectal cancer, breast cancer and oropharyngeal squamous cell carcinoma) and more than 5,400 patients with available histopathology images and clinical/follow-up information, in both prognostic and predictive settings and on a well characterized spatial biology breast cancer dataset (patient n = 625). We found that SPARK produced clinically and biologically relevant concepts correlated with prognosis, known pathological variables and predictive biomarkers, including patterns of tumor progression and temporal change inferred from static images. A dedicated module allows for human interaction with SPARK. Further prospective validation is needed to evaluate the clinical utility of the tools created by SPARK. All code, parameters and results are openly released to help researchers and clinicians improve diagnostic precision and deepen tumor biology insights.",
+      "authors": [
+        "Florian Trost",
+        "Bide Zhang",
+        "Ines Aring",
+        "Marcus Bauer",
+        "Lennert Glamann",
+        "Michael Wessolly",
+        "Kyra Johnson",
+        "Heike Göbel",
+        "Tristan Lerbs",
+        "Taban Sangenne",
+        "Peter Herrmann",
+        "Fabian Mairinger",
+        "Christopher Kopp",
+        "Sebastian Michels",
+        "Anna Rasokat",
+        "Matthias Heldwein",
+        "Steffen Wagner",
+        "Birgid Schömig-Markiefka",
+        "Jürgen Wolf",
+        "Sylvia Hartmann",
+        "Claudia Wickenhauser",
+        "Andrey Bychkov",
+        "Jens Peter Klussmann",
+        "Alexander Quaas",
+        "Reinhard Buettner",
+        "Yuri Tolkach"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-29",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42056496/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "agentic AI framework for autonomous scientific discovery",
+      "llm_evidence_cn": "自主科学发现的智能体 AI 框架",
+      "llm_evidence": "自主科学发现的智能体 AI 框架",
+      "canonical_evidence": "自主科学发现的智能体 AI 框架",
+      "llm_tldr_en": "Introduces SPARK, an agentic AI framework using language interfaces for autonomous cancer pathology analysis.",
+      "llm_tldr_cn": "引入 SPARK，一种使用语言接口进行自主癌症病理分析的智能体 AI 框架。",
+      "llm_tldr": "引入 SPARK，一种使用语言接口进行自主癌症病理分析的智能体 AI 框架。",
+      "llm_tags": [
+        "query:agent:composite"
+      ],
+      "matched_query_tag": "query:agent:composite",
+      "matched_query_text": "Papers central to 生信科研 Agent 与知识助手, especially work that connects or combines: autonomous agents for biomedical literature reasoning genomic data analysis and evidence synthesis; scientific discovery agents for bioinformatics genomics and computational biology tasks; literature mining and question answering for bioinformatics genomics and life science papers; AI agents for wet lab automation sequencing experiments and bioinformatics experimental planning; retrieval augmented generation for bioinformatics genomics and biomedicine; benchmark and evaluation of bioinformatics genomics oriented language models; copilots for bioinformatics pipelines genomic literature triage and experiment planning; LLM agents for bioinformatics genomics workflows and scientific reasoning; retrieval augmented assistants for biomedical and genomics literature synthesis; evaluation protocols for biomedical bioinformatics and scientific agents.",
+      "matched_requirement_id": "req-composite-agent",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42057106",
+      "title": "Embedding multilayer RNA networks for lncRNA-miRNA interaction prediction via LMI-MHGAT.",
+      "abstract": "BACKGROUND: The identification of lncRNA-miRNA interactions (LMIs) is crucial for deciphering post-transcriptional regulatory networks and their roles in development and disease. While computational methods have been developed to predict LMIs, existing approaches are often limited by an inability to effectively integrate multimodal biological data and to handle the severe class imbalance inherent to biological networks. RESULTS: To overcome these limitations, we present LMI-MHGAT, a novel deep learning framework for LMI prediction based on a Multilayer Heterogeneous Graph Attention network. Our model integrates diverse data-including RNA sequences, expression profiles, and known molecular interactions-into a unified graph representation. A key innovation is the use of a graph attention mechanism that dynamically learns to weight information from different relational layers, enabling the model to learn robust embeddings for lncRNAs and miRNAs. LMI-MHGAT significantly outperforms 14 existing methods on human LMI data, demonstrating exceptional robustness under severe class imbalance (positive-to-negative ratio 1:60). The model generalizes effectively, achieving state-of-the-art performance on rat and plant datasets. Case studies confirm its ability to recover disease-associated regulatory axes and predict novel, biologically plausible interactions. CONCLUSIONS: LMI-MHGAT provides a more powerful and robust framework for LMI prediction by simultaneously addressing key limitations in data utilization and integration. The tool is freely accessible at https://github.com/Zhenpm/LMI-MHGAT.",
+      "authors": [
+        "Chen J, Zhen P, Liu Z, Wang Y, Peng J, Xiao Y, Wang T.",
+        "Jing Chen",
+        "Peimeng Zhen",
+        "Zhengxuan Liu",
+        "Yongtian Wang",
+        "Jiajie Peng",
+        "Yifu Xiao",
+        "Tao Wang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-30",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42057106/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "deep learning for RNA interaction prediction in networks",
+      "llm_evidence_cn": "网络中 RNA 相互作用预测的深度学习",
+      "llm_evidence": "网络中 RNA 相互作用预测的深度学习",
+      "canonical_evidence": "网络中 RNA 相互作用预测的深度学习",
+      "llm_tldr_en": "Proposes LMI-MHGAT, a deep learning framework for predicting lncRNA-miRNA interactions using graph attention.",
+      "llm_tldr_cn": "提出了 LMI-MHGAT，一种利用图注意力预测 lncRNA-miRNA 相互作用的深度学习框架。",
+      "llm_tldr": "提出了 LMI-MHGAT，一种利用图注意力预测 lncRNA-miRNA 相互作用的深度学习框架。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "graph learning and foundation models for gene regulatory network inference and perturbation biology",
+      "matched_requirement_id": "req-22",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42057724",
+      "title": "Integrating viral kinetics into routine outbreak surveillance: challenges, opportunities and lessons from COVID-19.",
+      "abstract": "Viral kinetics provide crucial insights into the biology and epidemiology of infections, with direct implications for basic science, therapeutics development and policy. The COVID-19 pandemic showcased the power of viral kinetics surveillance and modelling; however, our understanding of viral kinetics has been limited to retrospective analyses, convenience samples and bespoke models. To strengthen responses to ongoing and emerging outbreaks, we argue that viral kinetics should be a core component of pathogen surveillance. Building upon insights gained during the COVID-19 pandemic, we review ways that continuous viral kinetic surveillance supports infectious disease response by informing epidemiological parameters, development and deployment of therapeutics, and adaptive policy design. To achieve this, various challenges must be addressed regarding data standards, study design and communication. We advocate for the creation of a global, living library of viral kinetics data, with associated data sharing standards, modelling toolkits and on-demand epidemiological reports. Successfully integrating viral kinetics into active disease surveillance efforts will support both active outbreak response and improve the knowledge base vital for pandemic preparedness. This article is part of the Theo Murphy meeting issue 'Evaluating anti-infective drugs'.",
+      "authors": [
+        "James A Hay",
+        "Daniel B Larremore",
+        "Aishani V Aatresh",
+        "Stephen Kissler"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-30",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42057724/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Integrating viral kinetics into routine outbreak surveillance and modeling",
+      "llm_evidence_cn": "将病毒动力学整合到常规疫情监测和建模中",
+      "llm_evidence": "将病毒动力学整合到常规疫情监测和建模中",
+      "canonical_evidence": "将病毒动力学整合到常规疫情监测和建模中",
+      "llm_tldr_en": "Advocates for integrating viral kinetics into pathogen surveillance to improve outbreak response and modeling.",
+      "llm_tldr_cn": "倡导将病毒动力学整合到病原体监测中，以改善疫情响应和建模。",
+      "llm_tldr": "倡导将病毒动力学整合到病原体监测中，以改善疫情响应和建模。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI driven outbreak surveillance genomic epidemiology and transmission modeling",
+      "matched_requirement_id": "req-12",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "42053355",
+      "title": "Robust Heterogeneity Adjustment for Gaussian Graphical Model With Latent Variables.",
+      "abstract": "Graphical models serve as fundamental tools for encoding conditional dependence structures in multivariate biological data, with latent variable Gaussian graphical models playing a pivotal role in capturing complex dependencies in the presence of unobserved confounding variables. However, practical implementations often face two critical challenges: systematic heterogeneity arising from unobserved subpopulations (e.g., tumor subtypes, cell clusters, or patient stratifications) and outliers (e.g., technical artifacts or rare phenotypic variations), both of which can substantially distort the underlying network structure. To address these issues, we extend the latent variable Gaussian graphical model by integrating a mixture model, proposing a robust framework tailored for data heterogeneity. The proposed method can simultaneously achieve network structure estimation (after removing shared effects from latent variables), outlier detection, and subgroup membership identification. An effective computational algorithm is developed. Extensive experimental evaluations demonstrate that the proposed method offers a reliable graphical estimate in the presence of heterogeneity, maintaining robustness even against a significant proportion of outliers. The heterogeneity analysis of a breast cancer dataset further illustrates the practical applicability of the proposed approach and its sound biological implications.",
+      "authors": [
+        "Li L, Li R, Ma S, Zhang Q."
+      ],
+      "primary_category": null,
+      "categories": [],
+      "published": "2026-05-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42053355/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "graphical models for encoding conditional dependence in multivariate biological data",
+      "llm_evidence_cn": "用于编码多变量生物数据中条件依赖关系的图形模型",
+      "llm_evidence": "用于编码多变量生物数据中条件依赖关系的图形模型",
+      "canonical_evidence": "用于编码多变量生物数据中条件依赖关系的图形模型",
+      "llm_tldr_en": "Proposes a robust latent variable Gaussian graphical model to handle heterogeneity in biological network inference.",
+      "llm_tldr_cn": "提出了一种鲁棒的潜变量高斯图形模型，用于处理生物网络推理中的异质性问题。",
+      "llm_tldr": "提出了一种鲁棒的潜变量高斯图形模型，用于处理生物网络推理中的异质性问题。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "graph learning and foundation models for gene regulatory network inference and perturbation biology",
+      "matched_requirement_id": "req-22",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42056145",
+      "title": "A dataset of rare copy number variants associated with neurodevelopmental and neuropsychiatric disorders.",
+      "abstract": "Copy number variations (CNVs) are large structural alterations of the genome that can contribute significantly to the genetic basis of neurodevelopmental and neuropsychiatric conditions, including schizophrenia, autism spectrum disorder, and intellectual disability. Although CNVs are genomically diverse, many result in overlapping clinical features and molecular changes. We present a curated machine readable dataset, CNVPathwayAtlas, that integrates 38 pathogenic CNVs with their genomic coordinates, affected genes, molecular pathways, associated syndromes, and phenotypes. Each CNV is linked to a curated molecular pathway providing mechanistic insight into affected biological functions. This dataset is integrated with external resources including WikiPathways, Orphanet, HGNC, and the Human Phenotype Ontology, and designed for compatibility with bioinformatics workflows. This dataset provides a structured foundation for analyzing the molecular effects of CNVs, and facilitates exploration of shared disorder mechanisms, diagnosis, identification of therapeutic targets, and drug discovery in neurodevelopmental and neuropsychiatric disorders.",
+      "authors": [
+        "Alexandra Valeanu",
+        "Yuanyuan Duan",
+        "Javier Millán Acosta",
+        "Theo M de Kok",
+        "Therese van Amelsvoort",
+        "Friederike Ehrhart"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-29",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42056145/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "machine readable dataset for pathogenic variants",
+      "llm_evidence_cn": "病理性变异的机器可读数据集",
+      "llm_evidence": "病理性变异的机器可读数据集",
+      "canonical_evidence": "病理性变异的机器可读数据集",
+      "llm_tldr_en": "Presents CNVPathwayAtlas, a curated machine-readable dataset linking pathogenic CNVs to molecular pathways.",
+      "llm_tldr_cn": "发布了 CNVPathwayAtlas，一个将致病性 CNV 与分子通路联系起来的机器可读数据集。",
+      "llm_tldr": "发布了 CNVPathwayAtlas，一个将致病性 CNV 与分子通路联系起来的机器可读数据集。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "representation learning for biological sequences and molecules",
+      "matched_requirement_id": "req-26",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42054365",
+      "title": "Resource availability structures microbial competition through genomic niche partitioning.",
+      "abstract": "Microbial competition for scarce resources shapes biodiversity patterns and ecosystem function across global biomes, yet quantifying this process from genomic data has remained elusive. Here, we introduce CaCo, a scalable metric that transforms metagenomic carbohydrate-active enzyme profiles into precise measures of niche overlap and competition potential (Resource Partitioning Score, RPS). Analyzing 14,691 high-quality metagenome-assembled genomes spanning Ocean, freshwater, soil, and human gut microbiomes, we reveal a striking macroecological pattern: Niche overlap increases from partitioned specialists in oligotrophic oceans to overlapping generalists in carbon-rich environments, including the human gut. This gradient aligns with classic niche theory, as phylogenetic signals indicate that closely related taxa may compete most intensely. Multitiered validation, spanning BIOLOG phenotypes, synthetic cocultures, and interaction gradients, confirms CaCo's predictive power and captures competitive exclusion. CaCo bridges genomic potential and ecological reality, providing niche-breadth metrics and enabling testable predictions of how resource availability shapes microbial competition and community structure.",
+      "authors": [
+        "Célio Dias Santos-Júnior",
+        "Maria Camila Escobar",
+        "Paula Huber",
+        "Juan Pablo Niño-Garcia",
+        "Gladys Inés Cardona",
+        "Raul Costa-Pereira",
+        "Hugo Sarmento"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-05",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42054365/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "metagenomic carbohydrate-active enzyme profiles for niche partitioning",
+      "llm_evidence_cn": "宏基因组碳水化合物活性酶谱用于生态位划分",
+      "llm_evidence": "宏基因组碳水化合物活性酶谱用于生态位划分",
+      "canonical_evidence": "宏基因组碳水化合物活性酶谱用于生态位划分",
+      "llm_tldr_en": "Introduces CaCo to quantify microbial niche overlap and competition from metagenomic data across biomes.",
+      "llm_tldr_cn": "引入 CaCo 指标，通过宏基因组数据量化全球生物群落中的微生物生态位重叠和竞争。",
+      "llm_tldr": "引入 CaCo 指标，通过宏基因组数据量化全球生物群落中的微生物生态位重叠和竞争。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42057007",
+      "title": "PTP1B in astrocytes drives pathogen-induced neurodegeneration.",
+      "abstract": "Mounting evidence implicates pathogen infections in the pathogenesis of Alzheimer's disease (AD), yet the cellular mechanisms underlying infection-induced neurodegeneration remain poorly understood. Central to this process is the dysfunction of astrocyte-neuron interactions, which are critical for maintaining neuroinflammatory balance and synaptic homeostasis. Here, we demonstrate that astrocytic protein tyrosine phosphatase 1B (PTP1B) acts as a key regulator of astrocyte reactivity during infection, leading to impaired neuroglial communications and cognitive decline. In a murine model of chronic Toxoplasma gondii (T. gondii) infection, elevated PTP1B levels in astrocytes were closely associated with neuroinflammation and cognitive impairments. Conditional deletion of astrocytic PTP1B or its pharmacological inhibition mitigated neuroinflammation, restored synaptic integrity, and rescued cognitive function. Mechanistically, astrocytic PTP1B induced the polarization of A1-like neurotoxic reactive astrocytes, enhanced glutamate-mediated excitotoxicity, and triggered neuronal senescence, collectively contributing to synaptic damage and cognitive deficits. Notably, elevated levels of PTP1B, GAFP and cellular senescence markers were observed in the serum samples from T. gondii IgG-seropositive individuals and in hippocampal transcriptomes from AD patients, underscoring the translational relevance. Together, our findings reveal that PTP1B-mediated disorder of astrocyte-neuron crosstalk represents a novel mechanism of pathogen-driven neurodegeneration.",
+      "authors": [
+        "He Z, Xing Y, Gu J, Xu D, He P, Lin X, Cui W, Lv H, Ding H, Sui K, Hao W, Zheng Y, Yang X, Huang X, Yin K, He C, Zheng K, Yu Y, Pan W.",
+        "Zhicheng He",
+        "Yihui Xing",
+        "Jianqi Gu",
+        "Daxiang Xu",
+        "Peixuan He",
+        "Xiaoqian Lin",
+        "Wenjing Cui",
+        "Huiling Lv",
+        "Haoxuan Ding",
+        "Kai Sui",
+        "Wenting Hao",
+        "Yutao Zheng",
+        "Xiaoying Yang",
+        "Xufeng Huang",
+        "Kun Yin",
+        "Cheng He",
+        "Kuiyang Zheng",
+        "Yinghua Yu",
+        "Wei Pan"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-29",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42057007/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "pathogen-induced neurodegeneration and astrocyte-neuron interaction",
+      "llm_evidence_cn": "病原体诱导的神经退行性变和星形胶质细胞-神经元相互作用",
+      "llm_evidence": "病原体诱导的神经退行性变和星形胶质细胞-神经元相互作用",
+      "canonical_evidence": "病原体诱导的神经退行性变和星形胶质细胞-神经元相互作用",
+      "llm_tldr_en": "Identifies PTP1B as a regulator of astrocyte reactivity during chronic Toxoplasma gondii infection.",
+      "llm_tldr_cn": "确定PTP1B是慢性弓形虫感染期间星形胶质细胞反应性的关键调节因子。",
+      "llm_tldr": "确定PTP1B是慢性弓形虫感染期间星形胶质细胞反应性的关键调节因子。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42056921",
+      "title": "A novel serum metabolite classifier for identifying Metabolic Dysfunction-Associated Steatotic Liver Disease (MASLD) integrating metabolomics and machine learning.",
+      "abstract": "BACKGROUND: Metabolic dysfunction-associated steatotic liver disease (MASLD) presents a growing global health burden, while reliable non-invasive biomarkers for identifying affected individuals remain limited. This study aimed to characterize serum metabolomic signatures associated with steatosis and fibrosis and to develop a clinically applicable metabolite-based classifier. METHODS: Untargeted serum metabolomics was performed in a FibroScan-characterized discovery cohort (n = 35) to identify candidate metabolic features associated with hepatic steatosis and fibrosis burden. To provide biological context for the observed metabolic alterations, 16 S rDNA sequencing was subsequently conducted in paired fecal samples from a subset of participants (n = 27). Differential metabolites were then subjected to LASSO regression for feature selection and used to construct a random forest diagnostic model in a validation cohort comprising healthy controls (n = 19) and ultrasound-confirmed MASLD patients (n = 52). RESULTS: Metabolomic profiling revealed distinct metabolic patterns across different degrees of steatosis and fibrosis. A total of 55 and 46 metabolites were identified as differentially abundant in relation to steatosis and fibrosis burden, respectively. Microbiome analysis indicated alterations in gut microbial composition, and integrative correlation analysis suggested several potential microbe-metabolite associations, including two metabolite-genus pairs showing relatively strong correlations. LASSO regression selected a panel of ten metabolites as the most informative diagnostic features. Using these metabolites as input variables, a random forest classifier was constructed and achieved an area under the receiver operating characteristic curve (AUROC) of 0.87. Incorporation of four clinical variables (BMI, ALT, triglycerides, and HDL cholesterol) further improved model performance, yielding an AUROC of 0.94. CONCLUSION: This study characterizes systemic metabolic alterations associated with MASLD and presents a non-invasive diagnostic model integrating serum metabolites with clinical indicators. Together, these findings highlight the potential utility of metabolomics-assisted approaches for identifying MASLD and for improving biological understanding of disease-associated metabolic changes.",
+      "authors": [
+        "Binghui Li",
+        "Yiru Zhang",
+        "Ziyang Li",
+        "Zhiyang Chen",
+        "Zhe Guo",
+        "Weimin Wu",
+        "Li Tan",
+        "Lini Dong",
+        "Xiangyu Zhang",
+        "Xing Lyu",
+        "Min Hu",
+        "Qichen Long"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-29",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42056921/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "integrating metabolomics and machine learning for disease classification",
+      "llm_evidence_cn": "结合代谢组学和机器学习进行疾病分类",
+      "llm_evidence": "结合代谢组学和机器学习进行疾病分类",
+      "canonical_evidence": "结合代谢组学和机器学习进行疾病分类",
+      "llm_tldr_en": "Develops a machine learning classifier integrating serum metabolomics to identify liver disease.",
+      "llm_tldr_cn": "开发了一种结合血清代谢组学的机器学习分类器，用于识别肝脏疾病。",
+      "llm_tldr": "开发了一种结合血清代谢组学的机器学习分类器，用于识别肝脏疾病。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "machine learning for multi omics integration",
+      "matched_requirement_id": "req-25",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42059556",
+      "title": "The Guild Model of CF Airway Microbial Ecology.",
+      "abstract": "Ecological guilds are groups of organisms that utilize the same class of resources and occupy similar niches, regardless of their taxonomic identities. Here we propose the Guild Model for Cystic Fibrosis Airway Microbial Ecology, which considers the ecological function and wider role of each microbe in the ecosystem. This model consists of four functional guilds: (i) \"Brewers\" metabolize host-derived substrates (e.g., mucins) and produce fermentation products; (ii) \"Drunkards\" exploit the metabolic niche built by Brewers, consuming fermentation products and secreting exopolysaccharides to build biofilms; (iii) \"Putrifiers\" produce toxic compounds causing inflammation and tissue necrosis; and (iv) \"Nihilists\" are specialist pathogens characterized by intracellular or lytic life cycles and cytotoxin production. By focusing on microbial function and the broader community context, this model offers a refined framework for interpreting cystic fibrosis airway ecology. Although developed for CF, the Guild Model is adaptable to other diseases influenced by microbial ecology.",
+      "authors": [
+        "Sage J B Dunham",
+        "Gregory A Willkeen",
+        "Ben Darby",
+        "Jodi M Corley",
+        "Andrea Hahn",
+        "Isaac Klapper",
+        "Heather D Bean",
+        "Lindsay J Caverly",
+        "Christina S Thornton",
+        "Christian Martin",
+        "Robert A Quinn",
+        "Stefanie Widder",
+        "Barbara A Bailey",
+        "Brandie D Wagner",
+        "Neha Garg",
+        "Paul J Planet",
+        "Ryan C Hunter",
+        "John J LiPuma",
+        "Forest Rohwer",
+        "Katrine L Whiteson"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-30",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42059556/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Ecological guild model for airway microbial ecology and pathogen roles",
+      "llm_evidence_cn": "气道微生物生态学和病原体角色的生态行会模型",
+      "llm_evidence": "气道微生物生态学和病原体角色的生态行会模型",
+      "canonical_evidence": "气道微生物生态学和病原体角色的生态行会模型",
+      "llm_tldr_en": "Proposes a functional guild model to understand microbial ecology and pathogen roles in Cystic Fibrosis airways.",
+      "llm_tldr_cn": "提出了一种功能行会模型，用于理解囊性纤维化气道中的微生物生态和病原体作用。",
+      "llm_tldr": "提出了一种功能行会模型，用于理解囊性纤维化气道中的微生物生态和病原体作用。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42057229",
+      "title": "Lactobacillus johnsonii-derived extracellular vesicles modulate gut microbiota metabolites and macrophage-related immune responses against Salmonella Typhimurium infection.",
+      "abstract": "Salmonella Typhimurium is a significant pathogen causing diarrhea in weaned piglets, capable of triggering systemic inflammation and severe intestinal damage. As bioactive components of gut microbiota, extracellular vesicles (EVs) derived from Lactobacillus johnsonii (Lj-EVs) are likely to penetrate the intestinal mucus layer and reach host cells, potentially mediating host-microbiome interactions. Here, we found that Lj-EVs improved the intestinal barrier and attenuated intestinal injury in mice infected with S. Typhimurium. Multi-omics analysis showed that Lj-EVs intervention enriched mucin-utilizing Akkermansia. Moreover, Lj-EVs were associated with metabolic alterations, characterized by enhanced oxidative phosphorylation during homeostasis and suppression of HIF-1α-mediated glycolysis during infection. Proteomic profiling showed that Lj-EVs enriched functional proteins related to oxidative phosphorylation, indicating their potential immunomodulatory role. Notably, Lj-EVs modulated macrophage-mediated immune responses, contributing to limiting bacterial dissemination and alleviating intestinal inflammation. In conclusion, our study demonstrates that Lj-EVs alleviate Salmonella infection by reducing bacterial burden and confer metabolic and immunomodulatory benefits. These findings provide new evidence for future investigation of the protective roles of probiotic vesicles.",
+      "authors": [
+        "Yi Wu",
+        "Keyuan Chen",
+        "Ting Hu",
+        "Yaoyao Luo",
+        "Yue Zhang",
+        "Guiyan Yang",
+        "Jiufeng Wang",
+        "Yaohong Zhu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-29",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42057229/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "multi-omics for host-pathogen interaction",
+      "llm_evidence_cn": "宿主-病原体相互作用的多组学分析",
+      "llm_evidence": "宿主-病原体相互作用的多组学分析",
+      "canonical_evidence": "宿主-病原体相互作用的多组学分析",
+      "llm_tldr_en": "Uses multi-omics to show how Lactobacillus-derived vesicles modulate immune responses against Salmonella infection.",
+      "llm_tldr_cn": "利用多组学技术展示乳杆菌衍生的囊泡如何调节针对沙门氏菌感染的免疫反应。",
+      "llm_tldr": "利用多组学技术展示乳杆菌衍生的囊泡如何调节针对沙门氏菌感染的免疫反应。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42059571",
+      "title": "Host genetics shapes the recovery of the gut microbiome after antibiotic treatment: the role of the blood group related",
+      "abstract": "UNLABELLED: The intestinal microbiota is integral to host health, metabolism, and colonization resistance. Antibiotics can disrupt microbial homeostasis, leading to dysbiosis and altered colonization resistance. While antibiotic-induced microbiota disruption is well-documented, less is known about how host genetics shapes post-antibiotic recovery. Here, we investigate the impact of B4galnt2, a blood-group-related glycosyltransferase gene, on microbiota recovery following antibiotic treatment. Using a longitudinal, multi-omic approach-including 16S rRNA gene sequencing, metagenomics, and metatranscriptomics-we compare the microbiota dynamics of B4galnt2+/- and B4galnt2-/- mice after treatment with streptomycin, kanamycin, and vancomycin. Our findings reveal that B4galnt2-/- mice exhibit faster recovery of microbial diversity and composition following streptomycin treatment compared to their B4galnt2+/- counterparts. This accelerated recovery is associated with higher relative abundance of taxa such as Blautia, Dorea, and other Lachnospiraceae, and increased expression of motility-related genes, and differential regulation of antibiotic resistance genes (ARGs), including the aminoglycoside nucleotidyltransferase genes aadA and aadE. Genotype-dependent differences in recovery were most pronounced following streptomycin and were not consistently observed with kanamycin or vancomycin, indicating an antibiotic-by-genotype interaction shaped by the B4galnt2-associated microbiota. These results underscore the role of host genetics in shaping microbiota response and recovery following antibiotic exposure. By demonstrating the interplay between glycosylation-mediated microbiota composition, antibiotic response, and microbial recovery, our study may provide insights into the potential for personalized approaches to mitigate dysbiosis-related health outcomes. IMPORTANCE: Antibiotic treatments disrupt the gut microbiome, often leading to long-term alterations that potentially affect host health. While much is known about how antibiotics cause microbial dysbiosis, little is understood about the factors that could influence the speed of microbial community recovery, such as host genetic differences. Using a mouse model, this study reveals that genetic variation at the blood group-related B4galnt2 gene significantly alters recovery after streptomycin treatment. Mice lacking intestinal B4galnt2 expression recover faster, with distinct changes in microbial composition, activity, and antibiotic resistance gene expression. These findings highlight how a single host gene can shape microbiota dynamics following antibiotic-induced disruption. The work emphasizes the importance of considering host genetic factors when predicting microbiome responses to antibiotics and suggests potential for genotype-guided strategies to reduce the adverse effects of microbiome-targeted therapies.",
+      "authors": [
+        "Aleksa Čepić",
+        "Philipp Rausch",
+        "Theresa Geese",
+        "Astrid Dempfle",
+        "Guntram A Grassl",
+        "John F Baines"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-30",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42059571/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "multi-omic approach to microbiome recovery after antibiotics",
+      "llm_evidence_cn": "抗生素治疗后微生物群恢复的多组学方法",
+      "llm_evidence": "抗生素治疗后微生物群恢复的多组学方法",
+      "canonical_evidence": "抗生素治疗后微生物群恢复的多组学方法",
+      "llm_tldr_en": "Investigates how host genetics influence gut microbiome recovery after antibiotic disruption.",
+      "llm_tldr_cn": "研究宿主遗传学如何影响抗生素破坏后肠道微生物群的恢复。",
+      "llm_tldr": "研究宿主遗传学如何影响抗生素破坏后肠道微生物群的恢复。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42059552",
+      "title": "Hybrid capture RNA-seq defines temporal gene expression in",
+      "abstract": "UNLABELLED: Pathogenic Rickettsia species are obligate intracellular bacteria that must reside in a mammalian host or arthropod vector cell to survive. Although these bacteria transition between different intracellular environments during infection, they encode few putative transcription factors, and their gene regulatory networks are largely unknown. Because of their inextricable relationship with eukaryotic cells, transcriptional profiling of the pathogen is complicated by the abundance of contaminating host RNA, especially in infection conditions or stages where the bacterial burden is inherently low. Here, we employ a pathogen hybrid capture technique (PatH-Cap) to improve library preparation by enriching bacterial transcripts while depleting host and rRNA molecules. Using PatH-Cap, we explored transcriptional changes throughout the first 24 h of infection, including infection initiation-an infection stage that has been difficult to profile with standard library preparation methods. We then clustered genes based on their temporal trends, revealing cohorts of genes whose expression is up- or downregulated at different stages of infection. We also highlighted the diverse temporal expression trends of genes with known roles in growth and pathogenesis, including translation and cell division genes, secreted effectors, and secretion system components. Lastly, we identified 639 antisense RNA molecules, many of which also showed strong temporal trends. This work demonstrates that sensitive transcriptional profiling approaches like PatH-Cap hold great promise for dissecting gene expression networks driving infection in intracellular pathogens that have historically posed significant technical challenges. IMPORTANCE: When investigating poorly annotated genomes, such as those in obligate intracellular bacteria, transcriptional analyses can reveal gene sets active under specific conditions and form the foundation for future targeted approaches. However, such systems-level analyses of dynamic gene expression changes during infection with Rickettsia species have been missing due to the limitations of standard RNA-seq library preparations. Here, we adapted the pathogen hybrid capture (PatH-Cap) method for the first time to any Rickettsia species. We leveraged this wealth of RNA-sequencing information to compare temporal trends between genes and investigate aspects of Rickettsia parkeri transcription regulation, such as predicting operon structure and identifying putative antisense RNA transcripts. This work establishes the most comprehensive analysis of temporal rickettsia gene expression to date, providing an important foundation for further analysis. Future work can apply the methods described here to investigate gene expression changes across different genetic or environmental perturbations, cellular contexts, or disease models.",
+      "authors": [
+        "Allison T Scott",
+        "Jon McGinn",
+        "Vincent L Butty",
+        "Stuart S Levine",
+        "Rebecca L Lamason"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-30",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42059552/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "pathogen hybrid capture RNA-seq for gene expression",
+      "llm_evidence_cn": "病原体杂交捕获 RNA-seq 用于基因表达",
+      "llm_evidence": "病原体杂交捕获 RNA-seq 用于基因表达",
+      "canonical_evidence": "病原体杂交捕获 RNA-seq 用于基因表达",
+      "llm_tldr_en": "Introduces PatH-Cap to enrich bacterial transcripts for profiling pathogen gene regulatory networks during infection.",
+      "llm_tldr_cn": "引入 PatH-Cap 技术富集细菌转录本，用于分析感染期间病原体的基因调节网络。",
+      "llm_tldr": "引入 PatH-Cap 技术富集细菌转录本，用于分析感染期间病原体的基因调节网络。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "foundation models for transcriptomics RNA sequencing and gene expression modeling",
+      "matched_requirement_id": "req-44",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42059606",
+      "title": "Gut microbiota composition and tumor immune features in meningioma patients.",
+      "abstract": "UNLABELLED: Meningiomas are prevalent intracranial tumors with poorly understood extraneural drivers. While the gut-brain axis influences neuro-oncogenesis, meningioma-specific gut microbiome alterations and their clinical implications remain uncharacterized. This study integrated 16S rRNA sequencing of fecal samples from 15 treatment-naïve WHO grade I meningioma patients (MPs) and 15 healthy controls (HCs) with immunohistochemical profiling of tumor immune infiltrates (MPO⁺ neutrophils, CD68⁺ macrophages, CD3⁺ T cells). Compared with HCs, MPs exhibited significantly reduced alpha diversity (Shannon index, P = 0.026) and distinct beta diversity (permutational multivariate analysis of variance, P < 0.0009). Taxonomic analysis revealed enrichment of Proteobacteria (28.82% vs. 2.46%, P = 0.001), specifically Escherichia_Shigella at the genus level (25.95% vs. 1.61%, P = 0.008), along with depletion of Bacteroidaceae and Ruminococcaceae. LEfSe identified Escherichia_Shigella as the top meningioma-enriched biomarker. In diagnostic modeling, Escherichia_Shigella achieved an area under the receiver operating characteristic curve of 95.11% (95% CI: 86.91%-100%) for WHO grade I meningioma detection. Critically, Escherichia_Shigella abundance positively correlated with intratumoral MPO⁺, CD68⁺, and CD3⁺ cell densities (all P < 0.05), whereas Ruminococcaceae showed inverse correlations. The 16S rRNA sequencing data are publicly available in the GSA database under accession number CRA027974. This study provides the first evidence of gut dysbiosis in grade I meningioma, characterized by Escherichia_Shigella dominance and depletion of immunomodulatory commensals. This signature correlates with increased immune infiltration and holds promise as a novel biomarker. IMPORTANCE: Detailed exploration of host-microbe interactions can be worthwhile. Gut dysbiosis has been implicated in neuroinflammation, blood-brain barrier disruption, and oncogenesis in multiple cancer types, including gliomas. However, the gut microbiota composition and metabolic characteristics in patients with meningioma have not been previously reported. To address these critical knowledge gaps, we conducted a case-control study integrating 16S rRNA sequencing, clinical phenotyping, and immunohistochemical profiling. Our study revealed significant alterations in the gut microbiota of MPs, characterized by reduced alpha diversity, enrichment of Proteobacteria, and depletion of beneficial taxa, including Bacteroidaceae and Ruminococcaceae. Critically, we identified Escherichia_Shigella as a potential diagnostic biomarker and demonstrated strong correlations between elevated Escherichia_Shigella/Enterobacteriaceae abundance and increased intratumoral infiltration of MPO⁺ neutrophils, CD68⁺ macrophages, and CD3⁺ T cells. These findings are the first evidence that gut microbiome dysbiosis is closely associated with meningioma inflammation.",
+      "authors": [
+        "Kai Yin",
+        "Shuai Ma",
+        "Jichao Yang",
+        "Mengzhao Feng",
+        "Yuchao Zuo",
+        "Fang Wang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-30",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42059606/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "gut microbiota composition and tumor immune features",
+      "llm_evidence_cn": "肠道微生物群组成与肿瘤免疫特征",
+      "llm_evidence": "肠道微生物群组成与肿瘤免疫特征",
+      "canonical_evidence": "肠道微生物群组成与肿瘤免疫特征",
+      "llm_tldr_en": "Integrates 16S rRNA sequencing and immunohistochemistry to characterize gut microbiome alterations in meningioma.",
+      "llm_tldr_cn": "结合 16S rRNA 测序和免疫组化特征，分析脑膜瘤患者肠道微生物群的变化。",
+      "llm_tldr": "结合 16S rRNA 测序和免疫组化特征，分析脑膜瘤患者肠道微生物群的变化。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42059625",
+      "title": "Spatial ecology of the",
+      "abstract": "UNLABELLED: The human oral microbiome, a complex ecosystem of niche-specific communities influenced by local ecological factors, plays a critical role in health and disease. Capnocytophaga species are prevalent in the human mouth, often abundant in dental plaque and linked to both commensalism and pathogenicity, motivating a detailed study of their ecological and functional diversity. This study employs metapangenomics to reveal Capnocytophaga strain-level distributions and functional adaptations across distinct sites in the human oral cavity. Pangenomic, phylogenetic, and average nucleotide identity analyses enabled classification of unnamed genomes and identified 13 groups, of which 8 include validly named species, and the remainder are named using Human Microbial Taxon (HMT) designations in the Human Oral Microbiome Database (HOMD; https://www.homd.org/). Mapping metagenomic reads to the pangenome revealed a strong preference of most Capnocytophaga genomes for dental plaque (both supra- and subgingival), yet identified strain-level variants of C. sputigena, C. gingivalis, C. granulosa, and C. leadbetteri detected more often on the tongue. Among dental plaque-abundant taxa, functional analyses uncovered two clades: one with cbb3-type cytochrome oxidase that is tied to enhanced denitrification and could help the organism adapt to hypoxic zones, and another with bd-type ubiquinol oxidase, more suited to aerobic metabolism. Carbohydrate and amino acid metabolism pathways also differed between these clades. These findings identify metabolic adaptations that may underlie sub-specialization within the plaque habitat and highlight the strain-level diversity of Capnocytophaga, including low-prevalence strains that are preferentially detected in sites outside the primary plaque habitat of this taxon. IMPORTANCE: Understanding the ecological roles of Capnocytophaga in the oral microbiome is critical for deciphering its contributions to health and disease, including periodontal and systemic infections. This metapangenomics study reveals a pronounced specialization by Capnocytophaga to dental plaque (including supragingival, subgingival, and periodontal pockets) and identifies metabolic adaptations, such as distinct respiratory, carbohydrate, and amino acid pathways, that may drive niche-specific survival. These findings support the site-specialist hypothesis and enhance our understanding of oral microbial community structure, laying a foundation for future research into microbial interactions and targeted therapies for oral health.",
+      "authors": [
+        "Jonathan J Giacomini",
+        "Julian Torres-Morales",
+        "Floyd E Dewhirst",
+        "Gary G Borisy",
+        "Jessica L Mark Welch"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-30",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42059625/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Metapangenomics for strain-level distribution and taxonomic profiling",
+      "llm_evidence_cn": "用于菌株级分布和分类分析的元泛基因组学",
+      "llm_evidence": "用于菌株级分布和分类分析的元泛基因组学",
+      "canonical_evidence": "用于菌株级分布和分类分析的元泛基因组学",
+      "llm_tldr_en": "Uses metapangenomics to reveal strain-level distributions and functional adaptations in the oral microbiome.",
+      "llm_tldr_cn": "利用元泛基因组学揭示口腔微生物组中的菌株级分布和功能适应性。",
+      "llm_tldr": "利用元泛基因组学揭示口腔微生物组中的菌株级分布和功能适应性。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42059647",
+      "title": "Integrated multi-omics analysis reveals gut dysbiosis and altered energy metabolism in Chinese ALS patients.",
+      "abstract": "Amyotrophic lateral sclerosis (ALS) is a fatal neurodegenerative disorder with a complex etiology. Emerging evidence implicates gut microbiota dysbiosis in ALS pathology via the gut-brain axis, yet the specific integrative profile of the gut microbiome, virome, and metabolome, particularly in Chinese patients, remains incompletely characterized. Although global diversity indices showed no significant differences, taxonomic analysis revealed distinct compositional shifts. The ALS microbiome was characterized by a significant depletion of beneficial anti-inflammatory genera, specifically Akkermansia and Faecalibacterium, and an expansion of opportunistic pathogens such as Escherichia and oral-associated taxa (e.g., Streptococcus). We also observed a specific alteration in the gut virome, with viral genera including Puppervirus and Donellivirus enriched in ALS patients. Functionally, the ALS microbiome exhibited a marked upregulation of pathways involved in L-ascorbate (vitamin C) degradation and fatty acid biosynthesis, suggesting a microbial contribution to systemic oxidative stress. Metabolomic analysis corroborated these findings, identifying 271 differentially expressed metabolites. ALS patients showed elevated levels of inflammatory lipids (e.g., LysoPC) and metabolic intermediates of the tricarboxylic acid (TCA) cycle, alongside a downregulation of antioxidants. Integrative analysis highlighted profound dysregulation in porphyrin metabolism, oxidative phosphorylation, and energy homeostasis. Our findings demonstrate that ALS is associated with a specific dysbiotic gut ecosystem characterized by the loss of protective commensals, unique viral signatures, and functional metabolic reprogramming that exacerbates host oxidative stress and energy deficits. These results provide new insights into gut-brain interactions and highlight microbial antioxidant depletion as a potential therapeutic target.IMPORTANCEAmyotrophic lateral sclerosis (ALS) is a devastating disease with no cure. While gut bacteria are known to influence brain health, we still do not understand exactly how they contribute to ALS progression. In this study, we used advanced DNA sequencing and chemical analysis to deeply examine the gut ecosystem of ALS patients. Beyond just cataloging which bacteria are present, we discovered what they are doing: the ALS microbiome actively breaks down vitamin C (a critical antioxidant) and disrupts energy metabolism. We also found a loss of protective bacteria that maintain the gut barrier. These findings are significant because they suggest that the gut microbiome in ALS patients may be actively fueling the disease by depleting the body's antioxidant reserves. This points to a new potential treatment strategy: targeting these specific bacterial functions or replenishing specific metabolites to protect motor neurons.",
+      "authors": [
+        "Xueli Ma",
+        "Zewei Jiang",
+        "Tianhua Yang",
+        "Hao Zhang",
+        "Wei Lu",
+        "Kuai Liu",
+        "Xinfeng Fan",
+        "Gaoyi Yang",
+        "Shenghai Wu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-30",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42059647/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Integrated multi-omics analysis of gut microbiome and virome",
+      "llm_evidence_cn": "肠道微生物组和病毒组的集成多组学分析",
+      "llm_evidence": "肠道微生物组和病毒组的集成多组学分析",
+      "canonical_evidence": "肠道微生物组和病毒组的集成多组学分析",
+      "llm_tldr_en": "Integrates microbiome, virome, and metabolome data to reveal gut dysbiosis in ALS patients.",
+      "llm_tldr_cn": "整合微生物组、病毒组和代谢组数据，揭示了ALS患者的肠道失调特征。",
+      "llm_tldr": "整合微生物组、病毒组和代谢组数据，揭示了ALS患者的肠道失调特征。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42059626",
+      "title": "Decoding the genome of multidrug resistant (MDR)",
+      "abstract": "Providencia hangzhouensis HL_Adamas-11 was isolated from the cerebrospinal fluid of an infected patient. Whole-genome sequencing (WGS) revealed a 5,034,782 bp genome with 493 contigs, 49.5% GC content, and 4935 protein-coding genes. Computational prediction indicated that the beta-lactam, phenicol, macrolide, and aminoglycoside resistance gene cassette may contribute to its resistance mechanisms.",
+      "authors": [
+        "Rajsekhar Adhikary",
+        "Kusumita Acharya",
+        "Sayan Poddar",
+        "Tanmoy Sen",
+        "Mallika Ghosh",
+        "Arijit Bhattacharya",
+        "Saugata Hazra"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-30",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42059626/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Computational prediction of resistance genes from whole-genome sequencing",
+      "llm_evidence_cn": "通过全基因组测序计算预测耐药基因",
+      "llm_evidence": "通过全基因组测序计算预测耐药基因",
+      "canonical_evidence": "通过全基因组测序计算预测耐药基因",
+      "llm_tldr_en": "Uses WGS and computational prediction to identify multidrug resistance mechanisms in a clinical pathogen isolate.",
+      "llm_tldr_cn": "利用全基因组测序和计算预测识别临床病原体分离株中的多重耐药机制。",
+      "llm_tldr": "利用全基因组测序和计算预测识别临床病原体分离株中的多重耐药机制。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for antimicrobial resistance prediction from genomes",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42059769",
+      "title": "Functional emergence driven by structural evolution of the DSBH domain in Fe",
+      "abstract": "Ten-eleven translocation (TET), AlkB homolog (ALKBH), and histone lysine demethylase (KDM) proteins belong to the 2-oxoglutarate (2OG) and ferrous iron-dependent oxygenases, which catalyze substrates spanning the entire central dogma (DNA-RNA-Protein). It serves as a model for understanding how functional diversity is shaped by structural changes within the central dogma. The evolutionary characteristics of the core catalytic domain double-stranded β-helix (DSBH) are the main reasons for their specific substrate recognition ability. Nonetheless, the structural biological explanations remain ambiguous. Here, we constructed the sequence evolutionary tree of the full-length and DSBH catalytic domains from seven prevalent mammalian species. The DSBH domain evolutionary trajectory was generated by multispecies structure fitting and mapping. Taking humans as a reference, the relationships among the three subfamilies, KDM, ALKBH, and TET, were depicted. In conjunction with the evolutionary tree and domain map, this method analyzed the emergence and extinction of α-helix and β-sheet structures and length variations in pivotal regions to ascertain the structural history of DSBH domains across subfamilies. Furthermore, reduced amino acid analysis and prospective mapping were utilized to investigate the correlation between the structural progression and functional assessment of the DSBH structure. A new perspective has arisen, highlighting variations in the proregion of the DSBH domain as essential for its particular substrate recognition function, as this domain determines the binding conditions for protein substrates. This provides a new angle for understanding the evolution of proteins from simple structures to complex functions and leads to new advances for the bioengineering field.",
+      "authors": [
+        "Siqi Yang",
+        "Jixiang Xing",
+        "Lingling Bao",
+        "Jiafu Cui",
+        "Dongyang Liu",
+        "Shaoran Wen",
+        "Shuhua Xu",
+        "Yongchun Zuo"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-04-30",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42059769/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Sequence evolutionary tree and structural evolution of catalytic domains",
+      "llm_evidence_cn": "催化结构域的序列进化树和结构演化",
+      "llm_evidence": "催化结构域的序列进化树和结构演化",
+      "canonical_evidence": "催化结构域的序列进化树和结构演化",
+      "llm_tldr_en": "Explores the structural evolution of DSBH domains in oxygenases that act on DNA, RNA, and proteins.",
+      "llm_tldr_cn": "探索了作用于DNA、RNA和蛋白质的加氧酶中DSBH结构域的结构演化。",
+      "llm_tldr": "探索了作用于DNA、RNA和蛋白质的加氧酶中DSBH结构域的结构演化。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "representation learning for DNA RNA and protein sequences",
+      "matched_requirement_id": "req-36",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}
