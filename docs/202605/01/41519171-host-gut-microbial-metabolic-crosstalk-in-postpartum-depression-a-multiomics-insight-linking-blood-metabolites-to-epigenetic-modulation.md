@@ -1,0 +1,22 @@
+---
+title: "Host-gut microbial metabolic crosstalk in postpartum depression: A multiomics insight linking blood metabolites to epigenetic modulation."
+title_zh: 产后抑郁症中的宿主-肠道微生物代谢互作：将血液代谢物与表观遗传调节联系起来的多组学见解
+authors: "Zhiyuan Zhang, Xiaobing Hu, Weimin Tao, Ruijing Ma, Yuhan Zheng, Xin Fang, Jiameng Gao, Zhendong Xu"
+date: 2026-05-01
+pdf: "https://pubmed.ncbi.nlm.nih.gov/41519171/"
+tags: ["query:bioinfo"]
+score: 6.0
+evidence: 多组学视角联系肠道微生物群、代谢物与宿主表观遗传调节
+tldr: 产后抑郁症（PPD）与肠道菌群及其代谢物密切相关，但其对宿主代谢的具体影响机制尚不明确。本研究利用多组学孟德尔随机化（MR）方法，整合GWAS、eQTL、mQTL及mbQTL数据，揭示了双歧杆菌目等菌群通过高密度脂蛋白（HDL）等代谢物影响PPD风险。研究锁定了RAF1、FDXR等7个关键代谢基因及其表观遗传调控位点，为通过肠-脑-代谢轴开发PPD预防和治疗策略提供了分子基础。
+selection_source: fresh_fetch
+motivation: 旨在阐明肠道微生物群、血液代谢物与宿主基因表达及表观遗传修饰在产后抑郁症（PPD）发病中的复杂交互作用。
+method: 采用两样本孟德尔随机化、汇总数据孟德尔随机化（SMR）及共定位分析，整合了肠道菌群、血液代谢物、基因表达和DNA甲基化的多维数据进行因果推断。
+result: 识别出双歧杆菌目等正相关菌群和疣微菌门等负相关菌群，发现HDL是关键中介，并确定了RAF1、FDXR等7个受DNA甲基化调控的PPD致病候选基因。
+conclusion: 研究证明了宿主代谢基因通过表观遗传调节和代谢物介导的菌群交互作用参与PPD病理过程，揭示了肠-脑-代谢轴的潜在干预靶点。
+---
+
+## 摘要
+背景：近期研究表明肠道微生物群、其代谢物与产后抑郁症（PPD）之间存在联系；然而，其对宿主代谢的具体影响尚不清楚。方法：利用肠道微生物群和 PPD 的全基因组关联研究（GWAS）汇总统计数据进行两样本孟德尔随机化（MR）分析。通过两步 MR 识别潜在的血液代谢物。从 GeneCards 获取代谢基因。基于汇总数据的 MR（SMR）方法整合了 PPD GWAS 数据与血液表达定量性状位点（eQTL）和 DNA 甲基化定量性状位点（mQTL），以识别与 PPD 风险相关的关键血液代谢基因和调节区域。共定位分析利用粪便微生物定量性状位点（mbQTL）研究了宿主代谢基因表达与肠道微生物群之间的相互作用。结果：两样本 MR 分析显示，纲 Clostridia（OR = 1.174, 95% CI = 1.002-1.376, P = 0.047）、目 Bifidobacteriales（OR = 1.365, 95% CI: 1.073-1.735, P = 0.029）、科 Bifidobacteriaceae（OR = 1.365, 95% CI: 1.077-1.729, P = 0.027）、属 Eggerthella（OR = 1.126, 95% CI = 1.024-1.238, P = 0.014）、属 Prevotella7（OR = 1.111, 95% CI: 1.012-1.22, P = 0.026）和属 RuminococcaceaeUCG011（OR = 1.094, 95% CI = 1.009-1.185, P = 0.029）与 PPD 风险呈正相关，而门 Verrucomicrobia（OR = 0.881; 95% CI: 0.783-0.991; P = 0.036）具有保护作用。高密度脂蛋白（HDL）被确定为 Bifidobacteriales 与 PPD 之间的关键中介。整合 eQTL 和 mQTL 数据后，SMR 揭示了 7 个血液组织基因（RAF1, KHK, SLC3A1, FAM3B, ALDH7A1, FDXR, 和 GATM）为 PPD 的潜在致病基因，并暗示了其调控中的特定 DNA 甲基化位点。共定位分析显示 FDXR、RAF1、GATM 和 SLC3A1 参与了基因-微生物群的相互作用。结论：这项多组学研究揭示了与 PPD 相关的宿主代谢基因通过 DNA 甲基化和代谢物介导的宿主-微生物群相互作用受到调节。这些发现为未来针对 PPD 肠-脑-代谢物轴开发基于机制的治疗和预防策略的功能研究奠定了基础。
+
+## Abstract
+BACKGROUND: Recent studies suggest a link among the gut microbiota, its metabolites, and postpartum depression (PPD); however, the specific effects on host metabolism remain unclear. METHODS: A two-sample Mendelian randomization (MR) analysis was conducted using Genome-wide association study (GWAS) summary statistics on the gut microbiota and PPD. Two-step MR identified potential blood metabolites. Metabolic genes were retrieved from GeneCards. Summary data-based MR (SMR) methods integrate PPD GWAS data with blood expression quantitative trait loci (eQTLs) and DNA methylation quantitative trait loci (mQTLs) to identify key blood metabolic genes and regulatory regions linked to PPD risk. Colocalization analysis investigated interactions between host metabolic gene expression and the gut microbiota using fecal microbial quantitative trait loci (mbQTLs). RESULTS: A two-sample MR analysis revealed that class Clostridia (OR = 1.174 95% CI = 1.002-1.376 P = 0.047), order Bifidobacteriales (OR = 1.365, 95% CI: 1.073-1.735, P = 0.029), family Bifidobacteriaceae (OR = 1.365, 95% CI: 1.077-1.729, P = 0.027), genus Eggerthella (OR = 1.126 95% CI = 1.024-1.238 P = 0.014), genus Prevotella7 (OR = 1.111, 95% CI: 1.012-1.22, P = 0.026), and genus RuminococcaceaeUCG011 (OR = 1.094 95% CI = 1.009-1.185 P = 0.029) were positively correlated with PPD risk, whereas phylum Verrucomicrobia (OR = 0.881; 95% CI: 0.783-0.991; P = 0.036) had protective effects. HDL was identified as a key intermediary between Bifidobacteriales and PPD. Integrating eQTL and mQTL data, SMR revealed seven blood tissue genes (RAF1, KHK, SLC3A1, FAM3B, ALDH7A1, FDXR, and GATM) as potential causal genes for PPD and implicated specific DNA methylation sites in their regulation. Colocalization analysis revealed that FDXR, RAF1, GATM, and SLC3A1 are involved in gene-microbiota interactions. CONCLUSION: This multiomics study revealed that host metabolic genes linked to PPD are regulated through DNA methylation and metabolite-mediated host-microbiota interactions. These findings establish a foundation for future functional studies to develop mechanism-based therapeutic and preventive strategies targeting the gut-brain-metabolite axis in PPD.

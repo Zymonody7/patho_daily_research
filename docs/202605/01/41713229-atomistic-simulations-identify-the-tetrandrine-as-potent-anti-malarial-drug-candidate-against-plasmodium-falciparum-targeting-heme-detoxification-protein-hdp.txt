@@ -1,0 +1,521 @@
+Title: Atomistic simulations identify the Tetrandrine as potent anti-malarial drug candidate against Plasmodium falciparum targeting Heme Detoxification Protein (HDP) - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41713229/
+
+Markdown Content:
+# Atomistic simulations identify the Tetrandrine as potent anti-malarial drug candidate against Plasmodium falciparum targeting Heme Detoxification Protein (HDP) - PubMed
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/41713229/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41713229%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/41713229/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/41713229/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/41713229/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/ffd2ec78-62e5-42af-9cba-3b683627d12e/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/41713229/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/41713229/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41713229%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41713229%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Save citation to file
+
+ Format:  
+
+ Create file  Cancel 
+
+## Email citation
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+ Add  Cancel 
+
+## Your saved search
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+## Create a file for external citation management software
+
+ Create file  Cancel 
+
+## Your RSS Feed
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Full text links
+
+[![Image 6: Elsevier Science full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--linkinghub.elsevier.com-ihub-images-PubMedLink.gif) Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S1093-3263(26)00037-9 "See full text options at Elsevier Science")
+
+[Full text links](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/41713229/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/41713229/#abstract)
+*   [Conflict of interest statement](https://pubmed.ncbi.nlm.nih.gov/41713229/#conflict-of-interest)
+*   [Similar articles](https://pubmed.ncbi.nlm.nih.gov/41713229/#similar)
+*   [MeSH terms](https://pubmed.ncbi.nlm.nih.gov/41713229/#mesh-terms)
+*   [Substances](https://pubmed.ncbi.nlm.nih.gov/41713229/#substances)
+*   [Related information](https://pubmed.ncbi.nlm.nih.gov/41713229/#related-links)
+*   [LinkOut - more resources](https://pubmed.ncbi.nlm.nih.gov/41713229/#linkout)
+
+ J Mol Graph Model 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22J+Mol+Graph+Model%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22J+Mol+Graph+Model%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+. 2026 May:144:109311.
+
+ doi: 10.1016/j.jmgm.2026.109311.  Epub 2026 Feb 11. 
+
+# Atomistic simulations identify the Tetrandrine as potent anti-malarial drug candidate against Plasmodium falciparum targeting Heme Detoxification Protein (HDP)
+
+[Khair Bux](https://pubmed.ncbi.nlm.nih.gov/?term=Bux+K&cauthor_id=41713229)[1](https://pubmed.ncbi.nlm.nih.gov/41713229/#full-view-affiliation-1 "Faculty of Life Sciences, Department of Biosciences, Shaheed Zulfikar Ali Bhutto Institute of Science and Technology (SZABIST, Karachi, Pakistan. Electronic address: khair.bux@szabist.edu.pk."),[Urooj Abbasi](https://pubmed.ncbi.nlm.nih.gov/?term=Abbasi+U&cauthor_id=41713229)[2](https://pubmed.ncbi.nlm.nih.gov/41713229/#full-view-affiliation-2 "Faculty of Life Sciences, Department of Biosciences, Shaheed Zulfikar Ali Bhutto Institute of Science and Technology (SZABIST, Karachi, Pakistan."),[Khwaja Ali Hasan](https://pubmed.ncbi.nlm.nih.gov/?term=Hasan+KA&cauthor_id=41713229)[3](https://pubmed.ncbi.nlm.nih.gov/41713229/#full-view-affiliation-3 "Molecular and Structural Biochemistry Research Laboratory, Department of Biochemistry, University of Karachi, Karachi, 75270, Pakistan."),[Armeen Hussain](https://pubmed.ncbi.nlm.nih.gov/?term=Hussain+A&cauthor_id=41713229)[2](https://pubmed.ncbi.nlm.nih.gov/41713229/#full-view-affiliation-2 "Faculty of Life Sciences, Department of Biosciences, Shaheed Zulfikar Ali Bhutto Institute of Science and Technology (SZABIST, Karachi, Pakistan."),[Fateen Malik](https://pubmed.ncbi.nlm.nih.gov/?term=Malik+F&cauthor_id=41713229)[2](https://pubmed.ncbi.nlm.nih.gov/41713229/#full-view-affiliation-2 "Faculty of Life Sciences, Department of Biosciences, Shaheed Zulfikar Ali Bhutto Institute of Science and Technology (SZABIST, Karachi, Pakistan."),[Ralf Herwig](https://pubmed.ncbi.nlm.nih.gov/?term=Herwig+R&cauthor_id=41713229)[4](https://pubmed.ncbi.nlm.nih.gov/41713229/#full-view-affiliation-4 "Laboratories PD Dr. R. Herwig, 80337, Munich, Germany; Heimerer-College, 10000, Pristina, Kosovo.")
+
+ Affiliations  Expand 
+
+### Affiliations
+
+*   1 Faculty of Life Sciences, Department of Biosciences, Shaheed Zulfikar Ali Bhutto Institute of Science and Technology (SZABIST, Karachi, Pakistan. Electronic address: khair.bux@szabist.edu.pk.
+*   2 Faculty of Life Sciences, Department of Biosciences, Shaheed Zulfikar Ali Bhutto Institute of Science and Technology (SZABIST, Karachi, Pakistan.
+*   3 Molecular and Structural Biochemistry Research Laboratory, Department of Biochemistry, University of Karachi, Karachi, 75270, Pakistan.
+*   4 Laboratories PD Dr. R. Herwig, 80337, Munich, Germany; Heimerer-College, 10000, Pristina, Kosovo.
+
+*    PMID: **41713229**
+*    DOI: [10.1016/j.jmgm.2026.109311](https://doi.org/10.1016/j.jmgm.2026.109311)
+
+ Item in Clipboard 
+
+# Atomistic simulations identify the Tetrandrine as potent anti-malarial drug candidate against Plasmodium falciparum targeting Heme Detoxification Protein (HDP)
+
+Khair Bux et al. J Mol Graph Model.2026 May.
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ J Mol Graph Model 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22J+Mol+Graph+Model%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22J+Mol+Graph+Model%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+. 2026 May:144:109311.
+
+ doi: 10.1016/j.jmgm.2026.109311.  Epub 2026 Feb 11. 
+
+### Authors
+
+[Khair Bux](https://pubmed.ncbi.nlm.nih.gov/?term=Bux+K&cauthor_id=41713229)[1](https://pubmed.ncbi.nlm.nih.gov/41713229/#short-view-affiliation-1 "Faculty of Life Sciences, Department of Biosciences, Shaheed Zulfikar Ali Bhutto Institute of Science and Technology (SZABIST, Karachi, Pakistan. Electronic address: khair.bux@szabist.edu.pk."),[Urooj Abbasi](https://pubmed.ncbi.nlm.nih.gov/?term=Abbasi+U&cauthor_id=41713229)[2](https://pubmed.ncbi.nlm.nih.gov/41713229/#short-view-affiliation-2 "Faculty of Life Sciences, Department of Biosciences, Shaheed Zulfikar Ali Bhutto Institute of Science and Technology (SZABIST, Karachi, Pakistan."),[Khwaja Ali Hasan](https://pubmed.ncbi.nlm.nih.gov/?term=Hasan+KA&cauthor_id=41713229)[3](https://pubmed.ncbi.nlm.nih.gov/41713229/#short-view-affiliation-3 "Molecular and Structural Biochemistry Research Laboratory, Department of Biochemistry, University of Karachi, Karachi, 75270, Pakistan."),[Armeen Hussain](https://pubmed.ncbi.nlm.nih.gov/?term=Hussain+A&cauthor_id=41713229)[2](https://pubmed.ncbi.nlm.nih.gov/41713229/#short-view-affiliation-2 "Faculty of Life Sciences, Department of Biosciences, Shaheed Zulfikar Ali Bhutto Institute of Science and Technology (SZABIST, Karachi, Pakistan."),[Fateen Malik](https://pubmed.ncbi.nlm.nih.gov/?term=Malik+F&cauthor_id=41713229)[2](https://pubmed.ncbi.nlm.nih.gov/41713229/#short-view-affiliation-2 "Faculty of Life Sciences, Department of Biosciences, Shaheed Zulfikar Ali Bhutto Institute of Science and Technology (SZABIST, Karachi, Pakistan."),[Ralf Herwig](https://pubmed.ncbi.nlm.nih.gov/?term=Herwig+R&cauthor_id=41713229)[4](https://pubmed.ncbi.nlm.nih.gov/41713229/#short-view-affiliation-4 "Laboratories PD Dr. R. Herwig, 80337, Munich, Germany; Heimerer-College, 10000, Pristina, Kosovo.")
+
+### Affiliations
+
+*   1 Faculty of Life Sciences, Department of Biosciences, Shaheed Zulfikar Ali Bhutto Institute of Science and Technology (SZABIST, Karachi, Pakistan. Electronic address: khair.bux@szabist.edu.pk.
+*   2 Faculty of Life Sciences, Department of Biosciences, Shaheed Zulfikar Ali Bhutto Institute of Science and Technology (SZABIST, Karachi, Pakistan.
+*   3 Molecular and Structural Biochemistry Research Laboratory, Department of Biochemistry, University of Karachi, Karachi, 75270, Pakistan.
+*   4 Laboratories PD Dr. R. Herwig, 80337, Munich, Germany; Heimerer-College, 10000, Pristina, Kosovo.
+
+*    PMID: **41713229**
+*    DOI: [10.1016/j.jmgm.2026.109311](https://doi.org/10.1016/j.jmgm.2026.109311)
+
+ Item in Clipboard 
+
+ Full text links Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Abstract
+
+Malaria is a significant global health threat, with Plasmodium falciparum identified as the most pathogenic species. The pathogen also contributes to elevated mortality and morbidity rates, especially in sub-Saharan Africa. On the other hand, the rise of drug-resistant strains, particularly to artemisinin-based combination therapies (ACTs) is the major concern that necessitates the identification of new therapeutic targets and lead compounds. The heme detoxification protein (HDP) assists the Plasmodium falciparum parasite in converting toxic heme released during hemoglobin digestion into inert, nontoxic crystalline hemozoin. Consequently, the inhibition of HDP presents a novel strategy for the design of potent anti-malarial drugs. This study presents the foundational application of an integrated computational approach to screen and validate natural inhibitors of HDP, identifying tetrandrine, a bis-benzyl-isoquinoline alkaloid, which has also been reported by in-vitro studies to demonstrate significant anti-malarial activity. However, due to the unavailability of the crystal structure of HDP protein, it was modeled using both the AlphaFold and SWISS-MODEL platforms. The model generated with the AlphaFold demonstrated stability suggested by the stereochemical examination, the Ramachandran geometry assessment, and robust per-residue confidence score evaluations. Docking analysis revealed that Tetrandrine exhibited the highest affinity for the HDP active site (-13.0 kJ/mol), surpassing Bisnordihydrotoxiferine (-10.2 kJ/mol), Neferine (-9.01 kJ/mol), and Oxytetracycline (-10.9 kJ/mol). Whereas, Tetrandrine was found to have stabilizing interactions with His122, His172, His175, and His197. The 100 ns molecular dynamics (MD) simulations confirmed the stability of the HDP ligand (tetrandrine) complex. The RMSD, RMSF, radius of gyration (Rg), and solvent-accessible surface area (SASA) indicated the complex formation affecting the adaptability and conformational stability of the protein. The Principal Component Analysis (PCA) and Dynamic Cross Correlation Matrix (DCCM) demonstrated that ligand binding significantly changed the cross-correlation movements of the domains and regulatory flexibility, affecting long-range allosteric communication of the protein as a whole. The MM-PBSA free energy calculations supported the docking findings, as Tetrandrine was found to have higher binding energy, (-30 kcal/mol), suggesting the thermodynamically favorable binding complex.
+
+**Keywords:** Computational chemistry; Dynamics cross correlation (DCCM) principal component analysis (PCA); Free energy of ligand binding and MM-PBSA; Heme detoxification protein HDP; Molecular docking; Molecular modeling; P. falciparum; Protein-ligand interactions molecular dynamics (MD) simulations.
+
+Copyright © 2026 Elsevier Inc. All rights reserved.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+## Similar articles
+
+*   [In-Silico molecular docking and simulation studies on novel chalcone and flavone hybrid derivatives with 1, 2, 3-triazole linkage as vital inhibitors of Plasmodium falciparum dihydroorotate dehydrogenase.](https://pubmed.ncbi.nlm.nih.gov/29132266/)Thillainayagam M, Malathi K, Ramaiah S.Thillainayagam M, et al.J Biomol Struct Dyn. 2018 Nov;36(15):3993-4009. doi: 10.1080/07391102.2017.1404935. Epub 2017 Nov 27.J Biomol Struct Dyn. 2018.PMID: 29132266  
+*   [A computational strategy for systematic virtual screening of plasmodium falciparum heme detoxification protein inhibitors from the Drugbank database.](https://pubmed.ncbi.nlm.nih.gov/38197419/)Nema S, Chaturvedi R, Verma K, Anvikar AR, Tiwari A, Bharti PK.Nema S, et al.J Biomol Struct Dyn. 2025 Apr;43(6):3156-3171. doi: 10.1080/07391102.2023.2301510. Epub 2024 Jan 10.J Biomol Struct Dyn. 2025.PMID: 38197419  
+*   [Identification of essential histidine residues involved in heme binding and Hemozoin formation in heme detoxification protein from Plasmodium falciparum.](https://pubmed.ncbi.nlm.nih.gov/25138161/)Nakatani K, Ishikawa H, Aono S, Mizutani Y.Nakatani K, et al.Sci Rep. 2014 Aug 20;4:6137. doi: 10.1038/srep06137.Sci Rep. 2014.PMID: 25138161 Free PMC article.  
+*   [Heme Detoxification in the Malaria Parasite: A Target for Antimalarial Drug Development.](https://pubmed.ncbi.nlm.nih.gov/33982570/)de Villiers KA, Egan TJ.de Villiers KA, et al.Acc Chem Res. 2021 Jun 1;54(11):2649-2659. doi: 10.1021/acs.accounts.1c00154. Epub 2021 May 13.Acc Chem Res. 2021.PMID: 33982570 Free PMC article.Review.  
+*   [Folic acid supplementation and malaria susceptibility and severity among people taking antifolate antimalarial drugs in endemic areas.](https://pubmed.ncbi.nlm.nih.gov/36321557/)Crider K, Williams J, Qi YP, Gutman J, Yeung L, Mai C, Finkelstain J, Mehta S, Pons-Duran C, Menéndez C, Moraleda C, Rogers L, Daniels K, Green P.Crider K, et al.Cochrane Database Syst Rev. 2022 Feb 1;2(2022):CD014217. doi: 10.1002/14651858.CD014217.Cochrane Database Syst Rev. 2022.Update in: [Cochrane Database Syst Rev. 2026 Feb 18;2:CD014217. doi: 10.1002/14651858.CD014217.pub2.](https://pubmed.ncbi.nlm.nih.gov/41705996/)PMID: 36321557 Free PMC article.Updated.  
+
+[See all similar articles](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed&from_uid=41713229)
+
+## MeSH terms
+
+*   
+ Antimalarials* / chemistry 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Antimalarials%2Fchemistry%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Antimalarials)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+*   
+ Antimalarials* / pharmacology 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Antimalarials%2Fpharmacology%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Antimalarials)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+*   
+ Benzylisoquinolines* / chemistry 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Benzylisoquinolines%2Fchemistry%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Benzylisoquinolines)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+*   
+ Benzylisoquinolines* / pharmacology 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Benzylisoquinolines%2Fpharmacology%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Benzylisoquinolines)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+*   
+ Humans 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Humans%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Humans)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+*   
+ Molecular Docking Simulation 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Molecular+Docking+Simulation%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Molecular+Docking+Simulation)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+*   
+ Molecular Dynamics Simulation* 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Molecular+Dynamics+Simulation%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Molecular+Dynamics+Simulation)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+*   
+ Plasmodium falciparum* / drug effects 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Plasmodium+falciparum%2Fdrug+effects%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Plasmodium+falciparum)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+*   
+ Protozoan Proteins* / antagonists & inhibitors 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Protozoan+Proteins%2Fantagonists+and+inhibitors%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Protozoan+Proteins)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+*   
+ Protozoan Proteins* / chemistry 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Protozoan+Proteins%2Fchemistry%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Protozoan+Proteins)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+## Substances
+
+*   
+ Benzylisoquinolines 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Benzylisoquinolines%22%5Bnm%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=%22Benzylisoquinolines%22)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+*   
+ Antimalarials 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Antimalarials%22%5Bnm%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=%22Antimalarials%22)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+*   
+ tetrandrine 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22tetrandrine%22%5Bnm%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=%22tetrandrine%22)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+*   
+ Protozoan Proteins 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Protozoan+Proteins%22%5Bnm%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=%22Protozoan+Proteins%22)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+## Related information
+
+*   [GEO Profiles](https://www.ncbi.nlm.nih.gov/geoprofiles?linkname=pubmed_geoprofiles&from_uid=41713229 "GEO records associated with pubmed record")
+*   [PubChem Compound (MeSH Keyword)](https://www.ncbi.nlm.nih.gov/pccompound?linkname=pubmed_pccompound_mesh&from_uid=41713229 "Related PubChem Compound via MeSH")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S1093-3263(26)00037-9)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-317)
+
+**Full text links**[x]
+
+[![Image 7: Elsevier Science full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--linkinghub.elsevier.com-ihub-images-PubMedLink.gif) Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S1093-3263(26)00037-9 "See full text options at Elsevier Science")
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41713229%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41713229%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F41713229%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/41713229/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/?pagename=pubmed%3Apubmed%3Aabstract%3ANONE)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)

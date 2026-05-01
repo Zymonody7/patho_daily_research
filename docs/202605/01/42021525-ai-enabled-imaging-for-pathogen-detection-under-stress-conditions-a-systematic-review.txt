@@ -1,0 +1,93 @@
+Title: AI-Enabled Imaging for Pathogen Detection Under Stress Conditions: A Systematic Review - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42021525/
+
+Markdown Content:
+Review
+
+## AI-Enabled Imaging for Pathogen Detection Under Stress Conditions: A Systematic Review
+
+MeiLi Papa et al. Compr Rev Food Sci Food Saf.2026 May.
+
+## Abstract
+
+Advances in pathogen detection that incorporate artificial intelligence (AI) may capture microbial signals under challenging environmental conditions that traditional methods miss. This systematic review evaluates the application, performance, and methodological characteristics of AI-enabled imaging for pathogen detection, including its impact on speed, accuracy, and modeling under stress conditions. Studies were systematically identified from five electronic databases using search terms related to AI, pathogen, detection, and imaging. Inclusion criteria, defined using the Population, Intervention, Comparators, Outcome, Study design (PICOS) framework, focused on microscopy-based pathogen detection enhanced by AI. Data extraction followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines and captured biological sample preparation, imaging modalities, AI-enabled data analyses, comparator methods, and performance metrics. Of 2736 citations retrieved, 120 were reviewed in full and 28 studies met the inclusion criteria. These represented more than 40 pathogens, most commonly Salmonella spp. and Escherichia coli. Only three studies explicitly evaluated signals from stress or inactivated states. Comparator methods (e.g., culture-based or molecular assays) were infrequently reported, limiting benchmarking against established workflows. Reporting inconsistencies in laboratory protocols and computational pipeline further complicated reproducibility and precluded meta-analysis. Overall, this review offers a comprehensive overview of current AI-enabled imaging approaches from both biological and computational perspectives and highlights the need for standardized benchmarks and reporting practices to support reproducible, transferable pathogen detection.
+
+© 2026 The Author(s). Comprehensive Reviews in Food Science and Food Safety published by Wiley Periodicals LLC on behalf of Institute of Food Technologists.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+The authors declare no conflicts of interest.
+
+## Figures
+
+[![Image 1: FIGURE 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3fb6/13103521/4d4a5554d001/CRF3-25-e70468-g001.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3fb6/13103521/925e47a103c8/CRF3-25-e70468-g001.jpg)
+
+**FIGURE 1**
+A schematic overview of the AI‐enabled imaging workflow synthesized from the 28 included studies, illustrating the progression from study and pathogen characteristics through biological sample preparation, image acquisition, computational modeling, pathogen detection or classification, comparator methods, and performance evaluation. Colors indicate experimental, computational, and integrative components.
+
+[![Image 2: FIGURE 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3fb6/13103521/07a37429a553/CRF3-25-e70468-g002.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3fb6/13103521/538b6822ce21/CRF3-25-e70468-g002.jpg)
+
+**FIGURE 2**
+Flow diagram illustrating the article screening and selection process for this systematic review.
+
+[![Image 3: FIGURE 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3fb6/13103521/f290c451995e/CRF3-25-e70468-g003.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3fb6/13103521/39c0c6aba16e/CRF3-25-e70468-g003.jpg)
+
+**FIGURE 3**
+Summary of risk of bias assessments for the 28 included studies using the modified QUADAS‐2 criteria with 12 signaling questions (SQs) detailed in Table S2. Ratings: green (yes), yellow (unclear), and red (no). Studies were rated as “high” (<4 yes), “low” (>8 yes), or “unclear.” (4–8 yes) risk of bias.
+
+## Similar articles
+
+*   [Artificial intelligence for breast cancer detection and its health technology assessment: A scoping review.](https://pubmed.ncbi.nlm.nih.gov/39579663/)
+
+Uwimana A, Gnecco G, Riccaboni M.Uwimana A, et al.Comput Biol Med. 2025 Jan;184:109391. doi: 10.1016/j.compbiomed.2024.109391. Epub 2024 Nov 22.Comput Biol Med. 2025.PMID: 39579663 
+*   [Multimodal AI for Alzheimer Disease Diagnosis: Systematic Review of Datasets, Models, and Modalities.](https://pubmed.ncbi.nlm.nih.gov/41883140/)
+
+Yu Z, Mulholland A, Huang T, Liu Q.Yu Z, et al.J Med Internet Res. 2026 Mar 25;28:e85414. doi: 10.2196/85414.J Med Internet Res. 2026.PMID: 41883140 Free PMC article.Review. 
+*   [Mapping Algorithmic Bias in AI-Powered Electrocardiogram Interpretation Across the AI Life Cycle: Protocol for a Scoping Review.](https://pubmed.ncbi.nlm.nih.gov/41556569/)
+
+Lawal L, Paton C, English M, Holthof B, Preston T.Lawal L, et al.JMIR Res Protoc. 2026 Jan 20;15:e82486. doi: 10.2196/82486.JMIR Res Protoc. 2026.PMID: 41556569 Free PMC article. 
+*   [Folic acid supplementation and malaria susceptibility and severity among people taking antifolate antimalarial drugs in endemic areas.](https://pubmed.ncbi.nlm.nih.gov/36321557/)
+
+Crider K, Williams J, Qi YP, Gutman J, Yeung L, Mai C, Finkelstain J, Mehta S, Pons-Duran C, Menéndez C, Moraleda C, Rogers L, Daniels K, Green P.Crider K, et al.Cochrane Database Syst Rev. 2022 Feb 1;2(2022):CD014217. doi: 10.1002/14651858.CD014217.Cochrane Database Syst Rev. 2022.PMID: 36321557 Free PMC article.Updated. 
+*   [Are Artificial Intelligence Models Reliable for Clinical Application in Pediatric Fracture Detection on Radiographs? A Systematic Review and Meta-analysis.](https://pubmed.ncbi.nlm.nih.gov/40839831/)
+
+Ximenes GF, Costa ÁL, Leite LL, Costa LL, Ribeiro MO, Baima Colares PG, Cerqueira GS.Ximenes GF, et al.Clin Orthop Relat Res. 2026 Feb 1;484(2):371-385. doi: 10.1097/CORR.0000000000003660. Epub 2025 Aug 20.Clin Orthop Relat Res. 2026.PMID: 40839831 
+
+## References
+
+1.       1.    Acuff, J. , and Ponder M.. 2020. “Interactions of Foodborne Pathogens With the Food Matrix.” In Food Safety Engineering, 129–156. Springer International Publishing. 10.1007/978-3-030-42660-6_5. - [DOI](https://doi.org/10.1007/978-3-030-42660-6_5)
+
+2.       1.    Akbar, S. A. , Ghazali K. H., Hasan H., Mohamed Z., and Aji W. S.. 2021. “An Enhanced Classification of Bacteria Pathogen on Microscopy Images Using Deep learning.” Paper presented at 2021 4th International Seminar on Research of Information Technology and Intelligent Systems (ISRITI), Yogyakarta, Indonesia, December 16–17. 10.1109/ISRITI54043.2021.9702809. - [DOI](https://doi.org/10.1109/isriti54043.2021.9702809)
+
+3.       1.    Akbari, H. , Halig L. V., Schuster D. M., et al. 2012. “Hyperspectral Imaging and Quantitative Analysis for Prostate Cancer Detection.” Journal of Biomedical Optics 17, no. 7: 0760051. 10.1117/1.JBO.17.7.076005. - [DOI](https://doi.org/10.1117/1.jbo.17.7.076005) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3608529/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/22894488/)
+
+4.       1.    Akgönüllü, S. , and Denizli A.. 2022. “Recent Advances in Optical Biosensing Approaches for Biomarkers Detection.” Biosensors and Bioelectronics: X 12: 100269. 10.1016/j.biosx.2022.100269. - [DOI](https://doi.org/10.1016/j.biosx.2022.100269)
+
+5.       1.    Ali, N. , Kirchhoff J., Onoja P. I., et al. 2020. “Predictive Modeling of Antibiotic Susceptibility in _E. coli_ Strains Using the U‐Net Network and One‐Class Classification.” IEEE Access 8: 167711–167720. 10.1109/ACCESS.2020.3022829. - [DOI](https://doi.org/10.1109/access.2020.3022829)
+
+## Publication types
+
+*   Actions 
+*   Actions 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/pmid/42021525/)
+    *   [Wiley](https://doi.org/10.1111/1541-4337.70468)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-1496)

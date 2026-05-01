@@ -1,0 +1,22 @@
+---
+title: "NCOA4-mediated ferroptosis drives cGAS-STING-dependent inflammation in radiation dermatitis: Protective modulation by Cu-ATSM."
+title_zh: NCOA4介导的铁死亡驱动放射性皮炎中cGAS-STING依赖性炎症：Cu-ATSM的保护性调节作用
+authors: "Shuai Li, Letaotao Chen, Zeyu Fang, Wangjie Shen, Jihao Cai, Bingqi Dong, Tianxiang Lin, Renkan Zhang, Liyuan Jin, Chengcheng Liu, Fangfang Wu, Qian Wu, Daqing Chen"
+date: 2026-05-01
+pdf: "https://pubmed.ncbi.nlm.nih.gov/41740686/"
+tags: ["query:seqai"]
+score: 6.0
+evidence: 用于皮肤病理表征的单细胞RNA测序
+tldr: 放射性皮炎是放疗的主要并发症，其上游机制不明。本研究发现电离辐射通过上调NCOA4诱发铁蛋白自噬，导致角质形成细胞铁死亡并释放DNA类损伤相关分子，进而激活巨噬细胞cGAS-STING通路引发炎症。研究证实氧化还原活性化合物Cu-ATSM能竞争性结合NCOA4抑制该过程，在动物模型中显著减轻了皮炎症状，为放射性损伤治疗提供了新靶点。
+selection_source: fresh_fetch
+motivation: 旨在揭示放射性皮炎中铁死亡如何驱动免疫炎症，并寻找能够阻断这一致病过程的有效干预药物。
+method: 整合单细胞测序、细胞共培养实验与分子动力学模拟，系统研究NCOA4介导的铁蛋白自噬对cGAS-STING通路的激活作用及Cu-ATSM的药理机制。
+result: 发现辐射诱导的NCOA4上调会导致铁过载和铁死亡，释放的DAMPs激活了巨噬细胞的炎症反馈环路，而Cu-ATSM能通过结合NCOA4显著缓解皮肤损伤。
+conclusion: 研究确立了NCOA4-铁死亡-cGAS-STING这一关键致病轴，并证明Cu-ATSM是一种能够通过调节氧化还原平衡和免疫激活来治疗放射性皮炎的潜力药物。
+---
+
+## 摘要
+背景：放射性皮炎（RD）仍是放射治疗的主要临床并发症，但其上游分子机制尚未完全阐明。越来越多的证据表明，铁死亡（一种铁依赖性的程序性细胞死亡形式）可能参与了辐射诱导的组织损伤，但其在皮肤病理和免疫激活中的作用仍不明确。方法：我们整合了多组学分析、细胞共培养、计算建模和体内验证，研究了NCOA4介导的铁蛋白吞噬及其与cGAS-STING通路在RD中的相互作用。利用大块（Bulk）和单细胞RNA-seq分析表征铁死亡相关的转录特征。通过生化实验、透射电子显微镜和细胞因子谱评估受辐照角质形成细胞和巨噬细胞中的铁死亡与炎症。在体外和RD小鼠模型中测试了氧化还原活性化合物Cu-ATSM作为潜在治疗调节剂的效果。结果：电离辐射（IR）诱导表皮角质形成细胞中NCOA4上调和铁蛋白降解，导致不稳定铁积累、脂质过氧化以及ACSL4等铁死亡标志物的激活。共培养实验表明，发生铁死亡的角质形成细胞释放与DNA相关的损伤相关分子模式（DAMPs），激活巨噬细胞中的cGAS-STING-IFN-β轴，形成氧化还原-免疫反馈回路。Cu-ATSM处理显著抑制了铁死亡及下游STING的激活。分子对接和分子动力学模拟显示Cu-ATSM位于NCOA4的FTH1结合界面，提示竞争性抑制，而免疫共沉淀-MRM质谱证实了物理结合。在体内，局部应用Cu-ATSM显著减轻了RD的严重程度，保护了线粒体形态，并减少了受辐照皮肤中的铁死亡和炎症细胞因子表达。结论：这些发现确定了NCOA4-铁死亡-cGAS-STING轴是连接放射性皮炎中氧化还原失衡与炎症的关键致病通路。Cu-ATSM作为一种多模态调节剂，干扰NCOA4介导的铁蛋白吞噬并减轻铁死亡驱动的免疫激活。本研究为针对铁死亡的干预措施建立了机制框架，并支持Cu-ATSM作为减轻辐射诱导皮肤损伤的有前景的治疗策略。
+
+## Abstract
+BACKGROUND: Radiation dermatitis (RD) remains a major clinical complication of radiotherapy, but its upstream molecular mechanisms are incompletely understood. Increasing evidence suggests that ferroptosis-an iron-dependent form of regulated cell death-may contribute to radiation-induced tissue injury, yet its role in skin pathology and immune activation remains undefined. METHODS: We integrated multi-omics analysis, cellular co-culture, computational modeling, and in vivo validation to investigate the role of NCOA4-mediated ferritinophagy and its interplay with the cGAS-STING pathway in RD. Bulk and single-cell RNA-seq analyses were used to characterize ferroptosis-related transcriptional signatures. Biochemical assays, transmission electron microscopy, and cytokine profiling evaluated ferroptosis and inflammation in irradiated keratinocytes and macrophages. The redox-active compound Cu-ATSM was tested as a potential therapeutic modulator both in vitro and in a mouse RD model. RESULTS: Ionizing radiation (IR) induced NCOA4 upregulation and ferritin degradation in epidermal keratinocytes, leading to labile iron accumulation, lipid peroxidation, and activation of ferroptotic markers such as ACSL4. Co-culture experiments demonstrated that ferroptotic keratinocytes released DNA-associated DAMPs that activated the cGAS-STING-IFN-β axis in macrophages, forming a redox-immune feedback loop. Cu-ATSM treatment markedly suppressed ferroptosis and downstream STING activation. Docking and molecular dynamics simulations positioned Cu-ATSM within the FTH1-binding interface of NCOA4, suggesting competitive inhibition, while immunoprecipitation-MRM mass spectrometry confirmed physical association. In vivo, topical Cu-ATSM significantly ameliorated RD severity, preserved mitochondrial morphology, and reduced ferroptosis and inflammatory cytokine expression in irradiated skin. CONCLUSION: These findings identify the NCOA4-ferroptosis-cGAS-STING axis as a key pathogenic pathway linking redox imbalance to inflammation in radiation dermatitis. Cu-ATSM acts as a multimodal modulator that interferes with NCOA4-mediated ferritinophagy and mitigates ferroptosis-driven immune activation. This study establishes a mechanistic framework for ferroptosis-targeted interventions and supports Cu-ATSM as a promising therapeutic strategy for mitigating radiation-induced skin injury.

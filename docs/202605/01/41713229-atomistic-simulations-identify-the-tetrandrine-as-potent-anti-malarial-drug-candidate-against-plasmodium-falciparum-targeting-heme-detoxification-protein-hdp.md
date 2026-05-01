@@ -1,0 +1,22 @@
+---
+title: Atomistic simulations identify the Tetrandrine as potent anti-malarial drug candidate against Plasmodium falciparum targeting Heme Detoxification Protein (HDP).
+title_zh: 原子模拟确定粉防己碱是针对恶性疟原虫血红素解毒蛋白（HDP）的强效抗疟候选药物
+authors: "Khair Bux, Urooj Abbasi, Khwaja Ali Hasan, Armeen Hussain, Fateen Malik, Ralf Herwig"
+date: 2026-05-01
+pdf: "https://pubmed.ncbi.nlm.nih.gov/41713229/"
+tags: ["query:pathoai"]
+score: 7.0
+evidence: 针对恶性疟原虫的新治疗靶点和先导化合物鉴定
+tldr: 针对恶性疟原虫对现有药物产生耐药性的挑战，本研究以血红素解毒蛋白（HDP）为新靶点，采用AlphaFold蛋白质结构预测、分子对接及100纳秒分子动力学模拟等计算方法，从天然产物中筛选出粉防己碱（Tetrandrine）。研究证实该化合物能与HDP活性位点强力结合并诱导蛋白构象改变，为开发新型抗疟药物提供了具有高亲和力的候选分子。
+selection_source: fresh_fetch
+motivation: 为了应对恶性疟原虫对青蒿素类联合疗法日益严重的耐药性，需要针对其血红素解毒代谢途径寻找新的药物靶点和抑制剂。
+method: 通过AlphaFold构建HDP蛋白模型，并结合分子对接、分子动力学模拟（MD）以及MM-PBSA自由能计算，对天然生物碱进行虚拟筛选和稳定性验证。
+result: 粉防己碱（Tetrandrine）展现出优于其他候选物的结合能（-13.0 kJ/mol），并在100纳秒模拟中通过与关键组氨酸残基相互作用维持了复合物的结构稳定性。
+conclusion: 粉防己碱作为一种高效的HDP抑制剂，能够通过改变蛋白的变构通讯和柔韧性来阻断血红素解毒过程，是极具前景的抗疟药物候选者。
+---
+
+## 摘要
+疟疾是全球重大的健康威胁，其中恶性疟原虫（Plasmodium falciparum）被认为是致病性最强的物种。该病原体导致了较高的死亡率和发病率，尤其是在撒哈拉以南非洲地区。另一方面，耐药菌株的出现，特别是对以青蒿素为基础的联合疗法（ACTs）的耐药性，是一个主要的担忧，这使得寻找新的治疗靶点和先导化合物变得至关重要。血红素解毒蛋白（HDP）协助恶性疟原虫将血红蛋白消化过程中释放的有毒血红素转化为惰性、无毒的结晶疟色素。因此，抑制HDP为设计强效抗疟药物提供了一种新策略。本研究展示了应用综合计算方法筛选和验证HDP天然抑制剂的基础应用，确定了粉防己碱（tetrandrine，一种双苄基异喹啉生物碱），体外研究也曾报道其具有显著的抗疟活性。然而，由于HDP蛋白的晶体结构尚未获得，本研究利用AlphaFold和SWISS-MODEL平台对其进行了建模。通过立体化学检查、Ramachandran几何评估以及稳健的残基置信度评分评估，AlphaFold生成的模型显示出稳定性。对接分析显示，粉防己碱对HDP活性位点表现出最高的亲和力（-13.0 kJ/mol），超过了双去甲基二氢毒马钱碱（-10.2 kJ/mol）、莲心碱（-9.01 kJ/mol）和土霉素（-10.9 kJ/mol）。同时，发现粉防己碱与His122、His172、His175和His197具有稳定的相互作用。100 ns的分子动力学（MD）模拟证实了HDP-配体（粉防己碱）复合物的稳定性。RMSD、RMSF、回转半径（Rg）和溶剂可及表面积（SASA）表明，复合物的形成影响了蛋白质的适应性和构象稳定性。主成分分析（PCA）和动态互相关矩阵（DCCM）表明，配体结合显著改变了结构域的互相关运动和调节灵活性，从而影响了蛋白质整体的远距离变构通讯。MM-PBSA自由能计算支持了对接结果，粉防己碱被发现具有较高的结合能（-30 kcal/mol），表明该结合复合物在热力学上是有利的。
+
+## Abstract
+Malaria is a significant global health threat, with Plasmodium falciparum identified as the most pathogenic species. The pathogen also contributes to elevated mortality and morbidity rates, especially in sub-Saharan Africa. On the other hand, the rise of drug-resistant strains, particularly to artemisinin-based combination therapies (ACTs) is the major concern that necessitates the identification of new therapeutic targets and lead compounds. The heme detoxification protein (HDP) assists the Plasmodium falciparum parasite in converting toxic heme released during hemoglobin digestion into inert, nontoxic crystalline hemozoin. Consequently, the inhibition of HDP presents a novel strategy for the design of potent anti-malarial drugs. This study presents the foundational application of an integrated computational approach to screen and validate natural inhibitors of HDP, identifying tetrandrine, a bis-benzyl-isoquinoline alkaloid, which has also been reported by in-vitro studies to demonstrate significant anti-malarial activity. However, due to the unavailability of the crystal structure of HDP protein, it was modeled using both the AlphaFold and SWISS-MODEL platforms. The model generated with the AlphaFold demonstrated stability suggested by the stereochemical examination, the Ramachandran geometry assessment, and robust per-residue confidence score evaluations. Docking analysis revealed that Tetrandrine exhibited the highest affinity for the HDP active site (-13.0 kJ/mol), surpassing Bisnordihydrotoxiferine (-10.2 kJ/mol), Neferine (-9.01 kJ/mol), and Oxytetracycline (-10.9 kJ/mol). Whereas, Tetrandrine was found to have stabilizing interactions with His122, His172, His175, and His197. The 100 ns molecular dynamics (MD) simulations confirmed the stability of the HDP ligand (tetrandrine) complex. The RMSD, RMSF, radius of gyration (Rg), and solvent-accessible surface area (SASA) indicated the complex formation affecting the adaptability and conformational stability of the protein. The Principal Component Analysis (PCA) and Dynamic Cross Correlation Matrix (DCCM) demonstrated that ligand binding significantly changed the cross-correlation movements of the domains and regulatory flexibility, affecting long-range allosteric communication of the protein as a whole. The MM-PBSA free energy calculations supported the docking findings, as Tetrandrine was found to have higher binding energy, (-30 kcal/mol), suggesting the thermodynamically favorable binding complex.

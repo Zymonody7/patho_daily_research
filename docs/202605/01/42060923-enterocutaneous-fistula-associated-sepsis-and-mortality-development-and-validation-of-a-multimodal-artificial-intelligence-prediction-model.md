@@ -1,0 +1,22 @@
+---
+title: "Enterocutaneous Fistula-Associated Sepsis and Mortality: Development and Validation of a Multimodal Artificial Intelligence Prediction Model."
+title_zh: 肠皮肤瘘相关脓毒症与死亡率：一种多模态人工智能预测模型的开发与验证
+authors: "Hui Li, Jing Chen, Peijun Lin, Youmei Pan, Yawen Cao, Wenfeng Xie"
+date: 2026-04-30
+pdf: "https://pubmed.ncbi.nlm.nih.gov/42060923/"
+tags: ["query:pathoai"]
+score: 8.0
+evidence: 整合临床和转录组数据用于脓毒症的多模态AI
+tldr: 肠皮肤瘘（ECF）并发脓毒症的预测因病情异质性高而极具挑战，传统单模态方法难以捕捉复杂的免疫炎症动态。本研究构建了一个多模态融合模型，利用Transformer架构整合了临床特征（XGBoost）、腹部影像特征（CNN）和转录组数据（VAE）。实验表明，该模型在预测脓毒症及28天死亡率方面达到0.89的AUC，显著优于单一模态，并结合SHAP等算法揭示了关键生物标志物与免疫重编程机制，为临床早期干预提供了精准支持。
+selection_source: fresh_fetch
+motivation: 针对肠皮肤瘘相关脓毒症临床表现复杂、传统评分系统预测精度不足的问题，探索多源数据融合的预测方案。
+method: 提出一种基于Transformer的多模态融合框架，协同处理临床指标、卷积神经网络提取的影像特征以及变分自编码器压缩的转录组信息。
+result: 多模态模型在脓毒症预测任务中取得0.89的AUC，显著超过临床或影像单模态模型，并定位了PD-L1等核心免疫调节因子。
+conclusion: 该研究通过多源数据集成与可解释性分析，为ECF患者提供了高精度的早期风险分层工具，并深化了对脓毒症免疫机制的理解。
+---
+
+## 摘要
+背景：由于肠皮肤瘘（ECF）疾病的复杂性和异质性临床表现，预测其相关的脓毒症和死亡率在数字医疗领域面临重大挑战。目前依赖单模态数据或传统评分系统的方法往往无法捕捉 ECF 患者复杂的免疫炎症动态和多系统受累情况。目的：本研究旨在开发一种集成临床、影像和转录组数据的 AI 驱动多模态融合模型，用于早期预测 ECF 相关脓毒症和 28 天死亡率，以解决传统单维模型的局限性。方法：本研究利用公开数据集（MIMIC-III、eICU 和 TCGA）构建了多模态框架。使用极端梯度提升（XGBoost）处理临床参数，通过卷积神经网络（CNN）提取腹部影像特征，并利用变分自编码器（VAE）分析转录组谱。采用基于 Transformer 的融合网络进行联合预测，并通过交叉验证和外部测试进行验证。使用 Shapley 加性解释（SHAP）和局部可解释模型无关解释（LIME）算法识别关键特征，同时通过加权基因共表达网络分析（WGCNA）探索免疫调节机制。结果：多模态模型在预测脓毒症和 28 天死亡率方面的曲线下面积（AUC）达到 0.89，优于单模态模型（仅临床模型 AUC 为 0.72，仅影像模型 AUC 为 0.78）。关键预测因子包括序贯器官衰竭估计（SOFA）评分、乳酸水平、影像学显示的腹腔内游离积液以及免疫调节基因（程序性死亡配体 1 [PD-L1] 和吲哚胺 2,3-双加氧酶 1 [IDO1]）。机制分析显示，脓毒症患者存在明显的免疫重编程，其特征是调节性 T 细胞和 M2 型巨噬细胞增加，以及分化群 8+（CD8+）T 细胞下调。结论：该多模态 AI 模型为医学信息学提供了一种创新的数字解决方案，能够实现 ECF 相关脓毒症的精准早期风险分层。通过整合多源数据并提供对免疫炎症通路的解释性见解，该模型提升了 ECF 患者的医疗质量，并为个性化干预策略铺平了道路。
+
+## Abstract
+BACKGROUND: Predicting enterocutaneous fistula (ECF)-associated sepsis and mortality poses significant challenges in digital health care due to the disease's complexity and heterogeneous clinical manifestations. Current approaches that rely on single-modal data or traditional scoring systems often fail to capture the intricate immune-inflammatory dynamics and multisystem involvement in patients with ECF. OBJECTIVE: This study aims to develop an artificial intelligence (AI)-driven multimodal fusion model integrating clinical, imaging, and transcriptomic data for early prediction of ECF-associated sepsis and 28-day mortality, addressing the limitations of conventional single-dimensional models. METHODS: This study leveraged publicly available datasets (Medical Information Mart for Intensive Care III [MIMIC-III], electronic Intensive Care Unit [eICU], and The Cancer Genome Atlas) to construct a multimodal framework. Clinical parameters were processed using Extreme Gradient Boosting, abdominal imaging features were extracted via convolutional neural networks, and transcriptomic profiles were analyzed with variational autoencoders. A Transformer-based fusion network was employed for joint prediction and validated through cross-validation and external testing. Key features were identified using Shapley Additive Explanations and Local Interpretable Model-Agnostic Explanations interpretability algorithms, while immune regulatory mechanisms were explored via weighted gene co-expression network analysis. RESULTS: The multimodal model achieved an area under the curve (AUC) of 0.89 for predicting sepsis and 28-day mortality, outperforming unimodal models (clinical-only model, AUC 0.72, and imaging-only model, AUC 0.78). Critical predictors included Sequential Organ Failure Assessment score, lactate levels, intra-abdominal free fluid on imaging, and immunoregulatory genes (programmed death-ligand 1 [PD-L1] and indoleamine 2,3-dioxygenase 1 [IDO1]). Mechanistic analysis revealed distinct immune reprogramming in patients with sepsis, characterized by increased regulatory T cells and M2 macrophages, along with downregulated cluster of differentiation 8+ (CD8+) T cells. CONCLUSIONS: This multimodal AI model offers an innovative digital solution in medical informatics, enabling precise early risk stratification for ECF-associated sepsis. By integrating multisource data and providing interpretable insights into immune-inflammatory pathways, the model enhances health care quality for patients with ECF and paves the way for personalized intervention strategies.

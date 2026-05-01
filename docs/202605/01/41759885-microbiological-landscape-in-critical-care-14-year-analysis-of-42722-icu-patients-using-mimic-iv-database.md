@@ -1,0 +1,22 @@
+---
+title: "Microbiological landscape in critical care: 14-year analysis of 42,722 ICU patients using MIMIC-IV database."
+title_zh: "重症监护中的微生物图谱：基于 MIMIC-IV 数据库对 42,722 名 ICU 患者的 14 年分析"
+authors: "Shankar Biswas, Mirza Mohammad Ali Baig, Alaa Al Amiry, Warren N Ponder, Muhammad Umar, Emily McDonald, Yashasvi Srivastava, Aksha Memon, Carol Wright Becker"
+date: 2026-05-01
+pdf: "https://pubmed.ncbi.nlm.nih.gov/41759885/"
+tags: ["query:pathoai"]
+score: 7.0
+evidence: ICU患者病原体分布和耐药趋势监测
+tldr: 针对重症监护室（ICU）内医疗相关感染的高发病率和耐药性监测不足问题，本研究利用 MIMIC-IV 数据库对 2008-2022 年间 4.2 万余名患者的 115 万份阳性培养物进行了大规模回顾性分析。研究揭示了革兰氏阴性菌的主导地位，并发现万古霉素耐药肠球菌（VRE）比例远超国家平均水平。该成果为 ICU 制定差异化的经验性抗生素治疗方案提供了关键的数据支撑。
+selection_source: fresh_fetch
+motivation: 现有的监测系统往往忽略了不同感染部位和 ICU 类型中病原体的多样性及耐药模式，导致经验性治疗缺乏精准指导。
+method: "基于 MIMIC-IV 数据库，对 14 年间 42,722 名 ICU 患者的微生物培养记录进行回顾性队列研究，并利用多变量回归模型分析耐药趋势与临床结局。"
+result: "研究发现革兰氏阴性菌占主导，且 VRE 耐药率高达 59.6%，远超常规水平，同时观察到不同菌种耐药率随时间呈现差异化演变。"
+conclusion: ICU 感染呈现显著的部位和科室差异，亟需建立针对特定感染部位和单元的药敏谱，以优化抗生素使用并改善重症患者预后。
+---
+
+## 摘要
+目的：医疗保健相关感染影响了近三分之一的重症监护病房（ICU）患者，并显著增加了死亡率。大多数监测系统忽略了指导经验性治疗的微生物多样性和特定部位的耐药模式。本研究旨在通过迄今为止最大规模的单机构分析，描述 ICU 中病原体的分布、耐药趋势及相关结局。方法：我们利用 2008 年至 2022 年的 MIMIC-IV 数据库进行了一项回顾性队列研究。研究对象包括至少有一次微生物培养阳性的成年 ICU 患者。微生物按感染部位和 ICU 类型进行分组。根据 CDC 标准定义耐药表型——MRSA、VRE、ESBL、CRE 和 MDR。分析了五个时期的随访趋势。采用多变量逻辑回归和负二项回归模型评估医院死亡率、耐药性和住院时间的独立预测因素，并对耐药表型、感染部位、ICU 类型、人口统计学和时间段进行了调整。结果：我们识别了 42,722 名 ICU 患者，共计 1,151,165 份阳性培养样本，代表 497 种独特微生物和 2,306,527 条微生物记录。革兰氏阴性菌占主导地位：大肠杆菌（18.9%）、肺炎克雷伯菌（10.7%）和铜绿假单胞菌（10.3%）。在革兰氏阳性菌中，金黄色葡萄球菌占分离株的 15.0%。在所有检测的肠球菌中，万古霉素耐药率（VRE）为 59.6%（9871/16,573），远高于国家监测数据报告的 8-12%。其他耐药率包括 ESBL 28.5%、MDR 18.8%、MRSA 6.2% 和 CRE 2.3%。尽管微生物特异性轨迹有所不同，但总体抗菌药物耐药率从 30.4%（2008-2010 年）下降到 25.8%（2020-2022 年）：肺炎克雷伯菌耐药率增加了 14.5 个百分点，而铜绿假单胞菌下降了 13.9 个百分点。40-65 岁年龄组的 MDR 率最高（8.0%，P < 10⁻³⁶），女性的大肠杆菌流行率较高，这与尿路感染（UTI）流行病学一致。结论：革兰氏阴性菌在 ICU 感染中仍占主导地位，但革兰氏阳性菌耐药性（尤其是 VRE）已达到惊人水平。不同部位和病房之间的差异强调了定制经验性治疗的必要性。实施针对特定部位和病房的药敏谱有助于减少耐药性并改善重症监护的预后。
+
+## Abstract
+OBJECTIVES: Healthcare-associated infections affect nearly one-third of intensive care unit (ICU) patients and contribute substantially to mortality. Most surveillance systems overlook the diversity of organisms and site-specific resistance patterns that guide empirical therapy. We aimed to describe the distribution of pathogens, resistance trends, and related outcomes across ICUs in the largest single-institution analysis to date. METHODS: We conducted a retrospective cohort study using the MIMIC-IV database covering 2008 to 2022. The study included adult ICU patients with at least one positive microbiological culture. Organisms were grouped by infection site and ICU type. Resistance phenotypes-MRSA, VRE, ESBL, CRE, and MDR-were defined according to CDC criteria. Temporal trends were analyzed across five periods. Multivariable logistic and negative binomial regression models assessed independent predictors of hospital mortality, resistance, and length of stay, adjusting for resistance phenotype, infection site, ICU type, demographics, and time period. RESULTS: We identified 42,722 ICU patients with 1,151,165 positive cultures, representing 497 unique organisms and 2,306,527 microbiological records. Gram-negative organisms predominated: Escherichia coli (18.9%), Klebsiella pneumoniae (10.7%), and Pseudomonas aeruginosa (10.3%). Among gram-positive organisms, Staphylococcus aureus accounted for 15.0% of isolates. Vancomycin resistance among all Enterococcus tested was 59.6% (9871/16,573), far exceeding the 8-12% reported in national surveillance data. Other resistance rates included ESBL 28.5%, MDR 18.8%, MRSA 6.2%, and CRE 2.3%. Antimicrobial resistance declined from 30.4% (2008-2010) to 25.8% (2020-2022) overall, though organism-specific trajectories diverged: K. pneumoniae resistance increased by 14.5 percentage points while P. aeruginosa decreased by 13.9 points. The 40-65 age group had the highest MDR rate (8.0%, P < 10⁻³⁶), and females had higher E. coli prevalence consistent with UTI epidemiology. CONCLUSION: Gram-negative bacteria remain dominant in ICU infections, but gram-positive resistance-particularly VRE-has reached alarming levels. Variation across sites and units highlights the need for tailored empirical therapy. Implementing site- and unit-specific antibiograms could help reduce resistance and improve outcomes in critical care.
