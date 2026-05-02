@@ -1,0 +1,110 @@
+Title: Integration of Single-Cell and Spatial Transcriptomics With Experimental Validation Uncovers Macrophage Diversity and Spatial Landscape in Carotid Atherosclerosis - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42052790/
+
+Markdown Content:
+Actions
+
+. 2026 May;78(5):e70105.
+
+doi: 10.1002/iub.70105.
+
+Affiliations
+
+*    PMID: **42052790**
+*    DOI: [10.1002/iub.70105](https://doi.org/10.1002/iub.70105)
+
+## Integration of Single-Cell and Spatial Transcriptomics With Experimental Validation Uncovers Macrophage Diversity and Spatial Landscape in Carotid Atherosclerosis
+
+Rongxing Qin et al. IUBMB Life.2026 May.
+
+## Abstract
+
+The core pathogenesis of carotid atherosclerosis (CAS) lies in the rupture of vulnerable plaques, with macrophages (MC) playing a critical role in plaque progression and destabilization. However, the functional characteristics of MC subpopulations in CAS remain poorly understood. This study systematically investigates the cellular composition of CAS and the regulatory mechanisms of MC by integrating single-cell RNA sequencing (scRNA-seq), in vitro models, and spatial transcriptomics. Differentially expressed genes upregulated in MC were significantly enriched in multiple signaling pathways, including Lipid and Atherosclerosis, Lysosome, and Antigen Processing and Presentation. Gene Set Variation Analysis (GSVA) revealed higher MC scores for Angiogenesis and Lipid Metabolism in the atherosclerotic core (AC). A total of seven distinct MC subtypes were identified. Pseudotime analysis indicated that IGSF21+ MC constitute the initial cell population, while FABP4+ MC represent the terminal cells along the trajectory. An in vitro atherosclerosis model was established to validate the diagnostic value of SPP1, FTH1, and FTL. Spatial transcriptomics further revealed the spatial connection patterns of the SPP1 signaling pathway network across different cell types. This study provides novel molecular insights into the pathogenesis of CAS and lays the groundwork for developing diagnostic biomarkers and therapeutic targets.
+
+**Keywords:** SPP1; carotid atherosclerosis; in vitro models; macrophages; single‐cell RNA sequencing; spatial transcriptomics.
+
+© 2026 International Union of Biochemistry and Molecular Biology.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Immune and inflammatory insights in atherosclerosis: development of a risk prediction model through single-cell and bulk transcriptomic analyses.](https://pubmed.ncbi.nlm.nih.gov/39364414/)
+
+Chen X, Zhang Z, Qiao G, Sun Z, Lu W.Chen X, et al.Front Immunol. 2024 Sep 19;15:1448662. doi: 10.3389/fimmu.2024.1448662. eCollection 2024.Front Immunol. 2024.PMID: 39364414 Free PMC article. 
+*   [Single-cell and bulk transcriptome analyses revealed the role of macrophage cholesterol metabolism in atherosclerosis.](https://pubmed.ncbi.nlm.nih.gov/41299485/)
+
+Ke J, Chen S, Li L, Liao C, Peng F, Chai D, Lin J.Ke J, et al.Lipids Health Dis. 2025 Nov 26;25(1):3. doi: 10.1186/s12944-025-02773-6.Lipids Health Dis. 2025.PMID: 41299485 Free PMC article. 
+*   [Differential Gene Expression in Macrophages From Human Atherosclerotic Plaques Shows Convergence on Pathways Implicated by Genome-Wide Association Study Risk Variants.](https://pubmed.ncbi.nlm.nih.gov/30354237/)
+
+Chai JT, Ruparelia N, Goel A, Kyriakou T, Biasiolli L, Edgar L, Handa A, Farrall M, Watkins H, Choudhury RP.Chai JT, et al.Arterioscler Thromb Vasc Biol. 2018 Nov;38(11):2718-2730. doi: 10.1161/ATVBAHA.118.311209.Arterioscler Thromb Vasc Biol. 2018.PMID: 30354237 Free PMC article. 
+*   [Macrophages in human atherosclerotic plaques in the era of single-cell and spatial transcriptomics.](https://pubmed.ncbi.nlm.nih.gov/41702598/)
+
+Ijaz A, Rasheed A, Orecchioni M.Ijaz A, et al.Immunohorizons. 2026 Feb 17;10(SI):vlaf089. doi: 10.1093/immhor/vlaf089.Immunohorizons. 2026.PMID: 41702598 Free PMC article.Review. 
+*   [Spatial omics strategies for investigating human carotid atherosclerotic disease.](https://pubmed.ncbi.nlm.nih.gov/40156163/)
+
+Wan J, Sun Z, Feng X, Zhou P, Macho MTN, Jiao Z, Cao H, Zhang C, Lin R, Zhang X, Fan M, Zhang N, Zhang J, Liu H, Li J, Guan S.Wan J, et al.Clin Transl Med. 2025 Apr;15(4):e70277. doi: 10.1002/ctm2.70277.Clin Transl Med. 2025.PMID: 40156163 Free PMC article.Review. 
+
+## References
+
+1.       1.    J. Fu, Y. Deng, Y. Ma, et al., “National and Provincial‐Level Prevalence and Risk Factors of Carotid Atherosclerosis in Chinese Adults,” JAMA Network Open 7, no. 1 (2024): e2351225, [https://doi.org/10.1001/jamanetworkopen.2023.51225](https://doi.org/10.1001/jamanetworkopen.2023.51225). 
+
+2.       1.    M. Tomaniak, Y. Katagiri, R. Modolo, et al., “Vulnerable Plaques and Patients: State‐Of‐The‐Art,” European Heart Journal 41, no. 31 (2020): 2997–3004, [https://doi.org/10.1093/eurheartj/ehaa227](https://doi.org/10.1093/eurheartj/ehaa227). 
+
+3.       1.    S. Kozlov, T. Riazantseva, I. Melnikov, et al., “Monocytes/Macrophages and Atherogenesis,” International Journal of Molecular Sciences 26, no. 22 (2025): 10962, [https://doi.org/10.3390/ijms262210962](https://doi.org/10.3390/ijms262210962). 
+
+4.       1.    A. Zernecke, F. Erhard, T. Weinberger, et al., “Integrated Single‐Cell Analysis‐Based Classification of Vascular Mononuclear Phagocytes in Mouse and Human Atherosclerosis,” Cardiovascular Research 119, no. 8 (2023): 1676–1689, [https://doi.org/10.1093/cvr/cvac161](https://doi.org/10.1093/cvr/cvac161). 
+
+5.       1.    A. Rao, D. Barkley, G. S. França, and I. Yanai, “Exploring Tissue Architecture Using Spatial Transcriptomics,” Nature 596, no. 7871 (2021): 211–220, [https://doi.org/10.1038/s41586‐021‐03634‐9](https://doi.org/10.1038/s41586%E2%80%90021%E2%80%9003634%E2%80%909). 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+
+## Grants and funding
+
+*   [82271371/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82271371%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82271371/National Natural Science Foundation of China")
+*   [82260367/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82260367%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82260367/National Natural Science Foundation of China")
+*   [the High-Level Medical Expert Training Program of Guangxi "139" Plan Funding](https://pubmed.ncbi.nlm.nih.gov/?term=the+High-Level+Medical+Expert+Training+Program+of+Guangxi+%22139%22+Plan+Funding%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant the High-Level Medical Expert Training Program of Guangxi \"139\" Plan Funding")
+*   [S2021107/the Guangxi Medical and Health Appropriate Technology Development and Application Project](https://pubmed.ncbi.nlm.nih.gov/?term=S2021107%2Fthe+Guangxi+Medical+and+Health+Appropriate+Technology+Development+and+Application+Project%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant S2021107/the Guangxi Medical and Health Appropriate Technology Development and Application Project")
+*   [YYZS2021002/the Clinical Research "Climbing" Program of the First Affiliated Hospital of Guangxi Medical University](https://pubmed.ncbi.nlm.nih.gov/?term=YYZS2021002%2Fthe+Clinical+Research+%22Climbing%22+Program+of+the+First+Affiliated+Hospital+of+Guangxi+Medical+University%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant YYZS2021002/the Clinical Research \"Climbing\" Program of the First Affiliated Hospital of Guangxi Medical University")
+
+*   [the Advanced Innovation Teams and Xinghu Scholars Program of Guangxi Medical University](https://pubmed.ncbi.nlm.nih.gov/?term=the+Advanced+Innovation+Teams+and+Xinghu+Scholars+Program+of+Guangxi+Medical+University%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant the Advanced Innovation Teams and Xinghu Scholars Program of Guangxi Medical University")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Wiley](https://doi.org/10.1002/iub.70105)
+
+*   ### Medical
+
+    *   [MedlinePlus Health Information](https://medlineplus.gov/carotidarterydisease.html)
+
+*   ### Research Materials
+
+    *   [NCI CPTC Antibody Characterization Program](https://antibodies.cancer.gov/detail/CPTC-SPP1-1)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/non-CPTAC-3809)

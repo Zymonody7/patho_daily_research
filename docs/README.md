@@ -11,91 +11,82 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-05-01
-- 运行时间：2026-05-01 20:01:09 UTC
+- 最新运行日期：2026-05-02
+- 运行时间：2026-05-02 19:41:01 UTC
 - 运行状态：成功
-- 本次总论文数：23
-- 精读区：9
+- 本次总论文数：20
+- 精读区：6
 - 速读区：14
 
 ### 今日简报（AI）
-今日精选 23 篇前沿成果，见证 AI 与大模型在海洋微生物组及耐药基因预测领域的深度跨界。
-重点关注 DeepSeMS 如何利用大模型挖掘海洋生物合成潜力，以及 MobiRes 流程对耐药风险的精准预警。
-建议读者关注大模型在环境微生物研究中的应用，提前布局生物医药与生态安全的新赛道。
-- 详情：[/202605/01/README](/202605/01/README)
+聚焦 20 篇生物医学前沿，深度解析肠道病毒 D68 的废水监测动态及颈动脉粥样硬化的空间转录组图谱。
+重点关注气候与人口数据如何驱动病毒流行，以及单细胞技术揭示的巨噬细胞在血管病变中的空间异质性。
+建议关注公共卫生监测与精准医疗的交叉应用，并警惕环境阻燃剂对心血管健康的潜在威胁。
+- 详情：[/202605/02/README](/202605/02/README)
 
 ### 精读区论文标签
-1. [MobiRes: An integrative pipeline for resistome risk prediction through mobilome profiling.](/202605/01/41819291-mobires-an-integrative-pipeline-for-resistome-risk-prediction-through-mobilome-profiling)  
-   标签：评分：10.0/10、query:pathoai
-   evidence：用于从宏基因组数据集中预测耐药组风险的计算框架
-2. [DeepSeMS: revealing the hidden biosynthetic potential of the global ocean microbiome with a large language model.](/202605/01/42062603-deepsems-revealing-the-hidden-biosynthetic-potential-of-the-global-ocean-microbiome-with-a-large-language-model)  
-   标签：评分：10.0/10、query:bioinfo
-   evidence：基于Transformer的大语言模型用于微生物组生物合成潜力预测
-3. [SERS on analyte-enriched blood for rapid, culture-free sepsis recognition and causative pathogen identification with super operational neural networks.](/202605/01/41478040-sers-on-analyte-enriched-blood-for-rapid-culture-free-sepsis-recognition-and-causative-pathogen-identification-with-super-operational-neural-networks)  
+1. [Enterovirus D68 in United States wastewater: a longitudinal surveillance study integrating climatic, demographic, and clinical data.](/202605/02/41853773-enterovirus-d68-in-united-states-wastewater-a-longitudinal-surveillance-study-integrating-climatic-demographic-and-clinical-data)  
    标签：评分：9.0/10、query:pathoai
-   evidence：用于血液中致病病原体识别的深度学习
-4. [Identification of molecular compounds targeting bacterial propionate metabolism with topological machine learning.](/202605/01/41544343-identification-of-molecular-compounds-targeting-bacterial-propionate-metabolism-with-topological-machine-learning)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：拓扑机器学习用于识别针对病原菌代谢的化合物
-5. [AI-Enabled Imaging for Pathogen Detection Under Stress Conditions: A Systematic Review.](/202605/01/42021525-ai-enabled-imaging-for-pathogen-detection-under-stress-conditions-a-systematic-review)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：人工智能赋能的病原体检测成像与建模
-6. [Tracing the rise of biomedical foundation models.](/202605/01/42062613-tracing-the-rise-of-biomedical-foundation-models)  
+   evidence：基于废水的基因组监测与流行病学建模
+2. [Integration of Single-Cell and Spatial Transcriptomics With Experimental Validation Uncovers Macrophage Diversity and Spatial Landscape in Carotid Atherosclerosis.](/202605/02/42052790-integration-of-single-cell-and-spatial-transcriptomics-with-experimental-validation-uncovers-macrophage-diversity-and-spatial-landscape-in-carotid-atherosclerosis)  
+   标签：评分：9.0/10、query:seqai
+   evidence：单细胞与空间转录组学整合
+3. [Towards generalizable AI in medicine via Generalist-Specialist Collaboration.](/202605/02/42067582-towards-generalizable-ai-in-medicine-via-generalist-specialist-collaboration)  
    标签：评分：9.0/10、query:bioinfo
-   evidence：追踪生物医学基础模型的发展
-7. [Exploring traditional Chinese medicine for antiviral drug discovery: A computational approach to combat human metapneumovirus (HMPV).](/202605/01/41546933-exploring-traditional-chinese-medicine-for-antiviral-drug-discovery-a-computational-approach-to-combat-human-metapneumovirus-hmpv)  
-   标签：评分：8.0/10、query:bioinfo
-   evidence：抗病毒药物发现的计算流程
-8. [Ligand-Based Design of Novel Thiazole-Quinazolinone Hybrids with Dual Antimicrobial and Anti-Virulence Activity Targeting Staphylococcal Sortase A.](/202605/01/41650554-ligand-based-design-of-novel-thiazole-quinazolinone-hybrids-with-dual-antimicrobial-and-anti-virulence-activity-targeting-staphylococcal-sortase-a)  
+   evidence：用于医学和诊断预测的通用基础模型
+4. [Discovery of furo[2,3-b]isoquinoline derivatives as novel Pks13 inhibitors with reduced hERG inhibition.](/202605/02/41605335-discovery-of-furo23-bisoquinoline-derivatives-as-novel-pks13-inhibitors-with-reduced-herg-inhibition)  
    标签：评分：8.0/10、query:pathoai
-   evidence：基于配体的药效团建模用于抗菌药物设计
-9. [Computation-driven discovery of a next-generation canine monoclonal antibody for canine parvovirus therapy.](/202605/01/41806591-computation-driven-discovery-of-a-next-generation-canine-monoclonal-antibody-for-canine-parvovirus-therapy)  
+   evidence：抗结核药物发现中的SAR研究与靶点识别
+5. [Shared functional microbiome signatures in Parkinson's disease and constipation predominate irritable bowel syndrome despite taxonomic divergence.](/202605/02/41993915-shared-functional-microbiome-signatures-in-parkinsons-disease-and-constipation-predominate-irritable-bowel-syndrome-despite-taxonomic-divergence)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：鸟枪法宏基因组学用于微生物组-宿主相互作用和疾病建模
+6. [Focus on M2-TAMs and gastric cancer: a Mendelian randomization and bioinformatics analysis.](/202605/02/42067686-focus-on-m2-tams-and-gastric-cancer-a-mendelian-randomization-and-bioinformatics-analysis)  
    标签：评分：8.0/10、query:bioinfo
-   evidence：用于治疗发现的抗原-抗体结构预测
+   evidence：用于多组学整合和生物标志物发现的生物信息学算法
 
 ### 速读区论文标签
-1. [Enterocutaneous Fistula-Associated Sepsis and Mortality: Development and Validation of a Multimodal Artificial Intelligence Prediction Model.](/202605/01/42060923-enterocutaneous-fistula-associated-sepsis-and-mortality-development-and-validation-of-a-multimodal-artificial-intelligence-prediction-model)  
-   标签：评分：8.0/10、query:pathoai
-   evidence：整合临床和转录组数据用于脓毒症的多模态AI
-2. [Network pharmacology and AI: illuminating the path to precision herbal medicine in Ganoderma spp.](/202605/01/42062030-network-pharmacology-and-ai-illuminating-the-path-to-precision-herbal-medicine-in-ganoderma-spp)  
-   标签：评分：8.0/10、query:bioinfo
-   evidence：人工智能用于草药药物发现和分子性质预测
-3. [GMFCC-UMA: A Fragment-Based Machine Learning Framework for Scalable Ab Initio-Quality Protein Energies.](/202605/01/42065590-gmfcc-uma-a-fragment-based-machine-learning-framework-for-scalable-ab-initio-quality-protein-energies)  
-   标签：评分：8.0/10、query:bioinfo
-   evidence：用于蛋白质能量计算的基础神经网络势能模型
-4. [Phylodynamics and molecular epidemiology of the respiratory syncytial virus fusion protein in China.](/202605/01/42065599-phylodynamics-and-molecular-epidemiology-of-the-respiratory-syncytial-virus-fusion-protein-in-china)  
-   标签：评分：8.0/10、query:pathoai
-   evidence：利用生物信息学流程进行系统动力学和分子流行病学研究
-5. [Integrating multi-omics to characterize the dynamics of rumen microorganisms and metabolites in Angus cattle at different growth stages.](/202605/01/41633028-integrating-multi-omics-to-characterize-the-dynamics-of-rumen-microorganisms-and-metabolites-in-angus-cattle-at-different-growth-stages)  
+1. [PqsR-specific quorum sensing inhibitors targeting](/202605/02/40432318-pqsr-specific-quorum-sensing-inhibitors-targeting)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：针对群体感应以对抗多重耐药病原体
+2. [The Potential, Challenges and New Horizons of Marine Natural Products Against Tuberculosis Infection.](/202605/02/41355385-the-potential-challenges-and-new-horizons-of-marine-natural-products-against-tuberculosis-infection)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：结核病治疗设计与靶点鉴定
+3. [Integrating NHANES and network toxicology to assess the impact of organophosphate flame retardants on cardiovascular disease.](/202605/02/41804832-integrating-nhanes-and-network-toxicology-to-assess-the-impact-of-organophosphate-flame-retardants-on-cardiovascular-disease)  
    标签：评分：7.0/10、query:bioinfo
-   evidence：宏基因组学与代谢组学的多组学整合
-6. [A Vibrio-susceptibility class of antimicrobial peptide Ajapocin via membranolytic pattern to combat "non-cholera" pathogens in vivo infection models.](/202605/01/41633430-a-vibrio-susceptibility-class-of-antimicrobial-peptide-ajapocin-via-membranolytic-pattern-to-combat-non-cholera-pathogens-in-vivo-infection-models)  
+   evidence：网络毒理学与分子对接用于多组学整合
+4. [Structural insights into MltB from Acinetobacter baumannii: a conserved catalytic tunnel with unique domain arrangement.](/202605/02/41954507-structural-insights-into-mltb-from-acinetobacter-baumannii-a-conserved-catalytic-tunnel-with-unique-domain-arrangement)  
    标签：评分：7.0/10、query:pathoai
-   evidence：发现并优化抗菌肽以对抗病原体
-7. [Structural and functional insights into glycosyltransferase from Nocardia asteroides NCTC11293 and structure-guided discovery of marine and phytochemical leads through pharmacokinetic screening and molecular dynamics studies.](/202605/01/41662787-structural-and-functional-insights-into-glycosyltransferase-from-nocardia-asteroides-nctc11293-and-structure-guided-discovery-of-marine-and-phytochemical-leads-through-pharmacokinetic-screening-and-molecular-dynamics-studies)  
+   evidence：鲍曼不动杆菌抗生素耐药性的结构基础
+5. [Oropouche virus: transmission, epidemiology, genetic diversity, and public health implications.](/202605/02/42058505-oropouche-virus-transmission-epidemiology-genetic-diversity-and-public-health-implications)  
    标签：评分：7.0/10、query:pathoai
-   evidence：针对星形诺卡氏菌的结构引导先导化合物发现
-8. [Atomistic simulations identify the Tetrandrine as potent anti-malarial drug candidate against Plasmodium falciparum targeting Heme Detoxification Protein (HDP).](/202605/01/41713229-atomistic-simulations-identify-the-tetrandrine-as-potent-anti-malarial-drug-candidate-against-plasmodium-falciparum-targeting-heme-detoxification-protein-hdp)  
+   evidence：病原体多样性与传播动力学用于基因组监测
+6. [Streptomyces-induced Glycerol-3-Phosphate enriches beneficial microbiota to enhance resistance against banana Fusarium wilt.](/202605/02/42067885-streptomyces-induced-glycerol-3-phosphate-enriches-beneficial-microbiota-to-enhance-resistance-against-banana-fusarium-wilt)  
    标签：评分：7.0/10、query:pathoai
-   evidence：针对恶性疟原虫的新治疗靶点和先导化合物鉴定
-9. [Microbiological landscape in critical care: 14-year analysis of 42,722 ICU patients using MIMIC-IV database.](/202605/01/41759885-microbiological-landscape-in-critical-care-14-year-analysis-of-42722-icu-patients-using-mimic-iv-database)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：ICU患者病原体分布和耐药趋势监测
-10. [PANX1-mediated NLRP3 inflammasome activation promotes an adaptive doxorubicin resistance through IL-1β signaling in breast cancer.](/202605/01/41765358-panx1-mediated-nlrp3-inflammasome-activation-promotes-an-adaptive-doxorubicin-resistance-through-il-1-signaling-in-breast-cancer)  
-   标签：评分：7.0/10、query:seqai
-   evidence：利用单细胞和空间转录组学研究癌症治疗耐药性
-11. [Host-gut microbial metabolic crosstalk in postpartum depression: A multiomics insight linking blood metabolites to epigenetic modulation.](/202605/01/41519171-host-gut-microbial-metabolic-crosstalk-in-postpartum-depression-a-multiomics-insight-linking-blood-metabolites-to-epigenetic-modulation)  
-   标签：评分：6.0/10、query:bioinfo
-   evidence：多组学视角联系肠道微生物群、代谢物与宿主表观遗传调节
-12. [NCOA4-mediated ferroptosis drives cGAS-STING-dependent inflammation in radiation dermatitis: Protective modulation by Cu-ATSM.](/202605/01/41740686-ncoa4-mediated-ferroptosis-drives-cgas-sting-dependent-inflammation-in-radiation-dermatitis-protective-modulation-by-cu-atsm)  
+   evidence：微生物-植物-病原体相互作用和有益菌群富集
+7. [Discovery of novel thiazolidinedione-benzylpiperidine hybrids as dual-target antifungal agents for crop disease management.](/202605/02/41567084-discovery-of-novel-thiazolidinedione-benzylpiperidine-hybrids-as-dual-target-antifungal-agents-for-crop-disease-management)  
+   标签：评分：6.0/10、query:pathoai
+   evidence：发现用于作物疾病管理的抗真菌剂
+8. [The Clinical Spectrum and Neurodevelopmental Pathogenesis of KPTN-Related Disorder in a Mouse Model.](/202605/02/41696790-the-clinical-spectrum-and-neurodevelopmental-pathogenesis-of-kptn-related-disorder-in-a-mouse-model)  
    标签：评分：6.0/10、query:seqai
-   evidence：用于皮肤病理表征的单细胞RNA测序
-13. [Direct-acting antivirals and beyond: emerging approaches to targeting viral RNA and ribonucleoprotein complexes.](/202605/01/41780690-direct-acting-antivirals-and-beyond-emerging-approaches-to-targeting-viral-rna-and-ribonucleoprotein-complexes)  
+   evidence：基因组变异分析与发病机制建模
+9. [The Intestinal Microenvironment and Disorders of Gut-Brain Interaction.](/202605/02/41698473-the-intestinal-microenvironment-and-disorders-of-gut-brain-interaction)  
    标签：评分：6.0/10、query:pathoai
-   evidence：针对病毒RNA和核糖核蛋白复合物进行抗病毒药物研发
-14. [Pathobiological characterization and estimation of the basic reproduction number of a recombinant african swine fever virus in contact-exposed pigs in Vietnam.](/202605/01/41793983-pathobiological-characterization-and-estimation-of-the-basic-reproduction-number-of-a-recombinant-african-swine-fever-virus-in-contact-exposed-pigs-in-vietnam)  
+   evidence：肠道微生物群组成及其与宿主的相互作用
+10. [GLP-1 agonists and the gut microbiome: A bidirectional relationship.](/202605/02/41703894-glp-1-agonists-and-the-gut-microbiome-a-bidirectional-relationship)  
    标签：评分：6.0/10、query:pathoai
-   evidence：基本再生数估计与传播动力学
+   evidence：肠道微生物群相互作用与代谢结果
+11. [NanoTAC in targeted protein degradation: Intelligent delivery platforms and synergistic therapeutic paradigms.](/202605/02/41713656-nanotac-in-targeted-protein-degradation-intelligent-delivery-platforms-and-synergistic-therapeutic-paradigms)  
+   标签：评分：6.0/10、query:bioinfo
+   evidence：靶向蛋白质降解以消除致病蛋白质
+12. [Estimating original bacterial loads from delayed clinical samples: A methodological Modeling and empirical validation study.](/202605/02/41825806-estimating-original-bacterial-loads-from-delayed-clinical-samples-a-methodological-modeling-and-empirical-validation-study)  
+   标签：评分：6.0/10、query:pathoai
+   evidence：临床样本中细菌生长和衰减的模型建模
+13. [Phagocyte-inspired supramolecular self-assembly design of abiotic cell-mimics for pathogen recognition and eradication.](/202605/02/41856262-phagocyte-inspired-supramolecular-self-assembly-design-of-abiotic-cell-mimics-for-pathogen-recognition-and-eradication)  
+   标签：评分：6.0/10、query:pathoai
+   evidence：病原体识别与清除设计
+14. [Clearing the Noise: Seasonal Dynamics of Endophytic Bacteria in Fagus sylvatica Leaves Revealed by Application of PNA Clamps.](/202605/02/42036304-clearing-the-noise-seasonal-dynamics-of-endophytic-bacteria-in-fagus-sylvatica-leaves-revealed-by-application-of-pna-clamps)  
+   标签：评分：6.0/10、query:seqai
+   evidence：抑制宿主扩增以解析细菌序列变异
 
 
 <div class="dpr-home-promo-card">

@@ -1,0 +1,22 @@
+---
+title: "Estimating original bacterial loads from delayed clinical samples: A methodological Modeling and empirical validation study."
+title_zh: 从延迟的临床样本中估算原始细菌载量：一项方法学建模与实证验证研究
+authors: "Ahmed Dawood Al Mahrizi, Fatima Mossolem, Renald Blundell"
+date: 2026-05-01
+pdf: "https://pubmed.ncbi.nlm.nih.gov/41825806/"
+tags: ["query:pathoai"]
+score: 6.0
+evidence: 临床样本中细菌生长和衰减的模型建模
+tldr: 针对临床样本在运输存储中因细菌生长或衰减导致初始载量估算不准的问题，本研究开发了 MM-VCM 模型。该模型利用逆向逻辑增长-衰减框架，结合温度敏感的倍增时间和滞后期参数，从延迟检测的菌落数反推原始载量。通过蒙特卡洛模拟和临床血培养数据验证，证明了该模型在处理 24 小时内延迟样本时的有效性，为无法重新采样的临床诊断提供了关键的预分析修正工具。
+selection_source: fresh_fetch
+motivation: 临床样本在送检过程中的延迟会导致细菌数量发生变化，进而影响初始感染程度的准确评估和治疗决策。
+method: 提出了一种名为 MM-VCM 的数学模型，通过整合温度相关的倍增时间、滞后期和衰减率，利用逆向逻辑增长方程从观测到的细菌数反推原始载量。
+result: 模拟和临床数据验证显示，温度是影响估算准确性的核心因素，模型在 24 小时内的预测结果与金黄色葡萄球菌等病原体的实际检测趋势高度吻合。
+conclusion: 该模型为临床实验室提供了一种有效的预分析修正手段，特别适用于脑脊液等难以重复采样的样本，有助于提高细菌感染诊断的准确性。
+---
+
+## 摘要
+目的：临床样本（尿液、血液、脑脊液）处理的延迟会因存储/运输条件的差异而导致细菌菌落形成单位（CFU）失真，从而导致初始载量估算不准确并延误治疗。本研究提出并实证验证了 Al Mahrizi-Mossolem 活力修正模型（MM-VCM），这是一个逆逻辑增长-衰减框架，用于根据延迟观测值（Nt）反向计算原始载量（N₀），并考虑了温度依赖性增长、迟滞期、衰减和环境容纳量。方法：MM-VCM 采用了一个闭式方程，该方程源自集成到逻辑动力学中的高斯调制倍增时间（在 37 °C 时达到最优，标准差为 5 °C）。从文献中提取的参数（迟滞期 0.3-0.6 小时，衰减率 0.01-0.013 h⁻¹，容纳量约 10⁹ CFU/mL）被应用于八种病原体-基质组合（例如，尿液/血液中的大肠杆菌和脑脊液中的脑膜炎奈瑟菌）。验证过程包括在 R (v4.3.1) 中针对 0-24 小时的延迟（平均温度 25 °C，标准差 2 °C）进行 4000 次蒙特卡洛和贝叶斯模拟，Nt 约为 10⁸ CFU/mL，并进行了 Sobol 灵敏度分析。将模型预测结果与使用实际样本组接种量和阳性率的多中心临床血培养存储数据集进行了比较。结果：模拟显示，N₀ 从 t = 0 时的约 10⁸ CFU/mL 指数级下降至 t = 24 小时时的 1.3-2.0 × 10⁷ CFU/mL，95% 置信区间从约 10⁷ CFU/mL (t = 2 小时) 扩大到 >4 × 10⁷ CFU/mL (t = 24 小时)。对于 ≤6 小时的延迟，显著载量（>10⁵ CFU/mL）的概率超过 0.99，而脑脊液组合表现出更高的稳定性（24 小时时为 0.89-0.90）。温度是导致不确定性的主要因素（Sobol 指数 >0.95），且贝叶斯结果高度一致（差异 <5%）。在 25 °C 下对大肠杆菌、金黄色葡萄球菌和肺炎链球菌的实证结果显示，模型预测与观察到的检测趋势大致相符，其中金黄色葡萄球菌和肺炎链球菌的一致性更强，为模型的实际应用提供了初步支持。结论：MM-VCM 能够对细菌载量进行有效的分析前修正，为无法重新采样的情况（如脑脊液、高通量实验室）提供诊断支持。针对 25 °C 下多中心临床血培养数据集的实证验证表明，模型预测与金黄色葡萄球菌和肺炎链球菌的观察检测模式大致对应，而大肠杆菌的变异性较大，这支持了该模型在进一步验证后的潜在效用。
+
+## Abstract
+PURPOSE: Delays in the processing of clinical samples (urine, blood, CSF) distort bacterial colony-forming units (CFUs) due to variable storage/transit, resulting in inaccurate initial load estimates and delayed treatment. This study presents and empirically validates the Al Mahrizi-Mossolem viability correction model (MM-VCM), an inverse logistic growth-decay framework used to back-calculate original loads (N₀) from delayed observations (Nt), accounting for temperature-dependent growth, lag phases, decay, and carrying capacities. METHODS: MM-VCM employs a closed-form equation derived from a Gaussian-modulated doubling time (optimal at 37 °C, SD 5 °C) integrated into logistic dynamics. The parameters (lag 0.3-0.6 h, decay 0.01-0.013 h-1, capacity ∼109 CFU/mL), drawn from the literature, were applied to eight pathogen-matrix pairs (e.g., E. coli in urine/blood and N. meningitidis in CSF). Validation involved 4000 iterations of Monte Carlo and Bayesian simulations in R (v4.3.1) for 0-24 h delays (25 °C mean, SD 2 °C), with Nt ∼108 CFU/mL, plus Sobol sensitivity analysis. Model predictions were compared to a multicenter clinical blood culture storage dataset using actual sample group inocula and positivity rates. RESULTS: The simulations revealed that N₀ declined exponentially from ∼108 CFU/mL at t = 0 to 1.3-2.0 × 107 CFU/mL at t = 24 h, with 95% confidence intervals widening from ∼107 CFU/mL (t = 2 h) to >4 × 107 CFU/mL (t = 24 h). The probabilities of significant loads (>105 CFU/mL) exceeded 0.99 for ≤6 h delays, whereas the CSF pairs presented greater stability (0.89-0.90 at 24 h). Temperature primarily drove uncertainty (Sobol indices >0.95), and the Bayesian results aligned closely (<5% differences). Empirical results for E. coli, S. aureus, and S. pneumoniae at 25 °C revealed that model predictions broadly corresponded with observed detection trends, with stronger agreement for S. aureus and S. pneumoniae, providing preliminary support for the model's real-world applicability. CONCLUSION: MM-VCM enables efficient preanalytic corrections for bacterial loads, supporting diagnostics where resampling is infeasible (e.g., CSF, high-volume labs). Empirical validation against a multicenter clinical blood culture dataset at 25 °C revealed that model predictions broadly corresponded with observed detection patterns for S. aureus and S. pneumoniae, with greater variability observed for E. coli, supporting the model's potential utility pending further validation.

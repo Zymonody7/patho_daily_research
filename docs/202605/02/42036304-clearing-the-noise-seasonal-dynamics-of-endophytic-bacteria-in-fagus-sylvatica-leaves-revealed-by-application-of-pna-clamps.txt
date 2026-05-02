@@ -1,0 +1,112 @@
+Title: Clearing the Noise: Seasonal Dynamics of Endophytic Bacteria in Fagus sylvatica Leaves Revealed by Application of PNA Clamps - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42036304/
+
+Markdown Content:
+## Clearing the Noise: Seasonal Dynamics of Endophytic Bacteria in Fagus sylvatica Leaves Revealed by Application of PNA Clamps
+
+Irene Giubilei et al. Physiol Plant.2026 May-Jun.
+
+## Abstract
+
+The characterization of the seasonal dynamics of endophytic bacteria in beech leaves can be hindered by co-amplification of chloroplast and mitochondrial plant DNA. This study applies established peptide nucleic acid (PNA) clamps to suppress host-derived amplification while resolving bacterial succession across the vegetative season. Chloroplast- and mitochondrion-specific PNAs inverted the proportion of host to bacterial reads, enabled the recovery of bacterial sequence variants, and increased alpha diversity accordingly. Beta-diversity analyses showed that, once host contamination was removed, samples displayed a clear seasonal trajectory. Early-season leaves contained high abundances of Pseudomonas together with taxa likely introduced through plant-insect-microbe interactions. As leaves matured, the microbiome shifted toward a more stable composition dominated by well-established genera. The transition from early transient taxa to the later enrichment of phyllosphere-adapted and nutrient-cycling genera demonstrates that beech leaves host a temporally structured microbiome shaped by leaf development and seasonal environmental stress.
+
+**Keywords:** Fagus sylvatica; PNA clamps; endophytes; metabarcoding; microbiome.
+
+© 2026 The Author(s). Physiologia Plantarum published by John Wiley & Sons Ltd on behalf of Scandinavian Plant Physiology Society.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+The authors declare no conflicts of interest.
+
+## Figures
+
+[![Image 1: FIGURE 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a4d6/13110927/7261e924a05a/PPL-178-e70897-g007.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a4d6/13110927/584aa020f75c/PPL-178-e70897-g007.jpg)
+
+**FIGURE 1**
+Relative abundances of the four bacterial genera (_Pseudomonas_, _Erwinia_, _Xanthomonas_, and _Serratia_) included in the mock community in samples processed with (MPNA16S) and without PNA clamps (M16S). Comparable abundances across treatments indicate that PNA clamps do not affect bacterial amplification.
+
+[![Image 2: FIGURE 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a4d6/13110927/4531c6e4cfb0/PPL-178-e70897-g004.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a4d6/13110927/44ed4c8b2df7/PPL-178-e70897-g004.jpg)
+
+**FIGURE 2**
+Relative proportions of host‐derived and bacterial reads in samples processed with and without PNA clamps across three seasonal time points (TP1, TP2, TP3). In the absence of PNA clamps, host sequences dominated the datasets, whereas PNA treatment markedly reduced host amplification and increased bacterial read recovery.
+
+[![Image 3: FIGURE 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a4d6/13110927/896b6f8fc0fd/PPL-178-e70897-g005.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a4d6/13110927/3e37e95ec885/PPL-178-e70897-g005.jpg)
+
+**FIGURE 3**
+Total ASVs obtained at the family, genus, and species taxonomic levels from samples processed with and without PNA clamps across three seasonal time points (TP1, TP2, TP3).
+
+[![Image 4: FIGURE 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a4d6/13110927/79b3e2553c77/PPL-178-e70897-g006.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a4d6/13110927/68f70d459200/PPL-178-e70897-g006.jpg)
+
+**FIGURE 4**
+Relative abundance profiles of the most abundant bacterial genera in PNA‐treated samples across three time points (TP1, TP2, TP3). The data show pronounced temporal changes in community composition, with the PNA‐based approach enabling accurate detection of both dominant and low‐abundance taxa by minimizing interference from host‐derived sequences.
+
+[![Image 5: FIGURE 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a4d6/13110927/cd949430a8c6/PPL-178-e70897-g003.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a4d6/13110927/c093792f71f5/PPL-178-e70897-g003.jpg)
+
+**FIGURE 5**
+Venn diagrams showing the overlap and unique distribution of bacterial genera detected in PNA‐treated samples across the three time points (TP1, TP2, TP3). The stable core microbiome, comprising 31 genera consistently shared across all time points, was accompanied by unique taxa at each stage (TP1: 47, TP2: 22, TP3: 47), highlighting temporal turnover and dynamic community shifts.
+
+[![Image 6: FIGURE 6](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a4d6/13110927/e27bb5407cbb/PPL-178-e70897-g001.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a4d6/13110927/97a9c1242cfa/PPL-178-e70897-g001.jpg)
+
+**FIGURE 6**
+Alpha‐diversity metrics of bacterial communities in PNA‐treated and untreated (noPNA) samples across three time points (TP1, TP2, TP3). Boxplots show Shannon diversity and Pielou evenness.
+
+[![Image 7: FIGURE 7](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a4d6/13110927/734fe7e0aa13/PPL-178-e70897-g002.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a4d6/13110927/e120772736e3/PPL-178-e70897-g002.jpg)
+
+**FIGURE 7**
+Beta‐diversity analysis of bacterial communities in samples processed with and without PNA clamps across seasonal time points. (A) Non‐metric multidimensional scaling (NMDS) showing that PNA‐treated samples cluster separately from no‐PNA samples at each time point. (B) Principal Coordinates Analysis (PCoA) indicates clear divergence between methods along the primary axis, with seasonal variation contributing secondarily to community structure.
+
+[![Image 8: FIGURE 8](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a4d6/13110927/01fbac3f5337/PPL-178-e70897-g008.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/a4d6/13110927/cb3ebe1f6ca6/PPL-178-e70897-g008.jpg)
+
+**FIGURE 8**
+Heatmap showing the differential abundance (DeSeq2 normalized) of bacterial genera across the three time points, based exclusively on PNA‐treated samples. Colors represent relative abundance (red = high, blue = low), with annotations for phylum affiliation, time point, and processing method. Several taxa display clear temporal patterns of enrichment or decline, indicating time‐specific ecological dynamics in the bacterial community.
+
+## Similar articles
+
+*   [Divergence and convergence in epiphytic and endophytic phyllosphere bacterial communities of rice landraces.](https://pubmed.ncbi.nlm.nih.gov/39475315/)
+
+Sanjenbam P, Agashe D.Sanjenbam P, et al.mSphere. 2024 Nov 21;9(11):e0076524. doi: 10.1128/msphere.00765-24. Epub 2024 Oct 30.mSphere. 2024.PMID: 39475315 Free PMC article. 
+*   [Improving the profiling of wheat bacterial and fungal endophytic communities-a PCR clamping approach.](https://pubmed.ncbi.nlm.nih.gov/41244672/)
+
+Dubois B, Delitte M, Bragard C, Legrève A, Chandelier A, Debode F.Dubois B, et al.Front Microbiol. 2025 Oct 31;16:1690976. doi: 10.3389/fmicb.2025.1690976. eCollection 2025.Front Microbiol. 2025.PMID: 41244672 Free PMC article. 
+*   [Diversity and Composition of the Leaf Mycobiome of Beech (Fagus sylvatica) Are Affected by Local Habitat Conditions and Leaf Biochemistry.](https://pubmed.ncbi.nlm.nih.gov/27078859/)
+
+Unterseher M, Siddique AB, Brachmann A, Peršoh D.Unterseher M, et al.PLoS One. 2016 Apr 14;11(4):e0152878. doi: 10.1371/journal.pone.0152878. eCollection 2016.PLoS One. 2016.PMID: 27078859 Free PMC article. 
+*   [Effects of the nematode _Litylenchus crenatae_ subsp. _mccannii_ and beech leaf disease on leaf fungal and bacterial communities on _Fagus grandifolia_ (American beech).](https://pubmed.ncbi.nlm.nih.gov/38775476/)
+
+Burke DJ, Carrino-Kyker SR, Hoke AJ, Galloway E, Martin D, Chick L.Burke DJ, et al.Appl Environ Microbiol. 2024 Jun 18;90(6):e0014224. doi: 10.1128/aem.00142-24. Epub 2024 May 22.Appl Environ Microbiol. 2024.PMID: 38775476 Free PMC article. 
+*   [Microbial Allies in the Olive Canopy: Endophyte Composition, Drivers, and their Role in Plant Protection.](https://pubmed.ncbi.nlm.nih.gov/41387646/)
+
+Crucitti D, Carimi F, Caruso T, Pacifico D.Crucitti D, et al.Microb Ecol. 2025 Dec 12;89(1):25. doi: 10.1007/s00248-025-02676-0.Microb Ecol. 2025.PMID: 41387646 Free PMC article.Review. 
+
+## References
+
+1.       1.    Ahmad, T. , Farooq S., Mirza D. N., et al. 2022. “Insights into the Endophytic Bacterial Microbiome of Crocus Sativus: Functional Characterization Leads to Potential Agents that Enhance the Plant Growth, Productivity, and Key Metabolite Content.” Microbial Ecology 83: 669–688. 10.1007/s00248-021-01810-y. - [DOI](https://doi.org/10.1007/s00248-021-01810-y) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/34241654/)
+
+2.       1.    Ali, M. A. , Ahmed T., Ibrahim E., Rizwan M., Chong K. P., and Yong J. W. H.. 2024. “A Review on Mechanisms and Prospects of Endophytic Bacteria in Biocontrol of Plant Pathogenic Fungi and Their Plant Growth‐Promoting Activities.” Heliyon 10: e31573. 10.1016/j.heliyon.2024.e31573. - [DOI](https://doi.org/10.1016/j.heliyon.2024.e31573) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC11152693/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/38841467/)
+
+3.       1.    Alibrandi, P. , Schnell S., Perotto S., and Cardinale M.. 2020. “Diversity and Structure of the Endophytic Bacterial Communities Associated With Three Terrestrial Orchid Species as Revealed by 16S rRNA Gene Metabarcoding.” Frontiers in Microbiology 11: 604964. 10.3389/fmicb.2020.604964. - [DOI](https://doi.org/10.3389/fmicb.2020.604964) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7839077/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/33519751/)
+
+4.       1.    Artimová, R. , Hleba L., Javoreková S., Maková J., Medová J., and Medo J.. 2022. “Chloroplast Excluding Primers for Metagenomic Analysis of Bacteria in Plant Tissues.” Journal of Microbiology, Biotechnology and Food Sciences 12: e9650. 10.55251/jmbfs.9650. - [DOI](https://doi.org/10.55251/jmbfs.9650)
+
+5.       1.    Bolivar‐Anillo, H. J. , González‐Rodríguez V. E., Cantoral J. M., García‐Sánchez D., Collado I. G., and Garrido C.. 2021. “Endophytic Bacteria <styled-content style="fixed-case">_Bacillus subtilis_</styled-content>, Isolated From <styled-content style="fixed-case">_Zea mays_</styled-content>, as Potential Biocontrol Agent Against <styled-content style="fixed-case">_Botrytis cinerea_</styled-content> .” Biology 10: 492. 10.3390/biology10060492. - [DOI](https://doi.org/10.3390/biology10060492) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8229056/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/34205845/)
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/pmid/42036304/)
+    *   [Wiley](https://doi.org/10.1111/ppl.70897)

@@ -1,0 +1,91 @@
+Title: Structural insights into MltB from Acinetobacter baumannii: a conserved catalytic tunnel with unique domain arrangement - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41954507/
+
+Markdown Content:
+## Structural insights into MltB from Acinetobacter baumannii: a conserved catalytic tunnel with unique domain arrangement
+
+Hyunseok Jang et al. IUCrJ.2026.
+
+## Abstract
+
+Lytic transglycosylases (LTs) play a central role in bacterial cell wall remodeling by cleaving the β-1,4-glycosidic bond in peptidoglycan via a non-hydrolytic mechanism, producing 1,6-anhydroMurNAc termini crucial for recycling and signaling. Among LTs, membrane-bound lytic transglycosylase B (MltB) contributes to peptidoglycan turnover, antibiotic resistance and protein-protein interactions. Despite its importance, the structural basis of MltB function in Acinetobacter baumannii, a multidrug-resistant pathogen, remains unclear. Here, we report the crystal structure of abMltB at 1.79 Å resolution. abMltB adopts a monomeric structure comprising three domains: an N-terminal domain (NTD), a catalytic domain (CD) and a C-terminal domain (CTD). The NTD connects to the CD via a flexible loop that partially occludes the active site, forming a tunnel-like cavity. Comparative analysis with homologous enzymes such as SltB1 and Slt35 reveals conserved catalytic residues, including Glu129 and key aromatic residues, while the CTD in abMltB adopts a distinct orientation. Notably, although calcium ions stabilize related enzymes, no metal binding was observed in abMltB. These findings highlight conserved mechanistic features and unique structural adaptations of abMltB, offering insight into its functional role in A. baumannii and potential as a novel antimicrobial target.
+
+**Keywords:** Acinetobacter baumannii; MltB; antimicrobials; lytic transglycosylases.
+
+open access.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Figures
+
+[![Image 1: Figure 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7f53/13134497/cf97e1e3b13e/m-13-00228-fig1.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7f53/13134497/8a4d15048fab/m-13-00228-fig1.jpg)
+
+**Figure 1**
+Crystal structure of abMltB. (_a_) Overall reaction of lytic transglycosylases. (_b_) Schematic representation of the overall domain architecture of MltB. (_c_) Size-exclusion chromatography (SEC) profile of abMltB. SDS–PAGE results used to verify the identity and purity of the protein are displayed adjacent to the major peak, with the loaded fractions highlighted by a black line. M and B indicate marker and before-loaded sample, respectively. (_d_) The elution volume line fitting in SEC plotted against the size marker and the logarithm of the molecular weight of abMltB. The red point on the fitting line signifies the elution volume of abMltB. The molecular weights of the size markers are indicated along the standard line for reference. (_e_) Rainbow-colored cartoon model of monomeric abMltB, with a color gradient from blue (N-terminus) to red (C-terminus). Helices and strands are labeled ‘H’ and ‘S’, respectively. (_f_) Domain organization within the abMltB structure, highlighting the boundary between domains. A putative substrate-binding pocket is marked by a red dotted circle. (_g_) Surface model of abMltB. (_h_) Cross-sectional view of the abMltB structure. (_i_) _B_-factor distribution visualized using a putty model, with colors ranging from blue (low _B_ factor) to red (high _B_ factor). (_j_) Multi-angle light scattering (MALS) profile derived from the main size-exclusion chromatography (SEC) peak. The red line indicates the experimental molecular mass analyzed by MALS.
+
+[![Image 2: Figure 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7f53/13134497/d6473f4aa1d4/m-13-00228-fig2.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7f53/13134497/1d800f957dbc/m-13-00228-fig2.jpg)
+
+**Figure 2**
+Structural comparison of abMltB with its structural homologs. (_a_) Results of DALI analysis. (_b_) Structure superposition of abMltB with its structural homologs, paSltB1 and ecSlt35. (_c_) Enlarged view of the CTD region, which shows the most prominent structural differences. (_d_) and (_e_) Pairwise structural superimposition of abMltB with paSltB1 (_d_) and ecSlt35 (_e_).
+
+[![Image 3: Figure 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7f53/13134497/873915c36770/m-13-00228-fig3.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/7f53/13134497/54a296df0b26/m-13-00228-fig3.jpg)
+
+**Figure 3**
+The tentative active site and working mode of MltB. (_a_) Sequence alignment of abMltB with its structural homologs, paSltB1 and ecSlt35. Mostly conserved and partially conserved residues are colored in red and blue, respectively. Hash marks indicate conserved residues that are involved in the substrate binding. An asterisk indicates the conserved glutamic acid at the catalytic domain of MltB, which is the critical residue for enzymatic reaction. (_b_) Active site comparison of ecSlt35 and abMltB. Eight residues that are involved in the substrate recognition are labeled. The most critical residue directly involved in the cleavage of the substrate, Glu162 (ecSlt35)/Glu129 (abMltB), is highlighted using a red box. (_c_) Cartoon representation of abMltB colored according to the degree of amino-acid sequence conservation analyzed by the Consurf server. (_d_) Close-up view of the tentative active site shown in Consurf analysis (_c_), highlighting the conserved residues. Residues predicted to be involved in substrate binding are marked with black boxes, while the residue expected to play a critical role in catalysis is indicated with red box. (_e_) Comparison of the Ca 2+-binding site of abMltB with that of paSltB1. (_f_) The experimental result of the ITC experiment. (_g_) Tentative working model of abMltB. The location of NTD–CD connecting loop is indicated.
+
+## Similar articles
+
+*   [Interdomain flexibility and putative active site was revealed by crystal structure of MltG from Acinetobacter baumannii.](https://pubmed.ncbi.nlm.nih.gov/38945066/)
+
+Jang H, Kim CM, Ha HJ, Hong E, Park HH.Jang H, et al.Biochem Biophys Res Commun. 2024 Oct 1;727:150318. doi: 10.1016/j.bbrc.2024.150318. Epub 2024 Jun 27.Biochem Biophys Res Commun. 2024.PMID: 38945066 
+*   [Crystallographic studies of the interactions of Escherichia coli lytic transglycosylase Slt35 with peptidoglycan.](https://pubmed.ncbi.nlm.nih.gov/10684641/)
+
+van Asselt EJ, Kalk KH, Dijkstra BW.van Asselt EJ, et al.Biochemistry. 2000 Feb 29;39(8):1924-34. doi: 10.1021/bi992161p.Biochemistry. 2000.PMID: 10684641 
+*   [The lytic transglycosylase MltB connects membrane homeostasis and in vivo fitness of Acinetobacter baumannii.](https://pubmed.ncbi.nlm.nih.gov/29884996/)
+
+Crépin S, Ottosen EN, Peters K, Smith SN, Himpsl SD, Vollmer W, Mobley HLT.Crépin S, et al.Mol Microbiol. 2018 Sep;109(6):745-762. doi: 10.1111/mmi.14000. Epub 2018 Sep 28.Mol Microbiol. 2018.PMID: 29884996 Free PMC article. 
+*   [Lytic transglycosylases.](https://pubmed.ncbi.nlm.nih.gov/8765311/)
+
+Höltje JV.Höltje JV.EXS. 1996;75:425-9. doi: 10.1007/978-3-0348-9225-4_21.EXS. 1996.PMID: 8765311 Review. 
+*   [Lytic transglycosylases: bacterial space-making autolysins.](https://pubmed.ncbi.nlm.nih.gov/17468031/)
+
+Scheurwater E, Reid CW, Clarke AJ.Scheurwater E, et al.Int J Biochem Cell Biol. 2008;40(4):586-91. doi: 10.1016/j.biocel.2007.03.018. Epub 2007 Mar 30.Int J Biochem Cell Biol. 2008.PMID: 17468031 Review. 
+
+## References
+
+1.       1.    Adams, P. D., Afonine, P. V., Bunkóczi, G., Chen, V. B., Davis, I. W., Echols, N., Headd, J. J., Hung, L.-W., Kapral, G. J., Grosse-Kunstl­eve, R. W., McCoy, A. J., Moriarty, N. W., Oeffner, R., Read, R. J., Richardson, D. C., Richardson, J. S., Terwilliger, T. C. & Zwart, P. H. (2010). _Acta Cryst._ D**66**, 213–221. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC2815670/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/20124702/)
+
+2.       1.    Alcorlo, M., Martínez-Caballero, S., Molina, R. & Hermoso, J. A. (2017). _Curr. Opin. Struct. Biol._**44**, 87–100. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/28109980/)
+
+3.       1.    Ben Chorin, A., Masrati, G., Kessel, A., Narunsky, A., Sprinzak, J., Lahav, S., Ashkenazy, H. & Ben-Tal, N. (2020). _Protein Sci._**29**, 258–267. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6933843/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/31702846/)
+
+4.       1.    Blackburn, N. T. & Clarke, A. J. (2001). _J. Mol. Evol._**52**, 78–84. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/11139297/)
+
+5.       1.    Chen, V. B., Arendall, W. B., Headd, J. J., Keedy, D. A., Immormino, R. M., Kapral, G. J., Murray, L. W., Richardson, J. S. & Richardson, D. C. (2010). _Acta Cryst._ D**66**, 12–21. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC2803126/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/20057044/)
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [International Union of Crystallography](http://scripts.iucr.org/cgi-bin/paper?S2052252526002770)

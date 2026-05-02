@@ -1,0 +1,98 @@
+Title: Enterovirus D68 in United States wastewater: a longitudinal surveillance study integrating climatic, demographic, and clinical data - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41853773/
+
+Markdown Content:
+## Enterovirus D68 in United States wastewater: a longitudinal surveillance study integrating climatic, demographic, and clinical data
+
+Sheena Conforti et al. Lancet Reg Health Am.2026.
+
+## Abstract
+
+**Background:** Enterovirus D68 (EV-D68) can cause severe respiratory illness and acute flaccid myelitis (AFM), but limited clinical testing and sparse surveillance data hinder the ability to address epidemiological questions about its circulation. This study aimed to characterize EV-D68 seasonality across the U.S. using wastewater data, evaluate the influence of climatic and sociodemographic factors, and compare trends with symptom-based clinical indicators.
+
+**Methods:** We analyzed 43,876 samples collected from 147 wastewater treatment plants across 40 U.S. states between July 2023 and July 2025 to quantify EV-D68 RNA in wastewater solids and estimate the seasonal peak and season duration. We evaluated climatic and sociodemographic drivers of variation and compared wastewater trends with symptom-based clinical diagnoses for AFM, wheezing, and enterovirus retrieved from Epic Cosmos, a nationwide electronic health record-based research network, representing 4.5 billion encounters during the same study period.
+
+**Findings:** We observed a biennial EV-D68 pattern with a national peak in September 2024 and an extended 20-month period of detection in California. Seasonal peaks occurred 28-31 days earlier in regions with 5 °C higher temperatures or dew points. Season duration was longer by 7-11 weeks in dense, urban catchments with more childcare facilities, crowded households, hospitals, and nursing homes. Wastewater concentrations correlated positively with enterovirus diagnoses (Spearman ρ = 0.34, p = 0.01) and negatively with wheezing in adults ≥65 years (ρ = -0.49, p < 0.0001).
+
+**Interpretation:** Wastewater surveillance can generate epidemiological metrics for EV-D68 without clinical surveillance data, identify where and when activity increases, and reveal the environmental and demographic factors driving these patterns. Wastewater surveillance offers high-resolution data for pathogens with diagnostic testing constraints and provides information that can strengthen epidemiological modeling and support preparedness for future disease waves.
+
+**Funding:** Sergey Brin Family Foundation.
+
+**Keywords:** Climate; Demographic; Enterovirus D68; Epidemiology; Respiratory virus; Seasonality.
+
+© 2026 The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+AB has received funding from the Sergey Brin Family Foundation for this work. All other authors declare no competing interests.
+
+## Figures
+
+[![Image 1: Fig. 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/104f/12993338/f0f1265893f0/gr1.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/104f/12993338/4d4c2f9e8525/gr1.jpg)
+
+**Fig. 1**
+EV-D68 RNA in wastewater at national and state levels, 2023–2025. Smoothed, PMMoV-normalized EV-D68 RNA concentration for (a) United States, (b) California, and (c) Pennsylvania. The shaded band denotes the EV-D68 activity duration; the vertical line marks the center of the EV-D68 season. For the national series (a), duration was defined as the period when concentrations exceeded a threshold equal to a baseline plus three standard deviations, where the baseline and standard deviation were estimated from the quiet tail (lowest tertile) of the data distribution. For state series (b–c), duration was defined as the continuous run containing the center of season during which values were detectable, with a minimum of at least two consecutive weeks with EV-D68 RNA concentration above 0. Dates with day-of-month annotate the start and end of the duration and the season center in each state. ∗EV-D68 RNA concentration refers to the smoothed, PMMoV-normalized concentration, calculated using a five-day centered trimmed moving average. For each five-day window, the highest and lowest daily values were excluded, and the remaining three were averaged.
+
+[![Image 2: Fig. 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/104f/12993338/d3982f74a139/gr2.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/104f/12993338/5b910871b521/gr2.jpg)
+
+**Fig. 2**
+State-level timing and duration of EV-D68 activity in U.S. wastewater, with WWTP-level geographic gradients. (a) Map shows, for each state, the calendar date of the EV-D68 seasonal center estimated from the state-aggregated weekly series (PMMoV-normalized, 5-day–trimmed), after first aggregating across WWTPs within state and week. Colors run from earlier (Jun ’24) to later (Nov ’24). (b) Map shows the length of the detectable activity window (displayed in months) around the seasonal center of the state, computed on the same state-aggregated weekly series by identifying consecutive weeks with detectable signal (runs of at least two weeks above the non-detect threshold) and converting weeks to months. Gray states do not have wastewater data available. Alaska and Hawaii are shown out of scale for layout. Panels c–f are weighted bivariate regressions displaying gradients between longitude or latitude and EV-D68 center of season (C and d) or activity duration (e and f). Each point is a WWTP within the United States (n = 146) Clinton, Iowa had W = 0 (no detections after normalisation and trimming) and therefore was excluded. Point size denotes the plant weight WW, defined as the sum across weeks of PMMoV-normalised, 5-day–trimmed EV-D68 concentrations, with non-detects set to 0. Larger circles indicate greater cumulative signal and therefore greater influence on the weighted least-squares fits. Lines show weighted least-squares fits with 95% CIs.
+
+[![Image 3: Fig. 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/104f/12993338/5e5f5dd6a930/gr3.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/104f/12993338/83b00fa74b49/gr3.jpg)
+
+**Fig. 3**
+EV-D68 center of season as a function of mean environmental conditions across WWTPs (n = 146). For each plant, the x-axis is the mean of the indicated variable (daily values aggregated to weekly means over the EV-D68 activity window); the y-axis is the calendar date of the season center. Lines are univariate weighted least-squares fits with 95% CIs; weights are proportional to each plant's cumulative EV-D68 signal, with non-detects set to 0. Point sizes are proportional to the weights and the weighted R 2 is shown on each panel.
+
+[![Image 4: Fig. 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/104f/12993338/93f9c904fa04/gr4.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/104f/12993338/c03d96693774/gr4.jpg)
+
+**Fig. 4**
+Duration of EV-D68 circulation by wastewater treatment plant (WWTP)-level characteristics. Each panel shows the distribution of EV-D68 circulation duration (in weeks) across categories of a single WWTP–level determinant. Points represent individual WWTPs and boxplots show the median, interquartile range (IQR), and whiskers at 1.5 × IQR. Airport presence is dichotomized as absent and present. Hospital and nursing home coverage are split using the dataset medians: 2 hospitals and 8 nursing homes within each WWTP catchment area, respectively. Urbanicity is defined by the proportion of the WWTP catchment area classified as urban (≤50% vs >50%). The proportions of children aged ≤5 years, adults aged ≥65 years, crowded households, birth rate (per capita), childcare density (per km 2), and population density (per km 2) are grouped into within-study tertiles (“low”, “middle”, “high”). Sample sizes (n) shown in each panel indicate the number of WWTPs included in each comparison group. Kruskal–Wallis test was used to assess overall differences, and pairwise comparisons used Wilcoxon rank-sum tests with Bonferroni adjustment. Horizontal connector bars indicate statistically significant differences; asterisks denote adjusted p-values (∗p < 0.05, ∗∗p < 0.01, ∗∗∗p < 0.001).
+
+[![Image 5: Fig. 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/104f/12993338/a24692844d3a/gr5.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/104f/12993338/eeaaaea7d928/gr5.jpg)
+
+**Fig. 5**
+National and within-state correlations between wastewater EV-D68 RNA concentrations and clinical diagnoses. (a–d) National time-series comparing wastewater EV-D68 RNA concentrations (black lines, right axis) with proportions of clinical diagnoses (bars, left axis) for wheezing in children ≤5 years (A), wheezing in adults ≥65 years (b), enterovirus-specific encounters (c), and acute flaccid myelitis (AFM) (d). (e–h) State-level Spearman correlations between wastewater EV-D68 and AFM (e), enterovirus-specific encounters (f), wheezing ≤5 years (g), and wheezing ≥65 years (h). Points represent correlation coefficients, with colors denoting effect size and significance (adjusted p < 0.05, Bonferroni). Correlations at the state level were performed using data filtered to the EV-D68 seasonal duration defined by wastewater and extended ±2 weeks for clinical diagnoses, and ±2 months for AFM.
+
+## Similar articles
+
+*   [Multimodal Surveillance Model for Enterovirus D68 Respiratory Disease and Acute Flaccid Myelitis among Children in Colorado, USA, 2022.](https://pubmed.ncbi.nlm.nih.gov/38407198/)
+
+Messacar K, Matzinger S, Berg K, Weisbeck K, Butler M, Pysnack N, Nguyen-Tran H, Davizon ES, Bankers L, Jung SA, Birkholz M, Wheeler A, Dominguez SR.Messacar K, et al.Emerg Infect Dis. 2024 Mar;30(3):423-431. doi: 10.3201/eid3003.231223.Emerg Infect Dis. 2024.PMID: 38407198 Free PMC article.Review. 
+*   [Trends of Enterovirus D68 Concentrations in Wastewater, California, USA, February 2021-April 2023.](https://pubmed.ncbi.nlm.nih.gov/37877593/)
+
+Boehm AB, Wadford DA, Hughes B, Duong D, Chen A, Padilla T, Wright C, Moua L, Bullick T, Salas M, Morales C, White BJ, Glaser CA, Vugia DJ, Yu AT, Wolfe MK.Boehm AB, et al.Emerg Infect Dis. 2023 Nov;29(11):2362-2365. doi: 10.3201/eid2911.231080.Emerg Infect Dis. 2023.PMID: 37877593 Free PMC article. 
+*   [Dynamics of endemic virus re-emergence in children in the USA following the COVID-19 pandemic (2022-23): a prospective, multicentre, longitudinal, immunoepidemiological surveillance study.](https://pubmed.ncbi.nlm.nih.gov/40782819/)
+
+Nguyen-Tran H, Park SW, Vogt MR, Permaul P, Spaulding AB, Hernandez ML, Bohl JA, Godbole S, Ruckwardt TJ, Krug PW, Moss DL, Derrien-Colemyn A, Chowdhury A, Dziubla G, Wang L, Castro M, Narpala SR, Longtine ER, Henry AR, Ngo TB, Dzantiev L, Sigal GB, Metcalf CJ, Kimberlin DW, Dominguez SR, Mittelman A, McDermott AB, Serebryannyy LA, Grenfell B, Messacar K, Douek DC.Nguyen-Tran H, et al.Lancet Infect Dis. 2026 Jan;26(1):22-33. doi: 10.1016/S1473-3099(25)00349-4. Epub 2025 Aug 6.Lancet Infect Dis. 2026.PMID: 40782819 
+*   [Genomic Analyses of Acute Flaccid Myelitis Cases among a Cluster in Arizona Provide Further Evidence of Enterovirus D68 Role.](https://pubmed.ncbi.nlm.nih.gov/30670612/)
+
+Bowers JR, Valentine M, Harrison V, Fofanov VY, Gillece J, Delisle J, Patton B, Schupp J, Sheridan K, Lemmer D, Ostdiek S, Bains HK, Heim J, Sylvester T, Prasai S, Kretschmer M, Fowle N, Komatsu K, Brady S, Robinson S, Fitzpatrick K, Ostovar GA, Alsop E, Hutchins E, Jensen K, Keim P, Engelthaler DM.Bowers JR, et al.mBio. 2019 Jan 22;10(1):e02262-18. doi: 10.1128/mBio.02262-18.mBio. 2019.PMID: 30670612 Free PMC article. 
+*   [Epidemiology of acute flaccid myelitis in children in the Netherlands, 2014 to 2019.](https://pubmed.ncbi.nlm.nih.gov/36268734/)
+
+Helfferich J, de Lange MM, Benschop KS, Jacobs BC, Van Leer-Buter CC, Meijer A, Bakker DP, de Bie E, Braakman HM, Brandsma R, Neuteboom RF, Niks EH, Niermeijer JM, Roelfsema V, Schoenmaker N, Sie LT, Niesters HG, Brouwer OF, Te Wierik MJ.Helfferich J, et al.Euro Surveill. 2022 Oct;27(42):2200157. doi: 10.2807/1560-7917.ES.2022.27.42.2200157.Euro Surveill. 2022.PMID: 36268734 Free PMC article.Review. 
+
+## References
+
+1.       1.    Sooksawasdi Na Ayudhya S., Laksono B.M., van Riel D. The pathogenesis and virulence of enterovirus-D68 infection. Virulence. 2021;12:2060–2072. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8381846/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/34410208/)
+
+2.       1.    Park S.W., Pons-Salort M., Messacar K., et al. Epidemiological dynamics of enterovirus D68 in the United States and implications for acute flaccid myelitis. Sci Transl Med. 2021;13 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/33692131/)
+
+3.       1.    Hodcroft E.B., Dyrdak R., Andrés C., et al. Evolution, geographic spreading, and demographic distribution of Enterovirus D68. PLoS Pathog. 2022;18 - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9212145/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/35639811/)
+
+4.       1.    CDC AFM cases & outbreaks. Acute flaccid myelitis (AFM) 2025. [https://www.cdc.gov/acute-flaccid-myelitis/cases/index.html](https://www.cdc.gov/acute-flaccid-myelitis/cases/index.html "External link: https://www.cdc.gov/acute-flaccid-myelitis/cases/index.html")
+
+5.       1.    Chong P.F., Kira R., Mori H., et al. Clinical features of acute flaccid myelitis temporally associated with an enterovirus D68 outbreak: results of a nationwide survey of acute flaccid paralysis in Japan, August–December 2015. Clin Infect Dis. 2018;66:653–664. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC5850449/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/29028962/)
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S2667-193X(26)00076-1)
+    *   [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/pmid/41853773/)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-649)

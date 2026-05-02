@@ -1,0 +1,984 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-05-02T19:38:46.511333+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 6,
+    "deep_cap": 9,
+    "deep_selected": 6,
+    "quick_candidates": 14,
+    "quick_skim_target": 14,
+    "quick_selected": 14
+  },
+  "deep_dive": [
+    {
+      "id": "41853773",
+      "title": "Enterovirus D68 in United States wastewater: a longitudinal surveillance study integrating climatic, demographic, and clinical data.",
+      "abstract": "BACKGROUND: Enterovirus D68 (EV-D68) can cause severe respiratory illness and acute flaccid myelitis (AFM), but limited clinical testing and sparse surveillance data hinder the ability to address epidemiological questions about its circulation. This study aimed to characterize EV-D68 seasonality across the U.S. using wastewater data, evaluate the influence of climatic and sociodemographic factors, and compare trends with symptom-based clinical indicators. METHODS: We analyzed 43,876 samples collected from 147 wastewater treatment plants across 40 U.S. states between July 2023 and July 2025 to quantify EV-D68 RNA in wastewater solids and estimate the seasonal peak and season duration. We evaluated climatic and sociodemographic drivers of variation and compared wastewater trends with symptom-based clinical diagnoses for AFM, wheezing, and enterovirus retrieved from Epic Cosmos, a nationwide electronic health record-based research network, representing 4.5 billion encounters during the same study period. FINDINGS: We observed a biennial EV-D68 pattern with a national peak in September 2024 and an extended 20-month period of detection in California. Seasonal peaks occurred 28-31 days earlier in regions with 5 °C higher temperatures or dew points. Season duration was longer by 7-11 weeks in dense, urban catchments with more childcare facilities, crowded households, hospitals, and nursing homes. Wastewater concentrations correlated positively with enterovirus diagnoses (Spearman ρ = 0.34, p = 0.01) and negatively with wheezing in adults ≥65 years (ρ = -0.49, p < 0.0001). INTERPRETATION: Wastewater surveillance can generate epidemiological metrics for EV-D68 without clinical surveillance data, identify where and when activity increases, and reveal the environmental and demographic factors driving these patterns. Wastewater surveillance offers high-resolution data for pathogens with diagnostic testing constraints and provides information that can strengthen epidemiological modeling and support preparedness for future disease waves. FUNDING: Sergey Brin Family Foundation.",
+      "authors": [
+        "Sheena Conforti",
+        "Alessandro Zulli",
+        "Alexandria B Boehm"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41853773/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "wastewater-based genomic surveillance and epidemiological modeling",
+      "llm_evidence_cn": "基于废水的基因组监测与流行病学建模",
+      "llm_evidence": "基于废水的基因组监测与流行病学建模",
+      "canonical_evidence": "基于废水的基因组监测与流行病学建模",
+      "llm_tldr_en": "Integrates wastewater RNA data with climatic factors for longitudinal surveillance of Enterovirus D68.",
+      "llm_tldr_cn": "整合废水RNA数据与气候因素，对肠道病毒D68进行纵向监测。",
+      "llm_tldr": "整合废水RNA数据与气候因素，对肠道病毒D68进行纵向监测。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI driven outbreak surveillance genomic epidemiology and transmission modeling",
+      "matched_requirement_id": "req-12",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42052790",
+      "title": "Integration of Single-Cell and Spatial Transcriptomics With Experimental Validation Uncovers Macrophage Diversity and Spatial Landscape in Carotid Atherosclerosis.",
+      "abstract": "The core pathogenesis of carotid atherosclerosis (CAS) lies in the rupture of vulnerable plaques, with macrophages (MC) playing a critical role in plaque progression and destabilization. However, the functional characteristics of MC subpopulations in CAS remain poorly understood. This study systematically investigates the cellular composition of CAS and the regulatory mechanisms of MC by integrating single-cell RNA sequencing (scRNA-seq), in vitro models, and spatial transcriptomics. Differentially expressed genes upregulated in MC were significantly enriched in multiple signaling pathways, including Lipid and Atherosclerosis, Lysosome, and Antigen Processing and Presentation. Gene Set Variation Analysis (GSVA) revealed higher MC scores for Angiogenesis and Lipid Metabolism in the atherosclerotic core (AC). A total of seven distinct MC subtypes were identified. Pseudotime analysis indicated that IGSF21+ MC constitute the initial cell population, while FABP4+ MC represent the terminal cells along the trajectory. An in vitro atherosclerosis model was established to validate the diagnostic value of SPP1, FTH1, and FTL. Spatial transcriptomics further revealed the spatial connection patterns of the SPP1 signaling pathway network across different cell types. This study provides novel molecular insights into the pathogenesis of CAS and lays the groundwork for developing diagnostic biomarkers and therapeutic targets.",
+      "authors": [
+        "Rongxing Qin",
+        "Caiqi Li",
+        "Hongyu Xu",
+        "Xinyu Lai",
+        "Li Chen"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42052790/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "integration of single-cell and spatial transcriptomics",
+      "llm_evidence_cn": "单细胞与空间转录组学整合",
+      "llm_evidence": "单细胞与空间转录组学整合",
+      "canonical_evidence": "单细胞与空间转录组学整合",
+      "llm_tldr_en": "Integrates single-cell and spatial transcriptomics to map macrophage diversity in carotid atherosclerosis.",
+      "llm_tldr_cn": "整合单细胞和空间转录组学技术，揭示了颈动脉粥样硬化中巨噬细胞的多样性。",
+      "llm_tldr": "整合单细胞和空间转录组学技术，揭示了颈动脉粥样硬化中巨噬细胞的多样性。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "deep learning and foundation models for spatial transcriptomics proteomics and tissue mapping",
+      "matched_requirement_id": "req-46",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42067582",
+      "title": "Towards generalizable AI in medicine via Generalist-Specialist Collaboration.",
+      "abstract": "Generalist foundation models (GFMs) are renowned for their exceptional capability and flexibility in diverse tasks. In the field of medicine, while GFMs exhibit superior generalizability, specialist models excel in precision because of their domain-specific knowledge. Here we show a cooperative framework, Generalist-Specialist Collaboration (GSCo), that synergistically combines a powerful generalist model with lightweight specialists. In this framework, specialists provide expert guidance, such as diagnostic predictions and visually similar clinical cases, as contextual information to the generalist, which then makes a final diagnosis. We developed MedDr, an open-source GFM tailored for medicine, as well as a suite of lightweight specialist models crafted for specific downstream tasks. A comprehensive evaluation on 32 datasets across diverse medical modalities shows that MedDr outperforms state-of-the-art GFMs on downstream datasets. Furthermore, GSCo exceeds GFMs and specialists in medical image diagnosis and report generation. This approach offers an effective and computationally efficient paradigm for deploying GFMs in clinical settings, enhancing scalability and enabling precise analysis across a wide range of scenarios.",
+      "authors": [
+        "Sunan He",
+        "Yuxiang Nie",
+        "Hongmei Wang",
+        "Shu Yang",
+        "Yihui Wang",
+        "Zhiyuan Cai",
+        "Zhixuan Chen",
+        "Yingxue Xu",
+        "Linshan Wu",
+        "Ngai Shing Cheng",
+        "Luyang Luo",
+        "Huiling Xiang",
+        "Xi Lin",
+        "Mingxiang Wu",
+        "Yifan Peng",
+        "George Shih",
+        "Ziyang Xu",
+        "Xian Wu",
+        "Qiong Wang",
+        "Ronald Cheong Kin Chan",
+        "Varut Vardhanabhuti",
+        "Xiaohui Duan",
+        "Winnie Chiu Wing Chu",
+        "Yefeng Zheng",
+        "Pranav Rajpurkar",
+        "Kang Zhang",
+        "Hao Chen"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42067582/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "generalist foundation models for medicine and diagnostic predictions",
+      "llm_evidence_cn": "用于医学和诊断预测的通用基础模型",
+      "llm_evidence": "用于医学和诊断预测的通用基础模型",
+      "canonical_evidence": "用于医学和诊断预测的通用基础模型",
+      "llm_tldr_en": "Introduces GSCo, a framework combining generalist foundation models with specialists for medical diagnosis.",
+      "llm_tldr_cn": "提出GSCo框架，将通用基础模型与专业模型结合，提升医学诊断的准确性与泛化性。",
+      "llm_tldr": "提出GSCo框架，将通用基础模型与专业模型结合，提升医学诊断的准确性与泛化性。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "large language models and foundation models for bioinformatics",
+      "matched_requirement_id": "req-30",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42067686",
+      "title": "Focus on M2-TAMs and gastric cancer: a Mendelian randomization and bioinformatics analysis.",
+      "abstract": "Gastric cancer (GC), a highly aggressive and heterogeneous malignancy, remains challenging in immunotherapy despite recent advancements. This study aims to identify novel biomarkers and construct a prognostic model to improve outcome prediction and therapeutic strategies. Mendelian randomization (MR) analysis identified immune cell subtypes linked to GC using FinnGen and GWAS cohorts. CIBERSORT and WGCNA algorithms were applied to define M2 tumor-associated macrophage (TAM)-related gene modules. Key prognostic genes were selected via Lasso-Cox regression to establish a risk model, validated using GEO datasets. Biological function disparities, tumor microenvironment heterogeneity, and therapeutic sensitivities were assessed via GSEA and immune infiltration analysis. Protein-level validation was performed using TCGA, HPA, and Western blot. MR analysis revealed 26 immune cell subtypes associated with GC. WGCNA identified 20 gene modules, with the most M2 TAM-correlated module prioritized. A prognostic signature incorporating SEC61G, BGN, and STC1 was developed, stratifying patients into distinct risk groups with divergent survival outcomes (1-/3-/5-year, all P < 0.05). High-risk patients exhibited enriched calcium signaling pathways, reduced immunotherapy responsiveness, and increased sensitivity to veriparib and palbociclib. Protein overexpression of key genes was validated in GC tissues. This integrated bioinformatics-MR framework establishes a TAM-driven prognostic model for GC, demonstrating clinical utility in survival prediction, immunotherapy efficacy evaluation, and personalized therapeutic targeting. The findings provide actionable insights for advancing precision immunotherapy in GC.",
+      "authors": [
+        "GuangTao Min",
+        "Hao Tang",
+        "GuangNing Min",
+        "YuMin Li"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-02",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42067686/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "bioinformatics algorithms for multi-omics integration and biomarker discovery",
+      "llm_evidence_cn": "用于多组学整合和生物标志物发现的生物信息学算法",
+      "llm_evidence": "用于多组学整合和生物标志物发现的生物信息学算法",
+      "canonical_evidence": "用于多组学整合和生物标志物发现的生物信息学算法",
+      "llm_tldr_en": "Applies WGCNA and Lasso-Cox algorithms to identify gastric cancer biomarkers and construct prognostic models.",
+      "llm_tldr_cn": "应用WGCNA和Lasso-Cox算法识别胃癌生物标志物并构建预后模型。",
+      "llm_tldr": "应用WGCNA和Lasso-Cox算法识别胃癌生物标志物并构建预后模型。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41605335",
+      "title": "Discovery of furo[2,3-b]isoquinoline derivatives as novel Pks13 inhibitors with reduced hERG inhibition.",
+      "abstract": "Pks13 is a promising target for tuberculosis (TB) treatment, offering a new pathway for anti-TB drug development. Although benzofuran derivatives such as TAM16 have demonstrated significant efficacy in vitro and in vivo, their development was discontinued due to concerns about hERG inhibition. Herein, we designed and synthesized a series of novel furo[2,3-b]isoquinoline derivatives using ring fusion and basicity-reduction strategies. Through SAR studies, compound B23 was identified as a potent Pks13 inhibitor (IC50 = 1.12 μM) with significantly reduced hERG inhibition (IC50 > 10 μM). The markedly improved hERG selectivity not only validates our structural strategy for mitigating cardiotoxicity risks, but also provides a solid foundation for further development of Pks13-TE inhibitors that combine potent anti-TB activity with an improved safety profile.",
+      "authors": [
+        "Jiangfeng Tian",
+        "Renyu Zhang",
+        "Zhiyang Xing",
+        "Yuanyuan Liu",
+        "Weijie Lin",
+        "Xupeng Huang",
+        "Zihe Rao",
+        "Wei Peng",
+        "Yuying Fang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41605335/",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "SAR studies and target identification for anti-TB drug discovery",
+      "llm_evidence_cn": "抗结核药物发现中的SAR研究与靶点识别",
+      "llm_evidence": "抗结核药物发现中的SAR研究与靶点识别",
+      "canonical_evidence": "抗结核药物发现中的SAR研究与靶点识别",
+      "llm_tldr_en": "Identifies novel Pks13 inhibitors for tuberculosis treatment using structure-activity relationship strategies.",
+      "llm_tldr_cn": "通过构效关系策略发现了用于结核病治疗的新型Pks13抑制剂。",
+      "llm_tldr": "通过构效关系策略发现了用于结核病治疗的新型Pks13抑制剂。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "41993915",
+      "title": "Shared functional microbiome signatures in Parkinson's disease and constipation predominate irritable bowel syndrome despite taxonomic divergence.",
+      "abstract": "BACKGROUND: Gastrointestinal dysfunction, including constipation, is a common non-motor feature of Parkinson's disease (PD) and often precedes motor symptoms. The gut microbiome interacts with the host through neural, hormonal, and immune pathways, yet whether constipation represents a cause or consequence of PD remains unclear. Therefore, we aimed to interrogate the associations between microbiome and immune alterations in relation to constipation to provide novel insight into microbiome-gut-brain axis mechanisms in PD. METHODS: We analysed peripheral blood mononuclear cells (PBMCs) for circulating gut-homing T cell populations and used shotgun metagenomics to profile the stool microbiome composition and functional capacity in PD patients (n = 18), healthy controls (n = 21), and individuals with constipation-predominant irritable bowel syndrome (IBS-C; n = 8). Associations between immune markers and microbial taxa were assessed, and functional pathway differences were evaluated. RESULTS: Circulating gut-homing T cell frequencies did not differ significantly between PD and controls, but constipated PD patients showed a trend toward increased circulating gut-homing T cells. Microbiome beta-diversity analyses revealed distinct taxonomic shifts in PD and IBS-C, while functional capacity was largely conserved. Of the differential functional pathways tryptophan biosynthesis, polyamine production, and vitamin B metabolism, processes critical for neurotransmitter synthesis, epithelial integrity, and neuroimmune regulation were reduced in PD compared to IBS-C. CONCLUSION: Our findings highlight unique microbial and immune signatures in PD, partially overlapping with IBS-C, and underscore the importance of microbial metabolic pathways in gut-brain axis disorders. Collectively our findings suggest a contribution to dopaminergic dysfunction, neuroinflammation, and impaired gut motility. Future longitudinal studies are needed to clarify causal relationships and inform targeted interventions for PD-related gastrointestinal dysfunction.",
+      "authors": [
+        "Emily C Hoedt",
+        "Grace L Burns",
+        "Kateleen E Hedley",
+        "Sophie Waller",
+        "Tamara Canento Sanchez",
+        "Olivia Chisolm",
+        "Helen MacCallum",
+        "Susan Richardson",
+        "Belinda Suthers",
+        "Elizabeth Pepper",
+        "Simon Keely",
+        "Nicholas J Talley"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41993915/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "shotgun metagenomics for microbiome-host interaction and disease modeling",
+      "llm_evidence_cn": "鸟枪法宏基因组学用于微生物组-宿主相互作用和疾病建模",
+      "llm_evidence": "鸟枪法宏基因组学用于微生物组-宿主相互作用和疾病建模",
+      "canonical_evidence": "鸟枪法宏基因组学用于微生物组-宿主相互作用和疾病建模",
+      "llm_tldr_en": "Uses shotgun metagenomics to identify shared microbiome signatures between Parkinson's disease and constipation.",
+      "llm_tldr_cn": "利用鸟枪法宏基因组学分析帕金森病与便秘之间共同的微生物组特征。",
+      "llm_tldr": "利用鸟枪法宏基因组学分析帕金森病与便秘之间共同的微生物组特征。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "40432318",
+      "title": "PqsR-specific quorum sensing inhibitors targeting",
+      "abstract": "The emergence of multidrug-resistant (MDR) Pseudomonas aeruginosa is driven by diverse resistance mechanisms, including quorum sensing (QS) and biofilm formation. QS regulates virulence, antibiotic tolerance, efflux pumps, and biofilm development, enhancing the pathogen's adaptability. Among QS systems, the Pseudomonas quinolone signal regulator (PqsR) plays a central role in controlling virulence and biofilm-associated genes. This review critically examines the PqsR-regulated network and highlights the potential of PqsR inhibitors to reduce pathogenicity. Disrupting QS instead of targeting bacterial viability can enhance antibiotic efficacy, making this combinatorial approach a promising strategy to combat MDR P. aeruginosa.",
+      "authors": [
+        "Mandsaurwala Aziz",
+        "Kafil Ahmed",
+        "Vinothkannan Ravichandran"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/40432318/",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Targeting quorum sensing to combat multidrug-resistant pathogens",
+      "llm_evidence_cn": "针对群体感应以对抗多重耐药病原体",
+      "llm_evidence": "针对群体感应以对抗多重耐药病原体",
+      "canonical_evidence": "针对群体感应以对抗多重耐药病原体",
+      "llm_tldr_en": "Reviews PqsR inhibitors as a strategy to reduce pathogenicity and combat multidrug-resistant P. aeruginosa.",
+      "llm_tldr_cn": "综述了 PqsR 抑制剂作为降低致病性和对抗多重耐药铜绿假单胞菌的策略。",
+      "llm_tldr": "综述了 PqsR 抑制剂作为降低致病性和对抗多重耐药铜绿假单胞菌的策略。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41567084",
+      "title": "Discovery of novel thiazolidinedione-benzylpiperidine hybrids as dual-target antifungal agents for crop disease management.",
+      "abstract": "BACKGROUND: Plant fungal diseases, particularly those caused by Rhizoctonia solani, represent a major threat to global food security by causing substantial yield losses. Although chemical fungicides are available, growing pathogen resistance and environmental concerns necessitate the development of novel antifungal agents that are highly effective, eco-compatible, and operate through distinct mechanisms. RESULTS: Twenty-four benzyl piperidine-containing thiazolidinedione derivatives were synthesized and their antifungal activities were assessed against six phytopathogenic fungi. In particular, D18 displayed the most potent fungicidal activity against Rhizoctonia solani, with a half-effective concentration (EC50) of 4.9 μg mL-1, surpassing that of the control drug azoxystrobin (13.2 μg mL-1). In vivo experiments confirmed the high protective and curative efficacy of D18 on rice leaves and sheaths. Furthermore, a series of physiological and biochemical experiments were conducted to investigate the action mechanism exerted by D18 against plant pathogens Rhizoctonia solani. The findings revealed that D18 acted through a novel dual-action mode: it compromised fungal cell membrane integrity and simultaneously impaired mitochondrial function, resulting in reduced membrane potential, accumulation of reactive oxygen species, and inhibition of succinate dehydrogenase activity. CONCLUSION: D18 is a promising antifungal agent with a unique mechanism of action that combines membrane disruption and mitochondrial dysfunction, offering a potential new strategy for sustainable crop protection. © 2026 Society of Chemical Industry.",
+      "authors": [
+        "Junrong Song",
+        "Shuang Feng",
+        "Miaohe Zhang",
+        "Hongyu Zhang",
+        "Wishwajith Kandegama",
+        "Xianghui Ruan",
+        "Wei Xue"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41567084/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:PathoAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "discovery of antifungal agents for crop disease management",
+      "llm_evidence_cn": "发现用于作物疾病管理的抗真菌剂",
+      "llm_evidence": "发现用于作物疾病管理的抗真菌剂",
+      "canonical_evidence": "发现用于作物疾病管理的抗真菌剂",
+      "llm_tldr_en": "Synthesizes and evaluates novel dual-target antifungal agents to combat resistance in phytopathogenic fungi.",
+      "llm_tldr_cn": "合成并评估了新型双靶点抗真菌药剂，用于应对植物病原真菌的耐药性问题。",
+      "llm_tldr": "合成并评估了新型双靶点抗真菌药剂，用于应对植物病原真菌的耐药性问题。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41355385",
+      "title": "The Potential, Challenges and New Horizons of Marine Natural Products Against Tuberculosis Infection.",
+      "abstract": "Tuberculosis (TB) is one of the most significant health perils that has claimed more lives than any other contagious disease over the past 2000 years. The treatment of tuberculosis has been severely compromised due to drug-resistant strains. In this review, we cover the field of the clinical pipeline of tuberculosis drugs, and summarize the progress of their targets and structures. A wide range of marine natural products (MNPs) with novel structures and remarkable activities have potential for the development of antituberculosis drugs. We systematically summarize the progress and potential of 107 potent MNPs that have shown activity against tuberculosis infection. Additionally, we highlight the physicochemical properties of MNPs, total synthesis, and biosynthesis of bioactive compounds, to further evaluate their drug-likeness and sustainability of compound supply. However, the intricate nature of the pathogen, drug misuse, bottlenecks in the supply of MNPs, and other problems pose challenges to reaching the goal of completely eradicating tuberculosis worldwide. Reliable alternative models, screening based on enzyme activity, and combination therapies may be transforming discovery and application in the field of antituberculosis drugs, accelerating discovery and improving sustainable therapeutic effects. These promising lead compounds and widely emerging technologies broaden horizons for developing marine drugs.",
+      "authors": [
+        "Qun Zhang",
+        "Yi-Qian Han",
+        "Wei-Feng Xu",
+        "Mei-Yan Wei",
+        "Yu-Cheng Gu",
+        "Chang-Lun Shao"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41355385/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "therapeutic design and target identification for tuberculosis",
+      "llm_evidence_cn": "结核病治疗设计与靶点鉴定",
+      "llm_evidence": "结核病治疗设计与靶点鉴定",
+      "canonical_evidence": "结核病治疗设计与靶点鉴定",
+      "llm_tldr_en": "Summarizes marine natural products as potential drug candidates against drug-resistant tuberculosis infection.",
+      "llm_tldr_cn": "总结了海洋天然产物作为抗耐药结核病感染潜在候选药物的研究进展。",
+      "llm_tldr": "总结了海洋天然产物作为抗耐药结核病感染潜在候选药物的研究进展。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41696790",
+      "title": "The Clinical Spectrum and Neurodevelopmental Pathogenesis of KPTN-Related Disorder in a Mouse Model.",
+      "abstract": "OBJECTIVE: Pathogenic variants in Kaptin (KPTN) cause KPTN-related disorder (KRD). KPTN modulates mTOR signaling activation within the KICSTOR complex in response to cellular amino acid levels. We define the clinical spectrum and investigate the developmental pathogenesis of KRD. METHODS: We report the genotype and clinical phenotype of 71 KRD individuals (28 female subjects, ages 1 to 55 years) including 48 newly identified KRD individuals. The effects of Kptn knockout on brain development were assayed in vitro and in vivo. RESULTS: We defined 15 novel KPTN variants. Intellectual disability (ID) was identified in all KRD individuals. Macrocephaly and epilepsy were observed in 46% and 47%, respectively. Neuroimaging revealed megalencephaly but no overt structural abnormalities. Ketotic hypoglycemia and endocrinopathies were identified in KRD. Increased head size was detected in unaffected parents heterozygous for KPTN variants. Two KRD individuals with drug-resistant epilepsy were treated with the mTOR inhibitor sirolimus but did not exhibit improved seizure control. CRISPR/Cas9 Kptn knockout in vitro induced mTOR activation and an mTOR-dependent increase in cell size. Kptn-/- mice exhibited increased cortical mTOR signaling that was reduced by rapamycin. Heterotopic neurons were identified in the subcortical white matter in the Kptn -/- mouse. Focal CRISPR/Cas9 Kptn knockout in cortex via in utero electroporation resulted in white matter heterotopic neurons. Electroencephalogram (EEG) did not detect ictal or inter-ictal abnormalities. INTERPRETATION: KRD is a multisystem neurodevelopmental disorder associated with ID, macrocephaly, epilepsy, mTOR signaling hyperactivation, and in a mouse model, subtle structural alterations in cerebral cortical cytoarchitecture. ANN NEUROL 2026;99:1287-1302.",
+      "authors": [
+        "Lettie E Rawlins",
+        "Philip H Iffland",
+        "John Page",
+        "Rebecca Z Flessner",
+        "Soad M Elziny",
+        "Irina Sbornova",
+        "Janice K Babus",
+        "Sophie R Bruckmeier",
+        "Ria Parikh",
+        "Merel Verhoeven",
+        "James Fasham",
+        "Joseph S Leslie",
+        "Richard Caswell",
+        "Nishanka Ubeyratna",
+        "Olivia Wenger",
+        "Ethan M Scott",
+        "John Schreiber",
+        "Steffen Syrbe",
+        "Annick Klabunde-Cherwon",
+        "Martina Owens",
+        "Andrew H Crosby",
+        "Emma L Baple",
+        "Peter B Crino",
+        "KPTN Consortium"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41696790/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "genomic variant analysis and pathogenesis modeling",
+      "llm_evidence_cn": "基因组变异分析与发病机制建模",
+      "llm_evidence": "基因组变异分析与发病机制建模",
+      "canonical_evidence": "基因组变异分析与发病机制建模",
+      "llm_tldr_en": "Analyzes pathogenic variants in KPTN to define the clinical spectrum and neurodevelopmental pathogenesis.",
+      "llm_tldr_cn": "分析KPTN基因的致病变异，以界定临床表型和神经发育发病机制。",
+      "llm_tldr": "分析KPTN基因的致病变异，以界定临床表型和神经发育发病机制。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "deep learning for genomic variant calling filtering and somatic mutation analysis",
+      "matched_requirement_id": "req-41",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41804832",
+      "title": "Integrating NHANES and network toxicology to assess the impact of organophosphate flame retardants on cardiovascular disease.",
+      "abstract": "Cardiovascular disease (CVD) pathogenesis involves multifactorial determinants, including environmental pollutants. This study integrated National Health and Nutrition Examination Survey (NHANES) data and network toxicology approaches to investigate the association and underlying molecular mechanisms between organophosphate flame retardant (OPFR) metabolites and CVD risk. Weighted multivariable logistic regression and restricted cubic splines (RCS) were employed to analyze OPFR metabolites-CVD associations using NHANES data. Protein-protein interaction network, expression quantitative trait locus (eQTL)-based Mendelian randomization (MR), colocalization, and molecular docking analyses pinpointed core pathogenic targets. Mediation analysis assessed potential regulatory roles of 731 immune cell features in core target-CVD pathways. Adjusted regression models revealed significant positive associations between urinary bis (2-chloroethyl) phosphate (BCEP) and dibutyl phosphate (DBP) with CVD risk. RCS analysis demonstrated a linear dose-response relationship for BCEP. HSPA1A was identified as the core OPFR metabolites-CVD mediator, with elevated expression increasing CVD risk. Molecular docking provided supportive evidence for strong binding affinities between HSPA1A and metabolites of OPFR. Crucially, mediation analysis demonstrated that HLA DR on HLA DR+ CD4+ T cells partially mediated the effect of HSPA1A on CVD. These findings provide original insights into associations between emerging organic pollutants and CVD risk and establish a theoretical foundation for targeted prevention and therapy.",
+      "authors": [
+        "Kai Dai",
+        "Yinglan Huang",
+        "Huaxiu Cai",
+        "Gaojun Zhong",
+        "Ziqiang Xie",
+        "Sheng Wu",
+        "Donghua Huang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41804832/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "network toxicology and molecular docking for multi-omics integration",
+      "llm_evidence_cn": "网络毒理学与分子对接用于多组学整合",
+      "llm_evidence": "网络毒理学与分子对接用于多组学整合",
+      "canonical_evidence": "网络毒理学与分子对接用于多组学整合",
+      "llm_tldr_en": "Uses network toxicology and molecular docking to link environmental pollutants to cardiovascular disease mechanisms.",
+      "llm_tldr_cn": "利用网络毒理学和分子对接技术研究环境污染物与心血管疾病之间的分子机制。",
+      "llm_tldr": "利用网络毒理学和分子对接技术研究环境污染物与心血管疾病之间的分子机制。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41698473",
+      "title": "The Intestinal Microenvironment and Disorders of Gut-Brain Interaction.",
+      "abstract": "The past decade has witnessed a tremendous profusion of data on the luminal contents of the gastrointestinal tract and their interactions with the host, many of which have been implicated in the pathophysiology of disorders of gut-brain interaction (DGBI). The role of food in DGBI-related symptoms has attracted much attention and although many alterations in gut microbiome composition have been described, the multitude of factors that confound study design and interpretation in DGBI has precluded the discovery of a specific microbial \"signature.\" The complexities of the gut barrier, its immune and enteroendocrine systems, so critical to the transmission of signals from lumen to host, continue to be revealed. Along the way, concepts such as the microbiome-gut-brain axis have emerged to explain symptom generation in DGBI, forming the basis for novel diagnostic approaches and therapeutic interventions. Taken together, recent research findings have renewed interest in luminal and enteric phenomena in DGBI.",
+      "authors": [
+        "Madhusudan Grover",
+        "Giovanni Barbara",
+        "William Chey",
+        "Bruno P Chumpitazi",
+        "Christine Feinle-Bisset",
+        "Harriett Schellekens",
+        "Eamonn M M Quigley"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41698473/",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "gut microbiome composition and interactions with the host",
+      "llm_evidence_cn": "肠道微生物群组成及其与宿主的相互作用",
+      "llm_evidence": "肠道微生物群组成及其与宿主的相互作用",
+      "canonical_evidence": "肠道微生物群组成及其与宿主的相互作用",
+      "llm_tldr_en": "Reviews the role of the intestinal microenvironment and microbiome in disorders of gut-brain interaction.",
+      "llm_tldr_cn": "综述了肠道微环境和微生物群在肠脑互动异常疾病中的作用及其与宿主的相互作用。",
+      "llm_tldr": "综述了肠道微环境和微生物群在肠脑互动异常疾病中的作用及其与宿主的相互作用。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41954507",
+      "title": "Structural insights into MltB from Acinetobacter baumannii: a conserved catalytic tunnel with unique domain arrangement.",
+      "abstract": "Lytic transglycosylases (LTs) play a central role in bacterial cell wall remodeling by cleaving the β-1,4-glycosidic bond in peptidoglycan via a non-hydrolytic mechanism, producing 1,6-anhydroMurNAc termini crucial for recycling and signaling. Among LTs, membrane-bound lytic transglycosylase B (MltB) contributes to peptidoglycan turnover, antibiotic resistance and protein-protein interactions. Despite its importance, the structural basis of MltB function in Acinetobacter baumannii, a multidrug-resistant pathogen, remains unclear. Here, we report the crystal structure of abMltB at 1.79 Å resolution. abMltB adopts a monomeric structure comprising three domains: an N-terminal domain (NTD), a catalytic domain (CD) and a C-terminal domain (CTD). The NTD connects to the CD via a flexible loop that partially occludes the active site, forming a tunnel-like cavity. Comparative analysis with homologous enzymes such as SltB1 and Slt35 reveals conserved catalytic residues, including Glu129 and key aromatic residues, while the CTD in abMltB adopts a distinct orientation. Notably, although calcium ions stabilize related enzymes, no metal binding was observed in abMltB. These findings highlight conserved mechanistic features and unique structural adaptations of abMltB, offering insight into its functional role in A. baumannii and potential as a novel antimicrobial target.",
+      "authors": [
+        "Hyunseok Jang",
+        "Chang Min Kim",
+        "Chang Sup Lee",
+        "Hyun Ho Park"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41954507/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "structural basis of antibiotic resistance in Acinetobacter baumannii",
+      "llm_evidence_cn": "鲍曼不动杆菌抗生素耐药性的结构基础",
+      "llm_evidence": "鲍曼不动杆菌抗生素耐药性的结构基础",
+      "canonical_evidence": "鲍曼不动杆菌抗生素耐药性的结构基础",
+      "llm_tldr_en": "Provides crystal structure of MltB in a multidrug-resistant pathogen to understand antibiotic resistance.",
+      "llm_tldr_cn": "解析了多重耐药病原体鲍曼不动杆菌中MltB的晶体结构，为理解耐药性提供基础。",
+      "llm_tldr": "解析了多重耐药病原体鲍曼不动杆菌中MltB的晶体结构，为理解耐药性提供基础。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41703894",
+      "title": "GLP-1 agonists and the gut microbiome: A bidirectional relationship.",
+      "abstract": "Glucagon-like peptide-1 (GLP-1) receptor agonists have transformed the management of type 2 diabetes mellitus (T2DM) and obesity, yet their interactions with the gut microbiome remain an emerging frontier in pharmacological and metabolic research. Mounting evidence suggests that the gut microbiota modulates GLP-1 secretion via microbial metabolites, including short-chain fatty acids and bile acid derivatives, while GLP-1 agonists reciprocally reshape microbial composition, influencing metabolic outcomes beyond their classical incretin functions. This bidirectional interplay has profound implications for precision medicine, as gut microbial signatures have been associated with variability in therapeutic response, raising the possibility that microbiome features could contribute to response stratification in future studies. Advances in pharmacomicrobiomics, multiomics integration and computational modelling now enable a more refined dissection of these interactions, illuminating potential microbial targets for intervention. Study discrepancies may arise from variations in host diet, baseline microbiome composition and genetic factors influencing GLP-1 signalling. Future studies should incorporate stratified analyses accounting for these confounders to understand causative mechanisms. This review collates current evidence on the microbiome-mediated modulation of GLP-1 dynamics, evaluates the pharmacomicrobiomic impact of GLP-1 agonists and outlines future research directions at the interface of gut microbiota and incretin biology. By unravelling the complexities of this host-microbe-drug axis, the field moves closer to a paradigm of personalized metabolic medicine, where future GLP-1 therapeutic strategies may consider host metabolic and microbial context, optimizing efficacy and minimizing variability in patient response.",
+      "authors": [
+        "Srinivas Kamath",
+        "Nicole S L Chan",
+        "Paul Joyce"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41703894/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "gut microbiome interactions and metabolic outcomes",
+      "llm_evidence_cn": "肠道微生物群相互作用与代谢结果",
+      "llm_evidence": "肠道微生物群相互作用与代谢结果",
+      "canonical_evidence": "肠道微生物群相互作用与代谢结果",
+      "llm_tldr_en": "Examines the bidirectional relationship between GLP-1 agonists and gut microbiota composition.",
+      "llm_tldr_cn": "研究GLP-1受体激动剂与肠道微生物群组成之间的双向关系。",
+      "llm_tldr": "研究GLP-1受体激动剂与肠道微生物群组成之间的双向关系。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42058505",
+      "title": "Oropouche virus: transmission, epidemiology, genetic diversity, and public health implications.",
+      "abstract": "Historically endemic to parts of South America, Oropouche virus (OROV) has caused an estimated 500,000 infections since its discovery, with a marked geographic expansion beyond the Amazon basin into other regions of South America and the Caribbean since late 2023. This Review synthesises current evidence on OROV epidemiology, transmission dynamics, clinical manifestations, diagnostics, viral diversity, and public health impact, with the primary objective of identifying critical knowledge gaps and outlining priorities for surveillance, research, and control. Human transmission occurs primarily via Culicoides paraensis midges, while the competence of other vectors, the role of animal reservoirs in sustaining sylvatic transmission, and the contribution of vertical and sexual transmission remain incompletely understood. Although most infections are self-limiting, reports of neurological disease, Guillain-Barré syndrome, adverse pregnancy outcomes, and rare fatalities highlight uncertainties regarding pathogenicity, risk factors for severe disease, and long-term sequelae. The known teratogenicity of related Simbu serogroup orthobunyaviruses in animals further raises concerns about foetal risk in humans. Environmental change, expanding vector ranges, and viral evolution are likely contributing to outbreak emergence and geographic spread. Based on the available evidence, this review highlights priority gaps in epidemiological surveillance, diagnostics and genomic monitoring, vector competence and ecology, transmission pathways, and countermeasure development. Addressing these gaps through coordinated surveillance, improved laboratory capacity, targeted vector control, and focused research will be essential to mitigate the public health impact of OROV and reduce the risk of further spread.",
+      "authors": [
+        "Lorenzo Subissi",
+        "James R Otieno",
+        "Christopher Ruis",
+        "Ingrid Rabe",
+        "Anurag Agrawal",
+        "Laith Jamal Abu-Raddad",
+        "Esam I Azhar",
+        "Martin Beer",
+        "Haroldo Bezerra",
+        "Leon Caly",
+        "Meera Chand",
+        "Ariamys Companioni",
+        "Tulio de Oliveira",
+        "Isabelle Dietrich",
+        "Christian Drosten",
+        "Pablo Duran",
+        "Nuno R Faria",
+        "Adeola Fowotade",
+        "Lionel Gresh",
+        "Baoying Huang",
+        "Jason Kindrachuk",
+        "Marion P G Koopmans",
+        "Bette Korber",
+        "Yee-Sin Leo",
+        "Placide Mbala-Kingebeni",
+        "Martina McMenamin",
+        "Nada M Melhem",
+        "Vincent J Munster",
+        "Bruno T D Nunes",
+        "Bas B Oude Munnink",
+        "Felipe G Naveca",
+        "Malik Peiris",
+        "Gustavo Palacios",
+        "Paola Resende",
+        "Angel Rodriguez",
+        "Senjuti Saha",
+        "Tadaki Suzuki",
+        "Andrea Vicari",
+        "Anne von Gottberg",
+        "Pragya Yadav",
+        "Jairo Mendez-Rico",
+        "Maria D Van Kerkhove",
+        "Diana P Rojas"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42058505/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "pathogen diversity and transmission dynamics for genomic surveillance",
+      "llm_evidence_cn": "病原体多样性与传播动力学用于基因组监测",
+      "llm_evidence": "病原体多样性与传播动力学用于基因组监测",
+      "canonical_evidence": "病原体多样性与传播动力学用于基因组监测",
+      "llm_tldr_en": "Reviews Oropouche virus epidemiology and genetic diversity to prioritize surveillance and research needs.",
+      "llm_tldr_cn": "综述了奥罗普切病毒的流行病学和遗传多样性，以确定监测和研究的优先事项。",
+      "llm_tldr": "综述了奥罗普切病毒的流行病学和遗传多样性，以确定监测和研究的优先事项。",
+      "llm_tags": [
+        "query:pathoai:composite"
+      ],
+      "matched_query_tag": "query:pathoai:composite",
+      "matched_query_text": "Papers central to 病原组学中的 AI 方法, especially work that connects or combines: foundation models for pathogen genomes and pathogen biology; machine learning for metagenomic pathogen classification; deep learning models for pathogen detection from sequencing data; AI methods for genomic surveillance and outbreak monitoring; machine learning for antimicrobial resistance prediction from genomes; machine learning for phylogenetic and transmission inference; multimodal models combining pathogen sequence phenotype and metadata; machine learning for microbiome host interaction pathogen ecology and infection modeling; AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design; foundation models for pathogen genome understanding and surveillance.",
+      "matched_requirement_id": "req-composite-pathoai",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41713656",
+      "title": "NanoTAC in targeted protein degradation: Intelligent delivery platforms and synergistic therapeutic paradigms.",
+      "abstract": "Targeted protein degradation (TPD) has reshaped therapeutic strategy by catalytically eliminating pathogenic proteins through engagement with endogenous proteolytic systems. In contrast to conventional inhibitors that transiently block enzymatic activity, TPD achieves durable target silencing by physically removing the protein entirely, thereby overcoming resistance mechanisms and extending therapeutic durability. This approach enables the pharmacological modulation of previously \"undruggable\" entities, such as transcription factors and scaffolding proteins, that lack canonical binding pockets. However, clinical translation of existing TPD platforms, including PROTACs and molecular glues, remains limited by poor bioavailability, off-target toxicity, and suboptimal tissue selectivity. Nanoparticle-assisted targeted protein degraders (NanoTACs) offer a compelling solution by coupling the catalytic efficiency of TPD with the spatial precision and tunability of nanotechnology. Through rational nanocarrier engineering, NanoTACs overcome key limitations of small-molecule degraders, including poor solubility, rapid systemic clearance, and inadequate targetability, while enabling direct and selective degradation of pathogenic proteins with minimal structural modification. This integration affords programmable control of biodistribution, cellular uptake, and release kinetics, as well as microenvironment-responsive degradation that is difficult to achieve with traditional modalities. Beyond functioning as delivery vehicles, NanoTACs actively recruit degradation machinery, modulate intracellular proteostasis, and permit synergistic co-delivery of therapeutic payloads. Emerging data demonstrate their capacity to degrade oncogenic drivers, suppress inflammatory signaling, and eliminate pathological protein aggregates across diverse disease models. This Review delineates the conceptual foundations, design principles, and translational prospects of NanoTACs, positioning them as a next-generation platform at the intersection of nanomedicine, chemical biology, and precision oncology.",
+      "authors": [
+        "Jieying Qian",
+        "Hongtao Duan",
+        "Qingqi Zheng",
+        "Yuzhao Yang",
+        "Xiaowan Huang",
+        "Bingyang Shi",
+        "Yunjiao Zhang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41713656/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Targeted protein degradation for eliminating pathogenic proteins",
+      "llm_evidence_cn": "靶向蛋白质降解以消除致病蛋白质",
+      "llm_evidence": "靶向蛋白质降解以消除致病蛋白质",
+      "canonical_evidence": "靶向蛋白质降解以消除致病蛋白质",
+      "llm_tldr_en": "Discusses intelligent delivery for targeted protein degradation to overcome resistance in therapeutic design.",
+      "llm_tldr_cn": "讨论了用于靶向蛋白质降解的智能递送平台，以克服治疗设计中的耐药性。",
+      "llm_tldr": "讨论了用于靶向蛋白质降解的智能递送平台，以克服治疗设计中的耐药性。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "generative models for molecules proteins and therapeutic design",
+      "matched_requirement_id": "req-19",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42067885",
+      "title": "Streptomyces-induced Glycerol-3-Phosphate enriches beneficial microbiota to enhance resistance against banana Fusarium wilt.",
+      "abstract": "BACKGROUND: Fusarium oxysporum f. sp. cubense Tropical Race 4 (Foc TR4) is the causal agent of banana Fusarium wilt, a destructive soil-borne disease. Using antagonistic microorganisms, such as Streptomyces species, offers a promising strategy for controlling fungal diseases. However, their field application is limited by an incomplete understanding of microbe-plant-pathogen interactions. RESULTS: This study shows that the marine-derived Streptomyces malaysiensis WHL7 exhibits strong antagonistic activity against multiple phytopathogenic fungi in vitro, particularly Foc TR4. In pot experiments using natural soil, WHL7 treatment significantly reduced the incidence of Fusarium wilt from 55% in the Foc TR4-inoculated control to 15%. No protective effect was observed in sterilized soil, indicating that its biocontrol efficacy depends on the indigenous microbial community. Integrated metabolomic analysis reveals that WHL7 stimulates the key root secretion of glycerol-3-phosphate (G3P). The compound enriches beneficial Bacillus and Pseudomonas species in the rhizosphere. Compared to the Foc TR4-treated group, exogenous application of G3P reduced Foc TR4 abundance by 73%, inhibited pathogenic infection, and consistently increased the populations of Bacillus and Pseudomonas. These enriched microbes were directly linked with reduced disease severity by inducing systemic ACQUIRED RESISTANCE OF plant. CONCLUSIONS: While S. malaysiensis WHL7 directly suppresses Foc TR4 via antagonistic compounds in vitro, it controls disease in pot experiments indirectly by reshaping the rhizosphere microbiome. This restructuring induces host resistance through a g3p-mediated signaling pathway. the study highlights g3p-mediated priming as a sustainable strategy for managing soil-borne diseases. Video Abstract.",
+      "authors": [
+        "Bingyu Cai",
+        "Lu Zhang",
+        "Zekai Wu",
+        "Jie Wang",
+        "Yongzan Wei",
+        "Raza Waseem",
+        "Miaoyi Zhang",
+        "Dengfeng Qi",
+        "Dengbo Zhou",
+        "Yankun Zhao",
+        "Kai Li",
+        "Huigang Hu",
+        "Jianghui Xie",
+        "Wei Wang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-02",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42067885/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "microbe-plant-pathogen interactions and beneficial microbiota enrichment",
+      "llm_evidence_cn": "微生物-植物-病原体相互作用和有益菌群富集",
+      "llm_evidence": "微生物-植物-病原体相互作用和有益菌群富集",
+      "canonical_evidence": "微生物-植物-病原体相互作用和有益菌群富集",
+      "llm_tldr_en": "Studies how Streptomyces-induced metabolites enhance plant resistance by reshaping the soil microbiome.",
+      "llm_tldr_cn": "研究链霉菌诱导的代谢物如何通过重塑土壤微生物群来增强植物抗性。",
+      "llm_tldr": "研究链霉菌诱导的代谢物如何通过重塑土壤微生物群来增强植物抗性。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41825806",
+      "title": "Estimating original bacterial loads from delayed clinical samples: A methodological Modeling and empirical validation study.",
+      "abstract": "PURPOSE: Delays in the processing of clinical samples (urine, blood, CSF) distort bacterial colony-forming units (CFUs) due to variable storage/transit, resulting in inaccurate initial load estimates and delayed treatment. This study presents and empirically validates the Al Mahrizi-Mossolem viability correction model (MM-VCM), an inverse logistic growth-decay framework used to back-calculate original loads (N₀) from delayed observations (Nt), accounting for temperature-dependent growth, lag phases, decay, and carrying capacities. METHODS: MM-VCM employs a closed-form equation derived from a Gaussian-modulated doubling time (optimal at 37 °C, SD 5 °C) integrated into logistic dynamics. The parameters (lag 0.3-0.6 h, decay 0.01-0.013 h-1, capacity ∼109 CFU/mL), drawn from the literature, were applied to eight pathogen-matrix pairs (e.g., E. coli in urine/blood and N. meningitidis in CSF). Validation involved 4000 iterations of Monte Carlo and Bayesian simulations in R (v4.3.1) for 0-24 h delays (25 °C mean, SD 2 °C), with Nt ∼108 CFU/mL, plus Sobol sensitivity analysis. Model predictions were compared to a multicenter clinical blood culture storage dataset using actual sample group inocula and positivity rates. RESULTS: The simulations revealed that N₀ declined exponentially from ∼108 CFU/mL at t = 0 to 1.3-2.0 × 107 CFU/mL at t = 24 h, with 95% confidence intervals widening from ∼107 CFU/mL (t = 2 h) to >4 × 107 CFU/mL (t = 24 h). The probabilities of significant loads (>105 CFU/mL) exceeded 0.99 for ≤6 h delays, whereas the CSF pairs presented greater stability (0.89-0.90 at 24 h). Temperature primarily drove uncertainty (Sobol indices >0.95), and the Bayesian results aligned closely (<5% differences). Empirical results for E. coli, S. aureus, and S. pneumoniae at 25 °C revealed that model predictions broadly corresponded with observed detection trends, with stronger agreement for S. aureus and S. pneumoniae, providing preliminary support for the model's real-world applicability. CONCLUSION: MM-VCM enables efficient preanalytic corrections for bacterial loads, supporting diagnostics where resampling is infeasible (e.g., CSF, high-volume labs). Empirical validation against a multicenter clinical blood culture dataset at 25 °C revealed that model predictions broadly corresponded with observed detection patterns for S. aureus and S. pneumoniae, with greater variability observed for E. coli, supporting the model's potential utility pending further validation.",
+      "authors": [
+        "Ahmed Dawood Al Mahrizi",
+        "Fatima Mossolem",
+        "Renald Blundell"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41825806/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "modeling bacterial growth and decay in clinical samples",
+      "llm_evidence_cn": "临床样本中细菌生长和衰减的模型建模",
+      "llm_evidence": "临床样本中细菌生长和衰减的模型建模",
+      "canonical_evidence": "临床样本中细菌生长和衰减的模型建模",
+      "llm_tldr_en": "Validates a mathematical model to back-calculate original bacterial loads from delayed clinical samples.",
+      "llm_tldr_cn": "验证了一种数学模型，用于从延迟的临床样本中反推原始细菌载量。",
+      "llm_tldr": "验证了一种数学模型，用于从延迟的临床样本中反推原始细菌载量。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41856262",
+      "title": "Phagocyte-inspired supramolecular self-assembly design of abiotic cell-mimics for pathogen recognition and eradication.",
+      "abstract": "Pathogens are rapidly evolving resistance against both antibiotics and the human immune system. Artificial cells provide an attractive strategy to engineer cell-like systems from simple abiotic materials, offering tunable properties and facile synthesis compared to complex biological components. Inspired by natural phagocytes, we have developed a phagocyte-inspired supramolecular antimicrobial macrostructure based on self-assembly via dative bonds. We developed a phagocyte-inspired supramolecular antimicrobial macrostructure that emulates three phagocytic functions abiologically: (i) rapid pathogen capture, achieving ∼70% binding within 30min, being faster than raw phagocytes, (ii) bacterial eradication via vanadyl-driven ROS generation, and (iii) self-limiting apoptosis-like deactivation upon pathogen interaction. SEM and ICP-MS confirm concentration-dependent dismantling, with ∼100% Co and V release at pathogen-appropriate proportional concentrations (4-20 μg/mL), corroborated by DFT analysis showing Co recognition of bacterial amines. The material eradicates >90% of biofilms in vitro, outperforms levofloxacin and metronidazole by ∼2×, and effectively treats biofilm-associated wound infections and bacterial keratitis in vivo. We describe this material as a phagocyte-inspired supramolecular cell-mimic, a rationally designed abiotic assembly that emulates three key steps of phagocytosis. Comprehensive characterization and combined experimental and theoretical analysis elucidate the chemical and molecular processes underlying its phagocyte like antibacterial cascade. Bacterial metabolomic and genomic profiling together with multimodal analysis provide insights into dative bond driven assembly self-deactivation and antibacterial activity. This study establishes a blueprint for the development of next-generation abiotic artificial cell-mimics and smart antimicrobial materials. STATEMENT OF SIGNIFICANCE: Phagocyte-inspired CoVOx-SIOC abiotic cell-mimics achieve rapid pathogen capture and ROS-mediated eradication. Supramolecular design enables a self-limiting \"apoptosis-like\" deactivation to prevent collateral damage. The material eliminates >90% of biofilms, significantly outperforming conventional antibiotics in vitro. In vitro and in vivo models and analysis demonstrate effective treatment of biofilm-associated wound infections and bacterial keratitis and underlying mechanisms.",
+      "authors": [
+        "Shafaq Sahar",
+        "Yanni Ge",
+        "Sisi Yang",
+        "Qirui Wang",
+        "Menghui Zhang",
+        "Wenfeng Zhu",
+        "Akif Zeb",
+        "Andris Šutka",
+        "Guoping Sheng",
+        "Jifang Sheng",
+        "Wei Wang",
+        "Zhengwei Mao",
+        "Hongguang Cui"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41856262/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "pathogen recognition and eradication design",
+      "llm_evidence_cn": "病原体识别与清除设计",
+      "llm_evidence": "病原体识别与清除设计",
+      "canonical_evidence": "病原体识别与清除设计",
+      "llm_tldr_en": "Develops phagocyte-inspired supramolecular structures for rapid pathogen capture and bacterial eradication.",
+      "llm_tldr_cn": "开发了受吞噬细胞启发的超分子结构，用于快速捕获病原体和清除细菌。",
+      "llm_tldr": "开发了受吞噬细胞启发的超分子结构，用于快速捕获病原体和清除细菌。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42036304",
+      "title": "Clearing the Noise: Seasonal Dynamics of Endophytic Bacteria in Fagus sylvatica Leaves Revealed by Application of PNA Clamps.",
+      "abstract": "The characterization of the seasonal dynamics of endophytic bacteria in beech leaves can be hindered by co-amplification of chloroplast and mitochondrial plant DNA. This study applies established peptide nucleic acid (PNA) clamps to suppress host-derived amplification while resolving bacterial succession across the vegetative season. Chloroplast- and mitochondrion-specific PNAs inverted the proportion of host to bacterial reads, enabled the recovery of bacterial sequence variants, and increased alpha diversity accordingly. Beta-diversity analyses showed that, once host contamination was removed, samples displayed a clear seasonal trajectory. Early-season leaves contained high abundances of Pseudomonas together with taxa likely introduced through plant-insect-microbe interactions. As leaves matured, the microbiome shifted toward a more stable composition dominated by well-established genera. The transition from early transient taxa to the later enrichment of phyllosphere-adapted and nutrient-cycling genera demonstrates that beech leaves host a temporally structured microbiome shaped by leaf development and seasonal environmental stress.",
+      "authors": [
+        "Irene Giubilei",
+        "Silvia Turco",
+        "Antonella Cardacino",
+        "Lovely Mahawar",
+        "Benedicte Riber Albrectsen",
+        "Angelo Mazzaglia"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-01-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42036304/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "suppressing host-derived amplification to resolve bacterial sequence variants",
+      "llm_evidence_cn": "抑制宿主扩增以解析细菌序列变异",
+      "llm_evidence": "抑制宿主扩增以解析细菌序列变异",
+      "canonical_evidence": "抑制宿主扩增以解析细菌序列变异",
+      "llm_tldr_en": "Applies PNA clamps to reduce host DNA noise and improve endophytic bacterial sequencing accuracy.",
+      "llm_tldr_cn": "应用PNA夹具减少宿主DNA噪声，提高内生细菌测序准确性。",
+      "llm_tldr": "应用PNA夹具减少宿主DNA噪声，提高内生细菌测序准确性。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "denoising error correction and quality calibration for genomic sequencing reads",
+      "matched_requirement_id": "req-48",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

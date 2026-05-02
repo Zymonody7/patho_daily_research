@@ -1,0 +1,126 @@
+Title: GLP-1 agonists and the gut microbiome: A bidirectional relationship - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41703894/
+
+Markdown Content:
+Review
+
+Actions
+
+. 2026 May;92(5):1309-1325.
+
+doi: 10.1002/bcp.70487.  Epub 2026 Feb 17.
+
+Affiliations
+
+*    PMID: **41703894**
+*    PMCID: [PMC13122291](https://pmc.ncbi.nlm.nih.gov/articles/PMC13122291/)
+*    DOI: [10.1002/bcp.70487](https://doi.org/10.1002/bcp.70487)
+
+Review
+
+## GLP-1 agonists and the gut microbiome: A bidirectional relationship
+
+Srinivas Kamath et al. Br J Clin Pharmacol.2026 May.
+
+## Abstract
+
+Glucagon-like peptide-1 (GLP-1) receptor agonists have transformed the management of type 2 diabetes mellitus (T2DM) and obesity, yet their interactions with the gut microbiome remain an emerging frontier in pharmacological and metabolic research. Mounting evidence suggests that the gut microbiota modulates GLP-1 secretion via microbial metabolites, including short-chain fatty acids and bile acid derivatives, while GLP-1 agonists reciprocally reshape microbial composition, influencing metabolic outcomes beyond their classical incretin functions. This bidirectional interplay has profound implications for precision medicine, as gut microbial signatures have been associated with variability in therapeutic response, raising the possibility that microbiome features could contribute to response stratification in future studies. Advances in pharmacomicrobiomics, multiomics integration and computational modelling now enable a more refined dissection of these interactions, illuminating potential microbial targets for intervention. Study discrepancies may arise from variations in host diet, baseline microbiome composition and genetic factors influencing GLP-1 signalling. Future studies should incorporate stratified analyses accounting for these confounders to understand causative mechanisms. This review collates current evidence on the microbiome-mediated modulation of GLP-1 dynamics, evaluates the pharmacomicrobiomic impact of GLP-1 agonists and outlines future research directions at the interface of gut microbiota and incretin biology. By unravelling the complexities of this host-microbe-drug axis, the field moves closer to a paradigm of personalized metabolic medicine, where future GLP-1 therapeutic strategies may consider host metabolic and microbial context, optimizing efficacy and minimizing variability in patient response.
+
+**Keywords:** GLP‐1 agonists; gut microbiome; liraglutide; microbiome–gut–brain axis; pharmacomicrobiomics; semaglutide; type 2 diabetes mellitus.
+
+© 2026 The Author(s). British Journal of Clinical Pharmacology published by John Wiley & Sons Ltd on behalf of British Pharmacological Society.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+The authors declare no conflict of interest.
+
+## Figures
+
+[![Image 1: FIGURE 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/feac/13122291/923acb8be67e/BCP-92-1309-g001.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/feac/13122291/2d4a587c06ba/BCP-92-1309-g001.jpg)
+
+**FIGURE 1**
+Regulation of glycaemia by glucagon‐like peptide‐1 (GLP‐1). This schematic illustrates the multifaceted role of GLP‐1 in glucose homeostasis. Secreted from L‐cells in the gut, GLP‐1 acts on pancreatic β‐cells, stimulating insulin release via cAMP/PKA signalling and promoting cell survival. It concurrently inhibits glucagon secretion from α‐cells, both directly and through somatostatin release from δ‐cells. In δ‐cells, GLP‐1 enhances somatostatin secretion, further modulating insulin and glucagon levels. Beyond pancreatic effects, GLP‐1 influences gastrointestinal motility and enzyme secretion.
+
+[![Image 2: FIGURE 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/feac/13122291/619f4b34edc6/BCP-92-1309-g002.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/feac/13122291/c8998b94c7e3/BCP-92-1309-g002.jpg)
+
+**FIGURE 2**
+Regulation of GLP‐1 by the gut microbiome. This diagram illustrates the mechanism by which the gut microbiome influences GLP‐1 secretion. Gut bacterial fermentation of polysaccharides in the gut lumen results in the production of SCFAs. These SCFAs activate GPR41 and GPR43 receptors on L‐cells, triggering intracellular signalling cascades involving IP3, DAG, PKC, AC, cAMP and PKA. Ultimately, this leads to increased intracellular calcium (Ca 2+) and the subsequent secretion of GLP‐1.
+
+## Similar articles
+
+*   [The potential for complex interplay between GLP-1 receptor agonists, gut microbiome, and obesity management.](https://pubmed.ncbi.nlm.nih.gov/41818791/)
+
+Johnson A, O'Sullivan E, Valyasevi P, Metras B, Jang S, Shields-Cutler R, Hendel K, Harindhanavudhi T, Teigen L.Johnson A, et al.Can J Physiol Pharmacol. 2026 Jan 1;104:1-8. doi: 10.1139/cjpp-2025-0219.Can J Physiol Pharmacol. 2026.PMID: 41818791 Review. 
+*   [GLP-1 Receptor Agonists.](https://pubmed.ncbi.nlm.nih.gov/41931049/)
+
+Rosen CJ, Ingelfinger JR.Rosen CJ, et al.N Engl J Med. 2026 Apr 2;394(13):1313-1324. doi: 10.1056/NEJMra2500106.N Engl J Med. 2026.PMID: 41931049 Review. 
+*   [Role of gut-liver axis and glucagon-like peptide-1 receptor agonists in the treatment of metabolic dysfunction-associated fatty liver disease.](https://pubmed.ncbi.nlm.nih.gov/38946874/)
+
+Rochoń J, Kalinowski P, Szymanek-Majchrzak K, Grąt M.Rochoń J, et al.World J Gastroenterol. 2024 Jun 21;30(23):2964-2980. doi: 10.3748/wjg.v30.i23.2964.World J Gastroenterol. 2024.PMID: 38946874 Free PMC article.Review. 
+*   [Type 2 Diabetes and the Multifaceted Gut-X Axes.](https://pubmed.ncbi.nlm.nih.gov/40871736/)
+
+Guo H, Pan L, Wu Q, Wang L, Huang Z, Wang J, Wang L, Fang X, Dong S, Zhu Y, Liao Z.Guo H, et al.Nutrients. 2025 Aug 21;17(16):2708. doi: 10.3390/nu17162708.Nutrients. 2025.PMID: 40871736 Free PMC article.Review. 
+*   [Therapies for inter-relating diabetes and obesity - GLP-1 and obesity.](https://pubmed.ncbi.nlm.nih.gov/25260877/)
+
+Iepsen EW, Torekov SS, Holst JJ.Iepsen EW, et al.Expert Opin Pharmacother. 2014 Dec;15(17):2487-500. doi: 10.1517/14656566.2014.965678. Epub 2014 Sep 26.Expert Opin Pharmacother. 2014.PMID: 25260877 Review. 
+
+## Cited by
+
+*   [Reconsidering Obesity in India Through a Gut-Metabolic Lens: Mechanistic Insights and the Emerging Role of Synbiotics in Individuals with the Thin-Fat Phenotype.](https://pubmed.ncbi.nlm.nih.gov/41999447/)
+
+Ganguly NK, Kalra S, Kapoor N, Rao P, Bakshi M.Ganguly NK, et al.Adv Ther. 2026 Apr 18. doi: 10.1007/s12325-026-03577-5. Online ahead of print.Adv Ther. 2026.PMID: 41999447 
+
+## References
+
+1.       1.    Xie Y, Choi T, Al‐Aly Z. Mapping the effectiveness and risks of GLP‐1 receptor agonists. Nat Med. 2025;31(3):951‐962. doi: 10.1038/s41591-024-03412-w - [DOI](https://doi.org/10.1038/s41591-024-03412-w) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/39833406/)
+
+2.       1.    Salehi M, Aulinger B, Prigeon RL, D'Alessio DA. Effect of endogenous GLP‐1 on insulin secretion in type 2 diabetes. Diabetes. 2010;59(6):1330‐1337. doi: 10.2337/db09-1253 - [DOI](https://doi.org/10.2337/db09-1253) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC2874693/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/20215429/)
+
+3.       1.    Vosoughi K, Salman Roghani R, Camilleri M. Effects of GLP‐1 agonists on proportion of weight loss in obesity with or without diabetes: systematic review and meta‐analysis. Obes Med. 2022;35:100456. doi: 10.1016/j.obmed.2022.100456 - [DOI](https://doi.org/10.1016/j.obmed.2022.100456)
+
+4.       1.    Meier JJ. GLP‐1 receptor agonists for individualized treatment of type 2 diabetes mellitus. Nat Rev Endocrinol. 2012;8(12):728‐742. doi: 10.1038/nrendo.2012.140 - [DOI](https://doi.org/10.1038/nrendo.2012.140) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/22945360/)
+
+5.       1.    Chadda KR, Cheng TS, Ong KK. GLP‐1 agonists for obesity and type 2 diabetes in children: systematic review and meta‐analysis. Obes Rev. 2021;22(6):e13177. doi: 10.1111/obr.13177 - [DOI](https://doi.org/10.1111/obr.13177) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/33354917/)
+
+## Publication types
+
+*   Actions 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/pmid/41703894/)
+    *   [Wiley](https://doi.org/10.1002/bcp.70487)
+
+*   ### Medical
+
+    *   [MedlinePlus Health Information](https://medlineplus.gov/diabetesmedicines.html)

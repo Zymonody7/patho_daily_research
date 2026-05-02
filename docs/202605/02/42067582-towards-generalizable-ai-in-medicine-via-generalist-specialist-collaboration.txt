@@ -1,0 +1,60 @@
+Title: Towards generalizable AI in medicine via Generalist-Specialist Collaboration - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42067582/
+
+Markdown Content:
+Actions
+
+. 2026 May 1.
+
+doi: 10.1038/s41551-026-01653-3.  Online ahead of print.
+
+[Yuxiang Nie](https://pubmed.ncbi.nlm.nih.gov/?term=Nie+Y&cauthor_id=42067582)[#](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-1 "Department of Computer Science and Engineering, The Hong Kong University of Science and Technology, Hong Kong, China."),[Hongmei Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+H&cauthor_id=42067582)[1](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-1 "Department of Computer Science and Engineering, The Hong Kong University of Science and Technology, Hong Kong, China."),[Shu Yang](https://pubmed.ncbi.nlm.nih.gov/?term=Yang+S&cauthor_id=42067582)[1](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-1 "Department of Computer Science and Engineering, The Hong Kong University of Science and Technology, Hong Kong, China."),[Yihui Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+Y&cauthor_id=42067582)[1](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-1 "Department of Computer Science and Engineering, The Hong Kong University of Science and Technology, Hong Kong, China."),[Zhiyuan Cai](https://pubmed.ncbi.nlm.nih.gov/?term=Cai+Z&cauthor_id=42067582)[1](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-1 "Department of Computer Science and Engineering, The Hong Kong University of Science and Technology, Hong Kong, China."),[Zhixuan Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+Z&cauthor_id=42067582)[1](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-1 "Department of Computer Science and Engineering, The Hong Kong University of Science and Technology, Hong Kong, China."),[Yingxue Xu](https://pubmed.ncbi.nlm.nih.gov/?term=Xu+Y&cauthor_id=42067582)[1](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-1 "Department of Computer Science and Engineering, The Hong Kong University of Science and Technology, Hong Kong, China."),[Linshan Wu](https://pubmed.ncbi.nlm.nih.gov/?term=Wu+L&cauthor_id=42067582)[1](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-1 "Department of Computer Science and Engineering, The Hong Kong University of Science and Technology, Hong Kong, China."),[Ngai Shing Cheng](https://pubmed.ncbi.nlm.nih.gov/?term=Cheng+NS&cauthor_id=42067582)[1](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-1 "Department of Computer Science and Engineering, The Hong Kong University of Science and Technology, Hong Kong, China."),[Luyang Luo](https://pubmed.ncbi.nlm.nih.gov/?term=Luo+L&cauthor_id=42067582)[2](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-2 "Department of Biomedical Informatics, Harvard Medical School, Boston, MA, USA."),[Huiling Xiang](https://pubmed.ncbi.nlm.nih.gov/?term=Xiang+H&cauthor_id=42067582)[3](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-3 "Department of Ultrasound, Sun Yat-sen University Cancer Center, Guangzhou, China."),[Xi Lin](https://pubmed.ncbi.nlm.nih.gov/?term=Lin+X&cauthor_id=42067582)[3](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-3 "Department of Ultrasound, Sun Yat-sen University Cancer Center, Guangzhou, China."),[Mingxiang Wu](https://pubmed.ncbi.nlm.nih.gov/?term=Wu+M&cauthor_id=42067582)[4](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-4 "Department of Radiology, Shenzhen People's Hospital, Shenzhen, China."),[Yifan Peng](https://pubmed.ncbi.nlm.nih.gov/?term=Peng+Y&cauthor_id=42067582)[5](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-5 "Population Health Sciences, Weill Cornell Medicine, New York, NY, USA."),[George Shih](https://pubmed.ncbi.nlm.nih.gov/?term=Shih+G&cauthor_id=42067582)[6](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-6 "Department of Radiology, Weill Cornell Medicine, New York, NY, USA."),[Ziyang Xu](https://pubmed.ncbi.nlm.nih.gov/?term=Xu+Z&cauthor_id=42067582)[7](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-7 "Perelman Department of Dermatology, New York Langone Health, New York, NY, USA."),[Xian Wu](https://pubmed.ncbi.nlm.nih.gov/?term=Wu+X&cauthor_id=42067582)[8](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-8 "Jarvis Research Center, Tencent YouTu Lab, Shenzhen, China."),[Qiong Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+Q&cauthor_id=42067582)[9](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-9 "Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China."),[Ronald Cheong Kin Chan](https://pubmed.ncbi.nlm.nih.gov/?term=Chan+RCK&cauthor_id=42067582)[10](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-10 "Department of Anatomical and Cellular Pathology, The Chinese University of Hong Kong, Hong Kong, China.")[11](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-11 "State Key Laboratory of Translational Oncology, The Chinese University of Hong Kong, Hong Kong, China."),[Varut Vardhanabhuti](https://pubmed.ncbi.nlm.nih.gov/?term=Vardhanabhuti+V&cauthor_id=42067582)[12](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-12 "Department of Diagnostic Radiology, The University of Hong Kong, Hong Kong, China."),[Xiaohui Duan](https://pubmed.ncbi.nlm.nih.gov/?term=Duan+X&cauthor_id=42067582)[13](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-13 "Department of Radiology, Sun Yat-Sen Memorial Hospital, Sun Yat-Sen University, Guangzhou, China."),[Winnie Chiu Wing Chu](https://pubmed.ncbi.nlm.nih.gov/?term=Chu+WCW&cauthor_id=42067582)[14](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-14 "Department of Imaging and Interventional Radiology, The Chinese University of Hong Kong, Hong Kong, China."),[Yefeng Zheng](https://pubmed.ncbi.nlm.nih.gov/?term=Zheng+Y&cauthor_id=42067582)[15](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-15 "Medical Artificial Intelligence Laboratory, Westlake University, Hangzhou, China."),[Pranav Rajpurkar](https://pubmed.ncbi.nlm.nih.gov/?term=Rajpurkar+P&cauthor_id=42067582)[2](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-2 "Department of Biomedical Informatics, Harvard Medical School, Boston, MA, USA."),[Kang Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+K&cauthor_id=42067582)[16](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-16 "Faculty of Medicine, The Macau University of Science and Technology, Macao, China."),[Hao Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+H&cauthor_id=42067582)[17](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-17 "Department of Computer Science and Engineering, The Hong Kong University of Science and Technology, Hong Kong, China. jhc@cse.ust.hk.")[18](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-18 "Department of Chemical and Biological Engineering, The Hong Kong University of Science and Technology, Hong Kong, China. jhc@cse.ust.hk.")[19](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-19 "Division of Life Science, The Hong Kong University of Science and Technology, Hong Kong, China. jhc@cse.ust.hk.")[20](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-20 "HKUST Shenzhen-Hong Kong Collaborative Innovation Research Institute, Futian, Shenzhen, China. jhc@cse.ust.hk.")[21](https://pubmed.ncbi.nlm.nih.gov/42067582/#full-view-affiliation-21 "State Key Laboratory of Nervous System Disorders, The Hong Kong University of Science and Technology, Hong Kong, China. jhc@cse.ust.hk.")
+
+Affiliations
+
+*    PMID: **42067582**
+*    DOI: [10.1038/s41551-026-01653-3](https://doi.org/10.1038/s41551-026-01653-3)
+
+## Towards generalizable AI in medicine via Generalist-Specialist Collaboration
+
+Sunan He et al. Nat Biomed Eng.2026.
+
+## Abstract
+
+Generalist foundation models (GFMs) are renowned for their exceptional capability and flexibility in diverse tasks. In the field of medicine, while GFMs exhibit superior generalizability, specialist models excel in precision because of their domain-specific knowledge. Here we show a cooperative framework, Generalist-Specialist Collaboration (GSCo), that synergistically combines a powerful generalist model with lightweight specialists. In this framework, specialists provide expert guidance, such as diagnostic predictions and visually similar clinical cases, as contextual information to the generalist, which then makes a final diagnosis. We developed MedDr, an open-source GFM tailored for medicine, as well as a suite of lightweight specialist models crafted for specific downstream tasks. A comprehensive evaluation on 32 datasets across diverse medical modalities shows that MedDr outperforms state-of-the-art GFMs on downstream datasets. Furthermore, GSCo exceeds GFMs and specialists in medical image diagnosis and report generation. This approach offers an effective and computationally efficient paradigm for deploying GFMs in clinical settings, enhancing scalability and enabling precise analysis across a wide range of scenarios.
+
+© 2026. The Author(s), under exclusive licence to Springer Nature Limited.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [GM-ABS: Promptable Generalist Model Drives Active Barely Supervised Training in Specialist Model for 3D Medical Image Segmentation.](https://pubmed.ncbi.nlm.nih.gov/40773412/)
+
+Xu Z, Chen C, Lu D, Sun J, Wei D, Zheng Y, Li Q, Kai-Yu Tong R.Xu Z, et al.IEEE Trans Med Imaging. 2026 Jan;45(1):308-319. doi: 10.1109/TMI.2025.3596850.IEEE Trans Med Imaging. 2026.PMID: 40773412 
+*   [Ark+: Supervised training a single high-performance AI foundation model from many differently labeled datasets-no label consolidation required.](https://pubmed.ncbi.nlm.nih.gov/41319624/)
+
+Ma D, Pang J, Senthil Velan S, Gotway MB, Liang J.Ma D, et al.Med Image Anal. 2026 Feb;108:103828. doi: 10.1016/j.media.2025.103828. Epub 2025 Oct 29.Med Image Anal. 2026.PMID: 41319624 
+*   [General lightweight framework for vision foundation model supporting multi-task and multi-center medical image analysis.](https://pubmed.ncbi.nlm.nih.gov/40025028/)
+
+Lu S, Chen Y, Chen Y, Li P, Sun J, Zheng C, Zou Y, Liang B, Li M, Jin Q, Cui E, Long W, Feng B.Lu S, et al.Nat Commun. 2025 Mar 1;16(1):2097. doi: 10.1038/s41467-025-57427-z.Nat Commun. 2025.PMID: 40025028 Free PMC article. 
+*   [Foundation models for generalist medical artificial intelligence.](https://pubmed.ncbi.nlm.nih.gov/37045921/)
+
+Moor M, Banerjee O, Abad ZSH, Krumholz HM, Leskovec J, Topol EJ, Rajpurkar P.Moor M, et al.Nature. 2023 Apr;616(7956):259-265. doi: 10.1038/s41586-023-05881-4. Epub 2023 Apr 12.Nature. 2023.PMID: 37045921 Review. 
+
+## References
+
+1.       1.    Achiam, J. et al. GPT-4 technical report. Preprint at arXiv [https://doi.org/10.48550/arXiv.2303.08774](https://doi.org/10.48550/arXiv.2303.08774) (2023). 
+
+2.       1.    Touvron, H. et al. Llama 2: open foundation and fine-tuned chat models. Preprint at arXiv [https://doi.org/10.48550/arXiv.2307.09288](https://doi.org/10.48550/arXiv.2307.09288) (2023). 
+
+3.       1.    Anil, R. et al. PaLM 2 technical report. Preprint at arXiv [https://doi.org/10.48550/arXiv.2305.10403](https://doi.org/10.48550/arXiv.2305.10403) (2023). 
+
+4.       1.    Radford, A. et al. Learning transferable visual models from natural language supervision. In Proc. 38th International Conference on Machine Learning (eds Meila, M. & Zhang, T.) 8748–8763 (PMLR, 2021). 
+
+5.       1.    Tung, C., Lin, Y., Yin, J., Ye, Q. & Chen, H. Exploring vision language pretraining with knowledge enhancement via large language model. In International Workshop on Trustworthy Artificial Intelligence for Healthcare, 81–91 (Springer, 2024).
