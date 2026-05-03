@@ -1,0 +1,241 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-05-03T19:36:03.582429+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 2,
+    "deep_cap": 9,
+    "deep_selected": 2,
+    "quick_candidates": 3,
+    "quick_skim_target": 14,
+    "quick_selected": 3
+  },
+  "deep_dive": [
+    {
+      "id": "42070149",
+      "title": "Genomic analyses identify nosocomial transmission of ST23 carbapenem-resistant hypervirulent",
+      "abstract": "The World Health Organization has identified ST23 carbapenem-resistant hypervirulent Klebsiella pneumoniae (CR-hvKP) as a critical public health threat. Through China's national surveillance system (BRICS), we identified and characterized ST23 CR-hvKP bloodstream isolates from 2019-2023. Among 1069 CRKP bloodstream isolates, four ST23-K1 strains (0.37%) were detected across two hospitals, including a nosocomial transmission pair (differing by only 2 core SNPs). Clinical outcomes revealed that three of the four patients achieved recovery following appropriate antibiotic therapy, with one mortality case attributed to underlying comorbidities. All four ST23 isolates demonstrated resistance to multiple antibiotics, indicating a pattern of multidrug resistance. Genomic analysis uncovered diverse resistance mechanisms: the nosocomial transmission pair possessed conjugative IncFIIK2 NDM-1 plasmids, while the others harbored conjugative IncFIIK34 KPC-2 plasmids, which exhibited reduced carbapenem resistance attributed to the downregulation of blaKPC-2 expression. Conjugation assays revealed high transferability (10-5 for IncFIIK2 NDM-1; 10-4 for IncFIIK34 KPC-2). Whole-plasmid comparative genomics analysis suggested that the IncFIIK2 NDM-1 plasmids shared > 99% identity with historical IncFIIK2 plasmid backbones from Chinese K. pneumoniae isolates (2014-2022), suggesting local evolution. Notably, only 4.4% (26/590) of global IncFIIK2 plasmids carried blaNDM-1 and all IncFIIK2 NDM-1 plasmids maintain conjugative potential. All strains harbored conserved virulence plasmids and maintained hypervirulence, as indicated by a mouse infection model, with the exception of one strain that exhibited cps mutations. This study reports the first genomic evidence of a high-frequency conjugative IncFIIK2 NDM-1 plasmid in a hospital-transmitted ST23 CR-hvKP clone, highlighting the need for plasmid-focused surveillance to control this potential threat.",
+      "authors": [
+        "Tao Chen",
+        "Xueting Wang",
+        "Luying Xiong",
+        "Yan Geng",
+        "Hui Ding",
+        "Yunbo Chen",
+        "Ping Shen",
+        "Yonghong Xiao"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-12-31",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42070149/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "genomic surveillance and nosocomial transmission modeling of Klebsiella pneumoniae",
+      "llm_evidence_cn": "肺炎克雷伯菌的基因组监测和院内传播建模",
+      "llm_evidence": "肺炎克雷伯菌的基因组监测和院内传播建模",
+      "canonical_evidence": "肺炎克雷伯菌的基因组监测和院内传播建模",
+      "llm_tldr_en": "Uses genomic analysis to identify nosocomial transmission and resistance patterns of hypervirulent K. pneumoniae.",
+      "llm_tldr_cn": "利用基因组分析识别高毒力肺炎克雷伯菌的院内传播和耐药模式。",
+      "llm_tldr": "利用基因组分析识别高毒力肺炎克雷伯菌的院内传播和耐药模式。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI driven outbreak surveillance genomic epidemiology and transmission modeling",
+      "matched_requirement_id": "req-12",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42068475",
+      "title": "Identification of Mitochondrial Dysfunction Genes as Diagnostic Biomarkers for Ischemic Stroke by Integrated Bioinformatics Analysis and Machine Learning.",
+      "abstract": "Current diagnostics for ischemic stroke (IS) lack timeliness and accessibility, highlighting the need for novel molecular diagnostic models. Three gene expression datasets (GSE16561, GSE22255 and GSE58294), encompassing both IS patients and healthy control subjects, were retrieved from a public database. The mitochondrial dysfunction genes retrieve from the intersection of the GeneCards and MitoCarta3.0 databases. The limma and WGCNA package were used to obtain the genes related to IS. Feature genes were screened using LASSO, RF, SVM, and diagnostic models were constructed using NeighborMethod, NeuralNet, and BayesMethod. 3548 differentially expressed genes (DEGs) (1538 upregulated, 2010 downregulated) were identified in IS patients when compared to controls. WGCNA analysis yielded 10 IS-related modules containing 1643 genes. The intersection of DEGs, module genes, and mitochondrial dysfunction genes yielded 100 mitochondrial dysfunction genes associated with IS. These genes collectively regulate biological processes like mitochondrial ATP synthesis coupled electron transport and respiratory electron transport chain, and participate in IS-associated signaling pathways such as reactive oxygen species and oxidative phosphorylation. Further machine learning methods identified 4 feature genes, including MCL1, MRPL46, MTX3 and RNASEH1. These four genes exhibited robust diagnostic potential in the merged dataset (all AUC > 0.7). The machine learning models achieved AUC values of 0.814 (NeighborMethod), 0.852 (NeuralNet), and 0.842 (BayesMethod). External validation using an independent cohort confirmed that all models maintained high diagnostic accuracy (AUC range: 0.730-0.783). This study established a multi-gene diagnostic model for IS, identifying novel molecular biomarkers to improve the timeliness and accessibility of IS diagnosis.",
+      "authors": [
+        "Dandan Wu",
+        "Xiaolan Huang",
+        "Jie Li",
+        "Dingmin Mo",
+        "Weiwei Lan",
+        "Zihan Song",
+        "Li Su",
+        "Jianxiong Long",
+        "Jialei Yang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-02",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42068475/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "integrated bioinformatics analysis and machine learning for biomarker identification",
+      "llm_evidence_cn": "整合生物信息学分析与机器学习用于生物标志物鉴定",
+      "llm_evidence": "整合生物信息学分析与机器学习用于生物标志物鉴定",
+      "canonical_evidence": "整合生物信息学分析与机器学习用于生物标志物鉴定",
+      "llm_tldr_en": "Uses machine learning and bioinformatics to identify mitochondrial dysfunction genes as stroke biomarkers.",
+      "llm_tldr_cn": "利用机器学习和生信分析鉴定线粒体功能障碍基因作为缺血性中风的诊断标志物。",
+      "llm_tldr": "利用机器学习和生信分析鉴定线粒体功能障碍基因作为缺血性中风的诊断标志物。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "42069629",
+      "title": "Fungi and colorectal cancer: from dysregulation to clinical translation.",
+      "abstract": "Research on the gut microbiota has primarily focused on bacterial communities. However, the role of fungi-the second-largest eukaryotic component of the gut microbiome-in the development and progression of colorectal cancer (CRC) has been less extensively studied compared to bacteria. Recent studies have revealed significant fungal dysbiosis in the intestines of CRC patients, where the enrichment of specific pathogenic fungi (e.g., Aspergillus spp.) is closely associated with tumor progression, while the reduction of certain commensal fungi may weaken their protective effects. This fungal imbalance not only directly promotes tumorigenesis through carcinogenic mechanisms but also indirectly accelerates CRC progression by reshaping the bacteria-fungi interaction network and the host immune microenvironment. This article reviews the structural alterations of fungal communities in CRC, the changing patterns of specific fungal species, the relationship between fungal dysbiosis and clinicopathological features, the potential molecular mechanisms of fungi in CRC pathogenesis, the significance of cross-kingdom microbial interactions, as well as the potential diagnostic and therapeutic applications of fungi in CRC and the challenges and prospects of novel fungal-modulating therapeutic strategies.",
+      "authors": [
+        "Wu Yinhang",
+        "Han Shuwen",
+        "Zhuang Jing",
+        "Feng Min"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-02",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42069629/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "microbiome host interaction and pathogenic fungi in colorectal cancer",
+      "llm_evidence_cn": "结直肠癌中的微生物组宿主相互作用和致病真菌",
+      "llm_evidence": "结直肠癌中的微生物组宿主相互作用和致病真菌",
+      "canonical_evidence": "结直肠癌中的微生物组宿主相互作用和致病真菌",
+      "llm_tldr_en": "Reviews the role of fungal dysbiosis and host-microbe interactions in colorectal cancer progression.",
+      "llm_tldr_cn": "综述了真菌失调和宿主-微生物相互作用在结直肠癌进展中的作用。",
+      "llm_tldr": "综述了真菌失调和宿主-微生物相互作用在结直肠癌进展中的作用。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42068367",
+      "title": "Dissecting Immune Mechanisms Underlying Sarcopenia Using Multi-omics Approaches.",
+      "abstract": "Sarcopenia is an age-related muscle disease, and its gene regulation in immune cells is not well understood. Using immune cell-specific single-cell expression quantitative trait loci (sc-eQTLs), genome-wide association studies (GWAS), and multi-omics data, we systematically explored their potential causal roles in sarcopenia. We integrated sc-eQTL and cis-eQTL data from whole blood and skeletal muscle, seven sarcopenia-related phenotypes GWAS summary statistics, and used a Muscle Function-Mass Genetic Structural Equation Model (MF-M GSEM), Mendelian randomization (MR), and Bayesian colocalization analyses to assess causal gene effects across 14 immune cell types, whole blood, and skeletal muscle. A two-step MR was then applied to explore mediation through common diseases and carnitine-related metabolites. Fourteen genes, including HLA-DRB1, HLA-C, and SLC22A5, showed significant causal effects on at least three sarcopenia phenotypes in one or more immune cell types (Bonferroni-adjusted P < 0.05; posterior probability for hypothesis 4 > 0.8). Heart failure, rheumatoid arthritis, and chronic kidney disease mediated the causal effects of sc-eQTLs for FNBP4, HLA-DRB1, HLA-C, and HLA-DQA1 on MF-M GSEM (P < 0.05). Isovalerylcarnitine (C5) mediated the causal effect of the cis-eQTL of SLC22A5 in skeletal muscle on MF-M GSEM, with a mediation proportion of 67.6% (FDR-adjusted P < 0.05). Our findings highlight that immune cell-specific expression of HLA-DRB1, HLA-C, SLC22A5, and FNBP4 contributes to the pathogenesis of sarcopenia, suggesting these genes as potential therapeutic targets and mechanistic entry points for future research.",
+      "authors": [
+        "Kaixi Ding",
+        "Wei Jiang",
+        "Ming Lei",
+        "Yongxiang Gao"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-02",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42068367/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "multi-omics integration and single-cell analysis",
+      "llm_evidence_cn": "多组学整合与单细胞分析",
+      "llm_evidence": "多组学整合与单细胞分析",
+      "canonical_evidence": "多组学整合与单细胞分析",
+      "llm_tldr_en": "Integrates sc-eQTL, GWAS, and multi-omics to identify causal genes and immune mechanisms in sarcopenia.",
+      "llm_tldr_cn": "整合单细胞eQTL、GWAS和多组学数据，探讨骨骼肌减少症的因果基因和免疫机制。",
+      "llm_tldr": "整合单细胞eQTL、GWAS和多组学数据，探讨骨骼肌减少症的因果基因和免疫机制。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42069868",
+      "title": "Antibiotic-induced gut microbiome dysbiosis: risks and strategies for mitigation.",
+      "abstract": "The discovery of antibiotics and their subsequent therapeutic use revolutionized our ability to treat once deadly infectious diseases, and antibiotics have become one of the most commonly prescribed drug classes. Unfortunately, these compounds not only target pathogenic strains, but also non-pathogenic bacteria that fulfill important functions for the human host. As such, antibiotic treatment can cause severe collateral damage, resulting in dysbiosis, for example, in the human gut microbiome. Given the immense importance of the gut microbiome for human health, antibiotic-induced dysbiosis can cause a variety of detrimental health outcomes. In addition, antibiotic (over-)use causes selection of antibiotic-resistant strains, and the human gut microbiome has become a major reservoir for resistance determinants that can transfer to pathogenic isolates and cause hard-to-treat infections. In this review, we describe various adverse effects that antibiotic use has on the human gut microbiome, how we can approach this problem experimentally, and discuss pathways to mitigate antibiotic-induced collateral damage.",
+      "authors": [
+        "Katharina Müller",
+        "Justine Gillard",
+        "Athanasios Typas",
+        "Michael Knopp",
+        "Camille V Goemans"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-02",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42069868/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "gut microbiome dysbiosis and antibiotic resistance modeling",
+      "llm_evidence_cn": "肠道微生物群失调和抗生素耐药性建模",
+      "llm_evidence": "肠道微生物群失调和抗生素耐药性建模",
+      "canonical_evidence": "肠道微生物群失调和抗生素耐药性建模",
+      "llm_tldr_en": "Discusses antibiotic-induced microbiome dysbiosis and strategies to mitigate resistance and health risks.",
+      "llm_tldr_cn": "讨论了抗生素诱导的微生物组失调以及减轻耐药性和健康风险的策略。",
+      "llm_tldr": "讨论了抗生素诱导的微生物组失调以及减轻耐药性和健康风险的策略。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

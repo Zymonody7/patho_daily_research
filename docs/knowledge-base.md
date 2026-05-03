@@ -5,6 +5,21 @@
 
 ## 最近论文
 
+- [Genomic analyses identify nosocomial transmission of ST23 carbapenem-resistant hypervirulent](#/202605/03/202605/03/42070149-genomic-analyses-identify-nosocomial-transmission-of-st23-carbapenem-resistant-hypervirulent)
+  - TLDR：针对WHO列为重大威胁的ST23型耐碳青霉烯高毒力肺炎克雷伯菌（CR-hvKP），本研究通过中国国家监测系统对1069份血流感染样本进行基因组分析。研究首次发现了携带高频接合性IncFIIK2 NDM-1质粒的ST23克隆在医院内传播的证据，揭示了耐药质粒的本地演化与高度可转移性，为防控此类“超级细菌”提供了关键的基因组证据和监测方向。
+  - Tags：`query:pathoai`
+- [Identification of Mitochondrial Dysfunction Genes as Diagnostic Biomarkers for Ischemic Stroke by Integrated Bioinformatics Analysis and Machine Learning.](#/202605/03/202605/03/42068475-identification-of-mitochondrial-dysfunction-genes-as-diagnostic-biomarkers-for-ischemic-stroke-by-integrated-bioinformatics-analysis-and-machine-learning)
+  - TLDR：针对缺血性中风（IS）诊断时效性不足的问题，本研究整合生物信息学与机器学习技术，从线粒体功能障碍角度筛选关键基因。通过分析多个公共数据集并结合WGCNA与LASSO等算法，确定了MCL1等4个核心特征基因，并构建了神经网络等诊断模型。实验证明该模型在独立验证集中表现稳定，为IS的早期分子诊断提供了高准确度的生物标志物。
+  - Tags：`query:bioinfo`
+- [Fungi and colorectal cancer: from dysregulation to clinical translation.](#/202605/03/202605/03/42069629-fungi-and-colorectal-cancer-from-dysregulation-to-clinical-translation)
+  - TLDR：肠道微生物研究长期聚焦于细菌，但真菌在结直肠癌（CRC）中的作用正受到关注。本文综述了CRC患者肠道真菌群落的失调特征，如致病性曲霉属的富集和保护性共生真菌的减少。通过分析真菌如何通过直接致癌机制、跨界微生物交互及免疫微环境重塑来驱动肿瘤，揭示了真菌在CRC早期诊断和精准治疗中的临床转化潜力。
+  - Tags：`query:pathoai`
+- [Dissecting Immune Mechanisms Underlying Sarcopenia Using Multi-omics Approaches.](#/202605/03/202605/03/42068367-dissecting-immune-mechanisms-underlying-sarcopenia-using-multi-omics-approaches)
+  - TLDR：针对肌少症中免疫细胞基因调控机制不明的问题，本研究整合了单细胞表达定量性状位点（sc-eQTL）、全基因组关联分析（GWAS）及多组学数据，利用遗传结构方程模型和孟德尔随机化方法，系统评估了14种免疫细胞类型中的因果基因。研究发现了HLA-DRB1、SLC22A5等关键基因，并揭示了心脏衰竭及肉碱代谢物在其中的中介作用，为肌少症的免疫治疗提供了潜在靶点。
+  - Tags：`query:bioinfo`
+- [Antibiotic-induced gut microbiome dysbiosis: risks and strategies for mitigation.](#/202605/03/202605/03/42069868-antibiotic-induced-gut-microbiome-dysbiosis-risks-and-strategies-for-mitigation)
+  - TLDR：抗生素在杀灭病原菌的同时会破坏肠道有益菌群，导致菌群失调并诱发耐药性传播。本文综述了抗生素对肠道微生物组的负面影响及其诱导的耐药基因库风险，探讨了通过实验手段量化这种损伤的方法，并总结了旨在减轻抗生素副作用、保护肠道健康的干预策略，为开发精准医疗和微生物组保护方案提供了理论参考。
+  - Tags：`query:pathoai`
 - [Enterovirus D68 in United States wastewater: a longitudinal surveillance study integrating climatic, demographic, and clinical data.](#/202605/02/202605/02/41853773-enterovirus-d68-in-united-states-wastewater-a-longitudinal-surveillance-study-integrating-climatic-demographic-and-clinical-data)
   - TLDR：针对肠道病毒 D68 (EV-D68) 临床检测受限导致监测数据稀缺的问题，本研究通过分析美国 40 个州 147 个污水处理厂的 43,876 份样本，结合气候、人口统计及电子病历数据，揭示了该病毒的两年一度流行模式及环境驱动因素。结果显示污水监测能准确预测流行高峰并与临床诊断相关，为缺乏常规检测的病原体提供了高分辨率的流行病学预警手段。
   - Tags：`query:pathoai`
@@ -590,18 +605,3 @@
 - [Antibacterial potential of epiphytic fungi obtained from brown algae of Kenyan coastal waters.](#/202604/10/202604/10/41955261-antibacterial-potential-of-epiphytic-fungi-obtained-from-brown-algae-of-kenyan-coastal-waters)
   - TLDR：针对多重耐药菌威胁及新药研发滞后的现状，本研究探索了肯尼亚沿海褐藻表面的附生真菌作为新型抗菌药物来源的潜力。通过形态学与ITS分子鉴定，筛选出9株具有广谱活性的菌株（如交链孢属、弯孢属和青霉属），并利用GC-MS分析其代谢产物。实验结果显示，这些真菌提取物对ESKAPE病原体表现出显著的抑制作用，最低抑菌浓度达0.039 mg/mL，且扫描电镜观察证实其通过破坏细菌细胞膜发挥杀菌作用，为开发新型抗生素提供了重要候选资源。
   - Tags：`query:pathoai`
-- [Reconstruction of human metabolic models with large language models.](#/202604/09/202604/09/41950094-reconstruction-of-human-metabolic-models-with-large-language-models)
-  - TLDR：针对人类基因组规模代谢模型（GEM）构建中人工维护成本高、精度不足的问题，本研究开发了 Human2 模型。该模型利用大语言模型（LLM）和自动化工作流进行高效协作策展，支持构建不同性别、年龄及组织的特异性模型。通过整合多组学与动力学数据，Human2 实现了对全身器官间代谢物交换的动态模拟，为多尺度人类代谢研究提供了高精度的数字化工具。
-  - Tags：`query:bioinfo`
-- [Multiple hypervariable markers improve mycobiome classification in metatranscriptome and metagenome data.](#/202604/09/202604/09/41951715-multiple-hypervariable-markers-improve-mycobiome-classification-in-metatranscriptome-and-metagenome-data)
-  - TLDR：针对宏基因组和宏转录组中真菌分类受限于参考基因组匮乏和数据库分辨率低的问题，本研究开发了 MicroFisher 工具。该工具通过识别多个高变标记基因序列，并结合加权集成算法进行分类，在模拟群落及森林土壤、植物根系等真实环境数据中表现出比现有工具更高的分类准确度和丰度估计精度，尤其提升了对稀有分类单元的检测能力。
-  - Tags：`query:seqai`
-- [Multiomics and deep learning dissect regulatory syntax in human development.](#/202604/09/202604/09/41951735-multiomics-and-deep-learning-dissect-regulatory-syntax-in-human-development)
-  - TLDR：针对人类发育过程中染色质可及性数据局限于单一器官或模态的问题，本研究构建了涵盖12个器官、80余万个细胞的多组学图谱，并利用深度学习模型从DNA序列预测可及性。研究揭示了转录因子协同作用的“硬性”与“软性”语法规则，以及抑制可及性的通用基序，为解码人类发育中的顺式调控逻辑和遗传变异提供了基础资源。
-  - Tags：`query:bioinfo`
-- [The trRosettaRNA server for RNA structure prediction.](#/202604/09/202604/09/41951853-the-trrosettarna-server-for-rna-structure-prediction)
-  - TLDR：许多RNA的功能依赖其复杂的三维结构，但实验测定成本高且周期长。trRosettaRNA是一个基于深度学习的自动化RNA三维结构预测平台，通过端到端神经网络直接从序列预测空间约束，并结合能量优化消除物理冲突。该工具在Rfam家族预测中表现出极高的准确性，与实验观测高度吻合，为RNA结构生物学研究提供了高效、开源的计算方案。
-  - Tags：`query:bioinfo`
-- [Sequence Display enables large-scale sequence-activity datasets for rapid protein evolution.](#/202604/09/202604/09/41951911-sequence-display-enables-large-scale-sequence-activity-datasets-for-rapid-protein-evolution)
-  - TLDR：针对蛋白质工程中多轮筛选效率低下的难题，本研究开发了 Sequence Display 平台，可在单轮实验中生成大规模蛋白质序列-活性数据集。该平台通过多路复用技术评估变体活性，并结合预训练蛋白质语言模型构建精细的活性景观。实验证明，该方法成功进化出具有更广 PAM 识别能力的 Cas9 和新型氨酰-tRNA 合成酶，为加速生物医学功能蛋白的发现提供了高效的数据驱动方案。
-  - Tags：`query:bioinfo`
