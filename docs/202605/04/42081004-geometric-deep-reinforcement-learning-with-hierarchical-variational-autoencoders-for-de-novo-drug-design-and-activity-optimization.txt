@@ -1,0 +1,447 @@
+Title: Geometric deep reinforcement learning with hierarchical variational autoencoders for de novo drug design and activity optimization - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42081004/
+
+Markdown Content:
+# Geometric deep reinforcement learning with hierarchical variational autoencoders for de novo drug design and activity optimization - PubMed
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/42081004/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42081004%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/42081004/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/42081004/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/42081004/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/42081004/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/ffd2ec78-62e5-42af-9cba-3b683627d12e/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/42081004/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/42081004/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/42081004/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42081004%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42081004%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/42081004/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Save citation to file
+
+ Format:  
+
+ Create file  Cancel 
+
+## Email citation
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/42081004/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/42081004/#)
+
+ Add  Cancel 
+
+## Your saved search
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/42081004/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+## Create a file for external citation management software
+
+ Create file  Cancel 
+
+## Your RSS Feed
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/42081004/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/42081004/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/42081004/#abstract)
+*   [Conflict of interest statement](https://pubmed.ncbi.nlm.nih.gov/42081004/#conflict-of-interest)
+*   [References](https://pubmed.ncbi.nlm.nih.gov/42081004/#references)
+*   [MeSH terms](https://pubmed.ncbi.nlm.nih.gov/42081004/#mesh-terms)
+*   [Substances](https://pubmed.ncbi.nlm.nih.gov/42081004/#substances)
+
+ J Comput Aided Mol Des 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22J+Comput+Aided+Mol+Des%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22J+Comput+Aided+Mol+Des%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42081004/#)
+
+. 2026 May 4;40(1):111.
+
+ doi: 10.1007/s10822-026-00812-7. 
+
+# Geometric deep reinforcement learning with hierarchical variational autoencoders for de novo drug design and activity optimization
+
+[Dileep Kumar Murala](https://pubmed.ncbi.nlm.nih.gov/?term=Murala+DK&cauthor_id=42081004)[1](https://pubmed.ncbi.nlm.nih.gov/42081004/#full-view-affiliation-1 "Department of Computer Science and Engineering, Faculty of Science and Technology (IcfaiTech), ICFAI Foundation for Higher Education, Hyderabad, Telangana, 501203, India. drdileepm@ifheindia.org.")
+
+ Affiliations  Expand 
+
+### Affiliation
+
+*   1 Department of Computer Science and Engineering, Faculty of Science and Technology (IcfaiTech), ICFAI Foundation for Higher Education, Hyderabad, Telangana, 501203, India. drdileepm@ifheindia.org.
+
+*    PMID: **42081004**
+*    DOI: [10.1007/s10822-026-00812-7](https://doi.org/10.1007/s10822-026-00812-7)
+
+ Item in Clipboard 
+
+# Geometric deep reinforcement learning with hierarchical variational autoencoders for de novo drug design and activity optimization
+
+Dileep Kumar Murala. J Comput Aided Mol Des.2026.
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ J Comput Aided Mol Des 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22J+Comput+Aided+Mol+Des%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22J+Comput+Aided+Mol+Des%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42081004/#)
+
+. 2026 May 4;40(1):111.
+
+ doi: 10.1007/s10822-026-00812-7. 
+
+### Author
+
+[Dileep Kumar Murala](https://pubmed.ncbi.nlm.nih.gov/?term=Murala+DK&cauthor_id=42081004)[1](https://pubmed.ncbi.nlm.nih.gov/42081004/#short-view-affiliation-1 "Department of Computer Science and Engineering, Faculty of Science and Technology (IcfaiTech), ICFAI Foundation for Higher Education, Hyderabad, Telangana, 501203, India. drdileepm@ifheindia.org.")
+
+### Affiliation
+
+*   1 Department of Computer Science and Engineering, Faculty of Science and Technology (IcfaiTech), ICFAI Foundation for Higher Education, Hyderabad, Telangana, 501203, India. drdileepm@ifheindia.org.
+
+*    PMID: **42081004**
+*    DOI: [10.1007/s10822-026-00812-7](https://doi.org/10.1007/s10822-026-00812-7)
+
+ Item in Clipboard 
+
+Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Abstract
+
+Traditional drug discovery is a resource-intensive process with high attrition rates and the huge difficulty of working with a chemical space that is thought to include [Formula: see text] molecules. Even though computational chemistry has come a long way, traditional generative models still use string-based representations like SMILES, which have trouble capturing intricate three-dimensional spatial interactions and often make structures that aren't real. Moreover, current reinforcement learning methodologies frequently do not achieve an equilibrium between molecular diversity and high-affinity biological activity. To overcome these constraints, this research introduces an innovative integrated framework that merges Geometric Multi-Discrete Soft Actor-Critic (Geom-SAC) and Multi-stage Variational Autoencoders (MS-VAE) to improve de novo molecular creation and activity optimisation. The main new idea is the combination of geometric deep learning, which enforces physical atomic restrictions, and a hierarchical VAE architecture, which organises the latent space into manageable structural steps from scaffold formation to functional group optimisation. We also use a Non-Covalent Interaction-Aware (NCIA) graph neural network in our method to improve protein-ligand affinity predictions by simulating complex intermolecular forces. Experimental results on benchmark datasets, such as ZINC250k and PDBbind, show that the proposed framework improves binding affinity scores by 15% and the Valid-Unique-Novel (VUN) molecule ratio by 20% compared to the best existing methods. Also, adding a security layer based on blockchain technology makes sure that data is secure and can be tracked. This all-encompassing method provides a strong, highly accurate answer for next-generation AI-driven pharmacology. It greatly narrows the gap between computational design and experimental validation.
+
+**Keywords:** De novo drug design; Geometric deep learning; Molecular optimization; Protein-ligand interaction; Soft actor-critic; Variational autoencoder.
+
+© 2026. The Author(s), under exclusive licence to Springer Nature Switzerland AG.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Conflict of interests: Not applicable. Statement on the Use of Artificial Intelligence Tools: During the preparation of this manuscript, AI-assisted language editing tools were used solely for minor grammatical refinement and improvement of text readability. These tools were not used to generate scientific ideas, experimental results, figures, or methodological content. All experiments, computational models, molecular generation procedures, and visualizations presented in this study were developed and executed by the authors using standard scientific software tools, including Python, PyTorch, and RDKit. The authors take full responsibility for the accuracy and integrity of the content presented in this manuscript.
+
+## References
+
+1.       1.    Liu M et al (2025) Molecular dynamics-powered hierarchical geometric deep learning framework for protein-ligand interaction. IEEE Trans Comput Biol Bioinf 22(4):1517–1527. [https://doi.org/10.1109/TCBBIO.2025.3558959](https://doi.org/10.1109/TCBBIO.2025.3558959) - [DOI](https://doi.org/10.1109/tcbbio.2025.3558959)
+
+2.       1.    Ai C, Yang H, Ding Y, Tang J, Guo F (2023) Low rank matrix factorization algorithm based on multi-graph regularization for detecting drug-disease association. IEEE/ACM Trans Comput Biol Bioinf 20(5):3033–3043. [https://doi.org/10.1109/TCBB.2023.3274587](https://doi.org/10.1109/TCBB.2023.3274587) - [DOI](https://doi.org/10.1109/tcbb.2023.3274587)
+
+3.       1.    Salim EBM, Anass T, Abdelouahed AI (2025) Advancing multilingual retrieval-augmented generation for reliable medication counseling. IEEE Access 13:215550–215564. [https://doi.org/10.1109/ACCESS.2025.3646941](https://doi.org/10.1109/ACCESS.2025.3646941) - [DOI](https://doi.org/10.1109/access.2025.3646941)
+
+4.       1.    Murala DK et al (2025) ChainShieldML: an intelligent decentralized security framework for next-generation wireless sensor networks. Sci Rep 15:42960. [https://doi.org/10.1038/s41598-025-27077-8](https://doi.org/10.1038/s41598-025-27077-8) - [DOI](https://doi.org/10.1038/s41598-025-27077-8) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/41331276/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/12673115/)
+
+5.       1.    Mohamed Talib A et al (2025) Evaluating critical success factors in AI-driven drug discovery using AHP: a strategic framework for optimization. IEEE Access 13:42045–42063. [https://doi.org/10.1109/ACCESS.2025.3546925](https://doi.org/10.1109/ACCESS.2025.3546925) - [DOI](https://doi.org/10.1109/access.2025.3546925)
+
+ Show all 33 references 
+
+## MeSH terms
+
+*   
+ Algorithms 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Algorithms%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Algorithms)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42081004/#)
+
+*   
+ Autoencoder 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Autoencoder%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Autoencoder)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42081004/#)
+
+*   
+ Deep Learning* 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Deep+Learning%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Deep+Learning)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42081004/#)
+
+*   
+ Drug Design* 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Drug+Design%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Drug+Design)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42081004/#)
+
+*   
+ Drug Discovery / methods 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Drug+Discovery%2Fmethods%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Drug+Discovery)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42081004/#)
+
+*   
+ Ligands 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Ligands%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Ligands)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42081004/#)
+
+*   
+ Neural Networks, Computer 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Neural+Networks%2C+Computer%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Neural+Networks%2C+Computer)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42081004/#)
+
+*   
+ Reinforcement Machine Learning 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Reinforcement+Machine+Learning%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Reinforcement+Machine+Learning)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42081004/#)
+
+## Substances
+
+*   
+ Ligands 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Ligands%22%5Bnm%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=%22Ligands%22)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42081004/#)
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/42081004/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42081004%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/42081004/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42081004%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42081004%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/42081004/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)

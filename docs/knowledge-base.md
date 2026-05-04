@@ -5,6 +5,36 @@
 
 ## 最近论文
 
+- [Computer-Aided Discovery of Small-Molecule Inhibitors of Pathogenic New World Arenavirus Entry and Replication.](#/202605/04/202605/04/42077170-computer-aided-discovery-of-small-molecule-inhibitors-of-pathogenic-new-world-arenavirus-entry-and-replication)
+  - TLDR：针对致病性新世界沙状病毒（NWA）利用人类转铁蛋白受体1（hTfR1）入侵细胞的机制，研究人员通过针对MACV GP1-hTfR1界面的结构虚拟筛选，从商业化合物库中鉴定出两种具有微摩尔活性的骨架。通过类似物优化获得的化合物22f展现出跨病毒种类的广谱抑制活性，虽在小鼠模型中未表现出保护效力，但为开发新型抗沙状病毒药物提供了重要起点。
+  - Tags：`query:pathoai`
+- [SpaMode: A Broadly Applicable Framework for Deciphering Spatial Multi-Omics Using Multimodal Mixture of Disentangled Experts.](#/202605/04/202605/04/42080395-spamode-a-broadly-applicable-framework-for-deciphering-spatial-multi-omics-using-multimodal-mixture-of-disentangled-experts)
+  - TLDR：针对空间多组学数据在垂直、水平及马赛克集成中面临的跨模态异质性挑战，SpaMode 框架通过解耦专家混合模型，将转录组、蛋白质组等不同组学数据分解为模态不变与模态特异的分布。该方法在多种集成场景下均优于现有专用工具，不仅提升了空间异质性的解析精度，还通过可解释的生物分子特征揭示了组织微环境的复杂机制。
+  - Tags：`query:seqai`
+- [Geometric deep reinforcement learning with hierarchical variational autoencoders for de novo drug design and activity optimization.](#/202605/04/202605/04/42081004-geometric-deep-reinforcement-learning-with-hierarchical-variational-autoencoders-for-de-novo-drug-design-and-activity-optimization)
+  - TLDR：针对传统药物设计中SMILES表示法难以捕捉3D空间信息及强化学习难以平衡分子多样性与活性的问题，本研究提出了一种结合几何多离散软演员-评论家算法（Geom-SAC）与多阶段变分自编码器（MS-VAE）的框架。该框架利用几何深度学习约束原子物理属性，并通过分层VAE优化从骨架到功能团的生成过程，配合非共价相互作用感知网络提升亲和力预测。实验证明其在结合亲和力和分子有效性指标上显著优于现有方法，缩短了计算设计与实验验证的差距。
+  - Tags：`query:bioinfo`
+- [BERTopic-driven term extraction from biomedical texts toward ontology population: evaluating vaccine ontology with Plotkin's vaccines corpus.](#/202605/04/202605/04/42071270-bertopic-driven-term-extraction-from-biomedical-texts-toward-ontology-population-evaluating-vaccine-ontology-with-plotkins-vaccines-corpus)
+  - TLDR：针对疫苗学本体（VO）手动维护耗时费力的问题，本研究提出一种基于 BERTopic 的半自动化术语提取框架。该框架利用预训练模型、聚类算法及种子词引导技术，从《Plotkin's Vaccines》语料库中提取关键概念，并通过层次化合并生成类本体结构。实验证明该方法能有效识别免疫机制、病原体等核心主题，显著降低专家审核负担，为生物医学本体的动态扩展提供了可扩展的自动化方案。
+  - Tags：`query:agent`
+- [Comprehensive evaluation of artificial intelligence-empowered approaches for protein-aptamer complex prediction.](#/202605/04/202605/04/42080590-comprehensive-evaluation-of-artificial-intelligence-empowered-approaches-for-protein-aptamer-complex-prediction)
+  - TLDR：针对核酸适配体药物设计中结构数据稀缺且分子柔性大的挑战，本研究系统评估了 AlphaFold3、Chai-1、Boltz-2 和 RoseTTAFold2NA 等前沿 AI 模型在预测蛋白质-适配体复合物结构及结合自由能方面的表现。通过建立独立基准测试集，揭示了现有模型在结构精度和能量一致性上的优劣，为核酸类药物的 AI 辅助设计提供了关键参考。
+  - Tags：`query:bioinfo`
+- [Targeting conserved domains of hypoxia-inducible factors for cancer therapy.](#/202605/04/202605/04/41941275-targeting-conserved-domains-of-hypoxia-inducible-factors-for-cancer-therapy)
+  - TLDR：缺氧诱导因子HIF-1/2是驱动癌症进展的关键调节因子，但现有药物多为单靶点且存在副作用。研究团队利用计算机辅助药物设计开发出一种双重抑制剂，能直接结合HIF-1α和HIF-2α的保守结构域并诱导其降解。实验证明该药物在多种实体瘤中表现出优于现有药物的抗癌活性，并能显著逆转免疫治疗耐药，且安全性更高，为癌症综合治疗提供了新策略。
+  - Tags：`query:bioinfo`
+- [Chronic intermittent hypoxia exacerbates hepatic steatosis in a microbiota-dependent manner in lean mice.](#/202605/04/202605/04/42080548-chronic-intermittent-hypoxia-exacerbates-hepatic-steatosis-in-a-microbiota-dependent-manner-in-lean-mice)
+  - TLDR：针对阻塞性睡眠呼吸暂停（OSA）中慢性间歇性缺氧（CIH）如何导致非肥胖人群脂肪肝的问题，本研究通过临床数据分析及瘦鼠模型实验，结合宏基因组、代谢组和转录组学手段，发现 CIH 能独立诱导肝脏脂肪变性。研究揭示了肠道菌群（如 Bacteroides uniformis 减少）与胆汁酸代谢（如脱氧胆酸升高）的失调是关键机制，为非肥胖型脂肪肝的防治提供了新靶点。
+  - Tags：`query:pathoai`
+- [AI and the digital pathology revolution: clinical applications in cancer diagnosis and assessment.](#/202605/04/202605/04/42070246-ai-and-the-digital-pathology-revolution-clinical-applications-in-cancer-diagnosis-and-assessment)
+  - TLDR：癌症诊断长期依赖人工审阅H&E切片，面临效率瓶颈与主观偏差。本文探讨了数字病理与AI的融合，重点分析了深度学习、Transformer及病理基础模型在全切片图像处理中的应用。通过整合组织学图像与临床文本，AI不仅能实现自动化的生物标志物预测和预后建模，还能挖掘常规显微镜难以察觉的特征，显著提升了精准肿瘤学的诊断效能。
+  - Tags：`query:bioinfo`
+- [A comprehensive review of regulatory mechanisms of novel enterotoxin genes in](#/202605/04/202605/04/42080335-a-comprehensive-review-of-regulatory-mechanisms-of-novel-enterotoxin-genes-in)
+  - TLDR：肉类来源的金黄色葡萄球菌携带的新型肠毒素基因（NEGs）是重大食品安全隐患。本文通过系统综述和多组学证据分析，阐明了NEGs的分类、致病机制及由Agr/σB等介导的多层级调控网络，并揭示了其地理分布差异，为食品安全风险评估和精准防控提供了理论框架。
+  - Tags：`query:pathoai`
+- [Host genetics and diet jointly shape the microbiome of Drosophila melanogaster but do not predict lifespan or age-related traits.](#/202605/04/202605/04/42081130-host-genetics-and-diet-jointly-shape-the-microbiome-of-drosophila-melanogaster-but-do-not-predict-lifespan-or-age-related-traits)
+  - TLDR：本研究探讨了宿主遗传与饮食如何共同影响黑腹果蝇的肠道微生物组成。研究者利用 DGRP 遗传参考系，分析了不同营养条件下微生物的遗传力及交互作用，发现微生物组成具有高度遗传性且受饮食显著调节。然而，研究结果表明幼年果蝇的微生物特征（如多样性、丰度等）并不能有效预测其寿命或衰老相关表型，揭示了微生物与宿主长寿之间关系的复杂性。
+  - Tags：`query:pathoai`
 - [Genomic analyses identify nosocomial transmission of ST23 carbapenem-resistant hypervirulent](#/202605/03/202605/03/42070149-genomic-analyses-identify-nosocomial-transmission-of-st23-carbapenem-resistant-hypervirulent)
   - TLDR：针对WHO列为重大威胁的ST23型耐碳青霉烯高毒力肺炎克雷伯菌（CR-hvKP），本研究通过中国国家监测系统对1069份血流感染样本进行基因组分析。研究首次发现了携带高频接合性IncFIIK2 NDM-1质粒的ST23克隆在医院内传播的证据，揭示了耐药质粒的本地演化与高度可转移性，为防控此类“超级细菌”提供了关键的基因组证据和监测方向。
   - Tags：`query:pathoai`
@@ -574,34 +604,4 @@
   - Tags：`query:seqai`
 - [Environmental pathogen surveillance in cities without universal piped wastewater infrastructure.](#/202604/11/202604/11/41961797-environmental-pathogen-surveillance-in-cities-without-universal-piped-wastewater-infrastructure)
   - TLDR：针对中低收入国家城市缺乏完善下水道系统导致无法进行常规废水监测的问题，本研究在莫桑比克马普托市采集了包括露天排水沟、受污染河流、土壤及粪便污泥在内的多种环境样本。通过多重 RT-qPCR 技术检测多种病原体并建立回归模型，发现虽然非传统样本中的病原体浓度低于污水处理厂进水，但其检出率依然很高，且降雨会显著提升浓度。这证明了在非正规排水体系下开展环境病原体监测的可行性，为公共卫生干预提供了新思路。
-  - Tags：`query:pathoai`
-- [Plasmodium yoelii infection induces lung injury by modulating type 2 conventional dendritic cells autophagy via the STAT3-IRF4 signaling.](#/202604/11/202604/11/41963299-plasmodium-yoelii-infection-induces-lung-injury-by-modulating-type-2-conventional-dendritic-cells-autophagy-via-the-stat3-irf4-signaling)
-  - TLDR：疟疾感染常导致严重的肺损伤，但肺部 cDC2 细胞的作用机制不明。研究发现约氏疟原虫通过 TLR3/7-STAT3-IRF4 通路抑制 cDC2 自噬，导致其在肺部异常积累并促进 Th1 细胞分化，进而加剧炎症损伤。通过抑制 STAT3 或敲除 IRF4 可恢复 cDC2 功能并减轻肺部病理，揭示了疟疾免疫损伤的新机制。
-  - Tags：`query:pathoai`
-- [Causal Prediction of TP53 Variant Pathogenicity Using a Perturbation-Informed Protein Language Model.](#/202604/10/202604/10/41955512-causal-prediction-of-tp53-variant-pathogenicity-using-a-perturbation-informed-protein-language-model)
-  - TLDR：TP53基因突变的功能预测对癌症研究至关重要，但通用模型在处理特定基因的错义突变时准确性有限。本研究开发了CaVepP53，通过在扰动实验数据上微调蛋白质语言模型，利用野生型与突变体嵌入向量的欧氏距离量化致病性。实验证明该模型在准确率和F1分数上显著优于AlphaMissense等通用模型，并成功预测了ClinVar未收录的新功能变体，为精准医疗提供了高精度的基因特异性预测框架。
-  - Tags：`query:bioinfo`
-- [Mechanistic Design of Graphdiyne-Based Multimodal Sensing Integrating Machine Learning and Photothermal Dynamics for Precision Recognition and On-Demand Inactivation.](#/202604/10/202604/10/41955469-mechanistic-design-of-graphdiyne-based-multimodal-sensing-integrating-machine-learning-and-photothermal-dynamics-for-precision-recognition-and-on-demand-inactivation)
-  - TLDR：针对致病菌快速检测与治疗的需求，该研究开发了一种基于石墨炔（GDY）的自供电多模态传感平台。利用CRISPR/Cas12a的特异性识别触发信号，结合GDY/金纳米颗粒电极，实现了电化学、比色和光热三种模式的副溶血性弧菌检测。通过机器学习整合多模态信号，实现了97.71%的感染分级准确率，并能利用光热效应原位灭活细菌，为伤口感染的精准诊疗提供了新方案。
-  - Tags：`query:pathoai`
-- [Environmentally mediated interactions predict community assembly and invasion success in a gut microbiota synthetic community.](#/202604/10/202604/10/41960919-environmentally-mediated-interactions-predict-community-assembly-and-invasion-success-in-a-gut-microbiota-synthetic-community)
-  - TLDR：肠道微生物群的稳定性对健康至关重要，但其复杂性使得预测物种入侵（如病原体定植或益生菌恢复）变得困难。本研究通过测量10种常见肠道细菌在彼此代谢产物（上清液）中的生长情况，构建并验证了广义Lotka-Volterra模型。结果表明，由可溶性化学物质介导的环境相互作用是决定群落组成和入侵成败的关键，且指向入侵者的相互作用比群落内部竞争更具决定性。这为通过精准干预预防病原体生长和优化益生菌疗法提供了理论基础。
-  - Tags：`query:pathoai`
-- [Targeting Inflammation in Bronchiectasis.](#/202604/10/202604/10/41954871-targeting-inflammation-in-bronchiectasis)
-  - TLDR：支气管扩张症长期被视为单纯的感染性疾病，但过度活跃的中性粒细胞炎症才是导致肺部损伤的关键。本文综述了从微生物组、炎症小体到Th17细胞因子的多维炎症机制，分析了DPP-1抑制剂等新型抗炎疗法在临床试验中的潜力。研究指出，通过生物标志物区分患者内型并实施精准抗炎治疗，是解决传统抗菌疗法效果不佳、改善患者预后的核心路径。
-  - Tags：`query:pathoai`
-- [Combining multiplexed assays of variant effect for enhanced BRCA2 variant classification.](#/202604/10/202604/10/41957374-combining-multiplexed-assays-of-variant-effect-for-enhanced-brca2-variant-classification)
-  - TLDR：针对 BRCA2 基因中大量意义不明变异（VUS）导致的临床评估难题，本研究整合了两项针对其 C 端 DNA 结合域的饱和基因组编辑（SGE）实验数据，构建了 Integrated VarCall 复合模型。该模型在 6383 个变异位点上实现了 98.8% 的分类准确率，优于单一研究。结合 ClinGen 临床标准，研究成功对 92.8% 的变异进行了明确的致病性或良性分类，显著提升了 BRCA2 变异的临床解读能力。
-  - Tags：`query:seqai`
-- [Unraveling salt-responsive genes in Suaeda salsa through genomic and transcriptomic profiling across salinity gradients.](#/202604/10/202604/10/41957698-unraveling-salt-responsive-genes-in-suaeda-salsa-through-genomic-and-transcriptomic-profiling-across-salinity-gradients)
-  - TLDR：针对全球作物受盐渍化限制的问题，本研究以强耐盐植物盐地碱蓬为对象，利用Helixer工具首次完成了其染色体级基因组的注释，并结合不同盐浓度下的长期转录组分析，筛选出462个差异表达基因及11个核心候选基因。这些基因涉及离子转运、渗透调节及抗氧化等关键过程，为培育耐盐作物提供了重要的基因资源和理论基础。
-  - Tags：`query:seqai`
-- [Identification of DC-174 as a Novel Hydroxamic Precandidate for the Development of an Oral Snakebite Treatment.](#/202604/10/202604/10/41955094-identification-of-dc-174-as-a-novel-hydroxamic-precandidate-for-the-development-of-an-oral-snakebite-treatment)
-  - TLDR：针对蛇咬伤中毒这一高致死率且缺乏便捷疗法的热带病，研究团队通过分子建模指导化学修饰，开发出新型羟肟酸类小分子抑制剂 DC-174。该药物能高效抑制蛇毒中关键的锌依赖性金属蛋白酶（IC50 < 10 nM），并能中和多种蛇毒的促凝血活性。在小鼠实验中，DC-174 展现出优异的口服生物利用度和临床前疗效，为开发首款口服蛇咬伤急救药物提供了极具潜力的先导化合物。
-  - Tags：`query:pathoai`
-- [Resolving competing evolutionary histories in joint ancestral state reconstruction.](#/202604/10/202604/10/41955119-resolving-competing-evolutionary-histories-in-joint-ancestral-state-reconstruction)
-  - TLDR：传统的祖先状态重建（ASR）多关注单个节点的边缘概率，难以刻画完整的进化轨迹。本研究提出了一种基于随机映射条件概率的联合重建方法，通过采样生成可能的进化历史分布，并提供了量化不确定性的工具。在模拟实验和肺炎克雷伯菌耐药性演化分析中，该方法成功识别出多个竞争性的进化路径，比传统的节点式方法更准确地还原了复杂的表型-基因型转换过程，为理解性状演化提供了更全面的视角。
-  - Tags：`query:pathoai`
-- [Antibacterial potential of epiphytic fungi obtained from brown algae of Kenyan coastal waters.](#/202604/10/202604/10/41955261-antibacterial-potential-of-epiphytic-fungi-obtained-from-brown-algae-of-kenyan-coastal-waters)
-  - TLDR：针对多重耐药菌威胁及新药研发滞后的现状，本研究探索了肯尼亚沿海褐藻表面的附生真菌作为新型抗菌药物来源的潜力。通过形态学与ITS分子鉴定，筛选出9株具有广谱活性的菌株（如交链孢属、弯孢属和青霉属），并利用GC-MS分析其代谢产物。实验结果显示，这些真菌提取物对ESKAPE病原体表现出显著的抑制作用，最低抑菌浓度达0.039 mg/mL，且扫描电镜观察证实其通过破坏细菌细胞膜发挥杀菌作用，为开发新型抗生素提供了重要候选资源。
   - Tags：`query:pathoai`

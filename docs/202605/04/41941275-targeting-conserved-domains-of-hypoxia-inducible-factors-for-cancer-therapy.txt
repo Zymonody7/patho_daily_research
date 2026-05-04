@@ -1,0 +1,197 @@
+Title: Targeting conserved domains of hypoxia-inducible factors for cancer therapy - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41941275/
+
+Markdown Content:
+Actions
+
+. 2026 May 4;223(5):e20251009.
+
+doi: 10.1084/jem.20251009.  Epub 2026 Apr 2.
+
+[Tina Y Huang](https://pubmed.ncbi.nlm.nih.gov/?term=Huang+TY&cauthor_id=41941275)[1](https://pubmed.ncbi.nlm.nih.gov/41941275/#full-view-affiliation-1 "Department of Genetic Medicine, Institute for Cell Engineering, and Armstrong Oxygen Biology Research Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."),[Yousang Hwang](https://pubmed.ncbi.nlm.nih.gov/?term=Hwang+Y&cauthor_id=41941275)[1](https://pubmed.ncbi.nlm.nih.gov/41941275/#full-view-affiliation-1 "Department of Genetic Medicine, Institute for Cell Engineering, and Armstrong Oxygen Biology Research Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."),[Anmol Kumar](https://pubmed.ncbi.nlm.nih.gov/?term=Kumar+A&cauthor_id=41941275)[2](https://pubmed.ncbi.nlm.nih.gov/41941275/#full-view-affiliation-2 "Department of Pharmaceutical Sciences, University of Maryland Computer-Aided Drug Design Center, University of Maryland School of Pharmacy, Baltimore, MD, USA."),[Emmanuel Datan](https://pubmed.ncbi.nlm.nih.gov/?term=Datan+E&cauthor_id=41941275)[1](https://pubmed.ncbi.nlm.nih.gov/41941275/#full-view-affiliation-1 "Department of Genetic Medicine, Institute for Cell Engineering, and Armstrong Oxygen Biology Research Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."),[Elizabeth E Wicks](https://pubmed.ncbi.nlm.nih.gov/?term=Wicks+EE&cauthor_id=41941275)[1](https://pubmed.ncbi.nlm.nih.gov/41941275/#full-view-affiliation-1 "Department of Genetic Medicine, Institute for Cell Engineering, and Armstrong Oxygen Biology Research Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."),[Ellen Cho](https://pubmed.ncbi.nlm.nih.gov/?term=Cho+E&cauthor_id=41941275)[3](https://pubmed.ncbi.nlm.nih.gov/41941275/#full-view-affiliation-3 "Johns Hopkins University , Baltimore, MD, USA."),[Sophia N Lee](https://pubmed.ncbi.nlm.nih.gov/?term=Lee+SN&cauthor_id=41941275)[3](https://pubmed.ncbi.nlm.nih.gov/41941275/#full-view-affiliation-3 "Johns Hopkins University , Baltimore, MD, USA."),[Chelsey Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+C&cauthor_id=41941275)[1](https://pubmed.ncbi.nlm.nih.gov/41941275/#full-view-affiliation-1 "Department of Genetic Medicine, Institute for Cell Engineering, and Armstrong Oxygen Biology Research Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."),[Ying-Jie Peng](https://pubmed.ncbi.nlm.nih.gov/?term=Peng+YJ&cauthor_id=41941275)[4](https://pubmed.ncbi.nlm.nih.gov/41941275/#full-view-affiliation-4 "Institute for Integrative Physiology, University of Chicago , Chicago, IL, USA."),[Dominic Dordai](https://pubmed.ncbi.nlm.nih.gov/?term=Dordai+D&cauthor_id=41941275)[1](https://pubmed.ncbi.nlm.nih.gov/41941275/#full-view-affiliation-1 "Department of Genetic Medicine, Institute for Cell Engineering, and Armstrong Oxygen Biology Research Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."),[Oscar Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+O&cauthor_id=41941275)[1](https://pubmed.ncbi.nlm.nih.gov/41941275/#full-view-affiliation-1 "Department of Genetic Medicine, Institute for Cell Engineering, and Armstrong Oxygen Biology Research Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."),[Daiana Drehmer](https://pubmed.ncbi.nlm.nih.gov/?term=Drehmer+D&cauthor_id=41941275)[1](https://pubmed.ncbi.nlm.nih.gov/41941275/#full-view-affiliation-1 "Department of Genetic Medicine, Institute for Cell Engineering, and Armstrong Oxygen Biology Research Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."),[Yajing Lyu](https://pubmed.ncbi.nlm.nih.gov/?term=Lyu+Y&cauthor_id=41941275)[1](https://pubmed.ncbi.nlm.nih.gov/41941275/#full-view-affiliation-1 "Department of Genetic Medicine, Institute for Cell Engineering, and Armstrong Oxygen Biology Research Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."),[Yongkang Yang](https://pubmed.ncbi.nlm.nih.gov/?term=Yang+Y&cauthor_id=41941275)[1](https://pubmed.ncbi.nlm.nih.gov/41941275/#full-view-affiliation-1 "Department of Genetic Medicine, Institute for Cell Engineering, and Armstrong Oxygen Biology Research Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA.")[5](https://pubmed.ncbi.nlm.nih.gov/41941275/#full-view-affiliation-5 "Johns Hopkins Kimmel Cancer Center , Baltimore, MD, USA."),[Walter Jackson 3rd](https://pubmed.ncbi.nlm.nih.gov/?term=Jackson+W+3rd&cauthor_id=41941275)[1](https://pubmed.ncbi.nlm.nih.gov/41941275/#full-view-affiliation-1 "Department of Genetic Medicine, Institute for Cell Engineering, and Armstrong Oxygen Biology Research Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA."),[Nanduri R Prabhakar](https://pubmed.ncbi.nlm.nih.gov/?term=Prabhakar+NR&cauthor_id=41941275)[4](https://pubmed.ncbi.nlm.nih.gov/41941275/#full-view-affiliation-4 "Institute for Integrative Physiology, University of Chicago , Chicago, IL, USA."),[Alexander D MacKerell Jr](https://pubmed.ncbi.nlm.nih.gov/?term=MacKerell+AD+Jr&cauthor_id=41941275)[2](https://pubmed.ncbi.nlm.nih.gov/41941275/#full-view-affiliation-2 "Department of Pharmaceutical Sciences, University of Maryland Computer-Aided Drug Design Center, University of Maryland School of Pharmacy, Baltimore, MD, USA."),[Gregg L Semenza](https://pubmed.ncbi.nlm.nih.gov/?term=Semenza+GL&cauthor_id=41941275)[1](https://pubmed.ncbi.nlm.nih.gov/41941275/#full-view-affiliation-1 "Department of Genetic Medicine, Institute for Cell Engineering, and Armstrong Oxygen Biology Research Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA.")[5](https://pubmed.ncbi.nlm.nih.gov/41941275/#full-view-affiliation-5 "Johns Hopkins Kimmel Cancer Center , Baltimore, MD, USA.")
+
+Affiliations
+
+*    PMID: **41941275**
+*    PMCID: [PMC13068195](https://pmc.ncbi.nlm.nih.gov/articles/PMC13068195/)
+*    DOI: [10.1084/jem.20251009](https://doi.org/10.1084/jem.20251009)
+
+## Targeting conserved domains of hypoxia-inducible factors for cancer therapy
+
+Shaima Salman et al. J Exp Med.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+Hypoxia-inducible factors 1 and 2 (HIF-1/2) function as master regulators of cancer progression by regulating angiogenesis, cancer stem cell specification, epithelial-mesenchymal transition, immune evasion, tissue invasion, and metastasis. We utilized computer-aided drug discovery and cell-based reporter assays to identify dual HIF-1/2 inhibitors, which bind directly to highly conserved domains of HIF-1α and HIF-2α, disrupt dimerization with HIF-1β, and trigger proteasomal degradation, thereby inhibiting HIF-1/2 transcriptional activity. These inhibitors and derivative compounds block growth and vascularization of breast, colorectal, head/neck, melanoma, and prostate tumors as monotherapy, and overcome resistance to anti-CTLA-4 or anti-PD-1 immunotherapy, with an aggregate complete response rate of over 50%, through reprogramming of the tumor immune cell microenvironment. Compared with the HIF-2-selective inhibitors belzutifan and PT2385, dual HIF-1/2 inhibitor 1.21S9N showed superior activity against breast and colorectal cancer models, respectively. PT2385 caused breathing abnormalities, whereas 1.21S9N did not. The drugs are orally bioavailable, and no safety concerns were identified even after extended or supratherapeutic dosing.
+
+© 2026 Salman et al.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Disclosures: S. Salman and A. Kumar reported a patent to PCT/US2025/035093 pending. A.D. MacKerell reported “other” from SilcsBio LLC outside the submitted work; in addition, A.D. MacKerell had a patent to WO 2026/006342 A1 pending. G.L. Semenza reported grants from the Armstrong Family Foundation and “other” from Bio-Techne–Novus Biologicals during the conduct of the study; in addition, G.L. Semenza had a patent to USPTO pending; he is cofounder of and holds equity in HIF Therapeutics, Inc., and this arrangement has been reviewed and approved by Johns Hopkins University in accordance with its conflict-of-interest policies. No other disclosures were reported.
+
+## Figures
+
+[![Image 1: None](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/d0797fe4737d/jem_20251009_ga.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/8bcbeec70b55/jem_20251009_ga.jpg)
+
+**Graphical abstract**
+
+[![Image 2: Figure 1.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/b6d17821c3c4/jem_20251009_fig1.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/79868ac847bc/jem_20251009_fig1.jpg)
+
+**Figure 1.**
+**Discovery and optimization of dual****HIFi****. (A)** Overview of the workflow is presented. **(B)** Crystal structure of HIF-2α–HIF-1β was analyzed using SILCS, which identified three potential ligand binding sites. **(C)** Models of site 1 and site 3 occupancy by SS1.21 and SS3.2, respectively, are shown. **(D)** Highly conserved domain organization of HIF-1α and HIF-2α is shown with location of candidate ligand binding sites indicated by red brackets. **(E)** Chemical structures of dual HIFi are shown. SS1.21 and derivative compound 1.21S9N bind to site 1, whereas SS3.2 and derivative compound 3.2.16 bind to site 3. **(F and G)** Expression of CA9 (F) and EPO (G) mRNA was analyzed in Hep3B cells incubated for 24 h at 20% or 1% O 2 with vehicle, or at 1% O 2 with the indicated HIF inhibitor at the indicated concentration (μM), and derived IC 50 values are shown. Results are presented as the mean ± SD (_n_ = 3). #P < 0.05 versus 1% O 2 (vehicle); ns, no significant difference versus 1% O 2 (vehicle); two-way ANOVA with Dunnett’s multiple comparisons post-test.
+
+[![Image 3: Figure S1.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/f2626a51d371/jem_20251009_figs1.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/d53605eb20b6/jem_20251009_figs1.jpg)
+
+**Figure S1.**
+**Molecular analyses****.** Related to Figs. 1, 2, and 3. **(A)** Hep3B cells were treated with 0–10 μM of the indicated dual HIF inhibitor (SS1.21, 1.21S9N, SS3.2, or 3.2.16) or HIF-2–selective inhibitor (PT2385 or PT2977) at 20% or 1% O 2 for 24 h, and RPL13A mRNA expression was determined by RT-qPCR assays. Data are presented as the mean + SD (_n_ = 3). ns, no significant difference versus vehicle-treated cells; two-way ANOVA with Dunnett’s multiple comparisons post-test. **(B)** Binding of acriflavine to fluorophore-tagged recombinant human HIF-1α was analyzed by MST. Data are presented as relative fluorescence at each concentration of added compound (nM; upper panel) and fraction bound with derived K d estimate (mean ± SD, _n_ = 4; lower panel). **(C)** Dual HIFi were characterized by: direct binding to purified HIF-1α using MST; inhibition of HIF-1α or HIF-2α dimerization with HIF-1β in cell lysates; and inhibition of HIF-1 target gene _CA9_ and HIF-2 target gene _EPO_ expression in hypoxic Hep3B cells. **(D)** HIF-α mRNA expression was determined by RT-qPCR assays. Data are presented as the mean +/− SD (_n_ = 3–6). ns, no significant difference versus vehicle-treated cells; two-way ANOVA with Dunnett’s multiple comparisons post-test.
+
+[![Image 4: Figure 2.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/3311c6318099/jem_20251009_fig2.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/29c6fa562abd/jem_20251009_fig2.jpg)
+
+**Figure 2.**
+**Biophysical and molecular target engagement of dual****HIFi****. (A and B)** MST of fluorophore-tagged recombinant human HIF-1α following the addition of 1.21S9N (A) or 3.2.16 (B) was performed. Data are presented as relative fluorescence at each concentration of added compound (nM; upper panels) and fraction bound with derived K d estimates (mean ± SD, _n_ = 4; lower panels). **(C–F)** Lysates of Hep3B cells with OE of HIF-1α or HIF-2α were treated with HIFi and then incubated with lysate of cells with OE of HIF-1β. Concentration-dependent inhibition of HIF-1α–HIF-1β (C and E) or HIF-2α–HIF-1β (D and F) complex formation by 1.21S9N (C and D) or 3.2.16 (E and F) was analyzed by immunoprecipitation for HIF-α and immunoblot assay for HIF-1β. Representative Co-IP (upper panels) and fraction of HIF-1β bound (normalized to vehicle) with derived IC 50 values (mean ± SD, _n_ = 3; lower panels) are shown. OE, overexpression. Source data are available for this figure: SourceData F2.
+
+[![Image 5: Figure 3.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/676e20803195/jem_20251009_fig3.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/c3a2d53220ea/jem_20251009_fig3.jpg)
+
+**Figure 3.**
+**SS1.21 and SS3.2 trigger degradation of HIF-1α and HIF-2α to inhibit HIF target gene expression. (A and B)** Hep3B cells were treated with 10-μM SS1.21 (A) or SS3.2 (B) at 20% or 1% O 2 for 24 h, and immunoblot assays were performed. **(C)** Cells transfected with vector encoding HIF-1α-DM (P402A/P564A) were treated with vehicle, 10-μM SS1.21 (top), or SS3.2 (bottom) for 6 h. **(D–G)** Cells were treated with vehicle or 1 mM DMOG and vehicle or either 10-μM SS1.21 (D and E) or SS3.2 (F and G) for 6 h (D and F) or 24 h (E and G). **(H and I)** Cells were treated with 5-μM SS1.21 (H) or SS3.2 (I) in the presence of vehicle (V), 10-μM MG132, or 10-nM bafilomycin (Baf) at 20% or 1% O 2 for 6 h. **(J and K)** Cells were treated with 5-μM SS1.21 (J) or SS3.2 (K) with V or 500-nM TAK243 for 6 h. **(L and M)** Cells were treated with 5-μM SS1.21 (L) or SS3.2 (M) with V or MG132, and immunoprecipitation was performed using an anti-HIF-1β antibody. Inputs and immunoprecipitates were subjected to immunoblot assays. **(N and O)** FL HIF-1α and deletion mutants (ΔbHLH and ΔPAS; N) were transiently expressed in Hep3B cells, which were treated with 5-μM SS1.21 (O, left) or SS3.2 (O, right). **(P)** IC 50 values are shown for inhibition of target gene expression in cancer cells treated with indicated HIF inhibitor. All immunoblot assays were performed two to four times, and representative results are shown. See Fig. S2 A for data used to calculate IC 50 values. Source data are available for this figure: SourceData F3.
+
+[![Image 6: Figure S2.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/d87d44fde8d0/jem_20251009_figs2.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/3066b1112003/jem_20251009_figs2.jpg)
+
+**Figure S2.**
+**HIFi concentration–dependent in vitro and dose-dependent in vivo effects. (A)** To calculate IC 50 values shown in Fig. 3 P, cancer cell lines were exposed to vehicle or HIFi at the indicated concentrations for 24 h at 1% O 2, and expression of mRNA encoding the indicated HIF target gene mRNA was analyzed by RT-qPCR (mean + SD, _n_ = 3). **(B)** Dose escalation study of HIFi SS1.21 or SS3.2 was performed. Two IP doses (indicated in mg/kg) 12 h apart were administered (_n_ = 3 mice each). Doses marked in green were well tolerated, whereas doses marked in pink led to decreased physical activity and/or unsteady gait in the first hour after administration. **(C)** Mice were administered vehicle or HIFi for 15 days as indicated, and BW was measured (mean + SD, _n_ = 3) every 2–3 days. **(D)** Dose escalation study of HIFi 1.21S9N or 3.2.16 was performed. Two IP doses (indicated in mg/kg) 12 h apart were administered (_n_ = 3 mice each). Doses marked in green were well tolerated, whereas doses marked in pink led to decreased physical activity and/or unsteady gait in the first hour after administration. **(E)** BW was measured after the second dose (mean + SD, _n_ = 3).
+
+[![Image 7: Figure 4.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/a1b8002105dc/jem_20251009_fig4.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/899e12d9927d/jem_20251009_fig4.jpg)
+
+**Figure 4.**
+**SS1.21 and 3.2.16 inhibit colorectal cancer growth. (A)** Nude mice bearing 150-mm 3 HCT116 xenografts were treated with vehicle or SS1.21, and tumor growth was monitored (mean + SD, _n_ = 5); *P < 0.05 by two-way ANOVA. **(B)** Tumors were harvested 4 h after the last dose, and immunoblot assays were performed. **(C)** Mice were injected subcutaneously with HCT116 cells and, when a tumor was palpable, were treated with vehicle, Oxa, SS1.21, or Oxa + SS1.21, and tumor volumes were determined (mean + SD, _n_ = 5); *P < 0.05 by two-way ANOVA. **(D)** Balb/c mice bearing 100-mm 3 CT26 tumors were treated with vehicle or SS1.21, and tumor volumes were determined (mean + SD, _n_ = 5); *P < 0.05 by two-way ANOVA with the Bonferroni post-test. **(E)** Tumors were harvested 4 h after the last dose, and immunoblot assays were performed. **(F)** Tumor sections from mice treated with vehicle or SS1.21 were analyzed by immunohistochemistry using anti-CD31 antibody. **(G)** C57BL/6 mice were injected with MC38 cells and treated with vehicle, α-CTLA-4 antibody (200 μg Q3D), 3.2.16 (40 mg/kg BID), or both. **(H)** Kaplan–Meier analysis of mouse survival is shown. **(I)** Mean (top panel) and individual (bottom panels) tumor growth are presented. …P < 0.0001 versus vehicle, #P < 0.0001 versus vehicle, **P < 0.0001 versus α-CTLA-4 by two-way ANOVA with Tukey’s post-test. The number of mice with a CR is shown. Scale bar, 500 µm. Oxa, oxaliplatin. Source data are available for this figure: SourceData F4.
+
+[![Image 8: Figure S3.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/836e51dc2833/jem_20251009_figs3.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/614992ec44dd/jem_20251009_figs3.jpg)
+
+**Figure S3.**
+**CRC, HNSCC, and BrCa tumor models.** Related to Figs. 4 and 5. **(A–C)** Additional data from the HCT116 tumor model, including mouse BW (A and B) and final tumor weight (C), are shown. Data are presented as the mean ± SD (_n_ = 5) and analyzed by one-way ANOVA with the Sidak multiple comparisons. **P < 0.01; ***P < 0.001. **(D****–****F)** Additional data from the CT26 model (presented in Fig. 4. D–F) are shown including: mouse BW (D); HIF-2α immunoblot assay of tumor lysates (E); and CD31+ vessel area (square pixels per field) in tumor sections from mice treated with vehicle or SS1.21 (10 mg/kg QD) (F). Data are presented as the mean ± SD. **P < 0.01 by Student’s t test. **(G–I)** HNSCC tumor models were studied: FaDu human HNSCC xenografts in nude mice (G) and syngeneic SCC-VII tumors in C3H mice (H). Mice were treated with vehicle or SS1.21 (10 or 20 mg/kg BID IP × 5 days). Tumor volumes are presented as the mean ± SD (_n_ = 5). **P < 0.01, two-way ANOVA with Tukey’s post-test; ns, not significant. Representative hematoxylin-and-eosin–stained FaDu tumor sections from mice treated with vehicle or SS1.21 (20 mg/kg) are shown illustrating resection margins (I). **(J)** Mice bearing BT-474 human orthotopic breast tumors were treated with vehicle or SS3.2 (10 mg/kg BID IP×7 days). Data are presented as the mean ± SD (_n_ = 5). *P < 0.05 by two-way ANOVA. **(K)** BT-474 tumor lysates were subjected to immunoblot assays using antibodies for HIF-1α, HIF-2α, HIF-1β, and β-actin. **(L–N)** Additional data from the EMT6 model, including mouse BW (L); results of rechallenge experiment in which control naïve mice or previously treated, tumor-free mice received an injection of tumor cells (M); and tumor growth in mice treated with vehicle, 1.21S9N (40 mg/kg BID), or 3.2.16 (40 mg/kg BID) with data presented as the mean ± SD (_n_ = 5); *P <0.05 by two-way ANOVA with Tukey’s post-test (N). RNA and protein extracted from these tumors were analyzed in Fig. 5, I and J, respectively. **(O)** Primary cancer cells from _MMTV-PyMT_ mammary tumors were treated with vehicle or the indicated HIFi at 20% or 1% O 2 for 24 h, and Adm mRNA expression was analyzed by RT-qPCR. Data are presented as the mean ± SD (_n_ = 3). *P < 0.05, **P < 0.01 by two-way ANOVA with Dunnett’s post-test. Scale bar, 500 µm. Source data are available for this figure: SourceData FS3.
+
+[![Image 9: Figure 5.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/520b29ae43f5/jem_20251009_fig5.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/e723e2501660/jem_20251009_fig5.jpg)
+
+**Figure 5.**
+**Effect of HIFi therapy in BrCa models. (A)** EMT6 cells were injected into the MFP of Balb/c mice, which were treated by IP injection of: vehicle or IgG2a isotype control antibody (200 μg Q3D); α-CTLA-4 (200 μg Q3D); 1.21S9N or 3.2.16 (40 mg/kg BID); or α-CTLA-4 + HIFi. **(B)** Kaplan–Meier analysis of mouse survival is shown. **(C-H)** For each treatment group, individual tumor growth curves are shown. The number of mice in each group that achieved a durable CR on day 100 (after tumor rechallenge on day 70) is indicated. **(I and J)** Mice with 150-mm 3 EMT6 tumors in the MFP were treated with vehicle or either 1.21S9N or 3.2.16 (40 mg/kg BID) for 5 days, tumors were harvested 4 h after the last dose, and mRNA expression (I) and protein expression (J) were analyzed by RT-qPCR (mean + SD, _n_ = 5; *P < 0.05 by one-way ANOVA with the Bonferroni post-test) and immunoblot assays, respectively. **(K and L)** Tumor growth curves for individual mice (K) and survival (L) of _MMTV-PyMT_ mice treated by OG administration of either vehicle or 1.21S9N (60 mg/kg BID) for 6 wk starting on day 53 of life (_n_ = 5 mice per group). Source data are available for this figure: SourceData F5.
+
+[![Image 10: Figure 6.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/6d95d108dcf9/jem_20251009_fig6.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/91b3a313f94c/jem_20251009_fig6.jpg)
+
+**Figure 6.**
+**Effect of HIFi therapy in melanoma and prostate cancer models. (A)** C57BL/6 mice were injected subcutaneously with B16F10 melanoma cells and treated with vehicle, HIFi (1.21S9N or 3.2.16), α-CTLA-4, or HIFi + α-CTLA-4. **(B)** Mean tumor volumes are shown (mean + SD, _n_ = 5). #P < 0.05 versus vehicle, **P < 0.005 versus α-CTLA-4 by two-way ANOVA with Tukey’s post-test. **(C)** Kaplan–Meier survival curves are shown. **(D)** C57BL/6 mice were injected with DX1 prostate cancer cells and treated with vehicle, HIFi, α-CTLA-4, or HIFi + α-CTLA-4. **(E)** Mean tumor volumes are shown (mean + SD, _n_ = 5). ≠P < 0.05 versus vehicle, #P <0.05 versus vehicle, **P < 0.05 versus α-CTLA-4 by two-way ANOVA with Tukey’s post-test. **(F)** Kaplan–Meier survival curves are shown.
+
+[![Image 11: Figure S4.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/1e976cd797f1/jem_20251009_figs4.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/8b40c723765e/jem_20251009_figs4.jpg)
+
+**Figure S4.**
+**Melanoma, prostate, and breast tumor models.** Related to Figs. 6 and 7. **(A–L)** B16F10 melanoma (A–F) and DX1 prostate cancer (G–L) individual tumor growth curves under indicated treatments are shown. **(M)** Mice bearing DX1 tumors were treated with vehicle or HIFi (40 mg/kg BID IP) for 5 days. Tumor volumes are presented as the mean ± SD (_n_ = 5); *P < 0.05 versus vehicle by two-way ANOVA with Tukey’s post-test. **(N)** RNA was isolated from DX1 tumors 4 h after the last treatment and analyzed by RT-qPCR (mean + SD, _n_ = 5). *P < 0.05 by one-way ANOVA with the Bonferroni post-test. **(O)** E0771 tumor volume measurements are shown (mean + SD, _n_ = 5). **P < 0.01 by two-way ANOVA with Tukey’s post-test. **(P)** E0771 final tumor weights are presented as the mean ± SD, _n_ = 5. **P < 0.01; ****P < 0.0001; ns by one-way ANOVA with Dunnett’s post-test. **(Q)** E0771 tumor volumes (mean ± SD) in rechallenged versus naïve mice are shown. **(R)** Gating strategy for the flow cytometry data presented in Fig. 7, G–L is shown.
+
+[![Image 12: Figure 7.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/091cc55e3ef1/jem_20251009_fig7.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/2eb91d17c030/jem_20251009_fig7.jpg)
+
+**Figure 7.**
+**Effect of treatment with 3.2.16 in the E0771 BrCa model. (A)** C57BL/6 mice received an injection of E0771 cells into the MFP and were treated with vehicle or IgG2a, α-CTLA-4, 3.2.16, or α-CTLA-4 + 3.2.16. **(B–E)** For each treatment group, individual tumor growth curves are presented. The number of mice in each group that achieved a CR on day 27 is indicated. **(F)** Tumors from mice treated with vehicle or 3.2.16 were analyzed for mRNA expression, shown as the mean + SD (_n_ = 5). *P < 0.05 by Student’s _t_ test. **(G-L)** Mice with 150-mm 3 E0771 tumors in the MFP were treated with vehicle, α-CTLA-4, 3.2.16, or α-CTLA-4 + 3.2.16 (combination) and analyzed by flow cytometry. The percentage of CD45+ TILs (G), CD45+CD3+ T cells (H), CD45+CD3-NK1.1+ IFNγ+ NK cells (I), CD45+CD11b+ F4/80+ TAMs (J), CD45+CD11b+Ly6G+ MDSCs (K), and CD45−CD3-PDL1+ tumor cells (L) were determined. Data are presented as individual values and mean (_n_ = 5). *P < 0.05; **P < 0.01; ***P < 0.001; ****P < 0.0001 by one-way ANOVA with Dunnett’s post-test. TILs, tumor-infiltrating leukocytes.
+
+[![Image 13: Figure 8.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/25a238a45d14/jem_20251009_fig8.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/a701b36d074e/jem_20251009_fig8.jpg)
+
+**Figure 8.**
+**CR and survival analysis. (A)** Aggregate CR in mice with transplanted tumors treated with ICB or with ICB + HIFi is presented. **(B)** Aggregate Kaplan–Meier survival curves for mice treated with vehicle, ICB, HIFi, or ICB + HIFi. ****P < 0.0001 versus ICB by the log-rank test. **(C)** Aggregate CR rates. Mice were treated with ICB alone (α-CTLA-4 [C] or α-PD-1 [P]) or in combination (Comb) with HIFi (1.21S9N [1] or 3.2.16 [3]) across six mouse cancer models.
+
+[![Image 14: Figure S5.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/3cc30bd68c66/jem_20251009_figs5.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/f1383bad62f8/jem_20251009_figs5.jpg)
+
+**Figure S5.**
+**Analysis of mice treated with 1.21S9N or 3.2.16.** Related to Fig. 8. (**A and B)** Nude mice bearing HCT116 tumors were administered vehicle or HIFi (80 mg/kg OG BID). BW (A) and tumor volume (B) were measured. Data are presented as the mean ± SD, _n_ = 5. ***P < 0.001 versus vehicle by two-way ANOVA with Dunnett’s multiple comparisons. **(C)** Lysates were prepared from tumors collected 8, 16, or 24 h after the last dose of HIFi or vehicle and probed for HIF-1α and β-actin expression by immunoblot assay. **(D)** Plasma concentration of HIFi (mean ± SD, _n_ = 1-3 mice each) was measured at the indicated time (hours) following IP or OG administration of a single dose. **(E)** CT26 cells were incubated for 24 h at 20% O 2 with vehicle or at 1% O 2 with vehicle, 1.21S9N, or PT2385. RNA was isolated and analyzed by RT-qPCR using primers specific for Ca9 and Adm. Data are presented as the mean ± SD (_n_ = 3). ****P < 0.0001 versus vehicle–1% O 2, by two-way ANOVA with Dunnett’s multiple comparisons. **(F–J)** Individual CT26 tumor growth curves are shown for data presented in Fig. 9 A. Source data are available for this figure: SourceData FS5.
+
+[![Image 15: Figure 9.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/24763fede1dc/jem_20251009_fig9.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/a328c189ff99/jem_20251009_fig9.jpg)
+
+**Figure 9.**
+**Effect of dual HIF-1/2 inhibition compared to selective HIF-2 inhibition. (A)** Balb/c mice bearing CT26 tumors were treated by OG administration of vehicle, PT2385 (60 mg/kg QD), 1.21S9N (60 mg/kg QD) or by IP injection of α-PD-1 antibody (200 mg Q3D) in combination with either PT2385 or 1.21S9N, and tumor volumes were determined (mean + SD, _n_ = 5). ‡‡‡‡P < 0.0001 for PT2385 vs vehicle; ****P < 0.0001 for 1.21S9N vs vehicle or PT2385; ####P < 0.0001 for 1.21S9N + α-PD-1 vs PT2385 + α-PD-1 by two-way ANOVA with Tukey's post-test. **(B)** Kaplan-Meier analysis of survival is shown. **(C)** Tumors were harvested 4 hours after the last dose for analysis of mRNA expression. Results are presented as mean ± SD (_n_ = 5). *P < 0.05; **P < 0.01 vs vehicle; one-way ANOVA with Bonferroni post-test. **(D)** Tumor sections were analyzed by immunohistochemistry using anti-CD31 antibody. Results are presented as mean ± SD (_n_ = 3). *P < 0.05; **P < 0.01 vs vehicle; one-way ANOVA with Sidak post-test. Scale bar, 500 µm. **(E and F)** Breathing was monitored in mice pre- and post-treatment with vehicle, 1.21S9N or PT2385 (30 mg/kg BID OG x 3 doses) by whole body plethysmography and representative ventilatory tracings are shown (E). The apnea index (events per hour) is plotted for each treatment group (mean ± SEM, _n_ = 5 mice per group). ***P < 0.001 vs vehicle by two-way ANOVA with Holm-Sidak post-test (F).
+
+[![Image 16: Figure 10.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/b0159536b599/jem_20251009_fig10.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/5e4f/13068195/ec88a4d21c58/jem_20251009_fig10.jpg)
+
+**Figure 10.**
+**Toxicology studies of dual****HIFi****. (A)** Mice were administered vehicle or HIFi (1.21S9N or 3.2.16) at the indicated dose (in mg/kg OG) every 12 h for two doses followed by daily dose escalation. **(B)** Mice were administered vehicle or HIFi (180 mg/kg OG BID) for 14 days. BW was measured every 2–3 days (mean + SD, _n_ = 3 mice per group). **(C)** Mice were treated with vehicle or either 1.21S9N or 3.2.16 (60 mg/kg OG BID) for 40 days. BW (mean ± SD; _n_ = 5 mice) was measured every 2–3 days. **(D–F)** BUN (D), serum albumin (E), and serum AST (F) levels were determined on day 40. Data are presented as individual values and mean (_n_ = 5); ns, no significant difference, one-way ANOVA with the Sidak post-test. **(G)** Mice were euthanized on day 40, and hematoxylin-and-eosin–stained sections of major organs were prepared. Representative images are shown. Scale bar, 100 μm.
+
+## Similar articles
+
+*   [Targeting HIF-2α in renal cell carcinoma: Expanding upon belzutifan.](https://pubmed.ncbi.nlm.nih.gov/41632099/)
+
+Rodriguez M, Qin Q, Tambar UK, Brugarolas J.Rodriguez M, et al.Cancer. 2026 Feb 1;132(3):e70239. doi: 10.1002/cncr.70239.Cancer. 2026.PMID: 41632099 Review. 
+*   [ARNT-dependent HIF-2 transcriptional activity is not sufficient to regulate downstream target genes in neuroblastoma.](https://pubmed.ncbi.nlm.nih.gov/31945318/)
+
+Persson CU, von Stedingk K, Fredlund E, Bexell D, Påhlman S, Wigerup C, Mohlin S.Persson CU, et al.Exp Cell Res. 2020 Mar 15;388(2):111845. doi: 10.1016/j.yexcr.2020.111845. Epub 2020 Jan 13.Exp Cell Res. 2020.PMID: 31945318 
+*   [Cyclin-dependent kinase inhibitor, P276-00, inhibits HIF-1α and induces G2/M arrest under hypoxia in prostate cancer cells.](https://pubmed.ncbi.nlm.nih.gov/22083267/)
+
+Manohar SM, Padgaonkar AA, Jalota-Badhwar A, Rao SV, Joshi KS.Manohar SM, et al.Prostate Cancer Prostatic Dis. 2012 Mar;15(1):15-27. doi: 10.1038/pcan.2011.51. Epub 2011 Nov 15.Prostate Cancer Prostatic Dis. 2012.PMID: 22083267 
+*   [Targeting HIF-2α in glioblastoma reshapes the immune infiltrate and enhances response to immune checkpoint blockade.](https://pubmed.ncbi.nlm.nih.gov/40095115/)
+
+Espinoza FI, Tankov S, Chliate S, Pereira Couto J, Marinari E, Vermeil T, Lecoultre M, El Harane N, Dutoit V, Migliorini D, Walker PR.Espinoza FI, et al.Cell Mol Life Sci. 2025 Mar 17;82(1):119. doi: 10.1007/s00018-025-05642-8.Cell Mol Life Sci. 2025.PMID: 40095115 Free PMC article. 
+*   [Advances in inhibition of protein-protein interactions targeting hypoxia-inducible factor-1 for cancer therapy.](https://pubmed.ncbi.nlm.nih.gov/30819620/)
+
+Li J, Xi W, Li X, Sun H, Li Y.Li J, et al.Bioorg Med Chem. 2019 Apr 1;27(7):1145-1158. doi: 10.1016/j.bmc.2019.01.042. Epub 2019 Feb 2.Bioorg Med Chem. 2019.PMID: 30819620 Review. 
+
+## References
+
+1.       1.    Abraham, M.J., Murtola T., Schulz R., Páll S., Smith J.C., Hess B., and Lindahl E.. 2015. GROMACS: High performance molecular simulations through multi-level parallelism from laptops to supercomputers. SoftwareX. 1-2:19–25. 10.1016/j.softx.2015.06.001 - [DOI](https://doi.org/10.1016/j.softx.2015.06.001)
+
+2.       1.    Alves, R., Goncalves A.C., Rutella S., Almeida A.M., De Las Rivas J., Trougakos I.P., and Sarmento Ribeiro A.B.. 2021. Resistance to tyrosine kinase inhibitors in chronic myeloid leukemia-from molecular mechanisms to clinical relevance. Cancers (Basel). 13:4820. 10.3390/cancers13194820 - [DOI](https://doi.org/10.3390/cancers13194820) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8508378/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/34638304/)
+
+3.       1.    Attalla, S., Taifour T., Bui T., and Muller W.. 2021. Insights from transgenic mouse models of PyMT-induced breast cancer: Recapitulating human breast cancer progression in vivo. Oncogene. 40:475–491. 10.1038/s41388-020-01560-0 - [DOI](https://doi.org/10.1038/s41388-020-01560-0) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7819848/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/33235291/)
+
+4.       1.    Baell, J.B., and Holloway G.A.. 2010. New substructure filters for removal of pan assay interference compounds (PAINS) from screening libraries and for their exclusion in bioassays. J. Med. Chem. 53:2719–2740. 10.1021/jm901137j - [DOI](https://doi.org/10.1021/jm901137j) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/20131845/)
+
+5.       1.    Bailey, C.M., Liu Y., Liu M., Du X., Devenport M., Zheng P., Liu Y., and Wang Y.. 2022. Targeting HIF-1alpha abrogates PD-L1-mediated immune evasion in tumor microenvironment but promotes tolerance in normal tissues. J. Clin. Invest. 132:e150846. 10.1172/JCI150846 - [DOI](https://doi.org/10.1172/jci150846) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9057613/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/35239514/)
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/pmid/41941275/)
+    *   [Silverchair Information Systems](https://rupress.org/jem/article-lookup/doi/10.1084/jem.20251009)
+
+*   ### Medical
+
+    *   [MedlinePlus Health Information](https://medlineplus.gov/cancer.html)
