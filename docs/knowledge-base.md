@@ -5,6 +5,48 @@
 
 ## 最近论文
 
+- [Parallel algorithms for phylogenetic inference under a structured coalescent approximation.](#/202605/05/202605/05/42048453-parallel-algorithms-for-phylogenetic-inference-under-a-structured-coalescent-approximation)
+  - TLDR：针对病原体时空传播追踪中结构化溯祖模型（BASTA）计算量随地理区域和序列数量剧增的问题，本研究通过重构似然函数算法，实现了矩阵指数计算与似然向量更新的并行化。该方法在登革热和H5N1禽流感数据集上实现了10至26倍的加速，显著提升了大规模系统发育地理学的分析效率，为实时疫情监测提供了高性能工具。
+  - Tags：`query:pathoai`
+- [VUStruct: A compute pipeline for high throughput and personalized structural biology.](#/202605/05/202605/05/42081565-vustruct-a-compute-pipeline-for-high-throughput-and-personalized-structural-biology)
+  - TLDR：针对罕见遗传病中意义不明变异（VUS）难以解读的问题，VUStruct 建立了一个高性能计算流水线，将基因变异映射到蛋白质 3D 结构上。该系统集成了能量稳定性评估、空间聚类分析及机器学习预测等多种工具，能够识别变异对蛋白质折叠、结合界面及翻译后修饰的影响。通过对 175 个临床病例的分析，VUStruct 成功辅助了临床决策并揭示了致病机制，为精准医疗和生化研究提供了高效的结构生物学分析平台。
+  - Tags：`query:bioinfo`
+- [Sex-specific microbial and tryptophan signatures of depression implicate archaeal methanogens and indole-3-acetic acid only in women.](#/202605/05/202605/05/42082522-sex-specific-microbial-and-tryptophan-signatures-of-depression-implicate-archaeal-methanogens-and-indole-3-acetic-acid-only-in-women)
+  - TLDR：抑郁症在性别上存在显著差异，但其背后的肠道菌群与代谢物机制尚不明确。本研究通过分析大规模人群队列的血浆色氨酸代谢物、抑郁评分及肠道微生物组，利用机器学习模型发现：在女性中，抑郁程度与产甲烷古菌（如史氏甲烷短杆菌）及吲哚-3-乙酸（IAA）代谢密切相关，而男性则表现出不同的代谢特征。这一发现揭示了抑郁症发病机制的性别二元性，为精准医疗提供了新靶点。
+  - Tags：`query:pathoai`
+- [β-lactamase genes in clinical isolates of Capnocytophaga canimorsus and description of a novel class D β-lactamase, OXA-1422.](#/202605/05/202605/05/42082786--lactamase-genes-in-clinical-isolates-of-capnocytophaga-canimorsus-and-description-of-a-novel-class-d--lactamase-oxa-1422)
+  - TLDR：犬咬二氧化碳嗜纤维菌（C. canimorsus）是导致严重人畜共患感染的病原体，但其耐药机制研究不足。本研究通过基因组筛选、混合测序及重组表达，在临床分离株中首次发现了 blaOXA-347 基因并鉴定出新型 D 类 β-内酰胺酶 OXA-1422。结果证实这些染色体编码的酶能显著提高菌株对多种 β-内酰胺类抗生素的耐药性，为该病原体的临床用药和耐药监测提供了关键依据。
+  - Tags：`query:seqai`
+- [Gingipain proteases from the bacterium](#/202605/05/202605/05/42060722-gingipain-proteases-from-the-bacterium)
+  - TLDR：本研究探讨了口腔共生菌牙龈卟啉单胞菌对呼吸道病毒感染的影响。研究发现，尽管该菌会降解干扰素并抑制宿主抗病毒免疫，但其分泌的牙龈蛋白酶（gingipains）能直接切割RSV和SeV病毒表面的包膜糖蛋白，从而使其丧失感染能力。这一发现揭示了微生物组在调节病毒易感性中的复杂双重作用，证明了细菌蛋白酶在预防严重呼吸道感染中的潜在保护价值。
+  - Tags：`query:pathoai`
+- [Significance and challenges in dissecting cancer-bacteriome interactions.](#/202605/05/202605/05/42082772-significance-and-challenges-in-dissecting-cancer-bacteriome-interactions)
+  - TLDR：癌症研究正逐渐关注人体细菌群落的影响，但目前缺乏研究癌细胞与复杂菌群整体相互作用的实验手段。本文综述了现有的研究方法，分析了识别致癌或抑癌细菌及理解其对宿主细胞影响的挑战，并提出了跨学科的研究路径。这一探索旨在为开发全新的整体细菌疗法奠定基础，为难治性癌症提供新的治疗思路。
+  - Tags：`query:pathoai`
+- [Gut microbiota and diet in colorectal cancer: Converging determinants of carcinogenesis.](#/202605/05/202605/05/42083308-gut-microbiota-and-diet-in-colorectal-cancer-converging-determinants-of-carcinogenesis)
+  - TLDR：结直肠癌的发病受饮食与肠道微生物群的共同驱动。本文综述了饮食如何重塑微生物生态并调节其毒力，进而影响宿主的代谢与炎症通路。研究指出，西式饮食会诱导促炎环境和基因毒性生态位，而高纤维饮食则能产生抗炎代谢物。该综述为整合饮食与微生物干预手段以预防和治疗结直肠癌提供了重要的理论支撑与研究方向。
+  - Tags：`query:pathoai`
+- [Multi-omics profiling of fungal balls in chronic pulmonary aspergillosis patients reveals microbiome dynamics and metabolic adaptations.](#/202605/05/202605/05/42084394-multi-omics-profiling-of-fungal-balls-in-chronic-pulmonary-aspergillosis-patients-reveals-microbiome-dynamics-and-metabolic-adaptations)
+  - TLDR：针对慢性肺曲霉病中真菌球功能生物学机制不明的问题，本研究通过对61例患者样本进行多组学集成分析，揭示了真菌球并非单纯的真菌聚集体，而是由烟曲霉与铜绿假单胞菌等细菌构成的跨界多微生物生物膜。研究发现了微生物间的代谢互补、铁元素竞争及化学对抗，并指出宿主免疫反应存在中性粒细胞过度激活且无法平息的失调现象，为针对病原共生体开发新型疗法提供了理论基础。
+  - Tags：`query:bioinfo`
+- [Altered crosstalk of bacterial lipopolysaccharide with immune cells in colorectal cancer compared to paired adjacent intestinal tissue.](#/202605/05/202605/05/42084500-altered-crosstalk-of-bacterial-lipopolysaccharide-with-immune-cells-in-colorectal-cancer-compared-to-paired-adjacent-intestinal-tissue)
+  - TLDR：结直肠癌（CRC）伴随肠道菌群失调和屏障受损，但细菌与免疫细胞的精确空间交互尚不明确。本研究利用3D光片成像、空间转录组和成像质谱流式技术，对比分析了患者肿瘤与癌旁组织中细菌脂多糖（LPS）的分布。结果发现，相比癌旁组织，CRC肿瘤中与LPS结合的巨噬细胞和树突状细胞减少，而中性粒细胞及其与LPS的结合显著增加。这一发现揭示了肿瘤微环境中宿主-微生物交互模式的改变，为理解肠道免疫逃逸提供了新视角。
+  - Tags：`query:seqai`
+- [Metagenomic insights into microbial community, antibiotic resistance genes, and virulence factor in Saryu River water, India.](#/202605/05/202605/05/42084683-metagenomic-insights-into-microbial-community-antibiotic-resistance-genes-and-virulence-factor-in-saryu-river-water-india)
+  - TLDR：针对印度萨里尤河中抗生素和重金属污染导致的耐药性传播问题，本研究采用高通量宏基因组测序技术，分析了河水中的微生物群落结构、抗生素耐药基因（ARGs）、金属耐药基因（MRGs）及毒力因子。研究发现利福平、四环素等耐药基因高度富集，且蓝细菌门为优势菌群，揭示了河流生态系统中耐药性扩散的潜在风险，为环境治理和风险评估提供了关键基准数据。
+  - Tags：`query:seqai`
+- [Interpretable miRNA-based prediction model for early detection of pancreatic cancer: Development and cross-platform validation.](#/202605/05/202605/05/42081539-interpretable-mirna-based-prediction-model-for-early-detection-of-pancreatic-cancer-development-and-cross-platform-validation)
+  - TLDR：针对胰腺癌早期诊断困难且现有miRNA标志物缺乏跨平台验证的问题，本研究利用801个样本构建了一个基于20个miRNA特征的随机森林诊断模型。通过引入SHAP分析增强模型可解释性，该模型在训练集和多个独立外部验证集（涵盖RNA-seq和qRT-PCR平台）中均表现出稳定的诊断效能（AUC 0.78-0.87），为胰腺癌的早期筛查提供了一个具备跨平台鲁棒性和透明度的数字化方案。
+  - Tags：`query:bioinfo`
+- [Rheumatic Digital Twin: Proposed Machine Learning-Based Multimodal Framework to Inform Clinical Decision-Making.](#/202605/05/202605/05/42081548-rheumatic-digital-twin-proposed-machine-learning-based-multimodal-framework-to-inform-clinical-decision-making)
+  - TLDR：风湿性疾病具有高度异质性和长期演变特征，传统的单次快照式评估难以捕捉其复杂病程。该研究提出了“风湿数字孪生”框架，通过整合电子病历、影像和组学等多模态数据，利用Transformer架构对患者病史进行序列建模。该框架旨在通过寻找临床特征相似的“近邻”患者，实现对疾病进展和治疗反应的精准预测，为临床决策提供动态、个性化的参考。
+  - Tags：`query:bioinfo`
+- [Noninvasive molecular subtyping of breast cancer using multimodal ultrasound spatiotemporal transformer.](#/202605/05/202605/05/42082579-noninvasive-molecular-subtyping-of-breast-cancer-using-multimodal-ultrasound-spatiotemporal-transformer)
+  - TLDR：乳腺癌分子分型对制定治疗方案至关重要，但目前依赖有创活检，且常规超声缺乏反映肿瘤生物学特征的动态信息。本研究开发了MUST-Sub模型，利用时空Transformer架构融合静态B超形态与造影超声血流动力学特征，在多中心验证中实现了最高0.94的分类AUC。该方法不仅在性能上优于单模态模型，还提取出与肿瘤增殖指数相关的可解释生物标志物，为无创术前分型提供了新工具。
+  - Tags：`query:bioinfo`
+- [Implications for distancing measures on in-person school and work attendance from Italian post-pandemic social contact data.](#/202605/05/202605/05/42082766-implications-for-distancing-measures-on-in-person-school-and-work-attendance-from-italian-post-pandemic-social-contact-data)
+  - TLDR：针对后疫情时代社交模式的变化，本研究通过2022-2023年意大利的两轮线上调查，收集了代表性的社交接触数据，并利用广义线性混合模型和年龄结构模型评估了远程办公与在线学习对传染病传播的影响。结果显示，到校或到岗显著增加了接触频率，结合远程办公与中小学远程教学可使基本传染数R降低约23.2%，为未来应对呼吸道传染病的精准防控政策提供了量化依据。
+  - Tags：`query:pathoai`
 - [Computer-Aided Discovery of Small-Molecule Inhibitors of Pathogenic New World Arenavirus Entry and Replication.](#/202605/04/202605/04/42077170-computer-aided-discovery-of-small-molecule-inhibitors-of-pathogenic-new-world-arenavirus-entry-and-replication)
   - TLDR：针对致病性新世界沙状病毒（NWA）利用人类转铁蛋白受体1（hTfR1）入侵细胞的机制，研究人员通过针对MACV GP1-hTfR1界面的结构虚拟筛选，从商业化合物库中鉴定出两种具有微摩尔活性的骨架。通过类似物优化获得的化合物22f展现出跨病毒种类的广谱抑制活性，虽在小鼠模型中未表现出保护效力，但为开发新型抗沙状病毒药物提供了重要起点。
   - Tags：`query:pathoai`
@@ -562,46 +604,4 @@
   - Tags：`query:seqai`
 - [[Differential analysis of gut microbiome in patients with periprosthetic joint infection, aseptic failure, and osteoarthritis].](#/202604/15/202604/15/41981426-differential-analysis-of-gut-microbiome-in-patients-with-periprosthetic-joint-infection-aseptic-failure-and-osteoarthritis)
   - TLDR：针对人工关节置换术后感染（PJI）发病机制不明的问题，本研究通过宏基因组测序对比了PJI、无菌性松动（AF）及骨关节炎（OA）患者的肠道菌群差异。结果发现PJI患者术前肠道菌群多样性显著降低，且富集了埃希氏菌等条件致病菌，术后抗生素使用进一步加剧了这种失调。该研究揭示了肠道微生态失衡与PJI的关联，为临床诊疗提供了新思路。
-  - Tags：`query:pathoai`
-- [Modulating the gut microbiota to enhance immune checkpoint inhibitor efficacy in colorectal cancer: mechanisms, therapeutic strategies, and clinical perspectives.](#/202604/15/202604/15/41981741-modulating-the-gut-microbiota-to-enhance-immune-checkpoint-inhibitor-efficacy-in-colorectal-cancer-mechanisms-therapeutic-strategies-and-clinical-perspectives)
-  - TLDR：结直肠癌（CRC）中仅少数MSI-H患者对免疫检查点抑制剂（ICI）有反应，而占多数的MSS患者疗效不佳。本文综述了肠道微生物群（包括菌株、代谢物及囊泡）如何通过调节宿主免疫影响ICI疗效，并探讨了利用微生物昼夜节律进行个性化治疗的潜力。通过总结靶向微生物的辅助策略，为克服CRC免疫耐药、提升临床获益提供了系统性见解。
-  - Tags：`query:pathoai`
-- [Prophage-mediated lysogenic conversion drives virulence evolution and genomic plasticity in](#/202604/13/202604/13/41972771-prophage-mediated-lysogenic-conversion-drives-virulence-evolution-and-genomic-plasticity-in)
-  - TLDR：针对猪链球菌 9 型这一人畜共患病原体，本研究通过对 16 个菌株进行比较基因组学分析，揭示了原噬菌体在驱动基因组可塑性和毒力演化中的核心作用。研究发现原噬菌体不仅通过水平转移携带毒力基因（如 sly），还通过重组诱导染色体大片段倒位，并提出了“基因监狱”模型解释毒力性状的稳定遗传。这为理解病原菌进化及制定防疫策略提供了重要理论依据。
-  - Tags：`query:pathoai`
-- [Rethinking MS Therapeutics: From Disease Pathogenesis Mechanisms to AI-Driven Drug Discovery.](#/202604/13/202604/13/41973156-rethinking-ms-therapeutics-from-disease-pathogenesis-mechanisms-to-ai-driven-drug-discovery)
-  - TLDR：探讨了从理解疾病发病机制到AI驱动药物发现的转变。
-  - Tags：`query:bioinfo`
-- [Construction of a multi-label odor prediction model based on molecular structures and olfactory receptor binding profiles with a novel interpretability framework.](#/202604/13/202604/13/41973193-construction-of-a-multi-label-odor-prediction-model-based-on-molecular-structures-and-olfactory-receptor-binding-profiles-with-a-novel-interpretability-framework)
-  - TLDR：开发了一个基于分子结构和受体结合的多阶段气味预测框架。
-  - Tags：`query:bioinfo`
-- [Artificial intelligence in microbiology: implications for metagenomics, diagnostics, and AMR surveillance.](#/202604/12/202604/12/41965741-artificial-intelligence-in-microbiology-implications-for-metagenomics-diagnostics-and-amr-surveillance)
-  - TLDR：针对微生物学中抗生素耐药性（AMR）监测和病原体分类的复杂挑战，本文综述了深度学习、Transformer序列模型及图神经网络等AI技术在基因组学和临床数据分析中的应用。通过整合多模态数据和可解释性AI技术，这些方法显著提升了耐药基因识别与表型预测的准确性。AI驱动的宏基因组分析为全球传染病监控和非侵入性诊断提供了高效、可扩展的解决方案，具有重大的公共卫生价值。
-  - Tags：`query:pathoai`
-- [LaMGen: LLM-based 3D molecular generation for multi-target drug design.](#/202604/12/202604/12/41965333-lamgen-llm-based-3d-molecular-generation-for-multi-target-drug-design)
-  - TLDR：针对多靶点药物设计中现有方法缺乏生物背景且泛化性差的问题，LaMGen 提出了一种基于大语言模型（LLM）的 3D 分子生成框架。该框架利用包含 60 万量子精度构象和 70 万多靶点关联的 MTD2025 数据集，结合 ESM-C 蛋白质嵌入和旋转感知令牌，实现了高精度、低能耗的分子构象生成。实验表明，LaMGen 在生成速度（0.44s）和分子性质上优于扩散模型，能有效发现具有高结合亲和力的创新候选药物。
-  - Tags：`query:bioinfo`
-- [Bridging Artificial Intelligence, Machine Learning with Green Nanotechnology: A Visionary Framework for Smart Fungal Disease Management in Plants.](#/202604/12/202604/12/41966676-bridging-artificial-intelligence-machine-learning-with-green-nanotechnology-a-visionary-framework-for-smart-fungal-disease-management-in-plants)
-  - TLDR：针对植物真菌病害导致的粮食安全威胁及传统农药的污染问题，该研究提出了一个集成 AI 预测与绿色纳米技术的智能管理框架。通过融合高光谱成像、深度学习及边缘 AI 实时监测技术，精准识别病害并联动生物废弃物合成的纳米颗粒进行靶向治理。该方法实现了从早期诊断到可持续防控的闭环，显著提升了农业系统的精准度与抗风险能力。
-  - Tags：`query:pathoai`
-- [Tripleknock: predicting lethal effect of three-gene knockout in bacteria by deep learning.](#/202604/11/202604/11/41963398-tripleknock-predicting-lethal-effect-of-three-gene-knockout-in-bacteria-by-deep-learning)
-  - TLDR：针对细菌三基因敲除致死效应预测中实验筛选慢、传统FBA模拟耗时长且依赖代谢模型的问题，本文开发了基于深度学习的预测工具Tripleknock。该模型利用蛋白质序列特征进行训练，在保持高准确率的同时，预测速度比FBA快20倍，并在多种病原菌上展现了良好的跨物种泛化能力，为发现新抗生素靶点提供了高效的计算手段。
-  - Tags：`query:pathoai`
-- [Predicted meta-omics: A potential solution to multi-omics data scarcity in microbiome studies.](#/202604/11/202604/11/41961886-predicted-meta-omics-a-potential-solution-to-multi-omics-data-scarcity-in-microbiome-studies)
-  - TLDR：肠道微生物组研究常受限于多组学数据（如转录组、代谢组）的高昂获取成本。本研究评估了利用机器学习模型从宏基因组数据预测其他组学特征的可行性。通过对比弹性网络、随机森林及神经网络，发现模型能有效预测转录本和代谢物丰度，且预测特征在肠道疾病分类任务中表现出与实验数据相当的效力，为缓解多组学数据稀缺提供了计算方案。
-  - Tags：`query:bioinfo`
-- [Carbapenem-resistance oprD mutations reshape Pseudomonas aeruginosa host-pathogen interactions during infection.](#/202604/11/202604/11/41963355-carbapenem-resistance-oprd-mutations-reshape-pseudomonas-aeruginosa-host-pathogen-interactions-during-infection)
-  - TLDR：针对碳青霉烯耐药铜绿假单胞菌中常见的 oprD 基因突变，研究其在抗生素耐药之外对感染过程的影响。通过体外人类气道上皮感染模型，发现该突变能增强细菌的早期附着和跨膜易位能力。研究揭示了 oprD 缺失会改变细菌外膜电荷并减少粘液束缚，从而促进上皮屏障定殖。这表明耐药突变能直接重塑宿主-病原体相互作用，对理解感染动态具有重要价值。
-  - Tags：`query:pathoai`
-- [Comparative analysis towards the identification of genome wide characteristics of a beneficial fungal endophyte.](#/202604/11/202604/11/41963563-comparative-analysis-towards-the-identification-of-genome-wide-characteristics-of-a-beneficial-fungal-endophyte)
-  - TLDR：针对有益内生真菌 Fusarium solani K (FsK) 促进植物抗逆的机制尚不明确的问题，研究者通过对 FsK 进行全基因组测序，并将其与致病性及其他共生真菌进行比较基因组分析。研究揭示了 FsK 在分泌效应因子、碳水化合物活性酶及次级代谢产物簇上的特征，并识别出与 DNA 修复和铁获取相关的特异性基因，为理解真菌-植物互作及农业应用提供了基因组学基础。
-  - Tags：`query:pathoai`
-- [Dietary conjugated linoleic acid enhances resistance to](#/202604/11/202604/11/41964110-dietary-conjugated-linoleic-acid-enhances-resistance-to)
-  - TLDR：针对饮食脂质如何增强肠道免疫防御这一问题，本研究发现补充共轭亚油酸（CLA）能显著提高小鼠对沙门氏菌感染的抵抗力。通过单细胞测序和表观遗传分析，研究揭示了 CLA 协同肠道益生菌，通过激活 PPARγ 信号通路诱导肠道 CD8+ T 细胞发生代谢重编程，增强其氧化磷酸化水平和效应功能。这一发现阐明了“饮食-微生物-免疫”轴在粘膜保护中的关键作用，为通过营养干预预防肠道感染提供了理论依据。
-  - Tags：`query:pathoai`
-- [Tumor Whole-Genome Sequencing for Prediction of Venous Thromboembolism in Patients With Metastasized Solid Cancer.](#/202604/11/202604/11/41958384-tumor-whole-genome-sequencing-for-prediction-of-venous-thromboembolism-in-patients-with-metastasized-solid-cancer)
-  - TLDR：针对转移性实体瘤患者静脉血栓栓塞（VTE）预测准确性不足的问题，本研究利用3087名患者的全基因组测序（WGS）数据，分析了临床指标、生殖系变异及体细胞突变与VTE的关联。结果显示，整合了14种关键体细胞突变、生殖系多基因风险评分及临床因素的综合模型，其预测性能（C-index 0.77）显著优于现有的Khorana临床评分（0.55），证明了肿瘤基因组数据在识别高风险血栓患者中的巨大潜力。
-  - Tags：`query:seqai`
-- [Environmental pathogen surveillance in cities without universal piped wastewater infrastructure.](#/202604/11/202604/11/41961797-environmental-pathogen-surveillance-in-cities-without-universal-piped-wastewater-infrastructure)
-  - TLDR：针对中低收入国家城市缺乏完善下水道系统导致无法进行常规废水监测的问题，本研究在莫桑比克马普托市采集了包括露天排水沟、受污染河流、土壤及粪便污泥在内的多种环境样本。通过多重 RT-qPCR 技术检测多种病原体并建立回归模型，发现虽然非传统样本中的病原体浓度低于污水处理厂进水，但其检出率依然很高，且降雨会显著提升浓度。这证明了在非正规排水体系下开展环境病原体监测的可行性，为公共卫生干预提供了新思路。
   - Tags：`query:pathoai`

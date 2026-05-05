@@ -1,0 +1,79 @@
+Title: Implications for distancing measures on in-person school and work attendance from Italian post-pandemic social contact data - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42082766/
+
+Markdown Content:
+Actions
+
+. 2026 May 4.
+
+doi: 10.1038/s43856-026-01543-4.  Online ahead of print.
+
+[Valentina Marziano](https://pubmed.ncbi.nlm.nih.gov/?term=Marziano+V&cauthor_id=42082766)[#](https://pubmed.ncbi.nlm.nih.gov/42082766/#full-view-equal-contrib-explanation "Contributed equally")[2](https://pubmed.ncbi.nlm.nih.gov/42082766/#full-view-affiliation-2 "Center for Health Emergencies, Bruno Kessler Foundation, Trento, Italy."),[Filippo Trentini](https://pubmed.ncbi.nlm.nih.gov/?term=Trentini+F&cauthor_id=42082766)[3](https://pubmed.ncbi.nlm.nih.gov/42082766/#full-view-affiliation-3 "Department of Decision Science, Bocconi University, Milano, Italy."),[Chiara Chiavenna](https://pubmed.ncbi.nlm.nih.gov/?term=Chiavenna+C&cauthor_id=42082766)[1](https://pubmed.ncbi.nlm.nih.gov/42082766/#full-view-affiliation-1 "DONDENA Centre for Research on Social Dynamics and Public Policy, Bocconi University, Milano, Italy.")[4](https://pubmed.ncbi.nlm.nih.gov/42082766/#full-view-affiliation-4 "BIDSA, Bocconi Institute for Data Science and Analytics, Bocconi University, Milano, Italy."),[Elena D'Agnese](https://pubmed.ncbi.nlm.nih.gov/?term=D%27Agnese+E&cauthor_id=42082766)[1](https://pubmed.ncbi.nlm.nih.gov/42082766/#full-view-affiliation-1 "DONDENA Centre for Research on Social Dynamics and Public Policy, Bocconi University, Milano, Italy.")[5](https://pubmed.ncbi.nlm.nih.gov/42082766/#full-view-affiliation-5 "Department of Economics and Management, University of Pisa, Pisa, Italy.")[6](https://pubmed.ncbi.nlm.nih.gov/42082766/#full-view-affiliation-6 "Department of Statistics, Computer Science, Applications, University of Florence, Firenze, Italy."),[Vittoria Offeddu](https://pubmed.ncbi.nlm.nih.gov/?term=Offeddu+V&cauthor_id=42082766)[1](https://pubmed.ncbi.nlm.nih.gov/42082766/#full-view-affiliation-1 "DONDENA Centre for Research on Social Dynamics and Public Policy, Bocconi University, Milano, Italy."),[Mattia Manica](https://pubmed.ncbi.nlm.nih.gov/?term=Manica+M&cauthor_id=42082766)[2](https://pubmed.ncbi.nlm.nih.gov/42082766/#full-view-affiliation-2 "Center for Health Emergencies, Bruno Kessler Foundation, Trento, Italy."),[Piero Poletti](https://pubmed.ncbi.nlm.nih.gov/?term=Poletti+P&cauthor_id=42082766)[2](https://pubmed.ncbi.nlm.nih.gov/42082766/#full-view-affiliation-2 "Center for Health Emergencies, Bruno Kessler Foundation, Trento, Italy."),[Duilio Balsamo](https://pubmed.ncbi.nlm.nih.gov/?term=Balsamo+D&cauthor_id=42082766)[1](https://pubmed.ncbi.nlm.nih.gov/42082766/#full-view-affiliation-1 "DONDENA Centre for Research on Social Dynamics and Public Policy, Bocconi University, Milano, Italy.")[4](https://pubmed.ncbi.nlm.nih.gov/42082766/#full-view-affiliation-4 "BIDSA, Bocconi Institute for Data Science and Analytics, Bocconi University, Milano, Italy."),[Giorgio Guzzetta](https://pubmed.ncbi.nlm.nih.gov/?term=Guzzetta+G&cauthor_id=42082766)[2](https://pubmed.ncbi.nlm.nih.gov/42082766/#full-view-affiliation-2 "Center for Health Emergencies, Bruno Kessler Foundation, Trento, Italy."),[Marco Ajelli](https://pubmed.ncbi.nlm.nih.gov/?term=Ajelli+M&cauthor_id=42082766)[7](https://pubmed.ncbi.nlm.nih.gov/42082766/#full-view-affiliation-7 "Laboratory for Computational Epidemiology and Public Health, Department of Epidemiology and Biostatistics, Indiana University School of Public Health, Bloomington, IN, USA."),[Alessia Melegaro](https://pubmed.ncbi.nlm.nih.gov/?term=Melegaro+A&cauthor_id=42082766)[8](https://pubmed.ncbi.nlm.nih.gov/42082766/#full-view-affiliation-8 "DONDENA Centre for Research on Social Dynamics and Public Policy, Bocconi University, Milano, Italy. alessia.melegaro@unibocconi.it.")[9](https://pubmed.ncbi.nlm.nih.gov/42082766/#full-view-affiliation-9 "BIDSA, Bocconi Institute for Data Science and Analytics, Bocconi University, Milano, Italy. alessia.melegaro@unibocconi.it."),[Stefano Merler](https://pubmed.ncbi.nlm.nih.gov/?term=Merler+S&cauthor_id=42082766)[2](https://pubmed.ncbi.nlm.nih.gov/42082766/#full-view-affiliation-2 "Center for Health Emergencies, Bruno Kessler Foundation, Trento, Italy.")
+
+Affiliations
+
+*    PMID: **42082766**
+*    DOI: [10.1038/s43856-026-01543-4](https://doi.org/10.1038/s43856-026-01543-4)
+
+Free article
+
+## Implications for distancing measures on in-person school and work attendance from Italian post-pandemic social contact data
+
+Lorenzo Lucchini et al. Commun Med (Lond).2026.
+
+Free article
+
+## Abstract
+
+**Background:** The collection of updated post-COVID-19 data on social contacts is critical for future epidemiological assessment and evaluation of non-pharmaceutical interventions.
+
+**Methods:** We conducted two waves of an online survey in Italy (March 2022 and March 2023), collecting representative data on direct (verbal/physical) and indirect (indoor co-location) contacts. Using a generalised linear mixed model, we analysed social contact determinants and the impact of work-from-home and distance learning on reducing a pathogen's reproduction number (R). Additionally, we calibrated an age-structured model to the 2023-2024 influenza A epidemic in Italy to explore the impact of alternative in-person attendance scenarios on infection attack rates.
+
+**Results:** We find that in-person attendance significantly increases contacts: adults attending in person have 1.69 times (95%CI: 1.55-1.83) more contacts than those staying home, while children/adolescents 2.36 (95%CI: 1.96-2.84). Limiting in-person work alone marginally affects R, whereas combining work-from-home with distance learning (from primary school onwards) reduces R by up to 23.2% (95%CI: 13.7-30.1%), with minimal additional benefit from suspending early childcare. In the influenza A case study, seasonal infection attack rates range from 14.7% (95%PI: 12.8-16.5%) under full in-person attendance to <0.2% under the most restrictive scenario. Moderate interventions (suspension of tertiary education and work-from-home) reduce attack rates by up to one fourth among adults (15-64 years) and one sixth among older individuals.
+
+**Conclusions:** This study provides post-pandemic contact matrices for Italy, essential for modelling transmission of respiratory pathogens, and quantitative evidence on the epidemiological impact of targeted physical distancing measures, thereby supporting future policy design.
+
+## Plain language summary
+
+Respiratory viruses spread through everyday contacts between people. Understanding how human interactions changed after the COVID-19 pandemic is important for preparing for future outbreaks. We conduct two online surveys in Italy in 2022 and 2023 to measure the number of social contacts across different age groups. We explore factors associated with higher numbers of contacts and find that people attending work or school in person report substantially more contacts than others. We estimate how combining work-from-home and distance learning could reduce the transmission potential of respiratory viruses, using seasonal influenza to illustrate the impact on a real-world epidemic. These findings provide updated estimates of social contacts and can support policymakers in planning targeted measures to limit transmission during future epidemics.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Measures implemented in the school setting to contain the COVID-19 pandemic.](https://pubmed.ncbi.nlm.nih.gov/38695826/)
+
+Littlecott H, Krishnaratne S, Burns J, Rehfuess E, Sell K, Klinger C, Strahwald B, Movsisyan A, Metzendorf MI, Schoenweger P, Voss S, Coenen M, Müller-Eberstein R, Pfadenhauer LM.Littlecott H, et al.Cochrane Database Syst Rev. 2024 May 2;5(5):CD015029. doi: 10.1002/14651858.CD015029.pub2.Cochrane Database Syst Rev. 2024.PMID: 38695826 Free PMC article. 
+*   [Measures implemented in the school setting to contain the COVID-19 pandemic.](https://pubmed.ncbi.nlm.nih.gov/35037252/)
+
+Krishnaratne S, Littlecott H, Sell K, Burns J, Rabe JE, Stratil JM, Litwin T, Kreutz C, Coenen M, Geffert K, Boger AH, Movsisyan A, Kratzer S, Klinger C, Wabnitz K, Strahwald B, Verboom B, Rehfuess E, Biallas RL, Jung-Sievers C, Voss S, Pfadenhauer LM.Krishnaratne S, et al.Cochrane Database Syst Rev. 2022 Jan 17;1(1):CD015029. doi: 10.1002/14651858.CD015029.Cochrane Database Syst Rev. 2022.PMID: 35037252 Free PMC article.Updated. 
+*   [Social contact patterns and implications for infectious disease transmission - a systematic review and meta-analysis of contact surveys.](https://pubmed.ncbi.nlm.nih.gov/34821551/)
+
+Mousa A, Winskill P, Watson OJ, Ratmann O, Monod M, Ajelli M, Diallo A, Dodd PJ, Grijalva CG, Kiti MC, Krishnan A, Kumar R, Kumar S, Kwok KO, Lanata CF, de Waroux OLP, Leung K, Mahikul W, Melegaro A, Morrow CD, Mossong J, Neal EF, Nokes DJ, Pan-Ngum W, Potter GE, Russell FM, Saha S, Sugimoto JD, Wei WI, Wood RR, Wu J, Zhang J, Walker P, Whittaker C.Mousa A, et al.Elife. 2021 Nov 25;10:e70294. doi: 10.7554/eLife.70294.Elife. 2021.PMID: 34821551 Free PMC article. 
+*   [Physical interventions to interrupt or reduce the spread of respiratory viruses.](https://pubmed.ncbi.nlm.nih.gov/33215698/)
+
+Jefferson T, Del Mar CB, Dooley L, Ferroni E, Al-Ansary LA, Bawazeer GA, van Driel ML, Jones MA, Thorning S, Beller EM, Clark J, Hoffmann TC, Glasziou PP, Conly JM.Jefferson T, et al.Cochrane Database Syst Rev. 2020 Nov 20;11(11):CD006207. doi: 10.1002/14651858.CD006207.pub5.Cochrane Database Syst Rev. 2020.PMID: 33215698 Free PMC article.Updated. 
+*   [Folic acid supplementation and malaria susceptibility and severity among people taking antifolate antimalarial drugs in endemic areas.](https://pubmed.ncbi.nlm.nih.gov/36321557/)
+
+Crider K, Williams J, Qi YP, Gutman J, Yeung L, Mai C, Finkelstain J, Mehta S, Pons-Duran C, Menéndez C, Moraleda C, Rogers L, Daniels K, Green P.Crider K, et al.Cochrane Database Syst Rev. 2022 Feb 1;2(2022):CD014217. doi: 10.1002/14651858.CD014217.Cochrane Database Syst Rev. 2022.PMID: 36321557 Free PMC article.Updated. 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Nature Publishing Group](https://doi.org/10.1038/s43856-026-01543-4)
+
+*   ### Research Materials
+
+    *   [NCI CPTC Antibody Characterization Program](https://antibodies.cancer.gov/detail/CPTC-GSTP1-1)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-651)

@@ -1,0 +1,69 @@
+Title: Noninvasive molecular subtyping of breast cancer using multimodal ultrasound spatiotemporal transformer - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42082579/
+
+Markdown Content:
+Actions
+
+. 2026 May 4.
+
+doi: 10.1038/s41746-026-02699-y.  Online ahead of print.
+
+[Tao Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+T&cauthor_id=42082579)[#](https://pubmed.ncbi.nlm.nih.gov/42082579/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/42082579/#full-view-affiliation-1 "Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai, China.")[2](https://pubmed.ncbi.nlm.nih.gov/42082579/#full-view-affiliation-2 "MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China.")[3](https://pubmed.ncbi.nlm.nih.gov/42082579/#full-view-affiliation-3 "MOE Key Laboratory of Computational Neuroscience and Brain-Inspired Intelligence, Fudan University, Shanghai, China."),[Zichen An](https://pubmed.ncbi.nlm.nih.gov/?term=An+Z&cauthor_id=42082579)[#](https://pubmed.ncbi.nlm.nih.gov/42082579/#full-view-equal-contrib-explanation "Contributed equally")[6](https://pubmed.ncbi.nlm.nih.gov/42082579/#full-view-affiliation-6 "School of Health Science and Engineering, University of Shanghai for Science and Technology, Shanghai, China."),[Chenhui Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+C&cauthor_id=42082579)[1](https://pubmed.ncbi.nlm.nih.gov/42082579/#full-view-affiliation-1 "Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai, China.")[2](https://pubmed.ncbi.nlm.nih.gov/42082579/#full-view-affiliation-2 "MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China.")[3](https://pubmed.ncbi.nlm.nih.gov/42082579/#full-view-affiliation-3 "MOE Key Laboratory of Computational Neuroscience and Brain-Inspired Intelligence, Fudan University, Shanghai, China."),[Zhihao Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+Z&cauthor_id=42082579)[1](https://pubmed.ncbi.nlm.nih.gov/42082579/#full-view-affiliation-1 "Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai, China.")[2](https://pubmed.ncbi.nlm.nih.gov/42082579/#full-view-affiliation-2 "MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China.")[3](https://pubmed.ncbi.nlm.nih.gov/42082579/#full-view-affiliation-3 "MOE Key Laboratory of Computational Neuroscience and Brain-Inspired Intelligence, Fudan University, Shanghai, China."),[Lianfang Du](https://pubmed.ncbi.nlm.nih.gov/?term=Du+L&cauthor_id=42082579)[5](https://pubmed.ncbi.nlm.nih.gov/42082579/#full-view-affiliation-5 "Department of Ultrasound, Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."),[Chao Jia](https://pubmed.ncbi.nlm.nih.gov/?term=Jia+C&cauthor_id=42082579)[5](https://pubmed.ncbi.nlm.nih.gov/42082579/#full-view-affiliation-5 "Department of Ultrasound, Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."),[Chunxiao Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+C&cauthor_id=42082579)[5](https://pubmed.ncbi.nlm.nih.gov/42082579/#full-view-affiliation-5 "Department of Ultrasound, Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."),[Jiying Gu](https://pubmed.ncbi.nlm.nih.gov/?term=Gu+J&cauthor_id=42082579)[7](https://pubmed.ncbi.nlm.nih.gov/42082579/#full-view-affiliation-7 "Department of Ultrasound, Shidong Hospital, Shanghai, China."),[Ting Sun](https://pubmed.ncbi.nlm.nih.gov/?term=Sun+T&cauthor_id=42082579)[8](https://pubmed.ncbi.nlm.nih.gov/42082579/#full-view-affiliation-8 "Department of Ultrasound, Qingdao Hospital, University of Health and Rehabilitation Sciences (Qingdao Municipal Hospital), Qingdao, China."),[Yuxiang Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+Y&cauthor_id=42082579)[9](https://pubmed.ncbi.nlm.nih.gov/42082579/#full-view-affiliation-9 "Department of Ultrasound, Shanxi Province Cancer Hospital/ Shanxi Hospital Affiliated to Cancer Hospital, Chinese Academy of Medical Sciences/Cancer Hospital Affiliated to Shanxi Medical University, Taiyuan, China."),[Fan Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+F&cauthor_id=42082579)[10](https://pubmed.ncbi.nlm.nih.gov/42082579/#full-view-affiliation-10 "Department of Ultrasound, Shanghai Chest Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China. medicineli@sjtu.edu.cn."),[Hongming Shan](https://pubmed.ncbi.nlm.nih.gov/?term=Shan+H&cauthor_id=42082579)[11](https://pubmed.ncbi.nlm.nih.gov/42082579/#full-view-affiliation-11 "Institute of Science and Technology for Brain-Inspired Intelligence, Fudan University, Shanghai, China. hmshan@fudan.edu.cn.")[12](https://pubmed.ncbi.nlm.nih.gov/42082579/#full-view-affiliation-12 "MOE Frontiers Center for Brain Science, Fudan University, Shanghai, China. hmshan@fudan.edu.cn.")[13](https://pubmed.ncbi.nlm.nih.gov/42082579/#full-view-affiliation-13 "MOE Key Laboratory of Computational Neuroscience and Brain-Inspired Intelligence, Fudan University, Shanghai, China. hmshan@fudan.edu.cn.")
+
+Affiliations
+
+*    PMID: **42082579**
+*    DOI: [10.1038/s41746-026-02699-y](https://doi.org/10.1038/s41746-026-02699-y)
+
+Free article
+
+## Noninvasive molecular subtyping of breast cancer using multimodal ultrasound spatiotemporal transformer
+
+Tao Chen et al. NPJ Digit Med.2026.
+
+Free article
+
+## Abstract
+
+Molecular subtyping is essential for guiding systemic therapy in breast cancer but currently requires invasive biopsy. Conventional B-mode ultrasound offers rich anatomical information, yet lacks the functional dynamics needed to capture the comprehensive biology of tumors. Here, we present the first multimodal ultrasound spatiotemporal transformer, MUST-Sub, which integrates paired B-mode morphological features with contrast-enhanced ultrasound (CEUS) hemodynamic patterns to classify Luminal, HER2-enriched, and triple-negative subtypes. Training on a retrospective development cohort, and validated on internal, prospective, and multicenter external cohorts, MUST-Sub achieved macro-average areas under the receiver operating characteristic curve (AUCs) of 0.94, 0.90, and 0.92, respectively, and Luminal versus non-Luminal AUCs of 0.92, 0.88, and 0.91, outperforming B-mode-only deep learning baselines. MUST-Sub also produced interpretable quantitative biomarkers derived from spatiotemporal attention: the morphology-associated biomarker showed inverse correlations with tumor size (Spearman ρ = [- 0.34, - 0.23]; all p < . 05), while the hemodynamics-associated biomarker correlated positively with tumor size (ρ = [0.24, 0.32]; all p < . 05) and Ki-67 proliferation index (ρ = [0.21, 0.24]; all p < . 05). These results suggest that multimodal ultrasound with spatiotemporal modeling can serve as a promising adjunctive approach for non-invasive pre-biopsy molecular phenotyping of breast cancer.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Advances in ultrasound for preoperative molecular subtyping of malignant breast tumors.](https://pubmed.ncbi.nlm.nih.gov/41994636/)
+
+Hong DR, Huang CY.Hong DR, et al.Front Oncol. 2026 Apr 1;16:1774951. doi: 10.3389/fonc.2026.1774951. eCollection 2026.Front Oncol. 2026.PMID: 41994636 Free PMC article.Review. 
+*   [Prediction models of breast cancer molecular subtypes based on multimodal ultrasound and clinical features.](https://pubmed.ncbi.nlm.nih.gov/40389869/)
+
+Li H, Zhang CT, Shao HG, Pan L, Li Z, Wang M, Xu SH.Li H, et al.BMC Cancer. 2025 May 19;25(1):886. doi: 10.1186/s12885-025-14233-6.BMC Cancer. 2025.PMID: 40389869 Free PMC article. 
+*   [Multi-Parametric Super-Resolution Ultrasound for Evaluating Breast Cancer Characteristics: Improved Diagnostic Performance Over Contrast-Enhanced Ultrasound.](https://pubmed.ncbi.nlm.nih.gov/41826088/)
+
+Liu Z, Wang L, Zhou Y, Li Q, Yuan L.Liu Z, et al.Ultrasound Med Biol. 2026 Jun;52(6):1100-1108. doi: 10.1016/j.ultrasmedbio.2026.02.006. Epub 2026 Mar 12.Ultrasound Med Biol. 2026.PMID: 41826088 
+*   [Hierarchical image pyramid transformer framework for automated breast cancer molecular subtyping using tissue microarrays.](https://pubmed.ncbi.nlm.nih.gov/41588712/)
+
+Li B, Zhong Y, Xing Z, Zhou J, Li H, Yang L, Chen W.Li B, et al.J Pathol. 2026 Apr;268(4):460-476. doi: 10.1002/path.70028. Epub 2026 Jan 26.J Pathol. 2026.PMID: 41588712 
+*   [Prediction of HER2 changes post-neoadjuvant therapy based on fusion of ultrasound radiomics and clinicopathological features empowered by explainable AI: A multicenter study.](https://pubmed.ncbi.nlm.nih.gov/41352003/)
+
+Yan Y, Xue X, Xie J, Liu J, Sui L, Jiang T, Jin Z, Ou D, Chuan Z, Jin M, Zhang Y, Wang VY, Luo X, Xu S, Xu D.Yan Y, et al.Eur J Cancer. 2026 Jan;232:116158. doi: 10.1016/j.ejca.2025.116158. Epub 2025 Nov 29.Eur J Cancer. 2026.PMID: 41352003 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Nature Publishing Group](https://doi.org/10.1038/s41746-026-02699-y)
+
+*   ### Research Materials
+
+    *   [NCI CPTC Antibody Characterization Program](https://antibodies.cancer.gov/detail/CPTC-ERBB2-3)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-192)

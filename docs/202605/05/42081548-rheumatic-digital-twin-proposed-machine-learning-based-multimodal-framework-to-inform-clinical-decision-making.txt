@@ -1,0 +1,446 @@
+Title: Rheumatic Digital Twin: Proposed Machine Learning-Based Multimodal Framework to Inform Clinical Decision-Making - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42081548/
+
+Markdown Content:
+# Rheumatic Digital Twin: Proposed Machine Learning-Based Multimodal Framework to Inform Clinical Decision-Making - PubMed
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/42081548/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42081548%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/42081548/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/42081548/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/42081548/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/42081548/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/ffd2ec78-62e5-42af-9cba-3b683627d12e/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/42081548/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/42081548/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/42081548/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42081548%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42081548%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/42081548/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Save citation to file
+
+ Format:  
+
+ Create file  Cancel 
+
+## Email citation
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/42081548/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/42081548/#)
+
+ Add  Cancel 
+
+## Your saved search
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/42081548/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+## Create a file for external citation management software
+
+ Create file  Cancel 
+
+## Your RSS Feed
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Full text links
+
+[![Image 6: JMIR Publications full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--asset.jmir.pub-resources-images-pubmed-pubmed-banner.gif) JMIR Publications](https://www.jmir.org/2026//e86763/ "See full text options at JMIR Publications")
+
+[Full text links](https://pubmed.ncbi.nlm.nih.gov/42081548/#)
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/42081548/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/42081548/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/42081548/#abstract)
+*   [Similar articles](https://pubmed.ncbi.nlm.nih.gov/42081548/#similar)
+*   [MeSH terms](https://pubmed.ncbi.nlm.nih.gov/42081548/#mesh-terms)
+*   [Related information](https://pubmed.ncbi.nlm.nih.gov/42081548/#related-links)
+*   [LinkOut - more resources](https://pubmed.ncbi.nlm.nih.gov/42081548/#linkout)
+
+ J Med Internet Res 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22J+Med+Internet+Res%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22J+Med+Internet+Res%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42081548/#)
+
+. 2026 May 4:28:e86763.
+
+ doi: 10.2196/86763. 
+
+# Rheumatic Digital Twin: Proposed Machine Learning-Based Multimodal Framework to Inform Clinical Decision-Making
+
+[Daniyal Selani](https://pubmed.ncbi.nlm.nih.gov/?term=Selani+D&cauthor_id=42081548)[#](https://pubmed.ncbi.nlm.nih.gov/42081548/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/42081548/#full-view-affiliation-1 "Pattern Recognition and Bioinformatics, Faculty Electrical Engineering, Mathematics and Computer Science, Delft University of Technology, Delft, The Netherlands.")[2](https://pubmed.ncbi.nlm.nih.gov/42081548/#full-view-affiliation-2 "Department of Rheumatology, Leiden University Medical Center, Leiden, The Netherlands."),[Rachel Knevel](https://pubmed.ncbi.nlm.nih.gov/?term=Knevel+R&cauthor_id=42081548)[#](https://pubmed.ncbi.nlm.nih.gov/42081548/#full-view-equal-contrib-explanation "Contributed equally")[2](https://pubmed.ncbi.nlm.nih.gov/42081548/#full-view-affiliation-2 "Department of Rheumatology, Leiden University Medical Center, Leiden, The Netherlands."),[Marcel Reinders](https://pubmed.ncbi.nlm.nih.gov/?term=Reinders+M&cauthor_id=42081548)[1](https://pubmed.ncbi.nlm.nih.gov/42081548/#full-view-affiliation-1 "Pattern Recognition and Bioinformatics, Faculty Electrical Engineering, Mathematics and Computer Science, Delft University of Technology, Delft, The Netherlands.")[3](https://pubmed.ncbi.nlm.nih.gov/42081548/#full-view-affiliation-3 "Department of Biomedical Data Sciences, Leiden University Medical Center, Einthovenweg 20, Leiden, 2333 ZC, The Netherlands, 31 1 526 30 13."),[Erik B van den Akker](https://pubmed.ncbi.nlm.nih.gov/?term=van+den+Akker+EB&cauthor_id=42081548)[1](https://pubmed.ncbi.nlm.nih.gov/42081548/#full-view-affiliation-1 "Pattern Recognition and Bioinformatics, Faculty Electrical Engineering, Mathematics and Computer Science, Delft University of Technology, Delft, The Netherlands.")[3](https://pubmed.ncbi.nlm.nih.gov/42081548/#full-view-affiliation-3 "Department of Biomedical Data Sciences, Leiden University Medical Center, Einthovenweg 20, Leiden, 2333 ZC, The Netherlands, 31 1 526 30 13.")
+
+ Affiliations  Expand 
+
+### Affiliations
+
+*   1 Pattern Recognition and Bioinformatics, Faculty Electrical Engineering, Mathematics and Computer Science, Delft University of Technology, Delft, The Netherlands.
+*   2 Department of Rheumatology, Leiden University Medical Center, Leiden, The Netherlands.
+*   3 Department of Biomedical Data Sciences, Leiden University Medical Center, Einthovenweg 20, Leiden, 2333 ZC, The Netherlands, 31 1 526 30 13.
+
+# Contributed equally.
+
+*    PMID: **42081548**
+*    DOI: [10.2196/86763](https://doi.org/10.2196/86763)
+
+Free article
+
+ Item in Clipboard 
+
+# Rheumatic Digital Twin: Proposed Machine Learning-Based Multimodal Framework to Inform Clinical Decision-Making
+
+Daniyal Selani et al. J Med Internet Res.2026.
+
+Free article
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ J Med Internet Res 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22J+Med+Internet+Res%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22J+Med+Internet+Res%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42081548/#)
+
+. 2026 May 4:28:e86763.
+
+ doi: 10.2196/86763. 
+
+### Authors
+
+[Daniyal Selani](https://pubmed.ncbi.nlm.nih.gov/?term=Selani+D&cauthor_id=42081548)[#](https://pubmed.ncbi.nlm.nih.gov/42081548/#short-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/42081548/#short-view-affiliation-1 "Pattern Recognition and Bioinformatics, Faculty Electrical Engineering, Mathematics and Computer Science, Delft University of Technology, Delft, The Netherlands.")[2](https://pubmed.ncbi.nlm.nih.gov/42081548/#short-view-affiliation-2 "Department of Rheumatology, Leiden University Medical Center, Leiden, The Netherlands."),[Rachel Knevel](https://pubmed.ncbi.nlm.nih.gov/?term=Knevel+R&cauthor_id=42081548)[#](https://pubmed.ncbi.nlm.nih.gov/42081548/#short-view-equal-contrib-explanation "Contributed equally")[2](https://pubmed.ncbi.nlm.nih.gov/42081548/#short-view-affiliation-2 "Department of Rheumatology, Leiden University Medical Center, Leiden, The Netherlands."),[Marcel Reinders](https://pubmed.ncbi.nlm.nih.gov/?term=Reinders+M&cauthor_id=42081548)[1](https://pubmed.ncbi.nlm.nih.gov/42081548/#short-view-affiliation-1 "Pattern Recognition and Bioinformatics, Faculty Electrical Engineering, Mathematics and Computer Science, Delft University of Technology, Delft, The Netherlands.")[3](https://pubmed.ncbi.nlm.nih.gov/42081548/#short-view-affiliation-3 "Department of Biomedical Data Sciences, Leiden University Medical Center, Einthovenweg 20, Leiden, 2333 ZC, The Netherlands, 31 1 526 30 13."),[Erik B van den Akker](https://pubmed.ncbi.nlm.nih.gov/?term=van+den+Akker+EB&cauthor_id=42081548)[1](https://pubmed.ncbi.nlm.nih.gov/42081548/#short-view-affiliation-1 "Pattern Recognition and Bioinformatics, Faculty Electrical Engineering, Mathematics and Computer Science, Delft University of Technology, Delft, The Netherlands.")[3](https://pubmed.ncbi.nlm.nih.gov/42081548/#short-view-affiliation-3 "Department of Biomedical Data Sciences, Leiden University Medical Center, Einthovenweg 20, Leiden, 2333 ZC, The Netherlands, 31 1 526 30 13.")
+
+### Affiliations
+
+*   1 Pattern Recognition and Bioinformatics, Faculty Electrical Engineering, Mathematics and Computer Science, Delft University of Technology, Delft, The Netherlands.
+*   2 Department of Rheumatology, Leiden University Medical Center, Leiden, The Netherlands.
+*   3 Department of Biomedical Data Sciences, Leiden University Medical Center, Einthovenweg 20, Leiden, 2333 ZC, The Netherlands, 31 1 526 30 13.
+
+# Contributed equally.
+
+*    PMID: **42081548**
+*    DOI: [10.2196/86763](https://doi.org/10.2196/86763)
+
+ Item in Clipboard 
+
+ Full text links Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Abstract
+
+Rheumatic diseases are chronic, immune-mediated conditions characterized by significant heterogeneity in presentation and disease course. However, current clinical approaches often rely on snapshot-based assessments that fail to capture the complex longitudinal evolution of these conditions. To address these limitations and support the implementation of precision medicine, we present the design for the Rheumatic Digital Twin, a novel, modular conceptual framework intended to integrate heterogeneous multimodal data, ranging from electronic health records and clinical notes to imaging and omics, into a dynamic, computational representation of the patient journey. Our theoretical architecture addresses challenges related to data silos and variable availability of data modalities through a multistage approach that envisions the use of domain-specific foundation models to independently process distinct data modalities. To effectively model the temporal progression inherent in chronic diseases, the proposed design utilizes Transformer architectures, leveraging self-attention mechanisms to treat patient events, such as lab results or medication changes, as sequential data tokens. We describe how these unimodal representations would subsequently be fused via joint embedding techniques to construct a shared, multimodal representational space. Envisioned to function analogously to a recommender system, the Rheumatic Digital Twin framework is modeled to map patients into a latent space where proximity reflects clinical and biological similarity. By identifying "nearest neighbors," historical patients with comparable trajectories, the system aims to enable in silico cohorting, theoretically allowing clinicians to forecast key clinical events, predict treatment responses, and identify likely disease courses based on the outcomes of similar peers.
+
+**Keywords:** AI; artificial intelligence; digital twin; electronic health records; machine learning; multimodal data; rheumatology.
+
+© Daniyal Selani, Rachel Knevel, Marcel Reinders, Erik B van den Akker. Originally published in the Journal of Medical Internet Research (https://www.jmir.org).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Technologies, Clinical Applications, and Implementation Barriers of Digital Twins in Precision Cardiology: Systematic Review.](https://pubmed.ncbi.nlm.nih.gov/41505790/)Sarani Rad F, Bitaraf E, Jafarpour M, Li J.Sarani Rad F, et al.JMIR Cardio. 2026 Jan 8;10:e78499. doi: 10.2196/78499.JMIR Cardio. 2026.PMID: 41505790 Free PMC article.  
+*   [Artificial intelligence for precision viral surveillance of emerging infectious disease (EID): Data-driven digital twin metaverse-envisioned study.](https://pubmed.ncbi.nlm.nih.gov/40773996/)Lin TY, Ming-Fang Yen A, Li-Sheng Chen S, Hsu CY, Yeh YP, Hsiu-Hsi Chen T.Lin TY, et al.Comput Biol Med. 2025 Sep;196(Pt C):110877. doi: 10.1016/j.compbiomed.2025.110877. Epub 2025 Aug 6.Comput Biol Med. 2025.PMID: 40773996  
+*   [Digital Representation of Patients as Medical Digital Twins: Data-Centric Viewpoint.](https://pubmed.ncbi.nlm.nih.gov/39881430/)Demuth S, De Sèze J, Edan G, Ziemssen T, Simon F, Gourraud PA.Demuth S, et al.JMIR Med Inform. 2025 Jan 28;13:e53542. doi: 10.2196/53542.JMIR Med Inform. 2025.PMID: 39881430 Free PMC article.  
+*   [Personalized Medication for Chronic Diseases Using Multimodal Data-Driven Chain-of-Decisions.](https://pubmed.ncbi.nlm.nih.gov/40788064/)Chu X, Ye Y, Tang S, Han M, Wang G, Lin S, Sun B, Huang Q, Zhang Y, Chu X, Bao K.Chu X, et al.Adv Sci (Weinh). 2025 Oct;12(40):e04079. doi: 10.1002/advs.202504079. Epub 2025 Aug 11.Adv Sci (Weinh). 2025.PMID: 40788064 Free PMC article.  
+*   [Emerging role of eHealth in the identification of very early inflammatory rheumatic diseases.](https://pubmed.ncbi.nlm.nih.gov/31810541/)Kataria S, Ravindran V.Kataria S, et al.Best Pract Res Clin Rheumatol. 2019 Aug;33(4):101429. doi: 10.1016/j.berh.2019.101429. Epub 2019 Aug 27.Best Pract Res Clin Rheumatol. 2019.PMID: 31810541 Review.  
+
+[See all similar articles](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed&from_uid=42081548)
+
+## MeSH terms
+
+*   
+ Clinical Decision-Making* / methods 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Clinical+Decision-Making%2Fmethods%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Clinical+Decision-Making)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42081548/#)
+
+*   
+ Electronic Health Records 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Electronic+Health+Records%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Electronic+Health+Records)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42081548/#)
+
+*   
+ Humans 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Humans%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Humans)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42081548/#)
+
+*   
+ Machine Learning* 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Machine+Learning%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Machine+Learning)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42081548/#)
+
+*   
+ Rheumatic Diseases* / diagnosis 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Rheumatic+Diseases%2Fdiagnosis%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Rheumatic+Diseases)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42081548/#)
+
+*   
+ Rheumatic Diseases* / therapy 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Rheumatic+Diseases%2Ftherapy%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Rheumatic+Diseases)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42081548/#)
+
+## Related information
+
+*   [GEO Profiles](https://www.ncbi.nlm.nih.gov/geoprofiles?linkname=pubmed_geoprofiles&from_uid=42081548 "GEO records associated with pubmed record")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [JMIR Publications](https://www.jmir.org/2026//e86763/)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-972)
+
+**Full text links**[x]
+
+[![Image 7: JMIR Publications full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--asset.jmir.pub-resources-images-pubmed-pubmed-banner.gif) JMIR Publications](https://www.jmir.org/2026//e86763/ "See full text options at JMIR Publications")
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/42081548/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42081548%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/42081548/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42081548%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42081548%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/42081548/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/?pagename=pubmed%3Apubmed%3Aabstract%3ANONE)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)

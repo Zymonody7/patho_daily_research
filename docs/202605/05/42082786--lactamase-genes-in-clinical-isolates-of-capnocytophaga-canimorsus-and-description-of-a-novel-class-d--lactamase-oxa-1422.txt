@@ -1,0 +1,81 @@
+Title: β-lactamase genes in clinical isolates of Capnocytophaga canimorsus and description of a novel class D β-lactamase, OXA-1422 - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42082786/
+
+Markdown Content:
+Actions
+
+. 2026 May 5.
+
+doi: 10.1007/s10096-026-05526-0.  Online ahead of print.
+
+[Eleonora Pronzini](https://pubmed.ncbi.nlm.nih.gov/?term=Pronzini+E&cauthor_id=42082786)[1](https://pubmed.ncbi.nlm.nih.gov/42082786/#full-view-affiliation-1 "Institute of Medical Microbiology, University of Zurich, Zurich, Switzerland."),[Fanny Wegner](https://pubmed.ncbi.nlm.nih.gov/?term=Wegner+F&cauthor_id=42082786)[1](https://pubmed.ncbi.nlm.nih.gov/42082786/#full-view-affiliation-1 "Institute of Medical Microbiology, University of Zurich, Zurich, Switzerland."),[Tim Roloff](https://pubmed.ncbi.nlm.nih.gov/?term=Roloff+T&cauthor_id=42082786)[1](https://pubmed.ncbi.nlm.nih.gov/42082786/#full-view-affiliation-1 "Institute of Medical Microbiology, University of Zurich, Zurich, Switzerland."),[Tianyan Song](https://pubmed.ncbi.nlm.nih.gov/?term=Song+T&cauthor_id=42082786)[2](https://pubmed.ncbi.nlm.nih.gov/42082786/#full-view-affiliation-2 "Department of Clinical Microbiology, Umeå University, Umeå, Sweden."),[Miroslava Barancekova](https://pubmed.ncbi.nlm.nih.gov/?term=Barancekova+M&cauthor_id=42082786)[3](https://pubmed.ncbi.nlm.nih.gov/42082786/#full-view-affiliation-3 "Institute of Infectious Diseases and Microbiology, Faculty of Veterinary Medicine, VETUNI, Brno, Czech Republic."),[Alois Cizek](https://pubmed.ncbi.nlm.nih.gov/?term=Cizek+A&cauthor_id=42082786)[3](https://pubmed.ncbi.nlm.nih.gov/42082786/#full-view-affiliation-3 "Institute of Infectious Diseases and Microbiology, Faculty of Veterinary Medicine, VETUNI, Brno, Czech Republic."),[Michael Addidle](https://pubmed.ncbi.nlm.nih.gov/?term=Addidle+M&cauthor_id=42082786)[4](https://pubmed.ncbi.nlm.nih.gov/42082786/#full-view-affiliation-4 "Department of Clinical Microbiology, Pathlab, New Zealand."),[Murray Robinson](https://pubmed.ncbi.nlm.nih.gov/?term=Robinson+M&cauthor_id=42082786)[4](https://pubmed.ncbi.nlm.nih.gov/42082786/#full-view-affiliation-4 "Department of Clinical Microbiology, Pathlab, New Zealand."),[Marc Dieu](https://pubmed.ncbi.nlm.nih.gov/?term=Dieu+M&cauthor_id=42082786)[5](https://pubmed.ncbi.nlm.nih.gov/42082786/#full-view-affiliation-5 "University of Namur, Technological Platform Mass Spectrometry (MaSUN), Namur, Belgium."),[Chaitanya Tellapragada](https://pubmed.ncbi.nlm.nih.gov/?term=Tellapragada+C&cauthor_id=42082786)[6](https://pubmed.ncbi.nlm.nih.gov/42082786/#full-view-affiliation-6 "Division of Clinical Microbiology, Department of Laboratory Medicine, Karolinska Institutet, Stockholm, Sweden."),[Christian G Giske](https://pubmed.ncbi.nlm.nih.gov/?term=Giske+CG&cauthor_id=42082786)[6](https://pubmed.ncbi.nlm.nih.gov/42082786/#full-view-affiliation-6 "Division of Clinical Microbiology, Department of Laboratory Medicine, Karolinska Institutet, Stockholm, Sweden.")[7](https://pubmed.ncbi.nlm.nih.gov/42082786/#full-view-affiliation-7 "Department of Clinical Microbiology, Karolinska University Hospital, Stockholm, Sweden."),[Kirstine Kobberøe Søgaard](https://pubmed.ncbi.nlm.nih.gov/?term=S%C3%B8gaard+KK&cauthor_id=42082786)[8](https://pubmed.ncbi.nlm.nih.gov/42082786/#full-view-affiliation-8 "Department of Clinical Microbiology, Department of Clinical Medicine, Aalborg University Hospital, Aalborg, Denmark."),[Els M Broens](https://pubmed.ncbi.nlm.nih.gov/?term=Broens+EM&cauthor_id=42082786)[9](https://pubmed.ncbi.nlm.nih.gov/42082786/#full-view-affiliation-9 "Faculty of Veterinary Medicine, Utrecht University, Utrecht, the Netherlands."),[Francesco Renzi](https://pubmed.ncbi.nlm.nih.gov/?term=Renzi+F&cauthor_id=42082786)[10](https://pubmed.ncbi.nlm.nih.gov/42082786/#full-view-affiliation-10 "Research Unit in Biology of Microorganisms (URBM), Namur Research Institute for Life Sciences (Narilis), Namur, Belgium."),[Adrian Egli](https://pubmed.ncbi.nlm.nih.gov/?term=Egli+A&cauthor_id=42082786)[11](https://pubmed.ncbi.nlm.nih.gov/42082786/#full-view-affiliation-11 "Institute of Medical Microbiology, University of Zurich, Zurich, Switzerland. aegli@imm.uzh.ch.")
+
+Affiliations
+
+*    PMID: **42082786**
+*    DOI: [10.1007/s10096-026-05526-0](https://doi.org/10.1007/s10096-026-05526-0)
+
+## β-lactamase genes in clinical isolates of Capnocytophaga canimorsus and description of a novel class D β-lactamase, OXA-1422
+
+Zoja Germuskova et al. Eur J Clin Microbiol Infect Dis.2026.
+
+## Abstract
+
+**Background:** Capnocytophaga canimorsus (C. canimorsus) is a zoonotic pathogen transmitted by dogs and cats that can cause severe infections in humans. Antimicrobial susceptibility data remain limited, but increasing genomic evidence suggests that functional β-lactamase genes may be more widespread than previously recognized.
+
+**Methods:** Three C. canimorsus isolates harboring class D β-lactamase genes were selected by genomic screening from a larger collection of the Global Capnocytophaga Consortium for detailed characterization: two isolates from human clinical infections from Sweden and New Zealand, and a commensal canine isolate from the Czech Republic. We used hybrid Illumina-Nanopore genome assemblies, phylogenetic analysis, and structural modeling to characterize the genomic context and the predicted protein features of the β-lactamase genes. The functional impact of the β-lactamases on antibiotic activity was assessed by minimum inhibitory concentration (MIC) testing and confirmed through recombinant expression in the β-lactamase-negative reference strain C. canimorsus 5 (Cc5).
+
+**Results:** We detected bla OXA-347 in a canine isolate and, for the first time, in a clinical C. canimorsus isolate from human infection. Additionally, we identified a previously uncharacterized allele, newly designated bla OXA-1422, in another clinical isolate. Both β-lactamases were chromosomally encoded without clear mobile genetic elements and were part of a distinct phylogenetic cluster within the OXA family. Structural modeling showed conserved class D β-lactamase architecture. Strains carrying either gene had elevated MICs for multiple β-lactams, and expression of each gene in Cc5 recapitulated these effects.
+
+**Conclusions:** The identification and phenotypic characterization of OXA-type β-lactamases in clinical C. canimorsus isolates refine our understanding of β-lactamase diversity in this species and underscore the need for systematic investigations of β‑lactamase prevalence in this zoonotic pathogen.
+
+**Keywords:** AMR; Beta-lactamase; Genomics; Keywords (4–6): Capnocytophaga; OXA; Zoonotic.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Ethics approval: Study was locally approved by IRB (KEK Zurich), BASEC Nr. Req-2023-00674. No patient-identifiable information was collected or analyzed. Canine isolate Capf2d6b839 was obtained as part of a research project assessed and approved by the Scientific Research Committee of VETUNI Brno, Decision No. 104/2022/FVL. Samples were collected during a standard veterinary examination of dogs at the Small Animal Clinic in order to monitor the microbiota of dental plaque in dogs with varying degrees of periodontitis. Written informed consent from the owners of the animals has been obtained. All bacterial samples were transferred to University of Zurich under a Material Transfer Agreement. Competing interests: The authors declare no competing interests. Use of AI: Large language models were used for copyediting.
+
+## Similar articles
+
+*   [A Novel 16S rRNA PCR-Restriction Fragment Length Polymorphism Assay to Accurately Distinguish Zoonotic _Capnocytophaga canimorsus_ and _C. cynodegmi_.](https://pubmed.ncbi.nlm.nih.gov/37195221/)
+
+Lai CH, Lin YS, Wang CM, Chang PC, Shia WY.Lai CH, et al.Microbiol Spectr. 2023 Jun 15;11(3):e0291622. doi: 10.1128/spectrum.02916-22. Epub 2023 May 17.Microbiol Spectr. 2023.PMID: 37195221 Free PMC article. 
+*   [Complete sequence of carbapenem-resistant _Ralstonia mannitolilytica_ clinical isolate co-producing novel class D β-lactamase OXA-1176 and OXA-1177 in Japan.](https://pubmed.ncbi.nlm.nih.gov/38483476/)
+
+Hayashi W, Kaiju H, Kayama S, Yu L, Zuo H, Sugawara Y, Azuma K, Takahashi A, Hata Y, Sugai M.Hayashi W, et al.Microbiol Spectr. 2024 Apr 2;12(4):e0391923. doi: 10.1128/spectrum.03919-23. Epub 2024 Mar 14.Microbiol Spectr. 2024.PMID: 38483476 Free PMC article. 
+*   [Infective endocarditis caused by Capnocytophaga canimorsus; a case report.](https://pubmed.ncbi.nlm.nih.gov/31684875/)
+
+Sakai J, Imanaka K, Kodana M, Ohgane K, Sekine S, Yamamoto K, Nishida Y, Kawamura T, Matsuoka T, Maesaki S, Oka H, Ohno H.Sakai J, et al.BMC Infect Dis. 2019 Nov 4;19(1):927. doi: 10.1186/s12879-019-4492-3.BMC Infect Dis. 2019.PMID: 31684875 Free PMC article. 
+*   [_Capnocytophaga canimorsus_ - a potent pathogen in immunocompetent humans - systematic review and retrospective observational study of case reports.](https://pubmed.ncbi.nlm.nih.gov/31709860/)
+
+Mader N, Lührs F, Langenbeck M, Herget-Rosenthal S.Mader N, et al.Infect Dis (Lond). 2020 Feb;52(2):65-74. doi: 10.1080/23744235.2019.1687933. Epub 2019 Nov 9.Infect Dis (Lond). 2020.PMID: 31709860 
+*   [Capnocytophaga canimorsus infection in cats: ABCD guidelines on prevention and management.](https://pubmed.ncbi.nlm.nih.gov/23813822/)
+
+Lloret A, Egberink H, Addie D, Belák S, Boucraut-Baralon C, Frymus T, Pennisi MG, Gruffydd-Jones T, Hartmann K, Hosie MJ, Lutz H, Marsilio F, Möstl K, Radford AD, Thiry E, Truyen U, Horzinek MC.Lloret A, et al.J Feline Med Surg. 2013 Jul;15(7):588-90. doi: 10.1177/1098612X13489220.J Feline Med Surg. 2013.PMID: 23813822 Free PMC article.Review. 
+
+## References
+
+1.       1.    Brenner DJ, Hollis DG, Fanning GR, Weaver RE (1989) Capnocytophaga canimorsus sp. nov. (formerly CDC group DF-2), a cause of septicemia following dog bite, and C. cynodegmi sp. nov., a cause of localized wound infection following dog bite. J Clin Microbiol 27:231–235. [https://doi.org/10.1128/jcm.27.2.231-235.1989](https://doi.org/10.1128/jcm.27.2.231-235.1989) - [DOI](https://doi.org/10.1128/jcm.27.2.231-235.1989) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/2915017/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/267282/)
+
+2.       1.    Gaastra W, Lipman LJA (2010) Capnocytophaga canimorsus. Vet Microbiol 140:339–46. [https://doi.org/10.1016/j.vetmic.2009.01.040](https://doi.org/10.1016/j.vetmic.2009.01.040) - [DOI](https://doi.org/10.1016/j.vetmic.2009.01.040) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/19268498/)
+
+3.       1.    Suzuki M, Kimura M, Imaoka K, Yamada A (2010) Prevalence of Capnocytophaga canimorsus and Capnocytophaga cynodegmi in dogs and cats determined by using a newly established species-specific PCR. Vet Microbiol 144:172–6. [https://doi.org/10.1016/j.vetmic.2010.01.001](https://doi.org/10.1016/j.vetmic.2010.01.001) - [DOI](https://doi.org/10.1016/j.vetmic.2010.01.001) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/20144514/)
+
+4.       1.    Pers C, Gahrn-Hansen B, Frederiksen W (1996) Capnocytophaga canimorsus septicemia in Denmark, 1982–1995: review of 39 cases. Clin Infect Dis 23:71–75. [https://doi.org/10.1093/clinids/23.1.71](https://doi.org/10.1093/clinids/23.1.71) - [DOI](https://doi.org/10.1093/clinids/23.1.71) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/8816132/)
+
+5.       1.    Hästbacka J, Hynninen M, Kolho E (2016) Capnocytophaga canimorsus bacteremia: clinical features and outcomes from a Helsinki ICU cohort. Acta Anaesthesiol Scand 60:1437–1443. [https://doi.org/10.1111/aas.12752](https://doi.org/10.1111/aas.12752) - [DOI](https://doi.org/10.1111/aas.12752) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/27251795/)
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Springer](https://dx.doi.org/10.1007/s10096-026-05526-0)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/non-CPTAC-3897)

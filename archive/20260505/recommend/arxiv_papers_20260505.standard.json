@@ -1,0 +1,705 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-05-05T20:03:10.286345+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 4,
+    "deep_cap": 9,
+    "deep_selected": 4,
+    "quick_candidates": 10,
+    "quick_skim_target": 14,
+    "quick_selected": 10
+  },
+  "deep_dive": [
+    {
+      "id": "42048453",
+      "title": "Parallel algorithms for phylogenetic inference under a structured coalescent approximation.",
+      "abstract": "Advances in molecular epidemiology and computational modeling have improved our ability to track pathogen evolution, but accurate reconstruction of spatiotemporal transmission remains essential for epidemic preparedness and response. Structured coalescent models offer a phylogeographic framework by restricting coalescence to lineages within the same deme. Although the Bayesian structured coalescent approximation (BASTA) provides a tractable approach, contemporary phylogeographic analyses involving dozens of localities and hundreds to thousands of genomes exceed the computational capacity of existing implementations. The BASTA likelihood scales cubically with deme count and quadratically with sequence count due to matrix exponentiation and partial likelihood vectors update. Here, we introduce an algorithmic restructuring of the structured coalescent likelihood that eliminates redundancies, optimizes memory access, and exposes parallelization opportunities. Our approach reorganizes computations along three dimensions: i) independent calculation of deme-transition probability matrices across time intervals; ii) simultaneous evaluation of partial likelihood vectors within temporal slices; and iii) concurrent aggregation of coalescent probabilities. Algorithmic restructuring cuts average coalescent likelihood computation by 7 to 8 fold, and parallelization further boosts performance to 10 to 26 fold, enabling joint phylogeographic analyses of dengue virus across 10 South American countries and H5N1 avian influenza across 20 Eurasian regions to finish in a fraction of prior time. This computational efficiency also enables comparison between backward-in-time structured coalescent approximations and forward-in-time phylogeographic methods, revealing that the former provides appropriately conservative posterior estimates, particularly at intermediate phylogenetic depths. We integrate our implementation into the BEAST X and BEAGLE software packages, providing researchers with an accessible and scalable tool for real-time phylogeographic surveillance of rapidly evolving pathogens.",
+      "authors": [
+        "Yucai Shao",
+        "Marc A Suchard",
+        "Andrew Rambaut",
+        "Xiang Ji",
+        "Philippe Lemey",
+        "Tetyana I Vasylyeva",
+        "Guy Baele"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-05",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42048453/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "parallel algorithms for phylogenetic inference and transmission tracking",
+      "llm_evidence_cn": "用于系统发育推断和传播追踪的并行算法",
+      "llm_evidence": "用于系统发育推断和传播追踪的并行算法",
+      "canonical_evidence": "用于系统发育推断和传播追踪的并行算法",
+      "llm_tldr_en": "Presents parallel algorithms to improve the speed of phylogenetic inference for tracking pathogen evolution.",
+      "llm_tldr_cn": "提出了并行算法，以提高追踪病原体进化的系统发育推断速度。",
+      "llm_tldr": "提出了并行算法，以提高追踪病原体进化的系统发育推断速度。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for phylogenetic and transmission inference",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42081565",
+      "title": "VUStruct: A compute pipeline for high throughput and personalized structural biology.",
+      "abstract": "Effective diagnosis and treatment of rare genetic disorders requires the interpretation of a patient's genetic variants of unknown significance (VUSs). Today, clinical decision-making is primarily guided by gene-phenotype association databases and DNA-based scoring methods. Our web-accessible variant analysis pipeline, VUStruct, supplements these established approaches by deeply analyzing the downstream molecular impact of variation in context of 3D protein structure. VUStruct's growing impact is fueled by the co-proliferation of protein 3D structural models, gene sequencing, compute power, and artificial intelligence. Contextualizing VUSs in protein 3D structural models also illuminates longitudinal genomics studies and biochemical bench research focused on VUS, and we created VUStruct for clinicians and researchers alike. We now introduce VUStruct to the broad scientific community as a mature, web-facing, extensible, High-Performance Computing (HPC) software pipeline. VUStruct maps missense variants onto automatically selected protein structures and launches a broad range of analyses. These include energy-based assessments of protein folding and stability, pathogenicity prediction through spatial clustering analysis, and machine learning (ML) predictors of binding surface disruptions and nearby post-translational modification sites. The pipeline also considers the entire input set of VUS and identifies genes potentially involved in digenic disease. VUStruct's utility in clinical rare disease genome interpretation has been demonstrated through its analysis of over 175 Undiagnosed Disease Network (UDN) Patient cases. VUStruct-leveraged hypotheses have often informed clinicians in their consideration of additional patient testing, and we report here details from two cases where VUStruct was key to their solution. We also note successes with academic research collaborators, for whom VUStruct has informed research directions in both computational genomics and wet lab studies.",
+      "authors": [
+        "Christopher W Moth",
+        "Jonathan H Sheehan",
+        "Abdullah Al Mamun",
+        "R Michael Sivley",
+        "Alican Gulsevin",
+        "David C Rinker",
+        "Zenab F Mchaourab",
+        "Undiagnosed Diseases Network",
+        "John A Capra",
+        "Jens Meiler"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-04",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42081565/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "AI and 3D protein structural models for genetic variant analysis",
+      "llm_evidence_cn": "AI与蛋白质3D结构模型用于遗传变异分析",
+      "llm_evidence": "AI与蛋白质3D结构模型用于遗传变异分析",
+      "canonical_evidence": "AI与蛋白质3D结构模型用于遗传变异分析",
+      "llm_tldr_en": "Introduces VUStruct, a pipeline using AI and 3D protein structures to interpret genetic variants of unknown significance.",
+      "llm_tldr_cn": "介绍了VUStruct，一个利用AI和蛋白质3D结构解释意义不明遗传变异的流程。",
+      "llm_tldr": "介绍了VUStruct，一个利用AI和蛋白质3D结构解释意义不明遗传变异的流程。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "geometric deep learning and foundation models for protein structure modeling",
+      "matched_requirement_id": "req-17",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42082522",
+      "title": "Sex-specific microbial and tryptophan signatures of depression implicate archaeal methanogens and indole-3-acetic acid only in women.",
+      "abstract": "Sex differences in mental health are often overlooked, yet gut microbiota-host metabolite interactions may contribute to sexual dimorphism in depression. In a population-based cohort, we investigated sex-specific links among plasma tryptophan metabolites, depressive symptoms (PHQ-9), and the gut microbiome, controlling for smoking, diet, alcohol, and physical activity. Women (N = 419) exhibited higher plasma indole-3-acetic acid (IAA) and picolinic acid (PA) concentrations, but lower trigonelline (TRIG) than men (N = 383). Machine learning models with SHAP explanations revealed that IAA and TRIG were positively associated, whereas PA was negatively associated with depression severity in women, whereas only kynurenic acid (KA) was inversely associated in men. In women, depression severity strongly correlated with methanogenic archaea, including Methanobrevibacter smithii, and microbial methane-production pathways. Methanobrevibacter and specifically M. smithii were negatively linked to genes for tryptophan, PA, and KA biosynthesis, but positively to genes for IAA and nicotinate/nicotinamide metabolism. Most microbial species associated with depression severity in women were predicted to produce IAA. These findings reveal pronounced sex-specific microbiome-metabolite interactions, highlighting potentially distinct microbial mechanisms shaping depression in men and women.",
+      "authors": [
+        "Anna Motger-Albertí",
+        "Laura Gallardo-Nuell",
+        "Marisel Rosell-Díaz",
+        "Mihaela Stefoglo",
+        "Javier Pons",
+        "Josep Garre-Olmo",
+        "Vicente Pérez-Brocal",
+        "Andrés Moya",
+        "Josep Puig",
+        "Rafael Ramos",
+        "Jordi Mayneris-Perxachs",
+        "José Manuel Fernández-Real"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-04",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42082522/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Machine learning for microbiome-host metabolite interactions and depression severity prediction",
+      "llm_evidence_cn": "机器学习用于微生物组-宿主代谢物相互作用及抑郁严重程度预测",
+      "llm_evidence": "机器学习用于微生物组-宿主代谢物相互作用及抑郁严重程度预测",
+      "canonical_evidence": "机器学习用于微生物组-宿主代谢物相互作用及抑郁严重程度预测",
+      "llm_tldr_en": "Uses machine learning to identify sex-specific gut microbiome and metabolite signatures associated with depression.",
+      "llm_tldr_cn": "利用机器学习识别与抑郁症相关的性别特异性肠道微生物组和代谢物特征。",
+      "llm_tldr": "利用机器学习识别与抑郁症相关的性别特异性肠道微生物组和代谢物特征。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42082786",
+      "title": "β-lactamase genes in clinical isolates of Capnocytophaga canimorsus and description of a novel class D β-lactamase, OXA-1422.",
+      "abstract": "BACKGROUND: Capnocytophaga canimorsus (C. canimorsus) is a zoonotic pathogen transmitted by dogs and cats that can cause severe infections in humans. Antimicrobial susceptibility data remain limited, but increasing genomic evidence suggests that functional β-lactamase genes may be more widespread than previously recognized. METHODS: Three C. canimorsus isolates harboring class D β-lactamase genes were selected by genomic screening from a larger collection of the Global Capnocytophaga Consortium for detailed characterization: two isolates from human clinical infections from Sweden and New Zealand, and a commensal canine isolate from the Czech Republic. We used hybrid Illumina-Nanopore genome assemblies, phylogenetic analysis, and structural modeling to characterize the genomic context and the predicted protein features of the β-lactamase genes. The functional impact of the β-lactamases on antibiotic activity was assessed by minimum inhibitory concentration (MIC) testing and confirmed through recombinant expression in the β-lactamase-negative reference strain C. canimorsus 5 (Cc5). RESULTS: We detected blaOXA-347 in a canine isolate and, for the first time, in a clinical C. canimorsus isolate from human infection. Additionally, we identified a previously uncharacterized allele, newly designated blaOXA-1422, in another clinical isolate. Both β-lactamases were chromosomally encoded without clear mobile genetic elements and were part of a distinct phylogenetic cluster within the OXA family. Structural modeling showed conserved class D β-lactamase architecture. Strains carrying either gene had elevated MICs for multiple β-lactams, and expression of each gene in Cc5 recapitulated these effects. CONCLUSIONS: The identification and phenotypic characterization of OXA-type β-lactamases in clinical C. canimorsus isolates refine our understanding of β-lactamase diversity in this species and underscore the need for systematic investigations of β‑lactamase prevalence in this zoonotic pathogen.",
+      "authors": [
+        "Zoja Germuskova",
+        "Eleonora Pronzini",
+        "Fanny Wegner",
+        "Tim Roloff",
+        "Tianyan Song",
+        "Miroslava Barancekova",
+        "Alois Cizek",
+        "Michael Addidle",
+        "Murray Robinson",
+        "Marc Dieu",
+        "Chaitanya Tellapragada",
+        "Christian G Giske",
+        "Kirstine Kobberøe Søgaard",
+        "Els M Broens",
+        "Francesco Renzi",
+        "Adrian Egli"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-05",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42082786/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Hybrid Illumina-Nanopore genome assembly for identifying antimicrobial resistance genes",
+      "llm_evidence_cn": "混合Illumina-Nanopore基因组组装用于鉴定抗菌素耐药基因",
+      "llm_evidence": "混合Illumina-Nanopore基因组组装用于鉴定抗菌素耐药基因",
+      "canonical_evidence": "混合Illumina-Nanopore基因组组装用于鉴定抗菌素耐药基因",
+      "llm_tldr_en": "Uses hybrid sequencing and assembly to characterize novel beta-lactamase genes in zoonotic pathogens.",
+      "llm_tldr_cn": "利用混合测序和组装技术鉴定了人畜共患病原体中新型β-内酰胺酶基因。",
+      "llm_tldr": "利用混合测序和组装技术鉴定了人畜共患病原体中新型β-内酰胺酶基因。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "deep learning for genomic basecalling variant calling and microbial genome assembly",
+      "matched_requirement_id": "req-50",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "42060722",
+      "title": "Gingipain proteases from the bacterium",
+      "abstract": "Physical interactions with bacterial colonizers at mucosal barrier surfaces can have beneficial or detrimental effects on viral infectivity and transmission. The oropharyngeal mucosal surface is a major portal of entry for many pathogenic respiratory viruses, such as respiratory syncytial virus (RSV), and also harbors a rich and diverse microbiome. Whether oropharyngeal bacteria directly or indirectly influence host susceptibility to respiratory viruses remains unknown. Here, we show that Porphyromonas gingivalis, an oral pathobiont, potently and uniquely suppresses airway epithelial antiviral immunity by degrading interferons (IFNs) and transcriptionally repressing multiple IFN-stimulated genes (ISGs), which are essential for providing resistance to viral infection. Despite inducing a state of IFN hyporesponsiveness, we found that P. gingivalis counterintuitively protected against severe infection by RSV and the closely related murine-specific Sendai virus (SeV) in two independent models: human airway bronchial epithelial transwell cultures and airway infection in mice. This protection was conferred by the activity of P. gingivalis cysteine proteases (gingipains) that cleaved envelope glycoproteins on RSV and SeV, thereby impairing their infectious capacity. Thus, our data show a nuanced role for P. gingivalis in modulating host susceptibility to viral infection. While P. gingivalis can significantly inhibit host IFN responses, its proteases preemptively reduce viral infectious capacity, protecting the host from severe damage associated with respiratory infections.",
+      "authors": [
+        "Carlos J Rodriguez Hernandez",
+        "Alonso Cruz-Cruz",
+        "Chandra L Shrestha",
+        "Marina Terekhova",
+        "Phylip Chen",
+        "John Perpich",
+        "Barbara Potempa",
+        "Katherine Carey",
+        "Michelle Rohlfing",
+        "Mark E Peeples",
+        "Mitchell H Grayson",
+        "Jan Potempa",
+        "Maxim Artyomov",
+        "Richard J Lamont",
+        "Juhi Bagaitkar"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-05",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42060722/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "bacterial pathobiont suppression of host antiviral immunity",
+      "llm_evidence_cn": "细菌病原体抑制宿主抗病毒免疫",
+      "llm_evidence": "细菌病原体抑制宿主抗病毒免疫",
+      "canonical_evidence": "细菌病原体抑制宿主抗病毒免疫",
+      "llm_tldr_en": "Shows how P. gingivalis suppresses host antiviral immunity, influencing susceptibility to respiratory viruses.",
+      "llm_tldr_cn": "揭示了牙龈卟啉单胞菌如何抑制宿主抗病毒免疫，从而影响对呼吸道病毒的易感性。",
+      "llm_tldr": "揭示了牙龈卟啉单胞菌如何抑制宿主抗病毒免疫，从而影响对呼吸道病毒的易感性。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42081539",
+      "title": "Interpretable miRNA-based prediction model for early detection of pancreatic cancer: Development and cross-platform validation.",
+      "abstract": "BACKGROUND: Pancreatic cancer remains one of the most lethal malignancies, largely due to delayed diagnosis. Although microRNA (miRNA) biomarkers show promise, many previous studies lack cross-platform validation and model interpretability, limiting clinical applicability. METHODS: We developed and externally validated an interpretable diagnostic model based on a 20-miRNA signature using publicly available datasets. A total of 801 samples were included, of which 767 were used for model training and validation. The training cohort comprised GSE59856 and GSE85589 (n = 216), and independent validation cohorts included TCGA-PAAD and GTEx pancreas (n = 585), with additional serum-based validation (GSE128508; n = 30). Feature selection and model development were conducted exclusively within the training cohort. A Random Forest classifier was applied, and model interpretability was assessed using SHAP analysis. Diagnostic performance was evaluated using cross-validation and independent external validation. RESULTS: The model achieved a cross-validation AUC of 0.87 (95% CI 0.82-0.92), with sensitivity of 84.7% and specificity of 83.1% in the training cohort. External validation across independent RNA-seq and qRT-PCR datasets demonstrated AUC values ranging from 0.78 to 0.83. Performance remained broadly consistent across sample types and platforms. SHAP analysis identified miR-6875-5p, miR-196a-5p, and miR-1246 among the principal contributors to classification. Functional enrichment analysis suggested involvement in canonical cancer-related pathways. CONCLUSIONS: We developed and externally validated an interpretable 20-miRNA signature for pancreatic cancer diagnosis with consistent performance across independent cohorts. Although based on retrospective datasets, the structured validation strategy and explainable modeling framework provide a transparent foundation for future prospective evaluation.",
+      "authors": [
+        "Yanfei Zhu",
+        "Linglin Zhu",
+        "Yumei Liu",
+        "Yongshuo Ji",
+        "Junqiu Zhu",
+        "Hong Zhao"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-01-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42081539/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "interpretable miRNA-based diagnostic model for cancer detection",
+      "llm_evidence_cn": "基于 miRNA 的可解释癌症检测诊断模型",
+      "llm_evidence": "基于 miRNA 的可解释癌症检测诊断模型",
+      "canonical_evidence": "基于 miRNA 的可解释癌症检测诊断模型",
+      "llm_tldr_en": "Develops an interpretable 20-miRNA signature model for early pancreatic cancer detection.",
+      "llm_tldr_cn": "开发了一种基于 20-miRNA 特征的可解释诊断模型，用于胰腺癌早期检测。",
+      "llm_tldr": "开发了一种基于 20-miRNA 特征的可解释诊断模型，用于胰腺癌早期检测。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "trustworthy and interpretable AI systems for bioinformatics workflows",
+      "matched_requirement_id": "req-37",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42082772",
+      "title": "Significance and challenges in dissecting cancer-bacteriome interactions.",
+      "abstract": "Cancer is the leading cause of death around the world. While some types of cancer have become manageable due to advancements in medicine, most cancers still lack available cures and treatments. Recent studies have shown that changes in the human microbiome, especially in the bacteriome, are associated with some cancers. Certain bacterial strains have been reported to promote the initiation and progression of cancer in humans. Other studies have used sequencing to observe changes in the bacteriome of healthy and cancer patients. However, studies that investigate the interactions between cancer cells and the complex bacteriome as a whole remain scarce. This is due to the absence of experimental methods to study the interactions between cancer cells and complex bacterial populations, which has delayed the progress in identifying cancer-causing and cancer-inhibiting bacteria, and in understanding the bacterial interactions and their influence on host cells. Here, we review approaches to studying cancer cell interactions with complex bacteriomes and suggest possible routes to overcome this problem, highlighting the need for interdisciplinary studies that may help advance this field. We speculate that a good understanding of cancer-bacteriome interactions may open the door to new lines of holistic bacteriotherapy for cancer that is otherwise unavailable.",
+      "authors": [
+        "Ibraheem Alshareedah",
+        "James D Brunner",
+        "Patrick S G Chain",
+        "Anand Kumar"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-04",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42082772/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "microbiome host interaction and cancer-bacteriome interactions",
+      "llm_evidence_cn": "微生物组与宿主相互作用及癌症-细菌组相互作用",
+      "llm_evidence": "微生物组与宿主相互作用及癌症-细菌组相互作用",
+      "canonical_evidence": "微生物组与宿主相互作用及癌症-细菌组相互作用",
+      "llm_tldr_en": "Discusses the significance and challenges of studying interactions between the human bacteriome and cancer cells.",
+      "llm_tldr_cn": "探讨了研究人类细菌组与癌细胞之间相互作用的意义和挑战。",
+      "llm_tldr": "探讨了研究人类细菌组与癌细胞之间相互作用的意义和挑战。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42081548",
+      "title": "Rheumatic Digital Twin: Proposed Machine Learning-Based Multimodal Framework to Inform Clinical Decision-Making.",
+      "abstract": "Rheumatic diseases are chronic, immune-mediated conditions characterized by significant heterogeneity in presentation and disease course. However, current clinical approaches often rely on snapshot-based assessments that fail to capture the complex longitudinal evolution of these conditions. To address these limitations and support the implementation of precision medicine, we present the design for the Rheumatic Digital Twin, a novel, modular conceptual framework intended to integrate heterogeneous multimodal data, ranging from electronic health records and clinical notes to imaging and omics, into a dynamic, computational representation of the patient journey. Our theoretical architecture addresses challenges related to data silos and variable availability of data modalities through a multistage approach that envisions the use of domain-specific foundation models to independently process distinct data modalities. To effectively model the temporal progression inherent in chronic diseases, the proposed design utilizes Transformer architectures, leveraging self-attention mechanisms to treat patient events, such as lab results or medication changes, as sequential data tokens. We describe how these unimodal representations would subsequently be fused via joint embedding techniques to construct a shared, multimodal representational space. Envisioned to function analogously to a recommender system, the Rheumatic Digital Twin framework is modeled to map patients into a latent space where proximity reflects clinical and biological similarity. By identifying \"nearest neighbors,\" historical patients with comparable trajectories, the system aims to enable in silico cohorting, theoretically allowing clinicians to forecast key clinical events, predict treatment responses, and identify likely disease courses based on the outcomes of similar peers.",
+      "authors": [
+        "Daniyal Selani",
+        "Rachel Knevel",
+        "Marcel Reinders",
+        "Erik B van den Akker"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-04",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42081548/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "multimodal framework integrating EHR, imaging, and omics",
+      "llm_evidence_cn": "整合电子健康记录、影像和组学的多模态框架",
+      "llm_evidence": "整合电子健康记录、影像和组学的多模态框架",
+      "canonical_evidence": "整合电子健康记录、影像和组学的多模态框架",
+      "llm_tldr_en": "Proposes a digital twin framework using machine learning to integrate multimodal data for clinical decision-making.",
+      "llm_tldr_cn": "提出了一种利用机器学习整合多模态数据以辅助临床决策的数字孪生框架。",
+      "llm_tldr": "提出了一种利用机器学习整合多模态数据以辅助临床决策的数字孪生框架。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "machine learning for multi omics integration",
+      "matched_requirement_id": "req-25",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42083308",
+      "title": "Gut microbiota and diet in colorectal cancer: Converging determinants of carcinogenesis.",
+      "abstract": "Diet and the gut microbiome are major, interdependent determinants of colorectal cancer (CRC) risk. This review discusses current evidence on how dietary patterns reshape microbial ecology, modulate microbial virulence, and alter host metabolic, inflammatory, and oncogenic pathways to influence colorectal carcinogenesis. We highlight key CRC-associated microbes, including pks⁺ Escherichia coli, Fusobacterium nucleatum, enterotoxigenic Bacteroides fragilis, and Streptococcus gallolyticus, and discuss how diet governs their abundance, toxin production, and oncogenic potential. Mechanistic investigations into diet-microbe interactions reveal how pro-inflammatory, low-fiber Western-style diets foster mucosal inflammation, generation of reactive oxygen and nitrogen species, and genotoxic microbial niches, whereas fiber- and polyphenol-rich diets support protective commensals and production of anti-inflammatory metabolites. We also outline major challenges, including interindividual microbiome variability and limited translational models, and propose future directions for integrating dietary, microbial, and host-targeted strategies for CRC prevention and therapy.",
+      "authors": [
+        "Bhupesh Kumar Thakur",
+        "Saurav Roy Choudhury",
+        "Williams Turpin",
+        "Alberto Martin"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-12-31",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42083308/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "gut microbiota and diet in colorectal cancer and microbial virulence",
+      "llm_evidence_cn": "结直肠癌中的肠道微生物群、饮食与微生物毒力",
+      "llm_evidence": "结直肠癌中的肠道微生物群、饮食与微生物毒力",
+      "canonical_evidence": "结直肠癌中的肠道微生物群、饮食与微生物毒力",
+      "llm_tldr_en": "Reviews how diet and gut microbiota interact to influence colorectal cancer risk and oncogenic pathways.",
+      "llm_tldr_cn": "综述了饮食和肠道微生物群如何相互作用以影响结直肠癌风险和致癌途径。",
+      "llm_tldr": "综述了饮食和肠道微生物群如何相互作用以影响结直肠癌风险和致癌途径。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42082579",
+      "title": "Noninvasive molecular subtyping of breast cancer using multimodal ultrasound spatiotemporal transformer.",
+      "abstract": "Molecular subtyping is essential for guiding systemic therapy in breast cancer but currently requires invasive biopsy. Conventional B-mode ultrasound offers rich anatomical information, yet lacks the functional dynamics needed to capture the comprehensive biology of tumors. Here, we present the first multimodal ultrasound spatiotemporal transformer, MUST-Sub, which integrates paired B-mode morphological features with contrast-enhanced ultrasound (CEUS) hemodynamic patterns to classify Luminal, HER2-enriched, and triple-negative subtypes. Training on a retrospective development cohort, and validated on internal, prospective, and multicenter external cohorts, MUST-Sub achieved macro-average areas under the receiver operating characteristic curve (AUCs) of 0.94, 0.90, and 0.92, respectively, and Luminal versus non-Luminal AUCs of 0.92, 0.88, and 0.91, outperforming B-mode-only deep learning baselines. MUST-Sub also produced interpretable quantitative biomarkers derived from spatiotemporal attention: the morphology-associated biomarker showed inverse correlations with tumor size (Spearman ρ = [- 0.34, - 0.23]; all p < . 05), while the hemodynamics-associated biomarker correlated positively with tumor size (ρ = [0.24, 0.32]; all p < . 05) and Ki-67 proliferation index (ρ = [0.21, 0.24]; all p < . 05). These results suggest that multimodal ultrasound with spatiotemporal modeling can serve as a promising adjunctive approach for non-invasive pre-biopsy molecular phenotyping of breast cancer.",
+      "authors": [
+        "Tao Chen",
+        "Qinghua Niu",
+        "Zichen An",
+        "Chenhui Wang",
+        "Zhihao Chen",
+        "Lianfang Du",
+        "Chao Jia",
+        "Chunxiao Li",
+        "Jiying Gu",
+        "Ting Sun",
+        "Yuxiang Wang",
+        "Fan Li",
+        "Hongming Shan"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-04",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42082579/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "multimodal transformer for cancer subtyping using ultrasound and hemodynamics",
+      "llm_evidence_cn": "利用超声和血流动力学的多模态 Transformer 进行癌症分型",
+      "llm_evidence": "利用超声和血流动力学的多模态 Transformer 进行癌症分型",
+      "canonical_evidence": "利用超声和血流动力学的多模态 Transformer 进行癌症分型",
+      "llm_tldr_en": "A multimodal spatiotemporal transformer for noninvasive molecular subtyping of breast cancer.",
+      "llm_tldr_cn": "一种用于乳腺癌无创分子分型的多模态时空 Transformer 模型。",
+      "llm_tldr": "一种用于乳腺癌无创分子分型的多模态时空 Transformer 模型。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "multimodal models combining sequence structure phenotype and text",
+      "matched_requirement_id": "req-24",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42084394",
+      "title": "Multi-omics profiling of fungal balls in chronic pulmonary aspergillosis patients reveals microbiome dynamics and metabolic adaptations.",
+      "abstract": "Fungal balls (aspergillomas) are a debilitating complication of chronic pulmonary aspergillosis, but their functional biology as multi-kingdom ecosystems is poorly understood. Through integrated multi-omics analysis of 61 patient-derived fungal balls, we reveal their complex ecology. While Aspergillus fumigatus dominates the fungal niche (59% of patients), bacterial co-colonization is ubiquitous, primarily by Pseudomonas aeruginosa and Haemophilus influenzae. Metabolomics and metatranscriptomics unveil a structured division of labor and active warfare, including metabolic cross-feeding, competition for iron, and reciprocal antagonism via secondary metabolites, such as fumagillin and fumigaclavine C produced by A. fumigatus. Host metabolomics and transcriptomics revealed a potent but dysregulated human immune response, characterized by neutrophil activation and failed resolution. Our findings redefine aspergilloma not as a mere fungal aggregate, but as a resilient polymicrobial biofilm across kingdoms, in which synergistic and antagonistic inter-kingdom interactions drive pathogenesis and chronicity, suggesting new therapeutic strategies targeting the pathogenic consortium.IMPORTANCEChronic pulmonary aspergillosis (CPA) and its hallmark fungal balls (aspergillomas) represent a debilitating and difficult-to-treat respiratory disease, affecting millions worldwide. Here, we provide the first integrated multi-omics profile of surgically resected fungal balls from 61 CPA patients, revealing these structures not as mere fungal colonies, but as resilient, cross-kingdom biofilms teeming with bacterial co-colonizers, particularly Pseudomonas aeruginosa and Haemophilus influenzae. Our findings uncover a dynamic battlefield where fungi and bacteria engage in metabolic cross-feeding, chemical warfare, and competition for nutrients such as iron. We demonstrate that the host mounts a potent but dysregulated immune response characterized by chronic neutrophilic inflammation and failed resolution, driving tissue damage and disease persistence. Our data provide a foundation for novel therapeutic strategies aimed at disrupting microbial synergy, modulating host inflammation, and breaking the cycle of chronic infection, an approach that could significantly improve outcomes for patients with this refractory disease.",
+      "authors": [
+        "Chan Liu",
+        "Matheus Mertz Ribeiro",
+        "Jian Yang",
+        "Liangyu Li",
+        "Jianxiong Li",
+        "Xianqiu Chen",
+        "Yude Wang",
+        "Le-Le Wang",
+        "Beibei Wang",
+        "Yiming Zhou",
+        "Jing Zhang",
+        "Jijin Jiang",
+        "Jielu Lin",
+        "Endrews Delbaje",
+        "Jin-Fu Xu",
+        "Gustavo H Goldman",
+        "Shuo Liang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-05",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42084394/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Multi-omics integration for microbiome dynamics and metabolic adaptations in fungal balls",
+      "llm_evidence_cn": "多组学整合研究真菌球中的微生物组动态和代谢适应",
+      "llm_evidence": "多组学整合研究真菌球中的微生物组动态和代谢适应",
+      "canonical_evidence": "多组学整合研究真菌球中的微生物组动态和代谢适应",
+      "llm_tldr_en": "Integrates metabolomics and metatranscriptomics to reveal the complex ecology and interactions in aspergillomas.",
+      "llm_tldr_cn": "整合代谢组学和元转录组学，揭示曲霉球中复杂的生态和相互作用。",
+      "llm_tldr": "整合代谢组学和元转录组学，揭示曲霉球中复杂的生态和相互作用。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42082766",
+      "title": "Implications for distancing measures on in-person school and work attendance from Italian post-pandemic social contact data.",
+      "abstract": "BACKGROUND: The collection of updated post-COVID-19 data on social contacts is critical for future epidemiological assessment and evaluation of non-pharmaceutical interventions. METHODS: We conducted two waves of an online survey in Italy (March 2022 and March 2023), collecting representative data on direct (verbal/physical) and indirect (indoor co-location) contacts. Using a generalised linear mixed model, we analysed social contact determinants and the impact of work-from-home and distance learning on reducing a pathogen's reproduction number (R). Additionally, we calibrated an age-structured model to the 2023-2024 influenza A epidemic in Italy to explore the impact of alternative in-person attendance scenarios on infection attack rates. RESULTS: We find that in-person attendance significantly increases contacts: adults attending in person have 1.69 times (95%CI: 1.55-1.83) more contacts than those staying home, while children/adolescents 2.36 (95%CI: 1.96-2.84). Limiting in-person work alone marginally affects R, whereas combining work-from-home with distance learning (from primary school onwards) reduces R by up to 23.2% (95%CI: 13.7-30.1%), with minimal additional benefit from suspending early childcare. In the influenza A case study, seasonal infection attack rates range from 14.7% (95%PI: 12.8-16.5%) under full in-person attendance to <0.2% under the most restrictive scenario. Moderate interventions (suspension of tertiary education and work-from-home) reduce attack rates by up to one fourth among adults (15-64 years) and one sixth among older individuals. CONCLUSIONS: This study provides post-pandemic contact matrices for Italy, essential for modelling transmission of respiratory pathogens, and quantitative evidence on the epidemiological impact of targeted physical distancing measures, thereby supporting future policy design.",
+      "authors": [
+        "Lorenzo Lucchini",
+        "Valentina Marziano",
+        "Filippo Trentini",
+        "Chiara Chiavenna",
+        "Elena D'Agnese",
+        "Vittoria Offeddu",
+        "Mattia Manica",
+        "Piero Poletti",
+        "Duilio Balsamo",
+        "Giorgio Guzzetta",
+        "Marco Ajelli",
+        "Alessia Melegaro",
+        "Stefano Merler"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-04",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42082766/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "modeling pathogen reproduction number and social contact determinants",
+      "llm_evidence_cn": "病原体再生数建模与社交接触决定因素分析",
+      "llm_evidence": "病原体再生数建模与社交接触决定因素分析",
+      "canonical_evidence": "病原体再生数建模与社交接触决定因素分析",
+      "llm_tldr_en": "Uses generalized linear mixed models to analyze social contact data and its impact on pathogen transmission.",
+      "llm_tldr_cn": "使用广义线性混合模型分析社交接触数据及其对病原体传播的影响。",
+      "llm_tldr": "使用广义线性混合模型分析社交接触数据及其对病原体传播的影响。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI driven outbreak surveillance genomic epidemiology and transmission modeling",
+      "matched_requirement_id": "req-12",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42084500",
+      "title": "Altered crosstalk of bacterial lipopolysaccharide with immune cells in colorectal cancer compared to paired adjacent intestinal tissue.",
+      "abstract": "Commensal bacteria play a crucial role in modulating human immune responses in the intestine. Under homeostatic conditions, the gut microbiota is tightly regulated by interactions with the mucosal immune system. However, colorectal cancer (CRC) is characterized by an imbalance in bacterial composition and bacterial translocation across the intestinal barrier. The spatial distribution of bacteria and their interactions with immune cells in CRC tumors are poorly understood. By applying 3D light-sheet imaging, spatial transcriptomics, and imaging mass cytometry to patient-derived CRC and adjacent intestinal tissue, bacterial lipopolysaccharide (LPS) can be visualized alongside immune cells and vessels. The results showed regional bacterial LPS accumulation and colocalization with distinct immune cell subsets. In CRC-adjacent tissue, bacterial LPS is mainly associated with CD11c+ dendritic cells, CD15+ neutrophils, and CD163+ macrophages. In matched CRC tissue, the number and LPS colocalization of CD163+ macrophages and CD11c+ dendritic cells decreased, while CD15+ neutrophils and their colocalization with LPS increased. Notably, immune cell composition and immune cell‒bacteria interactions differ between tumors and adjacent tissue, offering insights into host‒microbiota dynamics and mechanistic interactions.",
+      "authors": [
+        "Åsa Walberg",
+        "Anna Maria Reuss",
+        "Reihane Ziadlou",
+        "Céline Mamie",
+        "Claudia Gottier",
+        "Anna White",
+        "Mohammadmilad Ameri",
+        "Marie-Charlotte Brüggen",
+        "Matthias Turina",
+        "Michaela Ramser",
+        "Paulina Wawrzyniak",
+        "Maria Walker",
+        "Luca Truscello",
+        "Adriano Aguzzi",
+        "Anne Müller",
+        "Barbara Hubeli",
+        "Yasser Morsy",
+        "Michael Scharl"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-12-31",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42084500/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "spatial transcriptomics and imaging for bacterial-immune cell crosstalk",
+      "llm_evidence_cn": "用于细菌-免疫细胞互作的空间转录组学和成像",
+      "llm_evidence": "用于细菌-免疫细胞互作的空间转录组学和成像",
+      "canonical_evidence": "用于细菌-免疫细胞互作的空间转录组学和成像",
+      "llm_tldr_en": "Uses spatial transcriptomics and 3D imaging to study bacterial interactions with immune cells in colorectal cancer.",
+      "llm_tldr_cn": "利用空间转录组学和3D成像研究结直肠癌中细菌与免疫细胞的相互作用。",
+      "llm_tldr": "利用空间转录组学和3D成像研究结直肠癌中细菌与免疫细胞的相互作用。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "deep learning and foundation models for spatial transcriptomics proteomics and tissue mapping",
+      "matched_requirement_id": "req-46",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42084683",
+      "title": "Metagenomic insights into microbial community, antibiotic resistance genes, and virulence factor in Saryu River water, India.",
+      "abstract": "A river confluence is an important ecosystem to investigate the microbial community and functional profile. Even after the enormous applications of trace elements and antibiotics, their release into the environment causes pollution and selective pressure that facilitate the proliferation and dissemination of resistance genes against antibiotics, metals and biocides among bacterial communities. Metagenomic exploration plays a pivotal role in deciphering riverine ecosystems and offers valuable insights for the mitigation of pollution and the dissemination of resistance genes. Monitoring microbial diversity could aid in identifying various prokaryotes, pathogens, and pollutants, including dyes and their associated resistance genes. Therefore, we aimed to elucidate the occurrence of resistance genes and virulence factors in the microbial community of Saryu River water using high-throughput metagenomics coupled with bioinformatic analyses. The highly dominant antibiotic resistance gene (ARG) types identified were rifampin, tetracycline, macrolide, polymyxin and rifampicin multidrug/efflux. ARGs such as rpoB2, Txr, adeF, tetB(P), and acrB were found to be abundant in Saryu River water. Among the detected MRG subtypes, namely, ruvB and arsB, the most abundant are in water. Further, the biocides against which the resistance was identified were ethidium bromide, triclosan, sodium dodecyl sulfate, etc. Among the virulence factors, tufa, htpB (adherence), Gmd (immune-modulation), cheD (motility), and clpV1 (effector-delivery-system) were found to be highly prevalent. Taxonomic classification revealed that Cyanobateriota, followed by Pseudomonadota (Proteobacteria) and Bacteroidota were the dominant phyla in the river water. Microcystis was the most dominant genus, followed by Desulfomicrobium and Dechloromonas. The present study shows that antibiotics and metals are the major sources of resistance genes development and dissemination in the environment.. Further, this is a preliminary study based on a single composite sample, representing a \"snapshot\" at a specific time and location. The present study highlights the persistence of ARGs, MRGs, biocides, and virulence factors in Saryu River water and provides valuable baseline data for risk assessment.",
+      "authors": [
+        "Sadanand Maurya",
+        "Awadhesh Kumar Shukla",
+        "Bhaskar Reddy",
+        "Amit Kishore Singh",
+        "Vipin Kumar Singh",
+        "Manikant Tripathi"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-05",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42084683/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "metagenomic exploration of microbial community and resistance genes",
+      "llm_evidence_cn": "微生物群落与抗性基因的宏基因组探索",
+      "llm_evidence": "微生物群落与抗性基因的宏基因组探索",
+      "canonical_evidence": "微生物群落与抗性基因的宏基因组探索",
+      "llm_tldr_en": "Uses metagenomics to analyze microbial diversity and antibiotic resistance in river water.",
+      "llm_tldr_cn": "利用宏基因组学分析河水中的微生物多样性和抗生素耐药性。",
+      "llm_tldr": "利用宏基因组学分析河水中的微生物多样性和抗生素耐药性。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}
