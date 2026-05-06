@@ -11,64 +11,49 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-05-05
-- 运行时间：2026-05-05 20:04:59 UTC
+- 最新运行日期：2026-05-06
+- 运行时间：2026-05-06 20:16:52 UTC
 - 运行状态：成功
-- 本次总论文数：14
-- 精读区：4
-- 速读区：10
+- 本次总论文数：9
+- 精读区：3
+- 速读区：6
 
 ### 今日简报（AI）
-今日精选 14 篇前沿进展，深度解析系统发育并行算法与高通量结构生物学计算管线。
-重点推荐结构化溯祖模型下的高效推理算法，以及助力个性化结构生物学研究的 VUStruct 平台。
-建议同步关注肠道菌群与癌症相互作用的综述，探索饮食、微生物与肿瘤发生的复杂关联。
-- 详情：[/202605/05/README](/202605/05/README)
+今日精选 9 篇前沿研究，重点聚焦单细胞大模型 RegFormer 与多模态抗药性药物发现。
+基因调控层级赋能的单细胞模型及针对多重耐药绿脓杆菌的群体感应抑制剂研究取得突破。
+建议关注 AI 在单细胞组学与耐药菌药物筛选中的深度融合，探索跨尺度建模的新范式。
+- 详情：[/202605/06/README](/202605/06/README)
 
 ### 精读区论文标签
-1. [Parallel algorithms for phylogenetic inference under a structured coalescent approximation.](/202605/05/42048453-parallel-algorithms-for-phylogenetic-inference-under-a-structured-coalescent-approximation)  
+1. [RegFormer: a single-cell foundation model powered by gene regulatory hierarchies.](/202605/06/42086551-regformer-a-single-cell-foundation-model-powered-by-gene-regulatory-hierarchies)  
+   标签：评分：9.0/10、query:bioinfo
+   evidence：整合基因调控网络与状态空间模型的基座模型
+2. [Multimodal computational discovery of MvfR inhibitors targeting quorum sensing in multi-drug-resistant Pseudomonas aeruginosa.](/202605/06/42086791-multimodal-computational-discovery-of-mvfr-inhibitors-targeting-quorum-sensing-in-multi-drug-resistant-pseudomonas-aeruginosa)  
    标签：评分：9.0/10、query:pathoai
-   evidence：用于系统发育推断和传播追踪的并行算法
-2. [VUStruct: A compute pipeline for high throughput and personalized structural biology.](/202605/05/42081565-vustruct-a-compute-pipeline-for-high-throughput-and-personalized-structural-biology)  
-   标签：评分：8.0/10、query:bioinfo
-   evidence：AI与蛋白质3D结构模型用于遗传变异分析
-3. [Sex-specific microbial and tryptophan signatures of depression implicate archaeal methanogens and indole-3-acetic acid only in women.](/202605/05/42082522-sex-specific-microbial-and-tryptophan-signatures-of-depression-implicate-archaeal-methanogens-and-indole-3-acetic-acid-only-in-women)  
+   evidence：用于抗菌药物发现和病原体靶点识别的AI
+3. [Twelve years of genomic surveillance of vancomycin-resistant Enterococcus faecium: emergence of linear vanA and bacteriocin-carrying plasmids challenging infection control.](/202605/06/42087222-twelve-years-of-genomic-surveillance-of-vancomycin-resistant-enterococcus-faecium-emergence-of-linear-vana-and-bacteriocin-carrying-plasmids-challenging-infection-control)  
    标签：评分：8.0/10、query:pathoai
-   evidence：机器学习用于微生物组-宿主代谢物相互作用及抑郁严重程度预测
-4. [β-lactamase genes in clinical isolates of Capnocytophaga canimorsus and description of a novel class D β-lactamase, OXA-1422.](/202605/05/42082786--lactamase-genes-in-clinical-isolates-of-capnocytophaga-canimorsus-and-description-of-a-novel-class-d--lactamase-oxa-1422)  
-   标签：评分：8.0/10、query:seqai
-   evidence：混合Illumina-Nanopore基因组组装用于鉴定抗菌素耐药基因
+   evidence：耐万古霉素病原体的基因组监测
 
 ### 速读区论文标签
-1. [Gingipain proteases from the bacterium](/202605/05/42060722-gingipain-proteases-from-the-bacterium)  
+1. [Novel multigene molecular characterization of avian reovirus strains and associated embryonic pathogenicity.](/202605/06/42085168-novel-multigene-molecular-characterization-of-avian-reovirus-strains-and-associated-embryonic-pathogenicity)  
    标签：评分：7.0/10、query:pathoai
-   evidence：细菌病原体抑制宿主抗病毒免疫
-2. [Significance and challenges in dissecting cancer-bacteriome interactions.](/202605/05/42082772-significance-and-challenges-in-dissecting-cancer-bacteriome-interactions)  
+   evidence：用于病原体变异监测的多基因分子表征
+2. [From Trait-Structured Within-Host Dynamics to SIR Models: A Multiscale Framework With Re-Exposure.](/202605/06/42089926-from-trait-structured-within-host-dynamics-to-sir-models-a-multiscale-framework-with-re-exposure)  
    标签：评分：7.0/10、query:pathoai
-   evidence：微生物组与宿主相互作用及癌症-细菌组相互作用
-3. [Gut microbiota and diet in colorectal cancer: Converging determinants of carcinogenesis.](/202605/05/42083308-gut-microbiota-and-diet-in-colorectal-cancer-converging-determinants-of-carcinogenesis)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：结直肠癌中的肠道微生物群、饮食与微生物毒力
-4. [Multi-omics profiling of fungal balls in chronic pulmonary aspergillosis patients reveals microbiome dynamics and metabolic adaptations.](/202605/05/42084394-multi-omics-profiling-of-fungal-balls-in-chronic-pulmonary-aspergillosis-patients-reveals-microbiome-dynamics-and-metabolic-adaptations)  
-   标签：评分：7.0/10、query:bioinfo
-   evidence：多组学整合研究真菌球中的微生物组动态和代谢适应
-5. [Altered crosstalk of bacterial lipopolysaccharide with immune cells in colorectal cancer compared to paired adjacent intestinal tissue.](/202605/05/42084500-altered-crosstalk-of-bacterial-lipopolysaccharide-with-immune-cells-in-colorectal-cancer-compared-to-paired-adjacent-intestinal-tissue)  
-   标签：评分：7.0/10、query:seqai
-   evidence：用于细菌-免疫细胞互作的空间转录组学和成像
-6. [Metagenomic insights into microbial community, antibiotic resistance genes, and virulence factor in Saryu River water, India.](/202605/05/42084683-metagenomic-insights-into-microbial-community-antibiotic-resistance-genes-and-virulence-factor-in-saryu-river-water-india)  
-   标签：评分：7.0/10、query:seqai
-   evidence：微生物群落与抗性基因的宏基因组探索
-7. [Interpretable miRNA-based prediction model for early detection of pancreatic cancer: Development and cross-platform validation.](/202605/05/42081539-interpretable-mirna-based-prediction-model-for-early-detection-of-pancreatic-cancer-development-and-cross-platform-validation)  
-   标签：评分：6.0/10、query:bioinfo
-   evidence：基于 miRNA 的可解释癌症检测诊断模型
-8. [Rheumatic Digital Twin: Proposed Machine Learning-Based Multimodal Framework to Inform Clinical Decision-Making.](/202605/05/42081548-rheumatic-digital-twin-proposed-machine-learning-based-multimodal-framework-to-inform-clinical-decision-making)  
-   标签：评分：6.0/10、query:bioinfo
-   evidence：整合电子健康记录、影像和组学的多模态框架
-9. [Noninvasive molecular subtyping of breast cancer using multimodal ultrasound spatiotemporal transformer.](/202605/05/42082579-noninvasive-molecular-subtyping-of-breast-cancer-using-multimodal-ultrasound-spatiotemporal-transformer)  
-   标签：评分：6.0/10、query:bioinfo
-   evidence：利用超声和血流动力学的多模态 Transformer 进行癌症分型
-10. [Implications for distancing measures on in-person school and work attendance from Italian post-pandemic social contact data.](/202605/05/42082766-implications-for-distancing-measures-on-in-person-school-and-work-attendance-from-italian-post-pandemic-social-contact-data)  
+   evidence：感染建模的多尺度框架
+3. [Multidimensional assessment of in-host fitness costs of echinocandin resistance in the opportunistic fungal pathogen](/202605/06/41870047-multidimensional-assessment-of-in-host-fitness-costs-of-echinocandin-resistance-in-the-opportunistic-fungal-pathogen)  
    标签：评分：6.0/10、query:pathoai
-   evidence：病原体再生数建模与社交接触决定因素分析
+   evidence：真菌病原体对棘白菌素耐药性的适应性代价
+4. [Detection of Aerosolized Protein Using a Condensation Growth Tube Coupled with an Electrochemical Immunoassay on Screen-Printed Carbon Electrodes.](/202605/06/42011020-detection-of-aerosolized-protein-using-a-condensation-growth-tube-coupled-with-an-electrochemical-immunoassay-on-screen-printed-carbon-electrodes)  
+   标签：评分：6.0/10、query:pathoai
+   evidence：气溶胶病原体检测的集成平台
+5. [Synthetic data enables human-grade microtubule analysis with foundation models for segmentation.](/202605/06/42085471-synthetic-data-enables-human-grade-microtubule-analysis-with-foundation-models-for-segmentation)  
+   标签：评分：6.0/10、query:bioinfo
+   evidence：用于微管分割的基础模型
+6. [Predictive functional profiling of 16S rRNA genes amplicons reveals bioremediation and sulfur metabolism capacity in thermophilic hot spring bacteriomes.](/202605/06/42086823-predictive-functional-profiling-of-16s-rrna-genes-amplicons-reveals-bioremediation-and-sulfur-metabolism-capacity-in-thermophilic-hot-spring-bacteriomes)  
+   标签：评分：6.0/10、query:seqai
+   evidence：宏基因组功能分析与分类学分析
 
 
 <div class="dpr-home-promo-card">

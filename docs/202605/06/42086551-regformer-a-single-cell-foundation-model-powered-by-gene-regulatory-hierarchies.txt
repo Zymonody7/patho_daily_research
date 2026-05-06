@@ -1,0 +1,65 @@
+Title: RegFormer: a single-cell foundation model powered by gene regulatory hierarchies - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42086551/
+
+Markdown Content:
+Actions
+
+. 2026 May 5.
+
+doi: 10.1038/s41467-026-72198-x.  Online ahead of print.
+
+[Hua Qin](https://pubmed.ncbi.nlm.nih.gov/?term=Qin+H&cauthor_id=42086551)[#](https://pubmed.ncbi.nlm.nih.gov/42086551/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/42086551/#full-view-affiliation-1 "BGI Research, Beijing, China."),[Yilin Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+Y&cauthor_id=42086551)[1](https://pubmed.ncbi.nlm.nih.gov/42086551/#full-view-affiliation-1 "BGI Research, Beijing, China."),[Yi Lu](https://pubmed.ncbi.nlm.nih.gov/?term=Lu+Y&cauthor_id=42086551)[1](https://pubmed.ncbi.nlm.nih.gov/42086551/#full-view-affiliation-1 "BGI Research, Beijing, China."),[Ping Qiu](https://pubmed.ncbi.nlm.nih.gov/?term=Qiu+P&cauthor_id=42086551)[1](https://pubmed.ncbi.nlm.nih.gov/42086551/#full-view-affiliation-1 "BGI Research, Beijing, China."),[Zhihan Guo](https://pubmed.ncbi.nlm.nih.gov/?term=Guo+Z&cauthor_id=42086551)[1](https://pubmed.ncbi.nlm.nih.gov/42086551/#full-view-affiliation-1 "BGI Research, Beijing, China."),[Lei Cao](https://pubmed.ncbi.nlm.nih.gov/?term=Cao+L&cauthor_id=42086551)[1](https://pubmed.ncbi.nlm.nih.gov/42086551/#full-view-affiliation-1 "BGI Research, Beijing, China."),[Wenjian Jiang](https://pubmed.ncbi.nlm.nih.gov/?term=Jiang+W&cauthor_id=42086551)[1](https://pubmed.ncbi.nlm.nih.gov/42086551/#full-view-affiliation-1 "BGI Research, Beijing, China."),[Yixin Shen](https://pubmed.ncbi.nlm.nih.gov/?term=Shen+Y&cauthor_id=42086551)[1](https://pubmed.ncbi.nlm.nih.gov/42086551/#full-view-affiliation-1 "BGI Research, Beijing, China."),[Qianqian Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+Q&cauthor_id=42086551)[1](https://pubmed.ncbi.nlm.nih.gov/42086551/#full-view-affiliation-1 "BGI Research, Beijing, China."),[Yanbang Shang](https://pubmed.ncbi.nlm.nih.gov/?term=Shang+Y&cauthor_id=42086551)[1](https://pubmed.ncbi.nlm.nih.gov/42086551/#full-view-affiliation-1 "BGI Research, Beijing, China."),[Tianyi Xia](https://pubmed.ncbi.nlm.nih.gov/?term=Xia+T&cauthor_id=42086551)[1](https://pubmed.ncbi.nlm.nih.gov/42086551/#full-view-affiliation-1 "BGI Research, Beijing, China."),[Ziqing Deng](https://pubmed.ncbi.nlm.nih.gov/?term=Deng+Z&cauthor_id=42086551)[1](https://pubmed.ncbi.nlm.nih.gov/42086551/#full-view-affiliation-1 "BGI Research, Beijing, China."),[Hansheng Zhao](https://pubmed.ncbi.nlm.nih.gov/?term=Zhao+H&cauthor_id=42086551)[2](https://pubmed.ncbi.nlm.nih.gov/42086551/#full-view-affiliation-2 "International Centre for Bamboo and Rattan, Beijing, China. zhaohansheng@icbr.ac.cn."),[Xun Xu](https://pubmed.ncbi.nlm.nih.gov/?term=Xu+X&cauthor_id=42086551)[3](https://pubmed.ncbi.nlm.nih.gov/42086551/#full-view-affiliation-3 "State Key Laboratory of Genome and Multi-omics Technologies, BGI Research, Shenzhen, China.")[4](https://pubmed.ncbi.nlm.nih.gov/42086551/#full-view-affiliation-4 "BGI-Shenzhen, Shenzhen, China."),[Shuangsang Fang](https://pubmed.ncbi.nlm.nih.gov/?term=Fang+S&cauthor_id=42086551)[5](https://pubmed.ncbi.nlm.nih.gov/42086551/#full-view-affiliation-5 "BGI Research, Beijing, China. fangshuangsang@genomics.cn."),[Yuxiang Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+Y&cauthor_id=42086551)[6](https://pubmed.ncbi.nlm.nih.gov/42086551/#full-view-affiliation-6 "BGI Research, Wuhan, China. liyuxiang@genomics.cn."),[Yong Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+Y&cauthor_id=42086551)[7](https://pubmed.ncbi.nlm.nih.gov/42086551/#full-view-affiliation-7 "BGI Research, Wuhan, China. zhangyong2@genomics.cn.")
+
+Affiliations
+
+*    PMID: **42086551**
+*    DOI: [10.1038/s41467-026-72198-x](https://doi.org/10.1038/s41467-026-72198-x)
+
+Free article
+
+## RegFormer: a single-cell foundation model powered by gene regulatory hierarchies
+
+Luni Hu et al. Nat Commun.2026.
+
+Free article
+
+## Abstract
+
+Single-cell RNA sequencing (scRNA-seq) enables high-resolution profiling of cellular diversity, but current computational models often fail to incorporate regulatory priors, handle data sparsity, or efficiently process long gene sequences. Here, we present RegFormer, a foundation model that integrates gene regulatory networks (GRNs) with Mamba-based state-space modeling, overcoming the scalability and context-length limitations of Transformer architectures. RegFormer encodes each gene through dual embeddings, a value embedding for quantitative expression and a token embedding for regulatory identity, organized within a GRN-guided gene order to capture both expression dynamics and hierarchical regulation. Pretrained on 25 million human single cells spanning 45 tissues and diverse biological contexts, RegFormer achieves superior scalability and biological fidelity. Across comprehensive benchmarks, it consistently outperforms state-of-the-art single-cell foundation models (scGPT, Geneformer, scFoundation, and scBERT), delivering higher clustering accuracy, improved batch integration, and more precise cell type annotation. RegFormer also reconstructs biologically coherent GRNs, accurately models transcriptional responses to genetic perturbations, and enhances drug response prediction across cancer cell lines. By combining regulatory priors with efficient long-sequence Mamba modeling, RegFormer establishes a biologically grounded and scalable framework for single-cell representation learning, enabling deeper mechanistic insight into gene regulation and cellular state transitions.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Nephrobase Cell+: Multimodal Single-Cell Foundation Model for Decoding Kidney Biology.](https://pubmed.ncbi.nlm.nih.gov/41256511/)
+
+Li C, Ziyadeh E, Sharma Y, Dumoulin B, Levinsohn J, Ha E, Pan S, Rao V, Subramaniyam M, Szegedy M, Zhang N, Susztak K.Li C, et al.bioRxiv [Preprint]. 2025 Oct 1:2025.09.30.679471. doi: 10.1101/2025.09.30.679471.bioRxiv. 2025.PMID: 41256511 Free PMC article.Preprint. 
+*   [scPlantLLM: A Foundation Model for Exploring Single-cell Expression Atlases in Plants.](https://pubmed.ncbi.nlm.nih.gov/40094454/)
+
+Cao G (曹广硕), Chao H (晁好瑜), Zheng W, Lan Y, Lu K, Wang Y, Chen M (陈铭), Zhang H (张和), Chen D (陈迪俊).Cao G (曹广硕), et al.Genomics Proteomics Bioinformatics. 2025 Jul 11;23(3):qzaf024. doi: 10.1093/gpbjnl/qzaf024.Genomics Proteomics Bioinformatics. 2025.PMID: 40094454 Free PMC article. 
+*   [Attention-Guided Probabilistic Diffusion Model for Generating Cell-Type-Specific Gene Regulatory Networks from Gene Expression Profiles.](https://pubmed.ncbi.nlm.nih.gov/41300707/)
+
+Xu S, Yu N, Zhang D, Wang C.Xu S, et al.Genes (Basel). 2025 Oct 24;16(11):1255. doi: 10.3390/genes16111255.Genes (Basel). 2025.PMID: 41300707 Free PMC article. 
+*   [Leveraging prior knowledge to infer gene regulatory networks from single-cell RNA-sequencing data.](https://pubmed.ncbi.nlm.nih.gov/39939367/)
+
+Stock M, Losert C, Zambon M, Popp N, Lubatti G, Hörmanseder E, Heinig M, Scialdone A.Stock M, et al.Mol Syst Biol. 2025 Mar;21(3):214-230. doi: 10.1038/s44320-025-00088-3. Epub 2025 Feb 12.Mol Syst Biol. 2025.PMID: 39939367 Free PMC article.Review. 
+*   [Advances and challenges in single-cell RNA sequencing data analysis: a comprehensive review.](https://pubmed.ncbi.nlm.nih.gov/41619215/)
+
+Nesari AM, MotieGhader H, Ghorbian S.Nesari AM, et al.Brief Bioinform. 2026 Jan 7;27(1):bbaf723. doi: 10.1093/bib/bbaf723.Brief Bioinform. 2026.PMID: 41619215 Free PMC article.Review. 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Nature Publishing Group](https://doi.org/10.1038/s41467-026-72198-x)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/non-CPTAC-3399)

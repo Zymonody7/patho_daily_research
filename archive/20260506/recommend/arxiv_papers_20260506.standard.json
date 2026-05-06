@@ -1,0 +1,443 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-05-06T20:13:51.031823+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 3,
+    "deep_cap": 9,
+    "deep_selected": 3,
+    "quick_candidates": 6,
+    "quick_skim_target": 14,
+    "quick_selected": 6
+  },
+  "deep_dive": [
+    {
+      "id": "42086551",
+      "title": "RegFormer: a single-cell foundation model powered by gene regulatory hierarchies.",
+      "abstract": "Single-cell RNA sequencing (scRNA-seq) enables high-resolution profiling of cellular diversity, but current computational models often fail to incorporate regulatory priors, handle data sparsity, or efficiently process long gene sequences. Here, we present RegFormer, a foundation model that integrates gene regulatory networks (GRNs) with Mamba-based state-space modeling, overcoming the scalability and context-length limitations of Transformer architectures. RegFormer encodes each gene through dual embeddings, a value embedding for quantitative expression and a token embedding for regulatory identity, organized within a GRN-guided gene order to capture both expression dynamics and hierarchical regulation. Pretrained on 25 million human single cells spanning 45 tissues and diverse biological contexts, RegFormer achieves superior scalability and biological fidelity. Across comprehensive benchmarks, it consistently outperforms state-of-the-art single-cell foundation models (scGPT, Geneformer, scFoundation, and scBERT), delivering higher clustering accuracy, improved batch integration, and more precise cell type annotation. RegFormer also reconstructs biologically coherent GRNs, accurately models transcriptional responses to genetic perturbations, and enhances drug response prediction across cancer cell lines. By combining regulatory priors with efficient long-sequence Mamba modeling, RegFormer establishes a biologically grounded and scalable framework for single-cell representation learning, enabling deeper mechanistic insight into gene regulation and cellular state transitions.",
+      "authors": [
+        "Luni Hu",
+        "Hua Qin",
+        "Yilin Zhang",
+        "Yi Lu",
+        "Ping Qiu",
+        "Zhihan Guo",
+        "Lei Cao",
+        "Wenjian Jiang",
+        "Yixin Shen",
+        "Qianqian Chen",
+        "Yanbang Shang",
+        "Tianyi Xia",
+        "Ziqing Deng",
+        "Hansheng Zhao",
+        "Xun Xu",
+        "Shuangsang Fang",
+        "Yuxiang Li",
+        "Yong Zhang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-05",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42086551/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "foundation model integrating gene regulatory networks and state-space modeling",
+      "llm_evidence_cn": "整合基因调控网络与状态空间模型的基座模型",
+      "llm_evidence": "整合基因调控网络与状态空间模型的基座模型",
+      "canonical_evidence": "整合基因调控网络与状态空间模型的基座模型",
+      "llm_tldr_en": "RegFormer is a single-cell foundation model using GRNs and Mamba to capture expression dynamics and regulation.",
+      "llm_tldr_cn": "RegFormer 是一个结合基因调控网络与 Mamba 架构的单细胞基座模型，用于捕捉表达动力学。",
+      "llm_tldr": "RegFormer 是一个结合基因调控网络与 Mamba 架构的单细胞基座模型，用于捕捉表达动力学。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "graph learning and foundation models for gene regulatory networks and cell state transitions",
+      "matched_requirement_id": "req-34",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42086791",
+      "title": "Multimodal computational discovery of MvfR inhibitors targeting quorum sensing in multi-drug-resistant Pseudomonas aeruginosa.",
+      "abstract": "Pseudomonas aeruginosa is a major global health concern due to its multidrug resistance (MDR), necessitating the urgent development of novel therapeutic strategies. Understanding the molecular basis of resistance in clinical isolates is critical for designing next-generation antimicrobials. This study analysed recent clinical isolates of P. aeruginosa obtained from the NCBI for their resistance gene and virulence factor profiles. Among the virulence-associated targets, MvfR, a key transcriptional regulator of quorum sensing and biofilm formation, was prioritized based on its functional relevance. AI modelling of MvfR identified from the genome analysis was performed, followed by molecular docking against library of compounds, phylogenetic comparisons to compare with previously identified homologs, ADMET-profiling, 500 ns molecular dynamics (MD) simulations, binding free energy, and Density Functional Theory (DFT). Genes critical for antimicrobial resistance, drug targeting, and virulence factors were identified across multiple databases. The antimicrobial resistance genes and receptors revealed key resistance mechanisms, including antibiotic-inactivating enzymes, efflux pumps, quorum sensing, and alterations in cell wall charge or permeability. Notably, (S)-1-(2-(difluoromethyl)-1 H-benzo[d]imidazol-5-yl)-3-(2-hydroxy-2-(pyridin-4-yl)ethyl)urea exhibited the highest docking score against MvfR. DFT and MD simulations over 500 ns demonstrated stability of the top ligands, supported by favourable molecular stability parameters such as RMSD, SASA, RMSF, and Rg plots. Furthermore, the top-ranking ligands satisfied Lipinski's rule of five, suggesting favourable drug-like properties. This study provides an integrated computational characterization of MvfR in recent P. aeruginosa isolates and identifies genetic variations that may influence disease manifestation. It further demonstrates an integrative computational strategy to accelerate discovery of promising antimicrobial agents against multidrug-resistant bacteria.",
+      "authors": [
+        "Tope Abraham Ibisanmi",
+        "Xiaotao Jiang",
+        "Rasel Ahmed Khan",
+        "Tsz Tin Yu",
+        "Mark Willcox",
+        "Naresh Kumar"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-05",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42086791/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "AI for antimicrobial discovery and pathogen target identification",
+      "llm_evidence_cn": "用于抗菌药物发现和病原体靶点识别的AI",
+      "llm_evidence": "用于抗菌药物发现和病原体靶点识别的AI",
+      "canonical_evidence": "用于抗菌药物发现和病原体靶点识别的AI",
+      "llm_tldr_en": "Combines genome analysis and AI modeling to identify and target MvfR in multi-drug-resistant P. aeruginosa.",
+      "llm_tldr_cn": "结合基因组分析和AI建模，针对多重耐药铜绿假单胞菌的MvfR靶点进行药物发现。",
+      "llm_tldr": "结合基因组分析和AI建模，针对多重耐药铜绿假单胞菌的MvfR靶点进行药物发现。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42087222",
+      "title": "Twelve years of genomic surveillance of vancomycin-resistant Enterococcus faecium: emergence of linear vanA and bacteriocin-carrying plasmids challenging infection control.",
+      "abstract": "BACKGROUND: The epidemiology of vancomycin-resistant Enterococcus faecium (VREfm) varies across different countries, with a steady global increase. In Portugal, however, epidemiological data on clinical VREfm have been scarce since the early 2000s. This long-term study investigates VREfm isolates from human infections collected at a Porto hospital between 2010 and 2021. METHODS: Two hundred VREfm isolates, mostly urinary (39%) were characterized by antimicrobial susceptibility testing to 8 antibiotics, chlorhexidine susceptibility, and PCR-based detection of vancomycin-resistance genes, virulence markers, plasmid replicases, and the bac43/T8 gene. Whole-genome sequencing, by Illumina, was used to assess clonal diversity (MLST, cgMLST, SNP phylogeny) and genomic content of antimicrobial resistance (AMR) genes, bacteriocins (76 genes) and putative virulence markers (35 genes). The plasmidome size and replicase initiation proteins of selected isolates was further improved by incorporating nanopore sequencing which enabled hybrid assemblies. RESULTS: All isolates were multidrug resistant; 98% carried vanA, while two (1%) were resistant to linezolid (G2576T mutation). Chlorhexidine susceptibility remained stably low over time (MICs: 2-4 mg/L). The population was polyclonal, with a shift from ST18-like lineages to ST80 and ST117 dominance. While ARGs and virulence markers showed no clear association with clonal waves, bacteriocin profiles did, with bac43 becoming increasingly prevalent. ST117-CT24 emerged as the most persistent clone. The plasmidome comprised stable Rep3-like mobilizable plasmids carrying bacteriocins (bac43, bacAS5), RepA_N mega-plasmids harboring virulence/AMR/bacteriocins, and highly plastic medium-to-large vanA plasmids with diverse replicase initiation proteins. Strikingly, linear vanA plasmids (repUS78_pZY2) appeared in the most recent isolates, paralleling findings in vancomycin-variable E. faecium from the same hospital and VREfm from other countries. CONCLUSIONS: Our findings reveal dynamic clonal shifts, novel plasmid architectures, and the key role of bacteriocins in shaping clonal success in a WHO priority pathogen. Furthermore, we highlight the need for AMR surveillance frameworks to consider factors beyond conventional prevalence metrics and core-genome comparisons. Integrating intra-species genomic heterogeneity and non-traditional evolutionary indicators will be essential to more accurately predict, track, and ultimately mitigate the dissemination of multidrug-resistant human pathogens.",
+      "authors": [
+        "Ana C Almeida-Santos",
+        "Ana P Tedim",
+        "Bárbara Duarte",
+        "Ana P Pereira",
+        "Luís M Silva",
+        "Júlio Teixeira",
+        "Ana P Castro",
+        "Louise Roer",
+        "Anette M Hammerum",
+        "Henrik Hasman",
+        "Teresa M Coque",
+        "Carla Novais",
+        "Ana R Freitas",
+        "Luísa Peixe",
+        "ESCMID Study Group for Epidemiological Markers (ESGEM), and ESCMID Study Group on Mobile Elements and Plasmids (ESGMAP)"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-05",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42087222/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "genomic surveillance of vancomycin-resistant pathogens",
+      "llm_evidence_cn": "耐万古霉素病原体的基因组监测",
+      "llm_evidence": "耐万古霉素病原体的基因组监测",
+      "canonical_evidence": "耐万古霉素病原体的基因组监测",
+      "llm_tldr_en": "Conducted a 12-year genomic surveillance study of VREfm to track resistance genes and plasmid evolution.",
+      "llm_tldr_cn": "对VREfm进行了为期12年的基因组监测研究，以追踪抗性基因和质粒进化。",
+      "llm_tldr": "对VREfm进行了为期12年的基因组监测研究，以追踪抗性基因和质粒进化。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI methods for genomic surveillance and outbreak monitoring",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "42085168",
+      "title": "Novel multigene molecular characterization of avian reovirus strains and associated embryonic pathogenicity.",
+      "abstract": "UNLABELLED: Avian reovirus (ARV) infection causes a variety of health problems in poultry, including tenosynovitis/arthritis, hepatitis, malabsorption, etc., leading to huge economic losses. Therefore, regular monitoring of ARV strains is crucial for detecting new variants to mitigate clinical disease. Traditional classification approaches have focused primarily on a single gene, σC, which encodes the viral spike protein that elicits neutralizing antibodies. However, additional capsid proteins could play a role by inducing a host antiviral immune response. In this study, the λC, μB, σC, and σB proteins encoded by the L3, M2, S1, and S3 genomic segments, respectively, were analyzed to classify clinical ARV strains with respect to embryonic pathogenicity and genotype-phenotype relationships. Embryo inoculation revealed strain-dependent pathogenicity ranging from the absence of tendon lesions (strain 23-272) to multifocal ulceration with fibrinoheterophilic crusting (22-806) and multifocal necrotizing hepatitis (23-087). Pairwise log-rank and Cox regression tests demonstrated highly significant strain-dependent differences in survival, defining a gradient from rapid embryonic lethality to delayed mortality, with one low-virulence strain exhibiting partial survival. While the λB-σB dual genotyping approach showed insignificant concordance with virulence clusters, a secondary structure-based μB-λC-σC triple model emerged as a better predictor of virulence. Notably, σC exhibited substantial variability in antigenic epitopes, whereas σB remained relatively conserved. These results might explain reduced vaccine efficacy against recent variants and support shifting vaccine design from σC to σB antigen or a combination to achieve broader protection. In conclusion, this multigene, structure-informed framework enhances ARV classification, links genotypes with virulence, and informs improved vaccination strategies. IMPORTANCE: Avian reovirus (ARV) represents a major threat to poultry health and production, primarily through its association with tenosynovitis/arthritis and the emergence of vaccine-resistant strains driven by high genetic diversity. Effective control requires an ARV classification system beyond traditional schemes based solely on the σC protein, which have proven insufficient to capture pathogenic diversity. We propose a novel, structure-informed triple genotyping approach incorporating the major capsid (μB), the turret (λC), and the virus attachment (σC) proteins. This method improves the prediction of disease severity in chicken embryos while reducing reliance on extensive animal challenge models. Furthermore, our protein-based analysis highlights that the conserved σB protein or a combination of σC & σB protein might be a promising vaccine target capable of providing broader protection across diverse ARV strains, thereby offering new avenues for both improved strain classification and rational vaccine design.",
+      "authors": [
+        "Islam Nour",
+        "Julia R Blakey",
+        "Sonsiray Alvarez-Narvaez",
+        "Arun Kulkarni",
+        "Quentin D Read",
+        "Sujit K Mohanty"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-05",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42085168/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "multigene molecular characterization for pathogen variant monitoring",
+      "llm_evidence_cn": "用于病原体变异监测的多基因分子表征",
+      "llm_evidence": "用于病原体变异监测的多基因分子表征",
+      "canonical_evidence": "用于病原体变异监测的多基因分子表征",
+      "llm_tldr_en": "Analyzes multiple genomic segments to classify avian reovirus strains and monitor new pathogenic variants.",
+      "llm_tldr_cn": "分析多个基因组片段以对禽呼肠孤病毒株进行分类并监测新的致病变异。",
+      "llm_tldr": "分析多个基因组片段以对禽呼肠孤病毒株进行分类并监测新的致病变异。",
+      "llm_tags": [
+        "query:pathoai:composite"
+      ],
+      "matched_query_tag": "query:pathoai:composite",
+      "matched_query_text": "Papers central to 病原组学中的 AI 方法, especially work that connects or combines: foundation models for pathogen genomes and pathogen biology; machine learning for metagenomic pathogen classification; deep learning models for pathogen detection from sequencing data; AI methods for genomic surveillance and outbreak monitoring; machine learning for antimicrobial resistance prediction from genomes; machine learning for phylogenetic and transmission inference; multimodal models combining pathogen sequence phenotype and metadata; machine learning for microbiome host interaction pathogen ecology and infection modeling; AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design; foundation models for pathogen genome understanding and surveillance.",
+      "matched_requirement_id": "req-composite-pathoai",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41870047",
+      "title": "Multidimensional assessment of in-host fitness costs of echinocandin resistance in the opportunistic fungal pathogen",
+      "abstract": "Host stresses are often considered a major barrier against the emergence of echinocandin resistance (ECR) in prominent infecting organisms like Candida albicans due to fitness defects. Yet, ECR strains of C. glabrata carrying diverse amino acid changes in Fks1 and Fks2 are increasingly reported as breakthrough infections. Nonetheless, the impact of equivalent mutations in different FKS alleles on fitness has not been systematically studied. Herein, we employed a diverse array of ex vivo and in vivo models to address these questions among clinically relevant ECR mutants. All ECR mutants retained fitness during interaction with THP1 macrophages and neutrophils. Whereas a strain with a Fks2F659del or fks2Δ showed fitness defects during interaction with macrophages and neutrophils. Fks2F659del showed a unique susceptibility to numerous stresses, especially the combination of alternative carbon sources, low pH, and H2O2. Consistent with failure in mounting adaptive oxidative stress response during exposure to H2O2, transcriptomic analysis of intracellular Fks2F659del highlighted the dysregulation of oxidative stress response genes, whereas intracellular fks2Δ showed hallmarks of metabolic dysregulation. Intriguingly, the Fks2F659del mutant was outcompeted by wild type and Fks2F659V in in vivo gut colonization and systemic infection models. Importantly, whereas both FKS1 and FKS2 were required to establish gut colonization, only FKS2 was required for systemic infection. Therefore, our study supports the notion that the prevalence of ECR mutants among C. glabrata strains is likely driven by its ability to retain fitness across diverse niches. Furthermore, we identified that the essentiality of FKS1 and FKS2 is similarly dictated by niche-specific requirements.",
+      "authors": [
+        "Amir Arastehfar",
+        "Farnaz Daneshnia",
+        "Hrant Hovhannisyan",
+        "Nathaly Cabrera",
+        "Sebastian Jusuf",
+        "Mostafa Salehi",
+        "Michael K Mansour",
+        "Toni Gabaldón",
+        "Erika Shor",
+        "David S Perlin"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-06",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41870047/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "fitness costs of echinocandin resistance in fungal pathogens",
+      "llm_evidence_cn": "真菌病原体对棘白菌素耐药性的适应性代价",
+      "llm_evidence": "真菌病原体对棘白菌素耐药性的适应性代价",
+      "canonical_evidence": "真菌病原体对棘白菌素耐药性的适应性代价",
+      "llm_tldr_en": "Systematically assesses the in-host fitness costs of specific mutations conferring drug resistance in Candida.",
+      "llm_tldr_cn": "系统评估念珠菌中导致耐药性的特定突变在宿主体内的适应性代价。",
+      "llm_tldr": "系统评估念珠菌中导致耐药性的特定突变在宿主体内的适应性代价。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for antimicrobial resistance prediction from genomes",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42089926",
+      "title": "From Trait-Structured Within-Host Dynamics to SIR Models: A Multiscale Framework With Re-Exposure.",
+      "abstract": "We present a threshold-based multiscale framework that links mechanistic within-host infection dynamics to a structured, SIR-like population model. Starting from a two-variable system for pathogen load and immune response that includes inoculum (Allee-like) thresholds and nonlinear immune activation, we derive mapping rules that classify continuous trajectories into four states: susceptible (S), infected with low immune protection ( I -  ), infected with high immune protection ( I +  ), and recovered (R). Here, \"infected\" refers to individuals with a detectable pathogen load. Unlike previous multiscale approaches, our framework integrates both scales into a single system: population compartments emerge by direct projection of within-host trajectories, avoiding ad hoc linking functions. We derive a next-generation operator for trait-structured re-exposure (local vs. global mixing) and an explicit expression for R 0  under global mixing. Simulations reveal sharp clearance-persistence transitions driven by inoculum size and immune trait, and an emergent S  →  I -  →  I +  →  R  cascade. Under sharp thresholds and activation, chronic within-host equilibria can sustain infection even when  R 0 < 1  , producing backward-bifurcation-like behavior at the population level. The framework provides a consistent route from immunological heterogeneity to epidemic indicators, with implications for identifying chronic reservoirs, interpreting dose-response data, and estimating control thresholds directly from within-host measurements.",
+      "authors": [
+        "Cyrille Kenne",
+        "Pascal Zongo"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-06",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42089926/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "multiscale framework for infection modeling",
+      "llm_evidence_cn": "感染建模的多尺度框架",
+      "llm_evidence": "感染建模的多尺度框架",
+      "canonical_evidence": "感染建模的多尺度框架",
+      "llm_tldr_en": "Develops a multiscale framework linking within-host pathogen dynamics to population-level SIR models.",
+      "llm_tldr_cn": "开发了一个将宿主内病原体动力学与群体水平 SIR 模型联系起来的多尺度框架。",
+      "llm_tldr": "开发了一个将宿主内病原体动力学与群体水平 SIR 模型联系起来的多尺度框架。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI driven outbreak surveillance genomic epidemiology and transmission modeling",
+      "matched_requirement_id": "req-12",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42011020",
+      "title": "Detection of Aerosolized Protein Using a Condensation Growth Tube Coupled with an Electrochemical Immunoassay on Screen-Printed Carbon Electrodes.",
+      "abstract": "Rapid point-of-need detection of aerosolized pathogens remains a critical need for environmental monitoring and infection control. Traditional filter-based bioaerosol collection methods are time-consuming and nonselective, capturing both infectious and noninfectious viral particles while causing mechanical damage through desiccation and mechanical stress. Furthermore, these approaches require laboratory-based nucleic acid extraction and amplification, which limits their utility for real-time monitoring. Here, we present an integrated aerosol-to-detection platform that couples a three-stage condensation growth tube (CGT) bioaerosol sampler with sensitive electrochemical immunodetection of the SARS-CoV-2 nucleocapsid (N) protein as a model virus antigen. The CGT gently concentrates aerosolized particles into a small liquid volume while preserving biological integrity through a water-based, low-velocity collection. Screen-printed carbon electrodes (SPCEs) were modified with capture antibodies and employed in a sandwich immunoassay format using horseradish peroxidase-linked detection antibodies and 3,3',5,5'-tetramethylbenzidine (TMB) as the electrochemical probe. The electrochemical immunoassay achieved a limit of detection (LOD) of 1.2 ng/mL for spiked N-protein solutions, demonstrating comparable sensitivity to published electrochemical biosensors for SARS-CoV-2 detection. The CGT successfully captured the aerosolized N protein with high efficiency across particle sizes of 50-100 nm with collection efficiency exceeding 95% for the target size range. Electrochemical detection of CGT-captured aerosolized N protein confirmed the successful combination of the sampling and sensing platform, providing average cathodic current signals distinguishable from blank controls. These results demonstrate the feasibility of coupling efficient bioaerosol collection to rapid electrochemical detection for point-of-need pathogen monitoring.",
+      "authors": [
+        "Joowon Park",
+        "Thaisa A Baldo",
+        "Bethany Unruh",
+        "Braden Stump",
+        "Dominick Heskett",
+        "Pat Keady",
+        "Brian Annis",
+        "Brian J Geiss",
+        "David S Dandy",
+        "Charles S Henry"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-05",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42011020/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "integrated platform for aerosolized pathogen detection",
+      "llm_evidence_cn": "气溶胶病原体检测的集成平台",
+      "llm_evidence": "气溶胶病原体检测的集成平台",
+      "canonical_evidence": "气溶胶病原体检测的集成平台",
+      "llm_tldr_en": "Develops an integrated aerosol-to-detection platform for rapid monitoring of environmental pathogens.",
+      "llm_tldr_cn": "开发了一种集成的气溶胶检测平台，用于环境病原体的快速监测。",
+      "llm_tldr": "开发了一种集成的气溶胶检测平台，用于环境病原体的快速监测。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "deep learning models for pathogen detection from sequencing data",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42085471",
+      "title": "Synthetic data enables human-grade microtubule analysis with foundation models for segmentation.",
+      "abstract": "Studying microtubules (MTs) and their mechanical properties is central to understanding intracellular transport, cell division, and drug action. While important, experts still need to spend many hours manually segmenting these filamentous structures. The suitability of state-of-the-art methods for this task cannot be systematically assessed, as large-scale labeled datasets are missing. We address this gap by introducing the synthetic dataset SynthMT, produced by tuning a novel image generation pipeline on real-world interference reflection microscopy (IRM) frames of in vitro reconstituted MTs without requiring human annotations. In our benchmark, we evaluate nine fully automated methods for MT analysis in both zero- and Hyperparameter Optimization (HPO)-based few-shot settings. Across both settings, classical algorithms and current foundation models still struggle to achieve the accuracy required for biological downstream analysis on in vitro MT IRM images that humans perceive as visually simple. However, a notable exception is the recently introduced SAM3 model. After HPO on only ten random SynthMT images, its text-prompted version SAM3Text achieves near-perfect and in some cases super-human performance on unseen, real data. This indicates that fully automated MT segmentation has become feasible when method configuration is effectively guided by synthetic data. To enable progress, we publicly release the dataset, the generation pipeline, and the evaluation framework.",
+      "authors": [
+        "Mario Koddenbrock",
+        "Justus Westerhoff",
+        "Dominik Fachet",
+        "Simone Reber",
+        "Felix A Gers",
+        "Erik Rodner"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-05",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42085471/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "foundation models for microtubule segmentation",
+      "llm_evidence_cn": "用于微管分割的基础模型",
+      "llm_evidence": "用于微管分割的基础模型",
+      "canonical_evidence": "用于微管分割的基础模型",
+      "llm_tldr_en": "Uses synthetic data and foundation models to automate the segmentation of microtubule filamentous structures.",
+      "llm_tldr_cn": "利用合成数据和基础模型实现微管丝状结构的自动分割。",
+      "llm_tldr": "利用合成数据和基础模型实现微管丝状结构的自动分割。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models for DNA RNA protein and cell biology",
+      "matched_requirement_id": "req-15",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42086823",
+      "title": "Predictive functional profiling of 16S rRNA genes amplicons reveals bioremediation and sulfur metabolism capacity in thermophilic hot spring bacteriomes.",
+      "abstract": "Thermophilic hot springs host highly specialized microbial communities critical for biogeochemical cycling and novel biotechnological applications. This study investigated the structure of the bacterial communities (bacteriomes) and predicted functional potential related to bioremediation and sulfur metabolism across three geochemically diverse soil sites within the Pharaoh's Bath Hot Springs ecosystem in South Sinai, Egypt. These sites were categorized by distinct thermal profiles: 70 °C (HS1), 75 °C (HS2), and 80 °C (HS3). Using 16 S rRNA gene amplicon sequencing and PICRUSt functional prediction, sequence analysis via the EzBioCloud server revealed that the HS2 site harbored the highest evenness and overall microbial diversity. Taxonomically, the HS1 and HS3 sites were dominated by Proteobacteria; in contrast, the HS2 site exhibited a more diverse profile, characterized by a reduced Proteobacteria presence and a high abundance of Rhodothermaeota. Predictive functional profiling identified 13 genes associated with biodegradation pathways (e.g., catechol and xylene degradation), suggesting an intrinsic genetic capacity to degrade complex aromatics and halogenated compounds across these thermal gradients. Regarding sulfur metabolism, functional predictions indicated that the HS2 site possessed the highest potential for dissimilatory sulfate reduction. Meanwhile, the HS1 site specialized in assimilatory sulfate reduction and, alongside the HS2 site, demonstrated a higher predicted capacity for sulfide oxidation. The distribution of heat-response genes varied by location: HspQ and Hsp33 were most prominent at the HS1 site, while HSP20 and DnaK reached their maximum abundance at the HS2 site. Overall, this study demonstrates the substantial intrinsic bioremediation potential of the studied bacteriomes and provides a predictive framework for understanding microbial functional potential in this system, with future studies offering opportunities to refine in situ functional validation and application.",
+      "authors": [
+        "Mohamed Ismaeil",
+        "Ali M Saeed",
+        "Samah A Donia",
+        "Wael S El-Sayed"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-05",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42086823/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "metagenome functional profiling and taxonomic profiling",
+      "llm_evidence_cn": "宏基因组功能分析与分类学分析",
+      "llm_evidence": "宏基因组功能分析与分类学分析",
+      "canonical_evidence": "宏基因组功能分析与分类学分析",
+      "llm_tldr_en": "Uses 16S rRNA sequencing and PICRUSt to predict functional potential in thermophilic bacteriomes.",
+      "llm_tldr_cn": "利用16S rRNA测序和PICRUSt预测嗜热细菌群落的功能潜力。",
+      "llm_tldr": "利用16S rRNA测序和PICRUSt预测嗜热细菌群落的功能潜力。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}
