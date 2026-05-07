@@ -11,49 +11,58 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-05-06
-- 运行时间：2026-05-06 20:16:52 UTC
+- 最新运行日期：2026-05-07
+- 运行时间：2026-05-07 20:14:50 UTC
 - 运行状态：成功
-- 本次总论文数：9
+- 本次总论文数：12
 - 精读区：3
-- 速读区：6
+- 速读区：9
 
 ### 今日简报（AI）
-今日精选 9 篇前沿研究，重点聚焦单细胞大模型 RegFormer 与多模态抗药性药物发现。
-基因调控层级赋能的单细胞模型及针对多重耐药绿脓杆菌的群体感应抑制剂研究取得突破。
-建议关注 AI 在单细胞组学与耐药菌药物筛选中的深度融合，探索跨尺度建模的新范式。
-- 详情：[/202605/06/README](/202605/06/README)
+今日深度解析 12 篇生物医学前沿进展，重点聚焦 AI 驱动的细菌毒素鉴定与癌症靶点发现。
+BERT-T6 模型实现了极高精度的细菌毒素识别，而组织特异性迁移学习则为乳腺癌和前列腺癌的精准治疗提供了新路径。
+推荐关注蛋白质语言模型与迁移学习在临床诊断中的跨界融合，这正成为攻克复杂疾病的关键。
+- 详情：[/202605/07/README](/202605/07/README)
 
 ### 精读区论文标签
-1. [RegFormer: a single-cell foundation model powered by gene regulatory hierarchies.](/202605/06/42086551-regformer-a-single-cell-foundation-model-powered-by-gene-regulatory-hierarchies)  
+1. [BERT-T6: Toward High-Accuracy T6SS Bacterial Toxin Identification Using a Protein Language Model.](/202605/07/42095236-bert-t6-toward-high-accuracy-t6ss-bacterial-toxin-identification-using-a-protein-language-model)  
+   标签：评分：10.0/10、query:bioinfo
+   evidence：用于细菌毒素识别的蛋白质语言模型
+2. [Tissue-specific transfer learning improves functional variant and therapeutic target discoveries in breast and prostate cancer.](/202605/07/42090444-tissue-specific-transfer-learning-improves-functional-variant-and-therapeutic-target-discoveries-in-breast-and-prostate-cancer)  
    标签：评分：9.0/10、query:bioinfo
-   evidence：整合基因调控网络与状态空间模型的基座模型
-2. [Multimodal computational discovery of MvfR inhibitors targeting quorum sensing in multi-drug-resistant Pseudomonas aeruginosa.](/202605/06/42086791-multimodal-computational-discovery-of-mvfr-inhibitors-targeting-quorum-sensing-in-multi-drug-resistant-pseudomonas-aeruginosa)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：用于抗菌药物发现和病原体靶点识别的AI
-3. [Twelve years of genomic surveillance of vancomycin-resistant Enterococcus faecium: emergence of linear vanA and bacteriocin-carrying plasmids challenging infection control.](/202605/06/42087222-twelve-years-of-genomic-surveillance-of-vancomycin-resistant-enterococcus-faecium-emergence-of-linear-vana-and-bacteriocin-carrying-plasmids-challenging-infection-control)  
+   evidence：用于调控变异解释的DNA基础模型
+3. [Pseudomonas aeruginosa adaptation and persistence in the aspergilloma microbiome revealed by integrated multi-omics.](/202605/07/41843749-pseudomonas-aeruginosa-adaptation-and-persistence-in-the-aspergilloma-microbiome-revealed-by-integrated-multi-omics)  
    标签：评分：8.0/10、query:pathoai
-   evidence：耐万古霉素病原体的基因组监测
+   evidence：整合多组学研究微生物组中的病原体适应和抗生素耐药性
 
 ### 速读区论文标签
-1. [Novel multigene molecular characterization of avian reovirus strains and associated embryonic pathogenicity.](/202605/06/42085168-novel-multigene-molecular-characterization-of-avian-reovirus-strains-and-associated-embryonic-pathogenicity)  
+1. [A multiplant transcriptomic atlas reveals conserved and lineage-specific defense architectures in response to](/202605/07/42090259-a-multiplant-transcriptomic-atlas-reveals-conserved-and-lineage-specific-defense-architectures-in-response-to)  
    标签：评分：7.0/10、query:pathoai
-   evidence：用于病原体变异监测的多基因分子表征
-2. [From Trait-Structured Within-Host Dynamics to SIR Models: A Multiscale Framework With Re-Exposure.](/202605/06/42089926-from-trait-structured-within-host-dynamics-to-sir-models-a-multiscale-framework-with-re-exposure)  
+   evidence：大规模共转录组方法绘制病原体-宿主免疫图谱
+2. [Diagnostic Proficiency of Large Language Models in the Interpretation of Cervical Cytopathology.](/202605/07/42091049-diagnostic-proficiency-of-large-language-models-in-the-interpretation-of-cervical-cytopathology)  
+   标签：评分：7.0/10、query:bioinfo
+   evidence：评估大语言模型在细胞病理学诊断解释中的能力
+3. [Structure and druggable conformation of the homodimeric lipoprotein transporter of Acinetobacter baumannii.](/202605/07/42091888-structure-and-druggable-conformation-of-the-homodimeric-lipoprotein-transporter-of-acinetobacter-baumannii)  
    标签：评分：7.0/10、query:pathoai
-   evidence：感染建模的多尺度框架
-3. [Multidimensional assessment of in-host fitness costs of echinocandin resistance in the opportunistic fungal pathogen](/202605/06/41870047-multidimensional-assessment-of-in-host-fitness-costs-of-echinocandin-resistance-in-the-opportunistic-fungal-pathogen)  
+   evidence：病原体靶点识别用于抗菌药物发现
+4. [Seasonal and spatial variability of PMMoV in tropical urban wastewater-based surveillance: implications for accurate SARS-CoV-2 monitoring in Kampala, Uganda.](/202605/07/42092861-seasonal-and-spatial-variability-of-pmmov-in-tropical-urban-wastewater-based-surveillance-implications-for-accurate-sars-cov-2-monitoring-in-kampala-uganda)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：基于废水的病原体监测监测
+5. [Enterotoxigenic Bacteroides fragilis induces host genotype-specific colonic epithelial and immune responses in mice.](/202605/07/42089362-enterotoxigenic-bacteroides-fragilis-induces-host-genotype-specific-colonic-epithelial-and-immune-responses-in-mice)  
    标签：评分：6.0/10、query:pathoai
-   evidence：真菌病原体对棘白菌素耐药性的适应性代价
-4. [Detection of Aerosolized Protein Using a Condensation Growth Tube Coupled with an Electrochemical Immunoassay on Screen-Printed Carbon Electrodes.](/202605/06/42011020-detection-of-aerosolized-protein-using-a-condensation-growth-tube-coupled-with-an-electrochemical-immunoassay-on-screen-printed-carbon-electrodes)  
+   evidence：微生物组宿主相互作用与结肠免疫反应
+6. [Dynamic architecture of mycobacterial outer membranes revealed by all-atom simulations.](/202605/07/42090459-dynamic-architecture-of-mycobacterial-outer-membranes-revealed-by-all-atom-simulations)  
    标签：评分：6.0/10、query:pathoai
-   evidence：气溶胶病原体检测的集成平台
-5. [Synthetic data enables human-grade microtubule analysis with foundation models for segmentation.](/202605/06/42085471-synthetic-data-enables-human-grade-microtubule-analysis-with-foundation-models-for-segmentation)  
+   evidence：病原体膜全原子模型用于治疗干预
+7. [Akkermansia muciniphila-derived 5-MIAA blunts colitis-associated tumorigenesis by modulating colonic SLC26A3/pSTAT3 signaling.](/202605/07/42091596-akkermansia-muciniphila-derived-5-miaa-blunts-colitis-associated-tumorigenesis-by-modulating-colonic-slc26a3pstat3-signaling)  
+   标签：评分：6.0/10、query:pathoai
+   evidence：微生物组宿主相互作用与感染结果建模
+8. [Identification of a mitochondrial biomarker signature linking neuroinflammation to neuronal dysfunction in spinal cord injury.](/202605/07/42092129-identification-of-a-mitochondrial-biomarker-signature-linking-neuroinflammation-to-neuronal-dysfunction-in-spinal-cord-injury)  
    标签：评分：6.0/10、query:bioinfo
-   evidence：用于微管分割的基础模型
-6. [Predictive functional profiling of 16S rRNA genes amplicons reveals bioremediation and sulfur metabolism capacity in thermophilic hot spring bacteriomes.](/202605/06/42086823-predictive-functional-profiling-of-16s-rrna-genes-amplicons-reveals-bioremediation-and-sulfur-metabolism-capacity-in-thermophilic-hot-spring-bacteriomes)  
+   evidence：结合转录组分析与机器学习进行生物标志物识别
+9. [Shotgun metagenomic dataset of leaf endophytic microbiome of the garden sage (Salvia officinalis L.).](/202605/07/42092753-shotgun-metagenomic-dataset-of-leaf-endophytic-microbiome-of-the-garden-sage-salvia-officinalis-l)  
    标签：评分：6.0/10、query:seqai
-   evidence：宏基因组功能分析与分类学分析
+   evidence：包含细菌和病毒的内生微生物组鸟枪法宏基因组数据集
 
 
 <div class="dpr-home-promo-card">

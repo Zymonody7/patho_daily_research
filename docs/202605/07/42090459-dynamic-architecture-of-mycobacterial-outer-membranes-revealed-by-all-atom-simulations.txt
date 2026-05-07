@@ -1,0 +1,140 @@
+Title: Dynamic architecture of mycobacterial outer membranes revealed by all-atom simulations - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42090459/
+
+Markdown Content:
+## Dynamic architecture of mycobacterial outer membranes revealed by all-atom simulations
+
+Turner P Brown et al. Elife.2026.
+
+## Abstract
+
+Tuberculosis remains a global health crisis due to the resilience of _Mycobacterium tuberculosis_ (_Mtb_), largely attributed to its unique cell envelope. The impermeability and structural complexity of the outer membrane of this envelope, driven by mycolic acids and glycolipids, pose significant challenges for therapeutic intervention. Here, we present the first all-atom models of an _Mtb_ outer membrane using molecular dynamics simulations. We demonstrate that α-mycolic acids adopt extended conformations to stabilize bilayers, with a phase transition near 338 K that underscores their thermal resilience. Lipids in the outer leaflet, such as PDIM and PAT, induce membrane heterogeneity, migrating to the interleaflet space and reducing lipid order. The simulated mycobacterial outer membrane has ordered inner leaflets and disordered outer leaflets, which contrasts with the outer membrane of Gram-negative bacteria. These findings reveal that PDIM- and PAT-driven lipid redistribution, reduced lipid order, and asymmetric fluidity gradients enable _Mtb's_ outer membrane to resist host-derived stresses and limit antibiotic penetration, thereby promoting bacterial survival. Our work provides a foundational framework for targeting the mycobacterial outer membrane in future drug development.
+
+**Keywords:** all-atom simulation; computational biology; molecular modeling; mycobacterial outer membranes; none; systems biology.
+
+© 2025, Brown et al.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+TB, MC, WI No competing interests declared
+
+## Figures
+
+[![Image 1: Figure 1.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/d70a7af9656b/elife-108644-fig1.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/c712bab1a8b9/elife-108644-fig1.jpg)
+
+**Figure 1.. Schematic of a mycobacterial outer membrane composed of mycolic acids (MAs), trehalose di- and mono-mycolate (TDM and TMM), phthiocerol dimycocerosate (PDIM), sulphoglycolipids (SGL), and pentacyl and diacyl trehalose (PAT and DAT).**
+This membrane is covalently attached to the peptidoglycan via the arabinogalactan.
+
+[![Image 2: Figure 2.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/e0aa58660eba/elife-108644-fig2.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/58aa85d3988f/elife-108644-fig2.jpg)
+
+**Figure 2.. Chemical structures of mycobacterial lipids and membranes snapshots.**
+(**A**) Chemical structure of α-mycolic acid (α-MA) with 78 carbons. (**B–D**). Initial three-dimensional (3D) conformations (left) and snapshots after 3 μs production of pure mycolic acid bilayers (right) with fully extended (MA_eU), semi-folded (MA_eZ), and fully folded (MA_W) conformations. Lipids in the upper leaflet are colored in light, medium, and dark blue, and lipids in the lower leaflet are colored in white. Oxygen atoms are shown as van der Waals spheres. (**E–J**) Chemical structures (left) and initial conformations (right) of the six outer leaflet lipids. (**K**) Snapshot after 3 μs production of the symmetric system containing outer leaflet lipids at 313 K (All_Lipids_313). (**L**) Snapshot after 3 μs production of the whole mycobacterial outer membrane with asymmetry of lipids at 313 K (Asym_313 system). Lipid colors in (**K**) and (**L**) match the colors of the initial 3D conformations.
+
+[![Image 3: Figure 3.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/f100185eaf83/elife-108644-fig3.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/bb7dce53c9ad/elife-108644-fig3.jpg)
+
+**Figure 3.. Folding patterns and organization of mycomembrane inner leaflet symmetric bilayers.**
+(**A, D, G**) Overlaid structures of one mycolic acid (A MA_eU, B MA_eZ, and C MA_W) from every 10 frames of the final 500 ns production. Structures were aligned on 15 carbons at the top of the α-alkyl chain and 3 carbons at the top of the β-hydroxy chain: named C10 to C27 in the MA topologies. Oxygen atoms are displayed as red spheres. (**B, E, H**) Lipid dynamics at 313 K (solid lines) and 333 K (dashed lines). The three columns are terminal carbon density profiles, average lipid order parameters of carbons (Vermeer et al., 2007), and cyclopropane density profiles in 2 Å-wide slabs along the z-axis (i.e. the membrane normal) with the bilayer center at z=0. For carbon density profiles, lipids belonging to the lower leaflet are depicted in grey and those from the upper leaflet are depicted in blue. (**C, F, I**) Snapshots with varying initial compositions after 3 μs production. Lower leaflet lipids are shown in white, upper leaflet lipids are shown in light, medium, and dark blue. Oxygen atoms are displayed as red spheres. Terminal carbons and cyclopropane carbons are shown as spheres colored according to their leaflet.
+
+[![Image 4: Figure 3—figure supplement 1.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/6238b7d82205/elife-108644-fig3-figsupp1.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/0d01650bb7a4/elife-108644-fig3-figsupp1.jpg)
+
+**Figure 3—figure supplement 1.. Time series of inner leaflet symmetric bilayers with various starting conformations of α-mycolic acid.**
+(**A**) Membrane thickness. (**B**) Area per lipid.
+
+[![Image 5: Figure 4.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/ba20061098cb/elife-108644-fig4.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/074d29101f07/elife-108644-fig4.jpg)
+
+**Figure 4.. Phase transition of pure fully-extended α-mycolic acid bilayers.**
+(**A**) Lateral diffusion coefficients from 313 K to 353 K. (**B**) Terminal carbon (C75) z-density profiles separated by leaflet along the temperature gradient. Upper leaflet lipids are shown with solid lines, and lower leaflet lipids shown with dashed lines. (**C**) Average order parameters of MA at varying temperatures. (**D**) Cyclopropane carbons (CC1, CC2) z-density profiles along the temperature gradient. (**E**) Snapshots along the temperature gradient, with lower leaflet lipids shown in white, upper leaflet lipids shown in colored lines, and oxygen atoms shown as spheres. Line and shaded area colors in (B, C, and D) correspond to those of upper leaflet lipids in **E**.
+
+[![Image 6: Figure 4—figure supplement 1.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/1a0ff75fd71e/elife-108644-fig4-figsupp1.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/eb5813e93029/elife-108644-fig4-figsupp1.jpg)
+
+**Figure 4—figure supplement 1.. Time series of MA_eU bilayers at increasing temperature.**
+(**A**) Membrane thickness. (**B**) Area per lipid.
+
+[![Image 7: Figure 5.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/12f21934726d/elife-108644-fig5.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/0a0e61623d86/elife-108644-fig5.jpg)
+
+**Figure 5.. Lipid aggregation in mycomembrane outer leaflet symmetric bilayers.**
+(**A, C**) Snapshots of All_Lipids systems after 3 μs production at 313 K and 333 K, respectively (see Supplementary file 1 for system name, composition, and basic statistics). Lipid colors match the coloring from Figure 2. Water and ions are omitted for clarity. (**B, D**) Headgroup z position time series of PDIM (purple) and PAT (green) at 313 K and 333 K, respectively. Each line is a separate lipid molecule. (**E**) Lateral diffusion coefficients from All_Lipids system for each lipid type. Solid bars are from the 313 K system, and hatched bars are from the 333 K system. Error bars are the standard errors across three replicas. (**F**) Comparison of average deuterium order parameters of carbons along the z-axis for PDIM (light purple) and PAT (light green) at 313 K (solid lines) and 333 K (dashed lines). Shaded regions are the standard errors across three replicas. All analysis is averaged over the last 500 ns production.
+
+[![Image 8: Figure 5—figure supplement 1.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/e8974a9257db/elife-108644-fig5-figsupp1.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/65c7a184d434/elife-108644-fig5-figsupp1.jpg)
+
+**Figure 5—figure supplement 1.. Headgroup Z position time series for all lipid types and all outer leaflet symmetric systems at 313 K.**
+
+[![Image 9: Figure 5—figure supplement 2.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/a8cf21302517/elife-108644-fig5-figsupp2.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/3c8c84b8cc68/elife-108644-fig5-figsupp2.jpg)
+
+**Figure 5—figure supplement 2.. Headgroup z position time series for all lipid types and all outer leaflet symmetric systems at 333 K.**
+
+[![Image 10: Figure 5—figure supplement 3.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/8113ab91c90b/elife-108644-fig5-figsupp3.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/8b44cce14321/elife-108644-fig5-figsupp3.jpg)
+
+**Figure 5—figure supplement 3.. Outer leaflet lipid dynamics.**
+(**A, B**). Snapshots of All_Lipids system after 3 μs at 313 K and 333 K, respectively. Lipid headgroups are shown as van der Waals spheres, and the rest of each lipid is shown with the QuickSurf drawing method. (**C, D**) Headgroup z position time series of all lipid types at 313 K and 333 K, respectively. (**E**) Average deuterium order parameters of carbons along the z-axis for all lipid types. Solid lines are 313 K and dashed lines are 333 K. Scd was averaged over the final 500 ns production.
+
+[![Image 11: Figure 5—figure supplement 4.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/6a6fbc1e75a5/elife-108644-fig5-figsupp4.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/e2b733fbac59/elife-108644-fig5-figsupp4.jpg)
+
+**Figure 5—figure supplement 4.. Scd vs carbon number for outer leaflet symmetric bilayers.**
+All results shown are for systems simulated at 313 K.
+
+[![Image 12: Figure 5—figure supplement 5.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/547ee2c63828/elife-108644-fig5-figsupp5.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/86c385dbf231/elife-108644-fig5-figsupp5.jpg)
+
+**Figure 5—figure supplement 5.. Time series of outer leaflet symmetric systems at 313 K and 333 K.**
+(**A, C**) Membrane thickness. (**B, D**) Area per lipid.
+
+[![Image 13: Figure 6.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/33fa2c2b0f91/elife-108644-fig6.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/9223e9784374/elife-108644-fig6.jpg)
+
+**Figure 6.. Vertical heterogeneity and lipid dynamics in asymmetric mycomembranes.**
+(**A, C**) Snapshots after 3 μs production at 313 K and 333 K, respectively. Lipid colors match the coloring from Figure 2, and lipids are shown with the QuickSurf drawing method. (**B, D**) Comparison of average deuterium order parameters of carbons along the z-axis for MA_eU (light blue), PDIM (light purple), and PAT (light green) at 313 K and 333 K, respectively. Solid lines are from the symmetric systems and dashed lines are from the asymmetric systems. (**E, G**) Full lipid z-density profiles for each lipid at 313 K and 333 K, respectively. Shaded regions are the standard errors across three replicas. (**F, H**) Headgroup z position time series of MA_eU (light blue), PDIM (light purple), and PAT (light green) at 313 K and 333 K, respectively. Each line is a separate lipid molecule. All analyses are averaged over the last 500 ns of production.
+
+[![Image 14: Figure 6—figure supplement 1.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/82ab19786278/elife-108644-fig6-figsupp1.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f924/13148821/39166b26ccbe/elife-108644-fig6-figsupp1.jpg)
+
+**Figure 6—figure supplement 1.. Scd and headgroup time series for asymmetric systems.**
+(**A, B**). Snapshots after 3 μs of production of asymmetric bilayers at 313 K and 333 K, respectively. (**C, D**) Comparison of the average deuterium order parameter for each lipid type along the z-axis for symmetric (solid lines) and asymmetric (dashed lines) bilayers at 313 K and 333 K, respectively. (**E, F**) Headgroup z position time series for each lipid type in the asymmetric systems at 31 3 K and 333 K, respectively.
+
+## Similar articles
+
+*   [Coarse-Grained Simulations of Mycobacterial Outer Membranes Reveal Fluidity-Dependent PDIM Redistribution across Different Lipid Environments.](https://pubmed.ncbi.nlm.nih.gov/42065970/)
+
+Acharya B, Lamichhane S, Brown TP, Chavent M, Im W.Acharya B, et al.Biomacromolecules. 2026 May 1. doi: 10.1021/acs.biomac.6c00446. Online ahead of print.Biomacromolecules. 2026.PMID: 42065970 
+*   [Coarse-Grained Simulations of Mycobacterial Outer Membranes Reveal Fluidity-Dependent PDIM Redistribution Across Different Lipid Environments.](https://pubmed.ncbi.nlm.nih.gov/41757033/)
+
+Acharya B, Lammichane S, Brown TP, Chavent M, Im W.Acharya B, et al.bioRxiv [Preprint]. 2026 Feb 23:2026.02.18.706594. doi: 10.64898/2026.02.18.706594.bioRxiv. 2026.PMID: 41757033 Free PMC article.Updated.Preprint. 
+*   [Conformational Dynamics and Stability of Bilayers Formed by Mycolic Acids from the _Mycobacterium tuberculosis_ Outer Membrane.](https://pubmed.ncbi.nlm.nih.gov/36771014/)
+
+Savintseva LA, Steshin IS, Avdoshin AA, Panteleev SV, Rozhkov AV, Shirokova EA, Livshits GD, Vasyankin AV, Radchenko EV, Ignatov SK, Palyulin VA.Savintseva LA, et al.Molecules. 2023 Jan 31;28(3):1347. doi: 10.3390/molecules28031347.Molecules. 2023.PMID: 36771014 Free PMC article. 
+*   [Protein-Mediated Virulence in Mycobacterium tuberculosis.](https://pubmed.ncbi.nlm.nih.gov/41207939/)
+
+Farnia P, Velayati AA, Ghanavi J, Farnia P.Farnia P, et al.Adv Exp Med Biol. 2026;1484:127-159. doi: 10.1007/978-3-031-96883-9_5.Adv Exp Med Biol. 2026.PMID: 41207939 Review. 
+*   [The lipid language of tuberculosis: _Mycobacterium tuberculosis_ surface molecules in host interaction and drug resistance.](https://pubmed.ncbi.nlm.nih.gov/41627032/)
+
+Radhakrishnan SK, Sundaramurthy V.Radhakrishnan SK, et al.mBio. 2026 Mar 11;17(3):e0395925. doi: 10.1128/mbio.03959-25. Epub 2026 Feb 2.mBio. 2026.PMID: 41627032 Free PMC article.Review. 
+
+## References
+
+1.       1.    Almeida PFF, Vaz WLC, Thompson TE. Lipid diffusion, free area, and molecular dynamics simulations. Biophysical Journal. 2005;88:4434–4438. doi: 10.1529/biophysj.105.059766. - [DOI](https://doi.org/10.1529/biophysj.105.059766) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC1305670/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/15805166/)
+
+2.       1.    Åqvist J, Wennerström P, Nervall M, Bjelic S, Brandsdal BO. Molecular dynamics simulations of water and biomolecules with a Monte Carlo constant pressure algorithm. Chemical Physics Letters. 2004;384:288–294. doi: 10.1016/j.cplett.2003.12.039. - [DOI](https://doi.org/10.1016/j.cplett.2003.12.039)
+
+3.       1.    Augenstreich J, Arbues A, Simeone R, Haanappel E, Wegener A, Sayes F, Le Chevalier F, Chalut C, Malaga W, Guilhot C, Brosch R, Astarie-Dequeker C. ESX-1 and phthiocerol dimycocerosates of Mycobacterium tuberculosis act in concert to cause phagosomal rupture and host cell apoptosis. Cellular Microbiology. 2017;19:e12726. doi: 10.1111/cmi.12726. - [DOI](https://doi.org/10.1111/cmi.12726) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/28095608/)
+
+4.       1.    Augenstreich J, Haanappel E, Ferré G, Czaplicki G, Jolibois F, Destainville N, Guilhot C, Milon A, Astarie-Dequeker C, Chavent M. The conical shape of DIM lipids promotes Mycobacterium tuberculosis infection of macrophages. PNAS. 2019;116:25649–25658. doi: 10.1073/pnas.1910368116. - [DOI](https://doi.org/10.1073/pnas.1910368116) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6926010/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/31757855/)
+
+5.       1.    Babu Sait MR, Koliwer-Brandl H, Stewart JA, Swarts BM, Jacobsen M, Ioerger TR, Kalscheuer R. PPE51 mediates uptake of trehalose across the mycomembrane of Mycobacterium tuberculosis. Scientific Reports. 2022;12:2097. doi: 10.1038/s41598-022-06109-7. - [DOI](https://doi.org/10.1038/s41598-022-06109-7) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8826857/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/35136132/)
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [eLife Sciences Publications, Ltd](https://doi.org/10.7554/eLife.108644)

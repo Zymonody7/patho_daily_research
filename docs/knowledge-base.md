@@ -5,6 +5,42 @@
 
 ## 最近论文
 
+- [BERT-T6: Toward High-Accuracy T6SS Bacterial Toxin Identification Using a Protein Language Model.](#/202605/07/202605/07/42095236-bert-t6-toward-high-accuracy-t6ss-bacterial-toxin-identification-using-a-protein-language-model)
+  - TLDR：准确识别VI型分泌系统效应因子（T6SEs）对理解细菌致病机制至关重要，但现有预测工具性能有限。本研究通过评估多种序列特征和预训练蛋白质语言模型，发现ProtBert嵌入效果最佳，据此开发了BERT-T6模型。该模型利用迁移学习和不平衡感知训练对ProtBert进行微调，在独立测试中达到SOTA水平（准确率0.959，F1值0.907），为细菌毒素鉴定提供了高效工具。
+  - Tags：`query:bioinfo`
+- [Tissue-specific transfer learning improves functional variant and therapeutic target discoveries in breast and prostate cancer.](#/202605/07/202605/07/42090444-tissue-specific-transfer-learning-improves-functional-variant-and-therapeutic-target-discoveries-in-breast-and-prostate-cancer)
+  - TLDR：针对现有DNA基础模型在特定组织背景下预测精度不足的问题，本研究提出了一种迁移学习框架，通过整合乳腺癌和前列腺癌特有的转录因子ChIP-seq数据对Enformer模型进行微调。该方法计算出的组织特异性顺式调节活性（tCRA）评分能更精准地识别癌症相关的风险变异。实验证明，该模型在识别致病变异、增强子富集以及发现潜在药物靶点方面均优于原始模型，为精准医疗中的变异解释提供了通用且高效的适配方案。
+  - Tags：`query:bioinfo`
+- [Pseudomonas aeruginosa adaptation and persistence in the aspergilloma microbiome revealed by integrated multi-omics.](#/202605/07/202605/07/41843749-pseudomonas-aeruginosa-adaptation-and-persistence-in-the-aspergilloma-microbiome-revealed-by-integrated-multi-omics)
+  - TLDR：针对慢性肺曲霉病中铜绿假单胞菌与曲霉菌共存的持久性机制不明问题，本研究通过对临床切除的曲霉球进行基因组、转录组和代谢组等多组学整合分析，揭示了细菌利用基因组可塑性、代谢异质性以及分泌吩嗪等拮抗因子在复杂微环境中生存的策略。该成果为理解慢性肺部疾病中跨界微生物群落的相互作用及精准干预提供了系统级框架。
+  - Tags：`query:pathoai`
+- [A multiplant transcriptomic atlas reveals conserved and lineage-specific defense architectures in response to](#/202605/07/202605/07/42090259-a-multiplant-transcriptomic-atlas-reveals-conserved-and-lineage-specific-defense-architectures-in-response-to)
+  - TLDR：针对广谱性病原菌如何跨物种感染植物的免疫机制尚不明确，本研究通过对10种双子叶植物与72个灰霉菌菌株进行大规模共转录组测序，揭示了植物免疫由极少数保守核心基因和大量谱系特异性调节基因组成。研究发现，尽管不同植物在生理层面表现出相似的防御反应，但其背后的调控路径高度依赖于物种谱系及特定的菌株组合，强调了在抗性育种中考虑病原菌多样性的重要性。
+  - Tags：`query:pathoai`
+- [Diagnostic Proficiency of Large Language Models in the Interpretation of Cervical Cytopathology.](#/202605/07/202605/07/42091049-diagnostic-proficiency-of-large-language-models-in-the-interpretation-of-cervical-cytopathology)
+  - TLDR：针对大语言模型在宫颈细胞病变诊断中的可靠性问题，本研究评估了 Gemini、Claude 和 Copilot 在处理 30 例标准化 PAP 涂片案例时的表现。结果显示，虽然模型在识别正常细胞方面表现尚可（约 90% 准确率），但在识别感染性病原体和恶性肿瘤方面存在严重缺陷，甚至将浸润癌误诊为良性。这表明当前多模态大模型尚不能胜任临床诊断，仅可作为辅助教学工具。
+  - Tags：`query:bioinfo`
+- [Structure and druggable conformation of the homodimeric lipoprotein transporter of Acinetobacter baumannii.](#/202605/07/202605/07/42091888-structure-and-druggable-conformation-of-the-homodimeric-lipoprotein-transporter-of-acinetobacter-baumannii)
+  - TLDR：针对鲍曼不动杆菌耐药性问题，本研究聚焦于其独特的同源二聚体脂蛋白转运体 LolDF。通过冷冻电镜技术，解析了 LolDF 在无配体、结合钒酸盐及结合抑制剂 abaucin 等多种构象下的结构，揭示了 abaucin 通过诱导契合机制逐步打开 LolDF 并形成结合口袋的分子机理，为开发针对该病原体的新型窄谱抗生素提供了关键的结构基础。
+  - Tags：`query:pathoai`
+- [Seasonal and spatial variability of PMMoV in tropical urban wastewater-based surveillance: implications for accurate SARS-CoV-2 monitoring in Kampala, Uganda.](#/202605/07/202605/07/42092861-seasonal-and-spatial-variability-of-pmmov-in-tropical-urban-wastewater-based-surveillance-implications-for-accurate-sars-cov-2-monitoring-in-kampala-uganda)
+  - TLDR：针对热带城市污水监测中常用的粪便指示病毒 PMMoV 是否受环境干扰的问题，本研究在乌干达坎帕拉通过为期一年的每周采样和 RT-qPCR 定量分析，揭示了降雨和基础设施对 PMMoV 浓度的显著稀释作用。结果表明降雨量每增加 100mm 会导致病毒浓度下降约 6 倍，强调了在热带地区进行病原体监测时，必须对 PMMoV 进行降雨修正和站点特异性验证，以确保监测结果的准确性。
+  - Tags：`query:pathoai`
+- [Enterotoxigenic Bacteroides fragilis induces host genotype-specific colonic epithelial and immune responses in mice.](#/202605/07/202605/07/42089362-enterotoxigenic-bacteroides-fragilis-induces-host-genotype-specific-colonic-epithelial-and-immune-responses-in-mice)
+  - TLDR：肠道产毒性脆弱拟杆菌（ETBF）与结直肠癌密切相关，但其致病机制是否受宿主基因型影响尚不明确。本研究通过在携带 Apc、BRAF 或 Kras 癌基因突变的小鼠中定植 ETBF，发现虽然细菌定植量一致，但不同突变背景下小鼠的结肠上皮损伤、转录组特征及免疫细胞招募模式存在显著差异。研究揭示了宿主癌基因背景决定了微生物诱导的炎症反应类型，为理解肠道菌群与宿主基因交互作用提供了重要依据。
+  - Tags：`query:pathoai`
+- [Dynamic architecture of mycobacterial outer membranes revealed by all-atom simulations.](#/202605/07/202605/07/42090459-dynamic-architecture-of-mycobacterial-outer-membranes-revealed-by-all-atom-simulations)
+  - TLDR：结核分枝杆菌的耐药性与其独特且复杂的细胞外膜结构密切相关，但其动态分子机制尚不明确。本研究通过全原子分子动力学模拟，首次构建了结核杆菌外膜的完整模型。研究发现，α-分枝菌酸通过伸展构象稳定双层结构，而PDIM和PAT等脂质诱导的膜异质性及不对称流动性梯度，共同构成了抵御宿主压力和限制药物渗透的物理屏障。该成果为开发针对结核杆菌外膜的新型药物提供了关键的分子基础。
+  - Tags：`query:pathoai`
+- [Akkermansia muciniphila-derived 5-MIAA blunts colitis-associated tumorigenesis by modulating colonic SLC26A3/pSTAT3 signaling.](#/202605/07/202605/07/42091596-akkermansia-muciniphila-derived-5-miaa-blunts-colitis-associated-tumorigenesis-by-modulating-colonic-slc26a3pstat3-signaling)
+  - TLDR：针对结肠炎相关结直肠癌（CAC）发病机制不明的问题，研究发现嗜黏蛋白阿克曼氏菌（Akk）及其代谢产物5-MIAA具有显著的抑癌作用。通过AOM/DSS诱导的CAC模型和无菌小鼠实验，证实5-MIAA通过上调结肠SLC26A3表达来抑制STAT3信号通路的激活，从而阻断肿瘤细胞增殖。该发现为利用益生菌及其代谢物防治结直肠癌提供了新的分子靶点和治疗思路。
+  - Tags：`query:pathoai`
+- [Identification of a mitochondrial biomarker signature linking neuroinflammation to neuronal dysfunction in spinal cord injury.](#/202605/07/202605/07/42092129-identification-of-a-mitochondrial-biomarker-signature-linking-neuroinflammation-to-neuronal-dysfunction-in-spinal-cord-injury)
+  - TLDR：针对脊髓损伤（SCI）中线粒体功能障碍缺乏可靠生物标志物的问题，本研究整合了113个小鼠样本的转录组数据，利用机器学习筛选出由Mcl1、Dhrs1等5个基因组成的线粒体特征谱。该特征谱构建的列线图模型在区分SCI病理状态方面表现优异（AUC=0.931），揭示了线粒体失调与神经炎症、神经元功能抑制之间的紧密联系，为SCI的治疗监测和机制研究提供了分子基础。
+  - Tags：`query:bioinfo`
+- [Shotgun metagenomic dataset of leaf endophytic microbiome of the garden sage (Salvia officinalis L.).](#/202605/07/202605/07/42092753-shotgun-metagenomic-dataset-of-leaf-endophytic-microbiome-of-the-garden-sage-salvia-officinalis-l)
+  - TLDR：药用鼠尾草因其丰富的生物活性代谢物而具有重要药用价值，但其叶片内生微生物群落的多样性此前缺乏系统研究。本研究采用鸟枪法宏基因组测序技术，对三个生物重复样本进行深度测序，并利用 BWA-MEM 算法剔除宿主基因组干扰，最终通过 Kraken2 分类器构建了包含细菌、真菌、古菌和病毒的高质量数据集。该成果为解析植物-微生物相互作用及其对次生代谢产物的影响提供了公开的数据资源。
+  - Tags：`query:seqai`
 - [RegFormer: a single-cell foundation model powered by gene regulatory hierarchies.](#/202605/06/202605/06/42086551-regformer-a-single-cell-foundation-model-powered-by-gene-regulatory-hierarchies)
   - TLDR：针对单细胞RNA测序模型在处理长基因序列时效率低、且缺乏基因调控先验知识的问题，RegFormer 结合了 Mamba 状态空间模型与基因调控网络（GRN）层级结构。通过 2500 万个人类单细胞数据的预训练，该模型在细胞聚类、批次整合及药物反应预测等任务上超越了 scGPT 等主流模型，为理解基因调控机制提供了高效且具备生物学可解释性的基础模型。
   - Tags：`query:bioinfo`
@@ -568,40 +604,4 @@
   - Tags：`query:bioinfo`
 - [PROTACs as novel therapeutics against Mycobacterium tuberculosis: Current progress and future directions.](#/202604/16/202604/16/41759306-protacs-as-novel-therapeutics-against-mycobacterium-tuberculosis-current-progress-and-future-directions)
   - TLDR：针对结核分枝杆菌（Mtb）耐药性强且传统抑制剂需持续占据靶点的问题，本文综述了靶向蛋白质降解（TPD）技术，特别是PROTACs的应用。该技术利用细胞内源性降解系统催化消除致病蛋白，而非单纯抑制其活性。这种方法能提供更持久的疗效并降低耐药风险，为开发新型抗结核药物提供了具有高特异性和机制驱动的治疗新范式。
-  - Tags：`query:pathoai`
-- [Contrastive multimodal deep learning for survival prediction in grade 2/3 gliomas.](#/202604/16/202604/16/41987576-contrastive-multimodal-deep-learning-for-survival-prediction-in-grade-23-gliomas)
-  - TLDR：针对2/3级胶质瘤生存预测中因肿瘤异质性导致单模态数据预测不准的问题，该研究提出了一种对比多模态深度学习框架。该框架整合了病理全切片图像、体细胞突变和临床数据，通过三阶段训练流程对齐跨模态表征并优化生存分析目标。实验结果显示，该模型在TCGA数据集上达到0.91的C-index，显著优于单模态模型，并在外部验证集上表现稳健，为临床个性化治疗和风险分层提供了高效的自动化工具。
-  - Tags：`query:bioinfo`
-- [Self-Assembling Nano-Antimicrobial Oligopeptides With Dual Offense-Defense Functions for Synchronously Achieving High Activity and Biosafety.](#/202604/16/202604/16/41988677-self-assembling-nano-antimicrobial-oligopeptides-with-dual-offense-defense-functions-for-synchronously-achieving-high-activity-and-biosafety)
-  - TLDR：针对纳米抗菌肽在提升杀菌活性时往往伴随高细胞毒性的矛盾，该研究提出一种“攻防一体”策略。通过序列工程设计出具有中等表面电位（约+20 mV）的自组装寡肽纳米纤维，利用细菌与哺乳动物细胞膜的电荷差异实现选择性识别，并结合疏水基团的高暴露度增强对细菌膜的穿透力。实验证明该材料在保持极低细胞毒性的同时具有强效抗菌能力，并在小鼠皮肤感染模型中显著促进了伤口愈合，为解决耐药菌感染提供了高生物安全性的新方案。
-  - Tags：`query:pathoai`
-- [Glomage: A Multimodal Platform for High-Content Morphological and RNA Profiling of Glomeruli in Zebrafish and Mouse Models.](#/202604/16/202604/16/41988720-glomage-a-multimodal-platform-for-high-content-morphological-and-rna-profiling-of-glomeruli-in-zebrafish-and-mouse-models)
-  - TLDR：慢性肾病影响广泛，其核心过滤单元肾小球中的足细胞因结构复杂且不可再生，长期缺乏高效的3D分析手段。Glomage 平台通过整合高通量分离、3D体积成像与 RNA 提取技术，实现了对斑马鱼和老鼠肾小球形态与基因表达的同步分析。该方法解决了足细胞表型量化难、规模小的痛点，为肾病机制研究和药物筛选提供了高内涵、跨物种的标准化工具。
-  - Tags：`query:seqai`
-- [Quantifying Protein Homodimer Affinities and the Effect of Molecular Glues and Interface Residues Using Native Mass Spectrometry.](#/202604/16/202604/16/41921055-quantifying-protein-homodimer-affinities-and-the-effect-of-molecular-glues-and-interface-residues-using-native-mass-spectrometry)
-  - TLDR：蛋白质同源二聚体相互作用的定量分析在药物研发中至关重要，但传统质谱法常因信号重叠难以准确测量。本研究利用定量激光诱导液体珠离子解吸质谱（qLILBID-MS），结合稀释实验和共价交联技术，成功分离了单体与二聚体的电荷态分布。该方法不仅能精确测定高微摩尔范围内的解离常数，还能监测分子胶和界面突变对亲和力的影响，为PROTAC等诱导邻近药物的筛选提供了高效、低耗的表征手段。
-  - Tags：`query:seqai`
-- [Reassessing the reliability and translational potential of bacterial cell envelope targets: lessons from LpxC, NagA, and beyond.](#/202604/16/202604/16/41983410-reassessing-the-reliability-and-translational-potential-of-bacterial-cell-envelope-targets-lessons-from-lpxc-naga-and-beyond)
-  - TLDR：针对革兰氏阴性菌药物研发中，LpxC和NagA等生化验证过的靶点难以转化为临床疗法的问题，本文通过案例分析揭示了代谢适应性和宿主环境对靶点有效性的影响。研究提出了一套整合生理必需性、通路脆弱性及旁路潜力的可靠性评估框架，旨在通过系统生物学视角优化早期靶点筛选，降低抗菌药物研发后期的失败率。
-  - Tags：`query:pathoai`
-- [Translation quality control in Pseudomonas aeruginosa: current knowledge and perspectives.](#/202604/16/202604/16/41983571-translation-quality-control-in-pseudomonas-aeruginosa-current-knowledge-and-perspectives)
-  - TLDR：铜绿假单胞菌的致病性与耐药性高度依赖其核糖体在压力下的功能维持。本文综述了该菌通过核糖体保护、救援及休眠等翻译质量控制机制应对环境压力的最新研究进展。文章深入探讨了这些机制如何增强病原体的适应性，并指出针对这些翻译调控路径开发新型抗菌药物的潜力，为解决抗生素耐药性提供了新思路。
-  - Tags：`query:pathoai`
-- [Stable bioreactor control reveals acidic pH-driven metabolic reprogramming and mitochondrial dysfunction in human lymphoblastoid cells.](#/202604/16/202604/16/41986597-stable-bioreactor-control-reveals-acidic-ph-driven-metabolic-reprogramming-and-mitochondrial-dysfunction-in-human-lymphoblastoid-cells)
-  - TLDR：针对酸性微环境对人体细胞分子机制影响不明的问题，研究者利用气体控制生物反应器模拟酸性环境，结合多组学分析发现，酸性pH会诱导淋巴母细胞发生糖酵解转向、线粒体功能障碍及NAD+耗竭，并导致致病性线粒体DNA突变富集。通过补充NMN或抑制PARP1恢复NAD+水平可逆转上述损伤。该研究揭示了pH稳态在代谢、氧化还原与免疫信号中的核心作用，为理解酸性环境诱发的病理变化提供了新机制。
-  - Tags：`query:bioinfo`
-- [A systematic review and benchmarking of modern metagenomic tools for taxonomic classification.](#/202604/15/202604/15/41830810-a-systematic-review-and-benchmarking-of-modern-metagenomic-tools-for-taxonomic-classification)
-  - TLDR：宏基因组分类工具是微生物群落研究的核心，但由于评估标准和数据库差异，工具间的横向对比十分困难。本研究系统综述了31款最新分类工具，并选取其中9款在统一的NCBI RefSeq基准数据集上进行性能评测。结果显示，领域专用工具（如针对原核生物的TAMA和针对病毒的ViWrap）在准确率上具有显著优势，而SqueezeMeta在跨领域任务中表现均衡。该研究为AI和生物信息学研究者在不同应用场景下选择最优分类算法提供了量化参考。
-  - Tags：`query:pathoai`
-- [Structure- and Ligand-Based Discovery of Novel 3-Chymotrypsin-Like Protease Nonpeptidomimetic Hits.](#/202604/15/202604/15/41957532-structure--and-ligand-based-discovery-of-novel-3-chymotrypsin-like-protease-nonpeptidomimetic-hits)
-  - TLDR：针对新冠病毒3CL蛋白酶（3CLpro）易受变异株影响的问题，本研究结合基于配体（形状匹配、机器学习）与基于结构（集成对接）的计算方法，从H3D和ChemBridge数据库中筛选非肽类抑制剂。通过实验验证，成功发现6个活性分子，其中LabMol-499表现最佳（IC50为13.71 µM），且证实其为非竞争性可逆抑制剂，为开发新型抗病毒药物提供了先导化合物。
-  - Tags：`query:pathoai`
-- [A multi-modal diffusion model with dual-cross-attention for multi-omics data generation and translation.](#/202604/15/202604/15/41980989-a-multi-modal-diffusion-model-with-dual-cross-attention-for-multi-omics-data-generation-and-translation)
-  - TLDR：针对单细胞多组学实验成本高、规模受限的问题，本文开发了 scDiffusion-X 潜空间扩散模型。该模型通过创新的双交叉注意力（DCA）机制捕捉不同分子模态间的复杂关联，实现了高质量的多组学数据生成与跨模态翻译。实验证明其在保持细胞异质性的同时，能准确预测缺失模态并推断细胞类型特异性的基因调控网络，为生物医学研究提供了强有力的计算工具。
-  - Tags：`query:bioinfo`
-- [Machine-Learning Microfluidic Minute-Scale Microorganism Metrics Monitoring(M6).](#/202604/15/202604/15/41984488-machine-learning-microfluidic-minute-scale-microorganism-metrics-monitoringm6)
-  - TLDR：针对气溶胶传播病原体（如非洲猪瘟病毒）现场监测难的问题，该研究开发了集成微流控芯片、电化学阻抗谱（EIS）与机器学习的M6监测平台。通过流体动力学设计实现目标颗粒的高效分离，并利用随机森林模型对阻抗特征进行分类。结果显示，该系统在1分钟内即可完成检测，准确率达95.2%，检测限低至188 TCID50/mL，为公共卫生和畜牧业提供了一种快速、精准的现场监测方案。
-  - Tags：`query:pathoai`
-- [Accelerated Combinatorial Drug Design for Human Immunodeficiency Virus Resistance through Seeded Multisite λ-Dynamics.](#/202604/15/202604/15/41911382-accelerated-combinatorial-drug-design-for-human-immunodeficiency-virus-resistance-through-seeded-multisite--dynamics)
-  - TLDR：针对 HIV 病毒快速变异导致的耐药性难题，本研究利用多位点 λ 动力学（MSλD）方法，在大规模化学空间（超过 12,000 种蛋白-配体组合）中探索了 HIV-1 逆转录酶抑制剂的结合性能。通过引入溶剂相自由能偏置种子技术，显著提升了采样效率。研究发现 indolizine 骨架比 indole 骨架具有更好的抗突变韧性，并识别出 Y188I 为关键耐药位点，为设计广谱抗病毒药物提供了高效的计算框架。
   - Tags：`query:pathoai`

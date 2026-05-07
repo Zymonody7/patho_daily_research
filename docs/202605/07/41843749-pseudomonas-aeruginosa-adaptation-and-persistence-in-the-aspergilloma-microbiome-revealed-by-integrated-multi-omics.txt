@@ -1,0 +1,101 @@
+Title: Pseudomonas aeruginosa adaptation and persistence in the aspergilloma microbiome revealed by integrated multi-omics - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41843749/
+
+Markdown Content:
+## Pseudomonas aeruginosa adaptation and persistence in the aspergilloma microbiome revealed by integrated multi-omics
+
+Matheus Mertz Ribeiro et al. G3 (Bethesda).2026.
+
+## Abstract
+
+Chronic pulmonary aspergillosis involves the formation of a fungal ball (aspergilloma) in lung cavities. Pseudomonas aeruginosa commonly co-colonizes these lesions; however, the in vivo mechanisms underlying its persistence are unknown. Using a multi-omics approach on resected aspergillomas, we defined the genomic, transcriptional, and metabolic adaptations of P. aeruginosa within this polymicrobial niche. We reconstructed high-quality P. aeruginosa genomes and identified a conserved core genome, along with accessory genes for secondary metabolism, virulence, and antimicrobial resistance. Phylogenomics revealed heterogeneous evolutionary paths among co-colonizing strains. Metatranscriptomics showed stark physiological heterogeneity, from metabolically aggressive to stress-adapted states. High expression of phenazine, quorum-sensing (PQS), siderophore, and secretion-system operons was corroborated by metabolomic detection of phenazine-1-carboxylic acid and 2-heptylquinolin-4(1H)-one, confirming active bacterial antagonism in vivo. Concurrent Aspergillus fumigatus transcriptomics revealed the activation of oxidative stress responses, secondary metabolism (eg fumagillin), and iron scavenging, demonstrating reciprocal competition. Host transcriptomics revealed patient-specific immune signatures that correlated with the metabolic activity of the co-colonizers. This work provides an integrated systems-level analysis of the tri-kingdom aspergilloma ecosystem. P. aeruginosa persistence is driven by genomic plasticity and context-dependent expression of competitive pathways, shaped within a chronic inflammatory environment. These findings redefine aspergillomas as active polymicrobial consortia, establishing a framework for targeting resilient microbial communities in chronic lung disease.
+
+**Keywords:** Aspergillus fumigatus; Pseudomonas aeruginosa; chronic pulmonary aspergillosis; fungal2026; multi-omics; polymicrobial interactions.
+
+© The Author(s) 2026. Published by Oxford University Press on behalf of The Genetics Society of America.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+None declared.
+
+## Figures
+
+[![Image 1: Fig. 1.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cb5e/13148400/170fcd4d3e05/jkag063f1.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cb5e/13148400/e050c9788731/jkag063f1.jpg)
+
+**Fig. 1.**
+Genomic architecture and functional landscape of _Pseudomonas aeruginosa_ isolates recovered from CF–aspergilloma samples. a) Whole-genome assemblies of _P. aeruginosa_ strains A3, A25, and A61, showing contig organization, coding sequences (CDS) on forward and reverse strands, GC content, and GC skew, AMR genes, virulence factors (VF), and membrane transport–related genes are highlighted to illustrate genomic hotspots associated with pathogenicity and adaptation. b) BRIG comparative alignment of all sequenced isolates against the PAO1 genome. Conserved and divergent genomic regions are visualized across strains, revealing shared core architecture and isolate-specific accessory loci that may reflect niche specialization within the aspergilloma environment. c) Global pangenome analysis of 648 _P. aeruginosa_ reference genomes, displaying the distribution of genomes across continents and the pangenome structure. The 3 isolates from this study are annotated with distinct symbols, allowing their placement within the global genomic diversity and highlighting their phylogeographic relationships and accessory gene content.
+
+[![Image 2: Fig. 2.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cb5e/13148400/ef69f5d471de/jkag063f2.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cb5e/13148400/6c7576e61419/jkag063f2.jpg)
+
+**Fig. 2.**
+Genome-wide similarity between clinical isolates and the _Pseudomonas aeruginosa_ PAO1 reference strain assessed by FastANI. a) Pairwise whole-genome average nucleotide identity (ANI) values calculated using FastANI, showing the degree of genomic similarity between each clinical isolate (A3, A25, and A61) and the _P. aeruginosa_ reference genome PAO1. b) FastANI scatterplots illustrating fragment-level alignment identity between each isolate.
+
+[![Image 3: Fig. 3.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cb5e/13148400/5c94a690a26b/jkag063f3.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cb5e/13148400/c36572829db9/jkag063f3.jpg)
+
+**Fig. 3.**
+Metatranscriptomic profiling of _Pseudomonas aeruginosa_ across 3 aspergilloma samples. a) PCA of normalized TPM values for the 3 _P. aeruginosa_–positive samples (A25, A61, A3). b) Heatmap of the top 500 most variable genes, displayed as log 2(TPM + 1). c) Venn diagram showing the overlap among the top 500 expressed genes from each sample (A25 = orange, A61 = green, A3 = blue). d) GO enrichment analysis of expressed genes, showing terms with adjusted _P_< 0.05, “∩” symbols indicate terms derived from intersections between samples. e) Heatmap of virulence-related genes, using the same log 2(TPM + 1) transformation and color scale as in panel b.
+
+[![Image 4: Fig. 4.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cb5e/13148400/55a4da9eef40/jkag063f4.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cb5e/13148400/c7805bc01fdb/jkag063f4.jpg)
+
+**Fig. 4.**
+Host transcriptomic profiling across aspergilloma samples. a) Heatmap of the top 500 most variable human genes, displayed as log 2(TPM + 1). b) Venn diagram showing the overlap of expressed genes among the 3 samples. c) GO enrichment analysis of expressed genes, showing terms with adjusted _P_< 0.05, “∩” symbols indicate terms derived from intersections between samples. d) Heatmap of 1,200 immune-related genes, plotted as log 2(TPM + 1) using the same color scale as in panel a.
+
+[![Image 5: Fig. 5.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cb5e/13148400/a5c1743e2779/jkag063f5.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cb5e/13148400/db00bab62b08/jkag063f5.jpg)
+
+**Fig. 5.**
+Transcriptomic profiling of _Aspergillus fumigatus_ within aspergillomas. a) Heatmap of the top 500 most highly expressed fungal genes, shown as log 2(TPM + 1). b) Venn diagram illustrating the overlap of expressed genes between isolates A25 and A61. c) GO enrichment analysis of expressed genes, showing terms with adjusted _P_< 0.05, “∩” symbols indicate terms derived from intersections between samples. d) Heatmap of virulence-associated genes plotted as log 2(TPM + 1) using the same color scale as in panel a.
+
+[![Image 6: Fig. 6.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cb5e/13148400/16bb418895fa/jkag063f6.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/cb5e/13148400/e3b86257b266/jkag063f6.jpg)
+
+**Fig. 6.**
+Untargeted metabolomics profiling of fungal ball-associated aspergilloma samples. a) PCA showing the global distribution of metabolite profiles across samples, illustrating clear separation driven by biological variation among conditions. b) Heatmap of all curated metabolites (log 2-transformed peak intensities), following database-based annotation and manual curation. c) Focused heatmap highlighting metabolites associated with _Aspergillus fumigatus_ and _Pseudomonas aeruginosa_ (log 2-transformed peak intensities). d) Heatmap of metabolites linked to host immune processes (log 2-transformed peak intensities), emphasizing immune-associated metabolic responses within the aspergilloma microenvironment.
+
+## Similar articles
+
+*   [Under nonlimiting iron conditions pyocyanin is a major antifungal molecule, and differences between prototypic Pseudomonas aeruginosa strains.](https://pubmed.ncbi.nlm.nih.gov/32827431/)
+
+Sass G, Nazik H, Chatterjee P, Stevens DA.Sass G, et al.Med Mycol. 2021 May 4;59(5):453-464. doi: 10.1093/mmy/myaa066.Med Mycol. 2021.PMID: 32827431 
+*   [Comparative genome and transcriptome analysis reveals distinctive surface characteristics and unique physiological potentials of Pseudomonas aeruginosa ATCC 27853.](https://pubmed.ncbi.nlm.nih.gov/28606056/)
+
+Cao H, Lai Y, Bougouffa S, Xu Z, Yan A.Cao H, et al.BMC Genomics. 2017 Jun 12;18(1):459. doi: 10.1186/s12864-017-3842-z.BMC Genomics. 2017.PMID: 28606056 Free PMC article. 
+*   [_Aspergillus fumigatus_ secondary metabolite pyripyropene is important for the dual biofilm formation with _Pseudomonas aeruginosa_.](https://pubmed.ncbi.nlm.nih.gov/40094363/)
+
+de Castro PA, Akiyama DY, Pinzan CF, Dos Reis TF, Delbaje E, Rocha P, Izidoro MA, Schenkman S, Sugimoto S, Takeshita N, Steffen K, Aycock JL, Dolan SK, Rokas A, Fill T, Goldman GH.de Castro PA, et al.mBio. 2025 Apr 9;16(4):e0036325. doi: 10.1128/mbio.00363-25. Epub 2025 Mar 17.mBio. 2025.PMID: 40094363 Free PMC article. 
+*   [Aspergillus-Pseudomonas interaction, relevant to competition in airways.](https://pubmed.ncbi.nlm.nih.gov/30816973/)
+
+Sass G, Nazik H, Penner J, Shah H, Ansari SR, Clemons KV, Groleau MC, Dietl AM, Visca P, Haas H, Déziel E, Stevens DA.Sass G, et al.Med Mycol. 2019 Apr 1;57(Supplement_2):S228-S232. doi: 10.1093/mmy/myy087.Med Mycol. 2019.PMID: 30816973 Review. 
+*   [Coinfection with _Pseudomonas aeruginosa_ and _Aspergillus fumigatus_ in cystic fibrosis.](https://pubmed.ncbi.nlm.nih.gov/33208485/)
+
+Keown K, Reid A, Moore JE, Taggart CC, Downey DG.Keown K, et al.Eur Respir Rev. 2020 Nov 18;29(158):200011. doi: 10.1183/16000617.0011-2020. Print 2020 Dec 31.Eur Respir Rev. 2020.PMID: 33208485 Free PMC article.Review. 
+
+## References
+
+1.       1.    Abram KZ, Jun SR, Udaondo Z. 2022. _Pseudomonas aeruginosa_ pangenome: core and accessory genes of a highly resourceful opportunistic pathogen. In: Pseudomonas aeruginosa: biology, pathogenesis and control strategies. p. 3–28. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/36258067/)
+
+2.       1.    Alcock BP et al. 2023. CARD 2023: expanded curation, support for machine learning, and resistome prediction at the comprehensive antibiotic resistance database. Nucleic Acids Res. 51:D690–D699. 10.1093/nar/gkac920. - [DOI](https://doi.org/10.1093/nar/gkac920) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9825576/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/36263822/)
+
+3.       1.    Alneberg J et al. 2014. Binning metagenomic contigs by coverage and composition. Nat Methods. 11:1144–1146. 10.1038/nmeth.3103. - [DOI](https://doi.org/10.1038/nmeth.3103) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/25218180/)
+
+4.       1.    Arastehfar A et al. 2021. _Aspergillus fumigatus_ and aspergillosis: from basics to clinics. Stud Mycol. 100:100115. 10.1016/j.simyco.2021.100115. - [DOI](https://doi.org/10.1016/j.simyco.2021.100115) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8131930/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/34035866/)
+
+5.       1.    Blanchard AC, Waters VJ. 2022. Opportunistic pathogens in cystic fibrosis: epidemiology and pathogenesis of lung infection. J Pediatr Infect Dis Soc. 11:S3–S12. 10.1093/jpids/piac052. - [DOI](https://doi.org/10.1093/jpids/piac052) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/36069904/)
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions
