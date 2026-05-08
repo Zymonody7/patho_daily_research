@@ -1,0 +1,69 @@
+Title: Unleashing the potential of mRNA-seq to uncover the microbiome structure and their crosstalk with host cells: the vulvar ecosystem - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42098796/
+
+Markdown Content:
+Actions
+
+. 2026 May 7.
+
+doi: 10.1186/s40168-026-02420-x.  Online ahead of print.
+
+[Marco Amato Cianci](https://pubmed.ncbi.nlm.nih.gov/?term=Cianci+MA&cauthor_id=42098796)[#](https://pubmed.ncbi.nlm.nih.gov/42098796/#full-view-equal-contrib-explanation "Contributed equally")[3](https://pubmed.ncbi.nlm.nih.gov/42098796/#full-view-affiliation-3 "Department of Life Sciences and Systems Biology, University of Turin, Turin, Italy.")[4](https://pubmed.ncbi.nlm.nih.gov/42098796/#full-view-affiliation-4 "Molecular Biotechnology Centre (MBC) Guido Tarone, University of Turin, Turin, Italy."),[Alessia Albano](https://pubmed.ncbi.nlm.nih.gov/?term=Albano+A&cauthor_id=42098796)[#](https://pubmed.ncbi.nlm.nih.gov/42098796/#full-view-equal-contrib-explanation "Contributed equally")[3](https://pubmed.ncbi.nlm.nih.gov/42098796/#full-view-affiliation-3 "Department of Life Sciences and Systems Biology, University of Turin, Turin, Italy.")[4](https://pubmed.ncbi.nlm.nih.gov/42098796/#full-view-affiliation-4 "Molecular Biotechnology Centre (MBC) Guido Tarone, University of Turin, Turin, Italy."),[Federica Loperfido](https://pubmed.ncbi.nlm.nih.gov/?term=Loperfido+F&cauthor_id=42098796)[3](https://pubmed.ncbi.nlm.nih.gov/42098796/#full-view-affiliation-3 "Department of Life Sciences and Systems Biology, University of Turin, Turin, Italy.")[4](https://pubmed.ncbi.nlm.nih.gov/42098796/#full-view-affiliation-4 "Molecular Biotechnology Centre (MBC) Guido Tarone, University of Turin, Turin, Italy."),[Gloria Griffante](https://pubmed.ncbi.nlm.nih.gov/?term=Griffante+G&cauthor_id=42098796)[4](https://pubmed.ncbi.nlm.nih.gov/42098796/#full-view-affiliation-4 "Molecular Biotechnology Centre (MBC) Guido Tarone, University of Turin, Turin, Italy.")[5](https://pubmed.ncbi.nlm.nih.gov/42098796/#full-view-affiliation-5 "Department of Sciences of Public Health and Pediatrics, University of Turin, Turin, Italy."),[Luna Brasi](https://pubmed.ncbi.nlm.nih.gov/?term=Brasi+L&cauthor_id=42098796)[3](https://pubmed.ncbi.nlm.nih.gov/42098796/#full-view-affiliation-3 "Department of Life Sciences and Systems Biology, University of Turin, Turin, Italy.")[4](https://pubmed.ncbi.nlm.nih.gov/42098796/#full-view-affiliation-4 "Molecular Biotechnology Centre (MBC) Guido Tarone, University of Turin, Turin, Italy."),[Fulvio Borella](https://pubmed.ncbi.nlm.nih.gov/?term=Borella+F&cauthor_id=42098796)[6](https://pubmed.ncbi.nlm.nih.gov/42098796/#full-view-affiliation-6 "Obstetric and Gynecology Unit, Sant'Anna Hospital, Department of Surgical Sciences, University of Turin, Turin, Italy."),[Niccolò Gallio](https://pubmed.ncbi.nlm.nih.gov/?term=Gallio+N&cauthor_id=42098796)[6](https://pubmed.ncbi.nlm.nih.gov/42098796/#full-view-affiliation-6 "Obstetric and Gynecology Unit, Sant'Anna Hospital, Department of Surgical Sciences, University of Turin, Turin, Italy."),[Mario Preti](https://pubmed.ncbi.nlm.nih.gov/?term=Preti+M&cauthor_id=42098796)[6](https://pubmed.ncbi.nlm.nih.gov/42098796/#full-view-affiliation-6 "Obstetric and Gynecology Unit, Sant'Anna Hospital, Department of Surgical Sciences, University of Turin, Turin, Italy."),[Alessandra Marchi](https://pubmed.ncbi.nlm.nih.gov/?term=Marchi+A&cauthor_id=42098796)[7](https://pubmed.ncbi.nlm.nih.gov/42098796/#full-view-affiliation-7 "Centro Salute Pelvi, Turin, Italy."),[Barbara Gardella](https://pubmed.ncbi.nlm.nih.gov/?term=Gardella+B&cauthor_id=42098796)[8](https://pubmed.ncbi.nlm.nih.gov/42098796/#full-view-affiliation-8 "Obstetric and Gynecology Unit, San Matteo Hospital, Department of Pediatric, Surgical, Clinical and Diagnostic Sciences, University of Pavia, Pavia, Italy."),[Ivan Molineris](https://pubmed.ncbi.nlm.nih.gov/?term=Molineris+I&cauthor_id=42098796)[3](https://pubmed.ncbi.nlm.nih.gov/42098796/#full-view-affiliation-3 "Department of Life Sciences and Systems Biology, University of Turin, Turin, Italy."),[Giacomo Donati](https://pubmed.ncbi.nlm.nih.gov/?term=Donati+G&cauthor_id=42098796)[3](https://pubmed.ncbi.nlm.nih.gov/42098796/#full-view-affiliation-3 "Department of Life Sciences and Systems Biology, University of Turin, Turin, Italy.")[4](https://pubmed.ncbi.nlm.nih.gov/42098796/#full-view-affiliation-4 "Molecular Biotechnology Centre (MBC) Guido Tarone, University of Turin, Turin, Italy."),[Valentina Proserpio](https://pubmed.ncbi.nlm.nih.gov/?term=Proserpio+V&cauthor_id=42098796)[9](https://pubmed.ncbi.nlm.nih.gov/42098796/#full-view-affiliation-9 "Department of Life Sciences and Systems Biology, University of Turin, Turin, Italy. valentina.proserpio@unito.it.")[10](https://pubmed.ncbi.nlm.nih.gov/42098796/#full-view-affiliation-10 "Molecular Biotechnology Centre (MBC) Guido Tarone, University of Turin, Turin, Italy. valentina.proserpio@unito.it.")
+
+Affiliations
+
+*    PMID: **42098796**
+*    DOI: [10.1186/s40168-026-02420-x](https://doi.org/10.1186/s40168-026-02420-x)
+
+Free article
+
+## Unleashing the potential of mRNA-seq to uncover the microbiome structure and their crosstalk with host cells: the vulvar ecosystem
+
+Emanuele Monteleone et al. Microbiome.2026.
+
+Free article
+
+## Abstract
+
+**Background:** To describe both host gene expression and microbiome composition in a single sample, parallel experimental and computational workflows (mRNA-sequencing and either 16S rRNA gene or metagenomics) have been traditionally applied. The vulvar milieu represents an area of emerging research for its role in health and disease. Located at the interface between the vagina and the perineum, the vulvar microbiome displays an intermediate signature, with influx from both ecosystems.
+
+**Results:** Following validation of the reliability of poly(A)-enriched mRNA-sequencing in reconstructing the microbiota composition using both a quantitative microbial standard (mock) and metagenomic analysis, we analyze a full cohort of 30 healthy vulvar samples. Crucially, the analysis of the entire cohort relies solely on mRNA-sequencing without the use of parallel DNA metagenomics. This unified approach allows us to analyze not only the vulvar cell transcriptome, but also the composition and dynamics of microbial communities, including the microbial gene expression signatures. This three-level analysis (host-mRNA, individual bacterial species, bacterial gene pathways) on the very same specimens further enables a gene-level exploration of host-microbe molecular crosstalk. Using this unified framework, we reveal marked heterogeneity and high inter-individual variability in the vulvar microbiota, identifying community state types that mirror those described in the vagina. Importantly, we show that distinct microbial configurations are associated with specific host transcriptional programs: Lactobacillus crispatus correlates with epithelial differentiation and barrier integrity, whereas communities enriched in Gardnerella vaginalis, or other taxa associated with dysbiosis, exhibit transcriptional signatures linked to inflammation. Interestingly, Lactobacillus gasseri, which has been associated with lower protection, shows an intermediate effect on vulvar cells.
+
+**Conclusions:** Beyond providing new biological insights into an understudied anatomical niche, our study introduces a broadly applicable strategy with substantial impact for the field. With tens of thousands of human RNA-seq datasets already available in public repositories, our approach enables retrospective extraction of microbiome information and host-microbe interaction signals from existing transcriptomic data, without the need for additional sequencing or specialized microbiome protocols. This unlocks a powerful and cost-effective opportunity to revisit archived RNA-seq studies across tissues, diseases, and low-biomass environments, revealing previously inaccessible layers of host-microbiome crosstalk and maximizing the scientific value of published data. Video Abstract.
+
+**Keywords:** Bias correction; Community state types (CSTs); Data mining; Dual RNA-seq; Host-microbiome crosstalk; Metatranscriptomics; Microbial mRNA-seq; Retrospective studies; Vulvar microbiome.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Ethics approval and consent to participate: This study was approved by the Ethical Committee of the University of Turin and from Città della salute di Torino. Consent for publication: Not applicable. Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Comprehensive 16S rRNA gene sequencing and meta-transcriptomic analyses of the female reproductive tract microbiota: two molecular profiles with different messages.](https://pubmed.ncbi.nlm.nih.gov/41640423/)
+
+Sola-Leyva A, Pérez-Prieto I, Canha-Gouveia A, Salas-Espejo E, Molina NM, Vargas E, Apostolov A, Pathare ADS, Vela-Moreno S, Ruiz-Durán S, Romero B, Sánchez R, Castilla-Alcalá JA, Saare M, Acharya G, Salumets A, Altmäe S.Sola-Leyva A, et al.Hum Reprod Open. 2026 Jan 6;2026(1):hoag001. doi: 10.1093/hropen/hoag001. eCollection 2026.Hum Reprod Open. 2026.PMID: 41640423 Free PMC article. 
+*   [Taxonomic and functional profiling of the vulvar microbiome indicates variations related to ecological signatures, aging, and health status.](https://pubmed.ncbi.nlm.nih.gov/41048510/)
+
+Mieremet A, van der Wurff M, Pagan L, Ferrer-González E, Seo J, Schuren FHJ.Mieremet A, et al.Front Microbiol. 2025 Sep 19;16:1633147. doi: 10.3389/fmicb.2025.1633147. eCollection 2025.Front Microbiol. 2025.PMID: 41048510 Free PMC article. 
+*   [Distinct cervical tissue-adherent and luminal microbiome communities correlate with mucosal host gene expression and protein levels in Kenyan sex workers.](https://pubmed.ncbi.nlm.nih.gov/37004130/)
+
+Edfeldt G, Kaldhusdal V, Czarnewski P, Bradley F, Bergström S, Lajoie J, Xu J, Månberg A, Kimani J, Oyugi J, Nilsson P, Tjernlund A, Fowke KR, Kwon DS, Broliden K.Edfeldt G, et al.Microbiome. 2023 Mar 31;11(1):67. doi: 10.1186/s40168-023-01502-4.Microbiome. 2023.PMID: 37004130 Free PMC article. 
+*   [Endometrial Microbiome and Reproductive Receptivity: Diverse Perspectives.](https://pubmed.ncbi.nlm.nih.gov/41226831/)
+
+Stoyancheva G, Mihaylova N, Gerginova M, Krumova E.Stoyancheva G, et al.Int J Mol Sci. 2025 Nov 6;26(21):10796. doi: 10.3390/ijms262110796.Int J Mol Sci. 2025.PMID: 41226831 Free PMC article.Review. 
+*   [Exploring the Human Microbiome: The Potential Future Role of Next-Generation Sequencing in Disease Diagnosis and Treatment.](https://pubmed.ncbi.nlm.nih.gov/30666248/)
+
+Malla MA, Dubey A, Kumar A, Yadav S, Hashem A, Abd Allah EF.Malla MA, et al.Front Immunol. 2019 Jan 7;9:2868. doi: 10.3389/fimmu.2018.02868. eCollection 2018.Front Immunol. 2019.PMID: 30666248 Free PMC article.Review. 
+
+## Grants and funding
+
+*   [IG 2023 - Id. 28831/Fondazione AIRC per la ricerca sul cancro ETS](https://pubmed.ncbi.nlm.nih.gov/?term=IG+2023+-+Id.+28831%2FFondazione+AIRC+per+la+ricerca+sul+cancro+ETS%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant IG 2023 - Id. 28831/Fondazione AIRC per la ricerca sul cancro ETS")
+*   [MFAG 2023 - ID. 29203/Fondazione AIRC per la ricerca sul cancro ETS](https://pubmed.ncbi.nlm.nih.gov/?term=MFAG+2023+-+ID.+29203%2FFondazione+AIRC+per+la+ricerca+sul+cancro+ETS%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant MFAG 2023 - ID. 29203/Fondazione AIRC per la ricerca sul cancro ETS")
+*   [CRT 2023 RF = 106089 / 2023.1841/Fondazione CRT](https://pubmed.ncbi.nlm.nih.gov/?term=CRT+2023+RF+%3D+106089+%2F+2023.1841%2FFondazione+CRT%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant CRT 2023 RF = 106089 / 2023.1841/Fondazione CRT")
+*   [COD. 2022CLTAYH/Ministero dell'Università e della Ricerca](https://pubmed.ncbi.nlm.nih.gov/?term=COD.+2022CLTAYH%2FMinistero+dell%27Universit%C3%A0+e+della+Ricerca%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant COD. 2022CLTAYH/Ministero dell'Università e della Ricerca")
+*   [2025.0983/Compagnia di San Paolo](https://pubmed.ncbi.nlm.nih.gov/?term=2025.0983%2FCompagnia+di+San+Paolo%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2025.0983/Compagnia di San Paolo")

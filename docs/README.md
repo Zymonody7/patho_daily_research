@@ -11,58 +11,76 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-05-07
-- 运行时间：2026-05-07 20:14:50 UTC
+- 最新运行日期：2026-05-08
+- 运行时间：2026-05-08 19:59:17 UTC
 - 运行状态：成功
-- 本次总论文数：12
-- 精读区：3
-- 速读区：9
+- 本次总论文数：18
+- 精读区：7
+- 速读区：11
 
 ### 今日简报（AI）
-今日深度解析 12 篇生物医学前沿进展，重点聚焦 AI 驱动的细菌毒素鉴定与癌症靶点发现。
-BERT-T6 模型实现了极高精度的细菌毒素识别，而组织特异性迁移学习则为乳腺癌和前列腺癌的精准治疗提供了新路径。
-推荐关注蛋白质语言模型与迁移学习在临床诊断中的跨界融合，这正成为攻克复杂疾病的关键。
-- 详情：[/202605/07/README](/202605/07/README)
+今日深度研读 18 篇前沿成果，聚焦 AI 分子预测基准与跨越 15 亿年进化的生成式细胞图谱。
+满分论文揭示了大模型时代分子属性预测的新范式，以及 TranscriptFormer 在解析生命演化规律中的核心价值。
+推荐优先阅读两篇 10 分佳作，快速同步 AI 与生物学交叉领域的最前沿技术框架。
+- 详情：[/202605/08/README](/202605/08/README)
 
 ### 精读区论文标签
-1. [BERT-T6: Toward High-Accuracy T6SS Bacterial Toxin Identification Using a Protein Language Model.](/202605/07/42095236-bert-t6-toward-high-accuracy-t6ss-bacterial-toxin-identification-using-a-protein-language-model)  
+1. [A Systematic Survey and Benchmark of Deep Learning for Molecular Property Prediction in the Foundation Model Era.](/202605/08/42096352-a-systematic-survey-and-benchmark-of-deep-learning-for-molecular-property-prediction-in-the-foundation-model-era)  
    标签：评分：10.0/10、query:bioinfo
-   evidence：用于细菌毒素识别的蛋白质语言模型
-2. [Tissue-specific transfer learning improves functional variant and therapeutic target discoveries in breast and prostate cancer.](/202605/07/42090444-tissue-specific-transfer-learning-improves-functional-variant-and-therapeutic-target-discoveries-in-breast-and-prostate-cancer)  
-   标签：评分：9.0/10、query:bioinfo
-   evidence：用于调控变异解释的DNA基础模型
-3. [Pseudomonas aeruginosa adaptation and persistence in the aspergilloma microbiome revealed by integrated multi-omics.](/202605/07/41843749-pseudomonas-aeruginosa-adaptation-and-persistence-in-the-aspergilloma-microbiome-revealed-by-integrated-multi-omics)  
+   evidence：用于分子属性预测和药物发现的基础模型
+2. [TranscriptFormer: A generative cell atlas across 1.5 billion years of evolution.](/202605/08/42096520-transcriptformer-a-generative-cell-atlas-across-15-billion-years-of-evolution)  
+   标签：评分：10.0/10、query:seqai
+   evidence：跨物种转录组学的生成式基础模型
+3. [CAPTAIN: a multimodal foundation model pretrained on co-assayed single-cell RNA and protein.](/202605/08/42098152-captain-a-multimodal-foundation-model-pretrained-on-co-assayed-single-cell-rna-and-protein)  
+   标签：评分：10.0/10、query:seqai
+   evidence：单细胞RNA和蛋白质的多模态基础模型
+4. [Artificial intelligence algorithm for real-time detection and counting of Trypanosoma cruzi parasites using smartphone microscopy.](/202605/08/42096492-artificial-intelligence-algorithm-for-real-time-detection-and-counting-of-trypanosoma-cruzi-parasites-using-smartphone-microscopy)  
    标签：评分：8.0/10、query:pathoai
-   evidence：整合多组学研究微生物组中的病原体适应和抗生素耐药性
+   evidence：用于显微镜图像中病原体实时检测的AI系统
+5. [A versatile multi-components mixed model for bacterial-Genome Wide association studies.](/202605/08/42098097-a-versatile-multi-components-mixed-model-for-bacterial-genome-wide-association-studies)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：细菌全基因组关联分析中的群体结构建模
+6. [Mitochondrial Gene Signature Reveals Novel Diagnostic Biomarkers for Autism Spectrum Disorder.](/202605/08/42098401-mitochondrial-gene-signature-reveals-novel-diagnostic-biomarkers-for-autism-spectrum-disorder)  
+   标签：评分：8.0/10、query:bioinfo
+   evidence：用于多组学整合和转录组数据分析的机器学习
+7. [Cross-Species Plant Single-Cell Analysis: Community Challenges and Shared Solutions.](/202605/08/42099283-cross-species-plant-single-cell-analysis-community-challenges-and-shared-solutions)  
+   标签：评分：8.0/10、query:seqai
+   evidence：单细胞分析中的深度生成建模和基因调控网络
 
 ### 速读区论文标签
-1. [A multiplant transcriptomic atlas reveals conserved and lineage-specific defense architectures in response to](/202605/07/42090259-a-multiplant-transcriptomic-atlas-reveals-conserved-and-lineage-specific-defense-architectures-in-response-to)  
+1. [Drug Discovery of Antiviral Inhibitors Targeting Dengue Virus NS4B Protein.](/202605/08/42014928-drug-discovery-of-antiviral-inhibitors-targeting-dengue-virus-ns4b-protein)  
    标签：评分：7.0/10、query:pathoai
-   evidence：大规模共转录组方法绘制病原体-宿主免疫图谱
-2. [Diagnostic Proficiency of Large Language Models in the Interpretation of Cervical Cytopathology.](/202605/07/42091049-diagnostic-proficiency-of-large-language-models-in-the-interpretation-of-cervical-cytopathology)  
-   标签：评分：7.0/10、query:bioinfo
-   evidence：评估大语言模型在细胞病理学诊断解释中的能力
-3. [Structure and druggable conformation of the homodimeric lipoprotein transporter of Acinetobacter baumannii.](/202605/07/42091888-structure-and-druggable-conformation-of-the-homodimeric-lipoprotein-transporter-of-acinetobacter-baumannii)  
+   evidence：针对登革病毒的抗病毒药物发现和病原体靶点识别
+2. [Host metabolism shapes the intestinal microbiota: a top-down paradigm of environmental selection pressure.](/202605/08/42096491-host-metabolism-shapes-the-intestinal-microbiota-a-top-down-paradigm-of-environmental-selection-pressure)  
    标签：评分：7.0/10、query:pathoai
-   evidence：病原体靶点识别用于抗菌药物发现
-4. [Seasonal and spatial variability of PMMoV in tropical urban wastewater-based surveillance: implications for accurate SARS-CoV-2 monitoring in Kampala, Uganda.](/202605/07/42092861-seasonal-and-spatial-variability-of-pmmov-in-tropical-urban-wastewater-based-surveillance-implications-for-accurate-sars-cov-2-monitoring-in-kampala-uganda)  
+   evidence：宿主代谢塑造肠道微生物群和病原体生态
+3. [Ovotransferrin Alleviates Ulcerative Colitis by Modulating](/202605/08/42098593-ovotransferrin-alleviates-ulcerative-colitis-by-modulating)  
    标签：评分：7.0/10、query:pathoai
-   evidence：基于废水的病原体监测监测
-5. [Enterotoxigenic Bacteroides fragilis induces host genotype-specific colonic epithelial and immune responses in mice.](/202605/07/42089362-enterotoxigenic-bacteroides-fragilis-induces-host-genotype-specific-colonic-epithelial-and-immune-responses-in-mice)  
-   标签：评分：6.0/10、query:pathoai
-   evidence：微生物组宿主相互作用与结肠免疫反应
-6. [Dynamic architecture of mycobacterial outer membranes revealed by all-atom simulations.](/202605/07/42090459-dynamic-architecture-of-mycobacterial-outer-membranes-revealed-by-all-atom-simulations)  
-   标签：评分：6.0/10、query:pathoai
-   evidence：病原体膜全原子模型用于治疗干预
-7. [Akkermansia muciniphila-derived 5-MIAA blunts colitis-associated tumorigenesis by modulating colonic SLC26A3/pSTAT3 signaling.](/202605/07/42091596-akkermansia-muciniphila-derived-5-miaa-blunts-colitis-associated-tumorigenesis-by-modulating-colonic-slc26a3pstat3-signaling)  
-   标签：评分：6.0/10、query:pathoai
-   evidence：微生物组宿主相互作用与感染结果建模
-8. [Identification of a mitochondrial biomarker signature linking neuroinflammation to neuronal dysfunction in spinal cord injury.](/202605/07/42092129-identification-of-a-mitochondrial-biomarker-signature-linking-neuroinflammation-to-neuronal-dysfunction-in-spinal-cord-injury)  
-   标签：评分：6.0/10、query:bioinfo
-   evidence：结合转录组分析与机器学习进行生物标志物识别
-9. [Shotgun metagenomic dataset of leaf endophytic microbiome of the garden sage (Salvia officinalis L.).](/202605/07/42092753-shotgun-metagenomic-dataset-of-leaf-endophytic-microbiome-of-the-garden-sage-salvia-officinalis-l)  
+   evidence：用于微生物组-宿主-病原体相互作用的全基因组测序
+4. [Unleashing the potential of mRNA-seq to uncover the microbiome structure and their crosstalk with host cells: the vulvar ecosystem.](/202605/08/42098796-unleashing-the-potential-of-mrna-seq-to-uncover-the-microbiome-structure-and-their-crosstalk-with-host-cells-the-vulvar-ecosystem)  
+   标签：评分：7.0/10、query:seqai
+   evidence：用于微生物组结构重建的宏基因组分析和mRNA测序
+5. [Molecular-level host-microbe interactions: mechanisms, molecules, and modeling toward precision probiotics.](/202605/08/42101372-molecular-level-host-microbe-interactions-mechanisms-molecules-and-modeling-toward-precision-probiotics)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：为精准益生菌建模宿主-微生物分子相互作用
+6. [Comparative analysis of next-generation versus third-generation sequencing for pathogen detection in clinical samples: a diagnostic accuracy study.](/202605/08/42101522-comparative-analysis-of-next-generation-versus-third-generation-sequencing-for-pathogen-detection-in-clinical-samples-a-diagnostic-accuracy-study)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：使用 NGS 和 TGS 进行临床样本病原体检测
+7. [Geographic genetic divergence and ecological viral communities shape the virome of Chilo suppressalis.](/202605/08/42098874-geographic-genetic-divergence-and-ecological-viral-communities-shape-the-virome-of-chilo-suppressalis)  
    标签：评分：6.0/10、query:seqai
-   evidence：包含细菌和病毒的内生微生物组鸟枪法宏基因组数据集
+   evidence：用于病毒群落分析的元转录组测序
+8. [Proanthocyanidins inhibit methane emissions by interacting with methyl-coenzyme M reductase and reshaping rumen microbiome function.](/202605/08/42098876-proanthocyanidins-inhibit-methane-emissions-by-interacting-with-methyl-coenzyme-m-reductase-and-reshaping-rumen-microbiome-function)  
+   标签：评分：6.0/10、query:bioinfo
+   evidence：用于靶点识别的计算筛选和分子对接
+9. [Artificial intelligence in the assessment of epilepsy-related genetic mutations: Learned from GABA](/202605/08/42101103-artificial-intelligence-in-the-assessment-of-epilepsy-related-genetic-mutations-learned-from-gaba)  
+   标签：评分：6.0/10、query:bioinfo
+   evidence：人工智能在基因突变评估和蛋白质结构缺陷中的应用
+10. [Pharmacomicrobiomics in Precision Pharmacotherapy: Bidirectional Microbial-Drug Interactions as a Key Determinant of Therapeutic Response.](/202605/08/42101126-pharmacomicrobiomics-in-precision-pharmacotherapy-bidirectional-microbial-drug-interactions-as-a-key-determinant-of-therapeutic-response)  
+   标签：评分：6.0/10、query:pathoai
+   evidence：微生物-药物相互作用与药物微生物组学用于精准医学
+11. [Bringing environment back into human evolution: why human genetics needs genome-environment association studies.](/202605/08/42101664-bringing-environment-back-into-human-evolution-why-human-genetics-needs-genome-environment-association-studies)  
+   标签：评分：6.0/10、query:bioinfo
+   evidence：基因组-环境关联研究的机器学习
 
 
 <div class="dpr-home-promo-card">

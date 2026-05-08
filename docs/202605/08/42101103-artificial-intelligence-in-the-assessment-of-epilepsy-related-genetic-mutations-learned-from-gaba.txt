@@ -1,0 +1,59 @@
+Title: Artificial intelligence in the assessment of epilepsy-related genetic mutations: Learned from GABAA receptors and GABA transporter 1 - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42101103/
+
+Markdown Content:
+Actions
+
+. 2026 May 8.
+
+doi: 10.1002/epi4.70259.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42101103**
+*    DOI: [10.1002/epi4.70259](https://doi.org/10.1002/epi4.70259)
+
+## Artificial intelligence in the assessment of epilepsy-related genetic mutations: Learned from GABA A receptors and GABA transporter 1
+
+Juexin Wang et al. Epilepsia Open.2026.
+
+## Abstract
+
+This review examines how recent genetic and technological advances have transformed our understanding and treatment of genetic epilepsies (GEs), with a focus on disorders involving GABA A receptors (GABRs) and the GABA transporter 1 (GAT-1) encoded by SLC6A1. About 1000 genes are associated with epilepsy, including ~100 directly linked to defined epilepsy syndromes. Many disease-causing variants affect ion channels and transporters, disrupting protein structure, trafficking, and synaptic function. These defects often underlie developmental and epileptic encephalopathies (DEEs). A key insight from recent studies is that endoplasmic reticulum (ER)-related pathology-such as protein misfolding, ER retention, and accelerated degradation, which are common consequences of those pathogenic variants. For example, mutations in SLC6A1 or GABRG2 lead to impaired trafficking and reduced surface expression of GAT-1 or GABR subunits, resulting in deficient inhibitory neurotransmission. These mechanisms have been validated using advanced cellular assays and mouse models, although such experimental approaches remain costly and labor-intensive. Artificial intelligence (AI) is emerging as a powerful complement to experimental studies. Computational approaches, including generative AI and protein language models, can predict mutation-induced changes in protein structure, stability, and interactions, aided by tools such as AlphaFold. These methods enable large-scale, system-level analysis of variants and hold promise for accelerating drug discovery. However, current AI models are limited by fragmented datasets and the inherent complexity of biological systems. Integrating AI with experimental research offers a scalable strategy to translate mechanistic insights across genetic epilepsies (GEs). For instance, 4-phenylbutyrate (PBA), tested in SLC6A1 and GABRG2 epilepsy mouse models and now in clinical trials ([NCT04937062](http://clinicaltrials.gov/show/NCT04937062 "See in ClinicalTrials.gov")), shows promise for treating GEs and DEEs caused by ER-retained mutant proteins. AI-based prediction could help identify additional GEs likely to respond to similar therapeutic approaches. Overall, combining experimental and AI-driven methods represents a new frontier for advancing the diagnosis and treatment of GEs and DEEs. PLAIN LANGUAGE SUMMARY: Mutations in almost 1000 genes have been linked to epilepsies, including those affecting GABA signaling such as GABAA receptors and the GABA transporter. Using cell and mouse studies, we found that many of these gene mutations cause similar problems inside cells. Specifically, the mutant proteins get stuck inside the cell in a structure called the endoplasmic reticulum (ER) and cause ER stress. Importantly, an FDA-approved drug 4-phenylbutyrate (PBA) can reduce these problems. We propose using artificial intelligence (AI) to predict how different gene mutations affect protein function and to identify which patients are likely to benefit from PBA treatment.
+
+**Keywords:** GABA transporter 1 (GAT‐1); GABAA receptors; artificial intelligence; epilepsy; mutation.
+
+© 2026 The Author(s). Epilepsia Open published by Wiley Periodicals LLC on behalf of International League Against Epilepsy.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Common molecular mechanisms of SLC6A1 variant-mediated neurodevelopmental disorders in astrocytes and neurons.](https://pubmed.ncbi.nlm.nih.gov/34028503/)
+
+Mermer F, Poliquin S, Rigsby K, Rastogi A, Shen W, Romero-Morales A, Nwosu G, McGrath P, Demerast S, Aoto J, Bilousova G, Lal D, Gama V, Kang JQ.Mermer F, et al.Brain. 2021 Sep 4;144(8):2499-2512. doi: 10.1093/brain/awab207.Brain. 2021.PMID: 34028503 Free PMC article. 
+*   [Endoplasmic reticulum retention and degradation of a mutation in SLC6A1 associated with epilepsy and autism.](https://pubmed.ncbi.nlm.nih.gov/32398021/)
+
+Wang J, Poliquin S, Mermer F, Eissman J, Delpire E, Wang J, Shen W, Cai K, Li BM, Li ZY, Xu D, Nwosu G, Flamm C, Liao WP, Shi YW, Kang JQ.Wang J, et al.Mol Brain. 2020 May 12;13(1):76. doi: 10.1186/s13041-020-00612-6.Mol Brain. 2020.PMID: 32398021 Free PMC article. 
+*   [γ-Aminobutyric acid transporter and GABA A receptor mechanisms in _Slc6a1+/A288V_ and _Slc6a1+/S295L_ mice associated with developmental and epileptic encephalopathies.](https://pubmed.ncbi.nlm.nih.gov/38650830/)
+
+Shen W, Nwosu G, Honer M, Clasadonte J, Schmalzbauer S, Biven M, Langer K, Flamm C, Poliquin S, Mermer F, Dedeurwaerdere S, Hernandez MC, Kang JQ.Shen W, et al.Brain Commun. 2024 Apr 22;6(2):fcae110. doi: 10.1093/braincomms/fcae110. eCollection 2024.Brain Commun. 2024.PMID: 38650830 Free PMC article. 
+*   [Endoplasmic reticulum protein retention and disturbed proteostasis is a common pathology for a subset of autism: evidence from mutations in GABA A receptors and GABA transporter 1.](https://pubmed.ncbi.nlm.nih.gov/41625255/)
+
+Kang JQ, Delahanty A.Kang JQ, et al.Front Mol Neurosci. 2026 Jan 16;18:1671331. doi: 10.3389/fnmol.2025.1671331. eCollection 2025.Front Mol Neurosci. 2026.PMID: 41625255 Free PMC article.Review. 
+*   [Molecular Pathogenic Basis for GABRG2 Mutations Associated With a Spectrum of Epilepsy Syndromes, From Generalized Absence Epilepsy to Dravet Syndrome.](https://pubmed.ncbi.nlm.nih.gov/27367160/)
+
+Kang JQ, Macdonald RL.Kang JQ, et al.JAMA Neurol. 2016 Aug 1;73(8):1009-16. doi: 10.1001/jamaneurol.2016.0449.JAMA Neurol. 2016.PMID: 27367160 Free PMC article.Review. 
+
+## References
+
+1.       1.    Wang J, Lin ZJ, Liu L, Xu HQ, Shi YW, Yi YH, et al. Epilepsy‐associated genes. Seizure. 2017;44:11–20. 
+
+2.       1.    Allen AS, Berkovic SF, Cossette P, et al. De novo mutations in epileptic encephalopathies. Nature. 2013;501(7466):217–221. 
+
+3.       1.    Gardiner M. Genetics of idiopathic generalized epilepsies. Epilepsia. 2005;46(Suppl 9):15–20. 
+
+4.       1.    Mermer F, Poliquin S, Rigsby K, Rastogi A, Shen W, Romero‐Morales A, et al. Common molecular mechanisms of SLC6A1 variant‐mediated neurodevelopmental disorders in astrocytes and neurons. Brain. 2021;144(8):2499–2512. 
+
+5.       1.    Mermer F, Poliquin S, Zhou S, Wang X, Ding Y, Yin F, et al. Astrocytic GABA transporter 1 deficit in novel SLC6A1 variants mediated epilepsy: connected from protein destabilization to seizures in mice and humans. Neurobiol Dis. 2022;172:105810.

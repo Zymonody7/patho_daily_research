@@ -5,6 +5,60 @@
 
 ## 最近论文
 
+- [A Systematic Survey and Benchmark of Deep Learning for Molecular Property Prediction in the Foundation Model Era.](#/202605/08/202605/08/42096352-a-systematic-survey-and-benchmark-of-deep-learning-for-molecular-property-prediction-in-the-foundation-model-era)
+  - TLDR：分子性质预测是连接分子结构与生物物理行为的关键。本文系统综述了从量子化学、描述符机器学习到几何深度学习及大模型时代的演进，构建了统一的分类体系。通过整合工业界与学术界的多领域数据集，揭示了现有基准在立体化学一致性和数据分割策略上的局限，并提出了物理感知学习与多模态基准等未来方向，为构建更可靠的分子发现模型提供了指南。
+  - Tags：`query:bioinfo`
+- [TranscriptFormer: A generative cell atlas across 1.5 billion years of evolution.](#/202605/08/202605/08/42096520-transcriptformer-a-generative-cell-atlas-across-15-billion-years-of-evolution)
+  - TLDR：针对跨物种单细胞转录组比较分析中存在的演化跨度大、数据异质性强等挑战，该研究开发了 TranscriptFormer 生成式基础模型。该模型在涵盖 12 个物种、跨越 15 亿年演化史的 1.12 亿个细胞上进行预训练。实验证明，TranscriptFormer 在跨物种细胞类型分类和人类疾病状态零样本识别上达到 SOTA 水平，并能自动学习发育轨迹和系统发育关系，为跨物种细胞生物学研究提供了统一的定量分析框架。
+  - Tags：`query:seqai`
+- [CAPTAIN: a multimodal foundation model pretrained on co-assayed single-cell RNA and protein.](#/202605/08/202605/08/42098152-captain-a-multimodal-foundation-model-pretrained-on-co-assayed-single-cell-rna-and-protein)
+  - TLDR：针对现有单细胞大模型仅依赖转录组数据而忽视蛋白质功能信息的局限，本文开发了 CAPTAIN 多模态预训练模型。该模型基于 400 多万个同时测定 RNA 和 382 种表面蛋白的单细胞数据进行训练，通过建模跨模态依赖关系学习统一表征。实验证明 CAPTAIN 在蛋白质补全、细胞类型标注及批次校正等任务中表现优异，为理解复杂生物背景下的细胞状态和免疫交互提供了更完整的视角。
+  - Tags：`query:seqai`
+- [Artificial intelligence algorithm for real-time detection and counting of Trypanosoma cruzi parasites using smartphone microscopy.](#/202605/08/202605/08/42096492-artificial-intelligence-algorithm-for-real-time-detection-and-counting-of-trypanosoma-cruzi-parasites-using-smartphone-microscopy)
+  - TLDR：针对资源匮乏地区克氏锥虫病诊断依赖专业人员且效率低的问题，研究者开发了一套集成智能手机的实时AI检测系统。该系统通过3D打印适配器连接显微镜，利用部署在手机端的轻量化模型（如SSD-MobileNetV2）对血液和脑脊液样本进行实时识别与计数。实验显示该系统在人类样本上达到86.5%的F1分数，且在实地测试中表现出极高的召回率（96.4%），为热带病早期筛查提供了一种低成本、可扩展的自动化方案。
+  - Tags：`query:pathoai`
+- [A versatile multi-components mixed model for bacterial-Genome Wide association studies.](#/202605/08/202605/08/42098097-a-versatile-multi-components-mixed-model-for-bacterial-genome-wide-association-studies)
+  - TLDR：细菌全基因组关联分析（GWAS）常受限于复杂的群体结构，导致传统人类遗传学模型在处理高度结构化的细菌基因组时效果不佳。为此，研究者开发了 ChoruMM，这是一种多分量线性混合模型，通过对遗传亲缘关系矩阵进行层次聚类来推断群体分量。实验证明，该方法在降低假阳性的同时提升了检测效率，并提供了处理长程相关性的可视化工具，为细菌致病性研究提供了更精准的统计框架。
+  - Tags：`query:pathoai`
+- [Mitochondrial Gene Signature Reveals Novel Diagnostic Biomarkers for Autism Spectrum Disorder.](#/202605/08/202605/08/42098401-mitochondrial-gene-signature-reveals-novel-diagnostic-biomarkers-for-autism-spectrum-disorder)
+  - TLDR：自闭症谱系障碍（ASD）的病理机制尚不明确，且缺乏可靠的线粒体相关诊断标志物。本研究整合转录组数据与线粒体基因库，利用WGCNA和三种机器学习算法（LASSO、随机森林、SVM-RFE）筛选出IDH3A、MRPL2和CHCHD4三个核心基因。实验结果显示该基因组合在诊断ASD方面具有极高的准确性（AUC=0.910），并揭示了线粒体钙离子运输异常可能是ASD的关键致病机制，为早期诊断和病理研究提供了新视角。
+  - Tags：`query:bioinfo`
+- [Cross-Species Plant Single-Cell Analysis: Community Challenges and Shared Solutions.](#/202605/08/202605/08/42099283-cross-species-plant-single-cell-analysis-community-challenges-and-shared-solutions)
+  - TLDR：植物单细胞基因组学受限于技术瓶颈和工具碎片化，难以实现跨物种的高效分析。本文总结了2025年夏季研讨会的共识，确立了提升数据质量、自动化细胞标注、发育轨迹与基因网络推断、空间可视化及AI智能体驱动工作流五大核心挑战。通过建立PlantSCHub社区门户并制定跨物种集成路线图，旨在构建互操作的植物单细胞生态系统，加速作物改良研究。
+  - Tags：`query:seqai`
+- [Drug Discovery of Antiviral Inhibitors Targeting Dengue Virus NS4B Protein.](#/202605/08/202605/08/42014928-drug-discovery-of-antiviral-inhibitors-targeting-dengue-virus-ns4b-protein)
+  - TLDR：登革病毒（DENV）目前缺乏特效抗病毒药物，而非结构蛋白 NS4B 因其在病毒复制复合体组装和内质网重塑中的关键作用，成为极具潜力的药物靶点。本文综述了针对 NS4B 的抗病毒药物研发进展，重点分析了通过表型筛选发现的具有全血清型抑制活性的候选药物及其临床转化现状，为开发新型登革热疗法提供了参考价值。
+  - Tags：`query:pathoai`
+- [Host metabolism shapes the intestinal microbiota: a top-down paradigm of environmental selection pressure.](#/202605/08/202605/08/42096491-host-metabolism-shapes-the-intestinal-microbiota-a-top-down-paradigm-of-environmental-selection-pressure)
+  - TLDR：肠道菌群失调常被视为疾病诱因，但本研究提出“自上而下”的新范式，认为宿主代谢才是塑造菌群的关键。通过分析上皮细胞缺氧维持、营养免疫及粘液层合成三大代谢过滤机制，揭示了宿主如何作为“生态工程师”筛选有益菌并抑制致病菌。这一视角将失调归因于宿主代谢屏障崩溃导致的“生态位开放”，为通过调节宿主生物能量学（如PPAR-γ激动剂）根治肠道疾病提供了新策略。
+  - Tags：`query:pathoai`
+- [Ovotransferrin Alleviates Ulcerative Colitis by Modulating](#/202605/08/202605/08/42098593-ovotransferrin-alleviates-ulcerative-colitis-by-modulating)
+  - TLDR：针对溃疡性结肠炎治疗机制不明的问题，本研究通过DSS诱导的小鼠模型发现，卵转铁蛋白（OVT）能显著重塑肠道菌群。实验证实OVT促进了鼠乳杆菌的生长，该菌利用其编码的胆盐水解酶驱动次级胆汁酸合成，进而抑制Ptgs2表达及JAK-STAT信号通路。研究揭示了“OVT-鼠乳杆菌-胆汁酸”这一新型抗炎轴，为OVT在功能性食品中的高价值应用提供了理论支撑。
+  - Tags：`query:pathoai`
+- [Unleashing the potential of mRNA-seq to uncover the microbiome structure and their crosstalk with host cells: the vulvar ecosystem.](#/202605/08/202605/08/42098796-unleashing-the-potential-of-mrna-seq-to-uncover-the-microbiome-structure-and-their-crosstalk-with-host-cells-the-vulvar-ecosystem)
+  - TLDR：针对传统研究需并行进行宿主转录组和微生物组测序的成本与复杂性问题，本研究提出利用单一的 poly(A) 富集 mRNA-seq 数据同时解析宿主基因表达与微生物群落结构的方法。通过对 30 例外阴样本的分析，成功识别出与阴道类似的微生物群落类型，并揭示了特定菌群（如卷曲乳杆菌）与宿主上皮屏障完整性及炎症反应的分子互作关系。该方法为挖掘现有海量 RNA-seq 数据库中的宿主-微生物互作信号提供了高效且低成本的路径。
+  - Tags：`query:seqai`
+- [Molecular-level host-microbe interactions: mechanisms, molecules, and modeling toward precision probiotics.](#/202605/08/202605/08/42101372-molecular-level-host-microbe-interactions-mechanisms-molecules-and-modeling-toward-precision-probiotics)
+  - TLDR：针对传统益生菌作用机制模糊、缺乏针对性的问题，本文系统综述了下一代益生菌（NGP）通过微生物衍生分子（MDMs）与宿主进行分子级交互的机制。文章将这些交互归纳为蛋白质、脂质及代谢物等不同界面，并探讨了人工智能和分子模拟在预测这些相互作用中的应用。这一研究为开发针对代谢、炎症及神经系统疾病的精准微生态疗法提供了理论基础和设计框架。
+  - Tags：`query:pathoai`
+- [Comparative analysis of next-generation versus third-generation sequencing for pathogen detection in clinical samples: a diagnostic accuracy study.](#/202605/08/202605/08/42101522-comparative-analysis-of-next-generation-versus-third-generation-sequencing-for-pathogen-detection-in-clinical-samples-a-diagnostic-accuracy-study)
+  - TLDR：针对临床感染病原体快速准确识别的需求，本研究对比了二代测序（NGS）与三代纳米孔测序（TGS）在105份临床样本中的诊断表现。结果显示，NGS在病毒和真菌检测上灵敏度更高（95.9%），而TGS在特异性（87.1%）和检测速度（8小时 vs 30小时）上具有显著优势。该研究揭示了两项技术在临床应用中的互补性，为根据临床紧急程度和病原体类型选择合适的测序方案提供了实证依据。
+  - Tags：`query:pathoai`
+- [Geographic genetic divergence and ecological viral communities shape the virome of Chilo suppressalis.](#/202605/08/202605/08/42098874-geographic-genetic-divergence-and-ecological-viral-communities-shape-the-virome-of-chilo-suppressalis)
+  - TLDR：二化螟是危害水稻生产的重要害虫，其携带的病毒对农业生态安全具有潜在威胁。本研究通过对中国境内二化螟及其寄生蜂进行大规模宏转录组测序，鉴定了20种高丰度病毒（含15种新病毒），揭示了地理遗传分化对病毒组成的影响，并发现水稻及同域害虫在病毒跨界传播中的关键作用，为害虫与病毒的协同治理提供了新视角。
+  - Tags：`query:seqai`
+- [Proanthocyanidins inhibit methane emissions by interacting with methyl-coenzyme M reductase and reshaping rumen microbiome function.](#/202605/08/202605/08/42098876-proanthocyanidins-inhibit-methane-emissions-by-interacting-with-methyl-coenzyme-m-reductase-and-reshaping-rumen-microbiome-function)
+  - TLDR：反刍动物排放的甲烷是温室气体的主要来源。本研究通过计算筛选、体外发酵和活体实验，发现植物提取物原花青素（PAC）能与产甲烷关键酶MCR结合。实验证明PAC在不影响产奶量的前提下，可使奶牛甲烷排放降低约8%，并优化瘤胃微生物群落结构，提高氮利用率，为实现低碳可持续畜牧业提供了天然添加剂方案。
+  - Tags：`query:bioinfo`
+- [Artificial intelligence in the assessment of epilepsy-related genetic mutations: Learned from GABA](#/202605/08/202605/08/42101103-artificial-intelligence-in-the-assessment-of-epilepsy-related-genetic-mutations-learned-from-gaba)
+  - TLDR：遗传性癫痫涉及上千种基因突变，常导致蛋白质折叠错误并滞留在内质网中，传统实验验证成本高昂。本文探讨了利用生成式AI与蛋白质语言模型（如AlphaFold）预测突变对蛋白结构和稳定性的影响，并结合细胞/小鼠模型验证。这种AI与实验结合的方法不仅能大规模分析变异，还能精准筛选如PBA等药物的适用人群，显著加速了癫痫的精准诊疗进程。
+  - Tags：`query:bioinfo`
+- [Pharmacomicrobiomics in Precision Pharmacotherapy: Bidirectional Microbial-Drug Interactions as a Key Determinant of Therapeutic Response.](#/202605/08/202605/08/42101126-pharmacomicrobiomics-in-precision-pharmacotherapy-bidirectional-microbial-drug-interactions-as-a-key-determinant-of-therapeutic-response)
+  - TLDR：药物疗效和毒性的个体差异仅靠遗传学难以完全解释。本文综述了“药物微生物组学”，揭示了肠道菌群与药物间的双向互动机制：微生物通过酶促反应直接代谢药物，而药物也会重塑菌群结构。通过分析癌症、精神疾病等领域的临床案例，文章指出整合菌群数据与药理学模型，能显著提升精准医疗的预测准确性与治疗效果。
+  - Tags：`query:pathoai`
+- [Bringing environment back into human evolution: why human genetics needs genome-environment association studies.](#/202605/08/202605/08/42101664-bringing-environment-back-into-human-evolution-why-human-genetics-needs-genome-environment-association-studies)
+  - TLDR：人类进化遗传学研究常忽视环境压力的直接作用，本文提倡利用基因组-环境关联（GEA）研究来填补这一空白。通过引入冗余分析（RDA）和梯度森林（GF）等机器学习方法，GEA能有效从人口统计噪声中识别出由气候、饮食等环境因素驱动的选择信号。该方法不仅能揭示人类过去的适应历程，还能通过计算“遗传偏移”预测人群在未来气候变化和城市化进程中的适应潜力，为进化生物学和流行病学提供新视角。
+  - Tags：`query:bioinfo`
 - [BERT-T6: Toward High-Accuracy T6SS Bacterial Toxin Identification Using a Protein Language Model.](#/202605/07/202605/07/42095236-bert-t6-toward-high-accuracy-t6ss-bacterial-toxin-identification-using-a-protein-language-model)
   - TLDR：准确识别VI型分泌系统效应因子（T6SEs）对理解细菌致病机制至关重要，但现有预测工具性能有限。本研究通过评估多种序列特征和预训练蛋白质语言模型，发现ProtBert嵌入效果最佳，据此开发了BERT-T6模型。该模型利用迁移学习和不平衡感知训练对ProtBert进行微调，在独立测试中达到SOTA水平（准确率0.959，F1值0.907），为细菌毒素鉴定提供了高效工具。
   - Tags：`query:bioinfo`
@@ -550,58 +604,4 @@
   - Tags：`query:pathoai`
 - [Targeting protein-protein interactions in Plasmodium: from asexual replication to sexual development.](#/202604/19/202604/19/42001110-targeting-protein-protein-interactions-in-plasmodium-from-asexual-replication-to-sexual-development)
   - TLDR：针对传统抗疟药因靶向酶催化位点易产生耐药性的问题，本文系统综述了疟原虫生命周期中关键的蛋白质-蛋白质相互作用（PPI）网络。通过整合冷冻电镜和遗传学研究，揭示了介导红细胞入侵、代谢稳态及蚊媒传播的多亚基复合物结构。这些PPI界面具有较低的突变潜力，为开发抗耐药的新一代抗疟药物、中和抗体及阻断传播疫苗提供了高选择性的新靶点。
-  - Tags：`query:pathoai`
-- [Deep learning-based identification of visually similar foliar diseases in field-grown barley.](#/202604/19/202604/19/42001137-deep-learning-based-identification-of-visually-similar-foliar-diseases-in-field-grown-barley)
-  - TLDR：针对田间大麦多种视觉相似病害共存导致单一病害模型难以准确区分的问题，本研究提出一种多类别深度学习分割模型，用于同时识别大麦柄锈菌和柱隔孢叶斑病。实验表明，该模型在分割精度（Dice系数）上显著优于独立的二分类模型，且预测的病害面积与人工标注高度一致，为育种中的大规模自动化抗性评估提供了高效、可扩展的方案。
-  - Tags：`query:pathoai`
-- [Phage-Encoded Metabolic Bypass Drives Herbicide Resistance in Soil Microbiomes.](#/202604/19/202604/19/41999333-phage-encoded-metabolic-bypass-drives-herbicide-resistance-in-soil-microbiomes)
-  - TLDR：土壤微生物在草丁膦除草剂压力下表现出极强的恢复力，但其背后的噬菌体驱动机制尚不明确。本研究通过时序宏基因组分析和共演化实验发现，草丁膦促使噬菌体从裂解性向溶源性转变，并利用携带的gdhA基因通过氨解毒代谢旁路直接补偿宿主代谢损伤。这一发现揭示了噬菌体介导的土壤微生物抗药性演化新路径，为评估农药生态风险和设计可持续农药提供了新视角。
-  - Tags：`query:pathoai`
-- [Wastewater intelligence predicts the emergence of clinically-relevant and drug-resistant Candidozyma auris at healthcare facilities.](#/202604/19/202604/19/42000719-wastewater-intelligence-predicts-the-emergence-of-clinically-relevant-and-drug-resistant-candidozyma-auris-at-healthcare-facilities)
-  - TLDR：针对耳念珠菌耐药性演变快、传统监测滞后的挑战，本研究利用废水流行病学工具在医疗机构层面建立了高分辨率预警系统。通过对废水进行全基因组测序和质谱分析，研究者在临床病例出现前近五个月就检测到了关键耐药突变和新亚群，且废水样本与临床分离株的基因组一致性超过90%。该方法证明了废水监测在真菌暴发早期预警和耐药性追踪中的巨大潜力，为公共卫生防控提供了重要补充。
-  - Tags：`query:pathoai`
-- [The B7 family subgroup reflects tumor cell heterogeneity and patient post-operative prognosis in gallbladder cancer.](#/202604/19/202604/19/42001193-the-b7-family-subgroup-reflects-tumor-cell-heterogeneity-and-patient-post-operative-prognosis-in-gallbladder-cancer)
-  - TLDR：针对胆囊癌（GBC）术后预后评估不准及肿瘤异质性不明的问题，研究通过单细胞测序分析了B7家族分子（CD276、VTCN1、HHLA2）在不同上皮亚群中的表达特征。发现HHLA2通过RAC1/CDC42-PAK1-Cofilin通路促进肿瘤上皮-间充质转化（EMT）。基于这些分子标志物结合临床特征构建的GBM机器学习模型，显著提升了术后风险分层能力，为胆囊癌精准治疗提供了新靶点和预测工具。
-  - Tags：`query:seqai`
-- [Mycobacterium tuberculosis long-chain fatty acid resistome reveals universal stress protein TB15.3 as essential for infection.](#/202604/19/202604/19/42000959-mycobacterium-tuberculosis-long-chain-fatty-acid-resistome-reveals-universal-stress-protein-tb153-as-essential-for-infection)
-  - TLDR：结核分枝杆菌（Mtb）在感染过程中依赖长链脂肪酸（LCFA）作为能源，但过量LCFA具有毒性。本研究利用转座子测序（TnSeq）鉴定了包含38个基因的LCFA抗性组，发现关键蛋白TB15.3通过“代谢刹车”机制限制LCFA的摄取与分解，防止细胞膜超极化。实验证明TB15.3对Mtb在小鼠慢性感染和干酪样坏死模型中的存活至关重要，为抗结核药物研发提供了新靶点。
-  - Tags：`query:pathoai`
-- [Orthrus: toward evolutionary and functional RNA foundation models.](#/202604/18/202604/18/41998407-orthrus-toward-evolutionary-and-functional-rna-foundation-models)
-  - TLDR：针对现有基因组大模型缺乏生物学先验知识的问题，Orthrus 提出了一种基于 Mamba 架构的成熟 RNA 基础模型。它通过对比学习，将来自 400 多种哺乳动物的同源基因及多种模型生物的剪接异构体进行关联训练，从而学习到具有进化和功能意义的 RNA 表征。实验表明，Orthrus 在 mRNA 属性预测任务上优于传统模型，且仅需极少量的微调数据，能有效捕捉不同异构体间的生物学功能差异。
-  - Tags：`query:bioinfo`
-- [Drug screening to identify compounds to eliminate](#/202604/18/202604/18/41952993-drug-screening-to-identify-compounds-to-eliminate)
-  - TLDR：针对类鼻疽伯克霍尔德菌的高致病性与多重耐药性问题，研究者以其VI型分泌系统（T6SS）的核心结构蛋白Hcp为靶点，从FDA药物库中筛选出硫酸奈替米星。实验证明该药物能特异性结合并破坏Hcp的管状结构，从而瓦解T6SS功能，在体内外均表现出显著的抑菌效果，且与头孢他啶联用具有协同增效作用，为抗耐药菌药物研发提供了新策略。
-  - Tags：`query:pathoai`
-- [Cariogenic microorganisms induce oral epithelial atypia through host-microbiome-high sugar diet interactions.](#/202604/18/202604/18/41997944-cariogenic-microorganisms-induce-oral-epithelial-atypia-through-host-microbiome-high-sugar-diet-interactions)
-  - TLDR：婴儿期口腔黏膜发育对终身健康至关重要。本研究通过幼鼠模型发现，变形链球菌与白色念珠菌在高糖饮食下协同作用，通过改变口腔与肠道菌群及全身代谢（如维生素B6耗竭），诱发舌黏膜非典型增生和角化不全。该研究揭示了“宿主-微生物-饮食”轴对早期黏膜重塑的影响，为理解致龋菌如何诱发龋齿以外的口腔疾病提供了新机制。
-  - Tags：`query:pathoai`
-- [Conserved and divergent gene regulatory networks for crop drought resistance.](#/202604/17/202604/17/41991527-conserved-and-divergent-gene-regulatory-networks-for-crop-drought-resistance)
-  - TLDR：针对作物抗旱机制在跨物种间保守性与差异性不明的问题，该研究利用图深度学习框架整合了5000多份转录组数据，构建了涵盖13万个基因的跨组学基因调控网络（GRN）。研究发现了TCP-PP2C等保守调控模式，并揭示了C3与C4作物在抗旱策略上的网络拓扑差异：C3作物依赖集中且剧烈重构的网络实现避旱，而C4作物则通过分布式且稳定的网络实现耐旱。这为理解作物进化适应性提供了新视角。
-  - Tags：`query:bioinfo`
-- [Interpretable multimodal PET/CT-EHR fusion via mixture-of-experts for prognostic stratification in mantle cell lymphoma: a multicenter study.](#/202604/17/202604/17/41992190-interpretable-multimodal-petct-ehr-fusion-via-mixture-of-experts-for-prognostic-stratification-in-mantle-cell-lymphoma-a-multicenter-study)
-  - TLDR：针对套细胞淋巴瘤（MCL）生物学异质性强、传统预后工具准确性不足的问题，本研究开发了一种基于混合专家模型（MoE）的多模态融合框架。该框架通过注意力门控机制，深度整合了患者基线PET/CT影像视觉特征、影像组学特征以及电子健康记录（EHR）的文本表征。实验结果显示，该模型在预测无进展生存期和总生存期方面显著优于传统临床指标，并能通过注意力图谱提供病理相关的可解释性，为MCL的精准风险分层提供了非侵入性工具。
-  - Tags：`query:bioinfo`
-- [The diagnostic and prognostic utility of blood metagenomic next-generation sequencing for invasive pulmonary aspergillosis.](#/202604/17/202604/17/41995327-the-diagnostic-and-prognostic-utility-of-blood-metagenomic-next-generation-sequencing-for-invasive-pulmonary-aspergillosis)
-  - TLDR：针对临床上难以区分侵袭性肺曲霉病（IPA）与曲霉定植的难题，本研究回顾性分析了95例血宏基因组测序（mNGS）阳性患者，评估了真菌载量（RPM）及血清学指标（GM、BDG）的诊断与预后价值。结果显示，虽然RPM单独诊断效能有限，但与GM或BDG联合使用可显著提升诊断准确率（AUC最高达0.900），并识别出反晕征等死亡预测因子，为危重症患者提供了非侵入性的多模态诊疗方案。
-  - Tags：`query:pathoai`
-- [Hypobaric hypoxia affects gut microbiota of rats through affected community assembly, reduced network resilience, and metabolic reprogramming.](#/202604/17/202604/17/41990134-hypobaric-hypoxia-affects-gut-microbiota-of-rats-through-affected-community-assembly-reduced-network-resilience-and-metabolic-reprogramming)
-  - TLDR：针对高原低压缺氧环境对肠道微生物影响机制尚不明确的问题，本研究利用宏基因组测序技术对比了模拟6000米海拔与2100米海拔下大鼠的肠道菌群。研究发现缺氧显著改变了菌群的β多样性，降低了群落构建中的随机性影响及共发生网络的稳定性，并导致蛋白质合成与碳水化合物代谢路径发生重编程。该成果揭示了环境压力重塑微生物动态的机制，为理解高海拔环境下的宿主-微生物互作提供了新视角。
-  - Tags：`query:seqai`
-- [The ecological dynamics of skin microbiota in skin health and diseases.](#/202604/17/202604/17/41995603-the-ecological-dynamics-of-skin-microbiota-in-skin-health-and-diseases)
-  - TLDR：皮肤微生物群对维持皮肤健康至关重要，但其失调会导致特应性皮炎、银屑病等疾病。本文综述了皮肤微生物的组成、功能及其与宿主免疫的交互机制，分析了环境与生物因素对菌群稳定性的影响。通过总结针对特定致病菌（如金黄色葡萄球菌）的干预策略，为开发基于微生物组的新型皮肤病疗法提供了理论支撑和研究方向。
-  - Tags：`query:pathoai`
-- [Rapid whole genome sequencing of Plasmodium DNA from cryptic malaria cases in UK travellers provides insights into infection origins, transmission, and antimalarial resistance.](#/202604/16/202604/16/41989089-rapid-whole-genome-sequencing-of-plasmodium-dna-from-cryptic-malaria-cases-in-uk-travellers-provides-insights-into-infection-origins-transmission-and-antimalarial-resistance)
-  - TLDR：针对英国每年约2000例输入性疟疾中难以追踪感染源的“隐匿性病例”，研究团队利用Illumina和纳米孔测序技术对临床样本进行全基因组测序，并结合Malaria-Profiler工具及AI模型进行快速分析。该方法成功识别了耐药性标记，并基于1.5万个基因组数据库精准推断了地理来源，同时通过亲缘关系分析确认了家庭内部的传播集群。这为非疟疾流行地区提供了高分辨率的监测手段，有助于快速响应公共卫生风险并优化防控资源分配。
-  - Tags：`query:pathoai`
-- [Explainability Methods from Machine Learning Detect Important Drugs' Atoms in Drug-Target Interactions.](#/202604/16/202604/16/41985080-explainability-methods-from-machine-learning-detect-important-drugs-atoms-in-drug-target-interactions)
-  - TLDR：针对图神经网络在药物-靶标相互作用预测中缺乏透明度的问题，本研究评估了四种可解释AI归因方法在激酶和GPCR靶标上的表现。通过将模型关注的原子映射到3D蛋白质-配体结构中，发现共识归因原子能高度准确地识别出结合口袋内的关键接触位点，证明了XAI方法在辅助药物发现和验证模型生物学合理性方面的价值。
-  - Tags：`query:bioinfo`
-- [GPU-accelerated modeling of biological regulatory networks.](#/202604/16/202604/16/41986459-gpu-accelerated-modeling-of-biological-regulatory-networks)
-  - TLDR：生物调节网络（BRN）的建模与仿真在理解细胞行为中至关重要，但随着网络规模扩大，传统 CPU 计算面临严重的性能瓶颈。该研究通过将 BRN 的状态空间搜索或随机模拟算法迁移至 GPU 并行架构，利用数千个核心加速计算过程。实验证明，该方法在处理大规模复杂网络时实现了显著的加速比，为高通量生物数据分析和复杂生命系统模拟提供了高效的计算工具。
-  - Tags：`query:bioinfo`
-- [Multi-tissue multi-omics integration reveals tissue-specific pathways, gene networks and drug candidates for type 1 diabetes.](#/202604/16/202604/16/41986815-multi-tissue-multi-omics-integration-reveals-tissue-specific-pathways-gene-networks-and-drug-candidates-for-type-1-diabetes)
-  - TLDR：针对 1 型糖尿病 (T1D) 遗传位点与病理机制关联不明的问题，本研究通过整合 GWAS 数据与多组织多组学调控网络，识别出关键驱动基因（如 FYN、TAP1）及组织特异性通路（如胰岛中的干扰素信号）。研究不仅在 NOD 小鼠模型中验证了关键基因，还结合电子病历筛选出潜在的候选药物，为 T1D 的早期干预和精准治疗提供了系统性的分子图谱和药理依据。
-  - Tags：`query:bioinfo`
-- [PROTACs as novel therapeutics against Mycobacterium tuberculosis: Current progress and future directions.](#/202604/16/202604/16/41759306-protacs-as-novel-therapeutics-against-mycobacterium-tuberculosis-current-progress-and-future-directions)
-  - TLDR：针对结核分枝杆菌（Mtb）耐药性强且传统抑制剂需持续占据靶点的问题，本文综述了靶向蛋白质降解（TPD）技术，特别是PROTACs的应用。该技术利用细胞内源性降解系统催化消除致病蛋白，而非单纯抑制其活性。这种方法能提供更持久的疗效并降低耐药风险，为开发新型抗结核药物提供了具有高特异性和机制驱动的治疗新范式。
   - Tags：`query:pathoai`

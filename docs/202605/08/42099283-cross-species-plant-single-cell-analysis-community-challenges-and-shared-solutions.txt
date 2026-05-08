@@ -1,0 +1,49 @@
+Title: Cross-Species Plant Single-Cell Analysis: Community Challenges and Shared Solutions - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42099283/
+
+Markdown Content:
+Actions
+
+. 2026 May 8:erag218.
+
+doi: 10.1093/jxb/erag218.  Online ahead of print.
+
+[Tran N Chau](https://pubmed.ncbi.nlm.nih.gov/?term=Chau+TN&cauthor_id=42099283)[2](https://pubmed.ncbi.nlm.nih.gov/42099283/#full-view-affiliation-2 "Genetics, Bioinformatics, and Computational Biology, Virginia Tech, Blacksburg, VA, USA."),[Razan Alajoleen](https://pubmed.ncbi.nlm.nih.gov/?term=Alajoleen+R&cauthor_id=42099283)[3](https://pubmed.ncbi.nlm.nih.gov/42099283/#full-view-affiliation-3 "School of Plant and Environmental Sciences, Virginia Tech, Blacksburg, VA, USA."),[Chia-Yu Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+CY&cauthor_id=42099283)[4](https://pubmed.ncbi.nlm.nih.gov/42099283/#full-view-affiliation-4 "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, CA, USA."),[Sajib Acharjee Dip](https://pubmed.ncbi.nlm.nih.gov/?term=Dip+SA&cauthor_id=42099283)[1](https://pubmed.ncbi.nlm.nih.gov/42099283/#full-view-affiliation-1 "Department of Computer Science, Virginia Tech, Blacksburg, VA, USA."),[Vandana Gurung](https://pubmed.ncbi.nlm.nih.gov/?term=Gurung+V&cauthor_id=42099283)[5](https://pubmed.ncbi.nlm.nih.gov/42099283/#full-view-affiliation-5 "Department of Biological Sciences, Clemson University, Clemson, SC, USA."),[Che-Wei Hsu](https://pubmed.ncbi.nlm.nih.gov/?term=Hsu+CW&cauthor_id=42099283)[4](https://pubmed.ncbi.nlm.nih.gov/42099283/#full-view-affiliation-4 "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, CA, USA."),[Chadinthon Kittivorawong](https://pubmed.ncbi.nlm.nih.gov/?term=Kittivorawong+C&cauthor_id=42099283)[6](https://pubmed.ncbi.nlm.nih.gov/42099283/#full-view-affiliation-6 "Genetics, Genomics, and Bioinformatics Program, University of California, Riverside, CA, USA."),[Sanchari Kundu](https://pubmed.ncbi.nlm.nih.gov/?term=Kundu+S&cauthor_id=42099283)[3](https://pubmed.ncbi.nlm.nih.gov/42099283/#full-view-affiliation-3 "School of Plant and Environmental Sciences, Virginia Tech, Blacksburg, VA, USA."),[Xiaohui Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+X&cauthor_id=42099283)[4](https://pubmed.ncbi.nlm.nih.gov/42099283/#full-view-affiliation-4 "Division of Biology and Biological Engineering, California Institute of Technology, Pasadena, CA, USA."),[Juncheng Luo](https://pubmed.ncbi.nlm.nih.gov/?term=Luo+J&cauthor_id=42099283)[7](https://pubmed.ncbi.nlm.nih.gov/42099283/#full-view-affiliation-7 "Molecular, Cellular and Developmental Biology, University of Michigan, Ann Arbor, MI, USA."),[Mohammad Salehin](https://pubmed.ncbi.nlm.nih.gov/?term=Salehin+M&cauthor_id=42099283)[8](https://pubmed.ncbi.nlm.nih.gov/42099283/#full-view-affiliation-8 "Department of Biology, North Carolina A&T State University, Greensboro, NC, USA."),[Mathew Simenc](https://pubmed.ncbi.nlm.nih.gov/?term=Simenc+M&cauthor_id=42099283)[9](https://pubmed.ncbi.nlm.nih.gov/42099283/#full-view-affiliation-9 "Plant Molecular and Cellular Biology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA, USA."),[Jie Yun](https://pubmed.ncbi.nlm.nih.gov/?term=Yun+J&cauthor_id=42099283)[10](https://pubmed.ncbi.nlm.nih.gov/42099283/#full-view-affiliation-10 "Department of Molecular Cellular Developmental Biology, Yale University, New Haven, CT, USA."),[Bastiaan Bargmann](https://pubmed.ncbi.nlm.nih.gov/?term=Bargmann+B&cauthor_id=42099283)[2](https://pubmed.ncbi.nlm.nih.gov/42099283/#full-view-affiliation-2 "Genetics, Bioinformatics, and Computational Biology, Virginia Tech, Blacksburg, VA, USA.")[3](https://pubmed.ncbi.nlm.nih.gov/42099283/#full-view-affiliation-3 "School of Plant and Environmental Sciences, Virginia Tech, Blacksburg, VA, USA."),[Song Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+S&cauthor_id=42099283)[1](https://pubmed.ncbi.nlm.nih.gov/42099283/#full-view-affiliation-1 "Department of Computer Science, Virginia Tech, Blacksburg, VA, USA.")[2](https://pubmed.ncbi.nlm.nih.gov/42099283/#full-view-affiliation-2 "Genetics, Bioinformatics, and Computational Biology, Virginia Tech, Blacksburg, VA, USA.")[3](https://pubmed.ncbi.nlm.nih.gov/42099283/#full-view-affiliation-3 "School of Plant and Environmental Sciences, Virginia Tech, Blacksburg, VA, USA.")
+
+Affiliations
+
+*    PMID: **42099283**
+*    DOI: [10.1093/jxb/erag218](https://doi.org/10.1093/jxb/erag218)
+
+## Cross-Species Plant Single-Cell Analysis: Community Challenges and Shared Solutions
+
+Maryam Haghan et al. J Exp Bot.2026.
+
+## Abstract
+
+Single-cell genomics is rapidly reshaping plant biology, yet broader adoption is limited by plant-specific technical constraints, fragmented tools, and inconsistent analytical practices. Here we report outcomes from the 2025 Summer Workshop for Plant Single-Cell Analysis, which convened researchers to define community needs and design shared solutions. Participants identified five priority challenge areas: (1) improving data quality through imputation, simulation, and deep generative modeling; (2) developing automated, phylogenetically aware cell-type annotation frameworks; (3) reconstructing developmental trajectories and gene regulatory networks from single-cell and single-nucleus profiles; (4) creating visualization approaches that embed transcriptional states into anatomically grounded plant organ contexts; and (5) using Artificial Intelligence (AI) agents and foundation models to orchestrate end-to-end single-cell workflows. In response, we established PlantSCHub, a community-curated web portal that aggregates protocols, datasets, and tutorials to support reproducible plant single-cell analysis. We outline conceptual roadmaps for cross-species integration, multimodal trajectory and Gene Regulatory Networks (GRNs) inference, spatially anchored visualization, and AI scientist agents that dynamically coordinate analytical tools and literature. We discuss both scRNA-seq and scATAC-seq that are important for regulatory inference and cross-species analysis. Together, these efforts aim to transform isolated plant single-cell studies into an interoperable, evolving ecosystem that accelerates discovery and crop improvement.
+
+**Keywords:** AI agents; PlantSCHub; cross-species annotation; data quality; gene regulatory networks; plant single-cell genomics; reproducible workflows; trajectory inference; visualization.
+
+© The Author(s) 2026. Published by Oxford University Press on behalf of the Society for Experimental Biology.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Application of Single-Cell Assay for Transposase-Accessible Chromatin with High Throughput Sequencing in Plant Science: Advances, Technical Challenges, and Prospects.](https://pubmed.ncbi.nlm.nih.gov/38338756/)
+
+Lu C, Wei Y, Abbas M, Agula H, Wang E, Meng Z, Zhang R.Lu C, et al.Int J Mol Sci. 2024 Jan 25;25(3):1479. doi: 10.3390/ijms25031479.Int J Mol Sci. 2024.PMID: 38338756 Free PMC article.Review. 
+*   [scATACpipe: A nextflow pipeline for comprehensive and reproducible analyses of single cell ATAC-seq data.](https://pubmed.ncbi.nlm.nih.gov/36238687/)
+
+Hu K, Liu H, Lawson ND, Zhu LJ.Hu K, et al.Front Cell Dev Biol. 2022 Sep 27;10:981859. doi: 10.3389/fcell.2022.981859. eCollection 2022.Front Cell Dev Biol. 2022.PMID: 36238687 Free PMC article. 
+*   [Decoding plant physiology through systems biology: Integrative multi-omics and computational perspectives for next-generation crop design.](https://pubmed.ncbi.nlm.nih.gov/41376168/)
+
+Kundu BK, Tanti B.Kundu BK, et al.Plant Commun. 2026 Mar 9;7(3):101668. doi: 10.1016/j.xplc.2025.101668. Epub 2025 Dec 10.Plant Commun. 2026.PMID: 41376168 Free PMC article.Review. 
+*   [Building a FAIR data ecosystem for incorporating single-cell transcriptomics data into agricultural genome to phenome research.](https://pubmed.ncbi.nlm.nih.gov/39678381/)
+
+Kapoor M, Ventura ES, Walsh A, Sokolov A, George N, Kumari S, Provart NJ, Cole B, Libault M, Tickle T, Warren WC, Koltes JE, Papatheodorou I, Ware D, Harrison PW, Elsik C, Yordanova G, Burdett T, Tuggle CK.Kapoor M, et al.Front Genet. 2024 Nov 29;15:1460351. doi: 10.3389/fgene.2024.1460351. eCollection 2024.Front Genet. 2024.PMID: 39678381 Free PMC article. 
+*   [Transformative advances in single-cell omics: a comprehensive review of foundation models, multimodal integration and computational ecosystems.](https://pubmed.ncbi.nlm.nih.gov/41146276/)
+
+Yiu T, Chen B, Wang H, Feng G, Fu Q, Hu H.Yiu T, et al.J Transl Med. 2025 Oct 27;23(1):1176. doi: 10.1186/s12967-025-07091-0.J Transl Med. 2025.PMID: 41146276 Free PMC article.Review.

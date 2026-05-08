@@ -1,0 +1,883 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-05-08T19:56:36.731834+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 7,
+    "deep_cap": 9,
+    "deep_selected": 7,
+    "quick_candidates": 11,
+    "quick_skim_target": 14,
+    "quick_selected": 11
+  },
+  "deep_dive": [
+    {
+      "id": "42096352",
+      "title": "A Systematic Survey and Benchmark of Deep Learning for Molecular Property Prediction in the Foundation Model Era.",
+      "abstract": "Molecular property prediction integrates quantum chemistry, cheminformatics, and deep learning to connect molecular structure with physicochemical and biological behavior. This survey traces four complementary paradigms, including Quantum, Descriptor Machine Learning, Geometric Deep Learning, and Foundation Models, and outlines a unified taxonomy linking molecular representations, model architectures, and interdisciplinary applications. Benchmark analyses integrate evidence from both widely used data sets and data sets reflecting industry perspectives, encompassing quantum, physicochemical, physiological, and biophysical domains. The survey examines current standards in data curation, splitting strategies, and evaluation protocols, highlighting challenges including inconsistent stereochemistry, heterogeneous assay sources, and reproducibility limitations under random or poorly defined splits. These observations motivate the modernization of benchmark design toward more transparent, time- and scaffold-aware methodologies. We further propose three forward-looking directions: (i) physics-aware learning embedding quantum consistency, (ii) uncertainty-calibrated foundation models for trustworthy inference, and (iii) realistic multimodal benchmark ecosystems integrating computational and experimental data. Repository: https://github.com/Zongru-Li/Survey-and-Benchmarks-of-DL-for-Molecular-Property-Prediction-in-the-Foundation-Model-Era.",
+      "authors": [
+        "Zongru Li",
+        "Xingsheng Chen",
+        "Honggang Wen",
+        "Regina Qianru Zhang",
+        "Ming Li",
+        "Xiaojin Zhang",
+        "Hongzhi Yin",
+        "Qiang Yang",
+        "Kwok-Yan Lam",
+        "Pietro Lio",
+        "Siu-Ming Yiu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42096352/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "foundation models for molecular property prediction and drug discovery",
+      "llm_evidence_cn": "用于分子属性预测和药物发现的基础模型",
+      "llm_evidence": "用于分子属性预测和药物发现的基础模型",
+      "canonical_evidence": "用于分子属性预测和药物发现的基础模型",
+      "llm_tldr_en": "Provides a systematic survey and benchmark of deep learning and foundation models for molecular property prediction.",
+      "llm_tldr_cn": "对用于分子属性预测的深度学习和基础模型进行了系统综述和基准测试。",
+      "llm_tldr": "对用于分子属性预测的深度学习和基础模型进行了系统综述和基准测试。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models and generative AI for drug discovery molecular property prediction and lead optimization",
+      "matched_requirement_id": "req-20",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42096520",
+      "title": "TranscriptFormer: A generative cell atlas across 1.5 billion years of evolution.",
+      "abstract": "Single-cell transcriptomics is revolutionizing our understanding of cellular diversity, yet comparing transcriptional programs across the tree of life remains challenging. We developed TranscriptFormer, a family of generative foundation models trained on up to 112 million cells spanning 1.53 billion years of evolution across 12 species. We demonstrate state-of-the-art performance on cell type classification, even for species separated over 685 million years of evolution, and zero-shot disease state identification in human cells. Developmental trajectories, phylogenetic relationships and cellular hierarchies emerge naturally in TranscriptFormer's representations without any explicit training on these annotations. This work establishes a powerful framework for quantitative single-cell analysis and comparative cellular biology, thus demonstrating that universal principles of cellular organization can be learned and predicted across the tree of life.",
+      "authors": [
+        "James D Pearce",
+        "Sara E Simmonds",
+        "Gita Mahmoudabadi",
+        "Lakshmi Krishnan",
+        "Giovanni Palla",
+        "Ana-Maria Istrate",
+        "Alexander Tarashansky",
+        "Benjamin Nelson",
+        "Omar Valenzuela",
+        "Donghui Li",
+        "Stephen R Quake",
+        "Theofanis Karaletsos"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42096520/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "generative foundation models for transcriptomics across species",
+      "llm_evidence_cn": "跨物种转录组学的生成式基础模型",
+      "llm_evidence": "跨物种转录组学的生成式基础模型",
+      "canonical_evidence": "跨物种转录组学的生成式基础模型",
+      "llm_tldr_en": "Introduces TranscriptFormer, a foundation model for single-cell transcriptomics across 12 species.",
+      "llm_tldr_cn": "推出了 TranscriptFormer，一个涵盖 12 个物种的单细胞转录组学基础模型。",
+      "llm_tldr": "推出了 TranscriptFormer，一个涵盖 12 个物种的单细胞转录组学基础模型。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "foundation models for transcriptomics RNA sequencing and gene expression modeling",
+      "matched_requirement_id": "req-44",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42098152",
+      "title": "CAPTAIN: a multimodal foundation model pretrained on co-assayed single-cell RNA and protein.",
+      "abstract": "Proteins act as the terminal effectors of cellular function, encoding the phenotypic consequences of genomic and transcriptomic programmes. Although transcriptomic profiles serve as accessible proxies, they remain incomplete surrogates for the proteomic landscape that ultimately defines cellular phenotypes. Current single-cell foundation models, however, are trained exclusively on transcriptomes, resulting in biased and partial characterizations of cellular states. To address this limitation, we introduce CAPTAIN, a multimodal foundational model pretrained on over four million single cells with concurrently measured transcriptomes and a curated repertoire of 382 surface proteins across diverse human and mouse tissues. Our results show that CAPTAIN learns unified multimodal representations by modelling cross-modality dependencies and capturing the diversity of cellular states across complex biological contexts. CAPTAIN generalizes robustly across both fine-tuning and zero-shot settings, excelling in core downstream tasks such as protein imputation and expansion, cell type annotation, and batch harmonization. Beyond improved accuracy in multi-omics integration, CAPTAIN generates novel hypotheses regarding protein-driven intercellular dynamics, including potential immune interaction patterns linked to COVID-19 severity.",
+      "authors": [
+        "Boya Ji",
+        "Tingting Hu",
+        "Jiawen Wang",
+        "Mengmeng Liu",
+        "Liwen Xu",
+        "Qinhao Zhang",
+        "Siyun Zhong",
+        "Libo Qiao",
+        "Yan Zhang",
+        "Shaoliang Peng",
+        "Fulong Yu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42098152/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "multimodal foundation model for single-cell RNA and protein",
+      "llm_evidence_cn": "单细胞RNA和蛋白质的多模态基础模型",
+      "llm_evidence": "单细胞RNA和蛋白质的多模态基础模型",
+      "canonical_evidence": "单细胞RNA和蛋白质的多模态基础模型",
+      "llm_tldr_en": "Introduces CAPTAIN, a multimodal foundation model pretrained on co-assayed single-cell RNA and protein data.",
+      "llm_tldr_cn": "介绍了CAPTAIN，一种在单细胞RNA和蛋白质协同测定数据上预训练的多模态基础模型。",
+      "llm_tldr": "介绍了CAPTAIN，一种在单细胞RNA和蛋白质协同测定数据上预训练的多模态基础模型。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "foundation models for transcriptomics RNA sequencing and gene expression modeling",
+      "matched_requirement_id": "req-44",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42098401",
+      "title": "Mitochondrial Gene Signature Reveals Novel Diagnostic Biomarkers for Autism Spectrum Disorder.",
+      "abstract": "Autism Spectrum Disorder (ASD) pathogenesis remains unclear, with mitochondrial dysfunction implicated as a key contributor. Reliable mitochondrial-related diagnostic biomarkers are lacking, hindering early detection and mechanistic studies. This study integrated transcriptomic data from postmortem ASD cortical tissues (GSE28521 for training; GSE64018 for validation) with mitochondrial-related genes (MRGs) from MitoCarta3.0. Mitochondrial pathways were investigated using gene set enrichment analysis (GSEA). Candidate ASD-mitochondria (ASD-MIT) genes were identified by combining differential expression analysis, weighted gene co-expression network analysis (WGCNA), and MRGs. Machine learning algorithms (LASSO, Random Forest, and SVM-RFE) were applied to screen hub genes. Diagnostic performance was evaluated using a linear predictive model, an artificial neural network (ANN), and a nomogram. Single-sample GSEA (ssGSEA) was used to assess associations between hub genes and mitochondrial pathway activity. Biological validation included qPCR in BTBR mice and protein localization analysis using the Human Protein Atlas (HPA). GSEA revealed significant downregulation of mitochondrial pathways in ASD. 22 candidate ASD-MIT genes were identified, from which three hub genes-IDH3A, MRPL2, and CHCHD4-were consistently selected by all three machine learning models. The three-gene panel demonstrated strong diagnostic ability (AUC = 0.910), confirmed by the ANN model (AUC = 0.903). The nomogram achieved excellent predictive accuracy (C-index = 0.964). Importantly, ssGSEA analysis showed that these genes were strongly associated with mitochondrial pathway activity, particularly mitochondrial calcium ion transport. qPCR validated significant downregulation of Idh3a and Mrpl2 in BTBR mice, and HPA confirmed mitochondrial localization and brain expression. This study identifies a mitochondrial gene signature associated with ASD and highlights IDH3A, MRPL2, and CHCHD4 as promising diagnostic biomarkers. These findings advance understanding of mitochondrial dysfunction in ASD pathogenesis and further suggest that disruption of mitochondrial Ca2⁺-energy coupling may represent a key mechanistic feature of the disease.",
+      "authors": [
+        "Jieyu Wang",
+        "Zeyu Cheng",
+        "Mingyuan Liu",
+        "Yuting Zhang",
+        "Yi Jiang",
+        "Tianyu Liu",
+        "Junyu Ren",
+        "Lijie Wu",
+        "Mingyang Zou",
+        "Caihong Sun"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42098401/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "machine learning for multi-omics integration and transcriptomic data analysis",
+      "llm_evidence_cn": "用于多组学整合和转录组数据分析的机器学习",
+      "llm_evidence": "用于多组学整合和转录组数据分析的机器学习",
+      "canonical_evidence": "用于多组学整合和转录组数据分析的机器学习",
+      "llm_tldr_en": "Integrates transcriptomic and mitochondrial data using machine learning to identify ASD diagnostic biomarkers.",
+      "llm_tldr_cn": "利用机器学习整合转录组和线粒体数据，识别自闭症谱系障碍的诊断标志物。",
+      "llm_tldr": "利用机器学习整合转录组和线粒体数据，识别自闭症谱系障碍的诊断标志物。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "machine learning for multi omics integration",
+      "matched_requirement_id": "req-25",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42096492",
+      "title": "Artificial intelligence algorithm for real-time detection and counting of Trypanosoma cruzi parasites using smartphone microscopy.",
+      "abstract": "Chagas disease affects 6-7 million people worldwide and causes approximately 12,000 deaths annually. Diagnostic methods vary by disease stage, with serological tests commonly used in the chronic phase, while microscopy and molecular techniques like PCR and LAMP are employed in the acute phase. While microscopy remains the most accessible tool in resource constrained settings, its effectiveness depends on skilled personnel, creating diagnostic bottlenecks. To overcome these limitations, we developed a portable, smartphone-integrated AI system for real-time Trypanosoma cruzi detection in microscopy images. The platform combines a 3D-printed microscope adapter which aligns the smartphone camera with the microscope ocular to digitize images, with telemedicine-enabled annotation workflows, and lightweight AI models (SSD-MobileNetV2, YOLOv8) deployed on smartphone for real-time analysis. Trained on a diverse dataset of human samples (478 images from 20 samples), including thick/thin blood smears and cerebrospinal fluid) and murine thin smears (570 images from 33 samples), the SSD-MobileNetV2 model achieved 86% precision, 87% recall, and 86.5% F1-score on human samples, demonstrating robust performance across variable imaging conditions. We additionally piloted a real-world experiment with the proposed system. Three thin blood smears were scanned by a user operating the smartphone-based system, with predictions generated in real time. Model outputs were benchmarked against expert annotations as the ground truth. At the object level, the algorithm achieved a precision of 67.1%, a recall of 96.4%, and an F1-score of 79.1%, showing high sensitivity under operational conditions with a configuration possibly suitable for screening. This system could enable rapid, accurate parasite detection in field settings without advanced infrastructure, addressing critical gaps in early diagnosis and monitoring. Its modular design allows adaptation to other pathogens and cellular structures, offering a scalable solution for neglected tropical disease diagnostics. By bridging AI innovation with microscopy, this approach holds promise for advancing equitable healthcare delivery in endemic regions and aligning with global health priorities.",
+      "authors": [
+        "Lin Lin",
+        "Ana Valeria Solano",
+        "Fabiola Gonzales",
+        "Mary Cruz Torrico",
+        "Daniel Illanes",
+        "Nuria Díez",
+        "David Bermejo-Peláez",
+        "Elena Dacal",
+        "Ramón Vallés-López",
+        "Lucia Pastor",
+        "Roberto Mancebo-Martín",
+        "María Jesús Ledesma-Carbayo",
+        "Miguel Luengo-Oroz",
+        "Jose M Rubio",
+        "Maria Flores-Chavez"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42096492/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "AI system for real-time pathogen detection in microscopy images",
+      "llm_evidence_cn": "用于显微镜图像中病原体实时检测的AI系统",
+      "llm_evidence": "用于显微镜图像中病原体实时检测的AI系统",
+      "canonical_evidence": "用于显微镜图像中病原体实时检测的AI系统",
+      "llm_tldr_en": "Develops a smartphone-integrated AI system for real-time detection of Trypanosoma cruzi parasites.",
+      "llm_tldr_cn": "开发了一种集成智能手机的AI系统，用于实时检测克氏锥虫寄生虫。",
+      "llm_tldr": "开发了一种集成智能手机的AI系统，用于实时检测克氏锥虫寄生虫。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "deep learning models for pathogen detection from sequencing data",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42098097",
+      "title": "A versatile multi-components mixed model for bacterial-Genome Wide association studies.",
+      "abstract": "Genome-wide Association Studies (GWAS) have played a crucial role in uncovering the genetics underlying complex human traits. Recently, there has been considerable interest in adapting GWAS-like methodologies to investigate pathogenic bacteria. Despite the variety of methods proposed, there remains a lack of clarity on how to effectively model the intricate population structures found in bacterial cohorts. In this study, we analyze the genetic architecture of whole-genome sequencing data from three distinct bacterial species, showing that the standard models used in human genetics, typically employed by existing bacterial GWAS methods, fall short when applied to organisms with highly structured genomes. Building on these findings, we introduce ChoruMM, a robust and powerful multi-component linear mixed model. This model infers components through hierarchical clustering of the bacterial genetic relatedness matrix. Extensive simulations show that our approach reduces false positives while maintaining, or even improving, detection rates compared to current pipelines. The ChoruMM package includes post-processing and visualization tools designed to address the prevalent issue of long-range correlations in bacterial genomes, enabling accurate assessment and calibration of type I error rates.",
+      "authors": [
+        "Arthur Frouin",
+        "Fabien Laporte",
+        "Lukas Hafner",
+        "Mylène Maury",
+        "Zachary R McCaw",
+        "Hanna Julienne",
+        "Léo Henches",
+        "Alexandre Leclercq",
+        "Rayan Chikhi",
+        "Marc Lecuit",
+        "Hugues Aschard"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42098097/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "modeling population structures in bacterial GWAS",
+      "llm_evidence_cn": "细菌全基因组关联分析中的群体结构建模",
+      "llm_evidence": "细菌全基因组关联分析中的群体结构建模",
+      "canonical_evidence": "细菌全基因组关联分析中的群体结构建模",
+      "llm_tldr_en": "Introduces a mixed model for bacterial GWAS to better handle structured genomes and identify pathogenic traits.",
+      "llm_tldr_cn": "引入了一种细菌 GWAS 混合模型，以更好地处理结构化基因组并识别致病特征。",
+      "llm_tldr": "引入了一种细菌 GWAS 混合模型，以更好地处理结构化基因组并识别致病特征。",
+      "llm_tags": [
+        "query:pathoai:composite"
+      ],
+      "matched_query_tag": "query:pathoai:composite",
+      "matched_query_text": "Papers central to 病原组学中的 AI 方法, especially work that connects or combines: foundation models for pathogen genomes and pathogen biology; machine learning for metagenomic pathogen classification; deep learning models for pathogen detection from sequencing data; AI methods for genomic surveillance and outbreak monitoring; machine learning for antimicrobial resistance prediction from genomes; machine learning for phylogenetic and transmission inference; multimodal models combining pathogen sequence phenotype and metadata; machine learning for microbiome host interaction pathogen ecology and infection modeling; AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design; foundation models for pathogen genome understanding and surveillance.",
+      "matched_requirement_id": "req-composite-pathoai",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42099283",
+      "title": "Cross-Species Plant Single-Cell Analysis: Community Challenges and Shared Solutions.",
+      "abstract": "Single-cell genomics is rapidly reshaping plant biology, yet broader adoption is limited by plant-specific technical constraints, fragmented tools, and inconsistent analytical practices. Here we report outcomes from the 2025 Summer Workshop for Plant Single-Cell Analysis, which convened researchers to define community needs and design shared solutions. Participants identified five priority challenge areas: (1) improving data quality through imputation, simulation, and deep generative modeling; (2) developing automated, phylogenetically aware cell-type annotation frameworks; (3) reconstructing developmental trajectories and gene regulatory networks from single-cell and single-nucleus profiles; (4) creating visualization approaches that embed transcriptional states into anatomically grounded plant organ contexts; and (5) using Artificial Intelligence (AI) agents and foundation models to orchestrate end-to-end single-cell workflows. In response, we established PlantSCHub, a community-curated web portal that aggregates protocols, datasets, and tutorials to support reproducible plant single-cell analysis. We outline conceptual roadmaps for cross-species integration, multimodal trajectory and Gene Regulatory Networks (GRNs) inference, spatially anchored visualization, and AI scientist agents that dynamically coordinate analytical tools and literature. We discuss both scRNA-seq and scATAC-seq that are important for regulatory inference and cross-species analysis. Together, these efforts aim to transform isolated plant single-cell studies into an interoperable, evolving ecosystem that accelerates discovery and crop improvement.",
+      "authors": [
+        "Maryam Haghan",
+        "Tran N Chau",
+        "Razan Alajoleen",
+        "Chia-Yu Chen",
+        "Sajib Acharjee Dip",
+        "Vandana Gurung",
+        "Che-Wei Hsu",
+        "Chadinthon Kittivorawong",
+        "Sanchari Kundu",
+        "Xiaohui Li",
+        "Juncheng Luo",
+        "Mohammad Salehin",
+        "Mathew Simenc",
+        "Jie Yun",
+        "Bastiaan Bargmann",
+        "Song Li"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42099283/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "deep generative modeling and gene regulatory networks in single-cell analysis",
+      "llm_evidence_cn": "单细胞分析中的深度生成建模和基因调控网络",
+      "llm_evidence": "单细胞分析中的深度生成建模和基因调控网络",
+      "canonical_evidence": "单细胞分析中的深度生成建模和基因调控网络",
+      "llm_tldr_en": "Discusses challenges and AI-driven solutions for plant single-cell genomics, including generative modeling.",
+      "llm_tldr_cn": "讨论了植物单细胞基因组学的挑战和 AI 驱动的解决方案，包括生成建模。",
+      "llm_tldr": "讨论了植物单细胞基因组学的挑战和 AI 驱动的解决方案，包括生成建模。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for single cell sequencing and spatial omics pipelines",
+      "matched_requirement_id": "req-51",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "42014928",
+      "title": "Drug Discovery of Antiviral Inhibitors Targeting Dengue Virus NS4B Protein.",
+      "abstract": "Dengue virus (DENV) infection represents a rapidly growing global public health burden for which no approved antiviral therapies are currently available. Among the viral nonstructural proteins, NS4B has emerged as a particularly compelling therapeutic target despite lacking intrinsic enzymatic activity. NS4B functions as an essential membrane-associated regulator of viral replication by promoting endoplasmic reticulum remodeling, facilitating replication complex assembly, and mediating interactions with both viral and host factors. Recent phenotypic screening campaigns have identified potent pan-serotype NS4B inhibitors with several candidates advanced into clinical development, underscoring the translational promise of this target. This review outlines the DENV replication cycle with an emphasis on NS4B structure and function, summarizes recent advances in NS4B-targeted antiviral discovery, and discusses the relevant challenges and future perspectives in developing effective dengue therapeutics.",
+      "authors": [
+        "Sikun Pang",
+        "Xinhui Qiu",
+        "Ziyin Cai",
+        "Ziqi Zhong",
+        "Hongbing Jiang",
+        "Jia Zhou",
+        "Jimin Xu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42014928/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "antiviral discovery and pathogen target identification for Dengue virus",
+      "llm_evidence_cn": "针对登革病毒的抗病毒药物发现和病原体靶点识别",
+      "llm_evidence": "针对登革病毒的抗病毒药物发现和病原体靶点识别",
+      "canonical_evidence": "针对登革病毒的抗病毒药物发现和病原体靶点识别",
+      "llm_tldr_en": "Reviews drug discovery efforts targeting the Dengue virus NS4B protein for antiviral therapy development.",
+      "llm_tldr_cn": "综述了针对登革病毒NS4B蛋白的抗病毒药物发现及治疗靶点研究进展。",
+      "llm_tldr": "综述了针对登革病毒NS4B蛋白的抗病毒药物发现及治疗靶点研究进展。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42098874",
+      "title": "Geographic genetic divergence and ecological viral communities shape the virome of Chilo suppressalis.",
+      "abstract": "BACKGROUND: Insect-specific and insect-borne viruses (particularly RNA viruses) may pose a serious threat to global rice production. However, the effects of geographic genetic divergence and ecological viral communities in shaping insect viromes remain poorly understood. The striped stem borer, Chilo suppressalis-a notorious chewing pest widely distributed across China-serves as an ideal model to study RNA virus evolution and cross-species transmission dynamics in rice ecosystems. RESULTS: Meta-transcriptomic sequencing analysis of 48 C. suppressalis samples collected nationwide revealed four major geographic populations and identified 20 high-abundance viruses (15 novel). These include the widespread core virus Hangzhou sesamia inferens peribunyavirus 1 and Chilo suppressalis sedoreo-like virus 1, as well as several climate-adapted viruses that may represent extreme-environment specialists. Diversity analyses revealed that the geographic genetic divergence of C. suppressalis influences viral species composition but not the overall virome structure. Parallel sequencing of 5 Cotesia chilonis (endoparasitoid) samples revealed 8 high-abundance viruses (5 novel). Significant variations in distribution patterns, viral loads, and vsiRNA profiles within C. suppressalis-C. chilonis parasitic system suggested host-driven adaptive evolution of these viruses. Co-occurrence network analysis demonstrated that sympatric species (such as Sesamia inferens and rice planthoppers) and their host plant, rice, significantly influence C. suppressalis virome composition, highlighting cross-kingdom viral transmission dynamics. CONCLUSIONS: This study elucidates the synergistic roles of geographical divergence and ecological viral communities in driving virome diversity in C. suppressalis. Our findings advance the understanding of virus-host coevolution in agricultural ecosystems and provide a framework for developing integrated strategies targeting both insect pests and their viral pathogens in rice cultivation. Video Abstract.",
+      "authors": [
+        "Jia-Bao Lu",
+        "Ying Tian",
+        "Yi-Yuan Li",
+        "Yu-Hua Qi",
+        "Fang He",
+        "Peng-Peng Ren",
+        "Hai-Jian Huang",
+        "Ji-Chong Zhuo",
+        "Qing-Ling Hu",
+        "Gang Lu",
+        "Qian-Zhuo Mao",
+        "Jian-Ping Chen",
+        "Jun-Min Li",
+        "Chuan-Xi Zhang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42098874/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "meta-transcriptomic sequencing for viral community profiling",
+      "llm_evidence_cn": "用于病毒群落分析的元转录组测序",
+      "llm_evidence": "用于病毒群落分析的元转录组测序",
+      "canonical_evidence": "用于病毒群落分析的元转录组测序",
+      "llm_tldr_en": "Uses meta-transcriptomics to identify novel viruses and study virome evolution in rice pests.",
+      "llm_tldr_cn": "利用元转录组学鉴定新病毒并研究水稻害虫中病毒组的演化。",
+      "llm_tldr": "利用元转录组学鉴定新病毒并研究水稻害虫中病毒组的演化。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42096491",
+      "title": "Host metabolism shapes the intestinal microbiota: a top-down paradigm of environmental selection pressure.",
+      "abstract": "Intestinal homeostasis is not a stochastic microbial assembly but a deterministic outcome orchestrated by host-mediated metabolic gating. Traditional research has prioritized the microbiota's impact on host physiology. However, the consistent expansion of facultative anaerobes, such as Enterobacteriaceae, observed in pathological states like intestinal inflammation, suggests that dysbiosis is fundamentally a consequence of impaired host regulation. Here, we propose a \"top-down\" paradigm of host metabolic regulation, framing the host as an \"ecological engineer\" that actively shapes the microbiome through metabolism. We detail three critical metabolic filters: (1) the maintenance of epithelial hypoxia via mitochondrial β-oxidation to suppress aerobic respiration; (2) the implementation of \"nutritional immunity\" to restrict glucose and inflammation-derived electron acceptors (nitrate and tetrathionate); and (3) the energy-dependent synthesis of the gel-forming mucin 2 (MUC2) mucus layer and antimicrobial peptides (AMPs). We argue that the breakdown of these filters leads to \"niche opening,\" which acts as the fundamental driver of dysbiosis. Finally, we discuss therapeutic strategies aimed at restoring host bioenergetics-including Peroxisome proliferator-activated receptor gamma (PPAR-γ) agonists, melatonin, and ketogenic diets-to rebuild the host's ecological filtration capacity and fundamentally correct dysbiosis.",
+      "authors": [
+        "Ziyu Ma",
+        "Huairuo Shi",
+        "Xinjie Bai",
+        "Zixu Wang",
+        "Jing Cao",
+        "Yulan Dong",
+        "Yaoxing Chen"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-12-31",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42096491/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "host metabolism shaping intestinal microbiota and pathogen ecology",
+      "llm_evidence_cn": "宿主代谢塑造肠道微生物群和病原体生态",
+      "llm_evidence": "宿主代谢塑造肠道微生物群和病原体生态",
+      "canonical_evidence": "宿主代谢塑造肠道微生物群和病原体生态",
+      "llm_tldr_en": "Proposes a top-down paradigm where host metabolism acts as an ecological engineer to shape the microbiome.",
+      "llm_tldr_cn": "提出了一种“自上而下”的范式，即宿主通过代谢作为“生态工程师”来塑造微生物组。",
+      "llm_tldr": "提出了一种“自上而下”的范式，即宿主通过代谢作为“生态工程师”来塑造微生物组。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42098876",
+      "title": "Proanthocyanidins inhibit methane emissions by interacting with methyl-coenzyme M reductase and reshaping rumen microbiome function.",
+      "abstract": "BACKGROUND: Enteric methane (CH4) emissions from ruminants are a major source of agricultural greenhouse gases and represent an energy loss to the host. Methyl-coenzyme M reductase (MCR) is the terminal enzyme in methanogenesis and represents a key target for CH4 mitigation. This study integrated computational screening, in vitro fermentation, and in vivo experiments to identify plant-derived compounds capable of reducing enteric CH4. RESULTS: Molecular docking of 3,900 phytochemicals identified proanthocyanidins (PAC) as top candidate, exhibiting strong predicted affinity to the MCR active site (-8.150 kcal/mol). In vitro rumen fermentation assays showed that PAC supplementation reduced CH4 production by 22% while increasing dry matter degradability. In lactating dairy cows, dietary PAC supplementation (10 or 20 g/kg dry matter) decreased daily CH4 emissions by ~ 8%, and improved ruminal nitrogen utilization without affecting milk yield or ruminal volatile fatty acid production. Amplicon sequencing and metagenomic analyses revealed PAC supplementation shifts in rumen microbial community, characterized by increased relative abundance of Bacteroidota taxa and a decreased relative abundance of methanogenesis-related genes. Functional genes associated with carbohydrate, lipid, and nitrogen turnover were more abundant, indicating potential improvements in nutrient utilization. Consistent with these changes, untargeted metabolomics likewise identified shifts in metabolite profiles that may associated with alternative routes for utilizing reducing equivalents. CONCLUSIONS: This study provides integrated computational, microbial, and physiological evidence that PAC supplementation can reduce enteric CH4 emissions in lactating dairy cows, inducing rumen microbial and functional shifts and improving nitrogen utilization. These findings support the potential of PAC as a natural approach to lowering CH4 emissions and advancing sustainable dairy production. Video Abstract.",
+      "authors": [
+        "Zihao Liu",
+        "Yuming Guo",
+        "Li Xiao",
+        "Jian Guo",
+        "Yuxuan Chen",
+        "Hui Wang",
+        "Xuemei Nan",
+        "Mengting Zhou",
+        "Fan Zhang",
+        "Yue He",
+        "Zhixue Yu",
+        "Rong Wang",
+        "Zhuqing Ren",
+        "Jian Wu",
+        "Min Wang",
+        "Xiangfang Tang",
+        "Benhai Xiong"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42098876/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "computational screening and molecular docking for target identification",
+      "llm_evidence_cn": "用于靶点识别的计算筛选和分子对接",
+      "llm_evidence": "用于靶点识别的计算筛选和分子对接",
+      "canonical_evidence": "用于靶点识别的计算筛选和分子对接",
+      "llm_tldr_en": "Identified proanthocyanidins as methane inhibitors using molecular docking and microbiome analysis.",
+      "llm_tldr_cn": "利用分子对接和微生物组分析确定原花青素为甲烷抑制剂。",
+      "llm_tldr": "利用分子对接和微生物组分析确定原花青素为甲烷抑制剂。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models and generative AI for drug discovery molecular property prediction and lead optimization",
+      "matched_requirement_id": "req-20",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42098593",
+      "title": "Ovotransferrin Alleviates Ulcerative Colitis by Modulating",
+      "abstract": "Ovotransferrin (OVT) is a functionally active protein demonstrated to alleviate ulcerative colitis (UC), although its mechanism remains incompletely understood. Notably, UC is closely associated with dysbiosis of the gut microbiota. This study investigates the potential of OVT to alleviate colitis by reshaped gut microbiota composition in a DSS-induced UC mouse model. Specifically, Ligilactobacillus murinus (L. murinus) was isolated from the gut microbiota of OVT-treated UC mice and stimulated by OVT in vitro. Integrated whole-genome sequencing and targeted metabolomics revealed that L. murinus encodes bile salt hydrolase, thereby driving secondary bile acid biosynthesis. Mechanistically, fermentation products (FP) derived from coculture of L. murinus with bile exerts potent anti-inflammatory in both Caco-2 cells and a colitis model by Ptgs2 (COX-2) downregulation and the JAK-STAT signaling pathway inhibition. These results established the \"OVT-L. murinus-bile acids-Ptgs2/JAK-STAT\" axis as a novel mechanism for UC treatment, providing a foundation for high-value applications of OVT in functional foods.",
+      "authors": [
+        "Donglei Zheng",
+        "Xiaojuan Xin",
+        "Hui Ouyang",
+        "Lulu Ma",
+        "Hao Wang",
+        "Xin Liu",
+        "Xiangxin Liao",
+        "Xinzi Chu",
+        "Ying Gao",
+        "Jiaying Huo",
+        "Shugang Li"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42098593/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "whole-genome sequencing for microbiome host pathogen interaction",
+      "llm_evidence_cn": "用于微生物组-宿主-病原体相互作用的全基因组测序",
+      "llm_evidence": "用于微生物组-宿主-病原体相互作用的全基因组测序",
+      "canonical_evidence": "用于微生物组-宿主-病原体相互作用的全基因组测序",
+      "llm_tldr_en": "Uses sequencing and metabolomics to show how OVT modulates gut microbiota to alleviate ulcerative colitis.",
+      "llm_tldr_cn": "通过测序和代谢组学研究了卵传递蛋白如何通过调节肠道菌群缓解溃疡性结肠炎。",
+      "llm_tldr": "通过测序和代谢组学研究了卵传递蛋白如何通过调节肠道菌群缓解溃疡性结肠炎。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42101103",
+      "title": "Artificial intelligence in the assessment of epilepsy-related genetic mutations: Learned from GABA",
+      "abstract": "This review examines how recent genetic and technological advances have transformed our understanding and treatment of genetic epilepsies (GEs), with a focus on disorders involving GABAA receptors (GABRs) and the GABA transporter 1 (GAT-1) encoded by SLC6A1. About 1000 genes are associated with epilepsy, including ~100 directly linked to defined epilepsy syndromes. Many disease-causing variants affect ion channels and transporters, disrupting protein structure, trafficking, and synaptic function. These defects often underlie developmental and epileptic encephalopathies (DEEs). A key insight from recent studies is that endoplasmic reticulum (ER)-related pathology-such as protein misfolding, ER retention, and accelerated degradation, which are common consequences of those pathogenic variants. For example, mutations in SLC6A1 or GABRG2 lead to impaired trafficking and reduced surface expression of GAT-1 or GABR subunits, resulting in deficient inhibitory neurotransmission. These mechanisms have been validated using advanced cellular assays and mouse models, although such experimental approaches remain costly and labor-intensive. Artificial intelligence (AI) is emerging as a powerful complement to experimental studies. Computational approaches, including generative AI and protein language models, can predict mutation-induced changes in protein structure, stability, and interactions, aided by tools such as AlphaFold. These methods enable large-scale, system-level analysis of variants and hold promise for accelerating drug discovery. However, current AI models are limited by fragmented datasets and the inherent complexity of biological systems. Integrating AI with experimental research offers a scalable strategy to translate mechanistic insights across genetic epilepsies (GEs). For instance, 4-phenylbutyrate (PBA), tested in SLC6A1 and GABRG2 epilepsy mouse models and now in clinical trials (NCT04937062), shows promise for treating GEs and DEEs caused by ER-retained mutant proteins. AI-based prediction could help identify additional GEs likely to respond to similar therapeutic approaches. Overall, combining experimental and AI-driven methods represents a new frontier for advancing the diagnosis and treatment of GEs and DEEs. PLAIN LANGUAGE SUMMARY: Mutations in almost 1000 genes have been linked to epilepsies, including those affecting GABA signaling such as GABAA receptors and the GABA transporter. Using cell and mouse studies, we found that many of these gene mutations cause similar problems inside cells. Specifically, the mutant proteins get stuck inside the cell in a structure called the endoplasmic reticulum (ER) and cause ER stress. Importantly, an FDA-approved drug 4-phenylbutyrate (PBA) can reduce these problems. We propose using artificial intelligence (AI) to predict how different gene mutations affect protein function and to identify which patients are likely to benefit from PBA treatment.",
+      "authors": [
+        "Juexin Wang",
+        "Jing-Qiong Kang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42101103/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "AI in the assessment of genetic mutations and protein structure defects",
+      "llm_evidence_cn": "人工智能在基因突变评估和蛋白质结构缺陷中的应用",
+      "llm_evidence": "人工智能在基因突变评估和蛋白质结构缺陷中的应用",
+      "canonical_evidence": "人工智能在基因突变评估和蛋白质结构缺陷中的应用",
+      "llm_tldr_en": "Examines AI and genetic advances in understanding and treating genetic epilepsies related to protein misfolding.",
+      "llm_tldr_cn": "探讨了人工智能和遗传学进展在理解和治疗与蛋白质折叠相关的遗传性癫痫中的作用。",
+      "llm_tldr": "探讨了人工智能和遗传学进展在理解和治疗与蛋白质折叠相关的遗传性癫痫中的作用。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "trustworthy and interpretable AI systems for bioinformatics workflows",
+      "matched_requirement_id": "req-37",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42098796",
+      "title": "Unleashing the potential of mRNA-seq to uncover the microbiome structure and their crosstalk with host cells: the vulvar ecosystem.",
+      "abstract": "BACKGROUND: To describe both host gene expression and microbiome composition in a single sample, parallel experimental and computational workflows (mRNA-sequencing and either 16S rRNA gene or metagenomics) have been traditionally applied. The vulvar milieu represents an area of emerging research for its role in health and disease. Located at the interface between the vagina and the perineum, the vulvar microbiome displays an intermediate signature, with influx from both ecosystems. RESULTS: Following validation of the reliability of poly(A)-enriched mRNA-sequencing in reconstructing the microbiota composition using both a quantitative microbial standard (mock) and metagenomic analysis, we analyze a full cohort of 30 healthy vulvar samples. Crucially, the analysis of the entire cohort relies solely on mRNA-sequencing without the use of parallel DNA metagenomics. This unified approach allows us to analyze not only the vulvar cell transcriptome, but also the composition and dynamics of microbial communities, including the microbial gene expression signatures. This three-level analysis (host-mRNA, individual bacterial species, bacterial gene pathways) on the very same specimens further enables a gene-level exploration of host-microbe molecular crosstalk. Using this unified framework, we reveal marked heterogeneity and high inter-individual variability in the vulvar microbiota, identifying community state types that mirror those described in the vagina. Importantly, we show that distinct microbial configurations are associated with specific host transcriptional programs: Lactobacillus crispatus correlates with epithelial differentiation and barrier integrity, whereas communities enriched in Gardnerella vaginalis, or other taxa associated with dysbiosis, exhibit transcriptional signatures linked to inflammation. Interestingly, Lactobacillus gasseri, which has been associated with lower protection, shows an intermediate effect on vulvar cells. CONCLUSIONS: Beyond providing new biological insights into an understudied anatomical niche, our study introduces a broadly applicable strategy with substantial impact for the field. With tens of thousands of human RNA-seq datasets already available in public repositories, our approach enables retrospective extraction of microbiome information and host-microbe interaction signals from existing transcriptomic data, without the need for additional sequencing or specialized microbiome protocols. This unlocks a powerful and cost-effective opportunity to revisit archived RNA-seq studies across tissues, diseases, and low-biomass environments, revealing previously inaccessible layers of host-microbiome crosstalk and maximizing the scientific value of published data. Video Abstract.",
+      "authors": [
+        "Emanuele Monteleone",
+        "Marco Amato Cianci",
+        "Alessia Albano",
+        "Federica Loperfido",
+        "Gloria Griffante",
+        "Luna Brasi",
+        "Fulvio Borella",
+        "Niccolò Gallio",
+        "Mario Preti",
+        "Alessandra Marchi",
+        "Barbara Gardella",
+        "Ivan Molineris",
+        "Giacomo Donati",
+        "Valentina Proserpio"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-07",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42098796/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "metagenomic analysis and mRNA-seq for microbiome structure reconstruction",
+      "llm_evidence_cn": "用于微生物组结构重建的宏基因组分析和mRNA测序",
+      "llm_evidence": "用于微生物组结构重建的宏基因组分析和mRNA测序",
+      "canonical_evidence": "用于微生物组结构重建的宏基因组分析和mRNA测序",
+      "llm_tldr_en": "Validated mRNA-seq for simultaneous host gene expression and microbiome composition profiling.",
+      "llm_tldr_cn": "验证了mRNA测序在同时分析宿主基因表达和微生物组组成方面的可靠性。",
+      "llm_tldr": "验证了mRNA测序在同时分析宿主基因表达和微生物组组成方面的可靠性。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42101126",
+      "title": "Pharmacomicrobiomics in Precision Pharmacotherapy: Bidirectional Microbial-Drug Interactions as a Key Determinant of Therapeutic Response.",
+      "abstract": "Interindividual variability in drug efficacy and toxicity remains a major challenge in clinical pharmacotherapy. Although pharmacogenomics has substantially advanced personalized medicine, host genetic variation alone cannot fully explain differences in drug disposition, response, and adverse effects. Increasing evidence identifies the human gut microbiotaas an additional, functionally relevant metabolic layer that complements host drug-metabolizing enzymes, giving rise to the field of pharmacomicrobiomics. This discipline examines bidirectional interactions between drugs and microbial communities that influence absorption, metabolism, enterohepatic circulation, and pharmacodynamic outcomes. The gut microbiota can directly biotransform or sequester drugs through diverse enzymatic reactions, including deconjugation, reduction, and decarboxylation, thereby modifying systemic drug exposure and toxicity. In parallel, microbially derived metabolites and bile acid-mediated signaling pathways regulate host drug-metabolizing enzymes and transporters, including cytochrome P450 enzymes and ATP-binding cassette transporters. Conversely, many commonly used medications-such as antibiotics, chemotherapeutic agents, targeted therapies, immunotherapies, psychotropic drugs, and proton pump inhibitors-can substantially reshape microbial composition and function, resulting in dysbiosis that feeds back onto drug metabolism and therapeutic outcomes. This review summarizes the mechanistic basis and clinical relevance of microbiota-drug interactions across key therapeutic areas, including oncology (chemotherapy and immunotherapy), neuropsychiatric disorders, and metabolic diseases. Well-established examples, including microbial β-glucuronidase-mediated reactivation of irinotecan, microbiota-dependent modulation of levodopa and antidepressant pharmacokinetics, and microbiota-driven variability in immune checkpoint inhibitor efficacy, are discussed to illustrate causality. Emerging microbiome-informed strategies-such as selective inhibition of microbial enzymes, microbiota modulation, and microbial biomarker-based patient stratification-are highlighted. Finally, we examine integration of pharmacomicrobiomics with pharmacogenomics within multi-omic and systems pharmacology frameworks, emphasizing implications for predictive modeling and precision drug metabolism.",
+      "authors": [
+        "Serap Yalçın Azarkan",
+        "Habibe Sema Arslan Ünal",
+        "Sevinç Akçay"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42101126/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "microbial-drug interactions and pharmacomicrobiomics for precision medicine",
+      "llm_evidence_cn": "微生物-药物相互作用与药物微生物组学用于精准医学",
+      "llm_evidence": "微生物-药物相互作用与药物微生物组学用于精准医学",
+      "canonical_evidence": "微生物-药物相互作用与药物微生物组学用于精准医学",
+      "llm_tldr_en": "Explores bidirectional interactions between drugs and gut microbiota to improve precision pharmacotherapy.",
+      "llm_tldr_cn": "探讨药物与肠道微生物群之间的双向相互作用，以改进精准药物治疗。",
+      "llm_tldr": "探讨药物与肠道微生物群之间的双向相互作用，以改进精准药物治疗。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42101372",
+      "title": "Molecular-level host-microbe interactions: mechanisms, molecules, and modeling toward precision probiotics.",
+      "abstract": "INTRODUCTION: Advancing next-generation probiotics (NGPs) as precision therapeutics depends on a detailed understanding of host - microbe molecular interactions, as these organisms exert targeted effects through defined bioactive molecules rather than broad, nonspecific mechanisms. This review addresses the need to systematically organize emerging knowledge on microbe-derived molecules (MDMs) that underpin NGP efficacy. AREAS COVERED: This narrative review summarizes recent discoveries of MDMs isolated from NGPs and classifies them based on three principal molecular interaction interfaces: protein - protein/peptide, protein - lipid or glycopeptide, and protein - metabolite interactions. We discuss how these molecules - encompassing proteins/peptides, lipids, glycoconjugates, and small metabolites - modulate host immune and metabolic pathways to maintain homeostasis. The literature was identified through targeted searches of recent peer-reviewed studies focusing on host - microbe molecular mechanisms and probiotic-derived bioactives. We also review the application of molecular docking, molecular dynamics simulations, and artificial intelligence - based tools in predicting host - microbe interactions and accelerating therapeutic discovery. EXPERT OPINION: By integrating experimental insights with computational strategies, we propose a framework to guide the development of precision microbiome-based interventions tailored to specific diseases and individual microbiome profiles. These advances lay the foundation for rational design of targeted NGP therapies for metabolic, inflammatory, infectious, and neurodegenerative disorders.",
+      "authors": [
+        "Huan Zhang",
+        "Shiqi Zhang",
+        "Jiangjiang Zhu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42101372/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "modeling host-microbe molecular interactions for precision probiotics",
+      "llm_evidence_cn": "为精准益生菌建模宿主-微生物分子相互作用",
+      "llm_evidence": "为精准益生菌建模宿主-微生物分子相互作用",
+      "canonical_evidence": "为精准益生菌建模宿主-微生物分子相互作用",
+      "llm_tldr_en": "Reviews molecular mechanisms and modeling of host-microbe interactions to advance precision probiotic therapies.",
+      "llm_tldr_cn": "综述了宿主-微生物相互作用的分子机制和建模，以推进精准益生菌疗法。",
+      "llm_tldr": "综述了宿主-微生物相互作用的分子机制和建模，以推进精准益生菌疗法。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42101664",
+      "title": "Bringing environment back into human evolution: why human genetics needs genome-environment association studies.",
+      "abstract": "Understanding the genetic basis of human adaptation to environmental pressures is a central question in evolutionary biology. Recent advancements in genome-environment association (GEA) methods have provided novel insights into how genetic variation is shaped by climate, diet, altitude, pathogens, and other environmental factors. However, despite significant progress in non-human studies, the application of GEA in human populations remains underused. This article synthesizes recent GEA methodological advancements, including redundancy analysis (RDA) and machine learning approaches, such as gradient forest (GF), to improve the detection of selection signals while accounting for demographic noise. Furthermore, I discuss the implications of historical GEA projection and genetic offset to human adaptation, particularly in the context of rapid urbanization and climate change. By integrating genomic, environmental, and epidemiological data, GEA has the potential not only to enhance our understanding of past human evolution but also to evaluate how allele-environment relationships may shift under future environmental change. By refining statistical models and expanding studies to diverse populations, GEA can play a critical role in elucidating the mechanisms underlying human adaptation and characterizing how selective forces shape the spatial distribution of adaptive alleles.",
+      "authors": [
+        "Pei-Wei Sun"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42101664/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "machine learning for genome-environment association studies",
+      "llm_evidence_cn": "基因组-环境关联研究的机器学习",
+      "llm_evidence": "基因组-环境关联研究的机器学习",
+      "canonical_evidence": "基因组-环境关联研究的机器学习",
+      "llm_tldr_en": "Discusses machine learning in genome-environment association studies to detect selection signals.",
+      "llm_tldr_cn": "讨论了机器学习在基因组-环境关联研究中检测选择信号的应用。",
+      "llm_tldr": "讨论了机器学习在基因组-环境关联研究中检测选择信号的应用。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "protein language models for structure function prediction and design",
+      "matched_requirement_id": "req-16",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42101522",
+      "title": "Comparative analysis of next-generation versus third-generation sequencing for pathogen detection in clinical samples: a diagnostic accuracy study.",
+      "abstract": "BACKGROUND: The rapid and accurate identification of pathogens is crucial for clinical management of infectious diseases. While Next-generation sequencing (NGS) has transformed pathogen detection, Third-generation sequencing (TGS) offers advantages in real-time analysis and long-read capabilities. This study comprehensively compares the diagnostic performance of NGS and TGS across diverse clinical samples. METHODS: We conducted a prospective diagnostic accuracy study involving 105 clinical samples (58 bronchoalveolar lavage fluid, 28 whole blood, 19 other body fluids) from patients with suspected infections. All samples were analyzed using both NGS (BGI platform) and TGS (Nanopore platform). Diagnostic performance was evaluated against a composite reference standard incorporating clinical diagnosis, microbiological culture, and laboratory findings. RESULTS: NGS demonstrated significantly higher sensitivity compared to TGS (95.9% vs. 82.4%, p < 0.001), while TGS showed superior specificity (87.1% vs. 64.5%, p = 0.012). The overall agreement between platforms was 85.7% (Kappa = 0.702). NGS exhibited particular advantages in viral detection (32 vs. 8 detections, p < 0.001) and fungal identification (28 vs. 18 detections, p = 0.023), whereas both technologies showed comparable bacterial detection capabilities. The area under the ROC curve was 0.92 for NGS and 0.85 for TGS. Turnaround time was significantly shorter for TGS (median 8 h vs. 30 h, p < 0.001). CONCLUSION: NGS and TGS demonstrate complementary strengths in clinical pathogen detection. NGS offers superior sensitivity and enhanced detection of viral and fungal pathogens, making it suitable for comprehensive diagnostic evaluation. TGS provides rapid results with higher specificity, advantageous for time-critical clinical decisions. A combined or scenario-specific approach may optimize pathogen detection in clinical practice.",
+      "authors": [
+        "Chenyan Yuan",
+        "Ting Zhang",
+        "Juan Huo",
+        "Wenxue Liang",
+        "Lei Wang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42101522/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "pathogen detection in clinical samples using NGS and TGS",
+      "llm_evidence_cn": "使用 NGS 和 TGS 进行临床样本病原体检测",
+      "llm_evidence": "使用 NGS 和 TGS 进行临床样本病原体检测",
+      "canonical_evidence": "使用 NGS 和 TGS 进行临床样本病原体检测",
+      "llm_tldr_en": "Compares NGS and TGS for pathogen detection in clinical samples, highlighting diagnostic accuracy.",
+      "llm_tldr_cn": "比较了 NGS 和 TGS 在临床样本病原体检测中的表现，强调了诊断准确性。",
+      "llm_tldr": "比较了 NGS 和 TGS 在临床样本病原体检测中的表现，强调了诊断准确性。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "deep learning models for pathogen detection from sequencing data",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}
