@@ -5,6 +5,33 @@
 
 ## 最近论文
 
+- [Protein language models accurately predict polymorphic peptide-modulated NK cell receptor-HLA class I interaction strengths.](#/202605/09/202605/09/42102196-protein-language-models-accurately-predict-polymorphic-peptide-modulated-nk-cell-receptor-hla-class-i-interaction-strengths)
+  - TLDR：自然杀伤（NK）细胞的功能受KIR受体与HLA-I分子相互作用的调节，而这种相互作用高度依赖于结合的肽段。由于肽段序列空间巨大，识别能调节免疫反应的特定肽段极具挑战。本研究利用蛋白质语言模型（pLM）开发了预测KIR-肽-HLA复合物相互作用强度的工具。该模型在多数抑制性KIR上取得了超过0.8的AUROC，并能有效识别HIV和HCV相关肽段，为个性化免疫治疗和免疫调节机制研究提供了重要工具。
+  - Tags：`query:bioinfo`
+- [Reconstructing ancient genomes from gene counts: A robust likelihood framework with sampling bias correction.](#/202605/09/202605/09/42101992-reconstructing-ancient-genomes-from-gene-counts-a-robust-likelihood-framework-with-sampling-bias-correction)
+  - TLDR：针对古基因组重建中基因树拓扑不确定性导致的计算难题，本研究提出了一种基于基因拷贝数演化的GLD似然框架。该方法利用物种树上的出生-死亡过程模拟基因的增益、丢失和重复，并引入采样偏差修正。在269个古菌基因组的重建实验中，GLD比传统序列比对方法更准确地识别了基因演化模式，揭示了微生物基因组在精简与扩张之间的动态平衡机制。
+  - Tags：`query:pathoai`
+- [Eupentacta fraudatrix: the first chromosome-level holothurian genome with extraordinarily high heterozygosity.](#/202605/09/202605/09/42103738-eupentacta-fraudatrix-the-first-chromosome-level-holothurian-genome-with-extraordinarily-high-heterozygosity)
+  - TLDR：针对海参纲硬指参科缺乏染色体级基因组的问题，本研究以具有独特转分化再生能力的Eupentacta fraudatrix为对象，利用MGI短读长、纳米孔长读长及Hi-C技术，成功组装了两个高质量的单倍型基因组。结果显示该物种具有极高的杂合度（5.1%），并包含23条染色体。这一成果为研究棘皮动物的器官再生机制及系统发育提供了关键的遗传学基础。
+  - Tags：`query:seqai`
+- [Next-generation probiotics: an outlook into current applications and future developments.](#/202605/09/202605/09/42104000-next-generation-probiotics-an-outlook-into-current-applications-and-future-developments)
+  - TLDR：益生菌领域正从传统的食源性菌株转向“下一代益生菌”（NGP），以解决定植力弱和机制不明等挑战。本文综述了通过天然筛选与基因工程手段开发 NGP 的进展，并重点探讨了人工智能在菌株发现、多菌群设计及个性化代谢建模中的关键作用。这一演进将推动活菌疗法向精准医疗转型，提升其在代谢、免疫及肿瘤治疗中的临床疗效。
+  - Tags：`query:pathoai`
+- [Integrated multi-omics decipher the complex nodule microbiota and distinct Frankiaceae symbiotic traits in wild actinorhizal plants.](#/202605/09/202605/09/42104558-integrated-multi-omics-decipher-the-complex-nodule-microbiota-and-distinct-frankiaceae-symbiotic-traits-in-wild-actinorhizal-plants)
+  - TLDR：针对放线菌结瘤植物共生机制研究不足的问题，本研究通过对5种代表性植物进行16S测序、转录组和宏基因组多组学分析，揭示了其根瘤内复杂的微生物群落结构及4种新型弗兰克氏菌。研究发现，与豆科植物相比，放线菌结瘤植物的共生关系表现出较低的亲密度和独特的信号传导特征，这为其作为温带多年生先锋植物的生存策略提供了分子解释，深化了对非豆科固氮演化的理解。
+  - Tags：`query:seqai`
+- [Elucidating the regulatory role of the Shine-Dalgarno sequence in structural gene expression of the malolactic enzyme operon using a GFP/mCherry model.](#/202605/09/202605/09/42101569-elucidating-the-regulatory-role-of-the-shine-dalgarno-sequence-in-structural-gene-expression-of-the-malolactic-enzyme-operon-using-a-gfpmcherry-model)
+  - TLDR：针对葡萄酒发酵中 Oenococcus oeni 菌株 mleA 和 mleP 基因翻译耦合的调控机制不明问题，研究者构建了 GFP/mCherry 双荧光报告系统，对比了天然耦合与人工非耦合结构。通过对 SD2 序列进行定点突变并结合 mRNA 二级结构能值计算，发现翻译耦合系统存在非线性的调控逻辑，即过强的 SD 序列在耦合结构中反而可能抑制下游基因表达。该研究揭示了原核生物操纵子中精确的翻译后调控层级，为合成生物学中多基因比例控制提供了预测框架。
+  - Tags：`query:pathoai`
+- [Cell-free DNA size deconvolution resolves nucleosomal origins and reveals tumor-associated fragmentomic alterations.](#/202605/09/202605/09/42103785-cell-free-dna-size-deconvolution-resolves-nucleosomal-origins-and-reveals-tumor-associated-fragmentomic-alterations)
+  - TLDR：针对循环游离DNA（cfDNA）片段化机制不明的问题，本研究开发了一种通用的片段长度分布反卷积模型，将多种体液中的cfDNA分布分解为约10bp周期的柯西-洛伦兹分量。通过分析159bp等关键组分，研究成功区分了肿瘤来源DNA与吞噬作用导致的片段缩短，并利用片段化熵显著提升了癌症检测的灵敏度，为液体活检提供了更精准的生物物理模型。
+  - Tags：`query:seqai`
+- [Global mapping of bedaquiline-resistant Mycobacterium tuberculosis: a systematic review.](#/202605/09/202605/09/42104268-global-mapping-of-bedaquiline-resistant-mycobacterium-tuberculosis-a-systematic-review)
+  - TLDR：针对耐多药结核病治疗中贝达喹啉（BDQ）耐药性上升的问题，本研究通过系统综述2014至2025年间全球40项研究及2.5万余份样本，分析了BDQ耐药性的地理分布及遗传机制。结果显示非洲和东地中海地区耐药率最高，并确定了Rv0678、atpE和pepQ为主要耐药相关基因。该研究为建立全球基因组监测系统和开发快速诊断工具提供了关键数据支持。
+  - Tags：`query:pathoai`
+- [Ecological drift and host filtering jointly structure foliar endophytes during ecosystem development.](#/202605/09/202605/09/42104434-ecological-drift-and-host-filtering-jointly-structure-foliar-endophytes-during-ecosystem-development)
+  - TLDR：针对植物叶内生微生物群落如何随生态系统演化而变化的问题，研究者利用时空替代法分析了不同演替阶段四种宿主植物的内生菌动态。研究发现，虽然生态系统年龄有影响，但宿主身份和叶片化学成分是更强的决定因素，且群落构建主要受随机过程（如生态漂变）驱动。这一发现揭示了稳定核心菌群与动态稀有菌群并存的机制，有助于理解植物如何通过微生物调节适应环境变化。
+  - Tags：`query:pathoai`
 - [A Systematic Survey and Benchmark of Deep Learning for Molecular Property Prediction in the Foundation Model Era.](#/202605/08/202605/08/42096352-a-systematic-survey-and-benchmark-of-deep-learning-for-molecular-property-prediction-in-the-foundation-model-era)
   - TLDR：分子性质预测是连接分子结构与生物物理行为的关键。本文系统综述了从量子化学、描述符机器学习到几何深度学习及大模型时代的演进，构建了统一的分类体系。通过整合工业界与学术界的多领域数据集，揭示了现有基准在立体化学一致性和数据分割策略上的局限，并提出了物理感知学习与多模态基准等未来方向，为构建更可靠的分子发现模型提供了指南。
   - Tags：`query:bioinfo`
@@ -578,30 +605,3 @@
 - [Single-cell co-mapping reveals relationship between chromatin state and gene expression in early zebrafish development.](#/202604/21/202604/21/42011025-single-cell-co-mapping-reveals-relationship-between-chromatin-state-and-gene-expression-in-early-zebrafish-development)
   - TLDR：针对脊椎动物胚胎发育中染色质状态与基因表达耦合机制不明的问题，研究者开发了一种能同时检测单细胞全长转录组和组蛋白修饰的多模态测量方法，并应用于斑马鱼早期发育研究。研究发现，在胚层形成前两者处于解离状态，随后在原肠胚期逐渐耦合；通过机器学习模型识别了谱系特异性转录因子及其表观遗传调控模式。该研究揭示了细胞身份建立过程中转录与染色质层的动态交互逻辑。
   - Tags：`query:seqai`
-- [AN ACTIVE LEARNING PROJECT FOR TEACHING BIOINFORMATICS, PHYLOGENETICS, AND PARASITOLOGY.](#/202604/21/202604/21/42002290-an-active-learning-project-for-teaching-bioinformatics-phylogenetics-and-parasitology)
-  - TLDR：针对生物学教学中理论应用不足的问题，本项目设计了一套主动学习方案，让学生扮演生物学家角色，利用 MEGA 软件对 GenBank 中的寄生虫分子序列进行生物信息学分析。通过构建系统发育树，学生能够识别未知分类群并解决模拟的现实寄生虫学难题。该方法不仅加深了学生对进化过程的理解，还锻炼了其利用跨学科工具应对全球健康和生物多样性挑战的实战能力。
-  - Tags：`query:pathoai`
-- [Quantitative Analysis of Multiple Serum Tumor Biomarkers by an Interpretable Stacked Ensemble Model.](#/202604/21/202604/21/42010926-quantitative-analysis-of-multiple-serum-tumor-biomarkers-by-an-interpretable-stacked-ensemble-model)
-  - TLDR：针对血清肿瘤标志物在表面增强拉曼光谱（SERS）检测中面临的光谱复杂和基质干扰问题，本研究提出了一种可解释堆叠集成模型（ISEM）。该模型结合了LASSO特征选择与集成学习算法，实现了对12种血清肿瘤标志物的高精度定量分析（R2 > 0.9），并通过SHAP解释性分析揭示了分子结构与光谱特征的关联，为癌症早期筛查提供了可靠且透明的数字化工具。
-  - Tags：`query:bioinfo`
-- [Proximity Binding Assay for PROTAC Ternary Complex Analysis.](#/202604/21/202604/21/42011828-proximity-binding-assay-for-protac-ternary-complex-analysis)
-  - TLDR：PROTAC等诱导的三元复合物形成是靶向蛋白质降解的关键，但其实时动力学分析极具挑战。该研究提出一种基于Y型DNA支架的邻近结合分析法，将E3连接酶和靶蛋白锚定在可旋转的DNA臂上，通过FRET和荧光淬灭技术在生物传感器上同步测量二元及三元相互作用。该方法在CRBN/VHL与BRD蛋白家族的测试中表现出高通量和低样本消耗特性，为优化降解剂的药理性能提供了关键的动力学见解。
-  - Tags：`query:bioinfo`
-- [Expanding role of cell-free DNA for the early diagnosis and monitoring of pulmonary diseases.](#/202604/20/202604/20/41603032-expanding-role-of-cell-free-dna-for-the-early-diagnosis-and-monitoring-of-pulmonary-diseases)
-  - TLDR：针对肺部疾病早期诊断和监测的临床需求，本文综述了循环游离DNA（cfDNA）作为液体活检核心技术的应用现状。通过分析cfDNA的甲基化、片段化及突变特征，该技术已在肺癌筛查、肺炎病原体识别及慢阻肺风险分层中展现潜力。结合AI与多组学分析，cfDNA正成为精准呼吸医学中实现个性化管理的关键工具。
-  - Tags：`query:pathoai`
-- [IL10 is a potent modulator of IL1-mediated inflammation in bovine endometrial explants.](#/202604/20/202604/20/41942315-il10-is-a-potent-modulator-of-il1-mediated-inflammation-in-bovine-endometrial-explants)
-  - TLDR：针对奶牛子宫炎症影响繁殖效率的问题，本研究利用离体子宫内膜外植体模型，对比了致病菌、机会致病菌及益生菌对炎症因子IL1B及其拮抗剂IL1RA表达的影响。研究发现，所有细菌初期均诱导促炎反应，而细胞因子IL10能显著下调IL1B表达并将炎症比例转向抗炎方向。这揭示了IL10在调节子宫炎症中的关键作用，并提示益生菌在子宫环境中的作用具有复杂性。
-  - Tags：`query:pathoai`
-- [Cotton Recruits Soil-Derived Delftia tsuruhatensis to Suppress Aphid Detoxification Via Salicylic Acid-Mediated Defense.](#/202604/20/202604/20/42003736-cotton-recruits-soil-derived-delftia-tsuruhatensis-to-suppress-aphid-detoxification-via-salicylic-acid-mediated-defense)
-  - TLDR：针对棉蚜危害，研究发现棉花受害时会主动招募土壤中的鹤鹤德夫特菌。该菌通过激活植物水杨酸信号通路，跨物种抑制蚜虫关键解毒基因 UGT2B17，显著降低其存活与繁殖力。这一发现揭示了植物利用微生物增强免疫并解除害虫防御的跨界调控机制，为农业生物防治提供了新策略。
-  - Tags：`query:pathoai`
-- [High-throughput screening reveals mechanisms of environmental control of germination in a fungal thermophile.](#/202604/20/202604/20/42007705-high-throughput-screening-reveals-mechanisms-of-environmental-control-of-germination-in-a-fungal-thermophile)
-  - TLDR：嗜热真菌 T. thermophilus 在高温下生长良好但在低温下受限，其温度适应机制尚不明确。本研究通过大规模转座子插入突变和测序表型分析，筛选出影响其生命周期的关键基因。研究发现，该真菌的孢子萌发并非仅取决于耐热性，而是一个整合了温度与锌离子等环境信号的复杂决策过程。这一发现揭示了嗜热真菌的环境适应逻辑，为工业菌株的高温生物加工改造提供了理论基础。
-  - Tags：`query:seqai`
-- [Multi-kingdom profiling reveals altered gut phage-bacteria-metabolite interactions in MASLD.](#/202604/19/202604/19/42000726-multi-kingdom-profiling-reveals-altered-gut-phage-bacteria-metabolite-interactions-in-masld)
-  - TLDR：代谢相关脂肪性肝病（MASLD）与肠道菌群失调密切相关，但以往研究多局限于细菌。本研究通过整合210名患者与210名对照组的宏基因组、真菌测序及代谢组数据，揭示了MASLD中跨界生态网络的重构。研究发现噬菌体对有害菌R. gnavus的控制减弱，导致其异常扩张并引发胆汁酸代谢紊乱。这一发现阐明了“噬菌体-细菌-代谢物”轴在疾病中的作用，为MASLD的无创诊断和精准治疗提供了多维度的生物标志物。
-  - Tags：`query:pathoai`
-- [Targeting protein-protein interactions in Plasmodium: from asexual replication to sexual development.](#/202604/19/202604/19/42001110-targeting-protein-protein-interactions-in-plasmodium-from-asexual-replication-to-sexual-development)
-  - TLDR：针对传统抗疟药因靶向酶催化位点易产生耐药性的问题，本文系统综述了疟原虫生命周期中关键的蛋白质-蛋白质相互作用（PPI）网络。通过整合冷冻电镜和遗传学研究，揭示了介导红细胞入侵、代谢稳态及蚊媒传播的多亚基复合物结构。这些PPI界面具有较低的突变潜力，为开发抗耐药的新一代抗疟药物、中和抗体及阻断传播疫苗提供了高选择性的新靶点。
-  - Tags：`query:pathoai`

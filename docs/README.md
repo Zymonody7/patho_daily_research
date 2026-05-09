@@ -11,76 +11,49 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-05-08
-- 运行时间：2026-05-08 19:59:17 UTC
+- 最新运行日期：2026-05-09
+- 运行时间：2026-05-09 19:47:02 UTC
 - 运行状态：成功
-- 本次总论文数：18
-- 精读区：7
-- 速读区：11
+- 本次总论文数：9
+- 精读区：1
+- 速读区：8
 
 ### 今日简报（AI）
-今日深度研读 18 篇前沿成果，聚焦 AI 分子预测基准与跨越 15 亿年进化的生成式细胞图谱。
-满分论文揭示了大模型时代分子属性预测的新范式，以及 TranscriptFormer 在解析生命演化规律中的核心价值。
-推荐优先阅读两篇 10 分佳作，快速同步 AI 与生物学交叉领域的最前沿技术框架。
-- 详情：[/202605/08/README](/202605/08/README)
+今日聚焦蛋白质语言模型与基因组重构，深度解析 9 篇前沿文献。
+重点关注 AI 如何精准预测 NK 细胞受体与 HLA 的复杂交互，以及古基因组重构与高杂合度海参基因组的新突破。
+建议深入了解 AI 在免疫识别中的应用，并关注次世代益生菌的临床发展潜力。
+- 详情：[/202605/09/README](/202605/09/README)
 
 ### 精读区论文标签
-1. [A Systematic Survey and Benchmark of Deep Learning for Molecular Property Prediction in the Foundation Model Era.](/202605/08/42096352-a-systematic-survey-and-benchmark-of-deep-learning-for-molecular-property-prediction-in-the-foundation-model-era)  
-   标签：评分：10.0/10、query:bioinfo
-   evidence：用于分子属性预测和药物发现的基础模型
-2. [TranscriptFormer: A generative cell atlas across 1.5 billion years of evolution.](/202605/08/42096520-transcriptformer-a-generative-cell-atlas-across-15-billion-years-of-evolution)  
-   标签：评分：10.0/10、query:seqai
-   evidence：跨物种转录组学的生成式基础模型
-3. [CAPTAIN: a multimodal foundation model pretrained on co-assayed single-cell RNA and protein.](/202605/08/42098152-captain-a-multimodal-foundation-model-pretrained-on-co-assayed-single-cell-rna-and-protein)  
-   标签：评分：10.0/10、query:seqai
-   evidence：单细胞RNA和蛋白质的多模态基础模型
-4. [Artificial intelligence algorithm for real-time detection and counting of Trypanosoma cruzi parasites using smartphone microscopy.](/202605/08/42096492-artificial-intelligence-algorithm-for-real-time-detection-and-counting-of-trypanosoma-cruzi-parasites-using-smartphone-microscopy)  
-   标签：评分：8.0/10、query:pathoai
-   evidence：用于显微镜图像中病原体实时检测的AI系统
-5. [A versatile multi-components mixed model for bacterial-Genome Wide association studies.](/202605/08/42098097-a-versatile-multi-components-mixed-model-for-bacterial-genome-wide-association-studies)  
-   标签：评分：8.0/10、query:pathoai
-   evidence：细菌全基因组关联分析中的群体结构建模
-6. [Mitochondrial Gene Signature Reveals Novel Diagnostic Biomarkers for Autism Spectrum Disorder.](/202605/08/42098401-mitochondrial-gene-signature-reveals-novel-diagnostic-biomarkers-for-autism-spectrum-disorder)  
-   标签：评分：8.0/10、query:bioinfo
-   evidence：用于多组学整合和转录组数据分析的机器学习
-7. [Cross-Species Plant Single-Cell Analysis: Community Challenges and Shared Solutions.](/202605/08/42099283-cross-species-plant-single-cell-analysis-community-challenges-and-shared-solutions)  
-   标签：评分：8.0/10、query:seqai
-   evidence：单细胞分析中的深度生成建模和基因调控网络
+1. [Protein language models accurately predict polymorphic peptide-modulated NK cell receptor-HLA class I interaction strengths.](/202605/09/42102196-protein-language-models-accurately-predict-polymorphic-peptide-modulated-nk-cell-receptor-hla-class-i-interaction-strengths)  
+   标签：评分：9.0/10、query:bioinfo
+   evidence：用于受体-HLA相互作用预测的蛋白质语言模型
 
 ### 速读区论文标签
-1. [Drug Discovery of Antiviral Inhibitors Targeting Dengue Virus NS4B Protein.](/202605/08/42014928-drug-discovery-of-antiviral-inhibitors-targeting-dengue-virus-ns4b-protein)  
+1. [Reconstructing ancient genomes from gene counts: A robust likelihood framework with sampling bias correction.](/202605/09/42101992-reconstructing-ancient-genomes-from-gene-counts-a-robust-likelihood-framework-with-sampling-bias-correction)  
    标签：评分：7.0/10、query:pathoai
-   evidence：针对登革病毒的抗病毒药物发现和病原体靶点识别
-2. [Host metabolism shapes the intestinal microbiota: a top-down paradigm of environmental selection pressure.](/202605/08/42096491-host-metabolism-shapes-the-intestinal-microbiota-a-top-down-paradigm-of-environmental-selection-pressure)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：宿主代谢塑造肠道微生物群和病原体生态
-3. [Ovotransferrin Alleviates Ulcerative Colitis by Modulating](/202605/08/42098593-ovotransferrin-alleviates-ulcerative-colitis-by-modulating)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：用于微生物组-宿主-病原体相互作用的全基因组测序
-4. [Unleashing the potential of mRNA-seq to uncover the microbiome structure and their crosstalk with host cells: the vulvar ecosystem.](/202605/08/42098796-unleashing-the-potential-of-mrna-seq-to-uncover-the-microbiome-structure-and-their-crosstalk-with-host-cells-the-vulvar-ecosystem)  
+   evidence：用于祖先基因组重建的系统发育增益-缺失-重复模型
+2. [Eupentacta fraudatrix: the first chromosome-level holothurian genome with extraordinarily high heterozygosity.](/202605/09/42103738-eupentacta-fraudatrix-the-first-chromosome-level-holothurian-genome-with-extraordinarily-high-heterozygosity)  
    标签：评分：7.0/10、query:seqai
-   evidence：用于微生物组结构重建的宏基因组分析和mRNA测序
-5. [Molecular-level host-microbe interactions: mechanisms, molecules, and modeling toward precision probiotics.](/202605/08/42101372-molecular-level-host-microbe-interactions-mechanisms-molecules-and-modeling-toward-precision-probiotics)  
+   evidence：使用纳米孔测序和Hi-C进行染色体级组装
+3. [Next-generation probiotics: an outlook into current applications and future developments.](/202605/09/42104000-next-generation-probiotics-an-outlook-into-current-applications-and-future-developments)  
    标签：评分：7.0/10、query:pathoai
-   evidence：为精准益生菌建模宿主-微生物分子相互作用
-6. [Comparative analysis of next-generation versus third-generation sequencing for pathogen detection in clinical samples: a diagnostic accuracy study.](/202605/08/42101522-comparative-analysis-of-next-generation-versus-third-generation-sequencing-for-pathogen-detection-in-clinical-samples-a-diagnostic-accuracy-study)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：使用 NGS 和 TGS 进行临床样本病原体检测
-7. [Geographic genetic divergence and ecological viral communities shape the virome of Chilo suppressalis.](/202605/08/42098874-geographic-genetic-divergence-and-ecological-viral-communities-shape-the-virome-of-chilo-suppressalis)  
-   标签：评分：6.0/10、query:seqai
-   evidence：用于病毒群落分析的元转录组测序
-8. [Proanthocyanidins inhibit methane emissions by interacting with methyl-coenzyme M reductase and reshaping rumen microbiome function.](/202605/08/42098876-proanthocyanidins-inhibit-methane-emissions-by-interacting-with-methyl-coenzyme-m-reductase-and-reshaping-rumen-microbiome-function)  
-   标签：评分：6.0/10、query:bioinfo
-   evidence：用于靶点识别的计算筛选和分子对接
-9. [Artificial intelligence in the assessment of epilepsy-related genetic mutations: Learned from GABA](/202605/08/42101103-artificial-intelligence-in-the-assessment-of-epilepsy-related-genetic-mutations-learned-from-gaba)  
-   标签：评分：6.0/10、query:bioinfo
-   evidence：人工智能在基因突变评估和蛋白质结构缺陷中的应用
-10. [Pharmacomicrobiomics in Precision Pharmacotherapy: Bidirectional Microbial-Drug Interactions as a Key Determinant of Therapeutic Response.](/202605/08/42101126-pharmacomicrobiomics-in-precision-pharmacotherapy-bidirectional-microbial-drug-interactions-as-a-key-determinant-of-therapeutic-response)  
+   evidence：下一代益生菌的识别策略
+4. [Integrated multi-omics decipher the complex nodule microbiota and distinct Frankiaceae symbiotic traits in wild actinorhizal plants.](/202605/09/42104558-integrated-multi-omics-decipher-the-complex-nodule-microbiota-and-distinct-frankiaceae-symbiotic-traits-in-wild-actinorhizal-plants)  
+   标签：评分：7.0/10、query:seqai
+   evidence：根瘤微生物群和弗兰克氏菌的宏基因组和转录组分析
+5. [Elucidating the regulatory role of the Shine-Dalgarno sequence in structural gene expression of the malolactic enzyme operon using a GFP/mCherry model.](/202605/09/42101569-elucidating-the-regulatory-role-of-the-shine-dalgarno-sequence-in-structural-gene-expression-of-the-malolactic-enzyme-operon-using-a-gfpmcherry-model)  
    标签：评分：6.0/10、query:pathoai
-   evidence：微生物-药物相互作用与药物微生物组学用于精准医学
-11. [Bringing environment back into human evolution: why human genetics needs genome-environment association studies.](/202605/08/42101664-bringing-environment-back-into-human-evolution-why-human-genetics-needs-genome-environment-association-studies)  
-   标签：评分：6.0/10、query:bioinfo
-   evidence：基因组-环境关联研究的机器学习
+   evidence：酒类酒球菌mRNA二级结构和翻译效率的计算预测
+6. [Cell-free DNA size deconvolution resolves nucleosomal origins and reveals tumor-associated fragmentomic alterations.](/202605/09/42103785-cell-free-dna-size-deconvolution-resolves-nucleosomal-origins-and-reveals-tumor-associated-fragmentomic-alterations)  
+   标签：评分：6.0/10、query:seqai
+   evidence：用于诊断的游离DNA片段长度分布通用模型
+7. [Global mapping of bedaquiline-resistant Mycobacterium tuberculosis: a systematic review.](/202605/09/42104268-global-mapping-of-bedaquiline-resistant-mycobacterium-tuberculosis-a-systematic-review)  
+   标签：评分：6.0/10、query:pathoai
+   evidence：绘制与贝达喹啉耐药结核分枝杆菌相关的基因突变图谱
+8. [Ecological drift and host filtering jointly structure foliar endophytes during ecosystem development.](/202605/09/42104434-ecological-drift-and-host-filtering-jointly-structure-foliar-endophytes-during-ecosystem-development)  
+   标签：评分：6.0/10、query:pathoai
+   evidence：叶内生菌的扩增子测序与病原体抗性
 
 
 <div class="dpr-home-promo-card">

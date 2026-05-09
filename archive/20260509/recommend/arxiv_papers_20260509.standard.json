@@ -1,0 +1,423 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-05-09T19:45:32.705426+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 1,
+    "deep_cap": 9,
+    "deep_selected": 1,
+    "quick_candidates": 8,
+    "quick_skim_target": 14,
+    "quick_selected": 8
+  },
+  "deep_dive": [
+    {
+      "id": "42102196",
+      "title": "Protein language models accurately predict polymorphic peptide-modulated NK cell receptor-HLA class I interaction strengths.",
+      "abstract": "Killer-cell immunoglobulin-like receptors (KIRs) are key determinants of natural killer cell function and are associated with the outcomes of infective, inflammatory, and neoplastic diseases. They form a polymorphic family of activating and inhibitory receptors that interact with polymorphic class I human leukocyte antigen (HLA-I) molecules. This interaction is dependent on the short peptides bound by the HLA-I molecules, including those derived from viruses and cancers. Identifying these peptides among the vast space of possible peptides based on the sequences of the interacting molecules can provide a valuable tool for developing personalized immunotherapy against infection and cancer. To address this challenge, we leveraged foundation protein language models and trained our model on available datasets for KIR-binding peptide-HLA complexes. Our tool generated excellent predictions with an area under receiver operator characteristic (AUROC) >0.8 for the majority of inhibitory KIRs and performed well (AUROC >0.7) for peptides generated during HIV and HCV infections. Our model holds substantial potential for advancing our understanding of immune regulation and the biophysical factors responsible for it, paving the way for KIR-specific therapeutic interventions.",
+      "authors": [
+        "Abdallah AlShafey",
+        "Madeline Nelson",
+        "Mubasher Hassan",
+        "Andrzej Kloczkowski",
+        "William Ray",
+        "Salim I Khakoo",
+        "Jayajit Das"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42102196/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Protein language models for receptor-HLA interaction prediction",
+      "llm_evidence_cn": "用于受体-HLA相互作用预测的蛋白质语言模型",
+      "llm_evidence": "用于受体-HLA相互作用预测的蛋白质语言模型",
+      "canonical_evidence": "用于受体-HLA相互作用预测的蛋白质语言模型",
+      "llm_tldr_en": "Uses protein language models to predict interaction strengths between NK cell receptors and HLA molecules.",
+      "llm_tldr_cn": "利用蛋白质语言模型准确预测NK细胞受体与HLA分子之间的相互作用强度。",
+      "llm_tldr": "利用蛋白质语言模型准确预测NK细胞受体与HLA分子之间的相互作用强度。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "protein language models for structure function prediction and design",
+      "matched_requirement_id": "req-16",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "42101992",
+      "title": "Reconstructing ancient genomes from gene counts: A robust likelihood framework with sampling bias correction.",
+      "abstract": "Deducing the makeup of ancient genomes is a fundamental challenge in evolutionary biology. While vast genomic datasets exist that span the entire tree of life, current methods for ancestral reconstructions struggle to resolve the inherent ambiguities of gene-sequence evolution at scale. Here, we present a numerically robust computational framework that overcomes the topological uncertainty of gene trees. Instead of tracking every single event, our phylogenetic gain-loss-duplication (GLD) model is based on birth-death processes over gene copies along the species tree. We show that the likelihood and its gradient can be computed efficiently under an adjustable observation bias of minimum gene family size. The framework facilitates unconstrained numerical likelihood maximization and ancestral inference by posterior probabilities. We apply this framework to kingdom-level reconstructions over a 269-genome archaeal dataset and demonstrate that GLD recovers ancestral states with high accuracy. We compare GLD inference with phylogenetic reconciliation from gene sequences (ALE method) and show that implausibly frequent horizontal gene transfer inferred by ALE are often statistical artifacts of collapsing phylogenetic signals in large alignments. In contrast, GLD inferences reveal how two layers of opposing evolutionary mechanics shape microbial genomes: a high-frequency tension between genome streamlining and the pervasive influx of transient genes, complemented by an adaptive counterbalance of recurrent, modular losses, and punctuated massive gains. The GLD framework provides a statistically sound foundation for hypothesizing about gene content evolution across the diversity of entire kingdoms.",
+      "authors": [
+        "Miklós Csűrös"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42101992/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "phylogenetic gain-loss-duplication model for ancestral genome reconstruction",
+      "llm_evidence_cn": "用于祖先基因组重建的系统发育增益-缺失-重复模型",
+      "llm_evidence": "用于祖先基因组重建的系统发育增益-缺失-重复模型",
+      "canonical_evidence": "用于祖先基因组重建的系统发育增益-缺失-重复模型",
+      "llm_tldr_en": "A robust likelihood framework for reconstructing ancient genomes using birth-death processes along species trees.",
+      "llm_tldr_cn": "一种利用物种树上的出生-死亡过程重建古代基因组的稳健似然框架。",
+      "llm_tldr": "一种利用物种树上的出生-死亡过程重建古代基因组的稳健似然框架。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for phylogenetic and transmission inference",
+      "matched_requirement_id": "req-6",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42101569",
+      "title": "Elucidating the regulatory role of the Shine-Dalgarno sequence in structural gene expression of the malolactic enzyme operon using a GFP/mCherry model.",
+      "abstract": "Malolactic fermentation (MLF) in wine relies on Oenococcus oeni, in which the mleA and mleP genes are translationally coupled. To explore the post-transcriptional regulation involved, we constructed parallel GFP/mCherry reporter systems that mimic both the native overlapping (translationally coupled) structure and an engineered non-overlapping (non-coupled) structure. Through site-directed SD2 mutagenesis coupled with computational prediction of 16 S rRNA hybridization energy (ΔG) and minimum free energy (MFE) of mRNA secondary structure, we quantified the effect of intergenic sequence features on translation efficiency. In the translational coupling system of Escherichia coli, expression ratios (GFP/MCH) varied from 3.58 to 8.58 across variants, while in the non-coupled system, they ranged from 1.54 to 3.09. In non-coupled constructs, downstream gene expression increased under independent SD2 control, consistent with its conserved function. However, in the coupling system, the strongest SD2 (GGAGG) markedly suppressed it, revealing a nonlinear, architecture-specific regulatory logic. The different variants were also expressed in the translational coupling system of Lactococcus lactis, and the expression ratio patterns of the upstream and downstream genes across the variants were consistent with those observed in E. coli. This indicated that SD2 had the same regulatory effect on coupling gene expression ratios in both L. lactis and E. coli. Our findings demonstrate that translational coupling establishes precise protein expression regulation through the integrated effects of upstream translation and local mRNA structure. This work elucidates a key post-transcriptional tuning layer in prokaryotic operons, providing a predictive framework for both the rational engineering of O. oeni to optimize MLF and the design of proportionally controlled multi-gene systems in synthetic biology.",
+      "authors": [
+        "Zixian Liu",
+        "Mingyue Ji",
+        "Fangkun Zhao",
+        "Dandan Wang",
+        "Yue Li",
+        "Yongfeng Yi",
+        "Min Wang",
+        "Jianxin Tan"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42101569/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Computational prediction of mRNA secondary structure and translation efficiency in Oenococcus oeni",
+      "llm_evidence_cn": "酒类酒球菌mRNA二级结构和翻译效率的计算预测",
+      "llm_evidence": "酒类酒球菌mRNA二级结构和翻译效率的计算预测",
+      "canonical_evidence": "酒类酒球菌mRNA二级结构和翻译效率的计算预测",
+      "llm_tldr_en": "Investigates post-transcriptional regulation in a wine pathogen using computational modeling of RNA sequences.",
+      "llm_tldr_cn": "通过对RNA序列的计算建模，研究葡萄酒相关病原菌的转录后调节机制。",
+      "llm_tldr": "通过对RNA序列的计算建模，研究葡萄酒相关病原菌的转录后调节机制。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "foundation models for pathogen genomes and pathogen biology",
+      "matched_requirement_id": "req-1",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42103738",
+      "title": "Eupentacta fraudatrix: the first chromosome-level holothurian genome with extraordinarily high heterozygosity.",
+      "abstract": "Eupentacta fraudatrix is the only species of sea cucumbers for which transdifferentiation has been described. This type of cell type switching occurs during gut regeneration after evisceration, which makes this species a scientifically valuable model for studying regeneration mechanisms. Moreover, chromosome-level genomes for the family Sclerodactylidae have not been available until now. In this study, we employed the MGI short-read, Oxford Nanopore, and Hi-C technologies to assemble and annotate two chromosome-level, high-quality haplotypes of E. fraudatrix. The estimated heterozygosity was 5.1%, which is much higher than the known values for sea cucumber genomes. Both haplotypes are nearly equivalent, containing 23 chromosomes with a total length of approximately 1.6 gigabase pairs, and 99% of assembled bases anchored to chromosome-level scaffolds. The annotation predicted 26,352 protein-coding genes for one haplotype and 25,238 genes for the other, with BUSCO assessment revealing 98.1 and 97.9% complete metazoa_odb12 core genes. The chromosome-level assembly and annotation of E. fraudatrix genome will provide a genomic basis for further phylogenetic, comparative, and molecular biological studies of echinoderm regeneration.",
+      "authors": [
+        "Alexey V Boyko",
+        "Igor Yu Dolmatov"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42103738/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Oxford Nanopore and Hi-C for chromosome-level assembly",
+      "llm_evidence_cn": "使用纳米孔测序和Hi-C进行染色体级组装",
+      "llm_evidence": "使用纳米孔测序和Hi-C进行染色体级组装",
+      "canonical_evidence": "使用纳米孔测序和Hi-C进行染色体级组装",
+      "llm_tldr_en": "Assembled the first chromosome-level genome of E. fraudatrix using Nanopore and Hi-C technologies.",
+      "llm_tldr_cn": "利用纳米孔和Hi-C技术完成了海参E. fraudatrix的首个染色体级基因组组装。",
+      "llm_tldr": "利用纳米孔和Hi-C技术完成了海参E. fraudatrix的首个染色体级基因组组装。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "deep learning for genomic basecalling variant calling and microbial genome assembly",
+      "matched_requirement_id": "req-50",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42103785",
+      "title": "Cell-free DNA size deconvolution resolves nucleosomal origins and reveals tumor-associated fragmentomic alterations.",
+      "abstract": "Analysis of cell-free DNA (cfDNA) fragmentomic features holds great promise for minimally invasive cancer diagnostics. Although selectively analyzing short plasma cfDNA enriches tumor-derived DNA (ctDNA), the mechanisms shaping cfDNA size profiles remain incompletely understood. Here, we develop a generalized model of cfDNA fragment length distributions across multiple bodily fluids (saliva, urine, cerebrospinal fluid, lymphatic fluid, and plasma), deconvoluting size profiles into ~10-bp periodic peaks (components), each approximated by a Cauchy-Lorentz distribution. This analytical framework enables investigation of cfDNA fragmentation across diverse pathological states and reveals a 159-bp component that may demarcate intra- and inter-nucleosomal cfDNA. By analyzing plasma DNA from individuals harboring germline TP53 mutations, patients receiving radiotherapy, and liver transplantation recipients, we demonstrate that ctDNA shortening can be distinguished from phagocytosis-associated cfDNA shortening through differences in the amplitude and scale parameters of intra- and inter-nucleosomal components. Moreover, leveraging tumor-related fragmentomic alterations, characterized by increased fragmentation entropy identified through cfDNA size deconvolution, significantly enhances cancer detection.",
+      "authors": [
+        "Ze Zhou",
+        "Wendy N Cooper",
+        "Zhao Cheng",
+        "Sara Lightowlers",
+        "Charlotte E Coles",
+        "Amit Roshan",
+        "Nitzan Rosenfeld",
+        "Hui Zhao"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42103785/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "generalized model of cfDNA fragment length distributions for diagnostics",
+      "llm_evidence_cn": "用于诊断的游离DNA片段长度分布通用模型",
+      "llm_evidence": "用于诊断的游离DNA片段长度分布通用模型",
+      "canonical_evidence": "用于诊断的游离DNA片段长度分布通用模型",
+      "llm_tldr_en": "A mathematical framework to deconvolve cfDNA size profiles for cancer diagnostics and pathological analysis.",
+      "llm_tldr_cn": "一种用于癌症诊断和病理分析的cfDNA片段大小分布反卷积数学框架。",
+      "llm_tldr": "一种用于癌症诊断和病理分析的cfDNA片段大小分布反卷积数学框架。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "foundation models for genomic sequencing signal read and variant analysis",
+      "matched_requirement_id": "req-38",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42104000",
+      "title": "Next-generation probiotics: an outlook into current applications and future developments.",
+      "abstract": "The probiotics field, a historically popular yet scientifically debated discipline, is moving beyond a decades-long promotion of 'first-generation' food-derived strains towards the development of 'next-generation probiotics' (NGP) or 'precision probiotics', natural and engineered strains featuring improved human colonization, clinical efficacy and safety profiles. In this Review, we outline the evolution of NGP and means by which their development is designed to tackle challenges of live bacterial therapy related to colonization resistance, in-host evolution, long-term safety and insufficient understanding of therapeutic and off-target mechanisms of activity. We showcase how a variety of emerging strategies enable the identification of NGP strains and define consortia featuring therapeutic potentials in metabolic, immune and oncological diseases. Finally, we discuss how computational and artificial intelligence (AI) advances can reshape NGP development, including AI-based discovery of strains and bioactive compounds; computational-driven design of engineered microorganisms and multi-kingdom consortia; and AI-assisted structural and metabolic network-based modelling predicting personalized NGP function, interactions and therapeutic impacts.",
+      "authors": [
+        "Lara Kern",
+        "Adin Tofield",
+        "John Frame",
+        "Eran Elinav"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42104000/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "strategies for identification of next-generation probiotics",
+      "llm_evidence_cn": "下一代益生菌的识别策略",
+      "llm_evidence": "下一代益生菌的识别策略",
+      "canonical_evidence": "下一代益生菌的识别策略",
+      "llm_tldr_en": "Outlines strategies for developing precision probiotics and understanding therapeutic mechanisms.",
+      "llm_tldr_cn": "概述了开发精准益生菌及理解其治疗机制和宿主相互作用的策略。",
+      "llm_tldr": "概述了开发精准益生菌及理解其治疗机制和宿主相互作用的策略。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42104268",
+      "title": "Global mapping of bedaquiline-resistant Mycobacterium tuberculosis: a systematic review.",
+      "abstract": "BACKGROUND: Tuberculosis (TB) is one of the deadliest bacterial infectious diseases worldwide, with rising cases of multidrug-resistant (MDR) and extensively drug-resistant (XDR) strains. Bedaquiline (BDQ)-containing regimens have become important for the treatment of MDR/XDR-TB, and resistance to BDQ is increasing. Understanding genetic mutations is crucial for early detection of BDQ-resistant strains and thus maintaining the effectiveness of these drugs. This study aimed to review mutations associated with BDQ-resistant TB globally. METHODS: This study systematically searched the keywords TB, XDR, MDR, BDQ, and genes in the PubMed, Scopus, Web of Science, and Embase databases for studies reporting BDQ-resistant TB and their associated genes globally from 2014 to 2025. RESULTS: This systematic review included 40 studies and 25,234 patient samples with MDR and XDR-TB from around the world. Results showed significant variation in BDQ resistance across the World Health Organization (WHO) regions, with the highest in the Eastern Mediterranean and the lowest in the Western Pacific. Furthermore, the data collected showed that, among the continents studied, resistance was highest in Africa and lowest in the Americas. The country distribution showed that resistance rates were higher in Iran (n = 24), Moldova (n = 26), and Armenia (n = 35), and lower in Italy (n = 1001) and the Philippines (n = 724) than in other countries in the analysis. Genetically, the most resistance-associated mutations were observed in the Rv0678, atpE, and pepQ genes, respectively. CONCLUSION: Given the increasing BDQ resistance and regional variability, it is essential to develop early detection systems, genomic surveillance, robust drug policy enforcement, and rapid diagnostics to maintain treatment effectiveness and curb the spread of resistance. Future research should focus on elucidating resistance mechanisms and developing novel therapeutic strategies.",
+      "authors": [
+        "Hanie Sakhi",
+        "Maryam Meskini",
+        "Mojgan Sheikhpour"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42104268/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "mapping genetic mutations associated with bedaquiline-resistant Mycobacterium tuberculosis",
+      "llm_evidence_cn": "绘制与贝达喹啉耐药结核分枝杆菌相关的基因突变图谱",
+      "llm_evidence": "绘制与贝达喹啉耐药结核分枝杆菌相关的基因突变图谱",
+      "canonical_evidence": "绘制与贝达喹啉耐药结核分枝杆菌相关的基因突变图谱",
+      "llm_tldr_en": "Systematically reviews genetic mutations linked to bedaquiline resistance in tuberculosis for early detection.",
+      "llm_tldr_cn": "系统回顾了结核病中与贝达喹啉耐药相关的基因突变，以实现早期检测。",
+      "llm_tldr": "系统回顾了结核病中与贝达喹啉耐药相关的基因突变，以实现早期检测。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for antimicrobial resistance prediction from genomes",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42104558",
+      "title": "Integrated multi-omics decipher the complex nodule microbiota and distinct Frankiaceae symbiotic traits in wild actinorhizal plants.",
+      "abstract": "Actinorhizal plants are ecologically important pioneer species in temperate regions, capable of nitrogen-fixing root nodule symbiosis with Frankiaceae bacteria. Despite their significance within the nitrogen-fixing clades (NFC), multi-omics studies of actinorhizal symbiosis remain scarce. We profiled prokaryotic communities in the rhizosphere, root, and/or nodule compartments from five phylogenetically representative actinorhizal species, three legumes, and four nonnodulated NFC species using 16S rDNA sequencing. Transcriptomic and metagenomic analyses were performed on actinorhizal roots and nodules, respectively. Metagenome-assembled genomes revealed four novel Frankiaceae species. Frankiae relative abundance levels in nodules were generally lower than rhizobia in legumes. Actinorhizal nodules harbour diverse bacterial taxa, which exhibit predominantly positive interactions, with Frankiae forming a tightly interacting subgroup. Actinorhizal plants engage actively with soil microbiota, recruiting a specific rhizosphere community enriched with beneficial microbes, including ammonia-oxidising archaea. Many symbiotic mechanisms in nodulating host plants are conserved and derived from pre-existing molecular modules. Our analysis suggests the phosphoinositide signalling likely functions in actinorhizal symbiotic signal transduction. However, Frankiae exhibit fundamentally different symbiotic functional characteristics compared to rhizobia, reflecting less intimate symbiosis, which might favour the life-history strategies of temperate perennial actinorhizal plants.",
+      "authors": [
+        "Xinyue Luo",
+        "Zhengfu Lei",
+        "Dongming Fang",
+        "Hongyun Chen",
+        "Lishen Qian",
+        "Canzhi Jin",
+        "Xiaolin Wang",
+        "Xin Liu",
+        "Huan Liu",
+        "Yayu Wang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42104558/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "metagenomic and transcriptomic analysis of nodule microbiota and Frankiaceae",
+      "llm_evidence_cn": "根瘤微生物群和弗兰克氏菌的宏基因组和转录组分析",
+      "llm_evidence": "根瘤微生物群和弗兰克氏菌的宏基因组和转录组分析",
+      "canonical_evidence": "根瘤微生物群和弗兰克氏菌的宏基因组和转录组分析",
+      "llm_tldr_en": "Uses multi-omics to characterize the microbiota and symbiotic traits of nitrogen-fixing Frankiaceae.",
+      "llm_tldr_cn": "利用多组学技术表征固氮弗兰克氏菌的微生物群和共生特征。",
+      "llm_tldr": "利用多组学技术表征固氮弗兰克氏菌的微生物群和共生特征。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42104434",
+      "title": "Ecological drift and host filtering jointly structure foliar endophytes during ecosystem development.",
+      "abstract": "BACKGROUND: Foliar endophytes contribute to plant nutrient acquisition, stress tolerance, and pathogen resistance, yet their responses to ecosystem-level processes remain poorly understood. Using a space-for-time substitution design, we investigated bacterial and fungal community dynamics in the foliar endosphere of four phylogenetically distinct plant hosts across a well-characterized successional chronosequence. RESULTS: Amplicon sequencing revealed that the ecosystem development stage (site age) significantly influenced endophyte community composition, particularly among fungi, but explained only a small proportion of the total variation. Host plant identity and associated leaf stoichiometry were stronger predictors of community structure, with sampling time within the growing season also contributing significantly. Together, these deterministic factors explained 10% and 11% of bacterial and fungal compositional variation, respectively, and 27% of predicted bacterial functional potential. Null model analyses indicated that remaining variation was mostly consistent with stochastic assembly processes, particularly ecological drift. Endophytic communities were characterized by a few persistent dominant taxa and many rare, transient members with overlapping functional potential, including N2 fixation, methylotrophy, and denitrification. CONCLUSIONS: Our findings demonstrate that host identity outweighs ecosystem age in structuring foliar endophyte communities and that stochastic processes play a central role in community assembly. The coexistence of stable dominant taxa and a dynamic rare biosphere may enhance plant responsiveness to environmental changes, while the functional potential of endophytes may remain largely consistent across seasons and successional stages.",
+      "authors": [
+        "Caio César Pires de Paula",
+        "Petr Macek",
+        "Milan Varsadiya",
+        "Jakub Borovec",
+        "Mehmet A Balkan",
+        "Brett S Younginger",
+        "Daniel J Ballhorn",
+        "Tomáš Picek",
+        "Tomáš Hájek",
+        "Jan Frouz",
+        "Jiří Bárta",
+        "Dagmara Sirová"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-08",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42104434/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "amplicon sequencing of foliar endophytes and pathogen resistance",
+      "llm_evidence_cn": "叶内生菌的扩增子测序与病原体抗性",
+      "llm_evidence": "叶内生菌的扩增子测序与病原体抗性",
+      "canonical_evidence": "叶内生菌的扩增子测序与病原体抗性",
+      "llm_tldr_en": "Investigates how ecological drift and host filtering structure plant endophyte communities.",
+      "llm_tldr_cn": "研究生态漂变和宿主过滤如何共同构建植物内生菌群落。",
+      "llm_tldr": "研究生态漂变和宿主过滤如何共同构建植物内生菌群落。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}
