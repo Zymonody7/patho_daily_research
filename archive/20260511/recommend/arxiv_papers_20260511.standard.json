@@ -1,0 +1,450 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-05-11T20:22:58.417884+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 3,
+    "deep_cap": 9,
+    "deep_selected": 3,
+    "quick_candidates": 6,
+    "quick_skim_target": 14,
+    "quick_selected": 6
+  },
+  "deep_dive": [
+    {
+      "id": "42107049",
+      "title": "STAID: A Self-Refining Deep Learning Framework for Spatial Cell-Type Deconvolution with Biologically Informed Modeling.",
+      "abstract": "Spatial transcriptomics provides high-throughput measurement of gene expression while retaining spatial context; however, inferring accurate cell-type compositions within individual spots remains a major challenge. Here, we present STAID, a unified framework that effectively integrates pseudo-spot generation with deep learning training through iterative pseudo-spot refinement and leverages graph signal processing to capture higher-order gene-wise relationships. By creating a self-reinforcing cycle, STAID enables accurate spot-level deconvolution of cell-type compositions for spatial transcriptomics data. Comprehensive benchmarking demonstrates that STAID outperforms existing methods, accurately reconstructs cell-type spatial distributions, and effectively resolves the cellular colocalization. In clinical breast cancer sections, STAID precisely infers tumor epithelial distributions and reveals their spatial associations with immune cells. In human embryonic limb datasets, STAID captures the ordered spatial distributions of key progenitor populations, reflecting hierarchical tissue organization and demonstrating that incorporating cell-type composition information can enhance tissue segmentation. STAID also resolves the spatial cellular organization in Crohn's disease and reveals the characteristics of TLS-like immune niches. Collectively, by delivering high-resolution cell-type distributions, STAID provides deeper insights into tissue organization and cellular heterogeneity.",
+      "authors": [
+        "Jixin Liu",
+        "Shuli Sun",
+        "Zhengliang Lv",
+        "Xinyu Liu",
+        "Yihua Wang",
+        "Bingqiang Liu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-10",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42107049/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "deep learning for spatial cell-type deconvolution",
+      "llm_evidence_cn": "用于空间细胞类型反卷积的深度学习",
+      "llm_evidence": "用于空间细胞类型反卷积的深度学习",
+      "canonical_evidence": "用于空间细胞类型反卷积的深度学习",
+      "llm_tldr_en": "STAID is a self-refining deep learning framework for accurate cell-type deconvolution in spatial transcriptomics.",
+      "llm_tldr_cn": "STAID是一个自精炼深度学习框架，用于空间转录组学中准确的细胞类型反卷积。",
+      "llm_tldr": "STAID是一个自精炼深度学习框架，用于空间转录组学中准确的细胞类型反卷积。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "deep learning and foundation models for spatial transcriptomics proteomics and tissue mapping",
+      "matched_requirement_id": "req-46",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42113384",
+      "title": "Understanding antimicrobial resistance dynamics of non-typhoidal Salmonella in chickens and ducks - a prospective study from West Bengal, India.",
+      "abstract": "This study investigated the antimicrobial resistance (AMR) profile of Salmonella enterica (n = 446) of poultry origin (n = 1020) collected from West Bengal, India. Salmonella Typhimurium (n = 328) were the most frequently isolated serovar and found resistant to tetracycline (72%), ampicillin (57%), and nalidixic acid (53%). Logistic regression revealed significantly higher odds of resistance in isolates from meat, liver, and cecum compared to cloacal swabs. Resistance was also more likely in isolates from broilers and from retail sources compared to other hosts and farms. To predict extended-spectrum beta-lactamase (ESBL) producers, three machine learning algorithms-XGBoost, Random Forest, and LightGBM-were applied. XGBoost demonstrated the highest sensitivity and overall discriminatory power for ESBL prediction, while Random Forest offered balanced performance. Sampling site and sample source emerged as key predictors, with isolates from cecal and meat samples in retail markets having strong association with ESBL production. Genotypic analysis identified blaCTX-M-1 (n = 122) as the predominant ESBL gene, along with tetA (92%) and quinolone resistance determinants. These findings underscore public health threats posed by AMR in poultry-associated Salmonella, particularly the risk of transmission of resistant strains. The observed resistance to critically important antimicrobials reinforces concerns regarding the diminishing efficacy of frontline therapeutic agents. This study also highlights the utility of integrating machine learning with conventional analytics to enhance AMR surveillance and guide targeted interventions in poultry production systems.",
+      "authors": [
+        "Santanu Nath",
+        "Md Habib",
+        "Jaydeep Banerjee",
+        "Subhasis Batabyal",
+        "Prasad Thomas",
+        "Premanshu Dandapat",
+        "Pramod K Nanda",
+        "Arun K Das",
+        "Indranil Samanta",
+        "Arnab Sen",
+        "Samiran Bandyopadhyay"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42113384/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "machine learning for antimicrobial resistance prediction from genomes",
+      "llm_evidence_cn": "机器学习用于基因组抗生素耐药性预测",
+      "llm_evidence": "机器学习用于基因组抗生素耐药性预测",
+      "canonical_evidence": "机器学习用于基因组抗生素耐药性预测",
+      "llm_tldr_en": "Employs machine learning algorithms to predict antimicrobial resistance in Salmonella isolates from poultry.",
+      "llm_tldr_cn": "采用机器学习算法预测家禽沙门氏菌分离株的抗生素耐药性。",
+      "llm_tldr": "采用机器学习算法预测家禽沙门氏菌分离株的抗生素耐药性。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for antimicrobial resistance prediction from genomes",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42109222",
+      "title": "Pathogen-Centric Activation of an Azoreductase-Responsive Antibody-Antibiotic Conjugate for the Targeted Eradication of MRSA.",
+      "abstract": "Antibody-antibiotic conjugates (AACs) provide a transformative platform for eradicating intracellular methicillin-resistant Staphylococcus aureus (MRSA). However, current AACs largely follow antibody-drug conjugates (ADCs) design principles and rely on host-lysosomal proteases for activation, rendering them ineffective against extracellular (planktonic) bacteria. Furthermore, we demonstrate that high bacterial burden induces host-lysosomal dysfunction, fundamentally compromising the efficacy of host-dependent AACs against intracellular reservoirs. To address these limitations, we developed a pathogen-centric AAC (AZO-AAC) featuring an azobenzene-based linker that is triggered by bacterial-secreted azoreductase. This strategy shifts the activation mechanism from host-cell machinery to the pathogen itself, enabling antibiotic release independent of host-cell integrity. Surprisingly, our designed AZO-AAC achieves nanomolar-scale eradication of both planktonic and intracellular MRSA, reaching levels below the limit of detection in scenarios where traditional AACs fail. In murine models of peritonitis and septicemia, a single dose (60 mg/kg) of AZO-AAC resulted in a six-log reduction in bacterial burden and the preservation of normal tissue architecture. By decoupling activation from host-cell status, this pathogen-responsive platform provides a robust strategy for the targeted elimination of complex, multi-niche MRSA infections.",
+      "authors": [
+        "Qi Cheng",
+        "Lianqi Liu",
+        "Chenghua Liu",
+        "Fei Xie",
+        "Jingwen Dong",
+        "Xiaoyu Qin",
+        "Shunxiang Huang",
+        "Xian Li",
+        "Xingyuan Kou",
+        "Hongbin Deng",
+        "Jiannan Feng",
+        "Wu Zhong",
+        "Dian Xiao",
+        "Xinbo Zhou"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42109222/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "pathogen-centric therapeutic design for targeted eradication of MRSA",
+      "llm_evidence_cn": "针对MRSA靶向清除的病原体中心治疗设计",
+      "llm_evidence": "针对MRSA靶向清除的病原体中心治疗设计",
+      "canonical_evidence": "针对MRSA靶向清除的病原体中心治疗设计",
+      "llm_tldr_en": "Develops a pathogen-activated antibody-antibiotic conjugate for targeted eradication of MRSA.",
+      "llm_tldr_cn": "开发了一种由病原体激活的抗体-抗生素偶联物，用于靶向清除金黄色葡萄球菌。",
+      "llm_tldr": "开发了一种由病原体激活的抗体-抗生素偶联物，用于靶向清除金黄色葡萄球菌。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "42112809",
+      "title": "Stool microbial composition is associated with recent and future diarrhea and fever events in breastfed Danish infants.",
+      "abstract": "UNLABELLED: Gastroenteritis is an important cause of ailment among infants in high-income countries, including Denmark. There are many cases of diarrhea among Danish children for which no etiological agent is detected. This study investigated the associations between gastroenteritis-related morbidities (diarrhea, fever, and vomiting) and gut microbial community in well-nourished, breastfeeding Danish infants. Infant stool samples, morbidity questionnaires, and diet/breastfeeding questionnaires were collected at three time points during the first 8.5 months of life. The V4-V5 region of the 16S rRNA gene was amplified from stool DNA extracts, sequenced with Illumina MiSeq, and analyzed using QIIME2. PERMANOVA, linear mixed-effects modeling, and ANCOM-BC2 were used to identify associations between infant gut microbiome and gastroenteritis-related morbidities across all visits. Logistic regression and random forest models were employed to determine whether early gut microbial alpha diversity or abundance, respectively, could predict morbidity later in infancy. Alpha diversity was negatively associated with diarrhea. Granulicatella abundance was positively associated with diarrhea. From 3.5 to 6 months of age, Bacteroidales abundance was negatively associated with fever. Faith's phylogenetic diversity, Staphylococcales abundance, and Haemophilus abundance during 3.5 months of life were positively associated with future diarrhea during ages 3.5-8.5 months. Pielou's evenness and Actinobacteriota abundance within 3.5 months of life had negative and positive associations, respectively, with fever during ages 3.5-8.5 months. This study reveals diarrhea is associated with stool Granulicatella in well-nourished, breastfeeding Danish infants, as it is in children from low-income countries, and that the early gut microbiome may contribute to risks of diarrhea and fever morbidities later in infancy.CLINICAL TRIALSThis trial was registered at ClinicalTrials.gov as NCT03254329. IMPORTANCE: Gastroenteritis continues to cause much morbidity among infants in high-income countries, and the relationship with the gut microbiome is not fully understood, especially for well-nourished and breastfeeding infants. In the study presented here, infant stool Staphylococcales abundance (comprised of Staphylococcus and Gemella) and Haemophilus abundance during the first few months of life were positively associated with later diarrhea in well-nourished and breastfeeding Danish infants. Meanwhile, the abundance of Granulicatella (a facultative anaerobe with pathogenic potential) was greater in stool from infants who had recent diarrhea, suggesting further research is needed to determine its possible role in diarrhea and recovery from diarrhea. Fever usually did not co-occur with diarrhea or vomiting. Early life Actinobacteriota abundance was positively associated with later fever. This phylum was represented here by both pathobionts (Actinomyces) and mutualists (bifidobacteria), which may have contributed to fever differently-pathobionts through infection and mutualists through promotion of effective immune response to infection.",
+      "authors": [
+        "Laurynne C Coates",
+        "David H Storms",
+        "Sarah S Spearman",
+        "Setareh Shahab-Ferdows",
+        "Sophie Hilario Christensen",
+        "Jack I Lewis",
+        "Christian Mølgaard",
+        "Kim F Michaelsen",
+        "Lindsay H Allen",
+        "Danielle G Lemay",
+        "Mary E Kable"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42112809/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "microbiome host pathogen interaction and infection outcome prediction",
+      "llm_evidence_cn": "微生物组宿主病原体相互作用和感染结果预测",
+      "llm_evidence": "微生物组宿主病原体相互作用和感染结果预测",
+      "canonical_evidence": "微生物组宿主病原体相互作用和感染结果预测",
+      "llm_tldr_en": "Investigates associations between infant gut microbial composition and gastroenteritis-related morbidities.",
+      "llm_tldr_cn": "研究了婴儿肠道微生物组成与胃肠炎相关发病率之间的关联。",
+      "llm_tldr": "研究了婴儿肠道微生物组成与胃肠炎相关发病率之间的关联。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41654072",
+      "title": "Integrating transcriptomics and metabolomics to explore the therapeutic effects and mechanisms of Zhushagen-Shandougen herb pair on chronic pharyngitis.",
+      "abstract": "ETHNOPHARMACOLOGICAL RELEVANCE: Ardisia crenata Sims (Zhushagen) and Sophora tonkinensis Gagnep. (Shandougen), core components of Kaihoujian Spray, are used in Miao medicine to treat chronic pharyngitis (CP), but their mechanisms remain unclear. AIM OF THE STUDY: This study aimed to investigate the therapeutic effects of Zhushagen, Shandougen, and their combination (Zhushagen-Shandougen) on CP, and to elucidate the pharmacological mechanisms via serum metabolomics and pharyngeal mucosa transcriptomics. METHODS: A rat model of chronic pharyngitis was induced by ammonium hydroxide administration. Therapeutic effects were evaluated via behavioral assessment, histopathological examination, and ELISA for inflammatory cytokines. For mechanism exploration, transcriptomic analysis of pharyngeal mucosa and metabolomic analysis of serum were performed in rats. Correlation analysis was used to integrate transcriptomic and metabolomic data, and a core regulatory network was constructed based on key genes, metabolites, and pathways. Potential targets were validated by immunohistochemistry and RT-qPCR. RESULTS: All treatments dose-dependently ameliorated CP symptoms, reduced the pro-inflammatory cytokines IL-1β, IL-6, PGE2, and TNF-α, increased IL-10, and alleviated mucosal lesions, with the combination being the most potent. In omics analyses, 32 differential metabolites and 121 differential mRNAs were identified. KEGG enrichment showed that differential metabolites were primarily involved in riboflavin and glutathione metabolism, while differential mRNAs were enriched in the MAPK and PI3K-Akt signaling pathways. RT-qPCR validation of 9 genes confirmed the transcriptomic results; notably, the mRNA expressions of p38, erk1/2, pi3k, and akt were altered. Immunohistochemistry further confirmed changes in the protein levels of p38, ERK1/2, and Akt, as well as the activations of p38 and PI3K, validating the omics findings. CONCLUSION: Zhushagen, Shandougen, and Zhushagen-Shandougen exert therapeutic effects on CP. The present study found that Zhushagen-Shandougen may suppress the PI3K/Akt and MAPK signaling pathways, thus alleviating ammonium hydroxide-induced CP. The elucidated mechanism provides a significant theoretical foundation and a novel therapeutic approach for the treatment of CP.",
+      "authors": [
+        "Yun Chen",
+        "Hui Shi",
+        "Zhou-Jie Yang",
+        "Xiong-Wei Liu",
+        "Li-Yan Zhang",
+        "Xiu Dong",
+        "Xing-Yan Ma",
+        "Ying Zhou",
+        "Ting-Ting Feng"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-10",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41654072/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "integrating transcriptomics and metabolomics for pharmacological mechanism exploration",
+      "llm_evidence_cn": "整合转录组学和代谢组学以探索药理机制",
+      "llm_evidence": "整合转录组学和代谢组学以探索药理机制",
+      "canonical_evidence": "整合转录组学和代谢组学以探索药理机制",
+      "llm_tldr_en": "Uses multi-omics integration to elucidate the therapeutic mechanisms of a herbal pair on chronic pharyngitis.",
+      "llm_tldr_cn": "利用多组学整合技术阐明中药对慢性咽炎的治疗机制。",
+      "llm_tldr": "利用多组学整合技术阐明中药对慢性咽炎的治疗机制。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42113288",
+      "title": "Characterization of telomere-related gene subtypes in lung adenocarcinoma and their implications for prognosis and treatment.",
+      "abstract": "BACKGROUND: Telomeres, located at chromosome ends, regulate cell division and maintain genomic stability. Telomere-related genes (TRGs) play essential roles in tumorigenesis and immune escape, but their mechanisms in lung adenocarcinoma (LUAD) are not fully understood. METHODS: This study integrated genomics, transcriptomics and pathological images to analyze TRGs expression in LUAD. Univariate Cox regression identified 278 TRGs linked to prognosis. Using consensus clustering, 1086 LUAD patients were classified into two distinct molecular subtypes (Cluster 1 and Cluster 2). Reliability was validated through non-negative matrix factorization (NMF) and nearest template prediction (NTP), and deep learning models (CLAM, TransMIL, CAMIL) were constructed to predict these molecular subtypes from whole-slide images (WSIs). RESULTS: Our study found that TRG activation is associated with the occurrence, progression, and poor prognosis of LUAD. TRG expression-based stratification identified subtypes with distinct clinical outcomes. Specifically, Cluster 1 showed a higher frequency of KRAS mutations, together with high microsatellite instability (MSI), increased immune infiltration, and activation of the immune cycle, along with a better response to immune checkpoint blockade (ICB) therapy and more favorable patient prognosis. In contrast, Cluster 2 was characterized by high tumor mutational burden (TMB) and homologous recombination deficiency (HRD). Although these genomic features would be expected to enhance tumor immunogenicity, Cluster 2 exhibited profound adaptive immune resistance, including marked T-cell exhaustion (elevated LAG3 and TIGIT) and a profoundly immunosuppressive tumor microenvironment (TME). Microbial profiling further revealed that the genera Blautia, Faecalibacterium, and Leuconostoc were significantly enriched in Cluster 1. Finally, we developed a deep learning model that accurately predicts TRG-based subtypes, providing preliminary support for the potential clinical utility of this classification framework. CONCLUSION: This study clarifies the association between TRGs expression and the biological characteristics of LUAD, highlighting their potential clinical significance in molecular typing and therapeutic guidance, and laying a foundation for personalized diagnosis and treatment strategies for LUAD.",
+      "authors": [
+        "Jingyi Gao",
+        "Yuansheng Zhao",
+        "Zhiying Cheng",
+        "Jiajun Yang",
+        "Linjun Jiang",
+        "Shuxue Xi",
+        "Shufang Shi",
+        "Geng Tian",
+        "Haiwen Zhao",
+        "Jialiang Yang",
+        "Jinyang Liu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42113288/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "integrated genomics and transcriptomics with deep learning for molecular subtype classification",
+      "llm_evidence_cn": "整合基因组学和转录组学，利用深度学习进行分子亚型分类",
+      "llm_evidence": "整合基因组学和转录组学，利用深度学习进行分子亚型分类",
+      "canonical_evidence": "整合基因组学和转录组学，利用深度学习进行分子亚型分类",
+      "llm_tldr_en": "Integrates multi-omics and deep learning to identify prognostic gene subtypes in lung adenocarcinoma.",
+      "llm_tldr_cn": "整合多组学与深度学习，识别肺腺癌中具有预后意义的基因亚型。",
+      "llm_tldr": "整合多组学与深度学习，识别肺腺癌中具有预后意义的基因亚型。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41830763",
+      "title": "Integrative lipidomics profiles and explainable machine learning for species-specific identification of meat and bone meal.",
+      "abstract": "Accurate species identification of meat and bone meal (MBM) is a regulatory requirement in many jurisdictions to prevent intra-species recycling (cannibalism) in animal feed. It is a practice that facilitates transmission of bovine spongiform encephalopathy via prion-contaminated feed. This study represents the first comprehensive application of nontarget lipidomics method to systematically characterize the lipid composition profiles across 76 MBM samples from four species. A total of 4180 lipid molecules were identified, classified into 43 lipid subclasses. Through rigorous evaluation criteria (P < 0.05, VIP>1.00, FC>1.50 or FC<0.67), 46 highly species-specific lipid biomarkers were successfully screened. Leveraging the abundance profiles of these discriminative lipids, we established optimized species identification models using multiple machine learning algorithms. The support vector machine model demonstrated superior performance with 100% classification accuracy. Subsequent SHapley Additive exPlanations analysis revealed that three lipid molecules, TG(44:0), TG(49:0), and Cer(t41:1), contributed most significantly to species differentiation. The developed analytical framework, combining lipidomics profiles with explainable machine learning, establishes a scientific foundation for precise species identification in MBM.",
+      "authors": [
+        "Bing Gao",
+        "Zhichao Yang",
+        "Jiabin Zheng",
+        "Haitao Yu",
+        "Xin Wang",
+        "Gangshan Wu",
+        "Hao Liang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-10",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41830763/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "explainable machine learning for species identification to prevent prion transmission",
+      "llm_evidence_cn": "用于物种识别的可解释机器学习以防止朊病毒传播",
+      "llm_evidence": "用于物种识别的可解释机器学习以防止朊病毒传播",
+      "canonical_evidence": "用于物种识别的可解释机器学习以防止朊病毒传播",
+      "llm_tldr_en": "Uses lipidomics and machine learning for species identification in animal feed to prevent disease transmission.",
+      "llm_tldr_cn": "利用脂质组学和机器学习进行动物饲料物种鉴定，以防止疾病传播。",
+      "llm_tldr": "利用脂质组学和机器学习进行动物饲料物种鉴定，以防止疾病传播。",
+      "llm_tags": [
+        "query:pathoai:composite"
+      ],
+      "matched_query_tag": "query:pathoai:composite",
+      "matched_query_text": "Papers central to 病原组学中的 AI 方法, especially work that connects or combines: foundation models for pathogen genomes and pathogen biology; machine learning for metagenomic pathogen classification; deep learning models for pathogen detection from sequencing data; AI methods for genomic surveillance and outbreak monitoring; machine learning for antimicrobial resistance prediction from genomes; machine learning for phylogenetic and transmission inference; multimodal models combining pathogen sequence phenotype and metadata; machine learning for microbiome host interaction pathogen ecology and infection modeling; AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design; foundation models for pathogen genome understanding and surveillance.",
+      "matched_requirement_id": "req-composite-pathoai",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42108796",
+      "title": "Evolutionary structure constrains genomic prediction accuracy more than model complexity in mango (Mangifera indica L.).",
+      "abstract": "In genomic prediction, it remains unclear whether increasingly complex or ensemble models improve prediction over established linear approaches, and why prediction accuracy varies among traits. Here, we evaluated a comprehensive suite of genomic prediction models, including linear mixed models, Bayesian variable selection, kernel methods, machine learning algorithms, graph attention networks, and stacked ensembles, in mango (Mangifera indica L.). Across five traits, prediction accuracy converged across linear, Bayesian, kernel, and ensemble models, with only marginal gains derived from stacking and no systematic advantage of machine learning approaches. Ensemble ablation and weight analyses revealed that predictive signal was dominated by additive and smooth kernel components, while more complex learners contributed little or negatively upon performance. To explain these trait-dependent patterns in predictability, we quantified the phylogenetic signal using genome-wide marker-based trees. All traits showed a significant phylogenetic signal, with the magnitude varying widely and strongly associated with prediction accuracy (r ≈ 0.71). Traits with strong phylogenetic structure achieved the highest prediction accuracies, whereas traits with a weaker signal were consistently harder to predict, regardless of model choice. Together, these results confirm that, in mango, genomic prediction accuracy is determined more by evolutionary structure and trait architecture rather than increasing model complexity. Aligning prediction strategies with the evolutionary basis of trait variation may therefore be more effective than adopting increasingly complex models.",
+      "authors": [
+        "Ganesan Alagarasan",
+        "Abdulqader Jighly",
+        "Vanika Garg",
+        "Oluwaseun Akinlade",
+        "Natalie Dillon",
+        "Asjad Ali",
+        "Penghao Wang",
+        "Christopher I Cazzonelli",
+        "Ravi V Mural",
+        "Diego Jarquin",
+        "Peter Prentis",
+        "Rajeev K Varshney"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42108796/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "evaluation of machine learning and graph attention networks for genomic prediction",
+      "llm_evidence_cn": "评估机器学习和图注意力网络在基因组预测中的应用",
+      "llm_evidence": "评估机器学习和图注意力网络在基因组预测中的应用",
+      "canonical_evidence": "评估机器学习和图注意力网络在基因组预测中的应用",
+      "llm_tldr_en": "Evaluates various machine learning and linear models for genomic prediction accuracy in mango.",
+      "llm_tldr_cn": "评估了多种机器学习和线性模型在芒果基因组预测准确性方面的表现。",
+      "llm_tldr": "评估了多种机器学习和线性模型在芒果基因组预测准确性方面的表现。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "representation learning for biological sequences and molecules",
+      "matched_requirement_id": "req-26",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42113284",
+      "title": "Spatiotemporal evolution of a pine wilt disease model integrating infectious disease transmission and predator-prey interactions.",
+      "abstract": "Previous modeling studies on pine wilt disease have largely been confined to either standalone epidemic models or predator-prey models, overlooking the coupling between these two mechanisms within the ecosystem. A coupled model is developed that integrates predator-prey interactions with the transmission mechanism of pine wilt disease, thereby enabling a more accurate representation of the spatiotemporal dynamics of biological control and disease transmission. The theoretical analysis primarily establishes that, under given threshold conditions, several key subsystems are persistent, and further proves the existence of steady states for the full system. Numerical simulations, implemented using COMSOL Multiphysics, successfully reproduced the spatiotemporal evolution of pine wilt disease on a two-dimensional geographical map of Liaoning Province, China. In the absence of predators, the simulated results are consistent with actual observational data, whereas the disease is effectively suppressed when predators are introduced. Based on the optimal control theory for parabolic systems and the results of numerical simulations, this study further systematically analyzes optimal strategy selection for pine wilt disease management: (1) When predators have been introduced, the additional benefit of supplementary human control may be limited; (2) If the goal is ecological effectiveness alone, biological control by predator introduction should be prioritized; (3) According to cost-effectiveness analysis and the decision-maker's willingness-to-pay, biological control is preferred when the cost of predator introduction is below a threshold; otherwise, human control is more economically justified.",
+      "authors": [
+        "Shuai Zhang",
+        "Peng Wu",
+        "Shengqiang Liu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42113284/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "modeling infectious disease transmission and spatiotemporal evolution",
+      "llm_evidence_cn": "传染病传播与时空演化建模",
+      "llm_evidence": "传染病传播与时空演化建模",
+      "canonical_evidence": "传染病传播与时空演化建模",
+      "llm_tldr_en": "Integrates predator-prey interactions with pine wilt disease transmission for spatiotemporal modeling.",
+      "llm_tldr_cn": "将捕食者-猎物相互作用与松材线虫病传播相结合，进行时空建模。",
+      "llm_tldr": "将捕食者-猎物相互作用与松材线虫病传播相结合，进行时空建模。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI driven outbreak surveillance genomic epidemiology and transmission modeling",
+      "matched_requirement_id": "req-12",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

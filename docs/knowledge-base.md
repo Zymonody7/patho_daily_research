@@ -5,6 +5,33 @@
 
 ## 最近论文
 
+- [STAID: A Self-Refining Deep Learning Framework for Spatial Cell-Type Deconvolution with Biologically Informed Modeling.](#/202605/11/202605/11/42107049-staid-a-self-refining-deep-learning-framework-for-spatial-cell-type-deconvolution-with-biologically-informed-modeling)
+  - TLDR：空间转录组技术因分辨率限制难以精确解析单个位点内的细胞组成。STAID 框架通过迭代优化伪位点生成与深度学习训练，并结合图信号处理捕捉基因间的高阶关系，构建了自增强的反卷积循环。该方法在乳腺癌、胚胎发育及克罗恩病等复杂组织数据中精准还原了细胞空间分布，为研究组织异质性和细胞微环境提供了高分辨率的分析工具。
+  - Tags：`query:seqai`
+- [Understanding antimicrobial resistance dynamics of non-typhoidal Salmonella in chickens and ducks - a prospective study from West Bengal, India.](#/202605/11/202605/11/42113384-understanding-antimicrobial-resistance-dynamics-of-non-typhoidal-salmonella-in-chickens-and-ducks---a-prospective-study-from-west-bengal-india)
+  - TLDR：针对印度西孟加拉邦家禽中非伤寒沙门氏菌的耐药性（AMR）威胁，本研究分析了446株分离株的耐药谱，发现肉类和零售环节的耐药风险显著更高。通过应用XGBoost等机器学习算法，研究成功预测了超广谱β-内酰胺酶（ESBL）的产生，并识别出采样部位和来源是关键预测因子。该研究揭示了家禽链条中耐药菌的传播风险，证明了机器学习在提升AMR监测和指导精准干预方面的潜力。
+  - Tags：`query:pathoai`
+- [Pathogen-Centric Activation of an Azoreductase-Responsive Antibody-Antibiotic Conjugate for the Targeted Eradication of MRSA.](#/202605/11/202605/11/42109222-pathogen-centric-activation-of-an-azoreductase-responsive-antibody-antibiotic-conjugate-for-the-targeted-eradication-of-mrsa)
+  - TLDR：针对传统抗体-抗生素偶联物（AAC）依赖宿主溶酶体酶激活导致无法清除胞外金黄色葡萄球菌（MRSA）且在重症感染时失效的问题，本研究开发了一种由病原体分泌的偶氮还原酶触发的AZO-AAC。该方法将激活机制从宿主细胞转向病原体本身，实现了对胞内及胞外MRSA的纳米级高效清除。在小鼠模型中，单次给药即可使细菌负荷降低6个数量级，为治疗复杂多生态位感染提供了新策略。
+  - Tags：`query:pathoai`
+- [Stool microbial composition is associated with recent and future diarrhea and fever events in breastfed Danish infants.](#/202605/11/202605/11/42112809-stool-microbial-composition-is-associated-with-recent-and-future-diarrhea-and-fever-events-in-breastfed-danish-infants)
+  - TLDR：针对高收入国家母乳喂养婴儿胃肠炎病因不明的问题，本研究通过对丹麦婴儿粪便进行16S rRNA测序，分析了肠道菌群与腹泻、发热等症状的关联。研究发现，肠道微生物多样性降低及Granulicatella丰度增加与近期腹泻显著相关，且婴儿3.5个月时的特定菌群组成（如葡萄球菌目）可预测其后期发病风险。该成果揭示了早期肠道菌群在评估婴儿胃肠炎风险中的关键作用。
+  - Tags：`query:pathoai`
+- [Characterization of telomere-related gene subtypes in lung adenocarcinoma and their implications for prognosis and treatment.](#/202605/11/202605/11/42113288-characterization-of-telomere-related-gene-subtypes-in-lung-adenocarcinoma-and-their-implications-for-prognosis-and-treatment)
+  - TLDR：针对肺腺癌中端粒相关基因（TRGs）作用机制不明的问题，本研究整合多组学数据与病理图像，通过聚类分析将患者分为两种分子亚型。结果显示，亚型1具有较好的免疫浸润和预后，而亚型2虽有高突变负荷却表现出免疫抑制特征；研究还开发了深度学习模型实现病理切片的亚型预测，为肺腺癌的精准分型和个性化治疗提供了重要参考。
+  - Tags：`query:bioinfo`
+- [Integrating transcriptomics and metabolomics to explore the therapeutic effects and mechanisms of Zhushagen-Shandougen herb pair on chronic pharyngitis.](#/202605/11/202605/11/41654072-integrating-transcriptomics-and-metabolomics-to-explore-the-therapeutic-effects-and-mechanisms-of-zhushagen-shandougen-herb-pair-on-chronic-pharyngitis)
+  - TLDR：针对慢性咽炎治疗机制不明确的现状，本研究利用转录组学与代谢组学联合分析技术，系统评估了朱砂根-山豆根药对在大鼠模型上的疗效。研究发现该药对能显著抑制促炎因子并修复黏膜损伤，其核心机制在于调控PI3K/Akt与MAPK信号通路，为中药复方治疗慢性咽炎提供了科学的理论支撑。
+  - Tags：`query:bioinfo`
+- [Integrative lipidomics profiles and explainable machine learning for species-specific identification of meat and bone meal.](#/202605/11/202605/11/41830763-integrative-lipidomics-profiles-and-explainable-machine-learning-for-species-specific-identification-of-meat-and-bone-meal)
+  - TLDR：为防止动物饲料中同物种循环利用引发的疯牛病等风险，本研究针对肉骨粉（MBM）物种鉴定难题，首次结合非靶向脂质组学与可解释机器学习技术。通过分析76份样本中的4180种脂质分子，筛选出46个关键生物标志物，并利用支持向量机实现了100%的分类准确率。该方法结合SHAP分析揭示了核心判别分子，为肉骨粉的精准溯源提供了科学依据。
+  - Tags：`query:pathoai`
+- [Evolutionary structure constrains genomic prediction accuracy more than model complexity in mango (Mangifera indica L.).](#/202605/11/202605/11/42108796-evolutionary-structure-constrains-genomic-prediction-accuracy-more-than-model-complexity-in-mango-mangifera-indica-l)
+  - TLDR：针对芒果基因组预测中模型复杂度与预测准确率关系不明的问题，本研究对比了线性模型、机器学习及图注意力网络等多种算法。结果发现，不同模型的准确率趋于一致，复杂模型并未带来显著提升。研究进一步揭示，预测准确率主要受性状的进化结构（系统发育信号）制约，而非模型复杂度。这一发现强调了在育种预测中应更关注生物学背景而非盲目追求算法复杂化。
+  - Tags：`query:bioinfo`
+- [Spatiotemporal evolution of a pine wilt disease model integrating infectious disease transmission and predator-prey interactions.](#/202605/11/202605/11/42113284-spatiotemporal-evolution-of-a-pine-wilt-disease-model-integrating-infectious-disease-transmission-and-predator-prey-interactions)
+  - TLDR：针对松材线虫病建模中忽视流行病传播与捕食关系耦合的问题，本文构建了一个整合捕食者-猎物动力学与疾病传播机制的时空演化模型。通过在辽宁省地理地图上的数值模拟，验证了模型与实际观测的一致性，并揭示了引入捕食者对疫情的显著抑制作用。研究通过最优控制理论分析了生物防治与人工干预的成本效益，为林业病害管理提供了科学的决策依据。
+  - Tags：`query:pathoai`
 - [Protein language models accurately predict polymorphic peptide-modulated NK cell receptor-HLA class I interaction strengths.](#/202605/09/202605/09/42102196-protein-language-models-accurately-predict-polymorphic-peptide-modulated-nk-cell-receptor-hla-class-i-interaction-strengths)
   - TLDR：自然杀伤（NK）细胞的功能受KIR受体与HLA-I分子相互作用的调节，而这种相互作用高度依赖于结合的肽段。由于肽段序列空间巨大，识别能调节免疫反应的特定肽段极具挑战。本研究利用蛋白质语言模型（pLM）开发了预测KIR-肽-HLA复合物相互作用强度的工具。该模型在多数抑制性KIR上取得了超过0.8的AUROC，并能有效识别HIV和HCV相关肽段，为个性化免疫治疗和免疫调节机制研究提供了重要工具。
   - Tags：`query:bioinfo`
@@ -578,30 +605,3 @@
 - [Adaptation of](#/202604/22/202604/22/41805190-adaptation-of)
   - TLDR：粪肠球菌（Ef）是人体肠道的重要成员，但其在粘膜表面的定殖机制尚不明确。本研究利用人结肠类器官结合灌注培养系统，通过高分辨率成像观察到Ef在粘液层中形成生物膜样微菌落。结合转座子插入测序（Tn-seq）技术，揭示了Ef在粘膜定殖过程中发生的显著代谢重组和调控响应。该研究为理解肠道菌群与宿主粘膜的相互作用提供了高分辨率的生理模型。
   - Tags：`query:pathoai`
-- [Profiling of genetic determinants required for fitness of community-associated methicillin-resistant](#/202604/22/202604/22/42012196-profiling-of-genetic-determinants-required-for-fitness-of-community-associated-methicillin-resistant)
-  - TLDR：社区获得性耐甲氧西林金黄色葡萄球菌（CA-MRSA）是导致菌血症的主要原因，但其在血液环境中的生存机制尚不明确。本研究利用转座子插入测序技术（TraDIS）对USA300 JE2菌株在人体血液中的适应性进行了全基因组筛选，识别出76个关键适应性基因，涉及呼吸代谢、血红素解毒及嘌呤合成等路径。研究不仅验证了代谢基因的重要性，还发现某些调节因子缺失反而能提升竞争优势，为理解病原菌在血管环境中的适应机制提供了重要参考。
-  - Tags：`query:pathoai`
-- [Early Detection of Asymptomatic Human Infections in Vector-Borne Diseases: A Programmatic Model for Enhanced Surveillance.](#/202604/22/202604/22/42013832-early-detection-of-asymptomatic-human-infections-in-vector-borne-diseases-a-programmatic-model-for-enhanced-surveillance)
-  - TLDR：针对虫媒传染病中超过60%的感染者为无症状、导致传统监测滞后的问题，本文提出了建立“增强型虫媒疾病警戒小组（EVBD-VTs）”的规划模型。该模型整合了多学科团队、实验室网络与气候风险评估，通过主动病例检测识别无症状携带者。这一方案旨在将防控策略从被动应对转为主动预警，有效阻断间歇期的病原体循环，提升全球公共卫生安全。
-  - Tags：`query:pathoai`
-- [Metabolomics-based and functional validation to explore the effect of the gut microbe-associated metabolite guanidinoacetic acid on rectal adenocarcinoma.](#/202604/22/202604/22/42014751-metabolomics-based-and-functional-validation-to-explore-the-effect-of-the-gut-microbe-associated-metabolite-guanidinoacetic-acid-on-rectal-adenocarcinoma)
-  - TLDR：肠道菌群失调与直肠腺癌（READ）的发生密切相关，但具体代谢物如何介导宿主互作尚不清晰。本研究通过对READ患者和健康对照组的粪便进行16S rRNA测序与非靶向代谢组学分析，发现患者体内胍基乙酸（GAA）代谢显著增强。体外实验进一步证实GAA能促进结直肠癌细胞的增殖、侵袭与迁移并抑制凋亡，揭示了GAA作为关键代谢物在READ进展中的促癌作用，为疾病干预提供了新方向。
-  - Tags：`query:pathoai`
-- [Urinary extracellular vesicle miRNA signature reflects pancreatic islet stress in type 2 diabetes.](#/202604/22/202604/22/42017432-urinary-extracellular-vesicle-mirna-signature-reflects-pancreatic-islet-stress-in-type-2-diabetes)
-  - TLDR：针对2型糖尿病（T2D）早期诊断难的问题，本研究分析了68名受试者的尿液细胞外囊泡（ECV）miRNA测序数据，通过机器学习筛选出包含5个核心miRNA的生物标志物组合。该组合在内外验证集中均表现出高诊断准确率（AUC>0.86），且其表达模式与胰岛等代谢组织的分子变化高度一致，为无创监测T2D进展提供了具有生物学解释性的新手段。
-  - Tags：`query:seqai`
-- [Analytical validation of a highly accurate and reliable next-generation sequencing-based urine assay.](#/202604/21/202604/21/42012213-analytical-validation-of-a-highly-accurate-and-reliable-next-generation-sequencing-based-urine-assay)
-  - TLDR：针对传统尿培养在尿路感染诊断中灵敏度低、易漏诊的问题，研究团队开发并验证了 BIOTIA-ID 临床级宏基因组测序管线。该方法结合机器学习算法过滤共生菌干扰，在 1470 份样本中实现了 97.2% 的灵敏度和 99.6% 的特异性，并能同步检测耐药基因。该技术为复杂或复发性感染提供了比传统培养更精准、全面的诊断方案，有助于优化抗生素使用并支持临床决策。
-  - Tags：`query:pathoai`
-- [Accelerating Leigh syndrome drug discovery through deep learning screening in brain organoids.](#/202604/21/202604/21/42009687-accelerating-leigh-syndrome-drug-discovery-through-deep-learning-screening-in-brain-organoids)
-  - TLDR：针对缺乏疗法的罕见线粒体疾病Leigh综合征，研究者利用SURF1突变导致的神经元发育受损表型，开发了细胞类型特异性的深度学习药物筛选算法，并结合酵母模型进行平行验证。研究发现唑类化合物（如他拉罗唑）能显著修复类脑器官的神经元形态并改善代谢异常。该成果展示了AI筛选与人类类器官模型结合在加速罕见神经发育疾病药物发现方面的应用价值。
-  - Tags：`query:bioinfo`
-- [Hotspot pocket-based discovery of urea transporter selective inhibitors.](#/202604/21/202604/21/42009654-hotspot-pocket-based-discovery-of-urea-transporter-selective-inhibitors)
-  - TLDR：针对尿素转运蛋白（UT）抑制剂作为利尿剂的开发难题，研究团队采用两轮渐进式热点口袋虚拟筛选技术，成功鉴定出高选择性UT-A2抑制剂M353-0039。通过冷冻电镜解析了其与UT-A2结合的高分辨率结构，揭示了其占据深层口袋及与非保守残基相互作用的分子机制。该研究不仅为探索UT-A2生理功能提供了工具，也为开发新一代高效利尿剂提供了方法学参考。
-  - Tags：`query:bioinfo`
-- [Trimethylamine-producing microbe Bacillus megaterium KCTC 3007 promotes antitumor immunity in endometrial cancer via type I interferon response pathways.](#/202604/21/202604/21/42010642-trimethylamine-producing-microbe-bacillus-megaterium-kctc-3007-promotes-antitumor-immunity-in-endometrial-cancer-via-type-i-interferon-response-pathways)
-  - TLDR：针对子宫内膜癌（ECa）预后受微生物群落影响但机制不明的问题，本研究通过整合宏转录组、转录组和代谢组学分析，发现巨大芽孢杆菌（BM）KCTC 3007 与患者生存期延长显著相关。研究证实该菌通过产生代谢产物氧化三甲胺（TMAO），激活宿主 I 型干扰素通路并诱导癌细胞焦亡，从而增强 CD8+ T 细胞介导的抗肿瘤免疫。这一发现为利用益生菌或代谢物辅助治疗子宫内膜癌提供了新的机械论依据和临床策略。
-  - Tags：`query:pathoai`
-- [Single-cell co-mapping reveals relationship between chromatin state and gene expression in early zebrafish development.](#/202604/21/202604/21/42011025-single-cell-co-mapping-reveals-relationship-between-chromatin-state-and-gene-expression-in-early-zebrafish-development)
-  - TLDR：针对脊椎动物胚胎发育中染色质状态与基因表达耦合机制不明的问题，研究者开发了一种能同时检测单细胞全长转录组和组蛋白修饰的多模态测量方法，并应用于斑马鱼早期发育研究。研究发现，在胚层形成前两者处于解离状态，随后在原肠胚期逐渐耦合；通过机器学习模型识别了谱系特异性转录因子及其表观遗传调控模式。该研究揭示了细胞身份建立过程中转录与染色质层的动态交互逻辑。
-  - Tags：`query:seqai`

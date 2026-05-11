@@ -1,0 +1,66 @@
+Title: STAID: A Self-Refining Deep Learning Framework for Spatial Cell-Type Deconvolution with Biologically Informed Modeling - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42107049/
+
+Markdown Content:
+Actions
+
+. 2026 May 10:e75607.
+
+doi: 10.1002/advs.75607.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42107049**
+*    DOI: [10.1002/advs.75607](https://doi.org/10.1002/advs.75607)
+
+## STAID: A Self-Refining Deep Learning Framework for Spatial Cell-Type Deconvolution with Biologically Informed Modeling
+
+Jixin Liu et al. Adv Sci (Weinh).2026.
+
+## Abstract
+
+Spatial transcriptomics provides high-throughput measurement of gene expression while retaining spatial context; however, inferring accurate cell-type compositions within individual spots remains a major challenge. Here, we present STAID, a unified framework that effectively integrates pseudo-spot generation with deep learning training through iterative pseudo-spot refinement and leverages graph signal processing to capture higher-order gene-wise relationships. By creating a self-reinforcing cycle, STAID enables accurate spot-level deconvolution of cell-type compositions for spatial transcriptomics data. Comprehensive benchmarking demonstrates that STAID outperforms existing methods, accurately reconstructs cell-type spatial distributions, and effectively resolves the cellular colocalization. In clinical breast cancer sections, STAID precisely infers tumor epithelial distributions and reveals their spatial associations with immune cells. In human embryonic limb datasets, STAID captures the ordered spatial distributions of key progenitor populations, reflecting hierarchical tissue organization and demonstrating that incorporating cell-type composition information can enhance tissue segmentation. STAID also resolves the spatial cellular organization in Crohn's disease and reveals the characteristics of TLS-like immune niches. Collectively, by delivering high-resolution cell-type distributions, STAID provides deeper insights into tissue organization and cellular heterogeneity.
+
+**Keywords:** cell‐type deconvolution; graph fourier transform; pseudo‐spot refinement; spatial transcriptomics.
+
+© 2026 The Author(s). Advanced Science published by Wiley‐VCH GmbH.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [S2potAE: multimodal spatial spot autoencoder integrating image and transcriptomic features for deconvolution.](https://pubmed.ncbi.nlm.nih.gov/41619214/)
+
+Chen T, Xue W, Zhang Y, Luo Y, Liu C, Shen W, Wu S, Wong HS.Chen T, et al.Brief Bioinform. 2026 Jan 7;27(1):bbag020. doi: 10.1093/bib/bbag020.Brief Bioinform. 2026.PMID: 41619214 Free PMC article. 
+*   [STCGAN: a novel cycle-consistent generative adversarial network for spatial transcriptomics cellular deconvolution.](https://pubmed.ncbi.nlm.nih.gov/39715685/)
+
+Wang B, Long Y, Bai Y, Luo J, Keong Kwoh C.Wang B, et al.Brief Bioinform. 2024 Nov 22;26(1):bbae670. doi: 10.1093/bib/bbae670.Brief Bioinform. 2024.PMID: 39715685 Free PMC article. 
+*   [GraphCellNet: A deep learning method for integrated single-cell and spatial transcriptomic analysis with applications in development and disease.](https://pubmed.ncbi.nlm.nih.gov/40690004/)
+
+Dai R, Wang Z, Zhang Z, Lei L, Wang M, Han K, Wang Z, Li Z, Zhang J, Guo Q.Dai R, et al.J Mol Med (Berl). 2025 Sep;103(9):1087-1111. doi: 10.1007/s00109-025-02575-4. Epub 2025 Jul 21.J Mol Med (Berl). 2025.PMID: 40690004 
+*   [From pixels to cell types: a comprehensive review of computational methods for spatial transcriptomics deconvolution.](https://pubmed.ncbi.nlm.nih.gov/41174717/)
+
+Saqib J, Kim J.Saqib J, et al.Genomics Inform. 2025 Oct 31;23(1):22. doi: 10.1186/s44342-025-00055-2.Genomics Inform. 2025.PMID: 41174717 Free PMC article.Review. 
+*   [A comprehensive comparison on cell-type composition inference for spatial transcriptomics data.](https://pubmed.ncbi.nlm.nih.gov/35753702/)
+
+Chen J, Liu W, Luo T, Yu Z, Jiang M, Wen J, Gupta GP, Giusti P, Zhu H, Yang Y, Li Y.Chen J, et al.Brief Bioinform. 2022 Jul 18;23(4):bbac245. doi: 10.1093/bib/bbac245.Brief Bioinform. 2022.PMID: 35753702 Free PMC article.Review. 
+
+## References
+
+1.       1.    L. Moses and L. Pachter, “Museum of Spatial Transcriptomics,” Nature Methods 19 (2022): 534–546, [https://doi.org/10.1038/s41592‐022‐01409‐2](https://doi.org/10.1038/s41592%E2%80%90022%E2%80%9001409%E2%80%902). 
+
+2.       1.    X. Long, X. Yuan, and J. Du, “Single‐Cell and Spatial Transcriptomics: Advances in Heart Development and Disease Applications,” Computational and Structural Biotechnology Journal 21 (2023): 2717–2731, [https://doi.org/10.1016/j.csbj.2023.04.007](https://doi.org/10.1016/j.csbj.2023.04.007). 
+
+3.       1.    P. L. Ståhl, F. Salmén, S. Vickovic, et al., “Visualization and Analysis of Gene Expression in Tissue Sections by Spatial Transcriptomics,” Science 353 (2016): 78–82, [https://doi.org/10.1126/science.aaf2403](https://doi.org/10.1126/science.aaf2403). 
+
+4.       1.    K. Li, C. Yan, C. Li, et al., “Computational Elucidation of Spatial Gene Expression Variation From Spatially Resolved Transcriptomics Data,” Molecular Therapy Nucleic Acids 27 (2022): 404–411, [https://doi.org/10.1016/j.omtn.2021.12.009](https://doi.org/10.1016/j.omtn.2021.12.009). 
+
+5.       1.    E. Zhao, M. R. Stone, X. Ren, et al., “Spatial Transcriptomics at Subspot Resolution With BayesSpace,” Nature Biotechnology 39 (2021): 1375–1384, [https://doi.org/10.1038/s41587‐021‐00935‐2](https://doi.org/10.1038/s41587%E2%80%90021%E2%80%9000935%E2%80%902). 
+
+## Grants and funding
+
+*   [2020YFA0712400/National Key R&D Program of China](https://pubmed.ncbi.nlm.nih.gov/?term=2020YFA0712400%2FNational+Key+R%26D+Program+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2020YFA0712400/National Key R&D Program of China")
+*   [62272270/National Nature Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=62272270%2FNational+Nature+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 62272270/National Nature Science Foundation of China")
+*   [ZR2023JQ002/Shandong Provincial Natural Science Foundation for Distinguished Young Scholars](https://pubmed.ncbi.nlm.nih.gov/?term=ZR2023JQ002%2FShandong+Provincial+Natural+Science+Foundation+for+Distinguished+Young+Scholars%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant ZR2023JQ002/Shandong Provincial Natural Science Foundation for Distinguished Young Scholars")
+*   [TSQN202211009/Funding for the Taishan Scholars Program](https://pubmed.ncbi.nlm.nih.gov/?term=TSQN202211009%2FFunding+for+the+Taishan+Scholars+Program%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant TSQN202211009/Funding for the Taishan Scholars Program")

@@ -1,0 +1,49 @@
+Title: Evolutionary structure constrains genomic prediction accuracy more than model complexity in mango (Mangifera indica L.) - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42108796/
+
+Markdown Content:
+Actions
+
+. 2026 May 11:jkag124.
+
+doi: 10.1093/g3journal/jkag124.  Online ahead of print.
+
+[Abdulqader Jighly](https://pubmed.ncbi.nlm.nih.gov/?term=Jighly+A&cauthor_id=42108796)[1](https://pubmed.ncbi.nlm.nih.gov/42108796/#full-view-affiliation-1 "WA State Agricultural Biotechnology Centre, Centre for Crop and Food Innovation, Food Futures Institute, Murdoch University, Murdoch, WA 6150, Australia.")[2](https://pubmed.ncbi.nlm.nih.gov/42108796/#full-view-affiliation-2 "AgriSapiens PTY LTD, VIC 3108, Australia."),[Vanika Garg](https://pubmed.ncbi.nlm.nih.gov/?term=Garg+V&cauthor_id=42108796)[1](https://pubmed.ncbi.nlm.nih.gov/42108796/#full-view-affiliation-1 "WA State Agricultural Biotechnology Centre, Centre for Crop and Food Innovation, Food Futures Institute, Murdoch University, Murdoch, WA 6150, Australia."),[Oluwaseun Akinlade](https://pubmed.ncbi.nlm.nih.gov/?term=Akinlade+O&cauthor_id=42108796)[1](https://pubmed.ncbi.nlm.nih.gov/42108796/#full-view-affiliation-1 "WA State Agricultural Biotechnology Centre, Centre for Crop and Food Innovation, Food Futures Institute, Murdoch University, Murdoch, WA 6150, Australia."),[Natalie Dillon](https://pubmed.ncbi.nlm.nih.gov/?term=Dillon+N&cauthor_id=42108796)[3](https://pubmed.ncbi.nlm.nih.gov/42108796/#full-view-affiliation-3 "Queensland Department of Primary Industries, Mareeba, QLD 4880, Australia."),[Asjad Ali](https://pubmed.ncbi.nlm.nih.gov/?term=Ali+A&cauthor_id=42108796)[3](https://pubmed.ncbi.nlm.nih.gov/42108796/#full-view-affiliation-3 "Queensland Department of Primary Industries, Mareeba, QLD 4880, Australia."),[Penghao Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+P&cauthor_id=42108796)[1](https://pubmed.ncbi.nlm.nih.gov/42108796/#full-view-affiliation-1 "WA State Agricultural Biotechnology Centre, Centre for Crop and Food Innovation, Food Futures Institute, Murdoch University, Murdoch, WA 6150, Australia."),[Christopher I Cazzonelli](https://pubmed.ncbi.nlm.nih.gov/?term=Cazzonelli+CI&cauthor_id=42108796)[4](https://pubmed.ncbi.nlm.nih.gov/42108796/#full-view-affiliation-4 "Hawkesbury Institute for the Environment, Western Sydney University, Locked Bag 1797, Penrith NSW 2751, Australia."),[Ravi V Mural](https://pubmed.ncbi.nlm.nih.gov/?term=Mural+RV&cauthor_id=42108796)[5](https://pubmed.ncbi.nlm.nih.gov/42108796/#full-view-affiliation-5 "Department of Agronomy, Horticulture and Plant Science, South Dakota State University, Brookings, SD 57007, USA."),[Diego Jarquin](https://pubmed.ncbi.nlm.nih.gov/?term=Jarquin+D&cauthor_id=42108796)[6](https://pubmed.ncbi.nlm.nih.gov/42108796/#full-view-affiliation-6 "Agronomy Department, University of Florida, Gainesville, FL 32611, USA."),[Peter Prentis](https://pubmed.ncbi.nlm.nih.gov/?term=Prentis+P&cauthor_id=42108796)[7](https://pubmed.ncbi.nlm.nih.gov/42108796/#full-view-affiliation-7 "Centre for Agriculture and Bioeconomy, Queensland University of Technology, Brisbane, QLD 4001, Australia."),[Rajeev K Varshney](https://pubmed.ncbi.nlm.nih.gov/?term=Varshney+RK&cauthor_id=42108796)[1](https://pubmed.ncbi.nlm.nih.gov/42108796/#full-view-affiliation-1 "WA State Agricultural Biotechnology Centre, Centre for Crop and Food Innovation, Food Futures Institute, Murdoch University, Murdoch, WA 6150, Australia.")
+
+Affiliations
+
+*    PMID: **42108796**
+*    DOI: [10.1093/g3journal/jkag124](https://doi.org/10.1093/g3journal/jkag124)
+
+## Evolutionary structure constrains genomic prediction accuracy more than model complexity in mango (Mangifera indica L.)
+
+Ganesan Alagarasan et al. G3 (Bethesda).2026.
+
+## Abstract
+
+In genomic prediction, it remains unclear whether increasingly complex or ensemble models improve prediction over established linear approaches, and why prediction accuracy varies among traits. Here, we evaluated a comprehensive suite of genomic prediction models, including linear mixed models, Bayesian variable selection, kernel methods, machine learning algorithms, graph attention networks, and stacked ensembles, in mango (Mangifera indica L.). Across five traits, prediction accuracy converged across linear, Bayesian, kernel, and ensemble models, with only marginal gains derived from stacking and no systematic advantage of machine learning approaches. Ensemble ablation and weight analyses revealed that predictive signal was dominated by additive and smooth kernel components, while more complex learners contributed little or negatively upon performance. To explain these trait-dependent patterns in predictability, we quantified the phylogenetic signal using genome-wide marker-based trees. All traits showed a significant phylogenetic signal, with the magnitude varying widely and strongly associated with prediction accuracy (r ≈ 0.71). Traits with strong phylogenetic structure achieved the highest prediction accuracies, whereas traits with a weaker signal were consistently harder to predict, regardless of model choice. Together, these results confirm that, in mango, genomic prediction accuracy is determined more by evolutionary structure and trait architecture rather than increasing model complexity. Aligning prediction strategies with the evolutionary basis of trait variation may therefore be more effective than adopting increasingly complex models.
+
+**Keywords:** Genomic prediction; additive genetic architecture; ensemble learning; kernel methods; mango traits; mixed models; perennial fruit crops; phylogenetic signal.
+
+© The Author(s) 2026. Published by Oxford University Press on behalf of The Genetics Society of America.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [A Stacking Ensemble Learning Framework for Genomic Prediction.](https://pubmed.ncbi.nlm.nih.gov/33747037/)
+
+Liang M, Chang T, An B, Duan X, Du L, Wang X, Miao J, Xu L, Gao X, Zhang L, Li J, Gao H.Liang M, et al.Front Genet. 2021 Mar 4;12:600040. doi: 10.3389/fgene.2021.600040. eCollection 2021.Front Genet. 2021.PMID: 33747037 Free PMC article. 
+*   [Optimizing genomic selection models for wheat breeding under contrasting water regimes in a mediterranean environment.](https://pubmed.ncbi.nlm.nih.gov/41351168/)
+
+Yannam VRR, Lopes MS, Soriano JM.Yannam VRR, et al.Plant Methods. 2025 Dec 5;21(1):155. doi: 10.1186/s13007-025-01467-5.Plant Methods. 2025.PMID: 41351168 Free PMC article. 
+*   [Evaluation of mango (Mangifera indica L.) germplasm for phenotypic diversity and breeding potential in Pakistan.](https://pubmed.ncbi.nlm.nih.gov/41491870/)
+
+Ansari WZ, Mukhtar H, Ali A, Arif M, Iqbal J, Henry RJ.Ansari WZ, et al.Sci Rep. 2026 Jan 5;16(1):3693. doi: 10.1038/s41598-025-33793-y.Sci Rep. 2026.PMID: 41491870 Free PMC article. 
+*   [Breeding perspectives on tackling trait genome-to-phenome (G2P) dimensionality using ensemble-based genomic prediction.](https://pubmed.ncbi.nlm.nih.gov/40613890/)
+
+Cooper M, Tomura S, Wilkinson MJ, Powell O, Messina CD.Cooper M, et al.Theor Appl Genet. 2025 Jul 4;138(7):172. doi: 10.1007/s00122-025-04960-6.Theor Appl Genet. 2025.PMID: 40613890 Free PMC article.Review. 
+*   [Physicochemical characteristics, bioactive compounds and industrial applications of mango kernel and its products: A review.](https://pubmed.ncbi.nlm.nih.gov/33336987/)
+
+Mwaurah PW, Kumar S, Kumar N, Panghal A, Attkan AK, Singh VK, Garg MK.Mwaurah PW, et al.Compr Rev Food Sci Food Saf. 2020 Sep;19(5):2421-2446. doi: 10.1111/1541-4337.12598. Epub 2020 Jul 22.Compr Rev Food Sci Food Saf. 2020.PMID: 33336987
