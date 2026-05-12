@@ -5,6 +5,36 @@
 
 ## 最近论文
 
+- [AI-driven fungicide design: From target identification to field application.](#/202605/12/202605/12/41966053-ai-driven-fungicide-design-from-target-identification-to-field-application)
+  - TLDR：全球农业正面临真菌病害导致的减产威胁，而传统杀菌剂研发因成本高、周期长且抗药性进化快而陷入瓶颈。本文提出了AI驱动的杀菌剂设计（AIFD）平台，通过整合植物病原体专用数据生态、微服务架构及抗药性预测工作流，将AI技术从药物研发迁移并适配至农业场景。该平台涵盖了从靶点识别到田间验证的全流程，旨在加速开发环境友好且能突破抗药性的新型杀菌剂，为保障全球粮食安全提供技术支撑。
+  - Tags：`query:pathoai`
+- [DeepTYLCV: An interpretable and experimentally validated AI model for predicting virulence of different tomato yellow leaf curl virus strains.](#/202605/12/202605/12/42063254-deeptylcv-an-interpretable-and-experimentally-validated-ai-model-for-predicting-virulence-of-different-tomato-yellow-leaf-curl-virus-strains)
+  - TLDR：番茄黄化曲叶病毒（TYLCV）严重威胁全球番茄产量，但传统诊断依赖视觉症状且难以区分毒力强弱。为此，研究者开发了DeepTYLCV深度学习框架，直接利用病毒基因组的开放阅读框序列，结合蛋白质语言模型与多尺度卷积神经网络来预测病毒毒力。该模型在15个未知分离株的实验验证中达到了100%的预测准确率，并通过可解释性分析识别了关键致病基序，为全球病毒监测和抗性育种提供了高效、精准的数字化工具。
+  - Tags：`query:pathoai`
+- [Scaling and quantization of a foundational deep learning model for network biology.](#/202605/12/202605/12/42115405-scaling-and-quantization-of-a-foundational-deep-learning-model-for-network-biology)
+  - TLDR：针对生物网络分析中基础模型计算开销大、难以在大规模单细胞数据上高效运行的问题，该研究探讨了 Geneformer 等模型的规模扩展与量化策略。通过增加参数量和训练数据，并引入低比特量化技术，在保持预测基因调控关系和疾病状态准确性的同时，显著降低了内存占用和推理延迟，为生物大模型的工业级应用提供了重要参考。
+  - Tags：`query:bioinfo`
+- [Identifying gut microbiome signatures of type 1 diabetes using machine learning and evolutionary feature selection.](#/202605/12/202605/12/42115936-identifying-gut-microbiome-signatures-of-type-1-diabetes-using-machine-learning-and-evolutionary-feature-selection)
+  - TLDR：针对 1 型糖尿病（T1D）与肠道微生物群关联性预测中特征选择和分类分辨率影响不明的问题，本研究利用 16S rRNA 测序数据，结合二进制粒子群优化（BPSO）算法与多种机器学习模型进行特征筛选与预测。结果表明，随机森林等树类模型在科水平特征上表现最优，BPSO 成功识别出具有生物学意义的稳定微生物特征。该研究为 T1D 的微生物标志物发现提供了稳健的计算框架，并揭示了跨队列验证在模型泛化中的重要性。
+  - Tags：`query:pathoai`
+- [Aggregation in gut: on the link between neurodegeneration and bacterial functional amyloids.](#/202605/12/202605/12/42115189-aggregation-in-gut-on-the-link-between-neurodegeneration-and-bacterial-functional-amyloids)
+  - TLDR：淀粉样蛋白通常与神经退行性疾病相关，但肠道微生物也会产生具有生理功能的“功能性淀粉样蛋白”。本研究通过生物信息学方法识别了肠道菌群中的这类蛋白，并分析了它们通过肠脑轴对人体健康的影响。研究发现这些蛋白能与人体蛋白交互并可能诱发炎症，且在帕金森病患者肠道中含量更高，为理解神经退行性疾病的肠道起源提供了新假说。
+  - Tags：`query:pathoai`
+- [Machine learning-driven discovery of therapeutic nucleoside hydrogels for periodontitis.](#/202605/12/202605/12/42115209-machine-learning-driven-discovery-of-therapeutic-nucleoside-hydrogels-for-periodontitis)
+  - TLDR：针对牙周炎治疗中核苷超分子水凝胶生物活性预测难的问题，本研究利用决策树、随机森林和XGBoost等机器学习算法构建了9个预测模型，并提出MBSI和CMAS评分体系来量化核苷衍生物的特异性与综合性能。通过筛选成功发现GMP和dGMP两种具有高成胶性、生物相容性和抗菌活性的水凝胶，并在牙周炎模型中验证了其疗效，为生物医用材料的理性设计提供了新思路。
+  - Tags：`query:bioinfo`
+- [A novel hemizygous missense variant in the BEND2 gene is associated with nonobstructive azoospermia.](#/202605/12/202605/12/42116563-a-novel-hemizygous-missense-variant-in-the-bend2-gene-is-associated-with-nonobstructive-azoospermia)
+  - TLDR：非梗阻性无精子症（NOA）常由遗传缺陷引起。本研究通过全外显子组测序，在一名精子细胞发育停滞的NOA患者中发现了X染色体BEND2基因的新型半合子错义突变。结合AlphaFold结构建模和跨物种表达谱分析，研究证实该突变会干扰BEND2在减数分裂起始阶段的功能，其表型与基因敲除小鼠一致。该发现揭示了BEND2在人类减数分裂中的核心作用，扩展了男性不育的遗传病因谱。
+  - Tags：`query:bioinfo`
+- [From triangle to pyramid: Understanding host-pathogen-microniome-environment interplay for sustainable, enviromics-empowered management of plant diseases.](#/202605/12/202605/12/41814663-from-triangle-to-pyramid-understanding-host-pathogen-microniome-environment-interplay-for-sustainable-enviromics-empowered-management-of-plant-diseases)
+  - TLDR：传统的植物病害“三角模型”难以解释复杂的生物交互，本文提出了整合宿主、病原体、微生物组和环境的“病害金字塔”框架。通过融合宿主组学、病原组学、微生物组学和环境组学（Enviromics）等多组学数据，揭示了环境如何重塑微生物群落并影响宿主抗性。该研究为精准预测病害发生、培育具备环境适应性的抗性品种以及实现可持续农业管理提供了系统性的理论指导。
+  - Tags：`query:pathoai`
+- [Estimating the nationwide incidence of coxsackievirus A6-associated hand, foot and mouth disease in China, 2008-2022.](#/202605/12/202605/12/42116129-estimating-the-nationwide-incidence-of-coxsackievirus-a6-associated-hand-foot-and-mouth-disease-in-china-2008-2022)
+  - TLDR：针对中国柯萨奇病毒A6型（CVA6）引起的手足口病监测不足、疾病负担不明的问题，本研究整合了2008-2022年全国511个地点的监测与文献数据，利用贝叶斯地理统计高斯模型，结合环境、社会经济等协变量，估算了5岁以下儿童的感染率与发病率。结果显示CVA6年均发病率为506/10万，且在华南地区及高GDP地区更为严重，为制定针对性防控策略和疫苗研发提供了关键数据支持。
+  - Tags：`query:pathoai`
+- [Novel Phage Exhibits Effective In Vitro and In Vivo Activity Against Bovine-Derived Multidrug-Resistant Klebsiella pneumoniae.](#/202605/12/202605/12/42118066-novel-phage-exhibits-effective-in-vitro-and-in-vivo-activity-against-bovine-derived-multidrug-resistant-klebsiella-pneumoniae)
+  - TLDR：针对牛源多重耐药肺炎克雷伯菌对畜牧业的威胁，研究人员从医院污水中分离出5株具有遗传多样性的噬菌体，并构建了噬菌体鸡尾酒疗法。实验证明，该组合在体外表现出协同抑菌效果，并在小鼠菌血症模型中将存活率从50%提升至91.7%，有效降低了器官细菌载量与炎症损伤，为耐药菌感染提供了高效且安全的生物治疗方案。
+  - Tags：`query:pathoai`
 - [STAID: A Self-Refining Deep Learning Framework for Spatial Cell-Type Deconvolution with Biologically Informed Modeling.](#/202605/11/202605/11/42107049-staid-a-self-refining-deep-learning-framework-for-spatial-cell-type-deconvolution-with-biologically-informed-modeling)
   - TLDR：空间转录组技术因分辨率限制难以精确解析单个位点内的细胞组成。STAID 框架通过迭代优化伪位点生成与深度学习训练，并结合图信号处理捕捉基因间的高阶关系，构建了自增强的反卷积循环。该方法在乳腺癌、胚胎发育及克罗恩病等复杂组织数据中精准还原了细胞空间分布，为研究组织异质性和细胞微环境提供了高分辨率的分析工具。
   - Tags：`query:seqai`
@@ -575,33 +605,3 @@
 - [Navigating multi-omic integration methods for human microbiome research.](#/202604/22/202604/22/42014454-navigating-multi-omic-integration-methods-for-human-microbiome-research)
   - TLDR：人体微生物组研究中多组学数据整合面临分析挑战。本文系统梳理了整合方法，重点围绕分子层交互、疾病偏移、患者分层及机制识别等核心问题，为研究者提供根据目标选择最优策略的指南，旨在提升对宿主-微生物交互作用的理解。
   - Tags：`query:bioinfo`
-- [Machine learning model based on plasma proteomics for the identification of Parkinson's disease.](#/202604/22/202604/22/42015416-machine-learning-model-based-on-plasma-proteomics-for-the-identification-of-parkinsons-disease)
-  - TLDR：针对帕金森病（PD）诊断中缺乏可靠生物标志物的问题，本研究利用高通量血浆蛋白质组学技术，结合 Boruta 特征筛选和 Stacking 集成学习模型，从 698 名受试者中识别出 11 种关键蛋白标志物。该模型在多个独立外部队列中表现出高准确度（AUC 最高达 0.939），不仅提升了 PD 的临床诊断精度，还通过 SHAP 解释揭示了炎症和脂质代谢等潜在病理机制。
-  - Tags：`query:bioinfo`
-- [Integrative Proteomic and Machine Learning Analysis Identifies Novel Predictors and Risk Model for Diabetic Macrovascular Complications.](#/202604/22/202604/22/42017289-integrative-proteomic-and-machine-learning-analysis-identifies-novel-predictors-and-risk-model-for-diabetic-macrovascular-complications)
-  - TLDR：针对糖尿病大血管并发症早期预警工具匮乏的问题，本研究整合蛋白质组学孟德尔随机化、PWAS及机器学习技术，从循环蛋白中筛选出43个关键标志物。通过构建包含12种蛋白的风险评分模型，实现了对并发症的高精度预测（AUC=0.793），且能提前10-12年捕捉到蛋白异常轨迹。该研究不仅为临床提供了长效风险分层工具，还揭示了免疫炎症与细胞外基质重塑在病理过程中的核心作用。
-  - Tags：`query:bioinfo`
-- [Systematic evaluation of TCGA tumor microbiota reveals context-dependent reliability.](#/202604/22/202604/22/42017663-systematic-evaluation-of-tcga-tumor-microbiota-reveals-context-dependent-reliability)
-  - TLDR：针对TCGA肿瘤微生物组数据可靠性存疑的问题，本研究系统评估了两大主流微生物谱在24种癌症中的表现。通过置换检验框架发现，虽然微生物组成具有一致性，但其与宿主组学的关联（如生存率、细胞组成）存在大量伪相关。研究推出了MOMAC2平台对关联进行置信度分级，并实验验证了咽峡炎链球菌对口腔癌的促增殖作用，为肿瘤微生物组研究提供了可靠性基准。
-  - Tags：`query:seqai`
-- [The chicken gut virome: spatial structuring and extensive diversity of 19,778 viral populations.](#/202604/22/202604/22/41910132-the-chicken-gut-virome-spatial-structuring-and-extensive-diversity-of-19778-viral-populations)
-  - TLDR：针对鸡肠道病毒组研究不足的问题，本研究通过分析1,514份来自全球不同地区的肠道宏基因组样本，构建了包含19,778个病毒操作分类单元（vOTUs）的综合图谱。研究发现这些病毒以长尾噬菌体为主，且在肠道不同部位呈现显著的空间分层特征。该成果揭示了地理、品种和饮食对病毒多样性的影响，为通过调控病毒组提升家禽健康提供了重要的数据基础。
-  - Tags：`query:seqai`
-- [Cell wall remodeling-dependent morphotype switch in](#/202604/22/202604/22/41973921-cell-wall-remodeling-dependent-morphotype-switch-in)
-  - TLDR：鸟分枝杆菌（M. avium）存在透明（SmT）和不透明（SmO）两种菌落形态，其中SmT与致病性相关。本研究发现，这种形态切换并非源于基因重组，而是由细胞壁肽聚糖重塑基因（如marP和ripA）的突变或失调驱动。实验表明，SmO形态能通过激活NLRP3炎症小体增强肺部初步定植能力，而SmT形态则擅长长期存活。这一发现揭示了病原体通过细胞壁重塑来平衡定植与持久感染的生存策略。
-  - Tags：`query:pathoai`
-- [Agent based modeling approach for population dynamics of the biological vector Aedes aegypti.](#/202604/22/202604/22/42013888-agent-based-modeling-approach-for-population-dynamics-of-the-biological-vector-aedes-aegypti)
-  - TLDR：针对埃及伊蚊在奥地利等高气候波动地区的扩散风险，本研究开发了一个基于智能体的种群动力学模型。该模型整合了温度和降水对蚊子生命周期各阶段的影响，并模拟了2024年及未来气候情景下的种群演变。结果显示，尽管未来平均气温升高，但剧烈的气候波动导致未来种群规模预测值低于2024年，且蚊群无法越冬，表明该物种在当地长期定居风险较低，为公共卫生预警提供了科学依据。
-  - Tags：`query:pathoai`
-- [Precursors of sea star wasting: immune and microbial disruption during initial disease outbreak in southeast Alaska.](#/202604/22/202604/22/42014077-precursors-of-sea-star-wasting-immune-and-microbial-disruption-during-initial-disease-outbreak-in-southeast-alaska)
-  - TLDR：海星消耗性疾病（SSW）严重威胁北太平洋海星种群。本研究通过整合2016年阿拉斯加爆发初期向日葵海星的转录组与微生物数据，发现暴露于病原但尚未显症的个体已出现补体系统激活及组织重塑基因失调。研究揭示了弧菌属（Vibrio spp.）丰度与宿主免疫反应的关联，为理解SSW早期致病机制及宿主-病原体动态提供了关键证据。
-  - Tags：`query:pathoai`
-- [Population-scale long-read DNA sequencing: peering under the hood of the new evolutionary genomics.](#/202604/22/202604/22/42014088-population-scale-long-read-dna-sequencing-peering-under-the-hood-of-the-new-evolutionary-genomics)
-  - TLDR：针对传统短读长测序难以捕捉复杂结构变异的问题，本文综述了群体规模长读长测序（PLRS）与泛基因组技术在进化基因组学中的应用。通过分析鸟类等脊椎动物的二倍体组装、重复序列注释及拷贝数变异，文章展示了长读长技术如何利用泛基因组图谱精准量化变异。这一范式转变揭示了基因组中被长期忽视的复杂性，为理解物种进化提供了更完整的遗传图谱。
-  - Tags：`query:seqai`
-- [Chromosome-level genome assembly of the sponge Halisarca dujardinii.](#/202604/22/202604/22/42014710-chromosome-level-genome-assembly-of-the-sponge-halisarca-dujardinii)
-  - TLDR：针对具有极强再生能力的海洋海绵 Halisarca dujardinii，本研究利用纳米孔长读长、Illumina短读长及Hi-C技术，首次构建了其染色体级别的基因组图谱。该基因组大小为226.5 Mbp，包含21条染色体及完整的线粒体基因组，并结合单细胞转录组数据精细标注了1.4万个蛋白质编码基因。这一高质量基因组为探索海绵细胞重组再生机制及早期动物进化提供了关键的分子基础。
-  - Tags：`query:seqai`
-- [Adaptation of](#/202604/22/202604/22/41805190-adaptation-of)
-  - TLDR：粪肠球菌（Ef）是人体肠道的重要成员，但其在粘膜表面的定殖机制尚不明确。本研究利用人结肠类器官结合灌注培养系统，通过高分辨率成像观察到Ef在粘液层中形成生物膜样微菌落。结合转座子插入测序（Tn-seq）技术，揭示了Ef在粘膜定殖过程中发生的显著代谢重组和调控响应。该研究为理解肠道菌群与宿主粘膜的相互作用提供了高分辨率的生理模型。
-  - Tags：`query:pathoai`

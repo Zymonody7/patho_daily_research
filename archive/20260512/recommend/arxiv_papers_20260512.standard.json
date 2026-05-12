@@ -1,0 +1,481 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-05-12T20:18:54.488883+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 4,
+    "deep_cap": 9,
+    "deep_selected": 4,
+    "quick_candidates": 6,
+    "quick_skim_target": 14,
+    "quick_selected": 6
+  },
+  "deep_dive": [
+    {
+      "id": "41966053",
+      "title": "AI-driven fungicide design: From target identification to field application.",
+      "abstract": "Plant pathogenic fungi pose a severe threat to global agriculture, causing substantial yield losses in staple crops and jeopardizing food safety through mycotoxin contamination. Conventional fungicide development is hindered by high costs, lengthy timelines, and the rapid evolution of fungal resistance, which outpaces conventional discovery workflows. Although artificial intelligence (AI) offers transformative potential to address these bottlenecks, its application in plant pathology remains fragmented and lacks integration of agriculture-specific constraints such as field stability, ecological safety, and resistance management. This review introduces the AI-driven fungicide design (AIFD) platform, a comprehensive framework comprising four interdependent components: a plant pathogen-specific data ecosystem, a modular microservice technical architecture, a linear multiphase development workflow, and a specialized resistance prediction workflow. We synthesize key technological advances across the fungicide development pipeline, from target identification and virtual screening to molecular optimization and field validation, with an emphasis on AI methodologies adapted to agrochemical requirements rather than pharmaceutical standards. Despite substantial advances, critical challenges persist, including scarce high-quality training data for understudied pathogens, limited model adaptability across diverse agroecosystems, poor interpretability that hinders stakeholder trust, and accessibility barriers for resource-constrained researchers. Future directions emphasize the integration of real-time field data, explainable AI to facilitate regulatory acceptance, and inclusive design strategies aimed at bridging the laboratory-to-field gap. By aligning computational innovation with agricultural priorities, AIFD platforms can accelerate the discovery of resistance-breaking, environmentally benign fungicides, thus offering a viable pathway toward sustainable crop protection and enhanced global food security.",
+      "authors": [
+        "Hong Hu",
+        "Zhiguang Qu",
+        "Yuanlong Liu",
+        "Lida Zhu",
+        "Zhinan Mei",
+        "Xiao-Lin Chen"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41966053/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "AI-driven fungicide design and pathogen target identification",
+      "llm_evidence_cn": "AI驱动的杀菌剂设计与病原体靶点识别",
+      "llm_evidence": "AI驱动的杀菌剂设计与病原体靶点识别",
+      "canonical_evidence": "AI驱动的杀菌剂设计与病原体靶点识别",
+      "llm_tldr_en": "Presents an AI-driven platform for fungicide design, covering target identification and resistance management.",
+      "llm_tldr_cn": "提出了一个AI驱动的杀菌剂设计平台，涵盖靶点识别和抗药性管理。",
+      "llm_tldr": "提出了一个AI驱动的杀菌剂设计平台，涵盖靶点识别和抗药性管理。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42063254",
+      "title": "DeepTYLCV: An interpretable and experimentally validated AI model for predicting virulence of different tomato yellow leaf curl virus strains.",
+      "abstract": "Tomato yellow leaf curl virus (TYLCV) is among the most devastating pathogens affecting tomato production worldwide, with emerging virulent strains increasingly overcoming genetic resistance and triggering severe outbreaks. Traditional field diagnosis, reliant on visual inspection or image-based AI models, remains constrained by symptom dependence, environmental variability, and poor strain-level interpretability. To address these challenges, we introduce DeepTYLCV, a novel deep learning framework for accurate virulence prediction directly from viral-genome-derived open reading frame sequences. We first constructed a comprehensive dataset of globally sourced TYLCV sequences curated by virulence annotations. DeepTYLCV integrates protein language model-based embeddings with optimal concatenated conventional descriptors using a hybrid architecture composed of a transformer encoder and a multi-scale convolutional neural network, enabling effective extraction of both global and local sequence features. Benchmark analyses demonstrate that DeepTYLCV significantly outperforms our previously developed IML-TYLCV model, which was trained on Korean isolates and lacked global generalizability. Importantly, blind predictions on 15 uncharacterized or representative TYLCV isolates were experimentally validated in tomato plants, achieving 100% concordance between model predictions and observed symptom severity. Furthermore, 1D-Grad-CAM++-based interpretability analyses revealed that the model consistently focused on relevant sequence motifs associated with severe strains, offering mechanistic insights into symptom severity. DeepTYLCV is publicly available at https://balalab-skku.org/DeepTYLCV/ and represents a powerful, interpretable, and globally scalable platform for early TYLCV surveillance, resistance monitoring, and strategic disease management in tomato cultivation.",
+      "authors": [
+        "Nattanong Bupi",
+        "Hariharan Sangaraju",
+        "Duong Thanh Tran",
+        "Vinoth Kumar Sangaraju",
+        "Hyojin Im",
+        "Minkwan Kim",
+        "Sukchan Lee",
+        "Balachandran Manavalan"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42063254/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "deep learning for predicting virulence from viral genome sequences",
+      "llm_evidence_cn": "深度学习从病毒基因组序列预测毒力",
+      "llm_evidence": "深度学习从病毒基因组序列预测毒力",
+      "canonical_evidence": "深度学习从病毒基因组序列预测毒力",
+      "llm_tldr_en": "Introduces DeepTYLCV, a deep learning framework for accurate virulence prediction from viral genomic sequences.",
+      "llm_tldr_cn": "引入DeepTYLCV深度学习框架，直接从病毒基因组序列准确预测毒力。",
+      "llm_tldr": "引入DeepTYLCV深度学习框架，直接从病毒基因组序列准确预测毒力。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "foundation models for pathogen genomes and pathogen biology",
+      "matched_requirement_id": "req-1",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42115405",
+      "title": "Scaling and quantization of a foundational deep learning model for network biology.",
+      "abstract": "",
+      "authors": [],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42115405/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "foundational deep learning model for network biology",
+      "llm_evidence_cn": "网络生物学的基础深度学习模型",
+      "llm_evidence": "网络生物学的基础深度学习模型",
+      "canonical_evidence": "网络生物学的基础深度学习模型",
+      "llm_tldr_en": "Discusses scaling and quantization techniques for a foundational deep learning model applied to biological networks.",
+      "llm_tldr_cn": "探讨了应用于生物网络的基础深度学习模型的缩放和量化技术。",
+      "llm_tldr": "探讨了应用于生物网络的基础深度学习模型的缩放和量化技术。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "graph learning and foundation models for gene regulatory network inference and perturbation biology",
+      "matched_requirement_id": "req-22",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42115936",
+      "title": "Identifying gut microbiome signatures of type 1 diabetes using machine learning and evolutionary feature selection.",
+      "abstract": "BACKGROUND: Type 1 Diabetes Mellitus (T1D) has been increasingly associated with alterations in the gut microbiome. However, the impact of taxonomic resolution, feature selection strategies, and machine learning methods on microbiome-based prediction remains incompletely understood. METHODS: We analyzed publicly available 16S rRNA gene sequencing datasets from two geographic cohorts to evaluate microbiome-based prediction of T1D. Microbial features were constructed at multiple taxonomic levels and as full hierarchical taxonomic paths preserving phylogenetic structure. Machine learning models were trained using stratified cross-validation and cross-cohort validation frameworks. Feature selection was performed using Binary Particle Swarm Optimization (BPSO) to identify compact and predictive microbial signatures. Model performance was evaluated using AUC, Accuracy, F1 score, and Matthews Correlation Coefficient. Differential abundance analysis using the LinDA framework was used to support biological interpretation of selected taxa. RESULTS: Tree-based models, particularly Random Forest and XGBoost, achieved the strongest predictive performance across taxonomic representations. Taxonomic resolution influenced model behavior, with family-level features providing strong performance with compact feature sets, while higher-resolution representations did not consistently improve performance despite increased complexity. BPSO identified consistently selected taxa across validation frameworks, suggesting stable predictive signatures. Several of these taxa have been linked to inflammatory or metabolically altered gut environments. Cross-cohort validation showed reduced performance compared with within-study models, highlighting challenges in generalization. CONCLUSION: Machine learning combined with BPSO-based feature selection provides an effective framework for identifying predictive microbial signatures associated with T1D. Our findings highlight the importance of taxonomic resolution, feature stability, and cross-cohort validation in microbiome-based predictive modeling. Integrating evolutionary feature selection with machine learning and biological validation may improve the robustness and interpretability of candidate microbial signatures.",
+      "authors": [
+        "Acelya Dalgic",
+        "Idil Yet"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42115936/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "machine learning for microbiome-based prediction of type 1 diabetes",
+      "llm_evidence_cn": "基于机器学习的肠道微生物组预测1型糖尿病",
+      "llm_evidence": "基于机器学习的肠道微生物组预测1型糖尿病",
+      "canonical_evidence": "基于机器学习的肠道微生物组预测1型糖尿病",
+      "llm_tldr_en": "Evaluates machine learning and feature selection for identifying gut microbiome signatures of type 1 diabetes.",
+      "llm_tldr_cn": "评估了机器学习和特征选择在识别1型糖尿病肠道微生物组特征中的应用。",
+      "llm_tldr": "评估了机器学习和特征选择在识别1型糖尿病肠道微生物组特征中的应用。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "42115189",
+      "title": "Aggregation in gut: on the link between neurodegeneration and bacterial functional amyloids.",
+      "abstract": "Amyloids are insoluble protein aggregates with a cross-beta structure, which are traditionally associated with neurodegeneration. Similar structures, named functional amyloids, expressed mostly by microorganisms, play important physiological roles, e.g., bacterial biofilm stabilization. Using a bioinformatics approach, we identify gut microbiome functional amyloids and analyze their potential impact on human health via the gut-brain axis. The results point to taxonomically diverse sources of functional amyloids and their frequent presence in the extracellular space. The retrieved interactions between gut microbiome functional amyloids and human proteins indicate their potential to trigger inflammation, affect transport and signaling processes; pathways typically affected by host-microbiome interactions. We also find a greater relative abundance of bacterial functional amyloids in patients diagnosed with Parkinson's disease in two out of three analyzed datasets. Our results generate hypotheses on a tentative link between neurodegeneration and gut bacterial functional amyloids, which require further experimental validation.",
+      "authors": [
+        "Alicja W Wojciechowska",
+        "Jakub W Wojciechowski",
+        "Kinga Zielinska",
+        "Johannes Soeding",
+        "Tomasz Kosciolek",
+        "Malgorzata Kotulska"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42115189/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "bioinformatics approach to identify gut microbiome functional amyloids",
+      "llm_evidence_cn": "生物信息学方法鉴定肠道微生物组功能性淀粉样蛋白",
+      "llm_evidence": "生物信息学方法鉴定肠道微生物组功能性淀粉样蛋白",
+      "canonical_evidence": "生物信息学方法鉴定肠道微生物组功能性淀粉样蛋白",
+      "llm_tldr_en": "Identifies gut microbiome functional amyloids and their impact on human health using bioinformatics.",
+      "llm_tldr_cn": "利用生物信息学方法鉴定肠道微生物组功能性淀粉样蛋白及其对人类健康的影响。",
+      "llm_tldr": "利用生物信息学方法鉴定肠道微生物组功能性淀粉样蛋白及其对人类健康的影响。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41814663",
+      "title": "From triangle to pyramid: Understanding host-pathogen-microniome-environment interplay for sustainable, enviromics-empowered management of plant diseases.",
+      "abstract": "Understanding plant disease development requires moving beyond the classic disease triangle, which considers the host, pathogen, and environment. Recent advances in multi-omics have highlighted the importance of a disease pyramid that integrates the host, pathogen, microbiome, and environment to capture the complex interactions among these core biological/ecological components. This pyramid framework emphasizes how host genetic architecture, pathogen traits, microbiome dynamics, and environmental conditions collectively and interactively shape disease outcomes, plant phenotypes, and adaptive potential. The conceptual expansion from the disease triangle to a pyramid model reflects this shift, providing a more holistic and dynamic view of plant disease ecology. Environmental factors regulate host susceptibility and restructure both pathogenic and non-pathogenic microbial communities, thereby influencing infection severity and disease progression. Multi-omics approaches-encompassing hostomics, pathomics, microbiomics, and enviromics-hold strong promise for dissecting these interactions, enabling predictive disease modeling and the development of sustainable management strategies. Moreover, integrating enviromics data into resistance breeding enables the identification of key environmental variables and their interactions with host genotypes and pathogenic and non-pathogenic microbes, thereby supporting the deployment of durable resistance across diverse agroecosystems. Together, these perspectives advance a systems-level understanding of plant health and open new avenues for disease management through omics-driven breeding, microbiome-informed strategies, and environmentally responsive interventions.",
+      "authors": [
+        "Taotao Wang",
+        "Wenjing Hu",
+        "Weifeng Song",
+        "Xiwen Liao",
+        "Hongjian Zheng",
+        "Xingping Zhang",
+        "Xiufang Xin",
+        "Pawan Kumar Singh",
+        "Yuan Chen",
+        "Yunbi Xu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41814663/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "multi-omics framework for host-pathogen-microbiome-environment interactions",
+      "llm_evidence_cn": "宿主-病原体-微生物组-环境相互作用的多组学框架",
+      "llm_evidence": "宿主-病原体-微生物组-环境相互作用的多组学框架",
+      "canonical_evidence": "宿主-病原体-微生物组-环境相互作用的多组学框架",
+      "llm_tldr_en": "Proposes a disease pyramid framework integrating multi-omics to understand complex plant disease interactions.",
+      "llm_tldr_cn": "提出了一个整合多组学的疾病金字塔框架，用于理解复杂的植物疾病相互作用。",
+      "llm_tldr": "提出了一个整合多组学的疾病金字塔框架，用于理解复杂的植物疾病相互作用。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42115209",
+      "title": "Machine learning-driven discovery of therapeutic nucleoside hydrogels for periodontitis.",
+      "abstract": "Supramolecular hydrogels hold significant potential in drug delivery and tissue engineering, with standing out for their unique properties. Despite their promise, predicting nucleoside bioactivity remains challenging. This study aims to predict the biological activity of nucleosides to guide the rational synthesis of hydrogels. Specifically, nine predictive models and databases for various biological activities were built with feature-selected machine learning methods including decision trees, logistic regression, random forest, and extreme gradient boosting. Then, the Molecular Bioactivity Specificity Index (MBSI) was introduced to gauge the primary bioactivity of nucleoside derivatives, and the Composite Molecular Attribute Score (CMAS) was devised to measure the overall performance of nucleoside derivatives. Subsequently, screening strategies for bioactive nucleoside hydrogels were established, and two candidate hydrogels (GMP and dGMP) with high hydrogel-forming ability, biocompatibility, and antibacterial activity were identified. Finally, two hydrogels were validated for antibacterial treatment of periodontitis. This study highlights the feasibility of ML-based strategies and MBSI/CMAS in rationally designing bioactive nucleoside hydrogels for biomedical applications. The discovery of GMP and dGMP hydrogels and their successful validation in periodontitis models highlight the potential of this strategy for developing targeted therapies for oral diseases.",
+      "authors": [
+        "Weiqi Li",
+        "Yinghui Wen",
+        "Zhenyuan Huang",
+        "Fangyuan Shuai",
+        "Yijia Yin",
+        "Qianming Chen",
+        "Fudong Zhu",
+        "Hao Xu",
+        "Hang Zhao"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42115209/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "machine learning for predicting nucleoside bioactivity and therapeutic hydrogel synthesis",
+      "llm_evidence_cn": "机器学习预测核苷生物活性及治疗性水凝胶合成",
+      "llm_evidence": "机器学习预测核苷生物活性及治疗性水凝胶合成",
+      "canonical_evidence": "机器学习预测核苷生物活性及治疗性水凝胶合成",
+      "llm_tldr_en": "Uses ML to predict nucleoside bioactivity for rational design of therapeutic hydrogels in tissue engineering.",
+      "llm_tldr_cn": "利用机器学习预测核苷生物活性，指导组织工程中治疗性水凝胶的理性设计。",
+      "llm_tldr": "利用机器学习预测核苷生物活性，指导组织工程中治疗性水凝胶的理性设计。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models and generative AI for drug discovery molecular property prediction and lead optimization",
+      "matched_requirement_id": "req-20",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42116129",
+      "title": "Estimating the nationwide incidence of coxsackievirus A6-associated hand, foot and mouth disease in China, 2008-2022.",
+      "abstract": "BACKGROUND: Due to insufficient routine surveillance, the nationwide disease burden of hand, foot and mouth disease (HFMD) caused by coxsackievirus A6 (CVA6), an emerging serotype, in China remains unclear. This study aimed to estimate the incidence of CVA6-associated HFMD across the Chinese mainland. METHODS: CVA6 positive data from 511 locations across the Chinese mainland during 2008-2022 were integrated from the national pathogen surveillance system and literature, and reported HFMD cases during the same period were obtained from the national infectious disease surveillance system. The predicted positivity rate and incidence of CVA6-associated HFMD in children under five years of age across the Chinese mainland were estimated using a Bayesian geostatistical Gaussian model based on positivity data, reported cases, and environmental, socioeconomic, demographic, and vaccination factors. RESULTS: The model estimated that the average positivity rate of CVA6 in the Chinese mainland from 2008 to 2022 was 24.1%, with a 95% Bayesian credible interval (BCI) of 11.9-43.3%. The corresponding average annual incidence of CVA6-associated HFMD in children under five years of age was 506 (95% BCI: 272-805) per 100,000. The yearly incidence of CVA6-associated HFMD in children under five years of age peaked in 2018 (873 per 100,000; 95% BCI: 513-1309) before a subsequent decline after 2020. The incidence was highest in South China (1571 per 100,000; 95% BCI: 890-2420) and lowest in Northeast China (208 per 100,000; 95% BCI: 106-340). The estimated CVA6-associated HFMD incidence showed a consistent upward trend across different economic level groups before 2020, and tended to be higher in high-gross domestic product (GDP) per capita regions than in medium- and low-GDP regions. CONCLUSIONS: Model-based estimates indicate a potentially high incidence of CVA6-associated HFMD on the Chinese mainland, particularly in South China, highlighting the need for enhanced surveillance of CVA6 and targeted control efforts in high-incidence regions.",
+      "authors": [
+        "Yuanhua Liu",
+        "Na Wang",
+        "Fengfeng Liu",
+        "Ke Li",
+        "Michael P Ward",
+        "Nicholas C Grassly",
+        "Wei Tu",
+        "Jinming Yu",
+        "Wenjin Li",
+        "Yu Zhao",
+        "Jidan Zhang",
+        "Jiawen Dong",
+        "Tianren Lu",
+        "Mengxin Liu",
+        "Zhaorui Chang",
+        "Zhijie Zhang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-11",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42116129/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "pathogen surveillance and incidence estimation using integrated data",
+      "llm_evidence_cn": "利用整合数据进行病原体监测和发病率估计",
+      "llm_evidence": "利用整合数据进行病原体监测和发病率估计",
+      "canonical_evidence": "利用整合数据进行病原体监测和发病率估计",
+      "llm_tldr_en": "Estimates nationwide incidence of CVA6-associated HFMD in China using surveillance data and modeling.",
+      "llm_tldr_cn": "利用监测数据和建模估计中国全国范围内CVA6相关手足口病的发病率。",
+      "llm_tldr": "利用监测数据和建模估计中国全国范围内CVA6相关手足口病的发病率。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI methods for genomic surveillance and outbreak monitoring",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42116563",
+      "title": "A novel hemizygous missense variant in the BEND2 gene is associated with nonobstructive azoospermia.",
+      "abstract": "Nonobstructive azoospermia (NOA), the most severe form of male infertility, frequently arises from genetic defects that disrupt spermatogenesis. In this study, a novel hemizygous missense variant (NM_001184767.2 [c.G1069A; p.V357I]) is identified in the X-linked BEN domain-containing 2 (BEND2) gene of a patient with NOA characterized by spermatocyte maturation arrest. Whole-exome sequencing and Sanger validation confirmed that this rare variant is absent in fertile controls and that no pathogenic variants were detected in established NOA genes. Computational analysis predicted potential structural alterations via AlphaFold modeling, leading to the hypothesis that the ability of BEND2 to recognize genomic targets may be compromised. The patient's phenotype phenocopies the meiotic arrest observed in Bend2-knockout mice. Expression profiling confirmed predominant BEND2 transcription in human and mouse testes, peaking in early spermatocytes and coinciding with meiotic initiation, with reduced transcript levels detected in the proband's peripheral blood compared with those in an obstructive azoospermia control. This study reports a pathogenic BEND2 variant associated with NOA with spermatocyte arrest, highlighting its critical role in human meiosis and expanding the genetic etiology of male infertility.",
+      "authors": [
+        "Chun-Hai Luo",
+        "Zi-Qi Yu",
+        "Hong-Yi Wang",
+        "Hao Zhou",
+        "Yun-Hao Wu",
+        "Li-Fu Shao",
+        "Han-Chao Liu",
+        "Jun-Feng Zhan",
+        "Chong Xie",
+        "Sheng-Wei Ke",
+        "Bei-Bei Zhang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42116563/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "AlphaFold modeling for protein structural alterations",
+      "llm_evidence_cn": "AlphaFold建模分析蛋白质结构改变",
+      "llm_evidence": "AlphaFold建模分析蛋白质结构改变",
+      "canonical_evidence": "AlphaFold建模分析蛋白质结构改变",
+      "llm_tldr_en": "Uses AlphaFold modeling to predict structural alterations in BEND2 associated with male infertility.",
+      "llm_tldr_cn": "利用AlphaFold建模预测与男性不育相关的BEND2蛋白结构改变。",
+      "llm_tldr": "利用AlphaFold建模预测与男性不育相关的BEND2蛋白结构改变。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "geometric deep learning and foundation models for protein structure modeling",
+      "matched_requirement_id": "req-17",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42118066",
+      "title": "Novel Phage Exhibits Effective In Vitro and In Vivo Activity Against Bovine-Derived Multidrug-Resistant Klebsiella pneumoniae.",
+      "abstract": "AIMS: Multidrug-resistant (MDR) Klebsiella pneumoniae (K. pneumoniae) poses a serious threat to cattle health. This study aimed to isolate phages against bovine-origin MDR K. pneumoniae and evaluate their therapeutic potential. METHODS AND RESULTS: We successfully isolated five lytic bacteriophages (phage) (vB_Kpn_Y1-Y5) from hospital sewage samples. They showed favorable temperature and pH stability, efficient lytic cycles, and narrow host ranges. Whole-genome analysis further classified these phages into three categories belonging to the families Siphoviridae and Podoviridae within the class of Caudoviricetes. This genetic diversity provides a foundation for constructing a phage cocktail. A phage cocktail constructed from these phages exhibited synergistic antibacterial effects in vitro, with superior inhibition and duration compared to single phages. In a mouse bacteremia model, the phage cocktail therapy significantly increased the survival rate of mice from 50% to 91.7% (p < 0.05), effectively reduced bacterial loads in multiple organs (p < 0.0001), alleviated tissue inflammatory damage, and showed no obvious toxicity. DISCUSSION: The genetic diversity of the phages underpinned their synergy. The phage cocktail demonstrated better efficacy than monotherapy both in vitro and in vivo.",
+      "authors": [
+        "Keyu Zhu",
+        "Kexuan Gao",
+        "Yaqi Hou",
+        "Yuhui Li",
+        "Bingbing Lei",
+        "Yuxuan Wang",
+        "Jinlong Bai",
+        "Xinru Mao",
+        "Wei Ni",
+        "Shengwei Hu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42118066/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "whole-genome analysis of phages for therapeutic potential against MDR pathogens",
+      "llm_evidence_cn": "噬菌体全基因组分析及其针对多重耐药病原体的治疗潜力",
+      "llm_evidence": "噬菌体全基因组分析及其针对多重耐药病原体的治疗潜力",
+      "canonical_evidence": "噬菌体全基因组分析及其针对多重耐药病原体的治疗潜力",
+      "llm_tldr_en": "Isolates and genomically characterizes phages to treat multidrug-resistant Klebsiella pneumoniae.",
+      "llm_tldr_cn": "分离并进行基因组鉴定，利用噬菌体治疗多重耐药肺炎克雷伯菌。",
+      "llm_tldr": "分离并进行基因组鉴定，利用噬菌体治疗多重耐药肺炎克雷伯菌。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}
