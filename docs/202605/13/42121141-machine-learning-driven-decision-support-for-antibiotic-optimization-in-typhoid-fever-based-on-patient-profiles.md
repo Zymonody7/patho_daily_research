@@ -1,0 +1,22 @@
+---
+title: Machine learning-driven decision support for antibiotic optimization in typhoid fever based on patient profiles.
+title_zh: 基于患者特征的机器学习驱动伤寒抗生素优化决策支持
+authors: "Charles Ssemuyiga, Elminah Saru, Yusuf Abbas Aleshinloye"
+date: 2026-05-12
+pdf: "https://pubmed.ncbi.nlm.nih.gov/42121141/"
+tags: ["query:pathoai"]
+score: 8.0
+evidence: 用于抗生素优化和耐药性代理评分的机器学习
+tldr: 针对伤寒治疗中抗生素耐药性（AMR）和个体差异导致的用药难题，本研究开发了一个基于 XGBoost 的临床决策支持系统。该系统通过分析患者临床特征预测治疗结果、分类疑似病例并评估耐药风险，并利用 SHAP 解释模型决策。实验表明，模型推荐的用药方案与高治疗成功率显著相关，为资源受限地区的抗生素精准优化提供了可解释的机器学习方案。
+selection_source: fresh_fetch
+motivation: 伤寒治疗受抗生素耐药性和患者个体差异影响极大，临床医生难以仅凭常规数据快速确定最有效的抗生素方案。
+method: 利用 XGBoost 算法构建了包含治疗结果预测、病例分类及耐药评分的多任务框架，并结合 SHAP 解释性分析与反事实药物模拟进行方案推荐。
+result: "模型在治疗结果预测上达到 0.962 的 AUROC，且反事实模拟显示，当医生处方与模型首选建议一致时，治疗成功率从 32.6% 显著提升至 72.7%。"
+conclusion: 机器学习结合反事实模拟能有效辅助伤寒抗生素优化，在提升治疗精准度的同时为应对耐药性管理提供了新工具。
+---
+
+## 摘要
+引言：伤寒仍然是全球主要的公共卫生问题，其治疗结果受抗生素耐药性（AMR）和患者间差异的强烈影响。为个体患者确定最合适的抗生素在临床上仍具挑战性。基于机器学习的临床决策支持系统（CDSS）为利用常规收集的临床数据提高诊断精度和指导抗生素选择提供了一条充满前景的途径。方法：我们开发了一个基于机器学习的决策支持框架，利用 XGBoost 模型根据临床特征和工程特征预测：(i) 治疗结果（二分类）、(ii) 疑似伤寒分类以及 (iii) 耐药代理评分。使用 AUROC 评估分类任务的模型性能，使用 R2 评估回归任务，并利用 Brier 分数进行概率校准分析。使用 SHAP 解释特征重要性，生成患者层面的解释，并识别潜在的患者亚组。此外，还实施了反事实药物模拟实验，以比较临床医生开具的抗生素与模型推荐的替代方案。结果：治疗结果分类器表现出强大的泛化性能，测试 AUROC 达到 0.962 ± 0.010，总体准确率为 90%。疑似伤寒分类器的 AUROC 为 0.902 ± 0.005，总体分类准确率为 82%。耐药代理回归模型显示出中等的预测能力（R2 = 0.588 ± 0.011）。SHAP 分析确定血小板计数、年龄、血红蛋白、钙、钾和严重程度评分是各模型中的主要预测因子，并通过基于归因的聚类揭示了生物学上一致的患者亚组。反事实药物模拟显示，在 37.1% 的病例中，模型的首选推荐与临床医生开具的药物一致，在 28.2% 的病例中作为第二选项出现。当处方与模型的首选推荐一致时，治疗成功率最高（72.7%），而当没有一致性时，成功率最低（32.6%）。结论：本研究证明了利用机器学习结合患者个体临床特征来模拟伤寒治疗中抗生素选择的可行性。它提出了一个在不确定性下进行抗生素优化的机器学习决策支持框架，与资源有限地区的抗生素耐药性管理具有明确的相关性。据我们所知，这是首批将可解释机器学习与反事实药物模拟相结合，用于伤寒抗生素优化的研究之一。
+
+## Abstract
+INTRODUCTION: Typhoid fever remains a major Global public health concern, with treatment outcomes strongly influenced by antimicrobial resistance (AMR) and inter-patient variability. Determining the most appropriate antibiotic for an individual patient remains clinically challenging. Machine learning-based clinical decision support systems (CDSS) offer a promising avenue for improving diagnostic precision and guiding antibiotic selection using routinely collected clinical data. METHODS: We developed a machine learning-based decision-support framework using XGBoost models to predict (i) treatment outcome (binary), (ii) suspected typhoid classification, and (iii) a resistance-proxy score from clinical and engineered features. Model performance was evaluated using AUROC for classification tasks and R2 for regression, alongside probability calibration analysis using the Brier score. SHAP was used to interpret feature importance, generate patient-level explanations, and identify latent patient subgroups. A counterfactual drug-simulation experiment was further implemented to compare clinician-prescribed antibiotics with model-recommended alternatives. RESULTS: The treatment outcome classifier demonstrated strong generalization performance, achieving a test AUROC of 0.962 ± 0.010 and an overall accuracy of 90%. The suspected typhoid classifier achieved an AUROC of 0.902 ± 0.005 with an overall classification accuracy of 82%. The resistance-proxy regression model showed moderate predictive capacity (R2 = 0.588 ± 0.011). SHAP analysis identified platelet count, age, hemoglobin, calcium, potassium, and severity score as dominant predictors across models and revealed biologically coherent patient subgroups through attribution-based clustering. Counterfactual drug simulations showed that the model's top recommendation matched the clinician-prescribed drug in 37.1% of cases and appeared as the second-rankedt option in 28.2% of cases. Treatment success was highest when prescriptions aligned with the model's primary recommendation (72.7%) and lowest when no alignment was observed (32.6%). CONCLUSION: This study demonstrates the feasibility of using machine learning to simulate antibiotic selection in typhoid treatment using patient-level clinical profiles. It presents a machine learning-based decision-support framework for antibiotic optimization under uncertainty, with explicit relevance to antimicrobial resistance management in resource-limited settings. To our knowledge, this is among the first studies to integrate explainable machine learning with counterfactual drug simulation for antibiotic optimization in typhoid fever.

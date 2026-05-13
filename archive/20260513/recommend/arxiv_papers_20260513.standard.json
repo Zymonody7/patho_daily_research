@@ -1,0 +1,780 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-05-13T20:22:19.594308+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 3,
+    "deep_cap": 9,
+    "deep_selected": 3,
+    "quick_candidates": 13,
+    "quick_skim_target": 14,
+    "quick_selected": 13
+  },
+  "deep_dive": [
+    {
+      "id": "42121287",
+      "title": "scArchon: a scalable benchmarking framework for assessing single-cell perturbation models.",
+      "abstract": "BACKGROUND: The accurate prediction of cellular responses to perturbations, such as drug treatments, remains a pivotal challenge in single-cell transcriptomics. While numerous deep learning tools have been developed for this task, their systematic benchmarking across diverse datasets and performance metrics has been limited. RESULTS: Here, we present scArchon, a reproducible, modular benchmarking platform built on Snakemake. It is designed to evaluate perturbation response prediction tools in an unbiased and extensible manner. Employing six representative single-cell RNA-seq datasets, we compare leading methods such as scGen, CPA, trVAE, scPRAM, scVIDR, scDisInFact, SCREEN, scPreGAN, and CellOT against baselines. We assess model performance using a composite of statistical and biological metrics. Our analysis reveals heterogeneous performance. While methods like trVAE, scGen, scPRAM, and scVIDR achieve robust results across multiple datasets, other tools occasionally underperform even compared to linear or control baselines. Notably, models with favorable quantitative scores may fail to retain key biological perturbation signatures, underscoring the need for gene-level evaluation. CONCLUSIONS: scArchon provides a unified, extensible foundation for large-scale, standardized benchmarking of perturbation prediction tools, facilitating methodological transparency and accelerating development in this rapidly evolving field. We encourage adoption of scArchon and sharing of containerized tools to drive progress in single-cell perturbation modeling.",
+      "authors": [
+        "Jean Radig",
+        "Robin Droit",
+        "Daria Doncevic",
+        "Albert Li",
+        "Duc Thien Bui",
+        "Luis Herfurth",
+        "Thaddeus Kühn",
+        "Carl Herrmann"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42121287/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "benchmarking framework for assessing single-cell perturbation models",
+      "llm_evidence_cn": "评估单细胞扰动模型的基准测试框架",
+      "llm_evidence": "评估单细胞扰动模型的基准测试框架",
+      "canonical_evidence": "评估单细胞扰动模型的基准测试框架",
+      "llm_tldr_en": "Introduces scArchon, a platform for benchmarking deep learning models that predict cellular responses to perturbations.",
+      "llm_tldr_cn": "推出了 scArchon，一个用于评估预测细胞对扰动反应的深度学习模型的基准测试平台。",
+      "llm_tldr": "推出了 scArchon，一个用于评估预测细胞对扰动反应的深度学习模型的基准测试平台。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI for CRISPR design gene editing outcome prediction and perturbation modeling",
+      "matched_requirement_id": "req-33",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42121141",
+      "title": "Machine learning-driven decision support for antibiotic optimization in typhoid fever based on patient profiles.",
+      "abstract": "INTRODUCTION: Typhoid fever remains a major Global public health concern, with treatment outcomes strongly influenced by antimicrobial resistance (AMR) and inter-patient variability. Determining the most appropriate antibiotic for an individual patient remains clinically challenging. Machine learning-based clinical decision support systems (CDSS) offer a promising avenue for improving diagnostic precision and guiding antibiotic selection using routinely collected clinical data. METHODS: We developed a machine learning-based decision-support framework using XGBoost models to predict (i) treatment outcome (binary), (ii) suspected typhoid classification, and (iii) a resistance-proxy score from clinical and engineered features. Model performance was evaluated using AUROC for classification tasks and R2 for regression, alongside probability calibration analysis using the Brier score. SHAP was used to interpret feature importance, generate patient-level explanations, and identify latent patient subgroups. A counterfactual drug-simulation experiment was further implemented to compare clinician-prescribed antibiotics with model-recommended alternatives. RESULTS: The treatment outcome classifier demonstrated strong generalization performance, achieving a test AUROC of 0.962 ± 0.010 and an overall accuracy of 90%. The suspected typhoid classifier achieved an AUROC of 0.902 ± 0.005 with an overall classification accuracy of 82%. The resistance-proxy regression model showed moderate predictive capacity (R2 = 0.588 ± 0.011). SHAP analysis identified platelet count, age, hemoglobin, calcium, potassium, and severity score as dominant predictors across models and revealed biologically coherent patient subgroups through attribution-based clustering. Counterfactual drug simulations showed that the model's top recommendation matched the clinician-prescribed drug in 37.1% of cases and appeared as the second-rankedt option in 28.2% of cases. Treatment success was highest when prescriptions aligned with the model's primary recommendation (72.7%) and lowest when no alignment was observed (32.6%). CONCLUSION: This study demonstrates the feasibility of using machine learning to simulate antibiotic selection in typhoid treatment using patient-level clinical profiles. It presents a machine learning-based decision-support framework for antibiotic optimization under uncertainty, with explicit relevance to antimicrobial resistance management in resource-limited settings. To our knowledge, this is among the first studies to integrate explainable machine learning with counterfactual drug simulation for antibiotic optimization in typhoid fever.",
+      "authors": [
+        "Charles Ssemuyiga",
+        "Elminah Saru",
+        "Yusuf Abbas Aleshinloye"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42121141/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "machine learning for antibiotic optimization and resistance-proxy scoring",
+      "llm_evidence_cn": "用于抗生素优化和耐药性代理评分的机器学习",
+      "llm_evidence": "用于抗生素优化和耐药性代理评分的机器学习",
+      "canonical_evidence": "用于抗生素优化和耐药性代理评分的机器学习",
+      "llm_tldr_en": "XGBoost models predict treatment outcomes and resistance scores to guide antibiotic selection for typhoid fever.",
+      "llm_tldr_cn": "利用XGBoost模型预测伤寒治疗结果和耐药评分，以指导临床抗生素选择。",
+      "llm_tldr": "利用XGBoost模型预测伤寒治疗结果和耐药评分，以指导临床抗生素选择。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42126407",
+      "title": "Anti-",
+      "abstract": "Candida albicans represents a critical opportunistic fungal pathogen. The escalating prevalence of drug resistance necessitates urgent development of novel antifungal therapeutics. Natural products, characterized by structural diversity and bioactivity, constitute pivotal resources for antifungal drug discovery. Microbial-derived anti-C. albicans natural products (ACA-NPs) remain under-explored yet as highly promising resources. This review synthesizes advancements over the past 15 years regarding microbial ACA-NPs, emphasizing the strategies for multi-omics integration and data mining, in vitro and in vivo antifungal efficacy assessment, mechanisms of antifungal action, and future research directions and perspectives.",
+      "authors": [
+        "Di Zhang",
+        "Xiaoxing Liu",
+        "Xueqin Zhao",
+        "Zixin Yan",
+        "Weichen Wang",
+        "Guifu Dai"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-13",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42126407/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Multi-omics integration and data mining for antifungal drug discovery",
+      "llm_evidence_cn": "用于抗真菌药物发现的多组学整合与数据挖掘",
+      "llm_evidence": "用于抗真菌药物发现的多组学整合与数据挖掘",
+      "canonical_evidence": "用于抗真菌药物发现的多组学整合与数据挖掘",
+      "llm_tldr_en": "Reviews multi-omics and data mining strategies for discovering natural products against Candida albicans.",
+      "llm_tldr_cn": "综述了用于发现抗白色念珠菌天然产物的多组学整合与数据挖掘策略。",
+      "llm_tldr": "综述了用于发现抗白色念珠菌天然产物的多组学整合与数据挖掘策略。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "41979352",
+      "title": "Harnessing random peptide mixtures to combat multidrug-resistant fungal infections.",
+      "abstract": "UNLABELLED: Invasive fungal infections are associated with high mortality and are increasingly difficult to treat due to a limited antifungal arsenal and the rapid emergence of drug resistance. Novel therapeutic strategies that combine potent antifungal activity, low host toxicity, in vivo stability, and a reduced propensity for resistance development are urgently needed. Antimicrobial peptides (AMPs) stand out as a promising class of compounds to combat antimicrobial resistance. Leveraging the unique properties of AMPs, we previously developed a novel approach to synthesize random peptide mixtures (RPMs) with robust bactericidal activity against drug-resistant bacteria. Here, we evaluate the antifungal potential of RPMs and demonstrate species-dependent, broad-spectrum activity of FK20 (L-phenylalanine-L-lysine, 20-mer) against major human fungal pathogens, including Candida spp., Cryptococcus neoformans, and Aspergillus fumigatus, with particularly high potency against the multidrug-resistant pathogen Candida auris. Mechanistic analyses revealed rapid membrane and cell wall disruption accompanied by intracellular penetration, consistent with membrane-active antifungal activity. Importantly, experimental evolution assays demonstrated a markedly reduced capacity for resistance development in C. auris. FK20 inhibited biofilm formation and displayed substantial activity against mature, pre-formed biofilms, both alone and synergistically in combination with caspofungin. Finally, FK20 showed significant therapeutic efficacy in a murine model of systemic candidiasis. Collectively, these findings establish RPMs as a versatile antifungal platform with broad-spectrum activity, biofilm efficacy, and a low resistance footprint, highlighting their promise as a novel therapeutic strategy against drug-resistant fungal infections. IMPORTANCE: The rising prevalence of invasive fungal infections, particularly among immunocompromised individuals, has become a critical public health concern. However, antifungal drug development has not kept pace with this growing need, and treatment options remain limited to a small number of drug classes. The emergence of multidrug-resistant fungal pathogens, such as Candida auris, further exacerbates this crisis by reducing the efficacy of existing therapeutics and increasing the risk of treatment failure. In this study, we evaluate the antifungal potential of FK20, a random peptide mixture (RPM) composed of L-phenylalanine and L-lysine. FK20 displays potent activity against C. auris and other clinically relevant Candida species, impairs biofilm formation, and exhibits synergy with caspofungin. Importantly, FK20 limits the emergence of resistance and demonstrates therapeutic efficacy in a murine model of systemic candidiasis. These findings establish RPMs as a promising new class of antifungals with broad-spectrum activity and clinical potential against drug-resistant fungal infections.",
+      "authors": [
+        "John Adeoye",
+        "Yael Belo",
+        "Marina Campos Rocha",
+        "Hilla Hayby",
+        "Aygun Israyilova",
+        "Zvi Hayouka",
+        "Neta Shlezinger"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-13",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41979352/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "therapeutic design to combat multidrug-resistant fungal infections",
+      "llm_evidence_cn": "对抗多重耐药真菌感染的治疗设计",
+      "llm_evidence": "对抗多重耐药真菌感染的治疗设计",
+      "canonical_evidence": "对抗多重耐药真菌感染的治疗设计",
+      "llm_tldr_en": "Random peptide mixtures are evaluated as a novel therapeutic strategy against drug-resistant fungal pathogens.",
+      "llm_tldr_cn": "评估了随机多肽混合物作为对抗耐药真菌病原体的新型治疗策略。",
+      "llm_tldr": "评估了随机多肽混合物作为对抗耐药真菌病原体的新型治疗策略。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41592952",
+      "title": "Shaping the future of postoperative recurrence in Crohn's disease: personalised approaches with AI-enabled imaging and multi-omics.",
+      "abstract": "Postoperative recurrence (POR) is a major challenge in the long-term management of Crohn's disease (CD), affecting up to 70% of patients within the first year after surgical resection. The multifactorial pathogenesis of POR complicates prevention, while evolving surgical techniques and different anastomotic configurations further hinder accurate prediction and monitoring.Current surveillance strategies, including standard ileocolonoscopy and faecal calprotectin, remain limited by suboptimal accuracy, the absence of validated scoring systems and the lack of standardised monitoring intervals. Recent advances in high-resolution endoscopic imaging, such as confocal laser endomicroscopy and endocytoscopy, enable real-time, in vivo microstructural assessment of the anastomosis, offering opportunities for earlier and more precise detection of recurrence. In parallel, developments in intestinal ultrasound and cross-sectional imaging are reshaping non-invasive monitoring by providing transmural evaluation. Beyond imaging, multiomics approaches, spanning genomics, transcriptomics, proteomics, metabolomics and metagenomics, are uncovering novel biological pathways linked to POR, providing new mechanistic insights.Artificial intelligence (AI) has the potential to integrate clinical, endoscopic, imaging and omics data into predictive multimodal models for POR, supporting individualised risk stratification, early detection and personalised treatment strategies. While promising, these innovations require prospective validation, methodological standardisation and integration into clinical workflows before translation into routine practice.This review summarises the current understanding of POR, highlights emerging diagnostic and monitoring technologies and explores how AI-enabled endoscopy and multi-omics approaches may transform future management, paving the way towards precision medicine for POR in CD.",
+      "authors": [
+        "Marietta Iacucci",
+        "Irene Zammarchi",
+        "Cecilia Lina Pugliano",
+        "Giovanni Santacroce",
+        "Ivan Capobianco",
+        "Snehali Majumder",
+        "Andrea Ruffa",
+        "Valery Naranjo",
+        "Enrico Grisan",
+        "Olga Maria Nardone",
+        "Subrata Ghosh"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41592952/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "AI-enabled imaging and multi-omics for Crohn's disease recurrence",
+      "llm_evidence_cn": "AI 影像和多组学用于克罗恩病复发预测",
+      "llm_evidence": "AI 影像和多组学用于克罗恩病复发预测",
+      "canonical_evidence": "AI 影像和多组学用于克罗恩病复发预测",
+      "llm_tldr_en": "Discusses AI and multi-omics integration for predicting postoperative recurrence in Crohn's disease.",
+      "llm_tldr_cn": "讨论了利用 AI 影像和多组学集成来预测克罗恩病术后复发的方法。",
+      "llm_tldr": "讨论了利用 AI 影像和多组学集成来预测克罗恩病术后复发的方法。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42007817",
+      "title": "Co-circulation of multiple arboviruses in acute febrile patients in Yunnan, China, identified by metagenomic sequencing.",
+      "abstract": "UNLABELLED: Arboviruses such as dengue virus (DENV), chikungunya virus (CHIKV), and Zika virus (ZIKV) are transmitted by Aedes mosquitoes and mainly circulate in tropical and subtropical regions. With global warming, their geographic range is expanding, increasing their threat to public health. Yunnan Province, China, bordering Southeast Asia, is a hotspot for viral importation due to intensive cross-border mobility. However, systematic surveillance for these arboviruses among acute febrile patients remains insufficient. We performed metagenomic sequencing on serum specimens from 990 acute febrile patients at the China-Myanmar border between 2017 and 2023. The pathogens were confirmed by PCR and viral isolation. Phylogenetic and spatiotemporal analyses were used to infer viral origins and transmission dynamics. In this study, a CHIKV outbreak was confirmed in 2019, with strains closely related to those from Myanmar and Thailand. Four DENV serotypes 1-4 were identified, with the predominant serotype varying annually. ZIKV was detected and closely related to strains from Myanmar. Co-infections were identified, including one case each of CHIKV with DENV-1, CHIKV with DENV-3, CHIKV with ZIKV, and DENV-1 with DENV-2. Bayesian spatiotemporal analysis of CHIKV reconstructed global transmission routes, indicating that the 2019 outbreak in China likely originated in India and spread sequentially through Bangladesh, Thailand, and Myanmar. In addition, we also detected enterovirus, hepatitis virus, Saffold virus, and rhinovirus. This study reveals a comprehensive spectrum of pathogens, including the co-circulation of DENV, CHIKV, and ZIKV, and underscores the potential risk of arbovirus importation into China, highlighting the need for strengthened border surveillance. IMPORTANCE: Arboviruses, including dengue virus (DENV), chikungunya virus (CHIKV), and Zika virus (ZIKV), are expanding their range and threatening global public health. Yunnan, situated along the China-Southeast Asia border, is highly susceptible to viral introduction. By applying viral metagenomic sequencing to acute febrile patients, this study uncovered a comprehensive spectrum of pathogens and the co-circulation of DENV, CHIKV, and ZIKV. Phylogenetic analyses revealed that arboviruses were closely related to strains from Myanmar and Thailand, indicating possible frequent cross-border viral introductions. Meanwhile, we reconstructed the global transmission pathways of CHIKV through Bayesian spatiotemporal analysis, providing valuable insights for regional prevention and control of arboviruses. These findings demonstrate that Yunnan serves as a critical interface for viral importation and underscore the urgent need to strengthen border surveillance and early warning systems to mitigate the spread of arboviruses.",
+      "authors": [
+        "Mengyuan Chen",
+        "Ying Kang",
+        "Min Cheng",
+        "Xin Li",
+        "Jing Keng",
+        "Peng Zhao",
+        "Hongtao Sui",
+        "Jie Dong",
+        "Lilian Sun",
+        "Bo Liu",
+        "Yongfeng Hu",
+        "Jinyong Jiang",
+        "Fan Yang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-13",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42007817/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "metagenomic sequencing for arbovirus surveillance and pathogen identification",
+      "llm_evidence_cn": "用于虫媒病毒监测和病原体识别的宏基因组测序",
+      "llm_evidence": "用于虫媒病毒监测和病原体识别的宏基因组测序",
+      "canonical_evidence": "用于虫媒病毒监测和病原体识别的宏基因组测序",
+      "llm_tldr_en": "Metagenomic sequencing identifies co-circulating arboviruses in febrile patients at the China-Myanmar border.",
+      "llm_tldr_cn": "通过宏基因组测序识别了中缅边境发热患者中共同传播的多种虫媒病毒。",
+      "llm_tldr": "通过宏基因组测序识别了中缅边境发热患者中共同传播的多种虫媒病毒。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI methods for genomic surveillance and outbreak monitoring",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42059246",
+      "title": "Rational Design of ROS-Responsive, ROS-Scavenging, and Bacterial Membrane-Disrupting Self-Antibacterial Supramolecular Gel: A Strategy against Drug-Resistant Bacterial Infection.",
+      "abstract": "The rampant abuse of antibiotics has accelerated the emergence of resistant bacteria, making infections caused by such pathogens a major challenge to effective clinical management and patient prognosis. Self-antibacterial supramolecular gels that operate via bacterial membrane disruption represent a highly promising therapeutic strategy. In this study, we designed and synthesized reactive oxygen species (ROS)-responsive low-molecular-weight gelators (LMWGs) using a bottom-up approach, based on intrinsic antibacterial synthons and an ROS-cleavable thioacetal linker. The structures of the gelators were confirmed by proton nuclear magnetic resonance (1H NMR) spectroscopy and high-resolution mass spectrometry (HRMS). Their gelation behavior, critical gelation concentration (CGC), and self-assembly mechanism were systematically investigated. The resulting supramolecular gel was thoroughly evaluated for its rheological properties, ROS responsiveness, ROS-scavenging capability, antibiotic-loading capacity, and controlled drug-release profile. Biocompatibility and hemocompatibility were assessed using the CCK-8 assay and hemolysis assay, respectively. The antibacterial efficacy of both blank and ciprofloxacin hydrochloride (CIP·HCl)-loaded gels against Staphylococcus aureus (S. aureus) and Escherichia coli (E. coli) was examined via bacterial adhesion tests and plate colony counting. Remarkably, the blank supramolecular gel exhibited potent antibacterial and bactericidal activity against both strains, with efficacy comparable to that of the CIP·HCl-loaded gel─a finding further supported by inhibition zone assays. Investigations into the antibacterial mechanism revealed significant alterations in bacterial membrane morphology and membrane potential, along with the release of intracellular DNA. Notably, owing to this membrane-disruptive action, the blank gel also demonstrated substantial efficacy against methicillin-resistant Staphylococcus aureus (MRSA). This work establishes that the rational design of LMWGs for targeted membrane disruption provides a viable and innovative platform for developing self-antibacterial supramolecular gels against drug-resistant bacterial infections.",
+      "authors": [
+        "Yitong Chen",
+        "Yao Hu",
+        "Minggang Yang",
+        "Cong Wang",
+        "Long Xu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42059246/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Rational design of antibacterial agents against drug-resistant bacteria",
+      "llm_evidence_cn": "针对耐药细菌的抗菌剂合理设计",
+      "llm_evidence": "针对耐药细菌的抗菌剂合理设计",
+      "canonical_evidence": "针对耐药细菌的抗菌剂合理设计",
+      "llm_tldr_en": "Develops a ROS-responsive supramolecular gel as a therapeutic strategy against drug-resistant bacterial infections.",
+      "llm_tldr_cn": "开发了一种活性氧响应超分子凝胶，作为对抗耐药细菌感染的治疗策略。",
+      "llm_tldr": "开发了一种活性氧响应超分子凝胶，作为对抗耐药细菌感染的治疗策略。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42119230",
+      "title": "Pediococcus pentosaceus DF29-derived extracellular vesicles ameliorate EPEC-induced intestinal injury via M2 macrophage polarization.",
+      "abstract": "Enteropathogenic Escherichia coli (EPEC) infection remains a major cause of intestinal barrier dysfunction and diarrhea, necessitating the development of novel non-antibiotic therapies. While Pediococcus pentosaceus (P. pentosaceus) exhibits probiotic potential, the specific role of its postbiotic components, particularly extracellular vesicles (EVs), in host-pathogen interactions remains obscure. In this study, we systematically evaluated the protective efficacy and underlying mechanisms of P. pentosaceus DF29 (DF29) and its derived EVs (PpEVs) against EPEC-induced enteritis. Characterization revealed that PpEVs isolated via ultracentrifugation exhibited a typical vesicular morphology, high purity, and robust stability under simulated gastrointestinal conditions. In vitro, PpEVs were efficiently internalized by macrophages and significantly blunted EPEC-induced pro-inflammatory responses. In vivo, oral administration of PpEVs recapitulated the protective effects of live DF29, including alleviating body weight loss, reducing disease activity index, and restoring histological integrity. Crucially, PpEVs reinforced the intestinal barrier by upregulating tight junction proteins, mitigating oxidative stress, and rebalancing the dysbiotic gut microbiota. Mechanistically, we demonstrated that PpEVs exerted their anti-inflammatory effects by inhibiting the TLR4/MyD88/NF-κB signaling axis, thereby shifting macrophage polarization from an M1 proinflammatory to an M2 anti-inflammatory phenotype and rectifying the Th1/Th2 and Th17/Treg imbalances. Collectively, our findings suggest that PpEVs represent a potential intervention strategy to preserve intestinal homeostasis and counteract EPEC-associated inflammation.",
+      "authors": [
+        "Tianxu Pan",
+        "Xueting Wang",
+        "Ya Wang",
+        "Dongyu Zhao",
+        "Hongye Li",
+        "Hechun Li",
+        "Songyang Li",
+        "Tiankui Guo",
+        "Nan Wang",
+        "Haibin Huang",
+        "Shuyuan Yu",
+        "Jiayao Guan",
+        "Mingxiao Liu",
+        "Chunwei Shi",
+        "Chunfeng Wang",
+        "Minghan Li",
+        "Guilian Yang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42119230/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "extracellular vesicles in host-pathogen interactions and infection outcome",
+      "llm_evidence_cn": "宿主-病原体相互作用和感染结果中的细胞外囊泡",
+      "llm_evidence": "宿主-病原体相互作用和感染结果中的细胞外囊泡",
+      "canonical_evidence": "宿主-病原体相互作用和感染结果中的细胞外囊泡",
+      "llm_tldr_en": "Investigates how probiotic-derived vesicles modulate host immune response to ameliorate EPEC-induced injury.",
+      "llm_tldr_cn": "研究益生菌衍生的囊泡如何调节宿主免疫反应以减轻致病性大肠杆菌引起的损伤。",
+      "llm_tldr": "研究益生菌衍生的囊泡如何调节宿主免疫反应以减轻致病性大肠杆菌引起的损伤。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42116194",
+      "title": "Metatranscriptomic analysis of the microbiota of tumor tissue in colon cancer.",
+      "abstract": "BACKGROUND: Colorectal cancer (CRC) is the second leading cause of cancer-related deaths, accounting for more than 900,000 deaths a year worldwide. Microbial dysbiosis, including the presence of oral bacteria in the gut, has been linked to CRC. Some mechanisms by which specific microorganisms potentially drive tumorigenesis have been described, but there is a lack of studies elucidating whole microbiota activity in the tumor and their implication for the development of the disease. Here, the metatranscriptomic data of tumor and control tissue-associated microbiota (n = 18 pairs), as well as from subgingival sulcus (n = 15) of CRC patients, was analyzed. RESULTS: We confirmed that Fusobacterium nucleatum was more active in the tumor tissue than in the control gut mucosa. In addition, the activity of this species was positively correlated with other oral bacteria in the tumors, including Parvimonas micra, Peptostreptococcus stomatis, and Granulicatella adiacens, along with gut bacteria like Hungatella hathewayi, suggesting a potential relationship among them. Regarding bacterial gene expression, a change in the functional profile was observed, including a higher expression of genes associated with carbon metabolism in control in contrast to an increase of amino acid-related genes in tumor. Furthermore, genes implicated in the biosynthesis and transport of lipopolysaccharide were increased in tumors. Interestingly, a significantly higher expression in tumor than control tissue of potential virulence factors from F. nucleatum was found, supporting their relevance in niche colonization and tumorigenesis. Correlation analysis of the bacterial activity with the host transcriptional profile showed significant correlations of the Fusobacterium-Peptostreptotoccus-Hungatella cluster with human genes involved in inflammation and metastasis, confirming the association of this microbial consortium with tumor development. For the first time, the gene expression profiles of oral bacteria in the gut and the oral cavity were compared. The cluster of co-active bacteria identified in tumors was partially found in the oral samples, suggesting a stable interaction and potential synergy. Although there were thousands of differentially expressed genes between subgingival sulcus and tumor tissue, the expression of key virulence factors was not significantly different. CONCLUSIONS: In short, this study discovered new traits about tumor microbial-associated composition and activity and its connection with the oral composition that would be essential to unravel the translocation, colonization, and tumorigenesis of the CRC.",
+      "authors": [
+        "Elena Buetas",
+        "Kelly Conde-Pérez",
+        "Ángel Concha",
+        "Catuxa Celeiro",
+        "José F Noguera",
+        "Germán Bou",
+        "Simón Pardiñas-López",
+        "Juan A Vallejo",
+        "Margarita Poza",
+        "Miguel Carda-Diéguez",
+        "Alex Mira"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42116194/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "metatranscriptomic analysis of microbiota in tumor tissue",
+      "llm_evidence_cn": "肿瘤组织中微生物群的元转录组分析",
+      "llm_evidence": "肿瘤组织中微生物群的元转录组分析",
+      "canonical_evidence": "肿瘤组织中微生物群的元转录组分析",
+      "llm_tldr_en": "Metatranscriptomic analysis reveals microbial activity and dysbiosis in colorectal cancer tumor tissues.",
+      "llm_tldr_cn": "元转录组分析揭示了结直肠癌肿瘤组织中的微生物活性和失调。",
+      "llm_tldr": "元转录组分析揭示了结直肠癌肿瘤组织中的微生物活性和失调。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42120518",
+      "title": "Dynamic microbiome-host interactions and their associations with systemic metabolism and radiological characteristics during early lung adenocarcinoma.",
+      "abstract": "Lung adenocarcinoma (LUAD) accounts for approximately 40% of non-small cell lung cancer. Although the microbiome may play a role in LUAD, a comprehensive understanding of its ecological landscape and interactions with the tumor host, particularly during early development of LUAD, remains lacking. Here we employed a multi-omic approach to assess the dynamics of the tumor microbiota-host interaction across stages of early LUAD, including benign nodules, adenocarcinoma in situ (AIS), minimally invasive adenocarcinoma (MIA), and invasive adenocarcinoma (IAC). We found a strong and intricate interaction between the microbiome and host immune and metabolic pathways in AIS, while microbiome-host interactions substantially diminish in MIA and IAC. Serum metabolites and CT-based radiological features, such as atropaldehyde, sterculic acid, nodule morphology and maximum nodule diameter, were closely associated with the microbiome-host interaction network, suggesting they could be non-invasive markers indicating tumor ecological and pathological changes. Multi-omic integration revealed an optimal performance in classifying individual LUAD stages, particularly between AIS and MIA that was otherwise challenging to differentiate using a single data type. Our results highlight the dynamic interaction between microbiome and host during early LUAD, which can be partially reflected in systemic metabolic and radiological manifestations, providing a novel framework for understanding early-stage LUAD.",
+      "authors": [
+        "Qijia Han",
+        "Yunfeng Shi",
+        "Xinzhu Yi",
+        "Zhu Ai",
+        "Minyi Wu",
+        "Tianshuai He",
+        "Xinru Jing",
+        "Zhang Wang",
+        "Zhiming Xiang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42120518/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "multi-omic approach to assess tumor microbiota-host interaction",
+      "llm_evidence_cn": "采用多组学方法评估肿瘤微生物群与宿主的相互作用",
+      "llm_evidence": "采用多组学方法评估肿瘤微生物群与宿主的相互作用",
+      "canonical_evidence": "采用多组学方法评估肿瘤微生物群与宿主的相互作用",
+      "llm_tldr_en": "Explores microbiome-host interactions in lung adenocarcinoma using multi-omics to understand disease progression.",
+      "llm_tldr_cn": "利用多组学技术探讨肺腺癌中微生物群与宿主的相互作用及其对疾病进展的影响。",
+      "llm_tldr": "利用多组学技术探讨肺腺癌中微生物群与宿主的相互作用及其对疾病进展的影响。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42117713",
+      "title": "Association between ocular surface microbiota species and type 2 diabetes mellitus with or without retinopathy and related clinical parameters.",
+      "abstract": "UNLABELLED: Diabetic retinopathy (DR) is the most prevalent blinding microvascular complication of diabetes mellitus. Although altered ocular surface microbiota (OSM) has been recently linked to type 2 diabetes mellitus (DM) and diabetic retinopathy (DR), its involvement in these diseases remains to be elucidated at the species level. Our current study investigated 92 conjunctival sac swabs from 28 nondiabetic controls (NC) and 64 type 2 DM patients, including 31 with DR and 33 without DR (non-DR, NDR), for species-resolved OSM profiles using 2bRAD-M sequencing, and investigated their correlations with clinical parameters. A total of 232 species were identified in the study, with 12.5% and 10.8% exclusively observed in DR and NDR, respectively. Significant differences in beta diversity, but not in alpha diversity, were observed in DR compared to NDR and NC. Substantial changes in OSM species composition were observed in DM compared to NC, most attributable to DR. Commensal bacterial species, especially Actinomycetota species, such as Bifidobacterium infantis, and fungal species, such as Malassezia restricta, substantially decreased in DM. In contrast, species mainly belonging to the Pseudomonadota phylum, such as Pseudomonas and Pseudomonas aeruginosa, increased in DM, especially in DR. Moreover, such differential OSM species exhibited a significant correlation with clinical parameters, especially those associated with blood sugar indices, kidney complications, or insulin treatment, with Acinetobacter johnsonii being the most positively correlated with glycosylated hemoglobin A1c. Our current study revealed substantially altered OSM species profiles associated with DM/DR, suggesting a potential role for OSM species and providing new insights into the clinical correlation and diagnostic value of OSM. IMPORTANCE: Our research characterizes the ocular surface microbiota (OSM) at the species level in patients with type 2 diabetes mellitus (DM), both with and without diabetic retinopathy (DR and NDR), using 2bRAD-M sequencing. It uncovers unique microbial signatures, notably the reduction of commensal Actinomycetota and Malassezia restricta, and the increase of opportunistic Pseudomonadota such as Pseudomonas aeruginosa and Acinetobacter johnsonii. These microbial changes are linked to glycemic control, kidney function, and systemic inflammation, connecting local ocular microbiota to systemic microvascular damage. The study also highlights OSM species with strong diagnostic potential for DM and DR, indicating that noninvasive, microbiota-based biomarkers could supplement existing imaging-based screening. Overall, these findings deepen the understanding of host-microbiota interactions in diabetes and retinopathy and support future research into mechanisms, longitudinal effects, and microbiota-targeted therapies to prevent or reduce vision-threatening diabetic complications.",
+      "authors": [
+        "Jihong Wang",
+        "Na Zhang",
+        "Jun-Jian Li",
+        "Yun-Yun Jin",
+        "Shi Huang",
+        "Jian-Huan Chen"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42117713/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "species-resolved microbiota profiling using 2bRAD-M sequencing",
+      "llm_evidence_cn": "使用 2bRAD-M 测序进行物种级微生物群分析",
+      "llm_evidence": "使用 2bRAD-M 测序进行物种级微生物群分析",
+      "canonical_evidence": "使用 2bRAD-M 测序进行物种级微生物群分析",
+      "llm_tldr_en": "Identifies ocular surface microbiota species associated with type 2 diabetes using specialized sequencing methods.",
+      "llm_tldr_cn": "利用专门的测序方法鉴定了与 2 型糖尿病相关的眼表微生物群物种。",
+      "llm_tldr": "利用专门的测序方法鉴定了与 2 型糖尿病相关的眼表微生物群物种。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "read classification and taxonomic assignment for sequencing reads",
+      "matched_requirement_id": "req-42",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42120792",
+      "title": "An inflammasome-driven differentiation program in intestinal stem cells protects against Salmonella infection.",
+      "abstract": "Intestinal stem cells (ISCs) are essential for sustaining epithelial renewal and barrier integrity, yet their role in orchestrating defense against enteric pathogens remains unclear. Here we identify a stem cell-intrinsic immune mechanism whereby Lgr5+ ISCs detect intracellular Salmonella enterica and activate an inflammasome-dependent differentiation program. Using fluorescent-labeled S. enterica, single-cell transcriptomics, fate mapping, organoid models, and genetic perturbations, we show that invaded ISCs undergo rapid reprogramming toward antimicrobial peptide-enriched Paneth cells via apoptosis-associated Speck-like protein containing a CARD (ASC, encoded by Pycard)-mediated inflammasome signaling. This fate switch enhances epithelial antimicrobial capacity and restricts pathogen persistence in the crypt. The response is Salmonella-specific and conserved in human intestinal organoids. Moreover, the invasion-associated transcriptional signature is enriched in ISCs from patients with Crohn's disease. Our findings reveal that ISCs act as active sensors of bacterial invasion and initiate epithelial remodeling through inflammasome signaling, highlighting stem cell plasticity as a frontline innate immune strategy.",
+      "authors": [
+        "S Lebon",
+        "A Habshush Menachem",
+        "N Davidzohn",
+        "A Katz",
+        "N Wigoda",
+        "T Braun",
+        "D Yahalomi",
+        "R Rotkopf",
+        "V Holiar",
+        "T Dadosh",
+        "S Levin-Zaidman",
+        "N Dezorella",
+        "I Goliand",
+        "M Kupervaser",
+        "S Leebhoff",
+        "N Blumberger",
+        "D Hoffman",
+        "M Grunewald",
+        "Y Levin",
+        "Y Haberman",
+        "M Hofree",
+        "M Biton"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42120792/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "single-cell transcriptomics for pathogen-invaded cell fate",
+      "llm_evidence_cn": "用于病原体入侵细胞命运的单细胞转录组学",
+      "llm_evidence": "用于病原体入侵细胞命运的单细胞转录组学",
+      "canonical_evidence": "用于病原体入侵细胞命运的单细胞转录组学",
+      "llm_tldr_en": "Uses single-cell transcriptomics to reveal how intestinal stem cells differentiate to protect against Salmonella.",
+      "llm_tldr_cn": "利用单细胞转录组学揭示了肠道干细胞如何分化以防御沙门氏菌感染。",
+      "llm_tldr": "利用单细胞转录组学揭示了肠道干细胞如何分化以防御沙门氏菌感染。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "single cell sequencing and spatial transcriptomics analysis with machine learning",
+      "matched_requirement_id": "req-40",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42118409",
+      "title": "iPSC-Derived 3D Brain Organoids as Next-generation Platforms to Study Viral and Toxicant-associated Neurodegeneration.",
+      "abstract": "Neurodegenerative diseases (ND) are one of the most fatal diseases that affect the majority of individuals worldwide, among which Alzheimer's disease (AD) and Parkinson's disease (PD) are the most common. In vitro 2D monolayer cell cultures and in vivo transgenic animal models have been the primary tools for investigating mechanisms of neurodegenerative diseases. However, the ineffectiveness of these models in translating outcomes into human pathophysiology, necessitates innovative approaches to bridge the translational gap. In this review, we focus on the intricate pathogenic processes by which environmental toxicants and viral infections trigger neurodegeneration. The growing significance of three-dimensional (3D) brain organoids (BOs) derived from induced pluripotent stem cells (iPSCs) can be used as a groundbreaking platform for examining neurodegenerative pathways induced by exposure to environmental toxicants and viral infections. It also addressed how BO's overcomes the fundamental limitations of traditional models, such as 2D cultures and animal models, thereby creating novel opportunities for the mechanistic study of multifactorial neurodegeneration and the development of therapeutic interventions.",
+      "authors": [
+        "Md Shahadab",
+        "Vaishali Saini",
+        "Siddharth Singh",
+        "Om Prakash",
+        "Kumar Sachin",
+        "Rajan Kumar Pandey",
+        "Ajay Kumar Meena",
+        "Hem Chandra Jha"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42118409/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Modeling viral infection and pathogenic processes in brain organoids",
+      "llm_evidence_cn": "在大脑类器官中模拟病毒感染和致病过程",
+      "llm_evidence": "在大脑类器官中模拟病毒感染和致病过程",
+      "canonical_evidence": "在大脑类器官中模拟病毒感染和致病过程",
+      "llm_tldr_en": "Reviews the use of 3D brain organoids to study viral-induced neurodegeneration and pathogenic mechanisms.",
+      "llm_tldr_cn": "综述了利用 3D 大脑类器官研究病毒诱导的神经变性及其致病机制。",
+      "llm_tldr": "综述了利用 3D 大脑类器官研究病毒诱导的神经变性及其致病机制。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42121260",
+      "title": "Integrative analysis of the mouse cecal microbiome across diet, age, and weight in the diverse BXD population.",
+      "abstract": "BACKGROUND: The gut microbiota adapts to and shapes the host's metabolic state through affecting circulating metabolites and consequent gene regulatory networks, resulting in systemic influences in diverse organs via connections such as the gut-liver axis. Numerous variables such as diet, age, and host genetics modulate the composition of the gut microbiome, but their interactions and specific associative and mechanistic links to host molecular phenotypes remain incompletely unannotated. Integrated multi-omics approaches in genetically diverse populations offer an opportunity to dissect these interactions and identify predictive microbial signatures for host phenotypes, such as body weight and molecular associations with gene expression pathways in gut and liver. RESULTS: We sequenced, aligned, and integrated the cecal metagenome, metatranscriptome, and host transcriptome from 232 mice across 175 distinct cohorts according to a low-fat chow diet (CD) or a high-fat diet (HF), four adult ages (between roughly 180 to 730 days of age), and 43 distinct genotypes (inbred BXD strains). Genetics and diet exerted the strongest influence on microbiota abundance and activity, followed by age. HF feeding significantly reduced diversity across all ages and all genotypes, altering > 300 species. Machine learning models based on microbial profiles reliably predicted body weight within dietary group (AUC = 0.84 for CD, 0.79 for HF) and chronological age (AUC = 0.84), with model performance of age prediction rising to 0.95 when integrating top microbial features with liver proteomics. Network analyses of expression data revealed links between genes, pathways, and specific microbes, including a negative association between cecal Ido1 expression and short-chain fatty acid (SCFA)-producing Lachnospiraceae, suggesting dietary fat may modulate host tryptophan metabolism through microbiota shifts. CONCLUSIONS: Whole metagenome and metatranscriptome sequencing approaches have massively expanded the landscape of microbiome analysis compared to earlier short-read 16S analyses. The resulting datasets quantify hundreds of uniquely identifiable microbes, which can be used to create sets of highly predictive microbial biomarkers for aging and obesity. When trained on controlled mouse populations, these results demonstrate that microbiome profiling can achieve high predictive capacity (AUC = 0.95 with multi-omics integration) for complex readouts such as age and body weight (AUC = 0.84), even considering genetic and dietary variation, establishing a framework for biomarker development. While at present many bacteria are still functionally unannotated at the species level, multi-omics approaches - including gene expression from the host tissues - provide insights into the functional associations of specific taxa in the microbiome. Video Abstract.",
+      "authors": [
+        "Ziyun Zhou",
+        "Arianna Lamanna",
+        "Rashi Halder",
+        "Emeline Pansart",
+        "Shaman Narayanasamy",
+        "Besma Boussoufa",
+        "Thamila Kerkour",
+        "Paul Wilmes",
+        "Evan Williams"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42121260/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "integrated multi-omics for identifying microbial signatures",
+      "llm_evidence_cn": "用于识别微生物特征的整合多组学",
+      "llm_evidence": "用于识别微生物特征的整合多组学",
+      "canonical_evidence": "用于识别微生物特征的整合多组学",
+      "llm_tldr_en": "Multi-omics integration identifies predictive microbial signatures for host phenotypes in diverse populations.",
+      "llm_tldr_cn": "多组学整合识别了多样化群体中宿主表型的预测性微生物特征。",
+      "llm_tldr": "多组学整合识别了多样化群体中宿主表型的预测性微生物特征。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42118429",
+      "title": "Taxonomic and functional remodeling of the gut microbiota during aging and implications for microbiota-derived biomarkers.",
+      "abstract": "The gut microbiota represents a complex microbial ecosystem that contributes to host metabolic regulation, immune homeostasis, and intestinal barrier function. Across the lifespan, gut microbial communities exhibit marked taxonomic and functional variation driven by environmental exposures, dietary patterns, medication use, and age-associated immune alterations. These differences are closely linked to chronic inflammatory states and immune dysregulation that accompany aging. This review synthesizes current evidence on age-associated differences in gut microbiota composition and functional capacity, with a focus on microbial traits and metabolic pathways relevant to host-microbe interactions. Pathological aging is frequently associated with reduced microbial diversity, loss of short-chain fatty acid-producing commensal bacteria, and enrichment of opportunistic or pro-inflammatory taxa. In contrast, healthy aging and longevity are commonly associated with more stable, resilient, and metabolically adaptable microbial communities. At the functional level, recurrent alterations in short-chain fatty acid biosynthesis, bile acid transformation, and tryptophan- and choline-related metabolic pathways define conserved features across aging-associated microbial profiles. Across neurodegenerative, metabolic, and cardiovascular conditions, overlapping taxonomic and functional patterns indicate shared microbiota-associated signatures linked to inflammatory states. Advances in metagenomic sequencing, functional annotation, and microbiome-focused biotechnological approaches now enable integrated analysis of microbial structure and metabolic potential. These developments provide a robust framework for identifying reproducible microbiome-based indicators relevant to aging-associated physiological changes and for translating microbiome research into biotechnology-driven applications.",
+      "authors": [
+        "Burcu Tekin",
+        "Rafig Gurbanov"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-12",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42118429/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "microbial traits and metabolic pathways relevant to host-microbe interactions",
+      "llm_evidence_cn": "与宿主-微生物相互作用相关的微生物特征和代谢途径",
+      "llm_evidence": "与宿主-微生物相互作用相关的微生物特征和代谢途径",
+      "canonical_evidence": "与宿主-微生物相互作用相关的微生物特征和代谢途径",
+      "llm_tldr_en": "Analyzes age-associated changes in gut microbiota and their impact on host immune and metabolic homeostasis.",
+      "llm_tldr_cn": "分析了与年龄相关的肠道菌群变化及其对宿主免疫和代谢稳态的影响。",
+      "llm_tldr": "分析了与年龄相关的肠道菌群变化及其对宿主免疫和代谢稳态的影响。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42126486",
+      "title": "A systematic evaluation of protein allosteric site prediction tools with independent datasets.",
+      "abstract": "Allostery plays a critical role in protein dynamics and is essential for many biological functions. Over the past decade, various computational approaches have been proposed for predicting allosteric sites. However, the strengths and weaknesses of each method are not well understood. In this study, we created two independent datasets that had not been used in selected computational protocols: a CAPASP-General subset comprising holo state allosteric proteins and a CAPASP-Unbound subset comprising apo state allosteric proteins. We then systematically evaluated the accuracy of five allosteric site prediction tools across five dimensions: sensitivity, specificity, F1-score, MCC value and ranking capability. The results indicated that the machine learning models PASSer and APOP, which are based on protein physicochemical properties, not only achieved the highest success rate in sensitivity prediction but also lead in average F1-score and MCC value. However, these models performed better with the CAPASP-General subset than with the CAPASP-Unbound subset, suggesting that the prediction models require further improvement. These findings could facilitate the selection of appropriate prediction models for different allosteric proteins and enhance our understanding of protein function and regulatory mechanisms.",
+      "authors": [
+        "Yuanbao Ai",
+        "Haixiao Li",
+        "Xuemei Huang",
+        "Sen Liu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-05-13",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42126486/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "systematic evaluation of computational tools for protein site prediction",
+      "llm_evidence_cn": "蛋白质位点预测计算工具的系统评估",
+      "llm_evidence": "蛋白质位点预测计算工具的系统评估",
+      "canonical_evidence": "蛋白质位点预测计算工具的系统评估",
+      "llm_tldr_en": "A systematic evaluation of five allosteric site prediction tools using independent protein datasets.",
+      "llm_tldr_cn": "使用独立蛋白质数据集对五种变构位点预测工具进行了系统评估。",
+      "llm_tldr": "使用独立蛋白质数据集对五种变构位点预测工具进行了系统评估。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "benchmark and evaluation for bioinformatics language models",
+      "matched_requirement_id": "req-29",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

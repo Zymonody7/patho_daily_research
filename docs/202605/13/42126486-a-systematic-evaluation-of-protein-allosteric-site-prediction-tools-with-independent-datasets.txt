@@ -1,0 +1,453 @@
+Title: A systematic evaluation of protein allosteric site prediction tools with independent datasets - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42126486/
+
+Markdown Content:
+# A systematic evaluation of protein allosteric site prediction tools with independent datasets - PubMed
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/42126486/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42126486%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/42126486/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/42126486/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/42126486/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/42126486/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/a2ffdabe-e220-486a-83d1-09afbe4369a3/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/42126486/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/42126486/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/42126486/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42126486%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42126486%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/42126486/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Save citation to file
+
+ Format:  
+
+ Create file  Cancel 
+
+## Email citation
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/42126486/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/42126486/#)
+
+ Add  Cancel 
+
+## Your saved search
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/42126486/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+## Create a file for external citation management software
+
+ Create file  Cancel 
+
+## Your RSS Feed
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/42126486/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/42126486/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/42126486/#abstract)
+*   [Conflict of interest statement](https://pubmed.ncbi.nlm.nih.gov/42126486/#conflict-of-interest)
+*   [References](https://pubmed.ncbi.nlm.nih.gov/42126486/#references)
+*   [MeSH terms](https://pubmed.ncbi.nlm.nih.gov/42126486/#mesh-terms)
+*   [Substances](https://pubmed.ncbi.nlm.nih.gov/42126486/#substances)
+*   [Grants and funding](https://pubmed.ncbi.nlm.nih.gov/42126486/#grants)
+
+ J Comput Aided Mol Des 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22J+Comput+Aided+Mol+Des%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22J+Comput+Aided+Mol+Des%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42126486/#)
+
+. 2026 May 13;40(1):122.
+
+ doi: 10.1007/s10822-026-00831-4. 
+
+# A systematic evaluation of protein allosteric site prediction tools with independent datasets
+
+[Yuanbao Ai](https://pubmed.ncbi.nlm.nih.gov/?term=Ai+Y&cauthor_id=42126486)[#](https://pubmed.ncbi.nlm.nih.gov/42126486/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/42126486/#full-view-affiliation-1 "Hubei Key Laboratory of Industrial Microbiology, Cooperative Innovation Center of Industrial Fermentation (Ministry of Education & Hubei Province), Wuhan, 430068, China.")[2](https://pubmed.ncbi.nlm.nih.gov/42126486/#full-view-affiliation-2 "Key Laboratory of Fermentation Engineering (Ministry of Education), National \"111\" Center for Cellular Regulation and Molecular Pharmaceutics, Hubei University of Technology, Wuhan, 430068, China."),[Haixiao Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+H&cauthor_id=42126486)[#](https://pubmed.ncbi.nlm.nih.gov/42126486/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/42126486/#full-view-affiliation-1 "Hubei Key Laboratory of Industrial Microbiology, Cooperative Innovation Center of Industrial Fermentation (Ministry of Education & Hubei Province), Wuhan, 430068, China.")[2](https://pubmed.ncbi.nlm.nih.gov/42126486/#full-view-affiliation-2 "Key Laboratory of Fermentation Engineering (Ministry of Education), National \"111\" Center for Cellular Regulation and Molecular Pharmaceutics, Hubei University of Technology, Wuhan, 430068, China."),[Xuemei Huang](https://pubmed.ncbi.nlm.nih.gov/?term=Huang+X&cauthor_id=42126486)[1](https://pubmed.ncbi.nlm.nih.gov/42126486/#full-view-affiliation-1 "Hubei Key Laboratory of Industrial Microbiology, Cooperative Innovation Center of Industrial Fermentation (Ministry of Education & Hubei Province), Wuhan, 430068, China.")[2](https://pubmed.ncbi.nlm.nih.gov/42126486/#full-view-affiliation-2 "Key Laboratory of Fermentation Engineering (Ministry of Education), National \"111\" Center for Cellular Regulation and Molecular Pharmaceutics, Hubei University of Technology, Wuhan, 430068, China."),[Sen Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+S&cauthor_id=42126486)[3](https://pubmed.ncbi.nlm.nih.gov/42126486/#full-view-affiliation-3 "Hubei Key Laboratory of Industrial Microbiology, Cooperative Innovation Center of Industrial Fermentation (Ministry of Education & Hubei Province), Wuhan, 430068, China. senliu.ctgu@gmail.com.")[4](https://pubmed.ncbi.nlm.nih.gov/42126486/#full-view-affiliation-4 "Key Laboratory of Fermentation Engineering (Ministry of Education), National \"111\" Center for Cellular Regulation and Molecular Pharmaceutics, Hubei University of Technology, Wuhan, 430068, China. senliu.ctgu@gmail.com.")
+
+ Affiliations  Expand 
+
+### Affiliations
+
+*   1 Hubei Key Laboratory of Industrial Microbiology, Cooperative Innovation Center of Industrial Fermentation (Ministry of Education & Hubei Province), Wuhan, 430068, China.
+*   2 Key Laboratory of Fermentation Engineering (Ministry of Education), National "111" Center for Cellular Regulation and Molecular Pharmaceutics, Hubei University of Technology, Wuhan, 430068, China.
+*   3 Hubei Key Laboratory of Industrial Microbiology, Cooperative Innovation Center of Industrial Fermentation (Ministry of Education & Hubei Province), Wuhan, 430068, China. senliu.ctgu@gmail.com.
+*   4 Key Laboratory of Fermentation Engineering (Ministry of Education), National "111" Center for Cellular Regulation and Molecular Pharmaceutics, Hubei University of Technology, Wuhan, 430068, China. senliu.ctgu@gmail.com.
+
+# Contributed equally.
+
+*    PMID: **42126486**
+*    DOI: [10.1007/s10822-026-00831-4](https://doi.org/10.1007/s10822-026-00831-4)
+
+ Item in Clipboard 
+
+# A systematic evaluation of protein allosteric site prediction tools with independent datasets
+
+Yuanbao Ai et al. J Comput Aided Mol Des.2026.
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ J Comput Aided Mol Des 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22J+Comput+Aided+Mol+Des%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22J+Comput+Aided+Mol+Des%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42126486/#)
+
+. 2026 May 13;40(1):122.
+
+ doi: 10.1007/s10822-026-00831-4. 
+
+### Authors
+
+[Yuanbao Ai](https://pubmed.ncbi.nlm.nih.gov/?term=Ai+Y&cauthor_id=42126486)[#](https://pubmed.ncbi.nlm.nih.gov/42126486/#short-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/42126486/#short-view-affiliation-1 "Hubei Key Laboratory of Industrial Microbiology, Cooperative Innovation Center of Industrial Fermentation (Ministry of Education & Hubei Province), Wuhan, 430068, China.")[2](https://pubmed.ncbi.nlm.nih.gov/42126486/#short-view-affiliation-2 "Key Laboratory of Fermentation Engineering (Ministry of Education), National \"111\" Center for Cellular Regulation and Molecular Pharmaceutics, Hubei University of Technology, Wuhan, 430068, China."),[Haixiao Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+H&cauthor_id=42126486)[#](https://pubmed.ncbi.nlm.nih.gov/42126486/#short-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/42126486/#short-view-affiliation-1 "Hubei Key Laboratory of Industrial Microbiology, Cooperative Innovation Center of Industrial Fermentation (Ministry of Education & Hubei Province), Wuhan, 430068, China.")[2](https://pubmed.ncbi.nlm.nih.gov/42126486/#short-view-affiliation-2 "Key Laboratory of Fermentation Engineering (Ministry of Education), National \"111\" Center for Cellular Regulation and Molecular Pharmaceutics, Hubei University of Technology, Wuhan, 430068, China."),[Xuemei Huang](https://pubmed.ncbi.nlm.nih.gov/?term=Huang+X&cauthor_id=42126486)[1](https://pubmed.ncbi.nlm.nih.gov/42126486/#short-view-affiliation-1 "Hubei Key Laboratory of Industrial Microbiology, Cooperative Innovation Center of Industrial Fermentation (Ministry of Education & Hubei Province), Wuhan, 430068, China.")[2](https://pubmed.ncbi.nlm.nih.gov/42126486/#short-view-affiliation-2 "Key Laboratory of Fermentation Engineering (Ministry of Education), National \"111\" Center for Cellular Regulation and Molecular Pharmaceutics, Hubei University of Technology, Wuhan, 430068, China."),[Sen Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+S&cauthor_id=42126486)[3](https://pubmed.ncbi.nlm.nih.gov/42126486/#short-view-affiliation-3 "Hubei Key Laboratory of Industrial Microbiology, Cooperative Innovation Center of Industrial Fermentation (Ministry of Education & Hubei Province), Wuhan, 430068, China. senliu.ctgu@gmail.com.")[4](https://pubmed.ncbi.nlm.nih.gov/42126486/#short-view-affiliation-4 "Key Laboratory of Fermentation Engineering (Ministry of Education), National \"111\" Center for Cellular Regulation and Molecular Pharmaceutics, Hubei University of Technology, Wuhan, 430068, China. senliu.ctgu@gmail.com.")
+
+### Affiliations
+
+*   1 Hubei Key Laboratory of Industrial Microbiology, Cooperative Innovation Center of Industrial Fermentation (Ministry of Education & Hubei Province), Wuhan, 430068, China.
+*   2 Key Laboratory of Fermentation Engineering (Ministry of Education), National "111" Center for Cellular Regulation and Molecular Pharmaceutics, Hubei University of Technology, Wuhan, 430068, China.
+*   3 Hubei Key Laboratory of Industrial Microbiology, Cooperative Innovation Center of Industrial Fermentation (Ministry of Education & Hubei Province), Wuhan, 430068, China. senliu.ctgu@gmail.com.
+*   4 Key Laboratory of Fermentation Engineering (Ministry of Education), National "111" Center for Cellular Regulation and Molecular Pharmaceutics, Hubei University of Technology, Wuhan, 430068, China. senliu.ctgu@gmail.com.
+
+# Contributed equally.
+
+*    PMID: **42126486**
+*    DOI: [10.1007/s10822-026-00831-4](https://doi.org/10.1007/s10822-026-00831-4)
+
+ Item in Clipboard 
+
+Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Abstract
+
+Allostery plays a critical role in protein dynamics and is essential for many biological functions. Over the past decade, various computational approaches have been proposed for predicting allosteric sites. However, the strengths and weaknesses of each method are not well understood. In this study, we created two independent datasets that had not been used in selected computational protocols: a CAPASP-General subset comprising holo state allosteric proteins and a CAPASP-Unbound subset comprising apo state allosteric proteins. We then systematically evaluated the accuracy of five allosteric site prediction tools across five dimensions: sensitivity, specificity, F1-score, MCC value and ranking capability. The results indicated that the machine learning models PASSer and APOP, which are based on protein physicochemical properties, not only achieved the highest success rate in sensitivity prediction but also lead in average F1-score and MCC value. However, these models performed better with the CAPASP-General subset than with the CAPASP-Unbound subset, suggesting that the prediction models require further improvement. These findings could facilitate the selection of appropriate prediction models for different allosteric proteins and enhance our understanding of protein function and regulatory mechanisms.
+
+**Keywords:** Allosteric site; Drug discovery; Machine learning; Protein flexibility; Sensitivity.
+
+© 2026. The Author(s), under exclusive licence to Springer Nature Switzerland AG.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Conflict of interest: The authors declare no competing interests.
+
+## References
+
+1.       1.    Manley LJ, Lin MM (2023) Kinetic and thermodynamic allostery in the Ras protein family. Biophys J 122(19):3882–3893 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/37598291/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/10560677/)
+
+2.       1.    Mott HR, Owen D (2018) Allostery and dynamics in small G proteins. Biochem Soc Trans 46(5):1333–1343 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/30301845/)
+
+3.       1.    Saibil HR, Fenton WA, Clare DK, Horwich AL (2013) Structure and allostery of the chaperonin GroEL. J Mol Biol 425(9):1476–1487 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/23183375/)
+
+4.       1.    Amos LA, Lowe J (2014) The subtle allostery of microtubule dynamics. Nat Struct Mol Biol 21(6):505–506 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/24896811/)
+
+5.       1.    McCullagh M, Zeczycki TN, Kariyawasam CS et al (2024) What is allosteric regulation? Exploring the exceptions that prove the rule!. J Biol Chem 300(3):105672 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/38272229/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/10897898/)
+
+ Show all 51 references 
+
+## MeSH terms
+
+*   
+ Allosteric Regulation 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Allosteric+Regulation%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Allosteric+Regulation)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42126486/#)
+
+*   
+ Allosteric Site* 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Allosteric+Site%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Allosteric+Site)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42126486/#)
+
+*   
+ Computational Biology* / methods 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Computational+Biology%2Fmethods%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Computational+Biology)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42126486/#)
+
+*   
+ Databases, Protein 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Databases%2C+Protein%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Databases%2C+Protein)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42126486/#)
+
+*   
+ Machine Learning 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Machine+Learning%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Machine+Learning)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42126486/#)
+
+*   
+ Models, Molecular 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Models%2C+Molecular%22%5BMeSH%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Models%2C+Molecular)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42126486/#)
+
+*   
+ Proteins* / chemistry 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Proteins%2Fchemistry%22%5BMAJR%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=Proteins)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42126486/#)
+
+## Substances
+
+*   
+ Proteins 
+
+Actions 
+
+    *   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Proteins%22%5Bnm%5D&sort=date&sort_order=desc)
+    *   [Search in MeSH](https://www.ncbi.nlm.nih.gov/mesh?term=%22Proteins%22)
+    *   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42126486/#)
+
+## Grants and funding
+
+*   [31971150/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=31971150%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 31971150/National Natural Science Foundation of China")
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/42126486/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42126486%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/42126486/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42126486%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42126486%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/42126486/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)

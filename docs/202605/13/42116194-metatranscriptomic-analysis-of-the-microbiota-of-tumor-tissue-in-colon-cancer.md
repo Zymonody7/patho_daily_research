@@ -1,0 +1,22 @@
+---
+title: Metatranscriptomic analysis of the microbiota of tumor tissue in colon cancer.
+title_zh: 结肠癌肿瘤组织微生物群的元转录组分析
+authors: "Elena Buetas, Kelly Conde-Pérez, Ángel Concha, Catuxa Celeiro, José F Noguera, Germán Bou, Simón Pardiñas-López, Juan A Vallejo, Margarita Poza, Miguel Carda-Diéguez, Alex Mira"
+date: 2026-05-12
+pdf: "https://pubmed.ncbi.nlm.nih.gov/42116194/"
+tags: ["query:seqai"]
+score: 6.0
+evidence: 肿瘤组织中微生物群的元转录组分析
+tldr: 结直肠癌（CRC）与肠道微生物失调密切相关，但肿瘤微环境内微生物的整体活性及其致病机制尚不明确。本研究通过对CRC患者肿瘤组织、对照组织及牙龈沟的元转录组数据进行对比分析，发现以具核梭杆菌为核心的口腔细菌集群在肿瘤中高度活跃，并与宿主炎症及转移相关基因显著相关。研究揭示了微生物从口腔到肠道的定殖规律及代谢功能转变，为理解微生物驱动的肿瘤发生提供了分子证据。
+selection_source: fresh_fetch
+motivation: 旨在探究结直肠癌肿瘤组织中微生物群落的整体转录活性及其与宿主基因表达、口腔微生物来源之间的关联。
+method: 对18对CRC患者的肿瘤与对照组织以及15份牙龈沟样本进行元转录组测序，并结合生物信息学手段分析细菌基因表达与宿主转录谱的相关性。
+result: 发现具核梭杆菌等口腔细菌在肿瘤中形成共活跃集群，其毒力因子和氨基酸代谢基因表达显著上调，且与宿主促炎及转移基因正相关。
+conclusion: 研究证实了口腔来源细菌在肠道肿瘤定殖中的协同作用及其对肿瘤微环境的重塑，为通过微生物干预防治结直肠癌提供了新视角。
+---
+
+## 摘要
+背景：结直肠癌（CRC）是癌症相关死亡的第二大原因，全球每年导致超过 90 万人死亡。微生物失调，包括肠道中出现口腔细菌，已证实与 CRC 相关。虽然已经描述了特定微生物可能驱动肿瘤发生的某些机制，但仍缺乏阐明肿瘤中整体微生物群活性及其对疾病发展影响的研究。本研究分析了 CRC 患者肿瘤和对照组织相关微生物群（n = 18 对）以及龈下沟（n = 15）的元转录组数据。结果：我们证实具核梭杆菌（Fusobacterium nucleatum）在肿瘤组织中的活性高于对照肠粘膜。此外，该物种的活性与肿瘤中其他口腔细菌（包括微小帕夫单胞菌 Parvimonas micra、口腔消化链球菌 Peptostreptococcus stomatis 和毗邻粒粒菌 Granulicatella adiacens）以及肠道细菌（如哈氏洪盖特氏菌 Hungatella hathewayi）呈正相关，表明它们之间存在潜在联系。关于细菌基因表达，观察到功能谱发生了变化，包括对照组中与碳代谢相关的基因表达较高，而肿瘤中与氨基酸相关的基因表达增加。此外，参与脂多糖生物合成和转运的基因在肿瘤中有所增加。有趣的是，发现具核梭杆菌的潜在毒力因子在肿瘤组织中的表达显著高于对照组织，支持了它们在生态位定植和肿瘤发生中的相关性。细菌活性与宿主转录谱的相关性分析显示，梭杆菌-消化链球菌-洪盖特氏菌（Fusobacterium-Peptostreptotoccus-Hungatella）集群与参与炎症和转移的人类基因显著相关，证实了该微生物群落与肿瘤发展的关联。本研究首次比较了肠道和口腔中口腔细菌的基因表达谱。在肿瘤中发现的共活跃细菌集群在口腔样本中也部分存在，表明存在稳定的相互作用和潜在的协同作用。尽管龈下沟和肿瘤组织之间存在数千个差异表达基因，但关键毒力因子的表达并无显著差异。结论：总之，本研究发现了关于肿瘤微生物相关组成和活性及其与口腔组成联系的新特征，这对于揭示 CRC 的易位、定植和肿瘤发生至关重要。
+
+## Abstract
+BACKGROUND: Colorectal cancer (CRC) is the second leading cause of cancer-related deaths, accounting for more than 900,000 deaths a year worldwide. Microbial dysbiosis, including the presence of oral bacteria in the gut, has been linked to CRC. Some mechanisms by which specific microorganisms potentially drive tumorigenesis have been described, but there is a lack of studies elucidating whole microbiota activity in the tumor and their implication for the development of the disease. Here, the metatranscriptomic data of tumor and control tissue-associated microbiota (n = 18 pairs), as well as from subgingival sulcus (n = 15) of CRC patients, was analyzed. RESULTS: We confirmed that Fusobacterium nucleatum was more active in the tumor tissue than in the control gut mucosa. In addition, the activity of this species was positively correlated with other oral bacteria in the tumors, including Parvimonas micra, Peptostreptococcus stomatis, and Granulicatella adiacens, along with gut bacteria like Hungatella hathewayi, suggesting a potential relationship among them. Regarding bacterial gene expression, a change in the functional profile was observed, including a higher expression of genes associated with carbon metabolism in control in contrast to an increase of amino acid-related genes in tumor. Furthermore, genes implicated in the biosynthesis and transport of lipopolysaccharide were increased in tumors. Interestingly, a significantly higher expression in tumor than control tissue of potential virulence factors from F. nucleatum was found, supporting their relevance in niche colonization and tumorigenesis. Correlation analysis of the bacterial activity with the host transcriptional profile showed significant correlations of the Fusobacterium-Peptostreptotoccus-Hungatella cluster with human genes involved in inflammation and metastasis, confirming the association of this microbial consortium with tumor development. For the first time, the gene expression profiles of oral bacteria in the gut and the oral cavity were compared. The cluster of co-active bacteria identified in tumors was partially found in the oral samples, suggesting a stable interaction and potential synergy. Although there were thousands of differentially expressed genes between subgingival sulcus and tumor tissue, the expression of key virulence factors was not significantly different. CONCLUSIONS: In short, this study discovered new traits about tumor microbial-associated composition and activity and its connection with the oral composition that would be essential to unravel the translocation, colonization, and tumorigenesis of the CRC.

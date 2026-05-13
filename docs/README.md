@@ -11,50 +11,70 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-05-12
-- 运行时间：2026-05-12 20:20:12 UTC
+- 最新运行日期：2026-05-13
+- 运行时间：2026-05-13 20:24:25 UTC
 - 运行状态：成功
-- 本次总论文数：10
-- 精读区：4
-- 速读区：6
+- 本次总论文数：16
+- 精读区：3
+- 速读区：13
 
 ### 今日简报（AI）
-今日精选10篇前沿成果，重点呈现AI在杀菌剂全流程设计及番茄病毒毒力预测中的突破
-- 详情：[/202605/12/README](/202605/12/README)
+今日聚焦 16 篇前沿成果，重点推介高分单细胞扰动评估框架 scArchon 与伤寒抗生素优化决策系统。
+研究揭示了机器学习在精准医疗中的核心地位，特别是在基于患者画像优化用药及提升单细胞分析可靠性方面的显著进展。
+建议关注 AI 如何从微观细胞模拟到临床治疗决策全方位重塑医疗效率，探索个性化诊疗的新可能。
+- 详情：[/202605/13/README](/202605/13/README)
 
 ### 精读区论文标签
-1. [AI-driven fungicide design: From target identification to field application.](/202605/12/41966053-ai-driven-fungicide-design-from-target-identification-to-field-application)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：AI驱动的杀菌剂设计与病原体靶点识别
-2. [DeepTYLCV: An interpretable and experimentally validated AI model for predicting virulence of different tomato yellow leaf curl virus strains.](/202605/12/42063254-deeptylcv-an-interpretable-and-experimentally-validated-ai-model-for-predicting-virulence-of-different-tomato-yellow-leaf-curl-virus-strains)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：深度学习从病毒基因组序列预测毒力
-3. [Scaling and quantization of a foundational deep learning model for network biology.](/202605/12/42115405-scaling-and-quantization-of-a-foundational-deep-learning-model-for-network-biology)  
+1. [scArchon: a scalable benchmarking framework for assessing single-cell perturbation models.](/202605/13/42121287-scarchon-a-scalable-benchmarking-framework-for-assessing-single-cell-perturbation-models)  
    标签：评分：9.0/10、query:bioinfo
-   evidence：网络生物学的基础深度学习模型
-4. [Identifying gut microbiome signatures of type 1 diabetes using machine learning and evolutionary feature selection.](/202605/12/42115936-identifying-gut-microbiome-signatures-of-type-1-diabetes-using-machine-learning-and-evolutionary-feature-selection)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：基于机器学习的肠道微生物组预测1型糖尿病
+   evidence：评估单细胞扰动模型的基准测试框架
+2. [Machine learning-driven decision support for antibiotic optimization in typhoid fever based on patient profiles.](/202605/13/42121141-machine-learning-driven-decision-support-for-antibiotic-optimization-in-typhoid-fever-based-on-patient-profiles)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：用于抗生素优化和耐药性代理评分的机器学习
+3. [Anti-](/202605/13/42126407-anti-)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：用于抗真菌药物发现的多组学整合与数据挖掘
 
 ### 速读区论文标签
-1. [Aggregation in gut: on the link between neurodegeneration and bacterial functional amyloids.](/202605/12/42115189-aggregation-in-gut-on-the-link-between-neurodegeneration-and-bacterial-functional-amyloids)  
+1. [Harnessing random peptide mixtures to combat multidrug-resistant fungal infections.](/202605/13/41979352-harnessing-random-peptide-mixtures-to-combat-multidrug-resistant-fungal-infections)  
    标签：评分：7.0/10、query:pathoai
-   evidence：生物信息学方法鉴定肠道微生物组功能性淀粉样蛋白
-2. [Machine learning-driven discovery of therapeutic nucleoside hydrogels for periodontitis.](/202605/12/42115209-machine-learning-driven-discovery-of-therapeutic-nucleoside-hydrogels-for-periodontitis)  
+   evidence：对抗多重耐药真菌感染的治疗设计
+2. [Co-circulation of multiple arboviruses in acute febrile patients in Yunnan, China, identified by metagenomic sequencing.](/202605/13/42007817-co-circulation-of-multiple-arboviruses-in-acute-febrile-patients-in-yunnan-china-identified-by-metagenomic-sequencing)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：用于虫媒病毒监测和病原体识别的宏基因组测序
+3. [Pediococcus pentosaceus DF29-derived extracellular vesicles ameliorate EPEC-induced intestinal injury via M2 macrophage polarization.](/202605/13/42119230-pediococcus-pentosaceus-df29-derived-extracellular-vesicles-ameliorate-epec-induced-intestinal-injury-via-m2-macrophage-polarization)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：宿主-病原体相互作用和感染结果中的细胞外囊泡
+4. [Dynamic microbiome-host interactions and their associations with systemic metabolism and radiological characteristics during early lung adenocarcinoma.](/202605/13/42120518-dynamic-microbiome-host-interactions-and-their-associations-with-systemic-metabolism-and-radiological-characteristics-during-early-lung-adenocarcinoma)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：采用多组学方法评估肿瘤微生物群与宿主的相互作用
+5. [An inflammasome-driven differentiation program in intestinal stem cells protects against Salmonella infection.](/202605/13/42120792-an-inflammasome-driven-differentiation-program-in-intestinal-stem-cells-protects-against-salmonella-infection)  
+   标签：评分：7.0/10、query:seqai
+   evidence：用于病原体入侵细胞命运的单细胞转录组学
+6. [Integrative analysis of the mouse cecal microbiome across diet, age, and weight in the diverse BXD population.](/202605/13/42121260-integrative-analysis-of-the-mouse-cecal-microbiome-across-diet-age-and-weight-in-the-diverse-bxd-population)  
    标签：评分：7.0/10、query:bioinfo
-   evidence：机器学习预测核苷生物活性及治疗性水凝胶合成
-3. [A novel hemizygous missense variant in the BEND2 gene is associated with nonobstructive azoospermia.](/202605/12/42116563-a-novel-hemizygous-missense-variant-in-the-bend2-gene-is-associated-with-nonobstructive-azoospermia)  
-   标签：评分：7.0/10、query:bioinfo
-   evidence：AlphaFold建模分析蛋白质结构改变
-4. [From triangle to pyramid: Understanding host-pathogen-microniome-environment interplay for sustainable, enviromics-empowered management of plant diseases.](/202605/12/41814663-from-triangle-to-pyramid-understanding-host-pathogen-microniome-environment-interplay-for-sustainable-enviromics-empowered-management-of-plant-diseases)  
+   evidence：用于识别微生物特征的整合多组学
+7. [Shaping the future of postoperative recurrence in Crohn's disease: personalised approaches with AI-enabled imaging and multi-omics.](/202605/13/41592952-shaping-the-future-of-postoperative-recurrence-in-crohns-disease-personalised-approaches-with-ai-enabled-imaging-and-multi-omics)  
+   标签：评分：6.0/10、query:bioinfo
+   evidence：AI 影像和多组学用于克罗恩病复发预测
+8. [Rational Design of ROS-Responsive, ROS-Scavenging, and Bacterial Membrane-Disrupting Self-Antibacterial Supramolecular Gel: A Strategy against Drug-Resistant Bacterial Infection.](/202605/13/42059246-rational-design-of-ros-responsive-ros-scavenging-and-bacterial-membrane-disrupting-self-antibacterial-supramolecular-gel-a-strategy-against-drug-resistant-bacterial-infection)  
    标签：评分：6.0/10、query:pathoai
-   evidence：宿主-病原体-微生物组-环境相互作用的多组学框架
-5. [Estimating the nationwide incidence of coxsackievirus A6-associated hand, foot and mouth disease in China, 2008-2022.](/202605/12/42116129-estimating-the-nationwide-incidence-of-coxsackievirus-a6-associated-hand-foot-and-mouth-disease-in-china-2008-2022)  
+   evidence：针对耐药细菌的抗菌剂合理设计
+9. [Metatranscriptomic analysis of the microbiota of tumor tissue in colon cancer.](/202605/13/42116194-metatranscriptomic-analysis-of-the-microbiota-of-tumor-tissue-in-colon-cancer)  
+   标签：评分：6.0/10、query:seqai
+   evidence：肿瘤组织中微生物群的元转录组分析
+10. [Association between ocular surface microbiota species and type 2 diabetes mellitus with or without retinopathy and related clinical parameters.](/202605/13/42117713-association-between-ocular-surface-microbiota-species-and-type-2-diabetes-mellitus-with-or-without-retinopathy-and-related-clinical-parameters)  
+   标签：评分：6.0/10、query:seqai
+   evidence：使用 2bRAD-M 测序进行物种级微生物群分析
+11. [iPSC-Derived 3D Brain Organoids as Next-generation Platforms to Study Viral and Toxicant-associated Neurodegeneration.](/202605/13/42118409-ipsc-derived-3d-brain-organoids-as-next-generation-platforms-to-study-viral-and-toxicant-associated-neurodegeneration)  
    标签：评分：6.0/10、query:pathoai
-   evidence：利用整合数据进行病原体监测和发病率估计
-6. [Novel Phage Exhibits Effective In Vitro and In Vivo Activity Against Bovine-Derived Multidrug-Resistant Klebsiella pneumoniae.](/202605/12/42118066-novel-phage-exhibits-effective-in-vitro-and-in-vivo-activity-against-bovine-derived-multidrug-resistant-klebsiella-pneumoniae)  
+   evidence：在大脑类器官中模拟病毒感染和致病过程
+12. [Taxonomic and functional remodeling of the gut microbiota during aging and implications for microbiota-derived biomarkers.](/202605/13/42118429-taxonomic-and-functional-remodeling-of-the-gut-microbiota-during-aging-and-implications-for-microbiota-derived-biomarkers)  
    标签：评分：6.0/10、query:pathoai
-   evidence：噬菌体全基因组分析及其针对多重耐药病原体的治疗潜力
+   evidence：与宿主-微生物相互作用相关的微生物特征和代谢途径
+13. [A systematic evaluation of protein allosteric site prediction tools with independent datasets.](/202605/13/42126486-a-systematic-evaluation-of-protein-allosteric-site-prediction-tools-with-independent-datasets)  
+   标签：评分：6.0/10、query:bioinfo
+   evidence：蛋白质位点预测计算工具的系统评估
 
 
 <div class="dpr-home-promo-card">

@@ -5,6 +5,54 @@
 
 ## 最近论文
 
+- [scArchon: a scalable benchmarking framework for assessing single-cell perturbation models.](#/202605/13/202605/13/42121287-scarchon-a-scalable-benchmarking-framework-for-assessing-single-cell-perturbation-models)
+  - TLDR：针对单细胞扰动反应预测工具缺乏系统评估的问题，本研究开发了基于 Snakemake 的模块化评测框架 scArchon。通过在 6 个数据集上对比 scGen、CPA 等 9 种模型，发现各工具表现差异巨大，部分模型甚至弱于线性基准，且量化高分未必能反映真实的生物学信号。该框架为该领域的标准化评估和算法优化提供了重要支撑。
+  - Tags：`query:bioinfo`
+- [Machine learning-driven decision support for antibiotic optimization in typhoid fever based on patient profiles.](#/202605/13/202605/13/42121141-machine-learning-driven-decision-support-for-antibiotic-optimization-in-typhoid-fever-based-on-patient-profiles)
+  - TLDR：针对伤寒治疗中抗生素耐药性（AMR）和个体差异导致的用药难题，本研究开发了一个基于 XGBoost 的临床决策支持系统。该系统通过分析患者临床特征预测治疗结果、分类疑似病例并评估耐药风险，并利用 SHAP 解释模型决策。实验表明，模型推荐的用药方案与高治疗成功率显著相关，为资源受限地区的抗生素精准优化提供了可解释的机器学习方案。
+  - Tags：`query:pathoai`
+- [Anti-](#/202605/13/202605/13/42126407-anti-)
+  - TLDR：针对白色念珠菌耐药性日益严重的问题，本文综述了过去15年微生物来源的抗白色念珠菌天然产物（ACA-NPs）的研究进展。文章重点介绍了如何利用多组学集成与数据挖掘技术发现新药，评估了其体内外抗真菌效力及作用机制，为开发新型抗真菌药物提供了系统性的参考和未来研究方向。
+  - Tags：`query:pathoai`
+- [Harnessing random peptide mixtures to combat multidrug-resistant fungal infections.](#/202605/13/202605/13/41979352-harnessing-random-peptide-mixtures-to-combat-multidrug-resistant-fungal-infections)
+  - TLDR：针对侵袭性真菌感染及多重耐药性（如耳念珠菌）带来的治疗挑战，本研究利用随机肽混合物（RPMs）开发了FK20（由苯丙氨酸和赖氨酸组成的20聚体）。FK20通过破坏细胞壁和细胞膜发挥广谱抗真菌活性，不仅能有效抑制生物膜形成并与现有药物产生协同作用，且不易诱导耐药性。小鼠实验证实了其在全身性念珠菌病中的疗效，为应对耐药真菌感染提供了新型治疗平台。
+  - Tags：`query:pathoai`
+- [Co-circulation of multiple arboviruses in acute febrile patients in Yunnan, China, identified by metagenomic sequencing.](#/202605/13/202605/13/42007817-co-circulation-of-multiple-arboviruses-in-acute-febrile-patients-in-yunnan-china-identified-by-metagenomic-sequencing)
+  - TLDR：针对全球变暖背景下虫媒病毒跨界传播风险增加的问题，本研究利用宏基因组测序技术对2017-2023年间中缅边境990名急性发热患者进行了病原体筛查。结果证实了登革病毒、基孔肯雅病毒和寨卡病毒在云南的共同流行，并识别出多种病毒共感染病例。通过时空演化分析还原了2019年基孔肯雅病毒从印度经东南亚传入中国的路径，为加强边境公共卫生监测和早期预警提供了科学依据。
+  - Tags：`query:pathoai`
+- [Pediococcus pentosaceus DF29-derived extracellular vesicles ameliorate EPEC-induced intestinal injury via M2 macrophage polarization.](#/202605/13/202605/13/42119230-pediococcus-pentosaceus-df29-derived-extracellular-vesicles-ameliorate-epec-induced-intestinal-injury-via-m2-macrophage-polarization)
+  - TLDR：针对致病性大肠杆菌（EPEC）引起的肠道损伤与腹泻，本研究探讨了戊糖片球菌DF29衍生的胞外囊泡（PpEVs）的治疗潜力。通过超速离心提取PpEVs并进行体内外实验，发现其能通过抑制TLR4/MyD88/NF-κB通路诱导巨噬细胞向M2型极化，从而修复肠道屏障、减轻氧化应激并调节菌群失调，为开发非抗生素类肠炎干预策略提供了新方向。
+  - Tags：`query:pathoai`
+- [Dynamic microbiome-host interactions and their associations with systemic metabolism and radiological characteristics during early lung adenocarcinoma.](#/202605/13/202605/13/42120518-dynamic-microbiome-host-interactions-and-their-associations-with-systemic-metabolism-and-radiological-characteristics-during-early-lung-adenocarcinoma)
+  - TLDR：针对早期肺腺癌（LUAD）中微生物组与宿主相互作用机制不明的问题，本研究采用多组学方法分析了从良性结节到浸润性腺癌不同阶段的肿瘤微环境。研究发现原位腺癌（AIS）阶段存在强烈的微生物-宿主免疫代谢相互作用，而随病情进展这种联系显著减弱。通过整合血清代谢物和CT影像特征，研究实现了对AIS与微浸润腺癌（MIA）的高精度区分，为早期肺癌的无创诊断和病理演变理解提供了新视角。
+  - Tags：`query:pathoai`
+- [An inflammasome-driven differentiation program in intestinal stem cells protects against Salmonella infection.](#/202605/13/202605/13/42120792-an-inflammasome-driven-differentiation-program-in-intestinal-stem-cells-protects-against-salmonella-infection)
+  - TLDR：肠道干细胞（ISCs）在维持上皮屏障中至关重要，但其在防御肠道病原体中的主动作用尚不明确。本研究通过单细胞转录组和类器官模型发现，Lgr5+ ISCs能直接感知沙门氏菌入侵，并通过ASC介导的炎症小体信号通路，迅速重编程分化为富含抗菌肽的潘氏细胞。这一机制增强了上皮的抗菌能力并限制了病原体在隐窝的持久存在，揭示了干细胞可塑性作为一线先天免疫策略的新功能。
+  - Tags：`query:seqai`
+- [Integrative analysis of the mouse cecal microbiome across diet, age, and weight in the diverse BXD population.](#/202605/13/202605/13/42121260-integrative-analysis-of-the-mouse-cecal-microbiome-across-diet-age-and-weight-in-the-diverse-bxd-population)
+  - TLDR：针对肠道微生物受饮食、年龄和遗传多重因素复杂影响的问题，本研究利用BXD小鼠群体，整合了盲肠宏基因组、宏转录组及宿主转录组数据。通过机器学习模型，研究成功预测了小鼠的体重和生理年龄（AUC最高达0.95），并揭示了特定菌群（如毛螺菌科）与宿主代谢基因（如Ido1）之间的关联。该研究为利用多组学数据开发肥胖和衰老的微生物生物标志物提供了系统性框架。
+  - Tags：`query:bioinfo`
+- [Shaping the future of postoperative recurrence in Crohn's disease: personalised approaches with AI-enabled imaging and multi-omics.](#/202605/13/202605/13/41592952-shaping-the-future-of-postoperative-recurrence-in-crohns-disease-personalised-approaches-with-ai-enabled-imaging-and-multi-omics)
+  - TLDR：克罗恩病术后复发率高且机制复杂，传统监测手段准确性不足。本文综述了利用高分辨率内镜成像、肠道超声及多组学技术获取多维数据，并探讨通过人工智能整合临床与组学信息，构建多模态预测模型。该方法旨在实现术后复发的早期精准检测与个体化风险分层，为克罗恩病的精准医疗提供新路径。
+  - Tags：`query:bioinfo`
+- [Rational Design of ROS-Responsive, ROS-Scavenging, and Bacterial Membrane-Disrupting Self-Antibacterial Supramolecular Gel: A Strategy against Drug-Resistant Bacterial Infection.](#/202605/13/202605/13/42059246-rational-design-of-ros-responsive-ros-scavenging-and-bacterial-membrane-disrupting-self-antibacterial-supramolecular-gel-a-strategy-against-drug-resistant-bacterial-infection)
+  - TLDR：针对抗生素滥用导致的耐药菌感染难题，本研究通过自下而上的方法设计了含硫缩醛键的活性氧（ROS）响应型小分子成胶剂，构建出具有自抗菌特性的超分子凝胶。该凝胶不仅能清除炎症部位的ROS，还能通过物理破坏细菌细胞膜的方式杀灭金黄色葡萄球菌及耐甲氧西林金葡菌（MRSA），为应对临床耐药菌感染提供了一种无需依赖传统抗生素的新型生物材料平台。
+  - Tags：`query:pathoai`
+- [Metatranscriptomic analysis of the microbiota of tumor tissue in colon cancer.](#/202605/13/202605/13/42116194-metatranscriptomic-analysis-of-the-microbiota-of-tumor-tissue-in-colon-cancer)
+  - TLDR：结直肠癌（CRC）与肠道微生物失调密切相关，但肿瘤微环境内微生物的整体活性及其致病机制尚不明确。本研究通过对CRC患者肿瘤组织、对照组织及牙龈沟的元转录组数据进行对比分析，发现以具核梭杆菌为核心的口腔细菌集群在肿瘤中高度活跃，并与宿主炎症及转移相关基因显著相关。研究揭示了微生物从口腔到肠道的定殖规律及代谢功能转变，为理解微生物驱动的肿瘤发生提供了分子证据。
+  - Tags：`query:seqai`
+- [Association between ocular surface microbiota species and type 2 diabetes mellitus with or without retinopathy and related clinical parameters.](#/202605/13/202605/13/42117713-association-between-ocular-surface-microbiota-species-and-type-2-diabetes-mellitus-with-or-without-retinopathy-and-related-clinical-parameters)
+  - TLDR：糖尿病视网膜病变（DR）是严重的致盲并发症，但眼表微生物群（OSM）在物种层面的变化及其与临床指标的关系尚不明确。本研究利用 2bRAD-M 测序技术分析了 92 例样本，发现糖尿病患者眼表共生菌减少而机会致病菌增加，且这些变化与血糖控制和肾功能显著相关。研究揭示了 OSM 物种作为非侵入性诊断标志物的潜力，为糖尿病并发症的早期筛查提供了新视角。
+  - Tags：`query:seqai`
+- [iPSC-Derived 3D Brain Organoids as Next-generation Platforms to Study Viral and Toxicant-associated Neurodegeneration.](#/202605/13/202605/13/42118409-ipsc-derived-3d-brain-organoids-as-next-generation-platforms-to-study-viral-and-toxicant-associated-neurodegeneration)
+  - TLDR：针对阿尔茨海默病和帕金森病等神经退行性疾病，传统2D细胞培养和动物模型在模拟人类病理生理方面存在局限。本文综述了利用诱导多能干细胞（iPSC）衍生的3D类脑器官作为新一代研究平台，探讨环境毒素和病毒感染诱发神经退行性变的机制。该方法有效弥补了传统模型的转化差距，为多因素引起的神经损伤研究及药物开发提供了更接近人类大脑的实验模型。
+  - Tags：`query:pathoai`
+- [Taxonomic and functional remodeling of the gut microbiota during aging and implications for microbiota-derived biomarkers.](#/202605/13/202605/13/42118429-taxonomic-and-functional-remodeling-of-the-gut-microbiota-during-aging-and-implications-for-microbiota-derived-biomarkers)
+  - TLDR：肠道菌群随年龄增长在分类学和功能上发生重塑，与慢性炎症及免疫失调密切相关。本文综述了衰老过程中菌群多样性下降、短链脂肪酸合成减少等特征，对比了病理性衰老与健康长寿者的菌群差异，并探讨了胆汁酸、色氨酸代谢等功能通路的改变。这些发现为利用宏基因组学开发衰老相关疾病的生物标志物及生物技术干预提供了理论框架。
+  - Tags：`query:pathoai`
+- [A systematic evaluation of protein allosteric site prediction tools with independent datasets.](#/202605/13/202605/13/42126486-a-systematic-evaluation-of-protein-allosteric-site-prediction-tools-with-independent-datasets)
+  - TLDR：蛋白质变构调节对生物功能至关重要，但现有变构位点预测工具的性能差异尚不明确。本研究构建了包含结合态（holo）和非结合态（apo）蛋白质的独立测试集 CAPASP，对五种主流预测工具进行了多维度评估。结果显示，基于机器学习的 PASSer 和 APOP 在灵敏度和综合指标上表现最优，但所有工具在处理非结合态蛋白时性能均有所下降。该评估为研究者选择预测模型提供了参考，并指出了未来优化方向。
+  - Tags：`query:bioinfo`
 - [AI-driven fungicide design: From target identification to field application.](#/202605/12/202605/12/41966053-ai-driven-fungicide-design-from-target-identification-to-field-application)
   - TLDR：全球农业正面临真菌病害导致的减产威胁，而传统杀菌剂研发因成本高、周期长且抗药性进化快而陷入瓶颈。本文提出了AI驱动的杀菌剂设计（AIFD）平台，通过整合植物病原体专用数据生态、微服务架构及抗药性预测工作流，将AI技术从药物研发迁移并适配至农业场景。该平台涵盖了从靶点识别到田间验证的全流程，旨在加速开发环境友好且能突破抗药性的新型杀菌剂，为保障全球粮食安全提供技术支撑。
   - Tags：`query:pathoai`
@@ -556,52 +604,4 @@
   - Tags：`query:pathoai`
 - [The complexome contextualizes proteomics data to fingerprint biological states and highlight perturbed functional modules in disease.](#/202604/26/202604/26/42034643-the-complexome-contextualizes-proteomics-data-to-fingerprint-biological-states-and-highlight-perturbed-functional-modules-in-disease)
   - TLDR：针对单组学数据难以揭示疾病复杂功能紊乱的问题，该研究提出了一个基于蛋白质复合物集合（Complexome）的生物信息学框架。通过将蛋白质组学数据映射到已知的复合物模块，该方法能刻画不同组织的生物学特征指纹，并精准识别代谢疾病中线粒体等功能模块的异常。这为从系统层面解析疾病表型背后的分子机制提供了高效的整合分析工具。
-  - Tags：`query:bioinfo`
-- [App-based epidemic game in a university campus reveals how risk perception and behavioral interventions shape disease transmission dynamics.](#/202604/26/202604/26/42034809-app-based-epidemic-game-in-a-university-campus-reveals-how-risk-perception-and-behavioral-interventions-shape-disease-transmission-dynamics)
-  - TLDR：针对传染病防控中行为因素对非药物干预（NPI）效果影响不明的问题，本研究在温州肯恩大学开展了近千人规模的蓝牙App模拟疫情实验。通过构建包含行为反馈的SEAIR动力学模型，发现仅靠NPI不足以控制疫情，必须结合由风险感知驱动的高合规性行为。研究验证了虚拟疫情与真实生物爆发在超速传播和长尾分布上的相似性，为将人类行为异质性整合进流行病模型提供了实证支持。
-  - Tags：`query:pathoai`
-- [An oral-gut microbial metabolite links](#/202604/26/202604/26/42033241-an-oral-gut-microbial-metabolite-links)
-  - TLDR：心肌缺血再灌注损伤（MIRI）是心脏病治疗中的重大挑战。本研究发现口腔致病菌具核梭杆菌虽不直接定植肠道，但能通过重塑肠道菌群结构，诱导代谢产物咪唑丙酸（ImP）水平升高。通过小鼠模型和临床队列验证，ImP会激活心肌细胞中的p62/mTOR信号通路，从而加重再灌注损伤。该发现揭示了“口-肠-心”轴的代谢调控机制，为通过干预菌群代谢减轻心脏损伤提供了新靶点。
-  - Tags：`query:pathoai`
-- [PhaBOX2: an enhanced web server for discovering and analyzing viral contigs in metagenomic data.](#/202604/23/202604/23/42023515-phabox2-an-enhanced-web-server-for-discovering-and-analyzing-viral-contigs-in-metagenomic-data)
-  - TLDR：针对宏基因组病毒分析工具零散且缺乏解释性的挑战，PhaBOX2 升级为集成化分析平台。它将范围从噬菌体扩展至古菌和真核病毒，采用“玻璃盒”设计结合序列比对与机器学习，提供可解释的中间证据。该平台实现了从质控到系统发育分析的全流程自动化，处理速度提升约 80%，为病毒研究提供了高效、透明的一站式解决方案。
-  - Tags：`query:pathoai`
-- [Artificial Intelligence-Based Tools for Automated Genus-Level Identification of Plant-Parasitic Nematodes.](#/202604/23/202604/23/41621093-artificial-intelligence-based-tools-for-automated-genus-level-identification-of-plant-parasitic-nematodes)
-  - TLDR：针对植物寄生线虫（PPN）传统鉴定方法耗时费力且依赖专家经验的问题，本研究采用 YOLOv11-seg 实例分割算法，对马铃薯作物中常见的三类重要寄生线虫及非寄生线虫进行了自动化识别。通过对 8,654 个显微图像实例进行训练，模型在测试集上实现了 88.6% 的准确率，核心类别的 F1 分数均超过 0.92。该研究证明了深度学习在属级线虫快速鉴定中的有效性，为构建自动化病原体监测系统提供了技术路径。
-  - Tags：`query:pathoai`
-- [Integrating theory and machine learning to reveal determinants of plasmid copy number.](#/202604/23/202604/23/42020421-integrating-theory-and-machine-learning-to-reveal-determinants-of-plasmid-copy-number)
-  - TLDR：质粒拷贝数（PCN）对微生物进化和耐药性至关重要，但其决定因素尚不明确。本研究结合理论建模与机器学习，首先通过理论解释了质粒大小与PCN间的幂律关系，随后利用11,051个质粒数据训练模型，发现蛋白质结构域是关键预测因子。该框架成功应用于数十万个宏基因组质粒和临床分离株，揭示了特定生态位下的PCN热点及肠道质粒组特征，为耐药性监测和质粒生态学研究提供了新工具。
-  - Tags：`query:pathoai`
-- [Human milk oligosaccharide mediates mutualism between Escherichia coli and Bifidobacterium bifidum.](#/202604/23/202604/23/42020426-human-milk-oligosaccharide-mediates-mutualism-between-escherichia-coli-and-bifidobacterium-bifidum)
-  - TLDR：婴儿肠道中大肠杆菌（E. coli）的生态作用尚不明确。本研究通过对母婴宏基因组的纵向分析及体外实验，发现 E. coli 与双歧杆菌（B. bifidum）存在互利共生关系：E. coli 为双歧杆菌提供必需的半胱氨酸，而双歧杆菌降解母乳低聚糖（2'-FL）产生的单糖则反哺 E. coli。这种跨物种代谢耦合解释了两者在婴儿肠道中共存的机制，为理解早期微生物群落构建提供了新视角。
-  - Tags：`query:seqai`
-- [Treemble: A Graphical Tool to Generate Newick Strings from Phylogenetic Tree Images.](#/202604/23/202604/23/42018742-treemble-a-graphical-tool-to-generate-newick-strings-from-phylogenetic-tree-images)
-  - TLDR：针对生物学文献中大量进化树仅以图像形式存在、缺乏机器可读 Newick 格式的问题，Treemble 推出了一款跨平台桌面应用。该工具结合深度学习节点检测模型与用户交互点击，能从矩形或圆形进化树图像中精准提取节点坐标并自动重构拓扑结构，同时支持末端标签的自动识别。这为研究者从既有文献中回收进化数据、进行超树构建和后续分析提供了高效且低误的解决方案。
-  - Tags：`query:pathoai`
-- [Emergence of hypervirulent Klebsiella pneumoniae ST111 with a novel virulence plasmid causing pyogenic liver abscess.](#/202604/23/202604/23/42021129-emergence-of-hypervirulent-klebsiella-pneumoniae-st111-with-a-novel-virulence-plasmid-causing-pyogenic-liver-abscess)
-  - TLDR：针对非典型高毒力肺炎克雷伯菌（hvKp）导致肝脓肿的罕见病例，本研究通过全基因组测序和CRISPR/Cas9质粒消除技术，分析了ST111型菌株的致病机制。研究发现一种新型毒力质粒是其高致病性的核心，该质粒携带了通常位于染色体上的ybt基因簇。这一发现揭示了非典型谱系通过获取强效毒力因子演变为高毒力菌株的风险，为临床监测和防控新兴高毒力克隆提供了重要依据。
-  - Tags：`query:pathoai`
-- [Gut microbiota reshapes host energy metabolism to modulate depressive behaviors.](#/202604/23/202604/23/42023591-gut-microbiota-reshapes-host-energy-metabolism-to-modulate-depressive-behaviors)
-  - TLDR：抑郁症常伴随能量代谢紊乱，但肠道菌群在其中的作用机制尚不明确。本研究通过对100名抑郁症患者进行宏基因组与代谢组联合分析，揭示了“肠道菌群-能量代谢物-抑郁表型”轴，并利用小鼠模型验证了自体粪菌移植（FMT）能修复线粒体结构并纠正无氧糖酵解。该研究证明了肠道菌群对宿主能量代谢的重塑作用，为抑郁症治疗提供了新思路。
-  - Tags：`query:pathoai`
-- [Microbiome in adult severe caries and cross-kingdom biofilms validation.](#/202604/23/202604/23/42024170-microbiome-in-adult-severe-caries-and-cross-kingdom-biofilms-validation)
-  - TLDR：成年人重症龋齿（ASC）严重影响口腔功能，但其致病机制尚不明确。本研究通过对ASC患者唾液进行宏基因组分析，发现白色念珠菌和韦荣氏菌显著富集。随后构建了包含细菌与真菌的跨界生物膜模型，证实了这些微生物间的协同作用能显著增强胞外多糖合成、产酸耐受力及牙本质脱矿能力。该研究揭示了跨界微生物交互作用在增强龋齿毒力中的关键作用，为高龋齿风险的预防提供了新思路。
-  - Tags：`query:pathoai`
-- [Predicting microbial community responses to disturbance using genome-resolved trait-based life-history strategies.](#/202604/23/202604/23/42023670-predicting-microbial-community-responses-to-disturbance-using-genome-resolved-trait-based-life-history-strategies)
-  - TLDR：针对微生物群落如何响应环境扰动这一生态学核心问题，本研究将植物学中的CSR（竞争者-开拓者-耐逆者）生活史策略框架引入微生物研究。通过在合成废水生物反应器中设置不同频率的有机负荷扰动，结合宏基因组学和机器学习分析，揭示了群落从竞争主导向耐逆主导演变的规律。该方法为预测复杂生态系统动态提供了统一的性状分析工具，有助于提升生态系统管理和生物技术应用的精准度。
-  - Tags：`query:pathoai`
-- [Empowering global disease surveillance with CURED: a tool for rapid identification of unique genomic biomarkers.](#/202604/22/202604/22/41854250-empowering-global-disease-surveillance-with-cured-a-tool-for-rapid-identification-of-unique-genomic-biomarkers)
-  - TLDR：针对全基因组测序（WGS）在病原微生物大规模实时监测中成本高、速度慢的问题，研究者开发了 CURED 工具。该工具通过分析基因组训练集，识别具有特定限制性内切酶位点的唯一 k-mer，从而将复杂的基因组信息转化为低成本、快速的 PCR 诊断方案。实验证明 CURED 在 MRSA、鲍曼不动杆菌等多种病原体检测中表现优异，显著提升了局部爆发调查和全球疾病监测的效率与可及性。
-  - Tags：`query:pathoai`
-- [scSurvival: Single-Cell Survival Analysis of Clinical Cancer Cohort Data at Cellular Resolution.](#/202604/22/202604/22/42013315-scsurvival-single-cell-survival-analysis-of-clinical-cancer-cohort-data-at-cellular-resolution)
-  - TLDR：针对单细胞测序数据与临床生存数据结合时缺乏直接建模工具的问题，该研究开发了 scSurvival 框架。它采用基于注意力机制的多实例 Cox 回归模型，将肿瘤样本视为细胞集合，并结合变分自编码器处理高维稀疏数据和批次效应。该方法不仅能准确预测癌症患者的生存预后，还能识别出对生存起关键作用的细胞亚群，为单细胞水平的临床预后分析提供了有力工具。
-  - Tags：`query:seqai`
-- [Metagenome-assembled genomes from a population-based cohort uncover novel gut species and within-species diversity, revealing prevalent disease associations.](#/202604/22/202604/22/41837716-metagenome-assembled-genomes-from-a-population-based-cohort-uncover-novel-gut-species-and-within-species-diversity-revealing-prevalent-disease-associations)
-  - TLDR：针对宏基因组分析中参考数据库不全及难以区分菌株差异的问题，本研究通过对爱沙尼亚队列的1878份样本进行深度测序，构建了包含353个新物种的基因组集，并提出GUN指标量化种内多样性。研究成功关联了25种疾病，其中8种涉及新物种，并揭示了特定菌株与胃炎等疾病的隐藏关联，证明了基因组解析方法在精准医疗中的价值。
-  - Tags：`query:seqai`
-- [Integrating Arrhenius Constraints with Lineage-Aware Meta-Learning for Few-Shot Prediction of Temperature-Dependent Enzyme Kinetics.](#/202604/22/202604/22/42013401-integrating-arrhenius-constraints-with-lineage-aware-meta-learning-for-few-shot-prediction-of-temperature-dependent-enzyme-kinetics)
-  - TLDR：酶工程中预测催化效率（kcat）随温度的变化至关重要，但面临实验数据稀缺且纯数据驱动模型易违背热力学原理的挑战。PIMetaKcat 框架通过结合系统发育信息的元学习与阿伦尼乌斯方程约束，实现了少样本下的动力学预测。该方法在低相似度序列上表现优异，能准确重建酶的活性曲线并识别最优温度，显著提升了理性酶设计的效率。
-  - Tags：`query:bioinfo`
-- [Navigating multi-omic integration methods for human microbiome research.](#/202604/22/202604/22/42014454-navigating-multi-omic-integration-methods-for-human-microbiome-research)
-  - TLDR：人体微生物组研究中多组学数据整合面临分析挑战。本文系统梳理了整合方法，重点围绕分子层交互、疾病偏移、患者分层及机制识别等核心问题，为研究者提供根据目标选择最优策略的指南，旨在提升对宿主-微生物交互作用的理解。
   - Tags：`query:bioinfo`
