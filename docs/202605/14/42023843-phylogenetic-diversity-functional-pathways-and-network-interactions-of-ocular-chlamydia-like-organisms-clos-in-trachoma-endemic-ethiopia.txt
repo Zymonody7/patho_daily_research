@@ -1,0 +1,115 @@
+Title: Phylogenetic diversity, functional pathways, and network interactions of ocular chlamydia-like organisms (CLOs) in trachoma-endemic Ethiopia - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42023843/
+
+Markdown Content:
+## Phylogenetic diversity, functional pathways, and network interactions of ocular chlamydia-like organisms (CLOs) in trachoma-endemic Ethiopia
+
+Olusola Olagoke et al. mBio.2026.
+
+## Abstract
+
+Trachoma is the leading infectious cause of blindness worldwide and classically attributed to C _hlamydia trachomatis_ (Ct). However, other members of the phylum Chlamydiae, particularly environmental chlamydia-like organisms (CLOs), may modulate ocular ecology and influence disease outcomes. Here, we investigated CLO distribution, phylogeny, and microbiome associations among 1,059 individuals from trachoma-endemic communities in Ethiopia using targeted 16S rRNA sequencing and metagenomic shotgun sequencing. CLOs were detected in 249 (23.3%) participants of all ages and sexes and were significantly less likely to be associated with Ct or trachomatous scarring (TS) and trichiasis (TT). Phylogenetic analyses revealed extensive CLO diversity with six novel phylotypes, the most abundant of which was ancestral to _Sorochlamydiaceae_-a family linking pathogenic _Chlamydiaceae_, which includes the genus _Chlamydia_, and symbionts of protists. CLO-positive microbiomes exhibited significantly greater species richness and evenness with distinct differences in community composition relative to CLO-negative microbiomes. These effects were most pronounced among males and older adults. Functional profiling revealed widespread depletion of biosynthetic and metabolic pathways in CLO-positive microbiomes, particularly in participants with TS/TT, suggesting reduced community biosynthetic capacity and niche modification. Species interaction network analyses demonstrated substantial reorganization of microbial associations in the presence of CLOs with increased connectivity and centrality compared to CLO-negative networks. These findings identify CLOs as prevalent, phylogenetically diverse, and ecologically influential members of the microbiome. Their inverse association with Ct and TS/TT underscores the importance of considering intracellular symbionts beyond Ct in understanding conjunctival microbial ecology, resilience, and trachoma pathogenesis and for designing novel control strategies.IMPORTANCETrachoma caused by _Chlamydia trachomatis_ (Ct) remains the leading infectious cause of blindness globally. While control efforts focus exclusively on Ct, other members of the phylum Chlamydiae, such as chlamydia-like organisms (CLOs), inhabit mucosal surfaces but remain understudied in the eye. Using targeted 16S rRNA and metagenomic shotgun sequencing of conjunctival samples from villagers in trachoma-endemic Ethiopia, CLOs were prevalent (23.3%; 249/1,059), phylogenetically diverse, including novel Chlamydiae phylotypes, and inversely associated with both Ct infection and severe scarring disease. CLO microbiomes had increased microbial diversity, altered community composition, depleted metabolic pathway abundance, and reorganized species interaction networks compared to CLO-negative microbiomes. These findings challenge the singular focus on Ct in trachoma control and research and suggest that CLOs represent ecologically significant members of the conjunctival microbiome. Further research on their interactions with ocular microbial communities could reveal new insights into trachoma pathogenesis and inform more holistic approaches to disease control.
+
+**Keywords:** Chlamydia-like organisms; Ethiopia; metagenomic shotgun sequencing; ocular microbiome; pathogenesis; trachoma.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+The authors declare no conflict of interest.
+
+## Figures
+
+[![Image 1: Fig 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b35c/13170232/ae952868caab/mbio.00534-26.f001.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b35c/13170232/71852a1ccc54/mbio.00534-26.f001.jpg)
+
+**Fig 1**
+Study population characteristics. (**A**) Map of study regions in northwestern Ethiopia showing the locations of villages in Amhara that were sampled for this study. Red dots indicate the 10 villages from which conjunctival samples were collected. (**B**) Age distribution of study participants across trachoma grades. The number above each bar in the graph shows the total number of participants for each age group. Horizontal lines depict median age. Distribution of trachoma grades is shown across (**C**) sex and by (**D**) CLO-positive and (**E**) CLO-negative individuals.
+
+[![Image 2: Fig 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b35c/13170232/909982240562/mbio.00534-26.f002.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b35c/13170232/bb2655fc4480/mbio.00534-26.f002.jpg)
+
+**Fig 2**
+Diversity of CLOs based on 16S rRNA sequences in Amhara, Ethiopia at the (**A**) known Chlamydiae family and (**B**) phylotype levels. (**C**) Phylogenetic relationship between the CLOs identified in this study with previously published members of the Chlamydiae phylum. Non-colored boxes for the four categories of age, Ct status, sex, and trachoma grade represent publicly available sequences. Colored clusters show phylotypes with representative members from the current study. Identical color scales are used in panels **B and C**.
+
+[![Image 3: Fig 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b35c/13170232/8ee94e55b1a2/mbio.00534-26.f003.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b35c/13170232/77ac2be7ca30/mbio.00534-26.f003.jpg)
+
+**Fig 3**
+Alpha diversity metrics showing (**A**) comparison of observed species and Shannon index among CLO-negative and -positive individuals. (**B**) Stratified comparisons of Shannon diversity by sex (males), age group (older adults), and trachoma grade (TS/TT). Boxplots represent the median and interquartile range; points denote individual samples. Only statistically significant comparisons are shown. Complete stratified results for both observed species richness and Shannon diversity are shown in Fig. S1. (**C**) Multivariable ANOVA results demonstrating that CLO status is independently associated with Shannon diversity after adjustment for age group, sex, and trachoma grade. Abbreviations: Res.Df, residual degrees of freedom; RSS, residual sum of squares; Df, degrees of freedom (number of parameters for each variable); Sum of Sq, sum of squares attributable to each variable; and F, F-statistic; Pr(>F), _P_ value. Residuals represent the unexplained variance remaining after accounting for all model predictors.
+
+[![Image 4: Fig 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b35c/13170232/ffb6ce757010/mbio.00534-26.f004.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b35c/13170232/fea2d48d322d/mbio.00534-26.f004.jpg)
+
+**Fig 4**
+Relative abundance and differentially abundant species in CLO-associated microbiomes. (**A**) Overall relative abundance of the top 20 microbial species in CLO-positive and -negative microbiomes without controlling for covariates. Bars show mean relative abundance, with error bars representing the standard error. (**B**) Forest plot of species significantly associated with CLO status (MaAsLin3, _q_< 0.1), showing abundance (circles) and prevalence (triangles) associations. β coefficients represent log2 fold change (CLO-positive vs CLO-negative). (**C**) Stratified analysis showing CLO effect within tested groups defined by sex, age group, and trachoma grade while adjusting for remaining covariates. Red, enriched in CLO-positive microbiomes; blue, depleted in CLO-positive microbiomes. Asterisks denote FDR-adjusted significance (_q_-value): *, _q_< 0.1; **, _q_< 0.05; +, _P_< 0.05; ++, _P_< 0.01. Gray = NA.
+
+[![Image 5: Fig 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b35c/13170232/15569bb2c4f6/mbio.00534-26.f005.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b35c/13170232/c1d57336ac5e/mbio.00534-26.f005.jpg)
+
+**Fig 5**
+Differential abundance of functional pathways comparing CLO-positive and -negative microbiomes across subgroups, annotated by two hierarchical functional categories. The heatmap shows the log 2 fold change in pathway abundance between CLO-positive and -negative associated microbiomes across clinical subgroups stratified by age group, sex, and trachoma grade, with adjustment for remaining covariates within each stratum. Pathways (_y_-axis) are clustered hierarchically and grouped by Functional Category 1 (broad metabolic class), with color-coded side bars indicating both functional categories 1 and 2 (specific functional subclass within the broad metabolic classes). Clinical subgroups are shown on the _x_-axis, with hierarchical clustering based on similarity in pathway abundance profiles. Blue to red color scale represents log 2 fold changes, with blue indicating depletion and red indicating elevation in CLO-positive microbiomes. Legends to the right indicate color assignments for each functional category. A detailed description of all indicated pathways for each subgroup is available in Fig. S3.
+
+[![Image 6: Fig 6](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b35c/13170232/38622257be3b/mbio.00534-26.f006.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b35c/13170232/4954cd4ff3d9/mbio.00534-26.f006.jpg)
+
+**Fig 6**
+Co-occurrence networks of dominant microbial species by CLO status. SparCC correlation networks for (**A**) CLO-negative and (**B**) CLO-positive microbiomes. Nodes represent species with node size proportional to degree (number of connections). Node colors indicate subclusters identified by Louvain community detection. Gray nodes indicate species in subclusters with fewer than three members ("other"). Edges (lines connecting nodes) represent significant correlations (|_r_| > 0.3). Species labels are shown for top hub species (highly connected species) per subcluster. (**C**) Differential correlation heatmap showing the difference in SparCC correlations between CLO-positive and -negative networks for the top 50 species ranked by total absolute correlation difference. Red indicates species pairs with stronger positive correlations in CLO-positive microbiomes; blue indicates weaker or reversed correlations. Hierarchical clustering (Euclidean distance, complete linkage) groups species with similar differential correlation patterns. A complete list of all the species indicated in the co-occurrence networks is available in Table S4.
+
+## Similar articles
+
+*   [Distribution and viability of ocular and non-ocular Chlamydia trachomatis in households in a trachoma-endemic community in Oromia, Ethiopia.](https://pubmed.ncbi.nlm.nih.gov/39804825/)
+
+Shafi Abdurahman O, Bekele G, Butcher R, Deressa G, Mumme A, Mohammed M, Nure R, Nuri KT, Shuka G, Hirpo K, Greenland K, Habtamu E, Versteeg B, Macleod D, Last A, Burton MJ.Shafi Abdurahman O, et al.PLoS Negl Trop Dis. 2025 Jan 13;19(1):e0012759. doi: 10.1371/journal.pntd.0012759. eCollection 2025 Jan.PLoS Negl Trop Dis. 2025.PMID: 39804825 Free PMC article. 
+*   [Detection of Chlamydia trachomatis ocular infection in trachoma-endemic communities by rRNA amplification.](https://pubmed.ncbi.nlm.nih.gov/18689701/)
+
+Yang JL, Hong KC, Schachter J, Moncada J, Lekew T, House JI, Zhou Z, Neuwelt MD, Rutar T, Halfpenny C, Shah N, Whitcher JP, Lietman TM.Yang JL, et al.Invest Ophthalmol Vis Sci. 2009 Jan;50(1):90-4. doi: 10.1167/iovs.08-2247. Epub 2008 Aug 8.Invest Ophthalmol Vis Sci. 2009.PMID: 18689701 
+*   [Conjunctival Microbiome-Host Responses Are Associated With Impaired Epithelial Cell Health in Both Early and Late Stages of Trachoma.](https://pubmed.ncbi.nlm.nih.gov/31552195/)
+
+Pickering H, Palmer CD, Houghton J, Makalo P, Joof H, Derrick T, Goncalves A, Mabey DCW, Bailey RL, Burton MJ, Roberts CH, Burr SE, Holland MJ.Pickering H, et al.Front Cell Infect Microbiol. 2019 Aug 21;9:297. doi: 10.3389/fcimb.2019.00297. eCollection 2019.Front Cell Infect Microbiol. 2019.PMID: 31552195 Free PMC article. 
+*   [Insights into Pathogenesis of Trachoma.](https://pubmed.ncbi.nlm.nih.gov/39203386/)
+
+Toumasis P, Vrioni G, Tsinopoulos IT, Exindari M, Samonis G.Toumasis P, et al.Microorganisms. 2024 Jul 28;12(8):1544. doi: 10.3390/microorganisms12081544.Microorganisms. 2024.PMID: 39203386 Free PMC article.Review. 
+*   [[Isolation of Chlamydia trachomatis in trachomatous Moroccan patients].](https://pubmed.ncbi.nlm.nih.gov/8944135/)
+
+Takourt B, Milad A, Radouani F, Boura H, Guinet R, Benslimane A.Takourt B, et al.J Fr Ophtalmol. 1996;19(8-9):527-32.J Fr Ophtalmol. 1996.PMID: 8944135 Review.French. 
+
+## References
+
+1.       1.    WHO . 2025. Trachoma. WHO fact sheets. Available from: [https://www.who.int/news-room/fact-sheets/detail/trachoma](https://www.who.int/news-room/fact-sheets/detail/trachoma "External link: https://www.who.int/news-room/fact-sheets/detail/trachoma"). Retrieved 13 Aug 2025. 
+
+2.       1.    Dean D, Kandel RP, Adhikari HK, Hessel T. 2008. Multiple Chlamydiaceae species in trachoma: implications for disease pathogenesis and control. PLoS Med 5:e14. doi: 10.1371/journal.pmed.0050014 - [DOI](https://doi.org/10.1371/journal.pmed.0050014) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC2174965/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/18177205/)
+
+3.       1.    Dean D, Rothschild J, Ruettger A, Kandel RP, Sachse K. 2013. Zoonotic Chlamydiaceae species associated with trachoma, Nepal. Emerg Infect Dis 19:1948–1955. doi: 10.3201/eid1912.130656 - [DOI](https://doi.org/10.3201/eid1912.130656) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3840858/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/24274654/)
+
+4.       1.    Goldschmidt P, Rostane H, Sow M, Goépogui A, Batellier L, Chaumeil C. 2006. Detection by broad-range real-time PCR assay of Chlamydia species infecting human and animals. Br J Ophthalmol 90:1425–1429. doi: 10.1136/bjo.2006.096420 - [DOI](https://doi.org/10.1136/bjo.2006.096420) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC1857507/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/16899531/)
+
+5.       1.    Kahane S, Gonen R, Sayada C, Elion J, Friedman MG. 1993. Description and partial characterization of a new Chlamydia-like microorganism. FEMS Microbiol Lett 109:329–333. doi: 10.1016/0378-1097(93)90041-y - [DOI](https://doi.org/10.1016/0378-1097(93)90041-y) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/8339923/)
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Atypon](https://journals.asm.org/doi/10.1128/mbio.00534-26?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
+    *   [eScholarship, University of California - Access Free Full Text](https://escholarship.org/uc/item/6zd89794)

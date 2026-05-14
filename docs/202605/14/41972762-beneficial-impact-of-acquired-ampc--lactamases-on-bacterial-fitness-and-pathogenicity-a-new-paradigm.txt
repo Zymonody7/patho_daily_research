@@ -1,0 +1,125 @@
+Title: Beneficial impact of acquired AmpC β-lactamases on bacterial fitness and pathogenicity: a new paradigm - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41972762/
+
+Markdown Content:
+## Beneficial impact of acquired AmpC β-lactamases on bacterial fitness and pathogenicity: a new paradigm
+
+Otávio Hallal Ferreira Raro et al. mBio.2026.
+
+## Abstract
+
+AmpC-type β-lactamases share structural similarities with penicillin-binding proteins, supporting the view that both enzyme families evolved from a common ancestor. Considering the widespread dissemination of acquired AmpCs in Gram-negative bacteria, we hypothesize that, besides their established role in β-lactam resistance, they may also influence essential bacterial mechanisms. Thus, this study aimed to elucidate whether AmpCs modulate bacterial physiology and fitness. _Escherichia coli_ MG1655 was used as the model organism to assess the impact of clinically relevant acquired AmpCs (CMY, DHA, ACC, and FOX variants) on growth, competition, motility, biofilm formation, and pathogenicity, coupled with transcriptomic profiling. We demonstrated that certain CMY variants (notably CMY-42 and CMY-145) confer an unexpected _in vitro_ growth advantage, whereas CMY-2 enhances pathogenicity _in vivo_ by inducing flagellar production. These findings establish a new paradigm in which some AmpCs act as both resistance determinants and regulators of bacterial fitness and virulence, contributing to the ecological success of Enterobacterales.
+
+**Importance:** Although β-lactamases have always been considered enzymes involved in resistance to β-lactam antibiotics, they also have to be considered as playing a role in reshaping bacterial physiology. By studying a series of class C β-lactamases, we uncovered an unexpected dual role. Besides conferring resistance to β-lactams, they also impact bacterial growth, motility, and pathogenicity through modulation of flagellar biosynthesis. Strikingly, while CMY-42- and CMY-145-producing recombinant _Escherichia coli_ strains showed enhanced _in vitro_ fitness growth by reducing energy-costly flagellar production, production of CMY-2 (the most commonly identified acquired AmpC β-lactamase identified in Enterobacterales) restored flagella and increased virulence _in vivo_. This work reframes β-lactamases as metabolic regulators influencing ecological success, offering new insight into how resistance determinants promote the spread and clinical impact of Enterobacterales.
+
+**Keywords:** AmpCs; fitness; pathogenicity.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+The authors declare no conflict of interest.
+
+## Figures
+
+[![Image 1: Fig 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/118e/13170162/cd455c759a96/mbio.00088-26.f001.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/118e/13170162/a5ed609d3088/mbio.00088-26.f001.jpg)
+
+**Fig 1**
+Measurement of growth capacities of the WT and recombinant isogenic _E. coli_ isolates. (**A**) Growth curves evidencing the negative impact on the growth rate caused by the insertion of the plasmid. (**B**) Demonstration of the effect of compensation observed when pCMY-42 and pCMY-145 are present. (**C**) Demonstration of the lack of significant activity observed when the Asn90Thr substitution was inserted in CMY-2. (**D**) Competition assay showing no relative fitness discrepancies between p0 and pCMY-2. (**E**) Competition assay showing relative fitness advantage for pCMY-42 over pCMY-2. (**F**) Competition assay showing relative fitness advantage for pCMY-145 over pCMY-2. Data are shown as mean ± standard error of mean (SEM). ns, non-significant; *, _P_-value ≤ 0.05; **, _P_-value ≤ 0.01; ***, _P_-value ≤ 0.001; ****, _P_-value ≤ 0.0001. For panels **D**, **E**, and **F**, numbers show relative fitness in each time point (4 h, 6 h, 8 h, and 24 h); Avg_w shows global average relative fitness ± SEM.
+
+[![Image 2: Fig 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/118e/13170162/a082db1783d4/mbio.00088-26.f002.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/118e/13170162/fbeac726ffa6/mbio.00088-26.f002.jpg)
+
+**Fig 2**
+RNA transcriptomic analysis. (**A**) Volcano plots representing graphical data visualization of 4,351 genes present in recombinant isogenic _E. coli_ isolates, showing the expression differences (≥2 log2 fold) and statistical significance (_P_-value ≤ 0.05) when comparing pCMY-42 or pCMY-145 with pCMY-2. (**B**) Venn diagrams showing isogenic recombinant pCMY-42 and pCMY-145 down- or upregulated genes when compared with pCMY-2. (**C**) Gene ontology enrichment of genes downregulated in CMY-42 and CMY-145 compared to CMY-2. Biological process terms enriched among downregulated genes were used. Circle size indicates the number of downregulated genes; signal is defined as a weighted harmonic mean between the observed/expected ratio and −log; FDR < 0.05.
+
+[![Image 3: Fig 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/118e/13170162/8848dd249a6d/mbio.00088-26.f003.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/118e/13170162/2b5884321ec7/mbio.00088-26.f003.jpg)
+
+**Fig 3**
+RT-qPCR. (**A**) Comparison of the relative expression of pCMY-2 against pCMY-145 for the genes _flhC_, _fliA_, _flgK_, _gspC,_ and _dsdA_, confirming transcriptomic results. (**B**) _flhC_ expression for pCMY-2 against WT and p0. (**C**) _fliA_ expression for pCMY-2 against WT and p0. (**D**) _flgK_ expression for pCMY-2 against WT and p0. (**E**) _flhC_ expression for pCMY-145 against WT and p0. (**F**) _fliA_ expression for pCMY-145 against WT and p0. (**G**) _flgK_ expression for pCMY-145 against WT and p0. (**H**) _flhC_, _fliA_, _flgK_ expression for p0 against WT. (**I**) _flhC_, _fliA_, _flgK_ expression for pDHA-V211S against pDHA. (**J**) _flhC_, _fliA_, _flgK_ expression for FOX-5-V211S against FOX-5. Results observed for pCMY-145 can be extrapolated to pCMY-42. Data are shown as mean ± SEM. *, _P_-value ≤ 0.05; ** _P_-value ≤ 0.01; ***, _P_-value ≤ 0.001; ****, _P_-value ≤ 0.0001**.**
+
+[![Image 4: Fig 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/118e/13170162/47cce13a7696/mbio.00088-26.f004.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/118e/13170162/f23d1aa61fd3/mbio.00088-26.f004.jpg)
+
+**Fig 4**
+Motility assay in soft LB agar and transmission electron microscopy. (**A**) Colony swimming demonstrates halo growth in 18 h, 24 h, 48 h, and 72 h. (**B**) Table with the halo diameter measured for all six replicates. (**C**) Bar graph demonstrating halo differences. Data are shown as mean ± SEM. *, _P_-value ≤ 0.05; **, _P_-value ≤ 0.01. Results for pCMY-42 are in the same range as for pCMY-145. (**D**) Transmission electron microscopy evidencing the presence or absence of flagella in the cell structure of the WT and isogenic _E. coli_ strains. Pictures were taken using a Tecnai G2 Spirit bioTwin transmission electron microscope at 120 kV equipped with a WA Veleta camera. Scale bar corresponds to 2 µm. Images observed for pCMY-145 can be extrapolated to pCMY-42.
+
+[![Image 5: Fig 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/118e/13170162/9bfcac7a2ad6/mbio.00088-26.f005.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/118e/13170162/0320aedc6eed/mbio.00088-26.f005.jpg)
+
+**Fig 5**
+Serum-killing assays and _in vivo_ larvae pathogenesis. (**A**) Survival percentage of the strains in 33% human serum. Data are shown as mean ± SEM. ***, _P_-value ≤ 0.001; ****, _P_-value ≤ 0.0001. (**B**) Health score of infected _Zophobas morio_ larvae (_Zm_ L) at different time points. The total health score of each treatment per time point is represented by the mean ± SEM. The significance level of the _P_-values for comparing pCMY-2 (purple vertical lines) against WT, p0, pCMY-42, and pCMY-145, and pFOX-5 (green vertical lines) against WT, p0, and pFOX-5-V211S are: ****, _P_-value ≤ 0.0001. Only significant results (_P_< 0.05) of the interactions between pCMY-2 and/or pFOX-5 against all other treatments, as determined by ordinal logistic regression, are shown in the plot. (**C**) Picture taken for demonstration of the differences in larvae states after 72 h of the experiment. Left-hand side: healthy _Zm_ L. Right-hand side: dead _Zm_ L infected with pCMY-2.
+
+[![Image 6: Fig 6](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/118e/13170162/9f7ee3f64149/mbio.00088-26.f006.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/118e/13170162/6303081d5e5f/mbio.00088-26.f006.jpg)
+
+**Fig 6**
+General overview of results obtained through diverse experimental approaches, comparing the pair of recombinant strains respectively producing CMY-2 and CMY-145. *Same results were obtained for pCMY-42.
+
+## Similar articles
+
+*   [In Vivo Evolution of CMY-2 to CMY-33 β-Lactamase in Escherichia coli Sequence Type 131: Characterization of an Acquired Extended-Spectrum AmpC Conferring Resistance to Cefepime.](https://pubmed.ncbi.nlm.nih.gov/26392491/)
+
+Pires J, Taracila M, Bethel CR, Doi Y, Kasraian S, Tinguely R, Sendi P, Bonomo RA, Endimiani A.Pires J, et al.Antimicrob Agents Chemother. 2015 Dec;59(12):7483-8. doi: 10.1128/AAC.01804-15. Epub 2015 Sep 21.Antimicrob Agents Chemother. 2015.PMID: 26392491 Free PMC article. 
+*   [High _in vitro_ activity of aztreonam/avibactam against NDM-producing Enterobacterales with emerging resistance in _Escherichia coli_ in the United States Mid-Atlantic region.](https://pubmed.ncbi.nlm.nih.gov/41665356/)
+
+Eklund E, Maruca T, Kruczynski K, Critchfield H, Murphy R, Keller E, Lee B, Patel A, Klein L, Torpey DA, Myers RA, Campodónico VL.Eklund E, et al.Microbiol Spectr. 2026 Mar 3;14(3):e0397125. doi: 10.1128/spectrum.03971-25. Epub 2026 Feb 10.Microbiol Spectr. 2026.PMID: 41665356 Free PMC article. 
+*   [Dissemination and characterisation of Escherichia coli producing extended-spectrum β-lactamases, AmpC β-lactamases and metallo-β-lactamases from livestock and poultry in Northeast India: A molecular surveillance approach.](https://pubmed.ncbi.nlm.nih.gov/30634056/)
+
+Tewari R, Mitra S, Ganaie F, Das S, Chakraborty A, Venugopal N, Shome R, Rahman H, Shome BR.Tewari R, et al.J Glob Antimicrob Resist. 2019 Jun;17:209-215. doi: 10.1016/j.jgar.2018.12.025. Epub 2019 Jan 8.J Glob Antimicrob Resist. 2019.PMID: 30634056 
+*   [beta-Lactam resistance and beta-lactamases in bacteria of animal origin.](https://pubmed.ncbi.nlm.nih.gov/17306475/)
+
+Li XZ, Mehrotra M, Ghimire S, Adewoye L.Li XZ, et al.Vet Microbiol. 2007 Apr 15;121(3-4):197-214. doi: 10.1016/j.vetmic.2007.01.015. Epub 2007 Jan 23.Vet Microbiol. 2007.PMID: 17306475 Review. 
+*   [Extraintestinal pathogenic Escherichia coli: an update on antimicrobial resistance, laboratory diagnosis and treatment.](https://pubmed.ncbi.nlm.nih.gov/23199402/)
+
+Pitout JD.Pitout JD.Expert Rev Anti Infect Ther. 2012 Oct;10(10):1165-76. doi: 10.1586/eri.12.110.Expert Rev Anti Infect Ther. 2012.PMID: 23199402 Review. 
+
+## References
+
+1.       1.    Bush K. 2018. Past and present perspectives on β-lactamases. Antimicrob Agents Chemother 62:e01076-18. doi: 10.1128/AAC.01076-18 - [DOI](https://doi.org/10.1128/aac.01076-18) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6153792/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/30061284/)
+
+2.       1.    Bush K. 2013. The ABCD’s of β-lactamase nomenclature. J Infect Chemother 19:549–559. doi: 10.1007/s10156-013-0640-7 - [DOI](https://doi.org/10.1007/s10156-013-0640-7) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/23828655/)
+
+3.       1.    Ambler RP. 1980. The structure of β-lactamases. Philos Trans R Soc Lond B Biol Sci 289:321–331. doi: 10.1098/rstb.1980.0049 - [DOI](https://doi.org/10.1098/rstb.1980.0049) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/6109327/)
+
+4.       1.    Philippon A, Jacquier H, Ruppé E, Labia R. 2019. Structure-based classification of class A beta-lactamases, an update. Curr Res Transl Med 67:115–122. doi: 10.1016/j.retram.2019.05.003 - [DOI](https://doi.org/10.1016/j.retram.2019.05.003) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/31155436/)
+
+5.       1.    Livermore DM, Canton R, Gniadkowski M, Nordmann P, Rossolini GM, Arlet G, Ayala J, Coque TM, Kern-Zdanowicz I, Luzzaro F, Poirel L, Woodford N. 2007. CTX-M: changing the face of ESBLs in Europe. J Antimicrob Chemother 59:165–174. doi: 10.1093/jac/dkl483 - [DOI](https://doi.org/10.1093/jac/dkl483) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/17158117/)
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Grants and funding
+
+*   [FOPH](https://pubmed.ncbi.nlm.nih.gov/?term=FOPH%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant FOPH")
+*   [University of Fribourg](https://pubmed.ncbi.nlm.nih.gov/?term=University+of+Fribourg%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant University of Fribourg")
+*   [University of Fribourg](https://pubmed.ncbi.nlm.nih.gov/?term=University+of+Fribourg%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant University of Fribourg")
+*   [236190/SNSF_/Swiss National Science Foundation/Switzerland](https://pubmed.ncbi.nlm.nih.gov/?term=236190%2FSNSF_%2FSwiss+National+Science+Foundation%2FSwitzerland%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 236190/SNSF_/Swiss National Science Foundation/Switzerland")
+*   [51NF40-182881/SNSF_/Swiss National Science Foundation/Switzerland](https://pubmed.ncbi.nlm.nih.gov/?term=51NF40-182881%2FSNSF_%2FSwiss+National+Science+Foundation%2FSwitzerland%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 51NF40-182881/SNSF_/Swiss National Science Foundation/Switzerland")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Atypon](https://journals.asm.org/doi/10.1128/mbio.00088-26?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)

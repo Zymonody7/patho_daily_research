@@ -1,0 +1,96 @@
+Title: Development Process of a Clinical Decision Support System for Empiric Antibiotic Therapies in Patients With Sepsis: Case Study - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42127362/
+
+Markdown Content:
+Actions
+
+. 2026 May 13:14:e79929.
+
+doi: 10.2196/79929.
+
+[Hannah Marchi](https://pubmed.ncbi.nlm.nih.gov/?term=Marchi+H&cauthor_id=42127362)[#](https://pubmed.ncbi.nlm.nih.gov/42127362/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/42127362/#full-view-affiliation-1 "Data Science Group, Faculty of Business Administration and Economics, Bielefeld University, Universitätsstraße 25, North Rhine-Westphalia, Bielefeld, 33615, Germany, 49 521 106 2576."),[Philipp Hege](https://pubmed.ncbi.nlm.nih.gov/?term=Hege+P&cauthor_id=42127362)[1](https://pubmed.ncbi.nlm.nih.gov/42127362/#full-view-affiliation-1 "Data Science Group, Faculty of Business Administration and Economics, Bielefeld University, Universitätsstraße 25, North Rhine-Westphalia, Bielefeld, 33615, Germany, 49 521 106 2576."),[Svenja Elkenkamp](https://pubmed.ncbi.nlm.nih.gov/?term=Elkenkamp+S&cauthor_id=42127362)[2](https://pubmed.ncbi.nlm.nih.gov/42127362/#full-view-affiliation-2 "AG 5 - Health Economics and Health Care Management, School of Public Health, Bielefeld University, Bielefeld, Germany."),[Juliane Duevel](https://pubmed.ncbi.nlm.nih.gov/?term=Duevel+J&cauthor_id=42127362)[2](https://pubmed.ncbi.nlm.nih.gov/42127362/#full-view-affiliation-2 "AG 5 - Health Economics and Health Care Management, School of Public Health, Bielefeld University, Bielefeld, Germany.")[3](https://pubmed.ncbi.nlm.nih.gov/42127362/#full-view-affiliation-3 "Centre for electronic Public Health Research (CePHR),, School of Public Health, Bielefeld University, Bielefeld, Germany."),[Christoph Düsing](https://pubmed.ncbi.nlm.nih.gov/?term=D%C3%BCsing+C&cauthor_id=42127362)[4](https://pubmed.ncbi.nlm.nih.gov/42127362/#full-view-affiliation-4 "Center for Cognitive Interaction Technology (CITEC), Faculty of Technology, Bielefeld University, Bielefeld, Germany."),[Wolfgang Greiner](https://pubmed.ncbi.nlm.nih.gov/?term=Greiner+W&cauthor_id=42127362)[2](https://pubmed.ncbi.nlm.nih.gov/42127362/#full-view-affiliation-2 "AG 5 - Health Economics and Health Care Management, School of Public Health, Bielefeld University, Bielefeld, Germany."),[Sean Selim Scholz](https://pubmed.ncbi.nlm.nih.gov/?term=Scholz+SS&cauthor_id=42127362)[5](https://pubmed.ncbi.nlm.nih.gov/42127362/#full-view-affiliation-5 "Department of Anaesthesiology, Intensive Care, Emergency Medicine, Transfusion Medicine and Pain Therapy, Medical School and University Medical Center OWL, Bielefeld University, Protestant Hospital of the Bethel Foundation, Bielefeld, Germany."),[Dominic Witzke](https://pubmed.ncbi.nlm.nih.gov/?term=Witzke+D&cauthor_id=42127362)[5](https://pubmed.ncbi.nlm.nih.gov/42127362/#full-view-affiliation-5 "Department of Anaesthesiology, Intensive Care, Emergency Medicine, Transfusion Medicine and Pain Therapy, Medical School and University Medical Center OWL, Bielefeld University, Protestant Hospital of the Bethel Foundation, Bielefeld, Germany."),[Johannes J Tebbe](https://pubmed.ncbi.nlm.nih.gov/?term=Tebbe+JJ&cauthor_id=42127362)[6](https://pubmed.ncbi.nlm.nih.gov/42127362/#full-view-affiliation-6 "Division of Internal Medicine, Department of Gastroenterology and Infectiology, Medical School and University Medical Center OWL, Bielefeld University, Klinikum Lippe, Detmold, Germany."),[Michael Wehmeier](https://pubmed.ncbi.nlm.nih.gov/?term=Wehmeier+M&cauthor_id=42127362)[7](https://pubmed.ncbi.nlm.nih.gov/42127362/#full-view-affiliation-7 "Institute of Laboratory Medicine, Microbiology and Transfusion Medicine, Klinikum Bielefeld, Bielefeld, Germany."),[Olaf Kaup](https://pubmed.ncbi.nlm.nih.gov/?term=Kaup+O&cauthor_id=42127362)[7](https://pubmed.ncbi.nlm.nih.gov/42127362/#full-view-affiliation-7 "Institute of Laboratory Medicine, Microbiology and Transfusion Medicine, Klinikum Bielefeld, Bielefeld, Germany."),[Rainer Borgstedt](https://pubmed.ncbi.nlm.nih.gov/?term=Borgstedt+R&cauthor_id=42127362)[5](https://pubmed.ncbi.nlm.nih.gov/42127362/#full-view-affiliation-5 "Department of Anaesthesiology, Intensive Care, Emergency Medicine, Transfusion Medicine and Pain Therapy, Medical School and University Medical Center OWL, Bielefeld University, Protestant Hospital of the Bethel Foundation, Bielefeld, Germany."),[Sebastian Rehberg](https://pubmed.ncbi.nlm.nih.gov/?term=Rehberg+S&cauthor_id=42127362)[5](https://pubmed.ncbi.nlm.nih.gov/42127362/#full-view-affiliation-5 "Department of Anaesthesiology, Intensive Care, Emergency Medicine, Transfusion Medicine and Pain Therapy, Medical School and University Medical Center OWL, Bielefeld University, Protestant Hospital of the Bethel Foundation, Bielefeld, Germany."),[Philipp Cimiano](https://pubmed.ncbi.nlm.nih.gov/?term=Cimiano+P&cauthor_id=42127362)[4](https://pubmed.ncbi.nlm.nih.gov/42127362/#full-view-affiliation-4 "Center for Cognitive Interaction Technology (CITEC), Faculty of Technology, Bielefeld University, Bielefeld, Germany."),[Christiane Fuchs](https://pubmed.ncbi.nlm.nih.gov/?term=Fuchs+C&cauthor_id=42127362)[1](https://pubmed.ncbi.nlm.nih.gov/42127362/#full-view-affiliation-1 "Data Science Group, Faculty of Business Administration and Economics, Bielefeld University, Universitätsstraße 25, North Rhine-Westphalia, Bielefeld, 33615, Germany, 49 521 106 2576.")[8](https://pubmed.ncbi.nlm.nih.gov/42127362/#full-view-affiliation-8 "Institute of Computational Biology, Computational Health Center, Helmholtz Munich, Oberschleißheim, Germany.")
+
+Affiliations
+
+*    PMID: **42127362**
+*    PMCID: [PMC13170932](https://pmc.ncbi.nlm.nih.gov/articles/PMC13170932/)
+*    DOI: [10.2196/79929](https://doi.org/10.2196/79929)
+
+## Development Process of a Clinical Decision Support System for Empiric Antibiotic Therapies in Patients With Sepsis: Case Study
+
+Sophie Schmiegel et al. JMIR Med Inform.2026.
+
+## Abstract
+
+**Background:** Antibiotic therapies are the main treatment for bacterial infections, but growing antibiotic resistance is a major global health threat, severely impacting patients with sepsis. Rapid selection of the most effective antibiotic therapy is critical for survival and for preventing further resistance. Physicians must consider numerous factors for proper empiric treatment selection. A clinical decision support system (CDSS) aims to support physicians in this process, facilitating rapid and targeted therapy.
+
+**Objective:** The purpose of this work is to explore the extent to which the realization of a CDSS is possible based on the data available to us and to document insights gained during the development of a foundational model designed to assist physicians in determining empiric treatment options for patients with sepsis. In this regard, rather than aiming to develop a CDSS for clinical application, we highlight the importance of close interprofessional collaboration between scientists from various disciplines and analyze the effects of data quality and quantity on the performance of our statistical models.
+
+**Methods:** Empirical scientists conducted interviews with medical practitioners to acquire the medical knowledge required to develop sound statistical models. We developed and applied 2-step cross-sectional, as well as time-series classification models, to carefully preprocessed data of patients with sepsis admitted to the intensive care unit of a German hospital.
+
+**Results:** We identified several factors as crucial information for valid decisions on empiric therapy for treating patients with sepsis. These include the patients' core data, especially the infection focus. To prevent further resistance, individual risk factors such as travel history and professional background should be considered. The evaluation of a therapy's effectiveness is mainly based on the patient's general condition and blood values such as procalcitonin and interleukin 6. One key factor in the acceptance of a CDSS is the explainability of the results produced by the applied methods. Our models demonstrated mainly weak predictive ability for all considered empiric antibiotic therapies. However, they are not yet suitable for use in clinical practice, especially as they are based on prescribing habits rather than on optimal treatment decisions.
+
+**Conclusions:** This work highlights the importance of interprofessional collaboration between medical experts and model developers, ensuring that data quality and clinical relevance are central to the process. It emphasizes the urgent need for high-quality, comprehensive data to overcome challenges such as data discontinuity and improve model performance, particularly through enhanced digitization in health care. This feasibility study will facilitate future efforts to develop a CDSS for treating patients with sepsis and to translate it into clinical use.
+
+**Keywords:** antibiotic prescription; antibiotic resistances; clinical decision support system; multiclass classification; sepsis; time series classification.
+
+© Sophie Schmiegel, Hannah Marchi, Philipp Hege, Svenja Elkenkamp, Juliane Duevel, Christoph Düsing, Wolfgang Greiner, Sean Selim Scholz, Dominic Witzke, Johannes J Tebbe, Michael Wehmeier, Olaf Kaup, Rainer Borgstedt, Sebastian Rehberg, Philipp Cimiano, Christiane Fuchs. Originally published in JMIR Medical Informatics (https://medinform.jmir.org).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Conflicts of Interest: None declared.
+
+## Similar articles
+
+*   [Vesicoureteral Reflux.](https://pubmed.ncbi.nlm.nih.gov/33085409/)
+
+Leslie SW, Aeddula NR.Leslie SW, et al.2024 Apr 30. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2026 Jan–.2024 Apr 30. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2026 Jan–.PMID: 33085409 Free Books & Documents. 
+*   [The future of Cochrane Neonatal.](https://pubmed.ncbi.nlm.nih.gov/33036834/)
+
+Soll RF, Ovelman C, McGuire W.Soll RF, et al.Early Hum Dev. 2020 Nov;150:105191. doi: 10.1016/j.earlhumdev.2020.105191. Epub 2020 Sep 12.Early Hum Dev. 2020.PMID: 33036834 
+*   [Psychosocial determinants of physicians' acceptance of recommendations by antibiotic computerised decision support systems: A mixed methods study.](https://pubmed.ncbi.nlm.nih.gov/25434998/)
+
+Chow A, Lye DC, Arah OA.Chow A, et al.Int J Antimicrob Agents. 2015 Mar;45(3):295-304. doi: 10.1016/j.ijantimicag.2014.10.009. Epub 2014 Nov 13.Int J Antimicrob Agents. 2015.PMID: 25434998 
+*   [The effects of computerised decision support systems on nursing and allied health professional performance and patient outcomes: a systematic review and user contextualisation.](https://pubmed.ncbi.nlm.nih.gov/37470324/)
+
+Thompson C, Mebrahtu T, Skyrme S, Bloor K, Andre D, Keenan AM, Ledward A, Yang H, Randell R.Thompson C, et al.Health Soc Care Deliv Res. 2024 Oct;12(40):1-93. doi: 10.3310/GRNM5147.Health Soc Care Deliv Res. 2024.PMID: 37470324 
+*   [Effects of computer-aided clinical decision support systems in improving antibiotic prescribing by primary care providers: a systematic review.](https://pubmed.ncbi.nlm.nih.gov/25125688/)
+
+Holstiege J, Mathes T, Pieper D.Holstiege J, et al.J Am Med Inform Assoc. 2015 Jan;22(1):236-42. doi: 10.1136/amiajnl-2014-002886. Epub 2014 Aug 14.J Am Med Inform Assoc. 2015.PMID: 25125688 Free PMC article. 
+
+## References
+
+1.       1.    Evans L, Rhodes A, Alhazzani W, et al. Surviving sepsis campaign: international guidelines for management of sepsis and septic shock 2021. Intensive Care Med. 2021 Nov;47(11):1181–1247. doi: 10.1007/s00134-021-06506-y. doi. - [DOI](https://doi.org/10.1007/s00134-021-06506-y) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8486643/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/34599691/)
+
+2.       1.    Cunha BA. Antibiotic side effects. Med Clin North Am. 2001 Jan;85(1):149–185. doi: 10.1016/s0025-7125(05)70309-6. doi. Medline. - [DOI](https://doi.org/10.1016/s0025-7125(05)70309-6) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/11190350/)
+
+3.       1.    Ventola CL. The antibiotic resistance crisis: part 1: causes and threats. P T. 2015 Apr;40(4):277–283. Medline. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC4378521/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/25859123/)
+
+4.       1.    Melander RJ, Zurawski DV, Melander C. Narrow-spectrum antibacterial agents. Medchemcomm. 2018;9(1):12–21. doi: 10.1039/C7MD00528H. doi. Medline. - [DOI](https://doi.org/10.1039/c7md00528h) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC5839511/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/29527285/)
+
+5.       1.    Murray CJL, Ikuta KS, Sharara F, et al. Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis. The Lancet. 2022 Feb;399(10325):629–655. doi: 10.1016/S0140-6736(21)02724-0. doi. - [DOI](https://doi.org/10.1016/s0140-6736(21)02724-0)
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [JMIR Publications](https://medinform.jmir.org/2026//e79929/)
+
+*   ### Medical
+
+    *   [MedlinePlus Health Information](https://medlineplus.gov/sepsis.html)

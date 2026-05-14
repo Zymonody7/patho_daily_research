@@ -1,0 +1,18 @@
+---
+title: "Development Process of a Clinical Decision Support System for Empiric Antibiotic Therapies in Patients With Sepsis: Case Study."
+authors: "Sophie Schmiegel, Hannah Marchi, Philipp Hege, Svenja Elkenkamp, Juliane Duevel, Christoph Düsing, Wolfgang Greiner, Sean Selim Scholz, Dominic Witzke, Johannes J Tebbe, Michael Wehmeier, Olaf Kaup, Rainer Borgstedt, Sebastian Rehberg, Philipp Cimiano, Christiane Fuchs"
+date: 2026-05-13
+pdf: "https://pubmed.ncbi.nlm.nih.gov/42127362/"
+tags: ["query:pathoai"]
+score: 6.0
+evidence: 经验性抗生素治疗的临床决策支持
+tldr: 探索开发临床决策支持系统，以优化针对耐药性感染的抗生素选择。
+selection_source: fresh_fetch
+motivation: 经验性抗生素治疗的临床决策支持。
+method: 方法与实现细节请参考摘要与正文。
+result: 结果与对比结论请参考摘要与正文。
+conclusion: 总体而言，该工作在所述任务上展示了有效性，并提供了可复用的思路或工具。
+---
+
+## Abstract
+BACKGROUND: Antibiotic therapies are the main treatment for bacterial infections, but growing antibiotic resistance is a major global health threat, severely impacting patients with sepsis. Rapid selection of the most effective antibiotic therapy is critical for survival and for preventing further resistance. Physicians must consider numerous factors for proper empiric treatment selection. A clinical decision support system (CDSS) aims to support physicians in this process, facilitating rapid and targeted therapy. OBJECTIVE: The purpose of this work is to explore the extent to which the realization of a CDSS is possible based on the data available to us and to document insights gained during the development of a foundational model designed to assist physicians in determining empiric treatment options for patients with sepsis. In this regard, rather than aiming to develop a CDSS for clinical application, we highlight the importance of close interprofessional collaboration between scientists from various disciplines and analyze the effects of data quality and quantity on the performance of our statistical models. METHODS: Empirical scientists conducted interviews with medical practitioners to acquire the medical knowledge required to develop sound statistical models. We developed and applied 2-step cross-sectional, as well as time-series classification models, to carefully preprocessed data of patients with sepsis admitted to the intensive care unit of a German hospital. RESULTS: We identified several factors as crucial information for valid decisions on empiric therapy for treating patients with sepsis. These include the patients' core data, especially the infection focus. To prevent further resistance, individual risk factors such as travel history and professional background should be considered. The evaluation of a therapy's effectiveness is mainly based on the patient's general condition and blood values such as procalcitonin and interleukin 6. One key factor in the acceptance of a CDSS is the explainability of the results produced by the applied methods. Our models demonstrated mainly weak predictive ability for all considered empiric antibiotic therapies. However, they are not yet suitable for use in clinical practice, especially as they are based on prescribing habits rather than on optimal treatment decisions. CONCLUSIONS: This work highlights the importance of interprofessional collaboration between medical experts and model developers, ensuring that data quality and clinical relevance are central to the process. It emphasizes the urgent need for high-quality, comprehensive data to overcome challenges such as data discontinuity and improve model performance, particularly through enhanced digitization in health care. This feasibility study will facilitate future efforts to develop a CDSS for treating patients with sepsis and to translate it into clinical use.

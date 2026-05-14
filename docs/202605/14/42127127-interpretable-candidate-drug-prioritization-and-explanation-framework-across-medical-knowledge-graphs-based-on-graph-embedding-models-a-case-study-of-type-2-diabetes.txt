@@ -1,0 +1,84 @@
+Title: Interpretable candidate drug prioritization and explanation framework across-medical knowledge graphs based on graph embedding models: A case study of type 2 diabetes - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42127127/
+
+Markdown Content:
+Actions
+
+. 2026 May 13;21(5):e0349026.
+
+doi: 10.1371/journal.pone.0349026.  eCollection 2026.
+
+Affiliations
+
+*    PMID: **42127127**
+*    DOI: [10.1371/journal.pone.0349026](https://doi.org/10.1371/journal.pone.0349026)
+
+Free article
+
+## Interpretable candidate drug prioritization and explanation framework across-medical knowledge graphs based on graph embedding models: A case study of type 2 diabetes
+
+Zekun Zhou et al. PLoS One.2026.
+
+Free article
+
+## Abstract
+
+**Objective:** Addressing the challenges in elucidating the mechanisms of complex diseases such as Type 2 Diabetes Mellitus (T2DM), this study aims to construct a domain-specific cross-medicine knowledge graph (CMKG) and develop a unified path scoring framework that couples graph embeddings with rule-based reasoning, enabling high-precision, interpretable prioritization and explanation of potential drug candidates.
+
+**Methods:** First, multi-source biomedical data from Hetionet, SymMap, TCMBank, STRING, and TTD were integrated. Using Jaccard and overlap-based fusion strategies, entity alignment and relation consolidation were performed to construct a deep CMKG bridged by genes. Second, four graph embedding models (TransE, DistMult, ComplEx, and RotatE) were introduced for link prediction and evaluated using MRR and Hits@K. Finally, to overcome the interpretability limitations of black-box predictions, AnyBURL rule learning was combined with depth-first search (DFS). We innovatively introduced an Ingredient Specificity Index (ISI) and a hybrid path confidence calibration mechanism, constructing a unified path scoring system incorporating length decay, node/relation weights, and experimental evidence bonuses to screen the most critical mechanistic paths.
+
+**Results:** The constructed CMKG contains 15 entity types (245,235 entities) and 52 relation types (7,155,373 triples), covering 709 core T2DM genes. Link prediction stability tests across multiple random seeds showed that the ComplEx model consistently performed best in handling complex multi-mapping relations (MRR = 0.213 ± 0.004, Hits@10 = 0.418 ± 0.003). Consequently, the fully converged ComplEx model (Peak Hits@10 = 0.48) was utilized for comprehensive prediction. Retaining the top 100 predictions, Abelmoschus manihot and Topiramate ranked highest among TCM herbs and modern medicine compounds, respectively. Path analysis based on the scoring system revealed deep multi-target mechanisms, including insulin signaling sensitization, inflammatory regulation, and chromatin/cell-cycle intervention.
+
+**Conclusion:** The proposed gene-bridged graph embedding and unified path scoring framework successfully translates probabilistic predictions into biologically traceable semantic explanations. Rigorous ablation and parameter sensitivity experiments confirm that the framework achieves a robust balance between knowledge coverage and explanatory specificity, providing a transparent, robust, and scalable methodological foundation for candidate drug prioritization in complex diseases.
+
+Copyright: © 2026 Zhou, Yang. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+The authors have declared that no competing interests exist.
+
+## Similar articles
+
+*   [Research on Traditional Chinese Medicine: Domain Knowledge Graph Completion and Quality Evaluation.](https://pubmed.ncbi.nlm.nih.gov/39094109/)
+
+Liu C, Li Z, Li J, Qu Y, Chang Y, Han Q, Cao L, Lin S.Liu C, et al.JMIR Med Inform. 2024 Aug 2;12:e55090. doi: 10.2196/55090.JMIR Med Inform. 2024.PMID: 39094109 Free PMC article. 
+*   [Repurposing Non-pharmacological Interventions for Alzheimer's Diseases through Link Prediction on Biomedical Literature.](https://pubmed.ncbi.nlm.nih.gov/37292731/)
+
+Xiao Y, Hou Y, Zhou H, Diallo G, Fiszman M, Wolfson J, Kilicoglu H, Chen Y, Su C, Xu H, Mantyh WG, Zhang R.Xiao Y, et al.medRxiv [Preprint]. 2023 May 21:2023.05.15.23290002. doi: 10.1101/2023.05.15.23290002.medRxiv. 2023.PMID: 37292731 Free PMC article.Updated.Preprint. 
+*   [FuseLinker: Leveraging LLM's pre-trained text embeddings and domain knowledge to enhance GNN-based link prediction on biomedical knowledge graphs.](https://pubmed.ncbi.nlm.nih.gov/39326691/)
+
+Xiao Y, Zhang S, Zhou H, Li M, Yang H, Zhang R.Xiao Y, et al.J Biomed Inform. 2024 Oct;158:104730. doi: 10.1016/j.jbi.2024.104730. Epub 2024 Sep 24.J Biomed Inform. 2024.PMID: 39326691 Free PMC article. 
+*   [Path-based knowledge reasoning with textual semantic information for medical knowledge graph completion.](https://pubmed.ncbi.nlm.nih.gov/34844576/)
+
+Lan Y, He S, Liu K, Zeng X, Liu S, Zhao J.Lan Y, et al.BMC Med Inform Decis Mak. 2021 Nov 29;21(Suppl 9):335. doi: 10.1186/s12911-021-01622-7.BMC Med Inform Decis Mak. 2021.PMID: 34844576 Free PMC article.Review. 
+*   [Learning and reasoning with graph data.](https://pubmed.ncbi.nlm.nih.gov/37675398/)
+
+Jaeger M.Jaeger M.Front Artif Intell. 2023 Aug 22;6:1124718. doi: 10.3389/frai.2023.1124718. eCollection 2023.Front Artif Intell. 2023.PMID: 37675398 Free PMC article.Review. 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Public Library of Science](https://dx.plos.org/10.1371/journal.pone.0349026)
+
+*   ### Medical
+
+    *   [MedlinePlus Health Information](https://medlineplus.gov/diabetestype2.html)
+
+*   ### Research Materials
+
+    *   [NCI CPTC Antibody Characterization Program](https://antibodies.cancer.gov/detail/CPTC-ERCC2-1)

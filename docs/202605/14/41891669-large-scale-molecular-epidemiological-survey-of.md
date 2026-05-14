@@ -1,0 +1,18 @@
+---
+title: Large-scale molecular epidemiological survey of
+authors: "Marielle Babineau, Anson V Koehler, Michelle L Sait, Karolina Mercoulia, Sally Dougall, Jane McAllister, Evelyn Wong, Norelle L Sherry, Robin B Gasser, Benjamin P Howden"
+date: 2026-05-13
+pdf: "https://pubmed.ncbi.nlm.nih.gov/41891669/"
+tags: ["query:pathoai"]
+score: 7.0
+evidence: 用于疫情检测的分子流行病学调查
+tldr: 对隐孢子虫和贾第鞭毛虫进行大规模分子调查，以改进澳大利亚的疫情检测。
+selection_source: fresh_fetch
+motivation: 用于疫情检测的分子流行病学调查。
+method: 方法与实现细节请参考摘要与正文。
+result: 结果与对比结论请参考摘要与正文。
+conclusion: 总体而言，该工作在所述任务上展示了有效性，并提供了可复用的思路或工具。
+---
+
+## Abstract
+Cryptosporidium and Giardia are major causes of gastrointestinal illness globally. In Australia, cryptosporidiosis is nationally notifiable, yet molecular characterization is not routinely undertaken, limiting outbreak detection, source attribution, and zoonotic risk assessment. This limitation became apparent in 2024, when Australia experienced a 273% increase in cryptosporidiosis notifications, the third-highest rise globally. We conducted a molecular epidemiological investigation of Cryptosporidium and Giardia in fecal samples from humans with gastroenteritis in Victoria, Australia, between 2020 and 2024. Positive samples were sequenced using SSU and gp60 for Cryptosporidium and tpi for Giardia, and parasite load was estimated. Of the 2,330 samples tested, 225 were positive for Cryptosporidium and nine for Giardia. One Giardia sample was identified as sub-assemblage AI, two as AII, and six as assemblage B. Seven Cryptosporidium species and 24 subtypes were identified, including eight novel subtypes. Cryptosporidium hominis predominated (85%), followed by C. parvum and C. meleagridis. Six C. hominis subtypes were detected, three associated with 11 recreational water-linked outbreaks in 2024. Subtypes IaA12R3 and IeA11G3T3 were most frequent, in line with global trends; concordance analysis indicated that at least 52 additional cases were likely linked to outbreaks. Several C. parvum subtypes were identified, including two linked to childcare and camp outbreaks. Novel human-infective subtypes of C. occultus, C. fayeri, and C. meleagridis were also detected. These findings reveal extensive Cryptosporidium diversity in Victoria and highlight the value of molecular surveillance for resolving transmission pathways and informing public health responses.IMPORTANCECryptosporidium is a nationally notifiable pathogen in Australia, yet routine subtyping is not performed, limiting the detection of both outbreak-related and sporadic transmission and constraining source attribution. This study represents the first large-scale molecular surveillance of human Cryptosporidium and Giardia infections in southern Australia, including the first molecular epidemiological exploration of the marked increase in cryptosporidiosis observed in 2024. By integrating species, subtype, or assemblage information with epidemiological metadata, we demonstrate substantial Cryptosporidium lineage diversity in symptomatic patients, including multiple novel subtypes and zoonotic transmission. These findings demonstrate the critical value of molecular tools for uncovering hidden transmission, resolving pathways contributing to both sporadic disease and outbreak, and informing targeted public health responses. The findings provide a strong foundation for incorporating routine genotyping into national surveillance systems for parasitic eukaryotic enteropathogens, and the accompanying international comparison of case trends suggests broader transmission dynamics of significant public health relevance.
