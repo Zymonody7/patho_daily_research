@@ -11,73 +11,91 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-05-14
-- 运行时间：2026-05-14 20:19:38 UTC
+- 最新运行日期：2026-05-15
+- 运行时间：2026-05-15 20:11:15 UTC
 - 运行状态：成功
-- 本次总论文数：17
-- 精读区：4
-- 速读区：13
+- 本次总论文数：23
+- 精读区：9
+- 速读区：14
 
 ### 今日简报（AI）
-深度解析17篇前沿文献，聚焦利用脂蛋白运输路径开发新型抗菌药及多模态AI驱动的精准肿瘤治疗。
-重点关注脂蛋白运输作为抗菌新靶点的潜力，以及可解释深度学习在转录组分析与药物机制挖掘中的突破。
-建议关注AI与生物医学交叉领域，特别是如何利用知识图谱和多模态模型加速精准医疗与药物筛选。
-- 详情：[/202605/14/README](/202605/14/README)
+今日聚焦基因组大模型与纳米孔测序技术，深度解析23篇生物医学前沿进展。
+重点关注宏基因组管线对血流感染的极速诊断，以及预训练DNA模型在多任务基因组分析中的性能飞跃。
+建议临床开发者关注AI驱动的精准诊断工具，普通读者可留意微塑料与肠道健康的关联研究。
+- 详情：[/202605/15/README](/202605/15/README)
 
 ### 精读区论文标签
-1. [Leveraging the lipoprotein trafficking pathway for the development of novel antimicrobials.](/202605/14/42023066-leveraging-the-lipoprotein-trafficking-pathway-for-the-development-of-novel-antimicrobials)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：人工智能用于抗菌药物发现和病原体靶点识别
-2. [Multimodal interpretable deep learning for transcriptome-informed precision oncology and drug mechanism analysis.](/202605/14/42129298-multimodal-interpretable-deep-learning-for-transcriptome-informed-precision-oncology-and-drug-mechanism-analysis)  
+1. [Rapid diagnosis of common, undetected, and uncultivable bloodstream infections from positive blood cultures using Oxford Nanopore sequencing: a metagenomic pipeline analysis.](/202605/15/42134371-rapid-diagnosis-of-common-undetected-and-uncultivable-bloodstream-infections-from-positive-blood-cultures-using-oxford-nanopore-sequencing-a-metagenomic-pipeline-analysis)  
+   标签：评分：10.0/10、query:pathoai
+   evidence：利用纳米孔测序进行快速病原体识别和 AMR 预测的宏基因组流程
+2. [Large-scale data-driven pre-trained DNA models enhance performance across diverse genomics tasks.](/202605/15/42135287-large-scale-data-driven-pre-trained-dna-models-enhance-performance-across-diverse-genomics-tasks)  
+   标签：评分：10.0/10、query:bioinfo
+   evidence：监督多任务DNA基础模型
+3. [Multi-omics integration identifies ribosome biogenesis-active macrophage subpopulation and its key gene GNL2 in driving liver hepatocellular carcinoma progression and mechanisms.](/202605/15/42135716-multi-omics-integration-identifies-ribosome-biogenesis-active-macrophage-subpopulation-and-its-key-gene-gnl2-in-driving-liver-hepatocellular-carcinoma-progression-and-mechanisms)  
+   标签：评分：9.0/10、query:bioinfo
+   evidence：多组学整合构建肝癌单细胞图谱
+4. [Adaptive Bayesian Transfer Learning under Compositional Generalized Linear Mixed Model for Microbiome Data Analysis](/202605/15/10.21203/rs.3.rs-9261484/v1-adaptive-bayesian-transfer-learning-under-compositional-generalized-linear-mixed-model-for-microbiome-data-analysis)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：基于微生物组疾病预测的贝叶斯迁移学习
+5. [Decoding Hypervirulence in Carbapenem-Resistant Klebsiella pneumoniae: Genomic and Phenotypic Profiling Reveals Capsular Polysaccharide as a Key Driver of Pathogenicity.](/202605/15/41662361-decoding-hypervirulence-in-carbapenem-resistant-klebsiella-pneumoniae-genomic-and-phenotypic-profiling-reveals-capsular-polysaccharide-as-a-key-driver-of-pathogenicity)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：高毒力肺炎克雷伯菌的基因组和表型分析
+6. [Epitope-Based Multimeric Subunit Vaccine (ATOMSSUISpenta) Confers Broad Protection Against Streptococcus suis Infection.](/202605/15/41778368-epitope-based-multimeric-subunit-vaccine-atomssuispenta-confers-broad-protection-against-streptococcus-suis-infection)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：猪链球菌的计算机预测驱动抗原发现和计算疫苗设计
+7. [Shared proteomic landscape between arteriosclerosis and cardiovascular endpoints: a Mendelian randomization and observational study integrating AlphaFold3 for structural prediction.](/202605/15/42133815-shared-proteomic-landscape-between-arteriosclerosis-and-cardiovascular-endpoints-a-mendelian-randomization-and-observational-study-integrating-alphafold3-for-structural-prediction)  
    标签：评分：8.0/10、query:bioinfo
-   evidence：用于多组学整合和药物敏感性的多模态深度学习
-3. [Bridging predictive reliability and explainability: a multi-representation deep learning framework for chemical space analysis of immune bioassays.](/202605/14/42129816-bridging-predictive-reliability-and-explainability-a-multi-representation-deep-learning-framework-for-chemical-space-analysis-of-immune-bioassays)  
+   evidence：集成AlphaFold3进行结构预测
+8. [Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avocado foliar diseases in indian orchards.](/202605/15/42135362-spectrally-optimised-yolov10s-seqopt-framework-for-real-time-uav-based-early-detection-of-avocado-foliar-diseases-in-indian-orchards)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：用于叶片病原体早期检测的深度学习 YOLO 模型
+9. [Construction of a novel signature based on CRISPR-Cas9 screening for prognostic prediction in breast cancer.](/202605/15/42135732-construction-of-a-novel-signature-based-on-crispr-cas9-screening-for-prognostic-prediction-in-breast-cancer)  
    标签：评分：8.0/10、query:bioinfo
-   evidence：用于化学空间分析的多表征深度学习
-4. [A meta-analysis of gut microbiome research in malnourished African populations: a natural language processing approach.](/202605/14/42132030-a-meta-analysis-of-gut-microbiome-research-in-malnourished-african-populations-a-natural-language-processing-approach)  
-   标签：评分：8.0/10、query:agent
-   evidence：用于肠道微生物组文献元分析的自然语言处理
+   evidence：利用 CRISPR-Cas9 筛选识别癌细胞脆弱性并构建预后模型
 
 ### 速读区论文标签
-1. [Large-scale molecular epidemiological survey of](/202605/14/41891669-large-scale-molecular-epidemiological-survey-of)  
+1. [Multimodal profiling of immune responses reveals innate-adaptive immune imbalance in human bornavirus encephalitis.](/202605/15/42135836-multimodal-profiling-of-immune-responses-reveals-innate-adaptive-immune-imbalance-in-human-bornavirus-encephalitis)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：脑炎中免疫反应和病毒分布的多模态分析
+2. [Imperative implication of microplastics as vital agent for salmonellosis inducing biofilms, antibiotic resistance, and health risk.](/202605/15/41740706-imperative-implication-of-microplastics-as-vital-agent-for-salmonellosis-inducing-biofilms-antibiotic-resistance-and-health-risk)  
    标签：评分：7.0/10、query:pathoai
-   evidence：用于疫情检测的分子流行病学调查
-2. [Phylogenetic diversity, functional pathways, and network interactions of ocular chlamydia-like organisms (CLOs) in trachoma-endemic Ethiopia.](/202605/14/42023843-phylogenetic-diversity-functional-pathways-and-network-interactions-of-ocular-chlamydia-like-organisms-clos-in-trachoma-endemic-ethiopia)  
+   evidence：微塑料作为重塑病原体生态和抗生素耐药性的媒介
+3. [Investigating gut microbiome dysbiosis in adults with chronic kidney disease: Diabetes-induced alterations via metagenomics and qPCR.](/202605/15/41862052-investigating-gut-microbiome-dysbiosis-in-adults-with-chronic-kidney-disease-diabetes-induced-alterations-via-metagenomics-and-qpcr)  
    标签：评分：7.0/10、query:seqai
-   evidence：用于微生物系统发育和微生物组关联的宏基因组鸟枪法测序
-3. [Interpretable candidate drug prioritization and explanation framework across-medical knowledge graphs based on graph embedding models: A case study of type 2 diabetes.](/202605/14/42127127-interpretable-candidate-drug-prioritization-and-explanation-framework-across-medical-knowledge-graphs-based-on-graph-embedding-models-a-case-study-of-type-2-diabetes)  
+   evidence：用于肠道微生物失调的16S rRNA宏基因组方法和基于网络的方法
+4. [Eriodictyol mitigates polystyrene nanoplastic-induced ovarian toxicity via targeted inhibition of the TLR4/NF-κB/NLRP3 inflammatory axis.](/202605/15/41881331-eriodictyol-mitigates-polystyrene-nanoplastic-induced-ovarian-toxicity-via-targeted-inhibition-of-the-tlr4nf-bnlrp3-inflammatory-axis)  
    标签：评分：7.0/10、query:bioinfo
-   evidence：用于药物优先级排序的图嵌入模型
-4. [The human skin virome: Ecological dynamics, aberrant profiles, and therapeutic opportunities.](/202605/14/42127816-the-human-skin-virome-ecological-dynamics-aberrant-profiles-and-therapeutic-opportunities)  
+   evidence：整合RNA测序数据与毒理学数据库，并进行计算机药物筛选
+5. [Immune-mediated microbial interference governs](/202605/15/42063559-immune-mediated-microbial-interference-governs)  
    标签：评分：7.0/10、query:pathoai
-   evidence：皮肤病毒组对细菌生态学和抗菌素耐药性的影响
-5. [Integrating scanning electron microscopy, explainable deep learning, and ITS sequencing for accurate identification in some species Geastrum.](/202605/14/42129448-integrating-scanning-electron-microscopy-explainable-deep-learning-and-its-sequencing-for-accurate-identification-in-some-species-geastrum)  
+   evidence：蜱肠道中的微生物干扰和病原体定植动态
+6. [Modeling of Conjugative- and Phage- Mediated CRISPR-based System against Antimicrobial Resistant Bacteria.](/202605/15/42133510-modeling-of-conjugative--and-phage--mediated-crispr-based-system-against-antimicrobial-resistant-bacteria)  
    标签：评分：7.0/10、query:pathoai
-   evidence：用于物种分类的深度学习和可解释人工智能
-6. [Machine learning-based integration identifies a 10-gene predictive signature and its classification patterns in schizophrenia.](/202605/14/42133007-machine-learning-based-integration-identifies-a-10-gene-predictive-signature-and-its-classification-patterns-in-schizophrenia)  
+   evidence：针对耐药菌的CRISPR系统数学模型
+7. [Integrated transcriptomic, molecular docking, and mendelian randomization analysis reveal a microbial-propionate-JUN pathway in renal ischemia-reperfusion injury.](/202605/15/42133662-integrated-transcriptomic-molecular-docking-and-mendelian-randomization-analysis-reveal-a-microbial-propionate-jun-pathway-in-renal-ischemia-reperfusion-injury)  
    标签：评分：7.0/10、query:bioinfo
-   evidence：用于多组学整合和生物标志物发现的机器学习框架
-7. [Beneficial impact of acquired AmpC β-lactamases on bacterial fitness and pathogenicity: a new paradigm.](/202605/14/41972762-beneficial-impact-of-acquired-ampc--lactamases-on-bacterial-fitness-and-pathogenicity-a-new-paradigm)  
+   evidence：整合转录组学和分子对接研究宿主-微生物相互作用
+8. [Spatial distribution of ticks and tick-borne pathogens in central Hokkaido, Japan and associated ecological factors revealed by intensive short-term survey in 2024.](/202605/15/42133703-spatial-distribution-of-ticks-and-tick-borne-pathogens-in-central-hokkaido-japan-and-associated-ecological-factors-revealed-by-intensive-short-term-survey-in-2024)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：蜱传病原体空间分布的生态位建模
+9. [Deciphering and targeting the pathogenic circuit of nonlytic hepatitis E virus infection using macrophage-augmented organoids.](/202605/15/42133804-deciphering-and-targeting-the-pathogenic-circuit-of-nonlytic-hepatitis-e-virus-infection-using-macrophage-augmented-organoids)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：在类器官中模拟非溶细胞性病毒感染和免疫介导的细胞死亡
+10. [Sequence to structure insights into Lassa virus population-level biophysical properties and glycoprotein structure catalogue.](/202605/15/42135491-sequence-to-structure-insights-into-lassa-virus-population-level-biophysical-properties-and-glycoprotein-structure-catalogue)  
+   标签：评分：7.0/10、query:pathoai
+   evidence：拉沙病毒群体水平生物物理特性的序列到结构分析
+11. [Longitudinal Trends in Pediatric Non-Salmonella Gram-Negative Enterobacterales Infections at a Tertiary Care Center in West Africa, 2005-2023.](/202605/15/41525800-longitudinal-trends-in-pediatric-non-salmonella-gram-negative-enterobacterales-infections-at-a-tertiary-care-center-in-west-africa-2005-2023)  
    标签：评分：6.0/10、query:pathoai
-   evidence：β-内酰胺酶对细菌适应性和致病性的影响
-8. [Development Process of a Clinical Decision Support System for Empiric Antibiotic Therapies in Patients With Sepsis: Case Study.](/202605/14/42127362-development-process-of-a-clinical-decision-support-system-for-empiric-antibiotic-therapies-in-patients-with-sepsis-case-study)  
+   evidence：革兰氏阴性肠杆菌抗生素耐药性的纵向分析
+12. [Phosphoproteomics elucidates the functional impact of the PTPN11 p.Asn308Ser variant in a Noonan syndrome pedigree.](/202605/15/41843963-phosphoproteomics-elucidates-the-functional-impact-of-the-ptpn11-pasn308ser-variant-in-a-noonan-syndrome-pedigree)  
+   标签：评分：6.0/10、query:bioinfo
+   evidence：整合结构分析和磷酸化蛋白质组学的多层方法
+13. [Gut microbial-host isozymes: A novel perspective on gut microbiota-host interactions.](/202605/15/42111177-gut-microbial-host-isozymes-a-novel-perspective-on-gut-microbiota-host-interactions)  
    标签：评分：6.0/10、query:pathoai
-   evidence：经验性抗生素治疗的临床决策支持
-9. [Making room for gut prophages in human health.](/202605/14/42127813-making-room-for-gut-prophages-in-human-health)  
-   标签：评分：6.0/10、query:pathoai
-   evidence：原噬菌体调节细菌适应性和微生物-宿主相互作用
-10. [Retail wet markets, food handlers, and hospitalised patients as nodes in a shared non-typhoidal Salmonella ecosystem: a one health molecular epidemiological pilot study in Wuhan, China.](/202605/14/42129025-retail-wet-markets-food-handlers-and-hospitalised-patients-as-nodes-in-a-shared-non-typhoidal-salmonella-ecosystem-a-one-health-molecular-epidemiological-pilot-study-in-wuhan-china)  
-   标签：评分：6.0/10、query:pathoai
-   evidence：沙门氏菌传播动力学的分子流行病学研究
-11. [Individual variability shapes ex vivo responses to resistant starch in inflammatory bowel disease derived microbiomes.](/202605/14/42129181-individual-variability-shapes-ex-vivo-responses-to-resistant-starch-in-inflammatory-bowel-disease-derived-microbiomes)  
-   标签：评分：6.0/10、query:pathoai
-   evidence：IBD微生物组的多组学表征
-12. [Functional validation using a zebrafish model reclassifies the rare COL1A2 p.Gly418Ala variant as a cause of Osteogenesis Imperfecta.](/202605/14/42129395-functional-validation-using-a-zebrafish-model-reclassifies-the-rare-col1a2-pgly418ala-variant-as-a-cause-of-osteogenesis-imperfecta)  
+   evidence：疾病发展中的微生物-宿主相互作用和微生物-宿主同工酶
+14. [Gut Species Porphyromonas asaccharolytica and Bacteroides fragilis Are Associated with Whole Body Fat Percentage.](/202605/15/42133477-gut-species-porphyromonas-asaccharolytica-and-bacteroides-fragilis-are-associated-with-whole-body-fat-percentage)  
    标签：评分：6.0/10、query:seqai
-   evidence：用于基因组变异有害性预测的生物信息学程序
-13. [Harnessing the immune system in lung cancer: emerging role of the microbiome.](/202605/14/42132238-harnessing-the-immune-system-in-lung-cancer-emerging-role-of-the-microbiome)  
-   标签：评分：6.0/10、query:pathoai
-   evidence：肺癌中的微生物组宿主相互作用和感染结果
+   evidence：利用宏基因组学和全基因组测序进行微生物组综合分析
 
 
 <div class="dpr-home-promo-card">

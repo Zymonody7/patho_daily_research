@@ -1,0 +1,93 @@
+Title: Immune-mediated microbial interference governs Borrelia colonization of the tick gut - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42063559/
+
+Markdown Content:
+## Immune-mediated microbial interference governs _Borrelia_ colonization of the tick gut
+
+Adnan Hodžić et al. iScience.2026.
+
+## Abstract
+
+The tick gut represents a dynamic environment where various ecological and molecular factors, including interactions between the tick innate immune system and its resident microbiota, govern the success of pathogen colonization. Yet, the mechanisms by which these microbial communities shape pathogen infection dynamics remain unclear. Here, we demonstrate that oral inoculation with the gut bacterium _Pseudomonas putida_ modulates immune responses in _Ixodes ricinus_ and restricts infection by _Borrelia afzelii_. Transcriptional profiling of immune-related genes revealed that _Pseudomonas_ specifically induces the expression of the gene encoding the antimicrobial peptide defensin, reinforcing epithelial defenses without extensive activation of canonical signaling pathways. Functional assays demonstrated that _Pseudomonas_ impedes _Borrelia_ colonization through a host-mediated mechanism rather than direct microbial antagonism. These findings reveal a microbiota-driven immune pathway that constrains pathogen persistence in the tick gut and provide insights into the tripartite interplay between the tick host, its microbiota, and borrelial pathogens.
+
+**Keywords:** Immunology; Microbiology; Parasitology.
+
+© 2026 The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+The authors declare no competing interests.
+
+## Figures
+
+[![Image 1: None](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3f3a/13127326/883ac7ec8373/fx1.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3f3a/13127326/e4be9dd0576d/fx1.jpg)
+
+**Graphical abstract**
+
+[![Image 2: Figure 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3f3a/13127326/3411933862e3/gr1.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3f3a/13127326/d5510dd10eef/gr1.jpg)
+
+**Figure 1**
+Transcriptional profiles of genes involved in tick immunity (A–D) Relative expression of representative genes associated with (A) major components of immune signaling pathways, (B) redox homeostasis, (C) AMP production, and (D) physical protection in guts of control ticks (PBS) and ticks fed _S. epidermidis_, _P. putida_, or _B. afzelii_. Gene expression was quantified by RT-qPCR at 8 h post-infection and normalized to tick _elf-1a_. Each dot represents a pool of three guts. Data are presented as the mean ± SD of two technical replicates. Statistical significance was evaluated using one-way ANOVA or the Kruskal-Wallis test (_cat_, _defensin 4_, _microplusin_), depending on the data distribution. ∗_p_< 0.05; ∗∗_p_< 0.01; ∗∗∗_p_< 0.001. Gene names: _duox_, dual oxidase; _nox_, NADPH oxidase; _nos_, nitric oxide synthase; _sod_, superoxide dismutase; cat: catalase.
+
+[![Image 3: Figure 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3f3a/13127326/8d23f2c627b5/gr2.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3f3a/13127326/b4551e0489bd/gr2.jpg)
+
+**Figure 2**
+_Pseudomonas putida_ interferes with _B. afzelii_ colonization of the tick gut (A) Relative abundance of _B. afzelii_ in the guts of female ticks co-infected with _S. epidermidis_ (_Se_+_Ba_) or _P. putida_ (_Pp_+_Ba_) at 7 h post-_Borrelia_ infection was evaluated by qPCR and compared with ticks infected with _B. afzelii_ alone (_Ba_). Each dot represents an individual tick gut. Data were normalized to the tick mitochondrial 16S rRNA gene and are presented as the mean ± SD of two technical replicates. Statistical significance was determined using the Kruskal-Wallis test (∗∗_p_< 0.01). (B) The number of _B. afzelii_ spirochetes in cell cultures was measured by qPCR after 24 h of incubation with cell-free supernatant or cell lysate from an overnight culture of _P. putida_. Untreated _Borrelia_ culture served as a positive control. Data represent the mean ± SD of two technical replicates. Statistical significance was determined using one-way ANOVA (_p_ ˃ 0.05). (C) Viability of _B. afzelii_ spirochetes was assessed using SYTO9/PI staining to distinguish live (green) and dead (red) cells after 24 h of incubation with _P. putida_ supernatant or cell lysate. Heat-inactivated spirochetes (70°C for 10 min) served as a positive control. Scale bars, 10 μm (heat-inactivated), 50 μm. (D) qPCR quantification of _B. afzelii_ and _P. putida_ after 3 and 6 h of co-cultivation using different _P. putida_ inoculum dilutions. Pure cultures of each species were used as positive controls. Data represent the mean ± SD of two technical replicates. (E) Viability of _B. afzelii_ and _P. putida_ after 3 and 6 h of co-cultivation, assessed by SYTO9/PI staining and microscopy. Scale bars, 50 μm.
+
+[![Image 4: Figure 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3f3a/13127326/2ebd78fcb777/gr3.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3f3a/13127326/ba38f7e72e35/gr3.jpg)
+
+**Figure 3**
+
+Defensin 1 exhibits selective antimicrobial activity (A) Domain architecture and the predicted 3D structure of mDef1 (
+
+alphafoldserver.com
+). The α-helix (magenta) and β-sheets (violet) are stabilized by three disulfide bonds formed between six conserved cysteine residues (Cys1–Cys4, Cys2–Cys5, Cys3–Cys6). The surface representation highlights negatively (red) and positively (blue) charged residues, demonstrating the overall cationic nature of the peptide surface. (B–D) Growth inhibition assays. The OD 600 of _S. epidermidis_ and _P. putida_ was measured after 24 h of incubation with 2-fold serial dilutions of mDef1. Data are presented as mean ± SD of three technical replicates. (C) Temporal growth dynamics of _S. epidermidis_. (D) Visible peptide precipitates were observed at the three highest mDef1 concentrations, which likely contributed to the elevated OD 600 values detected in the growth curves after 24 h of incubation (see Figure 3B). Wells containing the minimum inhibitory concentration (MIC) of mDef1 are outlined. (E) Concentration-dependent borreliacidal activity of mDef1. Spirochete loads were quantified by qPCR after 24 h of incubation with 4-fold serial dilutions of mDef1. Data are presented as the mean ± SD of two technical replicates. Statistical significance was determined using one-way ANOVA (∗_p_< 0.05; ∗∗∗∗_p_< 0.0001). (F) Exposure to mDef1 alters _B. afzelii_ morphology and reduces viability. Spirochetes exposed to mDef1 exhibit marked morphological changes and decreased viability, as revealed by SYTO9/PI staining and fluorescence microscopy. The spirochetes aggregated into clusters and shifted into persister forms (round bodies). Scale bars, 10 μm. (G) DEAD/LIVE bacterial viability assay of _B. afzelii_ spirochetes following 24 h incubation with mDef1. PI-positive pleomorphic forms indicate compromised outer membranes in flat-wave spirochetes (a), spirochetes with blebs (b, c), round bodies (d, e), and aggregates (f). Scale bars, 10 μm.
+
+[![Image 5: Figure 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3f3a/13127326/392ed65504f3/gr4.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/3f3a/13127326/9f3e1480e6ae/gr4.jpg)
+
+**Figure 4**
+
+Inverse correlation between _Pseudomonas_ abundance and _Borrelia_ infection (A) Schematic overview of the gene silencing (top) and the tick feeding experiments with heat-inactivated bacteria (bottom). Figure created with BioRender (
+
+biorender.com
+). (B) Efficacy of _defensin 1_ gene silencing in female ticks. _Defensin 1_ transcript levels were quantified by RT-qPCR at 8 h post-infection with _P. putida_ in mock- and ds _def1_-injected ticks. Expression levels were normalized to the tick housekeeping gene _elf-1a_. Data are presented as mean ± SD from two technical replicates, with each data point representing a pool of three guts. Statistical comparison between groups was performed using a two-tailed _t_ test (_p_ ˃ 0.05). (C) Relative gene expression of AMP genes in ticks fed heat-inactivated bacterial cells, normalized to the tick _elf-1a_. Each data point represents a pool of three guts. One-way ANOVA was used to determine statistical significance (_p_> 0.05). (D) Quantification of _B. afzelii_ burden in guts of female ticks exposed to heat-inactivated bacterial cells. _Borrelia_ loads were measured by qPCR at 7 h post-_Borrelia_ infection. Data were normalized to the tick mitochondrial 16S rRNA gene and compared to the single-infection group. Each dot represents an individual tick gut. Results are shown as mean ± SD from two technical replicates. Statistical significance was assessed using one-way ANOVA (_p_> 0.05). (E–G) Relative abundance of _Pseudomonas_ species in field-collected _I. ricinus_. Genus-specific qPCR was employed to quantify _Pseudomonas_ levels in individual tick guts. Data were normalized to the tick mitochondrial 16S rRNA gene and compared between uninfected and _Borrelia_-infected nymphs and females. Results are presented as mean ± SD. Statistical comparisons between groups were conducted using the Mann-Whitney _U_ test (∗∗_p_< 0.01; ∗∗∗∗_p_< 0.0001).
+
+## Similar articles
+
+*   [A metalloprotease secreted by an environmentally acquired gut bacterium hinders _Borrelia afzelii_ colonization in _Ixodes ricinus_.](https://pubmed.ncbi.nlm.nih.gov/39450335/)
+
+Hodžić A, Veinović G, Alić A, Seki D, Kunert M, Nikolov G, Sukara R, Šupić J, Tomanović S, Berry D.Hodžić A, et al.Front Cell Infect Microbiol. 2024 Oct 10;14:1476266. doi: 10.3389/fcimb.2024.1476266. eCollection 2024.Front Cell Infect Microbiol. 2024.PMID: 39450335 Free PMC article. 
+*   [Borrelia afzelii Infection in the Rodent Host Has Dramatic Effects on the Bacterial Microbiome of Ixodes ricinus Ticks.](https://pubmed.ncbi.nlm.nih.gov/34191531/)
+
+Hamilton PT, Maluenda E, Sarr A, Belli A, Hurry G, Duron O, Plantard O, Voordouw MJ.Hamilton PT, et al.Appl Environ Microbiol. 2021 Aug 26;87(18):e0064121. doi: 10.1128/AEM.00641-21. Epub 2021 Aug 26.Appl Environ Microbiol. 2021.PMID: 34191531 Free PMC article. 
+*   [Tracking of _Borrelia afzelii_ Transmission from Infected _Ixodes ricinus_ Nymphs to Mice.](https://pubmed.ncbi.nlm.nih.gov/30910791/)
+
+Pospisilova T, Urbanova V, Hes O, Kopacek P, Hajdusek O, Sima R.Pospisilova T, et al.Infect Immun. 2019 May 21;87(6):e00896-18. doi: 10.1128/IAI.00896-18. Print 2019 Jun.Infect Immun. 2019.PMID: 30910791 Free PMC article. 
+*   [Interaction between tick and host microbiotas: a four-step waltz.](https://pubmed.ncbi.nlm.nih.gov/41709267/)
+
+Baquer F, Grillon A.Baquer F, et al.Parasit Vectors. 2026 Feb 18;19(1):129. doi: 10.1186/s13071-026-07308-1.Parasit Vectors. 2026.PMID: 41709267 Free PMC article.Review. 
+*   [Tick gut barriers impacting tick-microbe interactions and pathogen persistence.](https://pubmed.ncbi.nlm.nih.gov/34570926/)
+
+Kitsou C, Foor SD, Dutta S, Bista S, Pal U.Kitsou C, et al.Mol Microbiol. 2021 Nov;116(5):1241-1248. doi: 10.1111/mmi.14822. Epub 2021 Oct 6.Mol Microbiol. 2021.PMID: 34570926 Free PMC article.Review. 
+
+## References
+
+1.       1.    Kapo N., Zuber Bogdanović I., Gagović E., Žekić M., Veinović G., Sukara R., Mihaljica D., Adžić B., Kadriaj P., Cvetkovikj A., et al. Ixodid ticks and zoonotic tick-borne pathogens of the Western Balkans. Parasit. Vectors. 2024;17:45. doi: 10.1186/s13071-023-06116-1. - [DOI](https://doi.org/10.1186/s13071-023-06116-1) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC10832161/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/38297327/)
+
+2.       1.    Steinbrink A., Brugger K., Margos G., Kraiczy P., Klimpel S. The evolving story of Borrelia burgdorferi sensu lato transmission in Europe. Parasitol. Res. 2022;121:781–803. doi: 10.1007/s00436-022-07445-3. - [DOI](https://doi.org/10.1007/s00436-022-07445-3) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8816687/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/35122516/)
+
+3.       1.    Kurokawa C., Lynn G.E., Pedra J.H.F., Pal U., Narasimhan S., Fikrig E. Interactions between Borrelia burgdorferi and ticks. Nat. Rev. Microbiol. 2020;18:587–600. doi: 10.1038/s41579-020-0400-5. - [DOI](https://doi.org/10.1038/s41579-020-0400-5) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC7351536/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/32651470/)
+
+4.       1.    Feng Y., Peng Y., Song X., Wen H., An Y., Tang H., Wang J. Anopheline mosquitoes are protected against parasite infection by tryptophan catabolism in gut microbiota. Nat. Microbiol. 2022;7:707–715. doi: 10.1038/s41564-022-01099-8. - [DOI](https://doi.org/10.1038/s41564-022-01099-8) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/35437328/)
+
+5.       1.    Huang W., Rodrigues J., Bilgo E., Tormo J.R., Challenger J.D., De Cozar-Gallardo C., Pérez-Victoria I., Reyes F., Castañeda-Casado P., Gnambani E.J., et al. Delftia tsuruhatensis TC1 symbiont suppresses malaria transmission by anopheline mosquitoes. Science. 2023;381:533–540. doi: 10.1126/science.adf8141. - [DOI](https://doi.org/10.1126/science.adf8141) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/37535741/)
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S2589-0042(26)01003-5)
+    *   [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/pmid/42063559/)

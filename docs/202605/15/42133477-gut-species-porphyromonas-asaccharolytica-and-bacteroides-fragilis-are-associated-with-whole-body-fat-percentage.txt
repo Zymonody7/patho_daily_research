@@ -1,0 +1,59 @@
+Title: Gut Species Porphyromonas asaccharolytica and Bacteroides fragilis Are Associated with Whole Body Fat Percentage - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42133477/
+
+Markdown Content:
+Actions
+
+. 2026 May 14:lxag117.
+
+doi: 10.1093/jambio/lxag117.  Online ahead of print.
+
+[Yong Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+Y&cauthor_id=42133477)[1](https://pubmed.ncbi.nlm.nih.gov/42133477/#full-view-affiliation-1 "Center for System Biology, Data Sciences, and Reproductive Health, School of Basic Medical Science, Central South University, 172 Tongzipo Road, Yuelu District, Changsha, Hunan Province, China."),[Kuan-Jui Su](https://pubmed.ncbi.nlm.nih.gov/?term=Su+KJ&cauthor_id=42133477)[2](https://pubmed.ncbi.nlm.nih.gov/42133477/#full-view-affiliation-2 "Tulane Center for Biomedical Informatics and Genomics, School of Medicine, Tulane University, New Orleans, LA, United States."),[Lin-Dong Jiang](https://pubmed.ncbi.nlm.nih.gov/?term=Jiang+LD&cauthor_id=42133477)[2](https://pubmed.ncbi.nlm.nih.gov/42133477/#full-view-affiliation-2 "Tulane Center for Biomedical Informatics and Genomics, School of Medicine, Tulane University, New Orleans, LA, United States."),[Xu Lin](https://pubmed.ncbi.nlm.nih.gov/?term=Lin+X&cauthor_id=42133477)[3](https://pubmed.ncbi.nlm.nih.gov/42133477/#full-view-affiliation-3 "Department of Endocrinology and Metabolism, The Third Affiliated Hospital of Southern Medical University, Guangzhou 510630, China.")[4](https://pubmed.ncbi.nlm.nih.gov/42133477/#full-view-affiliation-4 "Shunde Hospital of Southern Medical University (The First People's Hospital of Shunde), Foshan, China."),[Chuan Qiu](https://pubmed.ncbi.nlm.nih.gov/?term=Qiu+C&cauthor_id=42133477)[2](https://pubmed.ncbi.nlm.nih.gov/42133477/#full-view-affiliation-2 "Tulane Center for Biomedical Informatics and Genomics, School of Medicine, Tulane University, New Orleans, LA, United States."),[Zhe Luo](https://pubmed.ncbi.nlm.nih.gov/?term=Luo+Z&cauthor_id=42133477)[2](https://pubmed.ncbi.nlm.nih.gov/42133477/#full-view-affiliation-2 "Tulane Center for Biomedical Informatics and Genomics, School of Medicine, Tulane University, New Orleans, LA, United States."),[Qing Tian](https://pubmed.ncbi.nlm.nih.gov/?term=Tian+Q&cauthor_id=42133477)[2](https://pubmed.ncbi.nlm.nih.gov/42133477/#full-view-affiliation-2 "Tulane Center for Biomedical Informatics and Genomics, School of Medicine, Tulane University, New Orleans, LA, United States."),[Jie Shen](https://pubmed.ncbi.nlm.nih.gov/?term=Shen+J&cauthor_id=42133477)[3](https://pubmed.ncbi.nlm.nih.gov/42133477/#full-view-affiliation-3 "Department of Endocrinology and Metabolism, The Third Affiliated Hospital of Southern Medical University, Guangzhou 510630, China."),[Hui Shen](https://pubmed.ncbi.nlm.nih.gov/?term=Shen+H&cauthor_id=42133477)[2](https://pubmed.ncbi.nlm.nih.gov/42133477/#full-view-affiliation-2 "Tulane Center for Biomedical Informatics and Genomics, School of Medicine, Tulane University, New Orleans, LA, United States."),[Li-Shu Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+LS&cauthor_id=42133477)[5](https://pubmed.ncbi.nlm.nih.gov/42133477/#full-view-affiliation-5 "School of Physical Science and Engineering, College of Life Sciences and Bioengineering, Beijing Jiaotong University, Beijing, China."),[Hong-Mei Xiao](https://pubmed.ncbi.nlm.nih.gov/?term=Xiao+HM&cauthor_id=42133477)[1](https://pubmed.ncbi.nlm.nih.gov/42133477/#full-view-affiliation-1 "Center for System Biology, Data Sciences, and Reproductive Health, School of Basic Medical Science, Central South University, 172 Tongzipo Road, Yuelu District, Changsha, Hunan Province, China."),[Hong-Wen Deng](https://pubmed.ncbi.nlm.nih.gov/?term=Deng+HW&cauthor_id=42133477)[2](https://pubmed.ncbi.nlm.nih.gov/42133477/#full-view-affiliation-2 "Tulane Center for Biomedical Informatics and Genomics, School of Medicine, Tulane University, New Orleans, LA, United States.")
+
+Affiliations
+
+*    PMID: **42133477**
+*    DOI: [10.1093/jambio/lxag117](https://doi.org/10.1093/jambio/lxag117)
+
+## Gut Species Porphyromonas asaccharolytica and Bacteroides fragilis Are Associated with Whole Body Fat Percentage
+
+Bo Tian et al. J Appl Microbiol.2026.
+
+## Abstract
+
+**Aims:** Obesity is linked to various adverse health effects, with body fat percentage being a key indicator of these risks. While the gut microbiota (GM) plays important roles in obesity, the specific species involved remain poorly understood. We aimed to identify gut species that may influence obesity in a cohort of US men.
+
+**Methods and results:** We conducted a comprehensive integrative analysis using metagenomics and whole-genome sequencing data in the US cohort. MaAsLin2 was used to identify associations between GM and whole body fat percentage (PFAT). Mendelian randomization (MR) was applied to investigate potential directional relationships between GM species and PFAT, as well as possible interactions between microbial species. Porphyromonas asaccharolytica (P.asaccharolytica) was negatively associated (β=-0.181, P=0.005) with PFAT, while Bacteroides fragilis (B.fragilis) was positively associated (β=0.239, P=0.001); these associations were validated in an independent Chinese cohort. MR analysis suggested that P.asaccharolytica may influence PFAT in part through its potential effect on B. fragilis abundance.
+
+**Conclusion:** Gut species P.asaccharolytica and B.fragilis are associated with host body fat percentage and may influence obesity individually or collaboratively. The observed associations provide evidence consistent with a potential directional relationship between these species and human adiposity.
+
+**Keywords:** Obesity; gut microbiota; mendelian randomization; metagenomics.
+
+© The Author(s) 2026. Published by Oxford University Press on behalf of Applied Microbiology International. All rights reserved. For commercial re-use, please contact reprints@oup.com for reprints and translation rights for reprints. All other permissions can be obtained through our RightsLink service via the Permissions link on the article page on our site-for further information please contact journals.permissions@oup.com.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Gut Symbiont _Bacteroides fragilis_ Secretes a Eukaryotic-Like Ubiquitin Protein That Mediates Intraspecies Antagonism.](https://pubmed.ncbi.nlm.nih.gov/29184019/)
+
+Chatzidaki-Livanis M, Coyne MJ, Roelofs KG, Gentyala RR, Caldwell JM, Comstock LE.Chatzidaki-Livanis M, et al.mBio. 2017 Nov 28;8(6):e01902-17. doi: 10.1128/mBio.01902-17.mBio. 2017.PMID: 29184019 Free PMC article. 
+*   [Exploring causal effects of gut microbiota and metabolites on body fat percentage using two-sample Mendelian randomization.](https://pubmed.ncbi.nlm.nih.gov/38828839/)
+
+Wang X, Lu C, Li X, Ye P, Ma J, Chen X.Wang X, et al.Diabetes Obes Metab. 2024 Sep;26(9):3541-3551. doi: 10.1111/dom.15692. Epub 2024 Jun 3.Diabetes Obes Metab. 2024.PMID: 38828839 
+*   [Absence of Porphyromonas asaccharolytica, Bacteroides fragilis and Chlamydia pneumoniae in human subgingival plaque.](https://pubmed.ncbi.nlm.nih.gov/9573814/)
+
+Tran T, Flynn MJ, Chen C, Slots J.Tran T, et al.Oral Microbiol Immunol. 1997 Dec;12(6):377-8. doi: 10.1111/j.1399-302x.1997.tb00742.x.Oral Microbiol Immunol. 1997.PMID: 9573814 
+*   [Identification of host gene-microbiome associations in colorectal cancer patients using mendelian randomization.](https://pubmed.ncbi.nlm.nih.gov/37563724/)
+
+Xiang Y, Zhang C, Wang J, Cheng Y, Wang L, Tong Y, Yan D.Xiang Y, et al.J Transl Med. 2023 Aug 10;21(1):535. doi: 10.1186/s12967-023-04335-9.J Transl Med. 2023.PMID: 37563724 Free PMC article. 
+*   [The interactions between host genome and gut microbiome increase the risk of psychiatric disorders: Mendelian randomization and biological annotation.](https://pubmed.ncbi.nlm.nih.gov/37557965/)
+
+Xiao L, Liu S, Wu Y, Huang Y, Tao S, Liu Y, Tang Y, Xie M, Ma Q, Yin Y, Dai M, Zhang M, Llamocca E, Gui H, Wang Q.Xiao L, et al.Brain Behav Immun. 2023 Oct;113:389-400. doi: 10.1016/j.bbi.2023.08.003. Epub 2023 Aug 8.Brain Behav Immun. 2023.PMID: 37557965 Free PMC article. 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Silverchair Information Systems](https://academic.oup.com/jambio/article-lookup/doi/10.1093/jambio/lxag117)

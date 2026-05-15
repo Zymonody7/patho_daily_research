@@ -1,0 +1,79 @@
+Title: Multi-omics integration identifies ribosome biogenesis-active macrophage subpopulation and its key gene GNL2 in driving liver hepatocellular carcinoma progression and mechanisms - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42135716/
+
+Markdown Content:
+Actions
+
+. 2026 May 14.
+
+doi: 10.1186/s12935-026-04330-2.  Online ahead of print.
+
+[Kun Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+K&cauthor_id=42135716)[#](https://pubmed.ncbi.nlm.nih.gov/42135716/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/42135716/#full-view-affiliation-1 "Department of General Surgery, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China."),[Pincheng Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+P&cauthor_id=42135716)[1](https://pubmed.ncbi.nlm.nih.gov/42135716/#full-view-affiliation-1 "Department of General Surgery, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China."),[Jianyu Yan](https://pubmed.ncbi.nlm.nih.gov/?term=Yan+J&cauthor_id=42135716)[1](https://pubmed.ncbi.nlm.nih.gov/42135716/#full-view-affiliation-1 "Department of General Surgery, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China."),[Shuyue Feng](https://pubmed.ncbi.nlm.nih.gov/?term=Feng+S&cauthor_id=42135716)[1](https://pubmed.ncbi.nlm.nih.gov/42135716/#full-view-affiliation-1 "Department of General Surgery, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China."),[Dan Wan](https://pubmed.ncbi.nlm.nih.gov/?term=Wan+D&cauthor_id=42135716)[2](https://pubmed.ncbi.nlm.nih.gov/42135716/#full-view-affiliation-2 "National and Local Joint Engineering Research Center of Biodiagnosis and Biotherapy, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China."),[Ke Du](https://pubmed.ncbi.nlm.nih.gov/?term=Du+K&cauthor_id=42135716)[2](https://pubmed.ncbi.nlm.nih.gov/42135716/#full-view-affiliation-2 "National and Local Joint Engineering Research Center of Biodiagnosis and Biotherapy, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China."),[Xiao Liang](https://pubmed.ncbi.nlm.nih.gov/?term=Liang+X&cauthor_id=42135716)[2](https://pubmed.ncbi.nlm.nih.gov/42135716/#full-view-affiliation-2 "National and Local Joint Engineering Research Center of Biodiagnosis and Biotherapy, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China."),[Fan Yang](https://pubmed.ncbi.nlm.nih.gov/?term=Yang+F&cauthor_id=42135716)[1](https://pubmed.ncbi.nlm.nih.gov/42135716/#full-view-affiliation-1 "Department of General Surgery, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China."),[Erzheng Zhou](https://pubmed.ncbi.nlm.nih.gov/?term=Zhou+E&cauthor_id=42135716)[1](https://pubmed.ncbi.nlm.nih.gov/42135716/#full-view-affiliation-1 "Department of General Surgery, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China."),[Na Huang](https://pubmed.ncbi.nlm.nih.gov/?term=Huang+N&cauthor_id=42135716)[2](https://pubmed.ncbi.nlm.nih.gov/42135716/#full-view-affiliation-2 "National and Local Joint Engineering Research Center of Biodiagnosis and Biotherapy, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China."),[Qian Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+Q&cauthor_id=42135716)[3](https://pubmed.ncbi.nlm.nih.gov/42135716/#full-view-affiliation-3 "National and Local Joint Engineering Research Center of Biodiagnosis and Biotherapy, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China. wangqian9797@xjtu.edu.cn."),[Nanbin Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+N&cauthor_id=42135716)[4](https://pubmed.ncbi.nlm.nih.gov/42135716/#full-view-affiliation-4 "Department of General Surgery, The Second Affiliated Hospital of Xi'an Jiaotong University, Xi'an, China. lnb509755573@stu.xjtu.edu.cn.")
+
+Affiliations
+
+*    PMID: **42135716**
+*    DOI: [10.1186/s12935-026-04330-2](https://doi.org/10.1186/s12935-026-04330-2)
+
+Free article
+
+## Multi-omics integration identifies ribosome biogenesis-active macrophage subpopulation and its key gene GNL2 in driving liver hepatocellular carcinoma progression and mechanisms
+
+Yajie Qi et al. Cancer Cell Int.2026.
+
+Free article
+
+## Abstract
+
+**Background:** Liver hepatocellular carcinoma (LIHC) is a common malignancy, yet the core genes driving its progression and potential therapeutic targets remain insufficiently explored. Ribosome biogenesis (RB) is a critical biological process linked to various cancers; however, its systematic role in LIHC remains unclear.
+
+**Methods:** This study integrated LIHC single-cell RNA-Seq, bulk RNA-Seq, and spatial transcriptomic data with ribosome biogenesis-related gene sets to construct a single-cell atlas of LIHC. Weighted Gene Co-expression Network Analysis (WGCNA) was employed to characterize myeloid cell subsets. Furthermore, an LIHC prognostic risk model based on RB-related genes was developed using 117 machine-learning algorithm combinations. Key findings were subsequently corroborated through experimental validation and clinical sample analysis.
+
+**Results:** We identified a distinct macrophage subpopulation with high ribosome biogenesis activity, termed ribosome biogenesis-active macrophages (RAMs). These cells exhibited strong communication with inflammatory macrophages, potentially mediated by MIF-related receptor-ligand interactions. We further constructed an 8-gene prognostic model (PA2G4, GNL2, PWP1, DDX49, NOC4L, GDI2, CST7, and RCL1), which showed good predictive performance. Drug sensitivity analysis suggested that the high-risk group may be more responsive to several agents, including docetaxel. Among these genes, GNL2 was selected for further investigation. Elevated GNL2 expression was associated with increased stemness features in myeloid cells. Molecular docking analysis identified several candidate compounds with potential binding affinity to GNL2. Functionally, GNL2 knockdown in macrophages reduced TGF-β and TNF-α expression and was associated with decreased proliferation, migration, and invasion of LIHC cells.
+
+**Conclusion:** We identified a highly active ribosome biogenesis-macrophage subpopulation (RAM), and constructed a robust risk model to aid in the diagnosis, prognosis, and treatment of LIHC. GNL2 is associated with increased expression of TGF-β and TNF-α and may contribute to LIHC progression.
+
+**Keywords:** Liver hepatocellular carcinoma; Machine learning; Macrophages; Ribosome biogenesis; Single-cell sequencing.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Ethics approval and consent to participate: This study did not involve commercial interests. Human tissue was used in strict accordance with the guidelines of the Declaration of Helsinki, and patients provided written informed consent to participate in this study. Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Integration of single-cell sequencing, transcriptome sequencing, and machine learning for constructing and validating histone acetylation-related prognostic risk models in hepatocellular carcinoma.](https://pubmed.ncbi.nlm.nih.gov/41659855/)
+
+Qi Y, Wang F, Ren W, Cai C, Zhou Y, Zhu P, He P, Wang Q.Qi Y, et al.Front Immunol. 2026 Jan 23;17:1624883. doi: 10.3389/fimmu.2026.1624883. eCollection 2026.Front Immunol. 2026.PMID: 41659855 Free PMC article. 
+*   [Integration of single-cell RNA-seq and bulk RNA-seq to construct liver hepatocellular carcinoma stem cell signatures to explore their impact on patient prognosis and treatment.](https://pubmed.ncbi.nlm.nih.gov/38635528/)
+
+Liu L, Zhang M, Cui N, Liu W, Di G, Wang Y, Xi X, Li H, Shen Z, Gu M, Wang Z, Jiang S, Liu B.Liu L, et al.PLoS One. 2024 Apr 18;19(4):e0298004. doi: 10.1371/journal.pone.0298004. eCollection 2024.PLoS One. 2024.PMID: 38635528 Free PMC article. 
+*   [Study of the G Protein Nucleolar 2 Value in Liver Hepatocellular Carcinoma Treatment and Prognosis.](https://pubmed.ncbi.nlm.nih.gov/34337013/)
+
+Dong Y, Cai Q, Fu L, Liu H, Ma M, Wu X.Dong Y, et al.Biomed Res Int. 2021 Jul 19;2021:4873678. doi: 10.1155/2021/4873678. eCollection 2021.Biomed Res Int. 2021.PMID: 34337013 Free PMC article. 
+*   [Integrated multi-Omics and network toxicology elucidate the multi-target mechanisms of environmental hormones in driving hepatocellular carcinoma.](https://pubmed.ncbi.nlm.nih.gov/41371106/)
+
+Huang R, Ma J, Yao J, Pang J, Zhang M, Wen L, Wang L, Deng Y, He X, Zhao C, Mu B.Huang R, et al.Ecotoxicol Environ Saf. 2026 Jan 1;309:119519. doi: 10.1016/j.ecoenv.2025.119519. Epub 2025 Dec 9.Ecotoxicol Environ Saf. 2026.PMID: 41371106 
+*   [Multi-omics analysis reveals the role of ribosome biogenesis in malignant clear cell renal cell carcinoma and the development of a machine learning-based prognostic model.](https://pubmed.ncbi.nlm.nih.gov/40642093/)
+
+Xie Z, Peng S, Wang J, Huang Y, Zhou X, Zhang G, Jiang H, Zhong K, Feng L, Chen N.Xie Z, et al.Front Immunol. 2025 Jun 26;16:1602898. doi: 10.3389/fimmu.2025.1602898. eCollection 2025.Front Immunol. 2025.PMID: 40642093 Free PMC article. 
+
+## Grants and funding
+
+*   [2025-JC-YBQN-1073/Natural Science Foundation of Shaanxi Province](https://pubmed.ncbi.nlm.nih.gov/?term=2025-JC-YBQN-1073%2FNatural+Science+Foundation+of+Shaanxi+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2025-JC-YBQN-1073/Natural Science Foundation of Shaanxi Province")
+*   [2023-JCYB-647/Natural Science Foundation of Shaanxi Province](https://pubmed.ncbi.nlm.nih.gov/?term=2023-JCYB-647%2FNatural+Science+Foundation+of+Shaanxi+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2023-JCYB-647/Natural Science Foundation of Shaanxi Province")
+*   [2025JC-YBQN-322/Natural Science Foundation of Shaanxi Province](https://pubmed.ncbi.nlm.nih.gov/?term=2025JC-YBQN-322%2FNatural+Science+Foundation+of+Shaanxi+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2025JC-YBQN-322/Natural Science Foundation of Shaanxi Province")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [BioMed Central](https://cancerci.biomedcentral.com/articles/10.1186/s12935-026-04330-2)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-995)

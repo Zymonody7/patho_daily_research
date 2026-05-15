@@ -1,0 +1,75 @@
+Title: Shared proteomic landscape between arteriosclerosis and cardiovascular endpoints: a Mendelian randomization and observational study integrating AlphaFold3 for structural prediction - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42133815/
+
+Markdown Content:
+Actions
+
+. 2026 May 14:cvag095.
+
+doi: 10.1093/cvr/cvag095.  Online ahead of print.
+
+[Devendra Meena](https://pubmed.ncbi.nlm.nih.gov/?term=Meena+D&cauthor_id=42133815)[1](https://pubmed.ncbi.nlm.nih.gov/42133815/#full-view-affiliation-1 "Department of Epidemiology and Biostatistics, School of Public Health, Imperial College London, London, UK.")[2](https://pubmed.ncbi.nlm.nih.gov/42133815/#full-view-affiliation-2 "UK Dementia Research Institute at Imperial College London, London, UK."),[Margaux Achtari](https://pubmed.ncbi.nlm.nih.gov/?term=Achtari+M&cauthor_id=42133815)[1](https://pubmed.ncbi.nlm.nih.gov/42133815/#full-view-affiliation-1 "Department of Epidemiology and Biostatistics, School of Public Health, Imperial College London, London, UK."),[Alexander Smith](https://pubmed.ncbi.nlm.nih.gov/?term=Smith+A&cauthor_id=42133815)[1](https://pubmed.ncbi.nlm.nih.gov/42133815/#full-view-affiliation-1 "Department of Epidemiology and Biostatistics, School of Public Health, Imperial College London, London, UK."),[Renae Judy](https://pubmed.ncbi.nlm.nih.gov/?term=Judy+R&cauthor_id=42133815)[3](https://pubmed.ncbi.nlm.nih.gov/42133815/#full-view-affiliation-3 "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, USA."),[Nour Mimouni](https://pubmed.ncbi.nlm.nih.gov/?term=Mimouni+N&cauthor_id=42133815)[3](https://pubmed.ncbi.nlm.nih.gov/42133815/#full-view-affiliation-3 "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, USA."),[Joshua C Bis](https://pubmed.ncbi.nlm.nih.gov/?term=Bis+JC&cauthor_id=42133815)[4](https://pubmed.ncbi.nlm.nih.gov/42133815/#full-view-affiliation-4 "Cardiovascular Health Research Unit, Department of Medicine, University of Washington, Seattle, WA, USA."),[Nora Franceschini](https://pubmed.ncbi.nlm.nih.gov/?term=Franceschini+N&cauthor_id=42133815)[5](https://pubmed.ncbi.nlm.nih.gov/42133815/#full-view-affiliation-5 "Department of Epidemiology, University of North Carolina at Chapel Hill, Chapel Hill, NC, USA."),[Kenneth Fung](https://pubmed.ncbi.nlm.nih.gov/?term=Fung+K&cauthor_id=42133815)[6](https://pubmed.ncbi.nlm.nih.gov/42133815/#full-view-affiliation-6 "William Harvey Research Institute, Barts and the London Faculty of Medicine and Dentistry, Queen Mary University of London, London, UK."),[Patricia B Munroe](https://pubmed.ncbi.nlm.nih.gov/?term=Munroe+PB&cauthor_id=42133815)[6](https://pubmed.ncbi.nlm.nih.gov/42133815/#full-view-affiliation-6 "William Harvey Research Institute, Barts and the London Faculty of Medicine and Dentistry, Queen Mary University of London, London, UK."),[Scott M Damrauer](https://pubmed.ncbi.nlm.nih.gov/?term=Damrauer+SM&cauthor_id=42133815)[3](https://pubmed.ncbi.nlm.nih.gov/42133815/#full-view-affiliation-3 "Department of Genetics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, USA."),[Ioanna Tzoulaki](https://pubmed.ncbi.nlm.nih.gov/?term=Tzoulaki+I&cauthor_id=42133815)[1](https://pubmed.ncbi.nlm.nih.gov/42133815/#full-view-affiliation-1 "Department of Epidemiology and Biostatistics, School of Public Health, Imperial College London, London, UK.")[2](https://pubmed.ncbi.nlm.nih.gov/42133815/#full-view-affiliation-2 "UK Dementia Research Institute at Imperial College London, London, UK.")[7](https://pubmed.ncbi.nlm.nih.gov/42133815/#full-view-affiliation-7 "British Heart Foundation Centre of Research Excellence, Imperial College London, London, UK.")[8](https://pubmed.ncbi.nlm.nih.gov/42133815/#full-view-affiliation-8 "National Institute for Health and Care Research (NIHR) Imperial Biomedical Research Centre.")[9](https://pubmed.ncbi.nlm.nih.gov/42133815/#full-view-affiliation-9 "Centre for Systems Biology, Biomedical Research Foundation, Academy of Athens, Athens, Greece."),[Abbas Dehghan](https://pubmed.ncbi.nlm.nih.gov/?term=Dehghan+A&cauthor_id=42133815)[1](https://pubmed.ncbi.nlm.nih.gov/42133815/#full-view-affiliation-1 "Department of Epidemiology and Biostatistics, School of Public Health, Imperial College London, London, UK.")[2](https://pubmed.ncbi.nlm.nih.gov/42133815/#full-view-affiliation-2 "UK Dementia Research Institute at Imperial College London, London, UK.")[7](https://pubmed.ncbi.nlm.nih.gov/42133815/#full-view-affiliation-7 "British Heart Foundation Centre of Research Excellence, Imperial College London, London, UK.")
+
+Affiliations
+
+*    PMID: **42133815**
+*    DOI: [10.1093/cvr/cvag095](https://doi.org/10.1093/cvr/cvag095)
+
+## Shared proteomic landscape between arteriosclerosis and cardiovascular endpoints: a Mendelian randomization and observational study integrating AlphaFold3 for structural prediction
+
+Jingxian Huang et al. Cardiovasc Res.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+**Aims:** Atherosclerosis and arteriosclerosis are major contributors to cardiovascular disease (CVD), yet their shared and distinct molecular underpinnings remain incompletely understood. This study integrates proteomics, Bayesian colocalization, and Mendelian randomization (MR), and structural modelling to explore the shared and distinct plasma proteome associated with arteriosclerosis and atherosclerosis across different vascular beds.
+
+**Methods:** We leveraged cis-pQTLs for 5,813 unique proteins from the UK Biobank (UKB) Pharma Proteomics Project (N=54,219) and deCODE genetics (N=35,559) and assessed the association with five arteriosclerotic/atherosclerotic markers, as well as eight cardiovascular events, using Bayesian colocalization and bidirectional MR. We validated and replicated the findings through independent proteomics datasets, tissue-specific transcriptomics, observational data from UKB, and AlphaFold3 for structural prediction. Finally, mediation analysis evaluated the role of vascular traits in linking proteins to CVD risk.
+
+**Results:** We prioritized ten proteins potentially causally associated with both the arteriosclerotic/atherosclerotic markers and cardiovascular events. Five of them (ANGPTL4, APOB, BRAP, LPA, and ZPR1), were associated with increased levels of arteriosclerosis/atherosclerosis and risk of CVD, whereas four (DUSP13, FN1, IL6R, and MMP12) were associated with reduced levels of arteriosclerosis/atherosclerosis and risk of CVD. ABO was associated with increased risk of peripheral artery disease (PAD) and CVD but inversely related to arterial stiffness index (ASI). Of these, seven were replicated in an independent pQTLs data source from the Fenland study. Mediation analyses estimated that LPA's effect on stroke was primarily mediated through carotid plaque (92.4%). Observational analyses and transcriptomic validation corroborated these associations. Structural modelling using AlphaFold3 identified key functional variants in several proteins, including ANGPTL4 and FN1, potentially underlying the pathogenic mechanists.
+
+**Conclusions:** The present study elucidates the shared and distinct proteomic signatures across arteriosclerosis, atherosclerosis, and cardiovascular disease, underscoring the importance of vascular-bed-specific mechanisms. These identified proteins offer promising avenues for biomarker-driven risk stratification and therapeutic interventions, with potential for dual-purpose interventions across vascular territories.
+
+© The Author(s) 2026. Published by Oxford University Press on behalf of the European Society of Cardiology.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Blood pressure, plasma proteins, and cardiovascular diseases: a network Mendelian randomization and observational study.](https://pubmed.ncbi.nlm.nih.gov/41065563/)
+
+Meena D, Huang J, Smith A, Yarmolinsky J, Wu S, Koskeridis F, Ko YH, Dib MJ, Antonatos C, Vasilopoulos Y, Yu X, Otto GW, Gill D, Mayr M, Elliott P, Dehghan A, Tzoulaki I.Meena D, et al.Eur Heart J. 2026 Jan 16;47(3):331-342. doi: 10.1093/eurheartj/ehaf725.Eur Heart J. 2026.PMID: 41065563 Free PMC article. 
+*   [Mendelian randomization and genetic colocalization infer the effects of the multi-tissue proteome on 211 complex disease-related phenotypes.](https://pubmed.ncbi.nlm.nih.gov/36510323/)
+
+Yang C, Fagan AM, Perrin RJ, Rhinn H, Harari O, Cruchaga C.Yang C, et al.Genome Med. 2022 Dec 12;14(1):140. doi: 10.1186/s13073-022-01140-9.Genome Med. 2022.PMID: 36510323 Free PMC article. 
+*   [Association Analysis of the Circulating Proteome With Sarcopenia-Related Traits Reveals Potential Drug Targets for Sarcopenia.](https://pubmed.ncbi.nlm.nih.gov/39949133/)
+
+Wen S, Xu S, Zong X, Wen S, Xiao W, Zheng W, Cen H, Zhu Z, Xie J, Zhang Y, Ding C, Ruan G.Wen S, et al.J Cachexia Sarcopenia Muscle. 2025 Feb;16(1):e13720. doi: 10.1002/jcsm.13720.J Cachexia Sarcopenia Muscle. 2025.PMID: 39949133 Free PMC article. 
+*   [Proteome-wide Mendelian randomization and colocalization analyses identify potential biomarkers for schizophrenia.](https://pubmed.ncbi.nlm.nih.gov/41836659/)
+
+Lin J, Huang H, Chen L, Wei Y, Si T, Su Y, Niu Y, Chen J.Lin J, et al.Front Psychiatry. 2026 Feb 27;17:1724567. doi: 10.3389/fpsyt.2026.1724567. eCollection 2026.Front Psychiatry. 2026.PMID: 41836659 Free PMC article. 
+*   [A multi-omics approach uncovers causality of IL6R on endotypes of subclinical carotid atherosclerosis and the possible role of the IL6R/OSMR pathway.](https://pubmed.ncbi.nlm.nih.gov/41124095/)
+
+Chen QS, Björck HM, Bergman O, Baldassarre D, Engström G, Gallo A, Gummesson A, Hedin U, Kurl S, Lind L, Matic L, Mulder DJ, Pirro M, Savonen K, Söderberg S, Veglia F, Tremoli E, Östgren CJ, Eriksson P, Strawbridge RJ, Gigante B.Chen QS, et al.Cardiovasc Res. 2025 Dec 9;121(15):2360-2373. doi: 10.1093/cvr/cvaf177.Cardiovasc Res. 2025.PMID: 41124095 Free PMC article. 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Silverchair Information Systems](https://academic.oup.com/cardiovascres/article-lookup/doi/10.1093/cvr/cvag095)
+
+*   ### Research Materials
+
+    *   [NCI CPTC Antibody Characterization Program](https://antibodies.cancer.gov/detail/CPTC-IL6R-1)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/non-CPTAC-2621)

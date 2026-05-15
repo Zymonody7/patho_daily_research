@@ -1,0 +1,395 @@
+Title: Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avocado foliar diseases in indian orchards - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42135362/
+
+Markdown Content:
+# Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avocado foliar diseases in indian orchards - PubMed
+
+ Clipboard, Search History, and several other advanced features are temporarily unavailable. 
+
+[Skip to main page content](https://pubmed.ncbi.nlm.nih.gov/42135362/#article-details)
+
+![Image 1: U.S. flag](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/favicons/favicon-57.png)
+An official website of the United States government
+
+Here's how you know
+
+![Image 2: Dot gov](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-dot-gov.svg)
+
+**The .gov means it’s official.**
+
+ Federal government websites often end in .gov or .mil. Before sharing sensitive information, make sure you’re on a federal government site.
+
+![Image 3: Https](https://cdn.ncbi.nlm.nih.gov/coreutils/uswds/img/icon-https.svg)
+
+**The site is secure.**
+
+ The **https://** ensures that you are connecting to the official website and that any information you provide is encrypted and transmitted securely.
+
+[![Image 4: NIH NLM Logo](https://cdn.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg)](https://www.ncbi.nlm.nih.gov/)
+
+[Log in](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42135362%2F)Show account info
+
+Close
+#### Account
+
+ Logged in as:
+
+**username**
+
+*   [Dashboard](https://www.ncbi.nlm.nih.gov/myncbi/)
+*   [Publications](https://www.ncbi.nlm.nih.gov/myncbi/collections/bibliography/)
+*   [Account settings](https://www.ncbi.nlm.nih.gov/account/settings/)
+*   [Log out](https://www.ncbi.nlm.nih.gov/account/signout/?back_url=https%3A//pubmed.ncbi.nlm.nih.gov/42135362/)
+
+[Access keys](https://www.ncbi.nlm.nih.gov/guide/browsers/#ncbi_accesskeys)[NCBI Homepage](https://www.ncbi.nlm.nih.gov/)[MyNCBI Homepage](https://pubmed.ncbi.nlm.nih.gov/myncbi/)[Main Content](https://pubmed.ncbi.nlm.nih.gov/42135362/#maincontent)[Main Navigation](https://pubmed.ncbi.nlm.nih.gov/42135362/#)
+
+[](https://pubmed.ncbi.nlm.nih.gov/42135362/)
+
+[![Image 5: pubmed logo](https://cdn.ncbi.nlm.nih.gov/pubmed/a2ffdabe-e220-486a-83d1-09afbe4369a3/core/images/pubmed-logo-blue.svg)](https://pubmed.ncbi.nlm.nih.gov/)[](https://pubmed.ncbi.nlm.nih.gov/42135362/# "Show search bar")
+
+ Search:  [](https://pubmed.ncbi.nlm.nih.gov/42135362/# "Clear search input")Search
+
+[Advanced](https://pubmed.ncbi.nlm.nih.gov/advanced/)[Clipboard](https://pubmed.ncbi.nlm.nih.gov/clipboard/)
+
+[User Guide](https://pubmed.ncbi.nlm.nih.gov/help/)
+
+ Save  Email 
+
+Send to
+
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/42135362/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42135362%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42135362%2F%23open-collections-panel)
+*   [Citation manager](https://pubmed.ncbi.nlm.nih.gov/42135362/#)
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Save citation to file
+
+ Format:  
+
+ Create file  Cancel 
+
+## Email citation
+
+ Email address has not been verified. Go to [My NCBI account settings](https://account.ncbi.nlm.nih.gov/settings/) to confirm your email and then refresh this page. 
+
+ To: 
+
+ Subject:  
+
+ Body:  
+
+ Format:  
+
+- [x]  MeSH and other data  
+
+ Send email  Cancel 
+
+### Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/42135362/#)
+
+ Add  Cancel 
+
+### Add to My Bibliography
+
+*   My Bibliography 
+
+ Unable to load your delegates due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/42135362/#)
+
+ Add  Cancel 
+
+## Your saved search
+
+ Name of saved search:  
+
+ Search terms:  
+
+[Test search terms](https://pubmed.ncbi.nlm.nih.gov/42135362/#)
+
+ Would you like email updates of new search results? Saved Search Alert Radio Buttons
+*   Yes 
+*   No 
+
+ Email:   ([change](https://www.ncbi.nlm.nih.gov/account/settings/))
+
+ Frequency:  
+
+ Which day?  
+
+ Which day?  
+
+ Report format:  
+
+ Send at most:  
+
+- [x]  Send even when there aren't any new results  
+
+ Optional text in email:  
+
+ Save  Cancel 
+
+## Create a file for external citation management software
+
+ Create file  Cancel 
+
+## Your RSS Feed
+
+ Name of RSS Feed:  
+
+ Number of items displayed:  
+
+ Create RSS  Cancel 
+
+RSS Link  Copy 
+
+### Full text links
+
+[![Image 6: Nature Publishing Group full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--www.nature.com-static-images-logos-nature-portfolio-120.png) Nature Publishing Group](https://doi.org/10.1038/s41598-026-50025-z "See full text options at Nature Publishing Group")
+
+[Full text links](https://pubmed.ncbi.nlm.nih.gov/42135362/#)
+
+### Actions
+
+Cite
+
+Collections
+
+Add to Collections
+
+*   Create a new collection 
+*   Add to an existing collection 
+
+ Name your collection:  
+
+ Name must be less than 100 characters 
+
+ Choose a collection:  
+
+ Unable to load your collection due to an error
+
+[Please try again](https://pubmed.ncbi.nlm.nih.gov/42135362/#)
+
+ Add  Cancel 
+
+Permalink
+
+Permalink
+
+Copy
+
+Display options
+
+ Display options 
+
+ Format 
+
+### Page navigation
+
+*   [Title & authors](https://pubmed.ncbi.nlm.nih.gov/42135362/#heading)
+*   [Abstract](https://pubmed.ncbi.nlm.nih.gov/42135362/#abstract)
+*   [Conflict of interest statement](https://pubmed.ncbi.nlm.nih.gov/42135362/#conflict-of-interest)
+*   [Similar articles](https://pubmed.ncbi.nlm.nih.gov/42135362/#similar)
+*   [LinkOut - more resources](https://pubmed.ncbi.nlm.nih.gov/42135362/#linkout)
+
+ Sci Rep 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Sci+Rep%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Sci+Rep%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42135362/#)
+
+. 2026 May 14.
+
+ doi: 10.1038/s41598-026-50025-z.  Online ahead of print. 
+
+# Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avocado foliar diseases in indian orchards
+
+[R P Karthik](https://pubmed.ncbi.nlm.nih.gov/?term=Karthik+RP&cauthor_id=42135362)[1](https://pubmed.ncbi.nlm.nih.gov/42135362/#full-view-affiliation-1 "Department of Electronics and Communication Engineering, Kongu Engineering College (Autonomous), Perundurai, Erode, Tamil Nadu, India. rpkarthikece@gmail.com."),[Murugesan Govindasamy](https://pubmed.ncbi.nlm.nih.gov/?term=Govindasamy+M&cauthor_id=42135362)[2](https://pubmed.ncbi.nlm.nih.gov/42135362/#full-view-affiliation-2 "Department of Electronics and Communication Engineering, Kongu Engineering College (Autonomous), Perundurai, Erode, Tamil Nadu, India."),[Suresh Muthusamy](https://pubmed.ncbi.nlm.nih.gov/?term=Muthusamy+S&cauthor_id=42135362)[3](https://pubmed.ncbi.nlm.nih.gov/42135362/#full-view-affiliation-3 "Department of Electrical and Electronics Engineering, Kongu Engineering College (Autonomous), Perundurai, Erode, Tamil Nadu, India."),[Abhinandan Routray](https://pubmed.ncbi.nlm.nih.gov/?term=Routray+A&cauthor_id=42135362)[4](https://pubmed.ncbi.nlm.nih.gov/42135362/#full-view-affiliation-4 "Department of Electrical and Electronics, Manipal Institute of Technology, Manipal Academy of Higher Education, Manipal, Karnataka, India.")
+
+ Affiliations  Expand 
+
+### Affiliations
+
+*   1 Department of Electronics and Communication Engineering, Kongu Engineering College (Autonomous), Perundurai, Erode, Tamil Nadu, India. rpkarthikece@gmail.com.
+*   2 Department of Electronics and Communication Engineering, Kongu Engineering College (Autonomous), Perundurai, Erode, Tamil Nadu, India.
+*   3 Department of Electrical and Electronics Engineering, Kongu Engineering College (Autonomous), Perundurai, Erode, Tamil Nadu, India.
+*   4 Department of Electrical and Electronics, Manipal Institute of Technology, Manipal Academy of Higher Education, Manipal, Karnataka, India.
+
+*    PMID: **42135362**
+*    DOI: [10.1038/s41598-026-50025-z](https://doi.org/10.1038/s41598-026-50025-z)
+
+Free article
+
+ Item in Clipboard 
+
+# Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avocado foliar diseases in indian orchards
+
+R P Karthik et al. Sci Rep.2026.
+
+Free article
+
+Show details
+
+Display options
+
+ Display options 
+
+ Format 
+
+ Sci Rep 
+
+Actions
+
+*   [Search in PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=%22Sci+Rep%22%5Bjour%5D&sort=date&sort_order=desc)
+*   [Search in NLM Catalog](https://www.ncbi.nlm.nih.gov/nlmcatalog?term=%22Sci+Rep%22%5BTitle+Abbreviation%5D)
+*   [Add to Search](https://pubmed.ncbi.nlm.nih.gov/42135362/#)
+
+. 2026 May 14.
+
+ doi: 10.1038/s41598-026-50025-z.  Online ahead of print. 
+
+### Authors
+
+[R P Karthik](https://pubmed.ncbi.nlm.nih.gov/?term=Karthik+RP&cauthor_id=42135362)[1](https://pubmed.ncbi.nlm.nih.gov/42135362/#short-view-affiliation-1 "Department of Electronics and Communication Engineering, Kongu Engineering College (Autonomous), Perundurai, Erode, Tamil Nadu, India. rpkarthikece@gmail.com."),[Murugesan Govindasamy](https://pubmed.ncbi.nlm.nih.gov/?term=Govindasamy+M&cauthor_id=42135362)[2](https://pubmed.ncbi.nlm.nih.gov/42135362/#short-view-affiliation-2 "Department of Electronics and Communication Engineering, Kongu Engineering College (Autonomous), Perundurai, Erode, Tamil Nadu, India."),[Suresh Muthusamy](https://pubmed.ncbi.nlm.nih.gov/?term=Muthusamy+S&cauthor_id=42135362)[3](https://pubmed.ncbi.nlm.nih.gov/42135362/#short-view-affiliation-3 "Department of Electrical and Electronics Engineering, Kongu Engineering College (Autonomous), Perundurai, Erode, Tamil Nadu, India."),[Abhinandan Routray](https://pubmed.ncbi.nlm.nih.gov/?term=Routray+A&cauthor_id=42135362)[4](https://pubmed.ncbi.nlm.nih.gov/42135362/#short-view-affiliation-4 "Department of Electrical and Electronics, Manipal Institute of Technology, Manipal Academy of Higher Education, Manipal, Karnataka, India.")
+
+### Affiliations
+
+*   1 Department of Electronics and Communication Engineering, Kongu Engineering College (Autonomous), Perundurai, Erode, Tamil Nadu, India. rpkarthikece@gmail.com.
+*   2 Department of Electronics and Communication Engineering, Kongu Engineering College (Autonomous), Perundurai, Erode, Tamil Nadu, India.
+*   3 Department of Electrical and Electronics Engineering, Kongu Engineering College (Autonomous), Perundurai, Erode, Tamil Nadu, India.
+*   4 Department of Electrical and Electronics, Manipal Institute of Technology, Manipal Academy of Higher Education, Manipal, Karnataka, India.
+
+*    PMID: **42135362**
+*    DOI: [10.1038/s41598-026-50025-z](https://doi.org/10.1038/s41598-026-50025-z)
+
+ Item in Clipboard 
+
+ Full text links Cite
+
+Display options
+
+ Display options 
+
+ Format 
+
+## Abstract
+
+Avocado orchards in southern India experience annual yield losses of 20-40% due to foliar pathogens, including Anthracnose (Colletotrichum Gloeosporioides), Root Rot (Phytophthora Cinnamomi), Algal Leaf Spot (Cephaleuros Virescens) and Scab (Elsinoe Perseae). Conventional field scouting and RGB based imaging are unable to detect early-stage infections beneath dense canopy cover, delaying timely intervention and contributing to excessive fungicide use. To address these limitations, this study introduces a UAV based multispectral-RGB imaging pipeline paired with a deep learning detection framework built from the YOLO family of models (YOLOv5s-YOLOv10s) evaluated on a field-collected dataset of 5,953 annotated images comprising 35,422 bounding box instances across four foliar disease classes. A Sequential SGD-AdamW (SeqOpt) optimizer was designed to stabilize gradient dynamics multispectral noise by combining the global exploration capability of SGD in early training phases with the adaptive refinement precision of AdamW in later phases. As a result, SeqOpt achieved an 8% reduction in final loss and a 14% improvement in stability index compared to individual baseline optimisers, confirming superior convergence quality under spectrally heterogeneous training conditions. Systematic benchmarking across all six architectures demonstrated that YOLOv10s-SeqOpt delivered the highest detection performance, achieving 96.0% accuracy, F1-score = 0.911, and mAP@0.5 = 0.937 on multispectral validation set. YOLOv10s-SeqOpt consistently outperformed YOLOv5s-YOLOv9s across both RGB and multispectral datasets, with multispectral OCN input providing measurable detection advantages over RGB across five of six architectures evaluated The optimized model was quantized and deployed on two embedded AI platforms - NVIDIA Jetson Orin Nano, achieving real-time inference at 69.5ms per frame under PyTorch runtime, and the Raspberry Pi 5, supporting scheduled survey inference at 1.545s per frame via ONNX runtime - both without thermal throttling across extended evaluation sessions. The proposed framework demonstrates field-ready capability for large-scale orchard monitoring, bridging the gap between research-grade detection models and real-world precision agriculture deployment through a validated, scalable pipeline integrating multispectral imaging, deep learning and embedded edge computing for sustainable disease management in Indian horticulture.
+
+**Keywords:** Avocado leaf diseases; Edge AI deployment; Multispectral analysis; Precision agriculture; Real-time disease detection.; Sequential SGD-AdamW optimiser (SeqOpt); UAV imaging; YOLOv10.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Direct UAV-Based Detection of _Botrytis cinerea_ in Vineyards Using Chlorophyll-Absorption Indices and YOLO Deep Learning.](https://pubmed.ncbi.nlm.nih.gov/41600171/)Montalban-Faet G, Pérez-Mateo E, Fayos-Jordan R, Benlloch-Caballero P, Lada A, Segura-Garcia J, Garcia-Pineda M.Montalban-Faet G, et al.Sensors (Basel). 2026 Jan 6;26(2):374. doi: 10.3390/s26020374.Sensors (Basel). 2026.PMID: 41600171 Free PMC article.  
+*   [FEGW-YOLO: A Feature-Complexity-Guided Lightweight Framework for Real-Time Multi-Crop Detection with Advanced Sensing Integration on Edge Devices.](https://pubmed.ncbi.nlm.nih.gov/41755253/)Liu Y, Tian H, Yin Y, Zhou Y, Li W, Xiong Y, Wang Y, Nie Z, Yang Y, Xie D, Huang S.Liu Y, et al.Sensors (Basel). 2026 Feb 18;26(4):1313. doi: 10.3390/s26041313.Sensors (Basel). 2026.PMID: 41755253 Free PMC article.  
+*   [An Improved Crop Scouting Technique Incorporating Unmanned Aerial Vehicle-Assisted Multispectral Crop Imaging into Conventional Scouting Practice for Gummy Stem Blight in Watermelon.](https://pubmed.ncbi.nlm.nih.gov/31082305/)Kalischuk M, Paret ML, Freeman JH, Raj D, Da Silva S, Eubanks S, Wiggins DJ, Lollar M, Marois JJ, Mellinger HC, Das J.Kalischuk M, et al.Plant Dis. 2019 Jul;103(7):1642-1650. doi: 10.1094/PDIS-08-18-1373-RE. Epub 2019 May 13.Plant Dis. 2019.PMID: 31082305  
+*   [Analyzing the enhancement of CNN-YOLO and transformer based architectures for real-time animal detection in complex ecological environments.](https://pubmed.ncbi.nlm.nih.gov/41203810/)Raza A, Hanif F, Mohammed HA.Raza A, et al.Sci Rep. 2025 Nov 7;15(1):39142. doi: 10.1038/s41598-025-26645-2.Sci Rep. 2025.PMID: 41203810 Free PMC article.  
+*   [A dataset of aligned RGB and multispectral UAV imagery for semantic segmentation of weedy rice.](https://pubmed.ncbi.nlm.nih.gov/41342006/)Nguyen VH, Le CD, Truong MT, Bui MT, Le TP.Nguyen VH, et al.Data Brief. 2025 Nov 10;63:112237. doi: 10.1016/j.dib.2025.112237. eCollection 2025 Dec.Data Brief. 2025.PMID: 41342006 Free PMC article.Review.  
+
+[See all similar articles](https://pubmed.ncbi.nlm.nih.gov/?linkname=pubmed_pubmed&from_uid=42135362)
+
+## Related information
+
+*   [GEO Profiles](https://www.ncbi.nlm.nih.gov/geoprofiles?linkname=pubmed_geoprofiles&from_uid=42135362 "GEO records associated with pubmed record")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Nature Publishing Group](https://doi.org/10.1038/s41598-026-50025-z)
+
+*   ### Research Materials
+
+    *   [NCI CPTC Antibody Characterization Program](https://antibodies.cancer.gov/detail/CPTC-GSTP1-1)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-651)
+
+**Full text links**[x]
+
+[![Image 7: Nature Publishing Group full text link](https://cdn.ncbi.nlm.nih.gov/corehtml/query/egifs/https:--www.nature.com-static-images-logos-nature-portfolio-120.png) Nature Publishing Group](https://doi.org/10.1038/s41598-026-50025-z "See full text options at Nature Publishing Group")
+
+[x]
+
+Cite
+
+ Copy Download .nbib.nbib
+
+Format: 
+
+**Send To**
+*   [Clipboard](https://pubmed.ncbi.nlm.nih.gov/42135362/#)
+*   [Email](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42135362%2F%23open-email-panel)
+*   [Save](https://pubmed.ncbi.nlm.nih.gov/42135362/#)
+*   [My Bibliography](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42135362%2F%23open-bibliography-panel)
+*   [Collections](https://account.ncbi.nlm.nih.gov/?back_url=https%3A%2F%2Fpubmed.ncbi.nlm.nih.gov%2F42135362%2F%23open-collections-panel)
+*   [Citation Manager](https://pubmed.ncbi.nlm.nih.gov/42135362/#)
+
+[x]
+
+NCBI Literature Resources
+
+[MeSH](https://www.ncbi.nlm.nih.gov/mesh/)[PMC](https://www.ncbi.nlm.nih.gov/pmc/)[Bookshelf](https://www.ncbi.nlm.nih.gov/books)[Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+The PubMed wordmark and PubMed logo are registered trademarks of the U.S. Department of Health and Human Services (HHS). Unauthorized use of these marks is strictly prohibited.
+
+Follow NCBI
+
+[](https://twitter.com/ncbi)[](https://www.facebook.com/ncbi.nlm)[](https://www.linkedin.com/company/ncbinlm)[](https://github.com/ncbi)[](https://ncbiinsights.ncbi.nlm.nih.gov/)
+
+[Connect with NLM](https://www.nlm.nih.gov/socialmedia/index.html)
+
+*   [](https://twitter.com/NLM_NIH)
+*   [](https://www.facebook.com/nationallibraryofmedicine)
+*   [](https://www.youtube.com/user/NLMNIH)
+
+National Library of Medicine
+
+[8600 Rockville Pike Bethesda, MD 20894](https://www.google.com/maps/place/8600+Rockville+Pike,+Bethesda,+MD+20894/@38.9959508,-77.101021,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c95e25765ddb:0x19156f88b27635b8!8m2!3d38.9959508!4d-77.0988323)
+
+[Web Policies](https://www.nlm.nih.gov/web_policies.html)
+
+[FOIA](https://www.nih.gov/institutes-nih/nih-office-director/office-communications-public-liaison/freedom-information-act-office)
+
+[HHS Vulnerability Disclosure](https://www.hhs.gov/vulnerability-disclosure-policy/index.html)
+
+[Help](https://support.nlm.nih.gov/?pagename=pubmed%3Apubmed%3Aabstract%3ANONE)
+
+[Accessibility](https://www.nlm.nih.gov/accessibility.html)
+
+[Careers](https://www.nlm.nih.gov/careers/careers.html)
+
+*   [NLM](https://www.nlm.nih.gov/)
+*   [NIH](https://www.nih.gov/)
+*   [HHS](https://www.hhs.gov/)
+*   [USA.gov](https://www.usa.gov/)

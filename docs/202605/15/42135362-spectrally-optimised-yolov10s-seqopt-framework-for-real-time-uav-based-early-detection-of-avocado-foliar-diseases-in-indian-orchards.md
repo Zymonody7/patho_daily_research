@@ -1,0 +1,22 @@
+---
+title: Spectrally optimised YOLOv10s-SeqOpt framework for real-time UAV-based early detection of avocado foliar diseases in indian orchards.
+title_zh: 针对印度果园牛油果叶部病害实时无人机早期检测的光谱优化 YOLOv10s-SeqOpt 框架
+authors: "R P Karthik, Murugesan Govindasamy, Suresh Muthusamy, Abhinandan Routray"
+date: 2026-05-14
+pdf: "https://pubmed.ncbi.nlm.nih.gov/42135362/"
+tags: ["query:pathoai"]
+score: 8.0
+evidence: 用于叶片病原体早期检测的深度学习 YOLO 模型
+tldr: "针对印度牛油果园因叶部病害导致的高减产问题，本研究开发了基于无人机多光谱成像的 YOLOv10s-SeqOpt 检测框架。通过设计结合 SGD 全局探索与 AdamW 精准优化的分阶段优化器 SeqOpt，解决了多光谱噪声下的训练稳定性问题。实验表明该模型在多光谱数据集上达到 96% 的准确率，并成功部署于 Jetson Orin Nano 等嵌入式平台实现实时监测，为精准农业提供了可落地的早期病害预警方案。"
+selection_source: fresh_fetch
+motivation: 传统人工巡检和 RGB 成像难以穿透茂密树冠发现牛油果早期叶部病害，导致农药过度使用和严重的产量损失。
+method: 提出一种结合多光谱成像与 YOLOv10s 的检测框架，并设计了先使用 SGD 稳定梯度、后切换 AdamW 精细调优的 SeqOpt 序贯优化策略。
+result: "YOLOv10s-SeqOpt 在多光谱验证集上取得 0.937 的 mAP@0.5，且在 Jetson Orin Nano 边缘设备上实现了 69.5ms 的实时推理速度。"
+conclusion: 该研究证明了多光谱数据结合优化后的轻量化深度学习模型能有效提升果园病害监测精度，为大规模精准农业部署提供了技术支撑。
+---
+
+## 摘要
+印度南部牛油果果园因叶部病原体（包括炭疽病、根腐病、藻斑病和疮痂病）每年遭受 20-40% 的产量损失。传统的田间巡检和基于 RGB 的成像无法检测到茂密树冠下的早期感染，导致干预延迟并造成杀菌剂的过度使用。为解决这些局限性，本研究引入了一种基于无人机的多光谱-RGB 成像流水线，并结合了基于 YOLO 系列模型（YOLOv5s-YOLOv10s）构建的深度学习检测框架。该框架在包含 5,953 张标注图像（涵盖四类叶部病害的 35,422 个边界框实例）的田间采集数据集上进行了评估。设计了一种顺序 SGD-AdamW (SeqOpt) 优化器，通过结合训练早期阶段 SGD 的全局探索能力与后期阶段 AdamW 的自适应精细化精度，来稳定多光谱噪声下的梯度动态。结果表明，与单一基准优化器相比，SeqOpt 的最终损失降低了 8%，稳定性指标提高了 14%，证实了在光谱异质训练条件下具有更优的收敛质量。对所有六种架构的系统基准测试表明，YOLOv10s-SeqOpt 表现出最高的检测性能，在多光谱验证集上达到了 96.0% 的准确率、0.911 的 F1 分数和 0.937 的 mAP@0.5。YOLOv10s-SeqOpt 在 RGB 和多光谱数据集上均一致优于 YOLOv5s-YOLOv9s，在评估的六种架构中的五种里，多光谱 OCN 输入相比 RGB 提供了显著的检测优势。优化后的模型经过量化并部署在两个嵌入式 AI 平台上：NVIDIA Jetson Orin Nano 在 PyTorch 运行时下实现了每帧 69.5 毫秒的实时推理；树莓派 5 (Raspberry Pi 5) 通过 ONNX 运行时支持每帧 1.545 秒的定时巡检推理。在长时间评估过程中，两者均未出现热节流现象。所提出的框架展示了大规模果园监测的实地应用能力，通过集成多光谱成像、深度学习和嵌入式边缘计算的经过验证且可扩展的流水线，弥合了研究级检测模型与现实世界精准农业部署之间的差距，助力印度园艺的可持续病害管理。
+
+## Abstract
+Avocado orchards in southern India experience annual yield losses of 20-40% due to foliar pathogens, including Anthracnose (Colletotrichum Gloeosporioides), Root Rot (Phytophthora Cinnamomi), Algal Leaf Spot (Cephaleuros Virescens) and Scab (Elsinoe Perseae). Conventional field scouting and RGB based imaging are unable to detect early-stage infections beneath dense canopy cover, delaying timely intervention and contributing to excessive fungicide use. To address these limitations, this study introduces a UAV based multispectral-RGB imaging pipeline paired with a deep learning detection framework built from the YOLO family of models (YOLOv5s-YOLOv10s) evaluated on a field-collected dataset of 5,953 annotated images comprising 35,422 bounding box instances across four foliar disease classes. A Sequential SGD-AdamW (SeqOpt) optimizer was designed to stabilize gradient dynamics multispectral noise by combining the global exploration capability of SGD in early training phases with the adaptive refinement precision of AdamW in later phases. As a result, SeqOpt achieved an 8% reduction in final loss and a 14% improvement in stability index compared to individual baseline optimisers, confirming superior convergence quality under spectrally heterogeneous training conditions. Systematic benchmarking across all six architectures demonstrated that YOLOv10s-SeqOpt delivered the highest detection performance, achieving 96.0% accuracy, F1-score = 0.911, and mAP@0.5 = 0.937 on multispectral validation set. YOLOv10s-SeqOpt consistently outperformed YOLOv5s-YOLOv9s across both RGB and multispectral datasets, with multispectral OCN input providing measurable detection advantages over RGB across five of six architectures evaluated The optimized model was quantized and deployed on two embedded AI platforms - NVIDIA Jetson Orin Nano, achieving real-time inference at 69.5ms per frame under PyTorch runtime, and the Raspberry Pi 5, supporting scheduled survey inference at 1.545s per frame via ONNX runtime - both without thermal throttling across extended evaluation sessions. The proposed framework demonstrates field-ready capability for large-scale orchard monitoring, bridging the gap between research-grade detection models and real-world precision agriculture deployment through a validated, scalable pipeline integrating multispectral imaging, deep learning and embedded edge computing for sustainable disease management in Indian horticulture.
