@@ -1,0 +1,72 @@
+Title: From Label-Free Multiphoton Imaging to Pathological Reports: A Vision-Language Breast Cancer Margin Pathological Diagnosis System - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42136540/
+
+Markdown Content:
+Actions
+
+. 2026 May 15:e75709.
+
+doi: 10.1002/advs.75709.  Online ahead of print.
+
+[Shu Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+S&cauthor_id=42136540)[1](https://pubmed.ncbi.nlm.nih.gov/42136540/#full-view-affiliation-1 "School of Mechanical Engineering and Automation, Fuzhou University, Fuzhou, China.")[2](https://pubmed.ncbi.nlm.nih.gov/42136540/#full-view-affiliation-2 "National Biomedical Imaging Center, State Key Laboratory of Membrane Biology, Institute of Molecular Medicine, Peking-Tsinghua Center for Life Sciences, College of Future Technology, Peking University, Beijing, China.")[3](https://pubmed.ncbi.nlm.nih.gov/42136540/#full-view-affiliation-3 "Fujian Provincial Key Laboratory of Photonics Technology, Key Laboratory of OptoElectronic Science and Technology for Medicine of Ministry of Education, Fujian Normal University, Fuzhou, China."),[Xiahui Han](https://pubmed.ncbi.nlm.nih.gov/?term=Han+X&cauthor_id=42136540)[3](https://pubmed.ncbi.nlm.nih.gov/42136540/#full-view-affiliation-3 "Fujian Provincial Key Laboratory of Photonics Technology, Key Laboratory of OptoElectronic Science and Technology for Medicine of Ministry of Education, Fujian Normal University, Fuzhou, China."),[Deyong Kang](https://pubmed.ncbi.nlm.nih.gov/?term=Kang+D&cauthor_id=42136540)[5](https://pubmed.ncbi.nlm.nih.gov/42136540/#full-view-affiliation-5 "Department of Pathology, Fujian Medical University Union Hospital, Fuzhou, China."),[Xiao Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+X&cauthor_id=42136540)[4](https://pubmed.ncbi.nlm.nih.gov/42136540/#full-view-affiliation-4 "College of Computer and Data Science, Fuzhou University, Fuzhou, China."),[Fei Xu](https://pubmed.ncbi.nlm.nih.gov/?term=Xu+F&cauthor_id=42136540)[1](https://pubmed.ncbi.nlm.nih.gov/42136540/#full-view-affiliation-1 "School of Mechanical Engineering and Automation, Fuzhou University, Fuzhou, China."),[Changzu Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+C&cauthor_id=42136540)[1](https://pubmed.ncbi.nlm.nih.gov/42136540/#full-view-affiliation-1 "School of Mechanical Engineering and Automation, Fuzhou University, Fuzhou, China."),[Junlin Pan](https://pubmed.ncbi.nlm.nih.gov/?term=Pan+J&cauthor_id=42136540)[1](https://pubmed.ncbi.nlm.nih.gov/42136540/#full-view-affiliation-1 "School of Mechanical Engineering and Automation, Fuzhou University, Fuzhou, China."),[Xingfu Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+X&cauthor_id=42136540)[6](https://pubmed.ncbi.nlm.nih.gov/42136540/#full-view-affiliation-6 "Department of Pathology, The First Affiliated Hospital of Fujian Medical University, Fuzhou, China."),[Qiaohui Zhan](https://pubmed.ncbi.nlm.nih.gov/?term=Zhan+Q&cauthor_id=42136540)[7](https://pubmed.ncbi.nlm.nih.gov/42136540/#full-view-affiliation-7 "Department of Breast Surgery, The Second Affiliated Hospital of Xiamen Medical College, Xiamen, China."),[Aimin Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+A&cauthor_id=42136540)[8](https://pubmed.ncbi.nlm.nih.gov/42136540/#full-view-affiliation-8 "State Key Laboratory of Photonics and Communications, School of Electronics, Peking University, Beijing, China."),[Feng Huang](https://pubmed.ncbi.nlm.nih.gov/?term=Huang+F&cauthor_id=42136540)[1](https://pubmed.ncbi.nlm.nih.gov/42136540/#full-view-affiliation-1 "School of Mechanical Engineering and Automation, Fuzhou University, Fuzhou, China."),[Heping Cheng](https://pubmed.ncbi.nlm.nih.gov/?term=Cheng+H&cauthor_id=42136540)[2](https://pubmed.ncbi.nlm.nih.gov/42136540/#full-view-affiliation-2 "National Biomedical Imaging Center, State Key Laboratory of Membrane Biology, Institute of Molecular Medicine, Peking-Tsinghua Center for Life Sciences, College of Future Technology, Peking University, Beijing, China."),[Wenxi Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+W&cauthor_id=42136540)[4](https://pubmed.ncbi.nlm.nih.gov/42136540/#full-view-affiliation-4 "College of Computer and Data Science, Fuzhou University, Fuzhou, China."),[Ruolan Lin](https://pubmed.ncbi.nlm.nih.gov/?term=Lin+R&cauthor_id=42136540)[9](https://pubmed.ncbi.nlm.nih.gov/42136540/#full-view-affiliation-9 "Department of Radiology, Fujian Medical University Union Hospital, Fuzhou, China."),[Jianxin Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+J&cauthor_id=42136540)[3](https://pubmed.ncbi.nlm.nih.gov/42136540/#full-view-affiliation-3 "Fujian Provincial Key Laboratory of Photonics Technology, Key Laboratory of OptoElectronic Science and Technology for Medicine of Ministry of Education, Fujian Normal University, Fuzhou, China.")
+
+Affiliations
+
+*    PMID: **42136540**
+*    DOI: [10.1002/advs.75709](https://doi.org/10.1002/advs.75709)
+
+## From Label-Free Multiphoton Imaging to Pathological Reports: A Vision-Language Breast Cancer Margin Pathological Diagnosis System
+
+Shu Wang et al. Adv Sci (Weinh).2026.
+
+## Abstract
+
+Margin pathological assessment provides critical feedback for breast-conserving surgery, whereas H&E-stained histopathology focuses on residual tumor and may cause unnecessary resections. Label-free multiphoton microscopy (MPM) reveals tumor-associated collagen signatures (TACS) at the margin, offering a prognostically relevant diagnostic information. However, limited familiarity of novel MPM images by pathologists has prevented its integration into diagnostic workflows. Here, we introduce MarginPath, a Margin Pathological diagnosis system built on an MPM-language model that requires only a single label-free section. By integrating MPM-derived TACS with virtual H&E diagnostic information, MarginPath provides a multimodal diagnostic report, including: (i) a MPM image and corresponding virtual H&E image, (ii) a TACS-based pixel-level margin-status heatmap, and (iii) detailed natural-language diagnostic descriptions of tumor margin microenvironment. Validated on 158 invasive breast cancer specimens, MarginPath outperforms existing pathology vision-language models in margin diagnosis and can be extended into a question-answering system, enhancing both clinical decision-support and patient communication.
+
+**Keywords:** breast cancer; multiphoton microscopy; surgical margin; tumor microenvironment; tumor‐associated collagen signatures; virtual staining; vision‐language model.
+
+© 2026 The Author(s). Advanced Science published by Wiley‐VCH GmbH.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Towards next-generation diagnostic pathology: AI-empowered label-free multiphoton microscopy.](https://pubmed.ncbi.nlm.nih.gov/39277586/)
+
+Wang S, Pan J, Zhang X, Li Y, Liu W, Lin R, Wang X, Kang D, Li Z, Huang F, Chen L, Chen J.Wang S, et al.Light Sci Appl. 2024 Sep 14;13(1):254. doi: 10.1038/s41377-024-01597-w.Light Sci Appl. 2024.PMID: 39277586 Free PMC article.Review. 
+*   [Margin diagnosis for endoscopic submucosal dissection of early gastric cancer using multiphoton microscopy.](https://pubmed.ncbi.nlm.nih.gov/30972623/)
+
+Zheng X, Zuo N, Lin H, Zheng L, Ni M, Wu G, Chen J, Zhuo S.Zheng X, et al.Surg Endosc. 2020 Jan;34(1):408-416. doi: 10.1007/s00464-019-06783-1. Epub 2019 Apr 10.Surg Endosc. 2020.PMID: 30972623 Clinical Trial. 
+*   [Label-free imaging of human brain tissue at subcellular resolution for potential rapid intra-operative assessment of glioma surgery.](https://pubmed.ncbi.nlm.nih.gov/34158846/)
+
+Chen D, Nauen DW, Park HC, Li D, Yuan W, Li A, Guan H, Kut C, Chaichana KL, Bettegowda C, Quiñones-Hinojosa A, Li X.Chen D, et al.Theranostics. 2021 May 24;11(15):7222-7234. doi: 10.7150/thno.59244. eCollection 2021.Theranostics. 2021.PMID: 34158846 Free PMC article. 
+*   [Real-time optical diagnosis for surgical margin in low rectal cancer using multiphoton microscopy.](https://pubmed.ncbi.nlm.nih.gov/24002915/)
+
+Yan J, Zhuo S, Chen G, Milsom JW, Zhang H, Lu J, Zhu W, Xie S, Chen J, Ying M.Yan J, et al.Surg Endosc. 2014 Jan;28(1):36-41. doi: 10.1007/s00464-013-3153-7. Epub 2013 Sep 4.Surg Endosc. 2014.PMID: 24002915 
+*   [Frontiers in Intravital Multiphoton Microscopy of Cancer.](https://pubmed.ncbi.nlm.nih.gov/32368722/)
+
+Perrin L, Bayarmagnai B, Gligorijevic B.Perrin L, et al.Cancer Rep (Hoboken). 2020 Feb;3(1):e1192. doi: 10.1002/cnr2.1192. Epub 2019 Jun 20.Cancer Rep (Hoboken). 2020.PMID: 32368722 Free PMC article.Review. 
+
+## References
+
+1.       1.    N. Harbeck and M. Gnant, “Breast Cancer,” The Lancet 389 (2017): 1134–1150, [https://doi.org/10.1016/S0140‐6736(16)31891‐8](https://doi.org/10.1016/S0140%E2%80%906736(16)31891%E2%80%908). 
+
+2.       1.    H. Sung, J. Ferlay, R. L. Siegel, et al., “Global Cancer Statistics 2020: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries,” CA: a Cancer Journal for Clinicians 71 (2021): 209–249. 
+
+3.       1.    N. Johns and J. M. Dixon, “Should Patients With Early Breast Cancer Still be Offered the Choice of Breast Conserving Surgery or Mastectomy?,” European Journal of Surgical Oncology (EJSO) 42 (2016): 1636–1641, [https://doi.org/10.1016/j.ejso.2016.08.016](https://doi.org/10.1016/j.ejso.2016.08.016). 
+
+4.       1.    A. R. Pradipta, T. Tanei, K. Morimoto, K. Shimazu, S. Noguchi, and K. Tanaka, “Emerging Technologies for Real‐Time Intraoperative Margin Assessment in Future Breast‐Conserving Surgery,” Advanced Science 7 (2020): 1901519, [https://doi.org/10.1002/advs.201901519](https://doi.org/10.1002/advs.201901519). 
+
+5.       1.    J. R. Bundred, S. Michael, B. Stuart, et al., “Margin Status and Survival Outcomes after Breast Cancer Conservation Surgery: Prospectively Registered Systematic Review and Meta‐Analysis,” Bmj 378 (2022): 070346, [https://doi.org/10.1136/bmj‐2022‐070346](https://doi.org/10.1136/bmj%E2%80%902022%E2%80%90070346). 
+
+## Grants and funding
+
+*   [62575072/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=62575072%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 62575072/National Natural Science Foundation of China")
+*   [82572282/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82572282%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82572282/National Natural Science Foundation of China")
+*   [2024J02013/Natural Science Foundation of Fujian Province](https://pubmed.ncbi.nlm.nih.gov/?term=2024J02013%2FNatural+Science+Foundation+of+Fujian+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2024J02013/Natural Science Foundation of Fujian Province")
+*   [2024J01062/Natural Science Foundation of Fujian Province](https://pubmed.ncbi.nlm.nih.gov/?term=2024J01062%2FNatural+Science+Foundation+of+Fujian+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2024J01062/Natural Science Foundation of Fujian Province")
+*   [2024J01624/Natural Science Foundation of Fujian Province](https://pubmed.ncbi.nlm.nih.gov/?term=2024J01624%2FNatural+Science+Foundation+of+Fujian+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2024J01624/Natural Science Foundation of Fujian Province")
+
+*   [2024J01630/Natural Science Foundation of Fujian Province](https://pubmed.ncbi.nlm.nih.gov/?term=2024J01630%2FNatural+Science+Foundation+of+Fujian+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2024J01630/Natural Science Foundation of Fujian Province")
+*   [2025CXA011/Fujian Provincial Health Technology Project](https://pubmed.ncbi.nlm.nih.gov/?term=2025CXA011%2FFujian+Provincial+Health+Technology+Project%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2025CXA011/Fujian Provincial Health Technology Project")

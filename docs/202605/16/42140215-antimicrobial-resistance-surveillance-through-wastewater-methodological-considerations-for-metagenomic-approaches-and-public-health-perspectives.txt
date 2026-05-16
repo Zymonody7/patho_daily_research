@@ -1,0 +1,57 @@
+Title: Antimicrobial resistance surveillance through wastewater: methodological considerations for metagenomic approaches and public health perspectives - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42140215/
+
+Markdown Content:
+Review
+
+Actions
+
+. 2026 May 15:101400.
+
+doi: 10.1016/j.lanmic.2026.101400.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42140215**
+*    DOI: [10.1016/j.lanmic.2026.101400](https://doi.org/10.1016/j.lanmic.2026.101400)
+
+Review
+
+## Antimicrobial resistance surveillance through wastewater: methodological considerations for metagenomic approaches and public health perspectives
+
+Naomi Hughes et al. Lancet Microbe.2026.
+
+## Abstract
+
+Antimicrobial resistance (AMR) is a recognised global threat with substantial predicted impact on lives, agriculture, and the economy. Metagenomic sequencing is being increasingly used for AMR surveillance and detection, given its capacity for community-level AMR profiling with high-level resolution. This technology has seen an explosion of surveillance efforts and data generation; however, the variation between workflows has direct implications on the sequencing results and their interpretation. In this Personal View, we summarise aspects of the sequencing workflow that need to be considered during metagenomic study design, for meaningful and reliable population-based surveillance. We reflect on the vital role of standardisation for capturing the ground truth of AMR and data comparability and reproducibility, and in addition, review the limitations of the various phenotypic and genotypic methods of AMR detection. We further highlight complex mechanisms of resistance to antimicrobials that could hinder our ability to confidently assess the true AMR burden in the environment and those that are often overlooked during surveillance.
+
+Crown Copyright © 2026. Published by Elsevier Ltd. All rights reserved.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations of interests NH declares funding for PhD studentship, including an allowance for a 3-month professional placement provided by the Southwest Biosciences Doctoral Training Partnership (funded by Biotechnology and Biological Sciences Research Council). NH, SS, and CS declare that the Knowledge Asset Grant Fund was secured for the employment of a scientist for the development of this manuscript. The Medicines and Healthcare product Regulatory Agency laboratories at South Mimms are a part of an Arm’s Length Body of the UK Government. The laboratories prepare, curate, and distribute globally reference materials including WHO International Standards. The distribution of reference materials is undertaken on a cost-recovery basis. Further information is available at the National Institute for Biological Standards and Control. The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+
+## Similar articles
+
+*   [Integrating whole-genome sequencing into antimicrobial resistance surveillance: methodologies, challenges, and perspectives.](https://pubmed.ncbi.nlm.nih.gov/40910632/)
+
+Matsumura Y, Yamamoto M, Gomi R, Tsuchido Y, Shinohara K, Noguchi T, Nagao M.Matsumura Y, et al.Clin Microbiol Rev. 2025 Dec 11;38(4):e0014022. doi: 10.1128/cmr.00140-22. Epub 2025 Dec 11.Clin Microbiol Rev. 2025.PMID: 40910632 Review. 
+*   [Enable, empower, succeed: a bioinformatics workshop Harnessing open web-based tools for surveillance of bacterial antimicrobial resistance.](https://pubmed.ncbi.nlm.nih.gov/40102762/)
+
+Founou LL, Lawal OU, Djiyou A, Odih EE, Amoako DG, Fadanka S, Aworh MK, Lukhele S, Nikolic D, Matimba A, Founou RC.Founou LL, et al.BMC Microbiol. 2025 Mar 19;25(1):156. doi: 10.1186/s12866-025-03865-0.BMC Microbiol. 2025.PMID: 40102762 Free PMC article. 
+*   [Metagenomic analysis after selective culture enrichment of hospital and community wastewater enhances antimicrobial resistance gene detection.](https://pubmed.ncbi.nlm.nih.gov/40741762/)
+
+Acosta N, Lee J, Bautista MA, Bhatnagar S, Li C, Waddell BJ, Au E, Pradhan P, Clark RG, Meddings J, Achari G, Pitout JD, Conly J, Frankowski K, Hubert CRJ, Parkins MD.Acosta N, et al.mBio. 2025 Sep 10;16(9):e0167225. doi: 10.1128/mbio.01672-25. Epub 2025 Jul 31.mBio. 2025.PMID: 40741762 Free PMC article. 
+*   [Simultaneous detection of pathogens and antimicrobial resistance genes with the open source, cloud-based, CZ ID platform.](https://pubmed.ncbi.nlm.nih.gov/40329334/)
+
+Lu D, Kalantar KL, Glascock AL, Chu VT, Guerrero ES, Bernick N, Butcher X, Ewing K, Fahsbender E, Holmes O, Hoops E, Jones AE, Lim R, McCanny S, Reynoso L, Rosario K, Tang J, Valenzuela O, Mourani PM, Pickering AJ, Raphenya AR, Alcock BP, McArthur AG, Langelier CR.Lu D, et al.Genome Med. 2025 May 6;17(1):46. doi: 10.1186/s13073-025-01480-2.Genome Med. 2025.PMID: 40329334 Free PMC article. 
+*   [Artificial intelligence in microbiology: implications for metagenomics, diagnostics, and AMR surveillance.](https://pubmed.ncbi.nlm.nih.gov/41965741/)
+
+Khangarot R, Kumari V, Mishra R, Singh A.Khangarot R, et al.Biomed Eng Online. 2026 Apr 11. doi: 10.1186/s12938-026-01568-9. Online ahead of print.Biomed Eng Online. 2026.PMID: 41965741 Review. 
+
+## Publication types
+
+*   Actions

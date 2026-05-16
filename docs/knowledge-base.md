@@ -5,6 +5,63 @@
 
 ## 最近论文
 
+- [Machine learning-based modeling for monitoring and predicting the detection rate and severity of pathogenic microorganisms in seafood.](#/202605/16/202605/16/41844064-machine-learning-based-modeling-for-monitoring-and-predicting-the-detection-rate-and-severity-of-pathogenic-microorganisms-in-seafood)
+  - TLDR：针对海产品致病微生物监测中传统方法灵敏度不足的问题，本研究利用烟台市十年间的监测数据，构建了集成时空特征与动态阈值优化的机器学习框架。通过对比LightGBM和XGBoost等多种算法，实现了对病原体检出率和危害程度的高精度预测。该框架在外部验证中表现稳健，为沿海海产品供应链的风险预警和资源分配提供了数据驱动的决策支持。
+  - Tags：`query:pathoai`
+- [Integrated microneedle patch and machine learning in time-resolved fluorescent immunochromatography test strip for accurate and rapid detection of Staphylococcus aureus enterotoxin B in salmon.](#/202605/16/202605/16/41806717-integrated-microneedle-patch-and-machine-learning-in-time-resolved-fluorescent-immunochromatography-test-strip-for-accurate-and-rapid-detection-of-staphylococcus-aureus-enterotoxin-b-in-salmon)
+  - TLDR：针对三文鱼中金黄色葡萄球菌肠毒素B（SEB）检测效率低的问题，该研究集成水凝胶微针贴片（HMNP）、时间分辨荧光免疫层析（TRFITS）与机器学习算法。通过微针快速提取样本液，结合TRFITS显色，并利用YOLOv11模型进行浓度预测。该方案在32分钟内实现了高精度定量检测，检出限降至2 ng/mL，为食品安全现场快速检测提供了新思路。
+  - Tags：`query:pathoai`
+- [Discovery of Small-Molecule Inhibitors of the Pycsar Antiphage Defense.](#/202605/16/202605/16/42024004-discovery-of-small-molecule-inhibitors-of-the-pycsar-antiphage-defense)
+  - TLDR：针对多重耐药菌治疗中噬菌体疗法受限于细菌免疫系统（如Pycsar）的问题，本研究发现了首类能抑制Pycsar防御系统的有机小分子。通过筛选，研究者确定了能阻断cCMP激活的跨膜效应蛋白毒性的分子，成功使噬菌体Bas34在原本具有抗性的大肠杆菌中恢复感染能力，为增强噬菌体疗法提供了新的化学调控策略。
+  - Tags：`query:pathoai`
+- [Antimicrobial resistance surveillance through wastewater: methodological considerations for metagenomic approaches and public health perspectives.](#/202605/16/202605/16/42140215-antimicrobial-resistance-surveillance-through-wastewater-methodological-considerations-for-metagenomic-approaches-and-public-health-perspectives)
+  - TLDR：抗生素耐药性（AMR）威胁全球，宏基因组测序虽能实现高分辨率废水监测，但工作流差异影响结果可靠性。本文系统梳理了测序流程中的关键环节，探讨了标准化对数据可比性的重要性，并分析了现有检测方法的局限与复杂耐药机制，为构建科学的公共卫生监测体系提供方法论支撑。
+  - Tags：`query:pathoai`
+- [Bridging sequence-structure motifs and genetic variants for genome-wide dynamic RNA-protein interaction profiling.](#/202605/16/202605/16/42140941-bridging-sequence-structure-motifs-and-genetic-variants-for-genome-wide-dynamic-rna-protein-interaction-profiling)
+  - TLDR：针对RNA结合蛋白（RBP）识别受二级结构影响且在不同细胞系间具有动态性的挑战，本研究开发了BRIDGE模型。该模型通过整合RNA序列与结构特征，实现了跨细胞系的动态RBP结合预测，其性能优于现有SOTA方法且具备零样本迁移能力。BRIDGE不仅识别出数千个调控基序，还揭示了非编码遗传变异如何通过破坏RBP结合导致致病效应，为基因组功能分析提供了有力工具。
+  - Tags：`query:bioinfo`
+- [Dissecting epigenetic heterogeneity in single-cell DNA methylomes with a unified framework.](#/202605/16/202605/16/42140984-dissecting-epigenetic-heterogeneity-in-single-cell-dna-methylomes-with-a-unified-framework)
+  - TLDR：针对单细胞DNA甲基化数据存在的大量缺失值和分布特殊性，现有分析工具适配性不足。本研究开发了scMethCraft框架，通过混合神经网络融合基因组序列与位置特征，并迭代优化细胞关联建模。该工具不仅提升了细胞分群和信号增强的准确性，还成功识别出新型细胞特异性基因，为探索表观遗传异质性提供了系统性的技术支撑。
+  - Tags：`query:seqai`
+- [Restoration of Mucosa-Associated Invariant T-Cell Function in Healthcare-Associated Bacterial Infections Supports Recovery of Carbapenem Efficacy Against Resistant Bacteria Ex Vivo.](#/202605/16/202605/16/41925560-restoration-of-mucosa-associated-invariant-t-cell-function-in-healthcare-associated-bacterial-infections-supports-recovery-of-carbapenem-efficacy-against-resistant-bacteria-ex-vivo)
+  - TLDR：针对医疗相关感染中耐药菌导致的治疗难题，以及患者黏膜相关恒定T（MAIT）细胞功能受损的现状，本研究通过特定抗原联合细胞因子（如IL-2和IL-7）刺激，成功恢复了MAIT细胞的免疫杀伤力。实验证明，激活后的MAIT细胞分泌物能显著增强碳青霉烯类抗生素对多种产酶耐药大肠杆菌的杀菌效果，为开发针对耐药菌感染的宿主导向辅助疗法提供了重要依据。
+  - Tags：`query:pathoai`
+- [Disruption in Quorum-Sensing Circuits and Biofilm Matrix in Pseudomonas aeruginosa by Super-Critical CO](#/202605/16/202605/16/42095471-disruption-in-quorum-sensing-circuits-and-biofilm-matrix-in-pseudomonas-aeruginosa-by-super-critical-co)
+  - TLDR：针对耐药性铜绿假单胞菌引发的感染难题，本研究利用超临界二氧化碳萃取技术从蛇根木种子中提取油树脂（RsSO）。通过GC-MS/MS鉴定出其中的长链脂肪酸成分，并在秀丽隐杆线虫感染模型中证实RsSO能显著降低病原菌毒力、抑制群体感应相关基因表达并提升宿主存活率，为开发新型非杀菌性抗生素替代品提供了生物资源利用新路径。
+  - Tags：`query:pathoai`
+- [Machine learning in diagnostic stewardship: A technical approach in improving diagnostic accuracy, optimizing antibiotic use in false positive CSF cultures.](#/202605/16/202605/16/42114566-machine-learning-in-diagnostic-stewardship-a-technical-approach-in-improving-diagnostic-accuracy-optimizing-antibiotic-use-in-false-positive-csf-cultures)
+  - TLDR：针对脑脊液（CSF）培养中因样本污染导致的假阳性及抗生素滥用问题，本研究利用机器学习模型对生化指标进行多变量分析。通过ROC分析和主成分分析（PCA），模型在区分真实病原体、无生长样本和污染样本方面均表现出极高的准确性（AUC均超过0.95），为临床诊断管理提供了精准的决策支持，有助于减少不必要的广谱抗生素使用。
+  - Tags：`query:pathoai`
+- [Root exudate-associated microbiome assembly contributes to viral disease resistance in wheat.](#/202605/16/202605/16/42136370-root-exudate-associated-microbiome-assembly-contributes-to-viral-disease-resistance-in-wheat)
+  - TLDR：针对小麦黄花叶病毒这一重大土传病害，研究通过田间试验与多组学分析，揭示了抗病品种如何通过根系分泌物调控根际微生物组。研究发现，抗病小麦在苗期能特异性富集芽孢杆菌和假单胞菌等益生菌，并分泌甘油醛等代谢物来招募这些微生物，从而降低传毒介质丰度并激活植物防御系统。这一发现为通过微生物组工程提升作物抗病性提供了理论依据。
+  - Tags：`query:pathoai`
+- [Human Colitis-on-Chip Model Reveals Dual Roles of Butyrate in Epithelial and Macrophage Defense Against Candida albicans Tissue Invasion.](#/202605/16/202605/16/42138066-human-colitis-on-chip-model-reveals-dual-roles-of-butyrate-in-epithelial-and-macrophage-defense-against-candida-albicans-tissue-invasion)
+  - TLDR：针对炎症性肠病（IBD）中丁酸盐水平下降导致白色念珠菌入侵的问题，研究者开发了集成免疫细胞的肠炎芯片模型。通过模拟DSS诱导的损伤与真菌感染，发现丁酸盐具有双重保护作用：一方面通过稳定上皮连接和促进再生来强化物理屏障，另一方面通过抑制HDAC和NLRP3炎症小体来增强巨噬细胞的抗真菌能力并减轻炎症。该研究揭示了丁酸盐在恢复肠道黏膜韧性中的关键机制，为IBD治疗提供了新思路。
+  - Tags：`query:pathoai`
+- [Wyeomyia confusa Lispivirus (WcLispV-SP): a novel neotropical mosquito virus in the Lispiviridae family.](#/202605/16/202605/16/42138754-wyeomyia-confusa-lispivirus-wclispv-sp-a-novel-neotropical-mosquito-virus-in-the-lispiviridae-family)
+  - TLDR：为了探索新热带界森林蚊媒病毒的多样性，研究人员对巴西大西洋沿岸森林的 Wyeomyia confusa 蚊子进行了宏转录组测序。研究发现并鉴定了一种新型负链单股 RNA 病毒 WcLispV-SP，属于 Lispiviridae 家族。通过基因组组装、系统发育分析和蛋白质结构预测，证实了其作为 Canmovirus 属新物种的地位，为理解蚊媒病毒的演化和生态分布提供了重要数据。
+  - Tags：`query:seqai`
+- [Anthracnose drives assembly of phyllosphere epiphytic bacterial communities to increase disease resistance.](#/202605/16/202605/16/42140946-anthracnose-drives-assembly-of-phyllosphere-epiphytic-bacterial-communities-to-increase-disease-resistance)
+  - TLDR：针对植物叶片受炭疽病菌侵害时是否存在“呼救”机制这一问题，研究了箭筈豌豆叶面及叶内微生物组的响应。发现炭疽病诱导了叶表附生细菌群落的定向演替，增强了其网络复杂性及抗真菌功能（如铁竞争和细胞壁降解）。通过构建合成菌群（SynComs）验证了这些附生细菌能通过调节菌群互作和诱导宿主免疫来提升抗病性，为利用叶际微生物防治植物病害提供了新思路。
+  - Tags：`query:pathoai`
+- [Noninvasive early detection and grading of pneumoconiosis via plasma proteomics and machine learning: PRSS3 as a potential biomarker.](#/202605/16/202605/16/42141418-noninvasive-early-detection-and-grading-of-pneumoconiosis-via-plasma-proteomics-and-machine-learning-prss3-as-a-potential-biomarker)
+  - TLDR：针对煤工尘肺病（CWP）早期诊断缺乏有效血浆生物标志物的难题，本研究通过对158名受试者的血浆进行DIA质谱蛋白质组学分析，结合多种机器学习算法构建了疾病分级与早期筛查模型。研究发现PRSS3蛋白在区分粉尘暴露者与早期患者中表现卓越，AUC和准确率均达到1.00，为职业性肺病的无创早期诊断提供了高精度的分子依据和临床转化基础。
+  - Tags：`query:seqai`
+- [Harnessing the gut-heart axis for cardiovascular drug innovation: microbiome, metabolites, and personalized treatment strategies.](#/202605/16/202605/16/41791695-harnessing-the-gut-heart-axis-for-cardiovascular-drug-innovation-microbiome-metabolites-and-personalized-treatment-strategies)
+  - TLDR：心血管疾病（CVD）仍是全球首要死因，传统疗法面临瓶颈。本文综述了“肠-心轴”在CVD病理及药物响应中的关键作用，探讨了肠道菌群及其代谢产物（如TMAO、短链脂肪酸）如何调节炎症与心肌重构。通过分析菌群与心血管药物的相互作用，提出了益生菌、粪菌移植及小分子抑制剂等创新疗法，旨在利用多组学和AI实现精准医疗，为心血管药物研发提供新方向。
+  - Tags：`query:pathoai`
+- [Impacts of inhaled exposures on the upper respiratory tract microbiome: a systematic review.](#/202605/16/202605/16/41955934-impacts-of-inhaled-exposures-on-the-upper-respiratory-tract-microbiome-a-systematic-review)
+  - TLDR：吸入性暴露对人体健康影响巨大，而上呼吸道（URT）微生物群是首要交互点。本研究系统综述了2005-2024年间66项相关研究，分析了城市、农村、室内及职业环境暴露对URT微生物的影响。结果显示，城市污染会降低微生物多样性，而绿地和农业暴露则能增加多样性并引入有益菌。该综述揭示了环境暴露如何重塑呼吸道微生态，为未来通过微生物组干预呼吸系统疾病提供了理论依据。
+  - Tags：`query:pathoai`
+- [Molecular Dialogues in the Mitochondria-Microbiome Crosstalk: Metabolites, Signaling, and Immunity.](#/202605/16/202605/16/42124488-molecular-dialogues-in-the-mitochondria-microbiome-crosstalk-metabolites-signaling-and-immunity)
+  - TLDR：线粒体与肠道微生物群之间的双向通讯（线粒体-微生物轴）对维持人体代谢和免疫平衡至关重要。本文综述了微生物代谢产物（如短链脂肪酸）如何调节线粒体能量代谢，以及线粒体如何通过控制氧浓度等方式反向塑造菌群。研究指出该轴线的失调是肥胖、帕金森病及炎症性肠病等多种疾病的核心机制，为开发针对性的益生菌和饮食干预疗法提供了理论依据。
+  - Tags：`query:pathoai`
+- [From Label-Free Multiphoton Imaging to Pathological Reports: A Vision-Language Breast Cancer Margin Pathological Diagnosis System.](#/202605/16/202605/16/42136540-from-label-free-multiphoton-imaging-to-pathological-reports-a-vision-language-breast-cancer-margin-pathological-diagnosis-system)
+  - TLDR：针对乳腺癌保乳手术中切缘病理评估依赖H&E染色且耗时的问题，本研究开发了MarginPath系统。该系统利用多光子显微镜（MPM）捕获无标记胶原特征，结合视觉语言模型，仅需单张切片即可生成虚拟H&E图像、切缘状态热图及自然语言诊断报告。在158例样本上的验证显示，其诊断性能优于现有病理大模型，有效降低了病理医生对新成像技术的学习门槛，辅助临床决策。
+  - Tags：`query:bioinfo`
+- [Mechanistic insights into 18β-glycyrrhetinic acid-induced apoptosis in SCC-9 cells revealed by TMT proteomics and network pharmacology.](#/202605/16/202605/16/42140987-mechanistic-insights-into-18-glycyrrhetinic-acid-induced-apoptosis-in-scc-9-cells-revealed-by-tmt-proteomics-and-network-pharmacology)
+  - TLDR：针对甘草酸衍生物 18β-GRA 在舌鳞状细胞癌（TSCC）中作用机制不明的问题，本研究通过 TMT 定量蛋白质组学结合网络药理学，系统分析了其对 SCC-9 细胞的抑制作用。结果显示 18β-GRA 通过诱导细胞周期阻滞、氧化应激及调节 PI3K/AKT 通路触发凋亡与自噬，为该天然产物的抗癌机制提供了多维度的分子证据。
+  - Tags：`query:seqai`
 - [Rapid diagnosis of common, undetected, and uncultivable bloodstream infections from positive blood cultures using Oxford Nanopore sequencing: a metagenomic pipeline analysis.](#/202605/15/202605/15/42134371-rapid-diagnosis-of-common-undetected-and-uncultivable-bloodstream-infections-from-positive-blood-cultures-using-oxford-nanopore-sequencing-a-metagenomic-pipeline-analysis)
   - TLDR：针对血流感染诊断中传统培养法耗时长、难以检测不可培养病原体的问题，本研究开发了一套基于 Oxford Nanopore 测序的宏基因组分析流程。该流程直接从阳性血培养样本中提取 DNA，利用 Kraken2 和随机森林模型进行物种鉴定，并结合多种数据库预测耐药性。结果显示，该方法在物种识别上达到 97% 的敏感性，且比常规方法提前约 10 小时，耐药性预测提前 20 小时，显著提升了临床诊断效率。
   - Tags：`query:pathoai`
@@ -547,61 +604,4 @@
   - Tags：`query:pathoai`
 - [Computation-driven discovery of a next-generation canine monoclonal antibody for canine parvovirus therapy.](#/202605/01/202605/01/41806591-computation-driven-discovery-of-a-next-generation-canine-monoclonal-antibody-for-canine-parvovirus-therapy)
   - TLDR：犬细小病毒（CPV）是导致犬类出血性肠炎和心肌炎的高致死性病原体，现有疗法效果有限。本研究结合单B细胞测序与抗原-抗体结构预测技术，成功筛选出犬源单克隆抗体E9。实验证明E9具有高亲和力和广谱中和活性，在活体治疗中达到80%的有效率，为CPV治疗提供了一种高效的抗体获取路径和极具潜力的生物药物。
-  - Tags：`query:bioinfo`
-- [Enterocutaneous Fistula-Associated Sepsis and Mortality: Development and Validation of a Multimodal Artificial Intelligence Prediction Model.](#/202605/01/202605/01/42060923-enterocutaneous-fistula-associated-sepsis-and-mortality-development-and-validation-of-a-multimodal-artificial-intelligence-prediction-model)
-  - TLDR：肠皮肤瘘（ECF）并发脓毒症的预测因病情异质性高而极具挑战，传统单模态方法难以捕捉复杂的免疫炎症动态。本研究构建了一个多模态融合模型，利用Transformer架构整合了临床特征（XGBoost）、腹部影像特征（CNN）和转录组数据（VAE）。实验表明，该模型在预测脓毒症及28天死亡率方面达到0.89的AUC，显著优于单一模态，并结合SHAP等算法揭示了关键生物标志物与免疫重编程机制，为临床早期干预提供了精准支持。
-  - Tags：`query:pathoai`
-- [Network pharmacology and AI: illuminating the path to precision herbal medicine in Ganoderma spp.](#/202605/01/202605/01/42062030-network-pharmacology-and-ai-illuminating-the-path-to-precision-herbal-medicine-in-ganoderma-spp)
-  - TLDR：灵芝作为传统中药，其多成分、多靶点的复杂性导致药理机制难以阐明。本综述探讨了网络药理学与人工智能技术的结合，通过构建“成分-靶点-通路”网络并利用AI进行预测建模与靶点筛选，系统性地识别了灵芝的关键活性成分及其治疗路径。这种集成方法不仅为灵芝的精准用药提供了科学依据，也为中药现代化和全球化应用探索了新路径。
-  - Tags：`query:bioinfo`
-- [GMFCC-UMA: A Fragment-Based Machine Learning Framework for Scalable Ab Initio-Quality Protein Energies.](#/202605/01/202605/01/42065590-gmfcc-uma-a-fragment-based-machine-learning-framework-for-scalable-ab-initio-quality-protein-energies)
-  - TLDR：针对蛋白质从头算量子化学计算成本极高的问题，该研究提出了 GMFCC-UMA 框架。该方法将广义分子分馏法（GMFCC）与微调后的基础神经网络势能（UMA）相结合，通过将蛋白质能量分解为相邻和非相邻项，并利用神经网络替代昂贵的片段级量子力学计算。实验证明，该方法在保持从头算精度的同时实现了数量级的加速，为高通量蛋白质构象分析提供了高效且准确的能量评估手段。
-  - Tags：`query:bioinfo`
-- [Phylodynamics and molecular epidemiology of the respiratory syncytial virus fusion protein in China.](#/202605/01/202605/01/42065599-phylodynamics-and-molecular-epidemiology-of-the-respiratory-syncytial-virus-fusion-protein-in-china)
-  - TLDR：呼吸道合胞病毒（RSV）是导致婴幼儿及老年人严重呼吸道疾病的主因，其F蛋白的变异直接影响疫苗和抗体疗效。本研究通过整合NCBI、GISAID大数据集与临床样本，利用生物信息学流水线分析了中国RSV F蛋白的演化动力学。研究发现了多个与帕利珠单抗和Suptavumab耐药相关的关键突变位点，并揭示了RSV B型比A型具有更高的遗传多样性。这些发现为监测病毒耐药性演变及开发新一代RSV疫苗提供了重要分子依据。
-  - Tags：`query:pathoai`
-- [Integrating multi-omics to characterize the dynamics of rumen microorganisms and metabolites in Angus cattle at different growth stages.](#/202605/01/202605/01/41633028-integrating-multi-omics-to-characterize-the-dynamics-of-rumen-microorganisms-and-metabolites-in-angus-cattle-at-different-growth-stages)
-  - TLDR：针对安格斯牛生长过程中瘤胃微生物与代谢物动态交互机制不明的问题，本研究整合宏基因组学与非靶向代谢组学，分析了6、12、18月龄牛的瘤胃生态演变。研究发现不同阶段存在显著的菌群演替（如18月龄富集甲烷短杆菌）及代谢物变化，并揭示了特定菌群与宿主体重及关键代谢物的强相关性，为通过微生物干预优化肉牛生产性能提供了多组学依据。
-  - Tags：`query:bioinfo`
-- [A Vibrio-susceptibility class of antimicrobial peptide Ajapocin via membranolytic pattern to combat "non-cholera" pathogens in vivo infection models.](#/202605/01/202605/01/41633430-a-vibrio-susceptibility-class-of-antimicrobial-peptide-ajapocin-via-membranolytic-pattern-to-combat-non-cholera-pathogens-in-vivo-infection-models)
-  - TLDR：针对非霍乱弧菌（如副溶血性弧菌和创伤弧菌）对水产养殖和公共卫生的威胁，本研究通过序列优化策略开发出一种海洋来源的抗菌肽 Ajapocin。该肽在体外表现出与多粘菌素 B 相当的抗菌活性，并在斑马鱼和老鼠感染模型中显著降低了细菌负荷并加速伤口愈合，且无明显毒副作用，为应对弧菌感染提供了新型候选药物。
-  - Tags：`query:pathoai`
-- [Structural and functional insights into glycosyltransferase from Nocardia asteroides NCTC11293 and structure-guided discovery of marine and phytochemical leads through pharmacokinetic screening and molecular dynamics studies.](#/202605/01/202605/01/41662787-structural-and-functional-insights-into-glycosyltransferase-from-nocardia-asteroides-nctc11293-and-structure-guided-discovery-of-marine-and-phytochemical-leads-through-pharmacokinetic-screening-and-molecular-dynamics-studies)
-  - TLDR：针对星形诺卡氏菌引起的诺卡氏菌病治疗药物匮乏及耐药性问题，本研究通过生物信息学分析确定糖基转移酶为关键药物靶点。利用基于结构的虚拟筛选技术，从海洋及植物化学数据库中筛选出四种具有高亲和力的先导化合物。通过分子动力学模拟和药代动力学评估，验证了这些分子在抑制病原体活性方面的潜力，为开发新型抗诺卡氏菌药物提供了理论依据。
-  - Tags：`query:pathoai`
-- [Atomistic simulations identify the Tetrandrine as potent anti-malarial drug candidate against Plasmodium falciparum targeting Heme Detoxification Protein (HDP).](#/202605/01/202605/01/41713229-atomistic-simulations-identify-the-tetrandrine-as-potent-anti-malarial-drug-candidate-against-plasmodium-falciparum-targeting-heme-detoxification-protein-hdp)
-  - TLDR：针对恶性疟原虫对现有药物产生耐药性的挑战，本研究以血红素解毒蛋白（HDP）为新靶点，采用AlphaFold蛋白质结构预测、分子对接及100纳秒分子动力学模拟等计算方法，从天然产物中筛选出粉防己碱（Tetrandrine）。研究证实该化合物能与HDP活性位点强力结合并诱导蛋白构象改变，为开发新型抗疟药物提供了具有高亲和力的候选分子。
-  - Tags：`query:pathoai`
-- [Microbiological landscape in critical care: 14-year analysis of 42,722 ICU patients using MIMIC-IV database.](#/202605/01/202605/01/41759885-microbiological-landscape-in-critical-care-14-year-analysis-of-42722-icu-patients-using-mimic-iv-database)
-  - TLDR：针对重症监护室（ICU）内医疗相关感染的高发病率和耐药性监测不足问题，本研究利用 MIMIC-IV 数据库对 2008-2022 年间 4.2 万余名患者的 115 万份阳性培养物进行了大规模回顾性分析。研究揭示了革兰氏阴性菌的主导地位，并发现万古霉素耐药肠球菌（VRE）比例远超国家平均水平。该成果为 ICU 制定差异化的经验性抗生素治疗方案提供了关键的数据支撑。
-  - Tags：`query:pathoai`
-- [PANX1-mediated NLRP3 inflammasome activation promotes an adaptive doxorubicin resistance through IL-1β signaling in breast cancer.](#/202605/01/202605/01/41765358-panx1-mediated-nlrp3-inflammasome-activation-promotes-an-adaptive-doxorubicin-resistance-through-il-1-signaling-in-breast-cancer)
-  - TLDR：乳腺癌化疗常因获得性耐药导致失败。本研究通过单细胞转录组和功能实验发现，跨膜通道蛋白 PANX1 在阿霉素化疗诱导下激活 NLRP3 炎症小体，进而通过 IL-1β 信号通路促进肿瘤的适应性耐药。实验证明，抑制 PANX1 可显著恢复耐药细胞对化疗的敏感性。该研究揭示了 PANX1-NLRP3-IL-1β 这一关键耐药机制，为乳腺癌精准治疗提供了新的生物标志物和潜在靶点。
-  - Tags：`query:seqai`
-- [Host-gut microbial metabolic crosstalk in postpartum depression: A multiomics insight linking blood metabolites to epigenetic modulation.](#/202605/01/202605/01/41519171-host-gut-microbial-metabolic-crosstalk-in-postpartum-depression-a-multiomics-insight-linking-blood-metabolites-to-epigenetic-modulation)
-  - TLDR：产后抑郁症（PPD）与肠道菌群及其代谢物密切相关，但其对宿主代谢的具体影响机制尚不明确。本研究利用多组学孟德尔随机化（MR）方法，整合GWAS、eQTL、mQTL及mbQTL数据，揭示了双歧杆菌目等菌群通过高密度脂蛋白（HDL）等代谢物影响PPD风险。研究锁定了RAF1、FDXR等7个关键代谢基因及其表观遗传调控位点，为通过肠-脑-代谢轴开发PPD预防和治疗策略提供了分子基础。
-  - Tags：`query:bioinfo`
-- [NCOA4-mediated ferroptosis drives cGAS-STING-dependent inflammation in radiation dermatitis: Protective modulation by Cu-ATSM.](#/202605/01/202605/01/41740686-ncoa4-mediated-ferroptosis-drives-cgas-sting-dependent-inflammation-in-radiation-dermatitis-protective-modulation-by-cu-atsm)
-  - TLDR：放射性皮炎是放疗的主要并发症，其上游机制不明。本研究发现电离辐射通过上调NCOA4诱发铁蛋白自噬，导致角质形成细胞铁死亡并释放DNA类损伤相关分子，进而激活巨噬细胞cGAS-STING通路引发炎症。研究证实氧化还原活性化合物Cu-ATSM能竞争性结合NCOA4抑制该过程，在动物模型中显著减轻了皮炎症状，为放射性损伤治疗提供了新靶点。
-  - Tags：`query:seqai`
-- [Direct-acting antivirals and beyond: emerging approaches to targeting viral RNA and ribonucleoprotein complexes.](#/202605/01/202605/01/41780690-direct-acting-antivirals-and-beyond-emerging-approaches-to-targeting-viral-rna-and-ribonucleoprotein-complexes)
-  - TLDR：针对呼吸道RNA病毒（如新冠和流感）持续威胁全球健康的问题，传统药物多聚焦于病毒或宿主蛋白，但易产生耐药性。本文综述了靶向病毒RNA（vRNA）及其核糖核蛋白复合体（RNP）的新兴策略，通过解析vRNA的结构功能及与蛋白质的相互作用，为开发新型抗病毒药物提供了从遗传物质层面直接干预的理论基础与技术路径。
-  - Tags：`query:pathoai`
-- [Pathobiological characterization and estimation of the basic reproduction number of a recombinant african swine fever virus in contact-exposed pigs in Vietnam.](#/202605/01/202605/01/41793983-pathobiological-characterization-and-estimation-of-the-basic-reproduction-number-of-a-recombinant-african-swine-fever-virus-in-contact-exposed-pigs-in-vietnam)
-  - TLDR：针对越南出现的I/II型重组非洲猪瘟病毒（rASFV I/II），研究人员通过直接接种和自然接触实验，系统分析了其临床症状、病毒载量变化及病理损伤，并利用SIR模型估算了基本传染数R0。结果显示该毒株具有极高致死性和快速传播能力，感染猪只在短时间内死亡且未产生抗体，为制定针对重组毒株的防控策略提供了关键生物学数据。
-  - Tags：`query:pathoai`
-- [Spatial-aware detection of copy number alterations from spatial transcriptomics using SpaCNA.](#/202604/30/202604/30/42056094-spatial-aware-detection-of-copy-number-alterations-from-spatial-transcriptomics-using-spacna)
-  - TLDR：针对肿瘤空间转录组数据中拷贝数变异（CNA）检测精度不足的问题，SpaCNA 框架通过整合形态学特征聚合邻近位点，并利用隐马尔可夫随机场模型捕捉空间连续性。该方法在模拟和真实癌症数据中实现了高达 0.95 的 F1 分数，能够精准识别肿瘤边界、空间亚克隆及 3D 演化轨迹，为研究肿瘤异质性和空间生物学提供了高效的计算工具。
-  - Tags：`query:seqai`
-- [An agentic framework for autonomous scientific discovery in cancer pathology.](#/202604/30/202604/30/42056496-an-agentic-framework-for-autonomous-scientific-discovery-in-cancer-pathology)
-  - TLDR：针对癌症病理分析中特征工程繁琐、可解释性差及工作流碎片化的问题，本研究开发了SPARK智能体框架。该框架以语言为通用接口，能自主将生物学假设转化为分析工具，直接处理复杂病理数据而无需额外训练。在涉及5种癌症、5400余名患者的大规模验证中，SPARK成功提取了与预后和生物标志物相关的临床特征，为自动化科学发现和精准诊断提供了新范式。
-  - Tags：`query:agent`
-- [Embedding multilayer RNA networks for lncRNA-miRNA interaction prediction via LMI-MHGAT.](#/202604/30/202604/30/42057106-embedding-multilayer-rna-networks-for-lncrna-mirna-interaction-prediction-via-lmi-mhgat)
-  - TLDR：60 的极端正负样本比下仍优于 14 种现有方法，并在跨物种预测和疾病关联分析中展现出极强的泛化能力与生物学解释力。
-  - Tags：`query:bioinfo`
-- [Integrating viral kinetics into routine outbreak surveillance: challenges, opportunities and lessons from COVID-19.](#/202604/30/202604/30/42057724-integrating-viral-kinetics-into-routine-outbreak-surveillance-challenges-opportunities-and-lessons-from-covid-19)
-  - TLDR：病毒动力学（VK）对理解感染机制和制定防疫政策至关重要，但目前相关研究多为事后分析且缺乏标准化。本文总结了新冠疫情期间 VK 监测的经验，提出将其整合进常规病原体监测体系的框架。通过建立全球动态 VK 数据库和标准化建模工具，可以实时优化流行病学参数估计、药物研发及政策调整，从而提升对未来大流行的应对能力。
-  - Tags：`query:pathoai`
-- [Robust Heterogeneity Adjustment for Gaussian Graphical Model With Latent Variables.](#/202604/30/202604/30/42053355-robust-heterogeneity-adjustment-for-gaussian-graphical-model-with-latent-variables)
-  - TLDR：针对生物多元数据中因未观测子群体（如肿瘤亚型）和离群点导致的图模型估计失真问题，该研究提出了一种结合混合模型的鲁棒潜变量高斯图模型。该方法在剔除潜变量干扰的同时，能同步实现网络结构估计、离群点检测及子群体识别。实验证明，该方法在存在高比例噪声和异质性时仍能保持估计的可靠性，为复杂生物网络分析提供了稳健的工具。
   - Tags：`query:bioinfo`

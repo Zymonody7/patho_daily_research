@@ -1,0 +1,109 @@
+Title: Discovery of Small-Molecule Inhibitors of the Pycsar Antiphage Defense - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42024004/
+
+Markdown Content:
+## Discovery of Small-Molecule Inhibitors of the Pycsar Antiphage Defense
+
+Marian A Addo et al. ACS Chem Biol.2026.
+
+## Abstract
+
+The increasing prevalence of multidrug-resistant bacteria has intensified the search for alternative therapeutic strategies. Bacteriophages (the natural viral predators of bacteria) are one promising solution. However, bacterial immune systems confer phage resistance, which can limit the efficacy of phage therapies. Small-molecule modulators of bacterial immunity are a promising but underexplored strategy to enhance phage therapy. We report the first small-molecule inhibitors of the Pycsar immune system, a 3',5'-cCMP signal-based defense mechanism, in bacteria. These inhibitors exhibit efficacy in _Escherichia coli_ cells, enabling phage Bas34 to overcome Pycsar-mediated resistance. The Pycsar system relies on two proteins: a CTP cyclase, which generates the cCMP signal, and a cCMP-activated transmembrane effector, which disrupts the bacterial membrane of the host cells and prevents phage reproduction. Our findings reveal that the identified inhibitors specifically target the cytotoxic effects of the transmembrane effector rather than the signal-producing cyclase. These molecules highlight the promise of chemical modulators to suppress bacterial immunity and, thereby, expand the therapeutic potential of bacteriophages against multidrug-resistant pathogens.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+The authors declare no competing financial interest.
+
+## Figures
+
+[![Image 1: Figure 1.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1347/13169757/82d21a27df8a/nihms-2168851-f0001.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1347/13169757/5a508aa7324e/nihms-2168851-f0001.jpg)
+
+**Figure 1.**
+High-throughput screen identifies inhibitors against Pycsar. (A) Gene composition of the E831 Pycsar system comprising cyclase, c-terminal immunoglobulin-like (AGS-C), and transmembrane helix (TM) domains. (B) Cartoon illustrating the mechanism of defense by Pycsar. (C) Pycsar E831 protection against phage Bas34 observed through phage-induced lysis in liquid culture at a multiplicity of infection (MOI) of 0.03. (D) Two-dimensional (2D) Z-score plot of a screen to identify inhibitors of E831 Pycsar. The _y_-axis measures cell density at the end of the experiment (low values indicate bacteria killing). The _x_-axis measures cell density after 3 h. Phage lysis curves reach a high initial OD 600 nm at ~3 h before dropping to low OD 600 nm values ~10 h (see panel C). Therefore, inhibitors of Pycsar (which restore phage-induced lysis) should have average Z-scores (~0) in the _x_-axis (after 3 h) and low Z-scores in the _y_-axis (after 10 h). This 2D analysis helps to exclude generally bacteriostatic or bacteriocidal compounds that would impact OD 600 nm already by 3 h and therefore exhibit low Z-scores in both axes. The colored circles in the lower right quadrant, labeled compounds 1, 2, and * display the most promising ‘hits’ from this screen. (E) Chemical structures of Pycsar inhibitors 1 and 2. (F) Phage-induced lysis curves of compound 1 treatment on Pycsar-expressing _E. coli_. (G) Phage-induced lysis curves of compound 2 treatment on Pycsar-expressing _E. coli_. (H) Bacteria growth measurement after compound 1 and 2 treatments in the absence of phage. (I) Phage replication induction by compounds 1 and 2, quantified by measuring phage plaque-forming units (PFUs) produced 15 h postinfection. In all plots, error bars are the standard error of the mean (SEM) with biological triplicates. In panel I, individual replicates are displayed with circles.
+
+[![Image 2: Figure 2.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1347/13169757/1eef8068808a/nihms-2168851-f0002.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1347/13169757/edf1567978b6/nihms-2168851-f0002.jpg)
+
+**Figure 2.**
+Compounds selectively suppress the Pycsar system. (A) Gene composition of Retron EC48 comprising noncoding RNA (ncRNA), reverse transcriptase (RT), and transmembrane helices (TM). (B) Retron EC48 protection against phage Bas34 observed through phage-induced lysis in liquid culture at MOI of 0.03. (C) Phage-induced lysis curves of compound 1 treatment on Retron EC48-expressing _E. coli_ cells. (D) Phage-induced lysis curves of compound 2 treatment on Retron EC48-expressing _E. coli_ cells. In all plots, error bars are the standard error of the mean (SEM) with biological triplicates.
+
+[![Image 3: Figure 3.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1347/13169757/98ddc4a9983b/nihms-2168851-f0003.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1347/13169757/944933eb8d7e/nihms-2168851-f0003.jpg)
+
+**Figure 3.**
+Production of cCMP is not inhibited by compounds. (A) Extracted ion chromatogram (EIC) of cCMP [M–H]− (_m_/_z_ 304.0339 – 304.0345) present in cell lysate from PycC-expressing _E. coli_ 60 min after infection with Bas34. (B) cCMP level measured in lysates of PycC-expressing _E. coli_ 60 min following Bas34 infection of cells pretreated with 111 _μ_ M compound 1. (C) cCMP level measured in lysates of PycC-expressing _E. coli_ 60 min following Bas34 infection of cells pretreated with 33 _μ_ M compound 2. (D) Compound 1 reverts cell toxicity from an exogenous cCMP (250 _μ_ M) signal molecule. (E) Compound 2 reverts cell toxicity from an exogenous cCMP (250 _μ_ M) signal molecule. In all plots, error bars are the standard error of the mean (SEM) with biological triplicates. In panels B and C, individual replicates are displayed with circles. _P_-values were calculated using a Student _t_ test (p-values = 0.06 and 0.11 for panels B and C, respectively).
+
+[![Image 4: Figure 4.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1347/13169757/1b80fe5a65ea/nihms-2168851-f0004.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1347/13169757/3885b0b74882/nihms-2168851-f0004.jpg)
+
+**Figure 4.**
+Analogs of compounds 1 and 2 reveal the necessary moieties for Pycsar inhibition. (A) Dose–response curves evaluating “Pycsar strength,” which is the integrated area under the bacterial lysis curve (AUC) after phage infection over the range of 0.5–15 h, normalized to the positive control AUC (phage infection in complete absence of the Pycsar defense) and the negative control AUC (phage infection in Pycsar-defended cells with no inhibitor added) upon treatment with different concentrations of inhibitors 1 and 2. See Methods for more details. (B) Minimal inhibitory concentrations (MICs) of phenyl ring-modified analogs of compound 1. (C) MICs of aldimine-modified analogs of compound 1. (D) Inactive naphthalenol-modified analogs of compound 1. (E) Inactive anthraquinone and quinone analogs of compound 2. In panel (A), error bars are the standard error of the mean (SEM) with biological triplicates. In panels (B–E), MICs were defined as the lowest concentrations at which bacterial lysis by phage reduced the OD 600 nm to <0.5 at 15 h (see Figures S4–S7).
+
+[![Image 5: Figure 5.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1347/13169757/ec5aa55961a3/nihms-2168851-f0005.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1347/13169757/80491e9878b4/nihms-2168851-f0005.jpg)
+
+**Figure 5.**
+Inhibitor stops Pycsar in wild-type (WT) _E. coli_ cells. (A) Phage-induced lysis curves of _E. coli_ MG1655 expressing Pycsar after compound 1 treatment in a dose-dependent fashion at a MOI of 0.003. (B) Dose-response curve compiling the Pycsar strength upon treatment with different concentrations of inhibitor **1.** (C) Phage replication induction by compound **1** (111 _μ_ M), quantified by measuring phage plaque-forming units (PFUs) produced 15 h postinfection. (D) Phage-induced lysis curves of _E. coli_ MG1655 expressing Pycsar after compound **2** treatment in a dose-dependent fashion at MOI 0.003. (E) Phage replication induction by compound 2 (170 _μ_ M), quantified by measuring phage plaque-forming units (PFUs) produced 15 h postinfection. In all plots, error bars are the standard error of the mean (SEM) with biological triplicates. Individual replicates are displayed with circles in panels C and E.
+
+[![Image 6: Scheme 1.](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1347/13169757/4f0001acbcbc/nihms-2168851-f0007.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1347/13169757/444d26628667/nihms-2168851-f0007.jpg)
+
+**Scheme 1.**
+Synthesis of 2-[(1- Naphthalenylmethylene)amino]phenol (22)
+
+## Similar articles
+
+*   [Phage anti-CBASS and anti-Pycsar nucleases subvert bacterial immunity.](https://pubmed.ncbi.nlm.nih.gov/35395152/)
+
+Hobbs SJ, Wein T, Lu A, Morehouse BR, Schnabel J, Leavitt A, Yirmiya E, Sorek R, Kranzusch PJ.Hobbs SJ, et al.Nature. 2022 May;605(7910):522-526. doi: 10.1038/s41586-022-04716-y. Epub 2022 Apr 8.Nature. 2022.PMID: 35395152 Free PMC article. 
+*   [Nucleotide Immune Signaling in CBASS, Pycsar, Thoeris, and CRISPR Antiphage Defense.](https://pubmed.ncbi.nlm.nih.gov/39083849/)
+
+Hobbs SJ, Kranzusch PJ.Hobbs SJ, et al.Annu Rev Microbiol. 2024 Nov;78(1):255-276. doi: 10.1146/annurev-micro-041222-024843. Epub 2024 Nov 7.Annu Rev Microbiol. 2024.PMID: 39083849 Free PMC article.Review. 
+*   [Cyclic CMP and cyclic UMP mediate bacterial immunity against phages.](https://pubmed.ncbi.nlm.nih.gov/34644530/)
+
+Tal N, Morehouse BR, Millman A, Stokar-Avihail A, Avraham C, Fedorenko T, Yirmiya E, Herbst E, Brandis A, Mehlman T, Oppenheimer-Shaanan Y, Keszei AFA, Shao S, Amitai G, Kranzusch PJ, Sorek R.Tal N, et al.Cell. 2021 Nov 11;184(23):5728-5739.e16. doi: 10.1016/j.cell.2021.09.031. Epub 2021 Oct 12.Cell. 2021.PMID: 34644530 Free PMC article. 
+*   [Chemical inhibition of a bacterial immune system.](https://pubmed.ncbi.nlm.nih.gov/41619738/)
+
+Zang Z, Duncan OK, Sabonis D, Fedorova I, Shi Y, Miraj G, Le S, Deng J, Zhu Y, Cai Y, Zhang C, Arya G, Dixon SAH, Angus SP, Duerkop BA, Liang H, Pepin RH, Ve T, Bondy-Denomy J, Tamulaitiene G, Gerdt JP.Zang Z, et al.Cell Host Microbe. 2026 Feb 11;34(2):263-277.e11. doi: 10.1016/j.chom.2026.01.003. Epub 2026 Jan 30.Cell Host Microbe. 2026.PMID: 41619738 Free PMC article. 
+*   [Antiphage small molecules produced by bacteria - beyond protein-mediated defenses.](https://pubmed.ncbi.nlm.nih.gov/36038409/)
+
+Hardy A, Kever L, Frunzke J.Hardy A, et al.Trends Microbiol. 2023 Jan;31(1):92-106. doi: 10.1016/j.tim.2022.08.001. Epub 2022 Aug 26.Trends Microbiol. 2023.PMID: 36038409 Review. 
+
+## References
+
+1.       1.    Murray CJL; Ikuta KS; Sharara F; Swetschinski L; Robles Aguilar G; Gray A; Han C; Bisignano C; Rao P; Wool E; et al. Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis. Lancet 2022, 399 (10325), 629–655. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8841637/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/35065702/)
+
+2.       1.    The antimicrobial crisis: enough advocacy, more action Lancet 2020. Vol. 395 10220247. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/31982048/)
+
+3.       1.    Jesudason T Advancing the use of bacteriophages to tackle AMR. Lancet Microbe 2025, 6 (10), No. 101204. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/40680753/)
+
+4.       1.    Chan BK; Stanley GL; Kortright KE; Vill AC; Modak M; Ott IM; Sun Y; Würstle S; Grun CN; Kazmierczak BI; et al. Personalized inhaled bacteriophage therapy for treatment of multidrugresistant Pseudomonas aeruginosa in cystic fibrosis. Nat. Med. 2025, 31 (5), 1494–1501. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12092284/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/40301561/)
+
+5.       1.    Strathdee SA; Hatfull GF; Mutalik VK; Schooley RT Phage therapy: From biological mechanisms to future directions. Cell 2023, 186 (1), 17–31. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9827498/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/36608652/)
+
+## Publication types
+
+*   Actions 
+*   Actions 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [American Chemical Society](https://doi.org/10.1021/acschembio.6c00068)
+    *   [PubMed Central](https://pmc.ncbi.nlm.nih.gov/articles/pmid/42024004/)
