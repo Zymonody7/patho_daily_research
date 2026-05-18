@@ -1,0 +1,22 @@
+---
+title: "Global whole-genome, phylodynamic, and machine-learning analysis of"
+title_zh: 副猪格拉瑟氏菌的全球全基因组、系统动力学及机器学习分析
+authors: "Zixin Xu, Junhao Peng, Yudi Wu, Haotian Du, Jinger Chen, Qiqi Hong, Pingping Wu, Chenggang Xu, Zhong Peng, Jianmin Zhang"
+date: 2026-05-18
+pdf: "https://pubmed.ncbi.nlm.nih.gov/42149609/"
+tags: ["query:pathoai"]
+score: 9.0
+evidence: 呼吸道病原体猪副嗜血杆菌的机器学习与系统动力学分析
+tldr: 针对猪副嗜血杆菌高危血清型全球传播路径及分子机制不明的问题，本研究通过对1004个全球菌株进行大规模比较基因组学分析，利用贝叶斯系统动力学重建了血清型2、5、12的跨洲传播历史，并结合机器学习识别出与毒力和耐药性相关的关键特征基因。研究揭示了兼具高毒力与高耐药性的双重风险克隆，为生猪疫病防控、疫苗研发及抗生素精准管理提供了重要的数据支撑和分子标记。
+selection_source: fresh_fetch
+motivation: 旨在厘清猪副嗜血杆菌高危血清型（2、5、12型）在全球范围内的演化传播规律及其毒力和耐药性的分子遗传基础。
+method: 整合了1004个全球菌株的全基因组数据，运用泛基因组分析、贝叶斯系统发育地理重建及机器学习模型进行多维度解析。
+result: 发现了区分血清型5和12的新标记基因msmX，追踪到不同血清型的跨国扩散路径，并识别出与耐药和毒力显著相关的细胞壁合成及荚膜多糖生产等关键通路基因。
+conclusion: 该研究构建了猪副嗜血杆菌的全球群体基因组框架，揭示了高危菌株的演化趋势，为针对性疫苗开发和临床耐药性监管提供了科学依据。
+---
+
+## 摘要
+副猪格拉瑟氏菌（Glaesserella parasuis）是猪的一种呼吸道病原体，也是格拉瑟氏病（Glässer's disease）的病原。在 15 种血清型中，血清型 2、5 和 12 代表了全球扩散的高风险谱系，其特征是毒力增强和抗微生物药物耐药性（AMR）增加。为了系统地研究高风险血清型的全球流行病学和分子基础，我们进行了大规模的比较基因组分析。我们组装了 1,004 个副猪格拉瑟氏菌基因组，包括来自中国 18 个省份患病猪的 102 个新测序分离株，以及来自 16 个国家的 902 个公开基因组。泛基因组分析确定 msmX 是精确区分血清型 5/12 的新型标记。贝叶斯系统发育地理重建随后追踪了这些谱系的传播历史：一种具有高度抗药性的血清型 2 谱系可能起源于日本，并在 20 世纪 40 年代后期经由中国传播到美洲；而高毒力的血清型 5 和 12 谱系则起源于中国，随后向全球扩散。耐药组和毒力组分析揭示了不同的风险模式：血清型 2 分离株携带更多的抗微生物药物耐药基因（ARGs），而血清型 5 和 12 则拥有更广泛的毒力因子（VFs）库。值得注意的是，我们发现了同时携带大量 VFs 和 ARGs 的分离株，代表了一种趋同的双重高风险基因组特征。此外，机器学习模型识别出了与 AMR 和毒力显著相关的特征基因，这些基因涉及细胞壁合成、荚膜多糖产生和碳源利用等途径。综上所述，这些发现阐明了高风险血清型的全球传播模式和分子基础，并为指导针对性监测、临床抗微生物药物管理和合理的疫苗开发提供了关键证据。【重要性】副猪格拉瑟氏菌对全球养猪业健康构成威胁，血清型 2、5 和 12 因其增强的毒力和耐药性而成为高风险谱系。然而，它们的全球传播模式和遗传基础仍不清楚。通过对 1,004 个分离株的大规模比较基因组学研究，我们解析了这些谱系的跨洲传播路径，并将 msmX 确定为区分血清型 5 和 12 的新型标记。我们进一步发现了共同携带广泛毒力和耐药基因库的高风险克隆。本研究为监测高风险副猪格拉瑟氏菌菌株提供了一个群体基因组学框架，并为开发针对性疫苗和管理策略以减轻其影响提供了信息。
+
+## Abstract
+Glaesserella parasuis is a respiratory pathogen of swine and the causative agent of Glässer's disease. Among the 15 serotypes, serotypes 2, 5, and 12 represent globally disseminated, high-risk lineages characterized by increased virulence and antimicrobial resistance (AMR). To systematically investigate the global epidemiology and molecular basis of high-risk serotypes, we conducted a large-scale comparative genomic analysis. We assembled 1,004 G. parasuis genomes, including 102 newly sequenced isolates from diseased swine across 18 Chinese provinces and 902 publicly available genomes from 16 countries. Pan-genome analysis identified msmX as a novel marker for precise serotype 5/12 differentiation. Bayesian phylogeographic reconstruction then traced the dissemination history of these lineages: a highly antimicrobial-resistant lineage of serotype 2 likely originated in Japan and spread to the Americas via China in the late 1940s, whereas highly virulent lineages of serotypes 5 and 12 emerged in China before dispersing globally. Resistome and virulome profiling revealed distinct risk patterns: serotype 2 isolates carried more antimicrobial resistance genes (ARGs), while serotypes 5 and 12 harbored broader repertoires of virulence factors (VFs). Notably, we identified isolates co-harboring extensive suites of both VFs and ARGs, representing a convergent dual high-risk genomic profile. Furthermore, machine learning models identified signature genes significantly associated with AMR and virulence, which are implicated in pathways, such as cell wall synthesis, capsular polysaccharide production, and carbon source utilization. Taken together, these findings elucidate the global dissemination patterns and molecular foundations of high-risk serovars and provide critical evidence to guide targeted surveillance, clinical antimicrobial stewardship, and rational vaccine development.IMPORTANCEGlaesserella parasuis poses a global threat to swine health, with serovars 2, 5, and 12 representing high-risk lineages due to enhanced virulence and antimicrobial resistance. However, their global spread patterns and genetic basis remain poorly resolved. Through large-scale comparative genomics of 1,004 isolates, we resolved the transcontinental dissemination routes of these lineages and identified msmX as a novel marker to distinguish serotypes 5 and 12. We further uncover high-risk clones co-carrying extensive virulence and resistance gene repertoires. This study provides a population genomic framework for monitoring high-risk G. parasuis strains and informs the development of targeted vaccines and stewardship strategies to mitigate their impact.

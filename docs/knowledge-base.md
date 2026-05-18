@@ -5,6 +5,18 @@
 
 ## 最近论文
 
+- [Global whole-genome, phylodynamic, and machine-learning analysis of](#/202605/18/202605/18/42149609-global-whole-genome-phylodynamic-and-machine-learning-analysis-of)
+  - TLDR：针对猪副嗜血杆菌高危血清型全球传播路径及分子机制不明的问题，本研究通过对1004个全球菌株进行大规模比较基因组学分析，利用贝叶斯系统动力学重建了血清型2、5、12的跨洲传播历史，并结合机器学习识别出与毒力和耐药性相关的关键特征基因。研究揭示了兼具高毒力与高耐药性的双重风险克隆，为生猪疫病防控、疫苗研发及抗生素精准管理提供了重要的数据支撑和分子标记。
+  - Tags：`query:pathoai`
+- [Bile acid metabolism dysregulation following Helicobacter pylori eradication promotes plasmid-mediated antimicrobial resistance in the gut microbiome.](#/202605/18/202605/18/42143575-bile-acid-metabolism-dysregulation-following-helicobacter-pylori-eradication-promotes-plasmid-mediated-antimicrobial-resistance-in-the-gut-microbiome)
+  - TLDR：幽门螺杆菌根除治疗虽能杀灭病菌，但抗生素的使用会诱导肠道代谢紊乱，进而加速耐药基因（ARG）的水平转移。本研究通过整合宏基因组学、代谢组学及动物实验发现，治疗后初级胆汁酸（如甘氨胆酸等）显著积累，通过增强细菌膜通透性、诱导SOS反应及解除质粒抑制蛋白作用，显著提升了质粒介导的耐药性传播。该研究揭示了临床抗生素方案通过代谢重塑促进肠道耐药风险的潜在机制，为降低耐药性传播提供了新靶点。
+  - Tags：`query:pathoai`
+- [A programmable](#/202605/18/202605/18/42148730-a-programmable)
+  - TLDR：针对工业生物制造和生物治疗对高性能、高安全性细菌底盘的需求，研究者在AMAX底盘基础上通过敲除毒力及非必需基因开发了AMAX2。该底盘不仅保留了快速生长和高蛋白产量的优势，还集成了CRISPRi基因图谱、微细胞生成、表面展示及T6SS定向分泌等功能模块。实验证明其在细胞和动物模型中具有极高的生物安全性，为合成生物学提供了一个可编程的多功能微生物平台。
+  - Tags：`query:bioinfo`
+- [Core Microbiota Drives Host-Specific Growth Enhancement: Evidence in a Harmful Algal Bloom Causing Dinoflagellate](#/202605/18/202605/18/42148838-core-microbiota-drives-host-specific-growth-enhancement-evidence-in-a-harmful-algal-bloom-causing-dinoflagellate)
+  - TLDR：有毒底栖甲藻的生长受共生细菌影响，但具体机制尚不明确。本研究通过对6个地理株系的菌群分析，识别出核心菌群并将其移植到无菌株系中，发现移植菌群及核心菌株 Marinobacter adhaerens 能显著提升甲藻生长率（最高达164.1%）。这种促进作用具有宿主特异性，且在微量金属受限环境下尤为显著，揭示了细菌通过非典型铁获取策略辅助甲藻增殖的生态机制，为赤潮监测提供了新视角。
+  - Tags：`query:pathoai`
 - [Machine learning-based modeling for monitoring and predicting the detection rate and severity of pathogenic microorganisms in seafood.](#/202605/16/202605/16/41844064-machine-learning-based-modeling-for-monitoring-and-predicting-the-detection-rate-and-severity-of-pathogenic-microorganisms-in-seafood)
   - TLDR：针对海产品致病微生物监测中传统方法灵敏度不足的问题，本研究利用烟台市十年间的监测数据，构建了集成时空特征与动态阈值优化的机器学习框架。通过对比LightGBM和XGBoost等多种算法，实现了对病原体检出率和危害程度的高精度预测。该框架在外部验证中表现稳健，为沿海海产品供应链的风险预警和资源分配提供了数据驱动的决策支持。
   - Tags：`query:pathoai`
@@ -593,15 +605,3 @@
 - [AI-Enabled Imaging for Pathogen Detection Under Stress Conditions: A Systematic Review.](#/202605/01/202605/01/42021525-ai-enabled-imaging-for-pathogen-detection-under-stress-conditions-a-systematic-review)
   - TLDR：传统病原体检测在环境压力下易失效，本文系统综述了利用AI增强显微成像识别病原体的方法。通过分析28项研究，涵盖40多种病原体（如沙门氏菌），发现AI能显著提升检测速度与精度，但目前极少有研究关注压力或失活状态下的信号捕捉，且缺乏与传统培养法的标准化对比。该综述为构建更具鲁棒性和可重复性的AI检测流程提供了方向。
   - Tags：`query:pathoai`
-- [Tracing the rise of biomedical foundation models.](#/202605/01/202605/01/42062613-tracing-the-rise-of-biomedical-foundation-models)
-  - TLDR：随着通用大模型的发展，生物医学领域正经历从专用模型向基础模型的范式转变。本文系统回顾了生物医学基础模型的发展历程，分析了其在多模态数据整合、临床决策支持及药物研发中的核心技术，并探讨了数据隐私与伦理挑战，为构建更具鲁棒性和可解释性的医疗AI系统提供了路线图。
-  - Tags：`query:bioinfo`
-- [Exploring traditional Chinese medicine for antiviral drug discovery: A computational approach to combat human metapneumovirus (HMPV).](#/202605/01/202605/01/41546933-exploring-traditional-chinese-medicine-for-antiviral-drug-discovery-a-computational-approach-to-combat-human-metapneumovirus-hmpv)
-  - TLDR：针对目前尚无特效药的人类偏肺病毒（HMPV），本研究通过集成虚拟筛选、2微秒分子动力学模拟及密度泛函理论等计算管线，从180种中药成分中筛选出甘草酸、橙皮苷和柴胡皂苷作为潜在抑制剂。这些成分能稳定结合病毒基质蛋白，展现出优异的结合能与电子反应性，为开发新型抗HMPV天然药物提供了理论支撑和候选分子。
-  - Tags：`query:bioinfo`
-- [Ligand-Based Design of Novel Thiazole-Quinazolinone Hybrids with Dual Antimicrobial and Anti-Virulence Activity Targeting Staphylococcal Sortase A.](#/202605/01/202605/01/41650554-ligand-based-design-of-novel-thiazole-quinazolinone-hybrids-with-dual-antimicrobial-and-anti-virulence-activity-targeting-staphylococcal-sortase-a)
-  - TLDR：针对日益严重的抗生素耐药性问题，本研究通过整合噻唑和喹唑啉酮药效团，设计并合成了一系列新型杂合化合物。利用配体药效团模型和结构活性关系分析，筛选出能同时抑制细菌生长和毒力因子（特别是金黄色葡萄球菌分选酶A，SrtA）的双效候选药物。实验表明，化合物4c和4e在极低浓度下即可抑制多种临床病原体，并能有效阻断生物膜形成和细菌粘附，为开发新型抗感染药物提供了具有高安全性和稳定性的先导化合物。
-  - Tags：`query:pathoai`
-- [Computation-driven discovery of a next-generation canine monoclonal antibody for canine parvovirus therapy.](#/202605/01/202605/01/41806591-computation-driven-discovery-of-a-next-generation-canine-monoclonal-antibody-for-canine-parvovirus-therapy)
-  - TLDR：犬细小病毒（CPV）是导致犬类出血性肠炎和心肌炎的高致死性病原体，现有疗法效果有限。本研究结合单B细胞测序与抗原-抗体结构预测技术，成功筛选出犬源单克隆抗体E9。实验证明E9具有高亲和力和广谱中和活性，在活体治疗中达到80%的有效率，为CPV治疗提供了一种高效的抗体获取路径和极具潜力的生物药物。
-  - Tags：`query:bioinfo`
