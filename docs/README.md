@@ -11,34 +11,22 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-05-18
-- 运行时间：2026-05-18 20:15:41 UTC
+- 最新运行日期：2026-05-22
+- 运行时间：2026-05-22 20:29:15 UTC
 - 运行状态：成功
-- 本次总论文数：4
-- 精读区：2
-- 速读区：2
+- 本次总论文数：0
+- 精读区：0
+- 速读区：0
 
 ### 今日简报（AI）
-今日聚焦全球基因组演化与肠道微生态，深度解读 4 篇涵盖机器学习与代谢调控的前沿成果。
-重点揭示了幽门螺杆菌根除后胆汁酸代谢紊乱如何驱动肠道耐药性，以及全球尺度的病原体系统动力学分析。
-建议关注临床干预对微生物耐药性的深远影响，并探索可编程工具在生物研究中的应用潜力。
-- 详情：[/202605/18/README](/202605/18/README)
+> 今日无新推荐，系统未产出可展示论文。
+- 详情：[/202605/22/README](/202605/22/README)
 
 ### 精读区论文标签
-1. [Global whole-genome, phylodynamic, and machine-learning analysis of](/202605/18/42149609-global-whole-genome-phylodynamic-and-machine-learning-analysis-of)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：呼吸道病原体猪副嗜血杆菌的机器学习与系统动力学分析
-2. [Bile acid metabolism dysregulation following Helicobacter pylori eradication promotes plasmid-mediated antimicrobial resistance in the gut microbiome.](/202605/18/42143575-bile-acid-metabolism-dysregulation-following-helicobacter-pylori-eradication-promotes-plasmid-mediated-antimicrobial-resistance-in-the-gut-microbiome)  
-   标签：评分：8.0/10、query:pathoai
-   evidence：宏基因组学用于肠道微生物群中抗生素耐药性传播研究
+- 本次无精读推荐。
 
 ### 速读区论文标签
-1. [A programmable](/202605/18/42148730-a-programmable)  
-   标签：评分：7.0/10、query:bioinfo
-   evidence：全基因组 CRISPRi-seq 用于细菌底盘必需基因鉴定
-2. [Core Microbiota Drives Host-Specific Growth Enhancement: Evidence in a Harmful Algal Bloom Causing Dinoflagellate](/202605/18/42148838-core-microbiota-drives-host-specific-growth-enhancement-evidence-in-a-harmful-algal-bloom-causing-dinoflagellate)  
-   标签：评分：6.0/10、query:pathoai
-   evidence：微生物群对有害赤潮甲藻生长的影响
+- 本次无速读推荐。
 
 
 <div class="dpr-home-promo-card">
