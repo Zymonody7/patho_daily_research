@@ -1,0 +1,68 @@
+Title: Prediction of antimicrobial minimum inhibitory concentration from bacterial genomes using a scalable and interpretable machine learning approach - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42191912/
+
+Markdown Content:
+Actions
+
+. 2026 May 26.
+
+doi: 10.1038/s44259-026-00217-4.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42191912**
+*    DOI: [10.1038/s44259-026-00217-4](https://doi.org/10.1038/s44259-026-00217-4)
+
+Free article
+
+## Prediction of antimicrobial minimum inhibitory concentration from bacterial genomes using a scalable and interpretable machine learning approach
+
+Alessandro Gerada et al. NPJ Antimicrob Resist.2026.
+
+Free article
+
+## Abstract
+
+Although machine learning models can predict antimicrobial susceptibility from bacterial whole genome sequencing (WGS), state-of-the-art approaches are computationally demanding or dependent on knowledge of genetic resistance determinants. Here, we describe an efficient data-driven approach to predicting minimum inhibitory concentration (MIC) by progressively extending and refining predictive genome segments, independent of prior knowledge of resistance determinants. Resultant models had high interpretability - known and potentially novel resistance determinants were captured. Using 762 clinical E. coli strains, 71.6% of predictions were within one dilution of the measured MIC. Models trained with this algorithm generalised better onto external data (F1 score = 0.85) compared with alternative models trained on annotated resistance determinants (F1 = 0.82) or k-mer counts (F1 = 0.74). Computational demands were low (RAM usage 23.6GB vs 38.8GB for k-mer model). These advantages represent an important advance in predicting antimicrobial susceptibility from WGS, with potential applications for clinical diagnostics, drug development, and surveillance.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Competing interests: AG has held a research grant with United Kingdom Research and Innovation (UKRI) for the AIgarMIC software. WH holds or has recently held research grants with UKRI, Wellcome, F2G, Global Antibiotic Research and Development Partnership (GARDP). He is (or has recently been) a consultant for GSK, and Basilea. He was a member of the Specialist Advisory Committee for GARDP (2020-2023), a member of the British Society for Antimicrobial Chemotherapy (BSAC) Breakpoint Committee (2020-2023), a member of Health Technology Appraisal (HTA) Prioritisation Committee for Hospital Care (2022-2024) and was the Specialty National Co-lead for Infection for the National Institute of Health Research (NIHR) (2020-2024). AH has previously consulted for Pfizer in a personal capacity and has previously received funding from Pfizer for a public and practitioner engagement project. The other authors do not have a competing interest to declare.
+
+## Similar articles
+
+*   [Machine Learning Prediction of Resistance to Subinhibitory Antimicrobial Concentrations from Escherichia coli Genomes.](https://pubmed.ncbi.nlm.nih.gov/34427505/)
+
+Benkwitz-Bedford S, Palm M, Demirtas TY, Mustonen V, Farewell A, Warringer J, Parts L, Moradigaravand D.Benkwitz-Bedford S, et al.mSystems. 2021 Aug 31;6(4):e0034621. doi: 10.1128/mSystems.00346-21. Epub 2021 Aug 24.mSystems. 2021.PMID: 34427505 Free PMC article. 
+*   [Estimating the association of antimicrobial resistance genes with minimum inhibitory concentration in Escherichia coli: an observational study.](https://pubmed.ncbi.nlm.nih.gov/41072458/)
+
+Lipworth S, Chau K, Oakley S, Barrett L, Crook D, Peto T, Walker AS, Stoesser N.Lipworth S, et al.Lancet Microbe. 2025 Nov;6(11):101183. doi: 10.1016/j.lanmic.2025.101183. Epub 2025 Oct 7.Lancet Microbe. 2025.PMID: 41072458 
+*   [Machine learning and feature extraction for rapid antimicrobial resistance prediction of _Acinetobacter baumannii_ from whole-genome sequencing data.](https://pubmed.ncbi.nlm.nih.gov/38274740/)
+
+Gao Y, Li H, Zhao C, Li S, Yin G, Wang H.Gao Y, et al.Front Microbiol. 2024 Jan 11;14:1320312. doi: 10.3389/fmicb.2023.1320312. eCollection 2023.Front Microbiol. 2024.PMID: 38274740 Free PMC article. 
+*   [The role of whole genome sequencing in antimicrobial susceptibility testing of bacteria: report from the EUCAST Subcommittee.](https://pubmed.ncbi.nlm.nih.gov/27890457/)
+
+Ellington MJ, Ekelund O, Aarestrup FM, Canton R, Doumith M, Giske C, Grundman H, Hasman H, Holden MTG, Hopkins KL, Iredell J, Kahlmeter G, Köser CU, MacGowan A, Mevius D, Mulvey M, Naas T, Peto T, Rolain JM, Samuelsen Ø, Woodford N.Ellington MJ, et al.Clin Microbiol Infect. 2017 Jan;23(1):2-22. doi: 10.1016/j.cmi.2016.11.012. Epub 2016 Nov 23.Clin Microbiol Infect. 2017.PMID: 27890457 Review. 
+
+## Grants and funding
+
+*   [2599501/UKRI](https://pubmed.ncbi.nlm.nih.gov/?term=2599501%2FUKRI%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2599501/UKRI")
+*   [226691/Z/22/Z/WT_/Wellcome Trust/United Kingdom](https://pubmed.ncbi.nlm.nih.gov/?term=226691%2FZ%2F22%2FZ%2FWT_%2FWellcome+Trust%2FUnited+Kingdom%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 226691/Z/22/Z/WT_/Wellcome Trust/United Kingdom")
+*   [226691/Z/22/Z/WT_/Wellcome Trust/United Kingdom](https://pubmed.ncbi.nlm.nih.gov/?term=226691%2FZ%2F22%2FZ%2FWT_%2FWellcome+Trust%2FUnited+Kingdom%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 226691/Z/22/Z/WT_/Wellcome Trust/United Kingdom")
+*   [226691/Z/22/Z/WT_/Wellcome Trust/United Kingdom](https://pubmed.ncbi.nlm.nih.gov/?term=226691%2FZ%2F22%2FZ%2FWT_%2FWellcome+Trust%2FUnited+Kingdom%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 226691/Z/22/Z/WT_/Wellcome Trust/United Kingdom")
+*   [226691/Z/22/Z/WT_/Wellcome Trust/United Kingdom](https://pubmed.ncbi.nlm.nih.gov/?term=226691%2FZ%2F22%2FZ%2FWT_%2FWellcome+Trust%2FUnited+Kingdom%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 226691/Z/22/Z/WT_/Wellcome Trust/United Kingdom")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Nature Publishing Group](https://doi.org/10.1038/s44259-026-00217-4)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/non-CPTAC-3409)

@@ -1,0 +1,71 @@
+Title: Enterotype-specific microbial biomarkers of immune checkpoint inhibitor response revealed by large-scale integrated metagenomic analysis - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42189287/
+
+Markdown Content:
+Actions
+
+. 2026 May 26.
+
+doi: 10.1007/s00262-026-04432-w.  Online ahead of print.
+
+[Enrico Busi](https://pubmed.ncbi.nlm.nih.gov/?term=Busi+E&cauthor_id=42189287)[#](https://pubmed.ncbi.nlm.nih.gov/42189287/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/42189287/#full-view-affiliation-1 "Department of Life Sciences, University of Modena and Reggio Emilia, Via Campi 103, 41125, Modena, Italy."),[Sara Cerri](https://pubmed.ncbi.nlm.nih.gov/?term=Cerri+S&cauthor_id=42189287)[2](https://pubmed.ncbi.nlm.nih.gov/42189287/#full-view-affiliation-2 "Operative Unit of Oncology, Department of Oncology, ASST Cremona Hospital of Cremona, 26100, Cremona, Italy."),[Laura Sola](https://pubmed.ncbi.nlm.nih.gov/?term=Sola+L&cauthor_id=42189287)[1](https://pubmed.ncbi.nlm.nih.gov/42189287/#full-view-affiliation-1 "Department of Life Sciences, University of Modena and Reggio Emilia, Via Campi 103, 41125, Modena, Italy."),[Matteo Lombardi](https://pubmed.ncbi.nlm.nih.gov/?term=Lombardi+M&cauthor_id=42189287)[3](https://pubmed.ncbi.nlm.nih.gov/42189287/#full-view-affiliation-3 "Department of Physics, Informatics and Mathematics, University of Modena and Reggio Emilia, Modena, Italy."),[Stefano Greco](https://pubmed.ncbi.nlm.nih.gov/?term=Greco+S&cauthor_id=42189287)[4](https://pubmed.ncbi.nlm.nih.gov/42189287/#full-view-affiliation-4 "Division of Oncology, Department of Medical and Surgical Sciences for Children and Adults, University of Modena and Reggio Emilia, Largo del Pozzo 71, Modena, Italy.")[5](https://pubmed.ncbi.nlm.nih.gov/42189287/#full-view-affiliation-5 "Division of Oncology, Department of Oncology and Hematology, University of Modena and Reggio Emilia and University Hospital of Modena, Modena, Italy."),[Sara Pedroni](https://pubmed.ncbi.nlm.nih.gov/?term=Pedroni+S&cauthor_id=42189287)[1](https://pubmed.ncbi.nlm.nih.gov/42189287/#full-view-affiliation-1 "Department of Life Sciences, University of Modena and Reggio Emilia, Via Campi 103, 41125, Modena, Italy."),[Alberto Amaretti](https://pubmed.ncbi.nlm.nih.gov/?term=Amaretti+A&cauthor_id=42189287)[1](https://pubmed.ncbi.nlm.nih.gov/42189287/#full-view-affiliation-1 "Department of Life Sciences, University of Modena and Reggio Emilia, Via Campi 103, 41125, Modena, Italy.")[6](https://pubmed.ncbi.nlm.nih.gov/42189287/#full-view-affiliation-6 "Biogest-Siteia, University of Modena and Reggio Emilia, Modena, Italy."),[Stefano Raimondi](https://pubmed.ncbi.nlm.nih.gov/?term=Raimondi+S&cauthor_id=42189287)[1](https://pubmed.ncbi.nlm.nih.gov/42189287/#full-view-affiliation-1 "Department of Life Sciences, University of Modena and Reggio Emilia, Via Campi 103, 41125, Modena, Italy.")[6](https://pubmed.ncbi.nlm.nih.gov/42189287/#full-view-affiliation-6 "Biogest-Siteia, University of Modena and Reggio Emilia, Modena, Italy."),[Chiara Chiavelli](https://pubmed.ncbi.nlm.nih.gov/?term=Chiavelli+C&cauthor_id=42189287)[4](https://pubmed.ncbi.nlm.nih.gov/42189287/#full-view-affiliation-4 "Division of Oncology, Department of Medical and Surgical Sciences for Children and Adults, University of Modena and Reggio Emilia, Largo del Pozzo 71, Modena, Italy."),[Maria Giuseppa Vitale](https://pubmed.ncbi.nlm.nih.gov/?term=Vitale+MG&cauthor_id=42189287)[5](https://pubmed.ncbi.nlm.nih.gov/42189287/#full-view-affiliation-5 "Division of Oncology, Department of Oncology and Hematology, University of Modena and Reggio Emilia and University Hospital of Modena, Modena, Italy."),[Federica Bertolini](https://pubmed.ncbi.nlm.nih.gov/?term=Bertolini+F&cauthor_id=42189287)[5](https://pubmed.ncbi.nlm.nih.gov/42189287/#full-view-affiliation-5 "Division of Oncology, Department of Oncology and Hematology, University of Modena and Reggio Emilia and University Hospital of Modena, Modena, Italy."),[Roberta Depenni](https://pubmed.ncbi.nlm.nih.gov/?term=Depenni+R&cauthor_id=42189287)[5](https://pubmed.ncbi.nlm.nih.gov/42189287/#full-view-affiliation-5 "Division of Oncology, Department of Oncology and Hematology, University of Modena and Reggio Emilia and University Hospital of Modena, Modena, Italy."),[Giorgia Franchini](https://pubmed.ncbi.nlm.nih.gov/?term=Franchini+G&cauthor_id=42189287)[3](https://pubmed.ncbi.nlm.nih.gov/42189287/#full-view-affiliation-3 "Department of Physics, Informatics and Mathematics, University of Modena and Reggio Emilia, Modena, Italy."),[Massimo Dominici](https://pubmed.ncbi.nlm.nih.gov/?term=Dominici+M&cauthor_id=42189287)[7](https://pubmed.ncbi.nlm.nih.gov/42189287/#full-view-affiliation-7 "Division of Oncology, Department of Medical and Surgical Sciences for Children and Adults, University of Modena and Reggio Emilia, Largo del Pozzo 71, Modena, Italy. massimo.dominici@unimore.it.")[8](https://pubmed.ncbi.nlm.nih.gov/42189287/#full-view-affiliation-8 "Division of Oncology, Department of Oncology and Hematology, University of Modena and Reggio Emilia and University Hospital of Modena, Modena, Italy. massimo.dominici@unimore.it."),[Maddalena Rossi](https://pubmed.ncbi.nlm.nih.gov/?term=Rossi+M&cauthor_id=42189287)[9](https://pubmed.ncbi.nlm.nih.gov/42189287/#full-view-affiliation-9 "Department of Life Sciences, University of Modena and Reggio Emilia, Via Campi 103, 41125, Modena, Italy. maddalena.rossi@unimore.it.")[10](https://pubmed.ncbi.nlm.nih.gov/42189287/#full-view-affiliation-10 "Biogest-Siteia, University of Modena and Reggio Emilia, Modena, Italy. maddalena.rossi@unimore.it.")
+
+Affiliations
+
+*    PMID: **42189287**
+*    DOI: [10.1007/s00262-026-04432-w](https://doi.org/10.1007/s00262-026-04432-w)
+
+## Enterotype-specific microbial biomarkers of immune checkpoint inhibitor response revealed by large-scale integrated metagenomic analysis
+
+Francesco Candeliere et al. Cancer Immunol Immunother.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+The gut microbiota appears to play a critical role in modulating antitumor immune responses and influencing the efficacy of cancer immunotherapy drugs such as immune checkpoint inhibitors. However, the identification of consistent microbial biomarkers of response remains a significant challenge. This lack of consensus is largely driven by multi-source heterogeneity, including geographic variations in lifestyle, and high inter-individual variability. We hypothesize that these inconsistencies arise because microbiome composition is not uniform but organized into distinct enterotypes. To address this, we performed an integrated metagenomic analysis of 569 fecal samples from oncological patients affected by different tumor types treated with immunotherapy. The samples were clustered into two main enterotypes, E1 and E2, each of them containing two subclusters. A total of 166 species (e.g., Collinsella spp., Blautia spp., Bacteroides spp.) were identified as enterotype-specific biomarkers. A preliminary independent concordance assessment of these biomarkers was conducted in 19 oncologic patients with exceptional response to immunotherapy, providing an initial confirmation of selected enterotype-associated signals. Furthermore, we evaluated the predictive potential of gut microbiota profiles for immunotherapy outcomes through machine learning techniques. The models showed encouraging, albeit moderate, performance in the heterogeneous full dataset, supporting the potential of microbiome-based stratification as an exploratory framework for patient classification, while indicating that further validation is needed before clinical application.
+
+**Keywords:** Enterotype; Gut microbiota; Immunotherapy; Machine learning; Metagenomics.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Conflict of interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Exploring fecal microbiota signatures associated with immune response and antibiotic impact in NSCLC: insights from metagenomic and machine learning approaches.](https://pubmed.ncbi.nlm.nih.gov/40792105/)
+
+Han W, Zhou Y, Wang Y, Liu X, Sun T, Xu J.Han W, et al.Front Cell Infect Microbiol. 2025 Jul 28;15:1591076. doi: 10.3389/fcimb.2025.1591076. eCollection 2025.Front Cell Infect Microbiol. 2025.PMID: 40792105 Free PMC article. 
+*   [Species-level identification of enterotype-specific microbial markers for colorectal cancer and adenoma.](https://pubmed.ncbi.nlm.nih.gov/38780313/)
+
+Güven Gülhan Ü, Nikerel E, Çakır T, Erdoğan Sevilgen F, Durmuş S.Güven Gülhan Ü, et al.Mol Omics. 2024 Jul 8;20(6):397-416. doi: 10.1039/d4mo00016a.Mol Omics. 2024.PMID: 38780313 
+*   [Gut Microbiota Biomarkers in Patients with Hepatocellular Carcinoma in the Era of Immune Checkpoint Inhibitors.](https://pubmed.ncbi.nlm.nih.gov/42073451/)
+
+Cerreto M, Maestri M, Pallozzi M, Cerrito L, Stella L, Ianiro G, Gasbarrini A, Ponziani FR.Cerreto M, et al.Life (Basel). 2026 Apr 10;16(4):641. doi: 10.3390/life16040641.Life (Basel). 2026.PMID: 42073451 Free PMC article.Review. 
+*   [Folic acid supplementation and malaria susceptibility and severity among people taking antifolate antimalarial drugs in endemic areas.](https://pubmed.ncbi.nlm.nih.gov/36321557/)
+
+Crider K, Williams J, Qi YP, Gutman J, Yeung L, Mai C, Finkelstain J, Mehta S, Pons-Duran C, Menéndez C, Moraleda C, Rogers L, Daniels K, Green P.Crider K, et al.Cochrane Database Syst Rev. 2022 Feb 1;2(2022):CD014217. doi: 10.1002/14651858.CD014217.Cochrane Database Syst Rev. 2022.PMID: 36321557 Free PMC article.Updated. 
+*   [Prioritizing gut microbial SNPs linked to immunotherapy outcomes in NSCLC patients by integrative bioinformatics analysis.](https://pubmed.ncbi.nlm.nih.gov/40098172/)
+
+Raziq MF, Khan N, Manzoor H, Tariq HMA, Rafiq M, Rasool S, Kayani MUR, Huang L.Raziq MF, et al.J Transl Med. 2025 Mar 17;23(1):343. doi: 10.1186/s12967-025-06370-0.J Transl Med. 2025.PMID: 40098172 Free PMC article. 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Springer](https://dx.doi.org/10.1007/s00262-026-04432-w)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-1612)

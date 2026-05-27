@@ -1,0 +1,63 @@
+Title: Untargeted metabolomics reveals organism specific biomarkers of carbapenem resistance in Klebsiella pneumoniae and Escherichia coli - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42191701/
+
+Markdown Content:
+Actions
+
+. 2026 May 26.
+
+doi: 10.1038/s41540-026-00747-7.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42191701**
+*    DOI: [10.1038/s41540-026-00747-7](https://doi.org/10.1038/s41540-026-00747-7)
+
+Free article
+
+## Untargeted metabolomics reveals organism specific biomarkers of carbapenem resistance in Klebsiella pneumoniae and Escherichia coli
+
+Nicholas Bartelo et al. NPJ Syst Biol Appl.2026.
+
+Free article
+
+## Abstract
+
+Antimicrobial resistance (AMR) is one of the greatest global concerns due to the increase in the rate of AMR infections and the lack of development of antimicrobial agents to combat AMR. The development of resistance to carbapenems among common pathogenic bacteria, including Klebsiella pneumoniae and Escherichia coli, is particularly concerning because carbapenems are relied upon for the treatment of Gram-negative infections. Metabolomics offers an approach to identify biomarkers associated with metabolic mechanisms of carbapenem resistance. We analyzed 512 annotated metabolites from a total of 297 bacterial isolates spanning eight organisms. We discovered that the metabolome has greater variation between organisms compared with the resistance phenotype. As a result, we conducted organism-specific statistical analyses to discriminate carbapenem-resistant from carbapenem-sensitive isolates, and supervised learning models resulted in test set mean and standard deviation of area under the receiver operating characteristic curve of 0.822 ± 0.092 and 0.670 ± 0.110, and area under the precision-recall curve of 0.973 ± 0.016 and 0.653 ± 0.121, for Klebsiella pneumoniae and Escherichia coli, respectively. Feature selection using lasso logistic regression identified four metabolite biomarkers of carbapenem resistance in Klebsiella pneumoniae as 6-hydroxyphenazine-1-carboxamide (6-OH-Phz-1-Cam), N-Lactoyl tyrosine (N-Lac tyrosine), flavin adenine dinucleotide (FAD), and amalorin, and seven metabolite biomarkers in Escherichia coli as ibha#30, Cyclo(Leu-Lys), Asukamycin A-II, LPA 16:0, sphinganine, phytosphingosine, and PA 14:0/4:1;O. These unique metabolic signatures provide a vital foundation for exploring the emergence of AMR, warranting follow-up studies to clarify their role in carbapenem resistance and inform improved diagnostics and treatments for AMR.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Competing interests: J.K. is co-founder and holds equity in iollo and ExactRx (Celeste Health, Inc) and is an advisor to Everfur (Strand Health, Inc) but declares no non-financial competing interests. M.J.S. previously acted as a paid consultant for Shionogi and has received research funding from Merck, SNIPRBiome, bioMéreiux, and Selux Diagnostics, but declares no non-financial competing interests. Z.Z. previously acted as a paid consultant/advisor for ET Healthcare, Radiometer, Intelligenome, Roche and Siemens and has received sponsored research/seed instrument from Roche, Siemens, ET Healthcare, Gator Bio, Novartis, Polymedco, and Waters, but declares no non-financial competing interests. H.S.Y., F.W., N.B., Y.L., Y.H., V.S., and J.M. declare no financial or non-financial competing interests.
+
+## Similar articles
+
+*   [Antibiotic Susceptibility Profile of Carbapenem Resistant _Escherichia Coli_ and _Klebsiella Pneumoniae_ in Urinary Isolates from a Tertiary Care Hospital: An Observational Study.](https://pubmed.ncbi.nlm.nih.gov/41783663/)
+
+Verma G, Smriti S, Dash RK, Das L, Pattnaik D, Singh N, Panda SS, Tripathy S.Verma G, et al.JNMA J Nepal Med Assoc. 2025 Aug;63(288):556-560. doi: 10.31729/jnma.9149. Epub 2025 Jul 31.JNMA J Nepal Med Assoc. 2025.PMID: 41783663 Free PMC article. 
+*   [Mapping Antimicrobial Resistance in _Escherichia coli_ and _Klebsiella pneumoniae_ from Complicated Urinary Tract Infections in Oman: Phenotypic and Genotypic Insights.](https://pubmed.ncbi.nlm.nih.gov/40361883/)
+
+Al Shizawi N, Al Jabri Z, Khan F, Sami H, Al Siyabi T, Al Muharrmi Z, Sirasanagandla SR, Rizvi M.Al Shizawi N, et al.Diagnostics (Basel). 2025 Apr 22;15(9):1062. doi: 10.3390/diagnostics15091062.Diagnostics (Basel). 2025.PMID: 40361883 Free PMC article. 
+*   [Antibiotic resistance and detection of plasmid mediated colistin resistance mcr-1 gene among Escherichia coli and Klebsiella pneumoniae isolated from clinical samples.](https://pubmed.ncbi.nlm.nih.gov/34225805/)
+
+Karki D, Dhungel B, Bhandari S, Kunwar A, Joshi PR, Shrestha B, Rijal KR, Ghimire P, Banjara MR.Karki D, et al.Gut Pathog. 2021 Jul 5;13(1):45. doi: 10.1186/s13099-021-00441-5.Gut Pathog. 2021.PMID: 34225805 Free PMC article. 
+*   [Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis.](https://pubmed.ncbi.nlm.nih.gov/35065702/)
+
+Antimicrobial Resistance Collaborators.Antimicrobial Resistance Collaborators.Lancet. 2022 Feb 12;399(10325):629-655. doi: 10.1016/S0140-6736(21)02724-0. Epub 2022 Jan 19.Lancet. 2022.PMID: 35065702 Free PMC article. 
+*   [Review and analysis of the overlapping threats of carbapenem and polymyxin resistant E. coli and Klebsiella in Africa.](https://pubmed.ncbi.nlm.nih.gov/37013626/)
+
+Venne DM, Hartley DM, Malchione MD, Koch M, Britto AY, Goodman JL.Venne DM, et al.Antimicrob Resist Infect Control. 2023 Apr 4;12(1):29. doi: 10.1186/s13756-023-01220-4.Antimicrob Resist Infect Control. 2023.PMID: 37013626 Free PMC article. 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Nature Publishing Group](https://doi.org/10.1038/s41540-026-00747-7)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/non-CPTAC-2621)

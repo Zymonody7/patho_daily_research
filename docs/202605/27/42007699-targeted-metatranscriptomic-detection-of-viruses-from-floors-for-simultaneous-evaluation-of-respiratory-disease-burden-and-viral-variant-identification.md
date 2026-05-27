@@ -1,0 +1,18 @@
+---
+title: Targeted metatranscriptomic detection of viruses from floors for simultaneous evaluation of respiratory disease burden and viral variant identification.
+authors: "Amanda C Carroll, Aaron Hinz, Alexandra M A Hicks, Engluy Khov, Tamara Van Bakel, Evgueni Doukhanine, Michael Fralick, Caroline Nott, Rees Kassen, Nisha Thampi, Laura A Hug, Derek MacFadden, Alex Wong"
+date: 2026-05-26
+pdf: "https://pubmed.ncbi.nlm.nih.gov/42007699/"
+tags: ["query:pathoai"]
+score: 7.0
+evidence: 用于病毒变异识别和疾病负担追踪的元转录组监测
+tldr: 利用靶向元转录组学对环境中的病毒病原体进行监测并识别其变异株。
+selection_source: fresh_fetch
+motivation: 用于病毒变异识别和疾病负担追踪的元转录组监测。
+method: 方法与实现细节请参考摘要与正文。
+result: 结果与对比结论请参考摘要与正文。
+conclusion: 总体而言，该工作在所述任务上展示了有效性，并提供了可复用的思路或工具。
+---
+
+## Abstract
+UNLABELLED: Built environment surveillance is a proven approach for tracking disease burden of some viruses within hospitals and long-term care facilities. However, studies in clinical settings are lacking for simultaneously surveying targets in a built environment using targeted metatranscriptomics. We swabbed six discrete floor locations within an acute care center's emergency department (ED) in Ottawa, Canada, and sequenced cDNA using a 132 viral taxa panel, identifying viral burden across sampling locations and time. The determined SARS-CoV-2 variant profile across time was matched to provincial variant prevalence. The correlation between metatranscriptomic read abundances and reported cases of influenza A, SARS-CoV-2, and RSV was assessed. We quantified these via qPCR and assessed the correlation of Cq versus metatranscriptomic reads for these viruses. We sequenced a median of 1,302,882 reads per sample from 38 floor swabs collected during peak respiratory viral season (November 2022-February 2023). Diversity of viral communities varied significantly across locations in the ED. SARS-CoV-2 variant abundance shifts matched the changing infection landscape concurrently reported in Ontario. Relationships between targeted metatranscriptomic read ratios and clinical burden were not statistically significant, although we found modest correspondence between qPCR signal and read depth for RSV and SARS-CoV-2. This approach characterized the viral communities and the within-species diversity within an ED. Correlating sequencing-derived data with disease burden for three key respiratory viruses was inconsistent, with the exception of significant correlation between metatranscriptomic reads and Cq data for SARS-CoV-2. We were able to recover the distribution of clinically reported SARS-CoV-2 variants from the floor swab data. IMPORTANCE: Environmental surveillance is useful for estimating the disease burden for certain viruses. qPCR is commonly used for surveillance of wastewater and built environments, including during the COVID-19 pandemic, but single, multiplexed reaction targets are limited. Targeted metagenomic or metatranscriptomic approaches can accurately quantify microbial populations of interest in an environment, reduce off-target sequencing, and evaluate a broader number of targets than qPCR assays. Here, we assessed the capacity of a targeted viral metatranscriptomic panel to correlate viral abundance in the hospital built environment with key pathogens of interest, including influenza A, RSV, and SARS-CoV-2. Our results suggest that targeted metatranscriptomics may identify viral communities in healthcare facilities, including strain-level detection capability. However, this approach must be validated for its effectiveness in viral surveillance that accurately reflects disease burden. This work contributes to a growing toolkit for pathogen surveillance, a critical endeavor to safeguard against outbreaks of known and emerging pathogens.

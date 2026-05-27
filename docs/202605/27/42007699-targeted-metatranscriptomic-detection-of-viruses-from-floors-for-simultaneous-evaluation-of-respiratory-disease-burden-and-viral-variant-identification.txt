@@ -1,0 +1,132 @@
+Title: Targeted metatranscriptomic detection of viruses from floors for simultaneous evaluation of respiratory disease burden and viral variant identification - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42007699/
+
+Markdown Content:
+Actions
+
+. 2026 May 26;11(5):e0008626.
+
+doi: 10.1128/msphere.00086-26.  Epub 2026 Apr 20.
+
+[Aaron Hinz](https://pubmed.ncbi.nlm.nih.gov/?term=Hinz+A&cauthor_id=42007699)[2](https://pubmed.ncbi.nlm.nih.gov/42007699/#full-view-affiliation-2 "McGill University, Montreal, Quebec, Canada.")[3](https://pubmed.ncbi.nlm.nih.gov/42007699/#full-view-affiliation-3 "Carleton University, Ottawa, Ontario, Canada."),[Alexandra M A Hicks](https://pubmed.ncbi.nlm.nih.gov/?term=Hicks+AMA&cauthor_id=42007699)[3](https://pubmed.ncbi.nlm.nih.gov/42007699/#full-view-affiliation-3 "Carleton University, Ottawa, Ontario, Canada.")[4](https://pubmed.ncbi.nlm.nih.gov/42007699/#full-view-affiliation-4 "The University of Ottawa, Ottawa, Ontario, Canada."),[Engluy Khov](https://pubmed.ncbi.nlm.nih.gov/?term=Khov+E&cauthor_id=42007699)[5](https://pubmed.ncbi.nlm.nih.gov/42007699/#full-view-affiliation-5 "Children's Hospital of Eastern Ontario, Ottawa, Ontario, Canada."),[Tamara Van Bakel](https://pubmed.ncbi.nlm.nih.gov/?term=Van+Bakel+T&cauthor_id=42007699)[6](https://pubmed.ncbi.nlm.nih.gov/42007699/#full-view-affiliation-6 "Sinai Health System, Toronto, Ontario, Canada."),[Evgueni Doukhanine](https://pubmed.ncbi.nlm.nih.gov/?term=Doukhanine+E&cauthor_id=42007699)[7](https://pubmed.ncbi.nlm.nih.gov/42007699/#full-view-affiliation-7 "DNA Genotek, Ottawa, Ontario, Canada."),[Michael Fralick](https://pubmed.ncbi.nlm.nih.gov/?term=Fralick+M&cauthor_id=42007699)[6](https://pubmed.ncbi.nlm.nih.gov/42007699/#full-view-affiliation-6 "Sinai Health System, Toronto, Ontario, Canada.")[8](https://pubmed.ncbi.nlm.nih.gov/42007699/#full-view-affiliation-8 "The University of Toronto, Toronto, Ontario, Canada."),[Caroline Nott](https://pubmed.ncbi.nlm.nih.gov/?term=Nott+C&cauthor_id=42007699)[1](https://pubmed.ncbi.nlm.nih.gov/42007699/#full-view-affiliation-1 "The Ottawa Hospital Research Institute, Ottawa, Ontario, Canada.")[4](https://pubmed.ncbi.nlm.nih.gov/42007699/#full-view-affiliation-4 "The University of Ottawa, Ottawa, Ontario, Canada.")[9](https://pubmed.ncbi.nlm.nih.gov/42007699/#full-view-affiliation-9 "The Ottawa Hospital, Ottawa, Ontario, Canada."),[Rees Kassen](https://pubmed.ncbi.nlm.nih.gov/?term=Kassen+R&cauthor_id=42007699)[2](https://pubmed.ncbi.nlm.nih.gov/42007699/#full-view-affiliation-2 "McGill University, Montreal, Quebec, Canada.")[4](https://pubmed.ncbi.nlm.nih.gov/42007699/#full-view-affiliation-4 "The University of Ottawa, Ottawa, Ontario, Canada."),[Nisha Thampi](https://pubmed.ncbi.nlm.nih.gov/?term=Thampi+N&cauthor_id=42007699)[4](https://pubmed.ncbi.nlm.nih.gov/42007699/#full-view-affiliation-4 "The University of Ottawa, Ottawa, Ontario, Canada.")[5](https://pubmed.ncbi.nlm.nih.gov/42007699/#full-view-affiliation-5 "Children's Hospital of Eastern Ontario, Ottawa, Ontario, Canada."),[Laura A Hug](https://pubmed.ncbi.nlm.nih.gov/?term=Hug+LA&cauthor_id=42007699)[10](https://pubmed.ncbi.nlm.nih.gov/42007699/#full-view-affiliation-10 "University of Waterloo, Waterloo, Ontario, Canada."),[Derek MacFadden](https://pubmed.ncbi.nlm.nih.gov/?term=MacFadden+D&cauthor_id=42007699)[1](https://pubmed.ncbi.nlm.nih.gov/42007699/#full-view-affiliation-1 "The Ottawa Hospital Research Institute, Ottawa, Ontario, Canada.")[4](https://pubmed.ncbi.nlm.nih.gov/42007699/#full-view-affiliation-4 "The University of Ottawa, Ottawa, Ontario, Canada.")[9](https://pubmed.ncbi.nlm.nih.gov/42007699/#full-view-affiliation-9 "The Ottawa Hospital, Ottawa, Ontario, Canada."),[Alex Wong](https://pubmed.ncbi.nlm.nih.gov/?term=Wong+A&cauthor_id=42007699)[3](https://pubmed.ncbi.nlm.nih.gov/42007699/#full-view-affiliation-3 "Carleton University, Ottawa, Ontario, Canada.")
+
+Affiliations
+
+*    PMID: **42007699**
+*    PMCID: [PMC13203961](https://pmc.ncbi.nlm.nih.gov/articles/PMC13203961/)
+*    DOI: [10.1128/msphere.00086-26](https://doi.org/10.1128/msphere.00086-26)
+
+## Targeted metatranscriptomic detection of viruses from floors for simultaneous evaluation of respiratory disease burden and viral variant identification
+
+Amanda C Carroll et al. mSphere.2026.
+
+## Abstract
+
+Built environment surveillance is a proven approach for tracking disease burden of some viruses within hospitals and long-term care facilities. However, studies in clinical settings are lacking for simultaneously surveying targets in a built environment using targeted metatranscriptomics. We swabbed six discrete floor locations within an acute care center's emergency department (ED) in Ottawa, Canada, and sequenced cDNA using a 132 viral taxa panel, identifying viral burden across sampling locations and time. The determined SARS-CoV-2 variant profile across time was matched to provincial variant prevalence. The correlation between metatranscriptomic read abundances and reported cases of influenza A, SARS-CoV-2, and RSV was assessed. We quantified these via qPCR and assessed the correlation of Cq versus metatranscriptomic reads for these viruses. We sequenced a median of 1,302,882 reads per sample from 38 floor swabs collected during peak respiratory viral season (November 2022-February 2023). Diversity of viral communities varied significantly across locations in the ED. SARS-CoV-2 variant abundance shifts matched the changing infection landscape concurrently reported in Ontario. Relationships between targeted metatranscriptomic read ratios and clinical burden were not statistically significant, although we found modest correspondence between qPCR signal and read depth for RSV and SARS-CoV-2. This approach characterized the viral communities and the within-species diversity within an ED. Correlating sequencing-derived data with disease burden for three key respiratory viruses was inconsistent, with the exception of significant correlation between metatranscriptomic reads and Cq data for SARS-CoV-2. We were able to recover the distribution of clinically reported SARS-CoV-2 variants from the floor swab data.
+
+**Importance:** Environmental surveillance is useful for estimating the disease burden for certain viruses. qPCR is commonly used for surveillance of wastewater and built environments, including during the COVID-19 pandemic, but single, multiplexed reaction targets are limited. Targeted metagenomic or metatranscriptomic approaches can accurately quantify microbial populations of interest in an environment, reduce off-target sequencing, and evaluate a broader number of targets than qPCR assays. Here, we assessed the capacity of a targeted viral metatranscriptomic panel to correlate viral abundance in the hospital built environment with key pathogens of interest, including influenza A, RSV, and SARS-CoV-2. Our results suggest that targeted metatranscriptomics may identify viral communities in healthcare facilities, including strain-level detection capability. However, this approach must be validated for its effectiveness in viral surveillance that accurately reflects disease burden. This work contributes to a growing toolkit for pathogen surveillance, a critical endeavor to safeguard against outbreaks of known and emerging pathogens.
+
+**Keywords:** environmental surveillance; hospital; targeted metatranscriptomics; viruses.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+M.F. was a consultant for ProofDx, a start-up company creating a point of care diagnostic test for COVID-19; is an advisor for SIGNAL1, a start-up company deploying machine-learned models to improve inpatient care; and has been an expert witness on content unrelated to this work. M.F. also holds a provisional patent for a model that predicts acute dialysis needs. E.D. works for DNA Genotek, who provided sample collection kits in-kind for this study in an unrestricted fashion. DNA Genotek had no control over the findings, interpretations, or conclusions published in this paper.
+
+## Figures
+
+[![Image 1: Fig 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4b6c/13203961/d1998b80ce69/msphere.00086-26.f001.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4b6c/13203961/58277f5a257f/msphere.00086-26.f001.jpg)
+
+**Fig 1**
+(**A**) Bubble chart showing the normalized read abundances of samples collected between the final week of November (week 4) 2022 and the final week of February (week 4) 2023 for all detected viruses in each sample. Samples are colored and ordered according to date, and the size of the bubble corresponds to abundance of normalized reads. HWA, hallway A; HWB, hallway B; NTC, no template control; OWB, outside waiting room B; PC, positive control; TRI, triage; WRA, waiting room A; WRB, waiting room B (a mixture of SARS-CoV-2, RSV, and influenza virus RNA). (**B**) Histogram showing the number of samples each virus was detected in (out of 38 swab samples). Samples were normalized using a scaling approach; the median number of viral target reads across all samples (not including controls) was determined, and a scaling factor for each sample was calculated compared to this median. The scaling factor was applied to all viral read counts within that sample.
+
+[![Image 2: Fig 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4b6c/13203961/1f1c64c9ebef/msphere.00086-26.f002.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4b6c/13203961/94f222d9df23/msphere.00086-26.f002.jpg)
+
+**Fig 2**
+Shannon indices for 38 samples, collected from the final week of November 2022 to the final week of February 2023 in six locations within a regional hospital. White squares indicate that no sample was collected for that date-location combination. HWA, hallway A; HWB, hallway B; OWB, outside waiting room B; TRI, triage; WRA, waiting room A; WRB, waiting room B. Samples were normalized using a scaling approach; the median number of viral target reads across all samples (not including controls) was determined, and a scaling factor for each sample was calculated compared to this median. This scaling factor was applied to all viral read counts within that sample.
+
+[![Image 3: Fig 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4b6c/13203961/527b8ff1878b/msphere.00086-26.f003.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4b6c/13203961/391999ca722e/msphere.00086-26.f003.jpg)
+
+**Fig 3**
+Principal coordinate analysis (PCoA) of the 38 swab samples. (**A**) PCoA for all viruses detected in the 38 samples. (**B**) PCoA for all samples by the location of sample collection. (**C**) PCoA for all samples by date of sample collection. HWA, hallway A; HWB, hallway B; OWB, outside waiting room B; TRI, triage; WRA, waiting room A; WRB, waiting room B. Samples were normalized using a scaling approach; the median number of viral target reads across all samples (not including controls) was determined, and a scaling factor for each sample was calculated compared to this median. This scaling factor was applied to all viral read counts within that sample.
+
+[![Image 4: Fig 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4b6c/13203961/d49dbfc7bc70/msphere.00086-26.f004.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4b6c/13203961/8a1fdc11dd5b/msphere.00086-26.f004.jpg)
+
+**Fig 4**
+Heatmaps depicting SARS-CoV-2 variants’ relative abundance across samples, constrained to samples with percent genome coverage ≥60% (**A**) and ≥80% (**B**). SARS-CoV-2 variants are across the _x_-axis, with samples along the _y_-axis named as year-month-day_location. The heatmap shows lineages ordered alphabetically (_x_-axis) and samples are ordered chronologically (_y_-axis). Sublineages were collapsed based on shared numeric lineage nomenclature (denoted as *) when sublineages were in low abundance. All sublineages fall under the Omicron lineage, except for B.1* in panel **A**. HWA, hallway A; HWB, hallway B; NTC, no template control; OWB, outside waiting room B; PC, positive control; TRI, triage; WRA, waiting room A; WRB, waiting room B.
+
+[![Image 5: Fig 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4b6c/13203961/7d9dbafab6ba/msphere.00086-26.f005.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4b6c/13203961/06fa1aadfae3/msphere.00086-26.f005.jpg)
+
+**Fig 5**
+Comparison of the proportion of targeted metatranscriptomic read ratios relative to mastadenovirus with 7-day total hospital admissions for RSV (**A and B**), influenza A (FluA) (**C and D**), and SARS-CoV-2 (SCV2) (**E and F**). Data are plotted by date (**A, C, and E**) with the solid line depicting hospital admissions and data points (circles) showing read counts, and as a correlation between reads and admissions (**B, D, and F**). The proportion in these analyses was determined by assessing the relationship between the unscaled, original targeted metagenomic read counts for each virus to the mastadenovirus.
+
+[![Image 6: Fig 6](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4b6c/13203961/e3af0c5a28bd/msphere.00086-26.f006.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/4b6c/13203961/300ff7bc242b/msphere.00086-26.f006.jpg)
+
+**Fig 6**
+Relationship between the proportion of unnormalized targeted metagenomic read counts for each virus relative to mastadenovirus and virus-specific qPCR. Panels **A, C, and E** show read ratios of the target virus relative to mastadenovirus for samples that are qPCR-negative or qPCR-positive for RSV, influenza A (FluA), or SARS-CoV-2, respectively. Panels **B, D, and F** illustrate correlations between read count and qPCR Cq value for the positive samples. Reads in these analyses were normalized by assessing the relationship between the unscaled, original targeted metagenomic read counts for each virus to the mastadenovirus.
+
+## Similar articles
+
+*   [Towards efficient and targeted sampling of primary respiratory diseases from wastewater in congregate settings for seniors: Empowering high-risk demographics with prospective health threat data.](https://pubmed.ncbi.nlm.nih.gov/40581161/)
+
+Morrison EN, Harnden M, Boisvert E, Wilson AE, Piggott T, Pigeau C, Kyle CJ.Morrison EN, et al.J Virol Methods. 2025 Dec;338:115212. doi: 10.1016/j.jviromet.2025.115212. Epub 2025 Jun 27.J Virol Methods. 2025.PMID: 40581161 
+*   [RNA Viromics of Southern California Wastewater and Detection of SARS-CoV-2 Single-Nucleotide Variants.](https://pubmed.ncbi.nlm.nih.gov/34550753/)
+
+Rothman JA, Loveless TB, Kapcia J 3rd, Adams ED, Steele JA, Zimmer-Faust AG, Langlois K, Wanless D, Griffith M, Mao L, Chokry J, Griffith JF, Whiteson KL.Rothman JA, et al.Appl Environ Microbiol. 2021 Nov 10;87(23):e0144821. doi: 10.1128/AEM.01448-21. Epub 2021 Sep 22.Appl Environ Microbiol. 2021.PMID: 34550753 Free PMC article. 
+*   [Comparative Investigation and Trends of Respiratory Viruses Using Wastewater-Based Epidemiological Surveillance in Patras, Greece.](https://pubmed.ncbi.nlm.nih.gov/41739306/)
+
+Anastopoulou Z, Fokas R, Koukouvini KA, Chatziantoniou A, Vantarakis A.Anastopoulou Z, et al.Food Environ Virol. 2026 Feb 25;18(1):10. doi: 10.1007/s12560-026-09683-5.Food Environ Virol. 2026.PMID: 41739306 Free PMC article. 
+*   [Respiratory virus disease and outcomes at a large academic medical center in the United States: a retrospective observational study of the early 2023/2024 respiratory viral season.](https://pubmed.ncbi.nlm.nih.gov/39162510/)
+
+Mostafa HH, Fall A, Norton JM, Sachithanandham J, Yunker M, Abdullah O, Hanlon A, Gluck L, Morris CP, Pekosz A, Klein EY.Mostafa HH, et al.Microbiol Spectr. 2024 Oct 3;12(10):e0111624. doi: 10.1128/spectrum.01116-24. Epub 2024 Aug 20.Microbiol Spectr. 2024.PMID: 39162510 Free PMC article. 
+*   [Assessing respiratory viral exclusion and affinity interactions through co-infection incidence in a pediatric population during the 2022 resurgence of influenza and RSV.](https://pubmed.ncbi.nlm.nih.gov/37389220/)
+
+Weidmann MD, Green DA, Berry GJ, Wu F.Weidmann MD, et al.Front Cell Infect Microbiol. 2023 Jun 14;13:1208235. doi: 10.3389/fcimb.2023.1208235. eCollection 2023.Front Cell Infect Microbiol. 2023.PMID: 37389220 Free PMC article.Review. 
+
+## References
+
+1.       1.    Castellani L, MacFadden D, Moggridge J, Feenstra B, Wiebe M, Abey S, Doukhanine E, Fralick M, Hinz A, Hug L, Thampi N, Wong A, Kassen R, Nott C. 2023. Detection of COVID-19 outbreaks in hospitals using built environment testing for SARS-CoV-2. Open Forum Infect Dis 10:2303. doi: 10.1093/ofid/ofad500.1925 - [DOI](https://doi.org/10.1093/ofid/ofad500.1925)
+
+2.       1.    Fralick M, Nott C, Moggridge J, Castellani L, Raudanskis A, Guttman DS, Hinz A, Thampi N, Wong A, Manuel D, McGeer A, Doukhanine E, Mejbel H, Zanichelli V, Burella M, Donaldson SL, Wang PW, Kassen R, MacFadden DR. 2023. Detection of covid-19 outbreaks using built environment testing for SARS-CoV-2. NEJM Evid 2:EVIDoa2200203. doi: 10.1056/EVIDoa2200203 - [DOI](https://doi.org/10.1056/evidoa2200203) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/38320044/)
+
+3.       1.    Fralick Michael, Moggridge JA, Wiebe M, Castellani L, McGeer A, Feenstra B, Hinz A, Hicks AMA, Hug LA, Wong A, Van Bakel T, Abeygunawardena S, Burhunduli T, Mejbel HS, Kassen R, Thampi N, MacFadden D, Nott C. 2024. SARS-CoV-2 burden on the floor was associated with COVID-19 cases and outbreaks in two acute care hospitals: a prospective cohort study. Infect Control Hosp Epidemiol 45:1314–1318. doi: 10.1017/ice.2024.121 - [DOI](https://doi.org/10.1017/ice.2024.121) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC11663476/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/39301606/)
+
+4.       1.    Hinz A, Moggridge JA, Ke H, Hicks AMA, Doukhanine E, Fralick M, Hug L, MacFadden D, Mejbel H, Nott C, Raudanskis A, Thampi N, Wong A, Kassen R. 2024. Predicting COVID-19 cases across a large university campus using complementary built environment and wastewater surveillance approaches. medRxiv. doi: 10.1101/2024.01.24.23300025 - [DOI](https://doi.org/10.1101/2024.01.24.23300025) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC12258632/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/40672706/)
+
+5.       1.    Boehm AB, Hughes B, Duong D, Chan-Herur V, Buchman A, Wolfe MK, White BJ. 2023. Wastewater concentrations of human influenza, metapneumovirus, parainfluenza, respiratory syncytial virus, rhinovirus, and seasonal coronavirus nucleic-acids during the COVID-19 pandemic: a surveillance study. Lancet Microbe 4:e340–e348. doi: 10.1016/S2666-5247(22)00386-X - [DOI](https://doi.org/10.1016/s2666-5247(22)00386-x) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC10032662/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/36965504/)
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Supplementary concepts
+
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Atypon](https://journals.asm.org/doi/10.1128/msphere.00086-26?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
+
+*   ### Medical
+
+    *   [MedlinePlus Health Information](https://medlineplus.gov/covid19coronavirusdisease2019.html)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-438)

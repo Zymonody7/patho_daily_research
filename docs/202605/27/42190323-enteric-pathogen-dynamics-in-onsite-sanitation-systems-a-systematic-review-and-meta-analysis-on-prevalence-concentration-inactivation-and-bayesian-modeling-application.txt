@@ -1,0 +1,74 @@
+Title: Enteric pathogen dynamics in onsite sanitation systems: A systematic review and meta-analysis on prevalence, concentration, inactivation, and Bayesian modeling application - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42190323/
+
+Markdown Content:
+Review
+
+Actions
+
+. 2026 May 26:276:114828.
+
+doi: 10.1016/j.ijheh.2026.114828.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42190323**
+*    DOI: [10.1016/j.ijheh.2026.114828](https://doi.org/10.1016/j.ijheh.2026.114828)
+
+Review
+
+## Enteric pathogen dynamics in onsite sanitation systems: A systematic review and meta-analysis on prevalence, concentration, inactivation, and Bayesian modeling application
+
+Chimdi Muoghalu et al. Int J Hyg Environ Health.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+Excreta-related diseases remain a major global health concern, particularly in low- and middle-income countries (LMICs) where onsite sanitation systems (OSS) are prevalent. While OSS interrupt fecal pathogen transmission, pathogen dynamics and inactivation within them remain poorly understood. This systematic review and meta-analysis synthesize evidence on the prevalence, distribution, concentration, and inactivation of fecal indicator bacteria and enteric pathogens in OSS containment. Following PRISMA guidelines, 16 studies on pathogen prevalence and concentration and 19 on inactivation were included. Most prevalence studies focused on pit latrines (64.3%), with helminths being the most studied pathogens (68.8%). In septic tanks, pathogens showed vertical stratification; helminths were mainly found in bottom sludge (62.5%) and viruses were more prevalent in the liquid (45.3%), consistent with size-dependent settling. In contrast, pit latrines showed more uniform pathogen distribution across the top, middle, and bottom zones. Pathogen concentrations were negatively correlated with fecal sludge age (R = -0.50), temperature (R = -0.46), pH (R = -0.36), and septic tank length-to-width ratio (R = -0.52) and positively correlated with organic matter (R = 0.49) and user-to volume ratio (R = 0.45). A Bayesian multilayer perceptron model accurately predicted bacterial log reductions (R 2 = 91.45%, RMSE = 0.643), estimating that a 3-log reduction in stored fecal sludge requires a median of 5 days (95%CI:4-10 days) in dry systems and 12 days (95%CI:10-18 days) in wet systems. Bacteria were the only pathogens evaluated due to limited data. Future research should link pathogen dynamics to OSS design, operation, and microbial communities, and in-situ decay studies should be conducted.
+
+**Keywords:** Bacteria; Decentralized sanitation; Environmental health; Helminths; Protozoa; Virus.
+
+Copyright © 2026 Elsevier GmbH. All rights reserved.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declaration of competing interest The authors declare the following financial interests/personal relationships which may be considered as potential competing interests: Musa Manga reports financial support was provided by Gates Foundation. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+## Similar articles
+
+*   [A systematic review and meta-analysis of pathogen reduction in onsite sanitation systems.](https://pubmed.ncbi.nlm.nih.gov/37250291/)
+
+Musaazi IG, McLoughlin S, Murphy HM, Rose JB, Hofstra N, Tumwebaze IK, Verbyla ME.Musaazi IG, et al.Water Res X. 2023 Feb 21;18:100171. doi: 10.1016/j.wroa.2023.100171. eCollection 2023 Jan 1.Water Res X. 2023.PMID: 37250291 Free PMC article.Review. 
+*   [Greenhouse gas emissions from on-site sanitation systems: A systematic review and meta-analysis of emission rates, formation pathways and influencing factors.](https://pubmed.ncbi.nlm.nih.gov/38574706/)
+
+Manga M, Muoghalu CC.Manga M, et al.J Environ Manage. 2024 Apr;357:120736. doi: 10.1016/j.jenvman.2024.120736. Epub 2024 Apr 3.J Environ Manage. 2024.PMID: 38574706 
+*   [Folic acid supplementation and malaria susceptibility and severity among people taking antifolate antimalarial drugs in endemic areas.](https://pubmed.ncbi.nlm.nih.gov/36321557/)
+
+Crider K, Williams J, Qi YP, Gutman J, Yeung L, Mai C, Finkelstain J, Mehta S, Pons-Duran C, Menéndez C, Moraleda C, Rogers L, Daniels K, Green P.Crider K, et al.Cochrane Database Syst Rev. 2022 Feb 1;2(2022):CD014217. doi: 10.1002/14651858.CD014217.Cochrane Database Syst Rev. 2022.PMID: 36321557 Free PMC article.Updated. 
+*   [Tracking enteric pathogen contamination from on-site sanitation facilities to groundwater in selected rural areas of Vhembe District Municipality, Limpopo Province, South Africa.](https://pubmed.ncbi.nlm.nih.gov/38486784/)
+
+Sekgobela JM, Khabo-Mmekoa CM, Momba MNB.Sekgobela JM, et al.Heliyon. 2024 Mar 2;10(5):e27271. doi: 10.1016/j.heliyon.2024.e27271. eCollection 2024 Mar 15.Heliyon. 2024.PMID: 38486784 Free PMC article. 
+*   [Pathogen flows from on-site sanitation systems in low-income urban neighborhoods, Dhaka: A quantitative environmental assessment.](https://pubmed.ncbi.nlm.nih.gov/32942223/)
+
+Amin N, Liu P, Foster T, Rahman M, Miah MR, Ahmed GB, Kabir M, Raj S, Moe CL, Willetts J.Amin N, et al.Int J Hyg Environ Health. 2020 Sep;230:113619. doi: 10.1016/j.ijheh.2020.113619. Epub 2020 Sep 15.Int J Hyg Environ Health. 2020.PMID: 32942223 
+
+## Publication types
+
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [ClinicalKey](https://www.clinicalkey.com/content/playBy/pii?v=S1438-4639(26)00088-X)
+    *   [Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S1438-4639(26)00088-X)

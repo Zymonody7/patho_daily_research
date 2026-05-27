@@ -1,0 +1,59 @@
+Title: Risk factors and a diagnostic nomogram for early prediction of gram-positive coccal etiology in spontaneous spinal infection - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42201512/
+
+Markdown Content:
+Actions
+
+. 2026 May 27.
+
+doi: 10.1007/s15010-026-02831-w.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42201512**
+*    DOI: [10.1007/s15010-026-02831-w](https://doi.org/10.1007/s15010-026-02831-w)
+
+## Risk factors and a diagnostic nomogram for early prediction of gram-positive coccal etiology in spontaneous spinal infection
+
+Changshun Huang et al. Infection.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+**Purpose:** This study aimed to identify risk factors associated with Gram-positive (G+) cocci infection in spontaneous spinal infection (SSI) and to develop a practical diagnostic nomogram to support early pathogen-oriented risk stratification before microbiological confirmation.
+
+**Methods:** A retrospective cohort study was conducted on 223 patients with SSI. To ensure robust feature selection while minimizing overfitting, candidate predictors identified from preliminary screening were entered into a LASSO logistic regression model for further selection. The selected predictors were then incorporated into a multivariate logistic regression model to construct the diagnostic nomogram. Model discrimination and calibration were evaluated using the area under the receiver operating characteristic curve (AUC) and calibration curves, respectively. Internal validation was performed via bootstrap resampling (500 iterations). Clinical utility was further assessed using decision curve analysis (DCA) and the clinical impact curve (CIC).
+
+**Results:** Patients were classified into G+ (n = 101) and non-G+ (n = 122) groups. Fever, history of spinal surgery, C-reactive protein (CRP), albumin (ALB), and the degree of intervertebral space height loss were identified as five independent predictors of G+ infection. The resulting nomogram demonstrated excellent discrimination and good calibration, achieving an AUC of 0.884 (95% CI: 0.841-0.926). DCA and CIC suggested potential clinical value of the model within the present cohort, showing a favorable net benefit across a range of threshold probabilities.
+
+**Conclusion:** The proposed nomogram provides a potentially reliable tool for predicting G+ cocci infection in patients with SSI. By integrating clinical biomarkers and radiologic features, the model enables early prediction of G+ infection and may support preliminary pathogen-oriented risk stratification before microbiological confirmation.
+
+**Keywords:** Diagnostic nomogram; Gram-positive cocci; LASSO regression; Prediction model; Pyogenic spondylodiscitis; Spontaneous spinal infection.
+
+© 2026. Springer-Verlag GmbH Germany, part of Springer Nature.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Conflict of interests: The authors declare no competing interests. Ethical approval: This study was performed in accordance with the Declaration of Helsinki. Ethical approval was granted by the Ethics Committee of Shandong Public Health Clinical Center (GWLCZXEC-SOP-K-2025-137). Consent to Participate: Written informed consent was obtained from all participants prior to inclusion. In accordance with national ethical guidelines, all patient data were anonymized before analysis to protect confidentiality.
+
+## References
+
+1.       1.    Nickerson EK, Sinha R. Vertebral osteomyelitis in adults: an update. Br Med Bull. 2016;117(1):121–38. [https://doi.org/10.1093/bmb/ldw003](https://doi.org/10.1093/bmb/ldw003) . - [DOI](https://doi.org/10.1093/bmb/ldw003) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/26872859/)
+
+2.       1.    Fantoni M, Trecarichi EM, Rossi B, Mazzotta V, Di Giacomo G, Nasto LA, et al. Epidemiological and clinical features of pyogenic spondylodiscitis. Eur Rev Med Pharmacol Sci. 2012;16(Suppl 2):2–7. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/22655478/)
+
+3.       1.    Lener S, Hartmann S, Barbagallo GMV, Certo F, Thomé C, Tschugg A. Management of spinal infection: a review of the literature. Acta Neurochir. 2018;160(3):487–96. [https://doi.org/10.1007/s00701-018-3467-2](https://doi.org/10.1007/s00701-018-3467-2) . - [DOI](https://doi.org/10.1007/s00701-018-3467-2) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/29356895/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/5807463/)
+
+4.       1.    Kehrer M, Pedersen C, Jensen TG, Lassen AT. Increasing incidence of pyogenic spondylodiscitis: A 14-year population-based study. J Infect. 2014;68(4):313–20. [https://doi.org/10.1016/j.jinf.2013.11.011](https://doi.org/10.1016/j.jinf.2013.11.011) . - [DOI](https://doi.org/10.1016/j.jinf.2013.11.011) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/24296494/)
+
+5.       1.    Waheed G, Soliman MAR, Ali AM, Aly MH. Spontaneous spondylodiscitis: review, incidence, management, and clinical outcome in 44 patients. Neurosurg Focus. 2019;46(1):E10. [https://doi.org/10.3171/2018.10.Focus18463](https://doi.org/10.3171/2018.10.Focus18463) . - [DOI](https://doi.org/10.3171/2018.10.focus18463) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/30611166/)

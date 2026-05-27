@@ -5,6 +5,27 @@
 
 ## 最近论文
 
+- [Prediction of antimicrobial minimum inhibitory concentration from bacterial genomes using a scalable and interpretable machine learning approach.](#/202605/27/202605/27/42191912-prediction-of-antimicrobial-minimum-inhibitory-concentration-from-bacterial-genomes-using-a-scalable-and-interpretable-machine-learning-approach)
+  - TLDR：一种高效且可解释的机器学习方法，无需先验知识即可从细菌基因组中预测抗生素最低抑菌浓度。
+  - Tags：`query:pathoai`
+- [Enterotype-specific microbial biomarkers of immune checkpoint inhibitor response revealed by large-scale integrated metagenomic analysis.](#/202605/27/202605/27/42189287-enterotype-specific-microbial-biomarkers-of-immune-checkpoint-inhibitor-response-revealed-by-large-scale-integrated-metagenomic-analysis)
+  - TLDR：肠道微生物群影响免疫检查点抑制剂（ICI）疗效，但由于地理和个体差异，一致性生物标志物难以确定。本研究通过对569份癌症患者粪便样本进行大规模宏基因组整合分析，发现微生物群可分为两种主要肠型（E1和E2）。研究识别出166种肠型特异性物种，并利用机器学习评估其预测潜力。结果表明，基于肠型的分层框架能有效识别免疫治疗响应者，为个性化癌症免疫治疗提供了新的分层思路。
+  - Tags：`query:pathoai`
+- [Targeted metatranscriptomic detection of viruses from floors for simultaneous evaluation of respiratory disease burden and viral variant identification.](#/202605/27/202605/27/42007699-targeted-metatranscriptomic-detection-of-viruses-from-floors-for-simultaneous-evaluation-of-respiratory-disease-burden-and-viral-variant-identification)
+  - TLDR：利用靶向元转录组学对环境中的病毒病原体进行监测并识别其变异株。
+  - Tags：`query:pathoai`
+- [Genetic variability of SARS-CoV-2 XFG lineage and its parental lineages.](#/202605/27/202605/27/42189509-genetic-variability-of-sars-cov-2-xfg-lineage-and-its-parental-lineages)
+  - TLDR：分析了 SARS-CoV-2 XFG 谱系的遗传变异和重组断点，以支持公共卫生监测。
+  - Tags：`query:pathoai`
+- [Untargeted metabolomics reveals organism specific biomarkers of carbapenem resistance in Klebsiella pneumoniae and Escherichia coli.](#/202605/27/202605/27/42191701-untargeted-metabolomics-reveals-organism-specific-biomarkers-of-carbapenem-resistance-in-klebsiella-pneumoniae-and-escherichia-coli)
+  - TLDR：该研究利用非靶向代谢组学识别了肺炎克雷伯菌和大肠杆菌中碳青霉烯类耐药的特异性生物标志物。
+  - Tags：`query:pathoai`
+- [Enteric pathogen dynamics in onsite sanitation systems: A systematic review and meta-analysis on prevalence, concentration, inactivation, and Bayesian modeling application.](#/202605/27/202605/27/42190323-enteric-pathogen-dynamics-in-onsite-sanitation-systems-a-systematic-review-and-meta-analysis-on-prevalence-concentration-inactivation-and-bayesian-modeling-application)
+  - TLDR：该研究利用贝叶斯建模对卫生系统中肠道病原体的流行和失活动态进行了系统综述和元分析。
+  - Tags：`query:pathoai`
+- [Risk factors and a diagnostic nomogram for early prediction of gram-positive coccal etiology in spontaneous spinal infection.](#/202605/27/202605/27/42201512-risk-factors-and-a-diagnostic-nomogram-for-early-prediction-of-gram-positive-coccal-etiology-in-spontaneous-spinal-infection)
+  - TLDR：该研究利用LASSO逻辑回归开发了一种诊断列线图，用于早期预测自发性脊柱感染中的革兰氏阳性球菌病因。
+  - Tags：`query:pathoai`
 - [Global whole-genome, phylodynamic, and machine-learning analysis of](#/202605/18/202605/18/42149609-global-whole-genome-phylodynamic-and-machine-learning-analysis-of)
   - TLDR：针对猪副嗜血杆菌高危血清型全球传播路径及分子机制不明的问题，本研究通过对1004个全球菌株进行大规模比较基因组学分析，利用贝叶斯系统动力学重建了血清型2、5、12的跨洲传播历史，并结合机器学习识别出与毒力和耐药性相关的关键特征基因。研究揭示了兼具高毒力与高耐药性的双重风险克隆，为生猪疫病防控、疫苗研发及抗生素精准管理提供了重要的数据支撑和分子标记。
   - Tags：`query:pathoai`
@@ -583,25 +604,4 @@
   - Tags：`query:bioinfo`
 - [Estimating original bacterial loads from delayed clinical samples: A methodological Modeling and empirical validation study.](#/202605/02/202605/02/41825806-estimating-original-bacterial-loads-from-delayed-clinical-samples-a-methodological-modeling-and-empirical-validation-study)
   - TLDR：针对临床样本在运输存储中因细菌生长或衰减导致初始载量估算不准的问题，本研究开发了 MM-VCM 模型。该模型利用逆向逻辑增长-衰减框架，结合温度敏感的倍增时间和滞后期参数，从延迟检测的菌落数反推原始载量。通过蒙特卡洛模拟和临床血培养数据验证，证明了该模型在处理 24 小时内延迟样本时的有效性，为无法重新采样的临床诊断提供了关键的预分析修正工具。
-  - Tags：`query:pathoai`
-- [Phagocyte-inspired supramolecular self-assembly design of abiotic cell-mimics for pathogen recognition and eradication.](#/202605/02/202605/02/41856262-phagocyte-inspired-supramolecular-self-assembly-design-of-abiotic-cell-mimics-for-pathogen-recognition-and-eradication)
-  - TLDR：针对病原体耐药性难题，受天然吞噬细胞启发，研究者利用配位键自组装设计了一种非生物人工细胞模拟物（CoVOx-SIOC）。该材料能快速捕获病原体，通过产生活性氧（ROS）杀灭细菌，并在完成任务后发生类似凋亡的自失活。实验证明其在生物膜清除和体内感染治疗中效果显著优于传统抗生素，为开发智能抗菌材料提供了新范式。
-  - Tags：`query:pathoai`
-- [Clearing the Noise: Seasonal Dynamics of Endophytic Bacteria in Fagus sylvatica Leaves Revealed by Application of PNA Clamps.](#/202605/02/202605/02/42036304-clearing-the-noise-seasonal-dynamics-of-endophytic-bacteria-in-fagus-sylvatica-leaves-revealed-by-application-of-pna-clamps)
-  - TLDR：针对欧洲山毛榉叶片内生细菌研究中宿主DNA干扰测序的问题，本研究采用肽核酸（PNA）钳制技术抑制叶绿体和线粒体DNA的扩增。通过该方法成功揭示了细菌群落随季节变化的动态规律：从早期的假单胞菌及昆虫携带菌，转变为成熟期适应叶面环境且参与营养循环的稳定菌群。该研究为植物微生物组的精准表征提供了技术路径，并揭示了叶片发育对微生物演替的驱动作用。
-  - Tags：`query:seqai`
-- [MobiRes: An integrative pipeline for resistome risk prediction through mobilome profiling.](#/202605/01/202605/01/41819291-mobires-an-integrative-pipeline-for-resistome-risk-prediction-through-mobilome-profiling)
-  - TLDR：抗生素耐药性（AMR）通过环境传播构成全球威胁，但目前缺乏系统评估移动遗传元件（MGEs）风险的方法。MobiRes 框架通过整合宏基因组中的移动组和微生物组信息，利用随机森林模型预测耐药基因组风险。研究发现转座子是驱动耐药基因跨环境传播的核心因素，模型 AUC 达 0.82，为“全健康”视角的耐药性风险评估提供了可扩展的计算工具。
-  - Tags：`query:pathoai`
-- [DeepSeMS: revealing the hidden biosynthetic potential of the global ocean microbiome with a large language model.](#/202605/01/202605/01/42062603-deepsems-revealing-the-hidden-biosynthetic-potential-of-the-global-ocean-microbiome-with-a-large-language-model)
-  - TLDR：针对微生物次级代谢产物发现受限于培养技术且生物合成基因簇（BGC）结构预测困难的问题，本研究开发了基于Transformer的大语言模型DeepSeMS。该模型通过将基因编码为功能域并结合特征对齐数据增强，实现了从BGC序列到化学结构的精准预测。在海洋宏基因组应用中，DeepSeMS成功挖掘出超6万种具有生物医药潜力的代谢产物，为探索地球微生物组的生物合成潜力提供了高效工具。
-  - Tags：`query:bioinfo`
-- [SERS on analyte-enriched blood for rapid, culture-free sepsis recognition and causative pathogen identification with super operational neural networks.](#/202605/01/202605/01/41478040-sers-on-analyte-enriched-blood-for-rapid-culture-free-sepsis-recognition-and-causative-pathogen-identification-with-super-operational-neural-networks)
-  - TLDR：针对败血症诊断依赖培养、耗时长且灵敏度低的问题，本研究提出一种结合表面增强拉曼光谱（SERS）与超运算神经网络（SuperRamanNet）的深度学习工作流。该方法直接从富集分析物的血液中提取光谱特征，在包含653例样本的数据集上实现了99.67%的败血症识别准确率和98.84%的病原体分类准确率。这种无需培养、便携且高精度的方案为临床快速分诊和早期精准用药提供了重要技术支撑。
-  - Tags：`query:pathoai`
-- [Identification of molecular compounds targeting bacterial propionate metabolism with topological machine learning.](#/202605/01/202605/01/41544343-identification-of-molecular-compounds-targeting-bacterial-propionate-metabolism-with-topological-machine-learning)
-  - TLDR：针对致病菌丙酸代谢途径中关键酶 AcnD 的抑制剂筛选难题，本研究结合拓扑机器学习与蛋白质-配体比较分析，从大规模化学库中筛选潜在化合物。通过将分子结构转化为拓扑向量并结合分子对接，识别出衣康酸（itaconate）作为核心骨架，实验证实其能有效抑制铜绿假单胞菌和鲍曼不动杆菌的生长，为开发新型抗菌药物提供了高效的计算筛选范式。
-  - Tags：`query:pathoai`
-- [AI-Enabled Imaging for Pathogen Detection Under Stress Conditions: A Systematic Review.](#/202605/01/202605/01/42021525-ai-enabled-imaging-for-pathogen-detection-under-stress-conditions-a-systematic-review)
-  - TLDR：传统病原体检测在环境压力下易失效，本文系统综述了利用AI增强显微成像识别病原体的方法。通过分析28项研究，涵盖40多种病原体（如沙门氏菌），发现AI能显著提升检测速度与精度，但目前极少有研究关注压力或失活状态下的信号捕捉，且缺乏与传统培养法的标准化对比。该综述为构建更具鲁棒性和可重复性的AI检测流程提供了方向。
   - Tags：`query:pathoai`

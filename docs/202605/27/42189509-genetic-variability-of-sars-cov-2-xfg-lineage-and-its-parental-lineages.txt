@@ -1,0 +1,63 @@
+Title: Genetic variability of SARS-CoV-2 XFG lineage and its parental lineages - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42189509/
+
+Markdown Content:
+Actions
+
+. 2026 May 26:1-7.
+
+doi: 10.1080/20477724.2026.2679956.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42189509**
+*    DOI: [10.1080/20477724.2026.2679956](https://doi.org/10.1080/20477724.2026.2679956)
+
+## Genetic variability of SARS-CoV-2 XFG lineage and its parental lineages
+
+Ilaria Deplano et al. Pathog Glob Health.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+SARS-CoV-2 XFG (nicknamed _Stratus_), a recombinant lineage arising from LP.8.1.2 and LF.7, is currently the most prevalent circulating lineage. Although most recombinant lineages do not pose a significant public health concern, some have shown the capacity to emerge and spread, highlighting the importance of their investigation. In this context, we performed a genome-based analysis to assess the genetic variability of XFG and to identify its recombination breakpoint. The breakpoint was mapped to approximately position 1507 within the spike (S) gene, in the distal region of the receptor-binding domain. This configuration suggests that LP.8.1.2 contributed the genomic backbone as the acceptor, whereas LF.7 acted as the donor. Phylodynamic survey suggests that XFG originated in early 2024, approximately 10 months before its first genomic detection. Bayesian Skyline Plot revealed a transient expansion phase beginning in August 2024, followed by a plateau, indicating limited and non-sustained growth. The estimated evolutionary rate of XFG (2.90 × 10-4 subs/site/year) was comparable to those of its parental lineages, supporting a relatively low level of genetic variability. Overall, these findings suggest that the widespread prevalence of XFG is more likely driven by lineage turnover rather than increased transmissibility, highlighting the importance of continuous genomic surveillance for monitoring emerging SARS-CoV-2 lineages.
+
+**Keywords:** SARS-CoV-2; XFG recombinant lineage; bioinformatics; genetic analysis; genomic epidemiology; pandemic surveillance; phylogenomic.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Rapid spread of the SARS-CoV-2 Omicron XDR lineage derived from recombination between XBB and BA.2.86 subvariants circulating in Brazil in late 2023.](https://pubmed.ncbi.nlm.nih.gov/39611827/)
+
+Arantes I, Ito K, Gomes M, Carvalho FCd, Ferreira de Almeida WA, Khouri R, Miyajima F, Wallau GL, Naveca FG, Pereira EC; COVID-19 Fiocruz Genomic Surveillance Network; Mendonça Siqueira M, Resende PC, Bello G.Arantes I, et al.Microbiol Spectr. 2025 Jan 7;13(1):e0119324. doi: 10.1128/spectrum.01193-24. Epub 2024 Nov 29.Microbiol Spectr. 2025.PMID: 39611827 Free PMC article. 
+*   [SARS-CoV-2 XEC: A Genome-Based Survey.](https://pubmed.ncbi.nlm.nih.gov/40005620/)
+
+Scarpa F, Branda F, Ceccarelli G, Romano C, Locci C, Pascale N, Azzena I, Fiori PL, Casu M, Pascarella S, Quaranta M, Benvenuto D, Cauda R, Ciccozzi M, Sanna D.Scarpa F, et al.Microorganisms. 2025 Jan 24;13(2):253. doi: 10.3390/microorganisms13020253.Microorganisms. 2025.PMID: 40005620 Free PMC article. 
+*   [Integrative Genome-Based Survey of the SARS-CoV-2 Omicron XBB.1.16 Variant.](https://pubmed.ncbi.nlm.nih.gov/37686383/)
+
+Scarpa F, Azzena I, Ciccozzi A, Giovanetti M, Locci C, Casu M, Fiori PL, Borsetti A, Cella E, Quaranta M, Pascarella S, Sanna D, Ciccozzi M.Scarpa F, et al.Int J Mol Sci. 2023 Sep 1;24(17):13573. doi: 10.3390/ijms241713573.Int J Mol Sci. 2023.PMID: 37686383 Free PMC article. 
+*   [Global Emergence and Spread of the XFG SARS-CoV-2 Variant and Its Clinical Profile Among XFG Patients in Maharashtra, India.](https://pubmed.ncbi.nlm.nih.gov/41846644/)
+
+Karyakarte RP, Das R, Yanamandra S, Jagarwal K, Pawar P, D V V, Chamy G, Singh V, Tete A, Koshti A, More D, Madne P, Patil V, Joshi S, Gurav J.Karyakarte RP, et al.Cureus. 2026 Feb 14;18(2):e103574. doi: 10.7759/cureus.103574. eCollection 2026 Feb.Cureus. 2026.PMID: 41846644 Free PMC article. 
+*   [Global SARS-CoV-2 genomic surveillance: What we have learned (so far).](https://pubmed.ncbi.nlm.nih.gov/36681102/)
+
+Tosta S, Moreno K, Schuab G, Fonseca V, Segovia FMC, Kashima S, Elias MC, Sampaio SC, Ciccozzi M, Alcantara LCJ, Slavov SN, Lourenço J, Cella E, Giovanetti M.Tosta S, et al.Infect Genet Evol. 2023 Mar;108:105405. doi: 10.1016/j.meegid.2023.105405. Epub 2023 Jan 18.Infect Genet Evol. 2023.PMID: 36681102 Free PMC article.Review. 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Atypon](https://www.tandfonline.com/doi/10.1080/20477724.2026.2679956?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-438)
