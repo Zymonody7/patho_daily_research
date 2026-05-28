@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-27T20:55:10.815772+00:00",
-  "count": 500,
+  "generated_at": "2026-05-28T20:51:00.136619+00:00",
+  "count": 497,
   "items": [
     {
       "paper_id": "202605/27/42191912-prediction-of-antimicrobial-minimum-inhibitory-concentration-from-bacterial-genomes-using-a-scalable-and-interpretable-machine-learning-approach",
@@ -6958,48 +6958,6 @@
       "tldr": "本研究探讨了微生物组对宿主抗病性的影响是否在不同物种间具有普适性。研究者选取了四种果蝇属物种，通过构建无菌、自然及重组微生物组模型，测试其对两种细菌和一种病毒系统性感染的抵抗力。结果表明，微生物组对存活率的影响在不同宿主和病原体组合中表现不一，且整体效应较小。这一发现挑战了微生物组普遍具有显著免疫保护作用的观点，提醒研究者在推广其益生功能时需保持谨慎。",
       "tags": "query:pathoai",
       "abstract_en": "Microbiome have been shown to play an important role in host susceptibility to infections in some hosts. However, less is known about whether microbiota-mediated effects are consistent across host species, as our understanding of such interactions may be affected by publication bias. Following on from a large study of 36 species of Drosophilidae challenged with four bacterial pathogens, we identified two candidate host species that might have protective microbiomes based on low susceptibility and high abundance of culturable microbiota; we selected two other host species for comparison. We tested whether germ-reduced flies, and flies with natural or re-constituted microbiomes varied in their susceptibility to systemic infection with two bacterial pathogens (Providencia rettgeri and Staphylococcus aureus) and one viral pathogen (Drosophila C Virus). The composition and abundance of the bacterial microbiota varied between host species and microbiome treatments. We found an overall interaction between host species and pathogen type, confirming previous work that host species vary in their susceptibility in a pathogen specific manner. Similarly, we found that microbiome treatments had differing effects on host survival among host species, although some effect sizes tended to be small. In D. putrida individuals with manipulated microbiomes showed increased susceptibility to all pathogens tested; in other hosts altered susceptibility was pathogen dependent. While there are always challenges to manipulating microbiomes, especially across multiple host species, our results indicate that host microbiota play limited roles on survival in systemic infection in these four species. This work demonstrates that caution is required when generalizing about potential beneficial impact of microbiomes.",
-      "selection_source": "fresh_fetch"
-    },
-    {
-      "paper_id": "202603/28/41894324-physics-constrained-neural-ordinary-differential-equation-models-to-discover-and-predict-microbial-community-dynamics",
-      "section": "deep",
-      "title_en": "Physics-constrained neural ordinary differential equation models to discover and predict microbial community dynamics.",
-      "authors": "Thompson J, Connors BM, Zavala VM, Venturelli OS., Jaron Thompson, Bryce M Connors, Victor M Zavala, Ophelia S Venturelli",
-      "date": "2026-03-28",
-      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41894324/",
-      "score": "9.0",
-      "evidence": "物理约束的机器学习用于微生物群落动态",
-      "tldr": "微生物群落的动态受代谢物竞争和互补驱动，但传统机理模型过于僵化，而纯机器学习模型又缺乏可解释性且易过拟合。本研究提出了“神经物种中介者（NSM）”模型，将描述代谢物动态的机理方程与神经网络相结合，构建物理约束的神经常微分方程。实验证明，NSM 在体外数据集上的预测性能优于单一模型，并能揭示潜在的生物相互作用，为理解和控制微生物群落提供了兼具灵活性与可解释性的新工具。",
-      "tags": "query:pathoai",
-      "abstract_en": "Microbial communities play essential roles in shaping ecosystem functions and predictive modeling frameworks are crucial for understanding, controlling, and harnessing their properties. Competition and cross-feeding of metabolites drives microbiome dynamics and functions. Existing mechanistic models that capture metabolite-mediated interactions in microbial communities have limited flexibility due to rigid assumptions. While machine learning models provide flexibility, they require large datasets, are challenging to interpret, and can overfit to experimental noise. To overcome these limitations, we develop a physics-constrained machine learning model, which we call the neural species mediator (NSM), that combines a mechanistic model of metabolite dynamics with a machine learning component. The NSM outperforms mechanistic or machine learning components on in vitro experimental datasets and provides insights into direct biological interactions. In summary, carefully embedding a neural network into a mechanistic model of microbial community dynamics improves prediction performance and interpretability compared to its constituent mechanistic or machine learning components.",
-      "selection_source": "fresh_fetch"
-    },
-    {
-      "paper_id": "202603/28/41894437-an-improved-dataset-for-predicting-mammal-infecting-viruses-from-genetic-sequence-information",
-      "section": "deep",
-      "title_en": "An improved dataset for predicting mammal infecting viruses from genetic sequence information.",
-      "authors": "Reddy T, Schneider A, Hall AR, Witmer A, Hengartner N., Tyler Reddy, Austin Schneider, Aaron R Hall, Adam Witmer, Nick Hengartner",
-      "date": "2026-03-28",
-      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41894437/",
-      "score": "9.0",
-      "evidence": "机器学习预测感染哺乳动物的病毒",
-      "tldr": "针对从基因序列预测病毒是否感染人类的任务，现有模型因数据集不统一难以比较。本研究通过扩充文献证据，构建了一个包含哺乳动物和灵长类标签的标准化数据集，并评估了8种机器学习模型。结果显示，模型表现高度依赖训练集与测试集的系统发育距离；当测试集包含全新的病毒科时，预测准确率降至随机水平。这为评估病毒跨物种传播风险提供了更严谨的基准。",
-      "tags": "query:pathoai",
-      "abstract_en": "There have been several attempts to develop machine learning (ML) models to identify human infecting viruses from their genomic sequences, with varying degrees of success. Direct comparison between models is problematic, because these models are typically trained and evaluated on different datasets with alternative data splitting schemes, features, and model performance metrics. In this paper we present a standardized dataset of mammal infecting and non-infecting viral pathogens, refined from the previous work of Mollentze et al. to include the latest literature evidence, roughly doubling the number of curated host-virus records available to the community, and new host target labels, primate and mammal. The new host labels were included for several reasons, including previous reports that classification performance is better at broader taxonomic ranks and the idea that there may be more data for primate infection that might serve as a suitable proxy for zoonotic potential and avoidance of false positives for human infection due to absence of evidence. On this dataset, we report the performance of eight machine learning models for predicting mammal-infecting viruses from their genomic sequences. We find that randomly assigning cases in our improved dataset to training/testing sets, when compared to the original assignments into training/testing in Mollentze et al., increases the overall average ROC AUC of prediction of human infection from 0.663 ± 0.070 to 0.784 ± 0.013, consistent with the reduction in phylogenetic distance between train and test sets (relative entropy change from 3.00 to 0.08). The broadest host category of mammal infection can be predicted most reliably at 0.850 ± 0.020. We share our improved dataset and code to enable standardized comparisons of machine learning methods to predict human host infections. Overall, we have presented preliminary evidence that classification of virus host infection is more tractable at higher taxonomic ranks, that unsurprisingly reducing the phylogenetic distance between training and test sets can improve predictive performance, that peptide kmer features appear to be harmful to out of sample model performance, and we are left with the question of whether models for virus host prediction can reasonably be expected to perform well in out of sample scenarios given the likelihood that viruses do not share a common ancestor. Consistent with this concern, when the data is resampled such that there is no overlap between viral families in training and test sets (relative entropy > 24), models perform no better than random chance at prediction of human infection regardless of whether kmers are included (ROC AUC 0.50 ± 0.08) or not (ROC AUC 0.50 ± 0.04).",
-      "selection_source": "fresh_fetch"
-    },
-    {
-      "paper_id": "202603/28/41896581-high-resolution-colony-images-of-clinically-isolated-bacteria-for-automated-detection-and-deep-learning",
-      "section": "deep",
-      "title_en": "High-Resolution Colony Images of Clinically Isolated Bacteria for Automated Detection and Deep Learning.",
-      "authors": "Jia Du, Chun Yang, Miao Sun, Qi Sun, Miao Wang, Xufeng Ji, Kaifei Wang, Jiancheng Xu",
-      "date": "2026-03-28",
-      "pdf": "https://pubmed.ncbi.nlm.nih.gov/41896581/",
-      "score": "9.0",
-      "evidence": "用于自动检测和深度学习的大规模菌落图像数据集",
-      "tldr": "针对微生物菌落人工分析效率低、主观偏差大以及现有AI数据集规模小且不规范的问题，本研究发布了一个包含19种临床常见细菌、151个菌株的大规模高分辨率标准化数据集。该数据集通过严格的受控环境采集，包含超过11.8万个标注菌落实例，捕捉了丰富的种内表型多样性。这一成果为开发高泛化性的自动化菌落检测与分类深度学习模型提供了坚实的数据基础，推动了临床微生物检测的标准化与智能化。",
-      "tags": "query:pathoai",
-      "abstract_en": "The observation and analysis of colonies on solid media are key steps in microbiological research. However, traditional manual interpretation methods are inefficient when handling large-scale samples and are prone to subjective bias, making it difficult to meet the demands for efficient, standardized, and traceable detection. Although AI and computer vision offer new opportunities for automated colony analysis, existing datasets are often small, inconsistently collected, and lack sufficient strain diversity, limiting model generalization. Here, we publicly release a large, normalized colony image dataset covering 19 bacterial species and 151 strains from diverse sources, with 50 images per species to capture within-species phenotypic diversity. Images were collected on a closed background under stable lighting and uniform shooting angles following strict protocols, then systematically annotated and augmented to improve usability. In total, the dataset contains 118,442 colony instances, providing a robust foundation for training, evaluating, and applying AI models for automated detection.",
       "selection_source": "fresh_fetch"
     }
   ]
