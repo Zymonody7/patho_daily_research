@@ -1,6 +1,6 @@
 # 知识库
 
-- 最近沉淀条目数：167
+- 最近沉淀条目数：153
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
@@ -464,45 +464,3 @@
 - [Predictive functional profiling of 16S rRNA genes amplicons reveals bioremediation and sulfur metabolism capacity in thermophilic hot spring bacteriomes.](#/202605/06/202605/06/42086823-predictive-functional-profiling-of-16s-rrna-genes-amplicons-reveals-bioremediation-and-sulfur-metabolism-capacity-in-thermophilic-hot-spring-bacteriomes)
   - TLDR：针对极端高温环境下微生物群落功能解析的难题，本研究对埃及法老浴场温泉（70-80°C）的细菌群落进行了16S rRNA测序与PICRUSt功能预测。研究发现，不同温度梯度下的微生物在生物修复（如芳香族化合物降解）和硫代谢方面具有显著的遗传潜力，特别是75°C位点表现出最高的物种多样性。该成果揭示了嗜热菌在极端环境下的代谢机制，为生物技术应用提供了预测框架。
   - Tags：`query:seqai`
-- [Parallel algorithms for phylogenetic inference under a structured coalescent approximation.](#/202605/05/202605/05/42048453-parallel-algorithms-for-phylogenetic-inference-under-a-structured-coalescent-approximation)
-  - TLDR：针对病原体时空传播追踪中结构化溯祖模型（BASTA）计算量随地理区域和序列数量剧增的问题，本研究通过重构似然函数算法，实现了矩阵指数计算与似然向量更新的并行化。该方法在登革热和H5N1禽流感数据集上实现了10至26倍的加速，显著提升了大规模系统发育地理学的分析效率，为实时疫情监测提供了高性能工具。
-  - Tags：`query:pathoai`
-- [VUStruct: A compute pipeline for high throughput and personalized structural biology.](#/202605/05/202605/05/42081565-vustruct-a-compute-pipeline-for-high-throughput-and-personalized-structural-biology)
-  - TLDR：针对罕见遗传病中意义不明变异（VUS）难以解读的问题，VUStruct 建立了一个高性能计算流水线，将基因变异映射到蛋白质 3D 结构上。该系统集成了能量稳定性评估、空间聚类分析及机器学习预测等多种工具，能够识别变异对蛋白质折叠、结合界面及翻译后修饰的影响。通过对 175 个临床病例的分析，VUStruct 成功辅助了临床决策并揭示了致病机制，为精准医疗和生化研究提供了高效的结构生物学分析平台。
-  - Tags：`query:bioinfo`
-- [Sex-specific microbial and tryptophan signatures of depression implicate archaeal methanogens and indole-3-acetic acid only in women.](#/202605/05/202605/05/42082522-sex-specific-microbial-and-tryptophan-signatures-of-depression-implicate-archaeal-methanogens-and-indole-3-acetic-acid-only-in-women)
-  - TLDR：抑郁症在性别上存在显著差异，但其背后的肠道菌群与代谢物机制尚不明确。本研究通过分析大规模人群队列的血浆色氨酸代谢物、抑郁评分及肠道微生物组，利用机器学习模型发现：在女性中，抑郁程度与产甲烷古菌（如史氏甲烷短杆菌）及吲哚-3-乙酸（IAA）代谢密切相关，而男性则表现出不同的代谢特征。这一发现揭示了抑郁症发病机制的性别二元性，为精准医疗提供了新靶点。
-  - Tags：`query:pathoai`
-- [β-lactamase genes in clinical isolates of Capnocytophaga canimorsus and description of a novel class D β-lactamase, OXA-1422.](#/202605/05/202605/05/42082786--lactamase-genes-in-clinical-isolates-of-capnocytophaga-canimorsus-and-description-of-a-novel-class-d--lactamase-oxa-1422)
-  - TLDR：犬咬二氧化碳嗜纤维菌（C. canimorsus）是导致严重人畜共患感染的病原体，但其耐药机制研究不足。本研究通过基因组筛选、混合测序及重组表达，在临床分离株中首次发现了 blaOXA-347 基因并鉴定出新型 D 类 β-内酰胺酶 OXA-1422。结果证实这些染色体编码的酶能显著提高菌株对多种 β-内酰胺类抗生素的耐药性，为该病原体的临床用药和耐药监测提供了关键依据。
-  - Tags：`query:seqai`
-- [Gingipain proteases from the bacterium](#/202605/05/202605/05/42060722-gingipain-proteases-from-the-bacterium)
-  - TLDR：本研究探讨了口腔共生菌牙龈卟啉单胞菌对呼吸道病毒感染的影响。研究发现，尽管该菌会降解干扰素并抑制宿主抗病毒免疫，但其分泌的牙龈蛋白酶（gingipains）能直接切割RSV和SeV病毒表面的包膜糖蛋白，从而使其丧失感染能力。这一发现揭示了微生物组在调节病毒易感性中的复杂双重作用，证明了细菌蛋白酶在预防严重呼吸道感染中的潜在保护价值。
-  - Tags：`query:pathoai`
-- [Significance and challenges in dissecting cancer-bacteriome interactions.](#/202605/05/202605/05/42082772-significance-and-challenges-in-dissecting-cancer-bacteriome-interactions)
-  - TLDR：癌症研究正逐渐关注人体细菌群落的影响，但目前缺乏研究癌细胞与复杂菌群整体相互作用的实验手段。本文综述了现有的研究方法，分析了识别致癌或抑癌细菌及理解其对宿主细胞影响的挑战，并提出了跨学科的研究路径。这一探索旨在为开发全新的整体细菌疗法奠定基础，为难治性癌症提供新的治疗思路。
-  - Tags：`query:pathoai`
-- [Gut microbiota and diet in colorectal cancer: Converging determinants of carcinogenesis.](#/202605/05/202605/05/42083308-gut-microbiota-and-diet-in-colorectal-cancer-converging-determinants-of-carcinogenesis)
-  - TLDR：结直肠癌的发病受饮食与肠道微生物群的共同驱动。本文综述了饮食如何重塑微生物生态并调节其毒力，进而影响宿主的代谢与炎症通路。研究指出，西式饮食会诱导促炎环境和基因毒性生态位，而高纤维饮食则能产生抗炎代谢物。该综述为整合饮食与微生物干预手段以预防和治疗结直肠癌提供了重要的理论支撑与研究方向。
-  - Tags：`query:pathoai`
-- [Multi-omics profiling of fungal balls in chronic pulmonary aspergillosis patients reveals microbiome dynamics and metabolic adaptations.](#/202605/05/202605/05/42084394-multi-omics-profiling-of-fungal-balls-in-chronic-pulmonary-aspergillosis-patients-reveals-microbiome-dynamics-and-metabolic-adaptations)
-  - TLDR：针对慢性肺曲霉病中真菌球功能生物学机制不明的问题，本研究通过对61例患者样本进行多组学集成分析，揭示了真菌球并非单纯的真菌聚集体，而是由烟曲霉与铜绿假单胞菌等细菌构成的跨界多微生物生物膜。研究发现了微生物间的代谢互补、铁元素竞争及化学对抗，并指出宿主免疫反应存在中性粒细胞过度激活且无法平息的失调现象，为针对病原共生体开发新型疗法提供了理论基础。
-  - Tags：`query:bioinfo`
-- [Altered crosstalk of bacterial lipopolysaccharide with immune cells in colorectal cancer compared to paired adjacent intestinal tissue.](#/202605/05/202605/05/42084500-altered-crosstalk-of-bacterial-lipopolysaccharide-with-immune-cells-in-colorectal-cancer-compared-to-paired-adjacent-intestinal-tissue)
-  - TLDR：结直肠癌（CRC）伴随肠道菌群失调和屏障受损，但细菌与免疫细胞的精确空间交互尚不明确。本研究利用3D光片成像、空间转录组和成像质谱流式技术，对比分析了患者肿瘤与癌旁组织中细菌脂多糖（LPS）的分布。结果发现，相比癌旁组织，CRC肿瘤中与LPS结合的巨噬细胞和树突状细胞减少，而中性粒细胞及其与LPS的结合显著增加。这一发现揭示了肿瘤微环境中宿主-微生物交互模式的改变，为理解肠道免疫逃逸提供了新视角。
-  - Tags：`query:seqai`
-- [Metagenomic insights into microbial community, antibiotic resistance genes, and virulence factor in Saryu River water, India.](#/202605/05/202605/05/42084683-metagenomic-insights-into-microbial-community-antibiotic-resistance-genes-and-virulence-factor-in-saryu-river-water-india)
-  - TLDR：针对印度萨里尤河中抗生素和重金属污染导致的耐药性传播问题，本研究采用高通量宏基因组测序技术，分析了河水中的微生物群落结构、抗生素耐药基因（ARGs）、金属耐药基因（MRGs）及毒力因子。研究发现利福平、四环素等耐药基因高度富集，且蓝细菌门为优势菌群，揭示了河流生态系统中耐药性扩散的潜在风险，为环境治理和风险评估提供了关键基准数据。
-  - Tags：`query:seqai`
-- [Interpretable miRNA-based prediction model for early detection of pancreatic cancer: Development and cross-platform validation.](#/202605/05/202605/05/42081539-interpretable-mirna-based-prediction-model-for-early-detection-of-pancreatic-cancer-development-and-cross-platform-validation)
-  - TLDR：针对胰腺癌早期诊断困难且现有miRNA标志物缺乏跨平台验证的问题，本研究利用801个样本构建了一个基于20个miRNA特征的随机森林诊断模型。通过引入SHAP分析增强模型可解释性，该模型在训练集和多个独立外部验证集（涵盖RNA-seq和qRT-PCR平台）中均表现出稳定的诊断效能（AUC 0.78-0.87），为胰腺癌的早期筛查提供了一个具备跨平台鲁棒性和透明度的数字化方案。
-  - Tags：`query:bioinfo`
-- [Rheumatic Digital Twin: Proposed Machine Learning-Based Multimodal Framework to Inform Clinical Decision-Making.](#/202605/05/202605/05/42081548-rheumatic-digital-twin-proposed-machine-learning-based-multimodal-framework-to-inform-clinical-decision-making)
-  - TLDR：风湿性疾病具有高度异质性和长期演变特征，传统的单次快照式评估难以捕捉其复杂病程。该研究提出了“风湿数字孪生”框架，通过整合电子病历、影像和组学等多模态数据，利用Transformer架构对患者病史进行序列建模。该框架旨在通过寻找临床特征相似的“近邻”患者，实现对疾病进展和治疗反应的精准预测，为临床决策提供动态、个性化的参考。
-  - Tags：`query:bioinfo`
-- [Noninvasive molecular subtyping of breast cancer using multimodal ultrasound spatiotemporal transformer.](#/202605/05/202605/05/42082579-noninvasive-molecular-subtyping-of-breast-cancer-using-multimodal-ultrasound-spatiotemporal-transformer)
-  - TLDR：乳腺癌分子分型对制定治疗方案至关重要，但目前依赖有创活检，且常规超声缺乏反映肿瘤生物学特征的动态信息。本研究开发了MUST-Sub模型，利用时空Transformer架构融合静态B超形态与造影超声血流动力学特征，在多中心验证中实现了最高0.94的分类AUC。该方法不仅在性能上优于单模态模型，还提取出与肿瘤增殖指数相关的可解释生物标志物，为无创术前分型提供了新工具。
-  - Tags：`query:bioinfo`
-- [Implications for distancing measures on in-person school and work attendance from Italian post-pandemic social contact data.](#/202605/05/202605/05/42082766-implications-for-distancing-measures-on-in-person-school-and-work-attendance-from-italian-post-pandemic-social-contact-data)
-  - TLDR：针对后疫情时代社交模式的变化，本研究通过2022-2023年意大利的两轮线上调查，收集了代表性的社交接触数据，并利用广义线性混合模型和年龄结构模型评估了远程办公与在线学习对传染病传播的影响。结果显示，到校或到岗显著增加了接触频率，结合远程办公与中小学远程教学可使基本传染数R降低约23.2%，为未来应对呼吸道传染病的精准防控政策提供了量化依据。
-  - Tags：`query:pathoai`
