@@ -1,6 +1,6 @@
 # 知识库
 
-- 最近沉淀条目数：153
+- 最近沉淀条目数：144
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
@@ -436,31 +436,4 @@
   - Tags：`query:bioinfo`
 - [Shotgun metagenomic dataset of leaf endophytic microbiome of the garden sage (Salvia officinalis L.).](#/202605/07/202605/07/42092753-shotgun-metagenomic-dataset-of-leaf-endophytic-microbiome-of-the-garden-sage-salvia-officinalis-l)
   - TLDR：药用鼠尾草因其丰富的生物活性代谢物而具有重要药用价值，但其叶片内生微生物群落的多样性此前缺乏系统研究。本研究采用鸟枪法宏基因组测序技术，对三个生物重复样本进行深度测序，并利用 BWA-MEM 算法剔除宿主基因组干扰，最终通过 Kraken2 分类器构建了包含细菌、真菌、古菌和病毒的高质量数据集。该成果为解析植物-微生物相互作用及其对次生代谢产物的影响提供了公开的数据资源。
-  - Tags：`query:seqai`
-- [RegFormer: a single-cell foundation model powered by gene regulatory hierarchies.](#/202605/06/202605/06/42086551-regformer-a-single-cell-foundation-model-powered-by-gene-regulatory-hierarchies)
-  - TLDR：针对单细胞RNA测序模型在处理长基因序列时效率低、且缺乏基因调控先验知识的问题，RegFormer 结合了 Mamba 状态空间模型与基因调控网络（GRN）层级结构。通过 2500 万个人类单细胞数据的预训练，该模型在细胞聚类、批次整合及药物反应预测等任务上超越了 scGPT 等主流模型，为理解基因调控机制提供了高效且具备生物学可解释性的基础模型。
-  - Tags：`query:bioinfo`
-- [Multimodal computational discovery of MvfR inhibitors targeting quorum sensing in multi-drug-resistant Pseudomonas aeruginosa.](#/202605/06/202605/06/42086791-multimodal-computational-discovery-of-mvfr-inhibitors-targeting-quorum-sensing-in-multi-drug-resistant-pseudomonas-aeruginosa)
-  - TLDR：针对多重耐药铜绿假单胞菌带来的治疗挑战，本研究聚焦于调控群体感应和生物膜形成的关键靶点MvfR。通过整合基因组分析、AI建模、分子对接及500纳秒分子动力学模拟，从化合物库中筛选出具有高亲和力的先导化合物。结果发现一种特定的尿素衍生物在稳定性、药代动力学及结合能方面表现优异，为开发新型抗耐药菌药物提供了高效的计算发现路径。
-  - Tags：`query:pathoai`
-- [Twelve years of genomic surveillance of vancomycin-resistant Enterococcus faecium: emergence of linear vanA and bacteriocin-carrying plasmids challenging infection control.](#/202605/06/202605/06/42087222-twelve-years-of-genomic-surveillance-of-vancomycin-resistant-enterococcus-faecium-emergence-of-linear-vana-and-bacteriocin-carrying-plasmids-challenging-infection-control)
-  - TLDR：针对葡萄牙波尔图医院2010-2021年间万古霉素耐药肠球菌（VREfm）的长期流行趋势，研究团队通过对200个临床分离株进行二代与三代测序混合组装，揭示了耐药克隆从ST18向ST80和ST117的演变。研究发现细菌素（如bac43）在克隆竞争中起关键作用，并首次识别出携带vanA基因的新型线性质粒。这一发现强调了在感染控制中监测质粒异质性和非传统进化指标的重要性。
-  - Tags：`query:pathoai`
-- [Novel multigene molecular characterization of avian reovirus strains and associated embryonic pathogenicity.](#/202605/06/202605/06/42085168-novel-multigene-molecular-characterization-of-avian-reovirus-strains-and-associated-embryonic-pathogenicity)
-  - TLDR：禽呼肠孤病毒（ARV）变异导致传统基于单基因σC的分类法难以准确预测致病性及指导疫苗设计。本研究通过分析λC、μB、σC和σB四种衣壳蛋白，结合鸡胚接种实验，提出了一种基于蛋白质二级结构的μB-λC-σC三基因分型模型。结果显示该模型能更精准地预测病毒毒力，并发现保守的σB蛋白是比易变的σC更具潜力的广谱疫苗靶点，为ARV防控提供了新策略。
-  - Tags：`query:pathoai`
-- [From Trait-Structured Within-Host Dynamics to SIR Models: A Multiscale Framework With Re-Exposure.](#/202605/06/202605/06/42089926-from-trait-structured-within-host-dynamics-to-sir-models-a-multiscale-framework-with-re-exposure)
-  - TLDR：针对流行病学中宿主内免疫动态与群体传播模型脱节的问题，本文提出一种基于阈值的多尺度框架，将病原体载量和免疫反应的连续轨迹直接映射为S、I-、I+、R四种群体状态。通过推导具有性状结构的再暴露下一代算子，揭示了接种量和免疫特征对清除-持续转换的影响。该框架不仅能从免疫异质性推导流行指标，还发现了慢性感染导致R0<1时疫情仍持续的现象，为识别慢性病原库和制定防控策略提供了理论依据。
-  - Tags：`query:pathoai`
-- [Multidimensional assessment of in-host fitness costs of echinocandin resistance in the opportunistic fungal pathogen](#/202605/06/202605/06/41870047-multidimensional-assessment-of-in-host-fitness-costs-of-echinocandin-resistance-in-the-opportunistic-fungal-pathogen)
-  - TLDR：针对机会性致病真菌光滑念珠菌对棘白菌素产生耐药性后是否伴随适应性代价的问题，研究者通过多种离体免疫细胞模型和体内感染模型，系统评估了不同FKS基因突变株的生存能力。研究发现，大多数临床相关的耐药突变株能保持良好的适应性，而特定的Fks2F659del突变则表现出明显的应激反应缺陷和竞争劣势。该研究揭示了耐药菌株在不同宿主环境下的生存策略，为理解耐药性扩散提供了生物学依据。
-  - Tags：`query:pathoai`
-- [Detection of Aerosolized Protein Using a Condensation Growth Tube Coupled with an Electrochemical Immunoassay on Screen-Printed Carbon Electrodes.](#/202605/06/202605/06/42011020-detection-of-aerosolized-protein-using-a-condensation-growth-tube-coupled-with-an-electrochemical-immunoassay-on-screen-printed-carbon-electrodes)
-  - TLDR：针对传统生物气溶胶监测中过滤法耗时长、易损坏生物活性且需实验室复杂操作的问题，该研究开发了一种集成式检测平台。该平台利用三级冷凝生长管（CGT）将气溶胶颗粒温和地富集到少量液体中，并结合丝网印刷碳电极上的电化学免疫分析技术，实现了对SARS-CoV-2核衣壳蛋白的高灵敏度检测。实验证明该系统对50-100nm颗粒的采集效率超95%，检出限达1.2 ng/mL，为病原体现场实时监测提供了高效方案。
-  - Tags：`query:pathoai`
-- [Synthetic data enables human-grade microtubule analysis with foundation models for segmentation.](#/202605/06/202605/06/42085471-synthetic-data-enables-human-grade-microtubule-analysis-with-foundation-models-for-segmentation)
-  - TLDR：微管分割对研究细胞功能至关重要，但长期受限于人工标注的高成本和数据集匮乏。本研究通过模拟真实干涉反射显微图像，构建了无需人工标注的合成数据集 SynthMT。实验证明，利用仅 10 张合成图像进行超参数优化后，SAM3Text 模型在真实数据上达到了接近甚至超越人类的分割精度，为生物医学丝状结构的自动化分析提供了高效方案。
-  - Tags：`query:bioinfo`
-- [Predictive functional profiling of 16S rRNA genes amplicons reveals bioremediation and sulfur metabolism capacity in thermophilic hot spring bacteriomes.](#/202605/06/202605/06/42086823-predictive-functional-profiling-of-16s-rrna-genes-amplicons-reveals-bioremediation-and-sulfur-metabolism-capacity-in-thermophilic-hot-spring-bacteriomes)
-  - TLDR：针对极端高温环境下微生物群落功能解析的难题，本研究对埃及法老浴场温泉（70-80°C）的细菌群落进行了16S rRNA测序与PICRUSt功能预测。研究发现，不同温度梯度下的微生物在生物修复（如芳香族化合物降解）和硫代谢方面具有显著的遗传潜力，特别是75°C位点表现出最高的物种多样性。该成果揭示了嗜热菌在极端环境下的代谢机制，为生物技术应用提供了预测框架。
   - Tags：`query:seqai`
