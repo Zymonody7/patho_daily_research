@@ -1,0 +1,171 @@
+Title: Machine learning-guided risk stratification for long QT syndrome genetic variants with hiPSC-derived cardiomyocytes - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42133816/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 11;122(10):1374-1390.
+
+doi: 10.1093/cvr/cvag105.
+
+[Manuela Mura](https://pubmed.ncbi.nlm.nih.gov/?term=Mura+M&cauthor_id=42133816)[2](https://pubmed.ncbi.nlm.nih.gov/42133816/#full-view-affiliation-2 "Translational Cardiology Unit, Fondazione IRCCS Policlinico San Matteo, Pavia, Italy."),[Federica Giannetti](https://pubmed.ncbi.nlm.nih.gov/?term=Giannetti+F&cauthor_id=42133816)[1](https://pubmed.ncbi.nlm.nih.gov/42133816/#full-view-affiliation-1 "Center for Cardiac Arrhythmias of Genetic Origin and Laboratory of Cardiovascular Genetics, Istituto Auxologico Italiano IRCCS, Milan, Italy."),[Vladislav Leonov](https://pubmed.ncbi.nlm.nih.gov/?term=Leonov+V&cauthor_id=42133816)[1](https://pubmed.ncbi.nlm.nih.gov/42133816/#full-view-affiliation-1 "Center for Cardiac Arrhythmias of Genetic Origin and Laboratory of Cardiovascular Genetics, Istituto Auxologico Italiano IRCCS, Milan, Italy.")[3](https://pubmed.ncbi.nlm.nih.gov/42133816/#full-view-affiliation-3 "Department of Surgery, Dentistry, Pediatrics and Gynecology, Cardiovascular Science, The University of Verona, Policlinico G.B. Rossi, Verona, Italy."),[Chiara Alberio](https://pubmed.ncbi.nlm.nih.gov/?term=Alberio+C&cauthor_id=42133816)[1](https://pubmed.ncbi.nlm.nih.gov/42133816/#full-view-affiliation-1 "Center for Cardiac Arrhythmias of Genetic Origin and Laboratory of Cardiovascular Genetics, Istituto Auxologico Italiano IRCCS, Milan, Italy."),[Marem Eskandr](https://pubmed.ncbi.nlm.nih.gov/?term=Eskandr+M&cauthor_id=42133816)[1](https://pubmed.ncbi.nlm.nih.gov/42133816/#full-view-affiliation-1 "Center for Cardiac Arrhythmias of Genetic Origin and Laboratory of Cardiovascular Genetics, Istituto Auxologico Italiano IRCCS, Milan, Italy.")[4](https://pubmed.ncbi.nlm.nih.gov/42133816/#full-view-affiliation-4 "Department of Biotechnology and Biosciences, University of Milano-Bicocca, Milan, Italy."),[Paola Adele Lonati](https://pubmed.ncbi.nlm.nih.gov/?term=Lonati+PA&cauthor_id=42133816)[5](https://pubmed.ncbi.nlm.nih.gov/42133816/#full-view-affiliation-5 "Laboratory of ImmunoRheumatologic Researches, Istituto Auxologico Italiano IRCCS, Milan, Italy."),[Maria Orietta Borghi](https://pubmed.ncbi.nlm.nih.gov/?term=Borghi+MO&cauthor_id=42133816)[5](https://pubmed.ncbi.nlm.nih.gov/42133816/#full-view-affiliation-5 "Laboratory of ImmunoRheumatologic Researches, Istituto Auxologico Italiano IRCCS, Milan, Italy.")[6](https://pubmed.ncbi.nlm.nih.gov/42133816/#full-view-affiliation-6 "Dipartimento di Scienze Cliniche e di Comunità, Dipartimento di Eccellenza 2023-2027, University of Milan, Milan, Italy."),[Paul A Brink](https://pubmed.ncbi.nlm.nih.gov/?term=Brink+PA&cauthor_id=42133816)[7](https://pubmed.ncbi.nlm.nih.gov/42133816/#full-view-affiliation-7 "Department of Medicine, University of Stellenbosch, Tygerberg, South Africa."),[Lia Crotti](https://pubmed.ncbi.nlm.nih.gov/?term=Crotti+L&cauthor_id=42133816)[1](https://pubmed.ncbi.nlm.nih.gov/42133816/#full-view-affiliation-1 "Center for Cardiac Arrhythmias of Genetic Origin and Laboratory of Cardiovascular Genetics, Istituto Auxologico Italiano IRCCS, Milan, Italy.")[8](https://pubmed.ncbi.nlm.nih.gov/42133816/#full-view-affiliation-8 "Department of Medicine and Surgery, University of Milano-Bicocca, Milan, Italy."),[Massimiliano Gnecchi](https://pubmed.ncbi.nlm.nih.gov/?term=Gnecchi+M&cauthor_id=42133816)[2](https://pubmed.ncbi.nlm.nih.gov/42133816/#full-view-affiliation-2 "Translational Cardiology Unit, Fondazione IRCCS Policlinico San Matteo, Pavia, Italy.")[9](https://pubmed.ncbi.nlm.nih.gov/42133816/#full-view-affiliation-9 "Department of Molecular Medicine, Unit of Cardiology, University of Pavia, Pavia, Italy."),[Peter J Schwartz](https://pubmed.ncbi.nlm.nih.gov/?term=Schwartz+PJ&cauthor_id=42133816)[1](https://pubmed.ncbi.nlm.nih.gov/42133816/#full-view-affiliation-1 "Center for Cardiac Arrhythmias of Genetic Origin and Laboratory of Cardiovascular Genetics, Istituto Auxologico Italiano IRCCS, Milan, Italy."),[Luca Sala](https://pubmed.ncbi.nlm.nih.gov/?term=Sala+L&cauthor_id=42133816)[1](https://pubmed.ncbi.nlm.nih.gov/42133816/#full-view-affiliation-1 "Center for Cardiac Arrhythmias of Genetic Origin and Laboratory of Cardiovascular Genetics, Istituto Auxologico Italiano IRCCS, Milan, Italy.")[4](https://pubmed.ncbi.nlm.nih.gov/42133816/#full-view-affiliation-4 "Department of Biotechnology and Biosciences, University of Milano-Bicocca, Milan, Italy.")
+
+Affiliations
+
+*    PMID: **42133816**
+*    PMCID: [PMC13355840](https://pmc.ncbi.nlm.nih.gov/articles/PMC13355840/)
+*    DOI: [10.1093/cvr/cvag105](https://doi.org/10.1093/cvr/cvag105)
+
+## Machine learning-guided risk stratification for long QT syndrome genetic variants with hiPSC-derived cardiomyocytes
+
+Aleksandr Khudiakov et al. Cardiovasc Res.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+**Aims:** Long QT syndrome (LQTS) is a life-threatening genetic disorder characterized by prolonged QT intervals on electrocardiograms. Congenital forms are mostly associated with variants in the KCNQ1 and KCNH2 genes. Among pathogenic or likely pathogenic (P/LP) variants, some are associated with a significantly higher incidence of cardiac events compared to others. While therapies have significantly reduced mortality, some patients are unresponsive or intolerant to therapy, perpetuating their arrhythmic risk, including sudden cardiac death. Current approaches for risk stratification are insufficient, highlighting the critical need for more accurate identification and management of patients carrying high-risk genetic variants. Here, we aimed to develop a refined risk stratification model for P/LP variants by applying machine learning classification to electrophysiological data measured in patient-specific human-induced pluripotent stem cell-derived cardiomyocytes (hiPSC-CMs).
+
+**Methods and results:** Ten patient-specific hiPSC lines, each carrying one of six pathogenic or likely pathogenic (P/LP) variants in the KCNQ1 or KCNH2 genes, along with two healthy control hiPSC lines, were differentiated into hiPSC-CMs. Electrophysiological responses from multielectrode array recordings at baseline and after application of selective ion channel blockers or pro-arrhythmic compounds were used to train a machine learning model to classify variant-specific risk levels based on in vitro electrophysiological readouts. An independent validation cohort of two additional KCNH2 hiPSC lines was used to test the model's performance in predicting single-variant risk. Our findings revealed a correlation between variant risk level, hiPSC-CM electrophysiological profiles, and drug responses. The machine learning classifier, trained on multielectrode array recordings, achieved 89% accuracy in the classification of P/LP genetic variants according to the associated risk levels.
+
+**Conclusion:** This study demonstrates that integrating hiPSC-CM electrophysiological profiling with machine learning provides a robust method for granular variant-specific risk stratification of LQTS patients.
+
+**Keywords:** Human-induced pluripotent stem cell-derived cardiomyocytes; Long QT syndrome; Machine learning; Precision medicine; Pro-arrhythmic drugs.
+
+© The Author(s) 2026. Published by Oxford University Press on behalf of the European Society of Cardiology.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Conflict of interest: none declared.
+
+## Figures
+
+[![Image 1: Graphical Abstract](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/17aa/13355840/e74ec32e1ee0/cvag105_ga.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/17aa/13355840/4149d33a9c8f/cvag105_ga.jpg)
+
+**Graphical Abstract**
+A schematic overview of the pipeline described in this study, integrating multielectrode array readouts from patient-specific hiPSC-derived cardiomyocytes with machine learning-based classification of genetic variant risk.
+
+[![Image 2: Figure 1](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/17aa/13355840/9e1ccaf1bf7b/cvag105f1.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/17aa/13355840/a23b285d7e6a/cvag105f1.jpg)
+
+**Figure 1**
+Clinical parameters and variant risk level assignment. (_A_) Frequency of cardiac events across pathogenic/likely pathogenic genetic variants in _KCNQ1_ (blue) and _KCNH2_ (orange) genes. (_B_) Percentage of patients with cardiac events for each variant from both our clinical cohort and literature data (_N_ = 1-194), with assigned variant risk level indicated. (_C_ and _D_) Baseline QTc and Schwartz score values for each variant (_N_ = 1-183). Kruskal-Wallis test followed by Dunn’s multiple comparisons test with Benjamini-Hochberg correction. *_P_ ≤ 0.05, **_P_ ≤ 0.01, ***_P_ ≤ 0.001.
+
+[![Image 3: Figure 2](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/17aa/13355840/551607e2aef7/cvag105f2.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/17aa/13355840/68b6ac0125af/cvag105f2.jpg)
+
+**Figure 2**
+Characterization of hiPSC-CMs carrying genetic variants _KCNQ1_ p.R190W and _KCNQ1_ p.R594Q. (_A_) Representative action potential traces for each hiPSC-CM variant, elicited at 1 Hz stimulation. (_B_) Action potential duration at 90% repolarization (APD90). (_C_) Corrected field potential duration (cFPD) measurements in hiPSC-CMs for each variant (_N_ = 157-180). Wilcoxon rank-sum test vs. WT group *_P_ ≤ 0.05, **_P_ ≤ 0.01, ***_P_ ≤ 0.001. (_D_) Representative I Ks current traces (lower panel), obtained by subtracting HMR1556-insensitive current (middle panel) from the total inward potassium current recording (upper panel). (_E_ and _F_) End-step and tail I Ks current-voltage (_I-V_) relationships. Two-way ANOVA followed by pairwise _t_-tests with Bonferroni correction * denotes _P_ ≤ 0.05 for all groups vs. WT, # for WT vs. _KCNQ1_ p.R190W & p.R594Q, § for WT vs. KCNQ1 p.R594Q and vs. KCNQ1 p.R190W & p.R594Q.
+
+[![Image 4: Figure 3](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/17aa/13355840/28d6ac0f9afc/cvag105f3.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/17aa/13355840/ff5b07b677cb/cvag105f3.jpg)
+
+**Figure 3**
+Baseline electrophysiology of hiPSC-CMs carrying high-risk and low-risk genetic variants. (_A_) Representative field potentials obtained for each variant with MEAs on spontaneously beating hiPSC-CM monolayers. (_B-D_) Baseline field potential duration (FPD), corrected FPD (cFPD), and beat-to-beat interval (RR) measurements of hiPSC-CMs for each variant. _N_ = 157-547. (_E_) Incidence of regular (grey) or irregular (yellow) beating patterns for hiPSC-CMs carrying low-risk and high-risk variants (_N_ = 698-1038). Kruskal-Wallis test followed by Dunn’s multiple comparisons test with Benjamin-Hochberg correction. Fisher’s exact test for categorical variables comparison. *_P_ ≤ 0.05, **_P_ ≤ 0.01, ***_P_ ≤ 0.001.
+
+[![Image 5: Figure 4](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/17aa/13355840/a93477b01d12/cvag105f4.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/17aa/13355840/b235b37bbcb3/cvag105f4.jpg)
+
+**Figure 4**
+HiPSC-CMs from low-risk and high-risk groups exhibit differential responses to ion channel blockers. Readouts from spontaneously beating hiPSC-CMs corresponding to the low-risk group (_KCNQ1_ p.R190W, _KCNH2_ p.R366X, WT) and the high-risk group (_KCNQ1_ p.R594Q, _KCNQ1_ p.R190W & p.R594Q, _KCNQ1_ p.A341V, _KCNH2_ p.A561V) were pooled to create low-risk and high-risk cohorts. (_A-E_) Concentration-dependent response curves to ion channel blockers E4031, HMR1556, HMR1556 following E4031 pre-treatment, nifedipine, and tetrodotoxin. Responses are shown for normalized corrected field potential duration (normalized cFPD), normalized RR interval (normalized RR), and normalized peak-to-peak amplitude (normalized PtPA). Bar plots illustrate the distribution of beating pattern abnormalities. The green vertical dashed line indicates reported Cmax value for nifedipine. Asterisks indicate statistical significance of comparisons between the high-risk and low-risk groups. _N_ = 51-80 per group per drug concentration. Wilcoxon rank-sum test for two groups comparison. Fisher’s exact test for categorical variables comparison. *_P_ ≤ 0.05, **_P_ ≤ 0.01, ***_P_ ≤ 0.001.
+
+[![Image 6: Figure 5](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/17aa/13355840/c1a92298d345/cvag105f5.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/17aa/13355840/188891686c4a/cvag105f5.jpg)
+
+**Figure 5**
+HiPSC-CMs from low-risk and high-risk groups exhibit differential responses to pro-arrhythmic drugs. Readouts from spontaneously beating hiPSC-CMs corresponding to the low-risk group (_KCNQ1_ p.R190W, _KCNH2_ p.R366X, WT) and the high-risk group (_KCNQ1_ p.R594Q, _KCNQ1_ p.R190W & p.R594Q, _KCNQ1_ p.A341V, _KCNH2_ p.A561V) were pooled to create low-risk and high-risk cohorts. (_A-G_) Concentration-dependent response curves for pro-arrhythmic drugs clarithromycin, chlorpromazine, ciprofloxacin, dofetilide, haloperidol, moxifloxacin, and salbutamol. Responses are presented for normalized corrected field potential duration (normalized cFPD), normalized RR interval (normalized RR), and normalized peak-to-peak amplitude (normalized PtPA). Bar plots illustrate the distribution of beating pattern abnormalities. The green vertical dashed lines indicate reported Cmax values for each drug. Asterisks indicate statistical significance of comparisons between the high-risk and low-risk groups. _N_ = 41-121 per group per drug concentration. Wilcoxon rank-sum test for two groups comparison. Fisher’s exact test for categorical variables comparison. *_P_ ≤ 0.05, **_P_ ≤ 0.01, ***_P_ ≤ 0.001.
+
+[![Image 7: Figure 6](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/17aa/13355840/4d7613667da6/cvag105f6.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/17aa/13355840/3987e8144f44/cvag105f6.jpg)
+
+**Figure 6**
+HiPSC-CMs carrying high-risk and low-risk variants demonstrate gene-specific drug responses. (_A_) Concentration-dependent response curves for dofetilide, E4031, haloperidol, HMR1556 following E4031 pre-treatment, and nifedipine in spontaneously beating hiPSC-CMs from four lines carrying the _KCNQ1_ p.A341V variant in combination with either major (homozygous or heterozygous) or minor _NOS1AP_ alleles. (_B_) Concentration-dependent drug effects on the electrophysiology of hiPSC-CMs carrying genetic variants in the _KCNQ1_ gene. Readouts from hiPSC-CMs corresponding to the low-risk group (_KCNQ1_ p.R190W) and the high-risk group (_KCNQ1_ p.R594Q, _KCNQ1_ p.R190W & p.R594Q, _KCNQ1_ p.A341V) were pooled to create low-risk and high-risk cohorts. (_C_) Concentration-dependent drug effects on the electrophysiology of hiPSC-CMs carrying genetic variants in the _KCNH2_ gene. Readouts from hiPSC-CMs corresponding to the low-risk group (_KCNH2_ p.R366X) and the high-risk group (_KCNH2_ p.A561V) were pooled to create low-risk and high-risk cohorts. Responses are shown for normalized corrected field potential duration (normalized cFPD), normalized RR interval (normalized RR), and normalized peak-to-peak amplitude (normalized PtPA). Bar plots illustrate the distribution of beating pattern abnormalities. Asterisks indicate statistically significant differences between cell lines/groups. _N_ = 8-101 per line/group per drug concentration. Kruskal-Wallis test for multiple group comparison. Wilcoxon rank-sum test for two group comparison. Fisher’s exact test for categorical variables comparison. *_P_ ≤ 0.05, **_P_ ≤ 0.01, ***_P_ ≤ 0.001.
+
+[![Image 8: Figure 7](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/17aa/13355840/31d32b21d899/cvag105f7.gif)](https://cdn.ncbi.nlm.nih.gov/pmc/blobs/17aa/13355840/2e59a3b8423e/cvag105f7.jpg)
+
+**Figure 7**
+Variant risk levels and disease type prediction using MEA measurements and machine learning model. (_A_) Structure of the MEA readout dataset and example of row-by-row predictions of variant risk levels. (_B_) Variant risk prediction pipeline, indicating training and validation steps. (_C_) Receiver operating characteristic (ROC) curve illustrating the performance of a classification model for variant risk prediction on the primary dataset. (_D_) Disease-causing gene prediction pipeline. (_E_) ROC curves representing the model's performance for disease-causing gene prediction. (_F_) Percentage of patients with cardiac events for each variant in the validation cohort (_N_ = 7-9), with assigned variant risk levels specified. Asterisk indicates inclusion of patients with mixed disease phenotypes. (_G_) Prediction of variant risk levels for the validation cohort using the model pretrained on the primary dataset. (_H_) ROC curve showing the performance of the classification model for variant risk prediction on the combined dataset incorporating all eight genetic variants and wild types. (_I_) Leave-one-out cross-validation results for single-variant risk level predictions. ROC curves are shown for each model following variant exclusion from the training set. The predicted risk level and individual prediction accuracy are indicated for each variant.
+
+## Comment in
+
+*   [Human-induced pluripotent stem cell cardiomyocytes for risk stratification of patients with LQT syndrome-ready for practice?](https://pubmed.ncbi.nlm.nih.gov/42262845/)
+
+Eschenhagen T.Eschenhagen T.Cardiovasc Res. 2026 Jul 11;122(10):1281-1282. doi: 10.1093/cvr/cvag126.Cardiovasc Res. 2026.PMID: 42262845 No abstract available. 
+
+## References
+
+1.       1.    Schwartz PJ, Periti M, Malliani A. The long Q-T syndrome. Am Heart J 1975;89:378–390. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/234667/)
+
+2.       1.    Schwartz PJ, Priori SG, Spazzolini C, Moss AJ, Vincent GM, Napolitano C, Denjoy I, Guicheney P, Breithardt G, Keating MT, Towbin JA, Beggs AH, Brink P, Wilde AA, Toivonen L, Zareba W, Robinson JL, Timothy KW, Corfield V, Wattanasirichaigoon D, Corbett C, Haverkamp W, Schulze-Bahr E, Lehmann MH, Schwartz K, Coumel P, Bloise R. Genotype-phenotype correlation in the long-QT syndrome: gene-specific triggers for life-threatening arrhythmias. Circulation 2001;103:89–95. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/11136691/)
+
+3.       1.    Behr ER, Roden D. Drug-induced arrhythmia: pharmacogenomic prescribing? Eur Heart J 2013;34:89–95. - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3538275/) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/23091201/)
+
+4.       1.    Weeke PE, Kellemann JS, Jespersen CB, Theilade J, Kanters JK, Hansen MS, Christiansen M, Marstrand P, Gislason GH, Torp-Pedersen C, Bundgaard H, Jensen HK, Tfelt-Hansen J. Long-term proarrhythmic pharmacotherapy among patients with congenital long QT syndrome and risk of arrhythmia and mortality. Eur Heart J 2019;40:3110–3117. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/31079148/)
+
+5.       1.    Zeppenfeld K, Tfelt-Hansen J, de Riva M, Winkel BG, Behr ER, Blom NA, Charron P, Corrado D, Dagres N, de Chillou C, Eckardt L, Friede T, Haugaa KH, Hocini M, Lambiase PD, Marijon E, Merino JL, Peichl P, Priori SG, Reichlin T, Schulz-Menger J, Sticherling C, Tzeis S, Verstrael A, Volterrani M; ESC Scientific Document Group . 2022 ESC guidelines for the management of patients with ventricular arrhythmias and the prevention of sudden cardiac death. Eur Heart J 2022;43:3997–4126. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/36017572/)
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Grants and funding
+
+*   [HORIZON-MSCA-2022-PF-01/Horizon Europe EU](https://pubmed.ncbi.nlm.nih.gov/?term=HORIZON-MSCA-2022-PF-01%2FHorizon+Europe+EU%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant HORIZON-MSCA-2022-PF-01/Horizon Europe EU")
+*   [101105561/Horizon Europe EU](https://pubmed.ncbi.nlm.nih.gov/?term=101105561%2FHorizon+Europe+EU%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 101105561/Horizon Europe EU")
+*   [H2020-MSCA-IF-2017/Horizon 2020](https://pubmed.ncbi.nlm.nih.gov/?term=H2020-MSCA-IF-2017%2FHorizon+2020%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant H2020-MSCA-IF-2017/Horizon 2020")
+*   [795209/Horizon 2020](https://pubmed.ncbi.nlm.nih.gov/?term=795209%2FHorizon+2020%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 795209/Horizon 2020")
+*   [2019-1691/Fondazione CARIPLO](https://pubmed.ncbi.nlm.nih.gov/?term=2019-1691%2FFondazione+CARIPLO%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2019-1691/Fondazione CARIPLO")
+
+*   [18CVD05/Leducq Foundation](https://pubmed.ncbi.nlm.nih.gov/?term=18CVD05%2FLeducq+Foundation%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 18CVD05/Leducq Foundation")
+*   [Italian Ministry of University and Research within Mission 4](https://pubmed.ncbi.nlm.nih.gov/?term=Italian+Ministry+of+University+and+Research+within+Mission+4%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant Italian Ministry of University and Research within Mission 4")
+*   [Education and Research](https://pubmed.ncbi.nlm.nih.gov/?term=Education+and+Research%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant Education and Research")
+*   [From Research to Business](https://pubmed.ncbi.nlm.nih.gov/?term=From+Research+to+Business%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant From Research to Business")
+*   [young researchers](https://pubmed.ncbi.nlm.nih.gov/?term=young+researchers%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant young researchers")
+*   [2022-NAZ-0485/National Recovery and Resilience Plan](https://pubmed.ncbi.nlm.nih.gov/?term=2022-NAZ-0485%2FNational+Recovery+and+Resilience+Plan%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2022-NAZ-0485/National Recovery and Resilience Plan")
+*   [H45E22001210006/National Recovery and Resilience Plan](https://pubmed.ncbi.nlm.nih.gov/?term=H45E22001210006%2FNational+Recovery+and+Resilience+Plan%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant H45E22001210006/National Recovery and Resilience Plan")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Silverchair Information Systems](https://academic.oup.com/cardiovascres/article-lookup/doi/10.1093/cvr/cvag105)
+
+*   ### Research Materials
+
+    *   [NCI CPTC Antibody Characterization Program](https://antibodies.cancer.gov/detail/CPTC-PTHrP-2)

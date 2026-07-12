@@ -1,0 +1,65 @@
+Title: Associations between the intratumoral microbiome and the host transcriptome in bladder cancer and their implications for prognostic prediction - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42436233/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 11.
+
+doi: 10.1038/s41598-026-61819-6.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42436233**
+*    DOI: [10.1038/s41598-026-61819-6](https://doi.org/10.1038/s41598-026-61819-6)
+
+Free article
+
+## Associations between the intratumoral microbiome and the host transcriptome in bladder cancer and their implications for prognostic prediction
+
+Jiayu Gu et al. Sci Rep.2026.
+
+Free article
+
+## Abstract
+
+Intratumoral microbes significantly influence tumor progression, yet their specific roles and host interactions in bladder cancer (BLCA) remain elusive. Integrating 16 S rRNA sequencing from an in-house cohort with TCGA data, we identified Methylobacterium as prominently enriched in adjacent non-tumor tissues and tightly correlated with host transcriptomic alterations. Through LASSO regression, we constructed and externally validated a Methylobacterium-associated four-gene prognostic signature (SLC1A6, BCHE, TXNRD1, CFL2). The model robustly stratified patient outcomes; high-risk patients exhibited significantly worse survival, characterized by an immunosuppressive microenvironment with elevated M2 macrophages, regulatory T cells, and higher TIDE scores indicating immune evasion. Crucially, in vitro experiments suggested that Methylobacterium supernatant exerted tumor-suppressive effects, profoundly inhibiting BLCA cell proliferation and colony formation while modulating host gene expression (downregulating BCHE and CFL2). Collectively, this study unveils the protective potential of intratumoral Methylobacterium and proposes a novel microbe-derived signature for predicting BLCA prognosis and immune status, providing new insights into microbiota-host crosstalk for future therapeutic strategies.
+
+**Keywords:** Methylobacterium; Bladder cancer; Host-microbiota crosstalk; Intratumoral microbiota; Prognostic signature; Tumor immune microenvironment.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Competing interests: The authors declare no competing interests. Ethics approval: This study was approved by the Ethics Committees of both Wuxi Second People’s Hospital and Jiangsu Province Hospital (Approval No.: 2023 Ethical Review No. (Y-167)). Written informed consent was obtained from all participants. All procedures were performed in accordance with the Helsinki Declaration. Consent to participate and consent to publish: Written informed consent was obtained from all participants.
+
+## Similar articles
+
+*   [Identification of a migrasome-related lncRNA signature and its prognostic and immunological role in bladder cancer.](https://pubmed.ncbi.nlm.nih.gov/42079608/)
+
+Shen J, Wang C, Li T, Guan H, Zhang M, Li R, Zhang Y, Liu L, Tian J, Shang Z.Shen J, et al.Front Immunol. 2026 Apr 16;17:1763443. doi: 10.3389/fimmu.2026.1763443. eCollection 2026.Front Immunol. 2026.PMID: 42079608 Free PMC article. 
+*   [Identification of succinylation-related genes in bladder cancer: integration of single-cell and transcriptomic data.](https://pubmed.ncbi.nlm.nih.gov/42220482/)
+
+Yang J, You Z, Mo H, Pu J, Shen G, Miao Z.Yang J, et al.Front Immunol. 2026 May 15;17:1797389. doi: 10.3389/fimmu.2026.1797389. eCollection 2026.Front Immunol. 2026.PMID: 42220482 Free PMC article. 
+*   [Prognostic and immunological implications of a mitophagy-associated gene signature in bladder cancer.](https://pubmed.ncbi.nlm.nih.gov/42436798/)
+
+Han C, Miao L, Liu Y, Wang Y, Wu J, Du P.Han C, et al.Transl Androl Urol. 2026 Jun 30;15(6):199. doi: 10.21037/tau-2026-1-0147. Epub 2026 Jun 25.Transl Androl Urol. 2026.PMID: 42436798 Free PMC article. 
+*   [Prognosis analysis and validation of lipid metabolism-associated lncRNAs and tumor immune microenvironment in bladder cancer.](https://pubmed.ncbi.nlm.nih.gov/37632832/)
+
+Tan Z, Fu S, Zuo J, Wang J, Wang H.Tan Z, et al.Aging (Albany NY). 2023 Aug 24;15(16):8384-8407. doi: 10.18632/aging.204975. Epub 2023 Aug 24.Aging (Albany NY). 2023.PMID: 37632832 Free PMC article. 
+*   [Exploration and validation of a novel reactive oxygen species-related signature for predicting the prognosis and chemotherapy response of patients with bladder cancer.](https://pubmed.ncbi.nlm.nih.gov/39749345/)
+
+Li Y, Zhang L, Xu G, Xu G, Chen J, Zhao K, Li M, Jin J, Peng C, Wang K, Pan S, Zhu K.Li Y, et al.Front Immunol. 2024 Dec 19;15:1493528. doi: 10.3389/fimmu.2024.1493528. eCollection 2024.Front Immunol. 2024.PMID: 39749345 Free PMC article. 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Nature Publishing Group](https://doi.org/10.1038/s41598-026-61819-6)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/non-CPTAC-2645)

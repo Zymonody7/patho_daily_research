@@ -1,0 +1,51 @@
+Title: A Dictyostelium discoideum Cell-Based Biosensor Reveals Capsule-Associated Virulence Phenotypes in Hypervirulent Klebsiella pneumoniae - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42432843/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 11.
+
+doi: 10.1021/acssensors.5c04309.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42432843**
+*    DOI: [10.1021/acssensors.5c04309](https://doi.org/10.1021/acssensors.5c04309)
+
+## A _Dictyostelium discoideum_ Cell-Based Biosensor Reveals Capsule-Associated Virulence Phenotypes in Hypervirulent _Klebsiella pneumoniae_
+
+Ian Pérez-Ramírez et al. ACS Sens.2026.
+
+## Abstract
+
+Hypervirulent _Klebsiella pneumoniae_ (hvKp) is an emerging threat due to its capacity to cause severe community-acquired infections and its increasing convergence with multidrug resistance. However, functional assessment of hvKp virulence still relies largely on mammalian infection models, which are costly, ethically constrained, and poorly suited for scalable early-stage screening. Here, we establish a proof-of-concept cell-based biosensing framework using the social amoeba _Dictyostelium discoideum_ to detect capsule-associated virulence phenotypes in the model hvKp strain SGH10. Using SGH10 and a scarless capsule-null Δ _wcaJ_ mutant, we show that loss of capsule production strongly reduces mucoviscosity, zebrafish lethality, resistance to amoebal predation, inhibition of social development, and impairment of amoebal motility. These host behavioral responses were quantified through complementary readouts, including predation plaque expansion, multicellular development, fluorescence microscopy, live-cell tracking, and exploratory multivariate integration. Compared with SGH10, the Δ _wcaJ_ mutant produced phenotypes resembling those of the avirulent control strain KpGe, supporting capsule production as a major driver of phagocytosis resistance and host-response disruption in this model. Rather than providing a broadly validated classifier for hvKp, our results define a calibrated experimental framework in which _D. discoideum_ functions as a living phenotypic sensor for capsule-dependent virulence traits. This platform offers a low-cost, genetically tractable, and imaging-compatible system for dissecting hvKp host interactions and for guiding future validation of scalable virulence biosensing across larger and genetically diverse _K. pneumoniae_ collections.
+
+**Keywords:** Dictyostelium discoideum; Klebsiella pneumoniae; capsule; cell-based biosensing; hypervirulent; mucoviscosity.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [A combined genetic and phenotypic marker approach enables precise detection of hypervirulent _Klebsiella pneumoniae_ and reveals associated traits of capsule overproduction and tellurite resistance.](https://pubmed.ncbi.nlm.nih.gov/41498542/)
+
+Duong TTT, Lin W-H, Tsai Y-M, Liao C-H, Huang Y-T, Hsueh P-R, Kao C-Y.Duong TTT, et al.Microbiol Spectr. 2026 Feb 3;14(2):e0247425. doi: 10.1128/spectrum.02474-25. Epub 2026 Jan 7.Microbiol Spectr. 2026.PMID: 41498542 Free PMC article. 
+*   [Hybrid Plasmids Encoding Antimicrobial Resistance and Virulence Traits Among Hypervirulent _Klebsiella pneumoniae_ ST2096 in India.](https://pubmed.ncbi.nlm.nih.gov/35573787/)
+
+Shankar C, Vasudevan K, Jacob JJ, Baker S, Isaac BJ, Neeravi AR, Sethuvel DPM, George B, Veeraraghavan B.Shankar C, et al.Front Cell Infect Microbiol. 2022 Apr 27;12:875116. doi: 10.3389/fcimb.2022.875116. eCollection 2022.Front Cell Infect Microbiol. 2022.PMID: 35573787 Free PMC article. 
+*   [An Assessment of Siderophore Production, Mucoviscosity, and Mouse Infection Models for Defining the Virulence Spectrum of Hypervirulent Klebsiella pneumoniae.](https://pubmed.ncbi.nlm.nih.gov/33762316/)
+
+Russo TA, MacDonald U, Hassan S, Camanzo E, LeBreton F, Corey B, McGann P.Russo TA, et al.mSphere. 2021 Mar 24;6(2):e00045-21. doi: 10.1128/mSphere.00045-21.mSphere. 2021.PMID: 33762316 Free PMC article. 
+*   [A review on hypervirulent and multidrug-resistant Klebsiella pneumoniae: An emerging threat to human health.](https://pubmed.ncbi.nlm.nih.gov/41579175/)
+
+Ahmed S, Saif M, Ahmed V, Ahmad O, Rizvi SA, Jabeen U, Khan S, Haq QMR.Ahmed S, et al.Naunyn Schmiedebergs Arch Pharmacol. 2026 Apr;399(7):9375-9409. doi: 10.1007/s00210-025-04968-1. Epub 2026 Jan 24.Naunyn Schmiedebergs Arch Pharmacol. 2026.PMID: 41579175 Review. 
+*   [Hypervirulent Klebsiella pneumoniae - clinical and molecular perspectives.](https://pubmed.ncbi.nlm.nih.gov/31677303/)
+
+Choby JE, Howard-Anderson J, Weiss DS.Choby JE, et al.J Intern Med. 2020 Mar;287(3):283-300. doi: 10.1111/joim.13007. Epub 2019 Nov 21.J Intern Med. 2020.PMID: 31677303 Free PMC article.Review. 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [American Chemical Society](https://doi.org/10.1021/acssensors.5c04309)

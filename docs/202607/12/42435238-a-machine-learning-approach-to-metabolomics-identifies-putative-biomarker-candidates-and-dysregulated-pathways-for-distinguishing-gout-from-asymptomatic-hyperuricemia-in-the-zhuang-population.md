@@ -1,0 +1,22 @@
+---
+title: A machine learning approach to metabolomics identifies putative biomarker candidates and dysregulated pathways for distinguishing gout from asymptomatic hyperuricemia in the Zhuang population.
+title_zh: 一种基于机器学习的代谢组学方法，用于识别区分壮族人群痛风与无症状高尿酸血症的潜在候选生物标志物和失调通路。
+authors: "Yuxia Wei, Xiaoqiang Qiu, Li Su, Xiaofen Tang, Yuzhu Chen, Shun Liu, Dongping Huang, Xiaoyun Zeng, Yihong Xie"
+date: 2026-07-11
+pdf: "https://pubmed.ncbi.nlm.nih.gov/42435238/"
+tags: ["query:bioinfo"]
+score: 7.0
+evidence: 用于代谢组学标志物鉴定的机器学习
+tldr: 痛风通常由高尿酸血症演变而来，但其转化机制尚不明确。本研究针对壮族人群，利用靶向代谢组学技术结合机器学习（Boruta与SVM算法），分析了健康、高尿酸及痛风患者的代谢差异。结果发现男性群体存在显著的性别特异性代谢改变，并构建了包含谷氨酰胺、黄酮等标志物的分类模型，在区分痛风与高尿酸血症中表现出极高的准确率（AUC达1.0），为痛风的早期预警和病理研究提供了新视角。
+selection_source: fresh_fetch
+motivation: 旨在揭示高尿酸血症向痛风转化的代谢驱动因素，并寻找能够区分两者的特异性生物标志物。
+method: 采用液相色谱-质谱联用技术获取代谢数据，并利用Boruta特征选择算法与支持向量机（SVM）构建分类预测模型。
+result: 在男性受试者中识别出7种显著差异代谢物，并建立了两个机器学习模型，在验证集中区分痛风与高尿酸血症的曲线下面积（AUC）达到1.0。
+conclusion: 研究证实了痛风发病中存在性别差异，并将代谢异常的研究范围从单纯的嘌呤代谢扩展到了氨基酸和能量代谢领域。
+---
+
+## 摘要
+引言：痛风通常由高尿酸血症（HUA）发展而来，但驱动这一转变的代谢改变尚不清楚，限制了我们对疾病发病机制的理解。目的：识别阶段特异性的潜在候选生物标志物，并表征区分痛风与高尿酸血症的失调代谢通路。方法：我们利用 LC-MS/MS 对壮族少数民族队列的基线血浆样本进行了靶向代谢组学分析。分析样本集包括 38 名高尿酸血症患者、47 名痛风患者和 52 名健康对照者。在所有参与者以及女性和男性亚组中进行了性别分层的差异代谢物分析。使用 KEGG 数据库进行通路富集分析。采用包括 Boruta 算法和支持向量机（SVM）在内的机器学习方法，在男性参与者中进行潜在生物标志物发现和模型评估。结果：在所有参与者中，24 种代谢物达到名义显著性（P < 0.05），但经 FDR 校正后仅尿酸保持显著。在性别分层分析中，女性中没有代谢物通过 FDR 校正，而在男性中，有 7 种代谢物（黄酮、谷氨酰胺、L-2-氨基己二酸、L-哌啶酸、N1-甲基-2-吡啶酮-5-甲酰胺、苯乳酸和尿酸）在健康对照、高尿酸血症患者和痛风患者之间显示出显著差异（FDR < 0.1）。这些代谢物主要参与氮代谢、精氨酸生物合成、D-氨基酸代谢、烟酸和烟酰胺代谢以及嘌呤代谢。机器学习识别出 4 种代谢物（N1-甲基-2-吡啶酮-5-甲酰胺、黄酮、谷氨酰胺和苯乳酸）可区分痛风与健康对照，在训练集和验证集中的 AUC 分别为 0.902 和 0.800。第二个模型（L-哌啶酸、谷氨酰胺、苯乳酸和黄酮）可区分痛风与高尿酸血症，AUC 分别达到 0.850 和 1.000。排除肥胖或高甘油三酯血症参与者的敏感性分析证实了两个模型的稳健性能。结论：本研究提示痛风存在性别特异性的代谢改变，并为男性参与者提供了稳健的基于机器学习的模型。识别出的代谢物特征似乎将嘌呤代谢扩展到了氨基酸和能量代谢通路。这些发现为高尿酸血症管理中针对机制的策略提供了基础。外部验证仍是必要的。
+
+## Abstract
+INTRODUCTION: Gout typically develops from hyperuricemia (HUA), but the metabolic alterations driving this transition remain poorly understood, limiting our understanding of disease pathogenesis. OBJECTIVES: To identify stage-specific putative biomarker candidates and to characterize dysregulated metabolic pathways distinguishing gout from HUA. METHODS: We conducted a targeted metabolomics assay on the baseline plasma samples from a Zhuang minority cohort using LC-MS/MS. The analyzed sample set comprised 38 HUA patients, 47 gout patients, and 52 healthy controls. Sex-stratified differential metabolite analysis was performed across all participants, as well as in female and male subgroups. Pathway enrichment analysis was carried out using the KEGG database. Machine learning approaches, including the Boruta algorithm and support vector machine (SVM), were employed for putative biomarker discovery and model evaluation in male participants. RESULTS: Among all participants, 24 metabolites reached nominal significance (P < 0.05), but only uric acid remained significant after FDR correction. In sex-stratified analyses, no metabolite survived FDR correction in females, whereas in males, seven metabolites (flavone, glutamine, L-2-aminoadipic acid, L-pipecolic acid, N1-methyl-2-pyridone-5-carboxamide, phenyllactic acid, and uric acid) showed significant differences among healthy controls, HUA patients, and gout patients (FDR < 0.1). These metabolites were primarily involved in nitrogen metabolism, arginine biosynthesis, D-amino acid metabolism, nicotinate and nicotinamide metabolism, and purine metabolism. Machine learning identified four metabolites (N1-methyl-2-pyridone-5-carboxamide, flavone, glutamine, and phenyllactic acid) that distinguished gout from healthy controls, with AUCs of 0.902 and 0.800 in the training and validation sets, respectively. A second model (L-pipecolic acid, glutamine, phenyllactic acid, and flavone) discriminated gout from HUA, achieving AUCs of 0.850 and 1.000. Sensitivity analyses excluding obese or hypertriglyceridemic participants confirmed the robust performance of both models. CONCLUSIONS: This study suggests sex-specific metabolic alterations in gout and provides robust machine learning-based models for male participants. The identified metabolite signatures appear to extend purine metabolism to involve amino acid and energy metabolic pathways. These findings provide a basis for mechanism-targeted strategies in HUA management. External validation remains essential.

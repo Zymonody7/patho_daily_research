@@ -1,0 +1,94 @@
+Title: Combining multiplexed functional data to improve variant classification - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42432739/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 11.
+
+doi: 10.1186/s13073-026-01715-w.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42432739**
+*    DOI: [10.1186/s13073-026-01715-w](https://doi.org/10.1186/s13073-026-01715-w)
+
+Free article
+
+## Combining multiplexed functional data to improve variant classification
+
+Jeffrey D Calhoun et al. Genome Med.2026.
+
+Free article
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+**Background:** With the surge in the number of variants of uncertain significance (VUS) reported in ClinVar in recent years, there is an imperative to resolve VUS at scale. Multiplexed assays of variant effect (MAVEs), which allow the functional consequence of 100s to 1000s of genetic variants to be measured in a single experiment, are emerging as a powerful source of evidence which can be used in clinical variant classification. Increasingly, multiple published MAVEs are available for the same gene, sometimes measuring different aspects of variant impact. When multiple functional roles of a gene need to be considered, combining data from multiple MAVEs may provide a more comprehensive measure of the consequence of a genetic variant, which could impact variant classifications.
+
+**Methods:** We curated published datasets from five MAVEs for the gene TP53, two MAVEs for LDLR and two MAVEs for PTEN. Statistical methods (principal component analysis), unsupervised learning (k-means clustering), and supervised learning (Naïve Bayes and random forest classifiers) were used to integrate multiple MAVE datasets. The utility of MAVE integration methods were assessed using standard metrics (sensitivity, specificity, etc) as well as evidence strength in a putative variant classification framework.
+
+**Results:** Here, we provide guidance for combining such multiplexed functional data, incorporating a stepwise process from data curation and collection to model generation and validation. We also present a web applet that allows users to test various methods for combining score sets from multiple assays, calculate integrated functional scores for all variants, and assess whether combining data enables the application of stronger evidence for pathogenicity or benignity. In general, supervised learning methods such as random forest led to improved variant classification as compared to any individual MAVE dataset.
+
+**Conclusions:** By following the steps outlined herein with appropriate guardrails, researchers can maximize the value of MAVEs, strengthen the functional evidence for clinical variant classification, and potentially uncover novel mechanisms of pathogenicity for clinically relevant genes.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Ethics approval and consent to participate: Not applicable. Consent for publication: Not applicable. Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Closing the gap: Systematic integration of multiplexed functional data resolves variants of uncertain significance in BRCA1, TP53, and PTEN.](https://pubmed.ncbi.nlm.nih.gov/34793697/)
+
+Fayer S, Horton C, Dines JN, Rubin AF, Richardson ME, McGoldrick K, Hernandez F, Pesaran T, Karam R, Shirts BH, Fowler DM, Starita LM.Fayer S, et al.Am J Hum Genet. 2021 Dec 2;108(12):2248-2258. doi: 10.1016/j.ajhg.2021.11.001. Epub 2021 Nov 17.Am J Hum Genet. 2021.PMID: 34793697 Free PMC article. 
+*   [Using multiplexed functional data to reduce variant classification inequities in underrepresented populations.](https://pubmed.ncbi.nlm.nih.gov/39627863/)
+
+Dawood M, Fayer S, Pendyala S, Post M, Kalra D, Patterson K, Venner E, Muffley LA, Fowler DM, Rubin AF, Posey JE, Plon SE, Lupski JR, Gibbs RA, Starita LM, Robles-Espinoza CD, Coyote-Maestas W, Gallego Romero I.Dawood M, et al.Genome Med. 2024 Dec 3;16(1):143. doi: 10.1186/s13073-024-01392-7.Genome Med. 2024.PMID: 39627863 Free PMC article. 
+*   [Folic acid supplementation and malaria susceptibility and severity among people taking antifolate antimalarial drugs in endemic areas.](https://pubmed.ncbi.nlm.nih.gov/36321557/)
+
+Crider K, Williams J, Qi YP, Gutman J, Yeung L, Mai C, Finkelstain J, Mehta S, Pons-Duran C, Menéndez C, Moraleda C, Rogers L, Daniels K, Green P.Crider K, et al.Cochrane Database Syst Rev. 2022 Feb 1;2(2022):CD014217. doi: 10.1002/14651858.CD014217.Cochrane Database Syst Rev. 2022.PMID: 36321557 Free PMC article.Updated. 
+*   [Assigning credit where it is due: an information content score to capture the clinical value of multiplexed assays of variant effect.](https://pubmed.ncbi.nlm.nih.gov/39243022/)
+
+Ranola JMO, Horton C, Pesaran T, Fayer S, Starita LM, Shirts BH.Ranola JMO, et al.BMC Bioinformatics. 2024 Sep 6;25(1):295. doi: 10.1186/s12859-024-05920-5.BMC Bioinformatics. 2024.PMID: 39243022 Free PMC article. 
+*   [Multiplexed assays of variant effect for clinical variant interpretation.](https://pubmed.ncbi.nlm.nih.gov/40691352/)
+
+McEwen AE, Tejura M, Fayer S, Starita LM, Fowler DM.McEwen AE, et al.Nat Rev Genet. 2026 Feb;27(2):137-154. doi: 10.1038/s41576-025-00870-x. Epub 2025 Jul 21.Nat Rev Genet. 2026.PMID: 40691352 Review. 
+
+## Grants and funding
+
+*   [U01HG011758, UM1HG011969, RM1HG010461/HG/NHGRI NIH HHS/United States](https://pubmed.ncbi.nlm.nih.gov/?term=U01HG011758%2C+UM1HG011969%2C+RM1HG010461%2FHG%2FNHGRI+NIH+HHS%2FUnited+States%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant U01HG011758, UM1HG011969, RM1HG010461/HG/NHGRI NIH HHS/United States")
+*   [UM1HG011969; RM1HG010461/HG/NHGRI NIH HHS/United States](https://pubmed.ncbi.nlm.nih.gov/?term=UM1HG011969%3B+RM1HG010461%2FHG%2FNHGRI+NIH+HHS%2FUnited+States%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant UM1HG011969; RM1HG010461/HG/NHGRI NIH HHS/United States")
+*   [R01HG013025/HG/NHGRI NIH HHS/United States](https://pubmed.ncbi.nlm.nih.gov/?term=R01HG013025%2FHG%2FNHGRI+NIH+HHS%2FUnited+States%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant R01HG013025/HG/NHGRI NIH HHS/United States")
+*   [R01HG013025, UM1HG011969/HG/NHGRI NIH HHS/United States](https://pubmed.ncbi.nlm.nih.gov/?term=R01HG013025%2C+UM1HG011969%2FHG%2FNHGRI+NIH+HHS%2FUnited+States%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant R01HG013025, UM1HG011969/HG/NHGRI NIH HHS/United States")
+*   [CPRITRP210027/Cancer Prevention and Research Institute of Texas](https://pubmed.ncbi.nlm.nih.gov/?term=CPRITRP210027%2FCancer+Prevention+and+Research+Institute+of+Texas%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant CPRITRP210027/Cancer Prevention and Research Institute of Texas")
+
+*   [21-25037/RUNX1 Foundation](https://pubmed.ncbi.nlm.nih.gov/?term=21-25037%2FRUNX1+Foundation%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 21-25037/RUNX1 Foundation")
+*   [EDDPGM Nov22/100004/CRUK_/Cancer Research UK/United Kingdom](https://pubmed.ncbi.nlm.nih.gov/?term=EDDPGM+Nov22%2F100004%2FCRUK_%2FCancer+Research+UK%2FUnited+Kingdom%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant EDDPGM Nov22/100004/CRUK_/Cancer Research UK/United Kingdom")
+*   [APP177524/National Health and Medical Research Council](https://pubmed.ncbi.nlm.nih.gov/?term=APP177524%2FNational+Health+and+Medical+Research+Council%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant APP177524/National Health and Medical Research Council")
+*   [R35GM133433/GM/NIGMS NIH HHS/United States](https://pubmed.ncbi.nlm.nih.gov/?term=R35GM133433%2FGM%2FNIGMS+NIH+HHS%2FUnited+States%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant R35GM133433/GM/NIGMS NIH HHS/United States")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [BioMed Central](https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-026-01715-w)
+
+*   ### Research Materials
+
+    *   [NCI CPTC Antibody Characterization Program](https://antibodies.cancer.gov/detail/CPTC-PTEN-4)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-951)

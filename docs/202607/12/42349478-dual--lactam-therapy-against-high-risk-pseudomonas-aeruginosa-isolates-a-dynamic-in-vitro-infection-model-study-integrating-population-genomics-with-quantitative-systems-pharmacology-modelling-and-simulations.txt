@@ -1,0 +1,74 @@
+Title: Dual β-lactam therapy against high-risk Pseudomonas aeruginosa isolates: a dynamic in-vitro infection model study integrating population genomics with quantitative systems pharmacology modelling and simulations - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42349478/
+
+Markdown Content:
+Actions
+
+. 2027 Jan 26:101364.
+
+doi: 10.1016/j.lanmic.2026.101364.  Online ahead of print.
+
+[Sara Cortés-Lara](https://pubmed.ncbi.nlm.nih.gov/?term=Cort%C3%A9s-Lara+S&cauthor_id=42349478)[2](https://pubmed.ncbi.nlm.nih.gov/42349478/#full-view-affiliation-2 "Servicio de Microbiología, Hospital Universitario Son Espases, Instituto de Investigación Sanitaria Illes Balears (IdISBa), Palma de Mallorca, Spain; CIBER Enfermedades Infecciosas (CIBERINFEC), Madrid, Spain."),[Jessica R Tait](https://pubmed.ncbi.nlm.nih.gov/?term=Tait+JR&cauthor_id=42349478)[1](https://pubmed.ncbi.nlm.nih.gov/42349478/#full-view-affiliation-1 "Drug Delivery, Disposition and Dynamics, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville, VIC, Australia."),[Kate E Rogers](https://pubmed.ncbi.nlm.nih.gov/?term=Rogers+KE&cauthor_id=42349478)[1](https://pubmed.ncbi.nlm.nih.gov/42349478/#full-view-affiliation-1 "Drug Delivery, Disposition and Dynamics, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville, VIC, Australia."),[Wee Leng Lee](https://pubmed.ncbi.nlm.nih.gov/?term=Lee+WL&cauthor_id=42349478)[1](https://pubmed.ncbi.nlm.nih.gov/42349478/#full-view-affiliation-1 "Drug Delivery, Disposition and Dynamics, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville, VIC, Australia."),[Megan Faith](https://pubmed.ncbi.nlm.nih.gov/?term=Faith+M&cauthor_id=42349478)[1](https://pubmed.ncbi.nlm.nih.gov/42349478/#full-view-affiliation-1 "Drug Delivery, Disposition and Dynamics, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville, VIC, Australia."),[Alice E Terrill](https://pubmed.ncbi.nlm.nih.gov/?term=Terrill+AE&cauthor_id=42349478)[1](https://pubmed.ncbi.nlm.nih.gov/42349478/#full-view-affiliation-1 "Drug Delivery, Disposition and Dynamics, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville, VIC, Australia."),[Dominika T Fuhs](https://pubmed.ncbi.nlm.nih.gov/?term=Fuhs+DT&cauthor_id=42349478)[1](https://pubmed.ncbi.nlm.nih.gov/42349478/#full-view-affiliation-1 "Drug Delivery, Disposition and Dynamics, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville, VIC, Australia."),[Marina Harper](https://pubmed.ncbi.nlm.nih.gov/?term=Harper+M&cauthor_id=42349478)[3](https://pubmed.ncbi.nlm.nih.gov/42349478/#full-view-affiliation-3 "Biomedicine Discovery Institute, Department of Microbiology, Monash University, Clayton, VIC, Australia."),[Carla López-Causapé](https://pubmed.ncbi.nlm.nih.gov/?term=L%C3%B3pez-Causap%C3%A9+C&cauthor_id=42349478)[2](https://pubmed.ncbi.nlm.nih.gov/42349478/#full-view-affiliation-2 "Servicio de Microbiología, Hospital Universitario Son Espases, Instituto de Investigación Sanitaria Illes Balears (IdISBa), Palma de Mallorca, Spain; CIBER Enfermedades Infecciosas (CIBERINFEC), Madrid, Spain."),[Roger L Nation](https://pubmed.ncbi.nlm.nih.gov/?term=Nation+RL&cauthor_id=42349478)[1](https://pubmed.ncbi.nlm.nih.gov/42349478/#full-view-affiliation-1 "Drug Delivery, Disposition and Dynamics, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville, VIC, Australia."),[John D Boyce](https://pubmed.ncbi.nlm.nih.gov/?term=Boyce+JD&cauthor_id=42349478)[3](https://pubmed.ncbi.nlm.nih.gov/42349478/#full-view-affiliation-3 "Biomedicine Discovery Institute, Department of Microbiology, Monash University, Clayton, VIC, Australia."),[Antonio Oliver](https://pubmed.ncbi.nlm.nih.gov/?term=Oliver+A&cauthor_id=42349478)[4](https://pubmed.ncbi.nlm.nih.gov/42349478/#full-view-affiliation-4 "Servicio de Microbiología, Hospital Universitario Son Espases, Instituto de Investigación Sanitaria Illes Balears (IdISBa), Palma de Mallorca, Spain; CIBER Enfermedades Infecciosas (CIBERINFEC), Madrid, Spain. Electronic address: antonio.oliver@ssib.es."),[Cornelia B Landersdorfer](https://pubmed.ncbi.nlm.nih.gov/?term=Landersdorfer+CB&cauthor_id=42349478)[5](https://pubmed.ncbi.nlm.nih.gov/42349478/#full-view-affiliation-5 "Drug Delivery, Disposition and Dynamics, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville, VIC, Australia. Electronic address: cornelia.landersdorfer@monash.edu.")
+
+Affiliations
+
+*    PMID: **42349478**
+*    DOI: [10.1016/j.lanmic.2026.101364](https://doi.org/10.1016/j.lanmic.2026.101364)
+
+Free article
+
+## Dual β-lactam therapy against high-risk Pseudomonas aeruginosa isolates: a dynamic in-vitro infection model study integrating population genomics with quantitative systems pharmacology modelling and simulations
+
+Siobhonne K J Breen et al. Lancet Microbe.2027.
+
+Free article
+
+## Abstract
+
+**Background:** Pseudomonas aeruginosa has an extraordinary capacity for resistance emergence during treatment, even with newer antipseudomonals. There is a gap in understanding how resistance mechanisms affect the time-course of bacterial response to these newer agents. Traditional approaches for predicting pathogen response to an antibiotic do not apply to combination therapy. We aimed to develop a modelling framework to predict treatment response based on resistome information, using isolates of the worldwide-disseminated high-risk clone sequence type (ST) 235 and β-lactam antibiotics as the example.
+
+**Methods:** In this hollow-fibre in-vitro infection study, we used three extensively drug-resistant ST235 clinical isolates from the national collection of the Clinical Microbiology Department of the Hospital Son Espases (Palma de Mallorca, Spain) that were hospital-acquired, were isolated following routine microbiological procedures from different patients between 2017 and 2022, were susceptible to ceftolozane-tazobactam, and had different levels of meropenem resistance. The selected isolates (ST235-05, ST235-09, and ST235-10) showed classical β-lactam resistance mechanisms pre-treatment. The isolates were investigated in 240-h dynamic hollow-fibre in-vitro infection models (HFIMs). The studies exposed the isolates to pharmacokinetic profiles of ceftolozane-tazobactam (simulating 1 g of ceftolozane and 0·5 g of tazobactam as a 3-h infusion every 8 h) and meropenem (simulating 6 g per day continuous infusion) as observed in hospitalised patients, as monotherapy and in combination. Treatment response was assessed through the quantification of the time-courses of viable total and resistant bacteria. Whole-genome sequencing identified the mechanisms of emerging resistance. A quantitative systems pharmacology (QSP) approach was used to model total and resistant bacterial counts and corresponding pharmacokinetic data from the HFIM. Monte Carlo simulations were used to predict treatment responses in 1000 virtual infected patients treated with ceftolozane-tazobactam and meropenem as monotherapies or in combination over 10 days.
+
+**Findings:** In the HFIMs, each antibiotic alone amplified resistance by approximately 48 h for all isolates; that is, monotherapies resulted in a higher concentration of resistant bacteria compared with the control treatment at the respective time, except ceftolozane-tazobactam against ST235-10. Combination of ceftolozane-tazobactam and meropenem was synergistic (bacterial counts ≥2 log 10 colony forming units [CFU] per mL lower than the best performing monotherapy and initial inoculum) against all isolates and suppressed resistance. Against ST235-10, ceftolozane-tazobactam monotherapy reduced counts to less than 1 log 10 CFU per mL from 192 h onwards, whereas the combination reached less than 1 log 10 CFU per mL by 24 h. Across strains, population genomics confirmed monotherapy failures were associated with emerging resistance mechanisms (ceftolozane-tazobactam: ampC Ω-loop mutations; meropenem: ftsl mutation). The developed QSP model incorporated baseline resistance mechanisms and those emerging in resistant mutant subpopulations. The model explained and predicted the monotherapy failures involving amplification of these subpopulations, and synergistic killing and resistance suppression by the combination. Simulations using the model predicted bacterial regrowth above the initial inoculum for more than 90% of patients after 0 to approximately 3 days for meropenem monotherapy across all strains and for ceftolozane-tazobactam monotherapy against ST235-05 and ST235-09. For ceftolozane-tazobactam monotherapy against ST235-10, regrowth was predicted for approximately 30% of patients. In contrast, the simulations predicted sustained bacterial killing of at least 2 log 10 CFU per mL compared with the initial inoculum by the combination for more than 89% of patients across all strains.
+
+**Interpretation:** To our knowledge, this model is the first to characterise and predict the time-course of responses of clinical isolates to antibiotics only by the resistance mechanisms present and their complex interplay, representing a step towards pathogen-specific, personalised medicine.
+
+**Funding:** Australian National Health and Medical Research Council.
+
+Copyright © 2026 The Author(s). Published by Elsevier Ltd.. All rights reserved.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declaration of interests AO has received grants and speaker fees from MSD, Pfizer, and Shionogi. All other authors declare no competing interests.
+
+## Similar articles
+
+*   [Efficacy of ceftolozane/tazobactam, alone and in combination with colistin, against multidrug-resistant Pseudomonas aeruginosa in an in vitro biofilm pharmacodynamic model.](https://pubmed.ncbi.nlm.nih.gov/30682497/)
+
+Gómez-Junyent J, Benavent E, Sierra Y, El Haj C, Soldevila L, Torrejón B, Rigo-Bonnin R, Tubau F, Ariza J, Murillo O.Gómez-Junyent J, et al.Int J Antimicrob Agents. 2019 May;53(5):612-619. doi: 10.1016/j.ijantimicag.2019.01.010. Epub 2019 Jan 23.Int J Antimicrob Agents. 2019.PMID: 30682497 
+*   [Preventing resistance development in infections by OXA β-lactamase-producing Pseudomonas aeruginosa: correlating clinical outcomes with hollow-fibre model input.](https://pubmed.ncbi.nlm.nih.gov/41400823/)
+
+Montero MM, Fernández-Muñoz A, Domene-Ochoa S, Castañeda S, López-Montesinos I, Cortes-Lara S, Luque S, Colomar MA, Mulet X, López-Causapé C, Sorlí L, Padilla E, Horcajada JP, Oliver A.Montero MM, et al.J Antimicrob Chemother. 2026 Jan 6;81(1):dkaf464. doi: 10.1093/jac/dkaf464.J Antimicrob Chemother. 2026.PMID: 41400823 Free PMC article. 
+*   [Ceftolozane/tazobactam plus tobramycin against free-floating and biofilm bacteria of hypermutable Pseudomonas aeruginosa epidemic strains: Resistance mechanisms and synergistic activity.](https://pubmed.ncbi.nlm.nih.gov/37315906/)
+
+Agyeman AA, López-Causapé C, Rogers KE, Lucas DD, Cortés-Lara S, Gomis-Font MA, Fraile-Ribot P, Figuerola J, Lang Y, Franklyn ERT, Lee WL, Zhou J, Zhang Y, Bulitta JB, Boyce JD, Nation RL, Oliver A, Landersdorfer CB.Agyeman AA, et al.Int J Antimicrob Agents. 2023 Sep;62(3):106887. doi: 10.1016/j.ijantimicag.2023.106887. Epub 2023 Jun 12.Int J Antimicrob Agents. 2023.PMID: 37315906 
+*   [Ceftolozane/tazobactam: a novel cephalosporin/β-lactamase inhibitor combination with activity against multidrug-resistant gram-negative bacilli.](https://pubmed.ncbi.nlm.nih.gov/24352909/)
+
+Zhanel GG, Chung P, Adam H, Zelenitsky S, Denisuik A, Schweizer F, Lagacé-Wiens PR, Rubinstein E, Gin AS, Walkty A, Hoban DJ, Lynch JP 3rd, Karlowsky JA.Zhanel GG, et al.Drugs. 2014 Jan;74(1):31-51. doi: 10.1007/s40265-013-0168-2.Drugs. 2014.PMID: 24352909 Review. 
+*   [Folic acid supplementation and malaria susceptibility and severity among people taking antifolate antimalarial drugs in endemic areas.](https://pubmed.ncbi.nlm.nih.gov/36321557/)
+
+Crider K, Williams J, Qi YP, Gutman J, Yeung L, Mai C, Finkelstain J, Mehta S, Pons-Duran C, Menéndez C, Moraleda C, Rogers L, Daniels K, Green P.Crider K, et al.Cochrane Database Syst Rev. 2022 Feb 1;2(2022):CD014217. doi: 10.1002/14651858.CD014217.Cochrane Database Syst Rev. 2022.PMID: 36321557 Free PMC article.Updated. 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [ClinicalKey](https://www.clinicalkey.com/content/playBy/pii?v=S2666-5247(26)00019-4)
+    *   [Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S2666-5247(26)00019-4)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-1548)

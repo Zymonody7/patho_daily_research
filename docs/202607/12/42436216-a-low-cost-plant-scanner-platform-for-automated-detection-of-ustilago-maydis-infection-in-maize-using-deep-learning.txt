@@ -1,0 +1,89 @@
+Title: A low-cost "plant-scanner" platform for automated detection of Ustilago maydis infection in maize using deep learning - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42436216/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 11;16(1):21644.
+
+doi: 10.1038/s41598-026-60714-4.
+
+Affiliations
+
+*    PMID: **42436216**
+*    DOI: [10.1038/s41598-026-60714-4](https://doi.org/10.1038/s41598-026-60714-4)
+
+Free article
+
+## A low-cost "plant-scanner" platform for automated detection of Ustilago maydis infection in maize using deep learning
+
+Marvin Christ et al. Sci Rep.2026.
+
+Free article
+
+## Abstract
+
+Ustilago maydis is a biotrophic fungus that causes smut disease in maize, leading to tumor formation on aerial parts of the plant. While U. maydis has been a model for plant-fungal interaction studies, no tool has existed to automatically quantify infection symptoms under laboratory conditions for deep learning analysis. To address this, we developed a rotating camera system that captures videos of plants under customized lighting and shutter settings. These videos were used to train machine learning models to distinguish between healthy and infected plants. Two detection approaches have been presented. In the first approach, by employing a naive masking technique and combining classical machine learning classifiers utilizing handcrafted features, the model achieved a reasonable performance, with an Area Under the Curve (AUC) of maximum 0.90 on the Receiver Operating Characteristic in one of the classifiers, showing relatively high sensitivity and specificity. The second approach utilizes pre-trained YOLO11 model for object detection and further classification. The YOLO11-based approach outperforms traditional methods, achieving near-perfect validation accuracy (AUC: 0.99-1.00), demonstrating its superiority for real-time, scalable applications. Our toolset, featuring a cost-efficient and customizable scanning platform with open building-blocks design, provides a valuable resource as a proof-of-concept for unbiased disease symptom detection and scoring, with potential applications in other plant pathology studies. This point enables easy replication and adaptation by other research laboratories which makes the platform robust, scalable and practical beyond our specific application.
+
+**Keywords:** Ustilago maydis; Deep learning; Infection; Machine learning; Platform; Transfer learning; YOLO.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Virulence of the maize smut Ustilago maydis is shaped by organ-specific effectors.](https://pubmed.ncbi.nlm.nih.gov/25346968/)
+
+Schilling L, Matei A, Redkar A, Walbot V, Doehlemann G.Schilling L, et al.Mol Plant Pathol. 2014 Oct;15(8):780-9. doi: 10.1111/mpp.12133.Mol Plant Pathol. 2014.PMID: 25346968 Free PMC article. 
+*   [Dissecting defense-related and developmental transcriptional responses of maize during Ustilago maydis infection and subsequent tumor formation.](https://pubmed.ncbi.nlm.nih.gov/15980197/)
+
+Basse CW.Basse CW.Plant Physiol. 2005 Jul;138(3):1774-84. doi: 10.1104/pp.105.061200. Epub 2005 Jun 24.Plant Physiol. 2005.PMID: 15980197 Free PMC article. 
+*   [Utilizing virus-induced gene silencing for the functional characterization of maize genes during infection with the fungal pathogen Ustilago maydis.](https://pubmed.ncbi.nlm.nih.gov/23386294/)
+
+van der Linde K, Doehlemann G.van der Linde K, et al.Methods Mol Biol. 2013;975:47-60. doi: 10.1007/978-1-62703-278-0_4.Methods Mol Biol. 2013.PMID: 23386294 
+*   [Ustilago maydis as a Pathogen.](https://pubmed.ncbi.nlm.nih.gov/19400641/)
+
+Brefort T, Doehlemann G, Mendoza-Mendoza A, Reissmann S, Djamei A, Kahmann R.Brefort T, et al.Annu Rev Phytopathol. 2009;47:423-45. doi: 10.1146/annurev-phyto-080508-081923.Annu Rev Phytopathol. 2009.PMID: 19400641 Review. 
+*   [Progress in pathogenesis research of Ustilago maydis, and the metabolites involved along with their biosynthesis.](https://pubmed.ncbi.nlm.nih.gov/36808861/)
+
+Yu C, Qi J, Han H, Wang P, Liu C.Yu C, et al.Mol Plant Pathol. 2023 May;24(5):495-509. doi: 10.1111/mpp.13307. Epub 2023 Feb 17.Mol Plant Pathol. 2023.PMID: 36808861 Free PMC article.Review. 
+
+## References
+
+1.       1.    United nations. (2019) 2019 revision of world population prospects. [https://population.un.org/wpp/](https://population.un.org/wpp/) . Accessed 30-07-2024. 
+
+2.       1.    Food and Agriculture Organization of the United Nations (fao). [https://www.fao.org/news/story/en/item/1187738/icode/](https://www.fao.org/news/story/en/item/1187738/icode/) . Accessed 30-07-2024. (2019). 
+
+3.       1.    Bebber, D. P., Ramotowski, M. A. & Gurr, S. J. Crop pests and pathogens move polewards in a warming world. Nat. Clim. Chang. 3, 985–988 (2013). - [DOI](https://doi.org/10.1038/nclimate1990)
+
+4.       1.    Dean, R. et al. The top 10 fungal pathogens in molecular plant pathology. Mole. Plant Pathol. 13, 414–430 (2012). - [DOI](https://doi.org/10.1111/j.1364-3703.2011.00783.x)
+
+5.       1.    Kämper, J. et al. Insights from the genome of the biotrophic fungal plant pathogen ustilago maydis. Nature 444, 97–101 (2006). - [DOI](https://doi.org/10.1038/nature05248) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/17080091/)
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Supplementary concepts
+
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Nature Publishing Group](https://doi.org/10.1038/s41598-026-60714-4)

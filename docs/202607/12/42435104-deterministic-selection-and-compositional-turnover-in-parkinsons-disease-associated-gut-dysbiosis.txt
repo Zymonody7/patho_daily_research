@@ -1,0 +1,81 @@
+Title: Deterministic selection and compositional turnover in Parkinson's disease-associated gut dysbiosis - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42435104/
+
+Markdown Content:
+## Deterministic selection and compositional turnover in Parkinson's disease-associated gut dysbiosis
+
+Yuting Qiao et al. Antonie Van Leeuwenhoek.2026.
+
+## Abstract
+
+The scientific understanding of links between Parkinson's disease (PD) and gut microbiome dysbiosis has advanced significantly, yet the ecological mechanisms driving these microbial changes remain poorly understood. To address this gap, we postulated that PD-associated gut dysbiosis arises as harmful microbes outcompete beneficial bacteria, and consequently any therapeutic strategies must both suppress opportunistic pathogens and restore protective, fiber-degrading microbes to effectively rebalance the gut microbiome in PD. To evaluate ecological patterns consistent with this hypothesis, we apply Sloan's near-neutral model (SNM), Ning et al.'s stochasticity framework, and ecological network analysis to reanalyze six published gut microbiome datasets (1957 samples total: 804 healthy controls, 1153 PD cases). We first applied SNM to categorize bacterial species as neutral, positively selected, or negatively selected. While the overall proportions of these categories were similar between groups (neutral: ~ 40%, positively selected: ~ 47%, negatively selected: ~ 13%), stochasticity framework analysis revealed significantly stronger deterministic selection in PD microbiomes. Shared species analysis (SSA) resolved this apparent paradox by demonstrating substantial compositional shifts within each species category, indicating that while classification frequencies remained stable, the specific microbes occupying these ecological niches changed significantly in PD. This divergence between SNM category proportions and NSR values highlights a subtle yet critical aspect of community assembly dynamics. Ecological network analysis further revealed that neutral species had fewer antagonistic co-occurrence links, consistent with their ecological equivalence, while negatively selected species maintained higher relative abundances in both groups. Together, these findings indicate that PD-associated gut microbiomes are characterized by stronger deterministic assembly signatures and substantial compositional turnover within near-neutral ecological categories. These patterns are consistent with altered ecological assembly signatures in PD-associated dysbiosis.
+
+**Keywords:** Gut microbiome; Neutral theory of biodiversity; Parkinson’s disease (PD); Shared species analysis (SSA); Stochasticity analysis.
+
+© 2026. The Author(s), under exclusive licence to Springer Nature Switzerland AG.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Conflict of interest: The authors declare no competing interests. Ethical approval: This research did not involve human participants and/or animals. All experimental data used in this study were obtained from publicly available datasets that have already been published in databases; therefore, no formal Health Ethical Approval was required.
+
+## Similar articles
+
+*   [Metabolic modeling links gut microbiota to metabolic markers of Parkinson's disease.](https://pubmed.ncbi.nlm.nih.gov/40995781/)
+
+Hensen T, Thiele I.Hensen T, et al.Gut Microbes. 2025 Dec;17(1):2554195. doi: 10.1080/19490976.2025.2554195. Epub 2025 Sep 25.Gut Microbes. 2025.PMID: 40995781 Free PMC article. 
+*   [Gut microbiome differences in Parkinson's disease patients in Central Kerala population.](https://pubmed.ncbi.nlm.nih.gov/41117133/)
+
+Jacob AA, Rout S, Dash R, Venugopal G, Punde AR, John JK, Varghese SS, Cherupanakkal C, Mattethra GC, Ramadass B.Jacob AA, et al.Neurodegener Dis Manag. 2026 Apr-Jun;16(3):299-309. doi: 10.1080/17582024.2025.2574204. Epub 2025 Oct 21.Neurodegener Dis Manag. 2026.PMID: 41117133 
+*   [Universal gut microbial relationships in the gut microbiome of wild baboons.](https://pubmed.ncbi.nlm.nih.gov/37158607/)
+
+Roche KE, Bjork JR, Dasari MR, Grieneisen L, Jansen D, Gould TJ, Gesquiere LR, Barreiro LB, Alberts SC, Blekhman R, Gilbert JA, Tung J, Mukherjee S, Archie EA.Roche KE, et al.Elife. 2023 May 9;12:e83152. doi: 10.7554/eLife.83152.Elife. 2023.PMID: 37158607 Free PMC article. 
+*   [The role of the gut microbiome in the progression of Parkinson's disease: a systematic review of patient cohorts.](https://pubmed.ncbi.nlm.nih.gov/41351765/)
+
+Peters M, Hegelmaier T, Wegner F, Höllerhage M, Ye L, Niesmann C, Schneidereit IV, Haghikia A, Klietz M.Peters M, et al.J Neurol. 2025 Dec 6;273(1):8. doi: 10.1007/s00415-025-13545-8.J Neurol. 2025.PMID: 41351765 Free PMC article. 
+*   [Probiotic: A Gut Microbiota-Based Therapeutic Approaches for the Treatment of Parkinson's Disease.](https://pubmed.ncbi.nlm.nih.gov/39716794/)
+
+Rout M, Prusty SK, Kar DM.Rout M, et al.Curr Rev Clin Exp Pharmacol. 2025;20(4):322-333. doi: 10.2174/0127724328332572241219102122.Curr Rev Clin Exp Pharmacol. 2025.PMID: 39716794 Review. 
+
+## References
+
+1.       1.    Banerjee S, Schlaeppi K, van der Heijden MG (2018) Keystone taxa as drivers of microbiome structure and functioning. Nat Rev Microbiol 16:567–576. [https://doi.org/10.1038/s41579-018-0024-1](https://doi.org/10.1038/s41579-018-0024-1) - [DOI](https://doi.org/10.1038/s41579-018-0024-1) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/29789680/)
+
+2.       1.    Belkaid Y, Hand TW (2014) Role of the microbiota in immunity and inflammation. Cell 157(1):121–141. [https://doi.org/10.1016/j.cell.2014.03.011](https://doi.org/10.1016/j.cell.2014.03.011) - [DOI](https://doi.org/10.1016/j.cell.2014.03.011) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/24679531/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/4056765/)
+
+3.       1.    Berry D, Widder S (2014) Deciphering microbial interactions and detecting keystone species with co-occurrence networks. Front Microbiol 5:219. [https://doi.org/10.3389/fmicb.2014.00219](https://doi.org/10.3389/fmicb.2014.00219) - [DOI](https://doi.org/10.3389/fmicb.2014.00219) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/24904535/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/4033041/)
+
+4.       1.    Bolger AM, Lohse M, Usadel B (2014) Trimmomatic: a flexible trimmer for Illumina sequence data. Bioinformatics 30(15):2114–2120. [https://doi.org/10.1093/bioinformatics/btu170](https://doi.org/10.1093/bioinformatics/btu170) - [DOI](https://doi.org/10.1093/bioinformatics/btu170) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/24695404/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/4103590/)
+
+5.       1.    Cryan JF, O’Riordan KJ, Cowan CSM, Sandhu KV, Bastiaanssen TFS, Boehme M et al (2020) The gut microbiome in neurological disorders. Lancet Neurol 19:179–194. [https://doi.org/10.1016/S1474-4422(19)30356-4](https://doi.org/10.1016/S1474-4422(19)30356-4) - [DOI](https://doi.org/10.1016/s1474-4422(19)30356-4) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/31753762/)
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Springer](https://doi.org/10.1007/s10482-026-02374-y)
+
+*   ### Medical
+
+    *   [MedlinePlus Health Information](https://medlineplus.gov/parkinsonsdisease.html)
+
+*   ### Research Materials
+
+    *   [NCI CPTC Antibody Characterization Program](https://antibodies.cancer.gov/detail/CPTC-CALR-1)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/non-CPTAC-2678)

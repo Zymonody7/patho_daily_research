@@ -1,0 +1,63 @@
+Title: Real-time estimation of pathogen transmission dynamics from wastewater - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42436148/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 11.
+
+doi: 10.1038/s41467-026-75380-3.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42436148**
+*    DOI: [10.1038/s41467-026-75380-3](https://doi.org/10.1038/s41467-026-75380-3)
+
+Free article
+
+## Real-time estimation of pathogen transmission dynamics from wastewater
+
+Adrian Lison et al. Nat Commun.2026.
+
+Free article
+
+## Abstract
+
+Wastewater monitoring proved effective for tracking SARS-CoV-2 transmission during the COVID-19 pandemic. However, estimating transmission parameters for other pathogens remains difficult due to lower concentrations in sewage, uncertain shedding kinetics, and limited clinical validation data. Here we present EpiSewer, a Bayesian semi-mechanistic wastewater model that jointly accounts for infection dynamics, pathogen shedding, and measurement noise, including outliers and non-detects. This enables direct inference of the effective reproduction number (R t) and epidemic growth rate (r t) from raw concentration and flow data, eliminating the need for prior smoothing, imputation, or outlier removal. We assessed EpiSewer across three seasons of multi-pathogen wastewater surveillance (Nov 2022 - May 2025) at 6-14 treatment plants in Switzerland, tracking SARS-CoV-2, influenza A virus (IAV), and respiratory syncytial virus (RSV) transmission in real time. R t estimates were consistent and robust to measurement noise, even with IAV and RSV concentrations 10-50 times lower than SARS-CoV-2. The model provided well-calibrated fourteen-day concentration forecasts, with minimal bias across epidemic phases. Under reduced sampling frequencies, EpiSewer maintained unbiased forecasts while accurately reflecting uncertainty. Our approach enables robust inference of transmission dynamics for lower-abundance pathogens with limited clinical surveillance, using only a few wastewater samples per week.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Wastewater-based epidemiology of influenza A virus in Shenzhen: baseline values and implications for multi-pathogen surveillance.](https://pubmed.ncbi.nlm.nih.gov/40855516/)
+
+Shi X, Fang S, Du C, Luo G, Cheng Y, Zhang Z, Lv Q, Wang X, Chen Z, Wei B, Wu Z, Guo B, Yang P, Luo M, Wu W, Zhou L, Huang T, Zou X, Shi X, Fu S, Du Z, Han X, Li Y, Hu Q.Shi X, et al.Emerg Microbes Infect. 2025 Dec;14(1):2552724. doi: 10.1080/22221751.2025.2552724. Epub 2025 Sep 16.Emerg Microbes Infect. 2025.PMID: 40855516 Free PMC article. 
+*   [Respiratory virus infection dynamics and genomic surveillance to detect seasonal influenza subtypes in wastewater: A longitudinal study in Bengaluru, India.](https://pubmed.ncbi.nlm.nih.gov/40938866/)
+
+Daroch N, Kannan SK, Srikantaiah V, Mishra R, Ishtiaq F.Daroch N, et al.PLOS Glob Public Health. 2025 Sep 12;5(9):e0004640. doi: 10.1371/journal.pgph.0004640. eCollection 2025.PLOS Glob Public Health. 2025.PMID: 40938866 Free PMC article. 
+*   [Comparative Investigation and Trends of Respiratory Viruses Using Wastewater-Based Epidemiological Surveillance in Patras, Greece.](https://pubmed.ncbi.nlm.nih.gov/41739306/)
+
+Anastopoulou Z, Fokas R, Koukouvini KA, Chatziantoniou A, Vantarakis A.Anastopoulou Z, et al.Food Environ Virol. 2026 Feb 25;18(1):10. doi: 10.1007/s12560-026-09683-5.Food Environ Virol. 2026.PMID: 41739306 Free PMC article. 
+*   [Antibody tests for identification of current and past infection with SARS-CoV-2.](https://pubmed.ncbi.nlm.nih.gov/32584464/)
+
+Deeks JJ, Dinnes J, Takwoingi Y, Davenport C, Spijker R, Taylor-Phillips S, Adriano A, Beese S, Dretzke J, Ferrante di Ruffano L, Harris IM, Price MJ, Dittrich S, Emperador D, Hooft L, Leeflang MM, Van den Bruel A; Cochrane COVID-19 Diagnostic Test Accuracy Group.Deeks JJ, et al.Cochrane Database Syst Rev. 2020 Jun 25;6(6):CD013652. doi: 10.1002/14651858.CD013652.Cochrane Database Syst Rev. 2020.PMID: 32584464 Free PMC article.Updated. 
+*   [Global, regional, and national incidence and mortality burden of non-COVID-19 lower respiratory infections and aetiologies, 1990-2021: a systematic analysis from the Global Burden of Disease Study 2021.](https://pubmed.ncbi.nlm.nih.gov/38636536/)
+
+GBD 2021 Lower Respiratory Infections and Antimicrobial Resistance Collaborators.GBD 2021 Lower Respiratory Infections and Antimicrobial Resistance Collaborators.Lancet Infect Dis. 2024 Sep;24(9):974-1002. doi: 10.1016/S1473-3099(24)00176-2. Epub 2024 Apr 15.Lancet Infect Dis. 2024.PMID: 38636536 Free PMC article. 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Nature Publishing Group](https://doi.org/10.1038/s41467-026-75380-3)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-438)

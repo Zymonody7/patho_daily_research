@@ -1,0 +1,92 @@
+Title: A machine learning approach to metabolomics identifies putative biomarker candidates and dysregulated pathways for distinguishing gout from asymptomatic hyperuricemia in the Zhuang population - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42435238/
+
+Markdown Content:
+## A machine learning approach to metabolomics identifies putative biomarker candidates and dysregulated pathways for distinguishing gout from asymptomatic hyperuricemia in the Zhuang population
+
+Yuxia Wei et al. Metabolomics.2026.
+
+## Abstract
+
+**Introduction:** Gout typically develops from hyperuricemia (HUA), but the metabolic alterations driving this transition remain poorly understood, limiting our understanding of disease pathogenesis.
+
+**Objectives:** To identify stage-specific putative biomarker candidates and to characterize dysregulated metabolic pathways distinguishing gout from HUA.
+
+**Methods:** We conducted a targeted metabolomics assay on the baseline plasma samples from a Zhuang minority cohort using LC-MS/MS. The analyzed sample set comprised 38 HUA patients, 47 gout patients, and 52 healthy controls. Sex-stratified differential metabolite analysis was performed across all participants, as well as in female and male subgroups. Pathway enrichment analysis was carried out using the KEGG database. Machine learning approaches, including the Boruta algorithm and support vector machine (SVM), were employed for putative biomarker discovery and model evaluation in male participants.
+
+**Results:** Among all participants, 24 metabolites reached nominal significance (P < 0.05), but only uric acid remained significant after FDR correction. In sex-stratified analyses, no metabolite survived FDR correction in females, whereas in males, seven metabolites (flavone, glutamine, L-2-aminoadipic acid, L-pipecolic acid, N1-methyl-2-pyridone-5-carboxamide, phenyllactic acid, and uric acid) showed significant differences among healthy controls, HUA patients, and gout patients (FDR < 0.1). These metabolites were primarily involved in nitrogen metabolism, arginine biosynthesis, D-amino acid metabolism, nicotinate and nicotinamide metabolism, and purine metabolism. Machine learning identified four metabolites (N1-methyl-2-pyridone-5-carboxamide, flavone, glutamine, and phenyllactic acid) that distinguished gout from healthy controls, with AUCs of 0.902 and 0.800 in the training and validation sets, respectively. A second model (L-pipecolic acid, glutamine, phenyllactic acid, and flavone) discriminated gout from HUA, achieving AUCs of 0.850 and 1.000. Sensitivity analyses excluding obese or hypertriglyceridemic participants confirmed the robust performance of both models.
+
+**Conclusions:** This study suggests sex-specific metabolic alterations in gout and provides robust machine learning-based models for male participants. The identified metabolite signatures appear to extend purine metabolism to involve amino acid and energy metabolic pathways. These findings provide a basis for mechanism-targeted strategies in HUA management. External validation remains essential.
+
+**Keywords:** Biomarkers; Gout; Hyperuricemia; Machine learning; Metabolites.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Competing interest: The authors declare no competing interests. Ethical approval: The study was approved by the Ethics Committee of Guangxi Medical University (ID: 20170206-1). The study was conducted according to current guidelines and regulations. The research adhered to the guidelines stipulated by the World Medical Association Declaration of Helsinki. Consent to participate: Informed consent was obtained from all individual participants included in the study.
+
+## Similar articles
+
+*   [A Lipid- and Inflammation-Related Metabolite Risk Score Predicts Incident Gout Among Individuals With Hyperuricemia: A Prospective Cohort Study.](https://pubmed.ncbi.nlm.nih.gov/42101755/)
+
+Ding K, Zhu M, Zheng X, Yu H, Liu F, Chen S, Jia W, Chen T.Ding K, et al.Clin Rheumatol. 2026 Jul;45(7):4483-4496. doi: 10.1007/s10067-026-08129-4. Epub 2026 May 8.Clin Rheumatol. 2026.PMID: 42101755 
+*   [Unraveling the heterogeneity of hyperuricemia using untargeted metabolomics and statistical modeling.](https://pubmed.ncbi.nlm.nih.gov/41791282/)
+
+Wang J, Zeng Z, Duan W, Man Z, Wang M, Yang Z.Wang J, et al.J Pharm Biomed Anal. 2026 Aug 1;275:117444. doi: 10.1016/j.jpba.2026.117444. Epub 2026 Mar 1.J Pharm Biomed Anal. 2026.PMID: 41791282 
+*   [Causal impact of human blood metabolites and metabolic pathways on serum uric acid and gout: a mendelian randomization study.](https://pubmed.ncbi.nlm.nih.gov/39027467/)
+
+Zhong Y, Yang C, Zhang B, Chen Y, Cai W, Wang G, Zhao C, Zhao W.Zhong Y, et al.Front Endocrinol (Lausanne). 2024 Jul 4;15:1378645. doi: 10.3389/fendo.2024.1378645. eCollection 2024.Front Endocrinol (Lausanne). 2024.PMID: 39027467 Free PMC article. 
+*   [A metabolomic signatures in hyperuricemia: a systematic review.](https://pubmed.ncbi.nlm.nih.gov/42435267/)
+
+Wu Y, Han X, Jin J, Chen Y, Cui D, Ma X, Guo H, Jiang M.Wu Y, et al.Metabolomics. 2026 Jul 11;22(4):125. doi: 10.1007/s11306-026-02475-9.Metabolomics. 2026.PMID: 42435267 
+*   [The biomarkers discovery of hyperuricemia and gout: proteomics and metabolomics.](https://pubmed.ncbi.nlm.nih.gov/36632144/)
+
+Wu X, You C.Wu X, et al.PeerJ. 2023 Jan 6;11:e14554. doi: 10.7717/peerj.14554. eCollection 2023.PeerJ. 2023.PMID: 36632144 Free PMC article.Review. 
+
+## References
+
+1.       1.    Afinogenova, Y., Danve, A., & Neogi, T. (2022). Update on gout management: What is old and what is new. Current Opinion in Rheumatology, 34(2), 118–124. [https://doi.org/10.1097/BOR.0000000000000861](https://doi.org/10.1097/BOR.0000000000000861) - [DOI](https://doi.org/10.1097/bor.0000000000000861) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/34907116/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/8799507/)
+
+2.       1.    Cai, Y., Weng, K., Guo, Y., Peng, J., & Zhu, Z. J. (2015). An integrated targeted metabolomic platform for high-throughput metabolite profiling and automated data processing. Metabolomics, 11(6), 1575–1586. - [DOI](https://doi.org/10.1007/s11306-015-0809-4)
+
+3.       1.    Chinese Society of Endocrinology, Chinese Medical Association (2020). Guideline for the diagnosis and management of hyperuricemia and gout in China (2019). Chinese Journal of Endocrinology and Metabolism, 36(1), 1–13. [https://doi.org/10.3760/cma.j.issn.1000-6699.2020.01.001](https://doi.org/10.3760/cma.j.issn.1000-6699.2020.01.001) . (In Chinese). - [DOI](https://doi.org/10.3760/cma.j.issn.1000-6699.2020.01.001)
+
+4.       1.    Cong, S., Wang, L., Meng, Y., Cai, X., Zhang, C., Gu, Y., Ma, X., & Luo, L. (2023). Saussurea involucrata oral liquid regulates gut microbiota and serum metabolism during alleviation of collagen-induced arthritis in rats. Phytotherapy Research, 37(4), 1242–1259. [https://doi.org/10.1002/ptr.7681](https://doi.org/10.1002/ptr.7681) - [DOI](https://doi.org/10.1002/ptr.7681) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/36451529/)
+
+5.       1.    Covarrubias, A. J., Perrone, R., Grozio, A., & Verdin, E. (2021). NAD+ metabolism and its roles in cellular processes during ageing. Nature reviews Molecular cell biology, 22(2), 119–141. [https://doi.org/10.1038/s41580-020-00313-x](https://doi.org/10.1038/s41580-020-00313-x) - [DOI](https://doi.org/10.1038/s41580-020-00313-x) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/33353981/)
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Medical
+
+    *   [MedlinePlus Health Information](https://medlineplus.gov/gout.html)
