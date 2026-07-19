@@ -1,0 +1,75 @@
+Title: Artificial Intelligence and Protein Design: A retrospective study on 20-year emerging trends and core research areas from bibliometric perspectives - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42470596/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 18.
+
+doi: 10.1007/s12602-026-11131-6.  Online ahead of print.
+
+[Xiuwu Pan](https://pubmed.ncbi.nlm.nih.gov/?term=Pan+X&cauthor_id=42470596)[#](https://pubmed.ncbi.nlm.nih.gov/42470596/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/42470596/#full-view-affiliation-1 "Department of Urology, Xinhua Hospital, Shanghai Jiaotong University, School of Medicine, 1665 Kongjiang Road, Shanghai, 200092, China."),[Wei Yang](https://pubmed.ncbi.nlm.nih.gov/?term=Yang+W&cauthor_id=42470596)[#](https://pubmed.ncbi.nlm.nih.gov/42470596/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/42470596/#full-view-affiliation-1 "Department of Urology, Xinhua Hospital, Shanghai Jiaotong University, School of Medicine, 1665 Kongjiang Road, Shanghai, 200092, China."),[Zichang Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+Z&cauthor_id=42470596)[#](https://pubmed.ncbi.nlm.nih.gov/42470596/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/42470596/#full-view-affiliation-1 "Department of Urology, Xinhua Hospital, Shanghai Jiaotong University, School of Medicine, 1665 Kongjiang Road, Shanghai, 200092, China."),[Xiyi Wei](https://pubmed.ncbi.nlm.nih.gov/?term=Wei+X&cauthor_id=42470596)[3](https://pubmed.ncbi.nlm.nih.gov/42470596/#full-view-affiliation-3 "Department of Urology, The First Affiliated Hospital of Nanjing Medical University, Nanjing, China.")[4](https://pubmed.ncbi.nlm.nih.gov/42470596/#full-view-affiliation-4 "Department of Medicine, McDonnell Genome Institute, School of Medicine, Washington University, University in St. Louis, St. Louis, MO, 63110, USA."),[Anqi Lin](https://pubmed.ncbi.nlm.nih.gov/?term=Lin+A&cauthor_id=42470596)[5](https://pubmed.ncbi.nlm.nih.gov/42470596/#full-view-affiliation-5 "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, Cancer Centre and Institute of Translational Medicine, Faculty of Health Sciences, University of Macau, Macau SAR, China.")[6](https://pubmed.ncbi.nlm.nih.gov/42470596/#full-view-affiliation-6 "Cancer Centre, Institute of Translational Medicine, Faculty of Health Sciences, University of Macau, Macau SAR, China."),[Bufu Tang](https://pubmed.ncbi.nlm.nih.gov/?term=Tang+B&cauthor_id=42470596)[7](https://pubmed.ncbi.nlm.nih.gov/42470596/#full-view-affiliation-7 "Department of Interventional Radiology, Zhongshan Hospital, Fudan University, Shanghai, 200032, China."),[Lin Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+L&cauthor_id=42470596)[8](https://pubmed.ncbi.nlm.nih.gov/42470596/#full-view-affiliation-8 "The School of Public Health and Preventive Medicine, Monash University, Melbourne, VIC, 3000, Australia."),[Mingjia Xiao](https://pubmed.ncbi.nlm.nih.gov/?term=Xiao+M&cauthor_id=42470596)[9](https://pubmed.ncbi.nlm.nih.gov/42470596/#full-view-affiliation-9 "Hepatobiliary Surgery Department, Quzhou Affiliated Hospital of Wenzhou Medical University, Quzhou People's Hospital, Quzhou, China."),[Qing Zeng](https://pubmed.ncbi.nlm.nih.gov/?term=Zeng+Q&cauthor_id=42470596)[10](https://pubmed.ncbi.nlm.nih.gov/42470596/#full-view-affiliation-10 "Center of Rehabilitation Medicine, Zhujiang Hospital, Southern Medical University, Guangzhou, China."),[Quan Cheng](https://pubmed.ncbi.nlm.nih.gov/?term=Cheng+Q&cauthor_id=42470596)[11](https://pubmed.ncbi.nlm.nih.gov/42470596/#full-view-affiliation-11 "Department of Neurosurgery, Xiangya Hospital, Central South University, Changsha, Hunan, China."),[Weiming Mou](https://pubmed.ncbi.nlm.nih.gov/?term=Mou+W&cauthor_id=42470596)[12](https://pubmed.ncbi.nlm.nih.gov/42470596/#full-view-affiliation-12 "Department of Urology, Shanghai General Hospital, Shanghai Jiao Tong University School of Medicine, Shanghai, China."),[Xiaofan Lu](https://pubmed.ncbi.nlm.nih.gov/?term=Lu+X&cauthor_id=42470596)[13](https://pubmed.ncbi.nlm.nih.gov/42470596/#full-view-affiliation-13 "Department of Cancer and Functional Genomics, Institute of Genetics and Molecular and Cellular Biology, CNRS/INSERM/UNISTRA, 67400, Illkirch, France."),[Kai Miao](https://pubmed.ncbi.nlm.nih.gov/?term=Miao+K&cauthor_id=42470596)[14](https://pubmed.ncbi.nlm.nih.gov/42470596/#full-view-affiliation-14 "Cancer Centre, Institute of Translational Medicine, Faculty of Health Sciences, University of Macau, Macau SAR, China. kaimiao@um.edu.mo."),[Peng Luo](https://pubmed.ncbi.nlm.nih.gov/?term=Luo+P&cauthor_id=42470596)[15](https://pubmed.ncbi.nlm.nih.gov/42470596/#full-view-affiliation-15 "Department of Oncology, Zhujiang Hospital, Southern Medical University, Guangzhou, Guangdong, China, Cancer Centre and Institute of Translational Medicine, Faculty of Health Sciences, University of Macau, Macau SAR, China. luopeng@smu.edu.cn.")[16](https://pubmed.ncbi.nlm.nih.gov/42470596/#full-view-affiliation-16 "Cancer Centre, Institute of Translational Medicine, Faculty of Health Sciences, University of Macau, Macau SAR, China. luopeng@smu.edu.cn."),[Xin-Gang Cui](https://pubmed.ncbi.nlm.nih.gov/?term=Cui+XG&cauthor_id=42470596)[17](https://pubmed.ncbi.nlm.nih.gov/42470596/#full-view-affiliation-17 "Department of Urology, Xinhua Hospital, Shanghai Jiaotong University, School of Medicine, 1665 Kongjiang Road, Shanghai, 200092, China. cuixingang@xinhuamed.com.cn."),[Wen-Jin Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+WJ&cauthor_id=42470596)[18](https://pubmed.ncbi.nlm.nih.gov/42470596/#full-view-affiliation-18 "Department of Urology, Xinhua Hospital, Shanghai Jiaotong University, School of Medicine, 1665 Kongjiang Road, Shanghai, 200092, China. chenwenjin@shsmu.edu.cn.")
+
+Affiliations
+
+*    PMID: **42470596**
+*    DOI: [10.1007/s12602-026-11131-6](https://doi.org/10.1007/s12602-026-11131-6)
+
+## Artificial Intelligence and Protein Design: A retrospective study on 20-year emerging trends and core research areas from bibliometric perspectives
+
+Wenjuan Zhao et al. Probiotics Antimicrob Proteins.2026.
+
+## Abstract
+
+Protein design has numerous applications in synthetic biology, drug discovery, and bioengineering. Recently, there has been a revolution in this field due to the emergence of artificial intelligence. At the forefront are deep learning models (DLMs). The impact of these models on the design pipeline is so transformative that it leads to radical advances in prediction accuracy, functional enrichment, and de novo synthesis of proteins. We performed bibliometric analysis on a Web of Science data-set (2006-2025) obtained through a targeted keyword search. Our analysis method orchestrated the use of standard tools such as CiteSpace and VOSviewer for co-citation, keyword co-occurrence, and burst detection, while we used custom python scripts to generate more nuanced plots for collaboration networks and intellectual overlap. Based on the bibliometric analysis, we observe a sudden jump in publication counts after the year 2018. This period also coincides with the publication of many methodological breakthroughs such as AlphaFold2 and RoseTTAFold. The analysis revealed three major intellectual clusters focused around protein structure prediction, directed evolution, and de novo design of proteins. DLMs play a major role in the publication impact of generating functional protein sequences, with frameworks such as ProteinMPNN having a notable citation footprint. Although China and the United States dominated in raw publication volume, citation impact told a different story-Switzerland ranked second in per-publication influence, suggesting that research programs combining computational design with systematic experimental validation tend to generate disproportionate scholarly impact. International collaborative efforts were notable after 2020. Citation and co-citation analysis highlighted works that have formed the bedrock of this field. Notable mentions include seminal works on AlphaFold2, ProteinMPNN, and RFdiffusion. Protein design stands at the center of an AI revolution that has drawn database mining, computational generation, and experimental validation into an increasingly rapid and interconnected engineering loop. Yet sustaining this momentum requires confronting limitations that the field's most cited literature has largely left unspoken: models trained on stable, crystallizable structures struggle to generalize beyond their training distributions, static predictions remain blind to the conformational dynamics governing allostery and catalysis, and in silico confidence scores have repeatedly proven poor predictors of wet-lab outcomes. Closing this gap will demand not incremental refinement but the sustained, bidirectional coupling of high-throughput experimental feedback with iterative design-test-learn cycles, supported by next-generation models that natively represent PTMs, cellular context, and conformational ensembles-a convergence that holds genuine promise for translating the field's computational ambitions into reliable therapeutic and synthetic biology outcomes.
+
+**Keywords:** Artificial Intelligence; Bibliometric Analysis; De Novo Design; Directed Evolution; Protein Design; Structure Prediction.
+
+© 2026. The Author(s), under exclusive licence to Springer Science+Business Media, LLC, part of Springer Nature.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Ethics Approval and Consent to Participate: This bibliometric study analyzes metadata (e.g., citations, authors, institutions) from publicly available academic literature. It does not involve human or animal subjects or any private personal data. The research was conducted in accordance with the professional ethical standards of the bibliometrics field. Consent for Publication: Not applicable. This study does not contain any individual person’s data. Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Data-driven trends in critical care informatics: a bibliometric analysis of global collaborations using the MIMIC database (2004-2024).](https://pubmed.ncbi.nlm.nih.gov/40580617/)
+
+Zhang X, Kong W, Shi R, Sun L, Xu M, Gong L.Zhang X, et al.Comput Biol Med. 2025 Sep;195:110670. doi: 10.1016/j.compbiomed.2025.110670. Epub 2025 Jun 27.Comput Biol Med. 2025.PMID: 40580617 
+*   [Global evolution of robot-assisted cholecystectomy research in the era of artificial intelligence: a bibliometric and knowledge-mapping study.](https://pubmed.ncbi.nlm.nih.gov/42185582/)
+
+Zhu C, Liu L, Liu N, Zhang R.Zhu C, et al.J Robot Surg. 2026 May 26;20(1):533. doi: 10.1007/s11701-026-03492-5.J Robot Surg. 2026.PMID: 42185582 
+*   [The evolution of artificial intelligence technology in non-alcoholic fatty liver disease.](https://pubmed.ncbi.nlm.nih.gov/41036300/)
+
+He J, Wu Y, Lin Z, He R, Zhuo L, Li Y.He J, et al.Front Radiol. 2025 Sep 16;5:1634165. doi: 10.3389/fradi.2025.1634165. eCollection 2025.Front Radiol. 2025.PMID: 41036300 Free PMC article. 
+*   [A bibliometric analysis of research trends in mesenchymal stem cell therapy for neonatal bronchopulmonary dysplasia: 2004-2024.](https://pubmed.ncbi.nlm.nih.gov/40530182/)
+
+Bai L, Xin Y.Bai L, et al.Front Pediatr. 2025 Jun 3;13:1558301. doi: 10.3389/fped.2025.1558301. eCollection 2025.Front Pediatr. 2025.PMID: 40530182 Free PMC article.Review. 
+*   [Mapping knowledge landscapes and emerging trends in artificial intelligence for antimicrobial resistance: bibliometric and visualization analysis.](https://pubmed.ncbi.nlm.nih.gov/39935800/)
+
+Wang Z, Zhu G, Li S.Wang Z, et al.Front Med (Lausanne). 2025 Jan 28;12:1492709. doi: 10.3389/fmed.2025.1492709. eCollection 2025.Front Med (Lausanne). 2025.PMID: 39935800 Free PMC article. 
+
+## References
+
+1.       1.    Jumper J, Evans R, Pritzel A, Green T, Figurnov M, Ronneberger O, Tunyasuvunakool K, Bates R, Žídek A, Potapenko A, Bridgland A, Meyer C, Kohl SAA, Ballard AJ, Cowie A, Romera-Paredes B, Nikolov S, Jain R, Adler J, Back T, Petersen S, Reiman D, Clancy E, Zielinski M, Steinegger M, Pacholska M, Berghammer T, Bodenstein S, Silver D, Vinyals O, Senior AW, Kavukcuoglu K, Kohli P, Hassabis D (2021) Highly accurate protein structure prediction with AlphaFold. Nature 596(7873):583–589 - [DOI](https://doi.org/10.1038/s41586-021-03819-2) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/34265844/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/8371605/)
+
+2.       1.    Baek M, DiMaio F, Anishchenko I, Dauparas J, Ovchinnikov S, Lee GR, Wang J, Cong Q, Kinch LN, Schaeffer RD, Millán C, Park H, Adams C, Glassman CR, DeGiovanni A, Pereira JH, Rodrigues AV, van Dijk AA, Ebrecht AC, Opperman DJ, Sagmeister T, Buhlheller C, Pavkov-Keller T, Rathinaswamy MK, Dalwadi U, Yip CK, Burke JE, Garcia KC, Grishin NV, Adams PD, Read RJ, Baker D (2021) Accurate prediction of protein structures and interactions using a three-track neural network. Science 373(6557):871–876 - [DOI](https://doi.org/10.1126/science.abj8754) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/34282049/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/7612213/)
+
+3.       1.    Ferruz N, Schmidt S, Höcker B (2022) ProtGPT2 is a deep unsupervised language model for protein design. Nat Commun 13(1):4348 - [DOI](https://doi.org/10.1038/s41467-022-32007-7) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/35896542/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/9329459/)
+
+4.       1.    Lin Z, Akin H, Rao R, Hie B, Zhu Z, Lu W, Smetanin N, Verkuil R, Kabeli O, Shmueli Y, Dos Santos Costa A, Fazel-Zarandi M, Sercu T, Candido S, Rives A (2023) Evolutionary-scale prediction of atomic-level protein structure with a language model. Science 379(6637):1123–1130 - [DOI](https://doi.org/10.1126/science.ade2574) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/36927031/)
+
+5.       1.    Madani A, Krause B, Greene ER, Subramanian S, Mohr BP, Holton JM, Olmos JL Jr, Xiong C, Sun ZZ, Socher R, Fraser JS, Naik N (2023) Large language models generate functional protein sequences across diverse families. Nat Biotechnol 41(8):1099–1106 - [DOI](https://doi.org/10.1038/s41587-022-01618-2) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/36702895/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/10400306/)
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Springer](https://dx.doi.org/10.1007/s12602-026-11131-6)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-1532)

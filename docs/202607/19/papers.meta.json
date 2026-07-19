@@ -1,0 +1,65 @@
+{
+  "label": "2026-07-19",
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T21:29:48",
+  "count": 4,
+  "papers": [
+    {
+      "paper_id": "202607/19/42470596-artificial-intelligence-and-protein-design-a-retrospective-study-on-20-year-emerging-trends-and-core-research-areas-from-bibliometric-perspectives",
+      "section": "deep",
+      "title_en": "Artificial Intelligence and Protein Design: A retrospective study on 20-year emerging trends and core research areas from bibliometric perspectives.",
+      "authors": "Wenjuan Zhao, Xiuwu Pan, Wei Yang, Zichang Liu, Xiyi Wei, Anqi Lin, Bufu Tang, Lin Zhang, Mingjia Xiao, Qing Zeng, Quan Cheng, Weiming Mou, Xiaofan Lu, Kai Miao, Peng Luo, Xin-Gang Cui, Wen-Jin Chen",
+      "date": "2026-07-18",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/42470596/",
+      "score": "8.0",
+      "evidence": "人工智能和深度学习在蛋白质设计中的文献计量研究",
+      "tldr": "蛋白质设计在生物医药领域至关重要，但AI如何重塑该领域尚需系统梳理。本文通过对2006-2025年间的文献进行计量学分析，揭示了2018年后由AlphaFold2等模型引发的研究爆发，识别出结构预测、定向进化和从头设计三大核心集群。研究指出，结合计算设计与实验验证的模式最具影响力，为未来解决模型泛化性及动态构象预测等挑战提供了方向。",
+      "tags": "query:bioinfo",
+      "abstract_en": "Protein design has numerous applications in synthetic biology, drug discovery, and bioengineering. Recently, there has been a revolution in this field due to the emergence of artificial intelligence. At the forefront are deep learning models (DLMs). The impact of these models on the design pipeline is so transformative that it leads to radical advances in prediction accuracy, functional enrichment, and de novo synthesis of proteins. We performed bibliometric analysis on a Web of Science data-set (2006-2025) obtained through a targeted keyword search. Our analysis method orchestrated the use of standard tools such as CiteSpace and VOSviewer for co-citation, keyword co-occurrence, and burst detection, while we used custom python scripts to generate more nuanced plots for collaboration networks and intellectual overlap. Based on the bibliometric analysis, we observe a sudden jump in publication counts after the year 2018. This period also coincides with the publication of many methodological breakthroughs such as AlphaFold2 and RoseTTAFold. The analysis revealed three major intellectual clusters focused around protein structure prediction, directed evolution, and de novo design of proteins. DLMs play a major role in the publication impact of generating functional protein sequences, with frameworks such as ProteinMPNN having a notable citation footprint. Although China and the United States dominated in raw publication volume, citation impact told a different story-Switzerland ranked second in per-publication influence, suggesting that research programs combining computational design with systematic experimental validation tend to generate disproportionate scholarly impact. International collaborative efforts were notable after 2020. Citation and co-citation analysis highlighted works that have formed the bedrock of this field. Notable mentions include seminal works on AlphaFold2, ProteinMPNN, and RFdiffusion. Protein design stands at the center of an AI revolution that has drawn database mining, computational generation, and experimental validation into an increasingly rapid and interconnected engineering loop. Yet sustaining this momentum requires confronting limitations that the field's most cited literature has largely left unspoken: models trained on stable, crystallizable structures struggle to generalize beyond their training distributions, static predictions remain blind to the conformational dynamics governing allostery and catalysis, and in silico confidence scores have repeatedly proven poor predictors of wet-lab outcomes. Closing this gap will demand not incremental refinement but the sustained, bidirectional coupling of high-throughput experimental feedback with iterative design-test-learn cycles, supported by next-generation models that natively represent PTMs, cellular context, and conformational ensembles-a convergence that holds genuine promise for translating the field's computational ambitions into reliable therapeutic and synthetic biology outcomes.",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202607/19/42471503-characterization-of-immunomodulatory-dialkylresorcinols-from-the-human-associated-hacek-bacteria",
+      "section": "quick",
+      "title_en": "Characterization of immunomodulatory dialkylresorcinols from the human-associated HACEK bacteria.",
+      "authors": "Jiangnan Xia, Juan Liang, Yan Luo, Yu Sun, Chen Niu, Tian Xu, Lihan Zhang",
+      "date": "2026-07-18",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/42471503/",
+      "score": "7.0",
+      "evidence": "人类相关机会性病原体的全局基因组挖掘",
+      "tldr": "人体微生物组代谢物对免疫调节至关重要，但具体分子机制尚不明确。本研究通过对人体机会性致病菌HACEK组中的艾肯氏菌属进行全局基因组挖掘，鉴定出一组酮酰合成酶。实验证实这些酶能产生三种二烷基间苯二酚类化合物，它们作为芳香烃受体激动剂，能显著降低多种免疫细胞的炎症因子水平。该发现揭示了人体共生菌通过产生生物活性芳香聚酮类物质调节宿主免疫的新机制。",
+      "tags": "query:pathoai",
+      "abstract_en": "Endogenous metabolites from the human microbiome play a crucial role in human health and disease. Their involvement in immune and inflammatory regulatory processes both under physiological conditions and diseases renders them essential for pathological research and therapeutic development. However, the microbial metabolites that mediate interactions between the host and microbiome remain largely undefined. Here, we explored a group of ketoacyl synthases from Eikenella spp. that constitute the HACEK group of human opportunistic pathogens through global genome mining. In vivo and in vitro verification of these enzymes resulted in the production of three dialkylresorcinols, which were found to act as agonists of the aryl hydrocarbon receptor and reduce the inflammatory factors of multiple immune cells. These results demonstrate that human-associated Eikenella spp. are capable of producing bioactive aromatic polyketides, which may suggest a molecular mechanism of immunomodulation by the human microbiota.",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202607/19/42457405-engineered-promoter-system-enables-high-efficiency-transgenic-crispr-editing-in-malaria-transmitting-mosquito",
+      "section": "quick",
+      "title_en": "Engineered promoter system enables high-efficiency transgenic CRISPR editing in Malaria transmitting mosquito",
+      "authors": "Jun-Feng Hong, Qi-Li Zou, Xin-Yuan Xie, Yan-Ping Jiang, Si-Yi Wang, Xia Ling, Cao Zhou, Xi Cai, Yong-Xin Yang, Yu Chen, Wei Sun, Bin Chen, Liang Qiao",
+      "date": "2026-07-18",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/42457405/",
+      "score": "6.0",
+      "evidence": "用于疟疾媒介诱变的工程化CRISPR/Cas9系统",
+      "tldr": "针对非模式昆虫缺乏高效内源调控元件导致CRISPR编辑效率低的问题，本研究在中华按蚊中筛选并优化了生殖系启动子Asvasa2和U6启动子AsU6-1。通过构建稳定转基因系，实现了对目标基因近100%的生殖系编辑效率，并成功通过敲除性别分化基因Asdsx-F诱导雌蚊完全性反转与不育。该成果为疟疾媒介蚊虫的遗传防治提供了关键技术支撑，也为其他昆虫的遗传操纵提供了范式。",
+      "tags": "query:bioinfo",
+      "abstract_en": "The binary CRISPR/Cas9 system deployed through crosses of transgenic lines facilitates efficient mutagenesis, but its application in non-model insects remains limited by the scarcity of validated species-specific regulatory elements. In the malaria vector Anopheles sinensis, we screened three germline-biased promoters ( Asvasa2, Aszpg, Asnanos) for Cas9 expression, and found that Asvasa2 drove the highest editing efficiency with respect to target site mutagenesis. For gRNA transcription, comparative analysis identified AsU6-1 as the most active of four endogenous U6 promoters. Crossing stable transgenic lines harboring these components yielded F 1 progeny with complete germline editing penetrance at the Aswhite locus, a phenotype inherited in the F 2 generation. Quantitative sequencing of F 1 ovaries confirmed near-saturation (>99%) targeted mutagenesis using the optimal Asvasa2/ AsU6-1 combination, whereas alternative promoters showed markedly lower mutagenesis efficiency. Functional validation through knockout of Asdsx- F, a key sex differentiation regulator, efficiently induced complete female-to-male sexual reversal and sterility. This study provides a foundational genetic toolkit for genome engineering in this vector species, as well as an effective reference for binary transgenic manipulation in non-model insects.",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202607/19/42470720-b-vitamin-mediated-interactions-in-synthetic-microbial-communities",
+      "section": "quick",
+      "title_en": "B vitamin-mediated interactions in synthetic microbial communities.",
+      "authors": "Dennis D Suazo, Eleanor Wang, Michiko E Taga",
+      "date": "2026-07-18",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/42470720/",
+      "score": "6.0",
+      "evidence": "合成微生物群落中的代谢相互作用",
+      "tldr": "微生物群落的复杂性阻碍了对其机制的理解，尤其是必需微量元素B族维生素的代谢交互。本文综述了利用合成微生物群落（SynComs）研究B族维生素跨物种喂养的最新进展，涵盖了从营养缺陷型到前体共享等多种机制。研究揭示了这些微观交换如何驱动宿主健康等宏观功能，为通过工程化手段干预微生物群落提供了理论基础。",
+      "tags": "query:pathoai",
+      "abstract_en": "Microbial communities drive fundamental processes across the globe, from biogeochemical cycling to human health. Yet, their complexity often obscures mechanistic understanding. Synthetic communities (SynComs) have emerged as powerful tools to distill this complexity into tractable, rationally designed systems to study community function. Metabolic interactions - competition and sharing of resources between organisms - are a frequent focus of these controlled studies. The role of B vitamin cross-feeding remains a critical frontier because B vitamins are required in trace quantities for metabolism, but not all organisms can make their own, necessitating cross-feeding interactions. Here, we review recent advances in microbial ecology that use SynComs to investigate B vitamin-mediated interactions through mechanistic approaches across scales, domains of life, environments, and disciplines. We highlight key findings that demonstrate how auxotrophy, obligate cross-feeding networks, precursor sharing, exploitation and interference competition, and cell lysis together encompass B vitamin interactions. Collectively, these processes demonstrate how microbial B vitamin exchanges drive macroscale community functions like host-microbiome interdependencies. The mechanistic insights into microbial community interactions synthesized from these integrative approaches provide foundational insight into the structure and function of natural microbial communities, advancing the potential to engineer microbiomes for therapeutic and environmental applications.",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}

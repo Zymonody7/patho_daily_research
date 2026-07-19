@@ -1,0 +1,84 @@
+Title: Engineered promoter system enables high-efficiency transgenic CRISPR editing in Malaria transmitting mosquito Anopheles sinensis - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42457405/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 18;47(4):1045-1058.
+
+doi: 10.24272/j.issn.2095-8137.2026.040.
+
+[Qi-Li Zou](https://pubmed.ncbi.nlm.nih.gov/?term=Zou+QL&cauthor_id=42457405)[1](https://pubmed.ncbi.nlm.nih.gov/42457405/#full-view-affiliation-1 "Chongqing Key Laboratory of Vector Control and Utilization, Institute of Entomology and Molecular Biology, Chongqing Normal University, Chongqing 401331, China."),[Xin-Yuan Xie](https://pubmed.ncbi.nlm.nih.gov/?term=Xie+XY&cauthor_id=42457405)[1](https://pubmed.ncbi.nlm.nih.gov/42457405/#full-view-affiliation-1 "Chongqing Key Laboratory of Vector Control and Utilization, Institute of Entomology and Molecular Biology, Chongqing Normal University, Chongqing 401331, China."),[Yan-Ping Jiang](https://pubmed.ncbi.nlm.nih.gov/?term=Jiang+YP&cauthor_id=42457405)[1](https://pubmed.ncbi.nlm.nih.gov/42457405/#full-view-affiliation-1 "Chongqing Key Laboratory of Vector Control and Utilization, Institute of Entomology and Molecular Biology, Chongqing Normal University, Chongqing 401331, China."),[Si-Yi Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+SY&cauthor_id=42457405)[1](https://pubmed.ncbi.nlm.nih.gov/42457405/#full-view-affiliation-1 "Chongqing Key Laboratory of Vector Control and Utilization, Institute of Entomology and Molecular Biology, Chongqing Normal University, Chongqing 401331, China."),[Xia Ling](https://pubmed.ncbi.nlm.nih.gov/?term=Ling+X&cauthor_id=42457405)[1](https://pubmed.ncbi.nlm.nih.gov/42457405/#full-view-affiliation-1 "Chongqing Key Laboratory of Vector Control and Utilization, Institute of Entomology and Molecular Biology, Chongqing Normal University, Chongqing 401331, China."),[Cao Zhou](https://pubmed.ncbi.nlm.nih.gov/?term=Zhou+C&cauthor_id=42457405)[1](https://pubmed.ncbi.nlm.nih.gov/42457405/#full-view-affiliation-1 "Chongqing Key Laboratory of Vector Control and Utilization, Institute of Entomology and Molecular Biology, Chongqing Normal University, Chongqing 401331, China."),[Xi Cai](https://pubmed.ncbi.nlm.nih.gov/?term=Cai+X&cauthor_id=42457405)[1](https://pubmed.ncbi.nlm.nih.gov/42457405/#full-view-affiliation-1 "Chongqing Key Laboratory of Vector Control and Utilization, Institute of Entomology and Molecular Biology, Chongqing Normal University, Chongqing 401331, China."),[Yong-Xin Yang](https://pubmed.ncbi.nlm.nih.gov/?term=Yang+YX&cauthor_id=42457405)[1](https://pubmed.ncbi.nlm.nih.gov/42457405/#full-view-affiliation-1 "Chongqing Key Laboratory of Vector Control and Utilization, Institute of Entomology and Molecular Biology, Chongqing Normal University, Chongqing 401331, China."),[Yu Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+Y&cauthor_id=42457405)[1](https://pubmed.ncbi.nlm.nih.gov/42457405/#full-view-affiliation-1 "Chongqing Key Laboratory of Vector Control and Utilization, Institute of Entomology and Molecular Biology, Chongqing Normal University, Chongqing 401331, China."),[Wei Sun](https://pubmed.ncbi.nlm.nih.gov/?term=Sun+W&cauthor_id=42457405)[2](https://pubmed.ncbi.nlm.nih.gov/42457405/#full-view-affiliation-2 "Laboratory of Evolutionary and Functional Genomics, School of Life Sciences, Chongqing University, Chongqing 401331, China. E-mail: sunwei077@cqu.edu.cn."),[Bin Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+B&cauthor_id=42457405)[3](https://pubmed.ncbi.nlm.nih.gov/42457405/#full-view-affiliation-3 "Chongqing Key Laboratory of Vector Control and Utilization, Institute of Entomology and Molecular Biology, Chongqing Normal University, Chongqing 401331, China. E-mail: bin.chen@cqnu.edu.cn."),[Liang Qiao](https://pubmed.ncbi.nlm.nih.gov/?term=Qiao+L&cauthor_id=42457405)[4](https://pubmed.ncbi.nlm.nih.gov/42457405/#full-view-affiliation-4 "Chongqing Key Laboratory of Vector Control and Utilization, Institute of Entomology and Molecular Biology, Chongqing Normal University, Chongqing 401331, China. E-mail: qiaoliangswu@163.com.")
+
+Affiliations
+
+*    PMID: **42457405**
+*    DOI: [10.24272/j.issn.2095-8137.2026.040](https://doi.org/10.24272/j.issn.2095-8137.2026.040)
+
+Free article
+
+## Engineered promoter system enables high-efficiency transgenic CRISPR editing in Malaria transmitting mosquito _Anopheles sinensis_
+
+Jun-Feng Hong et al. Zool Res.2026.
+
+Free article
+
+## Abstract 
+in [English,](https://pubmed.ncbi.nlm.nih.gov/42457405/#eng-abstract)[Chinese](https://pubmed.ncbi.nlm.nih.gov/42457405/#zho-abstract)
+
+The binary CRISPR/Cas9 system deployed through crosses of transgenic lines facilitates efficient mutagenesis, but its application in non-model insects remains limited by the scarcity of validated species-specific regulatory elements. In the malaria vector _Anopheles sinensis_, we screened three germline-biased promoters ( _Asvasa2_, _Aszpg_, _Asnanos_) for _Cas9_ expression, and found that _Asvasa2_ drove the highest editing efficiency with respect to target site mutagenesis. For _gRNA_ transcription, comparative analysis identified _AsU6_-1 as the most active of four endogenous _U6_ promoters. Crossing stable transgenic lines harboring these components yielded F 1 progeny with complete germline editing penetrance at the _Aswhite_ locus, a phenotype inherited in the F 2 generation. Quantitative sequencing of F 1 ovaries confirmed near-saturation (>99%) targeted mutagenesis using the optimal _Asvasa2_/ _AsU6_-1 combination, whereas alternative promoters showed markedly lower mutagenesis efficiency. Functional validation through knockout of _Asdsx_- _F_, a key sex differentiation regulator, efficiently induced complete female-to-male sexual reversal and sterility. This study provides a foundational genetic toolkit for genome engineering in this vector species, as well as an effective reference for binary transgenic manipulation in non-model insects.
+
+通过转基因品系杂交实现的二元CRISPR/Cas9系统能够高效诱导靶位点突变，但其在非模式昆虫中的应用仍受限于缺乏经过验证的物种特异性调控元件。本研究以疟疾传播媒介中华按蚊（ _Anopheles sinensis_）为对象，筛选了三种生殖系偏好表达的启动子（ _Asvasa2_、 _Aszpg_、 _Asnanos_）用于调控 _Cas9_ 表达，结果发现 _Asvasa2_ 在驱动靶位点诱变中的编辑效率最高。进一步比较分析显示，在内源性 _U6_ 启动子中， _AsU6_-1具有最高的 _gRNA_ 转录活性。将稳定携带上述遗传元件的转基因品系进行杂交，F 1 代生殖系中 _Aswhite_ 基因座被完全编辑，且该表型可遗传至F 2 代。通过对F 1 代卵巢进行定量深度测序，证实采用最优的 _Asvasa2_/ _AsU6_-1组合可实现接近完全（>99%）的靶向诱变，而其他启动子组合的诱变效率显著较低。此外，通过敲除性别分化关键调控因子 _Asdsx-F_ 进行功能验证，成功诱导了完全的雌性向雄性性逆转及不育表型。本研究不仅为中华按蚊的基因组工程化改造提供了基础性遗传工具包，也为在非模式昆虫中开展基于二元杂交系统的转基因操作提供了有效参考。.
+
+**Keywords:** Anopheles mosquitoes; CRISPR/Cas9 genome editing; Genetic manipulation; Promoter engineering; Transgenic system.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [CRISPR/Cas advancements for genome editing, diagnosis, therapeutics, and vaccine development for Plasmodium parasites, and genetic engineering of Anopheles mosquito vector.](https://pubmed.ncbi.nlm.nih.gov/36842543/)
+
+Nourani L, Mehrizi AA, Pirahmadi S, Pourhashem Z, Asadollahi E, Jahangiri B.Nourani L, et al.Infect Genet Evol. 2023 Apr;109:105419. doi: 10.1016/j.meegid.2023.105419. Epub 2023 Feb 24.Infect Genet Evol. 2023.PMID: 36842543 Review. 
+*   [Challenges in developing a split drive targeting dsx for the genetic control of the invasive malaria vector Anopheles stephensi.](https://pubmed.ncbi.nlm.nih.gov/39920845/)
+
+Larrosa-Godall M, Ang JXD, Leftwich PT, Gonzalez E, Shackleford L, Nevard K, Noad R, Anderson MAE, Alphey L.Larrosa-Godall M, et al.Parasit Vectors. 2025 Feb 7;18(1):46. doi: 10.1186/s13071-025-06688-0.Parasit Vectors. 2025.PMID: 39920845 Free PMC article. 
+*   [Genome editing efficiency of four Drosophila suzukii endogenous U6 promoters.](https://pubmed.ncbi.nlm.nih.gov/33885199/)
+
+Ni XY, Lu WJ, Qiao X, Huang J.Ni XY, et al.Insect Mol Biol. 2021 Aug;30(4):420-426. doi: 10.1111/imb.12707. Epub 2021 May 24.Insect Mol Biol. 2021.PMID: 33885199 
+*   [Cas9-Mediated Gene-Editing in the Malaria Mosquito _Anopheles stephensi_ by ReMOT Control.](https://pubmed.ncbi.nlm.nih.gov/32122959/)
+
+Macias VM, McKeand S, Chaverra-Rodriguez D, Hughes GL, Fazekas A, Pujhari S, Jasinskiene N, James AA, Rasgon JL.Macias VM, et al.G3 (Bethesda). 2020 Apr 9;10(4):1353-1360. doi: 10.1534/g3.120.401133.G3 (Bethesda). 2020.PMID: 32122959 Free PMC article. 
+*   [CRISPR technologies for the control and study of malaria-transmitting anopheline mosquitoes.](https://pubmed.ncbi.nlm.nih.gov/40611351/)
+
+Smidler AL, Akbari OS.Smidler AL, et al.Parasit Vectors. 2025 Jul 3;18(1):252. doi: 10.1186/s13071-025-06905-w.Parasit Vectors. 2025.PMID: 40611351 Free PMC article.Review. 
+
+## References
+
+1.       1.    Akbari OS, Papathanos PA, Sandler JE, et al. 2014. Identification of germline transcriptional regulatory elements in Aedes aegypti. Scientific Reports, 4(1): 3954. 
+
+2.       1.    Anderson MaE, Purcell J, Verkuijl SaN, et al. 2020. Expanding the CRISPR toolbox in culicine mosquitoes: in vitro validation of Pol III promoters. ACS Synthetic Biology, 9(3): 678–681. 
+
+3.       1.    Bottino-Rojas V, James AA. 2024. Generating and validating transgenic mosquitoes with transposon-mediated transgenesis. Cold Spring Harbor Protocols, 2024(10): pdb. prot108194, 1-10. 
+
+4.       1.    Cabezas-Cruz A, Piloto-Sardiñas E, Tonnerre P, et al. 2025. Cross-species immune activation and immunobiotics: a new frontier in vector-borne pathogen control. Trends in Parasitology, 41(4): 290–300. 
+
+5.       1.    Cao J, Wu KL, Wei X, et al. 2024. A simple and low-cost CRISPR/Cas9 knockout system widely applicable to insects. Insects, 15(5): 339. 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Editorial Office of Zoological Research](http://www.zoores.ac.cn/EN/10.24272/j.issn.2095-8137.2026.040)
