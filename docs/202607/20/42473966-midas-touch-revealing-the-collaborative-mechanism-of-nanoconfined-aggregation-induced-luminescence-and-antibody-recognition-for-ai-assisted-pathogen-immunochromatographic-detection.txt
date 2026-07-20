@@ -1,0 +1,43 @@
+Title: "Midas Touch": Revealing the Collaborative Mechanism of Nanoconfined Aggregation-Induced Luminescence and Antibody Recognition for AI-Assisted Pathogen Immunochromatographic Detection - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42473966/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 20.
+
+doi: 10.1021/acs.analchem.6c01731.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42473966**
+*    DOI: [10.1021/acs.analchem.6c01731](https://doi.org/10.1021/acs.analchem.6c01731)
+
+## "Midas Touch": Revealing the Collaborative Mechanism of Nanoconfined Aggregation-Induced Luminescence and Antibody Recognition for AI-Assisted Pathogen Immunochromatographic Detection
+
+Zhaowen Cui et al. Anal Chem.2026.
+
+## Abstract
+
+Foodborne pathogen contamination poses a persistent and severe threat to global public health and safety, creating an urgent need for rapid, sensitive, and user-friendly on-site detection technologies. Herein, we report a synergistic strategy, termed "Midas Touch," anchoring tetrakis(4-ethynylphenyl)ethylene (TEE) into NH 2-UIO-66 to develop the NH 2-UIO-66/TEE (NUT) nanohybrid with high-affinity antibody recognition for AI-assisted immunochromatographic assays (ICA). Molecular dynamics simulations reveal that TEE tended to confined aggregation and generated a strong restriction intramolecular motion (RIM) effect for TEE, which is expected to improve the fluorescent emission. The electron dynamics mechanism reveals that the vibrational relaxation of NUT nanohybrids is accelerated, resulting in amplifying quantum yield of TEE and prolonging fluorescent lifetime. Crucially, isothermal titration calorimetry reveals the NUT-antibody interaction exhibits exceptionally high affinity, driven predominantly by the pronounced hydrophobic effect, complemented by secondary electrostatic/hydrogen-bonding interactions. Therefore, NUT nanohybrids are deployed as immunoprobes to develop NUT-based ICA strips, which achieve an ultralow visual detection limit of sensitive visual detection limit of _Salmonella typhimurium_ with 23-fold lower levels than AuNPs-based strips. The assay also demonstrates excellent specificity, stability, and reliable performance in complex food matrices. Furthermore, a custom-built convolutional neural network model automates result interpretation with 100% classification accuracy. This "Midas Touch" approach provides a fundamental thermodynamic and photophysical framework for designing advanced biointerface materials to create next-generation point-of-care diagnostics.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Tight and Flexible Antibody Recognition via Quaternization Interface in Metal-AIEgens Frameworks and Collaborating Ultrabright Luminescence for Intelligent Biosensing.](https://pubmed.ncbi.nlm.nih.gov/42443106/)
+
+Cui Z, Li Y, Ji C, Shi L, Ma Y, Sun J, Hao G, Ji Y, Zhu W, Wang J.Cui Z, et al.Anal Chem. 2026 Jul 13. doi: 10.1021/acs.analchem.6c03657. Online ahead of print.Anal Chem. 2026.PMID: 42443106 
+*   [Bioinspired urchin-like AuMnCu nanoreactors: Integrating tip-enhanced electric fields with alloy-tuned interfacial electron for precision photothermal immunoassays.](https://pubmed.ncbi.nlm.nih.gov/40983405/)
+
+Gong W, Li Y, Fu B, Shan J, Zhou J, Liu S, Sun J, Dou L, Wang J.Gong W, et al.Anal Chim Acta. 2025 Nov 8;1374:344513. doi: 10.1016/j.aca.2025.344513. Epub 2025 Aug 5.Anal Chim Acta. 2025.PMID: 40983405 
+*   [Label-free multi-line immunochromatographic sensor based on TCBPE for broad-spectrum detection Salmonella in food.](https://pubmed.ncbi.nlm.nih.gov/39142783/)
+
+Wu Y, Wang Y, Wu Y, Feng Z, Li D, Zhao W, Liu Q.Wu Y, et al.Anal Chim Acta. 2024 Sep 1;1320:343006. doi: 10.1016/j.aca.2024.343006. Epub 2024 Jul 22.Anal Chim Acta. 2024.PMID: 39142783 
+*   [[Research progress on paper-based microfluidic chips in pathogen detection].](https://pubmed.ncbi.nlm.nih.gov/41200967/)
+
+Liu XT, Shi J, Shi M.Liu XT, et al.Se Pu. 2025 Nov;43(11):1187-1199. doi: 10.3724/SP.J.1123.2025.04011.Se Pu. 2025.PMID: 41200967 Free PMC article.Review.Chinese. 
+*   [Biosensing technologies for foodborne pathogen detection and healthcare: principles, emerging materials, and intelligent platforms.](https://pubmed.ncbi.nlm.nih.gov/41803510/)
+
+Assudani PJ, P B, A AL, George G, Avthankar A, Tiwari A, Bhaiyya M, Kulkarni MB.Assudani PJ, et al.Mikrochim Acta. 2026 Mar 10;193(4):231. doi: 10.1007/s00604-026-07976-x.Mikrochim Acta. 2026.PMID: 41803510 Free PMC article.Review.

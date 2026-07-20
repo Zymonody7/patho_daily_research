@@ -1,0 +1,64 @@
+Title: scTIDE: Deciphering Critical Transitions Through Cell-Perturbed Manifold Graphs and Optimal Transport Conditional Flow Matching - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42474679/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 20:e76606.
+
+doi: 10.1002/advs.76606.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42474679**
+*    DOI: [10.1002/advs.76606](https://doi.org/10.1002/advs.76606)
+
+## scTIDE: Deciphering Critical Transitions Through Cell-Perturbed Manifold Graphs and Optimal Transport Conditional Flow Matching
+
+Jiayuan Zhong et al. Adv Sci (Weinh).2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+A tipping point marks the threshold or critical state where a biological system shifts from one stable state to another. Deciphering critical transitions and their associated signaling molecules is essential for elucidating complex biological processes and for enabling timely interventions to avert or postpone catastrophic deteriorations. However, existing critical-state detection methods rely mainly on Euclidean-space statistics, which may overlook nonlinear dynamical behavior among molecules and distribution-based molecular patterns, leading to limited robustness and performance in high-dimensional, sparse, and noisy single-cell data. In this study, we introduce single-cell Tipping-point Identification via Distributional Embedding (scTIDE), a framework that integrates manifold-based graph representations with optimal-transport conditional flow matching (OT-CFM) to capture intrinsic topological structure and identify critical transitions at the individual-cell level. Specifically, for a given cell, scTIDE quantifies distributional differences between a distribution derived from the reference manifold graph and a perturbed distribution inferred from the cell-perturbed manifold graph using OT-CFM, thereby identifying critical stages and key signaling molecules. The reliability and effectiveness of our model are demonstrated through synthetic models and eight distinct single-cell datasets, where it outperforms existing methods. Moreover, scTIDE reveals possible critical transitions for unseen cells and visualizes the intricate biological progression.
+
+**Keywords:** critical transition; dynamic network biomarker (DNB); flow matching; manifold; optimal transport.
+
+© 2026 The Author(s). Advanced Science published by Wiley‐VCH GmbH.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## References
+
+1.       1.    R. Liu, X. Wang, K. Aihara, and L. Chen, “Early Diagnosis of Complex Diseases by Molecular Biomarkers, Network Biomarkers, and Dynamical Network biomarkers,” Medicinal Research Reviews 34 (2014): 455–478, [https://doi.org/10.1002/med.21293](https://doi.org/10.1002/med.21293). 
+
+2.       1.    M. Scheffer, J. Bascompte, W. A. Brock, et al., “Early‐Warning Signals for Critical Transitions,” Nature 461 (2009): 53–59, [https://doi.org/10.1038/nature08227](https://doi.org/10.1038/nature08227). 
+
+3.       1.    J. Zhong, J. Li, X. Gu, et al., “sPGGM: A Sample‐Perturbed Gaussian Graphical Model for Identifying Pre‐Disease Stages and Signaling Molecules of Disease Progression,” National Science Review 12 (2025): nwaf189, [https://doi.org/10.1093/nsr/nwaf189](https://doi.org/10.1093/nsr/nwaf189). 
+
+4.       1.    W. Hua, R. Cui, H. Yang, J. Zhang, C. Liu, and J. Sun, “Uncovering Critical Transitions and Molecule Mechanisms in Disease Progressions Using Gaussian Graphical Optimal Transport,” Communications Biology 8 (2025): 575, [https://doi.org/10.1038/s42003‐025‐07995‐z](https://doi.org/10.1038/s42003%E2%80%90025%E2%80%9007995%E2%80%90z). 
+
+5.       1.    C. Lyu, L. Chen, and X. Liu, “Detecting Tipping Points of Complex Diseases by Network Information Entropy,” Briefings in Bioinformatics 25 (2024): bbae311, [https://doi.org/10.1093/bib/bbae311](https://doi.org/10.1093/bib/bbae311). 
+
+## Grants and funding
+
+*   [2026ZD0553302/Noncommunicable Chronic Diseases-National Science and Technology Major Project](https://pubmed.ncbi.nlm.nih.gov/?term=2026ZD0553302%2FNoncommunicable+Chronic+Diseases-National+Science+and+Technology+Major+Project%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2026ZD0553302/Noncommunicable Chronic Diseases-National Science and Technology Major Project")
+*   [T2341022/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=T2341022%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant T2341022/National Natural Science Foundation of China")
+*   [T2541012/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=T2541012%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant T2541012/National Natural Science Foundation of China")
+*   [12322119/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=12322119%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 12322119/National Natural Science Foundation of China")
+*   [42450084/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=42450084%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 42450084/National Natural Science Foundation of China")
+
+*   [W2541005/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=W2541005%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant W2541005/National Natural Science Foundation of China")
+*   [12401630/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=12401630%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 12401630/National Natural Science Foundation of China")
+*   [2026B0303000003/Guangdong Major Project of Basic Research](https://pubmed.ncbi.nlm.nih.gov/?term=2026B0303000003%2FGuangdong+Major+Project+of+Basic+Research%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2026B0303000003/Guangdong Major Project of Basic Research")
+*   [2023A1515110558/Natural Science Foundation of Guangdong Province of China](https://pubmed.ncbi.nlm.nih.gov/?term=2023A1515110558%2FNatural+Science+Foundation+of+Guangdong+Province+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2023A1515110558/Natural Science Foundation of Guangdong Province of China")
+*   [2024B1212010004/Guangdong Provincial Key Laboratory of Mathematical and Neural Dynamical Systems](https://pubmed.ncbi.nlm.nih.gov/?term=2024B1212010004%2FGuangdong+Provincial+Key+Laboratory+of+Mathematical+and+Neural+Dynamical+Systems%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2024B1212010004/Guangdong Provincial Key Laboratory of Mathematical and Neural Dynamical Systems")
+*   [TFJCPI20260001/Tianfu Jincheng Laboratory](https://pubmed.ncbi.nlm.nih.gov/?term=TFJCPI20260001%2FTianfu+Jincheng+Laboratory%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant TFJCPI20260001/Tianfu Jincheng Laboratory")

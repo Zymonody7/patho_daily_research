@@ -1,0 +1,47 @@
+Title: Structural and Mechanistic Insights into FgGWT1 as the Target of Aminopyrifen in Fusarium graminearum: from Binding Pockets Identification to Functional Validation - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42473880/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 20.
+
+doi: 10.1021/acs.jafc.6c02782.  Online ahead of print.
+
+[Bo Ouyang](https://pubmed.ncbi.nlm.nih.gov/?term=Ouyang+B&cauthor_id=42473880)[1](https://pubmed.ncbi.nlm.nih.gov/42473880/#full-view-affiliation-1 "State Key Laboratory of Agricultural and Forestry Biosecurity, College of Plant Protection, Nanjing Agricultural University, Nanjing 210095, China."),[Chaoqi He](https://pubmed.ncbi.nlm.nih.gov/?term=He+C&cauthor_id=42473880)[1](https://pubmed.ncbi.nlm.nih.gov/42473880/#full-view-affiliation-1 "State Key Laboratory of Agricultural and Forestry Biosecurity, College of Plant Protection, Nanjing Agricultural University, Nanjing 210095, China."),[Yanjing Chu](https://pubmed.ncbi.nlm.nih.gov/?term=Chu+Y&cauthor_id=42473880)[1](https://pubmed.ncbi.nlm.nih.gov/42473880/#full-view-affiliation-1 "State Key Laboratory of Agricultural and Forestry Biosecurity, College of Plant Protection, Nanjing Agricultural University, Nanjing 210095, China."),[Qianwen Guo](https://pubmed.ncbi.nlm.nih.gov/?term=Guo+Q&cauthor_id=42473880)[1](https://pubmed.ncbi.nlm.nih.gov/42473880/#full-view-affiliation-1 "State Key Laboratory of Agricultural and Forestry Biosecurity, College of Plant Protection, Nanjing Agricultural University, Nanjing 210095, China."),[Xian Ding](https://pubmed.ncbi.nlm.nih.gov/?term=Ding+X&cauthor_id=42473880)[1](https://pubmed.ncbi.nlm.nih.gov/42473880/#full-view-affiliation-1 "State Key Laboratory of Agricultural and Forestry Biosecurity, College of Plant Protection, Nanjing Agricultural University, Nanjing 210095, China."),[Fan Zhong](https://pubmed.ncbi.nlm.nih.gov/?term=Zhong+F&cauthor_id=42473880)[1](https://pubmed.ncbi.nlm.nih.gov/42473880/#full-view-affiliation-1 "State Key Laboratory of Agricultural and Forestry Biosecurity, College of Plant Protection, Nanjing Agricultural University, Nanjing 210095, China."),[Hong Zhu](https://pubmed.ncbi.nlm.nih.gov/?term=Zhu+H&cauthor_id=42473880)[2](https://pubmed.ncbi.nlm.nih.gov/42473880/#full-view-affiliation-2 "Technical Center for Public Testing and Evaluation and Identification, Jiangsu Academy of Agricultural Sciences, Nanjing, Jiangsu 210014, China."),[Yulan Liu](https://pubmed.ncbi.nlm.nih.gov/?term=Liu+Y&cauthor_id=42473880)[1](https://pubmed.ncbi.nlm.nih.gov/42473880/#full-view-affiliation-1 "State Key Laboratory of Agricultural and Forestry Biosecurity, College of Plant Protection, Nanjing Agricultural University, Nanjing 210095, China."),[Lei Li](https://pubmed.ncbi.nlm.nih.gov/?term=Li+L&cauthor_id=42473880)[1](https://pubmed.ncbi.nlm.nih.gov/42473880/#full-view-affiliation-1 "State Key Laboratory of Agricultural and Forestry Biosecurity, College of Plant Protection, Nanjing Agricultural University, Nanjing 210095, China."),[Yiqiong Bao](https://pubmed.ncbi.nlm.nih.gov/?term=Bao+Y&cauthor_id=42473880)[1](https://pubmed.ncbi.nlm.nih.gov/42473880/#full-view-affiliation-1 "State Key Laboratory of Agricultural and Forestry Biosecurity, College of Plant Protection, Nanjing Agricultural University, Nanjing 210095, China.")[3](https://pubmed.ncbi.nlm.nih.gov/42473880/#full-view-affiliation-3 "Department of Biomedical Informatics, School of Basic Medical Sciences, Peking University Health Science Center, Beijing 100191, China."),[Jingjing Guo](https://pubmed.ncbi.nlm.nih.gov/?term=Guo+J&cauthor_id=42473880)[4](https://pubmed.ncbi.nlm.nih.gov/42473880/#full-view-affiliation-4 "Centre for Artificial Intelligence Driven Drug Discovery, Faculty of Applied Sciences and Engineering Research Centre of Applied Technology on Machine Translation and Artificial Intelligence, Macao Polytechnic University, Macao 999078, China."),[Feng Zhang](https://pubmed.ncbi.nlm.nih.gov/?term=Zhang+F&cauthor_id=42473880)[1](https://pubmed.ncbi.nlm.nih.gov/42473880/#full-view-affiliation-1 "State Key Laboratory of Agricultural and Forestry Biosecurity, College of Plant Protection, Nanjing Agricultural University, Nanjing 210095, China.")[5](https://pubmed.ncbi.nlm.nih.gov/42473880/#full-view-affiliation-5 "Sanya Institute, Nanjing Agricultural University, Sanya 572025, China.")
+
+Affiliations
+
+*    PMID: **42473880**
+*    DOI: [10.1021/acs.jafc.6c02782](https://doi.org/10.1021/acs.jafc.6c02782)
+
+## Structural and Mechanistic Insights into FgGWT1 as the Target of Aminopyrifen in _Fusarium graminearum_: from Binding Pockets Identification to Functional Validation
+
+Jingpei Zou et al. J Agric Food Chem.2026.
+
+## Abstract
+
+Fusarium head blight (FHB), caused by _Fusarium graminearum_, is a globally devastating wheat disease. Currently fungicides face various limitations, including inconsistent effectiveness and resistance risks. Here, we dissect the interaction between aminopyrifen and its target FgGWT1 using molecular dynamics simulation, site-directed mutagenesis, and field trials. FgGWT1 is an ER-resident protein essential for growth, reproduction, and pathogenicity. Deletion of _FgGWT1_ unexpectedly upregulates _TRI_ gene expression and DON accumulation, revealing a negative regulatory role in mycotoxin biosynthesis. Homology modeling and molecular dynamics simulations further identify five potential binding pockets. Mutagenesis of key residues within these pockets reduces aminopyrifen sensitivity and attenuates pathogenicity, providing functional evidence. Moreover, field evaluations demonstrated the practical potential of aminopyrifen. This work establishes a structural framework for FgGWT1 inhibition, identifies residues governing inhibitor binding and virulence, and provides mechanistic insights for next-generation fungicide development targeting the GPI anchor pathway.
+
+**Keywords:** DON production; FgGWT1; Fusarium graminearum; aminopyrifen; binding pockets.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Effects of validamycin in controlling Fusarium head blight caused by Fusarium graminearum: Inhibition of DON biosynthesis and induction of host resistance.](https://pubmed.ncbi.nlm.nih.gov/30744889/)
+
+Li J, Duan Y, Bian C, Pan X, Yao C, Wang J, Zhou M.Li J, et al.Pestic Biochem Physiol. 2019 Jan;153:152-160. doi: 10.1016/j.pestbp.2018.11.012. Epub 2018 Nov 22.Pestic Biochem Physiol. 2019.PMID: 30744889 
+*   [The Dynamin-Like GTPase FgSey1 Plays a Critical Role in Fungal Development and Virulence in Fusarium graminearum.](https://pubmed.ncbi.nlm.nih.gov/32220839/)
+
+Chong X, Wang C, Wang Y, Wang Y, Zhang L, Liang Y, Chen L, Zou S, Dong H.Chong X, et al.Appl Environ Microbiol. 2020 May 19;86(11):e02720-19. doi: 10.1128/AEM.02720-19. Print 2020 May 19.Appl Environ Microbiol. 2020.PMID: 32220839 Free PMC article. 
+*   [FgSPF1 regulates DON biosynthesis and fungicide sensitivity in fusarium graminearum by regulating toxisome formation and membrane permeability.](https://pubmed.ncbi.nlm.nih.gov/41162034/)
+
+Chen F, Gu Y, Dai C, Hou Y.Chen F, et al.Pestic Biochem Physiol. 2025 Dec;215:106643. doi: 10.1016/j.pestbp.2025.106643. Epub 2025 Aug 17.Pestic Biochem Physiol. 2025.PMID: 41162034 
+*   [The Mechanisms of Developing Fungicide Resistance in _Fusarium graminearum_ Causing Fusarium Head Blight and Fungicide Resistance Management.](https://pubmed.ncbi.nlm.nih.gov/39599565/)
+
+Jayawardana MA, Fernando WGD.Jayawardana MA, et al.Pathogens. 2024 Nov 18;13(11):1012. doi: 10.3390/pathogens13111012.Pathogens. 2024.PMID: 39599565 Free PMC article.Review. 
+*   [_Fusarium graminearum_ in Wheat-Management Strategies in Central Europe.](https://pubmed.ncbi.nlm.nih.gov/40137750/)
+
+Giedrojć W, Pluskota WE, Wachowska U.Giedrojć W, et al.Pathogens. 2025 Mar 8;14(3):265. doi: 10.3390/pathogens14030265.Pathogens. 2025.PMID: 40137750 Free PMC article.Review.

@@ -1,10 +1,46 @@
 # 知识库
 
-- 最近沉淀条目数：26
+- 最近沉淀条目数：38
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Pharmacological advances in](#/202607/20/202607/20/42474134-pharmacological-advances-in)
+  - TLDR：耳念珠菌因其高传染性和广泛耐药性成为全球挑战。本文综述了药理学新进展，涵盖增强CYP51结合的新药、老药新用及宿主防御肽等策略。重点介绍了AI辅助发现、纳米递送和多组学分析在加速靶点识别与优化代谢中的应用，展示了从单一用药向机制驱动联合治疗的转变，为解决临床耐药负担提供了新路径。
+  - Tags：`query:pathoai`
+- [Masking recurrent contaminants in reference sequences improves specificity of clinical metagenomic sequencing.](#/202607/20/202607/20/42474352-masking-recurrent-contaminants-in-reference-sequences-improves-specificity-of-clinical-metagenomic-sequencing)
+  - TLDR：临床宏基因组测序（mNGS）常因病毒参考数据库中混入的人类宿主、试剂污染或接头序列导致假阳性误诊。为此，研究者开发了 VirMask 策略，通过模拟人类读段比对、跨数据集高频污染识别及同源序列屏蔽，系统性地清理参考库。实验显示，该方法在保持 100% 检出灵敏度的同时，将人类病毒误报减少了 30%，非人类病毒误报降低 99% 以上，显著提升了临床病毒检测的特异性和诊断可信度。
+  - Tags：`query:pathoai`
+- [scTIDE: Deciphering Critical Transitions Through Cell-Perturbed Manifold Graphs and Optimal Transport Conditional Flow Matching.](#/202607/20/202607/20/42474679-sctide-deciphering-critical-transitions-through-cell-perturbed-manifold-graphs-and-optimal-transport-conditional-flow-matching)
+  - TLDR：针对单细胞数据中生物系统状态转换（临界点）难以捕捉的问题，scTIDE 框架结合了流形图表示与最优传输条件流匹配（OT-CFM）技术。该方法通过对比参考流形与细胞扰动流形之间的分布差异，在单细胞层面精准识别系统从稳定态向剧变态转换的关键阶段及信号分子。实验证明其在合成及8个真实数据集上优于现有方法，为疾病预警和生物过程干预提供了稳健的计算工具。
+  - Tags：`query:bioinfo`
+- [Proteomic analysis reveals modulation of key proteins in follicular thyroid cancer progression.](#/202607/20/202607/20/40394764-proteomic-analysis-reveals-modulation-of-key-proteins-in-follicular-thyroid-cancer-progression)
+  - TLDR：针对滤泡状甲状腺癌（FTC）与良性腺瘤（FTA）在细胞形态上极难区分的临床难题，本研究通过对1085份临床样本进行大规模蛋白质组学分析，并结合机器学习算法筛选出30个关键蛋白。研究进一步证实了IGF2R、MVP、HDAC1和H1-5四种蛋白在促进癌细胞增殖中的核心作用，为FTC的精准诊断和靶向治疗提供了重要的分子依据。
+  - Tags：`query:seqai`
+- ["Midas Touch": Revealing the Collaborative Mechanism of Nanoconfined Aggregation-Induced Luminescence and Antibody Recognition for AI-Assisted Pathogen Immunochromatographic Detection.](#/202607/20/202607/20/42473966-midas-touch-revealing-the-collaborative-mechanism-of-nanoconfined-aggregation-induced-luminescence-and-antibody-recognition-for-ai-assisted-pathogen-immunochromatographic-detection)
+  - TLDR：针对食源性致病菌检测灵敏度不足的问题，该研究提出“点石成金”策略，将聚集诱导发光分子TEE嵌入金属有机框架NH2-UIO-66中构建NUT纳米探针。通过纳米限域效应增强荧光性能，并利用高亲和力抗体识别实现免疫层析检测。结果显示，该方法对鼠伤寒沙门氏菌的检测限比传统金纳米颗粒法降低了23倍，结合卷积神经网络实现了100%准确的自动化分类，为现场快速检测提供了新方案。
+  - Tags：`query:pathoai`
+- [Adenosine Triphosphate-Coated Gold Nanoclusters as Evolutionary Adjuvants Suppress](#/202607/20/202607/20/42378101-adenosine-triphosphate-coated-gold-nanoclusters-as-evolutionary-adjuvants-suppress)
+  - TLDR：针对囊性纤维化肺部感染中细菌因 fusA 基因突变产生的高水平抗药性问题，研究者开发了 ATP 包覆的金纳米簇（AuNC@ATP）作为进化佐剂。该材料在血清环境下仍能保持活性，通过干扰细菌代谢状态，有效抑制了 fusA 基因的适应性突变及碱基颠换事件。这种方法不仅增强了妥布霉素的即时疗效，还通过限制细菌的进化路径，延缓了耐药性的产生，为慢性感染治疗提供了新策略。
+  - Tags：`query:pathoai`
+- [Genomic characterization and therapeutic potential of five broad-spectrum lytic bacteriophages against multidrug-resistant avian pathogenic](#/202607/20/202607/20/42473042-genomic-characterization-and-therapeutic-potential-of-five-broad-spectrum-lytic-bacteriophages-against-multidrug-resistant-avian-pathogenic)
+  - TLDR：针对家禽养殖中多重耐药性大肠杆菌（MDR-APEC）导致的严重经济损失和公共卫生风险，本研究从印度多地分离并鉴定了五种新型烈性噬菌体。通过全基因组测序确认其不含耐药或毒力基因，并在大蜡螟感染模型中验证了其治疗潜力，成功将受感染幼虫存活率提升至60%-80%，为替代抗生素、缓解耐药性传播提供了安全有效的生物制剂储备。
+  - Tags：`query:pathoai`
+- [Structural and Mechanistic Insights into FgGWT1 as the Target of Aminopyrifen in](#/202607/20/202607/20/42473880-structural-and-mechanistic-insights-into-fggwt1-as-the-target-of-aminopyrifen-in)
+  - TLDR：针对由禾谷镰刀菌引起的小麦赤霉病，本研究通过分子动力学模拟和定点突变，揭示了杀菌剂氨吡芬与其靶标蛋白FgGWT1的相互作用机制。研究发现FgGWT1不仅是病原菌生长和致病的关键，还负向调节呕吐毒素的合成。通过识别关键结合位点并进行田间验证，为开发针对GPI锚定途径的新型杀菌剂提供了结构基础和理论指导。
+  - Tags：`query:pathoai`
+- [Unraveling the diversity and functional potential of cyanosphere microbiomes assembled from terrestrial cyanobacteria.](#/202607/20/202607/20/42474201-unraveling-the-diversity-and-functional-potential-of-cyanosphere-microbiomes-assembled-from-terrestrial-cyanobacteria)
+  - TLDR：陆地蓝藻的胞外多糖鞘内寄宿着复杂的微生物群落（蓝藻球），但其多样性与功能尚不明确。本研究通过对56种陆地蓝藻培养物进行宏基因组测序，重建了415个宏基因组组装基因组（MAGs）。研究发现，蓝藻球群落受降水和温度等环境因素显著影响，并识别出核心菌属；功能分析揭示了蓝藻球在氮循环（如异化硝酸盐还原）和多糖降解中的关键作用。该成果强调了在生态修复中应将蓝藻及其共生菌群视为一个整体。
+  - Tags：`query:seqai`
+- [Beyond Dominant Symbionts: Low-Abundance Taxa Govern Microbial Network Topology in Sympatric Ticks.](#/202607/20/202607/20/42474711-beyond-dominant-symbionts-low-abundance-taxa-govern-microbial-network-topology-in-sympatric-ticks)
+  - TLDR：蜱虫作为重要的病原体媒介，其体内微生物群落对宿主适应性至关重要。本研究通过对西班牙 6 种同域蜱虫进行 16S rRNA 测序和共发生网络分析，发现虽然群落由少数优势共生菌（如 Coxiella）主导，但这些优势菌在网络中处于边缘地位。相反，一些低丰度的“稀有”类群（如 Roseomonas、Methylobacterium）才是维持微生物网络拓扑结构和稳定性的核心枢纽。这一发现揭示了丰度与生态连接度之间的功能脱钩，强调了稀有微生物在驱动群落组织中的关键作用。
+  - Tags：`query:seqai`
+- [Antibacterial drug discovery: challenges and preclinical promises from synthetic small molecules.](#/202607/20/202607/20/42347834-antibacterial-drug-discovery-challenges-and-preclinical-promises-from-synthetic-small-molecules)
+  - TLDR：针对多重耐药菌威胁，抗菌药物研发面临渗透性差、外排严重及经济动力不足等挑战。本文系统梳理了处于临床前阶段、具有体内活性的合成小分子药物，重点探讨了药物化学在克服细菌屏障和靶点选择上的最新进展。该综述为填补临床管线空白、应对抗生素耐药性危机提供了关键的技术洞察和研发方向。
+  - Tags：`query:pathoai`
+- [RNA selectively modulates activity of virulent amyloid PSMα3 and host-defense LL-37 via phase separation and aggregation dynamics.](#/202607/20/202607/20/42474037-rna-selectively-modulates-activity-of-virulent-amyloid-psm3-and-host-defense-ll-37-via-phase-separation-and-aggregation-dynamics)
+  - TLDR：针对宿主与病原体相互作用中淀粉样肽组装机制不明的问题，本研究探讨了RNA如何调节金黄色葡萄球菌毒力因子PSMα3和人体防御肽LL-37的活性。通过实验发现，RNA能诱导PSMα3发生相分离并形成纤维，维持其毒性；同时能降低LL-37对宿主细胞的毒性并保留抗菌力。这一发现揭示了RNA作为环境调节因子，通过改变肽的超分子结构和动态过程来精准调控生物活性，为理解感染机制和开发新型抗菌策略提供了新视角。
+  - Tags：`query:pathoai`
 - [Artificial Intelligence and Protein Design: A retrospective study on 20-year emerging trends and core research areas from bibliometric perspectives.](#/202607/19/202607/19/42470596-artificial-intelligence-and-protein-design-a-retrospective-study-on-20-year-emerging-trends-and-core-research-areas-from-bibliometric-perspectives)
   - TLDR：蛋白质设计在生物医药领域至关重要，但AI如何重塑该领域尚需系统梳理。本文通过对2006-2025年间的文献进行计量学分析，揭示了2018年后由AlphaFold2等模型引发的研究爆发，识别出结构预测、定向进化和从头设计三大核心集群。研究指出，结合计算设计与实验验证的模式最具影响力，为未来解决模型泛化性及动态构象预测等挑战提供了方向。
   - Tags：`query:bioinfo`

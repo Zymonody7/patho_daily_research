@@ -1,0 +1,22 @@
+---
+title: Unraveling the diversity and functional potential of cyanosphere microbiomes assembled from terrestrial cyanobacteria.
+title_zh: 揭示陆生蓝藻组装的蓝藻球微生物组的多样性与功能潜力
+authors: "Brianne Palmer, Estelle M Couradeau, Jeffrey R Johansen, Tania Kurbessoian, Jose Ortega Carranza, Jason E Stajich, Ryan Ward, Nicole Pietrasiak"
+date: 2026-07-20
+pdf: "https://pubmed.ncbi.nlm.nih.gov/42474201/"
+tags: ["query:seqai"]
+score: 7.0
+evidence: 使用宏基因组测序从微生物培养物中重建宏基因组组装基因组 (MAGs)
+tldr: 陆地蓝藻的胞外多糖鞘内寄宿着复杂的微生物群落（蓝藻球），但其多样性与功能尚不明确。本研究通过对56种陆地蓝藻培养物进行宏基因组测序，重建了415个宏基因组组装基因组（MAGs）。研究发现，蓝藻球群落受降水和温度等环境因素显著影响，并识别出核心菌属；功能分析揭示了蓝藻球在氮循环（如异化硝酸盐还原）和多糖降解中的关键作用。该成果强调了在生态修复中应将蓝藻及其共生菌群视为一个整体。
+selection_source: fresh_fetch
+motivation: 旨在揭示陆地蓝藻胞外多糖鞘内共生微生物群落（蓝藻球）的多样性及其在贫瘠环境中的生态功能。
+method: 利用宏基因组测序技术，从代表12个目的56种陆地蓝藻样本中重建并分析了415个微生物基因组。
+result: 发现环境因素显著塑造了菌群结构，识别出核心菌属，并证实蓝藻球通过异化硝酸盐还原途径协助宿主保留氮素。
+conclusion: 蓝藻及其共生菌群构成的功能整体在生态评估与干旱区修复中具有不可忽视的价值。
+---
+
+## 摘要
+蓝藻球（cyanosphere）由生活在蓝藻胞外多糖鞘内的非蓝藻微生物组成，它们与蓝藻宿主及其周围环境相互作用。了解蓝藻与其蓝藻球之间的相互作用有助于预测陆生蓝藻在贫瘠环境中提供生态系统服务的能力。然而，关于蓝藻球内微生物多样性和功能的知识仍然有限。本研究利用宏基因组测序，从与56种陆生蓝藻培养物（代表12个蓝藻目）相关的蓝藻球微生物中重建了415个宏基因组组装基因组（MAGs）。研究结果表明，蓝藻球微生物群落的组成受宿主来源地的降水和温度等环境因素的显著影响。短波单胞菌属（Brevundimonas）、德沃斯氏菌属（Devosia）和鞘氨醇单胞菌属（Sphingopyxis）这三个微生物属出现在超过30%的蓝藻球中，表明存在核心蓝藻球微生物组。功能基因分析显示蓝藻与其相关的蓝藻球之间存在差异，异化硝酸盐还原是蓝藻球中的主导途径，这是一种与反硝化作用不同的厌氧过程，能将氮保留在宿主-蓝藻球系统中。虽然固氮作用在蓝藻中更为常见，但15个蓝藻球也含有固氮基因，甚至包括那些本身具备固氮能力的宿主。蓝藻球还含有多糖裂解酶基因，表明其可能与蓝藻产生的胞外多糖有关。鉴于不同蓝藻宿主间微生物群落组成和功能的变异性，未来涉及蓝藻的生态评估和修复工作不仅应关注蓝藻本身，还应考虑其相关的微生物群落。重要性：本研究识别了一个长期被研究不足且价值被低估的微生物群落——蓝藻球。我们利用多种陆生蓝藻，通过宏基因组学手段了解蓝藻球的组成和预测功能如何受宿主蓝藻及环境因素的影响。这是一种研究蓝藻球的新颖方法，为陆生微生物群落的多样性提供了见解。重要的是，我们的结果强调了在评估蓝藻在陆地修复中的生态潜力时，需要考虑微生物共生体。
+
+## Abstract
+The cyanosphere is composed of non-cyanobacterial microorganisms living within the exopolysaccharide sheath of cyanobacteria, interacting with the cyanobacterial hosts and their surrounding environment. Understanding the interactions between cyanobacteria and their cyanospheres can help predict the success of terrestrial cyanobacteria in providing ecosystem services in nutrient-poor environments. However, knowledge of the microbial diversity and functions within the cyanosphere remains limited. Here, we used metagenomic sequencing to reconstruct 415 metagenome-assembled genomes (MAGs) from cyanosphere-associated microbes linked to 56 terrestrial cyanobacteria cultures, representing 12 cyanobacterial orders. Our findings showed that the composition of cyanosphere microbial communities was significantly shaped by environmental factors such as habitat of host origin, including precipitation and temperature. Three microbial genera, Brevundimonas, Devosia, and Sphingopyxis, were present in over 30% of the cyanospheres, suggesting a core cyanosphere microbiome. Functional gene analysis showed a distinction between the cyanobacteria and their associated cyanospheres, with dissimilatory nitrate reduction being the dominant pathway in the cyanosphere, an anaerobic process that retains nitrogen in the host-cyanosphere system in contrast to denitrification. While nitrogen fixation was more common in the cyanobacteria, 15 cyanospheres also contained nitrogen fixation genes, including in hosts that were nitrogen fixation capable themselves. The cyanosphere also contained genes for polysaccharide lyases, indicating a possible link to the exopolysaccharides produced by the cyanobacteria. Given the observed variability in microbial community composition and function across different cyanobacterial hosts, future ecological assessments and restoration efforts involving cyanobacteria should not only focus on the cyanobacteria themselves but also consider their associated microbial communities.IMPORTANCEOur study identifies members of an understudied and under-valued microbial community, the cyanosphere. We used a diversity of terrestrial cyanobacteria to understand how the cyanosphere composition and predicted functions were influenced by the host cyanobacterium and environmental factors using metagenomics. This is a novel approach to studying the cyanosphere, providing insights into the diversity of terrestrial microbial communities. Importantly, our results underscore the need to consider microbial consortia when assessing the ecological potential of cyanobacteria in terrestrial restoration.

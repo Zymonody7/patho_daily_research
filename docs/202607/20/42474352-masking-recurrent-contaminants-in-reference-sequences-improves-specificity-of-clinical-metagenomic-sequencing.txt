@@ -1,0 +1,35 @@
+Title: Masking recurrent contaminants in reference sequences improves specificity of clinical metagenomic sequencing - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42474352/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 20:e0039726.
+
+doi: 10.1128/jcm.00397-26.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42474352**
+*    DOI: [10.1128/jcm.00397-26](https://doi.org/10.1128/jcm.00397-26)
+
+## Masking recurrent contaminants in reference sequences improves specificity of clinical metagenomic sequencing
+
+Judith Bergada-Pijuan et al. J Clin Microbiol.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+Viral metagenomic next-generation sequencing (mNGS) is a powerful approach for pathogen detection in clinical diagnostics; however, accurate virus identification depends critically on the quality of reference databases. Diagnostic specificity is frequently compromised by erroneous viral classifications, which occur when host- or reagent-derived sequences align to non-viral contaminant regions (such as ribosomal RNA, vector contamination like cytomegalovirus enhancers, and sequencing adapters) embedded within the viral reference sequences. To address this, we present VirMask, a novel computational strategy to systematically identify and mask recurrent contaminant regions within the viral reference sequences. In a first step, VirMask aligns simulated human reads against a viral database and masks host-derived regions. Second, it identifies and masks persistent contaminant regions based on their high prevalence across independent metagenomic data sets. Finally, VirMask employs alignment-based similarity searches to detect and mask homologous regions across multiple reference sequences, thereby reducing noise in mNGS outputs and improving diagnostic specificity. Using data from clinical mNGS runs, we demonstrate that VirMask usefully reduces artefactual detections without impacting true pathogen identification. Specifically, reads erroneously assigned to human viruses decreased by up to 30%, and those assigned to non-human viruses and bacteriophages by more than 99%. Furthermore, validation with a standardized international quality control panel confirmed 100% preservation of true-positive detections, while reducing false-positive human virus calls by up to 89% and overall erroneous assignments by 40%-94%. These results underscore the necessity of rigorous viral database curation and offer a reproducible framework for enhancing diagnostic confidence in mNGS-based clinical virology.IMPORTANCEThe importance of this study lies in addressing a critical bottleneck in clinical metagenomic next-generation sequencing (mNGS): the presence of systematic false-positive viral detections caused by contaminant regions within reference databases. While mNGS is a powerful, unbiased tool for pathogen discovery, its diagnostic reliability is often compromised by "kitome-derived" sequences that align to non-viral segments embedded in viral reference genomes. By introducing VirMask, this research provides a reproducible framework to systematically identify and mask these recurrent artifacts without sacrificing the sensitivity required to detect true pathogens. This targeted refinement of viral databases significantly reduces "noise" in diagnostic outputs, ensuring that clinicians can interpret metagenomic data with higher confidence and avoid misidentifying persistent laboratory contaminants as clinically significant infections.
+
+**Keywords:** bioinformatics pipeline; clinical metagenomics; database contamination; database curation; masking; metagenomic sequencing; virus diagnostics.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)

@@ -1,0 +1,41 @@
+Title: Beyond Dominant Symbionts: Low-Abundance Taxa Govern Microbial Network Topology in Sympatric Ticks - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42474711/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 20.
+
+doi: 10.1007/s00248-026-02842-y.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42474711**
+*    DOI: [10.1007/s00248-026-02842-y](https://doi.org/10.1007/s00248-026-02842-y)
+
+## Beyond Dominant Symbionts: Low-Abundance Taxa Govern Microbial Network Topology in Sympatric Ticks
+
+Francisco J Márquez et al. Microb Ecol.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+Ticks are obligate hematophagous arthropods and major vectors of diverse bacterial, parasitic, and viral pathogens. They host complex microbial communities that critically influence their biology, fitness, and interactions with pathogens. Using 16 S rRNA gene amplicon sequencing at the amplicon sequence variant (ASV) resolution combined with co-occurrence network analysis, we characterized the bacterial communities of questing adult ticks collected in the Cazorla, Segura y Las Villas Natural Park (Jaén, Spain). A total of 83 adult ticks (27 males and 56 females) representing six sympatric species, Dermacentor marginatus (n = 39), Haemaphysalis punctata (n = 9), H. sulcata (n = 15), Hyalomma lusitanicum (n = 7), Ixodes ricinus s. l. (n = 2), and Rhipicephalus bursa (n = 11), were analyzed. After stringent quality filtering, 3.77 million high-quality reads were recovered and resolved into 407 ASVs. Due to the inherent resolution limits of the V3-V4 region for species-level discrimination, taxonomic assignments were conservatively consolidated at the genus level (101 bacterial genera). Across all tick species, the bacteriome was heavily dominated by Pseudomonadota (98.6%), with species-specific differences primarily driven by variation in obligate symbionts. Coxiella-associated ASVs predominated in multiple tick species, whereas H. lusitanicum exhibited strong dominance by Francisella and secondary representation of Candidatus Midichloria. Alpha and beta diversity analyses revealed distinct compositional patterns shaped by host identity, with lower dispersion observed in D. marginatus and R. bursa, and greater variability among Hyalomma and Haemaphysalis individuals. Spearman-based co-occurrence network analysis indicated a highly cooperative and modular structure (> 98% positive correlations) across tick species. Notably, dominant endosymbionts (Coxiella, Rickettsia, and Francisella) occupied peripheral or weakly connected positions within the networks. In contrast, ecological connectivity was governed by a distinct set of low-abundance taxa, including Roseomonas, Friedmanniella, Methylobacterium, Sphingomonas, Aureimonas, Conexibacter, Marmoricola, Mycobacterium, and Nocardioides, which acted as central hubs bridging network modules, a topology robustly validated by an independent, composition-aware (SparCC) reanalysis within the D. marginatus cohort. These comparative findings demonstrate a functional decoupling between abundance and connectivity in tick microbiomes, highlighting how the "rare microbiome" can drive the topological organization and potential stability of microbial communities across sympatric host species.
+
+**Keywords:** 16S rRNA gene sequencing; Andalusia; Ecological networks; Ixodidae; Microbiome; Rare microbiome; Ticks.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Ethics Approval and Consent to Participate: This study complies with the Spanish and the Andalusian laws regarding bioethics and animal welfare. The procedures included in this work were approved by the Ethics Committee on Animal Experimentation of the Universidad de Jaén, and by the Dirección General de Producción Agrícola y Ganadera (Junta de Andalucía) (ref. 21/03/2022/048). Competing interests: The authors declare no competing interests.
