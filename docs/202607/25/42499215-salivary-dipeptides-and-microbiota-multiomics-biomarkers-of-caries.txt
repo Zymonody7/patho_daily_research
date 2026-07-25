@@ -1,0 +1,47 @@
+Title: Salivary Dipeptides and Microbiota Multiomics Biomarkers of Caries - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42499215/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 24:220345261466143.
+
+doi: 10.1177/00220345261466143.  Online ahead of print.
+
+[A Esberg](https://pubmed.ncbi.nlm.nih.gov/?term=Esberg+A&cauthor_id=42499215)[1](https://pubmed.ncbi.nlm.nih.gov/42499215/#full-view-affiliation-1 "Department of Odontology, University of Umeå, Umeå, Sweden."),[L Eriksson](https://pubmed.ncbi.nlm.nih.gov/?term=Eriksson+L&cauthor_id=42499215)[1](https://pubmed.ncbi.nlm.nih.gov/42499215/#full-view-affiliation-1 "Department of Odontology, University of Umeå, Umeå, Sweden."),[H Ahmed](https://pubmed.ncbi.nlm.nih.gov/?term=Ahmed+H&cauthor_id=42499215)[3](https://pubmed.ncbi.nlm.nih.gov/42499215/#full-view-affiliation-3 "Department of Life Technologies, Food Sciences Unit, University of Turku, Turku, Finland."),[C I Mack](https://pubmed.ncbi.nlm.nih.gov/?term=Mack+CI&cauthor_id=42499215)[4](https://pubmed.ncbi.nlm.nih.gov/42499215/#full-view-affiliation-4 "Max Rubner-Institute, Department of Safety and Quality of Fruit and Vegetables, Karlsruhe, Germany."),[S Noerman](https://pubmed.ncbi.nlm.nih.gov/?term=Noerman+S&cauthor_id=42499215)[5](https://pubmed.ncbi.nlm.nih.gov/42499215/#full-view-affiliation-5 "Clinical Nutrition Research Centre (CNRC), Singapore Institute of Food and Biotechnology Innovation (SIFBI), Agency for Science, Technology and Research (A*STAR), Singapore.")[6](https://pubmed.ncbi.nlm.nih.gov/42499215/#full-view-affiliation-6 "Department of Life Sciences, Division of Food and Nutrition Science, Chalmers University of Technology, Gothenburg, Sweden."),[E Nordin](https://pubmed.ncbi.nlm.nih.gov/?term=Nordin+E&cauthor_id=42499215)[6](https://pubmed.ncbi.nlm.nih.gov/42499215/#full-view-affiliation-6 "Department of Life Sciences, Division of Food and Nutrition Science, Chalmers University of Technology, Gothenburg, Sweden."),[B Egert](https://pubmed.ncbi.nlm.nih.gov/?term=Egert+B&cauthor_id=42499215)[4](https://pubmed.ncbi.nlm.nih.gov/42499215/#full-view-affiliation-4 "Max Rubner-Institute, Department of Safety and Quality of Fruit and Vegetables, Karlsruhe, Germany."),[K Hanhineva](https://pubmed.ncbi.nlm.nih.gov/?term=Hanhineva+K&cauthor_id=42499215)[3](https://pubmed.ncbi.nlm.nih.gov/42499215/#full-view-affiliation-3 "Department of Life Technologies, Food Sciences Unit, University of Turku, Turku, Finland."),[R Landberg](https://pubmed.ncbi.nlm.nih.gov/?term=Landberg+R&cauthor_id=42499215)[6](https://pubmed.ncbi.nlm.nih.gov/42499215/#full-view-affiliation-6 "Department of Life Sciences, Division of Food and Nutrition Science, Chalmers University of Technology, Gothenburg, Sweden."),[C Brunius](https://pubmed.ncbi.nlm.nih.gov/?term=Brunius+C&cauthor_id=42499215)[5](https://pubmed.ncbi.nlm.nih.gov/42499215/#full-view-affiliation-5 "Clinical Nutrition Research Centre (CNRC), Singapore Institute of Food and Biotechnology Innovation (SIFBI), Agency for Science, Technology and Research (A*STAR), Singapore."),[I Johansson](https://pubmed.ncbi.nlm.nih.gov/?term=Johansson+I&cauthor_id=42499215)[1](https://pubmed.ncbi.nlm.nih.gov/42499215/#full-view-affiliation-1 "Department of Odontology, University of Umeå, Umeå, Sweden.")
+
+Affiliations
+
+*    PMID: **42499215**
+*    DOI: [10.1177/00220345261466143](https://doi.org/10.1177/00220345261466143)
+
+## Salivary Dipeptides and Microbiota Multiomics Biomarkers of Caries
+
+S Haworth et al. J Dent Res.2026.
+
+## Abstract
+
+Dental caries is a prevalent disease shaped by dietary and metabolic interactions between the host and oral microbiota. While separate microbiome and metabolome profiling have improved the understanding of caries etiology, integrated multiomics approaches remain underutilized. We aimed to identify salivary biomarkers of caries experience in a cross-sectional study combining microbiome, metabolome, sugarome, and diet, oral, and demographic information in 217 healthy Swedish adolescents and young adults. Participants underwent clinical examination, dietary assessment, and saliva analysis using full-length 16S rRNA gene sequencing, untargeted liquid chromatography-mass spectrometry (LC-MS) metabolomics, and 2-dimensional gas chromatography-MS (GC×GC-MS)-based sugar profiling. Caries signs and restorations were summarized as decayed and filled surfaces including enamel caries. Associations between caries experience, demographics, and omics measures were evaluated using a nested cross-validated linear-regression framework with inner-loop feature selection and outer-loop performance assessment, emphasizing effect-direction stability and reproducibility across cross-validation models. Selected OMICs features were then integrated using orthogonal partial least-squares (OPLS) modeling. Three salivary dipeptides (Ser-Pro, Phe-His, and Thr-Gly) showed robust inverse associations with caries experience. Several cariogenic taxa, including _Streptococcus mutans_, _Streptococcus sobrinus_, _Lactobacillus gasseri_, and selected _Actinomyces_ and _Prevotella_ species, were positively associated with caries experience, whereas _Veillonella rogosae_, _Stomatobaculum_ sp. HMT-097, and other taxa as well as 5 bacteria-predicted enzymes were associated with lower caries experience. Dietary variables and salivary sugars showed no consistent associations with caries experience. An integrated OPLS model incorporating demographics, microbiota composition, microbial-predicted enzymes, and metabolomics explained 41% of the variation in caries (_R_ 2 = 0.41) with a cross-validated predictive ability of 30% (_Q_ 2 = 0.30). This saliva-based multiomics framework revealed coherent microbial and metabolic signatures of caries experience. The Ser-Pro dipeptide showed the strongest inverse association and warrants validation in longitudinal cohorts to establish temporal precedence and clinical utility as a novel caries biomarker.
+
+**Keywords:** dental caries; metabolomics; microbiome; omics; saliva; sugars.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [The influence of diet, saliva, and dental history on the oral microbiome in healthy, caries-free Australian adults.](https://pubmed.ncbi.nlm.nih.gov/40436959/)
+
+Nath S, Zilm P, Jamieson L, Santiago PHR, Ketagoda DHK, Weyrich L.Nath S, et al.Sci Rep. 2025 May 28;15(1):18755. doi: 10.1038/s41598-025-03455-0.Sci Rep. 2025.PMID: 40436959 Free PMC article. 
+*   [Personality Theories.](https://pubmed.ncbi.nlm.nih.gov/42475469/)
+
+Gallios JM, Iyer V, Kaylor LE.Gallios JM, et al.2026 Jun 20. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2026 Jan–.2026 Jun 20. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2026 Jan–.PMID: 42475469 Free Books & Documents. 
+*   [The Microbiome in Populations with a Low and High Prevalence of Caries.](https://pubmed.ncbi.nlm.nih.gov/26442950/)
+
+Johansson I, Witkowska E, Kaveh B, Lif Holgerson P, Tanner AC.Johansson I, et al.J Dent Res. 2016 Jan;95(1):80-6. doi: 10.1177/0022034515609554. Epub 2015 Oct 6.J Dent Res. 2016.PMID: 26442950 Free PMC article. 
+*   [The Caries Microbiome: Implications for Reversing Dysbiosis.](https://pubmed.ncbi.nlm.nih.gov/29355414/)
+
+Tanner ACR, Kressirer CA, Rothmiller S, Johansson I, Chalmers NI.Tanner ACR, et al.Adv Dent Res. 2018 Feb;29(1):78-85. doi: 10.1177/0022034517736496.Adv Dent Res. 2018.PMID: 29355414 Review. 
+*   [Systematic analyses uncover robust salivary microbial signatures and host-microbiome perturbations in oral squamous cell carcinoma.](https://pubmed.ncbi.nlm.nih.gov/39873508/)
+
+Han Z, Hu Y, Lin X, Cheng H, Dong B, Liu X, Wu B, Xu ZZ.Han Z, et al.mSystems. 2025 Feb 18;10(2):e0124724. doi: 10.1128/msystems.01247-24. Epub 2025 Jan 28.mSystems. 2025.PMID: 39873508 Free PMC article.

@@ -1,0 +1,22 @@
+---
+title: "AI-based clinician decision support system for diagnosis of inherited retinal diseases: a multicenter, randomized trial."
+title_zh: 基于人工智能的遗传性视网膜疾病诊断临床决策支持系统：一项多中心、随机试验
+authors: "Huixun Jia, Bo Qian, Yanlin Qu, Jinyuan Wang, Jieqiong Chen, Tong Li, Changle Zheng, Jinu Han, Guanran Zhang, Yixiao Jin, Seungmin Lee, Xiang Chen, Haichao Chen, Jiayu Xu, Ke Xu, Yu Rong, Yi Jiang, Yiliu Yang, Wenjing Li, Qingge Guo, Ya Li, Yang Li, Jihong Wu, Qingjiong Zhang, Fang Lu, Wenjuan Zhuang, Bo Lei, Suk Ho Byeon, Junwon Lee, Adrian Smedowski, Marta Swierczynska, Daoqiang Zhang, Tyler Hyungtaek Rim, Andrzej Grzybowski, Bin Sheng, Tien Yin Wong, Xiaodong Sun"
+date: 2026-07-24
+pdf: "https://pubmed.ncbi.nlm.nih.gov/42498742/"
+tags: ["query:bioinfo"]
+score: 6.0
+evidence: 使用 Vision Transformer 处理多模态数据进行基因型预测
+tldr: "遗传性视网膜疾病（IRD）诊断依赖昂贵的基因检测和专家经验，效率较低。本研究开发了Retina4IRD系统，利用预训练的Vision Transformer模型，结合眼底彩照和OCT影像预测17类基因型。通过多中心验证和随机对照试验，证明该系统能显著提升临床医生对IRD基因诊断的准确率（Top-5从67.3%升至88.5%），并优化了后续诊疗决策，为基因检测前的临床筛查提供了高效辅助工具。"
+selection_source: fresh_fetch
+motivation: 针对遗传性视网膜疾病诊断流程复杂、高度依赖专家经验且基因检测成本高昂的临床痛点。
+method: 基于RETFound预训练的Vision Transformer模型，融合眼底彩照与OCT多模态数据，构建可预测17种基因类别的决策支持系统。
+result: "在随机对照试验中，AI辅助组的Top-5基因诊断准确率达到88.5%，显著优于仅由专家诊断的67.3%，并提升了临床管理决策质量。"
+conclusion: Retina4IRD作为一种非侵入性的临床决策支持工具，能有效辅助医生在基因检测前进行精准诊断，具有显著的临床应用价值。
+---
+
+## 摘要
+遗传性视网膜疾病（IRDs）的准确和及时诊断是眼科领域尚未满足的临床需求，因为目前的诊断路径依赖于资源密集型的表型分析、多学科专业知识和基因检测。在此，我们开发了 Retina4IRD，这是一种基于人工智能（AI）的临床决策支持系统（CDSS），可根据视网膜图像预测 17 种基因型类别。Retina4IRD 使用了经 RETFound 预训练的 Vision Transformer 模型。随后，我们利用来自中国、韩国和波兰的 1,843 名经基因确诊患者（3,376 只眼）的多模态数据（包括彩色眼底照片和光学相干断层扫描图像）对 Retina4IRD 进行了训练和验证。内部验证和外部验证的 Top-5 预测准确率分别为 0.904（95% 置信区间 (CI)：0.896-0.912）和 0.856（95% CI：0.850-0.863）。我们进行了一项随机对照试验，将 300 名疑似 IRD 的参与者按 1:1 的比例随机分配到 Retina4IRD 辅助专家组或仅专家组。其中，295 名具有二代测序报告的参与者（中位年龄 33 岁，114 名 (38.6%) 为女性）被纳入最终分析。主要终点已达成：Retina4IRD 辅助专家组的 Top-5 基因准确率显著高于仅专家组（88.5% 对比 67.3%，P < 0.001）。对于次要终点，Top-1 到 Top-4 的准确率均倾向于 Retina4IRD 辅助专家组，其中 Top-1 准确率分别为 37.8% 对比 22.4%，Top-4 准确率分别为 81.8% 对比 53.1%。事后分析表明，在 Retina4IRD 的辅助下，临床医生做出了更好的管理决策，综合下游管理评分显示其得分显著高于对照组（37.7 对比 28.5，P < 0.001）。我们的研究表明，Retina4IRD 是一种在基因检测之前使用的 CDSS 工具，符合疑似 IRD 患者的临床工作流程。ClinicalTrials.gov 标识符：NCT06839170。
+
+## Abstract
+The accurate and timely diagnosis of inherited retinal diseases (IRDs) represents an unmet clinical need in ophthalmology, as the current pathways rely on resource-intensive phenotyping, multidisciplinary expertise and genetic testing. Here we developed Retina4IRD, an artificial intelligence (AI)-based clinician decision support system (CDSS) that predicts 17 genotype categories from retina images. Retina4IRD uses a Vision Transformer model pretrained with RETFound. We then trained and validated Retina4IRD using multimodal data with color fundus photographs and optical coherence tomography scans from 1,843 genetically confirmed patients (3,376 eyes) across China, South Korea and Poland. The top-5 prediction accuracy was 0.904 (95% confidence interval (CI): 0.896-0.912) and 0.856 (95% CI: 0.850-0.863) for internal and external validation, respectively. We conducted a randomized controlled trial with 300 participants with suspected IRD randomized 1:1 to either Retina4IRD-assisted specialist arm or specialist-only arm. Of these, 295 participants (median age 33 years, 114 (38.6%) females) with available next-generation sequencing reports were included in the final analysis. The primary outcome was met: top-5 genetic accuracy was significantly higher in the Retina4IRD-assisted specialist arm versus the specialist-only arm (88.5% versus 67.3%, P < 0.001). For secondary endpoints, top-1 to top-4 accuracies all favored the Retina4IRD-assisted specialist arm, with top-1 accuracy of 37.8% versus 22.4% and top-4 accuracy of 81.8% versus 53.1%, respectively. Post hoc analyses demonstrated that, with Retina4IRD assistance, clinicians made better management decisions, and the composite downstream management score indicated significantly higher scores relative to the control group (37.7 versus 28.5, P < 0.001). Our study shows that Retina4IRD is a CDSS tool prior to genetic testing and aligns with clinical workflow for patients with suspected IRDs. ClinicalTrials.gov identifier: NCT06839170 .

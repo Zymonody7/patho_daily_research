@@ -1,0 +1,97 @@
+Title: Targeting the virulence factor suilysin: a structure-guided discovery of chebulinic acid as a potent antivirulence agent - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42235356/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 25:157:158357.
+
+doi: 10.1016/j.phymed.2026.158357.  Epub 2026 May 28.
+
+Affiliations
+
+*    PMID: **42235356**
+*    DOI: [10.1016/j.phymed.2026.158357](https://doi.org/10.1016/j.phymed.2026.158357)
+
+## Targeting the virulence factor suilysin: a structure-guided discovery of chebulinic acid as a potent antivirulence agent
+
+Chenchen Wang et al. Phytomedicine.2026.
+
+## Abstract
+
+**Background:** The rapid rise of bacterial resistance has compromised conventional antibiotic efficacy, emphasizing the need for antivirulence-based anti-infective strategies.
+
+**Purpose:** Targeting the pore-forming toxin suilysin (SLY), this study aimed to establish a surface plasmon resonance (SPR) screening platform to identify candidates that bind to SLY and to evaluate their antivirulence potential.
+
+**Study design and methods:** A total of 159 plant-derived natural compounds were screened to identify SLY-binding candidates. Functional effects were assessed by hemolysis inhibition, biofilm disruption, and bacterial viability assays. The interaction between chebulinic acid (CA) and SLY was further characterized using molecular docking, molecular dynamics, SPR, and isothermal titration calorimetry (ITC) to determine binding properties, and its impact on ATP synthesis, proton gradient, and genes transcription was analyzed. The enhancement of CA with amoxicillin (AMX) was evaluated in a mouse severe infection model, and safety was assessed by cytotoxicity and hemolysis tests.
+
+**Results:** As the candidate compound with the strongest anti-hemolysis activity, CA bound SLY with high affinity and markedly suppressed SLY-mediated hemolysis at 0.25 μg/ml, while its minimal inhibitory concentration (MIC) against S. suis was 1024 μg/ml. CA disrupted preformed biofilms, neutralized hemolytic activity in bacterial supernatants, and damaged embedded bacteria. Mechanistically, CA stabilized SLY via multiple hydrogen bonds, restricted its conformational flexibility, impaired ATP synthesis, and downregulated sly, IL-6, TNF-α, and iNOS expression. In vivo, CA combined with AMX markedly improved survival (from 0 to 90%), reduced bacterial burden and tissue lesions, and suppressed systemic inflammation without observable toxicity.
+
+**Conclusion:** These findings reveal the multifaceted antivirulence mechanism of CA and its enhancement therapeutic potential, offering a promising foundation for developing safe and effective "antivirulence + antibiotic" strategies against multidrug-resistant infections.
+
+**Keywords:** Anti-infective; Antivirulence; Chebulinic acid; S. suis; SPR.
+
+Copyright © 2026 Elsevier GmbH. All rights reserved.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declaration of competing interest No conflicts of interest in this study.
+
+## Similar articles
+
+*   [Amentoflavone Ameliorates Streptococcus suis-Induced Infection _In Vitro_ and _In Vivo_.](https://pubmed.ncbi.nlm.nih.gov/30315078/)
+
+Shen X, Niu X, Li G, Deng X, Wang J.Shen X, et al.Appl Environ Microbiol. 2018 Nov 30;84(24):e01804-18. doi: 10.1128/AEM.01804-18. Print 2018 Dec 15.Appl Environ Microbiol. 2018.PMID: 30315078 Free PMC article. 
+*   [Effective Antibacterial and Antihemolysin Activities of Ellipticine Hydrochloride against Streptococcus suis in a Mouse Model.](https://pubmed.ncbi.nlm.nih.gov/33674433/)
+
+Wang C, Lu H, Liu M, Wang G, Li X, Lu W, Dong W, Wang X, Chen H, Tan C.Wang C, et al.Appl Environ Microbiol. 2021 Apr 27;87(10):e03165-20. doi: 10.1128/AEM.03165-20. Print 2021 Apr 27.Appl Environ Microbiol. 2021.PMID: 33674433 Free PMC article. 
+*   [Silibinin attenuates Streptococcus suis serotype 2 virulence by targeting suilysin.](https://pubmed.ncbi.nlm.nih.gov/30408277/)
+
+Shen X, Liu H, Li G, Deng X, Wang J.Shen X, et al.J Appl Microbiol. 2019 Feb;126(2):435-442. doi: 10.1111/jam.14149. Epub 2018 Nov 29.J Appl Microbiol. 2019.PMID: 30408277 
+*   [Antimicrobial and antivirulence function of cinnamaldehyde against _Streptococcus suis_ type 2.](https://pubmed.ncbi.nlm.nih.gov/39945529/)
+
+Zhu L, He Z, Li M, Xu J, Ding W, Zeng W, Jiang X.Zhu L, et al.Microbiol Spectr. 2025 Apr;13(4):e0256124. doi: 10.1128/spectrum.02561-24. Epub 2025 Feb 13.Microbiol Spectr. 2025.PMID: 39945529 Free PMC article. 
+*   [Biological activities of suilysin: role in Streptococcus suis pathogenesis.](https://pubmed.ncbi.nlm.nih.gov/27357518/)
+
+Tenenbaum T, Asmat TM, Seitz M, Schroten H, Schwerk C.Tenenbaum T, et al.Future Microbiol. 2016 Jul;11:941-54. doi: 10.2217/fmb-2016-0028. Epub 2016 Jun 30.Future Microbiol. 2016.PMID: 27357518 Review. 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S0944-7113(26)00589-1)
+
+*   ### Medical
+
+    *   [MedlinePlus Health Information](https://medlineplus.gov/antibiotics.html)

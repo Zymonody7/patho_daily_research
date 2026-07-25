@@ -1,10 +1,46 @@
 # 知识库
 
-- 最近沉淀条目数：38
+- 最近沉淀条目数：50
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Artificial intelligence-assisted mining of polyethylene terephthalate hydrolases.](#/202607/25/202607/25/41937001-artificial-intelligence-assisted-mining-of-polyethylene-terephthalate-hydrolases)
+  - TLDR：针对全球 PET 塑料污染，PET 水解酶提供了可持续的生物降解方案，但传统挖掘方法效率低且周期长。本文综述了 AI 如何赋能 PET 水解酶的研发，通过从海量数据库中进行高通量筛选、精准预测酶的结构与功能，以及辅助分子工程改造和从头设计，显著提升了高性能酶的发现效率，为塑料生物降解研究提供了系统性的技术框架。
+  - Tags：`query:bioinfo`
+- [Global genomic surveillance of β-lactam resistance in Escherichia coli across human, animal, and environmental reservoirs.](#/202607/25/202607/25/42498094-global-genomic-surveillance-of--lactam-resistance-in-escherichia-coli-across-human-animal-and-environmental-reservoirs)
+  - TLDR：针对大肠杆菌 β-内酰胺类抗生素耐药性全球蔓延的威胁，本研究通过分析 2000-2025 年间来自人类、动物和环境的 30,554 个全基因组数据，揭示了 blaCTX-M-15 等关键耐药基因在 ST131 等高危克隆中的传播趋势。研究利用梯度提升机器学习算法实现了对碳青霉烯类药物最小抑菌浓度（MIC）的高精度预测，为构建全球“全健康”耐药性监测与管理体系提供了数据支撑和技术路径。
+  - Tags：`query:pathoai`
+- [Knowledge-driven interpretable neural networks for mechanistic insight.](#/202607/25/202607/25/42498492-knowledge-driven-interpretable-neural-networks-for-mechanistic-insight)
+  - TLDR：现有的组学数据通路分析方法往往忽略了生物分子间复杂的机械性相互作用，导致对病理机制的理解停留在浅层。为此，研究者开发了一种知识驱动的可解释神经网络框架，通过将组学特征嵌入生物通路图并对生化反应进行解析建模，实现了对功能关联和子网络的深度挖掘。该方法不依赖特征筛选，能保留微弱信号，在乳腺癌和新冠肺炎数据分析中成功识别出关键的免疫与代谢通路，为整合组学分析提供了兼具预测力与机械解释性的新工具。
+  - Tags：`query:bioinfo`
+- [PathMED: An R toolkit for single-sample molecular scoring and machine learning with omics data.](#/202607/25/202607/25/42496598-pathmed-an-r-toolkit-for-single-sample-molecular-scoring-and-machine-learning-with-omics-data)
+  - TLDR：针对组学数据分析中分子评分方法分散且缺乏机器学习集成的问题，PathMED 提供了一个统一的 R 语言工具包。它整合了多种单样本评分算法，并配套了完整的机器学习模块，支持从转录组到蛋白质组的跨组学模型迁移。实验证明，该工具能有效预测乳腺癌治疗反应并解析疾病异质性，显著提升了组学研究的可解释性与模型泛化能力。
+  - Tags：`query:bioinfo`
+- [An experimentally validated structure-based computational framework for humanisation of anti-orthopoxvirus antibodies.](#/202607/25/202607/25/42497650-an-experimentally-validated-structure-based-computational-framework-for-humanisation-of-anti-orthopoxvirus-antibodies)
+  - TLDR：针对正痘病毒（如猴痘）重现带来的公共卫生威胁，传统基于序列的人源化方法易导致抗体活性下降。本研究开发了一种以3D结构一致性为核心的计算人源化框架，利用Foldseek结构比对和界面残基约束，成功将两种鼠源抗体改造为POX1.1和POX2.1。实验证明，这些抗体在保持高结构相似性的同时，联合用药使感染病毒的小鼠生存率达100%，为抗病毒药物研发提供了高效的结构导向新方案。
+  - Tags：`query:pathoai`
+- [Targeting the virulence factor suilysin: a structure-guided discovery of chebulinic acid as a potent antivirulence agent.](#/202607/25/202607/25/42235356-targeting-the-virulence-factor-suilysin-a-structure-guided-discovery-of-chebulinic-acid-as-a-potent-antivirulence-agent)
+  - TLDR：针对耐药菌导致的感染难题，本研究以猪链球菌的关键毒力因子猪链球菌溶血素（SLY）为靶点，通过表面等离子体共振（SPR）技术从159种天然化合物中筛选出诃子酸（CA）。实验证明CA能以高亲和力结合并稳定SLY结构，在不抑制细菌生长的情况下显著降低其溶血活性并破坏生物膜。动物实验显示CA与阿莫西林联用可将感染小鼠存活率从0%提升至90%，为开发“抗毒力+抗生素”联合疗法提供了新思路。
+  - Tags：`query:pathoai`
+- [Quantum convolutional HLA immunogenic peptide prediction (Q-CHIPP): Next-generation neoantigen prediction with quantum neural network.](#/202607/25/202607/25/42497272-quantum-convolutional-hla-immunogenic-peptide-prediction-q-chipp-next-generation-neoantigen-prediction-with-quantum-neural-network)
+  - TLDR：01限制性肽段的免疫原性预测。结果显示，在样本量较少的情况下，该方法比经典模型准确率提升了6%，证明了量子机器学习在数据受限的生物医学系统中的应用潜力。
+  - Tags：`query:bioinfo`
+- [Integrative multi-omics profiling reveals DRG1 promotes hepatocellular carcinoma via c-Myc phosphorylation and facilitates lenvatinib resistance.](#/202607/25/202607/25/42498092-integrative-multi-omics-profiling-reveals-drg1-promotes-hepatocellular-carcinoma-via-c-myc-phosphorylation-and-facilitates-lenvatinib-resistance)
+  - TLDR：针对肝细胞癌（HCC）中DRG1蛋白功能不明的问题，本研究通过整合单细胞测序、空间转录组及多组学分析，揭示了DRG1在恶性肿瘤区域高表达并与免疫抑制环境相关的特性。研究发现HDAC2调控DRG1表达，进而通过激活c-Myc磷酸化促进肿瘤增殖，且DRG1缺失能显著提升仑伐替尼的疗效。该发现为HCC预后评估和克服药物耐药提供了新的分子靶点和理论依据。
+  - Tags：`query:bioinfo`
+- [Salivary Dipeptides and Microbiota Multiomics Biomarkers of Caries.](#/202607/25/202607/25/42499215-salivary-dipeptides-and-microbiota-multiomics-biomarkers-of-caries)
+  - TLDR：龋齿是受宿主与微生物代谢交互影响的普遍疾病，但目前缺乏整合多组学的生物标志物研究。本研究通过对217名受试者的唾液进行16S rRNA测序、非靶向代谢组学及糖谱分析，利用嵌套交叉验证线性回归和OPLS模型整合多维数据。结果发现Ser-Pro等三种二肽与龋齿显著负相关，并识别出多种致龋及保护性菌群。该多组学框架为龋齿的精准预测和临床诊断提供了新的代谢标志物。
+  - Tags：`query:bioinfo`
+- [Enteric dysfunction and enteropathogens among hospitalized south Asian and sub-Saharan African children.](#/202607/25/202607/25/42497154-enteric-dysfunction-and-enteropathogens-among-hospitalized-south-asian-and-sub-saharan-african-children)
+  - TLDR：针对中低收入国家住院儿童出院后死亡率高的问题，本研究通过对比南亚及撒哈拉以南非洲 811 名住院患儿与 248 名社区儿童的肠道病原体及粪便生物标志物（MPO、钙卫蛋白、AAT），分析了肠道功能障碍（ED）与预后的关系。结果发现，入院时病原体流行率和炎症水平较高，但出院时钙卫蛋白水平是预测死亡风险的关键指标。该研究揭示了出院后预防病原体再次定植对改善儿童健康的重要性。
+  - Tags：`query:pathoai`
+- [AI-based clinician decision support system for diagnosis of inherited retinal diseases: a multicenter, randomized trial.](#/202607/25/202607/25/42498742-ai-based-clinician-decision-support-system-for-diagnosis-of-inherited-retinal-diseases-a-multicenter-randomized-trial)
+  - TLDR：遗传性视网膜疾病（IRD）诊断依赖昂贵的基因检测和专家经验，效率较低。本研究开发了Retina4IRD系统，利用预训练的Vision Transformer模型，结合眼底彩照和OCT影像预测17类基因型。通过多中心验证和随机对照试验，证明该系统能显著提升临床医生对IRD基因诊断的准确率（Top-5从67.3%升至88.5%），并优化了后续诊疗决策，为基因检测前的临床筛查提供了高效辅助工具。
+  - Tags：`query:bioinfo`
+- [Development of a Point-of-Care Recombinase Polymerase Amplification Assay for Detection of Neisseria gonorrhoeae and Ceftriaxone-Resistance Associated penA Allele 60.001.](#/202607/25/202607/25/42498842-development-of-a-point-of-care-recombinase-polymerase-amplification-assay-for-detection-of-neisseria-gonorrhoeae-and-ceftriaxone-resistance-associated-pena-allele-60001)
+  - TLDR：针对淋球菌及其头孢曲松耐药性检测依赖昂贵设备且耗时长的难题，本研究开发了一种基于等温重组酶聚合酶扩增（RPA）结合侧流层析试纸条（LFS）的快速检测平台。该方法通过靶向porA基因识别物种，并利用ARMS-RPA技术精准区分penA 60.001耐药突变。实验证明该平台在20分钟内即可提供可视化结果，且在临床尿液样本中达到了100%的准确率，为资源匮乏地区的即时诊断和精准用药提供了高效方案。
+  - Tags：`query:pathoai`
 - [Pharmacological advances in](#/202607/20/202607/20/42474134-pharmacological-advances-in)
   - TLDR：耳念珠菌因其高传染性和广泛耐药性成为全球挑战。本文综述了药理学新进展，涵盖增强CYP51结合的新药、老药新用及宿主防御肽等策略。重点介绍了AI辅助发现、纳米递送和多组学分析在加速靶点识别与优化代谢中的应用，展示了从单一用药向机制驱动联合治疗的转变，为解决临床耐药负担提供了新路径。
   - Tags：`query:pathoai`

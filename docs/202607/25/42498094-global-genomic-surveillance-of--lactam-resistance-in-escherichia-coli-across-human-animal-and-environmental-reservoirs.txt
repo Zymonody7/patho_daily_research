@@ -1,0 +1,57 @@
+Title: Global genomic surveillance of β-lactam resistance in Escherichia coli across human, animal, and environmental reservoirs - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42498094/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 24:105998.
+
+doi: 10.1016/j.meegid.2026.105998.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42498094**
+*    DOI: [10.1016/j.meegid.2026.105998](https://doi.org/10.1016/j.meegid.2026.105998)
+
+## Global genomic surveillance of β-lactam resistance in Escherichia coli across human, animal, and environmental reservoirs
+
+Mohammad Sholeh et al. Infect Genet Evol.2026.
+
+## Abstract
+
+**Background:** Escherichia coli poses a global health threat from increasing β-lactam resistance. This study uses genomic and One-Health data to map resistance patterns and enhance antimicrobial resistance (AMR) prediction and management.
+
+**Methods:** This study performed a One-Health whole-genome analysis of 30,554 E. coli isolates from human, animal, and environmental sources, spanning from 2000 to 2025. Publicly available genomic data were retrieved from NCBI, encompassing β-lactam resistance genes, including extended-spectrum β-lactamases, AmpC, and carbapenemases, along with key chromosomal resistance modifiers. These genes were identified and curated using AMRFinderPlus. Multilocus sequence typing (MLST) and pathotype assignments were conducted in silico. Temporal, host, sequence-type (ST), and geographic patterns of resistance were modeled, with gradient-boosted machine learning algorithms predicting minimum inhibitory concentrations (MICs) based on antibiotic resistance gene profiles and chromosomal features. Temporal and geographic resistance patterns were further analyzed using statistical and visualization tools in R and Python.
+
+**Results:** A total of 30,554 E. coli whole-genome sequences from isolates spanning 126 countries between 2000 and 2025 were analyzed. The dataset included 2015 complete genomes, 177 chromosome-level assemblies, 8310 scaffold-level assemblies, and 20,052 contig-level assemblies, with an average sequence length of 5,120,983 bp. Isolates were categorized by host source: 14,320 from humans, 8184 from animals, 3941 from environmental sources, and 4109 with an unknown source. MLST was successfully performed on 29,648 isolates, identifying dominant STs such as ST131, ST11, and ST10. Human isolates were predominantly associated with epidemic clones ST131, ST73, and ST1193, while animal isolates were associated with ST10, and environmental isolates showed a strong presence of ST155. Temporal analyses indicated a steady increase in β-lactam resistance, with bla CTX-M-15, bla NDM-5, and bla OXA-1 showing the most significant prevalence trends. Model performance was strongest for carbapenems, particularly imipenem (R 2 = 0.88) and ertapenem (R 2 = 0.74), whereas predictions for ampicillin and piperacillin-tazobactam showed poor agreement with observed MICs.
+
+**Conclusions:** Global analysis of 30,554 genomes shows rising β-lactam resistance driven by key genes (bla CTX-M-15, bla NDM-5, bla OXA-1) in high-risk clones. Machine learning accurately predicted carbapenem resistance but struggled with β-lactamase inhibitor combos. Integrating genomics and One-Health data can guide AMR surveillance and control.
+
+**Keywords:** Escherichia coli; Genomic; Multilocus sequence typing; One-health surveillance; Sequence types; β-Lactamases.
+
+Copyright © 2026. Published by Elsevier B.V.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+## Similar articles
+
+*   [Wastewater based genomic surveillance key to population level monitoring of AmpC/ESBL producing Escherichia coli.](https://pubmed.ncbi.nlm.nih.gov/40033002/)
+
+Al-Mustapha AI, Tiwari A, Laukkanen-Ninios R, Lehto KM, Oikarinen S, Lipponen A, Pitkänen T, Heikinheimo A; WastPan Study Group.Al-Mustapha AI, et al.Sci Rep. 2025 Mar 3;15(1):7400. doi: 10.1038/s41598-025-91516-9.Sci Rep. 2025.PMID: 40033002 Free PMC article. 
+*   [Staphylococcus aureus resistance to non-β-lactam antibiotics: global genomic epidemiology and machine learning feasibility assessment.](https://pubmed.ncbi.nlm.nih.gov/41806067/)
+
+Chaki SSG, Najim MA, Hassan LA, AlAbdulhadi SAS, Al-Khafaji ZA, Sharma MK, Ahmed AS, Ahmed AB, Alazzam MB, Sholeh M.Chaki SSG, et al.Mol Genet Genomics. 2026 Mar 10;301(1):59. doi: 10.1007/s00438-026-02384-5.Mol Genet Genomics. 2026.PMID: 41806067 
+*   [Transmission of extended spectrum β-lactamase-producing Escherichia coli and antimicrobial resistance gene flow across One Health compartments in eastern Africa: a whole-genome sequence analysis from a prospective cohort study.](https://pubmed.ncbi.nlm.nih.gov/41314227/)
+
+Musicha P, Beale MA, Cocker D, Oruru FA, Zuza A, Salifu C, Katende G, Nanono S, Isaasi F, Chidziwisano K, Mugisha L, Kajumbula H, Musoke D, Morse T, Jacob ST, Feasey NA, Thomson NR.Musicha P, et al.Lancet Microbe. 2026 Jan;7(1):101224. doi: 10.1016/j.lanmic.2025.101224. Epub 2025 Nov 25.Lancet Microbe. 2026.PMID: 41314227 Free PMC article. 
+*   [Global transmission of extended-spectrum cephalosporin resistance in Escherichia coli driven by epidemic plasmids.](https://pubmed.ncbi.nlm.nih.gov/38608515/)
+
+Zamudio R, Boerlin P, Mulvey MR, Haenni M, Beyrouthy R, Madec JY, Schwarz S, Cormier A, Chalmers G, Bonnet R, Zhanel GG, Kaspar H, Mather AE.Zamudio R, et al.EBioMedicine. 2024 May;103:105097. doi: 10.1016/j.ebiom.2024.105097. Epub 2024 Apr 11.EBioMedicine. 2024.PMID: 38608515 Free PMC article. 
+*   [Characterization of Extended-Spectrum β-Lactamase-Producing _Escherichia coli_ Isolates That Cause Diarrhea in Sheep in Northwest China.](https://pubmed.ncbi.nlm.nih.gov/35943154/)
+
+Zhao X, Zhao H, Zhou Z, Miao Y, Li R, Yang B, Cao C, Xiao S, Wang X, Liu H, Wang J, Yang Z.Zhao X, et al.Microbiol Spectr. 2022 Aug 31;10(4):e0159522. doi: 10.1128/spectrum.01595-22. Epub 2022 Aug 9.Microbiol Spectr. 2022.PMID: 35943154 Free PMC article.Review.

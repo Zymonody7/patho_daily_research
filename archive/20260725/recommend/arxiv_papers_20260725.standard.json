@@ -1,0 +1,634 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-07-25T21:38:33.363525+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 5,
+    "deep_cap": 9,
+    "deep_selected": 5,
+    "quick_candidates": 7,
+    "quick_skim_target": 14,
+    "quick_selected": 7
+  },
+  "deep_dive": [
+    {
+      "id": "41937001",
+      "title": "Artificial intelligence-assisted mining of polyethylene terephthalate hydrolases.",
+      "abstract": "Polyethylene terephthalate (PET) hydrolases efficiently hydrolyze the ester bonds in PET, converting it into valuable monomers or oligomers, offering a sustainable biological solution to global PET plastic pollution. However, the large-scale development of high-performance PET hydrolases remains challenging due to limitations in traditional enzyme resource mining methods, including low throughput and lengthy cycles. Recent advances in artificial intelligence (AI) provide novel methodologies to overcome these challenges. This review systematically summarizes how AI empowers the high-throughput screening of PET hydrolases from massive biological databases, while allowing the accurate prediction of enzyme structures and functions. Furthermore, it critically analyzes AI-driven strategies for enzyme molecular engineering and highlights the emerging frontier of AI-assisted de novo enzyme design. By systematically evaluating the advantages and challenges of AI models in the research of PET hydrolases, this review provides an integrated technical framework and theoretical foundation to guide future innovation in enzyme mining and plastic biodegradation.",
+      "authors": [
+        "Quyuan Xiong",
+        "Guangyu Liu",
+        "Shipeng Gao",
+        "Yuechuo Hao",
+        "Cheng Li",
+        "Jingwen Liu",
+        "Jiasong Huang",
+        "Anthony J Sinskey",
+        "Yan Zhang",
+        "Xiong Chen",
+        "Yafang Sun",
+        "Xueyun Zheng"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-25",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41937001/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "AI for enzyme structure and function prediction",
+      "llm_evidence_cn": "AI用于酶结构和功能预测",
+      "llm_evidence": "AI用于酶结构和功能预测",
+      "canonical_evidence": "AI用于酶结构和功能预测",
+      "llm_tldr_en": "Reviews AI methods for high-throughput screening and structure-function prediction of PET hydrolases.",
+      "llm_tldr_cn": "综述了AI在PET水解酶高通量筛选及结构功能预测中的应用。",
+      "llm_tldr": "综述了AI在PET水解酶高通量筛选及结构功能预测中的应用。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "protein language models for structure function prediction and design",
+      "matched_requirement_id": "req-16",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42498094",
+      "title": "Global genomic surveillance of β-lactam resistance in Escherichia coli across human, animal, and environmental reservoirs.",
+      "abstract": "BACKGROUND: Escherichia coli poses a global health threat from increasing β-lactam resistance. This study uses genomic and One-Health data to map resistance patterns and enhance antimicrobial resistance (AMR) prediction and management. METHODS: This study performed a One-Health whole-genome analysis of 30,554 E. coli isolates from human, animal, and environmental sources, spanning from 2000 to 2025. Publicly available genomic data were retrieved from NCBI, encompassing β-lactam resistance genes, including extended-spectrum β-lactamases, AmpC, and carbapenemases, along with key chromosomal resistance modifiers. These genes were identified and curated using AMRFinderPlus. Multilocus sequence typing (MLST) and pathotype assignments were conducted in silico. Temporal, host, sequence-type (ST), and geographic patterns of resistance were modeled, with gradient-boosted machine learning algorithms predicting minimum inhibitory concentrations (MICs) based on antibiotic resistance gene profiles and chromosomal features. Temporal and geographic resistance patterns were further analyzed using statistical and visualization tools in R and Python. RESULTS: A total of 30,554 E. coli whole-genome sequences from isolates spanning 126 countries between 2000 and 2025 were analyzed. The dataset included 2015 complete genomes, 177 chromosome-level assemblies, 8310 scaffold-level assemblies, and 20,052 contig-level assemblies, with an average sequence length of 5,120,983 bp. Isolates were categorized by host source: 14,320 from humans, 8184 from animals, 3941 from environmental sources, and 4109 with an unknown source. MLST was successfully performed on 29,648 isolates, identifying dominant STs such as ST131, ST11, and ST10. Human isolates were predominantly associated with epidemic clones ST131, ST73, and ST1193, while animal isolates were associated with ST10, and environmental isolates showed a strong presence of ST155. Temporal analyses indicated a steady increase in β-lactam resistance, with blaCTX-M-15, blaNDM-5, and blaOXA-1 showing the most significant prevalence trends. Model performance was strongest for carbapenems, particularly imipenem (R2 = 0.88) and ertapenem (R2 = 0.74), whereas predictions for ampicillin and piperacillin-tazobactam showed poor agreement with observed MICs. CONCLUSIONS: Global analysis of 30,554 genomes shows rising β-lactam resistance driven by key genes (blaCTX-M-15, blaNDM-5, blaOXA-1) in high-risk clones. Machine learning accurately predicted carbapenem resistance but struggled with β-lactamase inhibitor combos. Integrating genomics and One-Health data can guide AMR surveillance and control.",
+      "authors": [
+        "Mohammad Sholeh",
+        "Masoumeh Beig",
+        "Negin Kiani",
+        "Farzad Badmasti"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42498094/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "global genomic surveillance and AMR prediction in E. coli",
+      "llm_evidence_cn": "大肠杆菌的全球基因组监测和耐药性预测",
+      "llm_evidence": "大肠杆菌的全球基因组监测和耐药性预测",
+      "canonical_evidence": "大肠杆菌的全球基因组监测和耐药性预测",
+      "llm_tldr_en": "Uses genomic and One-Health data for global surveillance and prediction of beta-lactam resistance in E. coli.",
+      "llm_tldr_cn": "利用基因组和One-Health数据对大肠杆菌的β-内酰胺耐药性进行全球监测和预测。",
+      "llm_tldr": "利用基因组和One-Health数据对大肠杆菌的β-内酰胺耐药性进行全球监测和预测。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI methods for genomic surveillance and outbreak monitoring",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42498492",
+      "title": "Knowledge-driven interpretable neural networks for mechanistic insight.",
+      "abstract": "Analyzing omics data in the context of pathway knowledge is critical for understanding the molecular mechanisms underlying pathological changes. However, current pathway analysis methods do not model the detailed mechanistic nature of biological interactions, limiting the understanding of pathway behavior to a relatively shallow level. To address this issue, we present a knowledge-driven machine learning framework that embeds features into pathway graphs and models reactions analytically, producing interpretable feature hierarchies and subnetworks in which functional associations are estimated to model biological interactions. The approach is agnostic to feature selection, enabling the use of full omics datasets without discarding weak signals. Applications to breast cancer microRNA-gene regulation data and COVID-19 metabolomics data highlight immune and metabolic pathways relevant to disease progression. This framework bridges predictive modeling with mechanistic interpretation and offers a foundation for integrative pathway analysis.",
+      "authors": [
+        "Yan Ke",
+        "Tianwei Yu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42498492/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Knowledge-driven interpretable neural networks for mechanistic insight from omics data",
+      "llm_evidence_cn": "知识驱动的可解释神经网络，用于从组学数据中获取机制见解",
+      "llm_evidence": "知识驱动的可解释神经网络，用于从组学数据中获取机制见解",
+      "canonical_evidence": "知识驱动的可解释神经网络，用于从组学数据中获取机制见解",
+      "llm_tldr_en": "Presents a machine learning framework embedding features into pathway graphs for interpretable omics analysis.",
+      "llm_tldr_cn": "提出了一种将特征嵌入通路图的机器学习框架，用于可解释的组学分析。",
+      "llm_tldr": "提出了一种将特征嵌入通路图的机器学习框架，用于可解释的组学分析。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "trustworthy and interpretable AI systems for bioinformatics workflows",
+      "matched_requirement_id": "req-37",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42496598",
+      "title": "PathMED: An R toolkit for single-sample molecular scoring and machine learning with omics data.",
+      "abstract": "MOTIVATION: Molecular scoring is a popular approach for studying pathway-level functional alterations with omics data. Using molecular scores for tasks such as single-sample molecular characterisation, phenotype prediction or disease stratification has several advantages compared to using omics data directly. Molecular scores provide biological interpretability and are more generalisable across datasets, facilitating data integration and machine learning applications. However, numerous scoring methods are available through different software packages, and currently there is a lack of tools to easily use these scores for model training and prediction. RESULTS: We developed pathMED, an R/Bioconductor package that unifies various scoring methods in a simple framework. Furthermore, pathMED also contains a machine learning module to train and test models that use the calculated molecular scores to predict clinical outcomes. We demonstrate some of its potential applications in three use cases using public omics data. We showed the generalisability of machine learning models trained on transcriptomic scores in predicting clinical outcomes when deploying on proteomic scores. We also demonstrated the application of transcriptomics scores in predicting breast cancer treatment response and identifying pathways strongly associated to tumour biology and treatment response. Finally, we demonstrated the benefit of integrating a novel gene set dissection step into the analysis pipeline to resolve disease heterogeneity at the pathway level. AVAILABILITY: PathMED is freely available in the Bioconductor repository (https://bioconductor.org/packages/release/bioc/html/pathMED.html). Code to reproduce the analyses is publicly available at https://github.com/GENyO-BioInformatics/pathMED_article. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+      "authors": [
+        "Jordi Martorell-Marugán",
+        "Ivan Ellson",
+        "Raúl López-Domínguez",
+        "Pablo Pedro Jurado-Bascón",
+        "Juan Antonio Villatoro-García",
+        "Chang Wang",
+        "Frédéric Baribaud",
+        "Daniel Toro-Domínguez",
+        "Pedro Carmona-Sáez"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42496598/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "R toolkit for machine learning with omics data and molecular scoring",
+      "llm_evidence_cn": "用于组学数据机器学习和分子评分的R工具包",
+      "llm_evidence": "用于组学数据机器学习和分子评分的R工具包",
+      "canonical_evidence": "用于组学数据机器学习和分子评分的R工具包",
+      "llm_tldr_en": "Introduces pathMED, an R package for pathway-level molecular scoring and machine learning with omics data.",
+      "llm_tldr_cn": "介绍了pathMED，一个用于通路级分子评分和组学数据机器学习的R包。",
+      "llm_tldr": "介绍了pathMED，一个用于通路级分子评分和组学数据机器学习的R包。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42497650",
+      "title": "An experimentally validated structure-based computational framework for humanisation of anti-orthopoxvirus antibodies.",
+      "abstract": "BACKGROUND: The re-emergence of orthopoxviruses, most notably mpox virus (MPXV), poses a growing global public health threat. Well-characterised murine anti-orthopoxvirus antibodies are clinically limited by anti-mouse antibody responses, while traditional sequence-based humanisation often impairs antigen-binding activity. METHODS: We developed an experimentally validated structure-guided computational humanisation framework prioritising 3D architectural congruence over sequence identity, integrating Foldseek-based structural alignment and interface-residue constraints. We applied this framework to humanise two murine anti-orthopoxvirus antibodies (7D11, A27D7), with comprehensive in vitro and in vivo validation. FINDINGS: Structural superimposition confirmed high conformational conservation between the humanised variants (POX1.1 and POX2.1) and their parental mAbs, with root mean square deviation (RMSD) values below 0.6 Å for all variable domains. Both humanised variants retained full epitope specificity with natural humanness profiles. POX1.1 showed enhanced neutralisation potency against vaccinia virus (VACV) and MPXV, compared with the parental 7D11. POX2.1 preserved the broad cross-reactive binding and the extracellular enveloped virion neutralising activity of the parental A27D7. In the lethal VACV mouse model, both monotherapies conferred significant prophylactic and therapeutic protection, reducing pulmonary viral loads and improving survival. The dual-targeting combination of POX1.1 and POX2.1 achieved markedly improved in vivo efficacy compared with individual antibodies, delivering 100% survival even when administered 2 days post-challenge. In the MPXV CAST/EiJ mouse model, the combination significantly reduced splenomegaly and MPXV DNA loads in plasma, spleen and lung tissues, effectively suppressing systemic viral dissemination. INTERPRETATION: These findings establish that the structure-centric workflow enables efficient humanisation of well-characterised murine anti-orthopoxvirus antibodies, providing a validated framework to support the development of countermeasures for orthopoxvirus pandemic. FUNDING: This work was supported by the National Natural Science Foundation of China, the Chinese Academy of Medical Sciences Innovation Fund for Medical Sciences, the Scientific Research Innovation Capability Support Project for Young Faculty and the National Science and Technology Major Project.",
+      "authors": [
+        "Xuehua Yang",
+        "Xuemeng Dong",
+        "Jiahan Lu",
+        "Xiaojing Chi",
+        "Xiuying Liu",
+        "Huarui Duan",
+        "Peixiang Gao",
+        "Jing Xue",
+        "Wei Yang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42497650/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "computational framework for anti-orthopoxvirus antibody design",
+      "llm_evidence_cn": "抗正痘病毒抗体设计的计算框架",
+      "llm_evidence": "抗正痘病毒抗体设计的计算框架",
+      "canonical_evidence": "抗正痘病毒抗体设计的计算框架",
+      "llm_tldr_en": "Develops a structure-guided computational framework to humanize antibodies against mpox and other orthopoxviruses.",
+      "llm_tldr_cn": "开发了一个结构引导的计算框架，用于人源化针对猴痘和其他正痘病毒的抗体。",
+      "llm_tldr": "开发了一个结构引导的计算框架，用于人源化针对猴痘和其他正痘病毒的抗体。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "42235356",
+      "title": "Targeting the virulence factor suilysin: a structure-guided discovery of chebulinic acid as a potent antivirulence agent.",
+      "abstract": "BACKGROUND: The rapid rise of bacterial resistance has compromised conventional antibiotic efficacy, emphasizing the need for antivirulence-based anti-infective strategies. PURPOSE: Targeting the pore-forming toxin suilysin (SLY), this study aimed to establish a surface plasmon resonance (SPR) screening platform to identify candidates that bind to SLY and to evaluate their antivirulence potential. STUDY DESIGN AND METHODS: A total of 159 plant-derived natural compounds were screened to identify SLY-binding candidates. Functional effects were assessed by hemolysis inhibition, biofilm disruption, and bacterial viability assays. The interaction between chebulinic acid (CA) and SLY was further characterized using molecular docking, molecular dynamics, SPR, and isothermal titration calorimetry (ITC) to determine binding properties, and its impact on ATP synthesis, proton gradient, and genes transcription was analyzed. The enhancement of CA with amoxicillin (AMX) was evaluated in a mouse severe infection model, and safety was assessed by cytotoxicity and hemolysis tests. RESULTS: As the candidate compound with the strongest anti-hemolysis activity, CA bound SLY with high affinity and markedly suppressed SLY-mediated hemolysis at 0.25 μg/ml, while its minimal inhibitory concentration (MIC) against S. suis was 1024 μg/ml. CA disrupted preformed biofilms, neutralized hemolytic activity in bacterial supernatants, and damaged embedded bacteria. Mechanistically, CA stabilized SLY via multiple hydrogen bonds, restricted its conformational flexibility, impaired ATP synthesis, and downregulated sly, IL-6, TNF-α, and iNOS expression. In vivo, CA combined with AMX markedly improved survival (from 0 to 90%), reduced bacterial burden and tissue lesions, and suppressed systemic inflammation without observable toxicity. CONCLUSION: These findings reveal the multifaceted antivirulence mechanism of CA and its enhancement therapeutic potential, offering a promising foundation for developing safe and effective \"antivirulence + antibiotic\" strategies against multidrug-resistant infections.",
+      "authors": [
+        "Chenchen Wang",
+        "Xiaodan Li",
+        "Ziyi Zhang",
+        "Zhaoran Zhang",
+        "Di Liu",
+        "Renhang Xiao",
+        "Xiangru Wang",
+        "Huanchun Chen",
+        "Chen Tan"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-25",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42235356/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Structure-guided discovery of antivirulence agents targeting bacterial virulence factors",
+      "llm_evidence_cn": "针对细菌毒力因子的结构指导抗毒力药物发现",
+      "llm_evidence": "针对细菌毒力因子的结构指导抗毒力药物发现",
+      "canonical_evidence": "针对细菌毒力因子的结构指导抗毒力药物发现",
+      "llm_tldr_en": "Identifies chebulinic acid as a potent antivirulence agent against suilysin using structure-guided screening.",
+      "llm_tldr_cn": "通过结构指导的筛选，确定诃子酸是针对猪链球菌溶血素的强效抗毒力剂。",
+      "llm_tldr": "通过结构指导的筛选，确定诃子酸是针对猪链球菌溶血素的强效抗毒力剂。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42497154",
+      "title": "Enteric dysfunction and enteropathogens among hospitalized south Asian and sub-Saharan African children.",
+      "abstract": "Enteropathogens and enteric dysfunction (ED) among acutely ill children in low-and-middle income countries (LMICs) may contribute to poor post-discharge outcomes. Enteropathogen prevalence and fecal ED biomarkers (myeloperoxidase, calprotectin, α-1-antitrypsin) from children aged 2-23 months hospitalized at nine LMIC facilities (n = 811) were compared to community children (n = 248). Host and pathogen correlates of ED biomarkers were identified through crude and adjusted linear mixed effect models, and Cox-proportional hazard models assessed ED biomarker associations with mortality in the 30-days following admission and 180-days following discharge. Invasive enteropathogens were more prevalent at admission (69%) than discharge (60%, p < 0.001) or among community children (61%, p = 0.004). Among the biomarkers, myeloperoxidase was higher at admission (2290 ng/ml, interquartile range [IQR]: 868, 6052, p = 0.014), and lower at discharge (1380 ng/ml, IQR: 611, 3193, p < 0.001) compared to community children (2268 ng/ml, IQR: 1051, 5421), while calprotectin was similar at admission (215 ug/ml, IQR: 77, 746, p = 0.351), but lower at discharge (170 ug/ml, IQR: 68, 369, p = 0.007) when compared the community children (252 ug/ml, IQR: 124, 691). α-1-antitrypsin concentrations were lower at admission (121 mg/l, IQR: 49, 303, p = 0.049) compared to the community (201 mg/ml, IQR: 100, 412), but more comparable at discharge (144 mg/ml, IQR: 69, 275, p = 0.380). Admission myeloperoxidase and calprotectin concentrations were associated with invasive enteropathogens detection (respectively, p = 0.003 and p = 0.002) and lower MUAC (respectively, p = 0.002 and p = 0.012), while admission α-1-antitrypsin was associated with breastfeeding, diarrhea, malaria and pneumonia (all p < 0.05). The only ED biomarker associated with mortality after confounder adjustment was fecal calprotectin (hazard ratio: 1.36, 95% CI:1.07,1.72, p = 0.011) at discharge. Enteric inflammation biomarker concentrations and enteropathogen prevalence were high at hospital admission, but by discharge were lower than among community peers. Interventions to prevent re-colonization with enteropathogens and increased enteric inflammation may improve child health in the post discharge period.",
+      "authors": [
+        "Abu Sadat Mohammad Sayeem Bin Shahid",
+        "Donna M Denno",
+        "Kevin Kariuki",
+        "Doreen Rwigi",
+        "Amran Gazi",
+        "Lubaba Shahrin",
+        "Wilson Gumbi",
+        "James M Njunge",
+        "Mohammod J Chisti",
+        "Tahmeed Ahmed",
+        "Eric R Houpt",
+        "Jie Liu",
+        "Mami Taniuchi",
+        "Benson O Singa",
+        "Robert H J Bandsma",
+        "Wieger Voskuijl",
+        "Ali F Saleem",
+        "Christina L Lancioni",
+        "Ezekiel Mupere",
+        "Abdoulaye H Diallo",
+        "Judd L Walson",
+        "James A Berkley",
+        "Kirkby D Tickell"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-01-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42497154/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "enteropathogens and host correlates of enteric dysfunction",
+      "llm_evidence_cn": "肠道病原体与宿主肠道功能障碍的相关性",
+      "llm_evidence": "肠道病原体与宿主肠道功能障碍的相关性",
+      "canonical_evidence": "肠道病原体与宿主肠道功能障碍的相关性",
+      "llm_tldr_en": "Analyzes enteropathogen prevalence and host biomarkers to model infection outcomes in hospitalized children.",
+      "llm_tldr_cn": "分析住院儿童的肠道病原体流行率和宿主生物标志物，以模拟感染结果。",
+      "llm_tldr": "分析住院儿童的肠道病原体流行率和宿主生物标志物，以模拟感染结果。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42497272",
+      "title": "Quantum convolutional HLA immunogenic peptide prediction (Q-CHIPP): Next-generation neoantigen prediction with quantum neural network.",
+      "abstract": "The rapid growth of quantum computing is driven by promises of performing complex calculations with unprecedented speed; however, current use cases have been limited by quantum hardware and the difficulty of identifying problems that classical computers cannot easily address. Within these constraints, biological problems including drug discovery, protein folding, and precision medicine present an opportunity to understand how current quantum hardware can make advances. In immunology, accurate prediction of cancer neoantigens remains a major challenge, limited by small, noisy datasets and the inability of classical models to generalize. In approaching the problem, we explore multiple noise mitigation techniques, including Pauli twirling and dynamical decoupling, in conjunction with controlled shot-based sampling to stabilize training on real hardware and in a warm start hybrid approach. With these approaches, we demonstrate the use of Quantum Convolutional Neural Networks (QCNNs) for both MHC binding and immunogenicity prediction, including a quantum hardware experiment involving 46 qubits that achieved a 6% increase in classification accuracy with fewer training samples compared to classical approaches. Building on these models, we introduce Quantum Convolutional HLA Immunogenic Peptide Prediction (Q-CHIPP), a combinatorial framework integrating MHC binding and T-cell recognition. It targets HLA-A*02:01-restricted 9-mer peptides and, more accurately, identifies those peptides known to be immunogenic, improving the prognostic impact of predicted neoantigen load. Together, these represent a large-scale application of QCNNs in biomedical modeling, highlighting both the feasibility and promise of quantum machine learning for data-limited biological systems and establishing a scalable foundation for quantum-enhanced biomedical research.",
+      "authors": [
+        "Ryan Peters",
+        "Kahn Rhrissorrakrai",
+        "Prerana Bangalore Parthasarathy",
+        "Vadim Ratner",
+        "Tanvi P Gujarati",
+        "Meltem Tolunay",
+        "Jie Shi",
+        "Jeffrey K Weber",
+        "Timothy A Chan",
+        "Laxmi Parida",
+        "Sara Capponi",
+        "Filippo Utro",
+        "Tyler J Alban"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42497272/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "quantum neural network for immunogenic peptide prediction",
+      "llm_evidence_cn": "用于免疫原性肽预测的量子神经网络",
+      "llm_evidence": "用于免疫原性肽预测的量子神经网络",
+      "canonical_evidence": "用于免疫原性肽预测的量子神经网络",
+      "llm_tldr_en": "Explores quantum convolutional neural networks for predicting cancer neoantigens and precision medicine.",
+      "llm_tldr_cn": "探索了用于预测癌症新抗原和精准医学的量子卷积神经网络。",
+      "llm_tldr": "探索了用于预测癌症新抗原和精准医学的量子卷积神经网络。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models and generative AI for drug discovery molecular property prediction and lead optimization",
+      "matched_requirement_id": "req-20",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42498742",
+      "title": "AI-based clinician decision support system for diagnosis of inherited retinal diseases: a multicenter, randomized trial.",
+      "abstract": "The accurate and timely diagnosis of inherited retinal diseases (IRDs) represents an unmet clinical need in ophthalmology, as the current pathways rely on resource-intensive phenotyping, multidisciplinary expertise and genetic testing. Here we developed Retina4IRD, an artificial intelligence (AI)-based clinician decision support system (CDSS) that predicts 17 genotype categories from retina images. Retina4IRD uses a Vision Transformer model pretrained with RETFound. We then trained and validated Retina4IRD using multimodal data with color fundus photographs and optical coherence tomography scans from 1,843 genetically confirmed patients (3,376 eyes) across China, South Korea and Poland. The top-5 prediction accuracy was 0.904 (95% confidence interval (CI): 0.896-0.912) and 0.856 (95% CI: 0.850-0.863) for internal and external validation, respectively. We conducted a randomized controlled trial with 300 participants with suspected IRD randomized 1:1 to either Retina4IRD-assisted specialist arm or specialist-only arm. Of these, 295 participants (median age 33 years, 114 (38.6%) females) with available next-generation sequencing reports were included in the final analysis. The primary outcome was met: top-5 genetic accuracy was significantly higher in the Retina4IRD-assisted specialist arm versus the specialist-only arm (88.5% versus 67.3%, P < 0.001). For secondary endpoints, top-1 to top-4 accuracies all favored the Retina4IRD-assisted specialist arm, with top-1 accuracy of 37.8% versus 22.4% and top-4 accuracy of 81.8% versus 53.1%, respectively. Post hoc analyses demonstrated that, with Retina4IRD assistance, clinicians made better management decisions, and the composite downstream management score indicated significantly higher scores relative to the control group (37.7 versus 28.5, P < 0.001). Our study shows that Retina4IRD is a CDSS tool prior to genetic testing and aligns with clinical workflow for patients with suspected IRDs. ClinicalTrials.gov identifier: NCT06839170 .",
+      "authors": [
+        "Huixun Jia",
+        "Bo Qian",
+        "Yanlin Qu",
+        "Jinyuan Wang",
+        "Jieqiong Chen",
+        "Tong Li",
+        "Changle Zheng",
+        "Jinu Han",
+        "Guanran Zhang",
+        "Yixiao Jin",
+        "Seungmin Lee",
+        "Xiang Chen",
+        "Haichao Chen",
+        "Jiayu Xu",
+        "Ke Xu",
+        "Yu Rong",
+        "Yi Jiang",
+        "Yiliu Yang",
+        "Wenjing Li",
+        "Qingge Guo",
+        "Ya Li",
+        "Yang Li",
+        "Jihong Wu",
+        "Qingjiong Zhang",
+        "Fang Lu",
+        "Wenjuan Zhuang",
+        "Bo Lei",
+        "Suk Ho Byeon",
+        "Junwon Lee",
+        "Adrian Smedowski",
+        "Marta Swierczynska",
+        "Daoqiang Zhang",
+        "Tyler Hyungtaek Rim",
+        "Andrzej Grzybowski",
+        "Bin Sheng",
+        "Tien Yin Wong",
+        "Xiaodong Sun"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42498742/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "multimodal data with Vision Transformer for genotype prediction",
+      "llm_evidence_cn": "使用 Vision Transformer 处理多模态数据进行基因型预测",
+      "llm_evidence": "使用 Vision Transformer 处理多模态数据进行基因型预测",
+      "canonical_evidence": "使用 Vision Transformer 处理多模态数据进行基因型预测",
+      "llm_tldr_en": "Uses a pretrained Vision Transformer to predict genotypes from multimodal retinal imaging data.",
+      "llm_tldr_cn": "使用预训练的 Vision Transformer 从多模态视网膜成像数据中预测基因型。",
+      "llm_tldr": "使用预训练的 Vision Transformer 从多模态视网膜成像数据中预测基因型。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "multimodal models combining sequence structure phenotype and text",
+      "matched_requirement_id": "req-24",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42498092",
+      "title": "Integrative multi-omics profiling reveals DRG1 promotes hepatocellular carcinoma via c-Myc phosphorylation and facilitates lenvatinib resistance.",
+      "abstract": "BACKGROUND & AIMS: Developmentally regulated GTP-binding protein 1 (DRG1), a member of the GTPase family, has been implicated in cancer progression; however, its biological function and therapeutic relevance in hepatocellular carcinoma (HCC) remain poorly understood. This study aimed to define the role of DRG1 in HCC progression and uncover its underlying regulatory mechanisms. METHODS: Multi-omics analyses, clinical tissue validation, in vitro functional assays, and in vivo xenograft models were integrated to investigate the biological function, regulatory mechanism, and therapeutic relevance of DRG1 in HCC. RESULTS: DRG1 was significantly upregulated in HCC tissues and associated with aggressive clinicopathological characteristics and poor patient survival. Integrated single-cell and spatial transcriptomic analyses revealed preferential DRG1 expression in malignant regions and its association with an immunosuppressive tumor microenvironment. Mechanistically, DRG1 promoted HCC cell proliferation through regulation of c-Myc activation, while HDAC2 was identified as an upstream regulator of DRG1 expression. Furthermore, DRG1 depletion enhanced sensitivity to lenvatinib treatment in HCC models. CONCLUSIONS: Our findings identify DRG1 as a potential prognostic biomarker and therapeutic target in HCC. The HDAC2-DRG1-c-Myc regulatory network contributes to malignant progression, while DRG1 inhibition represents a potential strategy to improve lenvatinib response.",
+      "authors": [
+        "Peng Wang",
+        "Junying Xu",
+        "Hao Huang",
+        "Dan Dong",
+        "Xinyu Jiang",
+        "Fengtong Wang",
+        "Bowen Hou",
+        "Min Shu",
+        "Lingming Bu",
+        "Xiaoying Zhao",
+        "Bin Zhao",
+        "Yuqing Geng",
+        "Xiangwei Wu",
+        "Xueling Chen"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42498092/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "integrative multi-omics profiling for cancer resistance",
+      "llm_evidence_cn": "整合多组学分析研究癌症耐药性",
+      "llm_evidence": "整合多组学分析研究癌症耐药性",
+      "canonical_evidence": "整合多组学分析研究癌症耐药性",
+      "llm_tldr_en": "Integrates multi-omics to reveal how DRG1 promotes hepatocellular carcinoma and facilitates drug resistance.",
+      "llm_tldr_cn": "整合多组学分析揭示了DRG1如何促进肝细胞癌并导致药物耐药性。",
+      "llm_tldr": "整合多组学分析揭示了DRG1如何促进肝细胞癌并导致药物耐药性。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42498842",
+      "title": "Development of a Point-of-Care Recombinase Polymerase Amplification Assay for Detection of Neisseria gonorrhoeae and Ceftriaxone-Resistance Associated penA Allele 60.001.",
+      "abstract": "BACKGROUND: Neisseria gonorrhoeae is a global public health threat, exacerbated by the rapid dissemination of ceftriaxone-resistant strains harboring penA allele 60.001. Current diagnostics are limited by long turnaround times, reliance on thermal cycling equipment, and poor suitability for resource-limited settings. METHODS: We developed an isothermal recombinase polymerase amplification assay coupled with a lateral flow strip (RPA-LFS) for separate identification of N. gonorrhoeae and the ceftriaxone resistance-associated SNP C932T (A311V) in penA 60.001 and limited closely related alleles. Species detection employed an RPA-Nfo probe targeting the conserved porA pseudogene. Resistance detection employed an allele-specific amplification refractory mutation system RPA (ARMS-RPA) strategy, incorporating artificial mismatches to specifically discriminate the C932T SNP. Assay performance was evaluated using genomic DNA of a panel of gonococcal and non-gonococcal strains and validated directly on unprocessed clinical urine samples. RESULTS: The porA RPA-LFS assay demonstrated a detection limit of 30 fg of genomic DNA with no cross-reactivity against closely related Neisseria species or other bacterial pathogens. The mismatch penA 60.001 RPA-LFS assay achieved a detection limit of 300 fg and exhibited absolute analytical specificity, with no amplification observed from wild-type or other mosaic penA alleles. Validation using 50 clinical urine samples yielded 100% concordance (95% CI: 92.9-100%) with gonorrhoea identification by reference nucleic acid amplification tests, with 100% sensitivity (95% CI: 87.1-100%) and 100% specificity (95% CI: 85.7-100%), and 100% concordance (95% CI: 85.7-100%) with resistance allele detection, with 100% sensitivity (95% CI: 67.6-100%) and 100% specificity (95% CI: 79.6-100%). CONCLUSIONS: This integrated RPA-LFS platform provides rapid detection of gonococcal infections and ceftriaxone resistance without requiring a thermal cycler, delivering visual results within 20 minutes. The assay represents a promising point-of-care solution for timely diagnosis, targeted antibiotic therapy, and resistance surveillance in resource-limited settings, though further validation on diverse specimen types and integration of an internal amplification control are needed.",
+      "authors": [
+        "Xia Sun",
+        "Ying Fu",
+        "Yi Liu",
+        "Qiongyao Liu",
+        "Luxia Chen",
+        "Jiang Zhu",
+        "Xu'ai Lin",
+        "Hao Cheng",
+        "Stijn van der Veen"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42498842/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Detection of pathogen and antimicrobial resistance associated alleles using molecular assays",
+      "llm_evidence_cn": "使用分子检测方法检测病原体及抗生素耐药相关等位基因",
+      "llm_evidence": "使用分子检测方法检测病原体及抗生素耐药相关等位基因",
+      "canonical_evidence": "使用分子检测方法检测病原体及抗生素耐药相关等位基因",
+      "llm_tldr_en": "Develops a point-of-care assay for detecting N. gonorrhoeae and its ceftriaxone-resistance associated allele.",
+      "llm_tldr_cn": "开发了一种用于检测淋球菌及其头孢曲松耐药相关等位基因的即时检测方法。",
+      "llm_tldr": "开发了一种用于检测淋球菌及其头孢曲松耐药相关等位基因的即时检测方法。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for antimicrobial resistance prediction from genomes",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42499215",
+      "title": "Salivary Dipeptides and Microbiota Multiomics Biomarkers of Caries.",
+      "abstract": "Dental caries is a prevalent disease shaped by dietary and metabolic interactions between the host and oral microbiota. While separate microbiome and metabolome profiling have improved the understanding of caries etiology, integrated multiomics approaches remain underutilized. We aimed to identify salivary biomarkers of caries experience in a cross-sectional study combining microbiome, metabolome, sugarome, and diet, oral, and demographic information in 217 healthy Swedish adolescents and young adults. Participants underwent clinical examination, dietary assessment, and saliva analysis using full-length 16S rRNA gene sequencing, untargeted liquid chromatography-mass spectrometry (LC-MS) metabolomics, and 2-dimensional gas chromatography-MS (GC×GC-MS)-based sugar profiling. Caries signs and restorations were summarized as decayed and filled surfaces including enamel caries. Associations between caries experience, demographics, and omics measures were evaluated using a nested cross-validated linear-regression framework with inner-loop feature selection and outer-loop performance assessment, emphasizing effect-direction stability and reproducibility across cross-validation models. Selected OMICs features were then integrated using orthogonal partial least-squares (OPLS) modeling. Three salivary dipeptides (Ser-Pro, Phe-His, and Thr-Gly) showed robust inverse associations with caries experience. Several cariogenic taxa, including Streptococcus mutans, Streptococcus sobrinus, Lactobacillus gasseri, and selected Actinomyces and Prevotella species, were positively associated with caries experience, whereas Veillonella rogosae, Stomatobaculum sp. HMT-097, and other taxa as well as 5 bacteria-predicted enzymes were associated with lower caries experience. Dietary variables and salivary sugars showed no consistent associations with caries experience. An integrated OPLS model incorporating demographics, microbiota composition, microbial-predicted enzymes, and metabolomics explained 41% of the variation in caries (R2 = 0.41) with a cross-validated predictive ability of 30% (Q2 = 0.30). This saliva-based multiomics framework revealed coherent microbial and metabolic signatures of caries experience. The Ser-Pro dipeptide showed the strongest inverse association and warrants validation in longitudinal cohorts to establish temporal precedence and clinical utility as a novel caries biomarker.",
+      "authors": [
+        "S Haworth",
+        "A Esberg",
+        "L Eriksson",
+        "H Ahmed",
+        "C I Mack",
+        "S Noerman",
+        "E Nordin",
+        "B Egert",
+        "K Hanhineva",
+        "R Landberg",
+        "C Brunius",
+        "I Johansson"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-24",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42499215/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "integrated multiomics approach combining microbiome and metabolome",
+      "llm_evidence_cn": "结合微生物组和代谢组的多组学整合方法",
+      "llm_evidence": "结合微生物组和代谢组的多组学整合方法",
+      "canonical_evidence": "结合微生物组和代谢组的多组学整合方法",
+      "llm_tldr_en": "Identifies salivary biomarkers for caries using integrated multiomics including 16S rRNA sequencing and LC-MS.",
+      "llm_tldr_cn": "利用包括16S rRNA测序和质谱在内的多组学整合方法识别龋齿的唾液生物标志物。",
+      "llm_tldr": "利用包括16S rRNA测序和质谱在内的多组学整合方法识别龋齿的唾液生物标志物。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI methods for multi omics integration and interpretation",
+      "matched_requirement_id": "req-35",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

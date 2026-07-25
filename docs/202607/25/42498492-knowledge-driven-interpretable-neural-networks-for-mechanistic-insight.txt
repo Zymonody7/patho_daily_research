@@ -1,0 +1,45 @@
+Title: Knowledge-driven interpretable neural networks for mechanistic insight - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42498492/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 24:gr.281686.125.
+
+doi: 10.1101/gr.281686.125.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42498492**
+*    DOI: [10.1101/gr.281686.125](https://doi.org/10.1101/gr.281686.125)
+
+## Knowledge-driven interpretable neural networks for mechanistic insight
+
+Yan Ke et al. Genome Res.2026.
+
+## Abstract
+
+Analyzing omics data in the context of pathway knowledge is critical for understanding the molecular mechanisms underlying pathological changes. However, current pathway analysis methods do not model the detailed mechanistic nature of biological interactions, limiting the understanding of pathway behavior to a relatively shallow level. To address this issue, we present a knowledge-driven machine learning framework that embeds features into pathway graphs and models reactions analytically, producing interpretable feature hierarchies and subnetworks in which functional associations are estimated to model biological interactions. The approach is agnostic to feature selection, enabling the use of full omics datasets without discarding weak signals. Applications to breast cancer microRNA-gene regulation data and COVID-19 metabolomics data highlight immune and metabolic pathways relevant to disease progression. This framework bridges predictive modeling with mechanistic interpretation and offers a foundation for integrative pathway analysis.
+
+Published by Cold Spring Harbor Laboratory Press.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [GLIO-Select: Machine Learning-Based Feature Selection and Weighting of Tissue and Serum Proteomic and Metabolomic Data Uncovers Sex Differences in Glioblastoma.](https://pubmed.ncbi.nlm.nih.gov/40362575/)
+
+Tasci E, Chappidi S, Zhuge Y, Zhang L, Cooley Zgela T, Sproull M, Mackey M, Camphausen K, Krauze AV.Tasci E, et al.Int J Mol Sci. 2025 May 2;26(9):4339. doi: 10.3390/ijms26094339.Int J Mol Sci. 2025.PMID: 40362575 Free PMC article. 
+*   [A weight-sharing Bayesian neural network for consistent feature selection with applications in cancer gene expression data.](https://pubmed.ncbi.nlm.nih.gov/41761059/)
+
+Mishra A, Xia W, Pazhayidam George C.Mishra A, et al.BMC Bioinformatics. 2026 Feb 27;27(1):79. doi: 10.1186/s12859-026-06397-0.BMC Bioinformatics. 2026.PMID: 41761059 Free PMC article. 
+*   [Building an auxiliary diagnostic and treatment efficacy prediction model for adolescent depression using machine learning based on electroencephalography technology.](https://pubmed.ncbi.nlm.nih.gov/42344510/)
+
+Peng T, Chi A, Yang J, Ren Y, Li Y, Fan J.Peng T, et al.Front Hum Neurosci. 2026 Jun 9;20:1774822. doi: 10.3389/fnhum.2026.1774822. eCollection 2026.Front Hum Neurosci. 2026.PMID: 42344510 Free PMC article. 
+*   [Machine Learning and Hybrid Methods for Metabolic Pathway Modeling.](https://pubmed.ncbi.nlm.nih.gov/36227553/)
+
+Cuperlovic-Culf M, Nguyen-Tran T, Bennett SAL.Cuperlovic-Culf M, et al.Methods Mol Biol. 2023;2553:417-439. doi: 10.1007/978-1-0716-2617-7_18.Methods Mol Biol. 2023.PMID: 36227553 Review. 
+*   [Translational Metabolomics of Head Injury: Exploring Dysfunctional Cerebral Metabolism with Ex Vivo NMR Spectroscopy-Based Metabolite Quantification.](https://pubmed.ncbi.nlm.nih.gov/26269925/)
+
+Wolahan SM, Hirt D, Glenn TC.Wolahan SM, et al.In: Kobeissy FH, editor. Brain Neurotrauma: Molecular, Neuropsychological, and Rehabilitation Aspects. Boca Raton (FL): CRC Press/Taylor & Francis; 2015. Chapter 25.In: Kobeissy FH, editor. Brain Neurotrauma: Molecular, Neuropsychological, and Rehabilitation Aspects. Boca Raton (FL): CRC Press/Taylor & Francis; 2015. Chapter 25.PMID: 26269925 Free Books & Documents.Review.

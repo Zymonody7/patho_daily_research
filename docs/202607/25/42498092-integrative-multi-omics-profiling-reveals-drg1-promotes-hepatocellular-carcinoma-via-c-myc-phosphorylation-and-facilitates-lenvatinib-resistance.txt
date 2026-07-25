@@ -1,0 +1,59 @@
+Title: Integrative multi-omics profiling reveals DRG1 promotes hepatocellular carcinoma via c-Myc phosphorylation and facilitates lenvatinib resistance - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42498092/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 24:112759.
+
+doi: 10.1016/j.cellsig.2026.112759.  Online ahead of print.
+
+[Junying Xu](https://pubmed.ncbi.nlm.nih.gov/?term=Xu+J&cauthor_id=42498092)[2](https://pubmed.ncbi.nlm.nih.gov/42498092/#full-view-affiliation-2 "Shihezi University School of Medicine, Shihezi 832000, China; NHC Key Laboratory of Prevention and Treatment of Central Asia High Incidence Diseases, Shihezi 32000, China; The Clinical Research Center for Infectious Diseases of Xinjiang Production and Construction Corps, Shihezi 832000, China."),[Hao Huang](https://pubmed.ncbi.nlm.nih.gov/?term=Huang+H&cauthor_id=42498092)[2](https://pubmed.ncbi.nlm.nih.gov/42498092/#full-view-affiliation-2 "Shihezi University School of Medicine, Shihezi 832000, China; NHC Key Laboratory of Prevention and Treatment of Central Asia High Incidence Diseases, Shihezi 32000, China; The Clinical Research Center for Infectious Diseases of Xinjiang Production and Construction Corps, Shihezi 832000, China."),[Dan Dong](https://pubmed.ncbi.nlm.nih.gov/?term=Dong+D&cauthor_id=42498092)[2](https://pubmed.ncbi.nlm.nih.gov/42498092/#full-view-affiliation-2 "Shihezi University School of Medicine, Shihezi 832000, China; NHC Key Laboratory of Prevention and Treatment of Central Asia High Incidence Diseases, Shihezi 32000, China; The Clinical Research Center for Infectious Diseases of Xinjiang Production and Construction Corps, Shihezi 832000, China."),[Xinyu Jiang](https://pubmed.ncbi.nlm.nih.gov/?term=Jiang+X&cauthor_id=42498092)[1](https://pubmed.ncbi.nlm.nih.gov/42498092/#full-view-affiliation-1 "Shihezi University School of Medicine, Shihezi 832000, China; The First Affiliated Hospital of Shihezi University, Shihezi 832000, China; NHC Key Laboratory of Prevention and Treatment of Central Asia High Incidence Diseases, Shihezi 32000, China; The Clinical Research Center for Infectious Diseases of Xinjiang Production and Construction Corps, Shihezi 832000, China."),[Fengtong Wang](https://pubmed.ncbi.nlm.nih.gov/?term=Wang+F&cauthor_id=42498092)[2](https://pubmed.ncbi.nlm.nih.gov/42498092/#full-view-affiliation-2 "Shihezi University School of Medicine, Shihezi 832000, China; NHC Key Laboratory of Prevention and Treatment of Central Asia High Incidence Diseases, Shihezi 32000, China; The Clinical Research Center for Infectious Diseases of Xinjiang Production and Construction Corps, Shihezi 832000, China."),[Bowen Hou](https://pubmed.ncbi.nlm.nih.gov/?term=Hou+B&cauthor_id=42498092)[2](https://pubmed.ncbi.nlm.nih.gov/42498092/#full-view-affiliation-2 "Shihezi University School of Medicine, Shihezi 832000, China; NHC Key Laboratory of Prevention and Treatment of Central Asia High Incidence Diseases, Shihezi 32000, China; The Clinical Research Center for Infectious Diseases of Xinjiang Production and Construction Corps, Shihezi 832000, China."),[Min Shu](https://pubmed.ncbi.nlm.nih.gov/?term=Shu+M&cauthor_id=42498092)[1](https://pubmed.ncbi.nlm.nih.gov/42498092/#full-view-affiliation-1 "Shihezi University School of Medicine, Shihezi 832000, China; The First Affiliated Hospital of Shihezi University, Shihezi 832000, China; NHC Key Laboratory of Prevention and Treatment of Central Asia High Incidence Diseases, Shihezi 32000, China; The Clinical Research Center for Infectious Diseases of Xinjiang Production and Construction Corps, Shihezi 832000, China."),[Lingming Bu](https://pubmed.ncbi.nlm.nih.gov/?term=Bu+L&cauthor_id=42498092)[2](https://pubmed.ncbi.nlm.nih.gov/42498092/#full-view-affiliation-2 "Shihezi University School of Medicine, Shihezi 832000, China; NHC Key Laboratory of Prevention and Treatment of Central Asia High Incidence Diseases, Shihezi 32000, China; The Clinical Research Center for Infectious Diseases of Xinjiang Production and Construction Corps, Shihezi 832000, China."),[Xiaoying Zhao](https://pubmed.ncbi.nlm.nih.gov/?term=Zhao+X&cauthor_id=42498092)[3](https://pubmed.ncbi.nlm.nih.gov/42498092/#full-view-affiliation-3 "Shihezi University School of Medicine, Shihezi 832000, China; The First Affiliated Hospital of Shihezi University, Shihezi 832000, China."),[Bin Zhao](https://pubmed.ncbi.nlm.nih.gov/?term=Zhao+B&cauthor_id=42498092)[1](https://pubmed.ncbi.nlm.nih.gov/42498092/#full-view-affiliation-1 "Shihezi University School of Medicine, Shihezi 832000, China; The First Affiliated Hospital of Shihezi University, Shihezi 832000, China; NHC Key Laboratory of Prevention and Treatment of Central Asia High Incidence Diseases, Shihezi 32000, China; The Clinical Research Center for Infectious Diseases of Xinjiang Production and Construction Corps, Shihezi 832000, China."),[Yuqing Geng](https://pubmed.ncbi.nlm.nih.gov/?term=Geng+Y&cauthor_id=42498092)[2](https://pubmed.ncbi.nlm.nih.gov/42498092/#full-view-affiliation-2 "Shihezi University School of Medicine, Shihezi 832000, China; NHC Key Laboratory of Prevention and Treatment of Central Asia High Incidence Diseases, Shihezi 32000, China; The Clinical Research Center for Infectious Diseases of Xinjiang Production and Construction Corps, Shihezi 832000, China."),[Xiangwei Wu](https://pubmed.ncbi.nlm.nih.gov/?term=Wu+X&cauthor_id=42498092)[4](https://pubmed.ncbi.nlm.nih.gov/42498092/#full-view-affiliation-4 "Shihezi University School of Medicine, Shihezi 832000, China; The First Affiliated Hospital of Shihezi University, Shihezi 832000, China; NHC Key Laboratory of Prevention and Treatment of Central Asia High Incidence Diseases, Shihezi 32000, China; The Clinical Research Center for Infectious Diseases of Xinjiang Production and Construction Corps, Shihezi 832000, China. Electronic address: wxwshz@126.com."),[Xueling Chen](https://pubmed.ncbi.nlm.nih.gov/?term=Chen+X&cauthor_id=42498092)[5](https://pubmed.ncbi.nlm.nih.gov/42498092/#full-view-affiliation-5 "Shihezi University School of Medicine, Shihezi 832000, China; NHC Key Laboratory of Prevention and Treatment of Central Asia High Incidence Diseases, Shihezi 32000, China; The Clinical Research Center for Infectious Diseases of Xinjiang Production and Construction Corps, Shihezi 832000, China. Electronic address: chenxueling@shzu.edu.cn.")
+
+Affiliations
+
+*    PMID: **42498092**
+*    DOI: [10.1016/j.cellsig.2026.112759](https://doi.org/10.1016/j.cellsig.2026.112759)
+
+## Integrative multi-omics profiling reveals DRG1 promotes hepatocellular carcinoma via c-Myc phosphorylation and facilitates lenvatinib resistance
+
+Peng Wang et al. Cell Signal.2026.
+
+## Abstract
+
+**Background & aims:** Developmentally regulated GTP-binding protein 1 (DRG1), a member of the GTPase family, has been implicated in cancer progression; however, its biological function and therapeutic relevance in hepatocellular carcinoma (HCC) remain poorly understood. This study aimed to define the role of DRG1 in HCC progression and uncover its underlying regulatory mechanisms.
+
+**Methods:** Multi-omics analyses, clinical tissue validation, in vitro functional assays, and in vivo xenograft models were integrated to investigate the biological function, regulatory mechanism, and therapeutic relevance of DRG1 in HCC.
+
+**Results:** DRG1 was significantly upregulated in HCC tissues and associated with aggressive clinicopathological characteristics and poor patient survival. Integrated single-cell and spatial transcriptomic analyses revealed preferential DRG1 expression in malignant regions and its association with an immunosuppressive tumor microenvironment. Mechanistically, DRG1 promoted HCC cell proliferation through regulation of c-Myc activation, while HDAC2 was identified as an upstream regulator of DRG1 expression. Furthermore, DRG1 depletion enhanced sensitivity to lenvatinib treatment in HCC models.
+
+**Conclusions:** Our findings identify DRG1 as a potential prognostic biomarker and therapeutic target in HCC. The HDAC2-DRG1-c-Myc regulatory network contributes to malignant progression, while DRG1 inhibition represents a potential strategy to improve lenvatinib response.
+
+**Keywords:** C-Myc; DRG1; HCC; HDAC2; Proliferation.
+
+Copyright © 2026. Published by Elsevier Inc.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declaration of competing interest The authors declare the following financial interests/personal relationships which may be considered as potential competing interests. Xueling Chen reports financial support was provided by National Natural Science Foundation of China. Xueling Chen reports financial support was provided by Tianshan Young Talent Scientific and Technological Innovation Team. Xueling Chen reports financial support was provided by Corps Guidance Science and Technology Plan Project. Xueling Chen reports financial support was provided by Shihezi University Scientific Research Project. Reports a relationship with that includes:. Has patent pending to. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+## Similar articles
+
+*   [Multi-omics and artificial intelligence nominate PCLAF as a prognostic and druggable target for hepatitis B virus-associated hepatocellular carcinoma.](https://pubmed.ncbi.nlm.nih.gov/42486346/)
+
+Shu F, Chen Y, Yang X, Gou G, Li G, Yu J, Wang F, Liu Y, Du Q, Xu J, Xie R.Shu F, et al.Cell Signal. 2026 Jul 22:112753. doi: 10.1016/j.cellsig.2026.112753. Online ahead of print.Cell Signal. 2026.PMID: 42486346 
+*   [A novel diagnostic and prognostic biomarker FSD1L facilitates EMT and Lenvatinib resistance via the WNT/β-catenin pathway in hepatocellular carcinoma.](https://pubmed.ncbi.nlm.nih.gov/41935591/)
+
+Zhou Y, Hu G, Zhou L, Zhou J, Jiang Y, Luo F.Zhou Y, et al.Cell Signal. 2026 Aug;144:112514. doi: 10.1016/j.cellsig.2026.112514. Epub 2026 Apr 2.Cell Signal. 2026.PMID: 41935591 
+*   [HDAC2-mediated chromatin remodeling drives hepatocellular carcinoma progression: an integrative analysis of computational pathology and multi-transcriptomics.](https://pubmed.ncbi.nlm.nih.gov/41366455/)
+
+Yin S, Zhou X, Jiang L, Gu Y, Dai J, Chen H, Zhang S, Lu J, Huang G, Jiang Y, Sang X, Yuan K, Yang H, Yang G, Huang S, Chi H, Xu K.Yin S, et al.J Transl Med. 2025 Dec 9;24(1):64. doi: 10.1186/s12967-025-07517-9.J Transl Med. 2025.PMID: 41366455 Free PMC article. 
+*   [Multi-omics analysis of NEDD1 in hepatocellular carcinoma: biological function, prognostic value, and clinical significance.](https://pubmed.ncbi.nlm.nih.gov/41775913/)
+
+Chen Y, Wan Z, Xie H, Zhou X, Peng T.Chen Y, et al.Sci Rep. 2026 Mar 3;16(1):11383. doi: 10.1038/s41598-026-42505-z.Sci Rep. 2026.PMID: 41775913 Free PMC article. 
+*   [Integrated Multi-Omics and Spatial Transcriptomics Identify FBLL1 as a Malignant Transformation Driver in Hepatocellular Carcinoma.](https://pubmed.ncbi.nlm.nih.gov/41677613/)
+
+Xie J, Guo S, Xiao Y, Zhang Y, Hong A, Chen X.Xie J, et al.Cells. 2026 Jan 27;15(3):246. doi: 10.3390/cells15030246.Cells. 2026.PMID: 41677613 Free PMC article.

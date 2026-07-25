@@ -1,0 +1,67 @@
+Title: An experimentally validated structure-based computational framework for humanisation of anti-orthopoxvirus antibodies - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42497650/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 24:130:106405.
+
+doi: 10.1016/j.ebiom.2026.106405.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42497650**
+*    DOI: [10.1016/j.ebiom.2026.106405](https://doi.org/10.1016/j.ebiom.2026.106405)
+
+## An experimentally validated structure-based computational framework for humanisation of anti-orthopoxvirus antibodies
+
+Xuehua Yang et al. EBioMedicine.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+**Background:** The re-emergence of orthopoxviruses, most notably mpox virus (MPXV), poses a growing global public health threat. Well-characterised murine anti-orthopoxvirus antibodies are clinically limited by anti-mouse antibody responses, while traditional sequence-based humanisation often impairs antigen-binding activity.
+
+**Methods:** We developed an experimentally validated structure-guided computational humanisation framework prioritising 3D architectural congruence over sequence identity, integrating Foldseek-based structural alignment and interface-residue constraints. We applied this framework to humanise two murine anti-orthopoxvirus antibodies (7D11, A27D7), with comprehensive in vitro and in vivo validation.
+
+**Findings:** Structural superimposition confirmed high conformational conservation between the humanised variants (POX1.1 and POX2.1) and their parental mAbs, with root mean square deviation (RMSD) values below 0.6 Å for all variable domains. Both humanised variants retained full epitope specificity with natural humanness profiles. POX1.1 showed enhanced neutralisation potency against vaccinia virus (VACV) and MPXV, compared with the parental 7D11. POX2.1 preserved the broad cross-reactive binding and the extracellular enveloped virion neutralising activity of the parental A27D7. In the lethal VACV mouse model, both monotherapies conferred significant prophylactic and therapeutic protection, reducing pulmonary viral loads and improving survival. The dual-targeting combination of POX1.1 and POX2.1 achieved markedly improved in vivo efficacy compared with individual antibodies, delivering 100% survival even when administered 2 days post-challenge. In the MPXV CAST/EiJ mouse model, the combination significantly reduced splenomegaly and MPXV DNA loads in plasma, spleen and lung tissues, effectively suppressing systemic viral dissemination.
+
+**Interpretation:** These findings establish that the structure-centric workflow enables efficient humanisation of well-characterised murine anti-orthopoxvirus antibodies, providing a validated framework to support the development of countermeasures for orthopoxvirus pandemic.
+
+**Funding:** This work was supported by the National Natural Science Foundation of China, the Chinese Academy of Medical Sciences Innovation Fund for Medical Sciences, the Scientific Research Innovation Capability Support Project for Young Faculty and the National Science and Technology Major Project.
+
+**Keywords:** Antibody humanisation; Mpox virus; Orthopoxvirus; Structure-guided design; Therapeutic antibodies.
+
+Copyright © 2026 The Author(s). Published by Elsevier B.V. All rights reserved.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declaration of interests Patent applications have been filed that cover POX1.1 and POX2.1 presented here. W.Y., X.Y., X.D., X.C. and X.L. are inventors. The other authors declare no competing interests.
+
+## Similar articles
+
+*   [Comparative pathogenicity of vaccinia virus and mpox virus infections in CAST/EiJ mice: Exploring splenomegaly and transcriptomic profiles.](https://pubmed.ncbi.nlm.nih.gov/40275745/)
+
+Hou Y, Ma J, Huang B, Li N, Zhu L, Jia Z, Yang J, Zhang J, Tan W, Xue J.Hou Y, et al.Animal Model Exp Med. 2025 Aug;8(8):1376-1386. doi: 10.1002/ame2.70026. Epub 2025 Apr 25.Animal Model Exp Med. 2025.PMID: 40275745 Free PMC article. 
+*   [The impact of orthopoxvirus vaccination and Mpox infection on cross-protective immunity: a multicohort observational study.](https://pubmed.ncbi.nlm.nih.gov/40311645/)
+
+Crandell J, Monteiro VS, Pischel L, Fang Z, Conde L, Zhong Y, Lawres L, de Asis GM, Maciel G, Zaleski A, Lira GS, Higa LM, Breban MI, Vogels CBF, Caria J, Pinto AR, Almeida V, Maltez F, Cordeiro R, Póvoas D, Grubaugh ND, Aoun-Barakat L, Grifoni A, Sette A, Castineiras TM, Chen S, Yildirim I, Vale AM, Omer SB, Lucas C.Crandell J, et al.Lancet Microbe. 2025 Jul;6(7):101098. doi: 10.1016/j.lanmic.2025.101098. Epub 2025 Apr 28.Lancet Microbe. 2025.PMID: 40311645 
+*   [Neutralising antibody responses to MPXV clades Ia, Ib, and IIb after infection or vaccination: a multicountry observational study.](https://pubmed.ncbi.nlm.nih.gov/42314719/)
+
+Crandell J, Fantin RF, de Araújo LP, Lawres L, Pischel L, Monteiro VS, Conde L, Kottkamp AC, Samanovic MI, Cordeiro R, Póvoas D, Melo M, Castineiras TM, Vale AM, Yildirim I, Mulligan MJ, de Almeida LA, Omer SB, Coelho CH, Lucas C.Crandell J, et al.Lancet Infect Dis. 2026 Jun 18:S1473-3099(26)00173-8. doi: 10.1016/S1473-3099(26)00173-8. Online ahead of print.Lancet Infect Dis. 2026.PMID: 42314719 
+*   [mRNA vaccines against monkeypox: bridging immunoinformatics, structural vaccinology, and translational advances toward pan-orthopox immunity.](https://pubmed.ncbi.nlm.nih.gov/41941064/)
+
+Abuhassan Q, Saleh K, Jyothi SR, Samantsinghar P, Prakash P, Mukherjee G, Sinha A, Boyqulov T.Abuhassan Q, et al.Folia Microbiol (Praha). 2026 Apr 6. doi: 10.1007/s12223-026-01469-3. Online ahead of print.Folia Microbiol (Praha). 2026.PMID: 41941064 Review. 
+*   [Folic acid supplementation and malaria susceptibility and severity among people taking antifolate antimalarial drugs in endemic areas.](https://pubmed.ncbi.nlm.nih.gov/36321557/)
+
+Crider K, Williams J, Qi YP, Gutman J, Yeung L, Mai C, Finkelstain J, Mehta S, Pons-Duran C, Menéndez C, Moraleda C, Rogers L, Daniels K, Green P.Crider K, et al.Cochrane Database Syst Rev. 2022 Feb 1;2(2022):CD014217. doi: 10.1002/14651858.CD014217.Cochrane Database Syst Rev. 2022.PMID: 36321557 Free PMC article.Updated.

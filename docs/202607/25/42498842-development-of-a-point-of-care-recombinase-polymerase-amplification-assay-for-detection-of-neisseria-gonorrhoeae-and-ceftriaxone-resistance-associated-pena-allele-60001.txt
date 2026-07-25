@@ -1,0 +1,74 @@
+Title: Development of a Point-of-Care Recombinase Polymerase Amplification Assay for Detection of Neisseria gonorrhoeae and Ceftriaxone-Resistance Associated penA Allele 60.001 - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42498842/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 24.
+
+doi: 10.1007/s40291-026-00868-z.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42498842**
+*    DOI: [10.1007/s40291-026-00868-z](https://doi.org/10.1007/s40291-026-00868-z)
+
+## Development of a Point-of-Care Recombinase Polymerase Amplification Assay for Detection of Neisseria gonorrhoeae and Ceftriaxone-Resistance Associated penA Allele 60.001
+
+Xia Sun et al. Mol Diagn Ther.2026.
+
+## Abstract
+
+**Background:** Neisseria gonorrhoeae is a global public health threat, exacerbated by the rapid dissemination of ceftriaxone-resistant strains harboring penA allele 60.001. Current diagnostics are limited by long turnaround times, reliance on thermal cycling equipment, and poor suitability for resource-limited settings.
+
+**Methods:** We developed an isothermal recombinase polymerase amplification assay coupled with a lateral flow strip (RPA-LFS) for separate identification of N. gonorrhoeae and the ceftriaxone resistance-associated SNP C932T (A311V) in penA 60.001 and limited closely related alleles. Species detection employed an RPA-Nfo probe targeting the conserved porA pseudogene. Resistance detection employed an allele-specific amplification refractory mutation system RPA (ARMS-RPA) strategy, incorporating artificial mismatches to specifically discriminate the C932T SNP. Assay performance was evaluated using genomic DNA of a panel of gonococcal and non-gonococcal strains and validated directly on unprocessed clinical urine samples.
+
+**Results:** The porA RPA-LFS assay demonstrated a detection limit of 30 fg of genomic DNA with no cross-reactivity against closely related Neisseria species or other bacterial pathogens. The mismatch penA 60.001 RPA-LFS assay achieved a detection limit of 300 fg and exhibited absolute analytical specificity, with no amplification observed from wild-type or other mosaic penA alleles. Validation using 50 clinical urine samples yielded 100% concordance (95% CI: 92.9-100%) with gonorrhoea identification by reference nucleic acid amplification tests, with 100% sensitivity (95% CI: 87.1-100%) and 100% specificity (95% CI: 85.7-100%), and 100% concordance (95% CI: 85.7-100%) with resistance allele detection, with 100% sensitivity (95% CI: 67.6-100%) and 100% specificity (95% CI: 79.6-100%).
+
+**Conclusions:** This integrated RPA-LFS platform provides rapid detection of gonococcal infections and ceftriaxone resistance without requiring a thermal cycler, delivering visual results within 20 minutes. The assay represents a promising point-of-care solution for timely diagnosis, targeted antibiotic therapy, and resistance surveillance in resource-limited settings, though further validation on diverse specimen types and integration of an internal amplification control are needed.
+
+© 2026. The Author(s), under exclusive licence to Springer Nature Switzerland AG.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Funding: This work was supported by the National Natural Science Foundation of China [grant numbers 82572622, 82272382, 82150610507]; and the Zhejiang Province Natural Science Foundation [grant number LZ24H190001]. The funders had no role in study design, data collection and interpretation, writing of the report, or the decision to submit the work for publication. Conflict of Interest: Yi Liu and Qiongyao Liu are employed by Amp-Future Biotech, which aims to commercialize the developed RPA-LFS assay. Xia Sun, Ying Fu, Luxia Chen, Jiang Zhu, Xu’ai Lin, Hao Cheng and Stijn van der Veen declare no conflicts of interest. Ethics Approval: Ethical approval was obtained from The Sir Run Run Shaw Hospital Ethics Committee [approval number 2025-2014-01] and the study is in accordance with the principles of the Declaration of Helsinki. Consent to Participate: Not applicable as all clinical samples were anonymized. Data Availability: All generated data are available in the article and its table and figures. Code availability: Not applicable Author Contributions: Xia Sun: Formal analysis, Methodology, Investigation, Writing – original draft. Ying Fu: Investigation, Resources. Yi Liu: Methodology, Investigation, Resources. Qiongyao Liu: Methodology, Investigation, Resources. Luxia Chen: Investigation, Resources. Jiang Zhu: Investigation, Resources. Xu’ai Lin: Formal analysis, Methodology, Writing – review and editing. Hao Cheng: Formal analysis, Resources, Writing – review and editing. Stijn van der Veen: Conceptualization, Data curation, Formal analysis, Funding acquisition, Methodology, Project administration, Resources, Supervision, Visualization, Writing – original draft. All authors have read and approved the final version.
+
+## Similar articles
+
+*   [Rapid detection of ceftriaxone-resistant _Neisseria gonorrhoeae_: evaluation of HRM, LAMP, and qPCR targeting _penA_-60.001.](https://pubmed.ncbi.nlm.nih.gov/42200629/)
+
+Zhao Y, Dai L, Hu L, Lu M, Chen S, Jiang F, Huang J.Zhao Y, et al.Microbiol Spectr. 2026 Jul 7;14(7):e0051426. doi: 10.1128/spectrum.00514-26. Epub 2026 May 27.Microbiol Spectr. 2026.PMID: 42200629 Free PMC article. 
+*   [Molecular detection of ceftriaxone resistance in _Neisseria gonorrhoeae_ clinical specimens: a tool for public health control.](https://pubmed.ncbi.nlm.nih.gov/38925934/)
+
+Day MJ, Boampong D, Pitt R, Bari A, Rebec M, Saunders J, Fifer H, Mbisa JL, Cole MJ.Day MJ, et al.Sex Transm Infect. 2024 Oct 17;100(7):454-456. doi: 10.1136/sextrans-2024-056132.Sex Transm Infect. 2024.PMID: 38925934 
+*   [Loop-Mediated Isothermal Amplification Assay for Identifying Neisseria gonorrhoeae Nonmosaic _penA-_ Targeting Strains Potentially Eradicable by Cefixime.](https://pubmed.ncbi.nlm.nih.gov/36000906/)
+
+Shimuta K, Takahashi H, Akeda Y, Nakayama SI, Ohnishi M.Shimuta K, et al.Microbiol Spectr. 2022 Oct 26;10(5):e0233522. doi: 10.1128/spectrum.02335-22. Epub 2022 Aug 24.Microbiol Spectr. 2022.PMID: 36000906 Free PMC article. 
+*   [A real-time PCR assay for detecting a penA mutation associated with ceftriaxone resistance in Neisseria gonorrhoeae.](https://pubmed.ncbi.nlm.nih.gov/30825697/)
+
+Shimuta K, Igawa G, Yasuda M, Deguchi T, Nakayama SI, Ohnishi M.Shimuta K, et al.J Glob Antimicrob Resist. 2019 Dec;19:46-49. doi: 10.1016/j.jgar.2019.02.011. Epub 2019 Feb 27.J Glob Antimicrob Resist. 2019.PMID: 30825697 
+*   [Recombinant polymerase amplification combined with lateral flow strips for the detection of deep-seated _Candida krusei_ infections.](https://pubmed.ncbi.nlm.nih.gov/36004333/)
+
+Zhao M, Wang X, Wang K, Li Y, Wang Y, Zhou P, Wang L, Zhu W.Zhao M, et al.Front Cell Infect Microbiol. 2022 Jul 29;12:958858. doi: 10.3389/fcimb.2022.958858. eCollection 2022.Front Cell Infect Microbiol. 2022.PMID: 36004333 Free PMC article. 
+
+## References
+
+1.       1.    Quillin SJ, Seifert HS. Neisseria gonorrhoeae host adaptation and pathogenesis. Nat Rev Microbiol. 2018;16(4):226–40. - [DOI](https://doi.org/10.1038/nrmicro.2017.169) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/29430011/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/6329377/)
+
+2.       1.    Unemo M, Seifert HS, Hook EW 3rd, Hawkes S, Ndowa F, Dillon JR. Gonorrhoea. Nat Rev Dis Primers. 2019;5(1):79. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/31754194/) - [DOI](https://doi.org/10.1038/s41572-019-0128-6)
+
+3.       1.    Ayfan AKS, Macdonald J, Irwin AD, Zowawi HM, Forde BM, Paterson DL, et al. Proof-of-concept, rapid, instrument-free molecular detection of Neisseria gonorrhoeae and ciprofloxacin susceptibility. J Antimicrob Chemother. 2022;77(11):2933–6. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/35880750/) - [DOI](https://doi.org/10.1093/jac/dkac242)
+
+4.       1.    Donà V, Low N, Golparian D, Unemo M. Recent advances in the development and use of molecular tests to predict antimicrobial resistance in Neisseria gonorrhoeae. Expert Rev Mol Diagn. 2017;17(9):845–59. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/28741392/) - [DOI](https://doi.org/10.1080/14737159.2017.1360137)
+
+5.       1.    Shaskolskiy B, Kandinov I, Kravtsov D, Filippova M, Chestkov A, Solomka V, et al. Prediction of ceftriaxone MIC in Neisseria gonorrhoeae using DNA microarray technology and regression analysis. J Antimicrob Chemother. 2021;76(12):3151–8. - [PubMed](https://pubmed.ncbi.nlm.nih.gov/34458918/) - [DOI](https://doi.org/10.1093/jac/dkab308)
+
+## Grants and funding
+
+*   [82572622/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82572622%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82572622/National Natural Science Foundation of China")
+*   [82272382/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82272382%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82272382/National Natural Science Foundation of China")
+*   [82150610507/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82150610507%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82150610507/National Natural Science Foundation of China")
+*   [LZ24H190001/Natural Science Foundation of Zhejiang Province](https://pubmed.ncbi.nlm.nih.gov/?term=LZ24H190001%2FNatural+Science+Foundation+of+Zhejiang+Province%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant LZ24H190001/Natural Science Foundation of Zhejiang Province")

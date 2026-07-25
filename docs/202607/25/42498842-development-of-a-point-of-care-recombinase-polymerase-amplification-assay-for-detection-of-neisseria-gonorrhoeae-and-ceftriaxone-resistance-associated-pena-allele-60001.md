@@ -1,0 +1,22 @@
+---
+title: Development of a Point-of-Care Recombinase Polymerase Amplification Assay for Detection of Neisseria gonorrhoeae and Ceftriaxone-Resistance Associated penA Allele 60.001.
+title_zh: 用于检测淋球菌及头孢曲松耐药相关 penA 等位基因 60.001 的即时检测重组酶聚合酶扩增方法的开发
+authors: "Xia Sun, Ying Fu, Yi Liu, Qiongyao Liu, Luxia Chen, Jiang Zhu, Xu'ai Lin, Hao Cheng, Stijn van der Veen"
+date: 2026-07-24
+pdf: "https://pubmed.ncbi.nlm.nih.gov/42498842/"
+tags: ["query:pathoai"]
+score: 6.0
+evidence: 使用分子检测方法检测病原体及抗生素耐药相关等位基因
+tldr: "针对淋球菌及其头孢曲松耐药性检测依赖昂贵设备且耗时长的难题，本研究开发了一种基于等温重组酶聚合酶扩增（RPA）结合侧流层析试纸条（LFS）的快速检测平台。该方法通过靶向porA基因识别物种，并利用ARMS-RPA技术精准区分penA 60.001耐药突变。实验证明该平台在20分钟内即可提供可视化结果，且在临床尿液样本中达到了100%的准确率，为资源匮乏地区的即时诊断和精准用药提供了高效方案。"
+selection_source: fresh_fetch
+motivation: 淋球菌耐药性传播迅速，但现有诊断技术因依赖复杂热循环设备且检测周期长，难以在资源受限地区实现即时检测。
+method: 采用等温RPA技术结合侧流层析试纸条，通过引入人工错配的ARMS-RPA策略，实现了对淋球菌物种及特定耐药基因突变（C932T）的快速识别。
+result: "该检测平台在20分钟内即可完成，对临床尿液样本的检测灵敏度和特异性均达到100%，且检测限低至30-300 fg基因组DNA。"
+conclusion: 该集成化RPA-LFS平台无需复杂仪器即可实现淋球菌感染及耐药性的可视化即时诊断，具有极高的临床应用和耐药监测价值。
+---
+
+## 摘要
+背景：淋球菌是全球公共卫生的威胁，携带 penA 等位基因 60.001 的头孢曲松耐药菌株的快速传播加剧了这一威胁。目前的诊断方法受限于周转时间长、依赖热循环设备以及在资源有限地区适用性差。方法：我们开发了一种结合侧流层析试纸条的等温重组酶聚合酶扩增检测方法（RPA-LFS），用于分别鉴定淋球菌以及 penA 60.001 和有限的相关等位基因中的头孢曲松耐药相关 SNP C932T (A311V)。物种检测采用针对保守 porA 假基因的 RPA-Nfo 探针。耐药性检测采用等位基因特异性扩增阻碍突变系统 RPA（ARMS-RPA）策略，通过引入人工错配来特异性区分 C932T SNP。使用一组淋球菌和非淋球菌菌株的基因组 DNA 评估了检测性能，并直接在未经处理的临床尿液样本上进行了验证。结果：porA RPA-LFS 检测的基因组 DNA 检出限为 30 fg，与近缘奈瑟菌属物种或其他细菌病原体无交叉反应。错配 penA 60.001 RPA-LFS 检测的检出限为 300 fg，并表现出绝对的分析特异性，未观察到野生型或其他镶嵌型 penA 等位基因的扩增。使用 50 份临床尿液样本进行的验证显示，与参考核酸扩增检测的淋病鉴定结果符合率为 100%（95% CI: 92.9-100%），灵敏度为 100%（95% CI: 87.1-100%），特异性为 100%（95% CI: 85.7-100%）；与耐药等位基因检测结果的符合率为 100%（95% CI: 85.7-100%），灵敏度为 100%（95% CI: 67.6-100%），特异性为 100%（95% CI: 79.6-100%）。结论：这种集成的 RPA-LFS 平台无需热循环仪即可快速检测淋球菌感染和头孢曲松耐药性，并在 20 分钟内提供可视化结果。该检测方法为资源有限地区的及时诊断、针对性抗生素治疗和耐药性监测提供了一种极具前景的即时检测解决方案，尽管仍需在多种标本类型上进行进一步验证并集成内部扩增对照。
+
+## Abstract
+BACKGROUND: Neisseria gonorrhoeae is a global public health threat, exacerbated by the rapid dissemination of ceftriaxone-resistant strains harboring penA allele 60.001. Current diagnostics are limited by long turnaround times, reliance on thermal cycling equipment, and poor suitability for resource-limited settings. METHODS: We developed an isothermal recombinase polymerase amplification assay coupled with a lateral flow strip (RPA-LFS) for separate identification of N. gonorrhoeae and the ceftriaxone resistance-associated SNP C932T (A311V) in penA 60.001 and limited closely related alleles. Species detection employed an RPA-Nfo probe targeting the conserved porA pseudogene. Resistance detection employed an allele-specific amplification refractory mutation system RPA (ARMS-RPA) strategy, incorporating artificial mismatches to specifically discriminate the C932T SNP. Assay performance was evaluated using genomic DNA of a panel of gonococcal and non-gonococcal strains and validated directly on unprocessed clinical urine samples. RESULTS: The porA RPA-LFS assay demonstrated a detection limit of 30 fg of genomic DNA with no cross-reactivity against closely related Neisseria species or other bacterial pathogens. The mismatch penA 60.001 RPA-LFS assay achieved a detection limit of 300 fg and exhibited absolute analytical specificity, with no amplification observed from wild-type or other mosaic penA alleles. Validation using 50 clinical urine samples yielded 100% concordance (95% CI: 92.9-100%) with gonorrhoea identification by reference nucleic acid amplification tests, with 100% sensitivity (95% CI: 87.1-100%) and 100% specificity (95% CI: 85.7-100%), and 100% concordance (95% CI: 85.7-100%) with resistance allele detection, with 100% sensitivity (95% CI: 67.6-100%) and 100% specificity (95% CI: 79.6-100%). CONCLUSIONS: This integrated RPA-LFS platform provides rapid detection of gonococcal infections and ceftriaxone resistance without requiring a thermal cycler, delivering visual results within 20 minutes. The assay represents a promising point-of-care solution for timely diagnosis, targeted antibiotic therapy, and resistance surveillance in resource-limited settings, though further validation on diverse specimen types and integration of an internal amplification control are needed.

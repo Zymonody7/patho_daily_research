@@ -1,0 +1,22 @@
+---
+title: Salivary Dipeptides and Microbiota Multiomics Biomarkers of Caries.
+title_zh: 唾液二肽与微生物群多组学龋病生物标志物
+authors: "S Haworth, A Esberg, L Eriksson, H Ahmed, C I Mack, S Noerman, E Nordin, B Egert, K Hanhineva, R Landberg, C Brunius, I Johansson"
+date: 2026-07-24
+pdf: "https://pubmed.ncbi.nlm.nih.gov/42499215/"
+tags: ["query:bioinfo"]
+score: 7.0
+evidence: 结合微生物组和代谢组的多组学整合方法
+tldr: 龋齿是受宿主与微生物代谢交互影响的普遍疾病，但目前缺乏整合多组学的生物标志物研究。本研究通过对217名受试者的唾液进行16S rRNA测序、非靶向代谢组学及糖谱分析，利用嵌套交叉验证线性回归和OPLS模型整合多维数据。结果发现Ser-Pro等三种二肽与龋齿显著负相关，并识别出多种致龋及保护性菌群。该多组学框架为龋齿的精准预测和临床诊断提供了新的代谢标志物。
+selection_source: fresh_fetch
+motivation: 旨在通过整合微生物组、代谢组和临床数据，寻找能更准确反映龋齿发生风险的唾液多组学生物标志物。
+method: 采用全长16S rRNA测序、液相色谱-质谱（LC-MS）代谢组学及气相色谱-质谱（GC×GC-MS）糖谱分析，结合嵌套交叉验证线性回归进行特征筛选与模型构建。
+result: "识别出Ser-Pro等三种与龋齿负相关的二肽，以及多种致龋菌群和保护性菌群，整合模型对龋齿变异的解释度达到41%。"
+conclusion: 唾液中的Ser-Pro二肽是具有潜力的龋齿预防性生物标志物，多组学整合分析为理解口腔疾病的代谢机制提供了新视角。
+---
+
+## 摘要
+龋齿是一种普遍存在的疾病，由宿主与口腔微生物群之间的饮食和代谢相互作用所塑造。虽然独立的微生物组和代谢组分析提高了对龋病病因学的理解，但综合多组学方法仍未得到充分利用。我们旨在通过一项横断面研究，结合 217 名瑞典健康青少年和年轻成人的微生物组、代谢组、糖组以及饮食、口腔和人口统计学信息，鉴定龋病经历的唾液生物标志物。参与者接受了临床检查、饮食评估，并使用全长 16S rRNA 基因测序、非靶向液相色谱-质谱 (LC-MS) 代谢组学和基于二维气相色谱-质谱 (GC×GC-MS) 的糖谱分析进行了唾液分析。龋齿体征和修复体被总结为龋补牙面数（包括釉质龋）。使用嵌套交叉验证线性回归框架评估了龋病经历、人口统计学和组学指标之间的关联，该框架包含内层循环特征选择和外层循环性能评估，强调了跨交叉验证模型的效果方向稳定性和可重复性。随后使用正交偏最小二乘 (OPLS) 模型整合了选定的组学特征。三种唾液二肽（Ser-Pro、Phe-His 和 Thr-Gly）与龋病经历表现出强健的负相关。几种致龋分类群，包括变形链球菌 (Streptococcus mutans)、表兄链球菌 (Streptococcus sobrinus)、加氏乳杆菌 (Lactobacillus gasseri) 以及选定的放线菌属 (Actinomyces) 和普氏菌属 (Prevotella) 物种，与龋病经历呈正相关；而罗氏韦荣氏菌 (Veillonella rogosae)、Stomatobaculum sp. HMT-097 和其他分类群以及 5 种细菌预测酶与较低的龋病经历相关。饮食变量和唾液糖与龋病经历没有显示出一致的关联。结合人口统计学、微生物群组成、微生物预测酶和代谢组学的综合 OPLS 模型解释了 41% 的龋病变异 (R2 = 0.41)，交叉验证的预测能力为 30% (Q2 = 0.30)。这种基于唾液的多组学框架揭示了龋病经历的一致微生物和代谢特征。Ser-Pro 二肽表现出最强的负相关，值得在纵向队列中进行验证，以确定其作为新型龋病生物标志物的时间先后顺序和临床实用性。
+
+## Abstract
+Dental caries is a prevalent disease shaped by dietary and metabolic interactions between the host and oral microbiota. While separate microbiome and metabolome profiling have improved the understanding of caries etiology, integrated multiomics approaches remain underutilized. We aimed to identify salivary biomarkers of caries experience in a cross-sectional study combining microbiome, metabolome, sugarome, and diet, oral, and demographic information in 217 healthy Swedish adolescents and young adults. Participants underwent clinical examination, dietary assessment, and saliva analysis using full-length 16S rRNA gene sequencing, untargeted liquid chromatography-mass spectrometry (LC-MS) metabolomics, and 2-dimensional gas chromatography-MS (GC×GC-MS)-based sugar profiling. Caries signs and restorations were summarized as decayed and filled surfaces including enamel caries. Associations between caries experience, demographics, and omics measures were evaluated using a nested cross-validated linear-regression framework with inner-loop feature selection and outer-loop performance assessment, emphasizing effect-direction stability and reproducibility across cross-validation models. Selected OMICs features were then integrated using orthogonal partial least-squares (OPLS) modeling. Three salivary dipeptides (Ser-Pro, Phe-His, and Thr-Gly) showed robust inverse associations with caries experience. Several cariogenic taxa, including Streptococcus mutans, Streptococcus sobrinus, Lactobacillus gasseri, and selected Actinomyces and Prevotella species, were positively associated with caries experience, whereas Veillonella rogosae, Stomatobaculum sp. HMT-097, and other taxa as well as 5 bacteria-predicted enzymes were associated with lower caries experience. Dietary variables and salivary sugars showed no consistent associations with caries experience. An integrated OPLS model incorporating demographics, microbiota composition, microbial-predicted enzymes, and metabolomics explained 41% of the variation in caries (R2 = 0.41) with a cross-validated predictive ability of 30% (Q2 = 0.30). This saliva-based multiomics framework revealed coherent microbial and metabolic signatures of caries experience. The Ser-Pro dipeptide showed the strongest inverse association and warrants validation in longitudinal cohorts to establish temporal precedence and clinical utility as a novel caries biomarker.

@@ -11,58 +11,56 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-07-20
-- 运行时间：2026-07-20 21:53:24 UTC
+- 最新运行日期：2026-07-25
+- 运行时间：2026-07-25 21:41:13 UTC
 - 运行状态：成功
 - 本次总论文数：12
 - 精读区：5
 - 速读区：7
 
 ### 今日简报（AI）
-今日深度解析 12 篇前沿文献，聚焦临床宏基因组测序优化与药理学最新进展。
-核心突破在于通过屏蔽参考序列中的重复污染物显著提升测序特异性，并系统梳理了药理学前沿动态。
-建议关注测序技术改良对精准诊断的推动作用，以及针对多重耐药菌的噬菌体与纳米佐剂新策略。
-- 详情：[/202607/20/README](/202607/20/README)
+今日精选 12 篇前沿成果，重点攻克 AI 驱动的塑料降解酶发现与全球大肠杆
+- 详情：[/202607/25/README](/202607/25/README)
 
 ### 精读区论文标签
-1. [Pharmacological advances in](/202607/20/42474134-pharmacological-advances-in)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：AI引导的发现和多组学分析用于病原体靶点识别和耐药性治疗
-2. [Masking recurrent contaminants in reference sequences improves specificity of clinical metagenomic sequencing.](/202607/20/42474352-masking-recurrent-contaminants-in-reference-sequences-improves-specificity-of-clinical-metagenomic-sequencing)  
-   标签：评分：9.0/10、query:pathoai
-   evidence：提高宏基因组病原体检测特异性的计算策略
-3. [scTIDE: Deciphering Critical Transitions Through Cell-Perturbed Manifold Graphs and Optimal Transport Conditional Flow Matching.](/202607/20/42474679-sctide-deciphering-critical-transitions-through-cell-perturbed-manifold-graphs-and-optimal-transport-conditional-flow-matching)  
+1. [Artificial intelligence-assisted mining of polyethylene terephthalate hydrolases.](/202607/25/41937001-artificial-intelligence-assisted-mining-of-polyethylene-terephthalate-hydrolases)  
    标签：评分：9.0/10、query:bioinfo
-   evidence：用于单细胞状态转换的细胞扰动流形图和最优传输
-4. [Proteomic analysis reveals modulation of key proteins in follicular thyroid cancer progression.](/202607/20/40394764-proteomic-analysis-reveals-modulation-of-key-proteins-in-follicular-thyroid-cancer-progression)  
-   标签：评分：8.0/10、query:seqai
-   evidence：蛋白质组学分析和机器学习用于癌症进展中的候选蛋白质优先级排序
-5. ["Midas Touch": Revealing the Collaborative Mechanism of Nanoconfined Aggregation-Induced Luminescence and Antibody Recognition for AI-Assisted Pathogen Immunochromatographic Detection.](/202607/20/42473966-midas-touch-revealing-the-collaborative-mechanism-of-nanoconfined-aggregation-induced-luminescence-and-antibody-recognition-for-ai-assisted-pathogen-immunochromatographic-detection)  
+   evidence：AI用于酶结构和功能预测
+2. [Global genomic surveillance of β-lactam resistance in Escherichia coli across human, animal, and environmental reservoirs.](/202607/25/42498094-global-genomic-surveillance-of--lactam-resistance-in-escherichia-coli-across-human-animal-and-environmental-reservoirs)  
+   标签：评分：9.0/10、query:pathoai
+   evidence：大肠杆菌的全球基因组监测和耐药性预测
+3. [Knowledge-driven interpretable neural networks for mechanistic insight.](/202607/25/42498492-knowledge-driven-interpretable-neural-networks-for-mechanistic-insight)  
+   标签：评分：9.0/10、query:bioinfo
+   evidence：知识驱动的可解释神经网络，用于从组学数据中获取机制见解
+4. [PathMED: An R toolkit for single-sample molecular scoring and machine learning with omics data.](/202607/25/42496598-pathmed-an-r-toolkit-for-single-sample-molecular-scoring-and-machine-learning-with-omics-data)  
+   标签：评分：8.0/10、query:bioinfo
+   evidence：用于组学数据机器学习和分子评分的R工具包
+5. [An experimentally validated structure-based computational framework for humanisation of anti-orthopoxvirus antibodies.](/202607/25/42497650-an-experimentally-validated-structure-based-computational-framework-for-humanisation-of-anti-orthopoxvirus-antibodies)  
    标签：评分：8.0/10、query:pathoai
-   evidence：AI辅助病原体免疫层析检测
+   evidence：抗正痘病毒抗体设计的计算框架
 
 ### 速读区论文标签
-1. [Adenosine Triphosphate-Coated Gold Nanoclusters as Evolutionary Adjuvants Suppress](/202607/20/42378101-adenosine-triphosphate-coated-gold-nanoclusters-as-evolutionary-adjuvants-suppress)  
+1. [Targeting the virulence factor suilysin: a structure-guided discovery of chebulinic acid as a potent antivirulence agent.](/202607/25/42235356-targeting-the-virulence-factor-suilysin-a-structure-guided-discovery-of-chebulinic-acid-as-a-potent-antivirulence-agent)  
    标签：评分：7.0/10、query:pathoai
-   evidence：用于抗菌素耐药轨迹的全基因组分析
-2. [Genomic characterization and therapeutic potential of five broad-spectrum lytic bacteriophages against multidrug-resistant avian pathogenic](/202607/20/42473042-genomic-characterization-and-therapeutic-potential-of-five-broad-spectrum-lytic-bacteriophages-against-multidrug-resistant-avian-pathogenic)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：针对多重耐药病原体的噬菌体基因组表征
-3. [Structural and Mechanistic Insights into FgGWT1 as the Target of Aminopyrifen in](/202607/20/42473880-structural-and-mechanistic-insights-into-fggwt1-as-the-target-of-aminopyrifen-in)  
-   标签：评分：7.0/10、query:pathoai
-   evidence：病原体靶点识别和同源建模用于杀菌剂设计
-4. [Unraveling the diversity and functional potential of cyanosphere microbiomes assembled from terrestrial cyanobacteria.](/202607/20/42474201-unraveling-the-diversity-and-functional-potential-of-cyanosphere-microbiomes-assembled-from-terrestrial-cyanobacteria)  
-   标签：评分：7.0/10、query:seqai
-   evidence：使用宏基因组测序从微生物培养物中重建宏基因组组装基因组 (MAGs)
-5. [Beyond Dominant Symbionts: Low-Abundance Taxa Govern Microbial Network Topology in Sympatric Ticks.](/202607/20/42474711-beyond-dominant-symbionts-low-abundance-taxa-govern-microbial-network-topology-in-sympatric-ticks)  
-   标签：评分：7.0/10、query:seqai
-   evidence：16S rRNA 测序和病原体载体的微生物网络分析
-6. [Antibacterial drug discovery: challenges and preclinical promises from synthetic small molecules.](/202607/20/42347834-antibacterial-drug-discovery-challenges-and-preclinical-promises-from-synthetic-small-molecules)  
+   evidence：针对细菌毒力因子的结构指导抗毒力药物发现
+2. [Quantum convolutional HLA immunogenic peptide prediction (Q-CHIPP): Next-generation neoantigen prediction with quantum neural network.](/202607/25/42497272-quantum-convolutional-hla-immunogenic-peptide-prediction-q-chipp-next-generation-neoantigen-prediction-with-quantum-neural-network)  
+   标签：评分：7.0/10、query:bioinfo
+   evidence：用于免疫原性肽预测的量子神经网络
+3. [Integrative multi-omics profiling reveals DRG1 promotes hepatocellular carcinoma via c-Myc phosphorylation and facilitates lenvatinib resistance.](/202607/25/42498092-integrative-multi-omics-profiling-reveals-drg1-promotes-hepatocellular-carcinoma-via-c-myc-phosphorylation-and-facilitates-lenvatinib-resistance)  
+   标签：评分：7.0/10、query:bioinfo
+   evidence：整合多组学分析研究癌症耐药性
+4. [Salivary Dipeptides and Microbiota Multiomics Biomarkers of Caries.](/202607/25/42499215-salivary-dipeptides-and-microbiota-multiomics-biomarkers-of-caries)  
+   标签：评分：7.0/10、query:bioinfo
+   evidence：结合微生物组和代谢组的多组学整合方法
+5. [Enteric dysfunction and enteropathogens among hospitalized south Asian and sub-Saharan African children.](/202607/25/42497154-enteric-dysfunction-and-enteropathogens-among-hospitalized-south-asian-and-sub-saharan-african-children)  
    标签：评分：6.0/10、query:pathoai
-   evidence：针对多重耐药病原体的抗菌药物发现
-7. [RNA selectively modulates activity of virulent amyloid PSMα3 and host-defense LL-37 via phase separation and aggregation dynamics.](/202607/20/42474037-rna-selectively-modulates-activity-of-virulent-amyloid-psm3-and-host-defense-ll-37-via-phase-separation-and-aggregation-dynamics)  
+   evidence：肠道病原体与宿主肠道功能障碍的相关性
+6. [AI-based clinician decision support system for diagnosis of inherited retinal diseases: a multicenter, randomized trial.](/202607/25/42498742-ai-based-clinician-decision-support-system-for-diagnosis-of-inherited-retinal-diseases-a-multicenter-randomized-trial)  
+   标签：评分：6.0/10、query:bioinfo
+   evidence：使用 Vision Transformer 处理多模态数据进行基因型预测
+7. [Development of a Point-of-Care Recombinase Polymerase Amplification Assay for Detection of Neisseria gonorrhoeae and Ceftriaxone-Resistance Associated penA Allele 60.001.](/202607/25/42498842-development-of-a-point-of-care-recombinase-polymerase-amplification-assay-for-detection-of-neisseria-gonorrhoeae-and-ceftriaxone-resistance-associated-pena-allele-60001)  
    标签：评分：6.0/10、query:pathoai
-   evidence：金黄色葡萄球菌的宿主-病原体界面和毒力因子调节
+   evidence：使用分子检测方法检测病原体及抗生素耐药相关等位基因
 
 
 <div class="dpr-home-promo-card">
