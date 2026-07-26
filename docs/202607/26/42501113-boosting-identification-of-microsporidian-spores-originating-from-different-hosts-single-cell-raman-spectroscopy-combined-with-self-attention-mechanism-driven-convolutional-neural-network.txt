@@ -1,0 +1,73 @@
+Title: Boosting identification of microsporidian spores originating from different hosts: single-cell Raman spectroscopy combined with self-attention mechanism-driven convolutional neural network - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42501113/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 25.
+
+doi: 10.1007/s00216-026-06695-9.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42501113**
+*    DOI: [10.1007/s00216-026-06695-9](https://doi.org/10.1007/s00216-026-06695-9)
+
+## Boosting identification of microsporidian spores originating from different hosts: single-cell Raman spectroscopy combined with self-attention mechanism-driven convolutional neural network
+
+Mengjiao Xue et al. Anal Bioanal Chem.2026.
+
+## Abstract
+
+As a class of special intracellular parasites, the microsporidian pathogens parasitized in various hosts are shown to be a serious threat to agriculture production. Therefore, precise identification of microsporidian pathogens is crucial for controlling microsporidian-related agriculture diseases. However, conventional identification methods have shown limitations including low sensitivity, destructive operation, and complicated preprocessing. We proposed an advanced identification platform that integrates single-cell Raman spectroscopy with a self-attention mechanism (SAM)-driven convolutional neural network (CNN) configuration, which can realize convenient, non-destructive, high-precision identification of microsporidian spores from 11 various host sources at a single-cell resolution level. Considering that yielded microsporidian spores are difficult to cultivate, an interpolation algorithm-based spectra shifting approach was proposed to significantly enlarge the size of single-cell Raman spectra datasets, overcoming possible overfitting caused by training small samples of original Raman spectra datasets of microsporidian spores. Owing to the collaboration of both SAM and spectra augmentation, the averaged prediction accuracy of microsporidian spores from 11 various hosts can be significantly enhanced from 88.17% ± 1.05% provided by a single optimal CNN model to be as high as 95.16 ± 1.61% provided by the SAM-driven CNN configuration. To figure out which spectral features contributed to such high prediction accuracy, the global spectral features were systematically extracted by the SAM curve. These four highlighted Raman bands located at 541, 718, 915, and 1081 cm-1 were proposed to have an absolute high weight of 0.60, 0.85, 0.61, and 0.6, respectively. Moreover, another analytical method named blocking individual Raman band was supplemented to study the local classification weight of each characteristic band. These four highlighted Raman bands including 915, 718, 1081, and 1458 cm-1 mostly contributed to the high prediction accuracy. Interestingly, the yielded local feature weights were almost consistent with the global features extracted by the SAM curve, showing that our proposed identification methodology is reliable. It can be expected that the integral platform combining single-cell Raman spectroscopy with a SAM-driven CNN configuration can provide a precise analytical methodology at a single-cell level for identifying microsporidian spores in various parasitic hosts.
+
+**Keywords:** Blocking individual Raman band approach; Global spectra feature extraction; Precise identification of microsporidian spores; SAM-driven CNN configuration; Single-cell Raman spectroscopy.
+
+© 2026. The Author(s), under exclusive licence to Springer-Verlag GmbH, DE part of Springer Nature.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Precisely Identifying Growth Phases of Living Bacteria using Open-Set Deep Learning-Driven Single-Cell Raman Spectroscopy.](https://pubmed.ncbi.nlm.nih.gov/41823082/)
+
+Yuan Y, Sun Y, Du F, He L, Peng X, Qu J.Yuan Y, et al.Anal Chem. 2026 Apr 14;98(14):10676-10692. doi: 10.1021/acs.analchem.5c08187. Epub 2026 Mar 13.Anal Chem. 2026.PMID: 41823082 
+
+*   [Accurate identification of living Bacillus spores using laser tweezers Raman spectroscopy and deep learning.](https://pubmed.ncbi.nlm.nih.gov/36527970/)
+
+Du F, He L, Lu X, Li YQ, Yuan Y.Du F, et al.Spectrochim Acta A Mol Biomol Spectrosc. 2023 Mar 15;289:122216. doi: 10.1016/j.saa.2022.122216. Epub 2022 Dec 7.Spectrochim Acta A Mol Biomol Spectrosc. 2023.PMID: 36527970 
+*   [Rapid and accurate identification of marine bacteria spores at a single-cell resolution by laser tweezers Raman spectroscopy and deep learning.](https://pubmed.ncbi.nlm.nih.gov/38302112/)
+
+Hu J, He L, Wang G, Liu L, Wang Y, Song J, Qu J, Peng X, Yuan Y.Hu J, et al.J Biophotonics. 2024 May;17(5):e202300510. doi: 10.1002/jbio.202300510. Epub 2024 Feb 1.J Biophotonics. 2024.PMID: 38302112 
+*   [Folic acid supplementation and malaria susceptibility and severity among people taking antifolate antimalarial drugs in endemic areas.](https://pubmed.ncbi.nlm.nih.gov/36321557/)
+
+Crider K, Williams J, Qi YP, Gutman J, Yeung L, Mai C, Finkelstain J, Mehta S, Pons-Duran C, Menéndez C, Moraleda C, Rogers L, Daniels K, Green P.Crider K, et al.Cochrane Database Syst Rev. 2022 Feb 1;2(2022):CD014217. doi: 10.1002/14651858.CD014217.Cochrane Database Syst Rev. 2022.PMID: 36321557 Free PMC article.Updated. 
+
+## References
+
+1.       1.    Murareanu BM, Antao NV, Zhao W, Dubuffet A, El Alaoui H, Knox J, Ekiert DC, Bhabha G, Roy PJ, Reinke AW. High-throughput small molecule screen identifies inhibitors of microsporidia invasion and proliferation in C. elegans. Nat Commun. 2022;13(1):5653. - [DOI](https://doi.org/10.1038/s41467-022-33400-y) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/36163337/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/9513054/)
+
+2.       1.    Whelan TA, Fast NM. The microsporidia. Curr Biol. 2023;33(18):R936–8. - [DOI](https://doi.org/10.1016/j.cub.2023.06.076) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/37751700/)
+
+3.       1.    El Jarkass HT, Reinke AW. Isolation and identification of nematode-infecting microsporidia. Curr Protoc. 2024;4(5): e1035. - [DOI](https://doi.org/10.1002/cpz1.1035)
+
+4.       1.    Fayet M, Long M, Han B, Belkorchia A, Delbac F, Polonais V. New insights into microsporidia polar tube function and invasion mechanism. J Eukaryot Microbiol. 2024;71(5): e13043. - [DOI](https://doi.org/10.1111/jeu.13043) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/38973152/)
+
+5.       1.    Franzen C. Microsporidia: how can they invade other cells? Trends Parasitol. 2004;20(6):275–9. - [DOI](https://doi.org/10.1016/j.pt.2004.04.009) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/15147678/)
+
+## Grants and funding
+
+*   [62075137/12264005/32060777/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=62075137%2F12264005%2F32060777%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 62075137/12264005/32060777/National Natural Science Foundation of China")
+*   [2023A1515140161/Guangdong Basic and Applied Basic Research Foundation](https://pubmed.ncbi.nlm.nih.gov/?term=2023A1515140161%2FGuangdong+Basic+and+Applied+Basic+Research+Foundation%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2023A1515140161/Guangdong Basic and Applied Basic Research Foundation")
+*   [20231800936312/Dongguan Science and Technology of Social Development Program](https://pubmed.ncbi.nlm.nih.gov/?term=20231800936312%2FDongguan+Science+and+Technology+of+Social+Development+Program%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 20231800936312/Dongguan Science and Technology of Social Development Program")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Springer](https://dx.doi.org/10.1007/s00216-026-06695-9)

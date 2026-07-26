@@ -1,10 +1,16 @@
 # 知识库
 
-- 最近沉淀条目数：50
+- 最近沉淀条目数：52
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Boosting identification of microsporidian spores originating from different hosts: single-cell Raman spectroscopy combined with self-attention mechanism-driven convolutional neural network.](#/202607/26/202607/26/42501113-boosting-identification-of-microsporidian-spores-originating-from-different-hosts-single-cell-raman-spectroscopy-combined-with-self-attention-mechanism-driven-convolutional-neural-network)
+  - TLDR：针对微孢子虫病原体在农业生产中难以精准识别的问题，该研究提出了一种结合单细胞拉曼光谱与自注意力机制（SAM）驱动卷积神经网络（CNN）的鉴定平台。通过插值算法进行光谱平移增强，解决了样本量小导致的过拟合问题，实现了对11种不同宿主来源微孢子虫的高精度、无损识别。实验结果显示，该方法将识别准确率提升至95.16%，并成功提取了关键的光谱特征，为农业病害防控提供了可靠的单细胞分析手段。
+  - Tags：`query:pathoai`
+- [Tracing NAD](#/202607/26/202607/26/42501334-tracing-nad)
+  - TLDR：针对炎症性肠病（IBD）中NAD+代谢失调机制不明的问题，本研究利用多组学技术和同位素示踪法，在结肠炎小鼠模型中追踪了宿主与肠道菌群的NAD+代谢流。研究发现，炎症压力下宿主通过增强补救途径补偿受损的色氨酸从头合成，同时菌群的从头合成能力也显著提升。这一发现揭示了宿主与微生物在维持NAD+稳态中的协同响应机制，为IBD治疗提供了新视角。
+  - Tags：`query:pathoai`
 - [Artificial intelligence-assisted mining of polyethylene terephthalate hydrolases.](#/202607/25/202607/25/41937001-artificial-intelligence-assisted-mining-of-polyethylene-terephthalate-hydrolases)
   - TLDR：针对全球 PET 塑料污染，PET 水解酶提供了可持续的生物降解方案，但传统挖掘方法效率低且周期长。本文综述了 AI 如何赋能 PET 水解酶的研发，通过从海量数据库中进行高通量筛选、精准预测酶的结构与功能，以及辅助分子工程改造和从头设计，显著提升了高性能酶的发现效率，为塑料生物降解研究提供了系统性的技术框架。
   - Tags：`query:bioinfo`

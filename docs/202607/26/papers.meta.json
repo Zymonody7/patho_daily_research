@@ -1,0 +1,37 @@
+{
+  "label": "2026-07-26",
+  "date": "2026-07-26",
+  "generated_at": "2026-07-26T21:28:22",
+  "count": 2,
+  "papers": [
+    {
+      "paper_id": "202607/26/42501113-boosting-identification-of-microsporidian-spores-originating-from-different-hosts-single-cell-raman-spectroscopy-combined-with-self-attention-mechanism-driven-convolutional-neural-network",
+      "section": "deep",
+      "title_en": "Boosting identification of microsporidian spores originating from different hosts: single-cell Raman spectroscopy combined with self-attention mechanism-driven convolutional neural network.",
+      "authors": "Mengjiao Xue, Guiwen Wang, Yifan Sun, Xuhua Huang, Junhui Hu, Yuanpeng Li, Yufeng Yuan",
+      "date": "2026-07-25",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/42501113/",
+      "score": "8.0",
+      "evidence": "自注意力机制驱动的CNN用于病原体识别",
+      "tldr": "针对微孢子虫病原体在农业生产中难以精准识别的问题，该研究提出了一种结合单细胞拉曼光谱与自注意力机制（SAM）驱动卷积神经网络（CNN）的鉴定平台。通过插值算法进行光谱平移增强，解决了样本量小导致的过拟合问题，实现了对11种不同宿主来源微孢子虫的高精度、无损识别。实验结果显示，该方法将识别准确率提升至95.16%，并成功提取了关键的光谱特征，为农业病害防控提供了可靠的单细胞分析手段。",
+      "tags": "query:pathoai",
+      "abstract_en": "As a class of special intracellular parasites, the microsporidian pathogens parasitized in various hosts are shown to be a serious threat to agriculture production. Therefore, precise identification of microsporidian pathogens is crucial for controlling microsporidian-related agriculture diseases. However, conventional identification methods have shown limitations including low sensitivity, destructive operation, and complicated preprocessing. We proposed an advanced identification platform that integrates single-cell Raman spectroscopy with a self-attention mechanism (SAM)-driven convolutional neural network (CNN) configuration, which can realize convenient, non-destructive, high-precision identification of microsporidian spores from 11 various host sources at a single-cell resolution level. Considering that yielded microsporidian spores are difficult to cultivate, an interpolation algorithm-based spectra shifting approach was proposed to significantly enlarge the size of single-cell Raman spectra datasets, overcoming possible overfitting caused by training small samples of original Raman spectra datasets of microsporidian spores. Owing to the collaboration of both SAM and spectra augmentation, the averaged prediction accuracy of microsporidian spores from 11 various hosts can be significantly enhanced from 88.17% ± 1.05% provided by a single optimal CNN model to be as high as 95.16 ± 1.61% provided by the SAM-driven CNN configuration. To figure out which spectral features contributed to such high prediction accuracy, the global spectral features were systematically extracted by the SAM curve. These four highlighted Raman bands located at 541, 718, 915, and 1081 cm-1 were proposed to have an absolute high weight of 0.60, 0.85, 0.61, and 0.6, respectively. Moreover, another analytical method named blocking individual Raman band was supplemented to study the local classification weight of each characteristic band. These four highlighted Raman bands including 915, 718, 1081, and 1458 cm-1 mostly contributed to the high prediction accuracy. Interestingly, the yielded local feature weights were almost consistent with the global features extracted by the SAM curve, showing that our proposed identification methodology is reliable. It can be expected that the integral platform combining single-cell Raman spectroscopy with a SAM-driven CNN configuration can provide a precise analytical methodology at a single-cell level for identifying microsporidian spores in various parasitic hosts.",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "paper_id": "202607/26/42501334-tracing-nad",
+      "section": "quick",
+      "title_en": "Tracing NAD",
+      "authors": "Abrar I Alsaadi, Lina Wehkamp, Anant A Pothakamury, Mahmoud S Yahia, Praveena Prasad, Clara Gilloteau, Jaedon Sadler, Jaclyn D Smith, Brenita C Jenkins, Garret S Diven, Johanna Bornhäuser, Taous Mekdoud, Shuchang Tian, Philip Rosenstiel, Stefan Schreiber, Jordan E Bisanz, Konrad Aden, Melanie R McReynolds",
+      "date": "2026-07-25",
+      "pdf": "https://pubmed.ncbi.nlm.nih.gov/42501334/",
+      "score": "6.0",
+      "evidence": "多组学方法研究疾病中的宿主-微生物群代谢相互作用",
+      "tldr": "针对炎症性肠病（IBD）中NAD+代谢失调机制不明的问题，本研究利用多组学技术和同位素示踪法，在结肠炎小鼠模型中追踪了宿主与肠道菌群的NAD+代谢流。研究发现，炎症压力下宿主通过增强补救途径补偿受损的色氨酸从头合成，同时菌群的从头合成能力也显著提升。这一发现揭示了宿主与微生物在维持NAD+稳态中的协同响应机制，为IBD治疗提供了新视角。",
+      "tags": "query:pathoai",
+      "abstract_en": "Host-microbiota metabolic interactions critically regulate nicotinamide adenine dinucleotide (NAD+) homeostasis, and their disruption is increasingly linked to chronic diseases, including inflammatory bowel disease (IBD). However, it remains unclear whether NAD+ dysregulation in IBD arises from impaired production, enhanced consumption, or both. Using multi-omics approaches and stable isotope-labeled NAD+ precursors administered via intravenous infusion in a murine model of dextran sulfate sodium (DSS)-induced colitis, we mapped tissue- and lumen-specific NAD+ metabolism under inflammatory stress. Our results reveal tissue-specific rewiring of NAD+ metabolism, with increased flux through the salvage pathway compensating for reduced de novo NAD+ synthesis from tryptophan. In parallel, microbial de novo NAD+ production was elevated, highlighting a cooperative host-microbiota response to inflammatory stress. These findings demonstrate differential regulation of NAD+ biosynthesis during acute colitis and underscore the dynamic interplay between host and microbial metabolism in maintaining NAD+ homeostasis under inflammatory conditions.",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "errors": []
+}
