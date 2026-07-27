@@ -1,0 +1,39 @@
+Title: Applicability of Nanopore-only whole-genome sequencing for Pseudomonas aeruginosa outbreak investigation in the ICU setting: a multicentric study - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42506940/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 27:e0057226.
+
+doi: 10.1128/jcm.00572-26.  Online ahead of print.
+
+[S Vandersanden](https://pubmed.ncbi.nlm.nih.gov/?term=Vandersanden+S&cauthor_id=42506940)[#](https://pubmed.ncbi.nlm.nih.gov/42506940/#full-view-equal-contrib-explanation "Contributed equally")[1](https://pubmed.ncbi.nlm.nih.gov/42506940/#full-view-affiliation-1 "Clinical Laboratory of Molecular Microbiology, Jessa Hospital, Hasselt, Belgium.")[2](https://pubmed.ncbi.nlm.nih.gov/42506940/#full-view-affiliation-2 "Faculty of Medicine and Life Sciences, Biomedical Research Institute, Hasselt University, Hasselt, Belgium."),[P Hilkens](https://pubmed.ncbi.nlm.nih.gov/?term=Hilkens+P&cauthor_id=42506940)[3](https://pubmed.ncbi.nlm.nih.gov/42506940/#full-view-affiliation-3 "Clinical Laboratory of Microbiology, Jessa Hospital, Hasselt, Belgium."),[J Godelaine](https://pubmed.ncbi.nlm.nih.gov/?term=Godelaine+J&cauthor_id=42506940)[3](https://pubmed.ncbi.nlm.nih.gov/42506940/#full-view-affiliation-3 "Clinical Laboratory of Microbiology, Jessa Hospital, Hasselt, Belgium."),[K Magerman](https://pubmed.ncbi.nlm.nih.gov/?term=Magerman+K&cauthor_id=42506940)[1](https://pubmed.ncbi.nlm.nih.gov/42506940/#full-view-affiliation-1 "Clinical Laboratory of Molecular Microbiology, Jessa Hospital, Hasselt, Belgium.")[3](https://pubmed.ncbi.nlm.nih.gov/42506940/#full-view-affiliation-3 "Clinical Laboratory of Microbiology, Jessa Hospital, Hasselt, Belgium.")[4](https://pubmed.ncbi.nlm.nih.gov/42506940/#full-view-affiliation-4 "Department of Immunology and Infection, Hasselt University, Hasselt, Belgium."),[F Crombé](https://pubmed.ncbi.nlm.nih.gov/?term=Cromb%C3%A9+F&cauthor_id=42506940)[5](https://pubmed.ncbi.nlm.nih.gov/42506940/#full-view-affiliation-5 "Department of Microbiology and Infection Control, Vitality Research Group, Vrije Universiteit Brussel (VUB), Universitair Ziekenhuis Brussel (UZ Brussel), Brussels, Belgium."),[D De Geyter](https://pubmed.ncbi.nlm.nih.gov/?term=De+Geyter+D&cauthor_id=42506940)[5](https://pubmed.ncbi.nlm.nih.gov/42506940/#full-view-affiliation-5 "Department of Microbiology and Infection Control, Vitality Research Group, Vrije Universiteit Brussel (VUB), Universitair Ziekenhuis Brussel (UZ Brussel), Brussels, Belgium."),[A Boel](https://pubmed.ncbi.nlm.nih.gov/?term=Boel+A&cauthor_id=42506940)[6](https://pubmed.ncbi.nlm.nih.gov/42506940/#full-view-affiliation-6 "Department of Laboratory Medicine, AZORG, Aalst, Belgium."),[P Bruynseels](https://pubmed.ncbi.nlm.nih.gov/?term=Bruynseels+P&cauthor_id=42506940)[7](https://pubmed.ncbi.nlm.nih.gov/42506940/#full-view-affiliation-7 "Department of Laboratory Medicine, Ziekenhuis aan de Stroom, Antwerp, Belgium."),[J Frans](https://pubmed.ncbi.nlm.nih.gov/?term=Frans+J&cauthor_id=42506940)[8](https://pubmed.ncbi.nlm.nih.gov/42506940/#full-view-affiliation-8 "Department of Clinical Microbiology, Imelda Hospital, Bonheiden, Belgium."),[P Vandecandelaere](https://pubmed.ncbi.nlm.nih.gov/?term=Vandecandelaere+P&cauthor_id=42506940)[9](https://pubmed.ncbi.nlm.nih.gov/42506940/#full-view-affiliation-9 "Department of Laboratory Medicine, Jan Yperman Hospital, Ypres, Belgium."),[A M Van den Abeele](https://pubmed.ncbi.nlm.nih.gov/?term=Van+den+Abeele+AM&cauthor_id=42506940)[10](https://pubmed.ncbi.nlm.nih.gov/42506940/#full-view-affiliation-10 "Department of Laboratory Medicine, AZ Sint-Lucas Ghent, Ghent, Belgium."),[R Cartuyvels](https://pubmed.ncbi.nlm.nih.gov/?term=Cartuyvels+R&cauthor_id=42506940)[1](https://pubmed.ncbi.nlm.nih.gov/42506940/#full-view-affiliation-1 "Clinical Laboratory of Molecular Microbiology, Jessa Hospital, Hasselt, Belgium.")[3](https://pubmed.ncbi.nlm.nih.gov/42506940/#full-view-affiliation-3 "Clinical Laboratory of Microbiology, Jessa Hospital, Hasselt, Belgium.")
+
+Affiliations
+
+*    PMID: **42506940**
+*    DOI: [10.1128/jcm.00572-26](https://doi.org/10.1128/jcm.00572-26)
+
+## Applicability of Nanopore-only whole-genome sequencing for _Pseudomonas aeruginosa_ outbreak investigation in the ICU setting: a multicentric study
+
+J Dingemans et al. J Clin Microbiol.2026.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+_Pseudomonas aeruginosa_ outbreaks frequently occur in intensive care units (ICUs). In particular, ICU patients requiring mechanical ventilation are vulnerable to _P. aeruginosa_ ventilator-associated pneumonia, which is associated with high morbidity and mortality. Fast and accurate genotyping during the early stage is crucial to document and manage _P. aeruginosa_ outbreaks at the ICU. In this study, we have evaluated the applicability of Oxford Nanopore whole-genome sequencing (WGS) for outbreak investigation and antimicrobial resistance (AMR) prediction. To evaluate whether a Nanopore-only WGS workflow was able to reproduce Illumina-confirmed transmission clusters, 19 _P. aeruginosa_ isolates from ICUs at UZ Brussels (Belgium) that were previously sequenced with Illumina were sequenced using a Nanopore-only workflow based on the latest V14 chemistry, followed by bioinformatic analysis via BugSeq and MBioSEQ Ridom Typer. Although both bioinformatic platforms showed high concordance between Illumina and Nanopore data, MBioSEQ Ridom Typer yielded the lowest allelic distance (maximum one cgMLST allele), confirming all outbreak clusters. When applying the Nanopore-only workflow to longitudinally collected isolates, low genetic heterogeneity (maximum three cgMLST alleles) was observed between isolates from the same patient. WGS and subsequent outbreak analysis of 65 respiratory _P. aeruginosa_ isolates collected from 38 different ICU patients across six Belgian hospitals during a 9-month period showed no intra- or inter-hospital transmission. When the Nanopore-only WGS data were used to predict AMR, there was high categorical agreement (95%) between AMR genotype and phenotype. These findings highlight the potential of Nanopore WGS as a rapid and accurate tool for outbreak investigation of _P. aeruginosa_.
+
+**Importance:** In recent years, Nanopore sequencing has found its way to clinical laboratories because of its affordability, scalability, and, most importantly, its ability to obtain sequencing results in near-real time. However, despite improved raw read accuracies with the latest generation R10.4.1 flow cells, the question remains whether the achieved accuracy is sufficient for accurate bacterial outbreak investigation, particularly in high-risk settings such as intensive care units (ICUs). In this study, we show that Nanopore-only whole-genome sequencing (WGS) is able to match Illumina-only WGS in terms of accuracy for _Pseudomonas aeruginosa_ outbreak investigation in the ICU setting, although important sequence type-dependent and even strain-specific methylation issues need to be resolved in order to guarantee this accuracy. By providing a fast and accurate workflow for reliable _P. aeruginosa_ outbreak investigation, this study could pave the way for large-scale implementation of Nanopore-only WGS, leading to faster outbreak response times.
+
+**Keywords:** Nanopore-only WGS; Pseudomonas aeruginosa; intensive care unit; outbreak investigation.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)

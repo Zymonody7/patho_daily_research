@@ -1,0 +1,61 @@
+Title: FoldDoF: Utilizing the Primary Degrees of Freedom of Protein Backbone for Geometric Modeling and Generation - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42396749/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 27;66(14):8594-8606.
+
+doi: 10.1021/acs.jcim.6c00617.  Epub 2026 Jul 3.
+
+Affiliations
+
+*    PMID: **42396749**
+*    DOI: [10.1021/acs.jcim.6c00617](https://doi.org/10.1021/acs.jcim.6c00617)
+
+## FoldDoF: Utilizing the Primary Degrees of Freedom of Protein Backbone for Geometric Modeling and Generation
+
+Zefeng Zhu et al. J Chem Inf Model.2026.
+
+## Abstract
+
+Robust modeling of protein structures through internal coordinates requires modeling a mixture of bond angles and torsion angles. Smoothing out bond angles can lead to significant error accumulation during structure reconstruction. We propose using a concise yet precise representation for modeling and generating protein structures, which views the protein backbone structure as a sequence of 3D rotations of peptide units, unifying bond angles and torsion angles on a single rotation manifold. We therefore present differentiable algorithms for efficient conversion between such internal coordinates and Cartesian coordinates. We demonstrate that the relative 3D rotations between consecutive peptide units describe the primary degrees of freedom of protein backbone conformation and thus guarantee the fidelity of the reconstructed full-atomic backbone structures in an optimization-free manner. Given the advantage of this representation that allows for straightforward geometric reasoning and optimization in 3D space, we incorporated this peptide-unit-centric formulation into protein backbone generative models, resulting in FrameFlow variants with improved in silico design performance in terms of diversity, novelty, and length generalizability. The enhanced efficacy of probabilistic modeling of backbone conformations demonstrates the superiority of this backbone representation and lays the foundation for developing more effective generative models for both protein design and structure prediction.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Orientation-dependent backbone-only residue pair scoring functions for fixed backbone protein design.](https://pubmed.ncbi.nlm.nih.gov/20398384/)
+
+Bordner AJ.Bordner AJ.BMC Bioinformatics. 2010 Apr 16;11:192. doi: 10.1186/1471-2105-11-192.BMC Bioinformatics. 2010.PMID: 20398384 Free PMC article. 
+*   [Practical conversion from torsion space to Cartesian space for in silico protein synthesis.](https://pubmed.ncbi.nlm.nih.gov/15898109/)
+
+Parsons J, Holmes JB, Rojas JM, Tsai J, Strauss CE.Parsons J, et al.J Comput Chem. 2005 Jul 30;26(10):1063-8. doi: 10.1002/jcc.20237.J Comput Chem. 2005.PMID: 15898109 
+*   [CATS (Coordinates of Atoms by Taylor Series): protein design with backbone flexibility in all locally feasible directions.](https://pubmed.ncbi.nlm.nih.gov/28882005/)
+
+Hallen MA, Donald BR.Hallen MA, et al.Bioinformatics. 2017 Jul 15;33(14):i5-i12. doi: 10.1093/bioinformatics/btx277.Bioinformatics. 2017.PMID: 28882005 Free PMC article. 
+*   [Generative Protein Design: From Deep Learning Algorithms to Translational Applications.](https://pubmed.ncbi.nlm.nih.gov/42123499/)
+
+Luo S, Zhou B.Luo S, et al.Int J Mol Sci. 2026 Apr 28;27(9):3917. doi: 10.3390/ijms27093917.Int J Mol Sci. 2026.PMID: 42123499 Free PMC article.Review. 
+*   [Gabapentin: a stereochemically constrained gamma amino acid residue in hybrid peptide design.](https://pubmed.ncbi.nlm.nih.gov/19572698/)
+
+Vasudev PG, Chatterjee S, Shamala N, Balaram P.Vasudev PG, et al.Acc Chem Res. 2009 Oct 20;42(10):1628-39. doi: 10.1021/ar9001153.Acc Chem Res. 2009.PMID: 19572698 Review. 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [American Chemical Society](https://doi.org/10.1021/acs.jcim.6c00617)
+    *   [Silverchair Information Systems](https://pubs.acs.org/jcisd8/article-lookup/doi/doi=10.1021/acs.jcim.6c00617)

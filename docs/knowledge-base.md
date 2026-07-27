@@ -1,10 +1,61 @@
 # 知识库
 
-- 最近沉淀条目数：52
+- 最近沉淀条目数：62
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Applicability of Nanopore-only whole-genome sequencing for](#/202607/27/202607/27/42506940-applicability-of-nanopore-only-whole-genome-sequencing-for)
+  - TLDR：针对ICU中铜绿假单胞菌爆发监测对时效性的严苛要求，本研究评估了基于最新V14化学试剂的Nanopore单平台全基因组测序流程。通过对多个医院分离株的实测，证明该方法在爆发集群识别上与Illumina金标准高度一致（等位基因差异≤1），且耐药性预测准确率达95%，为临床提供了一种快速、低成本且高精度的疫情实时监测与响应方案。
+  - Tags：`query:pathoai`
+- [FoldDoF: Utilizing the Primary Degrees of Freedom of Protein Backbone for Geometric Modeling and Generation.](#/202607/27/202607/27/42396749-folddof-utilizing-the-primary-degrees-of-freedom-of-protein-backbone-for-geometric-modeling-and-generation)
+  - TLDR：蛋白质骨架建模常因键角和扭转角的累积误差导致结构重建不准。FoldDoF 将骨架视为肽单元的 3D 旋转序列，将复杂的几何约束统一到旋转流形上，并开发了高效的可微转换算法。该方法在生成模型 FrameFlow 中显著提升了蛋白质设计的多样性、新颖性和长度泛化能力，为结构预测和设计提供了更精确的几何表征。
+  - Tags：`query:bioinfo`
+- [Evo-EquiGPS: Synergizing Dynamic Geometry, Global Topology, and Explicit Evolution for High-Precision Enzyme Active Site Prediction.](#/202607/27/202607/27/42439568-evo-equigps-synergizing-dynamic-geometry-global-topology-and-explicit-evolution-for-high-precision-enzyme-active-site-prediction)
+  - TLDR：针对低序列相似性酶的活性位点预测难题，本研究开发了 Evo-EquiGPS 多模态图神经网络框架。该模型通过动态几何流、全局拓扑流和显式进化流三支路并行架构，融合了蛋白质的 3D 结构、序列语义及进化约束信息。实验表明，其在 TS124 和 CSA112 数据集上的预测精度显著优于 SCREEN 等主流模型，为蛋白质功能注释和酶工程提供了高精度的计算工具。
+  - Tags：`query:bioinfo`
+- [Scaling SMILES-Based Chemical Language Models for Therapeutic Peptide Engineering.](#/202607/27/202607/27/42443143-scaling-smiles-based-chemical-language-models-for-therapeutic-peptide-engineering)
+  - TLDR：治疗性多肽兼具蛋白质特异性与小分子多样性，但现有模型难以兼顾：蛋白质模型局限于天然氨基酸，而化学模型难以处理长序列。为此，研究者开发了 PeptideCLM-2，这是一款基于 SMILES 并在超过 1 亿个分子上预训练的化学语言模型，能够原生表征复杂的多肽化学结构。实验证明，该模型在预测膜扩散、生物功能和半衰期等关键开发指标上优于现有方法，为多肽药物设计提供了高效的计算工具。
+  - Tags：`query:bioinfo`
+- [TPPS4 inhibits PEDV by stabilizing viral RNA G-quadruplex and promoting ER stress: a transfer-learning-driven discovery.](#/202607/27/202607/27/42505122-tpps4-inhibits-pedv-by-stabilizing-viral-rna-g-quadruplex-and-promoting-er-stress-a-transfer-learning-driven-discovery)
+  - TLDR：针对猪流行性腹泻病毒（PEDV）药物研发中数据匮乏和靶点不明的挑战，本研究开发了一种利用人类冠状病毒数据进行跨物种迁移学习的药物筛选框架。通过该框架发现并验证了小分子 TPPS4 具有显著的抗病毒活性，其通过稳定病毒 RNA 的 G-四链体结构并诱导宿主内质网应激来抑制复制。实验证明 TPPS4 能使受感染仔猪存活率翻倍，为兽用抗病毒药物研发提供了从计算筛选到体内验证的新范式。
+  - Tags：`query:pathoai`
+- [Open-access genomic drug resistance prediction tools for](#/202607/27/202607/27/42506927-open-access-genomic-drug-resistance-prediction-tools-for)
+  - TLDR：结核分枝杆菌的全基因组测序（WGS）虽能加速耐药性检测，但现有开源预测工具在实际应用中的性能差异尚不明确。本研究通过对39项研究、逾14万个基因组进行系统综述和元分析，评估了TBProfiler、Mykrobe等六款主流工具。结果显示，这些工具在检测利福平、异烟肼等核心药物时具有较高的临床准确性，可作为排除性检测手段，但特异性受当地耐药流行率影响较大。该研究为临床选择测序工具提供了依据，并指出了未来优化方向。
+  - Tags：`query:pathoai`
+- [Unveiling Large-Scale Kinase-Centric Protein-Protein Interactions through a Knowledge-Informed Workflow.](#/202607/27/202607/27/42427025-unveiling-large-scale-kinase-centric-protein-protein-interactions-through-a-knowledge-informed-workflow)
+  - TLDR：针对蛋白质磷酸化中激酶-底物特异性结构数据稀缺、深度学习预测器对磷酸化位点不敏感的问题，该研究提出了一种基于贝叶斯推理的知识驱动工作流。通过大语言模型提取文献证据并转化为结构约束，引导深度学习模型 GRASP 生成高分辨率结构。在 EGFR 等激酶上验证了 336 个新候选结构，并结合 AlphaMissense 揭示了突变致病性与相互作用界面的关联，为激酶特异性研究和药物研发提供了高通量工具。
+  - Tags：`query:bioinfo`
+- [DisoPatho: A Cross-View Feature-Adaptive Interaction Encoding Framework for Predicting Disease-Associated Variants in Intrinsically Disordered Regions.](#/202607/27/202607/27/42503799-disopatho-a-cross-view-feature-adaptive-interaction-encoding-framework-for-predicting-disease-associated-variants-in-intrinsically-disordered-regions)
+  - TLDR：针对内在无序区（IDR）因缺乏稳定结构和高序列变异性导致致病变异预测困难的问题，本研究提出了DisoPatho深度学习框架。该框架采用以突变位点为中心的架构，通过跨视图自适应交互机制，融合了IDR特有的能量表征与蛋白质语言模型（xTrimoPGLM、ESM）的嵌入特征。实验表明，DisoPatho在多个数据集上显著优于现有方法，在系统发育约束较弱的挑战性测试集中，其MCC比AlphaMissense提升了50.2%，为无序蛋白区域的疾病诊断提供了更精准的工具。
+  - Tags：`query:seqai`
+- [Targeting IFN-I driven tertiary lymphoid structures halts B cell-mediated bone loss in periodontitis.](#/202607/27/202607/27/42503518-targeting-ifn-i-driven-tertiary-lymphoid-structures-halts-b-cell-mediated-bone-loss-in-periodontitis)
+  - TLDR：牙周炎中淋巴细胞分泌的RANKL是导致牙槽骨吸收的关键，但其在牙龈中的空间组织形式尚不明确。本研究发现牙龈中形成的异位淋巴组织（TLS）是B细胞激活并分泌RANKL的病理中心，其成熟度与炎症严重程度正相关。通过单细胞测序发现，口腔病原体激活成纤维细胞的IFN-I-IRF7通路，诱导其分泌CXCL13以促进TLS组装。实验证明抑制IFN-I信号可阻断TLS形成并显著减少骨流失，为牙周炎治疗提供了新的免疫干预靶点。
+  - Tags：`query:seqai`
+- [An abundant merozoite surface protein of](#/202607/27/202607/27/42504823-an-abundant-merozoite-surface-protein-of)
+  - TLDR：疟疾裂殖子表面蛋白PfMSP2被认为是疫苗研发的关键靶点，但其具体功能不明。本研究利用CRISPR-Cas9基因编辑技术敲除了PfMSP2，发现其并非红细胞入侵所必需，但其缺失会显著增强针对PfAMA1等其他入侵蛋白抗体的抑制效果。这表明PfMSP2能通过干扰抗体结合来保护其他关键抗原，为理解疟疾免疫逃逸机制和优化疫苗设计提供了新视角。
+  - Tags：`query:bioinfo`
+- [Pasta, a Versatile Transcriptomic Clock, Maps the Chemical and Genetic Determinants of Aging and Rejuvenation.](#/202607/27/202607/27/42505084-pasta-a-versatile-transcriptomic-clock-maps-the-chemical-and-genetic-determinants-of-aging-and-rejuvenation)
+  - TLDR：针对转录组衰老时钟受限于平台和组织特异性的问题，研究者开发了名为 Pasta 的通用型人类衰老时钟。该工具采用“年龄偏移”学习框架，能跨组织、跨平台准确预测生物年龄。通过对三百万个转录组样本的大规模筛选，Pasta 揭示了线粒体翻译和 mRNA 剪接在衰老与回春中的关键作用，并实验验证了相关调控药物，为抗衰老研究提供了高效的数字化工具。
+  - Tags：`query:seqai`
+- [High-Fat Diet Reprograms the Periapical Immune Landscape in a Mouse Model of Apical Periodontitis: A Spatial Transcriptomics Study.](#/202607/27/202607/27/42506892-high-fat-diet-reprograms-the-periapical-immune-landscape-in-a-mouse-model-of-apical-periodontitis-a-spatial-transcriptomics-study)
+  - TLDR：针对高脂饮食如何加剧根尖周炎（AP）组织损伤的问题，本研究通过构建肥胖小鼠模型并结合空间转录组学技术，分析了根尖周免疫细胞的空间分布与状态变化。研究发现，长期高脂饮食会使中性粒细胞和巨噬细胞从抗菌防御模式转向脂质代谢和炎症应激模式，导致根尖骨损显著加重。该研究揭示了代谢紊乱影响牙髓感染免疫反应的空间分子机制，为代谢异常患者的根尖周炎临床管理提供了潜在靶点。
+  - Tags：`query:seqai`
+- [Role of Microbiome and Bacterial Biofilms in the Pathogenesis of Cutaneous Leishmaniasis.](#/202607/27/202607/27/42507249-role-of-microbiome-and-bacterial-biofilms-in-the-pathogenesis-of-cutaneous-leishmaniasis)
+  - TLDR：皮肤利什曼病（CL）常伴随慢性皮肤损伤，传统研究多关注寄生虫本身。本综述通过分析现有文献，揭示了皮肤微生物群失调（如葡萄球菌增加）和细菌生物膜形成在疾病进展中的关键作用。研究发现这些因素会加剧炎症反应并阻碍药物渗透，为开发针对寄生虫与多微生物环境的联合疗法提供了新思路。
+  - Tags：`query:pathoai`
+- [Microbiome-guided cancer immunotherapy: immune mechanisms, resistance pathways, and translational opportunities for precision oncology.](#/202607/27/202607/27/42507333-microbiome-guided-cancer-immunotherapy-immune-mechanisms-resistance-pathways-and-translational-opportunities-for-precision-oncology)
+  - TLDR：肠道微生物组在调节肿瘤免疫微环境和影响免疫治疗效果中起关键作用。本文综述了微生物及其代谢产物（如短链脂肪酸、胆汁酸等）如何通过影响T细胞和细胞因子网络来重塑宿主免疫。通过分析微生物特征作为生物标志物，并探讨粪菌移植、益生菌及工程化微生物等干预手段，旨在为克服免疫治疗耐药性、实现癌症精准医疗提供新策略。
+  - Tags：`query:pathoai`
+- [The BOS-Lig Data Set: Accurate Ligand Charges from a Consensus Approach for 66,810 Experimentally Synthesized Ligands.](#/202607/27/202607/27/42438368-the-bos-lig-data-set-accurate-ligand-charges-from-a-consensus-approach-for-66810-experimentally-synthesized-ligands)
+  - TLDR：针对过渡金属配合物高通量筛选中配体电荷及应用领域信息缺失的问题，本研究通过迭代电荷平衡工作流，从12.7万个单核配合物中提取并校准了6.6万个配体的准确电荷，构建了BOS-Lig数据集。该方法利用同配位配合物向异配位环境传播电荷信息，并结合主题模型将配体与反应性、光物理等功能领域关联，为数据驱动的配体设计提供了实验支撑的化学空间基础。
+  - Tags：`query:bioinfo`
+- [Isoform-resolved transcriptomics reveals stage-specific isoform switching and protein domain remodeling in](#/202607/27/202607/27/42504843-isoform-resolved-transcriptomics-reveals-stage-specific-isoform-switching-and-protein-domain-remodeling-in)
+  - TLDR：昆虫发育具有高度可塑性，但棉铃虫在蛹到成虫转变中的异构体级调控机制此前研究不足。本研究采用异构体分辨率的转录组分析技术，对比了棉铃虫不同发育阶段的异构体表达差异。研究发现大量基因存在阶段特异性的异构体切换，且这种复杂性在常规基因级分析中被掩盖；通过蛋白质结构建模证实了异构体切换会导致结构域重塑，揭示了异构体多样性是驱动昆虫发育可塑性的关键机制。
+  - Tags：`query:seqai`
+- [The Role of the Oral Microbiome in the Development and Treatment of Periodontal Disease: Functional Meta-Omics Evidence.](#/202607/27/202607/27/42507033-the-role-of-the-oral-microbiome-in-the-development-and-treatment-of-periodontal-disease-functional-meta-omics-evidence)
+  - TLDR：牙周病源于口腔微生物群落失衡导致的免疫稳态破坏。本文综述了利用宏组学技术解析龈上及龈下菌群在牙周健康与疾病状态下的组成、功能及代谢差异。通过分析核心微生物组与宿主细胞的相互作用，揭示了失调引发疾病的潜在机制，为建立基于微生物指标的风险预测、诊断模型及开发恢复菌群稳态的新型治疗策略提供了理论支撑。
+  - Tags：`query:pathoai`
 - [Boosting identification of microsporidian spores originating from different hosts: single-cell Raman spectroscopy combined with self-attention mechanism-driven convolutional neural network.](#/202607/26/202607/26/42501113-boosting-identification-of-microsporidian-spores-originating-from-different-hosts-single-cell-raman-spectroscopy-combined-with-self-attention-mechanism-driven-convolutional-neural-network)
   - TLDR：针对微孢子虫病原体在农业生产中难以精准识别的问题，该研究提出了一种结合单细胞拉曼光谱与自注意力机制（SAM）驱动卷积神经网络（CNN）的鉴定平台。通过插值算法进行光谱平移增强，解决了样本量小导致的过拟合问题，实现了对11种不同宿主来源微孢子虫的高精度、无损识别。实验结果显示，该方法将识别准确率提升至95.16%，并成功提取了关键的光谱特征，为农业病害防控提供了可靠的单细胞分析手段。
   - Tags：`query:pathoai`
@@ -140,24 +191,3 @@
 - [Multilayer Validation Reveals a Glia-Associated Secretome Signature in Temporal Lobe Epilepsy.](#/202607/12/202607/12/42435258-multilayer-validation-reveals-a-glia-associated-secretome-signature-in-temporal-lobe-epilepsy)
   - TLDR：针对颞叶癫痫（TLE）缺乏临床生物标志物的问题，研究结合小鼠模型单细胞测序与人类转录组数据，筛选出与胶质细胞激活相关的分泌蛋白。通过对患者脑脊液（CSF）进行ELISA验证和机器学习建模，确定了CXCL10、TTR等6种关键蛋白标志物。这些标志物不仅能有效区分TLE患者，还与发作频率相关，为癫痫的临床诊断和病理研究提供了新靶点。
   - Tags：`query:bioinfo`
-- [Prediction of antimicrobial minimum inhibitory concentration from bacterial genomes using a scalable and interpretable machine learning approach.](#/202605/27/202605/27/42191912-prediction-of-antimicrobial-minimum-inhibitory-concentration-from-bacterial-genomes-using-a-scalable-and-interpretable-machine-learning-approach)
-  - TLDR：一种高效且可解释的机器学习方法，无需先验知识即可从细菌基因组中预测抗生素最低抑菌浓度。
-  - Tags：`query:pathoai`
-- [Enterotype-specific microbial biomarkers of immune checkpoint inhibitor response revealed by large-scale integrated metagenomic analysis.](#/202605/27/202605/27/42189287-enterotype-specific-microbial-biomarkers-of-immune-checkpoint-inhibitor-response-revealed-by-large-scale-integrated-metagenomic-analysis)
-  - TLDR：肠道微生物群影响免疫检查点抑制剂（ICI）疗效，但由于地理和个体差异，一致性生物标志物难以确定。本研究通过对569份癌症患者粪便样本进行大规模宏基因组整合分析，发现微生物群可分为两种主要肠型（E1和E2）。研究识别出166种肠型特异性物种，并利用机器学习评估其预测潜力。结果表明，基于肠型的分层框架能有效识别免疫治疗响应者，为个性化癌症免疫治疗提供了新的分层思路。
-  - Tags：`query:pathoai`
-- [Targeted metatranscriptomic detection of viruses from floors for simultaneous evaluation of respiratory disease burden and viral variant identification.](#/202605/27/202605/27/42007699-targeted-metatranscriptomic-detection-of-viruses-from-floors-for-simultaneous-evaluation-of-respiratory-disease-burden-and-viral-variant-identification)
-  - TLDR：利用靶向元转录组学对环境中的病毒病原体进行监测并识别其变异株。
-  - Tags：`query:pathoai`
-- [Genetic variability of SARS-CoV-2 XFG lineage and its parental lineages.](#/202605/27/202605/27/42189509-genetic-variability-of-sars-cov-2-xfg-lineage-and-its-parental-lineages)
-  - TLDR：分析了 SARS-CoV-2 XFG 谱系的遗传变异和重组断点，以支持公共卫生监测。
-  - Tags：`query:pathoai`
-- [Untargeted metabolomics reveals organism specific biomarkers of carbapenem resistance in Klebsiella pneumoniae and Escherichia coli.](#/202605/27/202605/27/42191701-untargeted-metabolomics-reveals-organism-specific-biomarkers-of-carbapenem-resistance-in-klebsiella-pneumoniae-and-escherichia-coli)
-  - TLDR：该研究利用非靶向代谢组学识别了肺炎克雷伯菌和大肠杆菌中碳青霉烯类耐药的特异性生物标志物。
-  - Tags：`query:pathoai`
-- [Enteric pathogen dynamics in onsite sanitation systems: A systematic review and meta-analysis on prevalence, concentration, inactivation, and Bayesian modeling application.](#/202605/27/202605/27/42190323-enteric-pathogen-dynamics-in-onsite-sanitation-systems-a-systematic-review-and-meta-analysis-on-prevalence-concentration-inactivation-and-bayesian-modeling-application)
-  - TLDR：该研究利用贝叶斯建模对卫生系统中肠道病原体的流行和失活动态进行了系统综述和元分析。
-  - Tags：`query:pathoai`
-- [Risk factors and a diagnostic nomogram for early prediction of gram-positive coccal etiology in spontaneous spinal infection.](#/202605/27/202605/27/42201512-risk-factors-and-a-diagnostic-nomogram-for-early-prediction-of-gram-positive-coccal-etiology-in-spontaneous-spinal-infection)
-  - TLDR：该研究利用LASSO逻辑回归开发了一种诊断列线图，用于早期预测自发性脊柱感染中的革兰氏阳性球菌病因。
-  - Tags：`query:pathoai`

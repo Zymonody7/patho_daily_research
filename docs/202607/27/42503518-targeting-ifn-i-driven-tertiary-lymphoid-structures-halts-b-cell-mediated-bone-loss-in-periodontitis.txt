@@ -1,0 +1,92 @@
+Title: Targeting IFN-I driven tertiary lymphoid structures halts B cell-mediated bone loss in periodontitis - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42503518/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 27;18(1):53.
+
+doi: 10.1038/s41368-026-00450-7.
+
+Affiliations
+
+*    PMID: **42503518**
+*    DOI: [10.1038/s41368-026-00450-7](https://doi.org/10.1038/s41368-026-00450-7)
+
+Free article
+
+## Targeting IFN-I driven tertiary lymphoid structures halts B cell-mediated bone loss in periodontitis
+
+Jiawei Lu et al. Int J Oral Sci.2026.
+
+Free article
+
+## Abstract
+
+Lymphocytes play a central role in adaptive immunity and represent the primary source of RANKL in periodontitis. Understanding their organization and activation within gingiva is therefore essential. This study investigates the role of tertiary lymphoid structures (TLSs), ectopic lymphoid aggregates that orchestrate local immune responses. Using multiplex immunohistochemistry staining, we found that TLSs form and mature with increasing inflammatory severity. These structures function as hubs for B cell activation and were associated with poorer surgical outcomes. Given the known role of fibroblasts in initiating TLS assembly, we explored the underlying mechanism. Using single-cell RNA sequencing and in vitro assays, we identified that oral pathogens activate the IFN-I-IRF7 axis in gingival fibroblasts, leading to overproduction of IFNβ and driving their differentiation into a CXCL13-producing subtype that facilitates TLS organization. Furthermore, in a mouse periodontitis model, we demonstrated that activated IgD+CD80+ B cells within TLSs promote osteoclastogenesis and bone resorption via RANKL secretion. Therapeutically, inhibition of IFN-I signaling disrupted this pathogenic cascade by suppressing TLS formation and subsequent RANKL production, thereby mitigating periodontitis bone loss. In conclusion, our findings establish TLSs as pathological hubs that coordinate B cell-mediated bone destruction in periodontitis and highlight the IFN-I signaling pathway as a promising target for therapeutic intervention.
+
+© 2026. The Author(s).
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Competing interests: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Sustained innate interferon is an essential inducer of tertiary lymphoid structures.](https://pubmed.ncbi.nlm.nih.gov/38980268/)
+
+Calvanese AL, Cecconi V, Stäheli S, Schnepf D, Nater M, Pereira P, Gschwend J, Heikenwälder M, Schneider C, Ludewig B, Silina K, van den Broek M.Calvanese AL, et al.Eur J Immunol. 2024 Oct;54(10):e2451207. doi: 10.1002/eji.202451207. Epub 2024 Jul 9.Eur J Immunol. 2024.PMID: 38980268 
+*   [DC-STAMP Is an Osteoclast Fusogen Engaged in Periodontal Bone Resorption.](https://pubmed.ncbi.nlm.nih.gov/28199142/)
+
+Wisitrasameewong W, Kajiya M, Movila A, Rittling S, Ishii T, Suzuki M, Matsuda S, Mazda Y, Torruella MR, Azuma MM, Egashira K, Freire MO, Sasaki H, Wang CY, Han X, Taubman MA, Kawai T.Wisitrasameewong W, et al.J Dent Res. 2017 Jun;96(6):685-693. doi: 10.1177/0022034517690490. Epub 2017 Feb 15.J Dent Res. 2017.PMID: 28199142 Free PMC article. 
+*   [Type I interferon protects against bone loss in periodontitis by mitigating an interleukin (IL)-17-neutrophil axis.](https://pubmed.ncbi.nlm.nih.gov/40086745/)
+
+Zhang J, Ding Q, Wang AX, Lin M, Yu N, Moss K, Williamson MA, Miao D, Marchesan JT, Zeng E, Shi W, Sun H, Lei YL, Zhang S.Zhang J, et al.Life Sci. 2025 Jun 15;371:123559. doi: 10.1016/j.lfs.2025.123559. Epub 2025 Mar 13.Life Sci. 2025.PMID: 40086745 Free PMC article. 
+*   [Immune response: the key to bone resorption in periodontal disease.](https://pubmed.ncbi.nlm.nih.gov/16277573/)
+
+Taubman MA, Valverde P, Han X, Kawai T.Taubman MA, et al.J Periodontol. 2005 Nov;76(11 Suppl):2033-41. doi: 10.1902/jop.2005.76.11-S.2033.J Periodontol. 2005.PMID: 16277573 Review. 
+*   [Toll-Like Receptor Signaling and Immune Regulatory Lymphocytes in Periodontal Disease.](https://pubmed.ncbi.nlm.nih.gov/32397173/)
+
+Gu Y, Han X.Gu Y, et al.Int J Mol Sci. 2020 May 8;21(9):3329. doi: 10.3390/ijms21093329.Int J Mol Sci. 2020.PMID: 32397173 Free PMC article.Review. 
+
+## References
+
+1.       1.    Kinane, D. F., Stathopoulou, P. G. & Papapanou, P. N. Periodontal diseases. Nat. Rev. Dis. Prim. 3, 17038 (2017). - [DOI](https://doi.org/10.1038/nrdp.2017.38) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/28805207/)
+
+2.       1.    Gonzales, J. R. T- and B-cell subsets in periodontitis. Periodontol 2000 69, 181–200 (2015). - [DOI](https://doi.org/10.1111/prd.12090) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/26252409/)
+
+3.       1.    Baima, G., Arce, M., Romandini, M. & Van Dyke, T. Inflammatory and immunological basis of periodontal diseases. J. Periodontal Res. [https://doi.org/10.1111/jre.70040](https://doi.org/10.1111/jre.70040) (2025). - [DOI](https://doi.org/10.1111/jre.70040) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/41307322/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/13140783/)
+
+4.       1.    Costalonga, M., Thumbigere-Math, V. & Herzberg, M. C. Autoimmunity and periodontitis. J. Periodontal Res. [https://doi.org/10.1111/jre.70058](https://doi.org/10.1111/jre.70058) (2026). - [DOI](https://doi.org/10.1111/jre.70058) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/41498346/)
+
+5.       1.    Schumacher, T. N. & Thommen, D. S. Tertiary lymphoid structures in cancer. Science 375, eabf9419 [https://doi.org/10.1126/science.abf9419](https://doi.org/10.1126/science.abf9419) (2022). 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Nature Publishing Group](https://doi.org/10.1038/s41368-026-00450-7)

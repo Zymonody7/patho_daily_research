@@ -1,0 +1,68 @@
+Title: Scaling SMILES-Based Chemical Language Models for Therapeutic Peptide Engineering - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42443143/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 27;66(14):8110-8122.
+
+doi: 10.1021/acs.jcim.6c00652.  Epub 2026 Jul 13.
+
+Affiliations
+
+*    PMID: **42443143**
+*    DOI: [10.1021/acs.jcim.6c00652](https://doi.org/10.1021/acs.jcim.6c00652)
+
+## Scaling SMILES-Based Chemical Language Models for Therapeutic Peptide Engineering
+
+Aaron L Feller et al. J Chem Inf Model.2026.
+
+## Abstract
+
+Therapeutic peptides occupy a unique middle ground in drug discovery, offering the high specificity of protein interactions with the chemical diversity of small molecules, yet they currently fall in a computational blind spot. Existing foundation models cannot handle them effectively: protein models are restricted to natural amino acids, while chemical models struggle to process large, polymer-like sequences. This disconnect has forced the field to rely on static chemical descriptors that fail to capture subtle chemical details or on complex multiembedding pipelines that are custom tailored to specific data sets. To bridge this gap, we present PeptideCLM-2, a suite of chemical language models trained on over 100 million molecules to natively represent complex peptide chemistry. This modeling approach expands the available toolkit of machine learning models for therapeutic peptides. Benchmarking results show strong performance versus prior methods for predicting development end points including membrane diffusion, biological function, and half-life.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Personality Theories.](https://pubmed.ncbi.nlm.nih.gov/42475469/)
+
+Gallios JM, Iyer V, Kaylor LE.Gallios JM, et al.2026 Jun 20. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2026 Jan–.2026 Jun 20. In: StatPearls [Internet]. Treasure Island (FL): StatPearls Publishing; 2026 Jan–.PMID: 42475469 Free Books & Documents. 
+*   [Macromolecular crowding: chemistry and physics meet biology (Ascona, Switzerland, 10-14 June 2012).](https://pubmed.ncbi.nlm.nih.gov/23912807/)
+
+Foffi G, Pastore A, Piazza F, Temussi PA.Foffi G, et al.Phys Biol. 2013 Aug;10(4):040301. doi: 10.1088/1478-3975/10/4/040301. Epub 2013 Aug 2.Phys Biol. 2013.PMID: 23912807 
+*   [Predictive machine learning models for rational permeability design in de novo macrocycle engineering: a review.](https://pubmed.ncbi.nlm.nih.gov/42015308/)
+
+Albrijawi MT, Alhajj R.Albrijawi MT, et al.J Cheminform. 2026 Apr 21;18(1):79. doi: 10.1186/s13321-026-01189-3.J Cheminform. 2026.PMID: 42015308 Free PMC article.Review. 
+*   [CPP2Vec: A representation learning approach for cell-penetrating peptides prediction.](https://pubmed.ncbi.nlm.nih.gov/42441732/)
+
+Svolou S, Konstantakos V, Krithara A, Paliouras G.Svolou S, et al.PLoS Comput Biol. 2026 Jul 13;22(7):e1014118. doi: 10.1371/journal.pcbi.1014118. Online ahead of print.PLoS Comput Biol. 2026.PMID: 42441732 
+*   [Engineering Aspects of Olfaction.](https://pubmed.ncbi.nlm.nih.gov/26042329/)
+
+Persaud KC.Persaud KC.In: Persaud KC, Marco S, Gutiérrez-Gálvez A, editors. Neuromorphic Olfaction. Boca Raton (FL): CRC Press/Taylor & Francis; 2013. Chapter 1.In: Persaud KC, Marco S, Gutiérrez-Gálvez A, editors. Neuromorphic Olfaction. Boca Raton (FL): CRC Press/Taylor & Francis; 2013. Chapter 1.PMID: 26042329 Free Books & Documents.Review. 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [American Chemical Society](https://doi.org/10.1021/acs.jcim.6c00652)
+    *   [Silverchair Information Systems](https://pubs.acs.org/jcisd8/article-lookup/doi/doi=10.1021/acs.jcim.6c00652)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-1548)

@@ -1,0 +1,43 @@
+Title: DisoPatho: A Cross-View Feature-Adaptive Interaction Encoding Framework for Predicting Disease-Associated Variants in Intrinsically Disordered Regions - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42503799/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 26.
+
+doi: 10.1021/acs.jcim.6c01455.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42503799**
+*    DOI: [10.1021/acs.jcim.6c01455](https://doi.org/10.1021/acs.jcim.6c01455)
+
+## DisoPatho: A Cross-View Feature-Adaptive Interaction Encoding Framework for Predicting Disease-Associated Variants in Intrinsically Disordered Regions
+
+Xiaohua Wang et al. J Chem Inf Model.2026.
+
+## Abstract
+
+Accurate prediction of variants within intrinsically disordered regions (IDRs) is crucial for advancing disease diagnosis and biomedical interpretation. However, the intrinsic lack of stable structural conformations and the high sequence variability of IDRs make it challenging for existing predictors to achieve robust performance in these regions. Here, we introduce DisoPatho, a deep learning framework specifically tailored for predicting disease-associated variants in IDRs. DisoPatho features a novel mutation-centric architecture that utilizes the variant site as an anchor for feature construction and interaction. The core innovation lies in a cross-view adaptive-feature interaction mechanism, which synergistically integrates IDR-specific energy representations with embeddings from protein language models, including xTrimoPGLM and Evolutionary Scale Modeling. This strategy enables the comprehensive capture of evolutionary constraints and physicochemical patterns without requiring explicit structural descriptors, multiple-sequence alignments, or hand-crafted conservation scores. Consequently, DisoPatho exhibits enhanced discriminative power better adapted to the highly flexible nature of IDRs. Comprehensive evaluations across multiple IDR data sets demonstrate that DisoPatho substantially outperforms existing methods. In 5-fold cross-validation, it achieves average AUCs of 0.899 and 0.840, with ACCs of 0.862 and 0.860 on two data sets. Notably, on a highly confounded independent test set where phylogenetic constraints offer limited discriminative signals, DisoPatho yields a 50.2% relative improvement in MCC over AlphaMissense on their respective predictable variants, while achieving broader prediction coverage. In-depth analyses of the prediction results further confirm the effectiveness and stability of the framework in IDR-specific scenarios. The code, data sets, and predictions for DisoPatho are available for academic use at https://github.com/IBHFLab/DisoPatho.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [MetalTrans: A Biological Language Model-Based Approach for Predicting Disease-Associated Mutations in Protein Metal-Binding Sites.](https://pubmed.ncbi.nlm.nih.gov/39092854/)
+
+Zhang M, Wang X, Xu S, Ge F, Paixao IC, Song J, Yu DJ.Zhang M, et al.J Chem Inf Model. 2024 Aug 12;64(15):6216-6229. doi: 10.1021/acs.jcim.4c00739. Epub 2024 Aug 2.J Chem Inf Model. 2024.PMID: 39092854 
+*   [Deep learning tools predict variants in disordered regions with lower sensitivity.](https://pubmed.ncbi.nlm.nih.gov/40221640/)
+
+Luppino F, Lenz S, Chow CFW, Toth-Petroczy A.Luppino F, et al.BMC Genomics. 2025 Apr 12;26(1):367. doi: 10.1186/s12864-025-11534-9.BMC Genomics. 2025.PMID: 40221640 Free PMC article. 
+*   [Hybrid deep learning with protein language models and dual-path architecture for predicting IDP functions.](https://pubmed.ncbi.nlm.nih.gov/41921197/)
+
+Liang J, Luo Y, Su B, Peng Z.Liang J, et al.Brief Bioinform. 2026 Mar 1;27(2):bbag126. doi: 10.1093/bib/bbag126.Brief Bioinform. 2026.PMID: 41921197 Free PMC article. 
+*   [Computational prediction of functions of intrinsically disordered regions.](https://pubmed.ncbi.nlm.nih.gov/31521235/)
+
+Katuwawala A, Ghadermarzi S, Kurgan L.Katuwawala A, et al.Prog Mol Biol Transl Sci. 2019;166:341-369. doi: 10.1016/bs.pmbts.2019.04.006. Epub 2019 May 20.Prog Mol Biol Transl Sci. 2019.PMID: 31521235 Review. 
+*   [Folic acid supplementation and malaria susceptibility and severity among people taking antifolate antimalarial drugs in endemic areas.](https://pubmed.ncbi.nlm.nih.gov/36321557/)
+
+Crider K, Williams J, Qi YP, Gutman J, Yeung L, Mai C, Finkelstain J, Mehta S, Pons-Duran C, Menéndez C, Moraleda C, Rogers L, Daniels K, Green P.Crider K, et al.Cochrane Database Syst Rev. 2022 Feb 1;2(2022):CD014217. doi: 10.1002/14651858.CD014217.Cochrane Database Syst Rev. 2022.PMID: 36321557 Free PMC article.Updated.

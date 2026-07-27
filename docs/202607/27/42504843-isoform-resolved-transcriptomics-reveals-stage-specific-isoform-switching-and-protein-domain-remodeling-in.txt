@@ -1,0 +1,45 @@
+Title: Isoform-resolved transcriptomics reveals stage-specific isoform switching and protein domain remodeling in Helicoverpa armigera - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42504843/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 27:1-18.
+
+doi: 10.1080/21541264.2026.2708591.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42504843**
+*    DOI: [10.1080/21541264.2026.2708591](https://doi.org/10.1080/21541264.2026.2708591)
+
+## Isoform-resolved transcriptomics reveals stage-specific isoform switching and protein domain remodeling in _Helicoverpa armigera_
+
+Himalshi K Wickramage et al. Transcription.2026.
+
+## Abstract
+
+Insects exhibit pronounced developmental plasticity, driven by complex regulation of gene expression, including isoform-level modulation across developmental stages. However, the role of isoform-level regulation in the developmental transitions of _Helicoverpa armigera_ remains underexplored. Here, we performed transcriptome analysis to characterize gene isoform-specific expression changes between the pupa and adult stages of _H. armigera_. Differential gene-isoform expression analysis revealed that many multi-isoform genes displayed distinct stage-biased regulation that was undetectable at the gene level, uncovering hidden layers of transcriptional complexity. Functional enrichment analyses of differentially expressed multi-isoform genes highlighted MAPK, Hippo, Wnt and apoptosis pathways, consistent with major cellular remodeling processes during the pupa to adult transition. Isoform switching analysis further identified isoform usage shifts between stages, particularly among genes associated with signaling and metabolic regulation. Protein domain and structural modeling revealed that several isoform pairs differed in domain composition, sequence identity, and predicted fold conformation, indicating potential functional divergence in isoform switched genes. Together, these findings suggest that isoform-level modulation may contribute to stage-specific diversification in _H. armigera_. This work establishes a foundation for understanding isoform‑driven developmental plasticity in insects and underscores the importance of isoform-level resolution for elucidating mechanisms of developmental gene regulation.
+
+**Keywords:** Helicoverpa armigera; alternative splicing; isoform switching; transcriptomics.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Integrated Transcriptomic and Proteomic Analyses Suggest the Participation of Endogenous Protease Inhibitors in the Regulation of Protease Gene Expression in _Helicoverpa armigera_.](https://pubmed.ncbi.nlm.nih.gov/29661852/)
+
+Lomate PR, Dewangan V, Mahajan NS, Kumar Y, Kulkarni A, Wang L, Saxena S, Gupta VS, Giri AP.Lomate PR, et al.Mol Cell Proteomics. 2018 Jul;17(7):1324-1336. doi: 10.1074/mcp.RA117.000533. Epub 2018 Apr 16.Mol Cell Proteomics. 2018.PMID: 29661852 Free PMC article. 
+*   [Characterization of kinase gene expression and splicing profile in prostate cancer with RNA-Seq data.](https://pubmed.ncbi.nlm.nih.gov/30367578/)
+
+Feng H, Li T, Zhang X.Feng H, et al.BMC Genomics. 2018 Aug 13;19(Suppl 6):564. doi: 10.1186/s12864-018-4925-1.BMC Genomics. 2018.PMID: 30367578 Free PMC article. 
+*   [Genome-Wide Isoform Switching Reveals SR45-Mediated Splicing Control of _Arabidopsis_ Leaf Senescence.](https://pubmed.ncbi.nlm.nih.gov/41097049/)
+
+Albaqami M, Almaghrabi GO.Albaqami M, et al.Int J Mol Sci. 2025 Oct 8;26(19):9784. doi: 10.3390/ijms26199784.Int J Mol Sci. 2025.PMID: 41097049 Free PMC article. 
+*   [Alternative Splicing in Plant Development and Abiotic Stress Responses: A Multifunctional Regulatory Mechanism.](https://pubmed.ncbi.nlm.nih.gov/42353226/)
+
+Seok HY, Lee SY, Kim D, Moon YH.Seok HY, et al.Int J Mol Sci. 2026 Jun 18;27(12):5512. doi: 10.3390/ijms27125512.Int J Mol Sci. 2026.PMID: 42353226 Free PMC article.Review. 
+*   [Role of the vascular endothelial growth factor isoforms in retinal angiogenesis and DiGeorge syndrome.](https://pubmed.ncbi.nlm.nih.gov/16334858/)
+
+Stalmans I.Stalmans I.Verh K Acad Geneeskd Belg. 2005;67(4):229-76.Verh K Acad Geneeskd Belg. 2005.PMID: 16334858 Review.

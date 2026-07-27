@@ -1,0 +1,81 @@
+Title: Unveiling Large-Scale Kinase-Centric Protein-Protein Interactions through a Knowledge-Informed Workflow - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42427025/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 27;66(14):8474-8489.
+
+doi: 10.1021/acs.jcim.6c00906.  Epub 2026 Jul 9.
+
+Affiliations
+
+*    PMID: **42427025**
+*    DOI: [10.1021/acs.jcim.6c00906](https://doi.org/10.1021/acs.jcim.6c00906)
+
+## Unveiling Large-Scale Kinase-Centric Protein-Protein Interactions through a Knowledge-Informed Workflow
+
+Jinyuan Hu et al. J Chem Inf Model.2026.
+
+## Abstract
+
+Protein phosphorylation regulates signaling, yet atomic-level substrate specificity remains elusive due to sparse structural data and phosphorylation-site-insensitive deep-learning predictors. Here we present a pipeline reformulating kinase-substrate modeling as a Bayesian inference problem. By integrating curated data sets and literature evidence parsed by Large Language Models, we converted diverse biological knowledge into structural restraints for the restraint-guided deep-learning model GRASP. For EGFR, BRAF and JNK1, we obtained 336 new phosphorylation-site-specific structure candidates refined by molecular dynamics. These models recapitulate known features, such as JNK1's hydrophobic docking groove, and enabled a Virtual Position Scanning Peptide Array (V-PSPA) to map recognition patches and derive sequence preferences. Cross-referencing predicted interfaces with AlphaMissense pathogenicity scores reveal that the interaction types and distances to the catalytic pocket significantly influence pathogenicity scores. A comparison with clinical mutation data sets further connects pathogenic mutations to the kinase-substrate interface. This high-resolution, high-throughput pipeline can be broadly applicable to kinase specificity studies and general drug discovery.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Can structural features of kinase receptors provide clues on selectivity and inhibition? A molecular modeling study.](https://pubmed.ncbi.nlm.nih.gov/25635590/)
+
+Ravichandran S, Luke BT, Collins JR.Ravichandran S, et al.J Mol Graph Model. 2015 Apr;57:36-48. doi: 10.1016/j.jmgm.2014.12.007. Epub 2015 Jan 12.J Mol Graph Model. 2015.PMID: 25635590 Free PMC article. 
+*   [Limited Proteolysis Combined with Stable Isotope Labeling Reveals Conformational Changes in Protein (Pseudo)kinases upon Binding Small Molecules.](https://pubmed.ncbi.nlm.nih.gov/26293246/)
+
+Di Michele M, Stes E, Vandermarliere E, Arora R, Astorga-Wells J, Vandenbussche J, van Heerde E, Zubarev R, Bonnet P, Linders JT, Jacoby E, Brehmer D, Martens L, Gevaert K.Di Michele M, et al.J Proteome Res. 2015 Oct 2;14(10):4179-93. doi: 10.1021/acs.jproteome.5b00282. Epub 2015 Aug 25.J Proteome Res. 2015.PMID: 26293246 
+*   [Unraveling Kinase Activation Dynamics Using Kinase-Substrate Relationships from Temporal Large-Scale Phosphoproteomics Studies.](https://pubmed.ncbi.nlm.nih.gov/27336693/)
+
+Domanova W, Krycer J, Chaudhuri R, Yang P, Vafaee F, Fazakerley D, Humphrey S, James D, Kuncic Z.Domanova W, et al.PLoS One. 2016 Jun 23;11(6):e0157763. doi: 10.1371/journal.pone.0157763. eCollection 2016.PLoS One. 2016.PMID: 27336693 Free PMC article. 
+*   [Mechanisms of specificity in protein phosphorylation.](https://pubmed.ncbi.nlm.nih.gov/17585314/)
+
+Ubersax JA, Ferrell JE Jr.Ubersax JA, et al.Nat Rev Mol Cell Biol. 2007 Jul;8(7):530-41. doi: 10.1038/nrm2203.Nat Rev Mol Cell Biol. 2007.PMID: 17585314 Review. 
+*   [New insights into Raf regulation from structural analyses.](https://pubmed.ncbi.nlm.nih.gov/34454301/)
+
+Kondo Y, Paul JW 3rd, Subramaniam S, Kuriyan J.Kondo Y, et al.Curr Opin Struct Biol. 2021 Dec;71:223-231. doi: 10.1016/j.sbi.2021.07.005. Epub 2021 Aug 25.Curr Opin Struct Biol. 2021.PMID: 34454301 Review. 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [American Chemical Society](https://doi.org/10.1021/acs.jcim.6c00906)
+    *   [Silverchair Information Systems](https://pubs.acs.org/jcisd8/article-lookup/doi/doi=10.1021/acs.jcim.6c00906)
+
+*   ### Research Materials
+
+    *   [NCI CPTC Antibody Characterization Program](https://antibodies.cancer.gov/detail/CPTC-EGFR-8)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/CPTAC-802)

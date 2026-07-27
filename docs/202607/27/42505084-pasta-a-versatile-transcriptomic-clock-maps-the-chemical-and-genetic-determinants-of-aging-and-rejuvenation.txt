@@ -1,0 +1,76 @@
+Title: Pasta, a Versatile Transcriptomic Clock, Maps the Chemical and Genetic Determinants of Aging and Rejuvenation - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42505084/
+
+Markdown Content:
+Actions
+
+. 2026 Jul 27:e76740.
+
+doi: 10.1002/advs.76740.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42505084**
+*    DOI: [10.1002/advs.76740](https://doi.org/10.1002/advs.76740)
+
+## Pasta, a Versatile Transcriptomic Clock, Maps the Chemical and Genetic Determinants of Aging and Rejuvenation
+
+Jérôme Salignon et al. Adv Sci (Weinh).2026.
+
+## Abstract
+
+With the growing burden of age-related diseases, understanding and modulating the aging process has become a priority. Transcriptomic aging clocks (TACs) can track biological age but remain limited by platform dependence, tissue specificity, or restricted accessibility. To address this, we developed Pasta, a robust and broadly applicable human TAC, built using a novel 'age-shift' learning framework. Pasta accurately predicted relative age across diverse tissues and data types, including bulk and single-cell RNA-Seq as well as microarray data. Its predictions aligned with senescent and stem-like cellular states and relied on model coefficients enriched for p53 and DNA damage response pathways. Pasta's age scores correlated with tumor grade and patient survival in several cancer types, indicating potential clinical relevance. Applied to over three million transcriptomes from the Connectivity Map L1000 dataset, Pasta identified both established and previously unrecognized age-modulatory compounds and genetic perturbations, highlighting mitochondrial translation and mRNA splicing as key determinants of cellular propensity for aging and rejuvenation, respectively. Experimental validation confirmed pralatrexate as a potent senescence inducer and piperlongumine as a rejuvenating agent in human cells. Together, these findings establish Pasta as a versatile and accessible tool for aging research and therapeutic discovery.
+
+**Keywords:** bioinformatics; biology; cellular aging; computational biology; microarray; senescence; transcriptome.
+
+© 2026 The Author(s). Advanced Science published by Wiley‐VCH GmbH.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [UNC93B1 promotes pancreatic cancer progression through modulation of cGAS-STING signaling.](https://pubmed.ncbi.nlm.nih.gov/41716413/)
+
+Yang H, Li Y, Su J, Zhang H, Zhu W, Shen K, Xu W.Yang H, et al.Front Immunol. 2026 Feb 4;17:1718849. doi: 10.3389/fimmu.2026.1718849. eCollection 2026.Front Immunol. 2026.PMID: 41716413 Free PMC article. 
+*   [Targeting Cellular Senescence for Healthy Aging: Advances in Senolytics and Senomorphics.](https://pubmed.ncbi.nlm.nih.gov/40994903/)
+
+Alum EU, Izah SC, Uti DE, Ugwu OP, Betiang PA, Basajja M, Ejemot-Nwadiaro RI.Alum EU, et al.Drug Des Devel Ther. 2025 Sep 19;19:8489-8522. doi: 10.2147/DDDT.S543211. eCollection 2025.Drug Des Devel Ther. 2025.PMID: 40994903 Free PMC article.Review. 
+*   [Identifying novel age-modulating compounds and quantifying cellular aging using novel computational framework for evaluating transcriptional age.](https://pubmed.ncbi.nlm.nih.gov/37461485/)
+
+Zhang C, Saurat N, Cornacchia D, Chung SY, Sikder T, Minotti A, Studer L, Betel D.Zhang C, et al.bioRxiv [Preprint]. 2023 Oct 4:2023.07.03.547539. doi: 10.1101/2023.07.03.547539.bioRxiv. 2023.PMID: 37461485 Free PMC article.Updated.Preprint. 
+*   [An snRNA-seq aging clock for the fruit fly head sheds light on sex-biased aging.](https://pubmed.ncbi.nlm.nih.gov/41981187/)
+
+Tennant N, Pavuluri A, Singh G, Cortez K, O'Connor-Giles K, Larschan E, Singh R.Tennant N, et al.Sci Rep. 2026 Apr 14;16(1):17434. doi: 10.1038/s41598-026-48613-0.Sci Rep. 2026.PMID: 41981187 Free PMC article. 
+*   [Rejuvenation of senescent cells-the road to postponing human aging and age-related disease?](https://pubmed.ncbi.nlm.nih.gov/23064316/)
+
+Sikora E.Sikora E.Exp Gerontol. 2013 Jul;48(7):661-6. doi: 10.1016/j.exger.2012.09.008. Epub 2012 Oct 11.Exp Gerontol. 2013.PMID: 23064316 Review. 
+
+## References
+
+1.       1.    C. López‐Otín and G. Kroemer, “Hallmarks of Health,” Cell 184 (2021): 33–63, [https://doi.org/10.1016/j.cell.2020.11.034](https://doi.org/10.1016/j.cell.2020.11.034). 
+
+2.       1.    C. López‐Otín, M. A. Blasco, L. Partridge, M. Serrano, and G. Kroemer, “Hallmarks of Aging: An Expanding Universe,” Cell 186 (2023): 243–278, [https://doi.org/10.1016/j.cell.2022.11.001](https://doi.org/10.1016/j.cell.2022.11.001). 
+
+3.       1.    R. S. Rosen and M. L. Yarmush, “Current Trends in Anti‐Aging Strategies,” Annual Review of Biomedical Engineering 25, no. 1 (2023): 363–385, [https://doi.org/10.1146/annurev‐bioeng‐120122‐123054](https://doi.org/10.1146/annurev%E2%80%90bioeng%E2%80%90120122%E2%80%90123054). 
+
+4.       1.    M. Min, C. Egli, A. S. Dulai, and R. K. Sivamani, “Critical Review of Aging Clocks and Factors That May Influence the Pace of Aging,” Frontiers in Aging 5 (2024): 1487260, [https://doi.org/10.3389/fragi.2024.1487260](https://doi.org/10.3389/fragi.2024.1487260). 
+
+5.       1.    J. Rutledge, H. Oh, and T. Wyss‐Coray, “Measuring Biological Age Using Omics Data,” Nature Reviews Genetics 23 (2022): 715–727, [https://doi.org/10.1038/s41576‐022‐00511‐7](https://doi.org/10.1038/s41576%E2%80%90022%E2%80%9000511%E2%80%907). 
+
+## Grants and funding
+
+*   [2017-06088/Swedish Research Council](https://pubmed.ncbi.nlm.nih.gov/?term=2017-06088%2FSwedish+Research+Council%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2017-06088/Swedish Research Council")
+*   [2019-04868/Swedish Research Council](https://pubmed.ncbi.nlm.nih.gov/?term=2019-04868%2FSwedish+Research+Council%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2019-04868/Swedish Research Council")
+*   [2023-04383/Swedish Research Council](https://pubmed.ncbi.nlm.nih.gov/?term=2023-04383%2FSwedish+Research+Council%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2023-04383/Swedish Research Council")
+*   [2023-02156/Swedish Research Council](https://pubmed.ncbi.nlm.nih.gov/?term=2023-02156%2FSwedish+Research+Council%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2023-02156/Swedish Research Council")
+*   [201034Pj/Swedish Cancer Society](https://pubmed.ncbi.nlm.nih.gov/?term=201034Pj%2FSwedish+Cancer+Society%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 201034Pj/Swedish Cancer Society")
+
+*   [23 2994 Pj/Swedish Cancer Society](https://pubmed.ncbi.nlm.nih.gov/?term=23+2994+Pj%2FSwedish+Cancer+Society%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 23 2994 Pj/Swedish Cancer Society")
+*   [243543Pj/Swedish Cancer Society](https://pubmed.ncbi.nlm.nih.gov/?term=243543Pj%2FSwedish+Cancer+Society%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 243543Pj/Swedish Cancer Society")
+*   [230690JIA/Swedish Cancer Society](https://pubmed.ncbi.nlm.nih.gov/?term=230690JIA%2FSwedish+Cancer+Society%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 230690JIA/Swedish Cancer Society")
+*   [NNF21OC0070427/Novo Nordisk Foundation](https://pubmed.ncbi.nlm.nih.gov/?term=NNF21OC0070427%2FNovo+Nordisk+Foundation%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant NNF21OC0070427/Novo Nordisk Foundation")
+*   [NNF22OC0078353/Novo Nordisk Foundation](https://pubmed.ncbi.nlm.nih.gov/?term=NNF22OC0078353%2FNovo+Nordisk+Foundation%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant NNF22OC0078353/Novo Nordisk Foundation")
+*   [KID2016-00207/Karolinska Institute](https://pubmed.ncbi.nlm.nih.gov/?term=KID2016-00207%2FKarolinska+Institute%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant KID2016-00207/Karolinska Institute")
+*   [KID2021-00495/Karolinska Institute](https://pubmed.ncbi.nlm.nih.gov/?term=KID2021-00495%2FKarolinska+Institute%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant KID2021-00495/Karolinska Institute")
+*   [UPD2024-0048/Wenner-Gren Stiftelserna](https://pubmed.ncbi.nlm.nih.gov/?term=UPD2024-0048%2FWenner-Gren+Stiftelserna%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant UPD2024-0048/Wenner-Gren Stiftelserna")

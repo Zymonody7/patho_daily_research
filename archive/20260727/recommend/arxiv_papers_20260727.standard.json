@@ -1,0 +1,793 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-07-27T21:49:34.947948+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 8,
+    "deep_cap": 9,
+    "deep_selected": 8,
+    "quick_candidates": 9,
+    "quick_skim_target": 14,
+    "quick_selected": 9
+  },
+  "deep_dive": [
+    {
+      "id": "42506940",
+      "title": "Applicability of Nanopore-only whole-genome sequencing for",
+      "abstract": "UNLABELLED: Pseudomonas aeruginosa outbreaks frequently occur in intensive care units (ICUs). In particular, ICU patients requiring mechanical ventilation are vulnerable to P. aeruginosa ventilator-associated pneumonia, which is associated with high morbidity and mortality. Fast and accurate genotyping during the early stage is crucial to document and manage P. aeruginosa outbreaks at the ICU. In this study, we have evaluated the applicability of Oxford Nanopore whole-genome sequencing (WGS) for outbreak investigation and antimicrobial resistance (AMR) prediction. To evaluate whether a Nanopore-only WGS workflow was able to reproduce Illumina-confirmed transmission clusters, 19 P. aeruginosa isolates from ICUs at UZ Brussels (Belgium) that were previously sequenced with Illumina were sequenced using a Nanopore-only workflow based on the latest V14 chemistry, followed by bioinformatic analysis via BugSeq and MBioSEQ Ridom Typer. Although both bioinformatic platforms showed high concordance between Illumina and Nanopore data, MBioSEQ Ridom Typer yielded the lowest allelic distance (maximum one cgMLST allele), confirming all outbreak clusters. When applying the Nanopore-only workflow to longitudinally collected isolates, low genetic heterogeneity (maximum three cgMLST alleles) was observed between isolates from the same patient. WGS and subsequent outbreak analysis of 65 respiratory P. aeruginosa isolates collected from 38 different ICU patients across six Belgian hospitals during a 9-month period showed no intra- or inter-hospital transmission. When the Nanopore-only WGS data were used to predict AMR, there was high categorical agreement (95%) between AMR genotype and phenotype. These findings highlight the potential of Nanopore WGS as a rapid and accurate tool for outbreak investigation of P. aeruginosa. IMPORTANCE: In recent years, Nanopore sequencing has found its way to clinical laboratories because of its affordability, scalability, and, most importantly, its ability to obtain sequencing results in near-real time. However, despite improved raw read accuracies with the latest generation R10.4.1 flow cells, the question remains whether the achieved accuracy is sufficient for accurate bacterial outbreak investigation, particularly in high-risk settings such as intensive care units (ICUs). In this study, we show that Nanopore-only whole-genome sequencing (WGS) is able to match Illumina-only WGS in terms of accuracy for Pseudomonas aeruginosa outbreak investigation in the ICU setting, although important sequence type-dependent and even strain-specific methylation issues need to be resolved in order to guarantee this accuracy. By providing a fast and accurate workflow for reliable P. aeruginosa outbreak investigation, this study could pave the way for large-scale implementation of Nanopore-only WGS, leading to faster outbreak response times.",
+      "authors": [
+        "J Dingemans",
+        "S Vandersanden",
+        "P Hilkens",
+        "J Godelaine",
+        "K Magerman",
+        "F Crombé",
+        "D De Geyter",
+        "A Boel",
+        "P Bruynseels",
+        "J Frans",
+        "P Vandecandelaere",
+        "A M Van den Abeele",
+        "R Cartuyvels"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42506940/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "Nanopore sequencing for outbreak investigation and AMR prediction",
+      "llm_evidence_cn": "纳米孔测序用于疫情调查和耐药性预测",
+      "llm_evidence": "纳米孔测序用于疫情调查和耐药性预测",
+      "canonical_evidence": "纳米孔测序用于疫情调查和耐药性预测",
+      "llm_tldr_en": "Evaluates Nanopore WGS for P. aeruginosa outbreak management and antimicrobial resistance prediction in ICUs.",
+      "llm_tldr_cn": "评估了纳米孔全基因组测序在重症监护室铜绿假单胞菌爆发调查和耐药性预测中的应用。",
+      "llm_tldr": "评估了纳米孔全基因组测序在重症监护室铜绿假单胞菌爆发调查和耐药性预测中的应用。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI methods for genomic surveillance and outbreak monitoring",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42396749",
+      "title": "FoldDoF: Utilizing the Primary Degrees of Freedom of Protein Backbone for Geometric Modeling and Generation.",
+      "abstract": "Robust modeling of protein structures through internal coordinates requires modeling a mixture of bond angles and torsion angles. Smoothing out bond angles can lead to significant error accumulation during structure reconstruction. We propose using a concise yet precise representation for modeling and generating protein structures, which views the protein backbone structure as a sequence of 3D rotations of peptide units, unifying bond angles and torsion angles on a single rotation manifold. We therefore present differentiable algorithms for efficient conversion between such internal coordinates and Cartesian coordinates. We demonstrate that the relative 3D rotations between consecutive peptide units describe the primary degrees of freedom of protein backbone conformation and thus guarantee the fidelity of the reconstructed full-atomic backbone structures in an optimization-free manner. Given the advantage of this representation that allows for straightforward geometric reasoning and optimization in 3D space, we incorporated this peptide-unit-centric formulation into protein backbone generative models, resulting in FrameFlow variants with improved in silico design performance in terms of diversity, novelty, and length generalizability. The enhanced efficacy of probabilistic modeling of backbone conformations demonstrates the superiority of this backbone representation and lays the foundation for developing more effective generative models for both protein design and structure prediction.",
+      "authors": [
+        "Zefeng Zhu",
+        "Chen Song"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42396749/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Geometric modeling of protein backbone using 3D rotations",
+      "llm_evidence_cn": "使用3D旋转对蛋白质骨架进行几何建模",
+      "llm_evidence": "使用3D旋转对蛋白质骨架进行几何建模",
+      "canonical_evidence": "使用3D旋转对蛋白质骨架进行几何建模",
+      "llm_tldr_en": "Proposes FoldDoF, a geometric representation for protein backbone modeling using internal degrees of freedom.",
+      "llm_tldr_cn": "提出FoldDoF，一种利用内部自由度进行蛋白质骨架建模的几何表示方法。",
+      "llm_tldr": "提出FoldDoF，一种利用内部自由度进行蛋白质骨架建模的几何表示方法。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "geometric deep learning and foundation models for protein structure modeling",
+      "matched_requirement_id": "req-17",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42439568",
+      "title": "Evo-EquiGPS: Synergizing Dynamic Geometry, Global Topology, and Explicit Evolution for High-Precision Enzyme Active Site Prediction.",
+      "abstract": "Accurate identification of enzyme active sites is a prerequisite for elucidating protein functions and guiding enzyme engineering. Driven by the exponential growth of protein sequence data from next-generation sequencing, numerous novel enzymes with low sequence similarity have been discovered. While protein structure prediction models have provided highly accurate 3D structural data for these novel enzymes, the precise identification of their active sites remains a significant challenge for existing computational methods. Existing methods are constrained by static geometric representations, limited local receptive fields of graph encoders, and evolutionary semantic dilution. To address these limitations, this study presents Evo-EquiGPS, a multimodal graph neural network framework that synergizes multidimensional features for precise enzyme active site prediction. The model incorporates a three-branch parallel encoding architecture consisting of a dynamic geometric flow, a global topological flow, and an explicit evolutionary flow. It comprehensively integrates sequence semantics, 3D structures, and explicit evolutionary constraints of enzymes. Empirical evaluations demonstrate that Evo-EquiGPS exhibits superior performance across data sets with high structural diversity. On the TS124 data set, its area under the precision-recall curve (AUPRC) surpassed that of leading models such as SCREEN and GraphEC by a significant margin (exceeding SCREEN by 13.1% and GraphEC by 15.1%). Furthermore, the model demonstrated strong generalization capabilities on the highly diverse independent test set CSA112. Overall, the Evo-EquiGPS framework significantly enhances the precision of enzyme active site prediction. This provides a solid foundation for computational protein functional annotation.",
+      "authors": [
+        "Xinyu Fei",
+        "Jiali Gu",
+        "Cheng Zhou",
+        "Yue Liu",
+        "Zhong Li",
+        "Yanlei Kang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42439568/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "geometric deep learning for protein active site prediction",
+      "llm_evidence_cn": "用于蛋白质活性位点预测的几何深度学习",
+      "llm_evidence": "用于蛋白质活性位点预测的几何深度学习",
+      "canonical_evidence": "用于蛋白质活性位点预测的几何深度学习",
+      "llm_tldr_en": "Evo-EquiGPS synergizes dynamic geometry and evolution for high-precision enzyme active site prediction.",
+      "llm_tldr_cn": "Evo-EquiGPS 结合动态几何与进化信息，实现了高精度的酶活性位点预测。",
+      "llm_tldr": "Evo-EquiGPS 结合动态几何与进化信息，实现了高精度的酶活性位点预测。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "geometric deep learning and foundation models for protein structure modeling",
+      "matched_requirement_id": "req-17",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42443143",
+      "title": "Scaling SMILES-Based Chemical Language Models for Therapeutic Peptide Engineering.",
+      "abstract": "Therapeutic peptides occupy a unique middle ground in drug discovery, offering the high specificity of protein interactions with the chemical diversity of small molecules, yet they currently fall in a computational blind spot. Existing foundation models cannot handle them effectively: protein models are restricted to natural amino acids, while chemical models struggle to process large, polymer-like sequences. This disconnect has forced the field to rely on static chemical descriptors that fail to capture subtle chemical details or on complex multiembedding pipelines that are custom tailored to specific data sets. To bridge this gap, we present PeptideCLM-2, a suite of chemical language models trained on over 100 million molecules to natively represent complex peptide chemistry. This modeling approach expands the available toolkit of machine learning models for therapeutic peptides. Benchmarking results show strong performance versus prior methods for predicting development end points including membrane diffusion, biological function, and half-life.",
+      "authors": [
+        "Aaron L Feller",
+        "Maxim Secor",
+        "Sebastian Swanson",
+        "Claus O Wilke",
+        "Kristine Deibler"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42443143/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Chemical language models for therapeutic peptide engineering and design",
+      "llm_evidence_cn": "用于治疗性多肽工程和设计的化学语言模型",
+      "llm_evidence": "用于治疗性多肽工程和设计的化学语言模型",
+      "canonical_evidence": "用于治疗性多肽工程和设计的化学语言模型",
+      "llm_tldr_en": "PeptideCLM-2 uses chemical language models to bridge the gap between protein and small molecule modeling for peptides.",
+      "llm_tldr_cn": "PeptideCLM-2 利用化学语言模型填补了多肽在蛋白质和小分子建模之间的空白，助力药物设计。",
+      "llm_tldr": "PeptideCLM-2 利用化学语言模型填补了多肽在蛋白质和小分子建模之间的空白，助力药物设计。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "generative models for molecules proteins and therapeutic design",
+      "matched_requirement_id": "req-19",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42505122",
+      "title": "TPPS4 inhibits PEDV by stabilizing viral RNA G-quadruplex and promoting ER stress: a transfer-learning-driven discovery.",
+      "abstract": "UNLABELLED: Porcine epidemic diarrhea virus (PEDV) is a devastating enteric pathogen that causes substantial economic losses in the global swine industry. While PEDV inhibitors offer a promising alternative to compensate for vaccine evasion caused by viral mutations, their development is bottlenecked by poorly defined antiviral targets and limited compound libraries. Here, we developed a transfer learning framework to accelerate the discovery of anti-PEDV agents by leveraging data from human-associated coronaviruses. Transfer learning-based prediction identified Hemin as a promising PEDV inhibitor, while its analog TPPS4 exhibited potent antiviral activity with EC50 values of 0.85 and 2.86 μM in Vero and LLC-PK1 cells, respectively. Notably, in vivo oral TPPS4 treatment lowered intestinal PEDV loads and doubled the piglet survival rate. Mechanistically, TPPS4 suppresses viral replication by stabilizing highly conserved G-quadruplex structures within the viral ORF1ab gene and simultaneously modulating host endoplasmic reticulum (ER) stress. This study demonstrates that transfer learning driven by human drug data facilitates the discovery of veterinary agents with diverse mechanisms of action, offering a novel paradigm for the development of other new veterinary therapeutics. IMPORTANCE: Veterinary antiviral discovery is hampered by limited bioactivity data and poorly defined targets. To address this, we developed a cross-species transfer learning pipeline to predict anti-PEDV agents. We identified TPPS4 as a potent anti-PEDV compound in vitro and in vivo, which exerts antiviral activity by stabilizing viral G-quadruplex structures and inducing host ER stress. This work establishes a workflow from computational screening to in vivo efficacy validation, demonstrating that cross-species transfer learning can accelerate veterinary antiviral discovery.",
+      "authors": [
+        "Yingge Zheng",
+        "Dehua Luo",
+        "Qingyan Tian",
+        "Mengdi Zhang",
+        "Yanfei Zhang",
+        "Yijia Zhang",
+        "Yuxuan Xu",
+        "Jingyi Wang",
+        "Yuxiang Wang",
+        "Wanjiang Ai",
+        "Hui Song",
+        "Wentao Li",
+        "Dengguo Wei"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42505122/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "transfer learning for anti-PEDV agent discovery",
+      "llm_evidence_cn": "迁移学习用于抗猪流行性腹泻病毒药物发现",
+      "llm_evidence": "迁移学习用于抗猪流行性腹泻病毒药物发现",
+      "canonical_evidence": "迁移学习用于抗猪流行性腹泻病毒药物发现",
+      "llm_tldr_en": "A transfer learning framework accelerates the discovery of antiviral agents for porcine epidemic diarrhea virus.",
+      "llm_tldr_cn": "开发了一个迁移学习框架，通过利用人类冠状病毒数据加速发现抗猪流行性腹泻病毒药物。",
+      "llm_tldr": "开发了一个迁移学习框架，通过利用人类冠状病毒数据加速发现抗猪流行性腹泻病毒药物。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42506927",
+      "title": "Open-access genomic drug resistance prediction tools for",
+      "abstract": "Whole-genome sequencing (WGS) accelerates drug-susceptibility testing (DST) in Mycobacterium tuberculosis (Mtb). Open-access software tools have become widely available, but the sources of real-world performance variability remain uncharacterized. We performed a systematic review and meta-analysis of the performance of open-access, independently validated WGS-based DST prediction tools. Bivariate random-effects meta-analysis was performed for six maintained tools (TBProfiler, Mykrobe, PhyResSE, MTBseq, GenTB, and SAM-TB). Bivariate meta-regression identified covariates associated with performance variation. Thirty-nine studies comprising 144,623 genomes were included. For the two most extensively validated tools, TBProfiler and Mykrobe, pooled rifampicin sensitivity was 95.4% (95% CI: 93.5-96.7) and 93.7% (92.0-95.1), with a specificity of 97.3% (95.7-98.3) and 97.0% (94.8-98.3), respectively. For isoniazid, the sensitivity was 92.0% (90.4-93.3) and 88.2% (85.5-90.4) and specificity 97.3% (96.0-98.2) and 97.5% (95.8-98.5). For ethambutol, the specificity was heterogeneous across tools (86.5%-95.4%); for pyrazinamide, the sensitivity varied widely (49.9%-80.6%). For fluoroquinolones, both sensitivity and specificity approached 90%, with heterogeneity. For newer agents, data scarcity precluded meaningful assessment. Meta-regression identified rifampicin resistance prevalence as the dominant predictor of decreased specificity across first-line drugs (β -1.5 to -3.6 on logit scale, false discovery rate [FDR] q < 0.05), while lineage composition effects were small and confounded. Current open-access WGS prediction tools achieve clinically useful accuracy as rule-out tests for rifampicin, isoniazid, and fluoroquinolone resistance. Predictive performance for second-line drugs is limited by data scarcity. Methodological limitations, including lineage bias, data leakage, and selective sampling, may undermine the tools' generalizability across diverse global tuberculosis populations.IMPORTANCETuberculosis remains a leading infectious disease killer worldwide. Whole-genome sequencing (WGS) of Mycobacterium tuberculosis offers the potential to rapidly predict drug resistance as a one-stop test, but the accuracy of the software tools used to interpret sequencing results has been inconsistently reported. This meta-analysis leverages the heterogeneity across 39 studies and 144,623 genomes to identify factors that drive inconsistencies in reported performance, providing context-specific guidance for clinical adoption. We show that most tools perform adequately as rule-out tests for resistance to the most important first- and second-line drugs but fall short of specificity targets. Importantly, we identify that the local burden of drug resistance in a study population is the dominant factor driving inconsistencies between reported performance estimates. These findings provide guidance for laboratories considering adopting sequencing-based resistance testing and specify priorities for future tool development and validation.",
+      "authors": [
+        "Klaas Dewaele",
+        "Christelle Jouego",
+        "Adina Asim",
+        "Lies Laenen",
+        "Conor Meehan",
+        "Emmanuel André"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42506927/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "genomic drug resistance prediction tools for M. tuberculosis",
+      "llm_evidence_cn": "结核分枝杆菌基因组耐药性预测工具",
+      "llm_evidence": "结核分枝杆菌基因组耐药性预测工具",
+      "canonical_evidence": "结核分枝杆菌基因组耐药性预测工具",
+      "llm_tldr_en": "A meta-analysis evaluates the performance of open-access WGS-based drug resistance prediction tools for tuberculosis.",
+      "llm_tldr_cn": "对结核分枝杆菌全基因组测序耐药性预测工具的性能进行了系统评价和荟萃分析。",
+      "llm_tldr": "对结核分枝杆菌全基因组测序耐药性预测工具的性能进行了系统评价和荟萃分析。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for antimicrobial resistance prediction from genomes",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42427025",
+      "title": "Unveiling Large-Scale Kinase-Centric Protein-Protein Interactions through a Knowledge-Informed Workflow.",
+      "abstract": "Protein phosphorylation regulates signaling, yet atomic-level substrate specificity remains elusive due to sparse structural data and phosphorylation-site-insensitive deep-learning predictors. Here we present a pipeline reformulating kinase-substrate modeling as a Bayesian inference problem. By integrating curated data sets and literature evidence parsed by Large Language Models, we converted diverse biological knowledge into structural restraints for the restraint-guided deep-learning model GRASP. For EGFR, BRAF and JNK1, we obtained 336 new phosphorylation-site-specific structure candidates refined by molecular dynamics. These models recapitulate known features, such as JNK1's hydrophobic docking groove, and enabled a Virtual Position Scanning Peptide Array (V-PSPA) to map recognition patches and derive sequence preferences. Cross-referencing predicted interfaces with AlphaMissense pathogenicity scores reveal that the interaction types and distances to the catalytic pocket significantly influence pathogenicity scores. A comparison with clinical mutation data sets further connects pathogenic mutations to the kinase-substrate interface. This high-resolution, high-throughput pipeline can be broadly applicable to kinase specificity studies and general drug discovery.",
+      "authors": [
+        "Jinyuan Hu",
+        "Shimian Li",
+        "Yue Xue",
+        "Yijie Xia",
+        "Sirui Liu",
+        "Yi Qin Gao"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42427025/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Literature evidence parsed by Large Language Models for protein interaction modeling",
+      "llm_evidence_cn": "利用大语言模型解析文献证据以进行蛋白质相互作用建模",
+      "llm_evidence": "利用大语言模型解析文献证据以进行蛋白质相互作用建模",
+      "canonical_evidence": "利用大语言模型解析文献证据以进行蛋白质相互作用建模",
+      "llm_tldr_en": "Uses LLMs to extract biological knowledge for a deep-learning pipeline modeling kinase-substrate interactions.",
+      "llm_tldr_cn": "利用大语言模型提取生物学知识，构建深度学习流水线以模拟激酶-底物相互作用。",
+      "llm_tldr": "利用大语言模型提取生物学知识，构建深度学习流水线以模拟激酶-底物相互作用。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "large language models for bioinformatics analysis and reasoning",
+      "matched_requirement_id": "req-23",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42503799",
+      "title": "DisoPatho: A Cross-View Feature-Adaptive Interaction Encoding Framework for Predicting Disease-Associated Variants in Intrinsically Disordered Regions.",
+      "abstract": "Accurate prediction of variants within intrinsically disordered regions (IDRs) is crucial for advancing disease diagnosis and biomedical interpretation. However, the intrinsic lack of stable structural conformations and the high sequence variability of IDRs make it challenging for existing predictors to achieve robust performance in these regions. Here, we introduce DisoPatho, a deep learning framework specifically tailored for predicting disease-associated variants in IDRs. DisoPatho features a novel mutation-centric architecture that utilizes the variant site as an anchor for feature construction and interaction. The core innovation lies in a cross-view adaptive-feature interaction mechanism, which synergistically integrates IDR-specific energy representations with embeddings from protein language models, including xTrimoPGLM and Evolutionary Scale Modeling. This strategy enables the comprehensive capture of evolutionary constraints and physicochemical patterns without requiring explicit structural descriptors, multiple-sequence alignments, or hand-crafted conservation scores. Consequently, DisoPatho exhibits enhanced discriminative power better adapted to the highly flexible nature of IDRs. Comprehensive evaluations across multiple IDR data sets demonstrate that DisoPatho substantially outperforms existing methods. In 5-fold cross-validation, it achieves average AUCs of 0.899 and 0.840, with ACCs of 0.862 and 0.860 on two data sets. Notably, on a highly confounded independent test set where phylogenetic constraints offer limited discriminative signals, DisoPatho yields a 50.2% relative improvement in MCC over AlphaMissense on their respective predictable variants, while achieving broader prediction coverage. In-depth analyses of the prediction results further confirm the effectiveness and stability of the framework in IDR-specific scenarios. The code, data sets, and predictions for DisoPatho are available for academic use at https://github.com/IBHFLab/DisoPatho.",
+      "authors": [
+        "Xiaohua Wang",
+        "Shaojie Zhang",
+        "Hongmei Jiang",
+        "Xiao Liang",
+        "Wenjun Xue",
+        "Hu Hou",
+        "Guizhao Liang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-26",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42503799/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "deep learning for predicting disease-associated variants",
+      "llm_evidence_cn": "深度学习预测疾病相关变异",
+      "llm_evidence": "深度学习预测疾病相关变异",
+      "canonical_evidence": "深度学习预测疾病相关变异",
+      "llm_tldr_en": "DisoPatho is a deep learning framework for predicting disease-associated variants in intrinsically disordered regions.",
+      "llm_tldr_cn": "DisoPatho是一个专门用于预测内在无序区域中疾病相关变异的深度学习框架。",
+      "llm_tldr": "DisoPatho是一个专门用于预测内在无序区域中疾病相关变异的深度学习框架。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "deep learning for genomic variant calling filtering and somatic mutation analysis",
+      "matched_requirement_id": "req-41",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "42503518",
+      "title": "Targeting IFN-I driven tertiary lymphoid structures halts B cell-mediated bone loss in periodontitis.",
+      "abstract": "Lymphocytes play a central role in adaptive immunity and represent the primary source of RANKL in periodontitis. Understanding their organization and activation within gingiva is therefore essential. This study investigates the role of tertiary lymphoid structures (TLSs), ectopic lymphoid aggregates that orchestrate local immune responses. Using multiplex immunohistochemistry staining, we found that TLSs form and mature with increasing inflammatory severity. These structures function as hubs for B cell activation and were associated with poorer surgical outcomes. Given the known role of fibroblasts in initiating TLS assembly, we explored the underlying mechanism. Using single-cell RNA sequencing and in vitro assays, we identified that oral pathogens activate the IFN-I-IRF7 axis in gingival fibroblasts, leading to overproduction of IFNβ and driving their differentiation into a CXCL13-producing subtype that facilitates TLS organization. Furthermore, in a mouse periodontitis model, we demonstrated that activated IgD+CD80+ B cells within TLSs promote osteoclastogenesis and bone resorption via RANKL secretion. Therapeutically, inhibition of IFN-I signaling disrupted this pathogenic cascade by suppressing TLS formation and subsequent RANKL production, thereby mitigating periodontitis bone loss. In conclusion, our findings establish TLSs as pathological hubs that coordinate B cell-mediated bone destruction in periodontitis and highlight the IFN-I signaling pathway as a promising target for therapeutic intervention.",
+      "authors": [
+        "Jiawei Lu",
+        "Xiao Wu",
+        "Zehui Xiong",
+        "Jinyi Zhang",
+        "Haipeng Yang",
+        "Feng Liu",
+        "Lijun Luo"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42503518/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "single-cell RNA sequencing for periodontitis immune response",
+      "llm_evidence_cn": "单细胞RNA测序研究牙周炎免疫反应",
+      "llm_evidence": "单细胞RNA测序研究牙周炎免疫反应",
+      "canonical_evidence": "单细胞RNA测序研究牙周炎免疫反应",
+      "llm_tldr_en": "Uses single-cell RNA sequencing to investigate the role of tertiary lymphoid structures in periodontitis.",
+      "llm_tldr_cn": "利用单细胞RNA测序技术研究了牙周炎中三级淋巴结构的形成机制及其对免疫反应的影响。",
+      "llm_tldr": "利用单细胞RNA测序技术研究了牙周炎中三级淋巴结构的形成机制及其对免疫反应的影响。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "single cell sequencing and spatial transcriptomics analysis with machine learning",
+      "matched_requirement_id": "req-40",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42438368",
+      "title": "The BOS-Lig Data Set: Accurate Ligand Charges from a Consensus Approach for 66,810 Experimentally Synthesized Ligands.",
+      "abstract": "Understanding ligand properties is essential for computational high-throughput screening of transition metal complexes. However, ligand properties such as net charge and other information such as their application area are often absent or inconsistently recorded in crystallographic data sets. Here, we construct a ligand data set from 126,985 mononuclear transition metal complexes curated from the Cambridge Structural Database. Using an iterative charge-balancing workflow that combines complex charges, metal oxidation states, and consensus across crystallographic observations, we confidently assign net charges to 66,810 ligands among 94,581 identified unique ligand structures to curate the Boston Open-Shell Ligand (BOS-Lig) data set. The workflow assigns ligand charges in homoleptic complexes first and then iteratively propagates these assignments across heteroleptic environments, allowing charges to be inferred even when direct charge information is unavailable. We analyze cases where simple heuristics such as the octet rule would have failed and introduce a purity metric to identify when our charge assignments may be incorrect. Each ligand is also classified in terms of its metal-coordinating atoms and whether there are multiple variants (i.e., hemilability). We then link complexes to their associated journal abstracts and apply a topic-modeling workflow to link 25,146 ligands with functional application areas spanning reactivity, redox chemistry, biological chemistry, and photophysical chemistry. Together, we provide an experimentally grounded data set of ligand chemical space that connects charge and functional application as a foundation for computational screening and data-driven ligand design.",
+      "authors": [
+        "Roland G St Michel",
+        "Ryan J Jang",
+        "Aaron G Garrison",
+        "Ilia Kevlishvili",
+        "Heather J Kulik"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42438368/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "High-throughput screening and ligand property prediction",
+      "llm_evidence_cn": "高通量筛选和配体性质预测",
+      "llm_evidence": "高通量筛选和配体性质预测",
+      "canonical_evidence": "高通量筛选和配体性质预测",
+      "llm_tldr_en": "Constructs a large-scale ligand dataset with assigned net charges to support high-throughput screening.",
+      "llm_tldr_cn": "构建了一个大规模配体数据集并分配净电荷，以支持高通量筛选。",
+      "llm_tldr": "构建了一个大规模配体数据集并分配净电荷，以支持高通量筛选。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models and generative AI for drug discovery molecular property prediction and lead optimization",
+      "matched_requirement_id": "req-20",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42504823",
+      "title": "An abundant merozoite surface protein of",
+      "abstract": "Malaria merozoite surface proteins (MSPs) are thought to have important roles in red blood cell (RBC) invasion and their exposure on the parasite surface makes them attractive vaccine candidates. However, their role in invasion has not been directly demonstrated and their biological functions remain unknown. One of the most abundant merozoite surface proteins is PfMSP2, a likely ancestral protein that has been maintained in the Plasmodium falciparum lineage and is a focus of vaccine development. Using CRISPR-Cas9 gene editing, we removed PfMSP2 from two different P. falciparum lines with no impact on parasite replication or phenotype in vitro, demonstrating that it is not essential for RBC invasion. Interestingly, loss of PfMSP2 led to increased inhibitory potency of antibodies targeting other merozoite proteins involved in invasion, particularly PfAMA1. In a solid-phase model, increasing concentrations of PfMSP2 protein reduced binding of different antibodies against PfAMA1 in a dose-dependent manner. These data suggest that PfMSP2 can modulate the susceptibility of merozoites to protective inhibitory antibodies. The results of this study change our understanding of the potential functions of PfMSP2 and establish a new concept in malaria where a surface protein can reduce the protective efficacy of antibodies targeting a different antigen. These findings have important implications for understanding malaria immunity and informing vaccine development.",
+      "authors": [
+        "Isabelle G Henshall",
+        "Jill Chmielewski",
+        "Dimuthu Angage",
+        "Ornella Romeo",
+        "Keng Heng Lai",
+        "Kaitlin R Turland",
+        "Nicki Badii",
+        "Michael Foley",
+        "Robin F Anders",
+        "James G Beeson",
+        "Danny W Wilson"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42504823/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "CRISPR-Cas9 gene editing for pathogen protein study",
+      "llm_evidence_cn": "用于病原体蛋白研究的 CRISPR-Cas9 基因编辑",
+      "llm_evidence": "用于病原体蛋白研究的 CRISPR-Cas9 基因编辑",
+      "canonical_evidence": "用于病原体蛋白研究的 CRISPR-Cas9 基因编辑",
+      "llm_tldr_en": "Employs CRISPR-Cas9 to study the role of merozoite surface proteins in Plasmodium falciparum invasion.",
+      "llm_tldr_cn": "利用 CRISPR-Cas9 技术研究恶性疟原虫裂殖子表面蛋白在入侵过程中的作用。",
+      "llm_tldr": "利用 CRISPR-Cas9 技术研究恶性疟原虫裂殖子表面蛋白在入侵过程中的作用。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI for CRISPR design gene editing outcome prediction and perturbation modeling",
+      "matched_requirement_id": "req-33",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42504843",
+      "title": "Isoform-resolved transcriptomics reveals stage-specific isoform switching and protein domain remodeling in",
+      "abstract": "Insects exhibit pronounced developmental plasticity, driven by complex regulation of gene expression, including isoform-level modulation across developmental stages. However, the role of isoform-level regulation in the developmental transitions of Helicoverpa armigera remains underexplored. Here, we performed transcriptome analysis to characterize gene isoform-specific expression changes between the pupa and adult stages of H. armigera. Differential gene-isoform expression analysis revealed that many multi-isoform genes displayed distinct stage-biased regulation that was undetectable at the gene level, uncovering hidden layers of transcriptional complexity. Functional enrichment analyses of differentially expressed multi-isoform genes highlighted MAPK, Hippo, Wnt and apoptosis pathways, consistent with major cellular remodeling processes during the pupa to adult transition. Isoform switching analysis further identified isoform usage shifts between stages, particularly among genes associated with signaling and metabolic regulation. Protein domain and structural modeling revealed that several isoform pairs differed in domain composition, sequence identity, and predicted fold conformation, indicating potential functional divergence in isoform switched genes. Together, these findings suggest that isoform-level modulation may contribute to stage-specific diversification in H. armigera. This work establishes a foundation for understanding isoform‑driven developmental plasticity in insects and underscores the importance of isoform-level resolution for elucidating mechanisms of developmental gene regulation.",
+      "authors": [
+        "Himalshi K Wickramage",
+        "Jack W Royle",
+        "Pawel Sadowski",
+        "Kevin J Dudley"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42504843/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "isoform-resolved transcriptomics and expression modeling",
+      "llm_evidence_cn": "异构体分辨率转录组学与表达建模",
+      "llm_evidence": "异构体分辨率转录组学与表达建模",
+      "canonical_evidence": "异构体分辨率转录组学与表达建模",
+      "llm_tldr_en": "Characterizes stage-specific isoform switching in insects using transcriptome analysis to reveal regulatory complexity.",
+      "llm_tldr_cn": "通过转录组分析表征昆虫发育阶段特异性的异构体切换，揭示调控复杂性。",
+      "llm_tldr": "通过转录组分析表征昆虫发育阶段特异性的异构体切换，揭示调控复杂性。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "foundation models for transcriptomics RNA sequencing and gene expression modeling",
+      "matched_requirement_id": "req-44",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42505084",
+      "title": "Pasta, a Versatile Transcriptomic Clock, Maps the Chemical and Genetic Determinants of Aging and Rejuvenation.",
+      "abstract": "With the growing burden of age-related diseases, understanding and modulating the aging process has become a priority. Transcriptomic aging clocks (TACs) can track biological age but remain limited by platform dependence, tissue specificity, or restricted accessibility. To address this, we developed Pasta, a robust and broadly applicable human TAC, built using a novel 'age-shift' learning framework. Pasta accurately predicted relative age across diverse tissues and data types, including bulk and single-cell RNA-Seq as well as microarray data. Its predictions aligned with senescent and stem-like cellular states and relied on model coefficients enriched for p53 and DNA damage response pathways. Pasta's age scores correlated with tumor grade and patient survival in several cancer types, indicating potential clinical relevance. Applied to over three million transcriptomes from the Connectivity Map L1000 dataset, Pasta identified both established and previously unrecognized age-modulatory compounds and genetic perturbations, highlighting mitochondrial translation and mRNA splicing as key determinants of cellular propensity for aging and rejuvenation, respectively. Experimental validation confirmed pralatrexate as a potent senescence inducer and piperlongumine as a rejuvenating agent in human cells. Together, these findings establish Pasta as a versatile and accessible tool for aging research and therapeutic discovery.",
+      "authors": [
+        "Jérôme Salignon",
+        "Maria Tsiokou",
+        "Patricia Marqués",
+        "Enriqueta Rodríguez-Diaz",
+        "Hazel Ang",
+        "Federico Pietrocola",
+        "Christian G Riedel"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42505084/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "transcriptomic clock for aging using RNA-Seq data",
+      "llm_evidence_cn": "利用RNA-Seq数据的转录组衰老时钟",
+      "llm_evidence": "利用RNA-Seq数据的转录组衰老时钟",
+      "canonical_evidence": "利用RNA-Seq数据的转录组衰老时钟",
+      "llm_tldr_en": "Pasta is a robust transcriptomic aging clock that predicts biological age across diverse tissues and platforms.",
+      "llm_tldr_cn": "Pasta是一种稳健的转录组衰老时钟，可跨组织和平台准确预测生物学年龄。",
+      "llm_tldr": "Pasta是一种稳健的转录组衰老时钟，可跨组织和平台准确预测生物学年龄。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "foundation models for transcriptomics RNA sequencing and gene expression modeling",
+      "matched_requirement_id": "req-44",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42507033",
+      "title": "The Role of the Oral Microbiome in the Development and Treatment of Periodontal Disease: Functional Meta-Omics Evidence.",
+      "abstract": "The oral microbiome, mainly includes microorganisms located in supragingival and subgingival plaques. These bacterial communities maintain the stability of specific niches and host immune homeostasis by forming a complex regulatory network, thereby maintaining periodontal health. Local periodontal dysbiosis occurs when this stability is disrupted, which leads to the excessive production of toxic products. Recent advances in meta-omics technologies have revealed the characters of the oral microbiome. In this review, we discuss the most recent insights into the oral microbiome associated with periodontal disease, mainly focusing on the bacterial members. The composition, function and metabolic programs of these bacterial members under conditions of periodontal health and periodontal disease development, as well as their interactions with host cells, are also discussed. This review aims to provide guidance for establishing models for periodontal disease risk prediction, diagnosis and prognosis evaluation based on microbiome indices. Additionally, this paper analyses the potential mechanism by which dysbiosis may affect the occurrence and development of periodontal disease, emphasizes the role of the core microbiome, and provides potential solutions for the development of new therapeutic strategies and targets to promote microbiome homeostasis. Finally, the important remaining questions in this field and critical points for future research are discussed.",
+      "authors": [
+        "Xiling Chen",
+        "Xiao Wu",
+        "Chunying He",
+        "Yijie Huang",
+        "Ruiqi Zhang",
+        "Qianqi Wu",
+        "Yiyan Chen",
+        "Jiajie Ouyang",
+        "Li Yan",
+        "Yingtao Lv",
+        "Yuan Su"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42507033/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Oral microbiome regulatory networks and host immune homeostasis",
+      "llm_evidence_cn": "口腔微生物组调节网络与宿主免疫稳态",
+      "llm_evidence": "口腔微生物组调节网络与宿主免疫稳态",
+      "canonical_evidence": "口腔微生物组调节网络与宿主免疫稳态",
+      "llm_tldr_en": "Discusses the oral microbiome's role in periodontal disease through meta-omics and regulatory networks.",
+      "llm_tldr_cn": "通过宏组学讨论了口腔微生物组在牙周病中的作用及其调节网络。",
+      "llm_tldr": "通过宏组学讨论了口腔微生物组在牙周病中的作用及其调节网络。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42506892",
+      "title": "High-Fat Diet Reprograms the Periapical Immune Landscape in a Mouse Model of Apical Periodontitis: A Spatial Transcriptomics Study.",
+      "abstract": "INTRODUCTION: Apical periodontitis (AP) is an inflammatory disease of the periapical tissues driven by host responses to endodontic infection, and systemic metabolic disturbances, such as high-fat diet (HFD)-induced dysmetabolism, may exacerbate tissue destruction. This study aimed to determine how chronic HFD exposure alters periapical myeloid cell states and lesion characteristics in a mouse model of AP using spatially resolved transcriptomics. METHODS: Male C57BL/6 mice (n = 20; 6-8 weeks, specific pathogen-free) were randomly assigned to normal chow (NC) or 60% HFD for 18 weeks, with AP induced by pulp exposure in first molars after 14 weeks. Body weight and fasting blood glucose were monitored longitudinally; apical lesion volume was quantified by high-resolution micro-CT and histology at 28 days post-induction; and periapical tissues from AP and contralateral control sites underwent 10× Genomics Xenium in situ spatial transcriptomics focused on neutrophils and macrophages. RESULTS: Compared with NC, HFD mice developed greater body weight gain, higher fasting glucose (approximately 9-11 mM vs. 6-8 mM) and significantly larger apical lesion volumes by micro-CT (p ≤ 0.05), confirming an obese, dysmetabolic background with exacerbated AP-associated bone loss. Spatial transcriptomics revealed that in non-lesion tissues, HFD-conditioned neutrophils and macrophages were biased toward lipid-handling, stress-adaptive and inflammasome-associated programs, whereas NC maintained antimicrobial and oxidative effector signatures. Within AP lesions, HFD was associated with foam cell-like macrophage phenotypes and neutrophils with reduced degranulation and bactericidal gene expression, while NC lesions preserved antigen presentation, neutrophil effector pathways and structured tissue-remodelling responses. CONCLUSIONS: Chronic high-fat feeding reprograms periapical innate immunity from antimicrobial defence toward lipid-driven fibro-inflammatory states, thereby amplifying apical bone loss in AP. These findings highlight spatial transcriptomics as a powerful approach to map immunometabolic circuits in endodontic disease and suggest potential targets for managing AP in metabolically compromised patients.",
+      "authors": [
+        "Maryam Ghaffari",
+        "Aiman Ali",
+        "Clement Hartadi",
+        "Annie Shrestha"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42506892/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "spatial transcriptomics for infection-driven inflammation",
+      "llm_evidence_cn": "用于感染驱动炎症的空间转录组学",
+      "llm_evidence": "用于感染驱动炎症的空间转录组学",
+      "canonical_evidence": "用于感染驱动炎症的空间转录组学",
+      "llm_tldr_en": "Uses spatial transcriptomics to map the immune landscape changes in apical periodontitis under high-fat diet.",
+      "llm_tldr_cn": "利用空间转录组学技术绘制高脂饮食下根尖周炎免疫景观的变化图谱。",
+      "llm_tldr": "利用空间转录组学技术绘制高脂饮食下根尖周炎免疫景观的变化图谱。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "deep learning and foundation models for spatial transcriptomics proteomics and tissue mapping",
+      "matched_requirement_id": "req-46",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42507249",
+      "title": "Role of Microbiome and Bacterial Biofilms in the Pathogenesis of Cutaneous Leishmaniasis.",
+      "abstract": "PURPOSE: Cutaneous leishmaniasis (CL) is a vector-borne parasitic disease characterized by chronic skin lesions. Emerging evidence has highlighted the critical role of the skin microbiome and bacterial biofilms in disease progression. This review discusses the current evidence supporting the involvement of the skin microbiome and bacterial biofilms in the pathogenesis of CL. It further examines the clinical significance of microbiota dysbiosis and bacterial coinfections, reviews emerging biofilm-directed adjunctive therapeutic strategies, and outlines key knowledge gaps for future translational research. METHODS: The available literature on the skin microbiome, bacterial biofilms, microbiota dysbiosis, bacterial coinfections, host immune responses, and emerging biofilm-directed adjunctive therapeutic strategies in cutaneous leishmaniasis was reviewed. RESULTS: CL lesions are associated with microbial dysbiosis characterized by an increased abundance of opportunistic bacteria including Staphylococcus and Streptococcus species. These alterations contribute to dysregulated host immune responses, including increased production of pro-inflammatory cytokines and enhanced neutrophil recruitment, thereby promoting disease progression and delaying wound healing. Biofilm formation within CL lesions represents an additional factor contributing to disease persistence. Biofilms protect bacteria from host immune defences and limit antimicrobial penetration, thus reducing therapeutic efficacy and contributing to treatment failure. The interplay among Leishmania, bacterial communities, and host immunity creates a complex polymicrobial microenvironment that exacerbates lesion pathology. CONCLUSION: A deeper understanding of these complex interactions may enable the design of more effective therapeutic approaches directed at both the parasite and the polymicrobial wound environment.",
+      "authors": [
+        "Derya Topuz Ata",
+        "Anıl Ata"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42507249/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Skin microbiome and bacterial biofilms in disease pathogenesis",
+      "llm_evidence_cn": "皮肤微生物组和细菌生物膜在疾病发病机制中的作用",
+      "llm_evidence": "皮肤微生物组和细菌生物膜在疾病发病机制中的作用",
+      "canonical_evidence": "皮肤微生物组和细菌生物膜在疾病发病机制中的作用",
+      "llm_tldr_en": "Examines the role of the skin microbiome and biofilms in the progression of Cutaneous Leishmaniasis.",
+      "llm_tldr_cn": "探讨了皮肤微生物组和生物膜在皮肤利什曼病进展中的作用。",
+      "llm_tldr": "探讨了皮肤微生物组和生物膜在皮肤利什曼病进展中的作用。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42507333",
+      "title": "Microbiome-guided cancer immunotherapy: immune mechanisms, resistance pathways, and translational opportunities for precision oncology.",
+      "abstract": "The gut microbiome is increasingly recognized as a modulator of tumor-immune interactions and has been associated with cancer development, progression, and therapeutic response, while direct causal evidence remains strongest in mechanistic and interventional models. Microbial composition and metabolites, including SCFAs, bile acids, inosine, and tryptophan-derived products, may shape host immunity by influencing the tumor microenvironment (TME) and systemic immune responses, although the strength of evidence varies by model system and clinical context. These microbial signals have been linked to changes in T cells, B cells, NK cells, and MDSCs, with mechanistic studies supporting effects on cytokine networks, immune checkpoint signaling, inflammation, and antitumor immunity. Emerging translational evidence indicates that specific microbial signatures may serve as predictive biomarkers for immunotherapy efficacy, resistance, and treatment-related toxicity. In parallel, microbiome-targeted strategies, including FMT, probiotics, prebiotics, dietary modulation, and engineered microbial therapeutics, are being investigated as adjunctive approaches to improve cancer therapy, but their clinical efficacy remains incompletely validated. Understanding microbiome-immune crosstalk may therefore support precision oncology by identifying tractable microbial targets for improving therapeutic outcomes, overcoming immune-mediated treatment resistance, and guiding patient stratification across diverse cancer types and settings in clinical oncology practice.",
+      "authors": [
+        "Ismail Amin",
+        "Atef S Elgebaly",
+        "Hend H Mohamed",
+        "Khaled Abuelhaded",
+        "Khaled M Alam-ElDein",
+        "Ahmed Kamel Ibrahim",
+        "Shimaa A Farag",
+        "Alaa Adel",
+        "Mona Hamdy",
+        "Mohamed Elkhawanky",
+        "Ahmed Mahdy"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-07-27",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42507333/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Microbiome modulation of tumor-immune interactions and therapeutic response",
+      "llm_evidence_cn": "微生物组调节肿瘤免疫相互作用和治疗反应",
+      "llm_evidence": "微生物组调节肿瘤免疫相互作用和治疗反应",
+      "canonical_evidence": "微生物组调节肿瘤免疫相互作用和治疗反应",
+      "llm_tldr_en": "Reviews how the gut microbiome influences cancer immunotherapy and systemic immune responses.",
+      "llm_tldr_cn": "综述了肠道微生物组如何影响癌症免疫治疗和全身免疫反应。",
+      "llm_tldr": "综述了肠道微生物组如何影响癌症免疫治疗和全身免疫反应。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}
