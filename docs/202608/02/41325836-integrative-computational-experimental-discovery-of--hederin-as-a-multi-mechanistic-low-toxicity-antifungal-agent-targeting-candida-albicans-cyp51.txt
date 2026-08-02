@@ -1,0 +1,98 @@
+Title: Integrative computational-experimental discovery of α-hederin as a multi-mechanistic, low-toxicity antifungal agent targeting Candida albicans CYP51 - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41325836/
+
+Markdown Content:
+Actions
+
+. 2026 Aug:86:415-428.
+
+doi: 10.1016/j.jare.2025.11.063.  Epub 2025 Nov 29.
+
+Affiliations
+
+*    PMID: **41325836**
+*    DOI: [10.1016/j.jare.2025.11.063](https://doi.org/10.1016/j.jare.2025.11.063)
+
+Free article
+
+## Integrative computational-experimental discovery of α-hederin as a multi-mechanistic, low-toxicity antifungal agent targeting Candida albicans CYP51
+
+Xuan Wang et al. J Adv Res.2026 Aug.
+
+Free article
+
+## Abstract
+
+**Introduction:** Infections caused by pathogenic fungi such as Candida albicans have led to a continuous increase in disease morbidity and mortality, underscoring the urgent need for safer and more effective antifungal therapies. Current antifungal drugs are limited by toxicity and resistance, highlighting the necessity for innovative discovery strategies.
+
+**Objectives:** The aim of this study was to identify novel antifungal compounds using a integrative computational approach targeting C. albicans CYP51 (14-α-sterol demethylase). Specifically, we sought to screen the Traditional Chinese Medicine Systems Pharmacology (TCMSP) database for potential antifungal candidates, evaluate their therapeutic potential, and establish a computational-experimental framework to expedite antifungal drug development.
+
+**Methods:** We employed an integrative computational approach-targeting Candida albicans CYP51 (14-α-sterol demethylase) via molecular docking and pharmacophore modeling-to screen the TCMSP database. The two natural small molecules obtained were subjected to in vivo and in vitro antifungal experiments, and their antifungal mechanisms were analyzed through molecular docking and molecular dynamics simulation.
+
+**Result:** This yielded two novel antifungal candidates: α-hederin and elemenin, with minimum inhibitory concentrations (MICs) of 32 μg/mL and 16 μL/mL against C. albicans, respectively. α-Hederin demonstrated superior therapeutic potential, showing low cytotoxicity in 293 T, Raw264.7, and KB cells. It effectively inhibited hyphal formation, biofilm formation, and cell surface hydrophobicity in vitro. In a murine oral candidiasis model, α-hederin outperformed fluconazole by reducing fungal burden, inhibiting hyphal invasion, and preventing tongue adhesion. Molecular dynamics simulations revealed that α-hederin forms a more stable complex with CYP51 than fluconazole, engaging additional hydrogen bonds, alkyl interactions, and carbon-hydrogen bonds.
+
+**Conclusion:** This study advances antifungal drug discovery by validating CYP51 as a high-value target for structure-guided screening, identifying α-hederin as a low-toxicity, multi-mechanistic antifungal agent and establishing a computational-experimental framework for rapid antifungal development.
+
+**Keywords:** Antifungal drug discovery; CYP51; Candida albicans; Molecular docking; α-Hederin.
+
+Copyright © 2025 The Author(s). Published by Elsevier B.V. All rights reserved.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+## Similar articles
+
+*   [Current advancements and future perspectives of 1,2,3-triazoles to target lanosterol 14α-demethylase (CYP51), a cytochrome P450 enzyme: A computational approach.](https://pubmed.ncbi.nlm.nih.gov/40389011/)
+
+Lal K, Grover A, Ragshaniya A, Aslam M, Singh P, Kumari K.Lal K, et al.Int J Biol Macromol. 2025 Jun;315(Pt 1):144240. doi: 10.1016/j.ijbiomac.2025.144240. Epub 2025 May 17.Int J Biol Macromol. 2025.PMID: 40389011 Review. 
+*   [In silico prediction of Antifungal compounds from Natural sources towards Lanosterol 14-alpha demethylase (CYP51) using Molecular docking and Molecular dynamic simulation.](https://pubmed.ncbi.nlm.nih.gov/36848730/)
+
+Sama-Ae I, Pattaranggoon NC, Tedasen A.Sama-Ae I, et al.J Mol Graph Model. 2023 Jun;121:108435. doi: 10.1016/j.jmgm.2023.108435. Epub 2023 Feb 16.J Mol Graph Model. 2023.PMID: 36848730 
+*   [Coumarin derivatives targeting ergosterol and sphingolipid pathways to inhibit Candida albicans: Molecular, metabolomic, and Drosophila toxicity insights.](https://pubmed.ncbi.nlm.nih.gov/42409245/)
+
+Salve S, Shende H, Desai N, Doh J, Qureshi N, Borkar MR, Mhapankar R, Sharbidre A, Kumbhar V, Khairnar B, Sangshetti JN, Patil R.Salve S, et al.Microb Pathog. 2026 Sep;218:108676. doi: 10.1016/j.micpath.2026.108676. Epub 2026 Jul 6.Microb Pathog. 2026.PMID: 42409245 
+*   [Purification and characterization of a dihydroxy Oxocyclohexyl acetate derivative from endophytic Aspergillus Candidus targeting Candida albicans lanosterol 14α-Demethylase.](https://pubmed.ncbi.nlm.nih.gov/41663451/)
+
+Saleem A, Khattak SU, Ahmad S, Ahmad A, Alsagri HS, Menshawi A.Saleem A, et al.Sci Rep. 2026 Feb 9;16(1):5379. doi: 10.1038/s41598-025-31974-3.Sci Rep. 2026.PMID: 41663451 Free PMC article. 
+*   [Molecular docking approaches in mycetoma: Toward improved patient management.](https://pubmed.ncbi.nlm.nih.gov/41671243/)
+
+Saeed AA, Osman MSS, Fahal AH.Saeed AA, et al.PLoS Negl Trop Dis. 2026 Feb 11;20(2):e0013963. doi: 10.1371/journal.pntd.0013963. eCollection 2026 Feb.PLoS Negl Trop Dis. 2026.PMID: 41671243 Free PMC article.Review. 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions

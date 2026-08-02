@@ -1,0 +1,90 @@
+Title: Artificial intelligence in clinical metagenomic pathogen detection: A critical review of pipeline integrations, challenges, and future directions - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42289215/
+
+Markdown Content:
+Review
+
+Actions
+
+. 2026 Aug:247:107592.
+
+doi: 10.1016/j.mimet.2026.107592.  Epub 2026 Jun 14.
+
+Affiliations
+
+*    PMID: **42289215**
+*    DOI: [10.1016/j.mimet.2026.107592](https://doi.org/10.1016/j.mimet.2026.107592)
+
+Review
+
+## Artificial intelligence in clinical metagenomic pathogen detection: A critical review of pipeline integrations, challenges, and future directions
+
+Jiayue Dai et al. J Microbiol Methods.2026 Aug.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+Metagenomic next-generation sequencing (mNGS) has expanded the scope of clinical diagnostics by enabling culture-independent detection of microorganisms in patient samples. However, mNGS clinical utility remains constrained by substantial computational demands, reference database biases, and the persistent challenge of distinguishing true pathogens from host background, commensal flora and environmental contamination. Traditional alignment and k-mer-based bioinformatics pipelines frequently struggle to balance speed, sensitivity, and the ability to detect highly divergent or novel organisms. This review critically synthesizes the current landscape of Artificial Intelligence (AI) and Machine Learning (ML) applications across the mNGS diagnostic pipeline, examining deep learning architectures-including Convolutional Neural Networks (CNNs), Long Short-Term Memory networks (LSTMs), and Transformers-as integrated into raw read processing, host sequence depletion, primary taxonomic classification, and ancillary detection of antimicrobial resistance (AMR) and virulence factors. While several AI methodologies report high classification accuracy in benchmarking studies, we note that most performance claims derive from simulated datasets or controlled mock communities rather than prospective clinical validation. Significant gaps persist, including limited AI integration in front-end signal optimization, inadequate automated clinical reporting, absence of standardized benchmarking metrics, and unresolved questions regarding data leakage, reproducibility, and generalizability. Successful clinical translation will require addressing the interpretability limitations of current explainable AI approaches, navigating complex and evolving regulatory landscapes for Software as a Medical Device (SaMD), and bridging the gap between computational feasibility and demonstrated patient-outcome benefit. The development of genomic foundation models and multi-modal clinical integration holds promise for advancing mNGS toward real-time, actionable diagnostics, though substantial evidence gaps remain between current proof-of-concept demonstrations and validated clinical deployment.
+
+**Keywords:** Artificial intelligence; Clinical validation; Infectious disease diagnostics; Metagenomic next-generation sequencing; Pathogen detection; Taxonomic classification.
+
+Copyright © 2026. Published by Elsevier B.V.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+## Similar articles
+
+*   [Bioinformatics and artificial intelligence in genomic data analysis: current advances and future directions.](https://pubmed.ncbi.nlm.nih.gov/41348251/)
+
+Olawade DB, Kade A, Egbon E, Usman SO, Fapohunda O, Ijiwade J, Ogbonna CE.Olawade DB, et al.Mol Genet Genomics. 2025 Dec 5;300(1):111. doi: 10.1007/s00438-025-02314-x.Mol Genet Genomics. 2025.PMID: 41348251 Review. 
+*   [Artificial intelligence in Kellgren-Lawrence grading of knee osteoarthritis: bridging radiographic tradition with algorithmic precision.](https://pubmed.ncbi.nlm.nih.gov/42112224/)
+
+Rawat S, Chaturvedi VP, Vaidya B, Shanmugam H, Shah A, Airen L.Rawat S, et al.Ther Adv Musculoskelet Dis. 2026 Apr 29;18:1759720X261442408. doi: 10.1177/1759720X261442408. eCollection 2026.Ther Adv Musculoskelet Dis. 2026.PMID: 42112224 Free PMC article.Review. 
+*   [UltraSEQ, a Universal Bioinformatic Platform for Information-Based Clinical Metagenomics and Beyond.](https://pubmed.ncbi.nlm.nih.gov/37039637/)
+
+Gemler BT, Mukherjee C, Howland C, Fullerton PA, Spurbeck RR, Catlin LA, Smith A, Minard-Smith AT, Bartling C.Gemler BT, et al.Microbiol Spectr. 2023 Jun 15;11(3):e0416022. doi: 10.1128/spectrum.04160-22. Epub 2023 Apr 11.Microbiol Spectr. 2023.PMID: 37039637 Free PMC article. 
+*   [The Use of AI for Phenotype-Genotype Mapping.](https://pubmed.ncbi.nlm.nih.gov/40553344/)
+
+Sharma J, Goel P.Sharma J, et al.Methods Mol Biol. 2025;2952:369-410. doi: 10.1007/978-1-0716-4690-8_21.Methods Mol Biol. 2025.PMID: 40553344 
+*   [Artificial intelligence in the management of patient-ventilator asynchronies: A scoping review.](https://pubmed.ncbi.nlm.nih.gov/40412305/)
+
+Muñoz J, Ruíz-Cacho R, Fernández-Araujo NJ, Candela A, Visedo LC, Muñoz-Visedo J.Muñoz J, et al.Heart Lung. 2025 Sep-Oct;73:139-152. doi: 10.1016/j.hrtlng.2025.05.003. Epub 2025 May 23.Heart Lung. 2025.PMID: 40412305 
+
+## Publication types
+
+*   Actions 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [ClinicalKey](https://www.clinicalkey.com/content/playBy/pii?v=S0167-7012(26)00204-6)
+    *   [Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S0167-7012(26)00204-6)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/non-CPTAC-3409)

@@ -1,0 +1,67 @@
+Title: Host whole genome sequence data represent an untapped resource for characterising affiliated parasite diversity - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41506580/
+
+Markdown Content:
+Actions
+
+. 2026 Aug;56(8):104768.
+
+doi: 10.1016/j.ijpara.2025.104768.  Epub 2026 Jan 6.
+
+Affiliations
+
+*    PMID: **41506580**
+*    DOI: [10.1016/j.ijpara.2025.104768](https://doi.org/10.1016/j.ijpara.2025.104768)
+
+Free article
+
+## Host whole genome sequence data represent an untapped resource for characterising affiliated parasite diversity
+
+Sarah Nichols et al. Int J Parasitol.2026 Aug.
+
+Free article
+
+## Abstract
+
+Parasites are ubiquitous and exert varied ecological and evolutionary pressures on their hosts. Yet, characterising parasite diversity and distributions can be challenging and costly. Leveraging existing data to identify parasites is thus an attractive alternative. High-throughput sequencing (HTS) can generate whole genome sequence (WGS) data which are increasingly freely available in public repositories and represent an untapped resource for characterising parasites affiliated with hosts. In this study, we examine WGS data generated for the silvereye (Zosterops lateralis), to identify endogenous eukaryotic parasites that were inadvertently captured during host sequencing. We compared detection of parasite genera by this approach with detection via 18S metabarcoding. Mining WGS data for parasite DNA revealed the broadest range of genera. Results were verified by traditional microscopy of blood slides and conducting a targeted multiplex Polymerase Chain Reaction (PCR) for haemosporidian parasites. Detection of haemosporidians was largely consistent across microscopy, multiplex PCR and WGS data while 18S metabarcoding entirely failed to detect this group of parasites. Our results demonstrate that existing WGS datasets can be used to estimate endoparasite diversity and provide greater insights on diversity than metabarcoding whilst also avoiding the costs and challenges of direct sampling. We provide a framework outlining opportunities and constraints to consider when mining WGS data to identify parasite sequences. The framework particularly stresses the influences of sequencing depth, database completeness, and methodological biases. Our findings demonstrate how repurposing existing WGS data can provide a cost-effective and informative means of unravelling complex host-parasite interactions in future disease ecology studies.
+
+**Keywords:** Bioinformatics; Disease ecology; Metabarcoding; Metagenomics; Parasite diversity; Whole genome sequencing.
+
+Copyright © 2026 The Authors. Published by Elsevier Ltd.. All rights reserved.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Exploring hidden parasite diversity during a ParasiteBlitz across a coastal habitat gradient using environmental DNA metabarcoding.](https://pubmed.ncbi.nlm.nih.gov/41078228/)
+
+Hill-Spanik KM, Díaz-Morales DM, Atkinson SD, Georgieva S, Sures B, Davis EW 2nd, Kmentová N, Vanhove MPM, Schütz R, de Buron I.Hill-Spanik KM, et al.J Helminthol. 2025 Oct 13;99:e114. doi: 10.1017/S0022149X25100801.J Helminthol. 2025.PMID: 41078228 
+*   [Untargeted metagenomics shows a reliable performance for synchronous detection of parasites.](https://pubmed.ncbi.nlm.nih.gov/32591865/)
+
+Wylezich C, Caccio SM, Walochnik J, Beer M, Höper D.Wylezich C, et al.Parasitol Res. 2020 Aug;119(8):2623-2629. doi: 10.1007/s00436-020-06754-9. Epub 2020 Jun 26.Parasitol Res. 2020.PMID: 32591865 Free PMC article. 
+*   [Restriction enzyme digestion of host DNA enhances universal detection of parasitic pathogens in blood via targeted amplicon deep sequencing.](https://pubmed.ncbi.nlm.nih.gov/30223888/)
+
+Flaherty BR, Talundzic E, Barratt J, Kines KJ, Olsen C, Lane M, Sheth M, Bradbury RS.Flaherty BR, et al.Microbiome. 2018 Sep 17;6(1):164. doi: 10.1186/s40168-018-0540-2.Microbiome. 2018.PMID: 30223888 Free PMC article. 
+*   [Folic acid supplementation and malaria susceptibility and severity among people taking antifolate antimalarial drugs in endemic areas.](https://pubmed.ncbi.nlm.nih.gov/36321557/)
+
+Crider K, Williams J, Qi YP, Gutman J, Yeung L, Mai C, Finkelstain J, Mehta S, Pons-Duran C, Menéndez C, Moraleda C, Rogers L, Daniels K, Green P.Crider K, et al.Cochrane Database Syst Rev. 2022 Feb 1;2(2022):CD014217. doi: 10.1002/14651858.CD014217.Cochrane Database Syst Rev. 2022.PMID: 36321557 Free PMC article.Updated. 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions

@@ -1,0 +1,74 @@
+Title: Class-Incremental Learning for Foodborne Pathogen Prediction Based on Clinical Surveillance Data - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42361903/
+
+Markdown Content:
+Actions
+
+. 2026 Aug;89(8):100847.
+
+doi: 10.1016/j.jfp.2026.100847.  Epub 2026 Jun 26.
+
+Affiliations
+
+*    PMID: **42361903**
+*    DOI: [10.1016/j.jfp.2026.100847](https://doi.org/10.1016/j.jfp.2026.100847)
+
+Free article
+
+## Class-Incremental Learning for Foodborne Pathogen Prediction Based on Clinical Surveillance Data
+
+Ke Qin et al. J Food Prot.2026 Aug.
+
+Free article
+
+## Abstract
+
+Foodborne diseases (FBDs) pose a significant global public health challenge, necessitating rapid and accurate pathogen identification. However, real-world pathogen detection faces practical constraints, including few-shot scenarios for rare pathogens, severe class imbalance between common and rare classes, and the continuous emergence of novel pathogens requiring incremental learning capabilities. To address these challenges, this study proposes a Class Incremental Learning with Dual Attention and Adaptive Feature Fusion Network (CIL-DAFFNet). The model incorporates a dual-attention mechanism to enhance discriminative feature extraction from clinically imbalanced data and employs a dynamically weighted knowledge distillation strategy, adjusted via maximum mean discrepancy (MMD), to mitigate catastrophic forgetting. Evaluated on a real-world clinical dataset covering Salmonella, Vibrio parahaemolyticus, Escherichia coli, and Norovirus, CIL-DAFFNet outperformed five incremental learning baselines. In the final incremental phase, it achieved an accuracy of 0.8245, a Macro-F1 of 0.8004, and a G-mean of 0.7972. Ablation studies confirmed the contributions of core components, and SHAP analysis provided clinically interpretable feature importance rankings. This study provides a feasible technical solution for the rapid and precise identification of foodborne pathogens, supporting intelligent food safety monitoring and clinical decision-making.
+
+**Keywords:** Class-incremental learning; Few-shot learning; Foodborne diseases; Foodborne pathogens; Imbalanced data.
+
+Copyright © 2026 The Author(s). Published by Elsevier Inc. All rights reserved.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+## Similar articles
+
+*   [VPAF-FSCIL: Virtual prototype calibration and parameter-adaptive freezing for few-shot class-incremental learning.](https://pubmed.ncbi.nlm.nih.gov/42161072/)
+
+Yao Y, Li J, Chen X.Yao Y, et al.Neural Netw. 2026 May 13;203:109094. doi: 10.1016/j.neunet.2026.109094. Online ahead of print.Neural Netw. 2026.PMID: 42161072 
+*   [Few-shot learning for rare skin disease classification via adaptive distribution calibration.](https://pubmed.ncbi.nlm.nih.gov/41327945/)
+
+Wen Y, Wu Y, Zeng Z, Yi S, Yuan X, Zhu Y.Wen Y, et al.Math Biosci Eng. 2025 Oct 9;22(12):3005-3027. doi: 10.3934/mbe.2025111.Math Biosci Eng. 2025.PMID: 41327945 
+*   [Rapid and accurate identification of foodborne bacteria: a combined approach using confocal Raman micro-spectroscopy and explainable machine learning.](https://pubmed.ncbi.nlm.nih.gov/40156634/)
+
+Tu Q, Li M, Sun Z, Niu H, Zhao L, Wang Y, Sun L, Liu Y, Zhu Y, Zhao G.Tu Q, et al.Anal Bioanal Chem. 2025 May;417(11):2281-2292. doi: 10.1007/s00216-025-05816-0. Epub 2025 Mar 29.Anal Bioanal Chem. 2025.PMID: 40156634 
+*   [Machine learning-based predictive modeling of foodborne pathogens and antimicrobial resistance in food microbiomes using omics techniques: A systematic review.](https://pubmed.ncbi.nlm.nih.gov/41606854/)
+
+Okoye CO, Abhadiomhen SE, Ezenwanne BC, Chen X, Jiang H, Wu Y, Jiang J.Okoye CO, et al.Food Res Int. 2025 Dec;221(Pt 1):117255. doi: 10.1016/j.foodres.2025.117255. Epub 2025 Aug 7.Food Res Int. 2025.PMID: 41606854 
+*   [Biosensing technologies for foodborne pathogen detection and healthcare: principles, emerging materials, and intelligent platforms.](https://pubmed.ncbi.nlm.nih.gov/41803510/)
+
+Assudani PJ, P B, A AL, George G, Avthankar A, Tiwari A, Bhaiyya M, Kulkarni MB.Assudani PJ, et al.Mikrochim Acta. 2026 Mar 10;193(4):231. doi: 10.1007/s00604-026-07976-x.Mikrochim Acta. 2026.PMID: 41803510 Free PMC article.Review. 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S0362-028X(26)00152-3)
+
+*   ### Medical
+
+    *   [MedlinePlus Health Information](https://medlineplus.gov/foodborneillness.html)

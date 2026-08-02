@@ -1,10 +1,79 @@
 # 知识库
 
-- 最近沉淀条目数：62
+- 最近沉淀条目数：85
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [From generation to validation: Deep generative models for antimicrobial peptide discovery.](#/202608/02/202608/02/42054758-from-generation-to-validation-deep-generative-models-for-antimicrobial-peptide-discovery)
+  - TLDR：针对全球抗生素耐药性危机，传统抗菌肽（AMP）筛选效率低下的问题，本文综述了利用VAE、GAN及扩散模型等深度生成技术进行AMP从头设计的最新进展。文章系统对比了不同生成策略在活性与安全性平衡上的表现，并总结了从序列生成到实验验证的完整流程，为开发临床可转化的新型抗菌药物提供了方法论指导。
+  - Tags：`query:pathoai`
+- [Hybrid deep learning-based rapid broad-Spectrum antimicrobial susceptibility prediction from whole-genome assemblies.](#/202608/02/202608/02/42309394-hybrid-deep-learning-based-rapid-broad-spectrum-antimicrobial-susceptibility-prediction-from-whole-genome-assemblies)
+  - TLDR：针对传统抗生素敏感性测试（AST）速度慢、覆盖面窄的问题，本研究开发了一种基于混合深度学习的广谱抗药性预测模型。该模型利用6-mer频率对699个细菌基因组组装序列进行编码，并结合CNN、BiLSTM和注意力机制提取局部特征与长程依赖关系。实验在22种抗生素上实现了0.772的准确率，证明了从基因组数据快速预测广谱抗药性的可行性，为临床决策支持工具的开发提供了可扩展的框架。
+  - Tags：`query:pathoai`
+- [Deep learning-enabled ratiometric signal transduction for portable and intelligent colorimetric LAMP biosensing of Vibrio vulnificus.](#/202608/02/202608/02/42031193-deep-learning-enabled-ratiometric-signal-transduction-for-portable-and-intelligent-colorimetric-lamp-biosensing-of-vibrio-vulnificus)
+  - TLDR：针对创伤弧菌现场快速检测中比色法主观性强、易受环境干扰的问题，本研究开发了一种集成深度学习的比色LAMP生物传感平台。该平台通过定制光学模块获取均匀信号，利用CNN模型对比色反应的绿/蓝通道强度比进行比色分析，实现了生化信号的数字化转换。实验结果显示，该方法比传统电泳灵敏度提高10倍，检测限达10^-5 ng/μL，且在30分钟内完成检测，为资源受限地区的病原体定量诊断提供了稳健的智能化方案。
+  - Tags：`query:pathoai`
+- [Artificial intelligence in clinical metagenomic pathogen detection: A critical review of pipeline integrations, challenges, and future directions.](#/202608/02/202608/02/42289215-artificial-intelligence-in-clinical-metagenomic-pathogen-detection-a-critical-review-of-pipeline-integrations-challenges-and-future-directions)
+  - TLDR：临床宏基因组测序（mNGS）在病原体检测中面临计算量大、背景噪声干扰及难以识别变异物种等挑战。本文综述了深度学习（如CNN、Transformer）在原始序列处理、宿主过滤及分类中的应用，指出虽然AI在模拟数据上表现优异，但在临床转化中仍面临可解释性不足和缺乏标准化验证等瓶颈。该综述为构建实时、精准的临床诊断系统提供了技术路径与未来方向。
+  - Tags：`query:pathoai`
+- [Discovery of novel antimicrobials within microbiomes.](#/202608/02/202608/02/42341608-discovery-of-novel-antimicrobials-within-microbiomes)
+  - TLDR：针对抗生素耐药性病原体威胁及新药研发滞后的现状，本文综述了利用基因组大数据从人类及各类微生物组中挖掘新型抗菌药物的进展。重点介绍了如何利用人工智能计算方法与创新实验策略，从海量数据中精准识别生物合成基因簇、抗菌肽及蛋白质。这些技术不仅加速了针对重点病原体的小分子与蛋白质药物发现，还揭示了新的作用机制，为应对耐药性危机提供了关键的技术路径。
+  - Tags：`query:pathoai`
+- [Class-Incremental Learning for Foodborne Pathogen Prediction Based on Clinical Surveillance Data.](#/202608/02/202608/02/42361903-class-incremental-learning-for-foodborne-pathogen-prediction-based-on-clinical-surveillance-data)
+  - TLDR：针对食源性致病菌检测中存在的样本稀缺、类别不平衡及新病原体不断涌现的挑战，本研究提出了一种名为 CIL-DAFFNet 的类增量学习框架。该框架结合双注意力机制增强特征提取，并利用基于最大均值差异（MMD）动态加权的知识蒸馏策略来缓解灾难性遗忘。在包含沙门氏菌、诺如病毒等真实临床数据集上的实验表明，该模型在最终增量阶段的准确率达到 0.8245，为智能化食品安全监测和临床决策提供了高效且可解释的技术方案。
+  - Tags：`query:pathoai`
+- [Designing fiber-gut microbiome interactions with active learning.](#/202608/02/202608/02/42509322-designing-fiber-gut-microbiome-interactions-with-active-learning)
+  - TLDR：膳食纤维与肠道益生菌的协同作用对健康至关重要，但其复杂的交互空间难以通过传统实验穷举。本研究整合机器学习、贝叶斯优化与高通量群落构建，建立了一个“设计-测试-学习”循环框架，旨在寻找能最大化肠道益生菌群功能的纤维-菌种组合。研究成功识别出由菊粉、单形拟杆菌和卡氏厌氧棍状菌构成的产丁酸生态基序，并在人体粪便菌群实验中验证了其可预测的健康益处，为精准营养干预提供了系统性设计方案。
+  - Tags：`query:pathoai`
+- [A Snapshot of the UK Blood Donor Plasma Virome: A Retrospective Cross-Sectional Cohort Study.](#/202608/02/202608/02/42515825-a-snapshot-of-the-uk-blood-donor-plasma-virome-a-retrospective-cross-sectional-cohort-study)
+  - TLDR：为了评估输血传播风险并了解健康人群的血源性病毒背景，本研究采用定量靶向宏基因组测序技术，对5064名英国献血者的血浆样本进行了回顾性分析。研究发现健康献血者的病毒组主要由少数持久性物种构成，如高度流行的细环病毒和庚型肝炎病毒，而高致病性病毒极少见。该研究为英国健康人群血浆病毒组建立了基准，有助于优化血液安全监测策略。
+  - Tags：`query:pathoai`
+- [Discovery of new mechanisms to control metabolism and homeostasis in Bacillus subtilis.](#/202608/02/202608/02/42241737-discovery-of-new-mechanisms-to-control-metabolism-and-homeostasis-in-bacillus-subtilis)
+  - TLDR：针对枯草芽孢杆菌代谢平衡机制中存在的认知空白，本文结合体内交联蛋白质组学、AI 蛋白质结构预测与抑制子筛选技术，揭示了细菌感应铁元素的分子机制，并发现了受特定突变激活的新型氨基酸外排蛋白。该研究展示了 AI 辅助的结构生物学在破解基础生物学难题和发现隐性基因功能方面的巨大潜力。
+  - Tags：`query:bioinfo`
+- [Integrative computational-experimental discovery of α-hederin as a multi-mechanistic, low-toxicity antifungal agent targeting Candida albicans CYP51.](#/202608/02/202608/02/41325836-integrative-computational-experimental-discovery-of--hederin-as-a-multi-mechanistic-low-toxicity-antifungal-agent-targeting-candida-albicans-cyp51)
+  - TLDR：针对白色念珠菌感染导致的耐药性与毒性问题，本研究采用计算与实验结合的策略，通过分子对接和药效团模型筛选TCMSP数据库，发现了天然小分子α-常春藤皂苷（α-hederin）。实验证明该分子在体外能抑制菌丝和生物膜形成，在小鼠模型中疗效优于氟康唑且毒性较低。分子动力学模拟揭示其与CYP51靶点结合更稳定，为抗真菌药物研发提供了高效的结构导向筛选框架。
+  - Tags：`query:pathoai`
+- [Host whole genome sequence data represent an untapped resource for characterising affiliated parasite diversity.](#/202608/02/202608/02/41506580-host-whole-genome-sequence-data-represent-an-untapped-resource-for-characterising-affiliated-parasite-diversity)
+  - TLDR：寄生虫多样性监测成本高且难度大，传统方法如18S元条形码常有遗漏。本研究提出利用宿主全基因组测序（WGS）数据中“误捕”的非靶向序列来识别内源性真核寄生虫，并以灰胸绣眼鸟为例，对比了WGS挖掘、元条形码、显微镜及PCR的效果。结果显示WGS能发现最广泛的寄生虫属，且在检测血孢子虫方面优于元条形码，证明了复用现有WGS数据是研究宿主-寄生虫互作的高效、低成本手段。
+  - Tags：`query:pathoai`
+- [Comparative genomic surveillance of fluoroquinolone resistance markers across major riverine hotspots by leveraging public metagenomes.](#/202608/02/202608/02/42107727-comparative-genomic-surveillance-of-fluoroquinolone-resistance-markers-across-major-riverine-hotspots-by-leveraging-public-metagenomes)
+  - TLDR：针对全球氟喹诺酮类抗生素耐药性（FQR）激增的问题，本研究利用公共宏基因组数据，对密西西比河、长江等五大河流的FQR标记物进行了系统性监测。研究发现质粒介导的qnrS2及外排泵基因是主要耐药决定因素，且耐药基因与重金属耐药基因存在显著共选择压力。该研究揭示了河流作为耐药基因库的风险，为制定基于环境监测的抗生素耐药性缓解策略提供了科学依据。
+  - Tags：`query:pathoai`
+- [Early-life acquisition of antimicrobial resistance genes and strain-level genomic concordance across maternal-infant compartments.](#/202608/02/202608/02/42119682-early-life-acquisition-of-antimicrobial-resistance-genes-and-strain-level-genomic-concordance-across-maternal-infant-compartments)
+  - TLDR：针对生命早期微生物定植与抗药性基因（ARG）获取对长期健康的影响，本研究通过对32对母婴的初乳、母乳及新生儿粪便进行培养、宏基因组和全基因组测序分析。研究发现新生儿在出生首周内即建立了复杂的耐药组，且在多个母婴对中观察到高度一致（ANI≥99.9%）的致病菌株及共享的移动遗传元件。这揭示了母体或共同环境在新生儿耐药基因早期定植中的关键作用，为围产期健康监测提供了高分辨率的基因组证据。
+  - Tags：`query:seqai`
+- [Human-associated microbial inputs and bacterial-fungal ecological coupling shape antibiotic resistance risk in environmental dust.](#/202608/02/202608/02/42242076-human-associated-microbial-inputs-and-bacterial-fungal-ecological-coupling-shape-antibiotic-resistance-risk-in-environmental-dust)
+  - TLDR：环境粉尘是抗生素耐药性（AMR）传播的关键媒介，但多界微生物组与健康风险的关联尚不明确。本研究利用宏基因组学技术分析了制药厂、农场、车站及学校的粉尘样本，发现人类活动显著增强了微生物组的“人源化”程度，并与细菌-真菌的生态耦合共同推高了AMR风险。研究揭示了车站粉尘具有最高的耐药基因多样性，强调了人类输入与跨界微生物交互在塑造环境耐药风险中的核心作用。
+  - Tags：`query:seqai`
+- [Imperfectly amphipathic design of α-helical antimicrobial peptides demonstrating potent antimicrobial activity with low toxicity.](#/202608/02/202608/02/41921827-imperfectly-amphipathic-design-of--helical-antimicrobial-peptides-demonstrating-potent-antimicrobial-activity-with-low-toxicity)
+  - TLDR：针对传统抗菌肽设计过度追求完美两亲性导致活性受限的问题，本研究基于杂合肽P18设计了一系列具有“非完美两亲性”结构的α-螺旋肽。实验发现，非完美两亲性肽（尤其是疏水面不完全的结构）比完美两亲性肽具有更强的抗菌活性且毒性更低。其中候选肽APH143在多种临床致病菌中表现出极高的活性与稳定性，为开发抗多重耐药菌药物提供了通过调节两亲性程度来优化性能的新视角。
+  - Tags：`query:bioinfo`
+- [Phage predation mitigates the spread of antibiotic resistance in anaerobic digestion under shortened solid retention times.](#/202608/02/202608/02/41997104-phage-predation-mitigates-the-spread-of-antibiotic-resistance-in-anaerobic-digestion-under-shortened-solid-retention-times)
+  - TLDR：针对厌氧消化中缩短固体停留时间（SRT）对抗生素耐药性（AMR）传播的影响机制不明的问题，本研究利用宏基因组学分析了中温与高温系统下耐药基因（ARGs）的动态变化。研究发现，缩短SRT在中温条件下因质粒介导的病原菌扩张增加了ARGs，但在高温条件下通过噬菌体的裂解捕食作用有效抑制了耐药菌及其基因的传播。该发现揭示了噬菌体在控制耐药性扩散中的关键作用，为优化污水处理工艺提供了新策略。
+  - Tags：`query:pathoai`
+- [Single-cell transcriptomic analysis unveils dysregulated macrophage-podocyte crosstalk in membranous nephropathy.](#/202608/02/202608/02/42025748-single-cell-transcriptomic-analysis-unveils-dysregulated-macrophage-podocyte-crosstalk-in-membranous-nephropathy)
+  - TLDR：膜性肾病（MN）是抗体介导的肾小球疾病，但其细胞损伤机制尚不明确。本研究通过构建cBSA诱导的MN小鼠模型并结合单细胞转录组测序，揭示了肾脏细胞图谱的重塑，特别是巨噬细胞与足细胞间通讯的失调。研究发现Spp1-整合素信号增强与胶原蛋白IV稳态信号缺失是驱动肾小球损伤的关键，为MN治疗提供了新靶点。
+  - Tags：`query:seqai`
+- [A geometric and probabilistic framework for mechanistic antifungal screening from colony morphology.](#/202608/02/202608/02/42046385-a-geometric-and-probabilistic-framework-for-mechanistic-antifungal-screening-from-colony-morphology)
+  - TLDR：针对传统杀菌剂筛选仅依赖生长抑制标量（如MIC）而忽略几何失效模式的问题，本文提出了一种基于菌落形态的几何概率框架。该框架通过计算效价坐标λ、极性坐标I及失效概率p，将常规菌落图像转化为可量化的机制描述语言。实验证明该方法能有效区分效价与极性相关的失效模式，为杀菌剂候选物的机制化筛选和优先级排序提供了新工具。
+  - Tags：`query:pathoai`
+- [Generation of an iPSC line IUFi004-A-13 with homozygous NDUFS1 mutation for the study of Leigh syndrome.](#/202608/02/202608/02/42070526-generation-of-an-ipsc-line-iufi004-a-13-with-homozygous-ndufs1-mutation-for-the-study-of-leigh-syndrome)
+  - TLDR：Leigh综合征是一种严重的儿科线粒体疾病，常由NDUFS1基因突变引起。本研究利用CRISPR/Cas9技术在人诱导多能干细胞（iPSC）中引入NDUFS1纯合错义突变，成功构建了IUFi004-A-13细胞系。该模型保留了干细胞特性并具备三胚层分化能力，为在等基因背景下研究线粒体呼吸链复合物I缺陷导致的Leigh综合征提供了重要的体外疾病模型。
+  - Tags：`query:bioinfo`
+- [Exploration of the protein and pharmacological landscape of monkeypox virus treatment: from entry point to end point.](#/202608/02/202608/02/41428316-exploration-of-the-protein-and-pharmacological-landscape-of-monkeypox-virus-treatment-from-entry-point-to-end-point)
+  - TLDR：2022年猴痘病毒（MPXV）再次爆发成为全球卫生挑战，亟需高效疗法。该综述系统梳理了MPXV从入侵到扩散的生命周期，识别了A27L、F13L等关键蛋白靶点，并评估了特考韦瑞等现有药物的局限性。通过AI筛选和多组学分析，研究指出了Lumacaftor等潜在新药，为开发针对不同进化分支的联合疗法提供了结构生物学与药理学依据。
+  - Tags：`query:pathoai`
+- [A prioritization framework for BRCA1/2 variants of uncertain significance identified by comprehensive genomic profiling.](#/202608/02/202608/02/41765968-a-prioritization-framework-for-brca12-variants-of-uncertain-significance-identified-by-comprehensive-genomic-profiling)
+  - TLDR：c.67 G > C变异的功能缺失机制及其与临床治疗反应的一致性，为遗传性癌症基因变异的系统化解读提供了可扩展的范式。
+  - Tags：`query:seqai`
+- [Measuring population immunity against influenza using individual antibody titres: a multicountry, retrospective observational study.](#/202608/02/202608/02/42009019-measuring-population-immunity-against-influenza-using-individual-antibody-titres-a-multicountry-retrospective-observational-study)
+  - TLDR：针对流感流行预警中个体抗体滴度难以转化为群体免疫指标的问题，本研究利用跨国多中心（中、美、越等）的4万余份血清样本，构建了包括几何平均滴度、免疫比例及再生数削减率在内的四种群体免疫评估指标。结果显示，这些指标能以高准确率（AUROC达79%-93%）预测流感优势亚型及疫情规模趋势，为季节性流感监测和医疗资源规划提供了量化工具。
+  - Tags：`query:pathoai`
+- [Sugarcane viral diseases: Epidemiology, detection, and advanced breeding methods for resistance.](#/202608/02/202608/02/42096830-sugarcane-viral-diseases-epidemiology-detection-and-advanced-breeding-methods-for-resistance)
+  - TLDR：甘蔗病毒病严重威胁全球糖业产量与含糖量。本文系统综述了主要病原体的流行病学与宿主互作机制，评估了从传统免疫检测到CRISPR及高通量测序的诊断技术，并重点探讨了利用RNAi、基因编辑及AI辅助育种（如GS和GWAS）提升抗性的策略。该综述为实现精准育种和可持续生产提供了数据驱动的整合管理路线图。
+  - Tags：`query:pathoai`
 - [Applicability of Nanopore-only whole-genome sequencing for](#/202607/27/202607/27/42506940-applicability-of-nanopore-only-whole-genome-sequencing-for)
   - TLDR：针对ICU中铜绿假单胞菌爆发监测对时效性的严苛要求，本研究评估了基于最新V14化学试剂的Nanopore单平台全基因组测序流程。通过对多个医院分离株的实测，证明该方法在爆发集群识别上与Illumina金标准高度一致（等位基因差异≤1），且耐药性预测准确率达95%，为临床提供了一种快速、低成本且高精度的疫情实时监测与响应方案。
   - Tags：`query:pathoai`

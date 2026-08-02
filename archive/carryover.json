@@ -1,6 +1,391 @@
 {
-  "generated_at": "2026-07-27T21:49:34.949173+00:00",
-  "updated_date": "20260727",
+  "generated_at": "2026-08-02T21:31:00.774029+00:00",
+  "updated_date": "20260802",
   "carryover_days": 1,
-  "items": []
+  "items": [
+    {
+      "id": "42534686",
+      "title": "Building the Tools for Enhanced Waterway Surveillance: Prediction of Antimicrobial-Resistant",
+      "abstract": "Urban waterways are reservoirs and vectors of antimicrobial resistance (AMR), yet AMR is not routinely measured alongside faecal indicator bacteria. Using 2 years of data on Escherichia coli and AMR in a New Zealand urban river, we tested how AMR quantification could improve water quality risk assessment. Persistently high frequencies of AMR and pathogenic E. coli sequence types were detected near homes and places of recreation. We measured AMR phenotypes and gene mobilisation by conjugation. We compared phenotyping with genotyping by whole-genome sequencing to assess whether phenotyping could serve as a proxy for costly sequencing methods. Results suggest that one AMR phenotype could act as a sentinel for less common but problematic resistances, potentially due to plasmid-based linkage of antibiotic resistance genes or enrichment of clinically relevant sequence types. The study offers a low-cost water quality monitoring strategy to meet community needs. Widespread adoption of AMR hazard reporting could support the World Health Organization's Sustainable Development Goals and Global Action Plan on AMR.",
+      "authors": [
+        "Sophie van Hamelsveld",
+        "Brigitta Kurenbach",
+        "Gayle C Ferguson",
+        "William A Godsoe",
+        "Deborah J Paull",
+        "Muyiwa E Adewale",
+        "Brent Gilpin",
+        "Anh Tu Phan",
+        "Jack A Heinemann"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42534686/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "genomic surveillance and AMR prediction",
+      "llm_evidence_cn": "基因组监测与耐药性预测",
+      "llm_evidence": "基因组监测与耐药性预测",
+      "canonical_evidence": "基因组监测与耐药性预测",
+      "llm_tldr_en": "Evaluates genomic and phenotypic tools for monitoring AMR in urban waterway surveillance.",
+      "llm_tldr_cn": "评估了用于城市水道监测中耐药性监控的基因组和表型工具。",
+      "llm_tldr": "评估了用于城市水道监测中耐药性监控的基因组和表型工具。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI methods for genomic surveillance and outbreak monitoring",
+      "matched_requirement_id": "req-4",
+      "selection_source": "carryover_cache",
+      "paper_id": "42534686",
+      "carry_days": 1
+    },
+    {
+      "id": "42535626",
+      "title": "Integrating Artificial Intelligence Into Drug Discovery From Medicinal Plants: Current Applications and Infrastructural Challenges.",
+      "abstract": "Medicinal plants represent a vast and evolutionarily refined reservoir of structurally diverse bioactive compounds that have historically contributed to major therapeutic breakthroughs. However, despite their pharmacological richness, systematic translation of plant-derived metabolites into clinically approved drugs remains constrained by persistent bottlenecks, including extract complexity, dereplication redundancy, structural elucidation challenges, taxonomic ambiguity, and multi-component pharmacology. This review presents a bottleneck-driven and systems-oriented framework for integrating artificial intelligence (AI) into medicinal plant-based drug discovery (MPDD) to address some of these bottlenecks. Rather than reiterating broadly documented AI tools used in synthetic drug development, the manuscript critically examines phytomedicine-specific challenges and maps AI applications across key stages of the pipeline: medicinal plant identification, extraction optimization, plant metabolite identification and dereplication, absorption, distribution, metabolism, excretion, and toxicity (ADMET) prediction, virtual screening, network pharmacology, repurposing, and generative de novo design of pseudo-natural products. Emphasis is placed on the foundational requirement of making phytochemical datasets truly AI-ready through metadata harmonization, dataset balancing, novelty-aware modeling, and structured data engineering. Emerging approaches such as transformer-based foundational models, graph neural networks (GNNs), generative AI (GAI) architectures, and multi-omics-integrated network pharmacology are discussed within a pragmatic translational context. Importantly, this review maintains a balanced perspective, acknowledging that fully AI-driven clinically approved botanical drugs/synthetic drugs have yet to emerge and identifies challenges limiting the progress. By integrating computational methods with infrastructural reform, this work outlines a progressive roadmap to transition AI in medicinal plant research from exploratory studies toward standardized, reproducible, and biologically grounded next-generation drug discovery.",
+      "authors": [
+        "Amit Gangwal",
+        "Azim Ansari",
+        "Mohd Usman Mohd Siddique",
+        "Jyotiram Sawale",
+        "Suhas Padmane",
+        "Raju Wadekar"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42535626/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "AI for drug discovery and molecular property prediction from medicinal plants",
+      "llm_evidence_cn": "人工智能用于药用植物的药物发现和分子性质预测",
+      "llm_evidence": "人工智能用于药用植物的药物发现和分子性质预测",
+      "canonical_evidence": "人工智能用于药用植物的药物发现和分子性质预测",
+      "llm_tldr_en": "Presents a framework for integrating AI into drug discovery from medicinal plant metabolites.",
+      "llm_tldr_cn": "提出了一个将人工智能整合到基于药用植物代谢物的药物发现中的框架。",
+      "llm_tldr": "提出了一个将人工智能整合到基于药用植物代谢物的药物发现中的框架。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "foundation models and generative AI for drug discovery molecular property prediction and lead optimization",
+      "matched_requirement_id": "req-20",
+      "selection_source": "carryover_cache",
+      "paper_id": "42535626",
+      "carry_days": 1
+    },
+    {
+      "id": "42407310",
+      "title": "Compartment-specific host association and mobility shape ARG risk in aquaculture systems.",
+      "abstract": "Antimicrobial resistance in aquaculture threatens environmental and public health, but the risk of ARGs cannot be inferred from abundance alone; host context and mobility potential are essential. Here, we investigated how ecological compartments shape ARG host background, mobility, and risk in aquaculture systems. We analyzed 437 metagenomes from water and sediment in freshwater and marine aquaculture across China using resistome profiling, host assignment, genetic localization, ARG-MGE co-occurrence, a four-tier risk framework, and machine learning. We detected 1413 nonredundant ARG subtypes (28 classes). Water had higher ARG diversity, stronger associations with opportunistic pathogens, and stronger mobility-related signals than sediment. High-risk ARGs were concentrated in water: Rank I ARGs were exclusive to water, and water-specific Rank II ARGs accounted for 7.2% (freshwater) and 6.9% (marine) of total ARG diversity, versus 4.2% (freshwater sediment) and 2.9% (marine sediment). The LightGBM model identified salinity, temperature, and pH as key mobility predictors. Together, these results show that ARG risk in aquaculture is jointly shaped by the ecological compartment, host association, and mobility potential, with water acting as the principal high-risk interface. This risk-oriented analytical framework provides a transferable basis for prioritizing surveillance and intervention in aquaculture environments.",
+      "authors": [
+        "Zhong-Quan Jiang",
+        "Rui-Kai Xing",
+        "Di Peng",
+        "Yuan-Hao Ren",
+        "Tian-Yi Wei",
+        "Wen-Bo Guo",
+        "Zhe-Min Shen",
+        "Chao-Nan Wang",
+        "Feng-Li Zhang",
+        "Tao Yuan"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42407310/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Machine learning for ARG risk assessment and host assignment in aquaculture",
+      "llm_evidence_cn": "机器学习用于水产养殖中抗性基因风险评估与宿主分配",
+      "llm_evidence": "机器学习用于水产养殖中抗性基因风险评估与宿主分配",
+      "canonical_evidence": "机器学习用于水产养殖中抗性基因风险评估与宿主分配",
+      "llm_tldr_en": "Employs machine learning to analyze antimicrobial resistance gene mobility and risk in aquaculture metagenomes.",
+      "llm_tldr_cn": "利用机器学习分析水产养殖宏基因组中的抗生素耐药基因流动性及风险。",
+      "llm_tldr": "利用机器学习分析水产养殖宏基因组中的抗生素耐药基因流动性及风险。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for antimicrobial resistance prediction from genomes",
+      "matched_requirement_id": "req-5",
+      "selection_source": "carryover_cache",
+      "paper_id": "42407310",
+      "carry_days": 1
+    },
+    {
+      "id": "42243631",
+      "title": "SeqBoard: a genomics-based data dashboard for comprehensive wastewater virome monitoring.",
+      "abstract": "OBJECTIVES: To develop the first public-facing dashboard that translates genomic sequencing data from wastewater into accessible and actionable community information concerning human pathogenic viruses, representing a shift to sequencing-based public health wastewater monitoring. MATERIALS AND METHODS: We developed SeqBoard, a user-friendly dashboard that displays sequencing information from the total wastewater virome. The dashboard integrates diverse expertise and components, including data processing and analysis, visualization and management, security, and stakeholder engagement and feedback. We implemented a 3-tiered system for user interactions, customized to the general public, public health officials, and genomics experts. RESULTS: SeqBoard provides an intuitive interface for presenting genomic information as species-specific trend lines, level indicators, and all-site aggregates. It translates complex sequencing data into public health insights, including reporting on dozens of viruses of concern with modules for detections, variant information, and genomic context. DISCUSSION: The prevention of the next pandemic will require comprehensive pan-monitoring of deadly viruses and their evolution. Genomics-based dashboards will be essential for early detection of viral activity before significant clinical manifestation, thereby allowing public health systems to provide warnings, ready actions, and develop vaccines. CONCLUSION: SeqBoard shows that sequencing data can be translated into useful public health information, serving as a model for future sequencing-based pathogen dashboards. The dashboard is publicly available at https://tephi-ww.uth.edu/public-dashboard and represents the first publicly available dashboard providing pan viral genomic detection data for wastewater monitoring.",
+      "authors": [
+        "Cici Bauer",
+        "Nicholas Reger",
+        "Haider A L Rustem",
+        "Michael Tisza",
+        "Catherine L Triosi",
+        "Sara Javornik Cregeen",
+        "Leah Ghobrial",
+        "Anna Gitter",
+        "Fuqing Wu",
+        "Anil Surathu",
+        "Jennifer Deegan",
+        "Kristina D Mena",
+        "Joseph Petrosino",
+        "Eric Boerwinkle",
+        "Blake M Hanson",
+        "Anthony W Maresso"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42243631/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Genomics-based dashboard for wastewater virome monitoring and surveillance",
+      "llm_evidence_cn": "基于基因组学的废水病毒组监测与监控仪表盘",
+      "llm_evidence": "基于基因组学的废水病毒组监测与监控仪表盘",
+      "canonical_evidence": "基于基因组学的废水病毒组监测与监控仪表盘",
+      "llm_tldr_en": "A genomics-based dashboard for public health surveillance of pathogenic viruses in wastewater systems.",
+      "llm_tldr_cn": "开发了一个基于基因组学的仪表盘，用于废水系统中人类致病病毒的公共卫生监测。",
+      "llm_tldr": "开发了一个基于基因组学的仪表盘，用于废水系统中人类致病病毒的公共卫生监测。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI driven outbreak surveillance genomic epidemiology and transmission modeling",
+      "matched_requirement_id": "req-12",
+      "selection_source": "carryover_cache",
+      "paper_id": "42243631",
+      "carry_days": 1
+    },
+    {
+      "id": "42251689",
+      "title": "Metagenomic insights into potential horizontal transfer of resistance/virulence genes in gut microbiota from patients with Crohn disease.",
+      "abstract": "BACKGROUND: Unraveling the potential horizontal transfer of resistance genes/virulence genes (RGs/VGs) in gut microbiota from patients with Crohn disease (CD) is an interesting but poorly characterized issue. METHODS: Quantitative assessment was performed to estimate the relative abundance and diversity of RGs/VGs/mobile genetic elements (MGEs). Differential analysis was applied to identify the CD-specific enriched genetic subtypes. A species-RGs/VGs/MGEs association network was constructed to explore possible co-occurrence patterns of these genetic elements across potential microbial hosts. Integrated with topological metrics and Zi-Pi computational modeling, co-occurrence network analysis was conducted to characterize potential associations among RGs, VGs, and MGEs. RESULTS: Comparative metagenomic analyses indicated that the microbiome in group CD exhibited significantly higher relative abundance of RGs compared to that in healthy controls (HC; P = .040), with 131 specific RG/VG subtypes (eg, acrA/T6SS) exhibiting marked enrichment (P < .05). The co-occurrence network revealed intensified interconnectivity between RGs/VGs and MGEs in group CD, in which MGEs accounted for 71% of network nodes (vs 60.80% in HC), and 99.14% of the edges were positively correlated (vs 93.60% in HC). Network topology and Zi-Pi analysis further suggested reduced modularity (0.709 vs 0.979 in HC) and enhanced intergene connectivity (average degree: 12.288 vs 2.156; average weighted degree: 23.359 vs 3.688 in HC). There were no network hubs (0 vs 5 in HC) but abundant modular hubs (60 vs 25 in HC), peripheral nodes (2317 vs 1549 in HC), and connectors (61 vs 36 in HC), which may reflect conditions favorable for enhanced gene transfer potential. Cross-species transfer events were predicted across clinical-environmental-commensal boundaries, exemplified by tet(M) dissemination between Clostridioides difficile and Bacteroides sp., probably implying progressive erosion of ecological barriers. CONCLUSIONS: Collectively, we inferred that the gut microbiome of CD patients might represent a high-risk reservoir for the horizontal transfer of pathogenic determinants, which may pose a potential threat for public health and biosecurity.",
+      "authors": [
+        "Mengqi Tao",
+        "Zhiyuan Zhang",
+        "Lingli Dai",
+        "Ying Zeng",
+        "Xian Zhang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42251689/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "metagenomic analysis of horizontal transfer of resistance genes in gut microbiota",
+      "llm_evidence_cn": "肠道微生物群耐药基因水平转移的宏基因组分析",
+      "llm_evidence": "肠道微生物群耐药基因水平转移的宏基因组分析",
+      "canonical_evidence": "肠道微生物群耐药基因水平转移的宏基因组分析",
+      "llm_tldr_en": "Uses metagenomics and network analysis to study resistance and virulence gene transfer in Crohn's disease.",
+      "llm_tldr_cn": "利用宏基因组学和网络分析研究克罗恩病患者肠道微生物群中耐药和毒力基因的转移。",
+      "llm_tldr": "利用宏基因组学和网络分析研究克罗恩病患者肠道微生物群中耐药和毒力基因的转移。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for antimicrobial resistance prediction from genomes",
+      "matched_requirement_id": "req-5",
+      "selection_source": "carryover_cache",
+      "paper_id": "42251689",
+      "carry_days": 1
+    },
+    {
+      "id": "42287915",
+      "title": "Integrated microbiome and metabolomics analyses reveal gut-lung axis alteration following waterborne Pseudomonas aeruginosa exposure.",
+      "abstract": "Pseudomonas aeruginosa (P. aeruginosa) is frequently detected in drinking water systems and premise plumbing, representing a persistent environmental microbial hazard. However, the systemic effects of waterborne P. aeruginosa exposure beyond localized pulmonary infection remain poorly characterized from an environmental risk perspective. In this study, we employed an integrated microbiome-metabolomics approach to characterize coordinated pulmonary, intestinal, and systemic host-microbiome-metabolite responses in a P. aeruginosa exposure-induced acute pneumonia murine model. Respiratory challenge with P. aeruginosa resulted in severe lung inflammation and epithelial barrier disruption, and accompanied with coordinated microbial and metabolic remodeling across distal compartments. Lachnospiraceae_NK4A136_group was enriched in both pulmonary and intestinal microbiota, suggesting its potential as a candidate environmental indicator of host responses to waterborne P. aeruginosa exposure in this acute pneumonia murine model. Metabolomic analyses revealed pronounced reprogramming of tryptophan metabolism, which was characterized by compartment-specific redistribution of the microbiota-derived metabolite like indole-3-propionic acid (IPA), with increased abundance in lung tissue and decreased abundance in serum and intestinal contents. These findings support IPA acts as a candidate metabolic indicator of systemic host-microbiome-metabolite alteration. Mechanistically, P. aeruginosa exposure was associated with altered aryl hydrocarbon receptor (AhR) signaling and compromised epithelial barrier integrity across pulmonary and intestinal tissues. Prophylactic IPA supplementation restored AhR activation, reinforced barrier function, and attenuated inflammatory injury. Collectively, these findings propose a candidate framework in which waterborne P. aeruginosa exposure is associated with coordinated pulmonary, intestinal, and systemic host-microbiome-metabolite alterations that may contribute to distal toxicological responses. Our work provides preliminary mechanistic support for microbiome- and metabolite-based effect indicators in environmental health assessment of waterborne pathogens, and pends validation in additional exposure models and human-relevant cohorts.",
+      "authors": [
+        "Jingjing Bai",
+        "Jingyi Wen",
+        "Qin Cao",
+        "Menghan Pang",
+        "Long Ma",
+        "Shuli Man"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42287915/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Integrated microbiome and metabolomics for pathogen infection modeling",
+      "llm_evidence_cn": "整合微生物组与代谢组学进行病原体感染建模",
+      "llm_evidence": "整合微生物组与代谢组学进行病原体感染建模",
+      "canonical_evidence": "整合微生物组与代谢组学进行病原体感染建模",
+      "llm_tldr_en": "Uses integrated omics to characterize host-microbiome responses to Pseudomonas aeruginosa exposure.",
+      "llm_tldr_cn": "利用整合组学表征宿主对铜绿假单胞菌暴露的微生物组反应。",
+      "llm_tldr": "利用整合组学表征宿主对铜绿假单胞菌暴露的微生物组反应。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host pathogen interaction and infection outcome prediction",
+      "matched_requirement_id": "req-14",
+      "selection_source": "carryover_cache",
+      "paper_id": "42287915",
+      "carry_days": 1
+    },
+    {
+      "id": "42366951",
+      "title": "Integrating patient in-hospital transfer patterns into automated outbreak detection systems: a single-center retrospective study.",
+      "abstract": "OBJECTIVES: Timely detection of pathogen-related outbreaks in hospitals is important for preventing onward transmission and can be supported by automated outbreak detection systems (AODS). Many methods overlook in-hospital patient transfers and focus only on patient locations at the time of sampling. This study compares three approaches for incorporating patient transfers into AODS. DESIGN: Two existing AODS frameworks, a local percentile-based system and a statistical modeling-based system were extended to include patient transfers: 1) grouping wards into communities based on frequent patient exchange, 2) including prior ward visits in the past 14 days, and 3) including both prior ward visits and time spent on wards. Alerts generated were reviewed for clinical relevance. SETTING: Data from January 2014 to December 2021 from a University Medical Center in the Netherlands. RESULTS: Using the percentile-based approach, the baseline scenario detected 99 possible outbreaks. Extension with ward community groupings, prior ward visits, and prior ward visits accounting for time spent in each ward increased this number with 16 (+15%), 42 (+42%), and 106 (+110%) possible outbreaks, respectively. Of the alerts generated by including individual patient transfer history, 35% were judged as requiring investigation. The trade-off between increased detection and relevance was less favorable for the other approaches. Similar findings were found for statistical modeling-based methods. CONCLUSIONS: Inclusion of patient transfer data in AODS improved sensitivity, at the cost of increasing the alert burden. Therefore, ongoing refinement should further optimize the balance between accurate outbreak detection and a manageable alert burden.",
+      "authors": [
+        "Susanne Pinto",
+        "Marieke A M Harmelink-de Zoete",
+        "Maaike S M van Mourik"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42366951/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "automated outbreak detection systems and transmission modeling",
+      "llm_evidence_cn": "自动爆发检测系统与传播建模",
+      "llm_evidence": "自动爆发检测系统与传播建模",
+      "canonical_evidence": "自动爆发检测系统与传播建模",
+      "llm_tldr_en": "Improves hospital outbreak detection by integrating patient transfer patterns into statistical modeling systems.",
+      "llm_tldr_cn": "通过将患者转院模式整合到统计模型系统中，改进了医院病原体爆发的自动检测。",
+      "llm_tldr": "通过将患者转院模式整合到统计模型系统中，改进了医院病原体爆发的自动检测。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI driven outbreak surveillance genomic epidemiology and transmission modeling",
+      "matched_requirement_id": "req-12",
+      "selection_source": "carryover_cache",
+      "paper_id": "42366951",
+      "carry_days": 1
+    },
+    {
+      "id": "42517697",
+      "title": "RCSB protein data Bank: Next-generation advanced search for exploration of experimental structures and computed structure models.",
+      "abstract": "The Protein Data Bank (PDB), established in 1971, is the primary global, open-access archive for experimentally determined 3D macromolecular structures (proteins, RNA, DNA). The research-focused RCSB.org web-portal provides access to these data alongside more than one million machine-learning-predicted structure models, greatly expanding the available structural landscape. Rapid growth of both experimental and computational structures has increased the need for powerful yet accessible search tools that serve a broad and diverse scientific community. Herein, we describe a redesigned RCSB Protein Data Bank RCSB.org Advanced Search capability that supports intuitive discovery of 3D structures through a unified interface. This interface integrates annotation-, sequence-, and 3D structure-based searches, embeds an interactive 3D viewer, and incorporates curated biological knowledge, such as catalytic site definitions from Mechanism and Catalytic Site Atlas and ligand-guided structural motifs, for constructing geometry-driven queries. A new Chemical Search tool allows definition of chemical queries via an integrated drawing tool or standard identifiers, seamlessly combining them with annotation filters. By allowing query definition directly within spatial and chemical contexts, these search interfaces reduce the need for detailed knowledge of residue numbering, chain identifiers, or external cheminformatics software. This capability enables efficient exploration of structures, chemical diversity, and structure-function relationships across all life domains. The redesigned interfaces can be accessed directly at rcsb.org/search/advanced for Advanced Search and rcsb.org/search/chemical for Chemical Search.",
+      "authors": [
+        "Yana Rose",
+        "Ronald Brown",
+        "Maria Voigt",
+        "Charmi Bhikadiya",
+        "Sebastian Bittrich",
+        "Jose M Duarte",
+        "Joan Segura",
+        "Rachel Kramer Green",
+        "Stephen K Burley"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42517697/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "access to machine-learning-predicted protein structure models",
+      "llm_evidence_cn": "获取机器学习预测的蛋白质结构模型",
+      "llm_evidence": "获取机器学习预测的蛋白质结构模型",
+      "canonical_evidence": "获取机器学习预测的蛋白质结构模型",
+      "llm_tldr_en": "Redesigns RCSB PDB search to integrate experimental structures with millions of ML-predicted models.",
+      "llm_tldr_cn": "重新设计了RCSB PDB搜索功能，整合了实验结构与数百万个机器学习预测模型。",
+      "llm_tldr": "重新设计了RCSB PDB搜索功能，整合了实验结构与数百万个机器学习预测模型。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "geometric deep learning and foundation models for protein structure modeling",
+      "matched_requirement_id": "req-17",
+      "selection_source": "carryover_cache",
+      "paper_id": "42517697",
+      "carry_days": 1
+    }
+  ]
 }

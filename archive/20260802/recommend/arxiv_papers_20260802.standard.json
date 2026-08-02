@@ -1,0 +1,1051 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-08-02T21:31:00.772403+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 22,
+    "deep_cap": 9,
+    "deep_selected": 9,
+    "quick_candidates": 50,
+    "quick_skim_target": 14,
+    "quick_selected": 14
+  },
+  "deep_dive": [
+    {
+      "id": "42054758",
+      "title": "From generation to validation: Deep generative models for antimicrobial peptide discovery.",
+      "abstract": "The global escalation of antibiotic resistance has renewed interest in antimicrobial peptides (AMPs) as promising alternatives to conventional antibiotics. Although extensive experimental evidence supports their effectiveness against drug-resistant pathogens, identifying new candidates remains time-consuming and labor-intensive. Recent advances in artificial intelligence (AI) are helping to alleviate this bottleneck by accelerating the discovery of AMPs. In particular, generative approaches, including variational autoencoders (VAEs), generative adversarial networks (GANs), and diffusion models, have enabled the de novo design of AMPs with potent activity and reduced toxicity. Despite this progress, key challenges remain, including dataset quality and bias, the calibration and reliability of activity/toxicity prediction, controllable generation under realistic constraints, and rigorous, reproducible validation. This review summarizes recent advances in generative models for AMP discovery, compares different modeling strategies, and outlines mainstream validation methods used to assess peptide efficacy and safety. We provide a systematic comparison and new insights for peptide-centered generative modeling, discuss current limitations and unresolved questions, and propose practical considerations and future directions to guide the development of AMP generation models that are effective, safe, and clinically translatable.",
+      "authors": [
+        "Zehua Sun",
+        "Xiaoyu Wang",
+        "Shibo Kuang",
+        "Jiangning Song",
+        "Cesar de la Fuente-Nunez"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42054758/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "deep generative models for antimicrobial peptide discovery",
+      "llm_evidence_cn": "用于抗菌肽发现的深度生成模型",
+      "llm_evidence": "用于抗菌肽发现的深度生成模型",
+      "canonical_evidence": "用于抗菌肽发现的深度生成模型",
+      "llm_tldr_en": "Reviews deep generative models like VAEs and GANs for de novo design of antimicrobial peptides to combat resistance.",
+      "llm_tldr_cn": "综述了VAE和GAN等深度生成模型在抗菌肽从头设计中应对耐药性的应用。",
+      "llm_tldr": "综述了VAE和GAN等深度生成模型在抗菌肽从头设计中应对耐药性的应用。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42309394",
+      "title": "Hybrid deep learning-based rapid broad-Spectrum antimicrobial susceptibility prediction from whole-genome assemblies.",
+      "abstract": "Antimicrobial resistance (AMR) is a global public health threat. Mortality and poor treatment outcomes are the key consequences of AMR. Conventional antimicrobial susceptibility testing (AST) is slow, limited in coverage, and dependent on laboratory infrastructure, creating delays in clinical decision-making. In this study, we developed a hybrid deep learning model for broad-spectrum antimicrobial resistance prediction by analyzing 699 bacterial genome assemblies and paired antimicrobial susceptibility outcomes across 22 antibiotics. Genome assemblies were encoded using 6-mer frequency and antimicrobial susceptibility phenotypes were engineered into genome-antibiotic pairs for binary prediction. The proposed model integrates convolutional neural networks (CNNs) for local sequence feature extraction, bidirectional long short-term memory (BiLSTM) networks to capture long-range genomic dependencies, and an attention mechanism to improve interpretability. Model evaluation achieved an accuracy of 0.772 and AUROC of 0.77 at a resistance decision threshold of 0.55, with balanced accuracy of 0.697 and AUPRC of 0.489. The results demonstrate variable predictive performance across antibiotics and organism groups. This study demonstrates that a hybrid CNN-BiLSTM-Attention model can rapidly predict antimicrobial resistance from genome-derived k-mer features while incorporating organism and antibiotic metadata for broad-spectrum AST prediction. This framework offers a scalable way to predict susceptibility from genome data and can help advance the development of AMR decision-support tools for clinical use.",
+      "authors": [
+        "Linda Osaghale",
+        "Eman Abid Fahad Alhasnawi",
+        "Abeni Beshiru",
+        "David Kanzin",
+        "Bolaji Olalere"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42309394/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 10.0,
+      "llm_evidence_en": "hybrid deep learning for antimicrobial resistance prediction",
+      "llm_evidence_cn": "用于抗菌药物耐药性预测的混合深度学习",
+      "llm_evidence": "用于抗菌药物耐药性预测的混合深度学习",
+      "canonical_evidence": "用于抗菌药物耐药性预测的混合深度学习",
+      "llm_tldr_en": "Develops a deep learning model for rapid broad-spectrum AMR prediction from genome assemblies.",
+      "llm_tldr_cn": "开发了一种基于基因组组装序列快速预测广谱耐药性的深度学习模型。",
+      "llm_tldr": "开发了一种基于基因组组装序列快速预测广谱耐药性的深度学习模型。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for antimicrobial resistance prediction from genomes",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42031193",
+      "title": "Deep learning-enabled ratiometric signal transduction for portable and intelligent colorimetric LAMP biosensing of Vibrio vulnificus.",
+      "abstract": "Vibrio vulnificus is a highly lethal zoonotic pathogen associated with seafood consumption and aquaculture environments, demanding rapid and reliable on-site molecular diagnostics. Here, we report an intelligent biosensing platform utilizing a deep learning-enabled ratiometric signal transduction strategy for the automated detection of pathogens. This platform integrates loop-mediated isothermal amplification (LAMP) with a convolutional neural network (CNN)-based quantification framework to convert colorimetric biochemical reactions into robust digital outputs. To address the inherent limitations of conventional visual interpretation, our system employs a custom-designed bottom-illumination optical module that ensures uniform signal acquisition. A ratiometric analysis of the green-to-blue (G/B) channel intensity is utilized as a standardized transduction metric, effectively suppressing optical noise and variability caused by fluctuating environmental illumination. This AI-augmented sensing approach improves analytical sensitivity by one order of magnitude compared with traditional gel electrophoresis, achieving a detection limit of 10-5 ng/μL under extended amplification conditions with a quantitative correlation (R2 = 0.915). The deep learning model further provides reliable biosignal classification with a precision of 0.953 and a recall of 0.972. The entire assay requires only 5 μL of sample and delivers results within 30 min. By synergizing molecular engineering with intelligent signal processing, this work establishes a generalizable paradigm for converting subtle colorimetric changes into quantifiable and objective sensing data. This platform offers a scalable and robust route toward next-generation portable diagnostic sensors for field and resource-limited settings.",
+      "authors": [
+        "Hong Zhi Zhang",
+        "Ming An Tsai",
+        "Jyh Jian Chen"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42031193/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "CNN-based quantification for automated detection of Vibrio vulnificus",
+      "llm_evidence_cn": "基于CNN的创伤弧菌自动检测定量框架",
+      "llm_evidence": "基于CNN的创伤弧菌自动检测定量框架",
+      "canonical_evidence": "基于CNN的创伤弧菌自动检测定量框架",
+      "llm_tldr_en": "A deep learning-enabled biosensing platform for rapid and intelligent colorimetric detection of pathogens.",
+      "llm_tldr_cn": "一种利用深度学习实现的生物传感平台，用于病原体的快速智能比色检测。",
+      "llm_tldr": "一种利用深度学习实现的生物传感平台，用于病原体的快速智能比色检测。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "deep learning models for pathogen detection from sequencing data",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42289215",
+      "title": "Artificial intelligence in clinical metagenomic pathogen detection: A critical review of pipeline integrations, challenges, and future directions.",
+      "abstract": "Metagenomic next-generation sequencing (mNGS) has expanded the scope of clinical diagnostics by enabling culture-independent detection of microorganisms in patient samples. However, mNGS clinical utility remains constrained by substantial computational demands, reference database biases, and the persistent challenge of distinguishing true pathogens from host background, commensal flora and environmental contamination. Traditional alignment and k-mer-based bioinformatics pipelines frequently struggle to balance speed, sensitivity, and the ability to detect highly divergent or novel organisms. This review critically synthesizes the current landscape of Artificial Intelligence (AI) and Machine Learning (ML) applications across the mNGS diagnostic pipeline, examining deep learning architectures-including Convolutional Neural Networks (CNNs), Long Short-Term Memory networks (LSTMs), and Transformers-as integrated into raw read processing, host sequence depletion, primary taxonomic classification, and ancillary detection of antimicrobial resistance (AMR) and virulence factors. While several AI methodologies report high classification accuracy in benchmarking studies, we note that most performance claims derive from simulated datasets or controlled mock communities rather than prospective clinical validation. Significant gaps persist, including limited AI integration in front-end signal optimization, inadequate automated clinical reporting, absence of standardized benchmarking metrics, and unresolved questions regarding data leakage, reproducibility, and generalizability. Successful clinical translation will require addressing the interpretability limitations of current explainable AI approaches, navigating complex and evolving regulatory landscapes for Software as a Medical Device (SaMD), and bridging the gap between computational feasibility and demonstrated patient-outcome benefit. The development of genomic foundation models and multi-modal clinical integration holds promise for advancing mNGS toward real-time, actionable diagnostics, though substantial evidence gaps remain between current proof-of-concept demonstrations and validated clinical deployment.",
+      "authors": [
+        "Jiayue Dai",
+        "Xinru Tan",
+        "Jun Ma"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42289215/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Review of AI for clinical metagenomic pathogen detection and classification",
+      "llm_evidence_cn": "临床宏基因组病原体检测与分类的AI综述",
+      "llm_evidence": "临床宏基因组病原体检测与分类的AI综述",
+      "canonical_evidence": "临床宏基因组病原体检测与分类的AI综述",
+      "llm_tldr_en": "A critical review of AI integration in metagenomic sequencing for clinical pathogen detection and diagnostics.",
+      "llm_tldr_cn": "综述了AI在临床宏基因组测序病原体检测与诊断中的应用现状与挑战。",
+      "llm_tldr": "综述了AI在临床宏基因组测序病原体检测与诊断中的应用现状与挑战。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for metagenomic pathogen detection and classification",
+      "matched_requirement_id": "req-11",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42341608",
+      "title": "Discovery of novel antimicrobials within microbiomes.",
+      "abstract": "Antimicrobial-resistant bacterial and fungal pathogens constitute a severe threat to public health. The pace at which new antimicrobials are being released is far slower than the pace of resistance emergence. Over the last decade, however, the genomics big data revolution has catalyzed major advances in antimicrobial discovery. Here, we briefly review how different human and other microbiomes have been mined to accurately extract biosynthetic gene clusters and antimicrobial peptides and proteins, with a focus on the latter groups. In addition to classical methods, artificial intelligence-enabled computational methods and innovative experimental strategies are increasingly used to prioritize candidates, identify novel small molecules and proteins active against priority pathogens, and reveal new modes of action. We highlight the urgent need to expand antifungal discovery, given the limited number of therapeutic classes and the slow pace of pipeline replenishment.",
+      "authors": [
+        "Erez Weisberg",
+        "Aya Friedman",
+        "Cesar de la Fuente-Nunez",
+        "Asaf Levy"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42341608/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "AI-enabled computational methods for antimicrobial discovery",
+      "llm_evidence_cn": "人工智能赋能的抗菌药物发现计算方法",
+      "llm_evidence": "人工智能赋能的抗菌药物发现计算方法",
+      "canonical_evidence": "人工智能赋能的抗菌药物发现计算方法",
+      "llm_tldr_en": "Reviews how AI and genomics accelerate the discovery of novel antimicrobials from microbiome data.",
+      "llm_tldr_cn": "综述了人工智能和基因组学如何加速从微生物组数据中发现新型抗菌药物。",
+      "llm_tldr": "综述了人工智能和基因组学如何加速从微生物组数据中发现新型抗菌药物。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42361903",
+      "title": "Class-Incremental Learning for Foodborne Pathogen Prediction Based on Clinical Surveillance Data.",
+      "abstract": "Foodborne diseases (FBDs) pose a significant global public health challenge, necessitating rapid and accurate pathogen identification. However, real-world pathogen detection faces practical constraints, including few-shot scenarios for rare pathogens, severe class imbalance between common and rare classes, and the continuous emergence of novel pathogens requiring incremental learning capabilities. To address these challenges, this study proposes a Class Incremental Learning with Dual Attention and Adaptive Feature Fusion Network (CIL-DAFFNet). The model incorporates a dual-attention mechanism to enhance discriminative feature extraction from clinically imbalanced data and employs a dynamically weighted knowledge distillation strategy, adjusted via maximum mean discrepancy (MMD), to mitigate catastrophic forgetting. Evaluated on a real-world clinical dataset covering Salmonella, Vibrio parahaemolyticus, Escherichia coli, and Norovirus, CIL-DAFFNet outperformed five incremental learning baselines. In the final incremental phase, it achieved an accuracy of 0.8245, a Macro-F1 of 0.8004, and a G-mean of 0.7972. Ablation studies confirmed the contributions of core components, and SHAP analysis provided clinically interpretable feature importance rankings. This study provides a feasible technical solution for the rapid and precise identification of foodborne pathogens, supporting intelligent food safety monitoring and clinical decision-making.",
+      "authors": [
+        "Ke Qin",
+        "Linhai Wu",
+        "Minguo Gao"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42361903/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "Class-incremental learning for foodborne pathogen prediction in surveillance",
+      "llm_evidence_cn": "用于监测数据中食源性病原体预测的类增量学习",
+      "llm_evidence": "用于监测数据中食源性病原体预测的类增量学习",
+      "canonical_evidence": "用于监测数据中食源性病原体预测的类增量学习",
+      "llm_tldr_en": "Proposes a deep learning model for incremental pathogen identification in clinical surveillance data.",
+      "llm_tldr_cn": "提出一种深度学习模型，用于临床监测数据中的增量病原体识别。",
+      "llm_tldr": "提出一种深度学习模型，用于临床监测数据中的增量病原体识别。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI methods for genomic surveillance and outbreak monitoring",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42509322",
+      "title": "Designing fiber-gut microbiome interactions with active learning.",
+      "abstract": "Identifying synergies between dietary fibers and beneficial bacteria holds promise for precision interventions that optimize gut health, yet these interactions remain largely unexplored. Here we integrate machine learning, Bayesian optimization and high-throughput community construction to investigate how dietary fibers shape health-relevant functions of human gut microbial communities. To efficiently navigate the landscape of fiber-microbiome interactions, we implemented a design-test-learn cycle to identify fiber-species combinations that maximize a multiobjective function capturing beneficial community properties. Our model-guided approach revealed a highly butyrogenic and robust ecological motif characterized by the copresence of inulin, Bacteroides uniformis and Anaerostipes caccae and a higher-order interaction with Prevotella copri. Human fecal communities invaded with model-designed species-fiber combinations displayed predictable gut-beneficial outputs. In sum, we demonstrate a framework for designing synthetic microbial communities with desired functions in response to key nutrients.",
+      "authors": [
+        "Bryce M Connors",
+        "Jaron Thompson",
+        "Manasi Subhash Gangan",
+        "Nick Quinn-Bohmann",
+        "Sean M Gibbons",
+        "Job Grant",
+        "Alejandro Castellanos-Sanchez",
+        "Jessica R McCann",
+        "John F Rawls",
+        "Ophelia S Venturelli"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42509322/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "machine learning and active learning for microbiome interactions",
+      "llm_evidence_cn": "用于微生物组相互作用的主动学习和机器学习",
+      "llm_evidence": "用于微生物组相互作用的主动学习和机器学习",
+      "canonical_evidence": "用于微生物组相互作用的主动学习和机器学习",
+      "llm_tldr_en": "Integrates machine learning and active learning to optimize dietary fiber and gut microbiome interactions.",
+      "llm_tldr_cn": "结合机器学习和主动学习，优化膳食纤维与肠道微生物组的相互作用。",
+      "llm_tldr": "结合机器学习和主动学习，优化膳食纤维与肠道微生物组的相互作用。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42515825",
+      "title": "A Snapshot of the UK Blood Donor Plasma Virome: A Retrospective Cross-Sectional Cohort Study.",
+      "abstract": "Estimates of population prevalence and genetic diversity of bloodborne viruses in healthy humans are essential to support population-scale monitoring for transfusion transmission risk. In the UK and globally, blood donations are routinely screened for a limited number of high-consequence pathogens, but the full composition of the plasma virome remains to be characterized. Using a novel quantitative targeted metagenomics sequencing approach, we analyzed previously unscreened plasma donations collected by NHS Blood and Transplant in England for all major pathogenic and known commensal human bloodborne viruses, and quantified their viral burden. Here we show that in a representative sample of 5064 UK blood donors in pools of 24 collected over a 1-month period, the virome was dominated by a small number of largely persistent species, representing < 10% (10/106) of previously identified human bloodborne viruses. The principal genera of human anelloviruses (TTV, TTMV and TTMDV) were detected in 89% of pools, albeit at low read count, inconsistent with measured anellovirus viral loads. In contrast, human pegivirus type 1 (HPgV-1), had an estimated population prevalence of 3.7% (95% CI 3.0%-4.4%), with high read count and complete genome recovery in around one half of positive pools, consistent with high titer in plasma. Less common detections included one species of gemykibovirus in five separate plasma pools, one hepatitis C virus (genotype 1a), and polyomaviruses and herpesviruses with prevalences between 0.04% (parvovirus 4, BK polyomavirus) to 0.41% (human herpesvirus 6). Phylogenetic analyses revealed mixed TTV, TTMV, and TTMDV populations and almost exclusively genotype 2 HPgV-1, consistent with known genotype distributions in Europe. Our results provide a baseline for describing the healthy plasma virome in UK blood donors.",
+      "authors": [
+        "Kai Kean",
+        "Richard M Mayne",
+        "Kaitlin Reid",
+        "Shannah Secret",
+        "Belinda K Singleton",
+        "Rebecca Rockett",
+        "Piya Rajendra",
+        "Heli Harvala",
+        "Judith Breuer",
+        "M Azim Ansari",
+        "Katrina Lythgoe",
+        "Peter Simmonds",
+        "Tanya Golubchik"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42515825/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "quantitative targeted metagenomics for pathogen detection in blood plasma",
+      "llm_evidence_cn": "用于血浆病原体检测的定量靶向宏基因组学",
+      "llm_evidence": "用于血浆病原体检测的定量靶向宏基因组学",
+      "canonical_evidence": "用于血浆病原体检测的定量靶向宏基因组学",
+      "llm_tldr_en": "Applies targeted metagenomics to characterize the plasma virome and monitor transfusion transmission risks.",
+      "llm_tldr_cn": "应用靶向宏基因组学表征血浆病毒组并监测输血传播风险。",
+      "llm_tldr": "应用靶向宏基因组学表征血浆病毒组并监测输血传播风险。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for metagenomic pathogen detection and classification",
+      "matched_requirement_id": "req-11",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42241737",
+      "title": "Discovery of new mechanisms to control metabolism and homeostasis in Bacillus subtilis.",
+      "abstract": "Biosynthetic needs of a cell and the generation of precursors and energy in catabolic reactions must be faithfully balanced. Even in model organisms such as Bacillus subtilis, there are still important gaps in our knowledge. The key bottleneck in research is the lack of novel research hypotheses. New concepts and methodologies can help to develop such hypotheses. Here, we discuss how the introduction of proteome-wide protein-protein interaction mapping by in vivo cross-linking, the AI-mediated prediction of structure models for each protein, and the possibility to compare those models highly efficiently aid the development of novel hypotheses. Moreover, the focused use of suppressor screens can help to get new unbiased insights. We demonstrate how these approaches are applied to B. subtilis. Global cross-linking combined with the power of AI provided a testable hypothesis to unravel the long-standing open question of how iron is sensed in B. subtilis and related bacteria. This is of particular importance as iron is the growth-limiting factor for most bacterial pathogens. The isolation of suppressor mutants that are resistant to growth-inhibiting amino acids has identified novel amino acid exporters. Importantly, the corresponding genes belong to the most poorly expressed genes in B. subtilis, and they are only activated under selective pressure by mutations that affect corresponding transcription factors or the promoter regions of the exporter genes. As the approaches discussed here have only recently been brought to wide application, we can expect that they will be very fruitful in gaining a better understanding of metabolism and metabolic homeostasis.",
+      "authors": [
+        "Jörg Stülke",
+        "Stephan Michalik",
+        "Moritz Bäuerle",
+        "Javiera Pino Gaete",
+        "Uwe Völker"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42241737/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "AI-mediated prediction of protein structure models",
+      "llm_evidence_cn": "AI介导的蛋白质结构模型预测",
+      "llm_evidence": "AI介导的蛋白质结构模型预测",
+      "canonical_evidence": "AI介导的蛋白质结构模型预测",
+      "llm_tldr_en": "Uses AI-mediated structure prediction and protein interaction mapping to study Bacillus subtilis metabolism.",
+      "llm_tldr_cn": "利用AI介导的结构预测和蛋白质相互作用图谱研究枯草芽孢杆菌的代谢。",
+      "llm_tldr": "利用AI介导的结构预测和蛋白质相互作用图谱研究枯草芽孢杆菌的代谢。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "geometric deep learning and foundation models for protein structure modeling",
+      "matched_requirement_id": "req-17",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "41325836",
+      "title": "Integrative computational-experimental discovery of α-hederin as a multi-mechanistic, low-toxicity antifungal agent targeting Candida albicans CYP51.",
+      "abstract": "INTRODUCTION: Infections caused by pathogenic fungi such as Candida albicans have led to a continuous increase in disease morbidity and mortality, underscoring the urgent need for safer and more effective antifungal therapies. Current antifungal drugs are limited by toxicity and resistance, highlighting the necessity for innovative discovery strategies. OBJECTIVES: The aim of this study was to identify novel antifungal compounds using a integrative computational approach targeting C. albicans CYP51 (14-α-sterol demethylase). Specifically, we sought to screen the Traditional Chinese Medicine Systems Pharmacology (TCMSP) database for potential antifungal candidates, evaluate their therapeutic potential, and establish a computational-experimental framework to expedite antifungal drug development. METHODS: We employed an integrative computational approach-targeting Candida albicans CYP51 (14-α-sterol demethylase) via molecular docking and pharmacophore modeling-to screen the TCMSP database. The two natural small molecules obtained were subjected to in vivo and in vitro antifungal experiments, and their antifungal mechanisms were analyzed through molecular docking and molecular dynamics simulation. RESULT: This yielded two novel antifungal candidates: α-hederin and elemenin, with minimum inhibitory concentrations (MICs) of 32 μg/mL and 16 μL/mL against C. albicans, respectively. α-Hederin demonstrated superior therapeutic potential, showing low cytotoxicity in 293 T, Raw264.7, and KB cells. It effectively inhibited hyphal formation, biofilm formation, and cell surface hydrophobicity in vitro. In a murine oral candidiasis model, α-hederin outperformed fluconazole by reducing fungal burden, inhibiting hyphal invasion, and preventing tongue adhesion. Molecular dynamics simulations revealed that α-hederin forms a more stable complex with CYP51 than fluconazole, engaging additional hydrogen bonds, alkyl interactions, and carbon-hydrogen bonds. CONCLUSION: This study advances antifungal drug discovery by validating CYP51 as a high-value target for structure-guided screening, identifying α-hederin as a low-toxicity, multi-mechanistic antifungal agent and establishing a computational-experimental framework for rapid antifungal development.",
+      "authors": [
+        "Xuan Wang",
+        "Yuchun Zhang",
+        "Gansukh Sunderiya",
+        "Zhipeng Xin",
+        "Yulan Ji",
+        "Saixue Yang",
+        "Di Han",
+        "Xianqing Chen",
+        "Dongyan Shao",
+        "Junling Shi",
+        "Chunmei Jiang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41325836/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Integrative computational discovery of antifungal agents targeting CYP51",
+      "llm_evidence_cn": "针对CYP51靶点的抗真菌药物综合计算发现",
+      "llm_evidence": "针对CYP51靶点的抗真菌药物综合计算发现",
+      "canonical_evidence": "针对CYP51靶点的抗真菌药物综合计算发现",
+      "llm_tldr_en": "Combines computational screening and experimental validation to identify novel antifungal agents against C. albicans.",
+      "llm_tldr_cn": "结合计算筛选和实验验证，发现了针对白色念珠菌的新型抗真菌药物。",
+      "llm_tldr": "结合计算筛选和实验验证，发现了针对白色念珠菌的新型抗真菌药物。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "41921827",
+      "title": "Imperfectly amphipathic design of α-helical antimicrobial peptides demonstrating potent antimicrobial activity with low toxicity.",
+      "abstract": "Antimicrobial peptides (AMPs) are regarded as the most promising candidates for next-generation antimicrobial agents, with amphipathicity serving as a critical factor in de novo design or systematic optimization. Previous studies rarely investigated into imperfect amphipathicity scenarios. Therefore, we developed a series of peptides exhibiting diverse imperfect amphipathicity derived from the hybrid peptide P18 to explore the effect of different imperfect amphipathicity on peptides by evaluating their antimicrobial activity and toxicity. We found that imperfectly amphipathic peptides exhibited stronger antimicrobial activity than their perfect counterparts, among them, peptides with incompletely hydrophobic surfaces and completely hydrophilic surfaces showed higher activity than those with incompletely hydrophilic surfaces and completely hydrophobic surfaces. Moreover, imperfect amphipathicity did not lead to an increase in hemolytic activity and incompletely hydrophilic surface did not lead to an increase in cytotoxicity. Notably, APH143 (LWKKFKLKKKFLWLWKKF-NH2), a completely imperfect amphipathic peptide, exhibited stronger antimicrobial activity (MIC values of 2-4 μg/mL) against common clinical pathogenic bacteria (K.pneumoniae, P.aeruginosa, A.baumannii, S.aureus) and low hemolytic activity (HC10 > 256 μg/mL), compared to other designed peptides. Subsequent experiment indicated that APH143 possessed good stability in mouse plasma, bronchoalveolar lavage fluid and different pH, temperature, salt conditions, it was also safe in mice sub-acute toxicity assay. APH143 may be a promising candidate for antimicrobial therapy. Our research deepens the understanding of designing antimicrobial peptides based on imperfect amphiphilicity and provides a novel perspective of changing degree of imperfect amphiphilicity for the design of antimicrobial peptides to overcome multi-drug resistant infection.",
+      "authors": [
+        "Zixuan Fan",
+        "Jieru Huang",
+        "Md Fahim Shahriar",
+        "Zhihao Lin",
+        "Hui Wang",
+        "Yi Kong"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41921827/",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "De novo design and optimization of antimicrobial peptides",
+      "llm_evidence_cn": "抗菌肽的从头设计与优化",
+      "llm_evidence": "抗菌肽的从头设计与优化",
+      "canonical_evidence": "抗菌肽的从头设计与优化",
+      "llm_tldr_en": "Explores imperfect amphipathicity for designing potent antimicrobial peptides with low toxicity.",
+      "llm_tldr_cn": "通过研究不完全两亲性设计具有高效抗菌活性且低毒性的新型抗菌肽。",
+      "llm_tldr": "通过研究不完全两亲性设计具有高效抗菌活性且低毒性的新型抗菌肽。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "generative models for molecules proteins and therapeutic design",
+      "matched_requirement_id": "req-19",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41428316",
+      "title": "Exploration of the protein and pharmacological landscape of monkeypox virus treatment: from entry point to end point.",
+      "abstract": "The re-emergence of monkeypox virus (MPXV), renamed mpox, as a global health emergency in 2022 has intensified the search for robust therapeutic interventions. This review summarizes the virological, structural, and pharmacological dimensions of MPXV, with a focus on the virus's lifecycle from host cell entry to dissemination. MPXV's double-stranded DNA genome exhibits clade-specific plasticity, with variations in genes like OPG065 and MOPICE driving virulence, immune evasion, and host adaptation. Key viral proteins, including entry facilitators A27L and L1R, envelope protein F13L (VP37), and immune modulators such as B19R and C12L, serve as critical targets for antiviral strategies. Structural insights from cryo-EM and X-ray crystallography reveal conserved motifs across orthopoxviruses, enabling pan-orthopox drug design. Current therapeutics, such as tecovirimat (targeting VP37 to block egress), brincidofovir, and cidofovir (inhibiting DNA polymerase E9L), offer symptomatic relief but face hurdles like resistance mutations (e.g., A314V in E9L) and suboptimal efficacy in immunocompromised patients. Emerging resistance underscores the need for vigilant genomic surveillance. Novel modalities, including monoclonal antibodies against antigenic proteins like A35R and M1R, cytokine-based immunotherapies, and host-directed agents modulating autophagy or interferon pathways, show promise. Computational approaches integrating AI-driven screening, molecular dynamics simulations, and multi-omics have pinpointed repurposed candidates like lumacaftor and conivaptan as VP37 inhibitors. This integrative framework advocates for combination therapies, personalized regimens based on clade profiling, and global collaboration to mitigate MPXV's adaptive potential. By bridging virology and pharmacology, the review charts pathways for innovative drug development to combat this zoonotic threat effectively.",
+      "authors": [
+        "Cena Aram",
+        "Maryam Barancheshmeh",
+        "Ali Alishvandi",
+        "Mohammad H Khodabandehloo",
+        "Alireza H Shirvani",
+        "Amirhasan Fotohi",
+        "Mohammad Amin Ghezel",
+        "Amirhossein Borji",
+        "Masoud Keikha"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41428316/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "pathogen target identification and therapeutic design",
+      "llm_evidence_cn": "病原体靶点识别与治疗设计",
+      "llm_evidence": "病原体靶点识别与治疗设计",
+      "canonical_evidence": "病原体靶点识别与治疗设计",
+      "llm_tldr_en": "Reviews monkeypox virus genomic plasticity and structural targets for antiviral design.",
+      "llm_tldr_cn": "综述了猴痘病毒的基因组可塑性及抗病毒设计的结构靶点。",
+      "llm_tldr": "综述了猴痘病毒的基因组可塑性及抗病毒设计的结构靶点。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "41506580",
+      "title": "Host whole genome sequence data represent an untapped resource for characterising affiliated parasite diversity.",
+      "abstract": "Parasites are ubiquitous and exert varied ecological and evolutionary pressures on their hosts. Yet, characterising parasite diversity and distributions can be challenging and costly. Leveraging existing data to identify parasites is thus an attractive alternative. High-throughput sequencing (HTS) can generate whole genome sequence (WGS) data which are increasingly freely available in public repositories and represent an untapped resource for characterising parasites affiliated with hosts. In this study, we examine WGS data generated for the silvereye (Zosterops lateralis), to identify endogenous eukaryotic parasites that were inadvertently captured during host sequencing. We compared detection of parasite genera by this approach with detection via 18S metabarcoding. Mining WGS data for parasite DNA revealed the broadest range of genera. Results were verified by traditional microscopy of blood slides and conducting a targeted multiplex Polymerase Chain Reaction (PCR) for haemosporidian parasites. Detection of haemosporidians was largely consistent across microscopy, multiplex PCR and WGS data while 18S metabarcoding entirely failed to detect this group of parasites. Our results demonstrate that existing WGS datasets can be used to estimate endoparasite diversity and provide greater insights on diversity than metabarcoding whilst also avoiding the costs and challenges of direct sampling. We provide a framework outlining opportunities and constraints to consider when mining WGS data to identify parasite sequences. The framework particularly stresses the influences of sequencing depth, database completeness, and methodological biases. Our findings demonstrate how repurposing existing WGS data can provide a cost-effective and informative means of unravelling complex host-parasite interactions in future disease ecology studies.",
+      "authors": [
+        "Sarah Nichols",
+        "Andrea Estandía",
+        "Catherine M Young",
+        "Lucy S Knowles",
+        "Vaidas Palinauskas",
+        "Beth Okamura",
+        "Sonya M Clegg"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41506580/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "pathogen detection from host whole genome sequencing data",
+      "llm_evidence_cn": "从宿主全基因组测序数据中检测病原体",
+      "llm_evidence": "从宿主全基因组测序数据中检测病原体",
+      "canonical_evidence": "从宿主全基因组测序数据中检测病原体",
+      "llm_tldr_en": "Demonstrates the use of host WGS data as a resource for identifying affiliated parasite and pathogen diversity.",
+      "llm_tldr_cn": "证明了利用宿主全基因组测序数据识别相关寄生虫和病原体多样性的可行性。",
+      "llm_tldr": "证明了利用宿主全基因组测序数据识别相关寄生虫和病原体多样性的可行性。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "deep learning models for pathogen detection from sequencing data",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "41997104",
+      "title": "Phage predation mitigates the spread of antibiotic resistance in anaerobic digestion under shortened solid retention times.",
+      "abstract": "Optimizing anaerobic digestion (AD) via shortening solid retention time (SRT) enhances methane recovery, yet the mechanistic impact of SRT reduction on antimicrobial resistance (AMR) dissemination remains underexplored. Herein, we employed metagenomics to investigate how reduced SRTs (from 60 to 5 days) regulated the dynamics of antibiotic resistance genes (ARGs) mediated by pathogenic hosts, plasmids, and phages in mesophilic and thermophilic AD systems. Shortened SRTs elevated ARG abundance by 5.9-388% under mesophilic conditions, driven by the SRT-elicited niche expansion of antibiotic-resistant bacteria (ARB) and the persistent dominance of ESKAPE pathogen Enterobacter hormaechei, the latter intrinsically harbored and transmitted high-risk ARGs (aadA, sul1, and qacEdelta1) via multi-resistant plasmids. Notably, plasmid-mediated and cross-phylum transmission substantially enhanced ARG mobility. Contrastingly, thermophilic conditions eliminated ARGs by 17.0-57.1% under shortened SRTs, driven by thermophilic ARB niche differentiation. Crucially, both homology search and phage-host prediction indicated the lack of ARGs matching between phages and hosts under reduced SRTs, denoting a negligible contribution of transduction to horizontal ARG transfer. The dominance of lytic phages (85.3%), intensified lytic phage-host interactions, and heightened abundance of lytic phages lysing ARB collectively imposed potent phage top-down control over ARG hosts, with the lytic phage predation on ARB being validated by laboratory assays. We also identified 9 high-risk digestate ARG biomarkers (ANT(6)-Ia, aadA, ermA, mel, qacEdelta1, sul1, tet44, tetM, tetQ) by integrating criteria of prevalence, gene mobility, clinical relevance, and host pathogenicity to inform monitoring. Overall, this study underlined the significance of phage predation in mitigating ARG propagation under shortened SRTs, informing the development of novel AMR control strategies in AD practices.",
+      "authors": [
+        "Xingxing Zhang",
+        "Shuo Weng",
+        "Zhihao Zhen",
+        "Zhiyuan Tang",
+        "Xiao Huang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41997104/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "metagenomics for antimicrobial resistance dynamics in pathogens",
+      "llm_evidence_cn": "宏基因组学研究病原体耐药性动态",
+      "llm_evidence": "宏基因组学研究病原体耐药性动态",
+      "canonical_evidence": "宏基因组学研究病原体耐药性动态",
+      "llm_tldr_en": "Uses metagenomics to study how retention times affect antibiotic resistance genes in pathogens during digestion.",
+      "llm_tldr_cn": "利用宏基因组学研究了固体停留时间如何影响厌氧消化过程中病原体耐药基因的动态。",
+      "llm_tldr": "利用宏基因组学研究了固体停留时间如何影响厌氧消化过程中病原体耐药基因的动态。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for antimicrobial resistance prediction from genomes",
+      "matched_requirement_id": "req-5",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "41765968",
+      "title": "A prioritization framework for BRCA1/2 variants of uncertain significance identified by comprehensive genomic profiling.",
+      "abstract": "Comprehensive genomic profiling (CGP) has significantly advanced cancer genomics by enabling broad detection of clinically relevant genomic alterations across diverse cancers. In the context of BRCA1/2, CGP has expanded analysis beyond conventional testing for hereditary breast and ovarian cancer (HBOC), thereby identifying otherwise unrecognized variants. Nevertheless, the high prevalence of variants of uncertain significance (VUS) remains a major obstacle to clinical implementation. To address this challenge, we analyzed 2172 CGP tests performed at Hiroshima University Hospital and affiliated institutions in Japan. BRCA1/2 VUS identified through CGP were systematically prioritized using an integrative framework combining in silico prediction and functional evidence. From 526 BRCA1/2 variants, 153 were classified as VUS. Our variant prioritization filter based on ten in silico predictors narrowed these to 10 candidates, including two splice-site and eight missense variants, most of which were concordant with prior functional studies. Among these, the significance of BRCA2:c.67 G > C (p.D23H, NM_000059.4) had remained unclear. Functional analysis demonstrated exon 2 skipping consistent with loss of function, and clinical observations from two patients carrying this variant showed that therapeutic responses aligned with the biology of homologous recombination deficiency. These findings present a proof-of-concept framework for prioritizing and interpreting BRCA1/2 VUS detected in real-world CGP testing. By integrating multiple in silico predictors with functional evidence, this approach enables systematic prioritization and interpretation of BRCA1/2 VUS and may be broadly applicable to variant assessment in hereditary cancer predisposition genes.",
+      "authors": [
+        "Hikaru Nakahara",
+        "Hiroaki Niitsu",
+        "Asuka Toshida",
+        "Keisuke Goto",
+        "Masami Yamauchi",
+        "Khilola Madaminovna Saipova",
+        "C Nelson Hayes",
+        "Nobuyuki Hinata",
+        "Shiro Oka",
+        "Takao Hinoi"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41765968/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Genomic profiling and variant prioritization framework",
+      "llm_evidence_cn": "基因组分析与变异优先级排序框架",
+      "llm_evidence": "基因组分析与变异优先级排序框架",
+      "canonical_evidence": "基因组分析与变异优先级排序框架",
+      "llm_tldr_en": "Develops a framework to prioritize BRCA1/2 variants of uncertain significance in cancer genomics.",
+      "llm_tldr_cn": "建立了一个针对癌症基因组中BRCA1/2意义不明变异的优先级排序框架。",
+      "llm_tldr": "建立了一个针对癌症基因组中BRCA1/2意义不明变异的优先级排序框架。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "deep learning for genomic variant calling filtering and somatic mutation analysis",
+      "matched_requirement_id": "req-41",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42107727",
+      "title": "Comparative genomic surveillance of fluoroquinolone resistance markers across major riverine hotspots by leveraging public metagenomes.",
+      "abstract": "OBJECTIVE: The global surge in fluoroquinolone resistance (FQR) underscores the urgent need for robust environmental surveillance. From a One Health perspective, rivers serve as critical conduits and hotspots for antimicrobial resistance (AMR) dissemination. METHODS: To address this issue, we conducted a systematic metagenomic surveillance of FQR across spatially prioritized freshwater ecosystems using distribution data of five major markers (gyr, par, qnr, aac, and qep) retrieved from the National Center for Biotechnology Information Pathogen Detection Isolate Browser. RESULTS: Among 164 riverine metagenomic datasets, 31 high-quality datasets from the Mississippi, Yukon, Saint Lawrence, Yangtze, and Pearl Rivers were analysed. FQR genes were detected in 12 datasets, with normalized abundances ranging from 0.01 to 1.22 copies per bacterial cell. Plasmid-mediated qnrS2 and efflux pump genes (qepA2 and AbaQ) emerged as the most prevalent determinants. Multivariate analyses revealed river-specific clustering patterns and strong correlations with metal resistance genes, highlighting co-selection pressures. The predominance of conjugative mobile genetic elements indicated an elevated potential for horizontal gene transfer. Taxonomic profiling further revealed enrichment of clinically important and World Health Organization priority pathogens. Community structure analyses (permutational multivariate analysis, R² = 0.7598, P = 0.003) confirmed significant microbial variations across rivers. CONCLUSIONS: Collectively, this integrative approach identifies environmental reservoirs of FQR genes, supporting river-based AMR surveillance. These insights are pivotal for shaping evidence-driven mitigation strategies and informing both national and global AMR policies.",
+      "authors": [
+        "Kheerthana Ramesh",
+        "Padmanaban Velayudhaperumal Chellam"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42107727/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "metagenomic surveillance of antimicrobial resistance markers in river ecosystems",
+      "llm_evidence_cn": "河流生态系统中抗菌素耐药性标志物的宏基因组监测",
+      "llm_evidence": "河流生态系统中抗菌素耐药性标志物的宏基因组监测",
+      "canonical_evidence": "河流生态系统中抗菌素耐药性标志物的宏基因组监测",
+      "llm_tldr_en": "Systematic metagenomic surveillance of fluoroquinolone resistance markers across major riverine hotspots.",
+      "llm_tldr_cn": "利用公共宏基因组数据对主要河流热点的氟喹诺酮类耐药标志物进行系统监测。",
+      "llm_tldr": "利用公共宏基因组数据对主要河流热点的氟喹诺酮类耐药标志物进行系统监测。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI methods for genomic surveillance and outbreak monitoring",
+      "matched_requirement_id": "req-4",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "42025748",
+      "title": "Single-cell transcriptomic analysis unveils dysregulated macrophage-podocyte crosstalk in membranous nephropathy.",
+      "abstract": "BACKGROUND: Membranous nephropathy (MN) is an antibody-mediated glomerular disease, but the cellular networks driving injury remain poorly defined. METHODS: We integrated the cationic bovine serum albumin (cBSA)-induced mouse MN model with single-cell RNA sequencing (scRNA-seq) to profile renal cells. Bioinformatic analyses included clustering, differential expression, pathway enrichment, and cell-cell communication inference (CellChat). RESULTS: We successfully established a cBSA-induced MN mouse model exhibiting characteristic pathological features, including glomerular basement membrane thickening and IgG deposition. Single-cell transcriptomics revealed a profoundly remodeled renal cellular landscape in MN, characterized by immune activation (increases in macrophages, B cells, T cells, and NK cells) and concomitant tubular injury (significant loss of proximal tubule cells). We identified an imbalanced adaptive immune response: T follicular helper (Tfh) cells expanded, but plasma cells decreased, suggesting disrupted differentiation. Pathway analysis indicated metabolic reprogramming in B cells, ER stress in plasma cells, and pro-inflammatory activation in macrophages. Crucially, cell-cell communication analysis uncovered a rewired pathogenic macrophage-podocyte axis. This axis was defined by a dual imbalance: a gain-of-function in injury-promoting signals (Spp1-integrin) coupled with a loss-of-function in homeostatic signals (collagen IV). CONCLUSION: This study provides a comprehensive cellular atlas of MN and delineates a dysregulated macrophage-podocyte crosstalk as a key driver of glomerular injury, highlighting this axis as a promising target for therapeutic intervention.",
+      "authors": [
+        "Yinghui Zhang",
+        "Siyue Huang",
+        "Xueting Li",
+        "Chengyun Xu",
+        "Ben Ke"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-01-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42025748/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Single-cell RNA sequencing and bioinformatic analysis of renal cells",
+      "llm_evidence_cn": "单细胞RNA测序及肾脏细胞生物信息学分析",
+      "llm_evidence": "单细胞RNA测序及肾脏细胞生物信息学分析",
+      "canonical_evidence": "单细胞RNA测序及肾脏细胞生物信息学分析",
+      "llm_tldr_en": "Employs single-cell transcriptomics to map cellular crosstalk and injury mechanisms in membranous nephropathy.",
+      "llm_tldr_cn": "利用单细胞转录组学揭示膜性肾病中的细胞通讯与损伤机制。",
+      "llm_tldr": "利用单细胞转录组学揭示膜性肾病中的细胞通讯与损伤机制。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "single cell sequencing and spatial transcriptomics analysis with machine learning",
+      "matched_requirement_id": "req-40",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42009019",
+      "title": "Measuring population immunity against influenza using individual antibody titres: a multicountry, retrospective observational study.",
+      "abstract": "BACKGROUND: Measuring population immunity is crucial for epidemic preparedness, but methods to translate individual immunity into population-level immunity metrics remain underdeveloped. We aimed to develop and evaluate population immunity estimators using influenza as a model pathogen. METHODS: In this multicountry, retrospective observational study, we analysed 41 835 serum samples from six studies in China, Hong Kong, Viet Nam, and the USA across 27 influenza epidemics in 2009-24. We constructed four population-immunity estimators from individual antibody titres: geometric mean titre, proportion of non-naive individuals, proportion of population immune, and relative reduction in reproductive number calculated using a next-generation matrix framework. We evaluated the ability of these estimators to predict which subtype (H1N1 vs H3N2) would dominate, to predict whether epidemics would be larger or smaller than the previous season, and to correlate with subsequent cumulative incidence in a longitudinal Hong Kong cohort spanning eight influenza seasons with within-epidemic serum collection. FINDINGS: Subtype-specific relative changes in these estimators from previous seasons correctly predicted 57-86% of H1N1-dominant seasons and 100% of H3N2-dominant seasons, with an area under the receiver operating characteristic curve (AUROC) of 79-93%. The estimators correctly predicted larger epidemics in 67-83% of cases and smaller epidemics in 90-100% of cases, with an AUROC of 83-92%. Performance varied by estimator and influenza subtype, with wide uncertainty intervals for some estimates indicating modest precision. In the longitudinal Hong Kong cohort, all four estimators negatively correlated with subsequent 30-day cumulative incidence for H1N1 (Pearson correlations -0·23 to -0·46), whereas H3N2 correlations were mostly non-significant. INTERPRETATION: We developed and validated four complementary population immunity estimators derived from individual antibody titres that showed predictive utility for influenza subtype dominance and epidemic size direction across diverse settings. These estimators could inform seasonal influenza preparedness, surveillance prioritisation, and health-care resource planning. FUNDING: Hong Kong Health Bureau and Research Grants Council.",
+      "authors": [
+        "Weijia Xiong",
+        "Xiaotong Huang",
+        "Tran Thi Nhu Thao",
+        "Nguyen Thi Le Thanh",
+        "Liping Peng",
+        "Ranawaka A P M Perera",
+        "Vicky J Fang",
+        "Bingyi Yang",
+        "Sook-San Wong",
+        "Nancy H L Leung",
+        "Sheena G Sullivan",
+        "Dennis K M Ip",
+        "Malik Peiris",
+        "Ted M Ross",
+        "Maciej F Boni",
+        "Benjamin J Cowling",
+        "Tim K Tsang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42009019/",
+      "tags": [
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:PathoAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "population immunity estimators for influenza outbreak surveillance",
+      "llm_evidence_cn": "流感爆发监测的人群免疫评估指标",
+      "llm_evidence": "流感爆发监测的人群免疫评估指标",
+      "canonical_evidence": "流感爆发监测的人群免疫评估指标",
+      "llm_tldr_en": "Develops population immunity estimators from antibody titres to improve epidemic preparedness for influenza.",
+      "llm_tldr_cn": "通过抗体滴度开发人群免疫评估指标，以提高流感疫情的防范能力。",
+      "llm_tldr": "通过抗体滴度开发人群免疫评估指标，以提高流感疫情的防范能力。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI driven outbreak surveillance genomic epidemiology and transmission modeling",
+      "matched_requirement_id": "req-12",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42119682",
+      "title": "Early-life acquisition of antimicrobial resistance genes and strain-level genomic concordance across maternal-infant compartments.",
+      "abstract": "BACKGROUND: Early-life microbial colonization and antimicrobial resistance gene (ARG) acquisition may influence long-term health outcomes. High-resolution genomic studies assessing strain-level concordance and resistome overlap across maternal-infant interfaces during the immediate postnatal period remain limited. METHODS: We analyzed 32 healthy mother-newborn dyads in Lebanon (91 samples), including maternal colostrum and breast milk and neonatal meconium and stool. Culture-based isolation, antimicrobial susceptibility testing, shotgun metagenomics, and whole-genome sequencing were used to characterize microbial composition, resistome profiles, and strain-level relatedness. RESULTS: Viable bacteria were recovered from 80% of meconium samples, with Escherichia coli and Enterococcus faecalis among the most frequent isolates. Whole-genome sequencing identified highly similar strains (≥99.9% average nucleotide identity) of E. coli, Klebsiella pneumoniae, and K. oxytoca across maternal and neonatal samples in six dyads. Metagenomic profiling demonstrated early acquisition of multidrug resistance genes, including blaCTX-M-15, tet(M), and oqxA/B, alongside mobile genetic elements such as IncF and Col-type plasmids. The colistin resistance gene mcr-10.1 was detected in one neonatal stool sample. CONCLUSION: These findings demonstrate early-life resistome establishment and strain-level genomic concordance across maternal-infant compartments within the first week of life. While low-biomass samples require cautious interpretation, the observed genomic similarities and shared ARGs are consistent with potential maternal or shared environmental contributions to neonatal microbial and resistance gene acquisition, although the direction of transfer cannot be definitively established. This work underscores the importance of integrating genomic surveillance of maternal and neonatal resistomes in perinatal health research. IMPORTANCE: This study provides high-resolution genomic insight into early-life microbial colonization and antimicrobial resistance gene acquisition by integrating culture-based microbiology, shotgun metagenomics, and whole-genome sequencing across matched maternal (colostrum, breast milk) and neonatal (meconium, stool) samples. The identification of viable bacteria and clinically relevant resistance determinants within the first week of life, including instances of strain-level genomic concordance between maternal and neonatal samples, contributes to understanding the early establishment of the neonatal resistome. While low-biomass samples require cautious interpretation, the observed genomic similarities and shared mobile genetic elements suggest potential maternal or shared environmental influences on early colonization dynamics. These findings highlight the value of considering maternal reservoirs in studies of neonatal microbial and resistance gene evolution and underscore the need for genomic surveillance of early-life resistome development in perinatal settings.",
+      "authors": [
+        "Jean Marc Mardirossian",
+        "Bahia Abdallah",
+        "Gavin M Douglas",
+        "Jessy Barbour",
+        "B Jesse Shapiro",
+        "Mira El Chaar"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42119682/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Shotgun metagenomics for antimicrobial resistance gene and strain analysis",
+      "llm_evidence_cn": "利用鸟枪法宏基因组学进行耐药基因和菌株分析",
+      "llm_evidence": "利用鸟枪法宏基因组学进行耐药基因和菌株分析",
+      "canonical_evidence": "利用鸟枪法宏基因组学进行耐药基因和菌株分析",
+      "llm_tldr_en": "Uses metagenomics to track antimicrobial resistance genes and microbial transmission in mother-infant dyads.",
+      "llm_tldr_cn": "利用宏基因组学研究母婴间微生物定植及耐药基因的传递规律。",
+      "llm_tldr": "利用宏基因组学研究母婴间微生物定植及耐药基因的传递规律。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "42046385",
+      "title": "A geometric and probabilistic framework for mechanistic antifungal screening from colony morphology.",
+      "abstract": "BACKGROUND: Fungicide discovery still relies heavily on scalar screening endpoints [e.g. inhibition zones, median effective concentration (EC50) or minimum inhibitory concentration (MIC)] that summarize growth suppression but provide limited information about geometry-linked failure modes, constraining mechanistic prioritization during early screening. Because colony morphology encodes growth direction and polarity, we developed a geometric and probabilistic screening framework to separate potency from polarity-linked failure modes in cacao- and coffee-relevant pathogens. RESULTS: From routine colony images, we computed a fixed-dose potency coordinate, λ, as the negative natural log of the area survival ratio, and a polarity coordinate, I, as the natural log fold-change in length-to-width ratio (treated/control). We then estimated polarity-disruption event probability (p̂) with exact 95% Clopper-Pearson confidence bounds at an operational threshold of τ = 1.10, with sensitivity analysis across τ = 1.10-1.20. In a single-dose primary screen across nine isolates and four phenolic-branched amide/acid candidates, amides consistently clustered in the (+λ, +I) quadrant, indicating an action direction characterized by concurrent growth suppression and polarity disruption relative to the acid analogues. The strongest combination was CGH5 treated with PhSOAM (λ = 0.67), which also showed high shape-disruption probability (p̂ = 0.75; 95% CI 0.43-0.95). Ellipse-based axis reconstruction linked I to axis-specific contraction ratios and showed strong agreement with direct length- and width-based ratios. Re-analysis of an independent UV-C exposure-time gradient (0-30 min) produced coherent dose-dependent λ(d) and I(d) trajectories and supported event-level inference at ~10 min. CONCLUSION: The λ-I-p grammar converts colony images into an instrument-agnostic screening language describing how strongly an intervention acts at the tested condition (λ), whether it is associated with polarity-linked geometry change (I) and how often a defined failure mode occurs (p̂), thereby supporting mechanistic screening and prioritization of candidate fungicides. Published 2026. This article is a U.S. Government work and is in the public domain in the USA.",
+      "authors": [
+        "Ezekiel Ahn",
+        "Insuck Baek",
+        "Seunghyun Lim",
+        "Amelia Lovelace",
+        "Masoud Kazem-Rostami",
+        "Helen Ngo",
+        "Richard D Ashby",
+        "Minhyeok Cha",
+        "Moon S Kim",
+        "Sunchung Park",
+        "Lyndel W Meinhardt"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42046385/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Geometric and probabilistic framework for antifungal screening",
+      "llm_evidence_cn": "用于抗真菌药物筛选的几何与概率框架",
+      "llm_evidence": "用于抗真菌药物筛选的几何与概率框架",
+      "canonical_evidence": "用于抗真菌药物筛选的几何与概率框架",
+      "llm_tldr_en": "Develops a geometric framework for mechanistic antifungal screening based on pathogen colony morphology.",
+      "llm_tldr_cn": "开发了一种基于病原体菌落形态的几何与概率框架，用于抗真菌药物的机制筛选。",
+      "llm_tldr": "开发了一种基于病原体菌落形态的几何与概率框架，用于抗真菌药物的机制筛选。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42096830",
+      "title": "Sugarcane viral diseases: Epidemiology, detection, and advanced breeding methods for resistance.",
+      "abstract": "Sugarcane viruses threaten yield and sucrose content, imposing substantial global economic losses. This review provides current knowledge on the major sugarcane pathogens, with a focus on virus biology, transmission, and virus-host interactions, and uses this foundation to frame practical control strategies. We first describe the epidemiology and economic impact of sugarcane viral diseases to establish the urgency of robust surveillance and management. Building on these insights, we then evaluate detection and surveillance technologies, ranging from traditional immunoassays and nucleic acid hybridization to molecular diagnostics, isothermal amplification, and CRISPR-based approaches, and discuss how high-throughput sequencing accelerates virus discovery. Next, we assess management strategies that include virus-free planting material, vector control, sanitation, and modern breeding technologies, like RNA interference (RNAi), CRISPR/Cas genome editing, marker-assisted selection (MAS), and genome wide association studies (GWAS) within genomic selection (GS) frameworks. We also consider supplementary strategies such as plant-derived antivirals and environmental management, and discuss how they complement core approaches. Crucially, we identify key knowledge gaps in sugarcane virus-host interactions and resistance breeding, and propose data-driven, multi-omics and AI-assisted approaches to precision breeding and integrated disease management. The review concludes with a practical roadmap for advancing sugarcane virus control and promoting sustainable production.",
+      "authors": [
+        "Yuteng Yin",
+        "Mengrong Wang",
+        "Yanwei Sun",
+        "Pingzhi Zhao",
+        "Jian Ye"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42096830/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Pathogen detection, surveillance, and virus-host interactions",
+      "llm_evidence_cn": "病原体检测、监测及病毒-宿主相互作用",
+      "llm_evidence": "病原体检测、监测及病毒-宿主相互作用",
+      "canonical_evidence": "病原体检测、监测及病毒-宿主相互作用",
+      "llm_tldr_en": "Reviews epidemiology and advanced detection methods for sugarcane viral pathogens.",
+      "llm_tldr_cn": "综述了甘蔗病毒病的流行病学、检测技术及抗性育种方法。",
+      "llm_tldr": "综述了甘蔗病毒病的流行病学、检测技术及抗性育种方法。",
+      "llm_tags": [
+        "query:pathoai:composite"
+      ],
+      "matched_query_tag": "query:pathoai:composite",
+      "matched_query_text": "Papers central to 病原组学中的 AI 方法, especially work that connects or combines: foundation models for pathogen genomes and pathogen biology; machine learning for metagenomic pathogen classification; deep learning models for pathogen detection from sequencing data; AI methods for genomic surveillance and outbreak monitoring; machine learning for antimicrobial resistance prediction from genomes; machine learning for phylogenetic and transmission inference; multimodal models combining pathogen sequence phenotype and metadata; machine learning for microbiome host interaction pathogen ecology and infection modeling; AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design; foundation models for pathogen genome understanding and surveillance.",
+      "matched_requirement_id": "req-composite-pathoai",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42242076",
+      "title": "Human-associated microbial inputs and bacterial-fungal ecological coupling shape antibiotic resistance risk in environmental dust.",
+      "abstract": "Environmental dust represents a critical exposure matrix, yet the relationships between multi-kingdom dust microbiomes and antimicrobial resistance (AMR)-associated health risks remain insufficiently characterized. We applied shotgun metagenomics to dust samples from pharmaceutical factories, a dairy farm, railway stations, and schools to comprehensively characterize bacterial, fungal, and viral communities, alongside resistome structure. Microbial community composition exhibited significant differences across all three domains among the sampled environments. Specifically, dust from railway stations displayed the strongest human-associated microbial signal and harbored the highest diversity of antibiotic resistance genes (ARGs), and MetaCompare-derived AMR risk. Functional analyses revealed shared bacterial-fungal metabolic organization, with cross-domain taxonomic and functional associations pointing to structured ecological coupling. Variation partitioning analysis showed that shared explanatory components accounted for most of the variation in MetaCompare-based human-health AMR risk, particularly the overlap among bacterial composition, humanization, and fungal functional structure. Notably, Candida and Aureobasidium emerged as divergent fungal indicators, tracking microbiome humanization and resistome risk in opposite directions. By contrast, viral auxiliary metabolic genes accounted for only 3.92% of the abundance-weighted virome, consistent with a host-linked auxiliary layer rather than a dominant independent pathway. Collectively, these findings demonstrate that AMR-related signatures in environmental dust are shaped by the interplay of human-associated microbial inputs and ecologically coupled bacterial-fungal interactions.",
+      "authors": [
+        "Hong Bai",
+        "Liang-Ying He",
+        "Lu-Kai Qiao",
+        "Fang-Zhou Gao",
+        "You-Sheng Liu",
+        "Guang-Guo Ying"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42242076/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Shotgun metagenomics for resistome and microbial community characterization",
+      "llm_evidence_cn": "利用鸟枪法宏基因组学表征耐药组和微生物群落",
+      "llm_evidence": "利用鸟枪法宏基因组学表征耐药组和微生物群落",
+      "canonical_evidence": "利用鸟枪法宏基因组学表征耐药组和微生物群落",
+      "llm_tldr_en": "Investigates how microbial inputs and ecological coupling shape antibiotic resistance in dust.",
+      "llm_tldr_cn": "利用宏基因组学研究环境粉尘中微生物输入与抗生素耐药性风险的关系。",
+      "llm_tldr": "利用宏基因组学研究环境粉尘中微生物输入与抗生素耐药性风险的关系。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for metagenome assembly binning strain resolution and taxonomic profiling",
+      "matched_requirement_id": "req-47",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "8plus"
+    },
+    {
+      "id": "42070526",
+      "title": "Generation of an iPSC line IUFi004-A-13 with homozygous NDUFS1 mutation for the study of Leigh syndrome.",
+      "abstract": "NDUFS1 is a critical component of mitochondrial respiratory chain Complex I (CI). Pathogenic variants of NDUFS1 can cause Leigh syndrome (LS), a severe pediatric mitochondrial disorder. To model NDUFS1-linked LS, we generated an iPSC line with homozygous missense mutations in exon 8 using CRISPR/Cas9. The cell line demonstrated typical morphology, expression of iPSC markers, ability to differentiate into all three germ layers, and genomic integrity. This model will enable the study of LS caused by CI in an isogenic context.",
+      "authors": [
+        "Caleb Jerred",
+        "Haribaskar Ramachandran",
+        "Barbara Hildebrandt",
+        "Annika Zink",
+        "Natascia Ventura",
+        "Andrea Rossi",
+        "Alessandro Prigione"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-01",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42070526/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "CRISPR/Cas9 for gene editing and disease modeling",
+      "llm_evidence_cn": "利用CRISPR/Cas9进行基因编辑和疾病建模",
+      "llm_evidence": "利用CRISPR/Cas9进行基因编辑和疾病建模",
+      "canonical_evidence": "利用CRISPR/Cas9进行基因编辑和疾病建模",
+      "llm_tldr_en": "Uses CRISPR/Cas9 to generate an iPSC model for studying Leigh syndrome caused by NDUFS1 mutations.",
+      "llm_tldr_cn": "利用CRISPR/Cas9技术构建了iPSC模型，用于研究由NDUFS1突变引起的Leigh综合征。",
+      "llm_tldr": "利用CRISPR/Cas9技术构建了iPSC模型，用于研究由NDUFS1突变引起的Leigh综合征。",
+      "llm_tags": [
+        "query:bioinfo"
+      ],
+      "matched_query_tag": "query:bioinfo",
+      "matched_query_text": "AI for CRISPR design gene editing outcome prediction and perturbation modeling",
+      "matched_requirement_id": "req-33",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    }
+  ]
+}

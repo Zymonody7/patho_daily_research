@@ -1,0 +1,102 @@
+Title: Exploration of the protein and pharmacological landscape of monkeypox virus treatment: from entry point to end point - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41428316/
+
+Markdown Content:
+Review
+
+Actions
+
+. 2026 Aug;30(4):4759-4814.
+
+doi: 10.1007/s11030-025-11421-1.  Epub 2025 Dec 22.
+
+Affiliations
+
+*    PMID: **41428316**
+*    DOI: [10.1007/s11030-025-11421-1](https://doi.org/10.1007/s11030-025-11421-1)
+
+Review
+
+## Exploration of the protein and pharmacological landscape of monkeypox virus treatment: from entry point to end point
+
+Cena Aram et al. Mol Divers.2026 Aug.
+
+## Abstract
+
+The re-emergence of monkeypox virus (MPXV), renamed mpox, as a global health emergency in 2022 has intensified the search for robust therapeutic interventions. This review summarizes the virological, structural, and pharmacological dimensions of MPXV, with a focus on the virus's lifecycle from host cell entry to dissemination. MPXV's double-stranded DNA genome exhibits clade-specific plasticity, with variations in genes like OPG065 and MOPICE driving virulence, immune evasion, and host adaptation. Key viral proteins, including entry facilitators A27L and L1R, envelope protein F13L (VP37), and immune modulators such as B19R and C12L, serve as critical targets for antiviral strategies. Structural insights from cryo-EM and X-ray crystallography reveal conserved motifs across orthopoxviruses, enabling pan-orthopox drug design. Current therapeutics, such as tecovirimat (targeting VP37 to block egress), brincidofovir, and cidofovir (inhibiting DNA polymerase E9L), offer symptomatic relief but face hurdles like resistance mutations (e.g., A314V in E9L) and suboptimal efficacy in immunocompromised patients. Emerging resistance underscores the need for vigilant genomic surveillance. Novel modalities, including monoclonal antibodies against antigenic proteins like A35R and M1R, cytokine-based immunotherapies, and host-directed agents modulating autophagy or interferon pathways, show promise. Computational approaches integrating AI-driven screening, molecular dynamics simulations, and multi-omics have pinpointed repurposed candidates like lumacaftor and conivaptan as VP37 inhibitors. This integrative framework advocates for combination therapies, personalized regimens based on clade profiling, and global collaboration to mitigate MPXV's adaptive potential. By bridging virology and pharmacology, the review charts pathways for innovative drug development to combat this zoonotic threat effectively.
+
+**Keywords:** Antiviral resistance; Computational approaches; Drug discovery; Immunotherapy; Monkeypox virus; Viral proteins.
+
+© 2025. The Author(s), under exclusive licence to Springer Nature Switzerland AG.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declarations. Conflict of interest: The authors declare no competing interests.
+
+## Similar articles
+
+*   [Emerging variants of Mpox virus and tecovirimat resistance: Genomic insights and implications for treatment strategies.](https://pubmed.ncbi.nlm.nih.gov/40245474/)
+
+Chenchula S, Atal S, Ghanta MK, Uppugunduri CR, Karunakaran S, Amerneni KC, Sarma P, Prakash S, Amerneni LS, Padmavathi R, Anitha K, Sri Varshini T, Vishnu Vardhan K, Kaore S, Sadasivam B.Chenchula S, et al.Virology. 2025 Jul;608:110532. doi: 10.1016/j.virol.2025.110532. Epub 2025 Apr 12.Virology. 2025.PMID: 40245474 Review. 
+*   [Targeting monkeypox virus (MPXV): strategies for molecular docking studies on protein inhibition.](https://pubmed.ncbi.nlm.nih.gov/40553268/)
+
+Kushwaha JM, Rani MSS, Singh S.Kushwaha JM, et al.Virus Genes. 2025 Oct;61(5):523-534. doi: 10.1007/s11262-025-02171-1. Epub 2025 Jun 24.Virus Genes. 2025.PMID: 40553268 Review. 
+*   [Understanding Monkeypox Virus Evolution, Host-Pathogen Interactions, and Therapeutic Advances.](https://pubmed.ncbi.nlm.nih.gov/41518080/)
+
+Prajapati A, Jella R, Dendi MR, Salla S, Mukherjee S, Bayry J, Tatikonda RR, Hu H, Bonam SR.Prajapati A, et al.Rev Med Virol. 2026 Jan;36(1):e70103. doi: 10.1002/rmv.70103.Rev Med Virol. 2026.PMID: 41518080 Review. 
+*   [Structural and dynamic insights into F13L variations in monkeypox virus and their impact on tecovirimat resistance.](https://pubmed.ncbi.nlm.nih.gov/41462260/)
+
+Wang Y, Wu C, Wang Y, Li T.Wang Y, et al.Virol J. 2025 Dec 29;22(1):399. doi: 10.1186/s12985-025-03024-x.Virol J. 2025.PMID: 41462260 Free PMC article. 
+*   [Exploring Monkeypox: prospects for therapeutics through computational-aided drug discovery.](https://pubmed.ncbi.nlm.nih.gov/38079063/)
+
+Grajales DB, Kar S.Grajales DB, et al.Mol Divers. 2024 Oct;28(5):3497-3521. doi: 10.1007/s11030-023-10767-8. Epub 2023 Dec 11.Mol Divers. 2024.PMID: 38079063 Review. 
+
+## References
+
+1.       1.    Lu J, Xing H, Wang C, Tang M, Wu C, Ye F et al (2023) Mpox (formerly monkeypox): pathogenesis, prevention and treatment. Signal Transduct Target Ther 8(1):458 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/38148355/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/10751291/) - [DOI](https://doi.org/10.1038/s41392-023-01675-2)
+
+2.       1.    Luna N, Muñoz M, Bonilla-Aldana DK, Patiño LH, Kasminskaya Y, Paniz-Mondolfi A et al (2023) Monkeypox virus (MPXV) genomics: a mutational and phylogenomic analyses of B. 1 lineages. Travel Med Infect Dis 52:102551 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/36746267/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/9946793/) - [DOI](https://doi.org/10.1016/j.tmaid.2023.102551)
+
+3.       1.    Mohamed Abdoul-Latif F, Ainane A, Mohamed H, Merito Ali A, Houmed Aboubaker I, Jutur PP et al (2024) Mpox resurgence: a multifaceted analysis for global preparedness. Viruses 16(11):1737. [https://doi.org/10.3390/v16111737](https://doi.org/10.3390/v16111737) - [DOI](https://doi.org/10.3390/v16111737) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/39599851/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/11598846/)
+
+4.       1.    Mpox is still being transmitted across the world, says UN health agency 2024 [Available from: [https://news.un.org/en/story/2024/08/1153141](https://news.un.org/en/story/2024/08/1153141)
+
+5.       1.    da Silva SJR, Kohl A, Pena L, Pardee K (2023) Clinical and laboratory diagnosis of monkeypox (mpox): current status and future directions. iScience 26(6):106759. [https://doi.org/10.1016/j.isci.2023.106759](https://doi.org/10.1016/j.isci.2023.106759) - [DOI](https://doi.org/10.1016/j.isci.2023.106759) - [PubMed](https://pubmed.ncbi.nlm.nih.gov/37206155/) - [PMC](https://pmc.ncbi.nlm.nih.gov/articles/10183700/)
+
+## Publication types
+
+*   Actions 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Springer](https://doi.org/10.1007/s11030-025-11421-1)
+
+*   ### Medical
+
+    *   [MedlinePlus Health Information](https://medlineplus.gov/mpox.html)

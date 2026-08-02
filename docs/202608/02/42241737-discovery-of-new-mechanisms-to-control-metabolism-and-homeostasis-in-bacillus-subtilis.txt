@@ -1,0 +1,87 @@
+Title: Discovery of new mechanisms to control metabolism and homeostasis in Bacillus subtilis - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42241737/
+
+Markdown Content:
+Review
+
+Actions
+
+. 2026 Aug:92:102765.
+
+doi: 10.1016/j.mib.2026.102765.  Epub 2026 Jun 3.
+
+Affiliations
+
+*    PMID: **42241737**
+*    DOI: [10.1016/j.mib.2026.102765](https://doi.org/10.1016/j.mib.2026.102765)
+
+Free article
+
+Review
+
+## Discovery of new mechanisms to control metabolism and homeostasis in Bacillus subtilis
+
+Jörg Stülke et al. Curr Opin Microbiol.2026 Aug.
+
+Free article
+
+## Abstract
+
+Biosynthetic needs of a cell and the generation of precursors and energy in catabolic reactions must be faithfully balanced. Even in model organisms such as Bacillus subtilis, there are still important gaps in our knowledge. The key bottleneck in research is the lack of novel research hypotheses. New concepts and methodologies can help to develop such hypotheses. Here, we discuss how the introduction of proteome-wide protein-protein interaction mapping by in vivo cross-linking, the AI-mediated prediction of structure models for each protein, and the possibility to compare those models highly efficiently aid the development of novel hypotheses. Moreover, the focused use of suppressor screens can help to get new unbiased insights. We demonstrate how these approaches are applied to B. subtilis. Global cross-linking combined with the power of AI provided a testable hypothesis to unravel the long-standing open question of how iron is sensed in B. subtilis and related bacteria. This is of particular importance as iron is the growth-limiting factor for most bacterial pathogens. The isolation of suppressor mutants that are resistant to growth-inhibiting amino acids has identified novel amino acid exporters. Importantly, the corresponding genes belong to the most poorly expressed genes in B. subtilis, and they are only activated under selective pressure by mutations that affect corresponding transcription factors or the promoter regions of the exporter genes. As the approaches discussed here have only recently been brought to wide application, we can expect that they will be very fruitful in gaining a better understanding of metabolism and metabolic homeostasis.
+
+Copyright © 2026 The Author(s). Published by Elsevier Ltd.. All rights reserved.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declaration of Competing Interest The authors declare the following financial interests/personal relationships which may be considered as potential competing interests: Jorg Stulke reports financial support was provided by German Research Foundation. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+## Similar articles
+
+*   [Control of three-carbon amino acid homeostasis by promiscuous importers and exporters in _Bacillus subtilis_: role of the "sleeping beauty" amino acid exporters.](https://pubmed.ncbi.nlm.nih.gov/38470260/)
+
+Warneke R, Herzberg C, Daniel R, Hormes B, Stülke J.Warneke R, et al.mBio. 2024 Apr 10;15(4):e0345623. doi: 10.1128/mbio.03456-23. Epub 2024 Mar 12.mBio. 2024.PMID: 38470260 Free PMC article. 
+*   [Control of asparagine homeostasis in _Bacillus subtilis_: identification of promiscuous amino acid importers and exporters.](https://pubmed.ncbi.nlm.nih.gov/38193659/)
+
+Meißner J, Königshof M, Wrede K, Warneke R, Mardoukhi MSY, Commichau FM, Stülke J.Meißner J, et al.J Bacteriol. 2024 Feb 22;206(2):e0042023. doi: 10.1128/jb.00420-23. Epub 2024 Jan 9.J Bacteriol. 2024.PMID: 38193659 Free PMC article. 
+*   [Understudied proteins and understudied functions in the model bacterium Bacillus subtilis-A major challenge in current research.](https://pubmed.ncbi.nlm.nih.gov/36882621/)
+
+Wicke D, Meißner J, Warneke R, Elfmann C, Stülke J.Wicke D, et al.Mol Microbiol. 2023 Jul;120(1):8-19. doi: 10.1111/mmi.15053. Epub 2023 Mar 15.Mol Microbiol. 2023.PMID: 36882621 Review. 
+*   [The MarR-like protein PchR (YvmB) regulates expression of genes involved in pulcherriminic acid biosynthesis and in the initiation of sporulation in Bacillus subtilis.](https://pubmed.ncbi.nlm.nih.gov/27542896/)
+
+Randazzo P, Aubert-Frambourg A, Guillot A, Auger S.Randazzo P, et al.BMC Microbiol. 2016 Aug 20;16(1):190. doi: 10.1186/s12866-016-0807-3.BMC Microbiol. 2016.PMID: 27542896 Free PMC article. 
+*   [A proteomic view of cell physiology of Bacillus subtilis--bringing the genome sequence to life.](https://pubmed.ncbi.nlm.nih.gov/12934926/)
+
+Hecker M.Hecker M.Adv Biochem Eng Biotechnol. 2003;83:57-92. doi: 10.1007/3-540-36459-5_3.Adv Biochem Eng Biotechnol. 2003.PMID: 12934926 Review. 
+
+## Publication types
+
+*   Actions 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [ClinicalKey](https://www.clinicalkey.com/content/playBy/pii?v=S1369-5274(26)00059-7)
+    *   [Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S1369-5274(26)00059-7)

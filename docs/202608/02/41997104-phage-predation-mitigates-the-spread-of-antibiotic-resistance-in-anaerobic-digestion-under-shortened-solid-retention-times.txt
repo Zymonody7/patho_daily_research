@@ -1,0 +1,75 @@
+Title: Phage predation mitigates the spread of antibiotic resistance in anaerobic digestion under shortened solid retention times - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/41997104/
+
+Markdown Content:
+Actions
+
+. 2026 Aug 1:300:125921.
+
+doi: 10.1016/j.watres.2026.125921.  Epub 2026 Apr 12.
+
+Affiliations
+
+*    PMID: **41997104**
+*    DOI: [10.1016/j.watres.2026.125921](https://doi.org/10.1016/j.watres.2026.125921)
+
+## Phage predation mitigates the spread of antibiotic resistance in anaerobic digestion under shortened solid retention times
+
+Xingxing Zhang et al. Water Res.2026.
+
+## Abstract
+
+Optimizing anaerobic digestion (AD) via shortening solid retention time (SRT) enhances methane recovery, yet the mechanistic impact of SRT reduction on antimicrobial resistance (AMR) dissemination remains underexplored. Herein, we employed metagenomics to investigate how reduced SRTs (from 60 to 5 days) regulated the dynamics of antibiotic resistance genes (ARGs) mediated by pathogenic hosts, plasmids, and phages in mesophilic and thermophilic AD systems. Shortened SRTs elevated ARG abundance by 5.9-388% under mesophilic conditions, driven by the SRT-elicited niche expansion of antibiotic-resistant bacteria (ARB) and the persistent dominance of ESKAPE pathogen Enterobacter hormaechei, the latter intrinsically harbored and transmitted high-risk ARGs (aadA, sul1, and qacEdelta1) via multi-resistant plasmids. Notably, plasmid-mediated and cross-phylum transmission substantially enhanced ARG mobility. Contrastingly, thermophilic conditions eliminated ARGs by 17.0-57.1% under shortened SRTs, driven by thermophilic ARB niche differentiation. Crucially, both homology search and phage-host prediction indicated the lack of ARGs matching between phages and hosts under reduced SRTs, denoting a negligible contribution of transduction to horizontal ARG transfer. The dominance of lytic phages (85.3%), intensified lytic phage-host interactions, and heightened abundance of lytic phages lysing ARB collectively imposed potent phage top-down control over ARG hosts, with the lytic phage predation on ARB being validated by laboratory assays. We also identified 9 high-risk digestate ARG biomarkers (ANT(6)-Ia, aadA, ermA, mel, qacEdelta1, sul1, tet44, tetM, tetQ) by integrating criteria of prevalence, gene mobility, clinical relevance, and host pathogenicity to inform monitoring. Overall, this study underlined the significance of phage predation in mitigating ARG propagation under shortened SRTs, informing the development of novel AMR control strategies in AD practices.
+
+**Keywords:** Anaerobic digestion; Antibiotic resistance genes; Pathogenic hosts; Phage–bacteria interplays; Solid retention time.
+
+Copyright © 2026 Elsevier Ltd. All rights reserved.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declaration of competing interest The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+## Similar articles
+
+*   [Nano-biochar regulates phage-host interactions, reducing antibiotic resistance genes in vermicomposting systems.](https://pubmed.ncbi.nlm.nih.gov/40838886/)
+
+Xie T, Lin D, Cai XD, Ma LJ, Wang L, Cai TG, Ye YQ, Shen LQ, Sun MM, Ye M, Neilson R, Zhu D.Xie T, et al.Proc Natl Acad Sci U S A. 2025 Aug 26;122(34):e2511986122. doi: 10.1073/pnas.2511986122. Epub 2025 Aug 21.Proc Natl Acad Sci U S A. 2025.PMID: 40838886 Free PMC article. 
+*   [Temperature-phased anaerobic sludge digestion effectively removes antibiotic resistance genes in a full-scale wastewater treatment plant.](https://pubmed.ncbi.nlm.nih.gov/38485028/)
+
+Liu H, Zhang Z, Li X, Zhou T, Wang Z, Li J, Li Y, Wang Q.Liu H, et al.Sci Total Environ. 2024 May 10;924:171555. doi: 10.1016/j.scitotenv.2024.171555. Epub 2024 Mar 12.Sci Total Environ. 2024.PMID: 38485028 
+
+*   [An overview of the occurrence, impact of process parameters, and the fate of antibiotic resistance genes during anaerobic digestion processes.](https://pubmed.ncbi.nlm.nih.gov/38853230/)
+
+Pourrostami Niavol K, Bordoloi A, Suri R.Pourrostami Niavol K, et al.Environ Sci Pollut Res Int. 2024 Jun;31(29):41745-41774. doi: 10.1007/s11356-024-33844-3. Epub 2024 Jun 10.Environ Sci Pollut Res Int. 2024.PMID: 38853230 Free PMC article.Review. 
+*   [Microplastics and antibiotic resistance genes nexus in sewage sludge: impact of thermal hydrolysis process-anaerobic digestion.](https://pubmed.ncbi.nlm.nih.gov/41791604/)
+
+Gahlot P, Tyagi VK.Gahlot P, et al.Bioresour Technol. 2026 Jun;449:134349. doi: 10.1016/j.biortech.2026.134349. Epub 2026 Mar 4.Bioresour Technol. 2026.PMID: 41791604 Review. 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S0043-1354(26)00603-2)
+
+*   ### Medical
+
+    *   [MedlinePlus Health Information](https://medlineplus.gov/antibioticresistance.html)

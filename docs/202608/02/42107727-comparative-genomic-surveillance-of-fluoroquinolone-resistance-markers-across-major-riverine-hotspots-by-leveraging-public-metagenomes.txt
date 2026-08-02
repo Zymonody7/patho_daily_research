@@ -1,0 +1,72 @@
+Title: Comparative genomic surveillance of fluoroquinolone resistance markers across major riverine hotspots by leveraging public metagenomes - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42107727/
+
+Markdown Content:
+## Comparative genomic surveillance of fluoroquinolone resistance markers across major riverine hotspots by leveraging public metagenomes
+
+Kheerthana Ramesh et al. Int J Antimicrob Agents.2026 Aug.
+
+## Abstract
+
+**Objective:** The global surge in fluoroquinolone resistance (FQR) underscores the urgent need for robust environmental surveillance. From a One Health perspective, rivers serve as critical conduits and hotspots for antimicrobial resistance (AMR) dissemination.
+
+**Methods:** To address this issue, we conducted a systematic metagenomic surveillance of FQR across spatially prioritized freshwater ecosystems using distribution data of five major markers (gyr, par, qnr, aac, and qep) retrieved from the National Center for Biotechnology Information Pathogen Detection Isolate Browser.
+
+**Results:** Among 164 riverine metagenomic datasets, 31 high-quality datasets from the Mississippi, Yukon, Saint Lawrence, Yangtze, and Pearl Rivers were analysed. FQR genes were detected in 12 datasets, with normalized abundances ranging from 0.01 to 1.22 copies per bacterial cell. Plasmid-mediated qnrS2 and efflux pump genes (qepA2 and AbaQ) emerged as the most prevalent determinants. Multivariate analyses revealed river-specific clustering patterns and strong correlations with metal resistance genes, highlighting co-selection pressures. The predominance of conjugative mobile genetic elements indicated an elevated potential for horizontal gene transfer. Taxonomic profiling further revealed enrichment of clinically important and World Health Organization priority pathogens. Community structure analyses (permutational multivariate analysis, R² = 0.7598, P = 0.003) confirmed significant microbial variations across rivers.
+
+**Conclusions:** Collectively, this integrative approach identifies environmental reservoirs of FQR genes, supporting river-based AMR surveillance. These insights are pivotal for shaping evidence-driven mitigation strategies and informing both national and global AMR policies.
+
+**Keywords:** Antimicrobial resistance; Fluoroquinolones; Monitoring; Rivers; Spatial dynamic.
+
+Copyright © 2026 Elsevier Ltd and International Society of Antimicrobial Chemotherapy. All rights reserved.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Metagenomic profiling of antibiotic resistance genes and their associations with the bacterial community along the Kanda River, an urban river in Japan.](https://pubmed.ncbi.nlm.nih.gov/39488451/)
+
+Xiao C, Ide K, Matsunaga H, Kogawa M, Wagatsuma R, Takeyama H.Xiao C, et al.J Biosci Bioeng. 2025 Feb;139(2):147-155. doi: 10.1016/j.jbiosc.2024.09.006. Epub 2024 Nov 1.J Biosci Bioeng. 2025.PMID: 39488451 
+*   [Insights into antibiotic resistomes from gut metagenome-assembled genomes of the free-range pigs.](https://pubmed.ncbi.nlm.nih.gov/41759554/)
+
+Dai X, Liu H, Bai X, Li D, Wang T, Zhong H, Xu H, Sun J.Dai X, et al.Microbiol Spectr. 2026 Apr 7;14(4):e0240725. doi: 10.1128/spectrum.02407-25. Epub 2026 Feb 27.Microbiol Spectr. 2026.PMID: 41759554 Free PMC article. 
+*   [Urban sewage resistomes partially reflect clinical resistomes.](https://pubmed.ncbi.nlm.nih.gov/41823408/)
+
+Thorn AV, Brinch C, Aarestrup FM, Munk P.Thorn AV, et al.mSystems. 2026 Apr 21;11(4):e0003126. doi: 10.1128/msystems.00031-26. Epub 2026 Mar 13.mSystems. 2026.PMID: 41823408 Free PMC article. 
+*   [Environmental resistomes and antimicrobial resistance: integrating the One Health framework.](https://pubmed.ncbi.nlm.nih.gov/41015591/)
+
+Raziq K, Saleem R, Zafar S, Sanaullah T, Nazir MM, Ummara UE, Abbasi A.Raziq K, et al.Naunyn Schmiedebergs Arch Pharmacol. 2026 Jan;399(2):2081-2095. doi: 10.1007/s00210-025-04639-1. Epub 2025 Sep 27.Naunyn Schmiedebergs Arch Pharmacol. 2026.PMID: 41015591 Review. 
+*   [Twenty-first century molecular methods for analyzing antimicrobial resistance in surface waters to support One Health assessments.](https://pubmed.ncbi.nlm.nih.gov/33774111/)
+
+Franklin AM, Brinkman NE, Jahne MA, Keely SP.Franklin AM, et al.J Microbiol Methods. 2021 May;184:106174. doi: 10.1016/j.mimet.2021.106174. Epub 2021 Mar 24.J Microbiol Methods. 2021.PMID: 33774111 Free PMC article.Review. 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [ClinicalKey](https://www.clinicalkey.com/content/playBy/pii?v=S0924-8579(26)00128-7)
+    *   [Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S0924-8579(26)00128-7)
+
+*   ### Medical
+
+    *   [MedlinePlus Health Information](https://medlineplus.gov/antibioticresistance.html)

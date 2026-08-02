@@ -11,73 +11,91 @@
 </div>
 
 ## 每次日报
-- 最新运行日期：2026-07-27
-- 运行时间：2026-07-27 21:53:28 UTC
+- 最新运行日期：2026-08-02
+- 运行时间：2026-08-02 21:34:53 UTC
 - 运行状态：成功
-- 本次总论文数：17
-- 精读区：8
-- 速读区：9
+- 本次总论文数：23
+- 精读区：9
+- 速读区：14
 
 ### 今日简报（AI）
-今日精选 17 篇前沿文献，深度解析纳米孔全基因组测序与蛋白质几何建模的最新突破。
-重点关注 Nanopore 测序在全基因组应用中的极高适用性，以及 FoldDoF 框架如何通过蛋白质骨架自由度革新几何建模与生成。
-建议关注生物信息学工具在衰老时钟与牙周炎治疗中的跨学科应用，把握精准医疗与蛋白质设计的新趋势。
-- 详情：[/202607/27/README](/202607/27/README)
+今日精选23篇前沿文献，深度聚焦深度学习在抗菌肽发现与耐药性预测中的突破性应用。
+重点关注生成式模型如何加速抗菌肽设计，以及混合深度学习如何实现基于全基因组组装的广谱耐药性快速预测。
+建议关注AI驱动的药物研发新范式，并留意环境宏基因组与宿主基因组在病原体监测中的潜在价值。
+- 详情：[/202608/02/README](/202608/02/README)
 
 ### 精读区论文标签
-1. [Applicability of Nanopore-only whole-genome sequencing for](/202607/27/42506940-applicability-of-nanopore-only-whole-genome-sequencing-for)  
+1. [From generation to validation: Deep generative models for antimicrobial peptide discovery.](/202608/02/42054758-from-generation-to-validation-deep-generative-models-for-antimicrobial-peptide-discovery)  
    标签：评分：10.0/10、query:pathoai
-   evidence：纳米孔测序用于疫情调查和耐药性预测
-2. [FoldDoF: Utilizing the Primary Degrees of Freedom of Protein Backbone for Geometric Modeling and Generation.](/202607/27/42396749-folddof-utilizing-the-primary-degrees-of-freedom-of-protein-backbone-for-geometric-modeling-and-generation)  
-   标签：评分：9.0/10、query:bioinfo
-   evidence：使用3D旋转对蛋白质骨架进行几何建模
-3. [Evo-EquiGPS: Synergizing Dynamic Geometry, Global Topology, and Explicit Evolution for High-Precision Enzyme Active Site Prediction.](/202607/27/42439568-evo-equigps-synergizing-dynamic-geometry-global-topology-and-explicit-evolution-for-high-precision-enzyme-active-site-prediction)  
-   标签：评分：9.0/10、query:bioinfo
-   evidence：用于蛋白质活性位点预测的几何深度学习
-4. [Scaling SMILES-Based Chemical Language Models for Therapeutic Peptide Engineering.](/202607/27/42443143-scaling-smiles-based-chemical-language-models-for-therapeutic-peptide-engineering)  
-   标签：评分：9.0/10、query:bioinfo
-   evidence：用于治疗性多肽工程和设计的化学语言模型
-5. [TPPS4 inhibits PEDV by stabilizing viral RNA G-quadruplex and promoting ER stress: a transfer-learning-driven discovery.](/202607/27/42505122-tpps4-inhibits-pedv-by-stabilizing-viral-rna-g-quadruplex-and-promoting-er-stress-a-transfer-learning-driven-discovery)  
+   evidence：用于抗菌肽发现的深度生成模型
+2. [Hybrid deep learning-based rapid broad-Spectrum antimicrobial susceptibility prediction from whole-genome assemblies.](/202608/02/42309394-hybrid-deep-learning-based-rapid-broad-spectrum-antimicrobial-susceptibility-prediction-from-whole-genome-assemblies)  
+   标签：评分：10.0/10、query:pathoai
+   evidence：用于抗菌药物耐药性预测的混合深度学习
+3. [Deep learning-enabled ratiometric signal transduction for portable and intelligent colorimetric LAMP biosensing of Vibrio vulnificus.](/202608/02/42031193-deep-learning-enabled-ratiometric-signal-transduction-for-portable-and-intelligent-colorimetric-lamp-biosensing-of-vibrio-vulnificus)  
    标签：评分：9.0/10、query:pathoai
-   evidence：迁移学习用于抗猪流行性腹泻病毒药物发现
-6. [Open-access genomic drug resistance prediction tools for](/202607/27/42506927-open-access-genomic-drug-resistance-prediction-tools-for)  
+   evidence：基于CNN的创伤弧菌自动检测定量框架
+4. [Artificial intelligence in clinical metagenomic pathogen detection: A critical review of pipeline integrations, challenges, and future directions.](/202608/02/42289215-artificial-intelligence-in-clinical-metagenomic-pathogen-detection-a-critical-review-of-pipeline-integrations-challenges-and-future-directions)  
    标签：评分：9.0/10、query:pathoai
-   evidence：结核分枝杆菌基因组耐药性预测工具
-7. [Unveiling Large-Scale Kinase-Centric Protein-Protein Interactions through a Knowledge-Informed Workflow.](/202607/27/42427025-unveiling-large-scale-kinase-centric-protein-protein-interactions-through-a-knowledge-informed-workflow)  
+   evidence：临床宏基因组病原体检测与分类的AI综述
+5. [Discovery of novel antimicrobials within microbiomes.](/202608/02/42341608-discovery-of-novel-antimicrobials-within-microbiomes)  
+   标签：评分：9.0/10、query:pathoai
+   evidence：人工智能赋能的抗菌药物发现计算方法
+6. [Class-Incremental Learning for Foodborne Pathogen Prediction Based on Clinical Surveillance Data.](/202608/02/42361903-class-incremental-learning-for-foodborne-pathogen-prediction-based-on-clinical-surveillance-data)  
+   标签：评分：9.0/10、query:pathoai
+   evidence：用于监测数据中食源性病原体预测的类增量学习
+7. [Designing fiber-gut microbiome interactions with active learning.](/202608/02/42509322-designing-fiber-gut-microbiome-interactions-with-active-learning)  
+   标签：评分：9.0/10、query:pathoai
+   evidence：用于微生物组相互作用的主动学习和机器学习
+8. [A Snapshot of the UK Blood Donor Plasma Virome: A Retrospective Cross-Sectional Cohort Study.](/202608/02/42515825-a-snapshot-of-the-uk-blood-donor-plasma-virome-a-retrospective-cross-sectional-cohort-study)  
+   标签：评分：9.0/10、query:pathoai
+   evidence：用于血浆病原体检测的定量靶向宏基因组学
+9. [Discovery of new mechanisms to control metabolism and homeostasis in Bacillus subtilis.](/202608/02/42241737-discovery-of-new-mechanisms-to-control-metabolism-and-homeostasis-in-bacillus-subtilis)  
    标签：评分：8.0/10、query:bioinfo
-   evidence：利用大语言模型解析文献证据以进行蛋白质相互作用建模
-8. [DisoPatho: A Cross-View Feature-Adaptive Interaction Encoding Framework for Predicting Disease-Associated Variants in Intrinsically Disordered Regions.](/202607/27/42503799-disopatho-a-cross-view-feature-adaptive-interaction-encoding-framework-for-predicting-disease-associated-variants-in-intrinsically-disordered-regions)  
-   标签：评分：8.0/10、query:seqai
-   evidence：深度学习预测疾病相关变异
+   evidence：AI介导的蛋白质结构模型预测
 
 ### 速读区论文标签
-1. [Targeting IFN-I driven tertiary lymphoid structures halts B cell-mediated bone loss in periodontitis.](/202607/27/42503518-targeting-ifn-i-driven-tertiary-lymphoid-structures-halts-b-cell-mediated-bone-loss-in-periodontitis)  
-   标签：评分：7.0/10、query:seqai
-   evidence：单细胞RNA测序研究牙周炎免疫反应
-2. [An abundant merozoite surface protein of](/202607/27/42504823-an-abundant-merozoite-surface-protein-of)  
+1. [Integrative computational-experimental discovery of α-hederin as a multi-mechanistic, low-toxicity antifungal agent targeting Candida albicans CYP51.](/202608/02/41325836-integrative-computational-experimental-discovery-of--hederin-as-a-multi-mechanistic-low-toxicity-antifungal-agent-targeting-candida-albicans-cyp51)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：针对CYP51靶点的抗真菌药物综合计算发现
+2. [Host whole genome sequence data represent an untapped resource for characterising affiliated parasite diversity.](/202608/02/41506580-host-whole-genome-sequence-data-represent-an-untapped-resource-for-characterising-affiliated-parasite-diversity)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：从宿主全基因组测序数据中检测病原体
+3. [Comparative genomic surveillance of fluoroquinolone resistance markers across major riverine hotspots by leveraging public metagenomes.](/202608/02/42107727-comparative-genomic-surveillance-of-fluoroquinolone-resistance-markers-across-major-riverine-hotspots-by-leveraging-public-metagenomes)  
+   标签：评分：8.0/10、query:pathoai
+   evidence：河流生态系统中抗菌素耐药性标志物的宏基因组监测
+4. [Early-life acquisition of antimicrobial resistance genes and strain-level genomic concordance across maternal-infant compartments.](/202608/02/42119682-early-life-acquisition-of-antimicrobial-resistance-genes-and-strain-level-genomic-concordance-across-maternal-infant-compartments)  
+   标签：评分：8.0/10、query:seqai
+   evidence：利用鸟枪法宏基因组学进行耐药基因和菌株分析
+5. [Human-associated microbial inputs and bacterial-fungal ecological coupling shape antibiotic resistance risk in environmental dust.](/202608/02/42242076-human-associated-microbial-inputs-and-bacterial-fungal-ecological-coupling-shape-antibiotic-resistance-risk-in-environmental-dust)  
+   标签：评分：8.0/10、query:seqai
+   evidence：利用鸟枪法宏基因组学表征耐药组和微生物群落
+6. [Imperfectly amphipathic design of α-helical antimicrobial peptides demonstrating potent antimicrobial activity with low toxicity.](/202608/02/41921827-imperfectly-amphipathic-design-of--helical-antimicrobial-peptides-demonstrating-potent-antimicrobial-activity-with-low-toxicity)  
    标签：评分：7.0/10、query:bioinfo
-   evidence：用于病原体蛋白研究的 CRISPR-Cas9 基因编辑
-3. [Pasta, a Versatile Transcriptomic Clock, Maps the Chemical and Genetic Determinants of Aging and Rejuvenation.](/202607/27/42505084-pasta-a-versatile-transcriptomic-clock-maps-the-chemical-and-genetic-determinants-of-aging-and-rejuvenation)  
-   标签：评分：7.0/10、query:seqai
-   evidence：利用RNA-Seq数据的转录组衰老时钟
-4. [High-Fat Diet Reprograms the Periapical Immune Landscape in a Mouse Model of Apical Periodontitis: A Spatial Transcriptomics Study.](/202607/27/42506892-high-fat-diet-reprograms-the-periapical-immune-landscape-in-a-mouse-model-of-apical-periodontitis-a-spatial-transcriptomics-study)  
-   标签：评分：7.0/10、query:seqai
-   evidence：用于感染驱动炎症的空间转录组学
-5. [Role of Microbiome and Bacterial Biofilms in the Pathogenesis of Cutaneous Leishmaniasis.](/202607/27/42507249-role-of-microbiome-and-bacterial-biofilms-in-the-pathogenesis-of-cutaneous-leishmaniasis)  
+   evidence：抗菌肽的从头设计与优化
+7. [Phage predation mitigates the spread of antibiotic resistance in anaerobic digestion under shortened solid retention times.](/202608/02/41997104-phage-predation-mitigates-the-spread-of-antibiotic-resistance-in-anaerobic-digestion-under-shortened-solid-retention-times)  
    标签：评分：7.0/10、query:pathoai
-   evidence：皮肤微生物组和细菌生物膜在疾病发病机制中的作用
-6. [Microbiome-guided cancer immunotherapy: immune mechanisms, resistance pathways, and translational opportunities for precision oncology.](/202607/27/42507333-microbiome-guided-cancer-immunotherapy-immune-mechanisms-resistance-pathways-and-translational-opportunities-for-precision-oncology)  
+   evidence：宏基因组学研究病原体耐药性动态
+8. [Single-cell transcriptomic analysis unveils dysregulated macrophage-podocyte crosstalk in membranous nephropathy.](/202608/02/42025748-single-cell-transcriptomic-analysis-unveils-dysregulated-macrophage-podocyte-crosstalk-in-membranous-nephropathy)  
+   标签：评分：7.0/10、query:seqai
+   evidence：单细胞RNA测序及肾脏细胞生物信息学分析
+9. [A geometric and probabilistic framework for mechanistic antifungal screening from colony morphology.](/202608/02/42046385-a-geometric-and-probabilistic-framework-for-mechanistic-antifungal-screening-from-colony-morphology)  
    标签：评分：7.0/10、query:pathoai
-   evidence：微生物组调节肿瘤免疫相互作用和治疗反应
-7. [The BOS-Lig Data Set: Accurate Ligand Charges from a Consensus Approach for 66,810 Experimentally Synthesized Ligands.](/202607/27/42438368-the-bos-lig-data-set-accurate-ligand-charges-from-a-consensus-approach-for-66810-experimentally-synthesized-ligands)  
-   标签：评分：6.0/10、query:bioinfo
-   evidence：高通量筛选和配体性质预测
-8. [Isoform-resolved transcriptomics reveals stage-specific isoform switching and protein domain remodeling in](/202607/27/42504843-isoform-resolved-transcriptomics-reveals-stage-specific-isoform-switching-and-protein-domain-remodeling-in)  
-   标签：评分：6.0/10、query:seqai
-   evidence：异构体分辨率转录组学与表达建模
-9. [The Role of the Oral Microbiome in the Development and Treatment of Periodontal Disease: Functional Meta-Omics Evidence.](/202607/27/42507033-the-role-of-the-oral-microbiome-in-the-development-and-treatment-of-periodontal-disease-functional-meta-omics-evidence)  
+   evidence：用于抗真菌药物筛选的几何与概率框架
+10. [Generation of an iPSC line IUFi004-A-13 with homozygous NDUFS1 mutation for the study of Leigh syndrome.](/202608/02/42070526-generation-of-an-ipsc-line-iufi004-a-13-with-homozygous-ndufs1-mutation-for-the-study-of-leigh-syndrome)  
+   标签：评分：7.0/10、query:bioinfo
+   evidence：利用CRISPR/Cas9进行基因编辑和疾病建模
+11. [Exploration of the protein and pharmacological landscape of monkeypox virus treatment: from entry point to end point.](/202608/02/41428316-exploration-of-the-protein-and-pharmacological-landscape-of-monkeypox-virus-treatment-from-entry-point-to-end-point)  
    标签：评分：6.0/10、query:pathoai
-   evidence：口腔微生物组调节网络与宿主免疫稳态
+   evidence：病原体靶点识别与治疗设计
+12. [A prioritization framework for BRCA1/2 variants of uncertain significance identified by comprehensive genomic profiling.](/202608/02/41765968-a-prioritization-framework-for-brca12-variants-of-uncertain-significance-identified-by-comprehensive-genomic-profiling)  
+   标签：评分：6.0/10、query:seqai
+   evidence：基因组分析与变异优先级排序框架
+13. [Measuring population immunity against influenza using individual antibody titres: a multicountry, retrospective observational study.](/202608/02/42009019-measuring-population-immunity-against-influenza-using-individual-antibody-titres-a-multicountry-retrospective-observational-study)  
+   标签：评分：6.0/10、query:pathoai
+   evidence：流感爆发监测的人群免疫评估指标
+14. [Sugarcane viral diseases: Epidemiology, detection, and advanced breeding methods for resistance.](/202608/02/42096830-sugarcane-viral-diseases-epidemiology-detection-and-advanced-breeding-methods-for-resistance)  
+   标签：评分：6.0/10、query:pathoai
+   evidence：病原体检测、监测及病毒-宿主相互作用
 
 
 <div class="dpr-home-promo-card">

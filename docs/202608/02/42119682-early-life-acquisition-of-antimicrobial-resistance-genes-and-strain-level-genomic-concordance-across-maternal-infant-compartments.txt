@@ -1,0 +1,97 @@
+Title: Early-life acquisition of antimicrobial resistance genes and strain-level genomic concordance across maternal-infant compartments - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42119682/
+
+Markdown Content:
+Actions
+
+. 2026 Aug:142:105956.
+
+doi: 10.1016/j.meegid.2026.105956.  Epub 2026 May 10.
+
+Affiliations
+
+*    PMID: **42119682**
+*    DOI: [10.1016/j.meegid.2026.105956](https://doi.org/10.1016/j.meegid.2026.105956)
+
+Free article
+
+## Early-life acquisition of antimicrobial resistance genes and strain-level genomic concordance across maternal-infant compartments
+
+Jean Marc Mardirossian et al. Infect Genet Evol.2026 Aug.
+
+Free article
+
+## Abstract
+
+**Background:** Early-life microbial colonization and antimicrobial resistance gene (ARG) acquisition may influence long-term health outcomes. High-resolution genomic studies assessing strain-level concordance and resistome overlap across maternal-infant interfaces during the immediate postnatal period remain limited.
+
+**Methods:** We analyzed 32 healthy mother-newborn dyads in Lebanon (91 samples), including maternal colostrum and breast milk and neonatal meconium and stool. Culture-based isolation, antimicrobial susceptibility testing, shotgun metagenomics, and whole-genome sequencing were used to characterize microbial composition, resistome profiles, and strain-level relatedness.
+
+**Results:** Viable bacteria were recovered from 80% of meconium samples, with Escherichia coli and Enterococcus faecalis among the most frequent isolates. Whole-genome sequencing identified highly similar strains (≥99.9% average nucleotide identity) of E. coli, Klebsiella pneumoniae, and K. oxytoca across maternal and neonatal samples in six dyads. Metagenomic profiling demonstrated early acquisition of multidrug resistance genes, including bla CTX-M-15, tet(M), and oqxA/B, alongside mobile genetic elements such as IncF and Col-type plasmids. The colistin resistance gene mcr-10.1 was detected in one neonatal stool sample.
+
+**Conclusion:** These findings demonstrate early-life resistome establishment and strain-level genomic concordance across maternal-infant compartments within the first week of life. While low-biomass samples require cautious interpretation, the observed genomic similarities and shared ARGs are consistent with potential maternal or shared environmental contributions to neonatal microbial and resistance gene acquisition, although the direction of transfer cannot be definitively established. This work underscores the importance of integrating genomic surveillance of maternal and neonatal resistomes in perinatal health research.
+
+**Importance:** This study provides high-resolution genomic insight into early-life microbial colonization and antimicrobial resistance gene acquisition by integrating culture-based microbiology, shotgun metagenomics, and whole-genome sequencing across matched maternal (colostrum, breast milk) and neonatal (meconium, stool) samples. The identification of viable bacteria and clinically relevant resistance determinants within the first week of life, including instances of strain-level genomic concordance between maternal and neonatal samples, contributes to understanding the early establishment of the neonatal resistome. While low-biomass samples require cautious interpretation, the observed genomic similarities and shared mobile genetic elements suggest potential maternal or shared environmental influences on early colonization dynamics. These findings highlight the value of considering maternal reservoirs in studies of neonatal microbial and resistance gene evolution and underscore the need for genomic surveillance of early-life resistome development in perinatal settings.
+
+**Keywords:** Antimicrobial resistance genes; Mobile genetic elements; Neonatal gut colonization; Plasmid-mediated resistance; Shotgun metagenomics; Strain-level genomics.
+
+Copyright © 2026 The Authors. Published by Elsevier B.V. All rights reserved.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declaration of competing interest All authors declare that they have no competing interests.
+
+## Similar articles
+
+*   [Increased antibiotic resistance in preterm neonates under early antibiotic use.](https://pubmed.ncbi.nlm.nih.gov/39373498/)
+
+Ojeda A, Akinsuyi O, McKinley KL, Xhumari J, Triplett EW, Neu J, Roesch LFW.Ojeda A, et al.mSphere. 2024 Oct 29;9(10):e0028624. doi: 10.1128/msphere.00286-24. Epub 2024 Oct 7.mSphere. 2024.PMID: 39373498 Free PMC article.Clinical Trial. 
+*   [Antimicrobial resistance and genomic characterization of Escherichia coli isolated from mink in northern China.](https://pubmed.ncbi.nlm.nih.gov/41619990/)
+
+Ni H, Hou QY, Xu C, Leng X, Li XM, Qin Y, Liu S, Yang MT, Tang LY, Sun YZ, Zhao Q, Ni HB, Zhang XX, Jiang J, Yang LH, Ma H.Ni H, et al.Microb Pathog. 2026 Apr;213:108328. doi: 10.1016/j.micpath.2026.108328. Epub 2026 Jan 29.Microb Pathog. 2026.PMID: 41619990 
+*   [Molecular characterization of a clinical ST145 _Klebsiella oxytoca_ strain co-producing KPC-2 and IMP-96 carbapenemases.](https://pubmed.ncbi.nlm.nih.gov/41405204/)
+
+Liu H, Yan C, Wang S, Jiang J, Jiao M, Hu F, Xu X.Liu H, et al.mSystems. 2026 Jan 20;11(1):e0152925. doi: 10.1128/msystems.01529-25. Epub 2025 Dec 17.mSystems. 2026.PMID: 41405204 Free PMC article. 
+*   [Dynamics of gut resistome and mobilome in early life: a meta-analysis.](https://pubmed.ncbi.nlm.nih.gov/40048849/)
+
+Bargheet A, Noordzij HT, Ponsero AJ, Jian C, Korpela K, Valles-Colomer M, Debelius J, Kurilshikov A, Pettersen VK.Bargheet A, et al.EBioMedicine. 2025 Apr;114:105630. doi: 10.1016/j.ebiom.2025.105630. Epub 2025 Mar 5.EBioMedicine. 2025.PMID: 40048849 Free PMC article. 
+*   [Twenty-first century molecular methods for analyzing antimicrobial resistance in surface waters to support One Health assessments.](https://pubmed.ncbi.nlm.nih.gov/33774111/)
+
+Franklin AM, Brinkman NE, Jahne MA, Keely SP.Franklin AM, et al.J Microbiol Methods. 2021 May;184:106174. doi: 10.1016/j.mimet.2021.106174. Epub 2021 Mar 24.J Microbiol Methods. 2021.PMID: 33774111 Free PMC article.Review. 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Substances
+
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S1567-1348(26)00080-8)
+
+*   ### Medical
+
+    *   [MedlinePlus Health Information](https://medlineplus.gov/antibioticresistance.html)

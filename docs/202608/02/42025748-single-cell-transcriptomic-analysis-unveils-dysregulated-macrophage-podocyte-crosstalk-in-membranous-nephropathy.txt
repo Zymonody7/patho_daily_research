@@ -1,0 +1,104 @@
+Title: Single-cell transcriptomic analysis unveils dysregulated macrophage-podocyte crosstalk in membranous nephropathy - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42025748/
+
+Markdown Content:
+Actions
+
+. 2026 Aug-Sep:197-198:106958.
+
+doi: 10.1016/j.biocel.2026.106958.  Epub 2026 Apr 21.
+
+Affiliations
+
+*    PMID: **42025748**
+*    DOI: [10.1016/j.biocel.2026.106958](https://doi.org/10.1016/j.biocel.2026.106958)
+
+## Single-cell transcriptomic analysis unveils dysregulated macrophage-podocyte crosstalk in membranous nephropathy
+
+Yinghui Zhang et al. Int J Biochem Cell Biol.2026 Aug-Sep.
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+**Background:** Membranous nephropathy (MN) is an antibody-mediated glomerular disease, but the cellular networks driving injury remain poorly defined.
+
+**Methods:** We integrated the cationic bovine serum albumin (cBSA)-induced mouse MN model with single-cell RNA sequencing (scRNA-seq) to profile renal cells. Bioinformatic analyses included clustering, differential expression, pathway enrichment, and cell-cell communication inference (CellChat).
+
+**Results:** We successfully established a cBSA-induced MN mouse model exhibiting characteristic pathological features, including glomerular basement membrane thickening and IgG deposition. Single-cell transcriptomics revealed a profoundly remodeled renal cellular landscape in MN, characterized by immune activation (increases in macrophages, B cells, T cells, and NK cells) and concomitant tubular injury (significant loss of proximal tubule cells). We identified an imbalanced adaptive immune response: T follicular helper (Tfh) cells expanded, but plasma cells decreased, suggesting disrupted differentiation. Pathway analysis indicated metabolic reprogramming in B cells, ER stress in plasma cells, and pro-inflammatory activation in macrophages. Crucially, cell-cell communication analysis uncovered a rewired pathogenic macrophage-podocyte axis. This axis was defined by a dual imbalance: a gain-of-function in injury-promoting signals (Spp1-integrin) coupled with a loss-of-function in homeostatic signals (collagen IV).
+
+**Conclusion:** This study provides a comprehensive cellular atlas of MN and delineates a dysregulated macrophage-podocyte crosstalk as a key driver of glomerular injury, highlighting this axis as a promising target for therapeutic intervention.
+
+**Keywords:** Intercellular communication; Kidney; Macrophage; Membranous nephropathy; Single-cell RNA sequencing.
+
+Copyright © 2026 Elsevier Ltd. All rights reserved.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Conflict of interest statement
+
+Declaration of Competing Interest The authors declare the following financial interests/personal relationships which may be considered as potential competing interests: Ben Ke reports financial support was provided by Natural Science Foundation of China. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+## Similar articles
+
+*   [Sanqi qushi formula ameliorates podocyte injury in membranous nephropathy by inhibiting endoplasmic reticulum stress-induced ferroptosis.](https://pubmed.ncbi.nlm.nih.gov/40840732/)
+
+Sun Y, Cen Z, Li Y, Li H, Wu Q, Lin Z, Yang J, Liu B, Wu Y, Bao K, Zhao T.Sun Y, et al.J Ethnopharmacol. 2025 Sep 25;353(Pt B):120453. doi: 10.1016/j.jep.2025.120453. Epub 2025 Aug 19.J Ethnopharmacol. 2025.PMID: 40840732 
+*   [Single-cell RNA sequencing unveils macrophage heterogeneity and cell-cell interactions in hepatocellular carcinoma progression.](https://pubmed.ncbi.nlm.nih.gov/42227003/)
+
+Tang Y, Li J, Huang L.Tang Y, et al.Front Genet. 2026 May 18;17:1819908. doi: 10.3389/fgene.2026.1819908. eCollection 2026.Front Genet. 2026.PMID: 42227003 Free PMC article. 
+*   [Integrative omics and experimental validation reveal METTL17 and SLC27A1 as biomarkers and potential therapeutic targets in chronic kidney disease.](https://pubmed.ncbi.nlm.nih.gov/41766913/)
+
+Ling S, Xie K, Chen P, Liang L, Shi X, Huang R.Ling S, et al.Front Immunol. 2026 Feb 13;17:1724740. doi: 10.3389/fimmu.2026.1724740. eCollection 2026.Front Immunol. 2026.PMID: 41766913 Free PMC article. 
+*   [A podocyte view of membranous nephropathy: from Heymann nephritis to the childhood human disease.](https://pubmed.ncbi.nlm.nih.gov/28597189/)
+
+Ronco P, Debiec H.Ronco P, et al.Pflugers Arch. 2017 Aug;469(7-8):997-1005. doi: 10.1007/s00424-017-2007-x. Epub 2017 Jun 8.Pflugers Arch. 2017.PMID: 28597189 Review. 
+*   [Immune-mediated membranous nephropathy: Innovations in pathogenetic modeling and mechanistic insights.](https://pubmed.ncbi.nlm.nih.gov/40888279/)
+
+Zhang C, Xu Z, Feng Y, Kong J, Wang Y, Xu F, Yang M.Zhang C, et al.Int Rev Immunol. 2025;44(6):443-453. doi: 10.1080/08830185.2025.2550714. Epub 2025 Sep 1.Int Rev Immunol. 2025.PMID: 40888279 Review. 
+
+## Publication types
+
+*   Actions 
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Elsevier Science](https://linkinghub.elsevier.com/retrieve/pii/S1357-2725(26)00062-2)
+
+*   ### Research Materials
+
+    *   [NCI CPTC Antibody Characterization Program](https://antibodies.cancer.gov/detail/CPTC-SPP1-1)
+
+*   ### Miscellaneous
+
+    *   [NCI CPTAC Assay Portal](https://assays.cancer.gov/non-CPTAC-3592)
