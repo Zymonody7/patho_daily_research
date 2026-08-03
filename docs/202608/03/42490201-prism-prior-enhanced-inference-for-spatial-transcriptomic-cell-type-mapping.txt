@@ -1,0 +1,60 @@
+Title: PRISM: Prior-enhanced Inference for Spatial Transcriptomic Cell Type Mapping - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42490201/
+
+Markdown Content:
+## PRISM: Prior-enhanced Inference for Spatial Transcriptomic Cell Type Mapping
+
+Yiheng Xu et al. Bioinformatics.2026.
+
+Free article
+
+Display options
+
+Format
+
+Display options
+
+Format
+
+## Abstract
+
+**Motivation:** Cell type annotation in spatial transcriptomics (ST) is fundamental for deciphering complex tissue organization and spatially resolved biological processes. Most existing methods perform ST cell type annotation by transferring labels from single-cell RNA-seq (scRNA) data to ST data, but typically rely on weakly constrained representations that neglect structured spatial dependencies and treat marker gene selection as an isolated preprocessing step. This renders them vulnerable to substantial domain gaps as well as platform-specific noise, resulting in unstable predictions and limited biological interpretability.
+
+**Results:** To address these issues, we propose Prior-enhanced Inference for Spatial Transcriptomic Cell Type Mapping (PRISM), a novel three-stage framework integrating biological prior construction, pseudo-label generation, and multi-level ST refinement. First, PRISM constructs a cross-domain biological prior to explicitly extract marker genes to enforce positive biological discriminability. Next, it adopts a prior-enhanced self-training strategy, where scRNA-trained ensembles generate reliable pseudo-label candidates for ST data, serving as a robust anchor for cross-domain adaptation. Finally, the framework consolidates high-quality ensemble predictions selected via metric-guided evaluation, encodes spatial information, and optimizes the model under dual-directional biological constraints. Extensive experiments on eleven ST datasets across six platforms, two species, and multiple tissue contexts validate PRISM. Specifically, on the five labeled benchmarks, PRISM shows strong overall performance under both Accuracy and Macro-F1 evaluation across brain and non-brain tissues. Moreover, under fully label-free settings, PRISM achieves the best overall composite rank across all datasets, demonstrating strong robustness to domain shift and platform heterogeneity.
+
+**Availability and implementation:** PRISM is available at https://github.com/lilab-ai4s/PRISM and https://doi.org/10.5281/zenodo.20529683.
+
+© The Author(s) 2026. Published by Oxford University Press.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## MeSH terms
+
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+*   Actions 
+
+## Grants and funding
+
+*   [2021ZD0202700/Brain Science and Brain-like Intelligence Technology-National Science and Technology Major](https://pubmed.ncbi.nlm.nih.gov/?term=2021ZD0202700%2FBrain+Science+and+Brain-like+Intelligence+Technology-National+Science+and+Technology+Major%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2021ZD0202700/Brain Science and Brain-like Intelligence Technology-National Science and Technology Major")
+*   [82288101/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82288101%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82288101/National Natural Science Foundation of China")
+*   [82090031/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82090031%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82090031/National Natural Science Foundation of China")
+*   [82371525/National Natural Science Foundation of China](https://pubmed.ncbi.nlm.nih.gov/?term=82371525%2FNational+Natural+Science+Foundation+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 82371525/National Natural Science Foundation of China")
+*   [2023-PT310-01/Non-profit Central Research Institute Fund of Chinese Academy of Medical Sciences](https://pubmed.ncbi.nlm.nih.gov/?term=2023-PT310-01%2FNon-profit+Central+Research+Institute+Fund+of+Chinese+Academy+of+Medical+Sciences%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2023-PT310-01/Non-profit Central Research Institute Fund of Chinese Academy of Medical Sciences")
+
+*   [04202601013/Nanhu Brain-computer Interface Institute](https://pubmed.ncbi.nlm.nih.gov/?term=04202601013%2FNanhu+Brain-computer+Interface+Institute%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 04202601013/Nanhu Brain-computer Interface Institute")
+*   [2025ZFJH01-01/the Fundamental Research Funds for the Central Universities](https://pubmed.ncbi.nlm.nih.gov/?term=2025ZFJH01-01%2Fthe+Fundamental+Research+Funds+for+the+Central+Universities%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant 2025ZFJH01-01/the Fundamental Research Funds for the Central Universities")
+*   [JYB2025XDXM605/Fundamental and Interdisciplinary Disciplines Breakthrough Plan of the Ministry of Education of China](https://pubmed.ncbi.nlm.nih.gov/?term=JYB2025XDXM605%2FFundamental+and+Interdisciplinary+Disciplines+Breakthrough+Plan+of+the+Ministry+of+Education+of+China%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant JYB2025XDXM605/Fundamental and Interdisciplinary Disciplines Breakthrough Plan of the Ministry of Education of China")
+*   [ZJU Kunpeng & Ascend Center of Excellence](https://pubmed.ncbi.nlm.nih.gov/?term=ZJU+Kunpeng+%26+Ascend+Center+of+Excellence%5BGrants+and+Funding%5D&sort=date&sort_order=desc "All articles for grant ZJU Kunpeng & Ascend Center of Excellence")
+
+## LinkOut - more resources
+
+*   ### Full Text Sources
+
+    *   [Silverchair Information Systems](https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btag515)

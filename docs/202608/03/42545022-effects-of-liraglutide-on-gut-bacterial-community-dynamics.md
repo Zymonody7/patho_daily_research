@@ -1,0 +1,24 @@
+---
+title: Effects of liraglutide on gut bacterial community dynamics.
+title_zh: 利拉鲁肽对肠道细菌群落动态的影响
+authors: "Jami Bull, Paul L Durham, Babur S Mirza"
+date: 2026-08-03
+pdf: "https://pubmed.ncbi.nlm.nih.gov/42545022/"
+tags: ["query:pathoai"]
+score: 6.0
+evidence: 肠道细菌群落动态与 16S rRNA 测序
+tldr: 针对利拉鲁肽（GLP-1受体激动剂）对肠道菌群影响及其可逆性尚不明确的问题，本研究通过对肥胖模型小鼠进行为期14天的药物干预及7天洗脱期观察，利用16S rRNA测序分析菌群动态。结果发现利拉鲁肽能显著诱导菌群结构改变，特别是增加了乳杆菌等有益菌并抑制了部分发酵菌，且这种改变在停药后基本恢复。该研究揭示了GLP-1药物通过调节肠道微生态辅助代谢改善的潜在机制，为理解宿主-微生物交互作用提供了新视角。
+selection_source: fresh_fetch
+motivation: 探究减肥药物利拉鲁肽如何动态改变肥胖小鼠的肠道菌群结构，以及停药后这些微生物改变是否具有持久性。
+method: 对高脂饮食诱导的肥胖小鼠进行14天利拉鲁肽治疗及7天停药观察，并利用16S rRNA基因测序技术监测肠道细菌群落的演变过程。
+result: 药物治疗显著提升了乳杆菌属等产乳酸有益菌的丰度，同时降低了与碳水化合物发酵相关的细菌比例，且大部分菌群变化在停药一周后恢复至基线水平。
+conclusion: 利拉鲁肽诱导的肠道菌群重塑是快速、饮食依赖且可逆的，这种对特定代谢相关菌群的调节可能是其发挥减肥和代谢改善作用的重要辅助机制。
+---
+
+## 摘要
+利拉鲁肽（Liraglutide）是一种 GLP-1 受体激动剂，用于诱导减重。然而，关于利拉鲁肽对肠道细菌群落的影响及其在停药（washout）后的恢复情况，目前信息有限。我们研究了利拉鲁肽对饮食诱导肥胖（DIO）小鼠肠道细菌群落的影响，以及这些变化在停药后是否持续。24 只摄入高脂饮食（HFC）或低脂饮食（LFC）的雄性 C57BL/6J 小鼠被监测了 21 天。高脂饮食组的一个亚组接受了为期 14 天的每日利拉鲁肽治疗（HFL），随后进行 7 天的停药观察。利拉鲁肽在第 4 天诱导了显著的体重减轻，这种效果在治疗期间持续存在，并在治疗结束后部分逆转。在细菌群落分析中，利用 Illumina 双端测序获取了 710 万条 16S rRNA 基因序列。我们观察到利拉鲁肽治疗期间肠道细菌群落结构发生了明显的偏移，而在 7 天停药后，这些变化大多恢复至基线水平。通过相似性百分比分析，鉴定了 21 个扩增子序列变体（ASVs）为主要贡献者。其中 9 个与加氏乳杆菌（Lactobacillus gasseri）、副加氏乳杆菌（L. paragasseri）、约氏乳杆菌（L. johnsonii）和 Leptogranulimonas caecicola 相关的 ASVs 在治疗期间显著增加，并在停药后下降。其余 12 个与蛋白质和碳水化合物发酵细菌（Romboutsia、Faecalicatena 和 Oscillibacter）相关的 ASVs 在治疗期间减少。跨组比较鉴定了 29 个 ASVs，它们聚类为 7 个系统发育组，突显了利拉鲁肽对胆汁酸和黏蛋白相关分类群的富集作用，以及对碳水化合物发酵属的抑制作用。这些发现表明，利拉鲁肽诱导了快速、饮食依赖性且可逆的肠道微生物群偏移，有利于产乳酸细菌，同时减少了发酵分类群。此类微生物变化可能有助于利拉鲁肽的代谢效应，并为肥胖治疗中的宿主-微生物群相互作用提供见解。
+
+重要性：肥胖和超重状态与肠道细菌群落密切相关；然而，常见的肥胖治疗药物（如 GLP-1 受体激动剂）对肠道细菌的影响尚不明确。在此，我们展示了利拉鲁肽（一种 GLP-1 类似物）相对于未治疗的肥胖和消瘦对照组，重塑了饮食诱导肥胖小鼠的肠道细菌群落。通过包含小鼠处于正常体重时的基线样本，我们将药物引起的细菌变化与肥胖进展引起的变化区分开来，并研究了停药期间群落结构受到的影响。在高脂饮食条件下，利拉鲁肽治疗选择性地增加了有益的肠道细菌（如乳杆菌科 Lactobacillaceae）。GLP-1 治疗期间的这些细菌偏移可能有助于其代谢获益，并拓宽了我们对饮食和体重管理背景下宿主-细菌相互作用的理解。
+
+## Abstract
+Liraglutide, a GLP-1 receptor agonist, is used to induce weight loss. However, limited information exists on liraglutide's effects on the gut bacterial community and their restoration after washout. We investigated liraglutide's effect on the gut bacterial community in diet-induced obese (DIO) mice and whether these changes persist after washout. Twenty-four male C57BL/6J mice on high-fat (HFC) or low-fat (LFC) diets were monitored for 21 days. A subgroup of high-fat mice received daily liraglutide for 14 days (HFL), followed by a 7-day washout. Liraglutide induced significant weight loss by Day 4, which persisted during treatment and partially reversed post-treatment. For bacterial community analysis, 7.1 million 16S rRNA gene sequences were retrieved using Illumina paired-end sequencing. We observed distinct shifts in the gut bacterial community structure during liraglutide treatment, which mostly returned to baseline after the 7-day washout. Using Similarity Percentages analysis, 21 amplicon sequence variants (ASVs) were identified as major contributors. Nine ASVs, related to Lactobacillus gasseri, L. paragasseri, L. johnsonii, and Leptogranulimonas caecicola, significantly increased during treatment and declined post-washout. The remaining 12 ASVs, associated with protein- and carbohydrate-fermenting bacteria (Romboutsia, Faecalicatena, and Oscillibacter), decreased during treatment. Comparison across all groups identified 29 ASVs, clustering into seven phylogenetic groups, highlighting liraglutide's enrichment of bile acid- and mucin-associated taxa and suppression of carbohydrate-fermentative genera. These findings demonstrate that liraglutide induces rapid, diet-dependent, yet reversible shifts in the gut microbiome, favoring lactic acid-producing bacteria while reducing fermentative taxa. Such microbial changes may contribute to liraglutide's metabolic effects and provide insight into host-microbiome interactions in obesity treatment.IMPORTANCEObesity and overweight states are intricately linked to the gut bacterial community; however, the effects of common obesity treatments such as GLP-1 receptor agonists on gut bacteria remain unclear. Here, we show that liraglutide, a GLP-1 analog, reshapes the gut bacterial community in diet-induced obese mice relative to untreated obese and lean controls. By including baseline samples when mice were at a normal weight, we distinguished bacterial changes due to the drug from those due to obesity progression, as well as how the community structure is affected during a washout period. Liraglutide treatment selectively increased beneficial gut bacteria (e.g., Lactobacillaceae) under high-fat conditions. These bacterial shifts during GLP-1 therapy may contribute to its metabolic benefits and broaden our understanding of host bacterial interactions in the context of diet and weight management.

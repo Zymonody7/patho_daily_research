@@ -1,0 +1,482 @@
+{
+  "mode": "standard",
+  "generated_at": "2026-08-03T21:59:54.193467+00:00",
+  "stats": {
+    "mode": "standard",
+    "tag_count": 4,
+    "deep_divecandidates": 5,
+    "deep_cap": 9,
+    "deep_selected": 5,
+    "quick_candidates": 4,
+    "quick_skim_target": 14,
+    "quick_selected": 4
+  },
+  "deep_dive": [
+    {
+      "id": "41874448",
+      "title": "Same-Slide Spatial Multiomics Integration with IN-DEPTH Reveals Tumor Virus-Linked Spatial Reorganization of the Tumor Microenvironment.",
+      "abstract": "UNLABELLED: Spatial transcriptomics and proteomics have enabled profound insights into tissue organization, yet these technologies remain largely disparate, and emerging same-slide multiomics approaches are limited in plex, spatial resolution, signal retention, and integrative analytics. We introduce IN-situ DEtailed Phenotyping To High-resolution transcriptomics (IN-DEPTH), a streamlined, resource-efficient, commercially compatible workflow using single-cell spatial proteomics-derived imaging to guide transcriptomic capture on the same slide without RNA signal loss. To integrate modalities beyond niche-level mapping, we developed Spectral Graph Cross-Correlation (SGCC), a proteomic-transcriptomic framework resolving spatially coordinated functional state changes across interacting cell populations. Applied to diffuse large B-cell lymphoma (DLBCL), IN-DEPTH and SGCC enabled stepwise discovery from Epstein-Barr virus (EBV)-positive and EBV-negative tumor comparisons with single-cell resolution, revealing coordinated tumor-macrophage-CD4 T-cell remodeling, immunosuppressive C1Q macrophage enrichment, CD4 T-cell dysfunction, and a candidate IL27-STAT3 signaling axis. Collectively, IN-DEPTH enables scalable spatial multiomics to uncover clinically relevant microenvironmental mechanisms and toward robust spatial multimodal AI models. SIGNIFICANCE: IN-DEPTH enables same-slide spatial multiomics across commercial platforms via a protein-first strategy preserving protein epitopes, RNA quality, and tissue integrity. Coupled with SGCC, it resolves coordinated spatial immune remodeling, revealing EBV/LMP1-driven C1Q macrophage polarization and CD4 T-cell dysfunction in DLBCL, with broad applicability to other diseases.",
+      "authors": [
+        "Stephanie Pei Tung Yiu",
+        "Yuzhou Chang",
+        "Yao Yu Yeo",
+        "Huaying Qiu",
+        "Wenrui Wu",
+        "Hendrik A Michel",
+        "Xiaojie Jin",
+        "Rongting Huang",
+        "Shoko Kure",
+        "Lindsay Parmelee",
+        "Shuli Luo",
+        "Precious Cramer",
+        "Jia Le Lee",
+        "Yang Wang",
+        "Zhangxin Zhao",
+        "Jason Yeung",
+        "Nourhan El Ahmar",
+        "Berkay Simsek",
+        "Razan Mohanna",
+        "McKayla Van Orden",
+        "Wesley S Lu",
+        "Kenneth J Livak",
+        "Shuqiang Li",
+        "Ce Gao",
+        "Melinda Burgess",
+        "Colm Keane",
+        "Jahanbanoo Shahryari",
+        "Leandra G Kingsley",
+        "Reem N Al-Humadi",
+        "Sahar Nasr",
+        "Dingani Nkosi",
+        "Sam Sadigh",
+        "Philip Rock",
+        "Leonie Frauenfeld",
+        "Louisa Kaufmann",
+        "Bokai Zhu",
+        "Ankit Basak",
+        "Nagendra Dhanikonda",
+        "Chi Ngai Chan",
+        "Jordan Krull",
+        "Ye Won Cho",
+        "Chia-Yu Chen",
+        "Jonathan Brown",
+        "Hongbo Wang",
+        "Bo Zhao",
+        "Jia-Ying Joey Lee",
+        "Lit-Hsin Loo",
+        "David M Kim",
+        "Vassiliki A Boussiotis",
+        "Baochun Zhang",
+        "Kevin Wei",
+        "Alex K Shalek",
+        "Brooke E Howitt",
+        "Sabina Signoretti",
+        "Christian M Schürch",
+        "F Stephen Hodi",
+        "W Richard Burack",
+        "Scott J Rodig",
+        "Qin Ma",
+        "Sizun Jiang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-03",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/41874448/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "spatial multiomics integration of transcriptomics and proteomics",
+      "llm_evidence_cn": "转录组学和蛋白质组学的空间多组学整合",
+      "llm_evidence": "转录组学和蛋白质组学的空间多组学整合",
+      "canonical_evidence": "转录组学和蛋白质组学的空间多组学整合",
+      "llm_tldr_en": "IN-DEPTH and SGCC enable high-resolution same-slide spatial multiomics integration.",
+      "llm_tldr_cn": "IN-DEPTH 和 SGCC 实现了高分辨率的同切片空间多组学整合。",
+      "llm_tldr": "IN-DEPTH 和 SGCC 实现了高分辨率的同切片空间多组学整合。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "deep learning and foundation models for spatial transcriptomics proteomics and tissue mapping",
+      "matched_requirement_id": "req-46",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42490201",
+      "title": "PRISM: Prior-enhanced Inference for Spatial Transcriptomic Cell Type Mapping.",
+      "abstract": "MOTIVATION: Cell type annotation in spatial transcriptomics (ST) is fundamental for deciphering complex tissue organization and spatially resolved biological processes. Most existing methods perform ST cell type annotation by transferring labels from single-cell RNA-seq (scRNA) data to ST data, but typically rely on weakly constrained representations that neglect structured spatial dependencies and treat marker gene selection as an isolated preprocessing step. This renders them vulnerable to substantial domain gaps as well as platform-specific noise, resulting in unstable predictions and limited biological interpretability. RESULTS: To address these issues, we propose Prior-enhanced Inference for Spatial Transcriptomic Cell Type Mapping (PRISM), a novel three-stage framework integrating biological prior construction, pseudo-label generation, and multi-level ST refinement. First, PRISM constructs a cross-domain biological prior to explicitly extract marker genes to enforce positive biological discriminability. Next, it adopts a prior-enhanced self-training strategy, where scRNA-trained ensembles generate reliable pseudo-label candidates for ST data, serving as a robust anchor for cross-domain adaptation. Finally, the framework consolidates high-quality ensemble predictions selected via metric-guided evaluation, encodes spatial information, and optimizes the model under dual-directional biological constraints. Extensive experiments on eleven ST datasets across six platforms, two species, and multiple tissue contexts validate PRISM. Specifically, on the five labeled benchmarks, PRISM shows strong overall performance under both Accuracy and Macro-F1 evaluation across brain and non-brain tissues. Moreover, under fully label-free settings, PRISM achieves the best overall composite rank across all datasets, demonstrating strong robustness to domain shift and platform heterogeneity. AVAILABILITY AND IMPLEMENTATION: PRISM is available at https://github.com/lilab-ai4s/PRISM and https://doi.org/10.5281/zenodo.20529683.",
+      "authors": [
+        "Yiheng Xu",
+        "Xuehao Wang",
+        "Shuqi Liu",
+        "Congcong Ge",
+        "Xiang Chen",
+        "Yueming Wang",
+        "Bin Yu",
+        "Xiao-Ming Li"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-03",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42490201/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 9.0,
+      "llm_evidence_en": "spatial transcriptomic cell type mapping and inference",
+      "llm_evidence_cn": "空间转录组细胞类型映射与推理",
+      "llm_evidence": "空间转录组细胞类型映射与推理",
+      "canonical_evidence": "空间转录组细胞类型映射与推理",
+      "llm_tldr_en": "PRISM improves spatial transcriptomic cell type mapping using prior-enhanced inference.",
+      "llm_tldr_cn": "PRISM 通过先验增强推理改进了空间转录组细胞类型映射。",
+      "llm_tldr": "PRISM 通过先验增强推理改进了空间转录组细胞类型映射。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "deep learning and foundation models for spatial transcriptomics proteomics and tissue mapping",
+      "matched_requirement_id": "req-46",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42090863",
+      "title": "Discovery of phage lysin against Vibrio parahaemolyticus and characterization of its antibacterial activity.",
+      "abstract": "Vibrio parahaemolyticus, a major seafood-borne pathogen, causes human gastroenteritis and significant aquaculture economic losses. While bacteriophage lysins show promise against bacterial pathogens, their effectiveness against Gram-negative species remains limited by outer membrane impermeability. Through computational analysis, we identified 893 Vibrio-targeting lysins and selected 25 representatives using sequence similarity networks and biochemical parameters. Ten novel lysins, including LysV569, were successfully expressed and 5 of them were able to reduce V. parahaemolyticus ATCC 17802 by more than 2 log10 CFU/mL without outer membrane permeabilizers. LysV569 demonstrated dose- and time-dependent bactericidal activity against V. parahaemolyticus ATCC 17802. Impressively, after pre-incubation for 30 min over a wide temperature range (4 °C to 85 °C), it retained >99% of its activity, demonstrating exceptional thermostability. At 100 μg/mL, LysV569 removed 96.6% of existing biofilms (with EDTA), inhibited >95% new biofilm formation within 24 h (without EDTA) and reduced bacterial load by 2-3 log10 CFU/mL on salmon and food-contact surfaces. This work identified a promising candidate for the control of V. parahaemolyticus in food and environmental settings.",
+      "authors": [
+        "Rui Zhang",
+        "Jiajun He",
+        "Fangfang Yao",
+        "Fangyuan Chen",
+        "Hongping Wei",
+        "Shengfu Huang",
+        "Yuhong Li"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-02",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42090863/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "computational analysis for pathogen target identification",
+      "llm_evidence_cn": "病原体靶点识别的计算分析",
+      "llm_evidence": "病原体靶点识别的计算分析",
+      "canonical_evidence": "病原体靶点识别的计算分析",
+      "llm_tldr_en": "Uses computational analysis to discover novel phage lysins as antibacterial agents against Vibrio.",
+      "llm_tldr_cn": "通过计算分析发现了针对副溶血性弧菌的新型噬菌体裂解酶作为抗菌药物。",
+      "llm_tldr": "通过计算分析发现了针对副溶血性弧菌的新型噬菌体裂解酶作为抗菌药物。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42544084",
+      "title": "Mass Spectrometry-Based Extracellular Vesicle Proteomics for Biomarker Discovery.",
+      "abstract": "Extracellular vesicle (EV) proteomics has emerged as a powerful platform for decoding intercellular communication and advancing biomarker discovery across human diseases. EVs carry proteins that reflect their cells of origin, offering a minimally invasive window into physiological and pathological processes. Mass spectrometry (MS) now enables deep, high-resolution EV proteome profiling, aided by improved isolation and rigorous characterization that ensure sample purity and integrity. Advanced computational pipelines integrating quantitative modeling, spectral-library prediction, machine learning and multi-omics analysis extract meaningful biological signals, revealing subtle disease-associated EV signatures and establishing EV proteomics as a strong platform for biomarker discovery and precision medicine. This review provides an integrated framework linking EV isolation principles, characterization strategies, mass-spectrometric workflows, and computational analysis to the biological and clinical insights they generate. We also highlight key challenges and future directions, including the need for standardized reference materials, unified pre-analytical workflows, and EV proteome reference atlases. Together, these innovations are transforming EV proteomics into a next-generation tool for precision medicine.",
+      "authors": [
+        "Ya-Juan Liu",
+        "Juan Peng",
+        "Chao Kang"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-03",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42544084/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "machine learning and multi-omics for proteomics profiling",
+      "llm_evidence_cn": "用于蛋白质组分析的机器学习和多组学",
+      "llm_evidence": "用于蛋白质组分析的机器学习和多组学",
+      "canonical_evidence": "用于蛋白质组分析的机器学习和多组学",
+      "llm_tldr_en": "Reviews MS-based EV proteomics integrating machine learning and multi-omics for biomarker discovery.",
+      "llm_tldr_cn": "综述了结合机器学习和多组学的质谱细胞外囊泡蛋白质组学在生物标志物发现中的应用。",
+      "llm_tldr": "综述了结合机器学习和多组学的质谱细胞外囊泡蛋白质组学在生物标志物发现中的应用。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for proteogenomics and mass spectrometry based sequence analysis",
+      "matched_requirement_id": "req-52",
+      "selection_source": "fresh_fetch"
+    },
+    {
+      "id": "42545152",
+      "title": "Rapid determination of potential mycotoxin-producing fungi contamination in post-harvest blueberries based on near infra-red spectroscopy and enhanced prototypical network.",
+      "abstract": "Blueberries are susceptible to fungal infection that may lead to mycotoxin contamination. Accurate identification of mycotoxin-producing fungi in blueberries is critical, as processed products derived from mould-contaminated fruits pose significant health risks due to the persistence of mycotoxins. However, classifying fungal diseases in blueberries remains challenging because infections beneath the dark-coloured epidermis are often visually undetectable. Near-infra-red (NIR) spectroscopy presents a promising alternative, as it exhibits distinct absorption characteristics for different fungal pathogens and enables non-contact measurement. This study investigates the use of NIR spectra to classify diseases caused by three mycotoxin-producing fungi: Alternaria alternata, Fusarium fujikuroi, and Penicillium expansum. Blueberry samples were individually inoculated with one of these pathogens or maintained as non-inoculated controls. NIR spectra collected from fruits across two independent harvests were analysed 1-6 days post-inoculation. To address the classification challenge with limited data, this study proposes an enhanced prototypical network to classify blueberry fungal infections, training on the first harvest and validating on the second harvest. A customised convolutional neural network with spatial attention improves feature extraction, while data normalisation and MetaMix augmentation enhance model performance. Through stratified cross-validation, the five-class classifier with 18-shot prototypes achieved an average accuracy of 97.9%, sensitivity of 97.9%, specificity of 99.5%, precision of 98.1% and F1-score of 97.9%. These findings highlight the potential of NIR spectroscopy combined with prototype-based learning for early detection of mycotoxin risks in blueberries.",
+      "authors": [
+        "Leqing Zhu",
+        "Weijie Xia",
+        "Lin Xie",
+        "Xiangyang Wang",
+        "Shuang Gu"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-03",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42545152/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 8.0,
+      "llm_evidence_en": "Deep learning for fungal pathogen detection and classification",
+      "llm_evidence_cn": "用于真菌病原体检测和分类的深度学习",
+      "llm_evidence": "用于真菌病原体检测和分类的深度学习",
+      "canonical_evidence": "用于真菌病原体检测和分类的深度学习",
+      "llm_tldr_en": "Uses NIR spectroscopy and a prototypical network for rapid identification of mycotoxin-producing fungi.",
+      "llm_tldr_cn": "利用近红外光谱和原型网络快速识别蓝莓中的产毒真菌。",
+      "llm_tldr": "利用近红外光谱和原型网络快速识别蓝莓中的产毒真菌。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "deep learning models for pathogen detection from sequencing data",
+      "matched_requirement_id": "req-3",
+      "selection_source": "fresh_fetch"
+    }
+  ],
+  "quick_skim": [
+    {
+      "id": "42544100",
+      "title": "GelMA-based peptide conjugated hydrogel with antifibrotic modulation and antibiofilm activity.",
+      "abstract": "Excessive fibrosis and implant-associated infections remain major challenges in wound healing and post-surgical tissue repair, often resulting in impaired regeneration and long-term complications. Although gelatin methacryloyl (GelMA) hydrogels are widely used in regenerative medicine due to their biocompatibility and tunable physicochemical properties, they intrinsically lack antifibrotic and antibacterial functionality. Herein, we report a dual-functional GelMA-based hydrogel (GelMA-AMP/AFP) achieved by the covalent co-conjugation of an antifibrotic peptide (DR8) and a broad-spectrum antimicrobial peptide (P9-4), enabling simultaneous regulation of fibrotic responses and bacterial colonization within a single biomaterial platform. The peptide-functionalized GelMA hydrogels preserved their porous microarchitecture, mechanical integrity, and swelling behavior while providing a sustained peptide release profile over 14 days. In a TGF-β1-induced in vitro fibrotic fibroblast model, the dual-functional hydrogel significantly suppressed fibroblast proliferation and migration, reduced collagen deposition, and downregulated key profibrotic markers, including COL1A1, ACTA2, FN1, and TGF-β1, at both gene and protein levels. In parallel, the same GelMA-AMP/AFP platform effectively inhibited bacterial adhesion and biofilm formation by multidrug-resistant pathogens, including methicillin-resistant Staphylococcus aureus (MRSA) and multidrug-resistant Pseudomonas aeruginosa (MDRPA), without inducing cytotoxicity. This study reports a GelMA-based biomaterial to simultaneously integrate covalently conjugated antifibrotic and antimicrobial peptides, thereby achieving concurrent suppression of fibrosis and inhibition of biofilm formation within a single material system, in vitro. By combining complementary biological functionalities without compromising material properties, this study presents a chemically driven strategy for multifunctional biomaterial design. This strategy may provide a useful foundation for future studies targeting advanced wound dressings, post-surgical adhesion prevention, and infection-prone tissue repair, pending further in vivo validation.",
+      "authors": [
+        "Buse Sezer",
+        "Günnur Pulat"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-03",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42544100/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Antimicrobial peptide conjugation for antibiofilm activity",
+      "llm_evidence_cn": "抗菌肽偶联用于抗生物膜活性",
+      "llm_evidence": "抗菌肽偶联用于抗生物膜活性",
+      "canonical_evidence": "抗菌肽偶联用于抗生物膜活性",
+      "llm_tldr_en": "Develops a dual-functional hydrogel conjugated with antimicrobial peptides to prevent bacterial colonization.",
+      "llm_tldr_cn": "开发了一种偶联抗菌肽的双功能水凝胶，以防止细菌定植。",
+      "llm_tldr": "开发了一种偶联抗菌肽的双功能水凝胶，以防止细菌定植。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "AI for antimicrobial discovery pathogen target identification and resistance aware therapeutic design",
+      "matched_requirement_id": "req-9",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42545019",
+      "title": "Establishment of an",
+      "abstract": "The human lung microbiome is increasingly recognized as a key player in drug metabolism, yet it remains largely understudied. To replicate this complex physiological environment in a controlled setting, we developed a simplified artificial lung microbiome model composed of four representative bacterial species: Pseudomonas koreensis, Rothia aeria, Neisseria cinerea, and Streptococcus downei. We successfully established a stable 10-day co-culture at 34°C using brain heart infusion medium, as validated by quantitative PCR, viability PCR, and conventional microbiological methodologies. Integrated bioinformatic analyses revealed a variety of potential microbe-microbe interactions, which were supported by metaproteomic analysis using mass spectrometry. Our model provides a foundation for in-depth studies, such as, for example, the effects of pulmonary drugs on the lung microbiome, and how, in turn, the microbiome may influence therapeutic outcomes.IMPORTANCEOnce thought to be sterile, the lung microbiome is now understood to host a dynamic microbiome capable of influencing respiratory health and disease. Understanding interactions among the microbes within this community is essential, as these relationships may drive disease progression or foster resilience in both acute and chronic inflammatory conditions. We developed a reproducible lung microbiome model comprising Pseudomonas koreensis, Rothia aeria, Streptococcus downei, and Neisseria cinerea. Simplified models enable controlled studies to dissect specific microbial interactions, laying the foundation for insights into lung microbial ecology. In the future, more complex models will enhance our understanding of microbial roles in disease outcomes, with our platform serving as a basis for testing therapeutic strategies.",
+      "authors": [
+        "Maria Kulosa",
+        "Matheus Regis Belisário-Ferrari",
+        "Florian Semmler",
+        "Mathilde Büttner",
+        "Corinna Duck",
+        "Zeinab Namazi",
+        "Nico Jehmlich",
+        "Martin von Bergen",
+        "Tobias Bonitz",
+        "Leonard Kaysser"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-03",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42545019/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "Metaproteomic analysis using mass spectrometry for lung microbiome",
+      "llm_evidence_cn": "利用质谱法对肺部微生物组进行元蛋白质组学分析",
+      "llm_evidence": "利用质谱法对肺部微生物组进行元蛋白质组学分析",
+      "canonical_evidence": "利用质谱法对肺部微生物组进行元蛋白质组学分析",
+      "llm_tldr_en": "Establishes an artificial lung microbiome model validated by metaproteomics and bioinformatic analysis.",
+      "llm_tldr_cn": "建立了一个人工肺部微生物组模型，并通过元蛋白质组学和生物信息学分析进行了验证。",
+      "llm_tldr": "建立了一个人工肺部微生物组模型，并通过元蛋白质组学和生物信息学分析进行了验证。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "machine learning for proteogenomics mass spectrometry and sequence analysis",
+      "matched_requirement_id": "req-45",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    },
+    {
+      "id": "42545181",
+      "title": "UCtracker: A Deep Learning-Based DNA Methylation Model for Noninvasive Diagnosis and Recurrence Surveillance of Urothelial Carcinoma in a Prospective Study.",
+      "abstract": "Noninvasive diagnosis and longitudinal surveillance of urothelial carcinoma (UC) remain clinically challenging. Here, we developed and prospectively validate UCtracker, a urine DNA methylation-based deep learning model for UC detection and postoperative recurrence monitoring. UC-specific differentially methylated regions (DMRs) were identified by high-depth whole-genome bisulfite sequencing of UC tissues, paired adjacent normal tissues, and non-tumor urine samples. UCtracker was constructed using the top 2000 hypomethylated DMRs and a convolutional neural network-bidirectional long short-term memory architecture. In an internal validation cohort (n = 165), UCtracker achieved a sensitivity of 94.6% and a specificity of 94.4%, and maintained high performance in an independent multicenter cohort (n = 55), with a sensitivity of 90.6% and a specificity of 91.3%. UCtracker showed higher sensitivity than UroVysion fluorescence in situ hybridization for T1 tumors, high-grade tumors, and bladder UC. Subsampling analyses demonstrated stable diagnostic performance even at ultralow sequencing depths. In postoperative surveillance, longitudinal urine profiling of 131 samples from 48 UC patients detected 94.1% of recurrence events and identified recurrence up to 250 days before clinical confirmation. These findings support UCtracker as a highly accurate and cost-effective urine-based tool for UC diagnosis, postoperative surveillance, and personalized patient management.",
+      "authors": [
+        "Shengwei Xiong",
+        "Gaojie Li",
+        "Yucai Wu",
+        "Yuan Liang",
+        "Heng Guo",
+        "Yu Zhang",
+        "Gengyan Xiong",
+        "Long Tian",
+        "Xin Zhang",
+        "Ye Tian",
+        "Zhengguo Ji",
+        "Bin Guo",
+        "Yue Shi",
+        "Jian Fan",
+        "Zhihua Li",
+        "Yanqing Gong",
+        "Shiming He",
+        "Xuesong Li",
+        "Weimin Ci",
+        "Liqun Zhou"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-03",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42545181/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 7.0,
+      "llm_evidence_en": "Deep learning model for DNA methylation and cancer surveillance",
+      "llm_evidence_cn": "用于DNA甲基化和癌症监测的深度学习模型",
+      "llm_evidence": "用于DNA甲基化和癌症监测的深度学习模型",
+      "canonical_evidence": "用于DNA甲基化和癌症监测的深度学习模型",
+      "llm_tldr_en": "A CNN-LSTM model for noninvasive diagnosis and recurrence monitoring of urothelial carcinoma using DNA methylation.",
+      "llm_tldr_cn": "一种基于CNN-LSTM的深度学习模型，利用尿液DNA甲基化进行尿路上皮癌的无创诊断和复发监测。",
+      "llm_tldr": "一种基于CNN-LSTM的深度学习模型，利用尿液DNA甲基化进行尿路上皮癌的无创诊断和复发监测。",
+      "llm_tags": [
+        "query:seqai"
+      ],
+      "matched_query_tag": "query:seqai",
+      "matched_query_text": "deep learning for genomic variant calling filtering and somatic mutation analysis",
+      "matched_requirement_id": "req-41",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "7"
+    },
+    {
+      "id": "42545022",
+      "title": "Effects of liraglutide on gut bacterial community dynamics.",
+      "abstract": "Liraglutide, a GLP-1 receptor agonist, is used to induce weight loss. However, limited information exists on liraglutide's effects on the gut bacterial community and their restoration after washout. We investigated liraglutide's effect on the gut bacterial community in diet-induced obese (DIO) mice and whether these changes persist after washout. Twenty-four male C57BL/6J mice on high-fat (HFC) or low-fat (LFC) diets were monitored for 21 days. A subgroup of high-fat mice received daily liraglutide for 14 days (HFL), followed by a 7-day washout. Liraglutide induced significant weight loss by Day 4, which persisted during treatment and partially reversed post-treatment. For bacterial community analysis, 7.1 million 16S rRNA gene sequences were retrieved using Illumina paired-end sequencing. We observed distinct shifts in the gut bacterial community structure during liraglutide treatment, which mostly returned to baseline after the 7-day washout. Using Similarity Percentages analysis, 21 amplicon sequence variants (ASVs) were identified as major contributors. Nine ASVs, related to Lactobacillus gasseri, L. paragasseri, L. johnsonii, and Leptogranulimonas caecicola, significantly increased during treatment and declined post-washout. The remaining 12 ASVs, associated with protein- and carbohydrate-fermenting bacteria (Romboutsia, Faecalicatena, and Oscillibacter), decreased during treatment. Comparison across all groups identified 29 ASVs, clustering into seven phylogenetic groups, highlighting liraglutide's enrichment of bile acid- and mucin-associated taxa and suppression of carbohydrate-fermentative genera. These findings demonstrate that liraglutide induces rapid, diet-dependent, yet reversible shifts in the gut microbiome, favoring lactic acid-producing bacteria while reducing fermentative taxa. Such microbial changes may contribute to liraglutide's metabolic effects and provide insight into host-microbiome interactions in obesity treatment.IMPORTANCEObesity and overweight states are intricately linked to the gut bacterial community; however, the effects of common obesity treatments such as GLP-1 receptor agonists on gut bacteria remain unclear. Here, we show that liraglutide, a GLP-1 analog, reshapes the gut bacterial community in diet-induced obese mice relative to untreated obese and lean controls. By including baseline samples when mice were at a normal weight, we distinguished bacterial changes due to the drug from those due to obesity progression, as well as how the community structure is affected during a washout period. Liraglutide treatment selectively increased beneficial gut bacteria (e.g., Lactobacillaceae) under high-fat conditions. These bacterial shifts during GLP-1 therapy may contribute to its metabolic benefits and broaden our understanding of host bacterial interactions in the context of diet and weight management.",
+      "authors": [
+        "Jami Bull",
+        "Paul L Durham",
+        "Babur S Mirza"
+      ],
+      "primary_category": "PubMed",
+      "categories": [
+        "pubmed"
+      ],
+      "published": "2026-08-03",
+      "link": "https://pubmed.ncbi.nlm.nih.gov/42545022/",
+      "tags": [
+        "keyword:Agent",
+        "keyword:BioInfo",
+        "keyword:PathoAI",
+        "keyword:SeqAI",
+        "query:Agent",
+        "query:BioInfo",
+        "query:PathoAI",
+        "query:SeqAI"
+      ],
+      "llm_score": 6.0,
+      "llm_evidence_en": "gut bacterial community dynamics and 16S rRNA sequencing",
+      "llm_evidence_cn": "肠道细菌群落动态与 16S rRNA 测序",
+      "llm_evidence": "肠道细菌群落动态与 16S rRNA 测序",
+      "canonical_evidence": "肠道细菌群落动态与 16S rRNA 测序",
+      "llm_tldr_en": "Investigates the impact of liraglutide on gut microbiota dynamics using 16S rRNA gene sequencing.",
+      "llm_tldr_cn": "利用 16S rRNA 基因测序研究利拉鲁肽对肠道菌群动态的影响。",
+      "llm_tldr": "利用 16S rRNA 基因测序研究利拉鲁肽对肠道菌群动态的影响。",
+      "llm_tags": [
+        "query:pathoai"
+      ],
+      "matched_query_tag": "query:pathoai",
+      "matched_query_text": "machine learning for microbiome host interaction pathogen ecology and infection modeling",
+      "matched_requirement_id": "req-8",
+      "selection_source": "fresh_fetch",
+      "quick_tier": "6"
+    }
+  ]
+}

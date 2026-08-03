@@ -1,0 +1,45 @@
+Title: Effects of liraglutide on gut bacterial community dynamics - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42545022/
+
+Markdown Content:
+Actions
+
+. 2026 Aug 3:e0034326.
+
+doi: 10.1128/spectrum.00343-26.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42545022**
+*    DOI: [10.1128/spectrum.00343-26](https://doi.org/10.1128/spectrum.00343-26)
+
+## Effects of liraglutide on gut bacterial community dynamics
+
+Jami Bull et al. Microbiol Spectr.2026.
+
+## Abstract
+
+Liraglutide, a GLP-1 receptor agonist, is used to induce weight loss. However, limited information exists on liraglutide's effects on the gut bacterial community and their restoration after washout. We investigated liraglutide's effect on the gut bacterial community in diet-induced obese (DIO) mice and whether these changes persist after washout. Twenty-four male C57BL/6J mice on high-fat (HFC) or low-fat (LFC) diets were monitored for 21 days. A subgroup of high-fat mice received daily liraglutide for 14 days (HFL), followed by a 7-day washout. Liraglutide induced significant weight loss by Day 4, which persisted during treatment and partially reversed post-treatment. For bacterial community analysis, 7.1 million 16S rRNA gene sequences were retrieved using Illumina paired-end sequencing. We observed distinct shifts in the gut bacterial community structure during liraglutide treatment, which mostly returned to baseline after the 7-day washout. Using Similarity Percentages analysis, 21 amplicon sequence variants (ASVs) were identified as major contributors. Nine ASVs, related to _Lactobacillus gasseri_, _L. paragasseri_, _L. johnsonii_, and _Leptogranulimonas caecicola_, significantly increased during treatment and declined post-washout. The remaining 12 ASVs, associated with protein- and carbohydrate-fermenting bacteria (_Romboutsia_, _Faecalicatena_, and _Oscillibacter_), decreased during treatment. Comparison across all groups identified 29 ASVs, clustering into seven phylogenetic groups, highlighting liraglutide's enrichment of bile acid- and mucin-associated taxa and suppression of carbohydrate-fermentative genera. These findings demonstrate that liraglutide induces rapid, diet-dependent, yet reversible shifts in the gut microbiome, favoring lactic acid-producing bacteria while reducing fermentative taxa. Such microbial changes may contribute to liraglutide's metabolic effects and provide insight into host-microbiome interactions in obesity treatment.IMPORTANCEObesity and overweight states are intricately linked to the gut bacterial community; however, the effects of common obesity treatments such as GLP-1 receptor agonists on gut bacteria remain unclear. Here, we show that liraglutide, a GLP-1 analog, reshapes the gut bacterial community in diet-induced obese mice relative to untreated obese and lean controls. By including baseline samples when mice were at a normal weight, we distinguished bacterial changes due to the drug from those due to obesity progression, as well as how the community structure is affected during a washout period. Liraglutide treatment selectively increased beneficial gut bacteria (e.g., Lactobacillaceae) under high-fat conditions. These bacterial shifts during GLP-1 therapy may contribute to its metabolic benefits and broaden our understanding of host bacterial interactions in the context of diet and weight management.
+
+**Keywords:** bacterial community restoration after washout; body weight loss; gut microbiome; high-fat and low-fat diets; liraglutide-induced microbiome shifts.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [Glucagon-Like Peptide 1 Receptor (_Glp1r_) Deficiency Does Not Appreciably Alter Airway Inflammation or Gut-Lung Microbiome Axis in a Mouse Model of Obese Allergic Airways Disease and Bariatric Surgery.](https://pubmed.ncbi.nlm.nih.gov/40046174/)
+
+Kim YJ, Ihrie VM, Shi P, Ihrie MD, Womble JT, Meares AH, Granek JA, Gunsch CK, Ingram JL.Kim YJ, et al.J Asthma Allergy. 2025 Feb 27;18:285-305. doi: 10.2147/JAA.S478329. eCollection 2025.J Asthma Allergy. 2025.PMID: 40046174 Free PMC article. 
+*   [Metabolic state determines the brain and direct islet effects of liraglutide on enhanced insulin secretion.](https://pubmed.ncbi.nlm.nih.gov/42350670/)
+
+Saponaro C, Imbernon M, Louvet I, Deligia E, Chen S, Davies I, Acosta-Montalvo A, Moreno-Lopez M, Wemelle E, Kothegala L, Porteiro B, Auger F, Zubiaga L, Dellalau N, Thevenet J, Mühlemann M, Pasquetti G, Gmyr V, Pfrieger FW, Nogueiras R, Schwaninger M, Rorsman P, Staels B, Kerr-Conte J, Knauf C, Jones B, Pattou F, Prevot V, Bonner C.Saponaro C, et al.Diabetologia. 2026 Sep;69(9):2534-2553. doi: 10.1007/s00125-026-06779-2. Epub 2026 Jun 25.Diabetologia. 2026.PMID: 42350670 
+*   [Synbiotic-driven improvement of metabolic disturbances is associated with changes in the gut microbiome in diet-induced obese mice.](https://pubmed.ncbi.nlm.nih.gov/30792016/)
+
+Ke X, Walker A, Haange SB, Lagkouvardos I, Liu Y, Schmitt-Kopplin P, von Bergen M, Jehmlich N, He X, Clavel T, Cheung PCK.Ke X, et al.Mol Metab. 2019 Apr;22:96-109. doi: 10.1016/j.molmet.2019.01.012. Epub 2019 Feb 5.Mol Metab. 2019.PMID: 30792016 Free PMC article. 
+*   [Dietary glycation compounds - implications for human health.](https://pubmed.ncbi.nlm.nih.gov/39150724/)
+
+Hellwig M, Diel P, Eisenbrand G, Grune T, Guth S, Henle T, Humpf HU, Joost HG, Marko D, Raupbach J, Roth A, Vieths S, Mally A.Hellwig M, et al.Crit Rev Toxicol. 2024 Sep;54(8):485-617. doi: 10.1080/10408444.2024.2362985. Epub 2024 Aug 16.Crit Rev Toxicol. 2024.PMID: 39150724 
+*   [Folic acid supplementation and malaria susceptibility and severity among people taking antifolate antimalarial drugs in endemic areas.](https://pubmed.ncbi.nlm.nih.gov/36321557/)
+
+Crider K, Williams J, Qi YP, Gutman J, Yeung L, Mai C, Finkelstain J, Mehta S, Pons-Duran C, Menéndez C, Moraleda C, Rogers L, Daniels K, Green P.Crider K, et al.Cochrane Database Syst Rev. 2022 Feb 1;2(2022):CD014217. doi: 10.1002/14651858.CD014217.Cochrane Database Syst Rev. 2022.PMID: 36321557 Free PMC article.Updated.

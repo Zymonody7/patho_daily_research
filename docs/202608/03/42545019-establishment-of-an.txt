@@ -1,0 +1,45 @@
+Title: Establishment of an in vitro aerobic bacterial community as a model of the human lung microbiome - PubMed
+
+URL Source: https://pubmed.ncbi.nlm.nih.gov/42545019/
+
+Markdown Content:
+Actions
+
+. 2026 Aug 3:e0049126.
+
+doi: 10.1128/msystems.00491-26.  Online ahead of print.
+
+Affiliations
+
+*    PMID: **42545019**
+*    DOI: [10.1128/msystems.00491-26](https://doi.org/10.1128/msystems.00491-26)
+
+## Establishment of an _in vitro_ aerobic bacterial community as a model of the human lung microbiome
+
+Maria Kulosa et al. mSystems.2026.
+
+## Abstract
+
+The human lung microbiome is increasingly recognized as a key player in drug metabolism, yet it remains largely understudied. To replicate this complex physiological environment in a controlled setting, we developed a simplified artificial lung microbiome model composed of four representative bacterial species: _Pseudomonas koreensis_, _Rothia aeria_, _Neisseria cinerea_, and _Streptococcus downei_. We successfully established a stable 10-day co-culture at 34°C using brain heart infusion medium, as validated by quantitative PCR, viability PCR, and conventional microbiological methodologies. Integrated bioinformatic analyses revealed a variety of potential microbe-microbe interactions, which were supported by metaproteomic analysis using mass spectrometry. Our model provides a foundation for in-depth studies, such as, for example, the effects of pulmonary drugs on the lung microbiome, and how, in turn, the microbiome may influence therapeutic outcomes.**IMPORTANCE**Once thought to be sterile, the lung microbiome is now understood to host a dynamic microbiome capable of influencing respiratory health and disease. Understanding interactions among the microbes within this community is essential, as these relationships may drive disease progression or foster resilience in both acute and chronic inflammatory conditions. We developed a reproducible lung microbiome model comprising _Pseudomonas koreensis_, _Rothia aeria_, _Streptococcus downei_, and _Neisseria cinerea_. Simplified models enable controlled studies to dissect specific microbial interactions, laying the foundation for insights into lung microbial ecology. In the future, more complex models will enhance our understanding of microbial roles in disease outcomes, with our platform serving as a basis for testing therapeutic strategies.
+
+**Keywords:** artificial microbiome; bacterial consortia; co-culture model; lung microbiome; microbiology; microbiome.
+
+[PubMed Disclaimer](https://pubmed.ncbi.nlm.nih.gov/disclaimer/)
+
+## Similar articles
+
+*   [A multi-strain human skin microbiome model provides a testbed for disease modeling.](https://pubmed.ncbi.nlm.nih.gov/41852440/)
+
+Maloney AL, Crawford T, Hurlbut J, Martinez M, Mulhern TJ, Wiellette EL, Vedula EM, Vijayakumar V.Maloney AL, et al.Front Microbiomes. 2025 Feb 4;4:1473292. doi: 10.3389/frmbi.2025.1473292. eCollection 2025.Front Microbiomes. 2025.PMID: 41852440 Free PMC article. 
+*   [The future of Cochrane Neonatal.](https://pubmed.ncbi.nlm.nih.gov/33036834/)
+
+Soll RF, Ovelman C, McGuire W.Soll RF, et al.Early Hum Dev. 2020 Nov;150:105191. doi: 10.1016/j.earlhumdev.2020.105191. Epub 2020 Sep 12.Early Hum Dev. 2020.PMID: 33036834 
+*   [Integrated diversity and network analyses reveal drivers of microbiome dynamics.](https://pubmed.ncbi.nlm.nih.gov/40952002/)
+
+Guan R, Garrido-Oter R.Guan R, et al.mSystems. 2025 Oct 22;10(10):e0056425. doi: 10.1128/msystems.00564-25. Epub 2025 Sep 15.mSystems. 2025.PMID: 40952002 Free PMC article. 
+*   [Towards microbiome-informed strategies for predicting and preventing pregnancy complications.](https://pubmed.ncbi.nlm.nih.gov/42268809/)
+
+Ruschman GL, Bittor JA, Charnock-Jones DS, Day-Walsh PE.Ruschman GL, et al.Reprod Fertil. 2026 Jun 23;7(2):RAF260009. doi: 10.1530/RAF-26-0009. Print 2026 Apr 1.Reprod Fertil. 2026.PMID: 42268809 Free PMC article.Review. 
+*   [Why the COPD Microbiome Matters: How Airway Microbes Shape Disease Severity and Treatment Response.](https://pubmed.ncbi.nlm.nih.gov/41868718/)
+
+Jia S, Liu P, Zhang H, Zeng H, Chen G, Zhao L.Jia S, et al.Int J Chron Obstruct Pulmon Dis. 2026 Mar 17;21:531521. doi: 10.2147/COPD.S531521. eCollection 2026.Int J Chron Obstruct Pulmon Dis. 2026.PMID: 41868718 Free PMC article.Review.

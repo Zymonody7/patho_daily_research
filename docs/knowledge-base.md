@@ -1,10 +1,37 @@
 # 知识库
 
-- 最近沉淀条目数：85
+- 最近沉淀条目数：94
 - 用途：把每日抓取、每日解读的结果沉淀成可检索的阅读索引。
 
 ## 最近论文
 
+- [Same-Slide Spatial Multiomics Integration with IN-DEPTH Reveals Tumor Virus-Linked Spatial Reorganization of the Tumor Microenvironment.](#/202608/03/202608/03/41874448-same-slide-spatial-multiomics-integration-with-in-depth-reveals-tumor-virus-linked-spatial-reorganization-of-the-tumor-microenvironment)
+  - TLDR：针对空间转录组与蛋白质组技术难以在同一切片上实现高分辨率、无损集成的挑战，本文开发了 IN-DEPTH 工作流，利用单细胞空间蛋白质组影像引导同片转录组捕获，并配套 SGCC 跨模态图分析框架。在弥漫性大 B 细胞淋巴瘤研究中，该方法成功揭示了 EBV 病毒驱动的免疫微环境重构，包括 C1Q 巨噬细胞极化与 CD4 T 细胞功能障碍，为构建多模态空间 AI 模型提供了高质量数据基础。
+  - Tags：`query:seqai`
+- [PRISM: Prior-enhanced Inference for Spatial Transcriptomic Cell Type Mapping.](#/202608/03/202608/03/42490201-prism-prior-enhanced-inference-for-spatial-transcriptomic-cell-type-mapping)
+  - TLDR：针对空间转录组（ST）细胞类型标注中存在的跨域差异大、平台噪声干扰及空间依赖性缺失等问题，本文提出了 PRISM 框架。该方法通过构建生物学先验提取标志基因，利用集成学习生成伪标签，并结合空间信息进行多级精细化调整。实验证明，PRISM 在多种组织和平台数据集上均表现优异，尤其在无标签场景下展现出极强的鲁棒性，为解析复杂组织结构提供了可靠工具。
+  - Tags：`query:seqai`
+- [Discovery of phage lysin against Vibrio parahaemolyticus and characterization of its antibacterial activity.](#/202608/03/202608/03/42090863-discovery-of-phage-lysin-against-vibrio-parahaemolyticus-and-characterization-of-its-antibacterial-activity)
+  - TLDR：副溶血性弧菌是导致食源性疾病和水产损失的主要病原体，但传统噬菌体裂解酶难以穿透革兰氏阴性菌的外膜。本研究通过计算分析筛选出893个候选裂解酶，并成功表达了10个新型酶，其中LysV569表现尤为突出。它无需外膜渗透剂即可显著降低菌量，且具备极高的热稳定性（4-85°C），能有效清除生物膜并减少三文鱼表面的细菌污染，为食品安全和环境治理提供了强效工具。
+  - Tags：`query:pathoai`
+- [Mass Spectrometry-Based Extracellular Vesicle Proteomics for Biomarker Discovery.](#/202608/03/202608/03/42544084-mass-spectrometry-based-extracellular-vesicle-proteomics-for-biomarker-discovery)
+  - TLDR：细胞外囊泡（EV）携带的蛋白质是疾病诊断的重要生物标志物，但其提取和分析具有挑战性。本文综述了利用质谱技术进行高分辨率EV蛋白质组分析的完整框架，重点介绍了如何结合机器学习和多组学计算分析来提取微弱的疾病信号。该研究为精准医疗提供了从样本处理到数据挖掘的标准化路径，推动了EV作为下一代生物标志物发现平台的发展。
+  - Tags：`query:seqai`
+- [Rapid determination of potential mycotoxin-producing fungi contamination in post-harvest blueberries based on near infra-red spectroscopy and enhanced prototypical network.](#/202608/03/202608/03/42545152-rapid-determination-of-potential-mycotoxin-producing-fungi-contamination-in-post-harvest-blueberries-based-on-near-infra-red-spectroscopy-and-enhanced-prototypical-network)
+  - TLDR：针对蓝莓采后真菌感染在深色表皮下难以肉眼识别的问题，本研究结合近红外光谱（NIR）技术，提出了一种增强型原型网络模型。该模型通过集成空间注意力机制的卷积神经网络和MetaMix数据增强，在小样本情况下实现了对三种产毒真菌及健康样本的高精度分类，准确率达97.9%，为蓝莓真菌毒素风险的早期无损检测提供了有效方案。
+  - Tags：`query:pathoai`
+- [GelMA-based peptide conjugated hydrogel with antifibrotic modulation and antibiofilm activity.](#/202608/03/202608/03/42544100-gelma-based-peptide-conjugated-hydrogel-with-antifibrotic-modulation-and-antibiofilm-activity)
+  - TLDR：针对伤口愈合中纤维化过度和植入物感染的难题，本研究在GelMA水凝胶中通过共价结合抗纤维化肽(DR8)和抗菌肽(P9-4)，开发出双功能水凝胶GelMA-AMP/AFP。实验证明该材料在保持物理性能的同时，能显著抑制成纤维细胞增殖及胶原沉积，并有效阻断耐药菌生物膜形成，为多功能生物材料设计提供了新策略。
+  - Tags：`query:pathoai`
+- [UCtracker: A Deep Learning-Based DNA Methylation Model for Noninvasive Diagnosis and Recurrence Surveillance of Urothelial Carcinoma in a Prospective Study.](#/202608/03/202608/03/42545181-uctracker-a-deep-learning-based-dna-methylation-model-for-noninvasive-diagnosis-and-recurrence-surveillance-of-urothelial-carcinoma-in-a-prospective-study)
+  - TLDR：针对尿路上皮癌（UC）无创诊断和术后监测的难题，研究者开发了基于尿液DNA甲基化的深度学习模型UCtracker。该模型利用CNN-BiLSTM架构处理2000个关键的低甲基化差异区域，在多中心验证中实现了超过90%的灵敏度和特异性，且在极低测序深度下表现稳定。在术后随访中，它能提前多达250天预警复发，为UC的精准管理提供了高性价比的无创工具。
+  - Tags：`query:seqai`
+- [Establishment of an](#/202608/03/202608/03/42545019-establishment-of-an)
+  - TLDR：肺部微生物组对药物代谢具有重要影响但目前缺乏受控的研究模型。本研究通过筛选韩国假单胞菌、埃里亚罗氏菌、灰色奈瑟菌和唐氏链球菌四种代表性菌株，在34°C环境下成功构建了为期10天的稳定人工肺部微生物共培养模型。利用定量PCR和元蛋白质组学分析验证了菌群间的代谢交互作用，为研究肺部药物与微生物组的相互作用及对治疗效果的影响提供了标准化的实验平台。
+  - Tags：`query:seqai`
+- [Effects of liraglutide on gut bacterial community dynamics.](#/202608/03/202608/03/42545022-effects-of-liraglutide-on-gut-bacterial-community-dynamics)
+  - TLDR：针对利拉鲁肽（GLP-1受体激动剂）对肠道菌群影响及其可逆性尚不明确的问题，本研究通过对肥胖模型小鼠进行为期14天的药物干预及7天洗脱期观察，利用16S rRNA测序分析菌群动态。结果发现利拉鲁肽能显著诱导菌群结构改变，特别是增加了乳杆菌等有益菌并抑制了部分发酵菌，且这种改变在停药后基本恢复。该研究揭示了GLP-1药物通过调节肠道微生态辅助代谢改善的潜在机制，为理解宿主-微生物交互作用提供了新视角。
+  - Tags：`query:pathoai`
 - [From generation to validation: Deep generative models for antimicrobial peptide discovery.](#/202608/02/202608/02/42054758-from-generation-to-validation-deep-generative-models-for-antimicrobial-peptide-discovery)
   - TLDR：针对全球抗生素耐药性危机，传统抗菌肽（AMP）筛选效率低下的问题，本文综述了利用VAE、GAN及扩散模型等深度生成技术进行AMP从头设计的最新进展。文章系统对比了不同生成策略在活性与安全性平衡上的表现，并总结了从序列生成到实验验证的完整流程，为开发临床可转化的新型抗菌药物提供了方法论指导。
   - Tags：`query:pathoai`
